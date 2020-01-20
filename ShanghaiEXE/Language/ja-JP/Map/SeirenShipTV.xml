@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShipTVName" Value="客室テレビの電脳" />
+  <Dialogue Key="Map.SeirenShipTVSprite1Stage1Dialogue1FaceSprite" Value="私は　ルームサービスの,スプライトちゃん　です" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite1Stage1Dialogue2QuestionFaceSprite" Value="サブチップを　買いますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.SeirenShipTVSprite1Stage1Dialogue2Options" Value="買う,買わない" />
+  <Dialogue Key="Map.SeirenShipTVSprite2Stage1Dialogue1FaceSprite" Value="アイツ　ルームサービスニ,ナルタメニ　シャベルノ,スゴイ　レンシュウシテタヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite2Stage1Dialogue2FaceSprite" Value="レンシュウスレバ,キレイニ　ハナセル,モンナンデスネー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite3Stage1Dialogue1FaceSprite" Value="コノ　ミステリーデータハ,ジユウニ　モッテイッテモ,カマイマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite3Stage1Dialogue2FaceSprite" Value="イワユル　アメニティ　ッテ,ヤツデスヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage1Dialogue1FaceNone" Value="フフフフ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage1Dialogue2FaceNone" Value="ハハハハハ！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue1FaceShanghai" Value="ついに念願の時が来た！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue2FaceShanghai" Value="ブッカー　参加者は？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue3FaceHenchie" Value="ハッ！,今回の作戦には,２００名が集まりました" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue4FaceHenchie" Value="この場にいない者たちは,既に現場にて作戦を,遂行しております" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue5FaceShanghai" Value="よろしい････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue6FaceShanghai" Value="ここに集まりたる,精鋭のしもべたちよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue7FaceShanghai" Value="諸君らの健闘次第で,我々の未来が決まると言っても,過言ではない！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue1FaceNaviPurplePunk" Value="へっへっへ････腕がなるぜぇ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue2FaceNaviPurpleHeel" Value="はやくやらせてくれ！,身体がウズウズするぜ！" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue3FaceShanghai" Value="慌てるな！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue4FaceShanghai" Value="あたしはこれから,エキシビションネットバトルに出る" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue5FaceShanghai" Value="その間　他の客は,バトルに釘付けになるはず" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue6FaceNaviPurplePunk" Value="ふむふむ････！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue7FaceShanghai" Value="その隙に････いいわね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue8FaceNaviPurpleHeel" Value="イエス　マム！！" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue9FaceNaviPurplePunk" Value="イエス　マム！！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue10FaceNaviBlueRobot" Value="シャンハイ様ばんざーい！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue11FaceNaviPurpleFemale" Value="我々に明るい未来をー！！" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue12FaceNone" Value="わぁぁぁぁ！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue13FaceShanghai" Value="フフフフ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue14FaceShanghai" Value="ハハハハハ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue1FaceShanghai" Value="ブッカー！,報告を！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue2FaceHenchie" Value="ハッ！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue3FaceHenchie" Value="今回の作戦で,手に入れた高級料理は,電脳タッパーの数から････" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue4FaceHenchie" Value="１年分ほどの宴会に,使える量となります！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue5FaceShanghai" Value="でかしたぁ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue6FaceShanghai" Value="フハハハ！,これで１年間は高級料理で,宴会が････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage3Dialogue1FaceNone" Value="ゴゴゴゴ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage5Dialogue1FaceShanghai" Value="あれ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage5Dialogue2FaceHenchie" Value="何の音でしょうか？" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage7Dialogue1FaceNone" Value="ゴゴゴゴ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage9Dialogue1FaceShanghai" Value="音じゃない････,揺れてる？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage11Dialogue1FaceNone" Value="ゴゴゴゴ････！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage11Dialogue2FaceNone" Value="バッシャーーーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue1FaceShanghai" Value="ゲホッゲホッ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue2FaceShanghai" Value="一体何が････！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue3FaceHenchie" Value="今　すごい勢いで,この電脳を水が流れて････" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage15Dialogue1FaceHenchie" Value="ああっ！！,シャンハイ様！！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage15Dialogue2FaceShanghai" Value="ああーーーーー！,あたしのタッパーーーー！！" Face="Shanghai" Mono="False" />
+</data>

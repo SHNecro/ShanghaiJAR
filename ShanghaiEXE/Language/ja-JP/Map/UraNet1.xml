@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.UraNet1Name" Value="ウラインターネット１" />
+  <Text Key="Map.UraNet1RandomBattle1Enemy1" Value="チンピラナビ" />
+  <Text Key="Map.UraNet1RandomBattle1Enemy2" Value="チンピラナビ" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy1" Value="チンピラナビ" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy2" Value="チンピラナビ" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy3" Value="チンピラナビ" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue1FaceNaviPurplePunk" Value="よう　てめえオモテのナビにしては,なかなか貫禄あるじゃねえか" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue2FaceNaviPurplePunk" Value="へへへ　そんなあんたに,ウラのルールを教えてやる" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue3FaceNaviPurplePunk" Value="ウラは無法地帯だからな,そこらじゅうで急にネットナビが,襲い掛かってくるぜ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue4FaceNaviPurplePunk" Value="で　倒せりゃ相手のチップを,一枚奪えるんだ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue5FaceNaviPurplePunk" Value="まあ　やられちまったら,元も子もねえがな,それがウラってもんさ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue6FaceNaviPurplePunk" Value="せいぜいデリートされないように,気をつけることだな" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Man2Stage1Dialogue1FaceNaviPurplePunk" Value="こっちに来ちまったら,エイエンエリアには戻れねえぜ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Man2Stage1Dialogue2FaceNaviPurplePunk" Value="どうしても帰りたかったら,このエリア１の奥にある,ワープを探すこったな" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Female1Stage1Dialogue1FaceNaviPurpleFemale" Value="オモテじゃテダレだったそうだけど,ウラではどうかしら？,フフフ････" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Female1Stage1Dialogue2FaceNaviPurpleFemale" Value="こんなところで苦労するようじゃ,この先に行ったらヨウシャなく,デリートされちゃうから♪" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue1FaceNaviPurpleHeel" Value="へへへ　ネエちゃん,ダークチップ欲しくないか？" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue2FaceNaviPurpleHeel" Value="今なら８００００ゼニーで,売ってやってもいいぜ" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue3QuestionFaceNaviPurpleHeel" Value="買うかい？" Face="NaviPurpleHeel" Mono="False" />
+  <Text Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue3Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue4FaceNaviPurpleHeel" Value="へっ　じゃあお呼びじゃねえよ,あっち行ってろ" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue5FaceNaviPurpleHeel" Value="ヘヘヘ　マイドぉ！" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue6FaceNaviPurpleHeel" Value="チッ････足りねえじゃねえか,貧乏人に用はねえよ,帰った帰った" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage3Dialogue1FaceNaviPurpleHeel" Value="一人一つまでしか,売らねえポリシーなんだ" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage3Dialogue2FaceNaviPurpleHeel" Value="帰った帰った" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="フフフ　ここで襲ってくるナビを,返り討ちにしてチップを,集めてるのよ" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="この近くにダークチップの,売人がいると聞いてきたんだが,一体どこにいるんだ？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage1Dialogue1FaceNone" Value="不気味な扉が道を塞いで,通ることができない！" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue1FaceNone" Value="シャンハイは,「ＲＯＭ−ＩＤ」を使った！" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue2FaceNone" Value="不気味な扉が開いた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1GuidePlateStage1Dialogue1FaceNone" Value="この先　危険！,命が惜しけりゃ　そこのワープ！,お帰りは　そちら" Face="None" Mono="False" />
+</data>

@@ -1,0 +1,92 @@
+﻿using NSAttack;
+using NSBattle;
+using NSBattle.Character;
+using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Rendering;
+using SlimDX;
+using System.Drawing;
+
+namespace NSChip
+{
+  internal class MonkeyPole1 : ChipBase
+  {
+    private const int speed = 2;
+    protected int color;
+
+    public MonkeyPole1(MyAudio s)
+      : base(s)
+    {
+      this.number = 130;
+      this.name = NSGame.ShanghaiEXE.Translate("Chip.MonkeyPole1Name");
+      this.element = ChipBase.ELEMENT.leaf;
+      this.power = 100;
+      this.subpower = 0;
+      this.regsize = 22;
+      this.reality = 1;
+      this._break = false;
+      this.shadow = false;
+      this.powerprint = true;
+      this.code[0] = ChipFolder.CODE.K;
+      this.code[1] = ChipFolder.CODE.M;
+      this.code[2] = ChipFolder.CODE.N;
+      this.code[3] = ChipFolder.CODE.asterisk;
+      this.color = 0;
+      var information = NSGame.ShanghaiEXE.Translate("Chip.MonkeyPole1Desc");
+      this.information[0] = information[0];
+      this.information[1] = information[1];
+      this.information[2] = information[2];
+      this.Init();
+    }
+
+    public override void Action(CharacterBase character, SceneBattle battle)
+    {
+      if (character.waittime == 1)
+      {
+        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+        int pX = character.union == Panel.COLOR.red ? 5 : 0;
+        for (int pY = 0; pY < 3; ++pY)
+          battle.attacks.Add(this.Paralyze(new MonkeyPoleChip(this.sound, battle, pX, pY, character.union, this.Power(character), 1, this.element, this.color)));
+      }
+      if (character.waittime < 12)
+        return;
+      base.Action(character, battle);
+    }
+
+    public override void GraphicsRender(
+      IRenderer dg,
+      Vector2 p,
+      int c,
+      bool printgraphics,
+      bool printstatus)
+    {
+      if (printgraphics)
+      {
+        this._rect = new Rectangle(336, 0, 56, 48);
+        dg.DrawImage(dg, "chipgraphic16", this._rect, true, p, Color.White);
+      }
+      base.GraphicsRender(dg, p, c, printgraphics, printstatus);
+    }
+
+    public override void IconRender(
+      IRenderer dg,
+      Vector2 p,
+      bool select,
+      bool custom,
+      int c,
+      bool noicon)
+    {
+      if (!noicon)
+      {
+        this._rect = this.IconRect(select);
+        dg.DrawImage(dg, "chipicon", this._rect, true, p, Color.White);
+      }
+      base.IconRender(dg, p, select, custom, c, noicon);
+    }
+
+    public override void Render(IRenderer dg, CharacterBase player)
+    {
+    }
+  }
+}
+

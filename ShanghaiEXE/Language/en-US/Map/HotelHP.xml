@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HotelHPName" Value="Hotel HP" />
+  <Dialogue Key="Map.HotelHPSpriteStage1Dialogue1FaceSprite" Value="I AM THE SPRITE IN,CHARGE OF ROOM,SERVICE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelHPSpriteStage1Dialogue2FaceSprite" Value="YOU CAN ORDER FOOD，,DRINK，AND MORE FROM,YOUR ROOM!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelHPCarPickupStage1Dialogue1FaceNone" Value="It’s a cyber shuttle to,Engelles Square." Face="None" Mono="False" />
+  <Dialogue Key="Map.HotelHPCarPickupStage1Dialogue2QuestionFaceNone" Value="Take the shuttle to,Engelles Square? " Face="None" Mono="False" />
+  <Text Key="Map.HotelHPCarPickupStage1Dialogue2Options" Value="Yes,No" />
+</data>

@@ -1,0 +1,113 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+                    xmlns:controls="clr-namespace:MapEditor.Controls"
+                    xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules"
+                    xmlns:core="clr-namespace:MapEditor.Core">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:MapWarpEvent}">
+        <StackPanel Orientation="Vertical">
+            <!--
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Target Map:"/>
+                <controls:MapSelector Grid.Column="1"
+                                      MapName="{Binding TargetMap, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </Grid>
+            -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Position:"/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="X" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+                <TextBlock Grid.Column="2" Text=","/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="3">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="Y" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+                <TextBlock Grid.Column="4" Text=","/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="5"
+                                    Minimum="0">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="Z" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxBindingValidationRule ValidationStep="RawProposedValue">
+                                    <validationrules:MinMaxBindingValidationRule.Bounds>
+                                        <core:MinMaxBinding Minimum="0"/>
+                                    </validationrules:MinMaxBindingValidationRule.Bounds>
+                                </validationrules:MinMaxBindingValidationRule>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Direction:" />
+                <UniformGrid Grid.Column="1" Rows="2" Columns="2"
+                                HorizontalAlignment="Right">
+                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleWestArrowIcon}"
+                                 ToolTip="West"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.West}}" />
+                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleNorthArrowIcon}"
+                                 ToolTip="North"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.North}}" />
+                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleSouthArrowIcon}"
+                                 ToolTip="South"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.South}}" />
+                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleEastArrowIcon}"
+                                 ToolTip="East"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.East}}" />
+                </UniformGrid>
+                <!--
+                <StackPanel Grid.Column="2"
+                            Orientation="Vertical"
+                            VerticalAlignment="Center">
+                    <RadioButton GroupName="AngleSelectionGroup"
+                                 Content="No initial move"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.SouthEast}}" />
+                </StackPanel>
+                -->
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Dialogue Key="Messages.AliceRequestInfo1Dialogue1None" Value="null" Face="None" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo2Dialogue1Alice" Value="Our client said they were,waiting near Remilia’s,mansion." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo3Dialogue1Alice" Value="We need to deliver our client’s,DataPack to Genso Square." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo4Dialogue1Alice" Value="Our client said they were,in the main plaza of,Genso Area 2." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo5Dialogue1Alice" Value="Our client told us to find a,bad Navi in City Area 2." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo6Dialogue1Alice" Value="Let’s tell our client in Genso,Area 2 that we punished the,bad Navi." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo7Dialogue1Alice" Value="Our client is waiting for us,near the Genso University,fountain." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo8Dialogue1Alice" Value="Our client wants ice crystal,data from the back of a cold,comp....." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo9Dialogue1Alice" Value="Let’s deliver the ice crystal,data to our client." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo10Dialogue1Alice" Value="Our client was in the,Bench Comp in the,Genso Town park." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo11Dialogue1Alice" Value="Our client is in the,Genso University office,Air Purifier Comp." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo12Dialogue1Alice" Value="Our client is on the lower level,of City Area 1，the part not,connected to the Square." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo13Dialogue1Alice" Value="Our client said they were in,the Fountain Comp." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo14Dialogue1Alice" Value="”Beneath the dry earth where,rest is born”? Where on Earth,is that supposed to be....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo15Dialogue1Alice" Value="Let’s quickly take this,data chip to our client,in the Fountain Comp." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo16Dialogue1Alice" Value="Our client is in City Area 3，,right?,Let’s head over there soon." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo17Dialogue1Alice" Value="We have to get past the,P-Cube in City Area 2." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo18Dialogue1Alice" Value="Now that we’re done，let’s,report back to our client in,City Area 3!" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo19Dialogue1Alice" Value="Wasn’t our client in,the Telephone Comp?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo20Dialogue1Alice" Value="Wasn’t our client in,Eien Area 1?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo21Dialogue1Alice" Value="Let’s take this box to a man,in a suit on the third floor of,Genso University." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo22Dialogue1Alice" Value="The researcher said the man,in a suit went to Genso Town." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo23Dialogue1Alice" Value="A lady told us that the man,in a suit went to the park in,Eien Town，but...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo24Dialogue1Alice" Value="The Central City plaza....?,Don’t tell me this was all,just a waste of time!" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo25Dialogue1Alice" Value="Wasn’t our client in,Central City’s North District?" Face="Alice" Mono="False" />
+  <!-- 依頼人は永遠町のウサ公像の前にいるのよね -->
+  <Dialogue Key="Messages.AliceRequestInfo26Dialogue1Alice" Value="Our client should be by the,Usa statue in Eien Town." Face="Alice" Mono="False" />
+  <!-- ジキアラシＦとブラインドリーフＰを永遠町のウサ公像前にいる依頼人に渡せば良いのよね -->
+  <Dialogue Key="Messages.AliceRequestInfo27Dialogue1Alice" Value="We should deliver the,MagStorm F and BlndLeaf P to,the client by the Usa Statue." Face="Alice" Mono="False" />
+  <!-- 八意総合病院のテレビの電脳に依頼人がいるのよね -->
+  <Dialogue Key="Messages.AliceRequestInfo28Dialogue1Alice" Value="Our client is in the TV at,Yagokoro Hospital." Face="Alice" Mono="False" />
+  <!-- 依頼人がいるっていう花だんの電脳ってひとつしかないわよね････？ -->
+  <Dialogue Key="Messages.AliceRequestInfo29Dialogue1Alice" Value="There’s only one flowerbed,comp our client could be in...." Face="Alice" Mono="False" />
+  <!-- 千里眼のおじいさんってエイエンスクエアにいるのかな？ -->
+  <Dialogue Key="Messages.AliceRequestInfo30Dialogue1Alice" Value="Would the old sage be in,Eien Square?" Face="Alice" Mono="False" />
+  <!-- サルベージプログラムを見つけて座標　Ｘ−９８　Y−０５　に行けばいいのよね？ -->
+  <Dialogue Key="Messages.AliceRequestInfo31Dialogue1Alice" Value="The salvage program should,be at X-98 Y-05，right?" Face="Alice" Mono="False" />
+  <!-- この電脳のどこかに転生プログラムがあるのよね？探しましょう！ -->
+  <Dialogue Key="Messages.AliceRequestInfo32Dialogue1Alice" Value="The reincarnation program is,somewhere in this comp.,Let’s start searching!" Face="Alice" Mono="False" />
+  <!-- この転生プログラムを花だんの電脳に運べば依頼終了ね -->
+  <Dialogue Key="Messages.AliceRequestInfo33Dialogue1Alice" Value="The client is waiting for the,reincarnation program in,the flower comp." Face="Alice" Mono="False" />
+  <!-- 依頼人は八意総合病院の２階にいるのよね -->
+  <Dialogue Key="Messages.AliceRequestInfo34Dialogue1Alice" Value="Our client is waiting on the,second floor of,Yagokoro Hospital." Face="Alice" Mono="False" />
+  <!-- 中央街でお花屋さんを探すわよ！ -->
+  <Dialogue Key="Messages.AliceRequestInfo35Dialogue1Alice" Value="We can find a florist,somewhere in Central City." Face="Alice" Mono="False" />
+  <!-- 幽香さんのナビが消息を絶ったのはエイエンスクエアよその近くを探してみましょ -->
+  <Dialogue Key="Messages.AliceRequestInfo36Dialogue1Alice" Value="Yuuka’s Navi went missing,near Eien Square.,Let’s search nearby." Face="Alice" Mono="False" />
+  <!-- ウラインターネット３に幽香さんのナビが連れて行かれたって！ -->
+  <Dialogue Key="Messages.AliceRequestInfo37Dialogue1Alice" Value="Yuuka’s Navi was taken to,Undernet 3!" Face="Alice" Mono="False" />
+  <!-- 幽香さんのナビを助けたし中央街の幽香さんに報告しましょ -->
+  <Dialogue Key="Messages.AliceRequestInfo38Dialogue1Alice" Value="Let’s help Yuuka’s Navi and,head back to Central City to,let Yuuka know what happened." Face="Alice" Mono="False" />
+  <!-- あとはこの花をこいしちゃんに渡せば依頼完了ね -->
+  <Dialogue Key="Messages.AliceRequestInfo39Dialogue1Alice" Value="We should take these flowers,back to Koishi in the hospital." Face="Alice" Mono="False" />
+  <!-- 依頼人はシティエリア２の奥にいるらしいけど････？ -->
+  <Dialogue Key="Messages.AliceRequestInfo40Dialogue1Alice" Value="Our client said they were in,the back of City Area 2，but..." Face="Alice" Mono="False" />
+  <!-- 依頼人は中央街北区の本社ビルにいるらしいけれどもしかして････？ -->
+  <Dialogue Key="Messages.AliceRequestInfo41Dialogue1Alice" Value="I guess the client is at an office,building’s head office in the,Central City’s North District...?" Face="Alice" Mono="False" />
+  <!-- 大企業サーバーの電脳の社長室のあたりに目的のナビがいるらしいけど？ -->
+  <Dialogue Key="Messages.AliceRequestInfo42Dialogue1Alice" Value="The Navi should be in a comp,somewhere in the president’s,office at a large company." Face="Alice" Mono="False" />
+  <!-- プラグアウトしてメリーさんに報告しましょう -->
+  <Dialogue Key="Messages.AliceRequestInfo43Dialogue1Alice" Value="Let’s jack out and,report back to Mary." Face="Alice" Mono="False" />
+</data>

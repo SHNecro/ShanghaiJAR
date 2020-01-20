@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 豪華客船セイレーン１Ｆ　ロビーエリア -->
+  <Text Key="Map.SeirenShip1fName" Value="豪華客船セイレーン１Ｆ　ロビーエリア" />
+  <!-- アリス様のお部屋は宿泊エリアの１０３号室でございます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue1FaceMaleAdult" Value="アリス様のお部屋は,宿泊エリアの１０３号室,でございます" Face="MaleAdult" Mono="False" />
+  <!-- エレベーターに乗って宿泊エリアに向かってください -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue2FaceMaleAdult" Value="エレベーターに乗って,宿泊エリアに向かってください" Face="MaleAdult" Mono="False" />
+  <!-- お部屋につきましたら別途ご案内をさせてもらいます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue3FaceMaleAdult" Value="お部屋につきましたら,別途ご案内を,させてもらいます" Face="MaleAdult" Mono="False" />
+  <!-- それでは快適な海の旅をお楽しみくださいませ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue4FaceMaleAdult" Value="それでは快適な海の旅を,お楽しみくださいませ" Face="MaleAdult" Mono="False" />
+  <!-- パーティはそこの青い扉の先となっております -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage3Dialogue1FaceMaleAdult" Value="パーティはそこの青い扉の先,となっております" Face="MaleAdult" Mono="False" />
+  <!-- どうぞお楽しみくださいませ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage3Dialogue2FaceMaleAdult" Value="どうぞお楽しみくださいませ" Face="MaleAdult" Mono="False" />
+  <!-- 先程の揺れは大丈夫でしたか？ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage5Dialogue1FaceMaleAdult" Value="先程の揺れは,大丈夫でしたか？" Face="MaleAdult" Mono="False" />
+  <!-- あれほど大きな揺れは起こったことが無いんですが････ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage5Dialogue2FaceMaleAdult" Value="あれほど大きな揺れは,起こったことが無いんですが････" Face="MaleAdult" Mono="False" />
+  <!-- 船旅お疲れ様でした -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage7Dialogue1FaceMaleAdult" Value="船旅お疲れ様でした" Face="MaleAdult" Mono="False" />
+  <!-- 船を降りたところにあるバスに乗ればインゲレスの市街まで送ってもらえますよ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage7Dialogue2FaceMaleAdult" Value="船を降りたところにある,バスに乗ればインゲレスの,市街まで送ってもらえますよ" Face="MaleAdult" Mono="False" />
+  <!-- 豪華客船セイレーン号へようこそ！ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue1FaceMaleAdult" Value="豪華客船セイレーン号へ,ようこそ！" Face="MaleAdult" Mono="False" />
+  <!-- 当船舶は現在セキュリティ改善中なので自由に見学なさってください -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue2FaceMaleAdult" Value="当船舶は現在セキュリティ,改善中なので自由に,見学なさってください" Face="MaleAdult" Mono="False" />
+  <!-- チケットを拝見いたします -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue1FaceMaleAdult" Value="チケットを拝見いたします" Face="MaleAdult" Mono="False" />
+  <!-- ・・・・神綺アリス様ですねようこそ豪華客船セイレーンへ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue2FaceMaleAdult" Value="・・・・神綺アリス様ですね,ようこそ豪華客船セイレーンへ" Face="MaleAdult" Mono="False" />
+  <!-- アリス様のお部屋は宿泊エリアの１０３号室でございます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue3FaceMaleAdult" Value="アリス様のお部屋は,宿泊エリアの１０３号室,でございます" Face="MaleAdult" Mono="False" />
+  <!-- エレベーターに乗って宿泊エリアに向かってください -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue4FaceMaleAdult" Value="エレベーターに乗って,宿泊エリアに向かってください" Face="MaleAdult" Mono="False" />
+  <!-- お部屋につきましたら別途ご案内をさせてもらいます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue5FaceMaleAdult" Value="お部屋につきましたら,別途ご案内を,させてもらいます" Face="MaleAdult" Mono="False" />
+  <!-- それでは快適な海の旅をお楽しみくださいませ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue6FaceMaleAdult" Value="それでは快適な海の旅を,お楽しみくださいませ" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue1FaceShanghai" Value="そういえば　この船,外国人も乗ってるみたいね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue2QuestionFaceShanghai" Value="自動翻訳機能使う？" Face="Shanghai" Mono="False" />
+  <Text Key="Map.SeirenShip1fAttendantEventStage3Dialogue2Options" Value="はい,いいえ" />
+  <!-- せっかくだしお願い -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue3FaceAlice" Value="せっかくだしお願い" Face="Alice" Mono="False" />
+  <!-- はーい　オンにしておくわね -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue4FaceShanghai" Value="はーい　オンにしておくわね" Face="Shanghai" Mono="False" />
+  <!-- 英語だったら話せるし別にいいわ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue5FaceAlice" Value="英語だったら話せるし,別にいいわ" Face="Alice" Mono="False" />
+  <!-- そういや　あんたパパに教えてもらって英語話せるんだったわね -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue6FaceShanghai" Value="そういや　あんたパパに,教えてもらって英語,話せるんだったわね" Face="Shanghai" Mono="False" />
+  <!-- アリス　せっかく乗ったのに降りるつもり！？ -->
+  <Dialogue Key="Map.SeirenShip1fEntranceStage1Dialogue1FaceShanghai" Value="アリス　せっかく乗ったのに,降りるつもり！？" Face="Shanghai" Mono="False" />
+  <!-- 船が航行中なので外への扉は固く閉ざされている -->
+  <Dialogue Key="Map.SeirenShip1fEntranceStage3Dialogue1FaceNone" Value="船が航行中なので,外への扉は固く閉ざされている" Face="None" Mono="False" />
+  <!-- 船の前に停まっていた送迎バスに乗って数十分後････ -->
+  <Dialogue Key="Map.SeirenShip1fEntranceStage5Dialogue1FaceNone" Value="船の前に停まっていた,送迎バスに乗って,数十分後････" Face="None" Mono="False" />
+  <!-- パーティ準備中につき関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fRightToTheHallStage1Dialogue1FaceNone" Value="パーティ準備中につき,関係者以外立ち入り禁止,と書かれている" Face="None" Mono="False" />
+  <!-- パーティ準備中につき関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fLeftToTheHallStage1Dialogue1FaceNone" Value="パーティ準備中につき,関係者以外立ち入り禁止,と書かれている" Face="None" Mono="False" />
+  <!-- エレベーターの扉が開いた！何階へ行きますか？ -->
+  <Dialogue Key="Map.SeirenShip1fElevatorStage1Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.SeirenShip1fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- ２Ｆ　商業エリア３Ｆ　宿泊エリア乗らない -->
+  <Text Key="Map.SeirenShip1fElevatorStage1Dialogue2Options" Value="２Ｆ　商業エリア,３Ｆ　宿泊エリア,乗らない" />
+  <!-- 関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fToTheSteeringRoomStage1Dialogue1FaceNone" Value="関係者以外立ち入り禁止,と書かれている" Face="None" Mono="False" />
+  <!-- 君は････アリスさん -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue1FaceWriggleHat" Value="君は････アリスさん" Face="WriggleHat" Mono="False" />
+  <!-- リグル君だっけ？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue2FaceAlice" Value="リグル君だっけ？" Face="Alice" Mono="False" />
+  <!-- さっきはいいバトルだったね！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue3FaceAlice" Value="さっきはいいバトルだったね！" Face="Alice" Mono="False" />
+  <!-- わ････僕なんてまだまださ世界は広いからね -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue4FaceWriggleHat" Value="わ････僕なんてまだまださ,世界は広いからね" Face="WriggleHat" Mono="False" />
+  <!-- そう　世界は広い････この海の向こうにはたくさんのネットバトラーがいる -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue5FaceWriggleHat" Value="そう　世界は広い････,この海の向こうにはたくさんの,ネットバトラーがいる" Face="WriggleHat" Mono="False" />
+  <!-- 君も　そのネットバトラーのひとりさ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue6FaceWriggleHat" Value="君も　そのネットバトラーの,ひとりさ" Face="WriggleHat" Mono="False" />
+  <!-- 君のようなネットバトラーとバトルできたのは僕にってとても貴重な経験だよ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue7FaceWriggleHat" Value="君のようなネットバトラーと,バトルできたのは僕にって,とても貴重な経験だよ" Face="WriggleHat" Mono="False" />
+  <!-- リグル君････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue8FaceAlice" Value="リグル君････" Face="Alice" Mono="False" />
+  <!-- 船が揺れてる！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage3Dialogue1FaceAlice" Value="船が揺れてる！？" Face="Alice" Mono="False" />
+  <!-- わわっ！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage3Dialogue2FaceAlice" Value="わわっ！？" Face="Alice" Mono="False" />
+  <!-- 危ない！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage5Dialogue1FaceWriggleHat" Value="危ない！" Face="WriggleHat" Mono="False" />
+  <!-- ････ありがとう -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage5Dialogue2FaceAlice" Value="････ありがとう" Face="Alice" Mono="False" />
+  <!-- 気をつけて何か様子が変だ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage5Dialogue3FaceWriggleHat" Value="気をつけて,何か様子が変だ" Face="WriggleHat" Mono="False" />
+  <!-- 神綺アリス　ここにいたのか -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue1FaceReisen" Value="神綺アリス　ここにいたのか" Face="Reisen" Mono="False" />
+  <!-- 鈴仙　何が起こったの？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue2FaceAlice" Value="鈴仙　何が起こったの？" Face="Alice" Mono="False" />
+  <!-- ＲＯＭのネットナビが船のコントロールをハッキングしたらしい -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue3FaceReisen" Value="ＲＯＭのネットナビが,船のコントロールを,ハッキングしたらしい" Face="Reisen" Mono="False" />
+  <!-- 航路を変更されこのままだと巨大な岩礁にぶつかるコースだ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue4FaceReisen" Value="航路を変更され,このままだと巨大な,岩礁にぶつかるコースだ" Face="Reisen" Mono="False" />
+  <!-- ってことは････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue5FaceAlice" Value="ってことは････" Face="Alice" Mono="False" />
+  <!-- 最悪の場合この船は沈む -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue6FaceReisen" Value="最悪の場合,この船は沈む" Face="Reisen" Mono="False" />
+  <!-- 何だって！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue7FaceWriggleHat" Value="何だって！？" Face="WriggleHat" Mono="False" />
+  <!-- 無論　そうさせはしない -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue8FaceReisen" Value="無論　そうさせはしない" Face="Reisen" Mono="False" />
+  <!-- 一般客には今の揺れは海流に乗っただけだと説明しているが････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue9FaceReisen" Value="一般客には今の揺れは,海流に乗っただけだと,説明しているが････" Face="Reisen" Mono="False" />
+  <!-- 真実が漏れればパニックが起こりますます解決が難しくなる -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue10FaceReisen" Value="真実が漏れれば,パニックが起こり,ますます解決が難しくなる" Face="Reisen" Mono="False" />
+  <!-- 今は人手が必要だ神綺アリスお前にも手伝ってもらうぞ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue11FaceReisen" Value="今は人手が必要だ,神綺アリスお前にも,手伝ってもらうぞ" Face="Reisen" Mono="False" />
+  <!-- あの！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue12FaceWriggleHat" Value="あの！" Face="WriggleHat" Mono="False" />
+  <!-- 貴様は？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue13FaceReisen" Value="貴様は？" Face="Reisen" Mono="False" />
+  <!-- わ････じゃない僕にもなにかできることがあるかい？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue14FaceWriggleHat" Value="わ････じゃない,僕にもなにか,できることがあるかい？" Face="WriggleHat" Mono="False" />
+  <!-- そうだな････この船の電脳に他にROMのナビがいないか調べてくれ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue15FaceReisen" Value="そうだな････この船の電脳に,他にROMのナビがいないか,調べてくれ" Face="Reisen" Mono="False" />
+  <!-- だが　他の客には気取られないようにな -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue16FaceReisen" Value="だが　他の客には,気取られないようにな" Face="Reisen" Mono="False" />
+  <!-- ････わかった！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue17FaceWriggleHat" Value="････わかった！" Face="WriggleHat" Mono="False" />
+  <!-- アリス　気をつけてね！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage9Dialogue1FaceWriggleHat" Value="アリス　気をつけてね！" Face="WriggleHat" Mono="False" />
+  <!-- リグル君もね！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage9Dialogue2FaceAlice" Value="リグル君もね！" Face="Alice" Mono="False" />
+  <!-- む？貴様　ナビはどうした？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue1FaceReisen" Value="む？,貴様　ナビはどうした？" Face="Reisen" Mono="False" />
+  <!-- 今戻ってきたわよぉ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue2FaceShanghai" Value="今戻ってきたわよぉ" Face="Shanghai" Mono="False" />
+  <!-- フフフ････話は聞かせてもらったわぁ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue3FaceShanghai" Value="フフフ････,話は聞かせてもらったわぁ" Face="Shanghai" Mono="False" />
+  <!-- ＲＯＭのナビが来たんですってねぇ････？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue4FaceShanghai" Value="ＲＯＭのナビが,来たんですってねぇ････？" Face="Shanghai" Mono="False" />
+  <!-- いつの間に････ってすごいやる気ね -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue5FaceAlice" Value="いつの間に････,ってすごいやる気ね" Face="Alice" Mono="False" />
+  <!-- この船を沈めるようとするＲＯＭのナビなんてぇ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue6FaceShanghai" Value="この船を沈めるようとする,ＲＯＭのナビなんてぇ" Face="Shanghai" Mono="False" />
+  <!-- 八つ裂きにしてぐっちゃらぐっちゃらにしてぇ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue7FaceShanghai" Value="八つ裂きにして,ぐっちゃらぐっちゃらにしてぇ････" Face="Shanghai" Mono="False" />
+  <!-- 塩もみの開きの蒲焼きにしてくれるわぁ！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue8FaceShanghai" Value="塩もみの開きの,蒲焼きにしてくれるわぁ！" Face="Shanghai" Mono="False" />
+  <!-- いい気迫だこの先にある操舵室に行くぞ！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue9FaceReisen" Value="いい気迫だ,この先にある操舵室に行くぞ！" Face="Reisen" Mono="False" />
+  <!-- アリス　さっさと行くわよぉ愚かなおバカさんにお灸をすえてやるわぁ！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue1FaceShanghai" Value="アリス　さっさと行くわよぉ,愚かなおバカさんに,お灸をすえてやるわぁ！" Face="Shanghai" Mono="False" />
+  <!-- ねぇ　なんだかシャンハイいつもより怖くない？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue2FaceAlice" Value="ねぇ　なんだかシャンハイ,いつもより怖くない？" Face="Alice" Mono="False" />
+  <!-- うふふふ　そーお？あたしはいつでもこんな感じよぉ････！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue3FaceShanghai" Value="うふふふ　そーお？,あたしはいつでも,こんな感じよぉ････！" Face="Shanghai" Mono="False" />
+  <!-- （絶対に怖い････） -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue4FaceAlice" Value="（絶対に怖い････）" Face="Alice" Mono="False" />
+  <!-- ネットエージェントだ操舵室に入れてもらいたいのだが？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue1FaceReisen" Value="ネットエージェントだ,操舵室に入れて,もらいたいのだが？" Face="Reisen" Mono="False" />
+  <!-- それが　操舵室の扉が電子ロックされて開かないんです！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue2FaceMaleAdult" Value="それが　操舵室の扉が,電子ロックされて,開かないんです！" Face="MaleAdult" Mono="False" />
+  <!-- よし　シャンハイ！プラグインを････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue3FaceAlice" Value="よし　シャンハイ！,プラグインを････" Face="Alice" Mono="False" />
+  <!-- どきなさい -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue4FaceReisen" Value="どきなさい" Face="Reisen" Mono="False" />
+  <!-- この手に限る -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue1FaceReisen" Value="この手に限る" Face="Reisen" Mono="False" />
+  <!-- ちょっと！何をしたの！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue2FaceAlice" Value="ちょっと！,何をしたの！？" Face="Alice" Mono="False" />
+  <!-- 指向性プラスチック爆弾でドアブリーチ（扉の破壊）を行っただけだ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue3FaceReisen" Value="指向性プラスチック爆弾で,ドアブリーチ（扉の破壊）を,行っただけだ" Face="Reisen" Mono="False" />
+  <!-- 何でそんなもの持ってるのよ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue4FaceAlice" Value="何でそんなもの持ってるのよ････" Face="Alice" Mono="False" />
+  <!-- 戦場ではあらゆる状況を想定して準備を行うものだ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue5FaceReisen" Value="戦場ではあらゆる状況を,想定して準備を行うものだ" Face="Reisen" Mono="False" />
+  <!-- あんたさあ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue6FaceShanghai" Value="あんたさあ････" Face="Shanghai" Mono="False" />
+  <!-- あたしたちの存在を全否定するような開け方やめなさいよ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue7FaceShanghai" Value="あたしたちの存在を全否定,するような開け方,やめなさいよ････" Face="Shanghai" Mono="False" />
+  <!-- 知らんな突入する -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue8FaceReisen" Value="知らんな,突入する" Face="Reisen" Mono="False" />
+</data>

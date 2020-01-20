@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity3roomName" Value="幻想大学　実験室" />
+  <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue1FaceNone" Value="実験室のパソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue2FaceNone" Value="データ保護のためか,プラグインが禁止されている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk2Stage1Dialogue1FaceNone" Value="実験室のパソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk2Stage1Dialogue2FaceNone" Value="データ保護のためか,プラグインが禁止されている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChair1Stage1Dialogue1FaceNone" Value="実験室の椅子だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChair1Stage1Dialogue2FaceNone" Value="古いものなのか,表面はきれいだが,あちこちガタついている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChairShadow1Stage1Dialogue1FaceNone" Value="森近博士の椅子だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChairShadow1Stage1Dialogue2FaceNone" Value="長年使い込まれたもののようで,あちこちの部品がガタついている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTableStage1Dialogue1FaceNone" Value="広々としたテーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTableStage1Dialogue2FaceNone" Value="見かけはオシャレだが,あまり使われていないようで,綺麗さが哀愁を漂わせている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTable2Stage1Dialogue1FaceNone" Value="広々としたテーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTable2Stage1Dialogue2FaceNone" Value="見かけはオシャレだが,あまり使われていないようで,綺麗さが哀愁を漂わせている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage1Dialogue1FaceNone" Value="最新型の空気清浄機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage1Dialogue2FaceNone" Value="様々なイオンを放出し,きれいな空気を作り出せると,いうがどうもうさんくさい" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue1FaceNone" Value="最新型の空気清浄機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue2FaceNone" Value="様々なイオンを放出し,きれいな空気を作り出せると,いうがどうもうさんくさい" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue3FaceNone" Value="プラグインができる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage1Dialogue1FaceNone" Value="うー････" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue1FaceRemilia" Value="ひ････ひぐっ････,えぐっ････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue2FaceAlice" Value="お願いだから泣き止んでよ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue3FaceMari" Value="これじゃあ話ができないぜ････" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue4FaceShanghai" Value="････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue5FaceShanghai" Value="レミリア！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue6FaceRemilia" Value="････！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue7FaceShanghai" Value="あの時は確かに,あたしの言い過ぎだったわ,ごめんなさい" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue8FaceRemilia" Value="ひ････ひぐっ････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue9FaceShanghai" Value="けどね　ひとつ言わせてちょうだい" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue10FaceShanghai" Value="確かに世の中嫌なことは,たくさんあるの" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue11FaceShanghai" Value="でもその一つ一つから逃げて,目をそらすあなたは,弱虫だと思うわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue12FaceAlice" Value="シャンハイ　またそう言うと････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue13FaceShanghai" Value="黙って聞く！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue14FaceShanghai" Value="レミリア　あなたはこのまま,弱虫でいいの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue15FaceShanghai" Value="逃げて　背中を指さされて,笑われ続けていいの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue16FaceRemilia" Value="い゛････い゛や　だ････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue17FaceRemilia" Value="あ゛たじは････よわむじじゃ････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue18FaceRemilia" Value="弱虫じゃ････ないもん････！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue19FaceShanghai" Value="だったらこれから,弱虫じゃないってこと,態度で示しなさい" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue20FaceShanghai" Value="あと　すぐに泣かないこと" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue21FaceShanghai" Value="涙は女の武器よ,そう簡単に出すもんじゃないわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue22FaceShanghai" Value="能あるタカは爪を隠す････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue23FaceShanghai" Value="あなたは能あり能なし,どっちかしら？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue24FaceRemilia" Value="グスン････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue1FaceRemilia" Value="私は能無しなんかじゃないわ！,私はレミリア･スカーレットよ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue2FaceMari" Value="すげぇ　泣き止ませたぜ････" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue3FaceShanghai" Value="よし　あたしは謝ったわよ,あんたも言わなきゃいけないこと,あるんじゃないの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue4FaceShanghai" Value="ちゃんとケジメはつけるのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue5FaceRemilia" Value="うん････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue6FaceRemilia" Value="････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue7FaceRemilia" Value="アリス　魔理････,心配かけて････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue8FaceRemilia" Value="ごめ････ん････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue9FaceRemilia" Value="････ごめんなさい！！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue10FaceRemilia" Value="あやまったわよ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue11FaceMarisa" Value="やれやれ,呆れたやつだな････" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue12FaceMari" Value="まあいいじゃないか,こういうのもさ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue13FaceMari" Value="さあ　サクヤを回収して,帰ろうぜ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue14FaceRemilia" Value="････うん！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="あの泣いてた女の子,ちゃんと家に帰れたのかな？" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter3OlderBrotherStage1Dialogue1FaceMaleAdult" Value="最近　家にいる時間よりも,実験してる時間のほうが,長くなってきているな････" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="あなたはまだ中学生だから,わからないと思うけど,大学の研究室選びは大切よ" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue1FaceNone" Value="アリ････ス････" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue2FaceAlice" Value="レミリア！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue3FaceShanghai" Value="助けてやるから,それまでくたばるんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue4FaceAlice" Value="シャンハイ････,またそんな言い方じゃ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue5FaceAlice" Value="････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue6FaceAlice" Value="空気清浄機にプラグインよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomToTheOutsideStage1Dialogue1FaceNone" Value="非常事態につき,防火シャッターを閉鎖,････と表示されている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomPostGameBystander1Dialogue1" Value="研究室生活が始まって,４日目に突入した････" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomPostGameBystander1Dialogue2" Value="私の論文はいつになったら,完成の芽が見えるのかしら" Face="FemaleAdult" Mono="False" />
+</data>

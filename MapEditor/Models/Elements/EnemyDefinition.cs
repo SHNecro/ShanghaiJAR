@@ -1,0 +1,151 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Reflection;
+using MapEditor.Core;
+using Moq;
+using NSBattle;
+using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Rendering;
+using NSEnemy;
+using SlimDX;
+
+namespace MapEditor.Models.Elements
+{
+    public class EnemyDefinition
+	{
+        private EnemyDefinition() { }
+
+        public static EnemyDefinition GetEnemyDefinition(int id, int x, int y, int rank, int hp = 1, int chipID1 = 1, int chipID2 = 1, int chipID3 = 1, string name = "")
+        {
+            var bindFlags = BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance;
+            var enemyBase = new EnemyBase(null, null, x, y, 0, Panel.COLOR.blue, (byte)rank);
+            if (id == Constants.NormalNaviID)
+            {
+                var type = typeof(EnemyBase).Assembly.GetType("NSEnemy.NormalNavi");
+                var constructorTypes = new Type[] {
+                    typeof(MyAudio),
+                    typeof(SceneBattle),
+                    typeof(int),
+                    typeof(int),
+                    typeof(byte),
+                    typeof(Panel.COLOR),
+                    typeof(byte),
+                    typeof(int),
+                    typeof(int),
+                    typeof(int),
+                    typeof(int),
+                    typeof(string)
+                };
+                var constructor = type.GetConstructor(bindFlags, null, constructorTypes, null);
+                var normalNavi = (EnemyBase)constructor.Invoke(new object[] { null, null, x, y, (byte)0, Panel.COLOR.blue, (byte)rank, hp, chipID1, chipID2, chipID3, name });
+                enemyBase = (EnemyBase)normalNavi;
+            }
+            var enemyMade = EnemyBase.EnemyMake(id, enemyBase, false);
+            if (enemyMade == null)
+            {
+                return null;
+            }
+            enemyMade.PositionDirectSet();
+
+            var definition = new EnemyDefinition
+            {
+                DrawCalls = new List<DrawCall>()
+            };
+
+            var mockParentObject = new SceneBattle { nowscene = SceneBattle.BATTLESCENE.battle };
+            enemyMade.parent = mockParentObject;
+            var mockRenderDg = new Mock<IRenderer>(MockBehavior.Strict);
+            mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<Color>()))
+                .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, Color color) =>
+                {
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, 1.0f, 0.0f, false, color);
+                });
+            mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<bool>(), It.IsAny<Color>()))
+                .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, bool reversed, Color color) =>
+                {
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, 1.0f, 0.0f, reversed, color);
+                });
+            mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<float>(), It.IsAny<float>(), It.IsAny<Color>()))
+                .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, float scale, float rotate, Color color) =>
+                {
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, scale, rotate, false, color);
+                });
+            mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<float>(), It.IsAny<float>(), It.IsAny<bool>(), It.IsAny<Color>()))
+                .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, float scale, float rotate, bool reversed, Color color) =>
+                {
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, scale, rotate, reversed, color);
+                });
+
+            try
+            {
+                enemyMade.Render(mockRenderDg.Object);
+                enemyMade.HPRend(mockRenderDg.Object);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"{e.GetType().ToString()}: {e.Message}");
+            }
+
+            definition.Chips = enemyMade.dropchips.Select(c => new Chip { ID = c.chip.number, CodeNumber = c.codeNo }).ToArray();
+            definition.HP = enemyMade.Hp;
+            if (id == Constants.NormalNaviID)
+            {
+                if (Constants.TranslationService.CanTranslate(enemyMade.Name))
+                {
+                    definition.Name = Constants.TranslationService.Translate(enemyMade.Name);
+                    definition.NameKey = enemyMade.Name;
+                }
+                else
+                {
+                    definition.Name = $"Invalid key: \"{enemyMade.Name}\"";
+                    definition.NameKey = null;
+                }
+            }
+            else
+            {
+                definition.Name = enemyMade.Name;
+                var a = Constants.TranslationCallKeys;
+                if (Constants.TranslationCallKeys.ContainsKey(definition.Name))
+                {
+                    definition.NameKey = Constants.TranslationCallKeys[definition.Name];
+                }
+                else
+                {
+                    definition.NameKey = null;
+                }
+            }
+
+            Constants.TranslationCallKeys.Clear();
+
+            return definition;
+		}
+
+        public Chip[] Chips { get; set; }
+
+        public int HP { get; set; }
+
+        public string Name { get; private set; }
+
+        public string NameKey { get; private set; }
+
+        public List<DrawCall> DrawCalls { get; private set; }
+
+        private void AddDrawCall(IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, float scale, float rotate, bool reversed, Color color)
+        {
+            this.DrawCalls.Add(new DrawCall
+            {
+                TextureName = tex,
+                TexturePosition = new Point(texRect.X, texRect.Y),
+                IsFromTopLeft = topLeft,
+                Position = new Point((int)point.X, (int)point.Y),
+                Size = new Size(texRect.Width, texRect.Height),
+                Scale = scale,
+                Rotate = rotate,
+                IsReversed = reversed,
+                Color = color
+            });
+        }
+    }
+}

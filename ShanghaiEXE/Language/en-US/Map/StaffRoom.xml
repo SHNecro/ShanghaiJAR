@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.StaffRoomName" Value="School Staff Room" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher1Stage1Dialogue1FaceFemaleAdult" Value="I never NetBattle，so I can’t,win against the viruses...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher1Stage3Dialogue1FaceFemaleAdult" Value="You all are so amazing!,I couldn’t help at all...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher2Stage1Dialogue1FaceFemaleMiddleAged" Value="You students are better at,dealing with high-tech things,like this than we are." Face="FemaleMiddleAged" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher3Stage1Dialogue1FaceMaleOld" Value="Of all the times for Ms. Asakura,to be on a business trip...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher4Stage1Dialogue1FaceFemaleElderly" Value="I don’t have a NetNavi，so I,can only stand by and watch...." Face="FemaleElderly" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter4KoaTeacherStage1Dialogue1FaceKumako" Value="Teachers have to come to,school even when the,students are on break." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter4KoaTeacherStage1Dialogue2FaceKumako" Value="However，we get to go home,earlier than usual." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3MariStage1Dialogue1FaceMari" Value="Hurry，Alice! Jack in!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="This computer is much bigger,than the one in the classroom!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.StaffRoomServerStage1Dialogue1FaceNone" Value="It’s the Staff Room’s server." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomServerStage1Dialogue2FaceNone" Value="It’s full of school data that the,teachers use." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomServerStage1Dialogue3FaceNone" Value="Of course，I can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfStage1Dialogue1FaceNone" Value="It’s a file cabinet for teachers’,business documents." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfStage1Dialogue2FaceNone" Value="They’ll get mad if I take a,peek，so I’ll leave it alone." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeStage1Dialogue1FaceNone" Value="It’s a file cabinet for teachers’,business documents." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeStage1Dialogue2FaceNone" Value="They’ll get mad if I take a,peek，so I’ll leave it alone." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeStage1Dialogue1FaceNone" Value="It’s a file cabinet for teachers’,business documents." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeStage1Dialogue2FaceNone" Value="They’ll get mad if I take a,peek，so I’ll leave it alone." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeDupeStage1Dialogue1FaceNone" Value="It’s a file cabinet for teachers’,business documents." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeDupeStage1Dialogue2FaceNone" Value="They’ll get mad if I take a,peek，so I’ll leave it alone." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomFoliagePlantStage1Dialogue1FaceNone" Value="It’s an especially normal,houseplant." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomFoliagePlantStage1Dialogue2FaceNone" Value="There’s still water on the,leaves，so it must’ve been,watered recently." Face="None" Mono="False" />
+  <!-- 土に刺さっている肥料ビンに３７８５４６９５　と書かれている -->
+  <Dialogue Key="Map.StaffRoomFoliagePlantStage1Dialogue3FaceNone" Value="A bottle of fertilizer has,”37854695” written on it." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskStage1Dialogue1FaceNone" Value="It’s a desk that teachers use." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskStage1Dialogue2FaceNone" Value="Since all of the class materials,are digitized，the desk is quite,tidy." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeStage1Dialogue1FaceNone" Value="It’s a desk that teachers use." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeStage1Dialogue2FaceNone" Value="Since all of the class materials,are digitized，the desk is quite,tidy." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeStage1Dialogue1FaceNone" Value="It’s a desk that teachers use." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeStage1Dialogue2FaceNone" Value="Since all of the class materials,are digitized，the desk is quite,tidy." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeStage1Dialogue1FaceNone" Value="It’s a desk that teachers use." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeStage1Dialogue2FaceNone" Value="Since all of the class materials,are digitized，the desk is quite,tidy." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="It’s a desk that teachers use." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="Since all of the class materials,are digitized，the desk is quite,tidy." Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameKumakoDialogue1" Value="I heard about what happened,with Ms. Asakura." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameKumakoDialogue2" Value="We all only saw the good,person that she kept locked,away while she did evil." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameKumakoDialogue3" Value="You can’t blame yourself for,anything that happened.,Nobody could have known." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameBystander1Dialogue1" Value="Now that Ms. Asakura’s gone，,we need to get another teacher,who knows computers...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameBystander1Dialogue2" Value="Us old folks just don’t get these,dang machines." Face="MaleOld" Mono="False" />
+</data>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.NetBattleMachineRinName" Value="研究室のネットバトルマシンの電脳" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue1FaceSprite" Value="ラウンドワーン　ファイッ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue2FaceSprite" Value="ケーィオーゥ！,ユーウィーン！,パーフェクツ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue3FaceSprite" Value="コンゴ　ジッキョウガ,ジッソウサレタ　トキノタメニ,ハツオンレンシュウ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue4FaceSprite" Value="ソンナヨテイハ　ナイッテ？,ショボーン････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite2Stage1Dialogue1FaceSprite" Value="トクベツニ　シティエリアノ,ハイケイヲ　ツカワセテ,モラッテルンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite2Stage1Dialogue2FaceSprite" Value="ミナレタデンノウモ　チョット,フンイキ　カワルデショウ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSakuyaStage1Dialogue1FaceSakuya" Value="お嬢様････,どこに行ったんでしょうね････" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSakuyaStage3Dialogue1FaceSakuya" Value="お　お嬢様は,大丈夫なのですか！？" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue1FaceMedicine" Value="うう････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue2FaceYamame" Value="待ってください！" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue3FaceYamame" Value="どうしてスーにこんな,ひどいことをするんです！？" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue4FaceReisen" Value="スー････？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue5FaceReisen" Value="何を言ってるのかしら,このナビはＲＯＭの自律型ナビ,メディスンよ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue6FaceReisen" Value="この大学で事件を起こした,ナビを知らないとは言わせないわ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue7FaceYamame" Value="メディスンって････そんな！？" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue8FaceYamame" Value="ウソよね？,だってスーは････！" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue9FaceMedicine" Value="ごめんなさい　ヤマメ････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue10FaceMedicine" Value="私の本当の名前は,メディスン････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue11FaceMedicine" Value="ＲＯＭで作られた,自律型ナビよ････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue12FaceYamame" Value="････！" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue13FaceMedicine" Value="フフ････　自業自得よ" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue14FaceMedicine" Value="私がヤマメを騙していたのは,本当のことだもの" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue15FaceMedicine" Value="短い間だったけど････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue16FaceMedicine" Value="ヤマメのおかげで,ナビとして誰かと一緒に生きる,幸せを味わうことが出来たわ" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue17FaceMedicine" Value="ありがとう　ヤマメ････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue18FaceYamame" Value="私は････スーが････" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue19FaceYamame" Value="スーがもしもそうだったとしても,私はスーのことが････！" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue20FaceMedicine" Value="悪事のために作られた私が,ナビになることなんて,無理だったのよ････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue21FaceMedicine" Value="もう　疲れちゃった････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue22FaceMedicine" Value="ひと思いにデリートして････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue23FaceYorihime" Value="････どうしますか？" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue24FaceReisen" Value="悪意から生み出されたナビが,更生した前例は無い" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue25FaceReisen" Value="････デリートしなさい" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue26FaceYorihime" Value="イエス・マム" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue27FaceMedicine" Value="ヤマメ････さようなら････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue28FaceYamame" Value="スーーーー！！" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage3Dialogue1FaceYorihime" Value="････！？" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue1FaceShanghai" Value="間に・・・・合った！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue2FaceAlice" Value="ハァ････ハァ････,大丈夫ですか　ヤマメさん！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue3FaceYamame" Value="ア　アリス････！？" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue4FaceMedicine" Value="どうして私を････！？" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue5FaceShanghai" Value="言ったでしょう？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue6FaceShanghai" Value="あんたのオペレーターを,悲しませるようなことは,許さないって！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue7FaceReisen" Value="またお前たちか････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue8FaceReisen" Value="そのナビとはあなたたちも,戦ったことがあるはず" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue9FaceReisen" Value="これはなんのマネかしら？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue10FaceAlice" Value="鈴仙！,あなたはいつも乱暴なのよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue11FaceAlice" Value="どうしてそうすぐに,デリートしようとするの！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue12FaceReisen" Value="････やはり,貴様らもＲＯＭの一味だったか" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue13FaceAlice" Value="え････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue14FaceReisen" Value="ヨリヒメ　ターゲット変更" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue15FaceReisen" Value="ＲＯＭの戦闘型ネットナビ,シャンハイ.EXEをデリートせよ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue16FaceReisen" Value="そこの死に損ないは,その後でも遅くはない" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue1FaceYorihime" Value="イエス・マム" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue2FaceShanghai" Value="上等じゃないの････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue3FaceShanghai" Value="前からあんた達の態度は,シャクにさわってたのよ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue4FaceAlice" Value="シャンハイ！,絶対に負けられないわよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue5FaceShanghai" Value="当然！,アリス　いくわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue6FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue7FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue8FaceYorihime" Value="これより障害を排除します" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue1FaceYorihime" Value="ぐっ・・・・" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue2FaceYorihime" Value="鈴仙様････,申し訳ありません････" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue3FaceReisen" Value="ヨリヒメが････負けた････？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue4FaceShanghai" Value="あんたたちねぇ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue5FaceShanghai" Value="悪意から生み出されたナビが,更生した前例が無いだって？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue6FaceShanghai" Value="今ここで前例第一号が,生まれようとしているって,どうして思えないのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue7FaceShanghai" Value="人の可能性を,信じることができないなんて････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue8FaceShanghai" Value="ばっかじゃないの！？" Face="Shanghai" Mono="False" />
+</data>

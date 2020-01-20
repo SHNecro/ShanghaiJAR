@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.ExOmakeName" Value="体験版おまけマップ" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして５連戦の戦いが行えます難易度☆ -->
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,５連戦の戦いが行えます,難易度☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra1Stage1Dialogue4Options" Value="はい,いいえ" />
+  <!-- ジョン -->
+  <Text Key="Map.ExOmakeExtra1Battle5Enemy1" Value="ジョン" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage4Dialogue1FaceSprite" Value="おめでとうございます,賞品をさし上げましょう" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１０連戦の戦いが行えます難易度☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,１０連戦の戦いが行えます,難易度☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra2Stage1Dialogue4Options" Value="はい,いいえ" />
+  <!-- アーク -->
+  <Text Key="Map.ExOmakeExtra2Battle10Enemy1" Value="アーク" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage4Dialogue1FaceSprite" Value="おめでとうございます,賞品をさし上げましょう" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして５連戦の戦いが行えます難易度☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,５連戦の戦いが行えます,難易度☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra3Stage1Dialogue4Options" Value="はい,いいえ" />
+  <!-- アイン -->
+  <Text Key="Map.ExOmakeExtra3Battle1Enemy1" Value="アイン" />
+  <!-- モニー -->
+  <Text Key="Map.ExOmakeExtra3Battle1Enemy2" Value="モニー" />
+  <!-- ハヤヒデ -->
+  <Text Key="Map.ExOmakeExtra3Battle1Enemy3" Value="ハヤヒデ" />
+  <!-- ツヴァイ -->
+  <Text Key="Map.ExOmakeExtra3Battle2Enemy1" Value="ツヴァイ" />
+  <!-- モニー -->
+  <Text Key="Map.ExOmakeExtra3Battle2Enemy2" Value="モニー" />
+  <!-- ハヤヒデ -->
+  <Text Key="Map.ExOmakeExtra3Battle2Enemy3" Value="ハヤヒデ" />
+  <!-- ドライ -->
+  <Text Key="Map.ExOmakeExtra3Battle3Enemy1" Value="ドライ" />
+  <!-- モニー -->
+  <Text Key="Map.ExOmakeExtra3Battle3Enemy2" Value="モニー" />
+  <!-- ハヤヒデ -->
+  <Text Key="Map.ExOmakeExtra3Battle3Enemy3" Value="ハヤヒデ" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage4Dialogue1FaceSprite" Value="おめでとうございます,賞品をさし上げましょう" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして８連戦の戦いが行えます難易度☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,８連戦の戦いが行えます,難易度☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra4Stage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage4Dialogue1FaceSprite" Value="おめでとうございます,賞品をさし上げましょう" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１０連戦の戦いが行えます難易度☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,１０連戦の戦いが行えます,難易度☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra5Stage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage4Dialogue1FaceSprite" Value="おめでとうございます,貴方の腕に賞賛を送ります" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして７連戦の戦いが行えます難易度☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,７連戦の戦いが行えます,難易度☆☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra6-1Stage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage4Dialogue1FaceSprite" Value="おめでとうございます,貴方の腕に賞賛を送ります" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして７連戦の戦いが行えます難易度☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,７連戦の戦いが行えます,難易度☆☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra6-2Stage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage4Dialogue1FaceSprite" Value="おめでとうございます,貴方の腕に賞賛を送ります" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue1FaceNaviRedSprite" Value="私はこの体験版の,おまけスプライトです" Face="NaviRedSprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１７連戦の戦いが行えます難易度☆☆☆☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue2FaceNaviRedSprite" Value="体験版クリアのおまけとして,１７連戦の戦いが行えます,難易度☆☆☆☆☆☆☆☆☆" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue3FaceNaviRedSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue4QuestionFaceNaviRedSprite" Value="おまけを遊びますか？" Face="NaviRedSprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra8Stage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage4Dialogue1FaceNaviRedSprite" Value="おめでとうございます,貴方の腕に賞賛を送ります" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage4Dialogue2FaceNaviRedSprite" Value="タイトル画面で,セレクトボタンを押しながら,ＲＲＬＬＲＬＬ" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage4Dialogue3FaceNaviRedSprite" Value="すると敵の強さが,２ランク上がった状態で,最初から遊べます" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１０連戦の戦いが行えます難易度☆☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue2FaceSprite" Value="体験版クリアのおまけとして,１０連戦の戦いが行えます,難易度☆☆☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue3FaceSprite" Value="負けるとゲームオーバーなので,セーブをしておいてくださいね" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue4QuestionFaceSprite" Value="おまけを遊びますか？" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra9Stage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage4Dialogue1FaceSprite" Value="おめでとうございます,貴方の腕に賞賛を送ります" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue1FaceNaviRedSprite" Value="タイトル画面で,セレクトボタンを押しながら,ＬＲＬＬＲＬＲ" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue2FaceNaviRedSprite" Value="すると　敵の強さが,１ランク上がった状態で,はじめから遊べます" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue3FaceNaviRedSprite" Value="タイトル画面で,セレクトボタンを押しながら,ＬＬＬＲＲＲＬＲ" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue4FaceNaviRedSprite" Value="すると流星っぽいアドオンを,全部持った状態で,始められます" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue5FaceNaviRedSprite" Value="タイトル画面で,セレクトボタンを押しながら,ＲＬＲＬＲＲＬ" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue6FaceNaviRedSprite" Value="すると最大ＨＰが１になる,アドオンを持った状態で,始められます" Face="NaviRedSprite" Mono="False" />
+  <!-- シナリオの進行上戦う機会が少ないのでここにいます -->
+  <Dialogue Key="Map.ExOmakeYorihimeStage1Dialogue1FaceYorihime" Value="シナリオの進行上,戦う機会が少ないので,ここにいます" Face="Yorihime" Mono="False" />
+  <!-- 鈴仙にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage1Dialogue1QuestionFaceShanghai" Value="鈴仙にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ExOmakeYorihimeBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- 手短に片付けろ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage1Dialogue2FaceReisen" Value="手短に片付けろ" Face="Reisen" Mono="False" />
+  <!-- イエス・マム -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage1Dialogue3FaceYorihime" Value="イエス・マム" Face="Yorihime" Mono="False" />
+  <!-- ････あの時の勝負はマグレだったのか？ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage3Dialogue1FaceReisen" Value="････あの時の勝負は,マグレだったのか？" Face="Reisen" Mono="False" />
+  <!-- ヨリヒメが２度も敗北するとはな････ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage5Dialogue1FaceReisen" Value="ヨリヒメが２度も,敗北するとはな････" Face="Reisen" Mono="False" />
+  <!-- 民間人ごときにネットエージェントが負ける訳にはいかない -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage6Dialogue1FaceReisen" Value="民間人ごときに,ネットエージェントが,負ける訳にはいかない" Face="Reisen" Mono="False" />
+  <!-- 全力でお相手します -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage6Dialogue2FaceYorihime" Value="全力でお相手します" Face="Yorihime" Mono="False" />
+  <!-- ････当然の結果だな -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage8Dialogue1FaceReisen" Value="････当然の結果だな" Face="Reisen" Mono="False" />
+  <!-- この強さ････やはり本物か････ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage10Dialogue1FaceReisen" Value="この強さ････やはり本物か････" Face="Reisen" Mono="False" />
+  <!-- 怖気づいたかそれとも････？ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage11Dialogue1FaceReisen" Value="怖気づいたか,それとも････？" Face="Reisen" Mono="False" />
+  <!-- ウツホ戦闘テスト -->
+  <Dialogue Key="Map.ExOmakeUtsuhoStage1Dialogue1FaceUtsuhoDark" Value="ウツホ戦闘テスト" Face="UtsuhoDark" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ExOmakeUtsuhoStage1Dialogue2QuestionFaceUtsuhoDark" Value="," Face="UtsuhoDark" Mono="False" />
+  <!-- ウツホウツホSPウツホDS -->
+  <Text Key="Map.ExOmakeUtsuhoStage1Dialogue2Options" Value="ウツホ,ウツホSP,ウツホDS" />
+  <!-- ミマ -->
+  <Dialogue Key="Map.ExOmakeMimaStage1Dialogue1FaceUtsuhoDark" Value="ミマ" Face="UtsuhoDark" Mono="False" />
+  <!-- ヨウム戦闘テスト -->
+  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue1FaceNone" Value="ヨウム戦闘テスト" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- ヨウムヨウムSPやめる -->
+  <Text Key="Map.ExOmakeYomuStage1Dialogue2Options" Value="ヨウム,ヨウムSP,やめる" />
+  <!-- キクリ戦闘テスト -->
+  <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue1FaceNone" Value="キクリ戦闘テスト" Face="KikuriHuman" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue2QuestionFaceNone" Value="," Face="KikuriCombat" Mono="False" />
+  <!-- キクリキクリHMやめる -->
+  <Text Key="Map.ExOmakeKikuriStage1Dialogue2Options" Value="キクリ,キクリHM,やめる" />
+  <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue1FaceNaviRedSprite" Value="登場する敵のランクを,上げることが出来ます" Face="NaviRedSprite" Mono="False" />
+  <!-- 例：１ランク　V2→V3２ランク　V2→SP -->
+  <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue2FaceNaviRedSprite" Value="例：,１ランク　V2→V3,２ランク　V2→SP" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue3NumsetFaceNaviRedSprite" Value="タイトル画面で" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeShanghaiDSStage1Dialogue1FaceNone" Value="[ShanghaiDS Combat Test]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue1FaceNone" Value="[Yuyuko Combat Test]" Face="None" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue1FaceNone" Value="[Flandre Combat Test]" Face="FlandreNormal" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue2QuestionFaceFlandreNormal" Value="" Face="FlandreNormal" Mono="False" />
+  <Text Key="Map.ExOmakeShanghaiDSStage1Dialogue2Options" Value="[ShanghaiDS,Cancel]" />
+  <Text Key="Map.ExOmakeYuyukoStage1Dialogue2Options" Value="[Yuyuko,YuyukoSP,Cancel]" />
+  <Text Key="Map.ExOmakeFlandreStage1Dialogue2Options" Value="[Flandre,FlandreSP,Cancel]" />
+  <Text Key="Map.ExOmakeDruidManBattleOptions" Value="ドルイドマン,ドルイドマンV3,ドルイドマンSP,やめる" />
+  <Dialogue Key="Map.ExOmakeDruidManBattleQuestion" Value="ドルイドマン" Face="DruidMan" Mono="False" />
+</data>

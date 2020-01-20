@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ClockTowerReal2fName" Value="Clock Tower Interior 2F" />
+  <Dialogue Key="Map.ClockTowerReal2fDoorStage1Dialogue1FaceNone" Value="The door is sealed tight,by an electronic lock...." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage1Dialogue1FaceNone" Value="It’s the control panel for this,room’s security system." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage1Dialogue2FaceNone" Value="The access port is locked，,so I can’t jack in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage3Dialogue1FaceNone" Value="It’s the control panel for this,room’s security system." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage3Dialogue2FaceNone" Value="The access port is open,now，so I can jack in!" Face="None" Mono="False" />
+</data>

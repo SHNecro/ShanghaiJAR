@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PhoneName" Value="電話の電脳" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue1FaceNaviBlueRobot" Value="おやおやぁ？,あなたが一番乗りのようですね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue2FaceNaviBlueRobot" Value="フゥーム,やはり場所がマニアックすぎたか,それとも露骨すぎたかな？" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue3FaceNaviBlueRobot" Value="まあいいでしょう,あなたのような女ナビは,ねじ伏せやすいですからね！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue1FaceNaviBlueRobot" Value="ヒィィィ！,なんてむちゃくちゃな,強さのナビなんですか！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue2FaceNaviBlueRobot" Value="め　迷惑料をあげるから,許してー！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue3FaceShanghai" Value="は？,これだけ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue4FaceNaviBlueRobot" Value="えっ？" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue5FaceShanghai" Value="人様をだまくらかして,ウィルスけしかけて,迷惑料がたった１万！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue6FaceShanghai" Value="ざけんじゃねぇわよ！,ケタが２つか３つか,足りねえんじゃねえのかァ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue7FaceShanghai" Value="世の中なめとるんか！？,あ゛あ゛！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue8FaceShanghai" Value="ジャンプしろ！　ジャンプ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue9FaceNaviBlueRobot" Value="ハヒィィィ！,これもあげるから許してー！！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue10FaceShanghai" Value="あるじゃねえかよぉ！,レアそうなアドオンがよぉ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue11FaceShanghai" Value="命が惜しけりゃ,さっさと目の前から失せなっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue12FaceNaviBlueRobot" Value="す　すみませんでしたぁぁぁ！！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue1FaceShanghai" Value="チッ････しけた詐欺師だ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue2FaceAlice" Value="逃がしてよかったの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue3FaceShanghai" Value="大丈夫よ,こっそり発信機つけて,通報しておいたから" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue4FaceAlice" Value="（いっぽ間違えたら,　シャンハイが捕まりそう････）" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite1Stage1Dialogue1FaceSprite" Value="プルルルル,プルルルル" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite1Stage1Dialogue2FaceSprite" Value="ガチャン　ツーツーツー････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue1FaceSprite" Value="ゲンザイ　デンワニ,デルコトガ　デキマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue2FaceSprite" Value="ピーッテ　オトノアトニ,ゴヨウケンヲ　オハナシクダサイ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue3FaceSprite" Value="ピー" Face="Sprite" Mono="False" />
+</data>

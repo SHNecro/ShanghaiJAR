@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳Ｂ１Ｆ -->
+  <Text Key="Map.CompanyServerBName" Value="大企業サーバーの電脳Ｂ１Ｆ" />
+  <Text Key="Map.CompanyServerBRandomBattle1Enemy1" Value="オートロイドG" />
+  <Text Key="Map.CompanyServerBRandomBattle2Enemy1" Value="オートロイドG" />
+  <Text Key="Map.CompanyServerBRandomBattle3Enemy1" Value="オートロイドG" />
+  <!-- 画面には薄暗い地下室が映し出されている -->
+  <Dialogue Key="Map.CompanyServerBSubTerminalStage1Dialogue1FaceNone" Value="画面には薄暗い,地下室が映し出されている" Face="None" Mono="False" />
+  <!-- 画面には薄暗い地下室が映し出されている -->
+  <Dialogue Key="Map.CompanyServerBSubTerminalDupeStage1Dialogue1FaceNone" Value="画面には薄暗い,地下室が映し出されている" Face="None" Mono="False" />
+  <!-- これが地下牢の管理端末ね！ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage1Dialogue1FaceShanghai" Value="これが地下牢の管理端末ね！" Face="Shanghai" Mono="False" />
+  <!-- これを操作すれば････！ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage1Dialogue2FaceShanghai" Value="これを操作すれば････！" Face="Shanghai" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage3Dialogue1FaceNone" Value="もうこの端末を操作しても,意味は無さそうだ" Face="None" Mono="False" />
+  <!-- シンニュウシャ　ハイジョシンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage1Dialogue1FaceAutoroid" Value="シンニュウシャ　ハイジョ,シンニュウシャ　ハイジョ" Face="Autoroid" Mono="False" />
+  <!-- もののみごとにオートロイドだらけね -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue1FaceShanghai" Value="もののみごとに,オートロイドだらけね" Face="Shanghai" Mono="False" />
+  <!-- 位置的にここがアリスが捕まってる場所のはず！ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue2FaceShanghai" Value="位置的にここがアリスが,捕まってる場所のはず！" Face="Shanghai" Mono="False" />
+  <!-- 邪魔する奴はまとめてぶっ飛ばす！ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue3FaceShanghai" Value="邪魔する奴は,まとめてぶっ飛ばす！" Face="Shanghai" Mono="False" />
+  <!-- オートロイドR -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy1" Value="オートロイドR" />
+  <!-- オートロイドG -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy2" Value="オートロイドG" />
+  <!-- オートロイドB -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy3" Value="オートロイドB" />
+  <!-- 私より早く鈴仙様を救い出すとはね････ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue1FaceYorihime" Value="私より早く鈴仙様を,救い出すとはね････" Face="Yorihime" Mono="False" />
+  <!-- ここのセキュリティをなんとか突破できたけど私はもう限界よ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue2FaceYorihime" Value="ここのセキュリティをなんとか,突破できたけど私はもう限界よ" Face="Yorihime" Mono="False" />
+  <!-- せめてあなたのサポートとしてこれくらいは････ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue3FaceYorihime" Value="せめてあなたのサポートとして,これくらいは････" Face="Yorihime" Mono="False" />
+  <!-- ヨリヒメが渡したサブチップでシャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue4FaceNone" Value="ヨリヒメが渡したサブチップで,シャンハイのＨＰが,全回復した！" Face="None" Mono="False" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServerBDoorStage1Dialogue1FaceNone" Value="セキュリティにより,ロックされている" Face="None" Mono="False" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServerBDoorDupeStage1Dialogue1FaceNone" Value="セキュリティにより,ロックされている" Face="None" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage1Dialogue1FaceNone" Value="フセイナ　ソウサガ,ジッコウ　サレマシタ" Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage1Dialogue2FaceNone" Value="タダチニ　エラーノゲンインヲ,トリノゾキマス！！" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServerBPunishmentBattle1Enemy1" Value="オートロイドSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServerBPunishmentBattle1Enemy2" Value="オートロイドSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage3Dialogue1FaceShanghai" Value="もっとスマートに,解決したかったわね････" Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServerBAGimmickStartStage1Dialogue1FaceNone" Value="セキュリティ　ロック,スウジヲ　１カラ　ジュンバンニ,ニュウリョク　シテクダサイ" Face="None" Mono="False" />
+</data>

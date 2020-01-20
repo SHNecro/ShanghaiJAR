@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- インターネット　インゲレスエリア２ -->
+  <Text Key="Map.InglesNet2fName" Value="Engelles Area 2" />
+  <!-- インゲレススクエアはこの先を道なりで！ -->
+  <Dialogue Key="Map.InglesNet2fGuidePlateStage1Dialogue1FaceNone" Value="Road to Engelles Square!" Face="None" Mono="False" />
+  <!-- あのミステリーデータどうやったら取れるのかしら -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi1Stage1Dialogue1FaceNaviPinkFemale" Value="I wonder how to get that mystery,data...." Face="NaviPinkFemale" Mono="False" />
+  <!-- 見えてるのに取れないのってすごくもどかしいわ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi1Stage1Dialogue2FaceNaviPinkFemale" Value="It’s so frustrating，being able to,see it but not reach it." Face="NaviPinkFemale" Mono="False" />
+  <!-- 時折この辺りではネットギャングが道を塞いだりしているんですよ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi2Stage1Dialogue1FaceNaviBlueRobot" Value="Sometimes Net gangs like to,block the paths around here." Face="NaviBlueRobot" Mono="False" />
+  <!-- インゲレスエリア３からウラインターネットに逃げられてしまうので厄介なんです -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi2Stage1Dialogue2FaceNaviBlueRobot" Value="It’s a real pain that Engelles,Area 3 is connected to the,Undernet." Face="NaviBlueRobot" Mono="False" />
+  <!-- こっちはスクエアへの道じゃないよ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi3Stage1Dialogue1FaceNaviChild" Value="Are you looking for the Square?,You’ve gone the wrong way." Face="NaviChild" Mono="False" />
+  <!-- ここらへんは私達の遊び場なんだ〜 -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi3Stage1Dialogue2FaceNaviChild" Value="This is our playground!" Face="NaviChild" Mono="False" />
+  <!-- おうネエチャンよお！ここは通行料を払えば安全に通れるぜ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue1FaceNaviPurpleHeel" Value="Well hey there，sister!,There’s a toll for this road!,For your own safety，heh." Face="NaviPurpleHeel" Mono="False" />
+  <!-- 通行料？そんなの聞いてないわよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue2FaceShanghai" Value="A toll? I don’t see anything,about a toll...." Face="Shanghai" Mono="False" />
+  <!-- おおっと妙なマネはやめとけ俺たちネットギャングが痛い目をみせちまうぜ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue3FaceNaviPurpleHeel" Value="Don’t make this hard for,yourself，girl." Face="NaviPurpleHeel" Mono="False" />
+  <!-- ネットギャング？なんて名前の？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue4FaceShanghai" Value="A net gang，huh? What do you,call yourselves?" Face="Shanghai" Mono="False" />
+  <!-- ハハハッ！聞いて驚け！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue5FaceNaviPurplePunk" Value="Hehe，now this is new!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 俺たちは！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue6FaceNaviPurplePunk" Value="We are....!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 泣く子も黙るジャッカーズ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue7FaceNaviPurpleHeel" Value="A name that silences a crying,child....!,The Jackers!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････知らない名前ね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue8FaceShanghai" Value="....I’ve never heard of you." Face="Shanghai" Mono="False" />
+  <!-- ってことは大したことのないチンケな集団ってことね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue9FaceShanghai" Value="Must not be a very good gang，,then." Face="Shanghai" Mono="False" />
+  <!-- （また始まった････） -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue10FaceAlice" Value="(Oh no，she’s doing it again....)" Face="Alice" Mono="False" />
+  <!-- ああん！？喧嘩売ってるのか！？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue11FaceNaviPurpleHeel" Value="You!,Tryin’ to pick a fight，huh?!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- 通行料を巻き上げるのなら相手を選ぶべきだったわね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue12FaceShanghai" Value="Shoulda’ watched who ya tried,to collect a toll from!" Face="Shanghai" Mono="False" />
+  <!-- ふざけやがって！野郎ども！やっちまえ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue13FaceNaviPurpleHeel" Value="Too late for a toll!,Lads，kill ’em!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ギャングヘッド -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy1" Value="GangHead" />
+  <!-- ジャッカーズ -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy2" Value="Jacker" />
+  <!-- ジャッカーズ -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy3" Value="Jacker" />
+  <!-- つ　つええ････ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue1FaceNaviPurplePunk" Value="Ugh...." Face="NaviPurplePunk" Mono="False" />
+  <!-- ３人がかりだったのに････ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue2FaceNaviPurplePunk" Value="But there were three of us...." Face="NaviPurplePunk" Mono="False" />
+  <!-- 実力の差がわかったかしら？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue3FaceShanghai" Value="Do ya understand the difference,between punks like you and,someone like me?" Face="Shanghai" Mono="False" />
+  <!-- わかったらさっさと失せるかあたしとの遭遇料を払ってもらうわよ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue4FaceShanghai" Value="Now you’re the ones who’re,paying a toll." Face="Shanghai" Mono="False" />
+  <!-- なんてやつだ！覚えてろー！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue5FaceNaviPurpleHeel" Value="You!,We’ll remember this!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- インゲレスのゴロツキもたいしたことないわね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue1FaceShanghai" Value="Just a buncha’ small fries in,Engelles." Face="Shanghai" Mono="False" />
+  <!-- さあ　スクエアはもうすぐよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue2FaceShanghai" Value="The Square should be right up,ahead." Face="Shanghai" Mono="False" />
+  <!-- 流石にもうノーコメントよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue3FaceAlice" Value="Always so weird when you do,that...." Face="Alice" Mono="False" />
+</data>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- エージェントセンター　２階　廊下 -->
+  <Text Key="Map.NetAgentSenter2fName" Value="エージェントセンター　２階　廊下" />
+  <!-- エージェント隊員が休憩するための長椅子だ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair1AStage1Dialogue1FaceNone" Value="エージェント隊員が,休憩するための長椅子だ" Face="None" Mono="False" />
+  <!-- 受付にある来客用の椅子と比べると座り心地が少し悪い -->
+  <Dialogue Key="Map.NetAgentSenter2fChair1AStage1Dialogue2FaceNone" Value="受付にある来客用の,椅子と比べると座り心地が,少し悪い" Face="None" Mono="False" />
+  <!-- あえて心地を悪くすることで長時間の休憩を抑止しているのだろうか？ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair1AStage1Dialogue3FaceNone" Value="あえて心地を悪くすることで,長時間の休憩を,抑止しているのだろうか？" Face="None" Mono="False" />
+  <!-- エージェント隊員が休憩するための長椅子だ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue1FaceNone" Value="エージェント隊員が,休憩するための長椅子だ" Face="None" Mono="False" />
+  <!-- 受付にある来客用の椅子と比べると座り心地が少し悪い -->
+  <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue2FaceNone" Value="受付にある来客用の,椅子と比べると座り心地が,少し悪い" Face="None" Mono="False" />
+  <!-- あえて心地を悪くすることで長時間の休憩を抑止しているのだろうか？ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue3FaceNone" Value="あえて心地を悪くすることで,長時間の休憩を,抑止しているのだろうか？" Face="None" Mono="False" />
+  <!-- 買った商品がリフトで下まで運ばれるタイプの自動販売機だ -->
+  <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue1FaceNone" Value="買った商品がリフトで,下まで運ばれるタイプの,自動販売機だ" Face="None" Mono="False" />
+  <!-- ラインナップはパンが多くこれを昼食にする隊員が多いのだと予想できる -->
+  <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue2FaceNone" Value="ラインナップはパンが多く,これを昼食にする隊員が,多いのだと予想できる" Face="None" Mono="False" />
+  <!-- ちょっと！せっかく廊下のど真ん中に立ってるのに無視！？ -->
+  <Dialogue Key="Map.NetAgentSenter2fToTheMeetingRoomInFrontStage1Dialogue1FaceSagume" Value="ちょっと！,せっかく廊下のど真ん中に,立ってるのに無視！？" Face="Sagume" Mono="False" />
+  <!-- ちょっと！せっかく廊下のど真ん中に立ってるのに無視！？ -->
+  <Dialogue Key="Map.NetAgentSenter2fToConferenceRoomStage1Dialogue1FaceSagume" Value="ちょっと！,せっかく廊下のど真ん中に,立ってるのに無視！？" Face="Sagume" Mono="False" />
+  <!-- 君が八意隊員が言っていたアリスさんか -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOStage1Dialogue1FacePoliceman" Value="君が八意隊員が言っていた,アリスさんか" Face="Policeman" Mono="False" />
+  <!-- いつも協力　感謝してるよ -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOStage1Dialogue2FacePoliceman" Value="いつも協力　感謝してるよ" Face="Policeman" Mono="False" />
+  <!-- こう見えて　私も実はネットエージェントなの -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOENGLISH2Stage1Dialogue1FaceFemaleAdult" Value="こう見えて　私も実は,ネットエージェントなの" Face="FemaleAdult" Mono="False" />
+  <!-- 犯人に姿でバレたら尾行とかできないからね -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOENGLISH2Stage1Dialogue2FaceFemaleAdult" Value="犯人に姿でバレたら,尾行とかできないからね" Face="FemaleAdult" Mono="False" />
+  <!-- 来てくれたのねじゃあ早速　会議を始めるわよ -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7FaceSagumeStage1Dialogue1FaceSagume" Value="来てくれたのね,じゃあ早速　会議を,始めるわよ" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2fPostGameBystander1Dialogue1" Value="とくにこれといった,任務がないからお掃除してるの" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2fPostGameBystander2Dialogue1" Value="こんなに平和なのって,なかなかないんだからね" Face="FemaleAdult" Mono="False" />
+</data>

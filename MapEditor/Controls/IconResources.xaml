@@ -1,0 +1,930 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:MapEditor.Controls">
+
+    <SolidColorBrush x:Key="TileIconColor" Color="DarkGreen"/>
+    <SolidColorBrush x:Key="TileAltIconColor" Color="DarkBlue"/>
+    <SolidColorBrush x:Key="TileRampIconColor" Color="Green"/>
+    
+    <VisualBrush x:Key="TextEditIcon">
+        <VisualBrush.Visual>
+            <Path Fill="Black">
+                <Path.Data>
+                    M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z
+                </Path.Data>
+            </Path>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="FieldEditIcon">
+        <VisualBrush.Visual>
+            <Path Fill="Black">
+                <Path.Data>
+                    M35,44h-4v2h10v-2h-4v-7h12V13H37V6h4V4H31v2h4v7H1v24h34V44z M47,15v20H37V15H47z M3,35V15h32v20H3z
+                </Path.Data>
+            </Path>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="InfoIcon">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="LightBlue">
+                    <Path.Data>
+                        M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z
+                    </Path.Data>
+                </Path>
+                <Path Fill="White">
+                    <Path.Data>
+                        M22,22h4v11h-4V22z
+                    </Path.Data>
+                </Path>
+                <Path Fill="White">
+                    <Path.Data>
+                        M26.5,16.5c0,1.379-1.121,2.5-2.5,2.5s-2.5-1.121-2.5-2.5S22.621,14,24,14S26.5,15.121,26.5,16.5z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <ImageBrush x:Key="DisplaySelectImageIcon"
+                ImageSource="../Resources/SelectIcon.png"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <ImageBrush x:Key="DisplayDrawImageIcon"
+                ImageSource="../Resources/DrawIcon.png"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <ImageBrush x:Key="DisplayLevelImageIcon"
+                ImageSource="../Resources/LevelIcon.png"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <ImageBrush x:Key="DisplayAreaImageIcon"
+                ImageSource="../Resources/AreaIcon.png"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <ImageBrush x:Key="DisplayOutlineImageIcon"
+                ImageSource="../Resources/OutlineIcon.png"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <ImageBrush x:Key="DisplayObjectImageIcon"
+                ImageSource="../Resources/ObjectIcon.png"
+                Viewbox="0.25,0.25,0.5,0.5"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <ImageBrush x:Key="DisplayHitboxImageIcon"
+                ImageSource="../Resources/HitboxIcon.png"
+                Viewbox="0.25,0.25,0.5,0.5"
+                TileMode="None"
+                Stretch="UniformToFill"/>
+
+    <VisualBrush x:Key="AngleWestArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 140 110 110 140 50 80 20 110 20 20 110 20 80 50 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleNorthWestArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 100 155 60 155 60 70 20 70 80 5 140 70 100 70Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleNorthArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 20 110 50 140 110 80 140 110 140 20 50 20 80 50 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleSouthWestArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 155 100 155 60 70 60 70 20 5 80 70 140 70 100Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleNorthEastArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 5 100 5 60 90 60 90 20 155 80 90 140 90 100Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleEastArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 20 50 50 20 110 80 140 50 140 140 50 140 80 110 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleSouthEastArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 100 5 60 5 60 90 20 90 80 155 140 90 100 90Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AngleSouthArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 140 50 110 20 50 80 20 50 20 140 110 140 80 110 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapEmptyTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapFullTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 0 80 80 120 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapBottomLeftSlantMajorityTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 40 100 80 120 160 80 80 40 40 60 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapTopRightSlantMajorityTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 0 80 80 120 120 100 120 60 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapTopLeftSlantMajorityTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 0 80 80 120 160 80 120 60 40 60 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapBottomRightSlantMajorityTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 0 80 40 100 120 100 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapBottomLeftSlantFillerTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 40 100 0 80 40 60 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapTopRightSlantFillerTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 120 100 120 60 160 80 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapTopLeftSlantFillerTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 80 40 120 60 40 60 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapBottomRightSlantFillerTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 80 120 40 100 120 100 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapUpDownRampBottomTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 0 240 80 280 160 240 80 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 0 240 80 280 160 240 80 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 80 200 160 80 240 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileAltIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 240 120 320 80 240 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapUpDownRampTopTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileAltIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 0 240 80 280 160 240 80 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 80 200 160 80 240 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 240 120 320 80 240 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 160 80 240 120 320 80 240 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapUpRampTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 0 240 80 280 160 240 80 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 0 240 80 280 160 240 80 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 80 200 160 80 240 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapDownRampTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 80 200 160 80 240 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 240 120 320 80 240 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 160 80 240 120 320 80 240 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapLeftRightRampBottomTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 320 240 240 280 160 240 240 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 320 240 240 280 160 240 240 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 240 200 160 80 80 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileAltIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapLeftRightRampTopTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileAltIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 320 240 240 280 160 240 240 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 240 200 160 80 80 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapLeftRampTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 320 240 240 280 160 240 240 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 320 240 240 280 160 240 240 200 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 240 200 160 80 80 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapRightRampTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 160 240 240 200 160 80 80 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="8" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.25">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 320 320Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapConveyorNorthTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.5">
+                    <Path.Data>
+                        M 0 80 80 120 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 0 80 80 120 120 60 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapConveyorSouthTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.5">
+                    <Path.Data>
+                        M 0 80 80 120 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 40 100 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapConveyorEastTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.5">
+                    <Path.Data>
+                        M 0 80 80 120 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 0 80 120 100 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="MapConveyorWestTileIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="{StaticResource TileIconColor}" Opacity="0.5">
+                    <Path.Data>
+                        M 0 80 80 120 160 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="{StaticResource TileIconColor}">
+                    <Path.Data>
+                        M 40 60 80 120 160 80 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="{StaticResource TileIconColor}" StrokeThickness="4" StrokeDashArray="4 2">
+                    <Path.Data>
+                        M 160 80 80 120 0 80 80 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="UpArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="Gray">
+                    <Path.Data>
+                        M 80 40 160 120 0 120 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="DownArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="Gray">
+                    <Path.Data>
+                        M 80 120 160 40 0 40 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="LeftArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="Gray">
+                    <Path.Data>
+                        M 40 80 120 160 120 0 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="RightArrowIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="Gray">
+                    <Path.Data>
+                        M 120 80 40 160 40 0 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="DeleteIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="PaleVioletRed">
+                    <Path.Data>
+                        M 15 0 0 15 145 160 160 145 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="PaleVioletRed">
+                    <Path.Data>
+                        M 15 160 0 145 145 0 160 15 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="AddIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Fill="ForestGreen">
+                    <Path.Data>
+                        M 15 65 145 65 145 95 15 95 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="ForestGreen">
+                    <Path.Data>
+                        M 65 15 95 15 95 145 65 145 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+
+    <VisualBrush x:Key="DuplicateIcon" Stretch="Uniform">
+        <VisualBrush.Visual>
+            <Grid>
+                <Path Stroke="Gray"
+                      StrokeThickness="10">
+                    <Path.Data>
+                        M 20 150 100 150 100 50 20 50 20 150 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Gray">
+                    <Path.Data>
+                        M 40 95 80 95 80 105 40 105 Z
+                    </Path.Data>
+                </Path>
+                <Path Fill="Gray">
+                    <Path.Data>
+                        M 55 80 55 120 65 120 65 80 Z
+                    </Path.Data>
+                </Path>
+                <Path Stroke="Gray"
+                      StrokeThickness="10">
+                    <Path.Data>
+                        <CombinedGeometry GeometryCombineMode="Exclude">
+                            <CombinedGeometry.Geometry1>
+                                <PathGeometry Figures="M 60 110 140 110 140 10 60 10 60 110 Z"/>
+                            </CombinedGeometry.Geometry1>
+                            <CombinedGeometry.Geometry2>
+                                <PathGeometry Figures="M 20 150 100 150 100 50 20 50 20 150 Z"/>
+                            </CombinedGeometry.Geometry2>
+                        </CombinedGeometry>
+                    </Path.Data>
+                </Path>
+                <Path Fill="Transparent">
+                    <Path.Data>
+                        M 0 0 160 160Z
+                    </Path.Data>
+                </Path>
+            </Grid>
+        </VisualBrush.Visual>
+    </VisualBrush>
+</ResourceDictionary>

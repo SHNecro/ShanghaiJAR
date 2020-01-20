@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ROM基地　首領の部屋 -->
+  <Text Key="Map.ROMbase5fName" Value="ROM Base Leader Room" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase5fBarrierStage1Dialogue1FaceNone" Value="It’s a barrier blocking the way,to the next room." Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase5fBarrierStage1Dialogue2FaceNone" Value="Trying to force a way through,makes my hand go numb." Face="None" Mono="False" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase5fBarrierDupeStage1Dialogue1FaceNone" Value="It’s a barrier blocking the way,to the next room." Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase5fBarrierDupeStage1Dialogue2FaceNone" Value="Trying to force a way through,makes my hand go numb." Face="None" Mono="False" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase5fBarrierDupeDupeStage1Dialogue1FaceNone" Value="It’s a barrier blocking the way,to the next room." Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase5fBarrierDupeDupeStage1Dialogue2FaceNone" Value="Trying to force a way through,makes my hand go numb." Face="None" Mono="False" />
+  <!-- この部屋を制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ROMbase5fBasicsOfPipesStage1Dialogue1FaceNone" Value="It’s the control panel for this,room." Face="None" Mono="False" />
+  <!-- この部屋を制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ROMbase5fBasicsOfPipesStage3Dialogue1FaceNone" Value="It’s the control panel for this,room." Face="None" Mono="False" />
+  <!-- プラグイン端子があやしく赤く光っている -->
+  <Dialogue Key="Map.ROMbase5fBasicsOfPipesStage3Dialogue2FaceNone" Value="The jack in terminal is glowing,red." Face="None" Mono="False" />
+  <!-- ようこそ････と言うには荒っぽすぎるお客さんね -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue1FaceHoodedFace" Value="Welcome....,I suppose that’s not appropriate,to say to my enemies，though." Face="HoodedFace" Mono="False" />
+  <!-- フン　バリアーで身を固めて自ら逃げ場を塞いだ割に余裕だな？ -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue2FaceReisen" Value="You’ve sealed yourself in this,room with your own barriers.,Are you really that confident?" Face="Reisen" Mono="False" />
+  <!-- もう間もなく儀式が終わるそうなればこの世界は私達のモノになるもの -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue3FaceHoodedFace" Value="The ritual will be completed,soon. The world will be ours." Face="HoodedFace" Mono="False" />
+  <!-- 貴様を守るバリアーも解除さえしてしまえば消える -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue4FaceReisen" Value="That barrier is all that stands,between you and justice." Face="Reisen" Mono="False" />
+  <!-- そうなれば遠慮なく貴様を捕まえてゲームセットだ -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue5FaceReisen" Value="The moment it falls，all your,plans will be worth nothing." Face="Reisen" Mono="False" />
+  <!-- できるものならやってみなさい八意鈴仙と神綺アリス -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue6FaceHoodedFace" Value="Then you had best get to it，,Reisen Yagokoro and,Alice Shinki." Face="HoodedFace" Mono="False" />
+  <!-- やってやるわ！シャンハイ　プラグインよ！ -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue7FaceAlice" Value="We will!,Shanghai! Jack in!" Face="Alice" Mono="False" />
+  <!-- プラグインポイントはアリスの左斜め後方にあるみたいね -->
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue8FaceShanghai" Value="The jack in terminal’s behind,you to your left!" Face="Shanghai" Mono="False" />
+  <!-- ここまでのセキュリティを突破したお前たちが先に行ったほうがいいだろう -->
+  <Dialogue Key="Map.ROMbase5fReisenStage1Dialogue1FaceReisen" Value="You’ve broken through all their,security so far. I’ll leave it to you." Face="Reisen" Mono="False" />
+  <!-- 私は後からヨリヒメで援護する切り込み役は頼んだぞ -->
+  <Dialogue Key="Map.ROMbase5fReisenStage1Dialogue2FaceReisen" Value="Yorihime will be on standby，,ready to assist." Face="Reisen" Mono="False" />
+  <!-- 朝倉････先生！？ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage1Dialogue1FaceAlice" Value="Ms.... Asakura?!" Face="Alice" Mono="False" />
+  <!-- くっくくく････ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage1Dialogue2FaceMsAsakura" Value="Kukukuku...." Face="MsAsakura" Mono="False" />
+  <!-- あっはははは！！あれだけ近くにいたのにわからないものなのね！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue1FaceMsAsakuraEvil" Value="Hahahahaha!,You never suspected a thing!,Even though I was right there!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- それともわからないフリをしていたの？まあどっちでもいいわ！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue2FaceMsAsakuraEvil" Value="Or were you just pretending to,be stupid?!,That’s fine too!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- 先生！！どうして先生がこんなことを！？ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue3FaceAlice" Value="Ms. Asakura!,Why are you doing this?!" Face="Alice" Mono="False" />
+  <!-- 全ては私の研究が真実であると世界にしらしめるため････！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue4FaceMsAsakuraEvil" Value="All of this! Nobody in the world,can ignore my research now!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- 研究････？ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue5FaceAlice" Value="Research....?" Face="Alice" Mono="False" />
+  <!-- 朝倉････なるほどそういうことか -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue6FaceReisen" Value="Asakura.... I see." Face="Reisen" Mono="False" />
+  <!-- かつて　ヨーリカの学会から追放された学者がいたと聞いている････ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue7FaceReisen" Value="I remember reading a report on,a researcher expelled from the,Institute of Eurica...." Face="Reisen" Mono="False" />
+  <!-- その名は　朝倉理香子 -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue8FaceReisen" Value="....One Rikako Asakura." Face="Reisen" Mono="False" />
+  <!-- 私は　ヨーリカで平行世界････ビヨンダードの存在について研究していたの -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue9FaceMsAsakuraEvil" Value="Indeed.... I was once a scholar,at the Institute of Eurica." Face="MsAsakuraEvil" Mono="False" />
+  <!-- 異なる次元に存在する世界という謎を解き明かそうとしていただけだった -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue10FaceMsAsakuraEvil" Value="I put years of study into the,research of other dimensions....,Of other worlds!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- けれど　学会はビヨンダードに触れることを禁忌として私を永久に追放した！！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue11FaceMsAsakuraEvil" Value="But academic society cast me,out! Expelled me! Said such,things were forbidden!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- どうして隠す必要があるの？異なる次元の存在なんて素晴らしい研究対象なのに！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue12FaceMsAsakuraEvil" Value="What is there to hide?! There’s,so much that other dimensions,can teach us!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- だから　私はこの世界に知らしめてあげるのよ！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue13FaceMsAsakuraEvil" Value="So I’ll let them teach us!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- ビヨンダードという世界の存在と　その恐ろしさをねっ！！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue14FaceMsAsakuraEvil" Value="They’ll teach the world the,horrors of Beyondard!" Face="MsAsakuraEvil" Mono="False" />
+  <!-- そんな････！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage3Dialogue15FaceAlice" Value="That’s....!" Face="Alice" Mono="False" />
+  <!-- 理香子　ビヨンロードへの接続が完了した -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage5Dialogue1FaceSoundOnly" Value="Connection to Beyondard,established." Face="SoundOnly" Mono="False" />
+  <!-- 最後の仕上げを行う必要がある････こちらへ来るんだ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage5Dialogue2FaceSoundOnly" Value="Awaiting manual command,input." Face="SoundOnly" Mono="False" />
+  <!-- ええ　わかったわ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage5Dialogue3FaceMsAsakuraEvil" Value="It’s time." Face="MsAsakuraEvil" Mono="False" />
+  <!-- ドルイドマンあなたは全力を持ってそのナビたちを足止めなさい -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage7Dialogue1FaceMsAsakuraEvil" Value="Druidman. Do whatever you,need to do to keep those Navis,from interrupting me." Face="MsAsakuraEvil" Mono="False" />
+  <!-- 私達の築く新世界が誕生したらバックアップから蘇らせてあげるから -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage7Dialogue2FaceMsAsakuraEvil" Value="When the new world arises from,the ashes，I’ll restore you from,backup." Face="MsAsakuraEvil" Mono="False" />
+  <!-- 了解した成功を祈るぞ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage7Dialogue3FaceDruidMan" Value="I understand. I pray for your,success." Face="DruidMan" Mono="False" />
+  <!-- 朝倉先生！！ -->
+  <Dialogue Key="Map.ROMbase5fPrimeLeaderEventStage9Dialogue1FaceAlice" Value="Ms. Asakura!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue1FaceReisen" Value="There’s an unsettling feeling,coming from the room ahead." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue2FaceReisen" Value="It may be a sign of abnormal,energies. Recording devices,might malfunction." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue3FaceReisen" Value="Before you go further， it may,be prudent to review and back,up your data." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue1" Value="Notes and research on esoteric,programs，alternate worlds，,evil plans...." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue2" Value="....a copy of an upcoming test,on virus ecosystems?,I really shouldn’t read further...." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fSupercomputerStage1Dialogue1" Value="This machine is capable of,intense calculations to pinpoint,dimensional variances." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fSupercomputerStage1Dialogue2" Value="Even idle，the gentle humming,of its cooling systems fills the,room." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue1" Value="I don’t know what might be,waiting for us up ahead...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue2" Value="Once we walk through that door，,we might not be able to come,back...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue3Question" Value="Are we really ready for this?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue3Option" Value="Yes,No" />
+  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue4" Value="#u@#Saving...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue5" Value="Save Complete!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue1" Value="Hold on，Alice.,Whatever Asakura did here let,out some really nasty energy." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue2" Value="Short exposure like you had,should be fine，but any more,would be risky." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue3" Value="We’ve got protective gear，but,it’s custom-fitted. Don’t worry，,we won’t miss a thing." Face="Sagume" Mono="False" />
+</data>

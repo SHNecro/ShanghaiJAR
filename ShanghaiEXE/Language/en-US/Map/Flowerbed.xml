@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 花だんの電脳 -->
+  <Text Key="Map.FlowerbedName" Value="Flower Bed Comp" />
+  <!-- お待ちしておりましたシャンハイ様 -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue1FaceNaviRedSprite" Value="I’ve been waiting for you，Miss,Shanghai!" Face="NaviRedSprite" Mono="False" />
+  <!-- あなたって私の家のスプライトちゃん？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue2FaceAlice" Value="Aren’t you our house sprite?" Face="Alice" Mono="False" />
+  <!-- 指定した場所でだいたい予想はついてたけどね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue3FaceShanghai" Value="How’d you get here from the,TV?" Face="Shanghai" Mono="False" />
+  <!-- それで････ナビになりたいって？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue4FaceShanghai" Value="Anyways....You want to be a,Navi?" Face="Shanghai" Mono="False" />
+  <!-- はい････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue5FaceNaviRedSprite" Value="Yes...." Face="NaviRedSprite" Mono="False" />
+  <!-- 私は神綺ママさんの元で働かせてもらっています -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue6FaceNaviRedSprite" Value="I faithfully help Mama Shinki with,tasks around the house." Face="NaviRedSprite" Mono="False" />
+  <!-- あの方はいちスプライトである私にそれはもう優しく接してくれ家族のように扱ってくれました -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue7FaceNaviRedSprite" Value="She has always considered me,part of her family and treated,me kindly." Face="NaviRedSprite" Mono="False" />
+  <!-- しかし私はスプライト････できることは多くありません -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue8FaceNaviRedSprite" Value="Even though I am only a sprite....,Because I am only a sprite，I,can never repay her." Face="NaviRedSprite" Mono="False" />
+  <!-- そこで　私がナビになればあのお方のもとでもっとお役に立てると思ったのです -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue9FaceNaviRedSprite" Value="If only I were not a sprite!,So I wish to be a Navi，so I can,serve my family better." Face="NaviRedSprite" Mono="False" />
+  <!-- 泣かせる話じゃないの -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue1FaceShanghai" Value="It almost makes me want to,cry...." Face="Shanghai" Mono="False" />
+  <!-- でも　スプライトちゃんがナビになるって可能なの？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue2FaceAlice" Value="But....,Is it possible for a sprite to,become a Navi?" Face="Alice" Mono="False" />
+  <!-- 私が集めた情報の中にかつてスプライトをナビに転生させる方法がありました -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue3FaceNaviRedSprite" Value="According to the information I’ve,gathered，there is a way to,transform a sprite into a Navi." Face="NaviRedSprite" Mono="False" />
+  <!-- なんでも転生プログラムというものでバージョンアップを行うとか････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue4FaceNaviRedSprite" Value="An upgrade program，derived,from the process to incarnate,new NetNavis." Face="NaviRedSprite" Mono="False" />
+  <!-- シャンハイ様にはその「転生プログラム」を手に入れていただきたいのです -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue5FaceNaviRedSprite" Value="A ”Reincarnation Program”....,Surely，Miss Shanghai will be,able to find it!" Face="NaviRedSprite" Mono="False" />
+  <!-- 名前以外に情報は？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue6FaceShanghai" Value="Any information besides the,name?" Face="Shanghai" Mono="False" />
+  <!-- ････ありません -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue7FaceNaviRedSprite" Value="....Nothing." Face="NaviRedSprite" Mono="False" />
+  <!-- 困ったわねそれだけじゃ探しようが････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue8FaceAlice" Value="I don’t know where to start...." Face="Alice" Mono="False" />
+  <!-- アリス　わかってないわね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue9FaceShanghai" Value="Alice，we might have a lead...." Face="Shanghai" Mono="False" />
+  <!-- こういうときに頼れる相手をあたしたちは知ってるじゃない -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue10FaceShanghai" Value="Who do we usually go to with,these questions?" Face="Shanghai" Mono="False" />
+  <!-- あっ！千里眼おじさんね！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue11FaceAlice" Value="Ah! The old sage!" Face="Alice" Mono="False" />
+  <!-- じいさんだった気がするけど････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue12FaceShanghai" Value="Old，for sure，but I don’t know,about the word ”sage”...." Face="Shanghai" Mono="False" />
+  <!-- たしかエイエンスクエアにいたから　訪ねてみましょ！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue13FaceShanghai" Value="He was at Eien Square the last,time I checked，let’s head over,there!" Face="Shanghai" Mono="False" />
+  <!-- 転生プログラム････どうかお願いしますね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage5Dialogue1FaceNaviRedSprite" Value="The Reincarnation Program....,Please，please find it!" Face="NaviRedSprite" Mono="False" />
+  <!-- 持ってきたわよ！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue1FaceShanghai" Value="I’ve got it!" Face="Shanghai" Mono="False" />
+  <!-- おお　ありがとうございます！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue2FaceNaviRedSprite" Value="Oh，thank you so very much!" Face="NaviRedSprite" Mono="False" />
+  <!-- このような貴重なシロモノを手に入れるため　さぞかし大変な目にあわれたでしょう -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue3FaceNaviRedSprite" Value="It must have been so much,trouble，to find this precious,little thing...." Face="NaviRedSprite" Mono="False" />
+  <!-- この御恩をこの身に刻み必ずしやいつしか････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue4FaceNaviRedSprite" Value="I will be sure to repay your,kindness in my new form...." Face="NaviRedSprite" Mono="False" />
+  <!-- えーっと････前置きは良いからさっさと使いなさいよ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue5FaceShanghai" Value="Ah....,No point holding it off.,Time to use the program!" Face="Shanghai" Mono="False" />
+  <!-- あ　はい！では････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue6FaceNaviRedSprite" Value="Oh，yes! Please!" Face="NaviRedSprite" Mono="False" />
+  <!-- 転生プログラムインストール････！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage9Dialogue1FaceNaviRedSprite" Value="Install! Reincarnation Program!" Face="NaviRedSprite" Mono="False" />
+  <!-- お・・・・おお････！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage11Dialogue1FaceYumeko" Value="Oh....,Oh....!" Face="Yumeko" Mono="False" />
+  <!-- すごーい！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage11Dialogue2FaceAlice" Value="That’s fantastic!" Face="Alice" Mono="False" />
+  <!-- よくもまあこんなに変わるもんねぇ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage11Dialogue3FaceShanghai" Value="Well，hello. You haven’t,changed all that much." Face="Shanghai" Mono="False" />
+  <!-- あら　アリスちゃんどうしたのお家の前で････？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue1FaceMama" Value="What’s happening，Alice?,You’ve been standing outside,of the house for a while...." Face="Mama" Mono="False" />
+  <!-- 神綺ママさん！！私です！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue2FaceYumeko" Value="Mama Shinki! It’s me!" Face="Yumeko" Mono="False" />
+  <!-- あら　あらあら！あらあらあら！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue3FaceMama" Value="Oh! Oh DEAR!,Dear me!" Face="Mama" Mono="False" />
+  <!-- あなた様のお役に立てるようネットナビへと転生いたしました！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue4FaceYumeko" Value="I’ve become a NetNavi!,Now I can do so much more to,serve you!!" Face="Yumeko" Mono="False" />
+  <!-- 私のために････ありがとう！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue5FaceMama" Value="For me....? Thank you!" Face="Mama" Mono="False" />
+  <!-- そうね　ナビになったのなら名前をつけてあげなきゃいけないわね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue6FaceMama" Value="Well，every NetNavi has to,have a name.,What should I call you....?" Face="Mama" Mono="False" />
+  <!-- そうね････ユメコ　なんてどうかしら？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue7FaceMama" Value="How about....Yumeko?" Face="Mama" Mono="False" />
+  <!-- ユメコ？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue8FaceAlice" Value="Yumeko?" Face="Alice" Mono="False" />
+  <!-- アリスちゃんの名前を考えたときに　日本名として考えてた名前なの -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue9FaceMama" Value="When I had Alice，I thought,a lot about names for her." Face="Mama" Mono="False" />
+  <!-- ヨーリカ寄りの名前　アリス日本寄りの名前　夢子最後まですごく迷ったわ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue10FaceMama" Value="We decided on a Western,name，but her Japanese name,was Yumeko up to the end." Face="Mama" Mono="False" />
+  <!-- ユメコ････良い名をいただき感謝の極みです！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue11FaceYumeko" Value="Yumeko....I will always treasure,this name!" Face="Yumeko" Mono="False" />
+  <!-- あっ　シャンハイ様には御礼の品としてこれをお送りします！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue12FaceYumeko" Value="Miss Shanghai!,This is my thanks，for what you,have given me!" Face="Yumeko" Mono="False" />
+  <!-- では早速！この新しい身体でお仕事に取り掛からせていただきます！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue13FaceYumeko" Value="I will serve you with my new,body to the best of my abilities!" Face="Yumeko" Mono="False" />
+  <!-- なんだか家族が増えたみたい！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage15Dialogue1FaceAlice" Value="I feel like I just gained another,member of my family!" Face="Alice" Mono="False" />
+  <!-- ナビになった以上あの子にいろいろなノウハウを叩き込まなきゃね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage15Dialogue2FaceShanghai" Value="As her senior Navi，I feel the,responsibility to train her in the,various skills she’ll need." Face="Shanghai" Mono="False" />
+  <!-- （なんだかかわいそう････） -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage15Dialogue3FaceAlice" Value="(Godspeed，Yumeko....)" Face="Alice" Mono="False" />
+  <Text Key="Map.FlowerbedTestSprite2Battle1Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.FlowerbedTestSprite2Battle1Enemy2" Value="Bomber" />
+  <!-- モブナビ -->
+  <Text Key="Map.FlowerbedTestSprite2Battle1Enemy3" Value="MobNavi" />
+  <!-- ジトー････ -->
+  <Dialogue Key="Map.FlowerbedSprite1Stage1Dialogue1FaceSprite" Value="CLICK...." Face="Sprite" Mono="False" />
+  <!-- キョウモ　セイイッパイシンキケノ　イエヲミハッテイマス！ -->
+  <Dialogue Key="Map.FlowerbedSprite1Stage1Dialogue2FaceSprite" Value="I’LL KEEP WATCH OVER,THE SHINKI HOUSEHOLD,AS BEST AS I CAN!" Face="Sprite" Mono="False" />
+  <!-- ジトー････ -->
+  <Dialogue Key="Map.FlowerbedSprite1Stage1Dialogue3FaceSprite" Value="CLICK...." Face="Sprite" Mono="False" />
+  <!-- ワタシハ　カメラガウツシタエイゾウヲ　ケイタイタンマツニオクル　スプライトデス -->
+  <Dialogue Key="Map.FlowerbedSprite2Stage1Dialogue1FaceSprite" Value="I’M THE SPRITE THAT,SENDS CAMERA FOOTAGE,TO MOBILE DEVICES." Face="Sprite" Mono="False" />
+  <!-- デモ　ママサンッテ　アマリオデカケヲ　シナイモノデスカラワリト　ヒマナンデスヨネ〜 -->
+  <Dialogue Key="Map.FlowerbedSprite2Stage1Dialogue2FaceSprite" Value="BUT MAMA DOESN’T GO,OUT MUCH，SO I’M USUALLY,NOT VERY BUSY〜!" Face="Sprite" Mono="False" />
+</data>

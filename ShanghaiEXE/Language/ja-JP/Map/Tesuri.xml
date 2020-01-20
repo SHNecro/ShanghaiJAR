@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 手すりの電脳 -->
+  <Text Key="Map.TesuriName" Value="手すりの電脳" />
+  <!-- ココニアル　ソウチヲ　ツカウトカイテイニアル　デンノウセカイニアクセス　デキマスヨ -->
+  <Dialogue Key="Map.TesuriSprite1Stage1Dialogue1FaceSprite" Value="ココニアル　ソウチヲ　ツカウト,カイテイニアル　デンノウセカイニ,アクセス　デキマスヨ" Face="Sprite" Mono="False" />
+  <!-- カイテイサンポノキブンヲ　アジワオウ！ -->
+  <Dialogue Key="Map.TesuriSprite1Stage1Dialogue2FaceSprite" Value="カイテイサンポノ,キブンヲ　アジワオウ！" Face="Sprite" Mono="False" />
+  <!-- サルベージプログラムの座標を変更します -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue1FaceNone" Value="サルベージプログラムの,座標を変更します" Face="None" Mono="False" />
+  <!-- Ｘ座標を入力してください -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue2NumsetFaceNone" Value="Ｘ座標を入力してください" Face="None" Mono="False" />
+  <!-- Ｙ座標を入力してください -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue3NumsetFaceNone" Value="Ｙ座標を入力してください" Face="None" Mono="False" />
+  <!-- ワープの座標をＸ−#v@36#　Ｙ−#v@37#にセットしました -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue4FaceNone" Value="ワープの座標を,Ｘ−#v@36#　Ｙ−#v@37#に,セットしました" Face="None" Mono="False" />
+</data>

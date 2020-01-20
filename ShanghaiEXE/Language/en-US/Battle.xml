@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- Custom -->
+  <Dialogue Key="Custom.EscapeSuccess" Value="#b@false#・・・,#b@true#Alright! I got away!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeFailure" Value="#b@false#・・・,#b@true#No! I can’t get away!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeQuestion" Value="This looks annoying.,Should we try to run?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeSpecialQuestion" Value="Alice isn’t here...,I wonder if I should run away?" Face="Shanghai" Mono="False" />
+  <Text Key="Custom.EscapeOptions" Value="Yes,No" />
+  <Text Key="Custom.EscapeSpecialOptions" Value="Run,Fight" />
+  <Dialogue Key="Custom.EscapeForbidden" Value="No， Alice!,I can’t turn my back to,the enemy right now!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeSpecialForbidden" Value="Tch!,This isn’t a fight,I can run from!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.SendChips" Value="Send the selected,chips to your Navi!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.SendNoChips" Value="Won’t send any chips this,turn， and any unused chips,from last turn will carry over!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ADDChips" Value="Permanently increase,choosable chips by the number,of chips currently selected!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ADDTempChips" Value="Increase the number of,chips to choose from，,but only for one turn!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ActionADD" Value="Shanghai!,Wait a turn for me to ,send you more chips!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.ActionSpecialADD" Value="If Alice were here,you could ADD，but..." Face="Shanghai" Mono="False" />
+  
+  <Dialogue Key="Custom.NullElemDesc" Value="Null element doesn’t have any,special abilities，but it doesn’t,have any weak points either." Face="None" Mono="False" />
+  <Dialogue Key="Custom.FghtStyleDesc" Value="Double Buster power.,Charge is a punch attack that,pushes back 2 panels!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.NinjStyleDesc" Value="Increased movement speed.,Deflect attacks with swords.,Charge chips to step ahead!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.DocStyleDesc" Value="More chips in custom screen.,Can select up to 6 chips.,Charge inflicts statuses." Face="None" Mono="False" />
+  <Dialogue Key="Custom.GaiaStyleDesc" Value="On switch，cross-shape terrain.,Charge shot changes to terrain.,Super Armor; Strong Stance." Face="None" Mono="False" />
+  <Dialogue Key="Custom.WingStyleDesc" Value="Fly to ignore terrain and wind.,Press A with no chips to,perform evasive maneuver." Face="None" Mono="False" />
+  <Dialogue Key="Custom.WtchStyleDesc" Value="Status immunity; reduced,weaknesses. Elem chips +10,power; Same Elem +20 power." Face="None" Mono="False" />
+
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue1" Value="Ah....,This feels familiar." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue2" Value="Fufu....,Have you forgotten already?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue3" Value="It’s okay.,I’ll go over it again in detail." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage2Dialogue1" Value="First，Alice needs to send you,chip data to fight the viruses." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage2Dialogue2" Value="On the left is the Custom,Screen，where you can pick,chips." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage3Dialogue1" Value="The chips we can choose are,these icons under the picture，,right?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue1" Value="Correct. You can choose,chips from here." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue2" Value="The details of the chip you,have your cursor on are,shown here." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue3" Value="Its attack power is right here." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue1" Value="Normally，you can only send,one chip per turn，but...." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue2" Value="Oh，right!,I remember this one!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue3" Value="I can send chips with the,same name together，like,these RayGuns!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue4" Value="Exactly!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue5" Value="You can use any chips you,send that turn to stay on the,attack." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue1" Value="I got most of it.,I’ll leave the rest up to,my fighting instincts." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue2" Value="Okay，I’ll pick some chip data,and send it to you." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue3" Value="Put your cursor on a chip，,press the A Button，and then,hit OK." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue4" Value="If you make a mistake，,you can go back with the,B Button." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue5" Value="You can check chip,descriptions with the,R Button." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue6" Value="You can also try to run away,with the L Button，but now’s,not the time for that." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue1" Value="Huh?,Is that a chip with no,attack power?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue2" Value="That’s not an attack chip.,It’s a support chip." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue3" Value="For example，AreaGrab steals,the enemy’s area so you have,more room to move." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage2Dialogue1" Value="Using AreaGrab with sword,chips is a simple yet effective,strategy." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue1" Value="Um.... Those chips have,different names.,How can I use them both?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue2" Value="Fufu....,Good question." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue3" Value="Look here!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue1" Value="These chips have letter,codes，like how a poker,deck has numbers." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue2" Value="If the chips have the same,code，then you can send,them together." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue3" Value="Oh yeah! That’s right!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue4" Value="Both AreaGrab and Sword,are L-coded，so you can,send them together." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue1" Value="By the way，isn’t there an,＊ (asterisk) code too?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue2" Value="Looks like you’ve been,studying!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue3" Value="It’s like a wild card that can,be sent with any other code." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue4" Value="You can send chip codes like,A＊A because of this." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue5" Value="Okay，now I remember.,It’s based on choosing the,same code together." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue6" Value="Now then，give it a shot!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage1Dialogue1" Value="Whew! I was worried，,but it all worked out!,So，what’s this button?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue1" Value="That’s the ADD Button.,You can use it to open,your folder." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue2" Value="Open my folder?,What do you mean?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue3" Value="It’s a new feature，so I,wouldn’t expect you to,know much about it." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue4" Value="The FolderAdd system,adds more chips to the,Custom Screen." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue5" Value="Really? It sure would be,easier to strategize if we had,more chips to choose from." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue6" Value="It’d make finding a specific,chip a lot easier too." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue7" Value="There are two ways to open,the folder，so I’ll explain them,both." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue1" Value="After you’ve picked your chips，,press ADD to open the folder." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue2" Value="The chips are discarded,and can’t be used，but...." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue3" Value="Instead，you’ll add that number,of chips to the Custom Screen,each turn." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue4" Value="So if we ADD 2 chips，then,we’ll have 7 to choose from,each turn?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue5" Value="That’s right." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue1" Value="You can also ADD without,picking any chips." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue2" Value="You’ll get 5 more chips to,choose from next turn." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue3" Value="Hm? So I don’t have,to discard any chips?,This one is way better!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue4" Value="Not quite. This ADD only,increases your chip count,for one turn." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue5" Value="After you choose from those,chips，you go back to normal." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue6" Value="So in other words，it’s only,temporary." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue7" Value="If we’re not careful，we,might run out of chips in,a drawn-out fight...." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue8" Value="Either way，you can’t send any,chips if you ADD that turn." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue9" Value="Wha!?,Then I guess we should only,ADD when necessary...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage5Dialogue1" Value="Now，since there are 3,Recov20 chips in the way，,try to ADD them!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage1Dialogue1" Value="Hey，Alice!,What’s my cute face,doing up there?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue1" Value="(....Cute face?)" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue2" Value="Did you forget?,That’s the Emotion Window." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue3" Value="Oh，now I remember!,It shows my emotional state." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue4" Value="I’ll get anxious if I take too,much damage in a row." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage3Dialogue1" Value="And I’ll be happy if I delete,enemies at the same time!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue1" Value="And then the next chip,you use will heal you.,....Wait，why?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue2" Value="Who knows!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue3" Value="Oh，and when Alice operates,exceptionally well，I’ll enter,Full Synchro!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue1" Value="Just try to hit an enemy with,a chip while it’s attacking." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue2" Value="Right!,I’ll try to counter their attacks!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue3" Value="During Full Synchro，the power,of the next chip is doubled." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue4" Value="You should also see enemies,flash to help time counterhits." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue5" Value="Use that to time more,counterhits and stay in,Full Synchro!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue6" Value="But I’ll go back to normal,if I take a hit，so I should,be careful." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue1" Value="Judging by your Emotion,Window，you two must be,quite close!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue2" Value="It’s proof that the hearts of,a NetOp and her Navi are,connected." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue3" Value="....Is that true?,It doesn’t feel that way at all,to me." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue4" Value="Since it’s so difficult to counter,enemies，let’s practice with a,quick chip，like Knife." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue5" Value="I need to time my attack,to hit the Kedama while it’s,bouncing forward." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue6" Value="Okay! ,I’ll send the chip data!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle5Stage1Dialogue1" Value="Time for the exam!,Remember what I taught,you，and don’t hold back!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionOKDialogue1" Value="Now that I’ve sent chip data，,it’s time to bust some viruses!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionOKDialogue2" Value="Got it!,Now it’s my turn!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3ActionOKDialogue1" Value="We’re trying to ADD now，,so don’t hit OK." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionADDDialogue1" Value="I’ll explain that later.,For now，just hit OK." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionStage1Dialogue1" Value="Now that I’ve sent chip data，,it’s time to bust some viruses!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionStage1Dialogue2" Value="Got it!,Now it’s my turn!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3ActionStage1Dialogue1" Value="We’re trying to ADD now，,so don’t hit OK." Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue1" Value="Should I explain how to move?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue2" Value="It’s fine.,I remember how to move,on my own." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue3" Value="I can go up，down，left，and,right in my red area by using,the D-Pad." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue4" Value="I can fire the Buster with the,B Button，even if I don’t have,any chips!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue5" Value="It’s weak，but I can charge it,by holding down the B Button." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue6" Value="Of course you’d remember,this part." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue7" Value="Chip data you send to,Shanghai is shown above,her head." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue8" Value="When you want to use a chip，,press the A Button." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue9" Value="You can only use a chip,once per battle，so keep,that in mind." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue1" Value="The number in the top-left,corner is Shanghai’s HP." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue2" Value="She’ll be deleted if her HP,hits 0，so please take good,care of her." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue1" Value="Enemies fight from the,blue area on the right." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue2" Value="The number near the enemy,is its HP." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage4Dialogue1" Value="Same as earlier，the virus will,be deleted when its HP hits 0." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue1" Value="Hold on!,What if I use all of my chips,before I can delete them!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue2" Value="I can’t damage it enough,with my buster alone!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue3" Value="First，relax.,See the gauge at the top?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue1" Value="That gauge will fill as time,passes." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue2" Value="When it’s full，you can press,either L or R to open the,Custom Screen." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue3" Value="Thank you for the help!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue4" Value="No problem. Now，let’s,delete those viruses!" Face="MsAsakura" Mono="False" />
+  
+  <!-- BattleResult -->
+  <Text Key="BattleResult.StyleGraphicNormal" Value="Normal" />
+  <Text Key="BattleResult.StyleGraphicFght" Value="Fght" />
+  <Text Key="BattleResult.StyleGraphicNinj" Value="Ninj" />
+  <Text Key="BattleResult.StyleGraphicDoc" Value="Doc" />
+  <Text Key="BattleResult.StyleGraphicGaia" Value="Gaia" />
+  <Text Key="BattleResult.StyleGraphicWing" Value="Wing" />
+  <Text Key="BattleResult.StyleGraphicWtch" Value="Wtch" />
+  <Text Key="BattleResult.StyleGraphicHeat" Value="Heat" />
+  <Text Key="BattleResult.StyleGraphicAqua" Value="Aqua" />
+  <Text Key="BattleResult.StyleGraphicElec" Value="Elec" />
+  <Text Key="BattleResult.StyleGraphicLeaf" Value="Leaf" />
+  <Text Key="BattleResult.StyleGraphicPois" Value="Pois" />
+  <Text Key="BattleResult.StyleGraphicErth" Value="Erth" />
+  <Text Key="BattleResult.EndBug" Value="Bug" />
+  <Text Key="BattleResult.EndFrz" Value="Frz" />
+  <Text Key="BattleResult.EndError" Value="Error" />
+  <Text Key="BattleResult.StyleDecideNormal" Value="Normal" />
+  <Text Key="BattleResult.StyleDecideFght" Value="Fght" />
+  <Text Key="BattleResult.StyleDecideNinj" Value="Ninj" />
+  <Text Key="BattleResult.StyleDecideDoc" Value="Doc" />
+  <Text Key="BattleResult.StyleDecideGaia" Value="Gaia" />
+  <Text Key="BattleResult.StyleDecideWing" Value="Wing" />
+  <Text Key="BattleResult.StyleDecideWtch" Value="Wtch" />
+  <Text Key="BattleResult.StyleDecideHeat" Value="Heat" />
+  <Text Key="BattleResult.StyleDecideAqua" Value="Aqua" />
+  <Text Key="BattleResult.StyleDecideElec" Value="Elec" />
+  <Text Key="BattleResult.StyleDecideLeaf" Value="Reaf" />
+  <Text Key="BattleResult.StyleDecidePois" Value="Pois" />
+  <Text Key="BattleResult.StyleDecideErth" Value="Erth" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue1" Value="Well done.,That takes care of the viruses." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue2" Value="Finally，I’ll explain,Busting Rank." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue3" Value="Busting Rank measures,how well you fought." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue4" Value="You’ll find it in the Results,Screen after a fight." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue5" Value="Busting Rank rises when,deleting viruses quickly,or at the same time." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue6" Value="However，taking damage,or making unnecessary,movements will lower it." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue7" Value="So as long as my fights are,quick and decisive，I’ll be OK!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue8" Value="Busting Rank ranges from,1 to 10，with an additional,S rank at the top." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue9" Value="Challenge yourself to get the,best Busting Rank you can." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue1" Value="!?,Alice...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue2" Value="Shanghai?,What’s happening?,You look...." Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue3" Value="Some kind of power is,building inside me...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue4" Value="Ah，Dr. Morichika’s calling." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue5" Value="That data you installed,must have caused a,Style Change!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue6" Value="Navis naturally evolve,to match the habits and,quirks of their NetOps." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue7" Value="That’s a Style Change." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue8" Value="A Style Change，huh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue1" Value="!?,Alice....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue2" Value="It’s a style change!,That form is...." Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue3" Value="Ah，Dr.Morichika is calling." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue4Format" Value="That style is called....,{0} Style!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue5Format" Value="You did it，Shanghai!,You got {0} Style!" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue1" Value="You can change styles in,battle by pressing the up,button on the Custom Screen." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue2" Value="However，you can’t send,chips during that turn，so,be careful." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue3" Value="Also，you can always change,back to the form you,started the battle with" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue4" Value="but other styles can,only be used once in,for a single battle." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue5" Value="Right now this isn’t,too useful，but it will be,as you gain styles" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue6" Value="Use different styles and,their advantages to gain,an edge in battle!" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleInfoHeatElem" Value="Its element is Heat." />
+  <Text Key="BattleResult.StyleInfoAquaElem" Value="Its element is Aqua." />
+  <Text Key="BattleResult.StyleInfoElecElem" Value="Its element is Elec." />
+  <Text Key="BattleResult.StyleInfoLeafElem" Value="Its element is Leaf." />
+  <Text Key="BattleResult.StyleInfoPoisElem" Value="Its element is Pois." />
+  <Text Key="BattleResult.StyleInfoErthElem" Value="Its element is Erth." />
+  <Dialogue Key="BattleResult.StyleInfoHeatWeakness" Value="But watch out for,Aqua and Earth attacks.,They’ll hit twice as hard." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoAquaWeakness" Value="But watch out for,Elec and Poison attacks.,They’ll hit twice as hard." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoElecWeakness" Value="But watch out for,Leaf and Earth attacks.,They’ll hit twice as hard." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoLeafWeakness" Value="But watch out for,Heat and Poison attacks.,They’ll hit twice as hard." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoPoisWeakness" Value="But watch out for,Heat and Elec attacks.,They’ll hit twice as hard." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoErthWeakness" Value="But watch out for,Aqua and Leaf attacks.,They’ll hit twice as hard." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtEnd" Value="Yeah! I feel the power of,pure fighting spirit!,Who knew I had it in me?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjEnd" Value="Yeah! I feel the power of,a raging tempest!,Who knew I had it in me?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocEnd" Value="Yeah! I feel the power of,a doctor’s intellect!,Who knew I had it in me?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaEnd" Value="Yeah! I feel the power of,solid ground beneath my feet!,Who knew I had it in me?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingEnd" Value="Yeah! I feel the power to,soar above the clouds!,Who knew I had it in me?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchEnd" Value="Yeah! I feel the power to,control the elements!,Who knew I had it in me?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue1" Value="This style fights well without ,having to rely on chips." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue2" Value="This style doubles your,buster power，so you can,fight using it alone." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue3" Value="Also，your charge shot throws,a huge Fighter Punch." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue4" Value="It’s an elemental punch,that pushes any enemies,in its path." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue1" Value="This style uses quick tactical,strikes to dispatch enemies." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue2" Value="This style is quite agile，,allowing you to evade,enemy attacks with ease." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue3" Value="Also，you can use swords,to nullify and parry enemy,attacks." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue4" Value="At max buster charge，you’ll,step ahead two panels when,using chips." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue5" Value="Also，your charge shot,slashes enemies with an ,elemental sword." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue6" Value="It slices three vertical tiles in,front of you with your style’s,element." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue1" Value="This style lets you use chips,more effectively." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue2" Value="You start with six chips in the,Custom Screen，and you can,ADD up to twelve." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue3" Value="Also，you can choose up to,six chips per turn，allowing for,more than one P.A.!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue4" Value="Your charge shot becomes,a syringe gun which fires,syringes." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue5" Value="They’ll inject the enemy with,your element’s status." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue1" Value="This style helps you endure,relentless assault." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue2" Value="This style grants you super,armor，so you won’t flinch,when you take a hit." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue3" Value="Starting in or switching to this,style makes two crosses of,elemental terrain." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue4" Value="Also，damage taken while,standing still is halved." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue5" Value="Furthermore，your charge,shot attacks the enemy’s feet,with an elemental quake." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue6" Value="This quake will stop your,enemies in their tracks." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue7" Value="Also，your element’s terrain,within three tiles of you will,release an additional attack!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue1" Value="This style specializes in,ignoring special terrain." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue2" Value="By flying in the air，you can,avoid the effects of special,terrain." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue3" Value="Also，you can’t be pushed,around by wind effects." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue4" Value="Once per turn，if you have no,chips left，you can press A to,make an evasive maneuver!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue5" Value="Also，your charge shot,becomes a fan that,summons tornadoes." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue6" Value="These tornadoes hit eight,times，two panels ahead." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue1" Value="This style improves how,you use elemental attacks." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue2" Value="This style manipulates the,elements，giving elemental,chips +10 power." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue3" Value="Chips of your style’s element,gain an extra 10 power!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue4" Value="When hit by your style’s,weaknesses，you won’t,take as much damage." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue5" Value="Also，you’re unaffected by,statuses." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue6" Value="Your charge shot draws a,magic circle and channels,a magical elemental flame" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue7" Value="up to three panels ahead." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue1" Value="Looks like you can’t hold,any more styles...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue2Question" Value="Want to overwrite one of,your current styles?" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue2Options" Value="Yes,No" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue3Question" Value="Overwrite which style?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue4Question" Value="Are you sure? You won’t,be able to get it back." Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue4Options" Value="Yes,No" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue5Question" Value="Are you sure? You won’t,be able to get it back." Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue5Options" Value="Yes,No" />
+</data>

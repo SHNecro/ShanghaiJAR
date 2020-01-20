@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- インターネット　インゲレススクエア -->
+  <Text Key="Map.InglesSquareName" Value="インターネット　インゲレススクエア" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.InglesSquareChipShopStage1Dialogue1QuestionFaceNaviGreenRobot" Value="私はネット商人です,いいものありますよ？" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareChipShopStage1Dialogue1Options" Value="買う,買わない" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.InglesSquareSub-chipShopStage1Dialogue1QuestionFaceNaviBlueRobot" Value="私はサブチップ商人です,サブチップを買いますか？" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareSub-chipShopStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- アドオンショップへようこそ！ -->
+  <Dialogue Key="Map.InglesSquareAdd-onShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="アドオンショップへようこそ！" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareAdd-onShopStage1Dialogue1Options" Value="買う,買わない" />
+  <!-- インテリアショップようこそアル！ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue1FaceNaviPurplePunk" Value="インテリアショップようこそアル！" Face="NaviPurplePunk" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れるアルよ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue2FaceNaviPurplePunk" Value="わずかなご予算で　あなたの,ホームページを美しく,飾れるアルよ" Face="NaviPurplePunk" Mono="False" />
+  <!-- インテリア欲しいアルか？ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue3QuestionFaceNaviPurplePunk" Value="インテリア欲しいアルか？" Face="NaviPurplePunk" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareInteriorShopStage1Dialogue3Options" Value="買う,買わない" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue1FaceSprite" Value="コチラハ　リンクゲートヲツナグ,テツヅキ　スプライトデス" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページトコノスクエアヲ　リンクデツナグコトガデキマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue2FaceSprite" Value="アナタノ　ホームページト,コノスクエアヲ　リンクデ,ツナグコトガデキマス" Face="Sprite" Mono="False" />
+  <!-- セツゾクノ　テスウリョウトシテ１５０００ゼニーガ　ヒツヨウデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue3FaceSprite" Value="セツゾクノ　テスウリョウトシテ,１５０００ゼニーガ　ヒツヨウデス" Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナギマスカ？ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="リンクヲ　ツナギマスカ？" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareLinkSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <!-- リンクノ　セツゾクガカンリョウシマシタ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue5FaceSprite" Value="リンクノ　セツゾクガ,カンリョウシマシタ" Face="Sprite" Mono="False" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue6FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue1FaceSprite" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue2FaceSprite" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue3FaceSprite" Value="カベガミノ　リョウキンハ,１０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareLinkSpriteStage3Dialogue4Options" Value="はい,いいえ" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue5FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue6FaceSprite" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <!-- 時計塔前広場の時計塔はこの街のシンボルなんだよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi1BStage1Dialogue1FaceNaviGreenRobot" Value="時計塔前広場の,時計塔はこの街の,シンボルなんだよ" Face="NaviGreenRobot" Mono="False" />
+  <!-- 観光に来たのなら絶対に一度は見ておかないとね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi1BStage1Dialogue2FaceNaviGreenRobot" Value="観光に来たのなら絶対に,一度は見ておかないとね" Face="NaviGreenRobot" Mono="False" />
+  <!-- ホテルから出て橋を渡ったところにあるケーキ屋は一度訪れてみるといいわよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi2BStage1Dialogue1FaceNaviPinkFemale" Value="ホテルから出て橋を渡った,ところにあるケーキ屋は,一度訪れてみるといいわよ" Face="NaviPinkFemale" Mono="False" />
+  <!-- 世界でも有名な三ツ星パティシエの作るケーキはすごい絶品なのよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi2BStage1Dialogue2FaceNaviPinkFemale" Value="世界でも有名な,三ツ星パティシエの作るケーキは,すごい絶品なのよ" Face="NaviPinkFemale" Mono="False" />
+  <!-- インゲレス市街にある大きな橋も実は名所の一つなんだ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi3BStage1Dialogue1FaceNaviOrangeMale" Value="インゲレス市街にある,大きな橋も実は,名所の一つなんだ" Face="NaviOrangeMale" Mono="False" />
+  <!-- 世界的に有名な童話の題材にもなってるからね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi3BStage1Dialogue2FaceNaviOrangeMale" Value="世界的に有名な,童話の題材にも,なってるからね" Face="NaviOrangeMale" Mono="False" />
+  <!-- ホテルの前にある銅像は探偵小説ファンなら欠かせないスポットですよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue1FaceNaviBlueRobot" Value="ホテルの前にある銅像は,探偵小説ファンなら,欠かせないスポットですよ" Face="NaviBlueRobot" Mono="False" />
+  <!-- あの名作推理小説「名探偵ナドゥ･ヤマザ」の銅像なんですからね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue2FaceNaviBlueRobot" Value="あの名作推理小説,「名探偵ナドゥ･ヤマザ」の,銅像なんですからね" Face="NaviBlueRobot" Mono="False" />
+  <!-- この街が小説の舞台だからこそ銅像が立つというものです -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue3FaceNaviBlueRobot" Value="この街が小説の舞台だからこそ,銅像が立つというものです" Face="NaviBlueRobot" Mono="False" />
+  <!-- これで観光名所は一通り聞けたわね -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue1FaceShanghai" Value="これで観光名所は,一通り聞けたわね" Face="Shanghai" Mono="False" />
+  <!-- 時計塔に　ケーキ屋さんそれから橋と銅像････ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue2FaceAlice" Value="時計塔に　ケーキ屋さん,それから橋と銅像････" Face="Alice" Mono="False" />
+  <!-- なんだかワクワクしてきたわ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue3FaceAlice" Value="なんだかワクワクしてきたわ" Face="Alice" Mono="False" />
+  <!-- じゃあ　さっそく観光名所を見に行きましょう！ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue4FaceShanghai" Value="じゃあ　さっそく,観光名所を見に行きましょう！" Face="Shanghai" Mono="False" />
+  <!-- 日本人は数字を送るの大好きですか？ -->
+  <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue1FaceNaviPurplePunk" Value="日本人は数字を送るの,大好きですか？" Face="NaviPurplePunk" Mono="False" />
+  <!-- 日本の友人１０６７０５８１　って送ってきたヨ -->
+  <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue2FaceNaviPurplePunk" Value="日本の友人,１０６７０５８１　って,送ってきたヨ" Face="NaviPurplePunk" Mono="False" />
+</data>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GenUniversity2fjimName" Value="University Office" />
+  <Dialogue Key="Map.GenUniversity2fjimChapter3OlderBrotherStage1Dialogue1FaceScientist" Value="It’s important in NetBattles to,know the special properties of,your chips." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChapter3OlderBrotherStage1Dialogue2FaceScientist" Value="You won’t get any stronger,unless you use those new,complicated chips!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk1Stage1Dialogue1FaceNone" Value="It’s a computer for office work，,but I can’t use it right now!,I can barely breathe!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk1Stage3Dialogue1FaceNone" Value="It’s a computer for office work." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk1Stage3Dialogue2FaceNone" Value="I could use it to manage the,University’s business data，but,I don’t need to do that now." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk2Stage1Dialogue1FaceNone" Value="It’s a computer for office work，,but I can’t use it right now!,I can barely breathe!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk2Stage3Dialogue1FaceNone" Value="It’s a computer for office work." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk2Stage3Dialogue2FaceNone" Value="I could use it to manage the,University’s business data，but,I don’t need to do that now." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed1Stage1Dialogue1FaceNone" Value="It’s an office chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed1Stage1Dialogue2FaceNone" Value="It’s quite clean.,Is it brand new?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow1Stage1Dialogue1FaceNone" Value="It’s Dr. Morichika’s chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow1Stage1Dialogue2FaceNone" Value="Some parts rattle around，so,it seems like he’s been using,it for a long time." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed2Stage1Dialogue1FaceNone" Value="It’s an office chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed2Stage1Dialogue2FaceNone" Value="It’s quite clean.,Is it brand new?" Face="None" Mono="False" />
+  <!-- 椅子の下に２６５４７８５２　と書かれたメモ用紙が落ちている -->
+  <Dialogue Key="Map.GenUniversity2fjimChairRed2Stage1Dialogue3FaceNone" Value="A sticky note’s fallen to the,ground under the chair....,It’s got ”26547852” written on it." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow2Stage1Dialogue1FaceNone" Value="It’s Dr. Morichika’s chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow2Stage1Dialogue2FaceNone" Value="Some parts rattle around，so,it seems like he’s been using,it for a long time." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair1Stage1Dialogue1FaceNone" Value="It’s an office chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair1Stage1Dialogue2FaceNone" Value="It’s quite clean.,Is it brand new?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair2Stage1Dialogue1FaceNone" Value="It’s an office chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair2Stage1Dialogue2FaceNone" Value="It’s quite clean.,Is it brand new?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTableStage1Dialogue1FaceNone" Value="It’s a wide table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTableStage1Dialogue2FaceNone" Value="There are water spots on it，,so it must’ve been wiped,down recently." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTable2Stage1Dialogue1FaceNone" Value="It’s a wide table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTable2Stage1Dialogue2FaceNone" Value="There are water spots on it，,so it must’ve been wiped,down recently." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage1Dialogue1FaceAlice" Value="This flower pot is an,air purifier!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage1Dialogue2FaceShanghai" Value="As a piece of decor，it hid,itself pretty well...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage1Dialogue3FaceShanghai" Value="Alice，jack me in!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage3Dialogue1FaceNone" Value="It looks like a flower pot at first，,but it’s actually an air purifier!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage3Dialogue2FaceNone" Value="I can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirPurifierpluginStage1Dialogue1FaceAlice" Value="This flower pot is an,air purifier!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirPurifierpluginStage1Dialogue2FaceShanghai" Value="As a piece of decor，it hid itself,pretty well...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirPurifierpluginStage1Dialogue3FaceShanghai" Value="Alice，jack me in!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue1FaceAlice" Value="Cough!,Here too....!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue2FaceShanghai" Value="There’s no way we can,register with the air like this!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue3FaceShanghai" Value="But I don’t see an air purifier，,do you?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue4FaceAlice" Value="Maybe it’s hidden,somewhere.... Cough!,I’ll look for it!" Face="Alice" Mono="False" />
+</data>

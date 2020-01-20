@@ -1,0 +1,157 @@
+﻿<ResourceDictionary x:Class="MapEditor.Controls.Styles"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+                    xmlns:componentModel="clr-namespace:System.ComponentModel;assembly=PresentationFramework"
+                    xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+                    xmlns:controls="clr-namespace:MapEditor.Controls">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/Templates.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    
+    <converters:ChipToChipDefinitionConverter x:Key="ChipToChipDefinitionConverter" />
+    <converters:ChipCodesMultiConverter x:Key="ChipCodesMultiConverter" />
+    <converters:AddOnIDToAddOnDefinitionConverter x:Key="AddOnIDToAddOnDefinitionConverter" />
+    <converters:ChipToDistinctCodesConverter x:Key="ChipToDistinctCodesConverter" />
+    <converters:EnumIntegerValueConverter x:Key="EnumToIntegerValueConverter" />
+    <converters:EnumStringValueConverter x:Key="EnumToStringValueConverter" />
+    <converters:OtherTypeToHasAmountBooleanConverter x:Key="OtherTypeToHasAmountBooleanConverter" />
+    <converters:ObjectEqualityBooleanConverter x:Key="ObjectEqualityBooleanConverter" />
+    <converters:NumberToOffsetNumberConverter x:Key="NumberToOffsetNumberConverter" />
+    <converters:ConverterGroup x:Key="EnumEqualityToBooleanConverter">
+        <converters:EnumIntegerValueConverter />
+        <converters:ObjectEqualityBooleanConverter />
+    </converters:ConverterGroup>
+
+    <Style x:Key="ValidatedControl"
+           TargetType="Control">
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)/ErrorContent}" />
+            </Trigger>
+        </Style.Triggers>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <AdornedElementPlaceholder>
+                        <Border BorderBrush="Red" BorderThickness="1" />
+                    </AdornedElementPlaceholder>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="xctk:IntegerUpDown"
+           BasedOn="{StaticResource ValidatedControl}">
+        <Setter Property="Height" Value="22" />
+        <Setter Property="AllowSpin" Value="True" />
+        <Setter Property="MouseWheelActiveTrigger" Value="FocusedMouseOver" />
+    </Style>
+    <Style TargetType="controls:WheelCaptureIntegerUpDown"
+           BasedOn="{StaticResource {x:Type xctk:IntegerUpDown}}">
+    </Style>
+    <Style TargetType="TextBox"
+           BasedOn="{StaticResource ValidatedControl}">
+        <Setter Property="Height" Value="22" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+
+    <Style TargetType="TextBlock">
+        <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+
+    <Style TargetType="ContentControl">
+        <Style.Triggers>
+            <Trigger Property="componentModel:DesignerProperties.IsInDesignMode" Value="True">
+                <Setter Property="Visibility" Value="Hidden" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style TargetType="ToolTip">
+        <Style.Resources>
+            <Style TargetType="ContentPresenter">
+                <Style.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="TextWrapping" Value="Wrap" />
+                    </Style>
+                </Style.Resources>
+            </Style>
+        </Style.Resources>
+        <Setter Property="MaxWidth" Value="300" />
+    </Style>
+
+    <Style x:Key="IconRadioButton" TargetType="RadioButton">
+        <Setter Property="Width" Value="48" />
+        <Setter Property="Height" Value="48" />
+        <Setter Property="Background" Value="LightGray" />
+        <Setter Property="GroupName" Value="TileSelectionGroup" />
+        <Setter Property="Template" Value="{StaticResource IconRadioButtonTemplate}" />
+    </Style>
+
+    <Style x:Key="TileIconRadioButton" TargetType="RadioButton" BasedOn="{StaticResource IconRadioButton}">
+        <Setter Property="GroupName" Value="TileSelectionGroup" />
+    </Style>
+
+    <Style x:Key="ToolIconRadioButton" TargetType="RadioButton" BasedOn="{StaticResource IconRadioButton}">
+        <Setter Property="GroupName" Value="ToolSelectionGroup" />
+    </Style>
+
+    <Style x:Key="AngleIconRadioButton" TargetType="RadioButton" BasedOn="{StaticResource IconRadioButton}">
+        <Setter Property="Width" Value="32" />
+        <Setter Property="Height" Value="32" />
+        <Setter Property="GroupName" Value="AngleSelectionGroup" />
+    </Style>
+
+    <Style TargetType="ListBox">
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden" />
+    </Style>
+
+    <Style x:Key="EncounterListBox" TargetType="ListBox" BasedOn="{StaticResource {x:Type ListBox}}">
+        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+        <Setter Property="SelectionMode" Value="Single" />
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+        <Setter Property="ItemTemplate" Value="{StaticResource EncounterListTemplate}"/>
+    </Style>
+
+    <Style TargetType="ListBoxItem">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ComputedVerticalScrollBarVisibility, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ScrollViewer}}" Value="Visible">
+                <Setter Property="MaxWidth" Value="{Binding ActualWidth, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListBox}, Converter={StaticResource NumberToOffsetNumberConverter}, ConverterParameter=-20}" />
+            </DataTrigger>
+        </Style.Triggers>
+        <Setter Property="MaxWidth" Value="{Binding ActualWidth, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListBox}, Converter={StaticResource NumberToOffsetNumberConverter}, ConverterParameter=-4}" />
+    </Style>
+
+    <Style x:Key="MoveContainerStyle" TargetType="ListBoxItem">
+        <EventSetter Event="MouseEnter" Handler="ListMove_MouseEnter" />
+        <EventSetter Event="MouseLeave" Handler="ListMove_MouseLeave" />
+    </Style>
+
+    <Style x:Key="MapObjectContainerStyle" TargetType="ListBoxItem">
+        <EventSetter Event="MouseEnter" Handler="ListObject_MouseEnter" />
+        <EventSetter Event="MouseLeave" Handler="ListObject_MouseLeave" />
+    </Style>
+
+    <Style x:Key="SetTagBindingButton" TargetType="Button">
+        <EventSetter Event="Click" Handler="SetTagProperty_Click" />
+        <Setter Property="Padding" Value="5,0" />
+    </Style>
+
+    <Style x:Key="SetTagBindingCheckBox" TargetType="CheckBox">
+        <EventSetter Event="Click" Handler="SetTagProperty_CheckUncheck" />
+    </Style>
+
+    <Style x:Key="SelectObjectButton" TargetType="Button">
+        <EventSetter Event="Click" Handler="SelectObject_Click" />
+        <Setter Property="Padding" Value="5,0" />
+    </Style>
+
+    <Style x:Key="SelectObjectIndexButton" TargetType="Button">
+        <EventSetter Event="Click" Handler="SelectObjectIndex_Click" />
+        <Setter Property="Padding" Value="5,0" />
+    </Style>
+
+    <Style x:Key="TargetUpdateCombobox" TargetType="ComboBox">
+        <EventSetter Event="Binding.TargetUpdated" Handler="ComboBox_TargetUpdated" />
+    </Style>
+</ResourceDictionary>

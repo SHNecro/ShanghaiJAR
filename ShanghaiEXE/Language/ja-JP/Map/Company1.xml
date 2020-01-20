@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン本社　廊下 -->
+  <Text Key="Map.Company1Name" Value="ボーダーコンツェルン本社　廊下" />
+  <!-- あ　あのロボット銃を持ってる！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage1Dialogue1FaceAlice" Value="あ　あのロボット,銃を持ってる！？" Face="Alice" Mono="False" />
+  <!-- 鈴仙　どうしたら････って -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue1FaceAlice" Value="鈴仙　どうしたら････って" Face="Alice" Mono="False" />
+  <!-- 何を持ってるの！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue2FaceAlice" Value="何を持ってるの！？" Face="Alice" Mono="False" />
+  <!-- 狙い良し････くらえっ！！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue3FaceReisen" Value="狙い良し････くらえっ！！" Face="Reisen" Mono="False" />
+  <!-- この手に限る -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue1FaceReisen" Value="この手に限る" Face="Reisen" Mono="False" />
+  <!-- 何をしてるの！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue2FaceAlice" Value="何をしてるの！？" Face="Alice" Mono="False" />
+  <!-- 「ATM-78小型ロケット砲」小さなパーツを組み立てて使う携帯性の高い････ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue3FaceReisen" Value="「ATM-78小型ロケット砲」,小さなパーツを組み立てて,使う携帯性の高い････" Face="Reisen" Mono="False" />
+  <!-- そうじゃなくて！！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue4FaceAlice" Value="そうじゃなくて！！" Face="Alice" Mono="False" />
+  <!-- あーもー････いちいちツッコむのもバカバカしくなってきた -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue5FaceAlice" Value="あーもー････,いちいちツッコむのも,バカバカしくなってきた" Face="Alice" Mono="False" />
+  <!-- ひるんでいる暇はないぞこの先がエレベータールームだ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue6FaceReisen" Value="ひるんでいる暇はないぞ,この先がエレベータールームだ" Face="Reisen" Mono="False" />
+  <!-- はいはい････シャンハイも頑張ろうね -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue7FaceAlice" Value="はいはい････,シャンハイも頑張ろうね" Face="Alice" Mono="False" />
+  <!-- はーい！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue8FaceShanghai" Value="はーい！" Face="Shanghai" Mono="False" />
+</data>

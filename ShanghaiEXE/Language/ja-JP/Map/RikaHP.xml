@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.RikaHPName" Value="里香のＨＰ" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue1FaceIku" Value="天子様が入院している間,パソコンを使うことが,できないので････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue2FaceIku" Value="里香様のパソコンで,メンテナンスを受けさせて,もらってるんですよ" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue3FaceTenshi" Value="あっ　アリス！,インターネット越しでいいなら,ネットバトルをするのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage1Dialogue1QuestionFaceShanghai" Value="天子にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <Text Key="Map.RikaHPIkutororuStage1Dialogue1Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.RikaHPIkutororuStage1Dialogue2FaceTenshi" Value="イク！,頑張ってね！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage3Dialogue1FaceTenshi" Value="わーい！,私が勝ったのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage5Dialogue1FaceTenshi" Value="アリスってすごく強いね！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage6Dialogue1FaceIku" Value="天子様のカスタマイズを受け,パワーアップしましたわ！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage6Dialogue2FaceTenshi" Value="もう負けないんだからね！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage8Dialogue1FaceTenshi" Value="イク！,やったのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage10Dialogue1FaceTenshi" Value="アリスすごい！,今度カスタマイズ教えてよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage11Dialogue1FaceTenshi" Value="気が向いたらやろうね！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue1FaceSprite" Value="アッ！　シャンハイサン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue2FaceSprite" Value="リカサマッタラ　Ｐコードヲ,ワタスノスッカリ　ワスレテ,シマッテルミタイナノデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue3FaceSprite" Value="ワタシガ　シャンハイサンアテニ,アズカッテル　Ｐコードヲ,ワタシテオクノデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage3Dialogue1FaceSprite" Value="リカサマト　イッショニ,スゴシテイルト　クチグセガ,ウツッチャッタノデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage3Dialogue2FaceSprite" Value="ナノデス　ナノデス〜！" Face="Sprite" Mono="False" />
+</data>

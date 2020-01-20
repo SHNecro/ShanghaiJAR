@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Refrigerator1Name" Value="Fridge Comp 1" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="MISS SHANGHAI!,IT’S HORRIBLE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="VIRUSES SUDDENLY,APPEARED AND MESSED,UP THE NETWORK!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage1Dialogue3FaceSprite" Value="THE PATH IS FROZEN AND,WE CAN’T GET BY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage3Dialogue1FaceSprite" Value="MISS SHANGHAI!,WE OWE YOU FOR SAVING,US AND THE FRIDGE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue1FaceSprite" Value="YOU PUNK! YOU PUNK!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue2FaceSprite" Value="HAH.... HAH....,IT’S NO USE!,I CAN’T BREAK IT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue3FaceSprite" Value="THE ”HEATDATA” IN THE,HEAT EXHAUST SYSTEM,CAN MELT IT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue4FaceSprite" Value="YOU SHOULD BE ABLE TO,REACH IT IF YOU TAKE A,FEW DETOURS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage3Dialogue1FaceSprite" Value="THE CYBER ICE MELTED，,SO NOW WE CAN GO,THROUGH!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage3Dialogue2FaceSprite" Value="HOORAY〜!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue1FaceSprite" Value="MISS SHANGHAI!,YOU CAME TO SAVE US!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue2FaceSprite" Value="IT’S ALWAYS COLD HERE,AND YOU NEVER COME!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue3FaceSprite" Value="SO ON BEHALF OF,ALL OF US SPRITES，,I’LL CHEER YOU ON!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue4FaceSprite" Value="GO!  GO!,GO，SHANGHAI，GO!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage3Dialogue1FaceSprite" Value="MISS SHANGHAI! EVEN,IF IT’S COLD，PLEASE,VISIT US SOMETIMES!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage3Dialogue2FaceSprite" Value="IT WOULD REALLY,BRIGHTEN UP OUR DAY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite5Stage1Dialogue1FaceSprite" Value="THE CRAWFISH AND,FAN VIRUSES SEEM TO,BE AQUA ELEMENT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite5Stage1Dialogue2FaceSprite" Value="ELECTRIC AND POISON,ATTACKS ARE STRONG,AGAINST AQUA TYPES!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue1FaceSprite" Value="I’M THE SPRITE THAT,CONTROLS THE HEAT,EXHAUST SYSTEM!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue2FaceSprite" Value="HERE’S THE ”HEATDATA”,YOU’VE BEEN LOOKING,FOR!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue3FaceSprite" Value="THERE WASN’T MUCH,TIME! THIS WAS ALL,I COULD GATHER!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue4FaceSprite" Value="I CAN REFILL IT IF NEEDED，,BUT IT’LL TAKE SOME TIME!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue5FaceSprite" Value="ANY ICE YOU MELTED,WILL REFORM，SO DO,YOUR BEST!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue6FaceSprite" Value="ALSO，THE HEATDATA,WILL DISAPPEAR IF YOU,JACK OUT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue7FaceSprite" Value="IF THAT HAPPENS，TALK,TO ME AND I’LL MAKE,MORE HEATDATA!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue8FaceSprite" Value="NOW PLEASE GO SAVE,THE ICE CREAM!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue9FaceSprite" Value="YOU CAN USE SUB CHIPS,TO RECOVER HEALTH!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage3Dialogue1FaceSprite" Value="SHOULD I REFILL YOUR,HEAT DATA?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage3Dialogue2QuestionFaceSprite" Value="THE ICE WILL REFORM,IN THE MEANTIME!" Face="Sprite" Mono="False" />
+  <Text Key="Map.Refrigerator1Chapter1Sprite4Stage3Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage5Dialogue1FaceSprite" Value="IT’S PRETTY HOT IN THE,HEAT EXHAUST SECTION!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage5Dialogue2FaceSprite" Value="I MIGHT LOOK FINE，BUT,I’M ACTUALLY DRIPPING,IN CYBER SWEAT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue1FaceShanghai" Value="Wha!?,It’s freezing in here!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue2FaceAlice" Value="The whole cyberworld,is out of control!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue3FaceShanghai" Value="The floor is frozen solid!,My gorgeous legs will get,frostbite〜!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue4FaceAlice" Value="Cut it out! We have to find,out what’s causing this!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue5FaceShanghai" Value="Right!,I’m worried about Mama,and my ice cream!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue6FaceAlice" Value="(....What about me?)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage1Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage3Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage3Dialogue2QuestionFaceNone" Value="Use the HeatData?,(#v@20# charges left)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice1Stage3Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage3Dialogue3FaceNone" Value="Shanghai used the HeatData!,The ice melted in seconds!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice2Stage1Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice2Stage3Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice2Stage3Dialogue2QuestionFaceNone" Value="Use the HeatData?,(#v@20# charges left)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice2Stage3Dialogue2Options" Value="Yes,No" />
+  <!-- シャンハイは排熱データを使った！氷は一瞬にして溶けていった！ -->
+  <Dialogue Key="Map.Refrigerator1Ice2Stage3Dialogue3FaceNone" Value="Shanghai used the HeatData!,The ice melted in seconds!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage1Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage3Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage3Dialogue2QuestionFaceNone" Value="Use the HeatData?,(#v@20# charges left)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice3Stage3Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage3Dialogue3FaceNone" Value="Shanghai used the HeatData!,The ice melted in seconds!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage1Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage3Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage3Dialogue2QuestionFaceNone" Value="Use the HeatData?,(#v@20# charges left)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice4Stage3Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage3Dialogue3FaceNone" Value="Shanghai used the HeatData!,The ice melted in seconds!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage1Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage3Dialogue1FaceNone" Value="It’s rigid ice data made by,the unnatural cyber chill." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage3Dialogue2QuestionFaceNone" Value="Use the HeatData?,(#v@20# charges left)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice5Stage3Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage3Dialogue3FaceNone" Value="Shanghai used the HeatData!,The ice melted in seconds!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage1Dialogue1FaceShanghai" Value="....!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage1Dialogue2FaceAlice" Value="Shanghai?,What’s wrong?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage1Dialogue3FaceShanghai" Value="Something’s....coming!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue1FaceAlice" Value="Shanghai!,Answer me!,Shanghai!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue2FaceShanghai" Value="....Phew!,The ice finally melted!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue3FaceShanghai" Value="You saved me，Alice?,Thanks!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue4FaceAlice" Value="Gladly!,But we don’t have much time!,We have to stop the fridge!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue5FaceShanghai" Value="Of course!,I was thinking the same thing!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue6FaceShanghai" Value="I’ll beat whatever’s causing,this within an inch of deletion!!" Face="Shanghai" Mono="False" />
+</data>

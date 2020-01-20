@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShip3fName" Value="Siren 3F Lodging" />
+  <Dialogue Key="Map.SeirenShip3f101Stage1Dialogue1FaceNone" Value="It’s Room 101.,The door is locked." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3f102Stage1Dialogue1FaceNone" Value="It’s Room 102.,The door is locked." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.SeirenShip3fElevatorStage1Dialogue2Options" Value="1F  Lobby,2F  Mall,Leave" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage1Dialogue1FaceAlice" Value="Kya!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage1Dialogue2FaceWriggleHat" Value="Ah! Sorry!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue1FaceWriggleHat" Value="Are you okay?" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue2FaceAlice" Value="Um....I’m fine.,I just wasn’t watching,where I was going." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue3FaceWriggleHat" Value="No，I wasn’t paying attention.,I’m just glad you weren’t hurt." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue4FaceWriggleHat" Value="Well，bye." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue1FaceShanghai" Value="Hey，you should be,more careful." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue2FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue3FaceShanghai" Value="Something wrong?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue4FaceAlice" Value="Ah，no?,I wonder if that boy is a,guest on this ship too." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue5FaceShanghai" Value="He’s probably just some,rich foreigner’s kid，right?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue6FaceAlice" Value="You might be right.,I’m on a luxury cruise,ship，after all...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue7FaceShanghai" Value="Hey! Chop chop!,Get walking!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue8FaceShanghai" Value="People are gonna make,fun of you if you keep,acting so timid!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue9FaceAlice" Value="Acting timid!? I have no idea,what you’re talking about!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fMobStage1Dialogue1FaceWhiteHairFemaleRichLady" Value="Only the most elite can ride,this ship back to Engelles.,It’s quite the status symbol." Face="WhiteHairFemaleRichLady" Mono="False" />
+</data>

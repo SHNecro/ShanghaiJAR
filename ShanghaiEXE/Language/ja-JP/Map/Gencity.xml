@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 幻想町 -->
+  <Text Key="Map.GencityName" Value="幻想町" />
+  <!-- ふう　PETをインストールした万歩計があって助かった -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue1FaceMaleOld" Value="ふう　PETをインストールした,万歩計があって助かった" Face="MaleOld" Mono="False" />
+  <!-- メールが見れなかったらあやうく重要な書類を忘れるところだった -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue2FaceMaleOld" Value="メールが見れなかったら,あやうく重要な書類を,忘れるところだった" Face="MaleOld" Mono="False" />
+  <!-- PETさえ入れればどんな電子機器でも -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue3FaceMaleOld" Value="PETさえ入れればどんな,電子機器でも" Face="MaleOld" Mono="False" />
+  <!-- ネットナビのおかげでメールやインターネットができるからな -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue4FaceMaleOld" Value="ネットナビのおかげでメールや,インターネットができるからな" Face="MaleOld" Mono="False" />
+  <!-- ええっと　チップフォルダに入るチップの数は３０枚････っと -->
+  <Dialogue Key="Map.GencityChapter1YouthStage1Dialogue1FaceMaleAdult" Value="ええっと　チップフォルダに入る,チップの数は３０枚････っと" Face="MaleAdult" Mono="False" />
+  <!-- 今日の仕事はお得意先の機械に入ったウィルスの退治だからね -->
+  <Dialogue Key="Map.GencityChapter1YouthStage1Dialogue2FaceMaleAdult" Value="今日の仕事はお得意先の,機械に入ったウィルスの,退治だからね" Face="MaleAdult" Mono="False" />
+  <!-- 失敗しないようにちゃんとチェックしておこう -->
+  <Dialogue Key="Map.GencityChapter1YouthStage1Dialogue3FaceMaleAdult" Value="失敗しないように,ちゃんとチェックしておこう" Face="MaleAdult" Mono="False" />
+  <!-- 中学校はここをまっすぐ行ったところにあるよ！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirlStage1Dialogue1FaceFemaleChild" Value="中学校はここをまっすぐ,行ったところにあるよ！" Face="FemaleChild" Mono="False" />
+  <!-- えへへ　この町の地図がんばって覚えたの！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirlStage1Dialogue2FaceFemaleChild" Value="えへへ　この町の地図,がんばって覚えたの！" Face="FemaleChild" Mono="False" />
+  <!-- 昨日　友達の家の冷蔵庫が暴走したんだって -->
+  <Dialogue Key="Map.GencityChapter1OlderSisterStage1Dialogue1FaceFemaleAdult" Value="昨日　友達の家の,冷蔵庫が暴走したんだって" Face="FemaleAdult" Mono="False" />
+  <!-- もしかしてウワサのROMっていうネット犯罪集団の仕業かしら -->
+  <Dialogue Key="Map.GencityChapter1OlderSisterStage1Dialogue2FaceFemaleAdult" Value="もしかしてウワサのROMっていう,ネット犯罪集団の仕業かしら" Face="FemaleAdult" Mono="False" />
+  <!-- 予定とかを忘れて困ったときはＬボタンを押すといいんですよ -->
+  <Dialogue Key="Map.GencityChapter1AuntStage1Dialogue1FaceFemaleMiddleAged" Value="予定とかを忘れて困ったときは,Ｌボタンを押すといいんですよ" Face="FemaleMiddleAged" Mono="False" />
+  <!-- そうすれば　ネットナビがアドバイスをくれますからね -->
+  <Dialogue Key="Map.GencityChapter1AuntStage1Dialogue2FaceFemaleMiddleAged" Value="そうすれば　ネットナビが,アドバイスをくれますからね" Face="FemaleMiddleAged" Mono="False" />
+  <!-- わたくし物忘れが激しいのでネットナビに頼ってばっかりですわ -->
+  <Dialogue Key="Map.GencityChapter1AuntStage1Dialogue3FaceFemaleMiddleAged" Value="わたくし物忘れが激しいので,ネットナビに頼ってばっかりですわ" Face="FemaleMiddleAged" Mono="False" />
+  <!-- ここは幻想町という名前の町なんじゃよ -->
+  <Dialogue Key="Map.GencityChapter1OldManStage1Dialogue1FaceMaleElderly" Value="ここは幻想町という名前の,町なんじゃよ" Face="MaleElderly" Mono="False" />
+  <!-- 都市部からほどよく離れてて空気がきれいな町なんじゃ -->
+  <Dialogue Key="Map.GencityChapter1OldManStage1Dialogue2FaceMaleElderly" Value="都市部からほどよく離れてて,空気がきれいな町なんじゃ" Face="MaleElderly" Mono="False" />
+  <!-- 本当に　この町は住みやすくていい街じゃわい -->
+  <Dialogue Key="Map.GencityChapter1OldManStage1Dialogue3FaceMaleElderly" Value="本当に　この町は,住みやすくていい街じゃわい" Face="MaleElderly" Mono="False" />
+  <!-- この門の先が幻想中学校ですよ -->
+  <Dialogue Key="Map.GencityChapter1GrandmotherStage1Dialogue1FaceFemaleElderly" Value="この門の先が,幻想中学校ですよ" Face="FemaleElderly" Mono="False" />
+  <!-- 孫が通っておるからちょっと見に来たのよ -->
+  <Dialogue Key="Map.GencityChapter1GrandmotherStage1Dialogue2FaceFemaleElderly" Value="孫が通っておるから,ちょっと見に来たのよ" Face="FemaleElderly" Mono="False" />
+  <!-- ってあらあらお嬢ちゃんはこの中学校の生徒さんでしたか -->
+  <Dialogue Key="Map.GencityChapter1GrandmotherStage1Dialogue3FaceFemaleElderly" Value="ってあらあら,お嬢ちゃんはこの中学校の,生徒さんでしたか" Face="FemaleElderly" Mono="False" />
+  <!-- へぇー　お姉ちゃん携帯電話にナビ入れてるんだ！ -->
+  <Dialogue Key="Map.GencityChapter1TeenagerStage1Dialogue1FaceMaleChild" Value="へぇー　お姉ちゃん,携帯電話にナビ入れてるんだ！" Face="MaleChild" Mono="False" />
+  <!-- オイラは携帯ゲーム機に入れてるんだぜ！ -->
+  <Dialogue Key="Map.GencityChapter1TeenagerStage1Dialogue2FaceMaleChild" Value="オイラは携帯ゲーム機に,入れてるんだぜ！" Face="MaleChild" Mono="False" />
+  <!-- ねえ　プラグインって知ってる？ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue1FaceFemaleChild" Value="ねえ　プラグインって知ってる？" Face="FemaleChild" Mono="False" />
+  <!-- パソコンみたいにプラグインができる機械にネットナビを送ることなのよ！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue2FaceFemaleChild" Value="パソコンみたいにプラグインが,できる機械にネットナビを,送ることなのよ！" Face="FemaleChild" Mono="False" />
+  <!-- やり方は簡単！機械の近くでＲボタンを押すだけでいいの！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue3FaceFemaleChild" Value="やり方は簡単！,機械の近くでＲボタンを,押すだけでいいの！" Face="FemaleChild" Mono="False" />
+  <!-- この花だんにもプラグインができるみたいだから試してみて！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue4FaceFemaleChild" Value="この花だんにもプラグインが,できるみたいだから,試してみて！" Face="FemaleChild" Mono="False" />
+  <!-- あれ　この花だんのお家お姉さんのだったの？ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue5FaceFemaleChild" Value="あれ　この花だんのお家,お姉さんのだったの？" Face="FemaleChild" Mono="False" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.GencityASub-chipMerchantStage1Dialogue1FaceScientist" Value="私はサブチップ商人です" Face="Scientist" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.GencityASub-chipMerchantStage1Dialogue2QuestionFaceScientist" Value="サブチップを買いますか？" Face="Scientist" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GencityASub-chipMerchantStage1Dialogue2Options" Value="はい,いいえ" />
+  <!-- 友達とリニアメトロに乗って中央街に買い物しに行くの！ -->
+  <Dialogue Key="Map.GencityChapter2GirlStage1Dialogue1FaceFemaleStudent" Value="友達とリニアメトロに乗って,中央街に買い物しに行くの！" Face="FemaleStudent" Mono="False" />
+  <!-- 友達まだかな〜 -->
+  <Dialogue Key="Map.GencityChapter2GirlStage1Dialogue2FaceFemaleStudent" Value="友達まだかな〜" Face="FemaleStudent" Mono="False" />
+  <!-- リニアメトロは地下を走る高速鉄道なんだよ -->
+  <Dialogue Key="Map.GencityChapter2YouthStage1Dialogue1FaceMaleAdult" Value="リニアメトロは地下を走る,高速鉄道なんだよ" Face="MaleAdult" Mono="False" />
+  <!-- 地下にあるから天候などでの時間が遅れがあまりないんだ -->
+  <Dialogue Key="Map.GencityChapter2YouthStage1Dialogue2FaceMaleAdult" Value="地下にあるから天候などでの,時間が遅れがあまりないんだ" Face="MaleAdult" Mono="False" />
+  <!-- いつ見ても大きなお屋敷だなあ -->
+  <Dialogue Key="Map.GencityChapter2UncleStage1Dialogue1FaceMaleElderly" Value="いつ見ても大きなお屋敷だなあ" Face="MaleElderly" Mono="False" />
+  <!-- 私もこれくらいの家に住めるお金持ちになりたかったよ････ -->
+  <Dialogue Key="Map.GencityChapter2UncleStage1Dialogue2FaceMaleElderly" Value="私もこれくらいの家に住める,お金持ちになりたかったよ････" Face="MaleElderly" Mono="False" />
+  <!-- メトロに乗れば幻想大学まですぐに行けるのよ -->
+  <Dialogue Key="Map.GencityChapter2OlderSisterStage1Dialogue1FaceFemaleAdult" Value="メトロに乗れば幻想大学まで,すぐに行けるのよ" Face="FemaleAdult" Mono="False" />
+  <!-- メトロのおかげで実家から大学に通えるから便利なものよ -->
+  <Dialogue Key="Map.GencityChapter2OlderSisterStage1Dialogue2FaceFemaleAdult" Value="メトロのおかげで実家から,大学に通えるから,便利なものよ" Face="FemaleAdult" Mono="False" />
+  <!-- もうすぐネットナビを簡単にパワーアップできるツールが発売されるんだって -->
+  <Dialogue Key="Map.GencityChapter2Junior1Stage1Dialogue1FaceMaleStudent" Value="もうすぐネットナビを簡単に,パワーアップできるツールが,発売されるんだって" Face="MaleStudent" Mono="False" />
+  <!-- マジかー！？オレのナビのバスターがすごく強くできるのか！？ -->
+  <Dialogue Key="Map.GencityChapter2Junior2Stage1Dialogue1FaceMaleChild" Value="マジかー！？,オレのナビのバスターが,すごく強くできるのか！？" Face="MaleChild" Mono="False" />
+  <!-- おーい！そこのキンパツ嬢ちゃーん！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage1Dialogue1FaceNone" Value="おーい！,そこのキンパツ嬢ちゃーん！" Face="None" Mono="False" />
+  <!-- せ、戦車！？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue1FaceAlice" Value="せ、戦車！？" Face="Alice" Mono="False" />
+  <!-- 里香とは関係なさそうだけど -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue2FaceShanghai" Value="里香とは関係なさそうだけど" Face="Shanghai" Mono="False" />
+  <!-- おどろかせて悪いけどちょっと助けてくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue3FaceNone" Value="おどろかせて悪いけど,ちょっと助けてくれないか？" Face="None" Mono="False" />
+  <!-- どうかしたんです？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue4FaceAlice" Value="どうかしたんです？" Face="Alice" Mono="False" />
+  <!-- コントロールユニットがウィルスにやられたみたいでハッチが開かなくなったんだ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue5FaceNone" Value="コントロールユニットが,ウィルスにやられたみたいで,ハッチが開かなくなったんだ" Face="None" Mono="False" />
+  <!-- 良かったらちょいとナビでウィルスバスティングとやらをやってくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue6FaceNone" Value="良かったらちょいとナビで,ウィルスバスティングとやらを,やってくれないか？" Face="None" Mono="False" />
+  <!-- やってもいいけどお礼ははずみなさいよ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue7FaceShanghai" Value="やってもいいけど,お礼ははずみなさいよ！" Face="Shanghai" Mono="False" />
+  <!-- ちょっと　親切に報酬を要求しちゃダメよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue8FaceAlice" Value="ちょっと　親切に報酬を,要求しちゃダメよ" Face="Alice" Mono="False" />
+  <!-- なーに言ってんの！ネットバトラーたるもの「お礼を貰うまでが親切」よ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue9FaceShanghai" Value="なーに言ってんの！,ネットバトラーたるもの,「お礼を貰うまでが親切」よ！" Face="Shanghai" Mono="False" />
+  <!-- 礼の話なら終わった後だ中が暑くてかなわんよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue10FaceNone" Value="礼の話なら終わった後だ,中が暑くてかなわんよ" Face="None" Mono="False" />
+  <!-- わかりました -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue11FaceAlice" Value="わかりました" Face="Alice" Mono="False" />
+  <!-- えーっと　プラグイン端子は････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue12FaceAlice" Value="えーっと　プラグイン端子は････" Face="Alice" Mono="False" />
+  <!-- あった！行くわよシャンハイ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue13FaceAlice" Value="あった！,行くわよシャンハイ！" Face="Alice" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue14FaceAlice" Value="バトルオペレーション、セット！" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue15FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <!-- 意外と手ごわかったわね････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage5Dialogue1FaceAlice" Value="意外と手ごわかったわね････" Face="Alice" Mono="False" />
+  <!-- おっ　開くようになった！よいしょっと！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage5Dialogue2FaceNone" Value="おっ　開くようになった！,よいしょっと！" Face="None" Mono="False" />
+  <!-- ふぃ〜！シャバの空気はいいねぇ〜！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue1FaceKumami" Value="ふぃ〜！,シャバの空気はいいねぇ〜！" Face="Kumami" Mono="False" />
+  <!-- キンパツ嬢ちゃん助かったよ　ありがとうな！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue2FaceKumami" Value="キンパツ嬢ちゃん,助かったよ　ありがとうな！" Face="Kumami" Mono="False" />
+  <!-- どういたしまして -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue3FaceAlice" Value="どういたしまして" Face="Alice" Mono="False" />
+  <!-- しっかし日本の町中で戦車なんて変わってるわね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue4FaceShanghai" Value="しっかし日本の町中で,戦車なんて変わってるわね" Face="Shanghai" Mono="False" />
+  <!-- アラブスタンで乗り回した愛車なものでね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue5FaceKumami" Value="アラブスタンで乗り回した,愛車なものでね" Face="Kumami" Mono="False" />
+  <!-- っと　自己紹介を忘れてた -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue6FaceKumami" Value="っと　自己紹介を忘れてた" Face="Kumami" Mono="False" />
+  <!-- 私は古阿　隈美（こあ　くまみ）っていうんだ　よろしくな！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue7FaceKumami" Value="私は古阿　隈美（こあ　くまみ）,っていうんだ　よろしくな！" Face="Kumami" Mono="False" />
+  <!-- 古阿って　もしかして････？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue8FaceAlice" Value="古阿って　もしかして････？" Face="Alice" Mono="False" />
+  <!-- 神綺さん　どうしたの？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage9Dialogue1FaceKumako" Value="神綺さん　どうしたの？" Face="Kumako" Mono="False" />
+  <!-- 戦車から出られなくなったこの人を助けてあげたんです -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue1FaceAlice" Value="戦車から出られなくなった,この人を助けてあげたんです" Face="Alice" Mono="False" />
+  <!-- ん？その声は････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue2FaceKumami" Value="ん？,その声は････" Face="Kumami" Mono="False" />
+  <!-- お、お姉ちゃん！？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue3FaceKumako" Value="お、お姉ちゃん！？" Face="Kumako" Mono="False" />
+  <!-- 久真子じゃないか！ひっさしぶりだな〜！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue4FaceKumami" Value="久真子じゃないか！,ひっさしぶりだな〜！" Face="Kumami" Mono="False" />
+  <!-- いつ日本に帰ってきたの？もう、本当に心配してたんだから -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue5FaceKumako" Value="いつ日本に帰ってきたの？,もう、本当に,心配してたんだから" Face="Kumako" Mono="False" />
+  <!-- ････なるほどなるほど -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue6FaceShanghai" Value="････なるほどなるほど" Face="Shanghai" Mono="False" />
+  <!-- どうしたの？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue7FaceAlice" Value="どうしたの？" Face="Alice" Mono="False" />
+  <!-- さっきしもべに隈美っていう人について軽く調べさせたのよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue8FaceShanghai" Value="さっきしもべに,隈美っていう人について,軽く調べさせたのよ" Face="Shanghai" Mono="False" />
+  <!-- 「大金持ちの冒険家」って言われてて結構有名な人みたいよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue9FaceShanghai" Value="「大金持ちの冒険家」,って言われてて,結構有名な人みたいよ" Face="Shanghai" Mono="False" />
+  <!-- つい最近はアラブスタンで賞金稼ぎをしてたんだって -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue10FaceShanghai" Value="つい最近はアラブスタンで,賞金稼ぎをしてたんだって" Face="Shanghai" Mono="False" />
+  <!-- ふーん････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue11FaceAlice" Value="ふーん････" Face="Alice" Mono="False" />
+  <!-- ････ってわけでこの町にしばらく住もうと思うんだ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue1FaceKumami" Value="････ってわけでこの町に,しばらく住もうと思うんだ" Face="Kumami" Mono="False" />
+  <!-- そうだ　キンパツ嬢ちゃんお礼についてなんだけどさ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue2FaceKumami" Value="そうだ　キンパツ嬢ちゃん,お礼についてなんだけどさ" Face="Kumami" Mono="False" />
+  <!-- この町に何もせず住むんじゃ退屈だからさ　何かお店を始めようと思うんだ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue3FaceKumami" Value="この町に何もせず住むんじゃ,退屈だからさ　何かお店を,始めようと思うんだ" Face="Kumami" Mono="False" />
+  <!-- そこで　何のお店にするかキンパツ嬢ちゃんたちが決めていいよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue4FaceKumami" Value="そこで　何のお店にするか,キンパツ嬢ちゃんたちが,決めていいよ" Face="Kumami" Mono="False" />
+  <!-- えっ　いいんですか！？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue5FaceAlice" Value="えっ　いいんですか！？" Face="Alice" Mono="False" />
+  <!-- さっきの礼代わりだよ何でもいいから言ってごらん -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue6FaceKumami" Value="さっきの礼代わりだよ,何でもいいから言ってごらん" Face="Kumami" Mono="False" />
+  <!-- えっと　じゃあ････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue7FaceAlice" Value="えっと　じゃあ････" Face="Alice" Mono="False" />
+  <!-- はいはーい！チップショップがいいでーす！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue8FaceShanghai" Value="はいはーい！,チップショップがいいでーす！" Face="Shanghai" Mono="False" />
+  <!-- チップショップか････いいね！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue9FaceKumami" Value="チップショップか････,いいね！" Face="Kumami" Mono="False" />
+  <!-- ちょっと　勝手に決めないでよ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue10FaceAlice" Value="ちょっと　勝手に決めないでよ！" Face="Alice" Mono="False" />
+  <!-- じゃあアリスは何の店が良かったの？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue11FaceShanghai" Value="じゃあアリスは,何の店が良かったの？" Face="Shanghai" Mono="False" />
+  <!-- ････手芸屋さん -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue12FaceAlice" Value="････手芸屋さん" Face="Alice" Mono="False" />
+  <!-- そんなのどこにでもあるでしょうが！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue13FaceShanghai" Value="そんなのどこにでも,あるでしょうが！" Face="Shanghai" Mono="False" />
+  <!-- チップショップは中央街まで行かないと無いんだからね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue14FaceShanghai" Value="チップショップは中央街まで,行かないと無いんだからね" Face="Shanghai" Mono="False" />
+  <!-- ちぇっ････しょうがないなぁ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue15FaceAlice" Value="ちぇっ････,しょうがないなぁ" Face="Alice" Mono="False" />
+  <!-- ハハハ！君たちは仲がいいねぇ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue16FaceKumami" Value="ハハハ！,君たちは仲がいいねぇ！" Face="Kumami" Mono="False" />
+  <!-- よし　じゃあ早速チップショップを開くための手続きをしに行ってくるよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue17FaceKumami" Value="よし　じゃあ早速チップショップを,開くための手続きをしに,行ってくるよ" Face="Kumami" Mono="False" />
+  <!-- じゃあな　久真子今度メシでもおごってやるよ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue18FaceKumami" Value="じゃあな　久真子,今度メシでもおごってやるよ！" Face="Kumami" Mono="False" />
+  <!-- 神綺さん変なお姉ちゃんでごめんね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue1FaceKumako" Value="神綺さん,変なお姉ちゃんでごめんね" Face="Kumako" Mono="False" />
+  <!-- 隈美さんって先生のお姉さんなんですか？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue2FaceAlice" Value="隈美さんって,先生のお姉さんなんですか？" Face="Alice" Mono="False" />
+  <!-- そうよ　４つ上のお姉ちゃん -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue3FaceKumako" Value="そうよ　４つ上のお姉ちゃん" Face="Kumako" Mono="False" />
+  <!-- 元々お姉ちゃんは大手の銀行に務めていたんだけど････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue4FaceKumako" Value="元々お姉ちゃんは大手の,銀行に務めていたんだけど････" Face="Kumako" Mono="False" />
+  <!-- 横領のえん罪でクビになってその後始めた株とかで大儲けしたのよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue5FaceKumako" Value="横領のえん罪でクビになって,その後始めた株とかで,大儲けしたのよ" Face="Kumako" Mono="False" />
+  <!-- 最近はそのお金で世界旅行に行ってたんだけど　私が心配で帰ってきたんだって -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue6FaceKumako" Value="最近はそのお金で世界旅行に,行ってたんだけど　私が心配で,帰ってきたんだって" Face="Kumako" Mono="False" />
+  <!-- いいお姉さんじゃない -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue7FaceShanghai" Value="いいお姉さんじゃない" Face="Shanghai" Mono="False" />
+  <!-- まあ　この町に住んで落ち着いてくれるならいいんだけどね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue8FaceKumako" Value="まあ　この町に住んで,落ち着いてくれるなら,いいんだけどね" Face="Kumako" Mono="False" />
+  <!-- そういえば神綺さん帰る途中だったみたいだけど -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue9FaceKumako" Value="そういえば神綺さん,帰る途中だったみたいだけど" Face="Kumako" Mono="False" />
+  <!-- そうだった！インターネットで学生パス発行してもらわなきゃ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue10FaceAlice" Value="そうだった！,インターネットで学生パス,発行してもらわなきゃ！" Face="Alice" Mono="False" />
+  <!-- 先生　さようなら！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue11FaceAlice" Value="先生　さようなら！" Face="Alice" Mono="False" />
+  <!-- 気をつけて帰るのよ〜 -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue12FaceKumako" Value="気をつけて帰るのよ〜" Face="Kumako" Mono="False" />
+  <!-- 遊んでもいいけれどハメを外しすぎないようにね！ -->
+  <Dialogue Key="Map.GencityChapter2KoaTeacher2Stage1Dialogue1FaceKumako" Value="遊んでもいいけれど,ハメを外しすぎないようにね！" Face="Kumako" Mono="False" />
+  <!-- 遅いじゃないか待ちくたびれたよ -->
+  <Dialogue Key="Map.GencityChapter2MariStage1Dialogue1FaceMari" Value="遅いじゃないか,待ちくたびれたよ" Face="Mari" Mono="False" />
+  <!-- 待っているあいだお話に花を咲かせていたのです！ -->
+  <Dialogue Key="Map.GencityChapter2RikaStage1Dialogue1FaceRika" Value="待っているあいだお話に花を,咲かせていたのです！" Face="Rika" Mono="False" />
+  <!-- あれ　レミリアどうしたの？ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue1FaceAlice" Value="あれ　レミリアどうしたの？" Face="Alice" Mono="False" />
+  <!-- ホホホ　ちてきこうきしんの探求は止められないのよ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue2FaceRemilia" Value="ホホホ　ちてきこうきしんの,探求は止められないのよ" Face="Remilia" Mono="False" />
+  <!-- 無理やりついてきたんだよこいつ勝手なんだ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue3FaceMari" Value="無理やりついてきたんだよ,こいつ勝手なんだ" Face="Mari" Mono="False" />
+  <!-- 人数が多いほうが楽しいのです！里香は気にしないのです！ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue4FaceRika" Value="人数が多いほうが,楽しいのです！,里香は気にしないのです！" Face="Rika" Mono="False" />
+  <!-- こんなとこで無駄口叩いてないで早く行きましょうよ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue5FaceShanghai" Value="こんなとこで,無駄口叩いてないで,早く行きましょうよ" Face="Shanghai" Mono="False" />
+  <!-- それもそうねさあ　行きましょう -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue6FaceAlice" Value="それもそうね,さあ　行きましょう" Face="Alice" Mono="False" />
+  <!-- 結局森近博士に解析の結果聞けなかったわね -->
+  <Dialogue Key="Map.GencityChapter2EventsStage1Dialogue1FaceAlice" Value="結局森近博士に,解析の結果聞けなかったわね" Face="Alice" Mono="False" />
+  <!-- 一歩前進しただけマシだと思いましょう -->
+  <Dialogue Key="Map.GencityChapter2EventsStage1Dialogue2FaceShanghai" Value="一歩前進しただけマシだと,思いましょう" Face="Shanghai" Mono="False" />
+  <!-- あら　電話よあの戦車乗りからよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue1FaceShanghai" Value="あら　電話よ,あの戦車乗りからよ" Face="Shanghai" Mono="False" />
+  <!-- 隈美さんから？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue2FaceAlice" Value="隈美さんから？" Face="Alice" Mono="False" />
+  <!-- もしもし隈美さんどうしたんです？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue3FaceAlice" Value="もしもし,隈美さんどうしたんです？" Face="Alice" Mono="False" />
+  <!-- よお　キンパツ嬢ちゃん！さっきはありがとな！おかげで助かったよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue4FaceKumami" Value="よお　キンパツ嬢ちゃん！,さっきはありがとな！,おかげで助かったよ" Face="Kumami" Mono="False" />
+  <!-- 急な話ですまないがちょっと頼まれてくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue5FaceKumami" Value="急な話ですまないが,ちょっと頼まれてくれないか？" Face="Kumami" Mono="False" />
+  <!-- いいですけど　何ですか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue6FaceAlice" Value="いいですけど　何ですか？" Face="Alice" Mono="False" />
+  <!-- 今　チップショップを開くために中央街の役所で手続きやってるんだ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue7FaceKumami" Value="今　チップショップを開くために,中央街の役所で,手続きやってるんだ" Face="Kumami" Mono="False" />
+  <!-- それでな　手続きの一環でナビがいないとダメみたいなんだ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue8FaceKumami" Value="それでな　手続きの一環で,ナビがいないとダメみたいなんだ" Face="Kumami" Mono="False" />
+  <!-- えっ　隈美さんってナビ持ってなかったんですか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue9FaceAlice" Value="えっ　隈美さんって,ナビ持ってなかったんですか？" Face="Alice" Mono="False" />
+  <!-- いや　いるにはいるんだけど海外行く時に久真子に貸してたの忘れててな -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue10FaceKumami" Value="いや　いるにはいるんだけど,海外行く時に久真子に,貸してたの忘れててな" Face="Kumami" Mono="False" />
+  <!-- よかったら久真子に言ってナビを返してもらってくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue11FaceKumami" Value="よかったら久真子に言って,ナビを返してもらってくれないか？" Face="Kumami" Mono="False" />
+  <!-- こぁ先生からですね？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue12FaceAlice" Value="こぁ先生からですね？" Face="Alice" Mono="False" />
+  <!-- 別にいいですけど････ナビはどうやって渡せば？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue13FaceAlice" Value="別にいいですけど････,ナビはどうやって渡せば？" Face="Alice" Mono="False" />
+  <!-- モヤシみたいに軽いナビだからメールに添付してくれればそれで送れるはずだ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue14FaceKumami" Value="モヤシみたいに軽いナビだから,メールに添付してくれれば,それで送れるはずだ" Face="Kumami" Mono="False" />
+  <!-- （モヤシ････？） -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue15FaceAlice" Value="（モヤシ････？）" Face="Alice" Mono="False" />
+  <!-- （どんだけ容量の軽い　ナビなのよ････） -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue16FaceShanghai" Value="（どんだけ容量の軽い,　ナビなのよ････）" Face="Shanghai" Mono="False" />
+  <!-- っつーことで　早めに頼むよ！あとでお礼は渡すからさ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue17FaceKumami" Value="っつーことで　早めに頼むよ！,あとでお礼は渡すからさ" Face="Kumami" Mono="False" />
+  <!-- わかりました -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue18FaceAlice" Value="わかりました" Face="Alice" Mono="False" />
+  <!-- 先生はこの時間ならまだ学校にいるはずよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue19FaceShanghai" Value="先生はこの時間ならまだ,学校にいるはずよ" Face="Shanghai" Mono="False" />
+  <!-- とりあえず中学校へ行きましょう -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue20FaceAlice" Value="とりあえず中学校へ行きましょう" Face="Alice" Mono="False" />
+  <!-- アリス　メールが届いてるわよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue1FaceShanghai" Value="アリス　メールが届いてるわよ" Face="Shanghai" Mono="False" />
+  <!-- レミリアから？なになに････ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue2FaceAlice" Value="レミリアから？,なになに････" Face="Alice" Mono="False" />
+  <!-- さっきはごめんなさい口で言うと素直に話せなくて -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue3FaceRemilia" Value="さっきはごめんなさい,口で言うと素直に話せなくて" Face="Remilia" Mono="True" />
+  <!-- あのあとサクヤにも叱られました -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue4FaceRemilia" Value="あのあとサクヤにも叱られました" Face="Remilia" Mono="True" />
+  <!-- 自分の行動を振り返ってみるとひどいことをしてしまったと反省しています -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue5FaceRemilia" Value="自分の行動を振り返ってみると,ひどいことをしてしまったと,反省しています" Face="Remilia" Mono="True" />
+  <!-- お詫びの品ってわけじゃないけど私のホームページのＰコードを差し上げます -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue6FaceRemilia" Value="お詫びの品ってわけじゃないけど,私のホームページのＰコードを,差し上げます" Face="Remilia" Mono="True" />
+  <!-- 良かったら　今度おうちに遊びに来てください -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue7FaceRemilia" Value="良かったら　今度おうちに,遊びに来てください" Face="Remilia" Mono="True" />
+  <!-- またネットバトルをしましょうねサクヤも待ってます -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue8FaceRemilia" Value="またネットバトルをしましょうね,サクヤも待ってます" Face="Remilia" Mono="True" />
+  <!-- じゃあまたね -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue9FaceRemilia" Value="じゃあまたね" Face="Remilia" Mono="True" />
+  <!-- まあ　あの子にしてはよくできたんじゃない？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue10FaceShanghai" Value="まあ　あの子にしては,よくできたんじゃない？" Face="Shanghai" Mono="False" />
+  <!-- どうしてそんなに偉そうなのよ････ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue11FaceAlice" Value="どうしてそんなに偉そうなのよ････" Face="Alice" Mono="False" />
+  <!-- やっぱあたしの言葉が効いたんでしょうね〜 -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue12FaceShanghai" Value="やっぱあたしの言葉が,効いたんでしょうね〜" Face="Shanghai" Mono="False" />
+  <!-- そうやってすぐ調子に乗るんだから････ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue13FaceAlice" Value="そうやってすぐ,調子に乗るんだから････" Face="Alice" Mono="False" />
+  <!-- さてと　疲れちゃったしそろそろ帰ろうか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue14FaceAlice" Value="さてと　疲れちゃったし,そろそろ帰ろうか？" Face="Alice" Mono="False" />
+  <!-- それもそうね帰りますか！ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue15FaceShanghai" Value="それもそうね,帰りますか！" Face="Shanghai" Mono="False" />
+  <!-- 君が依頼を受けてくれた人だねよろしく -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue1FaceMaleAdult" Value="君が依頼を受けてくれた人だね,よろしく" Face="MaleAdult" Mono="False" />
+  <!-- 君にはこの荷物データをゲンソウスクエアに運んでもらいたいんだ -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue2FaceMaleAdult" Value="君にはこの荷物データを,ゲンソウスクエアに,運んでもらいたいんだ" Face="MaleAdult" Mono="False" />
+  <!-- 荷物っていっても商品用のサブチップのデータなんだけどね -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue3FaceMaleAdult" Value="荷物っていっても,商品用のサブチップの,データなんだけどね" Face="MaleAdult" Mono="False" />
+  <!-- 本当は僕がいきたいんだけどトラブルの対応を急にしなくちゃいけなくなってね -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue4FaceMaleAdult" Value="本当は僕がいきたいんだけど,トラブルの対応を急にしなくちゃ,いけなくなってね" Face="MaleAdult" Mono="False" />
+  <!-- 報酬は荷物を受け取る人に用意してもらったから届け先で貰ってね -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue5FaceMaleAdult" Value="報酬は荷物を受け取る人に,用意してもらったから,届け先で貰ってね" Face="MaleAdult" Mono="False" />
+  <!-- 運び先はゲンソウスクエアだよ頼んだからね！ -->
+  <Dialogue Key="Map.GencityRequester1Stage3Dialogue1FaceMaleAdult" Value="運び先はゲンソウスクエアだよ,頼んだからね！" Face="MaleAdult" Mono="False" />
+  <!-- 君のおかげで助かったよありがとう！ -->
+  <Dialogue Key="Map.GencityRequester1Stage5Dialogue1FaceMaleAdult" Value="君のおかげで助かったよ,ありがとう！" Face="MaleAdult" Mono="False" />
+  <!-- チップショップで買ったアドオンでナビがすごーく強くなったぜ！ -->
+  <Dialogue Key="Map.GencityChapter3YoungBoy1Stage1Dialogue1FaceMaleChild" Value="チップショップで買ったアドオンで,ナビがすごーく強くなったぜ！" Face="MaleChild" Mono="False" />
+  <!-- いままでチップショップは中央街にしかなかったけどこれでかなり便利になったよ -->
+  <Dialogue Key="Map.GencityChapter3YoungBoy2Stage1Dialogue1FaceMaleStudent" Value="いままでチップショップは,中央街にしかなかったけど,これでかなり便利になったよ" Face="MaleStudent" Mono="False" />
+  <!-- え！？君が進言したからなの！？凄いねー！ -->
+  <Dialogue Key="Map.GencityChapter3YoungBoy2Stage1Dialogue2FaceMaleStudent" Value="え！？,君が進言したからなの！？,凄いねー！" Face="MaleStudent" Mono="False" />
+  <!-- えーん　おこづかいが足りなくてお買い物ができないよー！ -->
+  <Dialogue Key="Map.GencityChapter3YoungGirl1Stage1Dialogue1FaceFemaleChild" Value="えーん　おこづかいが,足りなくてお買い物が,できないよー！" Face="FemaleChild" Mono="False" />
+  <!-- 隈美さんの愛車の戦車だ -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue1FaceNone" Value="隈美さんの愛車の戦車だ" Face="None" Mono="False" />
+  <!-- チップショップ「ヴワル」の看板となっており戦闘能力は外されている -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue2FaceNone" Value="チップショップ「ヴワル」の,看板となっており,戦闘能力は外されている" Face="None" Mono="False" />
+  <!-- アラブスタンで改造されたのか軍隊で使われる戦車とはかなり構造が異なるようだ -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue3FaceNone" Value="アラブスタンで改造されたのか,軍隊で使われる戦車とは,かなり構造が異なるようだ" Face="None" Mono="False" />
+  <!-- ハッチの部分を制御するコントロールユニットにプラグインができる -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue4FaceNone" Value="ハッチの部分を制御する,コントロールユニットに,プラグインができる" Face="None" Mono="False" />
+  <!-- N１リーグに俺も出るぜー！ -->
+  <Dialogue Key="Map.GencityChapter4Junior1Stage1Dialogue1FaceMaleChild" Value="N１リーグに俺も出るぜー！" Face="MaleChild" Mono="False" />
+  <!-- 目指すは優勝だぜー！ -->
+  <Dialogue Key="Map.GencityChapter4Junior1Stage1Dialogue2FaceMaleChild" Value="目指すは優勝だぜー！" Face="MaleChild" Mono="False" />
+  <!-- 若い者はインタネットとかいうのに夢中じゃのー -->
+  <Dialogue Key="Map.GencityChapter4OldMan1Stage1Dialogue1FaceMaleElderly" Value="若い者はインタネットとか,いうのに夢中じゃのー" Face="MaleElderly" Mono="False" />
+  <!-- わしらみたいなのはそんなものに頼らんでも生きていけるんじゃがのう -->
+  <Dialogue Key="Map.GencityChapter4OldMan1Stage1Dialogue2FaceMaleElderly" Value="わしらみたいなのは,そんなものに頼らんでも,生きていけるんじゃがのう" Face="MaleElderly" Mono="False" />
+  <!-- インターネットの治安を守るネットエージェントの日本支部は永遠町にあるんですって -->
+  <Dialogue Key="Map.GencityChapter4OldMan2Stage1Dialogue1FaceFemaleElderly" Value="インターネットの治安を守る,ネットエージェントの日本支部は,永遠町にあるんですって" Face="FemaleElderly" Mono="False" />
+  <!-- 永遠町は緑豊かな街なんですって友だちが言ってたわ -->
+  <Dialogue Key="Map.GencityChapter4OldMan2Stage1Dialogue2FaceFemaleElderly" Value="永遠町は緑豊かな,街なんですって,友だちが言ってたわ" Face="FemaleElderly" Mono="False" />
+  <!-- N１リーグを開催するボーダーコンツェルンって会社は世界でも有数の巨大企業だ -->
+  <Dialogue Key="Map.GencityChapter4Youth1Stage1Dialogue1FaceMaleAdult" Value="N１リーグを開催する,ボーダーコンツェルンって会社は,世界でも有数の巨大企業だ" Face="MaleAdult" Mono="False" />
+  <!-- インゲレスの大企業スカーレット・コングロマリットとはライバル関係なんだそうだ -->
+  <Dialogue Key="Map.GencityChapter4Youth1Stage1Dialogue2FaceMaleAdult" Value="インゲレスの大企業,スカーレット・コングロマリットとは,ライバル関係なんだそうだ" Face="MaleAdult" Mono="False" />
+  <!-- アリス　今日はありがとう！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue1FaceTenshi" Value="アリス　今日はありがとう！" Face="Tenshi" Mono="False" />
+  <!-- 次また事情聴取がある時一緒に行こうね -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue2FaceAlice" Value="次また事情聴取がある時,一緒に行こうね" Face="Alice" Mono="False" />
+  <!-- うん！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue3FaceTenshi" Value="うん！" Face="Tenshi" Mono="False" />
+  <!-- じゃあ　バイバイ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue4FaceTenshi" Value="じゃあ　バイバイ！" Face="Tenshi" Mono="False" />
+  <!-- 私達も帰ろっか -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage3Dialogue1FaceAlice" Value="私達も帰ろっか" Face="Alice" Mono="False" />
+  <!-- アリス　電話よー････ってブッカーからじゃない -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue1FaceShanghai" Value="アリス　電話よー････,ってブッカーからじゃない" Face="Shanghai" Mono="False" />
+  <!-- もしもしメディスンがなにかやらか････ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue2FaceShanghai" Value="もしもし,メディスンがなにかやらか････" Face="Shanghai" Mono="False" />
+  <!-- 姐さん！　大変です！例のナビが大変なんです！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue3FaceHenchie" Value="姐さん！　大変です！,例のナビが大変なんです！" Face="Henchie" Mono="False" />
+  <!-- どうしたの　落ち着きなさい！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue4FaceShanghai" Value="どうしたの　落ち着きなさい！" Face="Shanghai" Mono="False" />
+  <!-- 今　幻想大学の森近研究室なんですがネットエージェントが入ってきて -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue5FaceHenchie" Value="今　幻想大学の,森近研究室なんですが,ネットエージェントが入ってきて" Face="Henchie" Mono="False" />
+  <!-- ヨリヒメってナビが････攻撃を！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue6FaceHenchie" Value="ヨリヒメってナビが････攻撃を！" Face="Henchie" Mono="False" />
+  <!-- もしかして････ヤマメさんが捕まっちゃう！？ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue7FaceAlice" Value="もしかして････,ヤマメさんが捕まっちゃう！？" Face="Alice" Mono="False" />
+  <!-- そうね　あのカタブツのことだから何をするかわかったもんじゃないわ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue8FaceShanghai" Value="そうね　あのカタブツのことだから,何をするか,わかったもんじゃないわ" Face="Shanghai" Mono="False" />
+  <!-- 研究室ね！今から向かうわ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue9FaceShanghai" Value="研究室ね！,今から向かうわ！" Face="Shanghai" Mono="False" />
+  <!-- 急ぐわよ！シャンハイ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue10FaceAlice" Value="急ぐわよ！,シャンハイ！" Face="Alice" Mono="False" />
+  <!-- それじゃあ永遠町にレッツゴー！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiStage1Dialogue1FaceTenshi" Value="それじゃあ永遠町に,レッツゴー！" Face="Tenshi" Mono="False" />
+  <!-- アリス　永遠町に行くのよ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiStage3Dialogue1FaceTenshi" Value="アリス　永遠町に行くのよ！" Face="Tenshi" Mono="False" />
+  <!-- Ｎ１リーグって今日なんだね誰が優勝するのかな？ -->
+  <Dialogue Key="Map.GencityChapter4Junior2Stage1Dialogue1FaceMaleStudent" Value="Ｎ１リーグって今日なんだね,誰が優勝するのかな？" Face="MaleStudent" Mono="False" />
+  <!-- えっ　N1リーグ君が優勝したの！？どっひゃ〜！ -->
+  <Dialogue Key="Map.GencityChapter4Junior2Stage3Dialogue1FaceMaleStudent" Value="えっ　N1リーグ,君が優勝したの！？,どっひゃ〜！" Face="MaleStudent" Mono="False" />
+  <!-- 隈美さんにネットバトルのコツ教えてもらえないかなー？ -->
+  <Dialogue Key="Map.GencityChapter4Girl2Stage1Dialogue1FaceFemaleStudent" Value="隈美さんにネットバトルの,コツ教えてもらえないかなー？" Face="FemaleStudent" Mono="False" />
+  <!-- N1リーグ　見に行きたいけど休日出勤だよトホホ････ -->
+  <Dialogue Key="Map.GencityChapter4Youth2Stage1Dialogue1FaceMaleAdult" Value="N1リーグ　見に行きたいけど,休日出勤だよ,トホホ････" Face="MaleAdult" Mono="False" />
+  <!-- 今度　インゲレスに出張に行くんだけど････ -->
+  <Dialogue Key="Map.GencityChapter5Youth1Stage1Dialogue1FaceMaleAdult" Value="今度　インゲレスに,出張に行くんだけど････" Face="MaleAdult" Mono="False" />
+  <!-- ＰＥＴに自動翻訳があるから外国語が話せなくても大丈夫なんだよね -->
+  <Dialogue Key="Map.GencityChapter5Youth1Stage1Dialogue2FaceMaleAdult" Value="ＰＥＴに自動翻訳があるから,外国語が話せなくても,大丈夫なんだよね" Face="MaleAdult" Mono="False" />
+  <!-- へぇ　アリスさんって海外旅行にいくんだ -->
+  <Dialogue Key="Map.GencityChapter5Girl1Stage1Dialogue1FaceFemaleStudent" Value="へぇ　アリスさんって,海外旅行にいくんだ" Face="FemaleStudent" Mono="False" />
+  <!-- いっぱい思い出がつくれるといいね！ -->
+  <Dialogue Key="Map.GencityChapter5Girl1Stage1Dialogue2FaceFemaleStudent" Value="いっぱい思い出が,つくれるといいね！" Face="FemaleStudent" Mono="False" />
+  <!-- 今　港に停まっている豪華客船セイレーンはすごく立派な船なんだとか -->
+  <Dialogue Key="Map.GencityChapter5OldMan1Stage1Dialogue1FaceMaleOld" Value="今　港に停まっている,豪華客船セイレーンは,すごく立派な船なんだとか" Face="MaleOld" Mono="False" />
+  <!-- 有名なお金持ちがたくさん利用するらしいな私も一度乗ってみたいよ -->
+  <Dialogue Key="Map.GencityChapter5OldMan1Stage1Dialogue2FaceMaleOld" Value="有名なお金持ちが,たくさん利用するらしいな,私も一度乗ってみたいよ" Face="MaleOld" Mono="False" />
+  <!-- ワシがまだ若い頃宇宙に住むコロニー共和国と地球の間で戦争が起こっての -->
+  <Dialogue Key="Map.GencityChapter5GrampaStage1Dialogue1FaceMaleElderly" Value="ワシがまだ若い頃,宇宙に住むコロニー共和国と,地球の間で戦争が起こっての" Face="MaleElderly" Mono="False" />
+  <!-- その時にたくさん宇宙艦が宇宙へと上がっていったもんじゃ -->
+  <Dialogue Key="Map.GencityChapter5GrampaStage1Dialogue2FaceMaleElderly" Value="その時にたくさん宇宙艦が,宇宙へと上がっていったもんじゃ" Face="MaleElderly" Mono="False" />
+  <!-- 宇宙艦っていうのは宇宙で戦える船のことで空も飛べる船なのさ -->
+  <Dialogue Key="Map.GencityChapter5GrampaStage1Dialogue3FaceMaleElderly" Value="宇宙艦っていうのは,宇宙で戦える船のことで,空も飛べる船なのさ" Face="MaleElderly" Mono="False" />
+  <!-- 旅行から帰ってくるとやっぱ故郷が一番だって思うときはないかい？ -->
+  <Dialogue Key="Map.GencityChapter6Youth1Stage1Dialogue1FaceMaleAdult" Value="旅行から帰ってくると,やっぱ故郷が一番だって,思うときはないかい？" Face="MaleAdult" Mono="False" />
+  <!-- 神綺さん旅行から帰ってきたんだ〜 -->
+  <Dialogue Key="Map.GencityChapter6Girl1Stage1Dialogue1FaceFemaleStudent" Value="神綺さん,旅行から帰ってきたんだ〜" Face="FemaleStudent" Mono="False" />
+  <!-- お疲れ〜 -->
+  <Dialogue Key="Map.GencityChapter6Girl1Stage1Dialogue2FaceFemaleStudent" Value="お疲れ〜" Face="FemaleStudent" Mono="False" />
+  <!-- 獅熊さんなら比那名居さんの家に入るのを見たわよ -->
+  <Dialogue Key="Map.GencityChapter6Girl2Stage1Dialogue1FaceFemaleStudent" Value="獅熊さんなら,比那名居さんの家に,入るのを見たわよ" Face="FemaleStudent" Mono="False" />
+  <!-- インゲレスで事件があったみたいだけど神綺さん大丈夫だった？ -->
+  <Dialogue Key="Map.GencityChapter6Boy1Stage1Dialogue1FaceMaleStudent" Value="インゲレスで事件が,あったみたいだけど,神綺さん大丈夫だった？" Face="MaleStudent" Mono="False" />
+  <!-- え？神綺さんが解決したの！？どっひゃー！ -->
+  <Dialogue Key="Map.GencityChapter6Boy1Stage1Dialogue2FaceMaleStudent" Value="え？,神綺さんが解決したの！？,どっひゃー！" Face="MaleStudent" Mono="False" />
+  <!-- おかえりなのよ！アリス！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue1FaceTenshi" Value="おかえりなのよ！,アリス！" Face="Tenshi" Mono="False" />
+  <!-- 退院おめでとう　天子！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue2FaceAlice" Value="退院おめでとう　天子！" Face="Alice" Mono="False" />
+  <!-- はい　これおみやげ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue3FaceAlice" Value="はい　これおみやげ！" Face="Alice" Mono="False" />
+  <!-- わあい！キレイなブレスレットなのよ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue4FaceTenshi" Value="わあい！,キレイなブレスレットなのよ！" Face="Tenshi" Mono="False" />
+  <!-- 退院祝いをかねてね！ちょっと奮発しちゃったの！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue5FaceAlice" Value="退院祝いをかねてね！,ちょっと奮発しちゃったの！" Face="Alice" Mono="False" />
+  <!-- ありがとうなのよ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue6FaceTenshi" Value="ありがとうなのよ！" Face="Tenshi" Mono="False" />
+  <!-- （お金はあたしが　出したんだけどなあ････　まあ　いっか） -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue7FaceShanghai" Value="（お金はあたしが,　出したんだけどなあ････,　まあ　いっか）" Face="Shanghai" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.GencityChapter6Stage3Dialogue1FaceShanghai" Value="これでおみやげは,全員に配り終えたわね" Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage3Dialogue2FaceShanghai" Value="あとは帰って,ママにただいま言いましょ！" Face="Shanghai" Mono="False" />
+  <!-- おみやげ　ありがとうなのよ！大切にするのよ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage5Dialogue1FaceTenshi" Value="おみやげ　ありがとうなのよ！,大切にするのよ！" Face="Tenshi" Mono="False" />
+  <!-- そうだ！退院と帰国のお祝いにネットバトルしない？ -->
+  <Dialogue Key="Map.GencityChapter6Stage5Dialogue2FaceTenshi" Value="そうだ！,退院と帰国のお祝いに,ネットバトルしない？" Face="Tenshi" Mono="False" />
+  <!-- アリスさんおかえりなのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue1FaceRika" Value="アリスさんおかえりなのです！" Face="Rika" Mono="False" />
+  <!-- 里香　ただいまー！おみやげもあるよ！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue2FaceAlice" Value="里香　ただいまー！,おみやげもあるよ！" Face="Alice" Mono="False" />
+  <!-- はわわっ！これはインゲレス軍新型戦車のプラモデルなのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue3FaceRika" Value="はわわっ！,これはインゲレス軍新型戦車の,プラモデルなのです！" Face="Rika" Mono="False" />
+  <!-- すっごくうれしいのです！！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue4FaceRika" Value="すっごくうれしいのです！！" Face="Rika" Mono="False" />
+  <!-- どういたしまして！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue5FaceAlice" Value="どういたしまして！" Face="Alice" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.GencityChapter6RikaStage3Dialogue1FaceShanghai" Value="これでおみやげは,全員に配り終えたわね" Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage3Dialogue2FaceShanghai" Value="あとは帰って,ママにただいま言いましょ！" Face="Shanghai" Mono="False" />
+  <!-- おみやげすっごく嬉しいのです！感謝感激なのなのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue1FaceRika" Value="おみやげすっごく嬉しいのです！,感謝感激なのなのです！" Face="Rika" Mono="False" />
+  <!-- シャンハイがいない間タンクマン寂しがってたのでネットバトルするのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue2FaceRika" Value="シャンハイがいない間,タンクマン寂しがってたので,ネットバトルするのです！" Face="Rika" Mono="False" />
+  <!-- 最近はＲＯＭの事件もないし平和だね -->
+  <Dialogue Key="Map.GencityChapter7Boy1Stage1Dialogue1FaceMaleStudent" Value="最近はＲＯＭの事件もないし,平和だね" Face="MaleStudent" Mono="False" />
+  <!-- ぼ　僕のナビがインターネットでやられちゃった！何が起こっているんだ！？ -->
+  <Dialogue Key="Map.GencityChapter7Boy1Stage3Dialogue1FaceMaleStudent" Value="ぼ　僕のナビが,インターネットでやられちゃった！,何が起こっているんだ！？" Face="MaleStudent" Mono="False" />
+  <!-- しばらくナビをインターネットで歩かせないようにするよ怖いからね････ -->
+  <Dialogue Key="Map.GencityChapter7Boy1Stage5Dialogue1FaceMaleStudent" Value="しばらくナビをインターネットで,歩かせないようにするよ,怖いからね････" Face="MaleStudent" Mono="False" />
+  <!-- 今日は学校が休みだからひなたぼっこしてるの -->
+  <Dialogue Key="Map.GencityChapter7Girl1Stage1Dialogue1FaceFemaleChild" Value="今日は学校が休みだから,ひなたぼっこしてるの" Face="FemaleChild" Mono="False" />
+  <!-- お母さんから今日はお外で遊んでなさいって言われたの -->
+  <Dialogue Key="Map.GencityChapter7Girl1Stage3Dialogue1FaceFemaleChild" Value="お母さんから今日は,お外で遊んでなさいって,言われたの" Face="FemaleChild" Mono="False" />
+  <!-- 電脳ゼミで勉強しろっていつもうるさいのに変なのー -->
+  <Dialogue Key="Map.GencityChapter7Girl1Stage3Dialogue2FaceFemaleChild" Value="電脳ゼミで勉強しろって,いつもうるさいのに変なのー" Face="FemaleChild" Mono="False" />
+  <!-- あのネットの事件僕はＲＯＭの仕業だと思っているよ -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage1Dialogue1FaceMaleAdult" Value="あのネットの事件,僕はＲＯＭの仕業だと,思っているよ" Face="MaleAdult" Mono="False" />
+  <!-- インターネット中を襲うなんて大きな犯罪組織じゃないと不可能だろうからね -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage1Dialogue2FaceMaleAdult" Value="インターネット中を襲うなんて,大きな犯罪組織じゃないと,不可能だろうからね" Face="MaleAdult" Mono="False" />
+  <!-- 今インターネットで大事件が起こってるらしいじゃないか -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage3Dialogue1FaceMaleAdult" Value="今インターネットで,大事件が起こってる,らしいじゃないか" Face="MaleAdult" Mono="False" />
+  <!-- ネットエージェントは何をやってたんだ？ -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage3Dialogue2FaceMaleAdult" Value="ネットエージェントは,何をやってたんだ？" Face="MaleAdult" Mono="False" />
+  <!-- 今インターネットで大事件が起こってるらしいじゃないか -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage5Dialogue1FaceMaleAdult" Value="今インターネットで,大事件が起こってる,らしいじゃないか" Face="MaleAdult" Mono="False" />
+  <!-- ネットエージェントは何をやってたんだ？ -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage5Dialogue2FaceMaleAdult" Value="ネットエージェントは,何をやってたんだ？" Face="MaleAdult" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GencityChapter8RoboBazookaStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GencityChapter8RoboBazookaStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GencityChapter8RoboShieldStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GencityChapter8RoboShieldStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GencityChapter8RoboStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GencityChapter8RoboStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- ＲＯＭが何をするのかわからないけどさ -->
+  <Dialogue Key="Map.GencityChapter8Boy1Stage1Dialogue1FaceMaleStudent" Value="ＲＯＭが何をするのか,わからないけどさ" Face="MaleStudent" Mono="False" />
+  <!-- 自衛隊まで出てきてなんだか怖いよね････ -->
+  <Dialogue Key="Map.GencityChapter8Boy1Stage1Dialogue2FaceMaleStudent" Value="自衛隊まで出てきて,なんだか怖いよね････" Face="MaleStudent" Mono="False" />
+  <!-- ネットエージェントとか自衛隊がＲＯＭを倒すために頑張っているけど････ -->
+  <Dialogue Key="Map.GencityChapter8Girl1Stage1Dialogue1FaceFemaleStudent" Value="ネットエージェントとか自衛隊が,ＲＯＭを倒すために,頑張っているけど････" Face="FemaleStudent" Mono="False" />
+  <!-- 今までのように神綺さんがなんとかしてくれるってそんな気がするの！ -->
+  <Dialogue Key="Map.GencityChapter8Girl1Stage1Dialogue2FaceFemaleStudent" Value="今までのように神綺さんが,なんとかしてくれるって,そんな気がするの！" Face="FemaleStudent" Mono="False" />
+  <!-- ＲＯＭの宣戦布告を受けて何が起こっても対応できるよう自衛隊と連携をとりました -->
+  <Dialogue Key="Map.GencityChapter8NetoeStage1Dialogue1FacePoliceman" Value="ＲＯＭの宣戦布告を受けて,何が起こっても対応できるよう,自衛隊と連携をとりました" Face="Policeman" Mono="False" />
+  <!-- かつての電脳戦争のようにネットワークの異変が現実に影響することもありますからね -->
+  <Dialogue Key="Map.GencityChapter8NetoeStage1Dialogue2FacePoliceman" Value="かつての電脳戦争のように,ネットワークの異変が現実に,影響することもありますからね" Face="Policeman" Mono="False" />
+  <!-- いったい　世界はどうなってしまうんだ････？ -->
+  <Dialogue Key="Map.GencityChapter8Netoe2Stage1Dialogue1FacePoliceman" Value="いったい　世界は,どうなってしまうんだ････？" Face="Policeman" Mono="False" />
+  <!-- スーツ姿の男の人？ -->
+  <Dialogue Key="Map.GencityRequest11AuntStage1Dialogue1FaceFemaleMiddleAged" Value="スーツ姿の男の人？" Face="FemaleMiddleAged" Mono="False" />
+  <!-- もしかしてさっき永遠町の公園に行くって言ってた人かしら？ -->
+  <Dialogue Key="Map.GencityRequest11AuntStage1Dialogue2FaceFemaleMiddleAged" Value="もしかしてさっき,永遠町の公園に行くって,言ってた人かしら？" Face="FemaleMiddleAged" Mono="False" />
+  <!-- 地下鉄リニアメトロの駅だが今は乗る必要はない -->
+  <Dialogue Key="Map.GencityToTheStationStage1Dialogue1FaceNone" Value="地下鉄リニアメトロの駅だが,今は乗る必要はない" Face="None" Mono="False" />
+  <!-- 待ってる友達無視して目的地に向かうのはさすがにどうかと思うわよ -->
+  <Dialogue Key="Map.GencityToTheStationStage3Dialogue1FaceShanghai" Value="待ってる友達無視して,目的地に向かうのは,さすがにどうかと思うわよ" Face="Shanghai" Mono="False" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GencityToTheStationStage5Dialogue1QuestionFaceNone" Value="どこまで乗りますか？" Face="None" Mono="False" />
+  <!-- 幻想大学前乗らない -->
+  <Text Key="Map.GencityToTheStationStage5Dialogue1Options" Value="幻想大学前,乗らない" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GencityToTheStationStage7Dialogue1FaceNone" Value="どこまで乗りますか？" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.GencityToTheStationStage7Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- 幻想大学前中央街西区乗らない -->
+  <Text Key="Map.GencityToTheStationStage7Dialogue2Options" Value="幻想大学前,中央街西区,乗らない" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GencityToTheStationStage9Dialogue1QuestionFaceNone" Value="どこまで乗りますか？" Face="None" Mono="False" />
+  <!-- 幻想大学前中央街西区永遠町２丁目乗らない -->
+  <Text Key="Map.GencityToTheStationStage9Dialogue1Options" Value="幻想大学前,中央街西区,永遠町２丁目,乗らない" />
+  <!-- 家帰るのはあと！先におみやげを配り終えましょう！ -->
+  <Dialogue Key="Map.GencityToAlice’sHouseStage1Dialogue1FaceShanghai" Value="家帰るのはあと！,先におみやげを,配り終えましょう！" Face="Shanghai" Mono="False" />
+  <!-- 花だん型のセキュリティシステムだ -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue1FaceNone" Value="花だん型のセキュリティシステムだ" Face="None" Mono="False" />
+  <!-- 本物の花に混じって花型カメラが仕込んであり玄関前を警戒している -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue2FaceNone" Value="本物の花に混じって,花型カメラが仕込んであり,玄関前を警戒している" Face="None" Mono="False" />
+  <!-- その映像は携帯端末に送られ出かけた先からでも家の様子を見ることが出来る -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue3FaceNone" Value="その映像は携帯端末に送られ,出かけた先からでも,家の様子を見ることが出来る" Face="None" Mono="False" />
+  <!-- メンテナンスのためにプラグインすることも可能だ -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue4FaceNone" Value="メンテナンスのために,プラグインすることも可能だ" Face="None" Mono="False" />
+  <!-- 魔理の家だが鍵がかかっていて入れない -->
+  <Dialogue Key="Map.GencityToMari’sHouseStage1Dialogue1FaceNone" Value="魔理の家だが,鍵がかかっていて入れない" Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ今は誰も住んでいない -->
+  <Dialogue Key="Map.GencityToTenshi’sHouseStage1Dialogue1FaceNone" Value="小さな賃貸アパートだ,今は誰も住んでいない" Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ誰かが引っ越してきたようだ -->
+  <Dialogue Key="Map.GencityToTenshi’sHouseStage3Dialogue1FaceNone" Value="小さな賃貸アパートだ,誰かが引っ越してきたようだ" Face="None" Mono="False" />
+  <!-- 天子の住むアパートだが鍵がかかっている -->
+  <Dialogue Key="Map.GencityToTenshi’sHouseStage5Dialogue1FaceNone" Value="天子の住むアパートだが,鍵がかかっている" Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ今は誰も住んでいない -->
+  <Dialogue Key="Map.GencityToNekku’sHouseStage1Dialogue1FaceNone" Value="小さな賃貸アパートだ,今は誰も住んでいない" Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ誰かが引っ越してきたようだ -->
+  <Dialogue Key="Map.GencityToNekku’sHouseStage3Dialogue1FaceNone" Value="小さな賃貸アパートだ,誰かが引っ越してきたようだ" Face="None" Mono="False" />
+  <!-- ネックの住むアパートだが鍵がかかっている -->
+  <Dialogue Key="Map.GencityToNekku’sHouseStage5Dialogue1FaceNone" Value="ネックの住むアパートだが,鍵がかかっている" Face="None" Mono="False" />
+  <!-- テナント募集中と書かれている -->
+  <Dialogue Key="Map.GencityToVuwarStage1Dialogue1FaceNone" Value="テナント募集中,と書かれている" Face="None" Mono="False" />
+  <!-- 物心がついた時からこの状態が続いている -->
+  <Dialogue Key="Map.GencityToVuwarStage1Dialogue2FaceNone" Value="物心がついた時から,この状態が続いている" Face="None" Mono="False" />
+  <!-- レミリアの住む豪邸だ今は鍵がかかっている -->
+  <Dialogue Key="Map.GencityToRemilia’sHouseStage1Dialogue1FaceNone" Value="レミリアの住む豪邸だ,今は鍵がかかっている" Face="None" Mono="False" />
+  <!-- 里香の住む家だ鍵がかかって入れない -->
+  <Dialogue Key="Map.GencityToRika’sHouseStage1Dialogue1FaceNone" Value="里香の住む家だ,鍵がかかって入れない" Face="None" Mono="False" />
+  <!-- この公園はもともと遊具がたくさんあったが -->
+  <Dialogue Key="Map.GencityBench1Stage1Dialogue1FaceNone" Value="この公園はもともと,遊具がたくさんあったが" Face="None" Mono="False" />
+  <!-- 遊具でケガをする子供があとをたたず次々ととりこわされてしまった -->
+  <Dialogue Key="Map.GencityBench1Stage1Dialogue2FaceNone" Value="遊具でケガをする子供が,あとをたたず次々と,とりこわされてしまった" Face="None" Mono="False" />
+  <!-- だんだんと遊び場でなくなっていく公園を見てこのベンチは何を思うのだろうか････ -->
+  <Dialogue Key="Map.GencityBench1Stage1Dialogue3FaceNone" Value="だんだんと遊び場でなくなっていく,公園を見てこのベンチは,何を思うのだろうか････" Face="None" Mono="False" />
+  <!-- この公園はもともと遊具がたくさんあったが -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue1FaceNone" Value="この公園はもともと,遊具がたくさんあったが" Face="None" Mono="False" />
+  <!-- 遊具でケガをする子供があとをたたず次々ととりこわされてしまった -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue2FaceNone" Value="遊具でケガをする子供が,あとをたたず次々と,とりこわされてしまった" Face="None" Mono="False" />
+  <!-- だんだんと遊び場でなくなっていく公園を見てこのベンチは何を思うのだろうか････ -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue3FaceNone" Value="だんだんと遊び場でなくなっていく,公園を見てこのベンチは,何を思うのだろうか････" Face="None" Mono="False" />
+  <!-- ！！なんと　側面にプラグインの端子を見つけた！ -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue4FaceNone" Value="！！,なんと　側面にプラグインの,端子を見つけた！" Face="None" Mono="False" />
+  <!-- どうやら　ただのベンチではないようだ -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue5FaceNone" Value="どうやら　ただの,ベンチではないようだ" Face="None" Mono="False" />
+  <!-- 里香にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.GencityTankManBattleStage1Dialogue1QuestionFaceShanghai" Value="里香にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GencityTankManBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- タンクマン！行くのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage1Dialogue2FaceRika" Value="タンクマン！,行くのです！" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage3Dialogue1FaceRika" Value="里香の勝ちなのです！" Face="Rika" Mono="False" />
+  <!-- さすがアリスさんはすっごく強いのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage5Dialogue1FaceRika" Value="さすがアリスさんは,すっごく強いのです！" Face="Rika" Mono="False" />
+  <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage6Dialogue1FaceTankMan" Value="シャンハイちゃん！,かっこいいとこ見せてやるぜ！" Face="TankMan" Mono="False" />
+  <!-- ファイトなのです！タンクマン！！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage6Dialogue2FaceRika" Value="ファイトなのです！,タンクマン！！" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage8Dialogue1FaceRika" Value="里香の勝ちなのです！" Face="Rika" Mono="False" />
+  <!-- タンクマン　残念なのです････ -->
+  <Dialogue Key="Map.GencityTankManBattleStage10Dialogue1FaceRika" Value="タンクマン　残念なのです････" Face="Rika" Mono="False" />
+  <!-- 最高のコンディションの俺の力を見せてやるぜ！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage11Dialogue1FaceTankMan" Value="最高のコンディションの,俺の力を見せてやるぜ！" Face="TankMan" Mono="False" />
+  <!-- これが里香の本気なのです！！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage11Dialogue2FaceRika" Value="これが里香の,本気なのです！！" Face="Rika" Mono="False" />
+  <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage13Dialogue1FaceTankMan" Value="どうだシャンハイちゃん！,惚れなおしたか！" Face="TankMan" Mono="False" />
+  <!-- がーん！里香は勝てないのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage15Dialogue1FaceRika" Value="がーん！,里香は勝てないのです！" Face="Rika" Mono="False" />
+  <!-- また今度やるのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage16Dialogue1FaceRika" Value="また今度やるのです！" Face="Rika" Mono="False" />
+  <!-- 天子にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.GencityIkutororuStage1Dialogue1QuestionFaceShanghai" Value="天子にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GencityIkutororuStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- イク！頑張ってね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage1Dialogue2FaceTenshi" Value="イク！,頑張ってね！" Face="Tenshi" Mono="False" />
+  <!-- わーい！私が勝ったのよ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage3Dialogue1FaceTenshi" Value="わーい！,私が勝ったのよ！" Face="Tenshi" Mono="False" />
+  <!-- アリスってすごく強いね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage5Dialogue1FaceTenshi" Value="アリスってすごく強いね！" Face="Tenshi" Mono="False" />
+  <!-- 天子様のカスタマイズを受けパワーアップしましたわ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage6Dialogue1FaceIku" Value="天子様のカスタマイズを受け,パワーアップしましたわ！" Face="Iku" Mono="False" />
+  <!-- もう負けないんだからね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage6Dialogue2FaceTenshi" Value="もう負けないんだからね！" Face="Tenshi" Mono="False" />
+  <!-- イク！やったのよ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage8Dialogue1FaceTenshi" Value="イク！,やったのよ！" Face="Tenshi" Mono="False" />
+  <!-- アリスすごい！今度カスタマイズ教えてよ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage10Dialogue1FaceTenshi" Value="アリスすごい！,今度カスタマイズ教えてよ！" Face="Tenshi" Mono="False" />
+  <!-- 気が向いたらやろうね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage11Dialogue1FaceTenshi" Value="気が向いたらやろうね！" Face="Tenshi" Mono="False" />
+  <!-- 「いこい」は公園を指してて「乾きの底」は砂場を指しているんじゃないかしら？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue1FaceShanghai" Value="「いこい」は公園を指してて,「乾きの底」は砂場を,指しているんじゃないかしら？" Face="Shanghai" Mono="False" />
+  <!-- でもここが依頼者の祖先の時代に公園だったとは限らないんじゃない？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue2FaceAlice" Value="でもここが依頼者の祖先の,時代に公園だったとは,限らないんじゃない？" Face="Alice" Mono="False" />
+  <!-- まあ　そうだとしても掘ってみるしか無いでしょ？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue3FaceShanghai" Value="まあ　そうだとしても,掘ってみるしか無いでしょ？" Face="Shanghai" Mono="False" />
+  <!-- え！？私がこの砂場を掘るの！？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue4FaceAlice" Value="え！？,私がこの砂場を掘るの！？" Face="Alice" Mono="False" />
+  <!-- 「乾きの底」ってことはこの砂場の底　つまりは地中にあるってことよ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue5FaceShanghai" Value="「乾きの底」ってことは,この砂場の底　つまりは,地中にあるってことよ" Face="Shanghai" Mono="False" />
+  <!-- あんたしか掘る人いないんだから人助けだと思って頑張れ頑張れ！ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue6FaceShanghai" Value="あんたしか掘る人いないんだから,人助けだと思って,頑張れ頑張れ！" Face="Shanghai" Mono="False" />
+  <!-- ちょっと〜････ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue7FaceAlice" Value="ちょっと〜････" Face="Alice" Mono="False" />
+  <!-- ぜぇぜぇ････ -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue1FaceAlice" Value="ぜぇぜぇ････" Face="Alice" Mono="False" />
+  <!-- 砂場だから土が柔らかくて助かったわね -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue2FaceShanghai" Value="砂場だから土が柔らかくて,助かったわね" Face="Shanghai" Mono="False" />
+  <!-- さあファイトファイト！ -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue3FaceShanghai" Value="さあファイトファイト！" Face="Shanghai" Mono="False" />
+  <!-- ひえぇ〜 -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue4FaceAlice" Value="ひえぇ〜" Face="Alice" Mono="False" />
+  <!-- ！！ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue1FaceAlice" Value="！！" Face="Alice" Mono="False" />
+  <!-- 小さな箱が出てきたわ！ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue2FaceAlice" Value="小さな箱が出てきたわ！" Face="Alice" Mono="False" />
+  <!-- ビンゴね！さあ　掘り出して土を戻すわよ！ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue3FaceShanghai" Value="ビンゴね！,さあ　掘り出して,土を戻すわよ！" Face="Shanghai" Mono="False" />
+  <!-- え〜〜！！戻すの〜〜〜！？ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue4FaceAlice" Value="え〜〜！！,戻すの〜〜〜！？" Face="Alice" Mono="False" />
+  <!-- あーもうダメ････しばらくスコップなんて見たくもないわ････ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue1FaceAlice" Value="あーもうダメ････,しばらくスコップなんて,見たくもないわ････" Face="Alice" Mono="False" />
+  <!-- おつかれさま！さあ　箱の中身はーーっと！！ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue2FaceShanghai" Value="おつかれさま！,さあ　箱の中身はーーっと！！" Face="Shanghai" Mono="False" />
+  <!-- ････なにこれ？ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue3FaceShanghai" Value="････なにこれ？" Face="Shanghai" Mono="False" />
+  <!-- すごく古いデータチップね････ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue4FaceAlice" Value="すごく古いデータチップね････" Face="Alice" Mono="False" />
+  <!-- 読み込んでみましょう -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue5FaceAlice" Value="読み込んでみましょう" Face="Alice" Mono="False" />
+  <!-- ････きゃっ！ウィルスが入ってきた！ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue6FaceAlice" Value="････きゃっ！,ウィルスが入ってきた！" Face="Alice" Mono="False" />
+  <!-- このおバカ！！ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue7FaceShanghai" Value="このおバカ！！" Face="Shanghai" Mono="False" />
+  <!-- 古代のウィルス････恐ろしかったわ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue1FaceShanghai" Value="古代のウィルス････,恐ろしかったわ" Face="Shanghai" Mono="False" />
+  <!-- それで　データの正体は････？ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue2FaceShanghai" Value="それで　データの正体は････？" Face="Shanghai" Mono="False" />
+  <!-- ････わからないわ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue3FaceAlice" Value="････わからないわ" Face="Alice" Mono="False" />
+  <!-- とにかく　依頼者のところへ持って行きましょう！ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue4FaceShanghai" Value="とにかく　依頼者のところへ,持って行きましょう！" Face="Shanghai" Mono="False" />
+  <!-- あっ　見つかっちゃった！ -->
+  <Dialogue Key="Map.GencityHiddenCharactersStage1Dialogue1FaceFemaleChild" Value="あっ　見つかっちゃった！" Face="FemaleChild" Mono="False" />
+  <!-- ９９５４８２１４みんなには内緒だよ！ -->
+  <Dialogue Key="Map.GencityHiddenCharactersStage1Dialogue2FaceFemaleChild" Value="９９５４８２１４,みんなには内緒だよ！" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue1" Value="みんな！,来てくれたのね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue2" Value="そりゃあ　世界を救った,英雄が元気になったって,聞いたらな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue3" Value="アリスさんが大怪我を,したと聞いて心配してたのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue4" Value="パーフェクトシンクロの時に,受けた傷がアリスに,反映されたのよね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue5" Value="でもほら　あの時は,必死だったし････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue6" Value="でも　無事でよかったのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue7" Value="ほんと　あんたって,ムダに丈夫よね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue8" Value="でも　元気がいっちばん！" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue9" Value="俺も身体はって,頑張ったと思うんだけどね" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue10" Value="まあまあ　みんなの頑張りで,勝ち取った平和なんだしさ" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue11" Value="ママはアリスちゃんが,無事ならそれでいいわ････" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue12" Value="でも　こんな無茶をするなんて,やっぱりあなたの娘なのね" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue13" Value="ひどいなぁ　俺はもう,そんなに無茶は,してないつもりだが････" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue14" Value="････って　キンパツ嬢ちゃんって,トロイドさんの娘だったのか！？" Face="Kumami" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue15" Value="お姉ちゃん　知ってるの？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue16" Value="まあ　トロイド君は,有名な冒険家だからね" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue17" Value="へぇー！,その界隈の有名人なんだ！" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage2Dialogue1" Value="････フン" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage2Dialogue2" Value="鈴仙　照れてないで,言葉の一つでも,かければいいのに" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage3Dialogue1" Value="あのー････,そろそろ独占インタビューを,したいんですけど････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue1" Value="あらやだ！,この花だんの警備システム,この間なおしたのに！" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue2" Value="たちの悪いウィルスでも,入り込んだか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue3" Value="アリス　病み上がりで,悪いけどいつものあれ,やるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue4" Value="ええ　もちろん！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue5" Value="プラグイン！,シャンハイ．ＥＸＥ,トランスミッション！！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityPostGameBystander1Dialogue1" Value="やあ神綺さん！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GencityPostGameBystander1Dialogue2" Value="世界を救ったすごい人が,近くに住んでるってなんだか,誇らしいよ！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GencityPostGameBystander2Dialogue1" Value="あと一ヶ月で夏休み！,おやすみの前に平和になって,良かった～～！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.UraNetSquarePostGameBystander4Dialogue1" Value="なんだかよくわからないけど,世界が穏やかになった,みたいだねえ" Face="FemaleElderly" Mono="False" />
+</data>

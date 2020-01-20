@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　１０Ｆ -->
+  <Text Key="Map.CompanyServer2Name" Value="Company Server Comp 10F" />
+  <Text Key="Map.CompanyServer2RandomBattle1Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer2RandomBattle2Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer2RandomBattle3Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer2RandomBattle4Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer2RandomBattle5Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer2RandomBattle5Enemy2" Value="AutoRdG" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage1Dialogue1FaceNone" Value="INVALID SEQUENCE,ENTERED." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage1Dialogue2FaceNone" Value="SECURITY AUTOROIDS,HAVE BEEN NOTIFIED!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer2PunishmentBattle1Enemy1" Value="AutordSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer2PunishmentBattle1Enemy2" Value="AutordSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage3Dialogue1FaceShanghai" Value="I wanted to solve that correctly...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer2BGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer2AGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+</data>

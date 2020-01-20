@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 最新薄型テレビの電脳 -->
+  <Text Key="Map.AriceTVName" Value="最新薄型テレビの電脳" />
+  <!-- こんにちは　シャンハイさんご機嫌いかがですか？ -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue1FaceNaviRedSprite" Value="こんにちは　シャンハイさん,ご機嫌いかがですか？" Face="NaviRedSprite" Mono="False" />
+  <!-- 神綺ママさんの元で働けて私は幸せです -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue2FaceNaviRedSprite" Value="神綺ママさんの元で働けて,私は幸せです" Face="NaviRedSprite" Mono="False" />
+  <!-- 神綺ママさんのためにもこの電脳にはウィルスを一匹も入れないように頑張ってます！ -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue3FaceNaviRedSprite" Value="神綺ママさんのためにも,この電脳にはウィルスを一匹も,入れないように頑張ってます！" Face="NaviRedSprite" Mono="False" />
+  <!-- シャンハイ様この間はありがとうございました -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue1FaceYumeko" Value="シャンハイ様,この間はありがとうございました" Face="Yumeko" Mono="False" />
+  <!-- お教えいただいた電脳紅茶の淹れ方はほぼほぼマスターしましたよ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue2FaceYumeko" Value="お教えいただいた,電脳紅茶の淹れ方は,ほぼほぼマスターしましたよ" Face="Yumeko" Mono="False" />
+  <!-- 次は電脳スパイ術と電脳お背中流し術を極めようと思っております！ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue3FaceYumeko" Value="次は電脳スパイ術と,電脳お背中流し術を,極めようと思っております！" Face="Yumeko" Mono="False" />
+  <!-- ････シャンハイあなたはユメコを何にしたいの？ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue4FaceAlice" Value="････シャンハイ,あなたはユメコを,何にしたいの？" Face="Alice" Mono="False" />
+  <!-- あえて言うなら････右腕かしら -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue5FaceShanghai" Value="あえて言うなら････,右腕かしら" Face="Shanghai" Mono="False" />
+  <!-- （部下にする気満々だぁ････） -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue6FaceAlice" Value="（部下にする気満々だぁ････）" Face="Alice" Mono="False" />
+</data>

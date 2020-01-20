@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ChipGetItem" Value="a Battle Chip" />
+  <Text Key="Map.SubChipGetItem" Value="a Sub Chip" />
+  <Text Key="Map.AddonGetItem" Value="an Addon" />
+  <Dialogue Key="Map.GetItemNetFormat" Value="Shanghai got {0}:,” {1} ” !" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetItemRealFormat" Value="Alice got: {0},” {1} ” !" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetHPMemory" Value="Shanghai’s Max HP increased,by 20!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetRegUpFormat" Value="Regular Memory increased,by {0} MB!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetSubMemory" Value="The number of Sub Chips,can be increased by 1!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetCorePlus" Value="The number of Cores in,the AddOn Manager,increased by 1!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetHertzUpFormat" Value="The number of Hertz in,the AddOn Manager,increased by {0}!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipTraderQuestion" Value="It's a Chip Trader.,Insert 3 chips?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ChipTraderSpecialQuestion" Value="It’s a Special Chip Trader.,Insert 10 chips?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.ChipTraderOptions" Value="Yes,No" />
+  <Text Key="Map.ChipTraderSpecialOptions" Value="Yes,No" />
+  <Dialogue Key="Map.JackIn" Value="#b@true#Jack in!#w@15#,Shanghai.EXE!#w@8#,Execute!#w@30##e@#" Face="Alice" Mono="False" />
+</data>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner4Name" Value="空気清浄機の電脳４" />
+  <Dialogue Key="Map.AirCleaner4Sprite1Stage1Dialogue1FaceSprite" Value="オクノホウニ　ミシラヌナビガ,トオッテ　イキマシタヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite1Stage1Dialogue2FaceSprite" Value="モシカシテ　アイツガハンニン？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite1Stage3Dialogue1FaceSprite" Value="ハンニン　イナクナッテ,ヨカッタ　ヨカッタ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite2Stage1Dialogue1FaceSprite" Value="キュウジョ　プログラムデ,キュウジョサレルト,ココニ　ハコバレテキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite2Stage1Dialogue2FaceSprite" Value="ホントーニ　ホントーニ,ホントーニ　ホントーニ,ガスニハ　キヲツケテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite3Stage1Dialogue1FaceSprite" Value="キンキュウジ　ナノデ　ココカラ,サキデハ　キュウジョプログラムデ,ココニ　ハコバレマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite3Stage1Dialogue2FaceSprite" Value="ホントーニ,ガスニハ　キヲツケテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite4Stage1Dialogue1FaceSprite" Value="モウスコシデスヨ！,ガンバッテクダサイ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite4Stage3Dialogue1FaceSprite" Value="ヤッパリ　ヘイワガイチバン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue1FaceShanghai" Value="ゴフッ　ガハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue2FaceShanghai" Value="ゲホッ････　う〜ん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue3FaceShanghai" Value="ぐふっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue4FaceShanghai" Value="あヅうっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue5FaceShanghai" Value="ゲフッ　ゴハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue6FaceShanghai" Value="はうっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue7FaceShanghai" Value="あっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage3Dialogue1FaceShanghai" Value="う　う〜ん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage5Dialogue1FaceAlice" Value="毒ガスは気をつけないと,いけないわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue1FaceShanghai" Value="ゴフッ　ガハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue2FaceShanghai" Value="ゲホッ････　う〜ん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue3FaceShanghai" Value="ぐふっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue4FaceShanghai" Value="あヅうっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue5FaceShanghai" Value="ゲフッ　ゴハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue6FaceShanghai" Value="はうっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue7FaceShanghai" Value="あっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage3Dialogue1FaceShanghai" Value="う　う〜ん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage5Dialogue1FaceAlice" Value="毒ガスは気をつけないと,いけないわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4ControlStage1Dialogue1FaceNone" Value="空気清浄機は,正常に清浄している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue1FaceShanghai" Value="あんたがこの事件の犯人ね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue2FaceMedicine" Value="あら　ここまで来るとは,たいした連中ね" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue3FaceMedicine" Value="････その髪の色,まさかチルノを倒したナビかしら？" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue4FaceShanghai" Value="そう言うってことは,あんたＲＯＭのナビね！,オペレーターはどこにいるの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue5FaceMedicine" Value="オペレーター？" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue6FaceMedicine" Value="アハハ！,私にオペレーターなんて,いないわ！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue7FaceMedicine" Value="私は自律型ナビ　メディスン" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue8FaceMedicine" Value="自律型はオペレーターによる,指示のタイムロスが無いのよ！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue9FaceMedicine" Value="有人操作のあなた達に,勝ち目なんか無いわ！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue10FaceShanghai" Value="あんたねえ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue11FaceShanghai" Value="ＲＯＭの自立型だか,なんだか知らないけれど" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue12FaceShanghai" Value="毒ガスを大学にぶちまけて,幼い女の子を泣かしてねぇ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue13FaceShanghai" Value="このまま無事に,帰れると思うなんて････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue14FaceShanghai" Value="ばっかじゃないの！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue15FaceAlice" Value="まともなこと言った！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue16FaceShanghai" Value="あんたのまいたクッサイ毒で,あたしに匂いが染み付いたわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue17FaceShanghai" Value="クリーニング代を請求してやる！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue18FaceAlice" Value="前言撤回！,そんなこと言ってる,場合じゃないでしょ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue19FaceMedicine" Value="な　なんなのよこいつら････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue20FaceShanghai" Value="アリス達に苦しい思いをさせた,その報いを受けるがいいわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue21FaceShanghai" Value="手加減なしで叩き潰す！,いくわよ　アリス！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue22FaceAlice" Value="ゲホッ････,バトルオペレーション、セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue23FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue24FaceMedicine" Value="私の毒で　満たされな！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue1FaceMedicine" Value="つ　つよい････！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue2FaceShanghai" Value="自律型だか知らないけれど,あたしたちの絆の前には,役に立たなかったようね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue3FaceAlice" Value="絆って････あなたが言うと,説得力に欠けるわよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue4FaceMedicine" Value="フフフ････" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue5FaceMedicine" Value="かかったわね！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue1FaceShanghai" Value="！！,毒ガスに囲まれた！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue2FaceMedicine" Value="いくらあなた達でも,この高ノウドの毒ガスには,耐えられないわ" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue3FaceShanghai" Value="くっ････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue4FaceMedicine" Value="痛い目には合ったけど,ガスを集めるための,いい時間稼ぎになったわ" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue5FaceMedicine" Value="ガスに呑まれて,倒れちゃいなさいよ！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage7Dialogue1FaceNone" Value="マジックミサイル！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue1FaceMarisa" Value="らしくないな　シャンハイ！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue2FaceShanghai" Value="マリサ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue3FaceMari" Value="ギリギリ間に合ったな！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue4FaceAlice" Value="魔理！,来てくれたのね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue5FaceMarisa" Value="さあ　どうする！,まだやるか？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue6FaceMedicine" Value="くっ････！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue7FaceMedicine" Value="撤退よ！" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue8FaceShanghai" Value="あ、こら待て！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue9FaceAlice" Value="逃げられちゃった・・・" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue10FaceMarisa" Value="でも犯人がいなくなったんだ,この空気もじきに,清浄化されるさ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue11FaceMari" Value="さて････あとは････" Face="Mari" Mono="False" />
+</data>

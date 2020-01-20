@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner3Name" Value="Air Purifier Comp 3" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue1FaceSprite" Value="AN OVERWHELMING,AMOUNT OF GAS,APPEARED!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue2FaceSprite" Value="PLEASE BE CAREFUL AS,YOU PROCEED!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage3Dialogue1FaceSprite" Value="WE’RE SAVED!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue1FaceSprite" Value="IF YOU PASS OUT，THE,RESCUE PROGRAM WILL,BRING YOU BACK HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue2FaceSprite" Value="PLEASE BE REALLY REALLY,REALLY CAREFUL AROUND,THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite3Stage1Dialogue1FaceSprite" Value="FROM THIS POINT ON，THE,RESCUE PROGRAM WILL,BRING YOU BACK HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite3Stage1Dialogue2FaceSprite" Value="PLEASE BE REALLY,CAREFUL AROUND,THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage1Dialogue1FaceSprite" Value="I CAN’T BREAK THROUGH,THE GAPS IN THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage1Dialogue2FaceSprite" Value="MAYBE I SHOULD THINK,ABOUT HOW TO GET,BACK OUT TOO!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage3Dialogue1FaceSprite" Value="NOW THAT THE GAS IS,GONE，IT’S EASY TO LIVE,HERE AGAIN!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue1FaceShanghai" Value="Cough! Gak!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue2FaceShanghai" Value="Cough....,Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue3FaceShanghai" Value="Wheeze!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue4FaceShanghai" Value="Achoo!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue5FaceShanghai" Value="Cough! Hack!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue6FaceShanghai" Value="Hack!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue7FaceShanghai" Value="Gasp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage3Dialogue1FaceShanghai" Value="U....Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage5Dialogue1FaceAlice" Value="Please be careful around,poison gas...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue1FaceShanghai" Value="Cough! Gak!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue2FaceShanghai" Value="Cough....,Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue3FaceShanghai" Value="Wheeze!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue4FaceShanghai" Value="Achoo!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue5FaceShanghai" Value="Cough! Hack!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue6FaceShanghai" Value="Hack!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue7FaceShanghai" Value="Gasp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage3Dialogue1FaceShanghai" Value="U....Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage5Dialogue1FaceAlice" Value="Please be careful around,poison gas...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue1FaceShanghai" Value="Here come the viruses again!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue2FaceNone" Value="Click!" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue3FaceNone" Value="#b@false#W #w@10#H #w@10#I #w@10#I #w@10#I #w@10#I #w@10#I #w@10#R #w@10#R #w@10#R #w@10#!" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue4FaceShanghai" Value="....What a letdown." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue5FaceAlice" Value="Now we can register ourselves." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue6FaceAlice" Value="....Done!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue7FaceShanghai" Value="That was quick." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue8FaceAlice" Value="I can’t just have you do,everything." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue9FaceAlice" Value="Alright! To the third floor!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage3Dialogue1FaceNone" Value="The air purifier is cleaning the,air normally." Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue1FaceNaviBlueRobot" Value="Are you the one who took,my request?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue2FaceNaviBlueRobot" Value="A NetAgent like me certainly,shouldn’t be raising a virus，,but I can’t just abandon it." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue3FaceNaviBlueRobot" Value="It’s a memento left behind by,my late wife." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue4FaceNaviBlueRobot" Value="I’m going to keep it，but I don’t,have any bug frags to feed it." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue5FaceNaviBlueRobot" Value="I’m shy，so I’m not good,at getting counterhits.,I’m practicing，but...." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue6FaceNaviBlueRobot" Value="I need enough bug frags to,get me through until I can farm,them myself." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue7FaceNaviBlueRobot" Value="Based on my progress so far，,I think that 100 bug frags should,be plenty." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue8QuestionFaceNaviBlueRobot" Value="Would you please share,100 bug frags with me?" Face="NaviBlueRobot" Mono="False" />
+  <Text Key="Map.AirCleaner3ClientStage1Dialogue8Options" Value="OK,Not Yet" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue9FaceNaviBlueRobot" Value="Is that so? Well then，,whenever you’re ready." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue10FaceNaviBlueRobot" Value="Hm?,You don’t seem to have,100 bug frags." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue11FaceNaviBlueRobot" Value="I’ll be waiting right here，so,please come back when,you have enough." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue12FaceNaviBlueRobot" Value="There we go. Thank you for,the 100 bug frags." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue13FaceNaviBlueRobot" Value="As promised，here’s your,reward. Let me give you,10MB worth of RegUps." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue14FaceNaviBlueRobot" Value="Are you surprised?,They’re from the NetAgents’,secret stash." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue15FaceNaviBlueRobot" Value="I fight without relying on,Regular Memory，so I don’t,need them." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue1FaceNaviBlueRobot" Value="My late wife liked animals，,but I couldn’t keep any due,to health issues." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue2FaceNaviBlueRobot" Value="And because of that，she,somehow ended up keeping,a virus as a pet." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue3FaceNaviBlueRobot" Value="I couldn’t be there by her side,when she finally passed away." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue4FaceNaviBlueRobot" Value="And so，to atone，I decided to,love the virus she left behind,as best as I can." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue5FaceNaviBlueRobot" Value="But my workplace has no idea，,of course.,Hahaha...." Face="NaviBlueRobot" Mono="False" />
+</data>

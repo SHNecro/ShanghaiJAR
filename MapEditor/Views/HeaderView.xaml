@@ -1,0 +1,233 @@
+﻿<UserControl x:Class="MapEditor.Views.HeaderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MapEditor"
+             xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules"
+             xmlns:core="clr-namespace:MapEditor.Core"
+             xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+             xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions"
+             xmlns:controls="clr-namespace:MapEditor.Controls"
+             xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+                <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <FrameworkElement x:Key="CurrentMapProxyElement" DataContext="{Binding}"/>
+            <converters:EnumIntegerValueConverter x:Key="EnumToIntegerValueConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <ContentControl Visibility="Collapsed" Content="{StaticResource CurrentMapProxyElement}"/>
+        <controls:StringEditableExpander Header="Header"
+                                         IsExpanded="True"
+                                         DataContext="{Binding Header}">
+            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                          Margin="10,0,0,0">
+                <StackPanel Orientation="Vertical"
+                            Grid.IsSharedSizeScope="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Walkable Size:"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="1" Maximum="150">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="WalkableWidth" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule Minimum="1" Maximum="150" ValidationStep="RawProposedValue"/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                        <TextBlock Grid.Column="2" Text="x"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="3" Minimum="1" Maximum="150">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="WalkableHeight" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule Minimum="1" Maximum="150" ValidationStep="RawProposedValue"/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Image Offset:"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="1">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="RendX" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                        <TextBlock Grid.Column="2" Text="x"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="3">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="RendY" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Image Size:"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="1">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="ImageWidth" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule Minimum="1" ValidationStep="RawProposedValue" />
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                        <TextBlock Grid.Column="2" Text="x"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="3" Minimum="1">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="ImageHeight" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule Minimum="1" ValidationStep="RawProposedValue"/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Map Name:"/>
+                        <controls:TranslatedTextSelector Grid.Column="1" TextKey="{Binding TitleKey, Mode=TwoWay}"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Floor Height:"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0" Increment="16">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="FloorHeight" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:FloorHeightValidationRule ValidationStep="RawProposedValue"/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Levels:"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="1" Maximum="5">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="Levels" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxValidationRule Minimum="1" Maximum="5" ValidationStep="RawProposedValue"/>
+                                        <validationrules:MapLevelImagesValidationRule ValidationStep="RawProposedValue">
+                                            <validationrules:MapLevelImagesValidationRule.ImagePrefix>
+                                                <core:BoundObject Binding="{Binding DataContext.Header.ImagePrefix, Source={StaticResource CurrentMapProxyElement}}" />
+                                            </validationrules:MapLevelImagesValidationRule.ImagePrefix>
+                                        </validationrules:MapLevelImagesValidationRule>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Background:"/>
+                        <ComboBox Grid.Column="1"
+                                  ItemsSource="{Binding Source={markup:EnumBindingSourceExtension {x:Type enums:BackgroundTypeNumber}}}"
+                                  SelectedItem="{Binding BackgroundNumber, Converter={StaticResource EnumToIntegerValueConverter}, ConverterParameter={x:Type enums:BackgroundTypeNumber}}" />
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Sp. Enc. Flag:"/>
+                        <TextBox Grid.Column="1"
+                                 VerticalContentAlignment="Center"
+                                 Height="22"
+                                 Text="{Binding SpecialEncounterFlag, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="Sp. Enc. Count:"/>
+                        <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0" Maximum="{Binding Path=DataContext.RandomEncounters.RandomEncounters.Count, Source={StaticResource CurrentMapProxyElement}}">
+                            <controls:WheelCaptureIntegerUpDown.Text>
+                                <Binding Path="SpecialEncounterCount" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MinMaxBindingValidationRule ValidationStep="RawProposedValue">
+                                            <validationrules:MinMaxBindingValidationRule.Bounds>
+                                                <core:MinMaxBinding Minimum="0" Maximum="{Binding DataContext.RandomEncounters.RandomEncounters.Count, Source={StaticResource CurrentMapProxyElement}}"/>
+                                            </validationrules:MinMaxBindingValidationRule.Bounds>
+                                        </validationrules:MinMaxBindingValidationRule>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </controls:WheelCaptureIntegerUpDown.Text>
+                        </controls:WheelCaptureIntegerUpDown>
+                    </Grid>
+                    <Grid>
+                        <Grid.Resources>
+                            <FrameworkElement x:Key="HeaderProxyElement" DataContext="{Binding}"/>
+                        </Grid.Resources>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <ContentControl Visibility="Collapsed" Content="{StaticResource HeaderProxyElement}"/>
+                        <TextBlock Grid.Column="0" Text="Image Prefix:"/>
+                        <TextBox Grid.Column="1" Text="{Binding ImagePrefix, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBox Grid.Column="1">
+                            <TextBox.Text>
+                                <Binding Path="ImagePrefix" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <validationrules:MapPrefixImagesValidationRule ValidationStep="RawProposedValue" ValidatesOnTargetUpdated="True">
+                                            <validationrules:MapPrefixImagesValidationRule.Levels>
+                                                <core:BoundObject Binding="{Binding DataContext.Levels, Source={StaticResource HeaderProxyElement}}" />
+                                            </validationrules:MapPrefixImagesValidationRule.Levels>
+                                        </validationrules:MapPrefixImagesValidationRule>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox.Text>
+                        </TextBox>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </controls:StringEditableExpander>
+    </Grid>
+</UserControl>

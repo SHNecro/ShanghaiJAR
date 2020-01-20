@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GenSchoolBarnName" Value="幻想中学校　倉庫" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3Tenshi2Stage1Dialogue1FaceTenshi" Value="来ないで！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue1FaceAlice" Value="これがフリーズしてるパソコンね？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue2FaceAlice" Value="再起動っと！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue3FaceNone" Value="カチッ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue4FaceNone" Value="ブゥゥゥン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue5FaceTenshi" Value="だ　誰！？" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue1FaceAlice" Value="あ　あなたは比那名居さん？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue2FaceAlice" Value="早く避難しないと････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue3FaceTenshi" Value="来ないでっ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue4FaceTenshi" Value="わ　私は悪くないのよ！,私は違うのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue5FaceAlice" Value="いったい何を言ってるの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue6FaceAlice" Value="比那名居さん　まさか････！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue7FaceTenshi" Value="イク！,は　早く！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue8FaceShanghai" Value="アリス　通れるようになったわ！,オペレートお願い！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue9FaceAlice" Value="え　ええ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardStage1Dialogue1FaceNone" Value="学校に関する何かが入った,とっても重いダンボールだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardStage1Dialogue2FaceNone" Value="全くびくともしないので,何が入っているのかが,とても気になってしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeStage1Dialogue1FaceNone" Value="古い書類がいっぱいに入った,ダンボールの箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeStage1Dialogue2FaceNone" Value="紙は完全に色あせてて,何年しまわれているのか,想像できない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeStage1Dialogue1FaceNone" Value="運動会で使う道具が,入ったダンボールの箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeStage1Dialogue2FaceNone" Value="分解されて入っているので,見ただけでは何なのかが,全然わからない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeStage1Dialogue1FaceNone" Value="よくわからない古い機械が,たくさん入ったダンボールの箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeStage1Dialogue2FaceNone" Value="表面はサビついていて,壊れているようにしか見えない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="昔の教科書が,いっぱいに詰まった,ダンボールの箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="なぜ保管しているのかは,先生だけが知っているのだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerStage1Dialogue1FaceNone" Value="古くなって運ばれたパソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerStage1Dialogue2FaceNone" Value="ＯＳが古く　今のソフトウェアに,対応していないので,ここに運ばれたのだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerDupeStage1Dialogue1FaceNone" Value="古くなって運ばれたパソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerDupeStage1Dialogue2FaceNone" Value="ネットワークの接続が,不安定になったので,ここに運ばれたのだろう" Face="None" Mono="False" />
+</data>

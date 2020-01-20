@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ChipGetItem" Value="バトルチップ"  />
+  <Text Key="Map.SubChipGetItem" Value="サブチップ" />
+  <Text Key="Map.AddonGetItem" Value="アドオン" />
+  <Dialogue Key="Map.GetItemNetFormat" Value="シャンハイは　{0},{1}　を,手に入れた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetItemRealFormat" Value="アリスは　{0},{1}　を,手に入れた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetHPMemory" Value="シャンハイのＨＰの,最大値が２０アップ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetRegUpFormat" Value="レギュラーメモリの,容量が{0}メガ　増えた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetSubMemory" Value="サブチップの持てる数が,１つ増えた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetCorePlus" Value="アドオンマネージャーで,使えるコアの数が,１つ増えた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetHertzUpFormat" Value="アドオンマネージャーで,使えるヘルツの数が,{0}増えた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipTraderQuestion" Value="チップトレーダーがある,チップを３枚入れますか？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ChipTraderSpecialQuestion" Value="トレーダースペシャルがある,チップを１０枚入れますか？" Face="Shanghai" Mono="False" />
+  <Text Key="Map.ChipTraderOptions" Value="はい,いいえ" />
+  <Text Key="Map.ChipTraderSpecialOptions" Value="はい,いいえ" />
+  <Dialogue Key="Map.JackIn" Value="#b@true#プラグイン！#w@15#,シャンハイ.EXE！#w@8#,トランスミッション！#w@30##e@#" Face="Alice" Mono="False" />
+</data>

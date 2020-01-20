@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterName" Value="ゲームセンター" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage1Dialogue1FaceMaleStudent" Value="やあ！,ちょうどネットバトルの相手を,探していたんだ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage1Dialogue2FaceMaleStudent" Value="対戦してくれるなら,向こうの画面の,ボタンを押してね" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage3Dialogue1FaceMaleAdult" Value="むむっ！,手強いな！" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage5Dialogue1FaceMaleAdult" Value="むむっ！,手強いな！" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue1FaceMaleStudent" Value="よーし！,じゃあ始めるよ！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue2FaceShanghai" Value="へへん！,負けてベソかくんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue3FaceAlice" Value="バトルオペレーション････#e@#" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue4FaceNone" Value="何だテメエら！,どけやオラァ！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue1FacePunk" Value="おうおうおう！,テメエらアニキの特等席で,なにしとるんじゃあ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue2FacePunk" Value="アニキがネットバトルするんだよ,ザコどもは散った散った！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue3FaceAlice" Value="カチン！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue4FaceShanghai" Value="あーら,あんたら私を････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue5FaceAlice" Value="ちょっとあなた達！,ここはみんなの場所でしょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue6FaceAlice" Value="特等席なんて勝手じゃないの！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue7FaceShanghai" Value="（あら････珍しいわねえ）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue8FacePunk" Value="んだとゴラァ！,ガキがチョーシ,こいてんじゃねえぞ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue9FacePunk" Value="アニキぃ　このナマ言ってるガキ,シメちまいしょうや" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue10FacePunk" Value="いいジャーン！,最近　金髪のナビに負けてるから,イライラしてんだよなぁ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue11FaceAlice" Value="な････何よ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue12FacePunk" Value="へへへへ････" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue13FaceShanghai" Value="（ちょっとやばいかな････？）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage5Dialogue1FaceNone" Value="ちょいと待ちなぁ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue1FaceTsubakiNekku" Value="女の子一人に３人がかりなんて,カッコ悪いんじゃないかい？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue2FacePunk" Value="何だテメエは！？" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue3FaceTsubakiNekku" Value="俺か････？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue4FaceTsubakiNekku" Value="俺は人呼んで････,炎のネットバトラー！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue5FaceTsubakiNekku" Value="椿ネック　参上！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue6FaceAlice" Value="炎の････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue7FaceTsubakiNekku" Value="（フッ････決まったぜ！）" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue8FacePunk" Value="聞いたことあるか？" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue9FacePunk" Value="さあ････？" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue10FaceTsubakiNekku" Value="そんなことはどうでもいい！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue11FaceTsubakiNekku" Value="ネットバトルマシンの,使用権なら　ネットバトルで,ケリつけるのが筋じゃないか？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue12FacePunk" Value="なんだと！,クソガキがナマ言ってんじゃねえ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue13FaceTsubakiNekku" Value="そう言って　ネットバトルに,自信がないんじゃないのか？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue14FacePunk" Value="ほう　言ってくれるじゃねえか！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue15FacePunk" Value="アニキィ！,やっちまいましょうよぉ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue16FacePunk" Value="へへへ････,そこの小娘のと一緒に,まとめてデリートしてやるぜ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage9Dialogue1FacePunk" Value="プラグイィィィン！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue1FaceAlice" Value="えっと････あの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue2FaceTsubakiNekku" Value="大丈夫　安心しろ,俺は強いからな････！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue3FaceTsubakiNekku" Value="バラバラに解体してやるぜ！,行くぞ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue4FaceTsubakiNekku" Value="プラグイン！,スパナマン.ＥＸＥ！,トランスミッション！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue5FaceAlice" Value="プラグイン！,シャンハイ.ＥＸＥ！,トランスミッション！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue1FaceNaviPurplePunk" Value="ゲッ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue2FaceSpannerMan" Value="（おっ！　美人なナビ！）" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue3FaceShanghai" Value="スパナマン････だっけ？,片方あんたに任せるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue4FaceSpannerMan" Value="おう！　ガッテンでい！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue5FaceNaviPurplePunk" Value="（アニキィ！,　あの金髪････もしかして！）" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue6FaceNaviPurplePunk" Value="（う　うう　うろたえるな！）" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue7FaceShanghai" Value="あら　誰かと思ったら,あたしが２回もボコった,チンピラさんじゃない" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue8FaceNaviPurplePunk" Value="お　俺達だって,パワーアップしたんだ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue9FaceNaviPurplePunk" Value="いつまでも同じと思うなよ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue10FaceSpannerMan" Value="なんだかわからねえが,覚悟はできてるかテメエらぁ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue11FaceTsubakiNekku" Value="君　行くよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue12FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue13FaceAlice" Value="バトルオペレーション、セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue14FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter3EventsBattle1Enemy1" Value="チンピラアニキV3" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue1FaceReisen" Value="フン････弱いな" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue2FacePunk" Value="な････！？" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue3FaceAlice" Value="ちょっと････,デリートなんてやり過ぎじゃない？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue4FaceAlice" Value="だいたいあなたは何者？,私と同じ位の歳にみえるけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue5FaceShanghai" Value="アリス････,こいつ　ネットエージェントよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue6FaceReisen" Value="ネットエージェント権限により,貴様らを逮捕する" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue7FacePunk" Value="逮捕！？" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue8FacePunk" Value="アニキィ････こいつやべえッスよ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue9FacePunk" Value="に････逃げろ！" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage17Dialogue1FaceReisen" Value="屋内で発砲するわけにも,いかないか････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage17Dialogue2FaceReisen" Value="Ｇ７に乗って追うわよ,ヨリヒメ　プラグアウト" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage17Dialogue3FaceYorihime" Value="イエス･マム" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage19Dialogue1FaceTsubakiNekku" Value="お　おい！,待ってくれよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage19Dialogue2FaceTsubakiNekku" Value="スパナマン　プラグアウト！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage21Dialogue1FaceShanghai" Value="アリス　追いましょう！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage21Dialogue2FaceAlice" Value="え　ええ！,プラグアウト！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="よお　アリス！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue2FaceAlice" Value="椿くん　ずいぶん早く,来てたみたいね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue3FaceTsubakiNekku" Value="へっへっへ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue4FaceTsubakiNekku" Value="なんたって俺様の実力を,見せられる絶好の,機会だからな！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue5FaceSpannerMan" Value="おっ　そろそろ開会式が,始まるみたいだぜ" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue1FaceSanaeReporter" Value="みなさーん！,おまたせしました〜！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue2FaceSanaeReporter" Value="ボーダーコンツェルン主催！,N１リーグの決勝トーナメントを,開催しまーす！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue3FaceSanaeReporter" Value="まず最初に,決勝トーナメントの,説明も兼ねて････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue4FaceSanaeReporter" Value="ボーダーコンツェルン社長,八雲紫さんからのご挨拶です！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3Opponent2Stage1Dialogue1FaceMaleStudent" Value="な････何があったんだ？" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4SanaeStage1Dialogue1FaceSanaeReporter" Value="まだあなたの試合までは,時間があるのでゆっくり,準備してくださいね！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4PurpleStage1Dialogue1FacePresidentYukari" Value="フフフ　いいファイトを,期待しているわよ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue1FaceTsubakiNekku" Value="よお　アリス！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue2FaceAlice" Value="椿くん　ずいぶん早く,来てたみたいね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue3FaceTsubakiNekku" Value="へっへっへ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue4FaceTsubakiNekku" Value="なんたって俺様の実力を,見せられる絶好の,機会だからな！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue5FaceSpannerMan" Value="おっ　そろそろ開会式が,始まるみたいだぜ" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue1FaceSanaeReporter" Value="みなさーん！,おまたせしました〜！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue2FaceSanaeReporter" Value="ボーダーコンツェルン主催！,N１リーグの決勝トーナメントを,開催しまーす！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue3FaceNone" Value="わああーーー！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue4FaceNone" Value="いえーーーーーい！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue5FaceNone" Value="ひゃああーーーーー！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue6FaceSanaeReporter" Value="司会は私,ＧＲＮアナウンサーの,東風谷早苗がお送りします！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue7FaceSanaeReporter" Value="まず最初に,決勝トーナメントの,説明も兼ねて････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue8FaceSanaeReporter" Value="ボーダーコンツェルン社長,八雲紫さんからのご挨拶です！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue1FacePresidentYukari" Value="ごきげんよう皆さん,ボーダーコンツェルン社長の,八雲紫ですわ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue2FacePresidentYukari" Value="このＮ１リーグはネットバトラーの,技能向上を目的とした,大会となっていますの" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue3FacePresidentYukari" Value="次代のネット社会を担う,若きネットバトラー達が,腕を競い合うことで････" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue4FacePresidentYukari" Value="技能向上につながり,ネット犯罪の抑制になればと" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue5FacePresidentYukari" Value="そういう思いからこの大会の,開催を決定したんですのよ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue6FacePresidentYukari" Value="さて　長話をしてもなんですし,N１リーグ決勝トーナメントの,説明を始めますわよ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue7FacePresidentYukari" Value="トーナメント････といっても,対戦表は参加者には,非公開とさせてもらうわ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue8FacePresidentYukari" Value="試合が始まる直前まで,誰が相手かはわからないように,ということですわ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue9FacePresidentYukari" Value="本戦への出場者は全６４名！,簡単にいえば６人に勝利すれば,優勝となりますわ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue10FacePresidentYukari" Value="私からは以上ですわ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue1FaceSanaeReporter" Value="はい　ありがとうございました！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue2FaceSanaeReporter" Value="N1リーグの激闘を制し,優勝した方には,賞金１０万ゼニーと････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue3FaceSanaeReporter" Value="豪華客船セイレーンで行く,インゲレスツアーのチケットが,送られます！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue4FaceSanaeReporter" Value="それでは　選手の皆さん,係員の案内にしたがって,控え室へと向かってください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage9Dialogue1FaceShanghai" Value="アリス　行きましょう！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage9Dialogue2FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage11Dialogue1FaceAlice" Value="えっと　準備ができたら,この部屋の白衣の人に,伝えればいいのよね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage11Dialogue2FaceShanghai" Value="今は準備時間だし,外に出てチップの調達に,行くのもいいかもね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage13Dialogue1FaceTsubakiNekku" Value="ここまで来たら,優勝しちまいな！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceTenshiStage1Dialogue1FaceTenshi" Value="アリス！,応援しに来たのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceTenshiStage1Dialogue2FaceIku" Value="悔いの残らないように,戦えるといいですね" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceSumirekoStage1Dialogue1FaceSumireko" Value="お姉ちゃんの分まで,頑張ってね！" Face="Sumireko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceStage1Dialogue1FaceBlackHairFemaleStudent" Value="友達が出場するから,見に来たの" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4CameraStage1Dialogue1FaceNone" Value="早苗ー！,輝いてるケロよ〜！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4Audience1Stage1Dialogue1FaceNone" Value="ガヤガヤ　ガヤガヤ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4Audience2Stage1Dialogue1FaceNone" Value="ガヤガヤ　ガヤガヤ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4Audience3Stage1Dialogue1FaceNone" Value="ガヤガヤ　ガヤガヤ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue1FaceSanaeReporter" Value="さぁて！,盛り上がってきました,N1リーグ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue2FaceSanaeReporter" Value="次の試合の出場選手は････！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue3FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue4FaceAlice" Value="・・・・は？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue5FaceAlice" Value="いやいやいやちょっとまって！,何をどうしたら私の紹介が,それになっちゃうの！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue6FaceShanghai" Value="あー････この間インタビュアーが,来たときにあたしの実情,知られたからかしらね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue7FaceAlice" Value="どういうこと？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue8FaceShanghai" Value="ほら　あたしって勝手に　,いろいろやってるじゃない？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue9FaceShanghai" Value="多分　それ全部,アリスがあたしに指示したって,思われてるんじゃないの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue10FaceAlice" Value="シャンハイのバカぁ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue11FaceSanaeReporter" Value="もう一人の出場選手は････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue12FaceSanaeReporter" Value="真っ直ぐ生きることが好き！,猪鹿　マサオ選手と,そのナビ、ブルホン！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage3Dialogue1FaceBrownHairMaleStudent" Value="一発ぶちかましてやるぜー！" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage5Dialogue1FaceSanaeReporter" Value="それでは両選手,ナビをプラグインさせてください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue1FaceBrownHairMaleStudent" Value="男なら真っ直ぐ生きるぜ！,突っ込め！　ブルホン！" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue2FaceNaviPurpleHeel2" Value="ブルルル････ンガァァァ！" Face="NaviPurpleHeel2" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue3FaceAlice" Value="ああ　もう知らない！,バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue4FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter4BattleEventBattle1Enemy1" Value="ブルホン" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue1FaceSanaeReporter" Value="ウィナー！,シャンハイ！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue3FaceShanghai" Value="へっ　楽勝楽勝！,顔洗って出直して来なさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue4FaceBrownHairMaleStudent" Value="ぐぅぅぅ････,曲がりきれなかったか！" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue1FaceSanaeReporter" Value="激しい戦いが続いております,N1リーグ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue2FaceSanaeReporter" Value="次の試合の出場選手は････！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue3FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue4FaceAlice" Value="もしかして大会中,ずっとこの異名で,呼ばれるんじゃ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue5FaceSanaeReporter" Value="もう一人の出場選手は････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue6FaceSanaeReporter" Value="ドラゴンテイマーの異名を持つ,竜崎　テツヤ選手と,そのナビ　ザグレフ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage13Dialogue1FaceMaleAdult" Value="僕のドラゴン軍団に,君は勝てるかな？" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage15Dialogue1FaceSanaeReporter" Value="それでは両選手,ナビをプラグインさせてください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue1FaceMaleAdult" Value="ザグレフ,君のトモダチの力を,見せてあげるんだ" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue2FaceNaviOrangeMale" Value="手塩にかけて育てた,僕のドラゴンを見るがいい！" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue3FaceAlice" Value="異名って今からでも,変更してもらえるかな？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue4FaceShanghai" Value="････無理じゃない？,諦めなさいよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue5FaceAlice" Value="このままじゃ私のイメージが････,バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue6FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter4BattleEventBattle2Enemy1" Value="ザグレフ" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue1FaceSanaeReporter" Value="ウィナー！,シャンハイ！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue3FaceShanghai" Value="ったく　面倒な戦法を,やってくれたわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue4FaceMaleAdult" Value="そんな････僕のドラゴンが！？" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue1FaceSanaeReporter" Value="３回戦にもなり　残った選手は,１６名になりましたN1リーグ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue2FaceSanaeReporter" Value="次の試合の出場選手は････！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue3FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue4FaceAlice" Value="異名の変更････ダメだって" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue5FaceShanghai" Value="そんなに嫌？,かっこいいじゃない" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue6FaceAlice" Value="嫌なものは嫌なの！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue7FaceSanaeReporter" Value="もう一人の出場選手は････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue8FaceSanaeReporter" Value="永遠高校の熱血鬼教師,上白沢　慧音選手と,そのナビ、ハクタクマン！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage23Dialogue1FaceMsKamishirasawa" Value="おっ　君は････" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage23Dialogue2FaceAlice" Value="上白沢さん！？,あなたもこの大会に,出てたんですか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage23Dialogue3FaceMsKamishirasawa" Value="まあ　ネットバトルの方は,趣味みたいなものだけどね" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage25Dialogue1FaceSanaeReporter" Value="それでは両選手,ナビをプラグインさせてください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue1FaceMsKamishirasawa" Value="ハクタクマン！,頑張るんだぞ！" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue2FaceHakuTakuMan" Value="おまかせだよ！" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue3FaceShanghai" Value="あら　チビっちゃいナビだこと" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue4FaceHakuTakuMan" Value="チビっていうな！,なめてると　いたい目みるぞ！" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue5FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue6FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue1FaceSanaeReporter" Value="ウィナー！,シャンハイ！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue3FaceHakuTakuMan" Value="うーん････ばたんきゅ〜" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue4FaceShanghai" Value="････正直びっくりしたわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue5FaceAlice" Value="上白沢さん　今のは････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue6FaceMsKamishirasawa" Value="以前ハクタクマンが,病気になったときに,身につけた特殊能力さ" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue7FaceMsKamishirasawa" Value="あの形態を破ったのは,君たちが初めてだけど････" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue8FaceShanghai" Value="病気かぁ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue9FaceShanghai" Value="手軽だったら欲しかったけど,それじゃあ諦めたほうがいいわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue10FaceAlice" Value="あの変身能力,欲しかったの････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue11FaceMsKamishirasawa" Value="にしても強いな　君たちは！,この後も頑張れよ！" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue12FaceAlice" Value="あっ　はい！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue1FaceSanaeReporter" Value="早いもので準々決勝！,６４名いた選手たちも,残るは８名になりました！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue2FaceSanaeReporter" Value="次の試合の出場選手は････！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue3FaceSanaeReporter" Value="幻想大学のネットバトル女王！,宇佐見　蓮子選手と,そのナビ、ヒフゥ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue4FaceSanaeReporter" Value="もう一人の出場選手は････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue5FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage33Dialogue1FaceSumireko" Value="お姉ちゃんもアリスさんも,がんばれー！" Face="Sumireko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue1FaceRenko" Value="あら　あなた菫子の知り合い？" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue2FaceAlice" Value="この間　神社で知り合って････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue3FaceRenko" Value="私はあの子の姉の蓮子よ,互いに　良いバトルをしましょ！" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue4FaceAlice" Value="はい！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage37Dialogue1FaceSanaeReporter" Value="それでは両選手,ナビをプラグインさせてください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue1FaceRenko" Value="（可愛い妹にお姉ちゃんの,　かっこいいところを,　見せてやるんだから！）" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue2FaceNaviChild" Value="（変に張り切ってるけど,　大丈夫かなあ）" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue3FaceShanghai" Value="いくわよ　アリス！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue4FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue5FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter4BattleEventBattle4Enemy1" Value="ヒフゥ" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue1FaceSanaeReporter" Value="ウィナー！,シャンハイ！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue3FaceRenko" Value="うーん　負けちゃったかー････,メリーが見に来てなくて,よかったと思おう" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue4FaceShanghai" Value="幻想大学のネットバトル女王を,倒したってことは,あたしたちが女王かな？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue5FaceAlice" Value="多分違うと思うんだけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue1FaceSanaeReporter" Value="N1リーグも準決勝！,栄冠を手にするのは,果たして誰になるのか！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue2FaceSanaeReporter" Value="次の試合の出場選手は････！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue3FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue4FaceSanaeReporter" Value="もう一人の出場選手は････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue5FaceSanaeReporter" Value="天下無双のネットバトラー！,椿　ネック選手と,そのナビ、スパナマン！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue6FaceAlice" Value="（また二つ名変わってるし････）" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue7FaceTsubakiNekku" Value="よお　アリス！,ついにこの時が来たな！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue8FaceAlice" Value="この時？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue9FaceTsubakiNekku" Value="このゲームセンターで,初めて会った時から,ネットバトルしたかったんだよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue10FaceShanghai" Value="そういえば一回も,ネットバトルしたこと,なかったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue11FaceAlice" Value="そういえば椿くんって,毎回二つ名変わってない？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue12FaceTsubakiNekku" Value="その時のノリで変えてる" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue13FaceAlice" Value="そういうものなの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue14FaceTsubakiNekku" Value="アリスだってすごい,異名じゃないか,金色の････" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue15FaceAlice" Value="やめて！　言わないでー！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage45Dialogue1FaceSanaeReporter" Value="それでは両選手,ナビをプラグインさせてください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue1FaceTsubakiNekku" Value="気合入れろ　スパナマン！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue2FaceSpannerMan" Value="タンクマンなんかよりも,俺のほうがいい男って,教えてやるぜ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue3FaceShanghai" Value="（あたしはどっちも,　タイプじゃないんだけどなぁ）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue4FaceAlice" Value="椿くん　いざ勝負よ！,バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue5FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue1FaceSanaeReporter" Value="ウィナー！,シャンハイ！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue3FaceSpannerMan" Value="ごふっ････" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue4FaceTsubakiNekku" Value="ドンマイだ　スパナマン････" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue5FaceShanghai" Value="よっしゃあ！,決勝進出！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue6FaceAlice" Value="あれっ　もうそんなだっけ？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue7FaceShanghai" Value="しっかりしなさいよ,金色の魔神！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue8FaceAlice" Value="もー！,それシャンハイの,せいなんだからね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue1FaceSanaeReporter" Value="さてみなさん！,早いものでN1リーグも,ついに決勝戦です！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue2FaceSanaeReporter" Value="泣いても笑っても最終決戦！,この戦いに勝った方が,優勝の座につけるのです！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue3FaceSanaeReporter" Value="それでは決勝に進出した,凄腕ネットバトラーの紹介です！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue4FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue5FaceAlice" Value="結局最後まで,この異名なのね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue6FaceShanghai" Value="諦めなさいよいい加減････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue7FaceSanaeReporter" Value="もう一人の出場選手は････" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue8FaceSanaeReporter" Value="天才小学生ネットバトラー！,博麗　霊夢選手と,そのナビ、トータスマン！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue1FaceReimu" Value="いえーい！" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue2FaceAlice" Value="決勝戦の相手って････,霊夢ちゃん！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue3FaceReimu" Value="アリスお姉ちゃんも,決勝まで来れるなんて,すごいね！" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue4FaceShanghai" Value="ってことは････,トータスマンってのも,油断ならないわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue5FaceTortoiseMan" Value="ファファファ・・・・" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue6FaceTortoiseMan" Value="旧型の年寄りだと思ってると,ケガをするゾイ" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage55Dialogue1FaceSanaeReporter" Value="それでは両選手,ナビをプラグインさせてください！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue1FaceReimu" Value="賞金もらったらそのお金で,神社をもっと立派にしようね！" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue2FaceTortoiseMan" Value="そのためにも,負けられませんのう" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue3FaceShanghai" Value="相手があの子だからって,手ェ抜いたら　ただじゃ,おかないわよ　アリス！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue4FaceAlice" Value="もちろん！,私だって勝ちたいからね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue5FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue6FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage59Dialogue1FaceSanaeReporter" Value="ついに決まりました！,栄えあるN1リーグの,優勝者は････！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue1FaceSanaeReporter" Value="幻想町の金色の魔神！,神綺　アリス選手と,そのナビ、シャンハイーー！！！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue3FaceNone" Value="ウォォォォォォ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue4FaceNone" Value="イェェェェェェ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue5FaceAlice" Value="嬉しいけど異名のせいで,イマイチ喜べない････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue6FaceShanghai" Value="胸を張りなさい！　アリス！,もっと優勝者らしく,堂々とするのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue7FaceSanaeReporter" Value="それではアリスさん！,今のお気持ちをどうぞ！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue8FaceAlice" Value="え？　えーっと,あのー････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue9FaceSanaeReporter" Value="このように　感無量のようです！,ありがとうございましたー！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue10FaceAlice" Value="････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue11FaceSanaeReporter" Value="それでは　八雲紫さんより,優勝賞品の贈呈です！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage63Dialogue1FacePresidentYukari" Value="よく頑張ったわね,あなたのような人がいれば,電脳世界も安泰ね" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage63Dialogue2FaceAlice" Value="あ････ありがとうございます" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage65Dialogue1FaceSanaeReporter" Value="それでは　優勝者の,神綺アリスさんにもう一度,大きな拍手をお願いします！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage65Dialogue2FaceNone" Value="ワァァァァァァ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage65Dialogue3FaceSanaeReporter" Value="それではまた会う日まで,ごきげんよーーーーう！" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage1Dialogue1FaceMaleStudent" Value="よし！,ここでプログラムアドバンスだ！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage1Dialogue2FaceMaleStudent" Value="ってああ！,順番を間違えた！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage3Dialogue1FaceMaleStudent" Value="よし！,ここでプログラムアドバンスだ！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage3Dialogue2FaceMaleStudent" Value="ってああ！,順番を間違えた！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage1Dialogue1FaceMaleChild" Value="俺のチップコンボをくらえー！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage1Dialogue2FaceMaleChild" Value="と思ったら,コードが合わないっ！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage3Dialogue1FaceMaleChild" Value="俺のチップコンボをくらえー！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage3Dialogue2FaceMaleChild" Value="と思ったら,コードが合わないっ！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler3Stage1Dialogue1FaceFemaleAdult" Value="女だからって,甘く見ないでよね！" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler3Stage3Dialogue1FaceFemaleAdult" Value="女だからって,甘く見ないでよね！" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterMale1Stage1Dialogue1FaceMaleAdult" Value="て････手強い！,どんな凄腕が相手なんだ！？" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterMale2Stage1Dialogue1FaceMaleOld" Value="ここであの役狙いに,切り替えるか････？,いや　それとも････" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GameCenterMale3Stage1Dialogue1FaceMaleChild" Value="よっし！,弱い機体で強い機体に,なんとか勝てたぞ！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterGirlStage1Dialogue1FaceFemaleStudent" Value="ふふーん♪,たいしたことのない相手ねえ" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterBoyStage1Dialogue1FaceMaleStudent" Value="このゲームだけは練習したから,１コインでクリアできるんだよね" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterBoyStage1Dialogue2FaceMaleStudent" Value="でもクリアするのに,一時間もかかるから,時間が持っていかれる････" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChangerStage1Dialogue1FaceNone" Value="お金をゲームで使える,コインに崩す両替機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChangerStage1Dialogue2FaceNone" Value="ゼニーなどの電子マネーも,コインに両替することができる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChangerStage1Dialogue3FaceNone" Value="両替ができるように,プラグインができる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChanger2Stage1Dialogue1FaceNone" Value="お金をゲームで使える,コインに崩す両替機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChanger2Stage1Dialogue2FaceNone" Value="旧型なので,電子マネーの両替ができない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterPurikuraStage1Dialogue1FaceNone" Value="撮った写真を,シールに印刷する「フォトプリ」だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterPurikuraStage1Dialogue2FaceNone" Value="撮った写真には補正をかけたり,文字を入れたりと,編集が簡単にできる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterPurikuraStage1Dialogue3FaceNone" Value="一昔前はブームだったが,今では一部の女子高生しか,使う人はいない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterWhiteVendingMachineStage1Dialogue1FaceNone" Value="買った商品がリフトで,下まで運ばれるタイプの,自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterWhiteVendingMachineStage1Dialogue2FaceNone" Value="お菓子などの自動販売機では,普通は売っていないものが,並んでいるのが特徴だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachineStage1Dialogue1FaceNone" Value="ジュースが売っている,自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachineStage1Dialogue2FaceNone" Value="コーラなどのジュース系と,スポーツドリンクが大半を,しめている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMAH-JONGFIGHTCLUBStage1Dialogue1FaceNone" Value="ネットワークを介して,全国のプレイヤーと対戦できる,マージャンゲームだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMAH-JONGFIGHTCLUBStage1Dialogue2FaceNone" Value="決まった日に大会が行われ,その日はこのゲームはかなりの,盛り上がりを見せる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMAH-JONGFIGHTCLUBStage1Dialogue3FaceNone" Value="特別なネットワークを,使っているので,プラグインはできない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium1Stage1Dialogue1FaceNone" Value="バトルチップを使って,簡単操作でネットバトルが,体験できるゲームだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium1Stage1Dialogue2FaceNone" Value="ネットナビを持っていても,ナビの能力に頼らない戦法の,練習ができると評判だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium2Stage1Dialogue1FaceNone" Value="バトルチップを使って,簡単操作でネットバトルが,体験できるゲームだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium2Stage1Dialogue2FaceNone" Value="ネットナビを持っていても,ナビの能力に頼らない戦法の,練習ができると評判だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage1Dialogue1FaceNone" Value="ゲームセンターで稼働している,ネットバトルマシンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage1Dialogue2FaceNone" Value="立体映像は,表示しない設定にも,することができる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage1Dialogue3FaceNone" Value="プラグインができる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage3Dialogue1FaceNone" Value="ゲームセンターで稼働している,ネットバトルマシンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage3Dialogue2FaceNone" Value="立体映像は,表示しない設定にも,することができる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage3Dialogue3FaceNone" Value="プラグインができる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage1Dialogue1FaceNone" Value="ゲームセンターで稼働している,ネットバトルマシンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage1Dialogue2FaceNone" Value="大迫力のネットバトルを,楽しむことができるが,今は他の人が使っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage3Dialogue1FaceNone" Value="ゲームセンターで稼働している,ネットバトルマシンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage3Dialogue2FaceNone" Value="大迫力のネットバトルを,楽しむことができるが,今は他の人が使っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame1Stage1Dialogue1FaceNone" Value="フィギュアの箱を頑張って,落とすタイプのクレーンゲームだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame1Stage1Dialogue2FaceNone" Value="「夢幻機動ゼレイブ」の,キャラフィギュアが景品だが,取るのはなかなか手強そうだ" Face="None" Mono="False" />
+  <!-- フィギュアの箱に２２９７６４５３と書かれた紙が貼り付けられている -->
+  <Dialogue Key="Map.GameCenterCraneGame1Stage1Dialogue3FaceNone" Value="フィギュアの箱に,２２９７６４５３と書かれた,紙が貼り付けられている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame2Stage1Dialogue1FaceNone" Value="小さなぬいぐるみが,いっぱい取れるタイプの,クレーンゲームだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame2Stage1Dialogue2FaceNone" Value="適当にやっても２個程度は,転がり落ちてくれるので,手軽に遊べる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachine2Stage1Dialogue1FaceNone" Value="アイスクリームが売っている,自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachine2Stage1Dialogue2FaceNone" Value="冷えすぎてやたら固いアイスが,出てくるので食べるのには,ちょっと覚悟がいる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash1Stage1Dialogue1FaceNone" Value="空き缶やペットボトルで,いっぱいになったゴミ箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash1Stage1Dialogue2FaceNone" Value="入れ口は分別されているが,中で一緒くたにされている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash1Stage1Dialogue3FaceNone" Value="････中にキラリと,光るものが見える" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash2Stage1Dialogue1FaceNone" Value="缶やペットボトルを,捨てるゴミ箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash2Stage1Dialogue2FaceNone" Value="飲み残しが中で混ざったのか,ゴミ箱の近くはすごい異臭が,漂っている････" Face="None" Mono="False" />
+</data>

@@ -1,0 +1,184 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:MessageOpenEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:MessageCloseEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:BranchEndEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:CanSkipEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:EffectEndEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:EndBGMEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:EventDeathEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:EventMoveEndEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:FaceScreenEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:GetPhoneEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:InteriorEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:JackOutEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:LoadBGMEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:PositionSetEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:QuestEndEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:QuestEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:SaveBGMEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:ShakeStopEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:StopSkipEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:VirusEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:WantedEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type events:WarpPlugOutEvent}">
+        <Border Height="22">
+            <TextBlock VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       Text="Nothing to configure"/>
+        </Border>
+    </DataTemplate>
+</ResourceDictionary>

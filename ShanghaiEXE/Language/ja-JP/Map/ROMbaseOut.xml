@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM基地　外観 -->
+  <Text Key="Map.ROMbaseOutName" Value="ROM基地　外観" />
+  <!-- ネックにネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage1Dialogue1QuestionFaceShanghai" Value="ネックにネットバトルを,申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbaseOutSpannerManBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- スパナマン！ぶちかませ！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage1Dialogue2FaceTsubakiNekku" Value="スパナマン！,ぶちかませ！" Face="TsubakiNekku" Mono="False" />
+  <!-- ガッテンでい！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage1Dialogue3FaceSpannerMan" Value="ガッテンでい！" Face="SpannerMan" Mono="False" />
+  <!-- よっしゃあ！俺達の勝ちだ！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage3Dialogue1FaceTsubakiNekku" Value="よっしゃあ！,俺達の勝ちだ！" Face="TsubakiNekku" Mono="False" />
+  <!-- クッソォ････これでも勝てねーのか！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage5Dialogue1FaceTsubakiNekku" Value="クッソォ････,これでも勝てねーのか！" Face="TsubakiNekku" Mono="False" />
+  <!-- そういえばアリスにまだ俺のＰコード渡してなかったな -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage5Dialogue2FaceTsubakiNekku" Value="そういえばアリスにまだ,俺のＰコード渡してなかったな" Face="TsubakiNekku" Mono="False" />
+  <!-- これを使えば俺のＨＰからエイエンエリアにアクセスできるぜ！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage5Dialogue3FaceTsubakiNekku" Value="これを使えば俺のＨＰから,エイエンエリアに,アクセスできるぜ！" Face="TsubakiNekku" Mono="False" />
+  <!-- フルパワースパナマンの力を見せてやる！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage6Dialogue1FaceTsubakiNekku" Value="フルパワースパナマンの,力を見せてやる！" Face="TsubakiNekku" Mono="False" />
+  <!-- テヤンでぇ！ベラボォめえ！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage6Dialogue2FaceSpannerMan" Value="テヤンでぇ！,ベラボォめえ！" Face="SpannerMan" Mono="False" />
+  <!-- へへっ！こっちの方がウワテだったみてえだな！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage8Dialogue1FaceTsubakiNekku" Value="へへっ！,こっちの方が,ウワテだったみてえだな！" Face="TsubakiNekku" Mono="False" />
+  <!-- ････嘘だろ！？ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage10Dialogue1FaceTsubakiNekku" Value="････嘘だろ！？" Face="TsubakiNekku" Mono="False" />
+  <!-- いつでも受けて立つぜ！ -->
+  <Dialogue Key="Map.ROMbaseOutSpannerManBattleStage11Dialogue1FaceTsubakiNekku" Value="いつでも受けて立つぜ！" Face="TsubakiNekku" Mono="False" />
+  <!-- 里香にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage1Dialogue1QuestionFaceShanghai" Value="里香にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbaseOutTankManBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- タンクマン！行くのです！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage1Dialogue2FaceRika" Value="タンクマン！,行くのです！" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage3Dialogue1FaceRika" Value="里香の勝ちなのです！" Face="Rika" Mono="False" />
+  <!-- さすがアリスさんはすっごく強いのです！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage5Dialogue1FaceRika" Value="さすがアリスさんは,すっごく強いのです！" Face="Rika" Mono="False" />
+  <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage6Dialogue1FaceTankMan" Value="シャンハイちゃん！,かっこいいとこ見せてやるぜ！" Face="TankMan" Mono="False" />
+  <!-- ファイトなのです！タンクマン！！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage6Dialogue2FaceRika" Value="ファイトなのです！,タンクマン！！" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage8Dialogue1FaceRika" Value="里香の勝ちなのです！" Face="Rika" Mono="False" />
+  <!-- タンクマン　残念なのです････ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage10Dialogue1FaceRika" Value="タンクマン　残念なのです････" Face="Rika" Mono="False" />
+  <!-- 最高のコンディションの俺の力を見せてやるぜ！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage11Dialogue1FaceTankMan" Value="最高のコンディションの,俺の力を見せてやるぜ！" Face="TankMan" Mono="False" />
+  <!-- これが里香の本気なのです！！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage11Dialogue2FaceRika" Value="これが里香の,本気なのです！！" Face="Rika" Mono="False" />
+  <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage13Dialogue1FaceTankMan" Value="どうだシャンハイちゃん！,惚れなおしたか！" Face="TankMan" Mono="False" />
+  <!-- がーん！里香は勝てないのです！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage15Dialogue1FaceRika" Value="がーん！,里香は勝てないのです！" Face="Rika" Mono="False" />
+  <!-- また今度やるのです！ -->
+  <Dialogue Key="Map.ROMbaseOutTankManBattleStage16Dialogue1FaceRika" Value="また今度やるのです！" Face="Rika" Mono="False" />
+  <!-- てすと -->
+  <Dialogue Key="Map.ROMbaseOutTestSprite3Stage1Dialogue1FaceNone" Value="てすと" Face="None" Mono="False" />
+  <!-- ネックが木っ端微塵になる前に戦車を止めるのよ！ -->
+  <Dialogue Key="Map.ROMbaseOutTo1FAStage1Dialogue1FaceShanghai" Value="ネックが木っ端微塵に,なる前に戦車を止めるのよ！" Face="Shanghai" Mono="False" />
+  <!-- 地下へと続くエレベーターだ乗りますか？ -->
+  <Dialogue Key="Map.ROMbaseOutElevatorStage1Dialogue1QuestionFaceNone" Value="地下へと続くエレベーターだ,乗りますか？" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbaseOutElevatorStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- 中央街に一旦戻りますか？ -->
+  <Dialogue Key="Map.ROMbaseOutStealthMachineStage1Dialogue1QuestionFaceNone" Value="中央街に一旦戻りますか？" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbaseOutStealthMachineStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- 基地と外界を隔てる鋼鉄のゲートがある -->
+  <Dialogue Key="Map.ROMbaseOutGateStage1Dialogue1FaceNone" Value="基地と外界を隔てる,鋼鉄のゲートがある" Face="None" Mono="False" />
+  <!-- とても分厚く頑丈でチカラづくでは突破はできそうにない -->
+  <Dialogue Key="Map.ROMbaseOutGateStage1Dialogue2FaceNone" Value="とても分厚く頑丈で,チカラづくでは突破は,できそうにない" Face="None" Mono="False" />
+  <!-- 開閉の制御に用いるのかゲートの横にプラグイン端子を見つけた！ -->
+  <Dialogue Key="Map.ROMbaseOutGateStage1Dialogue3FaceNone" Value="開閉の制御に用いるのか,ゲートの横にプラグイン端子を,見つけた！" Face="None" Mono="False" />
+  <!-- ここが　ＲＯＭのアジト････！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8FirstVisitEventStage1Dialogue1FaceAlice" Value="ここが　ＲＯＭのアジト････！" Face="Alice" Mono="False" />
+  <!-- 基地っていうかもう要塞ね････ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8FirstVisitEventStage1Dialogue2FaceShanghai" Value="基地っていうかもう,要塞ね････" Face="Shanghai" Mono="False" />
+  <!-- あのドクロ　全部砲台みたいだし -->
+  <Dialogue Key="Map.ROMbaseOutChapter8FirstVisitEventStage1Dialogue3FaceShanghai" Value="あのドクロ　全部,砲台みたいだし" Face="Shanghai" Mono="False" />
+  <!-- アリス　油断するんじゃないわよ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8FirstVisitEventStage1Dialogue4FaceShanghai" Value="アリス　油断するんじゃ,ないわよ！" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8FirstVisitEventStage1Dialogue5FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+  <!-- ゴゴゴゴゴ････ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage1Dialogue1FaceNone" Value="ゴゴゴゴゴ････" Face="None" Mono="False" />
+  <!-- 何の音かしら？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage3Dialogue1FaceAlice" Value="何の音かしら？" Face="Alice" Mono="False" />
+  <!-- アリス　目の前！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage3Dialogue2FaceShanghai" Value="アリス　目の前！" Face="Shanghai" Mono="False" />
+  <!-- ええっ！？戦車！？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue1FaceAlice" Value="ええっ！？,戦車！？" Face="Alice" Mono="False" />
+  <!-- アハハハハ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue2FaceMurasa" Value="アハハハハ！" Face="Murasa" Mono="False" />
+  <!-- まさか侵入者第一号があなただったなんてね！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue3FaceMurasa" Value="まさか侵入者第一号が,あなただったなんてね！" Face="Murasa" Mono="False" />
+  <!-- その声は！？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue4FaceAlice" Value="その声は！？" Face="Alice" Mono="False" />
+  <!-- ････誰だっけ？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue5FaceShanghai" Value="････誰だっけ？" Face="Shanghai" Mono="False" />
+  <!-- 忘れるんじゃないわよ！豪華客船で戦ったこの私を！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue6FaceMurasa" Value="忘れるんじゃないわよ！,豪華客船で戦った,この私を！" Face="Murasa" Mono="False" />
+  <!-- そんな奴もいたなー -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue7FaceShanghai" Value="そんな奴もいたなー" Face="Shanghai" Mono="False" />
+  <!-- ムカツクやつ････！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue8FaceMurasa" Value="ムカツクやつ････！" Face="Murasa" Mono="False" />
+  <!-- この水圧戦車（本当は消火用）でオペレーターごとぶっとばしてやる！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue9FaceMurasa" Value="この水圧戦車（本当は消火用）,でオペレーターごと,ぶっとばしてやる！" Face="Murasa" Mono="False" />
+  <!-- えっ　えっ！？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage5Dialogue10FaceAlice" Value="えっ　えっ！？" Face="Alice" Mono="False" />
+  <!-- ぬおおおぉぉぉ････！！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue1FaceTsubakiNekku" Value="ぬおおおぉぉぉ････！！" Face="TsubakiNekku" Mono="False" />
+  <!-- 椿くん！？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue2FaceAlice" Value="椿くん！？" Face="Alice" Mono="False" />
+  <!-- 中央街でアリスを見かけてリグルってやつに運んで貰ったんだ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue3FaceTsubakiNekku" Value="中央街でアリスを見かけて,リグルってやつに運んで,貰ったんだ！" Face="TsubakiNekku" Mono="False" />
+  <!-- 役に立つかもと思って借りた電磁シールドがもう出番あるとはな････！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue4FaceTsubakiNekku" Value="役に立つかもと思って,借りた電磁シールドが,もう出番あるとはな････！" Face="TsubakiNekku" Mono="False" />
+  <!-- えーい！人間のくせに生意気な！水圧アップ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue5FaceMurasa" Value="えーい！,人間のくせに生意気な！,水圧アップ！" Face="Murasa" Mono="False" />
+  <!-- ぐおおおっ！！？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue6FaceTsubakiNekku" Value="ぐおおおっ！！？" Face="TsubakiNekku" Mono="False" />
+  <!-- アリス！俺が抑えている間にあの戦車にプラグインだ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue7FaceTsubakiNekku" Value="アリス！,俺が抑えている間にあの,戦車にプラグインだ！" Face="TsubakiNekku" Mono="False" />
+  <!-- ええ！！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1EventStage7Dialogue8FaceAlice" Value="ええ！！" Face="Alice" Mono="False" />
+  <!-- 里香が隈美さんから借りたという戦車だ -->
+  <Dialogue Key="Map.ROMbaseOutTankStage1Dialogue1FaceNone" Value="里香が隈美さんから,借りたという戦車だ" Face="None" Mono="False" />
+  <!-- ８８ミリの大砲がギラリとにらみつけるように伸びている -->
+  <Dialogue Key="Map.ROMbaseOutTankStage1Dialogue2FaceNone" Value="８８ミリの大砲が,ギラリとにらみつけるように,伸びている" Face="None" Mono="False" />
+  <!-- う････腕が････！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage1Dialogue1FaceTsubakiNekku" Value="う････腕が････！" Face="TsubakiNekku" Mono="False" />
+  <!-- 椿くん！！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage1Dialogue2FaceAlice" Value="椿くん！！" Face="Alice" Mono="False" />
+  <!-- 立派なお葬式をやってあげるわよ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage1Dialogue3FaceShanghai" Value="立派なお葬式を,やってあげるわよ！" Face="Shanghai" Mono="False" />
+  <!-- ちょっ！？見捨てるなーっ！？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage1Dialogue4FaceTsubakiNekku" Value="ちょっ！？,見捨てるなーっ！？" Face="TsubakiNekku" Mono="False" />
+  <!-- 伏せろなのです！！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage1Dialogue5FaceNone" Value="伏せろなのです！！" Face="None" Mono="False" />
+  <!-- ヘッ！本物の８８ミリ砲はやっぱぶっ放しがいがあるな！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue1FaceTankMan" Value="ヘッ！,本物の８８ミリ砲は,やっぱぶっ放しがいがあるな！" Face="TankMan" Mono="False" />
+  <!-- 里香のお手柄なのです！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue2FaceRika" Value="里香のお手柄なのです！" Face="Rika" Mono="False" />
+  <!-- 里香！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue3FaceAlice" Value="里香！" Face="Alice" Mono="False" />
+  <!-- あー助かった････ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue4FaceTsubakiNekku" Value="あー助かった････" Face="TsubakiNekku" Mono="False" />
+  <!-- その戦車は？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue5FaceAlice" Value="その戦車は？" Face="Alice" Mono="False" />
+  <!-- 隈美さんから借りたのです！リグルさんのステルス機で運んでもらったのです！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue6FaceRika" Value="隈美さんから借りたのです！,リグルさんのステルス機で,運んでもらったのです！" Face="Rika" Mono="False" />
+  <!-- （あの戦車　本物だったんだ････） -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue7FaceAlice" Value="（あの戦車,　本物だったんだ････）" Face="Alice" Mono="False" />
+  <!-- この調子だと後から仲間がもっと来そうだな -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue8FaceTsubakiNekku" Value="この調子だと後から,仲間がもっと来そうだな" Face="TsubakiNekku" Mono="False" />
+  <!-- ステルス機は俺たちが守っておくからアリスは先へ進んでくれ！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue9FaceTsubakiNekku" Value="ステルス機は俺たちが,守っておくからアリスは,先へ進んでくれ！" Face="TsubakiNekku" Mono="False" />
+  <!-- なのです！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue10FaceRika" Value="なのです！" Face="Rika" Mono="False" />
+  <!-- うん！椿くん　里香　ありがとう！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8Dennou1ClearEventStage3Dialogue11FaceAlice" Value="うん！,椿くん　里香　ありがとう！" Face="Alice" Mono="False" />
+  <!-- ここの守りはお任せなのです！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8ResidentRikaStage1Dialogue1FaceRika" Value="ここの守りは,お任せなのです！" Face="Rika" Mono="False" />
+  <!-- 敵が来たらアハトアハトをぶっ放してやるのです！ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8ResidentRikaStage1Dialogue2FaceRika" Value="敵が来たらアハトアハトを,ぶっ放してやるのです！" Face="Rika" Mono="False" />
+  <!-- タンクマンの主砲で演習でもするのです？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8ResidentRikaStage1Dialogue3FaceRika" Value="タンクマンの主砲で,演習でもするのです？" Face="Rika" Mono="False" />
+  <!-- いやー死ぬかと思ったぜ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8ResidentNeckStage1Dialogue1FaceTsubakiNekku" Value="いやー死ぬかと思ったぜ" Face="TsubakiNekku" Mono="False" />
+  <!-- 俺よりも里香のほうが頼りになりそうだな････ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8ResidentNeckStage1Dialogue2FaceTsubakiNekku" Value="俺よりも里香のほうが,頼りになりそうだな････" Face="TsubakiNekku" Mono="False" />
+  <!-- 訓練がてらスパナマンとバトルでもするか？ -->
+  <Dialogue Key="Map.ROMbaseOutChapter8ResidentNeckStage1Dialogue3FaceTsubakiNekku" Value="訓練がてら,スパナマンとバトルでもするか？" Face="TsubakiNekku" Mono="False" />
+  <!-- 里香の撃った砲弾でポンコツにされた水圧戦車だ -->
+  <Dialogue Key="Map.ROMbaseOutPonkotsuWaterPressureTankStage1Dialogue1FaceNone" Value="里香の撃った砲弾で,ポンコツにされた水圧戦車だ" Face="None" Mono="False" />
+  <!-- 幸いにも電脳世界とプラグイン端子は無事なようだ -->
+  <Dialogue Key="Map.ROMbaseOutPonkotsuWaterPressureTankStage1Dialogue2FaceNone" Value="幸いにも電脳世界と,プラグイン端子は無事なようだ" Face="None" Mono="False" />
+  <!-- 見たこともないような色のドロっとした汚い液体が水路を流れている････ -->
+  <Dialogue Key="Map.ROMbaseOutSewageStage1Dialogue1FaceNone" Value="見たこともないような色の,ドロっとした汚い液体が,水路を流れている････" Face="None" Mono="False" />
+  <!-- 鈴仙が乗ってきた機動兵器だ -->
+  <Dialogue Key="Map.ROMbaseOutG7Stage1Dialogue1FaceNone" Value="鈴仙が乗ってきた,機動兵器だ" Face="None" Mono="False" />
+  <!-- 装甲という装甲がボロボロでもう動きそうにない -->
+  <Dialogue Key="Map.ROMbaseOutG7Stage1Dialogue2FaceNone" Value="装甲という装甲がボロボロで,もう動きそうにない" Face="None" Mono="False" />
+  <!-- ロボットがこんなに！？ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage1Dialogue1FaceAlice" Value="ロボットがこんなに！？" Face="Alice" Mono="False" />
+  <!-- しまった！今まで出てこなかったのを不思議に思うべきだった！ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage1Dialogue2FaceShanghai" Value="しまった！,今まで出てこなかったのを,不思議に思うべきだった！" Face="Shanghai" Mono="False" />
+  <!-- ピピピピ････ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage1Dialogue3FaceBlackRobot" Value="ピピピピ････" Face="BlackRobot" Mono="False" />
+  <!-- アリス　危ない！ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage1Dialogue4FaceShanghai" Value="アリス　危ない！" Face="Shanghai" Mono="False" />
+  <!-- 脚部バランサー　大破継続戦闘は不可能です -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage3Dialogue1FaceYorihime" Value="脚部バランサー　大破,継続戦闘は不可能です" Face="Yorihime" Mono="False" />
+  <!-- 無理をしすぎたか････これより白兵戦に移行する -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage3Dialogue2FaceReisen" Value="無理をしすぎたか････,これより白兵戦に移行する" Face="Reisen" Mono="False" />
+  <!-- 神綺アリス　いたのか？ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue1FaceReisen" Value="神綺アリス　いたのか？" Face="Reisen" Mono="False" />
+  <!-- いたのか　じゃないわよ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue2FaceAlice" Value="いたのか　じゃないわよ" Face="Alice" Mono="False" />
+  <!-- ロボットに銃を向けられたと思ったら上空から機銃掃射でロボットが蜂の巣になって････ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue3FaceAlice" Value="ロボットに銃を向けられたと,思ったら上空から機銃掃射で,ロボットが蜂の巣になって････" Face="Alice" Mono="False" />
+  <!-- お次は機動兵器が降ってきて銃を向けてたロボットを踏み潰すなんて････ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue4FaceAlice" Value="お次は機動兵器が降ってきて,銃を向けてたロボットを,踏み潰すなんて････" Face="Alice" Mono="False" />
+  <!-- それよりもまさかこの基地までゴリ押しして来たっていうの？ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue5FaceShanghai" Value="それよりもまさか,この基地までゴリ押しして,来たっていうの？" Face="Shanghai" Mono="False" />
+  <!-- 押せば押すほど戦果が上がるのはゴリ押しではないと言うぞ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue6FaceReisen" Value="押せば押すほど,戦果が上がるのは,ゴリ押しではないと言うぞ" Face="Reisen" Mono="False" />
+  <!-- 見た所そこのエレベーターが最深部へと繋がっているようだ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue7FaceReisen" Value="見た所そこのエレベーターが,最深部へと繋がっているようだ" Face="Reisen" Mono="False" />
+  <!-- 突入するぞ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage5Dialogue8FaceReisen" Value="突入するぞ" Face="Reisen" Mono="False" />
+  <!-- 心強い味方････なのかしら？ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage7Dialogue1FaceAlice" Value="心強い味方････なのかしら？" Face="Alice" Mono="False" />
+  <!-- せめてＲＯＭの首領がミンチにならないことを祈りましょう -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage7Dialogue2FaceShanghai" Value="せめてＲＯＭの首領がミンチに,ならないことを祈りましょう" Face="Shanghai" Mono="False" />
+  <!-- 思えばもうＲＯＭの戦力はドルイドマンくらいね -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage7Dialogue3FaceShanghai" Value="思えばもうＲＯＭの戦力は,ドルイドマンくらいね" Face="Shanghai" Mono="False" />
+  <!-- 今の私達ならきっと大丈夫早く鈴仙の後を追いましょう！ -->
+  <Dialogue Key="Map.ROMbaseOutAppearanceEventStage7Dialogue4FaceAlice" Value="今の私達ならきっと大丈夫,早く鈴仙の後を追いましょう！" Face="Alice" Mono="False" />
+  <!-- 何をしている早く先へ向かうぞ -->
+  <Dialogue Key="Map.ROMbaseOutStationaryReisenStage1Dialogue1FaceReisen" Value="何をしている,早く先へ向かうぞ" Face="Reisen" Mono="False" />
+</data>

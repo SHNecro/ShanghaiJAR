@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+                    xmlns:controls="clr-namespace:MapEditor.Controls"
+                    xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:BattleEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="Background:"/>
+                <ComboBox Grid.Column="1"
+                          ItemsSource="{Binding Source={markup:EnumBindingSourceExtension {x:Type enums:BackgroundTypeNumber}}}"
+                          SelectedItem="{Binding Encounter.BackgroundNumber, Converter={StaticResource EnumToIntegerValueConverter}, ConverterParameter={x:Type enums:BackgroundTypeNumber}}" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Battle:"/>
+                <controls:BattleEventSetter Grid.Column="1"
+                                            Margin="10,0"
+                                            BattleEvent="{Binding ., Mode=TwoWay}" />
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

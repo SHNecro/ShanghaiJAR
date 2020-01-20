@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- あら　さっそく渡したアドオン使ってくれたのね -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue1Eirin" Value="You’re already using the,AddOn I gave you?" Face="Eirin" Mono="False" />
+  <!-- とは言っても　ただの医者のあんたがあたし達に何を話すっていうの？ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue2Shanghai" Value="I was wondering why a doctor,would want to talk to us." Face="Shanghai" Mono="False" />
+  <!-- 私はただの医者じゃないわ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue3Eirin" Value="Not just a doctor!" Face="Eirin" Mono="False" />
+  <!-- 私はスーパーグレートな美人女医よ！ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue4Eirin" Value="A super-hot cool beauty,of a doctor!" Face="Eirin" Mono="False" />
+  <!-- えー････ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue5Alice" Value="Uh...." Face="Alice" Mono="False" />
+  <!-- で　そのスーパージョイが何を話すっていうのかしら？ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue6Shanghai" Value="So what does Miss Super-Hot,want to talk about?" Face="Shanghai" Mono="False" />
+  <!-- あなたたちだって四六時中　戦ってばかりじゃなかなか大変でしょう？ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue7Eirin" Value="Just fighting viruses all the,time must get boring，right?" Face="Eirin" Mono="False" />
+  <!-- このアドオンで話してくれれば捕獲したことのあるウィルスの生態を教えてあげるわ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue8Eirin" Value="If you call me with this AddOn，,I can tell you about the,ecology of viruses." Face="Eirin" Mono="False" />
+  <!-- ウィルスの生態････それは面白そうね -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue9Alice" Value="Ecology of viruses....,That sounds interesting." Face="Alice" Mono="False" />
+  <!-- それじゃあよろしくね！ -->
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue10Eirin" Value="That’s right!" Face="Eirin" Mono="False" />
+  <!-- レイカノンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue1Eirin" Value="That’s a RayCann!" Face="Eirin" Mono="False" />
+  <!-- レイカノンは典型的な砲台型ウィルスで生き物より機械に近いわね -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue2Eirin" Value="RayCann are a typical,turret-type virus，closer,to a machine than a creature." Face="Eirin" Mono="False" />
+  <!-- でも　バグのかけらを食べて成長するわよね？ -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue3Shanghai" Value="A machine?,Don’t they grow by eating,BugFrags?" Face="Shanghai" Mono="False" />
+  <!-- 実は砲台に見えるのは殻で中に軟体動物みたいなのが住んでいるらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue4Eirin" Value="They’re like mollusks，hiding,their vulnerable bits inside,a hard shell." Face="Eirin" Mono="False" />
+  <!-- ええー････ -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue5Alice" Value="Huh..." Face="Alice" Mono="False" />
+  <!-- ちなみに砲身から発射される弾丸は転移式爆雷弾というシロモノで -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue6Eirin" Value="The bullets they fire from,their barrels are mono-type,transition depth charges." Face="Eirin" Mono="False" />
+  <!-- ロックオンした目標に向けて爆弾を転送しているようなイメージの砲弾なの -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue7Eirin" Value="They’re shells of an image,that transfer a bomb to a,locked-on target." Face="Eirin" Mono="False" />
+  <!-- だからロックオンされた場所から動けば当たらないのね -->
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue8Shanghai" Value="You can dodge if you step off,of the targetted panel!" Face="Shanghai" Mono="False" />
+  <!-- フラワータンクを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue1Eirin" Value="That’s a FlwrTnk!" Face="Eirin" Mono="False" />
+  <!-- フラワータンクの本体は砲塔から生えるツル状の電脳植物なのよ -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue2Eirin" Value="The main body of the virus,is the brain-like plant,growing on the turret." Face="Eirin" Mono="False" />
+  <!-- その電脳植物が迎撃用の戦車型プログラムを操っているという仕組みのウィルスなの -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue3Eirin" Value="It’s a virus that uses its,hijacking abilities to control,a tank-type program." Face="Eirin" Mono="False" />
+  <!-- だから火とか毒がよく効くわけね -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue4Shanghai" Value="You can burn them out with,Heat and Poison!" Face="Shanghai" Mono="False" />
+  <!-- だから寄生されている形の戦車型プログラムから発射される砲弾は無属性なの -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue5Eirin" Value="The shells fired from the,tank have no element since,the parasite didn’t make them." Face="Eirin" Mono="False" />
+  <!-- まあ落とすチップであるシードキャノンはタネを発射するチップなんだけどね -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue6Eirin" Value="It drops the SeedCan chip，,which actually fires the seeds,of the parasitic plant!" Face="Eirin" Mono="False" />
+  <!-- 電脳世界の生態系って理解が追いつかないわ････ -->
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue7Alice" Value="The virus ecosystem of the,cyber-world sure is something!" Face="Alice" Mono="False" />
+  <!-- ゲルパークを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue1Eirin" Value="That’s a GelPack!" Face="Eirin" Mono="False" />
+  <!-- ゲルパークはカタツムリによく似た電脳軟体動物で背中の炉は生まれつきの物よ -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue2Eirin" Value="A GelPack’s a snail，a cyber,mollusk，and grows its own,heater shell on its back." Face="Eirin" Mono="False" />
+  <!-- ゲルパークといえばしもべが火で炙って壺焼きにしたら美味しそうとか言ってたわね -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue3Shanghai" Value="Speaking of -- my servant,toasted one on a fire and,said it was delicious." Face="Shanghai" Mono="False" />
+  <!-- ウィルス食は一部の電脳世界でやっているみたいだけど良い子は真似しちゃダメよ -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue4Eirin" Value="Eating viruses is popular in,some parts of the cyber-world，,but don’t copy them!" Face="Eirin" Mono="False" />
+  <!-- ちなみに炉から出る光線は炉の内部にあるスパークダケというキノコによるものなの -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue5Eirin" Value="The laser beam that they,fire come from Sparktake,mushrooms living in the shell." Face="Eirin" Mono="False" />
+  <!-- スパークダケはゲルパークの背中に生える電脳キノコで熱を与えると放電するの -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue6Eirin" Value="Sparktake take shell’s heat,and turn it into electricity,that can be discharged." Face="Eirin" Mono="False" />
+  <!-- 炉の中にキノコの電気を蓄えビームの形にして発射するという仕組みなわけね -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue7Eirin" Value="That’s how the GelPack can,fire those huge beams." Face="Eirin" Mono="False" />
+  <!-- スパークダケも一度食べてみたいわね -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue8Shanghai" Value="I want to eat it." Face="Shanghai" Mono="False" />
+  <!-- やめておいたほうがいいと思うな････ -->
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue9Alice" Value="Stop that." Face="Alice" Mono="False" />
+  <!-- モッサを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue1Eirin" Value="You found a Wooly!" Face="Eirin" Mono="False" />
+  <!-- モッサは全身に細かい毛が生えたクモ型のウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue2Eirin" Value="Wooly are spider-shaped,viruses covered in fine hairs." Face="Eirin" Mono="False" />
+  <!-- ネバネバする糸の塊を獲物に発射して攻撃するわ -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue3Eirin" Value="They fire balls of sticky,wool to capture their prey." Face="Eirin" Mono="False" />
+  <!-- 生息地によって属性が変わるウィルスの一種よね -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue4Shanghai" Value="They can be different elements,depending on where you,find them!" Face="Shanghai" Mono="False" />
+  <!-- らんらんと光る目は暗闇でもよく見えるから名前は目の色からとっているのよね -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue5Eirin" Value="Their eyes shine in the dark,so some people call them by,the color of their eyes." Face="Eirin" Mono="False" />
+  <!-- ちなみにモッサドクグモという毒蜘蛛がモデルになっているという話があるわ -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue6Eirin" Value="By the way，people say Wooly,were modeled after tarantulas." Face="Eirin" Mono="False" />
+  <!-- ウィルスを作るやつもなにもクモをモデルにすることはないでしょうに････ -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue7Shanghai" Value="Then I don’t think the creator,of this virus has ever seen,a tarantula." Face="Shanghai" Mono="False" />
+  <!-- そう？クモってかわいいじゃない？ -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue8Eirin" Value="Spiders can be cute，,can’t they?" Face="Eirin" Mono="False" />
+  <!-- ええー････ -->
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue9Alice" Value="I guess...." Face="Alice" Mono="False" />
+  <!-- ファイニャーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue1Eirin" Value="It’s a FlaMeow!" Face="Eirin" Mono="False" />
+  <!-- ファイニャーは電脳コタツに住み着いたネコ型のウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue2Eirin" Value="FlaMeows are cat-shaped,viruses that have found a,home in a cyber-kotatsu." Face="Eirin" Mono="False" />
+  <!-- ニャーって名前からなんとなくネコだとは思っていたけどね -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue3Shanghai" Value="I could tell it was a cat from the,name..." Face="Shanghai" Mono="False" />
+  <!-- ちなみにしっぽが二股になっているのは元々がネコマタ型ウィルスだったかららしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue4Eirin" Value="You can see that their tails,are bifurcated -- they used to,be Nekomata-type viruses." Face="Eirin" Mono="False" />
+  <!-- まあ　製作者の意図した方向に発展していかないのは結構よくある話らしいけどね -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue5Eirin" Value="I don’t know the full story,behind why they’ve mutated,from their creator’s design." Face="Eirin" Mono="False" />
+  <!-- 引っ掻いてくるネコのウィルスじゃなくてよかったわ -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue6Shanghai" Value="I’m glad it’s not a virus that,attacks with cat scratches." Face="Shanghai" Mono="False" />
+  <!-- あれ　けっこう痛いもんね････ -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue7Alice" Value="Those hurt!" Face="Alice" Mono="False" />
+  <!-- （でも火を吹かれるよりは　マシだと思うけど） -->
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue8Alice" Value="(But wouldn’t fire breath hurt,too....?)" Face="Alice" Mono="False" />
+  <!-- ケダマーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue1Eirin" Value="You’ve found a Kedama!" Face="Eirin" Mono="False" />
+  <!-- 正式名称はケダママルイヌ電脳世界の誕生からいる歴史の長いウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue2Eirin" Value="Their name refers to their,origin as digital pets on the,Kedama Dog Lovers server." Face="Eirin" Mono="False" />
+  <!-- あれって犬だったんですか？ -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue3Alice" Value="So they’re some type of dog?" Face="Alice" Mono="False" />
+  <!-- そうよ　電脳世界で生きてるうちに足が退化して短くなったの -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue4Eirin" Value="Yes，but their legs shortened,and degenerated during their,time living in the cyber-world." Face="Eirin" Mono="False" />
+  <!-- ひっくり返して毛の間をかき分ければ小さな足が見つかるはずよ -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue5Eirin" Value="If you flip one over，you’ll,see one small vestigial leg." Face="Eirin" Mono="False" />
+  <!-- 威嚇の際に毛を硬質化させてその衝撃を波にして攻撃するの -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue6Eirin" Value="When they’re about to attack，,their hair hardens to protect,them from the shockwave." Face="Eirin" Mono="False" />
+  <!-- 上位種の衝撃波はそのパワーでパネルを砂状に分解してしまうようね -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue7Eirin" Value="It seems that stronger variants,can grind panels into sand,with their attacks." Face="Eirin" Mono="False" />
+  <!-- なるほどなるほど -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue8Shanghai" Value="I see，I see...." Face="Shanghai" Mono="False" />
+  <!-- もともとペットとして作られた電脳犬が野生化したものだと言われているのよね -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue9Eirin" Value="So a cyber-dog created as a,pet has become a cyber-wolf...." Face="Eirin" Mono="False" />
+  <!-- あなたたちも　ペットを野に放しちゃダメだからね -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue10Eirin" Value="That’s what happens when you,leave your pet out in the wild." Face="Eirin" Mono="False" />
+  <!-- はーい -->
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue11Alice" Value="Wow...." Face="Alice" Mono="False" />
+  <!-- ポイゾーリンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue1Eirin" Value="You found a Lily-type virus!" Face="Eirin" Mono="False" />
+  <!-- ポイゾーリンはユリ科の電脳植物でもともとは観賞用の花だったのよ -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue2Eirin" Value="Lily viruses were originally,ornamental flowers in a flower,shop’s networks." Face="Eirin" Mono="False" />
+  <!-- それが自己進化で毒を持ち吐いてくるようになるんだから生命の神秘は偉大よね -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue3Eirin" Value="Somehow they evolved to,make their own poison.,Isn’t life great?" Face="Eirin" Mono="False" />
+  <!-- あれだけ大きいと花束にするのも大変そうね -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue4Shanghai" Value="I can’t see a flower that big,fitting in any bouquet." Face="Shanghai" Mono="False" />
+  <!-- ちなみに絶滅したポイゾーリンの亜種は即死の毒を吐いてたらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue5Eirin" Value="They’re extinct now，but there,used to be a subspecies with,deadly poison." Face="Eirin" Mono="False" />
+  <!-- どんなに体力が多くても触れた瞬間にデリートというとても危険な毒だったとか -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue6Eirin" Value="Just a single drop would cause,instant deletion，no matter how,strong you were." Face="Eirin" Mono="False" />
+  <!-- うへぇ････その時代に生まれてなくてよかったわ -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue7Shanghai" Value="Wow....I’m glad I wasn’t around,back then." Face="Shanghai" Mono="False" />
+  <!-- けれどその毒を求めた密漁ナビたちによって乱獲されて絶滅してしまったんですって -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue8Eirin" Value="They were eventually hunted to,exinction by Navis who wanted,the posion for themselves." Face="Eirin" Mono="False" />
+  <!-- 自分の身を守るための毒で絶滅するなんてなんだか皮肉っぽいですね -->
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue9Alice" Value="How ironic....,Evolving a stronger poison,led to their own downfall." Face="Alice" Mono="False" />
+  <!-- スクリューンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue1Eirin" Value="That’s a Screwn!" Face="Eirin" Mono="False" />
+  <!-- スクリューンは電脳扇風機が強化されていった結果生まれた機械系ウィルスの一種よ -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue2Eirin" Value="Screwn viruses were born in,the search for a better,cyber-fan." Face="Eirin" Mono="False" />
+  <!-- プロペラを氷にしたらもっと涼しくなるんじゃないかって発想で今の姿になったらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue3Eirin" Value="It became what it is now when,someone decided it would,be cooler if the fan were ice." Face="Eirin" Mono="False" />
+  <!-- どうして普通のプロペラで満足できなかったのかしら -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue4Shanghai" Value="I wonder why people weren’t,satisfied with a normal fan?" Face="Shanghai" Mono="False" />
+  <!-- ちなみに根本の結晶状の物体がバグのかけらを食べて成長する部分みたいね -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue5Eirin" Value="By the way，the part of the,virus that grows when fed,BugFrags is the crystal shaft." Face="Eirin" Mono="False" />
+  <!-- 餌を与えれば動き続ける扇風機にしたかったのかしら？ -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue6Eirin" Value="I wonder if the fan would,keep spinning while you fed it?" Face="Eirin" Mono="False" />
+  <!-- 扇風機ひとつにそこまで熱意をもたなくてもいいんじゃないかな････ -->
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue7Alice" Value="I guess I’m just not that,enthusiastic about fans...." Face="Alice" Mono="False" />
+  <!-- シェルルンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue1Eirin" Value="You’ve got a ShlRune!" Face="Eirin" Mono="False" />
+  <!-- シェルルンは見た目通りヤドカリのウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue2Eirin" Value="ShlRune are viruses that,look like hermit crabs." Face="Eirin" Mono="False" />
+  <!-- てっきりゲルパークの中身がカラを変えたものだと思ってたわ -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue3Shanghai" Value="I thought it was a weirdly,shaped GelPack." Face="Shanghai" Mono="False" />
+  <!-- ウィルス七不思議のひとつにシェルルンの足の謎というのがあってね -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue4Eirin" Value="One of the seven mysteries,of the Net is what a ShlRune,looks like under its shell." Face="Eirin" Mono="False" />
+  <!-- １メートルほどの高さをジャンプできる足でなぜ歩かないのかは議論の的よ -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue5Eirin" Value="Net debaters argue as to why,it can jump 1 meter up，,but not move from its spot." Face="Eirin" Mono="False" />
+  <!-- あのカラ　着地の衝撃で落石が起こるほどの超重量なのに････ -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue6Eirin" Value="And that’s not even counting,the super-heavy shell that,causes rockfall on landing." Face="Eirin" Mono="False" />
+  <!-- （使うあてのなさそうな　小さなハサミについては　議論されてないのね） -->
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue7Alice" Value="(Nobody else is wondering,about the pincers?)" Face="Alice" Mono="False" />
+  <!-- ブラクーラーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue1Eirin" Value="You caught a Crasher-type,virus!" Face="Eirin" Mono="False" />
+  <!-- ブラクーラーは外見こそ空調だけど　名前の語源はブラクラから来てるのよ -->
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue2Eirin" Value="They look like AC units，but,the origin of their name is from,the ancient Web." Face="Eirin" Mono="False" />
+  <!-- ブラクラ？ -->
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue3Alice" Value="The Web?" Face="Alice" Mono="False" />
+  <!-- ブラウザクラッシャーホームページ閲覧ソフトを壊す不正なプログラムのことよ -->
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue4Eirin" Value="People used to use browsers,and these rogue programs,would take over or break them." Face="Eirin" Mono="False" />
+  <!-- インターネット黎明期には結構な数があったんだけどすぐに対策されて無くなったとか -->
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue5Eirin" Value="Browsers quickly developed,countermeasures，but they’re,a part of the web history." Face="Eirin" Mono="False" />
+  <!-- ある意味　ウィルスの源流とも言えるかもしれないわね -->
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue6Shanghai" Value="So in a way，these viruses,are a remnant from those,earlier times." Face="Shanghai" Mono="False" />
+  <!-- プチオニを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue1Eirin" Value="That’s an Oni-type virus." Face="Eirin" Mono="False" />
+  <!-- そのウィルスはとある鬼型のナビの戦闘データが独立してウィルス化したものらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue2Eirin" Value="They’re the combat data of,a demon-type Navi that has,gone independent and viral." Face="Eirin" Mono="False" />
+  <!-- えらく迷惑な話ね････ -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue3Shanghai" Value="It’s a real annoying story，,so don’t ask me about it." Face="Shanghai" Mono="False" />
+  <!-- ちなみに元となったナビが大の酒好きらしくて電脳酒に集まってくるわ -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue4Eirin" Value="The original Navi is a big,drinker，and I hear you can,summon them with cyber-sake." Face="Eirin" Mono="False" />
+  <!-- ････といってもあなたは未成年だからお酒は手に入れられないでしょうけど -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue5Eirin" Value="...but you’re underage，so,you can’t get cyber-sake." Face="Eirin" Mono="False" />
+  <!-- あら　あたしは実年齢２０歳だからちゃんとお酒飲めるわよ -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue6Shanghai" Value="I’m 20，so I can drink." Face="Shanghai" Mono="False" />
+  <!-- 私が未成年だからダメだと思うんだけど････ -->
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue7Alice" Value="....I’m underage，so I’ll stay,away from alcohol." Face="Alice" Mono="False" />
+  <!-- イビルアイを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue1Eirin" Value="You saw an EvilEye!" Face="Eirin" Mono="False" />
+  <!-- イビルアイはとある電脳防衛組織が作った戦車型の迎撃プログラムなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue2Eirin" Value="EvilEye are tank-type,interceptors designed by a,cyber-security company." Face="Eirin" Mono="False" />
+  <!-- あの見た目で戦車型を名乗るとはなかなか度胸があるわね -->
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue3Shanghai" Value="They’ve got some nerve calling,that thing a tank." Face="Shanghai" Mono="False" />
+  <!-- フラワータンクの元の戦車も同じ組織が作ったものなんだけど外見がまるで違うのよね････ -->
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue4Eirin" Value="They also made the tanks used,by the FlwrTnk virus，though,you wouldn’t know by looking." Face="Eirin" Mono="False" />
+  <!-- いわゆる「キモカワイイ」を狙った女性向けの戦車なのかも -->
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue5Eirin" Value="Maybe it’s supposed to be a,”stylish” tank?" Face="Eirin" Mono="False" />
+  <!-- 多分違うと思います････ -->
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue6Alice" Value="I don’t think so...." Face="Alice" Mono="False" />
+  <!-- ビビティバットを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue1Eirin" Value="You ran into a BibiBat!" Face="Eirin" Mono="False" />
+  <!-- ビビティバットはコウモリ型ウィルスなんだけど大きい目玉が不気味なのよね････ -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue2Eirin" Value="BibiBat viruses are bat-shaped,besides the creepy eyeball." Face="Eirin" Mono="False" />
+  <!-- あの目玉には重力制御の力があるらしいからもともと羽と目は別だった説があるわ -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue3Eirin" Value="The eyeball seems to have the,power to control gravity." Face="Eirin" Mono="False" />
+  <!-- 羽のウィルスと目玉のウィルスが合わさってひとつになったということかしら -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue4Shanghai" Value="I wonder if a bat-virus and a,eye-virus merged to make,these." Face="Shanghai" Mono="False" />
+  <!-- ちなみにあの小さな足のような機関ももともと別のウィルスだった説があるわ -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue5Eirin" Value="There is a theory that the,foot-like structure was a,separate virus at one point." Face="Eirin" Mono="False" />
+  <!-- 足一本のウィルスなのか足二本のウィルスなのか気になるところですね -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue6Alice" Value="Is it one virus，or two viruses，,or two viruses and a foot?" Face="Alice" Mono="False" />
+  <!-- ････そこ？ -->
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue7Shanghai" Value="....Huh?" Face="Shanghai" Mono="False" />
+  <!-- ジャンクズを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue1Eirin" Value="Is that a Junks?" Face="Eirin" Mono="False" />
+  <!-- ジャンクズは電脳世界のジャンクデータを身にまとったウィルスの姿なのよ -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue2Eirin" Value="Junks are viruses that cover,themselves in junk data they,find in the cyber-world." Face="Eirin" Mono="False" />
+  <!-- ゴミはちゃんと分別して捨てないとね -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue3Shanghai" Value="You have to separate your,trash before you throw it away." Face="Shanghai" Mono="False" />
+  <!-- でもジャンクデータってあなた達も知らずにお世話になってるのよ？ -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue4Eirin" Value="You’ve dealt with junk data,before?" Face="Eirin" Mono="False" />
+  <!-- ミステリーデータから手に入るお金があるじゃない？ -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue5Eirin" Value="Have you found any Zenny in,the junk?" Face="Eirin" Mono="False" />
+  <!-- よくお小遣いの足しにしてます -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue6Alice" Value="I often add it to my pocket,money when I find it." Face="Alice" Mono="False" />
+  <!-- あれはジャンクデータの中の希少データを自動的に政府が買い取ってるお金なのよ -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue7Eirin" Value="That’s the government,automatically buying rare data,hidden in the junk." Face="Eirin" Mono="False" />
+  <!-- じゃあお金が入ったと思っているミステリーデータってジャンクデータが入ってるのね -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue8Shanghai" Value="I still think it’s Zenny in the,mystery data." Face="Shanghai" Mono="False" />
+  <!-- そういうことひとつ勉強になったでしょう？ -->
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue9Eirin" Value="Who’s the doctor here?" Face="Eirin" Mono="False" />
+  <!-- イカリィを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue1Eirin" Value="You found a SqAnchr!" Face="Eirin" Mono="False" />
+  <!-- イカリィは船舶の航行を制御する錨（いかり）プログラムに取り付いたウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue2Eirin" Value="The virus attaches itself to the,anchor-shaped navigation,systems of a ship." Face="Eirin" Mono="False" />
+  <!-- それが繁殖して船以外の電脳世界にも出現するようになったのよね -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue3Eirin" Value="They breed and spread to,the rest of the cyber-world." Face="Eirin" Mono="False" />
+  <!-- ということはあのアンカーはウィルスではないんですね -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue4Alice" Value="So the anchor isn’t a part,of the virus?" Face="Alice" Mono="False" />
+  <!-- スルメにするときはイカリの部分を外してから調理すること････と -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue5Shanghai" Value="Once you remove the anchor,it’s just a squid.,I wonder how it tastes?" Face="Shanghai" Mono="False" />
+  <!-- ････食べる気なの？ -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue6Eirin" Value="....Are you going to eat one?" Face="Eirin" Mono="False" />
+  <!-- ゲテモノはツマミにもってこいって言うじゃない？ -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue7Shanghai" Value="Don’t you think it’d taste,good?" Face="Shanghai" Mono="False" />
+  <!-- 私　子供だからわからないわよ -->
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue8Alice" Value="I wouldn’t know!" Face="Alice" Mono="False" />
+  <!-- ゲコハッツを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue1Eirin" Value="It’s a HatFrog!" Face="Eirin" Mono="False" />
+  <!-- ゲコハッツは蛙型と思いきや実は帽子型ウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue2Eirin" Value="You’d think it’s a frog virus，,but in fact it’s a hat virus!" Face="Eirin" Mono="False" />
+  <!-- オタマジャクシを吐くのに？ -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue3Shanghai" Value="Doesn’t it spit tadpoles?" Face="Shanghai" Mono="False" />
+  <!-- ゲコハッツを作ったハッカーが帽子の形がカエルに似てるからカエルっぽくしたんだとか -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue4Eirin" Value="The hat looked like a frog，,so the hacker who made it,put that attack in." Face="Eirin" Mono="False" />
+  <!-- 帽子が先かカエルが先か････みたいな話ですね -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue5Alice" Value="So is it a HatFrog or a,FrogHat?" Face="Alice" Mono="False" />
+  <!-- なんにせよあのヌメヌメした帽子はかぶりたくないわね -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue6Shanghai" Value="Who would want to wear a,sloppy hat like that?" Face="Shanghai" Mono="False" />
+  <!-- スタイルによっては似たようなのかぶるくせに････ -->
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue7Alice" Value="I wouldn’t trust your sense,of style." Face="Alice" Mono="False" />
+  <!-- ザリーニアを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue1Eirin" Value="You’ve had an encounter with,a Clawnch!" Face="Eirin" Mono="False" />
+  <!-- ザリーニアの攻撃といえば放物線状の泡攻撃よね -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue2Eirin" Value="Clawnch launch their bubbles,in a parabolic arc." Face="Eirin" Mono="False" />
+  <!-- 地味にすれ違うように移動すれば正面からかわせるあれね -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue3Shanghai" Value="You can bait them into shooting,then dodge their attack by,stepping to the side." Face="Shanghai" Mono="False" />
+  <!-- なぜ泡かというとハサミの部分が昔にいたカニ型ウィルスのなごりみたいなものなの -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue4Eirin" Value="Clawnch used to be crabs that,used their bubbles as an attack." Face="Eirin" Mono="False" />
+  <!-- バージョンアップの過程でより威圧的なザリガニの姿になったと言われているわ -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue5Eirin" Value="As they evolved，they took,the appearance of crawfish,to be more intimidating." Face="Eirin" Mono="False" />
+  <!-- カニとザリガニ････どっちもあまり怖くない気がしますけど -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue6Alice" Value="Crabs and crawfish....,I feel like neither of them,are scary?" Face="Alice" Mono="False" />
+  <!-- まあそこは････個人の感性じゃない？ -->
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue7Eirin" Value="I guess it’s a matter of taste." Face="Eirin" Mono="False" />
+  <!-- バリザードを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue1Eirin" Value="That’s from the Reftile family,of viruses." Face="Eirin" Mono="False" />
+  <!-- バリザードは首の周りにバリアの断片を巻いたエリマキトカゲ型ウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue2Eirin" Value="Reftile are frilled lizard viruses,with fragments of barriers,around their necks." Face="Eirin" Mono="False" />
+  <!-- もともとはプロテクトプログラムだったのがトカゲ型ウィルスに取り込まれて生まれたらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue3Eirin" Value="They were born when a lizard,virus found and assimilated,a protection program." Face="Eirin" Mono="False" />
+  <!-- 直接攻撃はしてこないけどいると地味に面倒なウィルスよね -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue4Shanghai" Value="They can’t directly attack， but,they can be annoying." Face="Shanghai" Mono="False" />
+  <!-- 逆に言えば単体だと何もしなければ無害ではあるけれどね -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue5Eirin" Value="If you encounter one on its,own，they’re helpless." Face="Eirin" Mono="False" />
+  <!-- 自ら攻撃ができないから他のウィルスと行動をともにして････ -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue6Eirin" Value="That’s why they often appear,alongside other viruses." Face="Eirin" Mono="False" />
+  <!-- そのウィルスが手に入れたエサを分けてもらって生きているんだとか -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue7Eirin" Value="It is said that those groups,share their food with the Reftile." Face="Eirin" Mono="False" />
+  <!-- へぇ〜 -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue8Alice" Value="Aww..." Face="Alice" Mono="False" />
+  <!-- 現実だとコバンザメっていう生き物が似たような生態をしているわ -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue9Eirin" Value="In the real world，sharks and,remora have a similar,relationship." Face="Eirin" Mono="False" />
+  <!-- 頭の吸盤で大型魚に張り付きおこぼれをもらう関係なんかまさにそっくり！ -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue10Eirin" Value="By sticking to a shark， remora,get the leftover scraps." Face="Eirin" Mono="False" />
+  <!-- でもコバンザメはくっついた大型魚に食べられることもあるみたい -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue11Eirin" Value="But sometimes a bigger fish,can eat a remora after getting,past the shark!" Face="Eirin" Mono="False" />
+  <!-- つく親分はよく選びなさいっていう教訓に使えそうね -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue12Shanghai" Value="Moral of the story:,Choose your boss well." Face="Shanghai" Mono="False" />
+  <!-- シャンハイが言うと冗談に聞こえないわよ -->
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue13Alice" Value="When you say it，it doesn’t,sound like a joke." Face="Alice" Mono="False" />
+  <!-- ムシャを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue1Eirin" Value="You’ve encountered the War,family of viruses." Face="Eirin" Mono="False" />
+  <!-- ムシャは見た目通り日本の鎧武者がモデルのウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue2Eirin" Value="These viruses are modeled,after Japanese samurai." Face="Eirin" Mono="False" />
+  <!-- ････その割にはちょっと頭身が低すぎるような気もするけど -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue3Shanghai" Value="....They seem a bit short." Face="Shanghai" Mono="False" />
+  <!-- まあ正確には鎧の兜が刀を持った姿なんだけどね -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue4Eirin" Value="Well，it’s got a sword and,armor at least." Face="Eirin" Mono="False" />
+  <!-- 手に持つ刀は属性を纏う特別な素材でできた武器で切れ味と威力はお墨付きよ -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue5Eirin" Value="Its sword is made of special,material that enhances its,power and adds an element." Face="Eirin" Mono="False" />
+  <!-- どこかにいる無属性のムシャはまさに斬鉄剣とも言える性能の刀を持っているらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue6Eirin" Value="Those without an element are,said to make up for it with,exceptional sharpness." Face="Eirin" Mono="False" />
+  <!-- あたしはとにかくあの兜の下を見てみたいわね -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue7Shanghai" Value="I want to know what’s under,the helmet." Face="Shanghai" Mono="False" />
+  <!-- 世の中には知らないほうが良いことっていうのもあるのよ -->
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue8Eirin" Value="There are some things the,world is not meant to know." Face="Eirin" Mono="False" />
+  <!-- ソードッグを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue1Eirin" Value="I see you’ve found the,SworDog virus family." Face="Eirin" Mono="False" />
+  <!-- ソードッグは白狼天狗という妖怪をモチーフにしたウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue2Eirin" Value="SworDogs are viruses with the,motif of the White Wolf Tengu." Face="Eirin" Mono="False" />
+  <!-- 天狗って羽が生えてて鼻が長いイメージですけど -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue3Alice" Value="Tengu have wings and a,long nose...." Face="Alice" Mono="False" />
+  <!-- それはカラス天狗の方ね天狗にもいろいろと種類があるのよ -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue4Eirin" Value="Those are Crow Tengu.,There are many different kinds,of Tengu." Face="Eirin" Mono="False" />
+  <!-- 白狼天狗は地位が低く人間の役に立って生活資金を稼いでいたらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue5Eirin" Value="White Wolf Tengu are lower,in the hierarchy，and earn,money to help humans." Face="Eirin" Mono="False" />
+  <!-- 妖怪の割にいやに人間臭いエピソードね -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue6Shanghai" Value="Like a personal Youkai servant!" Face="Shanghai" Mono="False" />
+  <!-- それはそうと　ソードッグは狼寄りの生態をしていて基本は群れで行動するわ -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue7Eirin" Value="SworDogs are wolf-like in,nature too，with weaker,specimens hunting in packs." Face="Eirin" Mono="False" />
+  <!-- 牙の部分に生えている刀で獲物を切り裂くことで狩りをする生き物なの -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue8Eirin" Value="They cut their prey with the,sword-like fangs that grow from,their mouth." Face="Eirin" Mono="False" />
+  <!-- 骨でも投げたら懐いてこないかしら -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue9Shanghai" Value="What do they do if you throw,them a bone?" Face="Shanghai" Mono="False" />
+  <!-- それは狼じゃなくて犬だと思うけど････ -->
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue10Alice" Value="I think they’re wolves，not,dogs." Face="Alice" Mono="False" />
+  <!-- ランスターを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue1Eirin" Value="You found the Lansir,evolutionary line." Face="Eirin" Mono="False" />
+  <!-- ランスターは西洋鎧をモチーフにした騎士型ウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue2Eirin" Value="Lansir are knight-like viruses，,with a Western armor motif." Face="Eirin" Mono="False" />
+  <!-- たまに出てくる縦一列に並んでいるランスターは結構手強いわよね -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue3Shanghai" Value="They can get pretty tough!" Face="Shanghai" Mono="False" />
+  <!-- ああいった戦法は古代ローマのレギオン隊からヒントを得て使われているみたいね -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue4Eirin" Value="Their strategy seems to be,inspired by the legions of,ancient Rome." Face="Eirin" Mono="False" />
+  <!-- 盾を持った重装兵の列が壁のように迫る姿は敵に恐怖を植え付けたとか！ -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue5Eirin" Value="A line of heavy soldiers form,a wall of shields. This tactic,plants fear in their enemies." Face="Eirin" Mono="False" />
+  <!-- エリアバッシュを繰り返しながら迫るランスターはまさにその恐怖の再現と言ったところね -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue6Eirin" Value="A Lansir calls on that fear by,advancing with AreaGrab and,brandishing its lance." Face="Eirin" Mono="False" />
+  <!-- 戦法に歴史ありといったところですね -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue7Alice" Value="There’s a lot of history behind,that strategy." Face="Alice" Mono="False" />
+  <!-- 人類は未だ集団で囲んで叩く以上の戦法を発見していないとも言われているけどね -->
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue8Eirin" Value="It is said that humanity still has,not discovered a tactic more,effective than encirclement." Face="Eirin" Mono="False" />
+  <!-- ドリッパーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue1Eirin" Value="That’s a DrilBit!" Face="Eirin" Mono="False" />
+  <!-- ドリッパーは日本の川に住む妖怪の河童をモチーフとしたウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue2Eirin" Value="DrilBit are fashioned after,the Kappa Youkai of Japanese,rivers." Face="Eirin" Mono="False" />
+  <!-- キュウリが好きな妖怪で頭の皿が乾くと苦しむんですっけ -->
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue3Alice" Value="I wonder if they like cucumbers,and suffer when their heads,dry out." Face="Alice" Mono="False" />
+  <!-- それがなんでドリルが頭に生えているウィルスになったのかは謎ね -->
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue4Shanghai" Value="What I’m wondering is what,Kappa have to do with the,drill on their heads." Face="Shanghai" Mono="False" />
+  <!-- 一説には河童の中には機械技術に長けた者もいたとか -->
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue5Eirin" Value="There are legends of a race,of Kappa known for their,craftsmanship." Face="Eirin" Mono="False" />
+  <!-- そのウワサを元にしてドリルと河童をあわせたのかもしれないわね -->
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue6Eirin" Value="Maybe that’s the origin of,the DrilBit’s design." Face="Eirin" Mono="False" />
+  <!-- フレイアを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue1Eirin" Value="You found a Flire!" Face="Eirin" Mono="False" />
+  <!-- フレイアは日本神話に出てくる三本の足を持つヤタガラスをモデルにしたウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue2Eirin" Value="Flire are modeled after the,Yatagarasu，the three-legged,crow of Japanese myth." Face="Eirin" Mono="False" />
+  <!-- ヤタガラスは太陽の化身とも言われていて　それが攻撃の由来になったみたいね -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue3Eirin" Value="Yatagarasu are the avatars,of the Sun，which seems to be,the origin of its attack." Face="Eirin" Mono="False" />
+  <!-- ウィルスは三本どころか一本も足がないように見えるけどね -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue4Shanghai" Value="It looks like it has no legs，let,alone three." Face="Shanghai" Mono="False" />
+  <!-- あの砲身の中に三本あるのかもしれないわよ？ -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue5Eirin" Value="They could be in the barrel." Face="Eirin" Mono="False" />
+  <!-- あの砲身は結構重くて普段は砲身を床においてじっとしていることが多いわ -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue6Eirin" Value="The barrel is quite heavy，,and Flire usually rest upright,with it standing on the ground." Face="Eirin" Mono="False" />
+  <!-- 戦闘中って実はすごい重労働をしているのかもしれませんね -->
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue7Alice" Value="It must be hard work carrying,it into battle." Face="Alice" Mono="False" />
+  <!-- ブロンザーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue1Eirin" Value="You found the Bronzer virus,family." Face="Eirin" Mono="False" />
+  <!-- ブロンザーは電脳金属を好んで食べるウィルスで体内に溶鉱炉を有しているわ -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue2Eirin" Value="These viruses have a blast,furnace within their bodies，and,a diet of cyber-metal." Face="Eirin" Mono="False" />
+  <!-- 口から吐くナパームは体内の不要な金属で炉の溶鉄を包んで排出したものみたいね -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue3Eirin" Value="The napalm it fires is molten,iron from their furnaces，,wrapped in waste metal." Face="Eirin" Mono="False" />
+  <!-- ってことはあのナパーム（自主規制）とか（禁止用語）みたいなものだっていうの！？ -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue4Shanghai" Value="Is that really napalm，or is,it just their ■■■■?" Face="Shanghai" Mono="False" />
+  <!-- まあウィルスも生き物である以上排泄行為は必要でしょう -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue5Eirin" Value="They are living things，and,their excretions have to go,somewhere." Face="Eirin" Mono="False" />
+  <!-- 上位種のミスリールは架空の金属であるミスリル銀を由来としているみたいね -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue6Eirin" Value="The stronger variants are,made of fictional metals like,mithril and orichalcum." Face="Eirin" Mono="False" />
+  <!-- 架空の金属も存在する電脳世界ってある意味ではファンタジーの世界なのかもね -->
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue7Eirin" Value="Sometimes it feels like the,cyber-world is a fantasy world,with these fictional metals." Face="Eirin" Mono="False" />
+  <!-- フゥジーンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue1Eirin" Value="You’ve caught a virus from,the Fujin family." Face="Eirin" Mono="False" />
+  <!-- フゥジーンは妖怪の天狗が使うウチワをモチーフとしたウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue2Eirin" Value="Fujin are modeled on the,tools used by Tengu Youkai." Face="Eirin" Mono="False" />
+  <!-- 天狗の持つウチワはヤツデという植物の葉とも言われているから -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue3Eirin" Value="They are topped with the,leaves of the Fatsia Japonica,plant，also called Yatsuda." Face="Eirin" Mono="False" />
+  <!-- ある意味ではヤツデ型のウィルスと言っても間違いはないかもしれないわね -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue4Eirin" Value="I suppose you could say that,Fujin are Yatsuda-type viruses." Face="Eirin" Mono="False" />
+  <!-- 天狗ってあの鼻の長い？ -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue5Alice" Value="Yatsuda fans were what gave,the Tengu their long noses，,right?" Face="Alice" Mono="False" />
+  <!-- そうね -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue6Eirin" Value="That’s right!" Face="Eirin" Mono="False" />
+  <!-- ちなみに名前の由来である風神と雷神は有名な屏風に描かれているものみたい -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue7Eirin" Value="The names Fujin and Raijin,are from the famous scene,painted on a folding fan." Face="Eirin" Mono="False" />
+  <!-- それと炎属性のエンマーは地獄の閻魔大王からとってるらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue8Eirin" Value="And the Heat-type Enma are,from Enma，the king of Hell." Face="Eirin" Mono="False" />
+  <!-- ウィルスって結構伝説とか妖怪由来のものが多いのね -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue9Shanghai" Value="Viruses seem to take a lot,from legends and youkai." Face="Shanghai" Mono="False" />
+  <!-- その謎に迫ったらウィルス学が一歩先に行けそうね！ -->
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue10Eirin" Value="To be a virus scientist， you,need to know your legends!" Face="Eirin" Mono="False" />
+  <!-- ボウズを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue1Eirin" Value="You’ve found a Baldy!" Face="Eirin" Mono="False" />
+  <!-- ボウズの由来は花札にある黒い山の絵をモチーフとしたウィルスらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue2Eirin" Value="Baldy are actually based,on a postcard of Mt Fuji." Face="Eirin" Mono="False" />
+  <!-- あの黒い山はススキの山だけど絵が黒い坊主頭に見えるからボウズとも呼ばれるのよ -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue3Eirin" Value="The picture is of a field,of Pampas grass，but really,looks like a shaved head." Face="Eirin" Mono="False" />
+  <!-- 花札なんてかなりニッチな出展が来たわね -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue4Shanghai" Value="That’s a pretty obscure,reference." Face="Shanghai" Mono="False" />
+  <!-- 花札なんて猪鹿蝶くらいしか知らないわ -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue5Alice" Value="I think it’s interesting." Face="Alice" Mono="False" />
+  <!-- まああくまでも花札由来は草属性のボウズだけで -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue6Eirin" Value="It explains the Leaf element,of the basic Baldy type，,though." Face="Eirin" Mono="False" />
+  <!-- 水属性は海の怪物　海坊主からとってるみたいだから深く考える必要はないわ -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue7Eirin" Value="I guess the water element is,like a sea monster?,Don’t think too deep on it." Face="Eirin" Mono="False" />
+  <!-- ボウズは地面から栄養を吸って生きる植物みたいなウィルスで動く機能は持っていないの -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue8Eirin" Value="Baldy are not like normal plants,that gain nourishment from the,ground." Face="Eirin" Mono="False" />
+  <!-- あの竜巻で周囲の地形を自分の住みやすいものに変える性質があるとか -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue9Eirin" Value="With their elemental tornados,they adapt their surroundings,to fit themselves." Face="Eirin" Mono="False" />
+  <!-- 変える性質があるとかある意味では人間に近いウィルスなのかもしれないわね -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue10Shanghai" Value="They’re like humans，I guess." Face="Shanghai" Mono="False" />
+  <!-- 自然環境を住みやすいように変えるってところが？ -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue11Alice" Value="By making homes for,themselves from the,surrounding environment?" Face="Alice" Mono="False" />
+  <!-- ふっ････ -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue12Shanghai" Value="I guess...." Face="Shanghai" Mono="False" />
+  <!-- （深そうなこと言って　ごまかしただけみたい） -->
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue13Alice" Value="(I feel like that’s not what she,meant.)" Face="Alice" Mono="False" />
+  <!-- リベレーダーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue1Eirin" Value="You ran into a LibeRdr!" Face="Eirin" Mono="False" />
+  <!-- リベレーダーはトンボ型のウィルスで　目は優れたレーダーになっているわ -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue2Eirin" Value="LibeRdr are dragonfly-like,viruses with eyes that act,as radar." Face="Eirin" Mono="False" />
+  <!-- 名前のレーダーはそのレーダーとしてリベの方は何なんですか？ -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue3Alice" Value="What’s the ”Libe” part of,the name mean?" Face="Alice" Mono="False" />
+  <!-- リベじゃなくてリベレドイツ語でトンボを指す言葉よ -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue4Eirin" Value="It’s a pun in another language." Face="Eirin" Mono="False" />
+  <!-- トンボは現実だとヤゴという幼虫形態を経るけれどウィルスの方は違うみたい -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue5Eirin" Value="Real dragonflies start in a,larval form，but these viruses,are different." Face="Eirin" Mono="False" />
+  <!-- ポイゾーリンなどの植物系ウィルスに植え付けた卵から直接成体が生まれるみたいね -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue6Eirin" Value="Instead，they are born as,adults from eggs implanted in,plant viruses like PoisLily." Face="Eirin" Mono="False" />
+  <!-- モデルとなった生き物と必ずしも同じ生態にはならないってわけね -->
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue7Shanghai" Value="I guess viruses can take,some liberties，living in the,cyber-world." Face="Shanghai" Mono="False" />
+  <!-- ジュライゴンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue1Eirin" Value="That’s a Juragon!" Face="Eirin" Mono="False" />
+  <!-- ジュライゴンはドラゴンというよりワイバーンに近い火竜型のウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue2Eirin" Value="Juragon are called fire,dragons，but are closer to,wyverns than dragons." Face="Eirin" Mono="False" />
+  <!-- ワイバーンとドラゴンの違いは手に当たる部分が独立なのか羽と一体化しているかね -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue3Eirin" Value="The difference between the,two are whether their arms,are in their wings or separate." Face="Eirin" Mono="False" />
+  <!-- 口から吐く火炎ブレスは他のウィルスよりも広範囲かつ高火力なので要注意よ -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue4Eirin" Value="Their flame breath is hotter,than the flames of most other,viruses，so watch out." Face="Eirin" Mono="False" />
+  <!-- ブレスの原理としては体内にある硫黄化合物が電脳的な変異を起こした反応によって変化して -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue5Eirin" Value="The breath is formed by a,cyber-reaction of sulfur,coumpounds in their bodies." Face="Eirin" Mono="False" />
+  <!-- 発火点が異常に低下した電脳硫化気体が外気に触れることで発火するんですって -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue6Eirin" Value="The resulting sulfide gas,ignites on contact with the,outside air." Face="Eirin" Mono="False" />
+  <!-- そもそも電脳的な変異とは電脳世界特有の揺らぎと物理法則の差異が合わさって -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue7Eirin" Value="Cyber-reactions don’t need,to follow the physical laws,of the real world." Face="Eirin" Mono="False" />
+  <!-- ←（話についていけてない） -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue8Alice" Value="◄(Doesn’t understand but,didn’t want to interrupt)" Face="Alice" Mono="True" />
+  <!-- ←（途中から聞いていない） -->
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue9Shanghai" Value="◄(Stopped listening halfway,though)" Face="Shanghai" Mono="True" />
+  <!-- パネモールを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue1Eirin" Value="You ran into a PnlMole!" Face="Eirin" Mono="False" />
+  <!-- パネモールは見た目通りモグラ型のウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue2Eirin" Value="PnlMole are mole-shaped,viruses，as you can tell." Face="Eirin" Mono="False" />
+  <!-- 普段は暗い土の中だからサングラスをかけているんですか？ -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue3Alice" Value="Why does it wear sunglasses,when it lives underground?" Face="Alice" Mono="False" />
+  <!-- 暗い土の中で過ごす生き物はそもそも光学的な視覚を持っていないことが多いのよ -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue4Eirin" Value="Subterranean creatures often,don’t have eyes at all." Face="Eirin" Mono="False" />
+  <!-- だから明るいところに行っても眩しいとか感じたりはしないと言われているわ -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue5Eirin" Value="It’s so the bright light doesn’t,blind them when they emerge." Face="Eirin" Mono="False" />
+  <!-- まあ　パネモールはウィルスだから普通に眩しいと感じているかもしれないけれど -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue6Eirin" Value="They’re viruses，so that may,not even apply to them，though." Face="Eirin" Mono="False" />
+  <!-- 結構適当なのね････ -->
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue7Shanghai" Value="That’s true...." Face="Shanghai" Mono="False" />
+  <!-- オノホークを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue1Eirin" Value="You found an AxeHawk!" Face="Eirin" Mono="False" />
+  <!-- オノホークは鷹のホークと斧のトマホークを混ぜた鷹斧型ウィルスといったところね -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue2Eirin" Value="AxeHawks are viruses formed,from a hawk and an axe，,specifically a tomahawk." Face="Eirin" Mono="False" />
+  <!-- 翼が鋭利な刃になっていて回転しながら突進することでいろんなものを切断するわ -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue3Eirin" Value="By spinning its wing-blades，,it can cut through most anything." Face="Eirin" Mono="False" />
+  <!-- チップだと斧の部分しか残ってないけどね -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue4Shanghai" Value="When you use its chip，you fire,just the axe part." Face="Shanghai" Mono="False" />
+  <!-- それはバトルチップでは生物的な性質が真っ先に取り除かれるのが理由ね -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue5Eirin" Value="There’s a reason that chips,remove all the biological parts." Face="Eirin" Mono="False" />
+  <!-- 攻撃的な性質だけをデータとして取得したのがバトルチップだからね -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue6Eirin" Value="Battle chips are a record of,battle data，so it only calls up,the attack itself." Face="Eirin" Mono="False" />
+  <!-- 勉強になります -->
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue7Alice" Value="You learn something new every,day!" Face="Alice" Mono="False" />
+  <!-- マンティザーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue1Eirin" Value="That’s a Mantizr!" Face="Eirin" Mono="False" />
+  <!-- マンティザーはカマキリ型････と言いたいけれど実は宇宙生物がモチーフとされているらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue2Eirin" Value="You’d think it was based on,a mantis，but in fact it’s based,on a cosmic creature." Face="Eirin" Mono="False" />
+  <!-- 宇宙生物？ -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue3Alice" Value="Cosmic creature?" Face="Alice" Mono="False" />
+  <!-- 宇宙で生きているという地球外生物のことね -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue4Eirin" Value="An extraterrestrial being that,lives in outer space." Face="Eirin" Mono="False" />
+  <!-- まだ外宇宙への探索はできていないけど　ああいった危険な生物がいるらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue5Eirin" Value="We haven’t explored space,fully，but might there be some,scary creatures out there." Face="Eirin" Mono="False" />
+  <!-- ってことはある意味で想像やイメージをベースにしたウィルスなのね -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue6Shanghai" Value="So this virus is completely,made up，got it." Face="Shanghai" Mono="False" />
+  <!-- 逆に言えばモデルのない電脳世界由来の生物とも言えるかもしれないわね -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue7Eirin" Value="You could say that it’s the,first organism native to the,cyber-world." Face="Eirin" Mono="False" />
+  <!-- 生態としては汚染された水源に生息して大きなカマで獲物を切り刻んで食べるみたいよ -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue8Eirin" Value="They hide in polluted bodies,of water，emerging to slice,prey with its scythe." Face="Eirin" Mono="False" />
+  <!-- （現実にいなくてよかった････） -->
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue9Alice" Value="(I’m glad they’re not real....)" Face="Alice" Mono="False" />
+  <!-- ポンポコを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue1Eirin" Value="You’ve caught a Tanukit!" Face="Eirin" Mono="False" />
+  <!-- ポンポコは化け狸型ウィルスでお地蔵様に変化するのが特徴と言えるわね -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue2Eirin" Value="Tanukit are viruses that can,change forms between a,raccoon and a Jizo statue." Face="Eirin" Mono="False" />
+  <!-- どうしてお地蔵さん？ -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue3Alice" Value="Why a Jizo statue?" Face="Alice" Mono="False" />
+  <!-- さあ････？ -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue4Eirin" Value="Why indeed...." Face="Eirin" Mono="False" />
+  <!-- 電脳世界ではお地蔵様に危害を加えるとどこからか雷が落ちてくる性質があって -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue5Eirin" Value="In the cyber-world，anything,that strikes a Jizo statue is,punished by lightning." Face="Eirin" Mono="False" />
+  <!-- それを利用して身を守っていると言われているけど本当か定かではないようね -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue6Eirin" Value="They say it’s a self-defense,feature of the Net，but we,don’t know why." Face="Eirin" Mono="False" />
+  <!-- 電脳世界の謎ここに極まれりってことね -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue7Shanghai" Value="The cyber-world sure is,mysterious." Face="Shanghai" Mono="False" />
+  <!-- （普通に罰当たりだからじゃ　ないのかしら････？） -->
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue8Shanghai" Value="(Is it because it’s sacrilegious?)" Face="Shanghai" Mono="False" />
+  <!-- マスドライガーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue1Eirin" Value="You found a MasLigr!" Face="Eirin" Mono="False" />
+  <!-- マスドライガーのライガーとは父がライオンで母がトラの雑種動物のことを指すのよ -->
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue2Eirin" Value="Ligers are hybrids with a lion,for a mother and a tiger for,the father." Face="Eirin" Mono="False" />
+  <!-- あまり殴り合いたくない出生をしてるわね････ -->
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue3Shanghai" Value="I wouldn’t want to fight either,of those!" Face="Shanghai" Mono="False" />
+  <!-- まあそのライガーは迎撃用固定砲台レールガンの足代わりなんだけどね -->
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue4Eirin" Value="MasLigr are viruses that have,taken over an emplaced,railgun program." Face="Eirin" Mono="False" />
+  <!-- 攻撃トリガーがライガー部分のダメージだから生身の部分がむき出しなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue5Eirin" Value="Unfortunately for them，the,flesh part of the virus replaced,the trigger of the gun." Face="Eirin" Mono="False" />
+  <!-- なんだかかわいそう････ -->
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue6Alice" Value="Somehow I feel bad for them...." Face="Alice" Mono="False" />
+  <!-- コーヨーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue1Eirin" Value="You’ve come across a FalLeaf!" Face="Eirin" Mono="False" />
+  <!-- コーヨーは秋をモチーフにしたウィルスなんだけど本体のモデルが何かわかる？ -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue2Eirin" Value="FalLeaf are autumn-themed,viruses，but can you recognize,what the main body is?" Face="Eirin" Mono="False" />
+  <!-- なんか目のついた黒い物体くらいの認識しかないわ -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue3Shanghai" Value="A blob with eyes?" Face="Shanghai" Mono="False" />
+  <!-- あれ　実は栗なのよ落ち葉に包まれたクリ -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue4Eirin" Value="It’s a chestnut!" Face="Eirin" Mono="False" />
+  <!-- そのまま火をつけたらいい感じに焼けそうですね -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue5Alice" Value="No wonder they’re vulnerable,to fire." Face="Alice" Mono="False" />
+  <!-- 冬はコーヨーに電脳イモを突っ込んで火をつけるのがたまらないのよね -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue6Shanghai" Value="During the winter，you can,set one on fire and cook a,sweet potato over it." Face="Shanghai" Mono="False" />
+  <!-- 良い子は真似しちゃダメよ -->
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue7Eirin" Value="Don’t be like her，please." Face="Eirin" Mono="False" />
+  <!-- リーバーを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue1Eirin" Value="You’ve stumbled across a,Liba!" Face="Eirin" Mono="False" />
+  <!-- リーバーはアリジゴク････いわゆるウスバカゲロウの幼虫をモチーフにしたウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue2Eirin" Value="Liba are viruses modeled,after antlion larva." Face="Eirin" Mono="False" />
+  <!-- ということはいつか成虫になるのかしら？ -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue3Shanghai" Value="Do they mature into adults?" Face="Shanghai" Mono="False" />
+  <!-- モチーフにされただけで成虫になるシステムは入ってないみたい -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue4Eirin" Value="It seems they only used,the larva as a base，there’s,no system for them to grow." Face="Eirin" Mono="False" />
+  <!-- なんだか物悲しいですね -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue5Alice" Value="That’s kind of sad." Face="Alice" Mono="False" />
+  <!-- まあ自然界でもミノムシのメスみたいに幼虫とあまりかわらない成虫になる虫もいるから -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue6Eirin" Value="In the natural world，bugs,need to grow up，but in the,cyber-world it’s unnecessary." Face="Eirin" Mono="False" />
+  <!-- ちなみにこういった姿の変わらない虫の成長を不完全変態って言うのよ -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue7Eirin" Value="I suppose if an insect is,already perfect，it doesn’t need,to metamorphosize." Face="Eirin" Mono="False" />
+  <!-- 完全でも不完全でも変態には出会いたくないわね････ -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue8Shanghai" Value="I don’t want to deal with bugs，,perfect or no." Face="Shanghai" Mono="False" />
+  <!-- それ変態違いだと思うけど････ -->
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue9Alice" Value="We all have our preferences." Face="Alice" Mono="False" />
+  <!-- ガンバッタを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue1Eirin" Value="That’s a GunHopr!" Face="Eirin" Mono="False" />
+  <!-- ガンバッタの正式名称はショットガンホッパーっていうのよ -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue2Eirin" Value="The official name of this virus,is ”Shotgun Hopper”." Face="Eirin" Mono="False" />
+  <!-- 昔は派生種としてカノンホッパーとかもいたみたいね -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue3Eirin" Value="They seem to be a subspecies,of an older virus called a,”Cannon Hopper”" Face="Eirin" Mono="False" />
+  <!-- ぴょんぴょん飛んで攻撃が当たらないからあたしあまり好きじゃないわ -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue4Shanghai" Value="They really irritate me，jumping,and shooting everywhere." Face="Shanghai" Mono="False" />
+  <!-- ちなみに田舎の方の電脳世界ではガンバッタのつくだ煮が作られるとか -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue5Eirin" Value="In the Net around the,countryside，they’re called,”GunLocust”." Face="Eirin" Mono="False" />
+  <!-- うへぇ････ -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue6Alice" Value="Huh...." Face="Alice" Mono="False" />
+  <!-- （おいしそうと思ってしまった････） -->
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue7Shanghai" Value="(Those sound delicious....)" Face="Shanghai" Mono="False" />
+  <!-- ダンビートルを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue1Eirin" Value="You found the Beetl line of,viruses." Face="Eirin" Mono="False" />
+  <!-- ダンビートルはオーラやバリアを活用してくる珍しいタイプのウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue2Eirin" Value="Beetl are the rare virus that,takes advantage of aura and,barriers." Face="Eirin" Mono="False" />
+  <!-- 剣の形をした角が印象的だけどあのオーラは固くて厄介なのよね -->
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue3Shanghai" Value="The sword-shaped horn is cool,but the aura is just annoying." Face="Shanghai" Mono="False" />
+  <!-- オーラをまとったウィルスはダンビートルだけだけど････ -->
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue4Eirin" Value="Thankfully，Beetl viruses are,the only ones we’ve found to,use auras." Face="Eirin" Mono="False" />
+  <!-- 世界のどこかには元祖のオーラウィルスが存在するらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue5Eirin" Value="There’s rumors of a precursor,aura-using virus，but only far,across the world." Face="Eirin" Mono="False" />
+  <!-- あまり戦いたくない相手ですね -->
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue6Alice" Value="I wouldn’t want to run into one,of those." Face="Alice" Mono="False" />
+  <!-- ライジューンを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue1Eirin" Value="You found a Raijun!" Face="Eirin" Mono="False" />
+  <!-- ライジューンは古代の仙人伝説に出てくる雷獣をモチーフにしたウィルスよ -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue2Eirin" Value="Raijun are viruses that are,based on the thunder beasts,from the tales of the Sage. " Face="Eirin" Mono="False" />
+  <!-- 雷獣は雷だけでなく毒も放ってくる妖獣で　その毒にあてられると廃人になったとか -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue3Eirin" Value="The beasts not only controlled,thunder，but also an addictive,poison to cripple its victims." Face="Eirin" Mono="False" />
+  <!-- けれど　トウモロコシを芯ごと飲み込むと毒が消える････っていう伝説らしいわね -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue4Eirin" Value="The only cure to the addiction,is to eat the horn of the beast." Face="Eirin" Mono="False" />
+  <!-- なんだか物騒な伝説ね -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue5Shanghai" Value="That sounds dangerous." Face="Shanghai" Mono="False" />
+  <!-- ちなみに最近の研究で雷獣はハクビシンという動物がモデルじゃないかといわれているわ -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue6Eirin" Value="Recent research has found that,the civet is the origin of that,legend." Face="Eirin" Mono="False" />
+  <!-- そう聞くとなんだか一気に凄みが薄れてきますね -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue7Alice" Value="Now that story just seems,ridiculous." Face="Alice" Mono="False" />
+  <!-- 幽霊の正体見たり枯れ尾花ってところね -->
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue8Eirin" Value="The legend may be fictional，,but the virus is still as,dangerous as always." Face="Eirin" Mono="False" />
+  <!-- ホルネークを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue1Eirin" Value="You fought a Snake-class,virus." Face="Eirin" Mono="False" />
+  <!-- ホルネークは毒ガスで相手を撃退するセキュリティプログラムがウィルス化した存在なのよ -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue2Eirin" Value="Snake viruses are actually,the poison gas，which used to,be a security system." Face="Eirin" Mono="False" />
+  <!-- その割にはヘビっぽさが前面に出てる気がするけど -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue3Shanghai" Value="Then what’s the snake part?" Face="Shanghai" Mono="False" />
+  <!-- 一応　首元に毒ガスの調節弁が名残として残っているけどね -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue4Eirin" Value="That’s the control valve，left,over from the original program." Face="Eirin" Mono="False" />
+  <!-- じゃあそれを閉めれば････ -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue5Alice" Value="Why not close it then?" Face="Alice" Mono="False" />
+  <!-- あくまでもなごりだから触っても何も起きないわよ -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue6Eirin" Value="It’s a holdover，turning it,wouldn’t do anything." Face="Eirin" Mono="False" />
+  <!-- そっかー････ -->
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue7Shanghai" Value="I wonder...." Face="Shanghai" Mono="False" />
+  <!-- ウージョウを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue1Eirin" Value="That’s a Wukong." Face="Eirin" Mono="False" />
+  <!-- ウージョウは西遊記の悟空をモチーフにした猿型のウィルスなのよ -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue2Eirin" Value="Wukong are monkey-shaped,viruses with a motif of Goku,from Journey To The West." Face="Eirin" Mono="False" />
+  <!-- そういえばウージョウってなんとなく猿感あるけどどういう語源なのかしら？ -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue3Shanghai" Value="If you say so." Face="Shanghai" Mono="False" />
+  <!-- ウーは中国語で５を表す言葉ジョウは空を上と変えてその読みをとったらしいわ -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue4Eirin" Value="There’s a long story behind,the name ”Wukong”." Face="Eirin" Mono="False" />
+  <!-- ２つ合わせて五上････ウージョウってことですね -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue5Alice" Value="Maybe I’ll look it up some day." Face="Alice" Mono="False" />
+  <!-- てっきりウッキーのウから取ったんだと思ったわ -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue6Shanghai" Value="I thought it was named after,Wookies." Face="Shanghai" Mono="False" />
+  <!-- （その説だとジョウは　どこから来たんだろう） -->
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue7Alice" Value="(Are Wookies monkeys?)" Face="Alice" Mono="False" />
+  <!-- バケバケを捕まえたのね -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue1Eirin" Value="It’s a Ghost!" Face="Eirin" Mono="False" />
+  <!-- バケバケはオバケ型ウィルスで姿を消したりナビの顔をなめたりする攻撃をしてくるわ -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue2Eirin" Value="Ghosts can disappear and,reappear，licking Navi’s faces,as an attack." Face="Eirin" Mono="False" />
+  <!-- なめられると顔がしびれて目が開かなくなっちゃうのよね -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue3Shanghai" Value="Their licks make my face go,numb and seal my eyes,closed!" Face="Shanghai" Mono="False" />
+  <!-- ちなみにあくまでもオバケ型であって電脳世界の亡霊ってわけじゃないのよ -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue4Eirin" Value="By the way，Ghost viruses are,based on ghosts，and aren’t,actual cyber-world ghosts." Face="Eirin" Mono="False" />
+  <!-- ホッ････ -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue5Alice" Value="Phew...." Face="Alice" Mono="False" />
+  <!-- でも　それとは別に亡霊ナビとか幽霊のようなデータとか存在するんだけどね -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue6Eirin" Value="But who knows?,You might run into ghostly,Navis or data some day." Face="Eirin" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue7Alice" Value="........" Face="Alice" Mono="True" />
+</data>

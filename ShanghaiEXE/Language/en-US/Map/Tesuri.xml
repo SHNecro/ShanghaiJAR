@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 手すりの電脳 -->
+  <Text Key="Map.TesuriName" Value="Handrail Comp" />
+  <!-- ココニアル　ソウチヲ　ツカウトカイテイニアル　デンノウセカイニアクセス　デキマスヨ -->
+  <Dialogue Key="Map.TesuriSprite1Stage1Dialogue1FaceSprite" Value="THIS HANDRAIL IS EQUIPPED,TO CALL FOR HELP IF,ANYTHING GOES OVER!" Face="Sprite" Mono="False" />
+  <!-- カイテイサンポノキブンヲ　アジワオウ！ -->
+  <Dialogue Key="Map.TesuriSprite1Stage1Dialogue2FaceSprite" Value="YOUR SAFETY IS OUR,NUMBER ONE PRIORITY!" Face="Sprite" Mono="False" />
+  <!-- サルベージプログラムの座標を変更します -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue1FaceNone" Value="Salvage Program Coordinates:" Face="None" Mono="False" />
+  <!-- Ｘ座標を入力してください -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue2NumsetFaceNone" Value="Enter X Coordinate:" Face="None" Mono="False" />
+  <!-- Ｙ座標を入力してください -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue3NumsetFaceNone" Value="Enter Y Coordinate:" Face="None" Mono="False" />
+  <!-- ワープの座標をＸ−#v@36#　Ｙ−#v@37#にセットしました -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue4FaceNone" Value="Coordinates set to:,X−#v@36#,Y−#v@37#" Face="None" Mono="False" />
+</data>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳５ -->
+  <Text Key="Map.ClockTower5Name" Value="Clock Tower Comp 5" />
+  <!-- セキュリティはすでに解除されている -->
+  <Dialogue Key="Map.ClockTower5TerminalStage1Dialogue1FaceNone" Value="Security’s already been lifted." Face="None" Mono="False" />
+  <!-- コノエリアノ　トケイハソコノト　モウヒトツシカアリマセン -->
+  <Dialogue Key="Map.ClockTower5Sprite1AStage1Dialogue1FaceSprite" Value="THIS IS THE LAST AREA OF,THIS COMP!" Face="Sprite" Mono="False" />
+  <!-- ナノデ　サイゴマデイケルジカンヲ　ミツケナイトイケマセンネ -->
+  <Dialogue Key="Map.ClockTower5Sprite1AStage1Dialogue2FaceSprite" Value="YOU HAVE TO FIND A WAY,TO THE END!" Face="Sprite" Mono="False" />
+  <!-- マエノ　エリアデサイショニ　トオッタカタチガソノママ　ツカエマスヨ -->
+  <Dialogue Key="Map.ClockTower5Sprite2AStage1Dialogue1FaceSprite" Value="SOMEONE TOLD YOU THE,HINT FOR THIS AREA,EARLIER!" Face="Sprite" Mono="False" />
+  <!-- オヤオヤ〜？ツイサッキノ　コトナノニワスレテタリ　シマセンヨネ？ -->
+  <Dialogue Key="Map.ClockTower5Sprite2AStage1Dialogue2FaceSprite" Value="YOU FORGOT? IT WAS JUST,A LITTLE WHILE AGO!" Face="Sprite" Mono="False" />
+  <!-- マッスグニサイゴノミチヲツキススメ　　　スプライトチャン -->
+  <Dialogue Key="Map.ClockTower5Sprite3AStage1Dialogue1FaceSprite" Value="I RECOMMEND GOING,STRAIGHT!" Face="Sprite" Mono="False" />
+  <!-- ヒャーヒャヒャッヒャ！来やがったなァ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue1FaceScissorMan" Value="Hachachacha! You made it all,the way here!" Face="ScissorMan" Mono="False" />
+  <!-- 俺様の名はシザーマン！我が主　タラカーン様の命によりここで貴様をデリートする！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue2FaceScissorMan" Value="I am ScissorMan!,I shall delete you in the name,of Lord Tarakhan!" Face="ScissorMan" Mono="False" />
+  <!-- サッサとそこをどきなさい！そうしたら　痛い目に遭わなくて済むようにしてやるわよ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue3FaceShanghai" Value="Your ugly face is already doing,damage to my delicate eyes!,Hurry and let me delete you!" Face="Shanghai" Mono="False" />
+  <!-- ヒィーヒヒヒ････！！威勢のイイのナビだァ！ああ････たまらねェ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue4FaceScissorMan" Value="A feisty heroine!,Oh，this is truly the best!" Face="ScissorMan" Mono="False" />
+  <!-- 俺様の趣味はキミのような気の強い女ナビをズタズタに引き裂くことだからなあ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue5FaceScissorMan" Value="I just love tearing strong Navi,women like you to shreds!" Face="ScissorMan" Mono="False" />
+  <!-- あーら　奇遇ね -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue6FaceShanghai" Value="What a coincidence!" Face="Shanghai" Mono="False" />
+  <!-- あたしの趣味もあんたみたいなゲッスいナビをボッコボコにしてやることなのよ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue7FaceShanghai" Value="My favorite hobby is stomping,ugly geckos like you into the,ground!" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャヒャ言うじゃねぇか！ますますズタズタに････ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue8FaceScissorMan" Value="It’s too much! To shreds!,I’ll tear you to shreds!" Face="ScissorMan" Mono="False" />
+  <!-- いや････気が変わったその綺麗なカラダを真っ二つにしてやりたくなってきたぜェ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue9FaceScissorMan" Value="No! There’s so much more I,want to do to you! To your,beautiful body!" Face="ScissorMan" Mono="False" />
+  <!-- シザーマンはしゃぐのは程々にしておけ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue10FaceScissorManOpTarakhan" Value="ScissorMan，enough." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そいつの首を取ることも我々の目的のひとつだが油断はできぬ相手だぞ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue11FaceScissorManOpTarakhan" Value="Your purpose is to take your,opponent’s head，but you will,not let yourself be careless." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そう言われちゃあ仕方ねえバッサリやらせてもらうとするぜ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue12FaceScissorMan" Value="I shall!,But with such a delectable,target in front of me...." Face="ScissorMan" Mono="False" />
+  <!-- せいぜいあっさりやられて俺様をがっかりさせないでくれよ････！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue13FaceScissorMan" Value="I obey!,I will not disappoint you，Lord,Tarakhan!" Face="ScissorMan" Mono="False" />
+  <!-- ほざいてなさい！いくわよ　アリス！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue14FaceShanghai" Value="Let’s see about that!,Come on，Alice!" Face="Shanghai" Mono="False" />
+  <!-- ええ！リグル君を助けるためにも負けられない！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue15FaceAlice" Value="Yes!,For Wriggle’s sake，I can’t,afford to fail!" Face="Alice" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue16FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue17FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャヒャ！！狩りの時間だァ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue18FaceScissorMan" Value="It’s time to hunt!" Face="ScissorMan" Mono="False" />
+  <!-- ゲペェ････！な　なぜ俺様が････！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue1FaceScissorMan" Value="Guh!,I-，I don’t-,How?!" Face="ScissorMan" Mono="False" />
+  <!-- うっさい！さっさと消えろ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue2FaceShanghai" Value="Hurry up and get deleted!" Face="Shanghai" Mono="False" />
+  <!-- ギョエエエッッッ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue3FaceScissorMan" Value="GYYEEHHHHH!" Face="ScissorMan" Mono="False" />
+  <!-- アリス！プラグアウトを！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue1FaceShanghai" Value="Alice，let’s jack out!" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue2FaceAlice" Value="Yes!" Face="Alice" Mono="False" />
+  <!-- （リグル君　無事でいて････！） -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue3FaceAlice" Value="(Wriggle，you’re safe now....!)" Face="Alice" Mono="False" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage1Dialogue1QuestionFaceNone" Value="It’s linked to the global clock.,Do you move the needle?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower5GimmickStage1Dialogue1Options" Value="Yes,No" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage3Dialogue1QuestionFaceNone" Value="Move the hour hand to where?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower5GimmickStage3Dialogue1Options" Value="１２,　３, ６,　９" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage5Dialogue1QuestionFaceNone" Value="Move the minute hand to where?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower5GimmickStage5Dialogue1Options" Value="：００,：１５,：３０,：４５" />
+</data>

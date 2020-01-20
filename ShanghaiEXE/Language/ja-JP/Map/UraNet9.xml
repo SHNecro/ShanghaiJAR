@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ウラインターネット９ -->
+  <Text Key="Map.UraNet9Name" Value="ウラインターネット９" />
+  <!-- ウラの果てまでご苦労だなここはエラーのかけら交換屋だぜ -->
+  <Dialogue Key="Map.UraNet9ErrorExchangeShopStage1Dialogue1FaceNaviPurpleHeel" Value="ウラの果てまでご苦労だな,ここはエラーのかけら,交換屋だぜ" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet9DruidManV2FightEnd" Value="倒したナビの残骸データが,どこかへと飛び去っていった････" Face="None" Mono="False" />
+</data>

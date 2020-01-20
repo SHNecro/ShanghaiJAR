@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Dialogue Key="Messages.ShanghaiRequestInfo1Dialogue1None" Value="null" Face="None" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo2Dialogue1Shanghai" Value="Our client said they were,near Remilia’s mansion." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo3Dialogue1Shanghai" Value="Let’s quickly deliver this,DataPack to Genso Square." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo4Dialogue1Shanghai" Value="Our client said they’d be in the,main plaza of Genso Area 2.,Let’s get going." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo5Dialogue1Shanghai" Value="Let’s punish the bad Navi in,City Area 2 and finish the,request." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo6Dialogue1Shanghai" Value="Let’s report back to our client,in Genso Area 2 and get our,reward." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo7Dialogue1Shanghai" Value="Isn’t our client waiting near,the University’s fountain?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo8Dialogue1Shanghai" Value="The ice data our client wants,is in the back of a cold comp." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo9Dialogue1Shanghai" Value="Let’s get this ice crystal data,back to our client， pronto!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo10Dialogue1Shanghai" Value="Our client’s in the,Bench Comp in the,Genso Town park." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo11Dialogue1Shanghai" Value="Our client was in the,Genso University office,Air Purifier Comp." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo12Dialogue1Shanghai" Value="Our client’s on the lower level,of City Area 1， the part not,connected to the Square." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo13Dialogue1Shanghai" Value="Our client said they were in,the Fountain Comp." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo14Dialogue1Shanghai" Value="”Beneath the dry earth where,rest is born”? Couldn’t rest,be born in a playground....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo15Dialogue1Shanghai" Value="Let’s quickly take this,data chip to our client,in the Fountain Comp." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo16Dialogue1Shanghai" Value="Our client’s in City Area 3.,Let’s get going." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo17Dialogue1Shanghai" Value="Let’s punish the bad admin,behind the P-Cube in City,Area 2!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo18Dialogue1Shanghai" Value="Hey， let’s go back to our client,in City Area 3 and report a job,well done!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo19Dialogue1Shanghai" Value="Can’t we buy rare chips for,cheap in the Telephone Comp，,wherever it is?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo20Dialogue1Shanghai" Value="Our client’s in Eien,Area 1." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo21Dialogue1Shanghai" Value="We need to take this box to,a man in a suit on the third,floor of the University." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo22Dialogue1Shanghai" Value="The man in a suit....,The researcher said he went,to Genso Town." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo23Dialogue1Shanghai" Value="The man in a suit....,The lady said he went to,the park in Eien Town...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo24Dialogue1Shanghai" Value="Back to the plaza in,Central City again!?,I hate backtracking!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo25Dialogue1Shanghai" Value="Our client’s in,Central City’s North District." Face="Shanghai" Mono="False" />
+  <!-- 依頼人は永遠町のウサ公像の前にいるのよね -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo26Dialogue1Shanghai" Value="Our client’s in front of,the Lord Usa statue in Eien,Town." Face="Shanghai" Mono="False" />
+  <!-- ジキアラシＦとブラインドリーフＰを永遠町のウサ公像前にいる依頼人に渡せば良いのよね -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo27Dialogue1Shanghai" Value="We should deliver the,MagStorm F and BlndLeaf P to,the client by the Usa Statue." Face="Shanghai" Mono="False" />
+  <!-- 八意総合病院のテレビの電脳で依頼人が待ってるのよね -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo28Dialogue1Shanghai" Value="Our client’s in the TV comp,of Yagokoro General Hospital." Face="Shanghai" Mono="False" />
+  <!-- 依頼人は幻想町の黄色い屋根の家の花壇の電脳ってもしかして････ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo29Dialogue1Shanghai" Value="Our client’s in the flowerbed,of a house with a yellow roof,in Genso Town." Face="Shanghai" Mono="False" />
+  <!-- 探しものなら千里眼じいさん！エイエンスクエアに行ってみましょう！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo30Dialogue1Shanghai" Value="Our target’s the old sage in,Eien Square!" Face="Shanghai" Mono="False" />
+  <!-- サルベージプログラムを探して座標　Ｘ−９８　Y−０５　へプラグインしてみましょ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo31Dialogue1Shanghai" Value="Look for the salvage program,at X-98 Y-05." Face="Shanghai" Mono="False" />
+  <!-- 沈没船の電脳で転生プログラムを探すのよ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo32Dialogue1Shanghai" Value="Find the reincarnation program,in the comp of a sunken ship!" Face="Shanghai" Mono="False" />
+  <!-- さあ　花だんの電脳に転生プログラムを持っていくわよ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo33Dialogue1Shanghai" Value="Time to take the reincarnation,program back to the flowerbed!" Face="Shanghai" Mono="False" />
+  <!-- 依頼人は八意総合病院の２階にいるのよね -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo34Dialogue1Shanghai" Value="Our client’s on the second,floor of Yagokoro General." Face="Shanghai" Mono="False" />
+  <!-- 中央街に花屋なんてあったかしら？ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo35Dialogue1Shanghai" Value="Is there a florist in Central City?" Face="Shanghai" Mono="False" />
+  <!-- 花屋のナビがいたのはエイエンスクエアよね近くを探しましょ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo36Dialogue1Shanghai" Value="The florist’s Navi was near Eien,Square." Face="Shanghai" Mono="False" />
+  <!-- ウラインターネット３で花屋のナビが助けを待っているはずよ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo37Dialogue1Shanghai" Value="The florist’s Navi needs help,in Undernet 3!" Face="Shanghai" Mono="False" />
+  <!-- さて　中央街の花屋さんに報告しましょ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo38Dialogue1Shanghai" Value="Let’s get back to the florist!" Face="Shanghai" Mono="False" />
+  <!-- この花を病院にいるあの子に渡せばオッケーね -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo39Dialogue1Shanghai" Value="Give the flower to the girl in the,hospital." Face="Shanghai" Mono="False" />
+  <!-- 依頼人がいるのはシティエリア２の奥････奥ってどこ？ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo40Dialogue1Shanghai" Value="Our client’s in the back of City,Area 2....,Where’s the back?" Face="Shanghai" Mono="False" />
+  <!-- 依頼人は中央街北区の本社ビル････ってあそこしか無いわよね -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo41Dialogue1Shanghai" Value="Our client’s in the HQ in Central,City’s North District." Face="Shanghai" Mono="False" />
+  <!-- 電話ボックスから大企業サーバーにアクセスしましょう -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo42Dialogue1Shanghai" Value="Let’s jack in to the server,through the phonebox." Face="Shanghai" Mono="False" />
+  <!-- ボーターコンツェルンの社長室に行って報告よ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo43Dialogue1Shanghai" Value="Let’s head back to Border,Concern and report in." Face="Shanghai" Mono="False" />
+  <!-- ゲンソウ　シティ　エイエンエリアにそれぞれ３体ずつ現れた黒いナビを倒すのよ！ -->
+  <Dialogue Key="Messages.ShanghaiRequestInfo86Dialogue1Alice" Value="Defeat the black Navis in the,Eien Areas!" Face="Alice" Mono="False" />
+</data>

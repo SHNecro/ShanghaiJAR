@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja3Name" Value="Shrine Comp 3" />
+  <Dialogue Key="Map.Jinja3WithdrawStage1Dialogue1FaceShanghai" Value="Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3WithdrawStage1Dialogue2FaceAlice" Value="You’re out of stamina....,Let’s jack out!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,1000 ZENNY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <Text Key="Map.Jinja3WallpaperSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue1FaceNone" Value="Shanghai inserted the,Yin Key and Yang Key into,the door!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue2FaceNone" Value="The door lowered!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage3Dialogue1FaceNone" Value="The door is locked.,It won’t move an inch!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue1FacePyroMan" Value="PWSSSSSSHHHHHH...." Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue2FacePyroMan" Value="CHAKAKAKA!,Just give up，you senile,old fool!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue3FacePyroMan" Value="CHAK?" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue4FaceShanghai" Value="Hey，hothead!,So you started the fire!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue5FacePyroManOpMokou" Value="You....!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue6FacePyroManOpMokou" Value="PyroMan，that’s the Navi,we’ve been waiting for!,That blonde brat!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue7FaceAlice" Value="That voice....!,You’re that gang leader,from the other day!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue8FaceAlice" Value="So this fire was your,handiwork!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue9FacePyroManOpMokou" Value="I thought lighting up this brat’s,shrine would lure you two in,like moths to a flame，but I" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue10FacePyroManOpMokou" Value="didn’t think it’d work this well!,Hahahahaha!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue11FaceShanghai" Value="You....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue12FaceShanghai" Value="Instead of confronting us,directly，you used a child,as bait to lure us here!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue13FaceShanghai" Value="You think arson is something,to be proud of!? You didn’t,think it’d work this well!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue14FaceShanghai" Value="Even I can’t understand what,you’re trying to accomplish...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue15FaceShanghai" Value="Are you an idiot!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue16FacePyroManOpMokou" Value="PyroMan!,Now’s your chance to avenge,your henchmen!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue17FacePyroMan" Value="PWSSSSSSHHHHHH....!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue18FacePyroMan" Value="I’ll burn anyone in my way!,I’ll roast you down to your,binary code!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue19FaceShanghai" Value="Fine!,I’ll play your little game!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue20FaceShanghai" Value="I’ll snuff out those wimpy,flames and your twisted,attitude too!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue21FaceAlice" Value="Let’s do it，Shanghai!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue22FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue23FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue24FacePyroMan" Value="CHAKAKAKA!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage3Dialogue1FacePyroMan" Value="CHAKA....!?" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage3Dialogue2FacePyroMan" Value="I can’t take revenge if I’m,deleted!!!,CHAKAKAKAKA....!!!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage5Dialogue1FacePyroManOpMokou" Value="Tch!,Useless Navi!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage5Dialogue2FacePyroManOpMokou" Value="You two better watch your,backs....!,You’ll regret this!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue1FaceShanghai" Value="Old man....,Doing something so rash...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue2FaceTortoiseMan" Value="Goho goho...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue3FaceTortoiseMan" Value="I’d prefer not to be deleted,for no good reason...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue4FaceShanghai" Value="Ah，you’re still alive.,You’re a tough old geezer，,huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue5FaceTortoiseMan" Value="Mmmm....,The donation box looks,okay...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue6FaceShanghai" Value="Hey，oldster....,Is that donation box where....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue7FaceTortoiseMan" Value="This donation box hasn’t,moved since Reimu became,the shrine maiden." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue8FaceTortoiseMan" Value="It’s more than just a part of,the shrine....,It’s Reimu’s hard work itself." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue9FaceTortoiseMan" Value="To just hand it over to goons,like that...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue10FaceReimu" Value="Thank you....,TortoiseMan...." Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue11FaceShanghai" Value="Alice! We have to take,Tenshi to the hospital!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue12FaceAlice" Value="Right!,Ah....!" Face="Alice" Mono="False" />
+</data>

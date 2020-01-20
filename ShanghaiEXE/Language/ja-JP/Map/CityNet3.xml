@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　シティエリア３ -->
+  <Text Key="Map.CityNet3Name" Value="インターネット　シティエリア３" />
+  <!-- 倒したナビの残骸データがどこかへと飛び去っていった････ -->
+  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue1FaceNone" Value="倒したナビの残骸データが,どこかへと飛び去っていった････" Face="None" Mono="False" />
+  <!-- ←：シティエリア１↓：エイエンエリア１ -->
+  <Dialogue Key="Map.CityNet3GuidePlateStage1Dialogue1FaceNone" Value="←：シティエリア１,↓：エイエンエリア１" Face="None" Mono="False" />
+  <!-- ネットエージェントによって一時的に封鎖されているようだ -->
+  <Dialogue Key="Map.CityNet3GateStage1Dialogue1FaceNone" Value="ネットエージェントによって,一時的に封鎖されているようだ" Face="None" Mono="False" />
+  <!-- このエリアがすっごく複雑なのはここからいろんなオフィスにつながってるからなのよ -->
+  <Dialogue Key="Map.CityNet3Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="このエリアがすっごく複雑なのは,ここからいろんなオフィスに,つながってるからなのよ" Face="NaviPinkFemale" Mono="False" />
+  <!-- あれ？スクエアこっちじゃないの？ -->
+  <Dialogue Key="Map.CityNet3Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="あれ？,スクエアこっちじゃないの？" Face="NaviChild" Mono="False" />
+  <!-- うわーん迷っちゃったー！ -->
+  <Dialogue Key="Map.CityNet3Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="うわーん迷っちゃったー！" Face="NaviChild" Mono="False" />
+  <!-- どこかに毒ヘビのウィルスが出るらしいけど　そいつの落とすチップは特殊なんだって -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="どこかに毒ヘビのウィルスが,出るらしいけど　そいつの,落とすチップは特殊なんだって" Face="NaviOrangeMale" Mono="False" />
+  <!-- なんでも　Ａボタンを押しているあいだだけ攻撃するんだって途中でやめられるってことだ -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="なんでも　Ａボタンを押している,あいだだけ攻撃するんだって,途中でやめられるってことだ" Face="NaviOrangeMale" Mono="False" />
+  <!-- 毒属性は炎で消毒したり雷で電気分解するからそれらに弱いらしいよ -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="毒属性は炎で消毒したり,雷で電気分解するから,それらに弱いらしいよ" Face="NaviOrangeMale" Mono="False" />
+  <!-- 逆に　水を腐らせたり草を枯らせられるからそれらには強いんだ -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi2Stage1Dialogue2FaceNaviOrangeMale" Value="逆に　水を腐らせたり,草を枯らせられるから,それらには強いんだ" Face="NaviOrangeMale" Mono="False" />
+  <!-- ＲＯＭへの警戒のためってネットエージェントが道を塞いでます -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi3Stage1Dialogue1FaceNaviGreenRobot" Value="ＲＯＭへの警戒のためって,ネットエージェントが,道を塞いでます" Face="NaviGreenRobot" Mono="False" />
+  <!-- エイエンエリアへの唯一の道なのですが困りましたね -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi3Stage1Dialogue2FaceNaviGreenRobot" Value="エイエンエリアへの唯一の,道なのですが困りましたね" Face="NaviGreenRobot" Mono="False" />
+  <!-- 奥に見えるワープってボーダーコンツェルンの本社につながってるらしいね -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi4Stage1Dialogue1FaceNaviGreenRobot" Value="奥に見えるワープって,ボーダーコンツェルンの本社に,つながってるらしいね" Face="NaviGreenRobot" Mono="False" />
+  <!-- でも　あそこに行く方法は誰もしらないんだって -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi4Stage1Dialogue2FaceNaviGreenRobot" Value="でも　あそこに行く方法は,誰もしらないんだって" Face="NaviGreenRobot" Mono="False" />
+  <!-- 何じゃあ？千里眼じいさんを探しとるじゃと？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue1FaceNaviOrangeRobot" Value="何じゃあ？,千里眼じいさんを,探しとるじゃと？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- いかにもわしが検索ソフト「千里眼」を持っとるじじいナビじゃが････ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue2FaceNaviOrangeRobot" Value="いかにもわしが検索ソフト,「千里眼」を持っとる,じじいナビじゃが････" Face="NaviOrangeRobot" Mono="False" />
+  <!-- なに？　探しものとな？ふむ････協力してやらんでもないが････ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue3FaceNaviOrangeRobot" Value="なに？　探しものとな？,ふむ････,協力してやらんでもないが････" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そうじゃな「リペア２０　＊」と引き換えに探してやっても良いぞ？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue4FaceNaviOrangeRobot" Value="そうじゃな「リペア２０　＊」と,引き換えに,探してやっても良いぞ？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 「リペア２０　＊」は持っておるかの？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue5QuestionFaceNaviOrangeRobot" Value="「リペア２０　＊」は,持っておるかの？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet3Chapter3SageStage1Dialogue5Options" Value="はい,いいえ" />
+  <!-- 持っておらんではないか！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue6FaceNaviOrangeRobot" Value="持っておらんではないか！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- もしかしてチップフォルダに入れてるんじゃなかろうな？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue7FaceNaviOrangeRobot" Value="もしかしてチップフォルダに,入れてるんじゃなかろうな？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- もしもそうならばフォルダから外してくれんと受け取れんよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue8FaceNaviOrangeRobot" Value="もしもそうならば,フォルダから外してくれんと,受け取れんよ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- これじゃこれじゃ強い回復チップは老いぼれた身体には毒じゃ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue9FaceNaviOrangeRobot" Value="これじゃこれじゃ,強い回復チップは,老いぼれた身体には毒じゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ふむ　約束じゃそなたの探しているものを検索してやろう -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue10FaceNaviOrangeRobot" Value="ふむ　約束じゃ,そなたの探しているものを,検索してやろう" Face="NaviOrangeRobot" Mono="False" />
+  <!-- むむむむむ・・・・ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue11FaceNaviOrangeRobot" Value="むむむむむ・・・・" Face="NaviOrangeRobot" Mono="False" />
+  <!-- カーーーーッ！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue12FaceNaviOrangeRobot" Value="カーーーーッ！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 見えたぞ！！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue13FaceNaviOrangeRobot" Value="見えたぞ！！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そなたの探しておるものはズバリ「Ｋｅｙ．ｂａｔ」じゃ！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue14FaceNaviOrangeRobot" Value="そなたの探しておるものは,ズバリ「Ｋｅｙ．ｂａｔ」じゃ！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そしてそれは････子供がたくさんいる所で、本のデータが多い電脳に存在するぞい！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue15FaceNaviOrangeRobot" Value="そしてそれは････子供がたくさん,いる所で、本のデータが,多い電脳に存在するぞい！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- わしにわかるのはそのくらいじゃあとは自分の頭と足で考えるとよかろうて -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue16FaceNaviOrangeRobot" Value="わしにわかるのはそのくらいじゃ,あとは自分の頭と足で,考えるとよかろうて" Face="NaviOrangeRobot" Mono="False" />
+  <!-- リペアで回復しないと転送病で消えてしまうんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue1FaceNaviOrangeRobot" Value="リペアで回復しないと,転送病で消えてしまうんじゃよ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 転送病っていうのはなワープ移動の際にほんの少しデータが劣化してしまうんじゃ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue2FaceNaviOrangeRobot" Value="転送病っていうのはな,ワープ移動の際にほんの少し,データが劣化してしまうんじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- プラグアウトすれば治るんじゃがワシのような野良ナビはやがてデータが壊れてしまうんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue3FaceNaviOrangeRobot" Value="プラグアウトすれば治るんじゃが,ワシのような野良ナビはやがて,データが壊れてしまうんじゃよ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- じゃから　定期的にリペアで回復する必要があるのじゃ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue4FaceNaviOrangeRobot" Value="じゃから　定期的にリペアで,回復する必要があるのじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ちなみに検索ソフト「千里眼」とは電脳世界全域を検索できるスゴイソフトなんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue5FaceNaviOrangeRobot" Value="ちなみに検索ソフト「千里眼」,とは電脳世界全域を検索できる,スゴイソフトなんじゃよ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- じゃが、検索結果はアイマイで正確な位置までは特定はできなくてのう -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue6FaceNaviOrangeRobot" Value="じゃが、検索結果はアイマイで,正確な位置までは特定は,できなくてのう" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 開発中止になってしまったというわけなんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue7FaceNaviOrangeRobot" Value="開発中止になって,しまったというわけなんじゃよ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- それで　失敗作のワシは捨てられたってわけじゃハッハッハ！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue8FaceNaviOrangeRobot" Value="それで　失敗作のワシは,捨てられたってわけじゃ,ハッハッハ！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ここにいた爺さんナビ？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage5Dialogue1FaceNaviOrangeMale" Value="ここにいた爺さんナビ？" Face="NaviOrangeMale" Mono="False" />
+  <!-- 元気になったからって言ってエイエンスクエアに向かっていったよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage5Dialogue2FaceNaviOrangeMale" Value="元気になったからって言って,エイエンスクエアに,向かっていったよ" Face="NaviOrangeMale" Mono="False" />
+  <!-- エイエンスクエアのあるエイエンエリアにはこのエリアの右下の方から行けるよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage5Dialogue3FaceNaviOrangeMale" Value="エイエンスクエアのある,エイエンエリアにはこのエリアの,右下の方から行けるよ" Face="NaviOrangeMale" Mono="False" />
+  <!-- 久しぶりに友人のナビに会ったらバージョンアップしてイケメンになってた････ -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="久しぶりに友人のナビに会ったら,バージョンアップして,イケメンになってた････" Face="NaviGreenRobot" Mono="False" />
+  <!-- 俺も次世代ナビにバージョンアップしたいなあ -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi1Stage1Dialogue2FaceNaviGreenRobot" Value="俺も次世代ナビに,バージョンアップしたいなあ" Face="NaviGreenRobot" Mono="False" />
+  <!-- 最近知ったんだけど草属性の攻撃って無敵が発生しないんだってね -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi2Stage1Dialogue1FaceNaviOrangeMale" Value="最近知ったんだけど,草属性の攻撃って,無敵が発生しないんだってね" Face="NaviOrangeMale" Mono="False" />
+  <!-- うまく使えばコンボに使えるかもしれないな -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi2Stage1Dialogue2FaceNaviOrangeMale" Value="うまく使えば,コンボに使えるかもしれないな" Face="NaviOrangeMale" Mono="False" />
+  <!-- ････さてそろそろ引き上げるかな -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue1FaceNaviBlueRobot" Value="････さて,そろそろ引き上げるかな" Face="NaviBlueRobot" Mono="False" />
+  <!-- ん？行商人とは私のことだが････ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue2FaceNaviBlueRobot" Value="ん？,行商人とは私のことだが････" Face="NaviBlueRobot" Mono="False" />
+  <!-- 商品がひとつ残らず品切れになったから店じまいだよ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue3FaceNaviBlueRobot" Value="商品がひとつ残らず,品切れになったから,店じまいだよ" Face="NaviBlueRobot" Mono="False" />
+  <!-- 「ブラインドリーフ　Ｐ」が欲しかったって？残念だったねえ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue4FaceNaviBlueRobot" Value="「ブラインドリーフ　Ｐ」が,欲しかったって？,残念だったねえ" Face="NaviBlueRobot" Mono="False" />
+  <!-- その商品なら一人の客が５枚すべて買い占めていったよ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue5FaceNaviBlueRobot" Value="その商品なら一人の客が,５枚すべて買い占めていったよ" Face="NaviBlueRobot" Mono="False" />
+  <!-- なんでも外国のウラスクエアで人気のチップなんだってね -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue6FaceNaviBlueRobot" Value="なんでも外国のウラスクエアで,人気のチップなんだってね" Face="NaviBlueRobot" Mono="False" />
+  <!-- 次に店を出す時は危険を覚悟でウラに出店も考えてみるか････ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue7FaceNaviBlueRobot" Value="次に店を出す時は,危険を覚悟でウラに出店も,考えてみるか････" Face="NaviBlueRobot" Mono="False" />
+  <!-- 君が欲しがった商品なら一人の客が５枚すべて買い占めていったよ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage3Dialogue1FaceNaviBlueRobot" Value="君が欲しがった商品なら,一人の客が５枚すべて,買い占めていったよ" Face="NaviBlueRobot" Mono="False" />
+  <!-- なんでも外国のウラスクエアで人気のチップなんだってね -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage3Dialogue2FaceNaviBlueRobot" Value="なんでも外国のウラスクエアで,人気のチップなんだってね" Face="NaviBlueRobot" Mono="False" />
+  <!-- 次に店を出す時は危険を覚悟でウラに出店も考えてみるか････ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage3Dialogue3FaceNaviBlueRobot" Value="次に店を出す時は,危険を覚悟でウラに出店も,考えてみるか････" Face="NaviBlueRobot" Mono="False" />
+  <!-- あらぁ　あなたの顔ってすごくおいしそう！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage1Dialogue1FaceNaviBlackRobe" Value="あらぁ　あなたの顔って,すごくおいしそう！" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.CityNet3BlackRobe3Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうシティエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage3Dialogue1FaceShanghai" Value="････ふう,シティエリアの連中は,これで全部みたいね" Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue1FaceShanghai" Value="アリス　電話よ！,鈴仙から！" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue2FaceAlice" Value="鈴仙！,言われたエリアの黒いナビは,全部倒したわよ！" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue3FaceReisen" Value="こちらでも確認した,助かった,礼を言う" Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue4FaceReisen" Value="どうやら連中は,ウラインターネットの深部から,各地へと移動しているようだ" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue5FaceReisen" Value="ウラインターネットにも多数の,交戦を確認している以上,ウラの住人というわけでもない" Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue6FaceReisen" Value="続けてで悪いが,連中の正体を探るために,調査を頼めるか？" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue7FaceShanghai" Value="ウラインターネットの深部････,わかったわ" Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue8FaceAlice" Value="いいの？　シャンハイ" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue9FaceShanghai" Value="あいつらの態度に,か･な･り　ムカついてるのよね" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue10FaceShanghai" Value="根絶やしにできるなら,なんだってしてやるわよ" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue11FaceReisen" Value="ありがたい" Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue12FaceReisen" Value="報酬が欲しければ後々,ネットエージェントに,請求してくれ" Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue13FaceShanghai" Value="わかったわ,それをもらうにもまずは,調査に行かないとね！" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue14FaceAlice" Value="でもウラインターネットの,深部って大丈夫かな？" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue15FaceShanghai" Value="何を今更！,あたしとアリスならどこへ,行っても無敵よ！" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue16FaceAlice" Value="････そうね！,いきましょう,ウラインターネットに！" Face="Alice" Mono="False" />
+  <!-- おや　あなたが依頼を受けてくれた人ですか？ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue1FaceNaviOrangeMale" Value="おや　あなたが依頼を,受けてくれた人ですか？" Face="NaviOrangeMale" Mono="False" />
+  <!-- 私はＳＮＳ「キズナフレンド」の利用者なのですが最近困っているんです -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue2FaceNaviOrangeMale" Value="私はＳＮＳ「キズナフレンド」の,利用者なのですが,最近困っているんです" Face="NaviOrangeMale" Mono="False" />
+  <!-- というのも最近代理で来た管理人がひどい守銭奴で････ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue3FaceNaviOrangeMale" Value="というのも最近代理で来た,管理人がひどい守銭奴で････" Face="NaviOrangeMale" Mono="False" />
+  <!-- かなりの金額を課金しないとろくにサービスを利用することができなくなりました -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue4FaceNaviOrangeMale" Value="かなりの金額を課金しないと,ろくにサービスを利用することが,できなくなりました" Face="NaviOrangeMale" Mono="False" />
+  <!-- （「キズナフレンド」ってあたしの　しもべが運営してるやつ････） -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue5FaceShanghai" Value="（「キズナフレンド」ってあたしの,　しもべが運営してるやつ････）" Face="Shanghai" Mono="False" />
+  <!-- なので　この代理管理人をこらしめてほしいんです！お願いします！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue6FaceNaviOrangeMale" Value="なので　この代理管理人を,こらしめてほしいんです！,お願いします！" Face="NaviOrangeMale" Mono="False" />
+  <!-- ････わかったわ！このあたしにドーンと任せなさい！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue7FaceShanghai" Value="････わかったわ！,このあたしにドーンと,任せなさい！" Face="Shanghai" Mono="False" />
+  <!-- おお！　ありがとうございます！これが管理エリアに入れるＰコードです！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue8FaceNaviOrangeMale" Value="おお！　ありがとうございます！,これが管理エリアに入れる,Ｐコードです！" Face="NaviOrangeMale" Mono="False" />
+  <!-- これでシティエリア２にあるセキュリティキューブを解除して管理人のところに入れます -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue9FaceNaviOrangeMale" Value="これでシティエリア２にある,セキュリティキューブを解除して,管理人のところに入れます" Face="NaviOrangeMale" Mono="False" />
+  <!-- 管理エリアの場所はシティエリア２ですおねがいしますね -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage3Dialogue1FaceNaviOrangeMale" Value="管理エリアの場所は,シティエリア２です,おねがいしますね" Face="NaviOrangeMale" Mono="False" />
+  <!-- おお！　代理管理人をこらしめてくれたんですね！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage5Dialogue1FaceNaviOrangeMale" Value="おお！　代理管理人を,こらしめてくれたんですね！" Face="NaviOrangeMale" Mono="False" />
+  <!-- ありがとうございます！これで気持よく利用できるようになるでしょう！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage5Dialogue2FaceNaviOrangeMale" Value="ありがとうございます！,これで気持よく利用できるように,なるでしょう！" Face="NaviOrangeMale" Mono="False" />
+  <!-- それでは　これが報酬です！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage5Dialogue3FaceNaviOrangeMale" Value="それでは　これが報酬です！" Face="NaviOrangeMale" Mono="False" />
+  <!-- 「キズナフレンド」は友達との貴重な連絡手段でもありますからね -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage7Dialogue1FaceNaviOrangeMale" Value="「キズナフレンド」は友達との,貴重な連絡手段でも,ありますからね" Face="NaviOrangeMale" Mono="False" />
+  <!-- 使えなくなったら大変なことになるところでしたよ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage7Dialogue2FaceNaviOrangeMale" Value="使えなくなったら大変なことに,なるところでしたよ" Face="NaviOrangeMale" Mono="False" />
+  <!-- ここから先はボーダーコンツェルンの社内ネットワークだ -->
+  <Dialogue Key="Map.CityNet3AGuardStage1Dialogue1FaceNaviBlueRobot" Value="ここから先は,ボーダーコンツェルンの,社内ネットワークだ" Face="NaviBlueRobot" Mono="False" />
+  <!-- 関係者以外は立ち入り禁止だぞ -->
+  <Dialogue Key="Map.CityNet3AGuardStage1Dialogue2FaceNaviBlueRobot" Value="関係者以外は,立ち入り禁止だぞ" Face="NaviBlueRobot" Mono="False" />
+  <!-- ここから先は一般人立入禁止だぞ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue1FaceNaviBlueRobot" Value="ここから先は,一般人立入禁止だぞ" Face="NaviBlueRobot" Mono="False" />
+  <!-- ねぇ　お兄さ〜ん暇でしょ〜？ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue2FaceShanghai" Value="ねぇ　お兄さ〜ん,暇でしょ〜？" Face="Shanghai" Mono="False" />
+  <!-- あたしと　イイことしな〜い？ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue3FaceShanghai" Value="あたしと　イイことしな〜い？" Face="Shanghai" Mono="False" />
+  <!-- い　イイこと････！？ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue4FaceNaviBlueRobot" Value="い　イイこと････！？" Face="NaviBlueRobot" Mono="False" />
+  <!-- ふふ　そうよ････イ・イ・こ・と♪ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue5FaceShanghai" Value="ふふ　そうよ････,イ・イ・こ・と♪" Face="Shanghai" Mono="False" />
+  <!-- さあ　こっちへいらっしゃ〜い -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue6FaceShanghai" Value="さあ　こっちへ,いらっしゃ〜い" Face="Shanghai" Mono="False" />
+  <!-- ゴクッ････ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue7FaceNaviBlueRobot" Value="ゴクッ････" Face="NaviBlueRobot" Mono="False" />
+  <!-- そう････もっと近づいて････ほら････ -->
+  <Dialogue Key="Map.CityNet3AGuardStage5Dialogue1FaceShanghai" Value="そう････もっと近づいて････,ほら････" Face="Shanghai" Mono="False" />
+  <!-- お　おお････ -->
+  <Dialogue Key="Map.CityNet3AGuardStage5Dialogue2FaceNaviBlueRobot" Value="お　おお････" Face="NaviBlueRobot" Mono="False" />
+  <!-- とでも思ったかカス野郎が！！ -->
+  <Dialogue Key="Map.CityNet3AGuardStage5Dialogue3FaceShanghai" Value="とでも思ったか,カス野郎が！！" Face="Shanghai" Mono="False" />
+  <!-- へっ！　あたしはそんなに安い女じゃねーわよ！ -->
+  <Dialogue Key="Map.CityNet3AGuardStage7Dialogue1FaceShanghai" Value="へっ！　あたしはそんなに,安い女じゃねーわよ！" Face="Shanghai" Mono="False" />
+  <!-- さあて　これで片付いたわとっとと　アリスを助け出さないと････！ -->
+  <Dialogue Key="Map.CityNet3AGuardStage7Dialogue2FaceShanghai" Value="さあて　これで片付いたわ,とっとと　アリスを,助け出さないと････！" Face="Shanghai" Mono="False" />
+  <!-- さて　見張りがいるわね -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage1Dialogue1FaceShanghai" Value="さて　見張りがいるわね" Face="Shanghai" Mono="False" />
+  <!-- アリス　あたしがあの見張りナビをなんとかするわ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue1FaceShanghai" Value="アリス　あたしが,あの見張りナビをなんとかするわ" Face="Shanghai" Mono="False" />
+  <!-- その後に････ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue2FaceShanghai" Value="その後に････" Face="Shanghai" Mono="False" />
+  <!-- ････あれ？ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue3FaceAlice" Value="････あれ？" Face="Alice" Mono="False" />
+  <!-- スタンガン　キドウ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue4FaceBlackRobot" Value="スタンガン　キドウ" Face="BlackRobot" Mono="False" />
+  <!-- バチィッ！！ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue5FaceNone" Value="バチィッ！！" Face="None" Mono="False" />
+  <!-- バタッ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue6FaceNone" Value="バタッ" Face="None" Mono="False" />
+  <!-- アリス？どうしたのアリス！？ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue1FaceShanghai" Value="アリス？,どうしたのアリス！？" Face="Shanghai" Mono="False" />
+  <!-- しまった････気づかれてたか！ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue2FaceShanghai" Value="しまった････,気づかれてたか！" Face="Shanghai" Mono="False" />
+  <!-- アリスの位置は････ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue3FaceShanghai" Value="アリスの位置は････" Face="Shanghai" Mono="False" />
+  <!-- ボーダーコンツェルンの建物の中に連れて行かれたっぽいわね････ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue4FaceShanghai" Value="ボーダーコンツェルンの,建物の中に連れて行かれた,っぽいわね････" Face="Shanghai" Mono="False" />
+  <!-- まずは　侵入してアリスを助けないと････！ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue5FaceShanghai" Value="まずは　侵入して,アリスを助けないと････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3PostGameBystander1Dialogue1" Value="ええい　道に迷ってしまった,このエリアは複雑すぎるんだ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="シャンハイ様！,このエリアは異常なしですぜ！" Face="NaviPurplePunk" Mono="False" />
+</data>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="BBS.PosterBillager" Value="Billager" />
+  <Text Key="BBS.PosterMakoMako" Value="MakoMako" />
+  <Text Key="BBS.PosterDonkichi" Value="Donkichi" />
+  <Text Key="BBS.PosterNetAgent" Value="NetAgent" />
+  <Text Key="BBS.PosterCorona" Value="Corona" />
+  <Text Key="BBS.PosterTamezou" Value="Tamezou" />
+  <Text Key="BBS.PosterYanFan" Value="YanFan" />
+  <Text Key="BBS.PosterMars" Value="Mars" />
+  <Text Key="BBS.PosterRenkoSis" Value="RenkoSis" />
+  <Text Key="BBS.PosterMesh" Value="Mesh" />
+  <Text Key="BBS.PosterChoChon" Value="ChoChon" />
+  <Text Key="BBS.PosterParasol" Value="Parasol" />
+  <Text Key="BBS.PosterChiko" Value="Chiko" />
+  <Text Key="BBS.PosterLordUsa" Value="LordUsa" />
+  <Text Key="BBS.PosterTowa" Value="Towa" />
+  <Text Key="BBS.PosterCrabMiso" Value="CrabMiso" />
+  <Text Key="BBS.PosterShinono" Value="Shinono" />
+  <Text Key="BBS.PosterPeperon" Value="Peperon" />
+  <Text Key="BBS.PosterNONAME" Value="NO NAME" />
+  <Text Key="BBS.PosterＮＯＮＡＭＥ" Value="ＮＯ ＮＡＭＥ" />
+  <Text Key="BBS.SubjectBoardOpen!" Value="Board Open!" />
+  <Text Key="BBS.SubjectRe:BoardOpen!" Value="Re:Board Open!" />
+  <Text Key="BBS.SubjectAlert" Value="Alert" />
+  <Text Key="BBS.SubjectRe:Alert" Value="Re:Alert" />
+  <Text Key="BBS.SubjectROM’sPast" Value="ROM’s Past" />
+  <Text Key="BBS.SubjectRe:ROM’sPast" Value="Re:ROM’s Past" />
+  <Text Key="BBS.SubjectChipShop" Value="Chip Shop" />
+  <Text Key="BBS.SubjectRe:ChipShop" Value="Re:Chip Shop" />
+  <Text Key="BBS.SubjectN1LeagueOpen!" Value="N1 League Open!" />
+  <Text Key="BBS.SubjectRe:N1LeagueOpen!" Value="Re:N1 League Open!" />
+  <Text Key="BBS.SubjectN1LeagueOver!" Value="N1 League Over!" />
+  <Text Key="BBS.SubjectRe:N1LeagueOver!" Value="Re:N1 League Over!" />
+  <Text Key="BBS.SubjectSeiren" Value="Seiren" />
+  <Text Key="BBS.SubjectRe:Seiren" Value="Re: Seiren" />
+  <Text Key="BBS.SubjectYorikaTravel" Value="Eurica Travel" />
+  <Text Key="BBS.SubjectRe:YorikaTravel" Value="Re:Eurica Travel" />
+  <Text Key="BBS.SubjectPeaceful,Huh?" Value="Peaceful, huh?" />
+  <Text Key="BBS.SubjectRe:Peaceful,Huh?" Value="Re: Peaceful, huh?" />
+  <Text Key="BBS.SubjectRe:HeadsUp" Value="Re: Heads Up" />
+  <Text Key="BBS.SubjectWar!" Value="War!" />
+  <Text Key="BBS.SubjectRe:War!" Value="Re: War!" />
+  <Text Key="BBS.SubjectPeace!" Value="Peace!" />
+  <Text Key="BBS.SubjectRe:Peace!" Value="Re: Peace!" />
+  <Text Key="BBS.SubjectRegularChip" Value="Regular Chip" />
+  <Text Key="BBS.SubjectRe:RegularChip" Value="Re:Regular Chip" />
+  <Text Key="BBS.SubjectAmazingChip" Value="Amazing Chip" />
+  <Text Key="BBS.SubjectRe:AmazingChip" Value="Re:Amazing Chip" />
+  <Text Key="BBS.SubjectAddOnManager" Value="AddOn Manager" />
+  <Text Key="BBS.SubjectRe:AddOnManager" Value="Re:AddOn Manager" />
+  <Text Key="BBS.SubjectGrasshopper" Value="Grasshopper" />
+  <Text Key="BBS.SubjectRe:Grasshopper" Value="Re:Grasshopper" />
+  <Text Key="BBS.SubjectN1League" Value="N1 League" />
+  <Text Key="BBS.SubjectRe:N1League" Value="Re:N1 League" />
+  <Text Key="BBS.SubjectUtterDefeat!" Value="Utter Defeat!" />
+  <Text Key="BBS.SubjectRe:UtterDefeat!" Value="Re:Utter Defeat!" />
+  <Text Key="BBS.SubjectCubeSecrets" Value="Cube Secrets" />
+  <Text Key="BBS.SubjectRe:CubeSecrets" Value="Re: Cube Secrets" />
+  <Text Key="BBS.SubjectKnifeThrow?" Value="Knife Throw?" />
+  <Text Key="BBS.SubjectRe:KnifeThrow?" Value="Re: Knife Throw?" />
+  <Text Key="BBS.SubjectChipCommands" Value="Chip Commands" />
+  <Text Key="BBS.SubjectRe:ChipCommands" Value="Re: Chip Commands" />
+  <Text Key="BBS.SubjectCoreAndHertz" Value="Core &amp; Hertz" />
+  <Text Key="BBS.SubjectRe:CoreAndHertz" Value="Re: Core &amp; Hertz" />
+  <Text Key="BBS.SubjectRequest!" Value="Request!" />
+  <Text Key="BBS.SubjectRe:Request!" Value="Re: Request!" />
+  <Text Key="BBS.SubjectMinusAddOn" Value="Minus AddOn" />
+  <Text Key="BBS.SubjectRe:MinusAddOn" Value="Re: Minus AddOn" />
+  <Text Key="BBS.SubjectBudgetChat" Value="Budget Chat" />
+  <Text Key="BBS.SubjectSubChips" Value="Sub Chips" />
+  <Text Key="BBS.SubjectStatuses" Value="Statuses" />
+  <Text Key="BBS.SubjectRe:Statuses" Value="Re:Statuses" />
+  <Text Key="BBS.SubjectHiddenPath" Value="Hidden Path" />
+  <Text Key="BBS.SubjectMysteryData" Value="Mystery Data" />
+  <Text Key="BBS.SubjectStatusImmunity" Value="Status Immunity" />
+  <Text Key="BBS.SubjectElements" Value="Elements" />
+  <Text Key="BBS.SubjectTerrain" Value="Terrain" />
+  <Text Key="BBS.SubjectRun!" Value="Run!" />
+  <Text Key="BBS.SubjectRe:Run!" Value="Re: Run!" />
+  <Text Key="BBS.SubjectBustingRank" Value="Busting Rank" />
+  <Text Key="BBS.SubjectRe:BustingRank" Value="Re:Busting Rank" />
+  <Text Key="BBS.SubjectHiddenEffect" Value="Hidden Effect" />
+  <Text Key="BBS.SubjectRe:HiddenEffect" Value="Re: Hidden Effect" />
+  <Text Key="BBS.SubjectAmazingPoison" Value="Amazing Poison" />
+  <Text Key="BBS.SubjectRe:AmazingPoison" Value="Re: Amazing Poison" />
+  <Text Key="BBS.SubjectFirePrivileges" Value="Fire Privileges" />
+  <Text Key="BBS.Subject＊Code" Value="＊ Code" />
+  <Text Key="BBS.SubjectRe:＊Code" Value="Re: ＊ Code" />
+  <Text Key="BBS.SubjectHiddenVersion" Value="Hidden Version" />
+  <Text Key="BBS.SubjectRe:HiddenVersion" Value="Re: Hidden Version" />
+  <Text Key="BBS.SubjectInterior" Value="Interior" />
+  <Text Key="BBS.SubjectRe:Interior" Value="Re: Interior" />
+  <Text Key="BBS.SubjectUnderChat" Value="UnderChat" />
+  <Text Key="BBS.SubjectDarkChips" Value="Dark Chips" />
+  <Text Key="BBS.SubjectLawnMowing" Value="Lawn Mowing" />
+  <Text Key="BBS.SubjectDarkChipLady" Value="Dark Chip Lady" />
+  <Text Key="BBS.SubjectTypo" Value="Typo" />
+  <Text Key="BBS.SubjectVirusBall" Value="Virus Ball" />
+  <Text Key="BBS.SubjectRe:VirusBall" Value="Re:Virus Ball" />
+  <Text Key="BBS.SubjectErrorFrags" Value="Error Frags" />
+  <Text Key="BBS.SubjectBugFrags" Value="Bug Frags" />
+  <Text Key="BBS.SubjectROMNavi" Value="ROM Navi" />
+  <Text Key="BBS.SubjectRe:ROMNavi" Value="Re:ROM Navi" />
+  <Text Key="BBS.SubjectDragonVirus" Value="Dragon Virus" />
+  <Text Key="BBS.SubjectRe:DragonVirus" Value="Re:Dragon Virus" />
+  <Text Key="BBS.SubjectCybeast" Value="Cybeast" />
+  <Text Key="BBS.SubjectRe:Cybeast" Value="Re:Cybeast" />
+  <Text Key="BBS.SubjectHunters?" Value="Hunters?" />
+  <Text Key="BBS.SubjectRe:Hunters?" Value="Re:Hunters?" />
+  <Text Key="BBS.SubjectDarkCorruption?" Value="Dark Corruption?" />
+  <Text Key="BBS.SubjectRe:DarkCorruption?" Value="Re: Dark Corruption?" />
+  <Text Key="BBS.SubjectLegendaryNavi" Value="Legendary Navi" />
+  <Text Key="BBS.SubjectRe:LegendaryNavi" Value="Re: Legendary Navi" />
+  <Text Key="BBS.SubjectDarkChipSeller" Value="Dark Chip Seller" />
+  <Text Key="BBS.SubjectRe:DarkChipSeller" Value="Re: Dark Chip Seller" />
+  <Text Key="BBS.SubjectSPVirus" Value="SP Virus" />
+  <Text Key="BBS.SubjectRe:SPVirus" Value="Re: SP Virus" />
+  <Text Key="BBS.SubjectDeepUnder" Value="Deep Under" />
+  <Text Key="BBS.SubjectRe:DeepUnder" Value="Re: Deep Under" />
+  <Text Key="BBS.SubjectROM" Value="ROM" />
+  <Text Key="BBS.SubjectRe:ROM" Value="Re: ROM" />
+  <Text Key="BBS.SubjectSPVirusHunt" Value="SP Virus Hunt" />
+  <Text Key="BBS.SubjectRe:SPVirusHunt" Value="Re: SP Virus Hunt" />
+  <Text Key="BBS.SubjectGhost?" Value="Ghost?" />
+  <Text Key="BBS.SubjectRe:Ghost?" Value="Re: Ghost?" />
+  <Text Key="BBS.SubjectNetHeaven" Value="Net Heaven" />
+  <Text Key="BBS.SubjectRe:NetHeaven" Value="Re: Net Heaven" />
+  <Text Key="BBS.SubjectNetHell" Value="Net Hell" />
+  <Text Key="BBS.SubjectRe:NetHell" Value="Re: Net Hell" />
+  <Text Key="BBS.SubjectPAInfo" Value="PA Info" />
+  <Text Key="BBS.SubjectRe:PAInfo" Value="Re: PA Info" />
+  <Text Key="BBS.SubjectDarkPA" Value="Dark PA" />
+  <Text Key="BBS.SubjectRe:DarkPA" Value="Re: Dark PA" />
+  <Text Key="BBS.SubjectHugeDamage" Value="Huge Damage" />
+  <Text Key="BBS.SubjectRe:HugeDamage" Value="Re: Huge Damage" />
+  <Text Key="BBS.SubjectNaviPA" Value="Navi PA" />
+  <Text Key="BBS.SubjectRe:NaviPA" Value="Re: Navi PA" />
+</data>

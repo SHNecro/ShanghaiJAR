@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM首領の部屋 -->
+  <Text Key="Map.RombaseBossroomName" Value="ROM首領の部屋" />
+  <!-- 邪魔するぜ････ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage1Dialogue1FacePyroManOpMokou" Value="邪魔するぜ････" Face="PyroManOpMokou" Mono="False" />
+  <!-- あら？あなたは誰かしら？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage3Dialogue1FaceHoodedFace" Value="あら？,あなたは誰かしら？" Face="HoodedFace" Mono="False" />
+  <!-- どうやってここに？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage3Dialogue2FaceHoodedFace" Value="どうやってここに？" Face="HoodedFace" Mono="False" />
+  <!-- こっちもそれなりの情報網を持っているんでね -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage3Dialogue3FacePyroManOpMokou" Value="こっちもそれなりの情報網を,持っているんでね" Face="PyroManOpMokou" Mono="False" />
+  <!-- 裏ルートの情報を洗えばこの基地の場所くらいわかるってもんだ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage3Dialogue4FacePyroManOpMokou" Value="裏ルートの情報を洗えば,この基地の場所くらい,わかるってもんだ" Face="PyroManOpMokou" Mono="False" />
+  <!-- それに････あんたらが何を欲しているかもな -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage3Dialogue5FacePyroManOpMokou" Value="それに････あんたらが,何を欲しているかもな" Face="PyroManOpMokou" Mono="False" />
+  <!-- それは････ホーリープログラム？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue1FaceHoodedFace" Value="それは････,ホーリープログラム？" Face="HoodedFace" Mono="False" />
+  <!-- チンケな神社からかっぱらったシロモノだ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue2FacePyroManOpMokou" Value="チンケな神社から,かっぱらったシロモノだ" Face="PyroManOpMokou" Mono="False" />
+  <!-- ビヨンダードへの扉････それを開くカギなんだろう？こいつは -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue3FacePyroManOpMokou" Value="ビヨンダードへの扉････,それを開くカギなんだろう？,こいつは" Face="PyroManOpMokou" Mono="False" />
+  <!-- あら　どこまで私達のことを知っているのかしら？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue4FaceHoodedFace" Value="あら　どこまで私達のことを,知っているのかしら？" Face="HoodedFace" Mono="False" />
+  <!-- そんなに怖い顔をするなよ私はただ取引したいだけだ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue5FacePyroManOpMokou" Value="そんなに怖い顔をするなよ,私はただ取引したいだけだ" Face="PyroManOpMokou" Mono="False" />
+  <!-- 取引？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue6FaceHoodedFace" Value="取引？" Face="HoodedFace" Mono="False" />
+  <!-- そうさ　あんたらの計画を邪魔している存在････ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue7FacePyroManOpMokou" Value="そうさ　あんたらの計画を,邪魔している存在････" Face="PyroManOpMokou" Mono="False" />
+  <!-- そいつと戦わせてくれれば文句は言わねえ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue8FacePyroManOpMokou" Value="そいつと戦わせてくれれば,文句は言わねえ" Face="PyroManOpMokou" Mono="False" />
+  <!-- ････私達の仲間になりたいということね？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue9FaceHoodedFace" Value="････私達の仲間になりたいと,いうことね？" Face="HoodedFace" Mono="False" />
+  <!-- 勘違いするんじゃねえてめえらの計画にはミジンも興味はないんだ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue10FacePyroManOpMokou" Value="勘違いするんじゃねえ,てめえらの計画には,ミジンも興味はないんだ" Face="PyroManOpMokou" Mono="False" />
+  <!-- なるほどねいいわ　承諾しましょう -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue11FaceHoodedFace" Value="なるほどね,いいわ　承諾しましょう" Face="HoodedFace" Mono="False" />
+  <!-- 話が早くて助かるぜヘッヘッヘ････ -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage5Dialogue12FacePyroManOpMokou" Value="話が早くて助かるぜ,ヘッヘッヘ････" Face="PyroManOpMokou" Mono="False" />
+  <!-- （この間　ドルイドマンに　エアプログラムを回収させた　から残りはひとつ････） -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage7Dialogue1FaceHoodedFace" Value="（この間　ドルイドマンに,　エアプログラムを回収させた,　から残りはひとつ････）" Face="HoodedFace" Mono="False" />
+  <!-- （アースプログラムさえ　手に入れば計画もいよいよ　大詰めに入れる････） -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage7Dialogue2FaceHoodedFace" Value="（アースプログラムさえ,　手に入れば計画もいよいよ,　大詰めに入れる････）" Face="HoodedFace" Mono="False" />
+  <!-- （フフフ････この世界に　復讐する日も近い････！） -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage7Dialogue3FaceHoodedFace" Value="（フフフ････この世界に,　復讐する日も近い････！）" Face="HoodedFace" Mono="False" />
+  <!-- （フフフフ････　アハハハ････！） -->
+  <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage7Dialogue4FaceHoodedFace" Value="（フフフフ････,　アハハハ････！）" Face="HoodedFace" Mono="False" />
+  <!-- これがアースプログラムだ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue1FaceScissorManOpTarakhan" Value="これがアースプログラムだ" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- まさか　ペンダントの中にデータの入ったチップを埋め込んでいるとはね････ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue2FaceHoodedFace" Value="まさか　ペンダントの中に,データの入ったチップを,埋め込んでいるとはね････" Face="HoodedFace" Mono="False" />
+  <!-- 奴自身も　そのことには気づいてなかったようだがね -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue3FaceScissorManOpTarakhan" Value="奴自身も　そのことには,気づいてなかったようだがね" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 豪華客船沈没未遂も自身を狙った犯行だとも思ってないようだしな -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue4FaceScissorManOpTarakhan" Value="豪華客船沈没未遂も,自身を狙った犯行だとも,思ってないようだしな" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ターゲットごと船を沈めてペンダントをあとで回収なんて回りくどすぎるんだよ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue5FacePyroManOpMokou" Value="ターゲットごと船を沈めて,ペンダントをあとで回収なんて,回りくどすぎるんだよ" Face="PyroManOpMokou" Mono="False" />
+  <!-- それにしても　フフフ････ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue6FaceHoodedFace" Value="それにしても　フフフ････" Face="HoodedFace" Mono="False" />
+  <!-- ついに････ついにエレメントプログラムが揃ったわ！ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue7FaceHoodedFace" Value="ついに････ついに,エレメントプログラムが揃ったわ！" Face="HoodedFace" Mono="False" />
+  <!-- ということは　ついに計画が････！ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue8FaceCirnoOpFaceShownLetty" Value="ということは　ついに,計画が････！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- 計画計画って言うけどよ今から　いったい何をしでかすつもりなんだ？ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue9FacePyroManOpMokou" Value="計画計画って言うけどよ,今から　いったい何をしでかす,つもりなんだ？" Face="PyroManOpMokou" Mono="False" />
+  <!-- フフフ　見ていればわかるわ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue10FaceHoodedFace" Value="フフフ　見ていればわかるわ" Face="HoodedFace" Mono="False" />
+  <!-- ただひとつ言えることはこれで世界がひっくり返るということよ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue11FaceHoodedFace" Value="ただひとつ言えることは,これで世界がひっくり返ると,いうことよ" Face="HoodedFace" Mono="False" />
+  <!-- へえ････！おもしろそうじゃねえか！ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage1Dialogue12FacePyroManOpMokou" Value="へえ････！,おもしろそうじゃねえか！" Face="PyroManOpMokou" Mono="False" />
+  <!-- だが　大規模なゲートの構築は時間がかかるぞ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage3Dialogue1FaceSoundOnly" Value="だが　大規模なゲートの構築は,時間がかかるぞ" Face="SoundOnly" Mono="False" />
+  <!-- まずはエレメントプログラムのテストがてら　小さなゲートで実験をしてみましょう -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage3Dialogue2FaceHoodedFace" Value="まずはエレメントプログラムの,テストがてら　小さなゲートで,実験をしてみましょう" Face="HoodedFace" Mono="False" />
+  <!-- そして　その実験は世界を私達　ROMが支配する第一歩となるわ！ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage3Dialogue3FaceHoodedFace" Value="そして　その実験は世界を,私達　ROMが支配する,第一歩となるわ！" Face="HoodedFace" Mono="False" />
+  <!-- アハハハ！アハハハハハハ！ -->
+  <Dialogue Key="Map.RombaseBossroomChapter7EventsStage3Dialogue4FaceHoodedFace" Value="アハハハ！,アハハハハハハ！" Face="HoodedFace" Mono="False" />
+</data>

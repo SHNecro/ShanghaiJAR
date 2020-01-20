@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 永遠町　１丁目 -->
+  <Text Key="Map.EienTown2Name" Value="永遠町　１丁目" />
+  <!-- この八意総合病院は日本でも有数の巨大病院なんだよ -->
+  <Dialogue Key="Map.EienTown2Chapter4Student1Stage1Dialogue1FaceMaleGlassesStudent" Value="この八意総合病院は,日本でも有数の,巨大病院なんだよ" Face="MaleGlassesStudent" Mono="False" />
+  <!-- この病院で治せない病気はほとんど無いと言われてるよ -->
+  <Dialogue Key="Map.EienTown2Chapter4Student1Stage1Dialogue2FaceMaleGlassesStudent" Value="この病院で治せない病気は,ほとんど無いと言われてるよ" Face="MaleGlassesStudent" Mono="False" />
+  <!-- あら　あなたはすごく元気みたいね！ -->
+  <Dialogue Key="Map.EienTown2Chapter4NurseStage1Dialogue1FaceNurse" Value="あら　あなたは,すごく元気みたいね！" Face="Nurse" Mono="False" />
+  <!-- 若い子は元気が一番！健康管理はしっかりね！ -->
+  <Dialogue Key="Map.EienTown2Chapter4NurseStage1Dialogue2FaceNurse" Value="若い子は元気が一番！,健康管理はしっかりね！" Face="Nurse" Mono="False" />
+  <!-- ネットエージェントのロボットすっげーカッコイーな！ -->
+  <Dialogue Key="Map.EienTown2Chapter4ChildStage1Dialogue1FaceMaleChild" Value="ネットエージェントのロボット,すっげーカッコイーな！" Face="MaleChild" Mono="False" />
+  <!-- 今ここのロボットが発進していったぞ！ -->
+  <Dialogue Key="Map.EienTown2Chapter4ChildStage3Dialogue1FaceMaleChild" Value="今ここのロボットが,発進していったぞ！" Face="MaleChild" Mono="False" />
+  <!-- パァーって消えてカッコ良かったぞ！ -->
+  <Dialogue Key="Map.EienTown2Chapter4ChildStage3Dialogue2FaceMaleChild" Value="パァーって消えて,カッコ良かったぞ！" Face="MaleChild" Mono="False" />
+  <!-- ネットエージェントが戦う相手の中にはネットマフィアみたいなのもいる -->
+  <Dialogue Key="Map.EienTown2Chapter4NetoeStage1Dialogue1FacePoliceman" Value="ネットエージェントが,戦う相手の中には,ネットマフィアみたいなのもいる" Face="Policeman" Mono="False" />
+  <!-- エージェントのオペレーターが直接狙われるのを防ぐために戦力を所有しているんだよ -->
+  <Dialogue Key="Map.EienTown2Chapter4NetoeStage1Dialogue2FacePoliceman" Value="エージェントのオペレーターが,直接狙われるのを防ぐために,戦力を所有しているんだよ" Face="Policeman" Mono="False" />
+  <!-- あんたの金髪　地毛なんだ？いいなーチョーカワイー！ -->
+  <Dialogue Key="Map.EienTown2Chapter4Student2Stage1Dialogue1FaceBlondeHairGalStudent" Value="あんたの金髪　地毛なんだ？,いいなーチョーカワイー！" Face="BlondeHairGalStudent" Mono="False" />
+  <!-- ここがエージェントセンターかぁ -->
+  <Dialogue Key="Map.EienTown2Chapter4TenshiStage1Dialogue1FaceTenshi" Value="ここがエージェントセンターかぁ" Face="Tenshi" Mono="False" />
+  <!-- 早く入ろっ　アリス！ -->
+  <Dialogue Key="Map.EienTown2Chapter4TenshiStage1Dialogue2FaceTenshi" Value="早く入ろっ　アリス！" Face="Tenshi" Mono="False" />
+  <!-- アリス　一緒に来てくれてありがとうなのよ！ -->
+  <Dialogue Key="Map.EienTown2Chapter4TenshiStage3Dialogue1FaceTenshi" Value="アリス　一緒に来てくれて,ありがとうなのよ！" Face="Tenshi" Mono="False" />
+  <!-- エージェントセンターへようこそ -->
+  <Dialogue Key="Map.EienTown2Chapter4Netoe2Stage1Dialogue1FacePoliceman" Value="エージェントセンターへようこそ" Face="Policeman" Mono="False" />
+  <!-- 要件は入って右側の受付におねがいしますね -->
+  <Dialogue Key="Map.EienTown2Chapter4Netoe2Stage1Dialogue2FacePoliceman" Value="要件は入って右側の,受付におねがいしますね" Face="Policeman" Mono="False" />
+  <!-- 最近ネットエージェントがＲＯＭに対してたいした成果を挙げられてないらしい -->
+  <Dialogue Key="Map.EienTown2Chapter5Student2Stage1Dialogue1FaceMaleGlassesStudent" Value="最近ネットエージェントが,ＲＯＭに対してたいした,成果を挙げられてないらしい" Face="MaleGlassesStudent" Mono="False" />
+  <!-- どちらも凄い組織だからその水面下での戦いは計り知れないだろうね -->
+  <Dialogue Key="Map.EienTown2Chapter5Student2Stage1Dialogue2FaceMaleGlassesStudent" Value="どちらも凄い組織だから,その水面下での戦いは,計り知れないだろうね" Face="MaleGlassesStudent" Mono="False" />
+  <!-- はえぇぇ？何ですかい？耳が遠くてのぉ -->
+  <Dialogue Key="Map.EienTown27thAnniversaryStage1Dialogue1FaceFemaleElderly" Value="はえぇぇ？,何ですかい？,耳が遠くてのぉ" Face="FemaleElderly" Mono="False" />
+  <!-- 病院に行くための腰を整えておるんじゃ邪魔しないでおくれ -->
+  <Dialogue Key="Map.EienTown27thAnniversaryStage1Dialogue2FaceFemaleElderly" Value="病院に行くための腰を,整えておるんじゃ,邪魔しないでおくれ" Face="FemaleElderly" Mono="False" />
+  <!-- 天災は忘れた頃にやってくるものだ -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage1Dialogue1FacePoliceman" Value="天災は忘れた頃に,やってくるものだ" Face="Policeman" Mono="False" />
+  <!-- 事件が少ない今こそ危機意識を忘れてはいけない -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage1Dialogue2FacePoliceman" Value="事件が少ない今こそ,危機意識を忘れてはいけない" Face="Policeman" Mono="False" />
+  <!-- インターネットが謎のナビの襲撃を受けているらしい -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage3Dialogue1FacePoliceman" Value="インターネットが,謎のナビの襲撃を,受けているらしい" Face="Policeman" Mono="False" />
+  <!-- が　しかし新米隊員の私にはできることがないのだ････ -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage3Dialogue2FacePoliceman" Value="が　しかし,新米隊員の私には,できることがないのだ････" Face="Policeman" Mono="False" />
+  <!-- いつケガをした人が来ても受け入れられる体制を整えているのよ -->
+  <Dialogue Key="Map.EienTown2Chapter8NurseStage1Dialogue1FaceNurse" Value="いつケガをした人が来ても,受け入れられる体制を,整えているのよ" Face="Nurse" Mono="False" />
+  <!-- ネットエージェントは不眠不休の意気込みで事態に対応している -->
+  <Dialogue Key="Map.EienTown2Chapter8WhiteStage1Dialogue1FaceScientist" Value="ネットエージェントは,不眠不休の意気込みで,事態に対応している" Face="Scientist" Mono="False" />
+  <!-- 私だけでもその活躍を信じてあげねばならんのだ -->
+  <Dialogue Key="Map.EienTown2Chapter8WhiteStage1Dialogue2FaceScientist" Value="私だけでもその活躍を,信じてあげねばならんのだ" Face="Scientist" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboBazookaStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboBazookaStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboShieldStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboShieldStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- 今　病院に入ってもしょうがないでしょ？ -->
+  <Dialogue Key="Map.EienTown2HospitalEntranceStage1Dialogue1FaceShanghai" Value="今　病院に入っても,しょうがないでしょ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander1Dialogue1" Value="なんだかいつもより,空気が気持ちいい気がするの！" Face="Nurse" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander2Dialogue1" Value="ＲＯＭの宣戦布告のときには,我が人生もこれまでかと思ったが,まだまだ長生きできそうじゃ" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander3Dialogue1" Value="サグメ隊長や多くの隊員は,ＲＯＭ基地の調査に,でかけているよ" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander3Dialogue2" Value="あと鈴仙隊員はインゲレスで,犯罪組織を追っているんだ" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander4Dialogue1" Value="あんれまあ,病院はどっちじゃったかのう？" Face="FemaleElderly" Mono="False" />
+</data>

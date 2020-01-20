@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>Post_Build_Steps</RootNamespace>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="DEL &quot;$(SolutionDir)$(ConfigurationName)&quot;/Q /S&#xD;&#xA;mkdir &quot;$(SolutionDir)$(ConfigurationName)&quot;&#xD;&#xA;xcopy &quot;$(SolutionDir)ShanghaiEXE/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;xcopy &quot;$(SolutionDir)KeyConfig/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;xcopy &quot;$(SolutionDir)MapEditor/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;&#xD;&#xA;if &quot;$(ConfigurationName)&quot;==&quot;Release&quot; (&#xD;&#xA;    xcopy &quot;$(SolutionDir)keys\verify.txt&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;    DEL &quot;$(SolutionDir)$(ConfigurationName)\*.exe.config&quot;/Q /S&#xD;&#xA;)" />
+  </Target>
+  <Target Name="SpicNSpan" AfterTargets="Clean">
+    <Exec Command="DEL &quot;$(SolutionDir)$(ConfigurationName)&quot;/Q /S" />
+  </Target>
+
+</Project>

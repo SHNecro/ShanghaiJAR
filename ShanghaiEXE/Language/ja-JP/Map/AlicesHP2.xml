@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AlicesHP2Name" Value="シャンハイの私室" />
+  <Dialogue Key="Map.AlicesHP2FamilyTableInStage1Dialogue1FaceNone" Value="神綺家のリビングにあるのと,同タイプの電脳机だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FamilyTableInStage1Dialogue2FaceNone" Value="ぜひとも友達を招待して,宅を囲んでみたいものだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2PinkBoxInStage1Dialogue1FaceNone" Value="ピンク色のカラーボックスだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2PinkBoxInStage1Dialogue2FaceNone" Value="ピンク色だが,中に入っている電子書籍は,普通の本である" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ComputerDeskInStage1Dialogue1FaceNone" Value="電脳パソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ComputerDeskInStage1Dialogue2FaceNone" Value="アリスのパソコンと同じ,レイアウトなのは　シャンハイが,わざとそうやってるだけだという" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2PinkSheetsBedInStage1Dialogue1FaceNone" Value="可愛らしい色の,掛け布団がかかったベッドだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2PinkSheetsBedInStage1Dialogue2FaceNone" Value="シャンハイは,ベッドで少しだけ休憩をした" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2GraySheetBedInStage1Dialogue1FaceNone" Value="クールな色の,掛け布団がかかったベッドだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2GraySheetBedInStage1Dialogue2FaceNone" Value="シャンハイは,ベッドで少しだけ休憩をした" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2WideScreenPersonalComputerStage1Dialogue1FaceNone" Value="ワイドディスプレイが,特徴的な電脳パソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2WideScreenPersonalComputerStage1Dialogue2FaceNone" Value="さすがに電脳世界から,さらにプラグインはできない" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RoyalCounterInStage1Dialogue1FaceNone" Value="高級感ただよう,カウンターテーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RoyalCounterInStage1Dialogue2FaceNone" Value="上に乗っている可愛らしい,花の水差しがいい,アクセントになっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2PipeRackInStage1Dialogue1FaceNone" Value="パイプを組み合わせた,かっこいいラックだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2PipeRackInStage1Dialogue2FaceNone" Value="透明な板が張られており,置いたものが浮いて見える" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2OrdinaryPottedPlantInStage1Dialogue1FaceNone" Value="これといって特徴のない,普通の電脳観葉植物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2OrdinaryPottedPlantInStage1Dialogue2FaceNone" Value="水やりや枯れる心配がなく,永久に緑を楽しめる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2BouquetPottedPlantInStage1Dialogue1FaceNone" Value="色とりどりの花が,ところ狭しと顔を出す,電脳観葉植物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2BouquetPottedPlantInStage1Dialogue2FaceNone" Value="様々な植物がひしめきあい,根元の方はかなり複雑に,絡み合っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SmallPottedPlantsInStage1Dialogue1FaceNone" Value="とても小さい電脳観葉植物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SmallPottedPlantsInStage1Dialogue2FaceNone" Value="間違えて蹴ってしまいそうに,なるが　なぜかテーブルには,置くことができない" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryGreenInStage1Dialogue1FaceNone" Value="緑色のミステリーデータの,レプリカの置物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryGreenInStage1Dialogue2FaceNone" Value="緑色のミステリーデータは,中身がランダムに変化し,プラグインする度に入手できる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryGreenInStage1Dialogue3FaceNone" Value="たまにお宝が入っているので,積極的に回収していきたい" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryBlueInStage1Dialogue1FaceNone" Value="青色のミステリーデータの,レプリカの置物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryBlueInStage1Dialogue2FaceNone" Value="青色のミステリーデータは,１度しか取れないものの,中身はいいものが揃っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryBlueInStage1Dialogue3FaceNone" Value="いろんな電脳世界に,落ちているのでプラグインを,欠かさないようにしよう" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryPurpleInStage1Dialogue1FaceNone" Value="紫色のミステリーデータの,レプリカの置物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryPurpleInStage1Dialogue2FaceNone" Value="紫色のミステリーデータは,クラックツールが必要なだけあり,かなりいいものが入っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummyMysteryPurpleInStage1Dialogue3FaceNone" Value="見つけたらすぐに回収できるよう,クラックツールを常にいくつか,持ち歩きたいものだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummySCubeInStage1Dialogue1FaceNone" Value="セキュリティキューブの,レプリカの置物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummySCubeInStage1Dialogue2FaceNone" Value="見知らぬナビが入らないように,Ｐコードはこまめに変えることが,推奨されている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2DummySCubeInStage1Dialogue3FaceNone" Value="急に友達のホームページに,入れなくなったら　新しい,Ｐコードをもらってこよう" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ShopTableInStage1Dialogue1FaceNone" Value="ネット商人が使う,カウンターテーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ShopTableInStage1Dialogue2FaceNone" Value="料金の計算や支払い,賞品の収納やメニュー表示など,様々な機能がある" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ShopTableInStage1Dialogue3FaceNone" Value="これはレプリカなので,商売はできない" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RequestBulletinBoardInStage1Dialogue1FaceNone" Value="依頼掲示板だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ABigStreetTreeInStage1Dialogue1FaceNone" Value="外でよく見かける,一般的な街路樹だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ABigStreetTreeInStage1Dialogue2FaceNone" Value="ボールのように固まった葉が,なんともかわいらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SmallStreetTreeInStage1Dialogue1FaceNone" Value="外でよく見かける,小さな街路樹だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SmallStreetTreeInStage1Dialogue2FaceNone" Value="広い葉が折り重なって,フワフワした印象を受ける" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2HanasakiStreetTreeInStage1Dialogue1FaceNone" Value="外でよく見かける,小さな街路樹だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2HanasakiStreetTreeInStage1Dialogue2FaceNone" Value="これまた小さな花が咲いており,なんともかわいらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ParkBenchInStage1Dialogue1FaceNone" Value="公園で見られる木製のベンチだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ParkBenchInStage1Dialogue2FaceNone" Value="公園の休憩スポットだが,人によってはベッドにも,テーブルにもなるという" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2Student’sDeskInStage1Dialogue1FaceNone" Value="学校でよく見る勉強机だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2Student’sDeskInStage1Dialogue2FaceNone" Value="引き出しに入れたものを,そのまま忘れてしまうのは,よくあることだという" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2TeachInStage1Dialogue1FaceNone" Value="先生が使う教卓だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2TeachInStage1Dialogue2FaceNone" Value="生徒が使うには高すぎる高さが,先生用の机であることを,際立たせている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2GlassTableInStage1Dialogue1FaceNone" Value="広々としたガラステーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2GlassTableInStage1Dialogue2FaceNone" Value="思わず手を触れて,指紋がついてしまうと,申し訳ない気持ちになる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ReplicaBattleMachineInStage1Dialogue1FaceNone" Value="ネットバトルマシンを模した,レプリカの置物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ReplicaBattleMachineInStage1Dialogue2FaceNone" Value="本物はゲームセンター等に,置かれており　ネットバトラーが,腕を競い合っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RestingChairInStage1Dialogue1FaceNone" Value="休憩用の椅子だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RestingChairInStage1Dialogue2FaceNone" Value="妙に硬くて座りごこちが悪いのは,電脳世界でも変わらない" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SubchipVendingMachineInStage1Dialogue1FaceNone" Value="サブチップの自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2OfficeDeskInStage1Dialogue1FaceNone" Value="オフィスで見られる無骨な机だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2OfficeDeskInStage1Dialogue2FaceNone" Value="無骨な分機能性が高く,極めて頑丈である" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2AirPurifierInStage1Dialogue1FaceNone" Value="電脳空気清浄機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2AirPurifierInStage1Dialogue2FaceNone" Value="電脳世界でも,空気の概念があるため,結構重宝する" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FolderScreenInStage1Dialogue1FaceNone" Value="フォルダの映像が写された,大型のディスプレイだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FolderScreenInStage1Dialogue2FaceNone" Value="この大きさでゲームを遊べば,かなりの迫力になるはずだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FlatScreenTVInStage1Dialogue1FaceNone" Value="薄型のテレビだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FlatScreenTVInStage1Dialogue2FaceNone" Value="ネットナビも　時には,テレビを見たくなるものだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2IvilEyeSofaInStage1Dialogue1FaceNone" Value="大目玉型ウィルスの,イビルアイΣを模したソファだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2IvilEyeSofaInStage1Dialogue2FaceNone" Value="こうしてみると里香が,このウィルスを好きな理由が,わかってくるかもしれない" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FutonInStage1Dialogue1FaceNone" Value="ふかふかのお布団だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FutonInStage1Dialogue2FaceNone" Value="一度入ったら最後,気持ちよさのあまり,抜け出せなくなる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FutonInStage1Dialogue3FaceNone" Value="シャンハイは,中に入って少しだけ休憩をした" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FlowerTankInStage1Dialogue1FaceNone" Value="戦車型ウィルス,フラワータンクに似せた,等身大の戦車の模型だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2FlowerTankInStage1Dialogue2FaceNone" Value="里香は古い戦車を,ネットで購入してこれと同じ,ような飾り付けをおこなったとか" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2G7CurtisModelInStage1Dialogue1FaceNone" Value="ネットエージェントが保有する,最新型機動兵器,Ｇ７カーティスの模型だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2G7CurtisModelInStage1Dialogue2FaceNone" Value="模型なのでハリボテだが,本物にかなり忠実な,つくりになっているらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ChandelierInStage1Dialogue1FaceNone" Value="豪華さが溢れるシャンデリアだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2ChandelierInStage1Dialogue2FaceNone" Value="これがあるだけで空間が,ロイヤルな感じに思えてくる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RoyalBedInStage1Dialogue1FaceNone" Value="お姫様が寝るような,高級感溢れる,すごいベッドだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RoyalBedInStage1Dialogue2FaceNone" Value="シャンハイは,ベッドで少しだけ休憩をした" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RoundTableInStage1Dialogue1FaceNone" Value="高価な電脳生地の,テーブルクロスで覆われた,丸テーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2RoundTableInStage1Dialogue2FaceNone" Value="一発芸の練習には,もってこいだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SuitesTableInStage1Dialogue1FaceNone" Value="高価な電脳生地の,テーブルクロスで覆われた,丸テーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2SuitesTableInStage1Dialogue2FaceNone" Value="テーブルの上の電脳ケーキが,甘い誘惑を飛ばしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2WineTableInStage1Dialogue1FaceNone" Value="高価な電脳生地の,テーブルクロスで覆われた,丸テーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2WineTableInStage1Dialogue2FaceNone" Value="テーブルの上の電脳ワインは,年代物のようだが････？" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2VaseTableInStage1Dialogue1FaceNone" Value="高価な電脳生地の,テーブルクロスで覆われた,丸テーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2VaseTableInStage1Dialogue2FaceNone" Value="テーブルの上の電脳花瓶から,ほのかに良い香りが,漂ってくる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2GourmetTableInStage1Dialogue1FaceNone" Value="高価な電脳生地の,テーブルクロスで覆われた,丸テーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2GourmetTableInStage1Dialogue2FaceNone" Value="テーブルの上の電脳チキンの,ジューシーさアピールに,思わずヨダレがこみ上げる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2HighClassSofaInStage1Dialogue1FaceNone" Value="吸い込まれそうな質感の,高級電脳ソファだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2HighClassSofaInStage1Dialogue2FaceNone" Value="横になれば下手なベッドより,良い眠りにつけそうな気さえ,感じてくる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2InglesStreetTreeInStage1Dialogue1FaceNone" Value="インゲレスでよくみられる,街路樹だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2InglesStreetTreeInStage1Dialogue2FaceNone" Value="実はこの木々の大半は,リンゴの樹であり１０月には,リンゴがたくさん実るという" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2TheImageOfTheGreatDetectiveInStage1Dialogue1FaceNone" Value="ナドゥ･ヤマザの電脳銅像だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2TheImageOfTheGreatDetectiveInStage1Dialogue2FaceNone" Value="レプリカであってもその威厳と,溢れんばかりの知性は,存分に感じられる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2BusStationInStage1Dialogue1FaceNone" Value="インゲレスのバス停だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2BusStationInStage1Dialogue2FaceNone" Value="インゲレスを含むヨーリカでは,バスの完全自動運転が,当たり前になっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2BusStationInStage1Dialogue3FaceNone" Value="そのためバス停にも自動運転を,制御するあれやこれやが,詰まっているらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2NekoDollsInStage1Dialogue1FaceNone" Value="ねこどるふぃんのぬいぐるみだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2NekoDollsInStage1Dialogue2FaceNone" Value="あまりのかわいさに,体力が回復した" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2CardboardInStage1Dialogue1FaceNone" Value="インテリア用の,電脳ダンボールだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2CardboardInStage1Dialogue2FaceNone" Value="中に何が入っているかは,ナビそれぞれである" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2Two-tierCorrugatedCardboardStage1Dialogue1FaceNone" Value="インテリア用の,電脳ダンボールだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP2Two-tierCorrugatedCardboardStage1Dialogue2FaceNone" Value="重ねて下になった箱の,中身は持ち主さえなかなか,把握することはできない" Face="None" Mono="False" />
+</data>

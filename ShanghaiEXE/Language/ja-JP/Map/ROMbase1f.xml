@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM基地　倉庫 -->
+  <Text Key="Map.ROMbase1fName" Value="ROM基地　倉庫" />
+  <!-- この部屋を管理するコントロールパネルだ -->
+  <Dialogue Key="Map.ROMbase1fControlStage1Dialogue1FaceNone" Value="この部屋を管理する,コントロールパネルだ" Face="None" Mono="False" />
+  <!-- 空調やバリアーの制御をするためにプラグインをすることが可能だ -->
+  <Dialogue Key="Map.ROMbase1fControlStage1Dialogue2FaceNone" Value="空調やバリアーの制御を,するためにプラグインを,することが可能だ" Face="None" Mono="False" />
+  <!-- 配線的にこの機械にプラグインすればそこのバリアーを解除できるはず！ -->
+  <Dialogue Key="Map.ROMbase1fROMDennou2PluginStage1Dialogue1FaceAlice" Value="配線的にこの機械に,プラグインすればそこの,バリアーを解除できるはず！" Face="Alice" Mono="False" />
+  <!-- 頼んだわよ　アリス！ -->
+  <Dialogue Key="Map.ROMbase1fROMDennou2PluginStage1Dialogue2FaceShanghai" Value="頼んだわよ　アリス！" Face="Shanghai" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- アリス　メールが来たわよあ、パパだ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue1FaceShanghai" Value="アリス　メールが来たわよ,あ、パパだ" Face="Shanghai" Mono="False" />
+  <!-- パパから？えーっと････ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue2FaceAlice" Value="パパから？,えーっと････" Face="Alice" Mono="False" />
+  <!-- お前の友達からＲＯＭの基地に向かったことを聞いた -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue3FaceLloyd" Value="お前の友達から,ＲＯＭの基地に向かった,ことを聞いた" Face="Lloyd" Mono="True" />
+  <!-- お前たちがやると決めたなら俺は止めはしない全力でやり遂げるんだ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue4FaceLloyd" Value="お前たちがやると決めたなら,俺は止めはしない,全力でやり遂げるんだ" Face="Lloyd" Mono="True" />
+  <!-- アリスとレベッカ二人の無事を祈ってこのアドオンを預ける -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue5FaceLloyd" Value="アリスとレベッカ,二人の無事を祈ってこの,アドオンを預ける" Face="Lloyd" Mono="True" />
+  <!-- 二人ならやれると俺は確信しているぞ！ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue6FaceLloyd" Value="二人ならやれると,俺は確信しているぞ！" Face="Lloyd" Mono="True" />
+  <!-- パパ････ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue7FaceAlice" Value="パパ････" Face="Alice" Mono="False" />
+  <!-- パパの想いのためにも気をつけましょう　アリス！ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue8FaceShanghai" Value="パパの想いのためにも,気をつけましょう　アリス！" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue9FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+  <!-- バリアーフェンスで道が塞がれてるわね -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage1Dialogue1FaceShanghai" Value="バリアーフェンスで,道が塞がれてるわね" Face="Shanghai" Mono="False" />
+  <!-- 配線的に････この近くの機械から制御しているみたいね -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage1Dialogue2FaceAlice" Value="配線的に････,この近くの機械から,制御しているみたいね" Face="Alice" Mono="False" />
+  <!-- いつものようにプラグインして解除しましょ！ -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage1Dialogue3FaceShanghai" Value="いつものようにプラグインして,解除しましょ！" Face="Shanghai" Mono="False" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage3Dialogue1FaceNone" Value="隣の部屋への通行を妨げる,バリアーフェンスだ" Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage3Dialogue2FaceNone" Value="無理に通ろうとすると,痺れるでは済まない" Face="None" Mono="False" />
+  <!-- チッ････ここまでってわけかよ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue1FacePyroManOpMokou" Value="チッ････,ここまでってわけかよ" Face="PyroManOpMokou" Mono="False" />
+  <!-- てめえらみたいなガキに負けて私のメンツはズタボロだ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue2FacePyroManOpMokou" Value="てめえらみたいなガキに負けて,私のメンツはズタボロだ" Face="PyroManOpMokou" Mono="False" />
+  <!-- それがあたしたちに執着してた理由ってわけね -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue3FaceShanghai" Value="それがあたしたちに,執着してた理由ってわけね" Face="Shanghai" Mono="False" />
+  <!-- 極道組織　藤原組組長の娘藤原妹紅････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue4FaceShanghai" Value="極道組織　藤原組組長の娘,藤原妹紅････" Face="Shanghai" Mono="False" />
+  <!-- 組長の娘････？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue5FaceAlice" Value="組長の娘････？" Face="Alice" Mono="False" />
+  <!-- 裏社会ってのは力が全てだ負け犬には何の価値もねえ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue6FacePyroManOpMokou" Value="裏社会ってのは力が全てだ,負け犬には何の価値もねえ" Face="PyroManOpMokou" Mono="False" />
+  <!-- だから負けるわけにはいかなかった -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue7FacePyroManOpMokou" Value="だから負けるわけには,いかなかった" Face="PyroManOpMokou" Mono="False" />
+  <!-- 私はいつかは組織を継ぐ身だけどこんなシュウタイを晒しちまったんだ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue8FacePyroManOpMokou" Value="私はいつかは組織を継ぐ身だ,けどこんなシュウタイを,晒しちまったんだ" Face="PyroManOpMokou" Mono="False" />
+  <!-- こんな情けない姿オヤジが見たら失望さ縁を切られてもおかしくねえ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue9FacePyroManOpMokou" Value="こんな情けない姿,オヤジが見たら失望さ,縁を切られてもおかしくねえ" Face="PyroManOpMokou" Mono="False" />
+  <!-- ････本当にそうかしら？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue10FaceShanghai" Value="････本当にそうかしら？" Face="Shanghai" Mono="False" />
+  <!-- ････何？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue11FacePyroManOpMokou" Value="････何？" Face="PyroManOpMokou" Mono="False" />
+  <!-- このＲＯＭの基地の場所をネットエージェントに流したのは誰だと思う？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue12FaceShanghai" Value="このＲＯＭの基地の場所を,ネットエージェントに流したのは,誰だと思う？" Face="Shanghai" Mono="False" />
+  <!-- 藤原組よ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue13FaceShanghai" Value="藤原組よ" Face="Shanghai" Mono="False" />
+  <!-- オヤジが････？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue14FacePyroManOpMokou" Value="オヤジが････？" Face="PyroManOpMokou" Mono="False" />
+  <!-- 妹紅さんのお父さんが妹紅さんを連れ戻したかったんだよ！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue15FaceReimu" Value="妹紅さんのお父さんが,妹紅さんを,連れ戻したかったんだよ！" Face="Reimu" Mono="False" />
+  <!-- えっと････けいたい電話をスピーカーモードにしてっと････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue16FaceReimu" Value="えっと････けいたい電話を,スピーカーモードにしてっと････" Face="Reimu" Mono="False" />
+  <!-- 妹紅！妹紅聞いてる？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue1FaceSumireko" Value="妹紅！,妹紅聞いてる？" Face="Sumireko" Mono="False" />
+  <!-- 菫子（すみれこ）････？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue2FacePyroManOpMokou" Value="菫子（すみれこ）････？" Face="PyroManOpMokou" Mono="False" />
+  <!-- あなたのお父さんがあなた宛ての手紙を私に託したのよ！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue3FaceSumireko" Value="あなたのお父さんが,あなた宛ての手紙を私に,託したのよ！" Face="Sumireko" Mono="False" />
+  <!-- 「道を間違えるな　過ちを正して帰ってこい」････って！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue4FaceSumireko" Value="「道を間違えるな,　過ちを正して帰ってこい」,････って！" Face="Sumireko" Mono="False" />
+  <!-- オヤジ････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue5FacePyroManOpMokou" Value="オヤジ････" Face="PyroManOpMokou" Mono="False" />
+  <!-- ････私はいったいどうすればいいんだ？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue6FacePyroManOpMokou" Value="････私はいったい,どうすればいいんだ？" Face="PyroManOpMokou" Mono="False" />
+  <!-- 簡単だよ！悪い事しちゃったらごめんなさいってするの！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue7FaceReimu" Value="簡単だよ！,悪い事しちゃったら,ごめんなさいってするの！" Face="Reimu" Mono="False" />
+  <!-- ごめんなさい････か -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue8FacePyroManOpMokou" Value="ごめんなさい････か" Face="PyroManOpMokou" Mono="False" />
+  <!-- ････フッガキに教えられるなんて私もまだまだってわけだな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue9FacePyroManOpMokou" Value="････フッ,ガキに教えられるなんて,私もまだまだってわけだな" Face="PyroManOpMokou" Mono="False" />
+  <!-- ････悪かった -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue10FacePyroManOpMokou" Value="････悪かった" Face="PyroManOpMokou" Mono="False" />
+  <!-- これで大丈夫！妹紅さん　永遠町に一緒に帰ろう！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue11FaceReimu" Value="これで大丈夫！,妹紅さん　永遠町に,一緒に帰ろう！" Face="Reimu" Mono="False" />
+  <!-- ････そうだな菫子の奴にも詫びを入れなきゃいけないからな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue12FacePyroManOpMokou" Value="････そうだな,菫子の奴にも詫びを,入れなきゃいけないからな" Face="PyroManOpMokou" Mono="False" />
+  <!-- 引き上げだパイロマン使えないナビなんて言って悪かったな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue13FacePyroManOpMokou" Value="引き上げだパイロマン,使えないナビなんて言って,悪かったな" Face="PyroManOpMokou" Mono="False" />
+  <!-- シュー････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue14FacePyroMan" Value="シュー････" Face="PyroMan" Mono="False" />
+  <!-- アリスとか言ったなそこのバリアの受け持ちはタラカーンって野郎だ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue1FacePyroManOpMokou" Value="アリスとか言ったな,そこのバリアの受け持ちは,タラカーンって野郎だ" Face="PyroManOpMokou" Mono="False" />
+  <!-- タラカーン････シザーマンのオペレーターね -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue2FaceAlice" Value="タラカーン････,シザーマンのオペレーターね" Face="Alice" Mono="False" />
+  <!-- ････油断するなよお前は私に勝ったんだからな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue3FacePyroManOpMokou" Value="････油断するなよ,お前は私に勝ったんだからな" Face="PyroManOpMokou" Mono="False" />
+  <!-- 別のやつに負けちまったら私のメンツがもっとダメになる -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue4FacePyroManOpMokou" Value="別のやつに負けちまったら,私のメンツがもっとダメになる" Face="PyroManOpMokou" Mono="False" />
+  <!-- 本当に反省したのかねぇ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage7Dialogue1FaceShanghai" Value="本当に反省したのかねぇ" Face="Shanghai" Mono="False" />
+  <!-- いいじゃないのとにかく　進むわよ！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage7Dialogue2FaceAlice" Value="いいじゃないの,とにかく　進むわよ！" Face="Alice" Mono="False" />
+  <!-- レミリアにネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage1Dialogue1QuestionFaceShanghai" Value="レミリアにネットバトルを,申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbase1fSakuyaBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- 力を見せて上げなさい！サクヤ！ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage1Dialogue2FaceRemilia" Value="力を見せて上げなさい！,サクヤ！" Face="Remilia" Mono="False" />
+  <!-- ホホホ　私の勝ちですわよ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage3Dialogue1FaceRemilia" Value="ホホホ　私の勝ちですわよ" Face="Remilia" Mono="False" />
+  <!-- さすがはアリスねサクヤを２度も倒すなんて -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage5Dialogue1FaceRemilia" Value="さすがはアリスね,サクヤを２度も倒すなんて" Face="Remilia" Mono="False" />
+  <!-- ジャスト３分で終わらせてあげるわよ！ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage6Dialogue1FaceRemilia" Value="ジャスト３分で,終わらせてあげるわよ！" Face="Remilia" Mono="False" />
+  <!-- ホホホ　私の勝ちですわよ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage8Dialogue1FaceRemilia" Value="ホホホ　私の勝ちですわよ" Face="Remilia" Mono="False" />
+  <!-- あなた達のポテンシャル････計り知れないわね -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage10Dialogue1FaceRemilia" Value="あなた達のポテンシャル････,計り知れないわね" Face="Remilia" Mono="False" />
+  <!-- まだあのこと怒ってる？ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage11Dialogue1FaceRemilia" Value="まだあのこと怒ってる？" Face="Remilia" Mono="False" />
+  <!-- 気が向いた時に私はいつでも受けて立つわよ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage11Dialogue2FaceRemilia" Value="気が向いた時に,私はいつでも受けて立つわよ" Face="Remilia" Mono="False" />
+  <!-- メディスンってばオペレーターを巻き込みたくないけどＲＯＭに挨拶には行きたいって言って -->
+  <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue1FaceRemilia" Value="メディスンってばオペレーターを,巻き込みたくないけどＲＯＭに,挨拶には行きたいって言って" Face="Remilia" Mono="False" />
+  <!-- 私のところに頭下げて頼み込んできたのよ -->
+  <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue2FaceRemilia" Value="私のところに頭下げて,頼み込んできたのよ" Face="Remilia" Mono="False" />
+  <!-- やることはやったからってもう帰ったみたいだけどね -->
+  <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue3FaceRemilia" Value="やることはやったからって,もう帰ったみたいだけどね" Face="Remilia" Mono="False" />
+</data>

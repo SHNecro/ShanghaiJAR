@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner3Name" Value="空気清浄機の電脳３" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue1FaceSprite" Value="ヒエエ！,モノスゴイカズノ　ガスガ,ハッセイ　シチャイマシタヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue2FaceSprite" Value="キヲツケテ　ススンデクダサイネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage3Dialogue1FaceSprite" Value="タスカッタ〜" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue1FaceSprite" Value="キュウジョ　プログラムデ,キュウジョサレルト,ココニ　ハコバレテキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue2FaceSprite" Value="ホントーニ　ホントーニ,ホントーニ,ガスニハ　キヲツケテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite3Stage1Dialogue1FaceSprite" Value="キンキュウジ　ナノデ　ココカラ,サキデハ　キュウジョプログラムデ,ココニ　ハコバレマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite3Stage1Dialogue2FaceSprite" Value="ホントーニ,ガスニハ　キヲツケテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage1Dialogue1FaceSprite" Value="ガスノスキマヲ　ヌケラレマセンヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage1Dialogue2FaceSprite" Value="ススムダケジャナク　モドルコトモ,カンガエタホウガ　,イイカモシレマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage3Dialogue1FaceSprite" Value="ガスガナイト　ヒロビロシテ,スミヤスインデスヨ　ココッテ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue1FaceShanghai" Value="ゴフッ　ガハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue2FaceShanghai" Value="ゲホッ････　う〜ん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue3FaceShanghai" Value="ぐふっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue4FaceShanghai" Value="あヅうっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue5FaceShanghai" Value="ゲフッ　ゴハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue6FaceShanghai" Value="はうっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue7FaceShanghai" Value="あっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage3Dialogue1FaceShanghai" Value="う　う〜ん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage5Dialogue1FaceAlice" Value="毒ガスは気をつけないと,いけないわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue1FaceShanghai" Value="ゴフッ　ガハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue2FaceShanghai" Value="ゲホッ････　う〜ん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue3FaceShanghai" Value="ぐふっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue4FaceShanghai" Value="あヅうっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue5FaceShanghai" Value="ゲフッ　ゴハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue6FaceShanghai" Value="はうっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue7FaceShanghai" Value="あっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage3Dialogue1FaceShanghai" Value="う　う〜ん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage5Dialogue1FaceAlice" Value="毒ガスは気をつけないと,いけないわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue1FaceShanghai" Value="どうせまたウィルスが,出るんでしょーが！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue2FaceNone" Value="カチッ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue3FaceNone" Value="#b@false#ウ#w@10#ィ#w@10#ィ#w@10#ィ#w@10#ィ#w@10#イ#w@10#イ#w@10#イ#w@10#ン" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue4FaceShanghai" Value="････肩すかしだったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue5FaceAlice" Value="これで登録ができるわね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue6FaceAlice" Value="・・・・よし　できたわ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue7FaceShanghai" Value="えらく早いのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue8FaceAlice" Value="シャンハイだけに,任せきりは出来ないからね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue9FaceAlice" Value="さあ３階へ急ぐわよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage3Dialogue1FaceNone" Value="空気清浄機は,正常に清浄している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue1FaceNaviBlueRobot" Value="あなたが依頼を受けてくれた,人ですね？" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue2FaceNaviBlueRobot" Value="よもやネットエージェントの身で,ウィルスを飼うことになろうとは,困ったものです" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue3FaceNaviBlueRobot" Value="亡き妻が遺した形見ですから,ムゲに扱うことも出来ないのです" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue4FaceNaviBlueRobot" Value="しかし　餌となるバグのかけらを,私はあまり持ってないんですよ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue5FaceNaviBlueRobot" Value="恥ずかしながら　カウンターを,取るのが苦手でしてね,練習はしていますけど････" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue6FaceNaviBlueRobot" Value="そこで　私がバグのかけらを,自給できるようになるまでの,つなぎがいるわけです" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue7FaceNaviBlueRobot" Value="計算したところ　私のシュウジュク,スピードから見るに　１００個,あれば十分なようです" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue8QuestionFaceNaviBlueRobot" Value="バグのかけらを１００個,分けてください" Face="NaviBlueRobot" Mono="False" />
+  <Text Key="Map.AirCleaner3ClientStage1Dialogue8Options" Value="オッケー,まだダメ" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue9FaceNaviBlueRobot" Value="そうですか,用意ができたら,よろしくお願いしますね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue10FaceNaviBlueRobot" Value="おや？,バグのかけらを１００個,持ってないようですね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue11FaceNaviBlueRobot" Value="私は待っていますので,数がそろったらここへ来てください" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue12FaceNaviBlueRobot" Value="はい　確かに１００個,受け取りました" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue13FaceNaviBlueRobot" Value="お礼に約束通り,１０ＭＢ分のレギュラーアップを,差し上げましょう" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue14FaceNaviBlueRobot" Value="驚きましたか？,ネットエージェントの,支給品なんですよ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue15FaceNaviBlueRobot" Value="私はレギュラーに頼らない,戦いをするので,必要ありませんけどね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue1FaceNaviBlueRobot" Value="亡き妻は動物好きでしたが,体質のせいでペットを飼うことが,出来なかったんです" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue2FaceNaviBlueRobot" Value="そこで　いつの間にか,どうやったのかウィルスを,ペットとして飼っていましてね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue3FaceNaviBlueRobot" Value="通夜の後で気づくなんて,私は夫失格ですね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue4FaceNaviBlueRobot" Value="なので　償いも込めて,妻の遺したウィルスを,精一杯愛することにしました" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue5FaceNaviBlueRobot" Value="もちろん　職場には,内緒ですけどね,ハハハ････" Face="NaviBlueRobot" Mono="False" />
+</data>

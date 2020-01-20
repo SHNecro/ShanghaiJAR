@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン本社　エレベーターホール -->
+  <Text Key="Map.Company2Name" Value="ボーダーコンツェルン本社　エレベーターホール" />
+  <!-- このエレベーターで登れば社長室にいけるはずだ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue1FaceReisen" Value="このエレベーターで登れば,社長室にいけるはずだ" Face="Reisen" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue2FaceAlice" Value="････" Face="Alice" Mono="False" />
+  <!-- どうした？ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue3FaceReisen" Value="どうした？" Face="Reisen" Mono="False" />
+  <!-- 社長ってことは紫さんと会うのよね････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue4FaceAlice" Value="社長ってことは紫さんと,会うのよね････" Face="Alice" Mono="False" />
+  <!-- 私　あの人が悪い人には見えなかったから････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue5FaceAlice" Value="私　あの人が悪い人には,見えなかったから････" Face="Alice" Mono="False" />
+  <!-- 悪人顔をした悪人など世の中では少数派だ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue6FaceReisen" Value="悪人顔をした悪人など,世の中では少数派だ" Face="Reisen" Mono="False" />
+  <!-- 生まれたときからの悪人など存在しない -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue7FaceReisen" Value="生まれたときからの悪人など,存在しない" Face="Reisen" Mono="False" />
+  <!-- 悪人へと至る過程が人間を犯罪者へ変貌させる -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue8FaceReisen" Value="悪人へと至る過程が,人間を犯罪者へ変貌させる" Face="Reisen" Mono="False" />
+  <!-- ････どういうこと？ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue9FaceAlice" Value="････どういうこと？" Face="Alice" Mono="False" />
+  <!-- 私達はただ降りかかる火の粉を払うしかできないということよ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue10FaceReisen" Value="私達はただ,降りかかる火の粉を払うしか,できないということよ" Face="Reisen" Mono="False" />
+  <!-- そうよね････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue11FaceAlice" Value="そうよね････" Face="Alice" Mono="False" />
+</data>

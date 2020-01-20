@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterCorridorName" Value="ゲームセンター　廊下" />
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue1FaceNone" Value="アイスクリームが売っている,自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue2FaceNone" Value="ここに置いてあるということは,従業員専用なのだろう" Face="None" Mono="False" />
+  <!-- 値段の数字がイタズラなのか４８９６６３２５円にされている････ -->
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue3FaceNone" Value="値段の数字がイタズラなのか,４８９６６３２５円に,されている････" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorRedVendingMachine2Stage1Dialogue1FaceNone" Value="プラグインできないタイプの,自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorRedVendingMachine2Stage1Dialogue2FaceNone" Value="従業員しか使えないからか,ラインナップが微妙である" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorClosingRoomStage1Dialogue1FaceNone" Value="鍵がかかっていて入れない" Face="None" Mono="False" />
+</data>

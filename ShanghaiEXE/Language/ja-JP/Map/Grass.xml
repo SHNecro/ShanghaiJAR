@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ■イベント戦場 -->
+  <Text Key="Map.GrassName" Value="■イベント戦場" />
+  <!-- 脚部をやられた！！すまない　脱出する！ -->
+  <Dialogue Key="Map.GrassG7EventStage1Dialogue1FacePoliceman" Value="脚部をやられた！！,すまない　脱出する！" Face="Policeman" Mono="False" />
+  <!-- くっ！　弾幕が厚すぎる！ -->
+  <Dialogue Key="Map.GrassG7EventStage3Dialogue1FacePoliceman" Value="くっ！　弾幕が厚すぎる！" Face="Policeman" Mono="False" />
+  <!-- 鈴仙様　ダメージの蓄積が著しいので　退却を推奨します -->
+  <Dialogue Key="Map.GrassG7EventStage5Dialogue1FaceYorihime" Value="鈴仙様　ダメージの蓄積が,著しいので　退却を推奨します" Face="Yorihime" Mono="False" />
+  <!-- ＲＯＭのアジトは目と鼻の先だというのにこれほど抵抗が激しいとはな -->
+  <Dialogue Key="Map.GrassG7EventStage5Dialogue2FaceReisen" Value="ＲＯＭのアジトは,目と鼻の先だというのに,これほど抵抗が激しいとはな" Face="Reisen" Mono="False" />
+  <!-- ････やむを得まい -->
+  <Dialogue Key="Map.GrassG7EventStage5Dialogue3FaceReisen" Value="････やむを得まい" Face="Reisen" Mono="False" />
+</data>

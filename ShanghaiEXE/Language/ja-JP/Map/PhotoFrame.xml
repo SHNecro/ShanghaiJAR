@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PhotoFrameName" Value="フォトフレームの電脳" />
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy1" Value="チンピラアニキ" />
+  <!-- ボマー -->
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy2" Value="ボマー" />
+  <!-- モブナビ -->
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy3" Value="モブナビ" />
+  <Dialogue Key="Map.PhotoFrameSprite1Stage1Dialogue1FaceSprite" Value="クマミサマハ　アラブスタンデ,サマザマナ　ボウケンヲ,シテキタンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite1Stage1Dialogue2FaceSprite" Value="サバクヲオヨグ　サメタイジヤ,ボウソウ　キョダイセンシャトノ,ゲキトウ　ソレカラ････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite2Stage1Dialogue1FaceSprite" Value="アラブスタンハ　デンノウセンソウノ,カテイデウマレタ　カイブツガ,タクサンイルンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite2Stage1Dialogue2FaceSprite" Value="クマミサマハ　ソノカイブツト,タタカッテ　キタンデスッテ,スゴイデスネー" Face="Sprite" Mono="False" />
+</data>

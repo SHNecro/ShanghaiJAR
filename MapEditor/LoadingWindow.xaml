@@ -1,0 +1,87 @@
+﻿<Window x:Class="MapEditor.LoadingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:behaviors="clr-namespace:MapEditor.Core.Behaviors"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        WindowStyle="None"
+        Title="LoadingWindow"
+        Height="500" Width="400"
+        MinHeight="500" MinWidth="400"
+        MaxHeight="500" MaxWidth="400">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Margin="5">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Resources/Splash.jpg"
+                                TileMode="None"
+                                AlignmentY="Top"
+                                Stretch="Uniform" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <Grid Grid.Row="0"
+              Margin="5,10"
+              VerticalAlignment="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Margin="0,0,0,5">
+                <Grid.Resources>
+                    <DataTemplate x:Key="LoadIndicator" DataType="sys:Boolean">
+                        <Border Width="65" Height="25">
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding}" Value="True">
+                                            <Setter Property="Background" Value="LightGreen" />
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding}" Value="False">
+                                            <Setter Property="Background" Value="LightYellow" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    <Setter Property="Background" Value="LightGray" />
+                                </Style>
+                            </Border.Style>
+
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Tag, RelativeSource={RelativeSource AncestorType=ContentControl, Mode=FindAncestor}}" />
+                        </Border>
+                    </DataTemplate>
+                </Grid.Resources>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <ContentControl Grid.Column="0" Content="{Binding FontStatus}" ContentTemplate="{StaticResource LoadIndicator}" Tag="Font" />
+                <ContentControl Grid.Column="1" Content="{Binding LanguageStatus}" ContentTemplate="{StaticResource LoadIndicator}" Tag="Language" />
+                <ContentControl Grid.Column="2" Content="{Binding DataStatus}" ContentTemplate="{StaticResource LoadIndicator}" Tag="Data" />
+                <ContentControl Grid.Column="3" Content="{Binding MapStatus}" ContentTemplate="{StaticResource LoadIndicator}" Tag="Map" />
+                <ContentControl Grid.Column="4" Content="{Binding TexturesStatus}" ContentTemplate="{StaticResource LoadIndicator}" Tag="Textures" />
+            </Grid>
+            <ProgressBar Grid.Row="1"
+                         Height="25"
+                         Minimum="0"
+                         Maximum="1"
+                         Value="{Binding TotalLoadProgress, Mode=OneWay}" />
+        </Grid>
+        <Border Grid.Row="1"
+                Margin="5"
+                BorderBrush="LightGray"
+                BorderThickness="1">
+            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      behaviors:AutoScrollBehavior.AutoScroll="True">
+                <ItemsControl ItemsSource="{Binding ProgressMessages}" />
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Window>

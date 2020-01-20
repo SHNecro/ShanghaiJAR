@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Dialogue Key="Messages.EienBoard1Dialogue1None" Value="Hello hello!,It’s Eien Square’s crown jewel，,the Budget Chat Board!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard1Dialogue2None" Value="Let’s share useful info about,everything from life to,NetBattling!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard1Dialogue3None" Value="By the way，I’m LordUsa，,the board admin.,Nice to meet you." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard1Dialogue4None" Value="Psyche〜!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue1None" Value="Howdy，I’m Towa.,How can this be a crown jewel,if it was just built? (lol)" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue2None" Value="Now that I’ve posted，I guess,I gotta say something useful." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue3None" Value="Um，this Square’s Sub Chip,shop sells Anti-Virus for only,50 Zenny!！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue4None" Value="....Too subtle? (lol),I’m looking forward to finding,even more good info〜!" Face="None" Mono="False" />
+  <!-- どもーかにミソですーじゃあお得な情報をおしえるよー -->
+  <Dialogue Key="Messages.EienBoard3Dialogue1None" Value="I’m CrabMiso，Miso to friends.,I’ll hook you up with,some good deals." Face="None" Mono="False" />
+  <!-- メルティングロウとかで与えられるメルト状態は相手の攻撃力を半減できるよ -->
+  <Dialogue Key="Messages.EienBoard3Dialogue2None" Value="The Melt status from MeltWax，,etc. cuts your opponent’s,attack power" Face="None" Mono="False" />
+  <!-- この間知り合いにぶっかけられて負けましたつらい('､3＿ヽ)＿ -->
+  <Dialogue Key="Messages.EienBoard3Dialogue3None" Value="My friend caught me with one,and took me out.,('､3＿ヽ)＿" Face="None" Mono="False" />
+  <!-- 攻撃が避けづらい相手にうまく使えば有利になれると思うよ -->
+  <Dialogue Key="Messages.EienBoard3Dialogue4None" Value="It’d work well against enemies,with attacks that you just,can’t dodge." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue1None" Value="That’s neat，CrabMiso!,That sort of thing is good too!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue2None" Value="If that’s true，then I have,something to say too!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue3None" Value="GrvBall makes enemies heavy.,They’ll crack panels when they,move off of them." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue4None" Value="And that’s not all!,If you’re heavy and you step,onto a sand panel...." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue5None" Value="You’ll get stuck in the sand,and won’t be able to move!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue6None" Value="This is something most people,probably don’t know about!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue1None" Value="Heyo.,They call me Shinono.,Nice to meetcha." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue2None" Value="Useful info，hm....?,In that case，I’ll let you in on,a little secret." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue3None" Value="There are some extremely,rare invisible paths in the,cyberworld." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue4None" Value="There’s one in City Area 2，,so try finding it if you’re,interested!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue1None" Value="There are invisible paths?,I think that’s gotta be a bug." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue2None" Value="There’s definitely some locked,mystery data in the City Areas." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue3None" Value="Maybe you’ve already gotten,some? There’s good stuff,inside." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue4None" Value="Speaking of mystery data，,green mystery data respawn,every time you jack in." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue5None" Value="....Isn’t that commmon,knowledge? UsaUsa" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue1None" Value="I came across some good,info，so I might as well post,my notes here too!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue2None" Value="There are various statuses,like Melt，Slip，Blind，etc.!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue3None" Value="Statuses have elements，,and they don’t affect Navis,of that element!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue4None" Value="For example，Earth Navis,are immune to Heavy，the,Earth status." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue1None" Value="Hello. I’m Peperon.,Lemme tell you some of,what I know." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue2None" Value="There are six elements：,Heat，Aqua，Leaf，Elec，,Poison，and Earth." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue3None" Value="Each element is strong,against two others." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue4None" Value="Heat beats Leaf and Poison,Aqua beats Heat and Earth,Leaf beats Elec and Earth" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue5None" Value="Elec beats Aqua and Poison,Poison beats Aqua and Leaf,Earth beats Heat and Elec" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue6None" Value="They’re tough to learn，but,memorizing them can really,help in battle!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue1None" Value="You guys are smart〜!,Well，I might as well say what,I know about elements too!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue2None" Value="Towa told us that elemental,Navis are immune to their,element’s status." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue3None" Value="Elemental terrain works the,same way. Some even come,with bonuses." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue4None" Value="Aqua won’t slip on ice，,and Leaf can heal while,standing on grass." Face="None" Mono="False" />
+  <!-- このあいだ見つけた情報です！カスタム画面でＬボタンを押すとバトルから逃げられますよね？ -->
+  <Dialogue Key="Messages.EienBoard10Dialogue1None" Value="I just found something out!,The custom screen lets you,escape with L，right?" Face="None" Mono="False" />
+  <!-- 逃げ切れるかどうかってこちらの最大ＨＰと相手の合計ＨＰが関わってるみたいなんです！ -->
+  <Dialogue Key="Messages.EienBoard10Dialogue2None" Value="Whether this works seems to,be related to your max HP,and the enemies’ HP!" Face="None" Mono="False" />
+  <!-- 相手の合計ＨＰがこちらの最大ＨＰより低いと必ず逃げられるみたいです！ -->
+  <Dialogue Key="Messages.EienBoard10Dialogue3None" Value="You can escape for sure if,the total enemy HP is less,than your max!" Face="None" Mono="False" />
+  <!-- 急いでいるときにウィルスと遭遇したら気をつけてみるといいかもしれませんよ！ -->
+  <Dialogue Key="Messages.EienBoard10Dialogue4None" Value="If you’re in a hurry and,a virus strikes，it might,be good to pay attention!" Face="None" Mono="False" />
+  <!-- ほほう逃げられるかどうかって計算すれば分かるんですね -->
+  <Dialogue Key="Messages.EienBoard11Dialogue1None" Value="It’s always good to know if,you can get out of a pinch." Face="None" Mono="False" />
+  <!-- 逃げることについてですが俺は逃げに失敗した時について情報を知ってますよ -->
+  <Dialogue Key="Messages.EienBoard11Dialogue2None" Value="I have some experience,with failing to escape." Face="None" Mono="False" />
+  <!-- 逃げるのに失敗した後次のカスタム画面で逃げる時逃げられる確率が上がるっぽい -->
+  <Dialogue Key="Messages.EienBoard11Dialogue3None" Value="After you fail to get away，,the chance to escape rises,for the next attempt." Face="None" Mono="False" />
+  <!-- どうやら３回目だと必ず逃げられるっぽいですね覚えておいて損はないかと -->
+  <Dialogue Key="Messages.EienBoard11Dialogue4None" Value="On the third attempt escape,is guaranteed. Keep this,in mind if you’re losing." Face="None" Mono="False" />
+  <!-- どうもかにミソです -->
+  <Dialogue Key="Messages.EienBoard12Dialogue1None" Value="It’s CrabMiso!" Face="None" Mono="False" />
+  <!-- ほしいチップをゲットする時に必要なバスティングレベル -->
+  <Dialogue Key="Messages.EienBoard12Dialogue2None" Value="I’ve got a tip about,busting rank." Face="None" Mono="False" />
+  <!-- どうやらバスティングレベルはダメージを受けると下がると思っていたんだけど -->
+  <Dialogue Key="Messages.EienBoard12Dialogue3None" Value="For the longest time I,thought that your rank goes,down if you get hurt." Face="None" Mono="False" />
+  <!-- ダメージを受けることよりもダメージでのけぞるのが下がる原因みたいだよ -->
+  <Dialogue Key="Messages.EienBoard12Dialogue4None" Value="Turns out you only lose,rank if you flinch，just,taking damage doesn’t count!" Face="None" Mono="False" />
+  <!-- だから　何かしらの方法でのけぞらなくなる状態になればダメージを受けても大丈夫だね -->
+  <Dialogue Key="Messages.EienBoard12Dialogue5None" Value="You can still get a good,rank if you get hurt，,in certain situations." Face="None" Mono="False" />
+  <!-- バスティングレベルネタなら私も少しだけ知ってます！ -->
+  <Dialogue Key="Messages.EienBoard13Dialogue1None" Value="If you’re a busting rank,noob，I’ve got some tips,as well!" Face="None" Mono="False" />
+  <!-- 戦闘中にカウンターを取るとバスティングレベルが上がるみたいです！ -->
+  <Dialogue Key="Messages.EienBoard13Dialogue2None" Value="Performing a counter in,battle also raises your,busting rank!" Face="None" Mono="False" />
+  <!-- 同時デリートとか早く倒すとか基本的な上げ方が難しいときはカウンターを狙ってはいかが！ -->
+  <Dialogue Key="Messages.EienBoard13Dialogue3None" Value="When it’s tough to multi-,delete or end quickly，try,your best to counter!" Face="None" Mono="False" />
+  <!-- チップの中には隠し効果があるものも存在するとか -->
+  <Dialogue Key="Messages.EienBoard14Dialogue1None" Value="Some chips have hidden,features." Face="None" Mono="False" />
+  <!-- 自分が見つけたのは -->
+  <Dialogue Key="Messages.EienBoard14Dialogue2None" Value="This is what I found:" Face="None" Mono="False" />
+  <!-- チャージカノンをバスターのチャージが溜まった状態で使用するやつだな -->
+  <Dialogue Key="Messages.EienBoard14Dialogue3None" Value="I saw a guy use a ChrgCan,with full buster charge." Face="None" Mono="False" />
+  <!-- 威力は減るけど拡散するからウィルス退治に便利だぞ -->
+  <Dialogue Key="Messages.EienBoard14Dialogue4None" Value="The power decreased but,its area grew，making it,easier to clear viruses." Face="None" Mono="False" />
+  <!-- 隠し効果かー地味なのだとハッケロ系のガード効果かな -->
+  <Dialogue Key="Messages.EienBoard15Dialogue1None" Value="Speaking of hidden features，,remember GelPack’s shell?" Face="None" Mono="False" />
+  <!-- 発射する時すこしだけハッケロを前に向けるんだけどその時はガード状態なんですよ -->
+  <Dialogue Key="Messages.EienBoard15Dialogue2None" Value="When you fire a Hakkero it,blocks damage from the front." Face="None" Mono="False" />
+  <!-- うまく相手の攻撃を受けながらカウンターが決められるとかっこいいと思います！ -->
+  <Dialogue Key="Messages.EienBoard15Dialogue3None" Value="It’d be pretty cool to,counter while the enemy,attack washes past you." Face="None" Mono="False" />
+  <!-- チップの説明文に明記がされていないといえばグランドウェーブかな -->
+  <Dialogue Key="Messages.EienBoard16Dialogue1None" Value="If by hidden you mean not,mentioned in the description..." Face="None" Mono="False" />
+  <!-- ケダマー３が落とすあれウェーブが通った後が砂パネルになるんだよね -->
+  <Dialogue Key="Messages.EienBoard16Dialogue2None" Value="Kedama3’s GrounWav leaves,behind sand panels where,it passes." Face="None" Mono="False" />
+  <!-- 自分はその後にストームを使って大ダメージを狙ってるよ -->
+  <Dialogue Key="Messages.EienBoard16Dialogue3None" Value="I want to score a huge,combo by following up with,a well-timed Storm." Face="None" Mono="False" />
+  <!-- 毒状態とか毒パネルの上ってＨＰが減少する以上に危険なことがあるんだよな -->
+  <Dialogue Key="Messages.EienBoard17Dialogue1None" Value="Many people don’t know,that poison does more,than just drain health." Face="None" Mono="False" />
+  <!-- それは毒の中だとリペアとかの回復が逆にダメージになってしまうんだ -->
+  <Dialogue Key="Messages.EienBoard17Dialogue2None" Value="When poisoned，Recov and,other health chips will hurt,rather than heal." Face="None" Mono="False" />
+  <!-- リペアを使うときは足元に注意しないとね -->
+  <Dialogue Key="Messages.EienBoard17Dialogue3None" Value="Keep that in mind when,you think about using Recov." Face="None" Mono="False" />
+  <!-- それは知らなかったでも良いことを聞いたぞ -->
+  <Dialogue Key="Messages.EienBoard18Dialogue1None" Value="Poisoning is also great,against enemies that like to,heal or regenerate." Face="None" Mono="False" />
+  <!-- リペアガン積みの相手とか自動回復のウィルス相手なら毒で攻めればいいじゃないか -->
+  <Dialogue Key="Messages.EienBoard18Dialogue2None" Value="VnmShot’s a good choice，,a direct hit will poison,for a long time." Face="None" Mono="False" />
+  <!-- ベノムショットは直撃で長時間毒状態にできるからこれはなかなか狙えるね -->
+  <Dialogue Key="Messages.EienBoard18Dialogue3None" Value="Conversely，if you’re the type,that like to heal，watch out,for poison." Face="None" Mono="False" />
+  <!-- 逆に回復を主軸にするならナビを毒属性にするのもありですね -->
+  <Dialogue Key="Messages.EienBoard19Dialogue1None" Value="On the topic of elemental,effects，here’s something,about Heat." Face="None" Mono="False" />
+  <!-- 私が発見したのは炎属性のナビやウィルスはナパーム系チップの炎が消せることです -->
+  <Dialogue Key="Messages.EienBoard19Dialogue2None" Value="I discovered that Heat,Navis and viruses can get,rid of napalm effects." Face="None" Mono="False" />
+  <!-- あの炎５０ダメージで痛いけど炎属性で触れると音もなく消すことができるんです -->
+  <Dialogue Key="Messages.EienBoard19Dialogue3None" Value="They’ll still get hit for,50 damage，but they can walk,through without flinching." Face="None" Mono="False" />
+  <!-- いろいろチップ集めてて気づいたんですけど -->
+  <Dialogue Key="Messages.EienBoard20Dialogue1None" Value="Not to brag about my chip,collection，but something stuck,out looking at my stash." Face="None" Mono="False" />
+  <!-- １　２　３ってバージョンのあるチップのうちアスタリスクがあるのって大半が１だけですね -->
+  <Dialogue Key="Messages.EienBoard20Dialogue2None" Value="Of chips with versions 1，2，,and 3，usually only version,1 has ＊ codes." Face="None" Mono="False" />
+  <!-- そう考えると威力や性能は低くてもバージョン１にも使いようが生まれますね -->
+  <Dialogue Key="Messages.EienBoard20Dialogue3None" Value="I guess this makes them,useful even if lacking in,power or other benefits." Face="None" Mono="False" />
+  <!-- 某所で見た情報だけどバージョン２のチップにも３にはない存在価値があります！ -->
+  <Dialogue Key="Messages.EienBoard21Dialogue1None" Value="I heard something that might,make V2 chips more useful,than V3s!" Face="None" Mono="False" />
+  <!-- それはプログラムアドバンスの材料になることです！ -->
+  <Dialogue Key="Messages.EienBoard21Dialogue2None" Value="They can be used as,components in a,Program Advance!" Face="None" Mono="False" />
+  <!-- プログラムアドバンスの組み合わせを見つけるときは２を試せばいいわけですね！ -->
+  <Dialogue Key="Messages.EienBoard21Dialogue3None" Value="If you’ve got a set of chips that,look like they might fit，try a V2!" Face="None" Mono="False" />
+  <!-- へぇー１　２にもそういう存在価値があったんだ -->
+  <Dialogue Key="Messages.EienBoard22Dialogue1None" Value="So it looks like V1 and,V2 have hidden talents!" Face="None" Mono="False" />
+  <!-- じゃあ３にも何か隠れた共通点とかあるのかな？ -->
+  <Dialogue Key="Messages.EienBoard22Dialogue2None" Value="I wonder what special ability,V3 chips have?" Face="None" Mono="False" />
+  <!-- いや　３は性能がトップってことが共通点でしょう（笑） -->
+  <Dialogue Key="Messages.EienBoard23Dialogue1None" Value="The special ability V3,chips have is their high,damage (lol)" Face="None" Mono="False" />
+  <!-- そういえば噂で聞いた話だけどバージョン３を超えた威力のバージョンが有るとか -->
+  <Dialogue Key="Messages.EienBoard23Dialogue2None" Value="By the way，I heard that,there’s a version even higher,than V3 somewhere out there." Face="None" Mono="False" />
+  <!-- でも何度トレーダーを回してもそれらしいチップが出ないんだよねえ -->
+  <Dialogue Key="Messages.EienBoard23Dialogue3None" Value="But no matter how many,chips I feed into the Chip,Trader，I’ve never seen one!" Face="None" Mono="False" />
+  <!-- 隠しバージョンってもしかしてクリムゾンＰＧＭから手に入るあれのことかな？ -->
+  <Dialogue Key="Messages.EienBoard24Dialogue1None" Value="The hidden versions might,be something you get from,the CrimNois AddOn?" Face="None" Mono="False" />
+  <!-- 超レアなアドオンだから持ってる人は少ないと思うけど -->
+  <Dialogue Key="Messages.EienBoard24Dialogue2None" Value="It’s super rare though，so,not many people have it." Face="None" Mono="False" />
+  <!-- レア度の高いチップを落とす相手をバスティングレベルSで倒すとごくまれに手に入るよ -->
+  <Dialogue Key="Messages.EienBoard24Dialogue3None" Value="A hidden version chip would,come from S-ranking an,enemy that drops a rare chip." Face="None" Mono="False" />
+  <!-- そんなアドオンがあるとは････持っていないので挑戦すらできないですね -->
+  <Dialogue Key="Messages.EienBoard25Dialogue1None" Value="There’s no way I can do that!,Not that it matters since,I don’t have CrimNois...." Face="None" Mono="False" />
+  <!-- レア度の高いチップといえばナビチップがありますね -->
+  <Dialogue Key="Messages.EienBoard25Dialogue2None" Value="But a rare chip，huh....?,I guess a Navi chip would,count as rare." Face="None" Mono="False" />
+  <!-- 手に入れたときのために友達のナビをレベルＳで倒せるように練習しておこうかな -->
+  <Dialogue Key="Messages.EienBoard25Dialogue3None" Value="I wonder I should practice,S-ranking my friend’s Navi,for when I find a CrimNois." Face="None" Mono="False" />
+  <!-- そんなチップがあるんだったらデータリストのコンプリートできないじゃないですかー！ -->
+  <Dialogue Key="Messages.EienBoard26Dialogue1None" Value="But if normal people can’t,get those versions，how will,we complete our libraries?" Face="None" Mono="False" />
+  <!-- もう少しでコンプリートできそうなのに････くすん（泣） -->
+  <Dialogue Key="Messages.EienBoard26Dialogue2None" Value="Not that I’m even close to,finishing the rest of the,collection....(ಥ_ಥ)" Face="None" Mono="False" />
+  <!-- ぺぺろんさん　幸か不幸か隠しバージョンのチップはデータリストに記録されないよ -->
+  <Dialogue Key="Messages.EienBoard27Dialogue1None" Value="Good news，Peperon!,Those chips don’t count,towards library completion!" Face="None" Mono="False" />
+  <!-- 突然変異みたいなので生まれたチップだからなんだろうねだからコンプには不要だよ -->
+  <Dialogue Key="Messages.EienBoard27Dialogue2None" Value="They’re like mutations，so,completionists don’t count them,towards 100%." Face="None" Mono="False" />
+  <!-- よかったー！でもそう言われるとなんだか不思議な存在ですね -->
+  <Dialogue Key="Messages.EienBoard28Dialogue1None" Value="That’s so weird! But that’s,a load off my mind." Face="None" Mono="False" />
+  <!-- 知り合いに聞いて回ってクリムゾンＰＧＭとやらを探してみようと思います！ -->
+  <Dialogue Key="Messages.EienBoard28Dialogue2None" Value="I think I’d still like to get my,hands on a CrimNois，though." Face="None" Mono="False" />
+  <!-- この前　友達のホームページに行ったんですよ -->
+  <Dialogue Key="Messages.EienBoard29Dialogue1None" Value="I went to my friend’s homepage,recently." Face="None" Mono="False" />
+  <!-- そうしたらそのホームページに電脳チップトレーダーがッ！！ -->
+  <Dialogue Key="Messages.EienBoard29Dialogue2None" Value="They had their own Chip Trader,right on their page!!" Face="None" Mono="False" />
+  <!-- インテリアとして置かれていたのでどこかで売ってるんでしょうけど羨ましいなあ -->
+  <Dialogue Key="Messages.EienBoard29Dialogue3None" Value="He said it was an interior,decoration that he picked up.,I’m so jealous!" Face="None" Mono="False" />
+  <!-- インテリアの中には飾りだけじゃなくて実用的なのもいくつかあるよね -->
+  <Dialogue Key="Messages.EienBoard30Dialogue1None" Value="Some interior items have,practical uses besides just,looking pretty." Face="None" Mono="False" />
+  <!-- ベッドとか置くとナビのＨＰを回復できていい感じだよ -->
+  <Dialogue Key="Messages.EienBoard30Dialogue2None" Value="It’s a good feeling to recover,all your HP by lying down,in bed." Face="None" Mono="False" />
+  <!-- プラグアウトすればいいとか言わない -->
+  <Dialogue Key="Messages.EienBoard30Dialogue3None" Value="Not just because I didn’t,want to jack out，nope." Face="None" Mono="False" />
+  <!-- インテリアのトレーダーかー確かに手元に欲しいかも（笑） -->
+  <Dialogue Key="Messages.EienBoard31Dialogue1None" Value="Man，the interiors salesmen,better be paying you well!,(lol)" Face="None" Mono="False" />
+  <!-- 資金難でなくなったらしいけどトレーダーを扱っていたインテリアショップがインゲレスにあったとか -->
+  <Dialogue Key="Messages.EienBoard31Dialogue2None" Value="I’m not short on money，but,the salesman with the Chip,Trader is off in Engelles!" Face="None" Mono="False" />
+  <!-- お金持ちだったら絶対に投資してたなあ -->
+  <Dialogue Key="Messages.EienBoard31Dialogue3None" Value="Otherwise，I’d drop a few,Zenny to invest in a Chip Trader,of my own." Face="None" Mono="False" />
+  <!-- あの店なくなっちゃったのか買っておいてよかったトレーダー -->
+  <Dialogue Key="Messages.EienBoard32Dialogue1None" Value="Now I’m glad I grabbed a,trader before they left!" Face="None" Mono="False" />
+  <!-- お気に入りなのはチップじゃなくてバグのかけらを投入することでチップを出すやつだね -->
+  <Dialogue Key="Messages.EienBoard32Dialogue2None" Value="What I’m hearing about now,is a trader that takes BugFrags,instead of chips." Face="None" Mono="False" />
+  <!-- 他にもフリーズとエラーのトレーダーがあるらしいんだけど -->
+  <Dialogue Key="Messages.EienBoard32Dialogue3None" Value="There’s versions that take,FrzFrags and ErrFrags，too." Face="None" Mono="False" />
+  <!-- それぞれに対応した属性のレアチップが排出されるからフォルダ構築に便利だよ -->
+  <Dialogue Key="Messages.EienBoard32Dialogue4None" Value="They give out rare chips of,their corresponding attributes，,nice for folder-making." Face="None" Mono="False" />
+  <!-- うわーーいいなーーーもしかしたら再販されるかもだしお金貯めておこうっと！ -->
+  <Dialogue Key="Messages.EienBoard33Dialogue1None" Value="Wow，nice -- you could even,sell those chips and make,a nice profit!" Face="None" Mono="False" />
+  <!-- って調べたら１００万ゼニーとか書いてあるんですけど････ -->
+  <Dialogue Key="Messages.EienBoard33Dialogue2None" Value="Who am I kidding....,those machines probably cost,like a million Zenny." Face="None" Mono="False" />
+</data>

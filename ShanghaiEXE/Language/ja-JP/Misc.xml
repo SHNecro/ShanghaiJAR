@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="" Value="" />
+  <Dialogue Key="Debug.UnimplementedText" Value="[FIRST LINE],[TEXT NOT IMPLEMENTED],[THIRD LINE]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedQuestion" Value="[QUESTION LINE 1],[QUESTION LINE 2]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedAnswer" Value="[OPTION LEFT],[OPTION RIGHT]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedNumset" Value="[NUMSET QUESTION]" Face="Sprite" Mono="False" />
+  <Text Key="Common.Title" Value="ゲンソウネットワーク　シャンハイエグゼ" />
+  <Text Key="Startup.LoadGameData" Value="ゲームデータ" />
+  <Text Key="Startup.LoadGraphics" Value="グラフィック" />
+  <Text Key="Startup.LoadAudio" Value="サウンド" />
+  <Text Key="Startup.LoadDevice" Value="入力デバイス" />
+  <Text Key="Startup.LoadSave" Value="セーブデータ" />
+  <Dialogue Key="ChipTrader.RareChipStopDialogue1" Value="これを入れちゃったら,取り返しがつかないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="ChipTrader.ConfirmQuestion" Value="これでいいの？" Face="Shanghai" Mono="False" />
+  <Text Key="ChipTrader.ConfirmOptions" Value="はい,いいえ" />
+  <Dialogue Key="ChipTrader.TradeDialogue1" Value="#u@#セーブ中････" Face="None" Mono="False" />
+  <Dialogue Key="ChipTrader.TradeDialogue2" Value="セーブ完了！" Face="None" Mono="False" />
+  <Dialogue Key="ChipTrader.TradeDialogue3" Value="よーし！,ガチャガチャ････ゴトン！," Face="None" Mono="False" />
+  <Text Key="ChipTrader.ResultRecipientShanghai" Value="シャンハイ" />
+  <Text Key="ChipTrader.ResultRecipientAlice" Value="アリス" />
+  <Dialogue Key="ChipTrader.ResultDialogue1Format" Value="　　　　　　{0}は,　　　　　　「{1}　{2} 」,　　　　　　を　ゲットした！" Face="None" Mono="False" />
+  <Text Key="ChipTrader.NameToData" Value="バッグ" />
+  <Text Key="ChipTrader.ChipNumberPrefix" Value=" " />
+  <Text Key="ChipTrader.ChipNumberSuffix" Value="カイ" />
+  <Dialogue Key="Interior.DiscardQuestion" Value="本当にこの家具を,処分しちゃうの？" Face="Shanghai" Mono="False" />
+  <Text Key="Interior.DiscardOptions" Value="はい,いいえ" />
+  <Text Key="Interior.Place" Value="置く" />
+  <Text Key="Interior.Store" Value="しまう" />
+  <Text Key="Interior.Sort" Value="ソート" />
+  <Text Key="Interior.Discard" Value="処分" />
+  <Text Key="Interior.Item1" Value="ファミリーテーブル" />
+  <Text Key="Interior.Item2" Value="ピンクボックス" />
+  <Text Key="Interior.Item3" Value="パソコンデスク" />
+  <Text Key="Interior.Item4" Value="ピンクシーツベッド" />
+  <Text Key="Interior.Item5" Value="グレーシーツベッド" />
+  <Text Key="Interior.Item6" Value="ワイド画面パソコン" />
+  <Text Key="Interior.Item7" Value="ロイヤルカウンター" />
+  <Text Key="Interior.Item8" Value="パイプラック" />
+  <Text Key="Interior.Item9" Value="普通の鉢植え" />
+  <Text Key="Interior.Item10" Value="花束の鉢植え" />
+  <Text Key="Interior.Item11" Value="小さい鉢植え" />
+  <Text Key="Interior.Item12" Value="ダミーミステリー緑" />
+  <Text Key="Interior.Item13" Value="ダミーミステリー青" />
+  <Text Key="Interior.Item14" Value="ダミーミステリー紫" />
+  <Text Key="Interior.Item15" Value="ダミーＳキューブ" />
+  <Text Key="Interior.Item16" Value="ショップテーブル" />
+  <Text Key="Interior.Item17" Value="依頼掲示板" />
+  <Text Key="Interior.Item18" Value="大きな街路樹" />
+  <Text Key="Interior.Item19" Value="小さな街路樹" />
+  <!-- 花咲き街路樹 -->
+  <Text Key="Interior.Item20" Value="花咲き街路樹" />
+  <Text Key="Interior.Item21" Value="公園のベンチ" />
+  <Text Key="Interior.Item22" Value="教卓" />
+  <Text Key="Interior.Item23" Value="生徒の机" />
+  <Text Key="Interior.Item24" Value="ガラステーブル" />
+  <Text Key="Interior.Item25" Value="レプリカバトルマシン" />
+  <Text Key="Interior.Item26" Value="休憩椅子" />
+  <Text Key="Interior.Item27" Value="サブチップ販売機" />
+  <Text Key="Interior.Item28" Value="オフィスの机" />
+  <Text Key="Interior.Item29" Value="空気清浄機" />
+  <!-- フォルダスクリーン -->
+  <Text Key="Interior.Item30" Value="フォルダスクリーン" />
+  <Text Key="Interior.Item31" Value="薄型テレビ" />
+  <Text Key="Interior.Item32" Value="イビルアイソファ" />
+  <Text Key="Interior.Item33" Value="おふとん" />
+  <Text Key="Interior.Item34" Value="フラワー戦車" />
+  <Text Key="Interior.Item35" Value="シャンデリア" />
+  <Text Key="Interior.Item36" Value="Ｇ７カーティス模型" />
+  <Text Key="Interior.Item37" Value="ロイヤルベッド" />
+  <Text Key="Interior.Item38" Value="白の仕切り壁" />
+  <Text Key="Interior.Item39" Value="ガラスの仕切り壁" />
+  <!-- 丸テーブル -->
+  <Text Key="Interior.Item40" Value="丸テーブル" />
+  <!-- スイーツテーブル -->
+  <Text Key="Interior.Item41" Value="スイーツテーブル" />
+  <!-- ワインテーブル -->
+  <Text Key="Interior.Item42" Value="ワインテーブル" />
+  <!-- 花瓶テーブル -->
+  <Text Key="Interior.Item43" Value="花瓶テーブル" />
+  <!-- グルメテーブル -->
+  <Text Key="Interior.Item44" Value="グルメテーブル" />
+  <!-- 高級ソファ -->
+  <Text Key="Interior.Item45" Value="高級ソファ" />
+  <!-- インゲレス街路樹 -->
+  <Text Key="Interior.Item46" Value="インゲレス街路樹" />
+  <!-- 名探偵の像 -->
+  <Text Key="Interior.Item47" Value="名探偵の像" />
+  <!-- バス停 -->
+  <Text Key="Interior.Item48" Value="バス停" />
+  <!-- ねこどるぐるみ -->
+  <Text Key="Interior.Item49" Value="ねこどるぐるみ" />
+  <!-- ダンボール -->
+  <Text Key="Interior.Item50" Value="ダンボール" />
+  <!-- 二段ダンボール -->
+  <Text Key="Interior.Item51" Value="二段ダンボール" />
+  <Text Key="NumberSet.SetNumberFormat" Value="{0},,（上下または数字キーで数字変更）" />
+  <Text Key="MysteryItem.BattleChipText" Value="バトルチップ" />
+  <Text Key="MysteryItem.SubChipText" Value="サブチップ" />
+  <Text Key="MysteryItem.AddText" Value="アドオン" />
+  <Text Key="MysteryItem.BattleChipPhrase" Value="バトルチップ" />
+  <Text Key="MysteryItem.SubChipPhrase" Value="サブチップ" />
+  <Text Key="MysteryItem.AddonPhrase" Value="アドオン" />
+  <Dialogue Key="MysteryData.GetItemDialogue1Format" Value="シャンハイは　{0},{1}　を,手に入れた！" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHPMemoryDialogue1" Value="シャンハイのＨＰの,最大値が２０アップ！" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetRegUpDialogue1Format" Value="レギュラーメモリの,容量が{0}メガ　増えた！" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetSubMemoryDialogue1" Value="サブチップの持てる数が,１つ増えた！" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCorePlusDialogue1" Value="アドオンマネージャーで,使えるコアの数が,１つ増えた！" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHertzUpDialogue1Format" Value="アドオンマネージャーで,使えるヘルツの数が,{0}増えた！" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCannotCarryDialogue1Format" Value="シャンハイは,{0}　を,これ以上持てない････" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetEncounterDialogue1" Value="なんと　ミステリーデータは,ウィルスだった！" Face="None" Mono="False" />
+  <Text Key="MysteryData.HalfEnrgText" Value="ハーフエナジー" />
+  <Text Key="MysteryData.FullEnrgText" Value="フルエナジー" />
+  <Text Key="MysteryData.FirewallText" Value="マークフィン" />
+  <Text Key="MysteryData.OpenPortText" Value="オープンポート" />
+  <Text Key="MysteryData.Anti-VrsText" Value="アーバスト" />
+  <Text Key="MysteryData.VirusScnText" Value="ウィルススキャン" />
+  <Text Key="MysteryData.CrakToolText" Value="クラックツール" />
+  <Text Key="MysteryData.HPMemoryText" Value="ＨＰメモリ" />
+  <Text Key="MysteryData.RegUpText" Value="レギュラーアップ　{0}" />
+  <Text Key="MysteryData.SubMemoryText" Value="サブメモリ" />
+  <Text Key="MysteryData.CorePlusText" Value="コアプラス" />
+  <Text Key="MysteryData.HertzUpText" Value="ヘルツアップ　{0}" />
+  <Text Key="MysteryData.BugFragTextPlural" Value="バグのかけら　{0}個" />
+  <Text Key="MysteryData.BugFragText" Value="バグのかけら　{0}個" />
+  <Text Key="MysteryData.FreezeFragTextPlural" Value="フリーズのかけら　{0}個" />
+  <Text Key="MysteryData.FreezeFragText" Value="フリーズのかけら　{0}個" />
+  <Text Key="MysteryData.ErrorFragTextPlural" Value="エラーのかけら　{0}個" />
+  <Text Key="MysteryData.ErrorFragText" Value="エラーのかけら　{0}個" />
+  <Text Key="MysteryData.ZennyText" Value="{0}ゼニー" />
+  <Text Key="Request.DataDeliveryName" Value="荷物運び" />
+  <Text Key="Request.CreepyNaviName" Value="ワルモノ退治" />
+  <Text Key="Request.IceCrystalsName" Value="氷の結晶を集めて" />
+  <Text Key="Request.SparringPartnerName" Value="特訓相手の募集！" />
+  <Text Key="Request.NeedBugFragsName" Value="バグのかけらをください" />
+  <Text Key="Request.Stalker!Help!Name" Value="しつこいストーカー" />
+  <Text Key="Request.PleaseHelp!Name" Value="助けてください！" />
+  <Text Key="Request.PunishAdminName" Value="悪代管をこらしめて" />
+  <Text Key="Request.CheapChips!Name" Value="早い者勝ちレアチップが安い！" />
+  <Text Key="Request.MotionActing!Name" Value="モーションアクター募集！" />
+  <Text Key="Request.UrgentGift!Name" Value="急ぎの届け物" />
+  <Text Key="Request.BirthdayGiftName" Value="誕生日プレゼント" />
+  <Text Key="Request.RehabName" Value="リハビリに付き合ってくれ" />
+  <Text Key="Request.BecomingANaviName" Value="ネットナビになりたい" />
+  <Text Key="Request.SisterBouquetName" Value="お姉ちゃんに花束を" />
+  <Text Key="Request.TalkPhilosophyName" Value="哲学を語ろう" />
+  <Text Key="Request.ToBePresidentName" Value="社長になるために" />
+  <Dialogue Key="Request.RequestComplete" Value="★依頼者感謝の声★" Face="None" Mono="False" />
+  <Dialogue Key="Request.AcceptRequestQuestion" Value="この依頼を受けますか？" Face="None" Mono="False" />
+  <Text Key="Request.AcceptRequestOptions" Value="はい,いいえ" />
+  <Dialogue Key="Request.RequestInProgressDialogue1" Value="この依頼は現在実行中です," Face="None" Mono="False" />
+  <Dialogue Key="Request.RequestAlreadyTakenDialogue1" Value="依頼を実行中に別の依頼を,受けることはできません" Face="None" Mono="False" />
+  <Dialogue Key="Request.RequestAlreadyTakenDialogue2" Value="現在実行中の依頼を,解決してから来てください," Face="None" Mono="False" />
+  <Text Key="Shop.Assistant1Line1" Value="どれにいたしましょう？" />
+  <Text Key="Shop.Assistant2Line1" Value="････どのブツがいいんだ？" />
+  <Text Key="Shop.Assistant3Line1" Value="用事あるのこと？" />
+  <Text Key="Shop.Assistant4Line1" Value="さあ、どれにするんだい？" />
+  <Text Key="Shop.AssistantLine2" Value="（Rボタン：説明を見る）" />
+  <Text Key="Shop.AssistantLine3" Value="（Bボタン：買い物をやめる）" />
+  <Text Key="Shop.Assistant1OutOfStockDialogue1" Value="すいません,その商品は現在品切れです" />
+  <Text Key="Shop.Assistant2OutOfStockDialogue1" Value="すまねえな,そいつは現在売り切れだ" />
+  <Text Key="Shop.Assistant3OutOfStockDialogue1" Value="ごめんあるよ,それ、今扱ってないヨ" />
+  <Text Key="Shop.Assistant4OutOfStockDialogue1" Value="悪いね,今それ、在庫切れ起こしてんだ" />
+  <Text Key="Shop.HPMemory" Value="HPメモリ" />
+  <Text Key="Shop.HPMemoryDescriptionDialogue1" Value="ナビのHPを20増やす,増設型の仮想メモリ" />
+  <Text Key="Shop.Billionaire" Value="オクマンチョウジャ" />
+  <Text Key="Shop.ZennyOptions" Value="はい,いいえ" />
+  <Text Key="Shop.OtherOptions" Value="はい,いいえ" />
+  <Text Key="Shop.Assistant1ZennyDialogue1QuestionFormat" Value="{0}{1}ですね？,{2}Zになります" />
+  <Text Key="Shop.Assistant1OtherDialogue1QuestionFormat" Value="{0}{1}ですね？" />
+  <Text Key="Shop.Assistant2ZennyDialogue1QuestionFormat" Value="{0}{1}だな？,{2}Zだ。買うか？" />
+  <Text Key="Shop.Assistant2OtherDialogue1QuestionFormat" Value="{0}{1}だな？" />
+  <Text Key="Shop.Assistant3ZennyDialogue1QuestionFormat" Value="{0}{1}ある？,{2}Zネ。買ってくれること？" />
+  <Text Key="Shop.Assistant3OtherDialogue1QuestionFormat" Value="{0}{1}ある？" />
+  <Text Key="Shop.Assistant4ZennyDialogue1QuestionFormat" Value="{0}{1}か！,{2}Zだ、買うかい？" />
+  <Text Key="Shop.Assistant4OtherDialogue1QuestionFormat" Value="{0}{1}か！" />
+  <Text Key="Shop.Assistant1BoughtDialogue1" Value="お買い上げありがとうございます！" />
+  <Text Key="Shop.Assistant2BoughtDialogue1" Value="へっへっへ、毎度！" />
+  <Text Key="Shop.Assistant3BoughtDialogue1" Value="ありがとネ！" />
+  <Text Key="Shop.Assistant4BoughtDialogue1" Value="よし、売ったァ！" />
+  <Dialogue Key="Shop.InventoryFullDialogue1" Value="あらら,これ以上持てないわね" Face="Shanghai" Mono="False" />
+  <Text Key="Shop.InsufficientZennyDialogue1" Value="ちょっと、お金足りないじゃない！,貧乏は嫌ァァアア！," />
+  <Text Key="Shop.InsufficientOtherDialogue1" Value="あら　かけらが足りないわね," />
+  <Text Key="Shop.Assistant1CancelledDialogue1" Value="それは残念です" />
+  <Text Key="Shop.Assistant2CancelledDialogue1" Value="チッ････" />
+  <Text Key="Shop.Assistant3CancelledDialogue1" Value="そうあるか" />
+  <Text Key="Shop.Assistant4CancelledDialogue1" Value="まあ他のも見ていきなよ" />
+  <Text Key="Shop.Assistant1SellQuestionFormat" Value="「{0}{1}」なら,{2}Zで買い取りますよ" />
+  <Text Key="Shop.Assistant2SellQuestionFormat" Value="「{0}{1}」だったら,{2}Zで買い取るぜ！" />
+  <Text Key="Shop.Assistant3SellQuestionFormat" Value="「{0}{1}」あるか,{2}Zで買い取るヨ" />
+  <Text Key="Shop.Assistant4SellQuestionFormat" Value="「{0}{1}」かい？,{2}Zで買い取っちまうよ？" />
+  <Text Key="Shop.Assistant1Sold" Value="確かに引き取りました" />
+  <Text Key="Shop.Assistant2Sold" Value="ありがとよ！" />
+  <Text Key="Shop.Assistant3Sold" Value="ありがとネ！" />
+  <Text Key="Shop.Assistant4Sold" Value="確かに引き取ったよ！" />
+  <Dialogue Key="Player.JackOutQuestion" Value="シャンハイ、プラグアウトするの？" Face="Alice" Mono="False" />
+  <Text Key="Player.JackOutOptions" Value="はい,いいえ" />
+  <Dialogue Key="Player.JackOutYesResponse" Value="OK！了解よ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Player.JackOutFailedDialogue1" Value="シャンハイ、ここからは,プラグアウトできないのよ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Player.FirewallFadeDialogue1" Value="マークフィンの効果が,切れたみたいね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Player.OpenPortFadeDialogue1" Value="オープンポートの効果が,切れたみたいね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Player.VirusScnFadeDialogue1" Value="ウィルススキャンの効果が,切れたみたいね････" Face="Shanghai" Mono="False" />
+  <Text Key="MysteryItem.OpenDialogue1" Value="シャンハイは,ミステリーデータを調べた・・・・" />
+  <Text Key="MysteryItem.LockedDialogue1" Value="このミステリーデータには,セキュリティがかかっていて,解析することができない" />
+  <Text Key="MysteryItem.LockFailedDialogue1" Value="解析するには,サブチップ「クラックツール」,が必要だ" />
+  <Text Key="MysteryItem.LockOpenedDialogue1" Value="シャンハイは,ミステリーデータを調べた・・・・" />
+  <Dialogue Key="AddOnManager.ExitQuestion" Value="ＲＵＮしてないけど,戻っていいの？" Face="Shanghai" Mono="False" />
+  <Text Key="AddOnManager.ExitOptions" Value="はい,いいえ" />
+  <Text Key="AddOnManager.Cores" Value="コア数" />
+  <Text Key="AddOnManager.Hertz" Value="ヘルツ数" />
+  <Text Key="AddOnManager.ABC" Value="アイウエオ" />
+  <Text Key="AddOnManager.Color" Value="色" />
+  <Text Key="AddOnManager.Equip" Value="装備" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue1" Value="これがアドオンマネージャーの,画面だよ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue2" Value="ここで　ナビに追加するアドオンを,選択し　ナビに組み込むんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue3" Value="痛くない？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue4" Value="大丈夫　ナビにはサブチップを,使った時みたいな感覚しか,伝わらないからね" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue5" Value="今からアドオンの組み込み方を,説明するけど　いくつも自由に,組み込めるわけじゃないんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue6" Value="ここを見てくれ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue1" Value="これはアドオンに使える,ナビのＣＰＵの性能を,表している" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue2" Value="ＣＰＵの性能を超えて,アドオンを組み込むことは,できないんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue3" Value="ＣＰＵの性能は２種類,「ヘルツ」と「コア」に,分かれている" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue4" Value="アドオンがどれほどの,ＣＰＵの性能が必要かは,ここを見ればわかる" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue1" Value="ここに書かれている数値分だけ,ＣＰＵの性能を使うわけだ,左がヘルツ　右がコアだね" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue2" Value="組み込みたいアドオンに,カーソルを合わせてＡボタンで,組み込めるんだけど････" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue3" Value="気をつけてほしいことが,何点かあるんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue4" Value="ヘルツとコア　両方使うアドオンは,両方とも性能に余裕が無いと,組み込むことは出来ない" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue5" Value="それと　コアを使う,色のついたアドオンは,一つだけルールがある" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue6" Value="同じ色のアドオンは複数,組み込むことが出来ないんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue7" Value="今持っている　コアを使わない,バスターパワーとバスターラピッドは,同時に組み込めるけど････" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue8" Value="コアを使う青いファーストアドと,別の同じ青色アドオンは同時に,組み込むことが出来ないんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue9" Value="どの色を使っているかは,下のコアの部分を見れば,わかるようになっている" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue1" Value="ＣＰＵの性能以上に,アドオン入れられない････" Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue2" Value="それと　同じ色のアドオンは,複数入れられないんですね" Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue3" Value="その通り,覚えておいてね" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue4" Value="無理やり組み込んで,バグらせたり出来ないの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue5" Value="そんな危険なことは,出来ないようになってるから,安心してくれ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue6" Value="最後に　組み込むアドオンを,全て選択したらＳＴＡＲＴボタンで,ＲＵＮをするんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue7" Value="ＲＵＮをおこなって初めて,ナビにアドオンの効果が,組み込まれるんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue8" Value="アドオンを組み込んだら,ＳＴＡＲＴボタンでＲＵＮ！,ということですね" Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue9" Value="そうだね　ＲＵＮを忘れると,アドオンは前の状態に,戻ってしまう" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue10" Value="逆に　アドオンの編集を,なかった事にする場合は,ＲＵＮせずに閉じればいいんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue11" Value="それじゃあ実際に,アドオンを組み込んでみてくれ" Face="DrMorichika" Mono="False" />
+  <Text Key="DataList.Standard" Value="スタンダード" />
+  <Text Key="DataList.Navi" Value="ナビチップ" />
+  <Text Key="DataList.Dark" Value="ダークチップ" />
+  <Text Key="DataList.PAdvance" Value="アドバンスメモ" />
+  <Text Key="FolderEdit.BagName" Value="バッグ" />
+  <Text Key="FolderEdit.Folder1" Value="フォルダ１" />
+  <Text Key="FolderEdit.Folder2" Value="フォルダ２" />
+  <Text Key="FolderEdit.ID" Value="ＩＤ" />
+  <Text Key="FolderEdit.ABC" Value="アイウエオ" />
+  <Text Key="FolderEdit.Code" Value="コード" />
+  <Text Key="FolderEdit.Power" Value="攻撃力" />
+  <Text Key="FolderEdit.Element" Value="属性" />
+  <Text Key="FolderEdit.Quantity" Value="枚数" />
+  <Text Key="FolderEdit.MB" Value="容量" />
+  <Text Key="FolderEdit.FolderSizeDialogue1" Value="フォルダの中身が,30枚になってないわよ！,きっちり入れるのよ！" />
+  <Text Key="FolderEdit.FolderSizeSpecialDialogue1" Value="フォルダの中身が,30枚になっていません," />
+  <Text Key="FolderEdit.Memory0-19LimitDialogue1Format" Value="１９ＭＢ以下の,チップはフォルダに,{0} 枚までよ！" />
+  <Text Key="FolderEdit.Memory0-19LimitSpecialDialogue1Format" Value="１９ＭＢ以下の,チップはフォルダに,{0} 枚までよ" />
+  <Text Key="FolderEdit.Memory20-29LimitDialogue1Format" Value="２０ＭＢ～２９ＭＢの,チップはフォルダに,{0} 枚までよ！" />
+  <Text Key="FolderEdit.Memory20-29LimitSpecialDialogue1Format" Value="２０ＭＢ～２９ＭＢの,チップはフォルダに,{0} 枚までよ" />
+  <Text Key="FolderEdit.Memory30-39LimitDialogue1Format" Value="３０ＭＢ～３９ＭＢの,チップはフォルダに,{0} 枚までよ！" />
+  <Text Key="FolderEdit.Memory30-39LimitSpecialDialogue1Format" Value="３０ＭＢ～３９ＭＢの,チップはフォルダに,{0} 枚までよ" />
+  <Text Key="FolderEdit.Memory40-49LimitDialogue1Format" Value="４０ＭＢ～４９ＭＢの,チップはフォルダに,{0} 枚までよ！" />
+  <Text Key="FolderEdit.Memory40-49LimitSpecialDialogue1Format" Value="４０ＭＢ～４９ＭＢの,チップはフォルダに,{0} 枚までよ" />
+  <Text Key="FolderEdit.Memory50+LimitDialogue1Format" Value="５０ＭＢ以上の,チップはフォルダに,{0} 枚までよ！" />
+  <Text Key="FolderEdit.Memory50+LimitSpecialDialogue1Format" Value="５０ＭＢ以上の,チップはフォルダに,{0} 枚までよ" />
+  <Text Key="FolderEdit.NaviLimitDialogue1Format" Value="ナビチップは,{0} 枚までよ！,忘れちゃったの？" />
+  <Text Key="FolderEdit.NaviLimitSpecialDialogue1Format" Value="ナビチップは,{0} 枚までです," />
+  <Text Key="FolderEdit.DarkChipLimitDialogue1Format" Value="ダークチップは,フォルダに{0} 枚まで！,あたしを殺す気！？" />
+  <Text Key="FolderEdit.DarkChipLimitSpecialDialogue1Format" Value="ダークチップは,フォルダに{0} 枚まで！,となっております" />
+  <Text Key="FolderEdit.RegChipMemoryLimitDialogue1" Value="残念だけれど,レギュラーに必要な,容量が足りてないわ！" />
+  <Text Key="FolderEdit.RegChipMemoryLimitSpecialDialogue1" Value="レギュラーに必要な,容量が足りません," />
+  <Text Key="FolderEdit.ClearFolderDialogue1" Value="フォルダの中身を,空にしていい？,Ａ はい／Ｂ いいえ" />
+  <Text Key="FolderEdit.ClearFolderSpecialDialogue1" Value="フォルダの中身を,,空にしますか？,Ａ はい／Ｂ いいえ" />
+  <Text Key="Special.ExtraFolder" Value="ヨビフォルダ" />
+  <Text Key="Special.N1Folder" Value="リーグフォルダ" />
+  <Text Key="Special.SeirenFolder" Value="セイレーンフォルダ" />
+  <Text Key="Special.AkinFolder" Value="アクニンフォルダ" />
+  <Text Key="Special.MeijiFolder" Value="メイジンフォルダ" />
+  <Text Key="FolderSelect.Folder1" Value="フォルダ１" />
+  <Text Key="FolderSelect.Folder2" Value="フォルダ２" />
+  <Text Key="FolderSelect.EditFolder" Value="編集する" />
+  <Text Key="FolderSelect.EquipFolder" Value="装備する" />
+  <Text Key="Mail.MailReadTextDialogue1" Value="どのメールを読む？," />
+  <Dialogue Key="NameEdit.NameFailureDialogue1" Value="通信を始める前に,通信で使う名前を,入力しなさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="NameEdit.NameInvalidDialogue1" Value="せめて１文字くらい,入力しなさいよ！！," Face="Shanghai" Mono="False" />
+  <Text Key="Navi.Buster" Value="バスター" />
+  <Text Key="Navi.Power" Value="パワー　　:" />
+  <Text Key="Navi.Rapid" Value="ラピッド　:" />
+  <Text Key="Navi.Charge" Value="チャージ　:" />
+  <Text Key="Navi.AddOn" Value="アドオン" />
+  <Text Key="Navi.NoAddOns" Value="　ナシ" />
+  <Text Key="Navi.StatusMessage" Value="これがあたしの能力よ！" />
+  <Text Key="Navi.AddOnManager" Value="　アドオンマネージャーの起動" />
+  <Text Key="Navi.ChangeStyle" Value="　スタイルの変更" />
+  <Dialogue Key="NetWork.IntroDialogue1" Value="ネットワークモードにようこそ！,このモードの案内は私,岡崎名人が担当するわ" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.ConnectionFailureDialogue1" Value="通信が切れちゃったわ････,相手になにかあったのかしら？" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleVictoryDialogue1" Value="あなたの勝利よ！,ナイスオペレーティング！" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleDefeatDialogue1" Value="負けちゃったね････,次は勝ちましょう！," Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleDrawDialogue1" Value="引き分けね････,次は勝ちましょう！," Face="MsFamous" Mono="False" />
+  <Text Key="NetWork.ClientDialogue1" Value="親機としてクライアントから,通信を受け付けるわよ！" />
+  <Text Key="NetWork.BGMChange" Value="（Ｌ・ＲボタンでＢＧＭ変更）" />
+  <Text Key="NetWork.ConnectToHostDialogue1" Value="子機としてホストのＩＰアドレスに,接続するわよ！" />
+  <Text Key="NetWork.PreviousConnectionDialogue1" Value="前に遊んだ相手のリストから,接続先を選択するわよ！" />
+  <Text Key="NetWork.ChangeNameDialogue1" Value="通信で使うあなたの名前を,変更するわよ！" />
+  <Text Key="NetWork.FaceChange" Value="（Ｌ・Ｒボタンで【顔】を変更）,バトルするわよ！" />
+  <Text Key="NetWork.EmptyStageDialogue1" Value="お互いまっさらなステージで,バトルするわよ！" />
+  <Text Key="NetWork.VariedStageDialogue1" Value="属性パネルや障害物のある,ステージでバトルするわよ！" />
+  <Text Key="NetWork.WaitForConnectionDialogue1" Value="通信待機中････,相手にＩＰアドレスを伝えて,入力してもらってね！" />
+  <Text Key="NetWork.WaitingToConnectDialogue1" Value="通信待機中････,繋がらない場合は相手が,ホストを選択してるか確認！" />
+  <Text Key="NetWork.BattleStartDialogue1" Value="対戦準備完了！,バトルオペレーション,セット！　イン！" />
+  <Text Key="Save.PlayTime" Value="プレイ時間" />
+  <Text Key="Save.Library" Value="データリスト" />
+  <Text Key="Save.Chips" Value="バトルチップ" />
+  <Text Key="Save.ChipCountFormat" Value="{0}枚" />
+  <Text Key="Save.Money" Value="クレジット" />
+  <Text Key="Save.BillionaireMoney" Value="オクマンチョウジャ" />
+  <Text Key="Save.SaveQuestion" Value="セーブしとく？" />
+  <Text Key="Save.SaveQuestionSpecial" Value="セーブヲ　シマスカ？" />
+  <Text Key="Save.OverwriteQuestion" Value="上書きするけどいい？" />
+  <Text Key="Save.OverwriteQuestionSpecial" Value="ウワガキシテ　ヨロシイデスカ？" />
+  <Text Key="Save.SaveInProgress" Value="セーブ中･･････" />
+  <Text Key="Save.SaveInProgressSpecial" Value="セーブチュウ･･････" />
+  <Text Key="Save.SaveComplete" Value="セーブできたわよ！" />
+  <Text Key="Save.SaveCompleteSpecial" Value="セーブデキマシタ！" />
+  <Text Key="Save.Options" Value="はい,いいえ" />
+  <Text Key="Shop.ZennyFormat" Value="{0}コ" />
+  <Text Key="Style.StyleNormal" Value="ノーマルスタイル" />
+  <Text Key="Style.StyleFght" Value="ファイター" />
+  <Text Key="Style.StyleNinj" Value="シノビ" />
+  <Text Key="Style.StyleDoc" Value="ドクター" />
+  <Text Key="Style.StyleGaia" Value="ガイア" />
+  <Text Key="Style.StyleWing" Value="ウィング" />
+  <Text Key="Style.StyleWtch" Value="ウィッチ" />
+  <Text Key="Style.ElemNormal" Value="ノーマルスタイル" />
+  <Text Key="Style.ElemHeat" Value="ヒート" />
+  <Text Key="Style.ElemAqua" Value="アクア" />
+  <Text Key="Style.ElemElec" Value="エレキ" />
+  <Text Key="Style.ElemLeaf" Value="リーフ" />
+  <Text Key="Style.ElemPois" Value="ポイズン" />
+  <Text Key="Style.ElemErth" Value="アース" />
+  <Dialogue Key="SubChip.InvalidRealWorldDialogue1" Value="さすがにスマホの中じゃ,サブチップは効果はないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidOutOfSubChipsDialogue1" Value="持っていないものを使うのは,さすがのあたしでも,ちょっと無理があるわ…" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidFullHPDialogue1" Value="ＨＰが減ってない時に使っても,効果はないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidAlreadyInUseDialogue1" Value="まだ前の効果が残ってるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidNothingToUnlockDialogue1" Value="少なくとも私の周りに,こじ開けられそうなものは,見当たらないわよ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.UseQuestion" Value="使うと減っちゃうけど,使っちゃう？" Face="Shanghai" Mono="False" />
+  <Text Key="SubChip.UseOptions" Value="はい,いいえ" />
+  <Text Key="SubChip.HalfEnrgDescDialogue1" Value="最大ＨＰの半分,ＨＰを回復する！" />
+  <Text Key="SubChip.FullEnrgDescDialogue1" Value="ＨＰを全回復する！," />
+  <Text Key="SubChip.FireWallDescDialogue1" Value="一定時間自分より,弱いウィルスと,出会わなくなる" />
+  <Text Key="SubChip.OpenPortDescDialogue1" Value="無防備を装い,しばらくウィルスと,出会いやすくなる" />
+  <Text Key="SubChip.Anti-VrsDescDialogue1" Value="ミステリーデータに,紛れ込んだ,ウィルスを削除する" />
+  <Text Key="SubChip.VirusScnDescDialogue1" Value="直前に出会った,ウィルスのグループが,出現するようになる" />
+  <Text Key="SubChip.CrakToolDescDialogue1" Value="ロックのかかった,ミステリーデータを,こじ開ける" />
+  <Text Key="SubChip.HalfEnrg" Value="ハーフエナジー" />
+  <Text Key="SubChip.FullEnrg" Value="フルエナジー" />
+  <Text Key="SubChip.FireWall" Value="マークフィン" />
+  <Text Key="SubChip.OpenPort" Value="オープンポート" />
+  <Text Key="SubChip.Anti-Vrs" Value="アーバスト" />
+  <Text Key="SubChip.VirusScn" Value="ウィルススキャン" />
+  <Text Key="SubChip.CrakTool" Value="クラックツール" />
+  <Text Key="TopMenu.Billionaire" Value="オクマンチョウジャ" />
+  <Text Key="TopMenu.FragCountFormat" Value="{0}コ" />
+  <Dialogue Key="Virus.FeedFailedDialogue1" Value="これ以上あげても,無駄になってもったいないから,やめときましょう" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.FeedFailedNoItemsDialogue1" Value="食べさせてあげたいのは,山々だけどさすがに,持ってないものはねえ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.DismissDialogue1" Value="バイバ～イ♪,しもべたちにお世話して,もらうのよ～" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.FeedQuestion" Value="" Face="Shanghai" Mono="False" />
+  <Text Key="Virus.FeedOptionsFormat" Value="バグのかけら（Ver+0.05） ×{0},フリーズのかけら（HP+20）×{1},エラーのかけら（パワー+5）×{2}" />
+  <Dialogue Key="Virus.DismissQuestion" Value="ひかえ室にウィルスを預ける？" Face="Shanghai" Mono="False" />
+  <Text Key="Virus.DismissOptions" Value="はい,いいえ" />
+  <Text Key="Virus.IntroductionNoVirusDialogue1" Value="私たちは現在ウイルス,を育てていません" />
+  <Text Key="Virus.Introduction" Value="飼っているウィルスの状態よ" />
+  <Text Key="Virus.OptionsFormat" Value="　エサを与える　　残り{0}個,　ウィルスを預ける" />
+  <Text Key="Virus.Power" Value="パワー:" />
+  <Dialogue Key="Bounty.ClaimDialogue1Format" Value="{0} を,倒したんですね！" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.ClaimDialogue2Format" Value="賞金{0}Zを,お受取りください！" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.ClaimDialogue3" Value="これからのあなたの活躍も,期待していますよ！" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue1Format" Value="出現エリア,{0}" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue2Question" Value="この依頼を受けますか？" Face="None" Mono="False" />
+  <Text Key="Bounty.AcceptDialogue2Options" Value="はい,いいえ" />
+  <Text Key="Bounty.Area1" Value="ゲンソウエリア１" />
+  <Text Key="Bounty.Area2" Value="冷蔵庫の電脳２" />
+  <Text Key="Bounty.Area3" Value="シティエリア１" />
+  <Text Key="Bounty.Area4" Value="消火栓の電脳" />
+  <Text Key="Bounty.Area5" Value="シティエリア３" />
+  <Text Key="Bounty.Area6" Value="シティエリア２" />
+  <Text Key="Bounty.Area7" Value="花だんの電脳" />
+  <Text Key="Bounty.Area8" Value="ベンチの電脳" />
+  <Text Key="Bounty.Area9" Value="空気清浄機の電脳１" />
+  <Text Key="Bounty.Area10" Value="研究室のﾈｯﾄﾊﾞﾄﾙﾏｼﾝの電脳" />
+  <Text Key="Bounty.Area11" Value="自動販売機の電脳" />
+  <Text Key="Bounty.Area12" Value="空気清浄機の電脳４" />
+  <Text Key="Bounty.Area13" Value="エイエンエリア２" />
+  <Text Key="Bounty.Area14" Value="ウサ公の像の電脳" />
+  <Text Key="Bounty.Area15" Value="学校の電脳２" />
+  <Text Key="Bounty.Area16" Value="ウラインターネット１" />
+  <Text Key="Bounty.Area17" Value="エイエンエリア３" />
+  <Text Key="Bounty.Area18" Value="電動機付き自転車の電脳" />
+  <Text Key="Bounty.Area19" Value="神社の電脳１" />
+  <Text Key="Bounty.Area20" Value="自動車の電脳" />
+  <Text Key="Bounty.Area21" Value="両替機の電脳" />
+  <Text Key="Bounty.Area22" Value="戦車の電脳" />
+  <Text Key="Bounty.Area23" Value="ポストの電脳" />
+  <Text Key="Bounty.Area24" Value="ゆっくりの電脳" />
+  <Text Key="Bounty.Area25" Value="インゲレスエリア１" />
+  <Text Key="Bounty.Area26" Value="ウラインターネット５" />
+  <Text Key="Bounty.Area27" Value="名探偵の像の電脳" />
+  <Text Key="Bounty.Area28" Value="ケーキ屋の電脳" />
+  <Text Key="Bounty.Area29" Value="ウラインターネット６" />
+  <Text Key="Bounty.Area30" Value="ホテルのＨＰ" />
+  <Text Key="Bounty.Area31" Value="ねこどるふぃんの電脳" />
+  <Text Key="Bounty.Area32" Value="客室テレビの電脳" />
+  <Text Key="Bounty.Area33" Value="戦艦模型の電脳" />
+  <Text Key="Bounty.Area34" Value="豪華客船の電脳１" />
+  <Text Key="Bounty.Area35" Value="沈没船の電脳１" />
+  <Text Key="Bounty.Area36" Value="時計塔の電脳３" />
+  <Text Key="Bounty.Area37" Value="病院の電脳１" />
+  <Text Key="Bounty.Area38" Value="ウラインターネット２" />
+  <Dialogue Key="Navi.InvalidFolderAddonChangeDialogue1" Value="アドオンが変わったことで,フォルダがルール違反になって,予備フォルダにかわったわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="VirusManager.UnneededVirusQuestion" Value="そのウィルス　いらないなら,私が引き取りましょうか？" Face="Sprite" Mono="False" />
+  <Text Key="VirusManager.UnneededVirusOptions" Value="はい,いいえ" />
+  <Text Key="MysteryData.DefaultContents" Value="レイガン　A" />
+  <Text Key="RandomMystery.DefaultContents" Value="レイガン　A" />
+  <Text Key="VirusManager.HP" Value="HP :" />
+  <Text Key="VirusManager.Power" Value="パワー:" />
+
+  <Dialogue Key="Misc.DemoEndDialogue1" Value="[This content is in progress.,Please wait warmly while,development continues.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.DemoEndDialogue2" Value="[In the meantime，please visit,Shanghai’s Room for challenge,battles and secret content.]" Face="Sprite" Mono="False" />
+</data>

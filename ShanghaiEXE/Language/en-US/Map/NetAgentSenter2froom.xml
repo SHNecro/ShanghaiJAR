@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- エージェントセンター　会議室 -->
+  <Text Key="Map.NetAgentSenter2froomName" Value="Agent Center Conference Room" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="A long desk covered in faint,scratches." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="Many operations must have,been planned and documents,drafted across these desks." Face="None" Mono="False" />
+  <!-- ＲＯＭがこれ以上ビヨンダードへのゲートを開かないように頑張らないと -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7FaceSagumeStage1Dialogue1FaceSagume" Value="Intercepted documents reveal,that ROM is attempting to open,another gate to Beyondard...." Face="Sagume" Mono="False" />
+  <!-- でも　まだ情報が全然無いのよねー････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7FaceSagumeStage1Dialogue2FaceSagume" Value="That’s all we’ve gathered，,though...." Face="Sagume" Mono="False" />
+  <!-- では　これより先日の黒いナビによる襲撃事件の報告会を行う -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage1Dialogue1FacePoliceman" Value="This meeting is to discuss the,attack on the Net by the Black,Navis." Face="Policeman" Mono="False" />
+  <!-- ここにいる神綺アリスさんの協力もあり　黒いナビの正体がはっきりしてきた -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage1Dialogue2FacePoliceman" Value="Also in attendance is Alice,Shinki，whose help revealed,the source of the attack." Face="Policeman" Mono="False" />
+  <!-- えへへ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage1Dialogue3FaceAlice" Value="Ehehe...." Face="Alice" Mono="False" />
+  <!-- あの黒いナビってＲＯＭが開発した新しいネットナビなんですか？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage3Dialogue1FaceFemaleAdult" Value="Are the Black Navis a new,generation of ROM NetNavis?" Face="FemaleAdult" Mono="False" />
+  <!-- いや　新手のウィルスの一種か････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage3Dialogue2FaceMaleElderly" Value="No....,A result of a virus breeding,program?" Face="MaleElderly" Mono="False" />
+  <!-- そのどちらでもない････あの黒いナビの正体は -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage5Dialogue1FacePoliceman" Value="Neither. The true identities of,the Black Navi attackers were,found to be...." Face="Policeman" Mono="False" />
+  <!-- ビヨンダードからの侵略者だった -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage5Dialogue2FacePoliceman" Value="....Invaders from Beyondard." Face="Policeman" Mono="False" />
+  <!-- ざわ････ざわ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue1FaceNone" Value="Huh....?,What....?" Face="None" Mono="False" />
+  <!-- 失礼　ビヨンダードとは？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue2FaceReisen" Value="Please elaborate. Beyondard?" Face="Reisen" Mono="False" />
+  <!-- ビヨンダードとは世間には公表されていない別次元の世界のことだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue3FacePoliceman" Value="Beyondard is a dimension,whose existence was only,known to select organizations." Face="Policeman" Mono="False" />
+  <!-- 別次元の世界？パラレルワールドってこと？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue4FaceFemaleAdult" Value="A dimension? Like an alternate,universe? A parallel world?" Face="FemaleAdult" Mono="False" />
+  <!-- パラレルワールド････まるで映画みたいな話だな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue5FaceMaleAdult" Value="A parallel world....,Like something out of a movie." Face="MaleAdult" Mono="False" />
+  <!-- 確かに　初めて聞けばつくり話か　フィクションの類にも聞こえるかもしれない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue1FaceSagume" Value="It does indeed seem like fiction，,especially if this is the first,you’ve heard of it." Face="Sagume" Mono="False" />
+  <!-- けれども　ビヨンダードは確かに存在するものなのよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue2FaceSagume" Value="But Beyondard certainly exists." Face="Sagume" Mono="False" />
+  <!-- 例の黒いナビは　ビヨンダードの人喰い種族だという情報が入っている -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue3FacePoliceman" Value="The Black Navis we faced are,from a Beyondard tribe of,cannibals." Face="Policeman" Mono="False" />
+  <!-- まとめると　相手は異世界のそれも怪物という恐ろしい存在ってことよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue4FaceSagume" Value="It seems that we’re up against,the monsters of another world." Face="Sagume" Mono="False" />
+  <!-- でも　このまま黙って侵略を受けるつもりなんてない････でしょ？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue5FaceSagume" Value="But we’ve got experience,defeating monsters，don’t we?" Face="Sagume" Mono="False" />
+  <!-- 無論だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue1FacePoliceman" Value="Of course." Face="Policeman" Mono="False" />
+  <!-- 先日の襲撃に使われていたゲートは電脳世界側から開かれたものだった -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue2FacePoliceman" Value="The gate to Beyondard that let,the attackers in was opened,from our side of the Net." Face="Policeman" Mono="False" />
+  <!-- この世界の何者かが襲撃を手引した････ということですか？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue3FaceFemaleAdult" Value="Do you mean to say....,This raid was led by a person,from our world?" Face="FemaleAdult" Mono="False" />
+  <!-- 何者か　じゃないわ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue4FaceSagume" Value="Not a person，but persons." Face="Sagume" Mono="False" />
+  <!-- こんな呆れたことをする連中なんて一つしか無いじゃない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue5FaceSagume" Value="And there’s only one group,who would do such a thing." Face="Sagume" Mono="False" />
+  <!-- ････ＲＯＭ　か -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue1FaceReisen" Value="....ROM." Face="Reisen" Mono="False" />
+  <!-- 正解！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue2FaceSagume" Value="Yes." Face="Sagume" Mono="False" />
+  <!-- ＲＯＭの仕業なのだとすればその打倒を急がねば････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue3FacePoliceman" Value="If this truly was the work of ROM，,we must step up our timetable,to dismantle the group." Face="Policeman" Mono="False" />
+  <!-- しかし　依然としてＲＯＭの拠点の位置や資金の調達先は不明････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue4FacePoliceman" Value="However，their headquarters,and sources of funding are still,unclear...." Face="Policeman" Mono="False" />
+  <!-- 我々ネットエージェントは全力を上げてこれらの調査を行うべきだろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue5FacePoliceman" Value="Determining these facts has,now become our top priority." Face="Policeman" Mono="False" />
+  <!-- だが　ビヨンダードからの襲撃が再びあるかもしれん -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue6FaceReisen" Value="Are we prepared for further,raids from Beyondard forces?" Face="Reisen" Mono="False" />
+  <!-- 警戒を怠らないようにしないとってことね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue7FaceSagume" Value="We can’t be reactive in this fight." Face="Sagume" Mono="False" />
+  <!-- では各自　警戒を強めＲＯＭの調査に臨んでくれ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage15Dialogue1FacePoliceman" Value="Shutting down ROM takes,precedence." Face="Policeman" Mono="False" />
+  <!-- わかったことがあれば追ってまた連絡する -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage15Dialogue2FacePoliceman" Value="We will contact you individually,with your assignments." Face="Policeman" Mono="False" />
+  <!-- それでは解散！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage15Dialogue3FacePoliceman" Value="Meeting adjourned!" Face="Policeman" Mono="False" />
+  <!-- 会議の参加　お疲れ様どうだった？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue1FaceSagume" Value="So what did you think about,a proper NetAgent briefing?" Face="Sagume" Mono="False" />
+  <!-- どうだったというかなんだか大変なことになってきましたね････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue2FaceAlice" Value="I keep wondering how I keep,getting involved in such serious,things...." Face="Alice" Mono="False" />
+  <!-- 気持ちはわかるわなにせ　異世界が相手だものね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue3FaceSagume" Value="Oh，I totally get you.,Fighting against another world，,huh?" Face="Sagume" Mono="False" />
+  <!-- 大丈夫よ　大丈夫あたしがついてるんだから！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue4FaceShanghai" Value="This world，another world，pfft!,We can take them!" Face="Shanghai" Mono="False" />
+  <!-- ふふ　頼もしいナビね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue5FaceSagume" Value="Haah....What a dependable,Navi." Face="Sagume" Mono="False" />
+  <!-- それじゃあ　何かわかったらこちらから連絡するから -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue6FaceSagume" Value="I’ll call you if we find anything,we could use your help with." Face="Sagume" Mono="False" />
+  <!-- ････っと黒いナビの討伐報酬を渡さないとね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue7FaceSagume" Value="....And here’s your reward for,helping with the Black Navis." Face="Sagume" Mono="False" />
+  <!-- ありがとうございます -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue8FaceAlice" Value="Thank you very much." Face="Alice" Mono="False" />
+  <!-- よし　会議が終わったのなら今日はもう帰りましょう -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue9FaceShanghai" Value="Let’s head home. That was a,long meeting." Face="Shanghai" Mono="False" />
+  <!-- そうねじゃあサグメさん -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue10FaceAlice" Value="See you later，Ms Sagume." Face="Alice" Mono="False" />
+  <!-- またねー -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue11FaceSagume" Value="Seeya." Face="Sagume" Mono="False" />
+  <!-- 会議で使う電子黒板だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomBlackboardStage1Dialogue1FaceNone" Value="It’s an electronic whiteboard for,meetings." Face="None" Mono="False" />
+  <!-- 学校のものに比べると解像度が高く綺麗な映像を映すことができる -->
+  <Dialogue Key="Map.NetAgentSenter2froomBlackboardStage1Dialogue2FaceNone" Value="Compared to the ones at,school，they’re in beautiful,high definition." Face="None" Mono="False" />
+  <!-- 無論　プラグインも可能である -->
+  <Dialogue Key="Map.NetAgentSenter2froomBlackboardStage1Dialogue3FaceNone" Value="Of course，you can jack in." Face="None" Mono="False" />
+  <!-- アリス　決戦の日までせめてママといっしょにいてあげてくれ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8Toroid2Stage1Dialogue1FaceLloyd" Value="Alice，until the final battle，,please stay with your mother." Face="Lloyd" Mono="False" />
+  <!-- 心配性だからな････ママは -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8Toroid2Stage1Dialogue2FaceLloyd" Value="You mother....She worries." Face="Lloyd" Mono="False" />
+  <!-- 神綺さん来てくれたんだね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue1FaceDrMorichika" Value="Good，you’re here." Face="DrMorichika" Mono="False" />
+  <!-- 博士　あたしについて話すことって････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue2FaceShanghai" Value="What is it，Doc?" Face="Shanghai" Mono="False" />
+  <!-- 先日の黒いナビ襲撃事件でシャンハイ　君だけが敵と対等に戦うことができた -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue3FaceDrMorichika" Value="On the day the Black Navis,attacked，only Shanghai could,face them evenly." Face="DrMorichika" Mono="False" />
+  <!-- その謎の答えはシャンハイの正体だということがわかったんだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue4FaceDrMorichika" Value="The reason for this....,The answer lies in the true,nature of Shanghai." Face="DrMorichika" Mono="False" />
+  <!-- シャンハイの正体････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue5FaceAlice" Value="The true nature of Shanghai....?" Face="Alice" Mono="False" />
+  <!-- そう　それは････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue6FaceDrMorichika" Value="Yes...." Face="DrMorichika" Mono="False" />
+  <!-- 霖之助　そいつは俺に話させてくれないか？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue7FaceNone" Value="Rinnosuke，let me be the one,to tell them." Face="None" Mono="False" />
+  <!-- パパ！？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue1FaceAlice" Value="Papa?!" Face="Alice" Mono="False" />
+  <!-- トロイド君････帰ってきていたのか -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue2FaceDrMorichika" Value="Lloyd....,You’re back?" Face="DrMorichika" Mono="False" />
+  <!-- 日本が　いや世界が危機に陥っていると聞いてな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue3FaceLloyd" Value="The world’s in trouble，and,Japan is in the center of it." Face="Lloyd" Mono="False" />
+  <!-- それに　自分の娘達がその危機を救うカギになるということも････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue4FaceLloyd" Value="And I know that my daughters,are the key to stopping this,crisis." Face="Lloyd" Mono="False" />
+  <!-- 私が････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue5FaceAlice" Value="Me?!,Wait，daught....ers....?" Face="Alice" Mono="False" />
+  <!-- アリス　お前と・・・・レベッカの二人のことだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue6FaceLloyd" Value="Alice and Rebecca，the both,of you." Face="Lloyd" Mono="False" />
+  <!-- レベッカ････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue7FaceAlice" Value="Rebecca....?" Face="Alice" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue8FaceShanghai" Value="........" Face="Shanghai" Mono="False" />
+  <!-- アリス　お前が気がついているか分からないが　シャンハイは普通のネットナビじゃない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue1FaceLloyd" Value="Alice，you may have noticed,that Shanghai is no normal,Navi." Face="Lloyd" Mono="False" />
+  <!-- 言う事聞かないし性格悪いから　うすうすそんな気はしてたけど････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue2FaceAlice" Value="I know her personality’s a bit....,off，but what does that have to,do with anything?" Face="Alice" Mono="False" />
+  <!-- ････そういうことじゃないもっと本質的な部分の話だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue3FaceLloyd" Value="....Not like that.,There’s something else." Face="Lloyd" Mono="False" />
+  <!-- 順を追って話そう････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue4FaceLloyd" Value="Let me start from the beginning." Face="Lloyd" Mono="False" />
+  <!-- あれは今から２０年前････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue5FaceLloyd" Value="20 years ago...." Face="Lloyd" Mono="False" />
+  <!-- 僕はしばらくここでネットエージェントの手伝いをする -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage7Dialogue1FaceDrMorichika" Value="I’ll stay here to assist the,NetAgents." Face="DrMorichika" Mono="False" />
+  <!-- もし魔理が寂しがってたら一緒に遊んであげてくれないかな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage7Dialogue2FaceDrMorichika" Value="Keep Mari company for me.,I know she gets lonely,sometimes." Face="DrMorichika" Mono="False" />
+  <!-- ････じゃあ　シャンハイは私の腹違いのお姉ちゃんだったってこと？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue1FaceAlice" Value="....Shanghai is my older sister?" Face="Alice" Mono="False" />
+  <!-- ああ　そうだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue2FaceLloyd" Value="Ah，yes." Face="Lloyd" Mono="False" />
+  <!-- シャンハイの容量が大きいのは体細胞の一つ一つが情報として定義されているから････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue3FaceLloyd" Value="Shanghai’s large capacity is,because she is made up of,cells，stored as information." Face="Lloyd" Mono="False" />
+  <!-- そして　ビヨンダードから来た黒いナビを倒せたのは -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue4FaceLloyd" Value="This allows her to interact with,the lifeforms of Beyondard，the,Black Navis." Face="Lloyd" Mono="False" />
+  <!-- シャンハイのベースである電子生命体がビヨンダードから来た存在だったからなんだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue5FaceLloyd" Value="Because in the beginning，she,was made of the same blocks,as them." Face="Lloyd" Mono="False" />
+  <!-- それが････シャンハイの正体････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue6FaceAlice" Value="That’s....,The true nature of Shanghai...." Face="Alice" Mono="False" />
+  <!-- 私は知らずにお姉ちゃんをオペレートして戦わせていたんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue7FaceAlice" Value="So I’ve been operating my,sister to fight this whole time...." Face="Alice" Mono="False" />
+  <!-- あたしの正体を知ればあなたは遠慮をしてしまうかもしれない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue8FaceShanghai" Value="If you knew，I thought you might,hold back." Face="Shanghai" Mono="False" />
+  <!-- だから････パパに黙っておくようにお願いしていたの -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue9FaceShanghai" Value="That’s why....,I asked Dad to keep it from you." Face="Shanghai" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue10FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- アリス　このことを知っても････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue11FaceShanghai" Value="Alice，even now that you know,the truth...." Face="Shanghai" Mono="False" />
+  <!-- あたしをシャンハイとしてオペレートできる････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue12FaceShanghai" Value="Would you keep operating me,as Shanghai?" Face="Shanghai" Mono="False" />
+  <!-- ････今はまだ　わからないわ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue13FaceAlice" Value="....I don’t know." Face="Alice" Mono="False" />
+  <!-- でも　シャンハイの正体がどうして世界を救うカギになるの？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue14FaceAlice" Value="But wait....,How is Shanghai’s true nature,related to stopping ROM?" Face="Alice" Mono="False" />
+  <!-- ＲＯＭの計画を阻止には彼らの計画を立てた人物を倒す必要がある････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue15FaceLloyd" Value="In order to stop ROM，their,leader must be defeated，and,their plans foiled." Face="Lloyd" Mono="False" />
+  <!-- そして　その人物は確実にビヨンダードから来た存在 -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue16FaceLloyd" Value="Their leader....,They surely must be a being,from Beyondard." Face="Lloyd" Mono="False" />
+  <!-- それも大きな力を持つ者だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue17FaceLloyd" Value="And one of great power." Face="Lloyd" Mono="False" />
+  <!-- ビヨンダードから来た存在と対等に戦えるのはシャンハイただひとり -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue18FaceLloyd" Value="Shanghai is the only one who,can fight against a lifeform from,Beyondard as an equal." Face="Lloyd" Mono="False" />
+  <!-- そして　そのシャンハイの潜在能力を引き出すために -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue19FaceLloyd" Value="And in order to bring out,Shanghai’s full potential...." Face="Lloyd" Mono="False" />
+  <!-- アリスとシャンハイふたりのキズナが不可欠なんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue20FaceLloyd" Value="The bonds between Alice and,Shanghai are of the utmost,importance." Face="Lloyd" Mono="False" />
+  <!-- 私とシャンハイのキズナが････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue21FaceAlice" Value="The bonds between Shanghai,and I...." Face="Alice" Mono="False" />
+  <!-- ふたりのココロが極限まで一体化した　フルシンクロを超える究極の状態････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue22FaceLloyd" Value="An ultimate state，beyond Full,Synchro. Two hearts，merged,as one." Face="Lloyd" Mono="False" />
+  <!-- パーフェクトシンクロが発揮できないと勝つのは不可能に近いだろう････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue23FaceLloyd" Value="Without this Perfect Synchro，,we have no chance." Face="Lloyd" Mono="False" />
+  <!-- パーフェクト････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue24FaceAlice" Value="Perfect...." Face="Alice" Mono="False" />
+  <!-- シンクロ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue25FaceShanghai" Value="Synchro...." Face="Shanghai" Mono="False" />
+  <!-- どうすればその状態が発現するかは俺達にはわからない････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue26FaceLloyd" Value="We have no idea how such,a state would be achieved." Face="Lloyd" Mono="False" />
+  <!-- ただひとつ　お前たちふたりがお互いについて心から信用する必要があるのは確かだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue27FaceLloyd" Value="But it’s a guarantee that you,two have to trust eachother,completely." Face="Lloyd" Mono="False" />
+  <!-- ナビとオペレーターという関係を超えた繋がりを持っていると知るのも････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue28FaceLloyd" Value="I know that you have a bond,beyond that of Navi and NetOp." Face="Lloyd" Mono="False" />
+  <!-- ・・・・・・・・ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue1FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- 今まで　疑問に思ってたの -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue2FaceAlice" Value="I’ve always wondered...." Face="Alice" Mono="False" />
+  <!-- シャンハイって　どうしてこんなに私のことを理解して助けてくれるんだろうって -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue3FaceAlice" Value="I wondered how Shanghai,understood so much about me...." Face="Alice" Mono="False" />
+  <!-- 血の繋がった家族だから -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue4FaceAlice" Value="Because we were family...." Face="Alice" Mono="False" />
+  <!-- お姉ちゃんだからだったんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue5FaceAlice" Value="Because we were sisters...." Face="Alice" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue6FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- ････私　やるわ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue7FaceAlice" Value="....I can do it." Face="Alice" Mono="False" />
+  <!-- 私だって　この世界をみんなが生きている街をROMに渡したくない！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue8FaceAlice" Value="I won’t let ROM take our home,-- all our friends，the world! --,from us!" Face="Alice" Mono="False" />
+  <!-- 私は　戦うお姉ちゃんと････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue9FaceAlice" Value="I’ll fight alongside my sister...." Face="Alice" Mono="False" />
+  <!-- ううんシャンハイと一緒に････！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue10FaceAlice" Value="No，alongside Shanghai!" Face="Alice" Mono="False" />
+  <!-- フッ････アリスならそう言うと信じてたわよ！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue11FaceShanghai" Value="Alice.... I knew you would say,that." Face="Shanghai" Mono="False" />
+  <!-- ふたりとも････ありがとう -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue12FaceDrMorichika" Value="Both of you，thank you." Face="DrMorichika" Mono="False" />
+  <!-- 現在　ネットエージェントはＲＯＭのアジトに攻撃する準備を整えている -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue13FaceDrMorichika" Value="The NetAgents are preparing,an assault on the ROM hideout." Face="DrMorichika" Mono="False" />
+  <!-- もうすぐ　決戦の日が来るはずだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue14FaceDrMorichika" Value="The day of the final battle will,be coming soon." Face="DrMorichika" Mono="False" />
+  <!-- その時まで　君たちには体力を温存してもらいたい -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue15FaceDrMorichika" Value="Prepare yourselves for that day." Face="DrMorichika" Mono="False" />
+  <!-- ････わかりました！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue16FaceAlice" Value="....Okay!" Face="Alice" Mono="False" />
+  <!-- よし！話はこれでおしまいだ！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue17FaceLloyd" Value="Alright! Storytime over!" Face="Lloyd" Mono="False" />
+  <!-- アリスは今日は家でゆっくり休んでくれ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue18FaceLloyd" Value="Alice，go home and rest." Face="Lloyd" Mono="False" />
+  <!-- 俺は････霖之助とつもる話がある -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue19FaceLloyd" Value="I....,I have some things to talk with,Rinnosuke about." Face="Lloyd" Mono="False" />
+  <!-- わかったわ　パパ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue20FaceAlice" Value="Alright，Papa...." Face="Alice" Mono="False" />
+  <!-- ママが心配していたから早めに帰ってきてね････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue21FaceAlice" Value="Come home soon.,Mama misses you." Face="Alice" Mono="False" />
+  <!-- ああ････わかった -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue22FaceLloyd" Value="Yeah，I....,I know." Face="Lloyd" Mono="False" />
+  <!-- ････君は悪いやつだな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue1FaceDrMorichika" Value="....I can’t believe you." Face="DrMorichika" Mono="False" />
+  <!-- どうしてパーフェクトシンクロの危険性をふたりに話さなかったんだい？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue2FaceDrMorichika" Value="I notice you didn’t tell them how,dangerous Perfect Synchro is." Face="DrMorichika" Mono="False" />
+  <!-- パーフェクトシンクロ中にシャンハイがデリートされればアリスも同時に命を失う････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue3FaceLloyd" Value="If Shanghai were to be deleted,while in Perfect Synchro.... Alice,would lose her life as well...." Face="Lloyd" Mono="False" />
+  <!-- 言ったところでどうなる -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue4FaceLloyd" Value="What was I supposed to say?" Face="Lloyd" Mono="False" />
+  <!-- あのふたりにそのことを知らせても怖がらせるだけだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue5FaceLloyd" Value="It would just scare them!" Face="Lloyd" Mono="False" />
+  <!-- それに　俺はふたりが負けるだなんて１％もあるとは思ってない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue6FaceLloyd" Value="And I don’t believe for a second,that they stand a chance of,losing!" Face="Lloyd" Mono="False" />
+  <!-- なんたって････俺の自慢の娘達だからな！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue7FaceLloyd" Value="I love my daughters!,I’m proud of them!" Face="Lloyd" Mono="False" />
+  <!-- ････君らしい答えだよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue8FaceDrMorichika" Value="....Say what you want." Face="DrMorichika" Mono="False" />
+  <!-- 世界の命運を子どもたちに託さなければならないなんて････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue9FaceDrMorichika" Value="The fate of the world is in their,hands now." Face="DrMorichika" Mono="False" />
+  <!-- 僕たちは････無力な大人だな････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue10FaceDrMorichika" Value="There’s nothing we....,There’s nothing any of us adults,can do." Face="DrMorichika" Mono="False" />
+  <!-- 俺たちは無力じゃない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue11FaceLloyd" Value="We’re not powerless." Face="Lloyd" Mono="False" />
+  <!-- 大人には大人にしか出来ないことがある -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue12FaceLloyd" Value="There’s things only adults can,do." Face="Lloyd" Mono="False" />
+  <!-- 子どもたちが思いっきり前へと進むことができるように････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue13FaceLloyd" Value="Things we can do to let our,children live life to the fullest." Face="Lloyd" Mono="False" />
+  <!-- 道を作ってやるのが俺たち大人の役目だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue14FaceLloyd" Value="That’s an adult’s job.,To pave the road to our,children’s success." Face="Lloyd" Mono="False" />
+  <!-- ････君の言葉にはいつも元気づけられるよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue15FaceDrMorichika" Value="....You always know the right,thing to say." Face="DrMorichika" Mono="False" />
+  <!-- 頑張ろう　トロイド君 -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue16FaceDrMorichika" Value="I’ll trust you，Lloyd." Face="DrMorichika" Mono="False" />
+  <!-- 僕らと　子どもたちの未来を守るために････！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue17FaceDrMorichika" Value="For our future，and our,children’s future...." Face="DrMorichika" Mono="False" />
+  <!-- ああ････！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue18FaceLloyd" Value="We must....!" Face="Lloyd" Mono="False" />
+</data>

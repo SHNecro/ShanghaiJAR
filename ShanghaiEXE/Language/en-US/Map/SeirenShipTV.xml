@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShipTVName" Value="Guest Room TV Comp" />
+  <Dialogue Key="Map.SeirenShipTVSprite1Stage1Dialogue1FaceSprite" Value="I am the room service sprite!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite1Stage1Dialogue2QuestionFaceSprite" Value="Will you buy some Sub Chips?" Face="Sprite" Mono="False" />
+  <Text Key="Map.SeirenShipTVSprite1Stage1Dialogue2Options" Value="Shop,Leave" />
+  <Dialogue Key="Map.SeirenShipTVSprite2Stage1Dialogue1FaceSprite" Value="THAT SPRITE PRACTICED,HER SPEAKING A LOT SO,SHE COULD BECOME A" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite2Stage1Dialogue2FaceSprite" Value="ROOM SERVICE SPRITE!,IF YOU PRACTICE，YOU,CAN SPEAK NICE TOO!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite3Stage1Dialogue1FaceSprite" Value="I DON’T MIND IF YOU TAKE,THESE MYSTERY DATA!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite3Stage1Dialogue2FaceSprite" Value="THEY’RE SO-CALLED,AMENITIES!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage1Dialogue1FaceNone" Value="Fufufufu...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage1Dialogue2FaceNone" Value="Hahahahaha!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue1FaceShanghai" Value="At last，the time we’ve been,waiting for is here!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue2FaceShanghai" Value="Henchie!,What’s our attendance?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue3FaceHenchie" Value="We have a total of 200 for,this operation." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue4FaceHenchie" Value="Those not in attendance are,already carrying out their,missions on site." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue5FaceShanghai" Value="Good....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue6FaceShanghai" Value="Servants of the elite! I have,gathered you here today for,an important mission!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue7FaceShanghai" Value="Believe me when I say that,our future depends on you!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue1FaceNaviPurplePunk" Value="Heh heh heh....,I’m rarin’ to go!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue2FaceNaviPurpleHeel" Value="Let’s get this show on the road!,I can’t wait any longer!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue3FaceShanghai" Value="Keep it together!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue4FaceShanghai" Value="I will be taking part in an,Exhibition NetBattle." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue5FaceShanghai" Value="During that time，the other,guests’ eyes should be glued,to the battle." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue6FaceNaviPurplePunk" Value="Mhm....!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue7FaceShanghai" Value="That’s our opportunity to....!,So whaddaya say? You in!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue8FaceNaviPurpleHeel" Value="Yes ma’am!!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue9FaceNaviPurplePunk" Value="Yes ma’am!!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue10FaceNaviBlueRobot" Value="Long live Lady Shanghai!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue11FaceNaviPurpleFemale" Value="For a brighter future!!" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue12FaceNone" Value="Huzzaaaaaah!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue13FaceShanghai" Value="Fufufufu...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue14FaceShanghai" Value="Hahahahaha!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue1FaceShanghai" Value="Henchie!,Report!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue2FaceHenchie" Value="Yes，mistress!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue3FaceHenchie" Value="With the amount of high-class,food we retrieved in this,operation...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue4FaceHenchie" Value="We should have enough food,to hold our own banquets for,a whole year!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue5FaceShanghai" Value="Well done!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue6FaceShanghai" Value="Mwahahaha!,Enough high-class food for,a year’s worth of...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage3Dialogue1FaceNone" Value="Rumble...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage5Dialogue1FaceShanghai" Value="Huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage5Dialogue2FaceHenchie" Value="What was that sound?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage7Dialogue1FaceNone" Value="Rumble...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage9Dialogue1FaceShanghai" Value="That’s not a sound....,Are we shaking?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage11Dialogue1FaceNone" Value="RUMBLE....!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage11Dialogue2FaceNone" Value="Splaaaaaaash!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue1FaceShanghai" Value="Cough Cough...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue2FaceShanghai" Value="What in the world....!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue3FaceHenchie" Value="Water just surged through,the cyberworld...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage15Dialogue1FaceHenchie" Value="Ah!!,Miss Shanghai!!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage15Dialogue2FaceShanghai" Value="Aaaaaaaaaaaaaah!,My foooooooooood!!" Face="Shanghai" Mono="False" />
+</data>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity2fName" Value="幻想大学２Ｆ" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage1Dialogue1FacePresidentYukari" Value="ではごきげんよう" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue1FacePresidentYukari" Value="あら　ここは子供の,遊び場じゃないのよ" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue2FaceMari" Value="えっと　父さんに,会いに来たんですよ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue3FacePresidentYukari" Value="あなた森近博士の娘さん？" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue4FacePresidentYukari" Value="じゃあいいタイミングで来たわね,ちょうど面白いものが,届いたばかりだからね" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue5FaceAlice" Value="面白いもの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue6FacePresidentYukari" Value="実際に見てのお・た・の・し・み！,フフ　それじゃあね！" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue1FaceRika" Value="大人の女性だったのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue2FaceShanghai" Value="そりゃそうよ　なんたってあの人,「ボーダーコンツェルン」の女社長,八雲紫その人だもの" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue3FaceMarisa" Value="ボーダーコンツェルンってあの,超大企業の！？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue4FaceTankMan" Value="中央街に本社ビルを構える,すんごい会社だろ？,たしかキャッチコピーは････" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue5FaceRemilia" Value="「ゆりかごから警備ロボまで」よ,ああ　腹立たしい" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue6FaceMari" Value="よく覚えてるなー" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue7FaceRemilia" Value="私の家のライバル企業だからよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue8FaceRemilia" Value="敵のことはよーく知っておかないと,って　ヴラドお父様にも,何度も言われてるからね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue9FaceRika" Value="さすが名家のお嬢様は,一歩先をいってるのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue10FaceRemilia" Value="フン　お世辞はいいから,早く入りましょうよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue11FaceRemilia" Value="面白いものが何か,調べないといけないしね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue12FaceMari" Value="わかったわかった,それじゃあ入るぞ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage1Dialogue1QuestionFaceNone" Value="エレベーターの扉が開いた！" Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity2fElevatorStage1Dialogue1Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage3Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage3Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity2fElevatorStage3Dialogue2Options" Value="１階,３階,乗らない" />
+  <Dialogue Key="Map.GenUniversity2fToOfficeStage1Dialogue1FaceNone" Value="事務室と書いてある,今入る用事はない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue1FaceNone" Value="自動販売機だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue2FaceNone" Value="色落ちしている外装が,長年使われていたことを,感じさせてくれる" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue3FaceNone" Value="古い型のためか,プラグインに対応していない" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChair1Stage1Dialogue1FaceNone" Value="休憩用の椅子だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChair1Stage1Dialogue2FaceNone" Value="妙に硬くて座りごこちが悪いのは,長時間座られるのを,防ぐためなのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2OlderBrotherStage1Dialogue1FaceScientist" Value="森近博士の奥さんは,ヨーリカのハーン総合大学で,研究をしているんだそうです" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2OlderBrotherStage1Dialogue2FaceScientist" Value="離れて暮らしているけれど,博士が愛妻家なのもあって,家族の仲はすごく良いですね" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OlderBrotherStage1Dialogue1FaceScientist" Value="森近博士って　ＲＯＭの,事件に巻き込まれて,病院に運ばれたとか････" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OlderBrotherStage1Dialogue2FaceScientist" Value="でも一日も経たずに復帰なんて,優秀な科学者って,体が丈夫なのかな････？" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OldManStage1Dialogue1FaceMaleOld" Value="ネットエージェントに,見回りしてもらおうか････" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OldManStage1Dialogue2FaceMaleOld" Value="ＲＯＭにイタズラされたなんて,大学の面目が････,ブツブツ・・・・" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrotherStage1Dialogue1FaceMaleAdult" Value="あーあー,卒研さえなければ俺も,Ｎ１リーグ行けるのになぁ････" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage1Dialogue1FaceScientist" Value="昔は論文がコンピューター禁止で,全部手書きで書いてたんだよ" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage1Dialogue2FaceScientist" Value="今の若い人たちは,すごく恵まれてるよ" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage3Dialogue1FaceScientist" Value="さっきネットエージェントの,女の子がすごい勢いで,そこの部屋に････" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage5Dialogue1FaceScientist" Value="昔は論文がコンピューター禁止で,全部手書きで書いてたんだよ" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage5Dialogue2FaceScientist" Value="今の若い人たちは,すごく恵まれてるよ" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5RenkoStage1Dialogue1FaceRenko" Value="今日一日は,ネットバトルの特訓よ！！" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent1Stage1Dialogue1FaceMaleAdult" Value="俺たち大学の,ネットバトル部なんだけど" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent1Stage1Dialogue2FaceMaleAdult" Value="Ｎ１リーグで部長が,負けてから毎日,こんな感じなんだよ" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent2Stage1Dialogue1FaceFemaleAdult" Value="森近研のヤマメさんを,スカウトしたらいいんじゃない？" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent2Stage1Dialogue2FaceFemaleAdult" Value="あの人　最近メキメキと,ネットバトルの腕を,上げてるみたいだし････" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue1" Value="僕はネットバトルサークルの,一員なんだけどさ" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue2" Value="最近　宇佐見部長が,ハーンさんに会いに,行きっぱなしで来ないんだ" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue3" Value="ああ～サークルは,どうなってしまうんだ～～！" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander2Dialogue1" Value="同じ学科のハーンさん,どこかの会社の社長に,なったらしいわ" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander2Dialogue2" Value="大学に通いながら社長って,絶対に大変そうよね" Face="FemaleAdult" Mono="False" />
+</data>

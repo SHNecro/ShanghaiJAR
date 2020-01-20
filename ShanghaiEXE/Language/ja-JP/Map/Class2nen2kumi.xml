@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Class2nen2kumiName" Value="幻想中学校　2年2組教室" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Woman1Stage1Dialogue1FaceFemaleStudent" Value="アリスさんって,ウィルスバスティング,上手だよねー" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Woman1Stage1Dialogue2FaceFemaleStudent" Value="わたしってドンだから,うまくオペレートできないんだー" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Rika1Stage1Dialogue1FaceRika" Value="神綺アリスさん,おはようなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Rika1Stage1Dialogue2FaceRika" Value="里香は早起きなのです！,遅刻知らずなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue1FaceRemilia" Value="あなた　PETが何か,知らないでしょう？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue2FaceRemilia" Value="このレミリア様が,特別に教えてあげてもいいわよ？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue3QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue3Options" Value="聞いてあげる,ごめんあそばせ" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue4FaceRemilia" Value="PETは,Program Enable Terminal,（プログラム実行起点）の略で" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue5FaceRemilia" Value="ネットナビの家となる,情報端末や" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue6FaceRemilia" Value="情報端末でネットナビの,調整などを可能にする,ソフトウェアの総称なのよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue7FaceRemilia" Value="これを入れればナビのお陰で,どんな端末でもメールや,インターネットが可能になるの" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue8FaceRemilia" Value="あなたみたいな庶民は,携帯電話なんて安っぽいものに,入れてるみたいだけど" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue9FaceRemilia" Value="じょうりゅうかいきゅうのわたしは,高級腕時計に入れてるのよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Remilia1Stage1Dialogue10FaceRemilia" Value="つまらないわね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Man1Stage1Dialogue1FaceMaleChild" Value="レミリアって,スカーレット家っていう,お金持ちの家の生まれでさ" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Man1Stage1Dialogue2FaceMaleChild" Value="飛び級をして小学生だけど,この中学校に通ってるんだぜ" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Man1Stage1Dialogue3FaceMaleChild" Value="そのレミリアと同じくらいの,身長なんだよなオレ" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Man1Stage1Dialogue4FaceMaleChild" Value="････オレは飛び級してないのに" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue1FaceMari" Value="よう　アリス,ギリギリだな！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue2FaceMari" Value="またシャンハイが,なにかやったのか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue3FaceAlice" Value="魔理　聞いてよ,シャンハイったら,アラームを勝手に切るのよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue4FaceMari" Value="････またか,飽きないねえ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue5FaceAlice" Value="マリサ　あなたもナビなんだから,シャンハイになにか言ってよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue6FaceMarisa" Value="何言っても無駄だろ？,シャンハイは" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue7FaceShanghai" Value="電脳ステーキでも持ってくれば,朝起こしてやらないでもないわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue8FaceAlice" Value="こんのナマイキ〜〜〜！！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage1Dialogue9FaceRemilia" Value="これだから,安物のナビはダメなのよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue1FaceShanghai" Value="このあたしを安物ですって？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue2FaceShanghai" Value="ちょっとレミリア！,もう一回　言ってみなさいよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue3FaceSakuya" Value="お嬢様、,ナビとケンカなんて,はしたないですわ" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue4FaceRemilia" Value="そうね　サクヤ,安物持ち相手にすこし,おとなげなかったわ　オホホ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue5FaceAlice" Value="いくらお金持ちあいてとはいえ,自分のナビを安物よばわり,されるのは腹がたつわね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue6FaceShanghai" Value="ナビの善し悪しは,お金じゃないっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage3Dialogue7FaceMarisa" Value="善し悪し以前の,身勝手ナビのお前が,それを言う立場か？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage5Dialogue1FaceRika" Value="なにやら波乱の予感なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue1FaceRemilia" Value="あら,獅熊里香（しぐま　りか）さん,あなたには関係ないことよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue2FaceTankMan" Value="そう言われても,でかい声で言い合ってたら,見逃せねえぜ" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue3FaceRika" Value="私のタンクマンも,こう言ってるのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue4FaceShanghai" Value="とはいえ、バカにされたまま,引き下がるほどあたしは,心は広くないわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue5FaceSakuya" Value="あら　私とやるんですの？,勝負なら受けて立ちますわ" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue6FaceMarisa" Value="こいつはちょっと,おんびんに済みそうにはないな" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue7FaceTankMan" Value="じゃあ････,そうだな　勝負するといい" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue8FaceRika" Value="なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue9FaceRika" Value="６時間目の情報の授業が,今日はウィルスバスティング,だったはずなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue10FaceMari" Value="なるほど　それでタイムや,バスティングレベルで,勝負ってわけか" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue11FaceRemilia" Value="いいじゃない！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue12FaceRemilia" Value="ま　私とサクヤに,勝てるはずはないでしょうけど" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage7Dialogue13FaceAlice" Value="言ったわね････,シャンハイ！なんとしてでも,レミリアに勝つのよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage8Dialogue1FaceNone" Value="#b@true#キーン#w@45#　コーン#w@45#　カーン#w@45#　コーン#w@45#,,#b@false#" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage9Dialogue2FaceKumako" Value="ホームルームを始めるわよー,みんな　席につきなさーい！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage9Dialogue3FaceMari" Value="先生が来たな,早く座ろうぜ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage11Dialogue1FaceKumako" Value="････はい！,今日も全員遅刻なし！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage11Dialogue2FaceKumako" Value="今日の６時間目の,朝倉先生の情報科目は,ＰＣ教室で行いますので" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage11Dialogue3FaceKumako" Value="みんな遅れないように,気をつけてね" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage11Dialogue4FaceKumako" Value="それじゃあ１時間目の準備を,してくださいね〜" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage13Dialogue1FaceNone" Value="それから時間は経ち,あっという間に,６時間目になった････" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage15Dialogue1FaceShanghai" Value="さあ　いよいよ勝負の時間よ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage15Dialogue2FaceAlice" Value="じゃあPC教室へ行きましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari1Stage15Dialogue3FaceShanghai" Value="PC教室は２階の階段前を,通って反対側の廊下を,進んだところだったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue1FaceMari" Value="アリス　どうだった？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue2FaceAlice" Value="一応全力は尽くしたわ,レミリアの成績は？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue3FaceRemilia" Value="あはは！,見たわよあなたの結果！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue4FaceRemilia" Value="しょせん庶民,おそるるに足らずだったわ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue5FaceShanghai" Value="ちょっとなにこれ！,なんでタイムが０．０７秒なのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue6FaceMarisa" Value="まさか　お前,レアチップを使ったな？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue7FaceSakuya" Value="あら　ズルをしたと,言いたげですわね" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue8FaceRemilia" Value="チップフォルダのこうちくは,ネットバトラーの基本よ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue9FaceRemilia" Value="私が　あなたよりほんの少し,いいチップを多く持ってた,ただそれだけのことよ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue10FaceShanghai" Value="ぎぎぎぎぎ････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue11FaceRemilia" Value="では　これからおけいこの,時間なので,帰らせてもらうわね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage1Dialogue12FaceRemilia" Value="じゃあね　負け犬さん！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue1FaceShanghai" Value="悔しぃいいいいい！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue2FaceShanghai" Value="あたしだっていいチップを,持ってりゃあねえ！,あんな小娘のナビごとき！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue3FaceTankMan" Value="やめときなシャンハイちゃん,小悪党みたいになってるぞ" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue4FaceAlice" Value="ただ　悔しいのは確かね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue5FaceShanghai" Value="あ〜あ、どこかに一瞬で,６０００ダメージくらい与える,レアチップ落ちてないかなあ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue6FaceMari" Value="そんなのが都合よく落ちてるかよ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue7FaceRika" Value="････いや,あるかもなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue8FaceShanghai" Value="なんですって！？,ちょっと　詳しく教えなさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue9FaceTankMan" Value="そうだな････,昨日のことだったか" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue10FaceTankMan" Value="夜中にゲンソウエリアのどこかで,怪しいやつがチップを,埋めていたらしい" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue11FaceShanghai" Value="もしかして　レアチップ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue12FaceTankMan" Value="可能性はあるな" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue13FaceTankMan" Value="なにせ夜中にこっそり,埋めて隠すくらいだ" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue14FaceTankMan" Value="お宝にはちがいないだろう" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue15FaceShanghai" Value="きゃあもう！,タンクマンありがとう！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue16FaceShanghai" Value="今度デートでもしてあげよっか！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue17FaceTankMan" Value="え　ああ、マジで！？" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue18FaceShanghai" Value="っと　くだらない冗談は置いといて,アリス　急いで家に帰って,インターネットで情報集めよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue19FaceAlice" Value="そうね！,このまま負けっぱなしも,嫌だもんね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue20FaceTankMan" Value="（冗談だったのかよ････）" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue21FaceRika" Value="（同情するのです････タンクマン）" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue22FaceMarisa" Value="そうだ　インターネットに,行くんだったらＲＯＭに,気をつけろよ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue23FaceAlice" Value="ＲＯＭって　最近ニュースで,話題になってる,ネット犯罪集団のこと？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue24FaceMari" Value="ああ　最近この幻想町でも,ぽつぽつ被害が出てるんだとさ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue25FaceMari" Value="特にやばいのが,冷蔵庫の暴走事件だな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue26FaceMari" Value="家一軒がまるまる凍って,どうしようもなくなるんだと" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue27FaceShanghai" Value="家を凍らせて,何がしたいのかしらね,雪まつりには早すぎるわよ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue28FaceMari" Value="一応私は対策代わりに,家で融雪剤を自作したんだが,はたして効果があるかどうか" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue29FaceMarisa" Value="ま　なんにせよ,怪しいやつには注意しな,ってことだ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue30FaceShanghai" Value="ま　悪党が出たら,あたしがギッタンギッタンに,のしてやるからね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue31FaceAlice" Value="あはは････頼もしいわね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue32FaceAlice" Value="じゃあみんな　またね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue33FaceRika" Value="さよならなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage3Dialogue34FaceMari" Value="じゃあなー" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage5Dialogue1FaceMari" Value="さあて　もう少ししたら,帰るとするかな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage5Dialogue2FaceMari" Value="おっ、帰る前に一発,ネットバトルでもするか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Mari2Stage7Dialogue1FaceMari" Value="さあて　もう少ししたら,帰るとするかな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Rika2Stage1Dialogue1FaceTankMan" Value="はぁ････,なんであいつに,惚れちまったんだろ････" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter1Rika2Stage1Dialogue2FaceRika" Value="タンクマン････,いつか想いは届くはずなのです" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage1Dialogue1FaceAlice" Value="････というわけで,冷蔵庫の暴走は,なんとか止められたのよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage1Dialogue2FaceRika" Value="へぇー！,アリスさん大活躍なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage1Dialogue3FaceShanghai" Value="ちょっと！,活躍したのはあたしよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage1Dialogue4FaceMari" Value="待て待て　私を,忘れてもらっちゃ困るなー" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage1Dialogue5FaceShanghai" Value="けど　ＲＯＭのナビなんてのも,戦ってみたらたいしたこと,なかったわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage1Dialogue6FaceNone" Value="ＲＯＭのナビと交戦したの？" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue1FaceAlice" Value="朝倉先生！,どうしたんです？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue2FaceMsAsakura" Value="放課後の見回りよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue3FaceMsAsakura" Value="神綺アリスさん　だっけ？,あなた　ＲＯＭのナビと,戦ったの？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue4FaceShanghai" Value="そうよ！,ボッコンボッコンに,けちらしてやったんだから！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue5FaceAlice" Value="それがどうかしたんですか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue6FaceMsAsakura" Value="もしかしたら戦った時に,ＲＯＭのナビに変なプログラムを,埋め込まれたかもと思って" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue7FaceMsAsakura" Value="私で良かったら,検査してあげようか？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue8FaceShanghai" Value="あんまり他の人に,身体いじられたく,ないんだけどねぇ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue9FaceAlice" Value="でも　せっかくやるって,言ってくれてるんだし,お言葉に甘えようよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue10FaceMsAsakura" Value="ふふ　わかったわ,ここじゃ無理だから,ＰＣ教室まで来てちょうだい" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue11FaceAlice" Value="わかりました,あとで向かいます" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage3Dialogue12FaceMsAsakura" Value="それじゃあ,先にＰＣ教室へ行って,準備してるわね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue1FaceMari" Value="やっぱ元学者さんだと,見るところが違うんだなぁ〜" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue2FaceAlice" Value="元学者？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue3FaceTankMan" Value="あれ？,アリスちゃん知らないのか？" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue4FaceTankMan" Value="朝倉先生は教師になる前は,外国で学者やってたらしいぜ" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue5FaceMarisa" Value="まあ　あくまでウワサだから,本当かどうかは微妙だけどな" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue6FaceShanghai" Value="私達ナビはインターネットを,めぐる間に自然とそういう,ウワサが入ってくるのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue7FaceAlice" Value="知らなかったの私だけ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue8FaceRika" Value="今知ったからもうアリスさんは,仲間はずれじゃないのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue9FaceMari" Value="ハハハ！,里香はポジティブだな！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue10FaceMarisa" Value="そろそろ行かなくていいのか？,あんまり先生待たせたら,悪いんじゃないか？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue11FaceAlice" Value="そうね,じゃあ行こっか" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage5Dialogue12FaceShanghai" Value="すぐ終わるといいなぁ〜" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage7Dialogue1FaceMari" Value="PC教室で朝倉先生待ってるぜ,早く行きなよ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue1FaceMari" Value="おかえり,検査大丈夫だったか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue2FaceShanghai" Value="あったりまえよ！,あたしを誰だと思ってるのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue3FaceAlice" Value="あ　そうだ魔理,頼みたいことがあるのよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue4FaceAlice" Value="幻想大学の森近博士って,魔理のお父さんだよね？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue5FaceMari" Value="そうだぜ！,それがどうかしたか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue6FaceShanghai" Value="解析して欲しいデータがあるから,会いに行きたいんだけど,なんとかできない？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue7FaceMarisa" Value="なんだ　そういうことか,それくらい軽いもんだ！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue8FaceMarisa" Value="ちょっと私がかけあえば,今からでも会いにいけるよ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue9FaceMari" Value="なんたってマリサは,今ヨーリカにいる私の,母さんがモデルだからな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue10FaceShanghai" Value="まあ　おアツいことで････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue11FaceShanghai" Value="すぐにでも会えるんだったら,早速幻想大学に行きましょ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue12FaceRika" Value="幻想大学だったら,リニアメトロで行くのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue13FaceRika" Value="今だったら学生パスで,運賃がタダなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue14FaceShanghai" Value="リニアメトロのリニューアル記念に,学生は１年間の無料パスが,貰えるんだったっけ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue15FaceAlice" Value="あっ！,私まだ学生パス貰ってない！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue16FaceTankMan" Value="大丈夫だ　今からでも,インターネットで発行できるから" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue17FaceRika" Value="たしかインターネットの,シティエリア１にある,キャンパススクエアなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue18FaceRika" Value="そこに行けばすぐにでも,発行してもらえるのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue19FaceShanghai" Value="だってさ　アリス,そうと決まればちゃっちゃと,キャンパススクエアに行くわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue20FaceAlice" Value="それもそうね,じゃあ急いで発行しに,行ってくるから！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue21FaceMari" Value="おう！,終わったらリニア駅前で,待ってるからな！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue22FaceRika" Value="せっかくなので里香も,ご一緒するのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage9Dialogue23FaceMari" Value="ああ　いいぜ！,父さんには数人友達も来ると,伝えておくよ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage11Dialogue1FaceMari" Value="発行するのは　インターネットの,シティエリア１にある,キャンパススクエアだぜ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Mari1Stage11Dialogue2FaceMari" Value="シティエリアへは,ゲンソウエリア２の奥から,行けるからな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Rika1Stage1Dialogue1FaceRika" Value="早く行ったほうが,いいと思うのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Rika1Stage3Dialogue1FaceRika" Value="大丈夫だったのですね,良かったのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter2Rika1Stage5Dialogue1FaceRika" Value="幻想大学の見学,楽しみなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3-1Man1Stage1Dialogue1FaceMaleStudent" Value="慌てて学校に来たら,今日休みだったよ････" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy1Stage1Dialogue1FaceMaleStudent" Value="慌てて学校に来たら,今日休みだったよ････" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy1Stage3Dialogue1FaceMaleStudent" Value="僕ら監禁されてるんだね････" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3-2Girl1Stage1Dialogue1FaceFemaleStudent" Value="わーい" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3-2Girl1Stage3Dialogue1FaceFemaleStudent" Value="ダメよ！,窓にも電気が流れてるみたい！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage1Dialogue1FaceAlice" Value="あれ？,もしかして遅刻しちゃった！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage1Dialogue2FaceKumako" Value="神綺さん,早めにホームルームを,始めるだけだから大丈夫よ" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage1Dialogue3FaceAlice" Value="あ　はーい！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage3Dialogue1FaceKumako" Value="はい！,みなさんいいですか？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage3Dialogue2FaceKumako" Value="今日　このクラスに,転校生が二人,入ることになりました！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage5Dialogue1FaceMari" Value="マジで！？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage5Dialogue2FaceMaleStudent" Value="どんな人が来るのかな？" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage5Dialogue3FaceFemaleStudent" Value="かっこいい男の子だといいなぁ〜" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage5Dialogue4FaceAlice" Value="わくわくするね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage5Dialogue5FaceShanghai" Value="（････まさか）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage7Dialogue1FaceKumako" Value="じゃあ二人とも,入ってきてください！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage9Dialogue1FaceAlice" Value="あっ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue1FaceKumako" Value="二人とも　自己紹介してね" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue2FaceTsubakiNekku" Value="はい！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue3FaceTsubakiNekku" Value="俺は人呼んで天下一の,ネットバトラー！,椿ネック　っていうぜ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue4FaceAlice" Value="（あれ　炎のじゃなかったっけ？）" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue5FaceTsubakiNekku" Value="好きなアイドル歌手は,ミスティア･ローレライだ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue6FaceTsubakiNekku" Value="ネットバトルが好きだから,腕に自信がある奴はバンバン,挑んでくれよな！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue7FaceTsubakiNekku" Value="あと、下の名前は,あまり好きじゃないんで,椿って呼んでくれよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue8FaceNone" Value="ワー　パチパチパチ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue9FaceRika" Value="面白そうな男の子なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage10Dialogue10FaceMaleStudent" Value="このクラスにはいなかった,タイプの男子だなぁ！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue1FaceTenshi" Value="えっと････あの････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue2FaceKumako" Value="････大丈夫？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue3FaceTenshi" Value="私は････,比那名居 天子,（ひなない てんし）です" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue4FaceTenshi" Value="よろしくお願いします････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue5FaceNone" Value="ワー　パチパチパチ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue6FaceMari" Value="緊張してるのかな？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue7FaceRemilia" Value="私も最初は溶け込めなくて,こんなかんじだったわね････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue8FaceKumako" Value="････というわけでみなさん,椿君と比那名居さん,二人と仲良くしてあげてね！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue9FaceKumako" Value="それじゃあ,二人は一番後ろの,空いてる席に座ってね" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage12Dialogue10FaceKumako" Value="出席確認の後,朝倉先生の情報の,授業だからね〜" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage14Dialogue1FaceMsAsakura" Value="それじゃあ,情報の授業を始めるわよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage14Dialogue2FaceMsAsakura" Value="今回はウィルスについての,お勉強ね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage14Dialogue3FaceMsAsakura" Value="ウィルスとは　知っての通り,コンピューターに誤作動を起こす,悪いプログラムのことよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage14Dialogue4FaceMsAsakura" Value="けれど　インターネットや正常な,コンピューターにもウィルスが,いるのは知ってるよね？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage14Dialogue5FaceMsAsakura" Value="では　なぜ正常な,コンピューターにもウィルスが,いるのでしょうか？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage14Dialogue6FaceMsAsakura" Value="わかる人ー？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue1FaceTsubakiNekku" Value="はい！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue2FaceMsAsakura" Value="はい　椿くん！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue3FaceTsubakiNekku" Value="普段目にするウィルスは,そこに住んでいるだけで,悪さをしないからです！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue4FaceMsAsakura" Value="正解！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue5FaceMsAsakura" Value="電脳世界ではウィルスは,生き物みたいなものとして,生活しているの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue6FaceMsAsakura" Value="だからすみかである電脳世界を,壊すようなことは普通は,しないのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue7FaceMsAsakura" Value="悪さをするウィルスは,力を増して暴走しているか" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue8FaceMsAsakura" Value="悪意のある人物によって,命令されたかのどちらかなのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue9FaceRemilia" Value="じゃあ　野生のウィルスは,どうしてネットナビを,襲うのかしら？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue10FaceMsAsakura" Value="それは　ただ単にウィルスが,縄張りに入った侵入者を,撃退しようとしているだけなの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue11FaceMsAsakura" Value="巣に近づいた人を襲う,野生動物なんかと同じね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue12FaceMari" Value="へぇー,そうだったんだ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue13FaceMsAsakura" Value="だからひとくちにウィルスと言っても,すべてが悪い存在と,いうわけじゃないのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue14FaceMsAsakura" Value="だから最近　ウィルスを活用して,電脳世界を便利にしようという,試みがされているの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue15FaceMsAsakura" Value="例えば　バグが発生している,電脳世界にケダマーを放して,バグを食べてもらうとかね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue16FaceMsAsakura" Value="今でも　ウィルスを飼うことで,バスティングのお供にしている,人もいるらしいわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue17FaceShanghai" Value="ほーう････？,ウィルスをねぇ････？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue18FaceMsAsakura" Value="いつかはウィルスの活躍で,便利な電脳世界が生まれる,かもしれないわね！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage16Dialogue19FaceMsAsakura" Value="次に先週の授業で,言っていた････" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage17Dialogue1FaceNone" Value="#b@true#キーン#w@45#　コーン#w@45#　カーン#w@45#　コーン#w@45#,,#b@false#" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage17Dialogue2FaceKumako" Value="寄り道せずに,気をつけて帰るのよー" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue1FaceAlice" Value="あの『またね』って,こういう意味だったのね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue2FaceTsubakiNekku" Value="いやーはっはっは！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue3FaceShanghai" Value="それにしてもよく昨日はアリスが,幻想中学校の生徒だって,わかったわね？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue4FaceTsubakiNekku" Value="昨日はたしか永遠中学校の,創立記念日だったらしくてさ,そこの生徒は制服だったんだ" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue5FaceTsubakiNekku" Value="同い年くらいで制服を,着てないってことは,ここしか無いと思ってね" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue6FaceSakuya" Value="確かにこの地区で中学校なら,幻想中学校と永遠中学校しか,ないですものね" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue7FaceRemilia" Value="なあに　あなた達,知り合いだったの？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue8FaceAlice" Value="昨日　ゲームセンターで,助けてもらってね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue9FaceRika" Value="転校生さんと転校前に,知りあうなんて,すごい偶然なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue10FaceTsubakiNekku" Value="いやあ　おかげで,こんなに可愛い女の子たちと,お友達になれて嬉しいよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue11FaceRemilia" Value="お言葉ですけど,あなたみたいなゲセンな男には,興味なくってよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue12FaceTsubakiNekku" Value="ガーン！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue13FaceSpannerMan" Value="下心マシマシで,鼻の下のばしてりゃ,そうも言われるだろ" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue14FaceTsubakiNekku" Value="スパナマン　お前だって！,アリスのナビに近づけて,ニヤニヤしてんじゃねーか！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue15FaceShanghai" Value="あら！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue16FaceSpannerMan" Value="な　な　な！！,んなこた！！,ねーから！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue17FaceTankMan" Value="おっと　シャンハイちゃんには,近づかせないぜ？" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue18FaceSpannerMan" Value="ああん？,何だテメエは！,お前はあの娘の何なんだ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue19FaceTankMan" Value="フッ････,そいつぁ教えられねえな" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue20FaceShanghai" Value="いやぁーん,私のために争わないで♪" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue21FaceAlice" Value="････何この空気" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue22FaceSakuya" Value="あらあら仲がよろしいですわね〜" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage19Dialogue23FaceMari" Value="おーい！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue1FaceMari" Value="なあ　比那名居さんが,どこ行ったかしらないか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue2FaceAlice" Value="知らないけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue3FaceRemilia" Value="もう放課後だし,帰ったんじゃなくって？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue4FaceMari" Value="そうかぁ････,一人で寂しそうだったから,なにかきっかけでもと思ったが" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue5FaceRika" Value="里香も比那名居さんと,お友達になりたいのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue6FaceTsubakiNekku" Value="明日の朝とかに,話しかけてみたらどうだ？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue7FaceMari" Value="そうするかぁ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue8FaceMarisa" Value="そういえば　シャンハイお前,情報の授業中,そわそわしてたよな？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue9FaceShanghai" Value="ああ　朝倉先生が言ってた,ウィルスを飼うってのが,気になってね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue10FaceSakuya" Value="ウィルスを飼いたいんですの？" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue11FaceShanghai" Value="面白そうだからね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue12FaceMarisa" Value="お前は物好きだなぁ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue13FaceRemilia" Value="先生は一部でそういう試みが,行われてるって言ってたわね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue14FaceAlice" Value="それがどこかよねぇ････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue15FaceShanghai" Value="こういう時はネットで,調べるのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue16FaceAlice" Value="ええ〜またー？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue17FaceSpannerMan" Value="シャンハイ,なんなら俺が調べて････" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue18FaceTankMan" Value="いやいや　ここは俺がだな" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue19FaceSpannerMan" Value="どうしてお前がでしゃばるんでい！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue20FaceTankMan" Value="なんでお前が怒るんだよ！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue21FaceRika" Value="タンクマン落ち着くのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue22FaceTsubakiNekku" Value="お前もだぞスパナマン！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue23FaceSpannerMan" Value="ギリギリギリギリギリギリギリギリ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue24FaceTankMan" Value="キュラキュラキュラキュラキュラ！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue25FaceShanghai" Value="だーーーーーーっ！,もううっさいわね！,黙ってろ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue26FaceSpannerMan" Value="ああ････" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue27FaceTankMan" Value="うう････" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue28FaceShanghai" Value="この件については,あたしが足で探す！,いいわね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue29FaceAlice" Value="ふぅ････,あなたも大変ねシャンハイ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue30FaceShanghai" Value="ったく　これだから男どもは････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue31FaceMari" Value="ハハハ････" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue32FaceMari" Value="っと　もうこんな時間か,もう私は帰るよ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue33FaceRemilia" Value="あら　本当ね,私も通信お稽古の時間だわ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue34FaceRika" Value="じゃあ解散なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage21Dialogue35FaceTsubakiNekku" Value="じゃあなーまた明日ー" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage23Dialogue1FaceShanghai" Value="よし　じゃあインターネットで,ウィルスの飼育の情報集めよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage23Dialogue2FaceAlice" Value="といっても,どこから探すの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage23Dialogue3FaceShanghai" Value="あの千里眼じいさんに,また探してもらいましょう！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage23Dialogue4FaceAlice" Value="ああ････あのナビ,まだあそこにいるかしら？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue1FaceKumako" Value="それじゃあ出席を取るわよー" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue2FaceKumako" Value="岡島くん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue3FaceMaleChild" Value="はい！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue4FaceKumako" Value="加藤さん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue5FaceFemaleStudent" Value="はい！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue6FaceKumako" Value="獅熊さん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue7FaceRika" Value="なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue8FaceKumako" Value="神綺さん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue9FaceAlice" Value="はい！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue10FaceKumako" Value="スカーレットさん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue11FaceRemilia" Value="はい" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue12FaceKumako" Value="椿くん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue13FaceTsubakiNekku" Value="はーい！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue14FaceKumako" Value="比那名居さん！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue15FaceKumako" Value="････比那名居さん？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue16FaceFemaleStudent" Value="先生！,比那名居さんがいません！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue17FaceKumako" Value="あら？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue18FaceKumako" Value="誰か比那名居さんが,どこに行ったか聞いてない？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue19FaceRemilia" Value="保健室？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue20FaceMari" Value="学校の中で迷ってるとか････？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage25Dialogue21FaceKumako" Value="仕方ないわね････,先生が探してくるから,戻ってくるまで自習しててね" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage27Dialogue1FaceRemilia" Value="自習････って言ったってねえ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage27Dialogue2FaceAlice" Value="うーん　どうしようかしら" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage27Dialogue3FaceRika" Value="待つのです！,なにか黒板に映るっぽいのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage29Dialogue1FaceNone" Value="緊急事態発生！,緊急事態発生！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage29Dialogue2FaceNone" Value="学校のセキュリティシステムが,ＲＯＭのものと見られるナビに,乗っ取られました！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage29Dialogue3FaceNone" Value="生徒の皆さんは落ち着いて,外に避難してください！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage31Dialogue1FaceMari" Value="うわっ！　なんだこれ！？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage31Dialogue2FaceRemilia" Value="き　緊急事態って,言ってたわよ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage31Dialogue3FaceTsubakiNekku" Value="外に避難しろだってさ！,さっさと出ようぜ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage33Dialogue1FaceTsubakiNekku" Value="ぐああああああ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage33Dialogue2FaceAlice" Value="つ　椿君！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage35Dialogue1FaceTsubakiNekku" Value="ビ････ビリっと来たぜ････" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage35Dialogue2FaceMaleStudent" Value="ドアに電流が流れてるの！？" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage35Dialogue3FaceRemilia" Value="ちょっと！,それじゃあ出られないじゃない！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage37Dialogue1FaceAlice" Value="ど　どうしよう！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage37Dialogue2FaceShanghai" Value="このまま監禁されたままで,いられるもんか！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventsStage37Dialogue3FaceAlice" Value="そうね････何とかして,外にでる方法を探しましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Nekku2Stage1Dialogue1FaceMari" Value="さあて　もう少ししたら,帰るとするかな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Rika2Stage1Dialogue1FaceTankMan" Value="はぁ････,なんであいつに,惚れちまったんだろ････" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Rika2Stage1Dialogue2FaceRika" Value="タンクマン････,いつか想いは届くはずなのです" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Mari2Stage1Dialogue1FaceMari" Value="さあて　もう少ししたら,帰るとするかな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Nekku3Stage1Dialogue1FaceTsubakiNekku" Value="し････しびれる････" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Nekku3Stage1Dialogue2FaceSpannerMan" Value="おいネック！,しっかりしろよ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Nekku3Stage1Dialogue3FaceTsubakiNekku" Value="う････うるせえよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy2Stage1Dialogue1FaceMaleStudent" Value="忘れ物を取りに来たんだ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy2Stage3Dialogue1FaceMaleStudent" Value="椿くんって本当に,面白いね！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy2Stage5Dialogue1FaceMaleStudent" Value="ど　ど　どうすればいいんだ！？" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy3Stage1Dialogue1FaceMaleStudent" Value="ふう　床が綺麗になったな" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy3Stage3Dialogue1FaceMaleStudent" Value="神綺さん！,何とか出来ないの！？" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Girl2Stage1Dialogue1FaceFemaleStudent" Value="比那名居さん,どこに行っちゃったのかな？" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Girl2Stage3Dialogue1FaceFemaleStudent" Value="私ってドンだから,こういう時どうすればいいか,わからないのよね････" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3Boy4Stage1Dialogue1FaceMaleChild" Value="比那名居ちゃんは,大丈夫かなあ" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3RikaEventStage1Dialogue1FaceRika" Value="比那名居さんに話しかけたら,避けられたのです････" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3RikaEventStage3Dialogue1FaceRika" Value="黒板から学校のネットワークに,いけるけど先生のＩＤが無いと,プラグイン出来ないのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3RikaEventStage5Dialogue1FaceRika" Value="アリスさん！,そのカードを使って,プラグインするのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3RikaEventStage7Dialogue1FaceRika" Value="タンクマン大活躍なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3NekkuMorningStage1Dialogue1FaceTsubakiNekku" Value="比那名居のやつ,クラスに溶け込めて,ないみたいだぜ････" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue1FaceMari" Value="おはよう！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue2FaceAlice" Value="魔理　おはよう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue3FaceAlice" Value="比那名居さんとは,話できた？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue4FaceMari" Value="それが　取り付く島もないというか,なんか人を避けてるのかな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue5FaceTsubakiNekku" Value="ひとづきあいが苦手なのかねえ？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue6FaceMari" Value="そういや先生から聞いたけど,比那名居って前の学校で,いじめられてたらしいぜ････" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue7FaceAlice" Value="いじめ！？,どうして････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue8FaceMari" Value="さあ････どうも転校を,繰り返してるみたいで,それが原因なのかな････？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue9FaceTsubakiNekku" Value="なんでいじめなんて,するんだろうな？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue10FaceShanghai" Value="人間なんて二人いれば,そこに優劣が,生まれるものだからね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue11FaceShanghai" Value="自分の下の人間には,何をしてもいいっていう考えが,浮かぶやつだっているものよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue12FaceMarisa" Value="やけに物知りだな？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue13FaceShanghai" Value="だって　コッソリやってるバイトで,いじめの首謀者を数十人,社会的にマッサツを････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue14FaceAlice" Value="もしかして　リンクゲートを,作ったお金ってそれの････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue15FaceNone" Value="#b@true#キーン#w@45#　コーン#w@45#　カーン#w@45#　コーン#w@45#,,#b@false#" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage1Dialogue16FaceKumako" Value="ホームルームを始めるわよー！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage3Dialogue1FaceMari" Value="黒板にプラグインさえ,できたら････" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage5Dialogue1FaceMari" Value="その Ｉ Ｄカードがあれば,黒板にプラグインできるな！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3EventMagicStage7Dialogue1FaceMari" Value="よし　教室を出るぞ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3RemiliaEventStage1Dialogue1FaceRemilia" Value="サクヤ〜どうしたらいいの〜！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3RemiliaEventStage3Dialogue1FaceRemilia" Value="電流は止まったわ！,お外に出ましょう！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3NekkuEventStage1Dialogue1FaceTsubakiNekku" Value="お・・・・俺は大丈夫だ････！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3NekkuEventStage3Dialogue1FaceTsubakiNekku" Value="クラスのみんなは,先に避難させたぞ！,あとは俺たちだけだぜ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage1Dialogue1FaceAlice" Value="よし　じゃあ帰ろうかしら" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage1Dialogue2FaceShanghai" Value="アリス　ほら向こう････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage1Dialogue3FaceAlice" Value="あら？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage3Dialogue1FaceTenshi" Value="えっと････神綺さん" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage3Dialogue2FaceAlice" Value="比那名居さん　どうしたの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage3Dialogue3FaceTenshi" Value="一緒に････帰ろう？" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage3Dialogue4FaceAlice" Value="もちろん！,一緒に帰りましょ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage3Dialogue5FaceMari" Value="おっ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue1FaceRika" Value="その調子なのです,比那名居さん！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue2FaceTenshi" Value="え　えへへ････！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue3FaceTenshi" Value="でね････えっと,みんな私のこと　天子って,呼んでほしいな" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue4FaceTenshi" Value="その方が　もっと,友達っぽくない････かな？" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue5FaceAlice" Value="いいわよ　天子" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue6FaceAlice" Value="じゃあ私のことも,アリス　って呼んでね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue7FaceMari" Value="じゃあ私も魔理でいいぜ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue8FaceRika" Value="里香なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue9FaceRemilia" Value="レミリアよ,仲良くしましょう" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue10FaceTsubakiNekku" Value="俺は････椿で" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue11FaceTenshi" Value="うん　わかったのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue12FaceMarisa" Value="もう心配はいらなさそうだな！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue13FaceIku" Value="皆さん････本当に,ありがとうございます！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue14FaceRika" Value="天子さん　このあとよかったら,里香の家で一緒に,遊ぶのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue15FaceTenshi" Value="え　いいの？" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue16FaceRemilia" Value="家に呼んだり呼ばれたり,友達なら普通のことよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChapter3AfterSchoolStage5Dialogue17FaceTenshi" Value="わーい！,みんなとは　ずっと,ずーっと　友達だからね！" Face="Tenshi" Mono="False" />
+  <!-- 扉には高圧の電流が流れていて危険だ！ -->
+  <Dialogue Key="Map.Class2nen2kumiToTheCorridorStage1Dialogue1FaceNone" Value="扉には高圧の電流が,流れていて危険だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiAfterTheCorridorStage1Dialogue1FaceNone" Value="扉には高圧の電流が,流れていて危険だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage1Dialogue1FaceNone" Value="先生が使う教卓だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage1Dialogue2FaceNone" Value="こぁ先生はたまにうっかりして,授業の教材を忘れて,置いて行ってしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage3Dialogue1FaceAlice" Value="あら････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage3Dialogue2FaceAlice" Value="これは先生の Ｉ Ｄカードよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage3Dialogue3FaceShanghai" Value="これで黒板から,学校のネットワークに,アクセスできるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage5Dialogue1FaceNone" Value="先生が使う教卓だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTeachStage5Dialogue2FaceNone" Value="こぁ先生はたまにうっかりして,授業の教材を忘れて,置いて行ってしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-1Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-1Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-1Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-1Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-1Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-1Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-2Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-2Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-2Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-2Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-2Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-2Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-2Stage1Dialogue3FaceNone" Value="････引き出しの奥にキラリと,光るものがある" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-2Stage1Dialogue4FaceNone" Value="以前に手に入れていたものを,しまっていたのを忘れていたようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-3Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-3Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-3Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-3Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-3Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-3Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-4Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine1-4Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-4Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine2-4Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-4Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMachine3-4Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-1Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-1Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-1Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-2Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-2Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-2Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-3Stage1Dialogue1FaceMaleStudent" Value="もうすぐ先生が来るから,早めに座ってるんだ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-3Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-3Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-3Stage5Dialogue1FaceMaleStudent" Value="もうすぐ先生が来るから,早めに座ってるんだ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-3Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-3Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair1-4Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair2-4Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage1Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage1Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage3Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage3Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage5Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage5Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage7Dialogue1FaceNone" Value="いたってシンプルな,生徒用の机である" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiChair3-4Stage7Dialogue2FaceNone" Value="さすがにこの机に,パソコンは内蔵されてない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTimetableStage1Dialogue1FaceNone" Value="このクラスの時間割だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTimetableStage1Dialogue2FaceNone" Value="授業ごとに先生が違うので,科目の下に先生の名前も,一緒に書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTimetableStage1Dialogue3FaceNone" Value="担任のこぁ先生は,「国語」の担当だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiThats’ItStage1Dialogue1FaceNone" Value="こぁ先生手作りの,そうじの当番表だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiThats’ItStage1Dialogue2FaceNone" Value="週のはじめに担当の部分を,くるりと少し回して,分担を変えるシステムだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiThats’ItStage1Dialogue3FaceNone" Value="順番的に　どうやらしばらくは,トイレ掃除に回されなくて,よさそうである" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage1Dialogue1FaceNone" Value="この教室の電子黒板だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage1Dialogue2FaceNone" Value="電子チョークで書くので,汚れないのと,そうじが楽なのが嬉しい" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage1Dialogue3FaceNone" Value="プラグインすれば,パソコンで用意した資料を,映すこともできるという" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage1Dialogue4FaceNone" Value="しかし　普段は,イタズラ防止のため,プラグインはロックされている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage3Dialogue1FaceNone" Value="この教室の電子黒板だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage3Dialogue2FaceNone" Value="電子チョークで書くので,汚れないのと,そうじが楽なのが嬉しい" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiBlackboardStage3Dialogue3FaceNone" Value="先生の Ｉ Ｄカードを,持っているのでプラグインできる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage1Dialogue1QuestionFaceShanghai" Value="魔理にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <Text Key="Map.Class2nen2kumiMarisaBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage1Dialogue2FaceMari" Value="ようし　やってやれ！,マリサ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage3Dialogue1FaceMari" Value="調子悪かったのか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage5Dialogue1FaceMari" Value="さすがにお前たちに,力押しじゃ勝てないよな〜" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage6Dialogue1FaceMari" Value="パワーアップを見せてやれ！,マリサ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage8Dialogue1FaceMari" Value="調子悪かったのか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage10Dialogue1FaceMari" Value="これでも勝てないとはな･･･！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage10Dialogue2FaceMari" Value="こいつは勝った褒美だ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage10Dialogue3FaceMari" Value="ってのは冗談で　Ｐコードを,更新してから渡すの,すっかり忘れてたんだよな････" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage10Dialogue4FaceMari" Value="ちょうどいいタイミングだから,今渡したってわけだ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage11Dialogue1FaceMari" Value="全力全開！,今度は負けないぜ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage13Dialogue1FaceMari" Value="調子悪かったのか？" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage15Dialogue1FaceMari" Value="お前ら強すぎだよ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiMarisaBattleStage16Dialogue1FaceMari" Value="なんだよ　ツレないなあ" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTestSprite1Stage1Dialogue1FaceSprite" Value="戦闘テスト" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiTestSprite2Stage1Dialogue1FaceSprite" Value="戦闘テスト" Face="Sprite" Mono="False" />
+  <!-- アアアア -->
+  <Text Key="Map.Class2nen2kumiTestSprite2Battle1Enemy1" Value="アアアア" />
+  <Dialogue Key="Map.Class2nen2kumiPostGameBystander1Dialogue1" Value="ＲＯＭのドタバタで,止まってた勉強をこなさなきゃ" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiPostGameBystander2Dialogue1" Value="廊下にいるクイズくんの,師匠の師匠のそのまた師匠が,どこかにいるらしいんだ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiPostGameBystander2Dialogue2" Value="でもその場所は,現実世界じゃないらしいよ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiPostGameBystander3Dialogue1" Value="俺こそは世界を救った奴と,同じクラスにいる男！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen2kumiPostGameBystander3Dialogue2" Value="サインを貰うなら今のうちだ････,って神綺さん！？,な　なんでもないぜ！？" Face="MaleChild" Mono="False" />
+</data>

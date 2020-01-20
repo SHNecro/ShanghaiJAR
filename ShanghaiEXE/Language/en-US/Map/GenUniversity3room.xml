@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity3roomName" Value="University Lab" />
+  <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue1FaceNone" Value="It’s a lab computer." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue2FaceNone" Value="Jacking in is prohibited.,Is that to protect the data?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk2Stage1Dialogue1FaceNone" Value="It’s a lab computer." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk2Stage1Dialogue2FaceNone" Value="Jacking in is prohibited.,Is that to protect the data?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChair1Stage1Dialogue1FaceNone" Value="It’s a lab chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChair1Stage1Dialogue2FaceNone" Value="It looks nice，but it rattles,when I touch it.,I wonder how old it is." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChairShadow1Stage1Dialogue1FaceNone" Value="It’s Dr. Morichika’s chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChairShadow1Stage1Dialogue2FaceNone" Value="Some parts rattle around，so,it seems like he’s been using,it for a long time." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTableStage1Dialogue1FaceNone" Value="It’s a large table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTableStage1Dialogue2FaceNone" Value="It looks useful，but it doesn’t,seem like it’s used much.,Poor thing." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTable2Stage1Dialogue1FaceNone" Value="It’s a large table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTable2Stage1Dialogue2FaceNone" Value="It looks useful，but it doesn’t,seem like it’s used much.,Poor thing." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage1Dialogue1FaceNone" Value="It’s the latest air purifier." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage1Dialogue2FaceNone" Value="They claim it releases various,ions to clean the air，but that,seems suspicious to me." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue1FaceNone" Value="It’s the latest air purifier." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue2FaceNone" Value="They claim it releases various,ions to clean the air，but that,seems suspicious to me." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue3FaceNone" Value="I can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage1Dialogue1FaceNone" Value="Uuuu...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue1FaceRemilia" Value="S....Sniff....,Guuu...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue2FaceAlice" Value="Please don’t cry...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue3FaceMari" Value="Kinda hard to talk when you’re,cryin’，huh....?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue4FaceShanghai" Value="...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue5FaceShanghai" Value="Remilia!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue6FaceRemilia" Value="....!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue7FaceShanghai" Value="What I said yesterday was,way out of line. I’m sorry." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue8FaceRemilia" Value="S.....Sniff....." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue9FaceShanghai" Value="However，I will say one thing." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue10FaceShanghai" Value="There’s a lot of bad stuff in the,world." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue11FaceShanghai" Value="But trying to ignore the bad,and run away from it makes,you a coward." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue12FaceAlice" Value="Shanghai，that’s...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue13FaceShanghai" Value="Shut up and listen!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue14FaceShanghai" Value="Remilia，are you fine with,being a coward?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue15FaceShanghai" Value="Do you want people to point,and laugh at you as you,run away?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue16FaceRemilia" Value="N....No....." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue17FaceRemilia" Value="I’m....not...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue18FaceRemilia" Value="a....coward....!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue19FaceShanghai" Value="Then prove it!,From now on，show me that,you’re not a coward!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue20FaceShanghai" Value="And stop crying this instant!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue21FaceShanghai" Value="Tears are a woman’s weapon.,Use them sparingly." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue22FaceShanghai" Value="Wise hawks hide their claws...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue23FaceShanghai" Value="So which are you?,Are you a wise hawk，,or are you a coward?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue24FaceRemilia" Value="Gulp...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue1FaceRemilia" Value="I am not a coward!,I’m Remilia Scarlet!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue2FaceMari" Value="Woah，she stopped crying...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue3FaceShanghai" Value="There，I apologized.,Now don’t you have,something to say?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue4FaceShanghai" Value="You have to take responsibility,for your actions." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue5FaceRemilia" Value="Yeah...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue6FaceRemilia" Value="...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue7FaceRemilia" Value="Alice.... Mari....,I caused you so much,trouble...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue8FaceRemilia" Value="I....I’m...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue9FaceRemilia" Value="....I’m sorry!!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue10FaceRemilia" Value="There! I apologized!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue11FaceMarisa" Value="Jeez，you’re really,something else...." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue12FaceMari" Value="All’s well that ends well，right?,Don’t worry about it!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue13FaceMari" Value="Now go grab Sakuya and,let’s go home!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue14FaceRemilia" Value="....Okay!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="Did that crying girl find her,way home?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter3OlderBrotherStage1Dialogue1FaceMaleAdult" Value="Recently，I’ve been spending,more time researching and,less time at home...." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="You might not realize it yet，,but choosing the right lab is,crucial!" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue1FaceNone" Value="Ali....ce...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue2FaceAlice" Value="Remilia!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue3FaceShanghai" Value="We’re coming to rescue you，,so don’t die until then!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue4FaceAlice" Value="That’s one way of putting it...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue5FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue6FaceAlice" Value="We have to jack into the,air purifier!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomToTheOutsideStage1Dialogue1FaceNone" Value="”Fire shutter locked due to,emergency!” is shown on,the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomPostGameBystander1Dialogue1" Value="Life in the lab，day 4...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomPostGameBystander1Dialogue2" Value="When will my paper be?,Do you see?,The bud of completion?" Face="FemaleAdult" Mono="False" />
+</data>

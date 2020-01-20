@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 里香の部屋 -->
+  <Text Key="Map.RikaHouseName" Value="里香の部屋" />
+  <!-- すやすや････ -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage1Dialogue1FaceNone" Value="すやすや････" Face="None" Mono="False" />
+  <!-- ････そっとしてあげよう -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage1Dialogue2FaceNone" Value="････そっとしてあげよう" Face="None" Mono="False" />
+  <!-- ふかふかのイビルアイソファだ -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage3Dialogue1FaceNone" Value="ふかふかのイビルアイソファだ" Face="None" Mono="False" />
+  <!-- うっかり飛び込んでしまうと気持ちよさのあまりダメになってしまう -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage3Dialogue2FaceNone" Value="うっかり飛び込んでしまうと,気持ちよさのあまり,ダメになってしまう" Face="None" Mono="False" />
+  <!-- 洗濯表示のところに９５４２６３６８　と書かれている -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage3Dialogue3FaceNone" Value="洗濯表示のところに,９５４２６３６８　と,書かれている" Face="None" Mono="False" />
+  <!-- 里香の所有する戦車だ -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue1FaceNone" Value="里香の所有する戦車だ" Face="None" Mono="False" />
+  <!-- といってもハリボテであり中は小部屋のようになっている -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue2FaceNone" Value="といってもハリボテであり,中は小部屋のようになっている" Face="None" Mono="False" />
+  <!-- 狭いがミニシアターになっており中に備え付けられたパソコンで映画を見るようだ -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue3FaceNone" Value="狭いがミニシアターになっており,中に備え付けられたパソコンで,映画を見るようだ" Face="None" Mono="False" />
+  <!-- なのでプラグインできる！ -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue4FaceNone" Value="なのでプラグインできる！" Face="None" Mono="False" />
+  <!-- 里香の靴箱だ -->
+  <Dialogue Key="Map.RikaHouseShoeboxStage1Dialogue1FaceNone" Value="里香の靴箱だ" Face="None" Mono="False" />
+  <!-- かわいらしいスニーカーから軍靴　安全靴までいろいろとそろっている -->
+  <Dialogue Key="Map.RikaHouseShoeboxStage1Dialogue2FaceNone" Value="かわいらしいスニーカーから,軍靴　安全靴までいろいろと,そろっている" Face="None" Mono="False" />
+  <!-- ふかふかのお布団だ -->
+  <Dialogue Key="Map.RikaHouseFutonStage1Dialogue1FaceNone" Value="ふかふかのお布団だ" Face="None" Mono="False" />
+  <!-- 一度入ったら最後気持ちよさのあまり抜け出せなくなる -->
+  <Dialogue Key="Map.RikaHouseFutonStage1Dialogue2FaceNone" Value="一度入ったら最後,気持ちよさのあまり,抜け出せなくなる" Face="None" Mono="False" />
+  <!-- 里香にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage1Dialogue1QuestionFaceShanghai" Value="里香にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.RikaHouseTankManBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- タンクマン！行くのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage1Dialogue2FaceRika" Value="タンクマン！,行くのです！" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage3Dialogue1FaceRika" Value="里香の勝ちなのです！" Face="Rika" Mono="False" />
+  <!-- さすがアリスさんはすっごく強いのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage5Dialogue1FaceRika" Value="さすがアリスさんは,すっごく強いのです！" Face="Rika" Mono="False" />
+  <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage6Dialogue1FaceTankMan" Value="シャンハイちゃん！,かっこいいとこ見せてやるぜ！" Face="TankMan" Mono="False" />
+  <!-- ファイトなのです！タンクマン！！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage6Dialogue2FaceRika" Value="ファイトなのです！,タンクマン！！" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage8Dialogue1FaceRika" Value="里香の勝ちなのです！" Face="Rika" Mono="False" />
+  <!-- タンクマン　残念なのです････ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage10Dialogue1FaceRika" Value="タンクマン　残念なのです････" Face="Rika" Mono="False" />
+  <!-- 最高のコンディションの俺の力を見せてやるぜ！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage11Dialogue1FaceTankMan" Value="最高のコンディションの,俺の力を見せてやるぜ！" Face="TankMan" Mono="False" />
+  <!-- これが里香の本気なのです！！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage11Dialogue2FaceRika" Value="これが里香の,本気なのです！！" Face="Rika" Mono="False" />
+  <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage13Dialogue1FaceTankMan" Value="どうだシャンハイちゃん！,惚れなおしたか！" Face="TankMan" Mono="False" />
+  <!-- がーん！里香は勝てないのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage15Dialogue1FaceRika" Value="がーん！,里香は勝てないのです！" Face="Rika" Mono="False" />
+  <!-- また今度やるのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage16Dialogue1FaceRika" Value="また今度やるのです！" Face="Rika" Mono="False" />
+  <!-- 里香は退屈なのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage1Dialogue1FaceRika" Value="里香は退屈なのです！" Face="Rika" Mono="False" />
+  <!-- そうだ！ネットバトルしようぜ！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage1Dialogue2FaceTankMan" Value="そうだ！,ネットバトルしようぜ！" Face="TankMan" Mono="False" />
+  <!-- クラスの仲間が増えて里香は嬉しいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage3Dialogue1FaceRika" Value="クラスの仲間が増えて,里香は嬉しいのです！" Face="Rika" Mono="False" />
+  <!-- そうだ！ネットバトルしようぜ！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage3Dialogue2FaceTankMan" Value="そうだ！,ネットバトルしようぜ！" Face="TankMan" Mono="False" />
+  <!-- 天子さんと一緒に遊ぶの楽しいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage5Dialogue1FaceRika" Value="天子さんと一緒に,遊ぶの楽しいのです！" Face="Rika" Mono="False" />
+  <!-- そうだ！ネットバトルしようぜ！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage5Dialogue2FaceTankMan" Value="そうだ！,ネットバトルしようぜ！" Face="TankMan" Mono="False" />
+  <!-- 里香は今度あるプラモデルコンテストに出す作品を作ってるのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage7Dialogue1FaceRika" Value="里香は今度ある,プラモデルコンテストに出す,作品を作ってるのです！" Face="Rika" Mono="False" />
+  <!-- 戦車を使ったガレージキットを出す予定なのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage7Dialogue2FaceRika" Value="戦車を使ったガレージキットを,出す予定なのです！" Face="Rika" Mono="False" />
+  <!-- でも　今は一息ついて休憩中なのです！ネットバトルするのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage7Dialogue3FaceRika" Value="でも　今は一息ついて,休憩中なのです！,ネットバトルするのです！" Face="Rika" Mono="False" />
+  <!-- 大会で優勝するなんてアリスさんはすごいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage9Dialogue1FaceRika" Value="大会で優勝するなんて,アリスさんはすごいのです！" Face="Rika" Mono="False" />
+  <!-- 里香にもネットバトルのコツを教えてもらいたいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage9Dialogue2FaceRika" Value="里香にもネットバトルのコツを,教えてもらいたいのです！" Face="Rika" Mono="False" />
+  <!-- 天子さん　入院しちゃって心配なのです････ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue1FaceRika" Value="天子さん　入院しちゃって,心配なのです････" Face="Rika" Mono="False" />
+  <!-- 入院する間天子さんからイクさんを預かってるのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue2FaceRika" Value="入院する間,天子さんからイクさんを,預かってるのです！" Face="Rika" Mono="False" />
+  <!-- 里香が責任をもってイクさんをメンテナンスするのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue3FaceRika" Value="里香が責任をもって,イクさんをメンテナンス,するのです！" Face="Rika" Mono="False" />
+  <!-- イクさんは里香のＨＰにいるのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue4FaceRika" Value="イクさんは里香のＨＰに,いるのです！" Face="Rika" Mono="False" />
+  <!-- 天子さんの暇つぶしにネットバトルしてあげると喜ぶはずなのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue5FaceRika" Value="天子さんの暇つぶしに,ネットバトルしてあげると,喜ぶはずなのです！" Face="Rika" Mono="False" />
+  <!-- それとも　里香とネットバトルするのです？ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue6FaceRika" Value="それとも　里香と,ネットバトルするのです？" Face="Rika" Mono="False" />
+  <!-- 天子さん　早く退院できるように里香は願うのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage13Dialogue1FaceRika" Value="天子さん　早く退院できるように,里香は願うのです！" Face="Rika" Mono="False" />
+  <!-- 里香のお家に遊びに来たらやることはひとつなのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage15Dialogue1FaceRika" Value="里香のお家に遊びに来たら,やることはひとつなのです！" Face="Rika" Mono="False" />
+  <!-- 天子にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage1Dialogue1QuestionFaceShanghai" Value="天子にネットバトルを申し込む？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.RikaHouseIkutororuStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- イク！頑張ってね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage1Dialogue2FaceTenshi" Value="イク！,頑張ってね！" Face="Tenshi" Mono="False" />
+  <!-- わーい！私が勝ったのよ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage3Dialogue1FaceTenshi" Value="わーい！,私が勝ったのよ！" Face="Tenshi" Mono="False" />
+  <!-- アリスってすごく強いね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage5Dialogue1FaceTenshi" Value="アリスってすごく強いね！" Face="Tenshi" Mono="False" />
+  <!-- 天子様のカスタマイズを受けパワーアップしましたわ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage6Dialogue1FaceIku" Value="天子様のカスタマイズを受け,パワーアップしましたわ！" Face="Iku" Mono="False" />
+  <!-- もう負けないんだからね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage6Dialogue2FaceTenshi" Value="もう負けないんだからね！" Face="Tenshi" Mono="False" />
+  <!-- イク！やったのよ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage8Dialogue1FaceTenshi" Value="イク！,やったのよ！" Face="Tenshi" Mono="False" />
+  <!-- アリスすごい！今度カスタマイズ教えてよ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage10Dialogue1FaceTenshi" Value="アリスすごい！,今度カスタマイズ教えてよ！" Face="Tenshi" Mono="False" />
+  <!-- 気が向いたらやろうね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage11Dialogue1FaceTenshi" Value="気が向いたらやろうね！" Face="Tenshi" Mono="False" />
+  <!-- 友達の家で遊ぶなんて私はじめてなの！ -->
+  <Dialogue Key="Map.RikaHouseTenshiStage1Dialogue1FaceTenshi" Value="友達の家で遊ぶなんて,私はじめてなの！" Face="Tenshi" Mono="False" />
+  <!-- ねえアリスネットバトルしよう！ -->
+  <Dialogue Key="Map.RikaHouseTenshiStage1Dialogue2FaceTenshi" Value="ねえアリス,ネットバトルしよう！" Face="Tenshi" Mono="False" />
+</data>

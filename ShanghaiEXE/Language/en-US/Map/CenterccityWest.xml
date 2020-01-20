@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 中央街　西区 -->
+  <Text Key="Map.CenterccityWestName" Value="Central City West" />
+  <!-- 知ってるか？中央街ってメチャメチャ広いんだぜ！ -->
+  <Dialogue Key="Map.CenterccityWestChapter3YoungBoy1Stage1Dialogue1FaceMaleChild" Value="Did you know?,Central City is really big!" Face="MaleChild" Mono="False" />
+  <!-- なんか西区、北区、東区って３つに分かれててここは西区なんだってさ！ -->
+  <Dialogue Key="Map.CenterccityWestChapter3YoungBoy1Stage1Dialogue2FaceMaleChild" Value="It’s split into three districts:,North，East，and West!,We’re in the West District!" Face="MaleChild" Mono="False" />
+  <!-- あちゃー････地下道は工事中かあ -->
+  <Dialogue Key="Map.CenterccityWestChapter3ManStage1Dialogue1FaceMaleAdult" Value="Aw man....,The underpass is under,construction?" Face="MaleAdult" Mono="False" />
+  <!-- 地下道を通ると東区に一気に行けるんだけどね北区を通るしかないかあ -->
+  <Dialogue Key="Map.CenterccityWestChapter3ManStage1Dialogue2FaceMaleAdult" Value="It goes straight from the,West District to the East,District." Face="MaleAdult" Mono="False" />
+  <!-- 地下道が通れるようになったよ -->
+  <Dialogue Key="Map.CenterccityWestChapter3ManStage3Dialogue1FaceMaleAdult" Value="Looks like the underpass is,open again." Face="MaleAdult" Mono="False" />
+  <!-- でも歩いて東区に行って戻ってきたばかりなんだよなあ -->
+  <Dialogue Key="Map.CenterccityWestChapter3ManStage3Dialogue2FaceMaleAdult" Value="But I just walked to the,East District and back.,Sigh...." Face="MaleAdult" Mono="False" />
+  <!-- 入院患者さんが病院の近くのこのカフェがお気に入りなの -->
+  <Dialogue Key="Map.CenterccityWestChapter3NurseStage1Dialogue1FaceNurse" Value="The patients in the nearby,hospital really like this cafe." Face="Nurse" Mono="False" />
+  <!-- 今日はこのくるみティーっていうのを飲んでみようかしら -->
+  <Dialogue Key="Map.CenterccityWestChapter3GrandmaStage1Dialogue1FaceFemaleElderly" Value="I wonder if I should try the,walnut tea today." Face="FemaleElderly" Mono="False" />
+  <!-- ねえ　看護婦さん？ -->
+  <Dialogue Key="Map.CenterccityWestChapter3GrandmaStage1Dialogue2FaceFemaleElderly" Value="Nurse，what do you think?" Face="FemaleElderly" Mono="False" />
+  <!-- ホッホッホお嬢ちゃんもおさんぽかい？ -->
+  <Dialogue Key="Map.CenterccityWestChapter3OlderManStage1Dialogue1FaceMaleElderly" Value="Hohoho!,Are you taking a stroll too，,little girl?" Face="MaleElderly" Mono="False" />
+  <!-- ネットエージェントに知り合いが捕まったらしい････ -->
+  <Dialogue Key="Map.CenterccityWestChapter3ThunpillarStage1Dialogue1FacePunk" Value="Looks like my bro got arrested,by the NetAgents...." Face="Punk" Mono="False" />
+  <!-- 迷惑防止条例違反だってさマヌケだよなー -->
+  <Dialogue Key="Map.CenterccityWestChapter3ThunpillarStage1Dialogue2FacePunk" Value="Disturbing the peace!?,That’s lame!" Face="Punk" Mono="False" />
+  <!-- この地下道を通ると東区にすぐ行けるのよ -->
+  <Dialogue Key="Map.CenterccityWestChapter4WomanStage1Dialogue1FaceFemaleAdult" Value="You can get to the East,District quickly if you take,this underpass." Face="FemaleAdult" Mono="False" />
+  <!-- 中央街はゲームセンター以外の遊び場に困るんだよなあ -->
+  <Dialogue Key="Map.CenterccityWestChapter4StudentStage1Dialogue1FaceBrownHairMaleStudent" Value="It bugs me that the only,arcade near here is in the,middle of the city." Face="BrownHairMaleStudent" Mono="False" />
+  <!-- あら　このカフェなかなかよさそうねぇ -->
+  <Dialogue Key="Map.CenterccityWestChapter5AuntStage1Dialogue1FaceFemaleMiddleAged" Value="My，this cafe looks quite nice." Face="FemaleMiddleAged" Mono="False" />
+  <!-- 前はここらへん不死鳥連合が幅きかせてたけど最近見ないんだよなあ -->
+  <Dialogue Key="Map.CenterccityWestChapter5StudentStage1Dialogue1FaceBrownHairMaleStudent" Value="The Phoenix Alliance were,spreadin’ their wings around,here，but I haven’t seen ’em" Face="BrownHairMaleStudent" Mono="False" />
+  <!-- やっぱりヘッドが誰かに負けたっていう噂が本当なのかねえ -->
+  <Dialogue Key="Map.CenterccityWestChapter5StudentStage1Dialogue2FaceBrownHairMaleStudent" Value="around lately. I guess the,rumors that someone beat,their leader were true." Face="BrownHairMaleStudent" Mono="False" />
+  <!-- でっかい悪党が暴れてると不良なんかの小さいワルっておとなしくなるんだよな -->
+  <Dialogue Key="Map.CenterccityWestChapter7StudentStage1Dialogue1FaceBrownHairMaleStudent" Value="When a big villain is on a,rampage，all the petty criminals,go into hiding." Face="BrownHairMaleStudent" Mono="False" />
+  <!-- 案外　悪の組織みたいなのがのさばってたほうが平和だったりしてね -->
+  <Dialogue Key="Map.CenterccityWestChapter7StudentStage1Dialogue2FaceBrownHairMaleStudent" Value="It’s the path to world peace!,Just start a new secret evil,organization every week!" Face="BrownHairMaleStudent" Mono="False" />
+  <!-- 最近　世の中を覆う空気は覚えがある････ -->
+  <Dialogue Key="Map.CenterccityWestChapter7OldManAStage1Dialogue1FaceMaleElderly" Value="Just days ago I was in awe of,the Net，connecting every,corner of the world." Face="MaleElderly" Mono="False" />
+  <!-- インターネットハルマゲドンが起こったあの年と同じ空気じゃ････ -->
+  <Dialogue Key="Map.CenterccityWestChapter7OldManAStage1Dialogue2FaceMaleElderly" Value="But now I remember we thought,the same of the Internet，until,the Internet Armageddon...." Face="MaleElderly" Mono="False" />
+  <!-- 何が起こるかわからないっていうのが怖いわねぇ -->
+  <Dialogue Key="Map.CenterccityWestChapter8WomanStage1Dialogue1FaceFemaleMiddleAged" Value="I fear for the future....,I just don’t know what will,happen next." Face="FemaleMiddleAged" Mono="False" />
+  <!-- 世の中めちゃくちゃなのに勉強なんてバカらしいから学校サボってるんだ -->
+  <Dialogue Key="Map.CenterccityWestChapter8GalStage1Dialogue1FaceBlondeHairGalStudent" Value="The world is so messed up，,but they still want us to study?,This is so stupid! I’m ditching!" Face="BlondeHairGalStudent" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccityWestChapter8RoboShieldStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccityWestChapter8RoboShieldStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccityWestChapter8RoboShieldDupeStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccityWestChapter8RoboShieldDupeStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue1FaceYuukaKazami" Value="Yes...?" Face="YuukaKazami" Mono="False" />
+  <!-- あのー････もしかしてお花屋さんだったりします？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue2FaceAlice" Value="Ah....,Are you a florist?" Face="Alice" Mono="False" />
+  <!-- ふぅ････え？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue3FaceYuukaKazami" Value="....Yes，I’m a florist." Face="YuukaKazami" Mono="False" />
+  <!-- ええ　私の喫茶店は花屋も兼業しているけれど -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue4FaceYuukaKazami" Value="This is my shop -- part coffee,shop，part florist’s." Face="YuukaKazami" Mono="False" />
+  <!-- ････ってもしかしてあなた神綺さんところの？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue5FaceYuukaKazami" Value="....I’m sorry，but you seem,familiar...." Face="YuukaKazami" Mono="False" />
+  <!-- もしかしてママの知り合いですか？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue6FaceAlice" Value="Are you a friend of Mama’s?" Face="Alice" Mono="False" />
+  <!-- 大学時代からの友人ってところね -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue7FaceYuukaKazami" Value="....Are you Alice Shinki?,I’m Yuuka Kazami，I met your,Mama in college." Face="YuukaKazami" Mono="False" />
+  <!-- 私は幽香　カフェ兼花屋のこの店の店長よ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue8FaceYuukaKazami" Value="Now I manage this place，the,Mugenkan Incense Cafe and,Florist...." Face="YuukaKazami" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue9FaceYuukaKazami" Value="Ah...." Face="YuukaKazami" Mono="False" />
+  <!-- すっごく　ため息ついてるわね -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue10FaceShanghai" Value="She’s sighing a lot." Face="Shanghai" Mono="False" />
+  <!-- 何か困ってるんですか？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue11FaceAlice" Value="Are you alright?" Face="Alice" Mono="False" />
+  <!-- ええ！　それはもう！すごく困っているというレベルじゃないくらい！ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue12FaceYuukaKazami" Value="I’m fine!,It’s just that...." Face="YuukaKazami" Mono="False" />
+  <!-- （すごい食いつかれた････） -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue13FaceAlice" Value="(I thought she just had stomach,problems....)" Face="Alice" Mono="False" />
+  <!-- １時間前にエイエンスクエアへ私のナビをおつかいに行かせたんだけど････ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue14FaceYuukaKazami" Value="I sent my Navi to Eien Square,an hour ago...." Face="YuukaKazami" Mono="False" />
+  <!-- エイエンスクエアを出てすぐ通信が切れちゃって連絡が途絶えちゃったの -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue15FaceYuukaKazami" Value="But they haven’t answered any,calls since they got there." Face="YuukaKazami" Mono="False" />
+  <!-- ナビがいないと会計もできないからお店も一時休業中よ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue16FaceYuukaKazami" Value="And now the shop’s closed,since I can’t do any accounting,without my Navi." Face="YuukaKazami" Mono="False" />
+  <!-- わかったわよじゃあそのナビを見つけたら買い物ができるってわけね -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue17FaceShanghai" Value="Okay，if we find your Navi，you,could reopen the register?" Face="Shanghai" Mono="False" />
+  <!-- あら　探しに行ってくれるの？ありがとう！ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue18FaceYuukaKazami" Value="Would you? Thank you!" Face="YuukaKazami" Mono="False" />
+  <!-- 困っている人は放っておけないもんね -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue19FaceAlice" Value="We should help anyone in,trouble，Shanghai! Not just,because we want something!" Face="Alice" Mono="False" />
+  <!-- じゃあ　エイエンスクエアの近くを探してみましょう -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage1Dialogue20FaceShanghai" Value="Let’s search near Eien Square!" Face="Shanghai" Mono="False" />
+  <!-- 私のナビと連絡が途絶えたのはエイエンスクエアを出てすぐよ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage3Dialogue1FaceYuukaKazami" Value="I lost contact with my Navi near,Eien Square." Face="YuukaKazami" Mono="False" />
+  <!-- じゃあ　エイエンスクエアの近くを探してみましょう -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage3Dialogue2FaceShanghai" Value="We should start our search,around there." Face="Shanghai" Mono="False" />
+  <!-- あなたたち　ありがとう！私のナビが無事戻ってきたわ！ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue1FaceYuukaKazami" Value="Thank you! You found my Navi!" Face="YuukaKazami" Mono="False" />
+  <!-- よし　じゃあ謝礼として花をひとついただこうかしら -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue2FaceShanghai" Value="We’ll take some flowers as a,reward!" Face="Shanghai" Mono="False" />
+  <!-- いいわよどんなお花が欲しいの？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue3FaceYuukaKazami" Value="What kind were you looking for?" Face="YuukaKazami" Mono="False" />
+  <!-- ････病院に持っていくいい匂いの花　ねえ？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue4FaceYuukaKazami" Value="....Something that smells good，,for a hospital gift?" Face="YuukaKazami" Mono="False" />
+  <!-- だったら「プリザーブドフラワー」なんてどうかしら？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue5FaceYuukaKazami" Value="What do you think of preserved,flowers?" Face="YuukaKazami" Mono="False" />
+  <!-- ブリザードフラワー？ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue6FaceAlice" Value="Preserved?" Face="Alice" Mono="False" />
+  <!-- 吹雪いてどうするのよ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue7FaceShanghai" Value="Preservatives?" Face="Shanghai" Mono="False" />
+  <!-- 「プリザーブドフラワー」は生花に特殊な加工をしたお花のことよ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue8FaceYuukaKazami" Value="”Preserved” flowers are flowers,that are specially treated right,after picking." Face="YuukaKazami" Mono="False" />
+  <!-- 水やりの必要もないし見た目は生花と変わらないわ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue9FaceYuukaKazami" Value="They don’t need any water，,and will always look fresh." Face="YuukaKazami" Mono="False" />
+  <!-- アロマオイルを使えばいい匂いもだせるしね -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue10FaceYuukaKazami" Value="You can apply scented oils,whenever the scent starts to,fade." Face="YuukaKazami" Mono="False" />
+  <!-- ････たしかに「いい匂いの花」とは言われたけど本物を持ってこいとは言われてないわ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue11FaceShanghai" Value="....I guess that’s one way to get,nice-smelling flowers." Face="Shanghai" Mono="False" />
+  <!-- それにね　最近は病院に生花を持ち込むのは禁止されてることが多いの -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue12FaceYuukaKazami" Value="Besides，hospitals are starting,to ban fresh flowers for safety." Face="YuukaKazami" Mono="False" />
+  <!-- じゃあ　それをください -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue13FaceAlice" Value="We’ll take them!" Face="Alice" Mono="False" />
+  <!-- はい　どうぞ！ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue14FaceYuukaKazami" Value="Alright!" Face="YuukaKazami" Mono="False" />
+  <!-- かなり遠回りになったけどあとはこの花を持っていくだけね -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage5Dialogue15FaceShanghai" Value="A bit of a roundabout way to,get flowers，but we’ve got them." Face="Shanghai" Mono="False" />
+  <!-- お花が必要なときはぜひ私の店をごひいきにね！ -->
+  <Dialogue Key="Map.CenterccityWestRequest15FragranceStage7Dialogue1FaceYuukaKazami" Value="If you ever need more flowers，,feel free to stop by!" Face="YuukaKazami" Mono="False" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.CenterccityWestASub-chipMerchantStage1Dialogue1FaceScientist" Value="I’m a Sub Chip vendor." Face="Scientist" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.CenterccityWestASub-chipMerchantStage1Dialogue2QuestionFaceScientist" Value="Care to see my wares?" Face="Scientist" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CenterccityWestASub-chipMerchantStage1Dialogue2Options" Value="Yes,No" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.CenterccityWestToTheStationStage1Dialogue1FaceNone" Value="Ride the metro to where?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.CenterccityWestToTheStationStage1Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
+  <!-- 幻想町幻想大学前乗らない -->
+  <Text Key="Map.CenterccityWestToTheStationStage1Dialogue2Options" Value="Genso Town,University,Leave" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.CenterccityWestToTheStationStage3Dialogue1QuestionFaceNone" Value="Ride the metro to where?" Face="None" Mono="False" />
+  <!-- 幻想町幻想大学前永遠町２丁目乗らない -->
+  <Text Key="Map.CenterccityWestToTheStationStage3Dialogue1Options" Value="Genso Town, University,Eien Town,Leave" />
+  <!-- 地下道　工事中と書かれている -->
+  <Dialogue Key="Map.CenterccityWestToUndergroundAisleStage1Dialogue1FaceNone" Value="”Underpass Under,Construction”,is written on the door." Face="None" Mono="False" />
+  <!-- 地下通路を通って東区まで行くの？ -->
+  <Dialogue Key="Map.CenterccityWestToUndergroundAisleStage3Dialogue1QuestionFaceShanghai" Value="Go to the East District,through the underpass?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CenterccityWestToUndergroundAisleStage3Dialogue1Options" Value="Yes,No" />
+  <!-- プラグインできないタイプの自動販売機だ -->
+  <Dialogue Key="Map.CenterccityWestRedVendingMachine2Stage1Dialogue1FaceNone" Value="It’s a vending machine,without a jack in port." Face="None" Mono="False" />
+  <!-- カフェの近くにあるからかこの自動販売機では紅茶やコーヒーが置いていない -->
+  <Dialogue Key="Map.CenterccityWestRedVendingMachine2Stage1Dialogue2FaceNone" Value="Since it’s next to a cafe，,it doesn’t have any tea or,coffee in it." Face="None" Mono="False" />
+  <!-- 今日のオススメメニュー「くるみティー」と書いてある -->
+  <Dialogue Key="Map.CenterccityWestASignStage1Dialogue1FaceNone" Value="The sign says:,”Today’s Special: Walnut Tea”." Face="None" Mono="False" />
+  <!-- ････味が気になるメニューである -->
+  <Dialogue Key="Map.CenterccityWestASignStage1Dialogue2FaceNone" Value="....The menu looks pretty,exotic." Face="None" Mono="False" />
+  <!-- 看板の裏に６５４８５４６９というラクガキが書かれている -->
+  <Dialogue Key="Map.CenterccityWestASignStage1Dialogue3FaceNone" Value="Something’s written on the back,of the sign.,It says.... ”65485469”." Face="None" Mono="False" />
+  <!-- テラスのあるオシャレな喫茶店「夢幻館」だ -->
+  <Dialogue Key="Map.CenterccityWestCafeStage1Dialogue1FaceNone" Value="There’s a stylish cafe on the,terrace called ”Mugenkan”." Face="None" Mono="False" />
+  <!-- ママの友達がここで働いていると聞いたことがある -->
+  <Dialogue Key="Map.CenterccityWestCafeStage1Dialogue2FaceNone" Value="I’ve heard that one of Mama’s,friends works here." Face="None" Mono="False" />
+  <!-- いい香りが店の外にまで漂ってくるので思わず入りたくなってしまう -->
+  <Dialogue Key="Map.CenterccityWestCafeStage1Dialogue3FaceNone" Value="A sweet scent wafting from the,cafe tempts me to go inside." Face="None" Mono="False" />
+  <!-- 駅を利用する人のものだろうかところ狭しと自転車が駐輪場に止められている -->
+  <Dialogue Key="Map.CenterccityWestBicycleScalpel1Stage1Dialogue1FaceNone" Value="The metro station has a,crowded bicycle parking lot." Face="None" Mono="False" />
+  <!-- ････自転車と自転車の間になにかキラリと光るものがある -->
+  <Dialogue Key="Map.CenterccityWestBicycleScalpel1Stage1Dialogue2FaceNone" Value="....There’s something,sparkling between the bikes." Face="None" Mono="False" />
+  <!-- 駅を利用する人のものだろうかところ狭しと自転車が駐輪場に止められている -->
+  <Dialogue Key="Map.CenterccityWestBicycleScalpel1Stage3Dialogue1FaceNone" Value="The metro station has a,crowded bicycle parking lot." Face="None" Mono="False" />
+  <!-- 駅を利用する人のものだろうかところ狭しと自転車が駐輪場に止められている -->
+  <Dialogue Key="Map.CenterccityWestBicycleScalpel2Stage1Dialogue1FaceNone" Value="The metro station has a,crowded bicycle parking lot." Face="None" Mono="False" />
+  <!-- プラグイン端子がある自転車が一つだけある！ -->
+  <Dialogue Key="Map.CenterccityWestBicycleScalpel2Stage1Dialogue2FaceNone" Value="One bike has a jack in port!" Face="None" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander2Dialogue1" Value="Big Boss Fujiwara....,Something about her has,completely changed." Face="Punk" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander2Dialogue2" Value="The Phoenix Alliance of today,is one big hangout club." Face="Punk" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander2Dialogue3" Value="The boss’ been going out to,shops with that Sumireko girl." Face="Punk" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander2Dialogue4" Value="I guess I’m alright with it.,Everything’s better with friends，,after all." Face="Punk" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander1Dialogue1" Value="Ｊａｐａｎ Ｃｅｎｔｅｒ Ｃｉｔｙ ！,Ｂｉｇ ，Ｂｉｇ， Ｗｉｄｅ！ " Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander3Dialogue1" Value="This cafe is also a flower shop?,I guess there’s a store for,everything." Face="FemaleOld" Mono="False" />
+  <Dialogue Key="Map.CentercityWestPostGameBystander3Dialogue2" Value="Do the drinks come with,flowers that match the scent?,I suppose that could work." Face="FemaleOld" Mono="False" />
+</data>

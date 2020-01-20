@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ウラインターネット２ -->
+  <Text Key="Map.UraNet2Name" Value="ウラインターネット２" />
+  <Text Key="Map.UraNet2RandomBattle1Enemy1" Value="チンピラナビ" />
+  <Text Key="Map.UraNet2RandomBattle1Enemy2" Value="チンピラナビ" />
+  <Text Key="Map.UraNet2RandomBattle2Enemy1" Value="チンピラナビ" />
+  <!-- ひゃぁぁぁぁあああ！！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage1Dialogue1FaceNone" Value="ひゃぁぁぁぁあああ！！" Face="None" Mono="False" />
+  <!-- あ？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue1FaceShanghai" Value="あ？" Face="Shanghai" Mono="False" />
+  <!-- ひぃぃ！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue2FaceHenchie" Value="ひぃぃ！" Face="Henchie" Mono="False" />
+  <!-- あ　このナビって昨日Ｋｅｙ．ｂａｔを持ってたナビ！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue3FaceAlice" Value="あ　このナビって昨日,Ｋｅｙ．ｂａｔを持ってたナビ！" Face="Alice" Mono="False" />
+  <!-- お　お助けー！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue4FaceHenchie" Value="お　お助けー！" Face="Henchie" Mono="False" />
+  <!-- なんだか様子がおかしいわね？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue5FaceShanghai" Value="なんだか様子がおかしいわね？" Face="Shanghai" Mono="False" />
+  <!-- ああ！もう追いつかれた！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue6FaceHenchie" Value="ああ！,もう追いつかれた！" Face="Henchie" Mono="False" />
+  <!-- なぁんだ　ただのウィルスじゃない -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue7FaceShanghai" Value="なぁんだ　ただのウィルスじゃない" Face="Shanghai" Mono="False" />
+  <!-- こんくらいあたしがぶっ飛ばしてやるからそこどきなさいよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue8FaceShanghai" Value="こんくらいあたしが,ぶっ飛ばしてやるから,そこどきなさいよ" Face="Shanghai" Mono="False" />
+  <!-- え　へ？あ　はい！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue9FaceHenchie" Value="え　へ？,あ　はい！" Face="Henchie" Mono="False" />
+  <!-- へっ！おとといきやがれってね！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue1FaceShanghai" Value="へっ！,おとといきやがれってね！" Face="Shanghai" Mono="False" />
+  <!-- ポカーン････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue2FaceHenchie" Value="ポカーン････" Face="Henchie" Mono="False" />
+  <!-- さてと････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue3FaceShanghai" Value="さてと････" Face="Shanghai" Mono="False" />
+  <!-- ひぃっ！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue4FaceHenchie" Value="ひぃっ！" Face="Henchie" Mono="False" />
+  <!-- さっさとそこをどいて欲しいわね････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue5FaceShanghai" Value="さっさとそこを,どいて欲しいわね････" Face="Shanghai" Mono="False" />
+  <!-- え　オレをデリートしたりとかしないんですか？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue6FaceHenchie" Value="え　オレをデリートしたりとか,しないんですか？" Face="Henchie" Mono="False" />
+  <!-- してほしい････？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue7FaceShanghai" Value="してほしい････？" Face="Shanghai" Mono="False" />
+  <!-- あたしはアンタみたいなチンピラをデリートする趣味はないわ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue8FaceShanghai" Value="あたしはアンタみたいなチンピラを,デリートする趣味はないわ" Face="Shanghai" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue9FaceHenchie" Value="････" Face="Henchie" Mono="False" />
+  <!-- ？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue10FaceShanghai" Value="？" Face="Shanghai" Mono="False" />
+  <!-- うぉぉぉおおおお！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue11FaceHenchie" Value="うぉぉぉおおおお！" Face="Henchie" Mono="False" />
+  <!-- わっ　びっくりした！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue12FaceAlice" Value="わっ　びっくりした！" Face="Alice" Mono="False" />
+  <!-- オレは今モーレツに感動しています！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue13FaceHenchie" Value="オレは今モーレツに,感動しています！" Face="Henchie" Mono="False" />
+  <!-- かつて相対したにもかかわらず寛大な心を持って助けしかも見逃してくれるとは！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue14FaceHenchie" Value="かつて相対したにもかかわらず,寛大な心を持って助け,しかも見逃してくれるとは！" Face="Henchie" Mono="False" />
+  <!-- あなたみたいな聖人のようなナビは見たことがありません！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue15FaceHenchie" Value="あなたみたいな聖人のような,ナビは見たことがありません！" Face="Henchie" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue16FaceShanghai" Value="はぁ････" Face="Shanghai" Mono="False" />
+  <!-- これまでこのウラに生きてきて汚れ仕事を････ブツブツ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue17FaceHenchie" Value="これまでこのウラに生きてきて,汚れ仕事を････ブツブツ" Face="Henchie" Mono="False" />
+  <!-- 何を言ってるのかしら････？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue18FaceAlice" Value="何を言ってるのかしら････？" Face="Alice" Mono="False" />
+  <!-- ああ　気にしちゃダメよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue19FaceShanghai" Value="ああ　気にしちゃダメよ" Face="Shanghai" Mono="False" />
+  <!-- ここまでのは初めてだけどあたしのしもべになるような連中はいっつもこんな感じよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue20FaceShanghai" Value="ここまでのは初めてだけど,あたしのしもべになるような,連中はいっつもこんな感じよ" Face="Shanghai" Mono="False" />
+  <!-- いやはや　オレはあなた様にお仕えしたくあります！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue21FaceHenchie" Value="いやはや　オレはあなた様に,お仕えしたくあります！" Face="Henchie" Mono="False" />
+  <!-- 助けてくれたお礼になんでも言ってください！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue22FaceHenchie" Value="助けてくれたお礼に,なんでも言ってください！" Face="Henchie" Mono="False" />
+  <!-- なんでも　ねぇ････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue23FaceShanghai" Value="なんでも　ねぇ････" Face="Shanghai" Mono="False" />
+  <!-- じゃああなたウィルスを飼う技術について何か知らないかしら？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue24FaceShanghai" Value="じゃああなた,ウィルスを飼う技術について,何か知らないかしら？" Face="Shanghai" Mono="False" />
+  <!-- ウィルスを飼う････？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue25FaceHenchie" Value="ウィルスを飼う････？" Face="Henchie" Mono="False" />
+  <!-- ああ！ウィルスボールのことですね！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue26FaceHenchie" Value="ああ！,ウィルスボールのことですね！" Face="Henchie" Mono="False" />
+  <!-- ウィルスボール？それ手に入れればウィルスが飼えるのかしら？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue27FaceShanghai" Value="ウィルスボール？,それ手に入れれば,ウィルスが飼えるのかしら？" Face="Shanghai" Mono="False" />
+  <!-- はい　それはもう！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue28FaceHenchie" Value="はい　それはもう！" Face="Henchie" Mono="False" />
+  <!-- そのようなものでよろしければこの先のニホンウラスクエアにオレのがありますんで -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue29FaceHenchie" Value="そのようなものでよろしければ,この先のニホンウラスクエアに,オレのがありますんで" Face="Henchie" Mono="False" />
+  <!-- お先に向かって準備をしておきますんでスクエアでお待ちしております！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue30FaceHenchie" Value="お先に向かって準備を,しておきますんで,スクエアでお待ちしております！" Face="Henchie" Mono="False" />
+  <!-- ちょっと待って名前くらい教えなさいよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue31FaceShanghai" Value="ちょっと待って,名前くらい教えなさいよ" Face="Shanghai" Mono="False" />
+  <!-- ああ　オレのことなんてお好きにお呼びください！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue32FaceHenchie" Value="ああ　オレのことなんて,お好きにお呼びください！" Face="Henchie" Mono="False" />
+  <!-- じゃあ・・・・あたしの部下になるから「ブッカー」でいいかしら -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue33FaceShanghai" Value="じゃあ・・・・,あたしの部下になるから,「ブッカー」でいいかしら" Face="Shanghai" Mono="False" />
+  <!-- ブッカーですか！素晴らしい名前をありがとうございます！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue34FaceHenchie" Value="ブッカーですか！,素晴らしい名前を,ありがとうございます！" Face="Henchie" Mono="False" />
+  <!-- では　お先に失礼します！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue35FaceHenchie" Value="では　お先に失礼します！" Face="Henchie" Mono="False" />
+  <!-- 信用して大丈夫なの？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue1FaceAlice" Value="信用して大丈夫なの？" Face="Alice" Mono="False" />
+  <!-- 歯向かったらボコボコにしてやればいいだけよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue2FaceShanghai" Value="歯向かったらボコボコに,してやればいいだけよ" Face="Shanghai" Mono="False" />
+  <!-- さ　行きましょう -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue3FaceShanghai" Value="さ　行きましょう" Face="Shanghai" Mono="False" />
+  <!-- あ　うん････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue4FaceAlice" Value="あ　うん････" Face="Alice" Mono="False" />
+  <!-- ウラスクエアに行きたいのか？ -->
+  <Dialogue Key="Map.UraNet2Chapter3ManStage1Dialogue1FaceNaviPurplePunk" Value="ウラスクエアに行きたいのか？" Face="NaviPurplePunk" Mono="False" />
+  <!-- だったらこのエリアの先にあるがたどり着けるかな？ククク････ -->
+  <Dialogue Key="Map.UraNet2Chapter3ManStage1Dialogue2FaceNaviPurplePunk" Value="だったらこのエリアの先にあるが,たどり着けるかな？,ククク････" Face="NaviPurplePunk" Mono="False" />
+  <!-- ウラインターネットって暗い雰囲気だけど慣れると過ごしやすいんだぜ -->
+  <Dialogue Key="Map.UraNet2Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="ウラインターネットって,暗い雰囲気だけど,慣れると過ごしやすいんだぜ" Face="NaviPurplePunk" Mono="False" />
+  <!-- おお　シャンハイ様お待ちしていました -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue1FaceHenchie" Value="おお　シャンハイ様,お待ちしていました" Face="Henchie" Mono="False" />
+  <!-- こんなところまで呼び出すってよっぽどの要件なのよね？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue2FaceShanghai" Value="こんなところまで呼び出すって,よっぽどの要件なのよね？" Face="Shanghai" Mono="False" />
+  <!-- この間破壊したゲートの残骸････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue3FaceHenchie" Value="この間破壊した,ゲートの残骸････" Face="Henchie" Mono="False" />
+  <!-- 私はあれを知っているかもしれません -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue4FaceHenchie" Value="私はあれを知っているかも,しれません" Face="Henchie" Mono="False" />
+  <!-- ････なんですって？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue5FaceShanghai" Value="････なんですって？" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ様と私が初めて出会った時のことを覚えてますか？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue6FaceHenchie" Value="シャンハイ様と私が,初めて出会った時のことを,覚えてますか？" Face="Henchie" Mono="False" />
+  <!-- ウィルスに追われてたっけ？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue7FaceShanghai" Value="ウィルスに追われてたっけ？" Face="Shanghai" Mono="False" />
+  <!-- それよりもっと前です「Ｋｅｙ．ｂａｔ」を求めて戦った時のことです -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue8FaceHenchie" Value="それよりもっと前です,「Ｋｅｙ．ｂａｔ」を求めて,戦った時のことです" Face="Henchie" Mono="False" />
+  <!-- そういえばそんなこともあったわね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue9FaceShanghai" Value="そういえばそんなことも,あったわね" Face="Shanghai" Mono="False" />
+  <!-- 思えば　なんであんたが「Ｋｅｙ．ｂａｔ」を探しているか結局聞きそびれてたわ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue10FaceShanghai" Value="思えば　なんであんたが,「Ｋｅｙ．ｂａｔ」を探しているか,結局聞きそびれてたわ" Face="Shanghai" Mono="False" />
+  <!-- あの時　「Ｋｅｙ．ｂａｔ」を探していたのは････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue11FaceHenchie" Value="あの時　「Ｋｅｙ．ｂａｔ」を,探していたのは････" Face="Henchie" Mono="False" />
+  <!-- ボーダーコンツェルンからの依頼を受けていたからなのです -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue12FaceHenchie" Value="ボーダーコンツェルンからの,依頼を受けていたからなのです" Face="Henchie" Mono="False" />
+  <!-- ボーダーコンツェルンって中央街にある大企業の？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue13FaceAlice" Value="ボーダーコンツェルンって,中央街にある大企業の？" Face="Alice" Mono="False" />
+  <!-- 何でそんな大企業があんたにわざわざ依頼なんかするのよ？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue14FaceShanghai" Value="何でそんな大企業が,あんたにわざわざ,依頼なんかするのよ？" Face="Shanghai" Mono="False" />
+  <!-- それが　どうも表ザタにはしたくない要件だったようで -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue15FaceHenchie" Value="それが　どうも,表ザタにはしたくない,要件だったようで" Face="Henchie" Mono="False" />
+  <!-- 「Ｋｅｙ．ｂａｔ」を渡す際にあのゲートに似たデータを････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue16FaceHenchie" Value="「Ｋｅｙ．ｂａｔ」を渡す際に,あのゲートに似たデータを････" Face="Henchie" Mono="False" />
+  <!-- ボーダーコンツェルン本社のサーバーの中で見たんです -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue17FaceHenchie" Value="ボーダーコンツェルン本社の,サーバーの中で見たんです" Face="Henchie" Mono="False" />
+  <!-- ････まあそれを見たせいで消されそうになったんですけどね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue18FaceHenchie" Value="････まあそれを見たせいで,消されそうになったんですけどね" Face="Henchie" Mono="False" />
+  <!-- それでこのエリアでウィルスに追われてたのね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue19FaceShanghai" Value="それでこのエリアでウィルスに,追われてたのね" Face="Shanghai" Mono="False" />
+  <!-- それにしてもボーダーコンツェルンが一気にクサくなってきたわね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue20FaceShanghai" Value="それにしても,ボーダーコンツェルンが,一気にクサくなってきたわね" Face="Shanghai" Mono="False" />
+  <!-- くんくん････何も匂いはしないけど？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue21FaceAlice" Value="くんくん････,何も匂いはしないけど？" Face="Alice" Mono="False" />
+  <!-- あのね　怪しくなってきたっていう意味で言ったのよ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue22FaceShanghai" Value="あのね　怪しくなってきた,っていう意味で言ったのよ" Face="Shanghai" Mono="False" />
+  <!-- 怪しいのなら調べに行きましょう！ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue23FaceAlice" Value="怪しいのなら,調べに行きましょう！" Face="Alice" Mono="False" />
+  <!-- あら？　アリスからそう言うのは珍しいわね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue24FaceShanghai" Value="あら？　アリスから,そう言うのは珍しいわね" Face="Shanghai" Mono="False" />
+  <!-- この間の事件でたくさんのネットナビが被害を受けたのを見たし････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue25FaceAlice" Value="この間の事件で,たくさんのネットナビが,被害を受けたのを見たし････" Face="Alice" Mono="False" />
+  <!-- これ以上　誰かが傷つくのは耐えられないから････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue26FaceAlice" Value="これ以上　誰かが,傷つくのは耐えられないから････" Face="Alice" Mono="False" />
+  <!-- アリス････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue27FaceShanghai" Value="アリス････" Face="Shanghai" Mono="False" />
+  <!-- わかったわ　調べに行きましょう -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue28FaceShanghai" Value="わかったわ　調べに行きましょう" Face="Shanghai" Mono="False" />
+  <!-- ネットエージェントに言うのはやめたほうがいいかもね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue29FaceShanghai" Value="ネットエージェントに言うのは,やめたほうがいいかもね" Face="Shanghai" Mono="False" />
+  <!-- ボーダーの連中に警戒されるかもしれないし -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue30FaceShanghai" Value="ボーダーの連中に,警戒されるかもしれないし" Face="Shanghai" Mono="False" />
+  <!-- でも　どうやって調べに行こうかしら -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue31FaceAlice" Value="でも　どうやって,調べに行こうかしら" Face="Alice" Mono="False" />
+  <!-- 中央街の電話ボックスからボーダーコンツェルンの社内ネットワークに行けたはず -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue32FaceShanghai" Value="中央街の電話ボックスから,ボーダーコンツェルンの,社内ネットワークに行けたはず" Face="Shanghai" Mono="False" />
+  <!-- あたしがうまくやるからとりあえずそこに向かいましょう -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue33FaceShanghai" Value="あたしがうまくやるから,とりあえずそこに向かいましょう" Face="Shanghai" Mono="False" />
+  <!-- わかったわ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue34FaceAlice" Value="わかったわ" Face="Alice" Mono="False" />
+  <!-- シャンハイ様お気をつけくださいね -->
+  <Dialogue Key="Map.UraNet27BookerStage3Dialogue1FaceHenchie" Value="シャンハイ様,お気をつけくださいね" Face="Henchie" Mono="False" />
+</data>

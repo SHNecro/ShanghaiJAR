@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja2Name" Value="神社の電脳２" />
+  <Dialogue Key="Map.Jinja2WithdrawStage1Dialogue1FaceShanghai" Value="うっ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja2WithdrawStage1Dialogue2FaceAlice" Value="体力が限界ね････,一度プラグアウトしましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja2GateStage1Dialogue1FaceNone" Value="シャンハイは扉に,陰のカギと陽のカギを,はめこんだ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja2GateStage1Dialogue2FaceNone" Value="扉が沈み道が開かれる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja2GateStage3Dialogue1FaceNone" Value="扉はカギがかかっていて,びくともしない！" Face="None" Mono="False" />
+</data>

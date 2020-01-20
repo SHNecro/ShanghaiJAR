@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.RemihouseName" Value="レミリアの部屋" />
+  <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue1FaceRemilia" Value="あら　アリス,いらっしゃい！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue2FaceRemilia" Value="ねえ　もし良かったら,ネットバトルしない？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage3Dialogue1FaceRemilia" Value="通信おけいこが始まるの,まだだったわ････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage3Dialogue2FaceRemilia" Value="ねえ　もし良かったら,ネットバトルしない？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage5Dialogue1FaceRemilia" Value="天子さんを家に呼んだら,喜ぶかなー？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage5Dialogue2FaceRemilia" Value="あら　アリス,ネットバトルしたいの？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue1FaceRemilia" Value="え？,何でＮ１リーグに,出ないかって？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue2FaceRemilia" Value="バカねえ,ライバル企業主催のイベントに,令嬢が出れるわけ無いでしょ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue3FaceRemilia" Value="それに　ネットバトルなら,大会じゃなくてもつきあって,あげるわよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue1FaceRemilia" Value="N1リーグ優勝したんだってね,おめでとう　と言っておくわね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue2FaceRemilia" Value="まあ　あなたの腕なら,あれくらいの大会楽勝だって,わかってたけれどね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue3FaceRemilia" Value="フフン　あなたのその腕前,見てあげてもいいことよ？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue1FaceRemilia" Value="天子さん　ケガをして,入院したんですってね････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue2FaceRemilia" Value="今の医療技術なら,やけどの跡を残さずに治療,することができるとはいえ････" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue3FaceRemilia" Value="やっぱり　友達が,入院するってのは,心配になるわね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue4FaceRemilia" Value="あら？,気を紛らわせてくれるのかしら？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage13Dialogue1FaceRemilia" Value="豪華客船セイレーンねぇ,私はお父様と一緒に,三回くらい乗ったことがあるわよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage13Dialogue2FaceRemilia" Value="アリスにとってもいい経験に,なると思うから存分に,楽しんでくるといいわ" Face="Remilia" Mono="False" />
+  <!-- あら　アリスおかえりなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue1FaceRemilia" Value="あら　アリス,おかえりなさい" Face="Remilia" Mono="False" />
+  <!-- インゲレスはどうだった？楽しめたかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue2FaceRemilia" Value="インゲレスはどうだった？,楽しめたかしら？" Face="Remilia" Mono="False" />
+  <!-- いろいろあったけど楽しめたわ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue3FaceAlice" Value="いろいろあったけど,楽しめたわ！" Face="Alice" Mono="False" />
+  <!-- はいおみやげ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue4FaceAlice" Value="はいおみやげ！" Face="Alice" Mono="False" />
+  <!-- ････っていってもインゲレス生まれのレミリアには珍しい物じゃないかもだけど -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue5FaceAlice" Value="････っていっても,インゲレス生まれのレミリアには,珍しい物じゃないかもだけど" Face="Alice" Mono="False" />
+  <!-- フフ　こういうのは物に込められた気持ちが大切なのよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue6FaceRemilia" Value="フフ　こういうのは,物に込められた気持ちが,大切なのよ" Face="Remilia" Mono="False" />
+  <!-- 見慣れたお菓子でもアリスから貰ったものは特別なお菓子になるわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue7FaceRemilia" Value="見慣れたお菓子でも,アリスから貰ったものは,特別なお菓子になるわ" Face="Remilia" Mono="False" />
+  <!-- へぇ〜なんだか素敵な考え方ね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue8FaceAlice" Value="へぇ〜,なんだか素敵な考え方ね" Face="Alice" Mono="False" />
+  <!-- ありがとうおみやげでお金使っちゃったでしょう？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue9FaceRemilia" Value="ありがとう,おみやげでお金,使っちゃったでしょう？" Face="Remilia" Mono="False" />
+  <!-- 少ないけど取っておきなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue10FaceRemilia" Value="少ないけど取っておきなさい" Face="Remilia" Mono="False" />
+  <!-- え！？こんなにいいの！？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue11FaceAlice" Value="え！？,こんなにいいの！？" Face="Alice" Mono="False" />
+  <!-- 素敵な贈り物のお返しよありがたく受け取りなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue12FaceRemilia" Value="素敵な贈り物のお返しよ,ありがたく受け取りなさい" Face="Remilia" Mono="False" />
+  <!-- あ　ありがとう！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue13FaceAlice" Value="あ　ありがとう！" Face="Alice" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage17Dialogue1FaceShanghai" Value="これでおみやげは,全員に配り終えたわね" Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage17Dialogue2FaceShanghai" Value="あとは帰って,ママにただいま言いましょ！" Face="Shanghai" Mono="False" />
+  <!-- 今度　この家でパーティを開きましょうよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue1FaceRemilia" Value="今度　この家でパーティを,開きましょうよ" Face="Remilia" Mono="False" />
+  <!-- おみやげのお菓子をみんなで楽しんだら素敵じゃない？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue2FaceRemilia" Value="おみやげのお菓子を,みんなで楽しんだら,素敵じゃない？" Face="Remilia" Mono="False" />
+  <!-- ････あら？サクヤとネットバトルしたいの？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue3FaceRemilia" Value="････あら？,サクヤとネットバトルしたいの？" Face="Remilia" Mono="False" />
+  <!-- どんどん世の中が不穏になっていく今日このごろ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue1FaceRemilia" Value="どんどん世の中が,不穏になっていく今日このごろ" Face="Remilia" Mono="False" />
+  <!-- 非力な私にはネットバトルくらいでしか役に立てそうもないわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue2FaceRemilia" Value="非力な私には,ネットバトルくらいでしか,役に立てそうもないわ" Face="Remilia" Mono="False" />
+  <!-- そんな私に稽古をつけてくれるのかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue3FaceRemilia" Value="そんな私に稽古を,つけてくれるのかしら？" Face="Remilia" Mono="False" />
+  <!-- 超武装した基地に攻めこむ方法ねえ････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue1FaceRemilia" Value="超武装した基地に,攻めこむ方法ねえ････" Face="Remilia" Mono="False" />
+  <!-- どうして私に聞きに来たわけ？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue2FaceRemilia" Value="どうして私に聞きに来たわけ？" Face="Remilia" Mono="False" />
+  <!-- いや　お金持ちだったら何かいい手を用意できると思って････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue3FaceAlice" Value="いや　お金持ちだったら,何かいい手を用意できると,思って････" Face="Alice" Mono="False" />
+  <!-- あのねえ　お金持ちはスーパーマンじゃないのよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue4FaceRemilia" Value="あのねえ　お金持ちは,スーパーマンじゃないのよ" Face="Remilia" Mono="False" />
+  <!-- ････それに　お金持ちなら私よりもお金を持っている人がいるじゃない -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue5FaceRemilia" Value="････それに　お金持ちなら,私よりもお金を持っている,人がいるじゃない" Face="Remilia" Mono="False" />
+  <!-- えっ？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue6FaceAlice" Value="えっ？" Face="Alice" Mono="False" />
+  <!-- チップショップをやってるあの人よ　なんて名前だったか････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue7FaceRemilia" Value="チップショップをやってる,あの人よ　なんて,名前だったか････" Face="Remilia" Mono="False" />
+  <!-- 隈美さん？あの人ってそんなにお金持ちだったっけ････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue8FaceAlice" Value="隈美さん？,あの人ってそんなに,お金持ちだったっけ････" Face="Alice" Mono="False" />
+  <!-- とりあえず　私は力になれそうにないわごめんなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue9FaceRemilia" Value="とりあえず　私は,力になれそうにないわ,ごめんなさい" Face="Remilia" Mono="False" />
+  <!-- 力になれなくてごめんなさいね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue1FaceRemilia" Value="力になれなくて,ごめんなさいね" Face="Remilia" Mono="False" />
+  <!-- 非力な私にはネットバトルくらいでしか役に立てそうもないわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue2FaceRemilia" Value="非力な私には,ネットバトルくらいでしか,役に立てそうもないわ" Face="Remilia" Mono="False" />
+  <!-- そんな私に稽古をつけてくれるのかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue3FaceRemilia" Value="そんな私に稽古を,つけてくれるのかしら？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage1Dialogue1QuestionFaceShanghai" Value="レミリアにネットバトルを,申し込む？" Face="Shanghai" Mono="False" />
+  <Text Key="Map.RemihouseSakuyaBattleStage1Dialogue1Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage1Dialogue2FaceRemilia" Value="力を見せて上げなさい！,サクヤ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage3Dialogue1FaceRemilia" Value="ホホホ　私の勝ちですわよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage5Dialogue1FaceRemilia" Value="さすがはアリスね,サクヤを２度も倒すなんて" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage6Dialogue1FaceRemilia" Value="ジャスト３分で,終わらせてあげるわよ！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage8Dialogue1FaceRemilia" Value="ホホホ　私の勝ちですわよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage10Dialogue1FaceRemilia" Value="あなた達のポテンシャル････,計り知れないわね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage11Dialogue1FaceRemilia" Value="まだあのこと怒ってる？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage11Dialogue2FaceRemilia" Value="気が向いた時に,私はいつでも受けて立つわよ" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf1Stage1Dialogue1FaceNone" Value="レミリアの本棚だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf1Stage1Dialogue2FaceNone" Value="「財形貯蓄の自己管理体制」,という本がある" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue1FaceNone" Value="レミリアの本棚だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue2FaceNone" Value="レミリアの身長よりも,はるかに高い位置にも,本がいっぱい詰まっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue3FaceNone" Value="本棚の横においてある,マジックハンドで取るのだろうが,はたして持ち上がるのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue1FaceNone" Value="レミリアのサーバーだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue2FaceNone" Value="かなり巨大だが,いったい何のデータが,入っているのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue3FaceNone" Value="残念ながらプラグインを,することは出来ない" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue1FaceNone" Value="レミリアのパソコンだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue2FaceNone" Value="４つのディスプレイをつないで,かなりのスペースを作業で,使えるようになっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue3FaceNone" Value="プラグインも可能だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue1FaceNone" Value="変な形のレミリアの机だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue2FaceNone" Value="真上にあるシャンデリアの,コントロールパネルが付いている" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue3FaceNone" Value="プラグインもできるが,プラグイン端子が,故障しているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseDresserStage1Dialogue1FaceNone" Value="レミリアのお化粧台だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseDresserStage1Dialogue2FaceNone" Value="金持ちらしく高級な化粧品が,ところ狭しと並んでいるが,使われた形跡はみられない" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue1FaceNone" Value="レミリアの巨大なベッドだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue2FaceNone" Value="天ガイがついていて,まるでお姫様のベッドのようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue3FaceNone" Value="高級なシーツには,思わず飛び込みたくなる" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue4FaceNone" Value="いつかはこんなベッドに,寝てみたいものだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseSofaStage1Dialogue1FaceNone" Value="レミリアのソファだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseSofaStage1Dialogue2FaceNone" Value="ケダマーのぬいぐるみがあり,レミリアはこれを抱きながら,くつろぐのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue1FaceNone" Value="レミリアの電子ピアノだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue2FaceNone" Value="レミリアいわく,「しゅくじょのたしなみ」,だそうだが　ホコリかぶっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue3FaceNone" Value="プラグインができるが,電源が見当たらない" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue1FaceNone" Value="レミリアの肖像画だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue2FaceNone" Value="本人よりも二割増し,かわいく描かれている" Face="None" Mono="False" />
+  <!-- 額縁の端に小さく６９５４６２５８　と数字が刻まれている -->
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue3FaceNone" Value="額縁の端に小さく,６９５４６２５８　と,数字が刻まれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue1FaceNone" Value="古い固定電話がおいてある" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue2FaceNone" Value="ガワは古いが中身は最新の,電話機とおなじで,使うこともできる" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue3FaceNone" Value="機能は最新型と同じなので,もちろんプラグインもできる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue1FaceNone" Value="壁に賞状が飾られている" Face="None" Mono="False" />
+  <!-- 「ちびっ子論文大会　大賞」と書いてある -->
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue2FaceNone" Value="「ちびっ子論文大会　大賞」,と書いてある" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue3FaceNone" Value="小学校に通っていた頃に,貰ったものなのだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue1FaceNone" Value="壁に賞状が飾られている" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue2FaceNone" Value="「小学生版画コンクール優秀賞」,と書いてある" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue3FaceNone" Value="小学校に通っていた頃に,貰ったものなのだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue1FaceNone" Value="壁に賞状が飾られている" Face="None" Mono="False" />
+  <!-- 「幼稚園ピアノコンクール金賞」と書いてある -->
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue2FaceNone" Value="「幼稚園ピアノコンクール金賞」,と書いてある" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue3FaceNone" Value="幼稚園に通っていた頃に,貰ったものなのだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaPostGameDialogue1" Value="あらいらっしゃいアリス,一緒に遊びましょ？" Face="Remilia" Mono="False" />
+</data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ホワイトヘブンエリア２ -->
+  <Text Key="Map.HeavenNet2Name" Value="White Heaven Area 2" />
+  <!-- 目を見張るほどの立派な電脳桜の大樹だ -->
+  <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue1FaceNone" Value="It’s a beautiful cyber-cherry tree!" Face="None" Mono="False" />
+  <!-- この桜の中に過去にデリートされたすべてのデータが詰まっているという -->
+  <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue2FaceNone" Value="It is said that all data deleted in,the past gathers around this,tree." Face="None" Mono="False" />
+</data>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.FirehydrantName" Value="消火栓の電脳" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue1FaceSprite" Value="イザト　イウトキノ　タメニ,ミズヲダス　レンシュウハ,カカセマセン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue2FaceSprite" Value="ブシュー　ジョロジョロジョロ････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue3FaceSprite" Value="ッテ　モジダケダト　ワタシガ,ソソウヲシタ,ミタイジャナイデスカ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue4FaceSprite" Value="ハズカシーィ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantTestSprite2Stage1Dialogue1FaceSprite" Value="戦闘テスト" Face="Sprite" Mono="False" />
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy1" Value="チンピラアニキ" />
+  <!-- ボマー -->
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy2" Value="ボマー" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy3" Value="アクトウナビ" />
+  <Dialogue Key="Map.FirehydrantSprite2Stage1Dialogue1FaceSprite" Value="ワタシタチッテ　ホラ,サイガイノ　トキニシカ,ハタラカナイジャ　ナイデスカ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite2Stage1Dialogue2FaceSprite" Value="ヒマスギルノハ　イヤナノデスガ,ハタラクトキガ　クルノハ,モット　イヤデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot" Value="私はサブチップ商人です" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.FirehydrantASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot" Value="サブチップを買いますか？" Face="NaviBlueRobot" Mono="False" />
+  <Text Key="Map.FirehydrantASub-chipMerchantStage1Dialogue2Options" Value="はい,いいえ" />
+</data>

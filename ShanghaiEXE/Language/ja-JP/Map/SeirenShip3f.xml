@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShip3fName" Value="豪華客船セイレーン３Ｆ　宿泊フロア" />
+  <Dialogue Key="Map.SeirenShip3f101Stage1Dialogue1FaceNone" Value="１０１号室だ,鍵がかかっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3f102Stage1Dialogue1FaceNone" Value="１０２号室だ,鍵がかかっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.SeirenShip3fElevatorStage1Dialogue2Options" Value="１Ｆ　ロビーエリア,２Ｆ　商業エリア,乗らない" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage1Dialogue1FaceAlice" Value="きゃっ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage1Dialogue2FaceWriggleHat" Value="あっ　ゴメンね！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue1FaceWriggleHat" Value="大丈夫かい？" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue2FaceAlice" Value="えっと　大丈夫よ,よそ見してただけだから" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue3FaceWriggleHat" Value="ううん　わ････僕の不注意だし,ケガがなくてよかった" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue4FaceWriggleHat" Value="じゃあね" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue1FaceShanghai" Value="もう　気をつけなさいよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue2FaceAlice" Value="････････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue3FaceShanghai" Value="どうしたの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue4FaceAlice" Value="あ　ううん？,あの男の子も,この船のお客さんなのかな？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue5FaceShanghai" Value="外国のお金持ちの,子供だったりするんじゃない？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue6FaceAlice" Value="そっかあ,そういうところに今,私は　いるのよね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue7FaceShanghai" Value="あんた　ちゃんとシャキシャキ,歩きなさいよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue8FaceShanghai" Value="貧相な動きしてたら,貧乏人だと馬鹿にされるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue9FaceAlice" Value="貧相な動きって,そんなのわからないわよ！！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fMobStage1Dialogue1FaceWhiteHairFemaleRichLady" Value="インゲレスに向かうときに,この船に乗るのは,上流階級のステイタスですのよ" Face="WhiteHairFemaleRichLady" Mono="False" />
+</data>

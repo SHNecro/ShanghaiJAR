@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="ImportOverwritePrompt" Value="構成ファイルの新旧のバージョンが見つかりました。&#xD;&#xA;&#xD;&#xA;新しい構成を上書きしますか?" />
+  <Text Key="Config" Value="設定" />
+  <Text Key="ScreenSize" Value="画面サイズ" />
+  <Text Key="Sizex1" Value="240x160 (GBA準拠)" />
+  <Text Key="Sizex2" Value="480x320 (2倍)" />
+  <Text Key="Sizex3" Value="720x480 (3倍)" />
+  <Text Key="Sizex4" Value="960x640 (4倍)" />
+  <Text Key="SizeCustom" Value="可変" />
+  <Text Key="SizeCustomLeft" Value="(" />
+  <Text Key="SizeCustomRight" Value="倍)" />
+  <Text Key="RefreshRate" Value="描画速度" />
+  <Text Key="DisplayRate" Value="[Display:]" />
+  <Text Key="TurboRate" Value="[Turbo:]" />
+  <Text Key="WindowedHeader" Value="表示モード" />
+  <Text Key="Windowed" Value="表示モード" />
+  <Text Key="Fullscreen" Value="フルスクリーン" />
+  <Text Key="InactiveHeader" Value="非アクティブ時" />
+  <Text Key="Running" Value="動作する" />
+  <Text Key="Paused" Value="動作しない" />
+  <Text Key="BGMVolume" Value="ＢＧＭ　音量" />
+  <Text Key="SFXVolume" Value="効果音　音量" />
+  <Text Key="Language" Value="[Language]" />
+  <Text Key="Rendering" Value="[Rendering]" />
+  <Text Key="Keyboard" Value="キーボード" />
+  <Text Key="DirectX9" Value="DirectX 9" />
+  <Text Key="OpenGL" Value="OpenGL" />
+  <Text Key="KeyUp" Value="十字キ ↑" />
+  <Text Key="KeyRight" Value="十字キ →" />
+  <Text Key="KeyDown" Value="十字キ ↓" />
+  <Text Key="KeyLeft" Value="十字キ ←" />
+  <Text Key="KeyA" Value="Aボタン(決定、チップ使用)" />
+  <Text Key="KeyB" Value="Bボタン(キャンセル、バスター)" />
+  <Text Key="KeyL" Value="Lボタン(ヒント会話、逃走)" />
+  <Text Key="KeyR" Value="Rボタン(プラグイン、アウト)" />
+  <Text Key="KeyStart" Value="STARTボタン(メニュー、ポーズ)" />
+  <Text Key="KeySelect" Value="SELECTボタン(多岐に使用)" />
+  <Text Key="KeyTurbo" Value="[Turbo Button]" />
+  <Text Key="GamePad" Value="コントローラー" />
+  <Text Key="PadUp" Value="十字キ ↑" />
+  <Text Key="PadRight" Value="十字キ →" />
+  <Text Key="PadDown" Value="十字キ ↓" />
+  <Text Key="PadLeft" Value="十字キ ←" />
+  <Text Key="PadA" Value="Aボタン(決定、チップ使用)" />
+  <Text Key="PadB" Value="Bボタン(キャンセル、バスター)" />
+  <Text Key="PadL" Value="Lボタン(ヒント会話、逃走)" />
+  <Text Key="PadR" Value="Rボタン(プラグイン、アウト)" />
+  <Text Key="PadStart" Value="STARTボタン(メニュー、ポーズ)" />
+  <Text Key="PadSelect" Value="SELECTボタン(多岐に使用)" />
+  <Text Key="PadTurbo" Value="[Turbo Button]" />
+  <Text Key="Extra" Value="[Extra]" />
+  <Text Key="DialogueTester" Value="[Show Dialogue Tester]" />
+  <Text Key="AdjustBustingLevel" Value="[Enable Busting Level Downgrading]" />
+  <Text Key="AllowTurboSlowdown" Value="[Allow Turbo Slowdown]" />
+  <Text Key="DisableBGMOverride" Value="[Disable BGM Override]" />
+  <Text Key="FixEngrish" Value="[Fix Original English]" />
+  <Text Key="StretchFullscreen" Value="[Maintain Aspect Radio]" />
+  <Text Key="StretchFullscreenOpenGL" Value="[OpenGL mode only]" />
+</data>

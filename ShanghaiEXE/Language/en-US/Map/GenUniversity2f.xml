@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity2fName" Value="University 2F" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage1Dialogue1FacePresidentYukari" Value="Have a nice day." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue1FacePresidentYukari" Value="Hm? This is no place for,kids to be playing around." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue2FaceMari" Value="Actually，we came to see dad." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue3FacePresidentYukari" Value="You’re Dr. Morichika’s,daughter?" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue4FacePresidentYukari" Value="You came at a good time.,Something interesting just,arrived." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue5FaceAlice" Value="Something interesting?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue6FacePresidentYukari" Value="Well，it was de-light-ful to see,you! Fufu! Take care!" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue1FaceRika" Value="What a mature lady!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue2FaceShanghai" Value="That was Yukari Yakumo，the,president of ”Border Concern”." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue3FaceMarisa" Value="Ain’t Border Concern that,super-huge conglomerate!?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue4FaceTankMan" Value="Isn’t it that company based in,Central City?,Their slogan is...." Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue5FaceRemilia" Value="”From the cradle to the new,age.”,Ugh，how annoying." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue6FaceMari" Value="You know ’em well，huh?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue7FaceRemilia" Value="It’s one of my family’s rival,companies." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue8FaceRemilia" Value="Father Vlad always used to,tell us to ”know thine enemy”." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue9FaceRika" Value="Wow! Of course the lady of a,renowned family would be one,step ahead!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue10FaceRemilia" Value="Hmph. Flattery is more than,welcome，but let’s not dawdle." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue11FaceRemilia" Value="I simply must find out what’s,so interesting to her." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue12FaceMari" Value="Alright，alright!,In we go!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage1Dialogue1QuestionFaceNone" Value="The elevator opened!,Go to the first floor?" Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity2fElevatorStage1Dialogue1Options" Value="Yes,No" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage3Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage3Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity2fElevatorStage3Dialogue2Options" Value="1st Floor,3rd Floor,Leave" />
+  <Dialogue Key="Map.GenUniversity2fToOfficeStage1Dialogue1FaceNone" Value="”Office” is written on the door.,I have no reason to go in here." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue1FaceNone" Value="It’s a vending machine." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue2FaceNone" Value="The paint is starting to chip.,I can tell it’s been here for,years." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue3FaceNone" Value="Since it’s an old model，it,doesn’t have a jack in port." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChair1Stage1Dialogue1FaceNone" Value="It’s a bench to rest on." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChair1Stage1Dialogue2FaceNone" Value="It feels oddly stiff.,I don’t think I could sit on it,for very long." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2OlderBrotherStage1Dialogue1FaceScientist" Value="I heard Dr. Morichika’s wife is,a researcher at Hearn College,in Eurica." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2OlderBrotherStage1Dialogue2FaceScientist" Value="Even though they live apart，,he’s a loving husband and the,family gets along pretty well." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OlderBrotherStage1Dialogue1FaceScientist" Value="Dr. Morichika got caught up,in the ROM incident and was,taken to the hospital...." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OlderBrotherStage1Dialogue2FaceScientist" Value="But he bounced back after only,one day! Top-class scientists,are pretty resilient，huh....?" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OldManStage1Dialogue1FaceMaleOld" Value="ROM sure did a number on,the University’s reputation...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OldManStage1Dialogue2FaceMaleOld" Value="Should we get the NetAgents,to do patrols....?,Grumble Grumble...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrotherStage1Dialogue1FaceMaleAdult" Value="Man.... If I didn’t have my,thesis due，I could enter the,N1 League...." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage1Dialogue1FaceScientist" Value="In the past，theses had to be,hand-written. You couldn’t use,a computer." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage1Dialogue2FaceScientist" Value="Students today have it so,much easier." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage3Dialogue1FaceScientist" Value="A NetAgent girl just stormed,into that room...." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage5Dialogue1FaceScientist" Value="In the past，theses had to be,hand-written. You couldn’t use,a computer." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage5Dialogue2FaceScientist" Value="Students today have it so,much easier." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5RenkoStage1Dialogue1FaceRenko" Value="We’re gonna do NetBattling,drills all day today!!" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent1Stage1Dialogue1FaceMaleAdult" Value="We’re the University’s,NetBattling club." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent1Stage1Dialogue2FaceMaleAdult" Value="It’s been like this every single,day since the head of the club,lost in the N1 League." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent2Stage1Dialogue1FaceFemaleAdult" Value="Why not scout Yamame?,You know，that girl from,Dr. Morichika’s lab?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent2Stage1Dialogue2FaceFemaleAdult" Value="It looks like she’s been,getting a lot better at,NetBattling lately...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue1" Value="I’m part of the NetBattling Club，,but...." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue2" Value="Recently President Usami’s,been busy going to meet with,some Hearn girl." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue3" Value="Aaah!,What’s going to happen to the,NetBattling Club?!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander2Dialogue1" Value="Hearn.... I heard that girl just,became the president of some,big company." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander2Dialogue2" Value="It’s gotta be tough dealing with,college while running a,company as president." Face="FemaleAdult" Mono="False" />
+</data>

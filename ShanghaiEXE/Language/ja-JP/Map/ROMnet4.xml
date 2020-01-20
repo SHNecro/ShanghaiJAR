@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ＲＯＭの電脳４ -->
+  <Text Key="Map.ROMnet4Name" Value="ＲＯＭの電脳４" />
+  <!-- あと半分といったところかしら -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue1FaceShanghai" Value="あと半分といったところかしら" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　油断しちゃダメよ！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue2FaceAlice" Value="シャンハイ　油断しちゃダメよ！" Face="Alice" Mono="False" />
+  <!-- そんな事するはずが････あら？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue3FaceShanghai" Value="そんな事するはずが････,あら？" Face="Shanghai" Mono="False" />
+  <!-- おーーーい！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue4FaceNone" Value="おーーーい！" Face="None" Mono="False" />
+  <!-- ふう　間に合ったようですね -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue1FaceMsAsakuraNavi" Value="ふう　間に合ったようですね" Face="MsAsakuraNavi" Mono="False" />
+  <!-- 朝倉先生のナビだ！先生も応援に来てくれたのね -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue2FaceAlice" Value="朝倉先生のナビだ！,先生も応援に来てくれたのね" Face="Alice" Mono="False" />
+  <!-- 今更感もあるけどね -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue3FaceShanghai" Value="今更感もあるけどね" Face="Shanghai" Mono="False" />
+  <!-- この先から不穏な存在を感じますよ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue4FaceMsAsakuraNavi" Value="この先から不穏な存在を,感じますよ" Face="MsAsakuraNavi" Mono="False" />
+  <!-- 私もお供しますさあ先に進みましょう！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue5FaceMsAsakuraNavi" Value="私もお供します,さあ先に進みましょう！" Face="MsAsakuraNavi" Mono="False" />
+  <!-- よし　行くわよ！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue6FaceShanghai" Value="よし　行くわよ！" Face="Shanghai" Mono="False" />
+  <!-- 甘いな････！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue7FaceNone" Value="甘いな････！" Face="None" Mono="False" />
+  <!-- む！？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue8FaceMsAsakuraNavi" Value="む！？" Face="MsAsakuraNavi" Mono="False" />
+  <!-- ヨリヒメ！？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage5Dialogue1FaceAlice" Value="ヨリヒメ！？" Face="Alice" Mono="False" />
+  <!-- あんた　まさか裏切ったとか言うんじゃないわよね！？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage5Dialogue2FaceShanghai" Value="あんた　まさか裏切ったとか,言うんじゃないわよね！？" Face="Shanghai" Mono="False" />
+  <!-- なに寝言を言っている！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage5Dialogue3FaceReisen" Value="なに寝言を言っている！" Face="Reisen" Mono="False" />
+  <!-- ヨリヒメの攻撃を受け止めるこのパワー････こいつはただのナビじゃない！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage5Dialogue4FaceReisen" Value="ヨリヒメの攻撃を受け止める,このパワー････こいつは,ただのナビじゃない！" Face="Reisen" Mono="False" />
+  <!-- 巧妙な偽装プログラムだけどようやく尻尾を掴んだわよ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage5Dialogue5FaceYorihime" Value="巧妙な偽装プログラムだけど,ようやく尻尾を掴んだわよ" Face="Yorihime" Mono="False" />
+  <!-- ････ＲＯＭ首領のネットナビドルイドマン！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage5Dialogue6FaceYorihime" Value="････ＲＯＭ首領のネットナビ,ドルイドマン！" Face="Yorihime" Mono="False" />
+  <!-- ほう････ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage7Dialogue1FaceMsAsakuraNavi" Value="ほう････" Face="MsAsakuraNavi" Mono="False" />
+  <!-- バレてしまったのならこの姿でいる必要もないな -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage7Dialogue2FaceMsAsakuraNavi" Value="バレてしまったのなら,この姿でいる必要もないな" Face="MsAsakuraNavi" Mono="False" />
+  <!-- な････！？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage9Dialogue1FaceShanghai" Value="な････！？" Face="Shanghai" Mono="False" />
+  <!-- あっはははは！！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage9Dialogue2FaceHoodedFace" Value="あっはははは！！" Face="HoodedFace" Mono="False" />
+  <!-- あわよくば不意をついて始末できないかと思ってたけどそううまくはいかなかったわね！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage9Dialogue3FaceHoodedFace" Value="あわよくば不意をついて,始末できないかと思ってたけど,そううまくはいかなかったわね！" Face="HoodedFace" Mono="False" />
+  <!-- そ　それじゃああなたは････ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage9Dialogue4FaceAlice" Value="そ　それじゃああなたは････" Face="Alice" Mono="False" />
+  <!-- もしかしてROMの首領って････ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage9Dialogue5FaceAlice" Value="もしかしてROMの首領って････" Face="Alice" Mono="False" />
+  <!-- ････来る！？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage11Dialogue1FaceYorihime" Value="････来る！？" Face="Yorihime" Mono="False" />
+  <!-- ククク････せっかくのマッチングだ長く楽しもうじゃないか -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage11Dialogue2FaceDruidMan" Value="ククク････,せっかくのマッチングだ,長く楽しもうじゃないか" Face="DruidMan" Mono="False" />
+  <!-- こちらへ来い相手をしてやる -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage11Dialogue3FaceDruidMan" Value="こちらへ来い,相手をしてやる" Face="DruidMan" Mono="False" />
+  <!-- 電脳の最深部に巨大なエネルギー反応 -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage13Dialogue1FaceYorihime" Value="電脳の最深部に,巨大なエネルギー反応" Face="Yorihime" Mono="False" />
+  <!-- 時間稼ぎのつもりかそうはさせん -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage13Dialogue2FaceReisen" Value="時間稼ぎのつもりか,そうはさせん" Face="Reisen" Mono="False" />
+  <!-- 追え　ヨリヒメすみやかに奴の息の根を止めるんだ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage13Dialogue3FaceReisen" Value="追え　ヨリヒメ,すみやかに奴の息の根を,止めるんだ" Face="Reisen" Mono="False" />
+  <!-- イエス・マム -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage13Dialogue4FaceYorihime" Value="イエス・マム" Face="Yorihime" Mono="False" />
+  <!-- ちょっと！待ちなさいよ！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage15Dialogue1FaceShanghai" Value="ちょっと！,待ちなさいよ！" Face="Shanghai" Mono="False" />
+  <!-- 切り込み役はあたしたちじゃなかったの！？ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage15Dialogue2FaceShanghai" Value="切り込み役はあたしたちじゃ,なかったの！？" Face="Shanghai" Mono="False" />
+  <!-- アリス　お前たちは最後の切り札だ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage15Dialogue3FaceReisen" Value="アリス　お前たちは,最後の切り札だ" Face="Reisen" Mono="False" />
+  <!-- ここで消耗するのは私達が先でいい -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage15Dialogue4FaceReisen" Value="ここで消耗するのは,私達が先でいい" Face="Reisen" Mono="False" />
+  <!-- 鈴仙････ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage15Dialogue5FaceAlice" Value="鈴仙････" Face="Alice" Mono="False" />
+  <!-- 奥でヨリヒメが戦ってる････！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue1FaceShanghai" Value="奥でヨリヒメが,戦ってる････！" Face="Shanghai" Mono="False" />
+  <!-- 放っておけないわ！シャンハイ　急いで追うのよ！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue2FaceAlice" Value="放っておけないわ！,シャンハイ　急いで追うのよ！" Face="Alice" Mono="False" />
+  <!-- もち！ -->
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue3FaceShanghai" Value="もち！" Face="Shanghai" Mono="False" />
+  <!-- 本バージョンの更新はここまでとなります -->
+  <Dialogue Key="Map.ROMnet4AnnouncementSpriteStage1Dialogue1FaceSprite" Value="本バージョンの更新は,ここまでとなります" Face="Sprite" Mono="False" />
+  <!-- 続きはアップデートをお待ち下さい -->
+  <Dialogue Key="Map.ROMnet4AnnouncementSpriteStage1Dialogue2FaceSprite" Value="続きはアップデートを,お待ち下さい" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue1FaceYorihime" Value="ぐっ････," Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue2FaceDruidMan" Value="ほう････通常のネットナビが,私にここまでの傷を,負わせるとはな････" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue3FaceDruidMan" Value="だが　貴様はもう限界だ,時間稼ぎも充分,そろそろ消えてもらおう" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue4FaceShanghai" Value="ちょっと待ったー！,あたしの存在を忘れてんじゃ,ないわよこのアホ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue5FaceDruidMan" Value="来たか　シャンハイ" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue6FaceShanghai" Value="ヨリヒメとあれだけの,死闘をやって　まだ,ピンピンしてるなんて････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue7FaceDruidMan" Value="貴様にならこの私の,パワーの源を,感じ取れるであろう" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue8FaceDruidMan" Value="同じダークチップを,扱う者同士　な" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue9FaceShanghai" Value="あんたの邪悪な気は,無数のダークチップによる,ものってわけね････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue10FaceDruidMan" Value="先の戦いで消耗した,今の私の状態ならば････" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue11FaceDruidMan" Value="貴様でも対等に,戦うことができるだろう" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue12FaceShanghai" Value="へっ････それを,負けた言い訳に,するんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue13FaceAlice" Value="鈴仙　ドルイドマンは,私達で倒す！,だから････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue14FaceReisen" Value="････ヨリヒメ,プラグアウト" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue1FaceDruidMan" Value="我が暗黒の力で,貴様を葬ってやろう" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue2FaceShanghai" Value="そっちが暗黒なら,こっちは大悪党よ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue3FaceAlice" Value="（前に言われたこと,　気にしてたんだ････）" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue4FaceShanghai" Value="いくわよ　アリス！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue5FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue7FaceDruidMan" Value="恐 れ る が い い,私 の 闇 の 力 を !!" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue6FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage3Dialogue1FaceDruidMan" Value="フハハハハ････" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage3Dialogue2FaceDruidMan" Value="もう遅い････,ビヨンダードへの扉は開かれる！" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage4Dialogue1FaceAlice" Value="シャンハイ！！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage3Dialogue3FaceDruidMan" Value="フハハハハ････,フハハハハ！！！" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue1FaceShanghai" Value="あたしは大丈夫････,ヨリヒメは････？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue2FaceReisen" Value="ダメージ率８０％オーバー････,戦闘不能だ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue3FaceReisen" Value="これ以上協力を,することは不可能だな････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue4FaceYorihime" Value="面目ありません" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue5FaceShanghai" Value="ドルイドマンを倒す,きっかけになってくれたから,御の字よ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue6FaceShanghai" Value="アリス　朝倉先生を,追うのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue7FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+</data>

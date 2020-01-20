@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="" Value="" />
+  <Dialogue Key="Debug.UnimplementedText" Value="FIRST LINE,TEXT NOT IMPLEMENTED,THIRD LINE" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedQuestion" Value="QUESTION LINE 1,QUESTION LINE 2" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedAnswer" Value="OPTION LEFT,OPTION RIGHT" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedNumset" Value="NUMSET QUESTION" Face="Sprite" Mono="False" />
+  <Text Key="Common.Title" Value="Shanghai.EXE" />
+  <Text Key="Startup.LoadGameData" Value="Game Data" />
+  <Text Key="Startup.LoadGraphics" Value="Graphics" />
+  <Text Key="Startup.LoadAudio" Value="Audio" />
+  <Text Key="Startup.LoadDevice" Value="Device" />
+  <Text Key="Startup.LoadSave" Value="Savegame" />
+  <Dialogue Key="ChipTrader.RareChipStopDialogue1" Value="Stop!,That’s rare!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="ChipTrader.ConfirmQuestion" Value="Are you sure?" Face="Shanghai" Mono="False" />
+  <Text Key="ChipTrader.ConfirmOptions" Value="Yes,No" />
+  <Dialogue Key="ChipTrader.TradeDialogue1" Value="#u@#Saving...." Face="None" Mono="False" />
+  <Dialogue Key="ChipTrader.TradeDialogue2" Value="Save complete!" Face="None" Mono="False" />
+  <Dialogue Key="ChipTrader.TradeDialogue3" Value="Here it goes!,Kachunk kachunk....,Thunk!" Face="None" Mono="False" />
+  <Text Key="ChipTrader.ResultRecipientShanghai" Value="Shanghai" />
+  <Text Key="ChipTrader.ResultRecipientAlice" Value="Alice" />
+  <Dialogue Key="ChipTrader.ResultDialogue1Format" Value="　　　　　　{0} got:,　　　　　　”{1}　{2} ” !,　　　　　　" Face="None" Mono="False" />
+  <Text Key="ChipTrader.NameToData" Value="Bag" />
+  <Text Key="ChipTrader.ChipNumberPrefix" Value=" x" />
+  <Text Key="ChipTrader.ChipNumberSuffix" Value="" />
+  <Dialogue Key="Interior.DiscardQuestion" Value="Do you really want to,discard this Interior?" Face="Shanghai" Mono="False" />
+  <Text Key="Interior.DiscardOptions" Value="Yes,No" />
+  <Text Key="Interior.Place" Value="Place" />
+  <Text Key="Interior.Store" Value="Store" />
+  <Text Key="Interior.Sort" Value="Sort" />
+  <Text Key="Interior.Discard" Value="Discard" />
+  <Text Key="Interior.Item1" Value="FamilyTable" />
+  <Text Key="Interior.Item2" Value="PinkShelf" />
+  <Text Key="Interior.Item3" Value="ComputerDesk" />
+  <Text Key="Interior.Item4" Value="PinkBed" />
+  <Text Key="Interior.Item5" Value="GrayBed" />
+  <Text Key="Interior.Item6" Value="WideScreenPC" />
+  <Text Key="Interior.Item7" Value="RoyalCounter" />
+  <Text Key="Interior.Item8" Value="PipeRack" />
+  <Text Key="Interior.Item9" Value="NormalPlant" />
+  <Text Key="Interior.Item10" Value="PottedBouquet" />
+  <Text Key="Interior.Item11" Value="SmallPlant" />
+  <Text Key="Interior.Item12" Value="GreenData" />
+  <Text Key="Interior.Item13" Value="BlueData" />
+  <Text Key="Interior.Item14" Value="PurpleData" />
+  <Text Key="Interior.Item15" Value="P-Cube" />
+  <Text Key="Interior.Item16" Value="ShopTable" />
+  <Text Key="Interior.Item17" Value="RequestBoard" />
+  <Text Key="Interior.Item18" Value="BigTree" />
+  <Text Key="Interior.Item19" Value="SmallTree" />
+  <!-- 花咲き街路樹 -->
+  <Text Key="Interior.Item20" Value="StreetTree" />
+  <Text Key="Interior.Item21" Value="ParkBench" />
+  <Text Key="Interior.Item22" Value="TeacherDesk" />
+  <Text Key="Interior.Item23" Value="StudentDesk" />
+  <Text Key="Interior.Item24" Value="GlassTable" />
+  <Text Key="Interior.Item25" Value="BattleMachine" />
+  <Text Key="Interior.Item26" Value="RestBench" />
+  <Text Key="Interior.Item27" Value="SubChipVendr" />
+  <Text Key="Interior.Item28" Value="OfficeDesk" />
+  <Text Key="Interior.Item29" Value="AirPurifier" />
+  <!-- フォルダスクリーン -->
+  <Text Key="Interior.Item30" Value="FoldingScreen" />
+  <Text Key="Interior.Item31" Value="FlatScreenTV" />
+  <Text Key="Interior.Item32" Value="EvilEyeSofa" />
+  <Text Key="Interior.Item33" Value="Futon" />
+  <Text Key="Interior.Item34" Value="FlowerTank" />
+  <Text Key="Interior.Item35" Value="Chandelier" />
+  <Text Key="Interior.Item36" Value="G7-Curtis" />
+  <Text Key="Interior.Item37" Value="RoyalBed" />
+  <Text Key="Interior.Item38" Value="WhiteWall" />
+  <Text Key="Interior.Item39" Value="GlassWall" />
+  <!-- 丸テーブル -->
+  <Text Key="Interior.Item40" Value="RoundTable" />
+  <!-- スイーツテーブル -->
+  <Text Key="Interior.Item41" Value="SuitesTable" />
+  <!-- ワインテーブル -->
+  <Text Key="Interior.Item42" Value="WineTable" />
+  <!-- 花瓶テーブル -->
+  <Text Key="Interior.Item43" Value="VaseTable" />
+  <!-- グルメテーブル -->
+  <Text Key="Interior.Item44" Value="GourmetTable" />
+  <!-- 高級ソファ -->
+  <Text Key="Interior.Item45" Value="HighClassSofa" />
+  <!-- インゲレス街路樹 -->
+  <Text Key="Interior.Item46" Value="InglesStreetTree" />
+  <!-- 名探偵の像 -->
+  <Text Key="Interior.Item47" Value="DetectiveStatue" />
+  <!-- バス停 -->
+  <Text Key="Interior.Item48" Value="BusStation" />
+  <!-- ねこどるぐるみ -->
+  <Text Key="Interior.Item49" Value="NekoDolls" />
+  <!-- ダンボール -->
+  <Text Key="Interior.Item50" Value="Cardboard" />
+  <!-- 二段ダンボール -->
+  <Text Key="Interior.Item51" Value="FancyCardboard" />
+  <Text Key="NumberSet.SetNumberFormat" Value="{0},,(Up，Down changes number)" />
+  <Text Key="MysteryItem.BattleChipText" Value="Battle Chip" />
+  <Text Key="MysteryItem.SubChipText" Value="Sub Chip" />
+  <Text Key="MysteryItem.AddText" Value="Addon" />
+  <Text Key="MysteryItem.BattleChipPhrase" Value="a Battle Chip" />
+  <Text Key="MysteryItem.SubChipPhrase" Value="a Sub Chip" />
+  <Text Key="MysteryItem.AddonPhrase" Value="an AddOn" />
+  <Dialogue Key="MysteryData.GetItemDialogue1Format" Value="Shanghai got {0}:,” {1} ” !," Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHPMemoryDialogue1" Value="Shanghai’s Max HP increased,by 20!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetRegUpDialogue1Format" Value="Regular Memory increased,by {0} MB!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetSubMemoryDialogue1" Value="Sub Chip capacity,increased by 1!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCorePlusDialogue1" Value="The number of Cores in,the AddOn Manager,increased by 1!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHertzUpDialogue1Format" Value="The number of Hertz in,the AddOn Manager,increased by {0}!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCannotCarryDialogue1Format" Value="Shanghai can’t carry,any more {0}....," Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetEncounterDialogue1" Value="Wha!?,The mystery data was a virus!" Face="None" Mono="False" />
+  <Text Key="MysteryData.HalfEnrgText" Value="HalfEnrg" />
+  <Text Key="MysteryData.FullEnrgText" Value="FullEnrg" />
+  <Text Key="MysteryData.FirewallText" Value="Firewall" />
+  <Text Key="MysteryData.OpenPortText" Value="OpenPort" />
+  <Text Key="MysteryData.Anti-VrsText" Value="Anti-Vrs" />
+  <Text Key="MysteryData.VirusScnText" Value="VirusScn" />
+  <Text Key="MysteryData.CrakToolText" Value="CrakTool" />
+  <Text Key="MysteryData.HPMemoryText" Value="HPMemory" />
+  <Text Key="MysteryData.RegUpText" Value="RegUp {0}" />
+  <Text Key="MysteryData.SubMemoryText" Value="SubMemory" />
+  <Text Key="MysteryData.CorePlusText" Value="CorePlus" />
+  <Text Key="MysteryData.HertzUpText" Value="HertzUp {0}" />
+  <Text Key="MysteryData.BugFragTextPlural" Value="{0} BugFrags" />
+  <Text Key="MysteryData.BugFragText" Value="{0} BugFrag" />
+  <Text Key="MysteryData.FreezeFragTextPlural" Value="{0} FreezeFrags" />
+  <Text Key="MysteryData.FreezeFragText" Value="{0} FreezeFrag" />
+  <Text Key="MysteryData.ErrorFragTextPlural" Value="{0} ErrorFrags" />
+  <Text Key="MysteryData.ErrorFragText" Value="{0} ErrorFrag" />
+  <Text Key="MysteryData.ZennyText" Value="{0} Zenny" />
+  <Text Key="Request.DataDeliveryName" Value="Data Delivery" />
+  <Text Key="Request.CreepyNaviName" Value="Creepy Navi" />
+  <Text Key="Request.IceCrystalsName" Value="Ice Crystals" />
+  <Text Key="Request.SparringPartnerName" Value="Sparring Partner" />
+  <Text Key="Request.NeedBugFragsName" Value="Need Bug Frags" />
+  <Text Key="Request.Stalker!Help!Name" Value="Stalker! Help!" />
+  <Text Key="Request.PleaseHelp!Name" Value="Please Help!" />
+  <Text Key="Request.PunishAdminName" Value="Punish Admin" />
+  <Text Key="Request.CheapChips!Name" Value="Cheap Chips!" />
+  <Text Key="Request.MotionActing!Name" Value="Motion Acting!" />
+  <Text Key="Request.UrgentGift!Name" Value="Urgent Gift!" />
+  <Text Key="Request.BirthdayGiftName" Value="Birthday Gift" />
+  <Text Key="Request.RehabName" Value="Rehab" />
+  <Text Key="Request.BecomingANaviName" Value="Becoming a Navi" />
+  <Text Key="Request.SisterBouquetName" Value="Sister Bouquet" />
+  <Text Key="Request.TalkPhilosophyName" Value="Talk Philosophy" />
+  <Text Key="Request.ToBePresidentName" Value="To Be President" />
+  <Dialogue Key="Request.RequestComplete" Value="★Client’s Appreciation★" Face="None" Mono="False" />
+  <Dialogue Key="Request.AcceptRequestQuestion" Value="Take this request?" Face="None" Mono="False" />
+  <Text Key="Request.AcceptRequestOptions" Value="Yes,No" />
+  <Dialogue Key="Request.RequestInProgressDialogue1" Value="You’re already working,on this request." Face="None" Mono="False" />
+  <Dialogue Key="Request.RequestAlreadyTakenDialogue1" Value="You can’t have two,requests at once." Face="None" Mono="False" />
+  <Dialogue Key="Request.RequestAlreadyTakenDialogue2" Value="Please finish the,current request before,taking another." Face="None" Mono="False" />
+  <Text Key="Shop.Assistant1Line1" Value="Anything interest you?" />
+  <Text Key="Shop.Assistant2Line1" Value="What looks good?" />
+  <Text Key="Shop.Assistant3Line1" Value="We doing business?" />
+  <Text Key="Shop.Assistant4Line1" Value="What do you want?" />
+  <Text Key="Shop.AssistantLine2" Value="(R: Explanation)" />
+  <Text Key="Shop.AssistantLine3" Value="(B: Leave)" />
+  <Text Key="Shop.Assistant1OutOfStockDialogue1" Value="Sorry.,That item’s out of stock." />
+  <Text Key="Shop.Assistant2OutOfStockDialogue1" Value="We’re all sold out of that.,Sorry for the inconvenience." />
+  <Text Key="Shop.Assistant3OutOfStockDialogue1" Value="I’m sorry，but we’re all out,of that." />
+  <Text Key="Shop.Assistant4OutOfStockDialogue1" Value="Great.,We don’t have any more." />
+  <Text Key="Shop.HPMemory" Value="HPMemory" />
+  <Text Key="Shop.HPMemoryDescriptionDialogue1" Value="A memory expansion that,increases a Navi’s HP by 20." />
+  <Text Key="Shop.Billionaire" Value="Billions" />
+  <Text Key="Shop.ZennyOptions" Value="Buy,Don’t" />
+  <Text Key="Shop.OtherOptions" Value="Yes,No" />
+  <Text Key="Shop.Assistant1ZennyDialogue1QuestionFormat" Value="Oh，a “ {0}{1} ” ?,That’ll be {2}Z." />
+  <Text Key="Shop.Assistant1OtherDialogue1QuestionFormat" Value="”{0}{1} ” ?" />
+  <Text Key="Shop.Assistant2ZennyDialogue1QuestionFormat" Value="You want a “ {0}{1} ” ?,{2}Z，please." />
+  <Text Key="Shop.Assistant2OtherDialogue1QuestionFormat" Value="”{0}{1} ” ?" />
+  <Text Key="Shop.Assistant3ZennyDialogue1QuestionFormat" Value="“ {0}{1} ”，huh?,{2}Z." />
+  <Text Key="Shop.Assistant3OtherDialogue1QuestionFormat" Value="”{0}{1} ” ?" />
+  <Text Key="Shop.Assistant4ZennyDialogue1QuestionFormat" Value="Mm，“ {0}{1} ” ?,{2}Z，want it?" />
+  <Text Key="Shop.Assistant4OtherDialogue1QuestionFormat" Value="”{0}{1} ” ?" />
+  <Text Key="Shop.Assistant1BoughtDialogue1" Value="Thank you for your purchase!" />
+  <Text Key="Shop.Assistant2BoughtDialogue1" Value="Any time!" />
+  <Text Key="Shop.Assistant3BoughtDialogue1" Value="Thank you，come again!" />
+  <Text Key="Shop.Assistant4BoughtDialogue1" Value="That it for ya?" />
+  <Dialogue Key="Shop.InventoryFullDialogue1" Value="Huh?,I can’t carry any more of those." Face="Shanghai" Mono="False" />
+  <Text Key="Shop.InsufficientZennyDialogue1" Value="Wait，you don’t have,enough money!,Poor people disgust me!" />
+  <Text Key="Shop.InsufficientOtherDialogue1" Value="Not enough missing,pieces..." />
+  <Text Key="Shop.Assistant1CancelledDialogue1" Value="What a shame...." />
+  <Text Key="Shop.Assistant2CancelledDialogue1" Value="Tch...." />
+  <Text Key="Shop.Assistant3CancelledDialogue1" Value="Really?" />
+  <Text Key="Shop.Assistant4CancelledDialogue1" Value="Pick something else then." />
+  <Text Key="Shop.Assistant1SellQuestionFormat" Value=" “ {0}{1} ”，is it?,That would go for {2}Z" />
+  <Text Key="Shop.Assistant2SellQuestionFormat" Value="A “ {0}{1} ”?,I’m thinking {2}Z?" />
+  <Text Key="Shop.Assistant3SellQuestionFormat" Value=" “ {0}{1} ”....,{2}Z?" />
+  <Text Key="Shop.Assistant4SellQuestionFormat" Value=" “ {0}{1} ”，huh?,I’ll give you {2}Z" />
+  <Text Key="Shop.Assistant1Sold" Value="Pleasure doing business." />
+  <Text Key="Shop.Assistant2Sold" Value="Thanks!" />
+  <Text Key="Shop.Assistant3Sold" Value="Thank you!" />
+  <Text Key="Shop.Assistant4Sold" Value="Good stuff." />
+  <Dialogue Key="Player.JackOutQuestion" Value="Ready to jack out，Shanghai?" Face="Alice" Mono="False" />
+  <Text Key="Player.JackOutOptions" Value="Yes,No" />
+  <Dialogue Key="Player.JackOutYesResponse" Value="OK! Got it!" Face="Alice" Mono="False" />
+  <Dialogue Key="Player.JackOutFailedDialogue1" Value="We can’t jack out,right now， Shanghai!" Face="Alice" Mono="False" />
+  <Dialogue Key="Player.FirewallFadeDialogue1" Value="Looks like Firewall has,worn off...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Player.OpenPortFadeDialogue1" Value="Looks like OpenPort has,worn off...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Player.VirusScnFadeDialogue1" Value="Looks like VirusScn has,worn off...." Face="Shanghai" Mono="False" />
+  <Text Key="MysteryItem.OpenDialogue1" Value="Shanghai accessed the,mystery data...." />
+  <Text Key="MysteryItem.LockedDialogue1" Value="The mystery data is locked,and can’t be opened.," />
+  <Text Key="MysteryItem.LockFailedDialogue1" Value="A “CrackTool” Sub Chip,is needed to open it.," />
+  <Text Key="MysteryItem.LockOpenedDialogue1" Value="Shanghai accessed the,mystery data...." />
+  <Dialogue Key="AddOnManager.ExitQuestion" Value="Exit the AddOn Manager,without hitting RUN?" Face="Shanghai" Mono="False" />
+  <Text Key="AddOnManager.ExitOptions" Value="Yes,No" />
+  <Text Key="AddOnManager.Cores" Value="Cores" />
+  <Text Key="AddOnManager.Hertz" Value="Hertz" />
+  <Text Key="AddOnManager.ABC" Value="ABC" />
+  <Text Key="AddOnManager.Color" Value="Color" />
+  <Text Key="AddOnManager.Equip" Value="Equip" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue1" Value="This is the AddOn Manager,screen." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue2" Value="Here，you can apply,AddOns to your Navi." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue3" Value="Will it hurt?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue4" Value="Not at all. It’s no more painful,than using a Sub Chip.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue5" Value="Now I’ll explain how to install,AddOns. There are a few rules,to keep in mind." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue6" Value="Look over here." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue1" Value="These are the CPU specs.,They limit what you can install.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue2" Value="You can’t install more than,the CPU can handle.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue3" Value="The CPU has two parts:,”Hertz” and ”Cores”.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue4" Value="Here，you can see how much,an AddOn burdens the CPU.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue1" Value="You can also see that here.,Hertz are on the left，and,Cores are on the right." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue2" Value="To install an AddOn，simply,highlight the one you want,and press A." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue3" Value="Next，there are some things,I’d like to warn you about." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue4" Value="You can’t install any AddOns,that exceed the CPUs specs.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue5" Value="Also，colored AddOns have,a special rule.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue6" Value="You can’t install two AddOns,with the same color." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue7" Value="So the colorless BusterPower,and BusterRapid AddOns we,have can both be installed." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue8" Value="But the blue Custom+ AddOn,can’t be installed with another,blue AddOn." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue9" Value="You can check the bottom of,the screen to see what Core,colors are in use." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue1" Value="So I can’t exceed the,CPU’s specs...." Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue2" Value="And I can’t install two AddOns,with the same color." Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue3" Value="Correct. Be sure to keep,those rules in mind." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue4" Value="If she breaks the rules，,will that cause any bugs?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue5" Value="Oh，don’t worry.,That shouldn’t be possible.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue6" Value="Finally，after choosing your,AddOns，press START to,RUN them." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue7" Value="AddOns won’t apply until you,RUN the application.," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue8" Value="So after choosing my,AddOns，I have to RUN,them by pressing START." Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue9" Value="That’s right.,Your changes won’t apply,if you forget to RUN." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue10" Value="Also，you don’t have to RUN,if you decide not to change,any AddOns." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue11" Value="Now，with all that said，,try installing some AddOns." Face="DrMorichika" Mono="False" />
+  <Text Key="DataList.Standard" Value="Standard" />
+  <Text Key="DataList.Navi" Value="Navi" />
+  <Text Key="DataList.Dark" Value="Dark" />
+  <Text Key="DataList.PAdvance" Value="PAdvance" />
+  <Text Key="FolderEdit.BagName" Value="Bag" />
+  <Text Key="FolderEdit.Folder1" Value="Folder１" />
+  <Text Key="FolderEdit.Folder2" Value="Folder２" />
+  <Text Key="FolderEdit.ID" Value="ID" />
+  <Text Key="FolderEdit.ABC" Value="ABC" />
+  <Text Key="FolderEdit.Code" Value="Code" />
+  <Text Key="FolderEdit.Power" Value="Power" />
+  <Text Key="FolderEdit.Element" Value="Element" />
+  <Text Key="FolderEdit.Quantity" Value="Quantity" />
+  <Text Key="FolderEdit.MB" Value="MB" />
+  <Text Key="FolderEdit.FolderSizeDialogue1" Value="You need to put,exactly 30 chips,in the folder!" />
+  <Text Key="FolderEdit.FolderSizeSpecialDialogue1" Value="You need to put,exactly 30 chips,in the folder." />
+  <Text Key="FolderEdit.Memory0-19LimitDialogue1Format" Value="You can only have,{0} of each 0-19 MB,chip in your folder!" />
+  <Text Key="FolderEdit.Memory0-19LimitSpecialDialogue1Format" Value="You can only have,{0} of each 0-19 MB,chip in your folder." />
+  <Text Key="FolderEdit.Memory20-29LimitDialogue1Format" Value="You can only have,{0} of each 20-29 MB,chip in your folder!" />
+  <Text Key="FolderEdit.Memory20-29LimitSpecialDialogue1Format" Value="You can only have,{0} of each 20-29 MB,chip in your folder." />
+  <Text Key="FolderEdit.Memory30-39LimitDialogue1Format" Value="You can only have,{0} of each 30-39 MB,chip in your folder!" />
+  <Text Key="FolderEdit.Memory30-39LimitSpecialDialogue1Format" Value="You can only have,{0} of each 30-39 MB,chip in your folder." />
+  <Text Key="FolderEdit.Memory40-49LimitDialogue1Format" Value="You can only have,{0} of each 40-49 MB,chip in your folder!" />
+  <Text Key="FolderEdit.Memory40-49LimitSpecialDialogue1Format" Value="You can only have,{0} of each 40-49 MB,chip in your folder." />
+  <Text Key="FolderEdit.Memory50+LimitDialogue1Format" Value="You can only have,{0} of each 50+ MB,chip in your folder!" />
+  <Text Key="FolderEdit.Memory50+LimitSpecialDialogue1Format" Value="You can only have,{0} of each 50+ MB,chip in your folder." />
+  <Text Key="FolderEdit.NaviLimitDialogue1Format" Value="Did you forget that you,can only have {0} Navi,Chips in your folder?" />
+  <Text Key="FolderEdit.NaviLimitSpecialDialogue1Format" Value="You can only,have {0} of each,Navi Chip." />
+  <Text Key="FolderEdit.DarkChipLimitDialogue1Format" Value="You can only have {0},Dark Chip per folder!,You tryin’ to kill me!?" />
+  <Text Key="FolderEdit.DarkChipLimitSpecialDialogue1Format" Value="You can only have {0},Dark Chip per folder!," />
+  <Text Key="FolderEdit.RegChipMemoryLimitDialogue1" Value="Unfortunately，you,don’t have enough,Regular Memory!" />
+  <Text Key="FolderEdit.RegChipMemoryLimitSpecialDialogue1" Value="Unfortunately，you,don’t have enough,Regular Memory." />
+  <Text Key="FolderEdit.ClearFolderDialogue1" Value="Do you want to,empty the folder?,A Yes / B No" />
+  <Text Key="FolderEdit.ClearFolderSpecialDialogue1" Value="Do you want to,empty the folder?,A Yes / B No" />
+  <Text Key="Special.ExtraFolder" Value="XtraFldr" />
+  <Text Key="Special.N1Folder" Value="N1Folder" />
+  <Text Key="Special.SeirenFolder" Value="SrnFldr" />
+  <Text Key="Special.AkinFolder" Value="AkinFldr" />
+  <Text Key="Special.MeijiFolder" Value="MejiFldr" />
+  <Text Key="FolderSelect.Folder1" Value="Folder１" />
+  <Text Key="FolderSelect.Folder2" Value="Folder２" />
+  <Text Key="FolderSelect.EditFolder" Value="Edit Folder" />
+  <Text Key="FolderSelect.EquipFolder" Value="Equip Folder" />
+  <Text Key="Mail.MailReadTextDialogue1" Value="Which mail do you want,to read?" />
+  <Dialogue Key="NameEdit.NameFailureDialogue1" Value="You need to set a,name before starting,communication!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="NameEdit.NameInvalidDialogue1" Value="Please enter at least,one character!," Face="Shanghai" Mono="False" />
+  <Text Key="Navi.Buster" Value="Buster" />
+  <Text Key="Navi.Power" Value="Power:" />
+  <Text Key="Navi.Rapid" Value="Rapid:" />
+  <Text Key="Navi.Charge" Value="Chrge:" />
+  <Text Key="Navi.AddOn" Value="AddOn" />
+  <Text Key="Navi.NoAddOns" Value="　None" />
+  <Text Key="Navi.StatusMessage" Value="This is my status!" />
+  <Text Key="Navi.AddOnManager" Value="　AddOn Manager" />
+  <Text Key="Navi.ChangeStyle" Value="　Change Style" />
+  <Dialogue Key="NetWork.IntroDialogue1" Value="Welcome to Network Mode!,I，Ms. Famous，will be your,guide through this mode." Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.ConnectionFailureDialogue1" Value="The connection’s gone....,Did something happen?" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleVictoryDialogue1" Value="You win!,Nice operating!" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleDefeatDialogue1" Value="You lost....,This won’t happen next,time!" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleDrawDialogue1" Value="Next time won’t be,a draw. It’s time to,win!" Face="MsFamous" Mono="False" />
+  <Text Key="NetWork.ClientDialogue1" Value="The client machine sends,information to the host!" />
+  <Text Key="NetWork.BGMChange" Value="(L/R: Change BGM)" />
+  <Text Key="NetWork.ConnectToHostDialogue1" Value="I will connect to,the host’s IP!" />
+  <Text Key="NetWork.PreviousConnectionDialogue1" Value="Choose a connection,from previous partners！" />
+  <Text Key="NetWork.ChangeNameDialogue1" Value="Change your name,for communication!" />
+  <Text Key="NetWork.FaceChange" Value="(L/R: Change Face)" />
+  <Text Key="NetWork.EmptyStageDialogue1" Value="Battle each other on,an empty stage!" />
+  <Text Key="NetWork.VariedStageDialogue1" Value="Battle each other on,a varied stage!" />
+  <Text Key="NetWork.WaitForConnectionDialogue1" Value="Awaiting communication....,Have your opponent enter,your IP address!" />
+  <Text Key="NetWork.WaitingToConnectDialogue1" Value="Waiting to connect....,If connection fails，make,sure your partner is host!" />
+  <Text Key="NetWork.BattleStartDialogue1" Value="Preparations complete!,Battle routine! Set!,Execute!" />
+  <Text Key="Save.PlayTime" Value="Play Time" />
+  <Text Key="Save.Library" Value="Library" />
+  <Text Key="Save.Chips" Value="Chips" />
+  <Text Key="Save.ChipCountFormat" Value="{0}" />
+  <Text Key="Save.Money" Value="Money" />
+  <Text Key="Save.BillionaireMoney" Value="Billions" />
+  <Text Key="Save.SaveQuestion" Value="Save?" />
+  <Text Key="Save.SaveQuestionSpecial" Value="Time to save?" />
+  <Text Key="Save.OverwriteQuestion" Value="Overwrite your last save file?" />
+  <Text Key="Save.OverwriteQuestionSpecial" Value="Should I overwrite the file?" />
+  <Text Key="Save.SaveInProgress" Value="Saving......" />
+  <Text Key="Save.SaveInProgressSpecial" Value="Saving......" />
+  <Text Key="Save.SaveComplete" Value="Save complete!" />
+  <Text Key="Save.SaveCompleteSpecial" Value="Saved!" />
+  <Text Key="Save.Options" Value="Yes,No" />
+  <Text Key="Shop.ZennyFormat" Value="{0}" />
+  <Text Key="Style.StyleNormal" Value="Normal" />
+  <Text Key="Style.StyleFght" Value="Fght" />
+  <Text Key="Style.StyleNinj" Value="Ninj" />
+  <Text Key="Style.StyleDoc" Value="Doc" />
+  <Text Key="Style.StyleGaia" Value="Gaia" />
+  <Text Key="Style.StyleWing" Value="Wing" />
+  <Text Key="Style.StyleWtch" Value="Wtch" />
+  <Text Key="Style.ElemNormal" Value="Normal" />
+  <Text Key="Style.ElemHeat" Value="Heat" />
+  <Text Key="Style.ElemAqua" Value="Aqua" />
+  <Text Key="Style.ElemElec" Value="Elec" />
+  <Text Key="Style.ElemLeaf" Value="Leaf" />
+  <Text Key="Style.ElemPois" Value="Pois" />
+  <Text Key="Style.ElemErth" Value="Erth" />
+  <Dialogue Key="SubChip.InvalidRealWorldDialogue1" Value="Sub Chips won’t work in,your smartphone!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidOutOfSubChipsDialogue1" Value="Not even I can use something,I don’t have....," Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidFullHPDialogue1" Value="That won’t do anything,while my HP is full!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidAlreadyInUseDialogue1" Value="I’m already using that!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidNothingToUnlockDialogue1" Value="I don’t see anything I can,unlock near me，do you?," Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.UseQuestion" Value="Are you sure you want,to use one?" Face="Shanghai" Mono="False" />
+  <Text Key="SubChip.UseOptions" Value="Yes,No" />
+  <Text Key="SubChip.HalfEnrgDescDialogue1" Value="Recover half of,your max HP!" />
+  <Text Key="SubChip.FullEnrgDescDialogue1" Value="Recover all of,your HP!" />
+  <Text Key="SubChip.FireWallDescDialogue1" Value="Avoid weak,viruses for a,short time" />
+  <Text Key="SubChip.OpenPortDescDialogue1" Value="Pretend to be,vulnerable and,attract viruses" />
+  <Text Key="SubChip.Anti-VrsDescDialogue1" Value="Destroys viruses,hiding in mystery,data" />
+  <Text Key="SubChip.VirusScnDescDialogue1" Value="Attracts viruses,from the last fight," />
+  <Text Key="SubChip.CrakToolDescDialogue1" Value="Opens locked,mystery data," />
+  <Text Key="SubChip.HalfEnrg" Value="HalfEnrg" />
+  <Text Key="SubChip.FullEnrg" Value="FullEnrg" />
+  <Text Key="SubChip.FireWall" Value="Firewall" />
+  <Text Key="SubChip.OpenPort" Value="OpenPort" />
+  <Text Key="SubChip.Anti-Vrs" Value="Anti-Vrs" />
+  <Text Key="SubChip.VirusScn" Value="VirusScn" />
+  <Text Key="SubChip.CrakTool" Value="CrakTool" />
+  <Text Key="TopMenu.Billionaire" Value="Billions" />
+  <Text Key="TopMenu.FragCountFormat" Value="*{0}" />
+  <Dialogue Key="Virus.FeedFailedDialogue1" Value="Any more food we give the,virus will just go to waste，so,let’s not." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.FeedFailedNoItemsDialogue1" Value="Not even I can use,something I don’t,have...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.DismissDialogue1" Value="Bye bye～ ♪,My servants will take care,of you～!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.FeedQuestion" Value="" Face="Shanghai" Mono="False" />
+  <Text Key="Virus.FeedOptionsFormat" Value="Bug Frag (Ver + 0.05)  x{0},Freeze Frag (HP + 20)  x{1},Error Frag (Power + 5) x{2}" />
+  <Dialogue Key="Virus.DismissQuestion" Value="Send the virus to Storage?" Face="Shanghai" Mono="False" />
+  <Text Key="Virus.DismissOptions" Value="Yes,No" />
+  <Text Key="Virus.IntroductionNoVirusDialogue1" Value="We’re not currently raising,a virus." />
+  <Text Key="Virus.Introduction" Value="This is the virus we’re raising." />
+  <Text Key="Virus.OptionsFormat" Value="　Give food　({0} Remaining),　Deposit virus" />
+  <Text Key="Virus.Power" Value="Pow:" />
+  <Dialogue Key="Bounty.ClaimDialogue1Format" Value="You defeated,{0} !" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.ClaimDialogue2Format" Value="Your bounty is,{0}Z!" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.ClaimDialogue3" Value="We’ll be counting on,you in the future!" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue1Format" Value="Found in:,{0}" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue2Question" Value="Take this mission?" Face="None" Mono="False" />
+  <Text Key="Bounty.AcceptDialogue2Options" Value="Yes,No" />
+  <Text Key="Bounty.Area1" Value="Genso Area 1" />
+  <Text Key="Bounty.Area2" Value="Fridge Comp 2" />
+  <Text Key="Bounty.Area3" Value="City Area 1" />
+  <Text Key="Bounty.Area4" Value="Fire Hydrant Comp" />
+  <Text Key="Bounty.Area5" Value="City Area 3" />
+  <Text Key="Bounty.Area6" Value="City Area 2" />
+  <Text Key="Bounty.Area7" Value="Flower Bed Comp" />
+  <Text Key="Bounty.Area8" Value="Bench Comp" />
+  <Text Key="Bounty.Area9" Value="Air Purifier Comp 1" />
+  <Text Key="Bounty.Area10" Value="Lab NBM Comp" />
+  <Text Key="Bounty.Area11" Value="Vending Machine Comp" />
+  <Text Key="Bounty.Area12" Value="Air Purifier Comp 4" />
+  <Text Key="Bounty.Area13" Value="Eien Area 2" />
+  <Text Key="Bounty.Area14" Value="Lord Usa Statue Comp" />
+  <Text Key="Bounty.Area15" Value="School Comp 2" />
+  <Text Key="Bounty.Area16" Value="Undernet 1" />
+  <Text Key="Bounty.Area17" Value="Eien Area 3" />
+  <Text Key="Bounty.Area18" Value="Motorbike Comp" />
+  <Text Key="Bounty.Area19" Value="Shrine Comp 1" />
+  <Text Key="Bounty.Area20" Value="Car Comp" />
+  <Text Key="Bounty.Area21" Value="Change Machine Comp" />
+  <Text Key="Bounty.Area22" Value="Tank Comp" />
+  <Text Key="Bounty.Area23" Value="Postbox Comp" />
+  <Text Key="Bounty.Area24" Value="Yukkuri Comp" />
+  <Text Key="Bounty.Area25" Value="Engelles Area 1" />
+  <Text Key="Bounty.Area26" Value="Undernet 5" />
+  <Text Key="Bounty.Area27" Value="Detective Comp" />
+  <Text Key="Bounty.Area28" Value="Cake Shop Comp" />
+  <Text Key="Bounty.Area29" Value="Undernet 6" />
+  <Text Key="Bounty.Area30" Value="Hotel HP" />
+  <Text Key="Bounty.Area31" Value="Nekodolphin Comp" />
+  <Text Key="Bounty.Area32" Value="Guest Room TV Comp" />
+  <Text Key="Bounty.Area33" Value="Battleship Model Comp" />
+  <Text Key="Bounty.Area34" Value="Cruise Comp 1" />
+  <Text Key="Bounty.Area35" Value="Sunken Ship Comp 1" />
+  <Text Key="Bounty.Area36" Value="Clocktower Comp 3" />
+  <Text Key="Bounty.Area37" Value="Hospital Comp 1" />
+  <Text Key="Bounty.Area38" Value="Undernet 2" />
+  <Dialogue Key="Navi.InvalidFolderAddonChangeDialogue1" Value="The folder no longer meets,restrictions due AddOn change.,Reverted to preliminary folder!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="VirusManager.UnneededVirusQuestion" Value="I don’t need this virus.,Should I release it?" Face="Sprite" Mono="False" />
+  <Text Key="VirusManager.UnneededVirusOptions" Value="Yes,No" />
+  <Text Key="MysteryData.DefaultContents" Value="RayGun A" />
+  <Text Key="RandomMystery.DefaultContents" Value="RayGun A" />
+  <Text Key="VirusManager.HP" Value="HP :" />
+  <Text Key="VirusManager.Power" Value="Power:" />
+
+  <Dialogue Key="Misc.DemoEndDialogue1" Value="This content is in progress.,Please wait warmly while,development continues." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.DemoEndDialogue2" Value="In the meantime，please visit,Shanghai’s Room for challenge,battles and secret content." Face="Sprite" Mono="False" />
+</data>

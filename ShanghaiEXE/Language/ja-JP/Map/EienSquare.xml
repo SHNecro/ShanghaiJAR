@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　エイエンスクエア -->
+  <Text Key="Map.EienSquareName" Value="インターネット　エイエンスクエア" />
+  <!-- このスクエアは床がウサちゃんの形になってるのよ！チョ〜かわいい！ -->
+  <Dialogue Key="Map.EienSquareChapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="このスクエアは床がウサちゃんの,形になってるのよ！,チョ〜かわいい！" Face="NaviPinkFemale" Mono="False" />
+  <!-- エイエンエリアのどこかから恐ろしいインターネットエリアに行けるらしい････ -->
+  <Dialogue Key="Map.EienSquareChapter3ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="エイエンエリアのどこかから,恐ろしいインターネットエリアに,行けるらしい････" Face="NaviGreenRobot" Mono="False" />
+  <!-- その名もウラインターネットとか････怖いなぁー -->
+  <Dialogue Key="Map.EienSquareChapter3ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="その名も,ウラインターネットとか････,怖いなぁー" Face="NaviGreenRobot" Mono="False" />
+  <!-- おばけのウィルスにペロペロされると目が見えなくなっちゃうの -->
+  <Dialogue Key="Map.EienSquareChapter3ChildNavi1Stage1Dialogue1FaceNaviChild" Value="おばけのウィルスに,ペロペロされると,目が見えなくなっちゃうの" Face="NaviChild" Mono="False" />
+  <!-- しかもちょっとだけ動けなくなるから一気にピンチになっちゃう････ -->
+  <Dialogue Key="Map.EienSquareChapter3ChildNavi1Stage1Dialogue2FaceNaviChild" Value="しかもちょっとだけ,動けなくなるから,一気にピンチになっちゃう････" Face="NaviChild" Mono="False" />
+  <!-- ハーイ！ワタシ　東ヨーリカのインゲレスから来ましたー！ -->
+  <Dialogue Key="Map.EienSquareChapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="ハーイ！,ワタシ　東ヨーリカの,インゲレスから来ましたー！" Face="NaviGreenRobot" Mono="False" />
+  <!-- 日本トッテモ平和でいいとこデスネー！ -->
+  <Dialogue Key="Map.EienSquareChapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="日本トッテモ平和で,いいとこデスネー！" Face="NaviGreenRobot" Mono="False" />
+  <!-- ぬ？おお　昨日の嬢ちゃんじゃないか -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue1FaceNaviOrangeRobot" Value="ぬ？,おお　昨日の嬢ちゃんじゃないか" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 探しものは見つかったかの？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue2FaceNaviOrangeRobot" Value="探しものは見つかったかの？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ああ　その件はありがと今日はまた探しものをしてほしいのよ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue3FaceShanghai" Value="ああ　その件はありがと,今日はまた探しものを,してほしいのよ" Face="Shanghai" Mono="False" />
+  <!-- はっはっは昨日の恩があるし良いじゃろう -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue4FaceNaviOrangeRobot" Value="はっはっは,昨日の恩があるし良いじゃろう" Face="NaviOrangeRobot" Mono="False" />
+  <!-- えっとねウィルスを飼育する方法を探しているのよね -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue5FaceShanghai" Value="えっとね,ウィルスを飼育する方法を,探しているのよね" Face="Shanghai" Mono="False" />
+  <!-- バクゼンとした探しものじゃの -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue6FaceNaviOrangeRobot" Value="バクゼンとした探しものじゃの" Face="NaviOrangeRobot" Mono="False" />
+  <!-- むむむむむ・・・・ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue7FaceNaviOrangeRobot" Value="むむむむむ・・・・" Face="NaviOrangeRobot" Mono="False" />
+  <!-- カーーーーッ！ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue8FaceNaviOrangeRobot" Value="カーーーーッ！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- むむっ！？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue9FaceNaviOrangeRobot" Value="むむっ！？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- どうしたの　爺さん？見つからなかった？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue10FaceShanghai" Value="どうしたの　爺さん？,見つからなかった？" Face="Shanghai" Mono="False" />
+  <!-- いや　ぼんやりと浮かんだがどうやらウラインターネットのようじゃ････ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue11FaceNaviOrangeRobot" Value="いや　ぼんやりと浮かんだが,どうやらウラインターネットの,ようじゃ････" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ウラインターネット？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue12FaceShanghai" Value="ウラインターネット？" Face="Shanghai" Mono="False" />
+  <!-- ウラインターネットとは恐ろしいインターネットエリアなんじゃよ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue13FaceNaviOrangeRobot" Value="ウラインターネットとは恐ろしい,インターネットエリアなんじゃよ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- うかつに行くのは自殺行為かもしれんぞ？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue14FaceNaviOrangeRobot" Value="うかつに行くのは,自殺行為かもしれんぞ？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ウラ････ねえ？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue15FaceShanghai" Value="ウラ････ねえ？" Face="Shanghai" Mono="False" />
+  <!-- まあ　あたしなら大丈夫でしょ爺さん　ありがとねー -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue16FaceShanghai" Value="まあ　あたしなら大丈夫でしょ,爺さん　ありがとねー" Face="Shanghai" Mono="False" />
+  <!-- そ　そうか････ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue17FaceNaviOrangeRobot" Value="そ　そうか････" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ウラインターネットはエイエンエリア３から行けるが気をつけるんじゃぞ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage1Dialogue18FaceNaviOrangeRobot" Value="ウラインターネットは,エイエンエリア３から行けるが,気をつけるんじゃぞ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ウラインターネットはエイエンエリア３から行けるが気をつけるんじゃぞ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage3Dialogue1FaceNaviOrangeRobot" Value="ウラインターネットは,エイエンエリア３から行けるが,気をつけるんじゃぞ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- おお！ごぶさたじゃのう！ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue1FaceNaviOrangeRobot" Value="おお！,ごぶさたじゃのう！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 元気そうね　じいさん -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue2FaceShanghai" Value="元気そうね　じいさん" Face="Shanghai" Mono="False" />
+  <!-- 早速だけど仕事の依頼よ「転生プログラム」を探して欲しいの -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue3FaceShanghai" Value="早速だけど仕事の依頼よ,「転生プログラム」を,探して欲しいの" Face="Shanghai" Mono="False" />
+  <!-- ホッホッホッ！お安い御用じゃ！ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue4FaceNaviOrangeRobot" Value="ホッホッホッ！,お安い御用じゃ！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- むむむむむ・・・・ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue5FaceNaviOrangeRobot" Value="むむむむむ・・・・" Face="NaviOrangeRobot" Mono="False" />
+  <!-- カーーーーッ！ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue6FaceNaviOrangeRobot" Value="カーーーーッ！" Face="NaviOrangeRobot" Mono="False" />
+  <!-- むむっ！？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue7FaceNaviOrangeRobot" Value="むむっ！？" Face="NaviOrangeRobot" Mono="False" />
+  <!-- どうしたの？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue8FaceShanghai" Value="どうしたの？" Face="Shanghai" Mono="False" />
+  <!-- 見つけたには見つけたのじゃが････ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue9FaceNaviOrangeRobot" Value="見つけたには,見つけたのじゃが････" Face="NaviOrangeRobot" Mono="False" />
+  <!-- なんと　その場所は大型輸送船セプテニック号の電脳世界の中なのじゃ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue10FaceNaviOrangeRobot" Value="なんと　その場所は,大型輸送船セプテニック号の,電脳世界の中なのじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ということは乗船券を手に入れないといけないのね -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue11FaceAlice" Value="ということは乗船券を,手に入れないといけないのね" Face="Alice" Mono="False" />
+  <!-- ････待って今セプテニック号って言ったわよね？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue12FaceShanghai" Value="････待って,今セプテニック号って,言ったわよね？" Face="Shanghai" Mono="False" />
+  <!-- それって数年前に謎の事故で沈んだ船じゃなかったっけ？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue13FaceShanghai" Value="それって数年前に謎の事故で,沈んだ船じゃなかったっけ？" Face="Shanghai" Mono="False" />
+  <!-- 沈没船ってこと････？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue14FaceAlice" Value="沈没船ってこと････？" Face="Alice" Mono="False" />
+  <!-- 航海中に船のメインシステムが暴走して沈んだと伝えられる謎の多い船じゃ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue15FaceNaviOrangeRobot" Value="航海中に船のメインシステムが,暴走して沈んだと伝えられる,謎の多い船じゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- アクセスする方法はあるの？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue16FaceShanghai" Value="アクセスする方法はあるの？" Face="Shanghai" Mono="False" />
+  <!-- 最近の客船なら必ずついているサルベージプログラムを使うとよいじゃろう -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue17FaceNaviOrangeRobot" Value="最近の客船なら必ず,ついているサルベージプログラム,を使うとよいじゃろう" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 海底ケーブルの電脳世界や漁礁の電脳にアクセスする装置だっけ？ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue18FaceShanghai" Value="海底ケーブルの電脳世界や,漁礁の電脳にアクセスする,装置だっけ？" Face="Shanghai" Mono="False" />
+  <!-- 船の中でも海が見える場所にあるはずじゃ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue19FaceNaviOrangeRobot" Value="船の中でも海が見える場所に,あるはずじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そのプログラムで座標を求められたらＸ−９８Y−０５と入力するのじゃ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue20FaceNaviOrangeRobot" Value="そのプログラムで座標を,求められたらＸ−９８,Y−０５と入力するのじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- わかったわありがとう！ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue21FaceShanghai" Value="わかったわ,ありがとう！" Face="Shanghai" Mono="False" />
+  <!-- くれぐれも達者でな -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage5Dialogue22FaceNaviOrangeRobot" Value="くれぐれも達者でな" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 最近の客船なら必ずついているサルベージプログラムを使うとよいじゃろう -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage7Dialogue1FaceNaviOrangeRobot" Value="最近の客船なら必ず,ついているサルベージプログラム,を使うとよいじゃろう" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 船の中でも海が見える場所にあるはずじゃ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage7Dialogue2FaceNaviOrangeRobot" Value="船の中でも海が見える場所に,あるはずじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そのプログラムで座標を求められたらＸ−９８Y−０５と入力するのじゃ -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage7Dialogue3FaceNaviOrangeRobot" Value="そのプログラムで座標を,求められたらＸ−９８,Y−０５と入力するのじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <!-- くれぐれも達者でな -->
+  <Dialogue Key="Map.EienSquareChapter3SageOldManStage7Dialogue4FaceNaviOrangeRobot" Value="くれぐれも達者でな" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ボーダーコンツェルン主催Ｎ１リーグのエントリーはこちらで受け付けていまーす！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue1FaceNaviPinkFemale" Value="ボーダーコンツェルン主催,Ｎ１リーグのエントリーは,こちらで受け付けていまーす！" Face="NaviPinkFemale" Mono="False" />
+  <!-- 参加希望の方ですか？ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue2QuestionFaceNaviPinkFemale" Value="参加希望の方ですか？" Face="NaviPinkFemale" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue2Options" Value="はい,いいえ" />
+  <!-- エントリーしたいんだけどいいかしら？ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue3FaceShanghai" Value="エントリーしたいんだけど,いいかしら？" Face="Shanghai" Mono="False" />
+  <!-- はい　大丈夫です！ではこちらにお名前を -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue4FaceNaviPinkFemale" Value="はい　大丈夫です！,ではこちらにお名前を" Face="NaviPinkFemale" Mono="False" />
+  <!-- ・・・・・・・・はいそれで大丈夫です！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue5FaceNaviPinkFemale" Value="・・・・・・・・はい,それで大丈夫です！" Face="NaviPinkFemale" Mono="False" />
+  <!-- それでは間もなく予選が始まりますのであちらの方へどうぞ！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue6FaceNaviPinkFemale" Value="それでは間もなく予選が,始まりますので,あちらの方へどうぞ！" Face="NaviPinkFemale" Mono="False" />
+  <!-- シャンハイちゃん！頑張ろうな！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage3Dialogue1FaceSpannerMan" Value="シャンハイちゃん！,頑張ろうな！" Face="SpannerMan" Mono="False" />
+  <!-- 優勝はあたしがいただくんだからね -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage3Dialogue2FaceShanghai" Value="優勝はあたしが,いただくんだからね" Face="Shanghai" Mono="False" />
+  <!-- えー････コホン -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage5Dialogue1FaceNaviBlueRobot" Value="えー････コホン" Face="NaviBlueRobot" Mono="False" />
+  <!-- これより　Ｎ１リーグの予選を開始いたします -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage5Dialogue2FaceNaviBlueRobot" Value="これより　Ｎ１リーグの,予選を開始いたします" Face="NaviBlueRobot" Mono="False" />
+  <!-- 予選の内容は簡単エイエンエリア内にＮ１リーグのスタッフが４人います -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage5Dialogue3FaceNaviBlueRobot" Value="予選の内容は簡単,エイエンエリア内にＮ１リーグの,スタッフが４人います" Face="NaviBlueRobot" Mono="False" />
+  <!-- そのスタッフとバトルをして全員に勝利すれば予選突破となります -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage5Dialogue4FaceNaviBlueRobot" Value="そのスタッフとバトルをして,全員に勝利すれば,予選突破となります" Face="NaviBlueRobot" Mono="False" />
+  <!-- なお　予選突破者が規定数を満たした時点で予選は終了となります -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage5Dialogue5FaceNaviBlueRobot" Value="なお　予選突破者が,規定数を満たした時点で,予選は終了となります" Face="NaviBlueRobot" Mono="False" />
+  <!-- へー　簡単そうな予選じゃないの -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage7Dialogue1FaceShanghai" Value="へー　簡単そうな予選じゃないの" Face="Shanghai" Mono="False" />
+  <!-- そうね　最近の戦いでバトルチップも充実してるし････ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage7Dialogue2FaceAlice" Value="そうね　最近の戦いで,バトルチップも充実してるし････" Face="Alice" Mono="False" />
+  <!-- ただし　当大会はネットバトラーの技能向上を目的としており -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue1FaceNaviBlueRobot" Value="ただし　当大会は,ネットバトラーの,技能向上を目的としており" Face="NaviBlueRobot" Mono="False" />
+  <!-- そのため予選はこちらで用意したチップフォルダで行ってもらいます -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue2FaceNaviBlueRobot" Value="そのため,予選はこちらで用意した,チップフォルダで行ってもらいます" Face="NaviBlueRobot" Mono="False" />
+  <!-- へ？ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue3FaceShanghai" Value="へ？" Face="Shanghai" Mono="False" />
+  <!-- ガチャ　ガチャン -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue4FaceNone" Value="ガチャ　ガチャン" Face="None" Mono="False" />
+  <!-- ああっ！　チップフォルダが！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue5FaceShanghai" Value="ああっ！　チップフォルダが！" Face="Shanghai" Mono="False" />
+  <!-- ただいま皆様のチップフォルダを「リーグフォルダ」に固定しました -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue6FaceNaviBlueRobot" Value="ただいま,皆様のチップフォルダを,「リーグフォルダ」に固定しました" Face="NaviBlueRobot" Mono="False" />
+  <!-- へっ！　それくらいどうってことないぜ！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage9Dialogue7FaceSpannerMan" Value="へっ！　それくらい,どうってことないぜ！" Face="SpannerMan" Mono="False" />
+  <!-- それでは　予選開始！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage11Dialogue1FaceNaviBlueRobot" Value="それでは　予選開始！" Face="NaviBlueRobot" Mono="False" />
+  <!-- シャンハイ････大丈夫？ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue1FaceAlice" Value="シャンハイ････大丈夫？" Face="Alice" Mono="False" />
+  <!-- なんのこれしき！豪華客船のためならへっちゃらよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue2FaceShanghai" Value="なんのこれしき！,豪華客船のためなら,へっちゃらよ！" Face="Shanghai" Mono="False" />
+  <!-- あはは　頼もしいわね････ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue3FaceAlice" Value="あはは　頼もしいわね････" Face="Alice" Mono="False" />
+  <!-- それじゃあ大会のスタッフを探しに行きましょうか -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue4FaceAlice" Value="それじゃあ大会のスタッフを,探しに行きましょうか" Face="Alice" Mono="False" />
+  <!-- エイエンエリア内に４人いるんだったわよね -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue5FaceShanghai" Value="エイエンエリア内に４人,いるんだったわよね" Face="Shanghai" Mono="False" />
+  <!-- よっし　じゃあパパっと終わらせるわよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue6FaceShanghai" Value="よっし　じゃあ,パパっと終わらせるわよ！" Face="Shanghai" Mono="False" />
+  <!-- エイエンエリアのどこかにいるスタッフ４人とバトルしたらここに戻ってきてください -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage1Dialogue1FaceNaviBlueRobot" Value="エイエンエリアのどこかにいる,スタッフ４人とバトルしたら,ここに戻ってきてください" Face="NaviBlueRobot" Mono="False" />
+  <!-- 勝ったわよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue1FaceShanghai" Value="勝ったわよ！" Face="Shanghai" Mono="False" />
+  <!-- ････はい！シャンハイさん　予選突破おめでとうございます -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue2FaceNaviBlueRobot2" Value="････はい！,シャンハイさん　予選突破,おめでとうございます" Face="NaviBlueRobot2" Mono="False" />
+  <!-- やったわね　シャンハイ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue3FaceAlice" Value="やったわね　シャンハイ！" Face="Alice" Mono="False" />
+  <!-- はん！　当然よ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue4FaceShanghai" Value="はん！　当然よ！" Face="Shanghai" Mono="False" />
+  <!-- おーい！シャンハイちゃーん！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue5FaceSpannerMan" Value="おーい！,シャンハイちゃーん！" Face="SpannerMan" Mono="False" />
+  <!-- あら　その様子だとスパナマンも予選突破したみたいね -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue1FaceShanghai" Value="あら　その様子だとスパナマンも,予選突破したみたいね" Face="Shanghai" Mono="False" />
+  <!-- あたぼうよ！これくらい　ヘでもねえぜ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue2FaceSpannerMan" Value="あたぼうよ！,これくらい　ヘでもねえぜ！" Face="SpannerMan" Mono="False" />
+  <!-- 二人揃って予選突破したんだお互い本戦頑張ろうな！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue3FaceSpannerMan" Value="二人揃って予選突破したんだ,お互い本戦頑張ろうな！" Face="SpannerMan" Mono="False" />
+  <!-- 本戦で相手になったらボコボコにしてあげるから覚悟してなさいよ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue4FaceShanghai" Value="本戦で相手になったら,ボコボコにしてあげるから,覚悟してなさいよ" Face="Shanghai" Mono="False" />
+  <!-- ああ････そうだな････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue5FaceSpannerMan" Value="ああ････そうだな････" Face="SpannerMan" Mono="False" />
+  <!-- ････ん？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue6FaceTsubakiNekku" Value="････ん？" Face="TsubakiNekku" Mono="False" />
+  <!-- スパナマン　そろそろプラグアウトしないと -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue7FaceTsubakiNekku" Value="スパナマン　そろそろ,プラグアウトしないと" Face="TsubakiNekku" Mono="False" />
+  <!-- あら　何か予定でもあるの？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue8FaceAlice" Value="あら　何か予定でもあるの？" Face="Alice" Mono="False" />
+  <!-- 予定ってほどのことじゃないんだがえっと････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue9FaceTsubakiNekku" Value="予定ってほどの,ことじゃないんだが,えっと････" Face="TsubakiNekku" Mono="False" />
+  <!-- 恥ずかしがらずにアニメの放映時間だって白状しちまいなよ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue10FaceSpannerMan" Value="恥ずかしがらずに,アニメの放映時間だって,白状しちまいなよ" Face="SpannerMan" Mono="False" />
+  <!-- アニメって････ネックって案外お子様なのね -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue11FaceShanghai" Value="アニメって････,ネックって案外お子様なのね" Face="Shanghai" Mono="False" />
+  <!-- なんだと！「ウェーブヒーロー」は大人でも感動できる名作なんだぞ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue12FaceTsubakiNekku" Value="なんだと！,「ウェーブヒーロー」は大人でも,感動できる名作なんだぞ！" Face="TsubakiNekku" Mono="False" />
+  <!-- 気の弱い主人公が異世界から来た相棒と一緒に電波世界で戦い････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue13FaceTsubakiNekku" Value="気の弱い主人公が,異世界から来た相棒と,一緒に電波世界で戦い････" Face="TsubakiNekku" Mono="False" />
+  <!-- やがて二人はヒーローへと成長していく感動の物語････！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue14FaceTsubakiNekku" Value="やがて二人は,ヒーローへと成長していく,感動の物語････！" Face="TsubakiNekku" Mono="False" />
+  <!-- っとと　あと５分しかない！アリス　じゃあな！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue15FaceTsubakiNekku" Value="っとと　あと５分しかない！,アリス　じゃあな！" Face="TsubakiNekku" Mono="False" />
+  <!-- じゃあなーシャンハイちゃーん -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue16FaceSpannerMan" Value="じゃあなーシャンハイちゃーん" Face="SpannerMan" Mono="False" />
+  <!-- スパナマン　プラグアウト！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue17FaceTsubakiNekku" Value="スパナマン　プラグアウト！" Face="TsubakiNekku" Mono="False" />
+  <!-- 私達もそろそろプラグアウトしましょうか -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage7Dialogue1FaceAlice" Value="私達もそろそろ,プラグアウトしましょうか" Face="Alice" Mono="False" />
+  <!-- そうねぇ････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage7Dialogue2FaceShanghai" Value="そうねぇ････" Face="Shanghai" Mono="False" />
+  <!-- ん？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage7Dialogue3FaceShanghai" Value="ん？" Face="Shanghai" Mono="False" />
+  <!-- へぇ〜　ここがスクエアなのね！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage9Dialogue1FaceMedicine" Value="へぇ〜　ここがスクエアなのね！" Face="Medicine" Mono="False" />
+  <!-- スクエアに来たことがないなんてスーは変わってるね！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage9Dialogue2FaceYamame" Value="スクエアに来たことがないなんて,スーは変わってるね！" Face="Yamame" Mono="False" />
+  <!-- アリス････あいつ････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage11Dialogue1FaceShanghai" Value="アリス････あいつ････" Face="Shanghai" Mono="False" />
+  <!-- あれって大学の事件の時のＲＯＭのナビよね････？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage11Dialogue2FaceAlice" Value="あれって大学の事件の時の,ＲＯＭのナビよね････？" Face="Alice" Mono="False" />
+  <!-- おい -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue1FaceShanghai" Value="おい" Face="Shanghai" Mono="False" />
+  <!-- ん？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue2FaceMedicine" Value="ん？" Face="Medicine" Mono="False" />
+  <!-- げっ！あんたは････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue3FaceMedicine" Value="げっ！,あんたは････" Face="Medicine" Mono="False" />
+  <!-- あ！　アリスのナビだ！たしかシャンハイだっけ？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue4FaceYamame" Value="あ！　アリスのナビだ！,たしかシャンハイだっけ？" Face="Yamame" Mono="False" />
+  <!-- スーってシャンハイと知り合いだったの？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue5FaceYamame" Value="スーってシャンハイと,知り合いだったの？" Face="Yamame" Mono="False" />
+  <!-- あ　アハハ！そういうものよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue6FaceMedicine" Value="あ　アハハ！,そういうものよ！" Face="Medicine" Mono="False" />
+  <!-- スー？あんたの名前ってメディ････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue7FaceShanghai" Value="スー？,あんたの名前ってメディ････" Face="Shanghai" Mono="False" />
+  <!-- （しーっ！　ヤマメの前で余計なこと　喋らないでよ！） -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue8FaceMedicine" Value="（しーっ！,　ヤマメの前で余計なこと,　喋らないでよ！）" Face="Medicine" Mono="False" />
+  <!-- ヤマメ････って森近博士のところのヤマメさん？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue9FaceAlice" Value="ヤマメ････って,森近博士のところのヤマメさん？" Face="Alice" Mono="False" />
+  <!-- やっほー！元気してるー？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue10FaceYamame" Value="やっほー！,元気してるー？" Face="Yamame" Mono="False" />
+  <!-- ヤ　ヤマメ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue11FaceMedicine" Value="ヤ　ヤマメ！" Face="Medicine" Mono="False" />
+  <!-- 昔の知り合いと積もる話があるからちょっと席外してもらっていい？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue12FaceMedicine" Value="昔の知り合いと,積もる話があるから,ちょっと席外してもらっていい？" Face="Medicine" Mono="False" />
+  <!-- うん　いいよー！終わったら教えてねー -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue13FaceYamame" Value="うん　いいよー！,終わったら教えてねー" Face="Yamame" Mono="False" />
+  <!-- ・・・・ふぅ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue14FaceMedicine" Value="・・・・ふぅ" Face="Medicine" Mono="False" />
+  <!-- なぁーにが　ふぅ　よだぁーれが　昔の知り合いよ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue15FaceShanghai" Value="なぁーにが　ふぅ　よ,だぁーれが　昔の知り合いよ" Face="Shanghai" Mono="False" />
+  <!-- 事件を起こした分際でなにちゃっかりと････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue16FaceShanghai" Value="事件を起こした分際で,なにちゃっかりと････" Face="Shanghai" Mono="False" />
+  <!-- ま　待ってよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue17FaceMedicine" Value="ま　待ってよ！" Face="Medicine" Mono="False" />
+  <!-- こ　これには深ぁーいわけがあってね････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue18FaceMedicine" Value="こ　これには深ぁーいわけが,あってね････" Face="Medicine" Mono="False" />
+  <!-- ････話してみなさいよ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue19FaceShanghai" Value="････話してみなさいよ" Face="Shanghai" Mono="False" />
+  <!-- 私を攻撃しないの？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue20FaceMedicine" Value="私を攻撃しないの？" Face="Medicine" Mono="False" />
+  <!-- つまらない話だったらぶっ飛ばす -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue21FaceShanghai" Value="つまらない話だったら,ぶっ飛ばす" Face="Shanghai" Mono="False" />
+  <!-- ひぃぃ！ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue22FaceMedicine" Value="ひぃぃ！" Face="Medicine" Mono="False" />
+  <!-- こらこら　怖がらせないの -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue23FaceAlice" Value="こらこら　怖がらせないの" Face="Alice" Mono="False" />
+  <!-- 見たところヤマメさんと仲良くしてるみたいだし････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue24FaceAlice" Value="見たところヤマメさんと,仲良くしてるみたいだし････" Face="Alice" Mono="False" />
+  <!-- どうだかねぇＲＯＭのためにとか何か企んでるのかもよ？ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue25FaceShanghai" Value="どうだかねぇ,ＲＯＭのためにとか何か,企んでるのかもよ？" Face="Shanghai" Mono="False" />
+  <!-- そんなんじゃないんだってばー････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue26FaceMedicine" Value="そんなんじゃ,ないんだってばー････" Face="Medicine" Mono="False" />
+  <!-- ええっと・・・・ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue27FaceMedicine" Value="ええっと・・・・" Face="Medicine" Mono="False" />
+  <!-- 空気清浄機の電脳であんたたちに負けたあと私はＲＯＭから追放されてね････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue28FaceMedicine" Value="空気清浄機の電脳で,あんたたちに負けたあと私は,ＲＯＭから追放されてね････" Face="Medicine" Mono="False" />
+  <!-- ネットエージェントから逃れる間に電脳の海に落ちて････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue29FaceMedicine" Value="ネットエージェントから逃れる間に,電脳の海に落ちて････" Face="Medicine" Mono="False" />
+  <!-- 偶然にもヤマメのもとに流れ着いたの････ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue30FaceMedicine" Value="偶然にも,ヤマメのもとに流れ着いたの････" Face="Medicine" Mono="False" />
+  <!-- 予選お疲れ様でした本戦の活躍　期待していますよ -->
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage15Dialogue1FaceNaviBlueRobot" Value="予選お疲れ様でした,本戦の活躍　期待していますよ" Face="NaviBlueRobot" Mono="False" />
+  <!-- ････というわけなのよ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue1FaceMedicine" Value="････というわけなのよ" Face="Medicine" Mono="False" />
+  <!-- ふーん　なるほどねぇ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue2FaceShanghai" Value="ふーん　なるほどねぇ" Face="Shanghai" Mono="False" />
+  <!-- やっぱり私をぶっ飛ばす？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue3FaceMedicine" Value="やっぱり私をぶっ飛ばす？" Face="Medicine" Mono="False" />
+  <!-- バーカ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue4FaceShanghai" Value="バーカ" Face="Shanghai" Mono="False" />
+  <!-- そんなことしたらヤマメが悲しむでしょ？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue5FaceShanghai" Value="そんなことしたら,ヤマメが悲しむでしょ？" Face="Shanghai" Mono="False" />
+  <!-- え････？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue6FaceMedicine" Value="え････？" Face="Medicine" Mono="False" />
+  <!-- 勘違いするんじゃないわよ許したわけじゃないんだからね -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue7FaceShanghai" Value="勘違いするんじゃないわよ,許したわけじゃないんだからね" Face="Shanghai" Mono="False" />
+  <!-- た・だ・し！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue8FaceShanghai" Value="た・だ・し！" Face="Shanghai" Mono="False" />
+  <!-- オペレーターを悲しませるようなことしたら　そんときゃ覚悟しなさいよ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue9FaceShanghai" Value="オペレーターを悲しませるような,ことしたら　そんときゃ,覚悟しなさいよ" Face="Shanghai" Mono="False" />
+  <!-- う････うんわかったわ････ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage1Dialogue10FaceMedicine" Value="う････うん,わかったわ････" Face="Medicine" Mono="False" />
+  <!-- スー　終わった？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage3Dialogue1FaceYamame" Value="スー　終わった？" Face="Yamame" Mono="False" />
+  <!-- あ　うん終わったわよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage3Dialogue2FaceMedicine" Value="あ　うん終わったわよ！" Face="Medicine" Mono="False" />
+  <!-- じゃあアリスさん　ばいばーい！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage3Dialogue3FaceYamame" Value="じゃあアリスさん　ばいばーい！" Face="Yamame" Mono="False" />
+  <!-- スー　プラグアウト！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage3Dialogue4FaceYamame" Value="スー　プラグアウト！" Face="Yamame" Mono="False" />
+  <!-- 自律型ナビが普通のナビになることってできるのかな？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage5Dialogue1FaceAlice" Value="自律型ナビが,普通のナビになることって,できるのかな？" Face="Alice" Mono="False" />
+  <!-- さあ････？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage5Dialogue2FaceShanghai" Value="さあ････？" Face="Shanghai" Mono="False" />
+  <!-- ただ　手を打っておくに越したことはないわ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage5Dialogue3FaceShanghai" Value="ただ　手を打っておくに,越したことはないわ" Face="Shanghai" Mono="False" />
+  <!-- ブッカー！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage5Dialogue4FaceShanghai" Value="ブッカー！" Face="Shanghai" Mono="False" />
+  <!-- へい　姐さん！何用ですか？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage7Dialogue1FaceHenchie" Value="へい　姐さん！,何用ですか？" Face="Henchie" Mono="False" />
+  <!-- さっきのスーってナビを見張っててちょうだい -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage7Dialogue2FaceShanghai" Value="さっきのスーってナビを,見張っててちょうだい" Face="Shanghai" Mono="False" />
+  <!-- なにか怪しい動きを見せたらすぐに知らせるのよ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage7Dialogue3FaceShanghai" Value="なにか怪しい動きを見せたら,すぐに知らせるのよ" Face="Shanghai" Mono="False" />
+  <!-- わかりました！では　行ってきます！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage7Dialogue4FaceHenchie" Value="わかりました！,では　行ってきます！" Face="Henchie" Mono="False" />
+  <!-- 頼んだわよ！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage7Dialogue5FaceShanghai" Value="頼んだわよ！" Face="Shanghai" Mono="False" />
+  <!-- よし　これで何かあったらすぐにわかるでしょう -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue1FaceShanghai" Value="よし　これで何かあったら,すぐにわかるでしょう" Face="Shanghai" Mono="False" />
+  <!-- 大丈夫かな････？ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue2FaceAlice" Value="大丈夫かな････？" Face="Alice" Mono="False" />
+  <!-- アリスが気にする必要はないわよ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue3FaceShanghai" Value="アリスが気にする必要はないわよ" Face="Shanghai" Mono="False" />
+  <!-- あー　どっと疲れたわ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue4FaceShanghai" Value="あー　どっと疲れたわ" Face="Shanghai" Mono="False" />
+  <!-- お疲れさま今日はもう休もっか -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue5FaceAlice" Value="お疲れさま,今日はもう休もっか" Face="Alice" Mono="False" />
+  <!-- そうねぇ････ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue6FaceShanghai" Value="そうねぇ････" Face="Shanghai" Mono="False" />
+  <!-- あっ！フォルダが予選用のままだから戻すの忘れないようにね！ -->
+  <Dialogue Key="Map.EienSquareChapter4Medicine2Stage9Dialogue7FaceShanghai" Value="あっ！,フォルダが予選用のままだから,戻すの忘れないようにね！" Face="Shanghai" Mono="False" />
+  <!-- ＨＰメモリ高い････俺の小遣いじゃ買えねえよ････ -->
+  <Dialogue Key="Map.EienSquareChapter4Navi6Stage1Dialogue1FaceNaviOrangeMale" Value="ＨＰメモリ高い････,俺の小遣いじゃ,買えねえよ････" Face="NaviOrangeMale" Mono="False" />
+  <!-- Ｎ１リーグが終わってからここもすっかり静かになっちゃったよ -->
+  <Dialogue Key="Map.EienSquareChapter7MaleNavigation1Stage1Dialogue1FaceNaviOrangeMale" Value="Ｎ１リーグが終わってから,ここもすっかり静かに,なっちゃったよ" Face="NaviOrangeMale" Mono="False" />
+  <!-- ウラインターネットから悪い連中が来ることも最近はなくなったよ -->
+  <Dialogue Key="Map.EienSquareChapter7MaleNavigation1DupeStage1Dialogue1FaceNaviGreenRobot" Value="ウラインターネットから,悪い連中が来ることも,最近はなくなったよ" Face="NaviGreenRobot" Mono="False" />
+  <!-- 依頼掲示板だ -->
+  <Dialogue Key="Map.EienSquareRequestBulletinBoardStage1Dialogue1FaceNone" Value="依頼掲示板だ" Face="None" Mono="False" />
+  <!-- お得情報掲示板だ -->
+  <Dialogue Key="Map.EienSquareBulletinBoardStage1Dialogue1FaceNone" Value="お得情報掲示板だ" Face="None" Mono="False" />
+  <!-- バトラーズオフィスへようこそ！こちらではＳＰウィルス討伐の依頼をあっせんしています -->
+  <Dialogue Key="Map.EienSquareButlersOfficeStage1Dialogue1FaceNaviPinkFemale" Value="バトラーズオフィスへようこそ！,こちらではＳＰウィルス討伐の,依頼をあっせんしています" Face="NaviPinkFemale" Mono="False" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue1FaceSprite" Value="コチラハ　リンクゲートヲツナグ,テツヅキ　スプライトデス" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページトコノスクエアヲ　リンクデツナグコトガデキマス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue2FaceSprite" Value="アナタノ　ホームページト,コノスクエアヲ　リンクデ,ツナグコトガデキマス" Face="Sprite" Mono="False" />
+  <!-- セツゾクノ　テスウリョウトシテ７０００ゼニーガ　ヒツヨウデス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue3FaceSprite" Value="セツゾクノ　テスウリョウトシテ,７０００ゼニーガ　ヒツヨウデス" Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナギマスカ？ -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="リンクヲ　ツナギマスカ？" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienSquareLinkSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <!-- リンクノ　セツゾクガカンリョウシマシタ -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue5FaceSprite" Value="リンクノ　セツゾクガ,カンリョウシマシタ" Face="Sprite" Mono="False" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue6FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage1Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue1FaceSprite" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue2FaceSprite" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue3FaceSprite" Value="カベガミノ　リョウキンハ,１０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienSquareLinkSpriteStage3Dialogue4Options" Value="はい,いいえ" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue5FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue6FaceSprite" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.EienSquareLinkSpriteStage3Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.EienSquareSub-chipShopStage1Dialogue1QuestionFaceNaviBlueRobot" Value="私はサブチップ商人です,サブチップを買いますか？" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienSquareSub-chipShopStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- インテリアショップようこそアル！ -->
+  <Dialogue Key="Map.EienSquareInteriorShopStage1Dialogue1FaceNaviPurplePunk" Value="インテリアショップようこそアル！" Face="NaviPurplePunk" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れるアルよ -->
+  <Dialogue Key="Map.EienSquareInteriorShopStage1Dialogue2FaceNaviPurplePunk" Value="わずかなご予算で　あなたの,ホームページを美しく,飾れるアルよ" Face="NaviPurplePunk" Mono="False" />
+  <!-- インテリア欲しいアルか？ -->
+  <Dialogue Key="Map.EienSquareInteriorShopStage1Dialogue3QuestionFaceNaviPurplePunk" Value="インテリア欲しいアルか？" Face="NaviPurplePunk" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.EienSquareInteriorShopStage1Dialogue3Options" Value="買う,買わない" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.EienSquareChipShopStage1Dialogue1QuestionFaceNaviGreenRobot" Value="私はネット商人です,いいものありますよ？" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.EienSquareChipShopStage1Dialogue1Options" Value="買う,買わない" />
+  <Dialogue Key="Map.EienSquarePostGameBystander1Dialogue1" Value="バトルの時に生えている,草ってなんの種類の,雑草なんだろうか？" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquarePostGameBystander2Dialogue1" Value="ＲＯＭが倒れてから,掲示板に活気が戻ったみたいだ" Face="NaviOrangeMale" Mono="False" />
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 資源採掘装置の電脳 -->
+  <Text Key="Map.UnderSaikutuName" Value="資源採掘装置の電脳" />
+  <!-- カイテイニハ　シゲントナルコウセキヤ　ガスガイッパイウマッテイマス -->
+  <Dialogue Key="Map.UnderSaikutuSprite1Stage1Dialogue1FaceSprite" Value="カイテイニハ　シゲントナル,コウセキヤ　ガスガイッパイ,ウマッテイマス" Face="Sprite" Mono="False" />
+  <!-- ソレヲガガガッテ　ホリダスノガコノ　ソウチナノデス -->
+  <Dialogue Key="Map.UnderSaikutuSprite1Stage1Dialogue2FaceSprite" Value="ソレヲガガガッテ　ホリダスノガ,コノ　ソウチナノデス" Face="Sprite" Mono="False" />
+  <!-- カイテイニハ　オタカラガアルッテ　ヨクイワレテマスヨネ -->
+  <Dialogue Key="Map.UnderSaikutuSprite2Stage1Dialogue1FaceSprite" Value="カイテイニハ　オタカラガアル,ッテ　ヨクイワレテマスヨネ" Face="Sprite" Mono="False" />
+  <!-- カイテイシゲンハ　マサニシゼンガツクッタオタカラナノデスヨ -->
+  <Dialogue Key="Map.UnderSaikutuSprite2Stage1Dialogue2FaceSprite" Value="カイテイシゲンハ　マサニ,シゼンガツクッタ,オタカラナノデスヨ" Face="Sprite" Mono="False" />
+</data>

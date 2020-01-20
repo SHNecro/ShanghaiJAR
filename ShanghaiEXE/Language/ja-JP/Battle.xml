@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- Custom -->
+  <Dialogue Key="Custom.EscapeSuccess" Value="#b@false#・・・,#b@true#よし、逃げ切れたわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeFailure" Value="#b@false#・・・,#b@true#ちょっと、ふりきれないわ！,どうなってるのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeQuestion" Value="めんどうくさいから,逃げたほうがいいかしら････？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeSpecialQuestion" Value="アリスもいないし,逃げたほうがいいかしら････？" Face="Shanghai" Mono="False" />
+  <Text Key="Custom.EscapeOptions" Value="はい,いいえ" />
+  <Text Key="Custom.EscapeSpecialOptions" Value="逃げる,戦う" />
+  <Dialogue Key="Custom.EscapeForbidden" Value="ダメよアリス！,今は敵に背を向けてる,場合じゃないの！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeSpecialForbidden" Value="くっ････！,逃げられるような戦いじゃ,なさそうね････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.SendChips" Value="選択したチップを,ナビに転送します！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.SendNoChips" Value="一枚もチップを送信せず,前回転送したチップはそのまま,ターンを経過します！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ADDChips" Value="選択したチップをその枚数分,次のターンから選べるチップを,永続的に増やします！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ADDTempChips" Value="次のターンだけ,選べるチップを一時的に,増やします！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ActionADD" Value="シャンハイ！,追加のチップデータ送るから,１ターン待ってて！" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.ActionSpecialADD" Value="アリスがいたら,ＡＤＤもできるけど････" Face="Shanghai" Mono="False" />
+
+  <Dialogue Key="Custom.NullElemDesc" Value="特殊な能力はないが,無属性なので弱点が,存在しない" Face="None" Mono="False" />
+  <Dialogue Key="Custom.FghtStyleDesc" Value="バスターの威力２倍,チャージは横２マスを押す,パンチ攻撃！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.NinjStyleDesc" Value="移動速度が向上する,ソードで敵の攻撃を消し,チャージでチップをフミコミ！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.DocStyleDesc" Value="カスタム画面のチップ増加,選択枚数も６枚になり,チャージは状態異常を与える" Face="None" Mono="False" />
+  <Dialogue Key="Custom.GaiaStyleDesc" Value="十字にパネルが自属性に変化,スーパーアーマーとニオウダチ,チャージは３マス前地形変化" Face="None" Mono="False" />
+  <Dialogue Key="Custom.WingStyleDesc" Value="飛行で風とパネルを無視する,チップが無いときにＡボタンで,キンキュウカイヒが可能" Face="None" Mono="False" />
+  <Dialogue Key="Custom.WtchStyleDesc" Value="状態異常無効　弱点軽減,無属性以外のチップ威力＋１０,同属性は更に＋１０！" Face="None" Mono="False" />
+
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue1" Value="あ～・・・,こんなんだったっけ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue2" Value="ふふ　忘れちゃった？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue3" Value="大丈夫よ,一つ一つていねいに,教えてあげるからね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage2Dialogue1" Value="まず、ウィルス(敵)と戦うには,アリスさんにチップデータを,送ってもらう必要があるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage2Dialogue2" Value="この今画面左端にあるのが,チップを選ぶカスタム画面よ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage3Dialogue1" Value="この下に並んでいる,アイコンの列が,今選べるチップでしたよね？" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue1" Value="そうよ,この中からチップを選ぶの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue2" Value="ここに 今選んでいる,チップデータの情報が,表示されているわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue3" Value="これが 攻撃力よ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue1" Value="チップデータは基本的に,１ターンに１つにしか,送ることはできないんだけど" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue2" Value="あ　はいはい！,そこは覚えてます！" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue3" Value="レイガンとレイガンみたいに,同じチップなら一緒に,選ぶことができるんですよね" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue4" Value="その通り！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue5" Value="一緒に選べば一度に,多くの武器を使えるから,連続した攻撃ができるの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue1" Value="だいたい思い出したわ,さて、実際に戦って,カンを取り戻しますかね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue2" Value="それじゃあ実際に,チップデータを選んで,あなたに転送するわよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue3" Value="まずは　使いたいチップを,Ａボタンで選んで,ＯＫを選ぶの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue4" Value="間違えても大丈夫！,Ｂボタンでキャンセルできるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue5" Value="チップの効果は,Ｒボタンを押すと確認できるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue6" Value="Ｌボタンは逃げるんだけど,今回は逃げてる場合じゃないから,使わないのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue1" Value="あら？,攻撃力の書かれていない,チップが出てきたわよ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue2" Value="これは攻撃じゃない,サポート系のチップね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue3" Value="例えばこれはエリアバッシュ,敵からエリアを奪って自分の,動ける範囲を広げるチップよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage2Dialogue1" Value="これと接近攻撃の,ソードを使うコンボは,基本的かつ有効なコンボよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue1" Value="えっと･･･一緒に選べるのは,同じチップじゃなかったっけ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue2" Value="ふふ　いい質問を,してくれたわね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue3" Value="ほら ここをみて！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue1" Value="アルファベットがあるでしょ？,これはチップコードといって,トランプのマークのようなもので" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue2" Value="チップコードが同じチップは,例え違う種類でも,一緒に選ぶことができるのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue3" Value="ああ そうだったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue4" Value="エリアバッシュとソードの,コードがどちらもＬだから,一緒に選べるってわけね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue1" Value="ちなみに＊(アスタリスク),っていうコードも,ありましたよね？" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue2" Value="よく知ってるわね！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue3" Value="それはトランプのジョーカーの,ようなものでどのコードとも,組み合わせが可能なコードなの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue4" Value="例えばＡ＊Ａっていう,組み合わせが可能になるの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue5" Value="ＯＫ 思い出したわ,同じコードは一緒に選べる,基本の基本だったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue6" Value="じゃあ実際に,試してみましょう！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage1Dialogue1" Value="そうだ,ず～っと気になってたけど,このボタンはなんだっけ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue1" Value="それはＡＤＤ(アド)ボタン,フォルダオープンをする際に,使うボタンよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue2" Value="フォルダオープン？,ちょっと聞き慣れない,言葉ですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue3" Value="最近実装された,新しいシステムだから,知らないのも無理は無いわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue4" Value="フォルダオープンっていうのは,カスタム画面に出るチップを,５枚から増やすシステムよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue5" Value="へえ、本当にそんなことが,できたら多くのチップが選べて,戦略を練りやすくなるわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue6" Value="欲しいチップがある時に,１枚足りないっていう場合は,案外少なくないからね" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue7" Value="フォルダオープンは,２つの方法があるから,１つずつ説明するわね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue1" Value="まずはチップを選んだ状態で,ＡＤＤボタンを押す,フォルダオープンよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue2" Value="選んだチップは捨てて,使えなくなっちゃうんだけど･･･" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue3" Value="その代わりに選んだ枚数分,次のターンから戦闘終了まで,選べるチップが増えるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue4" Value="ということは例えば,２枚選んでＡＤＤを押せば,２枚増えて７枚になるのね？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue5" Value="そのとおりよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue1" Value="次はチップを選んでいない,状態でＡＤＤボタンを押す,フォルダオープンよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue2" Value="この場合は次のターン,選べるチップが５枚増えるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue3" Value="あれ？,チップを捨てないんじゃ,こっちのほうが断然いいじゃない" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue4" Value="ところがそうも行かないの,この方法だと増えるのは,選んでから１ターン後だけで･･･" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue5" Value="チップを選んで決定したら,その次のターンはまた,元の数に戻ってしまうの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue6" Value="つまり一時的に,増やしたに過ぎない,その場しのぎの方法ってわけね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue7" Value="長期戦をやる場合は,よく考えないと,チップが足りなくなるかも････" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue8" Value="ただ どちらの場合にも,言えることだけどＡＤＤをした,ターンはチップは使えないわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue9" Value="げっ！,だったらいざというときだけ,使うように心がけないとね･･･" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage5Dialogue1" Value="今だったらリペア２０が,３枚もあって邪魔だから,ＡＤＤに使って試してみましょう！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage1Dialogue1" Value="ねえアリス、,ここにあるあたしの,美顔は何だっけ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue1" Value="（････美顔？）" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue2" Value="それはココロウィンドゥよ,忘れちゃったの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue3" Value="ああ、今思い出したわ,あたしの心の状態を,表すやつよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue4" Value="いくらあたしでも,立て続けにダメージを受けると,不安になっちゃうわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage3Dialogue1" Value="逆に、敵を同時に,デリートするとテンションが,上がってハイになるのよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue1" Value="その状態でチップを使うと,何故かあなた回復するよね,・・・ほんと何故かしら？" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue2" Value="さあね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue3" Value="そして、アリスとあたしの,息があったオペレーションが,行われるとフルシンクロ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue1" Value="敵が攻撃する瞬間に,うまくチップ攻撃を,当てるといいのよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue2" Value="そそ,カウンターを決めてやるのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue3" Value="フルシンクロ中は,攻撃に勢いがついて,威力が二倍になるわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue4" Value="更に敵のカウンタータイミングが,目に見えるようになるのよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue5" Value="だからそこから更に,カウンターを決めてやれば,ずっとフルシンクロもできるわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue6" Value="でもダメージを受けると,元の状態に戻っちゃうから,気をつけてね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue1" Value="ココロウィンドゥが,出るなんて　あなたたち,すごく仲がいいのね！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue2" Value="それはオペレーターと,ナビのココロが通じあっている,何よりの証拠なのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue3" Value="････そうなのかしら？,そんな気は全然ないけど" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue4" Value="せっかくだから,出の早いナイフで,練習をしてみましょう" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue5" Value="ケダマーのカウンターの,タイミングは攻撃しようと,前に跳ねてる間だったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue6" Value="よし、じゃあ,チップデータを,転送するわよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle5Stage1Dialogue1" Value="これが本番よ！,教えたことを思い出して,自由に戦ってね！" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionOKDialogue1" Value="チップデータを送ったわ,バトルが始まるわよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionOKDialogue2" Value="わかったわ,やっとあたしの出番ってわけね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3ActionOKDialogue1" Value="今回はＡＤＤを試すから,こっちは選ばないわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionADDDialogue1" Value="それは後で説明するわ,今はOKを選ぶのよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionStage1Dialogue1" Value="チップデータを送ったわ,バトルが始まるわよ！" Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionStage1Dialogue2" Value="わかったわ,やっとあたしの出番ってわけね" Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3ActionStage1Dialogue1" Value="今回はＡＤＤを試すから,こっちは選ばないわ" Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue1" Value="一応 動かし方も,説明したほうがいい？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue2" Value="大丈夫よ,自分の動かし方くらい,覚えてるわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue3" Value="自分の赤いエリアの範囲で,十字キーで上下左右に,斜め以外自由に動けるのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue4" Value="Ｂボタンでバスター攻撃！,チップが無いときにも撃てるけど,弱いしあまり好きじゃないのよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue5" Value="まあ、Ｂボタンを押し続けると,威力の高いチャージショットが,撃てるからいいんだけどね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue6" Value="さすがにそこは覚えてたのね" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue7" Value="転送したチップは,シャンハイ　あなたの頭の上に,表示されているわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue8" Value="使いたい時に,Ａを押せばチップに対応した,攻撃が出せるからね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue9" Value="ただし、チップは一枚につき,一回の戦闘で一度しか,使えないから気をつけてね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue1" Value="左上の数字は,シャンハイのＨＰよ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue2" Value="これが０になるとあなたは,デリートされてしまうから,気を付けないといけないわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue1" Value="右の青いエリア内にいるのが,今から戦うウィルス(敵)よ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue2" Value="ウィルスの近くにある数字が,そのウィルスのＨＰを表しているわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage4Dialogue1" Value="つまり、攻撃して,これを０にすればそのウィルスを,倒したことになるの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue1" Value="待って！,もしもチップを全部使っても,倒しきれなかったらどうするの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue2" Value="バスターだけで,残りをチクチク削るなんて,そんなのはイヤよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue3" Value="落ち着いて,上の方にゲージが見えるでしょ？" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue1" Value="時間が経つとこのゲージが,少しずつたまっていくの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue2" Value="ゲージが満タンになったら,ＬボタンかＲボタンで,再びカスタム画面を開けるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue3" Value="わざわざそこまで,ありがとうございます" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue4" Value="気にしないで,さあ　あの毛玉ウィルスを,早く倒してみましょう！" Face="MsAsakura" Mono="False" />
+  
+  <!-- BattleResult -->
+  <Text Key="BattleResult.StyleGraphicNormal" Value="ノーマル" />
+  <Text Key="BattleResult.StyleGraphicFght" Value="ファイター" />
+  <Text Key="BattleResult.StyleGraphicNinj" Value="シノビ" />
+  <Text Key="BattleResult.StyleGraphicDoc" Value="ドクター" />
+  <Text Key="BattleResult.StyleGraphicGaia" Value="ガイア" />
+  <Text Key="BattleResult.StyleGraphicWing" Value="ウィング" />
+  <Text Key="BattleResult.StyleGraphicWtch" Value="ウィッチ" />
+  <Text Key="BattleResult.StyleGraphicHeat" Value="ヒート" />
+  <Text Key="BattleResult.StyleGraphicAqua" Value="アクア" />
+  <Text Key="BattleResult.StyleGraphicElec" Value="エレキ" />
+  <Text Key="BattleResult.StyleGraphicLeaf" Value="リーフ" />
+  <Text Key="BattleResult.StyleGraphicPois" Value="ポイズン" />
+  <Text Key="BattleResult.StyleGraphicErth" Value="アース" />
+  <Text Key="BattleResult.EndBug" Value="バグ" />
+  <Text Key="BattleResult.EndFrz" Value="フリーズ" />
+  <Text Key="BattleResult.EndError" Value="エラー" />
+  <Text Key="BattleResult.StyleDecideNormal" Value="ノーマルスタイル" />
+  <Text Key="BattleResult.StyleDecideFght" Value="ファイター" />
+  <Text Key="BattleResult.StyleDecideNinj" Value="シノビ" />
+  <Text Key="BattleResult.StyleDecideDoc" Value="ドクター" />
+  <Text Key="BattleResult.StyleDecideGaia" Value="ガイア" />
+  <Text Key="BattleResult.StyleDecideWing" Value="ウィング" />
+  <Text Key="BattleResult.StyleDecideWtch" Value="ウィッチ" />
+  <Text Key="BattleResult.StyleDecideHeat" Value="ヒート" />
+  <Text Key="BattleResult.StyleDecideAqua" Value="アクア" />
+  <Text Key="BattleResult.StyleDecideElec" Value="エレキ" />
+  <Text Key="BattleResult.StyleDecideLeaf" Value="リーフ" />
+  <Text Key="BattleResult.StyleDecidePois" Value="ポイズン" />
+  <Text Key="BattleResult.StyleDecideErth" Value="アース" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue1" Value="お疲れ様,これでウィルスは全滅したわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue2" Value="最後にバスティングレベルの,説明をするわね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue3" Value="バスティングレベルは,戦闘の上手さを表すレベルで" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue4" Value="これから表示される,リザルト画面で確認できるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue5" Value="レベルは戦闘時間が短かったり,ウィルスを複数同時に倒したり,すると上がっていくわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue6" Value="でも、逆にダメージを受けて,のけぞってしまったり,むやみに動くと下がってしまうの" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue7" Value="つまり短期決戦で,素早く倒せばオッケーね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue8" Value="レベルは１から,１１にあたるＳまであるわ" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue9" Value="どれくらい高いレベルを,出せるかチャレンジしても,いいかもしれないわね" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue1" Value="！？,アリス････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue2" Value="シャンハイ、どうしたの？,その姿は･･･？" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue3" Value="なんか体の奥から,力が湧いてくるような････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue4" Value="っと、森近博士から電話よ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue5" Value="シャンハイの姿が変わっただろう,君に組み込んだデータによって,スタイルチェンジが起こったんだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue6" Value="オペレーターの戦闘時のクセや,傾向、それをより効果的に反映,するためにナビが自動進化する" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue7" Value="それが、スタイルチェンジだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue8" Value="スタイルチェンジ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue1" Value="！？,アリス････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue2" Value="スタイルチェンジね！,その姿は････？" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue3" Value="っと、森近博士から電話よ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue4Format" Value="そのスタイルの名は・・・,{0}スタイルだ！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue5Format" Value="やったわね、シャンハイ！,{0}スタイルだって！" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue1" Value="複数のスタイルを持った状態で,カスタム画面で上ボタンを押せば,戦闘中にスタイルを変更できる" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue2" Value="ただし、変更したターンは,チップを送ることができないから,タイミング選びは慎重にな" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue3" Value="それから、戦闘開始時に,つけていたスタイルには,何度でもなることができるが" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue4" Value="それ以外のスタイルは,一回の戦闘に一回しか,なることができない" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue5" Value="今はまだ恩恵が少ないが,スタイルが増えていけば,実感できるだろう" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue6" Value="スタイルを使い分けて,自分に有利な状況を作るんだ,頑張れ！" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleInfoHeatElem" Value="属性は炎" />
+  <Text Key="BattleResult.StyleInfoAquaElem" Value="属性は水" />
+  <Text Key="BattleResult.StyleInfoElecElem" Value="属性は雷" />
+  <Text Key="BattleResult.StyleInfoLeafElem" Value="属性は木" />
+  <Text Key="BattleResult.StyleInfoPoisElem" Value="属性は毒" />
+  <Text Key="BattleResult.StyleInfoErthElem" Value="属性は土" />
+  <Dialogue Key="BattleResult.StyleInfoHeatWeakness" Value="ただし、水と土属性の,攻撃には倍のダメージを,受けてしまうから注意だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoAquaWeakness" Value="ただし、雷と毒属性の,攻撃には倍のダメージを,受けてしまうから注意だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoElecWeakness" Value="ただし、木と土属性の,攻撃には倍のダメージを,受けてしまうから注意だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoLeafWeakness" Value="ただし、炎と毒属性の,攻撃には倍のダメージを,受けてしまうから注意だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoPoisWeakness" Value="ただし、炎と雷属性の,攻撃には倍のダメージを,受けてしまうから注意だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoErthWeakness" Value="ただし、水と木属性の,攻撃には倍のダメージを,受けてしまうから注意だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtEnd" Value="ええ、闘志みなぎる,大きなパワーを感じる,自分でも驚いてるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjEnd" Value="ええ、疾風のような,キレのある力を感じる,自分でも驚いてるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocEnd" Value="ええ、医者のような,知的なパワーを感じる,自分でも驚いてるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaEnd" Value="ええ、大地を踏みしめる,堅牢なパワーを感じる,自分でも驚いてるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingEnd" Value="ええ、大空を飛ぶ,開放的なパワーを感じる,自分でも驚いてるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchEnd" Value="ええ、コトワリを操る,不思議なパワーを感じる,自分でも驚いてるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue1" Value="チップに頼らない戦い方に,対応したスタイルだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue2" Value="このスタイルはバスターの威力が,２倍になり、バスターだけで,十分戦えるようになる" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue3" Value="さらに、チャージショットが,巨大な腕で殴りつける,ファイターパンチになる" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue4" Value="これは、自身と同じ属性の,横２マスのパンチで,敵を押し出す技だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue1" Value="素早い動きで敵を倒す戦法に,対応したスタイルだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue2" Value="このスタイルは,機敏な動きで敵の攻撃を,かいくぐることができる" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue3" Value="また、ソード系の武器で,敵の攻撃をかき消すことのできる,パリイの特性を持つ！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue4" Value="バスターのチャージマックスで,チップを使うと　２マス前に,踏み込むこともできるぞ！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue5" Value="さらに、チャージショットが,目の前をソードで攻撃する,エレメントソードに変化している" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue6" Value="これは、目の前縦三マスを,自身と同じ属性の剣で敵を,攻撃ごと切り裂く武器だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue1" Value="チップを効果的に使うことに,対応したスタイルだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue2" Value="このスタイルはカスタム画面で,選べるチップが6枚に、,ADDにより最大12枚になる" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue3" Value="また、同時選択可能数も,6枚になり、プログラムアドバンスの,同時発動も可能となる！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue4" Value="さらに、チャージショットが,注射器を発射する,インジェクトレイに変化している" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue5" Value="これは、属性に対応した,状態異常を発生させる注射器を,前方に発射する武器だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue1" Value="敵の攻撃を耐え忍ぶ戦法に,対応したスタイルだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue2" Value="このスタイルはなんと,スーパーアーマーがついており,攻撃を受けてものけぞらない" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue3" Value="さらに戦闘開始時か,スタイル変更時に十字に,自分と同じ属性パネルを作る" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue4" Value="また、何もせずに立っている,状態で受けるダメージを半減する,ニオウダチの特性を持つ！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue5" Value="さらに、チャージショットが,相手の足元から攻撃する,フットエレメントに変化している" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue6" Value="これは、地震を起こし,敵全体の動きを少しだけ,止めることができる武器だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue7" Value="さらに、三マス前に,自身と同じ属性の床を,発生させる攻撃も放つ！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue1" Value="どんな地形でも動じない戦法に,対応したスタイルだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue2" Value="このスタイルは宙に浮き,特殊パネルの影響を,一切受けることがない" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue3" Value="さらに　風などを受けて,押し出されなくなる,能力もある！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue4" Value="また、１ターンに一回,チップがない時にAボタンで,緊急回避をすることができる！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue5" Value="さらに、チャージショットが,扇で竜巻を発生させる,トルネードに変化している" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue6" Value="これは、２マス前に,８ヒットする竜巻を発生させる,ことのできる武器だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue1" Value="属性攻撃を有効に使う,戦い方に対応したスタイルだ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue2" Value="このスタイルは属性を操り,属性付きチップの威力を,＋10する特性を持つ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue3" Value="しかも　スタイルと,同属性のチップは威力が更に,＋10されるんだ！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue4" Value="また　弱点の攻撃を受けても,あまり大きなダメージを食らわない,という特殊能力もある！" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue5" Value="他にも　すべての状態異常を,無効化する能力も持っている" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue6" Value="さらに、チャージショットが,魔法陣から炎を吹き出す,マジックフレイムに変化している" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue7" Value="これは、前方に三マスまで伸びる,自身と同じ属性の炎を,発射することのできる武器だ" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue1" Value="これ以上スタイルは,持てないみたいだね････" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue2Question" Value="今持っているスタイルの,どれかに上書きするかい？" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue3Question" Value="どのスタイルに上書きする？" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue4Question" Value="そのスタイルは消えてしまうけど,本当に上書きしていいかい？" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue5Question" Value="このスタイルは消えてしまうけど,本当に上書きしなくもいいかい？" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue5Options" Value="はい,いいえ" />
+</data>

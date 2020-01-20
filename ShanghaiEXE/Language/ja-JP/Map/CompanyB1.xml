@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン　地下牢 -->
+  <Text Key="Map.CompanyB1Name" Value="ボーダーコンツェルン　地下牢" />
+  <!-- ううん････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue1FaceAlice" Value="ううん････" Face="Alice" Mono="False" />
+  <!-- あれ？確かプラグインしたあと急にビリッとして････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue2FaceAlice" Value="あれ？,確かプラグインしたあと,急にビリッとして････" Face="Alice" Mono="False" />
+  <!-- 目が覚めたか････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue3FaceNone" Value="目が覚めたか････" Face="None" Mono="False" />
+  <!-- 誰････？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue4FaceAlice" Value="誰････？" Face="Alice" Mono="False" />
+  <!-- 神綺アリスお前も捕まったのか････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue1FaceReisen" Value="神綺アリス,お前も捕まったのか････" Face="Reisen" Mono="False" />
+  <!-- れ　鈴仙！？どうしてあなたが？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue2FaceAlice" Value="れ　鈴仙！？,どうしてあなたが？" Face="Alice" Mono="False" />
+  <!-- 聞き取り調査を行おうとしたら死角から一撃をいれられてな -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue3FaceReisen" Value="聞き取り調査を,行おうとしたら死角から,一撃をいれられてな" Face="Reisen" Mono="False" />
+  <!-- まさか等身大の戦闘用ロボットが普通に運用されてるなんてね -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue4FaceReisen" Value="まさか等身大の,戦闘用ロボットが,普通に運用されてるなんてね" Face="Reisen" Mono="False" />
+  <!-- 私を気絶させたのももしかしてそれかしら････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue5FaceAlice" Value="私を気絶させたのも,もしかしてそれかしら････" Face="Alice" Mono="False" />
+  <!-- ヨリヒメはギリギリでサーバー内に潜り込ませられたが端末を奪われてしまった -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue6FaceReisen" Value="ヨリヒメはギリギリでサーバー内に,潜り込ませられたが,端末を奪われてしまった" Face="Reisen" Mono="False" />
+  <!-- 武器は隠し持っているが狭すぎて使えないしな -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue7FaceReisen" Value="武器は隠し持っているが,狭すぎて使えないしな" Face="Reisen" Mono="False" />
+  <!-- ここの格子は電子ロックだからピッキングすることも不可能だ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue8FaceReisen" Value="ここの格子は電子ロックだから,ピッキングすることも,不可能だ" Face="Reisen" Mono="False" />
+  <!-- ヨリヒメをオペレートできれば脱出することもできるだろうが････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue9FaceReisen" Value="ヨリヒメをオペレートできれば,脱出することも,できるだろうが････" Face="Reisen" Mono="False" />
+  <!-- ････そうよ　シャンハイをプラグインしっぱなしだった！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue10FaceAlice" Value="････そうよ　シャンハイを,プラグインしっぱなしだった！" Face="Alice" Mono="False" />
+  <!-- なに？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue11FaceReisen" Value="なに？" Face="Reisen" Mono="False" />
+  <!-- きっとシャンハイが助けに来てくれるはずよそれを待ちましょう！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue12FaceAlice" Value="きっとシャンハイが,助けに来てくれるはずよ,それを待ちましょう！" Face="Alice" Mono="False" />
+  <!-- なぜ　オペレーターの手を離れたネットナビをそんなに信用することができる？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue13FaceReisen" Value="なぜ　オペレーターの手を,離れたネットナビをそんなに,信用することができる？" Face="Reisen" Mono="False" />
+  <!-- それは････シャンハイは私の大切な友達だから！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue14FaceAlice" Value="それは････,シャンハイは私の,大切な友達だから！" Face="Alice" Mono="False" />
+  <!-- ････む？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage5Dialogue1FaceReisen" Value="････む？" Face="Reisen" Mono="False" />
+  <!-- アリス　そこにいるのね！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue1FaceShanghai" Value="アリス　そこにいるのね！" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue2FaceAlice" Value="シャンハイ！" Face="Alice" Mono="False" />
+  <!-- ････よし！社内無線ネットワークからアリスの携帯へ接続できたわ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue3FaceShanghai" Value="････よし！,社内無線ネットワークから,アリスの携帯へ接続できたわ" Face="Shanghai" Mono="False" />
+  <!-- これでオペレートできるわねアリス　大丈夫？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue4FaceShanghai" Value="これでオペレートできるわね,アリス　大丈夫？" Face="Shanghai" Mono="False" />
+  <!-- 私は平気よ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue5FaceAlice" Value="私は平気よ！" Face="Alice" Mono="False" />
+  <!-- これからどうする？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue1FaceReisen" Value="これからどうする？" Face="Reisen" Mono="False" />
+  <!-- アリスに危害を加えやがってアッタマに来た！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue2FaceShanghai" Value="アリスに危害を加えやがって,アッタマに来た！" Face="Shanghai" Mono="False" />
+  <!-- こうなりゃ社長のやろうに直談判してやるわ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue3FaceShanghai" Value="こうなりゃ社長のやろうに,直談判してやるわ！" Face="Shanghai" Mono="False" />
+  <!-- フム　珍しく意見があったな -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue4FaceReisen" Value="フム　珍しく意見があったな" Face="Reisen" Mono="False" />
+  <!-- 鈴仙　手伝ってくれるの？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue5FaceAlice" Value="鈴仙　手伝ってくれるの？" Face="Alice" Mono="False" />
+  <!-- 一連の行動からこの企業は完全にクロと断定した -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue6FaceReisen" Value="一連の行動から,この企業は完全にクロと,断定した" Face="Reisen" Mono="False" />
+  <!-- ならば　遠慮する必要はない -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue7FaceReisen" Value="ならば　遠慮する必要はない" Face="Reisen" Mono="False" />
+  <!-- 社長室にたどり着くまでに多少あのロボットどもと撃ちあう必要もあるだろう -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue8FaceReisen" Value="社長室にたどり着くまでに,多少あのロボットどもと,撃ちあう必要もあるだろう" Face="Reisen" Mono="False" />
+  <!-- ････わかったわ頼りにするわよ　鈴仙 -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue9FaceAlice" Value="････わかったわ,頼りにするわよ　鈴仙" Face="Alice" Mono="False" />
+  <!-- あたしはこのままサーバーの中からあんたたちを支援するわ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue10FaceShanghai" Value="あたしはこのまま,サーバーの中から,あんたたちを支援するわ" Face="Shanghai" Mono="False" />
+  <!-- プラグアウトはできないからシャンハイ　気をつけてね -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue11FaceAlice" Value="プラグアウトはできないから,シャンハイ　気をつけてね" Face="Alice" Mono="False" />
+  <!-- 神綺アリス　行くぞ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue12FaceReisen" Value="神綺アリス　行くぞ！" Face="Reisen" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue13FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+</data>

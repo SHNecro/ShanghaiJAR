@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja2Name" Value="Shrine Comp 2" />
+  <Dialogue Key="Map.Jinja2WithdrawStage1Dialogue1FaceShanghai" Value="Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja2WithdrawStage1Dialogue2FaceAlice" Value="You’re out of stamina....,Let’s jack out!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja2GateStage1Dialogue1FaceNone" Value="Shanghai inserted the,Yin Key and Yang Key into,the door!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja2GateStage1Dialogue2FaceNone" Value="The door lowered!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja2GateStage3Dialogue1FaceNone" Value="The door is locked.,It won’t move an inch!" Face="None" Mono="False" />
+</data>

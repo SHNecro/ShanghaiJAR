@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ウラインターネット３ -->
+  <Text Key="Map.UraNet3Name" Value="Undernet 3" />
+  <!-- どんなに脅したってお店のお金は渡さないわよ！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage1Dialogue1FaceNaviGreenFemale" Value="Threaten me all you want，,you’ll never get money out,of me!" Face="NaviGreenFemale" Mono="False" />
+  <!-- もうすぐ来る痛めつけのスペシャリストの前で同じセリフが吐けるかな！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage1Dialogue2FaceNaviPurplePunk" Value="I wonder if you’ll be singin’,the same tune in front of a,specialist of sufferin’!" Face="NaviPurplePunk" Mono="False" />
+  <!-- ････ん？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage1Dialogue3FaceNaviPurpleHeel" Value="....Hm?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- もしかしてお前が痛めつけのスペシャリストか？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue1FaceNaviPurpleHeel" Value="Are you the specialist of,suffering?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････まあそうかもしれないわね -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue2FaceShanghai" Value="....You could say that." Face="Shanghai" Mono="False" />
+  <!-- ただし････あたしが痛めつけるのはあんたたち悪党だけどね！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue3FaceShanghai" Value="However.... you might not like,just who will be suffering!" Face="Shanghai" Mono="False" />
+  <!-- なんだって！？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue4FaceNaviPurplePunk" Value="What did you say?!" Face="NaviPurplePunk" Mono="False" />
+  <!-- ちくしょう！せっかくの金づるを渡してたまるかよ！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue5FaceNaviPurpleHeel" Value="If you’re not here to help，we’ll,help ourselves to your money!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- アクトウ -->
+  <Text Key="Map.UraNet3Request15EventsBattle1Enemy1" Value="Actu" />
+  <!-- シタッパ -->
+  <Text Key="Map.UraNet3Request15EventsBattle1Enemy2" Value="Stopper" />
+  <!-- 身の丈に合わない悪事はロクなことにならないのよ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage5Dialogue1FaceShanghai" Value="Come see me again when you,learn how to fight." Face="Shanghai" Mono="False" />
+  <!-- （････謎の説得力を感じる） -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage5Dialogue2FaceAlice" Value="(....I feel a mysterious force at,work.)" Face="Alice" Mono="False" />
+  <!-- 助けてくれてありがとう！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue1FaceNaviGreenFemale" Value="Thanks for the help!" Face="NaviGreenFemale" Mono="False" />
+  <!-- あなたが幽香さんのナビね？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue2FaceAlice" Value="Are you Miss Yuuka’s Navi?" Face="Alice" Mono="False" />
+  <!-- 早くオペレーターのもとへ戻りなさい -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue3FaceShanghai" Value="You should head back to the,shop quickly." Face="Shanghai" Mono="False" />
+  <!-- 店が開けないって困ってたわよ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue4FaceShanghai" Value="She’s having trouble opening,the shop." Face="Shanghai" Mono="False" />
+  <!-- わかったわ！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue5FaceNaviGreenFemale" Value="Right away!" Face="NaviGreenFemale" Mono="False" />
+  <!-- これで一件落着････ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue1FaceAlice" Value="I wonder how many others,could be missing like she was...." Face="Alice" Mono="False" />
+  <!-- じゃないわよ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue2FaceShanghai" Value="Don’t even think about it!" Face="Shanghai" Mono="False" />
+  <!-- 何のために花屋のナビを助けたか忘れないでね -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue3FaceShanghai" Value="We were here to help the,florist’s Navi，so we could,get flowers!" Face="Shanghai" Mono="False" />
+  <!-- そうだった！とりあえず中央街に戻りましょう！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue4FaceAlice" Value="You’re right. Let’s head back to,the shop in Central City." Face="Alice" Mono="False" />
+  <!-- バグのかけらと　私のマイナスアドオンを交換しませんか？ -->
+  <Dialogue Key="Map.UraNet3BagChangePartShopStage1Dialogue1FaceNaviPurpleChild" Value="Got BugFrags? I have Minus,AddOns." Face="NaviPurpleChild" Mono="False" />
+</data>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.FountainName" Value="Fountain Comp" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue1FaceSprite" Value="WOW! YOU MUST HAVE A,PRETTY SHARP EYE TO,HAVE FOUND US!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue2FaceSprite" Value="THESE DIGITAL CONTROLS,CHANGE THE FOUNTAIN’S,ROUTINE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue3FaceSprite" Value="DURING THE SCHOOL,FESTIVAL，THE JETS ARE,TURNED UP HIGH!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue1FaceSprite" Value="PSHOOOOOOON!,PSHOOOOOOON!,PSHOOOOOOON!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue2FaceSprite" Value="AND THE FINALE!,PSHOOOOOOON!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue3FaceSprite" Value="I’M PRACTICING LIKE I’M,PERFORMING FOR AN,EVENT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue4FaceSprite" Value="NOW GO! SHOO!,I GOTTA PRACTICE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue1FaceNaviPinkFemale" Value="Um.... I’ll be able to pay you,back if you give me just one,more day...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue2FaceNaviPurplePunk" Value="You say that，but we’re not,runnin’ a charity here." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue3FaceShanghai" Value="You got a minute?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue4FaceNaviPurplePunk" Value="What’re ya doin’!?,Stickin’ your nose in other,folks’ business!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue5FaceNaviPurplePunk" Value="Even though you’re a girl，,I can’t just let ya off the hook!" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.FountainRequesterBattle1Enemy1" Value="Mobster" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue1FaceNaviPurplePunk" Value="You think you’re tough!?,You got a problem with me!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue2FaceShanghai" Value="I need to talk to this person,for a bit.,Is. That. O. K?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue3FaceNaviPurplePunk" Value="I can’t do my job like this!,I’ll come back for you later!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue1FaceShanghai" Value="Listen，I didn’t come here to,help you shirk your debt." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue2FaceNaviPinkFemale" Value="Sorry....,Wait! I have a way to pay it off!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue3FaceNaviPinkFemale" Value="But I can’t go get it myself,since that guy keeps pestering,me...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue4FaceShanghai" Value="It?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue5FaceNaviPinkFemale" Value="Yes....,My ancestors once hid some,treasure." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue6FaceNaviPinkFemale" Value="If I sell it，I should be able,to pay off the debt and then,some!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue7FaceShanghai" Value="Where’s the treasure?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue8FaceNaviPinkFemale" Value="Well.... I don’t know." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue9FaceShanghai" Value="Whaaaaaaat!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue10FaceNaviPinkFemale" Value="Hold on! I have a clue!,”Beneath the dry earth where,rest is born”." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue11FaceNaviPinkFemale" Value="Those words were passed,down through a book written,by my ancestors." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue12FaceNaviPinkFemale" Value="That proves that the clue,is referring to the treasure’s,whereabouts." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue13FaceShanghai" Value="”Beneath the dry earth where,rest is born”? What’s that,supposed to mean....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue14FaceNaviPinkFemale" Value="Please help me!,There’s no other way!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue15FaceShanghai" Value="I guess I have no choice.,I took your request after all." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue16FaceNaviPinkFemale" Value="I’m in your debt...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage7Dialogue1FaceNaviPinkFemale" Value="My ancestors lived in,Genso Town for generations." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage7Dialogue2FaceNaviPinkFemale" Value="So I think it would be,somewhere in Genso Town....,Does that help?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue1FaceNaviPinkFemale" Value="Did you find the treasure?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue2FaceShanghai" Value="We found this old data chip，,but is it even worth anything?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue3FaceNaviPinkFemale" Value="Old data?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue4FaceNaviPinkFemale" Value="....T-This is!!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue5FaceNaviPinkFemale" Value="This is some cyber pickles,from 1990!!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue6FaceShanghai" Value="Wait a sec!! Wasn’t that,decades before our new,Internet was made!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue7FaceShanghai" Value="Why is there cyber food from,so long ago!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue8FaceNone" Value="Wha? You again!?" Face="None" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue1FaceNaviPurplePunk" Value="Hmmmm....,So this was your treasure，,huh?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue2FaceNaviPinkFemale" Value="Um.... It’s valuable，but will,it cover my debt....?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue3FaceNaviPurplePunk" Value="You moron! Can’t you see,how valuable this is!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue4FaceNaviPurplePunk" Value="1990 was the historic year,when the world’s first,cyberworld was born!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue5FaceNaviPurplePunk" Value="It might just be the oldest,cyber food in existence...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue6FaceNaviPurplePunk" Value="For your ancestors to have,such a thing....,What were their jobs?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue7FaceNaviPinkFemale" Value="If I’m not mistaken....,They sold machines to,research institutions." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue8FaceNaviPurplePunk" Value="That’d be the research,institution that created the,cyberworld，huh....?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue9FaceNaviPurplePunk" Value="My old man was a cyber,archeologist，so I heard a lot,about it from him." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue10FaceNaviPurplePunk" Value="So I have an idea of how,much they’d be worth if you,sold them." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue11FaceNaviPurplePunk" Value="If my old man had enough,money，he’d definitely trade,ya for ’em." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue12FaceNaviPurplePunk" Value="He would’ve said,”I’ll erase yer debt if’n ya,gimme them pickles”." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue13FaceNaviPurplePunk" Value="Well，now that you’re,debt-free，I have other,business to attend to." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue14FaceNaviPurplePunk" Value="Best not get involved with,people like me when you’re,in debt〜!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue1FaceShanghai" Value="....Was that okay?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue2FaceNaviPinkFemale" Value="Yes....!,Thanks to that，I’m saved!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue3FaceNaviPinkFemale" Value="Here’s your reward!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue4FaceAlice" Value="Um....,I worked hard digging，so...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue5FaceShanghai" Value="Good job!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue6FaceShanghai" Value="Next time，I’ll use some of,my pocket change to buy you,some crafting supplies." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue7FaceAlice" Value="Yay....?,Why do I feel like I’ve been,cheated....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage15Dialogue1FaceNaviPinkFemale" Value="From now on，I’ll do business,in a way that would make my,ancestors proud!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage15Dialogue2FaceNaviPinkFemale" Value="I’ll never be in debt ever again!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainDebtCollectionStage1Dialogue1FaceNaviPurplePunk" Value="You say that，but we’re not,runnin’ a charity here." Face="NaviPurplePunk" Mono="False" />
+</data>

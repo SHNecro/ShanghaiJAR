@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.LostShip1Name" Value="Sunken Ship Comp 1" />
+  <Dialogue Key="Map.LostShip1Door0GateStage1Dialogue1FaceNone" Value="”Please present Passcode”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door0GateStage3Dialogue1FaceNone" Value="”Please present Passcode”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door0GateStage3Dialogue2FaceNone" Value="Shanghai used the,” Old Passcode ”!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door0GateStage3Dialogue3FaceNone" Value="The door opened!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door0GateStage3Dialogue4FaceNone" Value="However，the Old Passcode,instantly broke apart." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door1GateStage1Dialogue1FaceNone" Value="”Please present Key Data”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door1GateStage3Dialogue1FaceNone" Value="”Please present Key Data”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door1GateStage3Dialogue2FaceNone" Value="Shanghai used the,” Old Key Data ”!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door1GateStage3Dialogue3FaceNone" Value="The door opened!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door1GateStage3Dialogue4FaceNone" Value="However，the Old Key Data,instantly broke apart." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door2GateStage1Dialogue1FaceNone" Value="”Please present ID Data”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door2GateStage3Dialogue1FaceNone" Value="”Please present ID Data”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door2GateStage3Dialogue2FaceNone" Value="Shanghai used the,” Old ID Data ”!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door2GateStage3Dialogue3FaceNone" Value="The door opened!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door2GateStage3Dialogue4FaceNone" Value="However，the Old ID Data,instantly broke apart." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door3GateStage1Dialogue1FaceNone" Value="”Please present Passcode”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door3GateStage3Dialogue1FaceNone" Value="”Please present Passcode”,is written faintly on the face,of the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door3GateStage3Dialogue2FaceNone" Value="Shanghai used the,” Old Passcode ”!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door3GateStage3Dialogue3FaceNone" Value="The door opened!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Door3GateStage3Dialogue4FaceNone" Value="However，the Old Passcode,instantly broke apart." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage1Dialogue1FaceSprite" Value="OH....,DID YOU COME HERE,FROM THE OUTSIDE?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage1Dialogue2FaceSprite" Value="I’M NOT TRYING TO SCARE,YOU，BUT PLEASE LEAVE,HERE AT ONCE." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage1Dialogue3FaceSprite" Value="THIS COMP IS ALREADY,DEAD. THERE IS NOTHING,OF VALUE HERE FOR YOU." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage3Dialogue1FaceSprite" Value="OH....,DID YOU COME HERE,FROM THE OUTSIDE?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage3Dialogue2FaceSprite" Value="I’M NOT TRYING TO SCARE,YOU，BUT PLEASE LEAVE,HERE AT ONCE." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage3Dialogue3FaceSprite" Value="THIS COMP IS ALREADY,DEAD. THERE IS NOTHING,OF VALUE HERE FOR YOU." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue1FaceShanghai" Value="I came to get the,Reincarnation Program." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue2FaceSprite" Value="I’M SURE IT’S AT THE,END OF THIS COMP." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue3FaceSprite" Value="....I UNDERSTAND.,I WON’T TRY TO STOP,YOU THEN." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue4FaceSprite" Value="PLEASE USE THIS." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue5FaceShanghai" Value="This data is really beaten-up.,It’s almost falling apart...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue6FaceSprite" Value="USE THAT TO OPEN,THE DOOR." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue7FaceSprite" Value="BUT YOU MUST FIND,ANOTHER DATA TO,CONTINUE ONWARDS." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue8FaceSprite" Value="PLEASE FIND SPRITES LIKE,ME THAT ARE STILL ALIVE,AND TAKE IT FROM THEM." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue9FaceShanghai" Value="....Still alive?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue10FaceSprite" Value="IT IS ALREADY TOO LATE,FOR MOST OF THEM." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage5Dialogue11FaceSprite" Value="YOU WILL SOON KNOW,WHAT I MEAN...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage7Dialogue1FaceSprite" Value="IT IS ALREADY TOO LATE,FOR MOST OF THEM." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage7Dialogue2FaceSprite" Value="YOU WILL SOON KNOW,WHAT I MEAN...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage9Dialogue1FaceSprite" Value="IT IS ALREADY TOO LATE,FOR MOST OF THEM." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite0Stage9Dialogue2FaceSprite" Value="YOU WILL SOON KNOW,WHAT I MEAN...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite1AStage1Dialogue1FaceSprite" Value="DO YOU WANT TO,GO DEEPER?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite1AStage1Dialogue2FaceSprite" Value="PLEASE USE THIS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite1AStage1Dialogue3FaceSprite" Value="USE THAT TO OPEN,THE DOOR!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite1AStage3Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite1AStage5Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite1AStage7Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite2AStage1Dialogue1FaceSprite" Value="DO YOU WANT TO,GO DEEPER?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite2AStage1Dialogue2FaceSprite" Value="PLEASE USE THIS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite2AStage1Dialogue3FaceSprite" Value="USE THAT TO OPEN,THE DOOR!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite2AStage3Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite2AStage5Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite2AStage7Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite3AStage1Dialogue1FaceSprite" Value="DO YOU WANT TO,GO DEEPER?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite3AStage1Dialogue2FaceSprite" Value="PLEASE USE THIS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite3AStage1Dialogue3FaceSprite" Value="USE THAT TO OPEN,THE DOOR!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite3AStage3Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1Sprite3AStage5Dialogue1FaceSprite" Value="I HAVE NOTHING ELSE,TO TELL YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(near)1Stage1Dialogue1FaceBrokenSprite" Value="GAGAGA....PING!,ELIMINATE.... ELIMINATE...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(near)2Stage1Dialogue1FaceBrokenSprite" Value="OVER THERE....,OVER.... THERRRRRR...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(near)3Stage1Dialogue1FaceBrokenSprite" Value="WHERE IS.... EVERYONE....,I CAN’T.... SEE ANYTHING...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(near)4Stage1Dialogue1FaceBrokenSprite" Value="TOMORROW ’S....,WEATHER....,WEATHERRRRRRR...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(near)5Stage1Dialogue1FaceBrokenSprite" Value="PLEASE....,PUT ME....,TO REST...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1LostSprite(junction)1Stage1Dialogue1FaceBrokenSprite" Value="SOMETHING IS....,BREAKING IN...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1LostSprite(junction)2Stage1Dialogue1FaceBrokenSprite" Value="IT’S DARK....,I’M SCARED...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1LostSprite(junction)3Stage1Dialogue1FaceBrokenSprite" Value="AH.... AH...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1LostSprite(junction)4Stage1Dialogue1FaceBrokenSprite" Value="WHY....,DID EVERYONE....,DISAPPEAR...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1LostSprite(junction)5Stage1Dialogue1FaceBrokenSprite" Value="HELLO,AND,GOODBYE" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(after)1Stage1Dialogue1FaceBrokenSprite" Value="BEEP! BEEP! BEEP! BEEP!" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(after)2Stage1Dialogue1FaceBrokenSprite" Value="1042 DAYS HAVE ELAPSED,SINCE OUR VOYAGE BEGAN" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(after)3Stage1Dialogue1FaceBrokenSprite" Value="THIS MESSAGE SHOULD,NOT APPEAR" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(after)4Stage1Dialogue1FaceBrokenSprite" Value="ERROR CODE 20412,ERROR CODE 204...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip1HasureSprite(after)5Stage1Dialogue1FaceBrokenSprite" Value="BZZZZZZZZZZT,BIBIBIBIBIIIIIIIIIIIII...." Face="BrokenSprite" Mono="False" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip1ApproachBattle1Enemy1" Value="EvilSprt" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip1TangleBattle1Enemy1" Value="EvilSprt" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip1LastColumnBattle1Enemy1" Value="EvilSprt" />
+</data>

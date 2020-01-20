@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PhotoFrameName" Value="Photo Frame Comp" />
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy2" Value="Bomber" />
+  <!-- モブナビ -->
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy3" Value="MobNavi" />
+  <Dialogue Key="Map.PhotoFrameSprite1Stage1Dialogue1FaceSprite" Value="KUMAMI WENT ON MANY,ADVENTURES IN,ARABSTAN!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite1Stage1Dialogue2FaceSprite" Value="SHE SWAM IN THE COLD,DESERT，FOUGHT A GIANT,TANK，AND...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite2Stage1Dialogue1FaceSprite" Value="MANY MONSTERS WERE,BORN IN ARABSTAN IN,THE CYBER WARS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite2Stage1Dialogue2FaceSprite" Value="KUMAMI FOUGHT THOSE,MONSTERS!,ISN’T SHE AMAZING!?" Face="Sprite" Mono="False" />
+</data>

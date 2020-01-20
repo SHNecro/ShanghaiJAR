@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　２０Ｆ -->
+  <Text Key="Map.CompanyServer3Name" Value="Company Server Comp 20F" />
+  <Text Key="Map.CompanyServer3RandomBattle1Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer3RandomBattle2Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer3RandomBattle3Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer3RandomBattle4Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer3RandomBattle5Enemy1" Value="AutoRdR" />
+  <Text Key="Map.CompanyServer3RandomBattle6Enemy1" Value="AutoRdR" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServer3DoorStage1Dialogue1FaceNone" Value="It’s locked by security." Face="None" Mono="False" />
+  <!-- 画面には広々としたオフィスが映し出されている -->
+  <Dialogue Key="Map.CompanyServer3SubTerminalStage1Dialogue1FaceNone" Value="A spacious office is displayed,on the screen." Face="None" Mono="False" />
+  <!-- 画面には広々としたオフィスが映し出されている -->
+  <Dialogue Key="Map.CompanyServer3SubTerminalDupeStage1Dialogue1FaceNone" Value="A spacious office is displayed,on the screen." Face="None" Mono="False" />
+  <!-- えーっと　エレベーターエレベーター････っと -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage1Dialogue1FaceShanghai" Value="Elevator，elevator....There!" Face="Shanghai" Mono="False" />
+  <!-- あったわ　これね！ -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage1Dialogue2FaceShanghai" Value="Hurry，I got it!" Face="Shanghai" Mono="False" />
+  <!-- 礼を言うエレベーターが動き始めた -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage3Dialogue1FaceReisen" Value="Thank you. I see the elevator,starting to move." Face="Reisen" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage5Dialogue1FaceNone" Value="There’s no need to use this,terminal any more." Face="None" Mono="False" />
+  <!-- またオートロイドが来ると思ったけど誰もいないわね -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage1Dialogue1FaceShanghai" Value="Huh，I thought there’d be more,Autoroids，but there’s none...." Face="Shanghai" Mono="False" />
+  <!-- どうせここまで来れる侵入者なんていないとでも思ってるとかかな？ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage1Dialogue2FaceShanghai" Value="Did I beat them all?" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！今どこ？ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue1FaceAlice" Value="Shanghai! Where are you at,now?" Face="Alice" Mono="False" />
+  <!-- ２０階のサーバーの奥よ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue2FaceShanghai" Value="I’m at the back of the server,on the 20th floor." Face="Shanghai" Mono="False" />
+  <!-- よし　ならばその辺りの端末でエレベーターの個人認証システムを切ってくれ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue3FaceReisen" Value="Look for the security system,for the elevator controls." Face="Reisen" Mono="False" />
+  <!-- それを切れば社長室へと乗り込むことが出来る -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue4FaceReisen" Value="That will allow us to enter the,president’s office." Face="Reisen" Mono="False" />
+  <!-- わかったわエレベーターね -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue5FaceShanghai" Value="Alright，elevator. Got it." Face="Shanghai" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer3PunishmentStage1Dialogue1FaceNone" Value="INVALID SEQUENCE,ENTERED." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer3PunishmentStage1Dialogue2FaceNone" Value="SECURITY AUTOROIDS,HAVE BEEN NOTIFIED!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer3PunishmentBattle1Enemy1" Value="AutordSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer3PunishmentBattle1Enemy2" Value="AutordSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer3PunishmentStage3Dialogue1FaceShanghai" Value="I wanted to solve that correctly...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer3BGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer3AGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+</data>

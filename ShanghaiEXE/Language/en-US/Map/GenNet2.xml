@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　ゲンソウエリア2 -->
+  <Text Key="Map.GenNet2Name" Value="Genso Area 2" />
+  <!-- 右に曲がったワープからゲンソウスクエアに行こう！ -->
+  <Dialogue Key="Map.GenNet2GuidePlateStage1Dialogue1FaceNone" Value="The warp to the right will take,you to Genso Square!" Face="None" Mono="False" />
+  <!-- レミリアのセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage1Dialogue1FaceNone" Value="It’s Remilia’s P-Cube." Face="None" Mono="False" />
+  <!-- レミリアのＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage1Dialogue2FaceNone" Value="It can be unlocked with,Remilia’s P-Code." Face="None" Mono="False" />
+  <!-- レミリアのセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage3Dialogue1FaceNone" Value="It’s Remilia’s P-Cube." Face="None" Mono="False" />
+  <!-- レミリアのＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage3Dialogue2FaceNone" Value="Remilia’s P-Code unlocked,the P-Cube!" Face="None" Mono="False" />
+  <!-- 壊れたセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet2Chapter1BrokenCubeStage1Dialogue1FaceNone" Value="It’s a broken P-Cube." Face="None" Mono="False" />
+  <!-- そのうち管理人が撤去してくれるはずだ -->
+  <Dialogue Key="Map.GenNet2Chapter1BrokenCubeStage1Dialogue2FaceNone" Value="Looks like only its owner can,remove it." Face="None" Mono="False" />
+  <!-- こんなところに壊れたキューブ置いたのは誰だよ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="Whose idea was it to put a,broken P-Cube in a place like,this!?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ああ　シャンハイさんここは通れないんでスクエアへは遠回りしてください -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="Ah，Shanghai!,This road is blocked，so you’ll,have to take a detour." Face="NaviGreenRobot" Mono="False" />
+  <!-- 十字路を曲がったところの坂を降りて　下からぐるっと回りこめば向こう側へ行けます -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="Just walk down the slope and,around the bottom path." Face="NaviGreenRobot" Mono="False" />
+  <!-- やっとここが通れるようになったよ -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage3Dialogue1FaceNaviGreenRobot" Value="Finally! It’s out of the way!" Face="NaviGreenRobot" Mono="False" />
+  <!-- あれ　そもそもここを通ってどこへ行こうとしてたんだっけ？ -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage3Dialogue2FaceNaviGreenRobot" Value="Wait，why didn’t I just go,around it like you did?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ココヲ　トオッタ　ガラノワルイナビタチガ　ツウロヲコワシテ　イッタンデスヨ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="SOME BAD NAVIS CAME,THROUGH HERE AND,BROKE THE ROAD!" Face="Sprite" Mono="False" />
+  <!-- シュウリ　スルホウノ　ミニモナッテクダサイ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="AND I’M THE ONE THAT,HAS TO FIX IT!" Face="Sprite" Mono="False" />
+  <!-- プンスコ　プンスコ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1Sprite1Stage1Dialogue3FaceSprite" Value="POUT POUT!" Face="Sprite" Mono="False" />
+  <!-- 感じるの････ -->
+  <Dialogue Key="Map.GenNet2Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="Do you feel it....?" Face="NaviChild" Mono="False" />
+  <!-- デリートされた強力なナビのまるで怨霊のようなデータの断片を････ -->
+  <Dialogue Key="Map.GenNet2Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="The ghost-like data fragments,of a powerful fallen Navi?" Face="NaviChild" Mono="False" />
+  <!-- おねえちゃん････気をつけてね････ -->
+  <Dialogue Key="Map.GenNet2Chapter2YoungGirlNavi1Stage1Dialogue3FaceNaviChild" Value="Sis....,Be careful out there...." Face="NaviChild" Mono="False" />
+  <!-- デリートされたデータやプログラムは実は消えずにどこかに残ってるらしいですよ -->
+  <Dialogue Key="Map.GenNet2Chapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="It seems like deleted data,goes somewhere else instead,of disappearing." Face="NaviGreenRobot" Mono="False" />
+  <!-- なんだかお化けみたいで怖い話ですね -->
+  <Dialogue Key="Map.GenNet2Chapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="Sounds like a scary ghost,story，huh?" Face="NaviGreenRobot" Mono="False" />
+  <!-- シティエリアは都会のエリアだだからかこのエリアに比べるとかなり広いエリアなんだよなー -->
+  <Dialogue Key="Map.GenNet2Chapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="City Area is an urban Area，so,it’s pretty large compared to,ours." Face="NaviOrangeMale" Mono="False" />
+  <!-- このエリアでも迷う俺なんかが行ったら確実に迷子になる自信があるぜ！ -->
+  <Dialogue Key="Map.GenNet2Chapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="I still get lost here，so I’m sure,I’d get lost if I went there!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 壊れていたシティエリアへの道が復旧したんですって！ -->
+  <Dialogue Key="Map.GenNet2Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="The damaged road to City,Area was finally fixed!" Face="NaviPinkFemale" Mono="False" />
+  <!-- そこの道を真っ直ぐ行くと都会のシティエリアよ！ -->
+  <Dialogue Key="Map.GenNet2Chapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="Just keep going straight and,you’ll run right into City Area!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 冷蔵庫の暴走事件が起きなくなってからこのエリアでおかしいことが起こるんですよ -->
+  <Dialogue Key="Map.GenNet2Chapter2OfficialNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="Ever since the fridge incident，,strange things have been,happening in this Area." Face="NaviBlueRobot" Mono="False" />
+  <!-- 亡霊のようなナビを見たとかそのナビに急に襲われたとか････ -->
+  <Dialogue Key="Map.GenNet2Chapter2OfficialNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="Things such as sightings of,ghost-like Navis that suddenly,attack passersby." Face="NaviBlueRobot" Mono="False" />
+  <!-- ここ最近この辺りで事件が頻発していたのでパトロールを強化しています -->
+  <Dialogue Key="Map.GenNet2Chapter2OfficialNavi2Stage1Dialogue1FaceNaviBlueRobot" Value="Due to the incidents in this,Area，we’ve recently stepped,up our patrols." Face="NaviBlueRobot" Mono="False" />
+  <!-- あら　あなたがワタクシの依頼を受けてくれた人ですの？ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="Oh? Are you the one who,took my request?" Face="NaviPurpleFemale" Mono="False" />
+  <!-- オホホ　あなたはワタクシと同じようなタイプですことねちょうどいいですわ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue2FaceNaviPurpleFemale" Value="Ohoho! You and I are cut,from the same cloth.,This’ll be good." Face="NaviPurpleFemale" Mono="False" />
+  <!-- では依頼について話しますわよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue3FaceNaviPurpleFemale" Value="Well then，let me tell you,about my problem." Face="NaviPurpleFemale" Mono="False" />
+  <!-- シティエリア２にワタクシのような美女にちょっかいをかける悪いナビがいますことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue4FaceNaviPurpleFemale" Value="There’s a bad Navi in City,Area 2 who keeps pestering,beautiful women like me." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 気味が悪いのでワタクシシティエリアを歩けずウップンがたまっておりますの -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue5FaceNaviPurpleFemale" Value="I feel uneasy walking through,City Area. I’ve had enough." Face="NaviPurpleFemale" Mono="False" />
+  <!-- どうかそのナビをこらしめワタクシが安心して歩けるようにしてほしいのですことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue6FaceNaviPurpleFemale" Value="I’d like you to punish that,Navi so I can roam the net,in peace." Face="NaviPurpleFemale" Mono="False" />
+  <!-- はやくやっつけてくださいまし期待してますことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue7FaceNaviPurpleFemale" Value="I’m counting on you to,take care of this quickly." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 悪いナビはシティエリア２にいますことよ早くこらしめてくださいまし -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage3Dialogue1FaceNaviPurpleFemale" Value="The bad Navi is in City Area 2.,Please punish him as soon as,possible." Face="NaviPurpleFemale" Mono="False" />
+  <!-- ホホホ　気味の悪いナビをこらしめてくださいましたのね -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage5Dialogue1FaceNaviPurpleFemale" Value="Hohoho....,You sure punished that,creepy Navi." Face="NaviPurpleFemale" Mono="False" />
+  <!-- これでワタクシは安心してシティエリアを歩けますわ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage5Dialogue2FaceNaviPurpleFemale" Value="Now I can rest easy and walk,through City Area in peace." Face="NaviPurpleFemale" Mono="False" />
+  <!-- これはお礼ですわ報酬と言ったほうがいいですこと？ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage5Dialogue3FaceNaviPurpleFemale" Value="Take this as a thank you.,Or should I call it a reward?" Face="NaviPurpleFemale" Mono="False" />
+  <!-- ワタクシのような美人には悪い虫がつきものですことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage7Dialogue1FaceNaviPurpleFemale" Value="Beauties like me always have,a bad boyfriend around." Face="NaviPurpleFemale" Mono="False" />
+  <!-- あなたも美をもつ者ならば気をつけなさいまし -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage7Dialogue2FaceNaviPurpleFemale" Value="If you too hold beauty within,yourself，please be careful." Face="NaviPurpleFemale" Mono="False" />
+  <!-- しまった　ＲＯＭのナビを見失ってしまったぞ -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="Rats!,I lost sight of the ROM Navi." Face="NaviBlueRobot" Mono="False" />
+  <!-- 応援を呼んで囲い込もう！ -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="I’ll call for backup，and then,we’ll surround her!" Face="NaviBlueRobot" Mono="False" />
+  <!-- ＲＯＭの凶悪ネットナビが逃げまわってるみたいだね -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="Looks like a fiendish ROM,Navi is on the run." Face="NaviGreenRobot" Mono="False" />
+  <!-- 捕まえたら報酬もらえるかな？ -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="Is there a bounty on her head?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ＲＯＭのナビがいるみたいだけど早く捕まってくれないと安心して出歩けないわ -->
+  <Dialogue Key="Map.GenNet2Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="I can’t go out without worrying,about that ROM Navi running,around." Face="NaviPinkFemale" Mono="False" />
+  <!-- ボーダーコンツェルンの八雲社長って４０代なのに独身なんだって -->
+  <Dialogue Key="Map.GenNet2Chapter4GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="Ms. Yakumo is still single，but,she’s already in her forties." Face="NaviPinkFemale" Mono="False" />
+  <!-- なにかを捨てないとお金持ちになることはできないのかしら････ -->
+  <Dialogue Key="Map.GenNet2Chapter4GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="I wonder if you have to,sacrifice something for,your wealth...." Face="NaviPinkFemale" Mono="False" />
+  <!-- 僕らのような人に近い顔を持つネットナビは最新型の第３世代ナビなんだ -->
+  <Dialogue Key="Map.GenNet2Chapter4Navi1Stage1Dialogue1FaceNaviOrangeMale" Value="The latest third-gen NetNavis,like us have a human-like,face." Face="NaviOrangeMale" Mono="False" />
+  <!-- 黄色いロボットみたいな外見のは１つ前の世代のナビなんだって -->
+  <Dialogue Key="Map.GenNet2Chapter4Navi1Stage1Dialogue2FaceNaviOrangeMale" Value="Navis that look like yellow,robots are from the previous,generation." Face="NaviOrangeMale" Mono="False" />
+  <!-- 今からスクエアにお米を買いに行くのよ -->
+  <Dialogue Key="Map.GenNet2Chapter7GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="I’m headed to Genso Square to,get some rice!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ＲＯＭの事件も鳴りを潜めネットエージェントも最近は退屈だよ -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1Stage1Dialogue1FaceNaviBlueRobot2" Value="The NetAgents must be bored.,ROM hasn’t shown their face in,a while." Face="NaviBlueRobot2" Mono="False" />
+  <!-- ヒャッハー！よわっちいニンゲンが食い放題だー！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage1Dialogue1FaceNaviBlackRobe" Value="Hehehe!,An all-you-can-eat buffet!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNet2BlackRobe3Battle1Enemy1" Value="????" />
+  <!-- ････ふうゲンソウエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage3Dialogue1FaceShanghai" Value="....Looks like that’s everyone in,Genso Area." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue1FaceShanghai" Value="Alice，a phone call!,From Reisen!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue2FaceAlice" Value="Reisen! I’ve taken out the black,Navis in the Areas!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue3FaceReisen" Value="Confirmed. Your assistance is,appreciated." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue4FaceReisen" Value="Reports are coming in that they,emerged from the deepest,parts of the Undernet." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue5FaceReisen" Value="Sources in the Undernet claim,that they are not inhabitants，,but rather appeared suddenly." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue6FaceReisen" Value="It pains me to ask，but can you,investigate their origins?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue7FaceShanghai" Value="The Deep Undernet...." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue8FaceAlice" Value="Are you alright，Shanghai?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue9FaceShanghai" Value="It’s nothing.,Just the nerve of those guys!" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue10FaceShanghai" Value="We’ll wipe them out!" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue11FaceReisen" Value="Our thanks." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue12FaceReisen" Value="If you want a reward，contact,the NetAgents after this is over." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue13FaceShanghai" Value="We’ll hunt these guys down in,no time flat!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue14FaceAlice" Value="....Will we be okay in the Deep,Undernet?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue15FaceShanghai" Value="What are you talking about?,We’re invincible wherever we,go!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue16FaceAlice" Value="....Yeah!,To the Deep Undernet!" Face="Alice" Mono="False" />
+  <!-- ひぃぃぃ！助けてくれぇぇ！ -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage1Dialogue1FaceNaviOrangeMale" Value="Ahhh!,Someone help me!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 助かったよシャンハイさん････ -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue1FaceNaviOrangeMale" Value="Thank you，Miss Shanghai，,thank you...." Face="NaviOrangeMale" Mono="False" />
+  <!-- お礼にお手伝いをしたいけどこ　腰がぬけて動けない -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue2FaceNaviOrangeMale" Value="I would help you，but I can’t feel,my legs...." Face="NaviOrangeMale" Mono="False" />
+  <!-- お買い物でしたらカウンターの向こうからお願いします -->
+  <Dialogue Key="Map.GenNet2ShopClerkStage1Dialogue1FaceNaviPinkFemale" Value="If you’re here to shop，please,talk to me from the other side,of the counter." Face="NaviPinkFemale" Mono="False" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.GenNet2ShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="I’m a Net vendor.,See anything you like?" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.GenNet2ShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- 不気味な扉が道を塞いで通ることができない！ -->
+  <Dialogue Key="Map.GenNet2ROMGateStage1Dialogue1FaceNone" Value="An eerie door blocks the path.,I can’t go through!" Face="None" Mono="False" />
+  <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
+  <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue1FaceNone" Value="Shanghai used:,”ROM-ID”!" Face="None" Mono="False" />
+  <!-- 不気味な扉が開いた！ -->
+  <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue2FaceNone" Value="The eerie door opened!" Face="None" Mono="False" />
+  <!-- 上と下の交わる････つまり道が縦に交差しててそれの底････ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue1FaceAlice" Value="”Where above and below,meet”.... These paths meet,vertically，so...." Face="Alice" Mono="False" />
+  <!-- 底ってことは下のこと要するにこういう場所でしょ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue2FaceShanghai" Value="”Above and below” meet in the,middle，so right here!" Face="Shanghai" Mono="False" />
+  <!-- 見て　アリス！ここの床だけデータにほころびがあるわ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue3FaceShanghai" Value="Look，Alice!,There’s a crack in the floor!" Face="Shanghai" Mono="False" />
+  <!-- ････見てもわからないけどそうなの？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue4FaceAlice" Value="....I can’t see it.,Are you sure?" Face="Alice" Mono="False" />
+  <!-- 間違いないわここをこう掘って・・・・ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue5FaceShanghai" Value="I’m sure!,If I just dig a bit...." Face="Shanghai" Mono="False" />
+  <!-- ・・・って何これ？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue6FaceShanghai" Value="....What’s this?" Face="Shanghai" Mono="False" />
+  <!-- バトルチップじゃなさそうね････シャンハイ　わからない？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue7FaceAlice" Value="It doesn’t look like a,Battle Chip....,Do you recognize it?" Face="Alice" Mono="False" />
+  <!-- えーっと・・・・何かしらの圧縮データってことしかわからないわね -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue8FaceShanghai" Value="Um.... I only know that it’s,some kind of compressed,data." Face="Shanghai" Mono="False" />
+  <!-- あっしゅくデータ？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue9FaceAlice" Value="Compressed data?" Face="Alice" Mono="False" />
+  <!-- 大きなデータファイルを移動しやすいように････ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue10FaceShanghai" Value="Compressing data makes,it easier to move large data,files...." Face="Shanghai" Mono="False" />
+  <!-- 決まったルールで容量を縮めたデータのことよ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue11FaceShanghai" Value="Data can be reduced to,a much smaller size by,following a few rules." Face="Shanghai" Mono="False" />
+  <!-- この中身がバトルチップの可能性もあるでしょうけどこのままじゃ判別できないわ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue12FaceShanghai" Value="It could contain a Battle Chip，,but I can’t tell as is." Face="Shanghai" Mono="False" />
+  <!-- 圧縮を元に戻すことはできないの？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue13FaceAlice" Value="Can you decompress it?" Face="Alice" Mono="False" />
+  <!-- できたらとっくにやってるわよ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue14FaceShanghai" Value="If I could，I would’ve done it,already!" Face="Shanghai" Mono="False" />
+  <!-- 見たこともない拡張子だしデータ解析専門のところにいかないとダメね -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue15FaceShanghai" Value="I’ve never seen this extension,before，so we might need to,take it to a data expert." Face="Shanghai" Mono="False" />
+  <!-- 残念ね････せっかく見つけたのに -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue16FaceAlice" Value="That’s a shame....,Even after we worked,so hard to find it...." Face="Alice" Mono="False" />
+  <!-- ま、今日のところはこれくらいにしましょ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue17FaceShanghai" Value="Well，let’s just save it for later." Face="Shanghai" Mono="False" />
+  <!-- オヤツの時間だし電脳アイスをたべようかな〜 -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue18FaceShanghai" Value="It’s snack time，so let’s go get,some cyber ice cream〜!" Face="Shanghai" Mono="False" />
+  <!-- また食べるの？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue19FaceAlice" Value="Again?,You had some yesterday，,and the day before that." Face="Alice" Mono="False" />
+  <!-- 昨日も　おとといも食べたのにあんまりアイスばかり食べるとアイスのウィルスになるわよ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue20FaceAlice" Value="If you only eat ice cream，you’ll,turn into an ice cream virus!" Face="Alice" Mono="False" />
+  <!-- なるかぃ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue21FaceShanghai" Value="Yeah right!" Face="Shanghai" Mono="False" />
+  <!-- じゃ　そんなわけでアリス　気が済んだらプラグアウトお願いね -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue22FaceShanghai" Value="Anyways，just do me a favor,and jack out，will you?" Face="Shanghai" Mono="False" />
+  <!-- もう　勝手ばっかりなんだから -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue23FaceAlice" Value="Jeez，you always want things,your way." Face="Alice" Mono="False" />
+  <!-- 倒したナビの残骸データがどこかへと飛び去っていった････ -->
+  <Dialogue Key="Map.GenNet2CirnoV2Stage1Dialogue1FaceNone" Value="The defeated Navi’s remains,flew away...." Face="None" Mono="False" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="Hey，little girl....,You have a pretty dark aura,about you，huh?" Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="Why not fight some viruses,I raised? If you win，I’ll give,you a Dark Chip." Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="Of course，you’ll be putting,your life on the line...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="Will you fight my viruses?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.GenNet2DarkSellerStage1Dialogue4Options" Value="Let’s do it!,On second thought...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="Tch....,Getting cold feet?" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="Alright，let’s go!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="You won! Not bad〜!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="Here you go，as promised!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="I lost to you. I have no right,to say anything else." Face="NaviBlackHeel" Mono="False" />
+  <Dialogue Key="Map.GenNet2PostGameBystander1Dialogue1" Value="This is a great place to try out,new chips." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.GenNet2PostGameBystander2Dialogue1" Value="Only around here can I relax,while I’m on patrol." Face="NaviBlueRobot" Mono="False" />
+</data>

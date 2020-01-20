@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HosTVName" Value="Hospital TV Comp" />
+  <Dialogue Key="Map.HosTVSprite1Stage1Dialogue1FaceSprite" Value="TODAY’S DISH IS A PICKLED,CUCUMBER AND SEAWEED,SALAD!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite1Stage1Dialogue2FaceSprite" Value="THE FOOD HERE IS,PREPARED AHEAD,OF TIME!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite2Stage1Dialogue1FaceSprite" Value="NO WAAAAAAY!,THAT PERSON IS GONNA,DO THAT THING!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite2Stage1Dialogue2FaceSprite" Value="I ALWAYS THOUGHT THEY,WERE GONNA DO THAT,THING SOMEDAY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue1FaceNaviBlueRobot" Value="Oh，you actually came?,So you’re Shanghai，the,one who took my request." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue2FaceNaviBlueRobot" Value="As I wrote in my Request，I,used to be a NetAgent，but,I’m retired now." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue3FaceNaviBlueRobot" Value="Watching you fight should get,me back up to speed so I can,combat the public unrest." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue4FaceNaviBlueRobot" Value="So，Shanghai，I will now,release some viruses.,Show me a glorious victory." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue5FaceNaviBlueRobot" Value="Now，begin!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue1FaceNaviBlueRobot" Value="Huh. You really showed ’em.,Seems you could even be,a professional virus hunter." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue2FaceNaviBlueRobot" Value="Now，as promised，here’s your,reward for fulfilling my request." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue3FaceNaviBlueRobot" Value="Also，let me give you this,for safekeeping." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue4FaceNaviBlueRobot" Value="I confiscated it from a criminal,group I’d caught in the past." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue5FaceNaviBlueRobot" Value="That ID card opens ROM’s,secret vaults. I’m sure you,can put it to good use." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue6FaceNaviBlueRobot" Value="Give it a try if you find any,doors with a skull mark on,them." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue7FaceShanghai" Value="...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue8FaceAlice" Value="Something on your mind，,Shanghai?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue9FaceShanghai" Value="Just that I’m worn out,all of a sudden...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage5Dialogue1FaceNaviBlueRobot" Value="Hm?,How did I catch such,strong viruses?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage5Dialogue2FaceNaviBlueRobot" Value="Ha ha ha!,Youngsters like you shouldn’t,worry about the details." Face="NaviBlueRobot" Mono="False" />
+</data>

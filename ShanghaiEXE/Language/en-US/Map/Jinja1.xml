@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja1Name" Value="Shrine Comp 1" />
+  <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue1FaceShanghai" Value="Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue2FaceAlice" Value="You’re out of stamina....,Let’s jack out!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue1FaceNone" Value="Shanghai inserted the,Yin Key and Yang Key into,the door!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue2FaceNone" Value="The door lowered!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage3Dialogue1FaceNone" Value="The door is locked.,It won’t move an inch!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue1FaceSprite" Value="HAWAWAWA! HAWAWAWA!,THE CYBER HEAT CAUSED,THE SECURITY TO GO" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue2FaceSprite" Value="HAYWIRE AND CLOSE,THE DOOR!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue3FaceShanghai" Value="How do I open the door?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue4FaceSprite" Value="TO OPEN THE DOOR，,YOU NEED TWO KEYS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue5FaceSprite" Value="YOU NEED THE BLACK,YIN KEY AND THE WHITE,YANG KEY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue6FaceSprite" Value="BUT WATCH OUT!,THIS COMP GETS REALLY,HOT SOMETIMES!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue7FaceSprite" Value="AH! HERE IT COMES AGAIN!,DON’T MOVE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue1FaceShanghai" Value="Ah，that surprised me." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue2FaceSprite" Value="THERE’S A BARRIER IN,THE TATAMI-LIKE FLOOR,THAT PROTECTS" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue3FaceSprite" Value="AGAINST THE HEAT!,WHEN YOU SEE RED，,GET TO A TATAMI!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue4FaceSprite" Value="IF YOU DON’T，,IT’LL GET TOASTY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue1FaceSprite" Value="TO OPEN THE DOOR，,YOU NEED TWO KEYS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue2FaceSprite" Value="YOU NEED THE BLACK,YIN KEY AND THE WHITE,YANG KEY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue3FaceSprite" Value="BUT WATCH OUT!,THIS COMP SOMETIMES,GETS REALLY HOT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue4FaceSprite" Value="THERE’S A BARRIER IN,THE TATAMI-LIKE FLOOR,THAT PROTECTS" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue5FaceSprite" Value="AGAINST THE HEAT!,WHEN YOU SEE RED，,GET TO A TATAMI!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue6FaceSprite" Value="IF YOU DON’T，IT’LL,GET TOASTY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage7Dialogue1FaceSprite" Value="DONATIONS! DONATIONS!,BLESSINGS FOR,DONATIONS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage1Dialogue1FaceSprite" Value="THERE’S A BARRIER,PROTECTING THIS,TATAMI AREA!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage1Dialogue2FaceSprite" Value="IF YOU STAND HERE，,YOU CAN WITHSTAND,THE HEAT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage3Dialogue1FaceSprite" Value="DONATIONS! DONATIONS!,BLESSINGS FOR,DONATIONS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue1FaceShanghai" Value="It’s hot....,Something in here must,be causing the fire." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue2FaceAlice" Value="If you stamp out the cause，,the fire might disappear!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue3FaceAlice" Value="Hurry，Shanghai!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue4FaceShanghai" Value="No need to tell me twice!" Face="Shanghai" Mono="False" />
+</data>

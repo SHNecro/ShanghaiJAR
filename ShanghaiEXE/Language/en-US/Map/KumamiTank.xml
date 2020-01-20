@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.KumamiTankName" Value="Tank Comp" />
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy2" Value="Bomber" />
+  <!-- モブナビ -->
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy3" Value="MobNavi" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue1FaceSprite" Value="11MM MACHINE GUNS，,88MM CANNONS，AND A,MISSILE LAUNCHER!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue2FaceSprite" Value="THEY ’RE DISABLED NOW，,BUT WE’LL OPEN FIRE,IN AN EMERGENCY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue3FaceSprite" Value="BOOOOM! BOOOOM!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite2Stage1Dialogue1FaceSprite" Value="WE’RE THE HATCH,CONTROL SPRITES!,THERE SHOULD BE A" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite2Stage1Dialogue2FaceSprite" Value="WEAPONS SPRITE HERE,TOO! WHERE DID SHE,RUN OFF TO!?" Face="Sprite" Mono="False" />
+</data>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.FountainName" Value="噴水の電脳" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue1FaceSprite" Value="オヤ　ココニクルトハ,ナカナカ　メザトイデスネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue2FaceSprite" Value="コノ　フンスイハ,デンシセイギョ　ニヨッテ,エンシュツガ　カエラレルンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue3FaceSprite" Value="ガクエンサイ　トカデ,モリアガルンデスヨ　コレガ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue1FaceSprite" Value="プッシューーーーーン！,プッシューーーーーン！,プッシューーーーーン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue2FaceSprite" Value="ソシテ　シメノ,プッシューーーーーン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue3FaceSprite" Value="イベントヨウノ　エンシュツノ,レンシュウ　シテルンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue4FaceSprite" Value="ホラホラ　シッシ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue1FaceNaviPinkFemale" Value="いや････ですから,あと１日だけ待ってもらえれば,お返ししますから････" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue2FaceNaviPurplePunk" Value="そう言うても　あんさん,わてらとて慈善事業や,おまへんのや" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue3FaceShanghai" Value="ちょっといいかしら？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue4FaceNaviPurplePunk" Value="なんやおまえ,ワシらのビジネスに,ケチつけよるんか！？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue5FaceNaviPurplePunk" Value="オナゴやゆーても,容赦せーへんで,いてこましたるわい！" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.FountainRequesterBattle1Enemy1" Value="フジワラグミ" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue1FaceNaviPurplePunk" Value="ジブンつよすぎちゃうか！？,ナニモンやおまえ！？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue2FaceShanghai" Value="ちょっとこの人に話があるのよ,少しの間　い・い・か・し・ら？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue3FaceNaviPurplePunk" Value="こんなんじゃ仕事にならんわ,あとでまた戻ってくるさかい,かくごせぇよ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue1FaceShanghai" Value="あのさぁ,あたしは借金の踏み倒しに,協力しに来たんじゃないけど" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue2FaceNaviPinkFemale" Value="すみません････,でも　借金を返す,あてはあるんです！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue3FaceNaviPinkFemale" Value="けれど先程のように,何度も取り立てられては,そのアテも頼れず････" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue4FaceShanghai" Value="アテ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue5FaceNaviPinkFemale" Value="はい････,祖先がかつて隠した,お宝があるんです" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue6FaceNaviPinkFemale" Value="それを売れば借金を返しても,お釣りが来るくらいだと,言われてるんです！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue7FaceShanghai" Value="そのお宝はどこにあるの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue8FaceNaviPinkFemale" Value="それが････わからないんです" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue9FaceShanghai" Value="はあぁぁぁぁああ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue10FaceNaviPinkFemale" Value="待ってください！,ヒントはあるんですよ！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue11FaceNaviPinkFemale" Value="「いこいうまれゆるかわきの底」,という記述が祖先が記した本に,残されていたんです" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue12FaceNaviPinkFemale" Value="そしてそれが　お宝のありかを,示すものだという証拠もあります" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue13FaceShanghai" Value="いこいうまれゆるかわきの底？,わけがわからないわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue14FaceNaviPinkFemale" Value="お願いします！,これしか道はないんです！,どうか助けてください！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue15FaceShanghai" Value="しょーがないわねぇ,受けた依頼だし,探してきてあげるわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue16FaceNaviPinkFemale" Value="お願いします････" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage7Dialogue1FaceNaviPinkFemale" Value="祖先は代々幻想町に,住んでいたんです" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage7Dialogue2FaceNaviPinkFemale" Value="なので　幻想町のどこかに,あると思うんですが････,参考になりませんか？" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue1FaceNaviPinkFemale" Value="お宝は見つかりました？" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue2FaceShanghai" Value="この古ぼけたデータが,見つかったけど,そんなに価値があるの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue3FaceNaviPinkFemale" Value="古ぼけたデータ？" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue4FaceNaviPinkFemale" Value="････こ　これは！！？" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue5FaceNaviPinkFemale" Value="これは　１９９０年物の,電脳漬け物ですよ！！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue6FaceShanghai" Value="ちょっとまってよ！！,今のインターネットになったのって,ここ何十年か前でしょ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue7FaceShanghai" Value="なんでそれ以前の年代の,電脳食料が存在するのよ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue8FaceNone" Value="なんや　またおまえさんか！" Face="None" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue1FaceNaviPurplePunk" Value="ほ〜〜〜〜そいつが,あんさんとこのお宝ゆーもんやな" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue2FaceNaviPinkFemale" Value="えっと････貴重なものですけど,これじゃあ借金は････" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue3FaceNaviPurplePunk" Value="このアホが！,これの価値がわからんのか！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue4FaceNaviPurplePunk" Value="１９９０年といや,世界初の電脳世界が,誕生した歴史的年代やぞ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue5FaceNaviPurplePunk" Value="もしかしたら現存する,電脳食料の中でも,最古のものかもしれへん････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue6FaceNaviPurplePunk" Value="こないなもん持っとる先祖････,なにしてはったんや？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue7FaceNaviPinkFemale" Value="確か････研究機関に,機械を卸していたとか････" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue8FaceNaviPurplePunk" Value="その研究機関ゆーのが,電脳世界を作った,もんだったんやろなぁ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue9FaceNaviPurplePunk" Value="ウチのオヤジ　電脳考古学に,おネツでな　うんちく聞かされて,詳しゅうなったんや" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue10FaceNaviPurplePunk" Value="せやからこれの価値もわかるし,カネに換算したらとんでものー,額になるのもわかる" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue11FaceNaviPurplePunk" Value="きっとオヤジはこれを知って,あんさんとこに取り立て,激しゅうさせはったんやろな" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue12FaceNaviPurplePunk" Value="この漬け物のかわりに,あんさんとこの借金帳消しにと,オヤジが言うとるわ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue13FaceNaviPurplePunk" Value="ほな　借金のないカタギに,もう用事はあらへんからな" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue14FaceNaviPurplePunk" Value="もうウチんとこみたいなとこに,借金したらあかんで〜！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue1FaceShanghai" Value="････これでよかったのかしら" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue2FaceNaviPinkFemale" Value="はい････お陰で助かりました！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue3FaceNaviPinkFemale" Value="お礼にこれを差し上げます！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue4FaceAlice" Value="あのさー　私すっごい,掘るの頑張ったんだけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue5FaceShanghai" Value="ご苦労様！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue6FaceShanghai" Value="今度ポケットマネーで,欲しがってた手芸用品,買ってあげるわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue7FaceAlice" Value="わーい････,なーんかモノで釣られた気分････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage15Dialogue1FaceNaviPinkFemale" Value="今後は祖先に,恥ずかしくないように,商売をしていきます！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage15Dialogue2FaceNaviPinkFemale" Value="もう二度と借金なんか,しなくていいように！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainDebtCollectionStage1Dialogue1FaceNaviPurplePunk" Value="そう言うても　あんさん,わてらとて慈善事業や,おまへんのや" Face="NaviPurplePunk" Mono="False" />
+</data>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM基地　通路 -->
+  <Text Key="Map.ROMbase3fName" Value="ROM Base Hallway" />
+  <!-- この部屋の空調を管理するコントロールパネルだ -->
+  <Dialogue Key="Map.ROMbase3fBasicsOfPipesStage1Dialogue1FaceNone" Value="This control panel manages the,room’s air conditioning." Face="None" Mono="False" />
+  <!-- プラグインすることでバリアーの解除もできそうだ -->
+  <Dialogue Key="Map.ROMbase3fBasicsOfPipesStage1Dialogue2FaceNone" Value="You can jack in to access the,barrier control network as well." Face="None" Mono="False" />
+  <!-- なぜか自動販売機が置かれている -->
+  <Dialogue Key="Map.ROMbase3fVendingMachineStage1Dialogue1FaceNone" Value="There’s a vending machine,here for some reason." Face="None" Mono="False" />
+  <!-- 意外と福利厚生がしっかりしているのだろうか -->
+  <Dialogue Key="Map.ROMbase3fVendingMachineStage1Dialogue2FaceNone" Value="Should it be suprising that an,evil organization has a pretty,nice snack selection?" Face="None" Mono="False" />
+  <!-- 座り心地の悪い長椅子だ -->
+  <Dialogue Key="Map.ROMbase3fChairStage1Dialogue1FaceNone" Value="It’s a very uncomfortable couch." Face="None" Mono="False" />
+  <!-- ＲＯＭの構成員が座って休憩しているさまが目に浮かぶ -->
+  <Dialogue Key="Map.ROMbase3fChairStage1Dialogue2FaceNone" Value="It’s a small satisfaction to think,of ROM members being unable,to get a good rest." Face="None" Mono="False" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase3fBarrierStage1Dialogue1FaceNone" Value="It’s a barrier blocking the way,to the next room." Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase3fBarrierStage1Dialogue2FaceNone" Value="Trying to force a way through,makes my hand go numb." Face="None" Mono="False" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase3fBarrierDupeStage1Dialogue1FaceNone" Value="It’s a barrier blocking the way,to the next room." Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase3fBarrierDupeStage1Dialogue2FaceNone" Value="Trying to force a way through,makes my hand go numb." Face="None" Mono="False" />
+  <!-- バリアーフェンスと････ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage1Dialogue1FaceAlice" Value="Barrier here...." Face="Alice" Mono="False" />
+  <!-- コントロール装置ね -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage1Dialogue2FaceShanghai" Value="....control panel there." Face="Shanghai" Mono="False" />
+  <!-- だったらプラグインして････ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage1Dialogue3FaceAlice" Value="Nothing to do but jack in." Face="Alice" Mono="False" />
+  <!-- お待ちなさい！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage1Dialogue4FaceNone" Value="Hey!,Hey! Wait!" Face="None" Mono="False" />
+  <!-- もうこんなところまで乗り込んでくるなんてね -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue1FaceCirnoOpFaceShownLetty" Value="At least a bit of banter first!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- フン　だから傭兵やチンピラはあてにならないと言ったのよ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue2FacePresidentYukari" Value="This is why I said mercenaries,and thugs are unreliable." Face="PresidentYukari" Mono="False" />
+  <!-- やーい！引責辞任の元社長オバハン！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue3FaceShanghai" Value="Oh hey! It’s the old lady who,used to be president of Border,Concern!" Face="Shanghai" Mono="False" />
+  <!-- 私はまだ４０！行ける歳よ！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue4FacePresidentYukari" Value="Old lady?! I’m only 40!" Face="PresidentYukari" Mono="False" />
+  <!-- うっわ････ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue5FaceCirnoOpFaceShownLetty" Value="Ugh...." Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- まあそれはさておきもうすぐ首領の儀式が始まろうとしているわ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue6FaceCirnoOpFaceShownLetty" Value="Anyways....,The boss is about to start his,big operation!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- それまであなた達を足止めすればこちらの勝ちは確定よ！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue7FaceCirnoOpFaceShownLetty" Value="All we have to do is keep,you occupied and ROM’s,victory is assured!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- せいぜいそこであがくことね！オーッホッホッホ！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage3Dialogue8FacePresidentYukari" Value="Oh，I want to be there for the,completion of the ceremony!" Face="PresidentYukari" Mono="False" />
+  <!-- あんたらのナビをさっさと消し飛ばしてそっちに行ってやるから -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage5Dialogue1FaceShanghai" Value="I’ll just have to finish this quick!,I’ll let you know how it goes!" Face="Shanghai" Mono="False" />
+  <!-- せいぜい震えて待つことね！アリス　行くわよ！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage5Dialogue2FaceShanghai" Value="C’mon，Alice! I can’t wait to,beat them up again!" Face="Shanghai" Mono="False" />
+  <!-- もちろん！ -->
+  <Dialogue Key="Map.ROMbase3fChapter8EventsStage5Dialogue3FaceAlice" Value="Of course!" Face="Alice" Mono="False" />
+  <!-- 実は父さんに内緒でこっそり来ちゃったんだよな -->
+  <Dialogue Key="Map.ROMbase3fMariStage1Dialogue1FaceMari" Value="I actually came here without,telling my dad." Face="Mari" Mono="False" />
+  <!-- 帰ったら怒られるだろうなあ････ -->
+  <Dialogue Key="Map.ROMbase3fMariStage1Dialogue2FaceMari" Value="I’m going to be in so much,trouble when I get home...." Face="Mari" Mono="False" />
+  <!-- 魔理にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Mari to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbase3fMarisaBattleStage1Dialogue1Options" Value="Yes,No" />
+  <!-- ようし　やってやれ！マリサ！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage1Dialogue2FaceMari" Value="Alright! Let’s do it，Marisa!" Face="Mari" Mono="False" />
+  <!-- 調子悪かったのか？ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage3Dialogue1FaceMari" Value="Yo，you feelin’ okay?" Face="Mari" Mono="False" />
+  <!-- さすがにお前たちに力押しじゃ勝てないよな〜 -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage5Dialogue1FaceMari" Value="Looks like brute force won’t,really work on you two，huh?" Face="Mari" Mono="False" />
+  <!-- パワーアップを見せてやれ！マリサ！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage6Dialogue1FaceMari" Value="Marisa! Show ’em how much,you’ve powered up!" Face="Mari" Mono="False" />
+  <!-- 調子悪かったのか？ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage8Dialogue1FaceMari" Value="Yo，you feelin’ okay?" Face="Mari" Mono="False" />
+  <!-- これでも勝てないとはな･･･！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage10Dialogue1FaceMari" Value="I lost again....!" Face="Mari" Mono="False" />
+  <!-- こいつは勝った褒美だ！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage10Dialogue2FaceMari" Value="Now here’s your prize!" Face="Mari" Mono="False" />
+  <!-- ってのは冗談で　Ｐコードを更新してから渡すのすっかり忘れてたんだよな････ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage10Dialogue3FaceMari" Value="Just kiddin’!,I updated my P-Code and,forgot to give ya a copy." Face="Mari" Mono="False" />
+  <!-- ちょうどいいタイミングだから今渡したってわけだ！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage10Dialogue4FaceMari" Value="Now just happened to be a,good time to hand it over!" Face="Mari" Mono="False" />
+  <!-- 全力全開！今度は負けないぜ！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage11Dialogue1FaceMari" Value="Full throttle!,We won’t lose this time!" Face="Mari" Mono="False" />
+  <!-- 調子悪かったのか？ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage13Dialogue1FaceMari" Value="Yo，you feelin’ okay?" Face="Mari" Mono="False" />
+  <!-- お前ら強すぎだよ！ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage15Dialogue1FaceMari" Value="You guys are too strong!" Face="Mari" Mono="False" />
+  <!-- なんだよ　ツレないなあ -->
+  <Dialogue Key="Map.ROMbase3fMarisaBattleStage16Dialogue1FaceMari" Value="Really? Harsh...." Face="Mari" Mono="False" />
+  <!-- リグルって子が言ってたのよ「アリスは友達がいっぱいだね」って！ -->
+  <Dialogue Key="Map.ROMbase3fTenshiStage1Dialogue1FaceTenshi" Value="It’s like Wriggle said，you,really do have a lot of friends." Face="Tenshi" Mono="False" />
+  <!-- 友達同士で助け合うのってすっごく素敵なことなのよ！ -->
+  <Dialogue Key="Map.ROMbase3fTenshiStage1Dialogue2FaceTenshi" Value="It’s wonderful that so many of us,are here to help!" Face="Tenshi" Mono="False" />
+  <!-- 天子にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage1Dialogue1QuestionFaceShanghai" Value="Challenge Tenshi to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbase3fIkutororuStage1Dialogue1Options" Value="Yes,No" />
+  <!-- イク！頑張ってね！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage1Dialogue2FaceTenshi" Value="Iku!,Do your best!" Face="Tenshi" Mono="False" />
+  <!-- わーい！私が勝ったのよ！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage3Dialogue1FaceTenshi" Value="Yay! I won!" Face="Tenshi" Mono="False" />
+  <!-- アリスってすごく強いね！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage5Dialogue1FaceTenshi" Value="Alice，you’re so strong!" Face="Tenshi" Mono="False" />
+  <!-- 天子様のカスタマイズを受けパワーアップしましたわ！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage6Dialogue1FaceIku" Value="Miss Tenshi has customized,me to be even more powerful!" Face="Iku" Mono="False" />
+  <!-- もう負けないんだからね！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage6Dialogue2FaceTenshi" Value="I won’t lose anymore!" Face="Tenshi" Mono="False" />
+  <!-- イク！やったのよ！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage8Dialogue1FaceTenshi" Value="You did it，Iku!" Face="Tenshi" Mono="False" />
+  <!-- アリスすごい！今度カスタマイズ教えてよ！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage10Dialogue1FaceTenshi" Value="Amazing，Alice!,You’ll have to show me how,you customize next time!" Face="Tenshi" Mono="False" />
+  <!-- 気が向いたらやろうね！ -->
+  <Dialogue Key="Map.ROMbase3fIkutororuStage11Dialogue1FaceTenshi" Value="Whenever you feel like it!" Face="Tenshi" Mono="False" />
+</data>

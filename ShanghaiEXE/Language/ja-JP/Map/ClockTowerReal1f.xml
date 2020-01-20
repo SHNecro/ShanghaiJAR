@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ClockTowerReal1fName" Value="時計塔　内部　１階" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue1FaceNone" Value="一般人の通行を禁止する,分厚い扉だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue2FaceNone" Value="この扉は割と新しい,材質でできている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage3Dialogue1FaceAlice" Value="この扉を開けないと,リグルくんが････！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage3Dialogue2FaceShanghai" Value="サクッと中に入って,セキュリティを解除してくるわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage1Dialogue1FaceNone" Value="この部屋のセキュリティを,制御するコントロールパネルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage1Dialogue2FaceNone" Value="アクセスにロックが,かけられており,プラグインすることができない" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue1FaceNone" Value="この部屋のセキュリティを,制御するコントロールパネルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue2FaceNone" Value="今はアクセスが,フリーになっており,プラグインが可能だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue1FaceAlice" Value="この扉を開けないと,リグルくんが････！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue2FaceShanghai" Value="サクッと中に入って,セキュリティを解除してくるわ！" Face="Shanghai" Mono="False" />
+</data>

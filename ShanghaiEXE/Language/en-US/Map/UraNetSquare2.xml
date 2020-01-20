@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- セカイウラスクエア -->
+  <Text Key="Map.UraNetSquare2Name" Value="World UnderSquare" />
+  <!-- ウラバトル情報掲示板だ -->
+  <Dialogue Key="Map.UraNetSquare2BulletinBoardStage1Dialogue1FaceNone" Value="Undernet Battle Board" Face="None" Mono="False" />
+  <!-- 日本にもここみたいなウラスクエアがあるそうだな -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi1AStage1Dialogue1FaceNaviPurpleHeel2" Value="There’s an UnderSquare in,Japan，sure." Face="NaviPurpleHeel2" Mono="False" />
+  <!-- そこにいる連中もここの奴らみたいに骨のある奴らなのかねえ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi1AStage1Dialogue2FaceNaviPurpleHeel2" Value="But those chumps are children,compared to the guys here." Face="NaviPurpleHeel2" Mono="False" />
+  <!-- インターネットの至る所にダークチップをエサにウィルスの腕試しをさせる奴がいるらしい -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi2AStage1Dialogue1FaceNaviPurpleHeel2" Value="There’s a guy who offers Dark,Chips if you can defeat his,viruses." Face="NaviPurpleHeel2" Mono="False" />
+  <!-- 真っ黒いナビを見つけたら用心することだな -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi2AStage1Dialogue2FaceNaviPurpleHeel2" Value="Look out for a black Navi." Face="NaviPurpleHeel2" Mono="False" />
+  <!-- ウラのウィルスに負けずにここまで来るなんてなかなかやるじゃない -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi3AStage1Dialogue1FaceNaviPurpleFemale2" Value="It’s tough getting here ’cus,of all the tough viruses." Face="NaviPurpleFemale2" Mono="False" />
+  <!-- リンク貼りのスプライトちゃんならスクエアから出た先でデリートされてたよ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi4Stage1Dialogue1FaceNaviPurpleChild" Value="Some thug deleted the link,sprite that used to be here." Face="NaviPurpleChild" Mono="False" />
+  <!-- でもスプライトちゃんはデリートされてもしばらくすれば復活するから大丈夫だよ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6Navi4Stage1Dialogue2FaceNaviPurpleChild" Value="It’ll be back，though.,It finds a way." Face="NaviPurpleChild" Mono="False" />
+  <!-- 姐さん　目的の電脳はインゲレスエリア２にあるはずです -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6NaviBookerStage1Dialogue1FaceHenchie" Value="The link is in Engelles Area 2." Face="Henchie" Mono="False" />
+  <!-- くれぐれも気をつけてくださいね -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6NaviBookerStage1Dialogue2FaceHenchie" Value="Please，stay safe!" Face="Henchie" Mono="False" />
+  <!-- ブッカーの持っているサブチップでシャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6NaviBookerStage1Dialogue3FaceNone" Value="The Sub Chip from Henchie,recovered all of Shanghai’s HP!" Face="None" Mono="False" />
+  <!-- シャンハイ様ー本当に良いんですかー？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue1FaceHenchie" Value="Miss Shanghai....,Are you really okay?" Face="Henchie" Mono="False" />
+  <!-- ････何がよ？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue2FaceShanghai" Value="....What?" Face="Shanghai" Mono="False" />
+  <!-- アリスさんを一人で放っておいて良いんです？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue3FaceHenchie" Value="Are you okay leaving Alice,alone?" Face="Henchie" Mono="False" />
+  <!-- しかも　コネを使ってこんなウラスクエアまで来ちゃうなんて････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue4FaceHenchie" Value="And coming all the way to the,World UnderSquare like this...." Face="Henchie" Mono="False" />
+  <!-- アンタも分かってないわね -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue5FaceShanghai" Value="You don’t know what you’re,talking about." Face="Shanghai" Mono="False" />
+  <!-- ああいう時は一人で頭を冷やさせたほうが良いわ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue6FaceShanghai" Value="I’m just here to let Alice cool her,head." Face="Shanghai" Mono="False" />
+  <!-- ったく････まさかあの子にそれだけ惚れてたとはねぇ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue7FaceShanghai" Value="Besides，she doesn’t want to,see me right now." Face="Shanghai" Mono="False" />
+  <!-- まあアリスさんも思春期の女の子ですし恋くらいするんじゃないですか？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue8FaceHenchie" Value="Well，Alice is a young girl，isn’t,she?" Face="Henchie" Mono="False" />
+  <!-- だとしてもあたしに何も言わずいきなりブチ切れるなんていい迷惑よ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue9FaceShanghai" Value="She’s old enough to tell me,to go away." Face="Shanghai" Mono="False" />
+  <!-- まあ　もうすぐ寂しくなって連絡をくれるだろうからその時に謝れば････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue10FaceShanghai" Value="Soon enough，she’ll come to,her senses and get in touch." Face="Shanghai" Mono="False" />
+  <!-- ほら　来たきた････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue1FaceShanghai" Value="Here it is...." Face="Shanghai" Mono="False" />
+  <!-- アリス？確かにあたしも悪かったけどさ････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue2FaceShanghai" Value="Alice? I know we both lost our,tempers，but--" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue3FaceAlice" Value="Shanghai...." Face="Alice" Mono="False" />
+  <!-- た････助けて････！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue4FaceAlice" Value="I....,Help me....!" Face="Alice" Mono="False" />
+  <!-- っ････！？何があったのっ！？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue5FaceShanghai" Value="?!,Alice，what’s going on?!" Face="Shanghai" Mono="False" />
+  <!-- じゅ　銃を持ってる男の人が追いかけてきて････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue6FaceAlice" Value="A-- A man，with a gun!,He’s chasing me!" Face="Alice" Mono="False" />
+  <!-- 外で････私を探してる････多分すぐに見つかっちゃう････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue7FaceAlice" Value="Outside....,Looking for me，he’s getting,closer...." Face="Alice" Mono="False" />
+  <!-- なんですって！？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue8FaceShanghai" Value="What?!" Face="Shanghai" Mono="False" />
+  <!-- で　今どこなの！？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue9FaceShanghai" Value="Where are you?!" Face="Shanghai" Mono="False" />
+  <!-- リグル君と一緒に行った橋の先にあった誰もいない建物に逃げ込んだけど････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue10FaceAlice" Value="I ran into a building by that,bridge we went to....,There’s nobody here!" Face="Alice" Mono="False" />
+  <!-- 外で････探しまわってるみたい多分見つかっちゃう････ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue11FaceAlice" Value="He’s outside...!,He looked this way，maybe he,saw me!" Face="Alice" Mono="False" />
+  <!-- 誰もいない建物････廃屋ってことね！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue12FaceShanghai" Value="Nobody nearby....,An abandoned house?" Face="Shanghai" Mono="False" />
+  <!-- アリス　そのまま息を潜めてなさい！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue13FaceShanghai" Value="Alice，keep your voice down,and try to breathe quietly." Face="Shanghai" Mono="False" />
+  <!-- あと　その近くにプラグインできるところある？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue14FaceShanghai" Value="Is there somewhere nearby with,a connection to the Net?" Face="Shanghai" Mono="False" />
+  <!-- えっと････古いパソコンみたいなのがあるわ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue15FaceAlice" Value="There’s.... an old PC in here." Face="Alice" Mono="False" />
+  <!-- わかったわ今すぐ向かうからそのまま待ってて！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue16FaceShanghai" Value="I’m coming! Just wait for me!" Face="Shanghai" Mono="False" />
+  <!-- ブッカー！橋の近くにある廃屋にパソコンが有るらしいわ！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue1FaceShanghai" Value="Henchie! An abandoned house!,By the Engelles bridge!" Face="Shanghai" Mono="False" />
+  <!-- インターネットのどこからそこに行けるか調べて！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue2FaceShanghai" Value="Find out where it connects,to the Net!" Face="Shanghai" Mono="False" />
+  <!-- は　はい！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue3FaceHenchie" Value="On it!" Face="Henchie" Mono="False" />
+  <!-- ････インゲレスエリア２の北西に電脳につながるワープがあります！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue4FaceHenchie" Value="....A warp leads to that house,in the northwest part of Engelles,Area 2!" Face="Henchie" Mono="False" />
+  <!-- でかした！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue5FaceShanghai" Value="I’m going!" Face="Shanghai" Mono="False" />
+  <!-- でも　オペレーターなしで大丈夫なんですか？ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue6FaceHenchie" Value="Can you make it without an,operator?" Face="Henchie" Mono="False" />
+  <!-- こんなこともあろうかとあたしの記憶データにフォルダの内容をコピーしておいたのよ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue7FaceShanghai" Value="I’ve copied my folder to my,memory data." Face="Shanghai" Mono="False" />
+  <!-- ま　無駄に容量がデカいあたしくらいにしかできない芸当だけどね -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue8FaceShanghai" Value="It’s a waste of space normally，,but it’ll let me use chips." Face="Shanghai" Mono="False" />
+  <!-- でも　それじゃあフォルダの編集やサブチップの使用はできないじゃないですか -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue9FaceHenchie" Value="But you can’t edit the folder or,use Sub Chips...." Face="Henchie" Mono="False" />
+  <!-- 私に話しかけてくれればＨＰの回復くらいはしてあげられますが -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue10FaceHenchie" Value="If you need healing，I can,recover your HP." Face="Henchie" Mono="False" />
+  <!-- ありがとう　ブッカー助かるわ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue11FaceShanghai" Value="Thank you，Henchie!" Face="Shanghai" Mono="False" />
+  <!-- アリス･･･・無事でいなさいよ････！ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage5Dialogue12FaceShanghai" Value="Alice....! Be safe....!" Face="Shanghai" Mono="False" />
+  <!-- ウラインターネットの奥地で何かが起こっているそんな気がするの -->
+  <Dialogue Key="Map.UraNetSquare2Chapter7GirlNaviStage1Dialogue1FaceNaviPurpleFemale" Value="Something’s happening deep,in the Undernet." Face="NaviPurpleFemale" Mono="False" />
+  <!-- ここいらを見慣れないナビが歩きまわっているな････不愉快だぜ -->
+  <Dialogue Key="Map.UraNetSquare2Chapter7ManNavi2Stage1Dialogue1FaceNaviPurpleHeel" Value="Unfamiliar Navis are walking,around.... How unpleasant!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- へっへへへ　見ろよこの「ブラインドリーフ　Ｐ」を！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage1Dialogue1FaceNaviPurplePunk" Value="Heheh.... Get a load of this,”BlndLeaf P”!" Face="NaviPurplePunk" Mono="False" />
+  <!-- こいつを食らうと目が見えなくなっちまうんだ！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage1Dialogue2FaceNaviPurplePunk" Value="One whiff of this，and nobody,sees nothin’!" Face="NaviPurplePunk" Mono="False" />
+  <!-- あん？このチップが欲しいだと？ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage1Dialogue3FaceNaviPurplePunk" Value="Well，interested?" Face="NaviPurplePunk" Mono="False" />
+  <!-- ････良いこと考えたぞもしもオレサマに勝ったら分けてやらなくもない -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage1Dialogue4FaceNaviPurplePunk" Value="....Now that I think of it，why don’t,I just use this and take all your,money?" Face="NaviPurplePunk" Mono="False" />
+  <!-- ただし！てめぇには買いたてチップの実験台になってもらうがな！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage1Dialogue5FaceNaviPurplePunk" Value="Alright! Now I can test all of,these other chips I bought!" Face="NaviPurplePunk" Mono="False" />
+  <!-- バイヤー -->
+  <Text Key="Map.UraNetSquare2Request12ChinpiraBattle1Enemy1" Value="Buyer" />
+  <!-- ひ　ひいっ！？このオレサマが負けるなんて！！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage3Dialogue1FaceNaviPurplePunk" Value="W-What?! How could I lose?" Face="NaviPurplePunk" Mono="False" />
+  <!-- あっ　チップ！？あげますよもう！使いこなせませんでしたし！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage3Dialogue2FaceNaviPurplePunk" Value="You want the chip?! Take it!,It’s useless for me anyways!" Face="NaviPurplePunk" Mono="False" />
+  <!-- こんなにたくさんいらないんだけど････ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage3Dialogue3FaceShanghai" Value="(What am I going to do with,all these chips....?)" Face="Shanghai" Mono="False" />
+  <!-- え！？　たりない！？なんなら全部持っていってください！！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage3Dialogue4FaceNaviPurplePunk" Value="Did I displease you?! Please!,Spare me! Have more chips!" Face="NaviPurplePunk" Mono="False" />
+  <!-- （まあいっか） -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage3Dialogue5FaceShanghai" Value="(Oh well....)" Face="Shanghai" Mono="False" />
+  <!-- なんですか！？まだ足りない！？ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage5Dialogue1FaceNaviPurplePunk" Value="You’re back?! Is it something,I did?!" Face="NaviPurplePunk" Mono="False" />
+  <!-- かくなる上はこのわたくしめのイノチをあなたに････！ -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage5Dialogue2FaceNaviPurplePunk" Value="Please accept my humblest,apologies! I pledge upon my,life I will never let you down!" Face="NaviPurplePunk" Mono="False" />
+  <!-- （自傷し始める前に　早く立ち去ろう････） -->
+  <Dialogue Key="Map.UraNetSquare2Request12ChinpiraStage5Dialogue3FaceShanghai" Value="(Let’s get out of here before,he starts to hurt himself....)" Face="Shanghai" Mono="False" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトダゾー！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue1FaceSprite" Value="I’M THE SPRITE THAT,CONNECTS LINK GATES!" Face="Sprite" Mono="False" />
+  <!-- オマエノ　ホームページトコノスクエアヲ　リンクデツナイジャウゾー！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue2FaceSprite" Value="I CAN LINK THIS SQUARE,TO YOUR HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- ツナイデ　ホシカッタラ３５０００ゼニーヲ　ハライヤガレ！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue3FaceSprite" Value="THE CONNECTION FEE IS,35000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナグノ？ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue4QuestionFaceSprite" Value="CREATE A LINK?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.UraNetSquare2LinkSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <!-- リンクノ　セツゾクガカンリョウシタゾー！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue5FaceSprite" Value="LINK CREATED!" Face="Sprite" Mono="False" />
+  <!-- オイ！　タリネーゾ！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue6FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- オトトイキヤガレー！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,1000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.UraNetSquare2LinkSpriteStage3Dialogue4Options" Value="Yes,No" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.UraNetSquare2LinkSpriteStage3Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <!-- ウラのチップショップだ買い物をするのか？ -->
+  <Dialogue Key="Map.UraNetSquare2ChipShopStage1Dialogue1QuestionFaceNaviPurpleHeel2" Value="Welcome to my Undernet Chip,Shop. Interested?" Face="NaviPurpleHeel2" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.UraNetSquare2ChipShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- ここはアドオンショップだぜ -->
+  <Dialogue Key="Map.UraNetSquare2Add-onShopStage1Dialogue1QuestionFaceNaviPurplePunk" Value="I sell AddOns." Face="NaviPurplePunk" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.UraNetSquare2Add-onShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- すりるのある　たたかいをしたいひとに　まほうのすうじをおしえてあげる -->
+  <Dialogue Key="Map.UraNetSquare2InformationNaviStage1Dialogue1FaceNaviPurpleChild" Value="For those who fight best when,beset from all sides...." Face="NaviPurpleChild" Mono="False" />
+  <!-- １９６４５２３３わすれないでね -->
+  <Dialogue Key="Map.UraNetSquare2InformationNaviStage1Dialogue2FaceNaviPurpleChild" Value="”19645233”，don’t forget it." Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostGameBystander1Dialogue1" Value="Some spook called Reisen’s,been hunting down toughs.,I’m scared to turn around...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostGameBystander2Dialogue1" Value="They’re wastin’ their time.,Ain’t nobody takin’ on my gang." Face="NaviPurpleHeel" Mono="False" />
+</data>

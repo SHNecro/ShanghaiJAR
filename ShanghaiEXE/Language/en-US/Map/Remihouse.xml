@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.RemihouseName" Value="Remilia’s Room" />
+  <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue1FaceRemilia" Value="Ah，Alice!,Welcome!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue2FaceRemilia" Value="Say，if you don’t mind，,shall we NetBattle?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage3Dialogue1FaceRemilia" Value="My communications lesson,has yet to begin...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage3Dialogue2FaceRemilia" Value="Say，if you don’t mind，,shall we NetBattle?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage5Dialogue1FaceRemilia" Value="I wonder，would Tenshi like,to come to my mansion?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage5Dialogue2FaceRemilia" Value="Ah，Alice.,Would you care to NetBattle?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue1FaceRemilia" Value="Hm?,Why am I not participating,in the N1 League?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue2FaceRemilia" Value="Don’t be silly.,A lady would never attend,events hosted by her rivals." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue3FaceRemilia" Value="Besides，NetBattling isn’t,limited to tournaments." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue1FaceRemilia" Value="So you won the N1 League.,Congratulations." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue2FaceRemilia" Value="With your skill，I knew you’d,easily win the tournament." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue3FaceRemilia" Value="Fufu. Would you care to,show me that skill?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue1FaceRemilia" Value="So Tenshi was injured,and hospitalized...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue2FaceRemilia" Value="I hear that today’s medical,technology can treat burns,without leaving a trace...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue3FaceRemilia" Value="Even so，I’m concerned that,a friend is in the hospital." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue4FaceRemilia" Value="Oh? Perhaps you came to,distract me from my worries?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage13Dialogue1FaceRemilia" Value="The Siren luxury liner?,I’ve been on it three times,with my father." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage13Dialogue2FaceRemilia" Value="I think it will be a good,experience for you to have，,so do enjoy yourself." Face="Remilia" Mono="False" />
+  <!-- あら　アリスおかえりなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue1FaceRemilia" Value="Hey Alice. Welcome back." Face="Remilia" Mono="False" />
+  <!-- インゲレスはどうだった？楽しめたかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue2FaceRemilia" Value="Did you enjoy your time in,Engelles?" Face="Remilia" Mono="False" />
+  <!-- いろいろあったけど楽しめたわ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue3FaceAlice" Value="It was a lot of fun!" Face="Alice" Mono="False" />
+  <!-- はいおみやげ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue4FaceAlice" Value="Here，a souvenir!" Face="Alice" Mono="False" />
+  <!-- ････っていってもインゲレス生まれのレミリアには珍しい物じゃないかもだけど -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue5FaceAlice" Value="....You were born in Engelles，,so it might not be much." Face="Alice" Mono="False" />
+  <!-- フフ　こういうのは物に込められた気持ちが大切なのよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue6FaceRemilia" Value="It’s the thought that makes the,gift." Face="Remilia" Mono="False" />
+  <!-- 見慣れたお菓子でもアリスから貰ったものは特別なお菓子になるわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue7FaceRemilia" Value="Even the most familiar sweets,would be special if you got,them just for me，Alice." Face="Remilia" Mono="False" />
+  <!-- へぇ〜なんだか素敵な考え方ね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue8FaceAlice" Value="Aww....,Thanks for putting it that way，,Remilia." Face="Alice" Mono="False" />
+  <!-- ありがとうおみやげでお金使っちゃったでしょう？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue9FaceRemilia" Value="It’s the truth.,You must have spent a lot on,souvenirs...." Face="Remilia" Mono="False" />
+  <!-- 少ないけど取っておきなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue10FaceRemilia" Value="I dislike being in debt.,Here." Face="Remilia" Mono="False" />
+  <!-- え！？こんなにいいの！？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue11FaceAlice" Value="What?!,That’s....!" Face="Alice" Mono="False" />
+  <!-- 素敵な贈り物のお返しよありがたく受け取りなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue12FaceRemilia" Value="I insist. A gift for a gift." Face="Remilia" Mono="False" />
+  <!-- あ　ありがとう！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue13FaceAlice" Value="Thank you!" Face="Alice" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage17Dialogue1FaceShanghai" Value="Now that you’re done handing,out souvenirs，we should head,home to Mama." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage17Dialogue2FaceShanghai" Value="Time to go home!" Face="Shanghai" Mono="False" />
+  <!-- 今度　この家でパーティを開きましょうよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue1FaceRemilia" Value="I should host a party at my,house some time...." Face="Remilia" Mono="False" />
+  <!-- おみやげのお菓子をみんなで楽しんだら素敵じゃない？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue2FaceRemilia" Value="It’d be nice to share these,sweets with everyone else." Face="Remilia" Mono="False" />
+  <!-- ････あら？サクヤとネットバトルしたいの？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue3FaceRemilia" Value="....Oh?,Did you want to NetBattle with,Sakuya?" Face="Remilia" Mono="False" />
+  <!-- どんどん世の中が不穏になっていく今日このごろ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue1FaceRemilia" Value="The world is getting more and,more disturbing." Face="Remilia" Mono="False" />
+  <!-- 非力な私にはネットバトルくらいでしか役に立てそうもないわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue2FaceRemilia" Value="I don’t have the power to make,a difference on my own." Face="Remilia" Mono="False" />
+  <!-- そんな私に稽古をつけてくれるのかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue3FaceRemilia" Value="Perhaps a NetBattle will push,us both to improve." Face="Remilia" Mono="False" />
+  <!-- 超武装した基地に攻めこむ方法ねえ････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue1FaceRemilia" Value="How to attack a heavily,defended fortress....?" Face="Remilia" Mono="False" />
+  <!-- どうして私に聞きに来たわけ？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue2FaceRemilia" Value="Why are you coming to me with,this....?" Face="Remilia" Mono="False" />
+  <!-- いや　お金持ちだったら何かいい手を用意できると思って････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue3FaceAlice" Value="Ah....,I thought I would go to someone,more，uh.... resourceful?" Face="Alice" Mono="False" />
+  <!-- あのねえ　お金持ちはスーパーマンじゃないのよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue4FaceRemilia" Value="You know being rich doesn’t,make me Batman，right?" Face="Remilia" Mono="False" />
+  <!-- ････それに　お金持ちなら私よりもお金を持っている人がいるじゃない -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue5FaceRemilia" Value="....Besides，I’m not even the,richest person in this town." Face="Remilia" Mono="False" />
+  <!-- えっ？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue6FaceAlice" Value="Huh?" Face="Alice" Mono="False" />
+  <!-- チップショップをやってるあの人よ　なんて名前だったか････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue7FaceRemilia" Value="The chip shop owner，what was,her name....?" Face="Remilia" Mono="False" />
+  <!-- 隈美さん？あの人ってそんなにお金持ちだったっけ････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue8FaceAlice" Value="Kumami? She really has that,much money....?" Face="Alice" Mono="False" />
+  <!-- とりあえず　私は力になれそうにないわごめんなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue9FaceRemilia" Value="Sorry I couldn’t help you more,with your question." Face="Remilia" Mono="False" />
+  <!-- 力になれなくてごめんなさいね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue1FaceRemilia" Value="I’m not good enough at,NetBattling to help with this,whole situation...." Face="Remilia" Mono="False" />
+  <!-- 非力な私にはネットバトルくらいでしか役に立てそうもないわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue2FaceRemilia" Value="I don’t have the power to make,a difference on my own." Face="Remilia" Mono="False" />
+  <!-- そんな私に稽古をつけてくれるのかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue3FaceRemilia" Value="Perhaps a NetBattle will push,us both to improve." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Remilia to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.RemihouseSakuyaBattleStage1Dialogue1Options" Value="Yes,No" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage1Dialogue2FaceRemilia" Value="Show them your power，,Sakuya!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage3Dialogue1FaceRemilia" Value="Hohoho! I win." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage5Dialogue1FaceRemilia" Value="It doesn’t surprise me that,you’ve beaten Sakuya twice,now." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage6Dialogue1FaceRemilia" Value="I’ll finish you in only three,minutes!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage8Dialogue1FaceRemilia" Value="Hohoho! I win." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage10Dialogue1FaceRemilia" Value="I can’t even begin to measure,your potential." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage11Dialogue1FaceRemilia" Value="Are you still upset about,that incident?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage11Dialogue2FaceRemilia" Value="I’ll accept your challenge,whenever you please." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf1Stage1Dialogue1FaceNone" Value="It’s one of Remilia’s,bookshelves." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf1Stage1Dialogue2FaceNone" Value="There’s a book called,”Managing your Assets,and Savings”." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue1FaceNone" Value="It’s one of Remilia’s,bookshelves." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue2FaceNone" Value="There are a lot of books,placed much higher than,she can reach." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue3FaceNone" Value="She could use the hook next,to the bookshelf，but does she,really use it?" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue1FaceNone" Value="It’s Remilia’s server." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue2FaceNone" Value="It’s pretty large!,I wonder what kind of data,it’s holding...." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue3FaceNone" Value="Unfortunately，I can’t jack,into it." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue1FaceNone" Value="It’s Remilia’s computer." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue2FaceNone" Value="The four connected displays,give her a lot of room to work." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue3FaceNone" Value="I can also jack into them." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue1FaceNone" Value="Remilia has an oddly-shaped,desk." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue2FaceNone" Value="The chandelier control panel,is right above it." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue3FaceNone" Value="I could probably jack in，but,the port seems to be broken." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseDresserStage1Dialogue1FaceNone" Value="It’s Remilia’s dresser." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseDresserStage1Dialogue2FaceNone" Value="It’s packed with fine cosmetics，,but they look like they haven’t,been used." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue1FaceNone" Value="It’s Remilia’s stately bed." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue2FaceNone" Value="The canopy makes it look,like a princess’s bed." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue3FaceNone" Value="I’m tempted to jump into the,fancy sheets." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue4FaceNone" Value="I’d like to sleep in a bed like,this someday!" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseSofaStage1Dialogue1FaceNone" Value="It’s Remilia’s sofa." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseSofaStage1Dialogue2FaceNone" Value="It has a Kedama plush on top.,I wonder if she hugs it while,relaxing." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue1FaceNone" Value="It’s Remilia’s electronic piano." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue2FaceNone" Value="Remilia says it’s ”fit for a lady’s,taste”，but it’s covered in dust." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue3FaceNone" Value="I could probably jack in，but,it doesn’t look like it’s on." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue1FaceNone" Value="It’s a portrait of Remilia." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue2FaceNone" Value="The way it’s painted makes,her look 20% cuter than usual." Face="None" Mono="False" />
+  <!-- 額縁の端に小さく６９５４６２５８　と数字が刻まれている -->
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue3FaceNone" Value="Theres a number etched on,the edge of the picture frame....,”69546258”." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue1FaceNone" Value="It’s an old landline telephone." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue2FaceNone" Value="The case is old，but the parts,inside are pretty new." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue3FaceNone" Value="It works the same as any,modern phone，so I can,jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue1FaceNone" Value="There are awards on the wall." Face="None" Mono="False" />
+  <!-- 「ちびっ子論文大会　大賞」と書いてある -->
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue2FaceNone" Value="This is a ”Children’s Essay,Contest: Grand Prize”." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue3FaceNone" Value="So she got this in grade,school，huh?" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue1FaceNone" Value="There are awards on the wall." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue2FaceNone" Value="This is a ”Grade School,Printmaking Merit Award”." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue3FaceNone" Value="So she got this in grade,school，huh?" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue1FaceNone" Value="There are awards on the wall." Face="None" Mono="False" />
+  <!-- 「幼稚園ピアノコンクール金賞」と書いてある -->
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue2FaceNone" Value="This is a ”Preschool Piano,Competition: 1st Place Award”." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue3FaceNone" Value="So she got this in preschool，,huh?" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaPostGameDialogue1" Value="Ah，Alice. Welcome.,Shall we play together?" Face="Remilia" Mono="False" />
+</data>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔　内部　最上階 -->
+  <Text Key="Map.ClockTowerReal4fName" Value="Clock Tower Interior 3F" />
+  <!-- 扉は電子ロックによって固く閉ざされている････ -->
+  <Dialogue Key="Map.ClockTowerReal4fDoorStage1Dialogue1FaceNone" Value="The door is sealed tight,by an electronic lock...." Face="None" Mono="False" />
+  <!-- この部屋のセキュリティを制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage1Dialogue1FaceNone" Value="It’s the control panel for this,room’s security system." Face="None" Mono="False" />
+  <!-- アクセスにロックがかけられておりプラグインすることができない -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage1Dialogue2FaceNone" Value="The access port is locked，,so I can’t jack in." Face="None" Mono="False" />
+  <!-- この部屋のセキュリティを制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage3Dialogue1FaceNone" Value="It’s the control panel for this,room’s security system." Face="None" Mono="False" />
+  <!-- 今はアクセスがフリーになっておりプラグインが可能だ！ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage3Dialogue2FaceNone" Value="The access port is open,now，so I can jack in!" Face="None" Mono="False" />
+  <!-- ････なんだか声が聞えるわ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage1Dialogue1FaceAlice" Value="I can hear a faint voice...." Face="Alice" Mono="False" />
+  <!-- アリス！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage1Dialogue2FaceWriggleHat" Value="Alice!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue1FaceAlice" Value="Wriggle!" Face="Alice" Mono="False" />
+  <!-- ほう　もうここまで昇ってきたか -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue2FaceScissorManOpTarakhan" Value="Already up here，are ya?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- すぐにここのセキュリティを解除してそっちに行くから！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue3FaceAlice" Value="I’ll break through this security,and stop you!" Face="Alice" Mono="False" />
+  <!-- 約束は破るんじゃないわよ！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue4FaceAlice" Value="Don’t forget you gave your,word!" Face="Alice" Mono="False" />
+  <!-- クハハ････　いいだろう -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue5FaceScissorManOpTarakhan" Value="Heheh....,Good." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そこのセキュリティはこれまでのものとは一味違うぞ？ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue6FaceScissorManOpTarakhan" Value="The security up here’s gonna,be a little different this time." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ　その威勢の良さがいつまで続くか高みの見物をさせてもらうよ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue7FaceScissorManOpTarakhan" Value="Let’s see how long that heroic,spirit lasts，huh?" Face="ScissorManOpTarakhan" Mono="False" />
+</data>

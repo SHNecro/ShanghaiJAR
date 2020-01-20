@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 天子の部屋 -->
+  <Text Key="Map.TenkoRoomName" Value="Tenshi’s Room" />
+  <!-- アリス　いらっしゃいなのよ！ -->
+  <Dialogue Key="Map.TenkoRoomTenshiStage1Dialogue1FaceTenshi" Value="Welcome to my house，Alice!" Face="Tenshi" Mono="False" />
+  <!-- 友達がお家に来るのってなんだかドキドキするのよ！ -->
+  <Dialogue Key="Map.TenkoRoomTenshiStage1Dialogue2FaceTenshi" Value="I’m so excited that my friends,are coming to my house!" Face="Tenshi" Mono="False" />
+  <!-- おかえりなのよ！アリス！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue1FaceTenshi" Value="Welcome back，Alice!" Face="Tenshi" Mono="False" />
+  <!-- 退院おめでとう　天子！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue2FaceAlice" Value="Tenshi，you’re out of the,hospital! I’m so glad!" Face="Alice" Mono="False" />
+  <!-- はい　これおみやげ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue3FaceAlice" Value="I got you a souvenir!" Face="Alice" Mono="False" />
+  <!-- わあい！キレイなブレスレットなのよ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue4FaceTenshi" Value="Wow! What a beautiful bracelet!,I can’t accept this!" Face="Tenshi" Mono="False" />
+  <!-- 退院祝いをかねてね！ちょっと奮発しちゃったの！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue5FaceAlice" Value="Call it a gift to celebrate getting,better!" Face="Alice" Mono="False" />
+  <!-- ありがとうなのよ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue6FaceTenshi" Value="Thank you very much!" Face="Tenshi" Mono="False" />
+  <!-- （お金はあたしが　出したんだけどなあ････　まあ　いっか） -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage1Dialogue7FaceShanghai" Value="(She bought it with my money，,though....)" Face="Shanghai" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage3Dialogue1FaceShanghai" Value="Now that you’re done handing,out souvenirs，we should head,home to Mama." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage3Dialogue2FaceShanghai" Value="Time to go home!" Face="Shanghai" Mono="False" />
+  <!-- おみやげ　ありがとうなのよ！大切にするのよ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage5Dialogue1FaceTenshi" Value="Thank you for the souvenir!,Take care!" Face="Tenshi" Mono="False" />
+  <!-- そうだ！退院と帰国のお祝いにネットバトルしない？ -->
+  <Dialogue Key="Map.TenkoRoomChapter6Stage5Dialogue2FaceTenshi" Value="Do you want to NetBattle before,you go?" Face="Tenshi" Mono="False" />
+  <!-- アリスさんおかえりなのです！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage1Dialogue1FaceRika" Value="Alice，you’re back!" Face="Rika" Mono="False" />
+  <!-- 里香　ただいまー！おみやげもあるよ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage1Dialogue2FaceAlice" Value="Rika! We got souvenirs!" Face="Alice" Mono="False" />
+  <!-- はわわっ！これはインゲレス軍新型戦車のプラモデルなのです！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage1Dialogue3FaceRika" Value="No way! A model of the next-,gen Engelles Army MBT!" Face="Rika" Mono="False" />
+  <!-- すっごくうれしいのです！！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage1Dialogue4FaceRika" Value="This is amazing! Thank you so,much!" Face="Rika" Mono="False" />
+  <!-- どういたしまして！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage1Dialogue5FaceAlice" Value="You’re welcome!" Face="Alice" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage3Dialogue1FaceShanghai" Value="Now that you’re done handing,out souvenirs，we should head,home to Mama." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage3Dialogue2FaceShanghai" Value="Time to go home!" Face="Shanghai" Mono="False" />
+  <!-- おみやげすっごく嬉しいのです！感謝感激なのなのです！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage5Dialogue1FaceRika" Value="This is the best gift!,I’m so happy!" Face="Rika" Mono="False" />
+  <!-- シャンハイがいない間タンクマン寂しがってたのでネットバトルするのです！ -->
+  <Dialogue Key="Map.TenkoRoomChapter6RikaStage5Dialogue2FaceRika" Value="Feel like a NetBattle?,TankMan was lonely while,Shanghai was gone!" Face="Rika" Mono="False" />
+  <!-- 天子にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage1Dialogue1QuestionFaceShanghai" Value="Challenge Tenshi to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.TenkoRoomIkutororuStage1Dialogue1Options" Value="Yes,No" />
+  <!-- イク！頑張ってね！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage1Dialogue2FaceTenshi" Value="Iku!,Do your best!" Face="Tenshi" Mono="False" />
+  <!-- わーい！私が勝ったのよ！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage3Dialogue1FaceTenshi" Value="Yay! I won!" Face="Tenshi" Mono="False" />
+  <!-- アリスってすごく強いね！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage5Dialogue1FaceTenshi" Value="Alice，you’re so strong!" Face="Tenshi" Mono="False" />
+  <!-- 天子様のカスタマイズを受けパワーアップしましたわ！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage6Dialogue1FaceIku" Value="Miss Tenshi has customized,me to be even more powerful!" Face="Iku" Mono="False" />
+  <!-- もう負けないんだからね！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage6Dialogue2FaceTenshi" Value="I won’t lose anymore!" Face="Tenshi" Mono="False" />
+  <!-- イク！やったのよ！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage8Dialogue1FaceTenshi" Value="You did it，Iku!" Face="Tenshi" Mono="False" />
+  <!-- アリスすごい！今度カスタマイズ教えてよ！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage10Dialogue1FaceTenshi" Value="Amazing，Alice!,You’ll have to show me how,you customize next time!" Face="Tenshi" Mono="False" />
+  <!-- 気が向いたらやろうね！ -->
+  <Dialogue Key="Map.TenkoRoomIkutororuStage11Dialogue1FaceTenshi" Value="Whenever you feel like it!" Face="Tenshi" Mono="False" />
+  <!-- 里香にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Rika to a NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.TenkoRoomTankManBattleStage1Dialogue1Options" Value="Yes,No" />
+  <!-- タンクマン！行くのです！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage1Dialogue2FaceRika" Value="TankMan!,Roll out!" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage3Dialogue1FaceRika" Value="I won! I did!" Face="Rika" Mono="False" />
+  <!-- さすがアリスさんはすっごく強いのです！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage5Dialogue1FaceRika" Value="Wow! You two are really,strong! You are!" Face="Rika" Mono="False" />
+  <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage6Dialogue1FaceTankMan" Value="Shanghai! I’ll show you,something cool!" Face="TankMan" Mono="False" />
+  <!-- ファイトなのです！タンクマン！！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage6Dialogue2FaceRika" Value="It’s on!,TankMan!!" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage8Dialogue1FaceRika" Value="I won! I did!" Face="Rika" Mono="False" />
+  <!-- タンクマン　残念なのです････ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage10Dialogue1FaceRika" Value="Sorry，TankMan...." Face="Rika" Mono="False" />
+  <!-- 最高のコンディションの俺の力を見せてやるぜ！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage11Dialogue1FaceTankMan" Value="I’m all tuned up!,Let me show you how strong,I am now!" Face="TankMan" Mono="False" />
+  <!-- これが里香の本気なのです！！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage11Dialogue2FaceRika" Value="This time，I’m serious!!" Face="Rika" Mono="False" />
+  <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage13Dialogue1FaceTankMan" Value="How’d you like that，Shanghai?" Face="TankMan" Mono="False" />
+  <!-- がーん！里香は勝てないのです！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage15Dialogue1FaceRika" Value="Wow!!,I just can’t win! I can’t!" Face="Rika" Mono="False" />
+  <!-- また今度やるのです！ -->
+  <Dialogue Key="Map.TenkoRoomTankManBattleStage16Dialogue1FaceRika" Value="Some other time then!" Face="Rika" Mono="False" />
+  <!-- 天子の使っているノートパソコンだ -->
+  <Dialogue Key="Map.TenkoRoomComputerStage1Dialogue1FaceNone" Value="It’s Tenshi’s laptop." Face="None" Mono="False" />
+  <!-- 中学校に入学する時に勧められた型のようだ -->
+  <Dialogue Key="Map.TenkoRoomComputerStage1Dialogue2FaceNone" Value="It’s the model recommended for,Junior High students." Face="None" Mono="False" />
+  <!-- このテの物は値段の割に性能があまりないのでオススメはできない -->
+  <Dialogue Key="Map.TenkoRoomComputerStage1Dialogue3FaceNone" Value="Few follow the recommendation,since it’s rather weak even if,the price is still high." Face="None" Mono="False" />
+  <!-- しかしネットサーフィンをするくらいだったらとくに問題はないはずだ -->
+  <Dialogue Key="Map.TenkoRoomComputerStage1Dialogue4FaceNone" Value="It’s good for surfing the Net，,but not much more." Face="None" Mono="False" />
+  <!-- ちなみにプラグインも可能である -->
+  <Dialogue Key="Map.TenkoRoomComputerStage1Dialogue5FaceNone" Value="You can jack in，of course." Face="None" Mono="False" />
+  <!-- ねこどるふぃんのぬいぐるみだ -->
+  <Dialogue Key="Map.TenkoRoomNekoDoraemonStage1Dialogue1FaceNone" Value="It’s a stuffed nekodolphin doll." Face="None" Mono="False" />
+  <!-- ねこどるふぃんとはテーマパーク「ねこどるふぃんランド」の人気マスコットである -->
+  <Dialogue Key="Map.TenkoRoomNekoDoraemonStage1Dialogue2FaceNone" Value="It’s the popular mascot of,the theme park ”Nekodolphin,Land”." Face="None" Mono="False" />
+  <!-- ニュイニュイとかわいらしい鳴き声を発し　主に女性に人気が高いマスコットだ -->
+  <Dialogue Key="Map.TenkoRoomNekoDoraemonStage1Dialogue3FaceNone" Value="Its theme song is very catchy." Face="None" Mono="False" />
+  <!-- このぬいぐるみには発声機能がありなんとプラグインできる！ -->
+  <Dialogue Key="Map.TenkoRoomNekoDoraemonStage1Dialogue4FaceNone" Value="This doll has a voicebox that,you can jack in to!" Face="None" Mono="False" />
+  <!-- 岩型のクッション椅子だ -->
+  <Dialogue Key="Map.TenkoRoomKeystoneStage1Dialogue1FaceNone" Value="It’s a rock-shaped beanbag,chair." Face="None" Mono="False" />
+  <!-- このタイプの岩は要石（かなめいし）と言い地震を鎮める霊石らしい -->
+  <Dialogue Key="Map.TenkoRoomKeystoneStage1Dialogue2FaceNone" Value="This particular rock is called a,Keystone，rumored to calm,the effects of earthquakes." Face="None" Mono="False" />
+  <!-- はたして　このクッションにも地震を鎮める効果はあるのだろうか････？ -->
+  <Dialogue Key="Map.TenkoRoomKeystoneStage1Dialogue3FaceNone" Value="Would this chair be able to,calm an earthquake?" Face="None" Mono="False" />
+  <!-- 天子のよそ行き帽子だ -->
+  <Dialogue Key="Map.TenkoRoomHatStage1Dialogue1FaceNone" Value="It’s Tenshi’s hat." Face="None" Mono="False" />
+  <!-- 家族と出かける時に身につけるのよと天子が自慢していた -->
+  <Dialogue Key="Map.TenkoRoomHatStage1Dialogue2FaceNone" Value="It’s the same type that Iku wears." Face="None" Mono="False" />
+  <!-- 桃の実と桃の葉があしらわれた飾りはとてもオシャレに見える -->
+  <Dialogue Key="Map.TenkoRoomHatStage1Dialogue3FaceNone" Value="There’s a very stylish peach,and peach leaves adorning,the top of the hat." Face="None" Mono="False" />
+  <!-- 天子のクローゼットだ -->
+  <Dialogue Key="Map.TenkoRoomClosetStage1Dialogue1FaceNone" Value="It’s Tenshi’s closet." Face="None" Mono="False" />
+  <!-- いくら中身が気になっても勝手に開けてはいけない -->
+  <Dialogue Key="Map.TenkoRoomClosetStage1Dialogue2FaceNone" Value="It’d be rude to open it，no matter,how much I want to know what’s,inside." Face="None" Mono="False" />
+  <!-- 親しき仲にも礼儀あり　だ -->
+  <Dialogue Key="Map.TenkoRoomClosetStage1Dialogue3FaceNone" Value="That’s just not what a friend,would do." Face="None" Mono="False" />
+  <!-- 里香の部屋にあるものと同じイビルアイぬいぐるみだ -->
+  <Dialogue Key="Map.TenkoRoomIbiruKugumiStage1Dialogue1FaceNone" Value="It’s the same EvilEye chair that,Rika has in her room." Face="None" Mono="False" />
+  <!-- 里香の家に遊びに行った時に貰ったのだという -->
+  <Dialogue Key="Map.TenkoRoomIbiruKugumiStage1Dialogue2FaceNone" Value="Rika gave it to her as a,housewarming gift." Face="None" Mono="False" />
+  <!-- 里香と天子の友情の証だ -->
+  <Dialogue Key="Map.TenkoRoomIbiruKugumiStage1Dialogue3FaceNone" Value="It’s physical proof of the,friendship between Rika and,Tenshi." Face="None" Mono="False" />
+  <!-- こたつとしての機能を取られたこたつテーブルだ -->
+  <Dialogue Key="Map.TenkoRoomTableStage1Dialogue1FaceNone" Value="It’s a kotatsu table." Face="None" Mono="False" />
+  <!-- 人の動きを封じる毛布と冬場を乗り切る熱を失っても頑丈さは失われることはない -->
+  <Dialogue Key="Map.TenkoRoomTableStage1Dialogue2FaceNone" Value="Use it as a eating surface，a,heater，a storage area，a,barricade! Neverending uses!" Face="None" Mono="False" />
+  <Dialogue Key="Map.TenkoRoomPostGameTenshiDialogue1" Value="Every once in a while I feel like,this is all one very good dream，,and that I’m about to wake up...." Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.TenkoRoomPostGameTenshiDialogue2" Value="But even if this is a dream，I’m,happy to have had it!,Right，Iku?" Face="Tenshi" Mono="False" />
+</data>

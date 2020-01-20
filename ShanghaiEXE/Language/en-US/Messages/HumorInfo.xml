@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- アリス　ユーモアトークを付けたからといって必ずしも面白いことは言わないのよ -->
+  <Dialogue Key="Messages.HumorInfo1Dialogue1Shanghai" Value="Alice，just because you added,a Humor AddOn doesn’t mean,that I’ll say something funny." Face="Shanghai" Mono="False" />
+  <!-- そもそも･･･面白いと感じるのは人間の脳が････ -->
+  <Dialogue Key="Messages.HumorInfo1Dialogue2Shanghai" Value="In the first place，everybody’s,sense of humor is different，,and--" Face="Shanghai" Mono="False" />
+  <!-- 要するに何も思いつかなかったってことでしょ？ -->
+  <Dialogue Key="Messages.HumorInfo1Dialogue3Alice" Value="What you’re saying is，you,couldn’t think of anything?" Face="Alice" Mono="False" />
+  <!-- ユーモアってゆうのは･･･ゆうのは･･･ゆうもあ･･･くらい言ってくればいいのに -->
+  <Dialogue Key="Messages.HumorInfo1Dialogue4Alice" Value="All you have to do is....,Uh...." Face="Alice" Mono="False" />
+  <!-- くっだらないわねばっかじゃないの？ -->
+  <Dialogue Key="Messages.HumorInfo1Dialogue5Shanghai" Value="Nothing?" Face="Shanghai" Mono="False" />
+  <!-- ････なんで私が怒られてるのかしら -->
+  <Dialogue Key="Messages.HumorInfo1Dialogue6Alice" Value="....Why am I getting so mad,about this?" Face="Alice" Mono="False" />
+  <!-- 『シャンハイのお悩み相談室』迷える子羊たちに少しだけアドバイスを差し上げます -->
+  <Dialogue Key="Messages.HumorInfo2Dialogue1Shanghai" Value="Welcome，everyone，to Miss,Shanghai’s Advice Corner!,Rejoice，you lost little lambs!" Face="Shanghai" Mono="False" />
+  <!-- え？　お悩み相談室？ -->
+  <Dialogue Key="Messages.HumorInfo2Dialogue2Alice" Value="”Advice Corner”?,Oh no...." Face="Alice" Mono="False" />
+  <!-- 本日のゲストは金色の魔神こと　神綺アリスさんでございます -->
+  <Dialogue Key="Messages.HumorInfo2Dialogue3Shanghai" Value="Today’s guest is the Golden,Goddess，Alice Shinki!" Face="Shanghai" Mono="False" />
+  <!-- だから　その異名は忘れてって言ってるでしょう！？ -->
+  <Dialogue Key="Messages.HumorInfo2Dialogue4Alice" Value="Didn’t you say you’d stop,using that nickname?!" Face="Alice" Mono="False" />
+  <!-- 案ずることはありません異名もあなたの姿のひとつ拒まずに受け入れるのです -->
+  <Dialogue Key="Messages.HumorInfo2Dialogue5Shanghai" Value="Don’t worry，nobody would,ever disagree with that,name!" Face="Shanghai" Mono="False" />
+  <!-- 受け入れるわけないでしょ！！ -->
+  <Dialogue Key="Messages.HumorInfo2Dialogue6Alice" Value="That’s not what I meant!!" Face="Alice" Mono="False" />
+  <!-- モノマネコーナー！！はっじまっるよーー！ -->
+  <Dialogue Key="Messages.HumorInfo3Dialogue1Shanghai" Value="Heeeeeeey! Impressions time!,Let’s start!" Face="Shanghai" Mono="False" />
+  <!-- いえーーーーい！！ -->
+  <Dialogue Key="Messages.HumorInfo3Dialogue2Alice" Value="No!" Face="Alice" Mono="False" />
+  <!-- 今日のお題は「里香」！それじゃあいってみよーーー！ -->
+  <Dialogue Key="Messages.HumorInfo3Dialogue3Shanghai" Value="Today’s theme is -- Rika!,Go!" Face="Shanghai" Mono="False" />
+  <!-- ････なのです！ -->
+  <Dialogue Key="Messages.HumorInfo3Dialogue4Shanghai" Value="....Yeah!" Face="Shanghai" Mono="False" />
+  <!-- それだけっ！？ -->
+  <Dialogue Key="Messages.HumorInfo3Dialogue5Alice" Value="That all you had?!" Face="Alice" Mono="False" />
+  <!-- むかしむかし　あるところにお爺さんとお婆さんが････ -->
+  <Dialogue Key="Messages.HumorInfo4Dialogue1Shanghai" Value="Once upon a time，there was,an old man and an old lady." Face="Shanghai" Mono="False" />
+  <!-- ････本当に存在していたのか？ -->
+  <Dialogue Key="Messages.HumorInfo4Dialogue2Shanghai" Value="One day they were visited by,an old friend，with shocking,news!" Face="Shanghai" Mono="False" />
+  <!-- お爺さんとお婆さんとは我々の弱い心が生み出した幻なのでは････？ -->
+  <Dialogue Key="Messages.HumorInfo4Dialogue3Shanghai" Value="The old man and old lady,were fictional characters，,delusions of our weak minds!" Face="Shanghai" Mono="False" />
+  <!-- なんだか大変な方向に話がねじれていってるーー！？ -->
+  <Dialogue Key="Messages.HumorInfo4Dialogue4Alice" Value="What a twist!" Face="Alice" Mono="False" />
+  <!-- アリス　今日もいい天気ね -->
+  <Dialogue Key="Messages.HumorInfo5Dialogue1Shanghai" Value="Hey Alice，nice weather today，,huh?" Face="Shanghai" Mono="False" />
+  <!-- へっへっへ････姐さん　今日もインターネットでブイブイ言わせましょうぜ -->
+  <Dialogue Key="Messages.HumorInfo5Dialogue2NaviPurplePunk" Value="Hehehe....It’s me....,I found a lead on where that,guy was hidin’ his stash..." Face="NaviPurplePunk" Mono="False" />
+  <!-- ば　バカ！　アリスの前で出てくるんじゃないわよ！ -->
+  <Dialogue Key="Messages.HumorInfo5Dialogue3Shanghai" Value="Idiot! Don’t call me in front,of Alice!" Face="Shanghai" Mono="False" />
+  <!-- あ　あはは！今のは何でもないのよー -->
+  <Dialogue Key="Messages.HumorInfo5Dialogue4Shanghai" Value="Haha!,Wrong numbers，huh?" Face="Shanghai" Mono="False" />
+  <!-- （隠さなくても　いつものシャンハイだよね････） -->
+  <Dialogue Key="Messages.HumorInfo5Dialogue5Alice" Value="(Even if she tries to hide it，,that’s how Shanghai is，huh....)" Face="Alice" Mono="False" />
+  <!-- ねえシャンハイちょっと聞きたいことが････ -->
+  <Dialogue Key="Messages.HumorInfo6Dialogue1Alice" Value="Hey Shanghai，I want to ask,you something--" Face="Alice" Mono="False" />
+  <!-- ！？ -->
+  <Dialogue Key="Messages.HumorInfo6Dialogue2Sprite" Value="!?" Face="Sprite" Mono="False" />
+  <!-- ！？ -->
+  <Dialogue Key="Messages.HumorInfo6Dialogue3Alice" Value="!?" Face="Alice" Mono="False" />
+  <!-- や　やあアリス！何のようかしら？ -->
+  <Dialogue Key="Messages.HumorInfo6Dialogue4Shanghai" Value="Oh! Alice! What is it?" Face="Shanghai" Mono="False" />
+  <!-- い　今のは？ -->
+  <Dialogue Key="Messages.HumorInfo6Dialogue5Alice" Value="....What did you do now?" Face="Alice" Mono="False" />
+  <!-- え　何か見えた？アハハ　冗談が過ぎるわよ！ -->
+  <Dialogue Key="Messages.HumorInfo6Dialogue6Shanghai" Value="Haha! That’s a good joke!,Enough about that，what did,you need?" Face="Shanghai" Mono="False" />
+  <!-- モノマネコーナー！！はっじまっるよーー！ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue1Shanghai" Value="Heeeeeeey! Impressions time!,Let’s start!" Face="Shanghai" Mono="False" />
+  <!-- いえーーーーい！！ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue2Alice" Value="No!" Face="Alice" Mono="False" />
+  <!-- 今日のお題は「スパナマン」！それじゃあいってみよーーー！ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue3Shanghai" Value="Today’s theme is --,SpannerMan!,Go!" Face="Shanghai" Mono="False" />
+  <!-- てやんでぇべらぼうめえ！コンコンチキがー -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue4Shanghai" Value="Oh no! I’ve been defeated!,Kerchunk!" Face="Shanghai" Mono="False" />
+  <!-- おととい来やがれってんだバァロー！ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue5Shanghai" Value="I’ll get you next time!,Clang!" Face="Shanghai" Mono="False" />
+  <!-- あ　それっぽい！ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue6Alice" Value="Haha! That’s perfect!" Face="Alice" Mono="False" />
+  <!-- 俺ってそんなキャラだとシャンハイちゃんに思われてたのか････ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue7SpannerMan" Value="Shanghai can be so mean,sometimes...." Face="SpannerMan" Mono="False" />
+  <!-- 本人来た！？ていうかどっから！？ -->
+  <Dialogue Key="Messages.HumorInfo7Dialogue8Alice" Value="What?! Where’d you come,from?!" Face="Alice" Mono="False" />
+  <!-- もしも　私が魔法少女だったら････ -->
+  <Dialogue Key="Messages.HumorInfo8Dialogue1Shanghai" Value="If I were a magical girl...." Face="Shanghai" Mono="False" />
+  <!-- 魔法少女だったら････？ -->
+  <Dialogue Key="Messages.HumorInfo8Dialogue2Alice" Value="A magical girl?" Face="Alice" Mono="False" />
+  <!-- マジカルシャンハイ！ドレスアーーップ！ -->
+  <Dialogue Key="Messages.HumorInfo8Dialogue3Shanghai" Value="Magical Shanghai! Dress Up!" Face="Shanghai" Mono="False" />
+  <!-- 悪いやつはこのマジカル精肉機でハンバーグの材料にしちまうぞ！ -->
+  <Dialogue Key="Messages.HumorInfo8Dialogue4Shanghai" Value="The bad guy’s going to turn,you into a hamburger with,a magical butcher machine!" Face="Shanghai" Mono="False" />
+  <!-- 逆らうやつは　八つ裂きよ！ -->
+  <Dialogue Key="Messages.HumorInfo8Dialogue5Shanghai" Value="I’ll turn them into hamburger!" Face="Shanghai" Mono="False" />
+  <!-- 怖いよ！！ -->
+  <Dialogue Key="Messages.HumorInfo8Dialogue6Alice" Value="Scary!" Face="Alice" Mono="False" />
+  <!-- 今思ったけどアリスって身体能力すごいよね -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue1Shanghai" Value="Now that I think about it，you’re,in amazing shape，Alice." Face="Shanghai" Mono="False" />
+  <!-- え？　そう？ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue2Alice" Value="What?" Face="Alice" Mono="False" />
+  <!-- プラグインのたびに１メートルくらい垂直跳びしているし････ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue3Shanghai" Value="Every time we jack in，you,make a meter-high vertical,jump!" Face="Shanghai" Mono="False" />
+  <!-- 思えば　入院するほどのやけどを負った天子の横で炎の中オペレートして無傷････ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue4Shanghai" Value="Then Tenshi had to go to the,hospital for burns，when you,got out without a scratch!" Face="Shanghai" Mono="False" />
+  <!-- 更には暴走する冷蔵庫の前で長時間オペレートして軽い凍傷で済んだ････ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue5Shanghai" Value="And that was after light,frostbite from operating in front,of a runaway refridgerator!" Face="Shanghai" Mono="False" />
+  <!-- ････ハッ！ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue6Shanghai" Value="....Ha!" Face="Shanghai" Mono="False" />
+  <!-- アリスの姉御！今までナマ言ってすんませんでした！！ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue7Shanghai" Value="Boss Alice!,This one apologizes for her,impertinence!" Face="Shanghai" Mono="False" />
+  <!-- ････？ -->
+  <Dialogue Key="Messages.HumorInfo9Dialogue8Alice" Value="....?" Face="Alice" Mono="False" />
+  <!-- 鈴仙ってさー変わった髪型してるよねー -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue1Shanghai" Value="It’s a new hairstyle!" Face="Shanghai" Mono="False" />
+  <!-- そう言えばそうねまるで兎の耳みたいな白いメッシュの髪の毛あるし -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue2Alice" Value="Wow!,It’s like you’ve got rabbit’s ears!" Face="Alice" Mono="False" />
+  <!-- まるで頭にシラタキでも乗せているかのような････ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue3Shanghai" Value="Like a bowl of noodles got,dumped over my face!" Face="Shanghai" Mono="False" />
+  <!-- #s@phone#プルルルルル！ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue4None" Value="#s@phone#Briiiiing!" Face="None" Mono="False" />
+  <!-- も　もしもし？ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue5Alice" Value="Hello?" Face="Alice" Mono="False" />
+  <!-- 今　お前たちのどちらかが私の悪口を言わなかったか？ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue6Reisen" Value="Is someone mocking me?" Face="Reisen" Mono="False" />
+  <!-- う　ううん？言ってないわよ？ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue7Alice" Value="....No?" Face="Alice" Mono="False" />
+  <!-- そうか････ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue8Reisen" Value="Good." Face="Reisen" Mono="False" />
+  <!-- この地獄耳････いや地獄シラタキめ･･･ -->
+  <Dialogue Key="Messages.HumorInfo10Dialogue9Shanghai" Value="Rabbit’s ear....,Noodles....,Snkrrt." Face="Shanghai" Mono="False" />
+  <!-- 『シャンハイのお悩み相談室』今回のゲストはこちらです -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue1Shanghai" Value="Shanghai’s Consultation room，,we’ve got a guest caller!" Face="Shanghai" Mono="False" />
+  <!-- どうも、森近魔理だぜ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue2Mari" Value="Hi，this is Mari Morichika." Face="Mari" Mono="False" />
+  <!-- どういった悩みをお持ちで？ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue3Shanghai" Value="What can we do for you?" Face="Shanghai" Mono="False" />
+  <!-- 私ってキャラ設定地味じゃね？と思ってな････ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue4Mari" Value="I feel like I’m a forgettable,side-character." Face="Mari" Mono="False" />
+  <!-- すごいのはパパであって私じゃないし、けれども私は主人公ってわけでもないし -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue5Mari" Value="My dad is the doctor，but I feel,that’s my only distinguishing,trait." Face="Mari" Mono="False" />
+  <!-- お金持ちのレミリアや語尾が特徴的な里香とかと比べるとどうも地味と思うんだ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue6Mari" Value="Rika’s got her personality and,Remilia’s rich，but I’ve got,nothing." Face="Mari" Mono="False" />
+  <!-- なるほどじゃあお金持ちになるか特徴的な口調にすれば？ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue7Shanghai" Value="What about becoming rich，or,becoming more distinctive?" Face="Shanghai" Mono="False" />
+  <!-- お金持ちはすぐには無理として特徴的な口調っていってもどういうのにするのよ？ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue8Alice" Value="I don’t think you can just,get rich，so I guess you’ll,have to be distinctive." Face="Alice" Mono="False" />
+  <!-- どうでマリ？いい線いってるでマリ？ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue9Mari" Value="How’s this?,It’s a-me，Mari!" Face="Mari" Mono="False" />
+  <!-- ･･･無しね -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue10Alice" Value="....No." Face="Alice" Mono="False" />
+  <!-- ････なしだな帰りましょう -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue11Shanghai" Value="....No.,Alice，we should go." Face="Shanghai" Mono="False" />
+  <!-- ひどいでマリ････ -->
+  <Dialogue Key="Messages.HumorInfo11Dialogue12Mari" Value="Oh no...." Face="Mari" Mono="False" />
+  <!-- 状況は！？ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue1Shanghai" Value="What’s the situation?!" Face="Shanghai" Mono="False" />
+  <!-- 第一防衛ライン突破されました！ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue2NaviPurpleHeel" Value="They’ve broken through the,first line of defense!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ええい　たかが小娘１人になにを手こずっているのだ！！ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue3Shanghai" Value="What are our fighters doing?!" Face="Shanghai" Mono="False" />
+  <!-- しかし　やつの力は我々の想像を上回っており････ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue4NaviPurpleHeel" Value="Their power level is beyond,our comprehension!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- もういい　ふがいないザコどもめこうなったらあたしが出る！ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue5Shanghai" Value="I’m getting out of here!" Face="Shanghai" Mono="False" />
+  <!-- ････何やってるの？ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue6Alice" Value="What’s going on?" Face="Alice" Mono="False" />
+  <!-- 捉えた女の子が意外と強くて基地の防衛を次々突破される悪の組織の指揮官ゴッコ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue7Shanghai" Value="She’s caught me! The beast,has broken through! Is this the,end of our brave defenders?" Face="Shanghai" Mono="False" />
+  <!-- 細かっ！？ -->
+  <Dialogue Key="Messages.HumorInfo12Dialogue8Alice" Value="What?!" Face="Alice" Mono="False" />
+  <!-- ご苦労様　さがっていいわ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue1Shanghai" Value="-- dismissed!" Face="Shanghai" Mono="False" />
+  <!-- はっ！ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue2NaviPurplePunk" Value="Yes!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 思ったけど　シャンハイのしもべナビって全部で何人いるの？ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue3Alice" Value="How many people do you,have working for you，anyhow?" Face="Alice" Mono="False" />
+  <!-- えーっと････ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue4Shanghai" Value="Ah...." Face="Shanghai" Mono="False" />
+  <!-- 直属の幹部が１０人いて幹部１人に部下が２０人いてその部下１人に対して････ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue5Shanghai" Value="There’s ten executives，each,with 20 guys and a vice-exec，,and each of those guys have...." Face="Shanghai" Mono="False" />
+  <!-- ････たくさんいるわね！ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue6Shanghai" Value="....A lot!" Face="Shanghai" Mono="False" />
+  <!-- ええー････ -->
+  <Dialogue Key="Messages.HumorInfo13Dialogue7Alice" Value="Yeah...." Face="Alice" Mono="False" />
+  <!-- このあいだ　レジストをお店で買おうと思ったんだけどさー -->
+  <Dialogue Key="Messages.HumorInfo14Dialogue1Shanghai" Value="So I was headed to the shop，,and wanted to buy a Resist." Face="Shanghai" Mono="False" />
+  <!-- そうしたらお店の人が仕事をストライキしちゃったわけよ -->
+  <Dialogue Key="Messages.HumorInfo14Dialogue2Shanghai" Value="But all the shopkeepers were,on strike! The landlord for their,stalls wanted more money!" Face="Shanghai" Mono="False" />
+  <!-- レジストを買おうとしてレジ　ストライキ -->
+  <Dialogue Key="Messages.HumorInfo14Dialogue3Shanghai" Value="But I didn’t find out until I’d,already gone up to buy my,items!" Face="Shanghai" Mono="False" />
+  <!-- レジストレジ　スト -->
+  <Dialogue Key="Messages.HumorInfo14Dialogue4Shanghai" Value="It was a random rent-related,retail Resist register refusal!" Face="Shanghai" Mono="False" />
+  <!-- あーはいはいおもしろいおもしろい -->
+  <Dialogue Key="Messages.HumorInfo14Dialogue5Alice" Value="Mhm.... How crazy!,....Sorry，were you saying,somthing?" Face="Alice" Mono="False" />
+  <!-- ････くっ！ -->
+  <Dialogue Key="Messages.HumorInfo14Dialogue6Shanghai" Value="....Argh!" Face="Shanghai" Mono="False" />
+  <!-- ウージョウっていう猿のウィルスがいるじゃない？ -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue1Shanghai" Value="You know the virus that looks,like a monkey?" Face="Shanghai" Mono="False" />
+  <!-- あーモンキーポールの -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue2Alice" Value="Wukong，right?" Face="Alice" Mono="False" />
+  <!-- この前　とてつもなく強いウージョウと戦って負けそうになったんだけど -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue3Shanghai" Value="I heard that they know,techniques of ancient martial,artists." Face="Shanghai" Mono="False" />
+  <!-- なんとそのウージョウがあたしを見逃してくれたのよ -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue4Shanghai" Value="There’s the legendary strike,that looks harmless but causes,the victim to keel over later." Face="Shanghai" Mono="False" />
+  <!-- なんて有情（うじょう）なウージョウなのかしら････ -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue5Shanghai" Value="The last time I fought one，I,thought I felt it tap me，and now,I’m feeling.... feeling.... Argh!" Face="Shanghai" Mono="False" />
+  <!-- ････そう -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue6Alice" Value="....Really?" Face="Alice" Mono="False" />
+  <!-- アリスは無情ね････ -->
+  <Dialogue Key="Messages.HumorInfo15Dialogue7Shanghai" Value="You’re heartless，Alice...." Face="Shanghai" Mono="False" />
+  <!-- あるインターネットエリアでお祭りが開かれてたくさんの屋台が出たの -->
+  <Dialogue Key="Messages.HumorInfo16Dialogue1Shanghai" Value="So I was hanging out at the,market the other day and,something weird happened!" Face="Shanghai" Mono="False" />
+  <!-- そしたらソードックの群れが現れて全員がホットドック屋に向かったんですって！ -->
+  <Dialogue Key="Messages.HumorInfo16Dialogue2Shanghai" Value="When a pack of SworDog,showed up and started raiding,the hotdog stand!" Face="Shanghai" Mono="False" />
+  <!-- 総　ドックソー　ドック････ -->
+  <Dialogue Key="Messages.HumorInfo16Dialogue3Shanghai" Value="A bunch of us called it the,SworDog Hotdog incident!" Face="Shanghai" Mono="False" />
+  <!-- ････ぷっ -->
+  <Dialogue Key="Messages.HumorInfo16Dialogue4Alice" Value="....Right." Face="Alice" Mono="False" />
+  <!-- よし勝った！！ -->
+  <Dialogue Key="Messages.HumorInfo16Dialogue5Shanghai" Value="It really happened!" Face="Shanghai" Mono="False" />
+  <!-- あっ　しまった！ -->
+  <Dialogue Key="Messages.HumorInfo16Dialogue6Alice" Value="Sure it did." Face="Alice" Mono="False" />
+  <!-- うーん　アリスなかなか寝付けないわ -->
+  <Dialogue Key="Messages.HumorInfo17Dialogue1Shanghai" Value="Mmmmm.,Alice，I just can’t fall asleep." Face="Shanghai" Mono="False" />
+  <!-- そういうときは　ケダマーの数を数えるのよ -->
+  <Dialogue Key="Messages.HumorInfo17Dialogue2Alice" Value="I heard counting Kedama helps." Face="Alice" Mono="False" />
+  <!-- わかったわ -->
+  <Dialogue Key="Messages.HumorInfo17Dialogue3Shanghai" Value="Alright...." Face="Shanghai" Mono="False" />
+  <!-- うーん　バグのかけらが１個バグのかけらが２個････ -->
+  <Dialogue Key="Messages.HumorInfo17Dialogue4Shanghai" Value="....one BugFrag....,....three BugFrags...." Face="Shanghai" Mono="False" />
+  <!-- カウンターで倒してるーー！？ -->
+  <Dialogue Key="Messages.HumorInfo17Dialogue5Alice" Value="That confident，are you?" Face="Alice" Mono="False" />
+  <!-- 『シャンハイのお悩み相談室』今回のゲストはこちらです -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue1Shanghai" Value="Shanghai’s Consultation room，,we’ve got a guest caller!" Face="Shanghai" Mono="False" />
+  <!-- むきゅ！わたしが来たわよ！ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue2Patchouli" Value="Mukyu! It’s me!" Face="Patchouli" Mono="False" />
+  <!-- 本日はどういう悩みで？ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue3Shanghai" Value="What’s bothering you today?" Face="Shanghai" Mono="False" />
+  <!-- せっかくネットナビとして登場してるのに　バトルが出来ないのが不満なの！ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue4Patchouli" Value="I’m frustrated!,I’m a NetNavi，but I can’t fight,any NetBattles!" Face="Patchouli" Mono="False" />
+  <!-- そんなあなたにオススメなのがこのマッスルスーツ！ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue5Shanghai" Value="Have you heard of this great,new product? Introducing the,Incredible Muscle Suit!" Face="Shanghai" Mono="False" />
+  <!-- ヘイ　メアリーこのスーツを着るとどうなるんだい？ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue6OrangeHairMaleWesterner" Value="What happens when you put on,the suit? Tell me about it，Mary!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- よく聞いてくれたわね　ボブこれを着ると　誰でも簡単に魅力的な筋肉が！ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue7Shanghai" Value="Well Bob，this amazing suit,instantly adds a layer of hard,muscle! But an attractive level!" Face="Shanghai" Mono="False" />
+  <!-- そいつはスゲーや！でも　きっと値段が高いんだろ？ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue8OrangeHairMaleWesterner" Value="That’s unreal! It must cost an,absolute fortune!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- それがね　ボブなんとお値段据え置き１万８千ゼニーなの！ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue9Shanghai" Value="That’s just it，Bob! You can,get this marvel for an affordable,18000 Zenny!" Face="Shanghai" Mono="False" />
+  <!-- お買い得じゃないか！これは今すぐテレフォンするっきゃないね！ -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue10OrangeHairMaleWesterner" Value="What a bargain! That’s a,no-brainer，folks! Call now!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- （････誰？） -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue11Alice" Value="(....What?)" Face="Alice" Mono="False" />
+  <!-- （････私の出番は？） -->
+  <Dialogue Key="Messages.HumorInfo18Dialogue12Patchouli" Value="(....but where do I call?)" Face="Patchouli" Mono="False" />
+  <!-- 散々ネットナビっぽくないって言われているあたしだけど -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue1Shanghai" Value="Sometimes people tell me,that I’m not a proper NetNavi." Face="Shanghai" Mono="False" />
+  <!-- たまにはマジメなネットナビっぽく振る舞ってみるわよ！ -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue2Shanghai" Value="I’ll try to behave and be a,serious NetNavi for you!" Face="Shanghai" Mono="False" />
+  <!-- ドキドキ････ -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue3Alice" Value="(Could it be....?)" Face="Alice" Mono="False" />
+  <!-- アリスちゃん！メールが来ているよ！ -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue4Shanghai" Value="Miss Alice!,You have mail!" Face="Shanghai" Mono="False" />
+  <!-- アリスちゃんナイスオペレーティング！ -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue5Shanghai" Value="Miss Alice!,Nice operating!" Face="Shanghai" Mono="False" />
+  <!-- アリスちゃん　困ったことがあったら私になんでも相談してね！ -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue6Shanghai" Value="Miss Alice!,If anything’s bothering you,please feel free to talk to me!" Face="Shanghai" Mono="False" />
+  <!-- ････気持ち悪っ -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue7Alice" Value="This is weird....,Stop...." Face="Alice" Mono="False" />
+  <!-- ←　割とマジメに　　　ショックを受けている -->
+  <Dialogue Key="Messages.HumorInfo19Dialogue8Shanghai" Value="◄(Was actually being serious)" Face="Shanghai" Mono="True" />
+  <!-- た　大変！サクヤが　サクヤが！ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue1Shanghai" Value="Oh no! I’m turning into Sakuya!" Face="Shanghai" Mono="False" />
+  <!-- サクヤがどうかしたの！？ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue2Alice" Value="What’s wrong with being like,Sakuya?!" Face="Alice" Mono="False" />
+  <!-- サクヤの髪が燃え尽きたように真っ白に！！ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue3Shanghai" Value="Her hair’s as white as a,grandma’s!" Face="Shanghai" Mono="False" />
+  <!-- た　大変！！ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue4Alice" Value="Oh no!" Face="Alice" Mono="False" />
+  <!-- って　サクヤの髪は元から真っ白でしょ！！ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue5Alice" Value="Did you get a white hair?" Face="Alice" Mono="False" />
+  <!-- てへぺろ！ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue6Shanghai" Value="Call the cyber-stylist!" Face="Shanghai" Mono="False" />
+  <!-- 白じゃなくて銀髪です！！ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue7Sakuya" Value="It’s silver!" Face="Sakuya" Mono="False" />
+  <!-- へぇ〜････ってどこから来たの！？ -->
+  <Dialogue Key="Messages.HumorInfo20Dialogue8Alice" Value="What?! Where’d you come,from?!" Face="Alice" Mono="False" />
+  <!-- あいうえお作文ーーーー！！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue1Shanghai" Value="Heeeeeeey! Name game!" Face="Shanghai" Mono="False" />
+  <!-- いえーーーい！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue2Alice" Value="Ah!" Face="Alice" Mono="False" />
+  <!-- 今回のお題は「レミリア」！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue3Shanghai" Value="Today’s theme is -- Remilia!,Go!" Face="Shanghai" Mono="False" />
+  <!-- レミリアの「レ」！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue4Alice" Value="”Re”!" Face="Alice" Mono="False" />
+  <!-- レントゲンに････ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue5Shanghai" Value="A drop of golden sun!" Face="Shanghai" Mono="False" />
+  <!-- レミリアの「ミ」！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue6Alice" Value="”Mi”!" Face="Alice" Mono="False" />
+  <!-- 見事に写っている････ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue7Shanghai" Value="A name I call myself!" Face="Shanghai" Mono="False" />
+  <!-- レミリアの「リ」！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue8Alice" Value="”Li”!" Face="Alice" Mono="False" />
+  <!-- リアリティのある････ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue9Shanghai" Value="I don’t think that’s in the song!" Face="Shanghai" Mono="False" />
+  <!-- レミリアの「ア」！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue10Alice" Value="”A”!" Face="Alice" Mono="False" />
+  <!-- アリスの顔････ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue11Shanghai" Value="”A” for Alice! Alice’s face!" Face="Shanghai" Mono="False" />
+  <!-- 私の顔！？何で映ってるの！？こわいよ！ -->
+  <Dialogue Key="Messages.HumorInfo21Dialogue12Alice" Value="Hey! What about my face?!" Face="Alice" Mono="False" />
+  <!-- じれったい状態とかけてアリスの部屋とかけます -->
+  <Dialogue Key="Messages.HumorInfo22Dialogue1Shanghai" Value="Shinki...." Face="Shanghai" Mono="False" />
+  <!-- そ　そのこころは？ -->
+  <Dialogue Key="Messages.HumorInfo22Dialogue2Alice" Value="What are you talking about?" Face="Alice" Mono="False" />
+  <!-- 神綺（しんき）くさい････ -->
+  <Dialogue Key="Messages.HumorInfo22Dialogue3Shanghai" Value="What’s that word?,When something smells bad?,Shinki?" Face="Shanghai" Mono="False" />
+  <!-- 失礼な！ -->
+  <Dialogue Key="Messages.HumorInfo22Dialogue4Alice" Value="Rude!" Face="Alice" Mono="False" />
+  <!-- ねえシャンハイシャンハイってリボン取るとどんな感じになるの？ -->
+  <Dialogue Key="Messages.HumorInfo23Dialogue1Alice" Value="Hey Shanghai，I don’t think I’ve,seen you without your ribbon on." Face="Alice" Mono="False" />
+  <!-- もう　しょうがないわね一瞬しか見せないからよーく見ておきなさいよ -->
+  <Dialogue Key="Messages.HumorInfo23Dialogue2Shanghai" Value="Really?,Take a good look，it’s,annoying to take off." Face="Shanghai" Mono="False" />
+  <!-- はいっ！ -->
+  <Dialogue Key="Messages.HumorInfo23Dialogue3Punk" Value="There!" Face="Punk" Mono="False" />
+  <!-- おしまい！ -->
+  <Dialogue Key="Messages.HumorInfo23Dialogue4Shanghai" Value="Aaand done!" Face="Shanghai" Mono="False" />
+  <!-- ええっ！？ -->
+  <Dialogue Key="Messages.HumorInfo23Dialogue5Alice" Value="What?" Face="Alice" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue1YoungAlice" Value="" Face="YoungAlice" Mono="True" />
+  <!-- あれ　それ私の写真？ -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue2Alice" Value="Is that a picture of me?" Face="Alice" Mono="False" />
+  <!-- アリス　黙ってたけどあなたは実は幽霊なの -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue3Shanghai" Value="I didn’t want to tell you like,this，Alice....,You’ve been dead for 6 years." Face="Shanghai" Mono="False" />
+  <!-- この写真はあなたの遺影････ -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue4Shanghai" Value="That was the picture we showed,at your funeral." Face="Shanghai" Mono="False" />
+  <!-- えっ････ -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue5Alice" Value="....What?" Face="Alice" Mono="False" />
+  <!-- ････って冗談よ！ -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue6Shanghai" Value="Just kidding!" Face="Shanghai" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue7Alice" Value="" Face="Alice" Mono="True" />
+  <!-- アリス？　アリス？おーーい！？ -->
+  <Dialogue Key="Messages.HumorInfo24Dialogue8Shanghai" Value="Alice?,,....Alice?" Face="Shanghai" Mono="False" />
+  <!-- 『シャンハイのお悩み相談室』今回のゲストはこちらです -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue1Shanghai" Value="Shanghai’s Consultation room，,we’ve got a guest caller!" Face="Shanghai" Mono="False" />
+  <!-- 椿ネックだぜ -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue2TsubakiNekku" Value="It’s Tsubaki Nekku." Face="TsubakiNekku" Mono="False" />
+  <!-- 悩める子羊よその悩みをザンゲなさい -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue3Shanghai" Value="Lost little lamb，tell me your,trouble." Face="Shanghai" Mono="False" />
+  <!-- 俺の周り　俺以外みんなかわいい女の子なわけだけどさ -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue4TsubakiNekku" Value="I’m surrounded by pretty girls,but nobody notices me!" Face="TsubakiNekku" Mono="False" />
+  <!-- なんでか誰とも恋愛フラグが立たないんだ -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue5TsubakiNekku" Value="How do I set some flags?,What am I doing wrong?" Face="TsubakiNekku" Mono="False" />
+  <!-- そういう願いはこのお方にどうぞ -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue6Shanghai" Value="This guy...." Face="Shanghai" Mono="False" />
+  <!-- 私はスプライトの神願いを何でも叶えてやろう -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue7Sprite" Value="THE SPRITE GOD HEARS,THE CRY OF A LOST SOUL!,WHAT IS YOUR WISH?" Face="Sprite" Mono="False" />
+  <!-- 神様！？えっと　じゃあクラスメイトの誰かと恋愛関係になりたいです！ -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue8TsubakiNekku" Value="Is that you，God?!,I want a girlfriend! Let me go out,with one of my classmates!" Face="TsubakiNekku" Mono="False" />
+  <!-- ････すまないその願いは私の力を持ってしても叶えられそうにない -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue9Sprite" Value="EVEN I DO NOT HAVE THAT,POWER!" Face="Sprite" Mono="False" />
+  <!-- ちくしょぉぉぉ！！ -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue10TsubakiNekku" Value="Whyyyyyyyyy?!" Face="TsubakiNekku" Mono="False" />
+  <!-- （どんな願いなら　叶えられるのかな････） -->
+  <Dialogue Key="Messages.HumorInfo25Dialogue11Alice" Value="(I wonder what my wish,would be....?)" Face="Alice" Mono="False" />
+  <!-- ここに　昔のアリスが書き残した未来にあてたお手紙があります -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue1Shanghai" Value="Oh! Here’s a letter I found in,your old time capsule! It’s a,letter from a younger you!" Face="Shanghai" Mono="False" />
+  <!-- そういえばそんなの書いたっけねえ　なんて書いてあるの？ -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue2Alice" Value="Well? What does it say?" Face="Alice" Mono="False" />
+  <!-- えーっとね････ -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue3Shanghai" Value="Well，uh...." Face="Shanghai" Mono="False" />
+  <!-- みらいの私へみらいの私は　ゆめをかなえているのかな -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue4YoungAlice" Value="Dear Future Alice，,I hope you did what I wanted!" Face="YoungAlice" Mono="False" />
+  <!-- 私のしょうらいの　ゆめは････ -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue5YoungAlice" Value="What I want most in my life is...." Face="YoungAlice" Mono="False" />
+  <!-- 電気をつけるときに引っ張るひも　になりたいです -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue6YoungAlice" Value="I wanna be the string，that,you pull to turn on a lamp!" Face="YoungAlice" Mono="False" />
+  <!-- 紐！？ -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue7Alice" Value="The string?!" Face="Alice" Mono="False" />
+  <!-- ヒモ！？ -->
+  <Dialogue Key="Messages.HumorInfo26Dialogue8Shanghai" Value="Well? Did you do it?" Face="Shanghai" Mono="False" />
+  <!-- あるーひ♪ -->
+  <Dialogue Key="Messages.HumorInfo27Dialogue1Shanghai" Value="♪" Face="Shanghai" Mono="False" />
+  <!-- あるーひ♪ -->
+  <Dialogue Key="Messages.HumorInfo27Dialogue2Alice" Value="♪" Face="Alice" Mono="False" />
+  <!-- もりのーなーか♪ -->
+  <Dialogue Key="Messages.HumorInfo27Dialogue3Shanghai" Value="♪〜" Face="Shanghai" Mono="False" />
+  <!-- もりのーなーか♪ -->
+  <Dialogue Key="Messages.HumorInfo27Dialogue4Alice" Value="♪〜" Face="Alice" Mono="False" />
+  <!-- 小太りの汗臭い浮浪者のオッサンにであーった♪ -->
+  <Dialogue Key="Messages.HumorInfo27Dialogue5Shanghai" Value="....I walked by a really smelly,midget yesterday." Face="Shanghai" Mono="False" />
+  <!-- それ現実的に危ないやつだ！ -->
+  <Dialogue Key="Messages.HumorInfo27Dialogue6Alice" Value="That came out of nowhere!" Face="Alice" Mono="False" />
+  <!-- 切ない系の物語でさ最後にヒロインがスーッと消えていくのあるじゃない？ -->
+  <Dialogue Key="Messages.HumorInfo28Dialogue1Shanghai" Value="In a scene in a movie where,the heroine walks off into the,sunset，what’s a good line?" Face="Shanghai" Mono="False" />
+  <!-- ああいうシーンで言ってみたいセリフってあるわよね -->
+  <Dialogue Key="Messages.HumorInfo28Dialogue2Shanghai" Value="She turns around，looks at,the side character，and says:" Face="Shanghai" Mono="False" />
+  <!-- 「私を忘れないでね」とか言ってみたいよね -->
+  <Dialogue Key="Messages.HumorInfo28Dialogue3Alice" Value="Probably something like:,”Don’t forget me” or something." Face="Alice" Mono="False" />
+  <!-- あたしはこう言いたいわね -->
+  <Dialogue Key="Messages.HumorInfo28Dialogue4Shanghai" Value="I think it’d be more like:" Face="Shanghai" Mono="False" />
+  <!-- 「ぶち殺すぞヒューマン！」 -->
+  <Dialogue Key="Messages.HumorInfo28Dialogue5Shanghai" Value="”Kill all humans!”" Face="Shanghai" Mono="False" />
+  <!-- それヒロインのセリフじゃないよね！？ -->
+  <Dialogue Key="Messages.HumorInfo28Dialogue6Alice" Value="Didn’t you say heroine?" Face="Alice" Mono="False" />
+  <!-- アリス　鈴仙につけるいいニックネームを思いついたわ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue1Shanghai" Value="Hey Alice，I’ve got a good,nickname for Reisen." Face="Shanghai" Mono="False" />
+  <!-- えっ　なになに？ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue2Alice" Value="What is it?" Face="Alice" Mono="False" />
+  <!-- あいつの白い髪の毛ってうどんの束みたいじゃない？ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue3Shanghai" Value="That weird white hair she has, looks like noodles，right?" Face="Shanghai" Mono="False" />
+  <!-- だからウドンの毛でウドン毛って････ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue4Shanghai" Value="So ”Udon Hair” fits someone, with hair that looks like udon." Face="Shanghai" Mono="False" />
+  <!-- #s@phone#プルルルルル！ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue5None" Value="#s@phone#Briiiiing！" Face="None" Mono="False" />
+  <!-- も　もしもし？ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue6Alice" Value="Hello?" Face="Alice" Mono="False" />
+  <!-- 今　私の悪口を絶対言ったはずだ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue7Reisen" Value="You’re mocking me，aren’t,you?" Face="Reisen" Mono="False" />
+  <!-- い　いや　いやいやいや････言ってない言ってない！ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue8Alice" Value="N-no!,What would make you think,that? We wouldn’t do that!" Face="Alice" Mono="False" />
+  <!-- ････そうか？ならいいのだが -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue9Reisen" Value="....Really." Face="Reisen" Mono="False" />
+  <!-- ホッ････ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue10Alice" Value="(Phew....)" Face="Alice" Mono="False" />
+  <!-- ････地獄耳いや　地獄ウドン毛め････ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue11Shanghai" Value="....rabbit-ear-udon-hair...." Face="Shanghai" Mono="False" />
+  <!-- #s@phone#プルルルルル！ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue12None" Value="#s@phone#Briiiiing！" Face="None" Mono="False" />
+  <!-- ヒィッ！？ -->
+  <Dialogue Key="Messages.HumorInfo29Dialogue13Shanghai" Value="Augh?!" Face="Shanghai" Mono="False" />
+  <!-- あいうえお作文ーーーー！！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue1Shanghai" Value="Heeeeeeey! Name game!" Face="Shanghai" Mono="False" />
+  <!-- いえーーーい！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue2Alice" Value="Ah!" Face="Alice" Mono="False" />
+  <!-- 今回のお題は「ケダマー」！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue3Shanghai" Value="Today’s theme is -- Kedama!,Go!" Face="Shanghai" Mono="False" />
+  <!-- ケダマーの「ケ」！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue4Alice" Value="”Ke”!" Face="Alice" Mono="False" />
+  <!-- けっこう････ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue5Shanghai" Value="What am I supposed to,say here?" Face="Shanghai" Mono="False" />
+  <!-- ケダマーの「ダ」！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue6Alice" Value="”Da”!" Face="Alice" Mono="False" />
+  <!-- だめそうな････ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue7Shanghai" Value="I’ve still got nothing!" Face="Shanghai" Mono="False" />
+  <!-- ケダマーの「マ」！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue8Alice" Value="”Ma”!" Face="Alice" Mono="False" />
+  <!-- ママの････ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue9Shanghai" Value="Does ”Mama” count?" Face="Shanghai" Mono="False" />
+  <!-- ケダマーの「ー」！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue10Alice" Value="”R”!" Face="Alice" Mono="False" />
+  <!-- ････しまった「ー」が発音できない！！ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue11Shanghai" Value="That’s not in ”Kedama”!" Face="Shanghai" Mono="False" />
+  <!-- それ完全にお題ミスだよね！？ -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue12Alice" Value="Oops!" Face="Alice" Mono="False" />
+  <!-- （っていうか今　私どうやって　発音したんだろう？） -->
+  <Dialogue Key="Messages.HumorInfo30Dialogue13Alice" Value="(Must’ve used Japanese!,....but arent I speaking,Japanese?)" Face="Alice" Mono="False" />
+  <!-- もぐもぐもぐ････ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue1Shanghai" Value="Mmmm....,,....Mmph." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　何食べてるの？ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue2Alice" Value="Are you eating something，,Shanghai?" Face="Alice" Mono="False" />
+  <!-- ゲルパークのつぼ焼きよ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue3Shanghai" Value="I foun’ a Gehpa’!" Face="Shanghai" Mono="False" />
+  <!-- ウィルスって食べられるんだ！美味しいの？ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue4Alice" Value="A GelPack? You’re eating a,virus?" Face="Alice" Mono="False" />
+  <!-- 意外とこれが美味で････ってもっといいツッコミせんかい！ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue5Shanghai" Value="Ish’ goo’!,....Mmph!,Better than a restaurant!" Face="Shanghai" Mono="False" />
+  <!-- なにかあるでしょ！！お腹壊さないの？　とかウソでしょ？　とか！！ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue6Shanghai" Value="....,....Oooh.,My stomach...." Face="Shanghai" Mono="False" />
+  <!-- ウィルス食なんてゲテモノあたしがやるわけ無いでしょうが！ -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue7Shanghai" Value="Ahhh!,It’s bad!,I’m never eating a virus again!" Face="Shanghai" Mono="False" />
+  <!-- （やりそうだから真に　受けちゃったのよね････） -->
+  <Dialogue Key="Messages.HumorInfo31Dialogue8Alice" Value="(You say that now，but I know,you’re going to...)" Face="Alice" Mono="False" />
+  <!-- 『シャンハイのお悩み相談室』今回のゲストはこちらです -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue1Shanghai" Value="Shanghai’s Consultation room，,we’ve got a guest caller!" Face="Shanghai" Mono="False" />
+  <!-- どうも　ヨリヒメです -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue2Yorihime" Value="Thank you very much." Face="Yorihime" Mono="False" />
+  <!-- 悩める子羊よその悩みをザンゲなさい -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue3Shanghai" Value="Beleaguered soul，what ails,you?" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙様、すぐに物理的な方法で解決しようとするので私の存在意義に疑問が････ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue4Yorihime" Value="Miss Reisen，she.... Every,situation is solved with force....,Is that all I’m good for?" Face="Yorihime" Mono="False" />
+  <!-- うん、まあ正直あんたよりもオペレーターの方が強いかもしれないわね -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue5Shanghai" Value="If it helps，I think Reisen,might be stronger than you." Face="Shanghai" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue6Yorihime" Value="...." Face="Yorihime" Mono="False" />
+  <!-- でも安心しなさいあんた強いんだしいつか報われるわよ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue7Shanghai" Value="Don’t worry! You’re still strong!,I’m sure things will work out!" Face="Shanghai" Mono="False" />
+  <!-- あとそうね　なにか持ち芸があれば別の役割を持てるかもね？ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue8Shanghai" Value="Learn a trick or two and I’m,sure you can find another role!" Face="Shanghai" Mono="False" />
+  <!-- 持ち芸････ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue9Yorihime" Value="A trick...." Face="Yorihime" Mono="False" />
+  <!-- 鼻からブレイブソードとか？ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue10Yorihime" Value="....like firing a sword from my,nose?" Face="Yorihime" Mono="False" />
+  <!-- ････何をどうしたらその発想に行き着くのよ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue11Shanghai" Value="....how did you end up with that,idea?" Face="Shanghai" Mono="False" />
+  <!-- 鼻からブレイブソード！鼻からブレイブソード！ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue12Yorihime" Value="A sword from my nose!,Two swords from my nose!" Face="Yorihime" Mono="False" />
+  <!-- あっ　壊れちゃったまあいっか -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue13Shanghai" Value="I think she’s broken!" Face="Shanghai" Mono="False" />
+  <!-- よくないよ！？ -->
+  <Dialogue Key="Messages.HumorInfo32Dialogue14Alice" Value="Oh no!" Face="Alice" Mono="False" />
+  <!-- アリスって名前の子が主人公の童話あったよね -->
+  <Dialogue Key="Messages.HumorInfo33Dialogue1Shanghai" Value="What’s that one kid’s book?,Some girl follows a rabbit?" Face="Shanghai" Mono="False" />
+  <!-- あれ　なんて題名だっけ？ど忘れしちゃった -->
+  <Dialogue Key="Messages.HumorInfo33Dialogue2Alice" Value="Oh! That one!,....I’ve forgotten the name." Face="Alice" Mono="False" />
+  <!-- えーっと　確かふしぎの国の････････ -->
+  <Dialogue Key="Messages.HumorInfo33Dialogue3Shanghai" Value="Wonderland? No....,Someone in Wonderland?,A-something in Wonderland?" Face="Shanghai" Mono="False" />
+  <!-- ････････アリストテレス？ -->
+  <Dialogue Key="Messages.HumorInfo33Dialogue4Shanghai" Value=" Ar....，Al....,....Aristotle?" Face="Shanghai" Mono="False" />
+  <!-- なぜ哲学者！？ -->
+  <Dialogue Key="Messages.HumorInfo33Dialogue5Alice" Value="The philosopher?!" Face="Alice" Mono="False" />
+  <!-- モノマネコーナー！！はっじまっるよーー！ -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue1Shanghai" Value="Heeeeeeey! Impressions time!,Let’s start!" Face="Shanghai" Mono="False" />
+  <!-- いえーーーーい！！ -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue2Alice" Value="No!" Face="Alice" Mono="False" />
+  <!-- 今日のお題は「アリスのおばあちゃん」！それじゃあいってみよーーー！ -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue3Shanghai" Value="Today’s theme is -- Alice’s,grandma!,Go!" Face="Shanghai" Mono="False" />
+  <!-- ばい〜　アリスばそげん大きくなったとね -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue4Shanghai" Value="Ooh，Alice!,You’ve grown so big!" Face="Shanghai" Mono="False" />
+  <!-- ばってん孫娘にゃお菓子ばあげんとでけん -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue5Shanghai" Value="Been eating a lot of sweets，,I see!" Face="Shanghai" Mono="False" />
+  <!-- せからしかね　そげんこつ言わんでもよかろっちゃ -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue6Shanghai" Value="Oh sweetie，I was just asking,if you wanted some candy!" Face="Shanghai" Mono="False" />
+  <!-- あっ　上手上手 -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue7Alice" Value="You can do impressions by,yourself if you want." Face="Alice" Mono="False" />
+  <!-- あら　ふたりば面白か遊びばしとるね -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue8Mama" Value="You two look like you’re,having fun!" Face="Mama" Mono="False" />
+  <!-- シャンハイの方言もなかなかっちゃけどまだまだやね -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue9Mama" Value="The words are right，but...." Face="Mama" Mono="False" />
+  <!-- ママ！？ -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue10Alice" Value="Mama?!" Face="Alice" Mono="False" />
+  <!-- 流石に現地民には勝てんばい････ -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue11Shanghai" Value="It’s because my voice is still,young and beautiful!" Face="Shanghai" Mono="False" />
+  <!-- 年季が違うとよ〜 -->
+  <Dialogue Key="Messages.HumorInfo34Dialogue12Mama" Value="I’m planning dinner，do you,want eggs and rice?" Face="Mama" Mono="False" />
+  <!-- 生卵をかけて白いご飯でときます -->
+  <Dialogue Key="Messages.HumorInfo35Dialogue1Shanghai" Value="You have to wake up!" Face="Shanghai" Mono="False" />
+  <!-- ････その心は？ -->
+  <Dialogue Key="Messages.HumorInfo35Dialogue2Alice" Value="....What?" Face="Alice" Mono="False" />
+  <!-- ばーか！ただの卵かけご飯でーす！！ -->
+  <Dialogue Key="Messages.HumorInfo35Dialogue3Shanghai" Value="You have to wake up!,This is all a dream!" Face="Shanghai" Mono="False" />
+  <!-- 引っ掛けかよっ！クソがっ！！ -->
+  <Dialogue Key="Messages.HumorInfo35Dialogue4Alice" Value="No!,I’m not going back!" Face="Alice" Mono="False" />
+  <!-- ！？ -->
+  <Dialogue Key="Messages.HumorInfo35Dialogue5Shanghai" Value="?!" Face="Shanghai" Mono="False" />
+  <!-- 『シャンハイのお悩み相談室』今回のゲストはこちらです -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue1Shanghai" Value="Shanghai’s Consultation room，,we’ve got a guest caller!" Face="Shanghai" Mono="False" />
+  <!-- こんにちは　リグルだよ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue2WriggleHat" Value="Hi，this is Wriggle!" Face="WriggleHat" Mono="False" />
+  <!-- 迷える子羊よ　あなたはどういった悩みをお持ちで？ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue3Shanghai" Value="Little lamb，what troubles you?" Face="Shanghai" Mono="False" />
+  <!-- 私のお父さん　王様だけどお姉さんと弟さんがいるんだ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue4WriggleHat" Value="My father is the king，and I,have an older sister and,younger brother." Face="WriggleHat" Mono="False" />
+  <!-- で　お父さん時たま本当に自分が王様になってよかったのかって悩むんだ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue5WriggleHat" Value="Sometimes I worry that I’m not,good enough...." Face="WriggleHat" Mono="False" />
+  <!-- 優しくて人望のあるお姉さんと博識で真面目な弟さんとお父さんの誰が････ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue6WriggleHat" Value="My sister is popular and,gentle，and my brother is,smart and serious，and my--" Face="WriggleHat" Mono="False" />
+  <!-- よくわかんないしあたしには関係ないわ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue7Shanghai" Value="You just keep going and going!" Face="Shanghai" Mono="False" />
+  <!-- ええっ！？そんな　ひどいよ！ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue8WriggleHat" Value="What?! You’re terrible!" Face="WriggleHat" Mono="False" />
+  <!-- うるっさいわね！王位継承問題をあたしに投げるんじゃないわよ！！ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue9Shanghai" Value="You’re terrible!,Don’t dump your royal family,troubles on me!" Face="Shanghai" Mono="False" />
+  <!-- まあ、今特に国民から不満が出てないなら胸を張れとでも言っておきなさい -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue10Shanghai" Value="Has anyone even said anything,to you，or is all this in your,head?!" Face="Shanghai" Mono="False" />
+  <!-- あ　うん！ありがとう、シャンハイ！ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue11WriggleHat" Value="....You’re right!,Thank you，Shanghai!" Face="WriggleHat" Mono="False" />
+  <!-- ････一国の王女様にすごい物言いね -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue12Alice" Value="....Great way to talk to the,royal princess，Shanghai." Face="Alice" Mono="False" />
+  <!-- とんでもねえあたしゃ神様だよ -->
+  <Dialogue Key="Messages.HumorInfo36Dialogue13Shanghai" Value="What is a princess to a,goddess?" Face="Shanghai" Mono="False" />
+  <!-- もしもし　私メリーさん今ゴーランドにいるの -->
+  <Dialogue Key="Messages.HumorInfo37Dialogue1Shanghai" Value="Tell Mari I’m in the ground." Face="Shanghai" Mono="False" />
+  <!-- ････どういうこと？ -->
+  <Dialogue Key="Messages.HumorInfo37Dialogue2Alice" Value="....What?" Face="Alice" Mono="False" />
+  <!-- メリーさんゴーランドメリーゴーランド････ -->
+  <Dialogue Key="Messages.HumorInfo37Dialogue3Shanghai" Value="Mari -- ground，,Merry -- go-round.,Get it?" Face="Shanghai" Mono="False" />
+  <!-- ････ぺっ -->
+  <Dialogue Key="Messages.HumorInfo37Dialogue4Alice" Value="....pfft." Face="Alice" Mono="False" />
+  <!-- つば吐かれた！？ -->
+  <Dialogue Key="Messages.HumorInfo37Dialogue5Shanghai" Value="Did that make you laugh?!" Face="Shanghai" Mono="False" />
+  <!-- よし、連れていきなさい -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue1Shanghai" Value="Take him away." Face="Shanghai" Mono="False" />
+  <!-- はっ！ -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue2NaviPurpleHeel" Value="Yes!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- トイレ掃除だけはご勘弁をぉぉぉ！！ -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue3NaviPurplePunk" Value="Please，mercy!,Not the toilets!" Face="NaviPurplePunk" Mono="False" />
+  <!-- うるさい！さっさと歩け！ -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue4NaviPurpleHeel" Value="Shut it!,On your feet!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････シャンハイどうしてトイレ掃除がこんなに嫌がられてるの？ -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue5Alice" Value="....What’s this about toilets?,Why was he so scared?" Face="Alice" Mono="False" />
+  <!-- それはね　トイレの数が膨大だからよ -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue6Shanghai" Value="My，uh，”hangout” has a lot of,toilets." Face="Shanghai" Mono="False" />
+  <!-- 洗っても洗ってもきれいにした端から使われ汚されていく -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue7Shanghai" Value="By the time you get to the,last，someone’s already used,one that just got cleaned." Face="Shanghai" Mono="False" />
+  <!-- 永遠に終わることのない現代の賽の河原それがトイレ掃除なの -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue8Shanghai" Value="An eternal circuit of toilets....,A toilet Ouroboros，if you will." Face="Shanghai" Mono="False" />
+  <!-- ････へー -->
+  <Dialogue Key="Messages.HumorInfo38Dialogue9Alice" Value="...." Face="Alice" Mono="False" />
+  <!-- こぁ先生とチップショップの店長下の名前ってどっちがどっちだっけ？ -->
+  <Dialogue Key="Messages.HumorInfo39Dialogue1Shanghai" Value="What’re the names of your,teacher and the chip-shop,owner，again?" Face="Shanghai" Mono="False" />
+  <!-- 先生が久真子（くまこ）店長さんが隈美（くまみ）さんよ -->
+  <Dialogue Key="Messages.HumorInfo39Dialogue2Alice" Value="Ms. Kumako and Kumami，,why?" Face="Alice" Mono="False" />
+  <!-- なるほど　こ　が妹でみ　が姉と････ -->
+  <Dialogue Key="Messages.HumorInfo39Dialogue3Shanghai" Value="They’ve gotta be sisters....,But who’s the younger and,who’s the older?" Face="Shanghai" Mono="False" />
+  <!-- おっ、なんだ？私の話でもしてるのか？ -->
+  <Dialogue Key="Messages.HumorInfo39Dialogue4Kumami" Value="Hmm? Are you guys talking,about me?" Face="Kumami" Mono="False" />
+  <!-- あっみ　の人だ -->
+  <Dialogue Key="Messages.HumorInfo39Dialogue5Shanghai" Value="Ah! Look，a man!" Face="Shanghai" Mono="False" />
+  <!-- み！？ -->
+  <Dialogue Key="Messages.HumorInfo39Dialogue6Kumami" Value="Where?!" Face="Kumami" Mono="False" />
+  <!-- レミリアに天子にリグル････あんたって女の子ばかり落としてるわよね -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue1Shanghai" Value="Wriggle....Remilia....Tenshi....,You’ve got a thing for,damsels in distress，huh?" Face="Shanghai" Mono="False" />
+  <!-- 落としてるなんて失礼な！みんな大事な友達よ　友達！ -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue2Alice" Value="What?! They’re all my precious,friends! Friends!" Face="Alice" Mono="False" />
+  <!-- 私だって　いつか素敵な彼氏を作るんだから！ -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue3Alice" Value="I’m going to find a good,boyfriend! You’ll see!" Face="Alice" Mono="False" />
+  <!-- そう言ってもねぇまた女の子助けて惚れられちゃいそう -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue4Shanghai" Value="But your ”friends” are going,to be so disappointed!" Face="Shanghai" Mono="False" />
+  <!-- むきゅ！身の危険をかんじるわ！ -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue5Patchouli" Value="Mukyu!" Face="Patchouli" Mono="False" />
+  <!-- あんただけは絶対ないから -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue6Shanghai" Value="It’s going to be alright，don’t,worry." Face="Shanghai" Mono="False" />
+  <!-- むきゅ！？ -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue7Patchouli" Value="Mukyu?!" Face="Patchouli" Mono="False" />
+  <!-- （どこから来たんだろう） -->
+  <Dialogue Key="Messages.HumorInfo40Dialogue8Alice" Value="(Where’d she come from?!)" Face="Alice" Mono="False" />
+  <!-- シャンハイって　弱点あるの？ -->
+  <Dialogue Key="Messages.HumorInfo41Dialogue1Alice" Value="Is there anything you can’t,deal with，Shanghai?" Face="Alice" Mono="False" />
+  <!-- あるわよ？あたしカナヅチだから泳げないの -->
+  <Dialogue Key="Messages.HumorInfo41Dialogue2Shanghai" Value="Well，I can’t swim.,I’m a Navi，there’s no water." Face="Shanghai" Mono="False" />
+  <!-- それ以外は？ -->
+  <Dialogue Key="Messages.HumorInfo41Dialogue3Alice" Value="....Besides that?" Face="Alice" Mono="False" />
+  <!-- そうね････高級電脳肉が焼きあがる匂いに弱いわね -->
+  <Dialogue Key="Messages.HumorInfo41Dialogue4Shanghai" Value="My deepest secret....,When I smell a good steak，I,just can’t control myself!" Face="Shanghai" Mono="False" />
+  <!-- それ食い意地が張ってるだけじゃ････ -->
+  <Dialogue Key="Messages.HumorInfo41Dialogue5Alice" Value="You’re such a glutton，,Shanghai." Face="Alice" Mono="False" />
+</data>

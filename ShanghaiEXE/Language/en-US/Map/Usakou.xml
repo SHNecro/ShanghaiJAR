@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.UsakouName" Value="Lord Usa Statue Comp" />
+  <Dialogue Key="Map.UsakouSprite1Stage1Dialogue1FaceSprite" Value="THE STORY OF LORD USA,IS POPULAR IN EIEN TOWN!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UsakouSprite1Stage1Dialogue2FaceSprite" Value="IT’S WHY THE EIEN TOWN,CREST IS A RABBIT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage1Dialogue1FaceNaviPurplePunk" Value="I’m selling AddOns here." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage1Dialogue2QuestionFaceNaviPurplePunk" Value="Want to buy my AddOns?" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.UsakouAdd-onMerchantStage1Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage2Dialogue1FaceNaviPurplePunk" Value="Come back soon." Face="NaviPurplePunk" Mono="False" />
+</data>

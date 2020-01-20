@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 永遠町　１丁目 -->
+  <Text Key="Map.EienTown2Name" Value="Eien Town Block 1" />
+  <!-- この八意総合病院は日本でも有数の巨大病院なんだよ -->
+  <Dialogue Key="Map.EienTown2Chapter4Student1Stage1Dialogue1FaceMaleGlassesStudent" Value="Yagokoro Hospital is one of,the largest hospitals in Japan." Face="MaleGlassesStudent" Mono="False" />
+  <!-- この病院で治せない病気はほとんど無いと言われてるよ -->
+  <Dialogue Key="Map.EienTown2Chapter4Student1Stage1Dialogue2FaceMaleGlassesStudent" Value="They say there are few,illnesses that can’t be,cured here." Face="MaleGlassesStudent" Mono="False" />
+  <!-- あら　あなたはすごく元気みたいね！ -->
+  <Dialogue Key="Map.EienTown2Chapter4NurseStage1Dialogue1FaceNurse" Value="My，you look quite healthy!,Young children should be，,of course!" Face="Nurse" Mono="False" />
+  <!-- 若い子は元気が一番！健康管理はしっかりね！ -->
+  <Dialogue Key="Map.EienTown2Chapter4NurseStage1Dialogue2FaceNurse" Value="Our health care system must,really have its act together!" Face="Nurse" Mono="False" />
+  <!-- ネットエージェントのロボットすっげーカッコイーな！ -->
+  <Dialogue Key="Map.EienTown2Chapter4ChildStage1Dialogue1FaceMaleChild" Value="These NetAgent robots are,suuuuper cool!" Face="MaleChild" Mono="False" />
+  <!-- 今ここのロボットが発進していったぞ！ -->
+  <Dialogue Key="Map.EienTown2Chapter4ChildStage3Dialogue1FaceMaleChild" Value="One of these robots just,took off!" Face="MaleChild" Mono="False" />
+  <!-- パァーって消えてカッコ良かったぞ！ -->
+  <Dialogue Key="Map.EienTown2Chapter4ChildStage3Dialogue2FaceMaleChild" Value="It went BANG and vanished!,It was soooooo cool!" Face="MaleChild" Mono="False" />
+  <!-- ネットエージェントが戦う相手の中にはネットマフィアみたいなのもいる -->
+  <Dialogue Key="Map.EienTown2Chapter4NetoeStage1Dialogue1FacePoliceman" Value="Each NetAgent’s NetOp,needs enough fighting,prowess to defend" Face="Policeman" Mono="False" />
+  <!-- エージェントのオペレーターが直接狙われるのを防ぐために戦力を所有しているんだよ -->
+  <Dialogue Key="Map.EienTown2Chapter4NetoeStage1Dialogue2FacePoliceman" Value="themselves if they’re,attacked in person." Face="Policeman" Mono="False" />
+  <!-- あんたの金髪　地毛なんだ？いいなーチョーカワイー！ -->
+  <Dialogue Key="Map.EienTown2Chapter4Student2Stage1Dialogue1FaceBlondeHairGalStudent" Value="Is that your natural hair color?,It’s suuuuper cute! I’m jealous!" Face="BlondeHairGalStudent" Mono="False" />
+  <!-- ここがエージェントセンターかぁ -->
+  <Dialogue Key="Map.EienTown2Chapter4TenshiStage1Dialogue1FaceTenshi" Value="This is the Agent Center，,right?" Face="Tenshi" Mono="False" />
+  <!-- 早く入ろっ　アリス！ -->
+  <Dialogue Key="Map.EienTown2Chapter4TenshiStage1Dialogue2FaceTenshi" Value="Alice，let’s go inside!" Face="Tenshi" Mono="False" />
+  <!-- アリス　一緒に来てくれてありがとうなのよ！ -->
+  <Dialogue Key="Map.EienTown2Chapter4TenshiStage3Dialogue1FaceTenshi" Value="Thanks for coming here with,me again!" Face="Tenshi" Mono="False" />
+  <!-- エージェントセンターへようこそ -->
+  <Dialogue Key="Map.EienTown2Chapter4Netoe2Stage1Dialogue1FacePoliceman" Value="Welcome to the Agent Center." Face="Policeman" Mono="False" />
+  <!-- 要件は入って右側の受付におねがいしますね -->
+  <Dialogue Key="Map.EienTown2Chapter4Netoe2Stage1Dialogue2FacePoliceman" Value="For important business，,please go to the counter,on the right." Face="Policeman" Mono="False" />
+  <!-- 最近ネットエージェントがＲＯＭに対してたいした成果を挙げられてないらしい -->
+  <Dialogue Key="Map.EienTown2Chapter5Student2Stage1Dialogue1FaceMaleGlassesStudent" Value="It seems like the NetAgents,haven’t been making much,progress against ROM lately." Face="MaleGlassesStudent" Mono="False" />
+  <!-- どちらも凄い組織だからその水面下での戦いは計り知れないだろうね -->
+  <Dialogue Key="Map.EienTown2Chapter5Student2Stage1Dialogue2FaceMaleGlassesStudent" Value="Both are huge organizations，,so I’m sure there’s an immense,invisible war going on." Face="MaleGlassesStudent" Mono="False" />
+  <!-- はえぇぇ？何ですかい？耳が遠くてのぉ -->
+  <Dialogue Key="Map.EienTown27thAnniversaryStage1Dialogue1FaceFemaleElderly" Value="Hmm? Did you say something?,My ears aren’t what they used,to." Face="FemaleElderly" Mono="False" />
+  <!-- 病院に行くための腰を整えておるんじゃ邪魔しないでおくれ -->
+  <Dialogue Key="Map.EienTown27thAnniversaryStage1Dialogue2FaceFemaleElderly" Value="It’s my hips that I’m at the,hospital for，though." Face="FemaleElderly" Mono="False" />
+  <!-- 天災は忘れた頃にやってくるものだ -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage1Dialogue1FacePoliceman" Value="Disaster strikes when you least,expect it." Face="Policeman" Mono="False" />
+  <!-- 事件が少ない今こそ危機意識を忘れてはいけない -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage1Dialogue2FacePoliceman" Value="Even though things are safe for,now，we must be prepared for,what comes next." Face="Policeman" Mono="False" />
+  <!-- インターネットが謎のナビの襲撃を受けているらしい -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage3Dialogue1FacePoliceman" Value="The Net is under attack by,mysterious Navis." Face="Policeman" Mono="False" />
+  <!-- が　しかし新米隊員の私にはできることがないのだ････ -->
+  <Dialogue Key="Map.EienTown2Chapter7NetoeStage3Dialogue2FacePoliceman" Value="There’s nothing I can do....!,I’m just a rookie!" Face="Policeman" Mono="False" />
+  <!-- いつケガをした人が来ても受け入れられる体制を整えているのよ -->
+  <Dialogue Key="Map.EienTown2Chapter8NurseStage1Dialogue1FaceNurse" Value="We’ve got systems in place to,quickly admit injured patients." Face="Nurse" Mono="False" />
+  <!-- ネットエージェントは不眠不休の意気込みで事態に対応している -->
+  <Dialogue Key="Map.EienTown2Chapter8WhiteStage1Dialogue1FaceScientist" Value="The NetAgents are tirelessly,responding to the situation." Face="Scientist" Mono="False" />
+  <!-- 私だけでもその活躍を信じてあげねばならんのだ -->
+  <Dialogue Key="Map.EienTown2Chapter8WhiteStage1Dialogue2FaceScientist" Value="I just have to hope their hard,work is enough...." Face="Scientist" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboBazookaStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboBazookaStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboShieldStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown2Chapter8RoboShieldStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 今　病院に入ってもしょうがないでしょ？ -->
+  <Dialogue Key="Map.EienTown2HospitalEntranceStage1Dialogue1FaceShanghai" Value="There’s no reason to go into,the hospital now，right?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander1Dialogue1" Value="I feel like the air is somehow,better than usual!" Face="Nurse" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander2Dialogue1" Value="When ROM declared war，I,thought that was it for me.,No，I’ve got a long life ahead!" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander3Dialogue1" Value="Captain Sagume and a couple,of other Agents are busy,investigating the ROM base." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander3Dialogue2" Value="Reisen is chasing a suspect,in Engelles，and I’m following,another organization. Busy!" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.EienTown2PostGameBystander4Dialogue1" Value="Umm.... Ah....,Which way was it to the hospital,again?" Face="FemaleElderly" Mono="False" />
+</data>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 魔理の部屋 -->
+  <Text Key="Map.MariroomName" Value="Mari’s Room" />
+  <!-- 魔理のベッドだ -->
+  <Dialogue Key="Map.MariroomBedStage1Dialogue1FaceNone" Value="It’s Mari’s bed." Face="None" Mono="False" />
+  <!-- モノクロの掛け布団が彼女っぽい -->
+  <Dialogue Key="Map.MariroomBedStage1Dialogue2FaceNone" Value="The monochrome comforter,is quite lovely." Face="None" Mono="False" />
+  <!-- 魔理のパソコンだ -->
+  <Dialogue Key="Map.MariroomPCStage1Dialogue1FaceNone" Value="It’s Mari’s computer." Face="None" Mono="False" />
+  <!-- 画質にこだわりがあるのか高品質でワイドなディスプレイが使われている -->
+  <Dialogue Key="Map.MariroomPCStage1Dialogue2FaceNone" Value="It has a high-quality,widescreen display for,better image quality." Face="None" Mono="False" />
+  <!-- もちろん　プラグインも可能だ -->
+  <Dialogue Key="Map.MariroomPCStage1Dialogue3FaceNone" Value="Of course，it has a jack in port." Face="None" Mono="False" />
+  <!-- ただの観葉植物と見せかけて薬品の元になる薬草のようだ -->
+  <Dialogue Key="Map.MariroomMetalRackStage1Dialogue1FaceNone" Value="These plants look normal，but,they have a faint bitter smell.,Are they medicinal herbs?" Face="None" Mono="False" />
+  <!-- 一体どこで手に入れたのか何に使うのかは持ち主のみぞ知る -->
+  <Dialogue Key="Map.MariroomMetalRackStage1Dialogue2FaceNone" Value="Where in the world did she get,them? Only their owner would,know what they’re used for." Face="None" Mono="False" />
+  <!-- 普通の中学生では理解できないような化学の本が散乱している -->
+  <Dialogue Key="Map.MariroomThisStage1Dialogue1FaceNone" Value="It’s a pile of chemistry books,that most middle school,students wouldn’t understand." Face="None" Mono="False" />
+  <!-- 本物かどうかわからない黒魔術の本も混じっている -->
+  <Dialogue Key="Map.MariroomThisStage1Dialogue2FaceNone" Value="There are black magic books,in the pile too. It’s hard to tell,if they’re the real deal." Face="None" Mono="False" />
+  <!-- どうやら魔理の母親がプレゼントしたもののようだ -->
+  <Dialogue Key="Map.MariroomThisStage1Dialogue3FaceNone" Value="They look like presents made,by her mom." Face="None" Mono="False" />
+  <!-- 本に混じって妙な紙切れが一枚混じっていた -->
+  <Dialogue Key="Map.MariroomThisStage1Dialogue4FaceNone" Value="There’s an odd piece of paper,sticking out of a book...." Face="None" Mono="False" />
+  <!-- その紙には４４８６−２１７９と書かれている -->
+  <Dialogue Key="Map.MariroomThisStage1Dialogue5FaceNone" Value="It says.... ”4486-2179”." Face="None" Mono="False" />
+  <!-- どうした？そんなに慌てて････ -->
+  <Dialogue Key="Map.MariroomMariStage1Dialogue1FaceMari" Value="What’s wrong?,You look upset...." Face="Mari" Mono="False" />
+  <!-- ・・・・わかった何も言わずにこいつを持っていけ！ -->
+  <Dialogue Key="Map.MariroomMariStage1Dialogue2FaceMari" Value="....I gotcha.,You don’t have to say a word.,Take this!" Face="Mari" Mono="False" />
+  <!-- あと　これも持っていけ！お守り代わりだ！ -->
+  <Dialogue Key="Map.MariroomMariStage1Dialogue3FaceMari" Value="And take this too!,It’s a good luck charm!" Face="Mari" Mono="False" />
+  <!-- 魔理　ありがとう！ -->
+  <Dialogue Key="Map.MariroomMariStage1Dialogue4FaceAlice" Value="Thanks，Mari!" Face="Alice" Mono="False" />
+  <!-- 無事を祈ってるぜ！ -->
+  <Dialogue Key="Map.MariroomMariStage1Dialogue5FaceMari" Value="I’ll pray for your safety!" Face="Mari" Mono="False" />
+  <!-- 無事を祈ってるぜ！ -->
+  <Dialogue Key="Map.MariroomMariStage3Dialogue1FaceMari" Value="I’ll pray for your safety!" Face="Mari" Mono="False" />
+  <!-- 事件は解決したんだな？よかった〜 -->
+  <Dialogue Key="Map.MariroomMariStage5Dialogue1FaceMari" Value="Did you resolve the incident?,That’s a relief!" Face="Mari" Mono="False" />
+  <!-- レミリア帰ってきたのかな････ -->
+  <Dialogue Key="Map.MariroomMariStage7Dialogue1FaceMari" Value="I wonder if Remilia got back,home yet...." Face="Mari" Mono="False" />
+  <!-- そうだ　ネットバトルやらないか？ -->
+  <Dialogue Key="Map.MariroomMariStage7Dialogue2FaceMari" Value="Oh yeah，wanna NetBattle?" Face="Mari" Mono="False" />
+  <!-- レミリア帰ってきたのかな････ -->
+  <Dialogue Key="Map.MariroomMariStage9Dialogue1FaceMari" Value="I wonder if Remilia got back,home yet...." Face="Mari" Mono="False" />
+  <!-- 父さん　大したことなかったって今病院から連絡があったんだ -->
+  <Dialogue Key="Map.MariroomMariStage11Dialogue1FaceMari" Value="The hospital called.,They said that dad is,doin’ alright!" Face="Mari" Mono="False" />
+  <!-- 明日からまたすぐ研究に戻るんだってさ -->
+  <Dialogue Key="Map.MariroomMariStage11Dialogue2FaceMari" Value="He should be back to,researchin’ tomorrow." Face="Mari" Mono="False" />
+  <!-- そうだ　ネットバトルやらないか？ -->
+  <Dialogue Key="Map.MariroomMariStage11Dialogue3FaceMari" Value="Oh yeah，wanna NetBattle?" Face="Mari" Mono="False" />
+  <!-- 最近忙しかったから退屈にいやされるぜ〜 -->
+  <Dialogue Key="Map.MariroomMariStage13Dialogue1FaceMari" Value="I’ve been so busy lately that,the boredom is refreshing." Face="Mari" Mono="False" />
+  <!-- そうだ　退屈しのぎにネットバトルやらないか？ -->
+  <Dialogue Key="Map.MariroomMariStage13Dialogue2FaceMari" Value="Oh yeah，wanna NetBattle?" Face="Mari" Mono="False" />
+  <!-- 明日、絶対に比那名居と友達になってやるんだぜ -->
+  <Dialogue Key="Map.MariroomMariStage15Dialogue1FaceMari" Value="I’m definitely gonna make,friends with Tenshi tomorrow!" Face="Mari" Mono="False" />
+  <!-- そうだ　退屈しのぎにネットバトルやらないか？ -->
+  <Dialogue Key="Map.MariroomMariStage15Dialogue2FaceMari" Value="Oh yeah，wanna NetBattle?" Face="Mari" Mono="False" />
+  <!-- ふー　大変な一日だったけど天子と仲良くなれてよかったぜ -->
+  <Dialogue Key="Map.MariroomMariStage17Dialogue1FaceMari" Value="Phew! Today was pretty tough，,but I’m glad we made friends,with Tenshi." Face="Mari" Mono="False" />
+  <!-- お？ネットバトルするか？ -->
+  <Dialogue Key="Map.MariroomMariStage17Dialogue2FaceMari" Value="Oh? How ’bout a NetBattle?" Face="Mari" Mono="False" />
+  <!-- 父さんが久々にまとまった休みが取れたから一緒に過ごすんだ -->
+  <Dialogue Key="Map.MariroomMariStage19Dialogue1FaceMari" Value="Dad had a lot of vacation,days，so we’re spendin’,’em together." Face="Mari" Mono="False" />
+  <!-- 天子から聞いたぜ！Ｎ１リーグで優勝したってな！ -->
+  <Dialogue Key="Map.MariroomMariStage21Dialogue1FaceMari" Value="Tenshi told me that you won,the N1 League!" Face="Mari" Mono="False" />
+  <!-- ということは　だ！アリスにネットバトルで勝てば私がチャンピオンだ！ -->
+  <Dialogue Key="Map.MariroomMariStage21Dialogue2FaceMari" Value="Then that means....!,If I beat you in a NetBattle，,then I’ll be the champ!" Face="Mari" Mono="False" />
+  <!-- 天子　事件に巻き込まれて入院したって聞いたけど大丈夫なのかな････ -->
+  <Dialogue Key="Map.MariroomMariStage23Dialogue1FaceMari" Value="I heard Tenshi got hurt in an,incident. I hope she’s okay...." Face="Mari" Mono="False" />
+  <!-- こんど　みんなでお見舞いに行ってやろうな････ -->
+  <Dialogue Key="Map.MariroomMariStage23Dialogue2FaceMari" Value="Let’s go visit her in the,hospital sometime soon...." Face="Mari" Mono="False" />
+  <!-- 天子　元気そうでよかったな -->
+  <Dialogue Key="Map.MariroomMariStage25Dialogue1FaceMari" Value="I’m glad that Tenshi looked,alright." Face="Mari" Mono="False" />
+  <!-- お　アリス！　お帰り！インゲレスはどうだった？ -->
+  <Dialogue Key="Map.MariroomMariStage27Dialogue1FaceMari" Value="Alice! Welcome back!,How was Engelles?" Face="Mari" Mono="False" />
+  <!-- ちょっとトラブルもあったけど最高の旅行だったわ！はい　おみやげ！ -->
+  <Dialogue Key="Map.MariroomMariStage27Dialogue2FaceAlice" Value="There was a bit of trouble，but it,was a great trip!,I got you a souvenir!" Face="Alice" Mono="False" />
+  <!-- おっ！この本　日本じゃ買えなくてずっと欲しかったんだ！ -->
+  <Dialogue Key="Map.MariroomMariStage27Dialogue3FaceMari" Value="Wow! I’ve been looking for this,book for ages!" Face="Mari" Mono="False" />
+  <!-- アリス　ありがとな！ -->
+  <Dialogue Key="Map.MariroomMariStage27Dialogue4FaceMari" Value="Thanks，Alice!" Face="Mari" Mono="False" />
+  <!-- ふふっ！魔理が喜んでくれてよかった！ -->
+  <Dialogue Key="Map.MariroomMariStage27Dialogue5FaceAlice" Value="Hehe，I’m glad you like it，Mari!" Face="Alice" Mono="False" />
+  <!-- 今度　旅行の話をじっくり聞かせてくれよな！ -->
+  <Dialogue Key="Map.MariroomMariStage27Dialogue6FaceMari" Value="Tell me all about your trip!" Face="Mari" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.MariroomMariStage29Dialogue1FaceShanghai" Value="Now that you’re done handing,out souvenirs，we should head,home to Mama." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.MariroomMariStage29Dialogue2FaceShanghai" Value="Time to go home!" Face="Shanghai" Mono="False" />
+  <!-- ありがとな　アリス！ -->
+  <Dialogue Key="Map.MariroomMariStage31Dialogue1FaceMari" Value="Thanks again，Alice!" Face="Mari" Mono="False" />
+  <!-- そうだ　久々にネットバトルしないか？ -->
+  <Dialogue Key="Map.MariroomMariStage31Dialogue2FaceMari" Value="It’s been a while，up for a,NetBattle?" Face="Mari" Mono="False" />
+  <!-- いざというときに何もできない自分がもどかしいんだ -->
+  <Dialogue Key="Map.MariroomMariStage33Dialogue1FaceMari" Value="There was nobody I could train,against while you were gone!" Face="Mari" Mono="False" />
+  <!-- 私のネットバトルの訓練に付き合っちゃくれないか？ -->
+  <Dialogue Key="Map.MariroomMariStage33Dialogue2FaceMari" Value="Wanna help me out with that?" Face="Mari" Mono="False" />
+  <!-- 魔理にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Mari to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.MariroomMarisaBattleStage1Dialogue1Options" Value="Yes,No" />
+  <!-- ようし　やってやれ！マリサ！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage1Dialogue2FaceMari" Value="Alright! Let’s do it，Marisa!" Face="Mari" Mono="False" />
+  <!-- 調子悪かったのか？ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage3Dialogue1FaceMari" Value="Yo，you feelin’ okay?" Face="Mari" Mono="False" />
+  <!-- さすがにお前たちに力押しじゃ勝てないよな〜 -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage5Dialogue1FaceMari" Value="Looks like brute force won’t,really work on you two，huh?" Face="Mari" Mono="False" />
+  <!-- パワーアップを見せてやれ！マリサ！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage6Dialogue1FaceMari" Value="Marisa! Show ’em how much,you’ve powered up!" Face="Mari" Mono="False" />
+  <!-- 調子悪かったのか？ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage8Dialogue1FaceMari" Value="Yo，you feelin’ okay?" Face="Mari" Mono="False" />
+  <!-- これでも勝てないとはな･･･！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage10Dialogue1FaceMari" Value="I lost again....!" Face="Mari" Mono="False" />
+  <!-- こいつは勝った褒美だ！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage10Dialogue2FaceMari" Value="Now here’s your prize!" Face="Mari" Mono="False" />
+  <!-- ってのは冗談で　Ｐコードを更新してから渡すのすっかり忘れてたんだよな････ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage10Dialogue3FaceMari" Value="Just kiddin’!,I updated my P-Code and,forgot to give ya a copy." Face="Mari" Mono="False" />
+  <!-- ちょうどいいタイミングだから今渡したってわけだ！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage10Dialogue4FaceMari" Value="Now just happened to be a,good time to hand it over!" Face="Mari" Mono="False" />
+  <!-- 全力全開！今度は負けないぜ！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage11Dialogue1FaceMari" Value="Full throttle!,We won’t lose this time!" Face="Mari" Mono="False" />
+  <!-- 調子悪かったのか？ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage13Dialogue1FaceMari" Value="Yo，you feelin’ okay?" Face="Mari" Mono="False" />
+  <!-- お前ら強すぎだよ！ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage15Dialogue1FaceMari" Value="You guys are too strong!" Face="Mari" Mono="False" />
+  <!-- なんだよ　ツレないなあ -->
+  <Dialogue Key="Map.MariroomMarisaBattleStage16Dialogue1FaceMari" Value="Really? Harsh...." Face="Mari" Mono="False" />
+  <!-- やあ　神綺さん -->
+  <Dialogue Key="Map.MariroomRinnosukeStage1Dialogue1FaceDrMorichika" Value="Ah，Alice." Face="DrMorichika" Mono="False" />
+  <!-- いつも夜遅くに帰るばかりで魔理になかなかかまってあげられなかったからね -->
+  <Dialogue Key="Map.MariroomRinnosukeStage1Dialogue2FaceDrMorichika" Value="Since I come home late from,work，Mari is always home by,herself." Face="DrMorichika" Mono="False" />
+  <!-- いつも家に一人ぼっちで留守番させてるおわびに家族サービスしてるんだ -->
+  <Dialogue Key="Map.MariroomRinnosukeStage1Dialogue3FaceDrMorichika" Value="I thought she might be lonely，,so I’m taking time off to spend,quality time with my family." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.MariroomMariPostGameDialogue1" Value="Alice! Good to see ya!,I’m not gonna lose today!" Face="Mari" Mono="False" />
+</data>

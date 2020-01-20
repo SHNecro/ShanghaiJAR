@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ■■回想3■■ -->
+  <Text Key="Map.Blackback3Name" Value="■■回想3■■" />
+  <!-- 俺は麻由美と････今のママと結婚する以前に別の女性と結婚していた -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue1FaceLloyd" Value="俺は麻由美と････,今のママと結婚する以前に,別の女性と結婚していた" Face="Lloyd" Mono="False" />
+  <!-- その女性と俺との間には一人娘がいた････ -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue2FaceLloyd" Value="その女性と俺との間には,一人娘がいた････" Face="Lloyd" Mono="False" />
+  <!-- 名をレベッカ･マーガ元気で活発な女の子だった -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue3FaceLloyd" Value="名をレベッカ･マーガ,元気で活発な女の子だった" Face="Lloyd" Mono="False" />
+  <!-- 俺は妻とレベッカと共に世界を飛び回り冒険稼業に明け暮れていた -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue4FaceLloyd" Value="俺は妻とレベッカと共に,世界を飛び回り,冒険稼業に明け暮れていた" Face="Lloyd" Mono="False" />
+  <!-- だが　あの日次の目的地へと向かう途中････ -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue5FaceLloyd" Value="だが　あの日,次の目的地へと向かう途中････" Face="Lloyd" Mono="False" />
+  <!-- 落石事故に巻き込まれ俺は妻と娘を一度に喪ってしまった -->
+  <Dialogue Key="Map.Blackback3EventStage3Dialogue1FaceLloyd" Value="落石事故に巻き込まれ,俺は妻と娘を一度に,喪ってしまった" Face="Lloyd" Mono="False" />
+  <!-- 俺は　一度に家族を喪ったショックで････ -->
+  <Dialogue Key="Map.Blackback3EventStage5Dialogue1FaceLloyd" Value="俺は　一度に家族を喪った,ショックで････" Face="Lloyd" Mono="False" />
+  <!-- あてもなく世界をさまよう生活を始めた -->
+  <Dialogue Key="Map.Blackback3EventStage5Dialogue2FaceLloyd" Value="あてもなく,世界をさまよう生活を始めた" Face="Lloyd" Mono="False" />
+  <!-- 当時　大学生だった麻由美と出会ったのはそんな時だった -->
+  <Dialogue Key="Map.Blackback3EventStage7Dialogue1FaceLloyd" Value="当時　大学生だった,麻由美と出会ったのは,そんな時だった" Face="Lloyd" Mono="False" />
+  <!-- 俺は彼女と惹かれ合い後に結婚し　そしてアリス　お前が生まれた -->
+  <Dialogue Key="Map.Blackback3EventStage7Dialogue2FaceLloyd" Value="俺は彼女と惹かれ合い,後に結婚し　そして,アリス　お前が生まれた" Face="Lloyd" Mono="False" />
+  <!-- しかし････ -->
+  <Dialogue Key="Map.Blackback3EventStage7Dialogue3FaceLloyd" Value="しかし････" Face="Lloyd" Mono="False" />
+  <!-- 俺は麻由美と結婚したあとも喪った家族のことを忘れられないでいた -->
+  <Dialogue Key="Map.Blackback3EventStage9Dialogue1FaceLloyd" Value="俺は麻由美と結婚したあとも,喪った家族のことを,忘れられないでいた" Face="Lloyd" Mono="False" />
+  <!-- そんなある時　俺は冒険の中で訪れた廃墟で古びた端末を見つけた -->
+  <Dialogue Key="Map.Blackback3EventStage9Dialogue2FaceLloyd" Value="そんなある時　俺は,冒険の中で訪れた廃墟で,古びた端末を見つけた" Face="Lloyd" Mono="False" />
+  <!-- その端末の中には瀕死の状態の電子生命体が入っていた -->
+  <Dialogue Key="Map.Blackback3EventStage9Dialogue3FaceLloyd" Value="その端末の中には,瀕死の状態の電子生命体が,入っていた" Face="Lloyd" Mono="False" />
+  <!-- 電子生命体････？ -->
+  <Dialogue Key="Map.Blackback3EventStage11Dialogue1FaceAlice" Value="電子生命体････？" Face="Alice" Mono="False" />
+  <!-- 電脳空間に存在する生命体のことだよ -->
+  <Dialogue Key="Map.Blackback3EventStage11Dialogue2FaceDrMorichika" Value="電脳空間に存在する,生命体のことだよ" Face="DrMorichika" Mono="False" />
+  <!-- その電子生命体はビヨンダードから流れ着いたひとりの女の子だった -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue1FaceLloyd" Value="その電子生命体は,ビヨンダードから流れ着いた,ひとりの女の子だった" Face="Lloyd" Mono="False" />
+  <!-- 俺は知り合いの研究者にその子の治療を依頼したんだが････ -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue2FaceLloyd" Value="俺は知り合いの研究者に,その子の治療を,依頼したんだが････" Face="Lloyd" Mono="False" />
+  <!-- 植物状態に近い彼女の蘇生には　欠落した身体データを補うために････ -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue3FaceLloyd" Value="植物状態に近い彼女の,蘇生には　欠落した,身体データを補うために････" Face="Lloyd" Mono="False" />
+  <!-- 人間のＤＮＡとその記憶データを移植する必要があった -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue4FaceLloyd" Value="人間のＤＮＡと,その記憶データを,移植する必要があった" Face="Lloyd" Mono="False" />
+  <!-- そこで俺は････喪った娘　レベッカのDNAと記憶データを提供した -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue5FaceLloyd" Value="そこで俺は････,喪った娘　レベッカのDNAと,記憶データを提供した" Face="Lloyd" Mono="False" />
+  <!-- そうして　電子生命体にレベッカの情報を加えて誕生したのが････ -->
+  <Dialogue Key="Map.Blackback3EventStage15Dialogue1FaceLloyd" Value="そうして　電子生命体に,レベッカの情報を加えて,誕生したのが････" Face="Lloyd" Mono="False" />
+  <!-- シャンハイ．ＥＸＥというネットナビなんだ -->
+  <Dialogue Key="Map.Blackback3EventStage15Dialogue2FaceLloyd" Value="シャンハイ．ＥＸＥという,ネットナビなんだ" Face="Lloyd" Mono="False" />
+</data>

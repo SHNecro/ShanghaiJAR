@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 病院の電脳２ -->
+  <Text Key="Map.HospitalNet2Name" Value="病院の電脳２" />
+  <!-- うっ････ -->
+  <Dialogue Key="Map.HospitalNet2WithdrawStage1Dialogue1FaceShanghai" Value="うっ････" Face="Shanghai" Mono="False" />
+  <!-- 体力が限界ね････一度プラグアウトしましょう！ -->
+  <Dialogue Key="Map.HospitalNet2WithdrawStage1Dialogue2FaceAlice" Value="体力が限界ね････,一度プラグアウトしましょう！" Face="Alice" Mono="False" />
+  <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
+  <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue1FaceSprite" Value="アナタノ　タイリョクヲ,カイフクシテ　アゲマショウ" Face="Sprite" Mono="False" />
+  <!-- シャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue2FaceNone" Value="シャンハイのＨＰが,全回復した！" Face="None" Mono="False" />
+  <!-- ネツボウソウデ　ＨＰガナクナルト　プラグアウトヲシナクテハ　イケマセン -->
+  <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue3FaceSprite" Value="ネツボウソウデ　ＨＰガ,ナクナルト　プラグアウトヲ,シナクテハ　イケマセン" Face="Sprite" Mono="False" />
+  <!-- ＨＰノ　リョウニハキヲツケテ　クダサイネ -->
+  <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue4FaceSprite" Value="ＨＰノ　リョウニハ,キヲツケテ　クダサイネ" Face="Sprite" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet2Wall3Stage1Dialogue1FaceNone" Value="区域内温度上昇につき,防火シャッター閉鎖中,と書かれている" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation3-1Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation3-2Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation3-3Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet2Wall4Stage1Dialogue1FaceNone" Value="区域内温度上昇につき,防火シャッター閉鎖中,と書かれている" Face="None" Mono="False" />
+  <!-- このエリアの熱の原因が取り除かれ温度が下がった！ -->
+  <Dialogue Key="Map.HospitalNet2Wall4AnnihilationEventStage1Dialogue1FaceNone" Value="このエリアの熱の原因が,取り除かれ,温度が下がった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation4-1Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation4-2Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation4-3Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet2Inflammation4-4Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- ウツホの残留データが漂っている -->
+  <Dialogue Key="Map.HospitalNet2UtsuhoDupeStage1Dialogue1FaceNone" Value="ウツホの残留データが,漂っている" Face="None" Mono="False" />
+  <!-- ウツホとバトルしますか？ -->
+  <Dialogue Key="Map.HospitalNet2UtsuhoDupeStage1Dialogue2QuestionFaceNone" Value="ウツホとバトルしますか？" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.HospitalNet2UtsuhoDupeStage1Dialogue2Options" Value="はい,いいえ" />
+  <!-- ちょっとあんた！何やってるのよ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue1FaceShanghai" Value="ちょっとあんた！,何やってるのよ！" Face="Shanghai" Mono="False" />
+  <!-- ････うん？ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue2FaceUtsuhoDark" Value="････うん？" Face="UtsuhoDark" Mono="False" />
+  <!-- あんたは！たしかシャンハイとかいうナビ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue3FaceUtsuhoDark" Value="あんたは！,たしかシャンハイとかいうナビ！" Face="UtsuhoDark" Mono="False" />
+  <!-- うにゅ〜････！せっかく良いところだったのに！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue4FaceUtsuhoDark" Value="うにゅ〜････！,せっかく良いところだったのに！" Face="UtsuhoDark" Mono="False" />
+  <!-- 「うにゅ」って････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue5FaceShanghai" Value="「うにゅ」って････" Face="Shanghai" Mono="False" />
+  <!-- ウツホ？ウツホなの！？ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue6FaceKoishi" Value="ウツホ？,ウツホなの！？" Face="Koishi" Mono="False" />
+  <!-- ウツホやめて！このままじゃお姉ちゃんが････！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue7FaceKoishi" Value="ウツホやめて！,このままじゃお姉ちゃんが････！" Face="Koishi" Mono="False" />
+  <!-- こいしちゃん！もうすぐこいしちゃんの邪魔者がいなくなるんだからね！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue8FaceUtsuhoDark" Value="こいしちゃん！,もうすぐこいしちゃんの邪魔者が,いなくなるんだからね！" Face="UtsuhoDark" Mono="False" />
+  <!-- 邪魔者ってさとりさんのこと？ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue9FaceAlice" Value="邪魔者って,さとりさんのこと？" Face="Alice" Mono="False" />
+  <!-- あの女がいるからこいしちゃんずっと忙しいの！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue10FaceUtsuhoDark" Value="あの女がいるから,こいしちゃんずっと忙しいの！" Face="UtsuhoDark" Mono="False" />
+  <!-- 友達とも遊べないし病院に行くばっかりで勉強も遅れ気味なのよ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue11FaceUtsuhoDark" Value="友達とも遊べないし,病院に行くばっかりで,勉強も遅れ気味なのよ！" Face="UtsuhoDark" Mono="False" />
+  <!-- あいつがいなくなったらこいしちゃんは自由になるの！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue12FaceUtsuhoDark" Value="あいつがいなくなったら,こいしちゃんは自由になるの！" Face="UtsuhoDark" Mono="False" />
+  <!-- ウツホ････！？ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue13FaceKoishi" Value="ウツホ････！？" Face="Koishi" Mono="False" />
+  <!-- あんたねえ････！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue1FaceShanghai" Value="あんたねえ････！" Face="Shanghai" Mono="False" />
+  <!-- あんたの勝手な視点で姉妹の関係を壊すんじゃないわよ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue2FaceShanghai" Value="あんたの勝手な視点で,姉妹の関係を,壊すんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <!-- こいしの想いを踏みにじってさとりの命を危険に晒すなんて････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue3FaceShanghai" Value="こいしの想いを踏みにじって,さとりの命を危険に,晒すなんて････" Face="Shanghai" Mono="False" />
+  <!-- バッッカじゃないの！！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue4FaceShanghai" Value="バッッカじゃないの！！" Face="Shanghai" Mono="False" />
+  <!-- 私はこいしと一緒になるの！このフレアパワーでフュージョンするの！！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue5FaceUtsuhoDark" Value="私はこいしと一緒になるの！,このフレアパワーで,フュージョンするの！！" Face="UtsuhoDark" Mono="False" />
+  <!-- アリス！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue6FaceShanghai" Value="アリス！" Face="Shanghai" Mono="False" />
+  <!-- このわからず屋をとっととぶん殴って目を覚まさせるわよ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue7FaceShanghai" Value="このわからず屋をとっとと,ぶん殴って目を覚まさせるわよ！" Face="Shanghai" Mono="False" />
+  <!-- ええ！バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue8FaceAlice" Value="ええ！,バトルオペレーション、セット！" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue9FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <!-- 私の究極のフレアパワーですべてを溶かし尽くしてやる！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage3Dialogue10FaceUtsuhoDark" Value="私の究極のフレアパワーで,すべてを溶かし尽くしてやる！" Face="UtsuhoDark" Mono="False" />
+  <!-- なんで････せっかく力をもらったのに････！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage5Dialogue1FaceUtsuhoDark" Value="なんで････せっかく力を,もらったのに････！" Face="UtsuhoDark" Mono="False" />
+  <!-- ････！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage5Dialogue2FaceShanghai" Value="････！" Face="Shanghai" Mono="False" />
+  <!-- なるほど　そういうことね････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage5Dialogue3FaceShanghai" Value="なるほど　そういうことね････" Face="Shanghai" Mono="False" />
+  <!-- う　うにゅ････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage5Dialogue4FaceUtsuhoDark" Value="う　うにゅ････" Face="UtsuhoDark" Mono="False" />
+  <!-- 歯ァ食いしばれッ！！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage5Dialogue5FaceShanghai" Value="歯ァ食いしばれッ！！" Face="Shanghai" Mono="False" />
+  <!-- ビシッ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage7Dialogue1FaceNone" Value="ビシッ！" Face="None" Mono="False" />
+  <!-- ガスッ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage7Dialogue2FaceNone" Value="ガスッ！" Face="None" Mono="False" />
+  <!-- ブチィッ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage7Dialogue3FaceNone" Value="ブチィッ！" Face="None" Mono="False" />
+  <!-- よし　取れた！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue1FaceShanghai" Value="よし　取れた！" Face="Shanghai" Mono="False" />
+  <!-- それ　ダークチップ？ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue2FaceAlice" Value="それ　ダークチップ？" Face="Alice" Mono="False" />
+  <!-- どうやらこの子こいつのパワーで暴走させられてたみたい -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue3FaceShanghai" Value="どうやらこの子,こいつのパワーで暴走,させられてたみたい" Face="Shanghai" Mono="False" />
+  <!-- こ　こいしちゃん････！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue4FaceUtsuho" Value="こ　こいしちゃん････！" Face="Utsuho" Mono="False" />
+  <!-- ごめんなさーーーい！！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue5FaceUtsuho" Value="ごめんなさーーーい！！" Face="Utsuho" Mono="False" />
+  <!-- ウツホとんでもないことしちゃった！こいしちゃん悲しませちゃった！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue6FaceUtsuho" Value="ウツホとんでもないことしちゃった！,こいしちゃん悲しませちゃった！" Face="Utsuho" Mono="False" />
+  <!-- うにゅーーー！！もうこいしちゃんと一緒にいられないーーー！！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue7FaceUtsuho" Value="うにゅーーー！！,もうこいしちゃんと一緒に,いられないーーー！！" Face="Utsuho" Mono="False" />
+  <!-- ウツホ････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue8FaceKoishi" Value="ウツホ････" Face="Koishi" Mono="False" />
+  <!-- 私こそごめん！！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue9FaceKoishi" Value="私こそごめん！！" Face="Koishi" Mono="False" />
+  <!-- うにゅ！？どうしてこいしちゃんが謝るにゅ！？ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue10FaceUtsuho" Value="うにゅ！？,どうしてこいしちゃんが,謝るにゅ！？" Face="Utsuho" Mono="False" />
+  <!-- 私　お姉ちゃんのことばかり考えててウツホのこと全然見てなかった････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue11FaceKoishi" Value="私　お姉ちゃんのことばかり,考えててウツホのこと,全然見てなかった････" Face="Koishi" Mono="False" />
+  <!-- お姉ちゃんが危険な目にあったのは私のせいなんだ！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue12FaceKoishi" Value="お姉ちゃんが危険な目に,あったのは私のせいなんだ！" Face="Koishi" Mono="False" />
+  <!-- こいしちゃん････ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue13FaceAlice" Value="こいしちゃん････" Face="Alice" Mono="False" />
+  <!-- はいはい　ふたりとも泣くのはそこまで！ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue14FaceShanghai" Value="はいはい　ふたりとも,泣くのはそこまで！" Face="Shanghai" Mono="False" />
+  <!-- 手術　終わったみたいよ -->
+  <Dialogue Key="Map.HospitalNet2BossEventStage9Dialogue15FaceShanghai" Value="手術　終わったみたいよ" Face="Shanghai" Mono="False" />
+</data>

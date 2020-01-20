@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.MariHPName" Value="Mari’s HP" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,100 ZENNY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <Text Key="Map.MariHPWallpaperSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+</data>

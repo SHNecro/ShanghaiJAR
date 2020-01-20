@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ホワイトヘブンエリア２ -->
+  <Text Key="Map.HeavenNet2Name" Value="ホワイトヘブンエリア２" />
+  <!-- 目を見張るほどの立派な電脳桜の大樹だ -->
+  <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue1FaceNone" Value="目を見張るほどの立派な,電脳桜の大樹だ" Face="None" Mono="False" />
+  <!-- この桜の中に過去にデリートされたすべてのデータが詰まっているという -->
+  <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue2FaceNone" Value="この桜の中に,過去にデリートされたすべての,データが詰まっているという" Face="None" Mono="False" />
+</data>

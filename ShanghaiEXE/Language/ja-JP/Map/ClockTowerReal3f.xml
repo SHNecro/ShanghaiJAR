@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ClockTowerReal3fName" Value="時計塔　内部　階段" />
+  <!-- だれがよんだか　クイズキング〜だれがよんだか　クイズキング〜 -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue1FaceMaleElderly" Value="だれがよんだか　クイズキング〜,だれがよんだか　クイズキング〜" Face="MaleElderly" Mono="False" />
+  <!-- いってみよ〜　やってみよ〜 -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue2FaceMaleElderly" Value="いってみよ〜　やってみよ〜" Face="MaleElderly" Mono="False" />
+  <!-- さ〜あ　さあさあ（チャッチャー）クイズアワ〜〜！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue3FaceMaleElderly" Value="さ〜あ　さあさあ,（チャッチャー）クイズアワ〜〜！" Face="MaleElderly" Mono="False" />
+  <!-- ワシの名はクイズキング！人様にクイズを出してその知恵を試すのが役目じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue4FaceMaleElderly" Value="ワシの名はクイズキング！,人様にクイズを出してその,知恵を試すのが役目じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- そんなワシとクイズ対決！クイズは全部で１５問！勝てば豪華賞品プレゼント！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue5FaceMaleElderly" Value="そんなワシとクイズ対決！,クイズは全部で１５問！,勝てば豪華賞品プレゼント！" Face="MaleElderly" Mono="False" />
+  <!-- では、参るぞ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue6QuestionFaceMaleElderly" Value="では、参るぞ！" Face="MaleElderly" Mono="False" />
+  <!-- 参る帰る -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue6Options" Value="参る,帰る" />
+  <!-- ええ〜そんな〜〜〜 -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue7FaceMaleElderly" Value="ええ〜そんな〜〜〜" Face="MaleElderly" Mono="False" />
+  <!-- では第１問！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue8FaceMaleElderly" Value="では第１問！" Face="MaleElderly" Mono="False" />
+  <!-- ケダマー２にパワープラス１０をひとつつけたショットガン１をすべて当てたとき残りＨＰは？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue9FaceMaleElderly" Value="ケダマー２にパワープラス１０を,ひとつつけたショットガン１を,すべて当てたとき残りＨＰは？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue10QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- ５０１００ -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue10Options" Value="５０,１０,０" />
+  <!-- 正解！では第２問！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue11FaceMaleElderly" Value="正解！,では第２問！" Face="MaleElderly" Mono="False" />
+  <!-- キャンパススクエアに幻想大学からプラグインした場所に一番近い通路の色は？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue12FaceMaleElderly" Value="キャンパススクエアに幻想大学,からプラグインした場所に,一番近い通路の色は？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue13QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- オレンジ色空色黄緑色 -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue13Options" Value="オレンジ色,空色,黄緑色" />
+  <!-- やりおるのう！次は３問目じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue14FaceMaleElderly" Value="やりおるのう！,次は３問目じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- ウィルスのイビルアイチャージカノン２を落とすのは次のうちどれじゃ？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue15FaceMaleElderly" Value="ウィルスのイビルアイ,チャージカノン２を落とすのは,次のうちどれじゃ？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue16QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- イビルアイ２イビルアイΣイビルアイＢ -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue16Options" Value="イビルアイ２,イビルアイΣ,イビルアイＢ" />
+  <!-- おお！では第４問目じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue17FaceMaleElderly" Value="おお！,では第４問目じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- レイカノン２を２体　カウンターでとどめを刺した時もらえるのは次のうちどれ？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue18FaceMaleElderly" Value="レイカノン２を２体　カウンターで,とどめを刺した時もらえるのは,次のうちどれ？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue19QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- バグのかけら３個バグのかけら５個バグのかけら２個 -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue19Options" Value="バグのかけら３個,バグのかけら５個,バグのかけら２個" />
+  <!-- 正解！では次の問題じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue20FaceMaleElderly" Value="正解！,では次の問題じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- エイエンスクエアに歩いて行く時最も早く到着するのは次のうちどこからスタートした時？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue21FaceMaleElderly" Value="エイエンスクエアに歩いて行く時,最も早く到着するのは次のうち,どこからスタートした時？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue22QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- キャンパススクエアレミリアのＨＰゲンソウスクエア -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue22Options" Value="キャンパススクエア,レミリアのＨＰ,ゲンソウスクエア" />
+  <!-- これも正解か！では６問目じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue23FaceMaleElderly" Value="これも正解か！,では６問目じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- 担任の古阿　久真子は２５歳ではチップショップ店長の古阿　隈美は今何歳？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue24FaceMaleElderly" Value="担任の古阿　久真子は２５歳,ではチップショップ店長の,古阿　隈美は今何歳？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue25QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- ２６歳２９歳３２歳 -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue25Options" Value="２６歳,２９歳,３２歳" />
+  <!-- うぬぬ・・・・！では次の問題じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue26FaceMaleElderly" Value="うぬぬ・・・・！,では次の問題じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- １ヶ月前　ワシは日本からインゲレスにやってきたんじゃ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue27FaceMaleElderly" Value="１ヶ月前　ワシは,日本からインゲレスに,やってきたんじゃ" Face="MaleElderly" Mono="False" />
+  <!-- それはそうと今はいったい何問目かのう？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue28FaceMaleElderly" Value="それはそうと今は,いったい何問目かのう？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue29QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- ５問目６問目７問目 -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue29Options" Value="５問目,６問目,７問目" />
+  <!-- ぐぬっ！では折返しとなる８問目！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue30FaceMaleElderly" Value="ぐぬっ！,では折返しとなる８問目！" Face="MaleElderly" Mono="False" />
+  <!-- ゲンソウエリア２の店先にあった青色のミステリーデータその中身はいったい何？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue31FaceMaleElderly" Value="ゲンソウエリア２の店先にあった,青色のミステリーデータ,その中身はいったい何？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue32QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- レイガンＣ１０００ゼニーバグのかけら１個 -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue32Options" Value="レイガンＣ,１０００ゼニー,バグのかけら１個" />
+  <!-- ここまでとはな！では９問目といこうか！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue33FaceMaleElderly" Value="ここまでとはな！,では９問目といこうか！" Face="MaleElderly" Mono="False" />
+  <!-- 攻撃力をアップしていないヒートソード（威力１３０）で与えられる最大ダメージは？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue34FaceMaleElderly" Value="攻撃力をアップしていない,ヒートソード（威力１３０）で,与えられる最大ダメージは？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue35QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- １０４０２０８０４１６０ -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue35Options" Value="１０４０,２０８０,４１６０" />
+  <!-- ほうほう！では１０問目といこうか！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue36FaceMaleElderly" Value="ほうほう！,では１０問目といこうか！" Face="MaleElderly" Mono="False" />
+  <!-- 魔理の部屋に散乱している本はいったい何の本？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue37FaceMaleElderly" Value="魔理の部屋に散乱している,本はいったい何の本？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue38QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- キノコ図鑑魔法使いの小説黒魔術の本 -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue38Options" Value="キノコ図鑑,魔法使いの小説,黒魔術の本" />
+  <!-- うううむ！ここまでくるとは１１問目！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue39FaceMaleElderly" Value="うううむ！,ここまでくるとは１１問目！" Face="MaleElderly" Mono="False" />
+  <!-- メール「ネット犯罪に注意！」を送ってきた組織はつぎのうちどれじゃろな？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue40FaceMaleElderly" Value="メール「ネット犯罪に注意！」を,送ってきた組織はつぎのうち,どれじゃろな？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue41QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- ゲンソウレポートネットワークゲンソウニュースネットワークゲンソウスクープネットワーク -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue41Options" Value="ゲンソウレポートネットワーク,ゲンソウニュースネットワーク,ゲンソウスクープネットワーク" />
+  <!-- よしよし！では１２問目！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue42FaceMaleElderly" Value="よしよし！,では１２問目！" Face="MaleElderly" Mono="False" />
+  <!-- 次のうち草属性のソードチップとして手に入るチップの名前はどれじゃ？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue43FaceMaleElderly" Value="次のうち草属性の,ソードチップとして手に入る,チップの名前はどれじゃ？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue44QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- ガイアソードバンブーソードリーフソード -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue44Options" Value="ガイアソード,バンブーソード,リーフソード" />
+  <!-- なるほど････ラストスパートの１３問目じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue45FaceMaleElderly" Value="なるほど････,ラストスパートの１３問目じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- 次のインテリアの中で最も値段が高いのはどれ？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue46FaceMaleElderly" Value="次のインテリアの中で,最も値段が高いのはどれ？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue47QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- サブチップ販売機依頼掲示板ロイヤルベッド -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue47Options" Value="サブチップ販売機,依頼掲示板,ロイヤルベッド" />
+  <!-- ま　まさか････？これは越せるか１４問目！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue48FaceMaleElderly" Value="ま　まさか････？,これは越せるか１４問目！" Face="MaleElderly" Mono="False" />
+  <!-- 天子の部屋においてあるぬいぐるみは次のうちどれ？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue49FaceMaleElderly" Value="天子の部屋においてある,ぬいぐるみは次のうちどれ？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue50QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- いぬどるふぃんねこどるふぃんくまどるふぃん -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue50Options" Value="いぬどるふぃん,ねこどるふぃん,くまどるふぃん" />
+  <!-- すごいぞ！では最終問題じゃ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue51FaceMaleElderly" Value="すごいぞ！,では最終問題じゃ！" Face="MaleElderly" Mono="False" />
+  <!-- バスターパワーを２個アサルトバスターを１個装備したときの使用ヘルツは？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue52FaceMaleElderly" Value="バスターパワーを２個,アサルトバスターを１個,装備したときの使用ヘルツは？" Face="MaleElderly" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue53QuestionFaceMaleElderly" Value="," Face="MaleElderly" Mono="False" />
+  <!-- ６GHｚ７GHz８GHｚ -->
+  <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue53Options" Value="６GHｚ,７GHz,８GHｚ" />
+  <!-- うおおおお！！正解正解正解じゃぁぁぁぁ！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue54FaceMaleElderly" Value="うおおおお！！,正解正解正解じゃぁぁぁぁ！" Face="MaleElderly" Mono="False" />
+  <!-- では豪華賞品を授けるとしよう！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue55FaceMaleElderly" Value="では豪華賞品を,授けるとしよう！" Face="MaleElderly" Mono="False" />
+  <!-- もはやこれで悔いはない････ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue56FaceMaleElderly" Value="もはやこれで悔いはない････" Face="MaleElderly" Mono="False" />
+  <!-- ハズレじゃぁぁぁぁ！！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue57FaceMaleElderly" Value="ハズレじゃぁぁぁぁ！！" Face="MaleElderly" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage3Dialogue1FaceMaleElderly" Value="････････" Face="MaleElderly" Mono="False" />
+  <!-- ････なんじゃ？成仏しないのかじゃと？ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage3Dialogue2FaceMaleElderly" Value="････なんじゃ？,成仏しないのかじゃと？" Face="MaleElderly" Mono="False" />
+  <!-- ワシはまだ生きとるわい！勝手に幽霊扱いするんじゃない！ -->
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage3Dialogue3FaceMaleElderly" Value="ワシはまだ生きとるわい！,勝手に幽霊扱い,するんじゃない！" Face="MaleElderly" Mono="False" />
+</data>

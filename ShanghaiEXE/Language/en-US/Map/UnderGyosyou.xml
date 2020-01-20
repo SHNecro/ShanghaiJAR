@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 漁礁の電脳 -->
+  <Text Key="Map.UnderGyosyouName" Value="Undersea Reef Comp" />
+  <!-- ギョショウ　トイウノハサカナノ　スニナル　モノデス -->
+  <Dialogue Key="Map.UnderGyosyouSprite1Stage1Dialogue1FaceSprite" Value="HERE，FISHY FISHY!" Face="Sprite" Mono="False" />
+  <!-- ナニモナイ　カイテイニハオサカナガ　スメナイノデブロックトカヲ　シズメルンデス -->
+  <Dialogue Key="Map.UnderGyosyouSprite1Stage1Dialogue2FaceSprite" Value="WHAT DO I DO IF ONE DOES,COME OVER?" Face="Sprite" Mono="False" />
+  <!-- オオムカシニ　シズンダフネガギョショウニ　ナッテイルコトモアリマス -->
+  <Dialogue Key="Map.UnderGyosyouSprite2Stage1Dialogue1FaceSprite" Value="THE REEFS ARE IN DANGER,FROM ACIDITY CHANGES,IN THE OCEAN!" Face="Sprite" Mono="False" />
+  <!-- シズンダアトモ　オサカナノスミカニナルッテナンダカ　イイデスヨネ -->
+  <Dialogue Key="Map.UnderGyosyouSprite2Stage1Dialogue2FaceSprite" Value="IF THE REEFS ARE IN,DANGER，THE FISHIES ARE,IN DANGER!" Face="Sprite" Mono="False" />
+</data>

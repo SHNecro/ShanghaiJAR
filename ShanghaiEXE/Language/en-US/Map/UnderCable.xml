@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 海底ケーブルの電脳 -->
+  <Text Key="Map.UnderCableName" Value="Undersea Cable Comp" />
+  <!-- セカイジュウガ　インターネットデツナガッテイルノハコノ　ケーブルノ　オカゲデス -->
+  <Dialogue Key="Map.UnderCableSprite1Stage1Dialogue1FaceSprite" Value="THESE CABLES CONNECT,THE WHOLE WORLD!" Face="Sprite" Mono="False" />
+  <!-- セカイガ　ケーブルデツナガッテルッテナンカ　スゴイデスヨネ -->
+  <Dialogue Key="Map.UnderCableSprite1Stage1Dialogue2FaceSprite" Value="SOME ARE UNDERWATER,AND UNDERGROUND FOR,EVEN MORE PROTECTION!" Face="Sprite" Mono="False" />
+  <!-- カイテイケーブルノ　レキシハ１９セイキニ　サカノボルトカ -->
+  <Dialogue Key="Map.UnderCableSprite2Stage1Dialogue1FaceSprite" Value="THE FIRST OF THESE,CABLES WERE LAID IN THE,19TH CENTURY!" Face="Sprite" Mono="False" />
+  <!-- １９セイキッテ　イウノハニホンダト　エドジダイカラメイジジダイノ　アタリデスヨ -->
+  <Dialogue Key="Map.UnderCableSprite2Stage1Dialogue2FaceSprite" Value="JAPAN AT THE TIME OF THE,19TH CENTURY WAS IN THE,MEIJI ERA!" Face="Sprite" Mono="False" />
+</data>

@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　ゲンソウスクエア -->
+  <Text Key="Map.GenNetSquareName" Value="Genso Square" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.GenNetSquareASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot" Value="I’m a Sub Chip vendor." Face="NaviBlueRobot" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.GenNetSquareASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot" Value="Care to buy some?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenNetSquareASub-chipMerchantStage1Dialogue2Options" Value="Yes,No" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.GenNetSquareSub-chipShopStage1Dialogue1QuestionFaceNaviBlueRobot" Value="I’m a Sub Chip vendor.,Care to buy some?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenNetSquareSub-chipShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.GenNetSquareSub-chipShopStage4Dialogue1QuestionFaceNaviBlueRobot" Value="I’m a Sub Chip vendor.,Care to buy some?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenNetSquareSub-chipShopStage4Dialogue1Options" Value="Shop,Leave" />
+  <!-- その荷物データ････君が依頼を受けてくれた子だね -->
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue1FaceNaviOrangeMale" Value="That DataPack....,So you’re the kid who took,the request?" Face="NaviOrangeMale" Mono="False" />
+  <!-- シャンハイは荷物データを渡した -->
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue2FaceNone" Value="Shanghai handed over the,DataPack." Face="None" Mono="False" />
+  <!-- ありがとう！これでサブチップを安めに売ることができるよ！ -->
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue3FaceNaviOrangeMale" Value="Thank you!,With this，I can cut the price,of my Sub Chips!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 報酬だね？じゃあこれをあげよう -->
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue4FaceNaviOrangeMale" Value="A reward?,Okay，here you go." Face="NaviOrangeMale" Mono="False" />
+  <!-- 感謝するよ　ありがとう！ -->
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue5FaceNaviOrangeMale" Value="Thanks again!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 君のおかげでサブチップが安く売れるようになったからよかったら買って行ってくれ -->
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage3Dialogue1FaceNaviOrangeMale" Value="Thanks to you，I can cut,the price of my Sub Chips!,Buy some if you want!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.GenNetSquareChipShopStage1Dialogue1QuestionFaceNaviGreenRobot" Value="I’m a Net vendor.,See anything you like?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.GenNetSquareChipShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- お買い物でしたらカウンターの向こうからお願いします -->
+  <Dialogue Key="Map.GenNetSquareShopClerkStage1Dialogue1FaceNaviPinkFemale" Value="If you’re here to shop，please,talk to me from the other side,of the counter." Face="NaviPinkFemale" Mono="False" />
+  <!-- お買い物でしたらカウンターの向こうからお願いします -->
+  <Dialogue Key="Map.GenNetSquareButler’sOfficeReceptionStage1Dialogue1FaceNaviPinkFemale" Value="If you’re here to shop，please,talk to me from the other side,of the counter." Face="NaviPinkFemale" Mono="False" />
+  <!-- バトラーズオフィスへようこそ！こちらではＳＰウィルス討伐の依頼をあっせんしています -->
+  <Dialogue Key="Map.GenNetSquareButlersOfficeStage1Dialogue1FaceNaviPinkFemale" Value="Welcome to the,NetBattlers’ Office!,Here for virus missions?" Face="NaviPinkFemale" Mono="False" />
+  <!-- 依頼掲示板だ -->
+  <Dialogue Key="Map.GenNetSquareRequestBulletinBoardStage1Dialogue1FaceNone" Value="It’s a Request Board." Face="None" Mono="False" />
+  <!-- ざつだん掲示板だ -->
+  <Dialogue Key="Map.GenNetSquareBulletinBoardStage1Dialogue1FaceNone" Value="It’s a Chat Board." Face="None" Mono="False" />
+  <!-- あの人達なんなんですか？なんだか怖いです -->
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="What’s up with those Navis?,They’re kinda scary." Face="NaviGreenRobot" Mono="False" />
+  <!-- さすがシャンハイさん！おかげで平和になりました！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi1Stage3Dialogue1FaceNaviGreenRobot" Value="Thanks for restoring peace,to the land，Shanghai!" Face="NaviGreenRobot" Mono="False" />
+  <!-- ここで売ってるチップを買えばあいつらに勝てるかなあ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi1DupeStage1Dialogue1FaceNaviOrangeMale" Value="Maybe I can beat those guys,if I buy some of the Sub Chips,they’re selling here...." Face="NaviOrangeMale" Mono="False" />
+  <!-- 僕が迷ってる間に解決したみたいだね････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi1DupeStage3Dialogue1FaceNaviOrangeMale" Value="Looks like you solved the,problem before I could act...." Face="NaviOrangeMale" Mono="False" />
+  <!-- お　俺は何もしらねえんだ！本当だよ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="I-I don’t know anything!,Honest!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 助けてくれてありがとう！すごいな　君は！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi2Stage3Dialogue1FaceNaviOrangeMale" Value="Thanks for saving me!,You’re amazing!" Face="NaviOrangeMale" Mono="False" />
+  <!-- うわ〜ん！あのお兄ちゃんをだれか助けてあげて！ -->
+  <Dialogue Key="Map.GenNetSquareChapterNavi1Stage1Dialogue1FaceNaviChild" Value="Uwaaah!,Someone please help that,mister over there!" Face="NaviChild" Mono="False" />
+  <!-- お姉ちゃんすごい！私もそれくらい強くなれるかな？ -->
+  <Dialogue Key="Map.GenNetSquareChapterNavi1Stage3Dialogue1FaceNaviChild" Value="Big sis is so strong! Can I,be that strong someday?" Face="NaviChild" Mono="False" />
+  <!-- あの乱暴なナビ達エイエンエリアの方から来たらしいわよ -->
+  <Dialogue Key="Map.GenNetSquareChapterNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="Seems like those rude Navis,came from Eien Area." Face="NaviPinkFemale" Mono="False" />
+  <!-- あなたがここらで有名なシャンハイさんだったのね -->
+  <Dialogue Key="Map.GenNetSquareChapterNavi2Stage3Dialogue1FaceNaviPinkFemale" Value="Aren’t you Shanghai?,The Navi who’s so popular,around here?" Face="NaviPinkFemale" Mono="False" />
+  <!-- どおりで悪漢に対してもひるまないわけね尊敬しちゃうわ -->
+  <Dialogue Key="Map.GenNetSquareChapterNavi2Stage3Dialogue2FaceNaviPinkFemale" Value="No wonder they respect you!,You’re not afraid of the bad,guys!" Face="NaviPinkFemale" Mono="False" />
+  <!-- アニキ〜なんか言ってるよこいつ〜 -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviYoungerBrotherStage1Dialogue1FaceNaviPurplePunk" Value="Hey，bro〜!,Looks like this guy can tell us,somethin’〜!" Face="NaviPurplePunk" Mono="False" />
+  <!-- ちっ！どいつもこいつもしらばっくれやがって････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue1FaceNaviPurplePunk" Value="Tch!,Every single one of ’em acts,like they don’t know a thing...." Face="NaviPurplePunk" Mono="False" />
+  <!-- ん？何だテメエ　俺達に文句あんのか？ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue2FaceNaviPurplePunk" Value="Huh? What do you want?,Got some kinda beef with us?" Face="NaviPurplePunk" Mono="False" />
+  <!-- なめてると俺たち二人でてめえをデリートしちまうぞゴルァ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue3FaceNaviPurplePunk" Value="You makin’ fun of us?,We’ll delete you!,URAAAAAAAAH!" Face="NaviPurplePunk" Mono="False" />
+  <!-- あんたねえ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue4FaceShanghai" Value="You...." Face="Shanghai" Mono="False" />
+  <!-- 取るに足らない量産型チンピラ如きが -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue5FaceShanghai" Value="You think you can defeat me，,this area’s supreme ruler?" Face="Shanghai" Mono="False" />
+  <!-- ここ一帯を支配する力を持ったあたしにたった２対１で勝てると思うだなんて････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue6FaceShanghai" Value="For two run-of-the-mill retail,Navis like you to fight me,two on one...." Face="Shanghai" Mono="False" />
+  <!-- ばっかじゃないの！？ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue7FaceShanghai" Value="Are you guys idiots!?" Face="Shanghai" Mono="False" />
+  <!-- なっにぃー？どうやら痛い目を見ないとわからないようだな -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue8FaceNaviPurplePunk" Value="Whaaaaa!? Looks like you,won’t understand unless we,beat it into ya!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 話が早くて助かるわさあアリス　こんな奴らさっさと片付けるわよ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue9FaceShanghai" Value="Seems like diplomacy is off,the table. C’mon，Alice!,Let’s thrash ’em!" Face="Shanghai" Mono="False" />
+  <!-- もう　仕方ないわね -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue10FaceAlice" Value="Jeez，I guess we have no,choice." Face="Alice" Mono="False" />
+  <!-- いくわよ！シャンハイ！バトルオペレーション！#w@20#セット！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue11FaceAlice" Value="Let’s go，Shanghai!,Battle Routine!#w@20# Set!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue12FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GenNetSquareChapter1EvilNaviBrotherBattle1Enemy1" Value="PunkBro" />
+  <Text Key="Map.GenNetSquareChapter1EvilNaviBrotherBattle1Enemy2" Value="LilPunk" />
+  <!-- ふん！口ほどにもないわね -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue1FaceShanghai" Value="Hmph!,All bark and no bite." Face="Shanghai" Mono="False" />
+  <!-- こんなに強いナビがこのエリアにいたとは････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue2FaceNaviPurplePunk" Value="How could there be such a,strong Navi in this Area....?" Face="NaviPurplePunk" Mono="False" />
+  <!-- アニキ〜これじゃあ『上と下が交わる底』が何かわからないままですぜ〜 -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue3FaceNaviPurplePunk" Value="Bro，what’s ”where above and,below meet” even supposed,to mean!?" Face="NaviPurplePunk" Mono="False" />
+  <!-- わ！バカ！お宝のヒントを教えてどうする！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue4FaceNaviPurplePunk" Value="Wah! You moron!,What if she hears the clue,to the treasure!?" Face="NaviPurplePunk" Mono="False" />
+  <!-- あ！しまった！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue5FaceNaviPurplePunk" Value="Ah! Dang it!" Face="NaviPurplePunk" Mono="False" />
+  <!-- はっは〜んお宝のヒント　ねえ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue6FaceShanghai" Value="Hmmmm〜?,The clue to the treasure，,huh....?" Face="Shanghai" Mono="False" />
+  <!-- クソッ！引き上げるぞ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage3Dialogue7FaceNaviPurplePunk" Value="Dang!,Retreat!" Face="NaviPurplePunk" Mono="False" />
+  <!-- ちぇっ！逃したわね････ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue1FaceShanghai" Value="Tch!,They got away...." Face="Shanghai" Mono="False" />
+  <!-- まあまあ　とりあえずこれで一件落着ね -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue2FaceAlice" Value="Well，at least that issue is,taken care of." Face="Alice" Mono="False" />
+  <!-- お宝のヒントがゲットできたから良しとしましょうか -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue3FaceShanghai" Value="We got a clue to the treasure，,so I’d say it went well." Face="Shanghai" Mono="False" />
+  <!-- 情けは人の為ならず　かしら -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue4FaceAlice" Value="Actually，I was talking about,helping someone in need." Face="Alice" Mono="False" />
+  <!-- でも『上と下が交わる底』って一体何を表してるのかしら -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue5FaceAlice" Value="Anyways，what is ”where,above and below meet”,supposed to mean?" Face="Alice" Mono="False" />
+  <!-- ゲンソウエリアのどこかにあることはわかってるんだからそれらしい所調べて回りましょ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue6FaceShanghai" Value="It should be in Genso Area，,so let’s find a spot matching,the clue!" Face="Shanghai" Mono="False" />
+  <!-- それもそうね！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage5Dialogue7FaceAlice" Value="Sounds good!" Face="Alice" Mono="False" />
+  <!-- 掲示板は後で一気に見るよりもちょくちょく訪れたほうがいいんだぜ -->
+  <Dialogue Key="Map.GenNetSquareChapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="You shouldn’t read everything,on the Chat Board in one go." Face="NaviGreenRobot" Mono="False" />
+  <!-- なにせ　情報は鮮度が命！だからな -->
+  <Dialogue Key="Map.GenNetSquareChapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="Instead，visit the Chat Board,regularly!,It keeps the info fresh!" Face="NaviGreenRobot" Mono="False" />
+  <!-- バトラーズオフィスはネットバトラーの方々の活動を支援するサービスです -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue1FaceNaviBlueRobot" Value="The NetBattler’s Office is a,service designed to help,Netbattlers." Face="NaviBlueRobot" Mono="False" />
+  <!-- 説明がいりますか？ -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue2FaceNaviBlueRobot" Value="Would you like to know more?" Face="NaviBlueRobot" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue3QuestionFaceNaviBlueRobot" Value="" Face="NaviBlueRobot" Mono="False" />
+  <!-- 依頼掲示板についてＳＰウィルス討伐についていらないよ -->
+  <Text Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue3Options" Value="The Request Board,SP Virus Missions,No thanks" />
+  <!-- 依頼掲示板には様々な問題を抱えた人たちが依頼を書き込んでいます -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue4FaceNaviBlueRobot" Value="People with various problems,write requests on the Request,Board." Face="NaviBlueRobot" Mono="False" />
+  <!-- これらの依頼を受けてそれを解決すると依頼主から報酬がもらえます -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue5FaceNaviBlueRobot" Value="Clients offer a reward to,whoever resolves their,request." Face="NaviBlueRobot" Mono="False" />
+  <!-- 注意点として依頼は１度に１つしか受けることが出来ません -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue6FaceNaviBlueRobot" Value="I should note that you can only,accept one request at a time." Face="NaviBlueRobot" Mono="False" />
+  <!-- すぐに解決できそうにない依頼を受けてしまわないように注意してくださいね -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue7FaceNaviBlueRobot" Value="Be careful not to take any,requests you can’t resolve,promptly." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルス討伐依頼はそこのカウンターで受けることが出来ます -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue8FaceNaviBlueRobot" Value="SP Virus Missions can be,taken at that counter over,there." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスと呼ばれる強力なウィルスを倒すと賞金がもらえるといった依頼です -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue9FaceNaviBlueRobot" Value="Each mission has a bounty for,eliminating a powerful SP virus." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスは危険なので普段は一般のナビと出会わないように････ -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue10FaceNaviBlueRobot" Value="Because SP viruses are so,dangerous，generic Navis,avoid them." Face="NaviBlueRobot" Mono="False" />
+  <!-- 特殊なプロテクトをかけて互いに認識できないような処理をしています -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue11FaceNaviBlueRobot" Value="We run protective protocols,that make us invisible to,SP viruses." Face="NaviBlueRobot" Mono="False" />
+  <!-- しかし　ＳＰウィルスが成長するとそのプロテクトが効かなくなり大きな被害が出てしまいます -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue12FaceNaviBlueRobot" Value="However，SP viruses can grow,strong enough to overcome,our protection." Face="NaviBlueRobot" Mono="False" />
+  <!-- それを防ぐためにもＳＰウィルスは定期的に倒す必要があります -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue13FaceNaviBlueRobot" Value="To stop SP viruses from,harming us all，we must cull,them regularly." Face="NaviBlueRobot" Mono="False" />
+  <!-- 依頼を受けると　受けた人に対してプロテクトを限定解除し戦えるようになります -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue14FaceNaviBlueRobot" Value="Upon taking a mission，,protective protocols will be,disabled." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスは並のナビよりも強力なのでデリートされないよう気をつけてください -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue15FaceNaviBlueRobot" Value="SP viruses are more powerful,than normal Navis，so be,careful." Face="NaviBlueRobot" Mono="False" />
+  <!-- 討伐依頼は１度につき１つしか受けることが出来ません -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue16FaceNaviBlueRobot" Value="You can only have one active,mission at a time." Face="NaviBlueRobot" Mono="False" />
+  <!-- 自分の技量にあった相手を選ぶのが賢いやり方ですね -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue17FaceNaviBlueRobot" Value="It’s a good idea to target an,enemy around your skill level." Face="NaviBlueRobot" Mono="False" />
+  <!-- 討伐完了した後にカウンターに報告すれば賞金を受け取れます -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue18FaceNaviBlueRobot" Value="After you complete the mission，,just claim your bounty at the,counter." Face="NaviBlueRobot" Mono="False" />
+  <!-- そうですか････ -->
+  <Dialogue Key="Map.GenNetSquareOfficeExplanationNaviStage1Dialogue19FaceNaviBlueRobot" Value="Is that so....?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスぶっ倒して賞金ふんだくろうと思ってたんだがよ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="I thought I’d beat an SP virus,and claim the bounty...." Face="NaviOrangeMale" Mono="False" />
+  <!-- 反対にヤツにデリートされそうになってここへ逃げてきたのさ -->
+  <Dialogue Key="Map.GenNetSquareChapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="But I almost got deleted,instead! I had to run all the,way back here." Face="NaviOrangeMale" Mono="False" />
+  <!-- ＳＰウィルスぶっ倒して賞金ふんだくろうと思ってたんだがよ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter2YouthNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="I thought I’d beat an SP virus,and claim the bounty...." Face="NaviOrangeMale" Mono="False" />
+  <!-- 反対にヤツにデリートされそうになってここへ逃げてきたのさ -->
+  <Dialogue Key="Map.GenNetSquareChapter2YouthNavi2Stage1Dialogue2FaceNaviOrangeMale" Value="But I almost got deleted,instead! I had to run all the,way back here." Face="NaviOrangeMale" Mono="False" />
+  <!-- インテリアはホームページに自由に置くことができる置物なんだけどね -->
+  <Dialogue Key="Map.GenNetSquareChapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="Interiors are decorations you,can place in your homepage." Face="NaviPinkFemale" Mono="False" />
+  <!-- とっても値段が高いうえ役に立つものは少ないのよ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="They’re very expensive，and,most of them aren’t very useful!" Face="NaviPinkFemale" Mono="False" />
+  <!-- あくまでも余ったお金で楽しむのがいいわよ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter2GirlNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="That said，there are actually,some useful ones!" Face="NaviPinkFemale" Mono="False" />
+  <!-- でも　中にはとっても役に立つ物もあるんだって！ -->
+  <Dialogue Key="Map.GenNetSquareChapter2GirlNavi1Stage1Dialogue4FaceNaviPinkFemale" Value="If you have lots of money lying,around，you might enjoy them!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 私は体験版のみに存在するおまけスプライトです -->
+  <Dialogue Key="Map.GenNetSquareTestSprite1Stage1Dialogue1FaceSprite" Value="I am a bonus sprite that only,exists in the trial verson." Face="Sprite" Mono="False" />
+  <!-- 上位ウィルスとの戦闘を体験できるおまけを遊ぶことが出来ます -->
+  <Dialogue Key="Map.GenNetSquareTestSprite1Stage1Dialogue2FaceSprite" Value="You can try your hand at a,bonus fight with high-rank,viruses." Face="Sprite" Mono="False" />
+  <!-- １０連戦になりますがあそびますか？ -->
+  <Dialogue Key="Map.GenNetSquareTestSprite1Stage1Dialogue3QuestionFaceSprite" Value="Attempt these 10 bonus,fights?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenNetSquareTestSprite1Stage1Dialogue3Options" Value="Yes,No" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle1Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle1Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle1Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle2Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle2Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle2Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle3Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle3Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle3Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle4Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle4Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle4Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle5Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle5Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle5Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle6Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle6Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle6Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle7Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle7Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle7Enemy3" Value="ActoNavi" />
+  <Text Key="Map.GenNetSquareTestSprite1Battle8Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle8Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle8Enemy3" Value="ActoNavi" />
+  <!-- ジュゲムジュゲム -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle9Enemy1" Value="Jgmujgmu" />
+  <!-- ゴコウノスリキレ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle9Enemy2" Value="Gkunsrkr" />
+  <!-- カイジャリスイギ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle9Enemy3" Value="Kajrsugi" />
+  <!-- ジュゲムジュゲム -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle10Enemy1" Value="Jgmujgmu" />
+  <!-- ゴコウノスリキレ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle10Enemy2" Value="Gkunsrkr" />
+  <!-- カイジャリスイギ -->
+  <Text Key="Map.GenNetSquareTestSprite1Battle10Enemy3" Value="Kajrsugi" />
+  <!-- おめでとうございます -->
+  <Dialogue Key="Map.GenNetSquareTestSprite1Stage3Dialogue1FaceSprite" Value="Congratulations." Face="Sprite" Mono="False" />
+  <!-- これはご褒美です　どうぞ -->
+  <Dialogue Key="Map.GenNetSquareTestSprite1Stage3Dialogue2FaceSprite" Value="Here are your prizes.,Please accept them." Face="Sprite" Mono="False" />
+  <!-- 戦闘テスト -->
+  <Dialogue Key="Map.GenNetSquareTestSprite2Stage1Dialogue1FaceSprite" Value="Battle Test" Face="Sprite" Mono="False" />
+  <!-- ＲＯＭのものと見られるナビをネットエージェントが追っているらしいぞ -->
+  <Dialogue Key="Map.GenNetSquareChapter3ManNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="It looks like the NetAgents,are pursuing ROM and the,Navi they found." Face="NaviBlueRobot" Mono="False" />
+  <!-- しばらくＲＯＭの構成員を捕まえられていなかったから捕まえたら大手柄だな -->
+  <Dialogue Key="Map.GenNetSquareChapter3ManNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="They haven’t caught any,ROM members in a while，,so now’s their chance!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 連続で当たるチップに攻撃力を上げるチップを追加すると強いんだって！ -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi1Stage1Dialogue1FaceNaviChild" Value="Multi-hitting chips work really,well with chips that increase,power!" Face="NaviChild" Mono="False" />
+  <!-- インテリアが欲しいけどＳＰウィルスとは戦いたくないんだよなあ -->
+  <Dialogue Key="Map.GenNetSquareChapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="I want Interiors，but I don’t,want to hunt SP viruses." Face="NaviGreenRobot" Mono="False" />
+  <!-- そもそもなんでインテリアってこんなに高いんだ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="Why are Interiors so expensive,in the first place....?" Face="NaviGreenRobot" Mono="False" />
+  <!-- たとえ逃げられないくらい強い相手でも　弱らせれば逃げられるようになるんだ -->
+  <Dialogue Key="Map.GenNetSquareChapter3ManNavi3Stage1Dialogue1FaceNaviOrangeMale" Value="You should be able to run,from weak enemies，but the,strong ones...." Face="NaviOrangeMale" Mono="False" />
+  <!-- 探しものをしてるの？それだったら千里眼じいさんをたずねるといいわよ -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi3Stage1Dialogue1FaceNaviPinkFemale" Value="Are you looking for something?,If so，you should pay a visit to,the Sage." Face="NaviPinkFemale" Mono="False" />
+  <!-- 千里眼じいさんは何でもすぐに見つけてくれるんだって -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi3Stage1Dialogue2FaceNaviPinkFemale" Value="The Sage can find anything,in a flash!" Face="NaviPinkFemale" Mono="False" />
+  <!-- さっきシティエリア３で見たからそこにいるんじゃないかな -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi3Stage1Dialogue3FaceNaviPinkFemale" Value="I saw him in City Area 3,a while ago，so he might,still be over there." Face="NaviPinkFemale" Mono="False" />
+  <!-- 毒パネルの上とか毒状態のときにリペアとかで回復しないほうがいいわ -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi3Stage3Dialogue1FaceNaviPinkFemale" Value="You shouldn’t try to heal if,you’re poisoned or standing,on a poison panel." Face="NaviPinkFemale" Mono="False" />
+  <!-- だって　回復するどころかダメージを受けてしまうんですもの -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi3Stage3Dialogue2FaceNaviPinkFemale" Value="Instead of healing，you’ll take,that much damage instead." Face="NaviPinkFemale" Mono="False" />
+  <!-- それから草パネルの上を毒属性の攻撃が通ると毒パネルになるらしいわ -->
+  <Dialogue Key="Map.GenNetSquareChapter3GirlNavi3Stage3Dialogue3FaceNaviPinkFemale" Value="Also，poison attacks will,change grass panels to,poison panels." Face="NaviPinkFemale" Mono="False" />
+  <!-- 自分の腕を過信して危険な依頼を受けたらデリートされかけたよ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter4Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="I overestimated myself and,took a request way above,my level...." Face="NaviGreenRobot" Mono="False" />
+  <!-- 身の丈にあった依頼を選ばないと危ないね -->
+  <Dialogue Key="Map.GenNetSquareChapter4Navi1Stage1Dialogue2FaceNaviGreenRobot" Value="Know your limits，or you could,end up deleted，like me." Face="NaviGreenRobot" Mono="False" />
+  <!-- 今日もＳＰウィルスを倒してお金を稼ぐわよー！ -->
+  <Dialogue Key="Map.GenNetSquareChapter4Navi2Stage1Dialogue1FaceNaviPinkFemale" Value="Today，I’ll bust some,SP viruses and earn,some money!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ふふ　こう見えても私ウィルスハンターなんだからね！ -->
+  <Dialogue Key="Map.GenNetSquareChapter4Navi2Stage1Dialogue2FaceNaviPinkFemale" Value="Hehe! I might not look like,a virus hunter，but looks can,be decieving!" Face="NaviPinkFemale" Mono="False" />
+  <!-- トンテンカンテン！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1Sprite1Stage1Dialogue1FaceSprite" Value="DING DONG!" Face="Sprite" Mono="False" />
+  <!-- イマ　ケイジバンヲツクッテル　トチュウ　ナンデスヨ -->
+  <Dialogue Key="Map.GenNetSquareChapter1Sprite1Stage1Dialogue2FaceSprite" Value="I’M CURRENTLY MAKING,A CHAT BOARD!" Face="Sprite" Mono="False" />
+  <!-- シュウチュウ　シタイノデシズカニシテ　モラエルトタスカリマス -->
+  <Dialogue Key="Map.GenNetSquareChapter1Sprite1Stage1Dialogue3FaceSprite" Value="I NEED TO FOCUS，SO,I’D APPRECIATE SOME,PEACE AND QUIET!" Face="Sprite" Mono="False" />
+  <!-- トンテンカンテン！ -->
+  <Dialogue Key="Map.GenNetSquareChapter1Sprite1Stage1Dialogue4FaceSprite" Value="DING DONG!" Face="Sprite" Mono="False" />
+  <!-- 特売通販の食品を買いに来たんですよ -->
+  <Dialogue Key="Map.GenNetSquareChapter7Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="Here for the rice?,Me too." Face="NaviGreenRobot" Mono="False" />
+  <!-- 通販の申し込みならそこの青いナビが受け付けてるよ -->
+  <Dialogue Key="Map.GenNetSquareChapter7Navi2Stage1Dialogue1FaceNaviOrangeMale" Value="The blue Navi over there is,taking orders for mail-order rice." Face="NaviOrangeMale" Mono="False" />
+  <!-- えーっとここでお米を買うと安いのよね？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage1Dialogue1FaceShanghai" Value="You the guy with rice on sale?" Face="Shanghai" Mono="False" />
+  <!-- はい　お買い求めですか？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage1Dialogue2FaceNaviBlueRobot" Value="Yes....Are you interested in,buying?" Face="NaviBlueRobot" Mono="False" />
+  <!-- えーっと　これを３袋住所は････これで -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage1Dialogue3FaceShanghai" Value="Three bags to this address，,please." Face="Shanghai" Mono="False" />
+  <!-- ご利用ありがとうございます -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage1Dialogue4FaceNaviBlueRobot" Value="Thank you for your purchase." Face="NaviBlueRobot" Mono="False" />
+  <!-- おや？　お客様もお買い求めで････？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage3Dialogue1FaceNaviBlueRobot" Value="Oh....?,Are you interested in some rice,as well，sir?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ････ニンゲン -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage3Dialogue2FaceNaviBlackRobe" Value="HUMANS...." Face="NaviBlackRobe" Mono="False" />
+  <!-- え？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage3Dialogue3FaceNaviBlueRobot" Value="Huh?" Face="NaviBlueRobot" Mono="False" />
+  <!-- うぎゃあぁぁぁぁ！！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage5Dialogue1FaceNaviBlueRobot" Value="Aughhhh!" Face="NaviBlueRobot" Mono="False" />
+  <!-- あんた　何やってるのよ！？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage7Dialogue1FaceShanghai" Value="What’s going on?!" Face="Shanghai" Mono="False" />
+  <!-- ニンゲン　イノチ　ウマイ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage7Dialogue2FaceNaviBlackRobe" Value="HUMANS! LIFE IS GOOD!" Face="NaviBlackRobe" Mono="False" />
+  <!-- オマエ　マホウツカイ？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue1FaceNaviBlackRobe" Value="WILL YOU MAKE THIS EASY?" Face="NaviBlackRobe" Mono="False" />
+  <!-- 何････こいつ！？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue2FaceShanghai" Value="What the....Who is this guy?!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue3FaceAlice" Value="Shanghai!" Face="Alice" Mono="False" />
+  <!-- あたしのシマで好き勝手は許さないわ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue4FaceShanghai" Value="On my turf?!,You just made a big mistake!" Face="Shanghai" Mono="False" />
+  <!-- アリス　やるわよ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue5FaceShanghai" Value="Alice!" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue6FaceAlice" Value="Yeah!" Face="Alice" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue7FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue8FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <!-- マホウツカイ　クウ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue9FaceNaviBlackRobe" Value="A MAGICAL FEELING!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNetSquareChapter7ShopBattle1Enemy1" Value="????" />
+  <!-- ハァ　ハァ････一体何者だったのよこいつは････ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage11Dialogue1FaceShanghai" Value="The hell was that guy....?" Face="Shanghai" Mono="False" />
+  <!-- ただいま　インターネット各地で謎の黒いナビによる傷害事件が多発しております -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage13Dialogue1FaceNone" Value="THIS IS A PUBLIC SAFETY,ANNOUNCEMENT.,Hostile black Navis have" Face="None" Mono="False" />
+  <!-- 危険ですのでインターネットの利用は安全が確認されるまでお控えください -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage13Dialogue2FaceNone" Value="been spotted across all areas,of the public Net. These Navis,are of unknown origin." Face="None" Mono="False" />
+  <!-- 今インターネットを利用している方々はすぐにプラグアウトをお願いいたします -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage13Dialogue3FaceNone" Value="For your own safety，jack out,immediately and refrain from,Net usage until the all-clear." Face="None" Mono="False" />
+  <!-- さっきみたいなやつが他にもいっぱい現れたみたいね････ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage15Dialogue1FaceShanghai" Value="So that guy wasn’t alone...." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue1FaceShanghai" Value="Alice，a phone call!,From Reisen!" Face="Shanghai" Mono="False" />
+  <!-- もしもし　鈴仙？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue2FaceAlice" Value="Hello? Reisen?" Face="Alice" Mono="False" />
+  <!-- アリス　先ほどインターネットに出現した黒いナビのことは知っているか？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue3FaceReisen" Value="Are you aware of the situation,involving the black Navis,attacking the Net?" Face="Reisen" Mono="False" />
+  <!-- うん　今････私達のところにも現れて　倒したところ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue4FaceAlice" Value="Yeah....Just now，we defeated,one that attacked Genso,Square." Face="Alice" Mono="False" />
+  <!-- 倒した････？通常のネットバトルでか？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue5FaceReisen" Value="Defeated....? In a normal,NetBattle?" Face="Reisen" Mono="False" />
+  <!-- うん････それがどうかしたの？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue6FaceAlice" Value="Yes....? Is something wrong?" Face="Alice" Mono="False" />
+  <!-- ふむ････ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue7FaceReisen" Value="Hmm...." Face="Reisen" Mono="False" />
+  <!-- 我々ネットエージェントも奴らと交戦したが攻撃がまるで通らなくてな -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue8FaceReisen" Value="Our NetAgents are attempting,to fight them，but report that,their attacks are ineffective." Face="Reisen" Mono="False" />
+  <!-- まるでこちらの攻撃が１割しか効いていないように感じたくらいだ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue9FaceReisen" Value="As if they were fighting at 10%,of their power." Face="Reisen" Mono="False" />
+  <!-- 無論　ヨリヒメも例外ではなく苦戦を強いられている -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue10FaceReisen" Value="Yorihime is experiencing the,same problem." Face="Reisen" Mono="False" />
+  <!-- それじゃあ　シャンハイだけあの黒いナビと普通に戦えるってこと？ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue11FaceAlice" Value="So Shanghai is the only one,who can fight them?" Face="Alice" Mono="False" />
+  <!-- ････どうやらそのようだな -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue12FaceReisen" Value="....It appears so." Face="Reisen" Mono="False" />
+  <!-- 何よ　言いたいことがあるならはっきり言いなさいよ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue13FaceShanghai" Value="Is there something you want to,ask us? Go on." Face="Shanghai" Mono="False" />
+  <!-- ････ヨリヒメを倒すだけの実力があるお前たちに頼みがある -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue14FaceReisen" Value="....You were powerful enough,to defeat Yorihime." Face="Reisen" Mono="False" />
+  <!-- インターネットに発生している謎の黒いナビの掃討を手伝ってくれ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue15FaceReisen" Value="Please lend your assistance in,defeating the black Navis,assaulting the Net." Face="Reisen" Mono="False" />
+  <!-- ネットエージェント総出で対応しているが　先の理由で現在戦力が足りていない -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue16FaceReisen" Value="Our NetAgents are fighting ,back，but our forces are held,back by their defences." Face="Reisen" Mono="False" />
+  <!-- ････わかったわこの事態を見過ごすことなんて出来ないからね -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue17FaceAlice" Value="....I don’t think anybody could,stand by and let this happen." Face="Alice" Mono="False" />
+  <!-- それに　あたしのシマで好き放題したツケを払わせてやらないとね -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue18FaceShanghai" Value="Expect a bill，and this is just,since they came onto my turf!" Face="Shanghai" Mono="False" />
+  <!-- ････感謝する -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue19FaceReisen" Value="....Thank you." Face="Reisen" Mono="False" />
+  <!-- 連中は現在ゲンソウエリアシティエリア　エイエンエリアに広く出没している -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue20FaceReisen" Value="The black Navis have been,sighted in the Genso，City，and,Eien areas." Face="Reisen" Mono="False" />
+  <!-- こちらが確認した中で残っているのは各エリアに３体ずつだ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue21FaceReisen" Value="We have confirmed that there,are three Navis in each area." Face="Reisen" Mono="False" />
+  <!-- これらのエリアを周り全ての黒いナビをデリートしてくれ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue22FaceReisen" Value="Stop the black Navis’ attacks，,and clear the three areas." Face="Reisen" Mono="False" />
+  <!-- 我々は可能な範囲で一般ナビの避難誘導と戦線の維持を行う -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue23FaceReisen" Value="The NetAgents will organize,the evacuation of civilian Navis,and conduct delaying actions." Face="Reisen" Mono="False" />
+  <!-- わかったわシャンハイ　行くわよ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue24FaceAlice" Value="Let’s do this，Shanghai." Face="Alice" Mono="False" />
+  <!-- ええ　誰だか知らないけどこれ以上インターネットで好き放題やらせないわよ！ -->
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue25FaceShanghai" Value="I don’t know who they are， but,I’ll show them they can’t do what,they want on my Net!" Face="Shanghai" Mono="False" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue1FaceSprite" Value="I’M THE SPRITE THAT,CONNECTS LINK GATES!" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページトコノスクエアヲ　リンクデツナグコトガデキマス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue2FaceSprite" Value="I CAN LINK THIS SQUARE,TO YOUR HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- セツゾクノ　テスウリョウトシテ１０００ゼニーガ　ヒツヨウデス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue3FaceSprite" Value="THE CONNECTION FEE IS,1000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナギマスカ？ -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="CREATE A LINK?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenNetSquareLinkSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <!-- リンクノ　セツゾクガカンリョウシマシタ -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue5FaceSprite" Value="LINK CREATED!" Face="Sprite" Mono="False" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue6FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,1000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenNetSquareLinkSpriteStage3Dialogue4Options" Value="Yes,No" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.GenNetSquareLinkSpriteStage3Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <!-- インテリアショップへようこそ！ -->
+  <Dialogue Key="Map.GenNetSquareInteriorShopStage1Dialogue1FaceNaviOrangeMale" Value="Welcome to my Interiors Shop!" Face="NaviOrangeMale" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れますです -->
+  <Dialogue Key="Map.GenNetSquareInteriorShopStage1Dialogue2FaceNaviOrangeMale" Value="You can decorate your,homepage beautifully，,even on a budget!" Face="NaviOrangeMale" Mono="False" />
+  <!-- インテリアをご所望ですか？ -->
+  <Dialogue Key="Map.GenNetSquareInteriorShopStage1Dialogue3QuestionFaceNaviOrangeMale" Value="Interested in some,Interiors?" Face="NaviOrangeMale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.GenNetSquareInteriorShopStage1Dialogue3Options" Value="Shop,Leave" />
+  <Dialogue Key="Map.GenNetSquarePostGameBystander1Dialogue1" Value="Of all the Squares，this one is,the most soothing." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.GenNetSquarePostGameBystander2Dialogue1" Value="I wonder if I should try taking,some requests...." Face="NaviPinkFemale" Mono="False" />
+</data>

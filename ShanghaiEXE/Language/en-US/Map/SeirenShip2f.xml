@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShip2fName" Value="Siren 2F Mall" />
+  <Dialogue Key="Map.SeirenShip2fElevatorStage1Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.SeirenShip2fElevatorStage1Dialogue2Options" Value="1F  Lobby,3F  Lodging,Leave" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreShowcaseStage1Dialogue1FaceNone" Value="There’s an unbelievably,large jewel on display." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreShowcaseStage1Dialogue2FaceNone" Value="It’s super expensive!,What kind of person could,even afford this....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage1Dialogue1FaceNone" Value="This doesn’t feel like the,kind of store that kids can,just wander into." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage1Dialogue2FaceNone" Value="Even Remilia would have,a hard time getting in." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue1FaceReisen" Value="This is....a jewelry store?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue2FaceAlice" Value="Look! They’re selling this,jewelry for 30 million Zenny!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue3FaceReisen" Value="Why is that rock so valuable?,I don’t understand it." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue4FaceShanghai" Value="Because its beauty is rare.,Value goes hand in hand,with scarcity." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue5FaceReisen" Value="....I just can’t understand it." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage5Dialogue1FaceNone" Value="This doesn’t feel like the,kind of store that kids can,just wander into." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage5Dialogue2FaceNone" Value="Even Remilia would have,a hard time getting in." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBagStoreShowcaseStage1Dialogue1FaceNone" Value="It’s a brand-name handbag,I’ve heard about on the TV,and the Internet." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBagStoreShowcaseStage1Dialogue2FaceNone" Value="Is it actually useful enough,to fetch such a high price?,Only the rich would know." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage1Dialogue1FaceNone" Value="It’s a store selling famous,brand-name handbags." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage1Dialogue2FaceNone" Value="I’ll never be able to afford one.,Not in a million years." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue1FaceAlice" Value="These are brand-name,handbags!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue2FaceAlice" Value="Wow! They’re so expensive....!,I’d like to buy one someday!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue3FaceReisen" Value="Aren’t some of the stores,around here selling cheaper,ones?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue4FaceReisen" Value="Why would you want to buy,something so expensive?,I don’t understand." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue5FaceShanghai" Value="Yeah，I honestly don’t see the,point in buying brand-name,handbags either." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue6FaceAlice" Value="Really?,But I thought you liked things,like this，Shanghai." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue7FaceShanghai" Value="Alice，do you really,think I’m like that....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage5Dialogue1FaceNone" Value="It’s a store selling famous,brand-name handbags." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage5Dialogue2FaceNone" Value="I’ll never be able to afford one.,Not in a million years." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage1Dialogue1FaceNone" Value="It’s a bar serving things like,soda and ice cream.,There’s even a kids’ menu." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage1Dialogue2FaceNone" Value="Its interior design gives off a,chic vibe that most kids would,probably find intimidating." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue1FaceAlice" Value="Now what’s this....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue2FaceShanghai" Value="It’s a bar. You know，the kind,of place that serves alcohol." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue3FaceReisen" Value="Try drinking even a single,drop and I’ll arrest you on,the spot." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue4FaceAlice" Value="I’m not going to drink!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue5FaceAlice" Value="Ah，but they also have,desserts!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue6FaceShanghai" Value="The price is pretty good too...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue7FaceShanghai" Value="How about I treat you to one?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue8FaceAlice" Value="Yay!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue9FaceAlice" Value="How about you，Reisen?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue10FaceReisen" Value="I’m....." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue11FaceAlice" Value="Alright! Time for dessert!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue12FaceReisen" Value="Hey! Hold it!" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue1FaceAlice" Value="Mmmm!,That was delicious!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue2FaceReisen" Value="...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue3FaceShanghai" Value="You don’t like it?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue4FaceReisen" Value="It tastes good，but it’s not very,filling. It’s an inefficient meal." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue5FaceReisen" Value="In the same time it took to,consume that，this beef jerky,is much more efficient." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue6FaceAlice" Value="Um.... You eat desserts,because they taste good，not,because they’re nutritious." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue7FaceReisen" Value="If you want something sweet，,you could just dip this jerky,into this sauce and...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue8FaceShanghai" Value="Enough with the beef jerky...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage7Dialogue1FaceNone" Value="It’s a bar serving things like,soda and ice cream.,There’s even a kids’ menu." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage7Dialogue2FaceNone" Value="Its interior design gives off a,chic vibe that most kids would,probably find intimidating." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fExhibitionCornerStage1Dialogue1FaceNone" Value="There’s some kind of exhibit,here， but it looks like it’s not,ready to open yet." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue1FaceReisen" Value="....Oh，it’s you." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue2FaceReisen" Value="So you two were on this,ship too，hm?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue3FaceAlice" Value="Reisen? Why are you here?,Are you on a mission for the,NetAgents?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue4FaceReisen" Value="If I told you I were on this,ship to go sightseeing，,would you believe me?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue5FaceAlice" Value="Hmm...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue6FaceAlice" Value="If you’re here for fun，,why don’t we go look,at shops together?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue7FaceReisen" Value="....Huh?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue8FaceReisen" Value="Why would you want me to....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue9FaceShanghai" Value="It’s better than being all,by yourself，right?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue10FaceReisen" Value="....Trying to kill time?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue11FaceReisen" Value="I guess I have no choice.,I’ll accompany you for a,little while." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue12FaceReisen" Value="I’ll follow you，so would,you take me to some,stores that you like?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue13FaceReisen" Value="(If I stay close to them，, I might be able to learn the, secret to their strength....)" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage3Dialogue1FaceReisen" Value="I’ll follow you，so just go to,whatever stores you want." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue1FaceAlice" Value="Are we pretty much done,looking around?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue2FaceShanghai" Value="Well，I gotta say....,Reisen，you’re a little weird." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue3FaceReisen" Value="I’m just saying that inefficient,things are inefficient." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue4FaceShanghai" Value="And people need some room,to enjoy useless things too." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue5FaceReisen" Value="I’d rather not have a NetNavi,lecture me on human nature...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue6FaceAlice" Value="Now now...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue7FaceAlice" Value="Hm? Looks like we can,go in here now." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue8FaceShanghai" Value="An exhibition on the history,of Japanese warships....,Sounds interesting." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue9FaceAlice" Value="Then let’s go here next!,C’mon，Reisen!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue10FaceReisen" Value="Hmph...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue1FaceAlice" Value="Ah，that was fun! Cruise,ships sure are a lot of fun!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue2FaceReisen" Value="Tell me...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue3FaceReisen" Value="Did Eirin suggest you,concern yourself with me?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue4FaceAlice" Value="Um...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue5FaceReisen" Value="I thought something was off.,Your attitude suddenly,changed since last time...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue6FaceReisen" Value="....So that means you,already know my past?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue7FaceShanghai" Value="That’s right. Seems like,you’re carrying a pretty,heavy past，don’t you think?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue8FaceReisen" Value="I suppose it might seem,heavy to you two." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue9FaceReisen" Value="But for me，it isn’t.,I have my memories." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue10FaceAlice" Value="Like fun memories?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue11FaceAlice" Value="Would you mind telling,me about them?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue12FaceReisen" Value="Even if you'll think it's,a boring story?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue13FaceShanghai" Value="Don’t just leave us hanging." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue14FaceShanghai" Value="The money I spent on you,should cover a story，don’t,you think?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue15FaceReisen" Value="Hmph.... The thought of owing,someone makes me sick." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue16FaceReisen" Value="I was around six years old...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue17FaceAlice" Value="You remember it that well，,huh....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue18FaceReisen" Value="A certain terrorist organization,was assassinating Ostrian,cabinet ministers one by one." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue19FaceReisen" Value="We recieved intel that the,terrorists were planning on,attacking Parliament." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue20FaceReisen" Value="The local army and our band,of mercenaries began our,mission to defend Parliament." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue21FaceReisen" Value="The terrorists had prepared a,trump card." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue22FaceReisen" Value="It was a copy of the mobile,weapon the Ostrian Air Force,was developing at the time." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue23FaceReisen" Value="Then，the leader of the terrorist,organization began boarding,the mobile weapon." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue24FaceReisen" Value="The army deployed their ace,pilot，who then engaged that,official-type mobile weapon." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue25FaceReisen" Value="To capture the enemy alive，,the Ostrian Army installed a,Beam Net downtown." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue26FaceReisen" Value="The plan was to use a mobile,weapon to lure the enemy to,the Beam Net and capture it." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue27FaceReisen" Value="Our mercenary group was,hired to hold back the enemy,troops in the meantime." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue28FaceReisen" Value="And after the intense dogfight,between the mobile weapons....,Our mission was a success." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue29FaceReisen" Value="Even though I was watching,the battle from my own mobile,weapon...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue30FaceReisen" Value="To this day，I get excited when,I remember that dogfight." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue31FaceAlice" Value="That’s a happy memory....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue32FaceReisen" Value="How was it?,Are you satisfied?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue33FaceAlice" Value="I thought it’d be a bit,different than that....,But yeah，I enjoyed it." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue34FaceAlice" Value="(That was just a war story!)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue35FaceReisen" Value="....Hm?,It’s this late already?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue36FaceShanghai" Value="Let’s return to our room soon.,If I remember correctly，the,party starts in about an hour." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue37FaceAlice" Value="The party?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue38FaceShanghai" Value="You were too busy playing,with bed to notice，huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue39FaceShanghai" Value="Lunch is a buffet in the,hall on the first floor." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue40FaceShanghai" Value="There，we’ll be fighting in an,Exhibition NetBattle as the,N1 League champions." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue41FaceAlice" Value="An exhibition match!?,I didn’t hear about that!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue42FaceShanghai" Value="You’re the only one who,hadn’t heard about it." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue43FaceAlice" Value="Are you going to the party too，,Reisen?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue44FaceReisen" Value="Not interested.,I’ll eat in my own room." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue45FaceShanghai" Value="You’re pretty dull，huh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue46FaceReisen" Value="Well then，excuse me." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue1FaceAlice" Value="Reisen!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue2FaceReisen" Value="....What?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue3FaceAlice" Value="....I had fun!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue4FaceReisen" Value="....Hmph." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage5Dialogue1FaceShanghai" Value="Let’s rest in our room,until the party starts." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage5Dialogue2FaceAlice" Value="Sounds good." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover1Stage1Dialogue1FaceGreenHairFemalePinkEyes" Value="I can buy as much as I like!?,Fufufu...." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover1Stage1Dialogue2FaceGreenHairFemalePinkEyes" Value="Thanks!,You’re such a gentleman!" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover2Stage1Dialogue1FaceWhiteHairMaleButler" Value="Ha ha ha! Please buy as,much as you like!" Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover2Stage1Dialogue2FaceWhiteHairMaleButler" Value="Money isn’t an issue for me.,I’m an oil baron，after all." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMoverStage1Dialogue1FaceFemaleChild" Value="There aren’t any toy stores!,I’m bored〜!" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover4Stage1Dialogue1FaceOrangeHairFemaleChild" Value="It looks like we can eat ice,cream in that bar over there!,Let’s give it a try!" Face="OrangeHairFemaleChild" Mono="False" />
+  <!-- フィアンセに送る宝石を見に来たんだＹＯ！ -->
+  <Dialogue Key="Map.SeirenShip2fFromChapter7Onwards1Stage1Dialogue1FaceBlackHairMaleBlackRapper" Value="I’m looking for jewelry to send,to my fiance，yo!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- でも想像より桁が多くて呆然としているんだＹＯ････ -->
+  <Dialogue Key="Map.SeirenShip2fFromChapter7Onwards1Stage1Dialogue2FaceBlackHairMaleBlackRapper" Value="But all these price tags have,too many numbers，yo...." Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- 青い空　青い海････現実を忘れられるいい景色だ -->
+  <Dialogue Key="Map.SeirenShip2fFromChapter7Onwards2Stage1Dialogue1FaceMaleAdult" Value="Blue sky....,Blue sea....,Just forget reality exists...." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fHandrailStage1Dialogue1FaceNone" Value="Upon closer inspection，,there’s a small panel in the,middle of the handrail." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fHandrailStage1Dialogue2FaceNone" Value="There’s a jack in port,under the cap!" Face="None" Mono="False" />
+</data>

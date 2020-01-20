@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner4Name" Value="Air Purifier Comp 4" />
+  <Dialogue Key="Map.AirCleaner4Sprite1Stage1Dialogue1FaceSprite" Value="A STRANGE NAVI WENT,TO THE BACK!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite1Stage1Dialogue2FaceSprite" Value="MAYBE THAT’S THE,CULPRIT!?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite1Stage3Dialogue1FaceSprite" Value="HOORAY! HOORAY!,THE CRIMINAL IS GONE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite2Stage1Dialogue1FaceSprite" Value="IF YOU PASS OUT，THE,RESCUE PROGRAM WILL,BRING YOU BACK HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite2Stage1Dialogue2FaceSprite" Value="PLEASE BE REALLY REALLY,REALLY REALLY CAREFUL,AROUND THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite3Stage1Dialogue1FaceSprite" Value="FROM THIS POINT ON，THE,RESCUE PROGRAM WILL,BRING YOU BACK HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite3Stage1Dialogue2FaceSprite" Value="PLEASE BE REALLY,CAREFUL AROUND,THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite4Stage1Dialogue1FaceSprite" Value="YOU’RE ALMOST THERE!,DO YOUR BEST!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4Sprite4Stage3Dialogue1FaceSprite" Value="PEACE IS GREAT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue1FaceShanghai" Value="Cough! Gak!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue2FaceShanghai" Value="Cough....,Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue3FaceShanghai" Value="Wheeze!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue4FaceShanghai" Value="Achoo!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue5FaceShanghai" Value="Cough! Hack!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue6FaceShanghai" Value="Hack!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage1Dialogue7FaceShanghai" Value="Gasp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage3Dialogue1FaceShanghai" Value="U....Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas1Stage5Dialogue1FaceAlice" Value="Please be careful around,poison gas...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue1FaceShanghai" Value="Cough! Gak!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue2FaceShanghai" Value="Cough....,Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue3FaceShanghai" Value="Wheeze!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue4FaceShanghai" Value="Achoo!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue5FaceShanghai" Value="Cough! Hack!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue6FaceShanghai" Value="Hack!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage1Dialogue7FaceShanghai" Value="Gasp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage3Dialogue1FaceShanghai" Value="U....Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4PoisonGas4Stage5Dialogue1FaceAlice" Value="Please be careful around,poison gas...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4ControlStage1Dialogue1FaceNone" Value="The air purifier is cleaning the,air normally." Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue1FaceShanghai" Value="So you’re the one behind,this incident!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue2FaceMedicine" Value="My my! I’m impressed you,made it this far." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue3FaceMedicine" Value="....Blonde hair?,I’m guessing you’re the,Navi that beat Cirno." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue4FaceShanghai" Value="So you’re from ROM!,Where’s your NetOp!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue5FaceMedicine" Value="NetOp?" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue6FaceMedicine" Value="Ahaha!,I don’t have one!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue7FaceMedicine" Value="I’m Medicine，an autonomous,NetNavi!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue8FaceMedicine" Value="I don’t have a NetOp，so I,don’t waste time receiving,commands!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue9FaceMedicine" Value="There’s no way a dependent,Navi like you could beat me!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue10FaceShanghai" Value="You...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue11FaceShanghai" Value="You’re an autonomous ROM,Navi? I don’t know anything,about that，but...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue12FaceShanghai" Value="Venting poison gas....,Making a young lady cry...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue13FaceShanghai" Value="If you think I’m just gonna let,you get away with this...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue14FaceShanghai" Value="Are you an idiot!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue15FaceAlice" Value="Well said!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue16FaceShanghai" Value="Your foul poison has been,sticking to me for far too long!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue17FaceShanghai" Value="I’ll send you the cleaning bill!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue18FaceAlice" Value="Take that back!,You had it right the first time!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue19FaceMedicine" Value="W-What’s with these two....?" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue20FaceShanghai" Value="You hurt Alice and her friends，,so here’s your reward!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue21FaceShanghai" Value="I won’t pull any punches!,Let’s do it，Alice!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue22FaceAlice" Value="Cough!,Battle routine! Set!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue23FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage1Dialogue24FaceMedicine" Value="I’ll fill you with my poison!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue1FaceMedicine" Value="S-So strong....!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue2FaceShanghai" Value="Whatever this autonomous,stuff is，it’s worthless compared,to the bond we share!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue3FaceAlice" Value="The bond we share....?,It doesn’t sound quite as,convincing when you say it." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue4FaceMedicine" Value="Fufufu...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage3Dialogue5FaceMedicine" Value="You’re trapped!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue1FaceShanghai" Value="!!,I’m surrounded!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue2FaceMedicine" Value="No matter what you say，,you can’t survive this much,concentrated poison!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue3FaceShanghai" Value="Kh....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue4FaceMedicine" Value="You were tough，but I must,thank you! You bought me the,time I needed to gather gas!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage5Dialogue5FaceMedicine" Value="Now drown in gas!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage7Dialogue1FaceNone" Value="Magic Missile!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue1FaceMarisa" Value="This ain’t like you，Shanghai!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue2FaceShanghai" Value="Marisa!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue3FaceMari" Value="I made it just in time!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue4FaceAlice" Value="Mari!,You came back for us!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue5FaceMarisa" Value="So waddaya gonna do!?,Ya done already!?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue6FaceMedicine" Value="Kh....!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue7FaceMedicine" Value="Retreat!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue8FaceShanghai" Value="Hey! Hold it!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue9FaceAlice" Value="She got away...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue10FaceMarisa" Value="Now that the culprit’s gone，,the air should clean up soon." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.AirCleaner4BossEventStage9Dialogue11FaceMari" Value="Phew....,Now then...." Face="Mari" Mono="False" />
+</data>

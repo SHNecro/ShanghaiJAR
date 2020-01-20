@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue1Eirin" Value="あら　さっそく渡したアドオン,使ってくれたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue2Shanghai" Value="とは言っても　ただの医者の,あんたがあたし達に,何を話すっていうの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue3Eirin" Value="私はただの医者じゃないわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue4Eirin" Value="私はスーパーグレートな,美人女医よ！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue5Alice" Value="えー････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue6Shanghai" Value="で　そのスーパージョイが,何を話すっていうのかしら？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue7Eirin" Value="あなたたちだって,四六時中　戦ってばかりじゃ,なかなか大変でしょう？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue8Eirin" Value="このアドオンで話してくれれば,捕獲したことのあるウィルスの,生態を教えてあげるわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue9Alice" Value="ウィルスの生態････,それは面白そうね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue10Eirin" Value="それじゃあ,よろしくね！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue1Eirin" Value="レイカノンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue2Eirin" Value="レイカノンは典型的な,砲台型ウィルスで生き物より,機械に近いわね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue3Shanghai" Value="でも　バグのかけらを食べて,成長するわよね？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue4Eirin" Value="実は砲台に見えるのは殻で,中に軟体動物みたいなのが,住んでいるらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue5Alice" Value="ええー････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue6Eirin" Value="ちなみに砲身から発射される,弾丸は転移式爆雷弾という,シロモノで" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue7Eirin" Value="ロックオンした目標に向けて,爆弾を転送しているような,イメージの砲弾なの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue8Shanghai" Value="だからロックオンされた場所から,動けば当たらないのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue1Eirin" Value="フラワータンクを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue2Eirin" Value="フラワータンクの本体は,砲塔から生えるツル状の,電脳植物なのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue3Eirin" Value="その電脳植物が迎撃用の,戦車型プログラムを操っている,という仕組みのウィルスなの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue4Shanghai" Value="だから火とか毒が,よく効くわけね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue5Eirin" Value="だから寄生されている形の,戦車型プログラムから,発射される砲弾は無属性なの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue6Eirin" Value="まあ落とすチップである,シードキャノンはタネを発射,するチップなんだけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue7Alice" Value="電脳世界の生態系って,理解が追いつかないわ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue1Eirin" Value="ゲルパークを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue2Eirin" Value="ゲルパークはカタツムリに,よく似た電脳軟体動物で,背中の炉は生まれつきの物よ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue3Shanghai" Value="ゲルパークといえばしもべが,火で炙って壺焼きにしたら,美味しそうとか言ってたわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue4Eirin" Value="ウィルス食は一部の電脳世界で,やっているみたいだけど,良い子は真似しちゃダメよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue5Eirin" Value="ちなみに炉から出る光線は,炉の内部にあるスパークダケと,いうキノコによるものなの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue6Eirin" Value="スパークダケはゲルパークの,背中に生える電脳キノコで,熱を与えると放電するの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue7Eirin" Value="炉の中にキノコの電気を蓄え,ビームの形にして発射する,という仕組みなわけね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue8Shanghai" Value="スパークダケも一度,食べてみたいわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue9Alice" Value="やめておいたほうが,いいと思うな････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue1Eirin" Value="モッサを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue2Eirin" Value="モッサは全身に細かい毛が,生えたクモ型のウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue3Eirin" Value="ネバネバする糸の塊を,獲物に発射して攻撃するわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue4Shanghai" Value="生息地によって属性が,変わるウィルスの一種よね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue5Eirin" Value="らんらんと光る目は暗闇でも,よく見えるから名前は,目の色からとっているのよね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue6Eirin" Value="ちなみにモッサドクグモという,毒蜘蛛がモデルになっている,という話があるわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue7Shanghai" Value="ウィルスを作るやつも,なにもクモをモデルにすることは,ないでしょうに････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue8Eirin" Value="そう？,クモってかわいいじゃない？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue9Alice" Value="ええー････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue1Eirin" Value="ファイニャーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue2Eirin" Value="ファイニャーは電脳コタツに,住み着いたネコ型の,ウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue3Shanghai" Value="ニャーって名前から,なんとなくネコだとは,思っていたけどね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue4Eirin" Value="ちなみにしっぽが二股に,なっているのは元々がネコマタ型,ウィルスだったかららしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue5Eirin" Value="まあ　製作者の意図した方向に,発展していかないのは結構,よくある話らしいけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue6Shanghai" Value="引っ掻いてくるネコの,ウィルスじゃなくてよかったわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue7Alice" Value="あれ　けっこう痛いもんね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue8Alice" Value="（でも火を吹かれるよりは,　マシだと思うけど）" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue1Eirin" Value="ケダマーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue2Eirin" Value="正式名称はケダママルイヌ,電脳世界の誕生からいる,歴史の長いウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue3Alice" Value="あれって犬だったんですか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue4Eirin" Value="そうよ　電脳世界で,生きてるうちに足が退化して,短くなったの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue5Eirin" Value="ひっくり返して毛の間を,かき分ければ小さな足が,見つかるはずよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue6Eirin" Value="威嚇の際に毛を硬質化させて,その衝撃を波にして,攻撃するの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue7Eirin" Value="上位種の衝撃波はそのパワーで,パネルを砂状に分解して,しまうようね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue8Shanghai" Value="なるほどなるほど" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue9Eirin" Value="もともとペットとして作られた,電脳犬が野生化したものだと,言われているのよね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue10Eirin" Value="あなたたちも　ペットを,野に放しちゃダメだからね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue11Alice" Value="はーい" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue1Eirin" Value="ポイゾーリンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue2Eirin" Value="ポイゾーリンはユリ科の,電脳植物でもともとは,観賞用の花だったのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue3Eirin" Value="それが自己進化で毒を持ち,吐いてくるようになるんだから,生命の神秘は偉大よね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue4Shanghai" Value="あれだけ大きいと,花束にするのも大変そうね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue5Eirin" Value="ちなみに絶滅した,ポイゾーリンの亜種は,即死の毒を吐いてたらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue6Eirin" Value="どんなに体力が多くても,触れた瞬間にデリートという,とても危険な毒だったとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue7Shanghai" Value="うへぇ････,その時代に生まれてなくて,よかったわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue8Eirin" Value="けれどその毒を求めた,密漁ナビたちによって乱獲されて,絶滅してしまったんですって" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue9Alice" Value="自分の身を守るための毒で,絶滅するなんてなんだか,皮肉っぽいですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue1Eirin" Value="スクリューンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue2Eirin" Value="スクリューンは電脳扇風機が,強化されていった結果生まれた,機械系ウィルスの一種よ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue3Eirin" Value="プロペラを氷にしたらもっと涼しく,なるんじゃないかって発想で,今の姿になったらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue4Shanghai" Value="どうして普通のプロペラで,満足できなかったのかしら" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue5Eirin" Value="ちなみに根本の結晶状の,物体がバグのかけらを食べて,成長する部分みたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue6Eirin" Value="餌を与えれば動き続ける,扇風機にしたかったのかしら？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue7Alice" Value="扇風機ひとつにそこまで,熱意をもたなくても,いいんじゃないかな････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue1Eirin" Value="シェルルンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue2Eirin" Value="シェルルンは見た目通り,ヤドカリのウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue3Shanghai" Value="てっきりゲルパークの中身が,カラを変えたものだと,思ってたわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue4Eirin" Value="ウィルス七不思議のひとつに,シェルルンの足の謎,というのがあってね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue5Eirin" Value="１メートルほどの高さを,ジャンプできる足でなぜ,歩かないのかは議論の的よ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue6Eirin" Value="あのカラ　着地の衝撃で,落石が起こるほどの,超重量なのに････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue7Alice" Value="（使うあてのなさそうな,　小さなハサミについては,　議論されてないのね）" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue1Eirin" Value="ブラクーラーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue2Eirin" Value="ブラクーラーは外見こそ,空調だけど　名前の語源は,ブラクラから来てるのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue3Alice" Value="ブラクラ？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue4Eirin" Value="ブラウザクラッシャー,ホームページ閲覧ソフトを壊す,不正なプログラムのことよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue5Eirin" Value="インターネット黎明期には,結構な数があったんだけどすぐに,対策されて無くなったとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue6Shanghai" Value="ある意味　ウィルスの源流とも,言えるかもしれないわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue1Eirin" Value="プチオニを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue2Eirin" Value="そのウィルスはとある鬼型の,ナビの戦闘データが独立して,ウィルス化したものらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue3Shanghai" Value="えらく迷惑な話ね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue4Eirin" Value="ちなみに元となったナビが,大の酒好きらしくて,電脳酒に集まってくるわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue5Eirin" Value="････といっても,あなたは未成年だからお酒は,手に入れられないでしょうけど" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue6Shanghai" Value="あら　あたしは実年齢,２０歳だからちゃんと,お酒飲めるわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue7Alice" Value="私が未成年だから,ダメだと思うんだけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue1Eirin" Value="イビルアイを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue2Eirin" Value="イビルアイはとある電脳,防衛組織が作った戦車型の,迎撃プログラムなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue3Shanghai" Value="あの見た目で戦車型を,名乗るとはなかなか,度胸があるわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue4Eirin" Value="フラワータンクの元の戦車も,同じ組織が作ったものなんだけど,外見がまるで違うのよね････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue5Eirin" Value="いわゆる「キモカワイイ」を,狙った女性向けの戦車なのかも" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue6Alice" Value="多分違うと思います････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue1Eirin" Value="ビビティバットを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue2Eirin" Value="ビビティバットはコウモリ型,ウィルスなんだけど大きい目玉が,不気味なのよね････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue3Eirin" Value="あの目玉には重力制御の,力があるらしいからもともと,羽と目は別だった説があるわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue4Shanghai" Value="羽のウィルスと目玉のウィルスが,合わさってひとつになったと,いうことかしら" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue5Eirin" Value="ちなみにあの小さな足のような,機関ももともと別の,ウィルスだった説があるわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue6Alice" Value="足一本のウィルスなのか,足二本のウィルスなのか,気になるところですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue7Shanghai" Value="････そこ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue1Eirin" Value="ジャンクズを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue2Eirin" Value="ジャンクズは電脳世界の,ジャンクデータを身にまとった,ウィルスの姿なのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue3Shanghai" Value="ゴミはちゃんと分別して,捨てないとね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue4Eirin" Value="でもジャンクデータって,あなた達も知らずに,お世話になってるのよ？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue5Eirin" Value="ミステリーデータから,手に入るお金があるじゃない？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue6Alice" Value="よくお小遣いの足しにしてます" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue7Eirin" Value="あれはジャンクデータの中の,希少データを自動的に政府が,買い取ってるお金なのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue8Shanghai" Value="じゃあお金が入ったと,思っているミステリーデータって,ジャンクデータが入ってるのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue9Eirin" Value="そういうこと,ひとつ勉強になったでしょう？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue1Eirin" Value="イカリィを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue2Eirin" Value="イカリィは船舶の航行を,制御する錨（いかり）プログラムに,取り付いたウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue3Eirin" Value="それが繁殖して船以外の,電脳世界にも出現するように,なったのよね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue4Alice" Value="ということはあのアンカーは,ウィルスではないんですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue5Shanghai" Value="スルメにするときは,イカリの部分を外してから,調理すること････と" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue6Eirin" Value="････食べる気なの？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue7Shanghai" Value="ゲテモノはツマミに,もってこいって言うじゃない？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue8Alice" Value="私　子供だからわからないわよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue1Eirin" Value="ゲコハッツを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue2Eirin" Value="ゲコハッツは蛙型と思いきや,実は帽子型ウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue3Shanghai" Value="オタマジャクシを吐くのに？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue4Eirin" Value="ゲコハッツを作ったハッカーが,帽子の形がカエルに似てるから,カエルっぽくしたんだとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue5Alice" Value="帽子が先かカエルが先か････,みたいな話ですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue6Shanghai" Value="なんにせよあのヌメヌメした,帽子はかぶりたくないわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue7Alice" Value="スタイルによっては似たようなの,かぶるくせに････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue1Eirin" Value="ザリーニアを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue2Eirin" Value="ザリーニアの攻撃といえば,放物線状の泡攻撃よね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue3Shanghai" Value="地味にすれ違うように,移動すれば正面から,かわせるあれね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue4Eirin" Value="なぜ泡かというとハサミの部分が,昔にいたカニ型ウィルスの,なごりみたいなものなの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue5Eirin" Value="バージョンアップの過程で,より威圧的なザリガニの,姿になったと言われているわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue6Alice" Value="カニとザリガニ････,どっちもあまり怖くない,気がしますけど" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue7Eirin" Value="まあそこは････,個人の感性じゃない？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue1Eirin" Value="バリザードを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue2Eirin" Value="バリザードは首の周りに,バリアの断片を巻いた,エリマキトカゲ型ウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue3Eirin" Value="もともとはプロテクトプログラム,だったのがトカゲ型ウィルスに,取り込まれて生まれたらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue4Shanghai" Value="直接攻撃はしてこないけど,いると地味に面倒な,ウィルスよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue5Eirin" Value="逆に言えば単体だと,何もしなければ無害では,あるけれどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue6Eirin" Value="自ら攻撃ができないから他の,ウィルスと行動をともにして････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue7Eirin" Value="そのウィルスが手に入れたエサを,分けてもらって生きているんだとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue8Alice" Value="へぇ〜" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue9Eirin" Value="現実だとコバンザメっていう,生き物が似たような生態を,しているわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue10Eirin" Value="頭の吸盤で大型魚に張り付き,おこぼれをもらう関係なんか,まさにそっくり！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue11Eirin" Value="でもコバンザメはくっついた,大型魚に食べられることも,あるみたい" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue12Shanghai" Value="つく親分はよく選びなさいって,いう教訓に使えそうね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue13Alice" Value="シャンハイが言うと,冗談に聞こえないわよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue1Eirin" Value="ムシャを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue2Eirin" Value="ムシャは見た目通り,日本の鎧武者がモデルの,ウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue3Shanghai" Value="････その割にはちょっと,頭身が低すぎるような,気もするけど" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue4Eirin" Value="まあ正確には鎧の兜が,刀を持った姿なんだけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue5Eirin" Value="手に持つ刀は属性を纏う,特別な素材でできた武器で,切れ味と威力はお墨付きよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue6Eirin" Value="どこかにいる無属性のムシャは,まさに斬鉄剣とも言える,性能の刀を持っているらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue7Shanghai" Value="あたしはとにかく,あの兜の下を見てみたいわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue8Eirin" Value="世の中には知らないほうが,良いことっていうのもあるのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue1Eirin" Value="ソードッグを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue2Eirin" Value="ソードッグは白狼天狗という,妖怪をモチーフにした,ウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue3Alice" Value="天狗って羽が生えてて,鼻が長いイメージですけど" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue4Eirin" Value="それはカラス天狗の方ね,天狗にもいろいろと,種類があるのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue5Eirin" Value="白狼天狗は地位が低く,人間の役に立って生活資金を,稼いでいたらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue6Shanghai" Value="妖怪の割にいやに,人間臭いエピソードね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue7Eirin" Value="それはそうと　ソードッグは,狼寄りの生態をしていて,基本は群れで行動するわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue8Eirin" Value="牙の部分に生えている刀で,獲物を切り裂くことで,狩りをする生き物なの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue9Shanghai" Value="骨でも投げたら,懐いてこないかしら" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue10Alice" Value="それは狼じゃなくて,犬だと思うけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue1Eirin" Value="ランスターを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue2Eirin" Value="ランスターは西洋鎧を,モチーフにした騎士型ウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue3Shanghai" Value="たまに出てくる縦一列に,並んでいるランスターは,結構手強いわよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue4Eirin" Value="ああいった戦法は古代ローマの,レギオン隊からヒントを得て,使われているみたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue5Eirin" Value="盾を持った重装兵の列が,壁のように迫る姿は敵に恐怖を,植え付けたとか！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue6Eirin" Value="エリアバッシュを繰り返しながら,迫るランスターはまさにその,恐怖の再現と言ったところね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue7Alice" Value="戦法に歴史あり,といったところですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue8Eirin" Value="人類は未だ集団で囲んで叩く,以上の戦法を発見していない,とも言われているけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue1Eirin" Value="ドリッパーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue2Eirin" Value="ドリッパーは日本の川に住む,妖怪の河童をモチーフとした,ウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue3Alice" Value="キュウリが好きな妖怪で,頭の皿が乾くと苦しむんですっけ" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue4Shanghai" Value="それがなんでドリルが,頭に生えているウィルスに,なったのかは謎ね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue5Eirin" Value="一説には河童の中には,機械技術に長けた者もいたとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue6Eirin" Value="そのウワサを元にして,ドリルと河童をあわせたのかも,しれないわね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue1Eirin" Value="フレイアを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue2Eirin" Value="フレイアは日本神話に出てくる,三本の足を持つヤタガラス,をモデルにしたウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue3Eirin" Value="ヤタガラスは太陽の化身とも,言われていて　それが攻撃の,由来になったみたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue4Shanghai" Value="ウィルスは三本どころか,一本も足がないように,見えるけどね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue5Eirin" Value="あの砲身の中に三本,あるのかもしれないわよ？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue6Eirin" Value="あの砲身は結構重くて,普段は砲身を床において,じっとしていることが多いわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue7Alice" Value="戦闘中って実は,すごい重労働をしているのかも,しれませんね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue1Eirin" Value="ブロンザーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue2Eirin" Value="ブロンザーは電脳金属を,好んで食べるウィルスで,体内に溶鉱炉を有しているわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue3Eirin" Value="口から吐くナパームは体内の,不要な金属で炉の溶鉄を,包んで排出したものみたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue4Shanghai" Value="ってことはあのナパーム,（自主規制）とか（禁止用語）,みたいなものだっていうの！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue5Eirin" Value="まあウィルスも生き物である以上,排泄行為は必要でしょう" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue6Eirin" Value="上位種のミスリールは架空の,金属であるミスリル銀を,由来としているみたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue7Eirin" Value="架空の金属も存在する,電脳世界ってある意味では,ファンタジーの世界なのかもね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue1Eirin" Value="フゥジーンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue2Eirin" Value="フゥジーンは妖怪の天狗が使う,ウチワをモチーフとした,ウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue3Eirin" Value="天狗の持つウチワは,ヤツデという植物の葉とも,言われているから" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue4Eirin" Value="ある意味ではヤツデ型の,ウィルスと言っても,間違いはないかもしれないわね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue5Alice" Value="天狗ってあの鼻の長い？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue6Eirin" Value="そうね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue7Eirin" Value="ちなみに名前の由来である,風神と雷神は有名な屏風に,描かれているものみたい" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue8Eirin" Value="それと炎属性のエンマーは,地獄の閻魔大王から,とってるらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue9Shanghai" Value="ウィルスって結構,伝説とか妖怪由来の,ものが多いのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue10Eirin" Value="その謎に迫ったらウィルス学が,一歩先に行けそうね！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue1Eirin" Value="ボウズを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue2Eirin" Value="ボウズの由来は花札にある,黒い山の絵をモチーフとした,ウィルスらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue3Eirin" Value="あの黒い山はススキの山だけど,絵が黒い坊主頭に見えるから,ボウズとも呼ばれるのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue4Shanghai" Value="花札なんてかなりニッチな,出展が来たわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue5Alice" Value="花札なんて猪鹿蝶くらいしか,知らないわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue6Eirin" Value="まああくまでも花札由来は,草属性のボウズだけで" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue7Eirin" Value="水属性は海の怪物　海坊主,からとってるみたいだから,深く考える必要はないわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue8Eirin" Value="ボウズは地面から栄養を吸って,生きる植物みたいなウィルスで,動く機能は持っていないの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue9Eirin" Value="あの竜巻で周囲の地形を,自分の住みやすいものに,変える性質があるとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue10Shanghai" Value="変える性質があるとか,ある意味では人間に近い,ウィルスなのかもしれないわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue11Alice" Value="自然環境を住みやすいように,変えるってところが？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue12Shanghai" Value="ふっ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue13Alice" Value="（深そうなこと言って,　ごまかしただけみたい）" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue1Eirin" Value="リベレーダーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue2Eirin" Value="リベレーダーはトンボ型の,ウィルスで　目は優れた,レーダーになっているわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue3Alice" Value="名前のレーダーは,そのレーダーとしてリベの方は,何なんですか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue4Eirin" Value="リベじゃなくてリベレ,ドイツ語でトンボを指す言葉よ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue5Eirin" Value="トンボは現実だとヤゴという,幼虫形態を経るけれど,ウィルスの方は違うみたい" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue6Eirin" Value="ポイゾーリンなどの植物系,ウィルスに植え付けた卵から,直接成体が生まれるみたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue7Shanghai" Value="モデルとなった生き物と,必ずしも同じ生態には,ならないってわけね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue1Eirin" Value="ジュライゴンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue2Eirin" Value="ジュライゴンはドラゴンというより,ワイバーンに近い火竜型の,ウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue3Eirin" Value="ワイバーンとドラゴンの違いは,手に当たる部分が独立なのか,羽と一体化しているかね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue4Eirin" Value="口から吐く火炎ブレスは,他のウィルスよりも広範囲かつ,高火力なので要注意よ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue5Eirin" Value="ブレスの原理としては体内にある,硫黄化合物が電脳的な変異を,起こした反応によって変化して" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue6Eirin" Value="発火点が異常に低下した,電脳硫化気体が外気に触れる,ことで発火するんですって" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue7Eirin" Value="そもそも電脳的な変異とは,電脳世界特有の揺らぎと,物理法則の差異が合わさって" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue8Alice" Value="←（話についていけてない）" Face="Alice" Mono="True" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue9Shanghai" Value="←（途中から聞いていない）" Face="Shanghai" Mono="True" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue1Eirin" Value="パネモールを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue2Eirin" Value="パネモールは見た目通り,モグラ型のウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue3Alice" Value="普段は暗い土の中だから,サングラスをかけているんですか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue4Eirin" Value="暗い土の中で過ごす生き物は,そもそも光学的な視覚を,持っていないことが多いのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue5Eirin" Value="だから明るいところに行っても,眩しいとか感じたりはしないと,言われているわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue6Eirin" Value="まあ　パネモールはウィルスだから,普通に眩しいと感じているかも,しれないけれど" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue7Shanghai" Value="結構適当なのね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue1Eirin" Value="オノホークを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue2Eirin" Value="オノホークは鷹のホークと,斧のトマホークを混ぜた,鷹斧型ウィルスといったところね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue3Eirin" Value="翼が鋭利な刃になっていて,回転しながら突進することで,いろんなものを切断するわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue4Shanghai" Value="チップだと斧の部分しか,残ってないけどね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue5Eirin" Value="それはバトルチップでは,生物的な性質が真っ先に,取り除かれるのが理由ね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue6Eirin" Value="攻撃的な性質だけを,データとして取得したのが,バトルチップだからね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue7Alice" Value="勉強になります" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue1Eirin" Value="マンティザーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue2Eirin" Value="マンティザーはカマキリ型････,と言いたいけれど実は宇宙生物,がモチーフとされているらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue3Alice" Value="宇宙生物？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue4Eirin" Value="宇宙で生きているという,地球外生物のことね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue5Eirin" Value="まだ外宇宙への探索は,できていないけど　ああいった,危険な生物がいるらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue6Shanghai" Value="ってことはある意味で,想像やイメージをベースにした,ウィルスなのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue7Eirin" Value="逆に言えばモデルのない,電脳世界由来の生物とも,言えるかもしれないわね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue8Eirin" Value="生態としては汚染された水源に,生息して大きなカマで獲物を,切り刻んで食べるみたいよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue9Alice" Value="（現実にいなくてよかった････）" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue1Eirin" Value="ポンポコを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue2Eirin" Value="ポンポコは化け狸型ウィルスで,お地蔵様に変化するのが,特徴と言えるわね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue3Alice" Value="どうしてお地蔵さん？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue4Eirin" Value="さあ････？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue5Eirin" Value="電脳世界ではお地蔵様に,危害を加えるとどこからか,雷が落ちてくる性質があって" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue6Eirin" Value="それを利用して身を守っている,と言われているけど,本当か定かではないようね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue7Shanghai" Value="電脳世界の謎,ここに極まれりってことね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue8Shanghai" Value="（普通に罰当たりだからじゃ,　ないのかしら････？）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue1Eirin" Value="マスドライガーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue2Eirin" Value="マスドライガーのライガーとは,父がライオンで母がトラの,雑種動物のことを指すのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue3Shanghai" Value="あまり殴り合いたくない,出生をしてるわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue4Eirin" Value="まあそのライガーは迎撃用,固定砲台レールガンの,足代わりなんだけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue5Eirin" Value="攻撃トリガーがライガー部分の,ダメージだから生身の部分が,むき出しなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue6Alice" Value="なんだかかわいそう････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue1Eirin" Value="コーヨーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue2Eirin" Value="コーヨーは秋をモチーフにした,ウィルスなんだけど本体の,モデルが何かわかる？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue3Shanghai" Value="なんか目のついた黒い物体,くらいの認識しかないわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue4Eirin" Value="あれ　実は栗なのよ,落ち葉に包まれたクリ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue5Alice" Value="そのまま火をつけたら,いい感じに焼けそうですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue6Shanghai" Value="冬はコーヨーに電脳イモを,突っ込んで火をつけるのが,たまらないのよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue7Eirin" Value="良い子は真似しちゃダメよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue1Eirin" Value="リーバーを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue2Eirin" Value="リーバーはアリジゴク････,いわゆるウスバカゲロウの幼虫を,モチーフにしたウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue3Shanghai" Value="ということはいつか,成虫になるのかしら？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue4Eirin" Value="モチーフにされただけで,成虫になるシステムは,入ってないみたい" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue5Alice" Value="なんだか物悲しいですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue6Eirin" Value="まあ自然界でもミノムシのメス,みたいに幼虫とあまりかわらない,成虫になる虫もいるから" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue7Eirin" Value="ちなみにこういった,姿の変わらない虫の成長を,不完全変態って言うのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue8Shanghai" Value="完全でも不完全でも変態には,出会いたくないわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue9Alice" Value="それ変態違いだと思うけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue1Eirin" Value="ガンバッタを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue2Eirin" Value="ガンバッタの正式名称は,ショットガンホッパーって,いうのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue3Eirin" Value="昔は派生種として,カノンホッパーとかも,いたみたいね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue4Shanghai" Value="ぴょんぴょん飛んで,攻撃が当たらないから,あたしあまり好きじゃないわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue5Eirin" Value="ちなみに田舎の方の,電脳世界ではガンバッタの,つくだ煮が作られるとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue6Alice" Value="うへぇ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue7Shanghai" Value="（おいしそうと思ってしまった････）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue1Eirin" Value="ダンビートルを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue2Eirin" Value="ダンビートルはオーラや,バリアを活用してくる珍しい,タイプのウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue3Shanghai" Value="剣の形をした角が印象的だけど,あのオーラは固くて,厄介なのよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue4Eirin" Value="オーラをまとったウィルスは,ダンビートルだけだけど････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue5Eirin" Value="世界のどこかには元祖の,オーラウィルスが存在,するらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue6Alice" Value="あまり戦いたくない相手ですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue1Eirin" Value="ライジューンを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue2Eirin" Value="ライジューンは古代の,仙人伝説に出てくる雷獣を,モチーフにしたウィルスよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue3Eirin" Value="雷獣は雷だけでなく毒も,放ってくる妖獣で　その毒に,あてられると廃人になったとか" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue4Eirin" Value="けれど　トウモロコシを芯ごと,飲み込むと毒が消える････,っていう伝説らしいわね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue5Shanghai" Value="なんだか物騒な伝説ね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue6Eirin" Value="ちなみに最近の研究で雷獣は,ハクビシンという動物がモデル,じゃないかといわれているわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue7Alice" Value="そう聞くとなんだか一気に,凄みが薄れてきますね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue8Eirin" Value="幽霊の正体見たり枯れ尾花,ってところね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue1Eirin" Value="ホルネークを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue2Eirin" Value="ホルネークは毒ガスで相手を,撃退するセキュリティプログラムが,ウィルス化した存在なのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue3Shanghai" Value="その割にはヘビっぽさが,前面に出てる気がするけど" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue4Eirin" Value="一応　首元に毒ガスの,調節弁が名残として,残っているけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue5Alice" Value="じゃあそれを閉めれば････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue6Eirin" Value="あくまでもなごりだから,触っても何も起きないわよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue7Shanghai" Value="そっかー････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue1Eirin" Value="ウージョウを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue2Eirin" Value="ウージョウは西遊記の悟空を,モチーフにした猿型の,ウィルスなのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue3Shanghai" Value="そういえばウージョウって,なんとなく猿感あるけど,どういう語源なのかしら？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue4Eirin" Value="ウーは中国語で５を表す言葉,ジョウは空を上と変えて,その読みをとったらしいわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue5Alice" Value="２つ合わせて五上････,ウージョウってことですね" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue6Shanghai" Value="てっきりウッキーのウから,取ったんだと思ったわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue7Alice" Value="（その説だとジョウは,　どこから来たんだろう）" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue1Eirin" Value="バケバケを捕まえたのね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue2Eirin" Value="バケバケはオバケ型ウィルスで,姿を消したりナビの顔を,なめたりする攻撃をしてくるわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue3Shanghai" Value="なめられると顔がしびれて,目が開かなくなっちゃうのよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue4Eirin" Value="ちなみにあくまでもオバケ型,であって電脳世界の亡霊,ってわけじゃないのよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue5Alice" Value="ホッ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue6Eirin" Value="でも　それとは別に亡霊ナビとか,幽霊のようなデータとか,存在するんだけどね" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue7Alice" Value="････････" Face="Alice" Mono="True" />
+</data>

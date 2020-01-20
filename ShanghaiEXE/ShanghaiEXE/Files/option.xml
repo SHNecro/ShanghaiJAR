@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ControllerMapping>
+    <Up>-104</Up>
+    <Right>-108</Right>
+    <Down>-105</Down>
+    <Left>-107</Left>
+    <A>0</A>
+    <B>1</B>
+    <L>4</L>
+    <R>5</R>
+    <Start>7</Start>
+    <Select>6</Select>
+    <Turbo>-4</Turbo>
+  </ControllerMapping>
+  <KeyboardMapping>
+    <Up>132</Up>
+    <Right>118</Right>
+    <Down>50</Down>
+    <Left>76</Left>
+    <A>35</A>
+    <B>33</B>
+    <L>10</L>
+    <R>28</R>
+    <Start>117</Start>
+    <Select>126</Select>
+    <Turbo>78</Turbo>
+  </KeyboardMapping>
+  <ScaleFactor>2</ScaleFactor>
+  <Fullscreen>false</Fullscreen>
+  <VolumeBGM>10</VolumeBGM>
+  <VolumeSE>10</VolumeSE>
+  <PausedWhenInactive>true</PausedWhenInactive>
+  <Language>en-US</Language>
+  <ShowDialogueTester>false</ShowDialogueTester>
+  <AdjustBustingLevel>false</AdjustBustingLevel>
+  <RenderEngine>OpenGL</RenderEngine>
+  <FPS>144</FPS>
+  <AllowTurboSlowdown>false</AllowTurboSlowdown>
+  <TurboUPS>300</TurboUPS>
+  <DisableBGMOverride>false</DisableBGMOverride>
+  <FixEngrish>true</FixEngrish>
+  <FPS30>false</FPS30>
+</Config>

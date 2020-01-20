@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity3Name" Value="幻想大学３Ｆ" />
+  <Dialogue Key="Map.GenUniversity3ElevatorStage1Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3ElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity3ElevatorStage1Dialogue2Options" Value="１階,２階,乗らない" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue1FaceNone" Value="休憩用の椅子だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue2FaceNone" Value="妙に硬くて座りごこちが悪いのは,長時間座られるのを,防ぐためなのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue3FaceNone" Value="････椅子の下になにかが,落ちている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair2Stage1Dialogue1FaceNone" Value="休憩用の椅子だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair2Stage1Dialogue2FaceNone" Value="妙に硬くて座りごこちが悪いのは,長時間座られるのを,防ぐためなのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="このフロアは関係者しか,入れないのよ" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter3OlderSisterStage1Dialogue2FaceFemaleAdult" Value="でも　たまに小さな子供が,関係者と一緒に入ってきて,しまうことがあるのよね" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="実験の結果が出るまで,時間が掛かるから,ひと休憩してるの" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Request11WhiteCoatStage1Dialogue1FaceScientist" Value="スーツ姿の男の人？" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Request11WhiteCoatStage1Dialogue2FaceScientist" Value="さっきまでいたけど,幻想町がどうとかいって,どこかに行っちゃったよ" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3PostGameBystander1Dialogue1" Value="前に　そこのイスの下に,誰かが落とし物をしていたけど,もう拾われちゃったかな？" Face="Scientist" Mono="False" />
+</data>

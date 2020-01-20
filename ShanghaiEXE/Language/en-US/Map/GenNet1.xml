@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　ゲンソウエリア1 -->
+  <Text Key="Map.GenNet1Name" Value="Genso Area 1" />
+  <!-- この四角い物体はセキュリティーキューブって言うんだよ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="That square object is called a,Pass-Cube." Face="NaviGreenRobot" Mono="False" />
+  <!-- これで　知らないナビが勝手に入ってこれないようにホームページを守るんだ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="You can use it to protect your,homepage from unauthorized,Navis." Face="NaviGreenRobot" Mono="False" />
+  <!-- 対応するＰ（パス）コードを持っていれば通れるようになるんだよ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="You’ll be able to get past it,once you get its Pass-Code." Face="NaviGreenRobot" Mono="False" />
+  <!-- ウィルスを倒すとときどきそのウィルスのバトルチップが入手できるんだ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="When you bust a virus，,you’ll sometimes get that,virus’s chip data." Face="NaviOrangeMale" Mono="False" />
+  <!-- 実はチップが手に入る確率はバスティングレベルが高いほど上がっていくのさ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi2Stage1Dialogue2FaceNaviOrangeMale" Value="In fact，the higher your,Busting Rank，the more,likely you’ll get a chip." Face="NaviOrangeMale" Mono="False" />
+  <!-- 欲しいチップがあったらバスティングレベルを気にするといいんじゃないかな -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi2Stage1Dialogue3FaceNaviOrangeMale" Value="If there’s a chip you,really want，keep your,Busting Rank in mind." Face="NaviOrangeMale" Mono="False" />
+  <!-- 電脳世界にたまに四角い物体がふわふわ浮いてるのを見るじゃない？ -->
+  <Dialogue Key="Map.GenNet1ChapterNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="You sometimes run into,spinning floating cubes，,don’t you?" Face="NaviPinkFemale" Mono="False" />
+  <!-- あれはミステリーデータと言って中にチップデータやお金なんかが入っているのよ -->
+  <Dialogue Key="Map.GenNet1ChapterNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="That’s mystery data.,It holds things like money,and battle chip data." Face="NaviPinkFemale" Mono="False" />
+  <!-- これはもう見つけ次第バンバン調べて行くっきゃないわね！ -->
+  <Dialogue Key="Map.GenNet1ChapterNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="When you come across one，,make sure to check what’s,inside!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ハロハロ〜！インターネットヘ　ヨウコソ！ -->
+  <Dialogue Key="Map.GenNet1Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="HELLO HELLO〜!,WELCOME TO THE,INTERNET!" Face="Sprite" Mono="False" />
+  <!-- ミドリイロノ　ミチハコノ　ゲンソウエリアノメインストリートデス！ -->
+  <Dialogue Key="Map.GenNet1Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="THE GREEN ROAD IS,GENSO AREA’S MAIN,STREET!" Face="Sprite" Mono="False" />
+  <!-- コレニソッテ　アルケバマヨウコト　ナシナシ　デス！ -->
+  <Dialogue Key="Map.GenNet1Chapter1Sprite1Stage1Dialogue3FaceSprite" Value="YOU WON’T GET LOST IF,YOU FOLLOW THE MAIN,STREET!" Face="Sprite" Mono="False" />
+  <!-- 敵が攻撃する瞬間に攻撃を当てるとカウンターが取れるのは知ってるよね？ -->
+  <Dialogue Key="Map.GenNet1Chapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="You know how you get a,counter when you hit an,attacking enemy，right?" Face="NaviGreenRobot" Mono="False" />
+  <!-- カウンターでとどめを刺すとその敵からバグのかけらとかが手に入るんだよ -->
+  <Dialogue Key="Map.GenNet1Chapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="When you delete an enemy,with a counterhit，you’ll get,bug frags." Face="NaviGreenRobot" Mono="False" />
+  <!-- 何のかけらが手に入るかは敵の属性で変わるんだって -->
+  <Dialogue Key="Map.GenNet1Chapter2MaleNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="What kind of frags you get,depends on the enemy’s,element." Face="NaviGreenRobot" Mono="False" />
+  <!-- サブチップを売ってる店っていっぱいあるわよね -->
+  <Dialogue Key="Map.GenNet1Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="There are lots of Sub Chip,shops. Even though each one,carries different Sub Chips，" Face="NaviPinkFemale" Mono="False" />
+  <!-- 店によって品揃えが違うけど同じ商品でも　実は値段が違うことがあるんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="the price of a specific Sub Chip,might differ between shops!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 高い商品が安く売られている店を見つけたらお金の節約ができるかもしれないわね！ -->
+  <Dialogue Key="Map.GenNet1Chapter2GirlNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="You can save a lot if you find,shops that sell pricey chips for,less!" Face="NaviPinkFemale" Mono="False" />
+  <!-- このゲンソウエリアは幻想町のインターネットエリアなんだよ！ -->
+  <Dialogue Key="Map.GenNet1Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="Genso Area is Genso Town’s,Internet Area!" Face="NaviChild" Mono="False" />
+  <!-- 中央街や幻想大学のインターネットエリアはシティエリアって言うんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="And City Area is Central City,and Genso University’s,Internet Area!" Face="NaviChild" Mono="False" />
+  <!-- 俺は初めて手に入れたチップは面倒くさくても一度使ってみて効果を確かめてるんだ -->
+  <Dialogue Key="Map.GenNet1Chapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="When you get a new chip，,read its effect and try it out." Face="NaviOrangeMale" Mono="False" />
+  <!-- 一見　弱そうと思ったチップが実は強かった！　ってことが結構あるからね -->
+  <Dialogue Key="Map.GenNet1Chapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="A lot of chips that looked weak,to me at first were actually,pretty strong!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 使ったナビのココロをむしばむダークチップなんてものがあるらしいな -->
+  <Dialogue Key="Map.GenNet1Chapter3YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="I’ve heard that Dark Chips eat,away at a Navi’s heart." Face="NaviOrangeMale" Mono="False" />
+  <!-- でも　もともと悪いココロを持っているナビは　何も影響がないだとか････ -->
+  <Dialogue Key="Map.GenNet1Chapter3YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="But if the Navi’s heart is,already dark，would it have,any effect....?" Face="NaviOrangeMale" Mono="False" />
+  <!-- エイエンエリアって悪名高いウラインターネットに通じてるってウワサよ -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="There’s a rumor that you can,reach the notorious Undernet,from Eien Area." Face="NaviPinkFemale" Mono="False" />
+  <!-- だから前にスクエアで暴れた不良たちもエイエンエリアから来たのかしらね -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="I wonder if the guys causing,a scene earlier came from,Eien Area." Face="NaviPinkFemale" Mono="False" />
+  <!-- ネットエージェントって大人ばっかりなんだけどね中学生の子もいるんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi2Stage1Dialogue1FaceNaviChild" Value="Almost all NetAgents are,adults，but one of them is,a middle-schooler!" Face="NaviChild" Mono="False" />
+  <!-- えーっと　確か名前は････れ････れい････なんだっけ？ -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi2Stage1Dialogue2FaceNaviChild" Value="Um....Her name was....,Re....Rei....,What was it again?" Face="NaviChild" Mono="False" />
+  <!-- 逃げまわってたＲＯＭのナビがインターネットからいなくなったんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviChild" Value="That fugitive ROM Navi,disappeared off the face,of the net!" Face="NaviChild" Mono="False" />
+  <!-- これで安心してインターネットを歩けるね！ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1Stage1Dialogue2FaceNaviChild" Value="Now we can roam the net in,peace!" Face="NaviChild" Mono="False" />
+  <!-- 最近ボーダーコンツェルンの活躍の話をよく聞くなあ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1DupeStage1Dialogue1FaceNaviGreenRobot" Value="I’ve heard a lot about,Border Concern and what,it’s been up to." Face="NaviGreenRobot" Mono="False" />
+  <!-- 大企業ってやっぱりすごいんだねえ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1DupeStage1Dialogue2FaceNaviGreenRobot" Value="Large companies are pretty,impressive，huh?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 最近は事件もないし平和だね〜 -->
+  <Dialogue Key="Map.GenNet1Chapter7GirlNavi1Stage1Dialogue1FaceNaviChild" Value="It’s been peaceful lately....,Like it would be unthinkable,that anything could happen." Face="NaviChild" Mono="False" />
+  <!-- 魔理のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1MariCubeStage1Dialogue1FaceNone" Value="It’s Mari’s P-Cube." Face="None" Mono="False" />
+  <!-- 魔理のＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.GenNet1MariCubeStage1Dialogue2FaceNone" Value="It can be unlocked with,Mari’s P-Code." Face="None" Mono="False" />
+  <!-- 魔理のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1MariCubeStage3Dialogue1FaceNone" Value="It’s Mari’s P-Cube." Face="None" Mono="False" />
+  <!-- 魔理のＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.GenNet1MariCubeStage3Dialogue2FaceNone" Value="Mari’s P-Code unlocked,the P-Cube!" Face="None" Mono="False" />
+  <!-- 里香のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage1Dialogue1FaceNone" Value="It’s Rika’s P-Cube." Face="None" Mono="False" />
+  <!-- 里香のＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage1Dialogue2FaceNone" Value="It can be unlocked with,Rika’s P-Code." Face="None" Mono="False" />
+  <!-- 里香のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage3Dialogue1FaceNone" Value="It’s Rika’s P-Cube." Face="None" Mono="False" />
+  <!-- 里香のＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage3Dialogue2FaceNone" Value="Rika’s P-Code unlocked,the P-Cube!" Face="None" Mono="False" />
+  <!-- アハハ！あんたも恐怖で震えるがいいさ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage1Dialogue1FaceNaviBlackRobe" Value="Ahahaha!,I’ll make you tremble in fear like,the rest of these fools!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNet1BlackRobe1Battle1Enemy1" Value="????" />
+  <!-- ････ふうゲンソウエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage3Dialogue1FaceShanghai" Value="....Looks like that’s everyone in,Genso Area." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue1FaceShanghai" Value="Alice，a phone call!,From Reisen!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue2FaceAlice" Value="Reisen! I’ve taken out the black,Navis in the Areas!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue3FaceReisen" Value="Confirmed. Your assistance is,appreciated." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue4FaceReisen" Value="Reports are coming in that they,emerged from the deepest,parts of the Undernet." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue5FaceReisen" Value="Sources in the Undernet claim,that they are not inhabitants，,but rather appeared suddenly." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue6FaceReisen" Value="It pains me to ask，but can you,investigate their origins?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="The Deep Undernet...." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="Are you alright，Shanghai?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="It’s nothing.,Just the nerve of those guys!" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue10FaceShanghai" Value="We’ll wipe them out!" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue11FaceReisen" Value="Our thanks." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue12FaceReisen" Value="If you want a reward，contact,the NetAgents after this is over." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue13FaceShanghai" Value="We’ll hunt these guys down in,no time flat!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue14FaceAlice" Value="....Will we be okay in the Deep,Undernet?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue15FaceShanghai" Value="What are you talking about?,We’re invincible wherever we,go!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue16FaceAlice" Value="....Yeah!,To the Deep Undernet!" Face="Alice" Mono="False" />
+  <!-- ンガァァァ！ジャマをするんじゃねえぞー！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage1Dialogue1FaceNaviBlackRobe" Value="Nghahaha!,You won’t get away!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNet1BlackRobe2Battle1Enemy1" Value="????" />
+  <!-- ････ふうゲンソウエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage3Dialogue1FaceShanghai" Value="....Looks like that’s everyone in,Genso Area." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue1FaceShanghai" Value="Alice，a phone call!,From Reisen!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue2FaceAlice" Value="Reisen! I’ve taken out the black,Navis in the Areas!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue3FaceReisen" Value="Confirmed. Your assistance is,appreciated." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue4FaceReisen" Value="Reports are coming in that they,emerged from the deepest,parts of the Undernet." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue5FaceReisen" Value="Sources in the Undernet claim,that they are not inhabitants，,but rather appeared suddenly." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue6FaceReisen" Value="It pains me to ask，but can you,investigate their origins?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue7FaceShanghai" Value="The Deep Undernet...." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue8FaceAlice" Value="Are you alright，Shanghai?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue9FaceShanghai" Value="It’s nothing.,Just the nerve of those guys!" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue10FaceShanghai" Value="We’ll wipe them out!" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue11FaceReisen" Value="Our thanks." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue12FaceReisen" Value="If you want a reward，contact,the NetAgents after this is over." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue13FaceShanghai" Value="We’ll hunt these guys down in,no time flat!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue14FaceAlice" Value="....Will we be okay in the Deep,Undernet?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue15FaceShanghai" Value="What are you talking about?,We’re invincible wherever we,go!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue16FaceAlice" Value="....Yeah!,To the Deep Undernet!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNet1PostGameBystander2Dialogue1" Value="It’s my dream to be like big sis,Shanghai!" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.GenNet1PostGameBystander1Dialogue1" Value="Hey there Shanghai.,Another peaceful day in this,Area， huh?" Face="NaviGreenRobot" Mono="False" />
+</data>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AlicesHP3Name" Value="ひかえ室" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down1Stage1Dialogue1FaceNaviPurplePunk" Value="わざわざこんな部屋まで,作ってもらってアレなんですが" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down1Stage1Dialogue2FaceNaviPurplePunk" Value="正直この部屋,持て余してますよね････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down2Stage1Dialogue1FaceNaviPurplePunk" Value="もっとなにか,この部屋の活用法を考えないと,もったいないですね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down3Stage1Dialogue1FaceNaviPurplePunk" Value="他の連中は今出払ってますよ,シャンハイさんが呼べば,駆けつけてくるでしょうけど" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down4Stage1Dialogue1FaceNaviPurplePunk" Value="ウラの連中はウィルスを,飼いならす技術を持っているとか" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down4Stage1Dialogue2FaceNaviPurplePunk" Value="ウィルスが飼えたら,楽しそうですよね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3VirusManagementMachineStage1Dialogue1FaceNone" Value="捕獲したウィルスの,管理プログラムだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Servant1Stage1Dialogue1FaceNaviPurplePunk" Value="ウィルスの世話なら,俺達におまかせを！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue1FaceHenchie" Value="姐さん　これがウィルスを,管理する機材です" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue2FaceHenchie" Value="ウィルスボールの中身を,預けて空にしないと,新しく捕まえられませんからね" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue3FaceHenchie" Value="ウィルスはたくさん預けられるので,どんどん捕まえていきましょう！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3TestSpriteStage1Dialogue1FaceSprite" Value="フラグオン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue1FaceSprite" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue2FaceSprite" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue3FaceSprite" Value="カベガミノ　リョウキンハ,０ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <Text Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue5FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue6FaceSprite" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant1Stage1Dialogue1FaceNaviPurplePunk" Value="おーよしよし,ピカピカに磨いてやるからな" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3LeikannonStage1Dialogue1FaceNone" Value="磨かれて嬉しいのか,砲の中をカチンカチンと,鳴らしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant2Stage1Dialogue1FaceNaviPurplePunk" Value="敵として出るとおっかないけれど,こうやって仲間になると,カワイイもんですね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3KedamaStage1Dialogue1FaceNone" Value="くつろいでいるみたいで,モコモコと毛を震わせている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant3Stage1Dialogue1FaceNaviPurplePunk" Value="よーしよしよし,いっぱい食べろよー" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3GanbattaStage1Dialogue1FaceNone" Value="動かないように見えるが,バグのかけらを食べているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant4Stage1Dialogue1FaceNaviPurplePunk" Value="こいつ　人懐っこくて,カワイイんですよね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3GelParkStage1Dialogue1FaceNone" Value="ハッケロの殻を持ち上げて,黒いプニプニした部分で,すりすりしてくる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant5Stage1Dialogue1FaceNaviPurplePunk" Value="こうやってウィルスと,触れ合うってのも新鮮ですね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BronzerStage1Dialogue1FaceNone" Value="その場で小刻みに,ダンスのような動きをしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant6Stage1Dialogue1FaceNaviPurplePunk" Value="こいつ　アゴのあたりを,指でさすると喜ぶんですよ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FlyanaStage1Dialogue1FaceNone" Value="時折ニャーっと鳴きながら,ゆっくりしているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant7Stage1Dialogue1FaceNaviPurplePunk" Value="なでようとしたら,ベロベロに舐められちゃったよ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FaintStage1Dialogue1FaceNone" Value="さわるとひんやりして,肌の表面はモチモチしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant8Stage1Dialogue1FaceNaviPurplePunk" Value="あ〜涼しい〜" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FujianStage1Dialogue1FaceNone" Value="頭の葉っぱのような部分を,ゆらゆらと揺らしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant9Stage1Dialogue1FaceNaviPurplePunk" Value="刃物の部分って,研いでやったほうがいいのかな？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3DanBeetleStage1Dialogue1FaceNone" Value="フリーズのかけらを,もしゃもしゃと食べているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant10Stage1Dialogue1FaceNaviPurplePunk" Value="じぃ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3VivyatButtStage1Dialogue1FaceNone" Value="大きな目でじっと向こうを,見つめている････" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant11Stage1Dialogue1FaceNaviPurplePunk" Value="笛吹いたら出てくるように,芸を仕込んでみようかな？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3HolneyekStage1Dialogue1FaceNone" Value="首元の安全弁を,嬉しそうにクルクル回している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant12Stage1Dialogue1FaceNaviPurplePunk" Value="腹が減ってるのかな？,うーんわからん" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ReverStage1Dialogue1FaceNone" Value="ズザアズザアと砂をならして,何かを伝えようとしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant13Stage1Dialogue1FaceNaviPurplePunk" Value="これは俺の酒だぞ！,････でもちょっとだけなら,あげてもいいかな？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PucciniStage1Dialogue1FaceNone" Value="酒瓶を物欲しそうに,じっと見つめている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant14Stage1Dialogue1FaceNaviPurplePunk" Value="ちょっと････,いらないけど受け取らなかったら,なんか悪いよなあ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3JunksStage1Dialogue1FaceNone" Value="ジャンクデータを,プレゼントしようとしているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CareOfServant15Stage1Dialogue1FaceNaviPurplePunk" Value="俺に忠誠を誓われても,困るんだけどなあ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3RansterStage1Dialogue1FaceNone" Value="ヤリをまっすぐに立てて,忠誠を誓っているように見える" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant16Stage1Dialogue1FaceNaviPurplePunk" Value="こいつに水あげても,大丈夫なのかな？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PoisolinStage1Dialogue1FaceNone" Value="クネクネと揺れている,ダンスを踊っているのかもしれない" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant17Stage1Dialogue1FaceNaviPurplePunk" Value="こいつ　どこ見てるか,わかんないんだよね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ReveilerStage1Dialogue1FaceNone" Value="目のような部分が,グリグリと動いているようにみえる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant18Stage1Dialogue1FaceNaviPurplePunk" Value="いいツヤしてんなーこいつ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ZaliniaStage1Dialogue1FaceNone" Value="口元でアワがボコボコと,音をたてている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant19Stage1Dialogue1FaceNaviPurplePunk" Value="ガッチリしてるけど,なんか猫っぽいっすねこいつ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MassDriverStage1Dialogue1FaceNone" Value="アゴをなでられてゴロゴロと,まったりした声を出している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant20Stage1Dialogue1FaceNaviPurplePunk" Value="あー涼しい〜" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ScrewStage1Dialogue1FaceNone" Value="ブーンと回って,涼しい風を出している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant21Stage1Dialogue1FaceNaviPurplePunk" Value="こいつのバリアって,なにで出来てるんだろ？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BarzardStage1Dialogue1FaceNone" Value="首周りのバリアを回転させつつ,尻尾を振って喜んでいる" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant22Stage1Dialogue1FaceNaviPurplePunk" Value="かっこいいよなーこいつ,すげーかっこいいよなー" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3SodogStage1Dialogue1FaceNone" Value="フサフサの体毛を,凛々しくなびかせている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant23Stage1Dialogue1FaceNaviPurplePunk" Value="大丈夫かな････,噛んできたりしないよな････？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MantiserStage1Dialogue1FaceNone" Value="３つの目が不気味に輝いている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant41Stage1Dialogue1FaceNaviPurplePunk" Value="こいつを腕に乗せて,飛ばしたりしてみたいですね" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3OnohawkStage1Dialogue1FaceNone" Value="クチバシをかちかち慣らして,エサの催促をしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant24Stage1Dialogue1FaceNaviPurplePunk" Value="こいつってメシ食うのかな？,食うとしてもどこから？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FlowerTank2Stage1Dialogue1FaceNone" Value="砲塔を小刻みに左右させて,感情表現をしているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant25Stage1Dialogue1FaceNaviPurplePunk" Value="絶妙な温度の風が,すごく気持ちいいっすよ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BraCoolerStage1Dialogue1FaceNone" Value="そよそよと心地いい風を,噴き出している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant26Stage1Dialogue1FaceNaviPurplePunk" Value="ハッハッハ！,動きが面白いなあ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3DripperStage1Dialogue1FaceNone" Value="友好のダンスを,くねくねと踊っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant27Stage1Dialogue1FaceNaviPurplePunk" Value="こいつの背に乗って飛べたり,しないものですかねえ？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3JuragonStage1Dialogue1FaceNone" Value="穏やかな表情で,のんびりとくつろいでるようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant28Stage1Dialogue1FaceNaviPurplePunk" Value="こいつのロープ････,どこにつながってるんでしょう？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BananaStage1Dialogue1FaceNone" Value="笑顔のままゆらゆらと,静かに揺れている････" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant29Stage1Dialogue1FaceNaviPurplePunk" Value="こいつのジゾウって,なにか御利益あるんですかね？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PompocoStage1Dialogue1FaceNone" Value="葉っぱの尻尾を振りながら,帽子の具合を,調整しているようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant30Stage1Dialogue1FaceNaviPurplePunk" Value="実は俺　虫が苦手なんすよ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MosaStage1Dialogue1FaceNone" Value="口元をワサワサさせて,何かを訴えかけてるようだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant31Stage1Dialogue1FaceNaviPurplePunk" Value="なにか命令したら,聞いてくれるんですかねえ？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MushaStage1Dialogue1FaceNone" Value="ムシャ流の忠誠のポーズで,じっと固まっている" Face="None" Mono="False" />
+  <!-- こいつが掘った後の土ってウワサによると電脳園芸に適しているんですって -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant32Stage1Dialogue1FaceNaviPurplePunk" Value="こいつが掘った後の土って,ウワサによると電脳園芸に,適しているんですって" Face="NaviPurplePunk" Mono="False" />
+  <!-- 小さな触腕をピコピコと動かして感情表現をしているようだ -->
+  <Dialogue Key="Map.AlicesHP3IkariStage1Dialogue1FaceNone" Value="小さな触腕をピコピコと,動かして感情表現を,しているようだ" Face="None" Mono="False" />
+  <!-- 何を伝えようとしているのかわからないんですがとりあえずエサ与えましょうか？ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant33Stage1Dialogue1FaceNaviPurplePunk" Value="何を伝えようとしているのか,わからないんですが,とりあえずエサ与えましょうか？" Face="NaviPurplePunk" Mono="False" />
+  <!-- 身体の周りにある土をペタペタと叩き固めている -->
+  <Dialogue Key="Map.AlicesHP3PanemallStage1Dialogue1FaceNone" Value="身体の周りにある土を,ペタペタと叩き固めている" Face="None" Mono="False" />
+  <!-- まとっている木の葉をたまにかき混ぜてやると喜ぶんですよこいつ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant34Stage1Dialogue1FaceNaviPurplePunk" Value="まとっている木の葉を,たまにかき混ぜてやると,喜ぶんですよこいつ" Face="NaviPurplePunk" Mono="False" />
+  <!-- 時折そよ風を出して木の葉をくるくると宙で回転させている -->
+  <Dialogue Key="Map.AlicesHP3CoyoteStage1Dialogue1FaceNone" Value="時折そよ風を出して,木の葉をくるくると,宙で回転させている" Face="None" Mono="False" />
+  <!-- 貝の中ってどうなっているのか知りたいんですけど知るのが怖いんですよね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant35Stage1Dialogue1FaceNaviPurplePunk" Value="貝の中ってどうなっているのか,知りたいんですけど知るのが,怖いんですよね" Face="NaviPurplePunk" Mono="False" />
+  <!-- ハサミで掴んだエサをカリカリと音を立てながら食べているようだ -->
+  <Dialogue Key="Map.AlicesHP3ShelrunStage1Dialogue1FaceNone" Value="ハサミで掴んだエサを,カリカリと音を立てながら,食べているようだ" Face="None" Mono="False" />
+  <!-- いやあコイツがいればいつでも花見ができますね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant36Stage1Dialogue1FaceNaviPurplePunk" Value="いやあコイツがいれば,いつでも花見ができますね" Face="NaviPurplePunk" Mono="False" />
+  <!-- シャカシャカと電脳桜を振って小さな桜吹雪を出している -->
+  <Dialogue Key="Map.AlicesHP3BowsStage1Dialogue1FaceNone" Value="シャカシャカと電脳桜を振って,小さな桜吹雪を出している" Face="None" Mono="False" />
+  <!-- ダメ元で「お手」を教えたらこいつ覚えたみたいなんですよ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant37Stage1Dialogue1FaceNaviPurplePunk" Value="ダメ元で「お手」を教えたら,こいつ覚えたみたいなんですよ" Face="NaviPurplePunk" Mono="False" />
+  <!-- 角をピカピカ光らせながらパチパチと放電の音を鳴らしている -->
+  <Dialogue Key="Map.AlicesHP3RaijunStage1Dialogue1FaceNone" Value="角をピカピカ光らせながら,パチパチと放電の音を,鳴らしている" Face="None" Mono="False" />
+  <!-- こいつを数匹並べてぜひともカエルの歌を輪唱させたいですね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant38Stage1Dialogue1FaceNaviPurplePunk" Value="こいつを数匹並べて,ぜひともカエルの歌を,輪唱させたいですね" Face="NaviPurplePunk" Mono="False" />
+  <!-- 喉のあたりを膨らませてゲコゲコと鳴き声をあげている -->
+  <Dialogue Key="Map.AlicesHP3GekoHutsuStage1Dialogue1FaceNone" Value="喉のあたりを膨らませて,ゲコゲコと鳴き声を,あげている" Face="None" Mono="False" />
+  <!-- コイツが鳴いたらだいたい定時上がりの時間なんですよね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant39Stage1Dialogue1FaceNaviPurplePunk" Value="コイツが鳴いたら,だいたい定時上がりの,時間なんですよね" Face="NaviPurplePunk" Mono="False" />
+  <!-- 凛々しい眼差しで静かにじっと見つめている -->
+  <Dialogue Key="Map.AlicesHP3FreyaStage1Dialogue1FaceNone" Value="凛々しい眼差しで,静かにじっと見つめている" Face="None" Mono="False" />
+  <!-- 電脳目薬をしてやるとすごく喜ぶんですよコイツ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant40Stage1Dialogue1FaceNaviPurplePunk" Value="電脳目薬をしてやると,すごく喜ぶんですよコイツ" Face="NaviPurplePunk" Mono="False" />
+  <!-- 大きな瞳を震わせて目薬を堪能しているようだ -->
+  <Dialogue Key="Map.AlicesHP3IvilEyeStage1Dialogue1FaceNone" Value="大きな瞳を震わせて,目薬を堪能しているようだ" Face="None" Mono="False" />
+</data>

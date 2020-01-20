@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ねこどるふぃんの電脳 -->
+  <Text Key="Map.NekodolphinName" Value="ねこどるふぃんの電脳" />
+  <!-- ココハ　ネコドルフィンノデンノウダ　ニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite1Stage1Dialogue1FaceSprite" Value="ココハ　ネコドルフィンノ,デンノウダ　ニュイ！" Face="Sprite" Mono="False" />
+  <!-- ニュイ　トイウノハ　ネコノ「ニャー」ト　イルカノ　「キュイ」ヲアワセタ　モノナンデスヨ -->
+  <Dialogue Key="Map.NekodolphinSprite1Stage1Dialogue2FaceSprite" Value="ニュイ　トイウノハ　ネコノ,「ニャー」ト　イルカノ　「キュイ」ヲ,アワセタ　モノナンデスヨ" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue1FaceSprite" Value="ニュイニュイニュイニュイ！" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue2FaceSprite" Value="ニュイニュイニュイニュイ！" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue3FaceSprite" Value="ニュイニュイニュイニュイ！" Face="Sprite" Mono="False" />
+  <!-- ニュイイイイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue4FaceSprite" Value="ニュイイイイ！" Face="Sprite" Mono="False" />
+</data>

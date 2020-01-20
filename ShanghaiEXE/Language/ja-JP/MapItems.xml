@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Item10000ZennyName" Value="10000ゼニー" />
+  <Text Key="Map.Item100000ZennyName" Value="10万ゼニー" />
+  <Text Key="Map.Item25000ZennyName" Value="25000ゼニー" />
+  <Text Key="Map.Item50000ZennyName" Value="50000ゼニー" />
+  <Text Key="Map.ItemHPMemoryName" Value="HPメモリ" />
+  <Text Key="Map.ItemLLockOnName" Value="Ｌビーストロック" />
+  <Text Key="Map.ItemROMIDName" Value="ＲＯＭ−ＩＤ" />
+  <Text Key="Map.ItemRShieldName" Value="Ｒスターシールド" />
+  <Text Key="Map.ItemAddOnManagerName" Value="アドオンマネージャー" />
+  <Text Key="Map.ItemIku＊Name" Value="イク　＊" />
+  <Text Key="Map.ItemVrsBall1＊Name" Value="ウィルスボール１　＊" />
+  <Text Key="Map.ItemEirinCallName" Value="エーリンコール" />
+  <Text Key="Map.ItemRunSoulName" Value="エスケープソウル" />
+  <Text Key="Map.Item100ErrorFragsName" Value="エラーのかけら100個" />
+  <Text Key="Map.ItemElemAuraAName" Value="エレメントオーラ　A" />
+  <Text Key="Map.ItemAuraSwd1＊Name" Value="オーラソード１　＊" />
+  <Text Key="Map.ItemAuraSwd3ZName" Value="オーラソード３　Z" />
+  <Text Key="Map.ItemDeadBodyName" Value="オワタマンボディ" />
+  <Text Key="Map.ItemMaxGauge＊Name" Value="カスタムマックス　＊" />
+  <Text Key="Map.ItemGigaHawkDName" Value="ギガトマホーク　D" />
+  <Text Key="Map.ItemGFlarGunVName" Value="ギガフレアーガン　V" />
+  <Text Key="Map.ItemUnderShtName" Value="キシカイセイ" />
+  <Text Key="Map.ItemFstGaugeDName" Value="クイックカスタム　D" />
+  <Text Key="Map.ItemCrakToolName" Value="クラックツール" />
+  <Text Key="Map.ItemCrimNoisName" Value="クリムゾンＰＧＭ" />
+  <Text Key="Map.ItemCorePlusName" Value="コアプラス" />
+  <Text Key="Map.ItemColdAir3JName" Value="コールドエアー３　J" />
+  <Text Key="Map.ItemSakuya＊Name" Value="サクヤ　＊" />
+  <Text Key="Map.ItemShlArmr1＊Name" Value="シェルアーマー１　＊" />
+  <Text Key="Map.ItemShlArmr2WName" Value="シェルアーマー２　W" />
+  <Text Key="Map.ItemShlArmr3RName" Value="シェルアーマー３　R" />
+  <Text Key="Map.ItemMagStormCName" Value="ジキアラシ　C" />
+  <Text Key="Map.ItemStormSName" Value="ストーム　S" />
+  <Text Key="Map.ItemSandPit1＊Name" Value="スナジゴク１　＊" />
+  <Text Key="Map.ItemSandPit2SName" Value="スナジゴク２　S" />
+  <Text Key="Map.ItemSandPit3CName" Value="スナジゴク３　C" />
+  <Text Key="Map.ItemSpannerM＊Name" Value="スパナマン　＊" />
+  <Text Key="Map.ItemSloGaugeSName" Value="スローカスタム　S" />
+  <Text Key="Map.ItemZSaberEName" Value="ゼットセイバー　E" />
+  <Text Key="Map.ItemZSaberZName" Value="ゼットセイバー　Z" />
+  <Text Key="Map.ItemZKnucklCName" Value="ゼロナックル　C" />
+  <Text Key="Map.ItemDrkAnchrAName" Value="ダークアンカー　A" />
+  <Text Key="Map.ItemDrkFallOName" Value="ダークオータム　O" />
+  <Text Key="Map.ItemDrkAuraAName" Value="ダークオーラ　A" />
+  <Text Key="Map.ItemDrkSparkJName" Value="ダークスパーク　J" />
+  <Text Key="Map.ItemDrkDesrtDName" Value="ダークデザート　D" />
+  <Text Key="Map.ItemDrkFangAName" Value="ダークファング　A" />
+  <Text Key="Map.ItemDrkBrethAName" Value="ダークブレス　A" />
+  <Text Key="Map.ItemDrkRecovAName" Value="ダークリペア　A" />
+  <Text Key="Map.ItemDrkRaygnRName" Value="ダークレイガン　R" />
+  <Text Key="Map.ItemDrkWiperWName" Value="ダークワイパー　W" />
+  <Text Key="Map.ItemTankM＊Name" Value="タンクマン　＊" />
+  <Text Key="Map.ItemCirno＊Name" Value="チルノ　＊" />
+  <Text Key="Map.ItemCruiseTicketName" Value="ツアーチケット" />
+  <Text Key="Map.ItemTortosM＊Name" Value="トータスマン　＊" />
+  <Text Key="Map.ItemDrgnFlm1＊Name" Value="ドラグノブレス１　＊" />
+  <Text Key="Map.ItemDrgnFlm2RName" Value="ドラグノブレス２　R" />
+  <Text Key="Map.ItemDrgnFlm3WName" Value="ドラグノブレス３　W" />
+  <Text Key="Map.ItemTriplRodTName" Value="トリプルロッド　T" />
+  <Text Key="Map.ItemNekkuPCodeName" Value="ネックのＰコード" />
+  <Text Key="Map.ItemHotStormFName" Value="ネップウ　F" />
+  <Text Key="Map.ItemLostAreaName" Value="ハイスイノジン" />
+  <Text Key="Map.ItemSpdRunnrName" Value="バイソクランナー" />
+  <Text Key="Map.ItemPyroM＊Name" Value="パイロマン　＊" />
+  <Text Key="Map.ItemHkuTkuM＊Name" Value="ハクタクマン　＊" />
+  <Text Key="Map.Item100BugFragsName" Value="バグのかけら100個" />
+  <Text Key="Map.ItemBstrPackName" Value="バスターセット" />
+  <Text Key="Map.ItemBstrPwrName" Value="バスターパワー" />
+  <Text Key="Map.ItemBstrRpdName" Value="バスターラピッド" />
+  <Text Key="Map.ItemPwrAuraBName" Value="パワーオーラ　B" />
+  <Text Key="Map.ItemPower+30＊Name" Value="パワープラス３０　＊" />
+  <Text Key="Map.ItemBeetleM＊Name" Value="ビートルマン　＊" />
+  <Text Key="Map.ItemCustom+Name" Value="ファーストアド" />
+  <Text Key="Map.ItemFolder2Name" Value="フォルダ２" />
+  <Text Key="Map.ItemBlndLeafPName" Value="ブラインドリーフ　Ｐ" />
+  <Text Key="Map.Item100FreezeFragsName" Value="フリーズのかけら100個" />
+  <Text Key="Map.ItemPreservedFlowerName" Value="プリザーブドフラワー" />
+  <Text Key="Map.ItemFlarGun＊Name" Value="フレアーガン　＊" />
+  <Text Key="Map.ItemBravSwrdSName" Value="ブレイブソード　S" />
+  <Text Key="Map.ItemHvyAnch1＊Name" Value="ヘビーアンカー１　＊" />
+  <Text Key="Map.ItemHvyAnch2SName" Value="ヘビーアンカー２　S" />
+  <Text Key="Map.ItemHvyAnch2ZName" Value="ヘビーアンカー２　Z" />
+  <Text Key="Map.ItemHvyAnch3TName" Value="ヘビーアンカー３　T" />
+  <Text Key="Map.ItemHertzUpName" Value="ヘルツプラス" />
+  <Text Key="Map.ItemWhitCard＊Name" Value="ホワイトカード　＊" />
+  <Text Key="Map.ItemMarisa＊Name" Value="マリサ　＊" />
+  <Text Key="Map.ItemMarisaMName" Value="マリサ　M" />
+  <Text Key="Map.ItemMFlarGunUName" Value="メガフレアーガン　U" />
+  <Text Key="Map.ItemMtlAuraMName" Value="メタリックオーラ　M" />
+  <Text Key="Map.ItemMedicine＊Name" Value="メディスン　＊" />
+  <Text Key="Map.ItemMetroPassName" Value="メトロ学生パス" />
+  <Text Key="Map.ItemMnkyPol3HName" Value="モンキーポール３　H" />
+  <Text Key="Map.ItemChipCureName" Value="ユーズリペア" />
+  <Text Key="Map.ItemHumorName" Value="ユーモアトーク" />
+  <Text Key="Map.ItemXtraFldrName" Value="ヨビフォルダ" />
+  <Text Key="Map.ItemYorihime＊Name" Value="ヨリヒメ　＊" />
+  <Text Key="Map.ItemRanAName" Value="ラン　A" />
+  <Text Key="Map.ItemElecDrilIName" Value="リュウグウドリル　I" />
+  <Text Key="Map.ItemRegUp1Name" Value="レギュラーアップ1" />
+  <Text Key="Map.ItemRegUp2Name" Value="レギュラーアップ2" />
+  <Text Key="Map.ItemRegUp3Name" Value="レギュラーアップ3" />
+  <Text Key="Map.ItemRemiliaPCodeName" Value="レミリアのＰコード" />
+  <Text Key="Map.ItemTeacherIDName" Value="先生のＩＤカード" />
+  <Text Key="Map.ItemOldIDDataName" Value="古いＩＤデータ" />
+  <Text Key="Map.ItemOldKeyDataName" Value="古いキーデータ" />
+  <Text Key="Map.ItemOldDataName" Value="古いデータチップ" />
+  <Text Key="Map.ItemOldPasscodeName" Value="古いパスコード" />
+  <Text Key="Map.ItemCompressedDataName" Value="圧縮データ" />
+  <Text Key="Map.ItemSmallParcelName" Value="小さな小包" />
+  <Text Key="Map.ItemHeatDataName" Value="排熱データ８個" />
+  <Text Key="Map.ItemIceCrystalDataName" Value="氷の結晶データ" />
+  <Text Key="Map.ItemAdminPCodeName" Value="管理Ｐコード" />
+  <Text Key="Map.ItemPackageDataName" Value="荷物データ" />
+  <Text Key="Map.ItemAntifreezeName" Value="融雪剤" />
+  <Text Key="Map.ItemReincarnationProgramName" Value="転生プログラム" />
+  <Text Key="Map.ItemRikaPCodeName" Value="里香のＰコード" />
+  <Text Key="Map.ItemYinKeyName" Value="陰のカギ" />
+  <Text Key="Map.ItemYangKeyName" Value="陽のカギ" />
+  <Text Key="Map.ItemMariPCodeName" Value="魔理のＰコード" />
+</data>

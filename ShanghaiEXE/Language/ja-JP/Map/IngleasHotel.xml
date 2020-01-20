@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インゲレス　ホテル -->
+  <Text Key="Map.IngleasHotelName" Value="インゲレス　ホテル" />
+  <!-- 高級感漂うベッドだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage1Dialogue1FaceNone" Value="高級感漂うベッドだ" Face="None" Mono="False" />
+  <!-- ホテルの職員が常に新しいシーツに交換するのでいつでもフカフカだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage1Dialogue2FaceNone" Value="ホテルの職員が常に,新しいシーツに交換するので,いつでもフカフカだ" Face="None" Mono="False" />
+  <!-- 今日はもう寝ちゃう？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage3Dialogue1QuestionFaceShanghai" Value="今日はもう寝ちゃう？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.IngleasHotelBedStage3Dialogue1Options" Value="はい,いいえ" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue1QuestionFaceShanghai" Value="寝る前にセーブする？" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.IngleasHotelBedStage5Dialogue1Options" Value="はい,いいえ" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue2FaceShanghai" Value="#u@#セーブ中････" Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue3FaceShanghai" Value="セーブ完了！" Face="Shanghai" Mono="False" />
+  <!-- アリス　ゆっくり休みなさい！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue4FaceShanghai" Value="アリス　ゆっくり休みなさい！" Face="Shanghai" Mono="False" />
+  <!-- 翌日････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage7Dialogue1FaceNone" Value="翌日････" Face="None" Mono="False" />
+  <!-- シャンハイ　おはよう････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue1FaceAlice" Value="シャンハイ　おはよう････" Face="Alice" Mono="False" />
+  <!-- アリス　眠れた？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue2FaceShanghai" Value="アリス　眠れた？" Face="Shanghai" Mono="False" />
+  <!-- それなりにね････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue3FaceAlice" Value="それなりにね････" Face="Alice" Mono="False" />
+  <!-- 今日はどうしよう？昨日あんなことがあったし外に出るのは怖いわ････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue4FaceAlice" Value="今日はどうしよう？,昨日あんなことがあったし,外に出るのは怖いわ････" Face="Alice" Mono="False" />
+  <!-- 昨日の件は警察に通報したしあまり気にしすぎるのも････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue5FaceShanghai" Value="昨日の件は警察に通報したし,あまり気にしすぎるのも････" Face="Shanghai" Mono="False" />
+  <!-- あら　電話よ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue1FaceShanghai" Value="あら　電話よ" Face="Shanghai" Mono="False" />
+  <!-- あっ　リグル君からだ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue2FaceAlice" Value="あっ　リグル君からだ！" Face="Alice" Mono="False" />
+  <!-- あんたいつ電話番号を交換したのよ････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue3FaceShanghai" Value="あんたいつ電話番号を,交換したのよ････" Face="Shanghai" Mono="False" />
+  <!-- なーいしょっ！もしもし？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue4FaceAlice" Value="なーいしょっ！,もしもし？" Face="Alice" Mono="False" />
+  <!-- アリス････逃げて････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue5FaceWriggleHat" Value="アリス････逃げて････！" Face="WriggleHat" Mono="False" />
+  <!-- え････！？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue6FaceAlice" Value="え････！？" Face="Alice" Mono="False" />
+  <!-- やぁ、お嬢さんご機嫌はいかがかな？クハハハハ････！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue7FaceNone" Value="やぁ、お嬢さん,ご機嫌はいかがかな？,クハハハハ････！！" Face="None" Mono="False" />
+  <!-- その笑い声････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue8FaceAlice" Value="その笑い声････！" Face="Alice" Mono="False" />
+  <!-- おっと　電話を切ると後悔するぞ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue9FaceScissorManOpTarakhan" Value="おっと　電話を切ると後悔するぞ" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- なぜなら　こいつの命は今私が握っているのだからな -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue10FaceScissorManOpTarakhan" Value="なぜなら　こいつの命は今,私が握っているのだからな" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- な････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue11FaceAlice" Value="な････！" Face="Alice" Mono="False" />
+  <!-- クハハッ　その反応が欲しかったさぁ　それではひとつゲームと行こうか -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue12FaceScissorManOpTarakhan" Value="クハハッ　その反応が欲しかった,さぁ　それではひとつ,ゲームと行こうか" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 我々は今　広場にある時計塔の頂上にいる -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue13FaceScissorManOpTarakhan" Value="我々は今　広場にある,時計塔の頂上にいる" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 君はこいつから受け取ったペンダントを持って私のところまで来い -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue14FaceScissorManOpTarakhan" Value="君はこいつから,受け取ったペンダントを持って,私のところまで来い" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ただし　頂上へはいくつかセキュリティが仕掛けられている -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue15FaceScissorManOpTarakhan" Value="ただし　頂上へは,いくつかセキュリティが,仕掛けられている" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- プラグインをすれば解除できるつくりのものだけだが････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue16FaceScissorManOpTarakhan" Value="プラグインをすれば,解除できるつくりの,ものだけだが････" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 君のナビがデリートされた場合私の勝ち　こいつを時計台から突き落とす -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue17FaceScissorManOpTarakhan" Value="君のナビがデリートされた場合,私の勝ち　こいつを時計台から,突き落とす" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- もしも　頂上までたどり着けたら貴様の持っているペンダントとこいつを交換してやろう -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue18FaceScissorManOpTarakhan" Value="もしも　頂上までたどり着けたら,貴様の持っているペンダントと,こいつを交換してやろう" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- あたし達が勝てば交換負けたら････リグルの命は無いということね -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue19FaceShanghai" Value="あたし達が勝てば交換,負けたら････,リグルの命は無いということね" Face="Shanghai" Mono="False" />
+  <!-- 聞いちゃダメだ････････僕のことはいいからアリスは逃げて････！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue20FaceWriggleHat" Value="聞いちゃダメだ････････,僕のことはいいから,アリスは逃げて････！！" Face="WriggleHat" Mono="False" />
+  <!-- リグル君････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue21FaceAlice" Value="リグル君････！" Face="Alice" Mono="False" />
+  <!-- もしも　警察を介入させたり他の者に助けを求めたらルール違反　貴様の負けだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue22FaceScissorManOpTarakhan" Value="もしも　警察を介入させたり,他の者に助けを求めたら,ルール違反　貴様の負けだ" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- その時は････言わずとも分かるだろう？クハハハハ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue23FaceScissorManOpTarakhan" Value="その時は････言わずとも,分かるだろう？,クハハハハ！" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ　急いだ方がいいコイツの命が惜しければな -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue24FaceScissorManOpTarakhan" Value="さぁ　急いだ方がいい,コイツの命が惜しければな" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- それではゲームスタートだ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue25FaceScissorManOpTarakhan" Value="それでは,ゲームスタートだ！" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ････電話は切れたわ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue1FaceShanghai" Value="････電話は切れたわ" Face="Shanghai" Mono="False" />
+  <!-- どうする　アリス？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue2FaceShanghai" Value="どうする　アリス？" Face="Shanghai" Mono="False" />
+  <!-- もちろん助けに行くわ！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue3FaceAlice" Value="もちろん,助けに行くわ！！" Face="Alice" Mono="False" />
+  <!-- そういうと思ったわどんなセキュリティだろうがこのあたしが突破してやるわよ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue4FaceShanghai" Value="そういうと思ったわ,どんなセキュリティだろうが,このあたしが突破してやるわよ！" Face="Shanghai" Mono="False" />
+  <!-- ええ　行くわよ時計塔に！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue5FaceAlice" Value="ええ　行くわよ,時計塔に！！" Face="Alice" Mono="False" />
+  <!-- 高級感漂うベッドだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage15Dialogue1FaceNone" Value="高級感漂うベッドだ" Face="None" Mono="False" />
+  <!-- ホテルの職員が常に新しいシーツに交換するのでいつでもフカフカだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage15Dialogue2FaceNone" Value="ホテルの職員が常に,新しいシーツに交換するので,いつでもフカフカだ" Face="None" Mono="False" />
+  <!-- 立派なイスがついた固定されたテーブルだ -->
+  <Dialogue Key="Map.IngleasHotelAngularTableStage1Dialogue1FaceNone" Value="立派なイスがついた,固定されたテーブルだ" Face="None" Mono="False" />
+  <!-- この上にノートパソコンを広げたらちょうど良さそうだ -->
+  <Dialogue Key="Map.IngleasHotelAngularTableStage1Dialogue2FaceNone" Value="この上にノートパソコンを,広げたらちょうど良さそうだ" Face="None" Mono="False" />
+  <!-- 四角いテーブルだ -->
+  <Dialogue Key="Map.IngleasHotelSquareTableStage1Dialogue1FaceNone" Value="四角いテーブルだ" Face="None" Mono="False" />
+  <!-- 部屋でものを食べるならこの上で食べるのがちょうど良さそうだ -->
+  <Dialogue Key="Map.IngleasHotelSquareTableStage1Dialogue2FaceNone" Value="部屋でものを食べるなら,この上で食べるのが,ちょうど良さそうだ" Face="None" Mono="False" />
+  <!-- 小さめの冷蔵庫だ -->
+  <Dialogue Key="Map.IngleasHotelRefrigeratorStage1Dialogue1FaceNone" Value="小さめの冷蔵庫だ" Face="None" Mono="False" />
+  <!-- 中には値札のついたジュースが並んでいて　チェックアウトの時に料金が加算される仕組みだ -->
+  <Dialogue Key="Map.IngleasHotelRefrigeratorStage1Dialogue2FaceNone" Value="中には値札のついたジュースが,並んでいて　チェックアウトの時に,料金が加算される仕組みだ" Face="None" Mono="False" />
+  <!-- プラグインすることもできそうだ！ -->
+  <Dialogue Key="Map.IngleasHotelRefrigeratorStage1Dialogue3FaceNone" Value="プラグインすることもできそうだ！" Face="None" Mono="False" />
+  <!-- フロントにつながる内線電話だ -->
+  <Dialogue Key="Map.IngleasHotelIntercomStage1Dialogue1FaceNone" Value="フロントにつながる内線電話だ" Face="None" Mono="False" />
+  <!-- ルームサービスを頼んだり困ったことがある時に利用する -->
+  <Dialogue Key="Map.IngleasHotelIntercomStage1Dialogue2FaceNone" Value="ルームサービスを頼んだり,困ったことがある時に,利用する" Face="None" Mono="False" />
+  <!-- ネットワークのルーターにもなっており　プラグインすればインターネットに行けるようだ -->
+  <Dialogue Key="Map.IngleasHotelIntercomStage1Dialogue3FaceNone" Value="ネットワークのルーターにも,なっており　プラグインすれば,インターネットに行けるようだ" Face="None" Mono="False" />
+  <!-- 疲れた〜 -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue1FaceAlice" Value="疲れた〜" Face="Alice" Mono="False" />
+  <!-- お疲れ様 -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue2FaceShanghai" Value="お疲れ様" Face="Shanghai" Mono="False" />
+  <!-- アリス　せっかくだしインターネットで観光名所とか調べましょうよ -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue3FaceShanghai" Value="アリス　せっかくだし,インターネットで観光名所とか,調べましょうよ" Face="Shanghai" Mono="False" />
+  <!-- そういえば全然調べてなかったね -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue4FaceAlice" Value="そういえば全然,調べてなかったね" Face="Alice" Mono="False" />
+  <!-- 案内を見たところそこのインターホンからアクセスできるみたいね -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue5FaceShanghai" Value="案内を見たところ,そこのインターホンから,アクセスできるみたいね" Face="Shanghai" Mono="False" />
+  <!-- よし　じゃあプラグインしましょう -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue6FaceAlice" Value="よし　じゃあプラグイン,しましょう" Face="Alice" Mono="False" />
+  <!-- ハァ　ハァ　ハァ････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue1FaceAlice" Value="ハァ　ハァ　ハァ････" Face="Alice" Mono="False" />
+  <!-- なんとか････逃げ切ったみたいね････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue2FaceShanghai" Value="なんとか････,逃げ切ったみたいね････" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　ありがとう助けてくれて････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue3FaceAlice" Value="シャンハイ　ありがとう,助けてくれて････" Face="Alice" Mono="False" />
+  <!-- それなのに私ったら････あなたにひどいこと言っちゃった -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue4FaceAlice" Value="それなのに私ったら････,あなたにひどいこと言っちゃった" Face="Alice" Mono="False" />
+  <!-- いつもシャンハイが守ってくれてたのに私　私････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue5FaceAlice" Value="いつもシャンハイが,守ってくれてたのに,私　私････" Face="Alice" Mono="False" />
+  <!-- あたしも　あんたの気持ちに気づくことが出来なくてゴメンね -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue6FaceShanghai" Value="あたしも　あんたの気持ちに,気づくことが出来なくて,ゴメンね" Face="Shanghai" Mono="False" />
+  <!-- 遅いかもしれないけどこれからはあんたの気持ち応援するから････さ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue7FaceShanghai" Value="遅いかもしれないけど,これからはあんたの気持ち,応援するから････さ" Face="Shanghai" Mono="False" />
+  <!-- うん････ありがとう････グスン････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue8FaceAlice" Value="うん････ありがとう････,グスン････" Face="Alice" Mono="False" />
+  <!-- ほらほら　泣かない泣かない怖かったのはわかるから････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue9FaceShanghai" Value="ほらほら　泣かない泣かない,怖かったのはわかるから････" Face="Shanghai" Mono="False" />
+  <!-- ありがとう････本当にありがとう････！ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue10FaceAlice" Value="ありがとう････,本当にありがとう････！" Face="Alice" Mono="False" />
+  <!-- ････そういえばさっきいったい何をやったの？ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue1FaceAlice" Value="････そういえばさっき,いったい何をやったの？" Face="Alice" Mono="False" />
+  <!-- 画面のバックライトを暴走させて目潰ししたの -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue2FaceShanghai" Value="画面のバックライトを,暴走させて目潰ししたの" Face="Shanghai" Mono="False" />
+  <!-- おかげで携帯電話のバックライトが壊れちゃったけど････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue3FaceShanghai" Value="おかげで携帯電話の,バックライトが,壊れちゃったけど････" Face="Shanghai" Mono="False" />
+  <!-- 本当だ　暗くなってる････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue4FaceAlice" Value="本当だ　暗くなってる････" Face="Alice" Mono="False" />
+  <!-- でも　修理すればなおるから大丈夫よ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue5FaceAlice" Value="でも　修理すれば,なおるから大丈夫よ" Face="Alice" Mono="False" />
+  <!-- それにしても　あの男････何か言ってた？ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue6FaceShanghai" Value="それにしても　あの男････,何か言ってた？" Face="Shanghai" Mono="False" />
+  <!-- リグル君からもらったペンダントを奪おうとしていたわ････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue7FaceAlice" Value="リグル君からもらった,ペンダントを奪おうと,していたわ････" Face="Alice" Mono="False" />
+  <!-- ペンダント････？ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue8FaceShanghai" Value="ペンダント････？" Face="Shanghai" Mono="False" />
+  <!-- 綺麗な琥珀のペンダントだけど銃で脅して奪い取るほど価値があるようには見えないわ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue9FaceShanghai" Value="綺麗な琥珀のペンダントだけど,銃で脅して奪い取るほど,価値があるようには見えないわ" Face="Shanghai" Mono="False" />
+  <!-- とにかく　警察にはあたしが通報しておくから -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue10FaceShanghai" Value="とにかく　警察には,あたしが通報しておくから" Face="Shanghai" Mono="False" />
+  <!-- アリスは････もう休みなさい -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue11FaceShanghai" Value="アリスは････,もう休みなさい" Face="Shanghai" Mono="False" />
+  <!-- うん　そうする････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue12FaceAlice" Value="うん　そうする････" Face="Alice" Mono="False" />
+  <!-- マップテスト -->
+  <Dialogue Key="Map.IngleasHotelTestSpriteStage1Dialogue1FaceNone" Value="マップテスト" Face="None" Mono="False" />
+  <!-- アリス部屋へ -->
+  <Dialogue Key="Map.IngleasHotelTestSpriteDupeStage1Dialogue1FaceNone" Value="アリス部屋へ" Face="None" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue1" Value="あっアリスだ！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue2" Value="またインゲレスで式典があって,それまでここで休んでるんだ" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue3" Value="ドレス姿を見たいなら,着替えるけど　どうする？" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue4Question" Value="" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue4Options" Value="ネットバトルを申し込む,着替えてもらう,また今度" Face="None" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue5b" Value="よーっし！,秘技　早着替えの術！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue5c" Value="うん　またね！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue1" Value="あっアリスだ！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue2" Value="またインゲレスで式典があって,それまでここで休んでるんだ" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue3" Value="ドレス姿を見たいなら,着替えるけど　どうする？" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue4Question" Value="" Face="Alice" Mono="False" />
+  <Text Key="Map.IngleasHotelPostGameWriggelleDialogue4Options" Value="ネットバトルを申し込む,着替えてもらう,また今度" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue5c" Value="うん　またね！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue5b" Value="よーっし！,秘技　早着替えの術！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleStage1Dialogue1" Value="いくよ　ビートルマン！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueWin1" Value="やった！,僕の勝ちだ！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueLose1" Value="アリス　次は負けないよ！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleStage2Dialogue1" Value="これが本気だ！,ぶつかれ　ビートルマン！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleStage2Dialogue2" Value="姫様の勝利のために！" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueWin2" Value="目論見が見事に,当たってくれたよ！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueLose2" Value="やっぱりアリスには,かなわないか〜〜！" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleStage1Dialogue1" Value="いくよ　ビートルマン！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueWin1" Value="やった！,僕の勝ちだ！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueLose1" Value="アリス　次は負けないよ！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleStage2Dialogue1" Value="これが本気だ！,ぶつかれ　ビートルマン！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleStage2Dialogue2" Value="姫様の勝利のために！" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueWin2" Value="目論見が見事に,当たってくれたよ！" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueLose2" Value="やっぱりアリスには,かなわないか〜〜！" Face="WriggleCrown" Mono="False" />
+</data>

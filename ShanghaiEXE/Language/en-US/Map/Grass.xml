@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ■イベント戦場 -->
+  <Text Key="Map.GrassName" Value="■Battlefield■" />
+  <!-- 脚部をやられた！！すまない　脱出する！ -->
+  <Dialogue Key="Map.GrassG7EventStage1Dialogue1FacePoliceman" Value="My leg! We can’t hold this!" Face="Policeman" Mono="False" />
+  <!-- くっ！　弾幕が厚すぎる！ -->
+  <Dialogue Key="Map.GrassG7EventStage3Dialogue1FacePoliceman" Value="Augh! The artillery is too thick!" Face="Policeman" Mono="False" />
+  <!-- 鈴仙様　ダメージの蓄積が著しいので　退却を推奨します -->
+  <Dialogue Key="Map.GrassG7EventStage5Dialogue1FaceYorihime" Value="Reisen，you must fall back.,The chances of falling before,breaking through are too high." Face="Yorihime" Mono="False" />
+  <!-- ＲＯＭのアジトは目と鼻の先だというのにこれほど抵抗が激しいとはな -->
+  <Dialogue Key="Map.GrassG7EventStage5Dialogue2FaceReisen" Value="To defend this location with,such ferocity.... ROM must have,something they cannot lose." Face="Reisen" Mono="False" />
+  <!-- ････やむを得まい -->
+  <Dialogue Key="Map.GrassG7EventStage5Dialogue3FaceReisen" Value="....but you are correct. Fall back!" Face="Reisen" Mono="False" />
+</data>

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- Chip -->
+  <Text Key="Chip.AquaStormName" Value="Typhoon" />
+  <Text Key="Chip.AquaStormDesc" Value="Water tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.AuraSlashName" Value="AuraSlash" />
+  <Text Key="Chip.AuraSlashDesc" Value="3 panel wide,piercing slash,6 times!" />
+  <Text Key="Chip.AuraSword1Name" Value="AuraSrd1" />
+  <Text Key="Chip.AuraSword1Desc" Value="1 sword slash!,Pierces if you,have an aura!" />
+  <Text Key="Chip.AuraSword2Name" Value="AuraSrd2" />
+  <Text Key="Chip.AuraSword2Desc" Value="2 sword slashes!,Pierces if you,have an aura!" />
+  <Text Key="Chip.AuraSword3Name" Value="AuraSrd3" />
+  <Text Key="Chip.AuraSword3Desc" Value="3 sword slashes!,Pierces if you,have an aura!" />
+  <Text Key="Chip.AuraSwordXName" Value="AuraSrdX" />
+  <Text Key="Chip.AuraSwordXDesc" Value="1 sword slash!,Pierces if you,have an aura!" />
+  <Text Key="Chip.BackWindName" Value="TailWind" />
+  <Text Key="Chip.BackWindDesc" Value="Wind gusts pull,enemies closer,for a while!" />
+  <Text Key="Chip.BarrierName" Value="Barrier" />
+  <Text Key="Chip.BarrierDesc" Value="Generate a,1 HP barrier!" />
+  <Text Key="Chip.BeastBreathName" Value="BeastBreth" />
+  <Text Key="Chip.BeastBreathDesc" Value="Cybeast breath,hits enemies',weaknesses!" />
+  <Text Key="Chip.BeatleManV1Name" Value="BeetleM" />
+  <Text Key="Chip.BeatleManV1Desc" Value="BugHole sucks,in objects for,extra power!" />
+  <Text Key="Chip.BeatleManV2Name" Value="BeetleMV2" />
+  <Text Key="Chip.BeatleManV2Desc" Value="BugHole sucks,in objects for,extra power!" />
+  <Text Key="Chip.BeatleManV3Name" Value="BeetleMV3" />
+  <Text Key="Chip.BeatleManV3Desc" Value="BugHole sucks,in objects for,extra power!" />
+  <Text Key="Chip.BeatleManXName" Value="BeetleMX" />
+  <Text Key="Chip.BeatleManXDesc" Value="BugHole sucks,in objects for,extra power!" />
+  <Text Key="Chip.BigTyphoonName" Value="BigTyphoon" />
+  <Text Key="Chip.BigTyphoonDesc" Value="Typhoon sweeps,row back and,forth 5 times!" />
+  <Text Key="Chip.BioHazardName" Value="GasGarden" />
+  <Text Key="Chip.BioHazardDesc" Value="Grow a large,poisonous lily,in front of you!" />
+  <Text Key="Chip.BioSpray1Name" Value="BioSpry1" />
+  <Text Key="Chip.BioSpray1Desc" Value="Spray 3 panels,of poison gas,2 rows ahead!" />
+  <Text Key="Chip.BioSpray2Name" Value="BioSpry2" />
+  <Text Key="Chip.BioSpray2Desc" Value="Spray 3 panels,of poison gas,2 rows ahead!" />
+  <Text Key="Chip.BioSpray3Name" Value="BioSpry3" />
+  <Text Key="Chip.BioSpray3Desc" Value="Spray 3 panels,of poison gas,2 rows ahead!" />
+  <Text Key="Chip.BioSprayXName" Value="BioSpryX" />
+  <Text Key="Chip.BioSprayXDesc" Value="Spray 3 panels,of poison gas,2 rows ahead!" />
+  <Text Key="Chip.BioStormName" Value="Hazard" />
+  <Text Key="Chip.BioStormDesc" Value="Poison tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.BlindReafName" Value="BlndLeaf" />
+  <Text Key="Chip.BlindReafDesc" Value="Blind all enemies!" />
+  <Text Key="Chip.BlueSuzuranName" Value="BlueLily" />
+  <Text Key="Chip.BlueSuzuranDesc" Value="Grow a Blue Lily,that heals allies!" />
+  <Text Key="Chip.BraveSwordName" Value="BravSwrd" />
+  <Text Key="Chip.BraveSwordDesc" Value="3 panel long,sword slices,through guards!" />
+  <Text Key="Chip.BreakShotName" Value="BrkShot" />
+  <Text Key="Chip.BreakShotDesc" Value="Launch magma,3 panels ahead!,Cracks panels!" />
+  <Text Key="Chip.BrocraLink1Name" Value="CrshLnk1" />
+  <Text Key="Chip.BrocraLink1Desc" Value="Lay mine that,cracks enemy,area!" />
+  <Text Key="Chip.BrocraLink2Name" Value="CrshLnk2" />
+  <Text Key="Chip.BrocraLink2Desc" Value="Lay mine that,turns enemy area,into burners!" />
+  <Text Key="Chip.BrocraLink3Name" Value="CrshLnk3" />
+  <Text Key="Chip.BrocraLink3Desc" Value="Lay mine that,freezes enemy,area!" />
+  <Text Key="Chip.BrocraLinkXName" Value="CrshLnkX" />
+  <Text Key="Chip.BrocraLinkXDesc" Value="Lay mine that,cracks enemy,area!" />
+  <Text Key="Chip.BronzeNapalmName" Value="BrnzNplm" />
+  <Text Key="Chip.BronzeNapalmDesc" Value="Lob fire bomb,3 panels ahead!,Breaks on impact!" />
+  <Text Key="Chip.BubbleBlust1Name" Value="BubBlst1" />
+  <Text Key="Chip.BubbleBlust1Desc" Value="Fire 5 bubble,shots that hit foe,and next panel!" />
+  <Text Key="Chip.BubbleBlust2Name" Value="BubBlst2" />
+  <Text Key="Chip.BubbleBlust2Desc" Value="Fire 5 bubble,shots that hit foe,and next panel!" />
+  <Text Key="Chip.BubbleBlust3Name" Value="BubBlst3" />
+  <Text Key="Chip.BubbleBlust3Desc" Value="Fire 5 bubble,shots that hit foe,and next panel!" />
+  <Text Key="Chip.BubbleBlustXName" Value="BubBlstX" />
+  <Text Key="Chip.BubbleBlustXDesc" Value="Fire 5 bubble,shots that hit foe,and next panel!" />
+  <Text Key="Chip.BubbleLotionName" Value="BublBath" />
+  <Text Key="Chip.BubbleLotionDesc" Value="Make all enemies,slippery!" />
+  <Text Key="Chip.BurnerRoadName" Value="BurnRoad" />
+  <Text Key="Chip.BurnerRoadDesc" Value="Turn row into,burner panels!" />
+  <Text Key="Chip.BurnerStageName" Value="BurnStge" />
+  <Text Key="Chip.BurnerStageDesc" Value="Turn stage into,burner panels!" />
+  <Text Key="Chip.BusterAnpName" Value="BustrAmp" />
+  <Text Key="Chip.BusterAnpDesc" Value="Buster power +1,Max power = 10" />
+  <Text Key="Chip.ChainGun1Name" Value="ChainGn1" />
+  <Text Key="Chip.ChainGun1Desc" Value="Machine gun,shoots enemy,panel 3 times!" />
+  <Text Key="Chip.ChainGun2Name" Value="ChainGn2" />
+  <Text Key="Chip.ChainGun2Desc" Value="Machine gun,shoots enemy,panel 3 times!" />
+  <Text Key="Chip.ChainGun3Name" Value="ChainGn3" />
+  <Text Key="Chip.ChainGun3Desc" Value="Machine gun,shoots enemy,panel 3 times!" />
+  <Text Key="Chip.ChainGunXName" Value="ChainGnX" />
+  <Text Key="Chip.ChainGunXDesc" Value="Machine gun,shoots enemy,panel 3 times!" />
+  <Text Key="Chip.ChargeCanon1Name" Value="ChrgCan1" />
+  <Text Key="Chip.ChargeCanon1Desc" Value="Long charge，,then ultra-high,damage shot!" />
+  <Text Key="Chip.ChargeCanon2Name" Value="ChrgCan2" />
+  <Text Key="Chip.ChargeCanon2Desc" Value="Long charge，,then ultra-high,damage shot!" />
+  <Text Key="Chip.ChargeCanon3Name" Value="ChrgCan3" />
+  <Text Key="Chip.ChargeCanon3Desc" Value="Long charge，,then ultra-high,damage shot!" />
+  <Text Key="Chip.ChargeCanonXName" Value="ChrgCanX" />
+  <Text Key="Chip.ChargeCanonXDesc" Value="Long charge，,then ultra-high,damage shot!" />
+  <Text Key="Chip.ChenV1Name" Value="Chen" />
+  <Text Key="Chip.ChenV1Desc" Value="Cat Boomerang,spins around,area 3 times!" />
+  <Text Key="Chip.ChenV2Name" Value="ChenV2" />
+  <Text Key="Chip.ChenV2Desc" Value="Cat Boomerang,spins around,area 3 times!" />
+  <Text Key="Chip.ChenV3Name" Value="ChenV3" />
+  <Text Key="Chip.ChenV3Desc" Value="Cat Boomerang,spins around,area 3 times!" />
+  <Text Key="Chip.ChenXName" Value="ChenX" />
+  <Text Key="Chip.ChenXDesc" Value="Cat Boomerang,spins around,area 3 times!" />
+  <Text Key="Chip.CirnoV1Name" Value="Cirno" />
+  <Text Key="Chip.CirnoV1Desc" Value="Ice Charge!,Pierces after,passing over ice!" />
+  <Text Key="Chip.CirnoV2Name" Value="CirnoV2" />
+  <Text Key="Chip.CirnoV2Desc" Value="Ice Charge!,Pierces after,passing over ice!" />
+  <Text Key="Chip.CirnoV3Name" Value="CirnoV3" />
+  <Text Key="Chip.CirnoV3Desc" Value="Ice Charge!,Pierces after,passing over ice!" />
+  <Text Key="Chip.CirnoXName" Value="CirnoX" />
+  <Text Key="Chip.CirnoXDesc" Value="Ice Charge!,Pierces after,passing over ice!" />
+  <Text Key="Chip.ColdAir1Name" Value="ColdAir1" />
+  <Text Key="Chip.ColdAir1Desc" Value="Cold wind pushes,objects forward!" />
+  <Text Key="Chip.ColdAir2Name" Value="ColdAir2" />
+  <Text Key="Chip.ColdAir2Desc" Value="Cold wind pushes,objects forward!" />
+  <Text Key="Chip.ColdAir3Name" Value="ColdAir3" />
+  <Text Key="Chip.ColdAir3Desc" Value="Cold wind pushes,objects forward!" />
+  <Text Key="Chip.ColdAirXName" Value="ColdAirX" />
+  <Text Key="Chip.ColdAirXDesc" Value="Cold wind pushes,objects forward!" />
+  <Text Key="Chip.ColdShotName" Value="ColdShot" />
+  <Text Key="Chip.ColdShotDesc" Value="Shoot ice,3 panels ahead!,Freezes panels!" />
+  <Text Key="Chip.CrossSwordName" Value="CrosSwrd" />
+  <Text Key="Chip.CrossSwordDesc" Value="X-Slash!,Hits twice in the,center!" />
+  <Text Key="Chip.CubeName" Value="Cube" />
+  <Text Key="Chip.CubeDesc" Value="200 HP Cube,shields you from,attack!" />
+  <Text Key="Chip.CustomMaxName" Value="MaxGauge" />
+  <Text Key="Chip.CustomMaxDesc" Value="Custom Gauge,fills up instantly!" />
+  <Text Key="Chip.DanmakuValucunName" Value="DanmaGun" />
+  <Text Key="Chip.DanmakuValucunDesc" Value="Fire 10 bullets,that hit enemy,and next panel!" />
+  <Text Key="Chip.DarkAnchorName" Value="DrkAnchr" />
+  <Text Key="Chip.DarkAnchorDesc" Value="RAIN NINE,ANCHORS,ON ENEMY" />
+  <Text Key="Chip.DarkAuraName" Value="DrkAura" />
+  <Text Key="Chip.DarkAuraDesc" Value="DARK AURA,REPELS ATKS,BELOW 200" />
+  <Text Key="Chip.DarkAutumnName" Value="DrkFall" />
+  <Text Key="Chip.DarkAutumnDesc" Value="LEAF WAVE,STEALS,FOES SIGHT" />
+  <Text Key="Chip.DarkBreathName" Value="DrkBreth" />
+  <Text Key="Chip.DarkBreathDesc" Value="WILD FIRE,SPREADS,DARK RUIN" />
+  <Text Key="Chip.DarkFangName" Value="DrkFang" />
+  <Text Key="Chip.DarkFangDesc" Value="ELEC FANG,SEIZES FOES,BODIES" />
+  <Text Key="Chip.DarkHurricaneName" Value="DrkStorm" />
+  <Text Key="Chip.DarkHurricaneDesc" Value="WIDE AREA,WIND CAGE,NO ESCAPE" />
+  <Text Key="Chip.DarkRepairName" Value="DrkRecov" />
+  <Text Key="Chip.DarkRepairDesc" Value="POTENT,HEALING,AVAILABLE" />
+  <Text Key="Chip.DarkReygunName" Value="DrkRayGn" />
+  <Text Key="Chip.DarkReygunDesc" Value="MORE PAIN,MORE GAIN,EVIL SHOT" />
+  <Text Key="Chip.DarkSandName" Value="DrkDesrt" />
+  <Text Key="Chip.DarkSandDesc" Value="FIVE SAND,PITS FILL,ENEMY AREA" />
+  <Text Key="Chip.DarkSparkName" Value="DrkSpark" />
+  <Text Key="Chip.DarkSparkDesc" Value="DARK BEAM,PIERCES,FOES SOULS" />
+  <Text Key="Chip.DarkWiperName" Value="DrkWiper" />
+  <Text Key="Chip.DarkWiperDesc" Value="TOXIN COATED,DARK SCISSOR,CUTS DEEP" />
+  <Text Key="Chip.DeathWiper1Name" Value="DethWpr1" />
+  <Text Key="Chip.DeathWiper1Desc" Value="2x3 panel deadly,poison slash!" />
+  <Text Key="Chip.DeathWiper2Name" Value="DethWpr2" />
+  <Text Key="Chip.DeathWiper2Desc" Value="2x3 panel deadly,poison slash!" />
+  <Text Key="Chip.DeathWiper3Name" Value="DethWpr3" />
+  <Text Key="Chip.DeathWiper3Desc" Value="2x3 panel deadly,poison slash!" />
+  <Text Key="Chip.DigDrill1Name" Value="DigDril1" />
+  <Text Key="Chip.DigDrill1Desc" Value="2 panel long drill,hits 3 times!" />
+  <Text Key="Chip.DigDrill2Name" Value="DigDril2" />
+  <Text Key="Chip.DigDrill2Desc" Value="2 panel long drill,hits 3 times!" />
+  <Text Key="Chip.DigDrill3Name" Value="DigDril3" />
+  <Text Key="Chip.DigDrill3Desc" Value="2 panel long drill,hits 3 times!" />
+  <Text Key="Chip.DigDrillXName" Value="DigDrilX" />
+  <Text Key="Chip.DigDrillXDesc" Value="2 panel long drill,hits 3 times!" />
+  <Text Key="Chip.DisasterCrowName" Value="DisastrClw" />
+  <Text Key="Chip.DisasterCrowDesc" Value="Vertical and,horizonal claws,2 panels ahead!" />
+  <Text Key="Chip.DragnoBreath1Name" Value="DrgnFlm1" />
+  <Text Key="Chip.DragnoBreath1Desc" Value="Wide spreading,dragon breath,burns enemies!" />
+  <Text Key="Chip.DragnoBreath2Name" Value="DrgnFlm2" />
+  <Text Key="Chip.DragnoBreath2Desc" Value="Wide spreading,dragon breath,burns enemies!" />
+  <Text Key="Chip.DragnoBreath3Name" Value="DrgnFlm3" />
+  <Text Key="Chip.DragnoBreath3Desc" Value="Wide spreading,dragon breath,burns enemies!" />
+  <Text Key="Chip.DreamMeteoName" Value="LifeMeteor" />
+  <Text Key="Chip.DreamMeteoDesc" Value="Call 5 meteors,that explode on,impact!" />
+  <Text Key="Chip.DrillBreakerName" Value="DrillBreak" />
+  <Text Key="Chip.DrillBreakerDesc" Value="3 drill assault，,followed by,lightning strikes!" />
+  <Text Key="Chip.DustBombName" Value="DustBomb" />
+  <Text Key="Chip.DustBombDesc" Value="Lob a junk,cross-bomb,3 panels ahead!" />
+  <Text Key="Chip.ElekiChain1Name" Value="ElChain1" />
+  <Text Key="Chip.ElekiChain1Desc" Value="Stun and pull foe,with 3 panel long,chain!" />
+  <Text Key="Chip.ElekiChain2Name" Value="ElChain2" />
+  <Text Key="Chip.ElekiChain2Desc" Value="Stun and pull foe,with 3 panel long,chain!" />
+  <Text Key="Chip.ElekiChain3Name" Value="ElChain3" />
+  <Text Key="Chip.ElekiChain3Desc" Value="Stun and pull foe,with 3 panel long,chain!" />
+  <Text Key="Chip.ElekiChainXName" Value="ElChainX" />
+  <Text Key="Chip.ElekiChainXDesc" Value="Stun and pull foe,with 3 panel long,chain!" />
+  <Text Key="Chip.ElekiDrillName" Value="ElecDril" />
+  <Text Key="Chip.ElekiDrillDesc" Value="2 panel long Elec,drill hits 3 times!" />
+  <Text Key="Chip.ElekiFang1Name" Value="EleFang1" />
+  <Text Key="Chip.ElekiFang1Desc" Value="Conduct forked,electric bolts!" />
+  <Text Key="Chip.ElekiFang2Name" Value="EleFang2" />
+  <Text Key="Chip.ElekiFang2Desc" Value="Conduct forked,electric bolts!" />
+  <Text Key="Chip.ElekiFang3Name" Value="EleFang3" />
+  <Text Key="Chip.ElekiFang3Desc" Value="Conduct forked,electric bolts!" />
+  <Text Key="Chip.ElekiNetName" Value="ElecNet" />
+  <Text Key="Chip.ElekiNetDesc" Value="Set a stunning,spider web,3 panels ahead!" />
+  <Text Key="Chip.ElekiStormName" Value="MagStorm" />
+  <Text Key="Chip.ElekiStormDesc" Value="Elec tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.ElementsAuraName" Value="ElemAura" />
+  <Text Key="Chip.ElementsAuraDesc" Value="Aura repels,non-elemental,attacks!" />
+  <Text Key="Chip.ElementSwordName" Value="ElmntSonic" />
+  <Text Key="Chip.ElementSwordDesc" Value="Slash 4 times,with Heat，Aqua，,Elec，and Leaf!" />
+  <Text Key="Chip.EndlessSaharaName" Value="VastSahara" />
+  <Text Key="Chip.EndlessSaharaDesc" Value="Spawning sand,pits spread in,enemy area!" />
+  <Text Key="Chip.EriabashName" Value="AreaGrab" />
+  <Text Key="Chip.EriabashDesc" Value="Steal the next,enemy row!" />
+  <Text Key="Chip.EriaGuardName" Value="AreaHold" />
+  <Text Key="Chip.EriaGuardDesc" Value="One more row,can't be stolen,by enemies!" />
+  <Text Key="Chip.EXSprayGunName" Value="EXSprayGun" />
+  <Text Key="Chip.EXSprayGunDesc" Value="Spray strong,poison gas 2 to,3 panels ahead!" />
+  <Text Key="Chip.FalBreazerName" Value="FalBlazer" />
+  <Text Key="Chip.FalBreazerDesc" Value="Breath blast,reaches to,farthest foe!" />
+  <Text Key="Chip.FireArm1Name" Value="FireArm1" />
+  <Text Key="Chip.FireArm1Desc" Value="Fire 3 panel long,flame jet that,pierces guards!!" />
+  <Text Key="Chip.FireArm2Name" Value="FireArm2" />
+  <Text Key="Chip.FireArm2Desc" Value="Fire 3 panel long,flame jet that,pierces guards!!" />
+  <Text Key="Chip.FireArm3Name" Value="FireArm3" />
+  <Text Key="Chip.FireArm3Desc" Value="Fire 3 panel long,flame jet that,pierces guards!!" />
+  <Text Key="Chip.FireArmXName" Value="FireArmX" />
+  <Text Key="Chip.FireArmXDesc" Value="Fire 3 panel long,flame jet that,pierces guards!!" />
+  <Text Key="Chip.FireNetName" Value="FireNet" />
+  <Text Key="Chip.FireNetDesc" Value="Set a melting,spider web,3 panels ahead!" />
+  <Text Key="Chip.FlaeGun1Name" Value="FlarGun" />
+  <Text Key="Chip.FlaeGun1Desc" Value="Fireball explodes,3 panels ahead,unless it hits!" />
+  <Text Key="Chip.FlaeGun2Name" Value="MFlarGun" />
+  <Text Key="Chip.FlaeGun2Desc" Value="Fireball explodes,3 panels ahead,unless it hits!" />
+  <Text Key="Chip.FlaeGun3Name" Value="GFlarGun" />
+  <Text Key="Chip.FlaeGun3Desc" Value="Fireball explodes,3 panels ahead,unless it hits!" />
+  <Text Key="Chip.FlaeGunXName" Value="FlarGunX" />
+  <Text Key="Chip.FlaeGunXDesc" Value="Fireball explodes,3 panels ahead,unless it hits!" />
+  <Text Key="Chip.FlashBurnName" Value="FlashBang" />
+  <Text Key="Chip.FlashBurnDesc" Value="Bright flash stops,movement and,erases shadows!" />
+  <Text Key="Chip.FloatBarrierName" Value="FlotBarr" />
+  <Text Key="Chip.FloatBarrierDesc" Value="Generate a,floating barrier!" />
+  <!-- キンキュウカイヒ -->
+  <Text Key="Chip.FlyngName" Value="Evade" />
+  <!--  -->
+  <Text Key="Chip.FlyngDesc" Value="" />
+  <Text Key="Chip.FreezerSwordName" Value="FreezerSrd" />
+  <Text Key="Chip.FreezerSwordDesc" Value="Huge ice sword,breaks 3 panels!" />
+  <Text Key="Chip.FuhathuNapalmName" Value="BlkNplm" />
+  <Text Key="Chip.FuhathuNapalmDesc" Value="Lob 3 panels,ahead，then add,Heat to detonate!" />
+  <Text Key="Chip.GhostBodyName" Value="GhostBdy" />
+  <Text Key="Chip.GhostBodyDesc" Value="Turn invisible and,avoid damage for,a short time!" />
+  <Text Key="Chip.GigaHalberdName" Value="GHalberd" />
+  <Text Key="Chip.GigaHalberdDesc" Value="2 panel long,3 panel wide,Huge Halberd!" />
+  <Text Key="Chip.GigantWaveName" Value="GiantWav" />
+  <Text Key="Chip.GigantWaveDesc" Value="Shockwave,passes through,objects and foes!" />
+  <Text Key="Chip.GigaReygunName" Value="GRayGun" />
+  <Text Key="Chip.GigaReygunDesc" Value="Attack an enemy,ahead! Shot hits,instantly!" />
+  <Text Key="Chip.GigaTomahawkName" Value="GigaHawk" />
+  <Text Key="Chip.GigaTomahawkDesc" Value="Circles the stage，,or goes up and,down middle row!" />
+  <Text Key="Chip.GrassRoadName" Value="GrasRoad" />
+  <Text Key="Chip.GrassRoadDesc" Value="Turn row into,grass panels!" />
+  <Text Key="Chip.GrassStageName" Value="GrasStge" />
+  <Text Key="Chip.GrassStageDesc" Value="Turn stage into,grass panels!" />
+  <Text Key="Chip.GraviBall1Name" Value="GrvBall1" />
+  <Text Key="Chip.GraviBall1Desc" Value="Homing gravity,orb makes,enemy heavy!" />
+  <Text Key="Chip.GraviBall2Name" Value="GrvBall2" />
+  <Text Key="Chip.GraviBall2Desc" Value="Homing gravity,orb makes,enemy heavy!" />
+  <Text Key="Chip.GraviBall3Name" Value="GrvBall3" />
+  <Text Key="Chip.GraviBall3Desc" Value="Homing gravity,orb makes,enemy heavy!" />
+  <Text Key="Chip.GraviBallXName" Value="GrvBallX" />
+  <Text Key="Chip.GraviBallXDesc" Value="Homing gravity,orb makes,enemy heavy!" />
+  <Text Key="Chip.GraviFieldName" Value="GrvField" />
+  <Text Key="Chip.GraviFieldDesc" Value="Make all enemies,heavy!" />
+  <Text Key="Chip.GroundWaveName" Value="GrounWav" />
+  <Text Key="Chip.GroundWaveDesc" Value="Shockwave,passes through,objects and foes!" />
+  <Text Key="Chip.Hakkero1Name" Value="Hakkero1" />
+  <Text Key="Chip.Hakkero1Desc" Value="Fire piercing laser,straight ahead!" />
+  <Text Key="Chip.Hakkero2Name" Value="Hakkero2" />
+  <Text Key="Chip.Hakkero2Desc" Value="Fire piercing laser,straight ahead!" />
+  <Text Key="Chip.Hakkero3Name" Value="Hakkero3" />
+  <Text Key="Chip.Hakkero3Desc" Value="Fire piercing laser,straight ahead!" />
+  <Text Key="Chip.HakurouBladeName" Value="Hakurokn" />
+  <Text Key="Chip.HakurouBladeDesc" Value="Legendary Knfe,cut through all,defenders!" />
+  <Text Key="Chip.HakutakuManV1Name" Value="HkuTkuM" />
+  <Text Key="Chip.HakutakuManV1Desc" Value="Claw through,your enemies!,But on grass....?" />
+  <Text Key="Chip.HakutakuManV2Name" Value="HkuTkuMV2" />
+  <Text Key="Chip.HakutakuManV2Desc" Value="Claw through,your enemies!,But on grass....?" />
+  <Text Key="Chip.HakutakuManV3Name" Value="HkuTkuMV3" />
+  <Text Key="Chip.HakutakuManV3Desc" Value="Claw through,your enemies!,But on grass....?" />
+  <Text Key="Chip.HakutakuManXName" Value="HkuTkuMX" />
+  <Text Key="Chip.HakutakuManXDesc" Value="Claw through,your enemies!,But on grass....?" />
+  <Text Key="Chip.HealBarrierName" Value="HealBarr" />
+  <Text Key="Chip.HealBarrierDesc" Value="Generate a,healing barrier!" />
+  <Text Key="Chip.HeatSwordName" Value="HeatSwrd" />
+  <Text Key="Chip.HeatSwordDesc" Value="Slice row ahead,with Heat sword!" />
+  <Text Key="Chip.HeavyAnchor1Name" Value="HvyAnch1" />
+  <Text Key="Chip.HeavyAnchor1Desc" Value="Drop a huge,cracking anchor,3 panels ahead!" />
+  <Text Key="Chip.HeavyAnchor2Name" Value="HvyAnch2" />
+  <Text Key="Chip.HeavyAnchor2Desc" Value="Drop a huge,cracking anchor,3 panels ahead!" />
+  <Text Key="Chip.HeavyAnchor3Name" Value="HvyAnch3" />
+  <Text Key="Chip.HeavyAnchor3Desc" Value="Drop a huge,cracking anchor,3 panels ahead!" />
+  <Text Key="Chip.TurtleHockeyName" Value="ShellHoc" />
+  <Text Key="Chip.TurtleHockeyDesc" Value="Tortoise shell,bounces around!" />
+  <Text Key="Chip.HellsHockeyName" Value="HellsHoc" />
+  <Text Key="Chip.HellsHockeyDesc" Value="Tortoise shell,bounces around!" />
+  <Text Key="Chip.HellStormName" Value="HotStorm" />
+  <Text Key="Chip.HellStormDesc" Value="Heat tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.HiCanonName" Value="HiCannon" />
+  <Text Key="Chip.HiCanonDesc" Value="Fire a 3 row,wide laser up to,3 panels away!" />
+  <Text Key="Chip.HiMegaCanonName" Value="HiMCannon" />
+  <Text Key="Chip.HiMegaCanonDesc" Value="Fire a 3 row,wide laser up to,3 panels away!" />
+  <Text Key="Chip.HyperSpannerName" Value="HyprSpannr" />
+  <Text Key="Chip.HyperSpannerDesc" Value="Toss 2x2 large,Boomerang,Spanner!" />
+  <Text Key="Chip.IceRoadName" Value="IceRoad" />
+  <Text Key="Chip.IceRoadDesc" Value="Turn row into,ice panels!" />
+  <Text Key="Chip.IceStageName" Value="IceStge" />
+  <Text Key="Chip.IceStageDesc" Value="Turn stage into,ice panels!" />
+  <Text Key="Chip.IceSwordName" Value="IceSwrd" />
+  <Text Key="Chip.IceSwordDesc" Value="Slice row ahead,with ice sword!" />
+  <Text Key="Chip.IkuV1Name" Value="Iku" />
+  <Text Key="Chip.IkuV1Desc" Value="Piercing line of,lightning strikes,3 rows ahead!" />
+  <Text Key="Chip.IkuV2Name" Value="IkuV2" />
+  <Text Key="Chip.IkuV2Desc" Value="Piercing line of,lightning strikes,3 rows ahead!" />
+  <Text Key="Chip.IkuV3Name" Value="IkuV3" />
+  <Text Key="Chip.IkuV3Desc" Value="Piercing line of,lightning strikes,3 rows ahead!" />
+  <Text Key="Chip.IkuXName" Value="IkuX" />
+  <Text Key="Chip.IkuXDesc" Value="Piercing line of,lightning strikes,3 rows ahead!" />
+  <Text Key="Chip.InfiniteHandsName" Value="InfintHnds" />
+  <Text Key="Chip.InfiniteHandsDesc" Value="Endless dark,hands rush,enemy area!" />
+  <Text Key="Chip.JusticeReyName" Value="JusticeRay" />
+  <Text Key="Chip.JusticeReyDesc" Value="Rays of justice,pierce invincibility,then damage!" />
+  <Text Key="Chip.KarehaWave1Name" Value="LeafWav1" />
+  <Text Key="Chip.KarehaWave1Desc" Value="Wave of dead,leaves zigzags,forward!" />
+  <Text Key="Chip.KarehaWave2Name" Value="LeafWav2" />
+  <Text Key="Chip.KarehaWave2Desc" Value="Wave of dead,leaves zigzags,forward!" />
+  <Text Key="Chip.KarehaWave3Name" Value="LeafWav3" />
+  <Text Key="Chip.KarehaWave3Desc" Value="Wave of dead,leaves zigzags,forward!" />
+  <!-- キクリ -->
+  <Text Key="Chip.KikuriName" Value="Kikuri" />
+  <!-- ランダムに光線が降り注ぎ　天からサテライトバーン！ -->
+  <Text Key="Chip.KikuriDesc" Value="Random rays from,heaven followed by,satellite burn!" />
+  <Text Key="Chip.KishinCanonName" Value="RageCannon" />
+  <Text Key="Chip.KishinCanonDesc" Value="On hit，fire off 4,explosive cannon,rounds!" />
+  <Text Key="Chip.KnifeName" Value="Knife" />
+  <Text Key="Chip.KnifeDesc" Value="Quickly slice with,small knife!" />
+  <Text Key="Chip.KnightLanceName" Value="KnghtLnc" />
+  <Text Key="Chip.KnightLanceDesc" Value="Thrust a 2 panel,long lance!" />
+  <Text Key="Chip.LanceName" Value="Lance" />
+  <Text Key="Chip.LanceDesc" Value="Thrust a 2 panel,long lance!" />
+  <Text Key="Chip.LeafStormName" Value="GrasGale" />
+  <Text Key="Chip.LeafStormDesc" Value="Leaf tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.LeafSwordName" Value="LeafSwrd" />
+  <Text Key="Chip.LeafSwordDesc" Value="Slice row ahead,with Leaf sword!" />
+  <Text Key="Chip.LifeShieldName" Value="LifeShld" />
+  <Text Key="Chip.LifeShieldDesc" Value="Reflect enemy,attacks and heal!" />
+  <Text Key="Chip.LjiOtama1Name" Value="Tadpole1" />
+  <Text Key="Chip.LjiOtama1Desc" Value="Tadpole turns,once towards,closest enemy!" />
+  <Text Key="Chip.LjiOtama2Name" Value="Tadpole2" />
+  <Text Key="Chip.LjiOtama2Desc" Value="Tadpole turns,once towards,closest enemy!" />
+  <Text Key="Chip.LjiOtama3Name" Value="Tadpole3" />
+  <Text Key="Chip.LjiOtama3Desc" Value="Tadpole turns,once towards,closest enemy!" />
+  <Text Key="Chip.LjiOtamaXName" Value="TadpoleX" />
+  <Text Key="Chip.LjiOtamaXDesc" Value="Tadpole turns,once towards,closest enemy!" />
+  <Text Key="Chip.MagicBombName" Value="MagiBomb" />
+  <Text Key="Chip.MagicBombDesc" Value="Lob a magic,cross-bomb,3 panels ahead!" />
+  <Text Key="Chip.MagicBombXName" Value="MagiBomX" />
+  <Text Key="Chip.MagicBombXDesc" Value="Lob a magic,cross-bomb,3 panels ahead!" />
+  <Text Key="Chip.MarisaV1Name" Value="Marisa" />
+  <Text Key="Chip.MarisaV1Desc" Value="Fire a Narrow,Spark straight,ahead!" />
+  <Text Key="Chip.MarisaV2Name" Value="MarisaV2" />
+  <Text Key="Chip.MarisaV2Desc" Value="Fire a Narrow,Spark straight,ahead!" />
+  <Text Key="Chip.MarisaV3Name" Value="MarisaV3" />
+  <Text Key="Chip.MarisaV3Desc" Value="Fire a Narrow,Spark straight,ahead!" />
+  <Text Key="Chip.MarisaXName" Value="MarisaX" />
+  <Text Key="Chip.MarisaXDesc" Value="Fire a Narrow,Spark straight,ahead!" />
+  <Text Key="Chip.MassDriverName" Value="MassDriver" />
+  <Text Key="Chip.MassDriverDesc" Value="EM Cannon hits,5 objects!" />
+  <Text Key="Chip.MasterSparkName" Value="MastrSpark" />
+  <Text Key="Chip.MasterSparkDesc" Value="Fire a giant 3 row,wide laser ahead!" />
+  <Text Key="Chip.MasterStyleName" Value="MastrStyle" />
+  <Text Key="Chip.MasterStyleDesc" Value="7 attacks using,each style and,each element!" />
+  <Text Key="Chip.MedicineV1Name" Value="Medicine" />
+  <Text Key="Chip.MedicineV1Desc" Value="Gather poison,panels and toss,3 panels ahead!" />
+  <Text Key="Chip.MedicineV2Name" Value="MedicinV2" />
+  <Text Key="Chip.MedicineV2Desc" Value="Gather poison,panels and toss,3 panels ahead!" />
+  <Text Key="Chip.MedicineV3Name" Value="MedicinV3" />
+  <Text Key="Chip.MedicineV3Desc" Value="Gather poison,panels and toss,3 panels ahead!" />
+  <Text Key="Chip.MedicineXName" Value="MedicinX" />
+  <Text Key="Chip.MedicineXDesc" Value="Gather poison,panels and toss,3 panels ahead!" />
+  <Text Key="Chip.MedousaEyeName" Value="MedusEye" />
+  <Text Key="Chip.MedousaEyeDesc" Value="Petrification Ray!,Viruses to Stone，,Navis to Heavy!" />
+  <Text Key="Chip.MegaHalberdName" Value="MHalberd" />
+  <Text Key="Chip.MegaHalberdDesc" Value="2 panel long,3 panel wide,Huge Halberd!" />
+  <Text Key="Chip.MegaReygunName" Value="MRayGun" />
+  <Text Key="Chip.MegaReygunDesc" Value="Attack an enemy,ahead! Shot hits,instantly!" />
+  <Text Key="Chip.MegaTomahawkName" Value="MegaHawk" />
+  <Text Key="Chip.MegaTomahawkDesc" Value="Circles the stage，,or goes up and,down middle row!" />
+  <Text Key="Chip.MeltRawName" Value="MeltWax" />
+  <Text Key="Chip.MeltRawDesc" Value="Melt all enemies!" />
+  <Text Key="Chip.MetalAuraName" Value="MtlAura" />
+  <Text Key="Chip.MetalAuraDesc" Value="Aura repels,non-breaking,attacks!" />
+  <Text Key="Chip.MetalCubeName" Value="MtlCube" />
+  <Text Key="Chip.MetalCubeDesc" Value="Metal Cube,shields you from,attack!" />
+  <Text Key="Chip.MetalNapalmName" Value="MtlNplm" />
+  <Text Key="Chip.MetalNapalmDesc" Value="Lob fire bomb,3 panels ahead!,Breaks on impact!" />
+  <Text Key="Chip.MetalNapalmXName" Value="MtlNplmX" />
+  <Text Key="Chip.MetalNapalmXDesc" Value="Lob fire bomb,3 panels ahead!,Breaks on impact!" />
+  <!-- ミライエイゴウザン -->
+  <Text Key="Chip.MiraiEigouZanName" Value="EtrnlCut" />
+  <!-- 前方の敵１体を周囲から連続でめった斬り！ -->
+  <Text Key="Chip.MiraiEigouZanDesc" Value="Slash a single,enemy ahead,from all angles!" />
+  <Text Key="Chip.MithrillNapalmName" Value="MythNplm" />
+  <Text Key="Chip.MithrillNapalmDesc" Value="Lob fire bomb,3 panels ahead!,Breaks on impact!" />
+  <Text Key="Chip.MonkeyPole1Name" Value="MnkyPol1" />
+  <Text Key="Chip.MonkeyPole1Desc" Value="Poles strike foe's,last row!" />
+  <Text Key="Chip.MonkeyPole2Name" Value="MnkyPol2" />
+  <Text Key="Chip.MonkeyPole2Desc" Value="Poles strike foe's,last row!" />
+  <Text Key="Chip.MonkeyPole3Name" Value="MnkyPol3" />
+  <Text Key="Chip.MonkeyPole3Desc" Value="Poles strike foe's,last row!" />
+  <Text Key="Chip.MonkeyPoleXName" Value="MnkyPolX" />
+  <Text Key="Chip.MonkeyPoleXDesc" Value="Poles strike foe's,last row!" />
+  <Text Key="Chip.MrasaV1Name" Value="Murasa" />
+  <Text Key="Chip.MrasaV1Desc" Value="Smash an enemy,from above with,a Great Anchor!" />
+  <Text Key="Chip.MrasaV2Name" Value="MurasaV2" />
+  <Text Key="Chip.MrasaV2Desc" Value="Smash an enemy,from above with,a Great Anchor!" />
+  <Text Key="Chip.MrasaV3Name" Value="MurasaV3" />
+  <Text Key="Chip.MrasaV3Desc" Value="Smash an enemy,from above with,a Great Anchor!" />
+  <Text Key="Chip.MrasaXName" Value="MurasaX" />
+  <Text Key="Chip.MrasaXDesc" Value="Smash an enemy,from above with,a Great Anchor!" />
+  <Text Key="Chip.OkatazukeName" Value="CleanUp" />
+  <Text Key="Chip.OkatazukeDesc" Value="Fix your area and,destroy objects!" />
+  <Text Key="Chip.OmegaSaberName" Value="O-Saber" />
+  <Text Key="Chip.OmegaSaberDesc" Value="Messiah Sword,slashes 2 panels,ahead 3 times!" />
+  <Text Key="Chip.PaladinLanceName" Value="PaldnLnc" />
+  <Text Key="Chip.PaladinLanceDesc" Value="Thrust a 2 panel,long lance!" />
+  <Text Key="Chip.PanelShoot1Name" Value="PnlShot1" />
+  <Text Key="Chip.PanelShoot1Desc" Value="Toss 1 panel,ahead!,Terrain power up!" />
+  <Text Key="Chip.PanelShoot2Name" Value="PnlShot2" />
+  <Text Key="Chip.PanelShoot2Desc" Value="Toss 3 vertical,panels ahead!,Terrain power up!" />
+  <Text Key="Chip.PanelShoot3Name" Value="PnlShot3" />
+  <Text Key="Chip.PanelShoot3Desc" Value="Toss 2 horizontal,panels ahead!,Terrain power up!" />
+  <Text Key="Chip.PanelShootXName" Value="PnlShotX" />
+  <Text Key="Chip.PanelShootXDesc" Value="Toss 3 vertical,panels ahead!,Terrain power up!" />
+  <Text Key="Chip.ParayzeCassetteName" Value="StunGame" />
+  <Text Key="Chip.ParayzeCassetteDesc" Value="Above chip gains,stun effect!" />
+  <Text Key="Chip.PlantPrisonName" Value="PlantPrisn" />
+  <Text Key="Chip.PlantPrisonDesc" Value="Ivy constricts,movement and,damages foes!" />
+  <Text Key="Chip.PoisonNetName" Value="PoisNet" />
+  <Text Key="Chip.PoisonNetDesc" Value="Set a poisonous,spider web,3 panels ahead!" />
+  <Text Key="Chip.PoisonRoadName" Value="PoisRoad" />
+  <Text Key="Chip.PoisonRoadDesc" Value="Turn row into,poison panels!" />
+  <Text Key="Chip.PoisonShotName" Value="VnmShot" />
+  <Text Key="Chip.PoisonShotDesc" Value="Lob poison 3,panels ahead!,Poisons panels!" />
+  <Text Key="Chip.PoisonShotXName" Value="VnmShotX" />
+  <Text Key="Chip.PoisonShotXDesc" Value="Lob poison 3,panels ahead!,Poisons panels!" />
+  <Text Key="Chip.PoisonStageName" Value="PoisStge" />
+  <Text Key="Chip.PoisonStageDesc" Value="Turn stage into,poison panels!" />
+  <Text Key="Chip.PonpocoJizou1Name" Value="TanuGod1" />
+  <Text Key="Chip.PonpocoJizou1Desc" Value="Divine retribution,when attacked!" />
+  <Text Key="Chip.PonpocoJizou2Name" Value="TanuGod2" />
+  <Text Key="Chip.PonpocoJizou2Desc" Value="Divine retribution,when attacked!" />
+  <Text Key="Chip.PonpocoJizou3Name" Value="TanuGod3" />
+  <Text Key="Chip.PonpocoJizou3Desc" Value="Divine retribution,when attacked!" />
+  <Text Key="Chip.PonpocoJizouXName" Value="TanuGodX" />
+  <Text Key="Chip.PonpocoJizouXDesc" Value="Divine retribution,when attacked!" />
+  <Text Key="Chip.PowerAuraName" Value="PwrAura" />
+  <Text Key="Chip.PowerAuraDesc" Value="Aura repels,attacks with less,than 80 power!" />
+  <Text Key="Chip.PowerOfEarthName" Value="EarthPwr" />
+  <Text Key="Chip.PowerOfEarthDesc" Value="Elemental attacks,rise from terrain!" />
+  <Text Key="Chip.PowerPlus10Name" Value="Power+10" />
+  <Text Key="Chip.PowerPlus10Desc" Value="Above chip gains,+10 power!" />
+  <Text Key="Chip.PowerPlus30Name" Value="Power+30" />
+  <Text Key="Chip.PowerPlus30Desc" Value="Above chip gains,+30 power!" />
+  <Text Key="Chip.ProtonThunderName" Value="AlphaThndr" />
+  <Text Key="Chip.ProtonThunderDesc" Value="Conduct 10,alternating,electric bolts!" />
+  <Text Key="Chip.PushWindName" Value="HeadWind" />
+  <Text Key="Chip.PushWindDesc" Value="Wind gusts push,enemies away,for a while!" />
+  <Text Key="Chip.PyroManV1Name" Value="PyroM" />
+  <Text Key="Chip.PyroManV1Desc" Value="Ignite 3 enemy,panels 3 times!" />
+  <Text Key="Chip.PyroManV2Name" Value="PyroMV2" />
+  <Text Key="Chip.PyroManV2Desc" Value="Ignite 3 enemy,panels 3 times!" />
+  <Text Key="Chip.PyroManV3Name" Value="PyroMV3" />
+  <Text Key="Chip.PyroManV3Desc" Value="Ignite 3 enemy,panels 3 times!" />
+  <Text Key="Chip.PyroManXName" Value="PyroMX" />
+  <Text Key="Chip.PyroManXDesc" Value="Ignite 3 enemy,panels 3 times!" />
+  <Text Key="Chip.QuickCustomName" Value="FstGauge" />
+  <Text Key="Chip.QuickCustomDesc" Value="Custom Gauge,speeds up!" />
+  <Text Key="Chip.Railgun1Name" Value="Railgun1" />
+  <Text Key="Chip.Railgun1Desc" Value="Railgun destroys,panels ahead!" />
+  <Text Key="Chip.Railgun2Name" Value="Railgun2" />
+  <Text Key="Chip.Railgun2Desc" Value="Railgun destroys,panels ahead!" />
+  <Text Key="Chip.Railgun3Name" Value="Railgun3" />
+  <Text Key="Chip.Railgun3Desc" Value="Railgun destroys,panels ahead!" />
+  <Text Key="Chip.RailgunXName" Value="RailgunX" />
+  <Text Key="Chip.RailgunXDesc" Value="Railgun destroys,panels ahead!" />
+  <Text Key="Chip.RainAnchorName" Value="AnchorRain" />
+  <Text Key="Chip.RainAnchorDesc" Value="Drop 27 anchors,onto your foe’s,entire area!" />
+  <Text Key="Chip.RanV1Name" Value="Ran" />
+  <Text Key="Chip.RanV1Desc" Value="MachineGunRay!,18 shots fly down,random rows!" />
+  <Text Key="Chip.RanV2Name" Value="RanV2" />
+  <Text Key="Chip.RanV2Desc" Value="MachineGunRay!,21 shots fly down,random rows!" />
+  <Text Key="Chip.RanV3Name" Value="RanV3" />
+  <Text Key="Chip.RanV3Desc" Value="MachineGunRay!,27 shots fly down,random rows!" />
+  <Text Key="Chip.RanXName" Value="RanX" />
+  <Text Key="Chip.RanXDesc" Value="MachineGunRay!,18 shots fly down,random rows!" />
+  <Text Key="Chip.RebirthShieldName" Value="RevShld" />
+  <Text Key="Chip.RebirthShieldDesc" Value="Reflect enemy,attacks as a,shockwave!" />
+  <Text Key="Chip.RebirthShieldXName" Value="RevShldX" />
+  <Text Key="Chip.RebirthShieldXDesc" Value="Reflect enemy,attacks as a,shockwave" />
+  <Text Key="Chip.ReflectShieldName" Value="RflcShld" />
+  <Text Key="Chip.ReflectShieldDesc" Value="Reflect enemy,attacks for,double damage!" />
+  <Text Key="Chip.RefreRoadName" Value="NormRoad" />
+  <Text Key="Chip.RefreRoadDesc" Value="Turn row into,normal panels!" />
+  <Text Key="Chip.RefreStageName" Value="NormStge" />
+  <Text Key="Chip.RefreStageDesc" Value="Turn stage into,normal panels!" />
+  <Text Key="Chip.Repair100Name" Value="Recov100" />
+  <Text Key="Chip.Repair100Desc" Value="Heal a Navi by,100 HP!" />
+  <Text Key="Chip.Repair150Name" Value="Recov150" />
+  <Text Key="Chip.Repair150Desc" Value="Heal a Navi by,150 HP!" />
+  <Text Key="Chip.Repair20Name" Value="Recov20" />
+  <Text Key="Chip.Repair20Desc" Value="Heal a Navi by,20 HP!" />
+  <Text Key="Chip.Repair200Name" Value="Recov200" />
+  <Text Key="Chip.Repair200Desc" Value="Heal a Navi by,200 HP!" />
+  <Text Key="Chip.Repair300Name" Value="Recov300" />
+  <Text Key="Chip.Repair300Desc" Value="Heal a Navi by,300 HP!" />
+  <Text Key="Chip.Repair50Name" Value="Recov50" />
+  <Text Key="Chip.Repair50Desc" Value="Heal a Navi by,50 HP!" />
+  <Text Key="Chip.Repair500Name" Value="Recov500" />
+  <Text Key="Chip.Repair500Desc" Value="Heal a Navi by,500 HP!" />
+  <Text Key="Chip.ResistName" Value="Resist" />
+  <Text Key="Chip.ResistDesc" Value="Cure and prevent,against statuses!" />
+  <Text Key="Chip.ReygunName" Value="RayGun" />
+  <Text Key="Chip.ReygunDesc" Value="Attack an enemy,ahead! Shot hits,instantly!" />
+  <Text Key="Chip.RoukanBladeName" Value="Roukankn" />
+  <Text Key="Chip.RoukanBladeDesc" Value="Legendary Sword,hits null element,for 2x damage!" />
+  <Text Key="Chip.SakuyaV1Name" Value="Sakuya" />
+  <Text Key="Chip.SakuyaV1Desc" Value="Place knives,around enemies!" />
+  <Text Key="Chip.SakuyaV2Name" Value="SakuyaV2" />
+  <Text Key="Chip.SakuyaV2Desc" Value="Place knives,around enemies!" />
+  <Text Key="Chip.SakuyaV3Name" Value="SakuyaV3" />
+  <Text Key="Chip.SakuyaV3Desc" Value="Place knives,around enemies!" />
+  <Text Key="Chip.SakuyaXName" Value="SakuyaX" />
+  <Text Key="Chip.SakuyaXDesc" Value="Place knives,around enemies!" />
+  <!-- ビビティバット -->
+  <Text Key="Chip.SamonBibityName" Value="MissilMV2" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SamonBibityDesc" Value="Not implemented:,Chip does not,appear or work" />
+  <Text Key="Chip.SamonKedamarName" Value="SpannrMV2" />
+  <Text Key="Chip.SamonKedamarDesc" Value="Hit twice with Arm,and Spanner!" />
+  <!-- プチオニ -->
+  <Text Key="Chip.SamonPuchioniName" Value="MissilM" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SamonPuchioniDesc" Value="Not implemented:,Chip does not,appear or work" />
+  <Text Key="Chip.SamonReyCanonName" Value="SpannrMV3" />
+  <Text Key="Chip.SamonReyCanonDesc" Value="Hit twice with Arm,and Spanner!" />
+  <Text Key="Chip.SandHell1Name" Value="SandPit1" />
+  <Text Key="Chip.SandHell1Desc" Value="Spawn a sand,pit randomly in,enemy area!" />
+  <Text Key="Chip.SandHell2Name" Value="SandPit2" />
+  <Text Key="Chip.SandHell2Desc" Value="Spawn 2 sand,pits randomly in,enemy area!" />
+  <Text Key="Chip.SandHell3Name" Value="SandPit3" />
+  <Text Key="Chip.SandHell3Desc" Value="Spawn 3 sand,pits randomly in,enemy area!" />
+  <Text Key="Chip.SandRoadName" Value="SandRoad" />
+  <Text Key="Chip.SandRoadDesc" Value="Turn row into,sand panels!" />
+  <Text Key="Chip.SandStageName" Value="SandStge" />
+  <Text Key="Chip.SandStageDesc" Value="Turn stage into,sand panels!" />
+  <Text Key="Chip.SandStormName" Value="SndStorm" />
+  <Text Key="Chip.SandStormDesc" Value="Sand tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.SathujinDollName" Value="KillerDoll" />
+  <Text Key="Chip.SathujinDollDesc" Value="Place knives in,empty panels!" />
+  <Text Key="Chip.ScissorManV1Name" Value="ScissorM" />
+  <Text Key="Chip.ScissorManV1Desc" Value="Meteor Sickles,impale 2nd pnl,ahd &amp; back row" />
+  <Text Key="Chip.ScissorManV2Name" Value="ScissrMV2" />
+  <Text Key="Chip.ScissorManV2Desc" Value="Meteor Sickles,impale 2nd pnl,ahd &amp; back row" />
+  <Text Key="Chip.ScissorManV3Name" Value="ScissrMV3" />
+  <Text Key="Chip.ScissorManV3Desc" Value="Meteor Sickles,impale 2nd pnl,ahd &amp; back row" />
+  <Text Key="Chip.ScissorManXName" Value="ScissrMX" />
+  <Text Key="Chip.ScissorManXDesc" Value="Meteor Sickles,impale 2nd pnl,ahd &amp; back row" />
+  <Text Key="Chip.SeedCanon1Name" Value="SeedCan1" />
+  <Text Key="Chip.SeedCanon1Desc" Value="Grass blast if,shot hits back,row!" />
+  <Text Key="Chip.SeedCanon2Name" Value="SeedCan2" />
+  <Text Key="Chip.SeedCanon2Desc" Value="Grass blast if,shot hits back,row!" />
+  <Text Key="Chip.SeedCanon3Name" Value="SeedCan3" />
+  <Text Key="Chip.SeedCanon3Desc" Value="Grass blast if,shot hits back,row!" />
+  <Text Key="Chip.SeedCanonXName" Value="SeedCanX" />
+  <Text Key="Chip.SeedCanonXDesc" Value="Grass blast if,shot hits back,row!" />
+  <Text Key="Chip.ShadowBodyName" Value="ShadoBdy" />
+  <Text Key="Chip.ShadowBodyDesc" Value="Shadow shroud!,Use chip to step,ahead 2 panels!" />
+  <Text Key="Chip.ShellArmor1Name" Value="ShlArmr1" />
+  <Text Key="Chip.ShellArmor1Desc" Value="Super armor cuts,next 3 damaging,hits in half!" />
+  <Text Key="Chip.ShellArmor2Name" Value="ShlArmr2" />
+  <Text Key="Chip.ShellArmor2Desc" Value="Super armor cuts,next 5 damaging,hits in half!" />
+  <Text Key="Chip.ShellArmor3Name" Value="ShlArmr3" />
+  <Text Key="Chip.ShellArmor3Desc" Value="Super armor cuts,next 7 damaging,hits in half!" />
+  <Text Key="Chip.ShellArmorXName" Value="ShlArmrX" />
+  <Text Key="Chip.ShellArmorXDesc" Value="Super armor cuts,next 9 damaging,hits in half!" />
+  <Text Key="Chip.ShootWaveName" Value="EarthWav" />
+  <Text Key="Chip.ShootWaveDesc" Value="Shockwave,passes through,objects and foes!" />
+  <Text Key="Chip.ShotGun1Name" Value="ShotGun1" />
+  <Text Key="Chip.ShotGun1Desc" Value="3 hit gun spreads,shots 2 panels,ahead!" />
+  <Text Key="Chip.ShotGun2Name" Value="ShotGun2" />
+  <Text Key="Chip.ShotGun2Desc" Value="3 hit gun spreads,shots 2 panels,ahead!" />
+  <Text Key="Chip.ShotGun3Name" Value="ShotGun3" />
+  <Text Key="Chip.ShotGun3Desc" Value="3 hit gun spreads,shots 2 panels,ahead!" />
+  <Text Key="Chip.ShotGunXName" Value="ShotGunX" />
+  <Text Key="Chip.ShotGunXDesc" Value="3 hit gun spreads,shots 2 panels,ahead!" />
+  <Text Key="Chip.ShotWaveName" Value="ShotWav" />
+  <Text Key="Chip.ShotWaveDesc" Value="Shockwave,passes through,objects and foes!" />
+  <Text Key="Chip.SilverKnifeName" Value="SlvKnife" />
+  <Text Key="Chip.SilverKnifeDesc" Value="Quickly slice with,guard-piercing,knife!" />
+  <Text Key="Chip.SlowCustomName" Value="SloGauge" />
+  <Text Key="Chip.SlowCustomDesc" Value="Custom Gauge,slows down!" />
+  <Text Key="Chip.SpannerManV1Name" Value="SpannerM" />
+  <Text Key="Chip.SpannerManV1Desc" Value="Hit twice with Arm,and Spanner!" />
+  <Text Key="Chip.SpannerManV2Name" Value="SpannrMV2" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SpannerManV2Desc" Value="Hit twice with Arm,and Spanner!" />
+  <Text Key="Chip.SpannerManV3Name" Value="SpannrMV3" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SpannerManV3Desc" Value="Hit twice with Arm,and Spanner!" />
+  <Text Key="Chip.SpannerManXName" Value="SpannrMX" />
+  <Text Key="Chip.SpannerManXDesc" Value="Hit twice with Arm,and Spanner!" />
+  <Text Key="Chip.StarBombName" Value="StarBomb" />
+  <Text Key="Chip.StarBombDesc" Value="Lob a magic,cross-bomb,3 panels ahead!" />
+  <Text Key="Chip.StormName" Value="Storm" />
+  <Text Key="Chip.StormDesc" Value="Tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.StormXName" Value="StormX" />
+  <Text Key="Chip.StormXDesc" Value="Tornado,hits 8 times,2 panels ahead!" />
+  <Text Key="Chip.SwordName" Value="Sword" />
+  <Text Key="Chip.SwordDesc" Value="Slice row ahead,with wide sword!" />
+  <Text Key="Chip.SwordOffGunName" Value="GunSword" />
+  <Text Key="Chip.SwordOffGunDesc" Value="7 hit gun spreads,2 panels ahead!" />
+  <Text Key="Chip.SynchroBodyName" Value="SynchBdy" />
+  <Text Key="Chip.SynchroBodyDesc" Value="Damage taken is,dealt to enemies,as well!" />
+  <Text Key="Chip.TankmanV1Name" Value="TankM" />
+  <Text Key="Chip.TankmanV1Desc" Value="Machine Gun，,then fire Tank,Cannon ahead!" />
+  <Text Key="Chip.TankmanV2Name" Value="TankMV2" />
+  <Text Key="Chip.TankmanV2Desc" Value="Machine Gun，,then fire Tank,Cannon ahead!" />
+  <Text Key="Chip.TankmanV3Name" Value="TankMV3" />
+  <Text Key="Chip.TankmanV3Desc" Value="Machine Gun，,then fire Tank,Cannon ahead!" />
+  <Text Key="Chip.TankmanXName" Value="TankMX" />
+  <Text Key="Chip.TankmanXDesc" Value="Machine Gun，,then fire Tank,Cannon ahead!" />
+  <Text Key="Chip.ThujigiriCrossName" Value="StepCros" />
+  <Text Key="Chip.ThujigiriCrossDesc" Value="Step ahead 2,panels and,X-slash!" />
+  <Text Key="Chip.ThujigiriSwordName" Value="StepSwrd" />
+  <Text Key="Chip.ThujigiriSwordDesc" Value="Step ahead 2,panels and slash,row with sword!" />
+  <Text Key="Chip.ThujigiriSwordXName" Value="StepSrdX" />
+  <Text Key="Chip.ThujigiriSwordXDesc" Value="Step ahead 2,panels and slash,row with sword!" />
+  <Text Key="Chip.ThunderRoadName" Value="ThndRoad" />
+  <Text Key="Chip.ThunderRoadDesc" Value="Turn row into,thunder panels!" />
+  <Text Key="Chip.ThunderStageName" Value="ThndStge" />
+  <Text Key="Chip.ThunderStageDesc" Value="Turn stage into,thunder panels!" />
+  <Text Key="Chip.TimeStopperName" Value="TimeStop" />
+  <Text Key="Chip.TimeStopperDesc" Value="Above chip stops,time when used!" />
+  <Text Key="Chip.TomahawkName" Value="TomaHawk" />
+  <Text Key="Chip.TomahawkDesc" Value="Circles the stage，,or goes up and,down middle row!" />
+  <Text Key="Chip.TomahawkXName" Value="TomahwkX" />
+  <Text Key="Chip.TomahawkXDesc" Value="Circles the stage，,or goes up and,down middle row!" />
+  <Text Key="Chip.TortoiseManV1Name" Value="TortosM" />
+  <Text Key="Chip.TortoiseManV1Desc" Value="Mud wave rolls,over nearest foe!" />
+  <Text Key="Chip.TortoiseManV2Name" Value="TortosMV2" />
+  <Text Key="Chip.TortoiseManV2Desc" Value="Mud wave rolls,over nearest foe!" />
+  <Text Key="Chip.TortoiseManV3Name" Value="TortosMV3" />
+  <Text Key="Chip.TortoiseManV3Desc" Value="Mud wave rolls,over nearest foe!" />
+  <Text Key="Chip.TortoiseManXName" Value="TortosMX" />
+  <Text Key="Chip.TortoiseManXDesc" Value="Mud wave rolls,over nearest foe!" />
+  <Text Key="Chip.TrapNetName" Value="TrapNet" />
+  <Text Key="Chip.TrapNetDesc" Value="Set a trapping,spider web,3 panels ahead!" />
+  <Text Key="Chip.TripleRodName" Value="TriplRod" />
+  <Text Key="Chip.TripleRodDesc" Value="Hero Spear,extends 1 panel,3 times!" />
+  <Text Key="Chip.TwinHeroinesName" Value="TwnHeroine" />
+  <Text Key="Chip.TwinHeroinesDesc" Value="Shanghai and,Yorihime attack,together!" />
+  <!-- ウツホ -->
+  <Text Key="Chip.UthuhoV1Name" Value="Utsuho" />
+  <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
+  <Text Key="Chip.UthuhoV1Desc" Value="Okuu sweeps 3,rows with,blazing wings!" />
+  <!-- ウツホV2 -->
+  <Text Key="Chip.UthuhoV2Name" Value="UtsuhoV2" />
+  <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
+  <Text Key="Chip.UthuhoV2Desc" Value="Okuu sweeps 3,rows with,blazing wings!" />
+  <!-- ウツホV3 -->
+  <Text Key="Chip.UthuhoV3Name" Value="UtsuhoV3" />
+  <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
+  <Text Key="Chip.UthuhoV3Desc" Value="Okuu sweeps 3,rows with,blazing wings!" />
+  <Text Key="Chip.WhiteCardName" Value="WhitCard" />
+  <Text Key="Chip.WhiteCardDesc" Value="Copy 2 attacking,chips from your,folder!" />
+  <Text Key="Chip.WhiteSuzuranName" Value="WhitLily" />
+  <Text Key="Chip.WhiteSuzuranDesc" Value="Grow a White Lily,that poisons foes!" />
+  <Text Key="Chip.YorihimeV1Name" Value="Yorihime" />
+  <Text Key="Chip.YorihimeV1Desc" Value="Slash enemy 3,times with many,swords!" />
+  <Text Key="Chip.YorihimeV2Name" Value="YorihimV2" />
+  <Text Key="Chip.YorihimeV2Desc" Value="Slash enemy 4,times with many,swords!" />
+  <Text Key="Chip.YorihimeV3Name" Value="YorihimV3" />
+  <Text Key="Chip.YorihimeV3Desc" Value="Slash enemy 5,times with many,swords!" />
+  <Text Key="Chip.YorihimeXName" Value="YorihimX" />
+  <Text Key="Chip.YorihimeXDesc" Value="Slash enemy 3,times with many,swords!" />
+  <!-- ヨウム -->
+  <Text Key="Chip.YoumuV1Name" Value="Youmu" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuV1Desc" Value="Cross blades with,an enemy ahead，,twice in center!" />
+  <!-- ヨウムV2 -->
+  <Text Key="Chip.YoumuV2Name" Value="YoumuV2" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuV2Desc" Value="Cross blades with,an enemy ahead，,twice in center!" />
+  <!-- ヨウムV3 -->
+  <Text Key="Chip.YoumuV3Name" Value="YoumuV3" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuV3Desc" Value="Cross blades with,an enemy ahead，,twice in center!" />
+  <!-- ヨウムX -->
+  <Text Key="Chip.YoumuXName" Value="YoumuX" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuXDesc" Value="Cross blades with,an enemy ahead，,twice in center!" />
+  <Text Key="Chip.DruidManV1Name" Value="DruidMan" />
+  <Text Key="Chip.DruidManV1Desc" Value="Venom Drain!,Steal HP from,all enemies!" />
+  <Text Key="Chip.DruidManV2Name" Value="DruidMnV2" />
+  <Text Key="Chip.DruidManV2Desc" Value="Venom Drain!,Steal HP from,all enemies!" />
+  <Text Key="Chip.DruidManV3Name" Value="DruidMnV3" />
+  <Text Key="Chip.DruidManV3Desc" Value="Venom Drain!,Steal HP from,all enemies!" />
+  <Text Key="Chip.DruidManXName" Value="DruidMnX" />
+  <Text Key="Chip.DruidManXDesc" Value="Venom Drain!,Steal HP from,all enemies!" />
+  <Text Key="Chip.ZeroKnuckleName" Value="Z-Knuckl" />
+  <Text Key="Chip.ZeroKnuckleDesc" Value="Hero Knuckle,steals enemy's,chip!" />
+  <Text Key="Chip.ZSaberName" Value="Z-Saber" />
+  <Text Key="Chip.ZSaberDesc" Value="Hero Sword,slashes 2 panels,ahead 3 times!" />
+  <Text Key="Chip.VrsBall1Name" Value="VrsBall1" />
+  <Text Key="Chip.VrsBall1Desc" Value="Capture virus,on fatal blow!" />
+  <Text Key="Chip.VrsBall1FilledDesc" Value="Summon a virus,for 3 turns!" />
+  <Text Key="Chip.VrsBall2Name" Value="VrsBall2" />
+  <Text Key="Chip.VrsBall2Desc" Value="Capture virus,on fatal blow!" />
+  <Text Key="Chip.VrsBall2FilledDesc" Value="Summon a virus,for 3 turns!" />
+  <Text Key="Chip.VrsBall3Name" Value="VrsBall3" />
+  <Text Key="Chip.VrsBall3Desc" Value="Capture virus,on fatal blow!" />
+  <Text Key="Chip.VrsBall3FilledDesc" Value="Summon a virus,for 3 turns!" />
+
+  <Text Key="Chip.DarkFlaeName" Value="DrkFlare" />
+  <Text Key="Chip.DarkFlaeDesc" Value="UNLEASH,EXTREME,FLAMES" />
+  <Text Key="Chip.MimaDSName" Value="MimaDS" />
+  <Text Key="Chip.MimaDSDesc" Value="REND APART,ALL WITH,DARKNESS" />
+  <Text Key="Chip.RanDSName" Value="RanDS" />
+  <Text Key="Chip.RanDSDesc" Value="OVERWHELM,WITH DARK,BARRAGE" />
+  <Text Key="Chip.YorihimeDSName" Value="YorihimDS" />
+  <Text Key="Chip.YorihimeDSDesc" Value="CRUSH ENEMY,WITH GRAND,BREAKER" />
+  <Text Key="Chip.UthuhoDSName" Value="UtsuhoDS" />
+  <Text Key="Chip.UthuhoDSDesc" Value="BLAST WITH,RAVENOUS,FLAMES" />
+  <Text Key="Chip.FlandreDSName" Value="FlandreDS" />
+  <Text Key="Chip.FlandreDSDesc" Value="THE POWER,THAT BREAKS,ANYTHING" />
+
+  <!-- Program Advance -->
+  <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line1" Value="Barrier  B" />
+  <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line2" Value="PwrAura  B" />
+  <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line3" Value="AuraSrd2 B" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo1Line1" Value="TailWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo1Line2" Value="HeadWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo1Line3" Value="ColdAir2 B" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo2Line1" Value="TailWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo2Line2" Value="HeadWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo2Line3" Value="ColdAir2 I" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo3Line1" Value="TailWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo3Line2" Value="HeadWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo3Line3" Value="ColdAir2 Q" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo4Line1" Value="TailWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo4Line2" Value="HeadWind ＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo4Line3" Value="ColdAir2 U" />
+  <Text Key="Chip.ProgramAdvanceBioHazardCombo1Line1" Value="WhitLily M" />
+  <Text Key="Chip.ProgramAdvanceBioHazardCombo1Line2" Value="Hazard   M" />
+  <Text Key="Chip.ProgramAdvanceBioHazardCombo1Line3" Value="MedicinV2 M" />
+  <Text Key="Chip.ProgramAdvanceDisasterCrowCombo1Line1" Value="LeafSwrd H" />
+  <Text Key="Chip.ProgramAdvanceDisasterCrowCombo1Line2" Value="LeafWav2 H" />
+  <Text Key="Chip.ProgramAdvanceDisasterCrowCombo1Line3" Value="HkuTkuMV2 H" />
+  <Text Key="Chip.ProgramAdvanceDrillBreakerCombo1Line1" Value="ElecDril I" />
+  <Text Key="Chip.ProgramAdvanceDrillBreakerCombo1Line2" Value="EleFang2 I" />
+  <Text Key="Chip.ProgramAdvanceDrillBreakerCombo1Line3" Value="IkuV2     I" />
+  <Text Key="Chip.ProgramAdvanceElementSwordCombo1Line1" Value="HeatSwrd S" />
+  <Text Key="Chip.ProgramAdvanceElementSwordCombo1Line2" Value="LeafSwrd S" />
+  <Text Key="Chip.ProgramAdvanceElementSwordCombo1Line3" Value="IceSwrd  S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line1" Value="SndStorm D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line2" Value="GrvBall2 D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line3" Value="SandPit2 D" />
+  <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line1" Value="VnmShot  P" />
+  <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line2" Value="PoisStge P" />
+  <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line3" Value="BioSpry2 P" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line1" Value="ElChain2 F" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line2" Value="MagStorm F" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line3" Value="StunGame ＊" />
+  <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line1" Value="IceSwrd  C" />
+  <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line2" Value="IceStge  C" />
+  <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line3" Value="CirnoV2   C" />
+  <Text Key="Chip.ProgramAdvanceGigaHalberdCombo1Line1" Value="SlvKnife L" />
+  <Text Key="Chip.ProgramAdvanceGigaHalberdCombo1Line2" Value="CrosSwrd L" />
+  <Text Key="Chip.ProgramAdvanceGigaHalberdCombo1Line3" Value="KnghtLnc L" />
+  <Text Key="Chip.ProgramAdvanceHellsHockeyCombo1Line1" Value="ShlArmr2 T" />
+  <Text Key="Chip.ProgramAdvanceHellsHockeyCombo1Line2" Value="LifeShld T" />
+  <Text Key="Chip.ProgramAdvanceHellsHockeyCombo1Line3" Value="TortosMV2 T" />
+  <Text Key="Chip.ProgramAdvanceHiCanonCombo1Line1" Value="RayGun   A" />
+  <Text Key="Chip.ProgramAdvanceHiCanonCombo1Line2" Value="RayGun   B" />
+  <Text Key="Chip.ProgramAdvanceHiCanonCombo1Line3" Value="RayGun   C" />
+  <Text Key="Chip.ProgramAdvanceHiMegaCanonCombo1Line1" Value="MRayGun  B" />
+  <Text Key="Chip.ProgramAdvanceHiMegaCanonCombo1Line2" Value="MRayGun  C" />
+  <Text Key="Chip.ProgramAdvanceHiMegaCanonCombo1Line3" Value="MRayGun  D" />
+  <Text Key="Chip.ProgramAdvanceHyperSpannerCombo1Line1" Value="MegaHawk S" />
+  <Text Key="Chip.ProgramAdvanceHyperSpannerCombo1Line2" Value="MtlNplm  S" />
+  <Text Key="Chip.ProgramAdvanceHyperSpannerCombo1Line3" Value="SpannrMV2 S" />
+  <Text Key="Chip.ProgramAdvanceJusticeReyCombo1Line1" Value="Z-Knuckl J" />
+  <Text Key="Chip.ProgramAdvanceJusticeReyCombo1Line2" Value="BrkShot  J" />
+  <Text Key="Chip.ProgramAdvanceJusticeReyCombo1Line3" Value="DrkSpark J" />
+  <Text Key="Chip.ProgramAdvanceKishinCanonCombo1Line1" Value="SeedCan2 T" />
+  <Text Key="Chip.ProgramAdvanceKishinCanonCombo1Line2" Value="ChrgCan2 T" />
+  <Text Key="Chip.ProgramAdvanceKishinCanonCombo1Line3" Value="TankMV2   T" />
+  <Text Key="Chip.ProgramAdvanceMassDriverCombo1Line1" Value="Cube     T" />
+  <Text Key="Chip.ProgramAdvanceMassDriverCombo1Line2" Value="MtlCube  T" />
+  <Text Key="Chip.ProgramAdvanceMassDriverCombo1Line3" Value="RailGun2 T" />
+  <Text Key="Chip.ProgramAdvanceMasterSparkCombo1Line1" Value="Hakkero2 M" />
+  <Text Key="Chip.ProgramAdvanceMasterSparkCombo1Line2" Value="MagiBomb M" />
+  <Text Key="Chip.ProgramAdvanceMasterSparkCombo1Line3" Value="MarisaV2  M" />
+  <Text Key="Chip.ProgramAdvanceMasterStyleCombo1Line1" Value="EarthPwr E" />
+  <Text Key="Chip.ProgramAdvanceMasterStyleCombo1Line2" Value="ElemAura E" />
+  <Text Key="Chip.ProgramAdvanceMasterStyleCombo1Line3" Value="WhitCard ＊" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo1Line1" Value="Knife    L" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo1Line2" Value="Sword    L" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo1Line3" Value="Lance    L" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line1" Value="Knife    S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line2" Value="Sword    S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line3" Value="Lance    S" />
+  <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line1" Value="Roukankn Y" />
+  <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line2" Value="Hakurokn Y" />
+  <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line3" Value="YoumuV2   Y" />
+  <Text Key="Chip.ProgramAdvancePlantPrisonCombo1Line1" Value="MnkyPol2 P" />
+  <Text Key="Chip.ProgramAdvancePlantPrisonCombo1Line2" Value="LeafWav2 P" />
+  <Text Key="Chip.ProgramAdvancePlantPrisonCombo1Line3" Value="BlndLeaf P" />
+  <Text Key="Chip.ProgramAdvanceRainAnchorCombo1Line1" Value="HvyAnch2 M" />
+  <Text Key="Chip.ProgramAdvanceRainAnchorCombo1Line2" Value="BubBlst2 M" />
+  <Text Key="Chip.ProgramAdvanceRainAnchorCombo1Line3" Value="MurasaV2  M" />
+  <Text Key="Chip.ProgramAdvanceSathujinDollCombo1Line1" Value="SlvKnife S" />
+  <Text Key="Chip.ProgramAdvanceSathujinDollCombo1Line2" Value="TimeStop ＊" />
+  <Text Key="Chip.ProgramAdvanceSathujinDollCombo1Line3" Value="SakuyaV2  S" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line1" Value="ChainGn2 L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line2" Value="ChrgCan2 L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line3" Value="ShotGun2 L" />
+  <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line1" Value="BravSwrd Y" />
+  <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line2" Value="KnghtLnc Y" />
+  <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line3" Value="YorihimV2 Y" />
+  <Text Key="Chip.ProgramAdvanceBeastBreathCombo1Line1" Value="EarthWav G" />
+  <Text Key="Chip.ProgramAdvanceBeastBreathCombo1Line2" Value="DigDril2 G" />
+  <Text Key="Chip.ProgramAdvanceBeastBreathCombo1Line3" Value="DrkBreth G" />
+  <Text Key="Chip.ProgramAdvanceDreamMeteoCombo1Line1" Value="DethWpr2 W" />
+  <Text Key="Chip.ProgramAdvanceDreamMeteoCombo1Line2" Value="Hakkero2 W" />
+  <Text Key="Chip.ProgramAdvanceDreamMeteoCombo1Line3" Value="DrkAura  W" />
+  <Text Key="Chip.ProgramAdvanceFalBreazerCombo1Line1" Value="HotStorm F" />
+  <Text Key="Chip.ProgramAdvanceFalBreazerCombo1Line2" Value="FlotBarr F" />
+  <Text Key="Chip.ProgramAdvanceFalBreazerCombo1Line3" Value="DrkStorm F" />
+  <Text Key="Chip.ProgramAdvanceInfiniteHandsCombo1Line1" Value="ShadoBdy N" />
+  <Text Key="Chip.ProgramAdvanceInfiniteHandsCombo1Line2" Value="PnlShot2 N" />
+  <Text Key="Chip.ProgramAdvanceInfiniteHandsCombo1Line3" Value="DrkRecov N" />
+  <Text Key="Chip.ProgramAdvanceProtonThunderCombo1Line1" Value="DanmaGun P" />
+  <Text Key="Chip.ProgramAdvanceProtonThunderCombo1Line2" Value="MFlarGun P" />
+  <Text Key="Chip.ProgramAdvanceProtonThunderCombo1Line3" Value="DrkFang  P" />
+
+</data>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ＲＯＭの電脳３ -->
+  <Text Key="Map.ROMnet3Name" Value="ＲＯＭの電脳３" />
+  <!-- 紫さまぁ敵が来ましたよぉ☆ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage1Dialogue1FaceChen" Value="紫さまぁ,敵が来ましたよぉ☆" Face="Chen" Mono="False" />
+  <!-- やいチビ助！痛い目にあいたくなきゃおとなしく道をあけなさい！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage1Dialogue2FaceShanghai" Value="やいチビ助！,痛い目にあいたくなきゃ,おとなしく道をあけなさい！" Face="Shanghai" Mono="False" />
+  <!-- あなた達の威勢もここまでよバトルチップ　スロットイン！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage1Dialogue3FacePresidentYukari" Value="あなた達の威勢もここまでよ,バトルチップ　スロットイン！" Face="PresidentYukari" Mono="False" />
+  <!-- なっ！？ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage3Dialogue1FaceShanghai" Value="なっ！？" Face="Shanghai" Mono="False" />
+  <!-- これは････オーラ？ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage3Dialogue2FaceAlice" Value="これは････オーラ？" Face="Alice" Mono="False" />
+  <!-- ただのオーラじゃないわよ！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage3Dialogue3FacePresidentYukari" Value="ただのオーラじゃないわよ！" Face="PresidentYukari" Mono="False" />
+  <!-- 我が社の電脳兵器開発部門が総力を上げて作った特別製！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage3Dialogue4FacePresidentYukari" Value="我が社の電脳兵器開発部門が,総力を上げて作った特別製！" Face="PresidentYukari" Mono="False" />
+  <!-- その名も多重結界ハイパーオーラ！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage3Dialogue5FacePresidentYukari" Value="その名も多重結界,ハイパーオーラ！" Face="PresidentYukari" Mono="False" />
+  <!-- ネーミングのダサさはともかくこのオーラ　破るにはちょっと骨が折れそうね････ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage5Dialogue1FaceShanghai" Value="ネーミングのダサさはともかく,このオーラ　破るには,ちょっと骨が折れそうね････" Face="Shanghai" Mono="False" />
+  <!-- フッフフフ！このオーラはすべてのオーラの弱点をカバーした傑作！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage5Dialogue2FacePresidentYukari" Value="フッフフフ！,このオーラはすべてのオーラの,弱点をカバーした傑作！" Face="PresidentYukari" Mono="False" />
+  <!-- あらゆる属性あらゆる特性そのすべてを無効化するまさに無敵の････ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage5Dialogue3FacePresidentYukari" Value="あらゆる属性あらゆる特性,そのすべてを無効化する,まさに無敵の････" Face="PresidentYukari" Mono="False" />
+  <!-- プログラムアドバンス！マスタースパーークッ！！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage5Dialogue4FaceNone" Value="プログラムアドバンス！,マスタースパーークッ！！" Face="None" Mono="False" />
+  <!-- あれ？ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage7Dialogue1FaceChen" Value="あれ？" Face="Chen" Mono="False" />
+  <!-- ハイパーオーラが！？ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage7Dialogue2FacePresidentYukari" Value="ハイパーオーラが！？" Face="PresidentYukari" Mono="False" />
+  <!-- よおシャンハイ！情けない姿をしてるな！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue1FaceMarisa" Value="よおシャンハイ！,情けない姿をしてるな！" Face="Marisa" Mono="False" />
+  <!-- アリス！助けに来たぜ！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue2FaceMari" Value="アリス！,助けに来たぜ！" Face="Mari" Mono="False" />
+  <!-- 魔理！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue3FaceAlice" Value="魔理！" Face="Alice" Mono="False" />
+  <!-- さすがのご自慢のオーラもプログラムアドバンスには耐えられなかったようね -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue4FaceShanghai" Value="さすがのご自慢のオーラも,プログラムアドバンスには,耐えられなかったようね" Face="Shanghai" Mono="False" />
+  <!-- マリサ　あんたはもう一回オーラ使われたときのためにもう一発準備しておきなさい！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue5FaceShanghai" Value="マリサ　あんたはもう一回,オーラ使われたときのために,もう一発準備しておきなさい！" Face="Shanghai" Mono="False" />
+  <!-- あたしは今のうちにあのドラ猫をぶっとばす！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue6FaceShanghai" Value="あたしは今のうちにあの,ドラ猫をぶっとばす！" Face="Shanghai" Mono="False" />
+  <!-- オッケー！任せておきな！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue7FaceMarisa" Value="オッケー！,任せておきな！" Face="Marisa" Mono="False" />
+  <!-- フン！だったら正面から打ち負かしてやるんだから！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue8FacePresidentYukari" Value="フン！,だったら正面から打ち負かして,やるんだから！" Face="PresidentYukari" Mono="False" />
+  <!-- チェン　全力で突っ込みなさい！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue9FacePresidentYukari" Value="チェン　全力で突っ込みなさい！" Face="PresidentYukari" Mono="False" />
+  <!-- はぁい☆ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue10FaceChen" Value="はぁい☆" Face="Chen" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue11FaceAlice" Value="バトルオペレーション、セット！" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage9Dialogue12FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <!-- またダメでしたぁぁぁ！！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage11Dialogue1FaceChen" Value="またダメでしたぁぁぁ！！" Face="Chen" Mono="False" />
+  <!-- 一丁上がり！このエリア突破まであと一人！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage13Dialogue1FaceShanghai" Value="一丁上がり！,このエリア突破まであと一人！" Face="Shanghai" Mono="False" />
+  <!-- マリサ　背後の守りは任せたわよ！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage13Dialogue2FaceShanghai" Value="マリサ　背後の守りは,任せたわよ！" Face="Shanghai" Mono="False" />
+  <!-- おう！どーんとぶつかってこい！ -->
+  <Dialogue Key="Map.ROMnet3VSChenEventStage13Dialogue3FaceMarisa" Value="おう！,どーんとぶつかってこい！" Face="Marisa" Mono="False" />
+  <!-- シャンハイを敵に回した連中がかわいそうに思えてくるぜ -->
+  <Dialogue Key="Map.ROMnet3StandbyMarisaStage1Dialogue1FaceMarisa" Value="シャンハイを敵に回した,連中がかわいそうに思えてくるぜ" Face="Marisa" Mono="False" />
+  <!-- やいやい！このスプライトおチビ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage1Dialogue1FaceShanghai" Value="やいやい！,このスプライトおチビ！" Face="Shanghai" Mono="False" />
+  <!-- あんたみたいなザコは一発で吹き飛ばしてやるんだから！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage1Dialogue2FaceShanghai" Value="あんたみたいなザコは,一発で吹き飛ばして,やるんだから！" Face="Shanghai" Mono="False" />
+  <!-- ふっふっふ！チルノ　作戦開始よ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage1Dialogue3FaceCirnoOpFaceShownLetty" Value="ふっふっふ！,チルノ　作戦開始よ！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- おりゃーっ！！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage1Dialogue4FaceCirno" Value="おりゃーっ！！" Face="Cirno" Mono="False" />
+  <!-- ････何も起きないじゃない -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue1FaceShanghai" Value="････何も起きないじゃない" Face="Shanghai" Mono="False" />
+  <!-- わっ！寒い！！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue2FaceAlice" Value="わっ！,寒い！！" Face="Alice" Mono="False" />
+  <!-- こりゃあキツイぜ････！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue3FaceMari" Value="こりゃあキツイぜ････！" Face="Mari" Mono="False" />
+  <!-- あははは！この部屋の冷房を全開にしてやったわ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue4FaceCirnoOpFaceShownLetty" Value="あははは！,この部屋の冷房を全開に,してやったわ！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- この凍える寒さの中でオペレートができるかしら？ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue5FaceCirnoOpFaceShownLetty" Value="この凍える寒さの中で,オペレートができるかしら？" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- なななるほどどどねねねオペペペレレーターを狙うなななんててて -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue6FacePresidentYukari" Value="なななるほどどどねねね,オペペペレレーターを狙うなな,なんててて" Face="PresidentYukari" Mono="False" />
+  <!-- ････そっちのオバサンも凍えてるけど -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue7FaceShanghai" Value="････そっちのオバサンも,凍えてるけど" Face="Shanghai" Mono="False" />
+  <!-- あんたはもうナビいないんだから早く逃げなさいって！！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage3Dialogue8FaceCirnoOpFaceShownLetty" Value="あんたはもうナビいないんだから,早く逃げなさいって！！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- アハハハ！吹雪みたいな冷風は効くでしょー！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue1FaceCirno" Value="アハハハ！,吹雪みたいな冷風は,効くでしょー！" Face="Cirno" Mono="False" />
+  <!-- なんなら逃げてもいいのよ？そうしたら儀式を止めるのは間に合わなくなるけどね！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue2FaceCirnoOpFaceShownLetty" Value="なんなら逃げてもいいのよ？,そうしたら儀式を止めるのは,間に合わなくなるけどね！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- うう････ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue3FaceAlice" Value="うう････" Face="Alice" Mono="False" />
+  <!-- こなくそっ････！あの後ろのコントロール装置を止められれば！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue4FaceShanghai" Value="こなくそっ････！,あの後ろのコントロール装置を,止められれば！" Face="Shanghai" Mono="False" />
+  <!-- うかつに攻撃したらバリアーを止める機能も壊れちゃうよ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue5FaceCirno" Value="うかつに攻撃したら,バリアーを止める機能も,壊れちゃうよ！" Face="Cirno" Mono="False" />
+  <!-- この距離からピンポイントでひとつの機能だけを止めるなんてできるはずが････ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue6FaceCirno" Value="この距離からピンポイントで,ひとつの機能だけを,止めるなんてできるはずが････" Face="Cirno" Mono="False" />
+  <!-- できるとしたら？ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue7FaceNone" Value="できるとしたら？" Face="None" Mono="False" />
+  <!-- え？ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage5Dialogue8FaceCirno" Value="え？" Face="Cirno" Mono="False" />
+  <!-- これで空調機能だけを麻痺させることができました -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue1FaceIku" Value="これで空調機能だけを,麻痺させることができました" Face="Iku" Mono="False" />
+  <!-- やったのよ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue2FaceTenshi" Value="やったのよ！" Face="Tenshi" Mono="False" />
+  <!-- ありがとう天子！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue3FaceAlice" Value="ありがとう天子！" Face="Alice" Mono="False" />
+  <!-- あやうく凍るところだったぜ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue4FaceMari" Value="あやうく凍るところだったぜ！" Face="Mari" Mono="False" />
+  <!-- 友達を助けるのは当たり前のことなのよ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue5FaceTenshi" Value="友達を助けるのは,当たり前のことなのよ！" Face="Tenshi" Mono="False" />
+  <!-- このまま空調を止めておくのでシャンハイさんは敵ナビを！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue6FaceIku" Value="このまま空調を止めておくので,シャンハイさんは敵ナビを！" Face="Iku" Mono="False" />
+  <!-- よっしゃあ！これで気兼ねなくボッコボコよ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue7FaceShanghai" Value="よっしゃあ！,これで気兼ねなくボッコボコよ！" Face="Shanghai" Mono="False" />
+  <!-- こうなるのも想定の内！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue8FaceCirnoOpFaceShownLetty" Value="こうなるのも想定の内！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- チルノ　超強化された今のあなたなら問題なく勝てるわ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue9FaceCirnoOpFaceShownLetty" Value="チルノ　超強化された,今のあなたなら,問題なく勝てるわ！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- ････だそうだぞ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue10FaceCirno" Value="････だそうだぞ！" Face="Cirno" Mono="False" />
+  <!-- 多少の強化ごときで究極強化されたあたしに勝てると思わないことね！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue11FaceShanghai" Value="多少の強化ごときで,究極強化されたあたしに,勝てると思わないことね！" Face="Shanghai" Mono="False" />
+  <!-- アリスを凍えさせたぶんさっさと潰す！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue12FaceShanghai" Value="アリスを凍えさせたぶん,さっさと潰す！" Face="Shanghai" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue13FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage7Dialogue14FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <!-- 最強になれたと思ったのにぃぃぃ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage9Dialogue1FaceCirno" Value="最強になれたと,思ったのにぃぃぃ！" Face="Cirno" Mono="False" />
+  <!-- 私達の力じゃここまでね････ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage11Dialogue1FaceCirnoOpFaceShownLetty" Value="私達の力じゃここまでね････" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- こうなったら逃げる！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage11Dialogue2FaceCirnoOpFaceShownLetty" Value="こうなったら逃げる！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- これは勇気の撤退よ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage11Dialogue3FacePresidentYukari" Value="これは勇気の撤退よ！" Face="PresidentYukari" Mono="False" />
+  <!-- 逃しちゃったけどいいの？ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue1FaceTenshi" Value="逃しちゃったけどいいの？" Face="Tenshi" Mono="False" />
+  <!-- ネットエージェントが警戒線を張ってるだろうし逃げ切れやしないでしょ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue2FaceShanghai" Value="ネットエージェントが,警戒線を張ってるだろうし,逃げ切れやしないでしょ" Face="Shanghai" Mono="False" />
+  <!-- 天子　魔理本当にありがとう！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue3FaceAlice" Value="天子　魔理,本当にありがとう！" Face="Alice" Mono="False" />
+  <!-- 決戦には私達は足手まといになるだろうからせめてもの力添えだ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue4FaceMari" Value="決戦には私達は,足手まといになるだろうから,せめてもの力添えだ" Face="Mari" Mono="False" />
+  <!-- 絶対に負けないでね！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue5FaceTenshi" Value="絶対に負けないでね！" Face="Tenshi" Mono="False" />
+  <!-- もちろん！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue6FaceAlice" Value="もちろん！" Face="Alice" Mono="False" />
+  <!-- よし　バリアーも解除できたしプラグアウトよ！ -->
+  <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue7FaceShanghai" Value="よし　バリアーも解除できたし,プラグアウトよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMnet3ConsoleDialogue1FaceNone" Value="[It’s the controls for both the air,conditioning system and the,barrier.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMnet3ConsoleDialogue2FaceNone" Value="[The barrier’s been shut down,and the AC has been very,precisely shorted out.]" Face="None" Mono="False" />
+</data>

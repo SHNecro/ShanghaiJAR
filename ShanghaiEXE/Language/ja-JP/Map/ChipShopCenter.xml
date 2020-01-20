@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ChipShopCenterName" Value="チップショップ" />
+  <Dialogue Key="Map.ChipShopCenterChapter3Boy1AStage1Dialogue1FaceMaleChild" Value="おこづかい足りっかな〜？" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterChapter3Boy2AStage1Dialogue1FaceMaleStudent" Value="このお店　置いてあるの,攻撃チップばっかりなんだよね" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterChapter3Girl3Stage1Dialogue1FaceFemaleStudent" Value="見たことのないウィルスでも,そのウィルスが落とすチップを,知ってると攻撃がわかるよね" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterShowcase1Stage1Dialogue1QuestionFaceFemaleAdult" Value="いらっしゃいませ,バトルチップをお求めですか？" Face="FemaleAdult" Mono="False" />
+  <Text Key="Map.ChipShopCenterShowcase1Stage1Dialogue1Options" Value="買う,買わない" />
+  <Dialogue Key="Map.ChipShopCenterShowcase2Stage1Dialogue1FaceNone" Value="商品のチップが,綺麗に並べられている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterShowcase3Stage1Dialogue1FaceNone" Value="商品のチップが,綺麗に並べられている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterShowcase4Stage1Dialogue1FaceNone" Value="商品のチップが,綺麗に並べられている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterShowcase5Stage1Dialogue1FaceNone" Value="商品のチップが,綺麗に並べられている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterGlassCase1Stage1Dialogue1FaceNone" Value="それほど珍しくもないチップが,飾られている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterGlassCase2Stage1Dialogue1FaceNone" Value="それほど珍しくもないチップが,飾られている" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipShopCenterGlassCase3Stage1Dialogue1FaceNone" Value="それほど珍しくもないチップが,飾られている" Face="None" Mono="False" />
+</data>

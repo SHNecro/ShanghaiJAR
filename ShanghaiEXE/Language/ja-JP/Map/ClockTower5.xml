@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳５ -->
+  <Text Key="Map.ClockTower5Name" Value="時計塔の電脳５" />
+  <!-- セキュリティはすでに解除されている -->
+  <Dialogue Key="Map.ClockTower5TerminalStage1Dialogue1FaceNone" Value="セキュリティはすでに,解除されている" Face="None" Mono="False" />
+  <!-- コノエリアノ　トケイハソコノト　モウヒトツシカアリマセン -->
+  <Dialogue Key="Map.ClockTower5Sprite1AStage1Dialogue1FaceSprite" Value="コノエリアノ　トケイハ,ソコノト　モウヒトツシカ,アリマセン" Face="Sprite" Mono="False" />
+  <!-- ナノデ　サイゴマデイケルジカンヲ　ミツケナイトイケマセンネ -->
+  <Dialogue Key="Map.ClockTower5Sprite1AStage1Dialogue2FaceSprite" Value="ナノデ　サイゴマデイケル,ジカンヲ　ミツケナイト,イケマセンネ" Face="Sprite" Mono="False" />
+  <!-- マエノ　エリアデサイショニ　トオッタカタチガソノママ　ツカエマスヨ -->
+  <Dialogue Key="Map.ClockTower5Sprite2AStage1Dialogue1FaceSprite" Value="マエノ　エリアデ,サイショニ　トオッタカタチガ,ソノママ　ツカエマスヨ" Face="Sprite" Mono="False" />
+  <!-- オヤオヤ〜？ツイサッキノ　コトナノニワスレテタリ　シマセンヨネ？ -->
+  <Dialogue Key="Map.ClockTower5Sprite2AStage1Dialogue2FaceSprite" Value="オヤオヤ〜？,ツイサッキノ　コトナノニ,ワスレテタリ　シマセンヨネ？" Face="Sprite" Mono="False" />
+  <!-- マッスグニサイゴノミチヲツキススメ　　　スプライトチャン -->
+  <Dialogue Key="Map.ClockTower5Sprite3AStage1Dialogue1FaceSprite" Value="マッスグニ,サイゴノミチヲ,ツキススメ　　　スプライトチャン" Face="Sprite" Mono="False" />
+  <!-- ヒャーヒャヒャッヒャ！来やがったなァ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue1FaceScissorMan" Value="ヒャーヒャヒャッヒャ！,来やがったなァ！！" Face="ScissorMan" Mono="False" />
+  <!-- 俺様の名はシザーマン！我が主　タラカーン様の命によりここで貴様をデリートする！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue2FaceScissorMan" Value="俺様の名はシザーマン！,我が主　タラカーン様の命により,ここで貴様をデリートする！" Face="ScissorMan" Mono="False" />
+  <!-- サッサとそこをどきなさい！そうしたら　痛い目に遭わなくて済むようにしてやるわよ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue3FaceShanghai" Value="サッサとそこをどきなさい！,そうしたら　痛い目に遭わなくて,済むようにしてやるわよ！" Face="Shanghai" Mono="False" />
+  <!-- ヒィーヒヒヒ････！！威勢のイイのナビだァ！ああ････たまらねェ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue4FaceScissorMan" Value="ヒィーヒヒヒ････！！,威勢のイイのナビだァ！,ああ････たまらねェ！" Face="ScissorMan" Mono="False" />
+  <!-- 俺様の趣味はキミのような気の強い女ナビをズタズタに引き裂くことだからなあ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue5FaceScissorMan" Value="俺様の趣味はキミのような,気の強い女ナビをズタズタに,引き裂くことだからなあ！" Face="ScissorMan" Mono="False" />
+  <!-- あーら　奇遇ね -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue6FaceShanghai" Value="あーら　奇遇ね" Face="Shanghai" Mono="False" />
+  <!-- あたしの趣味もあんたみたいなゲッスいナビをボッコボコにしてやることなのよ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue7FaceShanghai" Value="あたしの趣味もあんたみたいな,ゲッスいナビをボッコボコに,してやることなのよ！" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャヒャ言うじゃねぇか！ますますズタズタに････ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue8FaceScissorMan" Value="ヒャーヒャヒャ,言うじゃねぇか！,ますますズタズタに････" Face="ScissorMan" Mono="False" />
+  <!-- いや････気が変わったその綺麗なカラダを真っ二つにしてやりたくなってきたぜェ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue9FaceScissorMan" Value="いや････気が変わった,その綺麗なカラダを真っ二つに,してやりたくなってきたぜェ！" Face="ScissorMan" Mono="False" />
+  <!-- シザーマンはしゃぐのは程々にしておけ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue10FaceScissorManOpTarakhan" Value="シザーマン,はしゃぐのは程々にしておけ" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そいつの首を取ることも我々の目的のひとつだが油断はできぬ相手だぞ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue11FaceScissorManOpTarakhan" Value="そいつの首を取ることも,我々の目的のひとつだが,油断はできぬ相手だぞ" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そう言われちゃあ仕方ねえバッサリやらせてもらうとするぜ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue12FaceScissorMan" Value="そう言われちゃあ仕方ねえ,バッサリやらせてもらうとするぜ" Face="ScissorMan" Mono="False" />
+  <!-- せいぜいあっさりやられて俺様をがっかりさせないでくれよ････！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue13FaceScissorMan" Value="せいぜいあっさりやられて,俺様をがっかりさせないで,くれよ････！" Face="ScissorMan" Mono="False" />
+  <!-- ほざいてなさい！いくわよ　アリス！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue14FaceShanghai" Value="ほざいてなさい！,いくわよ　アリス！" Face="Shanghai" Mono="False" />
+  <!-- ええ！リグル君を助けるためにも負けられない！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue15FaceAlice" Value="ええ！,リグル君を助けるためにも,負けられない！" Face="Alice" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue16FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue17FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャヒャ！！狩りの時間だァ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue18FaceScissorMan" Value="ヒャーヒャヒャ！！,狩りの時間だァ！！" Face="ScissorMan" Mono="False" />
+  <!-- ゲペェ････！な　なぜ俺様が････！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue1FaceScissorMan" Value="ゲペェ････！,な　なぜ俺様が････！" Face="ScissorMan" Mono="False" />
+  <!-- うっさい！さっさと消えろ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue2FaceShanghai" Value="うっさい！,さっさと消えろ！" Face="Shanghai" Mono="False" />
+  <!-- ギョエエエッッッ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue3FaceScissorMan" Value="ギョエエエッッッ！！" Face="ScissorMan" Mono="False" />
+  <!-- アリス！プラグアウトを！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue1FaceShanghai" Value="アリス！,プラグアウトを！" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue2FaceAlice" Value="ええ！" Face="Alice" Mono="False" />
+  <!-- （リグル君　無事でいて････！） -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue3FaceAlice" Value="（リグル君　無事でいて････！）" Face="Alice" Mono="False" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage1Dialogue1QuestionFaceNone" Value="大きな時計と連動した時計だ,針を動かしますか？" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower5GimmickStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage3Dialogue1QuestionFaceNone" Value="短針をどこに動かす？" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower5GimmickStage3Dialogue1Options" Value="１２時,　３時,　６時,　９時" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage5Dialogue1QuestionFaceNone" Value="長針をどこに動かす？" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower5GimmickStage5Dialogue1Options" Value="００分,１５分,３０分,４５分" />
+</data>

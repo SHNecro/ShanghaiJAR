@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HotelHPName" Value="ホテルのHP" />
+  <Dialogue Key="Map.HotelHPSpriteStage1Dialogue1FaceSprite" Value="ワタシハ　ルームサービス,タントウノ　スプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelHPSpriteStage1Dialogue2FaceSprite" Value="オヘヤニイタママ　オリョウリヤ,ノミモノヲ　チュウモンスルコトガ,デキルンデスヨー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelHPCarPickupStage1Dialogue1FaceNone" Value="インゲレススクエアへの,送迎電脳カーだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.HotelHPCarPickupStage1Dialogue2QuestionFaceNone" Value="インゲレススクエアに,行きますか？" Face="None" Mono="False" />
+  <Text Key="Map.HotelHPCarPickupStage1Dialogue2Options" Value="はい,いいえ" />
+</data>

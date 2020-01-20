@@ -1,0 +1,249 @@
+﻿<Window x:Class="MapEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:rendering="clr-namespace:MapEditor.Rendering"
+        xmlns:views="clr-namespace:MapEditor.Views"
+        xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+        xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules"
+        xmlns:core="clr-namespace:MapEditor.Core"
+        xmlns:controls="clr-namespace:MapEditor.Controls"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="{Binding Title}"
+        Height="640" Width="1280"
+        MinHeight="50" MinWidth="50">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+                <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:ObjectEqualityBooleanConverter x:Key="ObjectEqualityBooleanConverter" />
+            <FrameworkElement x:Key="ViewModelProxyElement" DataContext="{Binding}"/>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Key="O" Modifiers="Control" Command="{Binding ChooseEncodedFileCommand}"/>
+        <KeyBinding Key="S" Modifiers="Control" Command="{Binding SaveOrCreateEncodedFileCommand}"/>
+        <KeyBinding Key="F12" Command="{Binding SaveNewEncodedFileCommand}"/>
+        <KeyBinding Key="I" Modifiers="Control" Command="{Binding ChooseDecodedFileCommand}"/>
+        <KeyBinding Key="E" Modifiers="Control" Command="{Binding SaveDecodedFileCommand}"/>
+        <KeyBinding Key="U" Modifiers="Control" Command="{Binding UnpackTCDCommand}"/>
+        <KeyBinding Key="P" Modifiers="Control" Command="{Binding PackTCDCommand}"/>
+    </Window.InputBindings>
+    <DockPanel>
+        <ContentControl Visibility="Collapsed" Content="{StaticResource ViewModelProxyElement}"/>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open..." Command="{Binding ChooseEncodedFileCommand}" InputGestureText="Ctrl+O"/>
+                <MenuItem Header="_Save" Command="{Binding SaveOrCreateEncodedFileCommand}" InputGestureText="Ctrl+S" />
+                <MenuItem Header="Save _As..." Command="{Binding SaveNewEncodedFileCommand}" InputGestureText="F12" />
+                <MenuItem Header="_Import Decoded file..." Command="{Binding ChooseDecodedFileCommand}" InputGestureText="Ctrl+I" />
+                <MenuItem Header="_Export Decoded file..." Command="{Binding SaveDecodedFileCommand}" InputGestureText="Ctrl+E" />
+                <MenuItem Header="Se_ttings..." Command="{Binding OpenSettingsCommand}" InputGestureText="Ctrl+T" />
+            </MenuItem>
+            <MenuItem Header="_View">
+                <MenuItem Header="_Print Entity IDs" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsShowingIDs, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <MenuItem Header="_Animate" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsAnimating, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <MenuItem Header="_Outline Selected Object" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsOutlining, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <MenuItem Header="Show Selected Object _Moves" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsShowingMoves, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </MenuItem>
+            <MenuItem Header="_Tools">
+                <MenuItem Header="Open String Browser" Command="{Binding OpenStringBrowserCommand}" />
+                <MenuItem Header="Reload Graphics" Command="{Binding ReloadGraphicsCommand}" />
+                <MenuItem Header="Reload Strings" Command="{Binding ReloadTranslationKeysCommand}" />
+                <MenuItem Header="Unpack .tcd..." Command="{Binding UnpackTCDCommand}" InputGestureText="Ctrl+U" />
+                <MenuItem Header="Pack .tcd..." Command="{Binding PackTCDCommand}" InputGestureText="Ctrl+P"/>
+            </MenuItem>
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom">
+            <!--
+            <StatusBar.Style>
+                <Style TargetType="StatusBar">
+                    <Style.Triggers>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding PositionStatus, Mode=OneWay}" Value="{x:Null}" />
+                                <Condition Binding="{Binding ProgressStatus, Mode=OneWay}" Value="{x:Null}" />
+                            </MultiDataTrigger.Conditions>
+                            <Setter Property="Visibility" Value="Collapsed" />
+                        </MultiDataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StatusBar.Style>
+            -->
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem Grid.Column="0">
+                <TextBlock Text="{Binding PositionStatus, Mode=OneWay}" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="2">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel.Style>
+                        <Style TargetType="StackPanel">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ProgressStatus, Mode=OneWay}" Value="{x:Null}">
+                                    <Setter Property="Visibility" Value="Collapsed" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Style>
+                    <TextBlock Text="{Binding ProgressStatus, Mode=OneWay}" />
+                    <Separator />
+                    <ProgressBar MinWidth="150" Minimum="0" Maximum="1"
+                                 Value="{Binding Progress, Mode=OneWay}"/>
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="350" />
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Grid.Column="0"
+                          HorizontalScrollBarVisibility="Auto"
+                          VerticalScrollBarVisibility="Auto"
+                          Background="Black"
+                          MinWidth="50"
+                          MinHeight="50">
+                <ContentControl Content="{x:Static rendering:MapRenderer.MapControlHost}"/>
+            </ScrollViewer>
+
+            <GridSplitter Grid.Column="1"  Background="DarkGray"  ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+                          HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            <Grid Grid.Column="2"
+                  DataContext="{Binding CurrentMap}">
+                <TabControl TabStripPlacement="Top">
+                    <!-- Display Options -->
+                    <TabItem Header="Options">
+                        <Expander IsExpanded="True"
+                                  Header="Display Options"
+                                  DataContext="{Binding DataContext, Source={StaticResource ViewModelProxyElement}}">
+                            <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                          Margin="10,0,0,0">
+                                <StackPanel Orientation="Vertical">
+                                    <TextBlock Text="Level Visibility:"
+                                               FontWeight="Bold" />
+                                    <ItemsControl ItemsSource="{Binding DisplayOptions}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Margin="0,0,5,0"
+                                                               Text="{Binding Item1}"/>
+                                                    <StackPanel Orientation="Horizontal" DataContext="{Binding Item2}">
+                                                        <ToggleButton ToolTip="Map Images"
+                                                                      IsChecked="{Binding ShowMapImages}">
+                                                            <Rectangle Width="32"
+                                                                       Height="32" 
+                                                                       Fill="{StaticResource DisplayLevelImageIcon}"/>
+                                                        </ToggleButton>
+                                                        <ToggleButton ToolTip="Walkable Area"
+                                                                      IsChecked="{Binding ShowWalkable}">
+                                                            <Rectangle Width="32"
+                                                                       Height="32" 
+                                                                       Fill="{StaticResource DisplayAreaImageIcon}"/>
+                                                        </ToggleButton>
+                                                        <ToggleButton ToolTip="Level Outline"
+                                                                      IsChecked="{Binding ShowWalkableOutline}">
+                                                            <Rectangle Width="32"
+                                                                       Height="32" 
+                                                                       Fill="{StaticResource DisplayOutlineImageIcon}"/>
+                                                        </ToggleButton>
+                                                        <ToggleButton ToolTip="Objects"
+                                                                      IsChecked="{Binding ShowObjects}">
+                                                            <Rectangle Width="32"
+                                                                       Height="32" 
+                                                                       Fill="{StaticResource DisplayObjectImageIcon}"/>
+                                                        </ToggleButton>
+                                                        <ToggleButton ToolTip="Hitboxes"
+                                                                      IsChecked="{Binding ShowHitboxes}">
+                                                            <Rectangle Width="32"
+                                                                       Height="32" 
+                                                                       Fill="{StaticResource DisplayHitboxImageIcon}"/>
+                                                        </ToggleButton>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                    <TextBlock Text="Tool:"
+                                               FontWeight="Bold" />
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal">
+                                            <RadioButton Style="{StaticResource ToolIconRadioButton}" Tag="{StaticResource DisplaySelectImageIcon}"
+                                                         ToolTip="Select"
+                                                         IsChecked="{Binding Path=CurrentTool, Converter={StaticResource ObjectEqualityBooleanConverter}, ConverterParameter={x:Static core:EditToolType.SelectionTool}}"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <RadioButton Style="{StaticResource ToolIconRadioButton}" Tag="{StaticResource DisplayDrawImageIcon}"
+                                                         ToolTip="Draw"
+                                                         IsChecked="{Binding Path=CurrentTool, Converter={StaticResource ObjectEqualityBooleanConverter}, ConverterParameter={x:Static core:EditToolType.DrawTool}}"/>
+                                            <TextBlock Text="Level:"
+                                                       Margin="10,0,0,0"/>
+                                            <controls:WheelCaptureIntegerUpDown HorizontalAlignment="Center"
+                                                                                VerticalAlignment="Center"
+                                                                                Margin="10,0,0,0"
+                                                                                MinWidth="50"
+                                                                                IsEnabled="{Binding Path=CurrentTool, Converter={StaticResource ObjectEqualityBooleanConverter}, ConverterParameter={x:Static core:EditToolType.DrawTool}}"
+                                                                                Minimum="0" Maximum="{Binding CurrentMap.Header.Levels, Converter={StaticResource NumberToOffsetNumberConverter}, ConverterParameter=-1}">
+                                                <controls:WheelCaptureIntegerUpDown.Text>
+                                                    <Binding Path="CurrentLevel" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                        <Binding.ValidationRules>
+                                                            <validationrules:MinMaxBindingValidationRule ValidationStep="RawProposedValue">
+                                                                <validationrules:MinMaxBindingValidationRule.Bounds>
+                                                                    <core:MinMaxBinding Minimum="0"  Maximum="{Binding DataContext.CurrentMap.Header.Levels, Source={StaticResource ViewModelProxyElement}}" MaxInclusive="False" />
+                                                                </validationrules:MinMaxBindingValidationRule.Bounds>
+                                                            </validationrules:MinMaxBindingValidationRule>
+                                                        </Binding.ValidationRules>
+                                                    </Binding>
+                                                </controls:WheelCaptureIntegerUpDown.Text>
+                                            </controls:WheelCaptureIntegerUpDown>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </StackPanel>
+                            </ScrollViewer>
+                        </Expander>
+                    </TabItem>
+                        
+                    <!-- Header -->
+                    <TabItem Header="Header">
+                        <views:HeaderView />
+                    </TabItem>
+
+                    <!-- Walkable Map -->
+                    <TabItem Header="Map">
+                        <views:WalkableMapView />
+                    </TabItem>
+
+                    <!-- Encounters -->
+                    <TabItem Header="Encounters">
+                        <views:RandomEncountersView />
+                    </TabItem>
+
+                    <!-- GMD -->
+                    <TabItem Header="GMD">
+                        <views:RandomMysteryDataView />
+                    </TabItem>
+
+                    <!-- Objects -->
+                    <TabItem Header="Objects">
+                        <views:MapObjectsView />
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ShoolNet1Name" Value="学校の電脳１" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue1FaceShanghai" Value="あら　みんな来たのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue2FaceMarisa" Value="当たり前だろ！,クラスの危機だからな！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue3FaceSakuya" Value="大学での事件では,私は何もできませんでしたし" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue4FaceTankMan" Value="大勢で取りかかれば,すぐに解決できるだろうしな！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue5FaceSpannerMan" Value="俺だっていいところを,見せてやるぜ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue6FaceShanghai" Value="いいこと言ってくれるじゃないの" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue7FaceMarisa" Value="よし　行くぞ！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue1FaceSakuya" Value="あら　どこに行くんですの？" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue2FaceMarisa" Value="どこって････道はこっちだろ？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue3FaceSpannerMan" Value="道ならこっちに伸びてるぜ？" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue4FaceTankMan" Value="俺には向こうに道が,あるように見えるが････" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue5FaceShanghai" Value="皆言ってることが,バラバラじゃないの" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue6FaceRika" Value="どうなってるのです？" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue7FaceMari" Value="わかった！,エツラン権限が,おかしくなってるんだ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue8FaceAlice" Value="エツラン権限？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue9FaceRemilia" Value="この学校では生徒それぞれに,エツラン権限が設定されていて" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue10FaceRemilia" Value="クラス委員とかは,学校のいろいろなネットワークに,アクセスできるのよね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue11FaceTsubakiNekku" Value="ＲＯＭの奴がめちゃめちゃに,しやがったんだろうなきっと" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue12FaceShanghai" Value="じゃあ　エツラン権限を,どうかしないとまともに,歩き回れないわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue13FaceMarisa" Value="エツラン権限なら,この電脳の端末から操作が,できるはずだ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue14FaceMarisa" Value="手分けして全員の,エツラン権限を操作するんだ！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue15FaceShanghai" Value="よし　じゃあそれぞれ通れる道へ,出発しなさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue16FaceSakuya" Value="わかりましたわ！" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue1FaceSprite" Value="ＲＯＭノ　コウゲキデ,セイトサンノ　エツランケンゲンガ,オカシクナッテマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue2FaceSprite" Value="エツランケンゲンヲ,ソウサスルニハ　コノタンマツヲ,ソウサシテクダサイ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue3FaceSprite" Value="タダ　ヒトツノタンマツデ,ソウサデキルケンゲンハ,カギラレテイマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue4FaceSprite" Value="ゼンブノ　タンマツヲ,ソウサシナイト　オクニハ,イケナイデショウネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage3Dialogue1FaceSprite" Value="ＲＯＭガ　サッテ,エツランケンゲンモ,ナオリマシタガ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage3Dialogue2FaceSprite" Value="アナタノ　エツランケンゲンハ,アノジケンデ　オープンニシタノデ,フルオープンジョウタイ　デスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage3Dialogue3FaceSprite" Value="イイノカナ〜？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite2AStage1Dialogue1FaceSprite" Value="キョウシツニ　ナガレテイル,デンリュウヲ　トメルニハ,モットオクニ　イカナイト！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite2AStage3Dialogue1FaceSprite" Value="キョウシツノ　デンリュウハ,フシンシャガ　シンニュウシタトキ,ツカウンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite2AStage3Dialogue2FaceSprite" Value="ハモノヲモッタ　フシンシャトカ,コワイデスカラネ〜" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite3AStage1Dialogue1FaceSprite" Value="コノサキニ　キョウシツノ,ブレーカープログラムガ　,アリマスヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite3AStage1Dialogue2FaceSprite" Value="イソイデ　イソイデ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite3AStage3Dialogue1FaceSprite" Value="ヨクマナビ　ヨクタベ　ヨクネヨウ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue1FaceMarisa" Value="ここからさきには進めないなあ" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue2FaceMarisa" Value="シャンハイ,お前は道が見えるか？" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1SakuyaStage1Dialogue1FaceSakuya" Value="くっ････,なかなかウィルスが,てごわいですわね････！" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1SpannerManStage1Dialogue1FaceSpannerMan" Value="ダメだ　通れねえ！" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1SpannerManStage1Dialogue2FaceSpannerMan" Value="俺のエツラン権限だと,ここが限界みたいだな,情けねえ････" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage1Dialogue1FaceShanghai" Value="扉が閉まってて,通れないわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage1Dialogue2FaceAlice" Value="今までの端末じゃ操作できない,権限なのかしら････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage1Dialogue3FaceRika" Value="おまかせなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue1FaceTankMan" Value="よっしゃあ！,ここに来れるのは,俺だけだったみたいだな！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue2FaceTankMan" Value="さあ　シャンハイちゃん,先へ進むんだ！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue3FaceAlice" Value="ありがとう！,里香、タンクマン！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1TankManStage1Dialogue1FaceTankMan" Value="うーん　俺のエツラン権限じゃ,ここまでしか進めないみたいだ" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage1Dialogue1FaceShanghai" Value="これが教室の,電力制御プログラムね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage1Dialogue2FaceShanghai" Value="よし　これで電流が,止まったはずよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage1Dialogue3FaceAlice" Value="プラグアウトして,早く避難しましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+</data>

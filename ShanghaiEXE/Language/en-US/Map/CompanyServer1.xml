@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　１Ｆ -->
+  <Text Key="Map.CompanyServer1Name" Value="Company Server Comp 1F" />
+  <Text Key="Map.CompanyServer1RandomBattle1Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer1RandomBattle2Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer1RandomBattle3Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer1RandomBattle4Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer1RandomBattle4Enemy2" Value="AutoRdB" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServer1DoorStage1Dialogue1FaceNone" Value="It’s locked by security." Face="None" Mono="False" />
+  <!-- 画面には廊下を映す監視カメラの映像が流れている -->
+  <Dialogue Key="Map.CompanyServer1SubTerminalStage1Dialogue1FaceNone" Value="The screen shows the video,from a surveillance camera,pointed down a corridor." Face="None" Mono="False" />
+  <!-- 画面には廊下を映す監視カメラの映像が流れている -->
+  <Dialogue Key="Map.CompanyServer1SubTerminalDupeStage1Dialogue1FaceNone" Value="The screen shows the video,from a surveillance camera,pointed down a corridor." Face="None" Mono="False" />
+  <!-- えーっと　赤外線赤外線････っと -->
+  <Dialogue Key="Map.CompanyServer1TerminalStage1Dialogue1FaceShanghai" Value="Ah，infrared，infrared....There!" Face="Shanghai" Mono="False" />
+  <!-- あったわ　これね！ -->
+  <Dialogue Key="Map.CompanyServer1TerminalStage1Dialogue2FaceShanghai" Value="Hurry，I got it!" Face="Shanghai" Mono="False" />
+  <!-- 礼を言うこれで先に進めるようになった -->
+  <Dialogue Key="Map.CompanyServer1TerminalStage3Dialogue1FaceReisen" Value="Thank you，now we can,proceed." Face="Reisen" Mono="False" />
+  <!-- 鈴仙　あれ！ -->
+  <Dialogue Key="Map.CompanyServer1TerminalStage3Dialogue2FaceAlice" Value="Reisen!" Face="Alice" Mono="False" />
+  <!-- む？ -->
+  <Dialogue Key="Map.CompanyServer1TerminalStage3Dialogue3FaceReisen" Value="Mm?" Face="Reisen" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServer1TerminalStage5Dialogue1FaceNone" Value="There’s no need to use this,terminal any more." Face="None" Mono="False" />
+  <!-- さて　アリスを助けるにはどうするかしらね -->
+  <Dialogue Key="Map.CompanyServer17INTROEventStage1Dialogue1FaceShanghai" Value="Now，what can I do to help,Alice?" Face="Shanghai" Mono="False" />
+  <!-- 確か社内にも何人かしもべがいるはずだし接触してみるか -->
+  <Dialogue Key="Map.CompanyServer17INTROEventStage1Dialogue2FaceShanghai" Value="I should have some minions,around this place...." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ様　お疲れ様です -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue1FaceNaviBlueRobot" Value="Miss Shanghai!,Is there anything I can do for,you?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ちゃんと草（スパイのこと）として働いてるみたいね -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue2FaceShanghai" Value="Good，I knew I had a loyal,servant somewhere in here." Face="Shanghai" Mono="False" />
+  <!-- はい！アリスさんは地下牢に閉じ込められています -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue3FaceNaviBlueRobot" Value="What?!,Miss Alice has been trapped in,the basement?" Face="NaviBlueRobot" Mono="False" />
+  <!-- この先へ進めば地下牢を管理するセクションにいけますがセキュリティがあります -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue4FaceNaviBlueRobot" Value="The dungeon control systems,are just ahead，but they’re,protected by security." Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々の手でセキュリティの簡易化はほどこせましたが完璧ではありません -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue5FaceNaviBlueRobot" Value="There used to be guards，but,they were replaced by an,automated system." Face="NaviBlueRobot" Mono="False" />
+  <!-- セキュリティエリアに入るとパスワードの入力を求められます -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue6FaceNaviBlueRobot" Value="When entering the area，it will,ask for a password." Face="NaviBlueRobot" Mono="False" />
+  <!-- そうしたら　制限時間以内に床の数字を１から順番に踏んでいってください -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue7FaceNaviBlueRobot" Value="Then step on the numbers on,the floor in order，within the time,limit." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字の順番を間違えたり時間切れになると排除用のオートロイドが飛んできます -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue8FaceNaviBlueRobot" Value="If the wrong number is input,or the time limit expires，an,Autoroid will be dispatched." Face="NaviBlueRobot" Mono="False" />
+  <!-- そのオートロイドを倒してもセキュリティは突破できますのでお好きな方法でどうぞ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue9FaceNaviBlueRobot" Value="However，defeating the,Autoroid will also unlock the,system，so do as you like." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字を順番に踏んでいけばいいのね？ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue10FaceShanghai" Value="Just step on the numbers in,order?" Face="Shanghai" Mono="False" />
+  <!-- 数字といってもサイコロだったり漢数字だったりバラバラなので注意してください -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue11FaceNaviBlueRobot" Value="The numbers may be dice,faces or Han numerals，so it,might not be that simple." Face="NaviBlueRobot" Mono="False" />
+  <!-- セキュリティエリアに入るとパスワードの入力を求められます -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage3Dialogue1FaceNaviBlueRobot" Value="When entering the area，it will,ask for a password." Face="NaviBlueRobot" Mono="False" />
+  <!-- そうしたら　制限時間以内に床の数字を１から順番に踏んでいってください -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage3Dialogue2FaceNaviBlueRobot" Value="Then step on the numbers on,the floor in order，within the time,limit." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字の順番を間違えたり時間切れになると排除用のオートロイドが飛んできます -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage3Dialogue3FaceNaviBlueRobot" Value="If the wrong number is input,or the time limit expires，an,Autoroid will be dispatched." Face="NaviBlueRobot" Mono="False" />
+  <!-- そのオートロイドを倒してもセキュリティは突破できますのでお好きな方法でどうぞ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage3Dialogue4FaceNaviBlueRobot" Value="However，defeating the,Autoroid will also unlock the,system，so do as you like." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字といってもサイコロだったり漢数字だったりバラバラなので注意してください -->
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage3Dialogue5FaceNaviBlueRobot" Value="The numbers may be dice,faces or Han numerals，so it,might not be that simple." Face="NaviBlueRobot" Mono="False" />
+  <!-- アナタッテ　カイシャノナビサン　デスカ？ -->
+  <Dialogue Key="Map.CompanyServer17SpritesStage1Dialogue1QuestionFaceSprite" Value="ARE YOU A COMPANY NAVI?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CompanyServer17SpritesStage1Dialogue1Options" Value="Yes,No" />
+  <!-- ヨカッター！オシゴト　ガンバッテクダサイネ -->
+  <Dialogue Key="Map.CompanyServer17SpritesStage1Dialogue2FaceSprite" Value="GOOD! PLEASE DO YOUR,BEST!" Face="Sprite" Mono="False" />
+  <!-- ワーッ！オートロイドサーン！シンニューシャダヨー！ -->
+  <Dialogue Key="Map.CompanyServer17SpritesStage1Dialogue3FaceSprite" Value="WHAT? TRESSPASSER!,CALL THE AUTOROIDS!" Face="Sprite" Mono="False" />
+  <!-- シンニュウシャ　ハイジョシンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage1Dialogue1FaceAutoroid" Value="TRESSPASSER!" Face="Autoroid" Mono="False" />
+  <!-- オートロイドV2 -->
+  <Text Key="Map.CompanyServer1Chapter7EventsBattle1Enemy1" Value="AutordV2" />
+  <!-- オートロイドGV2 -->
+  <Text Key="Map.CompanyServer1Chapter7EventsBattle1Enemy2" Value="AutordGV2" />
+  <!-- オートロイドBV2 -->
+  <Text Key="Map.CompanyServer1Chapter7EventsBattle1Enemy3" Value="AutordBV2" />
+  <!-- シャンハイ！今どのあたりにいるの？ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue1FaceAlice" Value="Shanghai! Where are you now?" Face="Alice" Mono="False" />
+  <!-- １階のサーバーの奥にいるわ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue2FaceShanghai" Value="I’m in the back of the server on,the first floor." Face="Shanghai" Mono="False" />
+  <!-- よし　ならばその辺りの端末で赤外線センサーの機能を落としてくれ -->
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue3FaceReisen" Value="Look for the control system of,the infrared cameras." Face="Reisen" Mono="False" />
+  <!-- それを切れば先へと進むのがかなり楽になる -->
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue4FaceReisen" Value="Disabling those will vastly,simplify our task moving,forward." Face="Reisen" Mono="False" />
+  <!-- わかったわ赤外線センサーね -->
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue5FaceShanghai" Value="Got it. Infrared cameras." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer1BGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer1PunishmentStage1Dialogue1FaceNone" Value="INVALID SEQUENCE,ENTERED." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer1PunishmentStage1Dialogue2FaceNone" Value="SECURITY AUTOROIDS,HAVE BEEN NOTIFIED!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer1PunishmentBattle1Enemy1" Value="AutordSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer1PunishmentBattle1Enemy2" Value="AutordSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer1PunishmentStage3Dialogue1FaceShanghai" Value="Well，that was rude...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer1AGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+</data>

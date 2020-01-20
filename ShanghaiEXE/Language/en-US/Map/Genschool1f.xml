@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Genschool1fName" Value="School 1F" />
+  <Dialogue Key="Map.Genschool1fToTheOutsideStage1Dialogue1FaceNone" Value="A dangerous high-voltage,current is flowing through,the door!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue1FaceNone" Value="A class newspaper from the,press club is posted here." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue2FaceNone" Value="”Arabstan After the War”,”Top Party’s Approval Ratings”,”Net Crimes by Boys”" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue3FaceNone" Value="Hmm，those are some heavy,headlines...." Face="None" Mono="False" />
+  <!-- コラム記事の部分に００００４６００という数字が書かれている -->
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue4FaceNone" Value="Someone’s written ”00004600”,as an answer in the crossword.,....It doesn’t even fit!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fBeforeEntranceOfStaffRoomStage1Dialogue1FaceNone" Value="I don’t like to enter the,Staff Room，even when,I’m on my best behavior." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fBeforeEntranceOfStaffRoomStage1Dialogue2FaceNone" Value="I’ll only go in if I have,a reason to be there." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fAfterTheStaffRoomEntranceStage1Dialogue1FaceNone" Value="I don’t like to enter the,Staff Room，even when,I’m on my best behavior." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fAfterTheStaffRoomEntranceStage1Dialogue2FaceNone" Value="I’ll only go in if I have,a reason to be there." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage1Dialogue1FaceFemaleAdult" Value="Oh，aren’t you Alice from,Class 2-2?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage1Dialogue2FaceFemaleAdult" Value="Your homeroom is upstairs on,the second floor." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage3Dialogue1FaceKumako" Value="Alice，be sure to head,straight home." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue1FaceFemaleAdult" Value="Ms. Koa?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue2FaceFemaleAdult" Value="I think she’s sorting the,library database right now." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue3FaceFemaleAdult" Value="You can access it from the,PC Room，so that’s probably,where she is." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue1FaceFemaleStudent" Value="Ms. Kumako Koa is a,really gorgeous teacher." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue2FaceFemaleStudent" Value="I heard that she’s really kind,and that her students have,nicknames for her." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue3FaceFemaleStudent" Value="It must be nice having her,as your homeroom teacher.,I’m sooooo jealous!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage1Dialogue1FaceFemaleStudent" Value="I tried qualifying for the,N1 League，but I didn’t,make the cut." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage1Dialogue2FaceFemaleStudent" Value="I guess I have to be about,as strong as you，huh?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage3Dialogue1FaceFemaleStudent" Value="The N1 League is today，right?,Good luck，Alice!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage5Dialogue1FaceFemaleStudent" Value="You won the N1 League?,You’re so awesome，Alice!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fPostGameBystander1Dialogue1" Value="Who could have known that,Ms. Asakura was running such,an evil organization?" Face="FemaleOld" Mono="False" />
+  <Dialogue Key="Map.Genschool1fPostGameBystander1Dialogue2" Value="I could never have believed,something like that...." Face="FemaleOld" Mono="False" />
+</data>

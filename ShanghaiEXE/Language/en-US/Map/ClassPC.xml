@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ClassPCName" Value="School PC Room" />
+  <Dialogue Key="Map.ClassPCPaperboard1Stage1Dialogue1FaceNone" Value="It’s a guide to using good,manners on the Internet." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCPaperboard1Stage1Dialogue2FaceNone" Value="It used to be called,”netiquette”，but nobody,uses that word anymore." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCPaperboard2Stage1Dialogue1FaceNone" Value="It’s a brief history of how,computers were invented." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCPaperboard2Stage1Dialogue2FaceNone" Value="Writing the history of,computers on paper is,kinda ironic." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue1FaceMsAsakura" Value="Alright，everyone turn on your,computers and jack in." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue2FaceMsAsakura" Value="For today’s class，you’ll be,fighting real viruses." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue3FaceMsAsakura" Value="I already explained it last,week，but I’ll explain it again,just to be safe." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue4FaceMsAsakura" Value="Virus busting is using your,Navi to delete viruses on a,computer." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue5FaceMsAsakura" Value="Originally，viruses were simply,bad programs which made,computers malfunction." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue6FaceMsAsakura" Value="In the cyberworld，they can,look like animals and batteries，,and they’ll attack Navis." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue7FaceMsAsakura" Value="Early Navis had no combat,capabilities，so they were,defenseless against viruses." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue8FaceMsAsakura" Value="However，new technology,allowed us to equip our Navis,with weapons." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue9FaceMsAsakura" Value="We made Battle Chips，,and now our Navis can,fight off viruses." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue10FaceMsAsakura" Value="I’ll let my Navi explain the,details." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue11FaceMsKoaNavi" Value="Equipping a Navi with,weapons is not easy.,In fact，it is quite difficult." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue12FaceMsKoaNavi" Value="Weapons were orginially built,into the Navi，making already,large Navis even larger." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue13FaceMsKoaNavi" Value="From this，high-capacity and,low cost ”Chip Cards” were,invented." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue14FaceMsKoaNavi" Value="Weapon data is stored on,the Chip Card and then sent,to the Navi." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue15FaceMsKoaNavi" Value="This is how and why we use,Battle Chips." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue16FaceMsKoaNavi" Value="I have yet to explain the,Chip Folder and Chip Slot-In,Tool，but...." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue17FaceMsKoaNavi" Value="for convenience，I’ll cover,those topics after the exam." Face="MsKoaNavi" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue18FaceMsAsakura" Value="Did you remember all that,from last week?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue19FaceMsAsakura" Value="Now，we’ll test how well you,can fight against viruses." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue20FaceMsAsakura" Value="Is there anyone who would like,me to explain how to operate?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue21FaceMsAsakura" Value="If you want help，just raise,your hand." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue22FaceMaleStudent" Value="Ms. Asakura! Over here!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue23FaceFemaleStudent" Value="Me too! We should probably,pay attention." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue1FaceAlice" Value="Do you remember what to do，,Shanghai?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue2QuestionFaceShanghai" Value="Eh...." Face="Shanghai" Mono="False" />
+  <Text Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue2Options" Value="I can’t remember....,Of course!" />
+  <!-- えーっと････あれ　思い出せない････ -->
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue3FaceShanghai" Value="Uh....,I can’t remember...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue4FaceAlice" Value="Ms. Asakura，I think my,Navi doesn’t understand." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue5FaceAlice" Value="Could you help us?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue6FaceMsAsakura" Value="Alright，I’ll go around and,help the students who raised,their hands." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue7FaceMsAsakura" Value="I’ll hold your hand through the,first four fights." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue8FaceMsAsakura" Value="But you’ll be graded on the,fifth fight，so be sure to pay,attention!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue9FaceMsAsakura" Value="Be careful not to make a,mistake and get your Navi,deleted!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage5Dialogue1FaceAlice" Value="Okay! Here we go!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage5Dialogue2FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage5Dialogue3FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage7Dialogue1FaceMsAsakura" Value="Well done，everyone!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage7Dialogue2FaceMsAsakura" Value="That’s all for today’s lesson!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage7Dialogue3FaceMsAsakura" Value="We covered important,material，so write it down,before you forget." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage7Dialogue4FaceMsAsakura" Value="Today’s and last week’s,material will be on the,final exam." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage7Dialogue5FaceMsAsakura" Value="Class is dismissed.,Have a good day." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage7Dialogue6FaceFemaleStudent" Value="Thank you，teacher!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage9Dialogue1FaceNone" Value="Thank you!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue1FaceMsAsakura" Value="Ah，you came.,Let’s get started." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue2FaceMsAsakura" Value="First，give me your PET so I,can transfer its data to the PC." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue3FaceAlice" Value="Here you go，Ms. Asakura." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue4FaceMsAsakura" Value="#b@false#.......#b@true#" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue5FaceMsAsakura" Value="A high-capacity Navi，huh....?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue6FaceAlice" Value="It’s weird.,Shanghai is larger than most,other Navis combined." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue7FaceShanghai" Value="Don’t talk about fat people,right in front of them! It’s rude!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue8FaceMsAsakura" Value="Fufu....,Clearly she’s a special Navi." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue9FaceMsAsakura" Value="Initializing the Scan Program....,Scanning data...." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue10FaceMsAsakura" Value="#b@false#.......#b@true#There. Done." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue11FaceMsAsakura" Value="Here’s your PET." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue12FaceMsAsakura" Value="It doesn’t look like there are,any anomalies. That’s a relief." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue13FaceMsAsakura" Value="Hold on. Is that a,compressed data file?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue14FaceAlice" Value="Oh，that! Someone buried it in,Genso Area. It looks like some,kind of treasure data." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue15FaceAlice" Value="Unfortunately，we can’t figure,out how to decompress it." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue16FaceShanghai" Value="Some strange thugs were,looking for it，so it’s probably,valuable." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue17FaceMsAsakura" Value="I see. Maybe you should,see Dr. Morichika." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue18FaceAlice" Value="Morichika....?,Where have I heard that,name before....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue19FaceShanghai" Value="Mari!,It’s Mari’s last name!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue20FaceMsAsakura" Value="Ah，that girl might be his,daughter." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue21FaceMsAsakura" Value="Dr. Morichika is a professor,at Genso University. He laid,the groundwork for today’s" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue22FaceMsAsakura" Value="Internet.,I wonder if he can also analyze,your data for you." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue23FaceAlice" Value="A professor?,What’s that?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue24FaceShanghai" Value="Basically，it’s someone who,teaches classes at a university." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue25FaceShanghai" Value="You’re only in middle school，,so it makes sense that you,wouldn’t know." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue26FaceAlice" Value="Then why do I feel like an,idiot....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue27FaceAlice" Value="Well，maybe Dr. Morichika,can help with our data if we,pay him a visit." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue28FaceShanghai" Value="We can go right now if you,want." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue29FaceAlice" Value="Would it bother him if we,went right now?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue30FaceShanghai" Value="Let’s just leave that to Mari.,She’ll come up with something." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue31FaceAlice" Value="....Then let’s try asking her,first." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue32FaceAlice" Value="Thank you，Ms. Asakura!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue33FaceMsAsakura" Value="If anything is bothering you，,don’t be afraid to ask for help." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage13Dialogue1FaceMsAsakura" Value="You are representing your,school，so please be on your,best behavior." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue1FaceKumako" Value="Ah，Alice!,Do you need something?" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue2FaceAlice" Value="Kumami asked me if you,could return her Navi." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue3FaceKumako" Value="My sister?" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue4FaceKumako" Value="Well....,I’d love to，but now’s not the,best time." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue5FaceShanghai" Value="Weren’t you just reorganizing,the database?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue6FaceKumako" Value="That’s just it.,It looks like some viruses,got into the book data." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue7FaceShanghai" Value="Those viruses shouldn’t be,that big of a deal，right?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue8FaceKumako" Value="True，but my sister’s Navi,can’t actually fight." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue9FaceAlice" Value="(A Navi light enough to, send by email....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue10FaceKumako" Value="I was thinking about calling,someone for help." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue11FaceShanghai" Value="Those little....!,Alice! Jack me in!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue12FaceShanghai" Value="I’ll tidy up those viruses,nice ’n quick!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage15Dialogue13FaceAlice" Value="Y-Yeah! Got it!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue1FaceKumako" Value="Thank you，Alice!,You really helped me out!" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue2FaceAlice" Value="Don’t mention it! We were just,doing Kumami a favor." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue3FaceShanghai" Value="And with that，all our errands,are done! Man，I’m beat!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue4FaceAlice" Value="That was a lot of stuff to do,in one day...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue5FaceAlice" Value="Oh yeah，have you seen,Remilia?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue6FaceKumako" Value="Ms. Scarlet?,Why? Is she alright?" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue7FaceAlice" Value="Ah，never mind!,It’s nothing!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue8FaceKumako" Value="Really?" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue9FaceKumako" Value="She’s the youngest in the,class，so she might be feeling,lonely...." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue10FaceShanghai" Value="That brat? Lonely?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue11FaceKumako" Value="Even though she skipped a,few grades，she’s still a child.,Treat her gently." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage17Dialogue12FaceAlice" Value="S-Sure...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage19Dialogue1FaceKumako" Value="Now that Patchouli’s gone，,I have to get a new Navi." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage19Dialogue2FaceAlice" Value="Do you have one in mind?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage19Dialogue3FaceKumako" Value="I’ll talk it over with my sister,and take some time to decide." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ClassPCTeachStage1Dialogue1FaceNone" Value="It’s a fancy teacher’s desk." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCTeachStage1Dialogue2FaceNone" Value="The most high-tech computer,in the school is in this desk." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCTeachStage1Dialogue3FaceNone" Value="It was designed so that it can’t,be used without a teacher’s ID." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCTeachStage3Dialogue1FaceNone" Value="It’s a fancy teacher’s desk." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCTeachStage3Dialogue2FaceNone" Value="The most high-tech computer,in the school is in this desk." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCTeachStage3Dialogue3FaceNone" Value="It’s currently connected to the,library’s server.,I can access it by jacking in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-1Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-1Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-1Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-1Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-1Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-1Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-1Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-1Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-1Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-2Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-2Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-2Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-2Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-2Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-2Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-2Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-2Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-2Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-3Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-3Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-3Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-3Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-3Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-3Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-3Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-3Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-3Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-4Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-4Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine1-4Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-4Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-4Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine2-4Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-4Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-4Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCMachine3-4Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-1Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-1Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-1Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-1Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-1Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-1Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-1Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-1Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-1Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-1Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-1Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-1Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-1Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-1Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-1Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-1Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-1Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-1Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-2Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-2Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-2Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-2Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-2Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-2Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-2Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-2Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-2Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-2Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-2Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-2Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-2Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-2Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-2Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-2Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-2Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-2Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-3Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-3Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-3Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-3Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-3Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-3Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-3Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-3Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-3Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-3Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-3Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-3Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-3Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-3Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-3Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-3Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-3Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-3Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-4Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-4Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-4Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-4Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-4Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair1-4Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-4Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-4Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-4Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-4Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-4Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair2-4Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-4Stage1Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-4Stage1Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-4Stage1Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-4Stage3Dialogue1FaceNone" Value="It’s a high-tech desk with a,computer built-in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-4Stage3Dialogue2FaceNone" Value="They call it high-tech，but,the tech inside is actually,pretty old." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChair3-4Stage3Dialogue3FaceNone" Value="Students can only jack in,during class." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClassPCChapter3Girl1Stage1Dialogue1FaceFemaleStudent" Value="I’m part of the student,committee，so it’s my job to,clean the classrooms." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.ClassPCChapter3Girl1Stage1Dialogue2FaceFemaleStudent" Value="The keyboards got surprisingly,dirty，huh?" Face="FemaleStudent" Mono="False" />
+</data>

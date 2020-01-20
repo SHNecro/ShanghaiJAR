@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.RikaHPName" Value="Rika’s HP" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue1FaceIku" Value="Miss Tenshi can’t use her,computer while she’s in the,hospital，so...." Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue2FaceIku" Value="Rika is taking care of me in,her own computer for now." Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue3FaceTenshi" Value="Ah，Alice! I can still use the,Internet，so let’s Netbattle!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage1Dialogue1QuestionFaceShanghai" Value="Challenge Tenshi to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.RikaHPIkutororuStage1Dialogue1Options" Value="Yes,No" />
+  <Dialogue Key="Map.RikaHPIkutororuStage1Dialogue2FaceTenshi" Value="Iku!,Do your best!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage3Dialogue1FaceTenshi" Value="Yay! I won!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage5Dialogue1FaceTenshi" Value="Alice，you’re so strong!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage6Dialogue1FaceIku" Value="Miss Tenshi has customized,me to be even more powerful!" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage6Dialogue2FaceTenshi" Value="I won’t lose anymore!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage8Dialogue1FaceTenshi" Value="You did it，Iku!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage10Dialogue1FaceTenshi" Value="Amazing，Alice!,You’ll have to show me how,you customize next time!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage11Dialogue1FaceTenshi" Value="Whenever you feel like it!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue1FaceSprite" Value="AH! SHANGHAI!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue2FaceSprite" Value="LOOKS LIKE RIKA FORGOT,TO GIVE YOU HER P-CODE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue3FaceSprite" Value="I’LL GIVE YOU HER P-CODE,TO HOLD ON TO! I WILL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage3Dialogue1FaceSprite" Value="LIVING WITH RIKA HAS,AFFECTED MY SPEECH,PATTERNS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage3Dialogue2FaceSprite" Value="IT HAS! IT HAS!" Face="Sprite" Mono="False" />
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭのディスプレイ電脳 -->
+  <Text Key="Map.RomDisplayName" Value="ROM Screen Comp" />
+  <!-- ワルイコトト　ワカッテイテモヤラナケレバ　イケナイノハスプライトノ　サガ　デス -->
+  <Dialogue Key="Map.RomDisplaySprite1Stage1Dialogue1FaceSprite" Value="EVEN IF YOU KNOW WHAT,YOU DO IS BAD，YOU JUST,HAVE TO DO YOUR JOB!" Face="Sprite" Mono="False" />
+  <!-- チカカラ　マガマガシイエネルギーガ　カンジラレマス -->
+  <Dialogue Key="Map.RomDisplaySprite2Stage1Dialogue1FaceSprite" Value="ITS A NICE JOB! KEEPS ME,BUSY SO I DON’T HAVE TO,THINK ABOUT WHAT I DO!" Face="Sprite" Mono="False" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="Hey，little girl....,You have a pretty dark aura,about you，huh?" Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="Why not fight some viruses,I raised? If you win，I’ll give,you a Dark Chip." Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="Of course，you’ll be putting,your life on the line...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="Will you fight my viruses?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.RomDisplayDarkSellerStage1Dialogue4Options" Value="Let’s do it!,On second thought...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="Tch....,Getting cold feet?" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="Alright，let’s go!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="You won! Not bad〜!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="Here you go，as promised!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="I lost to you. I have no right,to say anything else." Face="NaviBlackHeel" Mono="False" />
+</data>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　シティエリア２ -->
+  <Text Key="Map.CityNet1Name" Value="City Area 2" />
+  <!-- ←：シティエリア１　スクエア方面→：シティエリア３ -->
+  <Dialogue Key="Map.CityNet1GuidePlateStage1Dialogue1FaceNone" Value="←: City Area 1，Square,→: City Area 3" Face="None" Mono="False" />
+  <!-- 他人のセキュリティキューブだ -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage1Dialogue1FaceNone" Value="It’s a stranger’s P-Cube." Face="None" Mono="False" />
+  <!-- 誰のかわからないと通りようがない -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage1Dialogue2FaceNone" Value="I can’t unlock it unless I know,who owns it." Face="None" Mono="False" />
+  <!-- シャンハイは管理Ｐコードを使った -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue1FaceNone" Value="Shanghai used the,Admin P-Code!" Face="None" Mono="False" />
+  <!-- 管理Ｐコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue2FaceNone" Value="The Admin P-Code unlocked,the P-Cube!" Face="None" Mono="False" />
+  <!-- あら　あなたシティエリアは初めてかしら？ -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="Oh，is it your first time in,City Area?" Face="NaviPinkFemale" Mono="False" />
+  <!-- この都会的なエリアの壁紙は夜景をイメージしてるんですって -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="This Area’s urban wallpaper,imitates the city at night!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 素敵なカレと一緒に来ればデート気分はムンムンよ！ -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="If you bring your boyfriend,here，it’ll be a steamy date,for sure!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ････一緒に来るようなカレがいればの話だけど -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue4FaceNaviPinkFemale" Value="....If you have a boyfriend，,that is." Face="NaviPinkFemale" Mono="False" />
+  <!-- 目玉のウィルスやボムを飛ばすジャンクのウィルスは土属性っていう新しい属性なの -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="The eyeball and junk viruses,are both the new Earth,element!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 土属性は水属性や草属性に弱いけど火属性や電気属性に強いんだって -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi2Stage1Dialogue2FaceNaviPinkFemale" Value="Earth is weak to Aqua and,Leaf，but strong against,Heat and Elec!" Face="NaviPinkFemale" Mono="False" />
+  <!-- あと　土属性は重くなったり砂に足を取られたりしないんだって -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi2Stage1Dialogue3FaceNaviPinkFemale" Value="Also，Earth types can’t be,Heavy or be stuck in sand." Face="NaviPinkFemale" Mono="False" />
+  <!-- こういうセキュリティキューブってナビによって見えたり見えなかったりするんだって -->
+  <Dialogue Key="Map.CityNet1Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="Some Navis can see this,P-Cube，while other’s can’t." Face="NaviChild" Mono="False" />
+  <!-- Ｐコードを持っているナビには無くて通れるところも他のナビは通れないとか -->
+  <Dialogue Key="Map.CityNet1Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="Navis with the P-Code can go,through，while others can’t." Face="NaviChild" Mono="False" />
+  <!-- 電脳世界ってふしぎだね〜 -->
+  <Dialogue Key="Map.CityNet1Chapter2YoungGirlNavi1Stage1Dialogue3FaceNaviChild" Value="The cyberworld sure is a,mysterious place〜!" Face="NaviChild" Mono="False" />
+  <!-- シティエリアは幻想大学方面のエリア１と中央街方面のエリア３がある -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="Genso University is near,City Area 1，and Central City,is near City Area 3!" Face="NaviGreenRobot" Mono="False" />
+  <!-- その間にあるこのエリア２はシティエリアの動脈って呼ばれてるんだぜ！ -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="City Area 2 is right in the,middle，so it’s called the,heart of City Area!" Face="NaviGreenRobot" Mono="False" />
+  <!-- 砂のパネルは踏むとしばらく足を取られて移動ができなくなるんだ -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="If you step in sand，you’ll get,stuck and won’t move as,quickly." Face="NaviGreenRobot" Mono="False" />
+  <!-- とっさに攻撃を避けることが難しくなるから気をつけたいね -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="Sand makes it hard to avoid,attacks，so watch where you,step!" Face="NaviGreenRobot" Mono="False" />
+  <!-- 砂のパネルは踏むとしばらく足を取られて移動ができなくなるんだ -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi3Stage1Dialogue1FaceNaviGreenRobot" Value="If you step in sand，you’ll,get stuck and won’t move,as quickly." Face="NaviGreenRobot" Mono="False" />
+  <!-- とっさに攻撃を避けることが難しくなるから気をつけたいね -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi3Stage1Dialogue2FaceNaviGreenRobot" Value="Sand makes it hard to avoid,attacks，so watch where you,step!" Face="NaviGreenRobot" Mono="False" />
+  <!-- うひょひょひょ〜べっぴんなね〜ちゃんやの〜 -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="Hey there，pretty lady〜!" Face="NaviGreenRobot" Mono="False" />
+  <!-- 何？ボクチンをこらしめるように頼まれただって？ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="Wha?,You were asked to punish,little ol’ me?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ほひー！ほひー！黙ってやられるほどおとなしいボクチンじゃないぞー！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue3FaceNaviGreenRobot" Value="You for real!?,You think little ol’ me would,just take that lying down!?" Face="NaviGreenRobot" Mono="False" />
+  <!-- いけー！ボクチンのウィルス達！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue4FaceNaviGreenRobot" Value="Go，my viruses!,Attack!!" Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.CityNet1Request2ManNavi2Battle1Enemy1" Value="ShadyGuy" />
+  <!-- ほひ！ほひ！わかった！もうちょっかいなんてかけないよ！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage3Dialogue1FaceNaviGreenRobot" Value="Yo，you’re for real!?,Okay! Okay! I won’t,bother anyone anymore!" Face="NaviGreenRobot" Mono="False" />
+  <!-- もうここも通らないし　ね！ゆ　許して〜！トンズラー！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage3Dialogue2FaceNaviGreenRobot" Value="I won’t show my face,around here anymore!,P-Please forgive me!" Face="NaviGreenRobot" Mono="False" />
+  <!-- キャンパススクエア　ニハココカラ　ウエノホウヘイクトイイデス -->
+  <Dialogue Key="Map.CityNet1Chapter2Sprite1Stage1Dialogue1FaceSprite" Value="TO GET TO THE CAMPUS,SQUARE，GO UP FROM,HERE!" Face="Sprite" Mono="False" />
+  <!-- ウエ　ッテイウノハオペレーターサンノ　ガメンデミタウエ　トイウイミデス -->
+  <Dialogue Key="Map.CityNet1Chapter2Sprite1Stage1Dialogue2FaceSprite" Value="UP ON THE NETOP’S,SCREEN，I MEAN!" Face="Sprite" Mono="False" />
+  <!-- この大きな道はシティエリアのメインストリートだぜ！ -->
+  <Dialogue Key="Map.CityNet1Chapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="This big road is the,City Area Main Street!" Face="NaviOrangeMale" Mono="False" />
+  <!-- オペレーターから見て上のほうがキャンパススクエアのあるエリア１で右下がエリア３だぜ -->
+  <Dialogue Key="Map.CityNet1Chapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="From the NetOp’s perspective，,Area 1 is upwards，while,Area 3 is to the bottom-right." Face="NaviOrangeMale" Mono="False" />
+  <!-- この長い道を電脳バイクや電脳クルマでかっ飛ばしてみたいよなー -->
+  <Dialogue Key="Map.CityNet1Chapter2YouthNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="I’d love to speed down this,long road on a cyber bike or,in a cyber car." Face="NaviOrangeMale" Mono="False" />
+  <!-- ゲームセンターで稼働しているネットバトルマシンはやったか？ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="Have you seen the NetBattle,Machine at the Game Center?" Face="NaviOrangeMale" Mono="False" />
+  <!-- すっげー迫力だったってオペレーターが喜んでたぜ！ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="It was pretty great!,My NetOp was impressed!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 幻想町にチップショップがオープンしたと聞きました -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="I heard that a chip shop just,opened in Genso Town." Face="NaviGreenRobot" Mono="False" />
+  <!-- 中央街の店よりも品揃えがいいらしいですね -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="Sounds like it has a better,selection than the one in,Central City." Face="NaviGreenRobot" Mono="False" />
+  <!-- 我々はネットエージェントだ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi3Stage1Dialogue1FaceNaviBlueRobot" Value="We are NetAgents!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 電脳世界の平和は我々が守ってみせる！ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi3Stage1Dialogue2FaceNaviBlueRobot" Value="It is our duty to preserve,peace in the cyberworld!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 戦闘後に手に入るチップは最後に倒したウィルスが落とすんですって！ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="The virus you beat last,determines what chip you,get after the battle!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 倒す順番を考えれば狙ったチップを手に入れられるわね！ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="If you want a certain chip，,just defeat the viruses in,the right order!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ダークチップはウラインターネットで取り引きされるのよ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi2Stage1Dialogue1FaceNaviPurpleFemale" Value="Dark Chips are trading hands,in the Undernet." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 欲しかったらその入口を探すことねフフフ････ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi2Stage1Dialogue2FaceNaviPurpleFemale" Value="If you want them，you have,to find your way there.,Fufufu...." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 世の中にはオートロイドっていうココロを持たないナビが存在するらしい -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="I hear there are Navis called,”Autoroids” that don’t have a,heart." Face="NaviGreenRobot" Mono="False" />
+  <!-- そもそも　ココロを持ったプログラムがあたりまえなのがすごいことなんだけどね -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi1Stage1Dialogue2FaceNaviGreenRobot" Value="I’m just glad it’s normal for,programs to have a heart,at all." Face="NaviGreenRobot" Mono="False" />
+  <!-- きれいなインテリアでホームページを飾りたいけどお金が足りない････ -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi2Stage1Dialogue1FaceNaviPinkFemale" Value="I want to decorate with pretty,Interiors，but I don’t have,enough money." Face="NaviPinkFemale" Mono="False" />
+  <!-- 指名手配されていたＲＯＭのナビがデリート判定され警戒態勢が解かれたんだ -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi3Stage1Dialogue1FaceNaviBlueRobot" Value="The wanted ROM Navi was,deleted. The lockdown has,been lifted." Face="NaviBlueRobot" Mono="False" />
+  <!-- 俺もゲンソウスクエアで安いっていうお米を買いに行こうかな -->
+  <Dialogue Key="Map.CityNet1Chapter7MaleNavigation1Stage1Dialogue1FaceNaviOrangeMale" Value="There’s a huge sale on rice at,Genso Square!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 考えねばならぬ････考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage1Dialogue1FaceNaviBlueRobot" Value="I have to think....,I must think...." Face="NaviBlueRobot" Mono="False" />
+  <!-- そなたが依頼を受けてくれた娘か -->
+  <Dialogue Key="Map.CityNet1Requester16Stage1Dialogue2FaceNaviBlueRobot" Value="Young lady，are you the one,who responded to my request?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　私と語り合うか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage1Dialogue3QuestionFaceNaviBlueRobot" Value="Are you here to talk with me?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage1Dialogue3Options" Value="Yes,No" />
+  <!-- そうか････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage3Dialogue1FaceNaviBlueRobot" Value="A shame...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　自分とは何か教えてくれ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue1FaceNaviBlueRobot" Value="Young lady，tell me what you,are...." Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビはデータであるデータとはすなわち１と０の集合体である････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue2FaceNaviBlueRobot" Value="NetNavis are but 1s and 0s,one after another." Face="NaviBlueRobot" Mono="False" />
+  <!-- 私という意識は数字か形造ったものに過ぎないのであろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue3FaceNaviBlueRobot" Value="Is my consciousness merely a,pattern?,One very long number?" Face="NaviBlueRobot" Mono="False" />
+  <!-- お前とは　数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue4QuestionFaceNaviBlueRobot" Value="Are you but a number?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage5Dialogue4Options" Value="Yes,No" />
+  <!-- 私とお前には心がある意思がある -->
+  <Dialogue Key="Map.CityNet1Requester16Stage7Dialogue1FaceNaviBlueRobot" Value="You and I，we are mindful,beings...." Face="NaviBlueRobot" Mono="False" />
+  <!-- けれど　この心も意思も数字の集合体がそのように見せているだけなのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage7Dialogue2FaceNaviBlueRobot" Value="But what are minds? Are my,thoughts divisible by 2?,Are yours?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々の心とは数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage7Dialogue3QuestionFaceNaviBlueRobot" Value="Is my heart a number?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage7Dialogue3Options" Value="Yes,No" />
+  <!-- 数字は心である意思は数字である -->
+  <Dialogue Key="Map.CityNet1Requester16Stage9Dialogue1FaceNaviBlueRobot" Value="Numbers are hearts，intentions,are numbers." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に意思が宿りあたかも一個の生命体として振る舞っているのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage9Dialogue2FaceNaviBlueRobot" Value="Are my intentions embedded,in a series of primes?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に心はないしかし心は数字でできている -->
+  <Dialogue Key="Map.CityNet1Requester16Stage11Dialogue1FaceNaviBlueRobot" Value="No figure can plot the heart，but,the heart figures many things." Face="NaviBlueRobot" Mono="False" />
+  <!-- では特定の数列に心が宿るのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage11Dialogue2FaceNaviBlueRobot" Value="Is there a figure the heart dwells,on?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 心が宿る数字と宿らぬ数字のその境目とは一体何なのだ？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage11Dialogue3FaceNaviBlueRobot" Value="Where is the boundary of the,numbers that make up the heart,and the numbers that do not?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々は数字ではないしかし　我々はデータである -->
+  <Dialogue Key="Map.CityNet1Requester16Stage13Dialogue1FaceNaviBlueRobot" Value="But we are not numbers，but,data!" Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビをかたどるデータとそれ以外のデータには隔たりがあるのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage13Dialogue2FaceNaviBlueRobot" Value="Where lies the line between,NetNavi and data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビとデータは異なる存在か？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage13Dialogue3QuestionFaceNaviBlueRobot" Value="Is there a line? In the end，are,we anything more than data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage13Dialogue3Options" Value="Yes,No" />
+  <!-- ナビとそれ以外は異なるデータであるとすればウィルスはまた異なるものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage15Dialogue1FaceNaviBlueRobot" Value="If NetNavis are different from,data，what of viruses? Are they,NetNavis? Are they data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビも　ウィルスも　それ以外もデータではあるが異なる存在なのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage15Dialogue2FaceNaviBlueRobot" Value="NetNavis，viruses，but what,else? What of other existences?" Face="NaviBlueRobot" Mono="False" />
+  <!-- そのデータの境目とはどこにあるのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage15Dialogue3FaceNaviBlueRobot" Value="What is data，and what is not?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビもその他も同じデータであるならばなぜ意思を持つデータと意思を持たぬデータがある？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage17Dialogue1FaceNaviBlueRobot" Value="If NetNavis are data，why is,data not NetNavis?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ウィルスには意志があるだろうか？ナビと同じものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage17Dialogue2FaceNaviBlueRobot" Value="Do viruses have intentions?,Hearts? Can you call such,things hearts or intentions?" Face="NaviBlueRobot" Mono="False" />
+  <!-- それともウィルスの意思は我々と異なる意思なのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage17Dialogue3FaceNaviBlueRobot" Value="Or are they the intentions of,data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- わからぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue1FaceNaviBlueRobot" Value="We just don’t know...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue2FaceNaviBlueRobot" Value="That is why we must think!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　良い語らいができたまた語らいたくば私をまた訪ねると良い -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue3FaceNaviBlueRobot" Value="Young lady，that was quite the,scintillating conversation!,If you ever wish to visit again...." Face="NaviBlueRobot" Mono="False" />
+  <!-- これは心ばかりのお礼だ取っておきたまえ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue4FaceNaviBlueRobot" Value="You have my heartfelt thanks!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue5FaceNaviBlueRobot" Value="Remember，think your NetNavi,thoughts!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ････考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage21Dialogue1FaceNaviBlueRobot" Value="I have to think....,We must think!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　私と語り合うか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage21Dialogue2QuestionFaceNaviBlueRobot" Value="Young lady，are here to talk to,me?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage21Dialogue2Options" Value="Yes,No" />
+  <!-- そうか････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage23Dialogue1FaceNaviBlueRobot" Value="Okay...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　自分とは何か教えてくれ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue1FaceNaviBlueRobot" Value="Young lady，tell me what you,are...." Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビはデータであるデータとはすなわち１と０の集合体である････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue2FaceNaviBlueRobot" Value="NetNavis are but 1s and 0s,one after another." Face="NaviBlueRobot" Mono="False" />
+  <!-- 私という意識は数字か形造ったものに過ぎないのであろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue3FaceNaviBlueRobot" Value="Is my consciousness merely a,pattern?,One very long number?" Face="NaviBlueRobot" Mono="False" />
+  <!-- お前とは　数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue4QuestionFaceNaviBlueRobot" Value="Are you but a number?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage25Dialogue4Options" Value="Yes,No" />
+  <!-- 私とお前には心がある意思がある -->
+  <Dialogue Key="Map.CityNet1Requester16Stage27Dialogue1FaceNaviBlueRobot" Value="You and I，we are mindful,beings...." Face="NaviBlueRobot" Mono="False" />
+  <!-- けれど　この心も意思も数字の集合体がそのように見せているだけなのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage27Dialogue2FaceNaviBlueRobot" Value="But what are minds? Are my,thoughts divisible by 2?,Are yours?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々の心とは数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage27Dialogue3QuestionFaceNaviBlueRobot" Value="Is my heart a number?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage27Dialogue3Options" Value="Yes,No" />
+  <!-- 数字は心である意思は数字である -->
+  <Dialogue Key="Map.CityNet1Requester16Stage29Dialogue1FaceNaviBlueRobot" Value="Numbers are hearts，intentions,are numbers." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に意思が宿りあたかも一個の生命体として振る舞っているのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage29Dialogue2FaceNaviBlueRobot" Value="Are my intentions embedded,in a series of primes?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に心はないしかし心は数字でできている -->
+  <Dialogue Key="Map.CityNet1Requester16Stage31Dialogue1FaceNaviBlueRobot" Value="No figure can plot the heart，but,the heart figures many things." Face="NaviBlueRobot" Mono="False" />
+  <!-- では特定の数列に心が宿るのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage31Dialogue2FaceNaviBlueRobot" Value="Is there a figure the heart dwells,on?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 心が宿る数字と宿らぬ数字のその境目とは一体何なのだ？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage31Dialogue3FaceNaviBlueRobot" Value="Where is the boundary of the,numbers that make up the heart,and the numbers that do not?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々は数字ではないしかし　我々はデータである -->
+  <Dialogue Key="Map.CityNet1Requester16Stage33Dialogue1FaceNaviBlueRobot" Value="But we are not numbers，but,data!" Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビをかたどるデータとそれ以外のデータには隔たりがあるのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage33Dialogue2FaceNaviBlueRobot" Value="Where lies the line between,NetNavi and data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビとデータは異なる存在か？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage33Dialogue3QuestionFaceNaviBlueRobot" Value="Is there a line? In the end，are,we anything more than data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage33Dialogue3Options" Value="Yes,No" />
+  <!-- ナビとそれ以外は異なるデータであるとすればウィルスはまた異なるものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage35Dialogue1FaceNaviBlueRobot" Value="If NetNavis are different from,data，what of viruses? Are they,NetNavis? Are they data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビも　ウィルスも　それ以外もデータではあるが異なる存在なのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage35Dialogue2FaceNaviBlueRobot" Value="NetNavis，viruses，but what,else? What of other existences?" Face="NaviBlueRobot" Mono="False" />
+  <!-- そのデータの境目とはどこにあるのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage35Dialogue3FaceNaviBlueRobot" Value="What is data，and what is not?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビもその他も同じデータであるならばなぜ意思を持つデータと意思を持たぬデータがある？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage37Dialogue1FaceNaviBlueRobot" Value="If NetNavis are data，why is,data not NetNavis?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ウィルスには意志があるだろうか？ナビと同じものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage37Dialogue2FaceNaviBlueRobot" Value="Do viruses have intentions?,Hearts? Can you call such,things hearts or intentions?" Face="NaviBlueRobot" Mono="False" />
+  <!-- それともウィルスの意思は我々と異なる意思なのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage37Dialogue3FaceNaviBlueRobot" Value="Or are they the intentions of,data?" Face="NaviBlueRobot" Mono="False" />
+  <!-- わからぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage39Dialogue1FaceNaviBlueRobot" Value="We just don’t know...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage39Dialogue2FaceNaviBlueRobot" Value="That is why we must think!" Face="NaviBlueRobot" Mono="False" />
+  <!-- おぬしらニンゲン共に遅れはとらんよ！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage1Dialogue1FaceNaviBlackRobe" Value="Death to degenerates!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.CityNet1BlackRobe1Battle1Enemy1" Value="????" />
+  <!-- ････ふうシティエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage3Dialogue1FaceShanghai" Value="....Looks like that’s everyone in,City Area." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue1FaceShanghai" Value="Alice，a phone call!,From Reisen!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue2FaceAlice" Value="Reisen! I’ve taken out the black,Navis in the Areas!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue3FaceReisen" Value="Confirmed. Your assistance is,appreciated." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue4FaceReisen" Value="Reports are coming in that they,emerged from the deepest,parts of the Undernet." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue5FaceReisen" Value="Sources in the Undernet claim,that they are not inhabitants，,but rather appeared suddenly." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue6FaceReisen" Value="It pains me to ask，but can you,investigate their origins?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="The Deep Undernet...." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="Are you alright，Shanghai?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="It’s nothing.,Just the nerve of those guys!" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue10FaceShanghai" Value="We’ll wipe them out!" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue11FaceReisen" Value="Our thanks." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue12FaceReisen" Value="If you want a reward，contact,the NetAgents after this is over." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue13FaceShanghai" Value="We’ll hunt these guys down in,no time flat!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue14FaceAlice" Value="....Will we be okay in the Deep,Undernet?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue15FaceShanghai" Value="What are you talking about?,We’re invincible wherever we,go!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue16FaceAlice" Value="....Yeah!,To the Deep Undernet!" Face="Alice" Mono="False" />
+  <!-- インテリアショップへようこそ！ -->
+  <Dialogue Key="Map.CityNet1InteriorShopStage1Dialogue1FaceNaviGreenRobot" Value="Welcome to my Interiors Shop!" Face="NaviGreenRobot" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れますです -->
+  <Dialogue Key="Map.CityNet1InteriorShopStage1Dialogue2FaceNaviGreenRobot" Value="You can decorate your,homepage beautifully，,even on a budget!" Face="NaviGreenRobot" Mono="False" />
+  <!-- インテリアをご所望ですか？ -->
+  <Dialogue Key="Map.CityNet1InteriorShopStage1Dialogue3QuestionFaceNaviGreenRobot" Value="Interested in some,Interiors?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.CityNet1InteriorShopStage1Dialogue3Options" Value="Shop,Leave" />
+  <Dialogue Key="Map.CityNet1PostGameBystander1Dialogue1" Value="I haven’t seen any shady Navis,hanging around lately." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.CityNet1PostGameBystander2Dialogue1" Value="I want to buy some Interiors,to impress girls，but these are,way too expensive for me...." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.CityNet1PostGameBystander3Dialogue1" Value="STANDING IN THE MIDDLE,OF THE MAIN ROAD MAKES,ME FEEL IMPORTANT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.CityNet1PostGameBystander4Dialogue1" Value="I wonder how to get to that,floating island...." Face="NaviGreenRobot" Mono="False" />
+</data>

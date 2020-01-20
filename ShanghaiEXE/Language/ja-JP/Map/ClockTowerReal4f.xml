@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔　内部　最上階 -->
+  <Text Key="Map.ClockTowerReal4fName" Value="時計塔　内部　最上階" />
+  <!-- 扉は電子ロックによって固く閉ざされている････ -->
+  <Dialogue Key="Map.ClockTowerReal4fDoorStage1Dialogue1FaceNone" Value="扉は電子ロックによって,固く閉ざされている････" Face="None" Mono="False" />
+  <!-- この部屋のセキュリティを制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage1Dialogue1FaceNone" Value="この部屋のセキュリティを,制御するコントロールパネルだ" Face="None" Mono="False" />
+  <!-- アクセスにロックがかけられておりプラグインすることができない -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage1Dialogue2FaceNone" Value="アクセスにロックが,かけられており,プラグインすることができない" Face="None" Mono="False" />
+  <!-- この部屋のセキュリティを制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage3Dialogue1FaceNone" Value="この部屋のセキュリティを,制御するコントロールパネルだ" Face="None" Mono="False" />
+  <!-- 今はアクセスがフリーになっておりプラグインが可能だ！ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage3Dialogue2FaceNone" Value="今はアクセスが,フリーになっており,プラグインが可能だ！" Face="None" Mono="False" />
+  <!-- ････なんだか声が聞えるわ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage1Dialogue1FaceAlice" Value="････なんだか声が聞えるわ" Face="Alice" Mono="False" />
+  <!-- アリス！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage1Dialogue2FaceWriggleHat" Value="アリス！" Face="WriggleHat" Mono="False" />
+  <!-- リグル君！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue1FaceAlice" Value="リグル君！" Face="Alice" Mono="False" />
+  <!-- ほう　もうここまで昇ってきたか -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue2FaceScissorManOpTarakhan" Value="ほう　もうここまで,昇ってきたか" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- すぐにここのセキュリティを解除してそっちに行くから！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue3FaceAlice" Value="すぐにここのセキュリティを,解除してそっちに行くから！" Face="Alice" Mono="False" />
+  <!-- 約束は破るんじゃないわよ！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue4FaceAlice" Value="約束は破るんじゃないわよ！" Face="Alice" Mono="False" />
+  <!-- クハハ････　いいだろう -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue5FaceScissorManOpTarakhan" Value="クハハ････　いいだろう" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そこのセキュリティはこれまでのものとは一味違うぞ？ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue6FaceScissorManOpTarakhan" Value="そこのセキュリティは,これまでのものとは,一味違うぞ？" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ　その威勢の良さがいつまで続くか高みの見物をさせてもらうよ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue7FaceScissorManOpTarakhan" Value="さぁ　その威勢の良さが,いつまで続くか高みの見物を,させてもらうよ" Face="ScissorManOpTarakhan" Mono="False" />
+</data>

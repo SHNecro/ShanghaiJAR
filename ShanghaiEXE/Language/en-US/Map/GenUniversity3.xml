@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity3Name" Value="University 3F" />
+  <Dialogue Key="Map.GenUniversity3ElevatorStage1Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3ElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity3ElevatorStage1Dialogue2Options" Value="1st Floor,2nd Floor,Leave" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue1FaceNone" Value="It’s a bench to rest on." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue2FaceNone" Value="It feels oddly stiff.,I don’t think I could sit on it,for very long." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue3FaceNone" Value="....It looks something is under,the bench." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair2Stage1Dialogue1FaceNone" Value="It’s a bench to rest on." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair2Stage1Dialogue2FaceNone" Value="It feels oddly stiff.,I don’t think I could sit on it,for very long." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="Only authorized people can,come to this floor." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter3OlderSisterStage1Dialogue2FaceFemaleAdult" Value="But sometimes a small child,will come up here with an,authorized person." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="It’ll take some time for my,results to come back，so,I’m taking a break." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Request11WhiteCoatStage1Dialogue1FaceScientist" Value="A man in a suit?" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Request11WhiteCoatStage1Dialogue2FaceScientist" Value="I saw him a while ago，but I,think he went to Genso Town." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3PostGameBystander1Dialogue1" Value="Someone was complaining,that they lost something by the,benches over there." Face="Scientist" Mono="False" />
+</data>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- インターネット　インゲレススクエア -->
+  <Text Key="Map.InglesSquareName" Value="Engelles Square" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.InglesSquareChipShopStage1Dialogue1QuestionFaceNaviGreenRobot" Value="I’m a Net vendor.,See anything you like?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareChipShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.InglesSquareSub-chipShopStage1Dialogue1QuestionFaceNaviBlueRobot" Value="I’m a Sub Chip vendor.,Care to buy some?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareSub-chipShopStage1Dialogue1Options" Value="Yes,No" />
+  <!-- アドオンショップへようこそ！ -->
+  <Dialogue Key="Map.InglesSquareAdd-onShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="Welcome to my AddOn shop!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareAdd-onShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- インテリアショップようこそアル！ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue1FaceNaviPurplePunk" Value="Welcome to my Interiors Shop!" Face="NaviPurplePunk" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れるアルよ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue2FaceNaviPurplePunk" Value="You can decorate your,homepage beautifully，,even on a budget!" Face="NaviPurplePunk" Mono="False" />
+  <!-- インテリア欲しいアルか？ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue3QuestionFaceNaviPurplePunk" Value="Interested in some,Interiors?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareInteriorShopStage1Dialogue3Options" Value="Shop,Leave" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue1FaceSprite" Value="I’M THE SPRITE THAT,CONNECTS LINK GATES!" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページトコノスクエアヲ　リンクデツナグコトガデキマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue2FaceSprite" Value="I CAN LINK THIS SQUARE,TO YOUR HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- セツゾクノ　テスウリョウトシテ１５０００ゼニーガ　ヒツヨウデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue3FaceSprite" Value="THE CONNECTION FEE IS,15000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナギマスカ？ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="CREATE A LINK?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareLinkSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <!-- リンクノ　セツゾクガカンリョウシマシタ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue5FaceSprite" Value="LINK CREATED!" Face="Sprite" Mono="False" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue6FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,1000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareLinkSpriteStage3Dialogue4Options" Value="Yes,No" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <!-- 時計塔前広場の時計塔はこの街のシンボルなんだよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi1BStage1Dialogue1FaceNaviGreenRobot" Value="The clock tower is a symbol of,this city." Face="NaviGreenRobot" Mono="False" />
+  <!-- 観光に来たのなら絶対に一度は見ておかないとね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi1BStage1Dialogue2FaceNaviGreenRobot" Value="If you’re here to sightsee，you,have to visit it at least once." Face="NaviGreenRobot" Mono="False" />
+  <!-- ホテルから出て橋を渡ったところにあるケーキ屋は一度訪れてみるといいわよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi2BStage1Dialogue1FaceNaviPinkFemale" Value="There’s a cake shop just past,the bridge by the hotel." Face="NaviPinkFemale" Mono="False" />
+  <!-- 世界でも有名な三ツ星パティシエの作るケーキはすごい絶品なのよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi2BStage1Dialogue2FaceNaviPinkFemale" Value="The cakes are made by a,three-star pastry chef!" Face="NaviPinkFemale" Mono="False" />
+  <!-- インゲレス市街にある大きな橋も実は名所の一つなんだ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi3BStage1Dialogue1FaceNaviOrangeMale" Value="The bridge in this city is actually,an attraction itself!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 世界的に有名な童話の題材にもなってるからね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi3BStage1Dialogue2FaceNaviOrangeMale" Value="It’s so old，it’s been featured,in fairy tales!" Face="NaviOrangeMale" Mono="False" />
+  <!-- ホテルの前にある銅像は探偵小説ファンなら欠かせないスポットですよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue1FaceNaviBlueRobot" Value="The bronze statue in front of,the hotel is a must-see if you’re,a fan of detective novels!" Face="NaviBlueRobot" Mono="False" />
+  <!-- あの名作推理小説「名探偵ナドゥ･ヤマザ」の銅像なんですからね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue2FaceNaviBlueRobot" Value="It’s a statue of the hero of the,masterpiece mystery series,”Detective Yamaze Nadu”!" Face="NaviBlueRobot" Mono="False" />
+  <!-- この街が小説の舞台だからこそ銅像が立つというものです -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue3FaceNaviBlueRobot" Value="They put it up since this city,is the setting of all the stories!" Face="NaviBlueRobot" Mono="False" />
+  <!-- これで観光名所は一通り聞けたわね -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue1FaceShanghai" Value="Everyone’s got a place to,recommend to tourists，huh? " Face="Shanghai" Mono="False" />
+  <!-- 時計塔に　ケーキ屋さんそれから橋と銅像････ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue2FaceAlice" Value="Places to see:,The clock tower，cake shop，,bridge，and statue!" Face="Alice" Mono="False" />
+  <!-- なんだかワクワクしてきたわ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue3FaceAlice" Value="I’m excited!" Face="Alice" Mono="False" />
+  <!-- じゃあ　さっそく観光名所を見に行きましょう！ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue4FaceShanghai" Value="Let’s go see the sights!" Face="Shanghai" Mono="False" />
+  <!-- 日本人は数字を送るの大好きですか？ -->
+  <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue1FaceNaviPurplePunk" Value="Do Japanese people just like,sending numbers?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 日本の友人１０６７０５８１　って送ってきたヨ -->
+  <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue2FaceNaviPurplePunk" Value="I just got ”10670581” from my,friend. Huh?" Face="NaviPurplePunk" Mono="False" />
+</data>

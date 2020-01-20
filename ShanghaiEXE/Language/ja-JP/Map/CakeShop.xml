@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ケーキ屋の電脳 -->
+  <Text Key="Map.CakeShopName" Value="ケーキ屋の電脳" />
+  <!-- ヨウガシ　ト　カイテケーキ　ト　ヨム -->
+  <Dialogue Key="Map.CakeShopSprite1Stage1Dialogue1FaceSprite" Value="ヨウガシ　ト　カイテ,ケーキ　ト　ヨム" Face="Sprite" Mono="False" />
+  <!-- ナンカ　オシャレナキブン〜 -->
+  <Dialogue Key="Map.CakeShopSprite1Stage1Dialogue2FaceSprite" Value="ナンカ　オシャレナ,キブン〜" Face="Sprite" Mono="False" />
+  <!-- コノミセノ　ケーキエイコク　ジョオウモコノンダトカ -->
+  <Dialogue Key="Map.CakeShopSprite2Stage1Dialogue1FaceSprite" Value="コノミセノ　ケーキ,エイコク　ジョオウモ,コノンダトカ" Face="Sprite" Mono="False" />
+  <!-- アクマデモ　ウワサノウワサ〜 -->
+  <Dialogue Key="Map.CakeShopSprite2Stage1Dialogue2FaceSprite" Value="アクマデモ　ウワサノ,ウワサ〜" Face="Sprite" Mono="False" />
+</data>

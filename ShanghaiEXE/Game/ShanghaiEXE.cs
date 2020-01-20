@@ -1,0 +1,677 @@
+﻿using NSShanghaiEXE.InputOutput;
+using NSMap.Character.Menu;
+using SlimDX;
+using SlimDX.DirectInput;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Threading;
+using System.Windows.Forms;
+using NSTitle;
+using Services;
+using Common;
+using NSShanghaiEXE.Game;
+using Button = NSShanghaiEXE.InputOutput.Button;
+using NSShanghaiEXE.InputOutput.Rendering.OpenGL;
+using NSShanghaiEXE.Common;
+using NSShanghaiEXE.InputOutput.Rendering;
+using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using Common.Config;
+using System.Diagnostics;
+
+namespace NSGame
+{
+    public class ShanghaiEXE : Form
+    {
+        private Vector2 CursorVector2 = new Vector2(80f, 80f);
+        private Stopwatch updateStopwatch = Stopwatch.StartNew();
+        private Stopwatch renderStopwatch = Stopwatch.StartNew();
+        private Stopwatch fpsUpdateStopwatch = Stopwatch.StartNew();
+        private int rendersSinceLastFPSUpdate = 0;
+        private int updatesSinceLastFPSUpdate = 0;
+        private static readonly TimeSpan FPSUpdatePeriod = TimeSpan.FromSeconds(1);
+        private Stopwatch fpsAdjustmentStopwatch = Stopwatch.StartNew();
+        private int updatesSinceLastFPSAdjustment = 0;
+        private double learnedFPSAdjustment = 1;
+        private static readonly int FPSAdjustmentWeighting = 15;
+        private static readonly TimeSpan FPSAdjustmentPeriod = TimeSpan.FromSeconds(0.25);
+        public Dictionary<string, SlimTex> Tex = new Dictionary<string, SlimTex>();
+        public string[] KeepTexList = new string[87]
+        {
+            "battleobjects.png",
+            "charachip1.png",
+            "objects1.png",
+            "shield.png",
+            "bombs.png",
+            "barrier.png",
+            "bomber.png",
+            "charge.png",
+            "darkPA.png",
+            "plugineffect.png",
+            "shot.png",
+            "smoke.png",
+            "steal.png",
+            "sword.png",
+            "tornado.png",
+            "towers.png",
+            "fadescreen.png",
+            "font.png",
+            "menuwindows.png",
+            "systemwindow.png",
+            "window.png",
+            "bakebake.png",
+            "bakebake.png",
+            "Barlizard.png",
+            "beetle.png",
+            "beetleman.png",
+            "bibitybat.png",
+            "bouzu.png",
+            "Brocooler.png",
+            "bronzer.png",
+            "cirno.png",
+            "doripper.png",
+            "evileye.png",
+            "firecat.png",
+            "flae.png",
+            "flowertank.png",
+            "furjirn.png",
+            "gekohat.png",
+            "gelpark.png",
+            "gunbut.png",
+            "hakutaku.png",
+            "holenake.png",
+            "iku.png",
+            "junks.png",
+            "juraigon.png",
+            "kedamar.png",
+            "KorYor.png",
+            "lanster.png",
+            "mantiser.png",
+            "marisa.png",
+            "massdliger.png",
+            "medicine.png",
+            "mossa.png",
+            "mrasa.png",
+            "musya.png",
+            "navi1.png",
+            "navi10.png",
+            "navi11.png",
+            "navi12.png",
+            "navi2.png",
+            "navi3.png",
+            "navi4.png",
+            "navi5.png",
+            "navi6.png",
+            "navi8.png",
+            "navi9.png",
+            "onohawk.png",
+            "panemole.png",
+            "poisorlin.png",
+            "ponpoko.png",
+            "putioni.png",
+            "PyroMan.png",
+            "raijun.png",
+            "reycanon.png",
+            "rieber.png",
+            "riveradar.png",
+            "sakuya.png",
+            "screwn.png",
+            "shelln.png",
+            "spannerman.png",
+            "SquAnchor.png",
+            "swordog.png",
+            "tankman.png",
+            "TortoiseMan.png",
+            "woojow.png",
+            "yorihime.png",
+            "zarinear.png"
+        };
+        public List<string> KeepActiveTexList = new List<string>();
+        private bool init = false;
+        public bool loadend = false;
+        private readonly IContainer components = null;
+        private MyKeyBoard mk;
+        private Controller co;
+        public IRenderer dg;
+        public MyAudio ad;
+        private static SceneBase scene;
+        public SaveData savedata;
+        public bool tutorial;
+        public int battlenum;
+        public Loading loading;
+        private readonly bool fps30;
+        public static int language;
+        public float volBGM;
+        public float volSE;
+        public bool textureLoad;
+        public bool soundLoad;
+        public bool loadSUCCESS;
+        public static ITextMeasurer measurer;
+        public Thread thread_1;
+        public static bool rend;
+        public static Config Config;
+        private bool isPaused;
+        private double scaleFactorX;
+        private double scaleFactorY;
+
+        public static ILanguageTranslationService languageTranslationService;
+
+        public MyKeyBoard MyKeyBoard
+        {
+            get
+            {
+                return this.mk;
+            }
+        }
+
+        public Controller Controller
+        {
+            get
+            {
+                return this.co;
+            }
+        }
+
+        public void UpdateLoadingText(LoadType type, int progress)
+        {
+            this.loading.BeginInvoke(new Action(() =>
+            {
+                this.loading.UpdateLoadingText(type, progress);
+            }));
+        }
+
+        public void TexClear(bool All)
+        {
+            if (!All && this.Tex.Count <= 150)
+                return;
+            List<string> stringList = new List<string>();
+            foreach (KeyValuePair<string, SlimTex> keyValuePair in this.Tex)
+            {
+                if (All)
+                    keyValuePair.Value.Dispose();
+                else if (this.TexNameKeepCheck(keyValuePair.Key))
+                {
+                    keyValuePair.Value.Dispose();
+                    stringList.Add(keyValuePair.Key);
+                }
+            }
+            if (All)
+            {
+                this.Tex.Clear();
+            }
+            else
+            {
+                foreach (string key in stringList)
+                    this.Tex.Remove(key);
+            }
+        }
+
+        public void MapTextureAdd(string mapName)
+        {
+            for (int index = 1; index < 10; ++index)
+            {
+                string _texture = mapName + index.ToString() + ".png";
+                if (!this.TexNameCheckList(_texture))
+                    break;
+                if (!this.KeepActiveTexList.Contains(_texture))
+                    this.KeepActiveTexList.Add(_texture);
+            }
+        }
+
+        public bool TexNameCheckList(string _texture)
+        {
+            return Textures.texSizeList.ContainsKey(_texture);
+        }
+
+        public bool TexNameKeepCheck(string key)
+        {
+            new List<string>().Concat<string>(this.KeepTexList.Cast<string>()).Concat<string>(this.KeepActiveTexList.Cast<string>()).ToList<string>();
+            foreach (string keepTex in this.KeepTexList)
+            {
+                if (key == keepTex)
+                    return false;
+            }
+            return true;
+        }
+
+        public static Dialogue Translate(string key) => ShanghaiEXE.languageTranslationService?.Translate(key) ?? new Dialogue { Text = key };
+
+        public ShanghaiEXE()
+        {
+            Debug.DebugSet();
+            this.InitializeComponent();
+            this.Icon = new Icon("icon.ico");
+
+            var oldConfig = Config.FromCFG("option.cfg");
+            if (oldConfig != null)
+            {
+                File.Move("option.cfg", "option.cfg.OLD");
+            }
+
+            ShanghaiEXE.Config = Config.FromXML("option.xml") ?? oldConfig ?? new Config();
+
+            SaveData.Pad[1, 0] = ShanghaiEXE.Config.ControllerMapping.Up;
+            SaveData.Pad[1, 1] = ShanghaiEXE.Config.ControllerMapping.Right;
+            SaveData.Pad[1, 2] = ShanghaiEXE.Config.ControllerMapping.Down;
+            SaveData.Pad[1, 3] = ShanghaiEXE.Config.ControllerMapping.Left;
+            SaveData.Pad[1, 4] = ShanghaiEXE.Config.ControllerMapping.A;
+            SaveData.Pad[1, 5] = ShanghaiEXE.Config.ControllerMapping.B;
+            SaveData.Pad[1, 6] = ShanghaiEXE.Config.ControllerMapping.L;
+            SaveData.Pad[1, 7] = ShanghaiEXE.Config.ControllerMapping.R;
+            SaveData.Pad[1, 8] = ShanghaiEXE.Config.ControllerMapping.Start;
+            SaveData.Pad[1, 9] = ShanghaiEXE.Config.ControllerMapping.Select;
+            SaveData.Pad[1, 11] = ShanghaiEXE.Config.ControllerMapping.Turbo ?? 8;
+
+            SaveData.Pad[0, 0] = ShanghaiEXE.Config.KeyboardMapping.Up;
+            SaveData.Pad[0, 1] = ShanghaiEXE.Config.KeyboardMapping.Right;
+            SaveData.Pad[0, 2] = ShanghaiEXE.Config.KeyboardMapping.Down;
+            SaveData.Pad[0, 3] = ShanghaiEXE.Config.KeyboardMapping.Left;
+            SaveData.Pad[0, 4] = ShanghaiEXE.Config.KeyboardMapping.A;
+            SaveData.Pad[0, 5] = ShanghaiEXE.Config.KeyboardMapping.B;
+            SaveData.Pad[0, 6] = ShanghaiEXE.Config.KeyboardMapping.L;
+            SaveData.Pad[0, 7] = ShanghaiEXE.Config.KeyboardMapping.R;
+            SaveData.Pad[0, 8] = ShanghaiEXE.Config.KeyboardMapping.Start;
+            SaveData.Pad[0, 9] = ShanghaiEXE.Config.KeyboardMapping.Select;
+            SaveData.Pad[0, 11] = ShanghaiEXE.Config.KeyboardMapping.Turbo ?? 78;
+
+            this.scaleFactorX = ShanghaiEXE.Config.ScaleFactor;
+            this.scaleFactorY = ShanghaiEXE.Config.ScaleFactor;
+
+            var clientWidth = (int)(240 * Math.Max(1, this.scaleFactorX));
+            var clientHeight = (int)(160 * Math.Max(1, this.scaleFactorY));
+            this.ClientSize = new Size(clientWidth, clientHeight);
+
+            if (!ShanghaiEXE.Config.Fullscreen)
+            {
+                SaveData.ScreenMode = false;
+            }
+            else
+            {
+                SaveData.ScreenMode = true;
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+                if (ShanghaiEXE.Config.RenderEngine == "OpenGL")
+                {
+                    var screenSize = Screen.FromControl(this).Bounds;
+                    if (ShanghaiEXE.Config.StretchFullscreen == null || ShanghaiEXE.Config.StretchFullscreen.Value)
+                    {
+                        this.scaleFactorX = (double)screenSize.Width / Constants.ScreenSize.Width;
+                        this.scaleFactorY = (double)screenSize.Height / Constants.ScreenSize.Height;
+                    }
+                    else
+                    {
+                        var minimumEvenScale = Math.Min((double)screenSize.Width / Constants.ScreenSize.Width, (double)screenSize.Height / Constants.ScreenSize.Height);
+                        this.scaleFactorX = minimumEvenScale;
+                        this.scaleFactorY = minimumEvenScale;
+                    }
+                }
+                this.ControlBox = false;
+                this.Text = String.Empty;
+                this.FormBorderStyle = FormBorderStyle.None;
+            }
+
+            this.volBGM = (float)ShanghaiEXE.Config.VolumeBGM;
+            MyAudio.volumeBGM = this.volBGM;
+            this.volSE = (float)(ShanghaiEXE.Config.VolumeSE / 100);
+            MyAudio.volumeSE = this.volSE;
+
+            Controller.ctl = (ShanghaiEXE.Config.PausedWhenInactive) ? CooperativeLevel.Foreground : CooperativeLevel.Background;
+
+            this.fps30 = ShanghaiEXE.Config.FPS30;
+
+            ShanghaiEXE.languageTranslationService = new LanguageTranslationService(ShanghaiEXE.Config.Language);
+            ShanghaiEXE.language = ShanghaiEXE.Config.Language == "en-US" ? 1 : 0;
+
+            SaveData.AdjustBustLevel = ShanghaiEXE.Config.AdjustBustingLevel;
+
+            if (ShanghaiEXE.Config.ShowDialogueTester)
+            {
+                var dialogueTester = new DialogueTester(this, () => scene);
+                dialogueTester.Show();
+            }
+
+            ShanghaiEXE.Config.ToXML("option.xml");
+
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.Closing += new CancelEventHandler(this.Game_Closing);
+            this.MaximizeBox = false;
+            this.SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer, true);
+        }
+
+        public void InitializeData()
+        {
+            this.loading.LoadComplete += this.Loading_LoadComplete;
+
+            this.UpdateLoadingText(LoadType.Data, 100);
+            this.UpdateLoadingText(LoadType.Graphics, 0);
+            switch (ShanghaiEXE.Config.RenderEngine)
+            {
+                case "DirectX9":
+                    var dgRenderer = new MySlimDG(this);
+                    dgRenderer.ProgressUpdated += this.TextureLoad_ProgressUpdate;
+                    this.dg = dgRenderer;
+                    break;
+                case "OpenGL":
+                    var renderControl = new OpenGLRenderer("ShaGResource.tcd", "sasanasi", "{0}.png", this.scaleFactorX, this.scaleFactorY);
+                    renderControl.GetPanel().SetSize(Constants.ScreenSize);
+                    renderControl.ProgressUpdated += this.TextureLoad_ProgressUpdate;
+                    this.dg = renderControl;
+                    var renderPanel = renderControl.GetPanel();
+                    if (ShanghaiEXE.Config.Fullscreen)
+                    {
+                        renderPanel.SizeChanged += (s, e) =>
+                        {
+                            renderPanel.Location = new Point((this.Width - renderPanel.Width) / 2, (this.Height - renderPanel.Height) / 2);
+                        };
+                        this.SizeChanged += (s, e) =>
+                        {
+                            renderPanel.Location = new Point((this.Width - renderPanel.Width) / 2, (this.Height - renderPanel.Height) / 2);
+                        };
+                    }
+                    this.Controls.Add(renderPanel);
+                    this.BackColor = Color.Black;
+                    break;
+            }
+            ShanghaiEXE.measurer = this.dg.GetTextMeasurer();
+
+            this.UpdateLoadingText(LoadType.Audio, 25);
+            this.ad = new MyAudio(this);
+            this.UpdateLoadingText(LoadType.Audio, 100);
+
+            this.UpdateLoadingText(LoadType.Device, 25);
+            this.mk = new MyKeyBoard(this);
+            this.co = new Controller(this);
+            Input.FormSetting(this);
+            this.UpdateLoadingText(LoadType.Device, 100);
+
+            this.UpdateLoadingText(LoadType.Save, 25);
+            this.savedata = new SaveData();
+            this.savedata.Init();
+            this.UpdateLoadingText(LoadType.Save, 50);
+            this.savedata.Load();
+            this.UpdateLoadingText(LoadType.Save, 100);
+        }
+
+        private void Init()
+        {
+            this.loadSUCCESS = this.savedata.loadSucces;
+            this.ad.savedata = this.savedata;
+            ShanghaiEXE.scene = new FirstTitle(this.ad, this, this.savedata);
+            ShanghaiEXE.scene.Init();
+            this.init = true;
+        }
+
+        private void GetKeyData()
+        {
+            this.mk.GetKeyData();
+            this.co.GetKeyData();
+        }
+
+        public void MainLoop()
+        {
+            var updateRate = 60;
+            var isTurbo = Input.IsPush(Button.Turbo);
+            if (isTurbo)
+            {
+                updateRate = (ShanghaiEXE.Config.AllowTurboSlowdown ?? false)
+                    ? ShanghaiEXE.Config.TurboUPS.Value
+                    : Math.Max(60, ShanghaiEXE.Config.TurboUPS ?? 300);
+            }
+            var updatePeriod = TimeSpan.FromSeconds(1d / (this.learnedFPSAdjustment * updateRate));
+            var renderPeriod = TimeSpan.FromSeconds(1d / (this.learnedFPSAdjustment * ShanghaiEXE.Config.FPS ?? 60));
+
+            var queuedUpdates = default(int);
+            if (updatePeriod > TimeSpan.Zero)
+            {
+                queuedUpdates = (int)(this.updateStopwatch.ElapsedMilliseconds / updatePeriod.TotalMilliseconds);
+            }
+            else
+            {
+                // If DirectX9, dg.End() blocks execution and queuedUpdates = 1 caps speed to refresh rate
+                // "Incorrect" behavior if OpenGL or when FPS set to 144 on a 60hz screen, but this is edge case anyways with essentially infinite speed
+                queuedUpdates = (int)(renderPeriod.TotalSeconds / (1d / updateRate));
+            }
+
+            var isUpdating = queuedUpdates > 0;
+            if (isUpdating)
+            {
+                this.updateStopwatch.Restart();
+                this.updatesSinceLastFPSUpdate += queuedUpdates;
+                this.updatesSinceLastFPSAdjustment += queuedUpdates;
+            }
+            var isRendering = this.renderStopwatch.Elapsed >= renderPeriod;
+            if (isRendering)
+            {
+                this.renderStopwatch.Restart();
+                this.rendersSinceLastFPSUpdate++;
+            }
+
+            if (isUpdating || isRendering)
+            {
+                if (this.init && (this.soundLoad && this.textureLoad))
+                {
+                    this.Show();
+                    this.loading.Dispose();
+                    this.init = false;
+                    this.loadend = true;
+                    this.dg.AbortRenderThread();
+                }
+                if (this.loadend)
+                {
+                    if (isUpdating)
+                    {
+                        this.GetKeyData();
+                    }
+
+                    if (ShanghaiEXE.scene != null)
+                    {
+                        if (!(this.isPaused && ShanghaiEXE.Config.PausedWhenInactive))
+                        {
+                            for (var i = 0; i < queuedUpdates; i++)
+                            {
+                                if (i > 0)
+                                {
+                                    this.GetKeyData();
+                                }
+                                ShanghaiEXE.scene.Updata();
+                            }
+                        }
+
+                        ShanghaiEXE.rend = isRendering;
+                        if (ShanghaiEXE.rend)
+                        {
+                            this.dg.Begin(Color.Black);
+                            ShanghaiEXE.scene.Render(this.dg);
+                            this.dg.End();
+                        }
+
+                        if (this.ad.MusicPlay)
+                        {
+                            this.ad.PlayingMusic();
+                            this.ad.BGMFade();
+                        }
+                    }
+                }
+                else
+                {
+                    this.loading.MainLoop();
+                }
+                Application.DoEvents();
+            }
+
+            var timeSinceLastFPSAdjustment = this.fpsAdjustmentStopwatch.Elapsed;
+            if (timeSinceLastFPSAdjustment > ShanghaiEXE.FPSAdjustmentPeriod)
+            {
+                if (this.loadend)
+                {
+                    if (this.updatesSinceLastFPSAdjustment != 0 && !isTurbo)
+                    {
+                        var desiredUpdateRate = 60;
+                        if (isTurbo)
+                        {
+                            desiredUpdateRate = (ShanghaiEXE.Config.AllowTurboSlowdown ?? false)
+                                ? ShanghaiEXE.Config.TurboUPS.Value
+                                : Math.Max(60, ShanghaiEXE.Config.TurboUPS ?? 300);
+                        }
+                        var speedAdjustmentFactor = (desiredUpdateRate * ShanghaiEXE.FPSAdjustmentPeriod.TotalSeconds) / this.updatesSinceLastFPSAdjustment;
+                        this.learnedFPSAdjustment = (speedAdjustmentFactor + (ShanghaiEXE.FPSAdjustmentWeighting - 1) * this.learnedFPSAdjustment) / ShanghaiEXE.FPSAdjustmentWeighting;
+                    }
+
+                    this.fpsAdjustmentStopwatch.Restart();
+                    this.updatesSinceLastFPSAdjustment = 0;
+                }
+            }
+
+            var timeSinceLastFPSUpdate = this.fpsUpdateStopwatch.Elapsed;
+            if (timeSinceLastFPSUpdate > ShanghaiEXE.FPSUpdatePeriod)
+            {
+                if (this.updatesSinceLastFPSUpdate != 0)
+                {
+                    var title = ShanghaiEXE.Translate("Common.Title").Text;
+                    var fpsString = $"  FPS {this.rendersSinceLastFPSUpdate / timeSinceLastFPSUpdate.TotalSeconds:0.##} ({this.updatesSinceLastFPSUpdate / timeSinceLastFPSUpdate.TotalSeconds:0.##})";
+                    if (!ShanghaiEXE.Config.Fullscreen)
+                    {
+                        this.Text = title + fpsString;
+                    }
+                }
+
+                this.fpsUpdateStopwatch.Restart();
+                this.rendersSinceLastFPSUpdate = 0;
+                this.updatesSinceLastFPSUpdate = 0;
+            }
+
+            if (!this.loadend || !isTurbo)
+            {
+                Thread.Sleep(1);
+            }
+        }
+
+        public void ChangeOfSecne(Scene change)
+        {
+            switch (change)
+            {
+                case Scene.Title:
+                    ShanghaiEXE.scene = new SceneTitle(this.ad, this, this.savedata);
+                    break;
+                case Scene.Main:
+                    ShanghaiEXE.scene = new SceneMain(this.ad, this, this.savedata);
+                    break;
+                case Scene.GameOver:
+                    ShanghaiEXE.scene = new GameOver(this.ad, this, this.savedata);
+                    break;
+            }
+            ShanghaiEXE.scene.Init();
+        }
+
+        public void NewGame(int plus)
+        {
+            SceneMain scene = (SceneMain)ShanghaiEXE.scene;
+            scene.mapscene.NewGame(plus);
+            ShanghaiEXE.scene = scene;
+        }
+
+        public void LoadGame()
+        {
+            SceneMain scene = (SceneMain)ShanghaiEXE.scene;
+            scene.mapscene.LoadGame();
+            ShanghaiEXE.scene = scene;
+        }
+
+        private void Game_Load(object sender, EventArgs e)
+        {
+            this.ClientSize = new Size(640, 480);
+            if (!ShanghaiEXE.Config.Fullscreen)
+            {
+                this.Text = ShanghaiEXE.Translate("Common.Title");
+            }
+            this.Top = (Screen.PrimaryScreen.WorkingArea.Height - this.Height) / 2;
+            this.Left = (Screen.PrimaryScreen.WorkingArea.Width - this.Width) / 2;
+        }
+
+        private void Game_Closing(object sender, CancelEventArgs e)
+        {
+            try
+            {
+                this.TexClear(true);
+                this.dg.Dispose();
+                this.ad.waveOut.Close();
+            }
+            catch { }
+            Application.Exit();
+        }
+
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.F10)
+                return;
+            e.Handled = true;
+        }
+
+        protected override void OnKeyUp(KeyEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void TextureLoad_ProgressUpdate(object sender, TextureLoadProgressUpdatedEventArgs e)
+        {
+            if (e == null)
+            {
+                this.textureLoad = true;
+                this.UpdateLoadingText(LoadType.Graphics, 100);
+                ((IRenderer)sender).ProgressUpdated -= this.TextureLoad_ProgressUpdate;
+            }
+            else
+            {
+                this.UpdateLoadingText(LoadType.Graphics, (int)Math.Round(100 * e.UpdateProgress));
+            }
+        }
+
+        private void Loading_LoadComplete(object sender, EventArgs e)
+        {
+            this.Init();
+            ((Loading)sender).LoadComplete -= this.Loading_LoadComplete;
+        }
+
+        private void ShanghaiEXE_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                this.TexClear(true);
+                this.dg.Dispose();
+                if (NetWork.connectThread != null)
+                    NetWork.connectThread.Abort();
+                this.ad.waveOut.Close();
+                this.loading.Close();
+            }
+            catch { }
+            Application.Exit();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && this.components != null)
+                this.components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            this.AutoScaleDimensions = new SizeF(6f, 12f);
+            this.AutoScaleMode = AutoScaleMode.Font;
+            this.ClientSize = new Size(632, 446);
+            this.Name = nameof(ShanghaiEXE);
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.FormClosing += new FormClosingEventHandler(this.ShanghaiEXE_FormClosing);
+            this.Deactivate += (sender, args) => this.isPaused = true;
+            this.Activated += (sender, args) => this.isPaused = false;
+            this.ResumeLayout(false);
+        }
+    }
+}

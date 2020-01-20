@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ShoolNet1Name" Value="School Comp 1" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue1FaceShanghai" Value="Hey，the gang’s all here." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue2FaceMarisa" Value="Of course!,It’s a class emergency!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue3FaceSakuya" Value="And I couldn’t do a thing,during the University incident." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue4FaceTankMan" Value="We’ll make quick work of this,if we tackle it as a team!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue5FaceSpannerMan" Value="Time to show ya my cool side!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue6FaceShanghai" Value="I like what I’m hearing，,you guys." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage1Dialogue7FaceMarisa" Value="Alright! Let’s do it!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue1FaceSakuya" Value="Mm? Where are you going?" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue2FaceMarisa" Value="Where....?,It’s this way，yeah?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue3FaceSpannerMan" Value="Why’re you pointing over,there?,The path is over here." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue4FaceTankMan" Value="I think I see a way to get,over there，but...." Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue5FaceShanghai" Value="Could you guys get your,stories straight?,You can’t all be right." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue6FaceRika" Value="What’s going on?" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue7FaceMari" Value="I got it!,Our access rights are all,messed up!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue8FaceAlice" Value="Access rights?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue9FaceRemilia" Value="Each student at this school,is assigned access rights." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue10FaceRemilia" Value="For example，class committee,members can access special,networks." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue11FaceTsubakiNekku" Value="That ROM guy must’ve,messed ’em up! For sure!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue12FaceShanghai" Value="Well，we can’t get where we,need to go if we’re missing,access rights." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue13FaceMarisa" Value="We should be able to change,our access rights on the,terminals in this area." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue14FaceMarisa" Value="Let’s all split up and fix our,access rights!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue15FaceShanghai" Value="Right!,Go find every terminal you can!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1EntryEventStage3Dialogue16FaceSakuya" Value="Very well!" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue1FaceSprite" Value="ROM’S ATTACK HAS,CORRUPTED STUDENTS’,ACCESS RIGHTS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue2FaceSprite" Value="TO CHANGE YOUR ACCESS,RIGHTS，PLEASE USE THE,TERMINAL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue3FaceSprite" Value="HOWEVER，YOU CAN ONLY,CHANGE ONE RIGHT PER,TERMINAL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage1Dialogue4FaceSprite" Value="YOU CAN’T REACH THE,BACK OF THE AREA UNLESS,YOU USE EACH TERMINAL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage3Dialogue1FaceSprite" Value="ROM’S ACCESS RIGHTS,ARE FIXED NOW，BUT,YOU STILL HAVE ALL OF" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage3Dialogue2FaceSprite" Value="YOURS FROM WHEN THE,INCIDENT OCCURRED!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite1AStage3Dialogue3FaceSprite" Value="IS THAT REALLY OKAY?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite2AStage1Dialogue1FaceSprite" Value="YOU HAVE TO GO TO THE,BACK OF THE AREA TO,STOP THE ELECTRICITY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite2AStage3Dialogue1FaceSprite" Value="THE ELECTRICITY IS,A DEFENSE AGAINST,SUSPICIOUS PERSONS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite2AStage3Dialogue2FaceSprite" Value="SUSPICIOUS PERSONS,WITH KNIVES ARE SCARY，,AFTER ALL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite3AStage1Dialogue1FaceSprite" Value="THE BREAKER FOR THE,CLASSROOM IS JUST UP,AHEAD!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite3AStage1Dialogue2FaceSprite" Value="HURRY! HURRY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Sprite3AStage3Dialogue1FaceSprite" Value="LEARN WELL!,EAT WELL!,SLEEP WELL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue1FaceMarisa" Value="This is as far as I can go." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue2FaceMarisa" Value="Do you see a path，,Shanghai?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1SakuyaStage1Dialogue1FaceSakuya" Value="Kh....,These viruses are quite,formidable....!" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1SpannerManStage1Dialogue1FaceSpannerMan" Value="It’s a dead end!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1SpannerManStage1Dialogue2FaceSpannerMan" Value="This must be the limit of my,access rights.,Pathetic...." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage1Dialogue1FaceShanghai" Value="The door is closed.,I can’t go through...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage1Dialogue2FaceAlice" Value="Maybe the terminals we’ve,found so far didn’t give us,enough access rights....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage1Dialogue3FaceRika" Value="Leave it to me!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue1FaceTankMan" Value="Alright!,Looks like I was the only one,who could get over here." Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue2FaceTankMan" Value="Go ahead，Shanghai!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue3FaceAlice" Value="Thanks，Rika!,You too，TankMan!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1TankManStage1Dialogue1FaceTankMan" Value="Mmm.... Looks like this is,as far as my access rights,can take me." Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue1FaceNone" Value="Shanghai changed her,access rights." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue2FaceNone" Value="The range of Shanghai’s,permissions has expanded!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage3Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage5Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue1FaceNone" Value="Shanghai changed her,access rights." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue2FaceNone" Value="The range of Shanghai’s,permissions has expanded!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage3Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage5Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue1FaceNone" Value="Shanghai changed her,access rights." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue2FaceNone" Value="The range of Shanghai’s,permissions has expanded!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage3Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage5Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue1FaceNone" Value="Shanghai changed her,access rights." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue2FaceNone" Value="The range of Shanghai’s,permissions has expanded!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage3Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage5Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage1Dialogue1FaceShanghai" Value="This is the classroom’s,electricity control program!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage1Dialogue2FaceShanghai" Value="There!,That should stop the current!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage1Dialogue3FaceAlice" Value="Jack out so we can evacuate!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal5Stage3Dialogue1FaceNone" Value="There are no more access,rights to change on this,terminal." Face="None" Mono="False" />
+</data>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ニホンウラスクエア -->
+  <Text Key="Map.UraNetSquareName" Value="Japan UnderSquare" />
+  <!-- そこに売ってる紫色のアドオンはマイナスアドオンっていうんだぜ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Man1Stage1Dialogue1FaceNaviPurplePunk" Value="The purple AddOns sold here,are called Minus AddOns." Face="NaviPurplePunk" Mono="False" />
+  <!-- マイナスアドオンはナビを弱体化させる代わりにヘルツとコアを増やせるんだ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Man1Stage1Dialogue2FaceNaviPurplePunk" Value="Minus AddOns will weaken a,Navi in exchange for more,Hertz and Cores." Face="NaviPurplePunk" Mono="False" />
+  <!-- ちょっぴりキケンだが試してみなよヘヘヘ････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Man1Stage1Dialogue3FaceNaviPurplePunk" Value="It’s a teensy bit risky，but,you should give it a try.,Hehehe...." Face="NaviPurplePunk" Mono="False" />
+  <!-- ウラスクエアは２つあってな -->
+  <Dialogue Key="Map.UraNetSquareChapter3Man2Stage1Dialogue1FaceNaviPurplePunk" Value="There are two different,UnderSquares." Face="NaviPurplePunk" Mono="False" />
+  <!-- こっちのスクエアはニホンに近いからニホンウラスクエアって言われているのさ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Man2Stage1Dialogue2FaceNaviPurplePunk" Value="This one is called Japan,UnderSquare because it’s,close to Japan." Face="NaviPurplePunk" Mono="False" />
+  <!-- 昔は２エリって呼ばれてたんだが時代の流れかいつの間にか呼び方が変わっちまった -->
+  <Dialogue Key="Map.UraNetSquareChapter3Man2Stage1Dialogue3FaceNaviPurplePunk" Value="It used to be called 2san，but,its name changed over time." Face="NaviPurplePunk" Mono="False" />
+  <!-- え？　バトラーズオフィス？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Female1Stage1Dialogue1FaceNaviPurpleChild" Value="Eh? The Battler’s Office?" Face="NaviPurpleChild" Mono="False" />
+  <!-- ネットエージェントのカンカツのサービスがウラスクエアにあるわけないじゃん！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Female1Stage1Dialogue2FaceNaviPurpleChild" Value="NetAgents have no jurisdiction,over the UnderSquare!" Face="NaviPurpleChild" Mono="False" />
+  <!-- あら〜かわいいナビじゃないの -->
+  <Dialogue Key="Map.UraNetSquareChapter3Female2Stage1Dialogue1FaceNaviPurpleFemale" Value="Awww〜!,Aren’t you a cute lil’ Navi〜!" Face="NaviPurpleFemale" Mono="False" />
+  <!-- オモテから来たの？偉いわね〜！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3Female2Stage1Dialogue2FaceNaviPurpleFemale" Value="Did you come from the,surface? How wonderful〜!" Face="NaviPurpleFemale" Mono="False" />
+  <!-- ようネエちゃんカワイイ顔してるねー -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage1Dialogue1FaceNaviPurpleHeel" Value="Hey girl. That’s a cute,face you got there." Face="NaviPurpleHeel" Mono="False" />
+  <!-- あら　お上手ね -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage1Dialogue2FaceShanghai" Value="Oh? I’m flattered." Face="Shanghai" Mono="False" />
+  <!-- ネエちゃんカワイイからさ通常なら１０万ゼニーの価値のレアチップをあげるぜ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage1Dialogue3FaceNaviPurpleHeel" Value="Since you’re such a cute girl，,I’ll give you a rare chip worth,100000 Zenny for free." Face="NaviPurpleHeel" Mono="False" />
+  <!-- へえ？じゃあありがたく････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage1Dialogue4FaceShanghai" Value="Really?,Gee，thanks a...." Face="Shanghai" Mono="False" />
+  <!-- ちょっとシャンハイ危ないんじゃ････？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage1Dialogue5FaceAlice" Value="Wait，Shanghai!,Isn’t that dangerous....?" Face="Alice" Mono="False" />
+  <!-- ！！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage1Dialogue6FaceShanghai" Value="!!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！？シャンハイ大丈夫！？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue1FaceAlice" Value="Shanghai!?,Shanghai，are you okay!?" Face="Alice" Mono="False" />
+  <!-- ハハハハハ！まんまとかかりやがったな！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue2FaceNaviPurpleHeel" Value="Hahahahaha!,You fell for it!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- このチップはダークチップだ手にすればココロが侵食されて真っ黒に････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue3FaceNaviPurpleHeel" Value="That’s a Dark Chip!,It turns your heart pitch black,when you touch it....!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- あん？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue4FaceShanghai" Value="Hm?" Face="Shanghai" Mono="False" />
+  <!-- あれっ？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue5FaceNaviPurpleHeel" Value="What?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- なーにブツブツ言ってるのよ頭おかしくなった？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue6FaceShanghai" Value="What’re you mumbling about?,Have you lost your mind?" Face="Shanghai" Mono="False" />
+  <!-- こ　こいつ････ダークチップを握ってもなんともねえのか！？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue7FaceNaviPurpleHeel" Value="Y-You....,Holding the Dark Chip did,nothing at all!?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ひ　ひぇー！ほんまモンの大悪党だー！！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue8FaceNaviPurpleHeel" Value="E-Eeek!,You must be a truly heinous,Navi!!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････大悪党だなんて失礼しちゃうわ！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue9FaceShanghai" Value="....A truly heinous Navi?,How rude!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　大丈夫なの？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue10FaceAlice" Value="Shanghai，are you okay?" Face="Alice" Mono="False" />
+  <!-- ええ　なんともないわ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue11FaceShanghai" Value="Yeah. Don’t worry about it." Face="Shanghai" Mono="False" />
+  <!-- 姐さーん！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage3Dialogue12FaceHenchie" Value="Mistress!" Face="Henchie" Mono="False" />
+  <!-- ブッカー　どこ行ってたのよ？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue1FaceShanghai" Value="Henchie? Where did you go?" Face="Shanghai" Mono="False" />
+  <!-- すみません　このスクエアの隠れ家に行ってたもので････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue2FaceHenchie" Value="Sorry! I went to this Square’s,secret hideout，and...." Face="Henchie" Mono="False" />
+  <!-- おや？それ　ダークチップじゃないですか -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue3FaceHenchie" Value="Woah!,That’s a Dark Chip，isn’t it?" Face="Henchie" Mono="False" />
+  <!-- ダークチップって何？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue4FaceShanghai" Value="What’s a Dark Chip?" Face="Shanghai" Mono="False" />
+  <!-- めちゃくちゃ強いチップなんですが普通のナビが使うには危ないそんなチップなんですよ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue5FaceHenchie" Value="It’s an absurdly strong chip，,but it’s dangerous for Navis,to use them." Face="Henchie" Mono="False" />
+  <!-- データの解凍時にナビのソウルデータに影響する圧縮方式なんだとか -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue6FaceHenchie" Value="It uses a kind of compression,that corrupts a Navi’s soul data,when it’s decompressed." Face="Henchie" Mono="False" />
+  <!-- まあ　見た感じ姐さんには特に悪影響は見られませんね -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue7FaceHenchie" Value="But from what I can see，,it doesn’t look like you’ve,been corrupted." Face="Henchie" Mono="False" />
+  <!-- 握った時　一瞬アリスとのココロが離れたような気がしたけど････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue8FaceShanghai" Value="I felt like I was separated from,Alice while I held it，but...." Face="Shanghai" Mono="False" />
+  <!-- ふむ　あとで調べてわかったことがあればメールでお伝えしますね -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue9FaceHenchie" Value="Hm....,I’ll send you an email later if,I learn anything more." Face="Henchie" Mono="False" />
+  <!-- っとと！忘れるところでした！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue10FaceHenchie" Value="Oh，wait!,I almost forgot!" Face="Henchie" Mono="False" />
+  <!-- これをどうぞ！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue11FaceHenchie" Value="Here you go!" Face="Henchie" Mono="False" />
+  <!-- ありがとう！・・・・ってこれは何？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue12FaceShanghai" Value="Thanks!,....What’s this?" Face="Shanghai" Mono="False" />
+  <!-- 姐さんが欲しがってたウィルスを飼うデバイスっすよ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue13FaceHenchie" Value="It’s what you wanted!,A virus taming device!" Face="Henchie" Mono="False" />
+  <!-- でも　ただのボムチップじゃない？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue14FaceAlice" Value="But isn’t this just a Bomb chip?" Face="Alice" Mono="False" />
+  <!-- 適当な事言ってるとぶっ飛ばすわよ？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue15FaceShanghai" Value="You know I’ll whip you if,you’re lying，right?" Face="Shanghai" Mono="False" />
+  <!-- いやいやウソじゃありませんって！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue16FaceHenchie" Value="No no no! I’m not lying!" Face="Henchie" Mono="False" />
+  <!-- このチップでとどめを刺すとトドメを刺したウィルスを捕まえられるんですよ！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue17FaceHenchie" Value="If you finish off a virus with,this chip，you’ll catch it!" Face="Henchie" Mono="False" />
+  <!-- ほーう？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue18FaceShanghai" Value="Oh? Really?" Face="Shanghai" Mono="False" />
+  <!-- ついでに捕まえたウィルスを育てるアプリをちょちょいっとインストールさせてもらって････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue19FaceHenchie" Value="Oh，and you can install an app,to make virus taming a breeze，,and...." Face="Henchie" Mono="False" />
+  <!-- ・・・・・ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue20FaceHenchie" Value="......" Face="Henchie" Mono="False" />
+  <!-- ピコーン！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue21FaceHenchie" Value="Ding!" Face="Henchie" Mono="False" />
+  <!-- オッケーです！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue22FaceHenchie" Value="OK! You’re good to go!" Face="Henchie" Mono="False" />
+  <!-- これでスタートボタンのメニューからウィルスアプリを起動することが出来ます！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue23FaceHenchie" Value="Now you can start the,VirusApp by selecting it,from the START Menu!" Face="Henchie" Mono="False" />
+  <!-- あら〜いろいろありがとね -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue24FaceShanghai" Value="Neat!,Thanks for everything." Face="Shanghai" Mono="False" />
+  <!-- いえいえオレは元々ウィルスボールの売人ですからね -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue25FaceHenchie" Value="Don’t mention it!,I used to sell Virus Balls，,after all!" Face="Henchie" Mono="False" />
+  <!-- あと　捕まえたウィルスを保管する機材をどこかに置かせてもらいたいんですが -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue26FaceHenchie" Value="Oh，and you should find a,place to put the virus,managing equipment!" Face="Henchie" Mono="False" />
+  <!-- 機材？････じゃあアリスのホームページのひかえ室にでも置いといて -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue27FaceShanghai" Value="Equipment?,....How about that open room,on Alice’s homepage?" Face="Shanghai" Mono="False" />
+  <!-- え　ちょっと勝手に！？ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue28FaceAlice" Value="Hey! Don’t just decide this,all by yourselves!" Face="Alice" Mono="False" />
+  <!-- わかりやした！ひかえ室ですね！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue29FaceHenchie" Value="Got it!,Sounds like a great spot!" Face="Henchie" Mono="False" />
+  <!-- じゃあ早速置かせてもらいに行きます！ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue30FaceHenchie" Value="I’ll go set up the equipment,right away!" Face="Henchie" Mono="False" />
+  <!-- 気をつけてね〜 -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue31FaceShanghai" Value="Have fun〜!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　勝手に私のホームページを色々といじらないでよ････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue32FaceAlice" Value="Shanghai，please don’t have,your way with my homepage...." Face="Alice" Mono="False" />
+  <!-- あんたどうせホームページの管理なんて適当なんだからあたしに任せときなさい -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue33FaceShanghai" Value="You never do anything with it，,so it’s my duty as your Navi to,put it to good use." Face="Shanghai" Mono="False" />
+  <!-- むー････ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue34FaceAlice" Value="But...." Face="Alice" Mono="False" />
+  <!-- さあて　目的のブツは手に入ったしそろそろ休みましょうか -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue35FaceShanghai" Value="Well，we got what we came for.,Should we go to bed soon?" Face="Shanghai" Mono="False" />
+  <!-- そうねぇ････気が済んだらプラグアウトしましょう -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage5Dialogue36FaceAlice" Value="Yeah....,When you’re ready，,let’s jack out." Face="Alice" Mono="False" />
+  <!-- アリス　メールが来たみたいよ -->
+  <Dialogue Key="Map.UraNetSquareChapter3SellerStage7Dialogue1FaceShanghai" Value="Alice，you’ve got mail." Face="Shanghai" Mono="False" />
+  <!-- 俺達だっていつもウラにいるわけじゃねえ -->
+  <Dialogue Key="Map.UraNetSquareChapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="Even we don’t stay in the,Undernet all the time." Face="NaviPurplePunk" Mono="False" />
+  <!-- 金稼ぎのためにオモテでウィルス退治することだってあらあ -->
+  <Dialogue Key="Map.UraNetSquareChapter4Navi2Stage1Dialogue2FaceNaviPurplePunk" Value="Sometimes we’ll hunt some,SP viruses to get some cash." Face="NaviPurplePunk" Mono="False" />
+  <!-- 知り合いのナビが永遠町のどこかの電脳でアドオンショップを始めたって -->
+  <Dialogue Key="Map.UraNetSquareChapter4Navi3Stage1Dialogue1FaceNaviPurpleFemale" Value="One of my Navi friends,opened an AddOn shop in,some comp in Eien Town." Face="NaviPurpleFemale" Mono="False" />
+  <!-- どこの電脳でやっているのかしら？ -->
+  <Dialogue Key="Map.UraNetSquareChapter4Navi3Stage1Dialogue2FaceNaviPurpleFemale" Value="I wonder which comp,they’re in." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 何が起ころうがウラの空気は変わんねえのさ -->
+  <Dialogue Key="Map.UraNetSquareChapter7MaleNavigation1Stage1Dialogue1FaceNaviPurplePunk" Value="The Undernet stays the same，,regardless of what happens,above." Face="NaviPurplePunk" Mono="False" />
+  <!-- さっきそこで変な黒い奴に襲いかかられたが頑丈なだけだったぜ -->
+  <Dialogue Key="Map.UraNetSquareChapter7ManNavi2Stage1Dialogue1FaceNaviPurpleHeel" Value="Some strange black Navi,attacked me. Sturdy，like my,attacks weren’t real to them...." Face="NaviPurpleHeel" Mono="False" />
+  <!-- いらっしゃいここはバトルチップの店あるよ -->
+  <Dialogue Key="Map.UraNetSquareChipShopStage1Dialogue1QuestionFaceNaviPurplePunk" Value="I’m a Net vendor.,See anything you like?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.UraNetSquareChipShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- ヘヘヘ････ここはアドオンショップだよ -->
+  <Dialogue Key="Map.UraNetSquareAdd-onShopStage1Dialogue1QuestionFaceNaviPurpleFemale" Value="Welcome to my AddOn shop!" Face="NaviPurpleFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.UraNetSquareAdd-onShopStage1Dialogue1Options" Value="Shop,Leave" />
+  <!-- ウラ情報掲示板だ -->
+  <Dialogue Key="Map.UraNetSquareBulletinBoardStage1Dialogue1FaceNone" Value="It’s an UnderChat Board." Face="None" Mono="False" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトダゾー！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue1FaceSprite" Value="CONNECTIN’ LINK GATES?,I’M YOUR SPRITE，YO!" Face="Sprite" Mono="False" />
+  <!-- オマエノ　ホームページトコノスクエアヲ　リンクデツナイジャウゾー！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue2FaceSprite" Value="LINKIN’ THIS SQUARE ’N,YOUR HOMEPAGE IS WHAT,I DO!" Face="Sprite" Mono="False" />
+  <!-- ツナイデ　ホシカッタラ１５０００ゼニーヲ　ハライヤガレ！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue3FaceSprite" Value="IF YA WANT A LINK，,COUGH UP 15000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナグノ？ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="CREATE A LINK?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.UraNetSquareLinkSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <!-- リンクノ　セツゾクガカンリョウシタゾー！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue5FaceSprite" Value="LINK’S DONE，YO!" Face="Sprite" Mono="False" />
+  <!-- オイ！　タリネーゾ！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue6FaceSprite" Value="OI! YOU’RE SHORT SOME!" Face="Sprite" Mono="False" />
+  <!-- オトトイキヤガレー！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage1Dialogue7FaceSprite" Value="DON’T LET ME SEE YOUR,FACE ’ROUND HERE EVER,AGAIN，Y ’HEAR!?" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,1000 ZENNY!" Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.UraNetSquareLinkSpriteStage3Dialogue4Options" Value="Yes,No" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.UraNetSquareLinkSpriteStage3Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UraNetSquarePostGameBystander1Dialogue1" Value="The Undernet continues as,usual，evil organization or,not." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNetSquarePostGameBystander2Dialogue1" Value="Rumor has it there’s some,AddOn that lets you order your,chips however you want...." Face="NaviPurpleHeel" Mono="False" />
+</data>

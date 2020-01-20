@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM基地　階段 -->
+  <Text Key="Map.ROMbase2fName" Value="ROM基地　階段" />
+  <!-- ディスプレイにＲＯＭのロゴマークが映し出されている -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue1FaceNone" Value="ディスプレイにＲＯＭの,ロゴマークが映し出されている" Face="None" Mono="False" />
+  <!-- どうやら権限を持つものには相応の情報が表示される特別な画面のようだ -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue2FaceNone" Value="どうやら権限を持つものには,相応の情報が表示される,特別な画面のようだ" Face="None" Mono="False" />
+  <!-- プラグインができるが中からはその情報を読み取れないだろう -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue3FaceNone" Value="プラグインができるが,中からはその情報を,読み取れないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+</data>

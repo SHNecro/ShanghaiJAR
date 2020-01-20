@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.BenchName" Value="Bench Comp" />
+  <Text Key="Map.BenchTestSprite2Battle1Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.BenchTestSprite2Battle1Enemy2" Value="Bomber" />
+  <!-- モブナビ -->
+  <Text Key="Map.BenchTestSprite2Battle1Enemy3" Value="Mafiaso" />
+  <Dialogue Key="Map.BenchSprite1Stage1Dialogue1FaceSprite" Value="THE PARK IS A PLACE,FOR EVERYONE! THAT’S,GOOD TO REMEMBER!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchSprite2Stage1Dialogue1FaceSprite" Value="THERE ARE VARIOUS,RESEARCH INSTRUMENTS,IN THIS BENCH!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchSprite2Stage1Dialogue2FaceSprite" Value="THEY MEASURE THINGS,LIKE THE LOCAL HUMIDITY,AND TEMPERATURE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue1FaceNaviGreenRobot" Value="Are you the kid who took,my request?" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue2FaceNaviGreenRobot" Value="Your task is simple! Just try,to defeat me at full power!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue3FaceNaviGreenRobot" Value="I need to find the holes in my,strategy，so don’t hold back!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue4FaceNaviGreenRobot" Value="Alright! Now then，,let’s begin training!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue5QuestionFaceNaviGreenRobot" Value="Are you ready?" Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.BenchClientStage1Dialogue5Options" Value="Yes,No" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue6FaceNaviGreenRobot" Value="Just tell me when you’re ready." Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.BenchClientBattle1Enemy1" Value="Klein" />
+  <Dialogue Key="Map.BenchClientStage4Dialogue1FaceNaviGreenRobot" Value="C’mon! If you can’t defeat me，,I’ll never figure out the holes in,my strategy!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue1FaceNaviGreenRobot" Value="I see...." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue2FaceNaviGreenRobot" Value="There’s no point in combining,terrain and statuses if they can,be dodged so easily...." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue3FaceNaviGreenRobot" Value="Got it.,You helped me see my,strategy in a new light." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue4FaceNaviGreenRobot" Value="Please accept this reward." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue5FaceNaviGreenRobot" Value="Alright! With this，I’ll win the,tournament for sure!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue1FaceNaviGreenRobot" Value="Some statuses make you,weak to certain elemental,attacks." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue2FaceNaviGreenRobot" Value="Melt is weak to Aqua，,Slip is weak to Elec，and,Blind is weak to Heat." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue3FaceNaviGreenRobot" Value="The same goes for panels.,Heat burns grass，and,Elec shocks ice." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue4FaceNaviGreenRobot" Value="If you can remember that，,I’m sure it’ll help you in battle." Face="NaviGreenRobot" Mono="False" />
+</data>

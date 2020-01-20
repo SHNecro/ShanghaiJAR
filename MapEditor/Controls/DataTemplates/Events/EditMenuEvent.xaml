@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+                    xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:EditMenuEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Menu Option:"/>
+                <ComboBox Grid.Column="1"
+                          ItemsSource="{markup:EnumBindingSource EnumType={x:Type enums:MenuItemTypeNumber}}">
+                    <ComboBox.SelectedValue>
+                        <PriorityBinding>
+                            <Binding Path="MenuNumber" Converter="{StaticResource EnumToIntegerValueConverter}" ConverterParameter="{x:Type enums:MenuItemTypeNumber}" Mode="TwoWay" />
+                        </PriorityBinding>
+                    </ComboBox.SelectedValue>
+                </ComboBox>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                        VerticalAlignment="Center"
+                        Text="Adding:"/>
+                <CheckBox Grid.Column="1"
+                        VerticalContentAlignment="Center"
+                        Height="22"
+                        IsChecked="{Binding IsAdding, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

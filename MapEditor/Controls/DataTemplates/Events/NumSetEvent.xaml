@@ -1,0 +1,62 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:controls="clr-namespace:MapEditor.Controls"
+                    xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:NumSetEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Number Prompt:" />
+                <controls:TranslatedTextSelector Grid.Column="1"
+                                                 TextKey="{Binding NumSetKey, Mode=TwoWay}" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Target Variable:" />
+                <TextBox Grid.Column="1">
+                    <TextBox.Text>
+                        <Binding Path="TargetVariable" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="# Digits:" />
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="1">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="NumberOfDigits" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="1" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

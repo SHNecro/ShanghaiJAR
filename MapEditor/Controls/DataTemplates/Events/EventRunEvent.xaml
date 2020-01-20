@@ -1,0 +1,49 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:controls="clr-namespace:MapEditor.Controls">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:EventRunEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Target ID:"/>
+                <TextBox Grid.Column="1"
+                         Text="{Binding ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <Button Grid.Column="2"
+                        Style="{StaticResource SelectObjectButton}"
+                        VerticalContentAlignment="Center"
+                        Tag="{Binding ID}"
+                        Content="Go" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Target Page:"/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1"
+                                                    Value="{Binding Page, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <Button Grid.Column="2"
+                        Style="{StaticResource SetTagBindingButton}"
+                        VerticalContentAlignment="Center"
+                        Content="Set To Active"
+                        Tag="{Binding Page}"
+                        CommandParameter="-1" />
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

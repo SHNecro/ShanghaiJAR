@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ウラでしかできないようなクールな極秘バトル情報を書き込んでいけ！ -->
+  <Dialogue Key="Messages.UnderBattleBoard1Dialogue1None" Value="Post your top-secret battle tips!,UNDERNET ONLY!" Face="None" Mono="False" />
+  <!-- まずは俺からプログラムアドバンスってもちろん知ってるよな？ -->
+  <Dialogue Key="Messages.UnderBattleBoard1Dialogue2None" Value="Here’s a PA from me to get you,started!" Face="None" Mono="False" />
+  <!-- オイカゼとムカイカゼと冷たい風のあのチップでひとつ出来上がりだ！ -->
+  <Dialogue Key="Messages.UnderBattleBoard1Dialogue3None" Value="TailWind，HeadWind，ColdAir.,Thank me later." Face="None" Mono="False" />
+  <!-- ＨＡＨＡＨＡ！そんな基礎的なＰＡなんて誰でも知ってるよ -->
+  <Dialogue Key="Messages.UnderBattleBoard2Dialogue1None" Value="HAHAHA!,Everyone already knows such,a basic PA." Face="None" Mono="False" />
+  <!-- 俺なら断然バイオスプレー２を使ったあのプログラムアドバンスだな -->
+  <Dialogue Key="Messages.UnderBattleBoard2Dialogue2None" Value="You want a good PA?,VenomShot，PoisonStage，,BioSpray." Face="None" Mono="False" />
+  <!-- ベノムショットとポイズンステージで最高に強力なPAの完成さ！ -->
+  <Dialogue Key="Messages.UnderBattleBoard2Dialogue3None" Value="Truly the finest of PAs." Face="None" Mono="False" />
+  <!-- プログラムアドバンスなら俺も情報あるぜ -->
+  <Dialogue Key="Messages.UnderBattleBoard3Dialogue1None" Value="Is this a PA thread?" Face="None" Mono="False" />
+  <!-- チェインガンとチャージカノンをショットガンにミックスさせるんだ -->
+  <Dialogue Key="Messages.UnderBattleBoard3Dialogue2None" Value="ChainGun，ChargeCannon，,ShotGun." Face="None" Mono="False" />
+  <!-- 俺のナビは毎日こいつをぶっ放しまくってるぜ -->
+  <Dialogue Key="Messages.UnderBattleBoard3Dialogue3None" Value="My Navi shreds enemies with,this every day." Face="None" Mono="False" />
+  <!-- おいおい　どう並べてもショットガンのPAなんてできないじゃないか！ -->
+  <Dialogue Key="Messages.UnderBattleBoard4Dialogue1None" Value=">ShotGun,>PA" Face="None" Mono="False" />
+  <!-- ウラだからってデマ流してもいいってわけじゃないんだぜ？ -->
+  <Dialogue Key="Messages.UnderBattleBoard4Dialogue2None" Value="Get out if you’re just going to,make stuff up." Face="None" Mono="False" />
+  <!-- 悪い　このフォーラムの連中ならＰＡの材料はバージョン２を使うって知ってるかと思って -->
+  <Dialogue Key="Messages.UnderBattleBoard5Dialogue1None" Value="Do you not know that PAs use,version 2 chips?" Face="None" Mono="False" />
+  <!-- まあ一部の数字が無いチップは２段階目を使うとは限らないらしいけどね -->
+  <Dialogue Key="Messages.UnderBattleBoard5Dialogue2None" Value="Mostly.,Some V2 don’t work，but I don’t,know if the PA works at all." Face="None" Mono="False" />
+  <!-- なるほど　２を使えばいいのかデマ認定悪かった -->
+  <Dialogue Key="Messages.UnderBattleBoard6Dialogue1None" Value="Is the V2 rumor a hoax?,Someone needs to verify." Face="None" Mono="False" />
+  <!-- わび代わりにバリアーとパワーオーラとオーラソード２でPAができると書き置いておこう -->
+  <Dialogue Key="Messages.UnderBattleBoard6Dialogue2None" Value="Oops，PA tax.,Barrier，Power Aura，,AuraSword 2" Face="None" Mono="False" />
+  <!-- ここ読んでPAメモだいぶ埋まったぜ -->
+  <Dialogue Key="Messages.UnderBattleBoard7Dialogue1None" Value="No PA for you，but I’ve,heard an interesting rumor." Face="None" Mono="False" />
+  <!-- そういや噂で聞いたがダークチップを使ったPAも存在するとかなんとか -->
+  <Dialogue Key="Messages.UnderBattleBoard7Dialogue2None" Value="There are PAs involving,Dark Chips...." Face="None" Mono="False" />
+  <!-- ダークチップ単体で４００とかダメージ出るしダークPAの威力１０００いくんじゃないか？ -->
+  <Dialogue Key="Messages.UnderBattleBoard7Dialogue3None" Value="Dark Chips alone do 400,damage，would a Dark PA,break 1000?" Face="None" Mono="False" />
+  <!-- ダークプログラムアドバンスか本当にあったらクールだな -->
+  <Dialogue Key="Messages.UnderBattleBoard8Dialogue1None" Value=">Dark PA,Cool if true." Face="None" Mono="False" />
+  <!-- 友人がアースウェーブとクッサクドリル２と何かでPA使ってるの見たことあるが -->
+  <Dialogue Key="Messages.UnderBattleBoard8Dialogue2None" Value="I saw a friend use a PA with,Ground Wave，DigDrill，and,something else." Face="None" Mono="False" />
+  <!-- 手持ちのどのスタンダードチップともPAが発動しないんだよな -->
+  <Dialogue Key="Messages.UnderBattleBoard8Dialogue3None" Value="I don’t think the last one was a,normal chip." Face="None" Mono="False" />
+  <!-- ウラで言うのも何だがダークチップ使い結構いるのか -->
+  <Dialogue Key="Messages.UnderBattleBoard9Dialogue1None" Value="Dark PAs are real，and they’re,perfect for the Undernet." Face="None" Mono="False" />
+  <!-- ダンマクバルカンとメガフレアーガンそれとエレキファングっぽいのでなにかできるらしい -->
+  <Dialogue Key="Messages.UnderBattleBoard9Dialogue2None" Value="Saw one with DanmaGun，,FlareGun，and Electric Fang." Face="None" Mono="False" />
+  <!-- それもまさかどれかがダークチップだったりするのかな -->
+  <Dialogue Key="Messages.UnderBattleBoard9Dialogue3None" Value="One of them was a Dark Chip." Face="None" Mono="False" />
+  <!-- PAとかのロマン砲よりもコンボを重ねての大ダメージもクールだと俺は思うね -->
+  <Dialogue Key="Messages.UnderBattleBoard10Dialogue1None" Value=">Relying on PAs to do damage,Real skill is chaining combos,and multipliers to win." Face="None" Mono="False" />
+  <!-- 氷パネルで雷属性が２倍とスリップ状態で雷属性が２倍をあわせるのとかよくやってるぜ -->
+  <Dialogue Key="Messages.UnderBattleBoard10Dialogue2None" Value="Elec element doubles on ice,panels and doubles on Slip,status...." Face="None" Mono="False" />
+  <!-- 雷属性４倍コンボか････めっちゃいいな！ -->
+  <Dialogue Key="Messages.UnderBattleBoard11Dialogue1None" Value="....that’s times 4 damage for,an Elec chip. Interesting!" Face="None" Mono="False" />
+  <!-- メルトの水属性２倍をなんとか利用しようと思ってるけど炎はメルトにならないからなあ -->
+  <Dialogue Key="Messages.UnderBattleBoard11Dialogue2None" Value="I tried using Melt to double,Aqua damage on a Heat Navi，,but they wouldn’t Melt." Face="None" Mono="False" />
+  <!-- メルト使うんなら土属性のやつに使うと良いぞ -->
+  <Dialogue Key="Messages.UnderBattleBoard12Dialogue1None" Value="Melt a Earth element." Face="None" Mono="False" />
+  <!-- 土はもともと水弱点だからあわせて４倍だぜ -->
+  <Dialogue Key="Messages.UnderBattleBoard12Dialogue2None" Value="They’re already weak to it，so,Aqua will do 4 times damage." Face="None" Mono="False" />
+  <!-- あれ待てよ？前のやつが言ってた雷４倍を毒属性のやつに使ったら････ -->
+  <Dialogue Key="Messages.UnderBattleBoard13Dialogue1None" Value="If you can Slip a Poison Navi,while they’re on Ice or Poison...." Face="None" Mono="False" />
+  <!-- ８倍かよ！！俺のレイルガン３が威力１６００じゃないか！ -->
+  <Dialogue Key="Messages.UnderBattleBoard14Dialogue1None" Value="8!!,My RailGun3 would do 1600,damage!" Face="None" Mono="False" />
+  <!-- 下手なナビも一撃ノックアウトは夢があるな -->
+  <Dialogue Key="Messages.UnderBattleBoard14Dialogue2None" Value="This bad guy has a one-hit KO,dream!" Face="None" Mono="False" />
+  <!-- ROMの亡霊ナビをたおしてゲットしたナビチップからPA発見した -->
+  <Dialogue Key="Messages.UnderBattleBoard15Dialogue1None" Value="I found the ghost of a ROM Navi,and found a PA with their chip." Face="None" Mono="False" />
+  <!-- アイスソードとアイスステージと水属性のちっこいののV2でPAが出来上がるぜ -->
+  <Dialogue Key="Messages.UnderBattleBoard15Dialogue2None" Value="Ice Sword，Ice Stage，and,their chip (V2) gets you the PA." Face="None" Mono="False" />
+  <!-- 亡霊ナビ倒すとはやるな俺はトレーダーで引いた知らないナビのチップ使ったやつだ -->
+  <Dialogue Key="Messages.UnderBattleBoard16Dialogue1None" Value="Ghost Navi? Are you mad?,Use a trader to get Navi chips!" Face="None" Mono="False" />
+  <!-- メイドみたいなナビのV2の前にシルバーナイフとタイムストッパーで完成するぞ -->
+  <Dialogue Key="Messages.UnderBattleBoard16Dialogue2None" Value="Silver Knife，Time Stop， and,some maid’s chip is a good,finisher." Face="None" Mono="False" />
+  <!-- 知らないナビのチップってだれかがトレーダーに仕込んでるのかね -->
+  <Dialogue Key="Messages.UnderBattleBoard17Dialogue1None" Value="Another Navi tip here from,trader anon." Face="None" Mono="False" />
+  <!-- 戦車みたいなナビに大砲系チップふたつくっつけたらPAに化けたぞ -->
+  <Dialogue Key="Messages.UnderBattleBoard17Dialogue2None" Value="Stick two cannons on the,tank-like Navi to get a PA." Face="None" Mono="False" />
+  <!-- スズランと毒の竜巻とあと毒属性のナビででかいスズランができたぞ -->
+  <Dialogue Key="Messages.UnderBattleBoard18Dialogue1None" Value="Try a White Lily and a,poisonous tornado together,with a poison Navi." Face="None" Mono="False" />
+  <!-- あえて名前を出さないのは俺が意地悪だからだ -->
+  <Dialogue Key="Messages.UnderBattleBoard18Dialogue2None" Value="That’s your PA，but don’t think,I’ll spoonfeed you the Navi’s,name." Face="None" Mono="False" />
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 海底ケーブルの電脳 -->
+  <Text Key="Map.UnderCableName" Value="海底ケーブルの電脳" />
+  <!-- セカイジュウガ　インターネットデツナガッテイルノハコノ　ケーブルノ　オカゲデス -->
+  <Dialogue Key="Map.UnderCableSprite1Stage1Dialogue1FaceSprite" Value="セカイジュウガ　インターネットデ,ツナガッテイルノハ,コノ　ケーブルノ　オカゲデス" Face="Sprite" Mono="False" />
+  <!-- セカイガ　ケーブルデツナガッテルッテナンカ　スゴイデスヨネ -->
+  <Dialogue Key="Map.UnderCableSprite1Stage1Dialogue2FaceSprite" Value="セカイガ　ケーブルデ,ツナガッテルッテ,ナンカ　スゴイデスヨネ" Face="Sprite" Mono="False" />
+  <!-- カイテイケーブルノ　レキシハ１９セイキニ　サカノボルトカ -->
+  <Dialogue Key="Map.UnderCableSprite2Stage1Dialogue1FaceSprite" Value="カイテイケーブルノ　レキシハ,１９セイキニ　サカノボルトカ" Face="Sprite" Mono="False" />
+  <!-- １９セイキッテ　イウノハニホンダト　エドジダイカラメイジジダイノ　アタリデスヨ -->
+  <Dialogue Key="Map.UnderCableSprite2Stage1Dialogue2FaceSprite" Value="１９セイキッテ　イウノハ,ニホンダト　エドジダイカラ,メイジジダイノ　アタリデスヨ" Face="Sprite" Mono="False" />
+</data>

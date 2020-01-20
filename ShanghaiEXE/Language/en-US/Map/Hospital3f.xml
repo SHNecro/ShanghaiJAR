@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Hospital3fName" Value="Yagokoro Hospital 3F" />
+  <Dialogue Key="Map.Hospital3fElevatorStage1Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Hospital3fElevatorStage1Dialogue2Options" Value="1F,2F,Leave" />
+  <Dialogue Key="Map.Hospital3fElevatorStage3Dialogue1FaceNone" Value="The elevator button,isn’t working...." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage5Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage5Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Hospital3fElevatorStage5Dialogue2Options" Value="1F,2F,Leave" />
+  <Dialogue Key="Map.Hospital3fSofaStage1Dialogue1FaceNone" Value="It’s a sofa for people to,sit and wait on." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaStage1Dialogue2FaceNone" Value="It looks soft，but it’s actually,surprisingly stiff." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeStage1Dialogue1FaceNone" Value="It’s a sofa for people to,sit and wait on." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeStage1Dialogue2FaceNone" Value="It looks soft，but it’s actually,surprisingly stiff." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeDupeStage1Dialogue1FaceNone" Value="It’s a sofa for people to,sit and wait on." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeDupeStage1Dialogue2FaceNone" Value="It looks soft，but it’s actually,surprisingly stiff." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fGodStage1Dialogue1FaceKoishi" Value="What do I do?,At this rate，Satori will...." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue1FaceKoishi" Value=". . . . . . . ." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue2FaceAlice" Value=". . . . . . . ." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue3FaceShanghai" Value=". . . . . . . ." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue4FaceShanghai" Value="This operation sure,is taking a while." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue5FaceKoishi" Value="The doctor said it’s a,difficult operation...." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue6FaceAlice" Value="I wonder if Satori’s,going to be okay...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue7FaceKoishi" Value="She’ll be fine as long as,Dr. Yagokoro is in charge!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue8FaceAlice" Value="....I’m actually so nervous,that I’m starting to sweat." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue9FaceKoishi" Value="....Now that you mention it，,isn’t it getting hotter?" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue10FaceShanghai" Value="Wait，the room really,is getting hotter!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue1FaceEirin" Value="Hey! Is anyone out there!?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue2FaceAlice" Value="Dr. Yagokoro!,What’s happening!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue3FaceEirin" Value="It seems like the temperature,is rising because the AC is,malfunctioning!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue4FaceEirin" Value="But it’s only on this floor!,And I can’t seem to open the,door’s digital lock either...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue5FaceKoishi" Value="Is Satori gonna be okay!?" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue6FaceEirin" Value="She’s fine for now，but she,won’t recover if it keeps,getting hotter!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue7FaceShanghai" Value="....Only this floor?,It’s almost like...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue8FaceShanghai" Value="Regardless! If the AC is ,malfunctioning，there must be,a problem in the cyberworld." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue9FaceShanghai" Value="Please tell us where to jack in!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue1FaceEirin" Value="There should be a control,panel next to the operating,room door，isn’t there?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue2FaceShanghai" Value="Jack in there?,Let’s do it，Alice!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue3FaceAlice" Value="Of course!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue1FaceKoishi" Value="Doctor，how’s Satori....?" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue2FaceEirin" Value="....It was a miracle." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue3FaceEirin" Value="Congenital Weakness Factor,Disorder.... I cured the disease,that was eating away at her." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue4FaceAlice" Value="Wha....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue5FaceEirin" Value="Originally，this operation was,just to restore her eyesight,temporarily." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue6FaceEirin" Value="She’d be able to see for a,while，but she’d go blind,again in a few years." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue7FaceEirin" Value="There’s still no settled protocol,for treating CWFD...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue8FaceEirin" Value="But during the operation,in that sweltering heat...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue9FaceEirin" Value="The cell that causes CWFD,started to turn back to normal." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue10FaceEirin" Value="The heat actually might have,had a positive effect...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue11FaceEirin" Value="I’ll look into it later. Satori,should be able to see once,the anesthesia wears off." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue12FaceKoishi" Value="T-Thank you so much!!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue13FaceEirin" Value="Well，I have to move Satori to,her room，so could you please,wait on the second floor?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue14FaceKoishi" Value="Sure!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage1Dialogue1FaceNone" Value="It’s this floor’s control panel." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage1Dialogue2FaceNone" Value="It controls the operating room,too，so you can jack in from ,outside to fix any problems." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage3Dialogue1FaceNone" Value="It’s this floor’s control panel." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage3Dialogue2FaceNone" Value="It controls the operating room,too，so you can jack in from ,outside to fix any problems." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue1FaceNone" Value="The operating room is right,through these doors." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue2FaceNone" Value="Here，diseases and doctors,fight for life or death. Nobody,else is allowed in to watch." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue3FaceNone" Value="Not even the patients can,watch，since they’re under,anesthesia." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage3Dialogue1FaceEirin" Value="Please jack in to the control,panel next to the door!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage3Dialogue2FaceEirin" Value="As it stands，Satori’s,life is in danger!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue1FaceNone" Value="The operating room is right,through these doors." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue2FaceNone" Value="Here，diseases and doctors,fight for life or death. Nobody,else is allowed in to watch." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue3FaceNone" Value="Not even the patients can,watch，since they’re under,anesthesia." Face="None" Mono="False" />
+</data>

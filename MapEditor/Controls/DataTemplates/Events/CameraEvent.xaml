@@ -1,0 +1,92 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:controls="clr-namespace:MapEditor.Controls"
+                    xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:CameraEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsAbsolute, Mode=OneWay}" Value="True">
+                                    <Setter Property="Text" Value="Position:" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                            <Setter Property="Text" Value="Offset:" />
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="X" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+                <TextBlock Grid.Column="2" Text=","/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="3">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="Y" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <DockPanel Grid.Column="0">
+                    <TextBlock DockPanel.Dock="Left"
+                               VerticalAlignment="Center"
+                               Text="Absolute:"/>
+                    <Grid DockPanel.Dock="Right"
+                          Width="16"
+                          Height="16"
+                          Background="{StaticResource InfoIcon}"
+                          ToolTip="Warning: Relative preview likely incorrect if movement, warping, etc. involved."/>
+                </DockPanel>
+                <CheckBox Grid.Column="1"
+                          VerticalContentAlignment="Center"
+                          Height="22"
+                          IsChecked="{Binding IsAbsolute, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Frames:" />
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="MoveTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

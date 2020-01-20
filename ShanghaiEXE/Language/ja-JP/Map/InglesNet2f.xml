@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- インターネット　インゲレスエリア２ -->
+  <Text Key="Map.InglesNet2fName" Value="インターネット　インゲレスエリア２" />
+  <!-- インゲレススクエアはこの先を道なりで！ -->
+  <Dialogue Key="Map.InglesNet2fGuidePlateStage1Dialogue1FaceNone" Value="インゲレススクエアは,この先を道なりで！" Face="None" Mono="False" />
+  <!-- あのミステリーデータどうやったら取れるのかしら -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi1Stage1Dialogue1FaceNaviPinkFemale" Value="あのミステリーデータ,どうやったら取れるのかしら" Face="NaviPinkFemale" Mono="False" />
+  <!-- 見えてるのに取れないのってすごくもどかしいわ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi1Stage1Dialogue2FaceNaviPinkFemale" Value="見えてるのに取れないのって,すごくもどかしいわ" Face="NaviPinkFemale" Mono="False" />
+  <!-- 時折この辺りではネットギャングが道を塞いだりしているんですよ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi2Stage1Dialogue1FaceNaviBlueRobot" Value="時折この辺りでは,ネットギャングが道を,塞いだりしているんですよ" Face="NaviBlueRobot" Mono="False" />
+  <!-- インゲレスエリア３からウラインターネットに逃げられてしまうので厄介なんです -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi2Stage1Dialogue2FaceNaviBlueRobot" Value="インゲレスエリア３から,ウラインターネットに逃げられて,しまうので厄介なんです" Face="NaviBlueRobot" Mono="False" />
+  <!-- こっちはスクエアへの道じゃないよ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi3Stage1Dialogue1FaceNaviChild" Value="こっちはスクエアへの,道じゃないよ" Face="NaviChild" Mono="False" />
+  <!-- ここらへんは私達の遊び場なんだ〜 -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi3Stage1Dialogue2FaceNaviChild" Value="ここらへんは私達の,遊び場なんだ〜" Face="NaviChild" Mono="False" />
+  <!-- おうネエチャンよお！ここは通行料を払えば安全に通れるぜ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue1FaceNaviPurpleHeel" Value="おうネエチャンよお！,ここは通行料を,払えば安全に通れるぜ！" Face="NaviPurpleHeel" Mono="False" />
+  <!-- 通行料？そんなの聞いてないわよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue2FaceShanghai" Value="通行料？,そんなの聞いてないわよ" Face="Shanghai" Mono="False" />
+  <!-- おおっと妙なマネはやめとけ俺たちネットギャングが痛い目をみせちまうぜ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue3FaceNaviPurpleHeel" Value="おおっと妙なマネはやめとけ,俺たちネットギャングが,痛い目をみせちまうぜ" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ネットギャング？なんて名前の？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue4FaceShanghai" Value="ネットギャング？,なんて名前の？" Face="Shanghai" Mono="False" />
+  <!-- ハハハッ！聞いて驚け！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue5FaceNaviPurplePunk" Value="ハハハッ！,聞いて驚け！" Face="NaviPurplePunk" Mono="False" />
+  <!-- 俺たちは！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue6FaceNaviPurplePunk" Value="俺たちは！" Face="NaviPurplePunk" Mono="False" />
+  <!-- 泣く子も黙るジャッカーズ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue7FaceNaviPurpleHeel" Value="泣く子も黙るジャッカーズ！" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････知らない名前ね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue8FaceShanghai" Value="････知らない名前ね" Face="Shanghai" Mono="False" />
+  <!-- ってことは大したことのないチンケな集団ってことね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue9FaceShanghai" Value="ってことは大したことのない,チンケな集団ってことね" Face="Shanghai" Mono="False" />
+  <!-- （また始まった････） -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue10FaceAlice" Value="（また始まった････）" Face="Alice" Mono="False" />
+  <!-- ああん！？喧嘩売ってるのか！？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue11FaceNaviPurpleHeel" Value="ああん！？,喧嘩売ってるのか！？" Face="NaviPurpleHeel" Mono="False" />
+  <!-- 通行料を巻き上げるのなら相手を選ぶべきだったわね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue12FaceShanghai" Value="通行料を巻き上げるのなら,相手を選ぶべきだったわね" Face="Shanghai" Mono="False" />
+  <!-- ふざけやがって！野郎ども！やっちまえ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue13FaceNaviPurpleHeel" Value="ふざけやがって！,野郎ども！,やっちまえ！" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ギャングヘッド -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy1" Value="ギャングヘッド" />
+  <!-- ジャッカーズ -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy2" Value="ジャッカーズ" />
+  <!-- ジャッカーズ -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy3" Value="ジャッカーズ" />
+  <!-- つ　つええ････ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue1FaceNaviPurplePunk" Value="つ　つええ････" Face="NaviPurplePunk" Mono="False" />
+  <!-- ３人がかりだったのに････ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue2FaceNaviPurplePunk" Value="３人がかりだったのに････" Face="NaviPurplePunk" Mono="False" />
+  <!-- 実力の差がわかったかしら？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue3FaceShanghai" Value="実力の差がわかったかしら？" Face="Shanghai" Mono="False" />
+  <!-- わかったらさっさと失せるかあたしとの遭遇料を払ってもらうわよ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue4FaceShanghai" Value="わかったらさっさと失せるか,あたしとの遭遇料を,払ってもらうわよ！" Face="Shanghai" Mono="False" />
+  <!-- なんてやつだ！覚えてろー！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue5FaceNaviPurpleHeel" Value="なんてやつだ！,覚えてろー！" Face="NaviPurpleHeel" Mono="False" />
+  <!-- インゲレスのゴロツキもたいしたことないわね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue1FaceShanghai" Value="インゲレスのゴロツキも,たいしたことないわね" Face="Shanghai" Mono="False" />
+  <!-- さあ　スクエアはもうすぐよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue2FaceShanghai" Value="さあ　スクエアはもうすぐよ" Face="Shanghai" Mono="False" />
+  <!-- 流石にもうノーコメントよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue3FaceAlice" Value="流石にもうノーコメントよ" Face="Alice" Mono="False" />
+</data>

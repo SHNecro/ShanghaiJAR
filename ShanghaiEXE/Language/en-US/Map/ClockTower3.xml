@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳３ -->
+  <Text Key="Map.ClockTower3Name" Value="Clock Tower Comp 3" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower3GimmickStage1Dialogue1QuestionFaceNone" Value="It’s linked to the global clock.,Do you move the needle?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower3GimmickStage1Dialogue1Options" Value="Yes,No" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower3GimmickStage3Dialogue1QuestionFaceNone" Value="Move the hour hand to where?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower3GimmickStage3Dialogue1Options" Value="１２,　３, ６,　９" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower3GimmickStage5Dialogue1QuestionFaceNone" Value="Move the minute hand to where?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower3GimmickStage5Dialogue1Options" Value="：００,：１５,：３０,：４５" />
+  <!-- ６ジ００フン　９ジ１５フン３ジ００フン　１２ジ３０フン････ -->
+  <Dialogue Key="Map.ClockTower3Sprite1AStage1Dialogue1FaceSprite" Value="6:00　9:15,3:00　12:30...." Face="Sprite" Mono="False" />
+  <!-- タテ　ヨコ　エルジ　タテ　マッスグ　スグサキ････ -->
+  <Dialogue Key="Map.ClockTower3Sprite1AStage1Dialogue2FaceSprite" Value="IT’S RIGHT IN FRONT OF ME!" Face="Sprite" Mono="False" />
+</data>

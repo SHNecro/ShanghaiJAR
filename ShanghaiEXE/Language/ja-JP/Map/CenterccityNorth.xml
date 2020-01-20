@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 中央街　北区 -->
+  <Text Key="Map.CenterccityNorthName" Value="中央街　北区" />
+  <!-- あんれまあ！あなたが依頼を受けてくれた女の子なのかい？ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue1FaceFemaleElderly" Value="あんれまあ！,あなたが依頼を受けてくれた,女の子なのかい？" Face="FemaleElderly" Mono="False" />
+  <!-- 幻想大学の３階にスーツを着た男の人がいるはずなんだよね -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue2FaceFemaleElderly" Value="幻想大学の３階に,スーツを着た男の人が,いるはずなんだよね" Face="FemaleElderly" Mono="False" />
+  <!-- だからその人にこの小包を届けてくんれよお！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue3FaceFemaleElderly" Value="だからその人にこの小包を,届けてくんれよお！" Face="FemaleElderly" Mono="False" />
+  <!-- お嬢ちゃん！頼んだよ！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue4FaceFemaleElderly" Value="お嬢ちゃん！,頼んだよ！" Face="FemaleElderly" Mono="False" />
+  <!-- お嬢ちゃん！頼んだよ！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage3Dialogue1FaceFemaleElderly" Value="お嬢ちゃん！,頼んだよ！" Face="FemaleElderly" Mono="False" />
+  <!-- あんれまあ！こういうこともあるもんだねえ！アハハハハ！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage5Dialogue1FaceFemaleElderly" Value="あんれまあ！,こういうこともあるもんだねえ！,アハハハハ！" Face="FemaleElderly" Mono="False" />
+  <!-- ああ　君が母さんの依頼を聞いてくれた子だね････ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue1FaceMaleAdult" Value="ああ　君が母さんの依頼を,聞いてくれた子だね････" Face="MaleAdult" Mono="False" />
+  <!-- なんかムダに走らせちゃったみたいだね　ゴメン！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue2FaceMaleAdult" Value="なんかムダに走らせちゃった,みたいだね　ゴメン！" Face="MaleAdult" Mono="False" />
+  <!-- お詫びと言っては何だけどこのチップをあげるよ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue3FaceMaleAdult" Value="お詫びと言っては何だけど,このチップをあげるよ" Face="MaleAdult" Mono="False" />
+  <!-- 依頼はこれで終わったことになるんだね？ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue4FaceMaleAdult" Value="依頼はこれで,終わったことになるんだね？" Face="MaleAdult" Mono="False" />
+  <!-- 重ねて言うけど本当にゴメンね -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue5FaceMaleAdult" Value="重ねて言うけど,本当にゴメンね" Face="MaleAdult" Mono="False" />
+  <!-- 僕の母さんそそっかしくてあわてんぼうなんだよ････ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage3Dialogue1FaceMaleAdult" Value="僕の母さんそそっかしくて,あわてんぼうなんだよ････" Face="MaleAdult" Mono="False" />
+  <!-- ＧＲＮニュースの名物コーナー「あなたの街のスゴ企業」の時間がやって来ました！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue1FaceSanaeReporter" Value="ＧＲＮニュースの名物コーナー,「あなたの街のスゴ企業」,の時間がやって来ました！" Face="SanaeReporter" Mono="False" />
+  <!-- 今日はボーダーコンツェルン本社前より東風谷早苗がお送りしまーす！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue2FaceSanaeReporter" Value="今日はボーダーコンツェルン,本社前より東風谷早苗が,お送りしまーす！" Face="SanaeReporter" Mono="False" />
+  <!-- こちらがボーダーコンツェルンの新製品　等身大　人型介助ロボット「シキガミ」です！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue3FaceSanaeReporter" Value="こちらがボーダーコンツェルンの,新製品　等身大　人型,介助ロボット「シキガミ」です！" Face="SanaeReporter" Mono="False" />
+  <!-- 人型ロボットといえば自衛隊で使われている機動兵器などがよく知られていますが････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue4FaceSanaeReporter" Value="人型ロボットといえば自衛隊で,使われている機動兵器などが,よく知られていますが････" Face="SanaeReporter" Mono="False" />
+  <!-- このロボットは人間に代わって重い荷物を運ぶなどの介助をするロボットなんです！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue5FaceSanaeReporter" Value="このロボットは人間に代わって,重い荷物を運ぶなどの,介助をするロボットなんです！" Face="SanaeReporter" Mono="False" />
+  <!-- これからロボットと人が一緒に暮らす光景が当たり前になるかもしれませんね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue6FaceSanaeReporter" Value="これからロボットと人が一緒に,暮らす光景が当たり前に,なるかもしれませんね！" Face="SanaeReporter" Mono="False" />
+  <!-- ギィ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3ShikigamiStage1Dialogue1FaceNone" Value="ギィ････" Face="GoldRobot" Mono="False" />
+  <!-- わあ　あのロボットがいたらおばあちゃんの買い物も楽になるかな！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3YoungGirl1Stage1Dialogue1FaceFemaleStudent" Value="わあ　あのロボットがいたら,おばあちゃんの買い物も,楽になるかな！" Face="FemaleStudent" Mono="False" />
+  <!-- ロボットかあ　かっこいいなあ〜 -->
+  <Dialogue Key="Map.CenterccityNorthChapter3YoungBoy1Stage1Dialogue1FaceMaleStudent" Value="ロボットかあ　かっこいいなあ〜" Face="MaleStudent" Mono="False" />
+  <!-- あんなロボットができるとはすごい時代になったものだなあ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man1Stage1Dialogue1FaceMaleOld" Value="あんなロボットができるとは,すごい時代になったものだなあ" Face="MaleOld" Mono="False" />
+  <!-- ロボットと一緒の生活なんてまるでＳＦ映画みたいだねえ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man2Stage1Dialogue1FaceMaleAdult" Value="ロボットと一緒の生活なんて,まるでＳＦ映画みたいだねえ" Face="MaleAdult" Mono="False" />
+  <!-- ロボットなんかよりも女子アナの早苗ちゃん目当てで見に来たんですよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man3Stage1Dialogue1FaceMaleElderly" Value="ロボットなんかよりも,女子アナの早苗ちゃん目当てで,見に来たんですよ" Face="MaleElderly" Mono="False" />
+  <!-- あーあ自社の商品が報道されるのはいいんだけどさ〜 -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man4Stage1Dialogue1FaceMaleAdult" Value="あーあ,自社の商品が報道されるのは,いいんだけどさ〜" Face="MaleAdult" Mono="False" />
+  <!-- 実際に作ってる俺達はテレビに映れないんだよな〜嫌になるよねー -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man4Stage1Dialogue2FaceMaleAdult" Value="実際に作ってる俺達は,テレビに映れないんだよな〜,嫌になるよねー" Face="MaleAdult" Mono="False" />
+  <!-- 便利そうなのはわかるけど安全性は大丈夫なのかしら？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Female1Stage1Dialogue1FaceFemaleAdult" Value="便利そうなのはわかるけど,安全性は大丈夫なのかしら？" Face="FemaleAdult" Mono="False" />
+  <!-- ＧＲＮの無人反重力カメラだ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue1FaceNone" Value="ＧＲＮの無人反重力カメラだ" Face="None" Mono="False" />
+  <!-- プラグインしたナビが操作してアナウンサーと一心同体の撮影が行えるすぐれものだ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue2FaceNone" Value="プラグインしたナビが操作して,アナウンサーと一心同体の,撮影が行えるすぐれものだ" Face="None" Mono="False" />
+  <!-- カメラからかすかにナビの声が聞こえてくる -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue3FaceNone" Value="カメラからかすかにナビの,声が聞こえてくる" Face="None" Mono="False" />
+  <!-- 「早苗ー！　もうちょっと笑顔だケロ〜！」 -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue4FaceNone" Value="「早苗ー！,　もうちょっと笑顔だケロ〜！」" Face="None" Mono="False" />
+  <!-- あ〜あ〜アイドルのミスティアちゃんが来てればと思ったのになあ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Boy1AStage1Dialogue1FaceMaleChild" Value="あ〜あ〜,アイドルのミスティアちゃんが,来てればと思ったのになあ････" Face="MaleChild" Mono="False" />
+  <!-- え〜！早苗さんってすごく綺麗でわたしは好きだな〜！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Girl3Stage1Dialogue1FaceFemaleChild" Value="え〜！,早苗さんってすごく綺麗で,わたしは好きだな〜！" Face="FemaleChild" Mono="False" />
+  <!-- ふー　歳を取ると長くイスに座るのがつらいわぁ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Woman1Stage1Dialogue1FaceFemaleMiddleAged" Value="ふー　歳を取ると長く,イスに座るのがつらいわぁ" Face="FemaleMiddleAged" Mono="False" />
+  <!-- あのー　そろそろ会社に戻ったほうがいいと思うんですが････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man1Stage1Dialogue1FaceMaleAdult" Value="あのー　そろそろ,会社に戻ったほうがいいと,思うんですが････" Face="MaleAdult" Mono="False" />
+  <!-- 栄養ドリンクをグビッとな -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man2Stage1Dialogue1FaceMaleAdult" Value="栄養ドリンクをグビッとな" Face="MaleAdult" Mono="False" />
+  <!-- プハーッ！これがないとやってられないよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man2Stage1Dialogue2FaceMaleAdult" Value="プハーッ！,これがないとやってられないよ" Face="MaleAdult" Mono="False" />
+  <!-- 休憩時間にこの広場でアイスを食べるのが定番なのよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man3Stage1Dialogue1FaceFemaleAdult" Value="休憩時間にこの広場で,アイスを食べるのが,定番なのよ" Face="FemaleAdult" Mono="False" />
+  <!-- ここが大企業ボーダーコンツェルン････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter4StudentStage1Dialogue1FaceMaleGlassesStudent" Value="ここが大企業,ボーダーコンツェルン････" Face="MaleGlassesStudent" Mono="False" />
+  <!-- 噂では中ではシキガミが警備をしているとか -->
+  <Dialogue Key="Map.CenterccityNorthChapter4StudentStage1Dialogue2FaceMaleGlassesStudent" Value="噂では中ではシキガミが,警備をしているとか" Face="MaleGlassesStudent" Mono="False" />
+  <!-- ふー　コーヒーがおいしい････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter4WhiteClothesStage1Dialogue1FaceScientist" Value="ふー　コーヒーがおいしい････" Face="Scientist" Mono="False" />
+  <!-- 若い人は元気でいいわねえ元気なことはいいことよ〜 -->
+  <Dialogue Key="Map.CenterccityNorthChapter4AuntStage1Dialogue1FaceFemaleMiddleAged" Value="若い人は元気でいいわねえ,元気なことはいいことよ〜" Face="FemaleMiddleAged" Mono="False" />
+  <!-- ぬれてにあわ　ぬれてにあわ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter5YouthStage1Dialogue1FaceMaleAdult" Value="ぬれてにあわ　ぬれてにあわ････" Face="MaleAdult" Mono="False" />
+  <!-- 働けど働けど私の生活は楽にならない････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter5WhiteClothes1Stage1Dialogue1FaceScientist" Value="働けど働けど,私の生活は楽にならない････" Face="Scientist" Mono="False" />
+  <!-- そこの電話ボックスはボーダーコンツェルンの来客用電話なんだよね -->
+  <Dialogue Key="Map.CenterccityNorthChapter7WhiteCoatStage1Dialogue1FaceScientist" Value="そこの電話ボックスは,ボーダーコンツェルンの,来客用電話なんだよね" Face="Scientist" Mono="False" />
+  <!-- なんで建物の外に置いてあるかは今は誰も知らないけどね -->
+  <Dialogue Key="Map.CenterccityNorthChapter7WhiteCoatStage1Dialogue2FaceScientist" Value="なんで建物の外に,置いてあるかは,今は誰も知らないけどね" Face="Scientist" Mono="False" />
+  <!-- いつかかならず来る平和のために我々は働いてるのだろうな -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WomanStage1Dialogue1FaceMaleOld" Value="いつかかならず来る,平和のために我々は,働いてるのだろうな" Face="MaleOld" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboShieldStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboShieldStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboBazookaStage1Dialogue1FaceNone" Value="自衛隊の２８式陸機だ" Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboBazookaStage1Dialogue2FaceNone" Value="物々しいたたずまいで,周囲を警戒している" Face="None" Mono="False" />
+  <!-- 栄養ドリンクばかりが並ぶ自動販売機だ -->
+  <Dialogue Key="Map.CenterccityNorthRedVendingMachineStage1Dialogue1FaceNone" Value="栄養ドリンクばかりが並ぶ,自動販売機だ" Face="None" Mono="False" />
+  <!-- ボーダーコンツェルンの社員たちはこれを飲んで頑張るのだろうか -->
+  <Dialogue Key="Map.CenterccityNorthRedVendingMachineStage1Dialogue2FaceNone" Value="ボーダーコンツェルンの,社員たちはこれを飲んで,頑張るのだろうか" Face="None" Mono="False" />
+  <!-- パンやお菓子が並ぶ自動販売機だ -->
+  <Dialogue Key="Map.CenterccityNorthWhiteVendingMachineStage1Dialogue1FaceNone" Value="パンやお菓子が並ぶ,自動販売機だ" Face="None" Mono="False" />
+  <!-- 忙しいサラリーマンはこれを買って昼食をとるのだろうか -->
+  <Dialogue Key="Map.CenterccityNorthWhiteVendingMachineStage1Dialogue2FaceNone" Value="忙しいサラリーマンは,これを買って昼食を,とるのだろうか" Face="None" Mono="False" />
+  <!-- ボーダーコンツェルンの創始者スキーマー･ボーダーの像だ -->
+  <Dialogue Key="Map.CenterccityNorthBronzeStatueStage1Dialogue1FaceNone" Value="ボーダーコンツェルンの創始者,スキーマー･ボーダーの像だ" Face="None" Mono="False" />
+  <!-- しかし雨風にさらされてもはや顔が原型をとどめていない -->
+  <Dialogue Key="Map.CenterccityNorthBronzeStatueStage1Dialogue2FaceNone" Value="しかし雨風にさらされて,もはや顔が原型をとどめていない" Face="None" Mono="False" />
+  <!-- ････像の台座にプラグイン端子が付いている！ -->
+  <Dialogue Key="Map.CenterccityNorthBronzeStatueStage1Dialogue3FaceNone" Value="････像の台座に,プラグイン端子が付いている！" Face="None" Mono="False" />
+  <!-- 古いタイプの電話ボックスだ -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue1FaceNone" Value="古いタイプの電話ボックスだ" Face="None" Mono="False" />
+  <!-- 一昔前は誰でも使えるネットワークポイントとしてたくさんあったが -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue2FaceNone" Value="一昔前は誰でも使える,ネットワークポイントとして,たくさんあったが" Face="None" Mono="False" />
+  <!-- 今では携帯電話の普及で減り珍しいものになりつつある -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue3FaceNone" Value="今では携帯電話の普及で減り,珍しいものになりつつある" Face="None" Mono="False" />
+  <!-- プラグインをすることもできる -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue4FaceNone" Value="プラグインをすることもできる" Face="None" Mono="False" />
+  <!-- おや？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue1FaceWriggleHat" Value="おや？" Face="WriggleHat" Mono="False" />
+  <!-- 君は　アリスじゃないか！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue2FaceWriggleHat" Value="君は　アリスじゃないか！" Face="WriggleHat" Mono="False" />
+  <!-- リグル････姫様？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue3FaceAlice" Value="リグル････姫様？" Face="Alice" Mono="False" />
+  <!-- アッハハハハハ！リグル君　でいいよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue4FaceWriggleHat" Value="アッハハハハハ！,リグル君　でいいよ" Face="WriggleHat" Mono="False" />
+  <!-- なにせ　僕と君は友達だからね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue5FaceWriggleHat" Value="なにせ　僕と君は,友達だからね！" Face="WriggleHat" Mono="False" />
+  <!-- リグル君　いつの間に日本に来ていたの？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue6FaceAlice" Value="リグル君　いつの間に,日本に来ていたの？" Face="Alice" Mono="False" />
+  <!-- 約束通り　お忍びでひとっ飛びしてきたのさ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue7FaceWriggleHat" Value="約束通り　お忍びで,ひとっ飛びしてきたのさ" Face="WriggleHat" Mono="False" />
+  <!-- ふむ　どうやらのんびり一緒に観光という雰囲気じゃなさそうだね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue8FaceWriggleHat" Value="ふむ　どうやらのんびり,一緒に観光という,雰囲気じゃなさそうだね" Face="WriggleHat" Mono="False" />
+  <!-- うん････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue9FaceAlice" Value="うん････" Face="Alice" Mono="False" />
+  <!-- ふむ　アリスがどういう状況に置かれているか　ズバリ当ててみせよう！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue10FaceWriggleHat" Value="ふむ　アリスがどういう状況に,置かれているか　ズバリ,当ててみせよう！" Face="WriggleHat" Mono="False" />
+  <!-- まず　君はどうやら重大な事件に対し自ら立ち向かおうとしている！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage3Dialogue1FaceWriggleHat" Value="まず　君はどうやら,重大な事件に対し,自ら立ち向かおうとしている！" Face="WriggleHat" Mono="False" />
+  <!-- ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage3Dialogue2FaceAlice" Value="！" Face="Alice" Mono="False" />
+  <!-- どうしてわかったかだって？単純なロジックさ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage3Dialogue3FaceWriggleHat" Value="どうしてわかったかだって？,単純なロジックさ" Face="WriggleHat" Mono="False" />
+  <!-- 僕の方へ向かってくるときに君は汗を掻くほど必死に走っていた････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue1FaceWriggleHat" Value="僕の方へ向かってくるときに,君は汗を掻くほど必死に,走っていた････" Face="WriggleHat" Mono="False" />
+  <!-- しかし　こうやって足を止めて僕と会話ができるから追われているわけではない -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue2FaceWriggleHat" Value="しかし　こうやって足を止めて,僕と会話ができるから,追われているわけではない" Face="WriggleHat" Mono="False" />
+  <!-- つまり！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue3FaceWriggleHat" Value="つまり！" Face="WriggleHat" Mono="False" />
+  <!-- 君は追われる側ではなく追う側にいると推理できる！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue4FaceWriggleHat" Value="君は追われる側ではなく,追う側にいると推理できる！" Face="WriggleHat" Mono="False" />
+  <!-- 次の謎はいったい君が何を追っているか -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue1FaceWriggleHat" Value="次の謎は,いったい君が何を追っているか" Face="WriggleHat" Mono="False" />
+  <!-- それは言うまでもなくネット犯罪組織ＲＯＭのことだろうね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue2FaceWriggleHat" Value="それは言うまでもなく,ネット犯罪組織,ＲＯＭのことだろうね" Face="WriggleHat" Mono="False" />
+  <!-- 君は非常に勇敢で友達思いだが突出した能力はネットバトルの腕前････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue3FaceWriggleHat" Value="君は非常に勇敢で,友達思いだが突出した能力は,ネットバトルの腕前････" Face="WriggleHat" Mono="False" />
+  <!-- そんなアリスが他の組織例えばゴクドーやマフィアを追っているとは考えにくい -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue4FaceWriggleHat" Value="そんなアリスが他の組織,例えばゴクドーやマフィアを,追っているとは考えにくい" Face="WriggleHat" Mono="False" />
+  <!-- 先のＲＯＭによる電波ジャックは僕も見ていたからね時期的に間違いなしだね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue5FaceWriggleHat" Value="先のＲＯＭによる電波ジャックは,僕も見ていたからね,時期的に間違いなしだね" Face="WriggleHat" Mono="False" />
+  <!-- 最後に君が何を求めて走り回っているかを推理してみよう！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue1FaceWriggleHat" Value="最後に君が何を求めて,走り回っているかを,推理してみよう！" Face="WriggleHat" Mono="False" />
+  <!-- まあ　その答えは君が持つ携帯電話の画面が雄弁に語ってくれているけどね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue2FaceWriggleHat" Value="まあ　その答えは君が持つ,携帯電話の画面が雄弁に,語ってくれているけどね！" Face="WriggleHat" Mono="False" />
+  <!-- 最新式の軍事戦闘機の一覧ページ････どうやらステルス機をご所望のようだ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue3FaceWriggleHat" Value="最新式の軍事戦闘機の,一覧ページ････どうやら,ステルス機をご所望のようだ" Face="WriggleHat" Mono="False" />
+  <!-- しかし　君はそれを調べてなお答えを求めてこの街を走り回っている -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue4FaceWriggleHat" Value="しかし　君はそれを調べてなお,答えを求めてこの街を,走り回っている" Face="WriggleHat" Mono="False" />
+  <!-- つまり　電脳百科事典に載っている機体では君の要求は満たせなかった -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue5FaceWriggleHat" Value="つまり　電脳百科事典に,載っている機体では君の,要求は満たせなかった" Face="WriggleHat" Mono="False" />
+  <!-- そう　世の中に知られていない最新型のステルス機それが君が探しているものだ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue6FaceWriggleHat" Value="そう　世の中に知られていない,最新型のステルス機,それが君が探しているものだ！" Face="WriggleHat" Mono="False" />
+  <!-- まあ　そんな最新機なんて僕が乗ってきた新型くらいしか思いあたりがないけどね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue7FaceWriggleHat" Value="まあ　そんな最新機なんて,僕が乗ってきた新型くらいしか,思いあたりがないけどね" Face="WriggleHat" Mono="False" />
+  <!-- 以上　リグル・ナイトバグの推理ショーでした････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue1FaceWriggleHat" Value="以上　リグル・ナイトバグの,推理ショーでした････" Face="WriggleHat" Mono="False" />
+  <!-- なーんてね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue2FaceWriggleHat" Value="なーんてね！" Face="WriggleHat" Mono="False" />
+  <!-- すごい！まるで名探偵みたい！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue3FaceAlice" Value="すごい！,まるで名探偵みたい！" Face="Alice" Mono="False" />
+  <!-- ナドゥ･ヤマザ　みたいだっただろう？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue4FaceWriggleHat" Value="ナドゥ･ヤマザ　みたい,だっただろう？" Face="WriggleHat" Mono="False" />
+  <!-- ってちょっと待ちなさいよあんたさっきなんて言った！？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue5FaceShanghai" Value="ってちょっと待ちなさいよ,あんたさっきなんて言った！？" Face="Shanghai" Mono="False" />
+  <!-- 僕の推理ショーだったって････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue6FaceWriggleHat" Value="僕の推理ショーだったって････" Face="WriggleHat" Mono="False" />
+  <!-- その前！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue7FaceShanghai" Value="その前！" Face="Shanghai" Mono="False" />
+  <!-- 新型のステルス機に乗ってきたですって！？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue8FaceShanghai" Value="新型のステルス機に,乗ってきたですって！？" Face="Shanghai" Mono="False" />
+  <!-- うん　完全に姿を消す最新の光学迷彩を搭載したお忍び用の最新機をね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue9FaceWriggleHat" Value="うん　完全に姿を消す,最新の光学迷彩を搭載した,お忍び用の最新機をね" Face="WriggleHat" Mono="False" />
+  <!-- やましい思いがないのに最短ルートを通ろうとすると他の国がうるさいからね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue10FaceWriggleHat" Value="やましい思いがないのに,最短ルートを通ろうとすると,他の国がうるさいからね" Face="WriggleHat" Mono="False" />
+  <!-- 既存のあらゆる対空レーダーに引っかからないステルス性にお世話になっているわけさ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue11FaceWriggleHat" Value="既存のあらゆる対空レーダーに,引っかからないステルス性に,お世話になっているわけさ！" Face="WriggleHat" Mono="False" />
+  <!-- なんか聞き捨てならないことがいくつかあったけども････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue12FaceShanghai" Value="なんか聞き捨てならないことが,いくつかあったけども････" Face="Shanghai" Mono="False" />
+  <!-- 見つけたわね　アリス！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue13FaceShanghai" Value="見つけたわね　アリス！" Face="Shanghai" Mono="False" />
+  <!-- さて　じゃあアリスのやろうとしていることを君の口から聞こうじゃないか -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue14FaceWriggleHat" Value="さて　じゃあアリスの,やろうとしていることを,君の口から聞こうじゃないか" Face="WriggleHat" Mono="False" />
+  <!-- えっと　それがね････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue15FaceAlice" Value="えっと　それがね････" Face="Alice" Mono="False" />
+  <!-- その要塞に行くためにステルス機が必要と････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue1FaceWriggleHat" Value="その要塞に行くために,ステルス機が必要と････" Face="WriggleHat" Mono="False" />
+  <!-- お願い！その飛行機を貸してくれない？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue2FaceAlice" Value="お願い！,その飛行機を貸してくれない？" Face="Alice" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue3FaceWriggleHat" Value="････" Face="WriggleHat" Mono="False" />
+  <!-- ････アリスになら貸してあげても大丈夫だね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue4FaceWriggleHat" Value="････アリスになら,貸してあげても大丈夫だね" Face="WriggleHat" Mono="False" />
+  <!-- 本当！？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue5FaceAlice" Value="本当！？" Face="Alice" Mono="False" />
+  <!-- でも　君ひとりで行くつもりなのかい？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue6FaceWriggleHat" Value="でも　君ひとりで,行くつもりなのかい？" Face="WriggleHat" Mono="False" />
+  <!-- ROMのボスを倒すには私たちの力が必要なの -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue7FaceAlice" Value="ROMのボスを倒すには,私たちの力が必要なの" Face="Alice" Mono="False" />
+  <!-- それに　知っている人が傷つく姿は見たくないから････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue8FaceAlice" Value="それに　知っている人が,傷つく姿は見たくないから････" Face="Alice" Mono="False" />
+  <!-- ････わかった君の覚悟は伝わったよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue9FaceWriggleHat" Value="････わかった,君の覚悟は伝わったよ" Face="WriggleHat" Mono="False" />
+  <!-- 準備ができたらこの先の駅から飛行場へ向かってくれ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue10FaceWriggleHat" Value="準備ができたらこの先の駅から,飛行場へ向かってくれ" Face="WriggleHat" Mono="False" />
+  <!-- そこにある僕の機体で君を要塞まで運んであげるよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue11FaceWriggleHat" Value="そこにある僕の機体で,君を要塞まで運んであげるよ" Face="WriggleHat" Mono="False" />
+  <!-- ありがとう････リグル君！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue12FaceAlice" Value="ありがとう････,リグル君！" Face="Alice" Mono="False" />
+  <!-- なにせ　僕と君は友達だからね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue13FaceWriggleHat" Value="なにせ　僕と君は,友達だからね！" Face="WriggleHat" Mono="False" />
+  <!-- よし　じゃあ準備ができたらＲＯＭのアジトに殴り込みよ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage15Dialogue1FaceShanghai" Value="よし　じゃあ準備ができたら,ＲＯＭのアジトに殴り込みよ！" Face="Shanghai" Mono="False" />
+  <!-- 私達の手で戦いを終わらせましょう！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage15Dialogue2FaceAlice" Value="私達の手で戦いを,終わらせましょう！" Face="Alice" Mono="False" />
+  <!-- 中では慌ただしくスーツ姿の人々が走り回っている -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeStage1Dialogue1FaceNone" Value="中では慌ただしく,スーツ姿の人々が,走り回っている" Face="None" Mono="False" />
+  <!-- この中に入り込む勇気は流石に持ち合わせてはいない -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeStage1Dialogue2FaceNone" Value="この中に入り込む勇気は,流石に持ち合わせてはいない" Face="None" Mono="False" />
+  <!-- 中では慌ただしくスーツ姿の人々が走り回っている -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeDupeStage1Dialogue1FaceNone" Value="中では慌ただしく,スーツ姿の人々が,走り回っている" Face="None" Mono="False" />
+  <!-- この中に入り込む勇気は流石に持ち合わせてはいない -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeDupeStage1Dialogue2FaceNone" Value="この中に入り込む勇気は,流石に持ち合わせてはいない" Face="None" Mono="False" />
+  <!-- げっ････ここに俺がいることは黙ってくれないか？ -->
+  <Dialogue Key="Map.CenterccityNorthHiddenCharactersStage1Dialogue1FaceMaleChild" Value="げっ････,ここに俺がいることは,黙ってくれないか？" Face="MaleChild" Mono="False" />
+  <!-- 代わりに魔法の数字９７３５８６１４　を教えるぜよろしくな -->
+  <Dialogue Key="Map.CenterccityNorthHiddenCharactersStage1Dialogue2FaceMaleChild" Value="代わりに魔法の数字,９７３５８６１４　を教えるぜ,よろしくな" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander1Dialogue1" Value="えへへ！,しゃちょーさんにネットバトルを,教えてもらう約束したの！" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander2Dialogue1" Value="社長が変わってからなんだか,働きやすくなった気がするよ" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander3Dialogue1" Value="やれやれ,社長が逮捕されたけど,新社長のおかげで助かった" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander3Dialogue2" Value="まだ大学生なのに,新社長の手腕は,素晴らしいね" Face="Scientist" Mono="False" />
+</data>

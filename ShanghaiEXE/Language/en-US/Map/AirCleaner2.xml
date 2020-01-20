@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner2Name" Value="Air Purifier Comp 2" />
+  <Dialogue Key="Map.AirCleaner2ControlStage1Dialogue1FaceShanghai" Value="I’ve got to stop this thing!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage1Dialogue2FaceShanghai" Value="Viruses again!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue1FaceNone" Value="#b@false#W #w@10#H #w@10#I #w@10#I #w@10#I #w@10#I #w@10#I #w@10#R #w@10#R #w@10#R #w@10#!" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue2FaceAlice" Value="Great job，Shanghai!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue3FaceAlice" Value="....Hm?,What’s wrong?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue4FaceShanghai" Value="Deja vu." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue5FaceShanghai" Value="These viruses feel like they’re,the same kind as the ones,that were in our fridge." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue6FaceAlice" Value="Then that means...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue7FaceShanghai" Value="This incident might be,ROM’s doing...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue8FaceShanghai" Value="Well，let’s try looking it up on,this terminal! ♪" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue9FaceAlice" Value="You shouldn’t do that just,because you’re curious...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue10FaceShanghai" Value="Don’t be stupid.,I’m trying to find Remilia too." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue11FaceShanghai" Value="I’ll just hack into the security,camera and take a peek." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue12FaceShanghai" Value="#b@true#......!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue13FaceShanghai" Value="Remilia went to the lab on,the third floor!,It’s caught on tape!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue14FaceAlice" Value="The third floor?,Got it!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage5Dialogue1FaceNone" Value="The air purifier is cleaning the,air normally." Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite1Stage1Dialogue1FaceSprite" Value="AAAAHH!,THE GAS! THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite2Stage1Dialogue1FaceSprite" Value="THE RESCUE PROGRAM,WILL BRING YOU BACK,HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite2Stage1Dialogue2FaceSprite" Value="PLEASE BE REALLY,REALLY CAREFUL,AROUND THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite3Stage1Dialogue1FaceSprite" Value="IF YOU LOOK CLOSELY，,THERE’S A GAP IN THE,GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite3Stage1Dialogue2FaceSprite" Value="YOU SHOULD BE ABLE,TO RUN THROUGH IT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite4Stage1Dialogue1FaceSprite" Value="THIS GAS IS TOO FAST!,YOU CAN’T OUTRUN IT!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite4Stage1Dialogue2FaceSprite" Value="IT MIGHT BE SMART TO,TAKE A BREAK ON THE,SIDE OF THE PATH!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite5Stage1Dialogue1FaceSprite" Value="THE CONTROL PANEL IS,RIGHT THROUGH HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue1FaceShanghai" Value="Cough! Gak!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue2FaceShanghai" Value="Cough.... Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue3FaceShanghai" Value="Wheeze!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue4FaceShanghai" Value="Achoo!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue5FaceShanghai" Value="Cough! Hack!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue6FaceShanghai" Value="Hack!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue7FaceShanghai" Value="Gasp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage3Dialogue1FaceShanghai" Value="U....Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage5Dialogue1FaceAlice" Value="Please be careful around,poison gas...." Face="Alice" Mono="False" />
+</data>

@@ -1,0 +1,63 @@
+﻿using NSBattle;
+using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Rendering;
+using NSEffect;
+using SlimDX;
+using System.Drawing;
+
+namespace NSObject
+{
+    internal class Rock : ObjectBase
+    {
+        private bool breaked;
+
+        public Rock(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+          : base(s, p, pX, pY, union)
+        {
+            this.height = 40;
+            this.wide = 40;
+            this.hp = 500;
+            this.hitPower = 200;
+            this.hpmax = this.hp;
+            this.unionhit = true;
+            this.overslip = true;
+            this.positionDirect = new Vector2(pX * 40 + 20, pY * 24 + 72);
+        }
+
+        public override void Updata()
+        {
+            base.Updata();
+        }
+
+        public override void Break()
+        {
+            if (!this.breaked || this.StandPanel.Hole)
+            {
+                this.breaked = true;
+                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, true, 1));
+                this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, false, 1));
+            }
+            this.flag = false;
+        }
+
+        public override void Render(IRenderer dg)
+        {
+            if (this.whitetime <= 0)
+                this._rect = new Rectangle(0, 144, this.wide, this.height);
+            else
+                this._rect = new Rectangle(0, 184, this.wide, this.height);
+            double x1 = positionDirect.X;
+            Point shake = this.Shake;
+            double x2 = shake.X;
+            double num1 = x1 + x2;
+            double y1 = positionDirect.Y;
+            shake = this.Shake;
+            double y2 = shake.Y;
+            double num2 = y1 + y2;
+            this._position = new Vector2((float)num1, (float)num2);
+            dg.DrawImage(dg, "objects1", this._rect, false, this._position, this.rebirth, Color.White);
+        }
+    }
+}

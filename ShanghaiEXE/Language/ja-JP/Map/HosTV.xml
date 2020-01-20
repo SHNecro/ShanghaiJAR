@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HosTVName" Value="病院テレビの電脳" />
+  <Dialogue Key="Map.HosTVSprite1Stage1Dialogue1FaceSprite" Value="キョウノ　リョウリハ,キュウリト　ワカメノ,スアエモノ　デス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite1Stage1Dialogue2FaceSprite" Value="ココニ　スデニツクリオエタ,モノガ　アリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite2Stage1Dialogue1FaceSprite" Value="ヤァーネー　マサカ,アノヒトガソンナコトヲ,スルナンテネー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite2Stage1Dialogue2FaceSprite" Value="イツカハ　ヤルト,オモッテタンデスヨー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue1FaceNaviBlueRobot" Value="おお　来てくれたか,君が依頼を受けてくれた,シャンハイだね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue2FaceNaviBlueRobot" Value="掲示板でも書いたとおり,私はネットエージェントなのだが,すでに引退した身でね" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue3FaceNaviBlueRobot" Value="近年の治安悪化を受けて,復帰するために　まずは,見学から入りたいんだ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue4FaceNaviBlueRobot" Value="ではシャンハイ　私が今から,本気でウィルスを放つから,勝利する姿を見せてくれ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue5FaceNaviBlueRobot" Value="では　行くぞ！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue1FaceNaviBlueRobot" Value="ほう　やるものだ,君ならウィルスハンターでも,生計を立てられそうだな" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue2FaceNaviBlueRobot" Value="では　約束通り,依頼を達成してくれた報酬だ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue3FaceNaviBlueRobot" Value="それと　君にならこれを,預けても良いだろう" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue4FaceNaviBlueRobot" Value="それはかつて　とある犯罪集団を,摘発した時に回収したものだ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue5FaceNaviBlueRobot" Value="あのＲＯＭの隠し金庫を,開けられるＩＤカードなのだが,君ならば有効活用できそうだ" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue6FaceNaviBlueRobot" Value="ドクロマークの扉を,見つけたら使ってみると良い" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue7FaceShanghai" Value="････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue8FaceAlice" Value="シャンハイ　何か感想は？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue9FaceShanghai" Value="どっと疲れたわ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage5Dialogue1FaceNaviBlueRobot" Value="え？,あんなに強いウィルスを,どうやって捕まえたかって？" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage5Dialogue2FaceNaviBlueRobot" Value="はっはっは,若いものが細かいことを,気にするんじゃないよ" Face="NaviBlueRobot" Mono="False" />
+</data>

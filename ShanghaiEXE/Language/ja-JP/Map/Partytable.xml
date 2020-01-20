@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PartytableName" Value="パーティテーブルの電脳" />
+  <Dialogue Key="Map.PartytableTable1Stage1Dialogue1FaceNone" Value="高級な電脳料理が,並んでいる" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable2AStage1Dialogue1FaceNone" Value="高級な電脳料理が,並んでいる" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable3Stage1Dialogue1FaceNone" Value="高級そうなデザートが,並べられている" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable3Stage1Dialogue2FaceNone" Value="ひとくち食べたら,絶対に虜になってしまうだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable4Stage1Dialogue1FaceNone" Value="立食パーティーなので,テーブルに椅子は,用意されていない" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable4Stage1Dialogue2FaceNone" Value="ずっと立っていたら疲れるが,美味しい料理を食べていると,気にならないのだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable5Stage1Dialogue1FaceNone" Value="皿にとられた七面鳥から,香ばしい香りが漂っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable5Stage1Dialogue2FaceNone" Value="思わずヨダレが,たれてきてしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable6Stage1Dialogue1FaceNone" Value="皿にとられた七面鳥から,香ばしい香りが漂っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable6Stage1Dialogue2FaceNone" Value="思わずヨダレが,たれてきてしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable7Stage1Dialogue1FaceNone" Value="高級な電脳料理が,並んでいる" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable8Stage1Dialogue1FaceNone" Value="高級な電脳料理が,並んでいる" Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableSprite1Stage1Dialogue1FaceSprite" Value="ネットナビノ　ミナサンモ,オイシイリョウリヲ,タベテイッテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PartytableSprite2Stage1Dialogue1FaceSprite" Value="ワタシタチ　スプライトチャンモ,オイシイリョウリ　タベタイナー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="いやはや　素晴らしい,電脳料理だ,もったいないくらいだよ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="こんなに美味しい料理,食べすぎて太らないか,心配だわぁ" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi3Stage1Dialogue1FaceNaviOrangeMale" Value="電脳ワインって,年代物とかが,ないんだよね" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi4Stage1Dialogue1FaceNaviChild" Value="テーブルが高くて,食べにくいよぉ" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage1Dialogue1FaceNaviPurplePunk" Value="せっせ　せっせ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage3Dialogue1FaceNaviPurplePunk" Value="わっせ　わっせ････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage5Dialogue1FaceNaviPurplePunk" Value="しっかり入れるんだぞ,電脳タッパーいっぱいにな！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage7Dialogue1FaceNaviPurplePunk" Value="へへへ････これだけ,高級料理があれば,しばらくは贅沢三昧！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage7Dialogue2FaceNaviPurplePunk" Value="タッパーに高級料理,つめつめ大作戦！,いやー素晴らしい！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage9Dialogue1FaceNaviPurplePunk" Value="シャンハイ様のバトルが,終わったぞ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage9Dialogue2FaceNaviPurplePunk" Value="今のうちに残りをつめるんだ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage11Dialogue1FaceNaviPurplePunk" Value="おおー！" Face="NaviPurplePunk" Mono="False" />
+</data>

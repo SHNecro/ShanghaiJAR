@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.LostShip2Name" Value="沈没船の電脳２" />
+  <Dialogue Key="Map.LostShip2Door1GateStage1Dialogue1FaceNone" Value="扉の表面にうっすらと,「キーデータを提示してください」,と書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue1FaceNone" Value="扉の表面にうっすらと,「キーデータを提示してください」,と書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue2FaceNone" Value="シャンハイは,「古いキーデータ」を使った！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue3FaceNone" Value="扉が開いた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue4FaceNone" Value="しかし　古いキーデータは,使った瞬間ボロボロと,崩れてしまった････" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage1Dialogue1FaceNone" Value="扉の表面にうっすらと,「ＩＤデータを提示してください」,と書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue1FaceNone" Value="扉の表面にうっすらと,「ＩＤデータを提示してください」,と書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue2FaceNone" Value="シャンハイは,「古いＩＤデータ」を使った！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue3FaceNone" Value="扉が開いた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue4FaceNone" Value="しかし　古いＩＤデータは,使った瞬間ボロボロと,崩れてしまった････" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage1Dialogue1FaceNone" Value="扉の表面にうっすらと,「パスコードを提示してください」,と書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue1FaceNone" Value="扉の表面にうっすらと,「パスコードを提示してください」,と書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue2FaceNone" Value="シャンハイは,「古いパスコード」を使った！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue3FaceNone" Value="扉が開いた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue4FaceNone" Value="しかし　古いパスコードは,使った瞬間ボロボロと,崩れてしまった････" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage1Dialogue1FaceSprite" Value="コノサキヘ　ススミタイノデスネ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage1Dialogue2FaceSprite" Value="コレヲ　オツカイクダサイ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage1Dialogue3FaceSprite" Value="ソレヲ　ツカエバ,トビラガ　ヒラキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage3Dialogue1FaceSprite" Value="ワタシカラハ　コレイジョウ,ナニモイウコトハ　アリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage5Dialogue1FaceSprite" Value="ワタシカラハ　コレイジョウ,ナニモイウコトハ　アリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage1Dialogue1FaceSprite" Value="コノサキヘ　ススミタイノデスネ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage1Dialogue2FaceSprite" Value="コレヲ　オツカイクダサイ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage1Dialogue3FaceSprite" Value="ソレヲ　ツカエバ,トビラガ　ヒラキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage3Dialogue1FaceSprite" Value="ワタシカラハ　コレイジョウ,ナニモイウコトハ　アリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage5Dialogue1FaceSprite" Value="ワタシカラハ　コレイジョウ,ナニモイウコトハ　アリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage1Dialogue1FaceSprite" Value="コノサキヘ　ススミタイノデスネ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage1Dialogue2FaceSprite" Value="コレヲ　オツカイクダサイ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage1Dialogue3FaceSprite" Value="ソレヲ　ツカエバ,トビラガ　ヒラキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage3Dialogue1FaceSprite" Value="ワタシカラハ　コレイジョウ,ナニモイウコトハ　アリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage5Dialogue1FaceSprite" Value="ワタシカラハ　コレイジョウ,ナニモイウコトハ　アリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)1Stage1Dialogue1FaceBrokenSprite" Value="ホントウニ　ジッコウシマスカ？,ホントウニ････ジッコウ････？" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)2Stage1Dialogue1FaceBrokenSprite" Value="オイシイ････オイシイ････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)3Stage1Dialogue1FaceBrokenSprite" Value="ウィルスメ････ウィルス････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)4Stage1Dialogue1FaceBrokenSprite" Value="メーデー　メーデー　メーデー,メーデー　メ････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)1Stage1Dialogue1FaceBrokenSprite" Value="オゴッゴッゴゴゴ････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)2Stage1Dialogue1FaceBrokenSprite" Value="ミミミミミミミミーッ！！" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)3Stage1Dialogue1FaceBrokenSprite" Value="シンニュウシャ　シンニュウシャ,シンニュウニュウニュウニュウ････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)4Stage1Dialogue1FaceBrokenSprite" Value="モウスグ････タスケガ････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)1Stage1Dialogue1FaceBrokenSprite" Value="モンダイノ　ゲンインヲ,タダチニ　トリノゾイテクダ" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)2Stage1Dialogue1FaceBrokenSprite" Value="パピ　パピパピパピパピパピパピ" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)3Stage1Dialogue1FaceBrokenSprite" Value="システムカラノ　オウトウガ,アリマセン　セン　セン････" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)4Stage1Dialogue1FaceBrokenSprite" Value="キ　　モ　　チ　　イ　　イ" Face="BrokenSprite" Mono="False" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip2ApproachBattle1Enemy1" Value="エビルスプライト" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip2TangleBattle1Enemy1" Value="エビルスプライト" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip2LastColumnBattle1Enemy1" Value="エビルスプライト" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue1FaceAlice" Value="あれってオートロイド？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue2FaceShanghai" Value="その割には････,様子が変よ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue3FaceAutoroid" Value="グルルル････" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue4FaceShanghai" Value="来るっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue5FaceAutoroid" Value="ガアアッ！" Face="Autoroid" Mono="False" />
+  <!-- ゾアノロイド -->
+  <Text Key="Map.LostShip2EventBattle1Enemy1" Value="ゾアノロイド" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue1FaceShanghai" Value="やたらと強い,オートロイドだったわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue2FaceAlice" Value="それにしても　この電脳世界に,一体何があったのかしら････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue3FaceAlice" Value="沈んだ船に,壊れたスプライトちゃん,そして今のオートロイド････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue4FaceShanghai" Value="考えても仕方ないわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue5FaceShanghai" Value="そもそもあたしたちは,この沈没船の謎を,解きに来たんじゃないし" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage5Dialogue1FaceShanghai" Value="さあ　早くこのプログラムを,あの子に届けましょう！" Face="Shanghai" Mono="False" />
+</data>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterRoomName" Value="Game Center Backroom" />
+  <Dialogue Key="Map.GameCenterRoomTrash2Stage1Dialogue1FaceNone" Value="It’s a trash bin for plastic,bottles and cans." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTrash2Stage1Dialogue2FaceNone" Value="....It’s empty." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue1FaceNone" Value="There’s a lone plant in this,shady corner of the room." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue2FaceNone" Value="I thought it was real，but it,seems like it’s just a fake,plant." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue3FaceNone" Value="....There’s something metallic,buried in the soil." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage3Dialogue1FaceNone" Value="There’s a lone plant in this,shady corner of the room." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage3Dialogue2FaceNone" Value="I thought it was real，but it,seems like it’s just a fake,plant." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTableStage1Dialogue1FaceNone" Value="It’s a large red table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTableStage1Dialogue2FaceNone" Value="I wonder if employees have,friendly chats at this table,during breaks." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage1Dialogue1QuestionFaceScientist" Value="Are you ready to unleash,your fighting spirit!?" Face="Scientist" Mono="False" />
+  <Text Key="Map.GameCenterRoomChapter4Stage1Dialogue1Options" Value="Yes,No" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage1Dialogue2FaceScientist" Value="Then steel yourself for the,fight! We’ll be waiting for you!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage2Dialogue1FaceScientist" Value="Now go，young lady!,Into the arena of fire with you!!" Face="Scientist" Mono="False" />
+</data>

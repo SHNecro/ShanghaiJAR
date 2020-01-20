@@ -1,0 +1,76 @@
+IF YOU HAVE GPG INSTALLED:
+
+to import key:
+cat verify.txt | grep -Pzo -- "-{5}BEGIN PGP PUBLIC KEY BLOCK-{5}[^@]*-{5}END PGP PUBLIC KEY BLOCK-{5}" | gpg --import -
+
+to verify:
+cat verify.txt | grep -Pzo -- "-{5}BEGIN PGP SIGNED MESSAGE-{5}[^@]*-{5}END PGP SIGNATURE-{5}" | gpg --verify -
+
+Should output:
+  gpg: Signature made Fri Dec 27 13:18:44 2019 STD
+  gpg:                using RSA key C21226002650FC9956A19CC253FA768D0BFA02EF
+  gpg: Good signature from "SHNecro" [unknown]
+  gpg: WARNING: This key is not certified with a trusted signature!
+  gpg:          There is no indication that the signature belongs to the owner.
+  Primary key fingerprint: C212 2600 2650 FC99 56A1  9CC2 53FA 768D 0BFA 02EF
+where the message is verified but the key is "unknown" (unless you've added it to your own trusted list)
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+=YVOK
+-----END PGP PUBLIC KEY BLOCK-----
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+bc1qent68x7uq5y5mn6k5mqk0nz6gmpt5v55j2mgnd
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEwhImACZQ/JlWoZzCU/p2jQv6Au8FAl4GdTQACgkQU/p2jQv6
+Au+AGwwAyug6vCQAjRM77BLtw4B7iyuWP9eQP3rzXt/qV388Yk9Mw6FD6ZVvC/5k
+Ww2U7ui+0oCJWPQXDzG1BqTJCzsp0BzDBuG2ramJHf9ro1pjci5I2vFEbAhXw3+X
+vtGwa2ZucHEGqAG1TSP0fTKOWclgDqif/HMP2RymsAoASlHCBzAgYBsXPwschi4G
+yoZ8KzI037g3IigfR7LkQp/4p0bGuJDjG3VU/nKY3TycCKi8CJ5PDQG8kPjjr85s
+dhiEywY6Wczua86amK0woxsgxEE/rLN0fgMi+xkj8TPuxDVXiJ6VHtprhEZj/u/6
+iHroUy0Q97VSqccTgbbjpFpmPzIMSwz5onEqN8CwW+2sqNIGm60CxSvFOdkZ3dYB
+LuszZ6U20l4F2kzodSEkpRtRWqtcUNUpyAeKxs44ZvoYMcUfZj221S9mJAs+nAtg
+wQvaYiQkx/MNbLufmhQFxxKaMWHHC9r8qvfzOMN3lmIfipJBXCWrM0mLT6dqUzRa
+/OoRbEIL
+=b17U
+-----END PGP SIGNATURE-----

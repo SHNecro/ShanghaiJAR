@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShip1fPartyName" Value="Siren 1F Banquet Hall" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage1Dialogue1FaceNone" Value="It’s a table full of,gourmet desserts." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage1Dialogue2FaceNone" Value="Just one bite，and I’ll,be hooked for sure." Face="None" Mono="False" />
+  <!-- 高級そうなデザートが並べられている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage3Dialogue1FaceNone" Value="There’s a lineup of rare and,exclusive desserts." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage3Dialogue2FaceNone" Value="....They’re good. They’re really，,really good. Too bad they’re,just samples." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage3Dialogue3FaceNone" Value="A very good taste of the luxury,this ship offers." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage1Dialogue1FaceNone" Value="There’s a bottle of vintage,wine on the table." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage1Dialogue2FaceNone" Value="I’d like to try it when,I’m old enough." Face="None" Mono="False" />
+  <!-- 年代物のワインがテーブルの上に置かれている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage3Dialogue1FaceNone" Value="A finely aged wine sits on the,table." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage3Dialogue2FaceNone" Value="It’s a small sample of the,refreshments available on the,cruise." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage3Dialogue3FaceNone" Value="A very good taste of the luxury,this ship offers." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage1Dialogue1FaceNone" Value="It’s a standing buffet，so,there aren’t any chairs." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage1Dialogue2FaceNone" Value="I’ll get tired if I stand the whole,time，but I don’t care since I,get to eat delicious food." Face="None" Mono="False" />
+  <!-- 立食パーティーなのでテーブルに椅子は用意されていない -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage3Dialogue1FaceNone" Value="It’s a standing party，so,there aren’t any chairs." Face="None" Mono="False" />
+  <!-- ずっと立っていたら疲れるが美味しい料理を食べていると気にならないのだろう -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage3Dialogue2FaceNone" Value="I’ll get tired if I stand the whole,time，but I don’t care since I,get to eat delicious food." Face="None" Mono="False" />
+  <!-- 並んでいるのがサンプルでなければよかったのだが -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage3Dialogue3FaceNone" Value="Or I would，if this were’t a,sample cruise." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage1Dialogue1FaceNone" Value="A savory smell is wafting from,the turkey on the the plate." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage1Dialogue2FaceNone" Value="It’s making my mouth water." Face="None" Mono="False" />
+  <!-- 皿にとられた七面鳥から香ばしい香りが漂っている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage3Dialogue1FaceNone" Value="A savory smell is wafting from,the turkey on the the plate." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage3Dialogue2FaceNone" Value="It’s a small sample of the,refreshments available on the,cruise." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage3Dialogue3FaceNone" Value="A very good taste of the luxury,this ship offers." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage1Dialogue1FaceNone" Value="Food is laid out for guests,to serve themselves." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage1Dialogue2FaceNone" Value="What should I eat?,There are so many options...." Face="None" Mono="False" />
+  <!-- ご自由にお取りくださいとばかりに料理が盛られている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage3Dialogue1FaceNone" Value="Food is laid out for guests,to serve themselves." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage3Dialogue2FaceNone" Value="It’s a small sample of the,refreshments available on the,cruise." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage3Dialogue3FaceNone" Value="A very good taste of the luxury,this ship offers." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage1Dialogue1FaceNone" Value="The table is full of high-class,food that normal people could,only dream of eating." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage1Dialogue2FaceNone" Value="But since I have the chance，,I’ll eat as much as I can!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage1Dialogue3FaceNone" Value="....If I look closely，I can see,a jack in port on the table." Face="None" Mono="False" />
+  <!-- 普通に生きていたら絶対に食べられないような高級料理が並んでいる -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue1FaceNone" Value="There are some fine dishes,here that you would never be,able to eat normally." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue2FaceNone" Value="It’s a small sample of the,refreshments available on the,cruise." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue3FaceNone" Value="A very good taste of the luxury,this ship offers." Face="None" Mono="False" />
+  <!-- ････よくみるとテーブルにプラグイン端子が見える -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue4FaceNone" Value="....If I look closely，I can see,a jack in port on the table." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage1Dialogue1QuestionFaceShanghai" Value="Are you ready?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.SeirenShip1fPartyNetBattleMachineStage1Dialogue1Options" Value="Yes,No" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage3Dialogue1FaceShanghai" Value="Then hurry up and get ready." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue1FaceSanaeReporter" Value="Ladies and gentlemen!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue2FaceSanaeReporter" Value="It’s the moment you’ve,all been waiting for!,The party’s main event!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue3FaceSanaeReporter" Value="The Exhibition NetBattle!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue4FaceSanaeReporter" Value="These two are the champion,NetBattlers from tournaments,held in the East and West!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue5FaceSanaeReporter" Value="And these two will clash,right here on this very ship!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage7Dialogue1FaceNone" Value="Woooooah!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue1FaceSanaeReporter" Value="In the red corner，,the eastern NetBattler!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue2FaceSanaeReporter" Value="Winner of the Japanese,N1 League NetBattling,tournament...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue3FaceSanaeReporter" Value="The golden temptress!,Alice Shinki and her Navi，,Shanghai!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue4FaceAlice" Value="Do you really have to,keep calling me that...?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue1FaceSanaeReporter" Value="And in the blue corner，,the western NetBattler!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue2FaceSanaeReporter" Value="Winner of the Insector,Kingdom’s Web Tournament...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue3FaceSanaeReporter" Value="The shooting star that lights,up the night! Wriggle Nightbug,and his Navi，BeetleMan!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue1FaceWriggleHat" Value="You’re that girl from earlier...." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue2FaceAlice" Value="Y-You were a NetBattler!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue3FaceWriggleHat" Value="It seems our destinies are,somehow intertwined." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue4FaceWriggleHat" Value="Pleased to meet you.,Let’s have a good match." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue5FaceAlice" Value="N-Nice to meet you too!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage15Dialogue1FaceSanaeReporter" Value="And now，please jack in!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue1FaceShanghai" Value="So you’re my opponent?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue2FaceBeetleMan" Value="My name is BeetleMan!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue3FaceBeetleMan" Value="Shanghai，the NetNavi,hailing from the East!,You are a worthy adversary!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue4FaceShanghai" Value="Let’s give the audience,a real show，alright?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue5FaceBeetleMan" Value="Fufu!,What a funny thing to say!,Well then，I must oblige!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue6FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue7FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue8FaceWriggleHat" Value="Let’s show them our power，,BeetleMan!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue9FaceBeetleMan" Value="Have at you!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue1FaceSanaeReporter" Value="We have our winners!,Wriggle and BeetleMan!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue2FaceShanghai" Value="Kh.... Not half bad." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue3FaceBeetleMan" Value="You too are quite skillful，,Shanghai." Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue1FaceSanaeReporter" Value="We have our winners!,Alice and Shanghai!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue2FaceShanghai" Value="Yeeeeeaaaaah!,Western Navis ain’t,got nothin’ on us!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue3FaceBeetleMan" Value="It has been quite some,time since I last lost....,That was a good match." Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage23Dialogue1FaceWriggleHat" Value="That was a fun match!,Thanks!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage23Dialogue2FaceAlice" Value="Oh! Of course!,Thank you too!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage25Dialogue1FaceSanaeReporter" Value="What great sportsmanship!,It might even be blooming,into a passionate friendship!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage25Dialogue2FaceNone" Value="Woooooah!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage27Dialogue1FaceNone" Value="Meanwhile...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale1Stage1Dialogue1FaceOrangeHairMaleWesterner" Value="Man，I really stretched to,pay for my ticket，but this,is the best!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale1Stage1Dialogue1FaceGreenHairFemalePinkEyes" Value="This ship is famous for inviting,prominent NetBattlers for an,Exhibition NetBattle." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale1Stage3Dialogue1FaceGreenHairFemalePinkEyes" Value="If it isn’t the young lady,from earlier! That was an,exceptional NetBattle!" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale2Stage1Dialogue1FaceWhiteHairMaleButler" Value="Hm....,You’re young，but I sense,that you’re quite talented." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale2Stage1Dialogue1FaceWhiteHairFemaleRichLady" Value="My husband was once a,masterful NetBattler." Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale2Stage3Dialogue1FaceWhiteHairFemaleRichLady" Value="My husband was once a,masterful NetBattler." Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale3Stage1Dialogue1FaceMaleOld" Value="My goodness!,I sure wish I could eat food,like this whenever I want." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale3Stage3Dialogue1FaceMaleOld" Value="My goodness!,I sure wish I could eat food,like this whenever I want." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale3Stage5Dialogue1FaceMaleOld" Value="My goodness!,I sure wish I could eat food,like this whenever I want." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale3Stage1Dialogue1FaceFemaleAdult" Value="I won my ticket in a lottery，,but it looks like that’s going to,be the best part of the trip." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale3Stage3Dialogue1FaceFemaleAdult" Value="I won my ticket in a lottery，,but it looks like that’s going to,be the best part of the trip." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale3Stage5Dialogue1FaceFemaleAdult" Value="I won my ticket in a lottery，,but it looks like that’s going to,be the best part of the trip." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale4Stage1Dialogue1FaceMaleChild" Value="When it comes to NetBattling，,I think I’m on the right track!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale4Stage1Dialogue1FaceOrangeHairFemaleChild" Value="Whether you CAN win and,whether you DO win are two,different things." Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale5Stage1Dialogue1FaceMaleGlassesStudent" Value="We’re on this boat for a school,trip to Engelles，but don’t we,seem out of place....?" Face="MaleGlassesStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale5Stage1Dialogue1FaceBlackHairFemaleStudent" Value="I might not get to eat food like,this ever again，so I’m going,to eat enough for a lifetime!" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale5Stage3Dialogue1FaceBlackHairFemaleStudent" Value="I might not get to eat food like,this ever again，so I’m going,to eat enough for a lifetime!" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale5Stage5Dialogue1FaceBlackHairFemaleStudent" Value="I might not get to eat food like,this ever again，so I’m going,to eat enough for a lifetime!" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale6Stage1Dialogue1FaceMaleElderly" Value="I didn’t get on this boat for,parties. I’m actually here to,see Sanae，the announcer." Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyWriggle2Stage1Dialogue1FaceWriggleHat" Value="Alice! Leave this area to me!,You go to the bridge!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue1FaceSanaeReporter" Value="Alice! We meet again!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue2FaceSanaeReporter" Value="I’m here for work as the,announcer! Give it your all,in the Exhibition NetBattle!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue3FaceSanaeReporter" Value="Oh，right!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue4FaceSanaeReporter" Value="Whenever you’re ready，,please wait in front of the,NetBattle Machine." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage3Dialogue1FaceSanaeReporter" Value="Feast your eyes on this,magnificent cuisine!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage3Dialogue2FaceSanaeReporter" Value="....Oh，right!,I don’t have any interviews,scheduled for today!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage3Dialogue3FaceSanaeReporter" Value="Fufufufu.... If all goes well，,I’ll make sure to feast on,these splendid dishes!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage5Dialogue1FaceSanaeReporter" Value="I wonder what could have,caused that turbulence." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage5Dialogue2FaceSanaeReporter" Value="Nobody’s panicking，so,it probably isn’t some kind,of incident...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue1FaceAlice" Value="I’m so glad that I get to eat,so much delicious food〜!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue2FaceShanghai" Value="Wanna go back to the room?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue3FaceAlice" Value="I think I’ll relax here a little,bit longer before I go back,to the room." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue4FaceShanghai" Value="Well then，I’ll go ahead and,go back to the room." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue5FaceAlice" Value="....How?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue6FaceShanghai" Value="There are communication,pathways in the walls for,us NetNavis to use." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue7FaceShanghai" Value="They make it a piece of cake,to go wherever we want. " Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue8FaceAlice" Value="Oh，really?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue9FaceShanghai" Value="So.... See ya〜!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue10FaceShanghai" Value="(Now then，let’s see how, much we hauled in....!)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage3Dialogue1FaceAlice" Value="Ah! Hey!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage3Dialogue2FaceAlice" Value="....Jeez.,Can’t she just take it easy,every once in a while....?" Face="Alice" Mono="False" />
+  <!-- さすが豪華客船････サンプルも高級品か -->
+  <Dialogue Key="Map.SeirenShip1fPartyAfterChapter7Mob1Stage1Dialogue1FaceMaleOld" Value="So this is a luxury liner...." Face="MaleOld" Mono="False" />
+  <!-- ナビたちはこの電脳の中で料理が試食できるのよね羨ましい････ -->
+  <Dialogue Key="Map.SeirenShip1fPartyAfterChapter7Mob2Stage1Dialogue1FaceFemaleAdult" Value="They make food for Navis in,this machine....,I wonder how it tastes?" Face="FemaleAdult" Mono="False" />
+</data>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.LibraryName" Value="Library Database Comp" />
+  <Dialogue Key="Map.LibrarySprite1Stage1Dialogue1FaceSprite" Value="MANGA BOOK LENDING IS,PROHIBITED!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite2Stage1Dialogue1FaceSprite" Value="ALL VOLUMES OF ”A MISFIT,STUDENT (ME) IS POPULAR,ONLINE” ARE CURRENTLY" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite2Stage1Dialogue2FaceSprite" Value="RENTED OUT!,WHAT A GREAT TITLE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite3Stage1Dialogue1FaceSprite" Value="A NEW BOOK CALLED,”SAMURAI SLAYER” IS,NOW AVAILABLE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite4Stage1Dialogue1FaceSprite" Value="”FORBIDDEN SCROLLERY ”,HAS BEEN READ A LOT,LATELY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage1Dialogue1FaceNone" Value="Mukyu!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage1Dialogue2FaceShanghai" Value="Huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue1FacePatchouli" Value="Mugya!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue2FaceShanghai" Value="Hey!,Watch where you’re going!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue3FacePatchouli" Value="Mukyu! Mukyu!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue4FaceShanghai" Value="Uh，what’s this small creature?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue5FacePatchouli" Value="Awawawa!,R-Reinforcements!?" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue6FaceKumako" Value="Wait，Patchouli!,She’s on your side!" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue7FaceShanghai" Value="Sorry for being rude.,Do I really look like a,bad guy to you?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue8FaceAlice" Value="You sure sounded like one,earlier...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue9FacePatchouli" Value="Help!,Viruses are attacking me!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue10FaceShanghai" Value="Alright，I’ll clean ’em all up!,Let’s go，Alice!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue11FaceAlice" Value="I guess we have no choice....,Battle Routine! Set!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue12FacePatchouli" Value="Mukyu!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue13FaceShanghai" Value="Hey! That’s my line!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue1FaceShanghai" Value="Too easy!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue2FacePatchouli" Value="Mukyu!,You’re strong〜!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue3FaceShanghai" Value="Jeez，you’re a weak lil’ bean,sprout of a Navi，huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue4FacePatchouli" Value="Combat isn’t my forte! Instead，,I’m good at data processing!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue5FaceShanghai" Value="Data processing?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue6FacePatchouli" Value="I processed stock prices and,lots of other data with Kumami!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue7FaceShanghai" Value=".... (grin)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue8FaceAlice" Value="Don’t even think about it，,Shanghai. Using her like,that would be...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue9FaceAlice" Value="....Anyways! Patchouli?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue10FaceAlice" Value="Kumami needs you，but...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue11FacePatchouli" Value="Really?,Then please send me,to her right away!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue12FaceShanghai" Value="Um....,Email’s fine，right?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue13FacePatchouli" Value="Mukyu!?" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue1FacePatchouli" Value="Mukya!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue2FaceShanghai" Value="Nnnngghh!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue3FacePatchouli" Value="Mukyu!,Wait! My hand’s stuck!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue4FaceShanghai" Value="Quit whining!,If you’ve got complaints，,save ’em for Kumami!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue5FaceShanghai" Value="Send!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue1FaceShanghai" Value="Huff.... Huff....,All done，Alice...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue2FaceAlice" Value="So we really could send,her by email...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue3FaceShanghai" Value="She’s only 6.9MB large. Does,she even qualify as a Navi?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue4FaceAlice" Value="And you’re how many times,larger?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue5FaceShanghai" Value="Hey，isn’t it rude to ask a lady,how much she weighs?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue6FaceAlice" Value="(Nobody was talking, about weight....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue7FaceShanghai" Value="Now that we’re done with that，,let’s go home." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue1FaceHenchie" Value="Jeez....,As if I’d ever do what a filthy,thief tells me to do...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue2FaceHenchie" Value="What’s a ”Key.bat” even,used for anyways....?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue3FaceHenchie" Value="Huh!?,Who’re you!?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue4FaceShanghai" Value="What’s that you have there?,A ”Key.bat”?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue5FaceShanghai" Value="If you value your life，,you better hand it over!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue6FaceHenchie" Value="I’ve had enough of this!,I won’t take this lying down!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue7FaceHenchie" Value="Take this!,Dance，my viruses!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue1FaceHenchie" Value="Huh!?,Y-You transformed!?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue2FaceAlice" Value="Come to think of it，he did,say we only had to be close,to the key...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue3FaceShanghai" Value="Hehehehehe....,Now what I should I use,this new power on....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue4FaceHenchie" Value="L-Later!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue5FaceShanghai" Value="Tch!,He ran away." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue6FaceAlice" Value="It’s okay!,We finished what we came,here to do." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue7FaceAlice" Value="Dr. Morichika did us a favor，,so let’s go thank him." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue8FaceShanghai" Value="Sounds good!,Let’s go back to the lab!" Face="Shanghai" Mono="False" />
+</data>

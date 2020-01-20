@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ウラインターネット２ -->
+  <Text Key="Map.UraNet2Name" Value="Undernet 2" />
+  <Text Key="Map.UraNet2RandomBattle1Enemy1" Value="ThugNavi" />
+  <Text Key="Map.UraNet2RandomBattle1Enemy2" Value="ThugNavi" />
+  <Text Key="Map.UraNet2RandomBattle2Enemy1" Value="ThugNavi" />
+  <!-- ひゃぁぁぁぁあああ！！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage1Dialogue1FaceNone" Value="HYAAAAAAAAAH!!" Face="None" Mono="False" />
+  <!-- あ？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue1FaceShanghai" Value="Huh?" Face="Shanghai" Mono="False" />
+  <!-- ひぃぃ！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue2FaceHenchie" Value="Yikes!" Face="Henchie" Mono="False" />
+  <!-- あ　このナビって昨日Ｋｅｙ．ｂａｔを持ってたナビ！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue3FaceAlice" Value="Hey，it’s the Navi from,yesterday who had the,Key.bat!" Face="Alice" Mono="False" />
+  <!-- お　お助けー！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue4FaceHenchie" Value="H-Help!" Face="Henchie" Mono="False" />
+  <!-- なんだか様子がおかしいわね？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue5FaceShanghai" Value="Well now，isn’t this a nice,turn of events?" Face="Shanghai" Mono="False" />
+  <!-- ああ！もう追いつかれた！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue6FaceHenchie" Value="Aaaah! They’ve already,caught up to me!" Face="Henchie" Mono="False" />
+  <!-- なぁんだ　ただのウィルスじゃない -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue7FaceShanghai" Value="Huh? Seriously?,They’re just viruses." Face="Shanghai" Mono="False" />
+  <!-- こんくらいあたしがぶっ飛ばしてやるからそこどきなさいよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue8FaceShanghai" Value="I’ll take it from here，,so just step aside." Face="Shanghai" Mono="False" />
+  <!-- え　へ？あ　はい！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage3Dialogue9FaceHenchie" Value="H-Huh?,Oh! Sure!" Face="Henchie" Mono="False" />
+  <!-- へっ！おとといきやがれってね！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue1FaceShanghai" Value="Heh! They didn’t even stand,a chance!" Face="Shanghai" Mono="False" />
+  <!-- ポカーン････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue2FaceHenchie" Value="Woah...." Face="Henchie" Mono="False" />
+  <!-- さてと････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue3FaceShanghai" Value="Hey...." Face="Shanghai" Mono="False" />
+  <!-- ひぃっ！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue4FaceHenchie" Value="Eeek!" Face="Henchie" Mono="False" />
+  <!-- さっさとそこをどいて欲しいわね････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue5FaceShanghai" Value="Could you just leave,already....?" Face="Shanghai" Mono="False" />
+  <!-- え　オレをデリートしたりとかしないんですか？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue6FaceHenchie" Value="Huh?,You’re not gonna delete me?" Face="Henchie" Mono="False" />
+  <!-- してほしい････？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue7FaceShanghai" Value="Should I....?" Face="Shanghai" Mono="False" />
+  <!-- あたしはアンタみたいなチンピラをデリートする趣味はないわ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue8FaceShanghai" Value="I’m above deleting punks,like you." Face="Shanghai" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue9FaceHenchie" Value="...." Face="Henchie" Mono="False" />
+  <!-- ？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue10FaceShanghai" Value="?" Face="Shanghai" Mono="False" />
+  <!-- うぉぉぉおおおお！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue11FaceHenchie" Value="Wooooaaaaah!" Face="Henchie" Mono="False" />
+  <!-- わっ　びっくりした！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue12FaceAlice" Value="Wah! You scared me!" Face="Alice" Mono="False" />
+  <!-- オレは今モーレツに感動しています！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue13FaceHenchie" Value="Even though we fought before，,you overlooked it and saved,me out of the kindness of" Face="Henchie" Mono="False" />
+  <!-- かつて相対したにもかかわらず寛大な心を持って助けしかも見逃してくれるとは！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue14FaceHenchie" Value="your heart!" Face="Henchie" Mono="False" />
+  <!-- あなたみたいな聖人のようなナビは見たことがありません！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue15FaceHenchie" Value="I’ve never seen a Navi as,saintly as you!" Face="Henchie" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue16FaceShanghai" Value="Um...." Face="Shanghai" Mono="False" />
+  <!-- これまでこのウラに生きてきて汚れ仕事を････ブツブツ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue17FaceHenchie" Value="I’ve been doing dirty work in,the Undernet just to get by....,Grumble grumble...." Face="Henchie" Mono="False" />
+  <!-- 何を言ってるのかしら････？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue18FaceAlice" Value="What’s he saying?" Face="Alice" Mono="False" />
+  <!-- ああ　気にしちゃダメよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue19FaceShanghai" Value="Oh，don’t worry about it." Face="Shanghai" Mono="False" />
+  <!-- ここまでのは初めてだけどあたしのしもべになるような連中はいっつもこんな感じよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue20FaceShanghai" Value="I usually have to whip my,servants into shape，so this,is a first for me." Face="Shanghai" Mono="False" />
+  <!-- いやはや　オレはあなた様にお仕えしたくあります！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue21FaceHenchie" Value="No no no!,No need to whip me!,I already want to serve you!" Face="Henchie" Mono="False" />
+  <!-- 助けてくれたお礼になんでも言ってください！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue22FaceHenchie" Value="As thanks for saving me，,I’ll do anything!,Just say the word!" Face="Henchie" Mono="False" />
+  <!-- なんでも　ねぇ････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue23FaceShanghai" Value="Anything，huh....?" Face="Shanghai" Mono="False" />
+  <!-- じゃああなたウィルスを飼う技術について何か知らないかしら？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue24FaceShanghai" Value="Say，do you know anything,about how to tame viruses?" Face="Shanghai" Mono="False" />
+  <!-- ウィルスを飼う････？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue25FaceHenchie" Value="How to tame viruses....?" Face="Henchie" Mono="False" />
+  <!-- ああ！ウィルスボールのことですね！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue26FaceHenchie" Value="Oh! Like a Virus Ball!" Face="Henchie" Mono="False" />
+  <!-- ウィルスボール？それ手に入れればウィルスが飼えるのかしら？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue27FaceShanghai" Value="A Virus Ball? If I get one，,can I use it to tame viruses?" Face="Shanghai" Mono="False" />
+  <!-- はい　それはもう！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue28FaceHenchie" Value="Yep! You sure can!" Face="Henchie" Mono="False" />
+  <!-- そのようなものでよろしければこの先のニホンウラスクエアにオレのがありますんで -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue29FaceHenchie" Value="If you don’t mind using one of,mine，it’s right up ahead in the,Japan UnderSquare." Face="Henchie" Mono="False" />
+  <!-- お先に向かって準備をしておきますんでスクエアでお待ちしております！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue30FaceHenchie" Value="I’ll go get one for you and,meet you in the Square!" Face="Henchie" Mono="False" />
+  <!-- ちょっと待って名前くらい教えなさいよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue31FaceShanghai" Value="Hold on.,Tell me your name." Face="Shanghai" Mono="False" />
+  <!-- ああ　オレのことなんてお好きにお呼びください！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue32FaceHenchie" Value="Oh，just call me whatever,you like!" Face="Henchie" Mono="False" />
+  <!-- じゃあ・・・・あたしの部下になるから「ブッカー」でいいかしら -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue33FaceShanghai" Value="Well....,Since you’ll be my henchman，,how about ”Henchie”?" Face="Shanghai" Mono="False" />
+  <!-- ブッカーですか！素晴らしい名前をありがとうございます！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue34FaceHenchie" Value="Henchie!?,What a magnificent name!,Thank you!" Face="Henchie" Mono="False" />
+  <!-- では　お先に失礼します！ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage5Dialogue35FaceHenchie" Value="But now，I must go!,I’ll await your arrival with,baited breath!" Face="Henchie" Mono="False" />
+  <!-- 信用して大丈夫なの？ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue1FaceAlice" Value="Is it okay to trust him?" Face="Alice" Mono="False" />
+  <!-- 歯向かったらボコボコにしてやればいいだけよ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue2FaceShanghai" Value="If he betrays me，I’ll just beat,him within an inch of his life." Face="Shanghai" Mono="False" />
+  <!-- さ　行きましょう -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue3FaceShanghai" Value="Well，let’s go." Face="Shanghai" Mono="False" />
+  <!-- あ　うん････ -->
+  <Dialogue Key="Map.UraNet2Chapter3EventsStage7Dialogue4FaceAlice" Value="Ah，right...." Face="Alice" Mono="False" />
+  <!-- ウラスクエアに行きたいのか？ -->
+  <Dialogue Key="Map.UraNet2Chapter3ManStage1Dialogue1FaceNaviPurplePunk" Value="You wanna get to the,UnderSquare?" Face="NaviPurplePunk" Mono="False" />
+  <!-- だったらこのエリアの先にあるがたどり着けるかな？ククク････ -->
+  <Dialogue Key="Map.UraNet2Chapter3ManStage1Dialogue2FaceNaviPurplePunk" Value="It’s in the back of this area，,but can you make it all the,way there? Kukuku...." Face="NaviPurplePunk" Mono="False" />
+  <!-- ウラインターネットって暗い雰囲気だけど慣れると過ごしやすいんだぜ -->
+  <Dialogue Key="Map.UraNet2Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="The Undernet has a dark,atmosphere，but you get,used to it over time." Face="NaviPurplePunk" Mono="False" />
+  <!-- おお　シャンハイ様お待ちしていました -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue1FaceHenchie" Value="Miss Shangai，you came!" Face="Henchie" Mono="False" />
+  <!-- こんなところまで呼び出すってよっぽどの要件なのよね？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue2FaceShanghai" Value="What’s so secret that we had to,meet here，huh?" Face="Shanghai" Mono="False" />
+  <!-- この間破壊したゲートの残骸････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue3FaceHenchie" Value="About the gate that we,destroyed...." Face="Henchie" Mono="False" />
+  <!-- 私はあれを知っているかもしれません -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue4FaceHenchie" Value="I might have seen something,like it before." Face="Henchie" Mono="False" />
+  <!-- ････なんですって？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue5FaceShanghai" Value="....What?" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ様と私が初めて出会った時のことを覚えてますか？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue6FaceHenchie" Value="Remember when I first met you，,Miss Shanghai?" Face="Henchie" Mono="False" />
+  <!-- ウィルスに追われてたっけ？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue7FaceShanghai" Value="When you got chased by,viruses?" Face="Shanghai" Mono="False" />
+  <!-- それよりもっと前です「Ｋｅｙ．ｂａｔ」を求めて戦った時のことです -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue8FaceHenchie" Value="Before that. We fought over,”Key.bat”." Face="Henchie" Mono="False" />
+  <!-- そういえばそんなこともあったわね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue9FaceShanghai" Value="Oh，that was you?" Face="Shanghai" Mono="False" />
+  <!-- 思えば　なんであんたが「Ｋｅｙ．ｂａｔ」を探しているか結局聞きそびれてたわ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue10FaceShanghai" Value="But what’s this got to do with,”Key.bat”?" Face="Shanghai" Mono="False" />
+  <!-- あの時　「Ｋｅｙ．ｂａｔ」を探していたのは････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue11FaceHenchie" Value="Back then，the reason I was,looking for ”Key.bat”...." Face="Henchie" Mono="False" />
+  <!-- ボーダーコンツェルンからの依頼を受けていたからなのです -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue12FaceHenchie" Value="Was because I received a,request from Border Concern." Face="Henchie" Mono="False" />
+  <!-- ボーダーコンツェルンって中央街にある大企業の？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue13FaceAlice" Value="The company with the big office,in Central City?" Face="Alice" Mono="False" />
+  <!-- 何でそんな大企業があんたにわざわざ依頼なんかするのよ？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue14FaceShanghai" Value="Why would such a large,company go to you with a,request?" Face="Shanghai" Mono="False" />
+  <!-- それが　どうも表ザタにはしたくない要件だったようで -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue15FaceHenchie" Value="It was an under-the-table deal,that they didn’t want anybody to,know about." Face="Henchie" Mono="False" />
+  <!-- 「Ｋｅｙ．ｂａｔ」を渡す際にあのゲートに似たデータを････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue16FaceHenchie" Value="But ”Key.bat”.... When I went to,turn it in，I saw a gate a lot like,the one we destroyed...." Face="Henchie" Mono="False" />
+  <!-- ボーダーコンツェルン本社のサーバーの中で見たんです -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue17FaceHenchie" Value="....A secret project in the Border,Concern servers." Face="Henchie" Mono="False" />
+  <!-- ････まあそれを見たせいで消されそうになったんですけどね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue18FaceHenchie" Value="Turns out the only reason I was,allowed to see it was because,they never meant to let me go." Face="Henchie" Mono="False" />
+  <!-- それでこのエリアでウィルスに追われてたのね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue19FaceShanghai" Value="So they set viruses on you...." Face="Shanghai" Mono="False" />
+  <!-- それにしてもボーダーコンツェルンが一気にクサくなってきたわね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue20FaceShanghai" Value="Border Concern....,Something smells fishy...." Face="Shanghai" Mono="False" />
+  <!-- くんくん････何も匂いはしないけど？ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue21FaceAlice" Value="I don’t know.... That’s awfully,weak evidence to break into a,company’s servers...." Face="Alice" Mono="False" />
+  <!-- あのね　怪しくなってきたっていう意味で言ったのよ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue22FaceShanghai" Value="That’s why we’re only,investigating." Face="Shanghai" Mono="False" />
+  <!-- 怪しいのなら調べに行きましょう！ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue23FaceAlice" Value="If you’re so sure，let’s go check,it out!" Face="Alice" Mono="False" />
+  <!-- あら？　アリスからそう言うのは珍しいわね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue24FaceShanghai" Value="Oh? Usually you would be a bit,more hesitant." Face="Shanghai" Mono="False" />
+  <!-- この間の事件でたくさんのネットナビが被害を受けたのを見たし････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue25FaceAlice" Value="During the incident，I saw a lot,of Navis suffering...." Face="Alice" Mono="False" />
+  <!-- これ以上　誰かが傷つくのは耐えられないから････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue26FaceAlice" Value="If there’s even a chance we find,out who was responsible，we,should chase it down!" Face="Alice" Mono="False" />
+  <!-- アリス････ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue27FaceShanghai" Value="Alice...." Face="Shanghai" Mono="False" />
+  <!-- わかったわ　調べに行きましょう -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue28FaceShanghai" Value="I understand，let’s go check it,out." Face="Shanghai" Mono="False" />
+  <!-- ネットエージェントに言うのはやめたほうがいいかもね -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue29FaceShanghai" Value="We may not want to talk to the,NetAgents，though." Face="Shanghai" Mono="False" />
+  <!-- ボーダーの連中に警戒されるかもしれないし -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue30FaceShanghai" Value="It might tip off Border Concern." Face="Shanghai" Mono="False" />
+  <!-- でも　どうやって調べに行こうかしら -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue31FaceAlice" Value="Where do we start，then?" Face="Alice" Mono="False" />
+  <!-- 中央街の電話ボックスからボーダーコンツェルンの社内ネットワークに行けたはず -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue32FaceShanghai" Value="The phone in front of their office,shoud connect to their company,intranet." Face="Shanghai" Mono="False" />
+  <!-- あたしがうまくやるからとりあえずそこに向かいましょう -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue33FaceShanghai" Value="That will at least get us started，,so let’s head over there." Face="Shanghai" Mono="False" />
+  <!-- わかったわ -->
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue34FaceAlice" Value="Understood." Face="Alice" Mono="False" />
+  <!-- シャンハイ様お気をつけくださいね -->
+  <Dialogue Key="Map.UraNet27BookerStage3Dialogue1FaceHenchie" Value="Miss Shanghai，please take,care." Face="Henchie" Mono="False" />
+</data>

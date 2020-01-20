@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 永遠町　２丁目 -->
+  <Text Key="Map.EienTown1Name" Value="Eien Town Block 2" />
+  <!-- だれがよんだか　クイズマスター〜だれがよんだか　クイズマスター〜 -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue1FaceScientist" Value="Who called? Quiz Master!,Who called? Quiz Master!" Face="Scientist" Mono="False" />
+  <!-- いってみよ〜　やってみよ〜 -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue2FaceScientist" Value="Give it a try!,Give it a try!" Face="Scientist" Mono="False" />
+  <!-- さ〜あ　さあさあ（チャッチャー）クイズアワ〜〜！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue3FaceScientist" Value="Come one! Come all!,(ChaCha!) Quiz Time!" Face="Scientist" Mono="False" />
+  <!-- 私の名前はクイズマスター！人にクイズを出すのが私の使命なのだ！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue4FaceScientist" Value="I’m the Quiz Master!,It’s my mission to quiz,the masses!" Face="Scientist" Mono="False" />
+  <!-- さあさあ　そんな私とクイズ勝負！いってみよー！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue5FaceScientist" Value="So come on down!,Try my quiz game!" Face="Scientist" Mono="False" />
+  <!-- 全問正解すれば豪華賞品プレゼント！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue6FaceScientist" Value="Get every question right and,you’ll win a fabulous prize!" Face="Scientist" Mono="False" />
+  <!-- というわけで！！レディー････！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue7QuestionFaceScientist" Value="Alrighty then!!,Ready....!?" Face="Scientist" Mono="False" />
+  <!-- ゴー！ゴー　じゃない -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue7Options" Value="Go!,No!" />
+  <!-- ウッ････！クイズニウムが不足していく････ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue8FaceScientist" Value="Urk....!,Looks like Quiznium is,in short supply...." Face="Scientist" Mono="False" />
+  <!-- 第１問！！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue9FaceScientist" Value="Question 1!!" Face="Scientist" Mono="False" />
+  <!-- レミリアの部屋の壁に飾ってある賞状はいったい何枚？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue10FaceScientist" Value="How many awards are,hanging on the walls of,Remilia’s mansion?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue11QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- ２枚３枚４枚 -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue11Options" Value="2,3,4" />
+  <!-- 正解！では第２問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue12FaceScientist" Value="Correct!,Now，Question 2!" Face="Scientist" Mono="False" />
+  <!-- プログラムアドバンスのメガハルバードとギガハルバード２つの威力の差はいくつ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue13FaceScientist" Value="What is the difference in power,between MegaHalberd,and GigaHalberd?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue14QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- １００１５０２００ -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue14Options" Value="100,150,200" />
+  <!-- 正解！では第３問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue15FaceScientist" Value="Correct!,Now，Question 3!" Face="Scientist" Mono="False" />
+  <!-- メタルナパームの炎だけを全て敵に当てるといったい何ダメージ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue16FaceScientist" Value="How much damage do all,of the MetalNapalm fires do,when added together?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue17QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- ２５０４５０８００ -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue17Options" Value="250,450,800" />
+  <!-- 正解！では第４問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue18FaceScientist" Value="Correct!,Now，Question 4!" Face="Scientist" Mono="False" />
+  <!-- ネットエージェントが使用する機動兵器の名前は次のうちどれ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue19FaceScientist" Value="What is the name of the,NetAgents’ mobile weapon?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue20QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- ＢＭー２ＧワンジーＧ７カーティス２Ｍ１４ユーリー -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue20Options" Value="BM-2G ONE-G,G7-Curtis,2M14-Yuri" />
+  <!-- 正解！では第５問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue21FaceScientist" Value="Correct!,Now，Question 5!" Face="Scientist" Mono="False" />
+  <!-- ボーダーコンツェルン本社ビル正面口の入り口はいくつある？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue22FaceScientist" Value="How many front doors does,the Border Concern building,have?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue23QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- １つ２つ３つ -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue23Options" Value="1,2,3" />
+  <!-- 正解！では第６問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue24FaceScientist" Value="Correct!,Now，Question 6!" Face="Scientist" Mono="False" />
+  <!-- エイエンスクエアのお得情報掲示板の管理人は次のうちどれ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue25FaceScientist" Value="Who is the admin of the,Eien Square Chat Board?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue26QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- まこまこウサ帝ムラヒト -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue26Options" Value="MakoMako,LordUsa,Billager" />
+  <!-- 正解！では第７問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue27FaceScientist" Value="Correct!,Now，Question 7!" Face="Scientist" Mono="False" />
+  <!-- チップショップ「ヴワル」のナビパチュリーの容量は次のうちどれ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue28FaceScientist" Value="How large is the ”Voile”,chip shop’s Navi，Patchouli?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue29QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- ６．９ＭＢ６．９ＫＢ６．９ＧＢ -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue29Options" Value="6.9MB,6.9KB,6.9GB" />
+  <!-- 正解！では第８問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue30FaceScientist" Value="Correct!,Now，Question 8!" Face="Scientist" Mono="False" />
+  <!-- 永遠高校の校章にあしらわれている植物は次のうちどれ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue31FaceScientist" Value="Which of the following is the,plant on the Eien High,emblem?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue32QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- 梅松竹 -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue32Options" Value="Plum Tree,Pine Tree,Bamboo Shoot" />
+  <!-- 正解！では第９問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue33FaceScientist" Value="Correct!,Now，Question 9!" Face="Scientist" Mono="False" />
+  <!-- Ｎ１リーグ予選の日に放映されていたアニメは次のうちどれ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue34FaceScientist" Value="Which anime aired right after,the N1 League Qualifiers?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue35QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- シューティングスタースターフォースウェーブヒーロー -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue35Options" Value="Shooting Star,Star Force,Wave Hero" />
+  <!-- 正解！では最後の第１０問！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue36FaceScientist" Value="Correct!,Finally，Question 10!" Face="Scientist" Mono="False" />
+  <!-- エイエンエリアの壁紙に描かれていないものは次のうちどれ？ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue37FaceScientist" Value="Which of these is not on the,Eien Area wallpaper?" Face="Scientist" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue38QuestionFaceScientist" Value="" Face="Scientist" Mono="False" />
+  <!-- 兎竹川 -->
+  <Text Key="Map.EienTown1QuizMasterStage1Dialogue38Options" Value="Rabbit,Bamboo,River" />
+  <!-- 全問せいか〜〜〜い！！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue39FaceScientist" Value="You got every question right!!" Face="Scientist" Mono="False" />
+  <!-- では賞品をどうぞ！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue40FaceScientist" Value="Here’s your prize!" Face="Scientist" Mono="False" />
+  <!-- 私はやられてしまったが私の上にはまだクイズキングがいるんだ････！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue41FaceScientist" Value="You may have beaten me，but,there’s still the Quiz King....!" Face="Scientist" Mono="False" />
+  <!-- 不正解！残念でしたね！ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage1Dialogue42FaceScientist" Value="I’m sorry!,That’s incorrect!" Face="Scientist" Mono="False" />
+  <!-- クイズニウムに満たされた････ -->
+  <Dialogue Key="Map.EienTown1QuizMasterStage3Dialogue1FaceScientist" Value="Looks like you were rich,in Quiznium...." Face="Scientist" Mono="False" />
+  <!-- 慧音先生にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Keine to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienTown1HakutakuManBattleStage1Dialogue1Options" Value="Yes,No" />
+  <!-- ハクタクマン！授業開始だ！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage1Dialogue2FaceMsKamishirasawa" Value="HakutakuMan!,Class is in session!" Face="MsKamishirasawa" Mono="False" />
+  <!-- おっまかせー！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage1Dialogue3FaceHakuTakuMan" Value="Leave it to me!" Face="HakuTakuMan" Mono="False" />
+  <!-- これにて授業終わり！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage3Dialogue1FaceMsKamishirasawa" Value="Class dismissed!" Face="MsKamishirasawa" Mono="False" />
+  <!-- ばたんきゅ〜 -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage5Dialogue1FaceHakuTakuMan" Value="Lights out〜!" Face="HakuTakuMan" Mono="False" />
+  <!-- うむむ････なかなかやる！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage5Dialogue2FaceMsKamishirasawa" Value="Hmm.... Not bad!" Face="MsKamishirasawa" Mono="False" />
+  <!-- ハクタクマン！お前の強さを教えてあげるんだ！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage6Dialogue1FaceMsKamishirasawa" Value="HakutakuMan!,Show them your true power!" Face="MsKamishirasawa" Mono="False" />
+  <!-- わっふー！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage6Dialogue2FaceHakuTakuMan" Value="Wahoo!" Face="HakuTakuMan" Mono="False" />
+  <!-- これにて授業終わり！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage8Dialogue1FaceMsKamishirasawa" Value="Class dismissed!" Face="MsKamishirasawa" Mono="False" />
+  <!-- ばたんきゅ〜 -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage10Dialogue1FaceHakuTakuMan" Value="Lights out〜!" Face="HakuTakuMan" Mono="False" />
+  <!-- うむむ････かなりやる！これは負けてられないな！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage10Dialogue2FaceMsKamishirasawa" Value="Hmm.... You’re doing well!,I’m sure you’ll ace your battles!" Face="MsKamishirasawa" Mono="False" />
+  <!-- 勝負はいつでもオッケーだ！ -->
+  <Dialogue Key="Map.EienTown1HakutakuManBattleStage11Dialogue1FaceMsKamishirasawa" Value="Anytime is fine for a battle!" Face="MsKamishirasawa" Mono="False" />
+  <!-- 永遠町といえばエージェントセンターと八意総合病院！ -->
+  <Dialogue Key="Map.EienTown1Chapter4Youth1Stage1Dialogue1FaceMaleAdult" Value="Eien Town has both the,Agent Center and the,Yagokoro Hospital!" Face="MaleAdult" Mono="False" />
+  <!-- どちらもこの先にある１丁目にあるんだよ -->
+  <Dialogue Key="Map.EienTown1Chapter4Youth1Stage1Dialogue2FaceMaleAdult" Value="Both are up ahead in Block 1." Face="MaleAdult" Mono="False" />
+  <!-- このウサ公像の前は待ち合わせのスポットなのよ -->
+  <Dialogue Key="Map.EienTown1Chapter4Woman2Stage1Dialogue1FaceFemaleAdult" Value="People often meet up in front,of this Lord Usa statue." Face="FemaleAdult" Mono="False" />
+  <!-- 私も中央街に一緒にいく友達とここで待ち合わせしてるの -->
+  <Dialogue Key="Map.EienTown1Chapter4Woman2Stage1Dialogue2FaceFemaleAdult" Value="I’m going to meet my friends,here so we can go to Central,City together." Face="FemaleAdult" Mono="False" />
+  <!-- 不死鳥連合のやつらに目をつけられるとしつこく追ってくるんだぜ -->
+  <Dialogue Key="Map.EienTown1Chapter4Student1Stage1Dialogue1FaceBrownHairMaleStudent" Value="Those Phoenix Alliance thugs,will hunt you down if they see,you looking at them funny." Face="BrownHairMaleStudent" Mono="False" />
+  <!-- 面倒が嫌いならかかわらないのが一番だぜ -->
+  <Dialogue Key="Map.EienTown1Chapter4Student1Stage1Dialogue2FaceBrownHairMaleStudent" Value="Just ignore them if you want,to stay out of trouble." Face="BrownHairMaleStudent" Mono="False" />
+  <!-- 上白沢先生は近所でも有名な熱血鬼教師なんですよ -->
+  <Dialogue Key="Map.EienTown1Chapter4Student2Stage1Dialogue1FaceMaleGlassesStudent" Value="Ms. Kamishirasawa is famous,around here for being a,hot-blooded slave driver." Face="MaleGlassesStudent" Mono="False" />
+  <!-- 先生得意の頭突きをくらえば不良でもノックアウトされるとか -->
+  <Dialogue Key="Map.EienTown1Chapter4Student2Stage1Dialogue2FaceMaleGlassesStudent" Value="Her signature headbutt will,knock out even the toughest,delinquents." Face="MaleGlassesStudent" Mono="False" />
+  <!-- 不死鳥連合のトップがいるけど永遠高校自体はそんなにガラの悪い学校じゃないのよ -->
+  <Dialogue Key="Map.EienTown1Chapter4Student3Stage1Dialogue1FaceBlackHairFemaleStudent" Value="Although the Phoenix Alliance,rules Eien High，the school,itself really isn’t that bad." Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- エージェントセンターはこの先の病院の隣だからな -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage1Dialogue1FaceMsKamishirasawa" Value="The Agent Center is up ahead，,right next to the hospital!" Face="MsKamishirasawa" Mono="False" />
+  <!-- 迷うんじゃないぞ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage1Dialogue2FaceMsKamishirasawa" Value="Don’t get lost!" Face="MsKamishirasawa" Mono="False" />
+  <!-- 車には気をつけて道路を渡るんだぞー！ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage3Dialogue1FaceMsKamishirasawa" Value="Watch for cars when you,cross the road!" Face="MsKamishirasawa" Mono="False" />
+  <!-- あれ？もしかしてネットバトルの申し込みかい？ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage3Dialogue2FaceMsKamishirasawa" Value="Hm?,Did you want to challenge,me to a NetBattle?" Face="MsKamishirasawa" Mono="False" />
+  <!-- 神社で事件があったみたいだな授業中で気づけなかったが････ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage5Dialogue1FaceMsKamishirasawa" Value="Looks like there was an,incident at the shrine.,I didn’t notice it during class...." Face="MsKamishirasawa" Mono="False" />
+  <!-- あれ？もしかしてネットバトルの申し込みかい？ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage5Dialogue2FaceMsKamishirasawa" Value="Hm?,Did you want to challenge,me to a NetBattle?" Face="MsKamishirasawa" Mono="False" />
+  <!-- 今日も特に問題はないな！ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage7Dialogue1FaceMsKamishirasawa" Value="Looks like today’s another,carefree day!" Face="MsKamishirasawa" Mono="False" />
+  <!-- あれ？もしかしてネットバトルの申し込みかい？ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage7Dialogue2FaceMsKamishirasawa" Value="Hm?,Did you want to challenge,me to a NetBattle?" Face="MsKamishirasawa" Mono="False" />
+  <!-- 大変な時こそネットバトルの腕を磨いて自衛に励むべきだ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4KeineStage9Dialogue1FaceMsKamishirasawa" Value="When times are tough，work on,your NetBattling skills and self,defence!" Face="MsKamishirasawa" Mono="False" />
+  <!-- ここが永遠町ね初めて来たわ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue1FaceAlice" Value="So this is Eien Town，huh?,It’s my first time here." Face="Alice" Mono="False" />
+  <!-- アリスもここは初めてなの？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue2FaceTenshi" Value="So it’s your first time here too?" Face="Tenshi" Mono="False" />
+  <!-- うん　永遠町は隣の学区だからね今まで来る用事もなかったから -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue3FaceAlice" Value="Yeah. I haven’t had a reason,to come here yet." Face="Alice" Mono="False" />
+  <!-- エージェントセンターに行かなきゃいけないんでしょう？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue4FaceShanghai" Value="You have to go to the,Agent Center，right?" Face="Shanghai" Mono="False" />
+  <!-- どこにあるかわかるの？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue5FaceShanghai" Value="Do you know where it is?" Face="Shanghai" Mono="False" />
+  <!-- あ････ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue6FaceTenshi" Value="Um...." Face="Tenshi" Mono="False" />
+  <!-- ごめん　わかんないのよ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue7FaceTenshi" Value="Sorry! I don’t know!" Face="Tenshi" Mono="False" />
+  <!-- ええー！？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue8FaceAlice" Value="Whaaaat!?" Face="Alice" Mono="False" />
+  <!-- シャンハイ　わからない？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue9FaceAlice" Value="Shanghai，do you know?" Face="Alice" Mono="False" />
+  <!-- あたしがわかるわけ無いでしょ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue10FaceShanghai" Value="I have no clue!" Face="Shanghai" Mono="False" />
+  <!-- そっかぁじゃあ誰かに道を聞かないといけないわね -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue11FaceAlice" Value="Really?,Well，I guess we have to ask,someone for directions." Face="Alice" Mono="False" />
+  <!-- ････ん？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue12FaceAlice" Value="....Hm?" Face="Alice" Mono="False" />
+  <!-- てめえ！この間のガキか！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage3Dialogue1FacePunk" Value="You!,You’re that kid from earlier!" Face="Punk" Mono="False" />
+  <!-- あっ！ゲームセンターの！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage3Dialogue2FaceAlice" Value="Ah!,You’re those guys from,the Game Center!" Face="Alice" Mono="False" />
+  <!-- てめえのせいでアニキはネットエージェントにパクられちまったんだぞ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage3Dialogue3FacePunk" Value="Thanks to you，the,NetAgents got our bro!" Face="Punk" Mono="False" />
+  <!-- なによ　またあたしにボコられに来たの？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage3Dialogue4FaceShanghai" Value="What do you want?,You guys come to get,beaten again?" Face="Shanghai" Mono="False" />
+  <!-- へへっ････そう何度も同じ失敗はしねえぜ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage3Dialogue5FacePunk" Value="Heheh....,This time’ll be different." Face="Punk" Mono="False" />
+  <!-- 番長！例のガキ　こいつですぜ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage3Dialogue6FacePunk" Value="Boss!,It’s that kid，you-know-who!" Face="Punk" Mono="False" />
+  <!-- お前か････私の子分が世話になったみてえだな -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue1FacePyroManOpMokou" Value="You....,You’ve taken good care,of my henchmen，huh?" Face="PyroManOpMokou" Mono="False" />
+  <!-- な　何か用････！？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue2FaceAlice" Value="C-Can I help you....?" Face="Alice" Mono="False" />
+  <!-- アリス････怖い････ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue3FaceTenshi" Value="Alice.... I’m scared...." Face="Tenshi" Mono="False" />
+  <!-- こんなガキに負けたのか情けねえ連中だ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue4FacePyroManOpMokou" Value="This is the kid you lost to?,You guys are pathetic." Face="PyroManOpMokou" Mono="False" />
+  <!-- あなたが番長なの？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue5FaceAlice" Value="Are you their boss?" Face="Alice" Mono="False" />
+  <!-- そう！この御方は不死鳥連合のヘッド藤原　妹紅（もこう）様だ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue6FacePunk" Value="Yeah!,This is Mokou Fujiwara，head,of the Phoenix Alliance!" Face="Punk" Mono="False" />
+  <!-- 私らの世界はナメられたままじゃダメなんでな！恨みはないが････ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue7FacePyroManOpMokou" Value="Underestimate us at your,own risk!,You’ve been warned...." Face="PyroManOpMokou" Mono="False" />
+  <!-- こらー！　藤原！そこで何をしている！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue8FaceNone" Value="Hey! Fujiwara!,What’re you doing here!?" Face="None" Mono="False" />
+  <!-- ちっ！先公に見つかったか！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue9FacePunk" Value="Tch!,A teacher saw us!" Face="Punk" Mono="False" />
+  <!-- チッ････運が良かったなだが　次は無いと思いな！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage5Dialogue10FacePyroManOpMokou" Value="Tch....You got lucky.,Don’t think this is over!" Face="PyroManOpMokou" Mono="False" />
+  <!-- 君たち！　大丈夫か？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue1FaceMsKamishirasawa" Value="Are you two okay?" Face="MsKamishirasawa" Mono="False" />
+  <!-- 怖かったけど　大丈夫なのよ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue2FaceTenshi" Value="They were scary，but I’m okay." Face="Tenshi" Mono="False" />
+  <!-- よかった････すまないなあいつらはすぐに喧嘩をふっかけるんだ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue3FaceMsKamishirasawa" Value="Thank goodness....,Those guys are always,eager to pick fights." Face="MsKamishirasawa" Mono="False" />
+  <!-- 助けてくれてありがとうございますえっと　あなたは？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue4FaceAlice" Value="Thank you for helping us，,um....,What’s your name?" Face="Alice" Mono="False" />
+  <!-- 私は上白沢　慧音（かみしらさわ　けいね）永遠高校の教師をしている -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue5FaceMsKamishirasawa" Value="I’m Keine Kamishirasawa.,I teach at Eien High." Face="MsKamishirasawa" Mono="False" />
+  <!-- あいつらはうちの生徒なんだが乱暴者でな････気をつけたほうがいいぞ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue6FaceMsKamishirasawa" Value="Those guys are our students，,but they can be a bit rough....,Keep an eye out for them." Face="MsKamishirasawa" Mono="False" />
+  <!-- 天子様　この方に道を尋ねてはいかがでしょうか？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue7FaceIku" Value="Miss Tenshi，why not ask,her for directions?" Face="Iku" Mono="False" />
+  <!-- あ　そっか！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue8FaceTenshi" Value="Oh，right!" Face="Tenshi" Mono="False" />
+  <!-- 慧音さん　すみませんエージェントセンターに行きたいんですけど････ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue9FaceTenshi" Value="Um.... Ms. Kamishirasawa?,I’m trying to get to the,Agent Center...." Face="Tenshi" Mono="False" />
+  <!-- そこまでの道のりを教えてくれませんか？ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue10FaceTenshi" Value="Could you tell me how,to get there?" Face="Tenshi" Mono="False" />
+  <!-- エージェントセンターか？おっけー！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue11FaceMsKamishirasawa" Value="The Agent Center?,Sure!" Face="MsKamishirasawa" Mono="False" />
+  <!-- ここをまっすぐ道路を渡ると永遠高校の校門がある -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue12FaceMsKamishirasawa" Value="Cross the road straight ahead，,and you’ll be right in front of,the gate to Eien High." Face="MsKamishirasawa" Mono="False" />
+  <!-- 校門の前を通りすぎてもう少し行くと右手に病院が見えてくるはずだ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue13FaceMsKamishirasawa" Value="Keep going past the gate for,a bit and you’ll see a hospital,on your right." Face="MsKamishirasawa" Mono="False" />
+  <!-- 病院の隣の大きな建物がエージェントセンターだよ「NA」ってマークが目印さ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue14FaceMsKamishirasawa" Value="The big building next to the,hospital is the Agent Center.,It has the ”NA” logo on it." Face="MsKamishirasawa" Mono="False" />
+  <!-- 校門をまっすぐ病院の隣････ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue15FaceTenshi" Value="Past the school gate....,Next to the hospital...." Face="Tenshi" Mono="False" />
+  <!-- わかりました！ありがとうございます！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue16FaceTenshi" Value="Got it!,Thank you very much!" Face="Tenshi" Mono="False" />
+  <!-- どういたしまして！礼儀正しくていい子だな -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue17FaceMsKamishirasawa" Value="You’re welcome!,You’re such nice，polite girls!" Face="MsKamishirasawa" Mono="False" />
+  <!-- 私は普段　永遠高校の校門前に立ってるから困ったときは頼っていいぞ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue18FaceMsKamishirasawa" Value="I usually stand in front of the,school gate，so feel free to ask,me for help if you need it!" Face="MsKamishirasawa" Mono="False" />
+  <!-- ありがとうございました！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue19FaceAlice" Value="Thank you very much!" Face="Alice" Mono="False" />
+  <!-- さあ　場所もわかったことだしエージェントセンターに向かうわよ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue20FaceShanghai" Value="Well，now that we know where,the Agent Center is，let’s go!" Face="Shanghai" Mono="False" />
+  <!-- おー！ -->
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage7Dialogue21FaceTenshi" Value="Yeah!" Face="Tenshi" Mono="False" />
+  <!-- うわぁぁぁぁん！！ -->
+  <Dialogue Key="Map.EienTown1Chapter4IncidentEventStage1Dialogue1FaceNone" Value="WAAAAAAAH!!" Face="None" Mono="False" />
+  <!-- 今の声って！？ -->
+  <Dialogue Key="Map.EienTown1Chapter4IncidentEventStage1Dialogue2FaceTenshi" Value="Someone screamed!" Face="Tenshi" Mono="False" />
+  <!-- 霊夢ちゃんの声よ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4IncidentEventStage1Dialogue3FaceAlice" Value="That sounded like Reimu!" Face="Alice" Mono="False" />
+  <!-- 爆発音も聞こえましたわ！ -->
+  <Dialogue Key="Map.EienTown1Chapter4IncidentEventStage1Dialogue4FaceIku" Value="I heard an explosion!" Face="Iku" Mono="False" />
+  <!-- タダ事じゃない雰囲気ね急ぐのよ　アリス！ -->
+  <Dialogue Key="Map.EienTown1Chapter4IncidentEventStage1Dialogue5FaceShanghai" Value="This feels like something,serious! Hurry，Alice!" Face="Shanghai" Mono="False" />
+  <!-- もち！ -->
+  <Dialogue Key="Map.EienTown1Chapter4IncidentEventStage1Dialogue6FaceAlice" Value="Yeah!" Face="Alice" Mono="False" />
+  <!-- あら　アリスさんこんにちは -->
+  <Dialogue Key="Map.EienTown1Chapter5SumirekoStage1Dialogue1FaceSumireko" Value="Ah，Alice.,Good afternoon." Face="Sumireko" Mono="False" />
+  <!-- 休日なのに授業があるの高校生は大変よ -->
+  <Dialogue Key="Map.EienTown1Chapter5SumirekoStage1Dialogue2FaceSumireko" Value="High school students,have it tough. We have,class even on holidays." Face="Sumireko" Mono="False" />
+  <!-- ねえ菫子中央街のカフェに行こうよ -->
+  <Dialogue Key="Map.EienTown1Chapter5JKStage1Dialogue1FaceBlackHairFemaleStudent" Value="Hey Sumireko，let’s go to,that cafe in Central City." Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- 遅刻して学校前まで来たは良いけれど門をくぐる勇気がないの････ -->
+  <Dialogue Key="Map.EienTown1Chapter7JKStage1Dialogue1FaceBlackHairFemaleStudent" Value="I got here late，but now I’m too,scared to go in!" Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- 行けば怒られるし行かなければ後でもっと怒られる････ -->
+  <Dialogue Key="Map.EienTown1Chapter7JKStage1Dialogue2FaceBlackHairFemaleStudent" Value="If I go in now they’ll be mad....,but the more I wait，the madder,they’ll get!" Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- けど　慧音先生の視線がすごく怖いのもまた事実なのよね････ -->
+  <Dialogue Key="Map.EienTown1Chapter7JKStage1Dialogue3FaceBlackHairFemaleStudent" Value="Mr. Hirano’s eyes are so,scary...." Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- インターネットで事件が起こって今日の授業は中止になったらしいの -->
+  <Dialogue Key="Map.EienTown1Chapter7JKStage3Dialogue1FaceBlackHairFemaleStudent" Value="Classes are cancelled after the,incident on the Net earlier...." Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- 喜ぶべきか悲しむべきかそれが問題ね････ -->
+  <Dialogue Key="Map.EienTown1Chapter7JKStage3Dialogue2FaceBlackHairFemaleStudent" Value="I feel bad for being relieved....?" Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- 最近　番長が学校に来なくなっちまってな････ -->
+  <Dialogue Key="Map.EienTown1BadChapter7Stage1Dialogue1FacePunk" Value="Boss hasn’t been comin’ to,school...." Face="Punk" Mono="False" />
+  <!-- ヘッドがいないから俺たちヘイタイは何もすることができねえのさ -->
+  <Dialogue Key="Map.EienTown1BadChapter7Stage1Dialogue2FacePunk" Value="Now what’re we supposed to,do?" Face="Punk" Mono="False" />
+  <!-- んもう！私に力があったらＲＯＭなんてやっつけてあげるのに！ -->
+  <Dialogue Key="Map.EienTown1Chapter8WomanStage1Dialogue1FaceBlackHairFemaleStudent" Value="No more! Down with ROM!" Face="BlackHairFemaleStudent" Mono="False" />
+  <!-- こういうときだからこそ一日一日を普段どおりに過ごそうと思うんだ -->
+  <Dialogue Key="Map.EienTown1Chapter8MenStage1Dialogue1FaceMaleGlassesStudent" Value="I’m going to spend the day,like nothing happened!" Face="MaleGlassesStudent" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown1Chapter8RoboBazookaStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown1Chapter8RoboBazookaStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown1Chapter8RoboStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown1Chapter8RoboStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.EienTown1Chapter8RoboShieldStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.EienTown1Chapter8RoboShieldStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- スーツ姿の男の人？ -->
+  <Dialogue Key="Map.EienTown1Request11Stage1Dialogue1FaceFemaleChild" Value="A man in a suit?" Face="FemaleChild" Mono="False" />
+  <!-- さっき電話してた人かな？中央街の北区の広場って言ってたような？ -->
+  <Dialogue Key="Map.EienTown1Request11Stage1Dialogue2FaceFemaleChild" Value="You mean that man on the,phone? He said he was going,to the plaza in Central City." Face="FemaleChild" Mono="False" />
+  <!-- あら　あなたは････ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue1FaceSumireko" Value="Hey there...." Face="Sumireko" Mono="False" />
+  <!-- 菫子（すみれこ）さん！もしかしてあなたが依頼人ですか？ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue2FaceAlice" Value="Sumireko! Are you the client?" Face="Alice" Mono="False" />
+  <!-- ふふ　これも何かの縁かもね -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue3FaceSumireko" Value="Alice? No way!,You’ll have no trouble helping,with my request!" Face="Sumireko" Mono="False" />
+  <!-- 私が頼みたいのは誕生日にお姉ちゃんに渡したいバトルチップの入手よ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue4FaceSumireko" Value="I’ve picked out the perfect chip,for my sister’s birthday." Face="Sumireko" Mono="False" />
+  <!-- ひとつは「ジキアラシ　Ｆ」 -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue5FaceSumireko" Value="I think she’ll love a MagStorm F!" Face="Sumireko" Mono="False" />
+  <!-- ウラインターネットやどこかのケーキ屋さんの電脳のウィルスが落とすみたいなの -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue6FaceSumireko" Value="You can get them from viruses,somewhere in a cake shop or,the Undernet." Face="Sumireko" Mono="False" />
+  <!-- もうひとつのバトルチップは「ブラインドリーフ　Ｐ」 -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue7FaceSumireko" Value="The other one’s a BlndLeaf P!" Face="Sumireko" Mono="False" />
+  <!-- こっちはシティエリア３にいる行商人が売ってるみたい -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue8FaceSumireko" Value="I heard a store in City Area 3,had them on sale." Face="Sumireko" Mono="False" />
+  <!-- お姉ちゃんが言うにはこれらは何かのプログラムアドバンスの発動に必要みたい -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue9FaceSumireko" Value="Apparantly those two are all,she’s missing for some,Program Advances." Face="Sumireko" Mono="False" />
+  <!-- 知り合いのツテで場所はわかったんだけど私はネットバトル苦手だから････ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue10FaceSumireko" Value="I know all the trendy places，but,I’m no good at NetBattling." Face="Sumireko" Mono="False" />
+  <!-- 「ジキアラシ　Ｆ」と「ブラインドリーフ　Ｐ」ね････ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue11FaceShanghai" Value="MagStorm F and BlndLeaf P...." Face="Shanghai" Mono="False" />
+  <!-- じゃあ早速探しに行ってきます -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue12FaceAlice" Value="We’ll get them for you!" Face="Alice" Mono="False" />
+  <!-- よろしくね！ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage1Dialogue13FaceSumireko" Value="Good seeing you!" Face="Sumireko" Mono="False" />
+  <!-- 私が頼みたいのは誕生日にお姉ちゃんに渡したいバトルチップの入手よ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue1FaceSumireko" Value="I’ve picked out the perfect chip,for my sister’s birthday." Face="Sumireko" Mono="False" />
+  <!-- ひとつは「ジキアラシ　Ｆ」 -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue2FaceSumireko" Value="I think she’ll love a MagStorm F!" Face="Sumireko" Mono="False" />
+  <!-- ウラインターネットやどこかのケーキ屋さんの電脳のウィルスが落とすみたいなの -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue3FaceSumireko" Value="You can get them from viruses,somewhere in a cake shop or,the Undernet." Face="Sumireko" Mono="False" />
+  <!-- もうひとつのバトルチップは「ブラインドリーフ　Ｐ」 -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue4FaceSumireko" Value="The other one’s a BlndLeaf P!" Face="Sumireko" Mono="False" />
+  <!-- こっちはシティエリア３にいる行商人が売ってるみたい -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue5FaceSumireko" Value="I heard a store in City Area 3,had them on sale." Face="Sumireko" Mono="False" />
+  <!-- あっそうだ　手に入れたらチップフォルダから出しておいてね -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue6FaceSumireko" Value="Do you have them? I don’t want,to snoop in your chip folder if,you’ve got them in there...." Face="Sumireko" Mono="False" />
+  <!-- チップフォルダの中は持ち主以外見れないから -->
+  <Dialogue Key="Map.EienTown1Requester12Stage3Dialogue7FaceSumireko" Value="I don’t think I can，anyways....,Only the owner of the folder can,take things out of it." Face="Sumireko" Mono="False" />
+  <!-- わあ！ふたつとも手に入れたのね！ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue1FaceSumireko" Value="Wow! You got them both!" Face="Sumireko" Mono="False" />
+  <!-- アリスは菫子に「ジキアラシ　Ｆ」「ブラインドリーフ　Ｐ」を手渡した -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue2FaceNone" Value="Alice gave ”MagStorm F” and,”BlndLeaf P” to Sumireko!" Face="None" Mono="False" />
+  <!-- ありがとう！これでお姉ちゃんの誕生日を祝うことができるわ！ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue3FaceSumireko" Value="Here’s your reward!" Face="Sumireko" Mono="False" />
+  <!-- これは依頼の報酬よ！ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue4FaceSumireko" Value="Oh，right!" Face="Sumireko" Mono="False" />
+  <!-- あっ　そうだ！お姉ちゃんが言っていたプログラムアドバンスだけど････ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue5FaceSumireko" Value="The Program Advances my,sister was talking about...." Face="Sumireko" Mono="False" />
+  <!-- マヒする攻撃　と　ジキアラシそれとマヒに関係するチップで１つ目のプログラムアドバンスが -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue6FaceSumireko" Value="The first chip was for a Program,Advance with a paralysis attack,and a paralysis powerup!" Face="Sumireko" Mono="False" />
+  <!-- あとは草属性の棒と枯れ葉とブラインドリーフでもうひとつのができるみたい -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue7FaceSumireko" Value="The other one was with a grass,sword and a leaf attack!" Face="Sumireko" Mono="False" />
+  <!-- 思い当たったら試してみてね -->
+  <Dialogue Key="Map.EienTown1Requester12Stage5Dialogue8FaceSumireko" Value="You probably got more than,one copy，give them a try!" Face="Sumireko" Mono="False" />
+  <!-- お姉ちゃんが言っていたプログラムアドバンスだけど････ -->
+  <Dialogue Key="Map.EienTown1Requester12Stage7Dialogue1FaceSumireko" Value="The Program Advances my,sister was talking about...." Face="Sumireko" Mono="False" />
+  <!-- マヒする攻撃　と　ジキアラシそれとマヒに関係するチップで１つ目のプログラムアドバンスが -->
+  <Dialogue Key="Map.EienTown1Requester12Stage7Dialogue2FaceSumireko" Value="The first chip was for a Program,Advance with a paralysis attack,and a paralysis powerup!" Face="Sumireko" Mono="False" />
+  <!-- あとは草属性の棒と枯れ葉とブラインドリーフでもうひとつのができるみたい -->
+  <Dialogue Key="Map.EienTown1Requester12Stage7Dialogue3FaceSumireko" Value="The other one was with a grass,sword and a leaf attack!" Face="Sumireko" Mono="False" />
+  <!-- 思い当たったら試してみてね -->
+  <Dialogue Key="Map.EienTown1Requester12Stage7Dialogue4FaceSumireko" Value="Give them a try!" Face="Sumireko" Mono="False" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.EienTown1ToTheStationStage1Dialogue1QuestionFaceNone" Value="Ride the metro to where?" Face="None" Mono="False" />
+  <!-- 幻想町幻想大学前中央街西区乗らない -->
+  <Text Key="Map.EienTown1ToTheStationStage1Dialogue1Options" Value="Genso Town, University,Central City,  Leave" />
+  <!-- 永遠町で親しまれている童話「忠兎　ウサ公」の像だ -->
+  <Dialogue Key="Map.EienTown1DukeUsaStage1Dialogue1FaceNone" Value="It’s a statue of ”Lord Usa，the,Loyal Rabbit”，a local folk tale." Face="None" Mono="False" />
+  <!-- 戦争で亡くなった主人を寂しさに耐えて待ち続けて天寿を全うした兎らしい -->
+  <Dialogue Key="Map.EienTown1DukeUsaStage1Dialogue2FaceNone" Value="He waited his whole life,for his master who died,in a war to return." Face="None" Mono="False" />
+  <!-- 台座のところにプラグイン端子がある！ -->
+  <Dialogue Key="Map.EienTown1DukeUsaStage1Dialogue3FaceNone" Value="There’s a jack in port in the,base of the statue!" Face="None" Mono="False" />
+  <!-- 白い花が咲いている公園の花だんだ -->
+  <Dialogue Key="Map.EienTown1Flower1Stage1Dialogue1FaceNone" Value="White flowers are blooming,in the park." Face="None" Mono="False" />
+  <!-- 心地よい香りが公園の空気をおいしくしてくれている -->
+  <Dialogue Key="Map.EienTown1Flower1Stage1Dialogue2FaceNone" Value="A pleasantly sweet scent is,wafting through the park air." Face="None" Mono="False" />
+  <!-- 白い花が咲いている公園の花だんだ -->
+  <Dialogue Key="Map.EienTown1Flower3Stage1Dialogue1FaceNone" Value="White flowers are blooming,in the park." Face="None" Mono="False" />
+  <!-- 心地よい香りが公園の空気をおいしくしてくれている -->
+  <Dialogue Key="Map.EienTown1Flower3Stage1Dialogue2FaceNone" Value="A pleasantly sweet scent is,wafting through the park air." Face="None" Mono="False" />
+  <!-- 白い花が咲いている公園の花だんだ -->
+  <Dialogue Key="Map.EienTown1Flower2Stage1Dialogue1FaceNone" Value="White flowers are blooming,in the park." Face="None" Mono="False" />
+  <!-- 心地よい香りが公園の空気をおいしくしてくれている -->
+  <Dialogue Key="Map.EienTown1Flower2Stage1Dialogue2FaceNone" Value="A pleasantly sweet scent is,wafting through the park air." Face="None" Mono="False" />
+  <!-- 白い花が咲いている公園の花だんだ -->
+  <Dialogue Key="Map.EienTown1Flower4Stage1Dialogue1FaceNone" Value="White flowers are blooming,in the park." Face="None" Mono="False" />
+  <!-- 心地よい香りが公園の空気をおいしくしてくれている -->
+  <Dialogue Key="Map.EienTown1Flower4Stage1Dialogue2FaceNone" Value="A pleasantly sweet scent is,wafting through the park air." Face="None" Mono="False" />
+  <!-- 白い花が咲いている公園の花だんだ -->
+  <Dialogue Key="Map.EienTown1Flower5Stage1Dialogue1FaceNone" Value="White flowers are blooming,in the park." Face="None" Mono="False" />
+  <!-- 心地よい香りが公園の空気をおいしくしてくれている -->
+  <Dialogue Key="Map.EienTown1Flower5Stage1Dialogue2FaceNone" Value="A pleasantly sweet scent is,wafting through the park air." Face="None" Mono="False" />
+  <!-- 白い花が咲いている公園の花だんだ -->
+  <Dialogue Key="Map.EienTown1Flower6Stage1Dialogue1FaceNone" Value="White flowers are blooming,in the park." Face="None" Mono="False" />
+  <!-- 心地よい香りが公園の空気をおいしくしてくれている -->
+  <Dialogue Key="Map.EienTown1Flower6Stage1Dialogue2FaceNone" Value="A pleasantly sweet scent is,wafting through the park air." Face="None" Mono="False" />
+  <!-- 古風なデザインの真っ赤なポストだ -->
+  <Dialogue Key="Map.EienTown1PostStage1Dialogue1FaceNone" Value="It’s an old-fashioned,bright red postbox." Face="None" Mono="False" />
+  <!-- 見かけは古いが新型で手書きの手紙をデータにして転送する機能がある -->
+  <Dialogue Key="Map.EienTown1PostStage1Dialogue2FaceNone" Value="It looks old，but it can send,both handwritten letters and,data!" Face="None" Mono="False" />
+  <!-- その機能を使えるようにプラグインができる！ -->
+  <Dialogue Key="Map.EienTown1PostStage1Dialogue3FaceNone" Value="It has a jack in port for that,exact purpose!" Face="None" Mono="False" />
+  <!-- 永遠高校の校門の脇には開閉を制御するコンパネが存在する -->
+  <Dialogue Key="Map.EienTown1SchoolGateStage1Dialogue1FaceNone" Value="There’s a control panel next,to the Eien High gate." Face="None" Mono="False" />
+  <!-- プラグイン端子が２つあり自由に使える方は高校のＨＰにつながっている -->
+  <Dialogue Key="Map.EienTown1SchoolGateStage1Dialogue2FaceNone" Value="It has two jack in ports that,connect to the Eien High HP." Face="None" Mono="False" />
+  <!-- 壁に小さい文字で４６５１９４５８　と書かれている -->
+  <Dialogue Key="Map.EienTown1NantleDigitsStage1Dialogue1FaceNone" Value="Someone’s scribbled a tiny,”46519458” on the wall." Face="None" Mono="False" />
+  <Dialogue Key="Map.EienTown1PostGameBystander1Dialogue1" Value="Recently，Fujiwara’s been,kind and calm." Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.EienTown1PostGameBystander1Dialogue2" Value="She used to have this angry,energy to her.,I wonder what happened?" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.EienTown1PostGameBystander2Dialogue1" Value="I’m running out of pocket,money.... I guess it’s time to,hunt some viruses." Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.EienTown1PostGameBystander2Dialogue2" Value="If you can handle SP viruses，,they’re a pretty good source,of income!" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.EienTown1PostGameKeine" Value="Today’s another carefree day!,If you want a lesson on,NetBattling， come at me!" Face="MsKamishirasawa" Mono="False" />
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ClockTowerReal1fName" Value="Clock Tower Interior 1F" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue1FaceNone" Value="It’s a massive door for,keeping out the general,public." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue2FaceNone" Value="It’s made of relatively modern,materials." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage3Dialogue1FaceAlice" Value="If we can’t open this door，,then Wriggle will....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage3Dialogue2FaceShanghai" Value="We have to get inside and,deactivate the security system!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage1Dialogue1FaceNone" Value="It’s the control panel for this,room’s security system." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage1Dialogue2FaceNone" Value="The access port is locked，,so I can’t jack in." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue1FaceNone" Value="It’s the control panel for this,room’s security system." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue2FaceNone" Value="The access port is open,now，so I can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue1FaceAlice" Value="If we can’t open this door，,then Wriggle will....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue2FaceShanghai" Value="We have to get inside and,deactivate the security system!" Face="Shanghai" Mono="False" />
+</data>

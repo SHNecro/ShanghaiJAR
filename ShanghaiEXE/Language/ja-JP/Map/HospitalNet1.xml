@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 病院の電脳１ -->
+  <Text Key="Map.HospitalNet1Name" Value="病院の電脳１" />
+  <!-- うっ････ -->
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue1FaceShanghai" Value="うっ････" Face="Shanghai" Mono="False" />
+  <!-- 体力が限界ね････一度プラグアウトしましょう！ -->
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue2FaceAlice" Value="体力が限界ね････,一度プラグアウトしましょう！" Face="Alice" Mono="False" />
+  <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue1FaceSprite" Value="アナタノ　タイリョクヲ,カイフクシテ　アゲマショウ" Face="Sprite" Mono="False" />
+  <!-- シャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue2FaceNone" Value="シャンハイのＨＰが,全回復した！" Face="None" Mono="False" />
+  <!-- ネツボウソウデ　ＨＰガナクナルト　プラグアウトヲシナクテハ　イケマセン -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue3FaceSprite" Value="ネツボウソウデ　ＨＰガ,ナクナルト　プラグアウトヲ,シナクテハ　イケマセン" Face="Sprite" Mono="False" />
+  <!-- ＨＰノ　リョウニハキヲツケテ　クダサイネ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue4FaceSprite" Value="ＨＰノ　リョウニハ,キヲツケテ　クダサイネ" Face="Sprite" Mono="False" />
+  <!-- ううっ････流石に中も暑いわね -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue1FaceShanghai" Value="ううっ････,流石に中も暑いわね" Face="Shanghai" Mono="False" />
+  <!-- この熱　シャンハイの体力をじわじわ減らすみたいね -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue2FaceAlice" Value="この熱　シャンハイの体力を,じわじわ減らすみたいね" Face="Alice" Mono="False" />
+  <!-- 体力が無くなる前にケリをつけるわよ！ -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue3FaceShanghai" Value="体力が無くなる前に,ケリをつけるわよ！" Face="Shanghai" Mono="False" />
+  <!-- タスケテクダサイ！デンノウセカイガ　カジデス！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue1FaceSprite" Value="タスケテクダサイ！,デンノウセカイガ　カジデス！" Face="Sprite" Mono="False" />
+  <!-- ムラサキイロノ　ホノオガアツサノ　ゲンインナノハワカッテ　イルンデスヨー！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue2FaceSprite" Value="ムラサキイロノ　ホノオガ,アツサノ　ゲンインナノハ,ワカッテ　イルンデスヨー！" Face="Sprite" Mono="False" />
+  <!-- デモアノホノオ　ウィルスガバケテル　ミタイ！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue3FaceSprite" Value="デモアノホノオ　ウィルスガ,バケテル　ミタイ！" Face="Sprite" Mono="False" />
+  <!-- ホノオト　タタカウトキメルトジョウタイニ　ナッテコウゲキリョク　ハンゲンダヨ！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue4FaceSprite" Value="ホノオト　タタカウトキ,メルトジョウタイニ　ナッテ,コウゲキリョク　ハンゲンダヨ！" Face="Sprite" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet1Wall1Stage1Dialogue1FaceNone" Value="区域内温度上昇につき,防火シャッター閉鎖中,と書かれている" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-1Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-2Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-3Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-4Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- このエリアの熱の原因が取り除かれ温度が下がった！ -->
+  <Dialogue Key="Map.HospitalNet1Wall2AnnihilationEventStage1Dialogue1FaceNone" Value="このエリアの熱の原因が,取り除かれ,温度が下がった！" Face="None" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet1Wall2Stage1Dialogue1FaceNone" Value="区域内温度上昇につき,防火シャッター閉鎖中,と書かれている" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-1Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-2Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-3Stage1Dialogue1FaceNone" Value="炎の形が変化し,ウィルスの姿になった！" Face="None" Mono="False" />
+</data>

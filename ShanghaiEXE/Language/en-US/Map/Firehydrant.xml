@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.FirehydrantName" Value="Fire Hydrant Comp" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue1FaceSprite" Value="I’M PRACTICING TURNING,THE PUMP ON，JUST IN,CASE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue2FaceSprite" Value="PSHHHHH!,PUMP PUMP PUMP!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue3FaceSprite" Value="I DON’T WANT TO MAKE A,CARELESS MISTAKE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue4FaceSprite" Value="EVEN MESSING UP THE,TEXT WOULD BE,EMBARRASSING!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantTestSprite2Stage1Dialogue1FaceSprite" Value="COMBAT TEST" Face="Sprite" Mono="False" />
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy1" Value="PunkBro" />
+  <!-- ボマー -->
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy2" Value="Bomber" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy3" Value="ActoNavi" />
+  <Dialogue Key="Map.FirehydrantSprite2Stage1Dialogue1FaceSprite" Value="DO WE ONLY GET TO WORK,WHEN THERE’S AN,EMERGENCY?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite2Stage1Dialogue2FaceSprite" Value="I HATE WAITING AROUND，,BUT I HATE HAVING TO,WORK TOO!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot" Value="I’m a Sub Chip vendor." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.FirehydrantASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot" Value="Care to see my wares?" Face="NaviBlueRobot" Mono="False" />
+  <Text Key="Map.FirehydrantASub-chipMerchantStage1Dialogue2Options" Value="Yes,No" />
+</data>

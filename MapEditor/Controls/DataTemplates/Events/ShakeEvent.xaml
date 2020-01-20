@@ -1,0 +1,58 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:controls="clr-namespace:MapEditor.Controls"
+                    xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:ShakeEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Magnitude:"/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="1">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="Magnitude" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="1" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Frames:"/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="DurationFrames" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+                <Button Grid.Column="2"
+                        Style="{StaticResource SetTagBindingButton}"
+                        VerticalContentAlignment="Center"
+                        Content="inf"
+                        Tag="{Binding DurationFrames}"
+                        CommandParameter="0" />
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

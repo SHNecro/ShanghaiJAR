@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja1Name" Value="神社の電脳１" />
+  <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue1FaceShanghai" Value="うっ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue2FaceAlice" Value="体力が限界ね････,一度プラグアウトしましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue1FaceNone" Value="シャンハイは扉に,陰のカギと陽のカギを,はめこんだ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue2FaceNone" Value="扉が沈み道が開かれる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage3Dialogue1FaceNone" Value="扉はカギがかかっていて,びくともしない！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue1FaceSprite" Value="アワワワ　アワワワ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue2FaceSprite" Value="デンノウノ　ネツデ,セキュリティガ　ボウソウシテ,トビラガ　シマッチャッタ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue3FaceShanghai" Value="扉を開けるにはどうするの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue4FaceSprite" Value="トビラヲ　アケルニハ,フタツノ　カギガ,ヒツヨウナンデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue5FaceSprite" Value="クロイ　インノカギ　ト,シロイ　ヨウノカギ　ガ,ドコカニ　オチテルハズデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue6FaceSprite" Value="デモ　キヲツケテ,トキドキ　デンノウセカイガ,スゴイオンドニ　ナルヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue7FaceSprite" Value="アッ！　マタキタ！,ソノママウゴカナイデ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue1FaceShanghai" Value="あービックリした" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue2FaceSprite" Value="ココミタイニ　タタミノ　ユカニハ,ケッカイガ　ハラレテイテ,ネツヲ　フセイデクレマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue3FaceSprite" Value="シカイガ　アカクナッタラ,タタミノ　ユカニ,ヒナンシテクダサイ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue4FaceSprite" Value="ジャナイト　アツイー！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue1FaceSprite" Value="トビラヲ　アケルニハ,フタツノ　カギガ,ヒツヨウナンデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue2FaceSprite" Value="クロイ　インノカギ　ト,シロイ　ヨウノカギ　ガ,ドコカニ　オチテルハズデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue3FaceSprite" Value="デモ　キヲツケテ,トキドキ　デンノウセカイガ,スゴイオンドニ　ナルヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue4FaceSprite" Value="ココミタイニ　タタミノ　ユカニハ,ケッカイガ　ハラレテイテ,ネツヲ　フセイデクレマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue5FaceSprite" Value="シカイガ　アカクナッタラ,タタミノ　ユカニ,ヒナンシテクダサイ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue6FaceSprite" Value="ジャナイト　アツイー！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage7Dialogue1FaceSprite" Value="オサイセーン　オサイセーン,ゴリヤクタップリ　オサイセーン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage1Dialogue1FaceSprite" Value="コノ　タタミノアル,エリアハ　ケッカイデ,マモラレテイマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage1Dialogue2FaceSprite" Value="ココニイレバ　コウオンモ,タエラレルコトデショウ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage3Dialogue1FaceSprite" Value="オサイセーン　オサイセーン,ゴリヤクタップリ　オサイセーン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue1FaceShanghai" Value="暑い････,やっぱりこの火は,電脳が原因みたいね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue2FaceAlice" Value="原因を取り除けば,火も消えるかも････！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue3FaceAlice" Value="急いで　シャンハイ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue4FaceShanghai" Value="言われなくても！" Face="Shanghai" Mono="False" />
+</data>

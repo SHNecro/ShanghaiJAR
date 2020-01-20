@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterRoomName" Value="ゲームセンター　スタッフルーム" />
+  <Dialogue Key="Map.GameCenterRoomTrash2Stage1Dialogue1FaceNone" Value="缶やペットボトルを,捨てるゴミ箱だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTrash2Stage1Dialogue2FaceNone" Value="中は････空っぽだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue1FaceNone" Value="日の当たらない部屋のすみに,ひっそりと観葉植物が,置かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue2FaceNone" Value="本物かと思ったら,どうやら造花のようなものらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue3FaceNone" Value="････土の部分に,金属質なものが,埋もれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage3Dialogue1FaceNone" Value="日の当たらない部屋のすみに,ひっそりと観葉植物が,置かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage3Dialogue2FaceNone" Value="本物かと思ったら,どうやら造花のようなものらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTableStage1Dialogue1FaceNone" Value="赤く大きいテーブルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTableStage1Dialogue2FaceNone" Value="従業員は休憩中に,このテーブルで,談笑するのだろうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage1Dialogue1QuestionFaceScientist" Value="君は　闘志を燃やす,準備ができたかッ！" Face="Scientist" Mono="False" />
+  <Text Key="Map.GameCenterRoomChapter4Stage1Dialogue1Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage1Dialogue2FaceScientist" Value="戦いは逃げない！,君の気が済むまで,準備するがいいッ！" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage2Dialogue1FaceScientist" Value="では　炎の会場へッ！,レディッ　ゴーー！！" Face="Scientist" Mono="False" />
+</data>

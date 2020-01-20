@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Cruiser1gName" Value="豪華客船の電脳１" />
+  <Dialogue Key="Map.Cruiser1gSpriteStage1Dialogue1FaceSprite" Value="コノサキノ　アカイハンドルヲ,マワスト　デンノウセカイノ,スイイガ　ヘンカシマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gSpriteStage1Dialogue2FaceSprite" Value="オヨゲナイノナラ,シズンダ　エリアニハ,ハイラナイホウガ　イイデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gSpriteStage1Dialogue3FaceSprite" Value="デモ　スイイガアガルト,ウクモノガ　アシバニナルカモ,シレマセンネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve1Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve1Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve2Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve2Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve3Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve3Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve4Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve4Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+</data>

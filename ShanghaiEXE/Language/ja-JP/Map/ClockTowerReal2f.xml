@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ClockTowerReal2fName" Value="時計塔　内部　２階" />
+  <Dialogue Key="Map.ClockTowerReal2fDoorStage1Dialogue1FaceNone" Value="扉は電子ロックによって,固く閉ざされている････" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage1Dialogue1FaceNone" Value="この部屋のセキュリティを,制御するコントロールパネルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage1Dialogue2FaceNone" Value="アクセスにロックが,かけられており,プラグインすることができない" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage3Dialogue1FaceNone" Value="この部屋のセキュリティを,制御するコントロールパネルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal2fControlDeviceStage3Dialogue2FaceNone" Value="今はアクセスが,フリーになっており,プラグインが可能だ！" Face="None" Mono="False" />
+</data>

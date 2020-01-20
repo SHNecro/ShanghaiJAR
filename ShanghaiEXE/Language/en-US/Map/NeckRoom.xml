@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ネックの家 -->
+  <Text Key="Map.NeckRoomName" Value="Tsubaki’s Room" />
+  <!-- ネックにネットバトルを申し込む？ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Tsubaki to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.NeckRoomSpannerManBattleStage1Dialogue1Options" Value="Yes,No" />
+  <!-- スパナマン！ぶちかませ！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage1Dialogue2FaceTsubakiNekku" Value="Hit ’er hard，SpannerMan!" Face="TsubakiNekku" Mono="False" />
+  <!-- ガッテンでい！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage1Dialogue3FaceSpannerMan" Value="On it!" Face="SpannerMan" Mono="False" />
+  <!-- よっしゃあ！俺達の勝ちだ！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage3Dialogue1FaceTsubakiNekku" Value="Alright!,I won!" Face="TsubakiNekku" Mono="False" />
+  <!-- クッソォ････これでも勝てねーのか！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage5Dialogue1FaceTsubakiNekku" Value="Man....!,We couldn’t win this time,either!?" Face="TsubakiNekku" Mono="False" />
+  <!-- そういえばアリスにまだ俺のＰコード渡してなかったな -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage5Dialogue2FaceTsubakiNekku" Value="Oh yeah，I haven’t given you,my P-Code yet." Face="TsubakiNekku" Mono="False" />
+  <!-- これを使えば俺のＨＰからエイエンエリアにアクセスできるぜ！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage5Dialogue3FaceTsubakiNekku" Value="You can use this to access,Eien Area from my PC!" Face="TsubakiNekku" Mono="False" />
+  <!-- フルパワースパナマンの力を見せてやる！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage6Dialogue1FaceTsubakiNekku" Value="I’ll show you SpannerMan’s,full power!" Face="TsubakiNekku" Mono="False" />
+  <!-- テヤンでぇ！ベラボォめえ！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage6Dialogue2FaceSpannerMan" Value="Now I’ll show you what,I’m really made of!" Face="SpannerMan" Mono="False" />
+  <!-- へへっ！こっちの方がウワテだったみてえだな！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage8Dialogue1FaceTsubakiNekku" Value="Hehe! Looks like I came,out on top this time!" Face="TsubakiNekku" Mono="False" />
+  <!-- ････嘘だろ！？ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage10Dialogue1FaceTsubakiNekku" Value="....You’re kiddin’ me，right!?" Face="TsubakiNekku" Mono="False" />
+  <!-- いつでも受けて立つぜ！ -->
+  <Dialogue Key="Map.NeckRoomSpannerManBattleStage11Dialogue1FaceTsubakiNekku" Value="I’ll take a challenge anytime!" Face="TsubakiNekku" Mono="False" />
+  <!-- ネックの使ってるふとんだ -->
+  <Dialogue Key="Map.NeckRoomFutonStage1Dialogue1FaceNone" Value="It’s Tsubaki’s futon." Face="None" Mono="False" />
+  <!-- シーツはよく見るとシワだらけになっている -->
+  <Dialogue Key="Map.NeckRoomFutonStage1Dialogue2FaceNone" Value="If I look closely，I can see that,the sheets are full of wrinkles." Face="None" Mono="False" />
+  <!-- ネックのパソコンだ -->
+  <Dialogue Key="Map.NeckRoomNekku’sPCStage1Dialogue1FaceNone" Value="It’s Tsubaki’s computer." Face="None" Mono="False" />
+  <!-- ガワは古いが中は最新のパーツで構成されているようだ -->
+  <Dialogue Key="Map.NeckRoomNekku’sPCStage1Dialogue2FaceNone" Value="The case is old，but it has,the latest parts inside." Face="None" Mono="False" />
+  <!-- もちろんプラグインもできる！ -->
+  <Dialogue Key="Map.NeckRoomNekku’sPCStage1Dialogue3FaceNone" Value="Of course，I can jack in!" Face="None" Mono="False" />
+  <!-- コントローラーにも画面が付いている最新ゲーム機だ -->
+  <Dialogue Key="Map.NeckRoomGameMachineStage1Dialogue1FaceNone" Value="It’s the latest game console.,The controller has a screen,on it." Face="None" Mono="False" />
+  <!-- インターネットを通じて昔のゲームを遊ぶこともできるのが特徴だ -->
+  <Dialogue Key="Map.NeckRoomGameMachineStage1Dialogue2FaceNone" Value="It has a feature that lets you,play old games online." Face="None" Mono="False" />
+  <!-- プラグインすることもできる！ -->
+  <Dialogue Key="Map.NeckRoomGameMachineStage1Dialogue3FaceNone" Value="I can also jack in!" Face="None" Mono="False" />
+  <!-- 国民的アイドルミスティア･ローレライのポスターだ -->
+  <Dialogue Key="Map.NeckRoomPosterStage1Dialogue1FaceNone" Value="It’s a poster of Mystia Lorelei，,a Japanese idol." Face="None" Mono="False" />
+  <!-- 普段テレビを見ないのでどういうアイドルなのかは全然知らない････ -->
+  <Dialogue Key="Map.NeckRoomPosterStage1Dialogue2FaceNone" Value="I don’t usually watch TV，,so I don’t know what kind,of idol she is...." Face="None" Mono="False" />
+  <!-- ポスターの裏に５８７３０９４１　と書かれている -->
+  <Dialogue Key="Map.NeckRoomPosterStage1Dialogue3FaceNone" Value="On the back of the poster，,”58730941” is written." Face="None" Mono="False" />
+  <!-- わずかに開いた押入れの奥にかなりの数のダンボールが入っている -->
+  <Dialogue Key="Map.NeckRoomClosetAStage1Dialogue1FaceNone" Value="There are a lot of cardboard,boxes in the back of the,closet." Face="None" Mono="False" />
+  <!-- その中身が何なのかはここからは察することができない -->
+  <Dialogue Key="Map.NeckRoomClosetAStage1Dialogue2FaceNone" Value="I can’t tell what’s inside the,boxes from here." Face="None" Mono="False" />
+  <!-- 日めくりカレンダーだ -->
+  <Dialogue Key="Map.NeckRoomCalendarStage1Dialogue1FaceNone" Value="It’s a daily wall calendar." Face="None" Mono="False" />
+  <!-- よく見ると数週間前からめくられていないようだ -->
+  <Dialogue Key="Map.NeckRoomCalendarStage1Dialogue2FaceNone" Value="Looks like Tsubaki hasn’t torn,off a page for a few weeks." Face="None" Mono="False" />
+  <!-- 驚くほど小さいちゃぶ台だ -->
+  <Dialogue Key="Map.NeckRoomCowerStage1Dialogue1FaceNone" Value="It’s a surprisingly small table." Face="None" Mono="False" />
+  <!-- おかしやジュースなどを置くときに使うのだろうか -->
+  <Dialogue Key="Map.NeckRoomCowerStage1Dialogue2FaceNone" Value="There’s barely enough room,for snacks and drinks，let,alone books." Face="None" Mono="False" />
+  <!-- アリス　予選はエイエンスクエアだぜ！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage1Dialogue1FaceTsubakiNekku" Value="Alice，the qualifiers are in,Eien Square!" Face="TsubakiNekku" Mono="False" />
+  <!-- 自分のパソコンからアクセスしろよな！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage1Dialogue2FaceTsubakiNekku" Value="Go ahead and use my,computer!" Face="TsubakiNekku" Mono="False" />
+  <!-- お互い予選突破したんだ大会で戦うのが楽しみだぜ！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage3Dialogue1FaceTsubakiNekku" Value="I’m looking forward to battlin’,you in the tournament!" Face="TsubakiNekku" Mono="False" />
+  <!-- アリス　来たな！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage5Dialogue1FaceTsubakiNekku" Value="Alice! So you decided,to pay me a visit!" Face="TsubakiNekku" Mono="False" />
+  <!-- Ｎ１リーグのリベンジを申し込む！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage5Dialogue2FaceTsubakiNekku" Value="I want some revenge for the,N1 League!" Face="TsubakiNekku" Mono="False" />
+  <!-- 天子がケガして入院したんだってな････ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage7Dialogue1FaceTsubakiNekku" Value="Tenshi got hurt and is in,the hospital，huh...." Face="TsubakiNekku" Mono="False" />
+  <!-- お見舞いに行くときは俺も誘ってくれよな -->
+  <Dialogue Key="Map.NeckRoomNekkuStage7Dialogue2FaceTsubakiNekku" Value="Whenever you’re gonna pay,her a visit，invite me too." Face="TsubakiNekku" Mono="False" />
+  <!-- お？ネットバトルしたいのか？ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage7Dialogue3FaceTsubakiNekku" Value="Hm?,You wanna Netbattle?" Face="TsubakiNekku" Mono="False" />
+  <!-- おーアリス帰ってきてたのかおかえり！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue1FaceTsubakiNekku" Value="Hey Alice，you’re back!" Face="TsubakiNekku" Mono="False" />
+  <!-- どうだ　旅行先でなにかロマンスでもあったか？ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue2FaceTsubakiNekku" Value="How was it?,Any exotic encounters with,romantic foreigners?" Face="TsubakiNekku" Mono="False" />
+  <!-- ロマンス・・・・そうね切ない青春だったわ････ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue3FaceAlice" Value="Romance....,Oh，it was over before I,knew it...." Face="Alice" Mono="False" />
+  <!-- お　おう････まあ元気出せよ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue4FaceTsubakiNekku" Value="Oh! Uh....,It’s going to be okay....?" Face="TsubakiNekku" Mono="False" />
+  <!-- あ　おみやげだけど英語版のアニメディスクでよかったかな？ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue5FaceAlice" Value="I got you a souvenir. I wasn’t,sure if you’d like it，but here’s a,DVD of an Engelles animation." Face="Alice" Mono="False" />
+  <!-- おっ　サンキュー！これ日本じゃレアなんだよな！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue6FaceTsubakiNekku" Value="Oh，thank you! It’s tough to get,these in Japan!" Face="TsubakiNekku" Mono="False" />
+  <!-- ････そのうちいいことあるって！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue7FaceTsubakiNekku" Value="....It’s fine!" Face="TsubakiNekku" Mono="False" />
+  <!-- 俺なんて青春のセの字も体験したこと無いからな！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue8FaceTsubakiNekku" Value="I’ll watch it right away!,I’m sure it’ll be over.... before....,I know it...." Face="TsubakiNekku" Mono="False" />
+  <!-- ハハハハ！　ハハハハ！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue9FaceTsubakiNekku" Value="Ahahaha! Hahahaha!" Face="TsubakiNekku" Mono="False" />
+  <!-- ハハハ････　はぁ････ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage9Dialogue10FaceTsubakiNekku" Value="Aha.... hah...." Face="TsubakiNekku" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.NeckRoomNekkuStage11Dialogue1FaceShanghai" Value="Now that you’re done handing,out souvenirs，we should head,home to Mama." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage11Dialogue2FaceShanghai" Value="Time to go home!" Face="Shanghai" Mono="False" />
+  <!-- 親は恋愛なんて社会に出てからでも遅くないって言うけどよ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage13Dialogue1FaceTsubakiNekku" Value="They say it’s never too late to,have a school romance even,after you leave!" Face="TsubakiNekku" Mono="False" />
+  <!-- 学生の間に制服デートくらい経験しておきたいよな -->
+  <Dialogue Key="Map.NeckRoomNekkuStage13Dialogue2FaceTsubakiNekku" Value="I heard some adults are even,going on dates wearing school,uniforms...." Face="TsubakiNekku" Mono="False" />
+  <!-- って　うちの中学制服無かったな････ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage13Dialogue3FaceTsubakiNekku" Value="Should I hold on to my junior,high uniform....?" Face="TsubakiNekku" Mono="False" />
+  <!-- おっ！スパナマンとバトルするか？ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage13Dialogue4FaceTsubakiNekku" Value="Oh! Did you want to NetBattle?" Face="TsubakiNekku" Mono="False" />
+  <!-- ････一大事なのに力になれないのは悔しいよな -->
+  <Dialogue Key="Map.NeckRoomNekkuStage15Dialogue1FaceTsubakiNekku" Value="....It must be terrible to keep,getting dragged into all these,incidents." Face="TsubakiNekku" Mono="False" />
+  <!-- でもお前たちはヒーローになれる････そんな気がするんだ -->
+  <Dialogue Key="Map.NeckRoomNekkuStage15Dialogue2FaceTsubakiNekku" Value="But it’s how you deal with the,incidents that makes you a,hero，I feel." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.NeckRoomNekkuPostGameDialogue1" Value="Even after helping to save the,world，I still haven’t raised any,flags...." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.NeckRoomNekkuPostGameDialogue2" Value="Well，you didn’t come here to,listen to me mope!,Wanna NetBattle?" Face="TsubakiNekku" Mono="False" />
+</data>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン　社長室 -->
+  <Text Key="Map.Company3Name" Value="Border Concern HQ President Office" />
+  <!-- メリーにネットバトルを申し込む？ -->
+  <Dialogue Key="Map.Company3RanBattleStage1Dialogue1QuestionFaceShanghai" Value="Should we challenge Maribel to,a NetBattle?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.Company3RanBattleStage1Dialogue1Options" Value="Yes,No" />
+  <!-- ラン　頑張ってね -->
+  <Dialogue Key="Map.Company3RanBattleStage1Dialogue2FaceMaribel" Value="Fight well， Ran." Face="Maribel" Mono="False" />
+  <!-- 社長の命令ならば -->
+  <Dialogue Key="Map.Company3RanBattleStage1Dialogue3FaceRan" Value="As the president orders." Face="Ran" Mono="False" />
+  <!-- 私の勝ちね！ -->
+  <Dialogue Key="Map.Company3RanBattleStage3Dialogue1FaceMaribel" Value="We win!" Face="Maribel" Mono="False" />
+  <!-- さすが　強いわね -->
+  <Dialogue Key="Map.Company3RanBattleStage5Dialogue1FaceMaribel" Value="You’re very strong." Face="Maribel" Mono="False" />
+  <!-- 蓮子から教わったバスティングテクニックを見せてあげる -->
+  <Dialogue Key="Map.Company3RanBattleStage6Dialogue1FaceMaribel" Value="I’ll show you the busting,techniques Renko taught me." Face="Maribel" Mono="False" />
+  <!-- ご学友の前だからと張り切り過ぎぬよう -->
+  <Dialogue Key="Map.Company3RanBattleStage6Dialogue2FaceRan" Value="You shouldn’t overdo your,praise for your classmate." Face="Ran" Mono="False" />
+  <!-- 蓮子！今の見た？ -->
+  <Dialogue Key="Map.Company3RanBattleStage8Dialogue1FaceMaribel" Value="Renko! Did you see that?" Face="Maribel" Mono="False" />
+  <!-- やっぱり強いわねあなたたち････ -->
+  <Dialogue Key="Map.Company3RanBattleStage10Dialogue1FaceMaribel" Value="I’m strong，I swear...." Face="Maribel" Mono="False" />
+  <!-- 動くな抵抗はムダだ -->
+  <Dialogue Key="Map.Company3RanBattleStage11Dialogue1FaceMaribel" Value="I’m always free to NetBattle." Face="Maribel" Mono="False" />
+  <!-- 動くな抵抗はムダだ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue1FaceReisen" Value="Don’t move. Hands in the air." Face="Reisen" Mono="False" />
+  <!-- あら　ノックもなしに入ってくるなんて礼儀がなってないわね -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue2FacePresidentYukari" Value="Oh my.,You know，it’s quite rude to,enter without knocking." Face="PresidentYukari" Mono="False" />
+  <!-- 紫さん････あなたもＲＯＭの構成員だったんですね -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue3FaceAlice" Value="Ms. Yukari....You were a,part of ROM?" Face="Alice" Mono="False" />
+  <!-- 勘違いしないでちょうだい -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue4FacePresidentYukari" Value="Oh，I wouldn’t put it like that...." Face="PresidentYukari" Mono="False" />
+  <!-- 私は構成員ではなくパトロンいわゆるスポンサーよ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue5FacePresidentYukari" Value="More of a patron，really.,A sponsor，of sorts." Face="PresidentYukari" Mono="False" />
+  <!-- お手伝いはしているけれどあくまでも場所とお金を提供してるだけ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue6FacePresidentYukari" Value="I would say I help，but I merely,provide money and real estate." Face="PresidentYukari" Mono="False" />
+  <!-- スポンサー････出資者ならばＲＯＭの主犯格は別にいるということか -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue7FaceReisen" Value="Sponsor....,So there is another，pulling the,strings." Face="Reisen" Mono="False" />
+  <!-- まさか････私に「それが誰か」なんて聞くんじゃないわよね？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue8FacePresidentYukari" Value="Don’t think you can get any,information out of me." Face="PresidentYukari" Mono="False" />
+  <!-- 簡単に口を割るとはハナから思ってはいない -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage1Dialogue9FaceReisen" Value="Interrogating you will certainly,be a difficult process." Face="Reisen" Mono="False" />
+  <!-- 紫さん！！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue1FaceAlice" Value="Ms. Yukari!" Face="Alice" Mono="False" />
+  <!-- どうして････どうしてあなたのような人がＲＯＭに協力するんですか！？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue2FaceAlice" Value="Why....?,Why would somebody like you,cooperate with ROM?!" Face="Alice" Mono="False" />
+  <!-- ････そうね　あなた達のような凡人には理解できないかもしれないわね -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue3FacePresidentYukari" Value="....A normal person like you,could never understand." Face="PresidentYukari" Mono="False" />
+  <!-- 大企業の社長なんかやっていると欲しいものは何でも手に入ってしまうのよ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue4FacePresidentYukari" Value="When you’re the president of a,company like mine，people let,you do whatever you want." Face="PresidentYukari" Mono="False" />
+  <!-- 豪華な家　きらびやかな芸術品欲しいものは何でも手に入る退屈な世界 -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue5FacePresidentYukari" Value="A gorgeous house!,Countless glittering artworks!,....A boring world of everything." Face="PresidentYukari" Mono="False" />
+  <!-- だから私は刺激が欲しかったの -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue6FacePresidentYukari" Value="So I wanted a stimulus." Face="PresidentYukari" Mono="False" />
+  <!-- 世界に大きなショックを与えるＲＯＭの存在は私にとって素晴らしい存在なのよ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue7FacePresidentYukari" Value="ROM -- just by existing! -- throws,the world into chaos!,Beautiful，brand-new chaos!" Face="PresidentYukari" Mono="False" />
+  <!-- そんな理由で････！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue8FaceAlice" Value="Chaos --,Just for that?!" Face="Alice" Mono="False" />
+  <!-- それだけの理由で一体何人の人が････ナビが傷ついていると！！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage3Dialogue9FaceAlice" Value="Just for that，how many people，,how many Navis，are hurting?!" Face="Alice" Mono="False" />
+  <!-- 八雲紫････ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage5Dialogue1FaceReisen" Value="Yukari Yakumo...." Face="Reisen" Mono="False" />
+  <!-- おしゃべりは牢獄の中でいくらでも聞いてやる -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage5Dialogue2FaceReisen" Value="You can explain yourself from,a jail cell." Face="Reisen" Mono="False" />
+  <!-- おとなしく投降しろ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage5Dialogue3FaceReisen" Value="Enough talk.,Surrender." Face="Reisen" Mono="False" />
+  <!-- 私にあなたの言うことを聞く義務があるの？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage5Dialogue4FacePresidentYukari" Value="Oh? But I have so much more,to say!" Face="PresidentYukari" Mono="False" />
+  <!-- 撃てるなら撃ってみなさいよ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage5Dialogue5FacePresidentYukari" Value="Are you going to shoot me?,Go on，try it!" Face="PresidentYukari" Mono="False" />
+  <!-- ････望み通りにしてやる -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage5Dialogue6FaceReisen" Value="....As you wish." Face="Reisen" Mono="False" />
+  <!-- ････電磁バリアーか！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue1FaceReisen" Value="An electromagnetic barrier!" Face="Reisen" Mono="False" />
+  <!-- フ････フフフ！我が社の技術力もなかなかのものでしょう？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue2FacePresidentYukari" Value="Heh....Hahahaha!,Our technology is quite,impressive，isn’t it?" Face="PresidentYukari" Mono="False" />
+  <!-- （バズーカ砲を撃たれるのは　予想してなかったけど　頑丈に作っててよかった････） -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue3FacePresidentYukari" Value="(She actually shot me!,It WAS a good idea to install,a forcefield in my office....)" Face="PresidentYukari" Mono="False" />
+  <!-- ならば次はこの劣化ウラン合金弾で････！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue4FaceReisen" Value="Loading armor piercing round!" Face="Reisen" Mono="False" />
+  <!-- あら　あなたちにそんなヒマがあるかしら？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue5FacePresidentYukari" Value="Are you sure you can afford to,waste that shot?" Face="PresidentYukari" Mono="False" />
+  <!-- そろそろ　お客さんがいっぱい集まってきたわ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue6FacePresidentYukari" Value="You’ve only got a small supply,and a whole lot of demand is,headed your way!" Face="PresidentYukari" Mono="False" />
+  <!-- ････あなた達を捕まえるためのロボットのお客さんがね！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue7FacePresidentYukari" Value="Robot demand!,And I think you’ll find yourself,all sold out!" Face="PresidentYukari" Mono="False" />
+  <!-- ････そうか -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue8FaceReisen" Value="....Really." Face="Reisen" Mono="False" />
+  <!-- アリス　お前はシャンハイにバリアーの解除をさせろ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue1FaceReisen" Value="Alice，you and Shanghai work,on disabling that barrier." Face="Reisen" Mono="False" />
+  <!-- あのサイズのバリアーなら携帯式ではないだろう -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue2FaceReisen" Value="A field of that size must be,controlled by something in this,room." Face="Reisen" Mono="False" />
+  <!-- バリアーに引きこもっている間は身動きがとれないはずだ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue3FaceReisen" Value="The robots should only be able,to arrive from one direction...." Face="Reisen" Mono="False" />
+  <!-- 鈴仙は！？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue4FaceAlice" Value="Reisen?!" Face="Alice" Mono="False" />
+  <!-- 廊下でロボットどもを食い止める -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue5FaceReisen" Value="I will hold them off from the,hallway." Face="Reisen" Mono="False" />
+  <!-- 聞いたわね　シャンハイ！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage11Dialogue1FaceAlice" Value="Shanghai! You heard her!" Face="Alice" Mono="False" />
+  <!-- バリアーの制御端末を探して解除するのよ！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage11Dialogue2FaceAlice" Value="Find the control terminal for the,barrier and take it out!" Face="Alice" Mono="False" />
+  <!-- さあて　あのアホ社長に吠え面かかせてやりますか！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage11Dialogue3FaceShanghai" Value="We’ll show that idiot president!" Face="Shanghai" Mono="False" />
+  <!-- バリアは解除しました！もう諦めてください！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage13Dialogue1FaceAlice" Value="The barrier’s down!,Please，give up!" Face="Alice" Mono="False" />
+  <!-- フ････フン！まだよ！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage13Dialogue2FacePresidentYukari" Value="Hrk! Not yet!" Face="PresidentYukari" Mono="False" />
+  <!-- あのネットエージェントを片付けた戦闘用シキガミがもうすぐ････！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage13Dialogue3FacePresidentYukari" Value="My robot Shikigami will take,down that troublesome,NetAgent，then....!" Face="PresidentYukari" Mono="False" />
+  <!-- 頼みの綱のロボット共なら今すべて鉄クズになったぞ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue1FaceReisen" Value="The scrap has been dealt with." Face="Reisen" Mono="False" />
+  <!-- 鈴仙！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue2FaceAlice" Value="Reisen!" Face="Alice" Mono="False" />
+  <!-- そ　そんな！？２００体の戦闘用シキガミがこんな子供なんかに！？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue3FacePresidentYukari" Value="What?! 200 combat Shikigami,destroyed by a mere child?!" Face="PresidentYukari" Mono="False" />
+  <!-- 先入観にとらわれた貧困な発想か････ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue4FaceReisen" Value="You should not let your biases,color your perception." Face="Reisen" Mono="False" />
+  <!-- 私は年齢こそ低いが戦場に身をおいた長さはヘタな兵士よりも上だ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue5FaceReisen" Value="I may be young，but I have,spent more years in battle than,any common soldier." Face="Reisen" Mono="False" />
+  <!-- 多少手間取ったがあの程度６歳の頃に体験した激戦に比べればチンピラ退治だ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue6FaceReisen" Value="Compared to the battles I,fought at age 6，this was an,inconvenience，and only that." Face="Reisen" Mono="False" />
+  <!-- あんたの想像力のほうが貧困だったようね -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue7FaceShanghai" Value="Yeah! Child’s play!" Face="Shanghai" Mono="False" />
+  <!-- （鈴仙もシャンハイも　規格外すぎると思うけど） -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue8FaceAlice" Value="(I don’t think Reisen or,Shanghai know what normal,means....)" Face="Alice" Mono="False" />
+  <!-- こ　このコムスメどもが････！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue1FacePresidentYukari" Value="This girl....!" Face="PresidentYukari" Mono="False" />
+  <!-- ナビを失い　バリアも失せ最後の手段のロボットは全滅････ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue2FaceReisen" Value="Your barrier has fallen.,Your last robots have been,defeated." Face="Reisen" Mono="False" />
+  <!-- これでもまだ　抵抗するか？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue3FaceReisen" Value="Do you still wish to resist?" Face="Reisen" Mono="False" />
+  <!-- 私はボーダーコンツェルンの八雲紫なのよ！！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue4FacePresidentYukari" Value="I AM Border Concern!,I’m Yukari Yakumo!,This can’t happen to me!" Face="PresidentYukari" Mono="False" />
+  <!-- それもあと僅かの話だ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue5FaceReisen" Value="Quite. I imagine many will be,interested to hear about your,criminal dealings." Face="Reisen" Mono="False" />
+  <!-- 犯罪組織への関与が公表されればその地位も失われることとなる -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue6FaceReisen" Value="Once the public learns of your,involvement with ROM， you will,likely lose your position." Face="Reisen" Mono="False" />
+  <!-- おとなしく逮捕され情報を提供すれば罪も少しは軽くなるが････ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue7FaceReisen" Value="Cooperate and reveal what you,know about ROM，and you,may be shown leniency." Face="Reisen" Mono="False" />
+  <!-- フン････！それはあくまでもこの世界が無事ならの話でしょう？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue8FacePresidentYukari" Value="Hrk! What if....that doesn’t,happen? What if the world is,engulfed in chaos?" Face="PresidentYukari" Mono="False" />
+  <!-- まだこっちには切り札が残っているのよ！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue9FacePresidentYukari" Value="I still have one trump card left!" Face="PresidentYukari" Mono="False" />
+  <!-- 切り札！？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue10FaceAlice" Value="A trump card?!" Face="Alice" Mono="False" />
+  <!-- ここが最先端技術を扱うボーダーコンツェルンだということを忘れたわけじゃないでしょう？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue11FacePresidentYukari" Value="Did you forget you were in the,HQ of Border Concern?,At the forefront of technology?" Face="PresidentYukari" Mono="False" />
+  <!-- バイバイ　おじゃま虫さん！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue12FacePresidentYukari" Value="Goodbye，you disturbed,insects!" Face="PresidentYukari" Mono="False" />
+  <!-- 転送！！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue13FacePresidentYukari" Value="Transfer!" Face="PresidentYukari" Mono="False" />
+  <!-- き････消えた！？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage19Dialogue1FaceAlice" Value="Shes....gone?!" Face="Alice" Mono="False" />
+  <!-- 生体反応消失････ステルスの類ではなく本当にワープしたみたいだな -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage19Dialogue2FaceReisen" Value="True teleportation....,That was no disguised stealth,system." Face="Reisen" Mono="False" />
+  <!-- 現実の人間を転送する技術まさか実現していたなんてね････ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage19Dialogue3FaceShanghai" Value="Teleportation in the real world?,There’s no way...." Face="Shanghai" Mono="False" />
+  <!-- ふたりとも　ご苦労様あとは私たちにまかせてちょうだい -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue1FaceSagume" Value="We’ll take over from here.,Feel free to go home and take,a rest." Face="Sagume" Mono="False" />
+  <!-- このビルをくまなく捜査すれば念願のＲＯＭの情報が得られるかもしれないし -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue2FaceSagume" Value="I’m sure they left the information,we’re looking for somewhere in,this building." Face="Sagume" Mono="False" />
+  <!-- 了解しましたあとは頼みます -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue3FaceReisen" Value="I understand." Face="Reisen" Mono="False" />
+  <!-- シャンハイ私たちも帰ろうか -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue4FaceAlice" Value="Let’s go home，Shanghai." Face="Alice" Mono="False" />
+  <!-- そうね　とりあえず外に出ましょう -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue5FaceShanghai" Value="Outside this building，at least." Face="Shanghai" Mono="False" />
+  <!-- アリス　身体は大丈夫？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage23Dialogue1FaceShanghai" Value="Alice，are you alright?" Face="Shanghai" Mono="False" />
+  <!-- うん　ビリッとしたところがちょっと赤くなってるだけ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage23Dialogue2FaceAlice" Value="I’m fine，just a little redness." Face="Alice" Mono="False" />
+  <!-- ならいいけど -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage23Dialogue3FaceShanghai" Value="Thank goodness." Face="Shanghai" Mono="False" />
+  <!-- 関与を調べるつもりがとんだ大事件になっちゃったわね -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage23Dialogue4FaceShanghai" Value="I didn’t think this investigation,would go like this." Face="Shanghai" Mono="False" />
+  <!-- でも　これでＲＯＭとの戦いも有利になったんじゃないかな？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage23Dialogue5FaceAlice" Value="I think we’re finally one step,ahead of ROM." Face="Alice" Mono="False" />
+  <!-- そう････思いたいわね -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage23Dialogue6FaceShanghai" Value="I hope so. But I think so，too." Face="Shanghai" Mono="False" />
+  <!-- （「この世界が無事ならの話」　あいつはそう言っていた････） -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage25Dialogue1FaceShanghai" Value="(”Engulfed in chaos”....)" Face="Shanghai" Mono="False" />
+  <!-- （世界を震撼させる何かが　この先にあるってことよね････） -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage25Dialogue2FaceShanghai" Value="(Something big’s coming，and,it’s going to shake the world....)" Face="Shanghai" Mono="False" />
+  <!-- （でも　たとえ何が起ころうとも　アリスだけは････） -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage25Dialogue3FaceShanghai" Value="(But no matter what happens....)" Face="Shanghai" Mono="False" />
+  <!-- （アリスだけは絶対に　あたしが守る････！） -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage25Dialogue4FaceShanghai" Value="(No matter what!,I will keep Alice safe!)" Face="Shanghai" Mono="False" />
+  <!-- ････お家に帰りましょう？ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage27Dialogue1FaceShanghai" Value="....Shall we go home?" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！ -->
+  <Dialogue Key="Map.Company3Chapter7EventsStage27Dialogue2FaceAlice" Value="....Yes!" Face="Alice" Mono="False" />
+  <!-- ボーダーコンツェルンの社長机だ -->
+  <!-- ボーダーコンツェルンの社長机だ -->
+  <Dialogue Key="Map.Company3MachineStage1Dialogue1FaceNone" Value="It’s the desk of the president of,Border Concern." Face="None" Mono="False" />
+  <!-- 大企業の社長の机らしく表面はピッカピカに磨き上げられている -->
+  <Dialogue Key="Map.Company3MachineStage1Dialogue2FaceNone" Value="The desk surface is polished,like a mirror." Face="None" Mono="False" />
+  <!-- 社長室のサーバーだ -->
+  <Dialogue Key="Map.Company3ServerStage1Dialogue1FaceNone" Value="It’s a server belonging to the,president of Border Concern." Face="None" Mono="False" />
+  <!-- 機密情報のデータ保持の他に転送技術や電磁バリアの制御も行っているようだ -->
+  <Dialogue Key="Map.Company3ServerStage1Dialogue2FaceNone" Value="It seems to control a teleporter,and a forcefield，in addition to,storing confidential information." Face="None" Mono="False" />
+  <!-- 社長室のサーバーだ -->
+  <Dialogue Key="Map.Company3ServerDupeStage1Dialogue1FaceNone" Value="It’s a server belonging to the,president of Border Concern." Face="None" Mono="False" />
+  <!-- 機密情報のデータ保持の他に転送技術や電磁バリアの制御も行っているようだ -->
+  <Dialogue Key="Map.Company3ServerDupeStage1Dialogue2FaceNone" Value="It seems to control a teleporter,and a forcefield，in addition to,storing confidential information." Face="None" Mono="False" />
+  <!-- 企業経営や帝王学が記されている本が天井近くまで収められている本棚だ -->
+  <Dialogue Key="Map.Company3BookShelfStage1Dialogue1FaceNone" Value="It’s a bookshelf of corporate,strategy and empire-building,books，filled to the ceiling." Face="None" Mono="False" />
+  <!-- どの本も年季が入っており長い時間取り出されていないようだ -->
+  <Dialogue Key="Map.Company3BookShelfStage1Dialogue2FaceNone" Value="It seems to be decorative --,none of the books have been,moved in a long time." Face="None" Mono="False" />
+  <!-- 来客対応用の長椅子だ -->
+  <Dialogue Key="Map.Company3AChaiseLongueStage1Dialogue1FaceNone" Value="It’s a chaise lounge chair for,guests." Face="None" Mono="False" />
+  <!-- 座り心地の悪さがかつての社長の性格を表現しているようだ -->
+  <Dialogue Key="Map.Company3AChaiseLongueStage1Dialogue2FaceNone" Value="Its awkward positioning reveals,the true nature of the former,president." Face="None" Mono="False" />
+  <!-- 社長専用の自動販売機だ -->
+  <Dialogue Key="Map.Company3VendingMachineStage1Dialogue1FaceNone" Value="It’s the president’s own vending,machine." Face="None" Mono="False" />
+  <!-- 案外　社長というのも庶民的なものをたしなむのかも知れない -->
+  <Dialogue Key="Map.Company3VendingMachineStage1Dialogue2FaceNone" Value="Maybe they were fascinated by,owning everyday objects....?" Face="None" Mono="False" />
+  <!-- 側面に小さく５９７５４５６５　と落書きされている -->
+  <Dialogue Key="Map.Company3VendingMachineStage1Dialogue3FaceNone" Value="The numbers ”59754565” are,scribbled on the side next to,some graffiti." Face="None" Mono="False" />
+  <!-- かつての社長が集めたらしいコレクションが展示されている -->
+  <Dialogue Key="Map.Company3ShowcaseStage1Dialogue1FaceNone" Value="An exhibit of the former,president’s collection." Face="None" Mono="False" />
+  <!-- 一見ガラクタの山に見えるが目の飛び出る価値があるに違いない -->
+  <Dialogue Key="Map.Company3ShowcaseStage1Dialogue2FaceNone" Value="It looks like a pile of junk....,Maybe there’s something I don’t,get....?" Face="None" Mono="False" />
+  <!-- 高級な空気清浄機だ -->
+  <Dialogue Key="Map.Company3AirCleanerStage1Dialogue1FaceNone" Value="It’s a luxury air purifier." Face="None" Mono="False" />
+  <!-- 高級品で清浄された空気はさぞかし高級なのだろう -->
+  <Dialogue Key="Map.Company3AirCleanerStage1Dialogue2FaceNone" Value="High-class air for high-class,people." Face="None" Mono="False" />
+  <!-- ････深呼吸をしてみたが庶民には違いがわからない -->
+  <Dialogue Key="Map.Company3AirCleanerStage1Dialogue3FaceNone" Value="I took a deep breath，but I can’t,tell the difference." Face="None" Mono="False" />
+  <!-- 初めましてあなたが依頼を受けてくれたアリスさんね？ -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue1FaceMaribel" Value="It’s nice to meet you，Alice.,You’re the one who accepted,my request?" Face="Maribel" Mono="False" />
+  <!-- 私はボーダーコンツェルンの新社長のマエリベリー･ハーンメリーって呼んでね -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue2FaceMaribel" Value="I’m the new president of Border,Concern，Maribel Hearn." Face="Maribel" Mono="False" />
+  <!-- 新社長････と言う割にはやけに若いわね？ -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue3FaceShanghai" Value="The new president....,Aren’t you a bit young?" Face="Shanghai" Mono="False" />
+  <!-- 前社長の姪というだけでこの地位に据えられた人間でもあるから -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue4FaceMaribel" Value="I was given the position as the,neice of the previous president." Face="Maribel" Mono="False" />
+  <!-- いつかはこうなると思ってちゃんと経営の勉強はしっかりしてたけどね -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue5FaceMaribel" Value="I anticipated this would happen,some day，so I had already,begun studying business." Face="Maribel" Mono="False" />
+  <!-- うちのバカ伯母がご迷惑をおかけしました -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue6FaceMaribel" Value="However，my idiot aunt has,made things very inconvenient,for me." Face="Maribel" Mono="False" />
+  <!-- あ　どうも････ -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue7FaceAlice" Value="I’m sure you’ll figure things out!" Face="Alice" Mono="False" />
+  <!-- かしこまらなくてもいいわよこれでも自分の手腕に自信があるんだから -->
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue8FaceMaribel" Value="Thank you，but your confidence,is unnecessary. I have full,understanding of the business." Face="Maribel" Mono="False" />
+  <!-- それで本題なんだけどあなたもご存知の前社長が秘書ナビに鍵をかけちゃって -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue1FaceMaribel" Value="The real issue is that my aunt,has locked the secretary Navi,behind strong protections." Face="Maribel" Mono="False" />
+  <!-- そのナビがいないと社長としての仕事ができないから困っているのよ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue2FaceMaribel" Value="Knowledge of the business is,useless without the ability to,execute my tasks!" Face="Maribel" Mono="False" />
+  <!-- そのプロテクトというのはどういうものなんですか？ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue3FaceAlice" Value="What do you mean by,protections?" Face="Alice" Mono="False" />
+  <!-- ＲＯＭ謹製のウィルス放出型プロテクトよ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue4FaceMaribel" Value="ROM-derived protections that,release viruses on access." Face="Maribel" Mono="False" />
+  <!-- ウィルスを倒しきればプロテクトが解除できることはわかっているんだけれど -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue5FaceMaribel" Value="The protections are then lifted,once the viruses have been,defeated." Face="Maribel" Mono="False" />
+  <!-- じゃあ話が早いわあたしたちに任せなさい！ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue6FaceShanghai" Value="Virus busting? This’ll be over in,a second!" Face="Shanghai" Mono="False" />
+  <!-- ありがとう！ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue7FaceMaribel" Value="Thank you!" Face="Maribel" Mono="False" />
+  <!-- ナビのある場所はこの会社のサーバーの電脳の社長室にあたる所よ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue8FaceMaribel" Value="The locked Navi can be found,in the server for this office." Face="Maribel" Mono="False" />
+  <!-- よろしくね！ -->
+  <Dialogue Key="Map.Company3Request15MerryStage3Dialogue9FaceMaribel" Value="It was a pleasure to meet you!" Face="Maribel" Mono="False" />
+  <!-- ナビのある場所はこの会社のサーバーの電脳の社長室にあたる所よ -->
+  <Dialogue Key="Map.Company3Request15MerryStage5Dialogue1FaceMaribel" Value="The locked Navi can be found,in the server for this office." Face="Maribel" Mono="False" />
+  <!-- よろしくね！ -->
+  <Dialogue Key="Map.Company3Request15MerryStage5Dialogue2FaceMaribel" Value="It was a pleasure to meet you!" Face="Maribel" Mono="False" />
+  <!-- ふたりともありがとう！これで社長として仕事ができるわ！ -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue1FaceMaribel" Value="Thank you both!,Now I’m truly the president of,Border Concern." Face="Maribel" Mono="False" />
+  <!-- それにしてもあのプロテクトを解除するなんてさすが蓮子に勝ったあなた達ね -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue2FaceMaribel" Value="....You’re the one who beat,Renko!" Face="Maribel" Mono="False" />
+  <!-- 蓮子さんってＮ１リーグで戦った人で菫子さんのお姉さんですっけ？ -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue3FaceAlice" Value="Renko....In the N1 League?,Sumireko’s older sister?" Face="Alice" Mono="False" />
+  <!-- 蓮子とは親友同士なのネットバトルのテクニックも教えてもらってるわ -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue4FaceMaribel" Value="She’s my best friend，and she’s been,teaching me NetBattling,techniques." Face="Maribel" Mono="False" />
+  <!-- ････とまあお話は今度にしてこれが報酬よ -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue5FaceMaribel" Value="....We can talk later，here’s your,reward." Face="Maribel" Mono="False" />
+  <!-- 私もネットバトルをやってるから今度バトルしましょう -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue6FaceMaribel" Value="Let’s NetBattle some time." Face="Maribel" Mono="False" />
+  <!-- はい！ -->
+  <Dialogue Key="Map.Company3Request15MerryStage7Dialogue7FaceAlice" Value="Of course!" Face="Alice" Mono="False" />
+  <!-- あらいらっしゃいこの間はありがとうね -->
+  <Dialogue Key="Map.Company3Request15MerryStage9Dialogue1FaceMaribel" Value="Ah，thank you for coming by." Face="Maribel" Mono="False" />
+  <!-- 久しぶり！メリーがお世話になったみたいね -->
+  <Dialogue Key="Map.Company3RenkoStage1Dialogue1FaceRenko" Value="It’s been a long time! I heard,you helped Maribel with a,problem she’d been having." Face="Renko" Mono="False" />
+  <!-- メリーってこの会社をいつか継ぐだろうからってずっと経営の勉強頑張ってたのよ -->
+  <Dialogue Key="Map.Company3RenkoStage1Dialogue2FaceRenko" Value="She’s been working real hard to,study management now that,she’s president." Face="Renko" Mono="False" />
+  <!-- 今なんて大学に通いながら社長やってるんだから大したものよね････ -->
+  <Dialogue Key="Map.Company3RenkoStage1Dialogue3FaceRenko" Value="College，while acting as,president....,That’s crazy!" Face="Renko" Mono="False" />
+</data>

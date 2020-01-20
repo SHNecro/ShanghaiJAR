@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 花だんの電脳 -->
+  <Text Key="Map.FlowerbedName" Value="花だんの電脳" />
+  <!-- お待ちしておりましたシャンハイ様 -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue1FaceNaviRedSprite" Value="お待ちしておりました,シャンハイ様" Face="NaviRedSprite" Mono="False" />
+  <!-- あなたって私の家のスプライトちゃん？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue2FaceAlice" Value="あなたって私の家の,スプライトちゃん？" Face="Alice" Mono="False" />
+  <!-- 指定した場所でだいたい予想はついてたけどね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue3FaceShanghai" Value="指定した場所でだいたい,予想はついてたけどね" Face="Shanghai" Mono="False" />
+  <!-- それで････ナビになりたいって？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue4FaceShanghai" Value="それで････,ナビになりたいって？" Face="Shanghai" Mono="False" />
+  <!-- はい････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue5FaceNaviRedSprite" Value="はい････" Face="NaviRedSprite" Mono="False" />
+  <!-- 私は神綺ママさんの元で働かせてもらっています -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue6FaceNaviRedSprite" Value="私は神綺ママさんの元で,働かせてもらっています" Face="NaviRedSprite" Mono="False" />
+  <!-- あの方はいちスプライトである私にそれはもう優しく接してくれ家族のように扱ってくれました -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue7FaceNaviRedSprite" Value="あの方はいちスプライトである,私にそれはもう優しく接してくれ,家族のように扱ってくれました" Face="NaviRedSprite" Mono="False" />
+  <!-- しかし私はスプライト････できることは多くありません -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue8FaceNaviRedSprite" Value="しかし私はスプライト････,できることは多くありません" Face="NaviRedSprite" Mono="False" />
+  <!-- そこで　私がナビになればあのお方のもとでもっとお役に立てると思ったのです -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue9FaceNaviRedSprite" Value="そこで　私がナビになれば,あのお方のもとでもっと,お役に立てると思ったのです" Face="NaviRedSprite" Mono="False" />
+  <!-- 泣かせる話じゃないの -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue1FaceShanghai" Value="泣かせる話じゃないの" Face="Shanghai" Mono="False" />
+  <!-- でも　スプライトちゃんがナビになるって可能なの？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue2FaceAlice" Value="でも　スプライトちゃんが,ナビになるって可能なの？" Face="Alice" Mono="False" />
+  <!-- 私が集めた情報の中にかつてスプライトをナビに転生させる方法がありました -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue3FaceNaviRedSprite" Value="私が集めた情報の中に,かつてスプライトをナビに,転生させる方法がありました" Face="NaviRedSprite" Mono="False" />
+  <!-- なんでも転生プログラムというものでバージョンアップを行うとか････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue4FaceNaviRedSprite" Value="なんでも転生プログラムという,ものでバージョンアップを,行うとか････" Face="NaviRedSprite" Mono="False" />
+  <!-- シャンハイ様にはその「転生プログラム」を手に入れていただきたいのです -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue5FaceNaviRedSprite" Value="シャンハイ様にはその,「転生プログラム」を手に入れて,いただきたいのです" Face="NaviRedSprite" Mono="False" />
+  <!-- 名前以外に情報は？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue6FaceShanghai" Value="名前以外に情報は？" Face="Shanghai" Mono="False" />
+  <!-- ････ありません -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue7FaceNaviRedSprite" Value="････ありません" Face="NaviRedSprite" Mono="False" />
+  <!-- 困ったわねそれだけじゃ探しようが････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue8FaceAlice" Value="困ったわね,それだけじゃ探しようが････" Face="Alice" Mono="False" />
+  <!-- アリス　わかってないわね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue9FaceShanghai" Value="アリス　わかってないわね" Face="Shanghai" Mono="False" />
+  <!-- こういうときに頼れる相手をあたしたちは知ってるじゃない -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue10FaceShanghai" Value="こういうときに頼れる相手を,あたしたちは知ってるじゃない" Face="Shanghai" Mono="False" />
+  <!-- あっ！千里眼おじさんね！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue11FaceAlice" Value="あっ！,千里眼おじさんね！" Face="Alice" Mono="False" />
+  <!-- じいさんだった気がするけど････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue12FaceShanghai" Value="じいさんだった気がするけど････" Face="Shanghai" Mono="False" />
+  <!-- たしかエイエンスクエアにいたから　訪ねてみましょ！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue13FaceShanghai" Value="たしかエイエンスクエアに,いたから　訪ねてみましょ！" Face="Shanghai" Mono="False" />
+  <!-- 転生プログラム････どうかお願いしますね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage5Dialogue1FaceNaviRedSprite" Value="転生プログラム････,どうかお願いしますね" Face="NaviRedSprite" Mono="False" />
+  <!-- 持ってきたわよ！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue1FaceShanghai" Value="持ってきたわよ！" Face="Shanghai" Mono="False" />
+  <!-- おお　ありがとうございます！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue2FaceNaviRedSprite" Value="おお　ありがとうございます！" Face="NaviRedSprite" Mono="False" />
+  <!-- このような貴重なシロモノを手に入れるため　さぞかし大変な目にあわれたでしょう -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue3FaceNaviRedSprite" Value="このような貴重なシロモノを,手に入れるため　さぞかし,大変な目にあわれたでしょう" Face="NaviRedSprite" Mono="False" />
+  <!-- この御恩をこの身に刻み必ずしやいつしか････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue4FaceNaviRedSprite" Value="この御恩をこの身に刻み,必ずしやいつしか････" Face="NaviRedSprite" Mono="False" />
+  <!-- えーっと････前置きは良いからさっさと使いなさいよ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue5FaceShanghai" Value="えーっと････,前置きは良いからさっさと,使いなさいよ" Face="Shanghai" Mono="False" />
+  <!-- あ　はい！では････ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage7Dialogue6FaceNaviRedSprite" Value="あ　はい！,では････" Face="NaviRedSprite" Mono="False" />
+  <!-- 転生プログラムインストール････！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage9Dialogue1FaceNaviRedSprite" Value="転生プログラム,インストール････！" Face="NaviRedSprite" Mono="False" />
+  <!-- お・・・・おお････！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage11Dialogue1FaceYumeko" Value="お・・・・おお････！" Face="Yumeko" Mono="False" />
+  <!-- すごーい！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage11Dialogue2FaceAlice" Value="すごーい！" Face="Alice" Mono="False" />
+  <!-- よくもまあこんなに変わるもんねぇ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage11Dialogue3FaceShanghai" Value="よくもまあこんなに,変わるもんねぇ" Face="Shanghai" Mono="False" />
+  <!-- あら　アリスちゃんどうしたのお家の前で････？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue1FaceMama" Value="あら　アリスちゃんどうしたの,お家の前で････？" Face="Mama" Mono="False" />
+  <!-- 神綺ママさん！！私です！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue2FaceYumeko" Value="神綺ママさん！！,私です！" Face="Yumeko" Mono="False" />
+  <!-- あら　あらあら！あらあらあら！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue3FaceMama" Value="あら　あらあら！,あらあらあら！" Face="Mama" Mono="False" />
+  <!-- あなた様のお役に立てるようネットナビへと転生いたしました！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue4FaceYumeko" Value="あなた様のお役に立てるよう,ネットナビへと,転生いたしました！" Face="Yumeko" Mono="False" />
+  <!-- 私のために････ありがとう！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue5FaceMama" Value="私のために････ありがとう！" Face="Mama" Mono="False" />
+  <!-- そうね　ナビになったのなら名前をつけてあげなきゃいけないわね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue6FaceMama" Value="そうね　ナビになったのなら,名前をつけてあげなきゃ,いけないわね" Face="Mama" Mono="False" />
+  <!-- そうね････ユメコ　なんてどうかしら？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue7FaceMama" Value="そうね････,ユメコ　なんてどうかしら？" Face="Mama" Mono="False" />
+  <!-- ユメコ？ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue8FaceAlice" Value="ユメコ？" Face="Alice" Mono="False" />
+  <!-- アリスちゃんの名前を考えたときに　日本名として考えてた名前なの -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue9FaceMama" Value="アリスちゃんの名前を,考えたときに　日本名として,考えてた名前なの" Face="Mama" Mono="False" />
+  <!-- ヨーリカ寄りの名前　アリス日本寄りの名前　夢子最後まですごく迷ったわ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue10FaceMama" Value="ヨーリカ寄りの名前　アリス,日本寄りの名前　夢子,最後まですごく迷ったわ" Face="Mama" Mono="False" />
+  <!-- ユメコ････良い名をいただき感謝の極みです！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue11FaceYumeko" Value="ユメコ････良い名をいただき,感謝の極みです！" Face="Yumeko" Mono="False" />
+  <!-- あっ　シャンハイ様には御礼の品としてこれをお送りします！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue12FaceYumeko" Value="あっ　シャンハイ様には,御礼の品としてこれを,お送りします！" Face="Yumeko" Mono="False" />
+  <!-- では早速！この新しい身体でお仕事に取り掛からせていただきます！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue13FaceYumeko" Value="では早速！,この新しい身体でお仕事に,取り掛からせていただきます！" Face="Yumeko" Mono="False" />
+  <!-- なんだか家族が増えたみたい！ -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage15Dialogue1FaceAlice" Value="なんだか,家族が増えたみたい！" Face="Alice" Mono="False" />
+  <!-- ナビになった以上あの子にいろいろなノウハウを叩き込まなきゃね -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage15Dialogue2FaceShanghai" Value="ナビになった以上,あの子にいろいろなノウハウを,叩き込まなきゃね" Face="Shanghai" Mono="False" />
+  <!-- （なんだかかわいそう････） -->
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage15Dialogue3FaceAlice" Value="（なんだかかわいそう････）" Face="Alice" Mono="False" />
+  <Text Key="Map.FlowerbedTestSprite2Battle1Enemy1" Value="チンピラアニキ" />
+  <!-- ボマー -->
+  <Text Key="Map.FlowerbedTestSprite2Battle1Enemy2" Value="ボマー" />
+  <!-- モブナビ -->
+  <Text Key="Map.FlowerbedTestSprite2Battle1Enemy3" Value="モブナビ" />
+  <!-- ジトー････ -->
+  <Dialogue Key="Map.FlowerbedSprite1Stage1Dialogue1FaceSprite" Value="ジトー････" Face="Sprite" Mono="False" />
+  <!-- キョウモ　セイイッパイシンキケノ　イエヲミハッテイマス！ -->
+  <Dialogue Key="Map.FlowerbedSprite1Stage1Dialogue2FaceSprite" Value="キョウモ　セイイッパイ,シンキケノ　イエヲ,ミハッテイマス！" Face="Sprite" Mono="False" />
+  <!-- ジトー････ -->
+  <Dialogue Key="Map.FlowerbedSprite1Stage1Dialogue3FaceSprite" Value="ジトー････" Face="Sprite" Mono="False" />
+  <!-- ワタシハ　カメラガウツシタエイゾウヲ　ケイタイタンマツニオクル　スプライトデス -->
+  <Dialogue Key="Map.FlowerbedSprite2Stage1Dialogue1FaceSprite" Value="ワタシハ　カメラガウツシタ,エイゾウヲ　ケイタイタンマツニ,オクル　スプライトデス" Face="Sprite" Mono="False" />
+  <!-- デモ　ママサンッテ　アマリオデカケヲ　シナイモノデスカラワリト　ヒマナンデスヨネ〜 -->
+  <Dialogue Key="Map.FlowerbedSprite2Stage1Dialogue2FaceSprite" Value="デモ　ママサンッテ　アマリ,オデカケヲ　シナイモノデスカラ,ワリト　ヒマナンデスヨネ〜" Face="Sprite" Mono="False" />
+</data>

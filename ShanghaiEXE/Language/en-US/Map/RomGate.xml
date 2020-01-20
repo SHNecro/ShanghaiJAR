@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭ基地ゲートの電脳 -->
+  <Text Key="Map.RomGateName" Value="ROM Base Gate Comp" />
+  <!-- クルモノ　コバミデルモノ　オウ -->
+  <Dialogue Key="Map.RomGateSprite1Stage1Dialogue1FaceSprite" Value="WHO GOES THERE?!" Face="Sprite" Mono="False" />
+  <!-- ソレガワレワレノ　シゴトデス -->
+  <Dialogue Key="Map.RomGateSprite1Stage1Dialogue2FaceSprite" Value="THAT’S MY JOB!,I YELL THAT!" Face="Sprite" Mono="False" />
+  <!-- ゲートオープンゲートオープンピピピピ････ -->
+  <Dialogue Key="Map.RomGateSprite2Stage1Dialogue1FaceSprite" Value="SCANNING....,BIBIBIBIBIBI!" Face="Sprite" Mono="False" />
+</data>

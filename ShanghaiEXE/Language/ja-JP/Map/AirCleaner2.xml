@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner2Name" Value="空気清浄機の電脳２" />
+  <Dialogue Key="Map.AirCleaner2ControlStage1Dialogue1FaceShanghai" Value="こいつを止めれば！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage1Dialogue2FaceShanghai" Value="またウィルスがっ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue1FaceNone" Value="#b@false#ウ#w@10#ィ#w@10#ィ#w@10#ィ#w@10#ィ#w@10#イ#w@10#イ#w@10#イ#w@10#ン" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue2FaceAlice" Value="やったわねシャンハイ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue3FaceAlice" Value="････どうしたの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue4FaceShanghai" Value="今更だけどさ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue5FaceShanghai" Value="ウィルスの形式、この前の,冷蔵庫に出たウィルスと,同じだったわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue6FaceAlice" Value="ってことは････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue7FaceShanghai" Value="この事件････,ＲＯＭが絡んでるかもしれないわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue8FaceShanghai" Value="ちょっとパソコン経由で,調べてみましょ♪" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue9FaceAlice" Value="興味本位でやってるわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue10FaceShanghai" Value="バカね,レミリアの居場所も調べてるのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue11FaceShanghai" Value="監視カメラにハッキングして,映像を盗み見るのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue12FaceShanghai" Value="#b@true#・・・・・・！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue13FaceShanghai" Value="３階の実験室に,レミリアが入って行った,映像があるわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage3Dialogue14FaceAlice" Value="３階ね！,わかったわ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2ControlStage5Dialogue1FaceNone" Value="空気清浄機は,正常に清浄している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite1Stage1Dialogue1FaceSprite" Value="アア！,ガスガ！　ガスガ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite2Stage1Dialogue1FaceSprite" Value="キュウジョ　プログラムデ,キュウジョサレルト,ココニ　ハコバレテキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite2Stage1Dialogue2FaceSprite" Value="ホントーニ　ホントーニ,ガスニハ　キヲツケテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite3Stage1Dialogue1FaceSprite" Value="ヨクミルト　ガスノスキマガ,オオキイトコロガ　アリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite3Stage1Dialogue2FaceSprite" Value="ソレヲ　リヨウシタラ,トッパデキル　ハズデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite4Stage1Dialogue1FaceSprite" Value="コノガスハ　ハヤスギテ,ニゲキレマセンヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite4Stage1Dialogue2FaceSprite" Value="トチュウノ　ワキミチデ,キュウケイスルノガ　イイカモー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2Sprite5Stage1Dialogue1FaceSprite" Value="ココヲ　コエルト,コントロールパネル　ナノデスガ,ガスガ　ヤッカイスギマスヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue1FaceShanghai" Value="ゴフッ　ガハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue2FaceShanghai" Value="ゲホッ････　う〜ん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue3FaceShanghai" Value="ぐふっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue4FaceShanghai" Value="あヅうっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue5FaceShanghai" Value="ゲフッ　ゴハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue6FaceShanghai" Value="はうっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage1Dialogue7FaceShanghai" Value="あっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage3Dialogue1FaceShanghai" Value="う　う〜ん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner2PoisonGas1Stage5Dialogue1FaceAlice" Value="毒ガスは気をつけないと,いけないわね････" Face="Alice" Mono="False" />
+</data>

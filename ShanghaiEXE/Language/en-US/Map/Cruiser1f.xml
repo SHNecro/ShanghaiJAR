@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Cruiser1fName" Value="Cruise Comp 1" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue1FaceShanghai" Value="Wah!,Don’t tell me this Comp is,flooded with water!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue2FaceAlice" Value="If that’s the case，can’t you,just swim to the other side?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue3FaceShanghai" Value="You idiot!,I can’t swim!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue4FaceShanghai" Value="So don’t go tellin’ me to dive,into the water!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue5FaceAlice" Value="(But this is the first, I’ve heard of that....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue1FaceSprite" Value="TURNING THESE RED,HANDLES WILL CHANGE,THE WATER LEVEL!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue2FaceSprite" Value="IF YOU CAN’T SWIM，YOU,SHOULDN’T ENTER ANY,SUBMERGED AREAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue3FaceSprite" Value="HOWEVER，YOU MIGHT,BE ABLE TO WALK ON,FLOATING OBJECTS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve1Stage1Dialogue1FaceNone" Value="Shanghai turned the water,level adjustment valve!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve1Stage3Dialogue1FaceNone" Value="Splaaaash!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve2Stage1Dialogue1FaceNone" Value="Shanghai turned the water,level adjustment valve!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve2Stage3Dialogue1FaceNone" Value="Splaaaash!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve3Stage1Dialogue1FaceNone" Value="Shanghai turned the water,level adjustment valve!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve3Stage3Dialogue1FaceNone" Value="Splaaaash!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve4Stage1Dialogue1FaceNone" Value="Shanghai turned the water,level adjustment valve!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve4Stage3Dialogue1FaceNone" Value="Splaaaash!" Face="None" Mono="False" />
+</data>

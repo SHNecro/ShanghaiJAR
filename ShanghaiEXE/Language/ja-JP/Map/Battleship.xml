@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.BattleshipName" Value="戦艦模型の電脳" />
+  <Dialogue Key="Map.BattleshipSprite1Stage1Dialogue1FaceSprite" Value="ダイイチジ　ウチュウタイセンノ,トキハ　カンホウシャゲキガ,メインノセントウ　ダッタケド" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite1Stage1Dialogue2FaceSprite" Value="ダイニジ　ウチュウタイセンデハ,キドウヘイキ　ニヨル,コウキドウセントウガ　メインニ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite1Stage1Dialogue3FaceSprite" Value="コレガ　センソウノハッテンッテ,イウモノナンデスカネー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite2Stage1Dialogue1FaceSprite" Value="コロニーキョウワコクガ,センセンフコクシテ,ニカイモ　センソウガオコッタヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite2Stage1Dialogue2FaceSprite" Value="２００８ネンニ　ダイイチジ,２０１３ネンニ　ダイニジ,ウチュウタイセンガ　ボッパツ！" Face="Sprite" Mono="False" />
+</data>

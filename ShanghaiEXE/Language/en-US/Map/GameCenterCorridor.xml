@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterCorridorName" Value="Game Center Hall" />
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue1FaceNone" Value="It’s an ice cream vending,machine." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue2FaceNone" Value="Since it’s placed here，it’s,probably for employees only." Face="None" Mono="False" />
+  <!-- 値段の数字がイタズラなのか４８９６６３２５円にされている････ -->
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue3FaceNone" Value="Either mint chip costs 48966325,Zenny，or someone’s been,having fun with a labelmaker...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorRedVendingMachine2Stage1Dialogue1FaceNone" Value="It’s the kind of vending,machine with no jack in port." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorRedVendingMachine2Stage1Dialogue2FaceNone" Value="Since only employees can,use it，the products are quite,exquisite." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorClosingRoomStage1Dialogue1FaceNone" Value="It’s locked，so I can’t go in." Face="None" Mono="False" />
+</data>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　１０Ｆ -->
+  <Text Key="Map.CompanyServer2Name" Value="大企業サーバーの電脳　１０Ｆ" />
+  <Text Key="Map.CompanyServer2RandomBattle1Enemy1" Value="オートロイドG" />
+  <Text Key="Map.CompanyServer2RandomBattle2Enemy1" Value="オートロイドG" />
+  <Text Key="Map.CompanyServer2RandomBattle3Enemy1" Value="オートロイドB" />
+  <Text Key="Map.CompanyServer2RandomBattle4Enemy1" Value="オートロイドB" />
+  <Text Key="Map.CompanyServer2RandomBattle5Enemy1" Value="オートロイドB" />
+  <Text Key="Map.CompanyServer2RandomBattle5Enemy2" Value="オートロイドG" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage1Dialogue1FaceNone" Value="フセイナ　ソウサガ,ジッコウ　サレマシタ" Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage1Dialogue2FaceNone" Value="タダチニ　エラーノゲンインヲ,トリノゾキマス！！" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer2PunishmentBattle1Enemy1" Value="オートロイドSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer2PunishmentBattle1Enemy2" Value="オートロイドSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage3Dialogue1FaceShanghai" Value="もっとスマートに,解決したかったわね････" Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer2BGimmickStartStage1Dialogue1FaceNone" Value="セキュリティ　ロック,スウジヲ　１カラ　ジュンバンニ,ニュウリョク　シテクダサイ" Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer2AGimmickStartStage1Dialogue1FaceNone" Value="セキュリティ　ロック,スウジヲ　１カラ　ジュンバンニ,ニュウリョク　シテクダサイ" Face="None" Mono="False" />
+</data>

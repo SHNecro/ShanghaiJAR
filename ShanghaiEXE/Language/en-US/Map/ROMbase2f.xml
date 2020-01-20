@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM基地　階段 -->
+  <Text Key="Map.ROMbase2fName" Value="ROM Base Stairs" />
+  <!-- ディスプレイにＲＯＭのロゴマークが映し出されている -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue1FaceNone" Value="The ROM logo is projected on,a large screen." Face="None" Mono="False" />
+  <!-- どうやら権限を持つものには相応の情報が表示される特別な画面のようだ -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue2FaceNone" Value="Looks like it’s a special display,that detects unauthorized users,and restricts sensitive data." Face="None" Mono="False" />
+  <!-- プラグインができるが中からはその情報を読み取れないだろう -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue3FaceNone" Value="Even though you can jack in，,the data will still be hidden." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue1FaceNone" Value="I don’t know what’s inside，but,it’s heavy!" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue2FaceNone" Value="It’s probably nothing we can,use on such short notice." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeStage1Dialogue1FaceNone" Value="I don’t know what’s inside，but,it’s heavy!" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeStage1Dialogue2FaceNone" Value="It’s probably nothing we can,use on such short notice." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeStage1Dialogue1FaceNone" Value="I don’t know what’s inside，but,it’s heavy!" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeStage1Dialogue2FaceNone" Value="It’s probably nothing we can,use on such short notice." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeStage1Dialogue1FaceNone" Value="I don’t know what’s inside，but,it’s heavy!" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeStage1Dialogue2FaceNone" Value="It’s probably nothing we can,use on such short notice." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="I don’t know what’s inside，but,it’s heavy!" Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="It’s probably nothing we can,use on such short notice." Face="None" Mono="False" />
+</data>

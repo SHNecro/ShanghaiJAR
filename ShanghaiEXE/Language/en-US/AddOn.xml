@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Addon.ShortPink" Value="P" />
+  <Text Key="Addon.ShortSkyBlue" Value="S" />
+  <Text Key="Addon.ShortRed" Value="R" />
+  <Text Key="Addon.ShortBlue" Value="B" />
+  <Text Key="Addon.ShortGreen" Value="G" />
+  <Text Key="Addon.ShortOrange" Value="O" />
+  <Text Key="Addon.ShortDark" Value="D" />
+  <Text Key="Addon.LetterOrange" Value="Y" />
+
+  <!-- AddOns -->
+  <Text Key="AddOn.BustorPowerName" Value="BstrPwr" />
+  <Text Key="AddOn.BustorPowerDesc" Value="Buster power,increases by 1!" />
+  <Text Key="AddOn.BustorRapidName" Value="BstrRpd" />
+  <Text Key="AddOn.BustorRapidDesc" Value="Buster rapid,increases by 1!" />
+  <Text Key="AddOn.BustorChargeName" Value="BstrChrg" />
+  <Text Key="AddOn.BustorChargeDesc" Value="Buster charge,increases by 1!" />
+  <Text Key="AddOn.AssaultBusterName" Value="BltzBstr" />
+  <Text Key="AddOn.AssaultBusterDesc" Value="Press and hold,B for rapid fire,buster!" />
+  <Text Key="AddOn.BlueBusterName" Value="BlueBstr" />
+  <Text Key="AddOn.BlueBusterDesc" Value="Unique AddOn!,Buster bullets,turn blue" />
+  <Text Key="AddOn.ChageBypassName" Value="ChipChrg" />
+  <Text Key="AddOn.ChageBypassDesc" Value="Chips used at,max charge get,+10 power!" />
+  <Text Key="AddOn.BustorSetName" Value="BstrPack" />
+  <Text Key="AddOn.BustorSetDesc" Value="Buster power，,rapid，and charge,increase by 3" />
+  <Text Key="AddOn.HPPlus50Name" Value="HP+50" />
+  <Text Key="AddOn.HPPlus50Desc" Value="Max HP +50" />
+  <Text Key="AddOn.HPPlus100Name" Value="HP+100" />
+  <Text Key="AddOn.HPPlus100Desc" Value="Max HP +100" />
+  <Text Key="AddOn.HPPlus200Name" Value="HP+200" />
+  <Text Key="AddOn.HPPlus200Desc" Value="Max HP +200" />
+  <Text Key="AddOn.HPPlus500Name" Value="HP+500" />
+  <Text Key="AddOn.HPPlus500Desc" Value="Max HP +500" />
+  <Text Key="AddOn.RichRichName" Value="RichRich" />
+  <Text Key="AddOn.RichRichDesc" Value="Only get Zenny,from battle，and,twice as much" />
+  <Text Key="AddOn.DataSalvageName" Value="DataFind" />
+  <Text Key="AddOn.DataSalvageDesc" Value="Can only get,chips from battle" />
+  <Text Key="AddOn.HPPlus300Name" Value="HP+300" />
+  <Text Key="AddOn.HPPlus300Desc" Value="Max HP +300" />
+  <Text Key="AddOn.StockChargeName" Value="HoldChrg" />
+  <Text Key="AddOn.StockChargeDesc" Value="Won't lose Buster,charge when a,chip is used" />
+  <Text Key="AddOn.DamageGhostName" Value="DmgGhost" />
+  <Text Key="AddOn.DamageGhostDesc" Value="Invincibility from,taking damage,lasts longer" />
+  <Text Key="AddOn.FirstAddName" Value="Custom+" />
+  <Text Key="AddOn.FirstAddDesc" Value="Start with an,extra chip in the,Custom Screen!" />
+  <Text Key="AddOn.FirstBarrierName" Value="SBarrier" />
+  <Text Key="AddOn.FirstBarrierDesc" Value="Start battle with,a Barrier" />
+  <Text Key="AddOn.OneFullOpenName" Value="FullOpen" />
+  <Text Key="AddOn.OneFullOpenDesc" Value="Custom Screen is,fully open during,first turn of battle!" />
+  <!-- オートADD -->
+  <Text Key="AddOn.AutoADDName" Value="AutoADD" />
+  <!-- カスタム画面を,閉じると自動で,１枚ＡＤＤ -->
+  <Text Key="AddOn.AutoADDDesc" Value="Every round ADD,one chip to the,Custom Screen" />
+  <!-- オートチャージ -->
+  <Text Key="AddOn.AutoChargeName" Value="AutoChrg" />
+  <!-- バスターを,撃ってない時に,自動でチャージ -->
+  <Text Key="AddOn.AutoChargeDesc" Value="Automatically,charge buster,when not in use" />
+  <Text Key="AddOn.PeaceHeatName" Value="HeatPeac" />
+  <Text Key="AddOn.PeaceHeatDesc" Value="Attract Heat,enemies! Next,style is Heat!" />
+  <Text Key="AddOn.PeaceAquaName" Value="AquaPeac" />
+  <Text Key="AddOn.PeaceAquaDesc" Value="Attract Aqua,enemies! Next,style is Aqua!" />
+  <Text Key="AddOn.PeaceLeafName" Value="LeafPeac" />
+  <Text Key="AddOn.PeaceLeafDesc" Value="Attract Leaf,enemies! Next,style is Leaf!" />
+  <Text Key="AddOn.PeaceElekiName" Value="ElecPeac" />
+  <Text Key="AddOn.PeaceElekiDesc" Value="Attract Elec,enemies! Next,style is Elec!" />
+  <Text Key="AddOn.PeacePoisonName" Value="PoisPeac" />
+  <Text Key="AddOn.PeacePoisonDesc" Value="Attract Poison,enemies! Next,style is Poison!" />
+  <Text Key="AddOn.PeaceEarthName" Value="ErthPeac" />
+  <Text Key="AddOn.PeaceEarthDesc" Value="Attract Earth,enemies! Next,style is Earth!" />
+  <Text Key="AddOn.EriaGuardName" Value="AreaHold" />
+  <Text Key="AddOn.EriaGuardDesc" Value="Number of rows,enemy can steal,decreases by 1" />
+  <Text Key="AddOn.MyGardenName" Value="MyGarden" />
+  <Text Key="AddOn.MyGardenDesc" Value="Destroy objects,when battle starts" />
+  <Text Key="AddOn.YuzuriaiName" Value="Giv&amp;Take" />
+  <Text Key="AddOn.YuzuriaiDesc" Value="Move through,friendly objects,and viruses!" />
+  <!-- スタイルリユース -->
+  <Text Key="AddOn.StyleReUseName" Value="ReStyle" />
+  <!-- 使用済みの,スタイルに再び,変身ができる！ -->
+  <Text Key="AddOn.StyleReUseDesc" Value="A used style,can be,selected again!" />
+  <Text Key="AddOn.HaisuiName" Value="LostArea" />
+  <Text Key="AddOn.HaisuiDesc" Value="Start battle with,only 1 row" />
+  <Text Key="AddOn.ChipSizePlusName" Value="StdChip+" />
+  <Text Key="AddOn.ChipSizePlusDesc" Value="Folders can hold,one more copy of,standard chips!" />
+  <Text Key="AddOn.NaviPlusName" Value="NaviChp+" />
+  <Text Key="AddOn.NaviPlusDesc" Value="Folders can hold,1 more Navi Chip!" />
+  <Text Key="AddOn.DarkPlusName" Value="DarkChp+" />
+  <Text Key="AddOn.DarkPlusDesc" Value="Folders can hold,1 more Dark Chip!" />
+  <!-- ユーズリペア -->
+  <Text Key="AddOn.UsedCureName" Value="ChipCure" />
+  <!-- チップを使う,たびにＨＰが,３０回復！ -->
+  <Text Key="AddOn.UsedCureDesc" Value="Recover 30,HP when using,any chip!" />
+  <!-- ユーズドペイン -->
+  <Text Key="AddOn.UsedPainName" Value="ChipPain" />
+  <!-- チップを使う,たびにＨＰが,３０減る！ -->
+  <Text Key="AddOn.UsedPainDesc" Value="Take 30 damage,when using,any chip!" />
+  <!-- グリモワール -->
+  <Text Key="AddOn.GrimoireName" Value="Grmoire" />
+  <!-- シャンハイが,グリモアスタイルに,変身する！ -->
+  <Text Key="AddOn.GrimoireDesc" Value="Shanghai,transforms into,Grimoire Style!" />
+  <Text Key="AddOn.EscapeSoulName" Value="RunSoul" />
+  <Text Key="AddOn.EscapeSoulDesc" Value="Can always run,from encounters!" />
+  <Text Key="AddOn.AngerMindName" Value="AngrMind" />
+  <Text Key="AddOn.AngerMindDesc" Value="Anxiety becomes,anger instead" />
+  <!-- ハードオブジェ -->
+  <Text Key="AddOn.HardObjectName" Value="HrdObjct" />
+  <!-- 設置する置物の,耐久力が２倍, -->
+  <Text Key="AddOn.HardObjectDesc" Value="The health of,placed objects,is doubled" />
+  <Text Key="AddOn.ChipChangerName" Value="CrimNois" />
+  <Text Key="AddOn.ChipChangerDesc" Value="Busting Rank S,gives different,chips!" />
+  <Text Key="AddOn.BaisokuRunnerName" Value="SpdRunnr" />
+  <Text Key="AddOn.BaisokuRunnerDesc" Value="Run through the,net twice as fast!" />
+  <!-- キシカイセイ -->
+  <Text Key="AddOn.KishiKaiseiName" Value="UnderSht" />
+  <!-- ＨＰが０になる,ダメージを１度,ＨＰ１で耐える -->
+  <Text Key="AddOn.KishiKaiseiDesc" Value="Retain 1 HP,even on fatal,hit!" />
+  <!-- ユーモアトーク -->
+  <Text Key="AddOn.HumorSenseName" Value="Humor" />
+  <!-- どんなナビでも,Ｌボタンで冗談を,話し始める！ -->
+  <Text Key="AddOn.HumorSenseDesc" Value="Tell a joke,when L is,pressed!" />
+  <!-- エーリンコール -->
+  <Text Key="AddOn.EirinCallName" Value="EirnCall" />
+  <!-- Ｌボタンを押すと,永琳がウィルスの,解説をしてくれる -->
+  <Text Key="AddOn.EirinCallDesc" Value="Call Eirin,with L for,virus info!" />
+  <Text Key="AddOn.BulletName" Value="Ammo" />
+  <Text Key="AddOn.BulletDesc" Value="Unique AddOn!,Buster ejects a,cartridge" />
+  <Text Key="AddOn.BulletBigName" Value="BigAmmo" />
+  <Text Key="AddOn.BulletBigDesc" Value="Unique AddOn!,Buster ejects a,large cartridge" />
+  <Text Key="AddOn.RShieldName" Value="RStrShld" />
+  <Text Key="AddOn.RShieldDesc" Value="Until the Custom,Gauge fills，R is,StarShield" />
+  <Text Key="AddOn.RPanelRepairName" Value="RHoleFix" />
+  <Text Key="AddOn.RPanelRepairDesc" Value="Until the Custom,Gauge fills，R is,HoleFix" />
+  <Text Key="AddOn.RHoleMakeName" Value="RPnlCrak" />
+  <Text Key="AddOn.RHoleMakeDesc" Value="Until the Custom,Gauge fills，R is,PanelCrack" />
+  <Text Key="AddOn.LCubeName" Value="LCube" />
+  <Text Key="AddOn.LCubeDesc" Value="Until the Custom,Gauge fills，L is,Cube" />
+  <Text Key="AddOn.LMukaikazeName" Value="LHeadWnd" />
+  <Text Key="AddOn.LMukaikazeDesc" Value="Until the Custom,Gauge fills，L is,HeadWind" />
+  <Text Key="AddOn.LOikazeName" Value="LTailWnd" />
+  <Text Key="AddOn.LOikazeDesc" Value="Until the Custom,Gauge fills，L is,TailWind" />
+  <Text Key="AddOn.LBeastRockName" Value="LLockOn" />
+  <Text Key="AddOn.LBeastRockDesc" Value="Until the Custom,Gauge fills，L is,Lock-On" />
+  <!-- スロウスタート -->
+  <Text Key="AddOn.SlowStartName" Value="SlowStrt" />
+  <!-- カスタムゲージの,溜まりが遅い,状態で始まる -->
+  <Text Key="AddOn.SlowStartDesc" Value="Start battle,with a slow,Custom Gauge" />
+  <!-- ネビュラホール -->
+  <Text Key="AddOn.NebulaHoleName" Value="NebulHol" />
+  <!-- １つにつき,敵のランクが,１上昇する -->
+  <Text Key="AddOn.NebulaHoleDesc" Value="The rank of,enemies rises,by 1" />
+  <Text Key="AddOn.HPDown100Name" Value="HP-100" />
+  <Text Key="AddOn.HPDown100Desc" Value="Max HP -100" />
+  <Text Key="AddOn.AcidBodyName" Value="AcidBody" />
+  <Text Key="AddOn.AcidBodyDesc" Value="Constantly lose,HP during battle，,and healing hurts" />
+  <Text Key="AddOn.HideLifeName" Value="HideLife" />
+  <Text Key="AddOn.HideLifeDesc" Value="Enemy HP is,hidden" />
+  <Text Key="AddOn.LostLightName" Value="LostLght" />
+  <Text Key="AddOn.LostLightDesc" Value="Can't see any,enemies. Weak,to Heat attacks" />
+  <Text Key="AddOn.UnShuffleName" Value="Unshffle" />
+  <Text Key="AddOn.UnShuffleDesc" Value="Chips sent in,order!" />
+  <Text Key="AddOn.FudouMyoouName" Value="Statue" />
+  <Text Key="AddOn.FudouMyoouDesc" Value="No movement" />
+  <Text Key="AddOn.HeavyFootName" Value="HvyFoot" />
+  <Text Key="AddOn.HeavyFootDesc" Value="Crack panels,underneath" />
+  <Text Key="AddOn.MassatuSlipName" Value="Slippery" />
+  <Text Key="AddOn.MassatuSlipDesc" Value="Slip across,panels. Weak,to Elec" />
+  <Text Key="AddOn.BuraiStyleName" Value="Loner" />
+  <Text Key="AddOn.BuraiStyleDesc" Value="No Navi chips" />
+  <Text Key="AddOn.NoGuardName" Value="NoGuard" />
+  <Text Key="AddOn.NoGuardDesc" Value="Not invincible,on taking damage,and no barriers" />
+  <Text Key="AddOn.MeltingthName" Value="MeltSelf" />
+  <Text Key="AddOn.MeltingthDesc" Value="Attack damage is,halved. Weak to,Aqua attacks" />
+  <Text Key="AddOn.ChipSizeMinusName" Value="StdChip-" />
+  <Text Key="AddOn.ChipSizeMinusDesc" Value="Folders hold one,less copy of,standard chips" />
+  <Text Key="AddOn.CustomPainName" Value="CustPain" />
+  <Text Key="AddOn.CustomPainDesc" Value="Take 50 damage,when Custom,Screen opens" />
+  <Text Key="AddOn.PonkothuBusterName" Value="JunkBstr" />
+  <Text Key="AddOn.PonkothuBusterDesc" Value="Buster might not,fire sometimes" />
+  <Text Key="AddOn.OwataManBodyName" Value="DeadBody" />
+  <Text Key="AddOn.OwataManBodyDesc" Value="Max HP is 1" />
+  <Text Key="AddOn.LostCustomName" Value="LostCust" />
+  <Text Key="AddOn.LostCustomDesc" Value="Start battle with,1 less chip in the,Custom Screen" />
+  <Text Key="AddOn.BlackMindName" Value="DarkMind" />
+  <Text Key="AddOn.BlackMindDesc" Value="Navi's heart,is cloaked in,darkness" />
+  <Text Key="AddOn.ParizeDamageName" Value="StunDmg" />
+  <Text Key="AddOn.ParizeDamageDesc" Value="Become stunned,when hit" />
+  <Text Key="AddOn.CAuraSwordName" Value="CAuraSrd" />
+  <Text Key="AddOn.CAuraSwordDesc" Value="Charge Shot,becomes,AuraSword!" />
+  <Text Key="AddOn.CDustBombName" Value="CDustBom" />
+  <Text Key="AddOn.CDustBombDesc" Value="Charge Shot,becomes,DustBomb!" />
+  <Text Key="AddOn.CVulcanName" Value="CVulcan" />
+  <Text Key="AddOn.CVulcanDesc" Value="Charge Shot,becomes,Vulcan!" />
+  <Text Key="AddOn.CFallKnifeName" Value="CFalKnif" />
+  <Text Key="AddOn.CFallKnifeDesc" Value="Charge Shot,becomes,FallKnife!" />
+  <Text Key="AddOn.CBlastCanonName" Value="CBlstCan" />
+  <Text Key="AddOn.CBlastCanonDesc" Value="Charge Shot,becomes,BlastCannon!" />
+  <Text Key="AddOn.CLanceName" Value="CLance" />
+  <Text Key="AddOn.CLanceDesc" Value="Charge Shot,becomes,Lance!" />
+  <Text Key="AddOn.CRepairName" Value="CRecov" />
+  <Text Key="AddOn.CRepairDesc" Value="Charge Shot,becomes,Recov!" />
+  <Text Key="AddOn.CShotGunName" Value="CShotGun" />
+  <Text Key="AddOn.CShotGunDesc" Value="Charge Shot,becomes,ShotGun!" />
+</data>

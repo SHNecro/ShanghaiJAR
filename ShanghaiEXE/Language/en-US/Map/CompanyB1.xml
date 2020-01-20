@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン　地下牢 -->
+  <Text Key="Map.CompanyB1Name" Value="Border Concern HQ Basement" />
+  <!-- ううん････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue1FaceAlice" Value="Ugh...." Face="Alice" Mono="False" />
+  <!-- あれ？確かプラグインしたあと急にビリッとして････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue2FaceAlice" Value="We jacked in，then...." Face="Alice" Mono="False" />
+  <!-- 目が覚めたか････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue3FaceNone" Value="Mmph...." Face="None" Mono="False" />
+  <!-- 誰････？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage1Dialogue4FaceAlice" Value="Who....?" Face="Alice" Mono="False" />
+  <!-- 神綺アリスお前も捕まったのか････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue1FaceReisen" Value="....Alice Shinki.,You were caught as well?" Face="Reisen" Mono="False" />
+  <!-- れ　鈴仙！？どうしてあなたが？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue2FaceAlice" Value="Reisen?!,How did you--?" Face="Alice" Mono="False" />
+  <!-- 聞き取り調査を行おうとしたら死角から一撃をいれられてな -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue3FaceReisen" Value="I came in to perform some,questioning，and a robot,attacked from my blind spot." Face="Reisen" Mono="False" />
+  <!-- まさか等身大の戦闘用ロボットが普通に運用されてるなんてね -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue4FaceReisen" Value="It must have been a specially,designed combat robot." Face="Reisen" Mono="False" />
+  <!-- 私を気絶させたのももしかしてそれかしら････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue5FaceAlice" Value="Are you sure you didn’t just,faint?" Face="Alice" Mono="False" />
+  <!-- ヨリヒメはギリギリでサーバー内に潜り込ませられたが端末を奪われてしまった -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue6FaceReisen" Value="Yorihime escaped into their,servers，but they isolated the,terminal she was in." Face="Reisen" Mono="False" />
+  <!-- 武器は隠し持っているが狭すぎて使えないしな -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue7FaceReisen" Value="They overlooked one of my,concealed weapons，but it is,too small caliber to break out." Face="Reisen" Mono="False" />
+  <!-- ここの格子は電子ロックだからピッキングすることも不可能だ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue8FaceReisen" Value="Additionally，this lock is,electronic and cannot be,picked." Face="Reisen" Mono="False" />
+  <!-- ヨリヒメをオペレートできれば脱出することもできるだろうが････ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue9FaceReisen" Value="Yorihime would have been able,to disable the lock，but...." Face="Reisen" Mono="False" />
+  <!-- ････そうよ　シャンハイをプラグインしっぱなしだった！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue10FaceAlice" Value="That’s it! Shanghai!," Face="Alice" Mono="False" />
+  <!-- なに？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue11FaceReisen" Value="What?" Face="Reisen" Mono="False" />
+  <!-- きっとシャンハイが助けに来てくれるはずよそれを待ちましょう！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue12FaceAlice" Value="I’m sure Shanghai will come to,save us! We just have to wait,for her!" Face="Alice" Mono="False" />
+  <!-- なぜ　オペレーターの手を離れたネットナビをそんなに信用することができる？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue13FaceReisen" Value="How can you be so sure that,your NetNavi can accomplish,such a thing?" Face="Reisen" Mono="False" />
+  <!-- それは････シャンハイは私の大切な友達だから！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue14FaceAlice" Value="That’s because....Shanghai is,my dearest friend!" Face="Alice" Mono="False" />
+  <!-- ････む？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage5Dialogue1FaceReisen" Value="Ah....?" Face="Reisen" Mono="False" />
+  <!-- アリス　そこにいるのね！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue1FaceShanghai" Value="Alice! You’re here!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue2FaceAlice" Value="Shanghai!" Face="Alice" Mono="False" />
+  <!-- ････よし！社内無線ネットワークからアリスの携帯へ接続できたわ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue3FaceShanghai" Value="I was able to connect to your,phone through the internal,wireless network." Face="Shanghai" Mono="False" />
+  <!-- これでオペレートできるわねアリス　大丈夫？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue4FaceShanghai" Value="We can operate now!,Are you alright，Alice?" Face="Shanghai" Mono="False" />
+  <!-- 私は平気よ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue5FaceAlice" Value="I’m fine!" Face="Alice" Mono="False" />
+  <!-- これからどうする？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue1FaceReisen" Value="Do we have a plan of attack?" Face="Reisen" Mono="False" />
+  <!-- アリスに危害を加えやがってアッタマに来た！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue2FaceShanghai" Value="You hurt Alice，and you deal,with me!" Face="Shanghai" Mono="False" />
+  <!-- こうなりゃ社長のやろうに直談判してやるわ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue3FaceShanghai" Value="Let’s go pay the president a,visit!" Face="Shanghai" Mono="False" />
+  <!-- フム　珍しく意見があったな -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue4FaceReisen" Value="How fortuitous.,I must speak to the president,myself，as well." Face="Reisen" Mono="False" />
+  <!-- 鈴仙　手伝ってくれるの？ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue5FaceAlice" Value="Are you coming to help us，,Reisen?" Face="Alice" Mono="False" />
+  <!-- 一連の行動からこの企業は完全にクロと断定した -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue6FaceReisen" Value="The series of actions this,company has taken requires,further investigation." Face="Reisen" Mono="False" />
+  <!-- ならば　遠慮する必要はない -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue7FaceReisen" Value="We do not have time to call for,reinforcements." Face="Reisen" Mono="False" />
+  <!-- 社長室にたどり着くまでに多少あのロボットどもと撃ちあう必要もあるだろう -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue8FaceReisen" Value="You will require aid to bypass,the robots on the way to the,president’s office." Face="Reisen" Mono="False" />
+  <!-- ････わかったわ頼りにするわよ　鈴仙 -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue9FaceAlice" Value="....I know.,I’ll be counting on you，Reisen." Face="Alice" Mono="False" />
+  <!-- あたしはこのままサーバーの中からあんたたちを支援するわ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue10FaceShanghai" Value="I’ll do what I can from the,company’s servers." Face="Shanghai" Mono="False" />
+  <!-- プラグアウトはできないからシャンハイ　気をつけてね -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue11FaceAlice" Value="Be careful，Shanghai. You,won’t be able to jack out." Face="Alice" Mono="False" />
+  <!-- 神綺アリス　行くぞ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue12FaceReisen" Value="Move out!" Face="Reisen" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue13FaceAlice" Value="Yeah!" Face="Alice" Mono="False" />
+</data>

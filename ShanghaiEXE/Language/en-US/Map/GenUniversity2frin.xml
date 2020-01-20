@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity2frinName" Value="Morichika’s Lab" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue1FaceDrMorichika" Value="You all made quite a long trip，,huh?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue2FaceRika" Value="This lab is amazing!,I’m super excited! I am!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue3FaceDrMorichika" Value="I’ll let you look around later.,Anyhow...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue4FaceMari" Value="The Border Concern president,said something interesting,arrived." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue5FaceDrMorichika" Value="Hahaha!,You already knew?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue6FaceDrMorichika" Value="She brought me samples of the,new products I helped develop." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue7FaceAlice" Value="How exciting....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue8FaceDrMorichika" Value="First，the ”AddOn Manager”!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue9FaceTankMan" Value="AddOns?,Don’t those just add features,to computer applications?" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue10FaceDrMorichika" Value="Right，but this one is the,Navi version." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue11FaceDrMorichika" Value="Previous Navi optimizing,programs had quite a steep,learning curve." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue12FaceDrMorichika" Value="But the AddOn Manager,should make things a lot,easier!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue13FaceShanghai" Value="Neat!,Sounds pretty useful!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue14FaceDrMorichika" Value="That’s what I like to hear!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue15FaceDrMorichika" Value="Oh，right!,Since you came all the way,out here，why not try it out?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue16FaceDrMorichika" Value="Here，try installing this data,into your PETs." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue17FaceDrMorichika" Value="Open the Navi screen and run,the AddOn Manager." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue1FaceAlice" Value="....Hm?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue2FaceShanghai" Value="Everyone’s already looking,around the lab." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue3FaceDrMorichika" Value="If I remember correctly，,didn’t you two want to,ask me something?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue4FaceShanghai" Value="Oh，right!,We completely forgot!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue1FaceAlice" Value="We wanted to ask if you,wouldn’t mind analyzing,this compressed data." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue2FaceDrMorichika" Value="Hm. This is quite a rare file,extension. I’ll see what I can,do." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue3FaceAlice" Value="Thank you!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue4FaceShanghai" Value="Alright，Alice! We came all,the way over here，so,let’s take a look around!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage5Dialogue1FaceDrMorichika" Value="This data....,Hm，I see...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari2Stage1Dialogue1FaceMari" Value="I’m not that good at most,software things." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rika2Stage1Dialogue1FaceRika" Value="This door looks pretty sturdy!,It even has digital locks!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rika2Stage1Dialogue2FaceRika" Value="I want a door with a,digital locks! I do!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue1FaceRemilia" Value="So this machine is Border,Concern’s new product." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue2FaceDrMorichika" Value="It’s a new gaming machine,called the NetBattle Machine." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue3FaceDrMorichika" Value="NetBattles inside are projected,overhead." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue4FaceDrMorichika" Value="Now NetBattles can be shown,to large audiences quite easily." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue5FaceDrMorichika" Value="There’s also one in the,Game Center that’ll be,used for tournaments." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue6FaceShanghai" Value="I see! So now legions of fans,can see my spectacular fights,on the big screen!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue7FaceRemilia" Value="Hohoho!,Sakuya already beat you once!,You don’t stand a chance!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue8FaceSakuya" Value="Milady，there’s no point in,telling her the truth." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue9FaceShanghai" Value="What’d you just say!?,I should knock you out!,Right here，right now!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue10FaceAlice" Value="Shanghai，calm down...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue11FaceTankMan" Value="How about they settle this in,the NetBattle Machine?" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue12FaceDrMorichika" Value="Hm，that’s a good idea." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue13FaceMarisa" Value="You just wanna see it in action，,don’t ya?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue14FaceDrMorichika" Value="You got me.,Well，let’s get everything ready." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage3Dialogue1FaceDrMorichika" Value="Alright，it’s ready.,Please jack in your Navis." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue1FaceMari" Value="Woah! Cool!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue2FaceAlice" Value="Are you sure about this?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue3FaceShanghai" Value="Of course! I’m gonna give her,a taste of her own medicine!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue4FaceRemilia" Value="Still pretending to be a,big shot，are we?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue5FaceDrMorichika" Value="Now then!,Shanghai VS Sakuya!,Battle Routine! Set!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue6FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue7FaceSakuya" Value="Your time is mine....,Let me show you its power!" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue1FaceDrMorichika" Value="We have our winners!,Alice and Shanghai!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue2FaceMari" Value="You did it，Alice!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue3FaceRika" Value="That was such an intense,battle! It was!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue4FaceShanghai" Value="That’s what you get，,you cheeky midget!,Now get out of my sight!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue5FaceRemilia" Value="........." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue6FaceShanghai" Value="....Huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue7FaceRemilia" Value="W...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue8FaceRemilia" Value="WAAAAAAAAAAAAAH!!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue1FaceMarisa" Value="Sheesh，ya made her cry." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue2FaceShanghai" Value="....Maybe I went too far." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue3FaceMari" Value="We can’t just let her run off on,her own. Let’s go find her." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue4FaceRika" Value="Yeah!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue1FaceSakuya" Value="Pardon me...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue2FaceShanghai" Value="Huh? She left you here?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue3FaceSakuya" Value="Milady....,She always gets like this,when she loses." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue4FaceSakuya" Value="Would you say she hates,losing? How do I put it...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue5FaceShanghai" Value="....I get the idea.,Anyways，we’ve got to find,Remilia." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue6FaceSakuya" Value="Much appreciated...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rinnosuke3Stage1Dialogue1FaceDrMorichika" Value="There are only a few places,where unauthorized visitors,can go，so we should be" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rinnosuke3Stage1Dialogue2FaceDrMorichika" Value="able to find her soon，but....,You really made a mess，huh?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage1Dialogue1FaceMari" Value="Cough....,Here too!?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage1Dialogue2FaceMari" Value="Dad!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage3Dialogue1FaceMari" Value="....He passed out，but he’s,still alive!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage3Dialogue2FaceShanghai" Value="Get him out of here，quickly!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue1FaceAlice" Value="Wha!?,The door won’t open!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue2FaceShanghai" Value="Fire shutter locked due to,emergency!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue3FaceShanghai" Value="You’re kidding me!,What about the victims,trapped inside!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue4FaceMarisa" Value="I’ll try to unlock it from,the computer!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue5FaceAlice" Value="Cough....,Then I’ll...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue6FaceShanghai" Value="Jack into the purifier!,It’ll be quicker to tackle the,cause!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari6Stage1Dialogue1FaceMari" Value="Cough....,Gotta unlock the door....!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rinnosuke4Stage1Dialogue1FaceNone" Value="Dr. Morichika collapsed.,It looks like he passed out." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue1FaceYamame" Value="Hm?,The professor has guests?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue2FaceAlice" Value="Dr. Morichika isn’t here?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue3FaceShanghai" Value="It’s kinda bad form to ask us to,come and then not show up." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue4FaceYamame" Value="Ahaha!,They called for him over the,intercom a little while ago." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue5FaceYamame" Value="He’ll be back in a bit，so you,can wait here if you want." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue6FaceAlice" Value="And you are?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue7FaceYamame" Value="I’m Yamame Kurodani.,I’m a research student under,Dr. Morichika." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue8FaceShanghai" Value="And since when did network,specialists wear lab coats?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue9FaceYamame" Value="Does it really look that weird?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue10FaceYamame" Value="I wasn’t originally in the Tech,Department. I used to be in,the Pharmacy Department." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue11FaceAlice" Value="The more I hear，,the less I understand...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue12FaceYamame" Value="Seeing is believing!,Try sending this data to,your Navi." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue13FaceAlice" Value="?,Um，okay...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue14FaceShanghai" Value="What’s this? A drink?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue15FaceShanghai" Value="Gulp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue16FaceAlice" Value="Wait! It might be....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue17FaceShanghai" Value="It’s....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue18FaceShanghai" Value="DEEELIIICIOOOUUUS!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue19FaceYamame" Value="I know，right?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue20FaceYamame" Value="The theme of my research is,”Making Biologically,Delicious Cyber Drinks!”" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue21FaceAlice" Value="How’s that related to,pharmacy....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue22FaceYamame" Value="Um....,So we can drink medicine,that tastes good....?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue23FaceShanghai" Value="Basically，don’t think about it!,Thanks for the drink!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue24FaceYamame" Value="That’s how university research,goes. Gotta do it to graduate...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue25FaceYamame" Value="I don’t have a Navi，but,it’d be nice to get one for,poison tasting." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue26FaceShanghai" Value="Wait.... Poison tasting!?,So that drink could have,made me sick!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue27FaceAlice" Value="(What a strange person....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue28FaceDrMorichika" Value="Sorry to keep you waiting.,Oh，Alice is here?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue29FaceYamame" Value="Professor!,I finished my experiment，,so may I go home?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue30FaceDrMorichika" Value="Oh，alright.,Thanks for your hard work." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue31FaceYamame" Value="Great!,Well，see you later!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage3Dialogue1FaceAlice" Value="She’s a pretty loud person...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage3Dialogue2FaceShanghai" Value="Oh yeah! PRO-FES-SOR!,Tell us what’s inside our,compressed data!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage3Dialogue3FaceDrMorichika" Value="Now now，take it easy.,First，let me show you this." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue1FaceAlice" Value="Is this....the analyzed data?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue2FaceDrMorichika" Value="Correct. It has multiple layers,of protection and compression." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue3FaceDrMorichika" Value="Even so，I was able to analyze,it up until the final step." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue4FaceDrMorichika" Value="The last layer of protection is,pretty tough...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue5FaceDrMorichika" Value="I think it’s meant to be installed,in a Navi，but...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue6FaceDrMorichika" Value="It seems like we need to be,near some kind of key for it,to activate." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue7FaceAlice" Value="Some kind of key?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue8FaceDrMorichika" Value="That’s all I know...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue9FaceShanghai" Value="If we’re one step away，,then we just have to take,that final step!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue10FaceShanghai" Value="Alice! Get those legs moving,and investigate!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue11FaceAlice" Value="Sure thing!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue12FaceAlice" Value="I want to know what this data,is hiding too!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue13FaceDrMorichika" Value="Then you should install this,analyzed data into your Navi." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue14FaceAlice" Value="Is it really safe to install data,like that?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue15FaceDrMorichika" Value="It’s fine.,This data was originally made,to be installed into a Navi." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue16FaceShanghai" Value="Besides，Navis can clean,themselves to some degree." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue17FaceShanghai" Value="Even if it’s bad data，,installing it now won’t,cause any problems." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue18FaceAlice" Value="If Shanghai says so，,then I guess it’s okay....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue19FaceDrMorichika" Value="Alright then.,Please wait for just a moment." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue20FaceShanghai" Value="Ah.... Ahn....,Nooo...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue21FaceDrMorichika" Value="....Please don’t make weird,noises. People will get the,wrong idea." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue22FaceShanghai" Value="It’s just a joke. As if I’d ever,react to you like that.,Just install the data already." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue23FaceDrMorichika" Value="....There! Done!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue24FaceShanghai" Value="I feel pretty much the same,so far." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue25FaceDrMorichika" Value="If you get near the key，,the program should activate." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue26FaceAlice" Value="I see! Interesting!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue27FaceAlice" Value="Let’s go look for info about,that key." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue28FaceShanghai" Value="If we want to gather info，,the Square is the place to go!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue29FaceShanghai" Value="Let’s go investigate around,the Square!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage1Dialogue1FaceDrMorichika" Value="Shanghai should become,stronger if that data is usable." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue1FaceDrMorichika" Value="Congratulations on awakening,your ”Style Memory”!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue2FaceAlice" Value="Style Memory?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue3FaceDrMorichika" Value="It’s the true identity of that,compressed data you had." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue4FaceShanghai" Value="Thanks for all the help，but,did you already know what,was gonna happen?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue5FaceDrMorichika" Value="Hahaha.... About that....,I had a general idea." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue6FaceDrMorichika" Value="A system that converts a,Navi’s combat experience,into fighting ability...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue7FaceDrMorichika" Value="I heard something like that,was being developed a few,years ago...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue8FaceDrMorichika" Value="Why would someone bother,to finish it and compress it，,only to hide it?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue9FaceShanghai" Value="Who knows? That punk we,found seemed to know about,the ”Key.bat” though." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue10FaceShanghai" Value="Should I have caught and,tortured him until he coughed,up some info?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue11FaceAlice" Value="That’s disturbing...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue12FaceShanghai" Value="Honestly，now that I’m all,powered up，I need someone,to use it on." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue13FaceShanghai" Value="Now where can we find lots of,people who don’t mind getting,beaten up?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue14FaceDrMorichika" Value="In that case，why not go to the,Central City Game Center?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue15FaceDrMorichika" Value="They have a NetBattle,Machine，and the place is,usually full of NetBattlers." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue16FaceAlice" Value="Neat! Then let’s just play,around like we always do!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue17FaceShanghai" Value="Yeah! I’m gonna bash some,skulls at the Game Center!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue18FaceShanghai" Value="I’ll show them who’s the,strongest in the city!,Ohohoho!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue19FaceAlice" Value="Weren’t we only going to try,out the new abilities....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue20FaceAlice" Value="I’m pretty sure we can ride to,Central City on the metro." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue21FaceAlice" Value="Anyways! Thanks for,helping us，professor!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue22FaceDrMorichika" Value="Ah，I almost forgot!,You can change styles in the,Custom Screen mid-fight." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue23FaceDrMorichika" Value="Just press Up on the D-Pad,to open the style menu." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue24FaceDrMorichika" Value="Change your style to match,the situation.,It’ll give you an edge!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue25FaceDrMorichika" Value="I’ll send you an email about,all this." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue26FaceAlice" Value="Thank you!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue27FaceDrMorichika" Value="Well，if there’s ever anything,else you need，don’t hesitate,to stop by." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue28FaceAlice" Value="Will do!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage5Dialogue1FaceShanghai" Value="Alice，you’ve got mail." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage7Dialogue1FaceDrMorichika" Value="If you’re going to Central City，,you should ride the metro." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage9Dialogue1FaceYamame" Value="Sigh〜!,I’ll never finish this report〜!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage9Dialogue2FaceYamame" Value="Well，what did I expect?,Maybe I should plan on getting,a Navi sometime soon...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage1Dialogue1FaceMedicine" Value="Ugh...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage3Dialogue1FaceYamame" Value="Yaaaaawn...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage3Dialogue2FaceYamame" Value="Now that my nap is over，,I need to write the next,draft of my thesis...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage3Dialogue3FaceYamame" Value="Hm?,The computer is still on....?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage5Dialogue1FaceMedicine" Value="Help....me...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage7Dialogue1FaceYamame" Value="Oh no!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage7Dialogue2FaceYamame" Value="Professor!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue1FaceYamame" Value="Please stop!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue2FaceYamame" Value="Sue....,No，Medicine takes care,of me，so....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue3FaceMedicine" Value="Yamame....!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue4FaceReisen" Value="...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage3Dialogue1FaceNone" Value="BRIIIIING!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage5Dialogue1FaceReisen" Value="....Yagokoro speaking." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage5Dialogue2FaceReisen" Value="....Yes，that’s shameful." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage5Dialogue3FaceReisen" Value="....On speaker phone?,....Understood." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue1FaceSagume" Value="....Hello? Can you hear me?,Does it sound okay?" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue2FaceYamame" Value="W-We can hear you...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue3FaceSagume" Value="Sorry about all this!,I’m Sagume Kishin，,this girl’s boss." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue4FaceSagume" Value="I saw everything through her,PET，and I’m really sorry!" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue5FaceSagume" Value="We just now decided on,Medicine’s probation,sentence!" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue6FaceAlice" Value="Her probation sentence?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue7FaceSagume" Value="Yes，her probation sentence." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue8FaceSagume" Value="Basically，we take some time,to see if a Navi has reformed,its ways." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue9FaceYamame" Value="Then....that means....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue10FaceSagume" Value="It’s extremely rare，but we,acknowledge that some,Navis can be reformed." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue11FaceYamame" Value="You’re helping Medicine?,So it’s okay if she stays with,me!?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue12FaceSagume" Value="However，there are a few,conditions." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue13FaceSagume" Value="As her NetOp，you must send,us reports every so often." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue14FaceSagume" Value="If your report is late or you,fail to turn it in，we’ll suspend,her probation." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue15FaceYamame" Value="You got it!,I’ll absolutely always send,you a report!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue16FaceYamame" Value="Hooray!!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue17FaceYamame" Value="Isn’t that great，Medicine!?,Now we can be together,from now on!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue18FaceMedicine" Value="Aha....ha....,Feels like...a dream...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue19FaceAlice" Value="That’s great，Yamame!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue20FaceYamame" Value="Thank you too，Alice!,You saved Medicine’s life!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue21FaceShanghai" Value="And for the time being，they,lived happily ever after...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue22FaceReisen" Value="...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue23FaceReisen" Value="Yorihime，we’re going home.,Jack out." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue24FaceYorihime" Value="....Yes ma’am." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue1FaceReisen" Value="....Alice Shinki." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue2FaceAlice" Value="Yes?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue3FaceReisen" Value="My skill and Yorihime’s,customizations should,have been perfect...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue4FaceReisen" Value="Despite all that...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue5FaceReisen" Value="How were you able to beat,us....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue6FaceAlice" Value="That’s...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue7FaceAlice" Value="....How do I put it?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue8FaceReisen" Value="Just say it." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue9FaceAlice" Value="I believe in Shanghai，and,Shanghai believes in me." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue10FaceAlice" Value="....Or something like that?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue11FaceReisen" Value="Does such a thing really affect,a battle....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue12FaceReisen" Value="Hmph....,Asking you was a waste of,time." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue13FaceAlice" Value="Reisen...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue14FaceReisen" Value="Now then，excuse me." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue1FaceShanghai" Value="Aaaaah....,I’m EX-HAUST-ED!!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue2FaceMedicine" Value="!?" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue3FaceShanghai" Value="Man，whose idea was it,to jump in from the side to,block a sword!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue4FaceAlice" Value="We had to! We wouldn’t have,been able to stop her in time!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue5FaceShanghai" Value="Well maybe we would’ve,made it in time if you ran a,little faster!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue6FaceAlice" Value="Now it’s my fault!?,I can’t believe it!,Even after I ran my hardest!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue7FaceShanghai" Value="Then maybe you should hit,the gym sometime!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue8FaceAlice" Value="Why you....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue9FaceMedicine" Value="W-What’s wrong with them....?" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue10FaceYamame" Value="Ahahaha....,You guys must have a,great relationship...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue1FaceYamame" Value="Medicine!,From now on....let’s do our,best!!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue2FaceMedicine" Value="Will do....but I don’t want to,end up like those two...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue3FaceYamame" Value="Didn’t we argue about,something like this earlier?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue4FaceMedicine" Value="Um...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue5FaceYamame" Value="Pfft....,Ahahahaha!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue6FaceMedicine" Value="Fufu....,Ahahaha!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4YamameStage1Dialogue1FaceYamame" Value="Alice! Shanghai!,Thank you soooo much!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4YamameStage3Dialogue1FaceYamame" Value="Recently，I’ve been practicing,NetBattling with Medicine!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4YamameStage3Dialogue2FaceYamame" Value="I’m feeling pretty confident，,so let’s NetBattle!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter5RinnosukeStage1Dialogue1FaceDrMorichika" Value="Hmm....,The access method was,rather ingenius...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter5RinnosukeStage1Dialogue2FaceDrMorichika" Value="So then why didn’t they,take the University’s most,important data?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter5RinnosukeStage1Dialogue3FaceDrMorichika" Value="There are just too many,things I don’t understand,about this hack...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTableStage1Dialogue1FaceNone" Value="It’s a large table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTableStage1Dialogue2FaceNone" Value="It looks useful，but it doesn’t,seem like it’s used much.,Poor thing." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTable2Stage1Dialogue1FaceNone" Value="It’s a large table." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTable2Stage1Dialogue2FaceNone" Value="It looks useful，but it doesn’t,seem like it’s used much.,Poor thing." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinDeskStage1Dialogue1FaceNone" Value="It’s the desk that Dr. Morichika,uses for his work." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinDeskStage1Dialogue2FaceNone" Value="We wouldn’t want to mess,anything up，so let’s leave,it alone." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairStage1Dialogue1FaceNone" Value="It’s Dr. Morichika’s chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairStage1Dialogue2FaceNone" Value="Some parts rattle around，so,it seems like he’s been using,it for a long time." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairShadowStage1Dialogue1FaceNone" Value="It’s Dr. Morichika’s chair." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairShadowStage1Dialogue2FaceNone" Value="Some parts rattle around，so,it seems like he’s been using,it for a long time." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage1Dialogue1FaceNone" Value="It’s the latest air purifier." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage1Dialogue2FaceNone" Value="They claim it releases various,ions to clean the air，but that,seems suspicious to me." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage3Dialogue1FaceNone" Value="It’s the latest air purifier." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage3Dialogue2FaceNone" Value="They claim it releases various,ions to clean the air，but that,seems suspicious to me." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage3Dialogue3FaceNone" Value="I can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue1FaceNone" Value="It’s the NetBattle Machine,made by Border Concern." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue2FaceNone" Value="It displays NetBattles using,3D holograms so anyone,can enjoy them!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue3FaceNone" Value="Dr. Morichika oversaw its,development，so they gave,him a sample machine." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue4FaceNone" Value="I can also jack in，of course!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinToTheOutsideStage1Dialogue1FaceShanghai" Value="We came all the way over,here，so we should look,around for a bit longer." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinToTheOutsideStage3Dialogue1FaceNone" Value="”Fire shutter locked due to,emergency!” is shown on,the door." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMovementInhibitionStage1Dialogue1FaceShanghai" Value="Let’s try running the,AddOn Manager!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue1FaceMari" Value="Alright!,We got the door open!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue2FaceMari" Value="I’ll get dad outside!,Alice，you...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue3FaceAlice" Value="I’ll go rescue Remilia.,She went into the lab on,the third floor." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue4FaceMari" Value="She was still here!?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue5FaceMari" Value="Kh...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue6FaceShanghai" Value="Mari，please focus on saving,the professor." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue7FaceMarisa" Value="Shanghai...." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue8FaceMari" Value="....Gotcha.,I’ll leave Remilia to you two!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue9FaceMarisa" Value="You can’t go to the third floor,unless you register in the,office across the hall." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue10FaceAlice" Value="The office across the hall....,Got it!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue11FaceMari" Value="Be careful!,I’ll catch ya later!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage1Dialogue1QuestionFaceShanghai" Value="Challenge Yamame to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GenUniversity2frinMedicineBattleStage1Dialogue1Options" Value="Yes,No" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage1Dialogue2FaceYamame" Value="Medicine!,Battle Routine!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage3Dialogue1FaceYamame" Value="We did it，Medicine! We won!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage3Dialogue2FaceMedicine" Value="It’s all thanks to your,operation，Yamame!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage5Dialogue1FaceYamame" Value="Awww! We lost〜!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage5Dialogue2FaceMedicine" Value="We’ll beat them next time，,Yamame!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage6Dialogue1FaceMedicine" Value="Yamame’s customizations,have made me stronger,than ever!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage6Dialogue2FaceYamame" Value="Give it your all，Medicine!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage8Dialogue1FaceYamame" Value="We did it!,Great job，Medicine!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage10Dialogue1FaceYamame" Value="We still couldn’t win〜!,You really are strong，Alice!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage10Dialogue2FaceMedicine" Value="We’ll beat them next time，,Yamame!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage11Dialogue1FaceYamame" Value="I’ll be ready anytime!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinPostGameDrMorichikaDialogue1" Value="Good to see you，Alice." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinPostGameDrMorichikaDialogue2" Value="Sorry，I’m a bit busy analyzing,some data the NetAgents sent,me." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinPostGameDrMorichikaDialogue3" Value="Yamame should be free right,about now. Why don’t you ask,her for a NetBattle?" Face="DrMorichika" Mono="False" />
+</data>

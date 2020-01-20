@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="MapEditor.Controls.TranslatedTextSelector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MapEditor.Controls"
+             xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="20" d:DesignWidth="100">
+    <UserControl.Resources>
+        <converters:KeyToTranslatedTextConverter x:Key="KeyToTranslatedTextConverter" />
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Column="0"
+                 x:Name="TranslatedTextBox"
+                 VerticalContentAlignment="Center"
+                 Height="22"
+                 IsEnabled="False">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Path=TextKey, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:TranslatedTextSelector}}" Value="{x:Null}">
+                            <Setter Property="Text" Value="{Binding Path=InvalidKeyText, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:TranslatedTextSelector}}" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                    <Setter Property="Text" Value="{Binding Path=TextKey, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:TranslatedTextSelector}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource KeyToTranslatedTextConverter}}" />
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+        <Button Grid.Column="1"
+                Padding="10,0"
+                Height="22"
+                VerticalContentAlignment="Center"
+                Content="..."
+                Click="Button_Click"/>
+    </Grid>
+</UserControl>

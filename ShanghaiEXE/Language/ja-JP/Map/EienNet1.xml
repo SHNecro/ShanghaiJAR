@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　エイエンエリア１ -->
+  <Text Key="Map.EienNet1Name" Value="インターネット　エイエンエリア１" />
+  <!-- →：エイエンエリア２　　ずっと行くとスクエア←：坂を登ると永遠高校のHP -->
+  <Dialogue Key="Map.EienNet1GuidePlateStage1Dialogue1FaceNone" Value="→：エイエンエリア２,　　ずっと行くとスクエア,←：坂を登ると永遠高校のHP" Face="None" Mono="False" />
+  <!-- あなたが依頼を受けてくれたネットナビですね？ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage1Dialogue1FaceNaviGreenRobot" Value="あなたが依頼を受けてくれた,ネットナビですね？" Face="NaviGreenRobot" Mono="False" />
+  <!-- 私は現在３Ｄゲームを制作しておりましてそのモーションが必要なんです -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage1Dialogue2FaceNaviGreenRobot" Value="私は現在３Ｄゲームを,制作しておりまして,そのモーションが必要なんです" Face="NaviGreenRobot" Mono="False" />
+  <!-- あなたには今から私が放つウィルスと戦ってもらいます -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage1Dialogue3FaceNaviGreenRobot" Value="あなたには今から,私が放つウィルスと,戦ってもらいます" Face="NaviGreenRobot" Mono="False" />
+  <!-- 戦いの動きをこちらでキャプチャーするので自由に戦ってください -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage1Dialogue4FaceNaviGreenRobot" Value="戦いの動きをこちらで,キャプチャーするので,自由に戦ってください" Face="NaviGreenRobot" Mono="False" />
+  <!-- では　ウィルスを放ちますね -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage1Dialogue5FaceNaviGreenRobot" Value="では　ウィルスを放ちますね" Face="NaviGreenRobot" Mono="False" />
+  <!-- ちょっと待って！まだ準備が････！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage1Dialogue6FaceShanghai" Value="ちょっと待って！,まだ準備が････！" Face="Shanghai" Mono="False" />
+  <!-- おお　素晴らしいバトルでしたおかげでいいモーションがとれました！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue1FaceNaviGreenRobot" Value="おお　素晴らしいバトルでした,おかげでいいモーションが,とれました！" Face="NaviGreenRobot" Mono="False" />
+  <!-- こ、こ、こ・・・・殺す気かぁぁぁぁっ！！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue2FaceShanghai" Value="こ、こ、こ・・・・,殺す気かぁぁぁぁっ！！" Face="Shanghai" Mono="False" />
+  <!-- 何よこのクソ強いウィルスは！！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue3FaceShanghai" Value="何よこのクソ強いウィルスは！！" Face="Shanghai" Mono="False" />
+  <!-- ハッハッハ手強い相手じゃないと迫真の動きができないでしょう？ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue4FaceNaviGreenRobot" Value="ハッハッハ,手強い相手じゃないと迫真の,動きができないでしょう？" Face="NaviGreenRobot" Mono="False" />
+  <!-- それではこれが報酬です -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue5FaceNaviGreenRobot" Value="それではこれが報酬です" Face="NaviGreenRobot" Mono="False" />
+  <!-- ぐぬぬぬぬ････！！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue6FaceShanghai" Value="ぐぬぬぬぬ････！！" Face="Shanghai" Mono="False" />
+  <!-- まあまあ無事終わったんだし････ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage3Dialogue7FaceAlice" Value="まあまあ,無事終わったんだし････" Face="Alice" Mono="False" />
+  <!-- おかげさまで制作は順調ですよ！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage5Dialogue1FaceNaviGreenRobot" Value="おかげさまで制作は,順調ですよ！" Face="NaviGreenRobot" Mono="False" />
+  <!-- これはメガヒットまちがいなしです！ -->
+  <Dialogue Key="Map.EienNet1Request10NaviStage5Dialogue2FaceNaviGreenRobot" Value="これはメガヒット,まちがいなしです！" Face="NaviGreenRobot" Mono="False" />
+  <!-- 倒したナビの残骸データがどこかへと飛び去っていった････ -->
+  <Dialogue Key="Map.EienNet1PyromanV2Stage1Dialogue1FaceNone" Value="倒したナビの残骸データが,どこかへと飛び去っていった････" Face="None" Mono="False" />
+  <!-- エイエンエリアニ　ヨウコソ！ -->
+  <Dialogue Key="Map.EienNet1Chapter3Sprite1Stage1Dialogue1FaceSprite" Value="エイエンエリアニ　ヨウコソ！" Face="Sprite" Mono="False" />
+  <!-- コノエリアノ　メインストリートハトビイシ　ナンデスヨ！ -->
+  <Dialogue Key="Map.EienNet1Chapter3Sprite1Stage1Dialogue2FaceSprite" Value="コノエリアノ　メインストリートハ,トビイシ　ナンデスヨ！" Face="Sprite" Mono="False" />
+  <!-- ナンダカ　シャレオツデショーデショデショ？ -->
+  <Dialogue Key="Map.EienNet1Chapter3Sprite1Stage1Dialogue3FaceSprite" Value="ナンダカ　シャレオツデショー,デショデショ？" Face="Sprite" Mono="False" />
+  <!-- ここエイエンエリアは通路が複雑に絡み合っていて迷いやすくなっているんだ -->
+  <Dialogue Key="Map.EienNet1Chapter3ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="ここエイエンエリアは通路が,複雑に絡み合っていて,迷いやすくなっているんだ" Face="NaviGreenRobot" Mono="False" />
+  <!-- だから竹をモチーフにした風景にちなんで「迷いの竹林」と呼ばれるんだ -->
+  <Dialogue Key="Map.EienNet1Chapter3ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="だから竹をモチーフにした,風景にちなんで「迷いの竹林」と,呼ばれるんだ" Face="NaviGreenRobot" Mono="False" />
+  <!-- このエリアではバトルの時に草が生い茂っていることが多いのよね -->
+  <Dialogue Key="Map.EienNet1Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="このエリアではバトルの時に,草が生い茂っていることが,多いのよね" Face="NaviPinkFemale" Mono="False" />
+  <!-- 草属性のウィルスやナビは草パネルの上に立つとＨＰが回復していくの -->
+  <Dialogue Key="Map.EienNet1Chapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="草属性のウィルスやナビは,草パネルの上に立つと,ＨＰが回復していくの" Face="NaviPinkFemale" Mono="False" />
+  <!-- でも　炎属性で攻撃すれば弱点と草パネルの延焼で４倍のダメージになるのよ！ -->
+  <Dialogue Key="Map.EienNet1Chapter3GirlNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="でも　炎属性で攻撃すれば,弱点と草パネルの延焼で,４倍のダメージになるのよ！" Face="NaviPinkFemale" Mono="False" />
+  <!-- ややっ！？こっちにスクエアは無い気がするでござるよ！ -->
+  <Dialogue Key="Map.EienNet1Chapter3ManNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="ややっ！？,こっちにスクエアは無い気が,するでござるよ！" Face="NaviOrangeMale" Mono="False" />
+  <!-- この矢印の描かれた床は乗ると自動的に向こう側まで運ばれていきます -->
+  <Dialogue Key="Map.EienNet1Chapter3GirlNavi2Stage1Dialogue1FaceNaviBlueRobot" Value="この矢印の描かれた床は,乗ると自動的に向こう側まで,運ばれていきます" Face="NaviBlueRobot" Mono="False" />
+  <!-- 楽に移動できるのですが逆走が出来ないのでそこは注意ですね -->
+  <Dialogue Key="Map.EienNet1Chapter3GirlNavi2Stage1Dialogue2FaceNaviBlueRobot" Value="楽に移動できるのですが,逆走が出来ないので,そこは注意ですね" Face="NaviBlueRobot" Mono="False" />
+  <!-- この交差点を左上に行くとスクエアの方向だよ！ -->
+  <Dialogue Key="Map.EienNet1Chapter3GirlNavi3Stage1Dialogue1FaceNaviChild" Value="この交差点を左上に行くと,スクエアの方向だよ！" Face="NaviChild" Mono="False" />
+  <!-- Ｎ１リーグの参加者ですね私は予選担当のスタッフです -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage1Dialogue1FaceNaviBlueRobot" Value="Ｎ１リーグの参加者ですね,私は予選担当のスタッフです" Face="NaviBlueRobot" Mono="False" />
+  <!-- 最初に言いますがナビがデリートされた場合の責任は負いかねます -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage1Dialogue2FaceNaviBlueRobot" Value="最初に言いますがナビが,デリートされた場合の,責任は負いかねます" Face="NaviBlueRobot" Mono="False" />
+  <!-- 今から３連戦を行いますがよろしいですか？ -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage1Dialogue3QuestionFaceNaviBlueRobot" Value="今から３連戦を行いますが,よろしいですか？" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienNet1Chapter4N1Staff1Stage1Dialogue3Options" Value="はい,いいえ" />
+  <Text Key="Map.EienNet1Chapter4N1Staff1Battle3Enemy1" Value="リーグスタッフ" />
+  <!-- グッド・ジョブです -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage3Dialogue1FaceNaviBlueRobot" Value="グッド・ジョブです" Face="NaviBlueRobot" Mono="False" />
+  <!-- これでスタッフを４人とも倒したわよ！ -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage3Dialogue2FaceShanghai" Value="これでスタッフを４人とも,倒したわよ！" Face="Shanghai" Mono="False" />
+  <!-- エイエンスクエアに戻って報告をしましょう！ -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage3Dialogue3FaceAlice" Value="エイエンスクエアに戻って,報告をしましょう！" Face="Alice" Mono="False" />
+  <!-- 私の他にもまだスタッフは残っていますので探してくださいね -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage5Dialogue1FaceNaviBlueRobot2" Value="私の他にもまだスタッフは,残っていますので,探してくださいね" Face="NaviBlueRobot2" Mono="False" />
+  <!-- 私の他にもまだスタッフはいます探してみてください -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage7Dialogue1FaceNaviBlueRobot2" Value="私の他にも,まだスタッフはいます,探してみてください" Face="NaviBlueRobot2" Mono="False" />
+  <!-- エイエンスクエアで報告すれば予選突破となりますお急ぎください -->
+  <Dialogue Key="Map.EienNet1Chapter4N1Staff1Stage9Dialogue1FaceNaviBlueRobot2" Value="エイエンスクエアで報告すれば,予選突破となります,お急ぎください" Face="NaviBlueRobot2" Mono="False" />
+  <!-- あれれ？スタッフさんどこにいるのかなー？ -->
+  <Dialogue Key="Map.EienNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviChild" Value="あれれ？,スタッフさんどこにいるのかなー？" Face="NaviChild" Mono="False" />
+  <!-- この動く床でグルグルしすぎて気持ちが悪くなった････ -->
+  <Dialogue Key="Map.EienNet1Chapter4Navi4Stage1Dialogue1FaceNaviOrangeMale" Value="この動く床で,グルグルしすぎて,気持ちが悪くなった････" Face="NaviOrangeMale" Mono="False" />
+  <!-- ネットバトルの腕のない私にとって大会なんて全然関係のないことだ -->
+  <Dialogue Key="Map.EienNet1Chapter4Navi3Stage1Dialogue1FaceNaviGreenRobot" Value="ネットバトルの腕のない,私にとって大会なんて,全然関係のないことだ" Face="NaviGreenRobot" Mono="False" />
+  <!-- 普段は静かなエイエンエリアもイベントのあるときは賑わってるわね -->
+  <Dialogue Key="Map.EienNet1Chapter4GirlNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="普段は静かなエイエンエリアも,イベントのあるときは,賑わってるわね" Face="NaviPinkFemale" Mono="False" />
+  <!-- グヘヘヘ！久々にニンゲンを襲うことができるぜ！ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage1Dialogue1FaceNaviBlackRobe" Value="グヘヘヘ！,久々にニンゲンを,襲うことができるぜ！" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.EienNet1BlackRobe1Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうエイエンエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage3Dialogue1FaceShanghai" Value="････ふう,エイエンエリアの連中は,これで全部みたいね" Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue1FaceShanghai" Value="アリス　電話よ！,鈴仙から！" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue2FaceAlice" Value="鈴仙！,言われたエリアの黒いナビは,全部倒したわよ！" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue3FaceReisen" Value="こちらでも確認した,助かった,礼を言う" Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue4FaceReisen" Value="どうやら連中は,ウラインターネットの深部から,各地へと移動しているようだ" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue5FaceReisen" Value="ウラインターネットにも多数の,交戦を確認している以上,ウラの住人というわけでもない" Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue6FaceReisen" Value="続けてで悪いが,連中の正体を探るために,調査を頼めるか？" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="ウラインターネットの深部････,わかったわ" Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="いいの？　シャンハイ" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="あいつらの態度に,か･な･り　ムカついてるのよね" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue10FaceShanghai" Value="根絶やしにできるなら,なんだってしてやるわよ" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue11FaceReisen" Value="ありがたい" Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue12FaceReisen" Value="報酬が欲しければ後々,ネットエージェントに,請求してくれ" Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue13FaceShanghai" Value="わかったわ,それをもらうにもまずは,調査に行かないとね！" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue14FaceAlice" Value="でもウラインターネットの,深部って大丈夫かな？" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue15FaceShanghai" Value="何を今更！,あたしとアリスならどこへ,行っても無敵よ！" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.EienNet1BlackRobe1Stage5Dialogue16FaceAlice" Value="････そうね！,いきましょう,ウラインターネットに！" Face="Alice" Mono="False" />
+  <!-- 不気味な扉が道を塞いで通ることができない！ -->
+  <Dialogue Key="Map.EienNet1ROMGateStage1Dialogue1FaceNone" Value="不気味な扉が道を塞いで,通ることができない！" Face="None" Mono="False" />
+  <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
+  <Dialogue Key="Map.EienNet1ROMGateStage3Dialogue1FaceNone" Value="シャンハイは,「ＲＯＭ−ＩＤ」を使った！" Face="None" Mono="False" />
+  <!-- 不気味な扉が開いた！ -->
+  <Dialogue Key="Map.EienNet1ROMGateStage3Dialogue2FaceNone" Value="不気味な扉が開いた！" Face="None" Mono="False" />
+  <Dialogue Key="Map.EienNet1PostGameBystander1Dialogue1" Value="ゴツゴツして見えるけど,ここの床って実は,平べったいんだよ" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.EienNet1PostGameBystander2Dialogue1" Value="背景のウサギがどこへ,跳ねていっているのかを,考えているんだ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.EienNet1PostGameBystander3Dialogue1" Value="へっへっへ,今日の不死鳥連合の活動は,電脳ゴミ拾いだぜ" Face="NaviPurplePunk" Mono="False" />
+</data>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Genschool2faName" Value="School 2F" />
+  <Dialogue Key="Map.Genschool2faToWarehouseStage1Dialogue1FaceNone" Value="The Storage Room door,is locked." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue1FaceNone" Value="It’s the door to the,Multi-Purpose Room." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue2FaceNone" Value="I’ve never seen this room used,since I started school here." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage1Dialogue1FaceShanghai" Value="Hey! Where do you think,you’re going!?,You have to go to class!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage3Dialogue1FaceShanghai" Value="You still have things to do,before going home，don’t you!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage5Dialogue1FaceAlice" Value="I can’t just leave Shanghai,behind!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue1FaceFemaleStudent" Value="Aw，man..." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue2FaceFemaleStudent" Value="I have to go into the,Storage Room，but the,teacher isn’t here yet." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue3FaceFemaleStudent" Value="Oh，the classroom is,in the other hall?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue1FaceMaleStudent" Value="Do you know about Sub Chips?" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue2FaceMaleStudent" Value="They have many useful effects，,like recovering HP or avoiding,viruses." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue3FaceMaleStudent" Value="But unlike Battle Chips，you,can only use them once." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue4FaceMaleStudent" Value="You should buy some when,you get the chance!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue5FaceMaleStudent" Value="Just make sure you have,enough Sub Memory to,carry them all!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3MariStage1Dialogue1FaceMari" Value="Go ahead and jack in，Alice!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3MariStage3Dialogue1FaceMari" Value="The Storage Room door,should be on the same,network we were just in!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="Let’s put a stop to this incident!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3NekkuStage3Dialogue1FaceTsubakiNekku" Value="You go restart the computer!,Leave the network to us!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Genschool2faBeforePCRoomStage1Dialogue1FaceNone" Value="I could enter the PC Room，,but I need to go to class!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faBeforePCRoomStage3Dialogue1FaceNone" Value="A dangerous high-voltage,current is flowing through,the door!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faAfterThePCRoomStage1Dialogue1FaceNone" Value="I could enter the PC Room，,but I need to go to class!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faAfterThePCRoomStage3Dialogue1FaceNone" Value="A dangerous high-voltage,current is flowing through,the door!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage1Dialogue1FaceNone" Value="This card reader authorizes,entry into the Storage Room." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage1Dialogue2FaceNone" Value="It has a jack in port，but I need,permission before I can use it." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage3Dialogue1FaceNone" Value="This card reader authorizes,entry into the Storage Room." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage3Dialogue2FaceNone" Value="I can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faPostGameBystander1Dialogue1" Value="We’re getting a new trainee,teacher next month." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool2faPostGameBystander1Dialogue2" Value="I wonder what kind of person,they’ll be?,I’m looking forward to it." Face="FemaleAdult" Mono="False" />
+</data>

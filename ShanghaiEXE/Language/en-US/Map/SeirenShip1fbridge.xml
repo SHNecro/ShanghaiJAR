@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 豪華客船セイレーン１Ｆ　操舵室 -->
+  <Text Key="Map.SeirenShip1fbridgeName" Value="Cruise Ship 1F Bridge" />
+  <!-- 船の周囲の情報を元にリアルタイムで航路を調整するコンピューターだ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeRoutingSystemStage1Dialogue1FaceNone" Value="This computer sets the ship’s,route in real time，based on the,ship’s surroundings." Face="None" Mono="False" />
+  <!-- このコンピューターで導き出した航路は操舵システムに送られる -->
+  <Dialogue Key="Map.SeirenShip1fbridgeRoutingSystemStage1Dialogue2FaceNone" Value="The route is then sent to the,steering system." Face="None" Mono="False" />
+  <!-- この船の舵を司る操舵システムのメインコンピュータだ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeSteeringSystemStage1Dialogue1FaceNone" Value="This is the main computer of,the steering system for the ship." Face="None" Mono="False" />
+  <!-- 舵輪（だりん）は飾りであり船の操縦はコンピューターに一任されている -->
+  <Dialogue Key="Map.SeirenShip1fbridgeSteeringSystemStage1Dialogue2FaceNone" Value="The steering wheel is entirely,a decoration，in reality the,maneuvering is by computer." Face="None" Mono="False" />
+  <!-- システムの調整のためにプラグインすることも可能だ！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeSteeringSystemStage1Dialogue3FaceNone" Value="There’s a jack in port for Navis,to coordinate with the system." Face="None" Mono="False" />
+  <!-- 舵輪の表面に３８４６１１３２　と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fbridgeSteeringSystemStage1Dialogue4FaceNone" Value="The numbers ”38461132” are,carved into the steering wheel." Face="None" Mono="False" />
+  <!-- ナビを倒すだけならば私よりも強い貴様のほうが妥当だろう -->
+  <Dialogue Key="Map.SeirenShip1fbridgeReisenStage1Dialogue1FaceReisen" Value="In terms of NetBattling，you are,likely more skilled than I am." Face="Reisen" Mono="False" />
+  <!-- プラグイン端子ならそこの茶色い舵輪（だりん）のあたりにあるはずだ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeReisenStage1Dialogue2FaceReisen" Value="There should be a jack in port,near the steering wheel." Face="Reisen" Mono="False" />
+  <!-- 後始末は私がやるからあなたは休んでおきなさい -->
+  <Dialogue Key="Map.SeirenShip1fbridgeReisenStage3Dialogue1FaceReisen" Value="I will handle the post-operation,cleanup. Go rest." Face="Reisen" Mono="False" />
+  <!-- なにこれ！？ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage1Dialogue1FaceAlice" Value="What’s this?!" Face="Alice" Mono="False" />
+  <!-- ････なるほどこのマシーンに自律型ナビを運搬させたってわけか -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage1Dialogue2FaceReisen" Value="It appears ROM has sent an,autonomous Navi to hijack the,navigation system." Face="Reisen" Mono="False" />
+  <!-- ････航路が完全に書き換えられているな -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue1FaceReisen" Value="....The previous route has been,completely overwritten." Face="Reisen" Mono="False" />
+  <!-- 私は操舵コントロールの正常化を試みる -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue2FaceReisen" Value="I will try to regain control of the,steering and restore the route." Face="Reisen" Mono="False" />
+  <!-- 貴様はメインコンピューターにプラグインしROMのナビを倒せ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue3FaceReisen" Value="You defeat the ROM Navi and,release its control of the,systems." Face="Reisen" Mono="False" />
+  <!-- お前のネットバトルの腕ならできるだろう頼んだぞ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue4FaceReisen" Value="Your NetBattling skills should,drive off the Navi before the,ship collides with the reef." Face="Reisen" Mono="False" />
+  <!-- わ　わかったわ！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue5FaceAlice" Value="Got it!" Face="Alice" Mono="False" />
+  <!-- さぁて　こんな事件を起こしたおバカさんを血祭りにあげに行きましょうねぇ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue6FaceShanghai" Value="Let’s find the fool that’s causing,this mess! I’ll serve them a,buffet of their own limbs!" Face="Shanghai" Mono="False" />
+  <!-- （何があったのかしら････） -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage3Dialogue7FaceAlice" Value="(I wonder what’s got her so,riled up....)" Face="Alice" Mono="False" />
+  <!-- 鈴仙様　操舵システムの正常化に成功元の航路に修正しました -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage5Dialogue1FaceYorihime" Value="Miss Reisen，the steering has,been successfully normalized.,Original route restored." Face="Yorihime" Mono="False" />
+  <!-- 任務完了ヨリヒメ　プラグアウト -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage5Dialogue2FaceReisen" Value="Mission complete. Jack out，,Yorihime." Face="Reisen" Mono="False" />
+  <!-- 鈴仙　あなた最初から事件が起こることを知ってたの？ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage7Dialogue1FaceAlice" Value="Reisen，you knew this was,going to happen?" Face="Alice" Mono="False" />
+  <!-- ････ある程度はな -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage7Dialogue2FaceReisen" Value="....To some extent." Face="Reisen" Mono="False" />
+  <!-- アリスーーー！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage9Dialogue1FaceWriggleHat" Value="Aliiiice!" Face="WriggleHat" Mono="False" />
+  <!-- アリス！大丈夫だったかい？ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage11Dialogue1FaceWriggleHat" Value="Alice! Are you alright?" Face="WriggleHat" Mono="False" />
+  <!-- あっ　リグル君！私は大丈夫よ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage11Dialogue2FaceAlice" Value="Oh，Wriggle! I’m fine!" Face="Alice" Mono="False" />
+  <!-- 良かった････ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage11Dialogue3FaceWriggleHat" Value="That’s good...." Face="WriggleHat" Mono="False" />
+  <!-- 航路が元に戻ったみたいだねこれでじき、インゲレスに着くと思うよ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage11Dialogue4FaceWriggleHat" Value="If the route’s back to normal，,we’ll arrive in Engelles soon." Face="WriggleHat" Mono="False" />
+  <!-- ちくしょう････あたしのタッパー････ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue1FaceShanghai" Value="No....,My supper...." Face="Shanghai" Mono="False" />
+  <!-- 姐さん姐さん -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue2FaceHenchie" Value="Ma’am，ma’am!" Face="Henchie" Mono="False" />
+  <!-- 何よ････ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue3FaceShanghai" Value="Ah....?" Face="Shanghai" Mono="False" />
+  <!-- 我々で流されたタッパー探して全部とはいいませんがそこそこ回収しました！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue4FaceHenchie" Value="We swept the ship top to bottom,and managed to collect all that,we could find!" Face="Henchie" Mono="False" />
+  <!-- その････みてくれはすこし悪くなりましたが味の方は大丈夫です！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue5FaceHenchie" Value="It’s.... a little bit shaken，,but the taste is alright...." Face="Henchie" Mono="False" />
+  <!-- あんたたち････ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue6FaceShanghai" Value="You guys...." Face="Shanghai" Mono="False" />
+  <!-- ご苦労だったわね！日本に帰ったら思いっきり宴会をするわよ！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue7FaceShanghai" Value="When I get back to Japan，I’ll,throw a banquet for all of you!" Face="Shanghai" Mono="False" />
+  <!-- おーーー！！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage13Dialogue8FaceHenchie" Value="Yeah!" Face="Henchie" Mono="False" />
+  <!-- あなた達は旅行のためにこの船に乗ったんでしょう？ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage15Dialogue1FaceReisen" Value="....You boarded this cruise ship,as a regular passenger，did,you not?" Face="Reisen" Mono="False" />
+  <!-- 後始末は私がやるから部屋にでも戻って休みなさい -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage15Dialogue2FaceReisen" Value="I’ll handle the post-operation,cleanup. Get some rest." Face="Reisen" Mono="False" />
+  <!-- ････それもそうだね -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage15Dialogue3FaceWriggleHat" Value="I suppose it’s the same case,for me...." Face="WriggleHat" Mono="False" />
+  <!-- それじゃあ　お先に -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage15Dialogue4FaceWriggleHat" Value="I should get some rest too." Face="WriggleHat" Mono="False" />
+  <!-- またね！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage15Dialogue5FaceAlice" Value="See you later!" Face="Alice" Mono="False" />
+  <!-- 私達も部屋で休みましょ張り切りすぎて疲れちゃった -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue1FaceShanghai" Value="They’re right，it’s been a long,day. We should head back and,get some sleep." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ急に機嫌が良くなったわね？ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue2FaceAlice" Value="You seem like you’re in a much,better mood now." Face="Alice" Mono="False" />
+  <!-- そりゃあ？みんなの命が助かったんだし！元気にもなるわよ！ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue3FaceShanghai" Value="Of course I am! We saved,everyone’s lives! Happily ever,after!" Face="Shanghai" Mono="False" />
+  <!-- （絶対にウソだ････） -->
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue4FaceAlice" Value="(I’m almost certain that’s not,the reason at all....)" Face="Alice" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.SeirenShip1fbridgeShikigamiStage1Dialogue1FaceBlackRobot" Value="........" Face="BlackRobot" Mono="False" />
+  <!-- 全く動かない -->
+  <Dialogue Key="Map.SeirenShip1fbridgeShikigamiStage1Dialogue2FaceNone" Value="It’s as still as a statue." Face="None" Mono="False" />
+</data>

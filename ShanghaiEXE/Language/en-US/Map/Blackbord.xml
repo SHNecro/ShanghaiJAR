@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 会議室の電脳 -->
+  <Text Key="Map.BlackbordName" Value="Conference Room Comp" />
+  <!-- ネットハンザイハヤメヨウネ！ -->
+  <Dialogue Key="Map.BlackbordSprite1Stage1Dialogue1FaceSprite" Value="RIGHT!,THIS IS A VERY IMPORTANT,MEETING!" Face="Sprite" Mono="False" />
+  <!-- ････ッテ　イッテヤメテクレタラ　ラクナンデスケドネ -->
+  <Dialogue Key="Map.BlackbordSprite1Stage1Dialogue2FaceSprite" Value="....ZZZ...." Face="Sprite" Mono="False" />
+  <!-- ネットエージェントノ　タンマツニモウィルスハ　イルモノデス -->
+  <Dialogue Key="Map.BlackbordSprite2Stage1Dialogue1FaceSprite" Value="WE PROTOTYPED A PET,THAT HAS A CONSTANT,CONNECTION TO THE NET!" Face="Sprite" Mono="False" />
+  <!-- タオシテモスグニ　ドコカニウマレカワッチャウンデスヨー -->
+  <Dialogue Key="Map.BlackbordSprite2Stage1Dialogue2FaceSprite" Value="IF SOMEONE FORGETS IT AT,A BAR，THEY’LL BE IN BIG,TROUBLE!" Face="Sprite" Mono="False" />
+</data>

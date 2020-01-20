@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Genschool2faName" Value="幻想中学校　2F" />
+  <Dialogue Key="Map.Genschool2faToWarehouseStage1Dialogue1FaceNone" Value="倉庫へ通じる扉だが,カギがかかって入れない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue1FaceNone" Value="多目的室への扉だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue2FaceNone" Value="入学してからこの部屋が,使われているところを,見たことがない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage1Dialogue1FaceShanghai" Value="ちょっと　授業を受けずに,どこに行くつもりなの！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage3Dialogue1FaceShanghai" Value="帰る前にまだやることが,あるでしょーが！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage5Dialogue1FaceAlice" Value="シャンハイを置いてはいけない！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue1FaceFemaleStudent" Value="こまったなー･･･" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue2FaceFemaleStudent" Value="倉庫に用があるのに,先生まだ来ないなあ" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue3FaceFemaleStudent" Value="あ　教室はこっちじゃなくて,反対側の廊下の方だよ？" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue1FaceMaleStudent" Value="サブチップって知ってる？" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue2FaceMaleStudent" Value="体力を回復したり,ウィルスにあわなくなったりと,いろいろ便利な効果があるけど" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue3FaceMaleStudent" Value="バトルチップと違って,一度使うとなくなっちゃうんだよね" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue4FaceMaleStudent" Value="今度おこづかいもらったら,何個か買いだめておこう" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue5FaceMaleStudent" Value="でも　サブメモリを持ってないと,あんまり多く持てないんだよね" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3MariStage1Dialogue1FaceMari" Value="アリス　先にプラグインしてるぜ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3MariStage3Dialogue1FaceMari" Value="倉庫の扉なら,さっきの電脳を通るときに,開いたはずだぜ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="さっさとこの事件のケリを,つけようぜ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3NekkuStage3Dialogue1FaceTsubakiNekku" Value="電脳世界は,俺達に任せとけ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Genschool2faBeforePCRoomStage1Dialogue1FaceNone" Value="ＰＣ教室に入れるが,今は教室に向かうのが先決だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faBeforePCRoomStage3Dialogue1FaceNone" Value="扉には高圧の電流が,流れていて危険だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faAfterThePCRoomStage1Dialogue1FaceNone" Value="ＰＣ教室に入れるが,今は教室に向かうのが先決だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faAfterThePCRoomStage3Dialogue1FaceNone" Value="扉には高圧の電流が,流れていて危険だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage1Dialogue1FaceNone" Value="倉庫の出入りを管理する,カードリーダーだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage1Dialogue2FaceNone" Value="プラグインの端子もあるが,許可がないと出来ない,ようになっている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage3Dialogue1FaceNone" Value="倉庫の出入りを管理する,カードリーダーだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage3Dialogue2FaceNone" Value="プラグインができる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faPostGameBystander1Dialogue1" Value="来月から教育実習生が,ひとり来る予定なのよ" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool2faPostGameBystander1Dialogue2" Value="どんな人が来るのか,今から楽しみだわ" Face="FemaleAdult" Mono="False" />
+</data>

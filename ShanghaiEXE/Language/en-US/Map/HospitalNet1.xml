@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 病院の電脳１ -->
+  <Text Key="Map.HospitalNet1Name" Value="Hospital Comp 1" />
+  <!-- うっ････ -->
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue1FaceShanghai" Value="Ugh...." Face="Shanghai" Mono="False" />
+  <!-- 体力が限界ね････一度プラグアウトしましょう！ -->
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue2FaceAlice" Value="We’ve reached our limits....,We need jack out，now!" Face="Alice" Mono="False" />
+  <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue1FaceSprite" Value="LET’S FIX YOU RIGHT UP!" Face="Sprite" Mono="False" />
+  <!-- シャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue2FaceNone" Value="Shanghai’s HP has been fully,restored!" Face="None" Mono="False" />
+  <!-- ネツボウソウデ　ＨＰガナクナルト　プラグアウトヲシナクテハ　イケマセン -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue3FaceSprite" Value="THIS HEAT’S NOT GOOD,FOR YOUR HEALTH!" Face="Sprite" Mono="False" />
+  <!-- ＨＰノ　リョウニハキヲツケテ　クダサイネ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue4FaceSprite" Value="PLEASE KEEP AN EYE ON,YOUR HP AT ALL TIMES!" Face="Sprite" Mono="False" />
+  <!-- ううっ････流石に中も暑いわね -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue1FaceShanghai" Value="It’s so hot...." Face="Shanghai" Mono="False" />
+  <!-- この熱　シャンハイの体力をじわじわ減らすみたいね -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue2FaceAlice" Value="Be careful. The heat’s slowly,draining your health." Face="Alice" Mono="False" />
+  <!-- 体力が無くなる前にケリをつけるわよ！ -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue3FaceShanghai" Value="I’ll just have to wrap this up,before the heat gets to me!" Face="Shanghai" Mono="False" />
+  <!-- タスケテクダサイ！デンノウセカイガ　カジデス！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue1FaceSprite" Value="PLEASE HELP! THESE FIRES,ARE OUT OF CONTROL!" Face="Sprite" Mono="False" />
+  <!-- ムラサキイロノ　ホノオガアツサノ　ゲンインナノハワカッテ　イルンデスヨー！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue2FaceSprite" Value="SOMEONE RELEASED A,BUNCH OF VIRUSES AND,SET THIS COMP ABLAZE!" Face="Sprite" Mono="False" />
+  <!-- デモアノホノオ　ウィルスガバケテル　ミタイ！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue3FaceSprite" Value="THE FIRES ARE BEING FED,BY VIRUSES LIVING INSIDE,THEM!" Face="Sprite" Mono="False" />
+  <!-- ホノオト　タタカウトキメルトジョウタイニ　ナッテコウゲキリョク　ハンゲンダヨ！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue4FaceSprite" Value="IF YOU CAN DELETE THE,VIRUSES，THE FLAMES,SHOULD GO OUT!" Face="Sprite" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet1Wall1Stage1Dialogue1FaceNone" Value="The shutters have been closed,due to the high heat in the area!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-1Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-2Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-3Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-4Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+  <!-- このエリアの熱の原因が取り除かれ温度が下がった！ -->
+  <Dialogue Key="Map.HospitalNet1Wall2AnnihilationEventStage1Dialogue1FaceNone" Value="The source of the flame has,been removed，and the heat,disappears!" Face="None" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet1Wall2Stage1Dialogue1FaceNone" Value="The shutters have been closed,due to the high heat in the area!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-1Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-2Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-3Stage1Dialogue1FaceNone" Value="The flames solidified into a,virus!" Face="None" Mono="False" />
+</data>

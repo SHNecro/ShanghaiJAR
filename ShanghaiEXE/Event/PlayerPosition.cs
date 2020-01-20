@@ -1,0 +1,33 @@
+﻿using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Rendering;
+using NSGame;
+using SlimDX;
+
+namespace NSEvent
+{
+    internal class PlayerPosition : EventBase
+    {
+        public int ifID;
+
+        public PlayerPosition(MyAudio s, EventManager m, SaveData save)
+          : base(s, m, save)
+        {
+            this.NoTimeNext = true;
+        }
+
+        public override void Update()
+        {
+            Vector3 position = this.manager.parent.Player.Position;
+            this.savedata.ValList[0] = (int)position.X;
+            this.savedata.ValList[1] = (int)position.Y;
+            this.savedata.ValList[2] = (int)position.Z;
+            this.EndCommand();
+        }
+
+        public override void Render(IRenderer dg)
+        {
+            this.NoTimesRender(dg);
+        }
+    }
+}

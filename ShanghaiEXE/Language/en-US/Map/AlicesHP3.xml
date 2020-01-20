@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AlicesHP3Name" Value="Spare Room" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down1Stage1Dialogue1FaceNaviPurplePunk" Value="We went through a lot of,trouble to build this large,spacious room." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down1Stage1Dialogue2FaceNaviPurplePunk" Value="But I honestly don’t know what,we’re gonna use it for...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down2Stage1Dialogue1FaceNaviPurplePunk" Value="It’d be such a waste if we,don’t come up with a use for,this room." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down3Stage1Dialogue1FaceNaviPurplePunk" Value="If a punk ever bothers you，just,call! I’ll be there in a flash!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down4Stage1Dialogue1FaceNaviPurplePunk" Value="I heard that guys from the,Undernet can tame viruses." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down4Stage1Dialogue2FaceNaviPurplePunk" Value="If that’s true，then that sounds,pretty fun!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3VirusManagementMachineStage1Dialogue1FaceNone" Value="It’s a program for managing,caught viruses." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Servant1Stage1Dialogue1FaceNaviPurplePunk" Value="We’ll take good care of your,viruses! Just leave it to us!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue1FaceHenchie" Value="Miss Shanghai，this is the,equipment for managing,viruses." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue2FaceHenchie" Value="You have to empty the,VirusBall before you can,catch a new virus." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue3FaceHenchie" Value="We’ve got plenty of room,for more viruses，so let’s,go catch ’em all!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3TestSpriteStage1Dialogue1FaceSprite" Value="FLAG ON" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,0 ZENNY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <Text Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant1Stage1Dialogue1FaceNaviPurplePunk" Value="There there〜!,I’ll buff you ’til you really shine!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3LeikannonStage1Dialogue1FaceNone" Value="Its barrel is clanking happily.,Does it like being polished?" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant2Stage1Dialogue1FaceNaviPurplePunk" Value="It’s scary as an enemy，,but cute as a friend." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3KedamaStage1Dialogue1FaceNone" Value="Its fluffy hair is fluttering.,Looks like it feels right at,home." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant3Stage1Dialogue1FaceNaviPurplePunk" Value="C’mere，lil’ guy! Eat up!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3GanbattaStage1Dialogue1FaceNone" Value="It doesn’t look like it’s moving，,but it’s eating bug frags." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant4Stage1Dialogue1FaceNaviPurplePunk" Value="This lil’ guy is cute,and friendly!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3GelParkStage1Dialogue1FaceNone" Value="The GelPack can lift its,shell and use its springy,black part to snuggle." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant5Stage1Dialogue1FaceNaviPurplePunk" Value="Even if I touch this virus，,it won’t leave a scratch!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BronzerStage1Dialogue1FaceNone" Value="It’s making small dance-like,movements in place." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant6Stage1Dialogue1FaceNaviPurplePunk" Value="Stroking under this gal’s chin,makes her happy." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FlyanaStage1Dialogue1FaceNone" Value="It’ll meow sometimes while,it’s relaxing." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant7Stage1Dialogue1FaceNaviPurplePunk" Value="It licked me when I tried to,pet it...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FaintStage1Dialogue1FaceNone" Value="Its cool skin is soft and sticky,to the touch." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant8Stage1Dialogue1FaceNaviPurplePunk" Value="Ah〜!,What a refreshing breeze〜!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FujianStage1Dialogue1FaceNone" Value="The leaf-like part of its head,is swaying." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant9Stage1Dialogue1FaceNaviPurplePunk" Value="Maybe I should sharpen its,blade?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3DanBeetleStage1Dialogue1FaceNone" Value="It’s messily eating,freeze frags." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant10Stage1Dialogue1FaceNaviPurplePunk" Value="(Stare)...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3VivyatButtStage1Dialogue1FaceNone" Value="Its large eye is staring intently,at the Navi...." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant11Stage1Dialogue1FaceNaviPurplePunk" Value="Would you like to train it,to come out when you play,a flute?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3HolneyekStage1Dialogue1FaceNone" Value="The safety valve on its,neck is spinning gleefully." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant12Stage1Dialogue1FaceNaviPurplePunk" Value="Maybe you’re hungry?,Mmmm.... I can’t tell." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ReverStage1Dialogue1FaceNone" Value="Seems like it’s trying to,communicate with its,swirling sand noises." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant13Stage1Dialogue1FaceNaviPurplePunk" Value="This is my sake!,....Well，a little sip wouldn’t,hurt，right?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PucciniStage1Dialogue1FaceNone" Value="It’s staring longingly at the,Navi’s bottle of sake." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant14Stage1Dialogue1FaceNaviPurplePunk" Value="Um....,I don’t need it，but it’d be bad,not to take it，right?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3JunksStage1Dialogue1FaceNone" Value="It looks like it’s trying to give,the Navi some junk data." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CareOfServant15Stage1Dialogue1FaceNaviPurplePunk" Value="You can swear your loyalty to,me，but the problem is...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3RansterStage1Dialogue1FaceNone" Value="It’s raising its lance to pledge,its loyalty." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant16Stage1Dialogue1FaceNaviPurplePunk" Value="Is it okay to water this guy?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PoisolinStage1Dialogue1FaceNone" Value="It’s wriggling back and forth.,Is it’s some kind of dance?" Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant17Stage1Dialogue1FaceNaviPurplePunk" Value="I have no idea where this,guy is looking." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ReveilerStage1Dialogue1FaceNone" Value="It looks like it’s eye-like,panels are rolling around." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant18Stage1Dialogue1FaceNaviPurplePunk" Value="You’re so nice ’n shiny!,Yes you are!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ZaliniaStage1Dialogue1FaceNone" Value="It’s making a frothing sound,from its mouth." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant19Stage1Dialogue1FaceNaviPurplePunk" Value="This guy is well-built，but,he looks kinda cat-like." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MassDriverStage1Dialogue1FaceNone" Value="Scratching its jaw makes it,purr happily." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant20Stage1Dialogue1FaceNaviPurplePunk" Value="Ah〜!,What a refreshing breeze〜!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ScrewStage1Dialogue1FaceNone" Value="It’s humming and blowing,a cool breeze." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant21Stage1Dialogue1FaceNaviPurplePunk" Value="What’s this guy’s barrier,even made of?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BarzardStage1Dialogue1FaceNone" Value="It’s happily spinning the barrier,around its neck and wagging,its tail." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant22Stage1Dialogue1FaceNaviPurplePunk" Value="So cool!,This guy’s sooooo cool!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3SodogStage1Dialogue1FaceNone" Value="Its thick hair is billowing,gallantly." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant23Stage1Dialogue1FaceNaviPurplePunk" Value="It won’t bite me，right....?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MantiserStage1Dialogue1FaceNone" Value="Its three eyes are,glimmering eerily." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant41Stage1Dialogue1FaceNaviPurplePunk" Value="I’d like to train this guy,to sit on my arm and fly,on my command." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3OnohawkStage1Dialogue1FaceNone" Value="It’s been trained to clink its,beak when it’s hungry." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant24Stage1Dialogue1FaceNaviPurplePunk" Value="Does this thing eat?,Where’s it supposed to eat,from?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FlowerTank2Stage1Dialogue1FaceNone" Value="Looks like it shows emotion,by shaking its turrets back,and forth." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant25Stage1Dialogue1FaceNaviPurplePunk" Value="This air feels great!,It’s the perfect temperature!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BraCoolerStage1Dialogue1FaceNone" Value="It’s blowing out a refreshing,breeze." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant26Stage1Dialogue1FaceNaviPurplePunk" Value="Ha ha ha!,What a funny dance!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3DripperStage1Dialogue1FaceNone" Value="It’s wiggling and performing,a friendship dance." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant27Stage1Dialogue1FaceNaviPurplePunk" Value="It should be possible to fly,on this guy’s back，right?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3JuragonStage1Dialogue1FaceNone" Value="It has a gentle look on its face，,like it feels right at home." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant28Stage1Dialogue1FaceNaviPurplePunk" Value="What’s this guy’s rope,attached to....?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BananaStage1Dialogue1FaceNone" Value="It’s smiling and quietly,swinging back and forth...." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant29Stage1Dialogue1FaceNaviPurplePunk" Value="Does this lil’ guardian come,with any divine favors?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PompocoStage1Dialogue1FaceNone" Value="It’s shaking its leaf-like tail,and adjusting its hat." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant30Stage1Dialogue1FaceNaviPurplePunk" Value="Actually，I’m not too fond of,insects...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MosaStage1Dialogue1FaceNone" Value="It’s mouth is rustling like it’s,begging for something." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant31Stage1Dialogue1FaceNaviPurplePunk" Value="Do you think he’ll follow my,orders?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MushaStage1Dialogue1FaceNone" Value="It’s posing like a loyal warrior." Face="None" Mono="False" />
+  <!-- こいつが掘った後の土ってウワサによると電脳園芸に適しているんですって -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant32Stage1Dialogue1FaceNaviPurplePunk" Value="I heard a rumor that this,guy leaves behind soil that’s,perfect for cyber-gardens...." Face="NaviPurplePunk" Mono="False" />
+  <!-- 小さな触腕をピコピコと動かして感情表現をしているようだ -->
+  <Dialogue Key="Map.AlicesHP3IkariStage1Dialogue1FaceNone" Value="It’s gently waving its tentacles.,Is that how they express,emotions?" Face="None" Mono="False" />
+  <!-- 何を伝えようとしているのかわからないんですがとりあえずエサ与えましょうか？ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant33Stage1Dialogue1FaceNaviPurplePunk" Value="I don’t get what you’re trying,to tell me，do you want some,BugFrags?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 身体の周りにある土をペタペタと叩き固めている -->
+  <Dialogue Key="Map.AlicesHP3PanemallStage1Dialogue1FaceNone" Value="It’s pounding the soil around it，,so it’s hard and packed." Face="None" Mono="False" />
+  <!-- まとっている木の葉をたまにかき混ぜてやると喜ぶんですよこいつ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant34Stage1Dialogue1FaceNaviPurplePunk" Value="Let me stir those leaves around,you. Now you look pretty!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 時折そよ風を出して木の葉をくるくると宙で回転させている -->
+  <Dialogue Key="Map.AlicesHP3CoyoteStage1Dialogue1FaceNone" Value="An occasional breeze lifts its,leaves to twirl in the air." Face="None" Mono="False" />
+  <!-- 貝の中ってどうなっているのか知りたいんですけど知るのが怖いんですよね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant35Stage1Dialogue1FaceNaviPurplePunk" Value="I want to know what’s under,that shell，but....,Are we meant to know?" Face="NaviPurplePunk" Mono="False" />
+  <!-- ハサミで掴んだエサをカリカリと音を立てながら食べているようだ -->
+  <Dialogue Key="Map.AlicesHP3ShelrunStage1Dialogue1FaceNone" Value="It’s got some bait in its claw,and there’s an occasional,crunching from inside the shell." Face="None" Mono="False" />
+  <!-- いやあコイツがいればいつでも花見ができますね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant36Stage1Dialogue1FaceNaviPurplePunk" Value="It’s like a perpetual cherry,blossom viewing with this guy!" Face="NaviPurplePunk" Mono="False" />
+  <!-- シャカシャカと電脳桜を振って小さな桜吹雪を出している -->
+  <Dialogue Key="Map.AlicesHP3BowsStage1Dialogue1FaceNone" Value="A small storm of leaves twirls,around the Baldy." Face="None" Mono="False" />
+  <!-- ダメ元で「お手」を教えたらこいつ覚えたみたいなんですよ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant37Stage1Dialogue1FaceNaviPurplePunk" Value="I taught it a trick!,Shake!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 角をピカピカ光らせながらパチパチと放電の音を鳴らしている -->
+  <Dialogue Key="Map.AlicesHP3RaijunStage1Dialogue1FaceNone" Value="The air is filled with crackling,and electrical discharge as it,stares into the corner." Face="None" Mono="False" />
+  <!-- こいつを数匹並べてぜひともカエルの歌を輪唱させたいですね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant38Stage1Dialogue1FaceNaviPurplePunk" Value="....I want to get a line of these,guys and make a choir." Face="NaviPurplePunk" Mono="False" />
+  <!-- 喉のあたりを膨らませてゲコゲコと鳴き声をあげている -->
+  <Dialogue Key="Map.AlicesHP3GekoHutsuStage1Dialogue1FaceNone" Value="It’s inflating its throat and letting,out mighty croaks." Face="None" Mono="False" />
+  <!-- コイツが鳴いたらだいたい定時上がりの時間なんですよね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant39Stage1Dialogue1FaceNaviPurplePunk" Value="When this guy crows，is it time,to wake up?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 凛々しい眼差しで静かにじっと見つめている -->
+  <Dialogue Key="Map.AlicesHP3FreyaStage1Dialogue1FaceNone" Value="It stares quietly，with a,dignified gaze." Face="None" Mono="False" />
+  <!-- 電脳目薬をしてやるとすごく喜ぶんですよコイツ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant40Stage1Dialogue1FaceNaviPurplePunk" Value="It seems to love these,cyber-eyedrops!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 大きな瞳を震わせて目薬を堪能しているようだ -->
+  <Dialogue Key="Map.AlicesHP3IvilEyeStage1Dialogue1FaceNone" Value="It’s trembling with a teary eye,as its minder applies eyedrops." Face="None" Mono="False" />
+</data>

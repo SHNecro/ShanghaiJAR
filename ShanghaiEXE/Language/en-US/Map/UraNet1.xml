@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.UraNet1Name" Value="Undernet 1" />
+  <Text Key="Map.UraNet1RandomBattle1Enemy1" Value="ThugNavi" />
+  <Text Key="Map.UraNet1RandomBattle1Enemy2" Value="ThugNavi" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy1" Value="ThugNavi" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy2" Value="ThugNavi" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy3" Value="ThugNavi" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue1FaceNaviPurplePunk" Value="Yo，you’re pretty impressive,for a surface Navi." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue2FaceNaviPurplePunk" Value="Hehehe. Lemme teach you the,rules of the Undernet." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue3FaceNaviPurplePunk" Value="The Undernet is lawless，,so NetNavis can and will,ambush each other." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue4FaceNaviPurplePunk" Value="If you win，you can take one,of your opponents’ chips." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue5FaceNaviPurplePunk" Value="If you get taken out，don’t,blame the rules or whine like,a kid." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue6FaceNaviPurplePunk" Value="This is the Undernet. Try your,best not to get deleted." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Man2Stage1Dialogue1FaceNaviPurplePunk" Value="If you’ve come this far you,can’t go back to Eien Area." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Man2Stage1Dialogue2FaceNaviPurplePunk" Value="But if you REALLY need to go,home，just look for a warp in,Area 1." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Female1Stage1Dialogue1FaceNaviPurpleFemale" Value="What’s a surface Navi doing,here in the Undernet?,Fufufu...." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Female1Stage1Dialogue2FaceNaviPurpleFemale" Value="If you’re struggling here，then,you’ll just get deleted later on,for sure! ♪" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue1FaceNaviPurpleHeel" Value="Hehehe.... Hey，little girl.,Don’t you want a Dark Chip?" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue2FaceNaviPurpleHeel" Value="I’ll sell one to you right now,for 80000 Zenny." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue3QuestionFaceNaviPurpleHeel" Value="Wanna buy?" Face="NaviPurpleHeel" Mono="False" />
+  <Text Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue3Options" Value="Yes,No" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue4FaceNaviPurpleHeel" Value="Heh? If you don’t want one，,go away." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue5FaceNaviPurpleHeel" Value="Hehehe....,Thanks for your patronage!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue6FaceNaviPurpleHeel" Value="Tch....You don’t have enough?,I don’t do business with the,poor. Scram!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage3Dialogue1FaceNaviPurpleHeel" Value="I have a policy.,Only one per person." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage3Dialogue2FaceNaviPurpleHeel" Value="Run along now." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="Fufufu! I’m collecting chips,from the Navis that are trying,to attack me." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="I heard there was a Dark,Chip merchant near here.,Where the heck is he!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage1Dialogue1FaceNone" Value="An eerie door blocks the path.,I can’t go through!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue1FaceNone" Value="Shanghai used the,” ROM-ID ” !" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue2FaceNone" Value="The eerie door opened!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1GuidePlateStage1Dialogue1FaceNone" Value="From this point on，beware!,If you value your life，that warp,will take you home!" Face="None" Mono="False" />
+</data>

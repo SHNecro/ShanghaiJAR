@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 漁礁の電脳 -->
+  <Text Key="Map.UnderGyosyouName" Value="漁礁の電脳" />
+  <!-- ギョショウ　トイウノハサカナノ　スニナル　モノデス -->
+  <Dialogue Key="Map.UnderGyosyouSprite1Stage1Dialogue1FaceSprite" Value="ギョショウ　トイウノハ,サカナノ　スニナル　モノデス" Face="Sprite" Mono="False" />
+  <!-- ナニモナイ　カイテイニハオサカナガ　スメナイノデブロックトカヲ　シズメルンデス -->
+  <Dialogue Key="Map.UnderGyosyouSprite1Stage1Dialogue2FaceSprite" Value="ナニモナイ　カイテイニハ,オサカナガ　スメナイノデ,ブロックトカヲ　シズメルンデス" Face="Sprite" Mono="False" />
+  <!-- オオムカシニ　シズンダフネガギョショウニ　ナッテイルコトモアリマス -->
+  <Dialogue Key="Map.UnderGyosyouSprite2Stage1Dialogue1FaceSprite" Value="オオムカシニ　シズンダフネガ,ギョショウニ　ナッテイル,コトモアリマス" Face="Sprite" Mono="False" />
+  <!-- シズンダアトモ　オサカナノスミカニナルッテナンダカ　イイデスヨネ -->
+  <Dialogue Key="Map.UnderGyosyouSprite2Stage1Dialogue2FaceSprite" Value="シズンダアトモ　オサカナノ,スミカニナルッテ,ナンダカ　イイデスヨネ" Face="Sprite" Mono="False" />
+</data>

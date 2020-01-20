@@ -1,0 +1,235 @@
+first line:
+length1			Map collision columns
+length2			Map collision rows
+rendx			graphic offset X?
+rendy			graphic offset Y?
+rectWidth		graphic width
+rectHeight		graphic height
+save.plase		map name
+height			space between floors
+length3			number of pathing floors
+backno			number of the background
+encountcap0		flag of the special encounter
+encountcap1		number of special encounters at end
+				(gennet2? what are the other 2 besides cirno?)
+				(could just be flavor, unleashing ice with cirno)
+str1			graphic name prefix (for multiple floors)
+				(even: floor and bottom half of stairs up)
+				(odd: top half of stairs)
+Unused?
+
+floor pathing:
+number of floors
+	number of rows
+		each quarter tile is a byte:
+			0: unwalkable
+			1: full tile
+			2: 3/4 triangle |  |
+							 \_|
+			3: 3/4 triangle | \
+							|__|
+			4: 3/4 triangle  / |
+							|__|
+			5: 3/4 triangle |  |
+							| /
+			6: 1/4 triangle   \|
+			
+			7: 1/4 triangle
+							|\
+			8: 1/4 triangle
+							  /|
+			9: 1/4 triangle |/
+			
+			10:	ramp down east-west (east)
+			11: ramp down north-south (south)
+			12:	ramp up east-west (west)
+			13: ramp up north-south (north)
+			14: conveyor north
+			15: conveyor south
+			16: conveyor west
+			17: conveyor east
+
+random encounters:
+MapField.cs:172
+lines marked * are optional (all or nothing, for normal navi or scripted battles)
+3 enemy entries
+	enemy id		EnemyBase.cs (0 for empty, rank 0 at 3,2 but don't know if necessary)
+	rank			(0 is usually SP)
+	x				(0-indexed, from top left)
+	y				(above)
+	chip1* (only for normalnavi, default: taken from virus data)
+	chip2* (above)
+	chip3* (above)
+	hp*	  (above)
+panel type 1
+panel type 2
+	0: normal
+	1: cracked
+	2: broken
+	3: grass
+	4: ice
+	5: sand
+	6: poison
+	7: burner
+	8: thunder
+	9: none
+	10: "un" (unchangable? null panel?)
+panel pattern
+	key:
+		0: panel 1
+		1: panel 2
+		2: normal panel
+		3: rock
+	0:   000000
+		 000000
+		 000000
+
+	1:   100001
+		 100001
+		 100001
+
+	2:   100000
+		 000000
+		 000001
+
+	3:   101101
+		 000000
+		 101101
+
+	4:   101101
+		 101101
+		 101101
+
+	5:   000000
+		 010010
+		 000000
+
+	6:   010100
+		 001010
+		 100101
+
+	7:   000000
+		 111111
+		 000000
+
+	8:   001100
+		 000000
+		 001100
+
+	9:   101101
+		 110011
+		 101101
+
+	10:  221221
+		 101101
+		 122122
+
+	11:  100001
+		 110011
+		 011110
+
+	12:  010010
+		 101101
+		 010010
+
+	13:  010101
+		 000000
+		 101010
+
+	14:  100010
+		 001001
+		 011010
+
+	15:  100001
+		 130031
+		 100001
+
+	16:  013010
+		 011110
+		 010310
+
+	17:  001100
+		 301103
+		 001100
+
+	18:  013310
+		 111111
+		 310013
+
+	19:  100031
+		 010010
+		 031100
+
+	20:  100001
+		 103301
+		 100001
+
+	21:  000000
+		 000000
+		 000000
+count		is it a tutorial battle (increment variable 9, tutorial stage)
+result		does it give a chip?
+escape		can you escape?
+gameover*	does it end the game (default: yes)
+bgm name*	(default: area)
+
+mystery:
+a list of these on a single line
+type
+	0: chip
+	1: subchip
+	2: addon
+	3: special
+number/id
+	type 0: chip id (code in sub)
+	type 1:
+		0: halfenrg
+		1: fullenrg
+		2: firewall
+		3: openport
+		4: anti-vrs
+		5: virusscn
+		6: craktool
+	type 2: addon id (color in sub)
+	type 3:
+		0: hpmemory
+		1: regup (amount in sub)
+		2: submemory
+		3: core plus
+		4: hertz up (amount in sub)
+		5: bugfrags (amount in sub)
+		6: frzfrags (amount in sub)
+		7: errfrags (amount in sub)
+		other: zenny
+	type 4: Hidden virus (from encounter list)
+sub			metadata as above
+	AddOn:
+        0: gray
+        1: pink
+        2: sky
+        3: red
+        4: blue
+        5: gleen
+        6: yellow
+        7: dark
+name text	the name of the item gotten, with "a chip"/subchip/etc. decided by type
+
+items:
+starts with ID:
+(rest TBD)
+
+mystery IDs:
+starts with MysteryID: (or anything other than ID:)
+position: x:y:floor
+Mystery:
+	mysterytype
+		0: GMD from list, rest can be zeros
+		1: BMD
+		2: PMD
+	itemtype		same as GMD
+	itemid			same
+	itemsub			same
+	name (unused)
+	flag	flag used to tell if a BMD has already been taken
+(rest TBD, similar to item definition)
+(graphic -2:0,0 is GMD, -2:0,40 is BMD, -2:0,80 is PMD)

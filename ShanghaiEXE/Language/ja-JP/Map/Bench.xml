@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.BenchName" Value="ベンチの電脳" />
+  <Text Key="Map.BenchTestSprite2Battle1Enemy1" Value="チンピラアニキ" />
+  <!-- ボマー -->
+  <Text Key="Map.BenchTestSprite2Battle1Enemy2" Value="ボマー" />
+  <!-- モブナビ -->
+  <Text Key="Map.BenchTestSprite2Battle1Enemy3" Value="モブナビ" />
+  <Dialogue Key="Map.BenchSprite1Stage1Dialogue1FaceSprite" Value="コウエンハ　ミンナノ　バショデス,マワリノヒトノ　コトヲカンガエテ,アソンダリ　シマショウネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchSprite2Stage1Dialogue1FaceSprite" Value="コノベンチハ　サマザマナ,ケイソクキキガ,トリツケラレテイマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchSprite2Stage1Dialogue2FaceSprite" Value="コノアタリノ　キオンヤ,シツドヲシラベル,ヤクメガアルノデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue1FaceNaviGreenRobot" Value="君が依頼を受けてくれた子か？" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue2FaceNaviGreenRobot" Value="依頼内容は簡単！,私を全力で倒してみろ！" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue3FaceNaviGreenRobot" Value="私が負ければ　作戦の穴に,気づけるかもしれないからな,遠慮せずに頼むよ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue4FaceNaviGreenRobot" Value="よし　それじゃあトレーニングに,付き合ってもらうぞ！" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue5QuestionFaceNaviGreenRobot" Value="準備はいいかな？" Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.BenchClientStage1Dialogue5Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue6FaceNaviGreenRobot" Value="準備ができたら言ってくれよ" Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.BenchClientBattle1Enemy1" Value="イライジャ" />
+  <Dialogue Key="Map.BenchClientStage4Dialogue1FaceNaviGreenRobot" Value="駄目だ駄目だ！,私を負かしてくれないと,作戦の穴がわからないのだ！" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue1FaceNaviGreenRobot" Value="なるほど････" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue2FaceNaviGreenRobot" Value="地形と状態異常を,組み合わせても避けられれば,意味が無いのか････" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue3FaceNaviGreenRobot" Value="わかった,君のおかげで作戦を,見直せたよ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue4FaceNaviGreenRobot" Value="これはお礼だ,受け取ってくれたまえ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue5FaceNaviGreenRobot" Value="よし　これで大会の優勝,まちがいなしだ！" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue1FaceNaviGreenRobot" Value="状態異常の中には効果と別に,属性ダメージをアップさせる,効果があるものもある" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue2FaceNaviGreenRobot" Value="メルトは水　スリップは電気,ブラインドは炎のダメージが,それぞれ２倍になるんだ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue3FaceNaviGreenRobot" Value="パネルも同様に,草パネルでは炎が,氷パネルでは雷が倍になる" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue4FaceNaviGreenRobot" Value="覚えておけば,戦いできっと役に立つだろう" Face="NaviGreenRobot" Mono="False" />
+</data>

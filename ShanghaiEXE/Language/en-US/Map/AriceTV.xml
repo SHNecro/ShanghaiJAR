@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 最新薄型テレビの電脳 -->
+  <Text Key="Map.AriceTVName" Value="Flat Screen TV Comp" />
+  <!-- こんにちは　シャンハイさんご機嫌いかがですか？ -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue1FaceNaviRedSprite" Value="Hello Shanghai.,How are you?" Face="NaviRedSprite" Mono="False" />
+  <!-- 神綺ママさんの元で働けて私は幸せです -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue2FaceNaviRedSprite" Value="I’m really happy to be working,with Mama Shinki." Face="NaviRedSprite" Mono="False" />
+  <!-- 神綺ママさんのためにもこの電脳にはウィルスを一匹も入れないように頑張ってます！ -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue3FaceNaviRedSprite" Value="I’m doing my best to make,sure not a single virus infects,this TV!" Face="NaviRedSprite" Mono="False" />
+  <!-- シャンハイ様この間はありがとうございました -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue1FaceYumeko" Value="Miss Shanghai!,Thank you for your time!" Face="Yumeko" Mono="False" />
+  <!-- お教えいただいた電脳紅茶の淹れ方はほぼほぼマスターしましたよ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue2FaceYumeko" Value="I’ve almost mastered brewing,the cyber-tea like you taught!" Face="Yumeko" Mono="False" />
+  <!-- 次は電脳スパイ術と電脳お背中流し術を極めようと思っております！ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue3FaceYumeko" Value="Next I’ll master espionage and,learn how to fix sinks!" Face="Yumeko" Mono="False" />
+  <!-- ････シャンハイあなたはユメコを何にしたいの？ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue4FaceAlice" Value="....Shanghai，just what are you,making her do?" Face="Alice" Mono="False" />
+  <!-- あえて言うなら････右腕かしら -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue5FaceShanghai" Value="I wonder if she could learn how,to juggle...." Face="Shanghai" Mono="False" />
+  <!-- （部下にする気満々だぁ････） -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue6FaceAlice" Value="(If only my Navi were so,motivated....)" Face="Alice" Mono="False" />
+</data>

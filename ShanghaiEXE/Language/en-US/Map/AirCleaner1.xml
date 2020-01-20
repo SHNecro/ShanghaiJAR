@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner1Name" Value="Air Purifier Comp 1" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage1Dialogue1FaceSprite" Value="A SUSPICIOUS NAVI,FILLED THIS COMP WITH,POISON GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage1Dialogue2FaceSprite" Value="IF YOU INHALE IT，YOU’LL,PASS OUT AND TAKE,DAMAGE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage1Dialogue3FaceSprite" Value="YOU SHOULD BE SAVED,BY THE RESCUE,PROGRAM!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage3Dialogue1FaceSprite" Value="WOW!,THE POISON GAS,VANISHED!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage3Dialogue2FaceSprite" Value="IT’S ALL THANKS TO YOU!,THANK YOU!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite2Stage1Dialogue1FaceSprite" Value="IF YOU PASS OUT，THE,RESCUE PROGRAM WILL,BRING YOU BACK HERE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite2Stage1Dialogue2FaceSprite" Value="PLEASE BE REALLY,CAREFUL AROUND THE,GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite3Stage1Dialogue1FaceSprite" Value="INHALING GAS HURTS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage1Dialogue1FaceSprite" Value="FROM HERE ON，YOU NEED,GOOD TIMING TO DODGE,THE GAS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage3Dialogue1FaceSprite" Value="AIR PURIFIERS LOOK NICE，,BUT THEY ’RE REALLY,DIRTY INSIDE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage3Dialogue2FaceSprite" Value="THE FILTERS COLLECT,THE DIRT PARTICLES IN,THE AIR!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage3Dialogue3FaceSprite" Value="IF YOU REVERSE THE,PROCESS，IT EXPELS,DIRTY AIR INSTEAD!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1FirstVisitEventStage1Dialogue1FaceShanghai" Value="Cough!,Disgusting....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1FirstVisitEventStage1Dialogue2FaceAlice" Value="Cough....,We have to reset this air,purifier!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1FirstVisitEventStage1Dialogue3FaceShanghai" Value="(I gotta hurry，for, Alice’s sake....!)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue1FaceShanghai" Value="Cough! Gak!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue2FaceShanghai" Value="Cough.... Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue3FaceShanghai" Value="Wheeze!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue4FaceShanghai" Value="Achoo!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue5FaceShanghai" Value="Cough! Hack!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue6FaceShanghai" Value="Hack!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue7FaceShanghai" Value="Gasp!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage3Dialogue1FaceShanghai" Value="U....Ugh...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage5Dialogue1FaceAlice" Value="Please be careful around,poison gas...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage1Dialogue1FaceShanghai" Value="If I can just reset this control,panel....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage1Dialogue2FaceShanghai" Value="Gah!,Viruses came out!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue1FaceShanghai" Value="Alright!,Cleaning at full power!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue2FaceNone" Value="#b@false#W #w@10#H #w@10#I #w@10#I #w@10#I #w@10#I #w@10#I #w@10#R #w@10#R #w@10#R #w@10#!" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue3FaceShanghai" Value="How’s it looking out there，,Alice?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue4FaceAlice" Value="Cough....,It’s getting easier to breathe." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue5FaceAlice" Value="Jack out，Shanghai!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage5Dialogue1FaceNone" Value="The air purifier is cleaning the,air normally." Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue1FaceSprite" Value="I’M A SPRITE THAT SELLS,HOMEPAGE WALLPAPERS!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue2FaceSprite" Value="I CAN APPLY THIS,WALLPAPER TO YOUR,HOMEPAGE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue3FaceSprite" Value="THIS WALLPAPER COSTS,5000 ZENNY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="WOULD YOU LIKE TO,BUY IT?" Face="Sprite" Mono="False" />
+  <Text Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue4Options" Value="Yes,No" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue5FaceSprite" Value="UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue6FaceSprite" Value="THANK YOU FOR YOUR,PURCHASE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue7FaceSprite" Value="I HOPE TO SEE YOU AGAIN,SOON!" Face="Sprite" Mono="False" />
+</data>

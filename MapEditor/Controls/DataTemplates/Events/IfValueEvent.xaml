@@ -1,0 +1,90 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+                    xmlns:controls="clr-namespace:MapEditor.Controls"
+                    xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions"
+                    xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <DataTemplate DataType="{x:Type events:IfValueEvent}">
+        <StackPanel Orientation="Vertical">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="VariableOpColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Condition:"/>
+                <TextBox Grid.Column="1">
+                    <TextBox.Text>
+                        <Binding Path="VariableLeft" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ComboBox Grid.Column="2"
+                          ItemsSource="{markup:EnumBindingSource EnumType={x:Type enums:IfValueOperatorTypeNumber}}">
+                    <ComboBox.SelectedValue>
+                        <PriorityBinding>
+                            <Binding Path="OperatorType" Converter="{StaticResource EnumToIntegerValueConverter}" ConverterParameter="{x:Type enums:IfValueOperatorTypeNumber}" Mode="TwoWay" />
+                        </PriorityBinding>
+                    </ComboBox.SelectedValue>
+                </ComboBox>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="3"
+                                    Text="{Binding VariableOrConstantRight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="VariableOpColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Is variable:"/>
+                <CheckBox Grid.Column="1"
+                          VerticalContentAlignment="Center"
+                          Height="22"
+                          IsEnabled="False"
+                          IsChecked="True" />
+                <CheckBox Grid.Column="3"
+                          VerticalContentAlignment="Center"
+                          Height="22">
+                    <CheckBox.IsChecked>
+                        <PriorityBinding>
+                            <Binding Path="IsVariable" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged" />
+                        </PriorityBinding>
+                    </CheckBox.IsChecked>
+                </CheckBox>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Statement ID:"/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="StatementID" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>

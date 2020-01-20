@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ケーキ屋の電脳 -->
+  <Text Key="Map.CakeShopName" Value="Cake Shop Comp" />
+  <!-- ヨウガシ　ト　カイテケーキ　ト　ヨム -->
+  <Dialogue Key="Map.CakeShopSprite1Stage1Dialogue1FaceSprite" Value="WHAT’S COMING UP NEXT,ON THE MENU，YOU ASK?" Face="Sprite" Mono="False" />
+  <!-- ナンカ　オシャレナキブン〜 -->
+  <Dialogue Key="Map.CakeShopSprite1Stage1Dialogue2FaceSprite" Value="SOMETHING FASHIONABLE，,OF COURSE!" Face="Sprite" Mono="False" />
+  <!-- コノミセノ　ケーキエイコク　ジョオウモコノンダトカ -->
+  <Dialogue Key="Map.CakeShopSprite2Stage1Dialogue1FaceSprite" Value="AN ENGELLES TV SHOW IS,DOING A SPECIAL ON THIS,SHOP!" Face="Sprite" Mono="False" />
+  <!-- アクマデモ　ウワサノウワサ〜 -->
+  <Dialogue Key="Map.CakeShopSprite2Stage1Dialogue2FaceSprite" Value="SO THE RUMORS SAY!,THEY’RE ONLY RUMORS!" Face="Sprite" Mono="False" />
+</data>

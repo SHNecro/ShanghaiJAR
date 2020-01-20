@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.InglesNet3Name" Value="インターネット　インゲレスエリア３" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="ほう････お前さん,なかなかダークな気を,発しているじゃねえか" Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="どうだ　俺の育てたウィルスと,戦って　勝ったらダークチップを,くれてやるっていうのは" Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="もちろん　お前がベットするのは,その生命だがな････" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="俺のウィルスと戦うか？" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.InglesNet3DarkSellerStage1Dialogue4Options" Value="やってやろうじゃない！,今は調子が悪い" />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="ちっ････怖気づいたか" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="よし　じゃあ行くぜ！" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="ヒュ〜　勝ちやがったか！" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="よし　こいつを受け取りな！" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="俺はお前に負けたんだ,これ以上とやかく言う,資格はねぇよ" Face="NaviBlackHeel" Mono="False" />
+</data>

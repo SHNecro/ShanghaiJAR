@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner1Name" Value="空気清浄機の電脳１" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage1Dialogue1FaceSprite" Value="フシンナ　ナビノセイデ,アタリニ　ドクガスガ,ジュウマン　シテイマス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage1Dialogue2FaceSprite" Value="ドクガスヲスウト　ダメージヲウケ,イシキヲ　ウシナッテ,シマイマスガ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage1Dialogue3FaceSprite" Value="キュウジョ　プログラムニヨリ,ジドウテキニ　キュウジョサレマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage3Dialogue1FaceSprite" Value="オオ！,ドクガスガ　キエマシタヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite1Stage3Dialogue2FaceSprite" Value="アナタノ　オカゲデスネ,アリガトウ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite2Stage1Dialogue1FaceSprite" Value="キュウジョ　プログラムデ,キュウジョサレルト,ココニ　ハコバレテキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite2Stage1Dialogue2FaceSprite" Value="ホントーニ,ガスニハ　キヲツケテネ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite3Stage1Dialogue1FaceSprite" Value="ガスヲ　スッテ　クルシイ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage1Dialogue1FaceSprite" Value="コノサキ　タイミングヨク　ガスヲ,ヨケテイカナイト　ダメデスネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage3Dialogue1FaceSprite" Value="クウキセイジョウキッテ,キレイナ　イメージガアリマスガ,ナカハ　ドロドロデスヨン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage3Dialogue2FaceSprite" Value="ナンタッテ　キタナイクウキノ,キタナイブブンヲ　フィルターニ,タメコンデ　イッテマスカラネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1Sprite4Stage3Dialogue3FaceSprite" Value="ソレヲ　ギャクリュウサセタラ,キタナイクウキガ,フンシャサレチャイマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1FirstVisitEventStage1Dialogue1FaceShanghai" Value="ウゲッ！,くっさ〜････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1FirstVisitEventStage1Dialogue2FaceAlice" Value="ゲホッ････,空気清浄機の運転システムを,正常化するのよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1FirstVisitEventStage1Dialogue3FaceShanghai" Value="（アリスのためにも,　急がないとね････！）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue1FaceShanghai" Value="ゴフッ　ガハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue2FaceShanghai" Value="ゲホッ････　う〜ん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue3FaceShanghai" Value="ぐふっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue4FaceShanghai" Value="あヅうっ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue5FaceShanghai" Value="ゲフッ　ゴハァッ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue6FaceShanghai" Value="はうっ！！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage1Dialogue7FaceShanghai" Value="あっ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage3Dialogue1FaceShanghai" Value="う　う〜ん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1PoisonGas1Stage5Dialogue1FaceAlice" Value="毒ガスは気をつけないと,いけないわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage1Dialogue1FaceShanghai" Value="このコントロールパネルを,正常化すれば････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage1Dialogue2FaceShanghai" Value="げえっ！　ウィルスが出た！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue1FaceShanghai" Value="よし！,フルパワーで正常稼働！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue2FaceNone" Value="#b@false#ウ#w@10#ィ#w@10#ィ#w@10#ィ#w@10#ィ#w@10#イ#w@10#イ#w@10#イ#w@10#ン" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue3FaceShanghai" Value="アリス　どう？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue4FaceAlice" Value="けほっ････,だいぶ息が楽になったわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage3Dialogue5FaceAlice" Value="プラグアウトよ　シャンハイ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1ControlStage5Dialogue1FaceNone" Value="空気清浄機は,正常に清浄している" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue1FaceSprite" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue2FaceSprite" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue3FaceSprite" Value="カベガミノ　リョウキンハ,５０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <Text Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue5FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue6FaceSprite" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner1WallpaperSpriteStage1Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+</data>

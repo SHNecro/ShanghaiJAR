@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- チップショップ「ヴワル」 -->
+  <Text Key="Map.ChipshopName" Value="チップショップ「ヴワル」" />
+  <!-- チップショップの店長さん優しくてかっこよくて好きー！ -->
+  <Dialogue Key="Map.ChipshopChapter3YoungGirl1Stage1Dialogue1FaceFemaleChild" Value="チップショップの店長さん,優しくてかっこよくて好きー！" Face="FemaleChild" Mono="False" />
+  <!-- アサルトバスターっていうアドオン買ったんだけどチャージができなくなるんだよね -->
+  <Dialogue Key="Map.ChipshopChapter3YoungBoy1Stage1Dialogue1FaceMaleChild" Value="アサルトバスターっていう,アドオン買ったんだけど,チャージができなくなるんだよね" Face="MaleChild" Mono="False" />
+  <!-- でも　チャージを強化すると弾の速さが上がるんだぜ！ -->
+  <Dialogue Key="Map.ChipshopChapter3YoungBoy1Stage1Dialogue2FaceMaleChild" Value="でも　チャージを強化すると,弾の速さが上がるんだぜ！" Face="MaleChild" Mono="False" />
+  <!-- 見たことのないチップばっかりだ戦略の幅が広がるね！ -->
+  <Dialogue Key="Map.ChipshopChapter3Youth1Stage1Dialogue1FaceMaleAdult" Value="見たことのないチップばっかりだ,戦略の幅が広がるね！" Face="MaleAdult" Mono="False" />
+  <!-- チップトレーダーはいらないチップを３枚入れると新しいチップが１枚出てくるの -->
+  <Dialogue Key="Map.ChipshopChapter3YoungGirl2Stage1Dialogue1FaceFemaleStudent" Value="チップトレーダーは,いらないチップを３枚入れると,新しいチップが１枚出てくるの" Face="FemaleStudent" Mono="False" />
+  <!-- 出てくるチップは入れたチップとは関係ないから　大事なチップを入れたりしないようにね -->
+  <Dialogue Key="Map.ChipshopChapter3YoungGirl2Stage1Dialogue2FaceFemaleStudent" Value="出てくるチップは入れたチップとは,関係ないから　大事なチップを,入れたりしないようにね" Face="FemaleStudent" Mono="False" />
+  <!-- チップトレーダーにチップを入れすぎてバッグの中身がなくなっちゃった････ -->
+  <Dialogue Key="Map.ChipshopChapter4Girl1Stage1Dialogue1FaceFemaleChild" Value="チップトレーダーに,チップを入れすぎてバッグの,中身がなくなっちゃった････" Face="FemaleChild" Mono="False" />
+  <!-- ナンバートレーダーは８ケタの番号を入力して当たりだと景品を貰えるんだって -->
+  <Dialogue Key="Map.ChipshopChapter4Girl2Stage1Dialogue1FaceFemaleStudent" Value="ナンバートレーダーは,８ケタの番号を入力して,当たりだと景品を貰えるんだって" Face="FemaleStudent" Mono="False" />
+  <!-- 番号は････どこかで見つけられるらしいわよ？ -->
+  <Dialogue Key="Map.ChipshopChapter4Girl2Stage1Dialogue2FaceFemaleStudent" Value="番号は････どこかで,見つけられるらしいわよ？" Face="FemaleStudent" Mono="False" />
+  <!-- 回復系チップって意外とあなどれないんだよね -->
+  <Dialogue Key="Map.ChipshopChapter4TeenagerStage1Dialogue1FaceMaleStudent" Value="回復系チップって,意外とあなどれないんだよね" Face="MaleStudent" Mono="False" />
+  <!-- 一枚でも入れておくといざというときに生き残れるかもね -->
+  <Dialogue Key="Map.ChipshopChapter4TeenagerStage1Dialogue2FaceMaleStudent" Value="一枚でも入れておくと,いざというときに生き残れるかもね" Face="MaleStudent" Mono="False" />
+  <!-- ううん････アスタリスクのロード系か効果範囲のステージ系か -->
+  <Dialogue Key="Map.ChipshopChapter5TeenagerStage1Dialogue1FaceMaleStudent" Value="ううん････,アスタリスクのロード系か,効果範囲のステージ系か" Face="MaleStudent" Mono="False" />
+  <!-- これはナンバートレーダーよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderStage1Dialogue1FacePatchouli" Value="これはナンバートレーダーよ！" Face="Patchouli" Mono="False" />
+  <!-- ロットナンバーを入力してね！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderStage1Dialogue2NumsetFacePatchouli" Value="ロットナンバーを入力してね！" Face="Patchouli" Mono="False" />
+  <!-- ロットナンバーのチェック中････ピロピロピロピロピロピロ -->
+  <Dialogue Key="Map.ChipshopNumberTraderStage2Dialogue1FacePatchouli" Value="ロットナンバーのチェック中････,ピロピロピロピロピロピロ" Face="Patchouli" Mono="False" />
+  <!-- むきゅー・・・・残念　ハズレのようね････ -->
+  <Dialogue Key="Map.ChipshopNumberTraderStage4Dialogue1FacePatchouli" Value="むきゅー・・・・,残念　ハズレのようね････" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage1Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage1Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage3Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage5Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage5Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage7Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage9Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage9Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage11Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage13Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage13Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage15Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage17Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage17Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage19Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage21Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage21Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage23Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage25Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage25Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage27Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage29Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage29Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage31Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage33Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage33Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage35Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage37Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage37Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage39Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage41Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage41Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage43Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage45Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage45Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage47Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage49Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage49Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage51Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage53Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage53Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage55Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage57Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage57Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage59Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage61Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage61Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage63Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage65Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage65Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage67Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage69Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage69Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage71Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage73Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage73Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage75Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage77Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage77Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage79Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage81Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage81Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage83Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage85Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage85Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage87Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage89Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage89Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage91Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- チェック完了！むきゅ！　当選ナンバーよ！アイテムを受け取りなさい！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage93Dialogue1FacePatchouli" Value="チェック完了！,むきゅ！　当選ナンバーよ！,アイテムを受け取りなさい！" Face="Patchouli" Mono="False" />
+  <!-- ガチャガチャ････ゴトン！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage93Dialogue2FaceNone" Value="ガチャガチャ････ゴトン！" Face="None" Mono="False" />
+  <!-- むきゅ？この番号はすでに使用済みよ！ -->
+  <Dialogue Key="Map.ChipshopNumberTraderPremiumStage95Dialogue1FacePatchouli" Value="むきゅ？,この番号はすでに,使用済みよ！" Face="Patchouli" Mono="False" />
+  <!-- 戦闘テスト -->
+  <Dialogue Key="Map.ChipshopTestSprite1Stage1Dialogue1FaceSprite" Value="戦闘テスト" Face="Sprite" Mono="False" />
+  <!-- てすと -->
+  <Dialogue Key="Map.ChipshopTestSprite2Stage1Dialogue1FaceNone" Value="てすと" Face="None" Mono="False" />
+  <!-- てすと -->
+  <Dialogue Key="Map.ChipshopTestSprite3Stage1Dialogue1FaceNone" Value="てすと" Face="None" Mono="False" />
+  <!-- てすと -->
+  <Dialogue Key="Map.ChipshopTestSprite3DupeStage1Dialogue1FaceNone" Value="てすと" Face="None" Mono="False" />
+  <!-- 営業していることをアピールするのぼり旗だ -->
+  <Dialogue Key="Map.ChipshopFlagStage1Dialogue1FaceNone" Value="営業していることをアピールする,のぼり旗だ" Face="None" Mono="False" />
+  <!-- こういったものはインターネットで発注すれば安く早く作ってもらえたりする -->
+  <Dialogue Key="Map.ChipshopFlagStage1Dialogue2FaceNone" Value="こういったものはインターネットで,発注すれば安く早く,作ってもらえたりする" Face="None" Mono="False" />
+  <!-- チップフォルダのスターターパックが売っている -->
+  <Dialogue Key="Map.ChipshopCommercialShedStage1Dialogue1FaceNone" Value="チップフォルダの,スターターパックが売っている" Face="None" Mono="False" />
+  <!-- スターターパックはあまり数が出まわらないので　一人一つまでしか買ってはいけない -->
+  <Dialogue Key="Map.ChipshopCommercialShedStage1Dialogue2FaceNone" Value="スターターパックはあまり数が,出まわらないので　一人,一つまでしか買ってはいけない" Face="None" Mono="False" />
+  <!-- 店内イベントに使うホワイトボードだ -->
+  <Dialogue Key="Map.ChipshopBulletinBoardStage1Dialogue1FaceNone" Value="店内イベントに使う,ホワイトボードだ" Face="None" Mono="False" />
+  <!-- まだ使われていないのでピカピカの新品であり書くのがためらわれる -->
+  <Dialogue Key="Map.ChipshopBulletinBoardStage1Dialogue2FaceNone" Value="まだ使われていないので,ピカピカの新品であり,書くのがためらわれる" Face="None" Mono="False" />
+  <!-- よく見るとすみっこに１１８６５９３５　とラクガキがされている -->
+  <Dialogue Key="Map.ChipshopBulletinBoardStage1Dialogue3FaceNone" Value="よく見るとすみっこに,１１８６５９３５　と,ラクガキがされている" Face="None" Mono="False" />
+  <!-- 古いバージョンのバトルチップがところ狭しと並んでいる -->
+  <Dialogue Key="Map.ChipshopGlassCase1Stage1Dialogue1FaceNone" Value="古いバージョンのバトルチップが,ところ狭しと並んでいる" Face="None" Mono="False" />
+  <!-- バトルチップは定期的にバージョンが上がり古いものは使えなくなってしまう -->
+  <Dialogue Key="Map.ChipshopGlassCase1Stage1Dialogue2FaceNone" Value="バトルチップは定期的に,バージョンが上がり,古いものは使えなくなってしまう" Face="None" Mono="False" />
+  <!-- 使えなくなったあとはコレクションアイテムとして高値で取引されるようになる -->
+  <Dialogue Key="Map.ChipshopGlassCase1Stage1Dialogue3FaceNone" Value="使えなくなったあとは,コレクションアイテムとして,高値で取引されるようになる" Face="None" Mono="False" />
+  <!-- これだけの数を集めるのに一体いくらかかったのだろうか････ -->
+  <Dialogue Key="Map.ChipshopGlassCase1Stage1Dialogue4FaceNone" Value="これだけの数を集めるのに,一体いくらかかったのだろうか････" Face="None" Mono="False" />
+  <!-- いろいろな記念チップがところ狭しと並んでいる -->
+  <Dialogue Key="Map.ChipshopGlassCase2Stage1Dialogue1FaceNone" Value="いろいろな記念チップが,ところ狭しと並んでいる" Face="None" Mono="False" />
+  <!-- 使うことはできないがデザインがコられており美術品として価値は高い -->
+  <Dialogue Key="Map.ChipshopGlassCase2Stage1Dialogue2FaceNone" Value="使うことはできないが,デザインがコられており,美術品として価値は高い" Face="None" Mono="False" />
+  <!-- これだけの数を集めるのに一体いくらかかったのだろうか････ -->
+  <Dialogue Key="Map.ChipshopGlassCase2Stage1Dialogue3FaceNone" Value="これだけの数を集めるのに,一体いくらかかったのだろうか････" Face="None" Mono="False" />
+  <!-- それは地形変化チップだよ買うかい？ -->
+  <Dialogue Key="Map.ChipshopShowcase1Stage1Dialogue1QuestionFaceKumami" Value="それは地形変化チップだよ,買うかい？" Face="Kumami" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.ChipshopShowcase1Stage1Dialogue1Options" Value="買う,買わない" />
+  <!-- それは地形変化チップだよ買うかい？ -->
+  <Dialogue Key="Map.ChipshopShowcase5Stage1Dialogue1QuestionFaceKumami" Value="それは地形変化チップだよ,買うかい？" Face="Kumami" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.ChipshopShowcase5Stage1Dialogue1Options" Value="買う,買わない" />
+  <!-- それはＨＰ回復チップだよ買うかい？ -->
+  <Dialogue Key="Map.ChipshopShowcase2Stage1Dialogue1QuestionFaceKumami" Value="それはＨＰ回復チップだよ,買うかい？" Face="Kumami" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.ChipshopShowcase2Stage1Dialogue1Options" Value="買う,買わない" />
+  <!-- それは補助効果チップだよ買うかい？ -->
+  <Dialogue Key="Map.ChipshopShowcase3Stage1Dialogue1QuestionFaceKumami" Value="それは補助効果チップだよ,買うかい？" Face="Kumami" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.ChipshopShowcase3Stage1Dialogue1Options" Value="買う,買わない" />
+  <!-- それは置物系チップだよ買うかい？ -->
+  <Dialogue Key="Map.ChipshopShowcase4Stage1Dialogue1QuestionFaceKumami" Value="それは置物系チップだよ,買うかい？" Face="Kumami" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.ChipshopShowcase4Stage1Dialogue1Options" Value="買う,買わない" />
+  <!-- よう！キンパツ嬢ちゃん！どうだ　この店は！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue1FaceKumami" Value="よう！キンパツ嬢ちゃん！,どうだ　この店は！" Face="Kumami" Mono="False" />
+  <!-- 本当にお店作っちゃったんですね！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue2FaceAlice" Value="本当にお店,作っちゃったんですね！" Face="Alice" Mono="False" />
+  <!-- 私にとっちゃこんなのチョチョイのチョイだ！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue3FaceKumami" Value="私にとっちゃこんなの,チョチョイのチョイだ！" Face="Kumami" Mono="False" />
+  <!-- それでな　世話になったお礼にこれをやるよ！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue4FaceKumami" Value="それでな　世話になったお礼に,これをやるよ！" Face="Kumami" Mono="False" />
+  <!-- わあ！ありがとうございます！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue5FaceAlice" Value="わあ！,ありがとうございます！" Face="Alice" Mono="False" />
+  <!-- いいって　いいって！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue6FaceKumami" Value="いいって　いいって！" Face="Kumami" Mono="False" />
+  <!-- 良かったら商品も見ていってくれよな！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue7FaceKumami" Value="良かったら商品も,見ていってくれよな！" Face="Kumami" Mono="False" />
+  <!-- カウンター越しに話しかけてくれれば　アドオンも販売するよ！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue8FaceKumami" Value="カウンター越しに話しかけて,くれれば　アドオンも,販売するよ！" Face="Kumami" Mono="False" />
+  <!-- チップが欲しい時はショーケースから言ってくれよな！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage1Dialogue9FaceKumami" Value="チップが欲しい時は,ショーケースから言ってくれよな！" Face="Kumami" Mono="False" />
+  <!-- よう！キンパツ嬢ちゃん！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage3Dialogue1FaceKumami" Value="よう！キンパツ嬢ちゃん！" Face="Kumami" Mono="False" />
+  <!-- カウンター越しに話しかけてくれれば　アドオンも販売するよ！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage3Dialogue2FaceKumami" Value="カウンター越しに話しかけて,くれれば　アドオンも,販売するよ！" Face="Kumami" Mono="False" />
+  <!-- チップが欲しい時はショーケースから言ってくれよな！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage3Dialogue3FaceKumami" Value="チップが欲しい時は,ショーケースから言ってくれよな！" Face="Kumami" Mono="False" />
+  <!-- 要塞への侵入だって？ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue1FaceKumami" Value="要塞への侵入だって？" Face="Kumami" Mono="False" />
+  <!-- 何か方法は無いものですかね････ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue2FaceAlice" Value="何か方法は,無いものですかね････" Face="Alice" Mono="False" />
+  <!-- そうだな････お金持ちがどうとかはひとまず置いといて -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue3FaceKumami" Value="そうだな････,お金持ちがどうとかは,ひとまず置いといて" Face="Kumami" Mono="False" />
+  <!-- 元賞金稼ぎをやってた身としてはステルス機を使うと良いと思うけど -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue4FaceKumami" Value="元賞金稼ぎをやってた,身としてはステルス機を,使うと良いと思うけど" Face="Kumami" Mono="False" />
+  <!-- ステルス機？ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue5FaceAlice" Value="ステルス機？" Face="Alice" Mono="False" />
+  <!-- レーダーに引っかからずに空をとぶことができる特殊な飛行機よ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue6FaceShanghai" Value="レーダーに引っかからずに,空をとぶことができる,特殊な飛行機よ" Face="Shanghai" Mono="False" />
+  <!-- まあ今だと大半のステルスはレーダー側に対策されて無意味になってるけど -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue7FaceKumami" Value="まあ今だと大半のステルスは,レーダー側に対策されて,無意味になってるけど" Face="Kumami" Mono="False" />
+  <!-- たしか　どこかの国では最新の機体が開発されたとか聞いたような････ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue8FaceKumami" Value="たしか　どこかの国では,最新の機体が開発されたとか,聞いたような････" Face="Kumami" Mono="False" />
+  <!-- もしかして　それがあれば････！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue9FaceAlice" Value="もしかして　それがあれば････！" Face="Alice" Mono="False" />
+  <!-- だとしても　機体が無いんじゃ話にならないよ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue10FaceKumami" Value="だとしても　機体が無いんじゃ,話にならないよ" Face="Kumami" Mono="False" />
+  <!-- それに私だって話に聞いただけで　どの国が作ったか知らないんだ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue11FaceKumami" Value="それに私だって話に,聞いただけで　どの国が,作ったか知らないんだ" Face="Kumami" Mono="False" />
+  <!-- 悪いね　たいした力になれなくて -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue12FaceKumami" Value="悪いね　たいした,力になれなくて" Face="Kumami" Mono="False" />
+  <!-- いいんですありがとうございました -->
+  <Dialogue Key="Map.ChipshopBeautifulStage5Dialogue13FaceAlice" Value="いいんです,ありがとうございました" Face="Alice" Mono="False" />
+  <!-- よう！キンパツ嬢ちゃん！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage7Dialogue1FaceKumami" Value="よう！キンパツ嬢ちゃん！" Face="Kumami" Mono="False" />
+  <!-- カウンター越しに話しかけてくれれば　アドオンも販売するよ！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage7Dialogue2FaceKumami" Value="カウンター越しに話しかけて,くれれば　アドオンも,販売するよ！" Face="Kumami" Mono="False" />
+  <!-- チップが欲しい時はショーケースから言ってくれよな！ -->
+  <Dialogue Key="Map.ChipshopBeautifulStage7Dialogue3FaceKumami" Value="チップが欲しい時は,ショーケースから言ってくれよな！" Face="Kumami" Mono="False" />
+  <!-- いらっしゃい！アドオンはここで売ってるよ！ -->
+  <Dialogue Key="Map.ChipshopCounterStage1Dialogue1QuestionFaceKumami" Value="いらっしゃい！,アドオンはここで売ってるよ！" Face="Kumami" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.ChipshopCounterStage1Dialogue1Options" Value="買う,買わない" />
+  <!-- チップが欲しい時はショーケースから言ってくれよな！ -->
+  <Dialogue Key="Map.ChipshopCounterStage3Dialogue1FaceKumami" Value="チップが欲しい時は,ショーケースから言ってくれよな！" Face="Kumami" Mono="False" />
+  <!-- 荒野で戦車をバックに撮られた集合写真が飾ってある -->
+  <Dialogue Key="Map.ChipshopPhotoStage1Dialogue1FaceNone" Value="荒野で戦車をバックに撮られた,集合写真が飾ってある" Face="None" Mono="False" />
+  <!-- 隈美さんがアラブスタンで撮った戦友との写真なのだろう -->
+  <Dialogue Key="Map.ChipshopPhotoStage1Dialogue2FaceNone" Value="隈美さんがアラブスタンで撮った,戦友との写真なのだろう" Face="None" Mono="False" />
+  <!-- 写真を表示しているフォトフレームにプラグインできそうだ！ -->
+  <Dialogue Key="Map.ChipshopPhotoStage1Dialogue3FaceNone" Value="写真を表示している,フォトフレームに,プラグインできそうだ！" Face="None" Mono="False" />
+  <!-- おっ　キンパツ嬢ちゃんそれが欲しいのかい？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage1Dialogue1FaceKumami" Value="おっ　キンパツ嬢ちゃん,それが欲しいのかい？" Face="Kumami" Mono="False" />
+  <!-- あっ　隈美さん -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage1Dialogue2FaceAlice" Value="あっ　隈美さん" Face="Alice" Mono="False" />
+  <!-- ちょっと暇つぶしに見てるだけですよ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage1Dialogue3FaceAlice" Value="ちょっと暇つぶしに,見てるだけですよ" Face="Alice" Mono="False" />
+  <!-- なんだよ　冷やかしかよ〜まあ　いいけどさー -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage1Dialogue4FaceKumami" Value="なんだよ　冷やかしかよ〜,まあ　いいけどさー" Face="Kumami" Mono="False" />
+  <!-- おーい！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage1Dialogue5FaceTsubakiNekku" Value="おーい！" Face="TsubakiNekku" Mono="False" />
+  <!-- ここにいたのかいやー　探したぜ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue1FaceTsubakiNekku" Value="ここにいたのか,いやー　探したぜ" Face="TsubakiNekku" Mono="False" />
+  <!-- 椿君？どうしたの？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue2FaceAlice" Value="椿君？,どうしたの？" Face="Alice" Mono="False" />
+  <!-- ああ　お前は大会に参加するのか聞きたくてさ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue3FaceTsubakiNekku" Value="ああ　お前は大会に,参加するのか聞きたくてさ" Face="TsubakiNekku" Mono="False" />
+  <!-- 大会？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue4FaceShanghai" Value="大会？" Face="Shanghai" Mono="False" />
+  <!-- あれ　知らないのか？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue5FaceTsubakiNekku" Value="あれ　知らないのか？" Face="TsubakiNekku" Mono="False" />
+  <!-- ボーダーコンツェルン主催のネットバトル大会「Ｎ１リーグ」が開かれるんだってさ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue6FaceTsubakiNekku" Value="ボーダーコンツェルン主催の,ネットバトル大会「Ｎ１リーグ」が,開かれるんだってさ" Face="TsubakiNekku" Mono="False" />
+  <!-- へぇ〜面白そうね -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue7FaceAlice" Value="へぇ〜,面白そうね" Face="Alice" Mono="False" />
+  <!-- 悪いけどあたしパス -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue8FaceShanghai" Value="悪いけどあたしパス" Face="Shanghai" Mono="False" />
+  <!-- 珍しいわねいつものシャンハイだったら参加したがるのに -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue9FaceAlice" Value="珍しいわね,いつものシャンハイだったら,参加したがるのに" Face="Alice" Mono="False" />
+  <!-- 最近激しいバトルばかりで疲れがたまってるのよ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue10FaceShanghai" Value="最近激しいバトルばかりで,疲れがたまってるのよ" Face="Shanghai" Mono="False" />
+  <!-- その上にわざわざ疲れをためる理由なんて････ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue11FaceShanghai" Value="その上にわざわざ,疲れをためる理由なんて････" Face="Shanghai" Mono="False" />
+  <!-- ちぇー　残念だなあ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue12FaceSpannerMan" Value="ちぇー　残念だなあ" Face="SpannerMan" Mono="False" />
+  <!-- 優勝賞品は賞金１０万ゼニーと豪華客船セイレーンで行くインゲレスツアーなのに -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue13FaceSpannerMan" Value="優勝賞品は賞金１０万ゼニーと,豪華客船セイレーンで行く,インゲレスツアーなのに" Face="SpannerMan" Mono="False" />
+  <!-- ！！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue14FaceShanghai" Value="！！" Face="Shanghai" Mono="False" />
+  <!-- 賞品は私も欲しいけどシャンハイがこう言ってるし私は････ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue15FaceAlice" Value="賞品は私も欲しいけど,シャンハイがこう言ってるし,私は････" Face="Alice" Mono="False" />
+  <!-- さあアリス！Ｎ１リーグのエントリーをしに行くわよ！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue16FaceShanghai" Value="さあアリス！,Ｎ１リーグのエントリーを,しに行くわよ！" Face="Shanghai" Mono="False" />
+  <!-- え？だって今　疲れてるからって････ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue17FaceAlice" Value="え？,だって今　疲れてるからって････" Face="Alice" Mono="False" />
+  <!-- そんなことはどうでもいい！アリスだって豪華客船に乗りたいでしょう？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue18FaceShanghai" Value="そんなことはどうでもいい！,アリスだって豪華客船に,乗りたいでしょう？" Face="Shanghai" Mono="False" />
+  <!-- （あ　そっちが目当てなんだ････） -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue19FaceAlice" Value="（あ　そっちが目当てなんだ････）" Face="Alice" Mono="False" />
+  <!-- あーよかった！魔理もレミリアも天子も参加しないってさ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue20FaceTsubakiNekku" Value="あーよかった！,魔理もレミリアも,天子も参加しないってさ" Face="TsubakiNekku" Mono="False" />
+  <!-- 俺一人で参加するのは寂しいから助かったよ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue21FaceTsubakiNekku" Value="俺一人で参加するのは,寂しいから助かったよ" Face="TsubakiNekku" Mono="False" />
+  <!-- 里香は？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue22FaceAlice" Value="里香は？" Face="Alice" Mono="False" />
+  <!-- 『なのです！』だって････ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue23FaceTsubakiNekku" Value="『なのです！』だって････" Face="TsubakiNekku" Mono="False" />
+  <!-- ああ････ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue24FaceAlice" Value="ああ････" Face="Alice" Mono="False" />
+  <!-- ま　なんにせよぼっち参加からは逃れられたな！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue25FaceSpannerMan" Value="ま　なんにせよぼっち参加からは,逃れられたな！" Face="SpannerMan" Mono="False" />
+  <!-- お前はシャンハイと一緒に参加できるから嬉しいんだろ？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue26FaceTsubakiNekku" Value="お前はシャンハイと一緒に,参加できるから嬉しいんだろ？" Face="TsubakiNekku" Mono="False" />
+  <!-- な！　な！　な！ち　ちげーから！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue27FaceSpannerMan" Value="な！　な！　な！,ち　ちげーから！" Face="SpannerMan" Mono="False" />
+  <!-- はいはい -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue28FaceShanghai" Value="はいはい" Face="Shanghai" Mono="False" />
+  <!-- で　エントリーはどこでできるのかしら？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue29FaceShanghai" Value="で　エントリーは,どこでできるのかしら？" Face="Shanghai" Mono="False" />
+  <!-- Ｎ１リーグのエントリーはエイエンスクエアで受け付けてるんだってさ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue30FaceTsubakiNekku" Value="Ｎ１リーグのエントリーは,エイエンスクエアで,受け付けてるんだってさ" Face="TsubakiNekku" Mono="False" />
+  <!-- エイエンスクエアね････わかったわ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue31FaceAlice" Value="エイエンスクエアね････,わかったわ" Face="Alice" Mono="False" />
+  <!-- じゃあアリスエイエンスクエアに行ってＮ１リーグに参加するわよ！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue32FaceShanghai" Value="じゃあアリス,エイエンスクエアに行って,Ｎ１リーグに参加するわよ！" Face="Shanghai" Mono="False" />
+  <!-- じゃあお先に俺はアクセスしてくるぜ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue33FaceTsubakiNekku" Value="じゃあお先に俺は,アクセスしてくるぜ" Face="TsubakiNekku" Mono="False" />
+  <!-- じゃあまた後でね -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue34FaceAlice" Value="じゃあまた後でね" Face="Alice" Mono="False" />
+  <!-- おう！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue35FaceTsubakiNekku" Value="おう！" Face="TsubakiNekku" Mono="False" />
+  <!-- いいねぇ〜青春だね〜 -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage5Dialogue1FaceKumami" Value="いいねぇ〜,青春だね〜" Face="Kumami" Mono="False" />
+  <!-- 言っておきますけど椿くんはただの友達ですからね -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage5Dialogue2FaceAlice" Value="言っておきますけど,椿くんはただの友達ですからね" Face="Alice" Mono="False" />
+  <!-- ああ　そう？ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage5Dialogue3FaceKumami" Value="ああ　そう？" Face="Kumami" Mono="False" />
+  <!-- じゃあ隈美さん　また！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage5Dialogue4FaceAlice" Value="じゃあ隈美さん　また！" Face="Alice" Mono="False" />
+  <!-- またなー！ -->
+  <Dialogue Key="Map.ChipshopChapter4EventsStage5Dialogue5FaceKumami" Value="またなー！" Face="Kumami" Mono="False" />
+  <!-- アドオン売りますよ〜 -->
+  <Dialogue Key="Map.ChipshopByte-chanStage1Dialogue1FaceBrownHairGalStudent" Value="アドオン売りますよ〜" Face="BrownHairGalStudent" Mono="False" />
+  <!-- はぁい！ウチ　この店のバイトに入った新人で〜す -->
+  <Dialogue Key="Map.ChipshopByte-chanStage3Dialogue1FaceBrownHairGalStudent" Value="はぁい！,ウチ　この店のバイトに入った,新人で〜す" Face="BrownHairGalStudent" Mono="False" />
+  <!-- 新しく入荷したアドオンはウチが売りますので〜よろしくネ〜 -->
+  <Dialogue Key="Map.ChipshopByte-chanStage3Dialogue2FaceBrownHairGalStudent" Value="新しく入荷したアドオンは,ウチが売りますので〜,よろしくネ〜" Face="BrownHairGalStudent" Mono="False" />
+  <Dialogue Key="Map.ChipshopPostGameBystander1Dialogue1" Value="ねこどるふぃんの,バトルチップって無いのかな？" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.ChipshopPostGameBystander2Dialogue1" Value="ちょっと店長さーん,トレーダーの排出チップ,渋くないっすかー？" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.ChipshopPostGameBystander3Dialogue1" Value="兄さんから聞いたんだけど,どこかにバグの欠片で回す,トレーダーがあるらしいよ" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.ChipshopPostGameBystander3Dialogue2" Value="しかも出るのはレアチップだけ！,僕も一度お目に,かかってみたい！" Face="MaleStudent" Mono="False" />
+</data>

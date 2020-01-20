@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="TestMail.Mail1Title" Value="ネット犯罪に注意！" Mono="True" />
+  <Text Key="TestMail.Mail1Sender" Value="メールニュース" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue1" Value="ゲンソウレポートネットワーク,GRNがお伝えする,朝のメールニュースです" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue2" Value="ここ数日間で発生した,ネット犯罪の件数が,大きく増加しています" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue3" Value="ROMと呼ばれる犯罪集団が,関与している疑いがあり" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue4" Value="電脳世界の警察機関,ネットエージェントらが,注意を呼びかけています" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue5" Value="ROMはリードオンリーメモリー,（Read Only Memory）が,由来とされており" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue6" Value="認識はできるがその活動に,手出しをすることは不可能,という意味があるそうです" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail1Dialogue7" Value="ネットエージェントによる,取り締まり強化を,期待したいところですね" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail2Title" Value="ありがとな！" Mono="True" />
+  <Text Key="TestMail.Mail2Sender" Value="隈美" Mono="True" />
+  <Dialogue Key="TestMail.Mail2Dialogue1" Value="パチュリーありがとな！,おかげでかなり早く,店を開けられそうだ！" Face="Kumami" Mono="True" />
+  <Dialogue Key="TestMail.Mail2Dialogue2" Value="開店するまで数日,忙しくなるからお礼は,開店してから渡すよ" Face="Kumami" Mono="True" />
+  <Text Key="TestMail.Mail3Title" Value="ごめんなさい" Mono="True" />
+  <Text Key="TestMail.Mail3Sender" Value="レミリア" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue1" Value="さっきはごめんなさい,口で言うと素直に話せなくて" Face="Remilia" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue2" Value="あのあとサクヤにも叱られました" Face="Remilia" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue3" Value="自分の行動を振り返ってみると,ひどいことをしてしまったと,反省しています" Face="Remilia" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue4" Value="お詫びの品ってわけじゃないけど,私のホームページのＰコードを,差し上げます" Face="Remilia" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue5" Value="良かったらおうちに,遊びに来てください" Face="Remilia" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue6" Value="またネットバトルをしましょうね,サクヤも待ってます" Face="Remilia" Mono="True" />
+  <Dialogue Key="TestMail.Mail3Dialogue7" Value="じゃあまたね" Face="Remilia" Mono="True" />
+  <Text Key="TestMail.Mail4Title" Value="圧縮データについて" Mono="True" />
+  <Text Key="TestMail.Mail4Sender" Value="森近霖之助" Mono="True" />
+  <Dialogue Key="TestMail.Mail4Dialogue1" Value="アリスさん,先日の圧縮ファイルについて,話したいことがあるんだ" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail4Dialogue2" Value="メールだと伝えづらいから,悪いけど大学の研究室まで,来てもらえないかな？" Face="DrMorichika" Mono="True" />
+  <Text Key="TestMail.Mail5Title" Value="チップショップ開店！" Mono="True" />
+  <Text Key="TestMail.Mail5Sender" Value="隈美" Mono="True" />
+  <Dialogue Key="TestMail.Mail5Dialogue1" Value="幻想町リニアメトロ駅前に,チップショップがオープン！" Face="Kumami" Mono="True" />
+  <Dialogue Key="TestMail.Mail5Dialogue2" Value="バトルチップからアドオンまで,豊富な品を揃えているよ！,さあさあいらっしゃい！" Face="Kumami" Mono="True" />
+  <Dialogue Key="TestMail.Mail5Dialogue3" Value="Ｐ．Ｓ．,キンパツ嬢ちゃんには,お礼を渡すから是非来てね！" Face="Kumami" Mono="True" />
+  <Text Key="TestMail.Mail6Title" Value="スタイル変更について" Mono="True" />
+  <Text Key="TestMail.Mail6Sender" Value="森近霖之助" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue1" Value="アリスさん,戦闘中のスタイル変更の事を,説明をするよ" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue2" Value="カスタム画面で上キーを,押すと、スタイル選択の,メニューが出る" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue3" Value="そしてなりたいスタイルに,カーソルを合わせて,決定すると　変更ができる" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue4" Value="注意点として一度変更して,なったスタイルには,その戦闘中は変更できない" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue5" Value="ただし　戦闘開始時に,なっていたスタイルには,何度も変更できるんだ！" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue6" Value="戦闘を繰り返せばまた,新たなスタイルが,発現するはずだ！" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail6Dialogue7" Value="様々なスタイルを,切り替えて　戦いを,有利に運ぶんだ！" Face="DrMorichika" Mono="True" />
+  <Text Key="TestMail.Mail7Title" Value="ウィルスボール" Mono="True" />
+  <Text Key="TestMail.Mail7Sender" Value="ブッカー" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue1" Value="姐さん　ウィルスボールの,使い方と　ダークチップの,調査結果について教えます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue2" Value="まず　ウィルスボールは,説明したとおり,ウィルスを捕まえる道具です" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue3" Value="ウィルスのトドメに使うと,ウィルスを捕まえることが出来ます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue4" Value="捕まえたウィルスは,スタートボタンのメニューの,「ウィルス」から見れます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue5" Value="その画面ではバグのかけらなどを,食べさせることでウィルスを,育てることが出来ます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue6" Value="ウィルスには合計５０個まで,かけらを食べさせることが出来ます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue7" Value="捕まえたウィルスはアリスさんの,ホームページのひかえ室にある,機材で管理できます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue8" Value="預けたり引き出したり,まあいろいろ試してみてください" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue9" Value="ウィルスを捕獲すると,ウィルスボールが召喚用,チップに変化します" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue10" Value="ウィルスを預けると,再びウィルスボールで,ウィルスを捕獲できます" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue11" Value="ちなみにウィルスのコードは,個体によって異なります" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue12" Value="同じウィルスでも,コードが異なることを,覚えておいてください" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue13" Value="それからウィルスは,捕まえた時にランクが,１になります" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail7Dialogue14" Value="だから捕まえるなら,ランクの低いウィルスが,いいでしょう" Face="Henchie" Mono="True" />
+  <Text Key="TestMail.Mail8Title" Value="ダークチップの説明" Mono="True" />
+  <Text Key="TestMail.Mail8Sender" Value="ブッカー" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue1" Value="ダークチップに関して,簡単に説明しますね" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue2" Value="ダークチップを握っている間,姐さんとアリスさんのココロが,一時的に離れるみたいです" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue3" Value="と言ってもダークチップを,使ったり手放せば,元に戻るので心配いらないです" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue4" Value="なので　ダークチップは,ココロを通わせて２倍の威力には,出来ないということです" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue5" Value="それ以外は使用に関して,姐さんなら一切デメリットは,ありませんのでご安心を" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue6" Value="それから　ダークチップは,フォルダに１枚しか,入れられませんからね" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail8Dialogue7" Value="以上です,長々とすみませんでした" Face="Henchie" Mono="True" />
+  <Text Key="TestMail.Mail9Title" Value="大会頑張ろうな！" Mono="True" />
+  <Text Key="TestMail.Mail9Sender" Value="椿ネック" Mono="True" />
+  <Dialogue Key="TestMail.Mail9Dialogue1" Value="いよいよ大会当日だな！,決勝戦で待ってるぜ！" Face="TsubakiNekku" Mono="True" />
+  <Text Key="TestMail.Mail10Title" Value="応援に行くのよ！" Mono="True" />
+  <Text Key="TestMail.Mail10Sender" Value="比那名居天子" Mono="True" />
+  <Dialogue Key="TestMail.Mail10Dialogue1" Value="Ｎ１リーグ頑張るのよ！,私も応援に行くからね！" Face="Tenshi" Mono="True" />
+  <Text Key="TestMail.Mail11Title" Value="ファイトだぜ！" Mono="True" />
+  <Text Key="TestMail.Mail11Sender" Value="森近魔理" Mono="True" />
+  <Dialogue Key="TestMail.Mail11Dialogue1" Value="Ｎ１リーグ出るんだろ？,見に行けないけど応援してるぜ！" Face="Mari" Mono="True" />
+  <Dialogue Key="TestMail.Mail11Dialogue2" Value="大丈夫！,アリスなら優勝できるって！" Face="Mari" Mono="True" />
+  <Text Key="TestMail.Mail12Title" Value="応援するのです！" Mono="True" />
+  <Text Key="TestMail.Mail12Sender" Value="獅熊里香" Mono="True" />
+  <Dialogue Key="TestMail.Mail12Dialogue1" Value="大会頑張るのです！,里香もお家で,応援してるのです！" Face="Rika" Mono="True" />
+  <Text Key="TestMail.Mail13Title" Value="今日もお願い！" Mono="True" />
+  <Text Key="TestMail.Mail13Sender" Value="比那名居天子" Mono="True" />
+  <Dialogue Key="TestMail.Mail13Dialogue1" Value="アリス　朝からごめんね" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail13Dialogue2" Value="今日　お昼からまた,エージェントセンターに,行かないといけないのよ！" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail13Dialogue3" Value="だからお昼から,付き合ってなのよ！" Face="Tenshi" Mono="True" />
+  <Text Key="TestMail.Mail14Title" Value="アリスありがとう" Mono="True" />
+  <Text Key="TestMail.Mail14Sender" Value="比那名居天子" Mono="True" />
+  <Dialogue Key="TestMail.Mail14Dialogue1" Value="アリス　今病院から,メールをうってるのよ" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail14Dialogue2" Value="治療も終わってあとは,治るのを待つだけになったのよ！" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail14Dialogue3" Value="安静にしないといけないから,１週間くらい入院だけど････" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail14Dialogue4" Value="でも　アリスのおかげで,霊夢ちゃんの神社も,大丈夫だったのよ！" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail14Dialogue5" Value="アリス　ありがとうなのよ！" Face="Tenshi" Mono="True" />
+  <Dialogue Key="TestMail.Mail14Dialogue6" Value="追伸：入院してるのは退屈なので,今度お見舞いに,来てくれると嬉しいのよ！" Face="Tenshi" Mono="True" />
+  <Text Key="TestMail.Mail15Title" Value="フォルダルール説明" Mono="True" />
+  <Text Key="TestMail.Mail15Sender" Value="岡崎名人" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue1" Value="このメールはチップフォルダの,スターターパックを購入した人に,自動送信されるわよ！" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue2" Value="私は日本ネットバトラー協会の,岡崎名人よ！" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue3" Value="新しくバトルチップを手に入れたら,スタートボタンから選択できる,フォルダアプリで編集できるわ" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue4" Value="けれど　チップフォルダは,どんな内容にも,できるわけじゃないわ" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue5" Value="スタンダードチップは容量で,フォルダに入れられる,同じ種類の枚数が変化するわ" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue6" Value="容量が１９ＭＢ以下のチップは,５枚まで入れられるけれど,２０～２９ＭＢのチップは４枚" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue7" Value="３０～３９ＭＢのチップは３枚,４０～４９ＭＢのチップは２枚" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue8" Value="５０ＭＢ以上のチップは１枚,までしか入れられないわ" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue9" Value="このルールは同じ種類のチップを,入れるときだから" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue10" Value="５０ＭＢの違う種類の,チップを同時に,入れることは可能よ" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue11" Value="あと　青いナビチップは種類,問わず１フォルダに５枚,までしか入れられないわ" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue12" Value="ネットバトルのお友達が,多い人は気をつけてね！" Face="MsFamous" Mono="True" />
+  <Dialogue Key="TestMail.Mail15Dialogue13" Value="それじゃあ　ルールを覚えて,楽しいフォルダ構築を,堪能してね！" Face="MsFamous" Mono="True" />
+  <Text Key="TestMail.Mail16Title" Value="ファイターｽﾀｲﾙ解説" Mono="True" />
+  <Text Key="TestMail.Mail16Sender" Value="冥界サーバー" Mono="True" />
+  <Dialogue Key="TestMail.Mail16Dialogue1" Value="ファイタースタイル,詳細情報････" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail16Dialogue2" Value="◆変化条件◆,バスターの使用,ブレイク属性チップの使用" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail16Dialogue3" Value="◆特殊能力◆,バスターパワー×２,無属性チップ威力＋１０" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail16Dialogue4" Value="◆チャージ：ファイターパンチ◆,横２マスにブレイク属性かつ,押し出し効果のパンチ" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail17Title" Value="シノビｽﾀｲﾙ解説" Mono="True" />
+  <Text Key="TestMail.Mail17Sender" Value="冥界サーバー" Mono="True" />
+  <Dialogue Key="TestMail.Mail17Dialogue1" Value="シノビスタイル,詳細情報････" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail17Dialogue2" Value="◆変化条件◆,戦闘の短期決着,ソード系チップの使用" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail17Dialogue3" Value="◆特殊能力１◆,移動速度向上,チャージマックスでチップをフミコミ" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail17Dialogue4" Value="◆特殊能力２◆,チャージショットを含むソード系,攻撃で敵の攻撃を消し反撃" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail17Dialogue5" Value="◆チャージ：エレメントソード◆,目の前縦３マスを斬るソード,敵の攻撃を打ち消し反撃" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail18Title" Value="ドクターｽﾀｲﾙ解説" Mono="True" />
+  <Text Key="TestMail.Mail18Sender" Value="冥界サーバー" Mono="True" />
+  <Dialogue Key="TestMail.Mail18Dialogue1" Value="ドクタースタイル,詳細情報････" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail18Dialogue2" Value="◆変化条件◆,ＡＤＤの使用　ＰＡの発動,プラス属性チップの使用" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail18Dialogue3" Value="◆特殊能力１◆,カスタム＋１,選択可能枚数が６枚に" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail18Dialogue4" Value="◆特殊能力２◆,ＡＤＤでのカスタム画面の,最大チップ展開数が１２" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail18Dialogue5" Value="◆チャージ：インジェクトレイ◆,自身の属性に対応した状態,異常を敵に与える注射器弾" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail19Title" Value="ガイアｽﾀｲﾙ解説" Mono="True" />
+  <Text Key="TestMail.Mail19Sender" Value="冥界サーバー" Mono="True" />
+  <Dialogue Key="TestMail.Mail19Dialogue1" Value="ガイアスタイル,詳細情報････" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail19Dialogue2" Value="◆変化条件１◆,ダメージを受ける,シールド属性チップの使用" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail19Dialogue3" Value="◆変化条件２◆,置物属性チップの使用" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail19Dialogue4" Value="◆特殊能力１◆,のけぞらないスーパーアーマー,初ターンに十字に属性パネル" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail19Dialogue5" Value="◆特殊能力２◆,動いてないときにダメージ半減,するニオウダチ" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail19Dialogue6" Value="◆チャージ：フットエレメント◆,３マス前方のパネルを自身と,同じ属性にし、地震で足止め" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail20Title" Value="ウィングｽﾀｲﾙ解説" Mono="True" />
+  <Text Key="TestMail.Mail20Sender" Value="冥界サーバー" Mono="True" />
+  <Dialogue Key="TestMail.Mail20Dialogue1" Value="ウィングスタイル,詳細情報････" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail20Dialogue2" Value="◆変化条件１◆,エリア・パネル変化系チップ使用,特殊パネルに移動する" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail20Dialogue3" Value="◆変化条件２◆,クラック属性チップの使用" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail20Dialogue4" Value="◆特殊能力１◆,穴・特殊パネルを無効,オイカゼ・ムカイカゼ無効" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail20Dialogue5" Value="◆特殊能力２◆,１ターンに１度チップを持っていない時,Ａボタンで最大３秒のキンキュウカイヒ" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail20Dialogue6" Value="◆チャージ：トルネード◆,２マス前方に８ヒットの竜巻攻撃,砂パネルで強化される" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail21Title" Value="ウィッチｽﾀｲﾙ解説" Mono="True" />
+  <Text Key="TestMail.Mail21Sender" Value="冥界サーバー" Mono="True" />
+  <Dialogue Key="TestMail.Mail21Dialogue1" Value="ウィッチスタイル,詳細情報････" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail21Dialogue2" Value="◆変化条件◆,属性チップの使用,敵の弱点属性を突く" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail21Dialogue3" Value="◆特殊能力１◆,属性チップ威力＋１０,同属性のチップ威力＋１０" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail21Dialogue4" Value="◆特殊能力２◆,弱点属性の被ダメ0.75倍,状態異常の全無効化" Face="None" Mono="True" />
+  <Dialogue Key="TestMail.Mail21Dialogue5" Value="◆チャージ：マジックフレイム◆,３マス前まで伸びる,自身と同属性の炎攻撃" Face="None" Mono="True" />
+  <Text Key="TestMail.Mail22Title" Value="黒いナビについて" Mono="True" />
+  <Text Key="TestMail.Mail22Sender" Value="稀神サグメ" Mono="True" />
+  <Dialogue Key="TestMail.Mail22Dialogue1" Value="久しぶりね　アリスさん,この間はお疲れ様" Face="Sagume" Mono="True" />
+  <Dialogue Key="TestMail.Mail22Dialogue2" Value="あなた達の働きで,あの黒いナビたちの正体が,だいたい掴めてきたの" Face="Sagume" Mono="True" />
+  <Dialogue Key="TestMail.Mail22Dialogue3" Value="それについての報告会を,エージェントセンターで,行うんだけど" Face="Sagume" Mono="True" />
+  <Dialogue Key="TestMail.Mail22Dialogue4" Value="特例でネットエージェントでは,ないあなたにも参加を,してほしいの" Face="Sagume" Mono="True" />
+  <Dialogue Key="TestMail.Mail22Dialogue5" Value="無理にとは言わないけれど,エージェントセンターで,行うんだけど" Face="Sagume" Mono="True" />
+  <Dialogue Key="TestMail.Mail22Dialogue6" Value="それについての報告会を,良かったらエージェントセンターの,２階に来てね" Face="Sagume" Mono="True" />
+  <Text Key="TestMail.Mail23Title" Value="お手数ですが" Mono="True" />
+  <Text Key="TestMail.Mail23Sender" Value="ブッカー" Mono="True" />
+  <Dialogue Key="TestMail.Mail23Dialogue1" Value="シャンハイ様　すみません,他の者に聞かれたくない,内密な話があります" Face="Henchie" Mono="True" />
+  <Dialogue Key="TestMail.Mail23Dialogue2" Value="なので　ウラインターネット２で,私とシャンハイ様が出会った場所まで,来てください" Face="Henchie" Mono="True" />
+  <Text Key="TestMail.Mail24Title" Value="感謝状" Mono="True" />
+  <Text Key="TestMail.Mail24Sender" Value="インゲレス航空" Mono="True" />
+  <Dialogue Key="TestMail.Mail24Dialogue1" Value="神綺アリスさん,この度はリグレット王女の救出,誠にありがとうございました" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="TestMail.Mail24Dialogue2" Value="インセクタ王国とインゲレスの,友好を守ってくれた,感謝の気持ちとして" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="TestMail.Mail24Dialogue3" Value="インゲレス航空３ヶ月,フリーパスを贈呈します" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="TestMail.Mail24Dialogue4" Value="空港にて　このメールを,係員に見せることで" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="TestMail.Mail24Dialogue5" Value="インゲレス行き飛行機を,何度でも無料で,ご利用になれます" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="TestMail.Mail24Dialogue6" Value="インゲレスへお越しの際は,当メールをご利用ください,　　　　　　インゲレス航空" Face="WhiteHairMaleButler" Mono="True" />
+  <Text Key="TestMail.Mail25Title" Value="セイレーン号運休" Mono="True" />
+  <Text Key="TestMail.Mail25Sender" Value="幻想観光" Mono="True" />
+  <Dialogue Key="TestMail.Mail25Dialogue1" Value="当メールはセイレーン号に,一度でも搭乗されたお客様,全員に送信しています" Face="FemaleOld" Mono="True" />
+  <Dialogue Key="TestMail.Mail25Dialogue2" Value="先日セイレーン号にて,不正アクセスを受けた事実が,判明いたしました" Face="FemaleOld" Mono="True" />
+  <Dialogue Key="TestMail.Mail25Dialogue3" Value="メインシステムのセキュリティを,強化するまでセイレーン号は,運休させていただきます" Face="FemaleOld" Mono="True" />
+  <Dialogue Key="TestMail.Mail25Dialogue4" Value="なおその間セイレーン号は,停泊中の港にて一般開放を,行っております" Face="FemaleOld" Mono="True" />
+  <Dialogue Key="TestMail.Mail25Dialogue5" Value="港へお越しの際はぜひ,お立ち寄りください,　　　　　　　　　幻想観光" Face="FemaleOld" Mono="True" />
+  <Text Key="TestMail.Mail26Title" Value="シャンハイについて" Mono="True" />
+  <Text Key="TestMail.Mail26Sender" Value="森近霖之助" Mono="True" />
+  <Dialogue Key="TestMail.Mail26Dialogue1" Value="アリスさん,シャンハイについて,話したいことがあるんだ" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail26Dialogue2" Value="僕は今　エージェントセンター,を訪れている" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="TestMail.Mail26Dialogue3" Value="もしよければ　今から,エージェントセンターへ,来てくれないかい？" Face="DrMorichika" Mono="True" />
+  <Text Key="TestMail.Mail27Title" Value="手術が始まるよ" Mono="True" />
+  <Text Key="TestMail.Mail27Sender" Value="古明地こいし" Mono="True" />
+  <Dialogue Key="TestMail.Mail27Dialogue1" Value="アリスさん,もうすぐお姉ちゃんの,手術が始まるの！" Face="Koishi" Mono="True" />
+  <Dialogue Key="TestMail.Mail27Dialogue2" Value="よかったらアリスさん,手術前にお姉ちゃんに,会ってくれないかな？" Face="Koishi" Mono="True" />
+  <Dialogue Key="TestMail.Mail27Dialogue3" Value="目が見えるようになったら,アリスさんの顔を,見てみたいんだって！" Face="Koishi" Mono="True" />
+  <Text Key="TestMail.Mail28Title" Value="無事を祈る" Mono="True" />
+  <Text Key="TestMail.Mail28Sender" Value="神綺トロイド" Mono="True" />
+  <Dialogue Key="TestMail.Mail28Dialogue1" Value="お前の友達から,ＲＯＭの基地に向かった,ことを聞いた" Face="Lloyd" Mono="True" />
+  <Dialogue Key="TestMail.Mail28Dialogue2" Value="お前たちがやると決めたなら,俺は止めはしない,全力でやり遂げるんだ" Face="Lloyd" Mono="True" />
+  <Dialogue Key="TestMail.Mail28Dialogue3" Value="アリスとレベッカ,二人の無事を祈ってこの,アドオンを預ける" Face="Lloyd" Mono="True" />
+  <Dialogue Key="TestMail.Mail28Dialogue4" Value="二人ならやれると,俺は確信しているぞ！" Face="Lloyd" Mono="True" />
+</data>

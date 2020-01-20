@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.KumamiTankName" Value="戦車の電脳" />
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy1" Value="チンピラアニキ" />
+  <!-- ボマー -->
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy2" Value="ボマー" />
+  <!-- モブナビ -->
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy3" Value="モブナビ" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue1FaceSprite" Value="８８ミリノ　タイホウニ,１１ミリノバルカンホウ,ソレカラ　ミサイルランチャー" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue2FaceSprite" Value="イマハ　フウジラレテマスガ,ユウジノサイハ　ヒヲフキマス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue3FaceSprite" Value="ドカーン！　ドカーン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite2Stage1Dialogue1FaceSprite" Value="ワタシタチハ　ハッチノ,セイギョスプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite2Stage1Dialogue2FaceSprite" Value="ナノデ　ヘイキタントウハ,ベツノヤツナノデスガ,アイツ　ナニヤッテルンデショ" Face="Sprite" Mono="False" />
+</data>

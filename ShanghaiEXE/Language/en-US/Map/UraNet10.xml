@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ウラインターネット１０ -->
+  <Text Key="Map.UraNet10Name" Value="Undernet 10" />
+  <!-- 不気味な扉が道を塞いで通ることができない！ -->
+  <Dialogue Key="Map.UraNet10ROMGateStage1Dialogue1FaceNone" Value="An eerie door blocks the path.,I can’t go through!" Face="None" Mono="False" />
+  <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
+  <Dialogue Key="Map.UraNet10ROMGateStage3Dialogue1FaceNone" Value="Shanghai used:,”ROM-ID”!" Face="None" Mono="False" />
+  <!-- 不気味な扉が開いた！ -->
+  <Dialogue Key="Map.UraNet10ROMGateStage3Dialogue2FaceNone" Value="The eerie door opened!" Face="None" Mono="False" />
+  <!-- シャンハイ　あれ････！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue1FaceAlice" Value="Shanghai，that’s....!" Face="Alice" Mono="False" />
+  <!-- あそこからウジャウジャと湧いて出てたのね -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue2FaceShanghai" Value="So this is where those guys are,coming from." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　どうするの？ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue3FaceAlice" Value="What do we do?" Face="Alice" Mono="False" />
+  <!-- あのゲートっぽいのを破壊しましょう -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue4FaceShanghai" Value="Simple. If we destroy that gate，,they can’t go through!" Face="Shanghai" Mono="False" />
+  <!-- ゲートの破片でも持って帰ればそれを解析して連中の元締めがわかるかも -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue5FaceShanghai" Value="And if we can take pieces back，,the NetAgents might be able,to figure out more about them." Face="Shanghai" Mono="False" />
+  <!-- ってことは強行突破ね････ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue6FaceAlice" Value="Just break it，huh...." Face="Alice" Mono="False" />
+  <!-- あら　わかってるじゃない -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue7FaceShanghai" Value="You know it always works." Face="Shanghai" Mono="False" />
+  <!-- やいやいやい！ここであったのが運の尽き！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage3Dialogue1FaceShanghai" Value="Ugh，more of them! I don’t know,who’s unlucky: them，or me for,having to deal with them!" Face="Shanghai" Mono="False" />
+  <!-- あんたらが害を及ぼす前にまとめてデリートしてあげるわよ！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage3Dialogue2FaceShanghai" Value="I’ll delete them so I don’t have to,look at them any longer!" Face="Shanghai" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage3Dialogue3FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage3Dialogue4FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.UraNet10Chapter7EventsBattle1Enemy1" Value="????" />
+  <!-- ？？？？ -->
+  <Text Key="Map.UraNet10Chapter7EventsBattle1Enemy2" Value="????" />
+  <!-- ？？？？ -->
+  <Text Key="Map.UraNet10Chapter7EventsBattle1Enemy3" Value="????" />
+  <!-- よし　片付いたわ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage5Dialogue1FaceShanghai" Value="Alright，that’s them done." Face="Shanghai" Mono="False" />
+  <!-- ････でも　どうやってこのゲートを破壊しようかしら？ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage5Dialogue2FaceAlice" Value="....So now what? How do we,destroy the gate?" Face="Alice" Mono="False" />
+  <!-- あたしにいい考えがあるわ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage5Dialogue3FaceShanghai" Value="I’ve got an idea." Face="Shanghai" Mono="False" />
+  <!-- いい考え？ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage5Dialogue4FaceAlice" Value="Is it a good idea?" Face="Alice" Mono="False" />
+  <!-- しもべ　カムヒア！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage5Dialogue5FaceShanghai" Value="Henchie! Get over here!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ親衛隊　参上！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue1FaceHenchie" Value="Ma’am!" Face="Henchie" Mono="False" />
+  <!-- ････やれ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue2FaceShanghai" Value="....Fire!" Face="Shanghai" Mono="False" />
+  <!-- はっ！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue3FaceNaviPurplePunk" Value="Haaah!" Face="NaviPurplePunk" Mono="False" />
+  <!-- バトルチップ！メガレイガン　Ｂ　Ｃ　Ｄ！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue4FaceHenchie" Value="Battle Chips!,MRayGun B! C! D!" Face="Henchie" Mono="False" />
+  <!-- メガレイガン　Ｂ　＊　Ｄ！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue5FaceNaviPurplePunk" Value="MRayGun B! ＊! D!" Face="NaviPurplePunk" Mono="False" />
+  <!-- プログラムアドバンスハイメガキャノン！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue6FaceHenchie" Value="Program Advance!,HiMCannon!" Face="Henchie" Mono="False" />
+  <!-- 一斉発射！！！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue7FaceHenchie" Value="Coordinated fire!" Face="Henchie" Mono="False" />
+  <!-- やったぜベイビー！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue1FaceNaviPurplePunk" Value="We did it!" Face="NaviPurplePunk" Mono="False" />
+  <!-- じゃあ　ゲートのかけらをネットエージェントに届けておいて -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue2FaceShanghai" Value="Collect a fragment and send,it to the NetAgents." Face="Shanghai" Mono="False" />
+  <!-- 了解です　シャンハイ様！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue3FaceHenchie" Value="Yes，sir!,Shanghai，ma’am!" Face="Henchie" Mono="False" />
+  <!-- 撤収！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue4FaceHenchie" Value="Withdraw!" Face="Henchie" Mono="False" />
+  <!-- ････よし！ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue1FaceShanghai" Value="Alright!" Face="Shanghai" Mono="False" />
+  <!-- よし　じゃないわよ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue2FaceAlice" Value="I feel like this was a cop-out,somehow...." Face="Alice" Mono="False" />
+  <!-- まあまあ　目標は達成できたんだし　方法の是非なんていいじゃない -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue3FaceShanghai" Value="How so? We accomplished our,mission，and that’s what counts!" Face="Shanghai" Mono="False" />
+  <!-- むー････ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue4FaceAlice" Value="Yeah...." Face="Alice" Mono="False" />
+  <!-- さあ　さっさと引き上げましょうこんなところに長居してもしょうがないわ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue5FaceShanghai" Value="We should go，then. It’s not,safe to loiter around here." Face="Shanghai" Mono="False" />
+  <!-- あれ？ネットエージェントにお礼とか貰いに行かないの？ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue6FaceAlice" Value="Should we go follow up with,the NetAgents?" Face="Alice" Mono="False" />
+  <!-- 今行ったとしても黒ナビの対応でヘトヘトになってるでしょ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue7FaceShanghai" Value="If we go now，they won’t have,learned anything from the,fragments we collected." Face="Shanghai" Mono="False" />
+  <!-- こんだけ活躍したんだから向こうから声をかけてくるのを待つのよこういう時は -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue8FaceShanghai" Value="We should just wait until they,call us over.,Anyways，I’m tired." Face="Shanghai" Mono="False" />
+  <!-- へー････ -->
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue9FaceAlice" Value="Hmm...." Face="Alice" Mono="False" />
+</data>

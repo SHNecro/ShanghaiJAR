@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 八意総合病院1F -->
+  <Text Key="Map.Hospital1fName" Value="八意総合病院1F" />
+  <!-- エレベーターの扉が開いた！何階へ行きますか？ -->
+  <Dialogue Key="Map.Hospital1fElevatorStage1Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.Hospital1fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- ２階３階乗らない -->
+  <Text Key="Map.Hospital1fElevatorStage1Dialogue2Options" Value="２階,３階,乗らない" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital1fSofaStage1Dialogue1FaceNone" Value="待合用のソファだ" Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital1fSofaStage1Dialogue2FaceNone" Value="柔らかそうにみえて,座ってみると意外と硬い,座り心地だ" Face="None" Mono="False" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeStage1Dialogue1FaceNone" Value="待合用のソファだ" Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeStage1Dialogue2FaceNone" Value="柔らかそうにみえて,座ってみると意外と硬い,座り心地だ" Face="None" Mono="False" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeDupeStage1Dialogue1FaceNone" Value="待合用のソファだ" Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeDupeStage1Dialogue2FaceNone" Value="柔らかそうにみえて,座ってみると意外と硬い,座り心地だ" Face="None" Mono="False" />
+  <!-- 小さなかわいらしい花だんだ -->
+  <Dialogue Key="Map.Hospital1fFlowerStage1Dialogue1FaceNone" Value="小さなかわいらしい花だんだ" Face="None" Mono="False" />
+  <!-- 一見すると普通の花に見えるがよく見ると造花のようだ -->
+  <Dialogue Key="Map.Hospital1fFlowerStage1Dialogue2FaceNone" Value="一見すると普通の花に見えるが,よく見ると造花のようだ" Face="None" Mono="False" />
+  <!-- 小さなかわいらしい花だんだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeStage1Dialogue1FaceNone" Value="小さなかわいらしい花だんだ" Face="None" Mono="False" />
+  <!-- 一見すると普通の花に見えるがよく見ると造花のようだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeStage1Dialogue2FaceNone" Value="一見すると普通の花に見えるが,よく見ると造花のようだ" Face="None" Mono="False" />
+  <!-- プラグインできないタイプの自動販売機だ -->
+  <Dialogue Key="Map.Hospital1fRedVendingMachine2Stage1Dialogue1FaceNone" Value="プラグインできないタイプの,自動販売機だ" Face="None" Mono="False" />
+  <!-- 小さなかわいらしい花だんだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeDupeStage1Dialogue1FaceNone" Value="小さなかわいらしい花だんだ" Face="None" Mono="False" />
+  <!-- 一見すると普通の花に見えるがよく見ると造花のようだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeDupeStage1Dialogue2FaceNone" Value="一見すると普通の花に見えるが,よく見ると造花のようだ" Face="None" Mono="False" />
+  <!-- 壁の高いところに大きなテレビが吊り下げられている -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue1FaceNone" Value="壁の高いところに大きなテレビが,吊り下げられている" Face="None" Mono="False" />
+  <!-- 待っている間の暇つぶしに見るものなのだろうかニュース番組が写っている -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue2FaceNone" Value="待っている間の暇つぶしに,見るものなのだろうか,ニュース番組が写っている" Face="None" Mono="False" />
+  <!-- テレビから伸びる線の先に操作用のリモコンが備え付けられている -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue3FaceNone" Value="テレビから伸びる線の先に,操作用のリモコンが,備え付けられている" Face="None" Mono="False" />
+  <!-- リモコンにプラグインできそうだ！ -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue4FaceNone" Value="リモコンにプラグインできそうだ！" Face="None" Mono="False" />
+  <!-- 献血を積極的に行うよううったえかけているポスターだ -->
+  <Dialogue Key="Map.Hospital1fPosterStage1Dialogue1FaceNone" Value="献血を積極的に行うよう,うったえかけているポスターだ" Face="None" Mono="False" />
+  <!-- もしかして　と思ったら救急車を呼ぶようにとうったえかけているポスターだ -->
+  <Dialogue Key="Map.Hospital1fPosterDupeStage1Dialogue1FaceNone" Value="もしかして　と思ったら,救急車を呼ぶようにと,うったえかけているポスターだ" Face="None" Mono="False" />
+  <!-- 関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.Hospital1fDoorStage1Dialogue1FaceNone" Value="関係者以外立ち入り禁止,と書かれている" Face="None" Mono="False" />
+  <!-- 比那名居さんのお見舞いですか？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue1FaceNurse" Value="比那名居さんの,お見舞いですか？" Face="Nurse" Mono="False" />
+  <!-- 病室はお二階ですよエレベーターをお使いくださいね -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue2FaceNurse" Value="病室はお二階ですよ,エレベーターをお使いくださいね" Face="Nurse" Mono="False" />
+  <!-- 待ち時間がヒマでしたらチップトレーダーなんてどうでしょうか？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage3Dialogue1FaceNurse" Value="待ち時間がヒマでしたら,チップトレーダーなんて,どうでしょうか？" Face="Nurse" Mono="False" />
+  <!-- よく家族のお見舞いに来た子どもたちがそこで一喜一憂してるんですよ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage3Dialogue2FaceNurse" Value="よく家族のお見舞いに来た,子どもたちがそこで,一喜一憂してるんですよ" Face="Nurse" Mono="False" />
+  <!-- 昔はナース服って真っ白だったんだけど今は色付きが主流なの -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage1Dialogue1FaceNurse" Value="昔はナース服って,真っ白だったんだけど,今は色付きが主流なの" Face="Nurse" Mono="False" />
+  <!-- どうしてって？うーん････どうしてかしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage1Dialogue2FaceNurse" Value="どうしてって？,うーん････どうしてかしら？" Face="Nurse" Mono="False" />
+  <!-- 最新の医療機器はネットワークに対応してるけれどセキュリティ面は大丈夫かな -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage3Dialogue1FaceNurse" Value="最新の医療機器は,ネットワークに対応してるけれど,セキュリティ面は大丈夫かな" Face="Nurse" Mono="False" />
+  <!-- 何かあったらお隣のエージェントセンターに駆け込めばいいのかな？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage3Dialogue2FaceNurse" Value="何かあったらお隣の,エージェントセンターに,駆け込めばいいのかな？" Face="Nurse" Mono="False" />
+  <!-- どっこいしょっとこの歳になると病院に頻繁にお世話になるわい -->
+  <Dialogue Key="Map.Hospital1fChapter5OldManStage1Dialogue1FaceMaleElderly" Value="どっこいしょっと,この歳になると病院に,頻繁にお世話になるわい" Face="MaleElderly" Mono="False" />
+  <!-- おばあちゃんのお見舞いに来たのー！ -->
+  <Dialogue Key="Map.Hospital1fChapter5ToothpicksStage1Dialogue1FaceFemaleChild" Value="おばあちゃんの,お見舞いに来たのー！" Face="FemaleChild" Mono="False" />
+  <!-- おばあちゃんの大好きなおせんべい持ってきたんだ！ -->
+  <Dialogue Key="Map.Hospital1fChapter5ToothpicksStage1Dialogue2FaceFemaleChild" Value="おばあちゃんの大好きな,おせんべい持ってきたんだ！" Face="FemaleChild" Mono="False" />
+  <!-- ゴホゴホ････風邪を引いたかもしれないから診察を受けに来たんだ -->
+  <Dialogue Key="Map.Hospital1fChapter5OlderManStage1Dialogue1FaceMaleOld" Value="ゴホゴホ････,風邪を引いたかもしれないから,診察を受けに来たんだ" Face="MaleOld" Mono="False" />
+  <!-- 天子　元気そうだったわね -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage1Dialogue1FaceShanghai" Value="天子　元気そうだったわね" Face="Shanghai" Mono="False" />
+  <!-- 私　心配しすぎちゃってたかな？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage1Dialogue2FaceAlice" Value="私　心配しすぎちゃってたかな？" Face="Alice" Mono="False" />
+  <!-- あら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage3Dialogue1FaceAlice" Value="あら？" Face="Alice" Mono="False" />
+  <!-- すみませーん！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage5Dialogue1FaceNone" Value="すみませーん！" Face="None" Mono="False" />
+  <!-- これ　あなたの缶ジュース？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue1FaceAlice" Value="これ　あなたの缶ジュース？" Face="Alice" Mono="False" />
+  <!-- はい････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue2FaceSatori" Value="はい････" Face="Satori" Mono="False" />
+  <!-- さとり　もうちょっと右だよ！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue3FaceRin" Value="さとり　もうちょっと右だよ！" Face="Rin" Mono="False" />
+  <!-- あれ？　大丈夫？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue4FaceAlice" Value="あれ？　大丈夫？" Face="Alice" Mono="False" />
+  <!-- ごめんなさい目が見えないもので････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue5FaceSatori" Value="ごめんなさい,目が見えないもので････" Face="Satori" Mono="False" />
+  <!-- えっ････？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue6FaceAlice" Value="えっ････？" Face="Alice" Mono="False" />
+  <!-- ････あたたかい手あなたは優しい人なんですね -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue7FaceSatori" Value="････あたたかい手,あなたは優しい人なんですね" Face="Satori" Mono="False" />
+  <!-- さとりお姉ちゃーん！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue8FaceNone" Value="さとりお姉ちゃーん！" Face="None" Mono="False" />
+  <!-- 何か落としたみたいだけど大丈夫？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage9Dialogue1FaceKoishi" Value="何か落としたみたいだけど,大丈夫？" Face="Koishi" Mono="False" />
+  <!-- ええ　この人が拾ってくれたのよ　こいし　 -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage9Dialogue2FaceSatori" Value="ええ　この人が,拾ってくれたのよ　こいし　" Face="Satori" Mono="False" />
+  <!-- うにゅ！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage9Dialogue3FaceUtsuho" Value="うにゅ！" Face="Utsuho" Mono="False" />
+  <!-- ありがとうございました！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue1FaceKoishi" Value="ありがとうございました！" Face="Koishi" Mono="False" />
+  <!-- じゃあ　お姉ちゃん売店にでも行こっか！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue2FaceKoishi" Value="じゃあ　お姉ちゃん,売店にでも行こっか！" Face="Koishi" Mono="False" />
+  <!-- ええ　そうね -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue3FaceSatori" Value="ええ　そうね" Face="Satori" Mono="False" />
+  <!-- あなた　比那名居さんのお友達？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue1FaceEirin" Value="あなた　比那名居さんの,お友達？" Face="Eirin" Mono="False" />
+  <!-- あ　はい！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue2FaceAlice" Value="あ　はい！" Face="Alice" Mono="False" />
+  <!-- 私は比那名居さんの担当医の八意永琳よ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue3FaceEirin" Value="私は比那名居さんの,担当医の八意永琳よ" Face="Eirin" Mono="False" />
+  <!-- あなた時間ある？ちょっとお話でもしない？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue4FaceEirin" Value="あなた時間ある？,ちょっとお話でもしない？" Face="Eirin" Mono="False" />
+  <!-- 時間はありますけど････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue5FaceAlice" Value="時間はありますけど････" Face="Alice" Mono="False" />
+  <!-- ありがとう -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue6FaceEirin" Value="ありがとう" Face="Eirin" Mono="False" />
+  <!-- そこの角の自動販売機の前でジュースでも飲みながら話しましょう -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue7FaceEirin" Value="そこの角の自動販売機の前で,ジュースでも飲みながら,話しましょう" Face="Eirin" Mono="False" />
+  <!-- 何の話かしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage15Dialogue1FaceAlice" Value="何の話かしら？" Face="Alice" Mono="False" />
+  <!-- さあね？八意って苗字には聞き覚えがあるけど -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage15Dialogue2FaceShanghai" Value="さあね？,八意って苗字には,聞き覚えがあるけど" Face="Shanghai" Mono="False" />
+  <!-- とにかく行ってみましょう -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage15Dialogue3FaceAlice" Value="とにかく行ってみましょう" Face="Alice" Mono="False" />
+  <!-- はい　お茶どうぞ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue1FaceEirin" Value="はい　お茶どうぞ" Face="Eirin" Mono="False" />
+  <!-- ありがとうございます -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue2FaceAlice" Value="ありがとうございます" Face="Alice" Mono="False" />
+  <!-- さっきあなたが話してた子ＣＷＦＤっていう病気なの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue3FaceEirin" Value="さっきあなたが話してた子,ＣＷＦＤっていう病気なの" Face="Eirin" Mono="False" />
+  <!-- ＣＷＦＤ････？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue4FaceAlice" Value="ＣＷＦＤ････？" Face="Alice" Mono="False" />
+  <!-- 先天性衰弱因子障････身体の器官が徐々に弱くなっていく病気よ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue5FaceEirin" Value="先天性衰弱因子障････,身体の器官が徐々に,弱くなっていく病気よ" Face="Eirin" Mono="False" />
+  <!-- あの子だけじゃないこの病院に入院している人はいろんな病気で悩んでる -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue6FaceEirin" Value="あの子だけじゃない,この病院に入院している人は,いろんな病気で悩んでる" Face="Eirin" Mono="False" />
+  <!-- その悩みを治療で解決するのが私達医者の役目なのよ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue7FaceEirin" Value="その悩みを治療で,解決するのが私達,医者の役目なのよ" Face="Eirin" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue8FaceAlice" Value="はぁ････" Face="Alice" Mono="False" />
+  <!-- あら　退屈な話だったかしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue9FaceEirin" Value="あら　退屈な話だったかしら？" Face="Eirin" Mono="False" />
+  <!-- いえ　どうして私を誘ったのかな　って････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue10FaceAlice" Value="いえ　どうして私を,誘ったのかな　って････" Face="Alice" Mono="False" />
+  <!-- そうねぇ････私の娘がお世話になったといえばわかるかしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue11FaceEirin" Value="そうねぇ････,私の娘がお世話になった,といえばわかるかしら？" Face="Eirin" Mono="False" />
+  <!-- 娘？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue12FaceAlice" Value="娘？" Face="Alice" Mono="False" />
+  <!-- 八意永琳････八意････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue13FaceShanghai" Value="八意永琳････八意････" Face="Shanghai" Mono="False" />
+  <!-- 八意････八意鈴仙････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue14FaceShanghai" Value="八意････八意鈴仙････" Face="Shanghai" Mono="False" />
+  <!-- もしかして　鈴仙の？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue15FaceAlice" Value="もしかして　鈴仙の？" Face="Alice" Mono="False" />
+  <!-- 正解！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue16FaceEirin" Value="正解！" Face="Eirin" Mono="False" />
+  <!-- といっても　実の娘じゃなくて養女なんだけどね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue17FaceEirin" Value="といっても　実の娘じゃなくて,養女なんだけどね" Face="Eirin" Mono="False" />
+  <!-- 人との関わりが薄いあの娘が最近あなたのことばかり話すもんだから -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue18FaceEirin" Value="人との関わりが薄いあの娘が,最近あなたのことばかり,話すもんだから" Face="Eirin" Mono="False" />
+  <!-- どういった子なんだろうって思ったの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue19FaceEirin" Value="どういった子なんだろうって,思ったの" Face="Eirin" Mono="False" />
+  <!-- 私のことを？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue20FaceAlice" Value="私のことを？" Face="Alice" Mono="False" />
+  <!-- あなた　ネットバトルで鈴仙に勝ったんでしょう？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue21FaceEirin" Value="あなた　ネットバトルで,鈴仙に勝ったんでしょう？" Face="Eirin" Mono="False" />
+  <!-- あの娘は　今まで誰かに負けたことってなかったの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue22FaceEirin" Value="あの娘は　今まで誰かに,負けたことってなかったの" Face="Eirin" Mono="False" />
+  <!-- だからかしらね最近　ちょっとだけ変わったみたいなの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue23FaceEirin" Value="だからかしらね,最近　ちょっとだけ,変わったみたいなの" Face="Eirin" Mono="False" />
+  <!-- ふーん････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue24FaceShanghai" Value="ふーん････" Face="Shanghai" Mono="False" />
+  <!-- ねえ　あなたがもし良かったらあの娘の････鈴仙の友達になってくれない？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue25FaceEirin" Value="ねえ　あなたがもし良かったら,あの娘の････鈴仙の,友達になってくれない？" Face="Eirin" Mono="False" />
+  <!-- 私が鈴仙と？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue26FaceAlice" Value="私が鈴仙と？" Face="Alice" Mono="False" />
+  <!-- あの娘････今までずっと一人で生きてきたの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue27FaceEirin" Value="あの娘････今までずっと,一人で生きてきたの" Face="Eirin" Mono="False" />
+  <!-- ････あの　よかったら鈴仙のこと教えてくれませんか？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue28FaceAlice" Value="････あの　よかったら,鈴仙のこと,教えてくれませんか？" Face="Alice" Mono="False" />
+  <!-- あら　急にどうしたの？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue29FaceShanghai" Value="あら　急にどうしたの？" Face="Shanghai" Mono="False" />
+  <!-- 永琳さんの口調と今までの鈴仙の言動からちょっと気になって････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue30FaceAlice" Value="永琳さんの口調と,今までの鈴仙の言動から,ちょっと気になって････" Face="Alice" Mono="False" />
+  <!-- ・・・・わかったわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue31FaceEirin" Value="・・・・わかったわ" Face="Eirin" Mono="False" />
+  <!-- あれは４年前････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue32FaceEirin" Value="あれは４年前････" Face="Eirin" Mono="False" />
+  <!-- 私があの娘と出会った時････あの娘はアラブスタンで兵士として戦っていた -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue33FaceEirin" Value="私があの娘と出会った時････,あの娘はアラブスタンで,兵士として戦っていた" Face="Eirin" Mono="False" />
+  <!-- ４年前って････鈴仙は私と同じくらいの歳だから１０歳の時？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue34FaceAlice" Value="４年前って････,鈴仙は私と同じくらいの歳だから,１０歳の時？" Face="Alice" Mono="False" />
+  <!-- そうね　それくらいの時 -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue35FaceEirin" Value="そうね　それくらいの時" Face="Eirin" Mono="False" />
+  <!-- 鈴仙に　そんな過去が････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue1FaceAlice" Value="鈴仙に　そんな過去が････" Face="Alice" Mono="False" />
+  <!-- そんなあの娘があなたという存在に興味を抱いた -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue2FaceEirin" Value="そんなあの娘が,あなたという存在に,興味を抱いた" Face="Eirin" Mono="False" />
+  <!-- あの娘が次のステップに進めるかもしれないってそう思ったの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue3FaceEirin" Value="あの娘が次のステップに,進めるかもしれないって,そう思ったの" Face="Eirin" Mono="False" />
+  <!-- だから　あなたに････アリスさんに歩み寄ってとお願いしたいわけなの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue4FaceEirin" Value="だから　あなたに････,アリスさんに歩み寄ってと,お願いしたいわけなの" Face="Eirin" Mono="False" />
+  <!-- そうだったんですか････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue5FaceAlice" Value="そうだったんですか････" Face="Alice" Mono="False" />
+  <!-- ････できるかどうか保証はできませんが -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue6FaceAlice" Value="････できるかどうか,保証はできませんが" Face="Alice" Mono="False" />
+  <!-- 鈴仙と････友達になってみようと思います -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue7FaceAlice" Value="鈴仙と････友達に,なってみようと思います" Face="Alice" Mono="False" />
+  <!-- 本当！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue8FaceEirin" Value="本当！" Face="Eirin" Mono="False" />
+  <!-- 鈴仙には　天子を助けられた恩もありますし -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue9FaceAlice" Value="鈴仙には　天子を,助けられた恩もありますし" Face="Alice" Mono="False" />
+  <!-- あなたってすごくいい子なのね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue10FaceEirin" Value="あなたって,すごくいい子なのね" Face="Eirin" Mono="False" />
+  <!-- でも　向こうが拒否した場合はさすがに面倒みきれないわよ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue11FaceShanghai" Value="でも　向こうが拒否した場合は,さすがに面倒みきれないわよ" Face="Shanghai" Mono="False" />
+  <!-- 無理をしてまでとは言わないわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue12FaceEirin" Value="無理をしてまでとは,言わないわ" Face="Eirin" Mono="False" />
+  <!-- 時間とらせちゃってごめんなさいね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue13FaceEirin" Value="時間とらせちゃって,ごめんなさいね" Face="Eirin" Mono="False" />
+  <!-- じゃあ　天子のことよろしくおねがいしますね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue14FaceAlice" Value="じゃあ　天子のこと,よろしくおねがいしますね" Face="Alice" Mono="False" />
+  <!-- フフ　安心してバッチリ治しちゃうから -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue15FaceEirin" Value="フフ　安心して,バッチリ治しちゃうから" Face="Eirin" Mono="False" />
+  <!-- 比那名居さんのことは心配しないでいいわよ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue1FaceEirin" Value="比那名居さんのことは,心配しないでいいわよ" Face="Eirin" Mono="False" />
+  <!-- この天才女医がついてるんだからね！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue2FaceEirin" Value="この天才女医が,ついてるんだからね！" Face="Eirin" Mono="False" />
+  <!-- あはは････お願いします -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue3FaceAlice" Value="あはは････お願いします" Face="Alice" Mono="False" />
+  <!-- 鈴仙のことよろしくね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage7Dialogue1FaceEirin" Value="鈴仙のこと,よろしくね" Face="Eirin" Mono="False" />
+  <!-- さとりさんならひと月もしないうちに退院できると思うわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage9Dialogue1FaceEirin" Value="さとりさんならひと月も,しないうちに退院できると思うわ" Face="Eirin" Mono="False" />
+  <!-- ずっとあの子の入院を見ていた身としてなんだか感慨深いわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage9Dialogue2FaceEirin" Value="ずっとあの子の入院を,見ていた身として,なんだか感慨深いわ" Face="Eirin" Mono="False" />
+  <!-- あなた達にはすっかり助けられちゃったわね -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue1FaceEirin" Value="あなた達にはすっかり,助けられちゃったわね" Face="Eirin" Mono="False" />
+  <!-- 私達はたださとりさんを助けたかったそれだけです -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue2FaceAlice" Value="私達はただ,さとりさんを助けたかった,それだけです" Face="Alice" Mono="False" />
+  <!-- 素直にそう言えるあなたの心がけに私からのお礼よ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue3FaceEirin" Value="素直にそう言える,あなたの心がけに,私からのお礼よ" Face="Eirin" Mono="False" />
+  <!-- これは？ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue4FaceAlice" Value="これは？" Face="Alice" Mono="False" />
+  <!-- ヒマな時にでも組み込んで試してみてね！ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue5FaceEirin" Value="ヒマな時にでも組み込んで,試してみてね！" Face="Eirin" Mono="False" />
+  <!-- まあ　もうすでに剥ぎ取ったダークチップがあるからお礼は十分もらってるけどね -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue6FaceShanghai" Value="まあ　もうすでに剥ぎ取った,ダークチップがあるから,お礼は十分もらってるけどね" Face="Shanghai" Mono="False" />
+  <!-- あと　そうださとりさんがあなた達に会いたがってたみたいよ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue7FaceEirin" Value="あと　そうだ,さとりさんがあなた達に,会いたがってたみたいよ" Face="Eirin" Mono="False" />
+  <!-- 時間のあるときにお見舞いに行ってあげたら喜ぶんじゃない？ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue8FaceEirin" Value="時間のあるときにお見舞いに,行ってあげたら,喜ぶんじゃない？" Face="Eirin" Mono="False" />
+  <!-- わかりました！ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue9FaceAlice" Value="わかりました！" Face="Alice" Mono="False" />
+</data>

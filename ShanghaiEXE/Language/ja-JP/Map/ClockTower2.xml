@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳２ -->
+  <Text Key="Map.ClockTower2Name" Value="時計塔の電脳２" />
+  <!-- セキュリティはすでに解除されている -->
+  <Dialogue Key="Map.ClockTower2TerminalStage1Dialogue1FaceNone" Value="セキュリティはすでに,解除されている" Face="None" Mono="False" />
+  <!-- シンニュウシャ　ハイジョシンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue1FaceAutoroid" Value="シンニュウシャ　ハイジョ,シンニュウシャ　ハイジョ" Face="Autoroid" Mono="False" />
+  <!-- ええい邪魔するんじゃないわよ！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue2FaceShanghai" Value="ええい,邪魔するんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue3FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue4FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <!-- オートロイド -->
+  <Text Key="Map.ClockTower2ClearEventBattle1Enemy1" Value="オートロイド" />
+  <!-- オートロイド -->
+  <Text Key="Map.ClockTower2ClearEventBattle1Enemy2" Value="オートロイド" />
+  <!-- 感情を持たないナビって薄気味悪いわね････ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue1FaceShanghai" Value="感情を持たないナビって,薄気味悪いわね････" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！早く次へ行きましょう！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue2FaceAlice" Value="シャンハイ！,早く次へ行きましょう！" Face="Alice" Mono="False" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower2GimmickStage1Dialogue1QuestionFaceNone" Value="大きな時計と連動した時計だ,針を動かしますか？" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower2GimmickStage1Dialogue1Options" Value="はい,いいえ" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower2GimmickStage3Dialogue1QuestionFaceNone" Value="短針をどこに動かす？" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower2GimmickStage3Dialogue1Options" Value="１２時,　３時,　６時,　９時" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower2GimmickStage5Dialogue1QuestionFaceNone" Value="長針をどこに動かす？" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower2GimmickStage5Dialogue1Options" Value="００分,１５分,３０分,４５分" />
+  <!-- セキュリティヲ　カイジョスルニハヒダリシタノ　ホウニイカナキャイケナインデスヨ -->
+  <Dialogue Key="Map.ClockTower2Sprite1AStage1Dialogue1FaceSprite" Value="セキュリティヲ　カイジョスルニハ,ヒダリシタノ　ホウニイカナキャ,イケナインデスヨ" Face="Sprite" Mono="False" />
+  <!-- デモ　コノ　トケイカラジャヒダリシタヘハ　イケマセンネーアレレー？ -->
+  <Dialogue Key="Map.ClockTower2Sprite1AStage1Dialogue2FaceSprite" Value="デモ　コノ　トケイカラジャ,ヒダリシタヘハ　イケマセンネー,アレレー？" Face="Sprite" Mono="False" />
+  <!-- タンシンヲ　６ジ　ニスレバサキニ　ススメルンデスガサイゴマデハ　イケマセン -->
+  <Dialogue Key="Map.ClockTower2Sprite2AStage1Dialogue1FaceSprite" Value="タンシンヲ　６ジ　ニスレバ,サキニ　ススメルンデスガ,サイゴマデハ　イケマセン" Face="Sprite" Mono="False" />
+</data>

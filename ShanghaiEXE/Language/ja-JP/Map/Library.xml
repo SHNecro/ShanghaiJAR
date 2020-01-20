@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.LibraryName" Value="図書室データベースの電脳" />
+  <Dialogue Key="Map.LibrarySprite1Stage1Dialogue1FaceSprite" Value="マンガ　ボン　カシダシ　キンシ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite2Stage1Dialogue1FaceSprite" Value="「トアル　レットウセイ　ノオレガ,　オンライン　デ　モテモテ」　ハ,ゼンカン　カシダシチュウ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite2Stage1Dialogue2FaceSprite" Value="ダイメイ　ナガスキデスヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite3Stage1Dialogue1FaceSprite" Value="「モノノフ　スレイヤー」,シンカン　ニュウカシタヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite4Stage1Dialogue1FaceSprite" Value="「トーホースズナアン」ガ,サイキン　ヨクヨマレテマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage1Dialogue1FaceNone" Value="むきゅー！" Face="None" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage1Dialogue2FaceShanghai" Value="は？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue1FacePatchouli" Value="むぎゃっ" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue2FaceShanghai" Value="おいてめぇ！,どこに　目ぇつけて,歩いてんだ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue3FacePatchouli" Value="むきゅーむきゅー！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue4FaceShanghai" Value="って　何この小動物？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue5FacePatchouli" Value="あわわわ,あ　新手！？" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue6FaceKumako" Value="待って　パチュリー！,彼女は味方よ！" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue7FaceShanghai" Value="失礼しちゃう,あたしの顔が悪い奴の,顔に見える？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue8FaceAlice" Value="さっきのセリフ言っておいて,その態度はどうなのよ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue9FacePatchouli" Value="ウィルスが襲ってくるの！,助けて！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue10FaceShanghai" Value="よーっし　まとめて,片付けてやるわよ！,いくわよ　アリス！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue11FaceAlice" Value="しょうがないわね････,バトルオペレーション、セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue12FacePatchouli" Value="むきゅ！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue13FaceShanghai" Value="あ　セリフ取るなー！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue1FaceShanghai" Value="ちょろいちょろい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue2FacePatchouli" Value="むきゅ！,つよいのね〜！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue3FaceShanghai" Value="ったく　モヤシなナビねぇ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue4FacePatchouli" Value="私の専門は戦いじゃなくて,データ処理なのよ！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue5FaceShanghai" Value="データ処理？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue6FacePatchouli" Value="隈美とやってた頃は,株価とかのデータ処理を,一手にやってたのよっ！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue7FaceShanghai" Value="････（ニヤリ）" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue8FaceAlice" Value="ダメよシャンハイ,そういうのに利用するのは････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue9FaceAlice" Value="とりあえずパチュリー　だっけ？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue10FaceAlice" Value="隈美さんがあなたを,必要としてるんだけど" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue11FacePatchouli" Value="そうなの？,じゃあ早く隈美のところへ,送ってちょうだい！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue12FaceShanghai" Value="えーっと　メールに,ぶちこめばいいんだっけ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue13FacePatchouli" Value="むきょっ！？" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue1FacePatchouli" Value="むぎゃっ！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue2FaceShanghai" Value="ぐいぐい" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue3FacePatchouli" Value="むぎゅっ！,ちょっと！狭いわよ！" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue4FaceShanghai" Value="えーい文句言うんじゃないわよ！,文句ならあんたのオペレーターに,言いなさいよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue5FaceShanghai" Value="送信！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue1FaceShanghai" Value="ぜぇぜぇ････,アリスー　おわったよー････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue2FaceAlice" Value="本当にメールで送れちゃった････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue3FaceShanghai" Value="６．９メガバイトしかないなんて,本当にナビなのかしら" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue4FaceAlice" Value="あなたはその何桁上だっけ？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue5FaceShanghai" Value="あら　レディーに体重をきくのは,失礼じゃなくって？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue6FaceAlice" Value="（体重なんだ････）" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue7FaceShanghai" Value="さ　用事も終わったし,さっさと引き上げましょ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue1FaceHenchie" Value="まったくもう････,こんな泥棒めいたこと,やんなっちゃうなぁ" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue2FaceHenchie" Value="だいたい「Ｋｅｙ．ｂａｔ」なんて,何に使うんだか････" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue3FaceHenchie" Value="って　誰だ！？" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue4FaceShanghai" Value="その手に持ってるのが,「Ｋｅｙ．ｂａｔ」ね？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue5FaceShanghai" Value="命が惜しけりゃそいつを,おとなしく渡しなさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue6FaceHenchie" Value="ちくしょう！,そうはいくかよ！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue7FaceHenchie" Value="くらえ　ウィルスの舞い！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue1FaceHenchie" Value="げぇっ！,へ　変身したぁ！？" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue2FaceAlice" Value="そういえば鍵に近づくだけで,いいって言われてたわね････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue3FaceShanghai" Value="ぐへへへへ････,さあて　この新しい力で,どう料理してあげようかしら！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue4FaceHenchie" Value="さ　さいならー！" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue5FaceShanghai" Value="ちぇっ！,逃げられちゃった" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue6FaceAlice" Value="まあまあ,目的は達成できたんだから,いいじゃないの" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue7FaceAlice" Value="お世話になったんだし　,博士にお礼言いに行きましょう" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue8FaceShanghai" Value="それもそうね！,研究室に戻りましょ！" Face="Shanghai" Mono="False" />
+</data>

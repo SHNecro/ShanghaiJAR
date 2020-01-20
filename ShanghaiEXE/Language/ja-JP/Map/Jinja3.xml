@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja3Name" Value="神社の電脳３" />
+  <Dialogue Key="Map.Jinja3WithdrawStage1Dialogue1FaceShanghai" Value="うっ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3WithdrawStage1Dialogue2FaceAlice" Value="体力が限界ね････,一度プラグアウトしましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue1FaceSprite" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue2FaceSprite" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue3FaceSprite" Value="カベガミノ　リョウキンハ,１０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <Text Key="Map.Jinja3WallpaperSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue5FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue6FaceSprite" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue1FaceNone" Value="シャンハイは扉に,陰のカギと陽のカギを,はめこんだ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue2FaceNone" Value="扉が沈み道が開かれる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage3Dialogue1FaceNone" Value="扉はカギがかかっていて,びくともしない！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue1FacePyroMan" Value="ふしゅるるるる････" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue2FacePyroMan" Value="老いぼれがムダな,抵抗をするからだボボー！" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue3FacePyroMan" Value="ボ？" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue4FaceShanghai" Value="熱苦しいやつ！,この火はあんたの仕業ね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue5FacePyroManOpMokou" Value="てめぇは････！" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue6FacePyroManOpMokou" Value="パイロマン！,この女ナビがお待ちかねの,あの金髪のガキのナビだ！" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue7FaceAlice" Value="その声は････,あのときの番長！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue8FaceAlice" Value="この火事は,あなたのしわざだったのね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue9FacePyroManOpMokou" Value="お前と仲の良いガキの神社に,火をつけてやれば来ると,踏んだが････" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue10FacePyroManOpMokou" Value="どうやら大当たりだった,みてぇだな！,ハハハハハッ！" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue11FaceShanghai" Value="あんたねえ････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue12FaceShanghai" Value="あたしたちを直接狙わずに,幼い子をダシにおびき寄せ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue13FaceShanghai" Value="放火まがいのことをしておいて,言うことが大当たりだって！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue14FaceShanghai" Value="自分がなにをしているのかも,理解ができないだなんて････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue15FaceShanghai" Value="ばっかじゃないの！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue16FacePyroManOpMokou" Value="パイロマン！,お前の部下どもの無念を,はらす絶好の機会だ！" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue17FacePyroMan" Value="ふしゅるるるる････！" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue18FacePyroMan" Value="邪魔する奴は燃やす！,バイナリの欠片も残さず,丸焼きにしてくれるボボボー！" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue19FaceShanghai" Value="上ッ等････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue20FaceShanghai" Value="あんたのチンケな炎なんて,そのくさりきった性根もろとも,吹き飛ばしてやるわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue21FaceAlice" Value="シャンハイ！　いくわよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue22FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue23FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue24FacePyroMan" Value="ボボボー！" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage3Dialogue1FacePyroMan" Value="ガハッ････！？" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage3Dialogue2FacePyroMan" Value="俺様がデリートされちまったら,仇討ちになりゃしねえじゃねえか,ボボボボー！！！" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage5Dialogue1FacePyroManOpMokou" Value="ちっ！,使えないナビだ！" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage5Dialogue2FacePyroManOpMokou" Value="アバヨてめぇら････,覚えてろよ！" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue1FaceShanghai" Value="爺さん････,無茶しやがって････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue2FaceTortoiseMan" Value="ゴホッゴホッ････" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue3FaceTortoiseMan" Value="勝手にデリートしないで,ほしいゾイ････" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue4FaceShanghai" Value="あら　生きてたのね,タフな爺さんだこと" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue5FaceTortoiseMan" Value="ううう････,お賽銭は無事みたいじゃの････" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue6FaceShanghai" Value="爺さん････,そこまでしてこの賽銭を････？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue7FaceTortoiseMan" Value="この賽銭はの････,霊夢様が巫女になられてからは,一度も取り出しておらんのじゃ" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue8FaceTortoiseMan" Value="これは神社の,財産である以上に････,幼い霊夢様の頑張りそのもの" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue9FaceTortoiseMan" Value="だから････あのような輩に,渡すわけには････ううっ" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue10FaceReimu" Value="ありがとう････,トータスマン････" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue11FaceShanghai" Value="さあアリス！,早く天子を病院に,連れて行くわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue12FaceAlice" Value="ええ！,あっ････！" Face="Alice" Mono="False" />
+</data>

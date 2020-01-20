@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShip2fSPName" Value="豪華客船セイレーン２Ｆ　展示室" />
+  <Dialogue Key="Map.SeirenShip2fSPReisenStage1Dialogue1FaceReisen" Value="飛行戦艦を見てると,思い出すな････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPReisenStage1Dialogue2FaceReisen" Value="敵ゲリラが鹵獲運用している,飛行戦艦の爆撃をザンゴウの,中で耐えていたことを････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase1Stage1Dialogue1FaceNone" Value="戦艦の大砲が発射する,弾丸のレプリカだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase1Stage1Dialogue2FaceNone" Value="想像していた以上の,大きさで驚きを隠せない" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase2Stage1Dialogue1FaceNone" Value="東ヨーリカ軍の開発した,機動兵器「ＢＭー２ゼロジー」,の模型だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase2Stage1Dialogue2FaceNone" Value="当時の宙間戦闘用機動兵器,の中ではトップクラスの,性能を有していたらしい" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase2Stage1Dialogue3FaceNone" Value="これを陸戦用に改造したのが,「ＢＭー２Ｇワンジー」だと,ネックが熱弁していた" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPBattleship”Yamato”Stage1Dialogue1FaceNone" Value="戦艦「大和」,大日本帝国海軍が建造した,史上最大の戦艦" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPBattleship”Yamato”Stage1Dialogue2FaceNone" Value="起工　１９３７年,就役　１９４１年" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPBattleship”Yamato”Stage1Dialogue3FaceNone" Value="天一号作戦において,アメリカ軍機動部隊の猛攻撃を,受け坊ノ岬沖で撃沈" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPEscortShip”Kon-tou”Stage1Dialogue1FaceNone" Value="護衛艦「こんごう」,海自初のイージスシステム,搭載艦のイージス艦" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPEscortShip”Kon-tou”Stage1Dialogue2FaceNone" Value="起工　１９９０年,就役　１９９３年" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPEscortShip”Kon-tou”Stage1Dialogue3FaceNone" Value="後にヨーリカとなるアメリカ,の海軍以外が初めて保有した,イージス艦である" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Vizen”Stage1Dialogue1FaceNone" Value="宇宙戦艦「ビゼン」,空自が初めて保有した,宇宙戦闘艦" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Vizen”Stage1Dialogue2FaceNone" Value="起工　１９９９年,就役　２００４年" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Vizen”Stage1Dialogue3FaceNone" Value="日本が世界に先駆けて,初めて建造した,大気圏内外両用艦" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue1FaceNone" Value="宇宙戦艦「セッツ」,機動兵器との連携を前提と,した初の宇宙戦艦" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue2FaceNone" Value="起工　２０１１年,就役　２０１４年" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue3FaceNone" Value="ビゼン型戦艦の中で,初めて機動兵器格納庫を,搭載した戦艦" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue4FaceNone" Value="････台座にプラグインできそうな,穴が開いている！" Face="None" Mono="False" />
+  <!-- 流石にネットエージェントも宇宙戦力は持っていないんだよ -->
+  <Dialogue Key="Map.SeirenShip2fSPFromChapter7Onwards2Stage1Dialogue1FacePoliceman" Value="流石にネットエージェントも,宇宙戦力は持っていないんだよ" Face="Policeman" Mono="False" />
+  <!-- 戦う船ってかっこいいよね -->
+  <Dialogue Key="Map.SeirenShip2fSPFromChapter7Onwards1Stage1Dialogue1FaceMaleStudent" Value="戦う船ってかっこいいよね" Face="MaleStudent" Mono="False" />
+  <!-- セイレーン号の乗船記念に「セイレーンフォルダ」はいかがですか？ -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue1FaceWhiteHairMaleButler" Value="セイレーン号の乗船記念に,「セイレーンフォルダ」は,いかがですか？" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 豪華客船を思わせる水属性のチップがたくさん入っています -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue2FaceWhiteHairMaleButler" Value="豪華客船を思わせる,水属性のチップがたくさん,入っています" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 今持っている予備フォルダに上書きする形になってしまいますけどね -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue3FaceWhiteHairMaleButler" Value="今持っている予備フォルダに,上書きする形になって,しまいますけどね" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 「セイレーンフォルダ」を予備フォルダにしますか？ -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4QuestionFaceWhiteHairMaleButler" Value="「セイレーンフォルダ」を,予備フォルダにしますか？" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- よろしいよろしくない -->
+  <Text Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4Options" Value="よろしい,よろしくない" />
+  <!-- ・・・・・・・・#s@docking#ピコーン！ -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue1FaceWhiteHairMaleButler" Value="・・・・・・・・#s@docking#ピコーン！" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 転送完了しました -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue2FaceWhiteHairMaleButler" Value="転送完了しました" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- このフォルダでのバトルにセイレーン号の思い出をはせてくださいね -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue3FaceWhiteHairMaleButler" Value="このフォルダでのバトルに,セイレーン号の思い出を,はせてくださいね" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 悲しいです -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage5Dialogue1FaceWhiteHairMaleButler" Value="悲しいです" Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPMale1Stage1Dialogue1FaceOrangeHairMaleWesterner" Value="オーウ　日本のバトルシップ,スーパーパワフルねー！" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPMale2Stage1Dialogue1FaceWhiteHairMaleButler" Value="フムフム　なるほどなるほど" Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPWomanStage1Dialogue1FaceOrangeHairFemaleChild" Value="このロボットのプラモデル,パパが持ってるよ！" Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPToTheOutsideStage1Dialogue1FaceShanghai" Value="もうちょっと展示を,見ていきましょうよ！" Face="Shanghai" Mono="False" />
+</data>

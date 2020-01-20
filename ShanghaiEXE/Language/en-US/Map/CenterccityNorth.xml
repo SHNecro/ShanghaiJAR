@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 中央街　北区 -->
+  <Text Key="Map.CenterccityNorthName" Value="Central City North" />
+  <!-- あんれまあ！あなたが依頼を受けてくれた女の子なのかい？ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue1FaceFemaleElderly" Value="Oh my! Are you the girl who,took my request?" Face="FemaleElderly" Mono="False" />
+  <!-- 幻想大学の３階にスーツを着た男の人がいるはずなんだよね -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue2FaceFemaleElderly" Value="There’s a man in a suit on the,third floor of Genso University." Face="FemaleElderly" Mono="False" />
+  <!-- だからその人にこの小包を届けてくんれよお！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue3FaceFemaleElderly" Value="Please take this box to him!" Face="FemaleElderly" Mono="False" />
+  <!-- お嬢ちゃん！頼んだよ！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage1Dialogue4FaceFemaleElderly" Value="I’m counting on you，,young lady!" Face="FemaleElderly" Mono="False" />
+  <!-- お嬢ちゃん！頼んだよ！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage3Dialogue1FaceFemaleElderly" Value="I’m counting on you，,young lady!" Face="FemaleElderly" Mono="False" />
+  <!-- あんれまあ！こういうこともあるもんだねえ！アハハハハ！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11MotherStage5Dialogue1FaceFemaleElderly" Value="Oh my!,Speak of the devil!,Ahahahaha!" Face="FemaleElderly" Mono="False" />
+  <!-- ああ　君が母さんの依頼を聞いてくれた子だね････ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue1FaceMaleAdult" Value="Ah，so you’re the girl who took,my mom’s request...." Face="MaleAdult" Mono="False" />
+  <!-- なんかムダに走らせちゃったみたいだね　ゴメン！ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue2FaceMaleAdult" Value="Looks like she sent you on,a wild goose chase! Sorry!" Face="MaleAdult" Mono="False" />
+  <!-- お詫びと言っては何だけどこのチップをあげるよ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue3FaceMaleAdult" Value="I’ll give you this chip for your,troubles." Face="MaleAdult" Mono="False" />
+  <!-- 依頼はこれで終わったことになるんだね？ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue4FaceMaleAdult" Value="So the request should be over,now，right?" Face="MaleAdult" Mono="False" />
+  <!-- 重ねて言うけど本当にゴメンね -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage1Dialogue5FaceMaleAdult" Value="Once again，I’m really sorry." Face="MaleAdult" Mono="False" />
+  <!-- 僕の母さんそそっかしくてあわてんぼうなんだよ････ -->
+  <Dialogue Key="Map.CenterccityNorthRequest11SuitManStage3Dialogue1FaceMaleAdult" Value="Mom is kinda careless...." Face="MaleAdult" Mono="False" />
+  <!-- ＧＲＮニュースの名物コーナー「あなたの街のスゴ企業」の時間がやって来ました！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue1FaceSanaeReporter" Value="Time for GRN’s Featured,Product Corner，”Your City’s,Amazing Businesses”!" Face="SanaeReporter" Mono="False" />
+  <!-- 今日はボーダーコンツェルン本社前より東風谷早苗がお送りしまーす！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue2FaceSanaeReporter" Value="I’m Sanae Kochiya，live from,in front of Border Concern’s,main offices!" Face="SanaeReporter" Mono="False" />
+  <!-- こちらがボーダーコンツェルンの新製品　等身大　人型介助ロボット「シキガミ」です！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue3FaceSanaeReporter" Value="Their newest product is the,”Shikigami”，a life-sized,humanoid helper robot!" Face="SanaeReporter" Mono="False" />
+  <!-- 人型ロボットといえば自衛隊で使われている機動兵器などがよく知られていますが････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue4FaceSanaeReporter" Value="Speaking of humanoid robots，,the military’s mobile weapons,are pretty well-known，but...." Face="SanaeReporter" Mono="False" />
+  <!-- このロボットは人間に代わって重い荷物を運ぶなどの介助をするロボットなんです！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue5FaceSanaeReporter" Value="This robot is one that helps,mankind by lifting heavy,packages!" Face="SanaeReporter" Mono="False" />
+  <!-- これからロボットと人が一緒に暮らす光景が当たり前になるかもしれませんね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3SanaeStage1Dialogue6FaceSanaeReporter" Value="From now on，it might be,common to see humans and,robots living together!" Face="SanaeReporter" Mono="False" />
+  <!-- ギィ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3ShikigamiStage1Dialogue1FaceNone" Value="Hummmm...." Face="GoldRobot" Mono="False" />
+  <!-- わあ　あのロボットがいたらおばあちゃんの買い物も楽になるかな！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3YoungGirl1Stage1Dialogue1FaceFemaleStudent" Value="Wow! I wonder if that robot,can help grandma with her,shopping too!" Face="FemaleStudent" Mono="False" />
+  <!-- ロボットかあ　かっこいいなあ〜 -->
+  <Dialogue Key="Map.CenterccityNorthChapter3YoungBoy1Stage1Dialogue1FaceMaleStudent" Value="What a cool robot!" Face="MaleStudent" Mono="False" />
+  <!-- あんなロボットができるとはすごい時代になったものだなあ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man1Stage1Dialogue1FaceMaleOld" Value="We can make robots like,these? What marvelous,times we live in!" Face="MaleOld" Mono="False" />
+  <!-- ロボットと一緒の生活なんてまるでＳＦ映画みたいだねえ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man2Stage1Dialogue1FaceMaleAdult" Value="Living together with robots,sounds like something out,of a sci-fi movie." Face="MaleAdult" Mono="False" />
+  <!-- ロボットなんかよりも女子アナの早苗ちゃん目当てで見に来たんですよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man3Stage1Dialogue1FaceMaleElderly" Value="I came to see Sanae，,the announcer girl.,She’s better than any robot!" Face="MaleElderly" Mono="False" />
+  <!-- あーあ自社の商品が報道されるのはいいんだけどさ〜 -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man4Stage1Dialogue1FaceMaleAdult" Value="Sigh....,It’s nice that they report on,our products，but...." Face="MaleAdult" Mono="False" />
+  <!-- 実際に作ってる俺達はテレビに映れないんだよな〜嫌になるよねー -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Man4Stage1Dialogue2FaceMaleAdult" Value="I really wish they’d show the,people making them behind,the scenes too. Oh well...." Face="MaleAdult" Mono="False" />
+  <!-- 便利そうなのはわかるけど安全性は大丈夫なのかしら？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Female1Stage1Dialogue1FaceFemaleAdult" Value="It looks pretty useful，,but is it safe?" Face="FemaleAdult" Mono="False" />
+  <!-- ＧＲＮの無人反重力カメラだ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue1FaceNone" Value="It’s GRN’s remote anti-gravity,camera." Face="None" Mono="False" />
+  <!-- プラグインしたナビが操作してアナウンサーと一心同体の撮影が行えるすぐれものだ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue2FaceNone" Value="Navis can work the camera,and send messages to the,announcer." Face="None" Mono="False" />
+  <!-- カメラからかすかにナビの声が聞こえてくる -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue3FaceNone" Value="I can barely hear a Navi’s,voice coming from the camera." Face="None" Mono="False" />
+  <!-- 「早苗ー！　もうちょっと笑顔だケロ〜！」 -->
+  <Dialogue Key="Map.CenterccityNorthChapter3KeroStage1Dialogue4FaceNone" Value="”Smile，Sanae! Ribbit!”" Face="None" Mono="False" />
+  <!-- あ〜あ〜アイドルのミスティアちゃんが来てればと思ったのになあ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Boy1AStage1Dialogue1FaceMaleChild" Value="Awww....,I thought Mystia the idol,would be coming...." Face="MaleChild" Mono="False" />
+  <!-- え〜！早苗さんってすごく綺麗でわたしは好きだな〜！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3Girl3Stage1Dialogue1FaceFemaleChild" Value="Wow〜!,I like Sanae! She’s so pretty!" Face="FemaleChild" Mono="False" />
+  <!-- ふー　歳を取ると長くイスに座るのがつらいわぁ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Woman1Stage1Dialogue1FaceFemaleMiddleAged" Value="Sigh....,In my old age，it’s hard to sit,in chairs for too long." Face="FemaleMiddleAged" Mono="False" />
+  <!-- あのー　そろそろ会社に戻ったほうがいいと思うんですが････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man1Stage1Dialogue1FaceMaleAdult" Value="Errr，yeah....,I think I should get back,to work soon，so...." Face="MaleAdult" Mono="False" />
+  <!-- 栄養ドリンクをグビッとな -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man2Stage1Dialogue1FaceMaleAdult" Value="I just need a quick pick-me-up." Face="MaleAdult" Mono="False" />
+  <!-- プハーッ！これがないとやってられないよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man2Stage1Dialogue2FaceMaleAdult" Value="Pwah! I just can’t get goin’,without this." Face="MaleAdult" Mono="False" />
+  <!-- 休憩時間にこの広場でアイスを食べるのが定番なのよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter3-2Man3Stage1Dialogue1FaceFemaleAdult" Value="It’s common for people to eat,ice cream in the plaza during,breaks." Face="FemaleAdult" Mono="False" />
+  <!-- ここが大企業ボーダーコンツェルン････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter4StudentStage1Dialogue1FaceMaleGlassesStudent" Value="So this is Border Concern，,huh....?" Face="MaleGlassesStudent" Mono="False" />
+  <!-- 噂では中ではシキガミが警備をしているとか -->
+  <Dialogue Key="Map.CenterccityNorthChapter4StudentStage1Dialogue2FaceMaleGlassesStudent" Value="Rumor has it that it’s guarded,by shikigami." Face="MaleGlassesStudent" Mono="False" />
+  <!-- ふー　コーヒーがおいしい････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter4WhiteClothesStage1Dialogue1FaceScientist" Value="Mm，this coffee sure is good...." Face="Scientist" Mono="False" />
+  <!-- 若い人は元気でいいわねえ元気なことはいいことよ〜 -->
+  <Dialogue Key="Map.CenterccityNorthChapter4AuntStage1Dialogue1FaceFemaleMiddleAged" Value="It’s nice that you youngsters,are so full of energy!" Face="FemaleMiddleAged" Mono="False" />
+  <!-- ぬれてにあわ　ぬれてにあわ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter5YouthStage1Dialogue1FaceMaleAdult" Value="Easy money....,Easy money...." Face="MaleAdult" Mono="False" />
+  <!-- 働けど働けど私の生活は楽にならない････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter5WhiteClothes1Stage1Dialogue1FaceScientist" Value="I work and work，but my life,isn’t getting any easier...." Face="Scientist" Mono="False" />
+  <!-- そこの電話ボックスはボーダーコンツェルンの来客用電話なんだよね -->
+  <Dialogue Key="Map.CenterccityNorthChapter7WhiteCoatStage1Dialogue1FaceScientist" Value="The phonebox over there is,the visitor’s phone for Border,Concern." Face="Scientist" Mono="False" />
+  <!-- なんで建物の外に置いてあるかは今は誰も知らないけどね -->
+  <Dialogue Key="Map.CenterccityNorthChapter7WhiteCoatStage1Dialogue2FaceScientist" Value="Why it’s outside，nobody,knows...." Face="Scientist" Mono="False" />
+  <!-- いつかかならず来る平和のために我々は働いてるのだろうな -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WomanStage1Dialogue1FaceMaleOld" Value="I wonder if what we do today,will lead to peace." Face="MaleOld" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboShieldStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboShieldStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboBazookaStage1Dialogue1FaceNone" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccityNorthChapter8RoboBazookaStage1Dialogue2FaceNone" Value="It looks out of place next to the,rest of the city." Face="None" Mono="False" />
+  <!-- 栄養ドリンクばかりが並ぶ自動販売機だ -->
+  <Dialogue Key="Map.CenterccityNorthRedVendingMachineStage1Dialogue1FaceNone" Value="It’s a vending machine full of,energy drinks." Face="None" Mono="False" />
+  <!-- ボーダーコンツェルンの社員たちはこれを飲んで頑張るのだろうか -->
+  <Dialogue Key="Map.CenterccityNorthRedVendingMachineStage1Dialogue2FaceNone" Value="Do Border Concern’s,employees drink this to,help them work harder?" Face="None" Mono="False" />
+  <!-- パンやお菓子が並ぶ自動販売機だ -->
+  <Dialogue Key="Map.CenterccityNorthWhiteVendingMachineStage1Dialogue1FaceNone" Value="It’s a vending machine full of,bread and candy." Face="None" Mono="False" />
+  <!-- 忙しいサラリーマンはこれを買って昼食をとるのだろうか -->
+  <Dialogue Key="Map.CenterccityNorthWhiteVendingMachineStage1Dialogue2FaceNone" Value="I wonder if busy businessmen,buy their lunch from here." Face="None" Mono="False" />
+  <!-- ボーダーコンツェルンの創始者スキーマー･ボーダーの像だ -->
+  <Dialogue Key="Map.CenterccityNorthBronzeStatueStage1Dialogue1FaceNone" Value="It’s a statue of Border,Concern’s founder，,Bouda Sukima." Face="None" Mono="False" />
+  <!-- しかし雨風にさらされてもはや顔が原型をとどめていない -->
+  <Dialogue Key="Map.CenterccityNorthBronzeStatueStage1Dialogue2FaceNone" Value="However，rain and wind have,eroded the shape of the statue." Face="None" Mono="False" />
+  <!-- ････像の台座にプラグイン端子が付いている！ -->
+  <Dialogue Key="Map.CenterccityNorthBronzeStatueStage1Dialogue3FaceNone" Value="....There’s a jack in port in,the base of the statue!" Face="None" Mono="False" />
+  <!-- 古いタイプの電話ボックスだ -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue1FaceNone" Value="It’s an old-fashioned,phone booth." Face="None" Mono="False" />
+  <!-- 一昔前は誰でも使えるネットワークポイントとしてたくさんあったが -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue2FaceNone" Value="A long time ago，there were,a lot these around that anyone,could use." Face="None" Mono="False" />
+  <!-- 今では携帯電話の普及で減り珍しいものになりつつある -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue3FaceNone" Value="But they’re much more,uncommon today，after,the rise of cellphones." Face="None" Mono="False" />
+  <!-- プラグインをすることもできる -->
+  <Dialogue Key="Map.CenterccityNorthPublicPhoneStage1Dialogue4FaceNone" Value="I can also jack in." Face="None" Mono="False" />
+  <!-- おや？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue1FaceWriggleHat" Value="Oh?" Face="WriggleHat" Mono="False" />
+  <!-- 君は　アリスじゃないか！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue2FaceWriggleHat" Value="Alice!" Face="WriggleHat" Mono="False" />
+  <!-- リグル････姫様？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue3FaceAlice" Value="Ah! Uh.... your highness?" Face="Alice" Mono="False" />
+  <!-- アッハハハハハ！リグル君　でいいよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue4FaceWriggleHat" Value="Ahahaha!,It’s okay，you can just call me,Wriggle!" Face="WriggleHat" Mono="False" />
+  <!-- なにせ　僕と君は友達だからね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue5FaceWriggleHat" Value="You and I are friends!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君　いつの間に日本に来ていたの？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue6FaceAlice" Value="Wriggle，how’d you get to,Japan?" Face="Alice" Mono="False" />
+  <!-- 約束通り　お忍びでひとっ飛びしてきたのさ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue7FaceWriggleHat" Value="I took an incognito flight over，,and promised to keep my head,down." Face="WriggleHat" Mono="False" />
+  <!-- ふむ　どうやらのんびり一緒に観光という雰囲気じゃなさそうだね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue8FaceWriggleHat" Value="I came over to sightsee，but,it looks like now’s not the best,time for it." Face="WriggleHat" Mono="False" />
+  <!-- うん････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue9FaceAlice" Value="Yeah...." Face="Alice" Mono="False" />
+  <!-- ふむ　アリスがどういう状況に置かれているか　ズバリ当ててみせよう！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage1Dialogue10FaceWriggleHat" Value="Let me guess，you’re right in,the middle of whatever’s,happening?" Face="WriggleHat" Mono="False" />
+  <!-- まず　君はどうやら重大な事件に対し自ら立ち向かおうとしている！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage3Dialogue1FaceWriggleHat" Value="It looks like you’ve gotten,involved in a pretty serious,incident!" Face="WriggleHat" Mono="False" />
+  <!-- ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage3Dialogue2FaceAlice" Value="!" Face="Alice" Mono="False" />
+  <!-- どうしてわかったかだって？単純なロジックさ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage3Dialogue3FaceWriggleHat" Value="You look surprised!,It was pretty simple logic." Face="WriggleHat" Mono="False" />
+  <!-- 僕の方へ向かってくるときに君は汗を掻くほど必死に走っていた････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue1FaceWriggleHat" Value="You look like you’ve been,running hard -- you’re sweating,a bit." Face="WriggleHat" Mono="False" />
+  <!-- しかし　こうやって足を止めて僕と会話ができるから追われているわけではない -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue2FaceWriggleHat" Value="But you could stop to have a,chat with me，so nobody’s,been chasing you." Face="WriggleHat" Mono="False" />
+  <!-- つまり！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue3FaceWriggleHat" Value="So!" Face="WriggleHat" Mono="False" />
+  <!-- 君は追われる側ではなく追う側にいると推理できる！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage5Dialogue4FaceWriggleHat" Value="You’re not the hunted，but the,hunter!" Face="WriggleHat" Mono="False" />
+  <!-- 次の謎はいったい君が何を追っているか -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue1FaceWriggleHat" Value="So the question is....,Who are you hunting?" Face="WriggleHat" Mono="False" />
+  <!-- それは言うまでもなくネット犯罪組織ＲＯＭのことだろうね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue2FaceWriggleHat" Value="Without a doubt，it’s got to be,ROM!" Face="WriggleHat" Mono="False" />
+  <!-- 君は非常に勇敢で友達思いだが突出した能力はネットバトルの腕前････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue3FaceWriggleHat" Value="You’re a very brave friend，,but your main strength is your,NetBattling skills." Face="WriggleHat" Mono="False" />
+  <!-- そんなアリスが他の組織例えばゴクドーやマフィアを追っているとは考えにくい -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue4FaceWriggleHat" Value="It’s a little hard to imagine you,chasing down the Yakuza or,the Mafia...." Face="WriggleHat" Mono="False" />
+  <!-- 先のＲＯＭによる電波ジャックは僕も見ていたからね時期的に間違いなしだね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage7Dialogue5FaceWriggleHat" Value="I couldn’t miss that ROM,broadcast，and the timing can’t,be coincidence." Face="WriggleHat" Mono="False" />
+  <!-- 最後に君が何を求めて走り回っているかを推理してみよう！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue1FaceWriggleHat" Value="Next!,What is it you’re after?" Face="WriggleHat" Mono="False" />
+  <!-- まあ　その答えは君が持つ携帯電話の画面が雄弁に語ってくれているけどね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue2FaceWriggleHat" Value="Your phone’s screen can give,us that answer，and quite,eloquently!" Face="WriggleHat" Mono="False" />
+  <!-- 最新式の軍事戦闘機の一覧ページ････どうやらステルス機をご所望のようだ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue3FaceWriggleHat" Value="A list of next-gen jet fighters....,Stealth jets，to be precise." Face="WriggleHat" Mono="False" />
+  <!-- しかし　君はそれを調べてなお答えを求めてこの街を走り回っている -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue4FaceWriggleHat" Value="But you’re running around the,city，from place to place." Face="WriggleHat" Mono="False" />
+  <!-- つまり　電脳百科事典に載っている機体では君の要求は満たせなかった -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue5FaceWriggleHat" Value="So you couldn’t find what you,wanted in the encyclopedia." Face="WriggleHat" Mono="False" />
+  <!-- そう　世の中に知られていない最新型のステルス機それが君が探しているものだ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue6FaceWriggleHat" Value="A stealth system，not even,announced to the world!,That’s what you’re after!" Face="WriggleHat" Mono="False" />
+  <!-- まあ　そんな最新機なんて僕が乗ってきた新型くらいしか思いあたりがないけどね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage9Dialogue7FaceWriggleHat" Value="I wonder if I could help you with,that...." Face="WriggleHat" Mono="False" />
+  <!-- 以上　リグル・ナイトバグの推理ショーでした････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue1FaceWriggleHat" Value="All in a day’s work for the Great,Detective Wriggle!" Face="WriggleHat" Mono="False" />
+  <!-- なーんてね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue2FaceWriggleHat" Value="So am I right，or am I right?" Face="WriggleHat" Mono="False" />
+  <!-- すごい！まるで名探偵みたい！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue3FaceAlice" Value="Amazing!,Just like that famous detective!" Face="Alice" Mono="False" />
+  <!-- ナドゥ･ヤマザ　みたいだっただろう？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue4FaceWriggleHat" Value="Yamaze Nadu，you’re,thinking of." Face="WriggleHat" Mono="False" />
+  <!-- ってちょっと待ちなさいよあんたさっきなんて言った！？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue5FaceShanghai" Value="Wait a second....,Right before that，what did you,say?!" Face="Shanghai" Mono="False" />
+  <!-- 僕の推理ショーだったって････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue6FaceWriggleHat" Value="Great Detective Wriggle?" Face="WriggleHat" Mono="False" />
+  <!-- その前！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue7FaceShanghai" Value="Before that!" Face="Shanghai" Mono="False" />
+  <!-- 新型のステルス機に乗ってきたですって！？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue8FaceShanghai" Value="You can help us?!" Face="Shanghai" Mono="False" />
+  <!-- うん　完全に姿を消す最新の光学迷彩を搭載したお忍び用の最新機をね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue9FaceWriggleHat" Value="Oh，right! I took our new stealth,plane，the Incognito. It’s got an,optical stealth cloak." Face="WriggleHat" Mono="False" />
+  <!-- やましい思いがないのに最短ルートを通ろうとすると他の国がうるさいからね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue10FaceWriggleHat" Value="Heh heh....sometimes it’s just so,much faster to take a shortcut,through foreign airspace." Face="WriggleHat" Mono="False" />
+  <!-- 既存のあらゆる対空レーダーに引っかからないステルス性にお世話になっているわけさ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue11FaceWriggleHat" Value="Nobody’s caught me yet!,Anti-air’s just not ready for,invisibility systems." Face="WriggleHat" Mono="False" />
+  <!-- なんか聞き捨てならないことがいくつかあったけども････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue12FaceShanghai" Value="I feel like we heard too much...." Face="Shanghai" Mono="False" />
+  <!-- 見つけたわね　アリス！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue13FaceShanghai" Value="But this is exactly what we were,looking for，Alice!" Face="Shanghai" Mono="False" />
+  <!-- さて　じゃあアリスのやろうとしていることを君の口から聞こうじゃないか -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue14FaceWriggleHat" Value="Well，before I just hand it over，,I want to know what you plan to,use it for." Face="WriggleHat" Mono="False" />
+  <!-- えっと　それがね････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage11Dialogue15FaceAlice" Value="Well...." Face="Alice" Mono="False" />
+  <!-- その要塞に行くためにステルス機が必要と････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue1FaceWriggleHat" Value="....So you need a stealth plane,to get into ROM’s fortress...." Face="WriggleHat" Mono="False" />
+  <!-- お願い！その飛行機を貸してくれない？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue2FaceAlice" Value="Please，would you let us use it?" Face="Alice" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue3FaceWriggleHat" Value="...." Face="WriggleHat" Mono="False" />
+  <!-- ････アリスになら貸してあげても大丈夫だね -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue4FaceWriggleHat" Value="Alright，I’ll lend it to you." Face="WriggleHat" Mono="False" />
+  <!-- 本当！？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue5FaceAlice" Value="Really?!" Face="Alice" Mono="False" />
+  <!-- でも　君ひとりで行くつもりなのかい？ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue6FaceWriggleHat" Value="Are you really going alone?" Face="WriggleHat" Mono="False" />
+  <!-- ROMのボスを倒すには私たちの力が必要なの -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue7FaceAlice" Value="I can do so much to bring the,fight to ROM." Face="Alice" Mono="False" />
+  <!-- それに　知っている人が傷つく姿は見たくないから････ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue8FaceAlice" Value="....But I don’t want to put any of,my friends in danger." Face="Alice" Mono="False" />
+  <!-- ････わかった君の覚悟は伝わったよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue9FaceWriggleHat" Value="I hope you know what you’re,doing...." Face="WriggleHat" Mono="False" />
+  <!-- 準備ができたらこの先の駅から飛行場へ向かってくれ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue10FaceWriggleHat" Value="When you think you’re ready，,head to the airfield from the,station." Face="WriggleHat" Mono="False" />
+  <!-- そこにある僕の機体で君を要塞まで運んであげるよ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue11FaceWriggleHat" Value="I’ll take you to the fortress in my,plane." Face="WriggleHat" Mono="False" />
+  <!-- ありがとう････リグル君！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue12FaceAlice" Value="Wriggle....,Thank you so much!" Face="Alice" Mono="False" />
+  <!-- なにせ　僕と君は友達だからね！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage13Dialogue13FaceWriggleHat" Value="It’s what a friend would do!" Face="WriggleHat" Mono="False" />
+  <!-- よし　じゃあ準備ができたらＲＯＭのアジトに殴り込みよ！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage15Dialogue1FaceShanghai" Value="Alright then，once we’re done,preparing，let’s hit the ROM,hideout!" Face="Shanghai" Mono="False" />
+  <!-- 私達の手で戦いを終わらせましょう！ -->
+  <Dialogue Key="Map.CenterccityNorthChapter8WriggleStage15Dialogue2FaceAlice" Value="We’ll end this once and for all!" Face="Alice" Mono="False" />
+  <!-- 中では慌ただしくスーツ姿の人々が走り回っている -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeStage1Dialogue1FaceNone" Value="People in suits are busily,rushing to and fro." Face="None" Mono="False" />
+  <!-- この中に入り込む勇気は流石に持ち合わせてはいない -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeStage1Dialogue2FaceNone" Value="I’m not brave enough to get in,the middle of that." Face="None" Mono="False" />
+  <!-- 中では慌ただしくスーツ姿の人々が走り回っている -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeDupeStage1Dialogue1FaceNone" Value="People in suits are busily,rushing to and fro." Face="None" Mono="False" />
+  <!-- この中に入り込む勇気は流石に持ち合わせてはいない -->
+  <Dialogue Key="Map.CenterccityNorthToThePresident’sOfficeDupeStage1Dialogue2FaceNone" Value="I’m not brave enough to get in,the middle of that." Face="None" Mono="False" />
+  <!-- げっ････ここに俺がいることは黙ってくれないか？ -->
+  <Dialogue Key="Map.CenterccityNorthHiddenCharactersStage1Dialogue1FaceMaleChild" Value="Psst...Don’t tell anyone I’m here." Face="MaleChild" Mono="False" />
+  <!-- 代わりに魔法の数字９７３５８６１４　を教えるぜよろしくな -->
+  <Dialogue Key="Map.CenterccityNorthHiddenCharactersStage1Dialogue2FaceMaleChild" Value="Please?,I’ll give you this magic number!,”97358614”! Now you can’t tell!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander1Dialogue1" Value="Ehehe!,President girl promised to teach,me to NetBattle!" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander2Dialogue1" Value="Ever since the new president,came in，something changed....,It feel like it’s easier to work." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander3Dialogue1" Value="What a relief....,Since the last president got,arrested，my budget’s grown." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.CentercityNorthPostGameBystander3Dialogue2" Value="What sort of skills does  the,new president have? They’re,great， whatever they are." Face="Scientist" Mono="False" />
+</data>

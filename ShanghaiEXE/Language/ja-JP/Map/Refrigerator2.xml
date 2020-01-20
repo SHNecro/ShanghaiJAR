@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Refrigerator2Name" Value="冷蔵庫の電脳２" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="コオッタユカニ　ゴチュウイクダサイ,ツルットスベッテ　ハジッコマデ,スーッテ　イッチャイマスカラ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="デモ　ミズゾクセイノ　ナビヤ,ウィルスハ　コオリノウエデモ,スベラナインデスッテ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite2Stage1Dialogue1FaceSprite" Value="コノサキ　コオリガイッパイデ,マトモニ　ススメマセンヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite2Stage1Dialogue2FaceSprite" Value="トカスコオリハ　ヨクエランデ,ヤラナイト　イケマセンネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite2Stage3Dialogue1FaceSprite" Value="コオリガトケテ　ワカッタンデスガ,ココッテコンナニ,イリクンデタンデスネ〜" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite3Stage1Dialogue1FaceSprite" Value="コノ　コオリノサキニ,テキノ　オヤブンガ　イルヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite3Stage1Dialogue2FaceSprite" Value="ハイネツデータ　マダノコッテル？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Chapter1Sprite3Stage3Dialogue1FaceSprite" Value="ヤッパリ　ヘイワガ　イチバン！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage1Dialogue1FaceCirno" Value="あはははは！,よくアタイの所まで来れたわね！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage1Dialogue2FaceShanghai" Value="なぁーんだ,ナビかと思ったら,ただのスプライトかぁ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage1Dialogue3FaceShanghai" Value="やいあんた！,よくもママとアイスを,危険にさらしてくれたわね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage1Dialogue4FaceAlice" Value="お〜い、わたしは〜？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage3Dialogue1FaceCirno" Value="だれがスプライトだって！？" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage3Dialogue2FaceCirno" Value="アタイはチルノ、,ＲＯＭの最強ナビよ！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage3Dialogue3FaceShanghai" Value="あんたがＲＯＭの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage3Dialogue4FaceShanghai" Value="もっとガタイのいいのを,想像してたわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage3Dialogue5FaceShanghai" Value="こんなのに氷漬けにされたなんて,あたし情けないわ〜" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage3Dialogue6FaceCirno" Value="ぐぐぐぐ････！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue1FaceCirnoOpFaceShownLetty" Value="あいての挑発にのっちゃダメ！,チルノ！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue2FaceCirnoOpFaceShownLetty" Value="雪国に吹く北風の様に,クールになるのよ！" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue3FaceCirno" Value="そ　そうよ！,アタイがあんたをデリートして,やるんだから！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue4FaceShanghai" Value="あんたねえ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue5FaceShanghai" Value="ちんちくりんのおバカな,スプライトもどきの分際で････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue6FaceShanghai" Value="容姿端麗で,才色兼備で,文武両道､" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue7FaceShanghai" Value="おまけに性格もスタイルも,抜群なこのアタシに,勝負を挑もうだなんて････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue8FaceShanghai" Value="ばっかじゃないの！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue9FaceAlice" Value="そういうのって,自分で言うものじゃないでしょ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue10FaceCirno" Value="バカっていうなー！,アタイは最強なんだぞー！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue11FaceShanghai" Value="アリス！,このおバカさん達にお灸を据えて,その自信を溶かしてやるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue12FaceAlice" Value="ええ、そうね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue13FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue14FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage5Dialogue15FaceCirno" Value="氷のベッドでお寝んねしな！！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage7Dialogue1FaceCirno" Value="ど････どうして････！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage7Dialogue2FaceCirno" Value="アタイは････,最強なのにぃぃぃぃいいい！！" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage9Dialogue1FaceShanghai" Value="けっ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2VSCirnoEventStage9Dialogue2FaceShanghai" Value="最強のナビはあたし以外に,存在しないのよ････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue1FaceSprite" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue2FaceSprite" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue3FaceSprite" Value="カベガミノ　リョウキンハ,５０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <Text Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue5FaceSprite" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue6FaceSprite" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2WallpaperSpriteStage1Dialogue7FaceSprite" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice6Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice6Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice6Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice6Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice6Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice7Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice7Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice7Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice7Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice7Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice8Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice8Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice8Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice8Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice8Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice9Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice9Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice9Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice9Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice9Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice10Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice10Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice10Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice10Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice10Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice11Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice11Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice11Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice11Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice11Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice12Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice12Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice12Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice12Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice12Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice13Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice13Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice13Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice13Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice13Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice14Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice14Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice14Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice14Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice14Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice15Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice15Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice15Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice15Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice15Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice16Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice16Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice16Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice16Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice16Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice17Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice17Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice17Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice17Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice17Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice18Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice18Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice18Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice18Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice18Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice19Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice19Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice19Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice19Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice19Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice20Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice20Stage3Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2Ice20Stage3Dialogue2QuestionFaceNone" Value="排熱データを使いますか？,（残り個数　#v@20#個）" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator2Ice20Stage3Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.Refrigerator2Ice20Stage3Dialogue3FaceNone" Value="シャンハイは,排熱データを使った！,氷は一瞬にして溶けていった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2IceIce1Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2HideIce2Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2IceIce3Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2HideIce4Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2HideIce5Stage1Dialogue1FaceNone" Value="電脳世界の異常により,発生した　壊せそうにない,頑丈な氷データだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2IceCrystalDataStage1Dialogue1FaceShanghai" Value="これが氷の結晶のデータね！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2IceCrystalDataStage1Dialogue2FaceShanghai" Value="へぇ････結構きれいじゃないの,あたしには負けてるけどね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2IceCrystalDataStage1Dialogue3FaceAlice" Value="バカなこと言ってないで,依頼者の子に届けましょうよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator2IceCrystalDataStage1Dialogue4FaceShanghai" Value="アリスは冗談が通じないわねぇ" Face="Shanghai" Mono="False" />
+</data>

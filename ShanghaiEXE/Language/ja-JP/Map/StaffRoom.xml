@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.StaffRoomName" Value="幻想中学校　職員室" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher1Stage1Dialogue1FaceFemaleAdult" Value="ネットバトルなんて,全然やらないから,ウィルスに勝てないわ････" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher1Stage3Dialogue1FaceFemaleAdult" Value="みんなすごいわね,私何も出来なかったわ････" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher2Stage1Dialogue1FaceFemaleMiddleAged" Value="こういうハイテクなのって,やっぱり若い生徒たちの方が,得意なのねぇ" Face="FemaleMiddleAged" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher3Stage1Dialogue1FaceMaleOld" Value="よりによって朝倉先生が,出張の時にこんな事件が,起こるなんて････" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3Teacher4Stage1Dialogue1FaceFemaleElderly" Value="ネットナビを持ってないので,見てるしか出来ないねぇ････" Face="FemaleElderly" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter4KoaTeacherStage1Dialogue1FaceKumako" Value="先生は休みの日でも,学校に来なきゃいけないのよ" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter4KoaTeacherStage1Dialogue2FaceKumako" Value="でも　平日に比べると,早く帰れるの" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3MariStage1Dialogue1FaceMari" Value="アリス　早くプラグインするんだ！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.StaffRoomChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="教室の電脳より,相当広いぞこれ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.StaffRoomServerStage1Dialogue1FaceNone" Value="職員室のサーバーだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomServerStage1Dialogue2FaceNone" Value="先生が使う学校のデータが,いっぱいに入っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomServerStage1Dialogue3FaceNone" Value="もちろんプラグインもできる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfStage1Dialogue1FaceNone" Value="先生用の書類が入った棚だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfStage1Dialogue2FaceNone" Value="中を見たら怒られるので,やめておこう" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeStage1Dialogue1FaceNone" Value="先生用の書類が入った棚だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeStage1Dialogue2FaceNone" Value="中を見たら怒られるので,やめておこう" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeStage1Dialogue1FaceNone" Value="先生用の書類が入った棚だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeStage1Dialogue2FaceNone" Value="中を見たら怒られるので,やめておこう" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeDupeStage1Dialogue1FaceNone" Value="先生用の書類が入った棚だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomShelfDupeDupeDupeStage1Dialogue2FaceNone" Value="中を見たら怒られるので,やめておこう" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomFoliagePlantStage1Dialogue1FaceNone" Value="いたって普通の観葉植物だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomFoliagePlantStage1Dialogue2FaceNone" Value="葉の上に水滴が乗っている,水やりされてからまだそんなに,経っていないようだ" Face="None" Mono="False" />
+  <!-- 土に刺さっている肥料ビンに３７８５４６９５　と書かれている -->
+  <Dialogue Key="Map.StaffRoomFoliagePlantStage1Dialogue3FaceNone" Value="土に刺さっている肥料ビンに,３７８５４６９５　と,書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskStage1Dialogue1FaceNone" Value="先生たちが使うデスクだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskStage1Dialogue2FaceNone" Value="資料などはすべてデータ化され,デスクの上はスッキリしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeStage1Dialogue1FaceNone" Value="先生たちが使うデスクだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeStage1Dialogue2FaceNone" Value="資料などはすべてデータ化され,デスクの上はスッキリしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeStage1Dialogue1FaceNone" Value="先生たちが使うデスクだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeStage1Dialogue2FaceNone" Value="資料などはすべてデータ化され,デスクの上はスッキリしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeStage1Dialogue1FaceNone" Value="先生たちが使うデスクだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeStage1Dialogue2FaceNone" Value="資料などはすべてデータ化され,デスクの上はスッキリしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="先生たちが使うデスクだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomTeacher’sDeskDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="資料などはすべてデータ化され,デスクの上はスッキリしている" Face="None" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameKumakoDialogue1" Value="朝倉先生のことは聞いたわ" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameKumakoDialogue2" Value="誰かが悪いわけじゃない,とわかっていても,やりきれない気持ちがあるの" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameKumakoDialogue3" Value="神綺さんが気に病む,必要はないんだからね" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameBystander1Dialogue1" Value="朝倉先生がいなくなったから,機械に強い先生を,呼ばないといけない････" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.StaffRoomPostGameBystander1Dialogue2" Value="老いた身には,コンピューターはやっぱり,辛いんだよ" Face="MaleOld" Mono="False" />
+</data>

@@ -1,0 +1,13 @@
+【必要なもの】
+置き換えたいBGMのファイル名.txt
+ogg音楽ファイル(44100kHz)
+EcoDecoTooL.exe　（音声変換ツール　これで44100kHzのoggファイルにする）
+
+【仕組み】
+
+例：ウィルス戦のBGM（VSvirus.ogg）と置き換えたい
+
+「VSvirus.txt」というファイルとoggファイル（例として「ウィルス戦.ogg」）をgamedata\mod\musicに入れる。
+VSvirus.txtに以下の１行を書く
+
+ループ開始位置,ループ終了位置,ウィルス戦.ogg

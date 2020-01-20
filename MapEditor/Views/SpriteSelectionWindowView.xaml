@@ -1,0 +1,243 @@
+﻿<Window x:Class="MapEditor.Views.SpriteSelectionWindowView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:rendering="clr-namespace:MapEditor.Rendering"
+        xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules"
+        xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions"
+        xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+        xmlns:controls="clr-namespace:MapEditor.Controls"
+        mc:Ignorable="d"
+        Title="Sprite Selection" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+                <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:EnumIntegerValueConverter x:Key="EnumToIntegerValueConverter" />
+            <converters:ConverterGroup x:Key="EnumEqualityToBooleanConverter">
+                <converters:EnumIntegerValueConverter />
+                <converters:ObjectEqualityBooleanConverter />
+            </converters:ConverterGroup>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Spritesheet:" FontWeight="Bold" />
+            <TabControl TabStripPlacement="Top"
+                        Margin="10,0"
+                        SelectedValuePath="Tag"
+                        SelectedValue="{Binding IsCharacter}">
+                <TabItem Header="Object">
+                    <TabItem.Tag>
+                        <sys:Boolean>False</sys:Boolean>
+                    </TabItem.Tag>
+                    <ListBox ScrollViewer.VerticalScrollBarVisibility="Auto"
+                             MaxHeight="150"
+                             ItemsSource="{x:Static rendering:SpriteSelectionRenderer.ObjectSheetIndices}"
+                             SelectedValue="{Binding GraphicsIndex}"/>
+                </TabItem>
+                <TabItem Header="Character">
+                    <TabItem.Tag>
+                        <sys:Boolean>True</sys:Boolean>
+                    </TabItem.Tag>
+                    <ListBox ScrollViewer.VerticalScrollBarVisibility="Auto"
+                             MaxHeight="150"
+                             ItemsSource="{x:Static rendering:SpriteSelectionRenderer.CharacterSheetIndices}"
+                             SelectedValue="{Binding GraphicsIndex}"/>
+                </TabItem>
+            </TabControl>
+
+            <TextBlock Text="Sprite Definition:" FontWeight="Bold" />
+            <ContentControl Margin="10,0">
+                <ContentControl.Style>
+                    <Style TargetType="ContentControl">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsCharacter}" Value="False">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <StackPanel Grid.IsSharedSizeScope="True"
+                                                    Orientation="Vertical">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="Size:"/>
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="TexW" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                                <TextBlock Grid.Column="2" Text="x"/>
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="3" Minimum="0">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="TexH" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="Position:"/>
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="TexX" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                                <TextBlock Grid.Column="2" Text=","/>
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="3" Minimum="0">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="TexY" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                                <TextBlock Grid.Column="4" Text="x"/>
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="5" Minimum="0">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="Frames" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="Animation Delay:"/>
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="Speed" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="Render Order:"/>
+                                                <ComboBox Grid.Column="1"
+                                                          ItemsSource="{Binding Source={markup:EnumBindingSourceExtension {x:Type enums:RenderTypeNumber}}}"
+                                                          SelectedItem="{Binding RendType, Converter={StaticResource EnumToIntegerValueConverter}, ConverterParameter={x:Type enums:RenderTypeNumber}}" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsCharacter}" Value="True">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <StackPanel Grid.IsSharedSizeScope="True"
+                                                    Orientation="Vertical">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0"
+                                                           VerticalAlignment="Center"
+                                                           Text="Index:" />
+                                                <controls:WheelCaptureIntegerUpDown Grid.Column="5" Minimum="0" Maximum="7">
+                                                    <controls:WheelCaptureIntegerUpDown.Text>
+                                                        <Binding Path="CharacterIndex" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                            <Binding.ValidationRules>
+                                                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" Maximum="7" />
+                                                            </Binding.ValidationRules>
+                                                        </Binding>
+                                                    </controls:WheelCaptureIntegerUpDown.Text>
+                                                </controls:WheelCaptureIntegerUpDown>
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0"
+                                                           VerticalAlignment="Center"
+                                                           Text="Angle:" />
+                                                <UniformGrid Grid.Column="1" Rows="2" Columns="2"
+                                                             HorizontalAlignment="Right">
+                                                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                                                 Tag="{StaticResource AngleWestArrowIcon}"
+                                                                 ToolTip="West"
+                                                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.West}}" />
+                                                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                                                 Tag="{StaticResource AngleNorthArrowIcon}"
+                                                                 ToolTip="North"
+                                                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.North}}" />
+                                                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                                                 Tag="{StaticResource AngleSouthArrowIcon}"
+                                                                 ToolTip="South"
+                                                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.South}}" />
+                                                    <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                                                 Tag="{StaticResource AngleEastArrowIcon}"
+                                                                 ToolTip="East"
+                                                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.East}}" />
+                                                </UniformGrid>
+                                            </Grid>
+                                        </StackPanel>
+                                    </Setter.Value>
+                                </Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </ContentControl.Style>
+            </ContentControl>
+        </StackPanel>
+
+        <GridSplitter Grid.Column="1"  Background="DarkGray"  ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+                          HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        
+        <ScrollViewer Grid.Column="2"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      Background="Black"
+                      MinWidth="50"
+                      MinHeight="50">
+            <ContentControl Content="{x:Static rendering:SpriteSelectionRenderer.SpriteSheetControlHost}"/>
+        </ScrollViewer>
+    </Grid>
+</Window>

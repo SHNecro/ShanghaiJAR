@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔　最上部 -->
+  <Text Key="Map.ClockTowerReal5fName" Value="Clock Tower Balcony" />
+  <!-- き　来たわよ！リグル君を解放しなさい！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue1FaceAlice" Value="I’m coming，Wriggle!,I’ll free you!" Face="Alice" Mono="False" />
+  <!-- シザーマンめ　やられるとは情けないネットナビだ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue2FaceScissorManOpTarakhan" Value="ScissorMan....,What a miserable NetNavi he,turned out to be." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- まあ良いだろうペンダントをこちらによこしてもらおうか -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue3FaceScissorManOpTarakhan" Value="At least I got that pendant.,Give it here." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ････これよ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue4FaceAlice" Value="You....,You!" Face="Alice" Mono="False" />
+  <!-- ････ちゃんと本物のようだな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue1FaceScissorManOpTarakhan" Value="Seems like the real deal." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 約束よ！リグル君を返して！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue2FaceAlice" Value="Your promise!,You got the pendant，now,let go of Wriggle!" Face="Alice" Mono="False" />
+  <!-- おっとまだ返すわけにはいかないな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue3FaceScissorManOpTarakhan" Value="Oops.,Looks like I can’t do that just yet." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- なっ！？や　約束と違うじゃない！！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue4FaceAlice" Value="What?!,You gave your word!" Face="Alice" Mono="False" />
+  <!-- 男なら約束くらい守りなさいよ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue5FaceShanghai" Value="What kind of man can’t keep,their end of a deal?" Face="Shanghai" Mono="False" />
+  <!-- 何とでも言うがいいここまでは組織の仕事 -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue6FaceScissorManOpTarakhan" Value="Say what you want.,The organization gets what the,organization wants." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ここからは　私個人の問題に移らせてもらおうか -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue7FaceScissorManOpTarakhan" Value="But enough about them.,This is something for myself，,here." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- それにしてもリグル　とはね -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue8FaceScissorManOpTarakhan" Value="Isn’t that right，”Wriggle”?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 本当の名を友人に教えないとは薄情な奴だな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue9FaceScissorManOpTarakhan" Value="Lying to your friends....,How heartless." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- リグル君の本当の名前････？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue10FaceAlice" Value="Wriggle...?,That’s not your real name?" Face="Alice" Mono="False" />
+  <!-- おやおや　コイツのことを何も知らないのか？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue11FaceScissorManOpTarakhan" Value="Aw，you really know nothing,about this little brat，do you?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 良いだろうゲームの景品がわりに教えてようじゃないか -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue12FaceScissorManOpTarakhan" Value="Oho....then consider this your,prize for getting here." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- こいつの本当の名はリグﾚｯﾄ･ﾅｲツバーグ･ｲンセクタ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue13FaceScissorManOpTarakhan" Value="Your friend is the esteemed,Wrigelle Nightsburg Insector...." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- インセクタ王国の王族それも次期王位継承者だ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue14FaceScissorManOpTarakhan" Value="....Of the royal house of Insector，,and next in line to the Insector,throne!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- リグル君が････王族！？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue15FaceAlice" Value="Wriggle，you....,Royalty?!" Face="Alice" Mono="False" />
+  <!-- 私の家もかつてはインセクタ王国の王族だったのだがな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue16FaceScissorManOpTarakhan" Value="My house was once the ruling,family of the Insector Kingdom." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- コイツの祖父が起こした革命により　私の一族はその権利をはく奪されてな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue17FaceScissorManOpTarakhan" Value="That is，until they were driven,into exile during the ”revolution”,by this brat’s grandfather." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- なるほど　それで僕を消せば復讐になるというわけか････ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue18FaceWriggleHat" Value="So it all came down to revenge，,then...." Face="WriggleHat" Mono="False" />
+  <!-- でもそれってリグル君本人は関係ないじゃない！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue19FaceAlice" Value="Wriggle had nothing to do with,that!" Face="Alice" Mono="False" />
+  <!-- 血　というものは凡人が思う以上に大切なものなのだよ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue20FaceScissorManOpTarakhan" Value="A peasant would never know,the value of blood." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ククク　さようならだリグレット -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue21FaceScissorManOpTarakhan" Value="Kukuku....,Goodbye，”Wriggle”." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- アリス！！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage5Dialogue1FaceWriggleHat" Value="Alice!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君！！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage5Dialogue2FaceAlice" Value="Wriggle!" Face="Alice" Mono="False" />
+  <!-- ぐっ････！？銃が！？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage7Dialogue1FaceScissorManOpTarakhan" Value="....?!,A gunshot?!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 一体何が････？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage7Dialogue2FaceAlice" Value="What just happened?!" Face="Alice" Mono="False" />
+  <!-- アリス　上よ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage7Dialogue3FaceShanghai" Value="Alice! Look!" Face="Shanghai" Mono="False" />
+  <!-- 約束を破り人質に発砲とは変わらないな　タラカーン -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue1FaceReisen" Value="You’ve forgotten the point of a,hostage，Tarakhan." Face="Reisen" Mono="False" />
+  <!-- 貴様は････砂漠の首刈り兎か！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue2FaceScissorManOpTarakhan" Value="You....,The Desert Rabbit!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- その名は捨てた今はネットエージェントの八意鈴仙だ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue3FaceReisen" Value="That’s no name for a NetAgent.,It’s Reisen now." Face="Reisen" Mono="False" />
+  <!-- なぜここにいる！内部のセキュリティは完璧だったはずだ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue4FaceScissorManOpTarakhan" Value="How...?! The security systems,should have detected every,living being in the clock tower!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さすがの貴様も外壁をよじ登ることまでは予想できなかったようだな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue5FaceReisen" Value="Indeed.,A shame they were only on the,inside of the clocktower." Face="Reisen" Mono="False" />
+  <!-- バカな････！？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue6FaceScissorManOpTarakhan" Value="....The outside?!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- タラカーン　貴様がＲＯＭの構成員になっていたとは堕ちたものだな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue7FaceReisen" Value="Tarakhan....,How far have you fallen，to,work for ROM?" Face="Reisen" Mono="False" />
+  <!-- 手段を選んでいられない事情があるのだよ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue8FaceScissorManOpTarakhan" Value="You know nothing，girl!,For some things，you would do,anything!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ････ありがとう助けてくれて -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue1FaceWriggleHat" Value="....Thank you for saving me." Face="WriggleHat" Mono="False" />
+  <!-- 話は後です今はこの男を -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue2FaceReisen" Value="Later.,There is still a foe in front of us." Face="Reisen" Mono="False" />
+  <!-- タラカーン貴様を逮捕し　ＲＯＭの情報を吐いてもらうぞ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue3FaceReisen" Value="Tarakhan，you are under,arrest. You will tell us all you,know about ROM operations." Face="Reisen" Mono="False" />
+  <!-- クハハハ････！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue4FaceScissorManOpTarakhan" Value="Heheh...." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- リグレットを殺し損ねたがこちらの第一目標は達成済みだ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue5FaceScissorManOpTarakhan" Value="I may have failed to kill you，,Insector，but I’ve achieved my,primary goal!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 次に会うときは････容赦せんぞ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage13Dialogue1FaceScissorManOpTarakhan" Value="I look forward to the next time,we meet....,Pardon me!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ････目くらましに乗じてハンググライダーで逃亡か -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage15Dialogue1FaceReisen" Value="Escaping by hang-glider，while,we were blinded...." Face="Reisen" Mono="False" />
+  <!-- 奴の目的は阻止できなかったが最悪の事態は免れたわね -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue1FaceReisen" Value="He got away，but disaster was,averted." Face="Reisen" Mono="False" />
+  <!-- ねえ鈴仙あなた本当にこの時計塔を登ってきたの？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue2FaceAlice" Value="Reisen....,Did you really climb the clock,tower from the outside?" Face="Alice" Mono="False" />
+  <!-- この程度の高さ敵から逃亡しつつ重装備で断崖をよじ登るより簡単よ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue3FaceReisen" Value="It was simpler than scaling a,cliff with heavy equipment while,under fire from the enemy." Face="Reisen" Mono="False" />
+  <!-- ････もうさすがにツッコミきれないわ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue4FaceShanghai" Value="....I don’t know how to react,to that." Face="Shanghai" Mono="False" />
+  <!-- ごめんね　アリス僕が王族だって黙っていて････ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue1FaceWriggleHat" Value="Alice....I’m sorry I didn’t tell you!" Face="WriggleHat" Mono="False" />
+  <!-- そ　そんなの気にしないわ！リグル君はリグル君だもの！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue2FaceAlice" Value="It’s alright!,You’re Wriggle to me，and,that’s all that matters." Face="Alice" Mono="False" />
+  <!-- ････ちょっとビックリしたけどね -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue3FaceAlice" Value="....but I was a little suprised." Face="Alice" Mono="False" />
+  <!-- お身体が問題無ければこの後の記念式典の準備を致しましょう -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue4FaceReisen" Value="If you are uninjured，Princess，,then let us prepare for the,commemoration ceremony." Face="Reisen" Mono="False" />
+  <!-- ････リグレット姫様 -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue5FaceReisen" Value="....Did I say something wrong?" Face="Reisen" Mono="False" />
+  <!-- え････？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue6FaceAlice" Value="Uh....?" Face="Alice" Mono="False" />
+  <!-- 姫？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue7FaceShanghai" Value="Princ....ess?" Face="Shanghai" Mono="False" />
+  <!-- ええぇぇぇぇーーーーー！！？？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue8FaceAlice" Value="Whaaaaaat?!" Face="Alice" Mono="False" />
+</data>

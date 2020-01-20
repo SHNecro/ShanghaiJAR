@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 電子黒板の電脳 -->
+  <Text Key="Map.BlackBoardName" Value="電子黒板の電脳" />
+  <!-- コクバン　ッテイウワリニミドリイロ　デスヨネ -->
+  <Dialogue Key="Map.BlackBoardSprite1Stage1Dialogue1FaceSprite" Value="コクバン　ッテイウワリニ,ミドリイロ　デスヨネ" Face="Sprite" Mono="False" />
+  <!-- ナンダカ　イケナイコトイッチャッタ　カモー？ -->
+  <Dialogue Key="Map.BlackBoardSprite1Stage1Dialogue2FaceSprite" Value="ナンダカ　イケナイコト,イッチャッタ　カモー？" Face="Sprite" Mono="False" />
+  <!-- ムカシハ　コクバンケシトイウドウグヲ　ポンポンッテタタイテ　アラッテタトカ -->
+  <Dialogue Key="Map.BlackBoardSprite2Stage1Dialogue1FaceSprite" Value="ムカシハ　コクバンケシトイウ,ドウグヲ　ポンポンッテ,タタイテ　アラッテタトカ" Face="Sprite" Mono="False" />
+  <!-- ソンナコト　シタラコナマミレニ　ナッチャイマスヨ〜 -->
+  <Dialogue Key="Map.BlackBoardSprite2Stage1Dialogue2FaceSprite" Value="ソンナコト　シタラ,コナマミレニ　ナッチャイマスヨ〜" Face="Sprite" Mono="False" />
+</data>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳Ｂ１Ｆ -->
+  <Text Key="Map.CompanyServerBName" Value="Company Server Comp B1F" />
+  <Text Key="Map.CompanyServerBRandomBattle1Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServerBRandomBattle2Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServerBRandomBattle3Enemy1" Value="AutoRdG" />
+  <!-- 画面には薄暗い地下室が映し出されている -->
+  <Dialogue Key="Map.CompanyServerBSubTerminalStage1Dialogue1FaceNone" Value="The screen shows a dim,basement." Face="None" Mono="False" />
+  <!-- 画面には薄暗い地下室が映し出されている -->
+  <Dialogue Key="Map.CompanyServerBSubTerminalDupeStage1Dialogue1FaceNone" Value="The screen shows a dim,basement." Face="None" Mono="False" />
+  <!-- これが地下牢の管理端末ね！ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage1Dialogue1FaceShanghai" Value="This is the management,terminal for the basement!" Face="Shanghai" Mono="False" />
+  <!-- これを操作すれば････！ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage1Dialogue2FaceShanghai" Value="With this，I can....!" Face="Shanghai" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage3Dialogue1FaceNone" Value="There’s no need to use this,terminal any more." Face="None" Mono="False" />
+  <!-- シンニュウシャ　ハイジョシンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage1Dialogue1FaceAutoroid" Value="TRESPASSER!" Face="Autoroid" Mono="False" />
+  <!-- もののみごとにオートロイドだらけね -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue1FaceShanghai" Value="This place is full of Autoroids." Face="Shanghai" Mono="False" />
+  <!-- 位置的にここがアリスが捕まってる場所のはず！ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue2FaceShanghai" Value="This must be where they’re,keeping Alice!" Face="Shanghai" Mono="False" />
+  <!-- 邪魔する奴はまとめてぶっ飛ばす！ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue3FaceShanghai" Value="All that’s left is blowing these,guys to bits!" Face="Shanghai" Mono="False" />
+  <!-- オートロイドR -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy1" Value="AutordR" />
+  <!-- オートロイドG -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy2" Value="AutordG" />
+  <!-- オートロイドB -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy3" Value="AutordB" />
+  <!-- 私より早く鈴仙様を救い出すとはね････ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue1FaceYorihime" Value="I’m trying to break out Reisen...." Face="Yorihime" Mono="False" />
+  <!-- ここのセキュリティをなんとか突破できたけど私はもう限界よ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue2FaceYorihime" Value="I’ve defeated so many security,forces，but I’ve reached my,limits...." Face="Yorihime" Mono="False" />
+  <!-- せめてあなたのサポートとしてこれくらいは････ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue3FaceYorihime" Value="Please，at least take this and,accept my support." Face="Yorihime" Mono="False" />
+  <!-- ヨリヒメが渡したサブチップでシャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue4FaceNone" Value="The Sub Chip from Yorihime,recovered all of Shanghai’s HP!" Face="None" Mono="False" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServerBDoorStage1Dialogue1FaceNone" Value="It’s locked by security." Face="None" Mono="False" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServerBDoorDupeStage1Dialogue1FaceNone" Value="It’s locked by security." Face="None" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage1Dialogue1FaceNone" Value="INVALID SEQUENCE,ENTERED." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage1Dialogue2FaceNone" Value="SECURITY AUTOROIDS,HAVE BEEN NOTIFIED!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServerBPunishmentBattle1Enemy1" Value="AutordSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServerBPunishmentBattle1Enemy2" Value="AutordSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage3Dialogue1FaceShanghai" Value="I wanted to solve that correctly...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServerBAGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+</data>

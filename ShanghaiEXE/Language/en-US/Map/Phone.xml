@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PhoneName" Value="Telephone Comp" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue1FaceNaviBlueRobot" Value="Hmmmmm?,You seem to be the first,one here." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue2FaceNaviBlueRobot" Value="Was the location too niche?,Or maybe it seemed too fishy?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue3FaceNaviBlueRobot" Value="Oh well!,A female Navi like you should,be easy to beat!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue1FaceNaviBlueRobot" Value="Eeeek!,How can a Navi be so,absurdly strong!?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue2FaceNaviBlueRobot" Value="I-I’ll pay for the trouble,I’ve caused you，so,please forgive me!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue3FaceShanghai" Value="Huh? You kiddin’ me!?,Is this all ya got!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue4FaceNaviBlueRobot" Value="Wha?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue5FaceShanghai" Value="You were tricking people,and attacking them with,viruses，and you think" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue6FaceShanghai" Value="10000 Zenny is enough!?,Like hell you’re sorry!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue7FaceShanghai" Value="You really think people are,just gonna let this slide!?,Do ya!? Do ya!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue8FaceShanghai" Value="You might as well just do us all,a favor and jump off the edge!,Go on! Jump!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue9FaceNaviBlueRobot" Value="Eeeeeek!,I’ll give you this too，,so please forgive me!!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue10FaceShanghai" Value="So you had something else,after all! Oooh，this AddOn,looks rare!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue11FaceShanghai" Value="If you value your life，,you better get lost!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue12FaceNaviBlueRobot" Value="I-I’m soooooorry!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue1FaceShanghai" Value="Tch....,Pitiful con artist...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue2FaceAlice" Value="Is it okay that he got away?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue3FaceShanghai" Value="It’s fine. I secretly stuck a,tracking device on him and,reported him." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue4FaceAlice" Value="(Shanghai might get arrested, if she keeps this up....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite1Stage1Dialogue1FaceSprite" Value="BRRRIIING!,BRRRIIING!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite1Stage1Dialogue2FaceSprite" Value="KACHINK!,CHK-CHK-CHK...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue1FaceSprite" Value="I AM CURRENTLY UNABLE,TO ANSWER THE PHONE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue2FaceSprite" Value="PLEASE RECORD YOUR,MESSAGE AFTER THE,TONE!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue3FaceSprite" Value="BEEEEEEP!" Face="Sprite" Mono="False" />
+</data>

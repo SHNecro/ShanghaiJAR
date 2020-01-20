@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 電子黒板の電脳 -->
+  <Text Key="Map.BlackBoardName" Value="Blackboard Comp" />
+  <!-- コクバン　ッテイウワリニミドリイロ　デスヨネ -->
+  <Dialogue Key="Map.BlackBoardSprite1Stage1Dialogue1FaceSprite" Value="WORKING IN A BLACKBOARD,IS A PRETTY SWEET JOB!" Face="Sprite" Mono="False" />
+  <!-- ナンダカ　イケナイコトイッチャッタ　カモー？ -->
+  <Dialogue Key="Map.BlackBoardSprite1Stage1Dialogue2FaceSprite" Value="WHAT DO I DO ALL DAY?,YOU TELL ME!" Face="Sprite" Mono="False" />
+  <!-- ムカシハ　コクバンケシトイウドウグヲ　ポンポンッテタタイテ　アラッテタトカ -->
+  <Dialogue Key="Map.BlackBoardSprite2Stage1Dialogue1FaceSprite" Value="IN OLDER DAYS，PEOPLE,DREW ON BLACKBOARDS,WITH CHALK!" Face="Sprite" Mono="False" />
+  <!-- ソンナコト　シタラコナマミレニ　ナッチャイマスヨ〜 -->
+  <Dialogue Key="Map.BlackBoardSprite2Stage1Dialogue2FaceSprite" Value="IF YOU TRIED THAT TODAY，,PEOPLE WOULD GIVE YOU,FUNNY LOOKS!" Face="Sprite" Mono="False" />
+</data>

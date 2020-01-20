@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ShoolNet4Name" Value="学校の電脳４" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage1Dialogue1FaceSakuya" Value="もう少しでウィルスは,倒しきれますわ！" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage1Dialogue2FaceTankMan" Value="もう一息だな,ＲＯＭなんか叩きだしてやる！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage1Dialogue3FaceDruidMan" Value="ほう　何を叩き出すとな？" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue1FaceTankMan" Value="な････なんだこいつは！？" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue2FaceRemilia" Value="ウィルスじゃない････！,ＲＯＭのネットナビ！？" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue3FaceSakuya" Value="お嬢様　このナビ,とてつもないパワーを,持っています！！" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue4FaceRika" Value="タンクマン！,バトルチップを転送するのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue5FaceDruidMan" Value="遅いな" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue6FaceDruidMan" Value="ダークプログラムアドバンス！,ドリームメテオ！！" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3EventsStage5Dialogue1FaceRemilia" Value="サクヤーーーー！！！" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage1Dialogue1FaceNone" Value="貴様がシャンハイか････" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage1Dialogue2FaceShanghai" Value="誰よ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue1FaceDruidMan" Value="チルノとメディスンを退けた,ナビと聞いていたが,この程度の存在か････" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue2FaceAlice" Value="このナビ　サクヤたちの！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue3FaceShanghai" Value="へん！　見た目で侮って,痛い目見ても知らないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue4FaceDruidMan" Value="ほう････ならば試してみるか？" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue5FaceDruidMan" Value="････む？" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue1FaceYorihime" Value="姿を現しましたね,ＲＯＭ首領のネットナビ,ドルイドマン" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue2FaceShanghai" Value="ＲＯＭ首領？,こいつが････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue3FaceReisen" Value="あなた達にかまってる暇はない,邪魔をするならもろとも,デリートするわよ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue4FaceDruidMan" Value="ネットエージェントか,ここでは都合が悪いな" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue5FaceYorihime" Value="逃がしませんよ！" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue6FaceShanghai" Value="待ちなさいよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue7FaceShanghai" Value="ったく　勝手に話を,進めて帰っていったわね････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue8FaceAlice" Value="でも　あのドルイドマンってナビ,この事件を起こした犯人じゃ,ないっぽいけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue9FaceShanghai" Value="そう？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue10FaceAlice" Value="扉に電気を流すようなことが,できるんだから電気を操る,ナビが犯人のはずよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue11FaceMari" Value="さすが　鋭いなアリスは" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue12FaceTsubakiNekku" Value="ヨリヒメってナビも,手伝ってくれりゃあいいのにな" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue13FaceShanghai" Value="ドルイドマンは,ネットエージェントに任せて,事件は私たちで解決しなきゃ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue14FaceMari" Value="サクヤとタンクマンの無事も,確認しなきゃな････！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue15FaceAlice" Value="もちろん！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal1Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal1Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal1Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal1Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal2Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal2Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal2Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal2Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal3Stage1Dialogue1FaceNone" Value="シャンハイは,エツラン権限を操作した" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal3Stage1Dialogue2FaceNone" Value="アクセスできる範囲が,広くなった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal3Stage3Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal3Stage5Dialogue1FaceNone" Value="この端末で操作できる,エツラン権限はもう無い" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage1Dialogue1FaceShanghai" Value="これを止めさえすれば！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage1Dialogue2FaceShanghai" Value="････あれ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage1Dialogue3FaceAlice" Value="どうしたの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage1Dialogue4FaceShanghai" Value="この端末,操作が効かないのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage1Dialogue5FaceNone" Value="フフフフフ････" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage2Dialogue6FaceShanghai" Value="誰よ　今あたしを笑ったのは！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage4Dialogue1FaceShanghai" Value="どこにいるの？,出てきなさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage4Dialogue2FaceNone" Value="かかりましたね！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue1FaceShanghai" Value="ぐっ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue2FaceAlice" Value="シャンハイ！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue3FaceShanghai" Value="動けない････！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue1FaceIku" Value="申し訳ありませんが,トラップを仕掛けさせて,頂きました････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue2FaceShanghai" Value="あ････あんたがこの事件を,引き起こした犯人ね････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue3FaceIku" Value="左様････,わたくしがこの事件を起こした,イクでございます" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue4FaceAlice" Value="イクって････,やっぱり比那名居さん,あなた････！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue5FaceIku" Value="手荒なマネは避けたいので,このまま抵抗しないで,いただけると幸いです････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue6FaceShanghai" Value="事件を起こしておいて････,よく言うわね････！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue7FaceIku" Value="反論する気力は,あるようですね････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue8FaceIku" Value="けれど　その状態では,一歩も動けないでしょう" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue9FaceAlice" Value="トラップ････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue1FaceAlice" Value="両脇にある,発電装置みたいな物を壊せば,何とかなりそうだけど････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue2FaceIku" Value="あら　それに気づくとは,優秀なオペレーターのようですね" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue3FaceIku" Value="けれど　それが分かったとしても,その状態からどうやって,破壊するつもりですか？" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue4FaceMarisa" Value="くそっ！,ウィルスが増えてきやがった！" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue5FaceSpannerMan" Value="ちくしょう！,俺達だけでさばききれるか！？" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue6FaceIku" Value="残念ながらお友達の助けも,期待できそうにはありませんね" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue7FaceShanghai" Value="くっ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue8FaceNone" Value="では　その機械を,破壊すればよろしいのですね？" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue9FaceIku" Value="！？" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage12Dialogue1FaceAlice" Value="サクヤ！？,生きてたのね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage12Dialogue2FaceSakuya" Value="私だけではございませんわ！" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage12Dialogue3FaceNone" Value="タンクキャノン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage14Dialogue1FaceTankMan" Value="へへっ！,待たせたなシャンハイちゃん！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue1FaceShanghai" Value="ありがたいけど････,さっさと成仏しなさいよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue2FaceTankMan" Value="勝手に殺すんじゃねー！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue3FaceIku" Value="ドルイドマンさんの攻撃から,逃れていたのですね････！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue4FaceSakuya" Value="ヨリヒメと名乗るナビに,ギリギリで助けて頂きましたの" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue5FaceTankMan" Value="シャンハイちゃん！,あとはそいつを倒すだけだ！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue6FaceShanghai" Value="わかってるわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue7FaceIku" Value="仕方ありませんね････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue8FaceIku" Value="手荒なことはあまり,好きではないのですけれど" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue9FaceShanghai" Value="あんたねえ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue10FaceShanghai" Value="学校をパニックにしておいて,手荒なことが,好きじゃないだって？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue11FaceShanghai" Value="こんだけ好き放題やっておいて,お高く止まってんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue12FaceShanghai" Value="やったことの重大さも,わかってないだなんて････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue13FaceShanghai" Value="ばっかじゃないの！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue14FaceAlice" Value="あなた　比那名居さんの,ナビなんでしょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue15FaceAlice" Value="比那名居さんのことを想うなら,こんなことはやめるのよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue16FaceIku" Value="いいえ　それはできません！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue17FaceIku" Value="天子様の為にこそ,わたくしは退くことは,できないのです！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue18FaceAlice" Value="どういうこと････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue19FaceShanghai" Value="アリス　時間の無駄よ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue20FaceShanghai" Value="罪の重さは　あたしのコブシで,わからせてやる！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue21FaceIku" Value="戦いが避けられないなら,仕方がありません" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue22FaceIku" Value="わたくしの電撃で,動きを封じてさしあげます！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue23FaceAlice" Value="でも････！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue24FaceShanghai" Value="アリス,ためらってる余裕はないわ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue25FaceShanghai" Value="いくわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue26FaceAlice" Value="え　ええ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue27FaceAlice" Value="バトルオペレーション、,セット！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue28FaceShanghai" Value="イン！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue29FaceIku" Value="いざ　参ります！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue1FaceIku" Value="うっ････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue2FaceIku" Value="天子様････,申し訳ありません････" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue3FaceShanghai" Value="勝負あったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue4FaceTenshi" Value="もうやめて！,イクをこれ以上傷つけないで！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue5FaceIku" Value="天子様････！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue6FaceAlice" Value="比那名居さん････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue7FaceShanghai" Value="どうしてこんなことをしたの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue8FaceTenshi" Value="わ・・・・私は････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue9FaceTenshi" Value="お父様が転勤続きで,転校を繰り返してきたの････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue10FaceTenshi" Value="だから　ずっと友達がいなくて,嫌なことばかりされてきたわ････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue11FaceTenshi" Value="今度の転校では,失敗したくないから,インターネットで相談したら････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue12FaceTenshi" Value="最初に力を見せつければ,そんなことはされなくなるって････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue13FaceTenshi" Value="そう････教えられたの････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue14FaceShanghai" Value="おおかた利用するために,ＲＯＭの連中の口車に,のせられたってところかしらね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue15FaceAlice" Value="比那名居さん････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage18Dialogue16FaceNone" Value="そのナビの身柄を,渡してもらいましょうか" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue1FaceAlice" Value="ヨリヒメ！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue2FaceIku" Value="ネットエージェント････！" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue3FaceTenshi" Value="イ････イクをどうするの！？" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue4FaceReisen" Value="ＲＯＭに所属していたならば,その情報を持っているはず････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue5FaceReisen" Value="その身柄を拘束して,メモリーデータから情報を,引き出させてもらうわ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue6FaceAlice" Value="待ちなさいよ！,彼女は利用されていた,だけなのよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue7FaceReisen" Value="そこをどきなさい,邪魔をするのであれば････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage20Dialogue8FaceNone" Value="待った！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue1FaceTsubakiNekku" Value="へっ！,そうはさせっかよ！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue2FaceReisen" Value="････何のマネかしら？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue3FaceMari" Value="今の話を聞いて,黙ってられないもんでね" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue4FaceSakuya" Value="これでよろしいですよね,お嬢様？" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue5FaceTankMan" Value="美人なナビがひどい目に合うのは,気分が悪いからな！" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue6FaceReisen" Value="邪魔をするつもり？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue7FaceReisen" Value="その程度の守りで,私達にかなうとでも････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage22Dialogue8FaceNone" Value="僕達もいるぞ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue1FaceShanghai" Value="あんたたち！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue2FaceMaleChild" Value="友達のナビを引き渡すものか！" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue3FaceFemaleStudent" Value="比那名居さんのナビは,私たちが守るわ！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue4FaceIku" Value="皆さん････２年２組の････！？" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue5FaceTenshi" Value="みんな････どうして････！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue6FaceFemaleStudent" Value="避難してる途中で,神綺さんたちがいないことに,気づいて戻ってきたの" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue7FaceMaleStudent" Value="みんなを残して避難なんて,できないからね！" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue8FaceShanghai" Value="あんたたち････,カッコつけてくれるじゃない！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue9FaceTenshi" Value="みんな････,でも私は皆にひどいことを････！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue10FaceAlice" Value="もちろん　やったことについて,なかったことにするわけじゃないわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue11FaceAlice" Value="でも　間違いを認めて謝れば,みんな許してくれるはずよ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue12FaceAlice" Value="だって　自己紹介をした,あの時から　クラスのみんなは,あなたの友達だから！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage24Dialogue13FaceTenshi" Value="と････友達････！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue1FaceYorihime" Value="鈴仙様,いかが致しましょうか････？" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue2FaceReisen" Value="まとめて片付けるのは,たやすいけれど････" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue3FaceReisen" Value="民間人のナビを大勢,デリートするのも考えものね" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue4FaceYorihime" Value="では････" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue5FaceReisen" Value="今日のところは引き上げるわ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue6FaceReisen" Value="比那名居　天子,あなたには後に,出頭命令が来るはずよ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue7FaceReisen" Value="その命令に背けば,その時は････覚悟しなさい" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue8FaceReisen" Value="ヨリヒメ　プラグアウト" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage26Dialogue9FaceYorihime" Value="イエス・マム" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage28Dialogue1FaceShanghai" Value="へぇ････,なんとか丸く収まったようね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage28Dialogue2FaceTenshi" Value="みんな････ごめんなさい･･･！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage28Dialogue3FaceTenshi" Value="それから････ありがとう･････！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage28Dialogue4FaceAlice" Value="さあ　比那名居さん,みんなで教室に帰りましょう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage28Dialogue5FaceTenshi" Value="うん････！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage30Dialogue1FaceNone" Value="このあと　教室に戻った,比那名居さんは私たちと一緒に,学校のみんなに謝って回ったの" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage30Dialogue2FaceNone" Value="途中　比那名居さんは,何度も泣きそうになったけど････" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage30Dialogue3FaceNone" Value="みんなで支えてあげて,お昼までには謝り終えることが,できたわ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage30Dialogue4FaceNone" Value="そして　放課後････" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage1Dialogue1FaceShanghai" Value="アリス　端末の前に,動かないゲートがあって,先に進めないわ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage1Dialogue2FaceAlice" Value="動かないゲート？,そこから開けることは,出来ないの？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage1Dialogue3FaceShanghai" Value="ネットワークにつながっている,何かの端末がフリーズを,起こしてるっぽいわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage1Dialogue4FaceAlice" Value="たしかそこはＰＣ教室の,電脳世界だったわよね" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage1Dialogue5FaceAlice" Value="こぁ先生に聞いてみるわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue1FaceKumako" Value="アリスさん、どうしたの？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue2FaceAlice" Value="ＰＣ教室の端末の中に,フリーズしているものって,ありますか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue3FaceKumako" Value="フリーズ････？" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue4FaceKumako" Value="ううん　どのパソコンも,サーバーもフリーズしている,ものなんて無いわ････" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue5FaceAlice" Value="あれ？,フリーズが原因で通れない,場所があるんですが････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue6FaceRika" Value="先生！,里香知っているのです！,ちょっと代わってくださいです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue7FaceRika" Value="神綺さん　この間,ＰＣ教室の古いパソコンを,倉庫に運んだのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue8FaceAlice" Value="倉庫？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue9FaceRika" Value="なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue10FaceRika" Value="倉庫に運んだとしても,まだネットワークには,残ってるはずなのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue11FaceRika" Value="だから倉庫の中の,古いパソコンを,再起動するのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue12FaceAlice" Value="わかったわ！,里香　ありがとう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue13FaceRika" Value="タンクマンはきっと････,きっと生きてるのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue14FaceRika" Value="だから　お願いするのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue15FaceAlice" Value="もちろんよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue16FaceAlice" Value="シャンハイ！,通れるようにしてくるから,ちょっと待っててね！" Face="Alice" Mono="False" />
+</data>

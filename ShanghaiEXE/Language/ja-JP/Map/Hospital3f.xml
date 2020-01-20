@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Hospital3fName" Value="八意総合病院3F" />
+  <Dialogue Key="Map.Hospital3fElevatorStage1Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Hospital3fElevatorStage1Dialogue2Options" Value="１階,２階,乗らない" />
+  <Dialogue Key="Map.Hospital3fElevatorStage3Dialogue1FaceNone" Value="エレベーターのボタンが,反応しない････" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage5Dialogue1FaceNone" Value="エレベーターの扉が開いた！,何階へ行きますか？" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage5Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Hospital3fElevatorStage5Dialogue2Options" Value="１階,２階,乗らない" />
+  <Dialogue Key="Map.Hospital3fSofaStage1Dialogue1FaceNone" Value="待合用のソファだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaStage1Dialogue2FaceNone" Value="柔らかそうにみえて,座ってみると意外と硬い,座り心地だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeStage1Dialogue1FaceNone" Value="待合用のソファだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeStage1Dialogue2FaceNone" Value="柔らかそうにみえて,座ってみると意外と硬い,座り心地だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeDupeStage1Dialogue1FaceNone" Value="待合用のソファだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeDupeStage1Dialogue2FaceNone" Value="柔らかそうにみえて,座ってみると意外と硬い,座り心地だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fGodStage1Dialogue1FaceKoishi" Value="どうしよう,このままじゃお姉ちゃんが････" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue1FaceKoishi" Value="・・・・・・・・" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue2FaceAlice" Value="・・・・・・・・" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue3FaceShanghai" Value="・・・・・・・・" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue4FaceShanghai" Value="長いわね　手術" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue5FaceKoishi" Value="お医者さんは難しい手術だって,言ってたから････" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue6FaceAlice" Value="大丈夫かな　さとりさん････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue7FaceKoishi" Value="でも手術は八意先生が,リーダーだから大丈夫だよ！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue8FaceAlice" Value="････なんだか緊張してきて,汗が出てきたわ" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue9FaceKoishi" Value="････というか,何か暑いような？" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue10FaceShanghai" Value="というか　室温がどんどん,上がっているじゃない！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue1FaceEirin" Value="ちょっと　そこに誰か,いるかしら！？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue2FaceAlice" Value="八意先生！,どうしたんですか！？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue3FaceEirin" Value="この階だけ空調に不具合が,起こって室温が上がってる,みたいなの！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue4FaceEirin" Value="扉の電子ロックも,開けられないみたいだし････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue5FaceKoishi" Value="お　お姉ちゃんは,大丈夫なんですか！？" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue6FaceEirin" Value="今はまだ大丈夫だけど,このまま温度が上がり続けたら,取り返しがつかなくなるわ！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue7FaceShanghai" Value="････この階だけ？,それってまるで････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue8FaceShanghai" Value="とにかく！,空調の不具合ってことは,電脳世界の異常でしょ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue9FaceShanghai" Value="どこからアクセスできるか,教えなさい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue1FaceEirin" Value="手術室入り口の横に,コントロールパネルが,あるわよね？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue2FaceShanghai" Value="そこにプラグインね？,アリス　行くわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue3FaceAlice" Value="もち！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue1FaceKoishi" Value="先生　お姉ちゃんは････？" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue2FaceEirin" Value="････奇跡が起こったわ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue3FaceEirin" Value="先天性衰弱因子障････,さとりさんをむしばんでいた,病気も治っちゃった" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue4FaceAlice" Value="えっ････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue5FaceEirin" Value="もともと今回の手術は,一時的に視力を回復させる,手術のはずだったの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue6FaceEirin" Value="一時的に目が見えても,病気によって数年もしたら,再び見えなくなってしまう" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue7FaceEirin" Value="先天性衰弱因子障の,治療方法はまだ,確立していないから････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue8FaceEirin" Value="けれど　高温の手術室で,続行した手術の中で" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue9FaceEirin" Value="先天性衰弱因子障を,引き起こしていた細胞が,正常になり始めたの" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue10FaceEirin" Value="もしかしたら　あの熱が,いい方向に作用したのかも,しれない････" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue11FaceEirin" Value="研究は今後やるとして,さとりさんは麻酔が切れれば,目が見えるようになるはずよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue12FaceKoishi" Value="あ････ありがとうございます！！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue13FaceEirin" Value="さあ　病室にさとりさんを,運ばないといけないから,２階で待っててくれるかしら？" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue14FaceKoishi" Value="はい！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage1Dialogue1FaceNone" Value="この階をつかさどる,コントロールパネルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage1Dialogue2FaceNone" Value="手術室内部も管理しており,勝手に触ったら取り返しが,つかなくなるだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage3Dialogue1FaceNone" Value="この階をつかさどる,コントロールパネルだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage3Dialogue2FaceNone" Value="手術室内部も管理しており,プラグインで外部から,問題を解決できる" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue1FaceNone" Value="この先は手術室だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue2FaceNone" Value="病気と医者の真剣勝負の,場であり部外者は,立ち入ることが許されない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue3FaceNone" Value="手術を受ける当人さえ,麻酔によってその勝負に,立ち会うことはできないのだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage3Dialogue1FaceEirin" Value="手術室の扉の横の,コントロールパネルから,プラグインをお願い！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage3Dialogue2FaceEirin" Value="このままだと　さとりさんの,体力が危ないわ！" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue1FaceNone" Value="この先は手術室だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue2FaceNone" Value="病気と医者の真剣勝負の,場であり部外者は,立ち入ることが許されない" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue3FaceNone" Value="手術を受ける当人さえ,麻酔によってその勝負に,立ち会うことはできないのだ" Face="None" Mono="False" />
+</data>

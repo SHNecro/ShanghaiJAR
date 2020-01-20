@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭ基地ゲートの電脳 -->
+  <Text Key="Map.RomGateName" Value="ＲＯＭ基地ゲートの電脳" />
+  <!-- クルモノ　コバミデルモノ　オウ -->
+  <Dialogue Key="Map.RomGateSprite1Stage1Dialogue1FaceSprite" Value="クルモノ　コバミ,デルモノ　オウ" Face="Sprite" Mono="False" />
+  <!-- ソレガワレワレノ　シゴトデス -->
+  <Dialogue Key="Map.RomGateSprite1Stage1Dialogue2FaceSprite" Value="ソレガワレワレノ　シゴトデス" Face="Sprite" Mono="False" />
+  <!-- ゲートオープンゲートオープンピピピピ････ -->
+  <Dialogue Key="Map.RomGateSprite2Stage1Dialogue1FaceSprite" Value="ゲートオープン,ゲートオープン,ピピピピ････" Face="Sprite" Mono="False" />
+</data>

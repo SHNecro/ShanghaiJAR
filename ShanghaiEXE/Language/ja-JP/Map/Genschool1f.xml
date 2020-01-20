@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Genschool1fName" Value="幻想中学校　1F" />
+  <Dialogue Key="Map.Genschool1fToTheOutsideStage1Dialogue1FaceNone" Value="扉には高圧の電流が,流れていて危険だ！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue1FaceNone" Value="新聞部が作った,学級新聞が掲示されている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue2FaceNone" Value="「戦争の続くアラブスタン情勢」,「民自党　支持率の変化」,「少年によるネット犯罪」" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue3FaceNone" Value="う〜ん、重いテーマの,記事ばかりだ" Face="None" Mono="False" />
+  <!-- コラム記事の部分に００００４６００という数字が書かれている -->
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue4FaceNone" Value="コラム記事の部分に,００００４６００という,数字が書かれている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fBeforeEntranceOfStaffRoomStage1Dialogue1FaceNone" Value="悪いことをしていなくても,職員室に入るのは,気が引けてしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fBeforeEntranceOfStaffRoomStage1Dialogue2FaceNone" Value="用事があるときだけ,訪れるようにしたい" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fAfterTheStaffRoomEntranceStage1Dialogue1FaceNone" Value="悪いことをしていなくても,職員室に入るのは,気が引けてしまう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fAfterTheStaffRoomEntranceStage1Dialogue2FaceNone" Value="用事があるときだけ,訪れるようにしたい" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage1Dialogue1FaceFemaleAdult" Value="あら　あなた２年２組の,神綺さんね" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage1Dialogue2FaceFemaleAdult" Value="あなたの教室は,この階段を登った２階よ" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage3Dialogue1FaceKumako" Value="神綺さん,寄り道せず帰るのよ" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue1FaceFemaleAdult" Value="古阿先生？" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue2FaceFemaleAdult" Value="古阿先生なら今　図書室の,データベースの整理を,しているはずだけど････" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue3FaceFemaleAdult" Value="図書室のデータベースは,２階のＰＣ教室からアクセスが,できるからそこにいると思うわ" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue1FaceFemaleStudent" Value="古阿　久真子（こあ　くまこ）,先生ってすっごい美人だよね" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue2FaceFemaleStudent" Value="生徒にこぁ先生って,あだ名で呼ばれるくらいだし,優しいんだろうなぁ" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue3FaceFemaleStudent" Value="こぁ先生が担任のクラスって,いいなぁ　羨ましいなぁ" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage1Dialogue1FaceFemaleStudent" Value="Ｎ１リーグの予選に,挑戦してみたけど,ダメだったよー" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage1Dialogue2FaceFemaleStudent" Value="やっぱり神綺さんくらい,ネットバトル強くないと,ダメなのかなー？" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage3Dialogue1FaceFemaleStudent" Value="今日はN1リーグなんだっけ？,神綺さんがんばってね！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage5Dialogue1FaceFemaleStudent" Value="N１リーグで優勝するなんて,神綺さんってやっぱりすごい！" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fPostGameBystander1Dialogue1" Value="まさか朝倉先生が,悪い人だったなんてねえ" Face="FemaleOld" Mono="False" />
+  <Dialogue Key="Map.Genschool1fPostGameBystander1Dialogue2" Value="そんなに悪い人には,見えなかったんだけどねえ" Face="FemaleOld" Mono="False" />
+</data>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　３０Ｆ -->
+  <Text Key="Map.CompanyServer4Name" Value="Company Server Comp 30F" />
+  <Text Key="Map.CompanyServer4RandomBattle1Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer4RandomBattle2Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer4RandomBattle3Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer4RandomBattle4Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer4RandomBattle5Enemy1" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer4RandomBattle5Enemy2" Value="AutoRdR" />
+  <Text Key="Map.CompanyServer4RandomBattle6Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer4RandomBattle6Enemy2" Value="AutoRdR" />
+  <Text Key="Map.CompanyServer4RandomBattle7Enemy1" Value="AutoRdG" />
+  <Text Key="Map.CompanyServer4RandomBattle7Enemy2" Value="AutoRdR" />
+  <Text Key="Map.CompanyServer4RandomBattle7Enemy3" Value="AutoRdB" />
+  <Text Key="Map.CompanyServer4RandomBattle8Enemy1" Value="AutoRdR" />
+  <Text Key="Map.CompanyServer4RandomBattle9Enemy1" Value="AutoRdR" />
+  <!-- こりゃあまた骨の折れそうなセキュリティだこと -->
+  <Dialogue Key="Map.CompanyServer4Chapter7EventsStage1Dialogue1FaceShanghai" Value="I’m at the president’s server!" Face="Shanghai" Mono="False" />
+  <!-- ここが社長室だ神綺アリス　踏み込むぞ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7EventsStage3Dialogue1FaceReisen" Value="Alice Shinki. We’ve reached the,president’s office.,Let’s enter." Face="Reisen" Mono="False" />
+  <!-- え　ええ！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7EventsStage3Dialogue2FaceAlice" Value="Yeah!" Face="Alice" Mono="False" />
+  <!-- あの端末でバリアを操作すれば････！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage1Dialogue1FaceShanghai" Value="I just need to get that terminal,to shut down the barrier....!" Face="Shanghai" Mono="False" />
+  <!-- そうはさせん････ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage1Dialogue2FaceNone" Value="I don’t think so." Face="None" Mono="False" />
+  <!-- 社長には何者にも手を触れさせはしない -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue1FaceRan" Value="The president shall not be,disturbed." Face="Ran" Mono="False" />
+  <!-- ランさまぁ早くあいつをバラバラにしちゃいましょうよぉ！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue2FaceChen" Value="Miss Ran! Let’s take out this,Navi real quick!" Face="Chen" Mono="False" />
+  <!-- チェン　まだ攻撃の指示は出ていない -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue3FaceRan" Value="Chen，we have not received,the order to attack." Face="Ran" Mono="False" />
+  <!-- はぁ〜い☆ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue4FaceChen" Value="Oopsie!〜☆" Face="Chen" Mono="False" />
+  <!-- ネットナビがふたり！？ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue5FaceAlice" Value="Two NetNavis?!," Face="Alice" Mono="False" />
+  <!-- どこかにもう一人オペレーターが････！？ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue6FaceShanghai" Value="What?! Where’s the other,NetOp?" Face="Shanghai" Mono="False" />
+  <!-- 先入観にとらわれた平凡な発想････ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue7FacePresidentYukari" Value="As expected of  a mediocre,Navi and their mediocre NetOp." Face="PresidentYukari" Mono="False" />
+  <!-- まさに　あなたが凡人たるゆえんだわ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue8FacePresidentYukari" Value="You fail to even imagine the,abilities of your betters." Face="PresidentYukari" Mono="False" />
+  <!-- ラン　チェンこのナビを始末なさい -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue9FacePresidentYukari" Value="Ran. Chen. Cut them down." Face="PresidentYukari" Mono="False" />
+  <!-- 社長の命令ならば -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue10FaceRan" Value="As the president commands." Face="Ran" Mono="False" />
+  <!-- このサーバーに迷い込んだことを後悔しなさぁい☆ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue11FaceChen" Value="I bet you regret stepping foot,in this server〜☆" Face="Chen" Mono="False" />
+  <!-- ････どうやら -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue12FaceShanghai" Value="So that’s how it is...." Face="Shanghai" Mono="False" />
+  <!-- アリスの目の前の女がこいつらのオペレーターみたいね -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue13FaceShanghai" Value="We’re up against both of that,woman’s Navis." Face="Shanghai" Mono="False" />
+  <!-- ひとりでふたりのナビを････！？ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue14FaceAlice" Value="Both?! How can she operate,both at the same time?" Face="Alice" Mono="False" />
+  <!-- 私の特技は２体のナビを同時にオペレートすること -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue15FacePresidentYukari" Value="It’s simply what I trained myself,to do." Face="PresidentYukari" Mono="False" />
+  <!-- フフフ！２対１でどこまで健闘するか見せてもらおうじゃないの！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage3Dialogue16FacePresidentYukari" Value="Fufu! Let’s see how you fare,against two foes!" Face="PresidentYukari" Mono="False" />
+  <!-- あんたねえ････！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage5Dialogue1FaceShanghai" Value="You’re really something....!" Face="Shanghai" Mono="False" />
+  <!-- 何が２対１ですって？あんたがいかにすごいオペレーターだとしても････ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage5Dialogue2FaceShanghai" Value="Two versus one? No matter,how great you are...." Face="Shanghai" Mono="False" />
+  <!-- あんたの腕が２本しかないならそのまま２倍の戦力になるわけないじゃないの！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage5Dialogue3FaceShanghai" Value="....You’ve only got two hands!" Face="Shanghai" Mono="False" />
+  <!-- その程度のヌルい計算であたしたちに勝てると思うだなんて････ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage5Dialogue4FaceShanghai" Value="I’ll take those odds!" Face="Shanghai" Mono="False" />
+  <!-- ばっかじゃないの！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage5Dialogue5FaceShanghai" Value="You idiot!" Face="Shanghai" Mono="False" />
+  <!-- ････社長 -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage7Dialogue1FaceRan" Value="....Madam president." Face="Ran" Mono="False" />
+  <!-- は〜や〜くぅ〜〜！！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage7Dialogue2FaceChen" Value="Nyaa〜☆!" Face="Chen" Mono="False" />
+  <!-- お客様を待たせては失礼ね手早く片付けましょう -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage7Dialogue3FacePresidentYukari" Value="Well，it would be rude to keep,a customer waiting." Face="PresidentYukari" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage7Dialogue4FaceAlice" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage7Dialogue5FaceShanghai" Value="Execute!" Face="Shanghai" Mono="False" />
+  <!-- ････力及ばず　か -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage9Dialogue1FaceRan" Value="....I cannot function." Face="Ran" Mono="False" />
+  <!-- うわぁぁぁん！！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage9Dialogue2FaceChen" Value="Oh wow〜☆!" Face="Chen" Mono="False" />
+  <!-- よし！これでバリアーを解除できるわ！ -->
+  <Dialogue Key="Map.CompanyServer4Chapter7BossEventStage11Dialogue1FaceShanghai" Value="Alright! Now to shut down the,barrier!" Face="Shanghai" Mono="False" />
+  <!-- 画面には社長室を映す監視カメラの映像が流れている -->
+  <Dialogue Key="Map.CompanyServer4SubTerminalStage1Dialogue1FaceNone" Value="The screen shows surveillance,camera feed of the president’s,office." Face="None" Mono="False" />
+  <!-- 画面には社長室を映す監視カメラの映像が流れている -->
+  <Dialogue Key="Map.CompanyServer4SubTerminalDupeStage1Dialogue1FaceNone" Value="The screen shows surveillance,camera feed of the president’s,office." Face="None" Mono="False" />
+  <!-- えーっと　赤外線赤外線････っと -->
+  <Dialogue Key="Map.CompanyServer4TerminalStage1Dialogue1FaceShanghai" Value="Ah，infrared，infrared....There!" Face="Shanghai" Mono="False" />
+  <!-- あったわ　これね！ -->
+  <Dialogue Key="Map.CompanyServer4TerminalStage1Dialogue2FaceShanghai" Value="Hurry，I got it!" Face="Shanghai" Mono="False" />
+  <!-- 礼を言うこれで先に進めるようになった -->
+  <Dialogue Key="Map.CompanyServer4TerminalStage3Dialogue1FaceReisen" Value="Thank you，now we can,proceed." Face="Reisen" Mono="False" />
+  <!-- 鈴仙　あれ！ -->
+  <Dialogue Key="Map.CompanyServer4TerminalStage3Dialogue2FaceAlice" Value="Reisen!" Face="Alice" Mono="False" />
+  <!-- む？ -->
+  <Dialogue Key="Map.CompanyServer4TerminalStage3Dialogue3FaceReisen" Value="Mm?" Face="Reisen" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServer4TerminalStage5Dialogue1FaceNone" Value="There’s no need to use this,terminal any more." Face="None" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer4PunishmentStage1Dialogue1FaceNone" Value="INVALID SEQUENCE,ENTERED." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer4PunishmentStage1Dialogue2FaceNone" Value="SECURITY AUTOROIDS,HAVE BEEN NOTIFIED!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer4PunishmentBattle1Enemy1" Value="AutordSP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer4PunishmentBattle1Enemy2" Value="AutordSP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer4PunishmentStage3Dialogue1FaceShanghai" Value="I wanted to solve that correctly...." Face="Shanghai" Mono="False" />
+  <!-- フェイル・セイフ・ロックにより中枢システムへの安全が守られている -->
+  <Dialogue Key="Map.CompanyServer4AGimmickGoalsDoor1Stage1Dialogue1FaceNone" Value="The central system is protected,by a fail-safe lock." Face="None" Mono="False" />
+  <!-- フェイル・セイフ・ロックにより中枢システムへの安全が守られている -->
+  <Dialogue Key="Map.CompanyServer4BGimmickGoalDoorStage1Dialogue1FaceNone" Value="The central system is protected,by a fail-safe lock." Face="None" Mono="False" />
+  <!-- フェイル・セイフ・ロックにより中枢システムへの安全が守られている -->
+  <Dialogue Key="Map.CompanyServer4CGimmickGoalDoorStage1Dialogue1FaceNone" Value="The central system is protected,by a fail-safe lock." Face="None" Mono="False" />
+  <!-- フェイル・セイフ・ロックにより中枢システムへの安全が守られている -->
+  <Dialogue Key="Map.CompanyServer4DGimmickGoalsDoorStage1Dialogue1FaceNone" Value="The central system is protected,by a fail-safe lock." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer4DGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer4CGimmickStartStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer4BGimmickStartingLeftStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer4BGimmickStartingStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer4AGimmickStartLowerStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer4AGimmickStartUpperStage1Dialogue1FaceNone" Value="PLEASE PRESS THE,NUMBERS IN ORDER." Face="None" Mono="False" />
+  <!-- これが秘書ナビ････ていうかこいつ企業の資産だったのね -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue1FaceShanghai" Value="So this was the secretary Navi...,A company asset?" Face="Shanghai" Mono="False" />
+  <!-- まあまあそれでプロテクトの方は大丈夫そう？ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue2FaceAlice" Value="Can you see the protection,system?" Face="Alice" Mono="False" />
+  <!-- うっわ〜････４５って数字が見えるわ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue3FaceShanghai" Value="Ugh....,I see the number 45." Face="Shanghai" Mono="False" />
+  <!-- つまりウィルス４５体相手にしなきゃいけないっぽい -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue4FaceShanghai" Value="We have to fight 45 viruses?,Are you kidding me?" Face="Shanghai" Mono="False" />
+  <!-- でもやるしか無いわねバトルオペレーション、セット！ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue5FaceAlice" Value="We’ll just have to deal with it.,Battle Routine，Set!" Face="Alice" Mono="False" />
+  <!-- はいはい　インイン -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue6FaceShanghai" Value="Yeah，yeah. Execute." Face="Shanghai" Mono="False" />
+  <!-- このやる気の無さ････ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage1Dialogue7FaceAlice" Value="So lazy...." Face="Alice" Mono="False" />
+  <!-- ぜーっ　ぜーっ　ぜーっ････ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue1FaceShanghai" Value="Huff....huff...." Face="Shanghai" Mono="False" />
+  <!-- お　おつかれ････ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue2FaceAlice" Value="My goodness...." Face="Alice" Mono="False" />
+  <!-- ここは････ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue3FaceRan" Value="That was...." Face="Ran" Mono="False" />
+  <!-- 実はかくかくしかじかであたしはメッチャ苦労したのよ -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue4FaceShanghai" Value="That was pretty tough，even for,me!" Face="Shanghai" Mono="False" />
+  <!-- なるほど････では私はマエリベリー社長の端末へと移動しよう -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue5FaceRan" Value="I will....go to the terminal of,president Maribel." Face="Ran" Mono="False" />
+  <!-- せめてねぎらいの言葉ひとつでも欲しかったわね -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue6FaceShanghai" Value="At least thank us，or something!" Face="Shanghai" Mono="False" />
+  <!-- とりあえずメリーさんのところへ戻りましょう -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue7FaceAlice" Value="Let’s get back to Maribel." Face="Alice" Mono="False" />
+  <!-- はぁい -->
+  <Dialogue Key="Map.CompanyServer4Request15FrozenRunStage3Dialogue8FaceShanghai" Value="Hey!" Face="Shanghai" Mono="False" />
+</data>

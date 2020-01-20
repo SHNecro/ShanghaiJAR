@@ -1,0 +1,33 @@
+﻿<Expander x:Class="KeyConfig.Common.StringEditableExpander"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+          xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+          xmlns:local="clr-namespace:KeyConfig.Common"
+          mc:Ignorable="d"
+          d:DesignHeight="200" d:DesignWidth="150">
+    <Expander.HeaderTemplate>
+        <DataTemplate>
+            <Grid HorizontalAlignment="{Binding Path=HorizontalAlignment, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ContentPresenter}}, Mode=OneWayToSource}" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="32"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                               Text="{Binding}"/>
+                <Button Grid.Column="2"
+                            Width="16"
+                            Height="16"/>
+            </Grid>
+        </DataTemplate>
+    </Expander.HeaderTemplate>
+    <Expander.ContentTemplate>
+        <DataTemplate>
+            <Grid>
+                <ContentControl Content="{Binding}" DataContext="{TemplateBinding StringRepresentation}"/>
+                <TextBox Text="{TemplateBinding StringRepresentation.StringValue}"/>
+            </Grid>
+        </DataTemplate>
+    </Expander.ContentTemplate>
+</Expander>

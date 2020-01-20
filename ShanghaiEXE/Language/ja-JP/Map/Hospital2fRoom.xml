@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Hospital2fRoomName" Value="八意総合病院　病室" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue1FaceTenshi" Value="わーい！,みんな来てくれて,ありがとうなのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue2FaceMari" Value="思ったより元気そうだな" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue3FaceRemilia" Value="やけどくらいなら今の,医療技術なら跡を残さず,治療することができるからね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue4FaceTenshi" Value="みんなありがとうなのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue5FaceShanghai" Value="本当に早く元気に,なりなさいよね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue6FaceShanghai" Value="アリスったらあんたが,ケガしたことでけっこう,落ち込んでたんだから" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue7FaceAlice" Value="ちょっと　それは････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue8FaceTenshi" Value="ごめんなのよ････" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue9FaceTenshi" Value="････そうだ！,はい　アリスこれ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue10FaceAlice" Value="これは････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue11FaceTenshi" Value="アリスはもうすぐ,インゲレス旅行なのよ？" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue12FaceTenshi" Value="それを私だと思って,持って行ってなのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue13FaceTsubakiNekku" Value="インゲレス旅行････？" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue14FaceTsubakiNekku" Value="ああ　Ｎ１リーグの,賞品のやつか！" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue15FaceMari" Value="いいなー！,外国デビューかー！" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue16FaceRemilia" Value="あら　そうだと言ってくれたら,私がおすすめスポットを,教えてあげたのに" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue17FaceRika" Value="そういえばレミリアさんは,インゲレス出身なのです！" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue18FaceAlice" Value="せっかくだし　そういうのは,自分で調べて行くつもりなの" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue19FaceShanghai" Value="あんたって変なところが,キマジメよねえ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue20FaceTsubakiNekku" Value="おっ　もうこんな時間か" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue21FaceTenshi" Value="みんな来てくれて,ありがとうなのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue22FaceTenshi" Value="アリス！　インゲレスの,おみやげ話楽しみにしてるのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue23FaceAlice" Value="わかったわ,楽しんでくるからね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomDeterminationPerBed1Stage1Dialogue1FaceNone" Value="かなり大きな病院のベッドだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomDeterminationPerBed1Stage1Dialogue2FaceNone" Value="たとえ身長２メートル超えの,ガタイのいい大人が寝ても,窮屈さは感じないだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomDeterminationPerBed1Stage3Dialogue1FaceTenshi" Value="お見舞いありがとうなのよ！,また来てくれると嬉しいのよ！" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue1FaceRin" Value="さとり　お客さんが来たよ！" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue2FaceSatori" Value="あら････,あなたはあのときの" Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue3FaceAlice" Value="こんにちは　さとりさん" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue4FaceSatori" Value="お見舞いに来てくれてありがとう,とっても嬉しいわ" Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue5FaceShanghai" Value="目が見えないのに,よくアリスだとわかったわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue6FaceSatori" Value="目が見えないからこそ,見えるものもあるんですよ" Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue7FaceRin" Value="大半はアタイが,サポートしてるんだけどね" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue8FaceSatori" Value="ええ　私のナビであるリンが,いなければ生活なんて,全然できないんですよ" Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue9FaceSatori" Value="けれど　今度の手術で,目が見えるようになるんです" Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue10FaceSatori" Value="こいしやリン　それとアリスさんの,お顔を早く見てみたいわ" Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage1Dialogue1FaceKoishi" Value="アリスさん！,この間はどーも！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage1Dialogue2FaceUtsuho" Value="うにゅー" Face="Utsuho" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue1FaceKoishi" Value="アリスさんこんにちは！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue2FaceAlice" Value="こいしちゃん　こんにちは,さとりちゃんは？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue3FaceKoishi" Value="お姉ちゃんなら,もう手術室だよ" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue4FaceAlice" Value="じゃあ　手術室の前で,終わるのを待ちましょうか" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue5FaceKoishi" Value="はーい！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue6FaceShanghai" Value="そういえば　あんたのナビは？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue7FaceKoishi" Value="ウツホならテレビの電脳で,遊んでるよ！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue8FaceKoishi" Value="あの子　静かに待つとか,そういうの苦手なんだ" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue9FaceShanghai" Value="ふーん････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf1Stage1Dialogue1FaceNone" Value="病室に備え付けられている,収納用のタンスだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf1Stage1Dialogue2FaceNone" Value="コーヒーメーカーや,カードを入れて見るタイプの,テレビも入っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf2Stage1Dialogue1FaceNone" Value="天子の私物が,いっぱい入っている" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf2Stage1Dialogue2FaceNone" Value="あまり触ると,怒られそうだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage1Dialogue1FaceNone" Value="う････ん････" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage1Dialogue2FaceNone" Value="お姉ちゃん！！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue1FaceSatoriSeeing" Value="これが････,目で見る光の世界なのね" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue2FaceKoishi" Value="ほら　お姉ちゃん！,私がこいしだよ！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue3FaceSatoriSeeing" Value="こいし････ふふっ,想像していたとおりの,かわいい顔をしていたのね" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue4FaceAlice" Value="さとりさん,よかったですね！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue5FaceSatoriSeeing" Value="アリスさん,いろいろとこいしが,お世話になったみたいですね" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue6FaceSatoriSeeing" Value="私からもお礼を言います,ほんとうにありがとうございました" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage5Dialogue1FaceEirin" Value="この調子なら少しすれば,ベッドから出られるはずよ" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage5Dialogue2FaceKoishi" Value="よかったー！,これでお家に一緒に,帰れるね！" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue1FaceNone" Value="こうして　さとりさんの手術を,巡る事件は幕を閉じた" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue2FaceNone" Value="ウツホは反省もしているし,ダークチップのこともあって,おとがめ無しとなった" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue3FaceNone" Value="これからこいしちゃんとウツホで,協力してさとりさんの暮らしを,サポートするんだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue4FaceNone" Value="そして････" Face="None" Mono="False" />
+  <!-- ウォォォン････口惜しや口惜しや････ -->
+  <Dialogue Key="Map.Hospital2fRoomHidingCharactersStage1Dialogue1FaceNaviBlackRobe" Value="ウォォォン････,口惜しや口惜しや････" Face="NaviBlackRobe" Mono="False" />
+  <!-- 必ずやこの力でわが怨敵に鉄槌を････ -->
+  <Dialogue Key="Map.Hospital2fRoomHidingCharactersStage1Dialogue2FaceNaviBlackRobe" Value="必ずやこの力で,わが怨敵に鉄槌を････" Face="NaviBlackRobe" Mono="False" />
+</data>

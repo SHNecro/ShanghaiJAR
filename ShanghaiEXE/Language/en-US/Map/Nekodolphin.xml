@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ねこどるふぃんの電脳 -->
+  <Text Key="Map.NekodolphinName" Value="Nekodolphin Comp" />
+  <!-- ココハ　ネコドルフィンノデンノウダ　ニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite1Stage1Dialogue1FaceSprite" Value="THIS IS THE NEKODOLPHIN,COMP!" Face="Sprite" Mono="False" />
+  <!-- ニュイ　トイウノハ　ネコノ「ニャー」ト　イルカノ　「キュイ」ヲアワセタ　モノナンデスヨ -->
+  <Dialogue Key="Map.NekodolphinSprite1Stage1Dialogue2FaceSprite" Value="IT’S A CROSS BETWEEN A,CAT AND A DOLPHIN!" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue1FaceSprite" Value="PUDDI PUDDI PUDDI PUDDI!" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue2FaceSprite" Value="PUDDI PUDDI PUDDI PUDDI!" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue3FaceSprite" Value="PUDDI PUDDI PUDDI PUDDI!" Face="Sprite" Mono="False" />
+  <!-- ニュイイイイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue4FaceSprite" Value="PUUUDDIIIIII!" Face="Sprite" Mono="False" />
+</data>

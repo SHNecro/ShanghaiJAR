@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.VendingMachineName" Value="Vending Machine Comp" />
+  <Dialogue Key="Map.VendingMachineSprite1Stage1Dialogue1FaceSprite" Value="HUMMMMMMMM!,DING!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite1Stage1Dialogue2FaceSprite" Value="SORRY! TRY AGAIN!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite2Stage1Dialogue1FaceSprite" Value="WE HAVE A LOT OF,COLORFUL HEALTH,DRINKS IN STOCK!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite2Stage1Dialogue2FaceSprite" Value="THEY SAY GOOD MEDICINE,TASTES BITTER，BUT...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite2Stage1Dialogue3FaceSprite" Value="NOBODY ’S BUYING THEM!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite3Stage1Dialogue1FaceSprite" Value="HUMMMMMMMM!,DING!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite3Stage1Dialogue2FaceSprite" Value="CONGRATULATIONS!,YOU’VE WON SOME,MOSQUITO REPELLANT!" Face="Sprite" Mono="False" />
+</data>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　エイエンエリア３ -->
+  <Text Key="Map.EienNet3Name" Value="Eien Area 3" />
+  <!-- 不気味な扉が道を塞いで通ることができない！ -->
+  <Dialogue Key="Map.EienNet3ROMGateStage1Dialogue1FaceNone" Value="An eerie door blocks the path.,I can’t go through!" Face="None" Mono="False" />
+  <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
+  <Dialogue Key="Map.EienNet3ROMGateStage3Dialogue1FaceNone" Value="Shanghai used:,”ROM-ID”!" Face="None" Mono="False" />
+  <!-- 不気味な扉が開いた！ -->
+  <Dialogue Key="Map.EienNet3ROMGateStage3Dialogue2FaceNone" Value="The eerie door opened!" Face="None" Mono="False" />
+  <!-- この先は危険なインターネットエリアにつながっているので -->
+  <Dialogue Key="Map.EienNet3Chapter3ManNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="This Area connects to a,dangerous Area further,down the road." Face="NaviBlueRobot" Mono="False" />
+  <!-- 進む際は覚悟してくださいね -->
+  <Dialogue Key="Map.EienNet3Chapter3ManNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="If you plan to go there，,please be prepared." Face="NaviBlueRobot" Mono="False" />
+  <!-- あら？あなたもウラインターネットに行くのかしら？ -->
+  <Dialogue Key="Map.EienNet3Chapter3GirlNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="Hmmm?,Are you going to the,Undernet too?" Face="NaviPurpleFemale" Mono="False" />
+  <!-- きっと････居心地いいわよウフフフフ････！ -->
+  <Dialogue Key="Map.EienNet3Chapter3GirlNavi1Stage1Dialogue2FaceNaviPurpleFemale" Value="I’m sure you’ll find it,quite cozy....,Ufufufufu....!" Face="NaviPurpleFemale" Mono="False" />
+  <!-- やっぱりオモテのエリアはヌルいのう！へっへっへへ！ -->
+  <Dialogue Key="Map.EienNet3Chapter3ManNavi1DupeStage1Dialogue1FaceNaviPurplePunk" Value="Just as I thought! You can get,away with a lot in this Area!,Hehehehe!" Face="NaviPurplePunk" Mono="False" />
+  <!-- コッカラ　サキハアブナイノデ　トオシチャ　ダメッテイワレテルノー！ -->
+  <Dialogue Key="Map.EienNet3Chapter3SpriteStage1Dialogue1FaceSprite" Value="IT’S DANGEROUS FROM,THIS POINT ON! I WON’T,LET YOU THROUGH!" Face="Sprite" Mono="False" />
+  <!-- コッカラ　サキハアブナイノデ　トオシチャ　ダメッテイワレテルノー！ -->
+  <Dialogue Key="Map.EienNet3Chapter3SpriteStage3Dialogue1FaceSprite" Value="IT’S DANGEROUS FROM,THIS POINT ON! I WON’T,LET YOU THROUGH!" Face="Sprite" Mono="False" />
+  <!-- イワレテルノニートオッチャイマス？ -->
+  <Dialogue Key="Map.EienNet3Chapter3SpriteStage3Dialogue2FaceSprite" Value="YOU STILL WANT TO PASS,THROUGH，EVEN AFTER I,WARNED YOU?" Face="Sprite" Mono="False" />
+  <!-- ボーダーコンツェルンがＮ１リーグを開く理由って知ってるかしら？ -->
+  <Dialogue Key="Map.EienNet3Chapter4GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="Do you know why Border,Concern is hosting the,N1 League?" Face="NaviPinkFemale" Mono="False" />
+  <!-- ネットバトルマシンを大会で宣伝するからなんですって！ -->
+  <Dialogue Key="Map.EienNet3Chapter4GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="The tournament is a promotion,for their NetBattle Machines!" Face="NaviPinkFemale" Mono="False" />
+  <!-- Ｎ１リーグの関係者がこの辺りを歩きまわってたよ -->
+  <Dialogue Key="Map.EienNet3Chapter4MaleNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="I just saw some N1 League,officials walking around here." Face="NaviOrangeMale" Mono="False" />
+  <!-- さすがにスタッフはウラインターネットの近くにはいないよなあ････ -->
+  <Dialogue Key="Map.EienNet3Chapter4MaleNavi2Stage1Dialogue1FaceNaviPurplePunk" Value="As expected，the staff,members aren’t anywhere,near the Undernet...." Face="NaviPurplePunk" Mono="False" />
+  <!-- Ｎ１リーグの参加者ですね私は予選担当のスタッフです -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue1FaceMsAsakuraNavi" Value="Ah，an N1 League entrant.,I’m one of the qualifier staff,members." Face="MsAsakuraNavi" Mono="False" />
+  <!-- ････おや？あなたは････ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue2FaceMsAsakuraNavi" Value="....Oh?,You’re...." Face="MsAsakuraNavi" Mono="False" />
+  <!-- もしかして　神綺さん？ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue3FaceMsAsakura" Value="Isn’t that....Alice?" Face="MsAsakura" Mono="False" />
+  <!-- 朝倉先生！？ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue4FaceAlice" Value="Ms. Asakura!?" Face="Alice" Mono="False" />
+  <!-- 神綺さん　Ｎ１リーグに参加していたのね -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue5FaceMsAsakura" Value="So you entered the,N1 League?" Face="MsAsakura" Mono="False" />
+  <!-- 先生はどうして？ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue6FaceAlice" Value="What are you doing here?" Face="Alice" Mono="False" />
+  <!-- ボーダーコンツェルンに知り合いがいてお手伝いしてるのよ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue7FaceMsAsakura" Value="I’m helping out an,acquaintance who works,for Border Concern." Face="MsAsakura" Mono="False" />
+  <!-- そんなことはいいからさっさと戦わせてよ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue8FaceShanghai" Value="That’s great and all，but,let’s get on with the fight." Face="Shanghai" Mono="False" />
+  <!-- ････それもそうですね -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue9FaceMsAsakuraNavi" Value="....Fair enough." Face="MsAsakuraNavi" Mono="False" />
+  <!-- 今から３連戦を行いますがよろしいですか？ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue10QuestionFaceMsAsakuraNavi" Value="You must fight 3 battles,in a row. Are you ready?" Face="MsAsakuraNavi" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienNet3Chapter4N1Staff4Stage1Dialogue10Options" Value="Yes,No" />
+  <Text Key="Map.EienNet3Chapter4N1Staff4Battle3Enemy1" Value="TchrNavi" />
+  <!-- おめでとうございます -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage3Dialogue1FaceMsAsakuraNavi" Value="Congratulations!" Face="MsAsakuraNavi" Mono="False" />
+  <!-- これでスタッフを４人とも倒したわよ！ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage3Dialogue2FaceShanghai" Value="With that，I’ve defeated all,four staff members!" Face="Shanghai" Mono="False" />
+  <!-- エイエンスクエアに戻って報告をしましょう！ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage3Dialogue3FaceAlice" Value="Let’s report back to,Eien Square!" Face="Alice" Mono="False" />
+  <!-- 私の他にもまだスタッフは残っていますので探してくださいね -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage5Dialogue1FaceMsAsakuraNavi" Value="There are still some staff,members remaining.,Please look for them." Face="MsAsakuraNavi" Mono="False" />
+  <!-- 神綺さん　頑張ってね！ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage5Dialogue2FaceMsAsakura" Value="Give it your all，Alice!" Face="MsAsakura" Mono="False" />
+  <!-- はい！ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage5Dialogue3FaceAlice" Value="Will do!" Face="Alice" Mono="False" />
+  <!-- 私の他にもまだスタッフはいます探してみてください -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage7Dialogue1FaceMsAsakuraNavi" Value="There are still some staff,members remaining.,Please try to find them." Face="MsAsakuraNavi" Mono="False" />
+  <!-- 神綺さん　頑張ってね！ -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage7Dialogue2FaceMsAsakura" Value="Give it your all，Alice!" Face="MsAsakura" Mono="False" />
+  <!-- エイエンスクエアで報告すれば予選突破となりますお急ぎください -->
+  <Dialogue Key="Map.EienNet3Chapter4N1Staff4Stage9Dialogue1FaceMsAsakuraNavi" Value="Please hurry back to,Eien Square so you can,pass the qualifiers." Face="MsAsakuraNavi" Mono="False" />
+  <!-- オホホホ！わたくしの力を見て正気でいられるかしら！ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage1Dialogue1FaceNaviBlackRobe" Value="Ohohoho!,Don’t go mad after seeing my,power!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.EienNet3BlackRobe3Battle1Enemy1" Value="????" />
+  <!-- ････ふうエイエンエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage3Dialogue1FaceShanghai" Value="....Looks like that’s everyone in,Eien Area." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue1FaceShanghai" Value="Alice，a phone call!,From Reisen!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue2FaceAlice" Value="Reisen! I’ve taken out the black,Navis in the Areas!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue3FaceReisen" Value="Confirmed. Your assistance is,appreciated." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue4FaceReisen" Value="Reports are coming in that they,emerged from the deepest,parts of the Undernet." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue5FaceReisen" Value="Sources in the Undernet claim,that they are not inhabitants，,but rather appeared suddenly." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue6FaceReisen" Value="It pains me to ask，but can you,investigate their origins?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue7FaceShanghai" Value="The Deep Undernet...." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue8FaceAlice" Value="Are you alright，Shanghai?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue9FaceShanghai" Value="It’s nothing.,Just the nerve of those guys!" Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue10FaceShanghai" Value="We’ll wipe them out!" Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue11FaceReisen" Value="Our thanks." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue12FaceReisen" Value="If you want a reward，contact,the NetAgents after this is over." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue13FaceShanghai" Value="We’ll hunt these guys down in,no time flat!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue14FaceAlice" Value="....Will we be okay in the Deep,Undernet?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue15FaceShanghai" Value="What are you talking about?,We’re invincible wherever we,go!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.EienNet3BlackRobe3Stage5Dialogue16FaceAlice" Value="....Yeah!,To the Deep Undernet!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.EienNet3PostGameBystander1Dialogue1" Value="I wonder if I can grow,CyberBamboo on these,floors...." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.EienNet3PostGameBystander2Dialogue1" Value="I’m here to catch a virus found,only in this Area." Face="NaviPurpleHeel" Mono="False" />
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン本社　廊下 -->
+  <Text Key="Map.Company1Name" Value="Border Concern HQ Corridor" />
+  <!-- あ　あのロボット銃を持ってる！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage1Dialogue1FaceAlice" Value="Guns?!" Face="Alice" Mono="False" />
+  <!-- 鈴仙　どうしたら････って -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue1FaceAlice" Value="Reisen，what am I supposed to,do here?!" Face="Alice" Mono="False" />
+  <!-- 何を持ってるの！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue2FaceAlice" Value="And where did that come from?!" Face="Alice" Mono="False" />
+  <!-- 狙い良し････くらえっ！！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue3FaceReisen" Value="Is this your first shootout?" Face="Reisen" Mono="False" />
+  <!-- この手に限る -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue1FaceReisen" Value="Those appear to be low-caliber,firearms. Without cover，the,best strategy is to--" Face="Reisen" Mono="False" />
+  <!-- 何をしてるの！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue2FaceAlice" Value="Forget about the guns!,What are you doing?!" Face="Alice" Mono="False" />
+  <!-- 「ATM-78小型ロケット砲」小さなパーツを組み立てて使う携帯性の高い････ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue3FaceReisen" Value="The ATM-78 Personal Rocket,Artillery is highly portable and,capable of being disassemb--" Face="Reisen" Mono="False" />
+  <!-- そうじゃなくて！！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue4FaceAlice" Value="Argh!" Face="Alice" Mono="False" />
+  <!-- あーもー････いちいちツッコむのもバカバカしくなってきた -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue5FaceAlice" Value="Oh well...." Face="Alice" Mono="False" />
+  <!-- ひるんでいる暇はないぞこの先がエレベータールームだ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue6FaceReisen" Value="We will have little time once,we reach the elevator room." Face="Reisen" Mono="False" />
+  <!-- はいはい････シャンハイも頑張ろうね -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue7FaceAlice" Value="Yes....,I’ll do my best." Face="Alice" Mono="False" />
+  <!-- はーい！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue8FaceShanghai" Value="Yeah!" Face="Shanghai" Mono="False" />
+</data>

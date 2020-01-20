@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.UsakouName" Value="ウサ公の像の電脳" />
+  <Dialogue Key="Map.UsakouSprite1Stage1Dialogue1FaceSprite" Value="ウサコウノ　モノガタリハ,エイエンチョウデハ,ポピュラーデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UsakouSprite1Stage1Dialogue2FaceSprite" Value="ダカラ　エイエンチョウデハ,ウサギガ　トレードマークトシテ,アツカワレテルンデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage1Dialogue1FaceNaviPurplePunk" Value="ここ　アドオン売ってるある" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage1Dialogue2QuestionFaceNaviPurplePunk" Value="アドオン買うあるか？" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.UsakouAdd-onMerchantStage1Dialogue2Options" Value="はい,いいえ" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage2Dialogue1FaceNaviPurplePunk" Value="また来るよろしネ" Face="NaviPurplePunk" Mono="False" />
+</data>

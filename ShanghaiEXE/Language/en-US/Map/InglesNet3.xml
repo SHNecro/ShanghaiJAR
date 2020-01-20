@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.InglesNet3Name" Value="Engelles Area 3" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="Hey，little girl....,You have a pretty dark aura,about you，huh?" Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="Why not fight some viruses,I raised? If you win，I’ll give,you a Dark Chip." Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="Of course，you’ll be putting,your life on the line...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="Will you fight my viruses?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.InglesNet3DarkSellerStage1Dialogue4Options" Value="Let’s do it!,On second thought...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="Tch....,Getting cold feet?" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="Alright，let’s go!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="You won! Not bad〜!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="Here you go，as promised!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="I lost to you. I have no right,to say anything else." Face="NaviBlackHeel" Mono="False" />
+</data>
