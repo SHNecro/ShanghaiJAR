@@ -50,5 +50,7 @@
         ChargeHit = 45,
         AliceBedSilent = 46,
         FireballSilent = 47,
+        KeystoneUnlock = 48,
+        PetalBreeze = 49,
     }
 }

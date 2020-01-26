@@ -373,6 +373,8 @@
     <Compile Include="Common\Face.cs" />
     <Compile Include="Common\FaceId.cs" />
     <Compile Include="Common\VariableArray.cs" />
+    <Compile Include="Effect\KeystoneUnlock.cs" />
+    <Compile Include="Effect\PetalBreeze.cs" />
     <Compile Include="Effect\KikuriFade.cs" />
     <Compile Include="Effect\DruidManFlinch.cs" />
     <Compile Include="Effect\StepShadowYuyu.cs" />
