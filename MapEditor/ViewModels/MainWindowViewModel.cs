@@ -290,6 +290,8 @@ namespace MapEditor.ViewModels
         public ICommand UnpackTCDCommand => new RelayCommand(this.UnpackTCD);
         public ICommand PackTCDCommand => new RelayCommand(this.PackTCD);
 
+        public ICommand DebuggerHookCommand => new RelayCommand(this.DebuggerHook);
+
         public static Map GetCurrentMap() => MainWindowViewModel.currentMap;
 
         public static MainWindowViewModel GetInstance()
@@ -656,6 +658,11 @@ namespace MapEditor.ViewModels
                         this.Progress = progress;
                 });
             }
+        }
+
+        public void DebuggerHook()
+        {
+            DebuggerHookWindow.ShowWindow();
         }
     }
 }

@@ -91,6 +91,11 @@ namespace MapEditor.Models
         {
             get
             {
+                if (this.ShopType != (int)ShopTypeNumber.Chips)
+                {
+                    return null;
+                }
+
                 return new Chip { ID = this.ID, CodeNumber = this.Data };
             }
 
