@@ -70,6 +70,8 @@ namespace MapEditor.ViewModels
 
         private void DumpChips()
         {
+            var emptyList = new List<Chip>();
+
             var gmdChips = this.allMaps
                 .SelectMany(m => m.RandomMysteryData.RandomMysteryData
                     .Select(gmd => gmd.Chip)
@@ -78,8 +80,13 @@ namespace MapEditor.ViewModels
             var virusChips = this.allMaps
                 .SelectMany(m => m.RandomEncounters.RandomEncounters
                     .SelectMany(re => re.Enemies
-                        .SelectMany(e => new[] { e.Chip1, e.Chip2, e.Chip3, e.Chip4, e.Chip5 })
-                .Select(c => Tuple.Create(c, m.Header.TitleKey, "Encounter"))))
+                        .SelectMany(e => new[] { e.Chip1, e.Chip2, e.Chip3, e.Chip4, e.Chip5 }
+                            .Concat(e.Chip1?.RandomAlternatives ?? emptyList)
+                            .Concat(e.Chip2?.RandomAlternatives ?? emptyList)
+                            .Concat(e.Chip3?.RandomAlternatives ?? emptyList)
+                            .Concat(e.Chip4?.RandomAlternatives ?? emptyList)
+                            .Concat(e.Chip5?.RandomAlternatives ?? emptyList))
+                .Select(c => Tuple.Create(c, m.Header.TitleKey, "Encounter" + ((c?.IsRandom ?? false) ? $" ({c.RandomChance * 100}%)" : string.Empty)))))
                 .Where(c => c.Item1 != null).ToArray();
             var bmdpmdChips = this.allMaps
                 .SelectMany(m => m.MapObjects.MapObjects
@@ -94,8 +101,13 @@ namespace MapEditor.ViewModels
                             .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.Battle)
                             .Where(me => (me.Instance as BattleEvent).Encounter.IsChipDropped)
                             .SelectMany(me => (me.Instance as BattleEvent).Encounter.Enemies
-                                .SelectMany(e => new[] { e.Chip1, e.Chip2, e.Chip3, e.Chip4, e.Chip5 })
-                .Select(c => Tuple.Create(c, m.Header.TitleKey, "Scripted Encounter"))))))
+                                .SelectMany(e => new[] { e.Chip1, e.Chip2, e.Chip3, e.Chip4, e.Chip5 }
+                                    .Concat(e.Chip1?.RandomAlternatives ?? emptyList)
+                                    .Concat(e.Chip2?.RandomAlternatives ?? emptyList)
+                                    .Concat(e.Chip3?.RandomAlternatives ?? emptyList)
+                                    .Concat(e.Chip4?.RandomAlternatives ?? emptyList)
+                                    .Concat(e.Chip5?.RandomAlternatives ?? emptyList))
+                .Select(c => Tuple.Create(c, m.Header.TitleKey, "Scripted Encounter" + ((c?.IsRandom ?? false) ? $" ({c.RandomChance * 100}%)" : string.Empty)))))))
                 .Where(c => c.Item1 != null).ToArray();
             var givenChipGetChips = this.allMaps
                 .SelectMany(m => m.MapObjects.MapObjects

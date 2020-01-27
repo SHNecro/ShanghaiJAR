@@ -88,7 +88,51 @@ namespace MapEditor.Models.Elements
                 Console.WriteLine($"{e.GetType().ToString()}: {e.Message}");
             }
 
-            definition.Chips = enemyMade.dropchips.Select(c => new Chip { ID = c.chip.number, CodeNumber = c.codeNo }).ToArray();
+            var chipChecks = 100;
+            var chipOccurances = new Dictionary<int, Chip>();
+            for (int i = 0; i < chipChecks; i++)
+            {
+                var chipCheckEnemy = EnemyBase.EnemyMake(id, enemyBase, false);
+                var chips = chipCheckEnemy.dropchips.Select(c => new Chip { ID = c.chip.number, CodeNumber = c.codeNo }).ToArray();
+                for (int ii = 0; ii < chips.Length; ii++)
+                {
+                    if (chipOccurances.ContainsKey(ii))
+                    {
+                        if (chipOccurances[ii].ID == chips[ii].ID && chipOccurances[ii].CodeNumber == chips[ii].CodeNumber)
+                        {
+                            chipOccurances[ii].RandomChance += 1.0 / chipChecks;
+                        }
+                        else
+                        {
+                            if (chipOccurances[ii].RandomAlternatives == null)
+                            {
+                                chipOccurances[ii].RandomAlternatives = new List<Chip>();
+                            }
+
+                            chipOccurances[ii].IsRandom = true;
+                            var alternateChip = chipOccurances[ii].RandomAlternatives.FirstOrDefault(c => c.ID == chips[ii].ID && c.CodeNumber == chips[ii].CodeNumber);
+                            if (alternateChip == null)
+                            {
+                                alternateChip = chips[ii];
+                                chipOccurances[ii].RandomAlternatives.ForEach(c => c.RandomAlternatives.Add(alternateChip));
+                                alternateChip.RandomAlternatives = new List<Chip>();
+                                alternateChip.RandomAlternatives.Add(chipOccurances[ii]);
+                                alternateChip.RandomAlternatives.AddRange(chipOccurances[ii].RandomAlternatives);
+                                chipOccurances[ii].RandomAlternatives.Add(alternateChip);
+                            }
+
+                            alternateChip.IsRandom = true;
+                            alternateChip.RandomChance += 1.0 / chipChecks;
+                        }
+                    }
+                    else
+                    {
+                        chipOccurances[ii] = chips[ii];
+                    }
+                }
+            }
+
+            definition.Chips = chipOccurances.Values.ToArray();
             definition.HP = enemyMade.Hp;
             if (id == Constants.NormalNaviID)
             {
