@@ -150,7 +150,7 @@ namespace MapEditor.Models.Elements.Events
             var newPriceTypeNumber = this.ParseIntOrAddError(entries[6]);
             this.ParseEnumOrAddError<ShopPriceTypeNumber>(entries[6]);
 
-            var newShopItems = new ShopItemCollection { StringValue = string.Join(":", entries.Skip(7)), ShopType = newShopTypeNumber };
+            var newShopItems = new ShopItemCollection { StringValue = string.Join(":", entries.Skip(7)), ShopType = newShopTypeNumber, PriceType = newPriceTypeNumber };
             this.AddChildErrors(null, new[] { newShopItems });
 
             if (!this.HasErrors)

@@ -108,7 +108,7 @@ namespace MapEditor.Models
 
 		protected override void SetStringValue(string value)
 		{
-			var newShopItems = value.Split(':').Where(ms => !string.IsNullOrEmpty(ms)).Select(ms => new ShopItem { StringValue = ms, ShopType = this.ShopType }).ToList();
+			var newShopItems = value.Split(':').Where(ms => !string.IsNullOrEmpty(ms)).Select(ms => new ShopItem { StringValue = ms, ShopType = this.ShopType, PriceType = this.PriceType }).ToList();
 			this.AddChildErrors("ShopItems", newShopItems);
 
 			if (!this.HasErrors)

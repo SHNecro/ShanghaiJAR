@@ -2,6 +2,7 @@
 using MapEditor.Core;
 using MapEditor.Core.Converters;
 using MapEditor.Models;
+using MapEditor.Models.Elements;
 using MapEditor.Models.Elements.Enums;
 using MapEditor.Models.Elements.Events;
 using Microsoft.WindowsAPICodePack.Dialogs;
@@ -212,7 +213,78 @@ namespace MapEditor.ViewModels
 
         private string DumpAddOns()
         {
-            return "";
+            var emptyList = new List<Chip>();
+
+            var bmdpmdAddOns = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .OfType<MapMystery>()
+                    .Where(mm => mm.BaseMystery.Category == 2 && mm.Type != 0)
+                    .Select(mm => Tuple.Create(mm.Type, Tuple.Create(mm.BaseMystery.ID, mm.BaseMystery.Data)))
+                .Select(tup => Tuple.Create(m.Header.TitleKey, new[] { "GMD", "BMD", "PMD" }[tup.Item1], tup.Item2)))
+                .ToArray();
+            var givenItemGetAddOns = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.ItemGet)
+                            .Select(me => (me.Instance as ItemGetEvent).Mystery)
+                    .Where(rm => rm.Category == 2)
+                    .Select(rm => Tuple.Create(rm.ID, rm.Data))
+                .Select(tup => Tuple.Create(m.Header.TitleKey, "Scripted Event (ItemGet)", tup)))))
+                .ToArray();
+            var shopAddOns = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.Shop)
+                            .Where(me => (me.Instance as ShopEvent).ShopTypeNumber == 2)
+                            .SelectMany(me => (me.Instance as ShopEvent).ShopItems.ShopItems
+                                .Select(si =>
+                                {
+                                    var priceTypeString = (new EnumDescriptionTypeConverter(typeof(ShopPriceTypeNumber))).ConvertToString((ShopPriceTypeNumber)si.PriceType);
+                                    var shopInfo = $"{si.Price} {priceTypeString}";
+                                    var stockString = si.Stock == 0 ? string.Empty : $" (x{si.Stock})";
+                                    shopInfo += stockString;
+                                    return Tuple.Create(shopInfo, Tuple.Create(si.ID, si.Data));
+                                })))
+                .Select(tup => Tuple.Create(m.Header.TitleKey, $"Shop: {tup.Item1}", tup.Item2))))
+                .ToArray();
+
+            var allAccessibleAddOns = new[] { bmdpmdAddOns, givenItemGetAddOns, shopAddOns }.SelectMany(tup => tup)
+                .Where(tup => tup.Item1 != "Map.ExOmakeName");
+
+            Func<int, string> intToAddOnColorAction = (i) => (new EnumDescriptionTypeConverter(typeof(ProgramColorTypeNumber))).ConvertToString((ProgramColorTypeNumber)i);
+            var addOnIDToAddOnDefinitionConverter = new AddOnIDToAddOnDefinitionConverter();
+            Func<Tuple<int, int>, string> addOnToString = (tup) =>
+            {
+                var definition = addOnIDToAddOnDefinitionConverter.Convert(tup.Item1, null, null, null) as AddOnDefinition;
+                if (definition == null)
+                {
+                    return null;
+                }
+
+                return $"{definition.Name} {intToAddOnColorAction(tup.Item2)}";
+            };
+            var accessibleAddOnStrings = allAccessibleAddOns.Select(a => $"{Constants.TranslationService.Translate(a.Item1).Text}\t{a.Item2}\t{addOnToString(a.Item3)}");
+
+            var contents = string.Join("\n", accessibleAddOnStrings);
+
+            var everyAddOnName = Constants.AddOnDefinitions.Values.Select(a => a.Name);
+            var inaccessibleAddOns = everyAddOnName.Where(a => !accessibleAddOnStrings.Any(aa => aa.Contains(a)));
+
+            var duplicateAddOns = allAccessibleAddOns
+                .Where(a => a.Item3.Item2 != 0)
+                .GroupBy(a => addOnToString(a.Item3))
+                .Where(gr => gr.Count() > 1)
+                .Select(gr => string.Join("\n-", gr.Select(a => $"{Constants.TranslationService.Translate(a.Item1).Text}\t{a.Item2}\t{addOnToString(a.Item3)}")));
+
+            contents += "\n\nDuplicate addons:\n";
+            contents += string.Join("\n", duplicateAddOns);
+
+            contents += "\n\nInaccessible addons w/o Demo Room:\n";
+            contents += string.Join("\n", inaccessibleAddOns);
+
+            return contents;
         }
 
         private Map LoadMap(string fileName, bool decode)
