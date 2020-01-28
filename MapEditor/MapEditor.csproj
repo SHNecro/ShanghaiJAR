@@ -175,6 +175,7 @@
     <Compile Include="Controls\WheelCaptureIntegerUpDown.xaml.cs">
       <DependentUpon>WheelCaptureIntegerUpDown.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Core\Converters\ChipToChipChancesConverter.cs" />
     <Compile Include="Core\SettingsWindow.cs" />
     <Compile Include="Core\Behaviors\AutoScrollBehavior.cs" />
     <Compile Include="Core\Settings.cs" />

@@ -25,6 +25,7 @@
                 <converters:EnumIntegerValueConverter />
                 <converters:ObjectEqualityBooleanConverter />
             </converters:ConverterGroup>
+            <converters:ChipToChipChancesConverter x:Key="ChipToChipChancesConverter" />
             
             <FrameworkElement x:Key="EncounterProxyElement" DataContext="{Binding}"/>
         </ResourceDictionary>
@@ -340,7 +341,9 @@
                                         <TextBlock Grid.Column="0" Text="S:" />
                                         <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                  SelectedItem="{Binding Chip5, Converter={StaticResource ChipToChipDefinitionConverter}}">
+                                                  SelectedItem="{Binding Chip5, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                  ToolTip="{Binding Chip5, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                  ToolTipService.ShowOnDisabled="True">
                                             <ComboBox.ItemTemplate>
                                                 <DataTemplate>
                                                     <StackPanel Orientation="Horizontal">
@@ -352,6 +355,18 @@
                                                                     <Binding Path="DataContext.Chip5.CodeNumber" RelativeSource="{RelativeSource AncestorType=ComboBox}"/>
                                                                 </MultiBinding>
                                                             </TextBlock.Text>
+                                                        </TextBlock>
+                                                        <TextBlock Text="(+others, hover)" Margin="10,0,0,0">
+                                                            <TextBlock.Style>
+                                                                <Style TargetType="TextBlock">
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding DataContext.Chip5.IsRandom, RelativeSource={RelativeSource AncestorType=ComboBox}}" Value="True">
+                                                                            <Setter Property="Visibility" Value="Visible" />
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                                </Style>
+                                                            </TextBlock.Style>
                                                         </TextBlock>
                                                     </StackPanel>
                                                 </DataTemplate>
@@ -366,7 +381,9 @@
                                         <TextBlock Grid.Column="0" Text="10,9:" />
                                         <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                  SelectedItem="{Binding Chip4, Converter={StaticResource ChipToChipDefinitionConverter}}">
+                                                  SelectedItem="{Binding Chip4, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                  ToolTip="{Binding Chip4, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                  ToolTipService.ShowOnDisabled="True">
                                             <ComboBox.ItemTemplate>
                                                 <DataTemplate>
                                                     <StackPanel Orientation="Horizontal">
@@ -378,6 +395,18 @@
                                                                     <Binding Path="DataContext.Chip4.CodeNumber" RelativeSource="{RelativeSource AncestorType=ComboBox}"/>
                                                                 </MultiBinding>
                                                             </TextBlock.Text>
+                                                        </TextBlock>
+                                                        <TextBlock Text="(+others, hover)" Margin="10,0,0,0">
+                                                            <TextBlock.Style>
+                                                                <Style TargetType="TextBlock">
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding DataContext.Chip4.IsRandom, RelativeSource={RelativeSource AncestorType=ComboBox}}" Value="True">
+                                                                            <Setter Property="Visibility" Value="Visible" />
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                                </Style>
+                                                            </TextBlock.Style>
                                                         </TextBlock>
                                                     </StackPanel>
                                                 </DataTemplate>
@@ -392,7 +421,9 @@
                                         <TextBlock Grid.Column="0" Text="8,7:"/>
                                         <ComboBox Grid.Column="1"
                                                   ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                  SelectedItem="{Binding Chip3, Converter={StaticResource ChipToChipDefinitionConverter}}">
+                                                  SelectedItem="{Binding Chip3, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                  ToolTip="{Binding Chip3, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                  ToolTipService.ShowOnDisabled="True">
                                             <ComboBox.ItemTemplate>
                                                 <DataTemplate>
                                                     <StackPanel Orientation="Horizontal">
@@ -404,6 +435,18 @@
                                                                     <Binding Path="DataContext.Chip3.CodeNumber" RelativeSource="{RelativeSource AncestorType=ComboBox}"/>
                                                                 </MultiBinding>
                                                             </TextBlock.Text>
+                                                        </TextBlock>
+                                                        <TextBlock Text="(+others, hover)" Margin="10,0,0,0">
+                                                            <TextBlock.Style>
+                                                                <Style TargetType="TextBlock">
+                                                                    <Style.Triggers>
+                                                                        <DataTrigger Binding="{Binding DataContext.Chip3.IsRandom, RelativeSource={RelativeSource AncestorType=ComboBox}}" Value="True">
+                                                                            <Setter Property="Visibility" Value="Visible" />
+                                                                        </DataTrigger>
+                                                                    </Style.Triggers>
+                                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                                </Style>
+                                                            </TextBlock.Style>
                                                         </TextBlock>
                                                     </StackPanel>
                                                 </DataTemplate>
@@ -440,7 +483,9 @@
                                             </TextBlock>
                                             <ComboBox Grid.Column="1"
                                                       ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                      SelectedItem="{Binding Chip2, Converter={StaticResource ChipToChipDefinitionConverter}}">
+                                                      SelectedItem="{Binding Chip2, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                      ToolTip="{Binding Chip2, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                      ToolTipService.ShowOnDisabled="True">
                                                 <ComboBox.ItemTemplate>
                                                     <DataTemplate>
                                                         <StackPanel Orientation="Horizontal">
@@ -452,6 +497,18 @@
                                                                         <Binding Path="DataContext.Chip2.CodeNumber" RelativeSource="{RelativeSource AncestorType=ComboBox}"/>
                                                                     </MultiBinding>
                                                                 </TextBlock.Text>
+                                                            </TextBlock>
+                                                            <TextBlock Text="(+others, hover)" Margin="10,0,0,0">
+                                                                <TextBlock.Style>
+                                                                    <Style TargetType="TextBlock">
+                                                                        <Style.Triggers>
+                                                                            <DataTrigger Binding="{Binding DataContext.Chip2.IsRandom, RelativeSource={RelativeSource AncestorType=ComboBox}}" Value="True">
+                                                                                <Setter Property="Visibility" Value="Visible" />
+                                                                            </DataTrigger>
+                                                                        </Style.Triggers>
+                                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                                    </Style>
+                                                                </TextBlock.Style>
                                                             </TextBlock>
                                                         </StackPanel>
                                                     </DataTemplate>
@@ -478,7 +535,9 @@
                                             </TextBlock>
                                             <ComboBox Grid.Column="1"
                                                       ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                      SelectedItem="{Binding Chip1, Converter={StaticResource ChipToChipDefinitionConverter}}">
+                                                      SelectedItem="{Binding Chip1, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                      ToolTip="{Binding Chip1, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                      ToolTipService.ShowOnDisabled="True">
                                                 <ComboBox.ItemTemplate>
                                                     <DataTemplate>
                                                         <StackPanel Orientation="Horizontal">
@@ -490,6 +549,18 @@
                                                                         <Binding Path="DataContext.Chip1.CodeNumber" RelativeSource="{RelativeSource AncestorType=ComboBox}"/>
                                                                     </MultiBinding>
                                                                 </TextBlock.Text>
+                                                            </TextBlock>
+                                                            <TextBlock Text="(+others, hover)" Margin="10,0,0,0">
+                                                                <TextBlock.Style>
+                                                                    <Style TargetType="TextBlock">
+                                                                        <Style.Triggers>
+                                                                            <DataTrigger Binding="{Binding DataContext.Chip1.IsRandom, RelativeSource={RelativeSource AncestorType=ComboBox}}" Value="True">
+                                                                                <Setter Property="Visibility" Value="Visible" />
+                                                                            </DataTrigger>
+                                                                        </Style.Triggers>
+                                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                                    </Style>
+                                                                </TextBlock.Style>
                                                             </TextBlock>
                                                         </StackPanel>
                                                     </DataTemplate>
