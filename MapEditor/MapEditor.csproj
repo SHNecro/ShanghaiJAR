@@ -202,7 +202,7 @@
     <Compile Include="Core\MapSelectionWindow.cs" />
     <Compile Include="Core\AddEditTranslationWindow.cs" />
     <Compile Include="Core\TextureLoadProgressWindow.cs" />
-    <Compile Include="Core\DebuggerHookWindow.cs" />
+    <Compile Include="Core\DataDumpWindow.cs" />
     <Compile Include="ExtensionMethods\StringExtensionMethods.cs" />
     <Compile Include="LoadingWindow.xaml.cs">
       <DependentUpon>LoadingWindow.xaml</DependentUpon>
@@ -342,7 +342,7 @@
     <Compile Include="ViewModels\AddEditTranslationWindowViewModel.cs" />
     <Compile Include="ViewModels\SpriteSelectionWindowViewModel.cs" />
     <Compile Include="ViewModels\MapSelectionWindowViewModel.cs" />
-    <Compile Include="ViewModels\DebuggerHookWindowViewModel.cs" />
+    <Compile Include="ViewModels\DataDumpWindowViewModel.cs" />
     <Compile Include="ViewModels\TranslationKeySelectionWindowViewModel.cs" />
     <Compile Include="Views\SettingsWindowView.xaml.cs">
       <DependentUpon>SettingsWindowView.xaml</DependentUpon>
@@ -368,8 +368,8 @@
     <Compile Include="Views\TextureLoadProgressWindowView.xaml.cs">
       <DependentUpon>TextureLoadProgressWindowView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DebuggerHookWindowView.xaml.cs">
-      <DependentUpon>DebuggerHookWindowView.xaml</DependentUpon>
+    <Compile Include="Views\DataDumpWindowView.xaml.cs">
+      <DependentUpon>DataDumpWindowView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TranslationKeySelectionWindowView.xaml.cs">
       <DependentUpon>TranslationKeySelectionWindowView.xaml</DependentUpon>
@@ -702,7 +702,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\DebuggerHookWindowView.xaml">
+    <Page Include="Views\DataDumpWindowView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

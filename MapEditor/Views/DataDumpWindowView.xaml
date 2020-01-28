@@ -1,4 +1,4 @@
-﻿<Window x:Class="MapEditor.Views.DebuggerHookWindowView"
+﻿<Window x:Class="MapEditor.Views.DataDumpWindowView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,7 +9,7 @@
         xmlns:controls="clr-namespace:MapEditor.Controls"
         xmlns:common="clr-namespace:Common;assembly=ShanghaiEXE"
         mc:Ignorable="d"
-        Title="Debugging" Height="400" Width="400">
+        Title="Data Dump" Height="400" Width="400">
     <Grid Margin="25">
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
             <Grid>
@@ -24,8 +24,9 @@
             </Grid>
             <ComboBox SelectedIndex="0" SelectedValue="{Binding Operation, Mode=OneWayToSource}" SelectedValuePath="Content">
                 <ComboBoxItem Content="Chips" />
+                <ComboBoxItem Content="AddOns" />
             </ComboBox>
-            <Button Content="Dump to file" Command="{Binding BreakpointCommand}" />
+            <Button Content="Dump to file" Command="{Binding DumpCommand}" />
         </StackPanel>
     </Grid>
 </Window>

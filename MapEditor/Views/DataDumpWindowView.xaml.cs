@@ -3,11 +3,11 @@
 namespace MapEditor.Views
 {
     /// <summary>
-    /// Interaction logic for DebuggerHookWindowView.xaml
+    /// Interaction logic for DataDumpWindowView.xaml
     /// </summary>
-    public partial class DebuggerHookWindowView : Window
+    public partial class DataDumpWindowView : Window
     {
-        public DebuggerHookWindowView()
+        public DataDumpWindowView()
         {
             InitializeComponent();
         }

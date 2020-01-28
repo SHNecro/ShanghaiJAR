@@ -662,7 +662,7 @@ namespace MapEditor.ViewModels
 
         public void DebuggerHook()
         {
-            DebuggerHookWindow.ShowWindow();
+            DataDumpWindow.ShowWindow();
         }
     }
 }
