@@ -17,7 +17,7 @@ namespace MapEditor.Core
         public string GraphicsResourceFileFormat { get; set; } = "{0}.png";
 
         public int EnemyCount { get; set; } = 85;
-        public int ChipCount { get; set; } = 430;
+        public int ChipCount { get; set; } = 431;
         public int AddOnCount { get; set; } = 95;
         public int InteriorCount { get; set; } = 51;
         public int BackgroundCount { get; set; } = 39;
