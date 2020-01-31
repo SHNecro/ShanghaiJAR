@@ -348,7 +348,7 @@
     <None Include="SampleGame\SlimDX.cs" />
     <Compile Include="Attack\Butterfly.cs" />
     <Compile Include="Attack\ButterflyHoc.cs" />
-    <Compile Include="Attack\DarkFlae.cs" />
+    <Compile Include="Chip\DarkFlae.cs" />
     <Compile Include="Attack\flanBunshin.cs" />
     <Compile Include="Attack\FlanGear.cs" />
     <Compile Include="Attack\flanLev.cs" />
