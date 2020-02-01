@@ -67,6 +67,7 @@ namespace NSMap.Character.Menu
                     {
                         // TODO: CHANGE TO EXIT MENU
                         this.IsActive = false;
+                        this.State = LibraryState.FadeIn;
                     }
                     break;
                 case LibraryState.MoveLeft:
@@ -119,14 +120,14 @@ namespace NSMap.Character.Menu
 
             for (int index = 0; index < maxChipsBlockText.Length; ++index)
             {
-                this._rect = new Rectangle(maxChipsBlockText[index] * 8, 104, 8, DarkChipCount);
+                this._rect = new Rectangle(maxChipsBlockText[index] * 8, 104, 8, 16);
                 this._position = new Vector2(maxChipLocation.X - index * 8, maxChipLocation.Y);
                 dg.DrawImage(dg, "font", this._rect, true, this._position, completionTextColor);
             }
 
             for (int index = 0; index < seenChipsBlockText.Length; ++index)
             {
-                this._rect = new Rectangle(seenChipsBlockText[index] * 8, 104, 8, DarkChipCount);
+                this._rect = new Rectangle(seenChipsBlockText[index] * 8, 104, 8, 16);
                 this._position = new Vector2(seenChipsLocation.X - index * 8, seenChipsLocation.Y);
                 dg.DrawImage(dg, "font", this._rect, true, this._position, completionTextColor);
             }
@@ -147,7 +148,7 @@ namespace NSMap.Character.Menu
                 var chipInformation = this.CurrentPage.CurrentChip.Chip.information;
                 for (var line = 0; line < chipInformation.Length; line++)
                 {
-                    Vector2 point = new Vector2(10f, 102 + DarkChipCount * line);
+                    Vector2 point = new Vector2(10f, 102 + 16 * line);
                     dg.DrawMiniText(chipInformation[line], point, Color.Black);
                 }
             }
@@ -174,8 +175,9 @@ namespace NSMap.Character.Menu
                 dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
 
                 // Draw library entries
-                var topChipIndex = drawnPage.CurrentIndex - drawnPage.CurrentTopOffset;
-                for (var visibleRowIndex = 0; visibleRowIndex < 7; visibleRowIndex++)
+                var topChipIndex = drawnPage.CurrentTopIndex;
+                var chipsOnPage = Math.Min(drawnPage.Count, 7);
+                for (var visibleRowIndex = 0; visibleRowIndex < chipsOnPage; visibleRowIndex++)
                 {
                     var rowChipEntry = drawnPage.Chips[topChipIndex + visibleRowIndex];
 
@@ -203,11 +205,13 @@ namespace NSMap.Character.Menu
                         dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
                     }
 
-                    // Draw entry chip rarity
-                    if (drawnPageType != LibraryPageType.PA)
+                    if (rowChipEntry.IsSeen && drawnPageType != LibraryPageType.PA)
                     {
+                        // Draw entry chip icon
                         this._position = new Vector2(96 + currentMoveXOffset + 32, 32 + visibleRowIndex * 16);
                         rowChipEntry.Chip.IconRender(dg, this._position, false, false, rowChipEntry.CurrentCodeNumber, false);
+
+                        // Draw entry chip rarity
                         this._rect = new Rectangle(304, 16 * (rowChipEntry.Chip.reality - 1), 16, 16);
                         this._position = new Vector2(96 + currentMoveXOffset + 112, 32 + visibleRowIndex * 16);
                         dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
@@ -217,13 +221,14 @@ namespace NSMap.Character.Menu
                 if (!isMovingPage)
                 {
                     // Draw cursor
+                    var cursorPosition = this.CurrentPage.CurrentIndex - this.CurrentPage.CurrentTopIndex;
                     this._rect = new Rectangle(112 + 16 * this.cursorFrame, 160, 16, 16);
-                    this._position = new Vector2(96 + currentMoveXOffset - 8, 32 + drawnPage.CurrentTopOffset * 16);
+                    this._position = new Vector2(96 + currentMoveXOffset - 8, 32 + cursorPosition * 16);
                     dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
                 }
 
                 // Draw scrollbar
-                var scrollPosition = 104 * ((float)drawnPage.CurrentIndex / drawnPage.Count);
+                var scrollPosition = drawnPage.Count < 7 ? 104 : 104 * ((float)drawnPage.CurrentTopIndex / (drawnPage.Count - 7));
                 this._rect = new Rectangle(176, 168, 8, 8);
                 this._position = new Vector2(96 + currentMoveXOffset + 128, 32f + scrollPosition);
                 dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
@@ -249,6 +254,98 @@ namespace NSMap.Character.Menu
             }
         }
 
+        private void Control()
+        {
+            if (Input.IsPress(Button._A))
+            {
+                var currentCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
+                for (var i = 0; i < 4; i++)
+                {
+                    this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
+                    var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
+                    if (newCode != currentCode)
+                    {
+                        break;
+                    }
+                }
+                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+            }
+            if (Input.IsPress(Button._B))
+            {
+                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.State = LibraryState.FadeOut;
+            }
+            if (Input.IsPress(Button._R) || (this.waittime <= 0 && Input.IsPush(Button._R)))
+            {
+                var proposedIndex = Math.Min(this.CurrentPage.CurrentIndex + 7, this.CurrentPage.Max);
+                if (proposedIndex != this.CurrentPage.CurrentIndex)
+                {
+                    this.CurrentPage.CurrentIndex = proposedIndex;
+                    this.CurrentPage.CurrentTopIndex = Math.Min(this.CurrentPage.CurrentTopIndex + 7, this.CurrentPage.Count - 7);
+                    this.CurrentPage.CurrentTopIndex = Math.Max(this.CurrentPage.CurrentTopIndex, 0);
+                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                }
+
+                this.waittime = Input.IsPress(Button._R) ? 10 : 4;
+            }
+            if (Input.IsPress(Button._L) || (this.waittime <= 0 && Input.IsPush(Button._L)))
+            {
+                var proposedIndex = Math.Max(this.CurrentPage.CurrentIndex - 7, 0);
+                if (proposedIndex != this.CurrentPage.CurrentIndex)
+                {
+                    this.CurrentPage.CurrentIndex = proposedIndex;
+                    this.CurrentPage.CurrentTopIndex = Math.Max(this.CurrentPage.CurrentTopIndex - 7, 0);
+                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                }
+
+                this.waittime = Input.IsPress(Button._L) ? 10 : 4;
+            }
+            if (Input.IsPress(Button.Up) || (this.waittime <= 0 && Input.IsPush(Button.Up)))
+            {
+                if (this.CurrentPage.CurrentIndex > 0)
+                {
+                    this.CurrentPage.CurrentIndex--;
+                    this.CurrentPage.CurrentTopIndex = Math.Min(this.CurrentPage.CurrentTopIndex, this.CurrentPage.CurrentIndex);
+                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                }
+
+                this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
+            }
+            if (Input.IsPress(Button.Down) || (this.waittime <= 0 && Input.IsPush(Button.Down)))
+            {
+                if (this.CurrentPage.CurrentIndex < this.CurrentPage.Max)
+                {
+                    this.CurrentPage.CurrentIndex++;
+                    this.CurrentPage.CurrentTopIndex = Math.Max(this.CurrentPage.CurrentTopIndex, this.CurrentPage.CurrentIndex - 6);
+                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                }
+
+                this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
+            }
+            if (this.waittime > 0)
+            {
+                this.waittime--;
+            }
+            if (Input.IsPush(Button.Left) && this.CurrentPage.LeftPage != null)
+            {
+                this.moveXOffset = 0;
+                this.State = LibraryState.MoveLeft;
+                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+            }
+            if (Input.IsPush(Button.Right) && this.CurrentPage.RightPage != null)
+            {
+                this.moveXOffset = 144;
+                this.State = LibraryState.MoveRight;
+                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+            }
+            if (Input.IsPress(Button._Select))
+            {
+                // TODO: REMOVE
+                this.IsActive = false;
+                this.State = LibraryState.FadeIn;
+            }
+        }
+
         private void CreateLibraryPages()
         {
             var chipFolder = new ChipFolder(this.sound);
@@ -268,7 +365,7 @@ namespace NSMap.Character.Menu
                     .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
                 Title = ShanghaiEXE.Translate("DataList.Navi"),
                 TitleColor = Color.FromArgb(183, 231, 255),
-                CustomTextArea = new TextArea { Sprite = new Rectangle(272, 184, 88, 56), Position = new Vector2(8f, 96f) },
+                CustomTextArea = new TextArea { Sprite = new Rectangle(272, 128, 88, 56), Position = new Vector2(8f, 96f) },
                 LeftPage = LibraryPageType.Normal,
                 RightPage = LibraryPageType.Dark
             };
@@ -279,7 +376,7 @@ namespace NSMap.Character.Menu
                     .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
                 Title = ShanghaiEXE.Translate("DataList.Dark"),
                 TitleColor = Color.FromArgb(206, 111, 231),
-                CustomTextArea = new TextArea { Sprite = new Rectangle(272, 128, 88, 56), Position = new Vector2(8f, 96f) },
+                CustomTextArea = new TextArea { Sprite = new Rectangle(272, 184, 88, 56), Position = new Vector2(8f, 96f) },
                 LeftPage = LibraryPageType.Navi,
                 RightPage = LibraryPageType.PA
             };
@@ -306,99 +403,12 @@ namespace NSMap.Character.Menu
             };
         }
 
-        private void Control()
-        {
-            if (Input.IsPress(Button._A))
-            {
-                var currentCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                for (var i = 0; i < 4; i++)
-                {
-                    this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
-                    var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                    if (newCode != currentCode)
-                    {
-                        break;
-                    }
-                }
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
-            }
-            if (Input.IsPress(Button._B))
-            {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
-                this.State = LibraryState.FadeOut;
-            }
-            if (this.waittime <= 0)
-            {
-                if (Input.IsPush(Button._R))
-                {
-                    var proposedIndex = Math.Min(this.CurrentPage.CurrentIndex + 7, this.CurrentPage.Max);
-                    this.CurrentPage.CurrentTopOffset = Math.Max(this.CurrentPage.CurrentTopOffset, 6 - (this.CurrentPage.Max - proposedIndex));
-                    if (proposedIndex != this.CurrentPage.CurrentIndex)
-                    {
-                        this.CurrentPage.CurrentIndex = proposedIndex;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
-                    }
-
-                    this.waittime = Input.IsPress(Button._R) ? 10 : 4;
-                }
-                if (Input.IsPush(Button._L))
-                {
-                    var proposedIndex = Math.Max(this.CurrentPage.CurrentIndex - 7, 0);
-                    this.CurrentPage.CurrentTopOffset = Math.Min(this.CurrentPage.CurrentTopOffset, proposedIndex);
-                    if (proposedIndex != this.CurrentPage.CurrentIndex)
-                    {
-                        this.CurrentPage.CurrentIndex = proposedIndex;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
-                    }
-
-                    this.waittime = Input.IsPress(Button._L) ? 10 : 4;
-                }
-                if (Input.IsPush(Button.Up))
-                {
-                    if (this.CurrentPage.CurrentIndex > 0)
-                    {
-                        this.CurrentPage.CurrentIndex--;
-                        this.CurrentPage.CurrentTopOffset = Math.Max(this.CurrentPage.CurrentTopOffset - 1, 0);
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
-                    }
-
-                    this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
-                }
-                if (Input.IsPush(Button.Down))
-                {
-                    if (this.CurrentPage.CurrentIndex < this.CurrentPage.Max)
-                    {
-                        this.CurrentPage.CurrentIndex++;
-                        this.CurrentPage.CurrentTopOffset = Math.Min(this.CurrentPage.CurrentTopOffset + 1, 6);
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
-                    }
-
-                    this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
-                }
-            }
-            else
-            {
-                this.waittime--;
-            }
-            if (Input.IsPush(Button.Left) && this.CurrentPage.LeftPage != null)
-            {
-                this.moveXOffset = 0;
-                this.State = LibraryState.MoveLeft;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
-            }
-            if (Input.IsPush(Button.Right) && this.CurrentPage.RightPage != null)
-            {
-                this.moveXOffset = 144;
-                this.State = LibraryState.MoveRight;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
-            }
-        }
-
         private ChipEntry ChipEntryFromID(ChipFolder folder, int id)
         {
             var chipBase = folder.ReturnChip(id);
-            var chipDisplayName = (int?)null;
-            return new ChipEntry { IsSeen = this.savedata.datelist[id], Chip = chipBase, ChipDisplayNumber = $"{chipDisplayName ?? chipBase.number}" };
+            var chipDisplayName = (chipBase is DammyChip) ? id : (int?)null;
+            var chipIsSeen = !(chipBase is DammyChip) && this.savedata.datelist[id - 1];
+            return new ChipEntry { IsSeen = chipIsSeen, Chip = chipBase, ChipDisplayNumber = $"{chipDisplayName ?? chipBase.number}" };
         }
 
         private enum LibraryState
@@ -429,7 +439,7 @@ namespace NSMap.Character.Menu
             public LibraryPageType? RightPage { get; set; }
 
             public int CurrentIndex { get; set; }
-            public int CurrentTopOffset { get; set; }
+            public int CurrentTopIndex { get; set; }
 
             public int Max => this.Count - 1;
             public int Count => this.Chips.Count;
