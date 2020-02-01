@@ -100,6 +100,12 @@ namespace NSMap.Character.Menu
 
         public override void UpDate()
         {
+            if (this.newLibrary.IsActive)
+            {
+                this.newLibrary.UpDate();
+                return;
+            }
+
             switch (this.nowscene)
             {
                 case DataList.SCENE.fadein:
