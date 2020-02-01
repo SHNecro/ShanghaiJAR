@@ -241,6 +241,7 @@
   <Dialogue Key="AddOnManager.TutorialStage4Dialogue9" Value="そうだね　ＲＵＮを忘れると,アドオンは前の状態に,戻ってしまう" Face="DrMorichika" Mono="False" />
   <Dialogue Key="AddOnManager.TutorialStage4Dialogue10" Value="逆に　アドオンの編集を,なかった事にする場合は,ＲＵＮせずに閉じればいいんだ" Face="DrMorichika" Mono="False" />
   <Dialogue Key="AddOnManager.TutorialStage4Dialogue11" Value="それじゃあ実際に,アドオンを組み込んでみてくれ" Face="DrMorichika" Mono="False" />
+  <Text Key="DataList.UnknownChipNameText" Value="　　　？？" />
   <Text Key="DataList.Standard" Value="スタンダード" />
   <Text Key="DataList.Navi" Value="ナビチップ" />
   <Text Key="DataList.Dark" Value="ダークチップ" />

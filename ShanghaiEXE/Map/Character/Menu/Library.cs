@@ -3,18 +3,33 @@ using NSGame;
 using NSShanghaiEXE.InputOutput;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 
 namespace NSMap.Character.Menu
 {
     internal class Library : MenuBase
     {
+        private const int NormalChipCount = 190;
+        private const int NaviChipCount = 64;
+        private const int DarkChipCount = 16;
+        private const int PACount = 32;
+
+        private readonly string UnknownChipNameText;
+
         private readonly Dictionary<LibraryPageType, LibraryPage> libraryPages;
+
+        private int moveXShift = 96;
 
         public Library(MyAudio s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
+            this.UnknownChipNameText = ShanghaiEXE.Translate("DataList.UnknownChipNameText");
+
+            this.libraryPages = new Dictionary<LibraryPageType, LibraryPage>();
+            this.CreateLibraryPages();
         }
 
         public bool IsActive { get; set; }
@@ -31,7 +46,7 @@ namespace NSMap.Character.Menu
             dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
 
             // Draw completion progress ex. 23/64
-            var completionTextColor = this.CurrentPage.IsComplete ? Color.White : Color.Cyan;
+            var completionTextColor = this.CurrentPage.IsComplete ? Color.Cyan : Color.White;
             var maxChipsBlockText = this.ChangeCount(this.CurrentPage.Max);
             var seenChipsBlockText = this.ChangeCount(this.CurrentPage.Seen);
 
@@ -40,14 +55,14 @@ namespace NSMap.Character.Menu
 
             for (int index = 0; index < maxChipsBlockText.Length; ++index)
             {
-                this._rect = new Rectangle(maxChipsBlockText[index] * 8, 104, 8, 16);
+                this._rect = new Rectangle(maxChipsBlockText[index] * 8, 104, 8, DarkChipCount);
                 this._position = new Vector2(maxChipLocation.X - index * 8, maxChipLocation.Y);
                 dg.DrawImage(dg, "font", this._rect, true, this._position, completionTextColor);
             }
 
             for (int index = 0; index < seenChipsBlockText.Length; ++index)
             {
-                this._rect = new Rectangle(seenChipsBlockText[index] * 8, 104, 8, 16);
+                this._rect = new Rectangle(seenChipsBlockText[index] * 8, 104, 8, DarkChipCount);
                 this._position = new Vector2(seenChipsLocation.X - index * 8, seenChipsLocation.Y);
                 dg.DrawImage(dg, "font", this._rect, true, this._position, completionTextColor);
             }
@@ -61,18 +76,62 @@ namespace NSMap.Character.Menu
             }
 
             // Draw hovered chip details
-            if (this.savedata.datelist[this.CurrentPage.CurrentChip.number])
+            if (this.CurrentPage.CurrentChip.IsSeen)
             {
                 this._position = new Vector2(24f, 32f);
-                this.CurrentPage.CurrentChip.GraphicsRender(dg, this._position, this.CurrentPage.CurrentCodeNumber, true, true);
-                var chipInformation = this.CurrentPage.CurrentChip.information;
+                this.CurrentPage.CurrentChip.Chip.GraphicsRender(dg, this._position, this.CurrentPage.CurrentCodeNumber, true, true);
+                var chipInformation = this.CurrentPage.CurrentChip.Chip.information;
                 for (var line = 0; line < chipInformation.Length; line++)
                 {
-                    Vector2 point = new Vector2(10f, 102 + 16 * line);
+                    Vector2 point = new Vector2(10f, 102 + DarkChipCount * line);
                     dg.DrawMiniText(chipInformation[line], point, Color.Black);
                 }
             }
 
+            // Draw library page background
+            this._rect = new Rectangle(360, 0, 136, 144);
+            this._position = new Vector2(this.moveXShift, 8f);
+            dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+
+            // Draw library entries
+            var topChipIndex = Math.Min(this.CurrentPage.CurrentIndex, this.CurrentPage.Max - 7);
+            for (var visibleRowIndex = 0; visibleRowIndex < 7; visibleRowIndex++)
+            {
+                var rowChipEntry = this.CurrentPage.Chips[topChipIndex + visibleRowIndex];
+
+                // Draw entry chip ID (or displayed ID)
+                var chipIdBlockText = this.Nametodata(rowChipEntry.ChipDisplayNumber);
+                var chipIdLocation = new Vector2(this.moveXShift + 24, 32 + visibleRowIndex * 16);
+                for (int index = 0; index < chipIdBlockText.Length; ++index)
+                {
+                    this._rect = new Rectangle((int)chipIdBlockText[index] * 8, 16, 8, 16);
+                    this._position = new Vector2(chipIdLocation.X - index * 8, chipIdLocation.Y);
+                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.SkyBlue);
+                }
+
+                // Draw entry chip name
+                var chipNameBlockText = this.Nametodata(rowChipEntry.IsSeen ? rowChipEntry.Chip.name : UnknownChipNameText );
+                var nameOffset = this.CurrentPageType == LibraryPageType.PA ? 16 : 48;
+                var chipNameLocation = new Vector2(this.moveXShift + nameOffset, 32 + visibleRowIndex * 16);
+                for (int index = 0; index < chipNameBlockText.Length; ++index)
+                {
+                    this._rect = new Rectangle((int)chipNameBlockText[index] * 8, 16, 8, 16);
+                    this._position = new Vector2(chipNameLocation.X + index * 8, chipNameLocation.Y);
+                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                }
+
+                // Draw entry chip rarity
+                if (this.CurrentPageType != LibraryPageType.PA)
+                {
+                    this._position = new Vector2(this.moveXShift + 32, 32 + visibleRowIndex * 16);
+                    rowChipEntry.Chip.IconRender(dg, this._position, false, false, 0, false);
+                    this._rect = new Rectangle(304, 16 * (rowChipEntry.Chip.reality - 1), 16, 16);
+                    this._position = new Vector2(this.moveXShift + 112, 32 + visibleRowIndex * 16);
+                    dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                }
+            }
+
+            /*
             for (int index1 = 0; index1 < 4; ++index1)
             {
                 if (this.page == (DataList.PAGE)index1 || this.nowscene == DataList.SCENE.move)
@@ -193,6 +252,48 @@ namespace NSMap.Character.Menu
             this._rect = new Rectangle(0, 0, 240, 160);
             this._position = new Vector2(0.0f, 0.0f);
             dg.DrawImage(dg, "fadescreen", this._rect, true, this._position, color3);
+            */
+        }
+
+        private void CreateLibraryPages()
+        {
+            var chipFolder = new ChipFolder(this.sound);
+            this.libraryPages[LibraryPageType.Normal] = new LibraryPage
+            {
+                Chips = Enumerable.Range(1, NormalChipCount)
+                .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList()
+            };
+
+            this.libraryPages[LibraryPageType.Navi] = new LibraryPage
+            {
+                Chips = Enumerable.Range(NormalChipCount + 1, NaviChipCount)
+                .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList()
+            };
+
+            this.libraryPages[LibraryPageType.Dark] = new LibraryPage
+            {
+                Chips = Enumerable.Range(NormalChipCount + NaviChipCount + 1, DarkChipCount)
+                .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList()
+            };
+
+            this.libraryPages[LibraryPageType.PA] = new LibraryPage
+            {
+                Chips = Enumerable.Range(NormalChipCount + NaviChipCount + DarkChipCount + 1, PACount)
+                .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList()
+            };
+
+            this.libraryPages[LibraryPageType.Illegal] = new LibraryPage
+            {
+                Chips = Enumerable.Range(NormalChipCount + NaviChipCount + DarkChipCount + 1 + PACount, PACount)
+                .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList()
+            };
+        }
+
+        private ChipEntry ChipEntryFromID(ChipFolder folder, int id)
+        {
+            var chipBase = folder.ReturnChip(id);
+            var chipDisplayName = (int?)null;
+            return new ChipEntry { IsSeen = this.savedata.datelist[id], Chip = chipBase, ChipDisplayNumber = $"{chipDisplayName ?? chipBase.number}" };
         }
 
         private enum LibraryPageType
@@ -206,12 +307,22 @@ namespace NSMap.Character.Menu
 
         private class LibraryPage
         {
-            public int Max { get; set; }
-            public int Seen { get; set; }
-            public ChipBase CurrentChip { get; set; }
+            public List<ChipEntry> Chips { get; set; }
+            public int CurrentIndex { get; set; }
             public int CurrentCodeNumber { get; set; }
             public TextArea CustomTextArea { get; set; }
+
+            public int Max => this.Chips.Count;
+            public int Seen => this.Chips.Count(c => c.IsSeen);
+            public ChipEntry CurrentChip => this.Chips[this.CurrentIndex];
             public bool IsComplete => this.Seen >= this.Max;
+        }
+
+        private class ChipEntry
+        {
+            public bool IsSeen { get; set; }
+            public ChipBase Chip { get; set; }
+            public string ChipDisplayNumber { get; set; }
         }
 
         private class TextArea

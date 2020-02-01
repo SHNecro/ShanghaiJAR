@@ -241,6 +241,7 @@
   <Dialogue Key="AddOnManager.TutorialStage4Dialogue9" Value="That’s right.,Your changes won’t apply,if you forget to RUN." Face="DrMorichika" Mono="False" />
   <Dialogue Key="AddOnManager.TutorialStage4Dialogue10" Value="Also，you don’t have to RUN,if you decide not to change,any AddOns." Face="DrMorichika" Mono="False" />
   <Dialogue Key="AddOnManager.TutorialStage4Dialogue11" Value="Now，with all that said，,try installing some AddOns." Face="DrMorichika" Mono="False" />
+  <Text Key="DataList.UnknownChipNameText" Value="　　　？？" />
   <Text Key="DataList.Standard" Value="Standard" />
   <Text Key="DataList.Navi" Value="Navi" />
   <Text Key="DataList.Dark" Value="Dark" />

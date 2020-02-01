@@ -271,7 +271,7 @@ namespace NSMap.Character.Menu
                 this.nowscene = DataList.SCENE.move;
                 this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
             }
-            if (Input.IsPush(Button._Select))
+            if (Input.IsPress(Button._Select))
             {
                 this.newLibrary.IsActive ^= true;
             }
