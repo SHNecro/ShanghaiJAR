@@ -30,6 +30,8 @@ namespace NSMap.Character.Menu
         private const int move1F = 16;
         private int cursolanime;
 
+        private Library newLibrary;
+
         private int Max
         {
             get
@@ -92,6 +94,8 @@ namespace NSMap.Character.Menu
             this.comp[1] = this.savedata.Comp_navi;
             this.comp[2] = this.savedata.Comp_dark;
             this.comp[3] = this.savedata.Comp_PA;
+
+            this.newLibrary = new Library(s, p, t, save);
         }
 
         public override void UpDate()
@@ -172,7 +176,9 @@ namespace NSMap.Character.Menu
                 {
                     ++this.code;
                     if (this.code >= 4)
+                    {
                         this.code = 0;
+                    }
                     this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
                 }
             }
@@ -187,7 +193,9 @@ namespace NSMap.Character.Menu
                 {
                     int num = this.Max - 7 - this.Topchip;
                     if (num > 7)
+                    {
                         num = 7;
+                    }
                     if (num > 0)
                     {
                         this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
@@ -200,7 +208,9 @@ namespace NSMap.Character.Menu
                 {
                     int num = this.Topchip;
                     if (num > 7)
+                    {
                         num = 7;
+                    }
                     if (num > 0)
                     {
                         this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
@@ -215,9 +225,13 @@ namespace NSMap.Character.Menu
                     {
                         --this.selectY[(int)this.page];
                         if (this.cursol[(int)this.page] > 0)
+                        {
                             --this.cursol[(int)this.page];
+                        }
                         else
+                        {
                             --this.Topchip;
+                        }
                         this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
                     }
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
@@ -228,38 +242,57 @@ namespace NSMap.Character.Menu
                     {
                         ++this.selectY[(int)this.page];
                         if (this.cursol[(int)this.page] < 6)
+                        {
                             ++this.cursol[(int)this.page];
+                        }
                         else
+                        {
                             ++this.Topchip;
+                        }
                         this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
                     }
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
             }
             else
+            {
                 --this.waittime;
+            }
             if (Input.IsPush(Button.Left) && this.page > DataList.PAGE.normal)
             {
                 this.moveLeftRight = true;
                 this.nowscene = DataList.SCENE.move;
                 this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
             }
-            if (!Input.IsPush(Button.Right) || this.page >= DataList.PAGE.PA)
-                return;
-            ++this.page;
-            this.moveLeftRight = false;
-            this.nowscene = DataList.SCENE.move;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+            if (Input.IsPush(Button.Right) && this.page < DataList.PAGE.PA)
+            {
+                ++this.page;
+                this.moveLeftRight = false;
+                this.nowscene = DataList.SCENE.move;
+                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+            }
+            if (Input.IsPush(Button._Select))
+            {
+                this.newLibrary.IsActive ^= true;
+            }
         }
 
         public override void Render(IRenderer dg)
         {
+            if (this.newLibrary.IsActive)
+            {
+                this.newLibrary.Render(dg);
+                return;
+            }
+
             this._rect = new Rectangle(0, 624, 240, 160);
             this._position = new Vector2(0.0f, 0.0f);
             dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
             Color color1 = Color.White;
             if (this.comp[(int)this.page] == this.Max)
+            {
                 color1 = Color.Cyan;
+            }
             int[] numArray1 = this.ChangeCount(this.Max);
             Vector2 vector2_1 = new Vector2(208 + 8 * numArray1.Length, 0.0f);
             for (int index = 0; index < numArray1.Length; ++index)
@@ -440,7 +473,9 @@ namespace NSMap.Character.Menu
                 }
             }
             if (this.nowscene != DataList.SCENE.fadein && this.nowscene != DataList.SCENE.fadeout)
+            {
                 return;
+            }
             Color color3 = Color.FromArgb(this.Alpha, 0, 0, 0);
             this._rect = new Rectangle(0, 0, 240, 160);
             this._position = new Vector2(0.0f, 0.0f);

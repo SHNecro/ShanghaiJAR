@@ -268,7 +268,7 @@ namespace NSChip
                     return new AuraSword2(this.sound);
                 case 126:
                     return new AuraSword3(this.sound);
-                case sbyte.MaxValue:
+                case 127:
                     return new ElekiFang1(this.sound);
                 case 128:
                     return new ElekiFang2(this.sound);

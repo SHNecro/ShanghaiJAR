@@ -399,6 +399,7 @@
     <Compile Include="InputOutput\Rendering\OpenGL\GLTextMeasurer.cs" />
     <Compile Include="InputOutput\Rendering\OpenGL\OpenGLRenderer.cs" />
     <Compile Include="InputOutput\Rendering\TextureLoadProgressUpdatedEventArgs.cs" />
+    <Compile Include="Map\Character\Menu\Library.cs" />
     <Compile Include="Messages\AllMessages.AliceInfo.cs" />
     <Compile Include="Messages\AllMessages.AliceRequestInfo.cs" />
     <Compile Include="Messages\AllMessages.cs" />
