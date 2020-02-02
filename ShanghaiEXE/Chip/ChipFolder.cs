@@ -3,6 +3,7 @@ using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace NSChip
 {
@@ -375,6 +376,42 @@ namespace NSChip
             Chips[430] = (sound) => new Kikuri(sound);
         }
 
+        public static IList<ProgramAdvanceEntry> ProgramAdvances = new[]
+        {
+            new ProgramAdvanceEntry { Chips = new[] { 1, 1, 1 }, ProgramAdvance = 271 },
+            new ProgramAdvanceEntry { Chips = new[] { 2, 2, 2 }, ProgramAdvance = 272 },
+            new ProgramAdvanceEntry { Chips = new[] { 59, 62, 71 }, ProgramAdvance = 273 },
+            new ProgramAdvanceEntry { Chips = new[] { 60, 67, 72 }, ProgramAdvance = 274 },
+            new ProgramAdvanceEntry { Chips = new[] { 92, 93, 25 }, ProgramAdvance = 275 },
+            new ProgramAdvanceEntry { Chips = new[] { 34, 87, 190 }, ProgramAdvance = 276 },
+            new ProgramAdvanceEntry { Chips = new[] { 21, 171, 134 }, ProgramAdvance = 277 },
+            new ProgramAdvanceEntry { Chips = new[] { 147, 150, 125 }, ProgramAdvance = 278 },
+            new ProgramAdvanceEntry { Chips = new[] { 90, 41, 119 }, ProgramAdvance = 279 },
+            new ProgramAdvanceEntry { Chips = new[] { 142, 143, 113 }, ProgramAdvance = 280 },
+            new ProgramAdvanceEntry { Chips = new[] { 63, 64, 65 }, ProgramAdvance = 281 },
+            new ProgramAdvanceEntry { Chips = new[] { 131, 116, 155 }, ProgramAdvance = 282 },
+            new ProgramAdvanceEntry { Chips = new[] { 95, 8, 122 }, ProgramAdvance = 283 },
+            new ProgramAdvanceEntry { Chips = new[] { 12, 44, 192 }, ProgramAdvance = 284 },
+            new ProgramAdvanceEntry { Chips = new[] { 60, 157, 195 }, ProgramAdvance = 285 },
+            new ProgramAdvanceEntry { Chips = new[] { 5, 8, 198 }, ProgramAdvance = 286 },
+            new ProgramAdvanceEntry { Chips = new[] { 104, 82, 201 }, ProgramAdvance = 287 },
+            new ProgramAdvanceEntry { Chips = new[] { 64, 116, 207 }, ProgramAdvance = 288 },
+            new ProgramAdvanceEntry { Chips = new[] { 28, 57, 210 }, ProgramAdvance = 289 },
+            new ProgramAdvanceEntry { Chips = new[] { 66, 72, 216 }, ProgramAdvance = 290 },
+            new ProgramAdvanceEntry { Chips = new[] { 65, 163, 219 }, ProgramAdvance = 291 },
+            new ProgramAdvanceEntry { Chips = new[] { 144, 91, 222 }, ProgramAdvance = 292 },
+            new ProgramAdvanceEntry { Chips = new[] { 77, 128, 225 }, ProgramAdvance = 293 },
+            new ProgramAdvanceEntry { Chips = new[] { 47, 54, 231 }, ProgramAdvance = 294 },
+            new ProgramAdvanceEntry { Chips = new[] { 70, 61, 243 }, ProgramAdvance = 295 },
+            new ProgramAdvanceEntry { Chips = new[] { 107, 12, 265 }, ProgramAdvance = 296 },
+            new ProgramAdvanceEntry { Chips = new[] { 18, 75, 257 }, ProgramAdvance = 297 },
+            new ProgramAdvanceEntry { Chips = new[] { 137, 79, 260 }, ProgramAdvance = 298 },
+            new ProgramAdvanceEntry { Chips = new[] { 140, 22, 256 }, ProgramAdvance = 299 },
+            new ProgramAdvanceEntry { Chips = new[] { 183, 101, 264 }, ProgramAdvance = 300 },
+            new ProgramAdvanceEntry { Chips = new[] { 86, 149, 263 }, ProgramAdvance = 301 },
+            new ProgramAdvanceEntry { Chips = new[] { 52, 151, 141 }, ProgramAdvance = 302 }
+        };
+
         public bool inchip;
         public ChipBase chip;
         public int codeNo;
@@ -402,6 +439,41 @@ namespace NSChip
         {
             this.chip = this.ReturnChip(key);
             this.inchip = true;
+        }
+
+        public int ProgramAdvanceCheck(IList<ChipS> chipStart)
+        {
+            foreach (var pa in ProgramAdvances)
+            {
+                if (chipStart.Count < pa.Chips.Count || chipStart.First().number != pa.Chips.First())
+                {
+                    continue;
+                }
+
+                var isPa = false;
+                if (pa.IsAlphabetical)
+                {
+                    var chipCodes = chipStart.Take(pa.Chips.Count).Select(c => c.Code).ToArray();
+                    isPa = chipCodes.Count(c => c == (int)CODE.asterisk) <= 1
+                        && chipCodes.Aggregate((previous, current) =>
+                        {
+                            var effectivePrevious = previous == (int)CODE.asterisk ? current - 1 : previous;
+                            var effectiveCurrent = current == (int)CODE.asterisk ? previous + 1 : current;
+                            return effectiveCurrent == effectivePrevious + 1 ? effectiveCurrent : -1;
+                        }) != -1;
+                }
+                else
+                {
+                    isPa = chipStart.Take(pa.Chips.Count).Select(c => c.number).SequenceEqual(pa.Chips);
+                }
+
+                if (isPa)
+                {
+                    return pa.ProgramAdvance;
+                }
+            }
+
+            return -1;
         }
 
         public enum CODE
@@ -434,6 +506,14 @@ namespace NSChip
             Z,
             asterisk,
             none,
+        }
+
+        public class ProgramAdvanceEntry
+        {
+            public IList<int> Chips { get; set; }
+            public int ProgramAdvance { get; set; }
+
+            public bool IsAlphabetical => this.Chips.Distinct().Count() == 1;
         }
     }
 }

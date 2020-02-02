@@ -107,18 +107,18 @@ namespace NSBattle
             };
             for (int index1 = 0; index1 < numArray.Length; ++index1)
             {
-                bool flag1 = true;
+                bool isCodeSequence = true;
                 int num = numArray[index1][0];
                 for (int index2 = 1; index2 < numArray[index1].Length; ++index2)
                 {
                     if (numArray[index1][index2] != num)
                     {
-                        flag1 = false;
+                        isCodeSequence = false;
                         break;
                     }
                 }
                 bool flag2 = false;
-                bool flag3 = true;
+                bool isPA = true;
                 for (int index2 = 0; index2 < numArray[index1].Length; ++index2)
                 {
                     if (this.selectedchips[checknom + index2] >= 0)
@@ -126,10 +126,10 @@ namespace NSBattle
                         ChipFolder canchip = this.canchips[this.selectedchips[checknom + index2]];
                         if (true)
                         {
-                            if (!flag1)
+                            if (!isCodeSequence)
                             {
                                 if (this.canchips[this.selectedchips[checknom + index2]].chip.number != numArray[index1][index2])
-                                    flag3 = false;
+                                    isPA = false;
                             }
                             else
                             {
@@ -137,18 +137,18 @@ namespace NSBattle
                                     || this.canchips[this.selectedchips[checknom + index2]].codeNo != index2
                                         && this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] != ChipFolder.CODE.asterisk
                                     || this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk & flag2)
-                                    flag3 = false;
+                                    isPA = false;
                                 if (this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk)
                                     flag2 = true;
                             }
                         }
                         else
-                            flag3 = false;
+                            isPA = false;
                     }
                     else
-                        flag3 = false;
+                        isPA = false;
                 }
-                if (flag3)
+                if (isPA)
                     return index1 + 271;
             }
             return -100;
