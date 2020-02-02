@@ -50,9 +50,31 @@ namespace NSChip
     {
       base.Init();
       this.sortNumber = 244.5f;
-    }
+        }
 
-    public override void GraphicsRender(
+        public override void IconRender(
+          IRenderer dg,
+          Vector2 p,
+          bool select,
+          bool custom,
+          int c,
+          bool noicon)
+        {
+            if (!noicon)
+            {
+                int num1 = this.number - 1;
+                int num2 = num1 % 40;
+                int num3 = num1 / 40;
+                int num4 = 0;
+                if (select)
+                    num4 = 1;
+                this._rect = new Rectangle(592, 80 + num4 * 96, 16, 16);
+                dg.DrawImage(dg, "chipicon", this._rect, true, p, Color.White);
+            }
+            base.IconRender(dg, p, select, custom, c, true);
+        }
+
+        public override void GraphicsRender(
       IRenderer dg,
       Vector2 p,
       int c,

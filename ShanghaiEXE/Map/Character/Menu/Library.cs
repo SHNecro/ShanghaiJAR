@@ -17,10 +17,15 @@ namespace NSMap.Character.Menu
         private static readonly Predicate<ChipBase> IsDarkChipPredicate = (c) => c.dark && !IsPAPredicate(c);
         // TODO: implement new PA system
         private static readonly Predicate<ChipBase> IsPAPredicate = (c) => c.number >= 271 && c.number <= 302;
-        private static readonly Predicate<ChipBase> IsIllegalPredicate = (c) => !IsNormalChipPredicate(c)
-                                                                             && !IsNaviChipPredicate(c)
-                                                                             && !IsDarkChipPredicate(c)
-                                                                             && !IsPAPredicate(c);
+        private static readonly Predicate<ChipBase> IsIllegalPredicate = (c) =>
+        {
+            var excludedChips = new[] { 310, 311, 312 };
+            return !IsNormalChipPredicate(c)
+                && !IsNaviChipPredicate(c)
+                && !IsDarkChipPredicate(c)
+                && !IsPAPredicate(c)
+                && !excludedChips.Contains(c.number);
+        };
 
         private readonly string UnknownChipNameText;
         private readonly string IllegalChipDisplayId;
@@ -392,7 +397,7 @@ namespace NSMap.Character.Menu
 
             this.LibraryPages[LibraryPageType.Illegal] = new LibraryPage
             {
-                Chips = FillBlanks(allChips.Where(c => IsIllegalPredicate(c.Chip))),
+                Chips = allChips.Where(c => IsIllegalPredicate(c.Chip)).OrderBy(c => c.Chip.sortNumber).ToList(),
                 Title = ShanghaiEXE.Translate("DataList.Illegal"),
                 TitleColor = Color.DarkRed,
                 LeftPage = LibraryPageType.PA,

@@ -133,7 +133,10 @@ namespace NSBattle
                             }
                             else
                             {
-                                if (this.canchips[this.selectedchips[checknom + index2]].chip.number != numArray[index1][index2] || this.canchips[this.selectedchips[checknom + index2]].codeNo != index2 && this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] != ChipFolder.CODE.asterisk || this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk & flag2)
+                                if (this.canchips[this.selectedchips[checknom + index2]].chip.number != numArray[index1][index2]
+                                    || this.canchips[this.selectedchips[checknom + index2]].codeNo != index2
+                                        && this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] != ChipFolder.CODE.asterisk
+                                    || this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk & flag2)
                                     flag3 = false;
                                 if (this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk)
                                     flag2 = true;

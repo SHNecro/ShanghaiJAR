@@ -55,6 +55,13 @@ namespace NSChip
             int spd = 1;
             character.parent.attacks.Add(this.Paralyze(new ShellHockeyA(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), spd, this.element)));
         }
+
+        public override void Init()
+        {
+            base.Init();
+            this.sortNumber = 189.5f;
+        }
+
         /*
         public override void GraphicsRender(
           IRenderer dg,
@@ -79,11 +86,11 @@ namespace NSChip
         }*/
 
         public override void GraphicsRender(
-  IRenderer dg,
-  Vector2 p,
-  int c,
-  bool printgraphics,
-  bool printstatus)
+            IRenderer dg,
+            Vector2 p,
+            int c,
+            bool printgraphics,
+            bool printstatus)
         {
             if (printgraphics)
             {
