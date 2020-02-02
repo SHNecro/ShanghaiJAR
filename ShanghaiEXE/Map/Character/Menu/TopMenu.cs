@@ -116,7 +116,7 @@ namespace NSMap.Character.Menu
                         this.menu = new SubChip(this.sound, this.player, this, this.main.eventmanager, this.savedata);
                         break;
                     case TopMenu.TOPMENU.datelist:
-                        this.menu = new DataList(this.sound, this.player, this, this.savedata);
+                        this.menu = new Library(this.sound, this.player, this, this.savedata);
                         break;
                     case TopMenu.TOPMENU.navi:
                         this.menu = new Navi(this.sound, this.player, this.main, this, this.savedata);

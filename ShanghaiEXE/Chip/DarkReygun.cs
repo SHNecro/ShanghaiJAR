@@ -18,7 +18,7 @@ namespace NSChip
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
-      this.number = byte.MaxValue;
+      this.number = 255;
       this.name = NSGame.ShanghaiEXE.Translate("Chip.DarkReygunName");
       this.element = ChipBase.ELEMENT.normal;
       this.power = 250;

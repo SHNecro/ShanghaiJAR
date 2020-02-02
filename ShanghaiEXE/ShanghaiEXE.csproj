@@ -443,7 +443,6 @@
     <Compile Include="Map\Character\Menu\AddOnManager.cs" />
     <Compile Include="Map\Character\Menu\AddOnColor.cs" />
     <Compile Include="Map\Character\Menu\SortAddon.cs" />
-    <Compile Include="Map\Character\Menu\DataList.cs" />
     <Compile Include="Map\Character\Menu\FolderEdit.cs" />
     <Compile Include="Map\Character\Menu\FolderSelect.cs" />
     <Compile Include="Map\Character\Menu\NetWork.cs" />

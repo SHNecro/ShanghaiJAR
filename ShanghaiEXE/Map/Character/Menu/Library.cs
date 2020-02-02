@@ -12,14 +12,18 @@ namespace NSMap.Character.Menu
 {
     internal class Library : MenuBase
     {
-        private const int NormalChipCount = 190;
-        private const int NaviChipCount = 64;
-        private const int DarkChipCount = 16;
-        private const int PACount = 32;
+        private static readonly Predicate<ChipBase> IsNormalChipPredicate = (c) => c.number >= 1 && c.number <= 190;
+        private static readonly Predicate<ChipBase> IsNaviChipPredicate = (c) => c.number >= 191 && c.number <= 254;
+        private static readonly Predicate<ChipBase> IsDarkChipPredicate = (c) => c.dark && !IsPAPredicate(c);
+        // TODO: implement new PA system
+        private static readonly Predicate<ChipBase> IsPAPredicate = (c) => c.number >= 271 && c.number <= 302;
+        private static readonly Predicate<ChipBase> IsIllegalPredicate = (c) => !IsNormalChipPredicate(c)
+                                                                             && !IsNaviChipPredicate(c)
+                                                                             && !IsDarkChipPredicate(c)
+                                                                             && !IsPAPredicate(c);
 
         private readonly string UnknownChipNameText;
-
-        private readonly Dictionary<LibraryPageType, LibraryPage> libraryPages;
+        private readonly string IllegalChipDisplayId;
 
         private int moveXOffset = 0;
 
@@ -29,20 +33,21 @@ namespace NSMap.Character.Menu
           : base(s, p, t, save)
         {
             this.UnknownChipNameText = ShanghaiEXE.Translate("DataList.UnknownChipNameText");
+            this.IllegalChipDisplayId = ShanghaiEXE.Translate("DataList.IllegalChipDisplayId");
 
-            this.libraryPages = new Dictionary<LibraryPageType, LibraryPage>();
+            this.LibraryPages = new Dictionary<LibraryPageType, LibraryPage>();
             this.CreateLibraryPages();
 
             this.State = LibraryState.FadeIn;
         }
 
-        public bool IsActive { get; set; }
+        public Dictionary<LibraryPageType, LibraryPage> LibraryPages { get; }
 
         private LibraryState State { get; set; }
 
         private LibraryPageType CurrentPageType { get; set; }
 
-        private LibraryPage CurrentPage => this.libraryPages[this.CurrentPageType];
+        private LibraryPage CurrentPage => this.LibraryPages[this.CurrentPageType];
 
         public override void UpDate()
         {
@@ -65,9 +70,7 @@ namespace NSMap.Character.Menu
                     }
                     else
                     {
-                        // TODO: CHANGE TO EXIT MENU
-                        this.IsActive = false;
-                        this.State = LibraryState.FadeIn;
+                        this.topmenu.Return();
                     }
                     break;
                 case LibraryState.MoveLeft:
@@ -167,7 +170,7 @@ namespace NSMap.Character.Menu
                 {
                     drawnPageType = page == 0 ? this.CurrentPageType : this.CurrentPage.RightPage.Value;
                 }
-                var drawnPage = this.libraryPages[drawnPageType];
+                var drawnPage = this.LibraryPages[drawnPageType];
 
                 // Draw library page background
                 this._rect = new Rectangle(360, 0, 136, 144);
@@ -184,7 +187,8 @@ namespace NSMap.Character.Menu
                     if (drawnPageType != LibraryPageType.PA)
                     {
                         // Draw entry chip ID (or displayed ID)
-                        var chipIdBlockText = this.Nametodata(rowChipEntry.ChipDisplayNumber);
+                        var displayId = drawnPageType == LibraryPageType.Illegal ? IllegalChipDisplayId : rowChipEntry.DisplayId;
+                        var chipIdBlockText = this.Nametodata(displayId);
                         var chipIdLocation = new Vector2(96 + currentMoveXOffset + 24 - (chipIdBlockText.Length - 1) * 8, 32 + visibleRowIndex * 16);
                         for (int index = 0; index < chipIdBlockText.Length; ++index)
                         {
@@ -258,17 +262,20 @@ namespace NSMap.Character.Menu
         {
             if (Input.IsPress(Button._A))
             {
-                var currentCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                for (var i = 0; i < 4; i++)
+                if (this.CurrentPage.CurrentChip.IsSeen)
                 {
-                    this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
-                    var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                    if (newCode != currentCode)
+                    var currentCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
+                    for (var i = 0; i < 4; i++)
                     {
-                        break;
+                        this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
+                        var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
+                        if (newCode != currentCode)
+                        {
+                            break;
+                        }
                     }
+                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
                 }
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
             }
             if (Input.IsPress(Button._B))
             {
@@ -338,31 +345,24 @@ namespace NSMap.Character.Menu
                 this.State = LibraryState.MoveRight;
                 this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
             }
-            if (Input.IsPress(Button._Select))
-            {
-                // TODO: REMOVE
-                this.IsActive = false;
-                this.State = LibraryState.FadeIn;
-            }
         }
 
         private void CreateLibraryPages()
         {
             var chipFolder = new ChipFolder(this.sound);
-            this.libraryPages[LibraryPageType.Normal] = new LibraryPage
+            var allChips = ChipFolder.Chips.Select(kvp => this.ChipEntryFromChipBase(kvp.Value.Invoke(this.sound), kvp.Key)).ToList();
+            this.LibraryPages[LibraryPageType.Normal] = new LibraryPage
             {
-                Chips = Enumerable.Range(1, NormalChipCount)
-                    .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
+                Chips = FillBlanks(allChips.Where(c => IsNormalChipPredicate(c.Chip))),
                 Title = ShanghaiEXE.Translate("DataList.Standard"),
                 TitleColor = Color.White,
                 LeftPage = null,
                 RightPage = LibraryPageType.Navi
             };
 
-            this.libraryPages[LibraryPageType.Navi] = new LibraryPage
+            this.LibraryPages[LibraryPageType.Navi] = new LibraryPage
             {
-                Chips = Enumerable.Range(NormalChipCount + 1, NaviChipCount)
-                    .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
+                Chips = FillBlanks(allChips.Where(c => IsNaviChipPredicate(c.Chip))),
                 Title = ShanghaiEXE.Translate("DataList.Navi"),
                 TitleColor = Color.FromArgb(183, 231, 255),
                 CustomTextArea = new TextArea { Sprite = new Rectangle(272, 128, 88, 56), Position = new Vector2(8f, 96f) },
@@ -370,10 +370,9 @@ namespace NSMap.Character.Menu
                 RightPage = LibraryPageType.Dark
             };
 
-            this.libraryPages[LibraryPageType.Dark] = new LibraryPage
+            this.LibraryPages[LibraryPageType.Dark] = new LibraryPage
             {
-                Chips = Enumerable.Range(NormalChipCount + NaviChipCount + 1, DarkChipCount)
-                    .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
+                Chips = FillBlanks(allChips.Where(c => IsDarkChipPredicate(c.Chip))),
                 Title = ShanghaiEXE.Translate("DataList.Dark"),
                 TitleColor = Color.FromArgb(206, 111, 231),
                 CustomTextArea = new TextArea { Sprite = new Rectangle(272, 184, 88, 56), Position = new Vector2(8f, 96f) },
@@ -381,10 +380,9 @@ namespace NSMap.Character.Menu
                 RightPage = LibraryPageType.PA
             };
 
-            this.libraryPages[LibraryPageType.PA] = new LibraryPage
+            this.LibraryPages[LibraryPageType.PA] = new LibraryPage
             {
-                Chips = Enumerable.Range(NormalChipCount + NaviChipCount + DarkChipCount + 1, PACount)
-                    .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
+                Chips = FillBlanks(allChips.Where(c => IsPAPredicate(c.Chip))),
                 Title = ShanghaiEXE.Translate("DataList.PAdvance"),
                 TitleColor = Color.White,
                 CustomTextArea = new TextArea { Sprite = new Rectangle(760, 120, 88, 136), Position = new Vector2(8f, 16) },
@@ -392,10 +390,9 @@ namespace NSMap.Character.Menu
                 RightPage = LibraryPageType.Illegal
             };
 
-            this.libraryPages[LibraryPageType.Illegal] = new LibraryPage
+            this.LibraryPages[LibraryPageType.Illegal] = new LibraryPage
             {
-                Chips = Enumerable.Range(NormalChipCount + NaviChipCount + DarkChipCount + 1 + PACount, PACount)
-                    .Select(i => this.ChipEntryFromID(chipFolder, i)).ToList(),
+                Chips = FillBlanks(allChips.Where(c => IsIllegalPredicate(c.Chip))),
                 Title = ShanghaiEXE.Translate("DataList.Illegal"),
                 TitleColor = Color.DarkRed,
                 LeftPage = LibraryPageType.PA,
@@ -405,22 +402,49 @@ namespace NSMap.Character.Menu
 
         private ChipEntry ChipEntryFromID(ChipFolder folder, int id)
         {
-            var chipBase = folder.ReturnChip(id);
-            var chipDisplayName = (chipBase is DammyChip) ? id : (int?)null;
-            var chipIsSeen = !(chipBase is DammyChip) && this.savedata.datelist[id - 1];
-            return new ChipEntry { IsSeen = chipIsSeen, Chip = chipBase, ChipDisplayNumber = $"{chipDisplayName ?? chipBase.number}" };
+            return this.ChipEntryFromChipBase(folder.ReturnChip(id), id);
         }
 
-        private enum LibraryState
+        private ChipEntry ChipEntryFromChipBase(ChipBase chipBase, int id)
         {
-            FadeIn,
-            FadeOut,
-            MoveLeft,
-            MoveRight,
-            Active
+            var chipDisplayId = (chipBase is DammyChip) ? id.ToString() : chipBase.libraryDisplayId ?? chipBase.number.ToString();
+            var chipIsSeen = !(chipBase is DammyChip) && this.savedata.datelist[id - 1];
+            return new ChipEntry { IsSeen = chipIsSeen, Chip = chipBase, DisplayId = chipDisplayId };
         }
 
-        private enum LibraryPageType
+        private IList<ChipEntry> FillBlanks(IEnumerable<ChipEntry> realChips)
+        {
+            var realChipsList = realChips.ToList();
+            var chipSeries = realChipsList.GroupBy(c => string.Join("", c.DisplayId.Where(ch => !char.IsDigit(ch)))).OrderBy(g => g.Key);
+            var processedChips = new List<ChipEntry>();
+            foreach (var series in chipSeries)
+            {
+                var parsedChips = series.Select(c => Tuple.Create(string.Join("", c.DisplayId.Where(ch => char.IsDigit(ch))), c)).ToList();
+                var unNumberedChips = parsedChips.Where(tup => string.IsNullOrEmpty(tup.Item1)).Select(tup => tup.Item2);
+                processedChips.AddRange(unNumberedChips);
+
+                var numberedChips = parsedChips.Where(tup => !string.IsNullOrEmpty(tup.Item1)).Select(tup => Tuple.Create(int.Parse(tup.Item1), tup.Item2)).ToList();
+                if (numberedChips.Any())
+                {
+                    var minNumber = numberedChips.Min(tup => tup.Item1);
+                    var maxNumber = numberedChips.Max(tup => tup.Item1);
+                    for (var i = minNumber; i <= maxNumber; i++)
+                    {
+                        var existingChips = numberedChips.Where(tup => tup.Item1 == i).Select(tup => tup.Item2);
+                        if (!existingChips.Any())
+                        {
+                            existingChips = new[] { new ChipEntry { IsSeen = false, Chip = new DammyChip(this.sound), DisplayId = $"{series.Key}{i}" } };
+                        }
+
+                        processedChips.AddRange(existingChips);
+                    }
+                }
+            }
+
+            return processedChips;
+        }
+
+        public enum LibraryPageType
         {
             Normal,
             Navi,
@@ -429,9 +453,9 @@ namespace NSMap.Character.Menu
             Illegal
         }
 
-        private class LibraryPage
+        public class LibraryPage
         {
-            public List<ChipEntry> Chips { get; set; }
+            public IList<ChipEntry> Chips { get; set; }
             public TextArea CustomTextArea { get; set; }
             public string Title { get; set; }
             public Color TitleColor { get; set; }
@@ -448,18 +472,27 @@ namespace NSMap.Character.Menu
             public bool IsComplete => this.Seen == this.Count;
         }
 
-        private class ChipEntry
+        public class ChipEntry
         {
             public bool IsSeen { get; set; }
             public ChipBase Chip { get; set; }
-            public string ChipDisplayNumber { get; set; }
+            public string DisplayId { get; set; }
             public int CurrentCodeNumber { get; set; }
         }
 
-        private class TextArea
+        public class TextArea
         {
             public Rectangle Sprite { get; set; }
             public Vector2 Position { get; set; }
+        }
+
+        private enum LibraryState
+        {
+            FadeIn,
+            FadeOut,
+            MoveLeft,
+            MoveRight,
+            Active
         }
     }
 }

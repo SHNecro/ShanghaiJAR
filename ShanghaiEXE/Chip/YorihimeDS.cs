@@ -30,6 +30,7 @@ namespace NSChip
           : base(s)
         {
             this.navi = true;
+            this.libraryDisplayId = NSGame.ShanghaiEXE.Translate("DataList.IllegalChipDisplayId");
             this.number = 268;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.YorihimeDSName");
             this.element = ChipBase.ELEMENT.normal;

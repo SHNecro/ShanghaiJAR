@@ -1,19 +1,17 @@
 ﻿using ExtensionMethods;
 using NSAddOn;
 using NSChip;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
-using NSShanghaiEXE.InputOutput.Rendering;
 using NSShanghaiEXE.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Security.Cryptography;
-using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Threading;
-using System.Xml;
 using Common.EncodeDecode;
+using NSShanghaiEXE.InputOutput;
+using NSMap.Character.Menu;
+using static NSMap.Character.Menu.Library;
+using System.Linq;
 
 namespace NSGame
 {
@@ -583,15 +581,79 @@ namespace NSGame
 
         private void RetconSave()
         {
-            // 0 : unmodified, fix BGM override if game ended.
-            // TODO: Add exceptions if BGM override happens after game ends, before postgame started.
+            // 0 : unmodified, fix hospital event incident BGM not cleared.
             if (this.ValList[199] == 0)
             {
+                // If hospital event complete, the postgame hasn't started, and endgame robots aren't out 
                 if (this.FlagList[744] && !this.FlagList[791] && this.ValList[10] != 7)
                 {
                     this.ValList[14] = 0;
                 }
                 this.ValList[199] = 1;
+            }
+
+            // 1: 0.550, fix chip ID issues, add illegal chips to library (only recordkeeping)
+            // Refund duplicate addons
+            // TODO: Implement
+            if (this.ValList[199] == 1)
+            {
+                var replacements = new[]
+                {
+                    new { Original = 416, New = 253 },
+                    new { Original = 417, New = 254 },
+                    new { Original = 266, New = 313 }
+                };
+                // Replace in-folder chips
+                for (var folderIndex = 0; folderIndex < this.chipFolder.GetLength(0); folderIndex++)
+                {
+                    for (var chipIndex = 0; chipIndex < this.chipFolder.GetLength(1); chipIndex++)
+                    {
+                        foreach (var replacement in replacements)
+                        {
+                            if (this.chipFolder[folderIndex, chipIndex, 0] == replacement.Original)
+                            {
+                                this.chipFolder[folderIndex, chipIndex, 0] = replacement.New;
+                            }
+                        }
+                    }
+                }
+                // Replace in-bag chips
+                for (var codeIndex = 0; codeIndex < 4; codeIndex++)
+                {
+                    foreach (var replacement in replacements)
+                    {
+                        this.havechip[replacement.New, codeIndex] = this.havechip[replacement.Original, codeIndex];
+                        this.havechip[replacement.Original, codeIndex] = 0;
+                    }
+                }
+                for (var chipIndex = 0; chipIndex < this.havechips.Count; chipIndex++)
+                {
+                    foreach (var replacement in replacements)
+                    {
+                        if (this.havechips[chipIndex].number == replacement.Original)
+                        {
+                            this.havechips[chipIndex] = new ChipS(replacement.New, this.havechips[chipIndex].code);
+                        }
+                    }
+                }
+
+                // Add illegal chips to seen list
+                for (var chipIndex = 310; chipIndex < this.havechip.GetLength(0); chipIndex++)
+                {
+                    if (this.havechip[chipIndex, 0] > 0 || this.havechip[chipIndex, 1] > 0 || this.havechip[chipIndex, 2] > 0 || this.havechip[chipIndex, 3] > 0)
+                    {
+                        this.datelist[chipIndex - 1] = true;
+                    }
+                }
+
+                // Add/remove chips from seen list
+                foreach (var replacement in replacements)
+                {
+                    this.datelist[replacement.New - 1] = this.datelist[replacement.Original - 1];
+                    this.datelist[replacement.Original - 1] = false;
+                }
+
+                this.ValList[199] = 2;
             }
         }
 
@@ -1120,62 +1182,6 @@ namespace NSGame
             this.addonSkill = new bool[Enum.GetNames(typeof(SaveData.ADDONSKILL)).Length];
         }
 
-        public int Comp_normal
-        {
-            get
-            {
-                int num = 0;
-                for (int index = 0; index < 190; ++index)
-                {
-                    if (this.datelist[index])
-                        ++num;
-                }
-                return num;
-            }
-        }
-
-        public int Comp_navi
-        {
-            get
-            {
-                int num = 0;
-                for (int index = 190; index < 254; ++index)
-                {
-                    if (this.datelist[index])
-                        ++num;
-                }
-                return num;
-            }
-        }
-
-        public int Comp_dark
-        {
-            get
-            {
-                int num = 0;
-                for (int index = 254; index < 270; ++index)
-                {
-                    if (this.datelist[index])
-                        ++num;
-                }
-                return num;
-            }
-        }
-
-        public int Comp_PA
-        {
-            get
-            {
-                int num = 0;
-                for (int index = 270; index < 450; ++index)
-                {
-                    if (this.datelist[index])
-                        ++num;
-                }
-                return num;
-            }
-        }
-
         public int[,] ShopCount
         {
             get
@@ -1417,7 +1423,11 @@ namespace NSGame
 
         public string GetHaveManyChips()
         {
-            return "" + "S" + this.Comp_normal.ToString() + "/ N" + this.Comp_navi.ToString() + "/ D" + this.Comp_dark.ToString();
+            var completionLibrary = new Library(null, null, null, this);
+            var normalChips = completionLibrary.LibraryPages[LibraryPageType.Normal].Chips.Count(c => c.IsSeen);
+            var naviChips = completionLibrary.LibraryPages[LibraryPageType.Navi].Chips.Count(c => c.IsSeen);
+            var darkChips = completionLibrary.LibraryPages[LibraryPageType.Dark].Chips.Count(c => c.IsSeen);
+            return $"S{normalChips}/ N{naviChips}/ D{darkChips}";
         }
 
         public string GetHaveChips()
@@ -1512,7 +1522,7 @@ namespace NSGame
                 if (chipno <= 0)
                     return;
                 chipcode = this.CodeCheck(chipno, chipcode);
-                if (chipno < 310 && !this.datelist[chipno - 1])
+                if (!this.datelist[chipno - 1])
                     this.datelist[chipno - 1] = true;
                 if (this.havechip[chipno, chipcode] < 99)
                     ++this.havechip[chipno, chipcode];

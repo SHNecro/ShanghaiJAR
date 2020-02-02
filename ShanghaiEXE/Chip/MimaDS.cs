@@ -26,6 +26,7 @@ namespace NSChip
           : base(s)
         {
             this.navi = true;
+            this.libraryDisplayId = NSGame.ShanghaiEXE.Translate("DataList.IllegalChipDisplayId");
             this.number = 269;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.MimaDSName");
             this.element = ChipBase.ELEMENT.poison;

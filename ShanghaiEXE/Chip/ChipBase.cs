@@ -61,6 +61,7 @@ namespace NSChip
         private bool boEndOK2;
         public string powertxt;
         public int nameAlpha;
+        public string libraryDisplayId;
 
         public ChipBase(MyAudio s)
           : base(s)

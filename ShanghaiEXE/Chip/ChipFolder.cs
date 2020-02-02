@@ -1,768 +1,393 @@
 ﻿using NSShanghaiEXE.InputOutput;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
+using System;
+using System.Collections.Generic;
 
 namespace NSChip
 {
     public class ChipFolder : AllBase
     {
+        public static Dictionary<int, Func<MyAudio, ChipBase>> Chips;
+
+        static ChipFolder()
+        {
+            Chips = new Dictionary<int, Func<MyAudio, ChipBase>>();
+            Chips[1] = (sound) => new Reygun(sound);
+            Chips[2] = (sound) => new MegaReygun(sound);
+            Chips[3] = (sound) => new GigaReygun(sound);
+            Chips[4] = (sound) => new SeedCanon1(sound);
+            Chips[5] = (sound) => new SeedCanon2(sound);
+            Chips[6] = (sound) => new SeedCanon3(sound);
+            Chips[7] = (sound) => new ChargeCanon1(sound);
+            Chips[8] = (sound) => new ChargeCanon2(sound);
+            Chips[9] = (sound) => new ChargeCanon3(sound);
+            Chips[10] = (sound) => new MedousaEye(sound);
+            Chips[11] = (sound) => new Hakkero1(sound);
+            Chips[12] = (sound) => new Hakkero2(sound);
+            Chips[13] = (sound) => new Hakkero3(sound);
+            Chips[14] = (sound) => new FireArm1(sound);
+            Chips[15] = (sound) => new FireArm2(sound);
+            Chips[16] = (sound) => new FireArm3(sound);
+            Chips[17] = (sound) => new ShotWave(sound);
+            Chips[18] = (sound) => new ShootWave(sound);
+            Chips[19] = (sound) => new GroundWave(sound);
+            Chips[20] = (sound) => new GigantWave(sound);
+            Chips[21] = (sound) => new PoisonShot(sound);
+            Chips[22] = (sound) => new BreakShot(sound);
+            Chips[23] = (sound) => new ColdShot(sound);
+            Chips[24] = (sound) => new ColdAir1(sound);
+            Chips[25] = (sound) => new ColdAir2(sound);
+            Chips[26] = (sound) => new ColdAir3(sound);
+            Chips[27] = (sound) => new ShellArmor1(sound);
+            Chips[28] = (sound) => new ShellArmor2(sound);
+            Chips[29] = (sound) => new ShellArmor3(sound);
+            Chips[30] = (sound) => new BrocraLink1(sound);
+            Chips[31] = (sound) => new BrocraLink2(sound);
+            Chips[32] = (sound) => new BrocraLink3(sound);
+            Chips[33] = (sound) => new ElekiChain1(sound);
+            Chips[34] = (sound) => new ElekiChain2(sound);
+            Chips[35] = (sound) => new ElekiChain3(sound);
+            Chips[36] = (sound) => new TrapNet(sound);
+            Chips[37] = (sound) => new FireNet(sound);
+            Chips[38] = (sound) => new PoisonNet(sound);
+            Chips[39] = (sound) => new ElekiNet(sound);
+            Chips[40] = (sound) => new GraviBall1(sound);
+            Chips[41] = (sound) => new GraviBall2(sound);
+            Chips[42] = (sound) => new GraviBall3(sound);
+            Chips[43] = (sound) => new DustBomb(sound);
+            Chips[44] = (sound) => new MagicBomb(sound);
+            Chips[45] = (sound) => new StarBomb(sound);
+            Chips[46] = (sound) => new HeavyAnchor1(sound);
+            Chips[47] = (sound) => new HeavyAnchor2(sound);
+            Chips[48] = (sound) => new HeavyAnchor3(sound);
+            Chips[49] = (sound) => new LjiOtama1(sound);
+            Chips[50] = (sound) => new LjiOtama2(sound);
+            Chips[51] = (sound) => new LjiOtama3(sound);
+            Chips[52] = (sound) => new PowerOfEarth(sound);
+            Chips[53] = (sound) => new BubbleBlust1(sound);
+            Chips[54] = (sound) => new BubbleBlust2(sound);
+            Chips[55] = (sound) => new BubbleBlust3(sound);
+            Chips[56] = (sound) => new RebirthShield(sound);
+            Chips[57] = (sound) => new LifeShield(sound);
+            Chips[58] = (sound) => new ReflectShield(sound);
+            Chips[59] = (sound) => new Knife(sound);
+            Chips[60] = (sound) => new SilverKnife(sound);
+            Chips[61] = (sound) => new HakurouBlade(sound);
+            Chips[62] = (sound) => new Sword(sound);
+            Chips[63] = (sound) => new HeatSword(sound);
+            Chips[64] = (sound) => new LeafSword(sound);
+            Chips[65] = (sound) => new IceSword(sound);
+            Chips[66] = (sound) => new BraveSword(sound);
+            Chips[67] = (sound) => new CrossSword(sound);
+            Chips[68] = (sound) => new ThujigiriSword(sound);
+            Chips[69] = (sound) => new ThujigiriCross(sound);
+            Chips[70] = (sound) => new RoukanBlade(sound);
+            Chips[71] = (sound) => new Lance(sound);
+            Chips[72] = (sound) => new KnightLance(sound);
+            Chips[73] = (sound) => new PaladinLance(sound);
+            Chips[74] = (sound) => new DigDrill1(sound);
+            Chips[75] = (sound) => new DigDrill2(sound);
+            Chips[76] = (sound) => new DigDrill3(sound);
+            Chips[77] = (sound) => new ElekiDrill(sound);
+            Chips[78] = (sound) => new FlaeGun1(sound);
+            Chips[79] = (sound) => new FlaeGun2(sound);
+            Chips[80] = (sound) => new FlaeGun3(sound);
+            Chips[81] = (sound) => new BronzeNapalm(sound);
+            Chips[82] = (sound) => new MetalNapalm(sound);
+            Chips[83] = (sound) => new MithrillNapalm(sound);
+            Chips[84] = (sound) => new FuhathuNapalm(sound);
+            Chips[85] = (sound) => new Storm(sound);
+            Chips[86] = (sound) => new HellStorm(sound);
+            Chips[87] = (sound) => new ElekiStorm(sound);
+            Chips[88] = (sound) => new LeafStorm(sound);
+            Chips[89] = (sound) => new AquaStorm(sound);
+            Chips[90] = (sound) => new SandStorm(sound);
+            Chips[91] = (sound) => new BioStorm(sound);
+            Chips[92] = (sound) => new BackWind(sound);
+            Chips[93] = (sound) => new PushWind(sound);
+            Chips[94] = (sound) => new ChainGun1(sound);
+            Chips[95] = (sound) => new ChainGun2(sound);
+            Chips[96] = (sound) => new ChainGun3(sound);
+            Chips[97] = (sound) => new DragnoBreath1(sound);
+            Chips[98] = (sound) => new DragnoBreath2(sound);
+            Chips[99] = (sound) => new DragnoBreath3(sound);
+            Chips[100] = (sound) => new PanelShoot1(sound);
+            Chips[101] = (sound) => new PanelShoot2(sound);
+            Chips[102] = (sound) => new PanelShoot3(sound);
+            Chips[103] = (sound) => new Tomahawk(sound);
+            Chips[104] = (sound) => new MegaTomahawk(sound);
+            Chips[105] = (sound) => new GigaTomahawk(sound);
+            Chips[106] = (sound) => new DeathWiper1(sound);
+            Chips[107] = (sound) => new DeathWiper2(sound);
+            Chips[108] = (sound) => new DeathWiper3(sound);
+            Chips[109] = (sound) => new PonpocoJizou1(sound);
+            Chips[110] = (sound) => new PonpocoJizou2(sound);
+            Chips[111] = (sound) => new PonpocoJizou3(sound);
+            Chips[112] = (sound) => new Railgun1(sound);
+            Chips[113] = (sound) => new Railgun2(sound);
+            Chips[114] = (sound) => new Railgun3(sound);
+            Chips[115] = (sound) => new KarehaWave1(sound);
+            Chips[116] = (sound) => new KarehaWave2(sound);
+            Chips[117] = (sound) => new KarehaWave3(sound);
+            Chips[118] = (sound) => new SandHell1(sound);
+            Chips[119] = (sound) => new SandHell2(sound);
+            Chips[120] = (sound) => new SandHell3(sound);
+            Chips[121] = (sound) => new ShotGun1(sound);
+            Chips[122] = (sound) => new ShotGun2(sound);
+            Chips[123] = (sound) => new ShotGun3(sound);
+            Chips[124] = (sound) => new AuraSword1(sound);
+            Chips[125] = (sound) => new AuraSword2(sound);
+            Chips[126] = (sound) => new AuraSword3(sound);
+            Chips[127] = (sound) => new ElekiFang1(sound);
+            Chips[128] = (sound) => new ElekiFang2(sound);
+            Chips[129] = (sound) => new ElekiFang3(sound);
+            Chips[130] = (sound) => new MonkeyPole1(sound);
+            Chips[131] = (sound) => new MonkeyPole2(sound);
+            Chips[132] = (sound) => new MonkeyPole3(sound);
+            Chips[133] = (sound) => new BioSpray1(sound);
+            Chips[134] = (sound) => new BioSpray2(sound);
+            Chips[135] = (sound) => new BioSpray3(sound);
+            Chips[136] = (sound) => new BusterAnp(sound);
+            Chips[137] = (sound) => new DanmakuValucun(sound);
+            Chips[138] = (sound) => new ZSaber(sound);
+            Chips[139] = (sound) => new TripleRod(sound);
+            Chips[140] = (sound) => new ZeroKnuckle(sound);
+            Chips[141] = (sound) => new WhiteCard(sound);
+            Chips[142] = (sound) => new Cube(sound);
+            Chips[143] = (sound) => new MetalCube(sound);
+            Chips[144] = (sound) => new WhiteSuzuran(sound);
+            Chips[145] = (sound) => new BlueSuzuran(sound);
+            Chips[146] = (sound) => new Okatazuke(sound);
+            Chips[147] = (sound) => new Barrier(sound);
+            Chips[148] = (sound) => new HealBarrier(sound);
+            Chips[149] = (sound) => new FloatBarrier(sound);
+            Chips[150] = (sound) => new PowerAura(sound);
+            Chips[151] = (sound) => new ElementsAura(sound);
+            Chips[152] = (sound) => new MetalAura(sound);
+            Chips[153] = (sound) => new BubbleLotion(sound);
+            Chips[154] = (sound) => new MeltRaw(sound);
+            Chips[155] = (sound) => new BlindReaf(sound);
+            Chips[156] = (sound) => new GraviField(sound);
+            Chips[157] = (sound) => new TimeStopper(sound);
+            Chips[158] = (sound) => new Eriabash(sound);
+            Chips[159] = (sound) => new EriaGuard(sound);
+            Chips[160] = (sound) => new BurnerRoad(sound);
+            Chips[161] = (sound) => new BurnerStage(sound);
+            Chips[162] = (sound) => new IceRoad(sound);
+            Chips[163] = (sound) => new IceStage(sound);
+            Chips[164] = (sound) => new GrassRoad(sound);
+            Chips[165] = (sound) => new GrassStage(sound);
+            Chips[166] = (sound) => new ThunderRoad(sound);
+            Chips[167] = (sound) => new ThunderStage(sound);
+            Chips[168] = (sound) => new SandRoad(sound);
+            Chips[169] = (sound) => new SandStage(sound);
+            Chips[170] = (sound) => new PoisonRoad(sound);
+            Chips[171] = (sound) => new PoisonStage(sound);
+            Chips[172] = (sound) => new RefreRoad(sound);
+            Chips[173] = (sound) => new RefreStage(sound);
+            Chips[174] = (sound) => new Repair20(sound);
+            Chips[175] = (sound) => new Repair50(sound);
+            Chips[176] = (sound) => new Repair100(sound);
+            Chips[177] = (sound) => new Repair150(sound);
+            Chips[178] = (sound) => new Repair200(sound);
+            Chips[179] = (sound) => new Repair300(sound);
+            Chips[180] = (sound) => new Repair500(sound);
+            Chips[181] = (sound) => new Resist(sound);
+            Chips[182] = (sound) => new GhostBody(sound);
+            Chips[183] = (sound) => new ShadowBody(sound);
+            Chips[184] = (sound) => new SynchroBody(sound);
+            Chips[185] = (sound) => new QuickCustom(sound);
+            Chips[186] = (sound) => new SlowCustom(sound);
+            Chips[187] = (sound) => new CustomMax(sound);
+            Chips[188] = (sound) => new PowerPlus10(sound);
+            Chips[189] = (sound) => new PowerPlus30(sound);
+            Chips[190] = (sound) => new ParayzeCassette(sound);
+            Chips[191] = (sound) => new MarisaV1(sound);
+            Chips[192] = (sound) => new MarisaV2(sound);
+            Chips[193] = (sound) => new MarisaV3(sound);
+            Chips[194] = (sound) => new SakuyaV1(sound);
+            Chips[195] = (sound) => new SakuyaV2(sound);
+            Chips[196] = (sound) => new SakuyaV3(sound);
+            Chips[197] = (sound) => new TankmanV1(sound);
+            Chips[198] = (sound) => new TankmanV2(sound);
+            Chips[199] = (sound) => new TankmanV3(sound);
+            Chips[200] = (sound) => new SpannerManV1(sound);
+            Chips[201] = (sound) => new SpannerManV2(sound);
+            Chips[202] = (sound) => new SpannerManV3(sound);
+            /* 203 - 205 */
+            Chips[206] = (sound) => new HakutakuManV1(sound);
+            Chips[207] = (sound) => new HakutakuManV2(sound);
+            Chips[208] = (sound) => new HakutakuManV3(sound);
+            Chips[209] = (sound) => new TortoiseManV1(sound);
+            Chips[210] = (sound) => new TortoiseManV2(sound);
+            Chips[211] = (sound) => new TortoiseManV3(sound);
+            Chips[212] = (sound) => new BeatleManV1(sound);
+            Chips[213] = (sound) => new BeatleManV2(sound);
+            Chips[214] = (sound) => new BeatleManV3(sound);
+            Chips[215] = (sound) => new YorihimeV1(sound);
+            Chips[216] = (sound) => new YorihimeV2(sound);
+            Chips[217] = (sound) => new YorihimeV3(sound);
+            Chips[218] = (sound) => new CirnoV1(sound);
+            Chips[219] = (sound) => new CirnoV2(sound);
+            Chips[220] = (sound) => new CirnoV3(sound);
+            Chips[221] = (sound) => new MedicineV1(sound);
+            Chips[222] = (sound) => new MedicineV2(sound);
+            Chips[223] = (sound) => new MedicineV3(sound);
+            Chips[224] = (sound) => new IkuV1(sound);
+            Chips[225] = (sound) => new IkuV2(sound);
+            Chips[226] = (sound) => new IkuV3(sound);
+            Chips[227] = (sound) => new PyroManV1(sound);
+            Chips[228] = (sound) => new PyroManV2(sound);
+            Chips[229] = (sound) => new PyroManV3(sound);
+            Chips[230] = (sound) => new MrasaV1(sound);
+            Chips[231] = (sound) => new MrasaV2(sound);
+            Chips[232] = (sound) => new MrasaV3(sound);
+            Chips[233] = (sound) => new ScissorManV1(sound);
+            Chips[234] = (sound) => new ScissorManV2(sound);
+            Chips[235] = (sound) => new ScissorManV3(sound);
+            Chips[236] = (sound) => new ChenV1(sound);
+            Chips[237] = (sound) => new ChenV2(sound);
+            Chips[238] = (sound) => new ChenV3(sound);
+            Chips[239] = (sound) => new RanV1(sound);
+            Chips[240] = (sound) => new RanV2(sound);
+            Chips[241] = (sound) => new RanV3(sound);
+            Chips[242] = (sound) => new YoumuV1(sound);
+            Chips[243] = (sound) => new YoumuV2(sound);
+            Chips[244] = (sound) => new YoumuV3(sound);
+            Chips[245] = (sound) => new DruidMnV1(sound);
+            Chips[246] = (sound) => new DruidMnV2(sound);
+            Chips[247] = (sound) => new DruidMnV3(sound);
+            /* 248 - 251 */
+            Chips[252] = (sound) => new UthuhoV1(sound);
+            Chips[253] = (sound) => new UthuhoV2(sound);
+            Chips[254] = (sound) => new UthuhoV3(sound);
+
+            Chips[255] = (sound) => new DarkReygun(sound);
+            Chips[256] = (sound) => new DarkSpark(sound);
+            Chips[257] = (sound) => new DarkBreath(sound);
+            Chips[258] = (sound) => new DarkWiper(sound);
+            Chips[259] = (sound) => new DarkSand(sound);
+            Chips[260] = (sound) => new DarkFang(sound);
+            Chips[261] = (sound) => new DarkAnchor(sound);
+            Chips[262] = (sound) => new DarkAutumn(sound);
+            Chips[263] = (sound) => new DarkHurricane(sound);
+            Chips[264] = (sound) => new DarkRepair(sound);
+            Chips[265] = (sound) => new DarkAura(sound);
+            Chips[266] = (sound) => new DarkFlae(sound);
+            // FlandreDS: 266 -> 313
+            Chips[267] = (sound) => new UthuhoDS(sound);
+            Chips[268] = (sound) => new YorihimeDS(sound);
+            Chips[269] = (sound) => new MimaDS(sound);
+            Chips[270] = (sound) => new RanDS(sound);
+            // Display: Kikuri ??
+            // Display: FlandreDS ??
+
+            Chips[271] = (sound) => new HiCanon(sound);
+            Chips[272] = (sound) => new HiMegaCanon(sound);
+            Chips[273] = (sound) => new MegaHalberd(sound);
+            Chips[274] = (sound) => new GigaHalberd(sound);
+            Chips[275] = (sound) => new BigTyphoon(sound);
+            Chips[276] = (sound) => new FlashBurn(sound);
+            Chips[277] = (sound) => new EXSprayGun(sound);
+            Chips[278] = (sound) => new AuraSlash(sound);
+            Chips[279] = (sound) => new EndlessSahara(sound);
+            Chips[280] = (sound) => new MassDriver(sound);
+            Chips[281] = (sound) => new ElementSword(sound);
+            Chips[282] = (sound) => new PlantPrison(sound);
+            Chips[283] = (sound) => new SwordOffGun(sound);
+            Chips[284] = (sound) => new MasterSpark(sound);
+            Chips[285] = (sound) => new SathujinDoll(sound);
+            Chips[286] = (sound) => new KishinCanon(sound);
+            Chips[287] = (sound) => new HyperSpanner(sound);
+            Chips[288] = (sound) => new DisasterCrow(sound);
+            Chips[289] = (sound) => new HellsHockey(sound);
+            Chips[290] = (sound) => new TwinHeroines(sound);
+            Chips[291] = (sound) => new FreezerSword(sound);
+            Chips[292] = (sound) => new BioHazard(sound);
+            Chips[293] = (sound) => new DrillBreaker(sound);
+            Chips[294] = (sound) => new RainAnchor(sound);
+            Chips[295] = (sound) => new MiraiEigouZan(sound);
+            Chips[296] = (sound) => new DreamMeteo(sound);
+            Chips[297] = (sound) => new BeastBreath(sound);
+            Chips[298] = (sound) => new ProtonThunder(sound);
+            Chips[299] = (sound) => new JusticeRey(sound);
+            Chips[300] = (sound) => new InfiniteHands(sound);
+            Chips[301] = (sound) => new FalBreazer(sound);
+            Chips[302] = (sound) => new MasterStyle(sound);
+            /* 303 - 309 */
+            Chips[310] = (sound) => new VirusBall1(sound, true);
+            Chips[311] = (sound) => new VirusBall2(sound, true);
+            Chips[312] = (sound) => new VirusBall3(sound, true);
+
+            Chips[313] = (sound) => new FlandreDS(sound);
+            /* 313 - 349 */
+            Chips[350] = (sound) => new ElekiChainX(sound);
+            Chips[351] = (sound) => new GraviBallX(sound);
+            Chips[352] = (sound) => new AuraSwordX(sound);
+            Chips[353] = (sound) => new BubbleBlustX(sound);
+            Chips[354] = (sound) => new PoisonShotX(sound);
+            Chips[355] = (sound) => new ColdAirX(sound);
+            Chips[356] = (sound) => new RailgunX(sound);
+            Chips[357] = (sound) => new StormX(sound);
+            Chips[358] = (sound) => new ShotGunX(sound);
+            Chips[359] = (sound) => new ChainGunX(sound);
+            Chips[360] = (sound) => new MetalNapalmX(sound);
+            Chips[361] = (sound) => new BioSprayX(sound);
+            Chips[362] = (sound) => new ThujigiriSwordX(sound);
+            Chips[363] = (sound) => new TomahawkX(sound);
+            Chips[364] = (sound) => new BrocraLinkX(sound);
+            Chips[365] = (sound) => new RebirthShieldX(sound);
+            Chips[366] = (sound) => new FireArmX(sound);
+            Chips[367] = (sound) => new MonkeyPoleX(sound);
+            Chips[368] = (sound) => new PonpocoJizouX(sound);
+            Chips[369] = (sound) => new DigDrillX(sound);
+            Chips[370] = (sound) => new OmegaSaber(sound);
+            Chips[371] = (sound) => new SeedCanonX(sound);
+            Chips[372] = (sound) => new ChargeCanonX(sound);
+            Chips[373] = (sound) => new ShellArmorX(sound);
+            Chips[374] = (sound) => new MagicBombX(sound);
+            Chips[375] = (sound) => new LjiOtamaX(sound);
+            Chips[376] = (sound) => new FlaeGunX(sound);
+            Chips[377] = (sound) => new PanelShootX(sound);
+            /* 378 - 379 */
+            Chips[380] = (sound) => new TurtleHockey(sound);
+            /* 381 - 399 */
+            Chips[400] = (sound) => new MarisaX(sound);
+            Chips[401] = (sound) => new CirnoX(sound);
+            Chips[402] = (sound) => new SakuyaX(sound);
+            Chips[403] = (sound) => new MedicineX(sound);
+            Chips[404] = (sound) => new TankmanX(sound);
+            Chips[405] = (sound) => new IkuX(sound);
+            Chips[406] = (sound) => new SpannerManX(sound);
+            Chips[407] = (sound) => new YorihimeX(sound);
+            Chips[408] = (sound) => new TortoiseManX(sound);
+            Chips[409] = (sound) => new HakutakuManX(sound);
+            Chips[410] = (sound) => new PyroManX(sound);
+            Chips[411] = (sound) => new BeatleManX(sound);
+            Chips[412] = (sound) => new MrasaX(sound);
+            Chips[413] = (sound) => new ScissorManX(sound);
+            Chips[414] = (sound) => new ChenX(sound);
+            Chips[415] = (sound) => new RanX(sound);
+            /* 416 - 417 */
+            Chips[418] = (sound) => new YoumuX(sound);
+            Chips[419] = (sound) => new DruidMnX(sound);
+            Chips[430] = (sound) => new Kikuri(sound);
+        }
+
         public bool inchip;
         public ChipBase chip;
         public int codeNo;
 
         public ChipBase ReturnChip(int key)
         {
-            switch (key)
+            if (Chips.ContainsKey(key))
             {
-                case 0:
-                    return new DammyChip(this.sound);
-                case 1:
-                    return new Reygun(this.sound);
-                case 2:
-                    return new MegaReygun(this.sound);
-                case 3:
-                    return new GigaReygun(this.sound);
-                case 4:
-                    return new SeedCanon1(this.sound);
-                case 5:
-                    return new SeedCanon2(this.sound);
-                case 6:
-                    return new SeedCanon3(this.sound);
-                case 7:
-                    return new ChargeCanon1(this.sound);
-                case 8:
-                    return new ChargeCanon2(this.sound);
-                case 9:
-                    return new ChargeCanon3(this.sound);
-                case 10:
-                    return new MedousaEye(this.sound);
-                case 11:
-                    return new Hakkero1(this.sound);
-                case 12:
-                    return new Hakkero2(this.sound);
-                case 13:
-                    return new Hakkero3(this.sound);
-                case 14:
-                    return new FireArm1(this.sound);
-                case 15:
-                    return new FireArm2(this.sound);
-                case 16:
-                    return new FireArm3(this.sound);
-                case 17:
-                    return new ShotWave(this.sound);
-                case 18:
-                    return new ShootWave(this.sound);
-                case 19:
-                    return new GroundWave(this.sound);
-                case 20:
-                    return new GigantWave(this.sound);
-                case 21:
-                    return new PoisonShot(this.sound);
-                case 22:
-                    return new BreakShot(this.sound);
-                case 23:
-                    return new ColdShot(this.sound);
-                case 24:
-                    return new ColdAir1(this.sound);
-                case 25:
-                    return new ColdAir2(this.sound);
-                case 26:
-                    return new ColdAir3(this.sound);
-                case 27:
-                    return new ShellArmor1(this.sound);
-                case 28:
-                    return new ShellArmor2(this.sound);
-                case 29:
-                    return new ShellArmor3(this.sound);
-                case 30:
-                    return new BrocraLink1(this.sound);
-                case 31:
-                    return new BrocraLink2(this.sound);
-                case 32:
-                    return new BrocraLink3(this.sound);
-                case 33:
-                    return new ElekiChain1(this.sound);
-                case 34:
-                    return new ElekiChain2(this.sound);
-                case 35:
-                    return new ElekiChain3(this.sound);
-                case 36:
-                    return new TrapNet(this.sound);
-                case 37:
-                    return new FireNet(this.sound);
-                case 38:
-                    return new PoisonNet(this.sound);
-                case 39:
-                    return new ElekiNet(this.sound);
-                case 40:
-                    return new GraviBall1(this.sound);
-                case 41:
-                    return new GraviBall2(this.sound);
-                case 42:
-                    return new GraviBall3(this.sound);
-                case 43:
-                    return new DustBomb(this.sound);
-                case 44:
-                    return new MagicBomb(this.sound);
-                case 45:
-                    return new StarBomb(this.sound);
-                case 46:
-                    return new HeavyAnchor1(this.sound);
-                case 47:
-                    return new HeavyAnchor2(this.sound);
-                case 48:
-                    return new HeavyAnchor3(this.sound);
-                case 49:
-                    return new LjiOtama1(this.sound);
-                case 50:
-                    return new LjiOtama2(this.sound);
-                case 51:
-                    return new LjiOtama3(this.sound);
-                case 52:
-                    return new PowerOfEarth(this.sound);
-                case 53:
-                    return new BubbleBlust1(this.sound);
-                case 54:
-                    return new BubbleBlust2(this.sound);
-                case 55:
-                    return new BubbleBlust3(this.sound);
-                case 56:
-                    return new RebirthShield(this.sound);
-                case 57:
-                    return new LifeShield(this.sound);
-                case 58:
-                    return new ReflectShield(this.sound);
-                case 59:
-                    return new Knife(this.sound);
-                case 60:
-                    return new SilverKnife(this.sound);
-                case 61:
-                    return new HakurouBlade(this.sound);
-                case 62:
-                    return new Sword(this.sound);
-                case 63:
-                    return new HeatSword(this.sound);
-                case 64:
-                    return new LeafSword(this.sound);
-                case 65:
-                    return new IceSword(this.sound);
-                case 66:
-                    return new BraveSword(this.sound);
-                case 67:
-                    return new CrossSword(this.sound);
-                case 68:
-                    return new ThujigiriSword(this.sound);
-                case 69:
-                    return new ThujigiriCross(this.sound);
-                case 70:
-                    return new RoukanBlade(this.sound);
-                case 71:
-                    return new Lance(this.sound);
-                case 72:
-                    return new KnightLance(this.sound);
-                case 73:
-                    return new PaladinLance(this.sound);
-                case 74:
-                    return new DigDrill1(this.sound);
-                case 75:
-                    return new DigDrill2(this.sound);
-                case 76:
-                    return new DigDrill3(this.sound);
-                case 77:
-                    return new ElekiDrill(this.sound);
-                case 78:
-                    return new FlaeGun1(this.sound);
-                case 79:
-                    return new FlaeGun2(this.sound);
-                case 80:
-                    return new FlaeGun3(this.sound);
-                case 81:
-                    return new BronzeNapalm(this.sound);
-                case 82:
-                    return new MetalNapalm(this.sound);
-                case 83:
-                    return new MithrillNapalm(this.sound);
-                case 84:
-                    return new FuhathuNapalm(this.sound);
-                case 85:
-                    return new Storm(this.sound);
-                case 86:
-                    return new HellStorm(this.sound);
-                case 87:
-                    return new ElekiStorm(this.sound);
-                case 88:
-                    return new LeafStorm(this.sound);
-                case 89:
-                    return new AquaStorm(this.sound);
-                case 90:
-                    return new SandStorm(this.sound);
-                case 91:
-                    return new BioStorm(this.sound);
-                case 92:
-                    return new BackWind(this.sound);
-                case 93:
-                    return new PushWind(this.sound);
-                case 94:
-                    return new ChainGun1(this.sound);
-                case 95:
-                    return new ChainGun2(this.sound);
-                case 96:
-                    return new ChainGun3(this.sound);
-                case 97:
-                    return new DragnoBreath1(this.sound);
-                case 98:
-                    return new DragnoBreath2(this.sound);
-                case 99:
-                    return new DragnoBreath3(this.sound);
-                case 100:
-                    return new PanelShoot1(this.sound);
-                case 101:
-                    return new PanelShoot2(this.sound);
-                case 102:
-                    return new PanelShoot3(this.sound);
-                case 103:
-                    return new Tomahawk(this.sound);
-                case 104:
-                    return new MegaTomahawk(this.sound);
-                case 105:
-                    return new GigaTomahawk(this.sound);
-                case 106:
-                    return new DeathWiper1(this.sound);
-                case 107:
-                    return new DeathWiper2(this.sound);
-                case 108:
-                    return new DeathWiper3(this.sound);
-                case 109:
-                    return new PonpocoJizou1(this.sound);
-                case 110:
-                    return new PonpocoJizou2(this.sound);
-                case 111:
-                    return new PonpocoJizou3(this.sound);
-                case 112:
-                    return new Railgun1(this.sound);
-                case 113:
-                    return new Railgun2(this.sound);
-                case 114:
-                    return new Railgun3(this.sound);
-                case 115:
-                    return new KarehaWave1(this.sound);
-                case 116:
-                    return new KarehaWave2(this.sound);
-                case 117:
-                    return new KarehaWave3(this.sound);
-                case 118:
-                    return new SandHell1(this.sound);
-                case 119:
-                    return new SandHell2(this.sound);
-                case 120:
-                    return new SandHell3(this.sound);
-                case 121:
-                    return new ShotGun1(this.sound);
-                case 122:
-                    return new ShotGun2(this.sound);
-                case 123:
-                    return new ShotGun3(this.sound);
-                case 124:
-                    return new AuraSword1(this.sound);
-                case 125:
-                    return new AuraSword2(this.sound);
-                case 126:
-                    return new AuraSword3(this.sound);
-                case 127:
-                    return new ElekiFang1(this.sound);
-                case 128:
-                    return new ElekiFang2(this.sound);
-                case 129:
-                    return new ElekiFang3(this.sound);
-                case 130:
-                    return new MonkeyPole1(this.sound);
-                case 131:
-                    return new MonkeyPole2(this.sound);
-                case 132:
-                    return new MonkeyPole3(this.sound);
-                case 133:
-                    return new BioSpray1(this.sound);
-                case 134:
-                    return new BioSpray2(this.sound);
-                case 135:
-                    return new BioSpray3(this.sound);
-                case 136:
-                    return new BusterAnp(this.sound);
-                case 137:
-                    return new DanmakuValucun(this.sound);
-                case 138:
-                    return new ZSaber(this.sound);
-                case 139:
-                    return new TripleRod(this.sound);
-                case 140:
-                    return new ZeroKnuckle(this.sound);
-                case 141:
-                    return new WhiteCard(this.sound);
-                case 142:
-                    return new Cube(this.sound);
-                case 143:
-                    return new MetalCube(this.sound);
-                case 144:
-                    return new WhiteSuzuran(this.sound);
-                case 145:
-                    return new BlueSuzuran(this.sound);
-                case 146:
-                    return new Okatazuke(this.sound);
-                case 147:
-                    return new Barrier(this.sound);
-                case 148:
-                    return new HealBarrier(this.sound);
-                case 149:
-                    return new FloatBarrier(this.sound);
-                case 150:
-                    return new PowerAura(this.sound);
-                case 151:
-                    return new ElementsAura(this.sound);
-                case 152:
-                    return new MetalAura(this.sound);
-                case 153:
-                    return new BubbleLotion(this.sound);
-                case 154:
-                    return new MeltRaw(this.sound);
-                case 155:
-                    return new BlindReaf(this.sound);
-                case 156:
-                    return new GraviField(this.sound);
-                case 157:
-                    return new TimeStopper(this.sound);
-                case 158:
-                    return new Eriabash(this.sound);
-                case 159:
-                    return new EriaGuard(this.sound);
-                case 160:
-                    return new BurnerRoad(this.sound);
-                case 161:
-                    return new BurnerStage(this.sound);
-                case 162:
-                    return new IceRoad(this.sound);
-                case 163:
-                    return new IceStage(this.sound);
-                case 164:
-                    return new GrassRoad(this.sound);
-                case 165:
-                    return new GrassStage(this.sound);
-                case 166:
-                    return new ThunderRoad(this.sound);
-                case 167:
-                    return new ThunderStage(this.sound);
-                case 168:
-                    return new SandRoad(this.sound);
-                case 169:
-                    return new SandStage(this.sound);
-                case 170:
-                    return new PoisonRoad(this.sound);
-                case 171:
-                    return new PoisonStage(this.sound);
-                case 172:
-                    return new RefreRoad(this.sound);
-                case 173:
-                    return new RefreStage(this.sound);
-                case 174:
-                    return new Repair20(this.sound);
-                case 175:
-                    return new Repair50(this.sound);
-                case 176:
-                    return new Repair100(this.sound);
-                case 177:
-                    return new Repair150(this.sound);
-                case 178:
-                    return new Repair200(this.sound);
-                case 179:
-                    return new Repair300(this.sound);
-                case 180:
-                    return new Repair500(this.sound);
-                case 181:
-                    return new Resist(this.sound);
-                case 182:
-                    return new GhostBody(this.sound);
-                case 183:
-                    return new ShadowBody(this.sound);
-                case 184:
-                    return new SynchroBody(this.sound);
-                case 185:
-                    return new QuickCustom(this.sound);
-                case 186:
-                    return new SlowCustom(this.sound);
-                case 187:
-                    return new CustomMax(this.sound);
-                case 188:
-                    return new PowerPlus10(this.sound);
-                case 189:
-                    return new PowerPlus30(this.sound);
-                case 190:
-                    return new ParayzeCassette(this.sound);
-                case 191:
-                    return new MarisaV1(this.sound);
-                case 192:
-                    return new MarisaV2(this.sound);
-                case 193:
-                    return new MarisaV3(this.sound);
-                case 194:
-                    return new SakuyaV1(this.sound);
-                case 195:
-                    return new SakuyaV2(this.sound);
-                case 196:
-                    return new SakuyaV3(this.sound);
-                case 197:
-                    return new TankmanV1(this.sound);
-                case 198:
-                    return new TankmanV2(this.sound);
-                case 199:
-                    return new TankmanV3(this.sound);
-                case 200:
-                    return new SpannerManV1(this.sound);
-                case 201:
-                    return new SpannerManV2(this.sound);
-                case 202:
-                    return new SpannerManV3(this.sound);
-                case 203:
-                    return new DammyChip(this.sound);
-                case 204:
-                    return new DammyChip(this.sound);
-                case 205:
-                    return new DammyChip(this.sound);
-                case 206:
-                    return new HakutakuManV1(this.sound);
-                case 207:
-                    return new HakutakuManV2(this.sound);
-                case 208:
-                    return new HakutakuManV3(this.sound);
-                case 209:
-                    return new TortoiseManV1(this.sound);
-                case 210:
-                    return new TortoiseManV2(this.sound);
-                case 211:
-                    return new TortoiseManV3(this.sound);
-                case 212:
-                    return new BeatleManV1(this.sound);
-                case 213:
-                    return new BeatleManV2(this.sound);
-                case 214:
-                    return new BeatleManV3(this.sound);
-                case 215:
-                    return new YorihimeV1(this.sound);
-                case 216:
-                    return new YorihimeV2(this.sound);
-                case 217:
-                    return new YorihimeV3(this.sound);
-                case 218:
-                    return new CirnoV1(this.sound);
-                case 219:
-                    return new CirnoV2(this.sound);
-                case 220:
-                    return new CirnoV3(this.sound);
-                case 221:
-                    return new MedicineV1(this.sound);
-                case 222:
-                    return new MedicineV2(this.sound);
-                case 223:
-                    return new MedicineV3(this.sound);
-                case 224:
-                    return new IkuV1(this.sound);
-                case 225:
-                    return new IkuV2(this.sound);
-                case 226:
-                    return new IkuV3(this.sound);
-                case 227:
-                    return new PyroManV1(this.sound);
-                case 228:
-                    return new PyroManV2(this.sound);
-                case 229:
-                    return new PyroManV3(this.sound);
-                case 230:
-                    return new MrasaV1(this.sound);
-                case 231:
-                    return new MrasaV2(this.sound);
-                case 232:
-                    return new MrasaV3(this.sound);
-                case 233:
-                    return new ScissorManV1(this.sound);
-                case 234:
-                    return new ScissorManV2(this.sound);
-                case 235:
-                    return new ScissorManV3(this.sound);
-                case 236:
-                    return new ChenV1(this.sound);
-                case 237:
-                    return new ChenV2(this.sound);
-                case 238:
-                    return new ChenV3(this.sound);
-                case 239:
-                    return new RanV1(this.sound);
-                case 240:
-                    return new RanV2(this.sound);
-                case 241:
-                    return new RanV3(this.sound);
-                case 242:
-                    return new YoumuV1(this.sound);
-                case 243:
-                    return new YoumuV2(this.sound);
-                case 244:
-                    return new YoumuV3(this.sound);
-                case 245:
-                    return new DruidMnV1(this.sound);
-                case 246:
-                    return new DruidMnV2(this.sound);
-                case 247:
-                    return new DruidMnV3(this.sound);
-                case 248:
-                    return new DammyChip(this.sound);
-                case 249:
-                    return new DammyChip(this.sound);
-                case 250:
-                    return new DammyChip(this.sound);
-                case 251:
-                    return new DammyChip(this.sound);
-                case 252:
-                    return new UthuhoV1(this.sound);
-                case 253:
-                    return new UthuhoV2(this.sound);
-                case 254:
-                    return new UthuhoV3(this.sound);
-                case 255:
-                    return new DarkReygun(this.sound);
-                case 256:
-                    return new DarkSpark(this.sound);
-                case 257:
-                    return new DarkBreath(this.sound);
-                case 258:
-                    return new DarkWiper(this.sound);
-                case 259:
-                    return new DarkSand(this.sound);
-                case 260:
-                    return new DarkFang(this.sound);
-                case 261:
-                    return new DarkAnchor(this.sound);
-                case 262:
-                    return new DarkAutumn(this.sound);
-                case 263:
-                    return new DarkHurricane(this.sound);
-                case 264:
-                    return new DarkRepair(this.sound);
-                case 265:
-                    return new DarkAura(this.sound);
-                case 266:
-                    return new FlandreDS(this.sound);
-                case 267:
-                    return new UthuhoDS(this.sound);
-                case 268:
-                    return new YorihimeDS(this.sound);
-                case 269:
-                    return new MimaDS(this.sound);
-                case 270:
-                    return new RanDS(this.sound);
-                case 271:
-                    return new HiCanon(this.sound);
-                case 272:
-                    return new HiMegaCanon(this.sound);
-                case 273:
-                    return new MegaHalberd(this.sound);
-                case 274:
-                    return new GigaHalberd(this.sound);
-                case 275:
-                    return new BigTyphoon(this.sound);
-                case 276:
-                    return new FlashBurn(this.sound);
-                case 277:
-                    return new EXSprayGun(this.sound);
-                case 278:
-                    return new AuraSlash(this.sound);
-                case 279:
-                    return new EndlessSahara(this.sound);
-                case 280:
-                    return new MassDriver(this.sound);
-                case 281:
-                    return new ElementSword(this.sound);
-                case 282:
-                    return new PlantPrison(this.sound);
-                case 283:
-                    return new SwordOffGun(this.sound);
-                case 284:
-                    return new MasterSpark(this.sound);
-                case 285:
-                    return new SathujinDoll(this.sound);
-                case 286:
-                    return new KishinCanon(this.sound);
-                case 287:
-                    return new HyperSpanner(this.sound);
-                case 288:
-                    return new DisasterCrow(this.sound);
-                case 289:
-                    return new HellsHockey(this.sound);
-                case 290:
-                    return new TwinHeroines(this.sound);
-                case 291:
-                    return new FreezerSword(this.sound);
-                case 292:
-                    return new BioHazard(this.sound);
-                case 293:
-                    return new DrillBreaker(this.sound);
-                case 294:
-                    return new RainAnchor(this.sound);
-                case 295:
-                    return new MiraiEigouZan(this.sound);
-                case 296:
-                    return new DreamMeteo(this.sound);
-                case 297:
-                    return new BeastBreath(this.sound);
-                case 298:
-                    return new ProtonThunder(this.sound);
-                case 299:
-                    return new JusticeRey(this.sound);
-                case 300:
-                    return new InfiniteHands(this.sound);
-                case 301:
-                    return new FalBreazer(this.sound);
-                case 302:
-                    return new MasterStyle(this.sound);
-                case 303:
-                    return new DammyChip(this.sound);
-                case 304:
-                    return new DammyChip(this.sound);
-                case 305:
-                    return new DammyChip(this.sound);
-                case 306:
-                    return new DammyChip(this.sound);
-                case 307:
-                    return new DammyChip(this.sound);
-                case 308:
-                    return new DammyChip(this.sound);
-                case 309:
-                    return new DammyChip(this.sound);
-                case 310:
-                    return new VirusBall1(this.sound, key == 310);
-                case 311:
-                    return new VirusBall2(this.sound, key == 311);
-                case 312:
-                    return new VirusBall3(this.sound, key == 312);
-                case 313:
-                    return new DammyChip(this.sound);
-                case 314:
-                    return new DammyChip(this.sound);
-                case 315:
-                    return new DammyChip(this.sound);
-                case 316:
-                    return new DammyChip(this.sound);
-                case 317:
-                    return new DammyChip(this.sound);
-                case 318:
-                    return new DammyChip(this.sound);
-                case 319:
-                    return new DammyChip(this.sound);
-                case 350:
-                    return new ElekiChainX(this.sound);
-                case 351:
-                    return new GraviBallX(this.sound);
-                case 352:
-                    return new AuraSwordX(this.sound);
-                case 353:
-                    return new BubbleBlustX(this.sound);
-                case 354:
-                    return new PoisonShotX(this.sound);
-                case 355:
-                    return new ColdAirX(this.sound);
-                case 356:
-                    return new RailgunX(this.sound);
-                case 357:
-                    return new StormX(this.sound);
-                case 358:
-                    return new ShotGunX(this.sound);
-                case 359:
-                    return new ChainGunX(this.sound);
-                case 360:
-                    return new MetalNapalmX(this.sound);
-                case 361:
-                    return new BioSprayX(this.sound);
-                case 362:
-                    return new ThujigiriSwordX(this.sound);
-                case 363:
-                    return new TomahawkX(this.sound);
-                case 364:
-                    return new BrocraLinkX(this.sound);
-                case 365:
-                    return new RebirthShieldX(this.sound);
-                case 366:
-                    return new FireArmX(this.sound);
-                case 367:
-                    return new MonkeyPoleX(this.sound);
-                case 368:
-                    return new PonpocoJizouX(this.sound);
-                case 369:
-                    return new DigDrillX(this.sound);
-                case 370:
-                    return new OmegaSaber(this.sound);
-                case 371:
-                    return new SeedCanonX(this.sound);
-                case 372:
-                    return new ChargeCanonX(this.sound);
-                case 373:
-                    return new ShellArmorX(this.sound);
-                case 374:
-                    return new MagicBombX(this.sound);
-                case 375:
-                    return new LjiOtamaX(this.sound);
-                case 376:
-                    return new FlaeGunX(this.sound);
-                case 377:
-                    return new PanelShootX(this.sound);
-                case 378:
-                    return new DammyChip(this.sound);
-                case 379:
-                    return new DammyChip(this.sound);
-                case 380:
-                    return new TurtleHockey(this.sound);
-                case 381:
-                    return new DammyChip(this.sound);
-
-                case 400:
-                    return new MarisaX(this.sound);
-                case 401:
-                    return new CirnoX(this.sound);
-                case 402:
-                    return new SakuyaX(this.sound);
-                case 403:
-                    return new MedicineX(this.sound);
-                case 404:
-                    return new TankmanX(this.sound);
-                case 405:
-                    return new IkuX(this.sound);
-                case 406:
-                    return new SpannerManX(this.sound);
-                case 407:
-                    return new YorihimeX(this.sound);
-                case 408:
-                    return new TortoiseManX(this.sound);
-                case 409:
-                    return new HakutakuManX(this.sound);
-                case 410:
-                    return new PyroManX(this.sound);
-                case 411:
-                    return new BeatleManX(this.sound);
-                case 412:
-                    return new MrasaX(this.sound);
-                case 413:
-                    return new ScissorManX(this.sound);
-                case 414:
-                    return new ChenX(this.sound);
-                case 415:
-                    return new RanX(this.sound);
-                case 416:
-                    return new UthuhoV2(this.sound);
-                case 417:
-                    return new UthuhoV3(this.sound);
-                case 418:
-                    return new YoumuX(this.sound);
-                case 419:
-                    return new DruidMnX(this.sound);
-                case 430:
-                    return new Kikuri(this.sound);
-                default:
-                    return new DammyChip(this.sound);
+                return Chips[key].Invoke(this.sound);
+            }
+            else
+            {
+                return new DammyChip(this.sound);
             }
         }
 

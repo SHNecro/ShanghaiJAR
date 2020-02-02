@@ -16,7 +16,7 @@ namespace NSChip
       : base(s)
     {
       this.navi = true;
-      this.number = 417;
+      this.number = 254;
       this.name = NSGame.ShanghaiEXE.Translate("Chip.UthuhoV3Name");
       this.element = ChipBase.ELEMENT.heat;
       this.power = 180;

@@ -3,6 +3,8 @@ using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
 using System.Drawing;
+using NSMap.Character.Menu;
+using System.Linq;
 
 namespace NSTitle
 {
@@ -98,22 +100,24 @@ namespace NSTitle
                 this.star[1] = true;
                 this.stars++;
             }
-            if (this.savedata.Comp_normal >= 190)
+
+            var completionLibrary = new Library(this.sound, null, null, this.savedata);
+            if (completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.All(c => c.IsSeen))
             {
                 this.star[2] = true;
                 this.stars++;
             }
-            if (this.savedata.Comp_navi >= 64)
+            if (completionLibrary.LibraryPages[Library.LibraryPageType.Navi].Chips.All(c => c.IsSeen))
             {
                 this.star[3] = true;
                 this.stars++;
             }
-            if (this.savedata.Comp_dark >= 16)
+            if (completionLibrary.LibraryPages[Library.LibraryPageType.Dark].Chips.All(c => c.IsSeen))
             {
                 this.star[4] = true;
                 this.stars++;
             }
-            if (this.savedata.Comp_PA >= 32)
+            if (completionLibrary.LibraryPages[Library.LibraryPageType.PA].Chips.All(c => c.IsSeen))
             {
                 this.star[5] = true;
                 this.stars++;
