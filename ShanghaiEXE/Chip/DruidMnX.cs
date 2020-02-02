@@ -134,6 +134,10 @@ namespace NSChip
                             {
                                 this.element = ELEMENT.heat;
                             }
+                            else if (Input.IsPush(Button._L))
+                            {
+                                this.element = ELEMENT.poison;
+                            }
                             else if (Input.IsPush(Button._R))
                             {
                                 this.element = ELEMENT.leaf;
@@ -149,17 +153,13 @@ namespace NSChip
                             this.power,
                             -1,
                             this.element);
-                        var panelType = Panel.PANEL._nomal;
                         switch (this.element)
                         {
                             case ChipBase.ELEMENT.heat:
-                                panelType = Panel.PANEL._burner;
                                 break;
                             case ChipBase.ELEMENT.aqua:
-                                panelType = Panel.PANEL._ice;
                                 break;
                             case ChipBase.ELEMENT.eleki:
-                                panelType = Panel.PANEL._thunder;
                                 towerAttack = new CrackThunder(
                                     this.sound,
                                     character.parent,
@@ -170,13 +170,10 @@ namespace NSChip
                                     false);
                                 break;
                             case ChipBase.ELEMENT.leaf:
-                                panelType = Panel.PANEL._grass;
                                 break;
                             case ChipBase.ELEMENT.poison:
-                                panelType = Panel.PANEL._poison;
                                 break;
                             case ChipBase.ELEMENT.earth:
-                                panelType = Panel.PANEL._sand;
                                 towerAttack = new SandHoleAttack(
                                     this.sound,
                                     character.parent,
@@ -191,16 +188,12 @@ namespace NSChip
                                 break;
                         }
                         
-                        if (this.isElemental && Input.IsPush(Button._L))
-                        {
-                            character.parent.panel[bw.Item1.X, bw.Item1.Y].state = panelType;
-                        }
                         character.parent.attacks.Add(towerAttack);
 
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
                             this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
-                            character.Hp += Math.Min(this.power, c.Hp);
+                            character.Hp += Math.Min(this.power / 2, c.Hp / 2);
                         }
                     }
                 });
