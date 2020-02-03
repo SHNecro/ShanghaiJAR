@@ -39,6 +39,7 @@ namespace MapEditor.ViewModels
 
         public ICommand LoadAllMapsCommand => new RelayCommand(this.LoadAllMaps);
         public ICommand DumpCommand => new RelayCommand(this.Dump);
+        public ICommand DumpStringsCommand => new RelayCommand(this.DumpStrings);
 
         private void LoadAllMaps()
         {
@@ -94,6 +95,49 @@ namespace MapEditor.ViewModels
             if (dialogSuccess == CommonFileDialogResult.Ok)
             {
                 File.WriteAllText(saveFileDialog.FileName, contents);
+            }
+        }
+
+        private void DumpStrings()
+        {
+            var folderBrowserDialog = new CommonOpenFileDialog
+            {
+                RestoreDirectory = false,
+                InitialDirectory = Directory.GetCurrentDirectory(),
+                IsFolderPicker = true,
+                EnsureFileExists = true,
+                Title = "Copy all language files"
+            };
+
+            var folderBrowserDialogSuccess = folderBrowserDialog.ShowDialog();
+            if (folderBrowserDialogSuccess == CommonFileDialogResult.Ok)
+            {
+                var source = "language";
+                var target = Path.GetFullPath(folderBrowserDialog.FileName);
+
+                if (source == target)
+                {
+                    return;
+                }
+
+                this.CopyFolder(source, target);
+            }
+        }
+
+        private void CopyFolder(string source, string target)
+        {
+            var files = Directory.GetFiles(source);
+            var folders = Directory.GetDirectories(source);
+
+            foreach (var file in files)
+            {
+                File.Copy(file, Path.Combine(target, Path.GetFileName(file)), true);
+            }
+            foreach (var folder in folders)
+            {
+                var newFolder = Path.Combine(target, Path.GetFileName(folder));
+                Directory.CreateDirectory(newFolder);
+                this.CopyFolder(folder, newFolder);
             }
         }
 

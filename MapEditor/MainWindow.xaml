@@ -57,7 +57,7 @@
                 <MenuItem Header="Reload Strings" Command="{Binding ReloadTranslationKeysCommand}" />
                 <MenuItem Header="Unpack .tcd..." Command="{Binding UnpackTCDCommand}" InputGestureText="Ctrl+U" />
                 <MenuItem Header="Pack .tcd..." Command="{Binding PackTCDCommand}" InputGestureText="Ctrl+P"/>
-                <MenuItem Header="Data Dump" Command="{Binding DebuggerHookCommand}" />
+                <MenuItem Header="Data Dump" Command="{Binding DataDumpCommand}" />
             </MenuItem>
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">

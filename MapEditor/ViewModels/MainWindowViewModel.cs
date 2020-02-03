@@ -290,7 +290,7 @@ namespace MapEditor.ViewModels
         public ICommand UnpackTCDCommand => new RelayCommand(this.UnpackTCD);
         public ICommand PackTCDCommand => new RelayCommand(this.PackTCD);
 
-        public ICommand DebuggerHookCommand => new RelayCommand(this.DebuggerHook);
+        public ICommand DataDumpCommand => new RelayCommand(this.DataDump);
 
         public static Map GetCurrentMap() => MainWindowViewModel.currentMap;
 
@@ -660,7 +660,7 @@ namespace MapEditor.ViewModels
             }
         }
 
-        public void DebuggerHook()
+        public void DataDump()
         {
             DataDumpWindow.ShowWindow();
         }

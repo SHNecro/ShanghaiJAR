@@ -12,6 +12,7 @@
         Title="Data Dump" Height="400" Width="400">
     <Grid Margin="25">
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            <Button Content="Copy all language files" Margin="0,0,0,20" Command="{Binding DumpStringsCommand}" />
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
