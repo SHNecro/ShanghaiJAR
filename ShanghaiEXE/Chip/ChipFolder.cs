@@ -429,6 +429,7 @@ namespace NSChip
                 if (pa.IsAlphabetical)
                 {
                     var chipCodes = chipStart.Take(pa.Chips.Count).Select(c => c.Code).ToArray();
+                    var validCodes = Enumerable.Range(0, 4).Select(i => new ChipS(pa.Chips.First(), i).Code).ToArray();
                     isPa = chipCodes.Count(c => c == (int)CODE.asterisk) <= 1
                         && chipCodes.Aggregate((previous, current) =>
                         {
@@ -439,6 +440,11 @@ namespace NSChip
 
                             var effectivePrevious = previous == (int)CODE.asterisk ? current - 1 : previous;
                             var effectiveCurrent = current == (int)CODE.asterisk ? previous + 1 : current;
+                            if (!validCodes.Contains(effectivePrevious) || !validCodes.Contains(effectiveCurrent))
+                            {
+                                return -1;
+                            }
+
                             return effectiveCurrent == effectivePrevious + 1 ? effectiveCurrent : -1;
                         }) != -1;
                 }
