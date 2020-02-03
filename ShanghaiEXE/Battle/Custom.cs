@@ -32,7 +32,7 @@ namespace NSBattle
         private bool chipadd = false;
         private bool closein = false;
         private readonly int[] selectedchips = new int[6];
-        private int[,] panum = new int[2, 2];
+        private int[,] panum = new int[2, 3];
         private int stylemenu = 8;
         private readonly bool[] styleused = new bool[5];
         private bool[] stylechange = new bool[2];
@@ -67,92 +67,6 @@ namespace NSBattle
         private bool getData;
         private bool sendData;
         private bool escape;
-
-        private int ProgramAdvanceCheck(int checknom)
-        {
-            int[][] numArray = new int[32][]
-            {
-        new int[3]{ 1, 1, 1 },
-        new int[3]{ 2, 2, 2 },
-        new int[3]{ 59, 62, 71 },
-        new int[3]{ 60, 67, 72 },
-        new int[3]{ 92, 93, 25 },
-        new int[3]{ 34, 87, 190 },
-        new int[3]{ 21, 171, 134 },
-        new int[3]{ 147, 150, 125 },
-        new int[3]{ 90, 41, 119 },
-        new int[3]{ 142, 143, 113 },
-        new int[3]{ 63, 64, 65 },
-        new int[3]{ 131, 116, 155 },
-        new int[3]{ 95, 8, 122 },
-        new int[3]{ 12, 44, 192 },
-        new int[3]{ 60, 157, 195 },
-        new int[3]{ 5, 8, 198 },
-        new int[3]{ 104, 82, 201 },
-        new int[3]{ 64, 116, 207 },
-        new int[3]{ 28, 57, 210 },
-        new int[3]{ 66, 72, 216 },
-        new int[3]{ 65, 163, 219 },
-        new int[3]{ 144, 91, 222 },
-        new int[3]{ 77, 128, 225 },
-        new int[3]{ 47, 54, 231 },
-        new int[3]{ 70, 61, 243 },
-        new int[3]{ 107, 12, 265 },
-        new int[3]{ 18, 75, 257 },
-        new int[3]{ 137, 79, 260 },
-        new int[3]{ 140, 22, 256 },
-        new int[3]{ 183, 101, 264 },
-        new int[3]{ 86, 149, 263 },
-        new int[3]{ 52, 151, 141 }
-            };
-            for (int index1 = 0; index1 < numArray.Length; ++index1)
-            {
-                bool isCodeSequence = true;
-                int num = numArray[index1][0];
-                for (int index2 = 1; index2 < numArray[index1].Length; ++index2)
-                {
-                    if (numArray[index1][index2] != num)
-                    {
-                        isCodeSequence = false;
-                        break;
-                    }
-                }
-                bool flag2 = false;
-                bool isPA = true;
-                for (int index2 = 0; index2 < numArray[index1].Length; ++index2)
-                {
-                    if (this.selectedchips[checknom + index2] >= 0)
-                    {
-                        ChipFolder canchip = this.canchips[this.selectedchips[checknom + index2]];
-                        if (true)
-                        {
-                            if (!isCodeSequence)
-                            {
-                                if (this.canchips[this.selectedchips[checknom + index2]].chip.number != numArray[index1][index2])
-                                    isPA = false;
-                            }
-                            else
-                            {
-                                if (this.canchips[this.selectedchips[checknom + index2]].chip.number != numArray[index1][index2]
-                                    || this.canchips[this.selectedchips[checknom + index2]].codeNo != index2
-                                        && this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] != ChipFolder.CODE.asterisk
-                                    || this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk & flag2)
-                                    isPA = false;
-                                if (this.canchips[this.selectedchips[checknom + index2]].chip.code[this.canchips[this.selectedchips[checknom + index2]].codeNo] == ChipFolder.CODE.asterisk)
-                                    flag2 = true;
-                            }
-                        }
-                        else
-                            isPA = false;
-                    }
-                    else
-                        isPA = false;
-                }
-                if (isPA)
-                    return index1 + 271;
-            }
-            return -100;
-        }
 
         public Custom(MyAudio s, SceneBattle p, SceneMain main, Player pl, SaveData save)
           : base(s)
@@ -202,7 +116,7 @@ namespace NSBattle
             this.styleset = false;
             this.escape = false;
             this.canescape = false;
-            this.panum = new int[2, 2];
+            this.panum = new int[2, 3];
             foreach (var data in ((IEnumerable<bool>)this.paflag).Select((v, i) => new
             {
                 v,
@@ -286,27 +200,36 @@ namespace NSBattle
             else
             {
                 this.parent.CustomReset();
-                bool flag = false;
+                bool paFormed = false;
                 if (this.transmission)
                 {
-                    int index = 0;
-                    for (int checknom = 0; checknom < 4; ++checknom)
+                    var chips = this.selectedchips.Take(this.selectchips).Select(i => new ChipS(this.canchips[i].chip.number, this.canchips[i].codeNo)).ToList();
+
+                    var paCount = 0;
+                    for (var startIndex = 0; startIndex < this.selectchips; startIndex++)
                     {
-                        int num = this.ProgramAdvanceCheck(checknom);
-                        if (num >= 271)
+                        var chipSubset = chips.Skip(startIndex).ToList();
+                        var pa = ChipFolder.ProgramAdvanceCheck(chipSubset);
+
+                        if (pa != null)
                         {
-                            flag = true;
-                            this.panum[index, 0] = checknom;
-                            this.panum[index, 1] = num;
-                            this.paflag[index] = true;
-                            ++index;
-                            checknom += 2;
+                            paFormed = true;
+                            this.panum[paCount, 0] = startIndex;
+                            this.panum[paCount, 1] = pa.ProgramAdvance;
+                            this.panum[paCount, 2] = pa.Chips.Count;
+                            this.paflag[paCount] = true;
+                            paCount++;
+                            startIndex += pa.Chips.Count - 1;
                         }
-                        else
-                            this.panum[index, 0] = -1;
+                    }
+                    for (; paCount < this.panum.GetLength(0); paCount++)
+                    {
+                        this.panum[paCount, 0] = -1;
+                        this.panum[paCount, 1] = -1;
+                        this.panum[paCount, 2] = -1;
                     }
                 }
-                if (flag)
+                if (paFormed)
                 {
                     this.scene = Custom.CUSTOMCHENE.paprint;
                 }
@@ -366,12 +289,14 @@ namespace NSBattle
                     this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
                     for (int index = 0; index < this.panum.GetLength(0); ++index)
                     {
-                        if (this.panum[index, 1] >= 271)
+                        if (this.panum[index, 1] != -1)
                         {
                             this.savedata.datelist[this.panum[index, 1] - 1] = true;
                             this.canchips[this.selectedchips[this.panum[index, 0]]].SettingChip(this.panum[index, 1]);
-                            this.canchips[this.selectedchips[this.panum[index, 0] + 1]].SettingChip(0);
-                            this.canchips[this.selectedchips[this.panum[index, 0] + 2]].SettingChip(0);
+                            for (var i = 1; i < this.panum[index, 2]; i++)
+                            {
+                                this.canchips[this.selectedchips[this.panum[index, 0] + i]].SettingChip(0);
+                            }
                         }
                     }
                     this.paprintname = true;

@@ -416,6 +416,46 @@ namespace NSChip
         public ChipBase chip;
         public int codeNo;
 
+        public static ProgramAdvanceEntry ProgramAdvanceCheck(IList<ChipS> chipStart)
+        {
+            foreach (var pa in ProgramAdvances)
+            {
+                if (chipStart.Count < pa.Chips.Count || chipStart.First().number != pa.Chips.First())
+                {
+                    continue;
+                }
+
+                var isPa = false;
+                if (pa.IsAlphabetical)
+                {
+                    var chipCodes = chipStart.Take(pa.Chips.Count).Select(c => c.Code).ToArray();
+                    isPa = chipCodes.Count(c => c == (int)CODE.asterisk) <= 1
+                        && chipCodes.Aggregate((previous, current) =>
+                        {
+                            if (previous == -1 || current == (int)CODE.A || previous == (int)CODE.Z)
+                            {
+                                return -1;
+                            }
+
+                            var effectivePrevious = previous == (int)CODE.asterisk ? current - 1 : previous;
+                            var effectiveCurrent = current == (int)CODE.asterisk ? previous + 1 : current;
+                            return effectiveCurrent == effectivePrevious + 1 ? effectiveCurrent : -1;
+                        }) != -1;
+                }
+                else
+                {
+                    isPa = chipStart.Take(pa.Chips.Count).Select(c => c.number).SequenceEqual(pa.Chips);
+                }
+
+                if (isPa)
+                {
+                    return pa;
+                }
+            }
+            
+            return null;
+        }
+
         public ChipBase ReturnChip(int key)
         {
             if (Chips.ContainsKey(key))
@@ -439,41 +479,6 @@ namespace NSChip
         {
             this.chip = this.ReturnChip(key);
             this.inchip = true;
-        }
-
-        public int ProgramAdvanceCheck(IList<ChipS> chipStart)
-        {
-            foreach (var pa in ProgramAdvances)
-            {
-                if (chipStart.Count < pa.Chips.Count || chipStart.First().number != pa.Chips.First())
-                {
-                    continue;
-                }
-
-                var isPa = false;
-                if (pa.IsAlphabetical)
-                {
-                    var chipCodes = chipStart.Take(pa.Chips.Count).Select(c => c.Code).ToArray();
-                    isPa = chipCodes.Count(c => c == (int)CODE.asterisk) <= 1
-                        && chipCodes.Aggregate((previous, current) =>
-                        {
-                            var effectivePrevious = previous == (int)CODE.asterisk ? current - 1 : previous;
-                            var effectiveCurrent = current == (int)CODE.asterisk ? previous + 1 : current;
-                            return effectiveCurrent == effectivePrevious + 1 ? effectiveCurrent : -1;
-                        }) != -1;
-                }
-                else
-                {
-                    isPa = chipStart.Take(pa.Chips.Count).Select(c => c.number).SequenceEqual(pa.Chips);
-                }
-
-                if (isPa)
-                {
-                    return pa.ProgramAdvance;
-                }
-            }
-
-            return -1;
         }
 
         public enum CODE
