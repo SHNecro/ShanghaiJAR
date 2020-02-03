@@ -192,6 +192,16 @@
                                             </Grid>
                                             <Grid>
                                                 <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="Render Order:"/>
+                                                <ComboBox Grid.Column="1"
+                                                          ItemsSource="{Binding Source={markup:EnumBindingSourceExtension {x:Type enums:RenderTypeNumber}}}"
+                                                          SelectedItem="{Binding RendType, Converter={StaticResource EnumToIntegerValueConverter}, ConverterParameter={x:Type enums:RenderTypeNumber}}" />
+                                            </Grid>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
                                                     <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
                                                     <ColumnDefinition Width="*" />
                                                 </Grid.ColumnDefinitions>

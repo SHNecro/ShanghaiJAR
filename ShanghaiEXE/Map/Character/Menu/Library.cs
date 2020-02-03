@@ -392,7 +392,7 @@ namespace NSMap.Character.Menu
                 TitleColor = Color.White,
                 CustomTextArea = new TextArea { Sprite = new Rectangle(760, 120, 88, 136), Position = new Vector2(8f, 16) },
                 LeftPage = LibraryPageType.Dark,
-                RightPage = LibraryPageType.Illegal
+                RightPage = this.savedata.FlagList[800] ? (LibraryPageType?)LibraryPageType.Illegal : null
             };
 
             this.LibraryPages[LibraryPageType.Illegal] = new LibraryPage
