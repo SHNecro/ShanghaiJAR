@@ -450,6 +450,10 @@ namespace Messages
                     ShanghaiEXE.Translate("Messages.HumorInfo41Dialogue4Shanghai"),
                     ShanghaiEXE.Translate("Messages.HumorInfo41Dialogue5Alice"),
                 },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.HumorInfoEirinCall"),
+                },
             };
         }
     }

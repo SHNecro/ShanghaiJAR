@@ -1,4 +1,4 @@
-27,24,-336,-57,680,480,Map.Hospital1fName,0,1,2,0,0,hospital1f,119
+27,24,-336,-57,680,480,Map.Hospital1fName,0,1,2,0,0,hospital1f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0
@@ -630,7 +630,7 @@ type:1
 terms:flag/293
 move:
 speed:3
-graphic:13:4,144,1,8,3
+graphic:13:4,0,1,0,0
 hitrange:0:0:0:0
 hitform:circle
 event:
@@ -886,7 +886,7 @@ canSkip:
 msg:Map.Hospital1fHospitalEventStage1Dialogue1FaceEirin
 msg:Map.Hospital1fHospitalEventStage1Dialogue2FaceAlice
 msg:Map.Hospital1fHospitalEventStage1Dialogue3FaceEirin
-ItemGet:2:57:1:Map.ItemEirinCallName
+ItemGet:2:57:0:Map.ItemEirinCallName
 msg:Map.Hospital1fHospitalEventStage1Dialogue4FaceAlice
 msg:Map.Hospital1fHospitalEventStage1Dialogue5FaceEirin
 msg:Map.Hospital1fHospitalEventStage1Dialogue6FaceShanghai

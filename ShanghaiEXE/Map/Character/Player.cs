@@ -12,6 +12,8 @@ using SlimDX;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
+using NSAddOn;
 
 namespace NSMap.Character
 {
@@ -335,6 +337,13 @@ namespace NSMap.Character
                                 }
                                 else
                                 {
+                                    var bothHumorAndEirinCall = this.savedata.equipAddon.Select((b, i) => b ? this.savedata.haveAddon[i] : null).Count(a => a != null && (a is HumorSense || a is EirinCall)) == 2;
+                                    if (bothHumorAndEirinCall)
+                                    {
+                                        this.savedata.message = 1;
+                                        this.infotype = 41;
+                                    }
+
                                     this.parent.eventmanager.EventClone(this.info.GetMessage(this.savedata.message + 3, this.infotype));
                                     ++this.infotype;
                                     switch (this.savedata.message)

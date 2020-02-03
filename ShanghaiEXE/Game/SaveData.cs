@@ -653,6 +653,16 @@ namespace NSGame
                     this.datelist[replacement.Original - 1] = false;
                 }
 
+                // Change Humor, EirinCall to grey
+                for (int i = 0; i < this.haveAddon.Count; i++)
+                {
+                    var addOn = this.haveAddon[i];
+                    if (addOn.ID == 54 || addOn.ID == 57)
+                    {
+                        this.haveAddon[i].color = AddOnBase.ProgramColor.glay;
+                    }
+                }
+
                 this.ValList[199] = 2;
             }
         }

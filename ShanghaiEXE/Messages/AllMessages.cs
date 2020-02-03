@@ -14,6 +14,9 @@ namespace Messages
     {
         private static Dictionary<MessageType, Dialogue[][]> messages;
         
+        /// <summary>
+        /// savedata.message type starts at 1 at HumorInfo
+        /// </summary>
         static AllMessages()
         {
             messages = new Dictionary<MessageType, Dialogue[][]>();
