@@ -950,7 +950,7 @@ namespace NSEnemy
 
                 this.burstAttackInitialDelay = 20;
                 this.burstSpacing = 3;
-                this.burstWarning = 35;
+                this.burstWarning = 36;
                 this.waveAttackInitialDelay = 20;
                 this.waveSpeed = 3;
                 this.wavesPerRepeat = 4;
@@ -973,7 +973,7 @@ namespace NSEnemy
                 this.attackDelayBase = 4;
 
                 this.burstAttackInitialDelay = 16;
-                this.burstWarning = 30;
+                this.burstWarning = 32;
                 this.waveAttackInitialDelay = 16;
                 this.wavesPerRepeat = 6;
                 this.slashAttackInitialDelay = 16;
