@@ -86,7 +86,12 @@ namespace NSEnemy
 		private int attackCooldownBase;
 		private int attackCooldownFuzz;
 
-		private int knockbackInvincibility;
+		private int knockbackInvisibility;
+        private int maximumKnockbackTime;
+        private double knockbackRetailiationChance;
+        private int knockbackRetaliationBurstCount;
+        private List<Tuple<Point, int, ChipBase.ELEMENT>> retaliationBurstWarnings;
+        private int retaliationWaitTime;
 
         private int burstWeight;
         private int burstAttackInitialDelay;
@@ -128,8 +133,10 @@ namespace NSEnemy
 
         private AttackState attackMotion;
 		private AttackType attackType;
+        private int currentKnockbackTime;
+        private int knockbackFrustration;
 
-		public DruidMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public DruidMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
 			: base(s, p, pX, pY, n, u, v)
 		{
 			for (int index = 0; index < this.dropchips.Length; ++index)
@@ -158,6 +165,7 @@ namespace NSEnemy
 
             this.burstWarnings = new List<Tuple<Point, int, ChipBase.ELEMENT>>();
             this.slashWarnings = new List<Tuple<Rectangle, int>>();
+            this.retaliationBurstWarnings = new List<Tuple<Point, int, ChipBase.ELEMENT>>();
         }
 
 		private Vector2 SpritePositionDirect => this.positionDirect + SpriteOffset;
@@ -177,7 +185,23 @@ namespace NSEnemy
 			}
 		}
 
-		public override void InitAfter()
+        public override MOTION Motion
+        {
+            get
+            {
+                return base.Motion;
+            }
+            set
+            {
+                if (this.Motion == MOTION.knockback && value == MOTION.knockback)
+                {
+                    this.currentKnockbackTime += this.waittime;
+                }
+                base.Motion = value;
+            }
+        }
+
+        public override void InitAfter()
 		{
 			base.InitAfter();
 			this.PositionDirectSet();
@@ -192,8 +216,14 @@ namespace NSEnemy
 		protected override void Moving()
 		{
             this.SetDynamicAttackWeights();
+            
+            if (this.retaliationBurstWarnings.Any())
+            {
+                this.retaliationBurstWarnings.ForEach(bw => this.ProcessBurstWarnings(bw, this.retaliationWaitTime));
+                this.retaliationWaitTime++;
+            }
 
-			switch (this.Motion)
+            switch (this.Motion)
 			{
 				case MOTION.neutral:
 					this.animationpoint = new Point((this.waittime / 4) % 4, 0);
@@ -227,7 +257,12 @@ namespace NSEnemy
 					this.motion = MOTION.neutral;
 					break;
 				case MOTION.knockback:
-					this.counterTiming = false;
+                    if (this.currentKnockbackTime > this.maximumKnockbackTime)
+                    {
+                        this.invincibilitytime = this.knockbackInvisibility;
+                        this.currentKnockbackTime = 0;
+                    }
+                    this.counterTiming = false;
                     this.burstWarnings.Clear();
                     this.slashWarnings.Clear();
                     if (this.waittime < 3)
@@ -235,7 +270,8 @@ namespace NSEnemy
 						this.rend = true;
 						this.printhp = true;
 						this.animationpoint = new Point(0, 4);
-					}
+                        this.retaliationBurstWarnings.Clear();
+                    }
 					else if (this.waittime == 3)
 					{
 						this.animationpoint = new Point(1, 4);
@@ -258,12 +294,58 @@ namespace NSEnemy
 					{
 						this.printhp = false;
 						this.CommitMoveRandom();
+
+                        this.knockbackFrustration++;
+                        var knockbackAggression = ((double)this.currentKnockbackTime / this.maximumKnockbackTime) * (1.0 - this.knockbackRetailiationChance);
+                        var isRetaliating = this.currentKnockbackTime == 0 || Random.NextDouble() < this.knockbackRetailiationChance + knockbackAggression;
+                        if (isRetaliating)
+                        {
+                            this.retaliationWaitTime = 0;
+                            var allPanelCoords = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y)));
+                            var allPanels = allPanelCoords.Select(p => Tuple.Create(p, this.parent.panel[p.X, p.Y]));
+                            var potentialPanels = allPanels.Where(tup => tup.Item2.color == this.UnionEnemy && tup.Item2.State != Panel.PANEL._break && tup.Item2.State != Panel.PANEL._none)
+                                .Select(tup => tup.Item1).ToList();
+                            var burstCount = Math.Min(potentialPanels.Count, this.knockbackRetaliationBurstCount);
+                            var panels = new Point[burstCount];
+                            for (var i = burstCount; i > 0; i--)
+                            {
+                                var selectedIndex = Random.Next(0, potentialPanels.Count);
+                                panels[i - 1] = potentialPanels[selectedIndex];
+                                potentialPanels.RemoveAt(selectedIndex);
+                            }
+
+                            var retaliationElement = ChipBase.ELEMENT.poison;
+                            if (this.isElemental)
+                            {
+                                var target = this.RandomTarget();
+                                var targetElem = this.parent.AllChara().Where(c => c.position == target).Select(c => c.element).DefaultIfEmpty(ChipBase.ELEMENT.normal).First();
+                                var effectiveElements = GetEffectiveElements(targetElem);
+                                retaliationElement = effectiveElements[this.Random.Next(effectiveElements.Length)];
+                            }
+
+                            foreach (var panel in panels)
+                            {
+                                var column = panel.X;
+                                var row = panel.Y;
+                                this.retaliationBurstWarnings.Add(Tuple.Create(new Point(column, row), this.burstWarning, retaliationElement));
+                                this.parent.attacks.Add(new Dummy(
+                                    this.sound,
+                                    this.parent,
+                                    column,
+                                    row,
+                                    this.union,
+                                    new Point(0, 0),
+                                    this.burstWarning,
+                                    true));
+                            }
+                        }
 					}
-					else if (this.waittime >= this.knockbackInvincibility)
+					else if (this.waittime >= this.knockbackInvisibility)
 					{
 						this.rend = true;
 						this.printhp = true;
 						this.Motion = MOTION.neutral;
+                        this.currentKnockbackTime = 0;
 					}
 					break;
 				case MOTION.attack:
@@ -275,8 +357,9 @@ namespace NSEnemy
 								this.animationpoint = new Point((this.waittime / 4) % 4, 0);
 							}
 							else
-							{
-								this.AttackMotion = AttackState.Attack;
+                            {
+                                this.knockbackFrustration--;
+                                this.AttackMotion = AttackState.Attack;
                                 var bins = new[]
                                 {
                                     Tuple.Create(AttackType.Burst, this.burstWeight),
@@ -299,80 +382,7 @@ namespace NSEnemy
                                     if (this.waittime > this.burstAttackInitialDelay)
                                     {
                                         var burstAttackTime = this.waittime - this.burstAttackInitialDelay;
-                                        this.burstWarnings.ForEach(bw =>
-                                        {
-                                            if (bw.Item2 == burstAttackTime)
-                                            {
-                                                if (this.isElemental)
-                                                {
-                                                    var attack = (AttackBase)new Tower(
-                                                        this.sound,
-                                                        this.parent,
-                                                        bw.Item1.X,
-                                                        bw.Item1.Y,
-                                                        this.union,
-                                                        this.power + this.burstPowerAdjust,
-                                                        -1,
-                                                        bw.Item3);
-                                                    var panelType = Panel.PANEL._nomal;
-                                                    switch (bw.Item3)
-                                                    {
-                                                        case ChipBase.ELEMENT.heat:
-                                                            panelType = Panel.PANEL._burner;
-                                                            break;
-                                                        case ChipBase.ELEMENT.aqua:
-                                                            panelType = Panel.PANEL._ice;
-                                                            break;
-                                                        case ChipBase.ELEMENT.eleki:
-                                                            panelType = Panel.PANEL._thunder;
-                                                            attack = new CrackThunder(
-                                                                this.sound,
-                                                                this.parent,
-                                                                bw.Item1.X,
-                                                                bw.Item1.Y,
-                                                                this.union,
-                                                                this.power + this.burstPowerAdjust,
-                                                                false);
-                                                            break;
-                                                        case ChipBase.ELEMENT.leaf:
-                                                            panelType = Panel.PANEL._grass;
-                                                            break;
-                                                        case ChipBase.ELEMENT.poison:
-                                                            panelType = Panel.PANEL._poison;
-                                                            break;
-                                                        case ChipBase.ELEMENT.earth:
-                                                            panelType = Panel.PANEL._sand;
-                                                            attack = new SandHoleAttack(
-                                                                this.sound,
-                                                                this.parent,
-                                                                bw.Item1.X,
-                                                                bw.Item1.Y,
-                                                                this.union,
-                                                                this.power + this.burstPowerAdjust,
-                                                                4,
-                                                                0,
-                                                                SandHoleAttack.MOTION.set,
-                                                                ChipBase.ELEMENT.earth);
-                                                            break;
-                                                    }
-
-                                                    this.parent.attacks.Add(attack);
-                                                    this.parent.panel[bw.Item1.X, bw.Item1.Y].state = panelType;
-                                                }
-                                                else
-                                                {
-                                                    this.parent.attacks.Add(new Tower(
-                                                        this.sound,
-                                                        this.parent,
-                                                        bw.Item1.X,
-                                                        bw.Item1.Y,
-                                                        this.union,
-                                                        this.power + this.burstPowerAdjust,
-                                                        -1,
-                                                        bw.Item3));
-                                                }
-                                            }
-                                        });
+                                        this.burstWarnings.ForEach(bw => this.ProcessBurstWarnings(bw, burstAttackTime));
                                         if (burstAttackTime < this.burstDuration)
                                         {
                                             if (burstAttackTime % this.burstSpacing == 0)
@@ -723,7 +733,8 @@ namespace NSEnemy
                             }
 							break;
 						case AttackState.Cooldown:
-							if (this.waittime >= this.attackCooldown)
+                            this.knockbackFrustration = 0;
+                            if (this.waittime >= this.attackCooldown)
 							{
 								this.Motion = MOTION.move;
 							}
@@ -769,6 +780,83 @@ namespace NSEnemy
 			this.Nameprint(dg, this.printNumber);
 		}
 
+        private void ProcessBurstWarnings(Tuple<Point, int, ChipBase.ELEMENT> bw, int burstAttackTime)
+        {
+            if (bw.Item2 == burstAttackTime)
+            {
+                if (this.isElemental)
+                {
+                    var attack = (AttackBase)new Tower(
+                        this.sound,
+                        this.parent,
+                        bw.Item1.X,
+                        bw.Item1.Y,
+                        this.union,
+                        this.power + this.burstPowerAdjust,
+                        -1,
+                        bw.Item3);
+                    var panelType = Panel.PANEL._nomal;
+                    switch (bw.Item3)
+                    {
+                        case ChipBase.ELEMENT.heat:
+                            panelType = Panel.PANEL._burner;
+                            break;
+                        case ChipBase.ELEMENT.aqua:
+                            panelType = Panel.PANEL._ice;
+                            break;
+                        case ChipBase.ELEMENT.eleki:
+                            panelType = Panel.PANEL._thunder;
+                            attack = new CrackThunder(
+                                this.sound,
+                                this.parent,
+                                bw.Item1.X,
+                                bw.Item1.Y,
+                                this.union,
+                                this.power + this.burstPowerAdjust,
+                                false);
+                            break;
+                        case ChipBase.ELEMENT.leaf:
+                            panelType = Panel.PANEL._grass;
+                            break;
+                        case ChipBase.ELEMENT.poison:
+                            panelType = Panel.PANEL._poison;
+                            break;
+                        case ChipBase.ELEMENT.earth:
+                            // panelType = Panel.PANEL._sand;
+                            // panelType = Panel.PANEL._crack;
+                            panelType = Panel.PANEL._nomal;
+                            attack = new SandHoleAttack(
+                                this.sound,
+                                this.parent,
+                                bw.Item1.X,
+                                bw.Item1.Y,
+                                this.union,
+                                this.power + this.burstPowerAdjust,
+                                4,
+                                0,
+                                SandHoleAttack.MOTION.set,
+                                ChipBase.ELEMENT.earth);
+                            break;
+                    }
+
+                    this.parent.attacks.Add(attack);
+                    this.parent.panel[bw.Item1.X, bw.Item1.Y].state = panelType;
+                }
+                else
+                {
+                    this.parent.attacks.Add(new Tower(
+                        this.sound,
+                        this.parent,
+                        bw.Item1.X,
+                        bw.Item1.Y,
+                        this.union,
+                        this.power + this.burstPowerAdjust,
+                        -1,
+                        bw.Item3));
+                }
+            }
+        }
+
         private void SetDefaultVersionStats()
         {
             this.name = ShanghaiEXE.Translate("Enemy.DruidManName");
@@ -777,12 +865,12 @@ namespace NSEnemy
             this.picturename = "druidman";
             this.element = ChipBase.ELEMENT.poison;
 
-            this.idleDelayBase = 45;
+            this.idleDelayBase = 40;
             this.idleDelayFuzz = 0;
 
-            this.attackChance = 0.4;
+            this.attackChance = 0.5;
 
-            this.attackDelayBase = 15;
+            this.attackDelayBase = 12;
             this.attackDelayFuzz = 0;
             this.attackCooldownBase = 8;
             this.attackCooldownFuzz = 0;
@@ -817,7 +905,10 @@ namespace NSEnemy
             this.darkSummonAttackInitialDelay = 18;
             this.darkSummonHealth = 200;
 
-            this.knockbackInvincibility = 120;
+            this.knockbackInvisibility = 120;
+            this.maximumKnockbackTime = 150;
+            this.knockbackRetaliationBurstCount = 4;
+            this.knockbackRetailiationChance = 0.6;
 
             this.isElemental = false;
         }
@@ -852,9 +943,9 @@ namespace NSEnemy
 
             if (this.version >= 2)
             {
-                this.idleDelayBase = 40;
-                this.attackChance = 0.5;
-                this.attackDelayBase = 12;
+                this.idleDelayBase = 38;
+                this.attackChance = 0.55;
+                this.attackDelayBase = 10;
                 this.attackCooldownBase = 6;
 
                 this.burstAttackInitialDelay = 20;
@@ -869,14 +960,16 @@ namespace NSEnemy
 
                 this.darkSummonHealth = 100;
 
-                this.knockbackInvincibility = 90;
+                this.knockbackInvisibility = 90;
+                this.maximumKnockbackTime = 120;
+                this.knockbackRetailiationChance = 0.65;
             }
 
             if (this.version >= 3)
             {
-                this.idleDelayBase = 35;
+                this.idleDelayBase = 36;
                 this.attackChance = 0.6;
-                this.attackCooldownBase = 9;
+                this.attackCooldownBase = 8;
                 this.attackDelayBase = 4;
 
                 this.burstAttackInitialDelay = 16;
@@ -889,7 +982,10 @@ namespace NSEnemy
 
                 this.darkSummonHealth = 200;
 
-                this.knockbackInvincibility = 60;
+                this.knockbackInvisibility = 60;
+                this.maximumKnockbackTime = 90;
+                this.knockbackRetaliationBurstCount = 5;
+                this.knockbackRetailiationChance = 0.7;
             }
 
             if (this.version >= 4)
@@ -901,6 +997,8 @@ namespace NSEnemy
                 this.burstSpacing = 5;
 
                 this.waveEffectiveChance = 0.3;
+                this.maximumKnockbackTime = 60;
+                this.knockbackRetailiationChance = 0.75;
             }
 
             if (this.version >= 5)
@@ -936,7 +1034,8 @@ namespace NSEnemy
                 // SP+ : 0.75
                 this.waveEffectiveChance = Math.Min(0.75, 0.3 + plusVersions * 0.10);
 
-                this.knockbackInvincibility = Math.Max(45, 60 - plusVersions * 5);
+                this.knockbackInvisibility = Math.Max(45, 60 - plusVersions * 5);
+                this.knockbackRetailiationChance = Math.Max(0.9, 0.75 + plusVersions * 0.05);
             }
         }
 
@@ -1047,6 +1146,9 @@ namespace NSEnemy
 		private void IdleDelaySet()
 		{
 			this.idleDelay = this.idleDelayBase + this.Random.Next(-this.idleDelayFuzz, this.idleDelayFuzz);
+            var knockbackFrustrationStages = 4;
+            var adjustedKnockbackFrustration = knockbackFrustrationStages - (double)Math.Max(0, Math.Min(knockbackFrustrationStages, this.knockbackFrustration));
+            this.idleDelay = (int)Math.Round(idleDelay * 0.3 + idleDelay * 0.7 * (adjustedKnockbackFrustration / knockbackFrustrationStages));
 		}
 
 		private void AttackDelaySet()
