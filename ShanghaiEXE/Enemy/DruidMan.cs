@@ -305,7 +305,7 @@ namespace NSEnemy
                             var allPanels = allPanelCoords.Select(p => Tuple.Create(p, this.parent.panel[p.X, p.Y]));
                             var potentialPanels = allPanels.Where(tup => tup.Item2.color == this.UnionEnemy && tup.Item2.State != Panel.PANEL._break && tup.Item2.State != Panel.PANEL._none)
                                 .Select(tup => tup.Item1).ToList();
-                            var burstCount = Math.Min(potentialPanels.Count, this.knockbackRetaliationBurstCount);
+                            var burstCount = Math.Min(Math.Max(0, potentialPanels.Count - 1), this.knockbackRetaliationBurstCount);
                             var panels = new Point[burstCount];
                             for (var i = burstCount; i > 0; i--)
                             {
