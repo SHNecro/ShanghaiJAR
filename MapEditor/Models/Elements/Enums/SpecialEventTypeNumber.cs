@@ -34,5 +34,9 @@ namespace MapEditor.Models.Elements.Enums
         ClearFlags = 14,
         [Description("Stop Parallel Events")]
         StopParallelEvents = 15,
+        [Description("Check CrakTool (Q=1)")]
+        CheckCrakTool = 16,
+        [Description("Remove CrakTool if Q==0 (Q=1 or Q=0)")]
+        RemoveCrakTool = 17,
     }
 }

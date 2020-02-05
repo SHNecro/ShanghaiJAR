@@ -202,7 +202,9 @@
   <Dialogue Key="Player.VirusScnFadeDialogue1" Value="ウィルススキャンの効果が,切れたみたいね････" Face="Shanghai" Mono="False" />
   <Text Key="MysteryItem.OpenDialogue1" Value="シャンハイは,ミステリーデータを調べた・・・・" />
   <Text Key="MysteryItem.LockedDialogue1" Value="このミステリーデータには,セキュリティがかかっていて,解析することができない" />
-  <Text Key="MysteryItem.LockFailedDialogue1" Value="解析するには,サブチップ「クラックツール」,が必要だ" />
+  <Text Key="MysteryItem.LockedDialogue2" Value="解析するには,サブチップ「クラックツール」,が必要だ" />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionFormat" Value="[Would you like to use one?,({0} remaining)]" />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionOptions" Value="はい,いいえ" />
   <Text Key="MysteryItem.LockOpenedDialogue1" Value="シャンハイは,ミステリーデータを調べた・・・・" />
   <Dialogue Key="AddOnManager.ExitQuestion" Value="ＲＵＮしてないけど,戻っていいの？" Face="Shanghai" Mono="False" />
   <Text Key="AddOnManager.ExitOptions" Value="はい,いいえ" />

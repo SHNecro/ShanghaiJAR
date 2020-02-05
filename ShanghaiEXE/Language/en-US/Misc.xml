@@ -202,7 +202,9 @@
   <Dialogue Key="Player.VirusScnFadeDialogue1" Value="Looks like VirusScn has,worn off...." Face="Shanghai" Mono="False" />
   <Text Key="MysteryItem.OpenDialogue1" Value="Shanghai accessed the,mystery data...." />
   <Text Key="MysteryItem.LockedDialogue1" Value="The mystery data is locked,and can’t be opened.," />
-  <Text Key="MysteryItem.LockFailedDialogue1" Value="A “CrackTool” Sub Chip,is needed to open it.," />
+  <Text Key="MysteryItem.LockedDialogue2" Value="A “CrakTool” Sub Chip,is needed to open it.," />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionFormat" Value="Would you like to use one?,({0} remaining)" />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionOptions" Value="Yes,No" />
   <Text Key="MysteryItem.LockOpenedDialogue1" Value="Shanghai accessed the,mystery data...." />
   <Dialogue Key="AddOnManager.ExitQuestion" Value="Exit the AddOn Manager,without hitting RUN?" Face="Shanghai" Mono="False" />
   <Text Key="AddOnManager.ExitOptions" Value="Yes,No" />

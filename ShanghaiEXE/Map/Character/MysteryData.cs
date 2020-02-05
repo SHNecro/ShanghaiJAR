@@ -5,6 +5,8 @@ using NSEvent;
 using NSGame;
 using System.Drawing;
 using System.IO;
+using Common;
+using ExtensionMethods;
 
 namespace NSMap.Character
 {
@@ -64,8 +66,25 @@ namespace NSMap.Character
                 this.Manager.AddEvent(new BranchHead(this.sound, this.Manager, 0, this.savedate));
                 var dialogue = ShanghaiEXE.Translate("MysteryItem.LockedDialogue1");
                 this.Manager.AddEvent(new CommandMessage(this.sound, this.Manager, dialogue[0], dialogue[1], dialogue[2], false, this.savedate));
-                dialogue = ShanghaiEXE.Translate("MysteryItem.LockFailedDialogue1");
+                dialogue = ShanghaiEXE.Translate("MysteryItem.LockedDialogue2");
                 this.Manager.AddEvent(new CommandMessage(this.sound, this.Manager, dialogue[0], dialogue[1], dialogue[2], false, this.savedate));
+                this.Manager.AddEvent(new Special(this.sound, this.Manager, 16, this.savedate));
+                this.Manager.AddEvent(new BranchHead(this.sound, this.Manager, 1, this.savedate));
+                dialogue = new Dialogue { Text = string.Format(ShanghaiEXE.Translate("MysteryItem.LockUseCrakToolQuestionFormat").Text, this.savedate.haveSubChis[6]) };
+                var questionOptions = ShanghaiEXE.Translate("MysteryItem.LockUseCrakToolQuestionOptions");
+                this.Manager.AddEvent(new Question(
+                    this.sound,
+                    this.Manager,
+                    dialogue[0],
+                    dialogue[1],
+                    questionOptions[0],
+                    questionOptions[1],
+                    false,
+                    true,
+                    FACE.None.ToFaceId(),
+                    this.savedate,
+                    true));
+                this.Manager.AddEvent(new Special(this.sound, this.Manager, 17, this.savedate));
                 this.Manager.AddEvent(new BranchEnd(this.sound, this.Manager, this.savedate));
                 this.Manager.AddEvent(new BranchHead(this.sound, this.Manager, 1, this.savedate));
                 dialogue = ShanghaiEXE.Translate("MysteryItem.LockOpenedDialogue1");

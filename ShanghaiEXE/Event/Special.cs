@@ -2,6 +2,8 @@
 using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
+using Common;
+using ExtensionMethods;
 
 namespace NSEvent
 {
@@ -786,6 +788,23 @@ namespace NSEvent
                 case 15:
                     this.manager.parent.eventmanagerParallel.ClearEvent();
                     this.manager.parent.eventmanagerParallel.playevent = false;
+                    break;
+                case 16:
+                    if (this.savedata.haveSubChis[6] > 0)
+                    {
+                        this.savedata.selectQuestion = 1;
+                    }
+                    break;
+                case 17:
+                    if (this.savedata.selectQuestion == 0 && this.savedata.haveSubChis[6] > 0)
+                    {
+                        this.savedata.haveSubChis[6]--;
+                        this.savedata.selectQuestion = 1;
+                    }
+                    else
+                    {
+                        this.savedata.selectQuestion = 0;
+                    }
                     break;
             }
             this.EndCommand();
