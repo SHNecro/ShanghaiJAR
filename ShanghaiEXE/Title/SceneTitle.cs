@@ -52,38 +52,6 @@ namespace NSTitle
             this.test = false;
             this.printLoad = p.loadSUCCESS;
         }
-        /*
-        private void StarCheck()
-        {
-            this.star = new bool[10];
-            this.stars = 0;
-            if (!this.savedata.FlagList[0]) { }
-            if (!this.savedata.FlagList[1]) { }
-            if (this.savedata.Comp_normal >= 190)
-            {
-                this.star[2] = true;
-                ++this.stars;
-            }
-            if (this.savedata.Comp_navi >= 64)
-            {
-                this.star[3] = true;
-                ++this.stars;
-            }
-            if (this.savedata.Comp_dark >= 16)
-            {
-                this.star[4] = true;
-                ++this.stars;
-            }
-            if (this.savedata.Comp_PA >= 32)
-            {
-                this.star[5] = true;
-                ++this.stars;
-            }
-            if (!this.savedata.FlagList[2]) { }
-            if (!this.savedata.FlagList[3]) { }
-            if (!this.savedata.FlagList[4]) { }
-            if (!this.savedata.FlagList[5]) { }
-        }*/
 
         private void StarCheck()
         {

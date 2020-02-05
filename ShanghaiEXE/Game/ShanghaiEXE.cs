@@ -24,6 +24,7 @@ using NSShanghaiEXE.InputOutput.Rendering;
 using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
 using Common.Config;
 using System.Diagnostics;
+using NSEvent;
 
 namespace NSGame
 {
@@ -581,6 +582,35 @@ namespace NSGame
             SceneMain scene = (SceneMain)ShanghaiEXE.scene;
             scene.mapscene.LoadGame();
             ShanghaiEXE.scene = scene;
+
+            var retconMessages = this.savedata.RetconSave();
+            if (retconMessages.Any())
+            {
+                scene.mapscene.eventmanager.AddEvent(new Fade(this.ad, scene.mapscene.eventmanager, 5, 255, 0, 0, 0, true, this.savedata));
+                scene.mapscene.eventmanager.AddEvent(new OpenMassageWindow(this.ad, scene.mapscene.eventmanager));
+                var retconListQuestion = ShanghaiEXE.Translate("Retcon.OpeningMessageQuestion");
+                var retconListOptions = ShanghaiEXE.Translate("Retcon.OpeningMessageQuestionOptions");
+                scene.mapscene.eventmanager.AddEvent(new Question(
+                    this.ad,
+                    scene.mapscene.eventmanager,
+                    retconListQuestion[0],
+                    retconListQuestion[1],
+                    retconListOptions[0],
+                    retconListOptions[1],
+                    retconListQuestion.Face.Mono,
+                    true,
+                    retconListQuestion.Face,
+                    this.savedata,
+                    true));
+                scene.mapscene.eventmanager.AddEvent(new BranchHead(this.ad, scene.mapscene.eventmanager, 0, this.savedata));
+                foreach (var message in retconMessages)
+                {
+                    scene.mapscene.eventmanager.AddEvent(new CommandMessage(this.ad, scene.mapscene.eventmanager, message[0], message[1], message[2], message.Face, message.Face.Mono, this.savedata));
+                }
+                scene.mapscene.eventmanager.AddEvent(new BranchEnd(this.ad, scene.mapscene.eventmanager, this.savedata));
+                scene.mapscene.eventmanager.AddEvent(new CloseMassageWindow(this.ad, scene.mapscene.eventmanager));
+                scene.mapscene.eventmanager.AddEvent(new Fade(this.ad, scene.mapscene.eventmanager, 15, 0, 0, 0, 0, true, this.savedata));
+            }
         }
 
         private void Game_Load(object sender, EventArgs e)

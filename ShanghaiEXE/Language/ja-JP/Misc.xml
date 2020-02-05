@@ -430,7 +430,11 @@
   <Text Key="RandomMystery.DefaultContents" Value="レイガン　A" />
   <Text Key="VirusManager.HP" Value="HP :" />
   <Text Key="VirusManager.Power" Value="パワー:" />
-
   <Dialogue Key="Misc.DemoEndDialogue1" Value="[This content is in progress.,Please wait warmly while,development continues.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Misc.DemoEndDialogue2" Value="[In the meantime，please visit,Shanghai’s Room for challenge,battles and secret content.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.OpeningMessageQuestion" Value="[Fixing errors from previous,versions. List changes?]" Face="Sprite" Mono="False" />
+  <Text Key="Retcon.OpeningMessageQuestionOptions" Value="はい,いいえ" />
+  <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="[Cleared emergency music,from Hospital event.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HumorEirinCall" Value="[Changed Humor and EirinCall,to “free” Grey AddOns.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefund" Value="[Refunded duplicate AddOns,CRecov，FullOpen，CLance，,LostLght.]" Face="Sprite" Mono="False" />
 </data>

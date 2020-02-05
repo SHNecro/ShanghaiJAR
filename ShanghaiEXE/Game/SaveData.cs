@@ -12,6 +12,7 @@ using NSShanghaiEXE.InputOutput;
 using NSMap.Character.Menu;
 using static NSMap.Character.Menu.Library;
 using System.Linq;
+using Common;
 
 namespace NSGame
 {
@@ -549,8 +550,6 @@ namespace NSGame
                         this.flagList[69] = false;
                     }
 
-                    this.RetconSave();
-
                     this.loadSucces = true;
                     this.loadEnd = true;
                     streamReader.Dispose();
@@ -579,22 +578,24 @@ namespace NSGame
             }
         }
 
-        private void RetconSave()
+        public ICollection<Dialogue> RetconSave()
         {
+            var retconMessages = new List<Dialogue>();
+
             // 0 : unmodified, fix hospital event incident BGM not cleared.
             if (this.ValList[199] == 0)
             {
                 // If hospital event complete, the postgame hasn't started, and endgame robots aren't out 
-                if (this.FlagList[744] && !this.FlagList[791] && this.ValList[10] != 7)
+                if (this.ValList[14] != 0 && this.FlagList[744] && !this.FlagList[791] && this.ValList[10] != 7)
                 {
                     this.ValList[14] = 0;
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0503HospitalEmergencyMusic"));
                 }
                 this.ValList[199] = 1;
             }
 
             // 1: 0.550, fix chip ID issues, add illegal chips to library (only recordkeeping)
             // Refund duplicate addons
-            // TODO: Implement
             if (this.ValList[199] == 1)
             {
                 var replacements = new[]
@@ -662,9 +663,15 @@ namespace NSGame
                         this.haveAddon[i].color = AddOnBase.ProgramColor.glay;
                     }
                 }
+                retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HumorEirinCall"));
+
+                // TODO: ADDON REFUND
+                retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefund"));
 
                 this.ValList[199] = 2;
             }
+
+            return retconMessages;
         }
 
         public void SaveFile()
