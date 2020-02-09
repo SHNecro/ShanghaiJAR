@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　外観 -->
   <Text Key="Map.ROMbaseOutName" Value="ROM Base Exterior" />
@@ -222,4 +222,20 @@
   <Dialogue Key="Map.ROMbaseOutAppearanceEventStage7Dialogue4FaceAlice" Value="Let’s follow Reisen as soon,as we can!" Face="Alice" Mono="False" />
   <!-- 何をしている早く先へ向かうぞ -->
   <Dialogue Key="Map.ROMbaseOutStationaryReisenStage1Dialogue1FaceReisen" Value="I will pursue secondary targets.,Don’t wait for me.," Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameScientistDialogue1" Value="Heavy metals， radioisotopes....,We’re going to need special,gear to dispose of this waste." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameScientistDialogue2" Value="Luckily there’s no danger from,vapors，but just what was ROM,doing to produce all this?" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameGateControlDialogue1" Value="It’s the control panel for the,compound’s main gate." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameGateControlDialogue2" Value="When shut，the thick steel,plating can resist anything,short of high explosives." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameGateControlDialogue3" Value="The NetAgents must have,opened it for the investigators.,You can jack in!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameCarDialogue1" Value="This car must belong to the,NetAgent forensics experts." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameCarDialogue2" Value="I suppose most people can’t,just call a stealth jet to take,them where they want." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameMechDialogue1" Value="It’s a Type-28 SDF land plane." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameMechDialogue2" Value="It keeps a watchful eye out for,any potential threats.,....Wait，is anyone even in it?" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgentDialogue1" Value="One.... mobile fire extinguisher?,Disabled by 88mm shell,through internal mechanisms...." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgentDialogue2" Value="Negligible risk of secondary,explosion.... Possible risk of,electric shock." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgentDialogue3" Value="Recommended actions，uh....,Disassembly，followed by,investigation of manufacturer." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgentDialogue4" Value="Urgh....,Descriptions，risks，actions....,For everything in this base?!" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgent2Dialogue1" Value="Whew....,You’ve really taken a beating,haven’t you，old girl?" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgent2Dialogue2" Value="Don’t you worry，the techs,will get you right as rain，no,problem!" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbaseOutPostgameAgent2Dialogue3" Value="....Once we figure out a way to,get you off the roof，anyhow." Face="Policeman" Mono="False" />
 </data>
