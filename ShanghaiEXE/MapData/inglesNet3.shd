@@ -1,4 +1,4 @@
-50,56,-456,-344,1440,896,Map.InglesNet3Name,0,1,23,170,3,inglesNet3f,-1
+50,56,-456,-344,1440,896,Map.InglesNet3Name,0,1,23,170,3,inglesNet3f,0
 0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -56,14 +56,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:34:2:3:1:1:1:1:0::36:3:4:0:1:1:1:0::36:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:12:1:3:0:1:1:1:0::20:2:5:1:1:1:1:0::40:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:36:3:5:0:1:1:1:0::12:1:3:1:1:1:1:0::12:1:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:36:3:4:0:1:1:1:0::20:2:3:1:1:1:1:0::20:2:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:20:2:5:0:1:1:1:0::34:2:4:1:1:1:1:0::40:2:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:56:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSnavi
-battle:8:3:3:0:1:1:1:0::8:3:5:1:1:1:1:0::8:3:4:2:1:1:1:0::4:4:1:False:True:True:True:VSvirus
-battle:17:3:4:0:1:1:1:0::17:3:4:1:1:1:1:0::17:3:4:2:1:1:1:0::4:4:1:False:True:True:True:VSvirus
+battle:34:2:3:1:1:1:1:0::36:3:4:0:1:1:1:0::36:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:12:1:3:0:1:1:1:0::20:2:5:1:1:1:1:0::40:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:36:3:5:0:1:1:1:0::12:1:3:1:1:1:1:0::12:1:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:36:3:4:0:1:1:1:0::20:2:3:1:1:1:1:0::20:2:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:20:2:5:0:1:1:1:0::34:2:4:1:1:1:1:0::40:2:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:56:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSnavi:0
+battle:8:3:3:0:1:1:1:0::8:3:5:1:1:1:1:0::8:3:4:2:1:1:1:0::4:4:1:False:True:True:True:VSvirus:0
+battle:17:3:4:0:1:1:1:0::17:3:4:1:1:1:1:0::17:3:4:2:1:1:1:0::4:4:1:False:True:True:True:VSvirus:0
 
 random:3,8,500,Map.RandomItem500ZennyName:3,8,1100,Map.RandomItem1100ZennyName:3,8,1900,Map.RandomItem1900ZennyName:3,8,2800,Map.RandomItem2800ZennyName:0,56,2,Map.RandomItemLifeShldHName:0,67,3,Map.RandomItemStepSwrdTName:0,94,2,Map.RandomItemChainGn2OName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
@@ -79,7 +79,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2
@@ -270,7 +270,7 @@ end
 
 MysteryID:ミステリー149：ワンフルオープン
 position:136:394:0
-Mystery:2,2,20,4,ワンフルオープン,149
+Mystery:2,0,9,3,ワンフルオープン,149
 page:1
 startterms:Abutton
 type:1
@@ -296,7 +296,7 @@ end
 
 MysteryID:ランダムミステリー：84
 position:312:364:0
-Mystery:0,0,0,0,レイガン　A,84
+Mystery:0,0,0,0,,84
 page:1
 startterms:Abutton
 type:1
@@ -322,7 +322,7 @@ end
 
 MysteryID:ランダムミステリー：85
 position:280:330:0
-Mystery:0,0,0,0,レイガン　A,85
+Mystery:0,0,0,0,,85
 page:1
 startterms:Abutton
 type:1
@@ -348,7 +348,7 @@ end
 
 MysteryID:ランダムミステリー：86
 position:24:424:0
-Mystery:0,0,0,0,レイガン　A,86
+Mystery:0,0,0,0,,86
 page:1
 startterms:Abutton
 type:1
@@ -374,7 +374,7 @@ end
 
 MysteryID:ランダムミステリー：87
 position:184:168:0
-Mystery:0,0,0,0,レイガン　A,87
+Mystery:0,0,0,0,,87
 page:1
 startterms:Abutton
 type:1
@@ -400,7 +400,7 @@ end
 
 MysteryID:ランダムミステリー：88
 position:234:154:0
-Mystery:0,0,0,0,レイガン　A,88
+Mystery:0,0,0,0,,88
 page:1
 startterms:Abutton
 type:1
@@ -426,7 +426,7 @@ end
 
 MysteryID:ランダムミステリー：89
 position:247:121:0
-Mystery:0,0,0,0,レイガン　A,89
+Mystery:0,0,0,0,,89
 page:1
 startterms:Abutton
 type:1
