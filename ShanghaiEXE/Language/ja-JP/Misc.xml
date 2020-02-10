@@ -438,5 +438,5 @@
   <Text Key="Retcon.OpeningMessageQuestionOptions" Value="はい,いいえ" />
   <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="[Cleared emergency music,from Hospital event.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550HumorEirinCallFormat" Value="[Changed AddOns to “free” and,Grey: {0}.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="[Refunded duplicate AddOns:,{0}.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="[Refunded duplicate AddOn(s):,{0}.]" Face="Sprite" Mono="False" />
 </data>

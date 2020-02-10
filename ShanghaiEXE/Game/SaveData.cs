@@ -679,6 +679,88 @@ namespace NSGame
 
                 // TODO: ADDON REFUND
                 // retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat"));
+                var refundedAddons = new List<Tuple<int, int, string>>();
+                var refundedAddonNames = new List<string>();
+                var voileCRecovBought = this.shopCount[7, 8] > 0;
+                var voileCShotgunBought = this.shopCount[7, 9] > 0;
+                var undersquareCLanceBought = this.shopCount[14, 2] > 0;
+                var undernetLostLghtBought = this.shopCount[15, 1] > 0;
+                var engellesFullOpenOpened = this.getMystery[149];
+
+                // Bought CRecov from Voile for 12000 Z (removed, now from Engelles 1 PMD)
+                if (voileCRecovBought)
+                {
+                    refundedAddons.Add(Tuple.Create(92, 12000, "Z"));
+                }
+
+                // Bought CShotgun from Voile for 12000 Z (removed, now bought from Undersquare 2 for 17000 Z)
+                if (voileCShotgunBought)
+                {
+                    // No refund, free 5000 Z and mark down Undersquare 2
+                    this.shopCount[14, 2] = 1;
+                }
+
+                // Bought CLance from World Undersquare for 17000 Z (replaced with CShotgun)
+                if (undersquareCLanceBought)
+                {
+                    refundedAddons.Add(Tuple.Create(91, 17000, "Z"));
+                }
+
+                // Bought LostLght from Undernet 3 for 50 BugFrags (removed, now bought from LordUsa comp for 18000 Z)
+                if (undernetLostLghtBought)
+                {
+                    refundedAddons.Add(Tuple.Create(73, 50, "BugFrag"));
+                    for (var i = 1; i <= 4; i++)
+                    {
+                        this.shopCount[15, i] = this.shopCount[15, i + 1];
+                    }
+                }
+
+                // Got FullOpen from Engelles 3 PMD (now from Undernet 10 BMD behind ROM gate, replaced with MedusEye Y)
+                if (engellesFullOpenOpened)
+                {
+                    refundedAddons.Add(Tuple.Create(20, 0, ""));
+                    this.AddChip(10, 3, true);
+                }
+
+                var removedIndices = new List<Tuple<int,int>>();
+                for (var i = 0; i < this.haveAddon.Count; i++)
+                {
+                    var addOn = this.haveAddon[i];
+                    var refund = refundedAddons.FirstOrDefault(tup => tup.Item1 == addOn.ID);
+                    if (refund != null)
+                    {
+                        refundedAddons.Remove(refund);
+                        refundedAddonNames.Add(addOn.name);
+
+                        removedIndices.Add(Tuple.Create(i, this.equipAddon.Take(i).Count(b => b)));
+                        switch (refund.Item3)
+                        {
+                            case "Z":
+                                this.money += refund.Item2;
+                                break;
+                            case "BugFrag":
+                                this.havePeace[0] += refund.Item2;
+                                break;
+                            case "":
+                                break;
+                        }
+                    }
+                }
+
+                foreach (var removedIndex in removedIndices.OrderByDescending(ri => ri.Item1))
+                {
+                    this.haveAddon.RemoveAt(removedIndex.Item1);
+                    this.equipAddon.RemoveAt(removedIndex.Item1);
+                    this.addonNames.RemoveAt(removedIndex.Item2);
+                }
+
+                if (refundedAddonNames.Any())
+                {
+                    refundedAddonNames = refundedAddonNames.SelectMany((s, i) => i != 0 && i % 3 == 0 ? new[] { s, "," } : new[] { s } ).ToList();
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat").Format(string.Join("，", refundedAddonNames)));
+                    this.AddOnRUN();
+                }
 
                 this.ValList[199] = 2;
             }
