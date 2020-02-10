@@ -655,18 +655,30 @@ namespace NSGame
                 }
 
                 // Change Humor, EirinCall to grey
+                var replacedAddonNames = string.Empty;
                 for (int i = 0; i < this.haveAddon.Count; i++)
                 {
                     var addOn = this.haveAddon[i];
                     if (addOn.ID == 54 || addOn.ID == 57)
                     {
                         this.haveAddon[i].color = AddOnBase.ProgramColor.glay;
+                        if (string.IsNullOrEmpty(replacedAddonNames))
+                        {
+                            replacedAddonNames = addOn.name;
+                        }
+                        else
+                        {
+                            replacedAddonNames = $"{replacedAddonNames} and {addOn.name}";
+                        }
                     }
                 }
-                retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HumorEirinCall"));
+                if (!string.IsNullOrEmpty(replacedAddonNames))
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HumorEirinCallFormat").Format(replacedAddonNames));
+                }
 
                 // TODO: ADDON REFUND
-                retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefund"));
+                // retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat"));
 
                 this.ValList[199] = 2;
             }
