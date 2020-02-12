@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　通路 -->
   <Text Key="Map.ROMbase3fName" Value="ROM Base Hallway" />
@@ -110,4 +110,11 @@
   <Dialogue Key="Map.ROMbase3fIkutororuStage10Dialogue1FaceTenshi" Value="Amazing，Alice!,You’ll have to show me how,you customize next time!" Face="Tenshi" Mono="False" />
   <!-- 気が向いたらやろうね！ -->
   <Dialogue Key="Map.ROMbase3fIkutororuStage11Dialogue1FaceTenshi" Value="Whenever you feel like it!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue1" Value="Mmm.....,Hm? Ah!,I didn’t see you there!" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue2" Value="I’m just，uh.... unwinding after,some.... investigative work." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue3" Value="That vending machine there?,Fif-- I mean，fourteen bags of,Prog Farms brand cookies." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue4" Value="Very important information，,y’know. Maybe we should,investigate them next." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue1" Value="A standard area-denial barrier,system，controlled by a custom,network security infrastructure." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue2" Value="Network is semi-partitioned，,various local systems share,one central control." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue3" Value="Phew.... ,Maybe I should turn up the AC，,it’s getting a bit stuffy in here." Face="Scientist" Mono="False" />
 </data>

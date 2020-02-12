@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　倉庫 -->
   <Text Key="Map.ROMbase1fName" Value="ROM基地　倉庫" />
@@ -15,29 +15,17 @@
   <!-- おそらく場所的にロクなものは入っていないだろう -->
   <Dialogue Key="Map.ROMbase1fContainerStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase1fContainerDupeDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- アリス　メールが来たわよあ、パパだ -->
   <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue1FaceShanghai" Value="アリス　メールが来たわよ,あ、パパだ" Face="Shanghai" Mono="False" />
   <!-- パパから？えーっと････ -->
@@ -164,4 +152,8 @@
   <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue2FaceRemilia" Value="私のところに頭下げて,頼み込んできたのよ" Face="Remilia" Mono="False" />
   <!-- やることはやったからってもう帰ったみたいだけどね -->
   <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue3FaceRemilia" Value="やることはやったからって,もう帰ったみたいだけどね" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue1" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue2" Value="[It’s sealed tight anyways.,I’d need a crowbar to pry it,open.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue1" Value="[Hm? You want to know if we’ve,opened up these crates to see,what’s inside?]" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue2" Value="[Eh，it’s nothing special.,Ammo，electrical components，,memory chips，junk like that.]" Face="Policeman" Mono="False" />
 </data>

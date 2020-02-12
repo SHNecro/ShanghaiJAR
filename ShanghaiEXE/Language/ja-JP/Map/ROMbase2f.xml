@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　階段 -->
   <Text Key="Map.ROMbase2fName" Value="ROM基地　階段" />
@@ -13,19 +13,17 @@
   <!-- おそらく場所的にロクなものは入っていないだろう -->
   <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
   <!-- おそらく場所的にロクなものは入っていないだろう -->
-  <Dialogue Key="Map.ROMbase2fContainerDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="おそらく場所的に,ロクなものは入っていないだろう" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue1" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue2" Value="[It’s sealed tight anyways.,I’d need a crowbar to pry it,open.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue1" Value="[A shifting Cain cipher?,No，no，the periodicity’s all,wrong.]" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue2" Value="[Or maybe it’s all junk to distract,us from the real data....,Hmm.]" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue1" Value="[Aha! A leftover invoice!,20 gallons of alkahest agent，,from.... June Corp. to W3 Ltd.]" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue2" Value="[I’ll pass it on to the analysts.,This could let us uncover more,ROM fronts and accomplices.]" Face="Policeman" Mono="False" />
 </data>
