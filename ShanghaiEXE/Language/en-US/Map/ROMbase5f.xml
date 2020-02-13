@@ -104,4 +104,8 @@
   <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue1" Value="Hold on，Alice.,Whatever Asakura did here let,out some really nasty energy." Face="Sagume" Mono="False" />
   <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue2" Value="Short exposure like you had,should be fine，but any more,would be risky." Face="Sagume" Mono="False" />
   <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue3" Value="We’ve got protective gear，but,it’s custom-fitted. Don’t worry，,we won’t miss a thing." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostgameScientistDialogue1" Value="Did somebody unplug these,cables from somewhere?" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostgameScientistDialogue2" Value="If it wasn’t one of us....,Someone check the tapes!,We can’t let any of this get out!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostgameAgentDialogue1" Value="“Hail ROM”， huh....?" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostgameAgentDialogue2" Value="Can’t believe a bunch of,fanatics managed to cause,so much trouble...." Face="Policeman" Mono="False" />
 </data>

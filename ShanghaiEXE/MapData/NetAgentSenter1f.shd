@@ -1142,6 +1142,20 @@ msgopen:
 msg:Map.NetAgentSenter1fReception3DupeStage1Dialogue1FaceMaleAdult
 msgclose:
 end
+page:2
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:9:9:0:0
+hitform:square
+event:
+msgopen:
+msg:Map.NetAgentSenter1fPostGameBystander3Dialogue1
+msgclose:
+end
 
 ID:２階へ
 position:18:168:0
@@ -1176,23 +1190,6 @@ mapChange:NetAgentSenter2f:39:179:0:1
 seon:chime2
 wait:30:False
 fade:15:0:0:0:0:True
-end
-
-ID:PostgameBystander3
-position:111:100:0
-page:1
-startterms:Abutton
-type:1
-terms:variable/10/False/0/8
-move:
-speed:0
-graphic:3:4,0,3,0,0
-hitrange:3:0:0:0
-hitform:circle
-event:
-msgopen:
-msg:Map.NetAgentSenter1fPostGameBystander3Dialogue1
-msgclose:
 end
 
 ID:PostgameBystander1
