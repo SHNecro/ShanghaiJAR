@@ -733,7 +733,7 @@ namespace NSGame
                         refundedAddons.Remove(refund);
                         refundedAddonNames.Add(addOn.name);
 
-                        removedIndices.Add(Tuple.Create(i, this.equipAddon.Take(i).Count(b => b)));
+                        removedIndices.Add(Tuple.Create(i, this.equipAddon[i] ? this.equipAddon.Take(i).Count(b => b) : -1));
                         switch (refund.Item3)
                         {
                             case "Z":
@@ -752,13 +752,21 @@ namespace NSGame
                 {
                     this.haveAddon.RemoveAt(removedIndex.Item1);
                     this.equipAddon.RemoveAt(removedIndex.Item1);
-                    this.addonNames.RemoveAt(removedIndex.Item2);
+                    if (removedIndex.Item2 != -1)
+                    {
+                        this.addonNames.RemoveAt(removedIndex.Item2);
+                    }
                 }
 
                 if (refundedAddonNames.Any())
                 {
-                    refundedAddonNames = refundedAddonNames.SelectMany((s, i) => i != 0 && i % 3 == 0 ? new[] { s, "," } : new[] { s } ).ToList();
-                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat").Format(string.Join("，", refundedAddonNames)));
+                    var refundedAddonsString = refundedAddonNames.Aggregate((accum, next) =>
+                    {
+                        var entries = accum.Count(c => c == '，') + 1;
+                        var linebreak = entries != 0 && entries % 3 == 0 ? "," : string.Empty;
+                        return $"{accum}，{linebreak}{next}";
+                    });
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat").Format(refundedAddonsString));
                     this.AddOnRUN();
                 }
 
