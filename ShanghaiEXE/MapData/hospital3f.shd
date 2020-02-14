@@ -519,4 +519,20 @@ hitform:circle
 event:
 end
 
+ID:AutoClearHospitalEventFlags
+position:110:220:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:circle
+event:
+editFlag:792:False
+eventDeath:
+end
+
 
