@@ -95,17 +95,29 @@ battle:6:4:5:1:1:1:1:0::1:4:4:0:1:1:1:0::1:4:4:2:1:1:1:0::0:0:1:False:True:True:
 
 
 
-ID:空ワープ
+ID:JackOutWarp
 position:184:520:0
 page:1
-startterms:none
+startterms:Touch
 type:0
 terms:none
 move:
 speed:10
+graphic:-2:256,0,80,48,6
+hitrange:5:0:0:0
+hitform:circle
+event:
+warpPlugOut:
+end
+page:2
+startterms:Touch
+type:0
+terms:flag/0,flag/1,flag/271,flag/785
+move:
+speed:0
 graphic:-2:736,0,80,48,0
 hitrange:0:0:0:0
-hitform:square
+hitform:circle
 event:
 end
 

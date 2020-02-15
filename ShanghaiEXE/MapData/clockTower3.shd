@@ -1,4 +1,4 @@
-64,40,-744,-312,1312,800,Map.ClockTower3Name,0,1,25,674,1,clockTower3f,2
+64,40,-744,-312,1312,800,Map.ClockTower3Name,0,1,25,674,1,clockTower3f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,1,1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,1,1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -40,13 +40,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:31:1:4:0:1:1:1:0::14:3:3:1:1:1:1:0::31:1:4:2:1:1:1:0::0:1:1:False:True:True:True:VSvirus
-battle:28:1:4:1:1:1:1:0::39:3:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:3:4:0:1:1:1:0::21:3:4:1:1:1:1:0::21:3:4:2:1:1:1:0::0:1:1:False:True:True:True:VSvirus
-battle:39:3:3:0:1:1:1:0::39:3:5:1:1:1:1:0::39:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:28:1:5:0:1:1:1:0::28:1:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:3:5:0:1:1:1:0::31:1:4:1:1:1:1:0::21:3:5:2:1:1:1:0::0:1:3:False:True:True:True:VSvirus
-battle:31:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:31:1:4:0:1:1:1:0::14:3:3:1:1:1:1:0::31:1:4:2:1:1:1:0::0:1:1:False:True:True:True:VSvirus:0
+battle:28:1:4:1:1:1:1:0::39:3:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:3:4:0:1:1:1:0::21:3:4:1:1:1:1:0::21:3:4:2:1:1:1:0::0:1:1:False:True:True:True:VSvirus:0
+battle:39:3:3:0:1:1:1:0::39:3:5:1:1:1:1:0::39:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:28:1:5:0:1:1:1:0::28:1:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:3:5:0:1:1:1:0::31:1:4:1:1:1:1:0::21:3:5:2:1:1:1:0::0:1:3:False:True:True:True:VSvirus:0
+battle:31:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 
 
@@ -1096,17 +1096,29 @@ event:
 EventLun:ギミック:1
 end
 
-ID:空ワープ
+ID:JackOutWarp
 position:185:185:0
 page:1
-startterms:Abutton
-type:1
+startterms:Touch
+type:0
 terms:none
+move:
+speed:10
+graphic:-2:256,0,80,48,6
+hitrange:5:0:0:0
+hitform:circle
+event:
+warpPlugOut:
+end
+page:2
+startterms:Touch
+type:0
+terms:flag/0,flag/1,flag/271,flag/785
 move:
 speed:0
 graphic:-2:736,0,80,48,0
 hitrange:0:0:0:0
-hitform:square
+hitform:circle
 event:
 end
 
@@ -2797,6 +2809,24 @@ hitform:square
 event:
 end
 
+ID:スプライト１
+position:205:221:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:0
+graphic:2:6,0,1,0,0
+hitrange:2:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.ClockTower3Sprite1AStage1Dialogue1FaceSprite
+msg:Map.ClockTower3Sprite1AStage1Dialogue2FaceSprite
+msgclose:
+end
+
 MysteryID:ミステリー163：グラビフィールド　Ｐ
 position:146:114:0
 Mystery:1,0,155,2,グラビフィールド　Ｐ,163
@@ -2873,24 +2903,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:スプライト１
-position:205:221:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:0
-graphic:2:6,0,1,0,0
-hitrange:2:0:0:0
-hitform:circle
-event:
-msgopen:
-msg:Map.ClockTower3Sprite1AStage1Dialogue1FaceSprite
-msg:Map.ClockTower3Sprite1AStage1Dialogue2FaceSprite
-msgclose:
 end
 
 

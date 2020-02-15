@@ -1,4 +1,4 @@
-44,55,-440,-344,1312,656,Map.ShoolNet3Name,0,1,14,0,0,shoolNet3f,16
+44,55,-440,-344,1312,656,Map.ShoolNet3Name,0,1,14,0,0,shoolNet3f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
@@ -55,12 +55,12 @@
 0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:38:1:5:1:1:1:1:0::21:2:4:0:1:1:1:0::0:2:4:2:1:1:1:0::8:0:4:False:True:True:True:VSvirus
-battle:3:2:4:0:1:1:1:0::21:2:5:1:1:1:1:0::3:2:4:2:1:1:1:0::0:8:10:False:True:True:True:VSvirus
-battle:38:1:3:0:1:1:1:0::11:2:5:1:1:1:1:0::11:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:2:4:0:1:1:1:0::21:2:4:1:1:1:1:0::21:2:4:2:1:1:1:0::0:8:5:False:True:True:True:VSvirus
-battle:3:2:3:0:1:1:1:0::3:2:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:8:1:False:True:True:True:VSvirus
-battle:18:2:4:0:1:1:1:0::18:2:5:1:1:1:1:0::18:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:38:1:5:1:1:1:1:0::21:2:4:0:1:1:1:0::0:2:4:2:1:1:1:0::8:0:4:False:True:True:True:VSvirus:0
+battle:3:2:4:0:1:1:1:0::21:2:5:1:1:1:1:0::3:2:4:2:1:1:1:0::0:8:10:False:True:True:True:VSvirus:0
+battle:38:1:3:0:1:1:1:0::11:2:5:1:1:1:1:0::11:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:2:4:0:1:1:1:0::21:2:4:1:1:1:1:0::21:2:4:2:1:1:1:0::0:8:5:False:True:True:True:VSvirus:0
+battle:3:2:3:0:1:1:1:0::3:2:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:8:1:False:True:True:True:VSvirus:0
+battle:18:2:4:0:1:1:1:0::18:2:5:1:1:1:1:0::18:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 
@@ -177,7 +177,7 @@ msg:Map.ShoolNet3Chapter3Sprite2Stage1Dialogue1FaceSprite
 msgclose:
 end
 
-ID:橋１−１
+ID:橋１?１
 position:161:209:0
 page:1
 startterms:Abutton
@@ -202,7 +202,7 @@ hitform:square
 event:
 end
 
-ID:橋２−１
+ID:橋２?１
 position:113:209:0
 page:1
 startterms:Abutton
@@ -227,7 +227,7 @@ hitform:square
 event:
 end
 
-ID:橋３−１
+ID:橋３?１
 position:65:209:0
 page:1
 startterms:Abutton
@@ -402,7 +402,7 @@ msg:Map.ShoolNet3Terminal3Stage5Dialogue1FaceNone
 msgclose:
 end
 
-ID:封鎖１−１
+ID:封鎖１?１
 position:170:209:0
 page:1
 startterms:Abutton
@@ -438,7 +438,7 @@ hitform:square
 event:
 end
 
-ID:封鎖２−１
+ID:封鎖２?１
 position:130:209:0
 page:1
 startterms:Abutton
@@ -474,7 +474,7 @@ hitform:square
 event:
 end
 
-ID:封鎖３−１
+ID:封鎖３?１
 position:82:209:0
 page:1
 startterms:Abutton
@@ -537,6 +537,32 @@ hitform:square
 event:
 bgmoff:
 eventDeath:
+end
+
+ID:JackOutWarp
+position:272:208:0
+page:1
+startterms:Touch
+type:0
+terms:none
+move:
+speed:10
+graphic:-2:256,0,80,48,6
+hitrange:5:0:0:0
+hitform:circle
+event:
+warpPlugOut:
+end
+page:2
+startterms:Touch
+type:0
+terms:flag/0,flag/1,flag/271,flag/785
+move:
+speed:0
+graphic:-2:736,0,80,48,0
+hitrange:0:0:0:0
+hitform:circle
+event:
 end
 
 MysteryID:ミステリー83：リフレステージ　E

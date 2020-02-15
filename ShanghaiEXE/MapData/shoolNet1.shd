@@ -1,4 +1,4 @@
-42,62,-280,-312,1248,656,Map.ShoolNet1Name,0,1,14,0,0,shoolNet1f,67
+42,62,-280,-312,1248,656,Map.ShoolNet1Name,0,1,14,0,0,shoolNet1f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -62,12 +62,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:3:2:4:0:1:1:1:0::3:2:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:3:2:5:1:1:1:1:0::11:2:3:0:1:1:1:0::11:2:3:2:1:1:1:0::0:8:5:False:True:True:True:VSvirus
-battle:41:1:4:0:1:1:1:0::41:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:41:1:5:0:1:1:1:0::38:1:3:1:1:1:1:0::41:1:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:38:1:4:0:1:1:1:0::38:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:3:2:4:0:1:1:1:0::41:1:3:2:1:1:1:0::11:2:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:3:2:4:0:1:1:1:0::3:2:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:3:2:5:1:1:1:1:0::11:2:3:0:1:1:1:0::11:2:3:2:1:1:1:0::0:8:5:False:True:True:True:VSvirus:0
+battle:41:1:4:0:1:1:1:0::41:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:41:1:5:0:1:1:1:0::38:1:3:1:1:1:1:0::41:1:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:38:1:4:0:1:1:1:0::38:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:3:2:4:0:1:1:1:0::41:1:3:2:1:1:1:0::11:2:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 
@@ -857,7 +857,7 @@ hitform:square
 event:
 end
 
-ID:封鎖１−１
+ID:封鎖１?１
 position:112:242:0
 page:1
 startterms:Abutton
@@ -918,7 +918,7 @@ hitform:square
 event:
 end
 
-ID:封鎖２−１
+ID:封鎖２?１
 position:112:317:0
 page:1
 startterms:Abutton
@@ -979,7 +979,7 @@ hitform:square
 event:
 end
 
-ID:封鎖３−１
+ID:封鎖３?１
 position:150:281:0
 page:1
 startterms:Abutton
@@ -1037,6 +1037,61 @@ speed:0
 graphic:-8:896,240,128,64,0
 hitrange:0:0:0:0
 hitform:square
+event:
+end
+
+ID:BGMStart
+position:157:81:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:jump,32:right,16:left,16
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmon:cyber_of_school
+eventDeath:
+end
+page:2
+startterms:Auto
+type:0
+terms:variable/14/False/0/3
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmoff:
+eventDeath:
+end
+
+ID:JackOutWarp
+position:113:281:0
+page:1
+startterms:Touch
+type:0
+terms:none
+move:
+speed:10
+graphic:-2:256,0,80,48,6
+hitrange:5:0:0:0
+hitform:circle
+event:
+warpPlugOut:
+end
+page:2
+startterms:Touch
+type:0
+terms:flag/0,flag/1,flag/271,flag/785
+move:
+speed:0
+graphic:-2:736,0,80,48,0
+hitrange:0:0:0:0
+hitform:circle
 event:
 end
 
@@ -1168,35 +1223,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:BGMStart
-position:157:81:0
-page:1
-startterms:Auto
-type:1
-terms:none
-move:jump,32:right,16:left,16
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmon:cyber_of_school
-eventDeath:
-end
-page:2
-startterms:Auto
-type:0
-terms:variable/14/False/0/3
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmoff:
-eventDeath:
 end
 
 

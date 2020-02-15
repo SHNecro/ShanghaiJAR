@@ -1,4 +1,4 @@
-60,46,-744,-345,1568,832,Map.ShoolNet2Name,0,1,14,110,1,shoolNet2f,47
+60,46,-744,-345,1568,832,Map.ShoolNet2Name,0,1,14,110,1,shoolNet2f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -46,12 +46,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:33:1:4:0:1:1:1:0::38:1:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:8:1:False:True:True:True:VSvirus
-battle:33:1:4:1:1:1:1:0::11:2:3:0:1:1:1:0::11:2:3:2:1:1:1:0::0:8:17:False:True:True:True:VSvirus
-battle:18:2:3:0:1:1:1:0::18:2:4:1:1:1:1:0::11:2:5:2:1:1:1:0::0:8:3:False:True:True:True:VSvirus
-battle:3:2:4:0:1:1:1:0::38:1:4:1:1:1:1:0::3:2:4:2:1:1:1:0::0:8:10:False:True:True:True:VSvirus
-battle:11:2:5:0:1:1:1:0::18:2:3:1:1:1:1:0::33:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:33:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:33:1:4:0:1:1:1:0::38:1:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:8:1:False:True:True:True:VSvirus:0
+battle:33:1:4:1:1:1:1:0::11:2:3:0:1:1:1:0::11:2:3:2:1:1:1:0::0:8:17:False:True:True:True:VSvirus:0
+battle:18:2:3:0:1:1:1:0::18:2:4:1:1:1:1:0::11:2:5:2:1:1:1:0::0:8:3:False:True:True:True:VSvirus:0
+battle:3:2:4:0:1:1:1:0::38:1:4:1:1:1:1:0::3:2:4:2:1:1:1:0::0:8:10:False:True:True:True:VSvirus:0
+battle:11:2:5:0:1:1:1:0::18:2:3:1:1:1:1:0::33:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:33:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 
 
@@ -486,7 +486,7 @@ msg:Map.ShoolNet2Chapter3Sprite3Stage1Dialogue1FaceSprite
 msgclose:
 end
 
-ID:橋１−１
+ID:橋１?１
 position:106:154:0
 page:1
 startterms:Abutton
@@ -511,7 +511,7 @@ hitform:square
 event:
 end
 
-ID:橋１−２
+ID:橋１?２
 position:226:74:0
 page:1
 startterms:Abutton
@@ -536,7 +536,7 @@ hitform:square
 event:
 end
 
-ID:橋２−１
+ID:橋２?１
 position:274:282:0
 page:1
 startterms:Abutton
@@ -561,7 +561,7 @@ hitform:square
 event:
 end
 
-ID:橋２−２
+ID:橋２?２
 position:330:130:0
 page:1
 startterms:Abutton
@@ -586,7 +586,7 @@ hitform:square
 event:
 end
 
-ID:橋３−１
+ID:橋３?１
 position:193:282:0
 page:1
 startterms:Abutton
@@ -611,7 +611,7 @@ hitform:square
 event:
 end
 
-ID:橋３−２
+ID:橋３?２
 position:26:193:0
 page:1
 startterms:Abutton
@@ -636,7 +636,7 @@ hitform:square
 event:
 end
 
-ID:封鎖１−１
+ID:封鎖１?１
 position:101:156:0
 page:1
 startterms:Abutton
@@ -672,7 +672,7 @@ hitform:square
 event:
 end
 
-ID:封鎖１−２
+ID:封鎖１?２
 position:214:76:0
 page:1
 startterms:Abutton
@@ -708,7 +708,7 @@ hitform:square
 event:
 end
 
-ID:封鎖２−１
+ID:封鎖２?１
 position:262:283:0
 page:1
 startterms:Abutton
@@ -744,7 +744,7 @@ hitform:square
 event:
 end
 
-ID:封鎖２−２
+ID:封鎖２?２
 position:330:138:0
 page:1
 startterms:Abutton
@@ -780,7 +780,7 @@ hitform:square
 event:
 end
 
-ID:封鎖３−１
+ID:封鎖３?１
 position:202:282:0
 page:1
 startterms:Abutton
@@ -816,32 +816,6 @@ hitform:square
 event:
 end
 
-MysteryID:ミステリー76：シードキャノン１　C
-position:275:99:0
-Mystery:1,0,3,0,シードキャノン１　C,76
-page:1
-startterms:Abutton
-type:1
-terms:
-move:
-speed:3
-graphic:-2:0,40,16,40,16
-hitrange:2:0:8:8
-hitform:circle
-event:
-end
-page:2
-startterms:Abutton
-type:0
-terms:
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-end
-
 ID:BGMStart
 position:157:81:0
 page:1
@@ -869,6 +843,58 @@ hitform:square
 event:
 bgmoff:
 eventDeath:
+end
+
+ID:JackOutWarp
+position:234:352:0
+page:1
+startterms:Touch
+type:0
+terms:none
+move:
+speed:10
+graphic:-2:256,1,80,48,6
+hitrange:5:0:0:0
+hitform:circle
+event:
+warpPlugOut:
+end
+page:2
+startterms:Touch
+type:0
+terms:flag/0,flag/1,flag/271,flag/785
+move:
+speed:0
+graphic:-2:736,1,80,48,0
+hitrange:0:0:0:0
+hitform:circle
+event:
+end
+
+MysteryID:ミステリー76：シードキャノン１　C
+position:275:99:0
+Mystery:1,0,3,0,シードキャノン１　C,76
+page:1
+startterms:Abutton
+type:1
+terms:
+move:
+speed:3
+graphic:-2:0,40,16,40,16
+hitrange:2:0:8:8
+hitform:circle
+event:
+end
+page:2
+startterms:Abutton
+type:0
+terms:
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
 end
 
 MysteryID:ミステリー77：フリーズのかけら5個

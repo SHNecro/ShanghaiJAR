@@ -1,4 +1,4 @@
-54,74,-600,-456,1648,816,Map.AirCleaner4Name,0,1,8,115,1,airCleaner4f,73
+54,74,-600,-456,1648,816,Map.AirCleaner4Name,0,1,8,115,1,airCleaner4f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -74,12 +74,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:1:2:4:0:1:1:1:0::1:2:5:1:1:1:1:0::18:1:3:1:1:1:1:0::0:6:6:False:True:True:True:VSvirus
-battle:25:1:4:0:1:1:1:0::25:1:3:1:1:1:1:0::25:1:4:2:1:1:1:0::0:6:1:False:True:True:True:VSvirus
-battle:24:1:3:0:1:1:1:0::24:1:4:2:1:1:1:0::39:1:5:2:1:1:1:0::0:6:2:False:True:True:True:VSvirus
-battle:7:1:3:1:1:1:1:0::1:2:4:1:1:1:1:0::7:1:5:1:1:1:1:0::3:6:6:False:True:True:True:VSvirus
-battle:37:1:4:0:1:1:1:0::25:1:3:1:1:1:1:0::24:1:5:2:1:1:1:0::0:6:3:False:True:True:True:VSvirus
-battle:8:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:1:2:4:0:1:1:1:0::1:2:5:1:1:1:1:0::18:1:3:1:1:1:1:0::0:6:6:False:True:True:True:VSvirus:0
+battle:25:1:4:0:1:1:1:0::25:1:3:1:1:1:1:0::25:1:4:2:1:1:1:0::0:6:1:False:True:True:True:VSvirus:0
+battle:24:1:3:0:1:1:1:0::24:1:4:2:1:1:1:0::39:1:5:2:1:1:1:0::0:6:2:False:True:True:True:VSvirus:0
+battle:7:1:3:1:1:1:1:0::1:2:4:1:1:1:1:0::7:1:5:1:1:1:1:0::3:6:6:False:True:True:True:VSvirus:0
+battle:37:1:4:0:1:1:1:0::25:1:3:1:1:1:1:0::24:1:5:2:1:1:1:0::0:6:3:False:True:True:True:VSvirus:0
+battle:8:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 
 
@@ -190,7 +190,7 @@ type:1
 terms:none
 move:right,96:left,96
 speed:8
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -254,7 +254,7 @@ type:1
 terms:none
 move:down,48:right,48:up,48:left,48
 speed:5
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -280,7 +280,7 @@ type:1
 terms:none
 move:left,48:down,48:right,48:up,48
 speed:7
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -306,7 +306,7 @@ type:1
 terms:none
 move:up,48:left,48:down,48:right,48
 speed:8
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -332,7 +332,7 @@ type:1
 terms:none
 move:right,48:up,48:left,48:down,48
 speed:9
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -358,7 +358,7 @@ type:1
 terms:none
 move:down,48:right,48:up,48:left,48
 speed:9
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -384,7 +384,7 @@ type:1
 terms:none
 move:left,48:down,48:right,48:up,48
 speed:9
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -410,7 +410,7 @@ type:1
 terms:none
 move:up,48:left,48:down,48:right,48
 speed:9
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -436,7 +436,7 @@ type:1
 terms:none
 move:right,48:up,48:left,48:down,48
 speed:9
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -462,7 +462,7 @@ type:1
 terms:none
 move:up,192:down,192
 speed:10
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -526,7 +526,7 @@ type:1
 terms:none
 move:up,160:down,160
 speed:10
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -552,7 +552,7 @@ type:1
 terms:none
 move:up,360:down,360
 speed:20
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -790,7 +790,7 @@ type:1
 terms:flag/142
 move:
 speed:6
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -804,7 +804,7 @@ type:1
 terms:flag/142
 move:
 speed:6
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -818,7 +818,7 @@ type:1
 terms:flag/142
 move:
 speed:6
-graphic:10:0,344,1,56,4
+graphic:10:0,0,1,0,0
 hitrange:8:18:-3:-3
 hitform:circle
 event:
@@ -899,6 +899,61 @@ speed:0
 graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
+event:
+end
+
+ID:BGMStart
+position:157:81:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:jump,32:right,16:left,16
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmon:cyber_of_aircleaner
+eventDeath:
+end
+page:2
+startterms:Auto
+type:0
+terms:variable/14/False/0/3
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmoff:
+eventDeath:
+end
+
+ID:JackOutWarp
+position:321:561:0
+page:1
+startterms:Touch
+type:0
+terms:none
+move:
+speed:10
+graphic:-2:256,1,80,48,6
+hitrange:5:0:0:0
+hitform:circle
+event:
+warpPlugOut:
+end
+page:2
+startterms:Touch
+type:0
+terms:flag/0,flag/1,flag/271,flag/785
+move:
+speed:0
+graphic:-2:736,1,80,48,0
+hitrange:0:0:0:0
+hitform:circle
 event:
 end
 
@@ -1004,35 +1059,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:BGMStart
-position:157:81:0
-page:1
-startterms:Auto
-type:1
-terms:none
-move:jump,32:right,16:left,16
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmon:cyber_of_aircleaner
-eventDeath:
-end
-page:2
-startterms:Auto
-type:0
-terms:variable/14/False/0/3
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmoff:
-eventDeath:
 end
 
 
