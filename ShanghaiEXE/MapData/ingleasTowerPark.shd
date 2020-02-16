@@ -780,6 +780,24 @@ hitform:square
 event:
 end
 
+ID:PostgameWoman
+position:126:18:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:6
+graphic:16:1,0,7,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.IngleasTowerParkPostgameWomanDialogue1
+msg:Map.IngleasTowerParkPostgameWomanDialogue2
+msgclose:
+end
+
 ID:PostgameBoy1
 position:117:105:0
 page:1

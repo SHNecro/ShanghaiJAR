@@ -1470,8 +1470,24 @@ msg:Map.IngleasTownPostgameOldManDialogue3
 msgclose:
 end
 
+ID:CarMovementInitialization
+position:616:150:0
+page:1
+startterms:Auto
+type:2
+terms:none
+move:
+speed:124
+graphic:-1:0,0,0,0,0
+hitrange:8:8:0:0
+hitform:square
+event:
+editValue:7:False:0:0:0
+eventDeath:
+end
+
 ID:CarMovement
-position:621:165:0
+position:630:156:0
 page:1
 startterms:parallel
 type:2
