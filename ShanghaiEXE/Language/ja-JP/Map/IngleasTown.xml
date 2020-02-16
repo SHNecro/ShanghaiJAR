@@ -284,4 +284,7 @@
   <Dialogue Key="Map.IngleasTownPostGameReisenBattleWin2" Value="････当然の結果だな" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.IngleasTownPostGameReisenBattleLose2" Value="この強さ････やはり本物か････" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.IngleasTownPostGameReisenBattleCancel" Value="怖気づいたか,それとも････？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue1" Value="[Hmm?,Oh， don’t worry about me，lass.,Just watching the cars go by.]" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue2" Value="[Hard to believe horses and,carts used to go down these,very same roads.]" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue3" Value="[’Course，that’d be my own,gramps’ time，or my gramps’,gramps’. Long，long ago....]" Face="MaleElderly" Mono="False" />
 </data>

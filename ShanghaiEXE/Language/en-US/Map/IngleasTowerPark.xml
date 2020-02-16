@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インゲレス　時計塔前広場 -->
   <Text Key="Map.IngleasTowerParkName" Value="Engelles Tower Plaza" />
@@ -138,4 +138,7 @@
   <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage13Dialogue4FaceShanghai" Value="Tenshi’s been discharged from,the hospital，too! We can go,visit her!" Face="Shanghai" Mono="False" />
   <!-- アリス　メールが来たわよ！ -->
   <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage15Dialogue1FaceShanghai" Value="Alice! Mail!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameGirl1Dialogue1" Value="I’m tellin’ ya! I saw a princess!,With weird hair and a thingy,on her head!" Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue2" Value="Nuh-uh!,That’s the scary girl from the,icecream shop!" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue3" Value="I asked her what kind she was,gonna get since she kept,lookin’ but she got real mad!" Face="BlondHairMaleChild" Mono="False" />
 </data>

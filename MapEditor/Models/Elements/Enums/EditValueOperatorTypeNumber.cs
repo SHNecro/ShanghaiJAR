@@ -18,7 +18,7 @@ namespace MapEditor.Models.Elements.Enums
         Divide = 4,
         [Description("%=")]
         Modulo = 5,
-        [Description("^")]
+        [Description("^=")]
         Power = 6
     }
 }
