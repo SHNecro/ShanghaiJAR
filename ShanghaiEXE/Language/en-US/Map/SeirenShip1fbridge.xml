@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 豪華客船セイレーン１Ｆ　操舵室 -->
   <Text Key="Map.SeirenShip1fbridgeName" Value="Cruise Ship 1F Bridge" />
@@ -94,4 +94,9 @@
   <Dialogue Key="Map.SeirenShip1fbridgeShikigamiStage1Dialogue1FaceBlackRobot" Value="........" Face="BlackRobot" Mono="False" />
   <!-- 全く動かない -->
   <Dialogue Key="Map.SeirenShip1fbridgeShikigamiStage1Dialogue2FaceNone" Value="It’s as still as a statue." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint1Dialogue1" Value="What part of “no” don’t you,understand?" Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint1Dialogue2" Value="We’ve just had a cybersecurity,incident，and you want to open,a port straight to the Net?!" Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue1" Value="But Captain，data  transfer is the,major bottleneck of our study!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue2" Value="We can’t keep using interns,to run thumbdrives from the,railing back to the lab!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue3" Value="The submarine took up all,of our budget，we can’t afford,bigger hard drives!" Face="Scientist" Mono="False" />
 </data>

@@ -141,12 +141,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:14:3:5:0:1:1:1:0::27:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:3:15:False:True:True:True:VSvirus
-battle:29:2:5:0:1:1:1:0::33:2:4:1:1:1:1:0::29:2:5:2:1:1:1:0::0:1:13:False:True:True:True:VSvirus
-battle:35:3:3:0:1:1:1:0::35:3:5:2:1:1:1:0::0:1:3:2:1:1:1:0::5:5:1:False:True:True:True:VSvirus
-battle:39:3:5:0:1:1:1:0::39:3:3:1:1:1:1:0::39:3:5:2:1:1:1:0::0:6:1:False:True:True:True:VSvirus
-battle:35:3:3:0:1:1:1:0::29:2:5:1:1:1:1:0::33:2:4:2:1:1:1:0::5:1:1:False:True:True:True:VSvirus
-battle:26:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:14:3:5:0:1:1:1:0::27:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:3:15:False:True:True:True:VSvirus:0
+battle:29:2:5:0:1:1:1:0::33:2:4:1:1:1:1:0::29:2:5:2:1:1:1:0::0:1:13:False:True:True:True:VSvirus:0
+battle:35:3:3:0:1:1:1:0::35:3:5:2:1:1:1:0::0:1:3:2:1:1:1:0::5:5:1:False:True:True:True:VSvirus:0
+battle:39:3:5:0:1:1:1:0::39:3:3:1:1:1:1:0::39:3:5:2:1:1:1:0::0:6:1:False:True:True:True:VSvirus:0
+battle:35:3:3:0:1:1:1:0::29:2:5:1:1:1:1:0::33:2:4:2:1:1:1:0::5:1:1:False:True:True:True:VSvirus:0
+battle:26:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 random:0,71,2,Map.RandomItemKnghtLncLName:0,80,3,Map.RandomItemBrnzNplm＊Name:0,93,2,Map.RandomItemChainGn1NName:0,109,0,Map.RandomItemTanuGod2AName:3,8,300,Map.RandomItem300ZennyName:3,8,2300,Map.RandomItem2300ZennyName:3,8,4000,Map.RandomItem4000ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
@@ -538,6 +538,26 @@ bgmoff:
 eventDeath:
 end
 
+ID:BlackNaviWrongWayNPC
+position:140:39:0
+page:1
+startterms:Abutton
+type:1
+terms:flag/531,variable/10/False/0/6
+move:
+speed:0
+graphic:2:3,0,7,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.UraNet6BlackNaviWrongWayNPCDialogue1
+msg:Map.UraNet6BlackNaviWrongWayNPCDialogue2
+msg:Map.UraNet6BlackNaviWrongWayNPCDialogue3
+msg:Map.UraNet6BlackNaviWrongWayNPCDialogue4
+msgclose:
+end
+
 MysteryID:ミステリー173：ダンマクバルカン　S
 position:239:63:1
 Mystery:2,0,136,2,ダンマクバルカン　S,173
@@ -644,7 +664,7 @@ end
 
 MysteryID:ランダムミステリー：90
 position:128:400:1
-Mystery:0,0,0,0,レイガン　A,90
+Mystery:0,0,0,0,,90
 page:1
 startterms:Abutton
 type:1
@@ -670,7 +690,7 @@ end
 
 MysteryID:ランダムミステリー：91
 position:15:239:1
-Mystery:0,0,0,0,レイガン　A,91
+Mystery:0,0,0,0,,91
 page:1
 startterms:Abutton
 type:1
@@ -696,7 +716,7 @@ end
 
 MysteryID:ランダムミステリー：92
 position:448:240:1
-Mystery:0,0,0,0,レイガン　A,92
+Mystery:0,0,0,0,,92
 page:1
 startterms:Abutton
 type:1
@@ -722,7 +742,7 @@ end
 
 MysteryID:ランダムミステリー：93
 position:209:137:0
-Mystery:0,0,0,0,レイガン　A,93
+Mystery:0,0,0,0,,93
 page:1
 startterms:Abutton
 type:1
@@ -748,7 +768,7 @@ end
 
 MysteryID:ランダムミステリー：94
 position:273:137:0
-Mystery:0,0,0,0,レイガン　A,94
+Mystery:0,0,0,0,,94
 page:1
 startterms:Abutton
 type:1
