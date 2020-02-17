@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　インゲレススクエア -->
   <Text Key="Map.InglesSquareName" Value="Engelles Square" />
@@ -84,4 +84,12 @@
   <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue1FaceNaviPurplePunk" Value="Do Japanese people just like,sending numbers?" Face="NaviPurplePunk" Mono="False" />
   <!-- 日本の友人１０６７０５８１　って送ってきたヨ -->
   <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue2FaceNaviPurplePunk" Value="I just got ”10670581” from my,friend. Huh?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue1" Value="No，no，no.,I’m not interested in any of these,gaudy knickknacks." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue2" Value="It looks like I’ll have to take my,business elsewhere.,Bodyguards! To me!" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard1Dialogue1" Value="DEFEND MISTRESS!" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard2Dialogue1" Value="OCULAR ASSESSMENT:,NON-HOSTILE" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue1" Value="Sign up for a tour today!,Special offer for guests of the,Clock Tower Hotel only!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue2" Value="See the sights!,Don’t let your trip to Engelles,go to waste!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue1" Value="The viruses outside are just,too tough!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue2" Value="I bet it’s the connection to the,Undernet，I’d brick the whole,place up if I had any say in it!" Face="NaviGreenRobot" Mono="False" />
 </data>
