@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.InglesNet3Name" Value="Engelles Area 3" />
   <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
@@ -21,4 +21,9 @@
   <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="Here you go，as promised!" Face="NaviBlackHeel" Mono="False" />
   <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
   <Dialogue Key="Map.InglesNet3DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="I lost to you. I have no right,to say anything else." Face="NaviBlackHeel" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue1" Value="You’ve figured it out，this whole,place is just one big tourist trap." Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue2" Value="If you want the real Engelles，,you’d be better off checking out,the UnderSquare." Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue3" Value="Sure，it’s a bit dangerous，but,it’s authentic. Come with me，I’ll,keep you safe.... ehehe!" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue1" Value="I went to the Square， but it’s all,shops and people trying to get,you to take their tours!" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue2" Value="There’s not even any message,boards! Where are all the real,Engellians?" Face="NaviChild" Mono="False" />
 </data>
