@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.InglesNet1fName" Value="インターネット　インゲレスエリア１" />
   <Dialogue Key="Map.InglesNet1fMurasaV2Stage1Dialogue1FaceNone" Value="倒したナビの残骸データが,どこかへと飛び去っていった････" Face="None" Mono="False" />
@@ -8,4 +8,16 @@
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi2Stage1Dialogue2FaceNaviOrangeMale" Value="このインゲレスエリアには,そんな概念なんて,存在しないよ" Face="NaviOrangeMale" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi3Stage1Dialogue1FaceSprite" Value="ワタシハ　シンセツ　スプライト〜,スクエアハ　コッチデ,アッテルヨ〜" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi3Stage1Dialogue2FaceSprite" Value="ワープニ　ノラズニ,エリア２ニ　イッテチョウダイ,イッテキナ〜" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameSpriteDialogue1" Value="[ALL SPRITES ARE TRAINED,TO SPEAK MULTIPLE,LANGUAGES!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameSpriteDialogue2" Value="[WE’RE MORE THAN JUST,PRETTY FACES!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue1" Value="[This part of the Net was ,deliberately designed to be,confusing， believe it or not!]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue2" Value="[Back when the Cyberworld,Theory came over from Japan，,lots of folks didn’t trust the idea.]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue3" Value="[So they thought: Let’s connect，,but make it as tough to navigate,as we can! Data’ll find the way!]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue4" Value="[Turns out viruses are data too，,and all that did was make things,harder for everyone else.]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeNaviDialogue1" Value="[Oh no.....,I swear I took the right warp to,the Square....]" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgamePinkNaviDialogue1" Value="[You just can’t trust anyone on,the Net these days，especially,not based on how they look!]" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgamePinkNaviDialogue2" Value="[Some creeps choose “Child”-,type Navis just to trick people!,Ugh!]" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue1" Value="[Are you sure there’s no beach,Net around here? Port Engelles,is 10 minutes away，tops.]" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue2" Value="[I’m quite sure. Engelles Net,represents the city proper，,and this is no beach town.]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue3" Value="[Aww.... I smelled an ocean,breeze somewhere，now all I,want is to go to the beach....]" Face="NaviOrangeMale" Mono="False" />
 </data>

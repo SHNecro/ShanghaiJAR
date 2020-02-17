@@ -1,4 +1,4 @@
-24,24,-200,-144,640,432,Map.InglesSquareName,0,1,23,0,0,inglesSquare,33
+24,24,-200,-144,640,432,Map.InglesSquareName,0,1,23,0,0,inglesSquare,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
@@ -39,7 +39,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2
@@ -341,7 +341,7 @@ position:48:62:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/5
 move:
 speed:0
 graphic:2:0,0,7,0,0
@@ -363,7 +363,7 @@ position:158:62:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/5
 move:
 speed:0
 graphic:2:4,0,5,0,0
@@ -385,7 +385,7 @@ position:78:110:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/5
 move:
 speed:0
 graphic:2:1,0,3,0,0
@@ -407,7 +407,7 @@ position:127:111:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/5
 move:
 speed:0
 graphic:2:2,0,1,0,0

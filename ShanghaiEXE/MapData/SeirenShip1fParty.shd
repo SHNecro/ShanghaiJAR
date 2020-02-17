@@ -505,7 +505,7 @@ terms:none
 move:
 speed:0
 graphic:-18:392,176,168,104,0
-hitrange:64:24:7:4
+hitrange:76:24:1:4
 hitform:square
 event:
 msgopen:

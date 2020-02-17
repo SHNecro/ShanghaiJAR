@@ -1,4 +1,4 @@
-51,57,-552,-352,1536,816,Map.InglesNet1fName,0,1,23,663,1,inglesNet1f,5
+51,57,-552,-352,1536,816,Map.InglesNet1fName,0,1,23,663,1,inglesNet1f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
@@ -57,12 +57,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:4:2:4:0:1:1:1:0::2:2:5:1:1:1:1:0::3:3:3:2:1:1:1:0::0:8:2:False:True:True:True:VSvirus
-battle:12:1:3:0:1:1:1:0::4:2:5:1:1:1:1:0::12:1:4:2:1:1:1:0::0:8:20:False:True:True:True:VSvirus
-battle:2:2:5:0:1:1:1:0::20:2:4:1:1:1:1:0::2:2:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:3:3:3:0:1:1:1:0::12:1:5:1:1:1:1:0::3:3:3:2:1:1:1:0::0:8:3:False:True:True:True:VSvirus
-battle:20:2:3:0:1:1:1:0::20:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::8:0:10:False:True:True:True:VSvirus
-battle:25:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:4:2:4:0:1:1:1:0::2:2:5:1:1:1:1:0::3:3:3:2:1:1:1:0::0:8:2:False:True:True:True:VSvirus:0
+battle:12:1:3:0:1:1:1:0::4:2:5:1:1:1:1:0::12:1:4:2:1:1:1:0::0:8:20:False:True:True:True:VSvirus:0
+battle:2:2:5:0:1:1:1:0::20:2:4:1:1:1:1:0::2:2:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:3:3:3:0:1:1:1:0::12:1:5:1:1:1:1:0::3:3:3:2:1:1:1:0::0:8:3:False:True:True:True:VSvirus:0
+battle:20:2:3:0:1:1:1:0::20:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::8:0:10:False:True:True:True:VSvirus:0
+battle:25:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 random:0,6,0,Map.RandomItemChrgCan1FName:0,30,0,Map.RandomItemCrshLnk2BName:0,35,2,Map.RandomItemTrapNetTName:3,8,300,Map.RandomItem300ZennyName:3,8,2500,Map.RandomItem2500ZennyName:3,8,4000,Map.RandomItem4000ZennyName:3,8,8000,Map.RandomItem8000ZennyName
 
@@ -78,7 +78,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2
@@ -353,6 +353,126 @@ msg:Map.InglesNet1fChapter6-1Navi3Stage1Dialogue2FaceSprite
 msgclose:
 end
 
+ID:PostgameOrangeGreenNavi2Shadow
+position:214:76:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:24:8:0:0
+hitform:square
+event:
+msgopen:
+msg:Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue1
+msg:Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue2
+msg:Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue3
+msgclose:
+end
+
+ID:PostgameGreenNavi2
+position:199:67:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:0,0,1,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+end
+
+ID:PostgameOrangeNavi2
+position:211:66:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:1,0,5,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+end
+
+ID:PostgamePinkNavi
+position:315:68:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:4,0,1,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.InglesNet1fPostgamePinkNaviDialogue1
+msg:Map.InglesNet1fPostgamePinkNaviDialogue2
+msgclose:
+end
+
+ID:PostgameOrangeNavi
+position:20:324:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:1,0,7,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.InglesNet1fPostgameOrangeNaviDialogue1
+msgclose:
+end
+
+ID:PostgameGreenNavi
+position:217:231:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:0,0,5,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.InglesNet1fPostgameGreenNaviDialogue1
+msg:Map.InglesNet1fPostgameGreenNaviDialogue2
+msg:Map.InglesNet1fPostgameGreenNaviDialogue3
+msg:Map.InglesNet1fPostgameGreenNaviDialogue4
+msgclose:
+end
+
+ID:PostgameSprite
+position:283:332:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:6,0,7,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.InglesNet1fPostgameSpriteDialogue1
+msg:Map.InglesNet1fPostgameSpriteDialogue2
+msgclose:
+end
+
 MysteryID:ミステリー134：5000ゼニー
 position:188:266:0
 Mystery:1,3,8,5000,5000ゼニー,134
@@ -433,7 +553,7 @@ end
 
 MysteryID:ランダムミステリー：55
 position:251:299:0
-Mystery:0,0,0,0,レイガン　A,55
+Mystery:0,0,0,0,,55
 page:1
 startterms:Abutton
 type:1
@@ -459,7 +579,7 @@ end
 
 MysteryID:ランダムミステリー：56
 position:154:426:0
-Mystery:0,0,0,0,レイガン　A,56
+Mystery:0,0,0,0,,56
 page:1
 startterms:Abutton
 type:1
@@ -485,7 +605,7 @@ end
 
 MysteryID:ランダムミステリー：57
 position:24:200:0
-Mystery:0,0,0,0,レイガン　A,57
+Mystery:0,0,0,0,,57
 page:1
 startterms:Abutton
 type:1
@@ -511,7 +631,7 @@ end
 
 MysteryID:ランダムミステリー：58
 position:57:361:0
-Mystery:0,0,0,0,レイガン　A,58
+Mystery:0,0,0,0,,58
 page:1
 startterms:Abutton
 type:1
@@ -537,7 +657,7 @@ end
 
 MysteryID:ランダムミステリー：59
 position:92:396:0
-Mystery:0,0,0,0,レイガン　A,59
+Mystery:0,0,0,0,,59
 page:1
 startterms:Abutton
 type:1
@@ -563,7 +683,7 @@ end
 
 MysteryID:ランダムミステリー：60
 position:249:73:0
-Mystery:0,0,0,0,レイガン　A,60
+Mystery:0,0,0,0,,60
 page:1
 startterms:Abutton
 type:1
