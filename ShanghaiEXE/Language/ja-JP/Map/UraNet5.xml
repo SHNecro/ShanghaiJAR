@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.UraNet5Name" Value="ウラインターネット５" />
+  <Dialogue Key="Map.UraNet5PostgameMumblerDialogue1" Value="[....Down，left，down，right....,....left，down，left，up.....,....left，up，right，left....]" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet5PostgameMumblerDialogue2" Value="[....Down，left，right....,No，no，there’s no pattern to it!,]" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet5PostgameMumblerDialogue3" Value="[There’s something I have to,be missing....,The UnderTreasure is real!,]" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet5PostgamePunk2Dialogue1" Value="[Engellese NetArchitects sure,do like grids，don’t they?]" Face="NaviPurplePunk" Mono="False" />
 </data>

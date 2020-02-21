@@ -1,4 +1,4 @@
-56,44,-712,-304,1376,784,Map.UraNet4Name,0,1,26,171,3,uraNet4f,1
+56,44,-712,-304,1376,784,Map.UraNet4Name,0,1,26,171,3,uraNet4f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0
@@ -44,17 +44,17 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:9:2:4:0:1:1:1:0::9:2:4:2:1:1:1:0::14:3:3:1:1:1:1:0::0:1:1:False:True:True:True:VSvirus
-battle:10:2:3:0:1:1:1:0::19:2:4:1:1:1:1:0::10:2:5:2:1:1:1:0::0:7:10:False:True:True:True:VSvirus
-battle:14:3:4:0:1:1:1:0::14:3:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:1:4:False:True:True:True:VSvirus
-battle:28:1:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:28:1:3:0:1:1:1:0::28:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:19:2:3:0:1:1:1:0::19:2:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:9:2:3:1:1:1:1:0::10:2:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:14:3:3:1:1:1:1:0::9:2:4:1:1:1:1:0::9:2:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:36:3:3:0:1:1:1:0::36:3:5:1:1:1:1:0::36:3:4:2:1:1:1:0::3:3:1:False:True:True:True:VSvirus
-battle:2:3:4:0:1:1:1:0::2:3:3:1:1:1:1:0::2:3:4:2:1:1:1:0::3:3:1:False:True:True:True:VSvirus
-battle:57:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSnavi
+battle:9:2:4:0:1:1:1:0::9:2:4:2:1:1:1:0::14:3:3:1:1:1:1:0::0:1:1:False:True:True:True:VSvirus:0
+battle:10:2:3:0:1:1:1:0::19:2:4:1:1:1:1:0::10:2:5:2:1:1:1:0::0:7:10:False:True:True:True:VSvirus:0
+battle:14:3:4:0:1:1:1:0::14:3:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:1:4:False:True:True:True:VSvirus:0
+battle:28:1:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:28:1:3:0:1:1:1:0::28:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:19:2:3:0:1:1:1:0::19:2:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:9:2:3:1:1:1:1:0::10:2:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:14:3:3:1:1:1:1:0::9:2:4:1:1:1:1:0::9:2:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:36:3:3:0:1:1:1:0::36:3:5:1:1:1:1:0::36:3:4:2:1:1:1:0::3:3:1:False:True:True:True:VSvirus:0
+battle:2:3:4:0:1:1:1:0::2:3:3:1:1:1:1:0::2:3:4:2:1:1:1:0::3:3:1:False:True:True:True:VSvirus:0
+battle:57:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSnavi:0
 
 random:3,8,50,Map.RandomItem50ZennyName:3,8,150,Map.RandomItem150ZennyName:3,8,1500,Map.RandomItem1500ZennyName:3,8,15000,Map.RandomItem15000ZennyName:0,105,0,Map.RandomItemDethWpr1IName:0,135,0,Map.RandomItemBustrAmp＊Name:0,149,3,Map.RandomItemPwrAuraPName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
@@ -556,9 +556,91 @@ hitform:square
 event:
 end
 
+ID:ROMゲート
+position:49:41:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:3
+graphic:-2:512,200,32,56,4
+hitrange:4:27:8:8
+hitform:square
+event:
+msgopen:
+msg:Map.UraNet4ROMGateStage1Dialogue1FaceNone
+msgclose:
+end
+page:2
+startterms:Abutton
+type:1
+terms:flag/396
+move:
+speed:3
+graphic:-2:512,200,32,56,4
+hitrange:4:27:8:8
+hitform:square
+event:
+msgopen:
+msg:Map.UraNet4ROMGateStage3Dialogue1FaceNone
+seon:thiptransmission
+editFlag:565:True
+msg:Map.UraNet4ROMGateStage3Dialogue2FaceNone
+msgclose:
+end
+page:3
+startterms:Abutton
+type:0
+terms:flag/565
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+end
+
+ID:PostgameThug
+position:167:22:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:12:2,0,7,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.UraNet4PostgameThugDialogue1
+msg:Map.UraNet4PostgameThugDialogue2
+msgclose:
+end
+
+ID:PostgamePurpleNavi
+position:165:283:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:7,0,5,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.UraNet4PostgamePurpleNaviDialogue1
+msg:Map.UraNet4PostgamePurpleNaviDialogue2
+msg:Map.UraNet4PostgamePurpleNaviDialogue3
+msgclose:
+end
+
 MysteryID:ランダムミステリー：70
 position:218:26:0
-Mystery:0,0,0,0,レイガン　A,70
+Mystery:0,0,0,0,,70
 page:1
 startterms:Abutton
 type:1
@@ -584,7 +666,7 @@ end
 
 MysteryID:ランダムミステリー：71
 position:170:218:0
-Mystery:0,0,0,0,レイガン　A,71
+Mystery:0,0,0,0,,71
 page:1
 startterms:Abutton
 type:1
@@ -610,7 +692,7 @@ end
 
 MysteryID:ランダムミステリー：72
 position:89:185:0
-Mystery:0,0,0,0,レイガン　A,72
+Mystery:0,0,0,0,,72
 page:1
 startterms:Abutton
 type:1
@@ -636,7 +718,7 @@ end
 
 MysteryID:ランダムミステリー：73
 position:328:104:0
-Mystery:0,0,0,0,レイガン　A,73
+Mystery:0,0,0,0,,73
 page:1
 startterms:Abutton
 type:1
@@ -662,7 +744,7 @@ end
 
 MysteryID:ランダムミステリー：74
 position:89:57:0
-Mystery:0,0,0,0,レイガン　A,74
+Mystery:0,0,0,0,,74
 page:1
 startterms:Abutton
 type:1
@@ -730,51 +812,6 @@ page:2
 startterms:Abutton
 type:0
 terms:
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-end
-
-ID:ROMゲート
-position:49:41:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:3
-graphic:-2:512,200,32,56,4
-hitrange:4:27:8:8
-hitform:square
-event:
-msgopen:
-msg:Map.UraNet4ROMGateStage1Dialogue1FaceNone
-msgclose:
-end
-page:2
-startterms:Abutton
-type:1
-terms:flag/396
-move:
-speed:3
-graphic:-2:512,200,32,56,4
-hitrange:4:27:8:8
-hitform:square
-event:
-msgopen:
-msg:Map.UraNet4ROMGateStage3Dialogue1FaceNone
-seon:thiptransmission
-editFlag:565:True
-msg:Map.UraNet4ROMGateStage3Dialogue2FaceNone
-msgclose:
-end
-page:3
-startterms:Abutton
-type:0
-terms:flag/565
 move:
 speed:0
 graphic:-1:0,0,0,0,0

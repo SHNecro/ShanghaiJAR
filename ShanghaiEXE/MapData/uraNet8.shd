@@ -827,18 +827,23 @@ hitform:square
 event:
 end
 
-ID:新規イベント
-position:0:0:0
+ID:PostgamePunk
+position:175:183:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/8
 move:
 speed:0
-graphic:-1:0,0,0,0,0
+graphic:2:3,0,3,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
+msgopen:
+msg:Map.UraNet8PostgamePunkDialogue1
+msg:Map.UraNet8PostgamePunkDialogue2
+msg:Map.UraNet8PostgamePunkDialogue3
+msgclose:
 end
 
 MysteryID:ミステリー185：パネルシュート２　B

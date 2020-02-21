@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.UraNet4Name" Value="Undernet 4" />
   <Dialogue Key="Map.UraNet4ROMGateStage1Dialogue1FaceNone" Value="An eerie door blocks the path.,I can’t go through!" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet4ROMGateStage3Dialogue1FaceNone" Value="Shanghai used the,” ROM-ID ” !" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet4ROMGateStage3Dialogue2FaceNone" Value="The eerie door opened!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue1" Value="This place really isn’t so bad,once you figure out the logic,of it." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue2" Value="Heading to the Square?,You’ll want to take a right，,another right，a left...." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue3" Value="....two rights，then diagonal,either way，take the conveyor，,then straight the whole way." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgameThugDialogue1" Value="Some people think that just,’cuz a chip has more power it’s,automatically better." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgameThugDialogue2" Value="Damage doesn’t mean jack,if you have to line up each,shot or wait for a setup." Face="NaviPurpleHeel" Mono="False" />
 </data>

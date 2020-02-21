@@ -1,4 +1,4 @@
-54,44,-744,-272,1504,720,Map.UraNet5Name,0,1,26,664,1,uraNet5f,-1
+54,44,-744,-272,1504,720,Map.UraNet5Name,0,1,26,664,1,uraNet5f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1,1,0,0
@@ -44,13 +44,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:21:3:4:0:1:1:1:0::24:2:5:1:1:1:1:0::25:3:3:2:1:1:1:0::0:5:1:False:True:True:True:VSvirus
-battle:25:3:3:0:1:1:1:0::19:3:4:1:1:1:1:0::25:3:3:2:1:1:1:0::0:5:3:False:True:True:True:VSvirus
-battle:28:1:4:0:1:1:1:0::28:1:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:3:5:0:1:1:1:0::21:3:4:2:1:1:1:0::0:1:3:2:1:1:1:0::1:1:1:False:True:True:True:VSvirus
-battle:19:3:3:0:1:1:1:0::19:3:5:0:1:1:1:0::19:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:3:5:0:1:1:1:0::28:1:4:1:1:1:1:0::21:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:34:0:5:1:1:1:1:0::0:0:5:0:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:21:3:4:0:1:1:1:0::24:2:5:1:1:1:1:0::25:3:3:2:1:1:1:0::0:5:1:False:True:True:True:VSvirus:0
+battle:25:3:3:0:1:1:1:0::19:3:4:1:1:1:1:0::25:3:3:2:1:1:1:0::0:5:3:False:True:True:True:VSvirus:0
+battle:28:1:4:0:1:1:1:0::28:1:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:3:5:0:1:1:1:0::21:3:4:2:1:1:1:0::0:1:3:2:1:1:1:0::1:1:1:False:True:True:True:VSvirus:0
+battle:19:3:3:0:1:1:1:0::19:3:5:0:1:1:1:0::19:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:3:5:0:1:1:1:0::28:1:4:1:1:1:1:0::21:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:34:0:5:1:1:1:1:0::0:0:5:0:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 random:3,8,20,Map.RandomItem20ZennyName:3,8,200,Map.RandomItem200ZennyName:3,8,2000,Map.RandomItem2000ZennyName:3,8,20000,Map.RandomItem20000ZennyName:0,142,0,Map.RandomItemMtlCubeLName:0,25,2,Map.RandomItemColdAir3KName:0,44,0,Map.RandomItemStarBombEName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
@@ -147,9 +147,45 @@ event:
 mapWarp:uraNet5:191:127:0:7
 end
 
+ID:PostgamePunk2
+position:58:248:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:6
+graphic:2:3,0,3,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.UraNet5PostgamePunk2Dialogue1
+msgclose:
+end
+
+ID:PostgamePunk1
+position:311:122:0
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:up,8:wayleft,0:wait,60:down,8:wayleft,0:wait,60
+speed:6
+graphic:2:3,0,5,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.UraNet5PostgameMumblerDialogue1
+msg:Map.UraNet5PostgameMumblerDialogue2
+msg:Map.UraNet5PostgameMumblerDialogue3
+msgclose:
+end
+
 MysteryID:ランダムミステリー：75
 position:56:120:0
-Mystery:0,0,0,0,レイガン　A,75
+Mystery:0,0,0,0,,75
 page:1
 startterms:Abutton
 type:1
@@ -175,7 +211,7 @@ end
 
 MysteryID:ランダムミステリー：76
 position:121:57:0
-Mystery:0,0,0,0,レイガン　A,76
+Mystery:0,0,0,0,,76
 page:1
 startterms:Abutton
 type:1
@@ -201,7 +237,7 @@ end
 
 MysteryID:ランダムミステリー：77
 position:121:121:0
-Mystery:0,0,0,0,レイガン　A,77
+Mystery:0,0,0,0,,77
 page:1
 startterms:Abutton
 type:1
@@ -227,7 +263,7 @@ end
 
 MysteryID:ランダムミステリー：78
 position:120:184:0
-Mystery:0,0,0,0,レイガン　A,78
+Mystery:0,0,0,0,,78
 page:1
 startterms:Abutton
 type:1
@@ -253,7 +289,7 @@ end
 
 MysteryID:ランダムミステリー：79
 position:184:248:0
-Mystery:0,0,0,0,レイガン　A,79
+Mystery:0,0,0,0,,79
 page:1
 startterms:Abutton
 type:1
@@ -279,7 +315,7 @@ end
 
 MysteryID:ランダムミステリー：80
 position:249:185:0
-Mystery:0,0,0,0,レイガン　A,80
+Mystery:0,0,0,0,,80
 page:1
 startterms:Abutton
 type:1
@@ -305,7 +341,7 @@ end
 
 MysteryID:ランダムミステリー：81
 position:248:56:0
-Mystery:0,0,0,0,レイガン　A,81
+Mystery:0,0,0,0,,81
 page:1
 startterms:Abutton
 type:1
@@ -331,7 +367,7 @@ end
 
 MysteryID:ランダムミステリー：82
 position:120:248:0
-Mystery:0,0,0,0,レイガン　A,82
+Mystery:0,0,0,0,,82
 page:1
 startterms:Abutton
 type:1
@@ -357,7 +393,7 @@ end
 
 MysteryID:ランダムミステリー：83
 position:409:153:0
-Mystery:0,0,0,0,レイガン　A,83
+Mystery:0,0,0,0,,83
 page:1
 startterms:Abutton
 type:1

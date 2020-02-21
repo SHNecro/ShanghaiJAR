@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ウラインターネット９ -->
   <Text Key="Map.UraNet9Name" Value="Undernet 9" />
   <!-- ウラの果てまでご苦労だなここはエラーのかけら交換屋だぜ -->
   <Dialogue Key="Map.UraNet9ErrorExchangeShopStage1Dialogue1FaceNaviPurpleHeel" Value="Must have been hard work，,reaching here. Trading for,ErrFrags，got any?" Face="NaviPurpleHeel" Mono="False" />
   <Dialogue Key="Map.UraNet9DruidManV2FightEnd" Value="The defeated Navi’s remains,flew away...." Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgamePunk2Dialogue1" Value="I’ve been tailin’ a couple’a them,Dark Chip dealers，and this is,where all’a them make a stop." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgamePunk2Dialogue2" Value="I say that，but this is also where,all’a them gimme the slip.,Something’s here，I know it!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgamePunk1Dialogue1" Value="Rrrrrrgh....,I smell.... Dark Chips!,But where?! Graaaah!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgameCreepyChildDialogue1" Value="Hehehehe....!,Come play with us!" Face="NaviPurpleChild" Mono="False" />
 </data>

@@ -700,6 +700,24 @@ hitform:circle
 event:
 end
 
+ID:PostgamePunk
+position:381:239:1
+page:1
+startterms:Abutton
+type:1
+terms:variable/10/False/0/8
+move:
+speed:0
+graphic:2:3,0,1,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.UraNet7PostgamePunkDialogue1
+msg:Map.UraNet7PostgamePunkDialogue2
+msgclose:
+end
+
 ID:DemoEndSprite
 position:13:504:0
 page:1

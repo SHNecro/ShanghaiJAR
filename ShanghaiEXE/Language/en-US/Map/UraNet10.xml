@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ウラインターネット１０ -->
   <Text Key="Map.UraNet10Name" Value="Undernet 10" />
@@ -86,4 +86,16 @@
   <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue8FaceShanghai" Value="We should just wait until they,call us over.,Anyways，I’m tired." Face="Shanghai" Mono="False" />
   <!-- へー････ -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue9FaceAlice" Value="Hmm...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameHenchieDialogue1" Value="Miss Shanghai.,Some of the boys and I ran into,this NetAgent squad earlier." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameHenchieDialogue2" Value="They looked like they were in,trouble， so us good citizens,gave them a hand." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameHenchieDialogue3" Value="I think they’ll be grateful enough,to share what they find. I’ll send,a message once they do." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameMinion1Dialogue1" Value="Miss Shanghai." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameMinion2Dialogue1" Value="Nothing’s getting past me，,ma’am!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentDialogue1" Value="I’m no newbie，I know a,racket when I see one." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentDialogue2" Value="Been on the horn with HQ，,we’ll let this slide for their help,during the ROM incident." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentDialogue3" Value="As for what we find out here....,We figure we’d call someone,with experience anyhow." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentDialogue4" Value="Good hunting." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentScientistDialogue1" Value="Interesting....,These readings are identical,to those at the other portal site!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentScientistDialogue2" Value="Doesn’t sound like much，,except the other portal was in,the real world!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameNetAgentScientistDialogue3" Value="This could revolutionize our,understanding of dimensional,physics!" Face="NaviBlueRobot" Mono="False" />
 </data>

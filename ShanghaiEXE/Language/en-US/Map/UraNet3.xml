@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ウラインターネット３ -->
   <Text Key="Map.UraNet3Name" Value="Undernet 3" />
@@ -46,4 +46,11 @@
   <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue4FaceAlice" Value="You’re right. Let’s head back to,the shop in Central City." Face="Alice" Mono="False" />
   <!-- バグのかけらと　私のマイナスアドオンを交換しませんか？ -->
   <Dialogue Key="Map.UraNet3BagChangePartShopStage1Dialogue1FaceNaviPurpleChild" Value="Got BugFrags? I have Minus,AddOns." Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue1" Value="Buzz off，blondie.,Does it look like you belong,here?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue2" Value="Tch.,Outsiders...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue3" Value="Anyways....,You guys see that shot of,Mystia at the PRIZM debut?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue4" Value="Haha!,Move over，hag!,Talent coming through!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameLedgeThugDialogue1" Value="I dunno，man....,It’s not that far a walk，I can just,go around...." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameLedgePunkDialogue1" Value="Just jump，you big baby!,What are you，scared?,C’mon，I’ll catch you! Heheh...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue1" Value="Aww man....,ROM got taken down，but their,dumb door’s still here!" Face="NaviPurpleChild" Mono="False" />
 </data>

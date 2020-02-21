@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.UraNet1Name" Value="ウラインターネット１" />
   <Text Key="Map.UraNet1RandomBattle1Enemy1" Value="チンピラナビ" />
@@ -31,4 +31,7 @@
   <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue1FaceNone" Value="シャンハイは,「ＲＯＭ−ＩＤ」を使った！" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue2FaceNone" Value="不気味な扉が開いた！" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet1GuidePlateStage1Dialogue1FaceNone" Value="この先　危険！,命が惜しけりゃ　そこのワープ！,お帰りは　そちら" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1PostgameTouristDialogue1" Value="[So this is the Undernet....,How scary!]" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.UraNet1PostgameTouristDialogue2" Value="[“I’m gonna get ya! lelelel”,How was it? Do I sound like an,Undernetizen?]" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.UraNet1PostgamePunkNaviDialogue1" Value="[Whadda you lookin’ at?!,Mind yer own business!]" Face="NaviPurplePunk" Mono="False" />
 </data>

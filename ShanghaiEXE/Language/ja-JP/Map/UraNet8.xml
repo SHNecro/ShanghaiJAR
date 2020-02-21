@@ -2,4 +2,7 @@
 <data>
   <Text Key="Map.UraNet8Name" Value="ウラインターネット８" />
   <Dialogue Key="Map.UraNet8BlockedWarp" Value="[Somebody’s jammed this,warp with a large rock.,There’s no getting through.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet8PostgamePunkDialogue1" Value="[Yeah，me and my buddy were,hanging out here when ROM,sent out those black navis....]" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet8PostgamePunkDialogue2" Value="[Always told him he needed,mobility，tank build just meant,more time for me to book it.]" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet8PostgamePunkDialogue3" Value="[Helluva way to go，though.,Helluva way to go....]" Face="NaviPurplePunk" Mono="False" />
 </data>
