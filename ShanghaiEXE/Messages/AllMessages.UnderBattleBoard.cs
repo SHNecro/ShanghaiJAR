@@ -104,6 +104,64 @@ namespace Messages
                     ShanghaiEXE.Translate("Messages.UnderBattleBoard18Dialogue1None"),
                     ShanghaiEXE.Translate("Messages.UnderBattleBoard18Dialogue2None"),
                 },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard19Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard19Dialogue2"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard20Dialogue1"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard21Dialogue1"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard22Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard22Dialogue2"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard23Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard23Dialogue2"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard24Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard24Dialogue2"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard25Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard25Dialogue2"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard26Dialogue1"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard27Dialogue1"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard28Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard28Dialogue2"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard28Dialogue3"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue2"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue3"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue4"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard30Dialogue1"),
+                },
             };
         }
     }

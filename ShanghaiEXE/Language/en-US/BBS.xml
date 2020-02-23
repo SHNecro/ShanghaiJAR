@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="BBS.PosterBillager" Value="Billager" />
   <Text Key="BBS.PosterMakoMako" Value="MakoMako" />
@@ -136,4 +136,10 @@
   <Text Key="BBS.SubjectRe:HugeDamage" Value="Re: Huge Damage" />
   <Text Key="BBS.SubjectNaviPA" Value="Navi PA" />
   <Text Key="BBS.SubjectRe:NaviPA" Value="Re: Navi PA" />
+  <Text Key="BBS.SubjectPASpam" Value="PA Spam" />
+  <Text Key="BBS.SubjectRe:PASpam" Value="Re: PA Spam" />
+  <Text Key="BBS.SubjectChips" Value="Chips!" />
+  <Text Key="BBS.SubjectRe:Chips" Value="Re: Chips!" />
+  <Text Key="BBS.SubjectFirewall" Value="Firewall?" />
+  <Text Key="BBS.SubjectRe:Firewall" Value="Re: Firewall?" />
 </data>

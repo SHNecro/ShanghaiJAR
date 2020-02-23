@@ -204,7 +204,7 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 788)
             },
             // Undernet2
-            new ForumItem[18]
+            new ForumItem[30]
             {
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectPAInfo"), -1),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:PAInfo"), -1),
@@ -223,7 +223,19 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectNaviPA"), 788),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788)
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectPASpam"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:PASpam"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:PASpam"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:PASpam"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectChips"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:Chips"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectFirewall"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:Firewall"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:Firewall"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:Firewall"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:Firewall"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:Firewall"), 788),
             }
         };
 

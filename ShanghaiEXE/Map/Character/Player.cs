@@ -950,7 +950,7 @@ namespace NSMap.Character
                     EnemyBase enemyBase = EnemyBase.EnemyMake((int)battle.enemy[index], e, true);
                     totalEnemyHp += enemyBase.HpMax;
 
-                    if ((e is NaviBase || e.version == 0) && this.savedata.HPNow >= this.savedata.HPMax)
+                    if (e is NaviBase || e.version == 0)
                     {
                         strongEnemyCheck = true;
                     }
