@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.UnderBoard1Dialogue1None" Value="Gather ’round， UnderNet!,Let’s share info the surface,users can’t handle!" Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBoard1Dialogue2None" Value="Usernames are banned，,so you can post whatever,you want anonymously!" Face="None" Mono="False" />
@@ -50,7 +50,7 @@
   <Dialogue Key="Messages.UnderBoard20Dialogue2None" Value="Virus hunters are teams of,pros who hunt viruses for a,living." Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBoard20Dialogue3None" Value="Remember those SP Virus,Missions? Guess that’s how,they get by." Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBoard20Dialogue4None" Value="Cybeasts are kinda like,viruses， so virus hunters have,to deal with them too." Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBoard21Dialogue1None" Value=">Cybeasts are kinda like,>viruses,So you can catch them?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBoard21Dialogue1None" Value="&gt;Cybeasts are kinda like,&gt;viruses,So you can catch them?" Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBoard22Dialogue1None" Value="You can’t catch them. lelel,Just ’cuz you say it’s a virus,doesn’t mean it is. lelel" Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBoard22Dialogue2None" Value="Just because it moves like it’s,alive doesn’t mean it is." Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBoard22Dialogue3None" Value="Even a robot made of circuits,can move like it’s alive." Face="None" Mono="False" />
@@ -156,15 +156,15 @@
   <!-- ネトエも苦戦してるみたいだし俺たちにもどうすることもできないよな -->
   <Dialogue Key="Messages.UnderBoard45Dialogue2None" Value="This is a bad thing for the Net." Face="None" Mono="False" />
   <!-- 大丈夫大丈夫どうせどっかの正義の味方がやっつけてくれるって -->
-  <Dialogue Key="Messages.UnderBoard46Dialogue1None" Value=">net agent bad,>ROM man good,It’s that time of year again...." Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBoard46Dialogue1None" Value="&gt;net agent bad,&gt;ROM man good,It’s that time of year again...." Face="None" Mono="False" />
   <!-- それよりＳＰウィルス狩ろうぜ！ライジューンＳＰの電撃鬼畜すぎて草生える -->
   <Dialogue Key="Messages.UnderBoard46Dialogue2None" Value="I think it’s time for a SP virus,hunt thread!,First up， RaijunSP!" Face="None" Mono="False" />
   <!-- あれテンポよく上下に動くだけだぞｗｗｗｗ -->
-  <Dialogue Key="Messages.UnderBoard47Dialogue1None" Value=">RaijunSP,Just gotta dodge up and down,to the beat，yeah." Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBoard47Dialogue1None" Value="&gt;RaijunSP,Just gotta dodge up and down,to the beat，yeah." Face="None" Mono="False" />
   <!-- オノホークＳＰとかいう変態軌道についていけない件 -->
   <Dialogue Key="Messages.UnderBoard47Dialogue2None" Value="But that AxeHawkSP....,How do you know where that,axe’s goin’ next?" Face="None" Mono="False" />
   <!-- スナジゴクとかブラクラとか設置型ばらまくのでＦＡ -->
-  <Dialogue Key="Messages.UnderBoard48Dialogue1None" Value=">AxeHawkSP,Try blocking it with a sandbag,or somethin’." Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBoard48Dialogue1None" Value="&gt;AxeHawkSP,Try blocking it with a sandbag,or somethin’." Face="None" Mono="False" />
   <!-- オウビートルの４００オーラみんな突破できてんのか？ -->
   <Dialogue Key="Messages.UnderBoard48Dialogue2None" Value="That Beetl SP tho....,How are we supposed to bust,through 400 aura?" Face="None" Mono="False" />
   <!-- ４００オーラなんて草パネル作って適当な２００以上の火属性で一発だろｗｗｗ -->
@@ -190,7 +190,7 @@
   <!-- 例の幽霊ナビが何か知ってたりしてｗ -->
   <Dialogue Key="Messages.UnderBoard54Dialogue1None" Value="Why don’t you just ask one of,those ghosts?,lel" Face="None" Mono="False" />
   <!-- 天国の話もいいが地獄の話もしようず -->
-  <Dialogue Key="Messages.UnderBoard55Dialogue1None" Value=">Heaven,Nobody’s talking about Hell?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBoard55Dialogue1None" Value="&gt;Heaven,Nobody’s talking about Hell?" Face="None" Mono="False" />
   <!-- ウラ９知ってるか？バグのかけら交換屋がいるエリア -->
   <Dialogue Key="Messages.UnderBoard55Dialogue2None" Value="You know Undernet 9，where,the BugFrag trader is?" Face="None" Mono="False" />
   <!-- そのウラ９のどこかから地獄のようなエリアに行けるんだとか -->

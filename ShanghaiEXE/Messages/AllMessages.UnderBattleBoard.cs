@@ -154,13 +154,16 @@ namespace Messages
                 new Dialogue[]
                 {
                     ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue1"),
-                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue2"),
-                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue3"),
-                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue4"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard29Dialogue2")
                 },
                 new Dialogue[]
                 {
                     ShanghaiEXE.Translate("Messages.UnderBattleBoard30Dialogue1"),
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard30Dialogue2"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.UnderBattleBoard31Dialogue1"),
                 },
             };
         }
