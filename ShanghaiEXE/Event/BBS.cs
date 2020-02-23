@@ -133,11 +133,11 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterPeperon"), ShanghaiEXE.Translate("BBS.SubjectRe:HiddenVersion"), 610),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterCrabMiso"), ShanghaiEXE.Translate("BBS.SubjectRe:HiddenVersion"), 610),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterPeperon"), ShanghaiEXE.Translate("BBS.SubjectRe:HiddenVersion"), 610),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterTowa"), ShanghaiEXE.Translate("BBS.SubjectInterior"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterLordUsa"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterShinono"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterCrabMiso"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterTowa"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 619)
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterTowa"), ShanghaiEXE.Translate("BBS.SubjectInterior"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterLordUsa"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterShinono"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterCrabMiso"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterTowa"), ShanghaiEXE.Translate("BBS.SubjectRe:Interior"), 788)
             },
             // Undernet1
             new ForumItem[60]
@@ -191,17 +191,17 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:SPVirusHunt"), 610),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:SPVirusHunt"), 610),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:SPVirusHunt"), 610),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectGhost?"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:Ghost?"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectNetHeaven"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHeaven"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHeaven"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectNetHell"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 619)
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectGhost?"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:Ghost?"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectNetHeaven"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHeaven"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHeaven"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectNetHell"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterNONAME"), ShanghaiEXE.Translate("BBS.SubjectRe:NetHell"), 788)
             },
             // Undernet2
             new ForumItem[18]
@@ -220,10 +220,10 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:HugeDamage"), 610),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:HugeDamage"), 610),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:HugeDamage"), 610),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectNaviPA"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 619),
-                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 619)
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectNaviPA"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterＮＯＮＡＭＥ"), ShanghaiEXE.Translate("BBS.SubjectRe:NaviPA"), 788)
             }
         };
 

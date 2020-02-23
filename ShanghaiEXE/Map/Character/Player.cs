@@ -897,7 +897,7 @@ namespace NSMap.Character
                             this.savedata.ValList[19] = this.encountNumber;
                         }
                         this.encountInterval = 300;
-                        if (!this.savedata.runSubChips[0] || this.Avast(this.encountNumber) || this.encounterBreak)
+                        if (!this.savedata.runSubChips[0] || this.IsBypassingFirewall(this.encountNumber) || this.encounterBreak)
                         {
                             this.encounterBreak = false;
                             this.encount = true;
@@ -934,12 +934,13 @@ namespace NSMap.Character
             this.EncountCheck(0);
         }
 
-        private bool Avast(int number)
+        private bool IsBypassingFirewall(int number)
         {
-            int num = 0;
+            var totalEnemyHp = 0;
             if (!(this.field.encounts[number].events[1] is Battle))
                 return false;
-            Battle battle = (Battle)this.field.encounts[number].events[1];
+            var battle = (Battle)this.field.encounts[number].events[1];
+            var strongEnemyCheck = false;
             for (int index = 0; index < 3; ++index)
             {
                 EnemyBase e = EnemyBase.EnemyMake((int)battle.enemy[index], null, true);
@@ -947,10 +948,18 @@ namespace NSMap.Character
                 {
                     e.version = battle.lank[index];
                     EnemyBase enemyBase = EnemyBase.EnemyMake((int)battle.enemy[index], e, true);
-                    num += enemyBase.HpMax;
+                    totalEnemyHp += enemyBase.HpMax;
+
+                    if ((e is NaviBase || e.version == 0) && this.savedata.HPNow >= this.savedata.HPMax)
+                    {
+                        strongEnemyCheck = true;
+                    }
                 }
             }
-            return this.savedata.HPMax + 100 < num;
+            var maxHpCheck = this.savedata.HPMax + 100 < totalEnemyHp;
+
+
+            return maxHpCheck || strongEnemyCheck;
         }
 
         private List<EventManager> Element(ChipBase.ELEMENT element)

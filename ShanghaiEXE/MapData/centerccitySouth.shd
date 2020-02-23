@@ -956,17 +956,6 @@ EventLun:ビートルバトル:1
 end
 page:2
 startterms:Abutton
-type:0
-terms:flag/619
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-end
-page:3
-startterms:Abutton
 type:1
 terms:variable/10/False/0/8
 move:

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.GenBoard1Dialogue1None" Value="Hello!,I’m Billager， the Chat,Board Administrator!" Face="None" Mono="False" />
   <Dialogue Key="Messages.GenBoard1Dialogue2None" Value="At long last， the Chat Board,is finally open!" Face="None" Mono="False" />
@@ -182,7 +182,7 @@
   <!-- ニュースで見ました！ＲＯＭが壊滅したんですって！ -->
   <Dialogue Key="Messages.GenBoard40Dialogue1None" Value="Have you seen the news?!,ROM has been defeated!" Face="None" Mono="False" />
   <!-- これでもう黒いナビやＲＯＭのネット犯罪に怯える必要はないんですね！ -->
-  <Dialogue Key="Messages.GenBoard40Dialogue2None" Value="We no longer have to fear,the black Navi or ROM,Netcriminals!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.GenBoard40Dialogue2None" Value="We no longer have to fear,the Black Navis or ROM,NetCriminals!" Face="None" Mono="False" />
   <!-- 平和バンザ〜イ！ -->
   <Dialogue Key="Messages.GenBoard40Dialogue3None" Value="Peace!" Face="None" Mono="False" />
   <!-- やっぱ平和が一番っすね毎日が清々しいっす！ -->

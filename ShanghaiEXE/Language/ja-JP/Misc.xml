@@ -439,4 +439,7 @@
   <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="[Cleared emergency music,from Hospital event.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550HumorEirinCallFormat" Value="[Changed AddOns to “free” and,Grey: {0}.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="[Refunded duplicate AddOn(s):,{0}.]" Face="Sprite" Mono="False" />
+  <Text Key="Bounty.Area39" Value="ＲＯＭ基地ゲートの電脳" />
+  <Text Key="Bounty.Area40" Value="ＲＯＭのディスプレイ電脳" />
+  <Text Key="Bounty.Area41" Value="ＲＯＭの電脳２" />
 </data>
