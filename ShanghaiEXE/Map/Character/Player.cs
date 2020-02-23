@@ -894,20 +894,14 @@ namespace NSMap.Character
                             else if (this.savedata.addonSkill[12])
                                 this.encounts = this.Element(ChipBase.ELEMENT.earth);
                             this.encountNumber = this.Random.Next(this.encounts.Count);
-                            this.savedata.ValList[19] = this.encountNumber;
                         }
                         this.encountInterval = 300;
                         if (!this.savedata.runSubChips[0] || this.IsBypassingFirewall(this.encountNumber) || this.encounterBreak)
                         {
                             this.encounterBreak = false;
                             this.encount = true;
+                            this.savedata.ValList[19] = this.encountNumber;
                         }
-                        else
-                        {
-                        }
-                    }
-                    else
-                    {
                     }
                 }
                 if (this.encountCounter > 300000)
