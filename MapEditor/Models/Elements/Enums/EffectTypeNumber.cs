@@ -52,5 +52,6 @@
         FireballSilent = 47,
         KeystoneUnlock = 48,
         PetalBreeze = 49,
+        ShanghaiHeavenWarp = 50,
     }
 }

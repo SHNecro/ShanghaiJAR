@@ -374,6 +374,7 @@
     <Compile Include="Common\FaceId.cs" />
     <Compile Include="Common\VariableArray.cs" />
     <Compile Include="Effect\KeystoneUnlock.cs" />
+    <Compile Include="Effect\ShanghaiHeavenWarp.cs" />
     <Compile Include="Effect\PetalBreeze.cs" />
     <Compile Include="Effect\KikuriFade.cs" />
     <Compile Include="Effect\DruidManFlinch.cs" />
@@ -1360,6 +1361,7 @@
     <Content Include="Graphics\centralback.png" />
     <Content Include="Graphics\charachip19.png" />
     <Content Include="Graphics\chipgraphic23.png" />
+    <Content Include="Graphics\chipicone.png" />
     <Content Include="Graphics\druidman.png" />
     <Content Include="Graphics\druidmanSP.png" />
     <Content Include="Graphics\flandre.png" />

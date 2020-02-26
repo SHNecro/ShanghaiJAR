@@ -64,7 +64,8 @@ namespace NSMap.Character
             [46] = (sound, position, field) => new AliceBed(sound, new Vector2(position.X, position.Y), new Point(0, 0), true),
             [47] = (sound, position, field) => new FireBall(sound, new Vector2(position.X, position.Y), new Point(0, 0), true),
             [48] = (sound, position, field) => new KeystoneUnlock(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
-            [49] = (sound, position, field) => new PetalBreeze(sound, new Vector2(position.X, position.Y), new Point(0, 0))
+            [49] = (sound, position, field) => new PetalBreeze(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
+            [50] = (sound, position, field) => new ShanghaiHeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0))
         };
 
     public EffectBase effect;
