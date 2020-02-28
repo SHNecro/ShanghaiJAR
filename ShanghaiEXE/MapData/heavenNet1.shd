@@ -154,7 +154,7 @@ graphic:2:6,0,7,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
-mapChange:uraNet7:55:535:0:0
+editFlag:793:False
 end
 
 ID:小さい桜
@@ -187,6 +187,20 @@ end
 
 ID:小さい桜
 position:535:79:0
+page:1
+startterms:Abutton
+type:2
+terms:none
+move:
+speed:0
+graphic:-21:0,696,64,96,0
+hitrange:16:16:15:15
+hitform:square
+event:
+end
+
+ID:小さい桜
+position:364:57:0
 page:1
 startterms:Abutton
 type:2
@@ -507,6 +521,42 @@ graphic:-25:0,650,70,32,6
 hitrange:2:4:-13:-58
 hitform:circle
 event:
+end
+
+ID:FirstEnteredAutoEvent
+position:398:10:0
+page:1
+startterms:Auto
+type:1
+terms:flag/791,!flag/793
+move:
+speed:0
+graphic:-1:0,0,0,0,6
+hitrange:4:4:0:0
+hitform:square
+event:
+emoveEnd:
+emove:プレイヤー:wait,60:wayup,0:wait,60:waydown,0:wait,60
+effect:49:FirstEnteredAutoEvent:0:0:0:2:-1:0:2:none
+fade:60:64:255:128:255:False
+emoveEnd:
+Facehere:
+fade:120:0:255:128:255:False
+msgopen:
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue1
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2
+emove:プレイヤー:wait,30:wayleft,0
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.1
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.2
+emove:プレイヤー:wait,30:jump,0
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue3
+Facehere:
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue4
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue5
+msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue6
+msgclose:
+editFlag:793:True
+eventDeath:
 end
 
 

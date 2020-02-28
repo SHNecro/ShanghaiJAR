@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ホワイトヘブンエリア１ -->
   <Text Key="Map.HeavenNet1Name" Value="ホワイトヘブンエリア１" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue1" Value="[This place....]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue3" Value="[A....,A--,Achoo!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue4" Value="[Ugh，all these trees....,Sorry Alice，you were saying,something?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue5" Value="[Nevermind，it’s nothing....]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue6" Value="[Alright.,Let’s just get our answers and,leave，my nose is killing me.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.1" Value="[And so deep in the Undernet....,Who could have done,something like this?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2" Value="[Is this a garden....?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.2" Value="[....Shanghai?]" Face="Alice" Mono="False" />
 </data>
