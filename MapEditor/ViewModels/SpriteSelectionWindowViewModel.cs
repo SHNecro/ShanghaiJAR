@@ -2,6 +2,7 @@
 using MapEditor.Models;
 using MapEditor.Rendering;
 using System;
+using System.Linq;
 
 namespace MapEditor.ViewModels
 {
@@ -137,6 +138,12 @@ namespace MapEditor.ViewModels
             }
             set
             {
+                var newIndices = value ? SpriteSelectionRenderer.CharacterSheetIndices : SpriteSelectionRenderer.ObjectSheetIndices;
+                if (!newIndices.Contains(this.GraphicsIndex))
+                {
+                    this.GraphicsIndex = newIndices.OrderBy(i => Math.Abs(i - this.GraphicsIndex)).First();
+                }
+
                 this.CurrentPage.IsCharacter = value;
                 this.OnPropertyChanged(nameof(this.IsCharacter));
                 this.PageSetterAction(this.CurrentPage);
