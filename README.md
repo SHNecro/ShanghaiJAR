@@ -25,7 +25,7 @@ Visual Studio 2017 is required to compile the project due to the C# 7 syntax gen
 
 Additionally, the C++ development environment must be installed for Visual Studio in order for freetype6.dll to be copied to the output directory.
 
-## Current Progress (0.503e4, 1/4/20)
+## Latest Release (0.503e4, 1/4/20)
 
 ### Changelog:
 - New content from demo end (before penultimate boss) to beginning of post-game
@@ -56,8 +56,15 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 1/18/20):
-- Spritework and animations for new content
+#### In Progress (as of 2/28/20):
+- Implementation of postgame area, effects as needed
+- Planning of rewards, barriers, BMDs
+- Planning of battle enhancements (new PAs, chips, etc.)
 
 ##### Completed:
 - First draft of story/dialogue/cutscenes
+- Fleshing out of empty areas during postgame, BBS, unadded SP viruses
+- Retcon system to fix savegames from previous versions
+- Reworked Library page for potential issues with chip IDs, PAs
+- Reworked PA system for potential issues adding new PAs
+- Minor balancing of DruidMan, minor difficulty increase for stunlocking
