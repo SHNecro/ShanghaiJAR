@@ -145,8 +145,7 @@ namespace MapEditor.Models
         protected override string GetStringValue()
         {
             var moveType = (EventMove.MOVE)(int)this.Type;
-            var distanceString = this.Distance > 0 ? $",{this.Distance}" : string.Empty;
-            return $"{moveType}{distanceString}";
+            return $"{moveType},{this.Distance}";
         }
 
         protected override void SetStringValue(string value)
