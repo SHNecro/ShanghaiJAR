@@ -49,8 +49,20 @@ namespace MapEditor.Models
 					case MoveType.AngleRight:
 						this.lastAngledType = value;
 						break;
-				}
-			}
+                }
+                switch (this.Type)
+                {
+                    case MoveType.Jump:
+                    case MoveType.AngleUp:
+                    case MoveType.AngleDown:
+                    case MoveType.AngleLeft:
+                    case MoveType.AngleRight:
+                    case MoveType.AngleLock:
+                    case MoveType.AngleUnlock:
+                        this.Distance = 0;
+                        break;
+                }
+            }
 		}
         public int Distance
 		{
@@ -133,7 +145,8 @@ namespace MapEditor.Models
         protected override string GetStringValue()
         {
             var moveType = (EventMove.MOVE)(int)this.Type;
-            return $"{moveType.ToString()},{this.Distance}";
+            var distanceString = this.Distance > 0 ? $",{this.Distance}" : string.Empty;
+            return $"{moveType}{distanceString}";
         }
 
         protected override void SetStringValue(string value)
