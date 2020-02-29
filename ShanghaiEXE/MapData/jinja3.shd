@@ -73,9 +73,9 @@ hitrange:3:3:0:0
 hitform:square
 event:
 bgmLoad:
-credit:Credits.Category5Role1:16:0:60:360:60
-credit:Credits.Category5Role2:16:16:60:360:60
-credit:Credits.Category5Credit1:32:32:60:360:60
+credit:Credits.Category5Role1:16:0:False:60:360:60
+credit:Credits.Category5Role2:16:16:False:60:360:60
+credit:Credits.Category5Credit1:32:32:False:60:360:60
 CameraDefault:0
 camera:880:380:0:True
 eventDelete:鳥居上

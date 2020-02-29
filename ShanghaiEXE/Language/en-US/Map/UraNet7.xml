@@ -19,5 +19,8 @@
   <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue1" Value="Wow....,This is it，Shanghai!,We found Heaven!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue2" Value="I’ll admit，this does seem more,“heaven-like”.,Just wish it wasn’t so.... flashy." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1Edited" Value="Heaven’s supposed to be high,up，right?,If it’s anywhere，it’d be here." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage2Dialogue1Edited" Value="YOU WHO HAVE BEEN,TOUCHED BY ANOTHER,WORLD.... ENTER...." Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue3" Value="Let’s go see what the big,deal is." Face="Shanghai" Mono="False" />
+  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText1" Value="....YOU WHO HAVE BEEN MARKED...." />
+  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText2" Value="....BY ANOTHER WORLD...." />
+  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText3" Value="....ENTER...." />
 </data>

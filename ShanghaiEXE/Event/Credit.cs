@@ -12,7 +12,8 @@ namespace NSEvent
     internal class Credit : EventBase
     {
 		private string creditKey;
-		private Vector2 topLeft;
+		private Vector2 position;
+        private bool centered;
 		private int fadeInTime;
 		private int hangTime;
 		private int fadeOutTime;
@@ -26,6 +27,7 @@ namespace NSEvent
           EventManager m,
 		  string key,
           Point position,
+          bool centered,
           int fadeInTime,
 		  int hangTime,
           int fadeOutTime,
@@ -36,7 +38,8 @@ namespace NSEvent
 			this.NoTimeNext = false;
 
 			this.creditKey = key;
-			this.topLeft = new Vector2(position.X, position.Y);
+			this.position = new Vector2(position.X, position.Y);
+            this.centered = centered;
 			this.fadeInTime = fadeInTime;
 			this.hangTime = hangTime;
 			this.fadeOutTime = fadeOutTime;
@@ -98,7 +101,7 @@ namespace NSEvent
 
         public override void SkipUpdate()
         {
-			this.IsActive = false; ;
+			this.IsActive = false;
         }
 
 		public override void Render(IRenderer dg)
@@ -107,6 +110,9 @@ namespace NSEvent
 
 		public void MapRender(IRenderer dg)
 		{
+            var text = ShanghaiEXE.Translate(this.creditKey);
+            var textSize = ShanghaiEXE.measurer.MeasureRegularText(text);
+            var centerOffset = this.centered ? new Vector2(-textSize.Width / 2, -textSize.Height / 2) : new Vector2();
 			var xOff = new[] { -1, 1, 0 };
 			var yOff = new[] { -1, 1, 0 };
 			foreach (var x in xOff)
@@ -114,8 +120,8 @@ namespace NSEvent
 				foreach (var y in yOff)
 				{
 					dg.DrawText(
-						ShanghaiEXE.Translate(this.creditKey),
-						this.topLeft + new Vector2(x, y),
+						text,
+						this.position + new Vector2(x, y) + centerOffset,
 						x == 0  && y == 0 ? Color.FromArgb(this.alpha, Color.White) : Color.FromArgb(this.alpha, 32, 32, 32));
 				}
 			}

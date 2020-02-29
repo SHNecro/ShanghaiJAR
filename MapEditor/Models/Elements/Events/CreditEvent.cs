@@ -5,6 +5,7 @@
 		private string creditKey;
         private int x;
         private int y;
+        private bool centered;
 		private int fadeInTime;
 		private int hangTime;
 		private int fadeOutTime;
@@ -45,6 +46,19 @@
             set
             {
                 this.SetValue(ref this.y, value);
+            }
+        }
+
+        public bool Centered
+        {
+            get
+            {
+                return this.centered;
+            }
+
+            set
+            {
+                this.SetValue(ref this.centered, value);
             }
         }
 
@@ -100,13 +114,14 @@
 
         protected override string GetStringValue()
         {
-            return $"credit:{this.CreditKey}:{this.X}:{this.Y}:{this.FadeInTime}:{this.HangTime}:{this.FadeOutTime}";
+            var centeredText = this.Centered ? "True" : "False";
+            return $"credit:{this.CreditKey}:{this.X}:{this.Y}:{centeredText}:{this.FadeInTime}:{this.HangTime}:{this.FadeOutTime}";
         }
 
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
-            if (!this.Validate(entries, $"Malformed credit event \"{value}\".", e => e.Length == 7 && e[0] == "credit"))
+            if (!this.Validate(entries, $"Malformed credit event \"{value}\".", e => e.Length == 8 && e[0] == "credit"))
             {
                 return;
             }
@@ -115,15 +130,17 @@
 			this.Validate(newCreditKey, "Credit key does not exist.", k => Constants.TranslationService.CanTranslate(k));
 			var newX = this.ParseIntOrAddError(entries[2]);
             var newY = this.ParseIntOrAddError(entries[3]);
-            var newFadeInTime = this.ParseIntOrAddError(entries[4]);
-			var newHangTime = this.ParseIntOrAddError(entries[5]);
-			var newFadeOutTime = this.ParseIntOrAddError(entries[6]);
+            var newCentered = this.ParseBoolOrAddError(entries[4]);
+            var newFadeInTime = this.ParseIntOrAddError(entries[5]);
+            var newHangTime = this.ParseIntOrAddError(entries[6]);
+			var newFadeOutTime = this.ParseIntOrAddError(entries[7]);
 
 			if (!this.HasErrors)
             {
 				this.CreditKey = newCreditKey;
 				this.X = newX;
 				this.Y = newY;
+                this.Centered = newCentered;
 				this.FadeInTime = newFadeInTime;
 				this.HangTime = newHangTime;
 				this.FadeOutTime = newFadeOutTime;

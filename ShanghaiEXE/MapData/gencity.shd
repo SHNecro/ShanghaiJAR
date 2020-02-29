@@ -62,8 +62,8 @@ hitrange:3:3:0:0
 hitform:square
 event:
 bgmLoad:
-credit:Credits.Category17Role1:16:0:60:300:60
-credit:Credits.Category17Credit1:32:16:60:300:60
+credit:Credits.Category17Role1:16:0:False:60:300:60
+credit:Credits.Category17Credit1:32:16:False:60:300:60
 CameraDefault:0
 camera:650:225:0:True
 emove:CreditsAutoplayCategory17-Alice:wait,32:jump,32:wait,72:jump,32:wait,96:wayright,0:wait,30:right,12:wait,12:wayleft,12:jump,12:wait,12:right,48
@@ -210,10 +210,10 @@ hitrange:3:3:0:0
 hitform:square
 event:
 bgmLoad:
-credit:Credits.Category15Role1:16:0:60:360:60
-credit:Credits.Category15Role2:16:16:60:360:60
-credit:Credits.Category15Role3:16:32:60:360:60
-credit:Credits.Category15Credit1:32:48:60:360:60
+credit:Credits.Category15Role1:16:0:False:60:360:60
+credit:Credits.Category15Role2:16:16:False:60:360:60
+credit:Credits.Category15Role3:16:32:False:60:360:60
+credit:Credits.Category15Credit1:32:48:False:60:360:60
 CameraDefault:0
 camera:450:340:0:True
 wait:15:False
@@ -460,8 +460,8 @@ editValue:3:False:0:0:101
 editValue:14:False:0:0:3
 stopSkip:
 bgmfade:0:0:False
-credit:Credits.TitleLine2:32:40:60:180:60
-credit:Credits.TitleLine1:40:60:60:180:60
+credit:Credits.TitleLine2:32:40:False:60:180:60
+credit:Credits.TitleLine1:40:60:False:60:180:60
 fade:180:255:0:0:0:True
 wait:120:False
 mapChange:ROMnet4:410:165:0:0

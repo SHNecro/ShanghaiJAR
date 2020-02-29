@@ -537,6 +537,7 @@ hitform:square
 event:
 emoveEnd:
 emove:プレイヤー:wait,60:wayup,0:wait,60:waydown,0:wait,60
+seon:encount
 effect:49:FirstEnteredAutoEvent:0:0:0:2:-1:0:2:none
 fade:60:64:255:128:255:False
 emoveEnd:
@@ -545,7 +546,7 @@ fade:120:0:255:128:255:False
 msgopen:
 msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue1
 msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2
-emove:プレイヤー:wait,30:wayleft,0
+emove:プレイヤー:wait,30:waydown,0:wait,30:wayleft,0
 msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.1
 msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.2
 emove:プレイヤー:wait,30:jump,0

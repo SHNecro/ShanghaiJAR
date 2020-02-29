@@ -59,6 +59,16 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0"
                            VerticalAlignment="Center"
+                           Text="Centered:" />
+                <CheckBox Grid.Column="1" IsChecked="{Binding Centered}" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
                            Text="Fade In:" />
                 <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
                     <controls:WheelCaptureIntegerUpDown.Text>

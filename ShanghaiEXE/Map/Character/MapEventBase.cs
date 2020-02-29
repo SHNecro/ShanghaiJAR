@@ -487,7 +487,7 @@ namespace NSMap.Character
                         }
                         break;
 					case "credit":
-						page.AddEvent(new Credit(this.sound, page.eventmanager, strArray1[1], new Point(int.Parse(strArray1[2]), int.Parse(strArray1[3])), int.Parse(strArray1[4]), int.Parse(strArray1[5]), int.Parse(strArray1[6]), this.parent, this.savedate));
+						page.AddEvent(new Credit(this.sound, page.eventmanager, strArray1[1], new Point(int.Parse(strArray1[2]), int.Parse(strArray1[3])), bool.Parse(strArray1[4]), int.Parse(strArray1[5]), int.Parse(strArray1[6]), int.Parse(strArray1[7]), this.parent, this.savedate));
 						break;
 					case "editFlag":
                         page.AddEvent(new editFlag(this.sound, page.eventmanager, int.Parse(strArray1[1]), bool.Parse(strArray1[2]), this.savedate));

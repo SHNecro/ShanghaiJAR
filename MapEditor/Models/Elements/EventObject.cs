@@ -337,7 +337,7 @@ namespace MapEditor.Models
                         this.Instance = new CameraDefaultEvent { MoveTime = 5 };
                         break;
                     case EventCategoryOption.Credit:
-                        this.Instance = new CreditEvent { CreditKey = "Debug.UnimplementedText", X = 0, Y = 0, FadeInTime = 0, HangTime = 30, FadeOutTime = 0 };
+                        this.Instance = new CreditEvent { CreditKey = "Debug.UnimplementedText", X = 0, Y = 0, Centered = false, FadeInTime = 0, HangTime = 30, FadeOutTime = 0 };
                         break;
                     case EventCategoryOption.EditFlag:
                         this.Instance = new EditFlagEvent { FlagNumber = 0, ValueToSet = true };
