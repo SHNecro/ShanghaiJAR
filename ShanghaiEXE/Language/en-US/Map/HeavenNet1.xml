@@ -10,4 +10,6 @@
   <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.1" Value="And so deep in the Undernet....,Who could have done,something like this?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2" Value="Is this a garden....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.2" Value="....Shanghai?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue1" Value="A series of barriers completely,blocks off access past this,point." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue2" Value="The front shows a message:,CONTACT ADMINISTRATOR,     LOCKDOWN IN EFFECT" Face="None" Mono="False" />
 </data>
