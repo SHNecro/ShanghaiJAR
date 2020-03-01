@@ -536,7 +536,6 @@ event:
 msgopen:
 msg:Map.ExOmakeUtsuhoStage1Dialogue1FaceUtsuhoDark
 question:Map.ExOmakeUtsuhoStage1Dialogue2QuestionFaceUtsuhoDark:Map.ExOmakeUtsuhoStage1Dialogue2Options
-msgclose:
 BranchHead:0
 battle:60:1:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:True:False:True:VSnavi:35
 bgmon:internet
@@ -551,6 +550,9 @@ BranchHead:2
 battle:60:0:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:0:4:2:1:1:1:0::0:0:1:False:True:False:True:VSnavi:26
 bgmon:internet
 fade:15:0:0:0:0:True
+BranchEnd:
+BranchHead:3
+msgclose:
 BranchEnd:
 end
 
@@ -567,11 +569,15 @@ hitrange:3:0:0:0
 hitform:circle
 event:
 msgopen:
-msg:Map.ExOmakeMimaStage1Dialogue1FaceUtsuhoDark
-msgclose:
+question:Map.ExOmakeMimaStage1Dialogue1Question:Map.ExOmakeMimaStage1Dialogue1QuestionOptions
+BranchHead:0
 battle:68:1:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:False:False:True:VSnavi:37
 bgmon:internet
 fade:15:0:0:0:0:True
+BranchEnd:
+BranchHead:1
+msgclose:
+BranchEnd:
 end
 
 ID:DruidMan
@@ -588,10 +594,6 @@ hitform:circle
 event:
 msgopen:
 question:Map.ExOmakeDruidManBattleQuestion:Map.ExOmakeDruidManBattleOptions
-BranchHead:3
-msgclose:
-goto:end
-BranchEnd:
 bgmSave:
 BranchHead:0
 battle:84:1:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:True:VSnavi:34
@@ -603,7 +605,9 @@ BranchHead:2
 battle:84:4:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:True:VSnavi:34
 BranchEnd:
 bgmLoad:
-lavel:end
+BranchHead:3
+msgclose:
+BranchEnd:
 fade:15:0:0:0:0:True
 end
 
@@ -622,7 +626,6 @@ event:
 msgopen:
 msg:Map.ExOmakeYomuStage1Dialogue1FaceNone
 question:Map.ExOmakeYomuStage1Dialogue2QuestionFaceNone:Map.ExOmakeYomuStage1Dialogue2Options
-msgclose:
 BranchHead:0
 battle:62:1:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:True:False:True:VSnavi:36
 bgmon:internet
@@ -632,6 +635,9 @@ BranchHead:1
 battle:62:4:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:True:False:True:VSnavi:36
 bgmon:internet
 fade:15:0:0:0:0:True
+BranchEnd:
+BranchHead:2
+msgclose:
 BranchEnd:
 end
 
@@ -643,7 +649,7 @@ type:1
 terms:none
 move:
 speed:0
-graphic:11:5,0,3,0,0
+graphic:18:5,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -671,7 +677,7 @@ type:1
 terms:none
 move:
 speed:0
-graphic:11:5,0,3,0,0
+graphic:18:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:

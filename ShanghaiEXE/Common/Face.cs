@@ -146,6 +146,22 @@
         Sheet9Face13Blank,
         Sheet9Face14Blank,
         Sheet9Face15Blank,
-        Sheet9Face16Blank
+        Sheet9Face16Blank,
+        Youmu = 144,
+        FlandreHidden,
+        YuyukoCasual,
+        YuyukoCombat,
+        Mima,
+        Sheet10Face6Blank,
+        Sheet10Face7Blank,
+        Sheet10Face8Blank,
+        Sheet10Face9Blank,
+        Sheet10Face10Blank,
+        Sheet10Face11Blank,
+        Sheet10Face12Blank,
+        Sheet10Face13Blank,
+        Sheet10Face14Blank,
+        Sheet10Face15Blank,
+        Sheet10Face16Blank
     }
 }

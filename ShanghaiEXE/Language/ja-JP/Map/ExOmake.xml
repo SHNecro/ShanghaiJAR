@@ -123,19 +123,18 @@
   <!--  -->
   <Dialogue Key="Map.ExOmakeUtsuhoStage1Dialogue2QuestionFaceUtsuhoDark" Value="," Face="UtsuhoDark" Mono="False" />
   <!-- ウツホウツホSPウツホDS -->
-  <Text Key="Map.ExOmakeUtsuhoStage1Dialogue2Options" Value="ウツホ,ウツホSP,ウツホDS" />
+  <Text Key="Map.ExOmakeUtsuhoStage1Dialogue2Options" Value="ウツホ,ウツホSP,ウツホDS,[Cancel]" />
   <!-- ミマ -->
-  <Dialogue Key="Map.ExOmakeMimaStage1Dialogue1FaceUtsuhoDark" Value="ミマ" Face="UtsuhoDark" Mono="False" />
   <!-- ヨウム戦闘テスト -->
-  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue1FaceNone" Value="ヨウム戦闘テスト" Face="None" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue1FaceNone" Value="ヨウム戦闘テスト" Face="Youmu" Mono="False" />
   <!--  -->
-  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue2QuestionFaceNone" Value="" Face="Youmu" Mono="False" />
   <!-- ヨウムヨウムSPやめる -->
   <Text Key="Map.ExOmakeYomuStage1Dialogue2Options" Value="ヨウム,ヨウムSP,やめる" />
   <!-- キクリ戦闘テスト -->
   <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue1FaceNone" Value="キクリ戦闘テスト" Face="KikuriHuman" Mono="False" />
   <!--  -->
-  <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue2QuestionFaceNone" Value="," Face="KikuriCombat" Mono="False" />
+  <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
   <!-- キクリキクリHMやめる -->
   <Text Key="Map.ExOmakeKikuriStage1Dialogue2Options" Value="キクリ,キクリHM,やめる" />
   <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue1FaceNaviRedSprite" Value="登場する敵のランクを,上げることが出来ます" Face="NaviRedSprite" Mono="False" />
@@ -143,13 +142,15 @@
   <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue2FaceNaviRedSprite" Value="例：,１ランク　V2→V3,２ランク　V2→SP" Face="NaviRedSprite" Mono="False" />
   <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue3NumsetFaceNaviRedSprite" Value="タイトル画面で" Face="NaviRedSprite" Mono="False" />
   <Dialogue Key="Map.ExOmakeShanghaiDSStage1Dialogue1FaceNone" Value="[ShanghaiDS Combat Test]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue1FaceNone" Value="[Yuyuko Combat Test]" Face="None" Mono="False" />
-  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
-  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue1FaceNone" Value="[Flandre Combat Test]" Face="FlandreNormal" Mono="False" />
-  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue2QuestionFaceFlandreNormal" Value="" Face="FlandreNormal" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue1FaceNone" Value="[Yuyuko Combat Test]" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue2QuestionFaceNone" Value="" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue1FaceNone" Value="[Flandre Combat Test]" Face="FlandreHidden" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue2QuestionFaceFlandreNormal" Value="" Face="FlandreHidden" Mono="False" />
   <Text Key="Map.ExOmakeShanghaiDSStage1Dialogue2Options" Value="[ShanghaiDS,Cancel]" />
   <Text Key="Map.ExOmakeYuyukoStage1Dialogue2Options" Value="[Yuyuko,YuyukoSP,Cancel]" />
   <Text Key="Map.ExOmakeFlandreStage1Dialogue2Options" Value="[Flandre,FlandreSP,Cancel]" />
   <Text Key="Map.ExOmakeDruidManBattleOptions" Value="ドルイドマン,ドルイドマンV3,ドルイドマンSP,やめる" />
   <Dialogue Key="Map.ExOmakeDruidManBattleQuestion" Value="ドルイドマン" Face="DruidMan" Mono="False" />
+  <Text Key="Map.ExOmakeMimaStage1Dialogue1QuestionOptions" Value="ミマ,[Cancel]" />
+  <Dialogue Key="Map.ExOmakeMimaStage1Dialogue1Question" Value="ミマ" Face="Mima" Mono="False" />
 </data>
