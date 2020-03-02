@@ -557,14 +557,14 @@ BranchEnd:
 end
 
 ID:ミマ
-position:56:184:0
+position:58:183:0
 page:1
 startterms:Abutton
 type:1
 terms:none
 move:
 speed:0
-graphic:18:2,0,1,0,0
+graphic:18:2,0,3,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -619,7 +619,7 @@ type:1
 terms:none
 move:
 speed:0
-graphic:18:1,0,1,0,0
+graphic:18:1,0,3,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -642,7 +642,7 @@ BranchEnd:
 end
 
 ID:キクリ
-position:152:183:0
+position:153:184:0
 page:1
 startterms:Abutton
 type:1
@@ -670,14 +670,14 @@ BranchEnd:
 end
 
 ID:キクリ
-position:137:184:0
+position:136:185:0
 page:1
 startterms:Abutton
 type:1
 terms:none
 move:
 speed:0
-graphic:18:7,0,1,0,0
+graphic:18:7,0,3,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -728,7 +728,7 @@ type:1
 terms:none
 move:
 speed:0
-graphic:18:4,0,1,0,0
+graphic:18:4,0,3,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
