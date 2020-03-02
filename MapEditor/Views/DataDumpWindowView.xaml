@@ -26,6 +26,7 @@
             <ComboBox SelectedIndex="0" SelectedValue="{Binding Operation, Mode=OneWayToSource}" SelectedValuePath="Content">
                 <ComboBoxItem Content="Chips" />
                 <ComboBoxItem Content="AddOns" />
+                <ComboBoxItem Content="Upgrades" />
             </ComboBox>
             <Button Content="Dump to file" Command="{Binding DumpCommand}" />
         </StackPanel>

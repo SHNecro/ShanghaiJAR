@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
@@ -73,6 +74,9 @@ namespace MapEditor.ViewModels
                     break;
                 case "AddOns":
                     contents = this.DumpAddOns();
+                    break;
+                case "Upgrades":
+                    contents = this.DumpUpgrades();
                     break;
                 default:
                     return;
@@ -176,7 +180,7 @@ namespace MapEditor.ViewModels
                 .SelectMany(m => m.MapObjects.MapObjects
                     .SelectMany(mo => mo.Pages.MapEventPages
                         .SelectMany(mep => mep.Events.Events
-                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.Battle)
+                            .Where(me => me.Category == EventCategoryOption.Battle)
                             .Where(me => (me.Instance as BattleEvent).Encounter.IsChipDropped)
                             .SelectMany(me => (me.Instance as BattleEvent).Encounter.Enemies
                                 .SelectMany(e =>
@@ -196,7 +200,7 @@ namespace MapEditor.ViewModels
                 .SelectMany(m => m.MapObjects.MapObjects
                     .SelectMany(mo => mo.Pages.MapEventPages
                         .SelectMany(mep => mep.Events.Events
-                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.ChipGet)
+                            .Where(me => me.Category == EventCategoryOption.ChipGet)
                             .Where(me => (me.Instance as ChipGetEvent).IsAdding)
                             .Select(me => (me.Instance as ChipGetEvent).Chip)
                 .Select(c => Tuple.Create(c, m.Header.TitleKey, "Scripted Event (ChipGet)")))))
@@ -205,7 +209,7 @@ namespace MapEditor.ViewModels
                 .SelectMany(m => m.MapObjects.MapObjects
                     .SelectMany(mo => mo.Pages.MapEventPages
                         .SelectMany(mep => mep.Events.Events
-                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.ItemGet)
+                            .Where(me => me.Category == EventCategoryOption.ItemGet)
                             .Select(me => (me.Instance as ItemGetEvent).Mystery.Chip)
                 .Select(c => Tuple.Create(c, m.Header.TitleKey, "Scripted Event (ItemGet)")))))
                 .Where(c => c.Item1 != null).ToArray();
@@ -213,7 +217,7 @@ namespace MapEditor.ViewModels
                 .SelectMany(m => m.MapObjects.MapObjects
                     .SelectMany(mo => mo.Pages.MapEventPages
                         .SelectMany(mep => mep.Events.Events
-                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.Shop)
+                            .Where(me => me.Category == EventCategoryOption.Shop)
                             .SelectMany(me => (me.Instance as ShopEvent).ShopItems.ShopItems
                                 .Select(si =>
                                 {
@@ -257,8 +261,6 @@ namespace MapEditor.ViewModels
 
         private string DumpAddOns()
         {
-            var emptyList = new List<Chip>();
-
             var bmdpmdAddOns = this.allMaps
                 .SelectMany(m => m.MapObjects.MapObjects
                     .OfType<MapMystery>()
@@ -270,7 +272,7 @@ namespace MapEditor.ViewModels
                 .SelectMany(m => m.MapObjects.MapObjects
                     .SelectMany(mo => mo.Pages.MapEventPages
                         .SelectMany(mep => mep.Events.Events
-                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.ItemGet)
+                            .Where(me => me.Category == EventCategoryOption.ItemGet)
                             .Select(me => (me.Instance as ItemGetEvent).Mystery)
                     .Where(rm => rm.Category == 2)
                     .Select(rm => Tuple.Create(rm.ID, rm.Data))
@@ -280,7 +282,7 @@ namespace MapEditor.ViewModels
                 .SelectMany(m => m.MapObjects.MapObjects
                     .SelectMany(mo => mo.Pages.MapEventPages
                         .SelectMany(mep => mep.Events.Events
-                            .Where(me => me.Category == Models.Elements.Enums.EventCategoryOption.Shop)
+                            .Where(me => me.Category == EventCategoryOption.Shop)
                             .Where(me => (me.Instance as ShopEvent).ShopTypeNumber == 2)
                             .SelectMany(me => (me.Instance as ShopEvent).ShopItems.ShopItems
                                 .Select(si =>
@@ -329,6 +331,78 @@ namespace MapEditor.ViewModels
             contents += string.Join("\n", inaccessibleAddOns);
 
             return contents;
+        }
+
+        private string DumpUpgrades()
+        {
+            var bmdpmdUpgrades = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .OfType<MapMystery>()
+                    .Where(mm => mm.BaseMystery.Category == 3 && mm.Type != 0 && mm.BaseMystery.ID <= 4)
+                    .Select(mm => Tuple.Create(mm.Type, Tuple.Create(mm.BaseMystery.ID, mm.BaseMystery.Data)))
+                .Select(tup => Tuple.Create(m.Header.TitleKey, new[] { "GMD", "BMD", "PMD" }[tup.Item1], tup.Item2)))
+                .ToArray();
+            var givenItemGetUpgrades = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Where(me => me.Category == EventCategoryOption.ItemGet)
+                            .Select(me => (me.Instance as ItemGetEvent).Mystery)
+                    .Where(rm => rm.Category == 3 && rm.ID <= 4)
+                    .Select(rm => Tuple.Create(rm.ID, rm.Data))
+                .Select(tup => Tuple.Create(m.Header.TitleKey, "Scripted Event (ItemGet)", tup)))))
+                .ToArray();
+            var shopUpgrades = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Where(me => me.Category == EventCategoryOption.Shop)
+                            .Where(me => (me.Instance as ShopEvent).ShopTypeNumber == 0)
+                            .SelectMany(me => (me.Instance as ShopEvent).ShopItems.ShopItems
+                                .Where(si => si.ID == 0)
+                                .Select(si =>
+                                {
+                                    var priceTypeString = (new EnumDescriptionTypeConverter(typeof(ShopPriceTypeNumber))).ConvertToString((ShopPriceTypeNumber)si.PriceType);
+                                    var shopInfo = $"{si.Price} {priceTypeString}";
+                                    var stockString = si.Stock == 0 ? string.Empty : $" (x{si.Stock})";
+                                    shopInfo += stockString;
+                                    return Tuple.Create(shopInfo, Tuple.Create(si.ID, si.Data));
+                                })))
+                .Select(tup => Tuple.Create(m.Header.TitleKey, $"Shop: {tup.Item1}", tup.Item2))))
+                .ToArray();
+            
+            var mysteryUpgrades = new[] { bmdpmdUpgrades, givenItemGetUpgrades }.SelectMany(tup => tup);
+
+            var hpMemoryStrings = shopUpgrades.Select(tup => $"{Constants.TranslationService.Translate(tup.Item1).Text}\t{tup.Item2} + {tup.Item3.Item2} per")
+                .Concat(mysteryUpgrades.Where(tup => tup.Item3.Item1 == 0).Select(tup => $"{Constants.TranslationService.Translate(tup.Item1).Text}\t{tup.Item2}"));
+
+            var regUpStrings = mysteryUpgrades.Where(tup => tup.Item3.Item1 == 1).Select(tup => $"{Constants.TranslationService.Translate(tup.Item1).Text}\t{tup.Item2}\t+{tup.Item3.Item2}");
+            var subMemoryStrings = mysteryUpgrades.Where(tup => tup.Item3.Item1 == 2).Select(tup => $"{Constants.TranslationService.Translate(tup.Item1).Text}\t{tup.Item2}");
+            var corePlusStrings = mysteryUpgrades.Where(tup => tup.Item3.Item1 == 3).Select(tup => $"{Constants.TranslationService.Translate(tup.Item1).Text}\t{tup.Item2}");
+            var hertzUpStrings = mysteryUpgrades.Where(tup => tup.Item3.Item1 == 4).Select(tup => $"{Constants.TranslationService.Translate(tup.Item1).Text}\t{tup.Item2}\t+{tup.Item3.Item2}");
+
+            var contents = new StringBuilder();
+
+            contents.AppendLine("HP Memory");
+            contents.Append(string.Join("\n", hpMemoryStrings.Select(s => $"\t{s}")));
+            contents.AppendLine();
+
+            contents.AppendLine("RegUp");
+            contents.Append(string.Join("\n", regUpStrings.Select(s => $"\t{s}")));
+            contents.AppendLine();
+
+            contents.AppendLine("SubMemory");
+            contents.Append(string.Join("\n", subMemoryStrings.Select(s => $"\t{s}")));
+            contents.AppendLine();
+
+            contents.AppendLine("CorePlus");
+            contents.Append(string.Join("\n", corePlusStrings.Select(s => $"\t{s}")));
+            contents.AppendLine();
+
+            contents.AppendLine("HertzUp");
+            contents.Append(string.Join("\n", hertzUpStrings.Select(s => $"\t{s}")));
+
+            return contents.ToString();
         }
 
         private Map LoadMap(string fileName, bool decode)
