@@ -144,33 +144,23 @@
                                                                         <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
                                                                         <ColumnDefinition Width="*" />
                                                                     </Grid.ColumnDefinitions>
-                                                                    <Grid.RowDefinitions>
-                                                                        <RowDefinition />
-                                                                        <RowDefinition />
-                                                                    </Grid.RowDefinitions>
                                                                     <TextBlock Grid.Column="0"
-                                                                               Grid.Row="0"
-                                                                               Grid.RowSpan="2"
                                                                                VerticalAlignment="Center"
-                                                                               Text="ID:"/>
+                                                                               Text="Is HPMemory?:"/>
                                                                     <CheckBox Grid.Column="1"
-                                                                               Grid.Row="0"
-                                                                               VerticalContentAlignment="Center"
-                                                                               HorizontalAlignment="Right"
-                                                                               Height="22"
-                                                                               Content="HPMemory"
-                                                                               Tag="{Binding ID}">
+                                                                              VerticalContentAlignment="Center"
+                                                                              HorizontalAlignment="Right"
+                                                                              Height="22"
+                                                                              Tag="{Binding ID}">
                                                                         <CheckBox.Style>
                                                                             <Style TargetType="CheckBox"
                                                                                    BasedOn="{StaticResource SetTagBindingCheckBox}">
                                                                                 <Style.Triggers>
                                                                                     <DataTrigger Binding="{Binding ID}" Value="0">
-                                                                                        <Setter Property="IsChecked"
-                Value="True" />
+                                                                                        <Setter Property="IsChecked" Value="True" />
                                                                                     </DataTrigger>
                                                                                 </Style.Triggers>
-                                                                                <Setter Property="IsChecked"
-                Value="False" />
+                                                                                <Setter Property="IsChecked" Value="False" />
                                                                             </Style>
                                                                         </CheckBox.Style>
                                                                         <CheckBox.CommandParameter>
@@ -180,24 +170,28 @@
                                                                             </x:Array>
                                                                         </CheckBox.CommandParameter>
                                                                     </CheckBox>
+                                                                </Grid>
+                                                                <Grid>
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                                                        <ColumnDefinition Width="*" />
+                                                                    </Grid.ColumnDefinitions>
+                                                                    <TextBlock Grid.Column="0"
+                                                                               VerticalAlignment="Center"
+                                                                               Text="ID:"/>
                                                                     <ComboBox Grid.Column="1"
-                                                                              Grid.Row="1"
                                                                               ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
                                                                                 SelectedValue="{Binding Chip, Converter={StaticResource ChipToChipDefinitionConverter}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
                                                                         <ComboBox.Style>
                                                                             <Style TargetType="ComboBox">
                                                                                 <Style.Triggers>
                                                                                     <DataTrigger Binding="{Binding ID}" Value="0">
-                                                                                        <Setter Property="IsEnabled"
-                Value="False" />
-                                                                                        <Setter Property="Visibility"
-                Value="Hidden" />
+                                                                                        <Setter Property="IsEnabled" Value="False" />
+                                                                                        <Setter Property="Visibility" Value="Hidden" />
                                                                                     </DataTrigger>
                                                                                 </Style.Triggers>
-                                                                                <Setter Property="IsEnabled"
-                Value="True" />
-                                                                                <Setter Property="Visibility"
-                Value="Visible" />
+                                                                                <Setter Property="IsEnabled" Value="True" />
+                                                                                <Setter Property="Visibility" Value="Visible" />
                                                                             </Style>
                                                                         </ComboBox.Style>
                                                                         <ComboBox.ItemTemplate>
@@ -205,7 +199,6 @@
                                                                                 <StackPanel Orientation="Horizontal">
                                                                                     <TextBlock Margin="0,0,10,0"
                                                                                                 Text="{Binding Name}" />
-
                                                                                     <TextBlock>
                                                                                         <TextBlock.Text>
                                                                                             <MultiBinding Converter="{StaticResource ChipCodesMultiConverter}">
@@ -226,12 +219,10 @@
                                                                             <Style TargetType="ComboBox">
                                                                                 <Style.Triggers>
                                                                                     <DataTrigger Binding="{Binding ID}" Value="0">
-                                                                                        <Setter Property="Visibility"
-                Value="Visible" />
+                                                                                        <Setter Property="Visibility" Value="Visible" />
                                                                                     </DataTrigger>
                                                                                 </Style.Triggers>
-                                                                                <Setter Property="Visibility"
-                Value="Hidden" />
+                                                                                <Setter Property="Visibility" Value="Hidden" />
                                                                             </Style>
                                                                         </ComboBox.Style>
                                                                         <ComboBoxItem>

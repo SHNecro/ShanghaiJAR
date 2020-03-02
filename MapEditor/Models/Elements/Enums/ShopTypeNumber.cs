@@ -6,7 +6,7 @@ namespace MapEditor.Models.Elements.Enums
     [TypeConverter(typeof(EnumDescriptionTypeConverter))]
     public enum ShopTypeNumber
     {
-        [Description("Chips")]
+        [Description("Chips / HPMemory")]
         Chips = 0,
         [Description("SubChips")]
         SubChips = 1,
