@@ -1,4 +1,4 @@
-24,24,-272,-112,784,400,Map.NetBattleMachineGameName,0,1,17,0,0,mobcyber,22
+24,24,-272,-112,784,400,Map.NetBattleMachineGameName,0,1,17,0,0,mobcyber,0
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -24,9 +24,9 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 
-battle:21:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:2:4:0:1:1:1:0::21:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:2:3:0:1:1:1:0::21:2:3:1:1:1:1:0::21:2:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:21:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:2:4:0:1:1:1:0::21:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:2:3:0:1:1:1:0::21:2:3:1:1:1:1:0::21:2:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 
@@ -404,6 +404,68 @@ msg:Map.NetBattleMachineGameSprite2Stage1Dialogue1FaceSprite
 msgclose:
 end
 
+ID:BGMStart
+position:152:88:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:jump,32:right,16:left,16
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmon:internet
+eventDeath:
+end
+page:2
+startterms:Auto
+type:0
+terms:variable/14/False/0/3
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmoff:
+eventDeath:
+end
+
+ID:WallpaperSprite
+position:7:18:0
+page:1
+startterms:Abutton
+type:1
+terms:flag/194,variable/22/False/2/1
+move:
+speed:0
+graphic:2:6,0,1,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Misc.WallpaperSpriteStage1Dialogue1
+msg:Misc.WallpaperSpriteStage1Dialogue2
+msg:Misc.WallpaperSpriteStage1Dialogue3Zenny1000
+question:Misc.WallpaperSpriteStage1Dialogue4Question:Misc.WallpaperSpriteStage1Dialogue4Options
+BranchHead:0
+editValue:7:False:0:4:2
+ifValue:7:False:100:4:1
+msg:Misc.WallpaperSpriteStage1Dialogue5
+ifEnd:1
+ifValue:7:False:1000:1:0
+seon:get
+editValue:13:False:0:0:17
+money:1000:False
+msg:Misc.WallpaperSpriteStage1Dialogue6
+ifEnd:0
+BranchEnd:
+msg:Misc.WallpaperSpriteStage1Dialogue7
+msgclose:
+end
+
 MysteryID:ミステリー57：リペア１５０　D
 position:28:172:0
 Mystery:1,0,176,0,リペア１５０　D,57
@@ -428,35 +490,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:BGMStart
-position:152:88:0
-page:1
-startterms:Auto
-type:1
-terms:none
-move:jump,32:right,16:left,16
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmon:internet:0
-eventDeath:
-end
-page:2
-startterms:Auto
-type:0
-terms:variable/14/False/0/3
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmoff:
-eventDeath:
 end
 
 

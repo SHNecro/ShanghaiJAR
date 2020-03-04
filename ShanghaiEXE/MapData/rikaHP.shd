@@ -1,4 +1,4 @@
-20,18,-168,-56,512,288,Map.RikaHPName,0,1,11,0,0,rikaHP,16
+20,18,-168,-56,512,288,Map.RikaHPName,0,1,11,0,0,rikaHP,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0
 0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0
@@ -18,9 +18,9 @@
 0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:2:1:3:0:1:1:1:0::2:1:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:12:1:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:2:1:5:2:1:1:1:0::2:1:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:2:1:3:0:1:1:1:0::2:1:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:12:1:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:2:1:5:2:1:1:1:0::2:1:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 
@@ -201,7 +201,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2
@@ -216,6 +216,39 @@ hitform:square
 event:
 bgmoff:
 eventDeath:
+end
+
+ID:WallpaperSprite
+position:144:89:0
+page:1
+startterms:Abutton
+type:1
+terms:flag/162
+move:
+speed:0
+graphic:2:6,0,5,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Misc.WallpaperSpriteStage1Dialogue1
+msg:Misc.WallpaperSpriteStage1Dialogue2
+msg:Misc.WallpaperSpriteStage1Dialogue3Zenny100
+question:Misc.WallpaperSpriteStage1Dialogue4Question:Misc.WallpaperSpriteStage1Dialogue4Options
+BranchHead:0
+editValue:7:False:0:4:2
+ifValue:7:False:100:4:1
+msg:Misc.WallpaperSpriteStage1Dialogue5
+ifEnd:1
+ifValue:7:False:100:1:0
+seon:get
+editValue:13:False:0:0:11
+money:100:False
+msg:Misc.WallpaperSpriteStage1Dialogue6
+ifEnd:0
+BranchEnd:
+msg:Misc.WallpaperSpriteStage1Dialogue7
+msgclose:
 end
 
 MysteryID:ミステリー89：シードキャノン２　Ｚ
