@@ -223,17 +223,6 @@ hitrange:0:0:0:0
 hitform:square
 event:
 end
-page:3
-startterms:Abutton
-type:0
-terms:flag/527
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-end
 
 ID:6章ナビ　ブッカー
 position:177:181:0
@@ -508,7 +497,7 @@ msg:Map.UraNetSquare2LinkSpriteStage3Dialogue5FaceSprite
 ifEnd:1
 ifValue:7:False:1000:1:0
 seon:get
-editValue:13:False:0:0:13
+editValue:13:False:0:0:26
 money:1000:False
 msg:Map.UraNetSquare2LinkSpriteStage3Dialogue6FaceSprite
 ifEnd:0

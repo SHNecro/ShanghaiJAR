@@ -212,14 +212,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer1RandomBattle1Enemy1:12:2:5:0:1:1:1:0::1:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer1RandomBattle2Enemy1:21:3:3:0:1:1:1:0::21:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer1RandomBattle3Enemy1:20:3:3:1:1:1:1:0::23:1:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:0:68:72:158:600:Map.CompanyServer1RandomBattle4Enemy1:42:15:4:2:68:72:158:600:Map.CompanyServer1RandomBattle4Enemy2:0:1:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:20:3:4:0:1:1:1:0::12:2:3:1:1:1:1:0::13:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:23:1:3:0:1:1:1:0::23:1:5:1:1:1:1:0::12:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:1:3:4:0:1:1:1:0::20:3:5:1:1:1:1:0::1:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:21:3:3:0:1:1:1:0::20:3:5:1:1:1:1:0::13:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer1RandomBattle1Enemy1:12:2:5:0:1:1:1:0::1:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer1RandomBattle2Enemy1:21:3:3:0:1:1:1:0::21:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer1RandomBattle3Enemy1:20:3:3:1:1:1:1:0::23:1:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:0:68:72:158:600:Map.CompanyServer1RandomBattle4Enemy1:42:15:4:2:68:72:158:600:Map.CompanyServer1RandomBattle4Enemy2:0:1:5:1:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:20:3:4:0:1:1:1:0::12:2:3:1:1:1:1:0::13:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:23:1:3:0:1:1:1:0::23:1:5:1:1:1:1:0::12:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:1:3:4:0:1:1:1:0::20:3:5:1:1:1:1:0::1:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:21:3:3:0:1:1:1:0::20:3:5:1:1:1:1:0::13:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 
@@ -438,7 +438,12 @@ BranchHead:0
 msg:Map.CompanyServer17SpritesStage1Dialogue2FaceSprite
 BranchEnd:
 BranchHead:1
+ifFlag:609:False:0
 msg:Map.CompanyServer17SpritesStage1Dialogue3FaceSprite
+ifEnd:0
+ifFlag:609:True:0
+EventLun:WallpaperSprite:-1
+ifEnd:0
 BranchEnd:
 msgclose:
 end
@@ -1850,7 +1855,7 @@ msgopen:
 msg:Map.CompanyServer1PunishmentStage1Dialogue1FaceNone
 msg:Map.CompanyServer1PunishmentStage1Dialogue2FaceNone
 msgclose:
-battle:42:15:4:1:66:66:66:1100:Map.CompanyServer1PunishmentBattle1Enemy1:0:14:4:2:3:3:3:1100:Map.CompanyServer1PunishmentBattle1Enemy2:0:1:5:1:1:1:1:0::0:0:1:False:False:False:True:Tournament:27
+battle:42:15:4:1:66:66:66:1100:Map.CompanyServer1PunishmentBattle1Enemy1:0:14:4:2:1:1:1:0::0:1:5:1:1:1:1:0::0:0:1:False:False:False:True:Tournament:27
 EventLun:ギミックリセット:1
 bgmon:cyber_of_server
 fade:15:0:0:0:0:True
@@ -2113,6 +2118,37 @@ event:
 editFlag:580:True
 EventLun:おしおき:1
 editFlag:581:False
+end
+
+ID:WallpaperSprite
+position:361:357:0
+page:1
+startterms:Abutton
+type:1
+terms:flag/609
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:4:4:0:0
+hitform:square
+event:
+msg:Misc.WallpaperSpriteStage1Dialogue1
+msg:Misc.WallpaperSpriteStage1Dialogue2
+msg:Misc.WallpaperSpriteStage1Dialogue3Zenny5000
+question:Misc.WallpaperSpriteStage1Dialogue4Question:Misc.WallpaperSpriteStage1Dialogue4Options
+BranchHead:0
+editValue:7:False:0:4:2
+ifValue:7:False:5000:4:1
+msg:Misc.WallpaperSpriteStage1Dialogue5
+ifEnd:1
+ifValue:7:False:5000:1:0
+seon:get
+editValue:13:False:0:0:27
+money:5000:False
+msg:Misc.WallpaperSpriteStage1Dialogue6
+ifEnd:0
+BranchEnd:
+msg:Misc.WallpaperSpriteStage1Dialogue7
 end
 
 MysteryID:ミステリー193：4000ゼニー

@@ -87,4 +87,37 @@ bgmoff:
 eventDeath:
 end
 
+ID:WallpaperSprite
+position:96:131:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:0
+graphic:2:6,0,3,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Misc.WallpaperSpriteStage1Dialogue1
+msg:Misc.WallpaperSpriteStage1Dialogue2
+msg:Misc.WallpaperSpriteStage1Dialogue3Zenny100
+question:Misc.WallpaperSpriteStage1Dialogue4Question:Misc.WallpaperSpriteStage1Dialogue4Options
+BranchHead:0
+editValue:7:False:0:4:2
+ifValue:7:False:100:4:1
+msg:Misc.WallpaperSpriteStage1Dialogue5
+ifEnd:1
+ifValue:7:False:100:1:0
+seon:get
+editValue:13:False:0:0:28
+money:100:False
+msg:Misc.WallpaperSpriteStage1Dialogue6
+ifEnd:0
+BranchEnd:
+msg:Misc.WallpaperSpriteStage1Dialogue7
+msgclose:
+end
+
 
