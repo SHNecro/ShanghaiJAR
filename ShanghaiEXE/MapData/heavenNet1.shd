@@ -107,7 +107,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:2:4:4:0:1:1:1:0::5:4:3:1:1:1:1:0::11:4:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:2:4:4:0:1:1:1:0::5:4:3:2:1:1:1:0::11:4:5:2:1:1:1:0::0:8:20:False:True:True:True:VSvirus:0
+battle:12:4:4:0:1:1:1:0::38:4:3:1:1:1:1:0::12:4:5:2:1:1:1:0::0:3:16:False:True:True:True:VSvirus:0
+battle:24:4:3:1:1:1:1:0::3:4:5:1:1:1:1:0::0:1:4:0:1:1:1:0::0:9:8:False:True:True:True:VSvirus:0
+battle:37:4:5:2:1:1:1:0::37:2:4:1:1:1:1:0::37:4:3:0:1:1:1:0::0:5:14:False:True:True:True:VSvirus:0
 
 
 
@@ -252,7 +255,7 @@ stopSkip:
 eventDeath:
 end
 
-ID:SpecialDoor8
+ID:MidAreaDoor
 position:194:106:0
 page:1
 startterms:Abutton
@@ -269,12 +272,12 @@ msg:Map.HeavenNet1Name
 msgclose:
 end
 
-ID:SpecialDoorShadow8
+ID:MidAreaDoorShadow
 position:194:106:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/796
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -282,8 +285,22 @@ hitrange:4:27:6:6
 hitform:square
 event:
 msgopen:
-msg:Misc.DemoEndDialogue1
-msg:Misc.DemoEndDialogue2
+msg:Map.HeavenNet1MidAreaDoorStage1Dialogue1
+msg:Map.HeavenNet1MidAreaDoorStage1Dialogue2
+editValue:7:False:0:0:0
+numset:Map.HeavenNet1MidAreaDoorStage1Dialogue3Question:7:5
+ifValue:7:False:12345:5:0
+seon:error
+ifFlag:795:False:1
+editFlag:795:True
+Facehere:
+msg:Map.HeavenNet1MidAreaDoorStage2Dialogue1
+msg:Map.HeavenNet1MidAreaDoorStage2Dialogue2
+msg:Map.HeavenNet1MidAreaDoorStage2Dialogue3
+msg:Map.HeavenNet1MidAreaDoorStage2Dialogue4
+msg:Map.HeavenNet1MidAreaDoorStage2Dialogue5
+ifEnd:1
+ifEnd:0
 msgclose:
 end
 
@@ -601,6 +618,7 @@ event:
 msgopen:
 msg:Map.HeavenNet1LockdownDoorDialogue1
 msg:Map.HeavenNet1LockdownDoorDialogue2
+msg:Map.HeavenNet1LockdownDoorDialogue3
 msgclose:
 end
 
@@ -619,6 +637,7 @@ event:
 msgopen:
 msg:Map.HeavenNet1LockdownDoorDialogue1
 msg:Map.HeavenNet1LockdownDoorDialogue2
+msg:Map.HeavenNet1LockdownDoorDialogue3
 msgclose:
 end
 
@@ -727,6 +746,7 @@ event:
 msgopen:
 msg:Map.HeavenNet1LockdownDoorDialogue1
 msg:Map.HeavenNet1LockdownDoorDialogue2
+msg:Map.HeavenNet1LockdownDoorDialogue3
 msgclose:
 end
 

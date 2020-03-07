@@ -11,5 +11,14 @@
   <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2" Value="Is this a garden....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.2" Value="....Shanghai?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue1" Value="A series of barriers completely,blocks off access past this,point." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue2" Value="The front shows a message:,CONTACT ADMINISTRATOR,     LOCKDOWN IN EFFECT" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue2" Value="A message is inscribed in the,frontmost barrier:" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue3" Value="ADMINISTRATIVE SEAL,PETITION MISTRESS TO,GAIN PASSAGE BEYOND" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage1Dialogue1" Value="A message floats in the air,before the barrier:" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage1Dialogue2" Value="THE WAY SHALL OPEN TO,ONE WHO KNOWS ALL,ON HEAVEN AND EARTH" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage1Dialogue3Question" Value="DISPLAY UNDERSTANDING" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue1" Value="Great，now what?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue2" Value="If you want me to sit here and try,every 5-digit code，we’re going,to have words，Alice." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue3" Value="“Knows all on Heaven and,Earth”....,....Shanghai，do you think--?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue4" Value="....The Sage?,That does sound like his thing.,Can’t hurt to try，anyways." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue5" Value="Time to hunt down an old man.,Let’s get going，Alice." Face="Shanghai" Mono="False" />
 </data>
