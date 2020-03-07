@@ -442,4 +442,15 @@
   <Text Key="Bounty.Area39" Value="ＲＯＭ基地ゲートの電脳" />
   <Text Key="Bounty.Area40" Value="ＲＯＭのディスプレイ電脳" />
   <Text Key="Bounty.Area41" Value="ＲＯＭの電脳２" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue1" Value="コチラハ　ホームページノ,カベガミ　ハンバイ,スプライトデス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2" Value="アナタノ　ホームページノ,カベガミヲ　コノエリアノ,カベガミト　オナジニデキマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny0" Value="カベガミノ　リョウキンハ,０ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny100" Value="カベガミノ　リョウキンハ,１００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny1000" Value="カベガミノ　リョウキンハ,１０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny5000" Value="カベガミノ　リョウキンハ,５０００ゼニー　ト　ナリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue4Question" Value="カベガミヲ　カイマスカ？" Face="Sprite" Mono="False" />
+  <Text Key="Misc.WallpaperSpriteStage1Dialogue4Options" Value="はい,いいえ" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue5" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue6" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue7" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
 </data>
