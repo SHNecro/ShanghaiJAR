@@ -8,14 +8,14 @@ namespace MapEditor.Models.Elements.Enums
     {
         [Description("==")]
         Equals = 0,
-        [Description(">=")]
-        GreaterThanOrEquals = 1,
-        [Description("<")]
-        LessThan = 2,
-        [Description(">")]
-        GreaterThan = 3,
         [Description("<=")]
-        LessThanOrEquals = 4,
+        LessThanOrEquals = 1,
+        [Description(">=")]
+        GreaterThanOrEquals = 2,
+        [Description("<")]
+        LessThan = 3,
+        [Description(">")]
+        GreaterThan = 4,
         [Description("!=")]
         NotEquals = 5
     }
