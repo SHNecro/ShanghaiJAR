@@ -553,8 +553,43 @@ namespace MapEditor.ViewModels
                             }))));
 
             // bmd/pmd opened "flags"
+            var bmdPmdObjects = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .OfType<MapMystery>()
+                    .Where(mm => mm.Type != 0)
+                    .Select(mm =>
+                    {
+                        var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+
+                        var mysteryDescription = mm.BaseMystery.Name;
+                        return Tuple.Create(mm.Flag, mm.Type == 1 ? "BMD" : "PMD", $"{mapTitle}: {mysteryDescription}");
+                    }));
+
             // gmd opened "flags"
+            var gmdObjects = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .OfType<MapMystery>()
+                    .Where(mm => mm.Type == 0)
+                    .Select(mm =>
+                    {
+                        var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                        return Tuple.Create(mm.Flag, "GMD", mapTitle);
+                    }));
+
             // shop stock
+            var shopEvents = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<ShopEvent>()
+                            .Where(se => se.ShopStockIndex != 0)
+                            .Select(se =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+
+                                return Tuple.Create(se.ShopStockIndex, "Store", $"{mapTitle}: {se.Name}");
+                            }))));
 
             var contents = new StringBuilder();
 
@@ -570,6 +605,27 @@ namespace MapEditor.ViewModels
             var vars = new[] { termVariables, ifVariableEvents, setVariableEvents, effectPositionVariables, numSetEvents };
             var varEntries = vars.SelectMany(l => l).OrderBy(tup => tup.Item1).Select(tup => $"{tup.Item1}\t{tup.Item2}\t{tup.Item3}");
             contents.Append(string.Join("\n", varEntries));
+            contents.AppendLine();
+
+            contents.AppendLine();
+
+            contents.AppendLine("BMD/PMD");
+            var bmdPmdEntries = bmdPmdObjects.OrderBy(tup => tup.Item1).Select(tup => $"{tup.Item1}\t{tup.Item2}\t{tup.Item3}");
+            contents.Append(string.Join("\n", bmdPmdEntries));
+            contents.AppendLine();
+
+            contents.AppendLine();
+
+            contents.AppendLine("GMD (Reset on jackin/out)");
+            var gmdEntries = gmdObjects.OrderBy(tup => tup.Item1).Select(tup => $"{tup.Item1}\t{tup.Item2}\t{tup.Item3}");
+            contents.Append(string.Join("\n", gmdEntries));
+            contents.AppendLine();
+
+            contents.AppendLine();
+
+            contents.AppendLine("Stores Stocks");
+            var shopEntries = shopEvents.OrderBy(tup => tup.Item1).Select(tup => $"{tup.Item1}\t{tup.Item2}\t{tup.Item3}");
+            contents.Append(string.Join("\n", shopEntries));
             contents.AppendLine();
 
             return contents.ToString();
