@@ -5,6 +5,7 @@ using MapEditor.Models;
 using MapEditor.Models.Elements;
 using MapEditor.Models.Elements.Enums;
 using MapEditor.Models.Elements.Events;
+using MapEditor.Models.Elements.Terms;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System;
 using System.Collections.Generic;
@@ -77,6 +78,9 @@ namespace MapEditor.ViewModels
                     break;
                 case "Upgrades":
                     contents = this.DumpUpgrades();
+                    break;
+                case "Flags/Vars":
+                    contents = this.DumpFlagsVars();
                     break;
                 default:
                     return;
@@ -401,6 +405,172 @@ namespace MapEditor.ViewModels
 
             contents.AppendLine("HertzUp");
             contents.Append(string.Join("\n", hertzUpStrings.Select(s => $"\t{s}")));
+
+            return contents.ToString();
+        }
+
+        private string DumpFlagsVars()
+        {
+            //flags
+            var specialEncounterFlags = this.allMaps
+                .Where(m => m.Header.SpecialEncounterCount > 0)
+                .Select(m => Tuple.Create(m.Header.SpecialEncounterFlag, "Special Encounter Flag", Constants.TranslationService.Translate(m.Header.TitleKey).Text));
+            var termFlags = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Terms.Terms
+                            .Select(to => to.Instance)
+                            .OfType<FlagTerm>()
+                            .Select(ft =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+                                return Tuple.Create(ft.Flag, "Term", $"{mapTitle}: {mapObject} pg.{page}: {ft.Name}");
+                            }))));
+            var ifFlagEvents = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<IfFlagEvent>()
+                            .Select(ife =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+                                return Tuple.Create(ife.FlagNumber, "Event (ifFlag)", $"{mapTitle}: {mapObject} pg.{page}: {ife.Name}");
+                            }))));
+            var setFlagEvents = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<EditFlagEvent>()
+                            .Select(efe =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+                                return Tuple.Create(efe.FlagNumber, "Event (editFlag)", $"{mapTitle}: {mapObject} pg.{page}: {efe.Name}");
+                            }))));
+
+            //variables
+            var termVariables = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Terms.Terms
+                            .Select(to => to.Instance)
+                            .OfType<VariableTerm>()
+                            .SelectMany(vt =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+                                var variablesUsed = new List<Tuple<int, string, string>> { Tuple.Create(vt.VariableLeft, "Term, lhs", $"{mapTitle}: {mapObject} pg.{page}: {vt.Name}") };
+                                if (vt.IsVariable)
+                                {
+                                    variablesUsed.Add(Tuple.Create(vt.VariableOrConstantRight, "Term, rhs", $"{mapTitle}: {mapObject} pg.{page}: {vt.Name}"));
+                                }
+
+                                return variablesUsed;
+                            }))));
+            var ifVariableEvents = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<IfValueEvent>()
+                            .SelectMany(ive =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+                                var variablesUsed = new List<Tuple<int, string, string>> { Tuple.Create(ive.VariableLeft, "Event (ifValue, lhs)", $"{mapTitle}: {mapObject} pg.{page}: {ive.Name}") };
+                                if (ive.IsVariable)
+                                {
+                                    variablesUsed.Add(Tuple.Create(ive.VariableOrConstantRight, "Event (ifValue, rhs)", $"{mapTitle}: {mapObject} pg.{page}: {ive.Name}"));
+                                }
+
+                                return variablesUsed;
+                            }))));
+            var setVariableEvents = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<EditValueEvent>()
+                            .SelectMany(eve =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+
+                                var variable = eve.IsVariable ? -1 : eve.Index;
+                                var variablesUsed = new List<Tuple<int, string, string>> { Tuple.Create(variable, "Event (setValue, lhs)", $"{mapTitle}: {mapObject} pg.{page}: {eve.Name}") };
+                                if (eve.ReferenceType == 1 || eve.ReferenceType == 2)
+                                {
+                                    var setValue = eve.ReferenceType == 2 ? -1 : int.Parse(eve.ReferenceData);
+                                    variablesUsed.Add(Tuple.Create(setValue, "Event (setValue, rhs)", $"{mapTitle}: {mapObject} pg.{page}: {eve.Name}"));
+                                }
+
+                                return variablesUsed;
+                            }))));
+            var effectPositionVariables = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<EffectEvent>()
+                            .Where(ee => ee.LocationType == (int)EffectLocationTypeNumber.Variable)
+                            .SelectMany(ee =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+
+                                var variablesUsed = new List<Tuple<int, string, string>>
+                                {
+                                    Tuple.Create(ee.X, "Event (effect, X position)", $"{mapTitle}: {mapObject} pg.{page}: {ee.Name}"),
+                                    Tuple.Create(ee.Y, "Event (effect, Y position)", $"{mapTitle}: {mapObject} pg.{page}: {ee.Name}"),
+                                    Tuple.Create(ee.Z, "Event (effect, Z position)", $"{mapTitle}: {mapObject} pg.{page}: {ee.Name}")
+                                };
+
+                                return variablesUsed;
+                            }))));
+            var numSetEvents = this.allMaps
+                .SelectMany(m => m.MapObjects.MapObjects
+                    .SelectMany(mo => mo.Pages.MapEventPages
+                        .SelectMany(mep => mep.Events.Events
+                            .Select(eo => eo.Instance)
+                            .OfType<NumSetEvent>()
+                            .Select(nse =>
+                            {
+                                var mapTitle = Constants.TranslationService.Translate(m.Header.TitleKey).Text;
+                                var mapObject = mo.ID;
+                                var page = mep.PageNumber;
+                                return Tuple.Create(nse.TargetVariable, "Event (numSet)", $"{mapTitle}: {mapObject} pg.{page}: {nse.Name}");
+                            }))));
+
+            // bmd/pmd opened "flags"
+            // gmd opened "flags"
+            // shop stock
+
+            var contents = new StringBuilder();
+
+            contents.AppendLine("FLAGS (Does not include code-defined/used)");
+            var flags = new[] { specialEncounterFlags, termFlags, ifFlagEvents, setFlagEvents };
+            var flagEntries = flags.SelectMany(l => l).OrderBy(tup => tup.Item1).Select(tup => $"{tup.Item1}\t{tup.Item2}\t{tup.Item3}");
+            contents.Append(string.Join("\n", flagEntries));
+            contents.AppendLine();
+
+            contents.AppendLine();
+
+            contents.AppendLine("VARS (Does not include code-defined/used)");
+            var vars = new[] { termVariables, ifVariableEvents, setVariableEvents, effectPositionVariables, numSetEvents };
+            var varEntries = vars.SelectMany(l => l).OrderBy(tup => tup.Item1).Select(tup => $"{tup.Item1}\t{tup.Item2}\t{tup.Item3}");
+            contents.Append(string.Join("\n", varEntries));
+            contents.AppendLine();
 
             return contents.ToString();
         }
