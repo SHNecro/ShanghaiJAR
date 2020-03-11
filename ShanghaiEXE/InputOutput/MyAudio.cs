@@ -207,7 +207,7 @@ namespace NSShanghaiEXE.InputOutput
 
         public void StopSE(MyAudio.SOUNDNAMES sname)
         {
-            string soundName = this.soundNames[(int)sname];
+            string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
                 this.xaSourceSE[soundName].Dispose();
             if (this.xaBufferSE[soundName] == null)
@@ -223,7 +223,7 @@ namespace NSShanghaiEXE.InputOutput
             }
             if (sname == MyAudio.SOUNDNAMES.none)
                 return;
-            string soundName = this.soundNames[(int)sname];
+            string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
                 this.xaSourceSE[soundName].Dispose();
             if (this.xaBufferSE[soundName] != null)
@@ -432,6 +432,94 @@ namespace NSShanghaiEXE.InputOutput
             waveshort,
             Zblade,
             none,
+            pianoa0,
+            pianob0,
+            pianobb0,
+            pianoa1,
+            pianoab1,
+            pianob1,
+            pianobb1,
+            pianoc1,
+            pianod1,
+            pianodb1,
+            pianoe1,
+            pianoeb1,
+            pianof1,
+            pianog1,
+            pianogb1,
+            pianoa2,
+            pianoab2,
+            pianob2,
+            pianobb2,
+            pianoc2,
+            pianod2,
+            pianodb2,
+            pianoe2,
+            pianoeb2,
+            pianof2,
+            pianog2,
+            pianogb2,
+            pianoa3,
+            pianoab3,
+            pianob3,
+            pianobb3,
+            pianoc3,
+            pianod3,
+            pianodb3,
+            pianoe3,
+            pianoeb3,
+            pianof3,
+            pianog3,
+            pianogb3,
+            pianoa4,
+            pianoab4,
+            pianob4,
+            pianobb4,
+            pianoc4,
+            pianod4,
+            pianodb4,
+            pianoe4,
+            pianoeb4,
+            pianof4,
+            pianog4,
+            pianogb4,
+            pianoa5,
+            pianoab5,
+            pianob5,
+            pianobb5,
+            pianoc5,
+            pianod5,
+            pianodb5,
+            pianoe5,
+            pianoeb5,
+            pianof5,
+            pianog5,
+            pianogb5,
+            pianoa6,
+            pianoab6,
+            pianob6,
+            pianobb6,
+            pianoc6,
+            pianod6,
+            pianodb6,
+            pianoe6,
+            pianoeb6,
+            pianof6,
+            pianog6,
+            pianogb6,
+            pianoa7,
+            pianoab7,
+            pianob7,
+            pianobb7,
+            pianoc7,
+            pianod7,
+            pianodb7,
+            pianoe7,
+            pianoeb7,
+            pianof7,
+            pianog7,
+            pianogb7,
+            pianoc8
         }
     }
 }
