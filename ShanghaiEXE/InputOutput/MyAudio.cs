@@ -207,7 +207,7 @@ namespace NSShanghaiEXE.InputOutput
 
         public void StopSE(MyAudio.SOUNDNAMES sname)
         {
-            string soundName = this.soundNames[(int)sname];
+            string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
                 this.xaSourceSE[soundName].Dispose();
             if (this.xaBufferSE[soundName] == null)
@@ -223,7 +223,7 @@ namespace NSShanghaiEXE.InputOutput
             }
             if (sname == MyAudio.SOUNDNAMES.none)
                 return;
-            string soundName = this.soundNames[(int)sname];
+            string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
                 this.xaSourceSE[soundName].Dispose();
             if (this.xaBufferSE[soundName] != null)
