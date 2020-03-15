@@ -122,7 +122,7 @@ namespace NSMap
             }
         }
 
-        public SceneMap(MyAudio s, ShanghaiEXE p, SceneMain m, EventManager e, SaveData save)
+        public SceneMap(IAudioEngine s, ShanghaiEXE p, SceneMain m, EventManager e, SaveData save)
           : base(s, p, save)
         {
             this.main = m;
@@ -251,7 +251,7 @@ namespace NSMap
             }
             else if (this.savedata.ValList[40] == this.savedata.ValList[41])
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.rockon);
+                this.sound.PlaySE(SoundEffect.rockon);
                 this.savedata.FlagList[69] = true;
             }
         }
@@ -927,7 +927,7 @@ namespace NSMap
                         else if (this.savedata.ValList[40] <= 500)
                             color = Color.Yellow;
                         if (this.savedata.ValList[40] <= 1000 && this.savedata.ValList[40] % 100 == 0 && (!this.savedata.FlagList[69] && this.savedata.ValList[40] != this.savedata.ValList[41]) && !this.eventmanager.playevent)
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.search);
+                            this.sound.PlaySE(SoundEffect.search);
                         this.TextRender(dg, txt, false, new Vector2(176f, 0.0f), false, color);
                     }
                 }
@@ -975,7 +975,7 @@ namespace NSMap
                 case 0:
                     if (this.mailsound)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.mail);
+                        this.sound.PlaySE(SoundEffect.mail);
                         break;
                     }
                     break;

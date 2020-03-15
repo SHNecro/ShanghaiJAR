@@ -11,7 +11,7 @@ namespace NSChip
     private const int speed = 2;
     private Point animePoint;
 
-    public IkuV3(MyAudio s)
+    public IkuV3(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

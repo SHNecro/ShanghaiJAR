@@ -23,7 +23,7 @@ namespace NSEnemy
         private readonly int roopmove;
         private bool attacked;
 
-        public EvilEye(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public EvilEye(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = 8;

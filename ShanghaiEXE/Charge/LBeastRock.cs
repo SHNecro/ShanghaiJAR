@@ -14,7 +14,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public LBeastRock(MyAudio s, Player p)
+        public LBeastRock(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;

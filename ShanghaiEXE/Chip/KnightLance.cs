@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 5;
     private const int speed = 3;
 
-    public KnightLance(MyAudio s)
+    public KnightLance(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -41,7 +41,7 @@ namespace NSChip
     {
       if (character.waittime == 11)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+        this.sound.PlaySE(SoundEffect.lance);
         int num = this.power + this.pluspower;
         character.parent.attacks.Add(this.Paralyze(new LanceAttack(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element, false)));
       }

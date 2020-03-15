@@ -20,7 +20,7 @@ namespace NSEnemy
         private int roopmove;
         private bool spAttack;
 
-        public Furjirn(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Furjirn(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)

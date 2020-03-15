@@ -13,7 +13,7 @@ namespace NSChip
     private const int shotend = 58;
     private const int shotstart = 40;
 
-    public SeedCanon2(MyAudio s)
+    public SeedCanon2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

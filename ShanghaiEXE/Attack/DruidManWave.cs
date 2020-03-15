@@ -12,7 +12,7 @@ namespace NSAttack
 		private static Rectangle SpriteRect = new Rectangle(0, 792, 36, 34);
 
         public DruidManWave(
-          MyAudio sound,
+          IAudioEngine sound,
           SceneBattle parent,
           int pX,
           int pY,

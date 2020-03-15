@@ -16,7 +16,7 @@ namespace NSEvent
         private readonly Player player;
 
         public EditValue(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int n,
           bool nORv,

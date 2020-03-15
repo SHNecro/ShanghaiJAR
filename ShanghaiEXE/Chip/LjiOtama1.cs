@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public LjiOtama1(MyAudio s)
+    public LjiOtama1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -50,7 +50,7 @@ namespace NSChip
       if (character.waittime != 5)
         return;
       int num = this.power + this.pluspower;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.bound);
+      this.sound.PlaySE(SoundEffect.bound);
       battle.attacks.Add(this.Paralyze(new Otama(this.sound, battle, character.position.X, character.position.Y, character.union, this.Power(character), 2, character.positionDirect, this.element, 10)));
     }
 

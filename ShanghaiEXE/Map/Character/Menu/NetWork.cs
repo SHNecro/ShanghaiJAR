@@ -251,10 +251,10 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public NetWork(MyAudio s, Player p, TopMenu t, SaveData save)
+        public NetWork(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
-            this.playBGM = this.sound.playmusic;
+            this.playBGM = this.sound.CurrentBGM;
             this.sound.StartBGM("main_center");
             this.adrList = Dns.GetHostAddresses(Dns.GetHostName());
             NetParam.myIP = "";
@@ -426,7 +426,7 @@ namespace NSMap.Character.Menu
         {
             if (NetParam.connecting)
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+            this.sound.PlaySE(SoundEffect.error);
             this.eventmanager.events.Clear();
             var dialogue = ShanghaiEXE.Translate("NetWork.ConnectionFailureDialogue1");
             this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], false, dialogue.Face, dialogue.Face.Mono, this.savedata));
@@ -457,14 +457,14 @@ namespace NSMap.Character.Menu
                 this.BattleStartUpSend();
                 this.battleStandbyProsess = 0;
                 NetParam.connectWait = false;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.nextmenu = NetWork.MENU.BattleStandby;
                 this.nowmenu = NetWork.MENU.BattleStandby;
             }
             if (!Input.IsPress(Button._B))
                 return;
             NetWork.connectThread.Abort();
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+            this.sound.PlaySE(SoundEffect.cancel);
             this.nextmenu = NetWork.MENU.topMenu;
             this.menuXminas[0] -= 16;
         }
@@ -486,7 +486,7 @@ namespace NSMap.Character.Menu
                 this.BattleStartUpSend();
                 this.battleStandbyProsess = 0;
                 NetParam.connectWait = false;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.nextmenu = NetWork.MENU.BattleStandby;
                 this.nowmenu = NetWork.MENU.BattleStandby;
             }
@@ -495,7 +495,7 @@ namespace NSMap.Character.Menu
             NetParam.connecting = false;
             NetParam.Close();
             NetWork.connectThread.Abort();
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+            this.sound.PlaySE(SoundEffect.cancel);
             this.nextmenu = NetWork.MENU.ModeMenu;
             this.menuXminas[0] -= 16;
         }
@@ -683,7 +683,7 @@ namespace NSMap.Character.Menu
             {
                 if (Input.IsPress(Button._A))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     if (this.nowscene == NetWork.SCENE.select)
                     {
                         switch (this.nowmenu)
@@ -729,7 +729,7 @@ namespace NSMap.Character.Menu
                 }
                 if (Input.IsPress(Button._B))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     switch (this.nowmenu)
                     {
                         case NetWork.MENU.topMenu:
@@ -753,18 +753,18 @@ namespace NSMap.Character.Menu
                         --this.cursol;
                         if (this.cursol < 0)
                             this.cursol = num - 1;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     if (Input.IsPress(Button.Down))
                     {
                         ++this.cursol;
                         if (this.cursol >= num)
                             this.cursol = 0;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     else if (Input.IsPress(Button._R))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         if (this.nowmenu == NetWork.MENU.topMenu && this.cursol == 3)
                         {
                             ++this.savedata.netWorkFace;
@@ -781,7 +781,7 @@ namespace NSMap.Character.Menu
                     }
                     else if (Input.IsPress(Button._L))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         if (this.nowmenu == NetWork.MENU.topMenu && this.cursol == 3)
                         {
                             --this.savedata.netWorkFace;

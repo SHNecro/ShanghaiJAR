@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 3;
 
-    public MithrillNapalm(MyAudio s)
+    public MithrillNapalm(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -41,7 +41,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       if (character.waittime == 3)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+        this.sound.PlaySE(SoundEffect.throw_);
       character.animationpoint = CharacterAnimation.BombAnimation(character.waittime);
       if (character.waittime == 6)
       {

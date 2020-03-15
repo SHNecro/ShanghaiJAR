@@ -25,7 +25,7 @@ namespace NSChip
         private const int s = 5;
         private Point animePoint;
 
-        public YorihimeV3(MyAudio s)
+        public YorihimeV3(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -89,7 +89,7 @@ namespace NSChip
                             case 1:
                                 character.animationpoint.X = -1;
                                 this.xPosition = character.position.X;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                                this.sound.PlaySE(SoundEffect.warp);
                                 break;
                             case 2:
                                 if (character is Player && (Input.IsPush(Button._A) && this.command == 0 && this.commandTime < 60))
@@ -101,12 +101,12 @@ namespace NSChip
                             case 3:
                                 if (this.CommandCheck("下左上右下"))
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+                                    this.sound.PlaySE(SoundEffect.CommandSuccess);
                                     this.command = 4;
                                 }
                                 else if (this.CommandCheck("左B右B"))
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+                                    this.sound.PlaySE(SoundEffect.CommandSuccess);
                                     this.command = 5;
                                 }
                                 if (this.command == 5)
@@ -143,24 +143,24 @@ namespace NSChip
                                     Player player = (Player)character;
                                     if (player.InputIsPush(Button.Right))
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+                                        this.sound.PlaySE(SoundEffect.CommandSuccess);
                                         this.command = 1;
                                     }
                                     else if (player.InputIsPush(Button.Up))
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+                                        this.sound.PlaySE(SoundEffect.CommandSuccess);
                                         this.command = 2;
                                     }
                                     else if (player.InputIsPush(Button.Left))
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+                                        this.sound.PlaySE(SoundEffect.CommandSuccess);
                                         this.command = 3;
                                     }
                                     break;
                                 }
                                 break;
                             case 6:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase a1 = new SwordAttack(this.sound, battle, this.xPosition + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 4, this.element, false, false);
                                 switch (this.command)
                                 {
@@ -194,7 +194,7 @@ namespace NSChip
                         switch (this.frame)
                         {
                             case 6:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase a2 = new SwordAttack(this.sound, battle, this.xPosition + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 4, this.element, false, false);
                                 switch (this.command)
                                 {
@@ -228,7 +228,7 @@ namespace NSChip
                         switch (this.frame)
                         {
                             case 6:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase a3 = new SwordCloss(this.sound, battle, this.xPosition + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character) / 2, 4, this.element, false);
                                 switch (this.command)
                                 {
@@ -262,7 +262,7 @@ namespace NSChip
                         switch (this.frame)
                         {
                             case 6:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase a4 = new Halberd(this.sound, battle, this.xPosition + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 4, this.element, false);
                                 switch (this.command)
                                 {
@@ -296,7 +296,7 @@ namespace NSChip
                         switch (this.frame)
                         {
                             case 6:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase a5 = new SonicBoom(this.sound, battle, this.xPosition + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 8, this.element, true);
                                 switch (this.command)
                                 {

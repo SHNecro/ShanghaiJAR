@@ -31,7 +31,7 @@ namespace NSNet
         }
 
         public NetPlayer(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -51,7 +51,7 @@ namespace NSNet
         }
 
         public NetPlayer(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

@@ -27,7 +27,7 @@ namespace NSAttack
         private readonly bool colory;
 
         public MrasaAnchor(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -59,7 +59,7 @@ namespace NSAttack
         }
 
         public MrasaAnchor(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -135,7 +135,7 @@ namespace NSAttack
                     };
                     this.parent.attacks.Add(this.StateCopy(bombAttack));
                     this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y, sp));
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                    this.sound.PlaySE(SoundEffect.clincher);
                     this.ShakeStart(5, 30);
                     switch (this.type)
                     {

@@ -21,7 +21,7 @@ namespace NSAttack
         private int roopcount;
 
         public Tornado(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -46,7 +46,7 @@ namespace NSAttack
             else
                 this.positionDirect = new Vector2((this.position.X + 1) * 40, this.position.Y * 24 + 50);
             this.frame = 0;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+            this.sound.PlaySE(SoundEffect.shoot);
             if (this.union == Panel.COLOR.red)
                 this.movespeed *= -1;
             this.OldPD = this.positionDirect;

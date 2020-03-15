@@ -29,7 +29,7 @@ namespace NSAttack
         private new readonly int number;
 
         public VirusBall(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -71,7 +71,7 @@ namespace NSAttack
                 this.flag = false;
                 if (this.InArea && !this.StandPanel.Hole)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                    this.sound.PlaySE(SoundEffect.bomb);
                     this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 2));
                 }
             }
@@ -123,7 +123,7 @@ namespace NSAttack
                     type = (int)e.ID,
                     code = this.Random.Next(26)
                 };
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.getchip);
+                this.sound.PlaySE(SoundEffect.getchip);
                 this.parent.effects.Add(new Get(this.sound, this.parent, this.position.X, this.position.Y));
                 this.savedata.FlagList[(int)(299 + e.ID)] = true;
             }
@@ -137,7 +137,7 @@ namespace NSAttack
                         type = (int)e.ID,
                         code = this.Random.Next(26)
                     };
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.getchip);
+                    this.sound.PlaySE(SoundEffect.getchip);
                     this.parent.effects.Add(new Get(this.sound, this.parent, this.position.X, this.position.Y));
                     this.savedata.FlagList[(int)(299 + e.ID)] = true;
                 }

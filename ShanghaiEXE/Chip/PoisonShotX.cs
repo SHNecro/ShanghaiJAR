@@ -12,7 +12,7 @@ namespace NSChip
     private bool open;
     private const int shotend = 28;
 
-    public PoisonShotX(MyAudio s)
+    public PoisonShotX(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -58,7 +58,7 @@ namespace NSChip
         base.Action(character, battle);
       if (character.waittime != 18)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+      this.sound.PlaySE(SoundEffect.chain);
       Point end = new Point(character.position.X + 3 * this.UnionRebirth(character.union), character.position.Y);
       Vector2 v = new Vector2(character.positionDirect.X + 30 * this.UnionRebirth(character.union), character.positionDirect.Y - 3f);
       int num = this.power + this.pluspower;

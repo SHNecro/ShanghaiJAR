@@ -46,7 +46,7 @@ namespace NSEnemy
             }
         }
 
-        public SpannerMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public SpannerMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -237,7 +237,7 @@ namespace NSEnemy
                                 {
                                     case 4:
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         SpinSpanner spinSpanner = new SpinSpanner(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.Power, this.union)
                                         {
                                             Hp = version * 10
@@ -266,7 +266,7 @@ namespace NSEnemy
                                         this.counterTiming = false;
                                         if (!this.parent.panel[this.position.X + this.UnionRebirth(this.union), this.position.Y].Hole)
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                            this.sound.PlaySE(SoundEffect.quake);
                                             if (!this.clack)
                                             {
                                                 Point point = this.RandomPanel(this.UnionEnemy);
@@ -310,7 +310,7 @@ namespace NSEnemy
                                 {
                                     case 7:
                                         this.counterTiming = false;
-                                        this.Sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                        this.Sound.PlaySE(SoundEffect.thunder);
                                         AttackBase attackBase = new BombAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 1, 1, ChipBase.ELEMENT.eleki);
                                         attackBase.badstatus[3] = true;
                                         attackBase.badstatustime[3] = 120;
@@ -318,7 +318,7 @@ namespace NSEnemy
                                         this.parent.attacks.Add(attackBase);
                                         break;
                                     case 9:
-                                        this.Sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                        this.Sound.PlaySE(SoundEffect.thunder);
                                         break;
                                     case 11:
                                         this.attack = (SpannerMan.ATTACK)this.pattern[this.action];
@@ -369,13 +369,13 @@ namespace NSEnemy
                                     switch (this.frame)
                                     {
                                         case 1:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                            this.sound.PlaySE(SoundEffect.quake);
                                             AttackBase attackBase1 = new ElementFire(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, roop, ChipBase.ELEMENT.heat, false, 1);
                                             attackBase1.positionDirect.Y += num1;
                                             this.parent.attacks.Add(attackBase1);
                                             break;
                                         case 4:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                            this.sound.PlaySE(SoundEffect.quake);
                                             int num2 = 3;
                                             AttackBase attackBase2 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth(this.union), this.position.Y - 1, this.union, this.Power, roop, ChipBase.ELEMENT.heat, false, 1);
                                             attackBase2.positionDirect.Y += num1;
@@ -388,7 +388,7 @@ namespace NSEnemy
                                             this.parent.attacks.Add(attackBase4);
                                             break;
                                         case 7:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                            this.sound.PlaySE(SoundEffect.quake);
                                             int num3 = 4;
                                             AttackBase attackBase5 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth(this.union), this.position.Y - 1, this.union, this.Power, roop, ChipBase.ELEMENT.heat, false, 1);
                                             attackBase5.positionDirect.Y += num1;

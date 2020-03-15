@@ -16,7 +16,7 @@ namespace NSAttack
         private readonly bool penetration;
 
         public SonicBoom(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

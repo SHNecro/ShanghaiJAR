@@ -23,7 +23,7 @@ namespace NSEnemy
         private readonly int roopmove;
         private bool attackflag;
 
-        public BakeBake(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public BakeBake(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -220,7 +220,7 @@ namespace NSEnemy
                             if (this.attackflag)
                             {
                                 this.effecting = true;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.bound);
+                                this.sound.PlaySE(SoundEffect.bound);
                                 this.motion = BakeBake.MOTION.attack;
                                 this.counterTiming = true;
                             }

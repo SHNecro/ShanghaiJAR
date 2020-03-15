@@ -12,7 +12,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 2;
 
-    public HakurouBlade(MyAudio s)
+    public HakurouBlade(IAudioEngine s)
       : base(s)
     {
       this.infight = true;
@@ -41,7 +41,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       if (character.waittime == 3)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+        this.sound.PlaySE(SoundEffect.sword);
       character.animationpoint = CharacterAnimation.SworsAnimation(character.waittime);
       if (character.waittime >= 30)
         base.Action(character, battle);
@@ -56,7 +56,7 @@ namespace NSChip
         if (characterBase.union == character.UnionEnemy && (characterBase.guard != CharacterBase.GUARD.none || characterBase.invincibilitytime > 0 || characterBase.nohit || (uint) characterBase.barrierType > 0U))
         {
           characterBase.Hp -= this.Power(character);
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+          this.sound.PlaySE(SoundEffect.damageenemy);
         }
       }
     }

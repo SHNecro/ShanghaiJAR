@@ -14,7 +14,7 @@ namespace NSEffect
         private new readonly bool rebirth;
         private readonly CharacterBase player;
 
-        public RockOnCursol(MyAudio s, SceneBattle p, int pX, int pY, CharacterBase player)
+        public RockOnCursol(IAudioEngine s, SceneBattle p, int pX, int pY, CharacterBase player)
           : base(s, p, pX, pY)
         {
             this.player = player;
@@ -31,7 +31,7 @@ namespace NSEffect
                 if (this.frame >= 4)
                 {
                     this.frame = 0;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.search);
+                    this.sound.PlaySE(SoundEffect.search);
                 }
                 this.animationpoint.X = this.frame;
             }

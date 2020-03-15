@@ -16,7 +16,7 @@ namespace NSEvent
         private bool skip;
 
         public LunEvent(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string ID,
           int p,

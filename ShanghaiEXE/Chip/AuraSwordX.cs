@@ -14,7 +14,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 8;
 
-    public AuraSwordX(MyAudio s)
+    public AuraSwordX(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -44,10 +44,10 @@ namespace NSChip
     {
       if (character.waittime == 3)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+        this.sound.PlaySE(SoundEffect.sword);
         if ((uint) character.barrierType > 0U)
         {
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+          this.sound.PlaySE(SoundEffect.shoot);
           this.aura = true;
         }
       }

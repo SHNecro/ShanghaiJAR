@@ -24,7 +24,7 @@ namespace NSAttack
         private readonly int heattime;
 
         public WebBomb(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -66,7 +66,7 @@ namespace NSAttack
                 this.flag = false;
                 if (this.InArea && !this.StandPanel.Hole)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                    this.sound.PlaySE(SoundEffect.lance);
                     this.parent.effects.Add(new Smoke(this.sound, this.parent, this.position.X, this.position.Y, this.element));
                     WebTrap webTrap = new WebTrap(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, this.heattime, this.element)
                     {

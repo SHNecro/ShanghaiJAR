@@ -23,7 +23,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public Riveradar(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Riveradar(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -185,7 +185,7 @@ namespace NSEnemy
                             {
                                 ++this.targetflame[index];
                                 if (this.targetflame[index] == 2)
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.search);
+                                    this.sound.PlaySE(SoundEffect.search);
                             }
                         }
                         this.animationpoint = this.AnimeNeutral(this.frame);
@@ -248,9 +248,9 @@ namespace NSEnemy
                         this.attackanimation = !this.attackanimation;
                         if (this.attackanimation)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+                            this.sound.PlaySE(SoundEffect.vulcan);
                             List<AttackBase> attacks = this.parent.attacks;
-                            MyAudio sound1 = this.sound;
+                            IAudioEngine sound1 = this.sound;
                             SceneBattle parent1 = this.parent;
                             Point point = this.target[0];
                             int x1 = point.X;
@@ -263,7 +263,7 @@ namespace NSEnemy
                             BombAttack bombAttack = new BombAttack(sound1, parent1, x1, y1, (Panel.COLOR)union1, power, speed, (ChipBase.ELEMENT)element);
                             attacks.Add(bombAttack);
                             List<EffectBase> effects = this.parent.effects;
-                            MyAudio sound2 = this.sound;
+                            IAudioEngine sound2 = this.sound;
                             SceneBattle parent2 = this.parent;
                             point = this.target[0];
                             int x2 = point.X;

@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public GhostBody(MyAudio s)
+    public GhostBody(IAudioEngine s)
       : base(s)
     {
       this.number = 182;
@@ -39,7 +39,7 @@ namespace NSChip
     {
       if (character.waittime != 1)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+      this.sound.PlaySE(SoundEffect.lance);
       character.invincibilitytime = 360;
       character.invincibility = true;
       base.Action(character, battle);

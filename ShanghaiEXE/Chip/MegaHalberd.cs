@@ -14,7 +14,7 @@ namespace NSChip
     private const int start = 5;
     private const int speed = 4;
 
-    public MegaHalberd(MyAudio s)
+    public MegaHalberd(IAudioEngine s)
       : base(s)
     {
       this.infight = true;
@@ -39,7 +39,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       if (character.waittime == 5)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+        this.sound.PlaySE(SoundEffect.sword);
       character.animationpoint = CharacterAnimation.SworsAnimation(character.waittime);
       if (character.waittime >= 30)
         base.Action(character, battle);

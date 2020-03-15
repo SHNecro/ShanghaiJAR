@@ -15,7 +15,7 @@ namespace NSEffect
         private new readonly bool rebirth;
 
         public ScreenFlash(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,
@@ -33,7 +33,7 @@ namespace NSEffect
             this.color = Color.FromArgb(byte.MaxValue, Color.White);
         }
 
-        public ScreenFlash(MyAudio s, SceneBattle p)
+        public ScreenFlash(IAudioEngine s, SceneBattle p)
           : base(s, p, 0, 0)
         {
             this.upprint = true;
@@ -41,7 +41,7 @@ namespace NSEffect
             this.color = Color.FromArgb(byte.MaxValue, Color.White);
         }
 
-        public ScreenFlash(MyAudio s, SceneBattle p, Color color, int fadespeed)
+        public ScreenFlash(IAudioEngine s, SceneBattle p, Color color, int fadespeed)
           : base(s, p, 0, 0)
         {
             this.fadespeed = fadespeed;

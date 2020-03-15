@@ -14,7 +14,7 @@ namespace NSAttack
     internal class MadWave : AttackBase
     {
         public MadWave(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -51,7 +51,7 @@ namespace NSAttack
                 switch (this.frame)
                 {
                     case 4:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                        this.sound.PlaySE(SoundEffect.sand);
                         this.hitting = true;
                         for (int index1 = 0; index1 <= this.hitrange.X; ++index1)
                         {

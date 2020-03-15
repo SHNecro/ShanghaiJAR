@@ -18,7 +18,7 @@ namespace NSChip
     private const int s = 5;
     private Point animePoint;
 
-    public BioHazard(MyAudio s)
+    public BioHazard(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -62,11 +62,11 @@ namespace NSChip
           case 0:
             battle.effects.Add(new Bomber(this.sound, battle, character.position.X, character.position.Y, Bomber.BOMBERTYPE.poison, 2));
             character.animationpoint.X = -1;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+            this.sound.PlaySE(SoundEffect.bomb);
             break;
           case 30:
             Point point = new Point(character.position.X + this.UnionRebirth(character.union), character.position.Y);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+            this.sound.PlaySE(SoundEffect.enterenemy);
             battle.effects.Add(new MoveEnemy(this.sound, battle, point.X, point.Y));
             if (character.InAreaCheck(point) && character.NoObject(point) && !battle.panel[point.X, point.Y].Hole)
             {

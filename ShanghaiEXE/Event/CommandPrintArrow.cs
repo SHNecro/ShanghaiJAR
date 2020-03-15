@@ -13,7 +13,7 @@ namespace NSEvent
         private int rooping;
         private Vector2 position;
 
-        public CommandPrintArrow(MyAudio s, EventManager m, int r, Vector2 p)
+        public CommandPrintArrow(IAudioEngine s, EventManager m, int r, Vector2 p)
           : base(s, m, null)
         {
             this.position = p;
@@ -29,7 +29,7 @@ namespace NSEvent
             {
                 case CommandPrintArrow.ARROW.green:
                     this.nowarrow = CommandPrintArrow.ARROW.yellow;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.teacharrow);
+                    this.sound.PlaySE(SoundEffect.teacharrow);
                     break;
                 case CommandPrintArrow.ARROW.yellow:
                     ++this.rooping;

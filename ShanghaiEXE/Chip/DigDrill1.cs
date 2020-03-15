@@ -15,7 +15,7 @@ namespace NSChip
     private const int speed = 3;
     private int hitcount;
 
-    public DigDrill1(MyAudio s)
+    public DigDrill1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -44,7 +44,7 @@ namespace NSChip
     {
       if (character.waittime == 17)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill2);
+        this.sound.PlaySE(SoundEffect.drill2);
         this.drillAnime = 2;
       }
       if (character.waittime < 5)

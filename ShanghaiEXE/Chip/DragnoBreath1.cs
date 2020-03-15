@@ -14,7 +14,7 @@ namespace NSChip
     private const int shotend = 28;
     private int count;
 
-    public DragnoBreath1(MyAudio s)
+    public DragnoBreath1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);
@@ -91,7 +91,7 @@ namespace NSChip
         if (character.waittime == 6 || character.waittime == 15 || character.waittime == 24)
         {
           character.animationpoint = new Point(6, 0);
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+          this.sound.PlaySE(SoundEffect.quake);
           AttackBase a1 = new ElementFire(this.sound, character.parent, character.position.X + this.count * this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 6, this.element, false, 1);
           a1.positionDirect.X += 16 * this.UnionRebirth(character.union);
           a1.invincibility = true;

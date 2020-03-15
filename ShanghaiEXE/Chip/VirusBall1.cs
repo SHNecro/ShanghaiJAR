@@ -18,7 +18,7 @@ namespace NSChip
         private const int start = 3;
         private const int speed = 3;
 
-        public VirusBall1(MyAudio s, bool set)
+        public VirusBall1(IAudioEngine s, bool set)
           : base(s)
         {
             this.number = 310;
@@ -68,10 +68,10 @@ namespace NSChip
 
         public override void Action(CharacterBase character, SceneBattle battle)
         {
-            if (this.sound.savedata.HaveVirus[this.id] == null)
+            if (SaveData.HAVEVirus[this.id] == null)
             {
                 if (character.waittime == 3)
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                    this.sound.PlaySE(SoundEffect.throw_);
                 character.animationpoint = CharacterAnimation.BombAnimation(character.waittime);
                 if (character.waittime == 6)
                 {
@@ -94,7 +94,7 @@ namespace NSChip
             {
                 if (character.Canmove(character.positionold))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                    this.sound.PlaySE(SoundEffect.enterenemy);
                     Virus haveViru;
                     EnemyBase e;
                     if (character is NetPlayer)
@@ -104,7 +104,7 @@ namespace NSChip
                     }
                     else
                     {
-                        haveViru = this.sound.savedata.HaveVirus[this.id];
+                        haveViru = SaveData.HAVEVirus[this.id];
                         e = new EnemyBase(this.sound, battle, character.positionold.X, character.positionold.Y, 0, character.union, haveViru.rank);
                     }
                     EnemyBase enemyBase = EnemyBase.EnemyMake(haveViru.type, e, false);
@@ -138,14 +138,14 @@ namespace NSChip
             {
                 if (this.sound != null)
                 {
-                    if (this.sound.savedata.HaveVirus[this.id] == null)
+                    if (SaveData.HAVEVirus[this.id] == null)
                     {
                         this._rect = new Rectangle(56 * (13 + this.id), 0, 56, 48);
                         dg.DrawImage(dg, "chipgraphic9", this._rect, true, p, Color.White);
                     }
                     else
                     {
-                        this._rect = new Rectangle(56 * (this.sound.savedata.HaveVirus[this.id].type - 1), 0, 56, 48);
+                        this._rect = new Rectangle(56 * (SaveData.HAVEVirus[this.id].type - 1), 0, 56, 48);
                         dg.DrawImage(dg, "chipgraphic11", this._rect, true, p, Color.White);
                     }
                 }
@@ -182,7 +182,7 @@ namespace NSChip
 
         public override void Render(IRenderer dg, CharacterBase character)
         {
-            if (this.sound.savedata.HaveVirus[this.id] == null)
+            if (SaveData.HAVEVirus[this.id] == null)
             {
                 if (character.waittime >= 6)
                     return;

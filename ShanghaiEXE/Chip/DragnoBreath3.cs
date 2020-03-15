@@ -13,7 +13,7 @@ namespace NSChip
     private const int shotend = 28;
     private int count;
 
-    public DragnoBreath3(MyAudio s)
+    public DragnoBreath3(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);

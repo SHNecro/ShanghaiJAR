@@ -16,7 +16,7 @@ namespace NSEvent
         private readonly MapCharacterBase.ANGLE angle;
 
         public MapChange(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string name,
           Point po,

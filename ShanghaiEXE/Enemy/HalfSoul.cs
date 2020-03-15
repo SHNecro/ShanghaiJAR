@@ -19,7 +19,7 @@ namespace NSEnemy
         private int roopmove;
         public bool attack;
 
-        public HalfSoul(MyAudio s, SceneBattle p, int pX, int pY, Youmu MainEnemy, bool effect)
+        public HalfSoul(IAudioEngine s, SceneBattle p, int pX, int pY, Youmu MainEnemy, bool effect)
           : base(s, p, MainEnemy.position.X, MainEnemy.position.Y, (byte)MainEnemy.number, MainEnemy.union, MainEnemy.version)
         {
             this.position = new Point(pX, pY);
@@ -134,13 +134,13 @@ namespace NSEnemy
                         switch (this.waittime)
                         {
                             case 5:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase attackBase1 = new SwordAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, 100, 2, this.element, false, false);
                                 attackBase1.invincibility = false;
                                 this.parent.attacks.Add(attackBase1);
                                 break;
                             case 9:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 AttackBase attackBase2 = new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, 100, 2, this.element, true);
                                 attackBase2.invincibility = false;
                                 this.parent.attacks.Add(attackBase2);

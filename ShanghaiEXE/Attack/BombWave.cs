@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int panelchange;
 
         public BombWave(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -47,7 +47,7 @@ namespace NSAttack
             }
             else
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                this.sound.PlaySE(SoundEffect.bombmiddle);
                 p.effects.Add(new ImpactBomb(this.sound, p, this.position.X, this.position.Y));
             }
             switch (this.panelchange)

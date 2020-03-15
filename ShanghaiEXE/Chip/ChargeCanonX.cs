@@ -10,7 +10,7 @@ namespace NSChip
     private const int shotend = 128;
     private bool anime;
 
-    public ChargeCanonX(MyAudio s)
+    public ChargeCanonX(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

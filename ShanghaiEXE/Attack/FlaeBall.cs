@@ -23,7 +23,7 @@ namespace NSAttack
         private int manymove;
 
         public FlaeBall(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -54,7 +54,7 @@ namespace NSAttack
             {
                 this.movestart = true;
                 this.hitting = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                this.sound.PlaySE(SoundEffect.canon);
             }
             if (!this.init)
             {
@@ -112,7 +112,7 @@ namespace NSAttack
                     }
                     if (this.frame > 30)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                        this.sound.PlaySE(SoundEffect.bombmiddle);
                         this.flag = false;
                         this.power *= 2;
                         int num1 = 0;
@@ -206,7 +206,7 @@ namespace NSAttack
             if (!base.HitEvent(p))
                 return false;
             this.ShakeStart(5, 8);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, p.position.X, p.position.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             return true;
         }
@@ -216,7 +216,7 @@ namespace NSAttack
             if (!base.HitEvent(e))
                 return false;
             this.ShakeStart(5, 8);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, e.position.X, e.position.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             return true;
         }
@@ -225,7 +225,7 @@ namespace NSAttack
         {
             if (!base.HitEvent(o))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, o.position.X, o.position.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             return true;
         }

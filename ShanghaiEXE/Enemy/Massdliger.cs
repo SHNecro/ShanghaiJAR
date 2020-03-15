@@ -18,7 +18,7 @@ namespace NSEnemy
         private int targetX;
         private int roopneutral;
 
-        public Massdliger(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Massdliger(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -170,7 +170,7 @@ namespace NSEnemy
                                 if (!this.badstatus[4])
                                 {
                                     this.frame = 0;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.rockon);
+                                    this.sound.PlaySE(SoundEffect.rockon);
                                     this.counterTiming = true;
                                     this.motion = Massdliger.MOTION.attack;
                                 }
@@ -199,7 +199,7 @@ namespace NSEnemy
                         switch (this.frame)
                         {
                             case 3:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                this.sound.PlaySE(SoundEffect.canon);
                                 this.ShakeStart(5, 5);
                                 this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, BustorShot.SHOT.railgun, ChipBase.ELEMENT.eleki, false, 0));
                                 break;

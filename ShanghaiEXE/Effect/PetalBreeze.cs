@@ -28,7 +28,7 @@ namespace NSEffect
 
         private static double BreezeStrength;
 
-        public PetalBreeze(MyAudio s, Vector2 pd, Point posi, bool mute = false)
+        public PetalBreeze(IAudioEngine s, Vector2 pd, Point posi, bool mute = false)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

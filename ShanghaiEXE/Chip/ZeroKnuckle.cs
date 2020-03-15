@@ -14,7 +14,7 @@ namespace NSChip
     private bool get;
     private NSAttack.ZeroKnuckle zero;
 
-    public ZeroKnuckle(MyAudio s)
+    public ZeroKnuckle(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -45,7 +45,7 @@ namespace NSChip
       {
         if (character.waittime == 5 + this.speed * 2)
         {
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
+          this.sound.PlaySE(SoundEffect.Zblade);
           int num = this.power + this.pluspower;
           this.zero = new NSAttack.ZeroKnuckle(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element, character);
           character.parent.attacks.Add(this.Paralyze(zero));
@@ -64,7 +64,7 @@ namespace NSChip
           return;
         this.get = true;
         this.speed = 2;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.getchip);
+        this.sound.PlaySE(SoundEffect.getchip);
         character.waittime = 0;
       }
       else if (character.waittime <= 5)

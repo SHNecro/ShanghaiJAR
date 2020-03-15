@@ -29,7 +29,7 @@ namespace NSEffect
         private const int interval = 3;
         private readonly SaveData savedata;
 
-        public G7(MyAudio s, Vector2 pd, Point posi)
+        public G7(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

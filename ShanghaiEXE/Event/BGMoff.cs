@@ -8,7 +8,7 @@ namespace NSEvent
     {
         private readonly int fadetime;
 
-        public BGMoff(MyAudio s, EventManager m, int fade, SaveData save)
+        public BGMoff(IAudioEngine s, EventManager m, int fade, SaveData save)
           : base(s, m, save)
         {
             this.fadetime = fade;

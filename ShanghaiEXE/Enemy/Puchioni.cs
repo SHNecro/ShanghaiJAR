@@ -18,7 +18,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public Puchioni(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Puchioni(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)

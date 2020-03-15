@@ -16,7 +16,7 @@ namespace NSMap.Character
         private const int newLogNum = 15;
 
         public CompanionCharacter(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,

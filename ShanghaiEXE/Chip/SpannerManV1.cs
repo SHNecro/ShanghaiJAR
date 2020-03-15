@@ -18,7 +18,7 @@ namespace NSChip
     protected Point animePoint;
     private const int end = 46;
 
-    public SpannerManV1(MyAudio s)
+    public SpannerManV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -117,10 +117,10 @@ namespace NSChip
           {
             case 1:
               character.animationpoint.X = -1;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+              this.sound.PlaySE(SoundEffect.warp);
               break;
             case 15:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+              this.sound.PlaySE(SoundEffect.thunder);
               AttackBase a1 = new BombAttack(this.sound, battle, character.position.X + character.UnionRebirth, character.position.Y, character.union, this.Power(character), 1, 1, ChipBase.ELEMENT.eleki);
               a1.badstatus[3] = true;
               a1.badstatustime[3] = 180;
@@ -128,10 +128,10 @@ namespace NSChip
               battle.attacks.Add(this.Paralyze(a1));
               break;
             case 17:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+              this.sound.PlaySE(SoundEffect.thunder);
               break;
             case 25:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+              this.sound.PlaySE(SoundEffect.quake);
               this.ShakeStart(1, 80);
               AttackBase a2 = new WaveAttsck(this.sound, battle, character.position.X + character.UnionRebirth, character.position.Y, character.union, this.Power(character), 3, 0, this.element);
               a2.invincibility = false;

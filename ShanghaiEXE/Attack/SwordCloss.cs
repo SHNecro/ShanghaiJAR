@@ -14,7 +14,7 @@ namespace NSAttack
     internal class SwordCloss : AttackBase
     {
         public SwordCloss(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

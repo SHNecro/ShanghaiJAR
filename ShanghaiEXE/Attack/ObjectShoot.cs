@@ -18,7 +18,7 @@ namespace NSAttack
         private readonly int movespeed;
 
         public ObjectShoot(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -125,7 +125,7 @@ namespace NSAttack
                 return false;
             this.flag = false;
             this.ShakeStart(2, 16);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+            this.sound.PlaySE(SoundEffect.breakObject);
             this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, true, 0));
             this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, false, 0));
             return true;
@@ -137,7 +137,7 @@ namespace NSAttack
                 return false;
             this.flag = false;
             this.ShakeStart(2, 16);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+            this.sound.PlaySE(SoundEffect.breakObject);
             this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, true, 0));
             this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, false, 0));
             return true;

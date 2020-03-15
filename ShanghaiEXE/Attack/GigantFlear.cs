@@ -14,7 +14,7 @@ namespace NSAttack
     internal class GigantFlear : AttackBase
     {
         public GigantFlear(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -69,7 +69,7 @@ namespace NSAttack
                 else if (this.animationpoint.X <= 5)
                 {
                     this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.White, 90));
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                    this.sound.PlaySE(SoundEffect.bombbig);
                     this.ShakeStart(4, 90);
                     this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, 90, new Point(9, 0), ChipBase.ELEMENT.heat)));
                     this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y - 1, this.union, this.power, 1, 90, new Point(1, 0), ChipBase.ELEMENT.heat)));

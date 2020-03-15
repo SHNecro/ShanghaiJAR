@@ -16,7 +16,7 @@ namespace NSChip
         private Point animePoint;
         public int waittime = 0;
 
-        public MimaDS(MyAudio s)
+        public MimaDS(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -69,7 +69,7 @@ namespace NSChip
             this.animePoint = this.AnimeReincarnation(this.waittime % 6);
 
             
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+            this.sound.PlaySE(SoundEffect.warp);
             //break;
             //this.animationpoint = this.AnimeReincarnation(this.waittime % 6);
             switch (this.waittime)
@@ -79,18 +79,18 @@ namespace NSChip
                     this.animePoint.Y = 0;
                     character.animationpoint.X = -1;
 
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                    this.sound.PlaySE(SoundEffect.thunder);
                     //battle.effects.Add(new f);
                     
                     character.parent.effects.Add(new FlashFead(this.sound, battle, Color.White, 15));
                     break;
                 case 15:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                    this.sound.PlaySE(SoundEffect.thunder);
                     battle.effects.Add(new FlashFead(this.sound, battle, Color.White, 15));
                     break;
                 case 30:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                    this.sound.PlaySE(SoundEffect.bombbig);
+                    this.sound.PlaySE(SoundEffect.damageplayer);
                     battle.effects.Add(new FlashFead(this.sound, battle, Color.White, 90));
                     this.ShakeStart(4, 60);
                     break;
@@ -125,10 +125,10 @@ namespace NSChip
                     this.animePoint.X = 0;
                     this.animePoint.Y = 0;
                     character.animationpoint.X = -1;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                    this.sound.PlaySE(SoundEffect.warp);
                     break;
                 case 10:
-                    //this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+                    //this.sound.PlaySE(SoundEffect.futon);
                     this.animePoint.X = 0;
                     this.animePoint.Y = 0;
                     break;
@@ -139,7 +139,7 @@ namespace NSChip
                     //this.animePoint.X = 2;
                     break;
                 case 44:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                    this.sound.PlaySE(SoundEffect.shoot);
                     character.parent.attacks.Add(this.Paralyze(new MimaCharge(this.sound, character.parent, 5, character.position.Y, character.union, this.Power(character), 1, character.positionDirect, this.element, -8)));
                     //AttackBase attackBase1 = this.Paralyze(new UthuhoChip(this.sound, character.parent, character.position.X, character.position.Y - 1, character.union, this.Power(character), this.color));
                     //attackBase1.breaking = false;

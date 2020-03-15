@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public PonpocoJizouX(MyAudio s)
+    public PonpocoJizouX(IAudioEngine s)
       : base(s)
     {
       this.number = 368;

@@ -26,7 +26,7 @@ namespace NSAttack
         private readonly bool cluster;
 
         public CanonBomb(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -73,7 +73,7 @@ namespace NSAttack
                     this.parent.panel[this.position.X, this.position.Y].state = Panel.PANEL._crack;
                 if (this.InArea && !this.StandPanel.Hole)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                    this.sound.PlaySE(SoundEffect.bombmiddle);
                     switch (this.type)
                     {
                         case CanonBomb.TYPE.single:

@@ -8,11 +8,11 @@ namespace NSChip
 {
     public class ChipFolder : AllBase
     {
-        public static Dictionary<int, Func<MyAudio, ChipBase>> Chips;
+        public static Dictionary<int, Func<IAudioEngine, ChipBase>> Chips;
 
         static ChipFolder()
         {
-            Chips = new Dictionary<int, Func<MyAudio, ChipBase>>();
+            Chips = new Dictionary<int, Func<IAudioEngine, ChipBase>>();
             Chips[1] = (sound) => new Reygun(sound);
             Chips[2] = (sound) => new MegaReygun(sound);
             Chips[3] = (sound) => new GigaReygun(sound);
@@ -473,7 +473,7 @@ namespace NSChip
             }
         }
 
-        public ChipFolder(MyAudio s)
+        public ChipFolder(IAudioEngine s)
           : base(s)
         {
             this.inchip = false;

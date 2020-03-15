@@ -9,7 +9,7 @@ namespace NSChip
 {
     internal class ScissorManX : ScissorManV1
   {
-    public ScissorManX(MyAudio s)
+    public ScissorManX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

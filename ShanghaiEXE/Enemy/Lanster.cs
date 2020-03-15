@@ -23,7 +23,7 @@ namespace NSEnemy
         private int attackroop;
         private bool bash;
 
-        public Lanster(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Lanster(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.wantedPosition.X = -24;
@@ -288,7 +288,7 @@ namespace NSEnemy
                         if (this.frame == 4 + this.Attackinterval())
                         {
                             this.counterTiming = false;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                            this.sound.PlaySE(SoundEffect.lance);
                             this.parent.attacks.Add(new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, this.speed, this.element, false));
                         }
                         if (this.frame >= 18 + this.Attackinterval())

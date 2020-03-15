@@ -45,7 +45,7 @@ namespace NSTitle
             }
         }
 
-        public SceneTitle(MyAudio s, ShanghaiEXE p, SaveData save)
+        public SceneTitle(IAudioEngine s, ShanghaiEXE p, SaveData save)
           : base(s, p, save)
         {
             this.parent = p;
@@ -165,7 +165,7 @@ namespace NSTitle
                     if (Input.IsPress(Button._Start))
                     {
                         this.StarCheck();
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         this.nowscene = SceneTitle.TITLESCENE.select;
                         this.frame = 0;
                         this.ShakeEnd();
@@ -233,12 +233,12 @@ namespace NSTitle
             if (Input.IsPress(Button._A) || Input.IsPress(Button._Start))
             {
                 this.nowscene = SceneTitle.TITLESCENE.fade;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.thiptransmission);
+                this.sound.PlaySE(SoundEffect.thiptransmission);
             }
             if (Input.IsPress(Button._B))
             {
                 this.nowscene = SceneTitle.TITLESCENE.pushbutton;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
             }
             if (this.keywait <= 0)
             {
@@ -248,13 +248,13 @@ namespace NSTitle
                 {
                     --this.Menu;
                     this.keywait = Input.IsPress(Button.Up) ? 25 : 5;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
                 if (Input.IsPush(Button.Down))
                 {
                     ++this.Menu;
                     this.keywait = Input.IsPress(Button.Down) ? 25 : 5;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
             }
             else
@@ -268,31 +268,31 @@ namespace NSTitle
             this.CommandInput("LR");
             if (this.CommandCheck("LRLLRLR"))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.plus = 1;
                 this.CommandReset();
             }
             if (this.CommandCheck("RRLLRLL"))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.plus = 2;
                 this.CommandReset();
             }
             if (this.CommandCheck("RRRLLLRL"))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.plus = 9;
                 this.CommandReset();
             }
             if (this.CommandCheck("LLLRRRLR"))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.plus = -1;
                 this.CommandReset();
             }
             if (this.CommandCheck("RLRLRRL"))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
                 this.plus = -2;
                 this.CommandReset();
             }

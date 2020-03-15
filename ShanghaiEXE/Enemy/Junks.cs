@@ -15,7 +15,7 @@ namespace NSEnemy
         private Junks.MOTION motion = Junks.MOTION.neutral;
         private readonly ClossBomb.TYPE type;
 
-        public Junks(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Junks(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -197,7 +197,7 @@ namespace NSEnemy
                             case 5:
                                 if (this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                    this.sound.PlaySE(SoundEffect.canon);
                                     Point end = this.RandomTarget();
                                     this.parent.attacks.Add(new ClossBomb(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, new Vector2(this.positionDirect.X + (this.union == Panel.COLOR.red ? 9f : -9f), this.positionDirect.Y - 9f), end, 40, this.type, false, ClossBomb.TYPE.big, false, false));
                                     break;

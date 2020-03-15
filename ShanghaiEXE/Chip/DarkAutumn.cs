@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public DarkAutumn(MyAudio s)
+    public DarkAutumn(IAudioEngine s)
       : base(s)
     {
       this.number = 262;

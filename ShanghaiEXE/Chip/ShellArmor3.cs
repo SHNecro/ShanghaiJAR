@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public ShellArmor3(MyAudio s)
+    public ShellArmor3(IAudioEngine s)
       : base(s)
     {
       this.number = 29;

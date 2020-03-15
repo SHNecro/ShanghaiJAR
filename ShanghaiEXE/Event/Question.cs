@@ -21,7 +21,7 @@ namespace NSEvent
         private readonly bool cancel;
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -48,7 +48,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -63,7 +63,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -89,7 +89,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -104,7 +104,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string q1,
           string q2,
@@ -127,7 +127,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string q1,
           string q2,
@@ -141,7 +141,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -171,7 +171,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -187,7 +187,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -215,7 +215,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -231,7 +231,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -259,7 +259,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -275,7 +275,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string q1,
           string q2,
@@ -300,7 +300,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string q1,
           string q2,
@@ -315,7 +315,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -348,7 +348,7 @@ namespace NSEvent
         }
 
         public Question(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string q1,
@@ -413,7 +413,7 @@ namespace NSEvent
                     }
                     // ISSUE: explicit reference operation
                     this.shortmassage[this.endprint] += strArray[this.endprint][this.printfonts - 1];
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                    this.sound.PlaySE(SoundEffect.message);
                     if (strArray[this.endprint][this.printfonts - 1] == "・")
                     {
                         this.wait = 30;
@@ -434,7 +434,7 @@ namespace NSEvent
                         {
                             try
                             {
-                                this.sound.PlaySE((MyAudio.SOUNDNAMES)Enum.Parse(typeof(MyAudio.SOUNDNAMES), s));
+                                this.sound.PlaySE((SoundEffect)Enum.Parse(typeof(SoundEffect), s));
                             }
                             catch { }
                         }
@@ -514,14 +514,14 @@ namespace NSEvent
                     {
                         if (Input.IsPress(Button.Left))
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                             --this.cursor;
                             if (this.cursor < 0)
                                 this.cursor = this.manyQuestion - 1;
                         }
                         if (Input.IsPress(Button.Right))
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                             ++this.cursor;
                             if (this.cursor > this.manyQuestion - 1)
                                 this.cursor = 0;
@@ -531,14 +531,14 @@ namespace NSEvent
                     }
                     if (Input.IsPress(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         --this.cursor;
                         if (this.cursor < 0)
                             this.cursor = this.manyQuestion - 1;
                     }
                     if (Input.IsPress(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         ++this.cursor;
                         if (this.cursor > this.manyQuestion - 1)
                             this.cursor = 0;
@@ -547,14 +547,14 @@ namespace NSEvent
                 case 3:
                     if (Input.IsPress(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         --this.cursor;
                         if (this.cursor < 0)
                             this.cursor = this.manyQuestion - 1;
                     }
                     if (Input.IsPress(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         ++this.cursor;
                         if (this.cursor > this.manyQuestion - 1)
                             this.cursor = 0;
@@ -564,27 +564,27 @@ namespace NSEvent
                 case 4:
                     if (Input.IsPress(Button.Left))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         --this.cursor;
                         if (this.cursor < 0)
                             this.cursor = this.manyQuestion - 1;
                     }
                     if (Input.IsPress(Button.Right))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         ++this.cursor;
                         if (this.cursor > this.manyQuestion - 1)
                             this.cursor = 0;
                     }
                     if (Input.IsPress(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         if (this.cursor >= 2)
                             this.cursor -= 2;
                     }
                     if (Input.IsPress(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         if (this.cursor < 2)
                             this.cursor += 2;
                         break;
@@ -594,14 +594,14 @@ namespace NSEvent
             if (Input.IsPress(Button._A) || this.cansel)
             {
                 if (!this.cansel)
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                 this.savedata.selectQuestion = this.cursor;
                 this.Init();
                 this.EndCommand();
             }
             if (!Input.IsPress(Button._B) || !this.cancel)
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+            this.sound.PlaySE(SoundEffect.cancel);
             this.cursor = this.manyQuestion != 2 ? this.manyQuestion : this.manyQuestion - 1;
             this.savedata.selectQuestion = this.cursor;
             this.cansel = true;

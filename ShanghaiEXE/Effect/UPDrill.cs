@@ -11,7 +11,7 @@ namespace NSEffect
         private const byte _speed = 3;
         private int plusY;
 
-        public UPDrill(MyAudio s, SceneBattle p, int pX, int pY)
+        public UPDrill(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p, pX, pY)
         {
             this.upprint = true;

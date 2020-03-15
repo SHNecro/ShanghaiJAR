@@ -12,7 +12,7 @@ namespace NSCharge
         private int count = 1;
         private const int wait = 16;
 
-        public ChargeWitch(MyAudio s, Player p)
+        public ChargeWitch(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 180;
@@ -27,7 +27,7 @@ namespace NSCharge
                 this.count = 1;
             if (this.player.waittime == 16 || this.player.waittime == 25 || this.player.waittime == 34)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                this.sound.PlaySE(SoundEffect.fire);
                 AttackBase attackBase = new ElementFire(this.sound, this.player.parent, this.player.position.X + this.count * this.player.UnionRebirth, this.player.position.Y, this.player.union, this.Power, 6, this.player.Element, false, 0);
                 attackBase.positionDirect.X -= 48 * this.player.UnionRebirth;
                 attackBase.canCounter = false;

@@ -11,7 +11,7 @@ namespace NSMap.Character
 {
     public class MapEffect : MapCharacterBase
     {
-        private static readonly Dictionary<int, Func<MyAudio, Vector3, MapField, EffectBase>> EffectFactory = new Dictionary<int, Func<MyAudio, Vector3, MapField, EffectBase>>
+        private static readonly Dictionary<int, Func<IAudioEngine, Vector3, MapField, EffectBase>> EffectFactory = new Dictionary<int, Func<IAudioEngine, Vector3, MapField, EffectBase>>
         {
             [0] = (sound, position, field) => new AliceJump(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
             [1] = (sound, position, field) => new Flash(sound, null, new Vector2(position.X, position.Y), new Point(0, 0)),
@@ -87,7 +87,7 @@ namespace NSMap.Character
         }
 
         public MapEffect(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,

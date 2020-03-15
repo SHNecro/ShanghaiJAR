@@ -16,7 +16,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeRepair(MyAudio s, Player p)
+        public ChargeRepair(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;
@@ -36,7 +36,7 @@ namespace NSCharge
                 this.character.animationpoint = new Point(3, 1);
             else if (this.character.waittime == 15)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                this.sound.PlaySE(SoundEffect.repair);
                 this.battle.effects.Add(new Repair(this.sound, this.battle, new Vector2((int)this.character.positionDirect.X * this.UnionRebirth(this.character.union), (int)this.character.positionDirect.Y + 16), 2, this.character.position));
                 this.character.Hp += this.Power;
             }

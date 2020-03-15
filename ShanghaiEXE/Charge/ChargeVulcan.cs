@@ -17,7 +17,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeVulcan(MyAudio s, Player p)
+        public ChargeVulcan(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;
@@ -39,7 +39,7 @@ namespace NSCharge
             if (this.character.waittime % 8 != 4)
                 return;
             this.battle.effects.Add(new BulletShells(this.sound, this.battle, this.character.position, this.character.positionDirect.X + 4 * this.character.UnionRebirth, this.character.positionDirect.Y + 8f, 26, this.character.union, 20 + this.Random.Next(20), 2, 0));
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+            this.sound.PlaySE(SoundEffect.vulcan);
             this.character.parent.attacks.Add(this.CounterNone(new Vulcan(this.sound, this.character.parent, this.character.position.X + this.UnionRebirth(this.character.union), this.character.position.Y, this.character.union, this.Power / player.busterPower, Vulcan.SHOT.Vulcan, ChipBase.ELEMENT.normal, false)));
         }
 

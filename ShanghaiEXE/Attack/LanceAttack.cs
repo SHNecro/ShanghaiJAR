@@ -15,7 +15,7 @@ namespace NSAttack
         private readonly bool sword;
 
         public LanceAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

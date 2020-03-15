@@ -31,7 +31,7 @@ namespace NSEffect
 
         private bool reversed;
 
-        public ShanghaiHeavenWarp(MyAudio s, Vector2 pd, Point posi, MapField field, bool reversed)
+        public ShanghaiHeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool reversed)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = new Vector2(pd.X, pd.Y - 20);

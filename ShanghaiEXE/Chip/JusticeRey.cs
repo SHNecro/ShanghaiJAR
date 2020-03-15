@@ -21,7 +21,7 @@ namespace NSChip
     private ScreenBlack screen;
     private Point animePoint;
 
-    public JusticeRey(MyAudio s)
+    public JusticeRey(IAudioEngine s)
       : base(s)
     {
       this.dark = true;
@@ -92,7 +92,7 @@ namespace NSChip
         this.eye = !this.eye;
       int num = 30;
       if (character.waittime == 44)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+        this.sound.PlaySE(SoundEffect.pikin);
       if (character.waittime == 44 + num)
         battle.effects.Add(new Charge(this.sound, battle, this.position.X, this.position.Y));
       if (character.waittime > 44 + num + 50)
@@ -106,7 +106,7 @@ namespace NSChip
             switch (this.count)
             {
               case 0:
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.beamlong);
+                this.sound.PlaySE(SoundEffect.beamlong);
                 point.X = character.union == Panel.COLOR.red ? 2 : 3;
                 point.Y = 1;
                 this.beam = new JusticeBeam(this.sound, battle, point.X, point.Y, character.union, this.Power(character), 0);

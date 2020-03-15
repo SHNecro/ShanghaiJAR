@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public PanelShoot2(MyAudio s)
+    public PanelShoot2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

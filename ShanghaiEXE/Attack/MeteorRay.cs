@@ -18,7 +18,7 @@ namespace NSAttack
         public bool effect;
 
         public MeteorRay(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -56,7 +56,7 @@ namespace NSAttack
                 switch (this.frame)
                 {
                     case 4:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                        this.sound.PlaySE(SoundEffect.bombmiddle);
                         this.ShakeStart(2, 2);
                         this.hitting = true;
                         break;

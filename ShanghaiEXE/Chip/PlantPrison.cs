@@ -15,7 +15,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public PlantPrison(MyAudio s)
+    public PlantPrison(IAudioEngine s)
       : base(s)
     {
       this.number = 282;

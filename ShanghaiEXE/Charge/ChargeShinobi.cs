@@ -13,7 +13,7 @@ namespace NSCharge
         private const int start = 3;
         private const int speed = 2;
 
-        public ChargeShinobi(MyAudio s, Player p)
+        public ChargeShinobi(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 150;
@@ -24,7 +24,7 @@ namespace NSCharge
         public override void Action()
         {
             if (this.player.waittime == 3)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                this.sound.PlaySE(SoundEffect.sword);
             this.player.animationpoint = CharacterAnimation.SworsAnimation(this.player.waittime);
             if (this.player.waittime >= 30)
             {

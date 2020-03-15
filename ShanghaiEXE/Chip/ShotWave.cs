@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public ShotWave(MyAudio s)
+    public ShotWave(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public DarkSand(MyAudio s)
+    public DarkSand(IAudioEngine s)
       : base(s)
     {
       this.number = 259;

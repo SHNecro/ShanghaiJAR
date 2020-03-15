@@ -85,7 +85,7 @@ namespace NSEvent
             }
         }
 
-        public InteriorSetting(MyAudio s, EventManager m, SceneMap parent, SaveData save)
+        public InteriorSetting(IAudioEngine s, EventManager m, SceneMap parent, SaveData save)
           : base(s, m, save)
         {
             this.parent = parent;
@@ -102,7 +102,7 @@ namespace NSEvent
                 this.yesnoSelect = false;
                 if (this.savedata.selectQuestion == 0)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                    this.sound.PlaySE(SoundEffect.clincher);
                     this.savedata.interiors.RemoveAt(this.Select);
                     if (this.top1 > 0)
                         --this.top1;
@@ -140,17 +140,17 @@ namespace NSEvent
                     {
                         if (this.savedata.interiors.Count > 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             this.overTop = this.savedata.interiors.Count - 5;
                             this.nowschene = InteriorSetting.NOWSCENE.select;
                             break;
                         }
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                         break;
                     }
                     if (Input.IsPress(Button._B))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                        this.sound.PlaySE(SoundEffect.cancel);
                         this.EndCommand();
                         break;
                     }
@@ -158,7 +158,7 @@ namespace NSEvent
                         break;
                     if (Input.IsPush(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         if (this.menu > InteriorSetting.MENU.put)
                             --this.menu;
                         else
@@ -171,7 +171,7 @@ namespace NSEvent
                             ++this.menu;
                         else
                             this.menu = InteriorSetting.MENU.put;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                     }
                     break;
@@ -180,7 +180,7 @@ namespace NSEvent
                     {
                         if (this.savedata.interiors.Count > 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             switch (this.menu)
                             {
                                 case InteriorSetting.MENU.put:
@@ -209,7 +209,7 @@ namespace NSEvent
                                             this.savedata.interiors.RemoveAt(this.Select1);
                                             this.savedata.interiors.Insert(this.Select2, interior);
                                         }
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                                        this.sound.PlaySE(SoundEffect.docking);
                                         this.top1 = this.top2;
                                         this.cursol1 = this.cursol2;
                                         this.sort = false;
@@ -228,7 +228,7 @@ namespace NSEvent
                         }
                         else
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             break;
                         }
                     }
@@ -236,7 +236,7 @@ namespace NSEvent
                     {
                         if (Input.IsPress(Button._B))
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                            this.sound.PlaySE(SoundEffect.cancel);
                             if (!this.sort)
                             {
                                 this.parent.setCameraOn = false;
@@ -258,7 +258,7 @@ namespace NSEvent
                                     --this.Cursol;
                                 else
                                     --this.Top;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                                this.sound.PlaySE(SoundEffect.movecursol);
                                 this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                             }
                         }
@@ -270,7 +270,7 @@ namespace NSEvent
                                     ++this.Cursol;
                                 else
                                     ++this.Top;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                                this.sound.PlaySE(SoundEffect.movecursol);
                                 this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                             }
                         }
@@ -281,7 +281,7 @@ namespace NSEvent
                                 num = 5;
                             if (num > 0)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                                this.sound.PlaySE(SoundEffect.movecursol);
                                 this.Top += num;
                             }
                             this.waittime = Input.IsPress(Button._R) ? 10 : 4;
@@ -293,7 +293,7 @@ namespace NSEvent
                                 num = 5;
                             if (num > 0)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                                this.sound.PlaySE(SoundEffect.movecursol);
                                 this.Top -= num;
                             }
                             this.waittime = Input.IsPress(Button._L) ? 10 : 4;
@@ -303,13 +303,13 @@ namespace NSEvent
                 case InteriorSetting.NOWSCENE.move:
                     if (Input.IsPress(Button._A))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         this.nowschene = InteriorSetting.NOWSCENE.select;
                         break;
                     }
                     if (Input.IsPress(Button._B))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                        this.sound.PlaySE(SoundEffect.cancel);
                         this.savedata.interiors[this.Select].posiX = this.oldpoji.X;
                         this.savedata.interiors[this.Select].posiY = this.oldpoji.Y;
                         this.savedata.interiors[this.Select].rebirth = this.oldspin;
@@ -320,7 +320,7 @@ namespace NSEvent
                     }
                     if (Input.IsPress(Button._L))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                        this.sound.PlaySE(SoundEffect.lance);
                         this.savedata.interiors[this.Select].rebirth = !this.savedata.interiors[this.Select].rebirth;
                         this.parent.Field.InteriorSet();
                         break;
@@ -338,7 +338,7 @@ namespace NSEvent
                         }
                         else
                             --this.savedata.interiors[this.Select].posiY;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                         this.parent.Field.InteriorSet();
                         this.CameraSet(true);
@@ -354,7 +354,7 @@ namespace NSEvent
                         }
                         else
                             ++this.savedata.interiors[this.Select].posiY;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                         this.parent.Field.InteriorSet();
                         this.CameraSet(true);
@@ -370,7 +370,7 @@ namespace NSEvent
                         }
                         else
                             --this.savedata.interiors[this.Select].posiX;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Left) ? 10 : 4;
                         this.parent.Field.InteriorSet();
                         this.CameraSet(true);
@@ -386,7 +386,7 @@ namespace NSEvent
                         }
                         else
                             ++this.savedata.interiors[this.Select].posiX;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Right) ? 10 : 4;
                         this.parent.Field.InteriorSet();
                         this.CameraSet(true);

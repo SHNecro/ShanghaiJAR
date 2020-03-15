@@ -17,7 +17,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeBlastCanon(MyAudio s, Player p)
+        public ChargeBlastCanon(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 210;
@@ -53,7 +53,7 @@ namespace NSCharge
             if (this.character.waittime == 43)
             {
                 this.ShakeStart(10, 5);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                this.sound.PlaySE(SoundEffect.canon);
                 this.battle.effects.Add(new BulletBigShells(this.sound, this.battle, this.character.position, this.character.positionDirect.X + 4 * this.character.UnionRebirth, this.character.positionDirect.Y + 16f, 26, this.character.union, 20 + this.Random.Next(20), 2, 0));
             }
             if (this.character.waittime >= 40 && this.character.waittime < 41)

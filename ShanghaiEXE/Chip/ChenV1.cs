@@ -18,7 +18,7 @@ namespace NSChip
     protected Point animePoint;
     protected Shadow shadow_;
 
-    public ChenV1(MyAudio s)
+    public ChenV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -82,7 +82,7 @@ namespace NSChip
         case 6:
           character.parent.effects.Add(new MoveEnemy(this.sound, character.parent, character.position.X, character.position.Y));
           this.animePoint.X = 0;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+          this.sound.PlaySE(SoundEffect.warp);
           break;
         case 30:
           character.parent.effects.Add(new MoveEnemy(this.sound, character.parent, character.position.X, character.position.Y));
@@ -90,7 +90,7 @@ namespace NSChip
           this.shadow_.flag = false;
           break;
         case 32:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+          this.sound.PlaySE(SoundEffect.knife);
           character.parent.attacks.Add(this.Paralyze(new ChenBoomerang(this.sound, battle, character.union == Panel.COLOR.red ? 0 : 5, this.target.Y, character.union, this.Power(character), 1, 0, this.element)));
           break;
       }

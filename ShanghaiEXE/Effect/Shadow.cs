@@ -13,7 +13,7 @@ namespace NSEffect
         private readonly CharacterBase master;
         public Point slide;
 
-        public Shadow(MyAudio s, SceneBattle p, Vector2 pd, Point posi, CharacterBase master)
+        public Shadow(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi, CharacterBase master)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = 2;
@@ -22,7 +22,7 @@ namespace NSEffect
             this.master = master;
         }
 
-        public Shadow(MyAudio s, SceneBattle p, int pX, int pY, CharacterBase master)
+        public Shadow(IAudioEngine s, SceneBattle p, int pX, int pY, CharacterBase master)
           : base(s, p, pX, pY)
         {
             this.speed = 2;

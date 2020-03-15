@@ -16,7 +16,7 @@ namespace NSAttack
         private readonly int panelchange;
 
         public WaveAttsck(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -45,7 +45,7 @@ namespace NSAttack
             if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._break || this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._none)
                 this.flag = false;
             else
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                this.sound.PlaySE(SoundEffect.shotwave);
             switch (panelchange)
             {
                 case 1:

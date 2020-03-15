@@ -19,7 +19,7 @@ namespace NSAttack
         public bool stealth;
 
         public Brocla(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -56,7 +56,7 @@ namespace NSAttack
             if (this.frame >= 2800 || this.StandPanel.Hole)
             {
                 this.parent.effects.Add(new Smoke(this.sound, this.parent, this.positionre.X, this.positionre.Y, ChipBase.ELEMENT.normal));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+                this.sound.PlaySE(SoundEffect.heat);
                 this.flag = false;
             }
             this.FlameControl();
@@ -83,7 +83,7 @@ namespace NSAttack
         {
             if (!this.flag || !base.HitCheck(charaposition))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.ShakeStart(4, 60);
             for (int index1 = 0; index1 < this.parent.panel.GetLength(0); ++index1)
             {
@@ -101,7 +101,7 @@ namespace NSAttack
         {
             if (!this.flag || !base.HitCheck(charaposition))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.ShakeStart(4, 60);
             for (int index1 = 0; index1 < this.parent.panel.GetLength(0); ++index1)
             {

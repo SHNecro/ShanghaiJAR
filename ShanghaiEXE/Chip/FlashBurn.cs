@@ -15,7 +15,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public FlashBurn(MyAudio s)
+    public FlashBurn(IAudioEngine s)
       : base(s)
     {
       this.number = 276;
@@ -46,7 +46,7 @@ namespace NSChip
         character.animationpoint = new Point(3, 1);
       else if (character.waittime == 15)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+        this.sound.PlaySE(SoundEffect.docking);
         battle.effects.Add(new ScreenFlash(this.sound, battle, character.positionDirect, character.position, this.element, 1, false));
         BombAttack bombAttack = new BombAttack(this.sound, character.parent, character.union == Panel.COLOR.red ? 0 : 5, 0, character.union, this.Power(character), 1, 1, new Point(5, 3), this.element);
         bombAttack.badstatus[3] = true;

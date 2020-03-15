@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public SlowCustom(MyAudio s)
+    public SlowCustom(IAudioEngine s)
       : base(s)
     {
       this.number = 186;
@@ -39,7 +39,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+        this.sound.PlaySE(SoundEffect.docking);
         character.waittime = 2;
         battle.CustomSpeedChange(1);
       }

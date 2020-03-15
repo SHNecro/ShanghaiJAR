@@ -21,7 +21,7 @@ namespace NSChip
         private bool end;
         private bool init;
 
-        public SakuyaV1(MyAudio s)
+        public SakuyaV1(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -73,12 +73,12 @@ namespace NSChip
                 }
                 this.targets = pointList.ToArray();
                 character.animationpoint.X = -1;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                this.sound.PlaySE(SoundEffect.warp);
                 this.init = true;
             }
             if (character.waittime == this.shot * 20 + 20 && this.shot < this.targets.Length)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                this.sound.PlaySE(SoundEffect.chain);
                 for (int angle = 0; angle < 4; ++angle)
                 {
                     int x = this.targets[this.shot].X;

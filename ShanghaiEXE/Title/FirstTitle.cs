@@ -35,7 +35,7 @@ namespace NSTitle
             }
         }
 
-        public FirstTitle(MyAudio s, ShanghaiEXE p, SaveData save)
+        public FirstTitle(IAudioEngine s, ShanghaiEXE p, SaveData save)
           : base(s, p, save)
         {
             this.parent = p;

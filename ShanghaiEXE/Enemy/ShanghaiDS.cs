@@ -11,7 +11,7 @@ namespace NSEnemy
 {
     internal class ShanghaiDS : ChipUsingNaviBase
     {
-        public ShanghaiDS(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public ShanghaiDS(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
             : base(s, p, pX, pY, n, u, v, 3000, "ShanghaiDS", "ShanghaiDS")
         {
         }

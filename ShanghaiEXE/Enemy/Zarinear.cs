@@ -18,7 +18,7 @@ namespace NSEnemy
         private int targetX;
         private int roopneutral;
 
-        public Zarinear(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Zarinear(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -200,7 +200,7 @@ namespace NSEnemy
                         switch (this.frame)
                         {
                             case 1:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.water);
+                                this.sound.PlaySE(SoundEffect.water);
                                 if (this.version == 0)
                                 {
                                     Point end = new Point(this.targetX, this.positionre.Y);

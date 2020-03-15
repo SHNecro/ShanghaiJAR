@@ -20,7 +20,7 @@ namespace NSAttack
         private int roopNow;
 
         public SatelliteBarn(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -63,7 +63,7 @@ namespace NSAttack
                 switch (this.frame)
                 {
                     case 5:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                        this.sound.PlaySE(SoundEffect.bombmiddle);
                         this.ShakeStart(2, 2);
                         this.hitting = true;
                         break;

@@ -13,7 +13,7 @@ namespace NSChip
   {
     private const int shotend = 10;
 
-    public BioSpray2(MyAudio s)
+    public BioSpray2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);
@@ -41,14 +41,14 @@ namespace NSChip
     {
       if (character.animationpoint.X != 5 || character.waittime == 0)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.switchon);
+        this.sound.PlaySE(SoundEffect.switchon);
         character.animationpoint = new Point(5, 0);
       }
       bool gas = false;
       if (character.waittime % 2 == 0)
       {
         gas = true;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+        this.sound.PlaySE(SoundEffect.lance);
       }
       battle.attacks.Add(new PoisonGas(this.sound, battle, character.position.X + 2 * this.UnionRebirth(character.union), character.position.Y - 1, character.union, this.subpower, gas, this.element));
       battle.attacks.Add(new PoisonGas(this.sound, battle, character.position.X + 2 * this.UnionRebirth(character.union), character.position.Y, character.union, this.subpower, gas, this.element));

@@ -14,7 +14,7 @@ namespace NSObject
         private bool open;
 
         public BarrierObject(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

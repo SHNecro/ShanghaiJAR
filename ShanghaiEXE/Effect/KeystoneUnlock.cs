@@ -10,7 +10,7 @@ namespace NSEffect
         private const int FrameCount = 20;
         private static readonly Rectangle SpriteRect = new Rectangle(840, 400, 140, 200);
 
-        public KeystoneUnlock(MyAudio s, Vector2 pd, Point posi)
+        public KeystoneUnlock(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

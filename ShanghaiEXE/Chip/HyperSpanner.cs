@@ -19,7 +19,7 @@ namespace NSChip
     protected Point animePoint;
     private const int end = 30;
 
-    public HyperSpanner(MyAudio s)
+    public HyperSpanner(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -72,10 +72,10 @@ namespace NSChip
           {
             case 1:
               character.animationpoint.X = -1;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+              this.sound.PlaySE(SoundEffect.warp);
               break;
             case 6:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+              this.sound.PlaySE(SoundEffect.knife);
               int pY = character.position.Y;
               if (pY >= 2)
                 pY = 1;

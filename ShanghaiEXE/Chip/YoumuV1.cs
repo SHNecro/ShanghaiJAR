@@ -26,7 +26,7 @@ namespace NSChip
     private const int s = 5;
     protected Point animePoint;
 
-    public YoumuV1(MyAudio s)
+    public YoumuV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -74,7 +74,7 @@ namespace NSChip
           case 1:
             character.animationpoint.X = -1;
             this.xPosition = character.position.X;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+            this.sound.PlaySE(SoundEffect.warp);
             this.animePoint = new Point(2, 0);
             break;
           case 2:
@@ -93,7 +93,7 @@ namespace NSChip
             }
             break;
           case 15:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+            this.sound.PlaySE(SoundEffect.pikin);
             battle.effects.Add(new Flash(this.sound, battle, character.positionDirect, character.position));
             this.animePoint = new Point(0, 4);
             break;
@@ -108,7 +108,7 @@ namespace NSChip
             this.animePoint = new Point(3, 4);
             break;
           case 25:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+            this.sound.PlaySE(SoundEffect.breakObject);
             SwordCloss swordCloss = new SwordCloss(this.sound, battle, this.target.X, this.target.Y, character.union, this.Power(character), 2, this.element, false);
             swordCloss.breakinvi = true;
             battle.attacks.Add(this.Paralyze(swordCloss));

@@ -19,7 +19,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public RayJune(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public RayJune(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -205,7 +205,7 @@ namespace NSEnemy
                         }
                         if (this.frame == 11)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                            this.sound.PlaySE(SoundEffect.thunder);
                             ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, false);
                             elekiFang.positionDirect.Y += 10f;
                             this.parent.attacks.Add(elekiFang);
@@ -216,42 +216,42 @@ namespace NSEnemy
                             int num = 6;
                             if (this.frame == 11 + num)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                this.sound.PlaySE(SoundEffect.thunder);
                                 ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, true);
                                 elekiFang.positionDirect.Y += 10f;
                                 this.parent.attacks.Add(elekiFang);
                             }
                             if (this.frame == 11 + num * 2)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                this.sound.PlaySE(SoundEffect.thunder);
                                 ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, false);
                                 elekiFang.positionDirect.Y += 10f;
                                 this.parent.attacks.Add(elekiFang);
                             }
                             if (this.frame == 11 + num * 3)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                this.sound.PlaySE(SoundEffect.thunder);
                                 ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, true);
                                 elekiFang.positionDirect.Y += 10f;
                                 this.parent.attacks.Add(elekiFang);
                             }
                             if (this.frame == 11 + num * 4)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                this.sound.PlaySE(SoundEffect.thunder);
                                 ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, false);
                                 elekiFang.positionDirect.Y += 10f;
                                 this.parent.attacks.Add(elekiFang);
                             }
                             if (this.frame == 11 + num * 5)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                this.sound.PlaySE(SoundEffect.thunder);
                                 ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, true);
                                 elekiFang.positionDirect.Y += 10f;
                                 this.parent.attacks.Add(elekiFang);
                             }
                             if (this.frame == 11 + num * 6)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                                this.sound.PlaySE(SoundEffect.thunder);
                                 ElekiFang elekiFang = new ElekiFang(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 1, this.element, false);
                                 elekiFang.positionDirect.Y += 10f;
                                 this.parent.attacks.Add(elekiFang);

@@ -13,7 +13,7 @@ namespace NSChip
   {
     private const int shotend = 28;
 
-    public DarkReygun(MyAudio s)
+    public DarkReygun(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -68,7 +68,7 @@ namespace NSChip
       if (character.waittime == 18)
       {
         this.ShakeStart(5, 5);
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+        this.sound.PlaySE(SoundEffect.bombmiddle);
         battle.effects.Add(new BulletBigShells(this.sound, battle, character.position, character.positionDirect.X + 4 * character.UnionRebirth, character.positionDirect.Y, 26, character.union, 20 + this.Random.Next(20), 2, 0));
       }
       if (character.waittime != 20)

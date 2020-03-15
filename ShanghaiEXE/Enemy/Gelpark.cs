@@ -19,7 +19,7 @@ namespace NSEnemy
         private readonly ClossBomb.TYPE type;
         private JusticeBeam jb;
 
-        public Gelpark(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Gelpark(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -2;
@@ -252,13 +252,13 @@ namespace NSEnemy
                                 {
                                     if (this.version == 0)
                                         this.speed = 10;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.beamlong);
+                                    this.sound.PlaySE(SoundEffect.beamlong);
                                     this.jb = new JusticeBeam(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 2);
                                     this.jb.positionDirect.Y += 6f;
                                     this.parent.attacks.Add(jb);
                                     break;
                                 }
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                                this.sound.PlaySE(SoundEffect.beam);
                                 Beam beam = new Beam(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.Power, 2, false);
                                 beam.positionDirect.Y += 16f;
                                 this.parent.attacks.Add(beam);

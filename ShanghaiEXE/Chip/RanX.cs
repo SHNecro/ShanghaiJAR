@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public RanX(MyAudio s)
+    public RanX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

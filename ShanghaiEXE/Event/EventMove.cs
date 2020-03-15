@@ -16,7 +16,7 @@ namespace NSEvent
         private readonly MapField field;
 
         public EventMove(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int id,
           NSMap.Character.EventMove[] mo,
@@ -33,7 +33,7 @@ namespace NSEvent
         }
 
         public EventMove(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string id,
           NSMap.Character.EventMove[] mo,

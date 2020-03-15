@@ -19,7 +19,7 @@ namespace NSAttack
         private bool anime;
         private readonly int sp;
 
-        public UthuhoChip(MyAudio so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, int sp)
+        public UthuhoChip(IAudioEngine so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, int sp)
           : base(so, p, pX, pY, u, po, ChipBase.ELEMENT.heat)
         {
             if (!this.flag)

@@ -18,7 +18,7 @@ namespace NSAttack
         private const int steeltime = 20;
 
         public EriaSteel(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -49,11 +49,11 @@ namespace NSAttack
             switch (this.frame)
             {
                 case 0:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal1);
+                    this.sound.PlaySE(SoundEffect.eriasteal1);
                     break;
                 case 20:
                     this.hitting = true;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                    this.sound.PlaySE(SoundEffect.eriasteal2);
                     this.parent.effects.Add(new AfterSteal(this.sound, this.parent, this.position.X, this.position.Y));
                     break;
             }

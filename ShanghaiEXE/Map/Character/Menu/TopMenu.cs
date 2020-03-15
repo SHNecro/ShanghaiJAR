@@ -37,7 +37,7 @@ namespace NSMap.Character.Menu
         private int waittime;
         private bool[] canselectmenu;
 
-        public TopMenu(MyAudio s, Player p, SceneMain m, SaveData save)
+        public TopMenu(IAudioEngine s, Player p, SceneMain m, SaveData save)
           : base(s)
         {
             this.savedata = save;
@@ -105,7 +105,7 @@ namespace NSMap.Character.Menu
         {
             if (Input.IsPress(Button._A))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.nowscene = TopMenu.TOPMENUSCENE.gomenu;
                 switch (this.selectmenu)
                 {
@@ -142,7 +142,7 @@ namespace NSMap.Character.Menu
             {
                 if (Input.IsPress(Button._B) || Input.IsPress(Button._Start))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.menuclose);
+                    this.sound.PlaySE(SoundEffect.menuclose);
                     this.nowscene = TopMenu.TOPMENUSCENE.end;
                 }
                 bool flag1 = false;
@@ -150,7 +150,7 @@ namespace NSMap.Character.Menu
                 {
                     if (Input.IsPush(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         --this.selectmenu;
                         if (this.selectmenu < TopMenu.TOPMENU.chipfolder)
                             this.selectmenu = TopMenu.TOPMENU.save;
@@ -165,7 +165,7 @@ namespace NSMap.Character.Menu
                     }
                     if (Input.IsPush(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         ++this.selectmenu;
                         if (this.selectmenu > TopMenu.TOPMENU.save)
                             this.selectmenu = TopMenu.TOPMENU.chipfolder;
@@ -180,7 +180,7 @@ namespace NSMap.Character.Menu
                     }
                     if (Input.IsPress(Button.Left))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.selectmenu = TopMenu.TOPMENU.chipfolder;
                         while (!this.canselectmenu[(int)this.selectmenu])
                         {
@@ -193,7 +193,7 @@ namespace NSMap.Character.Menu
                     }
                     if (Input.IsPress(Button.Right))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.selectmenu = TopMenu.TOPMENU.save;
                         while (!this.canselectmenu[(int)this.selectmenu])
                         {

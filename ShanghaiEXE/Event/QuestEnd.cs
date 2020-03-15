@@ -6,7 +6,7 @@ namespace NSEvent
 {
     internal class QuestEnd : EventBase
     {
-        public QuestEnd(MyAudio s, EventManager m, SaveData save)
+        public QuestEnd(IAudioEngine s, EventManager m, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

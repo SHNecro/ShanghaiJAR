@@ -21,7 +21,7 @@ namespace NSEnemy
         private readonly int roopmove;
         private bool angry;
 
-        public GekoHuts(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public GekoHuts(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = 8;
@@ -325,7 +325,7 @@ namespace NSEnemy
                 if (this.frame == 10)
                 {
                     this.counterTiming = true;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bound);
+                    this.sound.PlaySE(SoundEffect.bound);
                     AttackBase attackBase = new Otama(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, this.positionDirect, this.element, 5);
                     if (this.version == 0)
                         attackBase.breaking = true;

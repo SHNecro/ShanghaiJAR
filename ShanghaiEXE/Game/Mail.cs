@@ -20,7 +20,7 @@ namespace NSGame
             this.txt.Add(t);
         }
 
-        public EventManager MakeEvent(MyAudio s)
+        public EventManager MakeEvent(IAudioEngine s)
         {
             EventManager m = new EventManager(s);
             for (int index = 0; index < this.txt.Count; index += 1)

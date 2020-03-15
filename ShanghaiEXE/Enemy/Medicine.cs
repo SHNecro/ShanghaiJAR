@@ -26,7 +26,7 @@ namespace NSEnemy
         private bool ballrend;
         private int atackroop;
 
-        public Medicine(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Medicine(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -266,8 +266,8 @@ namespace NSEnemy
                                 if (index1 < this.stormP.Count && this.frame >= 26 - Math.Min(12, version * 2))
                                 {
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
-                                    MyAudio sound = this.sound;
+                                    this.sound.PlaySE(SoundEffect.shoot);
+                                    IAudioEngine sound = this.sound;
                                     SceneBattle parent = this.parent;
                                     Point point = this.stormP[index1];
                                     int x1 = point.X;
@@ -290,7 +290,7 @@ namespace NSEnemy
                                 switch (this.waittime)
                                 {
                                     case 1:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal1);
+                                        this.sound.PlaySE(SoundEffect.eriasteal1);
                                         this.counterTiming = false;
                                         this.ballrend = true;
                                         break;
@@ -309,7 +309,7 @@ namespace NSEnemy
                                 {
                                     this.ballrend = false;
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                    this.sound.PlaySE(SoundEffect.sword);
                                     Point point = this.RandomTarget();
                                     this.parent.attacks.Add(new PoisonBall(this.sound, this.parent, point.X, point.Y, new Vector2(this.positionDirect.X, this.positionDirect.Y - 48f), this.union, this.Power, this.speed, 60, this.element));
                                     break;
@@ -407,7 +407,7 @@ namespace NSEnemy
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 this.suzu[0] = new SuzuranWhite(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
                 this.parent.objects.Add(this.suzu[0]);
@@ -420,7 +420,7 @@ namespace NSEnemy
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 ObjectBase objectBase = new SuzuranWhite(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
                 objectBase.Hp = 10 * version;
@@ -437,7 +437,7 @@ namespace NSEnemy
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 ObjectBase objectBase = new SuzuranBlue(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
                 objectBase.Hp = 10 * version;
@@ -452,7 +452,7 @@ namespace NSEnemy
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 ObjectBase objectBase = new SuzuranBlue(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
                 objectBase.Hp = 10 * version;

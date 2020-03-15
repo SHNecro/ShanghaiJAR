@@ -10,7 +10,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 2;
 
-    public DeathWiper2(MyAudio s)
+    public DeathWiper2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public ShellArmor1(MyAudio s)
+    public ShellArmor1(IAudioEngine s)
       : base(s)
     {
       this.number = 27;
@@ -41,7 +41,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+        this.sound.PlaySE(SoundEffect.docking);
         battle.effects.Add(new Repair(this.sound, battle, new Vector2((int)character.positionDirect.X * this.UnionRebirth(character.union), (int)character.positionDirect.Y + 16), 2, character.position));
         character.armarCount = this.subpower;
         character.guard = CharacterBase.GUARD.armar;

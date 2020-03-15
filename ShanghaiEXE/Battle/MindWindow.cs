@@ -34,7 +34,7 @@ namespace NSBattle
             }
         }
 
-        public MindWindow(MyAudio s, SceneBattle p, SaveData save)
+        public MindWindow(IAudioEngine s, SceneBattle p, SaveData save)
           : base(s)
         {
             this.savedata = save;

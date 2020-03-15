@@ -17,7 +17,7 @@ namespace NSObject
         private int nowroop;
 
         public RanBarrier(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -58,7 +58,7 @@ namespace NSObject
                         if (this.animationpoint.X >= 3)
                         {
                             ++this.process;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                            this.sound.PlaySE(SoundEffect.rockopen);
                             break;
                         }
                         break;

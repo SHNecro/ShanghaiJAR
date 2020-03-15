@@ -25,7 +25,7 @@ namespace MapEditor.Models.Elements
             {
                 var type = typeof(EnemyBase).Assembly.GetType("NSEnemy.NormalNavi");
                 var constructorTypes = new Type[] {
-                    typeof(MyAudio),
+                    typeof(IAudioEngine),
                     typeof(SceneBattle),
                     typeof(int),
                     typeof(int),

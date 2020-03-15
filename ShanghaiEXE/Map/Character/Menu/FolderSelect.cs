@@ -51,7 +51,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public FolderSelect(MyAudio s, Player p, SceneMain m, TopMenu t, SaveData save)
+        public FolderSelect(IAudioEngine s, Player p, SceneMain m, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             this.main = m;
@@ -133,7 +133,7 @@ namespace NSMap.Character.Menu
                 case FolderSelect.SCENE.select:
                     if (Input.IsPress(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         --this.select;
                         if (!this.savedata.havefolder[1] && this.select == 1)
                             --this.select;
@@ -148,7 +148,7 @@ namespace NSMap.Character.Menu
                     }
                     if (Input.IsPress(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         ++this.select;
                         if (!this.savedata.havefolder[1] && this.select == 1)
                             ++this.select;
@@ -158,13 +158,13 @@ namespace NSMap.Character.Menu
                     }
                     if (Input.IsPress(Button._A))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         this.goOrEq = this.select == 2;
                         this.nowscene = FolderSelect.SCENE.goOrEq;
                     }
                     if (Input.IsPress(Button._B))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                        this.sound.PlaySE(SoundEffect.cancel);
                         this.gonext = false;
                         this.nowscene = FolderSelect.SCENE.fadeout;
                     }
@@ -172,26 +172,26 @@ namespace NSMap.Character.Menu
                     {
                         if (!this.savedata.FlagList[8] && this.canEq[this.select])
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                            this.sound.PlaySE(SoundEffect.bright);
                             this.savedata.efolder = this.select;
                         }
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                     }
                     if (Input.IsPress(Button._R))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.Topchip += 8;
                     }
                     if (!Input.IsPress(Button._L))
                         break;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.Topchip -= 8;
                     break;
                 case FolderSelect.SCENE.goOrEq:
                     if (Input.IsPress(Button.Down) || Input.IsPress(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         if (this.select != 2)
                             this.goOrEq = !this.goOrEq;
                     }
@@ -199,7 +199,7 @@ namespace NSMap.Character.Menu
                     {
                         if (!this.goOrEq)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             this.gonext = true;
                             this.nowscene = FolderSelect.SCENE.fadeout;
                         }
@@ -207,20 +207,20 @@ namespace NSMap.Character.Menu
                         {
                             if (this.savedata.efolder != this.select)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                                this.sound.PlaySE(SoundEffect.bright);
                                 this.savedata.efolder = this.select;
                             }
                             else
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                                this.sound.PlaySE(SoundEffect.cancel);
                             this.nowscene = FolderSelect.SCENE.select;
                             this.goOrEq = false;
                         }
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                     }
                     if (!Input.IsPress(Button._B))
                         break;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     this.nowscene = FolderSelect.SCENE.select;
                     break;
             }

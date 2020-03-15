@@ -25,7 +25,7 @@ namespace NSEffect
         private const int interval = 6;
         private readonly SaveData savedata;
 
-        public ItemGet(MyAudio s, Vector2 pd, Point posi, SaveData savedata)
+        public ItemGet(IAudioEngine s, Vector2 pd, Point posi, SaveData savedata)
           : base(s, null, posi.X, posi.Y)
         {
             this.savedata = savedata;

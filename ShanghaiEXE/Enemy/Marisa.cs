@@ -22,7 +22,7 @@ namespace NSEnemy
         private int atackroop;
         private readonly bool atack;
 
-        public Marisa(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Marisa(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -202,7 +202,7 @@ namespace NSEnemy
                                     {
                                         case 24:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                                            this.sound.PlaySE(SoundEffect.beam);
                                             this.parent.attacks.Add(new Beam(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 2, false));
                                             break;
                                         case 96:
@@ -224,7 +224,7 @@ namespace NSEnemy
                                     {
                                         case 32:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                                            this.sound.PlaySE(SoundEffect.throw_);
                                             this.RandomTarget();
                                             Vector2 v = new Vector2(this.positionDirect.X + 8 * this.UnionRebirth(this.union), this.positionDirect.Y - 8f);
                                             for (int seed = 0; seed < Math.Min(version - 1, 2); ++seed)
@@ -252,17 +252,17 @@ namespace NSEnemy
                                     {
                                         case 34:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                            this.sound.PlaySE(SoundEffect.canon);
                                             this.parent.attacks.Add(new MagicMissile(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.Power, ChipBase.ELEMENT.normal));
                                             this.parent.attacks.Add(new MagicMissile(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.Power, ChipBase.ELEMENT.normal));
                                             break;
                                         case 42:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                            this.sound.PlaySE(SoundEffect.canon);
                                             this.parent.attacks.Add(new MagicMissile(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.Power, ChipBase.ELEMENT.normal));
                                             this.parent.attacks.Add(new MagicMissile(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.Power, ChipBase.ELEMENT.normal));
                                             break;
                                         case 50:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                            this.sound.PlaySE(SoundEffect.canon);
                                             this.parent.attacks.Add(new MagicMissile(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.Power, ChipBase.ELEMENT.normal));
                                             this.parent.attacks.Add(new MagicMissile(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.Power, ChipBase.ELEMENT.normal));
                                             break;

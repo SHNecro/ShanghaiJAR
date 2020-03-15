@@ -268,7 +268,7 @@ namespace NSEvent
             }
         }
 
-        public BBS(MyAudio s, EventManager m, Player player, int forumNo, SaveData save)
+        public BBS(IAudioEngine s, EventManager m, Player player, int forumNo, SaveData save)
           : base(s, m, save)
         {
             this.forumNo = forumNo;
@@ -356,7 +356,7 @@ namespace NSEvent
                 this.MessageMake();
             else if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.nowscene = BBS.SCENE.fadeout;
             }
             else if (this.waittime <= 0)
@@ -369,7 +369,7 @@ namespace NSEvent
                         --this.cursol;
                     else
                         --this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
                 else
@@ -380,7 +380,7 @@ namespace NSEvent
                         ++this.cursol;
                     else
                         ++this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
             }

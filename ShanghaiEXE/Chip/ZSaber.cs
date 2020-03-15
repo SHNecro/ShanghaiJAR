@@ -48,7 +48,7 @@ namespace NSChip
     private const int speed = 2;
     private int waittime;
 
-    public ZSaber(MyAudio s)
+    public ZSaber(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -83,19 +83,19 @@ namespace NSChip
         switch (this.waittime)
         {
           case 1:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
+            this.sound.PlaySE(SoundEffect.Zblade);
             AttackBase a1 = new LanceAttack(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element, true);
             a1.invincibility = false;
             character.parent.attacks.Add(this.Paralyze(a1));
             break;
           case 4:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
+            this.sound.PlaySE(SoundEffect.Zblade);
             AttackBase a2 = new LanceAttack(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element, true);
             a2.invincibility = false;
             character.parent.attacks.Add(this.Paralyze(a2));
             break;
           case 7:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
+            this.sound.PlaySE(SoundEffect.Zblade);
             character.parent.attacks.Add(this.Paralyze(new LanceAttack(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element, true)));
             break;
           case 12:

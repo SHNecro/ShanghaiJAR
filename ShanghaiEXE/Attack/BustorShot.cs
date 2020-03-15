@@ -18,7 +18,7 @@ namespace NSAttack
         private bool seedbomb;
 
         public BustorShot(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -72,7 +72,7 @@ namespace NSAttack
                     if (this.shot != BustorShot.SHOT.railgun) { }
                     if (this.shot == BustorShot.SHOT.reflect)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                        this.sound.PlaySE(SoundEffect.chain);
                         this.parent.effects.Add(new NormalChargehit(this.sound, this.parent, this.position.X, this.position.Y, 2));
                     }
                     int x = this.position.X;
@@ -99,7 +99,7 @@ namespace NSAttack
             if (this.seedbomb)
                 return;
             this.ShakeStart(5, 30);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 1));
             this.parent.attacks.Add(this.StateCopy(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.power, 1, this.element))));
             this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y + 1, Bomber.BOMBERTYPE.bomber, 1));
@@ -151,7 +151,7 @@ namespace NSAttack
                     break;
                 case BustorShot.SHOT.railgun:
                     this.ShakeStart(5, 5);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                    this.sound.PlaySE(SoundEffect.breakObject);
                     this.parent.effects.Add(new Elementhit(this.sound, this.parent, this.position.X, this.position.Y, 1, ChipBase.ELEMENT.eleki));
                     break;
             }
@@ -180,7 +180,7 @@ namespace NSAttack
                     break;
                 case BustorShot.SHOT.railgun:
                     this.ShakeStart(5, 5);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                    this.sound.PlaySE(SoundEffect.breakObject);
                     this.parent.effects.Add(new Elementhit(this.sound, this.parent, this.position.X, this.position.Y, 1, ChipBase.ELEMENT.eleki));
                     break;
             }

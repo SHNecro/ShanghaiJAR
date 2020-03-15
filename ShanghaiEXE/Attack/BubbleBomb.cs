@@ -24,7 +24,7 @@ namespace NSAttack
         private new bool bright;
 
         public BubbleBomb(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -61,7 +61,7 @@ namespace NSAttack
             {
                 this.hitting = true;
                 this.flag = false;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bubble);
+                this.sound.PlaySE(SoundEffect.bubble);
                 this.parent.effects.Add(new Bubblehit(this.sound, this.parent, this.position.X, this.position.Y, 2));
             }
             else

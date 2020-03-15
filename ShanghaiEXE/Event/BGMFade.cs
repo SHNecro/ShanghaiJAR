@@ -9,7 +9,7 @@ namespace NSEvent
         private readonly int endparsent;
         private readonly int fadeingTime;
 
-        public BGMFade(MyAudio s, EventManager m, int endparsent, int ms, bool wait, SaveData save)
+        public BGMFade(IAudioEngine s, EventManager m, int endparsent, int ms, bool wait, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = !wait;

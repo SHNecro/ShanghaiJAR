@@ -9,10 +9,10 @@ namespace NSMap.Character
         private readonly int effectNo;
         private readonly int rundom;
         private readonly int interval;
-        private readonly MyAudio.SOUNDNAMES SE;
+        private readonly SoundEffect SE;
 
         public EffectGenerator(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,
@@ -22,7 +22,7 @@ namespace NSMap.Character
           int interval,
           int rundom,
           int rendType,
-          MyAudio.SOUNDNAMES SE)
+          SoundEffect SE)
           : base(s, p, po, floor, MapCharacterBase.ANGLE.none, fi)
         {
             this.ID = id;
@@ -52,7 +52,7 @@ namespace NSMap.Character
 
         private void MakeEffect()
         {
-            if (this.SE != MyAudio.SOUNDNAMES.none)
+            if (this.SE != SoundEffect.none)
                 this.sound.PlaySE(this.SE);
             this.field.effect.Add(new MapEffect(this.sound, this.parent, new Point((int)this.position.X + this.Random.Next(-this.rundom, this.rundom), (int)this.position.Y + this.Random.Next(-this.rundom, this.rundom)), this.floor, this.field, this.effectNo, this.rendType));
         }

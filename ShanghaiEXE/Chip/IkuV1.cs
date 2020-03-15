@@ -16,7 +16,7 @@ namespace NSChip
     protected int command;
     private Point animePoint;
 
-    public IkuV1(MyAudio s)
+    public IkuV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -66,7 +66,7 @@ namespace NSChip
         if (this.CommandCheck("LLR"))
         {
           this.command = 1;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+          this.sound.PlaySE(SoundEffect.CommandSuccess);
           this.target[0] = new Point(character.position.X + 2 * this.UnionRebirth(character.union), character.position.Y);
           this.target[1] = new Point(character.position.X + 3 * this.UnionRebirth(character.union), character.position.Y);
           this.target[2] = new Point(character.position.X + 4 * this.UnionRebirth(character.union), character.position.Y);
@@ -74,7 +74,7 @@ namespace NSChip
         else if (this.CommandCheck("RRL"))
         {
           this.command = 2;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+          this.sound.PlaySE(SoundEffect.CommandSuccess);
           this.target[0] = new Point(character.position.X + 2 * this.UnionRebirth(character.union), character.position.Y - 1);
           this.target[1] = new Point(character.position.X + 3 * this.UnionRebirth(character.union), character.position.Y);
           this.target[2] = new Point(character.position.X + 4 * this.UnionRebirth(character.union), character.position.Y - 1);
@@ -86,7 +86,7 @@ namespace NSChip
       {
         case 1:
           character.animationpoint.X = -1;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+          this.sound.PlaySE(SoundEffect.warp);
           this.target[0] = new Point(character.position.X + 3 * this.UnionRebirth(character.union), 0);
           this.target[1] = new Point(character.position.X + 3 * this.UnionRebirth(character.union), 1);
           this.target[2] = new Point(character.position.X + 3 * this.UnionRebirth(character.union), 2);

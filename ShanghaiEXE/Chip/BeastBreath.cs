@@ -21,7 +21,7 @@ namespace NSChip
 		private ScreenBlack screen;
 		private Point animePoint;
 
-		public BeastBreath(MyAudio s)
+		public BeastBreath(IAudioEngine s)
 		  : base(s)
 		{
 			this.dark = true;
@@ -154,7 +154,7 @@ namespace NSChip
 				this.eye = !this.eye;
 			int num1 = 30;
 			if (character.waittime == 44)
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+				this.sound.PlaySE(SoundEffect.pikin);
 			if (character.waittime == 44 + num1)
 				battle.effects.Add(new Charge(this.sound, battle, this.position.X, this.position.Y));
 			if (character.waittime > 44 + num1 + 50)
@@ -166,7 +166,7 @@ namespace NSChip
 					if (this.frame > 8)
 					{
 						this.frame = 0;
-						this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+						this.sound.PlaySE(SoundEffect.quake);
 						this.ShakeStart(8);
 						Point point = new Point();
 						switch (this.count)

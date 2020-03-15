@@ -40,7 +40,7 @@ namespace NSEnemy
         //AttackBase levStart = new AttackBase();
         private readonly AttackBase[] levStart = new AttackBase[2];
 
-        public Flandre(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Flandre(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -265,7 +265,7 @@ namespace NSEnemy
                                                 break;
                                             case 34:
                                                 this.counterTiming = false;
-                                                //this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                                                //this.sound.PlaySE(SoundEffect.beam);
                                                 //Point point1 = this.RandomTarget();
 
                                                 //this.parent.attacks.Add(new Beam(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 2, false));
@@ -299,7 +299,7 @@ namespace NSEnemy
                                     {
                                         case 1:
                                             //this.counterTiming = false;
-                                            //this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                                            //this.sound.PlaySE(SoundEffect.throw_);
                                             Point point1 = this.RandomTarget();
                                             knifeX[0] = point1.X;
                                             knifeY[0] = point1.Y;
@@ -318,7 +318,7 @@ namespace NSEnemy
                                                 //knifePos[knifeTrue] = this.positionre;
                                                 //this.parent.attacks.Add(new ClossBomb(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, v, positionre, 40, ClossBomb.TYPE.closs, false, ClossBomb.TYPE.big, false, false));
 
-                                                //this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                                //this.sound.PlaySE(SoundEffect.sword);
                                                 /*
                                                 KnifeAttack knifeAttack = new KnifeAttack(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 2, this.element, false)
                                                 {
@@ -334,12 +334,12 @@ namespace NSEnemy
                                             break;
 
                                         case 36:
-                                            //this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            //this.sound.PlaySE(SoundEffect.sword);
                                             this.counterTiming = false;
                                             for (int sva = 0; sva < knifeTrue; sva++)
                                             {
                                                 
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                                this.sound.PlaySE(SoundEffect.sword);
                                                 KnifeAttack knifeAttack = new KnifeAttack(this.sound, this.parent, knifeX[sva], knifeY[sva], this.union, this.Power, 2, ChipBase.ELEMENT.heat, false)
                                                 {
                                                     invincibility = false
@@ -368,7 +368,7 @@ namespace NSEnemy
                                     {
                                         case 1:
                                             
-                                            //this.sound.PlaySE(MyAudio.SOUNDNAMES.charge); // need to change this to use a different SE than Earth Breaker, playtest issue
+                                            //this.sound.PlaySE(SoundEffect.charge); // need to change this to use a different SE than Earth Breaker, playtest issue
                                             //this.speed = this.attackspeed;
                                             break;
                                         case 4:
@@ -376,7 +376,7 @@ namespace NSEnemy
                                             break;
                                         case 20:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                                            this.sound.PlaySE(SoundEffect.enterenemy);
                                             this.MoveRandom(false, false);
                                             Point posRef = this.positionre;
                                             this.positionre = this.position;
@@ -442,13 +442,13 @@ namespace NSEnemy
                                         case 1:
                                             this.counterTiming = false;
                                             //this.chargeanime = 0;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                            this.sound.PlaySE(SoundEffect.charge);
                                             this.speed = this.attackspeed;
                                             //this.chargeEffect = 1;
                                             break;
                                         case 20:
                                             this.counterTiming = true;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.chargemax);
+                                            this.sound.PlaySE(SoundEffect.chargemax);
                                             //this.chargeEffect = 2;
                                             
                                             break;
@@ -483,7 +483,7 @@ namespace NSEnemy
                                         case 45:
                                             this.counterTiming = false;
                                             this.speed = this.attackspeed;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                                            this.sound.PlaySE(SoundEffect.bombmiddle);
                                             base.ShakeStart(2, 16);
                                             for (int j = 0; j < 3; j++)
                                             {

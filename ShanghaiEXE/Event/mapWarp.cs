@@ -19,7 +19,7 @@ namespace NSEvent
         private const int warpend = 32;
 
         public mapWarp(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string name,
           Point po,

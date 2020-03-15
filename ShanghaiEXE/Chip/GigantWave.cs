@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public GigantWave(MyAudio s)
+    public GigantWave(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

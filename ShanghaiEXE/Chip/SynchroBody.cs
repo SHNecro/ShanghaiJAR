@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public SynchroBody(MyAudio s)
+    public SynchroBody(IAudioEngine s)
       : base(s)
     {
       this.number = 184;
@@ -39,7 +39,7 @@ namespace NSChip
     {
       if (character.waittime != 1)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+      this.sound.PlaySE(SoundEffect.docking);
       character.body = CharacterBase.BODY.Synchro;
       character.bodytime = 500;
       base.Action(character, battle);

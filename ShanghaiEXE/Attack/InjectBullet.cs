@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly string texname;
 
         public InjectBullet(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

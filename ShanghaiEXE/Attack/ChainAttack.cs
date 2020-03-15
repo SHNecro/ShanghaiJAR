@@ -16,7 +16,7 @@ namespace NSAttack
         private readonly int colol;
 
         public ChainAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -54,7 +54,7 @@ namespace NSAttack
             this.frame = 0;
             this.badstatus[3] = true;
             this.badstatustime[3] = 120;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+            this.sound.PlaySE(SoundEffect.chain);
         }
 
         public override void Updata()

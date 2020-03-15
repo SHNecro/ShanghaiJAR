@@ -8,7 +8,7 @@ namespace NSEvent
     {
         private readonly int ID;
 
-        public Special(MyAudio s, EventManager m, int id, SaveData save)
+        public Special(IAudioEngine s, EventManager m, int id, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

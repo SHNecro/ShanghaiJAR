@@ -14,7 +14,7 @@ namespace NSEnemy
         private Poisorlin.MOTION motion = Poisorlin.MOTION.neutral;
         private readonly NSAttack.PoisonShot.TYPE type;
 
-        public Poisorlin(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Poisorlin(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.Y = -4;
@@ -191,7 +191,7 @@ namespace NSEnemy
                         switch (this.frame)
                         {
                             case 1:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                                this.sound.PlaySE(SoundEffect.chain);
                                 if (this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                                 {
                                     Point end = this.RandomTarget();

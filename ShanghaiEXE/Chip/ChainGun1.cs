@@ -17,7 +17,7 @@ namespace NSChip
     private bool rockon;
     private int shot;
 
-    public ChainGun1(MyAudio s)
+    public ChainGun1(IAudioEngine s)
       : base(s)
     {
       this.number = 94;
@@ -69,7 +69,7 @@ namespace NSChip
       if (character.waittime == 24)
         base.Action(character, battle);
       if (character.waittime % 8 == 0)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+        this.sound.PlaySE(SoundEffect.vulcan);
       if (character.waittime % 8 != 4)
         return;
       int num = this.power + this.pluspower;

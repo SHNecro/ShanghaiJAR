@@ -17,7 +17,7 @@ namespace NSEffect
         private readonly int alpha;
 
         public KikuriDeath(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Rectangle r,
           Rectangle rw,
@@ -36,7 +36,7 @@ namespace NSEffect
             this.animationpoint.Y = 2;
             this.rebirth = re;
             this.white = true;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+            this.sound.PlaySE(SoundEffect.clincher);
         }
 
         public override void Updata()
@@ -61,10 +61,10 @@ namespace NSEffect
                     this.posib.X += this.Random.Next(-24, 48);
                     this.posib.Y += this.Random.Next(-84, 84);
                     this.parent.effects.Add(new Bomber(this.sound, this.parent, Bomber.BOMBERTYPE.bomber, this.posib, 3, this.position));
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                    this.sound.PlaySE(SoundEffect.bomb);
                 }
                 if (this.frame % 45 == 0)
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                    this.sound.PlaySE(SoundEffect.clincher);
                 if (this.parent.fadealpha < byte.MaxValue)
                     ++this.parent.fadealpha;
             }
@@ -74,7 +74,7 @@ namespace NSEffect
             {
                 this.posib = this.posi;
                 this.parent.effects.Add(new Bomber(this.sound, this.parent, Bomber.BOMBERTYPE.bomber, this.posib, 3, this.position));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                this.sound.PlaySE(SoundEffect.bombbig);
                 if (this.parent.manyenemys <= 0)
                     this.parent.stopEnd = false;
             }

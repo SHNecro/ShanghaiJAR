@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public EndlessSahara(MyAudio s)
+    public EndlessSahara(IAudioEngine s)
       : base(s)
     {
       this.number = 279;

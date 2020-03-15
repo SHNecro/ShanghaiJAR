@@ -21,7 +21,7 @@ namespace NSChip
     private const int speed = 2;
     private Point animePoint;
 
-    public KishinCanon(MyAudio s)
+    public KishinCanon(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -68,7 +68,7 @@ namespace NSChip
       if (character.waittime == 1)
       {
         character.animationpoint.X = -1;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+        this.sound.PlaySE(SoundEffect.warp);
       }
       switch (this.action)
       {
@@ -88,7 +88,7 @@ namespace NSChip
           this.animePoint = this.AnimeCanon(this.waittime);
           if (this.waittime == 3)
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             battle.attacks.Add(this.Paralyze(new CanonBullet(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, new Vector2(character.positionDirect.X + 32 * this.UnionRebirth(character.union), character.positionDirect.Y + 8f), character.union, this.Power(character), this.element, true)));
             battle.effects.Add(new BulletBigShells(this.sound, battle, character.position, character.positionDirect.X - 16 * this.UnionRebirth(character.union), character.positionDirect.Y + 16f, 32, character.union, 40 + this.Random.Next(20), 2, 0));
             break;

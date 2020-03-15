@@ -10,7 +10,7 @@ namespace NSChip
     private bool open;
     private const int shotend = 10;
 
-    public FlaeGunX(MyAudio s)
+    public FlaeGunX(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-4, 0);

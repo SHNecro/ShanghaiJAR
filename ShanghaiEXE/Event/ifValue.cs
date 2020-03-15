@@ -13,7 +13,7 @@ namespace NSEvent
         private int ifID;
 
         public ifValue(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int n,
           bool nORv,

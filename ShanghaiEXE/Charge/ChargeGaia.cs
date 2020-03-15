@@ -9,7 +9,7 @@ namespace NSCharge
 {
     internal class ChargeGaia : ChargeBase
     {
-        public ChargeGaia(MyAudio s, Player p)
+        public ChargeGaia(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;
@@ -21,10 +21,10 @@ namespace NSCharge
         {
             this.player.animationpoint = this.MoveAnimation(this.player.waittime);
             if (this.player.waittime == 1)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                this.sound.PlaySE(SoundEffect.throw_);
             if (this.player.waittime == 18)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                this.sound.PlaySE(SoundEffect.canon);
                 AttackBase attackBase = new FootPanel(this.sound, this.player.parent, this.player.position.X + 3 * this.UnionRebirth(this.player.union), this.player.position.Y, this.player.union, !this.player.badstatus[1] ? player.busterPower * this.power : player.busterPower * this.power / 2, 0, FootPanel.MOTION.init, this.player.Element, true);
                 attackBase.canCounter = false;
                 this.player.parent.attacks.Add(attackBase);

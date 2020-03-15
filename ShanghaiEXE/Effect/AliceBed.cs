@@ -37,7 +37,7 @@ namespace NSEffect
         private readonly int jumpflame;
         private bool se;
 
-        public AliceBed(MyAudio s, Vector2 pd, Point posi, bool mute = false)
+        public AliceBed(IAudioEngine s, Vector2 pd, Point posi, bool mute = false)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;
@@ -49,7 +49,7 @@ namespace NSEffect
         {
             if (!this.se)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+                this.sound.PlaySE(SoundEffect.futon);
                 this.se = true;
             }
             this.FlameControl(6);

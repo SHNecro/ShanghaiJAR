@@ -83,7 +83,7 @@ namespace NSEnemy
             }
         }
 
-        public Ran(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Ran(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -289,7 +289,7 @@ namespace NSEnemy
                                     break;
                                 case 8:
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+                                    this.sound.PlaySE(SoundEffect.gun);
                                     BustorShot bustorShot1 = new BustorShot(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, BustorShot.SHOT.ranShot, this.element, false, 6)
                                     {
                                         blackOutObject = false
@@ -467,7 +467,7 @@ namespace NSEnemy
                                             for (int index = 0; index < this.targetMulti.Count; ++index)
                                             {
                                                 List<AttackBase> attacks = this.parent.attacks;
-                                                MyAudio sound = this.sound;
+                                                IAudioEngine sound = this.sound;
                                                 SceneBattle parent = this.parent;
                                                 int x = this.targetMulti[index].X;
                                                 Point point = this.targetMulti[index];
@@ -494,7 +494,7 @@ namespace NSEnemy
                                 switch (this.waittime / this.aspeed)
                                 {
                                     case 2:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+                                        this.sound.PlaySE(SoundEffect.gun);
                                         for (int index = 0; index < this.targetMulti.Count; ++index)
                                         {
                                             this.parent.effects.Add(new GunHit(this.sound, this.parent, this.targetMulti[index].X, this.targetMulti[index].Y, this.union));
@@ -506,7 +506,7 @@ namespace NSEnemy
                                             for (int index = 0; index < this.targetMulti.Count; ++index)
                                             {
                                                 List<AttackBase> attacks = this.parent.attacks;
-                                                MyAudio sound = this.sound;
+                                                IAudioEngine sound = this.sound;
                                                 SceneBattle parent = this.parent;
                                                 int x = this.targetMulti[index].X;
                                                 Point point = this.targetMulti[index];
@@ -584,7 +584,7 @@ namespace NSEnemy
                                 switch (this.waittime / this.aspeed)
                                 {
                                     case 2:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+                                        this.sound.PlaySE(SoundEffect.gun);
                                         int num = this.Random.Next(2);
                                         if (num == 1)
                                             num = 2;

@@ -21,7 +21,7 @@ namespace NSChip
 		private ScreenBlack screen;
 		private Point animePoint;
 
-		public ProtonThunder(MyAudio s)
+		public ProtonThunder(IAudioEngine s)
 		  : base(s)
 		{
 			this.dark = true;
@@ -91,7 +91,7 @@ namespace NSChip
 				this.eye = !this.eye;
 			int num = 30;
 			if (character.waittime == 44)
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+				this.sound.PlaySE(SoundEffect.pikin);
 			if (character.waittime == 44 + num)
 				battle.effects.Add(new Charge(this.sound, battle, this.position.X, this.position.Y));
 			if (character.waittime > 44 + num + 50)
@@ -102,7 +102,7 @@ namespace NSChip
 					if (this.frame > 20)
 					{
 						this.frame = 0;
-						this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+						this.sound.PlaySE(SoundEffect.thunder);
 						AttackBase a = new ElekiFang(this.sound, battle, character.union == Panel.COLOR.red ? 2 : 3, 1, character.union, this.Power(character), 2, this.element, this.count % 2 == 0);
 						a.knock = true;
 						battle.attacks.Add(this.Paralyze(a));

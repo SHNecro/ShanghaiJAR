@@ -13,7 +13,7 @@ namespace NSAttack
     internal class Beam : AttackBase
     {
         public Beam(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -59,7 +59,7 @@ namespace NSAttack
                 switch (this.frame)
                 {
                     case 0:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                        this.sound.PlaySE(SoundEffect.beam);
                         break;
                     case 4:
                         this.hitting = true;

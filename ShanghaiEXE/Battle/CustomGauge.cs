@@ -45,7 +45,7 @@ namespace NSBattle
             }
         }
 
-        public CustomGauge(MyAudio s)
+        public CustomGauge(IAudioEngine s)
           : base(s)
         {
         }
@@ -63,7 +63,7 @@ namespace NSBattle
             {
                 if (!this.customflag)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.fullcustom);
+                    this.sound.PlaySE(SoundEffect.fullcustom);
                     this.customflag = true;
                 }
                 ++this.frame;

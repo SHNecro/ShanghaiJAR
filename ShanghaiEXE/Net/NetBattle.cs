@@ -12,7 +12,7 @@ namespace NSNet
         public int result;
 
         public NetBattle(
-          MyAudio s,
+          IAudioEngine s,
           ShanghaiEXE p,
           SceneMain main,
           EventManager e,

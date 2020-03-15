@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NSShanghaiEXE.InputOutput.Audio
+namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 {
     public class AudioLoadProgressUpdatedEventArgs : EventArgs
     {

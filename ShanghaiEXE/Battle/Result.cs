@@ -51,7 +51,7 @@ namespace NSBattle
         private int illegalanimeSub;
 
         public Result(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           SceneMain main,
           byte[] t,
@@ -162,7 +162,7 @@ namespace NSBattle
                     {
                         if (this.chooseIllegal)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.noise);
+                            this.sound.PlaySE(SoundEffect.noise);
                         }
                         this.scene = this.next;
                         this.print = this.next;
@@ -208,7 +208,7 @@ namespace NSBattle
                     this.screen[this.openscreen[screenflame].X, this.openscreen[screenflame].Y] = false;
                     ++this.screenflame;
                     if (!this.chooseIllegal)
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.openchip);
+                        this.sound.PlaySE(SoundEffect.openchip);
                     if (this.screenflame >= 42)
                     {
                         for (int index1 = 0; index1 < this.screen.GetLength(0); ++index1)
@@ -218,9 +218,9 @@ namespace NSBattle
                         }
                         this.frame = 0;
                         if (this.dropchip && this.scene == Result.RESULT.printchip)
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.getchip);
+                            this.sound.PlaySE(SoundEffect.getchip);
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.getzenny);
+                            this.sound.PlaySE(SoundEffect.getzenny);
                         switch (this.scene)
                         {
                             case Result.RESULT.printchip:

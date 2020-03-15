@@ -8,7 +8,7 @@ namespace NSEvent
     {
         private readonly Player player;
 
-        public OpenMenu(MyAudio s, EventManager m, Player pl)
+        public OpenMenu(IAudioEngine s, EventManager m, Player pl)
           : base(s, m, null)
         {
             this.player = pl;

@@ -7,7 +7,7 @@ namespace NSChip
 {
     internal class TankmanV2 : TankmanV1
   {
-    public TankmanV2(MyAudio s)
+    public TankmanV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

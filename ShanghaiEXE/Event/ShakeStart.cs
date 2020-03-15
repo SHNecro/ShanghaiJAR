@@ -9,7 +9,7 @@ namespace NSEvent
         private readonly int level;
         private readonly int shakeFlame;
 
-        public ShakeStart(MyAudio s, EventManager m, int l, int f, SaveData save)
+        public ShakeStart(IAudioEngine s, EventManager m, int l, int f, SaveData save)
           : base(s, m, save)
         {
             this.shakeFlame = f;

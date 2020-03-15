@@ -118,7 +118,7 @@ namespace NSMap.Character.Menu
         }
 
         public FolderEdit(
-          MyAudio s,
+          IAudioEngine s,
           Player p,
           SceneMain m,
           TopMenu t,
@@ -169,7 +169,7 @@ namespace NSMap.Character.Menu
                 }
                 else if (Input.IsPress(Button._A))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     for (int index = 0; index < 30; ++index)
                     {
                         if (!(this.main.chipfolder[this.Selectfolder, index].chip is DammyChip))
@@ -185,7 +185,7 @@ namespace NSMap.Character.Menu
                 }
                 else if (Input.IsPress(Button._B))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     this.error = false;
                 }
             }
@@ -193,33 +193,33 @@ namespace NSMap.Character.Menu
             {
                 if (Input.IsPress(Button._A))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     this.Sort();
                     this.sortmode = !this.sortmode;
                 }
                 else if (Input.IsPress(Button._B))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     this.sortflag = false;
                 }
                 else if (Input.IsPush(Button._Start) && Input.IsPush(Button._Select))
                 {
                     this.error = true;
                     this.errorMassage = FolderEdit.ERROR.allOut;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                 }
                 else if (this.waittime <= 0)
                 {
                     if (Input.IsPush(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         --this.SortSelect;
                         this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                         this.sortmode = false;
                     }
                     else if (Input.IsPush(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         ++this.SortSelect;
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                         this.sortmode = false;
@@ -293,7 +293,7 @@ namespace NSMap.Character.Menu
                 {
                     if (this.manychips == 30 || this.savedata.havefolder[2])
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                        this.sound.PlaySE(SoundEffect.cancel);
                         this.nowscene = FolderEdit.SCENE.fadeout;
                         this.folder.FolderCheckAll();
                     }
@@ -301,12 +301,12 @@ namespace NSMap.Character.Menu
                     {
                         this.error = true;
                         this.errorMassage = FolderEdit.ERROR.nochip;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                     }
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     this.selected = false;
                 }
             }
@@ -314,11 +314,11 @@ namespace NSMap.Character.Menu
             {
                 this.error = true;
                 this.errorMassage = FolderEdit.ERROR.allOut;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
             }
             else if (Input.IsPress(Button._Start))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.sortflag = true;
                 this.sortmode = false;
                 this.sortselect = FolderEdit.SORT.id;
@@ -331,12 +331,12 @@ namespace NSMap.Character.Menu
                 }
                 else if (this.savedata.regularflag[this.Selectfolder] && this.savedata.regularchip[this.Selectfolder] == this.SelectY_Folder)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     this.savedata.regularflag[this.Selectfolder] = false;
                 }
                 else if (chip.regsize <= savedata.Regularlarge)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     this.savedata.regularflag[this.Selectfolder] = true;
                     this.savedata.regularchip[this.Selectfolder] = (byte)this.SelectY_Folder;
                 }
@@ -344,7 +344,7 @@ namespace NSMap.Character.Menu
                 {
                     this.error = true;
                     this.errorMassage = FolderEdit.ERROR.overbyte;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                 }
             }
             else if (this.waittime <= 0)
@@ -359,7 +359,7 @@ namespace NSMap.Character.Menu
                                 --this.cursol[1];
                             else
                                 --this.Topchip2;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                         }
                     }
                     else if (this.SelectY_Folder > 0)
@@ -368,7 +368,7 @@ namespace NSMap.Character.Menu
                             --this.cursol[0];
                         else
                             --this.Topchip;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
@@ -382,7 +382,7 @@ namespace NSMap.Character.Menu
                                 ++this.cursol[1];
                             else
                                 ++this.Topchip2;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                         }
                     }
                     else if (this.SelectY_Folder < 29)
@@ -391,7 +391,7 @@ namespace NSMap.Character.Menu
                             ++this.cursol[0];
                         else
                             ++this.Topchip;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
@@ -405,7 +405,7 @@ namespace NSMap.Character.Menu
                             num = 7;
                         if (num > 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                             this.Topchip2 += num;
                         }
                     }
@@ -416,7 +416,7 @@ namespace NSMap.Character.Menu
                             num = 7;
                         if (num > 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                             this.Topchip += num;
                         }
                     }
@@ -432,7 +432,7 @@ namespace NSMap.Character.Menu
                             num = 7;
                         if (num > 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                             this.Topchip2 -= num;
                         }
                     }
@@ -443,7 +443,7 @@ namespace NSMap.Character.Menu
                             num = 7;
                         if (num > 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                            this.sound.PlaySE(SoundEffect.movecursol);
                             this.Topchip -= num;
                         }
                     }
@@ -465,7 +465,7 @@ namespace NSMap.Character.Menu
                 if (this.nowscene != FolderEdit.SCENE.bag)
                     return;
                 this.leftRight = false;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                this.sound.PlaySE(SoundEffect.menuopen);
                 this.nowscene = FolderEdit.SCENE.goside;
             }
             else
@@ -473,7 +473,7 @@ namespace NSMap.Character.Menu
                 if (!Input.IsPress(Button.Right) || this.nowscene != FolderEdit.SCENE.select)
                     return;
                 this.leftRight = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                this.sound.PlaySE(SoundEffect.menuopen);
                 this.nowscene = FolderEdit.SCENE.goside;
             }
         }
@@ -885,7 +885,7 @@ namespace NSMap.Character.Menu
         {
             if (!this.selected)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.selectedForB = this.nowscene == FolderEdit.SCENE.bag;
                 this.selectedY = this.nowscene == FolderEdit.SCENE.bag ? this.SelectY_Bag : this.SelectY_Folder;
                 this.selected = true;
@@ -918,35 +918,35 @@ namespace NSMap.Character.Menu
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overchip19;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             else if (chipFolder.chip.regsize > 19 && chipFolder.chip.regsize <= 29 && num2 >= 4 + this.savedata.plusFolder)
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overchip29;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             else if (chipFolder.chip.regsize > 29 && chipFolder.chip.regsize <= 39 && num2 >= 3 + this.savedata.plusFolder)
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overchip39;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             else if (chipFolder.chip.regsize > 39 && chipFolder.chip.regsize <= 49 && num2 >= 2 + this.savedata.plusFolder)
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overchip49;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             else if (chipFolder.chip.regsize > 49 && num2 >= 1 + this.savedata.plusFolder)
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overchip99;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             int num3 = this.Manynavi();
@@ -956,7 +956,7 @@ namespace NSMap.Character.Menu
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overnavi;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             int num4 = this.Manydark();
@@ -966,12 +966,12 @@ namespace NSMap.Character.Menu
                             {
                                 this.error = true;
                                 this.errorMassage = FolderEdit.ERROR.overdark;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                                 flag = false;
                             }
                             if (flag)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                                this.sound.PlaySE(SoundEffect.decide);
                                 int index2 = 0;
                                 for (int index3 = 0; index3 < 30; ++index3)
                                 {
@@ -996,7 +996,7 @@ namespace NSMap.Character.Menu
                     }
                     else if (!(this.main.chipfolder[this.Selectfolder, this.selectedY].chip is DammyChip))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         this.savedata.AddChip(this.main.chipfolder[this.Selectfolder, this.selectedY].chip.number, this.main.chipfolder[this.Selectfolder, this.selectedY].codeNo, false);
                         if (Debug.RegularMove && (this.savedata.regularflag[this.Selectfolder] && this.savedata.regularchip[this.Selectfolder] == this.selectedY))
                             this.savedata.regularflag[this.Selectfolder] = false;
@@ -1006,7 +1006,7 @@ namespace NSMap.Character.Menu
                 }
                 else if (this.selectedForB == (this.nowscene == FolderEdit.SCENE.bag) && this.selectedY != (this.nowscene == FolderEdit.SCENE.bag ? this.SelectY_Bag : this.SelectY_Folder))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     if (this.selectedForB)
                     {
                         ChipS havechip = this.savedata.havechips[this.selectedY];
@@ -1043,7 +1043,7 @@ namespace NSMap.Character.Menu
                     }
                     if (this.savedata.havechips.Count == 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         if (!(this.main.chipfolder[this.Selectfolder, index2].chip is DammyChip))
                         {
                             this.savedata.AddChip(this.main.chipfolder[this.Selectfolder, index2].chip.number, this.main.chipfolder[this.Selectfolder, index2].codeNo, false);
@@ -1063,54 +1063,54 @@ namespace NSMap.Character.Menu
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip19;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 19 && chipFolder.chip.regsize <= 29 && num >= 4 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip29;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 29 && chipFolder.chip.regsize <= 39 && num >= 3 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip39;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 39 && chipFolder.chip.regsize <= 49 && num >= 2 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip49;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 49 && num >= 1 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip99;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         if (this.Manynavi() >= this.savedata.NaviFolder && chipFolder.chip.navi)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overnavi;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         if (this.Manydark() >= this.savedata.darkFolder && chipFolder.chip.dark)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overdark;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         if (flag)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             this.main.chipfolder[this.Selectfolder, index2].SettingChip(this.savedata.havechips[index1].number);
                             this.main.chipfolder[this.Selectfolder, index2].codeNo = this.savedata.havechips[index1].code;
                             if (Debug.RegularMove && (this.savedata.regularflag[this.Selectfolder] && this.savedata.regularchip[this.Selectfolder] == index2))
@@ -1126,7 +1126,7 @@ namespace NSMap.Character.Menu
                             ++this.manychips;
                         }
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                     }
                     else
                     {
@@ -1140,35 +1140,35 @@ namespace NSMap.Character.Menu
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip19;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 19 && chipFolder.chip.regsize <= 29 && num1 >= 4 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip29;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 29 && chipFolder.chip.regsize <= 39 && num1 >= 3 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip39;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 39 && chipFolder.chip.regsize <= 49 && num1 >= 2 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip49;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         else if (chipFolder.chip.regsize > 49 && num1 >= 1 + this.savedata.plusFolder)
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overchip99;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         int num2 = this.Manynavi();
@@ -1180,7 +1180,7 @@ namespace NSMap.Character.Menu
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overnavi;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         int num3 = this.Manydark();
@@ -1192,12 +1192,12 @@ namespace NSMap.Character.Menu
                         {
                             this.error = true;
                             this.errorMassage = FolderEdit.ERROR.overdark;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             flag = false;
                         }
                         if (flag)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             int number = this.main.chipfolder[this.Selectfolder, index2].chip.number;
                             int codeNo = this.main.chipfolder[this.Selectfolder, index2].codeNo;
                             this.main.chipfolder[this.Selectfolder, index2].SettingChip(this.savedata.havechips[index1].number);
@@ -1208,7 +1208,7 @@ namespace NSMap.Character.Menu
                                 this.savedata.regularflag[this.Selectfolder] = false;
                         }
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                     }
                 }
                 this.selected = false;

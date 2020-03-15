@@ -25,7 +25,7 @@ namespace NSChip
     private const int speed = 2;
     private int waittime;
 
-    public TripleRod(MyAudio s)
+    public TripleRod(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -60,8 +60,8 @@ namespace NSChip
         switch (this.waittime)
         {
           case 2:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
-            MyAudio sound = this.sound;
+            this.sound.PlaySE(SoundEffect.Zblade);
+            IAudioEngine sound = this.sound;
             SceneBattle parent = character.parent;
             int x = character.position.X;
             this.UnionRebirth(character.union);
@@ -75,13 +75,13 @@ namespace NSChip
             character.parent.attacks.Add(this.Paralyze(a1));
             break;
           case 4:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
+            this.sound.PlaySE(SoundEffect.Zblade);
             AttackBase a2 = new DrillAttack(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element);
             a2.invincibility = false;
             character.parent.attacks.Add(this.Paralyze(a2));
             break;
           case 6:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.Zblade);
+            this.sound.PlaySE(SoundEffect.Zblade);
             AttackBase a3 = new DrillAttack(this.sound, character.parent, character.position.X + 2 * this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element);
             a3.invincibility = false;
             character.parent.attacks.Add(this.Paralyze(a3));

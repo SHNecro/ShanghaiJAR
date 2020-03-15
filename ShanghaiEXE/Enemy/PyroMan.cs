@@ -27,7 +27,7 @@ namespace NSEnemy
         private int x;
         private int atackroop;
 
-        public PyroMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public PyroMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -246,7 +246,7 @@ namespace NSEnemy
                                     switch (this.waittime)
                                     {
                                         case 1:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                                            this.sound.PlaySE(SoundEffect.fire);
                                             ElementFire elementFire1 = new ElementFire(this.sound, this.parent, this.position.X + this.x * this.UnionRebirth(this.union), 0, this.union, this.Power, 0, ChipBase.ELEMENT.heat, false, 1);
                                             elementFire1.positionDirect.Y += num;
                                             this.parent.attacks.Add(elementFire1);
@@ -309,11 +309,11 @@ namespace NSEnemy
                                         }
                                         break;
                                     case 26:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                        this.sound.PlaySE(SoundEffect.quake);
                                         Point point1;
                                         for (int index = 0; index < this.posi.Count; ++index)
                                         {
-                                            MyAudio sound = this.sound;
+                                            IAudioEngine sound = this.sound;
                                             SceneBattle parent = this.parent;
                                             point1 = this.posi[index];
                                             int x = point1.X;
@@ -333,7 +333,7 @@ namespace NSEnemy
                                             Point point2 = this.RandomPanel(this.UnionEnemy);
                                             this.posi.Add(point2);
                                             List<AttackBase> attacks = this.parent.attacks;
-                                            MyAudio sound = this.sound;
+                                            IAudioEngine sound = this.sound;
                                             SceneBattle parent = this.parent;
                                             int x = point2.X;
                                             int y = point2.Y;
@@ -345,11 +345,11 @@ namespace NSEnemy
                                         }
                                         break;
                                     case 41:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                        this.sound.PlaySE(SoundEffect.quake);
                                         Point point3;
                                         for (int index = 0; index < this.posi.Count; ++index)
                                         {
-                                            MyAudio sound = this.sound;
+                                            IAudioEngine sound = this.sound;
                                             SceneBattle parent = this.parent;
                                             point3 = this.posi[index];
                                             int x = point3.X;
@@ -369,7 +369,7 @@ namespace NSEnemy
                                             Point point2 = this.RandomPanel(this.UnionEnemy);
                                             this.posi.Add(point2);
                                             List<AttackBase> attacks = this.parent.attacks;
-                                            MyAudio sound = this.sound;
+                                            IAudioEngine sound = this.sound;
                                             SceneBattle parent = this.parent;
                                             int x = point2.X;
                                             int y = point2.Y;
@@ -381,10 +381,10 @@ namespace NSEnemy
                                         }
                                         break;
                                     case 56:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                        this.sound.PlaySE(SoundEffect.quake);
                                         for (int index = 0; index < this.posi.Count; ++index)
                                         {
-                                            MyAudio sound = this.sound;
+                                            IAudioEngine sound = this.sound;
                                             SceneBattle parent = this.parent;
                                             Point point2 = this.posi[index];
                                             int x = point2.X;

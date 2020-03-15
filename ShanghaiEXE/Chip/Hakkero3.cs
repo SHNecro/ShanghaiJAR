@@ -10,7 +10,7 @@ namespace NSChip
   {
     private const int shotend = 68;
 
-    public Hakkero3(MyAudio s)
+    public Hakkero3(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

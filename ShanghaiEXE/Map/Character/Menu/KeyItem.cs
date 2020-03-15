@@ -34,7 +34,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public KeyItem(MyAudio s, Player p, TopMenu t, SaveData save)
+        public KeyItem(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             for (int index = 0; index < this.savedata.keyitem.Count; ++index)
@@ -82,11 +82,11 @@ namespace NSMap.Character.Menu
             {
                 ++this.infopage;
                 this.infonext = this.keyitems[this.select].info.Count > 3 + 3 * this.infopage;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.nowscene = KeyItem.SCENE.fadeout;
             }
             if (this.waittime <= 0)
@@ -97,7 +97,7 @@ namespace NSMap.Character.Menu
                         this.cursol -= 2;
                     else
                         --this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                     this.ChangeItem();
                 }
@@ -107,7 +107,7 @@ namespace NSMap.Character.Menu
                         this.cursol += 2;
                     else
                         ++this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                     this.ChangeItem();
                 }
@@ -122,7 +122,7 @@ namespace NSMap.Character.Menu
                         --this.top;
                         ++this.cursol;
                     }
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Left) ? 10 : 4;
                     this.ChangeItem();
                 }
@@ -137,7 +137,7 @@ namespace NSMap.Character.Menu
                     ++this.top;
                     --this.cursol;
                 }
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 this.waittime = Input.IsPress(Button.Right) ? 10 : 4;
                 this.ChangeItem();
             }

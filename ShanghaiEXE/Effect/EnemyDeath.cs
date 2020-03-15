@@ -15,7 +15,7 @@ namespace NSEffect
         private bool white;
 
         public EnemyDeath(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Rectangle r,
           Rectangle rw,
@@ -42,7 +42,7 @@ namespace NSEffect
             switch (this.frame)
             {
                 case 2:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.enemydeath);
+                    this.sound.PlaySE(SoundEffect.enemydeath);
                     break;
                 case 10:
                     this.posib = this.posi;
@@ -70,7 +70,7 @@ namespace NSEffect
                 this.parent.stopEnd = false;
                 this.posib = this.posi;
                 this.parent.effects.Add(new Bomber(this.sound, this.parent, Bomber.BOMBERTYPE.bomber, this.posib, 3, this.position));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                this.sound.PlaySE(SoundEffect.clincher);
             }
             this.FlameControl();
             ++this.frame;

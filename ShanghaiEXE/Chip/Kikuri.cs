@@ -14,7 +14,7 @@ namespace NSChip
 		private Point animePoint;
 		private Point target;
 
-		public Kikuri(MyAudio s)
+		public Kikuri(IAudioEngine s)
 		  : base(s)
 		{
 			this.dark = true;
@@ -95,7 +95,7 @@ namespace NSChip
 				{
 					case 1:
 						character.animationpoint.X = -1;
-						this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+						this.sound.PlaySE(SoundEffect.dark);
 						break;
 					case 360:
 						battle.attacks.Add(this.Paralyze(new SatelliteBarn(this.sound, battle, character.union == Panel.COLOR.red ? 3 : 2, 1, character.union, this.Power(character), 4, this.element)));
@@ -111,7 +111,7 @@ namespace NSChip
 
 		private void MeteorRay(CharacterBase character, SceneBattle battle)
 		{
-			this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+			this.sound.PlaySE(SoundEffect.beam);
 			this.target = this.RandomPanel(false, false, false, character.UnionEnemy, battle, 2);
 			battle.attacks.Add(new MeteorRay(this.sound, battle, this.target.X, this.target.Y, character.union, this.subpower, 4, this.element));
 		}

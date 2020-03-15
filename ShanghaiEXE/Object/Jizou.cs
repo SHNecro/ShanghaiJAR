@@ -20,7 +20,7 @@ namespace NSObject
         private Panel.COLOR attakedunion;
 
         public Jizou(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -93,7 +93,7 @@ namespace NSObject
             if (!this.breaked || this.StandPanel.Hole)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.breakObject);
                 this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, true, 0));
                 this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, false, 0));
             }

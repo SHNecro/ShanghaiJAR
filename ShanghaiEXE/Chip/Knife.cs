@@ -15,7 +15,7 @@ namespace NSChip
     private const int speed = 1;
     private bool command;
 
-    public Knife(MyAudio s)
+    public Knife(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -52,7 +52,7 @@ namespace NSChip
           this.CommandInput("上下左右", player);
           if (this.CommandCheck("下右"))
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+            this.sound.PlaySE(SoundEffect.CommandSuccess);
             this.command = true;
           }
         }
@@ -60,7 +60,7 @@ namespace NSChip
       if (!this.command)
       {
         if (character.waittime == 3)
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+          this.sound.PlaySE(SoundEffect.sword);
         if (character.waittime <= 3)
           character.animationpoint = new Point(0, 1);
         else if (character.waittime <= 9)
@@ -85,7 +85,7 @@ namespace NSChip
         if (character.waittime == 5)
         {
           int num = this.power + this.pluspower;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+          this.sound.PlaySE(SoundEffect.knife);
           character.parent.attacks.Add(this.Paralyze(new ThrowKnife(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, 10, this.Power(character), 0, 0, 3)));
         }
       }

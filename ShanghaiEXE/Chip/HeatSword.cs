@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 2;
 
-    public HeatSword(MyAudio s)
+    public HeatSword(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -42,7 +42,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       if (character.waittime == 3)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+        this.sound.PlaySE(SoundEffect.sword);
       character.animationpoint = CharacterAnimation.SworsAnimation(character.waittime);
       if (character.waittime >= 30)
         base.Action(character, battle);

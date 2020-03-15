@@ -23,7 +23,7 @@ namespace NSChip
     private const int s = 5;
     protected Point animePoint;
 
-    public HakutakuManV1(MyAudio s)
+    public HakutakuManV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -156,9 +156,9 @@ namespace NSChip
               {
                 this.beast = true;
                 this.power *= 2;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                this.sound.PlaySE(SoundEffect.docking);
               }
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+              this.sound.PlaySE(SoundEffect.warp);
               foreach (CharacterBase characterBase in battle.AllChara())
               {
                 if (characterBase.union == character.UnionEnemy)
@@ -188,7 +188,7 @@ namespace NSChip
           switch (this.frame)
           {
             case 9:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+              this.sound.PlaySE(SoundEffect.shotwave);
               AttackBase a = this.beast ? new SwordAttack(this.sound, battle, this.posi.X + this.UnionRebirth(character.union), this.posi.Y, character.union, this.Power(character), 3, this.element, false, false) : (AttackBase) new KnifeAttack(this.sound, battle, this.posi.X + this.UnionRebirth(character.union), this.posi.Y, character.union, this.Power(character), 3, this.element, false);
               battle.attacks.Add(this.Paralyze(a));
               break;

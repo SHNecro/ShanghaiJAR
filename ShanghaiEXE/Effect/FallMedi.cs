@@ -16,7 +16,7 @@ namespace NSEffect
         private float yplus;
         private readonly SaveData savedata;
 
-        public FallMedi(MyAudio s, Vector2 pd, Point posi, int angle)
+        public FallMedi(IAudioEngine s, Vector2 pd, Point posi, int angle)
           : base(s, null, posi.X, posi.Y)
         {
             this.angle = angle;

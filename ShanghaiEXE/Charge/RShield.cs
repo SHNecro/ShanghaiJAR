@@ -16,7 +16,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public RShield(MyAudio s, Player p)
+        public RShield(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;
@@ -30,7 +30,7 @@ namespace NSCharge
         {
             if (this.character.waittime == 1)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                this.sound.PlaySE(SoundEffect.rockopen);
                 this.character.shield = CharacterBase.SHIELD.Normal;
                 this.character.shieldUsed = false;
                 this.character.ReflectP = 0;

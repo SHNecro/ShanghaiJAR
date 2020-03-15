@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public ShadowBody(MyAudio s)
+    public ShadowBody(IAudioEngine s)
       : base(s)
     {
       this.number = 183;
@@ -39,7 +39,7 @@ namespace NSChip
     {
       if (character.waittime != 1)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+      this.sound.PlaySE(SoundEffect.lance);
       character.body = CharacterBase.BODY.Shadow;
       character.bodytime = 900;
       base.Action(character, battle);

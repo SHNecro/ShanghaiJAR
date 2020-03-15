@@ -11,7 +11,7 @@ namespace NSEvent
         private readonly bool keywait;
         private bool waitend;
 
-        public Wait(MyAudio s, EventManager m, int t, bool key, SaveData save)
+        public Wait(IAudioEngine s, EventManager m, int t, bool key, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = false;

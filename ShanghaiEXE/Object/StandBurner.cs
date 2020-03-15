@@ -15,7 +15,7 @@ namespace NSObject
         private bool breaked;
         private StandBurner.MOTION motion;
 
-        public StandBurner(MyAudio s, SceneBattle p, int pX, int pY, int power, Panel.COLOR union)
+        public StandBurner(IAudioEngine s, SceneBattle p, int pX, int pY, int power, Panel.COLOR union)
           : base(s, p, pX, pY, union)
         {
             this.height = 48;
@@ -61,21 +61,21 @@ namespace NSObject
                                 this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, new Point(2, 0), 60, true));
                                 break;
                             case 12:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                                this.sound.PlaySE(SoundEffect.fire);
                                 AttackBase attackBase1 = new ElementFire(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.hitPower, 18, ChipBase.ELEMENT.heat, false, 0);
                                 attackBase1.positionDirect.X -= 48 * this.UnionRebirth;
                                 attackBase1.positionDirect.Y += 2f;
                                 this.parent.attacks.Add(attackBase1);
                                 break;
                             case 15:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                                this.sound.PlaySE(SoundEffect.fire);
                                 AttackBase attackBase2 = new ElementFire(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y, this.union, this.hitPower, 18, ChipBase.ELEMENT.heat, false, 0);
                                 attackBase2.positionDirect.X -= 48 * this.UnionRebirth;
                                 attackBase2.positionDirect.Y += 2f;
                                 this.parent.attacks.Add(attackBase2);
                                 break;
                             case 18:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                                this.sound.PlaySE(SoundEffect.fire);
                                 AttackBase attackBase3 = new ElementFire(this.sound, this.parent, this.position.X + 3 * this.UnionRebirth, this.position.Y, this.union, this.hitPower, 18, ChipBase.ELEMENT.heat, false, 0);
                                 attackBase3.positionDirect.X -= 48 * this.UnionRebirth;
                                 attackBase3.positionDirect.Y += 2f;
@@ -120,7 +120,7 @@ namespace NSObject
             if (!this.breaked)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                this.sound.PlaySE(SoundEffect.clincher);
                 this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 2));
             }
             this.flag = false;

@@ -8,7 +8,7 @@ namespace NSEvent
     {
         public string musicname;
 
-        public BGMon(MyAudio s, EventManager m, string ID, int ms, SaveData save)
+        public BGMon(IAudioEngine s, EventManager m, string ID, int ms, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

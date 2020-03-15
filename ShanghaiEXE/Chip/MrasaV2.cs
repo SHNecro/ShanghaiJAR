@@ -10,7 +10,7 @@ namespace NSChip
     private const int start = 44;
     private const int speed = 2;
 
-    public MrasaV2(MyAudio s)
+    public MrasaV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

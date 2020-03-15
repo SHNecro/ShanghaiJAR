@@ -27,7 +27,7 @@ namespace NSChip
         private int index = 0;
         private int stop = 0;
 
-        public RanDS(MyAudio s)
+        public RanDS(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -164,7 +164,7 @@ namespace NSChip
                         case 1:
                             character.animationpoint.X = -1;
                             this.animePoint.X = 0;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                            this.sound.PlaySE(SoundEffect.warp);
                             break;
                         case 18:
                             this.animePoint.X = 5;
@@ -213,7 +213,7 @@ namespace NSChip
 
                             for (int q = 0; q < targetMulti.Count; q++)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+                                this.sound.PlaySE(SoundEffect.gun);
                                 //battle.attacks.Add(this.Paralyze(new BustorShot(this.sound, battle, character.position.X + this.UnionRebirth(character.union), this.targetY[this.atacks], character.union, this.Power(character), BustorShot.SHOT.ranShot, this.element, false, 6)));
                                 battle.effects.Add(new GunHit(this.sound, battle, this.targetMulti[q].X, this.targetMulti[q].Y, character.union));
                                 battle.attacks.Add(new BombAttack(this.sound, battle, this.targetMulti[q].X, this.targetMulti[q].Y, character.union, base.Power(character), 0, this.element));
@@ -223,7 +223,7 @@ namespace NSChip
                             this.targetMulti = ((IEnumerable<Point>)character.RandomMultiPanel(Math.Min(6, 8 + 2), character.UnionEnemy, true)).ToList<Point>();
                             
                             /*
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+                            this.sound.PlaySE(SoundEffect.gun);
                             //battle.attacks.Add(this.Paralyze(new BustorShot(this.sound, battle, character.position.X + this.UnionRebirth(character.union), this.targetY[this.atacks], character.union, this.Power(character), BustorShot.SHOT.ranShot, this.element, false, 6)));
                             battle.effects.Add(new GunHit(this.sound, battle, this.targetMulti[index].X, this.targetMulti[index].Y, character.union));
                             battle.attacks.Add(new BombAttack(this.sound, battle, this.targetMulti[index].X, this.targetMulti[index].Y, character.union, base.Power(character), 0, this.element));

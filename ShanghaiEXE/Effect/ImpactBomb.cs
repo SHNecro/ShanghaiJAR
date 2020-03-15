@@ -10,14 +10,14 @@ namespace NSEffect
     {
         private const byte _speed = 3;
 
-        public ImpactBomb(MyAudio s, SceneBattle p, Vector2 pd, Point posi)
+        public ImpactBomb(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = 3;
             this.positionDirect = pd;
         }
 
-        public ImpactBomb(MyAudio s, SceneBattle p, int pX, int pY)
+        public ImpactBomb(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p, pX, pY)
         {
             this.speed = 3;

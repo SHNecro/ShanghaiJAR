@@ -10,7 +10,7 @@ namespace NSEvent
         public bool hide;
         public SceneMap map;
 
-        public StatusHide(MyAudio s, EventManager m, bool hide, SceneMap map, SaveData save)
+        public StatusHide(IAudioEngine s, EventManager m, bool hide, SceneMap map, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

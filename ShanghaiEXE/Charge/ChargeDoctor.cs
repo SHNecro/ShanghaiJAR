@@ -9,7 +9,7 @@ namespace NSCharge
 {
     internal class ChargeDoctor : ChargeBase
     {
-        public ChargeDoctor(MyAudio s, Player p)
+        public ChargeDoctor(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;
@@ -23,7 +23,7 @@ namespace NSCharge
             if (this.player.waittime == 18)
             {
                 this.player.animationpoint = new Point(6, 0);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                this.sound.PlaySE(SoundEffect.chain);
                 AttackBase attackBase = new InjectBullet(this.sound, this.player.parent, this.player.position.X + this.UnionRebirth(this.player.union), this.player.position.Y, this.player.union, this.Power, this.player.picturename, this.player.Element);
                 attackBase.canCounter = false;
                 this.player.parent.attacks.Add(attackBase);

@@ -13,7 +13,7 @@ namespace NSChip
     private const int speed = 4;
     private const int shotend = 16;
 
-    public GraviBall2(MyAudio s)
+    public GraviBall2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

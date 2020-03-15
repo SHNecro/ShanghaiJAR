@@ -12,7 +12,7 @@ namespace NSEnemy
         private int no2ChipUsed;
 
         public NormalNavi(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

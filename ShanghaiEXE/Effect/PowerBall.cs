@@ -12,7 +12,7 @@ namespace NSEffect
         private Vector2 plusPosi;
         private readonly int time;
 
-        public PowerBall(MyAudio s, SceneBattle p, Vector2 pd, Vector2 pdEnd, Point posi, int time)
+        public PowerBall(IAudioEngine s, SceneBattle p, Vector2 pd, Vector2 pdEnd, Point posi, int time)
           : base(s, p, posi.X, posi.Y)
         {
             this.time = time;

@@ -7,7 +7,7 @@ namespace NSEffect
 {
     public class EffectBase : CharacterBase
     {
-        public EffectBase(MyAudio s, SceneBattle p, int pX, int pY)
+        public EffectBase(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p)
         {
             this.position = new Point(pX, pY);

@@ -13,7 +13,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public MetalCube(MyAudio s)
+    public MetalCube(IAudioEngine s)
       : base(s)
     {
       this.number = 143;
@@ -41,7 +41,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       Point point = new Point(character.position.X + this.UnionRebirth(character.union), character.position.Y);
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+      this.sound.PlaySE(SoundEffect.enterenemy);
       battle.effects.Add(new MoveEnemy(this.sound, battle, point.X, point.Y));
       if (character.InAreaCheck(point) && character.NoObject(point) && !battle.panel[point.X, point.Y].Hole)
       {

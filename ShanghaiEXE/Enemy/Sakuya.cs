@@ -27,7 +27,7 @@ namespace NSEnemy
         private int attackroop;
         private Shadow shadow;
 
-        public Sakuya(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Sakuya(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -253,7 +253,7 @@ namespace NSEnemy
                                         break;
                                     case 16:
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         this.parent.attacks.Add(new ThrowKnife(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.version < 3 ? 6 : 10, this.Power, 0, 0, 3));
                                         break;
                                     case 76:
@@ -284,7 +284,7 @@ namespace NSEnemy
                       70 - Math.Min(35, ( version - 1) * 6)
                                         }).OrderBy<int, Guid>(i => Guid.NewGuid()).ToArray<int>();
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                                        this.sound.PlaySE(SoundEffect.chain);
                                         int stoptime = 20 - Math.Min(15, (version - 1) * 3);
                                         this.parent.attacks.Add(new ThrowKnife(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), 0, this.union, this.version < 3 ? 6 : 10, this.Power, array[0], stoptime, 3));
                                         this.parent.attacks.Add(new ThrowKnife(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), 1, this.union, this.version < 3 ? 6 : 10, this.Power, array[1], stoptime, 3));
@@ -320,7 +320,7 @@ namespace NSEnemy
                       70
                                         }).OrderBy<int, Guid>(i => Guid.NewGuid()).ToArray<int>();
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                        this.sound.PlaySE(SoundEffect.sword);
                                         this.parent.attacks.Add(new KnifeAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, this.speed, ChipBase.ELEMENT.normal, false));
                                         break;
                                     case 50:
@@ -356,7 +356,7 @@ namespace NSEnemy
                       70
                                         }).OrderBy<int, Guid>(i => Guid.NewGuid()).ToArray<int>();
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                        this.sound.PlaySE(SoundEffect.sword);
                                         AttackBase attackBase = new KnifeAttack(this.sound, this.parent, this.position.X - this.UnionRebirth(this.union), this.position.Y, this.union == Panel.COLOR.blue ? Panel.COLOR.red : Panel.COLOR.blue, this.Power, this.speed, ChipBase.ELEMENT.normal, false);
                                         attackBase.union = this.union;
                                         this.parent.attacks.Add(attackBase);
@@ -387,7 +387,7 @@ namespace NSEnemy
                                         break;
                                     case 16:
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                                        this.sound.PlaySE(SoundEffect.chain);
                                         int stoptime = 20 - Math.Min(15, (version - 1) * 3);
                                         int spintime = 70 - Math.Min(30, version * 10);
                                         Point point = this.RandomTarget();
@@ -443,17 +443,17 @@ namespace NSEnemy
                       70 - Math.Min(35, ( version - 1) * 6)
                                         }).OrderBy<int, Guid>(i => Guid.NewGuid()).ToArray<int>();
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         Point point1 = this.RandomTarget();
                                         this.parent.attacks.Add(new DelayKnife(this.sound, this.parent, point1.X, point1.Y, this.union, this.Power, 16, this.element));
                                         break;
                                     case 32:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         Point point2 = this.RandomTarget();
                                         this.parent.attacks.Add(new DelayKnife(this.sound, this.parent, point2.X, point2.Y, this.union, this.Power, 16, this.element));
                                         break;
                                     case 48:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         Point point3 = this.RandomTarget();
                                         this.parent.attacks.Add(new DelayKnife(this.sound, this.parent, point3.X, point3.Y, this.union, this.Power, 16, this.element));
                                         break;

@@ -16,7 +16,7 @@ namespace NSChip
     private new bool beast;
     private new bool end;
 
-    public HakutakuManV3(MyAudio s)
+    public HakutakuManV3(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

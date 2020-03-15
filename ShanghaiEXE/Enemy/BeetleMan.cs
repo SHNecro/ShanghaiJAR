@@ -40,7 +40,7 @@ namespace NSEnemy
         private bool bugholesetEnd;
         private BugHole bughole;
 
-        public BeetleMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public BeetleMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -189,7 +189,7 @@ namespace NSEnemy
             if (this.union == Panel.COLOR.red && this.parent.turn == this.samontarn + 3)
             {
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect, this.position));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.flag = false;
             }
             if (this.alfha < byte.MaxValue)
@@ -289,7 +289,7 @@ namespace NSEnemy
                                     switch (this.waittime)
                                     {
                                         case 1:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                            this.sound.PlaySE(SoundEffect.charge);
                                             break;
                                         case 10:
                                             this.counterTiming = true;
@@ -316,7 +316,7 @@ namespace NSEnemy
                                         switch (this.waittime)
                                         {
                                             case 1:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                                this.sound.PlaySE(SoundEffect.charge);
                                                 this.animationpoint.X = 7;
                                                 break;
                                             case 15:
@@ -327,7 +327,7 @@ namespace NSEnemy
                                                 this.HitFlagReset();
                                                 this.effecting = true;
                                                 this.chargeCount = 2 + version;
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                                this.sound.PlaySE(SoundEffect.shoot);
                                                 break;
                                         }
                                     }
@@ -358,7 +358,7 @@ namespace NSEnemy
                             }
                             else
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                this.sound.PlaySE(SoundEffect.shoot);
                                 this.HitFlagReset();
                                 this.animationpoint.X = 0;
                                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
@@ -380,7 +380,7 @@ namespace NSEnemy
                         {
                             this.animationpoint.X = 9;
                             this.animationpoint.X = 0;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                            this.sound.PlaySE(SoundEffect.canon);
                             this.ShakeStart(2, 10);
                             for (int index = 0; index < (this.version < 4 ? 2 : 1); ++index)
                             {
@@ -521,7 +521,7 @@ namespace NSEnemy
             switch (this.waittime)
             {
                 case 1:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                    this.sound.PlaySE(SoundEffect.dark);
                     this.bughole = new BugHole(this.sound, this.parent, this.union == Panel.COLOR.blue ? 3 : 2, this.position.Y, this.union);
                     this.parent.objects.Add(bughole);
                     break;

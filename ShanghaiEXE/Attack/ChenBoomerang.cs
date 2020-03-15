@@ -22,7 +22,7 @@ namespace NSAttack
         private const int plusy = 70;
 
         public ChenBoomerang(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -69,7 +69,7 @@ namespace NSAttack
             this.PanelBright();
             if (this.shadow_ == null)
             {
-                MyAudio sound = this.sound;
+                IAudioEngine sound = this.sound;
                 SceneBattle parent = this.parent;
                 double x1 = positionDirect.X;
                 Point shake = this.Shake;
@@ -167,7 +167,7 @@ namespace NSAttack
                 if (!this.InAreaCheck(new Point(this.position.X, this.position.Y + (this.attackUP ? -1 : 1))))
                 {
                     this.HitFlagReset();
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                    this.sound.PlaySE(SoundEffect.knife);
                     switch (this.position.Y)
                     {
                         case 0:

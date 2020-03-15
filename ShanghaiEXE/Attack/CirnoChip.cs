@@ -19,7 +19,7 @@ namespace NSAttack
         private bool hited;
         private readonly bool sp;
 
-        public CirnoChip(MyAudio so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, bool sp = false)
+        public CirnoChip(IAudioEngine so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, bool sp = false)
           : base(so, p, pX, pY, u, po, ChipBase.ELEMENT.aqua)
         {
             if (!this.flag)
@@ -50,7 +50,7 @@ namespace NSAttack
                 this.flag = false;
             else if (!this.powerUP && (this.position.X >= 0 && this.position.X < 6 && !this.hited && this.StandPanel.state == Panel.PANEL._ice))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                this.sound.PlaySE(SoundEffect.shoot);
                 this.power *= 2;
                 this.movespeed = 8;
                 this.powerUP = true;

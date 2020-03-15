@@ -10,7 +10,7 @@ namespace NSEffect
     {
         private const byte _speed = 1;
 
-        public GunHit(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+        public GunHit(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
           : base(s, p, pX, pY)
         {
             this.speed = 1;
@@ -20,7 +20,7 @@ namespace NSEffect
             this.rebirth = true;
         }
 
-        public GunHit(MyAudio s, SceneBattle p, Vector2 posid)
+        public GunHit(IAudioEngine s, SceneBattle p, Vector2 posid)
           : base(s, p, 0, 0)
         {
             this.speed = 1;

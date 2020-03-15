@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public PyroManX(MyAudio s)
+    public PyroManX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

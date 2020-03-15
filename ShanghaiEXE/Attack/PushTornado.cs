@@ -20,7 +20,7 @@ namespace NSAttack
         private int realflame;
 
         public PushTornado(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

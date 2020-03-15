@@ -20,7 +20,7 @@ namespace NSAttack
         public ChipBase.ELEMENT cEle;
 
         public ElementFire(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -52,7 +52,7 @@ namespace NSAttack
         }
 
         public ElementFire(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public BubbleLotion(MyAudio s)
+    public BubbleLotion(IAudioEngine s)
       : base(s)
     {
       this.number = 153;

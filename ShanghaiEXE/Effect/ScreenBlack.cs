@@ -17,7 +17,7 @@ namespace NSEffect
         public bool end;
 
         public ScreenBlack(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,
@@ -36,7 +36,7 @@ namespace NSEffect
         }
 
         public ScreenBlack(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,

@@ -29,7 +29,7 @@ namespace NSEnemy
         private const int startspeed = 6;
         private DammyEnemy dammy;
 
-        public Shellrun(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Shellrun(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.wantedPosition.X = -8;
@@ -240,7 +240,7 @@ namespace NSEnemy
                     {
                         this.counterTiming = false;
                         this.animationpoint.X = 0;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                        this.sound.PlaySE(SoundEffect.quake);
                         this.ShakeStart(1, 10);
                         for (int index = 0; index < (this.version == 0 ? 1 : version); ++index)
                         {

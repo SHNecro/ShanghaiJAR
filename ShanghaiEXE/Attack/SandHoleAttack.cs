@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int time;
 
         public SandHoleAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -47,12 +47,12 @@ namespace NSAttack
                 case SandHoleAttack.MOTION.init:
                     if (this.element == ChipBase.ELEMENT.leaf)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                        this.sound.PlaySE(SoundEffect.sand);
                         this.parent.panel[this.position.X, this.position.Y].state = Panel.PANEL._grass;
                         break;
                     }
                     this.parent.panel[this.position.X, this.position.Y].state = Panel.PANEL._sand;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                    this.sound.PlaySE(SoundEffect.sand);
                     this.element = ChipBase.ELEMENT.earth;
                     break;
                 case SandHoleAttack.MOTION.set:

@@ -13,7 +13,7 @@ namespace NSChip
     private const int speed = 4;
     private const int shotend = 16;
 
-    public DarkFang(MyAudio s)
+    public DarkFang(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -52,7 +52,7 @@ namespace NSChip
         base.Action(character, battle);
       if (character.waittime != 16)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+      this.sound.PlaySE(SoundEffect.thunder);
       int num = this.power + this.pluspower;
       ElekiFang elekiFang = new ElekiFang(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 1, this.element, false);
       elekiFang.BadStatusSet(CharacterBase.BADSTATUS.paralyze, 180);

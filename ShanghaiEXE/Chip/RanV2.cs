@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public RanV2(MyAudio s)
+    public RanV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

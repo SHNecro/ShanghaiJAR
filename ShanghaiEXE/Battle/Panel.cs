@@ -95,7 +95,7 @@ namespace NSBattle
             }
         }
 
-        public Panel(MyAudio s, SceneBattle p, int x, int y)
+        public Panel(IAudioEngine s, SceneBattle p, int x, int y)
           : base(s)
         {
             this.parent = p;

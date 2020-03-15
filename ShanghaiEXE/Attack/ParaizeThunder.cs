@@ -16,7 +16,7 @@ namespace NSAttack
         private ParaizeThunder.MOTION motion;
 
         public ParaizeThunder(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -38,7 +38,7 @@ namespace NSAttack
             this.rebirth = this.union == Panel.COLOR.blue;
             this.positionre = this.position;
             this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 82);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+            this.sound.PlaySE(SoundEffect.thunder);
             this.motion = m;
             this.frame = 0;
             this.badstatus[3] = true;

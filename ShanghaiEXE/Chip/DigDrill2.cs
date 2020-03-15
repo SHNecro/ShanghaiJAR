@@ -10,7 +10,7 @@ namespace NSChip
     private const int start = 5;
     private const int speed = 3;
 
-    public DigDrill2(MyAudio s)
+    public DigDrill2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

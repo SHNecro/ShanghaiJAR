@@ -24,7 +24,7 @@ namespace NSEnemy
         private bool breathMode;
         private int breathCount;
 
-        public Juraigon(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Juraigon(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.wantedPosition.Y = -16;
@@ -227,7 +227,7 @@ namespace NSEnemy
                                             break;
                                         case 1:
                                             this.breathMode = true;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.dragonVoice);
+                                            this.sound.PlaySE(SoundEffect.dragonVoice);
                                             this.motion = Juraigon.MOTION.attack3;
                                             break;
                                         case 2:
@@ -283,13 +283,13 @@ namespace NSEnemy
                                 this.dammyEnemy[0].effecting = false;
                                 break;
                             case 8:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                this.sound.PlaySE(SoundEffect.quake);
                                 AttackBase attackBase1 = new ElementFire(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase1.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase1);
                                 break;
                             case 11:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                this.sound.PlaySE(SoundEffect.quake);
                                 int num2 = 3;
                                 AttackBase attackBase2 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y - 1, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase2.positionDirect.Y += num1;
@@ -302,7 +302,7 @@ namespace NSEnemy
                                 this.parent.attacks.Add(attackBase4);
                                 break;
                             case 14:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                this.sound.PlaySE(SoundEffect.quake);
                                 int num3 = 4;
                                 AttackBase attackBase5 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y - 1, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase5.positionDirect.Y += num1;
@@ -382,7 +382,7 @@ namespace NSEnemy
                                 this.counterTiming = false;
                                 this.dammyEnemy[0].nohit = false;
                                 this.dammyEnemy[0].effecting = false;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.dragonVoice);
+                                this.sound.PlaySE(SoundEffect.dragonVoice);
                                 this.ShakeStart(4, 180);
                                 for (int index = 0; index < 6; ++index)
                                 {

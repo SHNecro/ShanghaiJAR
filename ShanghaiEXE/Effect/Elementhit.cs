@@ -10,7 +10,7 @@ namespace NSEffect
     internal class Elementhit : EffectBase
     {
         public Elementhit(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           int sp,
@@ -23,7 +23,7 @@ namespace NSEffect
             this.element = e;
         }
 
-        public Elementhit(MyAudio s, SceneBattle p, int pX, int pY, int sp, ChipBase.ELEMENT e)
+        public Elementhit(IAudioEngine s, SceneBattle p, int pX, int pY, int sp, ChipBase.ELEMENT e)
           : base(s, p, pX, pY)
         {
             this.speed = sp;

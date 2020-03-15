@@ -22,7 +22,7 @@ namespace NSEvent
 		private int alpha;
 
 		public Credit(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
 		  string key,
           Point position,

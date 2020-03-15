@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public BusterAnp(MyAudio s)
+    public BusterAnp(IAudioEngine s)
       : base(s)
     {
       this.number = 136;
@@ -40,7 +40,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.teacharrow);
+        this.sound.PlaySE(SoundEffect.teacharrow);
         battle.effects.Add(new Repair(this.sound, battle, new Vector2((int)character.positionDirect.X * this.UnionRebirth(character.union), (int)character.positionDirect.Y + 16), 2, character.position));
       }
       if (character.waittime < 12)

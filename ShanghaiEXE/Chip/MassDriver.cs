@@ -16,7 +16,7 @@ namespace NSChip
     private int roopcount;
     private const int roop = 5;
 
-    public MassDriver(MyAudio s)
+    public MassDriver(IAudioEngine s)
       : base(s)
     {
       this.number = 280;
@@ -57,7 +57,7 @@ namespace NSChip
       }
       if (character.waittime != 6)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+      this.sound.PlaySE(SoundEffect.canon);
       Point point = new Point(character.position.X + 3 * this.UnionRebirth(character.union), character.position.Y);
       Vector2 vector2 = new Vector2(character.positionDirect.X + 30 * this.UnionRebirth(character.union), character.positionDirect.Y - 3f);
       character.parent.attacks.Add(this.Paralyze(new ObjectShoot(this.sound, character.parent, character.position.X, character.position.Y, new Vector2(character.positionDirect.X, character.positionDirect.Y + 8f), character.union, this.Power(character), ChipBase.ELEMENT.normal)));

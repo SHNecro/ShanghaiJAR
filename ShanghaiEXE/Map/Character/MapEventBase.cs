@@ -53,7 +53,7 @@ namespace NSMap.Character
         }
 
         public MapEventBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,
@@ -74,7 +74,7 @@ namespace NSMap.Character
         }
 
         public MapEventBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,

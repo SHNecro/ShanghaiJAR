@@ -13,7 +13,7 @@ namespace NSEffect
         private new readonly bool rebirth;
 
         public AfterFire(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,

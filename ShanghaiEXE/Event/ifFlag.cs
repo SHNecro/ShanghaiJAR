@@ -10,7 +10,7 @@ namespace NSEvent
         private readonly bool trueORfalse;
         private int ifID;
 
-        public ifFlag(MyAudio s, EventManager m, int n, bool tORf, int ID, SaveData save)
+        public ifFlag(IAudioEngine s, EventManager m, int n, bool tORf, int ID, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

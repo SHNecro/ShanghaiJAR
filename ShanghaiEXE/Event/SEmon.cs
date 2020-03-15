@@ -9,7 +9,7 @@ namespace NSEvent
     {
         public string lavelID;
 
-        public SEmon(MyAudio s, EventManager m, string ID, int ms, SaveData save)
+        public SEmon(IAudioEngine s, EventManager m, string ID, int ms, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;
@@ -18,7 +18,7 @@ namespace NSEvent
 
         public override void Update()
         {
-            this.sound.PlaySE((MyAudio.SOUNDNAMES)Enum.Parse(typeof(MyAudio.SOUNDNAMES), this.lavelID));
+            this.sound.PlaySE((SoundEffect)Enum.Parse(typeof(SoundEffect), this.lavelID));
             this.EndCommand();
         }
 

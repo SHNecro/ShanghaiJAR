@@ -14,7 +14,7 @@ namespace NSChip
     private const int shotend = 28;
     private int count;
 
-    public DarkBreath(MyAudio s)
+    public DarkBreath(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);
@@ -92,7 +92,7 @@ namespace NSChip
         if (character.waittime == 6 || character.waittime == 15 || character.waittime == 24)
         {
           character.animationpoint = new Point(6, 0);
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+          this.sound.PlaySE(SoundEffect.quake);
           ElementFire elementFire1 = new ElementFire(this.sound, character.parent, character.position.X + this.count * this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 6, this.element, false, 1);
           elementFire1.positionDirect.X += 16 * this.UnionRebirth(character.union);
           elementFire1.invincibility = true;

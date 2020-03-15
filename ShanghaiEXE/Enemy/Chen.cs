@@ -89,7 +89,7 @@ namespace NSEnemy
             }
         }
 
-        public Chen(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Chen(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -325,7 +325,7 @@ namespace NSEnemy
                                     {
                                         case 5:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                            this.sound.PlaySE(SoundEffect.knife);
                                             this.ready = true;
                                             this.effecting = true;
                                             this.waittime = 0;
@@ -404,11 +404,11 @@ namespace NSEnemy
                                     switch (num)
                                     {
                                         case 1:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                            this.sound.PlaySE(SoundEffect.shoot);
                                             break;
                                         case 7:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                            this.sound.PlaySE(SoundEffect.knife);
                                             this.ready = true;
                                             this.effecting = true;
                                             this.movestart = false;
@@ -460,7 +460,7 @@ namespace NSEnemy
                                         this.OgreSet();
                                     }
                                     if (flag)
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bound);
+                                        this.sound.PlaySE(SoundEffect.bound);
                                 }
                                 this.positionDirect.X += this.angleLEFT ? -this.movespeed.X : this.movespeed.X;
                                 this.positionDirect.Y += this.angleDOWN ? this.movespeed.Y : -this.movespeed.Y;

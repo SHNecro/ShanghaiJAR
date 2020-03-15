@@ -35,7 +35,7 @@ namespace NSChip
         private const int s = 5;
         private Point animePoint;
 
-        public TwinHeroines(MyAudio s)
+        public TwinHeroines(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -87,12 +87,12 @@ namespace NSChip
                                 character.positionDirect.Y -= 8f;
                                 this.xPosition.X += 48 * this.UnionRebirth(character.union);
                                 this.xPosition.Y += 8f;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                                this.sound.PlaySE(SoundEffect.warp);
                                 this.animePoint = new Point();
                                 this.chargeEffect = 0;
                                 break;
                             case 5:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                this.sound.PlaySE(SoundEffect.charge);
                                 this.chargeEffect = 1;
                                 break;
                             case 30:
@@ -135,7 +135,7 @@ namespace NSChip
                                     this.frame = 0;
                                     break;
                                 }
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                                this.sound.PlaySE(SoundEffect.damageenemy);
                                 battle.effects.Add(new NormalChargehit(this.sound, battle, this.positions[this.count1].X, this.positions[this.count1].Y, 2));
                                 ++this.count1;
                                 if (this.count1 >= this.positions.Count)
@@ -147,8 +147,8 @@ namespace NSChip
                                 }.invincibility = false;
                                 break;
                             case 3:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                                this.sound.PlaySE(SoundEffect.sword);
+                                this.sound.PlaySE(SoundEffect.damageenemy);
                                 battle.effects.Add(new NormalChargehit(this.sound, battle, this.positions[this.count1].X, this.positions[this.count1].Y, 3));
                                 ++this.count1;
                                 if (this.count1 >= this.positions.Count)

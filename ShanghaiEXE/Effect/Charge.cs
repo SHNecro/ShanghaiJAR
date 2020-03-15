@@ -11,7 +11,7 @@ namespace NSEffect
         public int chargeEffect = -1;
         private const byte _speed = 1;
 
-        public Charge(MyAudio s, SceneBattle p, Vector2 pd, Point posi)
+        public Charge(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.upprint = true;
@@ -19,7 +19,7 @@ namespace NSEffect
             this.positionDirect = pd;
         }
 
-        public Charge(MyAudio s, SceneBattle p, int pX, int pY)
+        public Charge(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p, pX, pY)
         {
             this.upprint = true;
@@ -32,7 +32,7 @@ namespace NSEffect
             switch (this.frame)
             {
                 case 1:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                    this.sound.PlaySE(SoundEffect.charge);
                     this.chargeEffect = 1;
                     break;
                 case 25:

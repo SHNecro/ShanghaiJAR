@@ -22,7 +22,7 @@ namespace NSGame
         private string[,] codes;
         private int code;
         private readonly SaveData savedata;
-        private readonly MyAudio sound;
+        private readonly IAudioEngine sound;
         public bool menuOn;
         private bool topmenu;
         private int topCursor;
@@ -425,7 +425,7 @@ namespace NSGame
             dg.DrawMicroText("にｱ", this._position, white2);
         }
 
-        public DebugMode(MyAudio s, SaveData savedata, SceneMap parent)
+        public DebugMode(IAudioEngine s, SaveData savedata, SceneMap parent)
         {
             this.sound = s;
             this.savedata = savedata;
@@ -660,11 +660,11 @@ namespace NSGame
                 try
                 {
                     this.savedata.GetAddon(AddOnBase.AddOnSet(this.subCursor, this.code));
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.getchip);
+                    this.sound.PlaySE(SoundEffect.getchip);
                 }
                 catch
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                 }
             }
             if (!Input.IsPress(Button._Select)) { }

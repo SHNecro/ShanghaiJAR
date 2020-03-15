@@ -38,7 +38,7 @@ namespace NSAttack
         private int damage;
 
         public AttackBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -76,7 +76,7 @@ namespace NSAttack
         }
 
         public AttackBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -104,7 +104,7 @@ namespace NSAttack
         }
 
         public AttackBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -126,7 +126,7 @@ namespace NSAttack
         }
 
         public AttackBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -347,7 +347,7 @@ namespace NSAttack
                 c.hitLog.Add(this.keyName);
                 if (this.BarierCheck(c, this.damage))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                    this.sound.PlaySE(SoundEffect.damageplayer);
                     if (c.guard != CharacterBase.GUARD.noDamage)
                         c.Hp -= this.damage;
                     if (c.body == CharacterBase.BODY.Synchro)
@@ -388,13 +388,13 @@ namespace NSAttack
                         if (c.Hp > 0)
                             c.ShakeSingleStart(4, 30);
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                            this.sound.PlaySE(SoundEffect.clincher);
                     }
                     c.Dameged(this);
                     if (c.armarCount == 0 && c.guard == CharacterBase.GUARD.armar)
                     {
                         c.guard = CharacterBase.GUARD.none;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                        this.sound.PlaySE(SoundEffect.breakObject);
                     }
                     return true;
                 }
@@ -402,7 +402,7 @@ namespace NSAttack
             if (c.armarCount == 0 && c.guard == CharacterBase.GUARD.armar)
             {
                 c.guard = CharacterBase.GUARD.none;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.breakObject);
             }
             return false;
         }
@@ -423,7 +423,7 @@ namespace NSAttack
                 bool flag = false;
                 if (this.BarierCheck(c, this.damage))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                    this.sound.PlaySE(SoundEffect.damageenemy);
                     if (c.guard != CharacterBase.GUARD.noDamage)
                         c.Hp -= this.damage;
                     if (c.body == CharacterBase.BODY.Synchro)
@@ -510,8 +510,8 @@ namespace NSAttack
                         }
                         else
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                            this.sound.PlaySE(SoundEffect.bomb);
+                            this.sound.PlaySE(SoundEffect.eriasteal2);
                         }
                     }
                     else if (c.race == EnemyBase.ENEMY.virus)
@@ -558,7 +558,7 @@ namespace NSAttack
                     if (c.armarCount == 0 && c.guard == CharacterBase.GUARD.armar)
                     {
                         c.guard = CharacterBase.GUARD.none;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                        this.sound.PlaySE(SoundEffect.breakObject);
                     }
                     return true;
                 }
@@ -566,7 +566,7 @@ namespace NSAttack
             if (c.armarCount == 0 && c.guard == CharacterBase.GUARD.armar)
             {
                 c.guard = CharacterBase.GUARD.none;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.breakObject);
             }
             return false;
         }
@@ -587,7 +587,7 @@ namespace NSAttack
                 {
                     if (this.damage == 0)
                         return true;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                    this.sound.PlaySE(SoundEffect.damageenemy);
                     if (this.breaking && o.guard != CharacterBase.GUARD.guard && !o.slipping)
                         o.Hp = 0;
                     else if (o.guard != CharacterBase.GUARD.noDamage)
@@ -599,7 +599,7 @@ namespace NSAttack
                         if (o.Hp > 0)
                             o.ShakeSingleStart(2, 32);
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                            this.sound.PlaySE(SoundEffect.clincher);
                     }
                     o.Dameged(this);
                     return true;
@@ -620,7 +620,7 @@ namespace NSAttack
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                    this.sound.PlaySE(SoundEffect.damagezero);
                     num1 = 1;
                 }
             }
@@ -679,7 +679,7 @@ namespace NSAttack
             bool flag = false;
             if (c.shield != CharacterBase.SHIELD.none && !this.breaking)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                this.sound.PlaySE(SoundEffect.damagezero);
                 this.parent.effects.Add(new Guard(this.sound, this.parent, new Vector2(c.positionDirect.X + this.Random.Next(-16, 16), c.positionDirect.Y + this.Random.Next(-16, 16)), 2, c.position));
                 damage = 0;
                 if (!c.shieldUsed)
@@ -701,7 +701,7 @@ namespace NSAttack
                             this.parent.attacks.Add(bustorShot2);
                             break;
                         case CharacterBase.SHIELD.Repair:
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                            this.sound.PlaySE(SoundEffect.repair);
                             c.Hp += this.power;
                             BustorShot bustorShot3 = new BustorShot(this.sound, this.parent, c.position.X - this.UnionRebirth, c.position.Y, this.UnionEnemy, this.power, BustorShot.SHOT.reflect, ChipBase.ELEMENT.normal, false, 0)
                             {
@@ -717,7 +717,7 @@ namespace NSAttack
             if (c.guard == CharacterBase.GUARD.guard && !this.breaking)
             {
                 c.NoDameged(this);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                this.sound.PlaySE(SoundEffect.damagezero);
                 this.parent.effects.Add(new Guard(this.sound, this.parent, new Vector2(c.positionDirect.X + this.Random.Next(-16, 16), c.positionDirect.Y + this.Random.Next(-16, 16)), 2, c.position));
                 damage = 0;
                 return false;
@@ -727,13 +727,13 @@ namespace NSAttack
                 damage /= 2;
                 if (c.armarCount > 0)
                     --c.armarCount;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                this.sound.PlaySE(SoundEffect.damagezero);
             }
             else if (c.guard == CharacterBase.GUARD.armar && this.breaking)
             {
                 c.guard = CharacterBase.GUARD.none;
                 c.armarCount = 0;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.breakObject);
             }
             switch (c.barrierType)
             {
@@ -741,28 +741,28 @@ namespace NSAttack
                 case CharacterBase.BARRIER.HealBarrier:
                 case CharacterBase.BARRIER.FloteBarrier:
                     if (c.barrierEX)
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                        this.sound.PlaySE(SoundEffect.damageenemy);
                     else
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                        this.sound.PlaySE(SoundEffect.damagezero);
                     c.barierPower -= damage;
                     if (c.barierPower <= 0)
                         c.DeleteBarier();
                     damage = 0;
                     break;
                 case CharacterBase.BARRIER.PowerAura:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                    this.sound.PlaySE(SoundEffect.damagezero);
                     if (damage >= c.barierPower)
                         c.DeleteBarier();
                     damage = 0;
                     break;
                 case CharacterBase.BARRIER.ElementsAura:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                    this.sound.PlaySE(SoundEffect.damagezero);
                     if ((uint)this.Element > 0U)
                         c.DeleteBarier();
                     damage = 0;
                     break;
                 case CharacterBase.BARRIER.MetalAura:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                    this.sound.PlaySE(SoundEffect.damagezero);
                     if (this.breaking)
                         c.DeleteBarier();
                     damage = 0;

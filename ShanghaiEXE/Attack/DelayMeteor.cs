@@ -18,7 +18,7 @@ namespace NSAttack
         private int hittime;
 
         public DelayMeteor(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -67,7 +67,7 @@ namespace NSAttack
             }
             if (this.hittime <= 0)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                this.sound.PlaySE(SoundEffect.bombmiddle);
                 this.ShakeStart(2, 16);
                 this.parent.effects.Add(new ImpactBomb(this.sound, this.parent, this.position.X, this.position.Y));
                 this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, this.element));
@@ -91,7 +91,7 @@ namespace NSAttack
                 return false;
             this.flag = false;
             this.ShakeStart(2, 16);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, charaposition.X, charaposition.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             return true;
         }
@@ -102,7 +102,7 @@ namespace NSAttack
                 return false;
             this.flag = false;
             this.ShakeStart(2, 16);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, charaposition.X, charaposition.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             return true;
         }

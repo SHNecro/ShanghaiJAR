@@ -18,7 +18,7 @@ namespace NSAttack
         public ChipBase.ELEMENT cEle = ChipBase.ELEMENT.normal;
 
         public Storm(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -47,12 +47,12 @@ namespace NSAttack
                 this.power *= 2;
                 this.StandPanel.state = Panel.PANEL._nomal;
             }
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+            this.sound.PlaySE(SoundEffect.shoot);
             this.cEle = this.element;
         }
 
         public Storm(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -83,7 +83,7 @@ namespace NSAttack
                 this.power *= 2;
                 this.StandPanel.state = Panel.PANEL._nomal;
             }
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+            this.sound.PlaySE(SoundEffect.shoot);
             this.cEle = this.element;
         }
 

@@ -12,7 +12,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public MegaTomahawk(MyAudio s)
+    public MegaTomahawk(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -49,7 +49,7 @@ namespace NSChip
       if (character.waittime != 5)
         return;
       int num = this.power + this.pluspower;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+      this.sound.PlaySE(SoundEffect.knife);
       character.parent.attacks.Add(this.Paralyze(new NSAttack.Tomahawk(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 1, 1, this.element)));
     }
 

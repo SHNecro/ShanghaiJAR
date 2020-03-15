@@ -10,7 +10,7 @@ namespace NSChip
     private const int speed = 2;
     private new Point animePoint;
 
-    public SpannerManV2(MyAudio s)
+    public SpannerManV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

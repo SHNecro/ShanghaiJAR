@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public PoisonStage(MyAudio s)
+    public PoisonStage(IAudioEngine s)
       : base(s)
     {
       this.number = 171;
@@ -40,7 +40,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+        this.sound.PlaySE(SoundEffect.eriasteal2);
         for (int pX = 0; pX < battle.panel.GetLength(0); ++pX)
         {
           for (int pY = 0; pY < battle.panel.GetLength(1); ++pY)

@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public ElementsAura(MyAudio s)
+    public ElementsAura(IAudioEngine s)
       : base(s)
     {
       this.number = 151;
@@ -38,7 +38,7 @@ namespace NSChip
 
     public override void Action(CharacterBase character, SceneBattle battle)
     {
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+      this.sound.PlaySE(SoundEffect.enterenemy);
       character.barrierType = CharacterBase.BARRIER.ElementsAura;
       character.barierPower = 0;
       character.barierTime = 3200;

@@ -28,7 +28,7 @@ namespace NSCharge
             }
         }
 
-        public ChargeBase(MyAudio s, Player p)
+        public ChargeBase(IAudioEngine s, Player p)
           : base(s)
         {
             this.player = p;

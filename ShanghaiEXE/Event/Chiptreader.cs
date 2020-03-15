@@ -85,7 +85,7 @@ namespace NSEvent
             }
         }
 
-        public Chiptreader(MyAudio s, EventManager m, Player player, int type, SaveData save)
+        public Chiptreader(IAudioEngine s, EventManager m, Player player, int type, SaveData save)
           : base(s, m, save)
         {
             this.treader = (Chiptreader.Treader)type;
@@ -234,14 +234,14 @@ namespace NSEvent
                 }
                 else
                     this.nowscene = Chiptreader.SCENE.fadeout;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
             }
             else if (Input.IsPress(Button._Start))
             {
                 if (this.setchips.Count % this.MaxSet == 0 && this.setchips.Count > 0)
                     this.Start();
                 else
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
             }
             else if (this.waittime <= 0)
             {
@@ -253,7 +253,7 @@ namespace NSEvent
                             --this.cursol;
                         else
                             --this.Topchip;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
@@ -265,7 +265,7 @@ namespace NSEvent
                             ++this.cursol;
                         else
                             ++this.Topchip;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
@@ -277,7 +277,7 @@ namespace NSEvent
                         num = 7;
                     if (num > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.Topchip += num;
                     }
                     this.waittime = Input.IsPress(Button._R) ? 10 : 4;
@@ -292,7 +292,7 @@ namespace NSEvent
                         num = 7;
                     if (num > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.Topchip -= num;
                     }
                     this.waittime = Input.IsPress(Button._L) ? 10 : 4;
@@ -318,16 +318,16 @@ namespace NSEvent
                 }
                 if (this.setchips.Count % this.MaxSet == 0)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                    this.sound.PlaySE(SoundEffect.docking);
                     if (this.setchips.Count / this.MaxSet >= 10)
                         this.Start();
                 }
                 else
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
             }
             else
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                this.sound.PlaySE(SoundEffect.error);
                 this.eventmanager.events.Clear();
                 this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
                 var dialogue = ShanghaiEXE.Translate("ChipTrader.RareChipStopDialogue1");

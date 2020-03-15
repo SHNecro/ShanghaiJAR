@@ -23,7 +23,7 @@ namespace NSEnemy
         private Point potisionNeutral;
         private DammyEnemy dammy;
 
-        public Musya(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Musya(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.Y = -4;
@@ -217,7 +217,7 @@ namespace NSEnemy
                                     this.potisionNeutral = this.position;
                                     this.DammySet();
                                     this.motion = Musya.MOTION.attack;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                    this.sound.PlaySE(SoundEffect.shoot);
                                     this.effecting = true;
                                     break;
                                 }
@@ -261,7 +261,7 @@ namespace NSEnemy
                             switch (this.frame)
                             {
                                 case 3:
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                    this.sound.PlaySE(SoundEffect.sword);
                                     AttackBase attackBase;
                                     if (this.version > 0)
                                     {

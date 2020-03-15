@@ -11,7 +11,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public BackWind(MyAudio s)
+    public BackWind(IAudioEngine s)
       : base(s)
     {
       this.number = 92;
@@ -38,7 +38,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       Point point = new Point(character.position.X + this.UnionRebirth(character.union), character.position.Y);
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+      this.sound.PlaySE(SoundEffect.shoot);
       battle.effects.RemoveAll(e => e is NSEffect.BackWind);
       battle.effects.RemoveAll(e => e is NSEffect.PushWind);
       battle.effects.Add(new NSEffect.BackWind(this.sound, battle, new Vector2(), new Point(), character.union));

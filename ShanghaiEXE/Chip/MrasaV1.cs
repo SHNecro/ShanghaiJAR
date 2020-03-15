@@ -17,7 +17,7 @@ namespace NSChip
     protected Point target;
     protected Point animePoint;
 
-    public MrasaV1(MyAudio s)
+    public MrasaV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -76,7 +76,7 @@ namespace NSChip
         case 6:
           character.parent.effects.Add(new MoveEnemy(this.sound, character.parent, character.position.X, character.position.Y));
           this.animePoint.X = 0;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+          this.sound.PlaySE(SoundEffect.warp);
           break;
         case 7:
           this.target = this.RandomTarget(character, battle);

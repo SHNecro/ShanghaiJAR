@@ -18,7 +18,7 @@ namespace NSAttack
         private readonly bool spled;
 
         public CanonBullet(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -89,7 +89,7 @@ namespace NSAttack
                 return false;
             this.flag = false;
             this.ShakeStart(2, 16);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, charaposition.X, charaposition.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             if (this.spled)
             {
@@ -145,7 +145,7 @@ namespace NSAttack
                 return false;
             this.flag = false;
             this.ShakeStart(2, 16);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, charaposition.X, charaposition.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             if (this.spled)
             {

@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public Repair50(MyAudio s)
+    public Repair50(IAudioEngine s)
       : base(s)
     {
       this.number = 175;
@@ -40,7 +40,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+        this.sound.PlaySE(SoundEffect.repair);
         battle.effects.Add(new Repair(this.sound, battle, new Vector2((int)character.positionDirect.X * this.UnionRebirth(character.union), (int)character.positionDirect.Y + 16), 2, character.position));
         character.Hp += this.subpower;
       }

@@ -15,7 +15,7 @@ namespace NSEffect
         private readonly Bomber bomber;
         private bool mute;
 
-        public FireBall(MyAudio s, Vector2 pd, Point posi, bool mute = false)
+        public FireBall(IAudioEngine s, Vector2 pd, Point posi, bool mute = false)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;
@@ -36,7 +36,7 @@ namespace NSEffect
                     return;
                 if (!this.mute)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                    this.sound.PlaySE(SoundEffect.bombmiddle);
                 }
                 this.ShakeStart(2, 4);
                 this.bomber.positionDirect = this.positionDirect;

@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public Resist(MyAudio s)
+    public Resist(IAudioEngine s)
       : base(s)
     {
       this.number = 181;
@@ -41,7 +41,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+        this.sound.PlaySE(SoundEffect.docking);
         character.waittime = 2;
         for (int index = 0; index < character.badstatus.Length; ++index)
         {

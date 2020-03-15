@@ -36,7 +36,7 @@ namespace NSAttack
         }
 
         public ThrowKnife(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -106,7 +106,7 @@ namespace NSAttack
             {
                 --this.stoptime;
                 if (this.stoptime == 0)
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                    this.sound.PlaySE(SoundEffect.knife);
             }
             else
             {

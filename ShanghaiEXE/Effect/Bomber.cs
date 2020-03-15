@@ -10,7 +10,7 @@ namespace NSEffect
     {
         private readonly Bomber.BOMBERTYPE type;
 
-        public Bomber(MyAudio s, SceneBattle p, Bomber.BOMBERTYPE t, Vector2 pd, int sp, Point posi)
+        public Bomber(IAudioEngine s, SceneBattle p, Bomber.BOMBERTYPE t, Vector2 pd, int sp, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = sp;
@@ -22,7 +22,7 @@ namespace NSEffect
                 this.animationpoint.Y = (int)this.type;
         }
 
-        public Bomber(MyAudio s, SceneBattle p, int pX, int pY, Bomber.BOMBERTYPE t, int sp)
+        public Bomber(IAudioEngine s, SceneBattle p, int pX, int pY, Bomber.BOMBERTYPE t, int sp)
           : base(s, p, pX, pY)
         {
             this.speed = sp;

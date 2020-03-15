@@ -16,7 +16,7 @@ namespace NSEffect
         private readonly int bombtime;
 
         public Soul(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,
@@ -34,7 +34,7 @@ namespace NSEffect
         }
 
         public Soul(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

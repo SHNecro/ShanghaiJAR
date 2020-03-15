@@ -22,7 +22,7 @@ namespace NSEvent
         private int flagNo;
 
         public MysteryItem(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           MapField field,
           RandomMystery item,
@@ -38,7 +38,7 @@ namespace NSEvent
         }
 
         public MysteryItem(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           MapField field,
           RandomMystery item,

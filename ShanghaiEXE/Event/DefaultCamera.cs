@@ -14,7 +14,7 @@ namespace NSEvent
         private bool pointset;
         private readonly SceneMap parent;
 
-        public DefaultCamera(MyAudio s, EventManager m, int moveTime, SceneMap parent, SaveData save)
+        public DefaultCamera(IAudioEngine s, EventManager m, int moveTime, SceneMap parent, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = false;

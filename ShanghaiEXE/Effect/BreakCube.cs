@@ -17,7 +17,7 @@ namespace NSEffect
         private readonly int color;
 
         public BreakCube(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Point position,
           float pX,

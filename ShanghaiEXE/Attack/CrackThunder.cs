@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly bool crack;
 
         public CrackThunder(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -37,7 +37,7 @@ namespace NSAttack
             this.rebirth = this.union == Panel.COLOR.blue;
             this.positionre = this.position;
             this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 82);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+            this.sound.PlaySE(SoundEffect.thunder);
             this.motion = CrackThunder.MOTION.init;
             this.frame = 0;
             this.crack = crack;
@@ -61,7 +61,7 @@ namespace NSAttack
                             if (this.crack)
                             {
                                 this.ShakeStart(4, 3);
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                this.sound.PlaySE(SoundEffect.canon);
                                 this.StandPanel.Crack();
                             }
                             break;

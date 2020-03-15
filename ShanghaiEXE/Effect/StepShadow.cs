@@ -14,7 +14,7 @@ namespace NSEffect
         private bool white;
 
         public StepShadow(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Rectangle r,
           Vector2 v,

@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int time;
 
         public FlanGear(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -41,7 +41,7 @@ namespace NSAttack
                 this.rebirth = this.union == Panel.COLOR.red;
                 this.positionre = this.position;
                 this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 82);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+                this.sound.PlaySE(SoundEffect.wave);
                 this.motion = m;
                 this.frame = 0;
             }

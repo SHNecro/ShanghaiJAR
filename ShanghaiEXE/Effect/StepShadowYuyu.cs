@@ -15,7 +15,7 @@ namespace NSEffect
         private int a, b, c;
 
         public StepShadowYuyu(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Rectangle r,
           Vector2 v,

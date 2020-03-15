@@ -19,7 +19,7 @@ namespace NSAttack
         private readonly int color;
 
         public MonkeyPoleChip(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

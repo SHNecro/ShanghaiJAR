@@ -79,7 +79,7 @@ namespace NSEnemy
             }
         }
 
-        public Uthuho(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Uthuho(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -360,7 +360,7 @@ namespace NSEnemy
                                             this.PositionDirectSet();
                                             this.speed = 2;
                                             this.counterTiming = true;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+                                            this.sound.PlaySE(SoundEffect.futon);
                                             break;
                                         case 3:
                                             this.counterTiming = false;
@@ -377,7 +377,7 @@ namespace NSEnemy
                                     this.animationpoint = this.AnimeMeteor2(waittime);
                                     if (this.waittime % 2 == 0 && this.waittime < 60 && waittime == 2)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+                                        this.sound.PlaySE(SoundEffect.futon);
                                         this.target = this.RandomTarget();
                                         this.parent.attacks.Add(new DelayMeteor(this.sound, this.parent, this.target.X, this.target.Y, this.union, this.Power, 90, this.Element));
                                     }
@@ -414,7 +414,7 @@ namespace NSEnemy
                                     {
                                         case 1:
                                             this.counterTiming = true;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+                                            this.sound.PlaySE(SoundEffect.futon);
                                             this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, new Point(9, 2), 30, true));
                                             break;
                                         case 15:
@@ -424,7 +424,7 @@ namespace NSEnemy
                                             this.ready = true;
                                             this.effecting = true;
                                             this.waittime = 0;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                            this.sound.PlaySE(SoundEffect.shoot);
                                             break;
                                     }
                                 }
@@ -442,8 +442,8 @@ namespace NSEnemy
                                         this.superArmor = true;
                                         this.speed = 4;
                                         this.counterTiming = true;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                        this.sound.PlaySE(SoundEffect.dark);
+                                        this.sound.PlaySE(SoundEffect.charge);
                                         break;
                                     case 7:
                                         this.counterTiming = false;
@@ -499,7 +499,7 @@ namespace NSEnemy
                             else
                             {
                                 this.rebirth = true;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                this.sound.PlaySE(SoundEffect.shoot);
                                 this.HitFlagReset();
                                 this.positionre = new Point(this.position.X, this.position.Y == 0 ? 2 : 0);
                                 this.position = this.positionre;

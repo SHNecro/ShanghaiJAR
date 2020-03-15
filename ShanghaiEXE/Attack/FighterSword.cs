@@ -14,7 +14,7 @@ namespace NSAttack
     internal class FighterSword : AttackBase
     {
         public FighterSword(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

@@ -13,7 +13,7 @@ namespace NSEffect
         private readonly EnemyBase MainEnemy;
         public Point slide;
 
-        public EnemyShadow(MyAudio s, SceneBattle p, EnemyBase MainEnemy, bool rebirth)
+        public EnemyShadow(IAudioEngine s, SceneBattle p, EnemyBase MainEnemy, bool rebirth)
           : base(s, p, MainEnemy.position.X, MainEnemy.position.Y)
         {
             this.rebirth = rebirth;

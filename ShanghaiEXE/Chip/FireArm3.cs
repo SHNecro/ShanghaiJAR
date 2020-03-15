@@ -13,7 +13,7 @@ namespace NSChip
     private const int shotend = 28;
     private int count;
 
-    public FireArm3(MyAudio s)
+    public FireArm3(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -62,7 +62,7 @@ namespace NSChip
       if (character.waittime == 6 || character.waittime == 15 || character.waittime == 24)
       {
         character.animationpoint = new Point(6, 0);
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+        this.sound.PlaySE(SoundEffect.fire);
         AttackBase a = new ElementFire(this.sound, character.parent, character.position.X + this.count * this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 6, this.element, true, 0);
         a.positionDirect.X -= 48 * this.UnionRebirth(character.union);
         a.breaking = true;

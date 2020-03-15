@@ -31,7 +31,7 @@ namespace NSGame
             }
         }
 
-        public SceneMain(MyAudio s, ShanghaiEXE p, SaveData save)
+        public SceneMain(IAudioEngine s, ShanghaiEXE p, SaveData save)
           : base(s, p, save)
         {
             this.eventmanager = new EventManager(this.mapscene, this.sound);

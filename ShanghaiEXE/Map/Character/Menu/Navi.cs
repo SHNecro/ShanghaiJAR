@@ -58,7 +58,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public Navi(MyAudio s, Player p, SceneMain m, TopMenu t, SaveData save)
+        public Navi(IAudioEngine s, Player p, SceneMain m, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             this.eventmanager = new EventManager(this.sound);
@@ -97,7 +97,7 @@ namespace NSMap.Character.Menu
                     case Navi.SCENE.select:
                         if (this.selectstyle && !this.eventmanager.playevent)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                            this.sound.PlaySE(SoundEffect.bright);
                             this.savedata.setstyle = this.stylenum[this.savedata.selectQuestion];
                             this.flash = byte.MaxValue;
                             this.selectstyle = false;
@@ -160,7 +160,7 @@ namespace NSMap.Character.Menu
                 bool flag2 = this.savedata.haveAddon.Count > 0;
                 if (Input.IsPress(Button._A))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     if (!flag1 & flag2)
                         this.BootAddonManager();
                     if (flag1 && !flag2)
@@ -177,13 +177,13 @@ namespace NSMap.Character.Menu
                 {
                     if (Input.IsPush(Button.Up))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.cursol = !this.cursol;
                         this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                     }
                     if (Input.IsPush(Button.Down))
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.cursol = !this.cursol;
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                     }
@@ -191,7 +191,7 @@ namespace NSMap.Character.Menu
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 if (this.selectstyle)
                 {
                     this.selectstyle = false;
@@ -205,7 +205,7 @@ namespace NSMap.Character.Menu
             }
             if (this.savedata.haveAddon.Count > 0 && !this.moving && Input.IsPress(Button._Select))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                this.sound.PlaySE(SoundEffect.menuopen);
                 this.moveToAddBuster = this.page != 0;
                 this.moving = true;
             }
@@ -214,13 +214,13 @@ namespace NSMap.Character.Menu
                 if (Input.IsPush(Button._R) && this.Top < this.OverTop)
                 {
                     ++this.Top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button._R) ? 10 : 4;
                 }
                 if (!Input.IsPush(Button._L) || this.Top <= 0)
                     return;
                 --this.Top;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 this.waittime = Input.IsPress(Button._L) ? 10 : 4;
             }
             else if (this.waittime > 0)
@@ -470,7 +470,7 @@ namespace NSMap.Character.Menu
             }
             else
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                this.sound.PlaySE(SoundEffect.bright);
                 if (this.savedata.setstyle == 0)
                     ++this.savedata.setstyle;
                 else
@@ -483,7 +483,7 @@ namespace NSMap.Character.Menu
         {
             this.boot = true;
             this.nowscene = Navi.SCENE.fadeout;
-            this.playBGM = this.sound.playmusic;
+            this.playBGM = this.sound.CurrentBGM;
             this.sound.StartBGM("add_on");
             this.manager = new AddOnManager(this.sound, this.player, this.topmenu, this, this.savedata);
         }

@@ -14,7 +14,7 @@ namespace NSEnemy
         public Point slidePosition;
 
         public DammyEnemy(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

@@ -18,7 +18,7 @@ namespace NSAttack
         private readonly int endX;
 
         public FireBreath(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -44,7 +44,7 @@ namespace NSAttack
             else
                 this.positionDirect = new Vector2((this.position.X + 1) * 40 + 8, this.position.Y * 24 + 42);
             this.frame = 0;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+            this.sound.PlaySE(SoundEffect.heat);
         }
 
         public override void Updata()
@@ -70,7 +70,7 @@ namespace NSAttack
                         if (this.positionre.X == this.endX)
                         {
                             this.ShakeStart(5, 30);
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                            this.sound.PlaySE(SoundEffect.bombmiddle);
                             this.parent.effects.Add(new Bomber(this.sound, this.parent, this.positionre.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 1));
                             this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.positionre.X, this.position.Y, this.union, this.power, 1, this.element)));
                             if (this.element == ChipBase.ELEMENT.heat)

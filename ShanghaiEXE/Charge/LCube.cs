@@ -16,7 +16,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public LCube(MyAudio s, Player p)
+        public LCube(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;
@@ -46,7 +46,7 @@ namespace NSCharge
             if (this.character.waittime != 5)
                 return;
             Point point = new Point(this.character.position.X + this.UnionRebirth(this.character.union), this.character.position.Y);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+            this.sound.PlaySE(SoundEffect.enterenemy);
             this.battle.effects.Add(new MoveEnemy(this.sound, this.battle, point.X, point.Y));
             if (this.character.InAreaCheck(point) && this.character.NoObject(point) && !this.battle.panel[point.X, point.Y].Hole)
             {

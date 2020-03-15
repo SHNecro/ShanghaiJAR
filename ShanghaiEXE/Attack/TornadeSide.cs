@@ -18,7 +18,7 @@ namespace NSAttack
         public bool effect;
 
         public TornadeSide(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

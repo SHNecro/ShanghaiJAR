@@ -17,7 +17,7 @@ namespace NSChip
     private const int s = 5;
     private Point animePoint;
 
-    public MedicineX(MyAudio s)
+    public MedicineX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -63,10 +63,10 @@ namespace NSChip
           case 0:
             battle.effects.Add(new Bomber(this.sound, battle, character.position.X, character.position.Y, Bomber.BOMBERTYPE.poison, 2));
             character.animationpoint.X = -1;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+            this.sound.PlaySE(SoundEffect.bomb);
             break;
           case 30:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal1);
+            this.sound.PlaySE(SoundEffect.eriasteal1);
             for (int index1 = 0; index1 < battle.panel.GetLength(0); ++index1)
             {
               for (int index2 = 0; index2 < battle.panel.GetLength(1); ++index2)
@@ -82,7 +82,7 @@ namespace NSChip
             break;
           case 70:
             this.ballrend = false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+            this.sound.PlaySE(SoundEffect.sword);
             Point position = character.position;
             position.X += 3 * this.UnionRebirth(character.union);
             PoisonBall poisonBall = new PoisonBall(this.sound, battle, position.X, position.Y, new Vector2((float) (character.position.X * 40.0 + 22.0) + 4 * this.UnionRebirth(character.union), (float) (character.position.Y * 24.0 + 58.0 - 48.0)), character.union, this.Power(character), 2, 20, this.element);

@@ -8,7 +8,7 @@ namespace NSEvent
     {
         public int ifID;
 
-        public ifEnd(MyAudio s, EventManager m, int ID, SaveData save)
+        public ifEnd(IAudioEngine s, EventManager m, int ID, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

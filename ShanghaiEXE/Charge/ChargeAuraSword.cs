@@ -17,7 +17,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeAuraSword(MyAudio s, Player p)
+        public ChargeAuraSword(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;
@@ -32,10 +32,10 @@ namespace NSCharge
             this.character.animationpoint = CharacterAnimation.SworsAnimation(this.character.waittime);
             if (this.character.waittime == 3)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                this.sound.PlaySE(SoundEffect.sword);
                 if ((uint)this.character.barrierType > 0U)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                    this.sound.PlaySE(SoundEffect.shoot);
                     this.aura = true;
                 }
             }

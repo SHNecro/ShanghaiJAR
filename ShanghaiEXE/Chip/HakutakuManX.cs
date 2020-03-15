@@ -14,7 +14,7 @@ namespace NSChip
     private const int interval = 20;
     private const int speed = 2;
 
-    public HakutakuManX(MyAudio s)
+    public HakutakuManX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

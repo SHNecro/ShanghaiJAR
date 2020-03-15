@@ -63,7 +63,7 @@ namespace NSChip
         private Point animePoint;
         private bool afterimage;
 
-        public DruidMnV2(MyAudio s)
+        public DruidMnV2(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -103,7 +103,7 @@ namespace NSChip
             if (character.waittime == 0)
             {
                     character.animationpoint.X = -1;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                    this.sound.PlaySE(SoundEffect.warp);
             }
             else if (character.waittime >= AnimationTiming.First().Delay && character.waittime < AnimationTiming.TakeWhile(a => a.Row == 2 || a.Row == 0).Sum(a => a.Delay))
             {
@@ -123,7 +123,7 @@ namespace NSChip
                             ChipBase.ELEMENT.poison));
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                            this.sound.PlaySE(SoundEffect.repair);
                             character.Hp += Math.Min(this.power, c.Hp);
                         }
                     }

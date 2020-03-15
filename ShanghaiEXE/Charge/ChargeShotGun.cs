@@ -16,7 +16,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeShotGun(MyAudio s, Player p)
+        public ChargeShotGun(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;

@@ -9,7 +9,7 @@ namespace NSEvent
     {
         public int ifID;
 
-        public PlayerPosition(MyAudio s, EventManager m, SaveData save)
+        public PlayerPosition(IAudioEngine s, EventManager m, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

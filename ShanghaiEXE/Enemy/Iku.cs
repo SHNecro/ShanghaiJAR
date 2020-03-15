@@ -44,7 +44,7 @@ namespace NSEnemy
         private int attackCount;
         private Point target;
 
-        public Iku(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Iku(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -199,7 +199,7 @@ namespace NSEnemy
                         if (this.roopmove == this.moveroop && (this.ballShot || this.Hp >= this.HpMax / 2))
                         {
                             this.powerPlus = this.powers[5] * version;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                            this.sound.PlaySE(SoundEffect.eriasteal2);
                             this.parent.attacks.Add(new SlowThunder(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, ChipBase.ELEMENT.eleki, 1, 1, true));
                         }
                     }
@@ -314,7 +314,7 @@ namespace NSEnemy
                                             breaking = true
                                         };
                                         this.parent.attacks.Add(drillAttack1);
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill2);
+                                        this.sound.PlaySE(SoundEffect.drill2);
                                         break;
                                     case 10:
                                         DrillAttack drillAttack2 = new DrillAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 1, ChipBase.ELEMENT.eleki)
@@ -371,17 +371,17 @@ namespace NSEnemy
                                                 this.drillY[1] = 0;
                                                 break;
                                         }
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                                        this.sound.PlaySE(SoundEffect.drill1);
                                         this.parent.objects.Add(new MetalDorill(this.sound, this.parent, this.position.X, this.drillY[0], this.Power, this.version <= 3, speed, this.union));
                                         break;
                                     case 6:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                                        this.sound.PlaySE(SoundEffect.drill1);
                                         this.parent.objects.Add(new MetalDorill(this.sound, this.parent, this.position.X, this.drillY[1], this.Power, this.version <= 3, speed, this.union));
                                         break;
                                     case 11:
                                         this.drilinvi = false;
                                         this.nohit = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                                        this.sound.PlaySE(SoundEffect.drill1);
                                         this.drillBreak = new MetalDorill(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.Power, this.version <= 3, speed, this.union);
                                         this.drillBreak.positionDirect.X -= 16 * this.UnionRebirth(this.union);
                                         this.drillBreak.positionDirect.Y -= 8f;

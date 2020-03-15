@@ -28,7 +28,7 @@ namespace NSChip
     protected Point target;
     protected Point animationpoint;
 
-    public ScissorManV1(MyAudio s)
+    public ScissorManV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -91,7 +91,7 @@ namespace NSChip
             {
               case 1:
                 character.animationpoint.X = -1;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                this.sound.PlaySE(SoundEffect.warp);
                 this.posis = new Point[2];
                 this.posis[0] = new Point(character.position.X + 2 * this.UnionRebirth(character.union), character.position.Y);
                 this.posis[1].X = character.union == Panel.COLOR.blue ? 0 : 5;
@@ -115,13 +115,13 @@ namespace NSChip
           }
           if (this.flyflame == this.time / 3)
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+            this.sound.PlaySE(SoundEffect.knife);
             battle.attacks.Add(this.Paralyze(new DelayScissor(this.sound, battle, this.posis[0].X, this.posis[0].Y, character.union, this.Power(character), 16, this.element, new Vector2((float)(character.position.X * 40.0 + 4.0 + (character.union == Panel.COLOR.red ? 40.0 : 0.0)), (float)(character.position.Y * 24.0 + 48.0) + this.plusy), !this.colory, 100)));
             battle.attacks.Add(new Dummy(this.sound, battle, this.posis[1].X, this.posis[1].Y, character.union, new Point(), 30, true));
           }
           if (this.flyflame == this.time / 3 * 2)
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+            this.sound.PlaySE(SoundEffect.knife);
             battle.attacks.Add(this.Paralyze(new DelayScissor(this.sound, battle, this.posis[1].X, this.posis[1].Y, character.union, this.Power(character), 16, this.element, new Vector2((float)(character.position.X * 40.0 + 4.0 + (character.union == Panel.COLOR.red ? 40.0 : 0.0)), (float)(character.position.Y * 24.0 + 48.0) + this.plusy), !this.colory, 100)));
           }
           if (this.flyflame == this.time)

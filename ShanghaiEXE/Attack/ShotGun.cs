@@ -17,7 +17,7 @@ namespace NSAttack
         public int hit = 3;
 
         public ShotGun(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -38,7 +38,7 @@ namespace NSAttack
             if (this.union == Panel.COLOR.red)
                 this.positionDirect = new Vector2(this.position.X * 40 + 4, this.position.Y * 24 + 42);
             this.frame = 0;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+            this.sound.PlaySE(SoundEffect.bomb);
             this.parent.effects.Add(new Basterhit(this.sound, this.parent, this.position.X, this.position.Y, 1));
         }
 
@@ -61,7 +61,7 @@ namespace NSAttack
                     }
                     else
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                        this.sound.PlaySE(SoundEffect.bomb);
                         this.parent.effects.Add(new Basterhit(this.sound, this.parent, this.position.X, this.position.Y, 1));
                         if (this.InArea)
                             this.hitflag[this.position.X, this.position.Y] = false;

@@ -62,7 +62,7 @@ namespace NSEnemy
             }
         }
 
-        public TortoiseMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public TortoiseMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -258,9 +258,9 @@ namespace NSEnemy
                                 {
                                     this.animationpoint = this.AnimeShellReady(this.waittime);
                                     if (this.waittime == this.aspeed)
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                                        this.sound.PlaySE(SoundEffect.throw_);
                                     if (this.waittime == this.aspeed * 3)
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                                        this.sound.PlaySE(SoundEffect.chain);
                                     if (this.waittime >= this.aspeed * 7)
                                     {
                                         this.attackProcess = 0;
@@ -270,7 +270,7 @@ namespace NSEnemy
                                         this.counterTiming = false;
                                         this.Noslip = true;
                                         this.waittime = 0;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                     }
                                 }
                                 else if (!this.end)
@@ -356,7 +356,7 @@ namespace NSEnemy
                                 if (this.waittime == this.aspeed * 4)
                                 {
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                    this.sound.PlaySE(SoundEffect.quake);
                                     this.ShakeStart(1, this.aspeed * 12 * this.speed);
                                     for (int index = 0; index < Math.Min(2 + version / 2, 4); ++index)
                                     {
@@ -380,9 +380,9 @@ namespace NSEnemy
                             {
                                 this.animationpoint = this.AnimeWave(this.waittime);
                                 if (this.waittime == this.aspeed * 4)
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knock);
+                                    this.sound.PlaySE(SoundEffect.knock);
                                 if (this.waittime == this.aspeed * 10)
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knock);
+                                    this.sound.PlaySE(SoundEffect.knock);
                                 if (this.waittime == this.aspeed * 12)
                                 {
                                     this.counterTiming = false;
@@ -394,7 +394,7 @@ namespace NSEnemy
                                     this.ShakeStart(1, this.aspeed * 8 * this.speed);
                                 if (this.waittime == this.aspeed * 19)
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+                                    this.sound.PlaySE(SoundEffect.wave);
                                     this.parent.attacks.Add(new MadWave(this.sound, this.parent, this.waveX, this.waveY, this.union, this.Power, 6, this.element));
                                 }
                                 if (this.waittime == this.aspeed * 23)
@@ -404,7 +404,7 @@ namespace NSEnemy
                                     if (this.metalcube[1].flag)
                                         this.metalcube[1].Break();
                                     this.MoveRandom(false, false, this.union, true);
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                                    this.sound.PlaySE(SoundEffect.enterenemy);
                                     Point positionre = this.positionre;
                                     this.metalcube[0] = new Rock(this.sound, this.parent, positionre.X, positionre.Y, this.union);
                                     this.parent.objects.Add(this.metalcube[0]);

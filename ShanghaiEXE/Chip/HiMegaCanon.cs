@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int shotend = 28;
 
-    public HiMegaCanon(MyAudio s)
+    public HiMegaCanon(IAudioEngine s)
       : base(s)
     {
       this.number = 272;

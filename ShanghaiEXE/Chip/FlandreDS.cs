@@ -25,7 +25,7 @@ namespace NSChip
         private const int s = 5;
         protected Point animePoint;
 
-        public FlandreDS(MyAudio s)
+        public FlandreDS(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -82,7 +82,7 @@ namespace NSChip
                                     case 1:
                                         character.animationpoint.X = -1;
                                         this.xPosition = character.position.X;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                                        this.sound.PlaySE(SoundEffect.warp);
                                         break;
                                     case 2:
                                     case 4:
@@ -132,7 +132,7 @@ namespace NSChip
                                     }
                                     else
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                                        this.sound.PlaySE(SoundEffect.bombmiddle);
                                         base.ShakeStart(2, 16);
                                         for (int j = 0; j < 3; j++)
                                         {

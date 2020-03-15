@@ -8,7 +8,7 @@ namespace NSEffect
 {
     internal class BadWater : EffectBase
     {
-        public BadWater(MyAudio s, SceneBattle p, int pX, int pY, int sp)
+        public BadWater(IAudioEngine s, SceneBattle p, int pX, int pY, int sp)
           : base(s, p, pX, pY)
         {
             this.speed = sp * 2;

@@ -20,7 +20,7 @@ namespace NSChip
     protected int buganime;
     protected BugBall a;
 
-    public BeatleManV1(MyAudio s)
+    public BeatleManV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -61,7 +61,7 @@ namespace NSChip
         {
           case 1:
             character.animationpoint.X = -1;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+            this.sound.PlaySE(SoundEffect.warp);
             this.animationpoint.X = 10;
             break;
           case 3:
@@ -77,7 +77,7 @@ namespace NSChip
             this.animationpoint.X = 12;
             break;
           case 15:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+            this.sound.PlaySE(SoundEffect.rockopen);
             battle.effects.Add(new ScreenFlash(this.sound, battle));
             break;
           case 16:
@@ -109,7 +109,7 @@ case 25:
             this.animationpoint.X = 5;
             break;
           case 27:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             this.animationpoint.X = 6;
             this.a = new BugBall(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, this.element, 8);
             this.a.BadStatusSet(CharacterBase.BADSTATUS.heavy, 300);

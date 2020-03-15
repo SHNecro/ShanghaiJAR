@@ -44,7 +44,7 @@ namespace NSEffect
             }
         }
 
-        public IceMake(MyAudio s, Vector2 pd, Point posi)
+        public IceMake(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

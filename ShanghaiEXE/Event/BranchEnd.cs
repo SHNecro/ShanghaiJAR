@@ -6,7 +6,7 @@ namespace NSEvent
 {
     internal class BranchEnd : EventBase
     {
-        public BranchEnd(MyAudio s, EventManager m, SaveData save)
+        public BranchEnd(IAudioEngine s, EventManager m, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

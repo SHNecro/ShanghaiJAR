@@ -18,7 +18,7 @@ namespace NSAttack
         private int hittime;
 
         public DelayKnife(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

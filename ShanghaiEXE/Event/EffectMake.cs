@@ -24,10 +24,10 @@ namespace NSEvent
         private readonly int interval;
         private readonly int randomXY;
         private readonly int rendType;
-        private readonly MyAudio.SOUNDNAMES SE;
+        private readonly SoundEffect SE;
 
         public EffectMake(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int effectNumber,
           string ID,
@@ -61,16 +61,16 @@ namespace NSEvent
             this.rendType = rendType;
             try
             {
-                this.SE = (MyAudio.SOUNDNAMES)Enum.Parse(typeof(MyAudio.SOUNDNAMES), SE);
+                this.SE = (SoundEffect)Enum.Parse(typeof(SoundEffect), SE);
             }
             catch
             {
-                this.SE = MyAudio.SOUNDNAMES.none;
+                this.SE = SoundEffect.none;
             }
         }
 
         public EffectMake(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int effectNumber,
           string ID,
@@ -100,11 +100,11 @@ namespace NSEvent
             this.rendType = rendType;
             try
             {
-                this.SE = (MyAudio.SOUNDNAMES)Enum.Parse(typeof(MyAudio.SOUNDNAMES), SE);
+                this.SE = (SoundEffect)Enum.Parse(typeof(SoundEffect), SE);
             }
             catch
             {
-                this.SE = MyAudio.SOUNDNAMES.none;
+                this.SE = SoundEffect.none;
             }
         }
 

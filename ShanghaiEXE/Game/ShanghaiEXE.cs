@@ -23,6 +23,7 @@ using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
 using Common.Config;
 using System.Diagnostics;
 using NSEvent;
+using NSShanghaiEXE.InputOutput.Audio.XAudio2;
 
 namespace NSGame
 {
@@ -138,7 +139,7 @@ namespace NSGame
         private MyKeyBoard mk;
         private Controller co;
         public IRenderer dg;
-        public MyAudio ad;
+        public IAudioEngine ad;
         private static SceneBase scene;
         public SaveData savedata;
         public bool tutorial;
@@ -316,9 +317,7 @@ namespace NSGame
             }
 
             this.volBGM = (float)ShanghaiEXE.Config.VolumeBGM;
-            MyAudio.volumeBGM = this.volBGM;
             this.volSE = (float)(ShanghaiEXE.Config.VolumeSE / 100);
-            MyAudio.volumeSE = this.volSE;
 
             Controller.ctl = (ShanghaiEXE.Config.PausedWhenInactive) ? CooperativeLevel.Foreground : CooperativeLevel.Background;
 
@@ -381,6 +380,8 @@ namespace NSGame
 
             this.UpdateLoadingText(LoadType.Audio, 25);
             this.ad = new MyAudio(this);
+            this.ad.BGMVolume = this.volBGM;
+            this.ad.SoundEffectVolume = this.volSE;
             this.ad.ProgressUpdated += this.AudioLoad_ProgressUpdate;
             this.UpdateLoadingText(LoadType.Audio, 100);
 
@@ -401,7 +402,6 @@ namespace NSGame
         private void Init()
         {
             this.loadSUCCESS = this.savedata.loadSucces;
-            this.ad.savedata = this.savedata;
             ShanghaiEXE.scene = new FirstTitle(this.ad, this, this.savedata);
             ShanghaiEXE.scene.Init();
             this.init = true;
@@ -629,7 +629,7 @@ namespace NSGame
             {
                 this.TexClear(true);
                 this.dg.Dispose();
-                this.ad.waveOut.Close();
+                this.ad.Dispose();
             }
             catch { }
             Application.Exit();
@@ -653,7 +653,7 @@ namespace NSGame
             {
                 this.soundLoad = true;
                 this.UpdateLoadingText(LoadType.Audio, 100);
-                ((MyAudio)sender).ProgressUpdated -= this.AudioLoad_ProgressUpdate;
+                ((IAudioEngine)sender).ProgressUpdated -= this.AudioLoad_ProgressUpdate;
             }
             else
             {
@@ -689,7 +689,7 @@ namespace NSGame
                 this.dg.Dispose();
                 if (NetWork.connectThread != null)
                     NetWork.connectThread.Abort();
-                this.ad.waveOut.Close();
+                this.ad.Dispose();
                 this.loading.Close();
             }
             catch { }

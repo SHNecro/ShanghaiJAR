@@ -32,7 +32,7 @@ namespace NSEffect
         private const int interval = 6;
         private readonly int jumpflame;
 
-        public ROMHead(MyAudio s, Vector2 pd, Point posi)
+        public ROMHead(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;
@@ -45,7 +45,7 @@ namespace NSEffect
             if (!this.moveflame)
                 return;
             if (this.frame == 5)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+                this.sound.PlaySE(SoundEffect.futon);
             for (int index = 0; index < this.action.GetLength(1); ++index)
             {
                 if (this.frame == this.action[0, index])

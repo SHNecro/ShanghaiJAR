@@ -13,7 +13,7 @@ namespace NSAttack
     internal class PunchAttack : AttackBase
     {
         public PunchAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

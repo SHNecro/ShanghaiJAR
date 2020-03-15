@@ -15,7 +15,7 @@ namespace NSObject
         private int time;
 
         public SuzuranBlue(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -69,7 +69,7 @@ namespace NSObject
             if (!this.breaked)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                this.sound.PlaySE(SoundEffect.clincher);
                 this.parent.effects.Add(new Elementhit(this.sound, this.parent, this.position.X, this.position.Y, 2, ChipBase.ELEMENT.leaf));
             }
             this.flag = false;

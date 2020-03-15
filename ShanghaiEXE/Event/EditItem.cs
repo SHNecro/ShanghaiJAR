@@ -10,7 +10,7 @@ namespace NSEvent
         private readonly bool get;
         private readonly bool message;
 
-        public EditItem(MyAudio s, EventManager m, int q, bool get, SaveData save)
+        public EditItem(IAudioEngine s, EventManager m, int q, bool get, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

@@ -9,7 +9,7 @@ namespace NSEvent
         private readonly int manyMoney;
         private readonly bool upDown;
 
-        public MoneyPlus(MyAudio s, EventManager m, int money, bool updown, SaveData save)
+        public MoneyPlus(IAudioEngine s, EventManager m, int money, bool updown, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

@@ -18,7 +18,7 @@ namespace NSAttack
         private readonly int movespeed;
 
         public StoneBall(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -44,7 +44,7 @@ namespace NSAttack
             {
                 this.movestart = true;
                 this.hitting = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                this.sound.PlaySE(SoundEffect.canon);
             }
             if (this.moveflame)
             {
@@ -94,7 +94,7 @@ namespace NSAttack
         {
             if (!base.HitEvent(p))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+            this.sound.PlaySE(SoundEffect.breakObject);
             return true;
         }
 
@@ -102,7 +102,7 @@ namespace NSAttack
         {
             if (!base.HitEvent(e))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+            this.sound.PlaySE(SoundEffect.breakObject);
             if (e.race == EnemyBase.ENEMY.virus && e.version > 0)
             {
                 e.Hp = 0;
@@ -115,7 +115,7 @@ namespace NSAttack
         {
             if (!base.HitEvent(o))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+            this.sound.PlaySE(SoundEffect.breakObject);
             o.flag = false;
             this.parent.objects.Add(new Rock(this.sound, this.parent, o.position.X, o.position.Y, this.union));
             return true;

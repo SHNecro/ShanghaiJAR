@@ -10,7 +10,7 @@ namespace NSEvent
     {
         private readonly SceneMap map;
 
-        public Facehere(MyAudio s, EventManager m, SceneMap map, SaveData save)
+        public Facehere(IAudioEngine s, EventManager m, SceneMap map, SaveData save)
           : base(s, m, save)
         {
             this.map = map;

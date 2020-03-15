@@ -15,7 +15,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public RHoleMake(MyAudio s, Player p)
+        public RHoleMake(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;
@@ -45,7 +45,7 @@ namespace NSCharge
             if (this.character.waittime != 5)
                 return;
             this.battle.effects.Add(new Shock(this.sound, this.battle, this.player.position.X + this.UnionRebirth(this.player.union), this.player.position.Y, 2, this.player.union));
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.waveshort);
+            this.sound.PlaySE(SoundEffect.waveshort);
             if (!this.battle.panel[this.player.position.X + this.UnionRebirth(this.player.union), this.player.position.Y].OnCharaCheck())
                 this.battle.panel[this.player.position.X + this.UnionRebirth(this.player.union), this.player.position.Y].State = Panel.PANEL._break;
             else

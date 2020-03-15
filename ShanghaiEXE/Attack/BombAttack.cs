@@ -18,7 +18,7 @@ namespace NSAttack
         public bool effect;
 
         public BombAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -46,7 +46,7 @@ namespace NSAttack
         }
 
         public BombAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -75,7 +75,7 @@ namespace NSAttack
         }
 
         public BombAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

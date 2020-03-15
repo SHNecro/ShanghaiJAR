@@ -27,7 +27,7 @@ namespace NSAttack
         private bool fall;
 
         public AnchorBomb(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -114,7 +114,7 @@ namespace NSAttack
                         };
                         this.parent.attacks.Add(bombAttack);
                         this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y, sp));
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                        this.sound.PlaySE(SoundEffect.clincher);
                         this.ShakeStart(5, 30);
                         switch (this.type)
                         {

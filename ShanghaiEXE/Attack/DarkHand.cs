@@ -24,7 +24,7 @@ namespace NSAttack
         private new bool bright;
 
         public DarkHand(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -60,7 +60,7 @@ namespace NSAttack
             {
                 this.hitting = true;
                 this.flag = false;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                this.sound.PlaySE(SoundEffect.bombmiddle);
                 this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.poison, 2));
             }
             else

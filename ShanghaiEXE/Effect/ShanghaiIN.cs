@@ -64,7 +64,7 @@ namespace NSEffect
             }
         }
 
-        public ShanghaiIN(MyAudio s, Vector2 pd, Point posi, bool showShanghai)
+        public ShanghaiIN(IAudioEngine s, Vector2 pd, Point posi, bool showShanghai)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

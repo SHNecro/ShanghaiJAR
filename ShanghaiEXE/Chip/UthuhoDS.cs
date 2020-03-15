@@ -16,7 +16,7 @@ namespace NSChip
 		private Point animePoint;
 		private bool end = false;
 
-		public UthuhoDS(MyAudio s)
+		public UthuhoDS(IAudioEngine s)
 		: base(s)
 		{
 			this.navi = true;
@@ -122,15 +122,15 @@ namespace NSChip
 					this.animePoint.X = 0;
 					this.animePoint.Y = 0;
 					character.animationpoint.X = -1;
-					this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+					this.sound.PlaySE(SoundEffect.warp);
 
 
 
 
 					break;
 				case 8:
-					this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
-					this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+					this.sound.PlaySE(SoundEffect.dark);
+					this.sound.PlaySE(SoundEffect.charge);
 					//character.animationpoint.Y = 4;
 					break;
 				case 14:

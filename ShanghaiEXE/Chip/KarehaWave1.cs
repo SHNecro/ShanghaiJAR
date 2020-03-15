@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public KarehaWave1(MyAudio s)
+    public KarehaWave1(IAudioEngine s)
       : base(s)
     {
       this.number = 115;

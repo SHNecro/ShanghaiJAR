@@ -21,7 +21,7 @@ namespace NSEnemy
         private int roopmove;
         private Point t;
 
-        public Mantiser(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Mantiser(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -208,12 +208,12 @@ namespace NSEnemy
                             this.counterTiming = false;
                             if (this.version == 0)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                this.sound.PlaySE(SoundEffect.shoot);
                                 this.parent.attacks.Add(new SonicBoom(this.sound, this.parent, this.union == Panel.COLOR.blue ? this.position.X - 1 : this.position.X + 1, this.position.Y, this.union, this.Power, 8, this.element, true));
                             }
                             else
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                this.sound.PlaySE(SoundEffect.sword);
                                 int pX = this.union == Panel.COLOR.blue ? this.position.X - 1 : this.position.X + 1;
                                 int y = this.position.Y;
                                 if (this.version == 0)

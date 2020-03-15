@@ -11,7 +11,7 @@ namespace NSEffect
         private const byte _speed = 2;
         private bool flash;
 
-        public KnifeAfter(MyAudio s, SceneBattle p, Vector2 pd, Point posi, Panel.COLOR union)
+        public KnifeAfter(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi, Panel.COLOR union)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = 2;
@@ -20,7 +20,7 @@ namespace NSEffect
             this.rebirth = union != Panel.COLOR.blue;
         }
 
-        public KnifeAfter(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+        public KnifeAfter(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
           : base(s, p, pX, pY)
         {
             this.speed = 2;

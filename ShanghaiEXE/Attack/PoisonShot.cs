@@ -27,7 +27,7 @@ namespace NSAttack
         private readonly bool cross;
 
         public PoisonShot(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

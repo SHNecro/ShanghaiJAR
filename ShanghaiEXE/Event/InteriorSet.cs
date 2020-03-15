@@ -10,7 +10,7 @@ namespace NSEvent
         public SceneMap map;
         public MapField field;
 
-        public InteriorSet(MyAudio s, EventManager m, MapField field, SceneMap map, SaveData save)
+        public InteriorSet(IAudioEngine s, EventManager m, MapField field, SceneMap map, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

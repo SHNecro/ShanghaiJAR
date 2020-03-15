@@ -10,7 +10,7 @@ namespace NSEvent
         public bool hide;
         private readonly Player player;
 
-        public PlayerHide(MyAudio s, EventManager m, bool hide, Player player, SaveData save)
+        public PlayerHide(IAudioEngine s, EventManager m, bool hide, Player player, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

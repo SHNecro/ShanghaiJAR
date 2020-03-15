@@ -56,12 +56,12 @@ namespace NSEvent
             }
         }
 
-        public EventManager(MyAudio s)
+        public EventManager(IAudioEngine s)
           : base(s)
         {
         }
 
-        public EventManager(SceneMap m, MyAudio s)
+        public EventManager(SceneMap m, IAudioEngine s)
           : base(s)
         {
             this.parent = m;
@@ -202,7 +202,7 @@ namespace NSEvent
             this.skip = true;
             if (!(this.skipColor == Color.White))
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.encount);
+            this.sound.PlaySE(SoundEffect.encount);
         }
 
         public void Init()

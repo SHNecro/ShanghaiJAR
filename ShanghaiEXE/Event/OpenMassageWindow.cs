@@ -11,7 +11,7 @@ namespace NSEvent
         private const int maxflame = 3;
         private int anime;
 
-        public OpenMassageWindow(MyAudio s, EventManager m)
+        public OpenMassageWindow(IAudioEngine s, EventManager m)
           : base(s, m, null)
         {
             this.frame = 0;

@@ -13,7 +13,7 @@ namespace NSEffect
         private const byte _speed = 4;
         private bool reset;
 
-        public YoumuShadow(MyAudio s, SceneBattle p, int pX, int pY, int angle)
+        public YoumuShadow(IAudioEngine s, SceneBattle p, int pX, int pY, int angle)
           : base(s, p, pX, pY)
         {
             this.angle = angle;
@@ -30,7 +30,7 @@ namespace NSEffect
                     break;
             }
             this.waittime = 3;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+            this.sound.PlaySE(SoundEffect.lance);
         }
 
         public override void Updata()

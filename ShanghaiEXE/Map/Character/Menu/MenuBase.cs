@@ -33,7 +33,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public MenuBase(MyAudio s, Player p, TopMenu t, SaveData save)
+        public MenuBase(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s)
         {
             this.savedata = save;

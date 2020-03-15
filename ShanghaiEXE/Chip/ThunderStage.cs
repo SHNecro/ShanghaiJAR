@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public ThunderStage(MyAudio s)
+    public ThunderStage(IAudioEngine s)
       : base(s)
     {
       this.number = 167;
@@ -40,7 +40,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+        this.sound.PlaySE(SoundEffect.eriasteal2);
         for (int pX = 0; pX < battle.panel.GetLength(0); ++pX)
         {
           for (int pY = 0; pY < battle.panel.GetLength(1); ++pY)

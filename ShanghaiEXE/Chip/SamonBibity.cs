@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public SamonBibity(MyAudio s)
+    public SamonBibity(IAudioEngine s)
       : base(s)
     {
       this.number = 204;
@@ -45,7 +45,7 @@ namespace NSChip
       {
         if (!character.Canmove(character.positionold))
           return;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+        this.sound.PlaySE(SoundEffect.enterenemy);
         battle.enemys.Add(new BibityBat(this.sound, battle, character.positionold.X, character.positionold.Y, (byte)battle.enemys.Count, Panel.COLOR.red, 2));
       }
       else

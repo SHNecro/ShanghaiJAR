@@ -51,7 +51,7 @@ namespace NSEvent
         private int returnNum;
 
         public NumberSet(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           int fa,
@@ -84,7 +84,7 @@ namespace NSEvent
         }
 
         public NumberSet(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           FaceId face,
@@ -156,13 +156,13 @@ namespace NSEvent
                     this.shortmassage[this.endprint] += strArray[this.endprint][this.printfonts - 1];
                     if (strArray[this.endprint][this.printfonts - 1] == "・" && !this.mono)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                        this.sound.PlaySE(SoundEffect.message);
                         this.wait = 30;
                         this.longwaiting = true;
                     }
                     else if (strArray[this.endprint][this.printfonts - 1] == "、" && !this.mono)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                        this.sound.PlaySE(SoundEffect.message);
                         this.wait = 15;
                         this.longwaiting = true;
                     }
@@ -222,7 +222,7 @@ namespace NSEvent
                         {
                             try
                             {
-                                this.sound.PlaySE((MyAudio.SOUNDNAMES)Enum.Parse(typeof(MyAudio.SOUNDNAMES), s));
+                                this.sound.PlaySE((SoundEffect)Enum.Parse(typeof(SoundEffect), s));
                             }
                             catch
                             {
@@ -238,7 +238,7 @@ namespace NSEvent
                     }
                     else
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                        this.sound.PlaySE(SoundEffect.message);
                         this.wait = 0;
                         this.longwaiting = false;
                     }
@@ -294,7 +294,7 @@ namespace NSEvent
         {
             if (Input.IsPress(Button._A) && this.nowDigit == -1)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.NumChange();
                 this.savedata.ValList[this.valNumber] = this.returnNum;
                 this.Init();
@@ -302,7 +302,7 @@ namespace NSEvent
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.returnNum = -1;
                 this.savedata.ValList[this.valNumber] = this.returnNum;
                 this.Init();
@@ -312,7 +312,7 @@ namespace NSEvent
             {
                 if (Input.IsPush(Button.Up) && this.nowDigit != -1)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     ++this.numver[this.nowDigit];
                     if (this.numver[this.nowDigit] > 9)
                         this.numver[this.nowDigit] = 0;
@@ -320,7 +320,7 @@ namespace NSEvent
                 }
                 if (Input.IsPush(Button.Down) && this.nowDigit != -1)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     --this.numver[this.nowDigit];
                     if (this.numver[this.nowDigit] < 0)
                         this.numver[this.nowDigit] = 9;
@@ -328,7 +328,7 @@ namespace NSEvent
                 }
                 if (Input.IsPush(Button.Left))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     ++this.nowDigit;
                     if (this.nowDigit >= this.numberDigit)
                         this.nowDigit = -1;
@@ -336,7 +336,7 @@ namespace NSEvent
                 }
                 if (Input.IsPush(Button.Right))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     --this.nowDigit;
                     if (this.nowDigit < -1)
                         this.nowDigit = this.numberDigit - 1;

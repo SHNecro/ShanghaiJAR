@@ -8,14 +8,14 @@ namespace NSEffect
 {
     internal class Repair : EffectBase
     {
-        public Repair(MyAudio s, SceneBattle p, Vector2 pd, int sp, Point posi)
+        public Repair(IAudioEngine s, SceneBattle p, Vector2 pd, int sp, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = sp;
             this.positionDirect = pd;
         }
 
-        public Repair(MyAudio s, SceneBattle p, int pX, int pY, int sp)
+        public Repair(IAudioEngine s, SceneBattle p, int pX, int pY, int sp)
           : base(s, p, pX, pY)
         {
             this.speed = sp;

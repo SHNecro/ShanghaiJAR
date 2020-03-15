@@ -10,7 +10,7 @@ namespace NSEvent
         private readonly int codeNumber;
         private readonly bool upDown;
 
-        public ChipPlus(MyAudio s, EventManager m, int id, int code, bool updown, SaveData save)
+        public ChipPlus(IAudioEngine s, EventManager m, int id, int code, bool updown, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

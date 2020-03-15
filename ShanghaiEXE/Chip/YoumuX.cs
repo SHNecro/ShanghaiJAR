@@ -18,7 +18,7 @@ namespace NSChip
     private int command;
     private const int s = 5;
 
-    public YoumuX(MyAudio s)
+    public YoumuX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

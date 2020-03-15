@@ -10,7 +10,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 1;
 
-    public SilverKnife(MyAudio s)
+    public SilverKnife(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

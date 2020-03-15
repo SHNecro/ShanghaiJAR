@@ -10,14 +10,14 @@ namespace NSEffect
     {
         private const byte _speed = 2;
 
-        public MoveEnemy(MyAudio s, SceneBattle p, Vector2 pd, Point posi)
+        public MoveEnemy(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = 2;
             this.positionDirect = pd;
         }
 
-        public MoveEnemy(MyAudio s, SceneBattle p, int pX, int pY)
+        public MoveEnemy(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p, pX, pY)
         {
             this.speed = 2;

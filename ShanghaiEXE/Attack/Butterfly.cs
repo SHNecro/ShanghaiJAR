@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int movespeed;
 
         public Butterfly(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -85,10 +85,10 @@ namespace NSAttack
         {
             if (!base.HitCheck(charaposition, charaunion))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+            this.sound.PlaySE(SoundEffect.dark);
 
             /*
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.ShakeStart(4, 60);
             this.parent.effects.Add(new RandomBomber(this.sound, this.parent, Bomber.BOMBERTYPE.bomber, 2, this.UnionEnemy, this.union, 18));
             for (int index1 = 0; index1 < this.parent.panel.GetLength(0); ++index1)
@@ -108,9 +108,9 @@ namespace NSAttack
             if (!base.HitCheck(charaposition))
                 return false;
 
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+            this.sound.PlaySE(SoundEffect.dark);
             /*
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.ShakeStart(4, 60);
             this.parent.effects.Add(new RandomBomber(this.sound, this.parent, Bomber.BOMBERTYPE.bomber, 2, this.UnionEnemy, this.union, 18));
             for (int index1 = 0; index1 < this.parent.panel.GetLength(0); ++index1)
@@ -130,10 +130,10 @@ namespace NSAttack
         {
             if (!base.HitEvent(p))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+            this.sound.PlaySE(SoundEffect.dark);
             /*
             this.ShakeStart(5, 8);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, p.position.X, p.position.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             */
             return true;
@@ -143,10 +143,10 @@ namespace NSAttack
         {
             if (!base.HitEvent(e))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+            this.sound.PlaySE(SoundEffect.dark);
             /*
             this.ShakeStart(5, 8);
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, e.position.X, e.position.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             */
             return true;
@@ -156,9 +156,9 @@ namespace NSAttack
         {
             if (!base.HitEvent(o))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+            this.sound.PlaySE(SoundEffect.dark);
             /*
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+            this.sound.PlaySE(SoundEffect.bombmiddle);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, o.position.X, o.position.Y, Bomber.BOMBERTYPE.flashbomber, 2));
             */
             return true;

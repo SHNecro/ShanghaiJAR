@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int movespeed;
 
         public PanelShoot(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -79,7 +79,7 @@ namespace NSAttack
             if (!this.StandPanel.Hole)
             {
                 this.parent.effects.Add(new Shock(this.sound, this.parent, this.position.X, this.position.Y, 2, this.union));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.waveshort);
+                this.sound.PlaySE(SoundEffect.waveshort);
                 if (!this.StandPanel.OnCharaCheck())
                 {
                     this.StandPanel.State = Panel.PANEL._break;

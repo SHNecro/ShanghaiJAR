@@ -112,7 +112,7 @@ namespace NSMap
             }
         }
 
-        public MapField(MyAudio s, string txtname, SaveData save, SceneMap p)
+        public MapField(IAudioEngine s, string txtname, SaveData save, SceneMap p)
           : base(s)
         {
             this.save = save;

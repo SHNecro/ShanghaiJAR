@@ -25,7 +25,7 @@ namespace NSChip
 		private Point[] posis;
 		private Point animePoint;
 
-		public InfiniteHands(MyAudio s)
+		public InfiniteHands(IAudioEngine s)
 		  : base(s)
 		{
 			this.dark = true;
@@ -101,7 +101,7 @@ namespace NSChip
 			int num2 = 30;
 			if (character.waittime == 44)
 			{
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+				this.sound.PlaySE(SoundEffect.pikin);
 				List<Point> source = new List<Point>();
 				for (int x = 0; x < battle.panel.GetLength(0); ++x)
 				{
@@ -123,7 +123,7 @@ namespace NSChip
 					if (this.frame > 10)
 					{
 						this.frame = 0;
-						this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+						this.sound.PlaySE(SoundEffect.canon);
 						Point point = new Point();
 						point.X = character.union == Panel.COLOR.red ? 2 : 3;
 						point.Y = 1;

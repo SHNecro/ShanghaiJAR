@@ -18,7 +18,7 @@ namespace NSEvent
         private Vector2 start;
 
         public moveCamera(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           Vector2 target,
           int moveTime,

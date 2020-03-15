@@ -10,7 +10,7 @@ namespace NSEvent
         public string deadID;
         private readonly MapField field;
 
-        public EventDelete(MyAudio s, EventManager m, string ID, MapField ma, SaveData save)
+        public EventDelete(IAudioEngine s, EventManager m, string ID, MapField ma, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

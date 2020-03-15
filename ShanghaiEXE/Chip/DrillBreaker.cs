@@ -23,7 +23,7 @@ namespace NSChip
     private int scene;
     private Point animePoint;
 
-    public DrillBreaker(MyAudio s)
+    public DrillBreaker(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -76,18 +76,18 @@ namespace NSChip
                   this.drillY[index] = index;
                 this.drillY = ((IEnumerable<int>) this.drillY).OrderBy<int, Guid>(i => Guid.NewGuid()).ToArray<int>();
                 character.animationpoint.X = -1;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                this.sound.PlaySE(SoundEffect.warp);
                 break;
               case 20:
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                this.sound.PlaySE(SoundEffect.drill1);
                 battle.objects.Add(new MetalDorill(this.sound, battle, character.union == Panel.COLOR.red ? 0 : 5, this.drillY[0], this.Power(character), true, 5, character.union));
                 break;
               case 35:
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                this.sound.PlaySE(SoundEffect.drill1);
                 battle.objects.Add(new MetalDorill(this.sound, battle, character.union == Panel.COLOR.red ? 0 : 5, this.drillY[1], this.Power(character), true, 5, character.union));
                 break;
               case 50:
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                this.sound.PlaySE(SoundEffect.drill1);
                 battle.objects.Add(new MetalDorill(this.sound, battle, character.union == Panel.COLOR.red ? 0 : 5, this.drillY[2], this.Power(character), true, 5, character.union));
                 break;
               case 100:
@@ -106,8 +106,8 @@ case 1:
                   battle.attacks.Add(new Dummy(this.sound, battle, this.posis[index].X, this.posis[index].Y, character.union, new Point(), 30, true));
                 break;
               case 30:
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.drill1);
+                this.sound.PlaySE(SoundEffect.breakObject);
                 this.ShakeStart(8, 4);
                 for (int index = 0; index < this.manyDorills; ++index)
                 {

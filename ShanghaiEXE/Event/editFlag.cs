@@ -11,7 +11,7 @@ namespace NSEvent
         private readonly bool rebirth;
         private readonly bool numberORvalue;
 
-        public editFlag(MyAudio s, EventManager m, int n, bool nORv, int tORf, SaveData save)
+        public editFlag(IAudioEngine s, EventManager m, int n, bool nORv, int tORf, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;
@@ -33,7 +33,7 @@ namespace NSEvent
             }
         }
 
-        public editFlag(MyAudio s, EventManager m, int n, bool tORf, SaveData save)
+        public editFlag(IAudioEngine s, EventManager m, int n, bool tORf, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

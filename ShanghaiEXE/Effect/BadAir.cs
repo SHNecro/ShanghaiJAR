@@ -11,7 +11,7 @@ namespace NSEffect
         private bool up = true;
         private readonly int colorNum;
 
-        public BadAir(MyAudio s, Vector2 pd, Point posi, int colorNum)
+        public BadAir(IAudioEngine s, Vector2 pd, Point posi, int colorNum)
           : base(s, null, posi.X, posi.Y)
         {
             this.colorNum = colorNum;

@@ -21,7 +21,7 @@ namespace NSEnemy
         private int roopmove;
         private Point t;
 
-        public SwordDog(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public SwordDog(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.Y = -16;
@@ -226,7 +226,7 @@ namespace NSEnemy
                         if (this.frame == 8)
                         {
                             this.counterTiming = false;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                            this.sound.PlaySE(SoundEffect.sword);
                             int pX = this.union == Panel.COLOR.blue ? this.position.X - 1 : this.position.X + 1;
                             int y = this.position.Y;
                             if (this.version == 0)

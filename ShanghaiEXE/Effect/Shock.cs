@@ -8,7 +8,7 @@ namespace NSEffect
 {
     internal class Shock : EffectBase
     {
-        public Shock(MyAudio s, SceneBattle p, Vector2 pd, int sp, Point posi, Panel.COLOR u = Panel.COLOR.blue)
+        public Shock(IAudioEngine s, SceneBattle p, Vector2 pd, int sp, Point posi, Panel.COLOR u = Panel.COLOR.blue)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = sp;
@@ -18,7 +18,7 @@ namespace NSEffect
             this.rebirth = true;
         }
 
-        public Shock(MyAudio s, SceneBattle p, int pX, int pY, int sp, Panel.COLOR u = Panel.COLOR.blue)
+        public Shock(IAudioEngine s, SceneBattle p, int pX, int pY, int sp, Panel.COLOR u = Panel.COLOR.blue)
           : base(s, p, pX, pY)
         {
             this.speed = sp;

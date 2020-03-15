@@ -14,7 +14,7 @@ namespace NSChip
 		private const int start = 5;
 		private const int speed = 3;
 
-		public BigTyphoon(MyAudio s)
+		public BigTyphoon(IAudioEngine s)
 		  : base(s)
 		{
 			this.number = 275;
@@ -38,7 +38,7 @@ namespace NSChip
 		public override void Action(CharacterBase character, SceneBattle battle)
 		{
 			if (character.waittime == 5)
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+				this.sound.PlaySE(SoundEffect.sword);
 			if (character.waittime <= 5)
 				character.animationpoint = new Point(0, 1);
 			else if (character.waittime <= 23)

@@ -53,7 +53,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public Virus(MyAudio s, Player p, TopMenu t, SaveData save)
+        public Virus(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             this.eventmanager = new EventManager(this.sound);
@@ -96,11 +96,11 @@ namespace NSMap.Character.Menu
                                                 ++this.savedata.HaveVirus[this.page].eatBug;
                                                 if (this.savedata.HaveVirus[this.page].eatBug % 20 == 0)
                                                 {
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                                                    this.sound.PlaySE(SoundEffect.bright);
                                                     this.savedata.HaveVirus[this.page].ReturnVirus(this.savedata.HaveVirus[this.page].type);
                                                 }
                                                 --this.savedata.havePeace[this.savedata.selectQuestion];
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                                                this.sound.PlaySE(SoundEffect.repair);
                                                 break;
                                             }
                                             this.eventmanager.events.Clear();
@@ -110,18 +110,18 @@ namespace NSMap.Character.Menu
                                         case 1:
                                             ++this.savedata.HaveVirus[this.page].eatFreeze;
                                             --this.savedata.havePeace[this.savedata.selectQuestion];
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                                            this.sound.PlaySE(SoundEffect.repair);
                                             break;
                                         case 2:
                                             ++this.savedata.HaveVirus[this.page].eatError;
                                             --this.savedata.havePeace[this.savedata.selectQuestion];
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                                            this.sound.PlaySE(SoundEffect.repair);
                                             break;
                                     }
                                 }
                                 else
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                    this.sound.PlaySE(SoundEffect.error);
                                     this.eventmanager.events.Clear();
                                     var dialogue = ShanghaiEXE.Translate("Virus.FeedFailedNoItemsDialogue1");
                                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -132,7 +132,7 @@ namespace NSMap.Character.Menu
                             {
                                 if (this.savedata.selectQuestion == 0)
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                                    this.sound.PlaySE(SoundEffect.warp);
                                     this.eventmanager.events.Clear();
                                     var dialogue = ShanghaiEXE.Translate("Virus.DismissDialogue1");
                                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -178,7 +178,7 @@ namespace NSMap.Character.Menu
                         case 0:
                             if (this.savedata.HaveVirus[this.page].eatSum < 50)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                                this.sound.PlaySE(SoundEffect.decide);
                                 this.selectstyle = true;
                                 question = ShanghaiEXE.Translate("Virus.FeedQuestion");
                                 options = ShanghaiEXE.Translate("Virus.FeedOptionsFormat").Format(this.savedata.havePeace[0], this.savedata.havePeace[1], this.savedata.havePeace[2]);
@@ -188,10 +188,10 @@ namespace NSMap.Character.Menu
                                 this.eventmanager.AddEvent(question1);
                                 break;
                             }
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                             break;
                         case 1:
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             this.selectstyle = true;
                             question = ShanghaiEXE.Translate("Virus.DismissQuestion");
                             options = ShanghaiEXE.Translate("Virus.DismissOptions");
@@ -204,14 +204,14 @@ namespace NSMap.Character.Menu
                 }
                 if (Input.IsPress(Button.Up))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     --this.cursol;
                     if (this.cursol < 0)
                         this.cursol = 1;
                 }
                 if (Input.IsPress(Button.Down))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     ++this.cursol;
                     if (this.cursol > 1)
                         this.cursol = 0;
@@ -219,7 +219,7 @@ namespace NSMap.Character.Menu
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 if (this.selectstyle)
                 {
                     this.selectstyle = false;
@@ -235,12 +235,12 @@ namespace NSMap.Character.Menu
             {
                 if (Input.IsPress(Button._R) && this.RightOK)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     ++this.page;
                 }
                 if (!Input.IsPress(Button._L) || !this.LeftOK)
                     return;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 --this.page;
             }
             else if (this.waittime > 0)

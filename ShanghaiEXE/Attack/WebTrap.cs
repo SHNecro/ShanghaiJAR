@@ -16,7 +16,7 @@ namespace NSAttack
         private readonly int time;
 
         public WebTrap(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

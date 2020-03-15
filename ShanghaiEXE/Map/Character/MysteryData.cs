@@ -94,7 +94,7 @@ namespace NSMap.Character
         }
 
         public MysteryData(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,

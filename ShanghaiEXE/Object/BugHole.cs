@@ -16,7 +16,7 @@ namespace NSObject
         private bool breaked;
         private readonly bool shot;
 
-        public BugHole(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+        public BugHole(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
           : base(s, p, pX, pY, union)
         {
             this.height = 48;
@@ -83,7 +83,7 @@ namespace NSObject
             if (!this.breaked || this.StandPanel.Hole)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                this.sound.PlaySE(SoundEffect.dark);
                 this.parent.effects.Add(new BugHoleDead(this.sound, this.parent, this.positionDirect, this.position));
             }
             this.flag = false;

@@ -21,7 +21,7 @@ namespace NSEnemy
         private readonly NSAttack.PoisonShot.TYPE type;
         private bool wind;
 
-        public Brocooler(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Brocooler(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.Y = -4;
@@ -191,7 +191,7 @@ namespace NSEnemy
                             case 10:
                             case 16:
                             case 22:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.search);
+                                this.sound.PlaySE(SoundEffect.search);
                                 break;
                             case 20:
                                 this.counterTiming = true;
@@ -255,10 +255,10 @@ namespace NSEnemy
                                             this.parent.effects.Add(new Smoke(this.sound, this.parent, this.positionre.X, this.positionre.Y, ChipBase.ELEMENT.poison));
                                             break;
                                     }
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+                                    this.sound.PlaySE(SoundEffect.heat);
                                     if (this.version == 0)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                        this.sound.PlaySE(SoundEffect.shoot);
                                         if (!this.wind)
                                             this.parent.effects.Add(new NSEffect.PushWind(this.sound, this.parent, new Vector2(), new Point(), this.union));
                                         else
@@ -302,7 +302,7 @@ namespace NSEnemy
                         {
                             if (this.waittime == 1)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                                this.sound.PlaySE(SoundEffect.eriasteal2);
                                 for (int pX = 0; pX < this.parent.panel.GetLength(0); ++pX)
                                 {
                                     for (int pY = 0; pY < this.parent.panel.GetLength(1); ++pY)

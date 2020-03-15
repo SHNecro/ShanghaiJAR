@@ -22,7 +22,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public DanBeetle(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public DanBeetle(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.Y = -24;
@@ -273,7 +273,7 @@ namespace NSEnemy
                     {
                         if (this.frame == 9)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                            this.sound.PlaySE(SoundEffect.sword);
                             if ((uint)this.barrierType > 0U)
                             {
                                 if (this.version == 0)

@@ -18,7 +18,7 @@ namespace NSEnemy
         private int fire;
         private int realFlame;
 
-        public Screwn(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Screwn(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -211,7 +211,7 @@ namespace NSEnemy
                         if (this.version == 0)
                         {
                             this.realFlame = 30;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                            this.sound.PlaySE(SoundEffect.sand);
                             int pX = this.position.X + (this.union == Panel.COLOR.red ? 1 : -1);
                             int num = this.Random.Next(3);
                             int pY1 = 0;
@@ -246,7 +246,7 @@ namespace NSEnemy
                         }
                         else
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                            this.sound.PlaySE(SoundEffect.sand);
                             this.parent.attacks.Add(new PushTornado(this.sound, this.parent, this.position.X + (this.union == Panel.COLOR.red ? 1 : -1), this.position.Y, this.union, this.Power, ChipBase.ELEMENT.aqua, 1, 1, true));
                         }
                         break;

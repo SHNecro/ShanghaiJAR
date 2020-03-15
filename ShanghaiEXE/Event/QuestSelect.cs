@@ -116,7 +116,7 @@ namespace NSEvent
             }
         }
 
-        public QuestSelect(MyAudio s, EventManager m, Player player, SaveData save)
+        public QuestSelect(IAudioEngine s, EventManager m, Player player, SaveData save)
           : base(s, m, save)
         {
             this.info = player.info;
@@ -224,7 +224,7 @@ namespace NSEvent
                 this.MessageMake();
             else if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.nowscene = QuestSelect.SCENE.fadeout;
             }
             else if (this.waittime <= 0)
@@ -237,7 +237,7 @@ namespace NSEvent
                         --this.cursol;
                     else
                         --this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
                 else
@@ -248,7 +248,7 @@ namespace NSEvent
                         ++this.cursol;
                     else
                         ++this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
             }

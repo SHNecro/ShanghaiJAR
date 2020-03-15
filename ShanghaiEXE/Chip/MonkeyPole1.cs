@@ -13,7 +13,7 @@ namespace NSChip
     private const int speed = 2;
     protected int color;
 
-    public MonkeyPole1(MyAudio s)
+    public MonkeyPole1(IAudioEngine s)
       : base(s)
     {
       this.number = 130;
@@ -42,7 +42,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+        this.sound.PlaySE(SoundEffect.chain);
         int pX = character.union == Panel.COLOR.red ? 5 : 0;
         for (int pY = 0; pY < 3; ++pY)
           battle.attacks.Add(this.Paralyze(new MonkeyPoleChip(this.sound, battle, pX, pY, character.union, this.Power(character), 1, this.element, this.color)));

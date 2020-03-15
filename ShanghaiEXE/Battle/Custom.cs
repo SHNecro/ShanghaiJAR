@@ -67,7 +67,7 @@ namespace NSBattle
         private bool sendData;
         private bool escape;
 
-        public Custom(MyAudio s, SceneBattle p, SceneMain main, Player pl, SaveData save)
+        public Custom(IAudioEngine s, SceneBattle p, SceneMain main, Player pl, SaveData save)
           : base(s)
         {
             this.savedata = save;
@@ -122,7 +122,7 @@ namespace NSBattle
                 i
             }))
                 this.paflag[data.i] = false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+            this.sound.PlaySE(SoundEffect.menuopen);
             this.scene = Custom.CUSTOMCHENE.fadeIn;
             this.frame = 0;
             this.selectchips = 0;
@@ -278,14 +278,14 @@ namespace NSBattle
             {
                 case 20:
                     this.player.PluspointDoctor(40);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.barrier);
+                    this.sound.PlaySE(SoundEffect.barrier);
                     this.paprintname = true;
                     break;
                 case 80:
                     this.paprintname = false;
                     break;
                 case 100:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                    this.sound.PlaySE(SoundEffect.docking);
                     for (int index = 0; index < this.panum.GetLength(0); ++index)
                     {
                         if (this.panum[index, 1] != -1)
@@ -320,7 +320,7 @@ namespace NSBattle
             {
                 if (this.parent.backscreen != byte.MaxValue)
                     this.parent.backscreen = byte.MaxValue;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal1);
+                this.sound.PlaySE(SoundEffect.eriasteal1);
             }
             else if (this.frame > 30 && this.frame < 75)
             {
@@ -346,7 +346,7 @@ namespace NSBattle
             {
                 if (this.parent.backscreencolor != byte.MaxValue)
                     this.parent.backscreencolor = byte.MaxValue;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.fullcustom);
+                this.sound.PlaySE(SoundEffect.fullcustom);
                 this.gaiaChange = false;
                 if (this.stylechange[0])
                     this.StyleSet(this.player);
@@ -422,7 +422,7 @@ namespace NSBattle
                         {
                             if (this.darksound <= 0)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                                this.sound.PlaySE(SoundEffect.dark);
                                 this.darksound = 60;
                             }
                             if (this.darkA < 80)
@@ -452,7 +452,7 @@ namespace NSBattle
                         {
                             this.close = false;
                             this.scene = Custom.CUSTOMCHENE.fadeIn;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                            this.sound.PlaySE(SoundEffect.menuopen);
                             this.closein = true;
                             this.frame = 0;
                         }
@@ -666,7 +666,7 @@ namespace NSBattle
                     string[] strArray = NetParam.DataUse("202");
                     if (strArray != null && strArray[3] == "OK")
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.pi);
+                        this.sound.PlaySE(SoundEffect.pi);
                         NetParam.sendflame = 0L;
                         if (this.stylechange[0] || this.stylechange[1])
                         {
@@ -803,12 +803,12 @@ namespace NSBattle
                     if (this.cursor.X == 6 && this.cursor.Y == 1)
                     {
                         --this.cursor.Y;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     else if (this.cursor.Y == 1 && !(this.canchips[this.cursor.X].chip is DammyChip))
                     {
                         --this.cursor.Y;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                     }
                     else
                     {
@@ -816,20 +816,20 @@ namespace NSBattle
                             return;
                         if (this.cursor.X > 6)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                         }
                         else
                         {
                             this.scene = Custom.CUSTOMCHENE.openstyle;
                             this.styleCursol = 0;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                            this.sound.PlaySE(SoundEffect.menuopen);
                         }
                     }
                 }
                 else if (this.styleCursol > 0)
                 {
                     --this.styleCursol;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
             }
             else if (Input.IsPress(Button.Down))
@@ -840,12 +840,12 @@ namespace NSBattle
                         ++this.cursor.Y;
                     else if (this.cursor.Y == 0 && !(this.canchips[this.cursor.X + 6].chip is DammyChip))
                         ++this.cursor.Y;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
                 else if (this.styleCursol + 1 < this.savedata.havestyles)
                 {
                     ++this.styleCursol;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
                 else
                     this.CloseStyleMenu();
@@ -880,7 +880,7 @@ namespace NSBattle
                     else if (this.cursor.X == 5 && this.parent.player.style != Player.STYLE.doctor)
                         this.cursor.Y = 0;
                 }
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
             }
             else if (Input.IsPress(Button.Left))
             {
@@ -918,7 +918,7 @@ namespace NSBattle
                             --this.cursor.X;
                     }
                 }
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
             }
             else if (Input.IsPress(Button._A))
             {
@@ -981,7 +981,7 @@ namespace NSBattle
                             this.stylechange[0] = true;
                             this.stylepicture = this.player.StyleGraphicsName(this.style);
                         }
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.thiptransmission);
+                        this.sound.PlaySE(SoundEffect.thiptransmission);
                     }
                     else if (selectchips < canselects)
                     {
@@ -992,26 +992,26 @@ namespace NSBattle
                                 this.chipSelecFlag[this.cursor.Y * 6 + this.cursor.X] = true;
                                 this.selectedchips[selectchips] = (byte)(this.cursor.Y * 6 + this.cursor.X);
                                 ++this.selectchips;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                                this.sound.PlaySE(SoundEffect.decide);
                             }
                             else
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                         }
                         else
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                            this.sound.PlaySE(SoundEffect.error);
                     }
                     else
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                 }
                 else if (!this.styleset)
                 {
                     if (this.styleused[this.styleCursol] || this.styleCursol == this.player.setstyle)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                     }
                     else
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                        this.sound.PlaySE(SoundEffect.bright);
                         this.styleset = true;
                         this.scene = Custom.CUSTOMCHENE.custom;
                         this.style = this.styleCursol;
@@ -1029,7 +1029,7 @@ namespace NSBattle
                         this.chipSelecFlag[this.selectedchips[selectchips - 1]] = false;
                         this.selectedchips[selectchips - 1] = -1;
                         --this.selectchips;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                        this.sound.PlaySE(SoundEffect.cancel);
                     }
                     else if (this.styleset)
                     {
@@ -1038,13 +1038,13 @@ namespace NSBattle
                         this.CloseStyleMenu();
                     }
                     else
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                 }
                 else if (this.styleset)
                 {
                     this.styleset = false;
                     this.style = -1;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                 }
                 else
                     this.CloseStyleMenu();
@@ -1053,7 +1053,7 @@ namespace NSBattle
             {
                 if (this.cursor.X != 6 || (uint)this.cursor.Y > 0U)
                     this.cursor = new Point(6, 0);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
             }
             else if (Input.IsPress(Button._Select) && !this.styleselecting)
             {
@@ -1062,13 +1062,13 @@ namespace NSBattle
                 this.close = true;
                 this.scene = Custom.CUSTOMCHENE.fadeOut;
                 this.frame = 0;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuclose);
+                this.sound.PlaySE(SoundEffect.menuclose);
             }
             else
             {
                 if (!Input.IsPress(Button._R))
                     return;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 if (!this.styleselecting)
                 {
                     if (this.cursor.X < 6)
@@ -1499,7 +1499,7 @@ namespace NSBattle
             this.scene = Custom.CUSTOMCHENE.custom;
             this.styleselecting = false;
             this.stylemenu = 8;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.menuclose);
+            this.sound.PlaySE(SoundEffect.menuclose);
         }
 
         private void SortThips(int no, int thip)

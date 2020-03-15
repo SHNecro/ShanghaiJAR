@@ -11,7 +11,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 3;
 
-    public ElekiNet(MyAudio s)
+    public ElekiNet(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

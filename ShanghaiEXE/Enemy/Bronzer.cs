@@ -18,7 +18,7 @@ namespace NSEnemy
         private readonly int manyshoot;
         private readonly NapalmBomb.TYPE type;
 
-        public Bronzer(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Bronzer(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -227,7 +227,7 @@ namespace NSEnemy
                                 this.counterTiming = true;
                                 if (this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                                 {
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                    this.sound.PlaySE(SoundEffect.canon);
                                     Point end = this.RandomTarget();
                                     int heattime = 300;
                                     if (this.version == 0)

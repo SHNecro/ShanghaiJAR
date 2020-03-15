@@ -24,7 +24,7 @@ namespace NSChip
     private Charge chargeEffect;
     protected Point animePoint;
 
-    public RanV1(MyAudio s)
+    public RanV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -135,7 +135,7 @@ namespace NSChip
             case 1:
               character.animationpoint.X = -1;
               this.animePoint.X = 0;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+              this.sound.PlaySE(SoundEffect.warp);
               break;
             case 18:
               this.animePoint.X = 5;
@@ -172,7 +172,7 @@ case 2:
           switch (this.waittime)
           {
             case 3:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+              this.sound.PlaySE(SoundEffect.gun);
               battle.attacks.Add(this.Paralyze(new BustorShot(this.sound, battle, character.position.X + this.UnionRebirth(character.union), this.targetY[this.atacks], character.union, this.Power(character), BustorShot.SHOT.ranShot, this.element, false, 6)));
               Debug.WriteLine(atacks);
               break;

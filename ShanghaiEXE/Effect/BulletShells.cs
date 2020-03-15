@@ -32,7 +32,7 @@ namespace NSEffect
         }
 
         public BulletShells(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Point position,
           float pX,

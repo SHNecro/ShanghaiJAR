@@ -15,7 +15,7 @@ namespace NSObject
         private int attackCount;
         private bool breaked;
 
-        public MimaNavi(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+        public MimaNavi(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
           : base(s, p, pX, pY, union)
         {
             this.height = 48;
@@ -132,7 +132,7 @@ namespace NSObject
                             this.animationpoint = this.AnimeAttack(this.frame);
                             if (this.frame == 3)
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                this.sound.PlaySE(SoundEffect.shotwave);
                                 this.parent.attacks.Add(new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, this.hitPower, 2, ChipBase.ELEMENT.poison, true));
                             }
                             if (this.frame == 8)
@@ -169,7 +169,7 @@ namespace NSObject
             if (this.breaked && !this.StandPanel.Hole)
                 return;
             this.breaked = true;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+            this.sound.PlaySE(SoundEffect.clincher);
         }
 
         private bool EnemySearch(int Y)

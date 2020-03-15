@@ -8,7 +8,7 @@ namespace NSGame
         protected SaveData savedata;
         public ShanghaiEXE parent;
 
-        protected SceneBase(MyAudio s, ShanghaiEXE p, SaveData save)
+        protected SceneBase(IAudioEngine s, ShanghaiEXE p, SaveData save)
           : base(s)
         {
             this.parent = p;

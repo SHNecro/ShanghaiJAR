@@ -10,7 +10,7 @@ namespace NSMap.Character
         private MapCharacterBase character;
         public float flame;
 
-        public EventMove(MyAudio s, EventMove.MOVE m, int l, MapCharacterBase c)
+        public EventMove(IAudioEngine s, EventMove.MOVE m, int l, MapCharacterBase c)
           : base(s)
         {
             this.move = m;

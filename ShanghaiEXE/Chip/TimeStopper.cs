@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public TimeStopper(MyAudio s)
+    public TimeStopper(IAudioEngine s)
       : base(s)
     {
       this.number = 157;
@@ -41,7 +41,7 @@ namespace NSChip
     {
       if (character.waittime != 1)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+      this.sound.PlaySE(SoundEffect.heat);
       Vector2 pd = new Vector2(character.positionDirect.X - 8f, character.positionDirect.Y - 32f);
       battle.effects.Add(new Smoke(this.sound, battle, pd, character.position, ChipBase.ELEMENT.normal));
       base.Action(character, battle);

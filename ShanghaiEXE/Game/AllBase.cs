@@ -19,7 +19,7 @@ namespace NSGame
 		protected Button[] commandList = new Button[20];
 		protected Rectangle _rect;
 		protected Vector2 _position;
-		protected MyAudio sound;
+		protected IAudioEngine sound;
 		protected static int randomUseCount;
 		public Random randomN;
 		protected int frame;
@@ -76,7 +76,7 @@ namespace NSGame
 			}
 		}
 
-		public AllBase(MyAudio ad)
+		public AllBase(IAudioEngine ad)
 		{
 			this.sound = ad;
 		}

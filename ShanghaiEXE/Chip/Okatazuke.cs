@@ -13,7 +13,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public Okatazuke(MyAudio s)
+    public Okatazuke(IAudioEngine s)
       : base(s)
     {
       this.number = 146;
@@ -39,7 +39,7 @@ namespace NSChip
 
     public override void Action(CharacterBase character, SceneBattle battle)
     {
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+      this.sound.PlaySE(SoundEffect.eriasteal2);
       for (int pX = 0; pX < battle.panel.GetLength(0); ++pX)
       {
         for (int pY = 0; pY < battle.panel.GetLength(1); ++pY)

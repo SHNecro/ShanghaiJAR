@@ -13,7 +13,7 @@ namespace NSChip
         private const int shotend = 10;
         private const int shotinterval = 4;
 
-        public BubbleBlust1(MyAudio s)
+        public BubbleBlust1(IAudioEngine s)
           : base(s)
         {
             this.rockOnPoint = new Point(-3, 0);
@@ -43,7 +43,7 @@ namespace NSChip
             if (character.waittime == 40)
                 base.Action(character, battle);
             if (character.waittime % 8 == 0)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+                this.sound.PlaySE(SoundEffect.vulcan);
             if (character.waittime % 8 != 4)
                 return;
             int num = this.power + this.pluspower;

@@ -21,7 +21,7 @@ namespace NSMap.Character.Menu
         private readonly SceneMain main;
         private readonly Thread thread_1;
 
-        public Save(MyAudio s, Player p, TopMenu t, SaveData save, SceneMain m)
+        public Save(IAudioEngine s, Player p, TopMenu t, SaveData save, SceneMain m)
           : base(s, p, t, save)
         {
             this.main = m;
@@ -71,14 +71,14 @@ namespace NSMap.Character.Menu
             {
                 if (!this.savedata.saveEnd)
                     return;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.getchip);
+                this.sound.PlaySE(SoundEffect.getchip);
                 this.select = Save.SELECTSCENE.saved;
             }
             else
             {
                 if (Input.IsPress(Button._A))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     if (this.select != Save.SELECTSCENE.saved)
                     {
                         if (!this.yesno)
@@ -101,7 +101,7 @@ namespace NSMap.Character.Menu
                 }
                 if (Input.IsPress(Button._B))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     this.nowscene = Save.SCENE.fadeout;
                 }
                 if (this.waittime <= 0 && this.select != Save.SELECTSCENE.saved)
@@ -109,13 +109,13 @@ namespace NSMap.Character.Menu
                     if (Input.IsPush(Button.Left))
                     {
                         this.yesno = !this.yesno;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Left) ? 10 : 4;
                     }
                     if (Input.IsPush(Button.Right))
                     {
                         this.yesno = !this.yesno;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Right) ? 10 : 4;
                     }
                 }

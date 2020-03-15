@@ -11,7 +11,7 @@ namespace NSEvent
     {
         private readonly SceneMap map;
 
-        public PlugOut(MyAudio s, EventManager m, SceneMap map, SaveData save)
+        public PlugOut(IAudioEngine s, EventManager m, SceneMap map, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

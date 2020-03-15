@@ -20,7 +20,7 @@ namespace NSAttack
         private readonly bool blue;
 
         public AssaultBuster(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

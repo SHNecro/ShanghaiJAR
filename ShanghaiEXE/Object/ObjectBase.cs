@@ -14,7 +14,7 @@ namespace NSObject
         public bool overslip;
         public bool unionhit;
 
-        public ObjectBase(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+        public ObjectBase(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
           : base(s, p)
         {
             this.position = new Point(pX, pY);

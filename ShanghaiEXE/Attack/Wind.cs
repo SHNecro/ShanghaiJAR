@@ -19,7 +19,7 @@ namespace NSAttack
         private readonly bool push;
         private int realflame;
 
-        public Wind(MyAudio so, SceneBattle p, int pX, int pY, Panel.COLOR u, bool push)
+        public Wind(IAudioEngine so, SceneBattle p, int pX, int pY, Panel.COLOR u, bool push)
           : base(so, p, pX, pY, u, 0, ChipBase.ELEMENT.normal)
         {
             if (!this.flag)

@@ -62,7 +62,7 @@ namespace NSEnemy
         private bool zdown;
         private new int roop;
 
-        public Ikary(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Ikary(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -257,7 +257,7 @@ namespace NSEnemy
                                 if (!this.StandPanel.Hole)
                                 {
                                     this.ShakeStart(5, 30);
-                                    this.Sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                                    this.Sound.PlaySE(SoundEffect.clincher);
                                     this.counterTiming = true;
                                     this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y, sp));
                                     BombAttack bombAttack = new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 1, this.element);

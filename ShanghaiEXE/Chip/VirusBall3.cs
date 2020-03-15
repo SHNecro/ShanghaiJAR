@@ -5,7 +5,7 @@ namespace NSChip
 {
     internal class VirusBall3 : VirusBall1
     {
-        public VirusBall3(MyAudio s, bool set)
+        public VirusBall3(IAudioEngine s, bool set)
           : base(s, set)
         {
             this.number = 312;

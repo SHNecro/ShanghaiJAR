@@ -15,7 +15,7 @@ namespace NSAttack
         private bool flash;
         public bool end;
 
-        public JusticeBeam(MyAudio so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, int s)
+        public JusticeBeam(IAudioEngine so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, int s)
           : base(so, p, pX, pY, u, po, ChipBase.ELEMENT.normal)
         {
             if (!this.flag)
@@ -49,7 +49,7 @@ namespace NSAttack
                     switch (this.frame)
                     {
                         case 0:
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                            this.sound.PlaySE(SoundEffect.beam);
                             break;
                         case 4:
                             this.hitting = true;

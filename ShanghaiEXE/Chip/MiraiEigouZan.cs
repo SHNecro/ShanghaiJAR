@@ -29,7 +29,7 @@ namespace NSChip
     private const int s = 5;
     protected Point animePoint;
 
-    public MiraiEigouZan(MyAudio s)
+    public MiraiEigouZan(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -75,7 +75,7 @@ namespace NSChip
           case 1:
             character.animationpoint.X = -1;
             this.xPosition = character.position.X;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+            this.sound.PlaySE(SoundEffect.warp);
             this.animePoint = new Point(2, 0);
             break;
           case 2:
@@ -96,7 +96,7 @@ namespace NSChip
           case 15:
             if (!this.nohit)
             {
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+              this.sound.PlaySE(SoundEffect.pikin);
               battle.effects.Add(new Flash(this.sound, battle, character.positionDirect, character.position));
               this.animePoint = new Point(0, 4);
               break;
@@ -192,7 +192,7 @@ namespace NSChip
           case 44:
             for (int index = 0; index < this.shadows.Count; ++index)
             {
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+              this.sound.PlaySE(SoundEffect.breakObject);
               this.ShakeStart(4, 4);
               BombAttack bombAttack = new BombAttack(this.sound, battle, this.target.X, this.target.Y, character.union, this.Power(character), 2, this.element);
               bombAttack.breakinvi = true;

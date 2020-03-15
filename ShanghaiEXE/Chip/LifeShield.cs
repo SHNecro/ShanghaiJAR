@@ -15,7 +15,7 @@ namespace NSChip
     private bool open;
     private bool close;
 
-    public LifeShield(MyAudio s)
+    public LifeShield(IAudioEngine s)
       : base(s)
     {
       this.number = 57;
@@ -44,7 +44,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+        this.sound.PlaySE(SoundEffect.rockopen);
         character.shield = CharacterBase.SHIELD.Repair;
         character.shieldUsed = false;
         character.ReflectP = 0;

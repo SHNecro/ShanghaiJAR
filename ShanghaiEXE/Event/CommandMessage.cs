@@ -43,7 +43,7 @@ namespace NSEvent
         private Thread thread_1;
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -58,7 +58,7 @@ namespace NSEvent
         }
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -76,7 +76,7 @@ namespace NSEvent
         }
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -88,7 +88,7 @@ namespace NSEvent
         }
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -111,7 +111,7 @@ namespace NSEvent
         }
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -124,7 +124,7 @@ namespace NSEvent
         }
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -149,7 +149,7 @@ namespace NSEvent
         }
 
         public CommandMessage(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           string text1,
           string text2,
@@ -238,13 +238,13 @@ namespace NSEvent
                     var thinkStart = strArray[this.endprint][this.printfonts - 1] == "（" || strArray[this.endprint][this.printfonts - 1] == "(";
                     if (ellipseLength > 0 && !this.mono)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                        this.sound.PlaySE(SoundEffect.message);
                         this.wait = 30 / ellipseLength;
                         this.longwaiting = true;
                     }
                     else if (shortpause && !this.mono)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                        this.sound.PlaySE(SoundEffect.message);
                         this.wait = 15;
                         this.longwaiting = true;
                     }
@@ -274,7 +274,7 @@ namespace NSEvent
                                 case "s":
                                     try
                                     {
-                                        this.sound.PlaySE((MyAudio.SOUNDNAMES)Enum.Parse(typeof(MyAudio.SOUNDNAMES), s));
+                                        this.sound.PlaySE((SoundEffect)Enum.Parse(typeof(SoundEffect), s));
                                     }
                                     catch { }
                                     break;
@@ -315,7 +315,7 @@ namespace NSEvent
                         }
                         else
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.message);
+                            this.sound.PlaySE(SoundEffect.message);
                             this.wait = 0;
                             this.longwaiting = false;
                         }

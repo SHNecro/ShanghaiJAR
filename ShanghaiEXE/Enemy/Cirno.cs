@@ -32,7 +32,7 @@ namespace NSEnemy
         private float plusing;
         private const int startspeed = 6;
 
-        public Cirno(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Cirno(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -258,7 +258,7 @@ namespace NSEnemy
                                 {
                                     case 6:
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                                        this.sound.PlaySE(SoundEffect.chain);
                                         Point end = this.RandomTarget();
                                         Vector2 v = new Vector2(this.positionDirect.X + (this.union == Panel.COLOR.red ? 0.0f : 0.0f), this.positionDirect.Y - 8f);
                                         this.parent.attacks.Add(new NSAttack.PoisonShot(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, v, ChipBase.ELEMENT.aqua, end, Math.Max(80 / (version / 2 + 1), 30), false, NSAttack.PoisonShot.TYPE.ice));
@@ -289,12 +289,12 @@ namespace NSEnemy
                                     case 1:
                                         this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.position.X, this.position.Y, this.union, new Point(6, 0), 10, true));
                                         this.counterTiming = true;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.water);
+                                        this.sound.PlaySE(SoundEffect.water);
                                         break;
                                     case 4:
                                         this.effecting = true;
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                                        this.sound.PlaySE(SoundEffect.sand);
                                         break;
                                 }
                                 break;
@@ -304,14 +304,14 @@ namespace NSEnemy
                                 {
                                     case 1:
                                         this.counterTiming = true;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                                        this.sound.PlaySE(SoundEffect.warp);
                                         this.flying = true;
                                         break;
                                     case 5:
                                         this.Noslip = true;
                                         this.effecting = true;
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                                        this.sound.PlaySE(SoundEffect.throw_);
                                         this.attack = Cirno.ATTACK.icePress;
                                         this.target = this.RandomTarget();
                                         this.positionre = this.target;
@@ -347,7 +347,7 @@ namespace NSEnemy
                             {
                                 this.parent.panel[this.target.X, this.target.Y].Crack();
                                 this.ShakeStart(8, 30);
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                                this.sound.PlaySE(SoundEffect.clincher);
                                 this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 1, this.element));
                                 this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 2));
                                 if (this.version >= 2)

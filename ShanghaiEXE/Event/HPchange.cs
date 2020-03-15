@@ -9,7 +9,7 @@ namespace NSEvent
         private readonly int HP;
         private readonly bool upDown;
 
-        public HPchange(MyAudio s, EventManager m, int hp, bool updown, SaveData save)
+        public HPchange(IAudioEngine s, EventManager m, int hp, bool updown, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

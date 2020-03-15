@@ -21,7 +21,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public FireCat(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public FireCat(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -218,7 +218,7 @@ namespace NSEnemy
                         if (this.frame == 12 || this.frame == 15 || this.frame == 18)
                         {
                             this.counterTiming = false;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                            this.sound.PlaySE(SoundEffect.fire);
                             if (this.version == 0)
                             {
                                 AttackBase attackBase1 = new ElementFire(this.sound, this.parent, this.position.X + this.attackcount * this.UnionRebirth, this.position.Y, this.union, this.Power, 4, this.element, false, 1);

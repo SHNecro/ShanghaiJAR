@@ -24,7 +24,7 @@ namespace NSAttack
         private readonly Shadow shadow;
 
         public FallStone(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -99,7 +99,7 @@ namespace NSAttack
                         this.hitting = false;
                         this.shadow.flag = false;
                         this.flag = false;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                        this.sound.PlaySE(SoundEffect.breakObject);
                         this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, true, 1));
                         this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, false, 1));
                         this.yspeed = 0;

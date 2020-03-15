@@ -311,7 +311,7 @@ namespace NSBattle.Character
             }
         }
 
-        public CharacterBase(MyAudio s, SceneBattle p)
+        public CharacterBase(IAudioEngine s, SceneBattle p)
           : base(s)
         {
             this.parent = p;
@@ -1561,7 +1561,7 @@ namespace NSBattle.Character
             if (this.nameAlpha < byte.MaxValue && this.BlackOutFlame >= 10 && this.BlackOutFlame < 20)
                 this.nameAlpha += 51;
             if (this.BlackOutFlame == 5)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.barrier);
+                this.sound.PlaySE(SoundEffect.barrier);
             if (this.nameAlpha > 0 && this.BlackOutFlame >= 50)
                 this.nameAlpha -= 51;
             ++this.BlackOutFlame;

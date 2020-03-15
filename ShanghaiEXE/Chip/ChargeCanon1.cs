@@ -14,7 +14,7 @@ namespace NSChip
     private bool anime;
     private bool soundPlay;
 
-    public ChargeCanon1(MyAudio s)
+    public ChargeCanon1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -54,14 +54,14 @@ namespace NSChip
       if (!this.soundPlay && this.chargeFlag)
       {
         this.soundPlay = true;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+        this.sound.PlaySE(SoundEffect.CommandSuccess);
       }
       if (character.waittime > 15 && character.waittime % 2 == 0)
         this.anime = !this.anime;
       if (character.waittime == 15)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.machineRunning);
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+        this.sound.PlaySE(SoundEffect.machineRunning);
+        this.sound.PlaySE(SoundEffect.charge);
       }
       if (character.waittime < 5)
         character.animationpoint = new Point(4, 0);
@@ -83,7 +83,7 @@ namespace NSChip
       if (character.waittime == 108)
       {
         this.ShakeStart(10, 30);
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+        this.sound.PlaySE(SoundEffect.bombbig);
       }
       if (character.waittime != 110)
         return;

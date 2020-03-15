@@ -11,7 +11,7 @@ namespace NSEvent
         private const int maxflame = 4;
         private bool printend;
 
-        public CloseMassageWindow(MyAudio s, EventManager m)
+        public CloseMassageWindow(IAudioEngine s, EventManager m)
           : base(s, m, null)
         {
         }

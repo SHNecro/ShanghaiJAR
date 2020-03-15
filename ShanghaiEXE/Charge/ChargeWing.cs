@@ -12,7 +12,7 @@ namespace NSCharge
         private const int start = 5;
         private const int speed = 3;
 
-        public ChargeWing(MyAudio s, Player p)
+        public ChargeWing(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;
@@ -23,7 +23,7 @@ namespace NSCharge
         public override void Action()
         {
             if (this.player.waittime == 5)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                this.sound.PlaySE(SoundEffect.sword);
             if (this.player.waittime <= 5)
                 this.player.animationpoint = new Point(0, 1);
             else if (this.player.waittime <= 23)

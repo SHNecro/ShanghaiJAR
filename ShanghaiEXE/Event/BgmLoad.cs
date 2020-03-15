@@ -9,7 +9,7 @@ namespace NSEvent
     {
         private readonly MapField field;
 
-        public BgmLoad(MyAudio s, EventManager m, MapField field, SaveData save)
+        public BgmLoad(IAudioEngine s, EventManager m, MapField field, SaveData save)
           : base(s, m, save)
         {
             this.field = field;

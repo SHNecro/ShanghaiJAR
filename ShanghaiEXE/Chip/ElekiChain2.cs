@@ -9,7 +9,7 @@ namespace NSChip
 {
     internal class ElekiChain2 : ElekiChain1
   {
-    public ElekiChain2(MyAudio s)
+    public ElekiChain2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

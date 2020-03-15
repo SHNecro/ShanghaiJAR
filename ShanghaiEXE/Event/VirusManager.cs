@@ -44,7 +44,7 @@ namespace NSEvent
             }
         }
 
-        public VirusManager(MyAudio s, EventManager m, Player player, SaveData save)
+        public VirusManager(IAudioEngine s, EventManager m, Player player, SaveData save)
           : base(s, m, save)
         {
             this.info = player.info;
@@ -153,12 +153,12 @@ namespace NSEvent
         {
             if (Input.IsPress(Button._A))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.Decide();
             }
             else if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 if (this.selected)
                     this.selected = false;
                 else if (this.help)
@@ -168,18 +168,18 @@ namespace NSEvent
             }
             if (Input.IsPress(Button._Start))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.help = !this.help;
             }
             if (Input.IsPress(Button._Select))
             {
 				if (!this.right && this.savedata.HaveVirus[this.cursol] == null)
 				{
-					this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+					this.sound.PlaySE(SoundEffect.error);
 				}
 				else
 				{
-					this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+					this.sound.PlaySE(SoundEffect.decide);
 					this.release = true;
 					this.MessageMake();
 				}
@@ -196,14 +196,14 @@ namespace NSEvent
                             --this.cursol;
                         else
                             --this.top;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                     }
                     else
                     {
                         if (this.cursol > 0)
                             --this.cursol;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                     }
                 }
@@ -217,14 +217,14 @@ namespace NSEvent
                             ++this.cursol;
                         else if (this.right)
                             ++this.top;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                     }
                     else if (this.Select < this.savedata.haveCaptureBomb - 1)
                     {
                         if (this.cursol < this.savedata.haveCaptureBomb)
                             ++this.cursol;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                     }
                 }
@@ -235,14 +235,14 @@ namespace NSEvent
                     this.right = false;
                     if (this.cursol >= this.savedata.haveCaptureBomb)
                         this.cursol = this.savedata.haveCaptureBomb - 1;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
                 else
                 {
                     if (!Input.IsPush(Button.Right) || (this.right || this.savedata.stockVirus.Count <= 0))
                         return;
                     this.right = true;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
             }
             else
@@ -287,7 +287,7 @@ namespace NSEvent
                                 }
                             }
                             if (!flag)
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                                this.sound.PlaySE(SoundEffect.error);
                         }
                     }
                     else

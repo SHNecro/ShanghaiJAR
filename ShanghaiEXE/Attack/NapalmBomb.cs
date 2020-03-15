@@ -26,7 +26,7 @@ namespace NSAttack
         private readonly int heattime;
 
         public NapalmBomb(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -72,7 +72,7 @@ namespace NSAttack
                 this.flag = false;
                 if (this.InArea && !this.StandPanel.Hole)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+                    this.sound.PlaySE(SoundEffect.heat);
                     switch (this.type)
                     {
                         case NapalmBomb.TYPE.single:
@@ -97,7 +97,7 @@ namespace NSAttack
                             this.parent.attacks.Add(new PanelHeat(this.sound, this.parent, this.position.X + 1, this.position.Y + 1, this.union, this.power, 1, this.heattime));
                             break;
                         case NapalmBomb.TYPE.fuhatu:
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                            this.sound.PlaySE(SoundEffect.canon);
                             this.ShakeStart(5, 5);
                             this.parent.objects.Add(new FireNaparm(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.heattime));
                             break;
@@ -127,7 +127,7 @@ namespace NSAttack
         {
             if (!base.HitCheck(charaposition, charaunion))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             this.flag = false;
             this.ShakeStart(5, 5);
             return true;
@@ -137,7 +137,7 @@ namespace NSAttack
         {
             if (!base.HitCheck(charaposition))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             this.ShakeStart(5, 5);
             this.flag = false;
             return true;
@@ -147,13 +147,13 @@ namespace NSAttack
         {
             if (!base.HitEvent(p))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             this.flag = false;
             this.ShakeStart(5, 5);
             if (p.Element == ChipBase.ELEMENT.heat && this.type == NapalmBomb.TYPE.fuhatu)
             {
                 int x = Eriabash.SteelX(this, this.parent);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                this.sound.PlaySE(SoundEffect.bombbig);
                 this.ShakeStart(4, 90);
                 this.parent.effects.Add(new RandomBomber(this.sound, this.parent, Bomber.BOMBERTYPE.flashbomber, 2, new Point(x, 0), new Point(6, 2), this.union, 36));
                 for (int pX = 0; pX < this.parent.panel.GetLength(0); ++pX)
@@ -172,13 +172,13 @@ namespace NSAttack
         {
             if (!base.HitEvent(e))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             this.flag = false;
             this.ShakeStart(5, 5);
             if (e.Element == ChipBase.ELEMENT.heat && this.type == NapalmBomb.TYPE.fuhatu)
             {
                 int x = Eriabash.SteelX(this, this.parent);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                this.sound.PlaySE(SoundEffect.bombbig);
                 this.ShakeStart(4, 90);
                 this.parent.effects.Add(new RandomBomber(this.sound, this.parent, Bomber.BOMBERTYPE.flashbomber, 2, new Point(x, 0), new Point(6, 2), this.union, 36));
                 for (int pX = 0; pX < this.parent.panel.GetLength(0); ++pX)
@@ -197,7 +197,7 @@ namespace NSAttack
         {
             if (!base.HitEvent(o))
                 return false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             this.flag = false;
             this.ShakeStart(5, 5);
             return true;

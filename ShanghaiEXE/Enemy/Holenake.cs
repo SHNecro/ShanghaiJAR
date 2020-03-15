@@ -20,7 +20,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public Holenake(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Holenake(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -16;
@@ -251,7 +251,7 @@ namespace NSEnemy
                             this.animepls = 1;
                         }
                         if (this.frame >= 7)
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                            this.sound.PlaySE(SoundEffect.lance);
                         if (this.frame >= this.Power)
                         {
                             this.animationpoint.X = 0;

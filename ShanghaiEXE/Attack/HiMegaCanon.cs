@@ -15,7 +15,7 @@ namespace NSAttack
         private int time;
 
         public HiMegaCanon(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -51,7 +51,7 @@ namespace NSAttack
             switch (this.time)
             {
                 case 0:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                    this.sound.PlaySE(SoundEffect.bombmiddle);
                     break;
                 case 2:
                     ++this.hitrange.X;

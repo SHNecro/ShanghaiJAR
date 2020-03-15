@@ -13,7 +13,7 @@ namespace NSChip
     private const int speed = 4;
     private const int shotend = 6;
 
-    public ElekiChain1(MyAudio s)
+    public ElekiChain1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

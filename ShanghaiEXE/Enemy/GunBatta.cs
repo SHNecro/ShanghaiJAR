@@ -26,7 +26,7 @@ namespace NSEnemy
         private const int startspeed = 6;
         private DammyEnemy dammy;
 
-        public GunBatta(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public GunBatta(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.wantedPosition.X = -8;

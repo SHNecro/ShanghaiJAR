@@ -14,7 +14,7 @@ namespace NSEffect
         private new readonly bool rebirth;
         private readonly CharacterBase player;
 
-        public RockOnTarget(MyAudio s, SceneBattle p, int pX, int pY, CharacterBase player)
+        public RockOnTarget(IAudioEngine s, SceneBattle p, int pX, int pY, CharacterBase player)
           : base(s, p, pX, pY)
         {
             this.upprint = true;

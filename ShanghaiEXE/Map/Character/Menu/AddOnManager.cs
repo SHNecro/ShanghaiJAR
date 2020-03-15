@@ -93,7 +93,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public AddOnManager(MyAudio s, Player p, TopMenu t, Navi n, SaveData save)
+        public AddOnManager(IAudioEngine s, Player p, TopMenu t, Navi n, SaveData save)
           : base(s, p, t, save)
         {
             this.overTop = this.savedata.haveAddon.Count - 6;
@@ -235,7 +235,7 @@ namespace NSMap.Character.Menu
                         {
                             this.shortmassage += this.ToDecomposition(this.massage)[this.printfonts - 1];
                             if (this.printfonts - 1 < this.savedata.addonNames[this.printedItems].Length)
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.openchip);
+                                this.sound.PlaySE(SoundEffect.openchip);
                         }
                     }
                 }
@@ -243,7 +243,7 @@ namespace NSMap.Character.Menu
                     flag2 = true;
                 if (!(flag1 & flag2))
                     return;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bright);
+                this.sound.PlaySE(SoundEffect.bright);
                 this.shortmassage = "OK!";
                 this.runend = true;
             }
@@ -262,27 +262,27 @@ namespace NSMap.Character.Menu
         {
             if (Input.IsPress(Button._A))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.Sort(this.SortSelect);
                 this.upper = !this.upper;
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.sortflag = false;
             }
             if (this.waittime <= 0)
             {
                 if (Input.IsPush(Button.Up))
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     --this.SortSelect;
                     this.upper = false;
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
                 if (!Input.IsPush(Button.Down))
                     return;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 ++this.SortSelect;
                 this.upper = false;
                 this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
@@ -297,7 +297,7 @@ namespace NSMap.Character.Menu
                 this.AButton();
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 if (this.change)
                 {
                     this.nowscene = AddOnManager.SCENE.eroor;
@@ -323,7 +323,7 @@ namespace NSMap.Character.Menu
                             --this.cursol;
                         else
                             --this.top;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                     }
                 }
@@ -336,7 +336,7 @@ namespace NSMap.Character.Menu
                             ++this.cursol;
                         else
                             ++this.top;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                     }
                 }
@@ -347,7 +347,7 @@ namespace NSMap.Character.Menu
                         num2 = 5;
                     if (num2 > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.top += num2;
                         this.select += num2;
                     }
@@ -362,7 +362,7 @@ namespace NSMap.Character.Menu
                         num2 = 5;
                     if (num2 > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.top -= num2;
                         this.select -= num2;
                     }
@@ -373,13 +373,13 @@ namespace NSMap.Character.Menu
                 --this.waittime;
             if (Input.IsPush(Button._Select))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.sortflag = true;
                 this.upper = false;
             }
             if (!Input.IsPush(Button._Start))
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+            this.sound.PlaySE(SoundEffect.decide);
             this.change = false;
             this.RunSetting();
         }
@@ -392,11 +392,11 @@ namespace NSMap.Character.Menu
                 {
                     if (this.UseCore > this.haveCore - this.Selectaddon.UseCore || this.UseHz > this.haveHz - this.Selectaddon.UseHz)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                     }
                     else
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         this.haveCore -= this.Selectaddon.UseCore;
                         this.haveHz -= this.Selectaddon.UseHz;
                         this.nowCore -= this.Selectaddon.UseCore;
@@ -407,7 +407,7 @@ namespace NSMap.Character.Menu
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     this.change = true;
                     this.nowCore += this.Selectaddon.UseCore;
                     this.nowHz += this.Selectaddon.UseHz;
@@ -420,7 +420,7 @@ namespace NSMap.Character.Menu
             {
                 if (!this.setcolor[(int)this.Selectaddon.color])
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                     this.change = true;
                     this.haveCore += this.Selectaddon.UseCore;
                     this.haveHz += this.Selectaddon.UseHz;
@@ -431,15 +431,15 @@ namespace NSMap.Character.Menu
                         this.setcolor[(int)this.Selectaddon.color] = true;
                 }
                 else
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
             }
             else if (this.Selectaddon.UseCore > this.nowCore || this.Selectaddon.UseHz > this.nowHz || this.setcolor[(int)this.Selectaddon.color])
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                this.sound.PlaySE(SoundEffect.error);
             }
             else
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.nowCore -= this.Selectaddon.UseCore;
                 this.nowHz -= this.Selectaddon.UseHz;
                 this.AddonColorSet(this.select);
@@ -581,7 +581,7 @@ namespace NSMap.Character.Menu
             this.barprint = 0;
             this.shortmassage = "";
             this.nowscene = AddOnManager.SCENE.runnning;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+            this.sound.PlaySE(SoundEffect.charge);
         }
 
         private void AddonRender(IRenderer dg)

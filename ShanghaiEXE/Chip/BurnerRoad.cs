@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public BurnerRoad(MyAudio s)
+    public BurnerRoad(IAudioEngine s)
       : base(s)
     {
       this.number = 160;
@@ -40,7 +40,7 @@ namespace NSChip
     {
       if (character.waittime == 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+        this.sound.PlaySE(SoundEffect.eriasteal2);
         for (int pX = 0; pX < battle.panel.GetLength(0); ++pX)
         {
           int y = character.position.Y;

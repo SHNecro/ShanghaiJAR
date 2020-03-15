@@ -45,7 +45,7 @@ namespace NSChip
     private const int speed = 2;
     private int waittime;
 
-    public OmegaSaber(MyAudio s)
+    public OmegaSaber(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

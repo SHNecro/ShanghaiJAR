@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int shotend = 28;
 
-    public HiCanon(MyAudio s)
+    public HiCanon(IAudioEngine s)
       : base(s)
     {
       this.number = 271;
@@ -66,7 +66,7 @@ namespace NSChip
       else if (character.waittime == 33)
         base.Action(character, battle);
       if (character.waittime == 18)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+        this.sound.PlaySE(SoundEffect.canon);
       if (character.waittime != 20)
         return;
       int num = this.power + this.pluspower;

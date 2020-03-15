@@ -21,7 +21,7 @@ namespace NSNet
         public NetPlayer player;
 
         public NetEnemy(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

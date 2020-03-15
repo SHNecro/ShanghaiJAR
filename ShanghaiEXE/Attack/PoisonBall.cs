@@ -35,7 +35,7 @@ namespace NSAttack
         }
 
         public PoisonBall(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -77,7 +77,7 @@ namespace NSAttack
             this.positionDirect.Y += this.plusposi.Y;
             if (this.count >= this.time)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                this.sound.PlaySE(SoundEffect.bombmiddle);
                 this.hitting = true;
                 for (int index1 = 0; index1 < 3; ++index1)
                 {

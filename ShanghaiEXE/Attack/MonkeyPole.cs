@@ -16,7 +16,7 @@ namespace NSAttack
         private readonly int colol;
 
         public MonkeyPole(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

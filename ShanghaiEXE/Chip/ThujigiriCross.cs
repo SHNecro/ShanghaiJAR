@@ -14,7 +14,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 2;
 
-    public ThujigiriCross(MyAudio s)
+    public ThujigiriCross(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);
@@ -47,7 +47,7 @@ namespace NSChip
       {
         if (character.Step())
         {
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+          this.sound.PlaySE(SoundEffect.sword);
         }
         else
         {

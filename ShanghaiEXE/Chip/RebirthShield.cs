@@ -15,7 +15,7 @@ namespace NSChip
     private bool open;
     private bool close;
 
-    public RebirthShield(MyAudio s)
+    public RebirthShield(IAudioEngine s)
       : base(s)
     {
       this.number = 56;
@@ -44,7 +44,7 @@ namespace NSChip
     {
       if (character.waittime <= 1)
       {
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+        this.sound.PlaySE(SoundEffect.rockopen);
         character.shield = CharacterBase.SHIELD.ReflectP;
         character.shieldUsed = false;
         character.ReflectP = this.Power(character);

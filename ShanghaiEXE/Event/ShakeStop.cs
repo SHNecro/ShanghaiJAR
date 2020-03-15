@@ -6,7 +6,7 @@ namespace NSEvent
 {
     internal class ShakeStop : EventBase
     {
-        public ShakeStop(MyAudio s, EventManager m, SaveData save)
+        public ShakeStop(IAudioEngine s, EventManager m, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

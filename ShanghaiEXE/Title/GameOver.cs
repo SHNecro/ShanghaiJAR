@@ -18,7 +18,7 @@ namespace NSTitle
         private const byte backspeed = 8;
         private GameOver.TITLESCENE nowscene;
 
-        public GameOver(MyAudio s, ShanghaiEXE p, SaveData save)
+        public GameOver(IAudioEngine s, ShanghaiEXE p, SaveData save)
           : base(s, p, save)
         {
             this.parent = p;

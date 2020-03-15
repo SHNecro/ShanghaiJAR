@@ -10,14 +10,14 @@ namespace NSEffect
     {
         private const byte _speed = 3;
 
-        public BugHoleDead(MyAudio s, SceneBattle p, Vector2 pd, Point posi)
+        public BugHoleDead(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = 3;
             this.positionDirect = pd;
         }
 
-        public BugHoleDead(MyAudio s, SceneBattle p, Point posi)
+        public BugHoleDead(IAudioEngine s, SceneBattle p, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = 3;

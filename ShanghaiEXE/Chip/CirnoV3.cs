@@ -10,7 +10,7 @@ namespace NSChip
     private const int start = 44;
     private const int speed = 2;
 
-    public CirnoV3(MyAudio s)
+    public CirnoV3(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

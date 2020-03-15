@@ -15,7 +15,7 @@ namespace NSObject
         private bool breaked;
 
         public FireNaparm(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -40,7 +40,7 @@ namespace NSObject
             if (this.bomb)
             {
                 int x = Eriabash.SteelX(this, this.parent);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                this.sound.PlaySE(SoundEffect.bombbig);
                 this.ShakeStart(4, 90);
                 this.parent.effects.Add(new RandomBomber(this.sound, this.parent, Bomber.BOMBERTYPE.flashbomber, 2, new Point(x, 0), new Point(6, 2), this.union, 36));
                 for (int pX = 0; pX < this.parent.panel.GetLength(0); ++pX)
@@ -70,7 +70,7 @@ namespace NSObject
             if (!this.breaked || this.StandPanel.Hole)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                this.sound.PlaySE(SoundEffect.clincher);
                 this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 2));
             }
             this.flag = false;

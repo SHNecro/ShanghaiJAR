@@ -49,7 +49,7 @@ namespace NSChip
 
         private bool isElemental;
 
-        public DruidMnX(MyAudio s)
+        public DruidMnX(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -98,14 +98,14 @@ namespace NSChip
             if (character.waittime == 0)
             {
                     character.animationpoint.X = -1;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                    this.sound.PlaySE(SoundEffect.warp);
             }
             else if (character.waittime < AnimationTiming.First().Delay)
             {
                 if (Input.IsPress(Button._A) && !this.isElemental)
                 {
                     this.isElemental = true;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+                    this.sound.PlaySE(SoundEffect.CommandSuccess);
                 }
             }
             else if (character.waittime >= AnimationTiming.First().Delay && character.waittime < totalAnimationTime)
@@ -191,7 +191,7 @@ namespace NSChip
 
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                            this.sound.PlaySE(SoundEffect.repair);
                             character.Hp += Math.Min(this.power / 2, c.Hp / 2);
                         }
                     }

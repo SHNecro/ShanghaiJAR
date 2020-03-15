@@ -12,7 +12,7 @@ namespace NSEffect
         private int hittime;
 
         public DreamMeteo(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,
@@ -27,7 +27,7 @@ namespace NSEffect
             this.rebirth = rebirth;
         }
 
-        public DreamMeteo(MyAudio s, SceneBattle p, int pX, int pY, int hittime, bool rebirth)
+        public DreamMeteo(IAudioEngine s, SceneBattle p, int pX, int pY, int hittime, bool rebirth)
           : base(s, p, pX, pY)
         {
             this.hittime = hittime;

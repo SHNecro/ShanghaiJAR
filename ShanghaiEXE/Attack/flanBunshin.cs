@@ -19,7 +19,7 @@ namespace NSAttack
         int preY;
 
         public flanBunshin(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -50,7 +50,7 @@ namespace NSAttack
                 this.rebirth = this.union == Panel.COLOR.red;
                 this.positionre = this.position;
                 this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 82);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+                this.sound.PlaySE(SoundEffect.wave);
                 this.motion = m;
                 this.frame = 0;
             }
@@ -88,7 +88,7 @@ namespace NSAttack
                     break;
                 case 34:
                     //this.counterTiming = false;
-                    //this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                    //this.sound.PlaySE(SoundEffect.beam);
                     //Point point1 = this.RandomTarget();
 
                     //this.parent.attacks.Add(new Beam(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 2, false));

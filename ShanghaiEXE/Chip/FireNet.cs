@@ -11,7 +11,7 @@ namespace NSChip
     private const int start = 3;
     private const int speed = 3;
 
-    public FireNet(MyAudio s)
+    public FireNet(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

@@ -10,7 +10,7 @@ namespace NSEffect
     {
         private const byte _speed = 1;
 
-        public WeakPointBlue(MyAudio s, SceneBattle p, Vector2 pd, Point posi)
+        public WeakPointBlue(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.upprint = true;
@@ -19,7 +19,7 @@ namespace NSEffect
             this.positionDirect.X -= 16f;
         }
 
-        public WeakPointBlue(MyAudio s, SceneBattle p, int pX, int pY)
+        public WeakPointBlue(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p, pX, pY)
         {
             this.speed = 1;

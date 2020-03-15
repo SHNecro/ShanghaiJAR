@@ -17,7 +17,7 @@ namespace NSChip
     private int sword;
     private Point animePoint;
 
-    public FreezerSword(MyAudio s)
+    public FreezerSword(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -67,13 +67,13 @@ namespace NSChip
       {
         case 1:
           character.animationpoint.X = -1;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+          this.sound.PlaySE(SoundEffect.shotwave);
           Tower tower = new Tower(this.sound, battle, character.position.X, character.position.Y, character.union, 0, -1, ChipBase.ELEMENT.aqua);
           tower.hitting = false;
           battle.attacks.Add(tower);
           break;
         case 28:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+          this.sound.PlaySE(SoundEffect.warp);
           this.sword = 1;
           break;
         case 66:
@@ -84,7 +84,7 @@ namespace NSChip
           break;
         case 74:
           this.sword = 4;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+          this.sound.PlaySE(SoundEffect.bombmiddle);
           this.ShakeStart(2, 20);
           BombAttack bombAttack1 = new BombAttack(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 1, this.element);
           bombAttack1.StandPanel.Crack();

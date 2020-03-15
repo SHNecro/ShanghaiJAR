@@ -26,7 +26,7 @@ namespace NSEnemy
         private Jizou jizou2;
         private bool tenbathu;
 
-        public Ponpoko(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Ponpoko(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -201,7 +201,7 @@ namespace NSEnemy
                     {
                         this.attackcount = 1;
                         this.speed = 3;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                        this.sound.PlaySE(SoundEffect.bomb);
                         this.parent.effects.Add(new Smoke(this.sound, this.parent, this.position.X, this.position.Y, ChipBase.ELEMENT.normal));
                         if (this.version == 0)
                         {

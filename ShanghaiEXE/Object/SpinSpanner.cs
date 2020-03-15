@@ -14,7 +14,7 @@ namespace NSObject
         private bool move;
         private int angle;
 
-        public SpinSpanner(MyAudio s, SceneBattle p, int pX, int pY, int power, Panel.COLOR union)
+        public SpinSpanner(IAudioEngine s, SceneBattle p, int pX, int pY, int power, Panel.COLOR union)
           : base(s, p, pX, pY, union)
         {
             this.height = 40;
@@ -82,7 +82,7 @@ namespace NSObject
             if (!this.breaked)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                this.sound.PlaySE(SoundEffect.clincher);
                 this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 2));
             }
             this.flag = false;

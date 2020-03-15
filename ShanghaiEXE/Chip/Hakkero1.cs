@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int shotend = 28;
 
-    public Hakkero1(MyAudio s)
+    public Hakkero1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -68,7 +68,7 @@ namespace NSChip
       else if (character.waittime == 33)
         base.Action(character, battle);
       if (character.waittime == 18)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+        this.sound.PlaySE(SoundEffect.beam);
       if (character.waittime != 20)
         return;
       int num = this.power + this.pluspower;

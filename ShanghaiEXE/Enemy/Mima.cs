@@ -69,7 +69,7 @@ namespace NSEnemy
         private bool godmode;
         private bool godmodeinit;
 
-        public Mima(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Mima(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -238,13 +238,13 @@ namespace NSEnemy
                                         {
                                             case Mima.ATTACK.IllProminence:
                                                 this.counterTiming = true;
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+                                                this.sound.PlaySE(SoundEffect.pikin);
                                                 this.speed = 4;
                                                 this.targetPanels = ((IEnumerable<Point>)this.RandomMultiPanel(4, this.UnionEnemy)).ToList<Point>();
                                                 for (int index = 0; index < this.targetPanels.Count; ++index)
                                                 {
                                                     List<AttackBase> attacks = this.parent.attacks;
-                                                    MyAudio sound = this.sound;
+                                                    IAudioEngine sound = this.sound;
                                                     SceneBattle parent = this.parent;
                                                     Point point = this.targetPanels[index];
                                                     int x = point.X;
@@ -258,11 +258,11 @@ namespace NSEnemy
                                                 }
                                                 break;
                                             case Mima.ATTACK.DarkWave:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                                                this.sound.PlaySE(SoundEffect.sand);
                                                 this.speed = 3;
                                                 break;
                                             case Mima.ATTACK.GrandSpear:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                                                this.sound.PlaySE(SoundEffect.quake);
                                                 this.ShakeStart(1, 30);
                                                 this.speed = 4;
                                                 break;
@@ -274,7 +274,7 @@ namespace NSEnemy
                                                 this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.union == Panel.COLOR.blue ? 5 : 0, 1, this.union, new Point(6, 0), 30, true));
                                                 break;
                                             case Mima.ATTACK.Reincarnation:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                                this.sound.PlaySE(SoundEffect.charge);
                                                 this.speed = 3;
                                                 break;
                                         }
@@ -322,13 +322,13 @@ namespace NSEnemy
                                             switch (this.waittime)
                                             {
                                                 case 3:
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                                                    this.sound.PlaySE(SoundEffect.bombmiddle);
                                                     Point point;
                                                     for (int index = 0; index < this.targetPanels.Count; ++index)
                                                     {
                                                         this.ShakeStart(2, 8);
                                                         List<AttackBase> attacks = this.parent.attacks;
-                                                        MyAudio sound1 = this.sound;
+                                                        IAudioEngine sound1 = this.sound;
                                                         SceneBattle parent1 = this.parent;
                                                         point = this.targetPanels[index];
                                                         int x1 = point.X;
@@ -339,7 +339,7 @@ namespace NSEnemy
                                                         BombAttack bombAttack = new BombAttack(sound1, parent1, x1, y1, (Panel.COLOR)union, power, 1, ChipBase.ELEMENT.poison);
                                                         attacks.Add(bombAttack);
                                                         List<EffectBase> effects = this.parent.effects;
-                                                        MyAudio sound2 = this.sound;
+                                                        IAudioEngine sound2 = this.sound;
                                                         SceneBattle parent2 = this.parent;
                                                         point = this.targetPanels[index];
                                                         int x2 = point.X;
@@ -354,7 +354,7 @@ namespace NSEnemy
                                                         for (int index = 0; index < this.targetPanels.Count; ++index)
                                                         {
                                                             List<AttackBase> attacks = this.parent.attacks;
-                                                            MyAudio sound = this.sound;
+                                                            IAudioEngine sound = this.sound;
                                                             SceneBattle parent = this.parent;
                                                             point = this.targetPanels[index];
                                                             int x = point.X;
@@ -421,7 +421,7 @@ namespace NSEnemy
                                                 {
                                                     case 3:
                                                         this.counterTiming = false;
-                                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+                                                        this.sound.PlaySE(SoundEffect.wave);
                                                         this.parent.effects.Add(new MimaWaveLong(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, 3));
                                                         AttackBase attackBase1 = new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 2, ChipBase.ELEMENT.aqua, false);
                                                         attackBase1.invincibility = false;
@@ -438,7 +438,7 @@ namespace NSEnemy
                                                 switch (this.waittime)
                                                 {
                                                     case 3:
-                                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+                                                        this.sound.PlaySE(SoundEffect.wave);
                                                         this.parent.effects.Add(new MimaWaveDream(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, 3));
                                                         AttackBase attackBase2 = new Halberd(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, ChipBase.ELEMENT.aqua, true);
                                                         attackBase2.invincibility = false;
@@ -510,7 +510,7 @@ namespace NSEnemy
                                     case Mima.ATTACK.SoulFlame:
                                         if (this.position.X != 1)
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                                            this.sound.PlaySE(SoundEffect.dark);
                                             this.parent.attacks.Add(new MimaFrame(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.heat, 2));
                                         }
                                         this.waittime = 0;
@@ -530,7 +530,7 @@ namespace NSEnemy
                                                     switch (this.waittime)
                                                     {
                                                         case 10:
-                                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                                            this.sound.PlaySE(SoundEffect.shoot);
                                                             this.mimacharge = new MimaCharge(this.sound, this.parent, this.union == Panel.COLOR.blue ? 5 : 0, 1, this.union, this.Power, 1, this.positionDirect, this.element, 8);
                                                             this.parent.attacks.Add(mimacharge);
                                                             this.waittime = 0;
@@ -582,7 +582,7 @@ namespace NSEnemy
                                             case 3:
                                                 this.counterTiming = false;
                                                 this.MoveRandom(true, false);
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                                                this.sound.PlaySE(SoundEffect.dark);
                                                 this.parent.objects.Add(new MimaNavi(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union));
                                                 this.waittime = 0;
                                                 this.roopmove = -4;
@@ -688,16 +688,16 @@ namespace NSEnemy
             switch (this.waittime)
             {
                 case 1:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                    this.sound.PlaySE(SoundEffect.thunder);
                     this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.White, 15));
                     break;
                 case 15:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.thunder);
+                    this.sound.PlaySE(SoundEffect.thunder);
                     this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.White, 15));
                     break;
                 case 30:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                    this.sound.PlaySE(SoundEffect.bombbig);
+                    this.sound.PlaySE(SoundEffect.damageplayer);
                     this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.White, 90));
                     this.ShakeStart(4, 60);
                     break;

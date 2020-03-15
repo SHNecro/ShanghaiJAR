@@ -16,7 +16,7 @@ namespace NSEvent
         private readonly Player player;
         private readonly MapField field;
 
-        public PlugInAnime(MyAudio s, EventManager m, Player player, MapField field, SaveData save)
+        public PlugInAnime(IAudioEngine s, EventManager m, Player player, MapField field, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = false;

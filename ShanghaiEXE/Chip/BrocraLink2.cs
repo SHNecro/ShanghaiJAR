@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public BrocraLink2(MyAudio s)
+    public BrocraLink2(IAudioEngine s)
       : base(s)
     {
       this.number = 31;
@@ -44,7 +44,7 @@ namespace NSChip
         Panel.COLOR color = character.union == Panel.COLOR.red ? Panel.COLOR.blue : Panel.COLOR.red;
         Point point = this.GetRandamPanel(1, character.UnionEnemy, false, character, false)[0];
         int num = this.power + this.pluspower;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+        this.sound.PlaySE(SoundEffect.enterenemy);
         battle.attacks.Add(this.Paralyze(new Brocla(this.sound, battle, point.X, point.Y, character.union, this.Power(character), Panel.PANEL._burner, true, this.element)));
       }
       catch

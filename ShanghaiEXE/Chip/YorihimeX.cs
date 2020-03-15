@@ -16,7 +16,7 @@ namespace NSChip
     private bool end;
     private int command;
 
-    public YorihimeX(MyAudio s)
+    public YorihimeX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

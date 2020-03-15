@@ -24,7 +24,7 @@ namespace NSAttack
         private int refrect;
 
         public ShellHockey(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -53,7 +53,7 @@ namespace NSAttack
             {
                 this.movestart = true;
                 this.hitting = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                this.sound.PlaySE(SoundEffect.canon);
                 this.parent.effects.Add(new EYEBallEnd(this.sound, this.parent, this.positionDirect, this.position, this.element, this.speed, this.rebirth));
             }
             if (this.moveflame && this.frame % 2 == 0)
@@ -95,7 +95,7 @@ namespace NSAttack
                 this.manymove = 0;
                 if (reflected)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knock);
+                    this.sound.PlaySE(SoundEffect.knock);
                     ++this.refrect;
                 }
                 if (this.refrect >= 8)

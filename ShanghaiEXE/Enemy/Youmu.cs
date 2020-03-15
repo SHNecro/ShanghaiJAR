@@ -41,7 +41,7 @@ namespace NSEnemy
         private int attackProcess;
         private Point target;
 
-        public Youmu(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Youmu(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -265,7 +265,7 @@ namespace NSEnemy
                                             switch (this.waittime)
                                             {
                                                 case 2:
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                                    this.sound.PlaySE(SoundEffect.sword);
                                                     SwordAttack swordAttack1 = new SwordAttack(this.sound, this.parent, this.target.X, this.target.Y, this.union, this.Power, 2, ChipBase.ELEMENT.normal, true, true)
                                                     {
                                                         invincibility = false
@@ -288,7 +288,7 @@ namespace NSEnemy
                                             switch (this.waittime)
                                             {
                                                 case 2:
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                                    this.sound.PlaySE(SoundEffect.sword);
                                                     SwordAttack swordAttack2 = new SwordAttack(this.sound, this.parent, this.target.X, this.target.Y, this.union, this.Power, 2, ChipBase.ELEMENT.normal, true, true)
                                                     {
                                                         invincibility = false
@@ -320,7 +320,7 @@ namespace NSEnemy
                                             switch (this.waittime)
                                             {
                                                 case 2:
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                                    this.sound.PlaySE(SoundEffect.sword);
                                                     SwordAttack swordAttack3 = new SwordAttack(this.sound, this.parent, this.target.X, this.target.Y, this.union, this.Power, 2, ChipBase.ELEMENT.normal, true, true)
                                                     {
                                                         invincibility = false
@@ -346,11 +346,11 @@ namespace NSEnemy
                                             this.guard = CharacterBase.GUARD.none;
                                             this.counterTiming = true;
                                             this.speed += 2;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                            this.sound.PlaySE(SoundEffect.charge);
                                             break;
                                         case 10:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             int s = 4;
                                             AttackBase attackBase1 = new BombWave(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), 0, this.union, this.Power, s, this.element);
                                             attackBase1.invincibility = false;
@@ -380,7 +380,7 @@ namespace NSEnemy
                                             case 1:
                                                 this.counterTiming = true;
                                                 this.parent.effects.Add(new Flash(this.sound, this.parent, this.positionDirect, this.position));
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+                                                this.sound.PlaySE(SoundEffect.pikin);
                                                 this.speed += 2;
                                                 break;
                                             case 2:
@@ -392,7 +392,7 @@ namespace NSEnemy
                                                 break;
                                             case 6:
                                                 this.counterTiming = false;
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                                this.sound.PlaySE(SoundEffect.sword);
                                                 SwordCloss swordCloss = new SwordCloss(this.sound, this.parent, this.target.X, this.target.Y, this.union, this.Power, 2, ChipBase.ELEMENT.normal, true)
                                                 {
                                                     invincibility = false
@@ -417,7 +417,7 @@ namespace NSEnemy
                                             this.counterTiming = true;
                                             break;
                                         case 2:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             foreach (CharacterBase characterBase in this.parent.AllChara())
                                             {
                                                 if (characterBase.union == this.UnionEnemy && (characterBase.guard != CharacterBase.GUARD.none || characterBase.invincibilitytime > 0 || characterBase.nohit || (uint)characterBase.barrierType > 0U))
@@ -425,7 +425,7 @@ namespace NSEnemy
                                                     characterBase.Hp -= this.Power;
                                                     characterBase.invincibilitytime = 0;
                                                     characterBase.barrierType = CharacterBase.BARRIER.None;
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                                                    this.sound.PlaySE(SoundEffect.damageenemy);
                                                 }
                                             }
                                             break;

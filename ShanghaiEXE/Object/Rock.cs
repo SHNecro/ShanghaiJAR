@@ -11,7 +11,7 @@ namespace NSObject
     {
         private bool breaked;
 
-        public Rock(MyAudio s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+        public Rock(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
           : base(s, p, pX, pY, union)
         {
             this.height = 40;
@@ -34,7 +34,7 @@ namespace NSObject
             if (!this.breaked || this.StandPanel.Hole)
             {
                 this.breaked = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.breakObject);
                 this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, true, 1));
                 this.parent.effects.Add(new BreakCube(this.sound, this.parent, this.position, this.positionDirect.X, this.positionDirect.Y - 12f, 12, this.union, 20, false, 1));
             }

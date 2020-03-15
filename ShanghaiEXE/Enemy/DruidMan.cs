@@ -135,7 +135,7 @@ namespace NSEnemy
         private int currentKnockbackTime;
         private int knockbackFrustration;
 
-        public DruidMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public DruidMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
 			: base(s, p, pX, pY, n, u, v)
 		{
 			for (int index = 0; index < this.dropchips.Length; ++index)
@@ -419,7 +419,7 @@ namespace NSEnemy
                                             if (this.isElemental)
                                             {
                                                 this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.FromArgb(0xFF, 0xFF, 0xFF, 0xFF), 15));
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                                                this.sound.PlaySE(SoundEffect.eriasteal2);
                                                 for (int pX = 0; pX < this.parent.panel.GetLength(0); ++pX)
                                                 {
                                                     for (int pY = 0; pY < this.parent.panel.GetLength(1); ++pY)
@@ -514,7 +514,7 @@ namespace NSEnemy
                                             {
                                                 if (waveTime == this.waveWarning)
                                                 {
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                                                    this.sound.PlaySE(SoundEffect.bombmiddle);
                                                     this.ShakeStart(4, 8);
                                                     this.currentWaveRows = this.waveRows;
                                                     this.waveRows = null;
@@ -557,7 +557,7 @@ namespace NSEnemy
                                         animationRow = 2;
                                         if (slashCurrentFrame.Frame == 5)
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                                            this.sound.PlaySE(SoundEffect.dark);
                                         }
                                     }
                                     else
@@ -584,7 +584,7 @@ namespace NSEnemy
                                                     slashElement = allElements[this.Random.Next(allElements.Length)];
                                                 }
 
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                                                this.sound.PlaySE(SoundEffect.breakObject);
                                                 var isSlashSquare = (bw.Item1.Width == 1 && bw.Item1.Height == 1);
                                                 var newSlash = isSlashSquare
                                                 ? new Halberd(
@@ -714,7 +714,7 @@ namespace NSEnemy
                                         var spawnPanel = spawnPanels.Length == 0 ? null : new Point?(spawnPanels.First());
                                         if (spawnPanel != null)
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                                            this.sound.PlaySE(SoundEffect.dark);
                                             this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.FromArgb(0x80, 0x60, 0x40, 0x60), 15));
                                             var chip1 = darkChips[this.Random.Next(darkChips.Length)];
                                             var chip2 = darkChips[this.Random.Next(darkChips.Length)];

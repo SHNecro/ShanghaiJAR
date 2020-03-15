@@ -10,7 +10,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public LjiOtama3(MyAudio s)
+    public LjiOtama3(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);

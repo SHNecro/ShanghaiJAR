@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public Eriabash(MyAudio s)
+    public Eriabash(IAudioEngine s)
       : base(s)
     {
       this.number = 158;

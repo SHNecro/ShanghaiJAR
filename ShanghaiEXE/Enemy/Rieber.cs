@@ -22,7 +22,7 @@ namespace NSEnemy
         private SuzuranWhite suzuran;
         private DammyEnemy dammy;
 
-        public Rieber(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Rieber(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -269,7 +269,7 @@ namespace NSEnemy
                                     if (!this.suzuran.flag)
                                     {
                                         Point point = this.RandomPanel(this.union);
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                                        this.sound.PlaySE(SoundEffect.enterenemy);
                                         this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, point.X, point.Y));
                                         this.suzuran = new SuzuranWhite(this.sound, this.parent, point.X, point.Y, this.union, 10, 120);
                                         this.parent.objects.Add(suzuran);
@@ -278,7 +278,7 @@ namespace NSEnemy
                                 else
                                 {
                                     Point point = this.RandomPanel(this.union);
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                                    this.sound.PlaySE(SoundEffect.enterenemy);
                                     this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, point.X, point.Y));
                                     this.suzuran = new SuzuranWhite(this.sound, this.parent, point.X, point.Y, this.union, 10, 120);
                                     this.parent.objects.Add(suzuran);

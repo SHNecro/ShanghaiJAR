@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int shotend = 28;
 
-    public DarkSpark(MyAudio s)
+    public DarkSpark(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -69,7 +69,7 @@ namespace NSChip
       else if (character.waittime == 33)
         base.Action(character, battle);
       if (character.waittime == 18)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.beamlong);
+        this.sound.PlaySE(SoundEffect.beamlong);
       if (character.waittime != 20)
         return;
       int num = this.power + this.pluspower;

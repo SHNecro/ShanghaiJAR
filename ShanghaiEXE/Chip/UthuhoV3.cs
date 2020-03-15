@@ -11,7 +11,7 @@ namespace NSChip
     private const int speed = 2;
     protected new int color;
 
-    public UthuhoV3(MyAudio s)
+    public UthuhoV3(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

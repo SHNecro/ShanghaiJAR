@@ -103,7 +103,7 @@ namespace NSEnemy
             }
         }
 
-        public ScissorMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public ScissorMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -347,7 +347,7 @@ namespace NSEnemy
                                         break;
                                     case 7:
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                                        this.sound.PlaySE(SoundEffect.breakObject);
                                         this.ShakeStart(5, 5);
                                         this.parent.attacks.Add(new SwordCloss(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 2, this.element, false));
                                         break;
@@ -393,7 +393,7 @@ namespace NSEnemy
                                     switch (this.waittime)
                                     {
                                         case 2:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             KnifeAttack knifeAttack = new KnifeAttack(this.sound, this.parent, this.posis[index1].X, this.posis[index1].Y, this.union, this.Power, 2, this.element, false)
                                             {
                                                 invincibility = false
@@ -456,14 +456,14 @@ namespace NSEnemy
                                     }
                                     if (this.flyflame == this.time / 3)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         this.parent.attacks.Add(new DelayScissor(this.sound, this.parent, this.posis[0].X, this.posis[0].Y, this.union, this.Power, 16, this.element, new Vector2(this.positionDirect.X + 10 * this.UnionRebirth(this.union), this.positionDirect.Y - 10f + this.plusy), this.version > 3, 10));
                                         this.posis[1] = this.RandomTarget();
                                         this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.posis[1].X, this.posis[1].Y, this.union, new Point(), 30, true));
                                     }
                                     if (this.flyflame == this.time / 3 * 2)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                        this.sound.PlaySE(SoundEffect.knife);
                                         this.parent.attacks.Add(new DelayScissor(this.sound, this.parent, this.posis[1].X, this.posis[1].Y, this.union, this.Power, 16, this.element, new Vector2(this.positionDirect.X + 10 * this.UnionRebirth(this.union), this.positionDirect.Y - 10f + this.plusy), this.version > 3, 10));
                                     }
                                     if (this.flyflame == this.time)
@@ -504,7 +504,7 @@ namespace NSEnemy
                                         break;
                                     case 5:
                                         this.counterTiming = true;
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                        this.sound.PlaySE(SoundEffect.sword);
                                         this.parent.attacks.Add(new Halberd(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 2, this.element, false));
                                         break;
                                     case 7:
@@ -594,11 +594,11 @@ namespace NSEnemy
                                         switch (this.waittime)
                                         {
                                             case 4:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                                                this.sound.PlaySE(SoundEffect.damageplayer);
                                                 this.parent.player.Hp /= 2;
                                                 break;
                                             case 10:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                                                this.sound.PlaySE(SoundEffect.damageplayer);
                                                 this.parent.player.Hp /= 2;
                                                 break;
                                             case 16:

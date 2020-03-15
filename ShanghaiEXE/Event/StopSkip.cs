@@ -6,7 +6,7 @@ namespace NSEvent
 {
     internal class StopSkip : EventBase
     {
-        public StopSkip(MyAudio s, EventManager m, SaveData save)
+        public StopSkip(IAudioEngine s, EventManager m, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

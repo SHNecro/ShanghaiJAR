@@ -80,7 +80,7 @@ namespace NSEnemy
             }
         }
 
-        public Mrasa(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Mrasa(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -296,7 +296,7 @@ namespace NSEnemy
                             {
                                 case 8:
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                                    this.sound.PlaySE(SoundEffect.throw_);
                                     this.target = this.RandomTarget();
                                     this.parent.attacks.Add(new AnchorBomb(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, new Vector2(this.positionDirect.X + (this.union == Panel.COLOR.red ? 0.0f : 0.0f), this.positionDirect.Y - 8f), this.target, Math.Max(40 / (version / 2 + 1), 20), AnchorBomb.TYPE.single, -1));
                                     this.positionre = this.position;
@@ -314,7 +314,7 @@ namespace NSEnemy
                             {
                                 case 8:
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                    this.sound.PlaySE(SoundEffect.knife);
                                     this.target = this.RandomTarget();
                                     Vector2 vector2 = new Vector2(this.positionDirect.X + (this.union == Panel.COLOR.red ? 0.0f : 0.0f), this.positionDirect.Y - 8f);
                                     this.parent.attacks.Add(new Wheel(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, this.positionDirect, this.element, 5));
@@ -338,7 +338,7 @@ namespace NSEnemy
                                 case 12:
                                     this.superArmor = true;
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                    this.sound.PlaySE(SoundEffect.knife);
                                     this.target = this.RandomTarget();
                                     this.ancher = new AncerShot(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 8, this.element, this);
                                     this.parent.attacks.Add(ancher);

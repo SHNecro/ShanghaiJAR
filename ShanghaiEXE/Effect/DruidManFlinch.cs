@@ -15,7 +15,7 @@ namespace NSEffect
 		private FlinchState flinchState;
 
         public DruidManFlinch(
-          MyAudio audio,
+          IAudioEngine audio,
           SceneBattle parent,
           Vector2 positionDirect,
           bool reverse,

@@ -22,7 +22,7 @@ namespace NSAttack
         private readonly Shadow shadow;
 
         public IceSpike(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -80,7 +80,7 @@ namespace NSAttack
                                 this.yspeed = 0;
                                 this.hitting = true;
                                 this.end = true;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                                this.sound.PlaySE(SoundEffect.breakObject);
                             }
                         }
                     }

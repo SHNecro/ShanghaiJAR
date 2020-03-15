@@ -52,7 +52,7 @@ namespace NSEnemy
         private int atacks;
         private bool fan = false;
 
-        public yuyuko(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public yuyuko(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -307,7 +307,7 @@ namespace NSEnemy
                                                 butMov = 3;
                                             }
 
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
                                             this.parent.attacks.Add(new Butterfly(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.normal, butMov));
 
                                             break;
@@ -315,7 +315,7 @@ namespace NSEnemy
                                         case 48:
 
                                             butMov = 7;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
                                             this.parent.attacks.Add(new Butterfly(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.normal, butMov));
 
                                             break;
@@ -339,7 +339,7 @@ namespace NSEnemy
                                             this.counterTiming = false;
                                             int butMov = 8;
                                             butMov = 1;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
                                             this.parent.attacks.Add(new Butterfly(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.normal, butMov));
 
                                             break;
@@ -347,7 +347,7 @@ namespace NSEnemy
                                         case 48:
                                             
                                             butMov = 7;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
                                             this.parent.attacks.Add(new Butterfly(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 2, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.normal, butMov));
 
                                             break;
@@ -382,7 +382,7 @@ namespace NSEnemy
                                         //case 16:
                                         case 12:
                                             butMov = 7;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
                                             int s = 2;
                                             int aS = 3;
                                             int neg = 1;
@@ -429,14 +429,14 @@ namespace NSEnemy
                                         if (this.position.Y == 0)
                                         {
                                             this.parent.attacks.Add(new ButterflyHoc(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, s, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.normal, false, aS));
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
 
                                         }
 
                                         if (this.position.Y == 2)
                                         {
                                             this.parent.attacks.Add(new ButterflyHoc(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, s, new Vector2(this.positionDirect.X, this.positionDirect.Y + 16f), ChipBase.ELEMENT.normal, true, aS));
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
 
                                         }
 
@@ -463,7 +463,7 @@ namespace NSEnemy
 
                                     // literally the mine enemy/chip but with different graphics
                                     /*
-									this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+									this.sound.PlaySE(SoundEffect.enterenemy);
 									battle.attacks.Add(this.Paralyze(new Brocla(this.sound, battle, point.X, point.Y, character.union, this.Power(character), Panel.PANEL._crack, true, this.element)));
 									*/
 
@@ -485,7 +485,7 @@ namespace NSEnemy
                                             Point point = this.positionre;
                                             this.positionre = this.position;
 
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                            this.sound.PlaySE(SoundEffect.rockopen);
                                             yuyuMine mine = new yuyuMine(this.sound, this.parent, point.X, point.Y, this.union, this.Power, Panel.PANEL._crack, false, this.element);
                                             this.parent.attacks.Add(mine);
                                             //this.mineList[this.mineList.Length+1] = mine;
@@ -565,7 +565,7 @@ namespace NSEnemy
 
                                                 case 9:
 
-                                                    //this.sound.PlaySE(MyAudio.SOUNDNAMES.gun);
+                                                    //this.sound.PlaySE(SoundEffect.gun);
                                                     int num = this.Random.Next(2);
                                                     if (num == 1)
                                                         num = 2;
@@ -578,7 +578,7 @@ namespace NSEnemy
                                                     */
                                                     int butMov = 10;
                                                     if (this.version == 1) { butMov = 8; }
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                                                    this.sound.PlaySE(SoundEffect.rockopen);
                                                     yuyuFireball fireball1 = new yuyuFireball(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.Random.Next(100) < 60 ? this.Random.Next(3) : num, this.union, this.Power, 2, new Vector2(this.positionDirect.X, this.positionDirect.Y + 0f), ChipBase.ELEMENT.normal, butMov)
                                                     {
                                                         blackOutObject = false

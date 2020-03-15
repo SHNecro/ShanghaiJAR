@@ -7,7 +7,7 @@ namespace NSChip
 {
     internal class ScissorManV2 : ScissorManV1
   {
-    public ScissorManV2(MyAudio s)
+    public ScissorManV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

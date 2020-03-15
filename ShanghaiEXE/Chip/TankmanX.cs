@@ -22,7 +22,7 @@ namespace NSChip
     private const int speed = 2;
     private Point animePoint;
 
-    public TankmanX(MyAudio s)
+    public TankmanX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -114,7 +114,7 @@ namespace NSChip
       if (character.waittime == 1)
       {
         character.animationpoint.X = -1;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+        this.sound.PlaySE(SoundEffect.warp);
       }
       if (this.action <= 1 && !this.command)
       {
@@ -122,7 +122,7 @@ namespace NSChip
         if (this.CommandCheck("BBB"))
         {
           this.command = true;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.CommandSuccess);
+          this.sound.PlaySE(SoundEffect.CommandSuccess);
           this.subpower = 10;
         }
       }
@@ -158,7 +158,7 @@ namespace NSChip
               else
                 ++y;
             }
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.machineRunning);
+            this.sound.PlaySE(SoundEffect.machineRunning);
             ++this.action;
             this.waittime = 0;
             break;
@@ -200,14 +200,14 @@ namespace NSChip
           this.animePoint = this.AnimeGatling2(this.waittime);
           if (this.waittime == 3)
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+            this.sound.PlaySE(SoundEffect.vulcan);
             Point point = this.target[0, this.spin];
             battle.effects.Add(new GunHit(this.sound, battle, point.X, point.Y, character.union));
             BombAttack bombAttack = new BombAttack(this.sound, battle, point.X, point.Y, character.union, this.subpower, 1, this.element);
             bombAttack.invincibility = false;
             battle.attacks.Add(this.Paralyze(bombAttack));
             List<EffectBase> effects = battle.effects;
-            MyAudio sound = this.sound;
+            IAudioEngine sound = this.sound;
             SceneBattle p = battle;
             Point position = character.position;
             double x = character.positionDirect.X;
@@ -243,7 +243,7 @@ namespace NSChip
           this.animePoint = this.AnimeCanon(this.waittime);
           if (this.waittime == 3)
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             battle.attacks.Add(this.Paralyze(new CanonBullet(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, new Vector2(character.positionDirect.X + 32 * this.UnionRebirth(character.union), character.positionDirect.Y + 8f), character.union, this.Power(character), this.element, false)));
             battle.effects.Add(new BulletBigShells(this.sound, battle, character.position, character.positionDirect.X - 16 * this.UnionRebirth(character.union), character.positionDirect.Y - 16f, 32, character.union, 40 + this.Random.Next(20), 2, 0));
             break;

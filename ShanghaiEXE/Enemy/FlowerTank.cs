@@ -25,7 +25,7 @@ namespace NSEnemy
         private readonly int roopneutral;
         private readonly int roopmove;
 
-        public FlowerTank(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public FlowerTank(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = 8;
@@ -357,7 +357,7 @@ namespace NSEnemy
                             {
                                 this.counterTiming = true;
                                 this.shot = true;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                this.sound.PlaySE(SoundEffect.canon);
                                 this.motionup = FlowerTank.MOTIONUP.attack;
                                 this.parent.effects.Add(new Smoke(this.sound, this.parent, new Vector2(this.positionDirect.X + 30 * this.UnionRebirth, this.positionDirect.Y - 8f), this.position, ChipBase.ELEMENT.normal));
                                 Point end = new Point(this.position.X + 3 * this.UnionRebirth, this.position.Y);

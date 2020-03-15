@@ -16,7 +16,7 @@ namespace NSAttack
         private readonly bool roukan;
 
         public JusticeRing(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

@@ -32,7 +32,7 @@ namespace NSNet
         }
 
         internal ShanghaiBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -52,7 +52,7 @@ namespace NSNet
         }
 
         public ShanghaiBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,

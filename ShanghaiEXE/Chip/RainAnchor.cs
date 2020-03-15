@@ -20,7 +20,7 @@ namespace NSChip
     private const int speed = 2;
     private Point animePoint;
 
-    public RainAnchor(MyAudio s)
+    public RainAnchor(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -67,7 +67,7 @@ namespace NSChip
       if (character.waittime == 1)
       {
         character.animationpoint.X = -1;
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+        this.sound.PlaySE(SoundEffect.warp);
       }
       switch (this.action)
       {
@@ -86,7 +86,7 @@ namespace NSChip
           this.animePoint = this.AnimeAncerThrow(this.waittime);
           if (this.waittime == 9)
           {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+            this.sound.PlaySE(SoundEffect.throw_);
             AnchorBomb.TYPE ty = AnchorBomb.TYPE.singleG;
             if (this.action == 3)
               ty = AnchorBomb.TYPE.single;

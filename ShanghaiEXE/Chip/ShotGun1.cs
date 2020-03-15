@@ -13,7 +13,7 @@ namespace NSChip
   {
     private const int shotend = 10;
 
-    public ShotGun1(MyAudio s)
+    public ShotGun1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);

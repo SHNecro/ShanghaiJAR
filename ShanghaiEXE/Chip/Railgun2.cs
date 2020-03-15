@@ -10,7 +10,7 @@ namespace NSChip
     private bool open;
     private const int shotend = 10;
 
-    public Railgun2(MyAudio s)
+    public Railgun2(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);

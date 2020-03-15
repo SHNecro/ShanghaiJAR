@@ -12,7 +12,7 @@ namespace NSBattle.Character
         public int hpmax;
         public int hp;
 
-        public HPGauge(MyAudio s, int now, int max)
+        public HPGauge(IAudioEngine s, int now, int max)
           : base(s)
         {
             this.hpmax = max;

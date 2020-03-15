@@ -15,7 +15,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public LOikaze(MyAudio s, Player p)
+        public LOikaze(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;
@@ -44,7 +44,7 @@ namespace NSCharge
             }
             if (this.character.waittime != 5)
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+            this.sound.PlaySE(SoundEffect.shoot);
             int pX = this.player.union == Panel.COLOR.red ? 5 : 0;
             for (int pY = 0; pY < 3; ++pY)
             {

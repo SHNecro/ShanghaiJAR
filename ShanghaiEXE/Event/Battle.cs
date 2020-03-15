@@ -57,7 +57,7 @@ namespace NSEvent
         }
 
         public Battle(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int enemy1,
           byte lank1,
@@ -138,7 +138,7 @@ namespace NSEvent
         }
 
         public Battle(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           EnemyBase.VIRUS enemy1,
           byte lank1,
@@ -183,7 +183,7 @@ namespace NSEvent
         }
 
         public Battle(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           NetBattle netButtle,
           NetPlayer netplayer,
@@ -229,7 +229,7 @@ namespace NSEvent
                         this.MapScene.fadeColor = Color.White;
                         this.sound.StopBGM();
                         if (this.manager.alpha <= 0)
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.encount);
+                            this.sound.PlaySE(SoundEffect.encount);
                         this.manager.canSkip = false;
                         break;
                     case 60:

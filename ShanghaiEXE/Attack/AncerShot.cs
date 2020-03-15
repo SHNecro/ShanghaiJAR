@@ -18,7 +18,7 @@ namespace NSAttack
         public int scene;
 
         public AncerShot(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

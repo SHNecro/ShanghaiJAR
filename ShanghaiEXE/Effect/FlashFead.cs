@@ -13,7 +13,7 @@ namespace NSEffect
         private readonly float minus;
         private new Color color;
 
-        public FlashFead(MyAudio s, SceneBattle p, Color color, int endtime)
+        public FlashFead(IAudioEngine s, SceneBattle p, Color color, int endtime)
           : base(s, p, 0, 0)
         {
             this.positionDirect = new Vector2(0.0f, 0.0f);

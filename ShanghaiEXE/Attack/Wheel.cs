@@ -20,7 +20,7 @@ namespace NSAttack
         private int movemany;
 
         public Wheel(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

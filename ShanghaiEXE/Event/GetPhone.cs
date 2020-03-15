@@ -9,7 +9,7 @@ namespace NSEvent
     {
         private readonly SceneMap map;
 
-        public GetPhone(MyAudio s, EventManager m, SceneMap map, SaveData save)
+        public GetPhone(IAudioEngine s, EventManager m, SceneMap map, SaveData save)
           : base(s, m, save)
         {
             this.map = map;
@@ -18,7 +18,7 @@ namespace NSEvent
 
         public override void Update()
         {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.phone);
+            this.sound.PlaySE(SoundEffect.phone);
             this.map.MailOn(false);
             this.EndCommand();
         }

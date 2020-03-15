@@ -15,7 +15,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public RHoleRepair(MyAudio s, Player p)
+        public RHoleRepair(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 250;
@@ -44,7 +44,7 @@ namespace NSCharge
             }
             if (this.character.waittime != 5)
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+            this.sound.PlaySE(SoundEffect.eriasteal2);
             for (int pX = 0; pX < this.battle.panel.GetLength(0); ++pX)
             {
                 for (int pY = 0; pY < this.battle.panel.GetLength(1); ++pY)

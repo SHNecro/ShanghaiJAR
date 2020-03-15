@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public BeatleManV2(MyAudio s)
+    public BeatleManV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

@@ -39,7 +39,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public SubChip(MyAudio s, Player p, TopMenu t, EventManager e, SaveData save)
+        public SubChip(IAudioEngine s, Player p, TopMenu t, EventManager e, SaveData save)
           : base(s, p, t, save)
         {
             this.eventmanager = e;
@@ -79,11 +79,11 @@ namespace NSMap.Character.Menu
                                     switch (this.Cursol)
                                     {
                                         case 0:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                                            this.sound.PlaySE(SoundEffect.repair);
                                             this.savedata.HPNow += this.savedata.HPMax / 2;
                                             break;
                                         case 1:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                                            this.sound.PlaySE(SoundEffect.repair);
                                             this.savedata.HPNow = this.savedata.HPMax;
                                             break;
                                         case 2:
@@ -138,7 +138,7 @@ namespace NSMap.Character.Menu
                 if (!this.savedata.realORsiver)
                 {
                     this.eventmanager.events.Clear();
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
                     var dialogue = ShanghaiEXE.Translate("SubChip.InvalidRealWorldDialogue1");
                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -147,7 +147,7 @@ namespace NSMap.Character.Menu
                 else if (this.savedata.haveSubChis[this.cursol] == 0)
                 {
                     this.eventmanager.events.Clear();
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
                     var dialogue = ShanghaiEXE.Translate("SubChip.InvalidOutOfSubChipsDialogue1");
                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -156,7 +156,7 @@ namespace NSMap.Character.Menu
                 else if (this.cursol < 2 && this.savedata.HPMax == this.savedata.HPnow)
                 {
                     this.eventmanager.events.Clear();
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
                     var dialogue = ShanghaiEXE.Translate("SubChip.InvalidFullHPDialogue1");
                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -165,7 +165,7 @@ namespace NSMap.Character.Menu
                 else if (this.cursol >= 2 && this.cursol <= 5 && this.savedata.runSubChips[this.cursol - 2])
                 {
                     this.eventmanager.events.Clear();
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
                     var dialogue = ShanghaiEXE.Translate("SubChip.InvalidAlreadyInUseDialogue1");
                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -174,7 +174,7 @@ namespace NSMap.Character.Menu
                 else if (this.cursol == 6 && !this.EventCheck())
                 {
                     this.eventmanager.events.Clear();
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
                     var dialogue = ShanghaiEXE.Translate("SubChip.InvalidNothingToUnlockDialogue1");
                     this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, this.savedata));
@@ -193,18 +193,18 @@ namespace NSMap.Character.Menu
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.nowscene = SubChip.SCENE.fadeout;
             }
             if (Input.IsPress(Button.Up))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 --this.Cursol;
                 this.info = SubChip.InfoSet(this.Cursol);
             }
             if (!Input.IsPress(Button.Down))
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+            this.sound.PlaySE(SoundEffect.movecursol);
             ++this.Cursol;
             this.info = SubChip.InfoSet(this.Cursol);
         }

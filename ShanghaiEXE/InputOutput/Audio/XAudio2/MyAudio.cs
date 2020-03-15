@@ -10,16 +10,14 @@ using System.Threading;
 using Tsukikage.Audio;
 using NSTsukikage.WinMM.WaveIO;
 
-namespace NSShanghaiEXE.InputOutput.Audio
+namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 {
-    public class MyAudio : IDisposable
+    public class MyAudio : IAudioEngine
     {
         public event EventHandler<AudioLoadProgressUpdatedEventArgs> ProgressUpdated;
 
-        public static bool BGM = true;
-        public static float volumeSE = 1f;
-        public static float volumeBGM = 100f;
-        public static float volumeParsent = 100f;
+        private bool BGMEnabled = true;
+        private float currentBGMVolume = 100f;
         private OggDecodeStream waveStream = null;
         private readonly MasteringVoice xaMaster = null;
         private readonly WaveStream xaStreamBGM = null;
@@ -31,27 +29,25 @@ namespace NSShanghaiEXE.InputOutput.Audio
         private readonly List<string> soundNames = new List<string>();
         private readonly List<WaveStream> musicstream = new List<WaveStream>();
         private readonly List<string> musicNames = new List<string>();
-        public ShanghaiEXE parent;
-        public WaveOut waveOut;
+        private ShanghaiEXE parent;
+        private WaveOut waveOut;
         private byte music_timer;
         private bool musicPlay;
-        public string playmusic;
         private readonly SlimDX.XAudio2.XAudio2 xaDevice;
-        public int[,] musiclength;
-        public SaveData savedata;
+        private int[,] musiclength;
         private readonly Thread thread_1;
         private float plusParsent;
         private float endParsent;
         private bool fadeBGM;
         private bool disabled;
 
-        public bool MusicPlay
-        {
-            get
-            {
-                return this.musicPlay;
-            }
-        }
+        public bool MusicPlay => this.musicPlay;
+
+        public string CurrentBGM { get; private set; }
+
+        public float BGMVolume { get; set; }
+
+        public float SoundEffectVolume { get; set; }
 
         public MyAudio(ShanghaiEXE parent)
         {
@@ -72,7 +68,7 @@ namespace NSShanghaiEXE.InputOutput.Audio
                 this.waveOut = new WaveOut(-1, 44100, 16, 2);
                 this.xaDevice = new SlimDX.XAudio2.XAudio2();
                 this.xaMaster = new MasteringVoice(this.xaDevice);
-                MyAudio.volumeSE = parent.volSE;
+                this.SoundEffectVolume = parent.volSE;
             }
             catch
             {
@@ -191,9 +187,9 @@ namespace NSShanghaiEXE.InputOutput.Audio
 
         public void StartBGM(string name)
         {
-            if (!MyAudio.BGM || !(name != this.playmusic))
+            if (!this.BGMEnabled || !(name != this.CurrentBGM))
                 return;
-            this.playmusic = name;
+            this.CurrentBGM = name;
             this.SetBGM(name);
             this.musicPlay = true;
         }
@@ -205,12 +201,12 @@ namespace NSShanghaiEXE.InputOutput.Audio
 
         public void StopBGM()
         {
-            this.playmusic = "none_";
+            this.CurrentBGM = "none_";
             this.BGMVolumeSet(100);
             this.musicPlay = false;
         }
 
-        public void StopSE(MyAudio.SOUNDNAMES sname)
+        public void StopSE(SoundEffect sname)
         {
             string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
@@ -220,13 +216,13 @@ namespace NSShanghaiEXE.InputOutput.Audio
             this.xaBufferSE[soundName].Dispose();
         }
 
-        public void PlaySE(MyAudio.SOUNDNAMES sname)
+        public void PlaySE(SoundEffect sname)
         {
             if (this.disabled)
             {
                 return;
             }
-            if (sname == MyAudio.SOUNDNAMES.none)
+            if (sname == SoundEffect.none)
                 return;
             string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
@@ -237,7 +233,7 @@ namespace NSShanghaiEXE.InputOutput.Audio
             string index = soundName;
             SourceVoice sourceVoice = new SourceVoice(this.xaDevice, this.xaStreamSE[soundName].Format)
             {
-                Volume = MyAudio.volumeSE
+                Volume = this.SoundEffectVolume
             };
             xaSourceSe[index] = sourceVoice;
             this.xaBufferSE[soundName] = new AudioBuffer
@@ -275,6 +271,8 @@ namespace NSShanghaiEXE.InputOutput.Audio
             this.xaSourceSE.Clear();
             this.xaStreamSE.Clear();
             this.xaBufferSE.Clear();
+
+            this.waveOut.Close();
         }
 
         private void Fade()
@@ -289,9 +287,9 @@ namespace NSShanghaiEXE.InputOutput.Audio
                 int offset = 0;
                 int count = 16384;
                 int num1 = 100;
-                if (float.IsNaN(MyAudio.volumeParsent))
-                    MyAudio.volumeParsent = this.endParsent;
-                float num2 = volumeParsent != 0.0 ? MyAudio.volumeBGM * (MyAudio.volumeParsent / 100f) : 0.0f;
+                if (float.IsNaN(this.currentBGMVolume))
+                    this.currentBGMVolume = this.endParsent;
+                float num2 = Math.Abs(this.currentBGMVolume) > double.Epsilon ? this.BGMVolume * (this.currentBGMVolume / 100f) : 0.0f;
                 this.waveStream.Read(numArray, offset, count);
                 int num3 = count / 2;
                 int num4 = num3 * 2;
@@ -310,20 +308,20 @@ namespace NSShanghaiEXE.InputOutput.Audio
         {
             if (!this.fadeBGM)
                 return;
-            MyAudio.volumeParsent += this.plusParsent;
+            this.currentBGMVolume += this.plusParsent;
             if (plusParsent < 0.0)
             {
-                if (volumeParsent < (double)this.endParsent)
+                if (currentBGMVolume < (double)this.endParsent)
                 {
-                    MyAudio.volumeParsent = this.endParsent;
+                    this.currentBGMVolume = this.endParsent;
                     this.fadeBGM = false;
                 }
             }
             else if (plusParsent > 0.0)
             {
-                if (volumeParsent > (double)this.endParsent)
+                if (currentBGMVolume > (double)this.endParsent)
                 {
-                    MyAudio.volumeParsent = this.endParsent;
+                    this.currentBGMVolume = this.endParsent;
                     this.fadeBGM = false;
                 }
             }
@@ -333,110 +331,16 @@ namespace NSShanghaiEXE.InputOutput.Audio
 
         public void BGMFadeStart(int flame, int endparsent)
         {
-            this.plusParsent = (endparsent - MyAudio.volumeParsent) / flame;
+            this.plusParsent = (endparsent - this.currentBGMVolume) / flame;
             this.endParsent = endparsent;
             this.fadeBGM = true;
         }
 
         public void BGMVolumeSet(int volume)
         {
-            MyAudio.volumeParsent = volume;
+            this.currentBGMVolume = volume;
             this.endParsent = volume;
             this.fadeBGM = false;
-        }
-
-        public enum SOUNDNAMES
-        {
-            alert,
-            barrier,
-            battleend,
-            beam,
-            beamlong,
-            bird,
-            bomb,
-            bombbig,
-            bombmiddle,
-            bound,
-            breakObject,
-            bright,
-            bubble,
-            buster,
-            cancel,
-            canon,
-            chain,
-            charge,
-            chargemax,
-            Cheer,
-            chime,
-            chime2,
-            clincher,
-            CommandSuccess,
-            conveyor,
-            counterhit,
-            damageenemy,
-            damageplayer,
-            damagezero,
-            dark,
-            death,
-            decide,
-            docking,
-            dragonVoice,
-            drill1,
-            drill2,
-            encount,
-            enemydeath,
-            enterenemy,
-            eriasteal1,
-            eriasteal2,
-            error,
-            fire,
-            flash,
-            fullcustom,
-            futon,
-            get,
-            getchip,
-            getzenny,
-            gun,
-            heat,
-            knife,
-            knock,
-            lance,
-            machineRunning,
-            mail,
-            menuclose,
-            menuopen,
-            message,
-            movecursol,
-            noise,
-            openchip,
-            pause,
-            phone,
-            pi,
-            pikin,
-            pinpon,
-            quake,
-            repair,
-            rockon,
-            rockopen,
-            sand,
-            search,
-            shoot,
-            shotwave,
-            switchon,
-            sword,
-            teacharrow,
-            thiptransmission,
-            throw_,
-            thunder,
-            treader,
-            vulcan,
-            vulcan2,
-            warp,
-            water,
-            wave,
-            waveshort,
-            Zblade,
-            none,
         }
     }
 }

@@ -12,7 +12,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public SandHell3(MyAudio s)
+    public SandHell3(IAudioEngine s)
       : base(s)
     {
       this.number = 120;

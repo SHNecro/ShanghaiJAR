@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int movespeed;
 
         public MimaCharge(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

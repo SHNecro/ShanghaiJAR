@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int time;
 
         public MimaShock(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -40,7 +40,7 @@ namespace NSAttack
                 this.rebirth = this.union == Panel.COLOR.red;
                 this.positionre = this.position;
                 this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 82);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.waveshort);
+                this.sound.PlaySE(SoundEffect.waveshort);
                 this.motion = m;
                 this.frame = 0;
             }
@@ -73,7 +73,7 @@ namespace NSAttack
                             this.hitting = true;
                             break;
                         case 4:
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.waveshort);
+                            this.sound.PlaySE(SoundEffect.waveshort);
                             this.hitting = false;
                             break;
                         case 6:

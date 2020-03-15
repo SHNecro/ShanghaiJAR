@@ -7,7 +7,7 @@ namespace NSChip
 {
     internal class ChenV2 : ChenV1
   {
-    public ChenV2(MyAudio s)
+    public ChenV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

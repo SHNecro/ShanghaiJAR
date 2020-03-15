@@ -35,7 +35,7 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public Mail(MyAudio s, Player p, TopMenu t, SaveData save)
+        public Mail(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             for (int index = 1; index <= this.savedata.mail.Count; ++index)
@@ -89,7 +89,7 @@ namespace NSMap.Character.Menu
         {
             if (Input.IsPress(Button._A))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                this.sound.PlaySE(SoundEffect.decide);
                 this.eventmanager = this.mails[this.select].MakeEvent(this.sound);
                 if (!this.mails[this.select].read)
                 {
@@ -99,7 +99,7 @@ namespace NSMap.Character.Menu
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.nowscene = Mail.SCENE.fadeout;
             }
             if (this.waittime <= 0)
@@ -111,7 +111,7 @@ namespace NSMap.Character.Menu
                         --this.cursol;
                     else
                         --this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
                 if (Input.IsPush(Button.Down))
@@ -122,7 +122,7 @@ namespace NSMap.Character.Menu
                         ++this.cursol;
                     else
                         ++this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
                 else if (Input.IsPush(Button._R))
@@ -132,7 +132,7 @@ namespace NSMap.Character.Menu
                         num2 = num1;
                     if (num2 > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.top += num2;
                     }
                     this.waittime = Input.IsPress(Button._R) ? 10 : 4;
@@ -146,7 +146,7 @@ namespace NSMap.Character.Menu
                         num2 = num1;
                     if (num2 > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                        this.sound.PlaySE(SoundEffect.movecursol);
                         this.top -= num2;
                     }
                     this.waittime = Input.IsPress(Button._L) ? 10 : 4;

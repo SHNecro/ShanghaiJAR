@@ -20,7 +20,7 @@ namespace NSAttack
         private Tuple<CharacterBase, int>[] hitter;
 
         public MasterBeam(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -107,10 +107,10 @@ namespace NSAttack
                     var damageMultiplier = characterHit.Item2;
                     if (characterBase.Hp > 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                        this.sound.PlaySE(SoundEffect.damageenemy);
                         characterBase.Hp -= 2 * damageMultiplier;
                         if (characterBase.Hp <= 0)
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+                            this.sound.PlaySE(SoundEffect.clincher);
                     }
                 }
                 this.damage += 2;

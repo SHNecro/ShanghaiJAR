@@ -17,7 +17,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeLance(MyAudio s, Player p)
+        public ChargeLance(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 150;
@@ -31,7 +31,7 @@ namespace NSCharge
         {
             if (this.character.waittime == 5)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                this.sound.PlaySE(SoundEffect.lance);
                 this.character.parent.attacks.Add(this.CounterNone(new LanceAttack(this.sound, this.character.parent, this.character.position.X + this.UnionRebirth(this.character.union), this.character.position.Y, this.character.union, this.Power, 2, ChipBase.ELEMENT.normal, false)));
             }
             if (this.character.waittime < 1)

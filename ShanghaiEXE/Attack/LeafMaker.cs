@@ -15,7 +15,7 @@ namespace NSAttack
         private int count;
 
         public LeafMaker(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Vector2 pd,
           Point posi,
@@ -66,9 +66,9 @@ namespace NSAttack
                 this.flag = false;
             else if (this.frame % 5 == 0)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                this.sound.PlaySE(SoundEffect.lance);
                 List<AttackBase> attacks = this.parent.attacks;
-                MyAudio sound = this.sound;
+                IAudioEngine sound = this.sound;
                 SceneBattle parent = this.parent;
                 Point point = this.target[this.count];
                 int x = point.X;

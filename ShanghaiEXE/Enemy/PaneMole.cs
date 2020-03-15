@@ -21,7 +21,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public PaneMole(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public PaneMole(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -16;

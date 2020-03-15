@@ -17,7 +17,7 @@ namespace NSEnemy
         private BouzuTornado tornado;
         private bool spSecond;
 
-        public Bouzu(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Bouzu(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -157,7 +157,7 @@ namespace NSEnemy
                             if (this.roop > 6 - version && !this.badstatus[4] && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                             {
                                 this.counterTiming = false;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                this.sound.PlaySE(SoundEffect.shoot);
                                 if (this.version == 0)
                                 {
                                     this.spSecond = !this.spSecond;

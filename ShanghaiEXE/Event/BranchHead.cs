@@ -8,7 +8,7 @@ namespace NSEvent
     {
         public int question;
 
-        public BranchHead(MyAudio s, EventManager m, int q, SaveData save)
+        public BranchHead(IAudioEngine s, EventManager m, int q, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

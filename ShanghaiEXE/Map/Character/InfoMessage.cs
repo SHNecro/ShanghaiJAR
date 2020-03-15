@@ -8,31 +8,31 @@ namespace NSMap.Character
     public class InfoMessage
     {
 
-        private readonly MyAudio myAudio;
+        private readonly IAudioEngine IAudioEngine;
         private readonly SaveData saveData;
 
-        public InfoMessage(MyAudio s, SaveData save)
+        public InfoMessage(IAudioEngine s, SaveData save)
         {
-            this.myAudio = s;
+            this.IAudioEngine = s;
             this.saveData = save;
         }
         public EventManager GetMessage(MessageType command, int number)
         {
-            var result = new EventManager(this.myAudio);
+            var result = new EventManager(this.IAudioEngine);
             var messages = AllMessages.GetMessage(command, number);
             if ((int)command < 8)
             {
-                result.AddEvent(new OpenMassageWindow(this.myAudio, result));
+                result.AddEvent(new OpenMassageWindow(this.IAudioEngine, result));
             }
             for (int msgNum = 0; msgNum < messages.Length; msgNum += 1)
             {
                 var msg = messages[msgNum];
-                var commandMessage = new CommandMessage(this.myAudio, result, msg[0], msg[1], msg[2], msg.Face, msg.Face.Mono, this.saveData);
+                var commandMessage = new CommandMessage(this.IAudioEngine, result, msg[0], msg[1], msg[2], msg.Face, msg.Face.Mono, this.saveData);
                 result.AddEvent(commandMessage);
             }
             if ((int)command < 8)
             {
-                result.AddEvent(new CloseMassageWindow(this.myAudio, result));
+                result.AddEvent(new CloseMassageWindow(this.IAudioEngine, result));
             }
             return result;
         }

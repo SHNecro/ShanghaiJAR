@@ -15,7 +15,7 @@ namespace NSChip
     protected int color;
     private Point animePoint;
 
-    public UthuhoV1(MyAudio s)
+    public UthuhoV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -68,10 +68,10 @@ namespace NSChip
           this.animePoint.X = 0;
           this.animePoint.Y = 0;
           character.animationpoint.X = -1;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+          this.sound.PlaySE(SoundEffect.warp);
           break;
         case 10:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.futon);
+          this.sound.PlaySE(SoundEffect.futon);
           this.animePoint.X = 0;
           this.animePoint.Y = 3;
           break;
@@ -82,7 +82,7 @@ namespace NSChip
           this.animePoint.X = 2;
           break;
         case 44:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+          this.sound.PlaySE(SoundEffect.shoot);
           character.parent.attacks.Add(this.Paralyze(new UthuhoChip(this.sound, character.parent, character.position.X, character.position.Y, character.union, this.Power(character), this.color)));
           AttackBase attackBase1 = this.Paralyze(new UthuhoChip(this.sound, character.parent, character.position.X, character.position.Y - 1, character.union, this.Power(character), this.color));
           attackBase1.breaking = false;

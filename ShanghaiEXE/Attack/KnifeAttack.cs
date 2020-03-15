@@ -13,7 +13,7 @@ namespace NSAttack
     internal class KnifeAttack : AttackBase
     {
         public KnifeAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

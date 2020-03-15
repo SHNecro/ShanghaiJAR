@@ -13,7 +13,7 @@ namespace NSChip
     private bool open;
     private const int shotend = 10;
 
-    public MedousaEye(MyAudio s)
+    public MedousaEye(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -51,7 +51,7 @@ namespace NSChip
         base.Action(character, battle);
       if (character.waittime != 6)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+      this.sound.PlaySE(SoundEffect.dark);
       StoneBall stoneBall = new StoneBall(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, character.positionDirect, ChipBase.ELEMENT.normal, 20);
       stoneBall.positionDirect.X += 40 * this.UnionRebirth(character.union);
       stoneBall.positionDirect.Y += 16f;

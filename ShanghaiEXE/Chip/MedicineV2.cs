@@ -10,7 +10,7 @@ namespace NSChip
     private const int interval = 20;
     private const int speed = 2;
 
-    public MedicineV2(MyAudio s)
+    public MedicineV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

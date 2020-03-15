@@ -12,7 +12,7 @@ namespace NSChip
     private const int start = 5;
     private const int speed = 3;
 
-    public ElekiDrill(MyAudio s)
+    public ElekiDrill(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-1, 0);

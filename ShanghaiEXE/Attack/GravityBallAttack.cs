@@ -19,7 +19,7 @@ namespace NSAttack
         private const int plusy = 70;
 
         public GravityBallAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -46,7 +46,7 @@ namespace NSAttack
             {
                 this.movestart = true;
                 this.hitting = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                this.sound.PlaySE(SoundEffect.chain);
             }
             if (this.moveflame)
             {

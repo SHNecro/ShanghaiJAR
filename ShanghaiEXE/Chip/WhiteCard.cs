@@ -14,7 +14,7 @@ namespace NSChip
     private const int speed = 2;
     private const int plus = 2;
 
-    public WhiteCard(MyAudio s)
+    public WhiteCard(IAudioEngine s)
       : base(s)
     {
       this.number = 141;
@@ -40,7 +40,7 @@ namespace NSChip
 
     public override void Action(CharacterBase character, SceneBattle battle)
     {
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+      this.sound.PlaySE(SoundEffect.docking);
       if (character is Player && !(character is NetPlayer))
       {
         Player player = (Player) character;

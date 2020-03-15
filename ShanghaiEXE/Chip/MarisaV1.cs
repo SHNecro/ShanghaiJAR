@@ -13,7 +13,7 @@ namespace NSChip
     private const int speed = 2;
     private Point animePoint;
 
-    public MarisaV1(MyAudio s)
+    public MarisaV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -93,10 +93,10 @@ namespace NSChip
       {
         case 1:
           character.animationpoint.X = -1;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+          this.sound.PlaySE(SoundEffect.warp);
           break;
         case 50:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+          this.sound.PlaySE(SoundEffect.beam);
           AttackBase a = new Beam(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, false);
           a.positionDirect.Y += 3f;
           character.parent.attacks.Add(this.Paralyze(a));

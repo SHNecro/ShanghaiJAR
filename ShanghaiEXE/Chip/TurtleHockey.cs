@@ -13,7 +13,7 @@ namespace NSChip
         private const int start = 1;
         private const int speed = 2;
 
-        public TurtleHockey(MyAudio s)
+        public TurtleHockey(IAudioEngine s)
           : base(s)
         {
             this.rockOnPoint = new Point(-1, 0);
@@ -50,7 +50,7 @@ namespace NSChip
             if (character.waittime != 5)
                 return;
             int num = this.power + this.pluspower;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+            this.sound.PlaySE(SoundEffect.knife);
             int spd = 1;
             character.parent.attacks.Add(this.Paralyze(new ShellHockeyA(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), spd, this.element)));
         }

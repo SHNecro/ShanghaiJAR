@@ -33,7 +33,7 @@ namespace NSEnemy
         }
 
         public ChipUsingNaviBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -162,7 +162,7 @@ namespace NSEnemy
                                 if (this.pain)
                                 {
                                     this.Hp -= 20;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                                    this.sound.PlaySE(SoundEffect.damageenemy);
                                 }
                                 this.Motion = NaviBase.MOTION.neutral;
                             }

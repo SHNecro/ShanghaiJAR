@@ -11,7 +11,7 @@ namespace NSEvent
         private readonly SceneMap map;
         private readonly bool effect;
 
-        public GetMail(MyAudio s, EventManager m, int ID, bool effect, SceneMap map, SaveData save)
+        public GetMail(IAudioEngine s, EventManager m, int ID, bool effect, SceneMap map, SaveData save)
           : base(s, m, save)
         {
             this.effect = effect;

@@ -46,7 +46,7 @@ namespace NSObject
         private bool flash;
 
         public Ogre(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -127,7 +127,7 @@ namespace NSObject
         public override void Break()
         {
             this.flag = false;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.clincher);
+            this.sound.PlaySE(SoundEffect.clincher);
             this.parent.effects.Add(new Bomber(this.sound, this.parent, this.position.X, this.position.Y, Bomber.BOMBERTYPE.bomber, 2));
         }
 

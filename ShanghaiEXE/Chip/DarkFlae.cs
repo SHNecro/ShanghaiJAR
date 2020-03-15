@@ -13,7 +13,7 @@ namespace NSChip
         private bool open;
         private const int shotend = 10;
 
-        public DarkFlae(MyAudio s)
+        public DarkFlae(IAudioEngine s)
           : base(s)
         {
             this.rockOnPoint = new Point(-4, 0);
@@ -52,7 +52,7 @@ namespace NSChip
                 base.Action(character, battle);
             if (character.waittime != 6)
                 return;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+            this.sound.PlaySE(SoundEffect.canon);
             character.parent.attacks.Add(this.Paralyze(new FlaeBall(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 1, new Vector2(character.positionDirect.X + 40 * this.UnionRebirth(character.union), character.positionDirect.Y + 20f), this.element, 10, false, true)));
         }
 

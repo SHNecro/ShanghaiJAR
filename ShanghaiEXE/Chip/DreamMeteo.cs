@@ -22,7 +22,7 @@ namespace NSChip
 		private ScreenBlack screen;
 		private Point animePoint;
 
-		public DreamMeteo(MyAudio s)
+		public DreamMeteo(IAudioEngine s)
 		  : base(s)
 		{
 			this.dark = true;
@@ -92,7 +92,7 @@ namespace NSChip
 				this.eye = !this.eye;
 			int num = 30;
 			if (character.waittime == 44)
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+				this.sound.PlaySE(SoundEffect.pikin);
 			if (character.waittime == 44 + num)
 			{
 				Charge charge = new Charge(this.sound, battle, this.position.X, this.position.Y);
@@ -140,7 +140,7 @@ namespace NSChip
 							battle.effects.Add(dreamMeteo);
 							break;
 						case 30:
-							this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+							this.sound.PlaySE(SoundEffect.bombmiddle);
 							switch (this.count)
 							{
 								case 0:
@@ -253,7 +253,7 @@ namespace NSChip
 								++this.count;
 								break;
 							case 6:
-								this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+								this.sound.PlaySE(SoundEffect.bombmiddle);
 								point.X = character.union == Panel.COLOR.red ? 4 : 1;
 								point.Y = 0;
 								battle.effects.Add(new ImpactBomb(this.sound, battle, point.X, point.Y));
@@ -268,7 +268,7 @@ namespace NSChip
 								++this.count;
 								break;
 							case 7:
-								this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+								this.sound.PlaySE(SoundEffect.bombmiddle);
 								point.X = character.union == Panel.COLOR.red ? 5 : 0;
 								point.Y = 0;
 								battle.effects.Add(new ImpactBomb(this.sound, battle, point.X, point.Y));

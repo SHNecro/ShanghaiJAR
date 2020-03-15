@@ -9,7 +9,7 @@ namespace NSEvent
         public int number;
         private readonly bool trueORfalse;
 
-        public editMenu(MyAudio s, EventManager m, int n, bool tORf, SaveData save)
+        public editMenu(IAudioEngine s, EventManager m, int n, bool tORf, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

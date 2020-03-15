@@ -26,7 +26,7 @@ namespace NSEffect
         private const int interval = 6;
         private readonly int jumpflame;
 
-        public AlicePowder(MyAudio s, Vector2 pd, Point posi)
+        public AlicePowder(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

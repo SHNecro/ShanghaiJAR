@@ -24,7 +24,7 @@ namespace NSEffect
         private const int interval = 3;
         private readonly int jumpflame;
 
-        public DruidAttack(MyAudio s, Vector2 pd, Point posi)
+        public DruidAttack(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

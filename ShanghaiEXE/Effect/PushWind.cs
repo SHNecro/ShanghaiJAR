@@ -12,7 +12,7 @@ namespace NSEffect
         private const byte _speed = 2;
         private int count;
 
-        public PushWind(MyAudio s, SceneBattle p, Vector2 pd, Point posi, Panel.COLOR union)
+        public PushWind(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi, Panel.COLOR union)
           : base(s, p, posi.X, posi.Y)
         {
             this.union = union;

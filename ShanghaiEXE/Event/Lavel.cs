@@ -8,7 +8,7 @@ namespace NSEvent
     {
         public string lavelID;
 
-        public Lavel(MyAudio s, EventManager m, string ID, SaveData save)
+        public Lavel(IAudioEngine s, EventManager m, string ID, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

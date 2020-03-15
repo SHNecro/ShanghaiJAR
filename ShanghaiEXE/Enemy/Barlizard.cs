@@ -19,7 +19,7 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
-        public Barlizard(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Barlizard(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -205,7 +205,7 @@ namespace NSEnemy
                     this.animationpoint = this.AnimeAttack1(this.frame);
                     if (this.moveflame && this.frame == 10)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.rockopen);
+                        this.sound.PlaySE(SoundEffect.rockopen);
                         Point point = this.RandomTarget(this.UnionEnemy);
                         point.X += this.UnionRebirth;
                         int color = version - 1;

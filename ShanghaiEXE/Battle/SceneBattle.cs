@@ -85,7 +85,7 @@ namespace NSBattle
         public SceneBattle() : base(null, null, null) { }
 
         public SceneBattle(
-          MyAudio s,
+          IAudioEngine s,
           ShanghaiEXE p,
           SceneMain main,
           EventManager e,
@@ -299,12 +299,12 @@ namespace NSBattle
                 if (this.nowscene == SceneBattle.BATTLESCENE.battle && Input.IsPress(Button._Start))
                 {
                     this.nowscene = SceneBattle.BATTLESCENE.pause;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.pause);
+                    this.sound.PlaySE(SoundEffect.pause);
                 }
                 else if (this.nowscene == SceneBattle.BATTLESCENE.pause && Input.IsPress(Button._Start))
                 {
                     this.nowscene = SceneBattle.BATTLESCENE.battle;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.pause);
+                    this.sound.PlaySE(SoundEffect.pause);
                 }
                 if (!this.blackOut)
                 {
@@ -696,7 +696,7 @@ namespace NSBattle
                         {
                             if (attack2.hitting && (!object.Equals(attack1, attack2) && attack1.HitCheck(attack2.position) && attack1.HitCheck(attack2.position, attack2.union)))
                             {
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.damagezero);
+                                this.sound.PlaySE(SoundEffect.damagezero);
                                 this.effects.Add(new Guard(this.sound, this, attack2.position.X, attack2.position.Y, 2));
                                 BustorShot bustorShot = new BustorShot(this.sound, this, attack2.position.X, attack2.position.Y, attack1.union, attack1.power, BustorShot.SHOT.reflect, attack1.Element, true, 0)
                                 {
@@ -733,7 +733,7 @@ namespace NSBattle
 
         public void CounterHit()
         {
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.counterhit);
+            this.sound.PlaySE(SoundEffect.counterhit);
             this.mind.MindNow = MindWindow.MIND.fullsync;
             this.counterPrintTime = 60;
         }

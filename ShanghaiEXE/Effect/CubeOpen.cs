@@ -12,7 +12,7 @@ namespace NSEffect
         private bool step;
         private int f;
 
-        public CubeOpen(MyAudio s, Vector2 pd, Point posi)
+        public CubeOpen(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;

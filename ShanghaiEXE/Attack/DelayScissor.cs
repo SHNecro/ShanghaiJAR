@@ -19,7 +19,7 @@ namespace NSAttack
         private Vector2 movespeed;
 
         public DelayScissor(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -77,7 +77,7 @@ namespace NSAttack
             }
             else if (this.hittime == 1)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                this.sound.PlaySE(SoundEffect.breakObject);
                 this.ShakeStart(5, 5);
                 this.hitting = true;
             }

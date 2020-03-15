@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public MonkeyPole2(MyAudio s)
+    public MonkeyPole2(IAudioEngine s)
       : base(s)
     {
       this.number = 131;

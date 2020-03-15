@@ -14,7 +14,7 @@ namespace NSChip
     private const int shotend = 10;
     private const int shotinterval = 4;
 
-    public DanmakuValucun(MyAudio s)
+    public DanmakuValucun(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -44,12 +44,12 @@ namespace NSChip
       if (character.waittime == 80)
         base.Action(character, battle);
       if (character.waittime == 2)
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.machineRunning);
+        this.sound.PlaySE(SoundEffect.machineRunning);
       if (character.waittime % 8 != 4)
         return;
       battle.effects.Add(new BulletBigShells(this.sound, battle, character.position, character.positionDirect.X + 4 * character.UnionRebirth, character.positionDirect.Y + 8f, 26, character.union, 20 + this.Random.Next(20), 2, 0));
       int num = this.power + this.pluspower;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+      this.sound.PlaySE(SoundEffect.canon);
       this.ShakeStart(1, 8);
       character.parent.attacks.Add(this.Paralyze(new Vulcan(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), Vulcan.SHOT.Vulcan, this.element, false)));
     }

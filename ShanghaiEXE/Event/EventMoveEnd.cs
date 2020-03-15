@@ -10,7 +10,7 @@ namespace NSEvent
     {
         private readonly MapField field;
 
-        public EventMoveEnd(MyAudio s, EventManager m, MapField fi, SaveData save)
+        public EventMoveEnd(IAudioEngine s, EventManager m, MapField fi, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = false;

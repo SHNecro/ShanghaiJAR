@@ -54,7 +54,7 @@ namespace NSEvent
         }
 
         public Shop(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int No,
           int type,
@@ -175,12 +175,12 @@ namespace NSEvent
                 {
                     if (this.savedata.ShopCount[this.shopNo, this.Select] < this.goods[this.Select].stock || this.goods[this.Select].stock == 0)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                        this.sound.PlaySE(SoundEffect.decide);
                         this.BuyEvent();
                     }
                     else if (this.shopType != 3)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                         var dialogue = new Dialogue();
                         switch (this.assistant)
                         {
@@ -208,7 +208,7 @@ namespace NSEvent
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.help = false;
                 }
             }
@@ -216,18 +216,18 @@ namespace NSEvent
             {
                 if (!this.help)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                    this.sound.PlaySE(SoundEffect.cancel);
                     this.nowscene = Shop.SCENE.fadeout;
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.help = false;
                 }
             }
             else if (Input.IsPress(Button._R) && this.shopType != 3)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                this.sound.PlaySE(SoundEffect.movecursol);
                 if (!this.help)
                     this.help = true;
                 else
@@ -243,7 +243,7 @@ namespace NSEvent
                         --this.cursol;
                     else
                         --this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
                 }
                 else
@@ -254,7 +254,7 @@ namespace NSEvent
                         ++this.cursol;
                     else
                         ++this.top;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                     this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
                 }
             }
@@ -693,7 +693,7 @@ namespace NSEvent
                 this.sell = false;
                 this.savedata.Money += this.price;
                 --this.savedata.ShopCount[this.shopNo, this.Select];
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.counterhit);
+                this.sound.PlaySE(SoundEffect.counterhit);
                 if (this.shopType == 3)
                     this.savedata.FlagList[this.goods[this.Select].numberSub] = false;
                 this.eventmanager.events.Clear();
@@ -771,7 +771,7 @@ namespace NSEvent
                         else
                             this.savedata.havePeace[this.moneyType - 1] -= this.price;
                         ++this.savedata.ShopCount[this.shopNo, this.Select];
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.counterhit);
+                        this.sound.PlaySE(SoundEffect.counterhit);
                         switch (this.shopType)
                         {
                             case 0:
@@ -805,7 +805,7 @@ namespace NSEvent
                     }
                     else
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                         this.eventmanager.events.Clear();
                         var dialogue = ShanghaiEXE.Translate("Shop.InventoryFullDialogue1");
                         this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, dialogue.Face, dialogue.Face.Mono, this.savedata));
@@ -813,7 +813,7 @@ namespace NSEvent
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                    this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.events.Clear();
                     if (this.moneyType == 0)
                     {

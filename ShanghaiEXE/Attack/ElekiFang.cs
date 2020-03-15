@@ -24,7 +24,7 @@ namespace NSAttack
         private ElekiFangSub ef2;
 
         public ElekiFang(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

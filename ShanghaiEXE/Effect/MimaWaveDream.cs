@@ -8,14 +8,14 @@ namespace NSEffect
 {
     internal class MimaWaveDream : EffectBase
     {
-        public MimaWaveDream(MyAudio s, SceneBattle p, Vector2 pd, int sp, Point posi)
+        public MimaWaveDream(IAudioEngine s, SceneBattle p, Vector2 pd, int sp, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = sp;
             this.positionDirect = pd;
         }
 
-        public MimaWaveDream(MyAudio s, SceneBattle p, int pX, int pY, int sp)
+        public MimaWaveDream(IAudioEngine s, SceneBattle p, int pX, int pY, int sp)
           : base(s, p, pX, pY)
         {
             this.speed = sp;

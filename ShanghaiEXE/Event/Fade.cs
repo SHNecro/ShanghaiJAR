@@ -14,7 +14,7 @@ namespace NSEvent
         private readonly int fadeingTime;
 
         public Fade(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           int ms,
           byte a,

@@ -19,7 +19,7 @@ namespace NSEnemy
         private byte fire = 0;
         private Point targetpoint;
 
-        public ReyCanon(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public ReyCanon(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -207,13 +207,13 @@ namespace NSEnemy
                         if (this.rockon)
                         {
                             this.counterTiming = true;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.rockon);
+                            this.sound.PlaySE(SoundEffect.rockon);
                             this.motion = ReyCanon.MOTION.attack;
                             this.fire = 0;
                         }
                         else
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.search);
+                            this.sound.PlaySE(SoundEffect.search);
                             this.targetpoint.X += this.union == Panel.COLOR.blue ? -1 : 1;
                             if (this.targetpoint.X >= 6 || this.targetpoint.X < 0)
                                 this.motion = ReyCanon.MOTION.neutral;
@@ -231,7 +231,7 @@ namespace NSEnemy
                         switch (this.frame)
                         {
                             case 1:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                this.sound.PlaySE(SoundEffect.canon);
                                 this.ShakeStart(5, 5);
                                 this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.targetpoint.X, this.targetpoint.Y, this.union, this.Power, 1, this.element));
                                 this.parent.effects.Add(new Bomber(this.sound, this.parent, this.targetpoint.X, this.targetpoint.Y, Bomber.BOMBERTYPE.bomber, 2));

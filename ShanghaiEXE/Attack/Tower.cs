@@ -20,7 +20,7 @@ namespace NSAttack
         public bool make;
 
         public Tower(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -49,26 +49,26 @@ namespace NSAttack
                 switch (this.element)
                 {
                     case ChipBase.ELEMENT.normal:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                        this.sound.PlaySE(SoundEffect.shotwave);
                         break;
                     case ChipBase.ELEMENT.heat:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+                        this.sound.PlaySE(SoundEffect.heat);
                         break;
                     case ChipBase.ELEMENT.aqua:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                        this.sound.PlaySE(SoundEffect.shotwave);
                         break;
                     case ChipBase.ELEMENT.eleki:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                        this.sound.PlaySE(SoundEffect.bomb);
                         break;
                     case ChipBase.ELEMENT.leaf:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                        this.sound.PlaySE(SoundEffect.shotwave);
                         break;
                     case ChipBase.ELEMENT.poison:
                         this.hitting = true;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                        this.sound.PlaySE(SoundEffect.bomb);
                         break;
                     case ChipBase.ELEMENT.earth:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                        this.sound.PlaySE(SoundEffect.sand);
                         break;
                 }
             }

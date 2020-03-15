@@ -4,7 +4,7 @@ namespace NSChip
 {
     internal class DammyChip : ChipBase
   {
-    public DammyChip(MyAudio s)
+    public DammyChip(IAudioEngine s)
       : base(s)
     {
       this.number = 999;

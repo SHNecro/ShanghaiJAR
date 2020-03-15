@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public MarisaV2(MyAudio s)
+    public MarisaV2(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

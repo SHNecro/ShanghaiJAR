@@ -68,7 +68,7 @@ namespace NSEnemy
         private readonly int barierHP;
         private int aulaLevel;
 
-        public Kikuri(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Kikuri(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -186,7 +186,7 @@ namespace NSEnemy
                         if (this.roopmove % 3 == 2)
                         {
                             this.powerPlus = this.powers[0] * (version == 0 ? 1 : 0);
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                            this.sound.PlaySE(SoundEffect.dark);
                             int num2 = this.Random.Next(3);
                             for (int pY = 0; pY < 3; ++pY)
                             {
@@ -252,7 +252,7 @@ namespace NSEnemy
                         else
                         {
                             this.powerPlus = this.powers[0] * (version == 0 ? 1 : 0);
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                            this.sound.PlaySE(SoundEffect.dark);
                             int num = this.Random.Next(3);
                             for (int pY = 0; pY < 3; ++pY)
                             {
@@ -320,7 +320,7 @@ namespace NSEnemy
                                         int index = this.attackProcess - num1;
                                         if (index < this.targetRey.GetLength(1))
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.beam);
+                                            this.sound.PlaySE(SoundEffect.beam);
                                             int s = this.version > 0 ? 2 : 3;
                                             this.parent.attacks.Add(new MeteorRay(this.sound, this.parent, this.targetRey[0, index].X, this.targetRey[0, index].Y, this.union, this.Power, s, ChipBase.ELEMENT.normal));
                                             this.parent.attacks.Add(new MeteorRay(this.sound, this.parent, this.targetRey[1, index].X, this.targetRey[1, index].Y, this.union, this.Power, s, ChipBase.ELEMENT.normal));
@@ -345,7 +345,7 @@ namespace NSEnemy
                                 {
                                     this.target = this.RandomTarget(this.union);
                                     int z = 80;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.water);
+                                    this.sound.PlaySE(SoundEffect.water);
                                     Soul soul = new Soul(this.sound, this.parent, this.target.X, this.target.Y, z, null, 30);
                                     soul.attack = new ClossBomb(this.sound, this.parent, this.target.X, this.target.Y, this.union, this.Power, 2, new Vector2(soul.positionDirect.X, soul.positionDirect.Y - z), this.target, 120, ClossBomb.TYPE.single, true, ClossBomb.TYPE.single, true, true);
                                     this.parent.effects.Add(soul);
@@ -368,7 +368,7 @@ namespace NSEnemy
                                         this.speed = 4;
                                         break;
                                     case 4:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                        this.sound.PlaySE(SoundEffect.shoot);
                                         this.parent.effects.Add(new EyeBeam(this.sound, this.parent, this.position.X, this.position.Y, this.speed, this.version == 0));
                                         break;
                                     case 5:
@@ -384,7 +384,7 @@ namespace NSEnemy
                                         this.parent.panel[this.position.X + 4 * this.UnionRebirth(this.union), this.position.Y].State = Panel.PANEL._crack;
                                         break;
                                     case 9:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                                        this.sound.PlaySE(SoundEffect.bombbig);
                                         this.parent.effects.Add(new ScreenFlash(this.sound, this.parent, Color.Red, 2));
                                         this.ShakeStart(4, 30 * this.speed);
                                         break;
@@ -413,13 +413,13 @@ namespace NSEnemy
                                 switch (this.waittime)
                                 {
                                     case 1:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                                        this.sound.PlaySE(SoundEffect.dark);
                                         break;
                                     case 5:
                                         this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), 0, this.union, new Point(2, 2), 60, true));
                                         break;
                                     case 10:
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                                        this.sound.PlaySE(SoundEffect.bombbig);
                                         this.parent.attacks.Add(new SatelliteBarn(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), 1, this.union, this.Power, 4, this.element));
                                         break;
                                     case 25:
@@ -605,7 +605,7 @@ namespace NSEnemy
                 {
                     case 0:
                         this.speed = 128;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+                        this.sound.PlaySE(SoundEffect.dark);
                         break;
                     case 1:
                         this.speed = 16;
@@ -613,7 +613,7 @@ namespace NSEnemy
                     case 4:
                         this.speed = 4;
                         this.alfha = byte.MaxValue;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.flash);
+                        this.sound.PlaySE(SoundEffect.flash);
                         break;
                     case 17:
                         this.namePrint = true;

@@ -8,7 +8,7 @@ namespace NSEffect
 {
     internal class Basterhit : EffectBase
     {
-        public Basterhit(MyAudio s, SceneBattle p, Vector2 pd, int sp, Point posi)
+        public Basterhit(IAudioEngine s, SceneBattle p, Vector2 pd, int sp, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.speed = sp;
@@ -17,7 +17,7 @@ namespace NSEffect
             this.positionDirect.Y += this.Random.Next(-5, 5);
         }
 
-        public Basterhit(MyAudio s, SceneBattle p, int pX, int pY, int sp)
+        public Basterhit(IAudioEngine s, SceneBattle p, int pX, int pY, int sp)
           : base(s, p, pX, pY)
         {
             this.speed = sp;

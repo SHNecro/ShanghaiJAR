@@ -14,7 +14,7 @@ namespace NSEffect
         private new readonly bool rebirth;
         private readonly bool up;
 
-        public ElekiFangSub(MyAudio s, SceneBattle p, bool up, ElekiFang ef)
+        public ElekiFangSub(IAudioEngine s, SceneBattle p, bool up, ElekiFang ef)
           : base(s, p, ef.position.X, ef.position.Y + (up ? -1 : 1))
         {
             this.ef = ef;

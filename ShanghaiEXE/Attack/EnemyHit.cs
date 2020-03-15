@@ -15,7 +15,7 @@ namespace NSAttack
         private readonly CharacterBase chara;
 
         public EnemyHit(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

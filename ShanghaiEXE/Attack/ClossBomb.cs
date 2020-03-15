@@ -25,10 +25,10 @@ namespace NSAttack
         private const int startspeed = 6;
         private readonly bool cluster;
         private readonly bool poizon;
-        private readonly MyAudio.SOUNDNAMES soundName;
+        private readonly SoundEffect soundName;
 
         public ClossBomb(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -73,10 +73,10 @@ namespace NSAttack
                     this.time /= 2;
                     this.plusy = 0.0f;
                 }
-                this.soundName = MyAudio.SOUNDNAMES.waveshort;
+                this.soundName = SoundEffect.waveshort;
             }
             else
-                this.soundName = MyAudio.SOUNDNAMES.bomb;
+                this.soundName = SoundEffect.bomb;
         }
 
         public override void Updata()

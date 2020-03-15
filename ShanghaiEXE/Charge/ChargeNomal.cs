@@ -10,7 +10,7 @@ namespace NSCharge
 {
     internal class ChargeNomal : ChargeBase
     {
-        public ChargeNomal(MyAudio s, Player p)
+        public ChargeNomal(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 160;
@@ -23,7 +23,7 @@ namespace NSCharge
             if (this.player.waittime == 2)
                 this.player.animationpoint = new Point(5, 6);
             else if (this.player.waittime == 4)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.buster);
+                this.sound.PlaySE(SoundEffect.buster);
             if (this.player.waittime == 6)
             {
                 this.player.animationpoint = new Point(6, 6);

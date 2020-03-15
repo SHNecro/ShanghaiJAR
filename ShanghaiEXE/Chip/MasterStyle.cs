@@ -39,7 +39,7 @@ namespace NSChip
     private BombAttack attack;
     private AttackBase effectattack;
 
-    public MasterStyle(MyAudio s)
+    public MasterStyle(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -156,10 +156,10 @@ case MasterStyle.MOTION._1_start:
           switch (character.waittime)
           {
             case 1:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
+              this.sound.PlaySE(SoundEffect.pikin);
               break;
             case 30:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.dark);
+              this.sound.PlaySE(SoundEffect.dark);
               break;
             case 70:
               int index1 = 0;
@@ -224,7 +224,7 @@ case MasterStyle.MOTION._1_start:
               break;
             case 16:
               this.animePoint.X = 3;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+              this.sound.PlaySE(SoundEffect.lance);
               this.attack = new BombAttack(this.sound, battle, this.attackPosition[0].X, this.attackPosition[0].Y, character.union, this.Power(character), 1, ChipBase.ELEMENT.normal);
               this.attack.element = ChipBase.ELEMENT.leaf;
               this.attack.hitrange.X = 1;
@@ -277,7 +277,7 @@ case MasterStyle.MOTION._1_start:
               break;
             case 12:
               this.animePoint.X = 1;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+              this.sound.PlaySE(SoundEffect.sword);
               this.effectattack = new SwordAttack(this.sound, battle, this.attackPosition[1].X, this.attackPosition[1].Y, character.union, 0, 3, ChipBase.ELEMENT.eleki, false, false);
               this.effectattack.hitting = false;
               this.effectattack.rebirth = this.attackRevers;
@@ -349,7 +349,7 @@ case MasterStyle.MOTION._1_start:
               break;
             case 12:
               this.animePoint.X = 1;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+              this.sound.PlaySE(SoundEffect.shoot);
               break;
             case 14:
               this.animePoint.X = 2;
@@ -419,7 +419,7 @@ case MasterStyle.MOTION._1_start:
               break;
             case 16:
               this.animePoint.X = 3;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.drill2);
+              this.sound.PlaySE(SoundEffect.drill2);
               this.attack = new BombAttack(this.sound, battle, this.attackPosition[3].X, this.attackPosition[3].Y, character.union, this.Power(character) / 4, 1, ChipBase.ELEMENT.normal);
               this.attack.element = ChipBase.ELEMENT.earth;
               this.attack.hitrange.X = 1;
@@ -514,7 +514,7 @@ case MasterStyle.MOTION._1_start:
               break;
             case 14:
               this.animePoint.X = 2;
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+              this.sound.PlaySE(SoundEffect.chain);
               this.effectattack = new InjectBullet(this.sound, battle, this.attackPosition[4].X - 2 * (this.attackRevers ? -1 : 1), this.attackPosition[4].Y, character.union, this.Power(character), this.texname[4], ChipBase.ELEMENT.heat);
               this.effectattack.badstatus[1] = false;
               this.effectattack.rebirth = this.attackRevers;
@@ -585,7 +585,7 @@ case MasterStyle.MOTION._1_start:
               this.animePoint.X = 6;
               break;
             case 24:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+              this.sound.PlaySE(SoundEffect.fire);
               this.effectattack = new ElementFire(this.sound, battle, this.attackPosition[5].X, this.attackPosition[5].Y, character.union, this.Power(character), ChipBase.ELEMENT.aqua, false, 0);
               this.effectattack.rebirth = this.attackRevers;
               this.effectattack.PositionDirectSet();
@@ -593,7 +593,7 @@ case MasterStyle.MOTION._1_start:
               battle.attacks.Add(this.effectattack);
               break;
             case 28:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+              this.sound.PlaySE(SoundEffect.fire);
               this.effectattack = new ElementFire(this.sound, battle, this.attackPosition[5].X + (this.attackRevers ? -1 : 1), this.attackPosition[5].Y, character.union, this.Power(character), ChipBase.ELEMENT.aqua, false, 0);
               this.effectattack.rebirth = this.attackRevers;
               this.effectattack.PositionDirectSet();
@@ -601,7 +601,7 @@ case MasterStyle.MOTION._1_start:
               battle.attacks.Add(this.effectattack);
               break;
             case 32:
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+              this.sound.PlaySE(SoundEffect.fire);
               this.effectattack = new ElementFire(this.sound, battle, this.attackPosition[5].X + 2 * (this.attackRevers ? -1 : 1), this.attackPosition[5].Y, character.union, this.Power(character), ChipBase.ELEMENT.aqua, false, 0);
               this.effectattack.rebirth = this.attackRevers;
               this.effectattack.PositionDirectSet();
@@ -666,7 +666,7 @@ case MasterStyle.MOTION._1_start:
               bombAttack.breaking = true;
               bombAttack.throughObject = true;
               battle.attacks.Add(bombAttack);
-              this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+              this.sound.PlaySE(SoundEffect.bombbig);
               this.ShakeStart(4, 90);
               int x = Eriabash.SteelX(character, battle);
               battle.effects.Add(new RandomBomber(this.sound, battle, Bomber.BOMBERTYPE.flashbomber, 2, new Point(x, 0), new Point(6, 2), character.union, 36));
@@ -732,7 +732,7 @@ case MasterStyle.MOTION._1_start:
       }
       else
         this.attackRevers = true;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+      this.sound.PlaySE(SoundEffect.knife);
       character.position = new Point(this.attackPosition[i].X + Xmove, this.attackPosition[i].Y);
       this.PositionDirectSet(this.attackPosition[i].X + Xmove, this.attackPosition[i].Y);
     }

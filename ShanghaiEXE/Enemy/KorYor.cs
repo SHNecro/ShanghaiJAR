@@ -18,7 +18,7 @@ namespace NSEnemy
         private bool targetset;
         private int count;
 
-        public KorYor(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public KorYor(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -216,7 +216,7 @@ namespace NSEnemy
                         }
                         if (this.frame > 1)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                            this.sound.PlaySE(SoundEffect.lance);
                             if (this.version == 0)
                                 this.parent.attacks.Add(new LeafWave(this.sound, this.parent, this.target[this.count].X, this.target[this.count].Y, this.union, this.Power, 1, 5));
                             else

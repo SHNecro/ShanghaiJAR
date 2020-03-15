@@ -14,7 +14,7 @@ namespace NSEffect
         private readonly int angle;
         private readonly SaveData savedata;
 
-        public FightMarisa(MyAudio s, Vector2 pd, Point posi, int angle)
+        public FightMarisa(IAudioEngine s, Vector2 pd, Point posi, int angle)
           : base(s, null, posi.X, posi.Y)
         {
             this.angle = angle;

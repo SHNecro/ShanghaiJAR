@@ -19,7 +19,7 @@ namespace NSEffect
         private int manymake;
 
         public RandomBomber(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Bomber.BOMBERTYPE t,
           int interval,
@@ -48,7 +48,7 @@ namespace NSEffect
         }
 
         public RandomBomber(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           Bomber.BOMBERTYPE t,
           int interval,
@@ -91,7 +91,7 @@ namespace NSEffect
 				return;
 			}
 
-            MyAudio sound = this.sound;
+            IAudioEngine sound = this.sound;
             SceneBattle parent = this.parent;
             Point position = this.positions[this.manymake];
             int x = position.X;

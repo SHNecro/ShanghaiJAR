@@ -14,7 +14,7 @@ namespace NSChip
     private const int speed = 2;
     protected Point animePoint;
 
-    public PyroManV1(MyAudio s)
+    public PyroManV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -79,7 +79,7 @@ namespace NSChip
         {
           case 1:
             character.animationpoint.X = -1;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+            this.sound.PlaySE(SoundEffect.warp);
             break;
           case 10:
             for (int index = 0; index < 3; ++index)
@@ -89,7 +89,7 @@ namespace NSChip
                 Point point = this.RandomPanel(false, false, false, character.UnionEnemy, battle, 0);
                 if (index == 0)
                   point = this.RandomTarget(character, battle);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                this.sound.PlaySE(SoundEffect.quake);
                 AttackBase a = new Tower(this.sound, battle, point.X, point.Y, character.union, this.Power(character), 999, this.element);
                 a.invincibility = false;
                 battle.attacks.Add(this.Paralyze(a));
@@ -105,7 +105,7 @@ namespace NSChip
               try
               {
                 Point point = this.RandomPanel(false, false, false, character.UnionEnemy, battle, 0);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                this.sound.PlaySE(SoundEffect.quake);
                 AttackBase a = new Tower(this.sound, battle, point.X, point.Y, character.union, this.Power(character), 999, this.element);
                 a.invincibility = false;
                 battle.attacks.Add(this.Paralyze(a));
@@ -123,7 +123,7 @@ namespace NSChip
                 Point point = this.RandomPanel(false, false, false, character.UnionEnemy, battle, 0);
                 if (index == 0)
                   point = this.RandomTarget(character, battle);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+                this.sound.PlaySE(SoundEffect.quake);
                 AttackBase a = new Tower(this.sound, battle, point.X, point.Y, character.union, this.Power(character), 999, this.element);
                 a.invincibility = true;
                 battle.attacks.Add(this.Paralyze(a));

@@ -37,7 +37,7 @@ namespace NSMap.Character
             }
         }
 
-        public EventPage(MyAudio s, MapEventBase p, SaveData save)
+        public EventPage(IAudioEngine s, MapEventBase p, SaveData save)
           : base(s)
         {
             this.parent = p;

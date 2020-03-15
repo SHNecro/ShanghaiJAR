@@ -35,7 +35,7 @@ namespace NSMap.Character.Menu
 
         private int cursorFrame;
 
-        public Library(MyAudio s, Player p, TopMenu t, SaveData save)
+        public Library(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             this.UnknownChipNameText = ShanghaiEXE.Translate("DataList.UnknownChipNameText");
@@ -280,12 +280,12 @@ namespace NSMap.Character.Menu
                             break;
                         }
                     }
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                    this.sound.PlaySE(SoundEffect.decide);
                 }
             }
             if (Input.IsPress(Button._B))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.cancel);
+                this.sound.PlaySE(SoundEffect.cancel);
                 this.State = LibraryState.FadeOut;
             }
             if (Input.IsPress(Button._R) || (this.waittime <= 0 && Input.IsPush(Button._R)))
@@ -296,7 +296,7 @@ namespace NSMap.Character.Menu
                     this.CurrentPage.CurrentIndex = proposedIndex;
                     this.CurrentPage.CurrentTopIndex = Math.Min(this.CurrentPage.CurrentTopIndex + 7, this.CurrentPage.Count - 7);
                     this.CurrentPage.CurrentTopIndex = Math.Max(this.CurrentPage.CurrentTopIndex, 0);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
 
                 this.waittime = Input.IsPress(Button._R) ? 10 : 4;
@@ -308,7 +308,7 @@ namespace NSMap.Character.Menu
                 {
                     this.CurrentPage.CurrentIndex = proposedIndex;
                     this.CurrentPage.CurrentTopIndex = Math.Max(this.CurrentPage.CurrentTopIndex - 7, 0);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
 
                 this.waittime = Input.IsPress(Button._L) ? 10 : 4;
@@ -319,7 +319,7 @@ namespace NSMap.Character.Menu
                 {
                     this.CurrentPage.CurrentIndex--;
                     this.CurrentPage.CurrentTopIndex = Math.Min(this.CurrentPage.CurrentTopIndex, this.CurrentPage.CurrentIndex);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
 
                 this.waittime = Input.IsPress(Button.Up) ? 10 : 4;
@@ -330,7 +330,7 @@ namespace NSMap.Character.Menu
                 {
                     this.CurrentPage.CurrentIndex++;
                     this.CurrentPage.CurrentTopIndex = Math.Max(this.CurrentPage.CurrentTopIndex, this.CurrentPage.CurrentIndex - 6);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.movecursol);
+                    this.sound.PlaySE(SoundEffect.movecursol);
                 }
 
                 this.waittime = Input.IsPress(Button.Down) ? 10 : 4;
@@ -343,13 +343,13 @@ namespace NSMap.Character.Menu
             {
                 this.moveXOffset = 0;
                 this.State = LibraryState.MoveLeft;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                this.sound.PlaySE(SoundEffect.menuopen);
             }
             if (Input.IsPush(Button.Right) && this.CurrentPage.RightPage != null)
             {
                 this.moveXOffset = 144;
                 this.State = LibraryState.MoveRight;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                this.sound.PlaySE(SoundEffect.menuopen);
             }
         }
 

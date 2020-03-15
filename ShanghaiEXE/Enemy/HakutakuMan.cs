@@ -32,7 +32,7 @@ namespace NSEnemy
         private DammyEnemy dammy;
         private bool godmodeinit;
 
-        public HakutakuMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public HakutakuMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -197,7 +197,7 @@ namespace NSEnemy
             if (this.union == Panel.COLOR.red && this.parent.turn == this.samontarn + 3)
             {
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect, this.position));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.flag = false;
             }
             if (this.alfha < byte.MaxValue)
@@ -265,7 +265,7 @@ namespace NSEnemy
                                         {
                                             case 6:
                                                 this.counterTiming = false;
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                this.sound.PlaySE(SoundEffect.shotwave);
                                                 this.parent.attacks.Add(new SwordAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, false, false));
                                                 break;
                                             case 10:
@@ -286,7 +286,7 @@ namespace NSEnemy
                                             {
                                                 case 6:
                                                     this.counterTiming = false;
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                    this.sound.PlaySE(SoundEffect.shotwave);
                                                     AttackBase attackBase = new SwordAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, false, false);
                                                     attackBase.invincibility = false;
                                                     this.parent.attacks.Add(attackBase);
@@ -307,7 +307,7 @@ namespace NSEnemy
                                             {
                                                 case 6:
                                                     this.counterTiming = false;
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                    this.sound.PlaySE(SoundEffect.shotwave);
                                                     this.parent.attacks.Add(new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, true));
                                                     break;
                                                 case 10:
@@ -331,7 +331,7 @@ namespace NSEnemy
                                         {
                                             case 6:
                                                 this.counterTiming = false;
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                this.sound.PlaySE(SoundEffect.shotwave);
                                                 this.parent.attacks.Add(new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, true));
                                                 break;
                                             case 10:
@@ -352,7 +352,7 @@ namespace NSEnemy
                                             {
                                                 case 6:
                                                     this.counterTiming = false;
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                    this.sound.PlaySE(SoundEffect.shotwave);
                                                     AttackBase attackBase = new LanceAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, true);
                                                     attackBase.invincibility = false;
                                                     this.parent.attacks.Add(attackBase);
@@ -373,7 +373,7 @@ namespace NSEnemy
                                             {
                                                 case 6:
                                                     this.counterTiming = false;
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                    this.sound.PlaySE(SoundEffect.shotwave);
                                                     this.parent.attacks.Add(new SwordAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, false, false));
                                                     break;
                                                 case 10:
@@ -398,11 +398,11 @@ namespace NSEnemy
                                             case 7:
                                             case 9:
                                                 this.counterTiming = false;
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                                                this.sound.PlaySE(SoundEffect.lance);
                                                 break;
                                             case 13:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageenemy);
+                                                this.sound.PlaySE(SoundEffect.canon);
+                                                this.sound.PlaySE(SoundEffect.damageenemy);
                                                 this.whitetime = 4;
                                                 this.hp -= 20 * version;
                                                 break;
@@ -421,7 +421,7 @@ namespace NSEnemy
                                         switch (this.waittime)
                                         {
                                             case 6:
-                                                this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                                                this.sound.PlaySE(SoundEffect.shotwave);
                                                 this.parent.attacks.Add(new SwordCloss(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 3, this.element, false));
                                                 break;
                                             case 10:
@@ -485,7 +485,7 @@ namespace NSEnemy
                                                     }
                                                     this.PositionDirectSet();
                                                     this.HitFlagReset();
-                                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                                    this.sound.PlaySE(SoundEffect.knife);
                                                     this.effecting = true;
                                                     ++this.attackCombo;
                                                     this.frame = 0;
@@ -788,8 +788,8 @@ namespace NSEnemy
                     break;
                 case 30:
                     this.animationpoint.X = 4;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.dragonVoice);
+                    this.sound.PlaySE(SoundEffect.bombbig);
+                    this.sound.PlaySE(SoundEffect.dragonVoice);
                     this.ShakeStart(4, 60);
                     break;
                 case 90:
@@ -800,7 +800,7 @@ namespace NSEnemy
                     this.speed = this.nspeed;
                     this.animationpoint.X = 0;
                     this.nohit = false;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                    this.sound.PlaySE(SoundEffect.docking);
                     this.whitetime = 4;
                     break;
             }

@@ -13,7 +13,7 @@ namespace NSAttack
     internal class DrillAttack : AttackBase
     {
         public DrillAttack(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

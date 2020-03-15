@@ -9,7 +9,7 @@ namespace NSEvent
     {
         private readonly MapField field;
 
-        public BgmSave(MyAudio s, EventManager m, MapField field, SaveData save)
+        public BgmSave(IAudioEngine s, EventManager m, MapField field, SaveData save)
           : base(s, m, save)
         {
             this.field = field;
@@ -18,7 +18,7 @@ namespace NSEvent
 
         public override void Update()
         {
-            this.field.saveBGM = this.sound.playmusic;
+            this.field.saveBGM = this.sound.CurrentBGM;
             this.EndCommand();
         }
 

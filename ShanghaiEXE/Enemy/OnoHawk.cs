@@ -23,7 +23,7 @@ namespace NSEnemy
         private int animeflame;
         private Shadow shadow;
 
-        public OnoHawk(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public OnoHawk(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -196,7 +196,7 @@ namespace NSEnemy
                                 if (this.roopmove > this.moveroop && !this.badstatus[4])
                                 {
                                     this.motion = OnoHawk.MOTION.attack;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                                    this.sound.PlaySE(SoundEffect.knife);
                                     this.effecting = true;
                                     this.counterTiming = false;
                                     this.HitFlagReset();
@@ -229,7 +229,7 @@ namespace NSEnemy
                     if (this.roopmove > this.moveroop)
                     {
                         this.counterTiming = true;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                        this.sound.PlaySE(SoundEffect.chain);
                         break;
                     }
                     break;

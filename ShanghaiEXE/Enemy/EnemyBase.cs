@@ -36,7 +36,7 @@ namespace NSEnemy
 
         public static EnemyBase EnemyMake(int number, EnemyBase e, bool rank)
         {
-            MyAudio sound = e?.Sound;
+            IAudioEngine sound = e?.Sound;
             SceneBattle parent = e?.parent;
             Point point = e != null ? e.position : new Point(0, 0);
             byte n = e != null ? (byte)e.number : (byte)0;
@@ -286,7 +286,7 @@ namespace NSEnemy
             }
         }
 
-        public MyAudio Sound
+        public IAudioEngine Sound
         {
             set
             {
@@ -350,7 +350,7 @@ namespace NSEnemy
             }
         }
 
-        public EnemyBase(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public EnemyBase(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p)
         {
             this.HPposition = new Vector2(-100f, -100f);
@@ -391,7 +391,7 @@ namespace NSEnemy
             if (this.union == Panel.COLOR.red && this.parent.turn == this.samontarn + 3)
             {
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect, this.position));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.flag = false;
             }
             if (this.alfha < byte.MaxValue)
@@ -425,7 +425,7 @@ namespace NSEnemy
             if (this.initflame == 0)
             {
                 this.namePrint = true;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
             }
             ++this.initflame;
             if (this.initflame < 30)

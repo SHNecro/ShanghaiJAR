@@ -25,7 +25,7 @@ namespace NSChip
     private const int s = 5;
     protected Point animePoint;
 
-    public DisasterCrow(MyAudio s)
+    public DisasterCrow(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -161,8 +161,8 @@ namespace NSChip
               {
                 case 2:
                   this.ShakeStart(8, 8);
-                  this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
-                  this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                  this.sound.PlaySE(SoundEffect.shotwave);
+                  this.sound.PlaySE(SoundEffect.breakObject);
                   AttackBase a = new SwordAttack(this.sound, battle, this.posi.X + 2 * this.UnionRebirth(character.union), this.posi.Y, character.union, this.Power(character), 3, this.element, false, false);
                   battle.attacks.Add(this.Paralyze(a));
                   break;
@@ -182,8 +182,8 @@ namespace NSChip
               {
                 case 2:
                   this.ShakeStart(8, 8);
-                  this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
-                  this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
+                  this.sound.PlaySE(SoundEffect.shotwave);
+                  this.sound.PlaySE(SoundEffect.breakObject);
                   AttackBase a = new FighterSword(this.sound, battle, this.posi.X + this.UnionRebirth(character.union), this.posi.Y, character.union, this.Power(character), 3, this.element);
                   battle.attacks.Add(this.Paralyze(a));
                   break;

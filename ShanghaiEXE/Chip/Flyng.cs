@@ -14,7 +14,7 @@ namespace NSChip
     private const int speed = 2;
     private bool fly;
 
-    public Flyng(MyAudio s)
+    public Flyng(IAudioEngine s)
       : base(s)
     {
       this.printIcon = false;
@@ -45,7 +45,7 @@ namespace NSChip
       {
         Vector2 pd = new Vector2(character.positionDirect.X, character.positionDirect.Y);
         battle.effects.Add(new MoveEnemy(this.sound, battle, pd, character.position));
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+        this.sound.PlaySE(SoundEffect.lance);
         player.printplayer = false;
         this.fly = true;
       }

@@ -10,7 +10,7 @@ namespace NSEffect
         private readonly int a = 0;
         private readonly bool up = true;
 
-        public HeavenWater(MyAudio s, Vector2 pd, Point posi)
+        public HeavenWater(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.color = Color.FromArgb(128, Color.White);

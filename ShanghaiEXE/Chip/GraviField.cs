@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public GraviField(MyAudio s)
+    public GraviField(IAudioEngine s)
       : base(s)
     {
       this.number = 156;

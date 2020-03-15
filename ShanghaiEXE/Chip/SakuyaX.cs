@@ -12,7 +12,7 @@ namespace NSChip
     private const int interval = 20;
     private const int speed = 2;
 
-    public SakuyaX(MyAudio s)
+    public SakuyaX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

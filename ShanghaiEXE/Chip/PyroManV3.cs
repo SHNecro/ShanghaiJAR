@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public PyroManV3(MyAudio s)
+    public PyroManV3(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

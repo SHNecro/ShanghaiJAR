@@ -13,7 +13,7 @@ namespace NSCharge
         private const int start = 5;
         private const int speed = 3;
 
-        public ChargeFighter(MyAudio s, Player p)
+        public ChargeFighter(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 170;
@@ -25,7 +25,7 @@ namespace NSCharge
         {
             if (this.player.waittime == 11)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                this.sound.PlaySE(SoundEffect.lance);
                 PunchAttack punchAttack = new PunchAttack(this.sound, this.player.parent, this.player.position.X + this.UnionRebirth(this.player.union), this.player.position.Y, this.player.union, this.Power, 2, this.player.Element)
                 {
                     canCounter = false,

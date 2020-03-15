@@ -20,7 +20,7 @@ namespace NSAttack
         Panel.COLOR cCol;
 
         public flanLevF(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -55,7 +55,7 @@ namespace NSAttack
                 this.rebirth = this.union == Panel.COLOR.red;
                 this.positionre = this.position;
                 this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 82);
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+                this.sound.PlaySE(SoundEffect.wave);
                 this.motion = m;
                 this.frame = 0;
             }
@@ -73,7 +73,7 @@ namespace NSAttack
             switch (this.frame)
             {
                 case 3:
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                    this.sound.PlaySE(SoundEffect.sword);
                     AttackBase attackBase5 = new Halberd(this.sound, this.parent, this.position.X + cUnionRebirth, this.position.Y, this.union, this.power, 4, ChipBase.ELEMENT.heat, false);
                     {
 

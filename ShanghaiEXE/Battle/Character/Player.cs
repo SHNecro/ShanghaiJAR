@@ -135,7 +135,7 @@ namespace NSBattle.Character
         }
 
         public Player(
-          MyAudio s,
+          IAudioEngine s,
           SceneBattle p,
           int pX,
           int pY,
@@ -295,7 +295,7 @@ namespace NSBattle.Character
                 this.nomove = true;
             if (this.addonSkill[48])
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.barrier);
+                this.sound.PlaySE(SoundEffect.barrier);
                 this.barrierType = CharacterBase.BARRIER.Barrier;
                 this.barierTime = -1;
             }
@@ -668,13 +668,13 @@ namespace NSBattle.Character
             {
                 if (this.parent.nowscene == SceneBattle.BATTLESCENE.end)
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.counterhit);
+                    this.sound.PlaySE(SoundEffect.counterhit);
                     this.hp = 1;
                 }
                 else
                 {
                     this.parent.blackOutChips.RemoveAll(c => c.userNum == this.number);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.death);
+                    this.sound.PlaySE(SoundEffect.death);
                     this.motion = Player.PLAYERMOTION._death;
                     this.chargeTime = 0;
                     this.chargeMax = false;
@@ -735,7 +735,7 @@ namespace NSBattle.Character
                     {
                         this.rockOnTarget.on = true;
                         this.rockonCursol.on = false;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.rockon);
+                        this.sound.PlaySE(SoundEffect.rockon);
                     }
                 }
                 else
@@ -767,7 +767,7 @@ namespace NSBattle.Character
                     base.Updata();
                 }
                 if (this.charge && this.chargeTime == 30)
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                    this.sound.PlaySE(SoundEffect.charge);
                 if (!this.badstatus[3])
                     this.Moving();
             }
@@ -807,7 +807,7 @@ namespace NSBattle.Character
             if (this.savedata.addonSkill[45])
             {
                 this.Hp -= this.Hp > 50 ? 50 : this.Hp - 1;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                this.sound.PlaySE(SoundEffect.damageplayer);
             }
             this.parent.custom.Init();
             this.parent.nowscene = SceneBattle.BATTLESCENE.custom;
@@ -866,12 +866,12 @@ namespace NSBattle.Character
             bool chargeMax = this.chargeMax;
             if (this.addonSkill[31])
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                this.sound.PlaySE(SoundEffect.repair);
                 this.Hp += 30;
             }
             if (this.addonSkill[65])
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.damageplayer);
+                this.sound.PlaySE(SoundEffect.damageplayer);
                 this.Hp -= 30;
             }
             if (this.chargeBypass && this.chargeMax)
@@ -902,14 +902,14 @@ namespace NSBattle.Character
             this.haveChip[0].powertxt = str;
             if (this.usingChip.powerprint && (this.mind.MindNow == MindWindow.MIND.fullsync || this.mind.MindNow == MindWindow.MIND.angry))
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                this.sound.PlaySE(SoundEffect.shoot);
                 this.usingChip.power *= 2;
                 this.usingChip.pluspower *= 2;
                 this.mind.MindNow = MindWindow.MIND.normal;
             }
             else if (this.mind.MindNow == MindWindow.MIND.smile)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.repair);
+                this.sound.PlaySE(SoundEffect.repair);
                 this.Hp += (int)(HpMax * 0.3);
                 this.mind.MindNow = MindWindow.MIND.normal;
                 this.parent.effects.Add(new Repair(this.sound, this.parent, new Vector2((int)this.positionDirect.X - 14, (int)this.positionDirect.Y), this.speed, this.position));
@@ -951,7 +951,7 @@ namespace NSBattle.Character
                 }
                 else
                 {
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.switchon);
+                    this.sound.PlaySE(SoundEffect.switchon);
                     this.vusterFire = false;
                     this.motion = Player.PLAYERMOTION._neutral;
                     this.charge = false;
@@ -1166,11 +1166,11 @@ namespace NSBattle.Character
                             if (flag)
                             {
                                 this.vusterFire = true;
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+                                this.sound.PlaySE(SoundEffect.vulcan);
                                 break;
                             }
                             this.vusterFire = false;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.switchon);
+                            this.sound.PlaySE(SoundEffect.switchon);
                             break;
                         }
                         if (this.waittime == 12 - num1)
@@ -1216,11 +1216,11 @@ namespace NSBattle.Character
                                     this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
                                 if (this.addonSkill[37])
                                     this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.buster);
+                                this.sound.PlaySE(SoundEffect.buster);
                                 break;
                             }
                             this.vusterFire = false;
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.switchon);
+                            this.sound.PlaySE(SoundEffect.switchon);
                             break;
                         case 6:
                             if (flag1)
@@ -1332,7 +1332,7 @@ namespace NSBattle.Character
                 if (this.chargeTime >= this.chargeWait && !this.chargeMax)
                 {
                     this.chargeMax = true;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.chargemax);
+                    this.sound.PlaySE(SoundEffect.chargemax);
                 }
             }
             this.MoveAftar();

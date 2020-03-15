@@ -428,7 +428,7 @@ namespace NSNet
             NetParam.positionY.RemoveAt(NetParam.positionY.Count - 1);
         }
 
-        public static ChipBase NextChipMake(MyAudio s)
+        public static ChipBase NextChipMake(IAudioEngine s)
         {
             ChipFolder chipFolder = new ChipFolder(s);
             chipFolder.SettingChip(NetParam.ENnextChipID);

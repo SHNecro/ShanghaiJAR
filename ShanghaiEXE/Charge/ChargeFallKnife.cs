@@ -17,7 +17,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeFallKnife(MyAudio s, Player p)
+        public ChargeFallKnife(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 200;
@@ -37,7 +37,7 @@ namespace NSCharge
                 this.character.animationpoint = new Point(3, 1);
             else if (this.character.waittime == 15)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.knife);
+                this.sound.PlaySE(SoundEffect.knife);
                 Point point = this.RandomTarget(this.UnionEnemy);
                 this.battle.attacks.Add(new DelayKnife(this.sound, this.battle, point.X, point.Y, this.player.union, this.Power, 16, ChipBase.ELEMENT.normal));
             }

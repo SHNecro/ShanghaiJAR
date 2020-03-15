@@ -20,7 +20,7 @@ namespace NSAttack
         public bool get;
 
         public ZeroKnuckle(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

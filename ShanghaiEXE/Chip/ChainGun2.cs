@@ -15,7 +15,7 @@ namespace NSChip
     private bool rockon;
     private int shot;
 
-    public ChainGun2(MyAudio s)
+    public ChainGun2(IAudioEngine s)
       : base(s)
     {
       this.number = 95;

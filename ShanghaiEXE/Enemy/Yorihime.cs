@@ -48,7 +48,7 @@ namespace NSEnemy
         private readonly int gurd;
         private bool godmodeinit;
 
-        public Yorihime(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Yorihime(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -203,7 +203,7 @@ namespace NSEnemy
             if (this.union == Panel.COLOR.red && this.parent.turn == this.samontarn + 3)
             {
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect, this.position));
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.enterenemy);
+                this.sound.PlaySE(SoundEffect.enterenemy);
                 this.flag = false;
             }
             if (this.alfha < byte.MaxValue)
@@ -232,7 +232,7 @@ namespace NSEnemy
                     {
                         for (int pY = 0; pY < this.parent.panel.GetLength(1); ++pY)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                            this.sound.PlaySE(SoundEffect.eriasteal2);
                             this.parent.effects.Add(new AfterSteal(this.sound, this.parent, pX, pY));
                             this.parent.panel[pX, pY].inviolability = true;
                         }
@@ -307,7 +307,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             AttackBase attackBase1 = new SonicBoomMini(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 4 + 2 * (version - 1), this.swordElement, false);
                                             if (this.atackNo < this.attacks.Length - 1)
                                                 attackBase1.invincibility = false;
@@ -327,7 +327,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             AttackBase attackBase2 = new FighterSword(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 4, this.swordElement);
                                             if (this.atackNo < this.attacks.Length - 1)
                                                 attackBase2.invincibility = false;
@@ -347,7 +347,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                            this.sound.PlaySE(SoundEffect.shoot);
                                             for (int pY = 0; pY < 3; ++pY)
                                                 this.parent.attacks.Add(new Wind(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), pY, this.union, true));
                                             break;
@@ -365,7 +365,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             AttackBase attackBase3 = new SwordAttack(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 4, this.swordElement, false, false);
                                             if (this.atackNo < this.attacks.Length - 1)
                                                 attackBase3.invincibility = false;
@@ -385,7 +385,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             AttackBase attackBase4 = new SwordCloss(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 4, this.swordElement, false);
                                             if (this.atackNo < this.attacks.Length - 1)
                                                 attackBase4.invincibility = false;
@@ -406,13 +406,13 @@ namespace NSEnemy
                                         case 1:
                                             this.counterTiming = false;
                                             this.chargeanime = 0;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                            this.sound.PlaySE(SoundEffect.charge);
                                             this.speed = this.attackspeed;
                                             this.chargeEffect = 1;
                                             break;
                                         case 8:
                                             this.counterTiming = true;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.chargemax);
+                                            this.sound.PlaySE(SoundEffect.chargemax);
                                             this.chargeEffect = 2;
                                             break;
                                         case 15:
@@ -421,7 +421,7 @@ namespace NSEnemy
                                             break;
                                         case 16:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             SonicBoom sonicBoom1 = new SonicBoom(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power / 3, 4 + 2 * (version - 1), ChipBase.ELEMENT.leaf, false)
                                             {
                                                 invincibility = false
@@ -429,7 +429,7 @@ namespace NSEnemy
                                             this.parent.attacks.Add(sonicBoom1);
                                             break;
                                         case 18:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             SonicBoom sonicBoom2 = new SonicBoom(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power / 3, 4 + 2 * (version - 1), ChipBase.ELEMENT.eleki, false)
                                             {
                                                 invincibility = false
@@ -437,7 +437,7 @@ namespace NSEnemy
                                             this.parent.attacks.Add(sonicBoom2);
                                             break;
                                         case 20:
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             this.parent.attacks.Add(new SonicBoom(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power / 3, 4 + 2 * (version - 1), ChipBase.ELEMENT.heat, false));
                                             this.NextCombo();
                                             break;
@@ -453,13 +453,13 @@ namespace NSEnemy
                                         case 1:
                                             this.counterTiming = false;
                                             this.chargeanime = 0;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.charge);
+                                            this.sound.PlaySE(SoundEffect.charge);
                                             this.speed = this.attackspeed;
                                             this.chargeEffect = 1;
                                             break;
                                         case 20:
                                             this.counterTiming = true;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.chargemax);
+                                            this.sound.PlaySE(SoundEffect.chargemax);
                                             this.chargeEffect = 2;
                                             break;
                                         case 35:
@@ -478,7 +478,7 @@ namespace NSEnemy
                                             this.counterTiming = false;
                                             this.speed = this.attackspeed;
                                             this.ShakeStart(2, 16);
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.bombmiddle);
+                                            this.sound.PlaySE(SoundEffect.bombmiddle);
                                             for (int index = 0; index < 2; ++index)
                                             {
                                                 for (int pY = 0; pY < 3; ++pY)
@@ -506,7 +506,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             AttackBase attackBase5 = new Halberd(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 4, this.swordElement, false);
                                             if (this.atackNo < this.attacks.Length - 1)
                                                 attackBase5.invincibility = false;
@@ -526,7 +526,7 @@ namespace NSEnemy
                                     {
                                         case 6:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.sword);
+                                            this.sound.PlaySE(SoundEffect.sword);
                                             AttackBase attackBase6 = new SonicBoomMini(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, this.union, this.Power, 4 + 2 * (version - 1), this.swordElement, false);
                                             if (this.atackNo < this.attacks.Length - 1)
                                                 attackBase6.invincibility = false;
@@ -736,7 +736,7 @@ namespace NSEnemy
                     break;
                 case 30:
                     this.animationpoint.X = 4;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bombbig);
+                    this.sound.PlaySE(SoundEffect.bombbig);
                     this.ShakeStart(4, 60);
                     this.parent.effects.Add(new Shock(this.sound, this.parent, this.position.X - 1, this.position.Y, 4, Panel.COLOR.blue));
                     Shock shock = new Shock(this.sound, this.parent, this.position.X + 1, this.position.Y, 4, Panel.COLOR.blue);
@@ -745,7 +745,7 @@ namespace NSEnemy
                     break;
                 case 90:
                     this.animationpoint.X = 0;
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.docking);
+                    this.sound.PlaySE(SoundEffect.docking);
                     this.whitetime = 4;
                     this.ElementSet();
                     this.nohit = false;
@@ -759,7 +759,7 @@ namespace NSEnemy
                 {
                     for (int pY = 0; pY < this.parent.panel.GetLength(1); ++pY)
                     {
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+                        this.sound.PlaySE(SoundEffect.eriasteal2);
                         this.parent.effects.Add(new AfterSteal(this.sound, this.parent, pX, pY));
                         this.parent.panel[pX, pY].inviolability = true;
                     }

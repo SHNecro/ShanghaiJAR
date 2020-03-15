@@ -14,7 +14,7 @@ namespace NSChip
     private const int speed = 2;
     private Point animePoint;
 
-    public CirnoX(MyAudio s)
+    public CirnoX(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -65,16 +65,16 @@ namespace NSChip
       {
         case 1:
           character.animationpoint.X = -1;
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+          this.sound.PlaySE(SoundEffect.shotwave);
           Tower tower = new Tower(this.sound, battle, character.position.X, character.position.Y, character.union, 0, -1, ChipBase.ELEMENT.aqua);
           tower.hitting = false;
           battle.attacks.Add(tower);
           break;
         case 28:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.water);
+          this.sound.PlaySE(SoundEffect.water);
           break;
         case 44:
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+          this.sound.PlaySE(SoundEffect.sand);
           character.parent.attacks.Add(this.Paralyze(new CirnoChip(this.sound, character.parent, character.position.X, character.position.Y, character.union, this.Power(character), true)));
           break;
       }

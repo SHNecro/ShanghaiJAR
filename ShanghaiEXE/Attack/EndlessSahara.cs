@@ -15,7 +15,7 @@ namespace NSAttack
         private int many;
         private new readonly bool bright;
 
-        public EndlessSahara(MyAudio so, SceneBattle p, int power, Panel.COLOR u)
+        public EndlessSahara(IAudioEngine so, SceneBattle p, int power, Panel.COLOR u)
           : base(so, p, 0, 0, u, 0, ChipBase.ELEMENT.normal)
         {
             this.power = power;

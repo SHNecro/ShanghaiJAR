@@ -18,7 +18,7 @@ namespace NSAttack
         private readonly CharacterBase chara;
 
         public Plant(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

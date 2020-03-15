@@ -62,7 +62,7 @@ namespace NSChip
         public int nameAlpha;
         public string libraryDisplayId;
 
-        public ChipBase(MyAudio s)
+        public ChipBase(IAudioEngine s)
           : base(s)
         {
             for (int index = 0; index < this.information.Length; ++index)
@@ -463,7 +463,7 @@ namespace NSChip
                 if (this.nameAlpha < byte.MaxValue && this.BlackOutFlame >= 10 && this.BlackOutFlame < 20)
                     this.nameAlpha += 51;
                 if (this.BlackOutFlame == 5)
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.barrier);
+                    this.sound.PlaySE(SoundEffect.barrier);
                 if (this.nameAlpha > 0 && this.BlackOutFlame >= 50)
                 {
                     parent.blackOutStopper = true;

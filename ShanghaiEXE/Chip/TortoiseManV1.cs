@@ -17,7 +17,7 @@ namespace NSChip
     private const int speed = 2;
     protected Point animePoint;
 
-    public TortoiseManV1(MyAudio s)
+    public TortoiseManV1(IAudioEngine s)
       : base(s)
     {
       this.navi = true;
@@ -104,13 +104,13 @@ namespace NSChip
         {
           case 1:
             character.animationpoint.X = -1;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+            this.sound.PlaySE(SoundEffect.warp);
             break;
           case 40:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.knock);
+            this.sound.PlaySE(SoundEffect.knock);
             break;
           case 58:
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.knock);
+            this.sound.PlaySE(SoundEffect.knock);
             break;
           case 73:
             this.ShakeStart(1, 67);
@@ -118,7 +118,7 @@ namespace NSChip
           case 85:
             int pX = this.TargetX(character, battle);
             int pY = 1;
-            this.sound.PlaySE(MyAudio.SOUNDNAMES.wave);
+            this.sound.PlaySE(SoundEffect.wave);
             battle.attacks.Add(this.Paralyze(new MadWave(this.sound, battle, pX, pY, character.union, this.Power(character), 6, this.element)));
             break;
           case 140:

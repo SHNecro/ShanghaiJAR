@@ -20,7 +20,7 @@ namespace NSEnemy
         private int roopneutoral;
         private DammyEnemy dammy;
 
-        public Doripper(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Doripper(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -217,7 +217,7 @@ namespace NSEnemy
                     if (this.moveflame && this.frame == 7)
                     {
                         this.counterTiming = false;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                        this.sound.PlaySE(SoundEffect.drill1);
                         this.DammySet();
                     }
                     this.Y -= this.yspeed;
@@ -248,8 +248,8 @@ namespace NSEnemy
                     {
                         this.Y = 16;
                         this.PositionDirectSet();
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.breakObject);
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.drill1);
+                        this.sound.PlaySE(SoundEffect.breakObject);
+                        this.sound.PlaySE(SoundEffect.drill1);
                         this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 1, this.element));
                         this.StandPanel.Crack();
                         this.StandPanel.Crack();

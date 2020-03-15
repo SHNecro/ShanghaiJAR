@@ -44,7 +44,7 @@ namespace NSEnemy
             }
         }
 
-        public TankMan(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public TankMan(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -240,7 +240,7 @@ namespace NSEnemy
                                     this.animationpoint = this.AnimeCanon(this.waittime);
                                     if (this.waittime == this.aspeed)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                        this.sound.PlaySE(SoundEffect.canon);
                                         this.parent.attacks.Add(new CanonBullet(this.sound, this.parent, this.position.X + this.UnionRebirth(this.union), this.position.Y, new Vector2(this.positionDirect.X + 32 * this.UnionRebirth(this.union), this.positionDirect.Y), this.union, this.Power, this.element, false));
                                         this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X - 16 * this.UnionRebirth(this.union), this.positionDirect.Y - 16f, 32, this.union, 40 + this.Random.Next(20), 2, 0));
                                     }
@@ -297,7 +297,7 @@ namespace NSEnemy
                                             else
                                                 ++y;
                                         }
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.machineRunning);
+                                        this.sound.PlaySE(SoundEffect.machineRunning);
                                         this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.target[0, 0].X, this.target[0, 0].Y, this.union, new Point(0, 0), 40, true));
                                         if (this.version >= 3)
                                             this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.target[1, 0].X, this.target[1, 0].Y, this.union, new Point(0, 0), 40, true));
@@ -319,7 +319,7 @@ namespace NSEnemy
                                     {
                                         if (this.version >= 3)
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+                                            this.sound.PlaySE(SoundEffect.vulcan);
                                             Point point = this.target[0, this.attackCount - 4];
                                             this.parent.effects.Add(new GunHit(this.sound, this.parent, point.X, point.Y, this.union));
                                             this.parent.attacks.Add(new BombAttack(this.sound, this.parent, point.X, point.Y, this.union, this.Power, 1, this.element));
@@ -329,13 +329,13 @@ namespace NSEnemy
                                         }
                                         else
                                         {
-                                            this.sound.PlaySE(MyAudio.SOUNDNAMES.vulcan);
+                                            this.sound.PlaySE(SoundEffect.vulcan);
                                             Point point = this.target[0, this.attackCount - 4];
                                             this.parent.effects.Add(new GunHit(this.sound, this.parent, point.X, point.Y, this.union));
                                             this.parent.attacks.Add(new BombAttack(this.sound, this.parent, point.X, point.Y, this.union, this.Power, 1, this.element));
                                         }
                                         List<EffectBase> effects = this.parent.effects;
-                                        MyAudio sound = this.sound;
+                                        IAudioEngine sound = this.sound;
                                         SceneBattle parent = this.parent;
                                         Point position = this.position;
                                         double x = positionDirect.X;
@@ -384,7 +384,7 @@ namespace NSEnemy
                                     this.animationpoint = this.AnimeMissile(this.waittime);
                                     if (this.waittime == this.aspeed * 3)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+                                        this.sound.PlaySE(SoundEffect.shoot);
                                         Point point = this.RandomPanel(Panel.COLOR.red);
                                         this.parent.attacks.Add(new DelayMissile(this.sound, this.parent, point.X, point.Y, this.union, this.Power, 300, this.element));
                                     }
@@ -424,7 +424,7 @@ namespace NSEnemy
                                     this.animationpoint = this.AnimeMissile(this.waittime);
                                     if (this.waittime == this.aspeed * 3)
                                     {
-                                        this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+                                        this.sound.PlaySE(SoundEffect.canon);
                                         Point point = this.RandomPanel(Panel.COLOR.red);
                                         this.parent.attacks.Add(new NapalmBomb(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 1, new Vector2(this.positionDirect.X - 32 * this.UnionRebirth(this.union), this.positionDirect.Y - 16f), new Point(point.X, point.Y), 40, NapalmBomb.TYPE.single, 300));
                                     }

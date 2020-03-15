@@ -11,7 +11,7 @@ namespace NSEffect
     {
         private const byte _speed = 2;
 
-        public Smoke(MyAudio s, SceneBattle p, Vector2 pd, Point posi, ChipBase.ELEMENT ele)
+        public Smoke(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi, ChipBase.ELEMENT ele)
           : base(s, p, posi.X, posi.Y)
         {
             this.downprint = true;
@@ -20,7 +20,7 @@ namespace NSEffect
             this.animationpoint.Y = (int)ele;
         }
 
-        public Smoke(MyAudio s, SceneBattle p, int pX, int pY, ChipBase.ELEMENT ele)
+        public Smoke(IAudioEngine s, SceneBattle p, int pX, int pY, ChipBase.ELEMENT ele)
           : base(s, p, pX, pY)
         {
             this.speed = 2;

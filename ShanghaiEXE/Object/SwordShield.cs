@@ -37,7 +37,7 @@ namespace NSObject
         private Point target;
         private Tower tower;
 
-        public SwordShield(MyAudio s, SceneBattle p, int pX, int pY, int wait, Panel.COLOR union)
+        public SwordShield(IAudioEngine s, SceneBattle p, int pX, int pY, int wait, Panel.COLOR union)
           : base(s, p, pX, pY, union)
         {
             this.height = 56;

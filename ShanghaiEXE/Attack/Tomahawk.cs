@@ -20,7 +20,7 @@ namespace NSAttack
         private const int plusy = 70;
 
         public Tomahawk(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

@@ -10,7 +10,7 @@ namespace NSEvent
         private readonly MindWindow.MIND tomind;
 
         public MindChange(
-          MyAudio s,
+          IAudioEngine s,
           EventManager m,
           MindWindow mi,
           MindWindow.MIND tom,

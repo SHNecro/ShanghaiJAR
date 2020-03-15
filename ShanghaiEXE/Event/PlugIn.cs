@@ -14,7 +14,7 @@ namespace NSEvent
         private readonly Player player;
         private readonly MapField field;
 
-        public PlugIn(MyAudio s, EventManager m, Player player, MapField field, SaveData save)
+        public PlugIn(IAudioEngine s, EventManager m, Player player, MapField field, SaveData save)
           : base(s, m, save)
         {
             this.NoTimeNext = true;

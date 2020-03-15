@@ -85,7 +85,7 @@ namespace NSMap.Character
         }
 
         public Player(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,
@@ -138,7 +138,7 @@ namespace NSMap.Character
                             this.Control();
                         if (this.conveyorSoundOn && this.conveyorSound > 4)
                         {
-                            this.sound.StopSE(MyAudio.SOUNDNAMES.conveyor);
+                            this.sound.StopSE(SoundEffect.conveyor);
                             this.conveyorSoundOn = false;
                             this.conveyorSound = 0;
                         }
@@ -149,7 +149,7 @@ namespace NSMap.Character
                         this.animeflame = 0;
                         if (!this.conveyorSoundOn)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.conveyor);
+                            this.sound.PlaySE(SoundEffect.conveyor);
                             this.conveyorSoundOn = true;
                             this.conveyorSound = 0;
                         }
@@ -240,10 +240,10 @@ namespace NSMap.Character
                     {
                         this.menu.Init();
                         this.openMenu = true;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.menuopen);
+                        this.sound.PlaySE(SoundEffect.menuopen);
                     }
                     else
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                 }
                 else
                 {
@@ -300,7 +300,7 @@ namespace NSMap.Character
                                 if (this.field.Events[this.hitPlug].LunPage.startterms == EventPage.STARTTERMS.Rbutton)
                                 {
                                     this.position = new Vector3((int)this.position.X, (int)this.position.Y, (int)this.position.Z);
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.pi);
+                                    this.sound.PlaySE(SoundEffect.pi);
                                     this.angle = MapCharacterBase.ANGLE.DOWN;
                                     this.field.Events[this.hitPlug].StartEvent();
                                     this.parent.eventmanager.EventClone(this.field.Events[this.hitPlug].LunPage.eventmanager);
@@ -310,7 +310,7 @@ namespace NSMap.Character
                                 }
                             }
                         }
-						this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+						this.sound.PlaySE(SoundEffect.error);
                     }
                     if (Input.IsPress(Button._L))
                     {
@@ -370,7 +370,7 @@ namespace NSMap.Character
                                 this.parent.eventmanager.playevent = true;
                                 return;
                             }
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.decide);
+                            this.sound.PlaySE(SoundEffect.decide);
                             EventManager eventManager = new EventManager(this.parent, this.sound);
                             eventManager.AddEvent(new StatusHide(this.sound, eventManager, true, this.parent, this.savedata));
                             eventManager.AddEvent(new InteriorSetting(this.sound, eventManager, this.parent, this.savedata));
@@ -379,7 +379,7 @@ namespace NSMap.Character
                             this.parent.eventmanager.playevent = true;
                             return;
                         }
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.error);
+                        this.sound.PlaySE(SoundEffect.error);
                     }
                     if (flag)
                     {

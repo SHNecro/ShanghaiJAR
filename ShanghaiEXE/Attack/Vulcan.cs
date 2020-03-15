@@ -16,7 +16,7 @@ namespace NSAttack
         private bool hit;
 
         public Vulcan(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -51,7 +51,7 @@ namespace NSAttack
                 switch (this.shot)
                 {
                     case Vulcan.SHOT.Bubble:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bubble);
+                        this.sound.PlaySE(SoundEffect.bubble);
                         this.parent.effects.Add(new Bubblehit(this.sound, this.parent, this.position.X, this.position.Y, 2));
                         this.parent.effects.Add(new Bubblehit(this.sound, this.parent, this.position.X + (this.union == Panel.COLOR.red ? 1 : -1), this.position.Y, 2));
                         AttackBase attackBase1 = this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X + (this.union == Panel.COLOR.red ? 1 : -1), this.position.Y, this.union, this.power, 1, this.element));

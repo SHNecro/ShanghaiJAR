@@ -15,7 +15,7 @@ namespace NSChip
     private const int shotend = 58;
     private const int shotstart = 40;
 
-    public SeedCanon1(MyAudio s)
+    public SeedCanon1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-3, 0);
@@ -72,7 +72,7 @@ namespace NSChip
       if (character.waittime == 43)
       {
         this.ShakeStart(10, 5);
-        this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+        this.sound.PlaySE(SoundEffect.canon);
         battle.effects.Add(new BulletBigShells(this.sound, battle, character.position, character.positionDirect.X + 4 * character.UnionRebirth, character.positionDirect.Y + 16f, 26, character.union, 20 + this.Random.Next(20), 2, 0));
       }
       if (character.waittime >= 40 && character.waittime < 41)

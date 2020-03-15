@@ -19,7 +19,7 @@ namespace NSChip
         private int shot;
         private bool end;
 
-        public SathujinDoll(MyAudio s)
+        public SathujinDoll(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
@@ -61,11 +61,11 @@ namespace NSChip
             if (character.waittime == 0)
             {
                 character.animationpoint.X = -1;
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.warp);
+                this.sound.PlaySE(SoundEffect.warp);
             }
             if (character.waittime == this.shot * 15 + 20 && this.shot < 6)
             {
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                this.sound.PlaySE(SoundEffect.chain);
                 for (int index = 0; index < 3; ++index)
                 {
                     int num1 = character.union == Panel.COLOR.red ? this.shot : 5 - this.shot;

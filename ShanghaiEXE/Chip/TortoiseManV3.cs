@@ -9,7 +9,7 @@ namespace NSChip
   {
     private const int speed = 2;
 
-    public TortoiseManV3(MyAudio s)
+    public TortoiseManV3(IAudioEngine s)
       : base(s)
     {
       this.navi = true;

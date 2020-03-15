@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public MeltRaw(MyAudio s)
+    public MeltRaw(IAudioEngine s)
       : base(s)
     {
       this.number = 154;

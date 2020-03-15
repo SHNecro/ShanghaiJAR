@@ -102,7 +102,7 @@ namespace NSMap.Character
         }
 
         public MapCharacterBase(
-          MyAudio s,
+          IAudioEngine s,
           SceneMap p,
           Point po,
           int floor,

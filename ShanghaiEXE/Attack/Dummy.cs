@@ -17,7 +17,7 @@ namespace NSAttack
         private new bool bright;
 
         public Dummy(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,

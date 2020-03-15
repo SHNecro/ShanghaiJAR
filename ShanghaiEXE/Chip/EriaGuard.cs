@@ -13,7 +13,7 @@ namespace NSChip
     private const int start = 1;
     private const int speed = 2;
 
-    public EriaGuard(MyAudio s)
+    public EriaGuard(IAudioEngine s)
       : base(s)
     {
       this.number = 159;
@@ -53,7 +53,7 @@ namespace NSChip
           return;
         for (int pY = 0; pY < battle.panel.GetLength(1); ++pY)
         {
-          this.sound.PlaySE(MyAudio.SOUNDNAMES.eriasteal2);
+          this.sound.PlaySE(SoundEffect.eriasteal2);
           character.parent.effects.Add(new AfterSteal(this.sound, character.parent, pX, pY));
           battle.panel[pX, pY].inviolability = true;
         }

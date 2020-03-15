@@ -17,7 +17,7 @@ namespace NSEnemy
         private Point targetArea;
         private bool spMove;
 
-        public Mossa(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Mossa(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             this.helpPosition.X = -8;
@@ -202,7 +202,7 @@ namespace NSEnemy
                                 if (this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                                 {
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(MyAudio.SOUNDNAMES.bound);
+                                    this.sound.PlaySE(SoundEffect.bound);
                                     Point end = this.RandomPanel(this.UnionEnemy);
                                     this.parent.attacks.Add(new WebBomb(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, new Vector2(this.positionDirect.X + (this.union == Panel.COLOR.red ? 9f : -9f), this.positionDirect.Y - 9f), end, 40, 120, this.element));
                                     break;
@@ -252,7 +252,7 @@ namespace NSEnemy
                                 this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.targetArea.X, this.targetArea.Y, this.union, new Point(), this.speed * 8, true));
                                 break;
                             case 8:
-                                this.sound.PlaySE(MyAudio.SOUNDNAMES.lance);
+                                this.sound.PlaySE(SoundEffect.lance);
                                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
                                 if (this.position.X < this.targetArea.X)
                                     this.rebirth = true;

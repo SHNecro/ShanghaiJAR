@@ -10,7 +10,7 @@ namespace NSEvent
         protected SaveData savedata;
         public bool NoTimeNext;
 
-        public EventBase(MyAudio s, EventManager m, SaveData save)
+        public EventBase(IAudioEngine s, EventManager m, SaveData save)
           : base(s)
         {
             this.savedata = save;

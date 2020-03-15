@@ -21,7 +21,7 @@ namespace NSChip
 		private ScreenBlack screen;
 		private Point animePoint;
 
-		public FalBreazer(MyAudio s)
+		public FalBreazer(IAudioEngine s)
 		  : base(s)
 		{
 			this.dark = true;
@@ -92,8 +92,8 @@ namespace NSChip
 			int num = 30;
 			if (character.waittime == 44)
 			{
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.pikin);
-				this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
+				this.sound.PlaySE(SoundEffect.pikin);
+				this.sound.PlaySE(SoundEffect.shoot);
 				int pX = character.union == Panel.COLOR.red ? 0 : 5;
 				for (int pY = 0; pY < 3; ++pY)
 				{
@@ -119,9 +119,9 @@ namespace NSChip
 							case 0:
 								this.frame = 0;
 								this.ShakeStart(8, 120);
-								this.sound.PlaySE(MyAudio.SOUNDNAMES.bird);
-								this.sound.PlaySE(MyAudio.SOUNDNAMES.shoot);
-								this.sound.PlaySE(MyAudio.SOUNDNAMES.quake);
+								this.sound.PlaySE(SoundEffect.bird);
+								this.sound.PlaySE(SoundEffect.shoot);
+								this.sound.PlaySE(SoundEffect.quake);
 								AttackBase a = new TornadeSide(this.sound, battle, character.union == Panel.COLOR.red ? 2 : 3, 1, character.union, this.Power(character), this.element);
 								a.knock = true;
 								battle.attacks.Add(this.Paralyze(a));

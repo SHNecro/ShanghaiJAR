@@ -16,7 +16,7 @@ namespace NSCharge
         private readonly CharacterBase character;
         private readonly SceneBattle battle;
 
-        public ChargeDustBomb(MyAudio s, Player p)
+        public ChargeDustBomb(IAudioEngine s, Player p)
           : base(s, p)
         {
             this.chargetime = 180;
@@ -29,7 +29,7 @@ namespace NSCharge
         public override void Action()
         {
             if (this.character.waittime == 3)
-                this.sound.PlaySE(MyAudio.SOUNDNAMES.throw_);
+                this.sound.PlaySE(SoundEffect.throw_);
             this.character.animationpoint = CharacterAnimation.BombAnimation(this.character.waittime);
             if (this.character.waittime == 6)
                 this.battle.attacks.Add(this.CounterNone(new ClossBomb(this.sound, this.character.parent, this.character.position.X, this.character.position.Y, this.character.union, this.Power, 1, new Vector2(this.character.positionDirect.X, this.character.positionDirect.Y - 16f), new Point(this.character.position.X + 3 * this.UnionRebirth(this.character.union), this.character.position.Y), 40, ClossBomb.TYPE.closs, false, ClossBomb.TYPE.closs, false, false)));

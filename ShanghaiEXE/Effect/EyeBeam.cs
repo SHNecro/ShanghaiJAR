@@ -10,7 +10,7 @@ namespace NSEffect
     {
         private readonly bool spColor;
 
-        public EyeBeam(MyAudio s, SceneBattle p, int pX, int pY, int sp, bool spColor)
+        public EyeBeam(IAudioEngine s, SceneBattle p, int pX, int pY, int sp, bool spColor)
           : base(s, p, pX, pY)
         {
             this.spColor = spColor;

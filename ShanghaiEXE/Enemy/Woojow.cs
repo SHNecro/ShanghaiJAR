@@ -22,7 +22,7 @@ namespace NSEnemy
         private int roopmove;
         private EnemyShadow shadow;
 
-        public Woojow(MyAudio s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
+        public Woojow(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
@@ -218,7 +218,7 @@ namespace NSEnemy
                         this.PositionDirectSet();
                         if (this.version == 0)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                            this.sound.PlaySE(SoundEffect.chain);
                             int pX = this.union == Panel.COLOR.red ? 5 : 0;
                             for (int pY = 0; pY < 3; ++pY)
                                 this.parent.attacks.Add(new MonkeyPoleChip(this.sound, this.parent, pX, pY, this.union, this.Power, 1, this.element, 4));
@@ -257,7 +257,7 @@ namespace NSEnemy
                         }
                         if (this.frame == 11)
                         {
-                            this.sound.PlaySE(MyAudio.SOUNDNAMES.chain);
+                            this.sound.PlaySE(SoundEffect.chain);
                             this.monkeypole = new MonkeyPole(this.sound, this.parent, this.union == Panel.COLOR.blue ? this.position.X - 1 : this.position.X + 1, this.position.Y, this.union, !this.badstatus[1] ? this.power : this.power / 2, 4, this.version > 0 ? Math.Min(version - 1, 2) : 4, false, this.element);
                             this.parent.attacks.Add(monkeypole);
                             this.counterTiming = false;

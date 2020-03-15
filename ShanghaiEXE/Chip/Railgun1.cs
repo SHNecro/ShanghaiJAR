@@ -13,7 +13,7 @@ namespace NSChip
     private bool open;
     private const int shotend = 10;
 
-    public Railgun1(MyAudio s)
+    public Railgun1(IAudioEngine s)
       : base(s)
     {
       this.rockOnPoint = new Point(-2, 0);
@@ -52,7 +52,7 @@ namespace NSChip
         base.Action(character, battle);
       if (character.waittime != 6)
         return;
-      this.sound.PlaySE(MyAudio.SOUNDNAMES.canon);
+      this.sound.PlaySE(SoundEffect.canon);
       Point point = new Point(character.position.X + 3 * this.UnionRebirth(character.union), character.position.Y);
       Vector2 vector2 = new Vector2(character.positionDirect.X + 30 * this.UnionRebirth(character.union), character.positionDirect.Y - 3f);
       character.parent.attacks.Add(this.Paralyze(new BustorShot(this.sound, character.parent, character.position.X, character.position.Y, character.union, this.Power(character), BustorShot.SHOT.railgun, ChipBase.ELEMENT.eleki, false, 0)));

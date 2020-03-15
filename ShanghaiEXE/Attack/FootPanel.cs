@@ -17,7 +17,7 @@ namespace NSAttack
         private readonly int time;
 
         public FootPanel(
-          MyAudio so,
+          IAudioEngine so,
           SceneBattle p,
           int pX,
           int pY,
@@ -46,35 +46,35 @@ namespace NSAttack
                 switch (this.element)
                 {
                     case ChipBase.ELEMENT.heat:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.heat);
+                        this.sound.PlaySE(SoundEffect.heat);
                         this.parent.panel[this.position.X, this.position.Y].State = Panel.PANEL._burner;
                         break;
                     case ChipBase.ELEMENT.aqua:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                        this.sound.PlaySE(SoundEffect.shotwave);
                         this.parent.panel[this.position.X, this.position.Y].State = Panel.PANEL._ice;
                         break;
                     case ChipBase.ELEMENT.eleki:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                        this.sound.PlaySE(SoundEffect.bomb);
                         this.parent.panel[this.position.X, this.position.Y].State = Panel.PANEL._thunder;
                         break;
                     case ChipBase.ELEMENT.leaf:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.shotwave);
+                        this.sound.PlaySE(SoundEffect.shotwave);
                         this.parent.panel[this.position.X, this.position.Y].State = Panel.PANEL._grass;
                         break;
                     case ChipBase.ELEMENT.poison:
                         this.hitting = true;
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.bomb);
+                        this.sound.PlaySE(SoundEffect.bomb);
                         this.parent.panel[this.position.X, this.position.Y].State = Panel.PANEL._poison;
                         break;
                     case ChipBase.ELEMENT.earth:
-                        this.sound.PlaySE(MyAudio.SOUNDNAMES.sand);
+                        this.sound.PlaySE(SoundEffect.sand);
                         this.parent.panel[this.position.X, this.position.Y].State = Panel.PANEL._sand;
                         break;
                 }
                 if (shake)
                 {
                     this.ShakeStart(2, 40);
-                    this.sound.PlaySE(MyAudio.SOUNDNAMES.fire);
+                    this.sound.PlaySE(SoundEffect.fire);
                     foreach (CharacterBase characterBase in this.parent.AllChara())
                     {
                         if (characterBase.union != this.union)

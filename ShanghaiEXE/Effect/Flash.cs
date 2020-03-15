@@ -11,13 +11,13 @@ namespace NSEffect
         private const int interval = 4;
         private const int oneflash = 8;
 
-        public Flash(MyAudio s, SceneBattle p, Vector2 pd, Point posi)
+        public Flash(IAudioEngine s, SceneBattle p, Vector2 pd, Point posi)
           : base(s, p, posi.X, posi.Y)
         {
             this.positionDirect = pd;
         }
 
-        public Flash(MyAudio s, SceneBattle p, int pX, int pY)
+        public Flash(IAudioEngine s, SceneBattle p, int pX, int pY)
           : base(s, p, pX, pY)
         {
             this.positionDirect = new Vector2(pX * 40 + 20, pY * 24 + 70);
