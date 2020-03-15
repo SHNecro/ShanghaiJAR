@@ -143,6 +143,8 @@ namespace MapEditor.Models.Elements.Enums
         ShakeStop,
         [Description("Play Sound Effect")]
         SEOn,
+        [Description("Play Piano Note")]
+        Piano,
         [Description("Play Effect")]
         Effect,
         [Description("Delete Effect")]

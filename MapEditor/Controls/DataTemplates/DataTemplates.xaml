@@ -45,6 +45,7 @@
         <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/PlayerHideEvent.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/QuestionEvent.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/SEOnEvent.xaml" />
+        <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/PianoEvent.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/ShakeEvent.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/ShopEvent.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/DataTemplates/Events/SpecialEvent.xaml" />

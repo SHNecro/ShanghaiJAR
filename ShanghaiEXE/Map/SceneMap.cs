@@ -52,7 +52,7 @@ namespace NSMap
         private float plusB;
         private int fadeFlame;
         private int fadeTime;
-		internal List<Credit> fadingCredits;
+		internal List<IPersistentEvent> persistentEvents;
 
         public bool NoEvent
         {
@@ -129,7 +129,7 @@ namespace NSMap
             this.eventmanager = new EventManager(this, this.sound);
             this.eventmanagerParallel = new EventManager(this, this.sound);
             this.HP = new HPGauge(this.sound, this.savedata.HPNow, this.savedata.HPMax);
-			this.fadingCredits = new List<Credit>();
+			this.persistentEvents = new List<IPersistentEvent>();
         }
 
         public void NewGame(int plus)
@@ -168,7 +168,7 @@ namespace NSMap
             this.stepover[0] = this.savedata.stepoverX;
             this.stepover[1] = this.savedata.stepoverY;
             this.player.stepCounter = this.savedata.stepCounter;
-			this.fadingCredits.Clear();
+			this.persistentEvents.Clear();
 			this.field = new MapField(this.sound, this.savedata.nowMap, this.savedata, this);
 			this.player.FieldSet(this.field);
             this.fadeColor = Color.Black;
@@ -178,7 +178,7 @@ namespace NSMap
 
         public void FieldSet(string name, Point posi, int floor, MapCharacterBase.ANGLE angle)
         {
-			this.fadingCredits.Clear();
+			this.persistentEvents.Clear();
             this.field = new MapField(this.sound, name, this.savedata, this);
             this.player.PositionSet(posi, floor, angle);
             this.player.position.Z = this.savedata.pluginZ;
@@ -205,13 +205,14 @@ namespace NSMap
                     this.eventmanagerParallel.UpDate();
                 if (!this.player.openMenu && !this.eventmanager.playevent)
                     this.TimerUpdate();
-				foreach (var credit in fadingCredits)
+				foreach (var credit in persistentEvents)
 				{
 					if (credit.IsActive)
 					{
-						credit.MapUpdate();
+						credit.PersistentUpdate();
 					}
 				}
+                this.persistentEvents.RemoveAll(pe => !pe.IsActive);
                 this.MapUpdate();
                 this.HP.HPDown(this.savedata.HPNow, this.savedata.HPMax);
                 this.field.Update();
@@ -949,11 +950,11 @@ namespace NSMap
 			{
 				this.eventmanagerParallel.Render(dg);
 			}
-			foreach (var credit in fadingCredits)
+			foreach (var credit in persistentEvents)
 			{
 				if (credit.IsActive)
 				{
-					credit.MapRender(dg);
+					credit.PersistentRender(dg);
 				}
 			}
             if (this.DebugOn)

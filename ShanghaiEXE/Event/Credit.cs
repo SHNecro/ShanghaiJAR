@@ -8,8 +8,10 @@ using System;
 
 namespace NSEvent
 {
-    internal class Credit : EventBase
+    internal class Credit : EventBase, IPersistentEvent
     {
+        private SceneMap parent;
+
 		private string creditKey;
 		private Vector2 position;
         private bool centered;
@@ -36,6 +38,8 @@ namespace NSEvent
         {
 			this.NoTimeNext = false;
 
+            this.parent = parent;
+
 			this.creditKey = key;
 			this.position = new Vector2(position.X, position.Y);
             this.centered = centered;
@@ -44,7 +48,6 @@ namespace NSEvent
 			this.fadeOutTime = fadeOutTime;
 
 			this.state = CreditState.FadingIn;
-			parent.fadingCredits.Add(this);
 
 			this.alpha = 0;
         }
@@ -52,12 +55,13 @@ namespace NSEvent
 		public bool IsActive { get; set; }
 
 		public override void Update()
-		{
-			this.IsActive = true;
+        {
+            parent.persistentEvents.Add(this);
+            this.IsActive = true;
 			this.EndCommand();
 		}
 
-		public void MapUpdate()
+		public void PersistentUpdate()
 		{
 			this.FlameControl(1);
 			switch (this.state)
@@ -96,7 +100,26 @@ namespace NSEvent
 					}
 					break;
 			}
-		}
+        }
+
+        public void PersistentRender(IRenderer dg)
+        {
+            var text = ShanghaiEXE.Translate(this.creditKey);
+            var textSize = ShanghaiEXE.measurer.MeasureRegularText(text);
+            var centerOffset = this.centered ? new Vector2(-textSize.Width / 2, -textSize.Height / 2) : new Vector2();
+            var xOff = new[] { -1, 1, 0 };
+            var yOff = new[] { -1, 1, 0 };
+            foreach (var x in xOff)
+            {
+                foreach (var y in yOff)
+                {
+                    dg.DrawText(
+                        text,
+                        this.position + new Vector2(x, y) + centerOffset,
+                        x == 0 && y == 0 ? Color.FromArgb(this.alpha, Color.White) : Color.FromArgb(this.alpha, 32, 32, 32));
+                }
+            }
+        }
 
         public override void SkipUpdate()
         {
@@ -105,25 +128,6 @@ namespace NSEvent
 
 		public override void Render(IRenderer dg)
 		{
-		}
-
-		public void MapRender(IRenderer dg)
-		{
-            var text = ShanghaiEXE.Translate(this.creditKey);
-            var textSize = ShanghaiEXE.measurer.MeasureRegularText(text);
-            var centerOffset = this.centered ? new Vector2(-textSize.Width / 2, -textSize.Height / 2) : new Vector2();
-			var xOff = new[] { -1, 1, 0 };
-			var yOff = new[] { -1, 1, 0 };
-			foreach (var x in xOff)
-			{
-				foreach (var y in yOff)
-				{
-					dg.DrawText(
-						text,
-						this.position + new Vector2(x, y) + centerOffset,
-						x == 0  && y == 0 ? Color.FromArgb(this.alpha, Color.White) : Color.FromArgb(this.alpha, 32, 32, 32));
-				}
-			}
 		}
 
 		private enum CreditState

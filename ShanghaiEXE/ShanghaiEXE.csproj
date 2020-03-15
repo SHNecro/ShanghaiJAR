@@ -85,6 +85,9 @@
     <Reference Include="OpenTK.GLControl, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <HintPath>..\packages\OpenTK.GLControl.3.1.0\lib\net20\OpenTK.GLControl.dll</HintPath>
     </Reference>
+    <Reference Include="Sanford.Multimedia.Midi, Version=6.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sanford.Multimedia.Midi.6.6.2\lib\net20\Sanford.Multimedia.Midi.dll</HintPath>
+    </Reference>
     <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86">
       <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
     </Reference>
@@ -385,7 +388,9 @@
     <Compile Include="Enemy\ShanghaiBase.cs" />
     <Compile Include="Enemy\ShanghaiDS.cs" />
     <Compile Include="Enemy\yuyuko.cs" />
+    <Compile Include="Event\Piano.cs" />
     <Compile Include="Event\Credit.cs" />
+    <Compile Include="Event\IPersistentEvent.cs" />
     <Compile Include="ExtensionMethods\AddOnBaseExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\AnimationExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\FaceExtensionMethods.cs" />
@@ -397,6 +402,8 @@
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="InputOutput\Audio\IAudioEngine.cs" />
+    <Compile Include="InputOutput\Audio\MIDI\PianoNotePlayer.cs" />
+    <Compile Include="InputOutput\Audio\Note.cs" />
     <Compile Include="InputOutput\Audio\SoundEffect.cs" />
     <Compile Include="InputOutput\Audio\TextureLoadProgressUpdatedEventArgs.cs" />
     <Compile Include="InputOutput\Rendering\DirectX9\DGTextMeasurer.cs" />

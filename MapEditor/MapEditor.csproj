@@ -176,6 +176,7 @@
       <DependentUpon>WheelCaptureIntegerUpDown.xaml</DependentUpon>
     </Compile>
     <Compile Include="Core\Converters\ChipToChipChancesConverter.cs" />
+    <Compile Include="Core\Note.cs" />
     <Compile Include="Core\SettingsWindow.cs" />
     <Compile Include="Core\Behaviors\AutoScrollBehavior.cs" />
     <Compile Include="Core\Settings.cs" />
@@ -208,6 +209,7 @@
     <Compile Include="LoadingWindow.xaml.cs">
       <DependentUpon>LoadingWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Elements\Events\PianoEvent.cs" />
     <Compile Include="Models\Elements\Events\CreditEvent.cs" />
     <Compile Include="Models\Elements\Events\EventBase.cs" />
     <Compile Include="Models\Elements\Terms\TermBase.cs" />
@@ -438,6 +440,10 @@
     <Page Include="Controls\DataTemplates\DataTemplates.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\DataTemplates\Events\PianoEvent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Controls\DataTemplates\Events\CreditEvent.xaml">
       <Generator>MSBuild:Compile</Generator>

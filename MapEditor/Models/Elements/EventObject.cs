@@ -151,6 +151,8 @@ namespace MapEditor.Models
                         return EventCategoryOption.Wait;
                     case EventRunEvent e:
                         return EventCategoryOption.EventRun;
+                    case PianoEvent e:
+                        return EventCategoryOption.Piano;
                     case PlayerHideEvent e:
                         return EventCategoryOption.PlayerHide;
                     case SEOnEvent e:
@@ -356,6 +358,9 @@ namespace MapEditor.Models
                         break;
                     case EventCategoryOption.SEOn:
                         this.Instance = new SEOnEvent { SoundEffect = EffectSoundType.alert };
+                        break;
+                    case EventCategoryOption.Piano:
+                        this.Instance = new PianoEvent { Note = new Note("C6"), FrameDuration = 15 };
                         break;
                     case EventCategoryOption.Shake:
                         this.Instance = new ShakeEvent { Magnitude = 1, DurationFrames = 60 };
@@ -655,6 +660,10 @@ namespace MapEditor.Models
             else if (value.StartsWith("seon:", StringComparison.InvariantCulture))
             {
                 term.Instance = new SEOnEvent { StringValue = value };
+            }
+            else if (value.StartsWith("piano:", StringComparison.InvariantCulture))
+            {
+                term.Instance = new PianoEvent { StringValue = value };
             }
             else if (value.StartsWith("shake:", StringComparison.InvariantCulture))
             {

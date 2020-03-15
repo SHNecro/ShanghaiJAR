@@ -1,6 +1,8 @@
-﻿namespace MapEditor.Models.Elements.Events
+﻿using MapEditor.Core;
+
+namespace MapEditor.Models.Elements.Events
 {
-    public class CreditEvent : EventBase
+    public class CreditEvent : EventBase, ITranslatedModel
     {
 		private string creditKey;
         private int x;
@@ -110,6 +112,11 @@
 				var dialogue = Constants.TranslationService.Translate(this.CreditKey);
 				return $"Credits ({this.X}, {this.Y}): {dialogue.Text}";
 			}
+        }
+
+        public void RefreshTranslation()
+        {
+            this.OnPropertyChanged(nameof(this.Name));
         }
 
         protected override string GetStringValue()

@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using Tsukikage.Audio;
 using NSTsukikage.WinMM.WaveIO;
+using NSShanghaiEXE.InputOutput.Audio.MIDI;
 
 namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 {
@@ -40,6 +41,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
         private float endParsent;
         private bool fadeBGM;
         private bool disabled;
+
+        private PianoNotePlayer pianoNotePlayer;
 
         public bool MusicPlay => this.musicPlay;
 
@@ -76,6 +79,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
             }
             this.thread_1 = new Thread(new ThreadStart(this.Init));
             this.thread_1.Start();
+
+            this.pianoNotePlayer = new PianoNotePlayer();
         }
 
         public void Init()
@@ -258,6 +263,18 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
             this.Fade();
         }
 
+        public void PlayNote(Note note, int tickDuration)
+        {
+            this.pianoNotePlayer.PlayNote(note, tickDuration);
+        }
+
+        public void UpdateNoteTick()
+        {
+            this.pianoNotePlayer.UpdateNoteTick();
+        }
+
+        public bool IsPlayingNote => this.pianoNotePlayer.IsPlayingNote;
+
         public void Dispose()
         {
             this.xaMaster.Dispose();
@@ -273,6 +290,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
             this.xaBufferSE.Clear();
 
             this.waveOut.Close();
+
+            this.pianoNotePlayer.Dispose();
         }
 
         private void Fade()
