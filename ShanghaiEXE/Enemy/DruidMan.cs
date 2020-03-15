@@ -2,11 +2,10 @@
 using NSBattle;
 using NSChip;
 using NSEffect;
-using NSEvent;
 using NSGame;
 using NSShanghaiEXE.Common;
 using NSShanghaiEXE.ExtensionMethods;
-using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System;
@@ -16,7 +15,7 @@ using System.Linq;
 
 namespace NSEnemy
 {
-	internal class DruidMan : NaviBase
+    internal class DruidMan : NaviBase
 	{
 		private const int IdleFrames = 4;
 

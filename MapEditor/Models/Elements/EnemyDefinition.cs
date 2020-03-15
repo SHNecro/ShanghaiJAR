@@ -6,7 +6,7 @@ using System.Reflection;
 using MapEditor.Core;
 using Moq;
 using NSBattle;
-using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEnemy;
 using SlimDX;

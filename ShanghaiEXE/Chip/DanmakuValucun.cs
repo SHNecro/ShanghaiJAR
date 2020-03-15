@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using SlimDX;
@@ -10,7 +9,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class DanmakuValucun : ChipBase
+    internal class DanmakuValucun : ChipBase
   {
     private const int shotend = 10;
     private const int shotinterval = 4;

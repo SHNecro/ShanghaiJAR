@@ -1,7 +1,6 @@
 ﻿using NSBackground;
 using NSBattle;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEnemy;
 using NSEvent;

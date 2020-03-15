@@ -1,7 +1,4 @@
 ﻿using NSChip;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
-using NSShanghaiEXE.InputOutput.Rendering;
 using System;
 
 namespace NSGame

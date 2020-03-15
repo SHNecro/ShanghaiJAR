@@ -1,10 +1,8 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
-using NSShanghaiEXE.InputOutput.Rendering;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 
 namespace NSChip
 {
-  internal class DammyChip : ChipBase
+    internal class DammyChip : ChipBase
   {
     public DammyChip(MyAudio s)
       : base(s)

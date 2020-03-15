@@ -1,12 +1,11 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class DigDrill2 : DigDrill1
+    internal class DigDrill2 : DigDrill1
   {
     private const int start = 5;
     private const int speed = 3;

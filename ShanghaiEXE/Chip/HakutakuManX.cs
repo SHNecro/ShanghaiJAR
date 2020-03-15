@@ -1,7 +1,6 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class HakutakuManX : HakutakuManV1
+    internal class HakutakuManX : HakutakuManV1
   {
     private List<Point> target = new List<Point>();
     private const int interval = 20;

@@ -1,9 +1,7 @@
 ﻿using Common.ExtensionMethods;
 using NSGame;
 using OpenTK.Input;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace NSShanghaiEXE.InputOutput
 {

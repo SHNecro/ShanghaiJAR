@@ -1,4 +1,4 @@
-﻿using NSShanghaiEXE.InputOutput;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;

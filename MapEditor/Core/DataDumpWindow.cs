@@ -1,6 +1,5 @@
 ﻿using MapEditor.ViewModels;
 using MapEditor.Views;
-using System;
 
 namespace MapEditor.Core
 {

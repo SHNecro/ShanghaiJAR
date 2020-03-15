@@ -1,14 +1,11 @@
 ﻿using Common.ExtensionMethods;
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
-using SharpFont;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using System.Windows;
 using System.Windows.Forms;
-using System.Windows.Media;
 using Color = System.Drawing.Color;
 
 namespace Common.OpenGL

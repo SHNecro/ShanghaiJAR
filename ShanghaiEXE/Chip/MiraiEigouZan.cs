@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using NSEnemy;
@@ -15,7 +14,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class MiraiEigouZan : ChipBase
+    internal class MiraiEigouZan : ChipBase
   {
     private List<YoumuShadow> shadows = new List<YoumuShadow>();
     private const int interval = 20;

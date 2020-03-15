@@ -1,15 +1,13 @@
-﻿using NSAttack;
-using NSBattle;
+﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class BreakShot : ChipBase
+    internal class BreakShot : ChipBase
   {
     private bool open;
     private const int shotend = 28;

@@ -1,12 +1,11 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class MedicineV2 : MedicineV1
+    internal class MedicineV2 : MedicineV1
   {
     private const int interval = 20;
     private const int speed = 2;

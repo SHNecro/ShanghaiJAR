@@ -1,12 +1,11 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class Railgun2 : Railgun1
+    internal class Railgun2 : Railgun1
   {
     private bool open;
     private const int shotend = 10;

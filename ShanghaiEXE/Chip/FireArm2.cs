@@ -1,15 +1,14 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class FireArm2 : ChipBase
+    internal class FireArm2 : ChipBase
   {
     private const int shotend = 28;
     private int count;

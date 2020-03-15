@@ -1,12 +1,11 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class ChargeCanon3 : ChargeCanon1
+    internal class ChargeCanon3 : ChargeCanon1
   {
     private const int shotend = 128;
     private bool anime;

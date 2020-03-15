@@ -1,8 +1,5 @@
-﻿using Common;
-using ExtensionMethods;
-using NSBattle;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+﻿using NSBattle;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEnemy;
 using NSEvent;

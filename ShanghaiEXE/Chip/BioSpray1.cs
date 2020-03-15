@@ -2,14 +2,14 @@
 using NSBattle;
 using NSBattle.Character;
 using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class BioSpray1 : ChipBase
+    internal class BioSpray1 : ChipBase
   {
     private const int shotend = 10;
     private bool end;

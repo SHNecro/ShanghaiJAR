@@ -1,11 +1,6 @@
-﻿using OpenTK.Input;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Common.Configuration
+﻿namespace Common.Configuration
 {
-	public enum XInputGamePadButton
+    public enum XInputGamePadButton
 	{
 		L1,
 		L2,

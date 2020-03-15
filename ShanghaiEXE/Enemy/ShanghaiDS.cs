@@ -1,13 +1,7 @@
 ﻿using NSBattle;
-using NSBattle.Character;
 using NSChip;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering;
-using NSEffect;
-using NSGame;
-using SlimDX;
+using NSShanghaiEXE.InputOutput.Audio;
 using System;
-using System.Drawing;
 
 //using NSAttack;
 //using NSEnemy;

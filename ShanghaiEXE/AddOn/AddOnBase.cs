@@ -1,6 +1,4 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
-using NSShanghaiEXE.InputOutput.Rendering;
+﻿using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
 using System;

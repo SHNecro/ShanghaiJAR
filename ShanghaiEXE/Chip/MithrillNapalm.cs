@@ -1,15 +1,14 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class MithrillNapalm : ChipBase
+    internal class MithrillNapalm : ChipBase
   {
     private const int start = 3;
     private const int speed = 3;

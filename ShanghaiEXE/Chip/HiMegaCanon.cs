@@ -1,7 +1,6 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
@@ -9,7 +8,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class HiMegaCanon : HiCanon
+    internal class HiMegaCanon : HiCanon
   {
     private const int shotend = 28;
 

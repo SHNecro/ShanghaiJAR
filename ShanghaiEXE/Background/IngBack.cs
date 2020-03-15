@@ -1,6 +1,4 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
-using NSShanghaiEXE.InputOutput.Rendering;
+﻿using NSShanghaiEXE.InputOutput.Rendering;
 using System.Drawing;
 
 namespace NSBackground

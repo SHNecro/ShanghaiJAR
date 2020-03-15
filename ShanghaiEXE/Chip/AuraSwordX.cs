@@ -1,15 +1,14 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class AuraSwordX : ChipBase
+    internal class AuraSwordX : ChipBase
   {
     private bool aura = false;
     private const int start = 3;

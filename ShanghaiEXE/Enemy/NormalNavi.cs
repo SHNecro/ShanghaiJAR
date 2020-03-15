@@ -1,6 +1,6 @@
 ﻿using NSBattle;
 using NSChip;
-using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSEffect;
 using System.Drawing;
 

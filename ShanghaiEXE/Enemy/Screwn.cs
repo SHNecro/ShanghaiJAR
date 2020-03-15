@@ -1,10 +1,8 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSChip;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
-using NSEffect;
 using NSGame;
 using SlimDX;
 using System;

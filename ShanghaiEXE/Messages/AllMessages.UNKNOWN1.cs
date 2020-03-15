@@ -1,5 +1,4 @@
 using Common;
-using NSGame;
 
 namespace Messages
 {

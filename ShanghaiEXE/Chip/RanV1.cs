@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using SlimDX;
@@ -14,7 +13,7 @@ using System.Linq;
 
 namespace NSChip
 {
-  internal class RanV1 : ChipBase
+    internal class RanV1 : ChipBase
   {
     protected int hit = 3;
     public int waittime;

@@ -11,10 +11,7 @@ using System.Windows.Input;
 using System.Windows.Interop;
 using DXJoystick = SlimDX.DirectInput.Joystick;
 using DXJoystickState = SlimDX.DirectInput.JoystickState;
-using DXKeyboard = SlimDX.DirectInput.Keyboard;
-using DXKeyboardState = SlimDX.DirectInput.KeyboardState;
 using TKKey = OpenTK.Input.Key;
-using TKGamePadState = OpenTK.Input.GamePadState;
 using TKKeyboard = OpenTK.Input.Keyboard;
 using Common.ExtensionMethods;
 

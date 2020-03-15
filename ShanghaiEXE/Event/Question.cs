@@ -1,12 +1,11 @@
 ﻿using Common;
 using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
 using System;
 using System.Drawing;
-using System.Windows.Forms;
 using Button = NSShanghaiEXE.InputOutput.Button;
 
 namespace NSEvent

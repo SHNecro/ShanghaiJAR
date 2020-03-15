@@ -8,7 +8,6 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using Common.EncodeDecode;
-using NSShanghaiEXE.InputOutput;
 using NSMap.Character.Menu;
 using static NSMap.Character.Menu.Library;
 using System.Linq;

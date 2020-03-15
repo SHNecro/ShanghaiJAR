@@ -1,5 +1,4 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering;
+﻿using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Collections.Generic;
 using System.Drawing;

@@ -1,14 +1,13 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class SeedCanon3 : SeedCanon1
+    internal class SeedCanon3 : SeedCanon1
   {
     private int posiminus = 0;
     private const int shotend = 58;

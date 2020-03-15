@@ -1,14 +1,13 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class ShotGun2 : ShotGun1
+    internal class ShotGun2 : ShotGun1
   {
     private const int shotend = 10;
 

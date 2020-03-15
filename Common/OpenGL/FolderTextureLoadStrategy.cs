@@ -1,9 +1,7 @@
 ﻿using OpenTK.Graphics.OpenGL;
-using Common;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System;
 using Common.ExtensionMethods;
 

@@ -1,12 +1,11 @@
-﻿using Common.Configuration;
-using Common.ExtensionMethods;
+﻿using Common.ExtensionMethods;
 using System;
 using System.Globalization;
 using System.Windows.Data;
 
 namespace KeyConfig.Converters
 {
-	public class SHButtonCodeToXInputButtonConverter : IValueConverter
+    public class SHButtonCodeToXInputButtonConverter : IValueConverter
 	{
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{

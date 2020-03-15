@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
@@ -12,7 +11,6 @@ using System;
 using NSShanghaiEXE.ExtensionMethods;
 using System.Linq;
 using NSGame;
-using NSEffect;
 
 namespace NSChip
 {

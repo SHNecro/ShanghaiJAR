@@ -1,17 +1,15 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSNet;
 using SlimDX;
-using System;
 using System.Collections.Generic;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class WhiteCard : ChipBase
+    internal class WhiteCard : ChipBase
   {
     private const int speed = 2;
     private const int plus = 2;

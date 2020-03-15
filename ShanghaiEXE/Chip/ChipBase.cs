@@ -1,14 +1,13 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using NSEnemy;
 using NSGame;
 using NSNet;
 using SlimDX;
-using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;

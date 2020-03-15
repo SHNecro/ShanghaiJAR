@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
@@ -10,7 +9,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class RainAnchor : ChipBase
+    internal class RainAnchor : ChipBase
   {
     private Point[,] target = new Point[2, 9];
     private const int aspeed = 3;

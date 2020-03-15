@@ -1,13 +1,10 @@
-﻿using Common;
-using ExtensionMethods;
-using NSAddOn;
+﻿using NSAddOn;
 using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEvent;
 using NSGame;
 using SlimDX;
-using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;

@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
@@ -10,7 +9,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class MegaHalberd : ChipBase
+    internal class MegaHalberd : ChipBase
   {
     private const int start = 5;
     private const int speed = 4;

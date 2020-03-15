@@ -10,10 +10,12 @@ using System.Threading;
 using Tsukikage.Audio;
 using NSTsukikage.WinMM.WaveIO;
 
-namespace NSShanghaiEXE.InputOutput
+namespace NSShanghaiEXE.InputOutput.Audio
 {
     public class MyAudio : IDisposable
     {
+        public event EventHandler<AudioLoadProgressUpdatedEventArgs> ProgressUpdated;
+
         public static bool BGM = true;
         public static float volumeSE = 1f;
         public static float volumeBGM = 100f;
@@ -105,6 +107,7 @@ namespace NSShanghaiEXE.InputOutput
             RijndaelManaged rijndaelManaged = new RijndaelManaged();
             Masking.GenerateKeyFromPassword("sasanasi", rijndaelManaged.KeySize, out byte[] key, rijndaelManaged.BlockSize, out byte[] iv);
             FileStream fileStream = new FileStream("ShaSResource.tcd", FileMode.Open, FileAccess.Read);
+            var fileStreamTotalBytes = fileStream.Length;
             string sourceString;
             while ((sourceString = streamReader2.ReadLine()) != null)
             {
@@ -122,16 +125,18 @@ namespace NSShanghaiEXE.InputOutput
                     else
                         byteList.Add(Masking.DecryptByte(code));
                 }
+                var currentByteOffset = fileStream.Position;
                 Stream stream = new MemoryStream(byteList.ToArray());
                 if (strArray[0].Split('.')[1] == "wav")
                 {
                     this.SoundMake(strArray[0], stream);
                     this.soundNames.Add(strArray[0]);
                 }
+                this.ProgressUpdated?.Invoke(this, new AudioLoadProgressUpdatedEventArgs(strArray[0], (double)currentByteOffset / fileStreamTotalBytes));
             }
             fileStream.Close();
             streamReader2.Close();
-            this.parent.soundLoad = true;
+            this.ProgressUpdated?.Invoke(this, null);
         }
 
         private void SoundMake(string soundname)

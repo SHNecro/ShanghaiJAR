@@ -1,8 +1,6 @@
-﻿using Common.OpenGL;
-using OpenTK.Graphics.OpenGL;
+﻿using OpenTK.Graphics.OpenGL;
 using System;
 using System.Drawing;
-using System.Linq;
 
 namespace Common.ExtensionMethods
 {

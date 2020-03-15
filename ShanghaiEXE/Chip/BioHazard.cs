@@ -1,7 +1,6 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using NSGame;
@@ -11,7 +10,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class BioHazard : ChipBase
+    internal class BioHazard : ChipBase
   {
     private const int interval = 20;
     private const int speed = 2;

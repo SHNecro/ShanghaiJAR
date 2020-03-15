@@ -396,6 +396,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="InputOutput\Audio\TextureLoadProgressUpdatedEventArgs.cs" />
     <Compile Include="InputOutput\Rendering\DirectX9\DGTextMeasurer.cs" />
     <Compile Include="InputOutput\Rendering\IRenderer.cs" />
     <Compile Include="InputOutput\Rendering\ITextMeasurer.cs" />
@@ -792,7 +793,7 @@
     <Compile Include="Background\RemiHPback.cs" />
     <Compile Include="Background\rikaHPBack.cs" />
     <Compile Include="Background\AriceBack.cs" />
-    <Compile Include="InputOutput\MyAudio.cs" />
+    <Compile Include="InputOutput\Audio\MyAudio.cs" />
     <Compile Include="InputOutput\Masking.cs" />
     <Compile Include="InputOutput\Rendering\DirectX9\MySlimDG.cs" />
     <Compile Include="InputOutput\Buttun.cs" />

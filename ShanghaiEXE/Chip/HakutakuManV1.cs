@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEnemy;
 using NSObject;
@@ -12,7 +11,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class HakutakuManV1 : ChipBase
+    internal class HakutakuManV1 : ChipBase
   {
     private List<Point> target = new List<Point>();
     private int targetNow = -1;

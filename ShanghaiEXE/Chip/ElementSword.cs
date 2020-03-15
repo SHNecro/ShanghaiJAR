@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;
@@ -10,7 +9,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class ElementSword : ChipBase
+    internal class ElementSword : ChipBase
   {
     private int count = 0;
     private bool aura = false;

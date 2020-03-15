@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using NSEnemy;
@@ -14,7 +13,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class YoumuV1 : ChipBase
+    internal class YoumuV1 : ChipBase
   {
     private const int interval = 20;
     private const int speed = 2;

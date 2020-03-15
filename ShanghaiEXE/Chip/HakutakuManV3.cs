@@ -1,5 +1,4 @@
-﻿using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Collections.Generic;
@@ -7,7 +6,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class HakutakuManV3 : HakutakuManV1
+    internal class HakutakuManV3 : HakutakuManV1
   {
     private List<Point> target = new List<Point>();
     private int targetNow = -1;

@@ -1,16 +1,15 @@
 ﻿using NSBattle;
 using NSBattle.Character;
 using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
-using NSGame;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class Flyng : ChipBase
+    internal class Flyng : ChipBase
   {
     private const int speed = 2;
     private bool fly;

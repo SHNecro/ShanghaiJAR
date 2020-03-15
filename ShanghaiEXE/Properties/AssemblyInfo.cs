@@ -1,6 +1,5 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
-using System.Security.Permissions;
 
 [assembly: AssemblyTitle("Shanghai.EXE Genso Network")]
 [assembly: AssemblyDescription("")]

@@ -2,7 +2,7 @@
 using NSBattle;
 using NSBattle.Character;
 using NSChip;
-using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using SlimDX;

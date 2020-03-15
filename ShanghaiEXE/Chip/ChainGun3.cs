@@ -1,14 +1,13 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System.Drawing;
 
 namespace NSChip
 {
-  internal class ChainGun3 : ChainGun1
+    internal class ChainGun3 : ChainGun1
   {
     private Point[] target = new Point[3];
     private const int shotend = 10;

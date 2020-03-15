@@ -1,7 +1,6 @@
 ﻿using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEnemy;
 using SlimDX;
@@ -9,7 +8,7 @@ using System.Drawing;
 
 namespace NSChip
 {
-  internal class SamonBibity : ChipBase
+    internal class SamonBibity : ChipBase
   {
     private const int start = 1;
     private const int speed = 2;

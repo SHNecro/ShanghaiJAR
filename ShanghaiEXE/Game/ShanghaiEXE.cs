@@ -1,4 +1,5 @@
 ﻿using NSShanghaiEXE.InputOutput;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSMap.Character.Menu;
 using SlimDX;
 using SlimDX.DirectInput;
@@ -6,11 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
-using System.Drawing.Text;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 using NSTitle;
@@ -383,6 +381,7 @@ namespace NSGame
 
             this.UpdateLoadingText(LoadType.Audio, 25);
             this.ad = new MyAudio(this);
+            this.ad.ProgressUpdated += this.AudioLoad_ProgressUpdate;
             this.UpdateLoadingText(LoadType.Audio, 100);
 
             this.UpdateLoadingText(LoadType.Device, 25);
@@ -646,6 +645,20 @@ namespace NSGame
         protected override void OnKeyUp(KeyEventArgs e)
         {
             e.Handled = true;
+        }
+
+        private void AudioLoad_ProgressUpdate(object sender, AudioLoadProgressUpdatedEventArgs e)
+        {
+            if (e == null)
+            {
+                this.soundLoad = true;
+                this.UpdateLoadingText(LoadType.Audio, 100);
+                ((MyAudio)sender).ProgressUpdated -= this.AudioLoad_ProgressUpdate;
+            }
+            else
+            {
+                this.UpdateLoadingText(LoadType.Audio, (int)Math.Round(100 * e.UpdateProgress));
+            }
         }
 
         private void TextureLoad_ProgressUpdate(object sender, TextureLoadProgressUpdatedEventArgs e)

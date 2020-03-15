@@ -1,6 +1,6 @@
 ﻿using NSBattle.Character;
 using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using SlimDX;
 using System;
@@ -12,7 +12,7 @@ using System.Text;
 
 namespace NSGame
 {
-	public class AllBase
+    public class AllBase
 	{
 		public static bool DrawDebug = false;
 		protected static Random random = new Random(Environment.TickCount);

@@ -1,11 +1,7 @@
 ﻿using Common.Config;
 using KeyConfig.Converters;
-using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Windows;
-using System.Xml;
-using System.Xml.Serialization;
 
 namespace KeyConfig
 {

@@ -1,8 +1,7 @@
 ﻿using NSAttack;
 using NSBattle;
 using NSBattle.Character;
-using NSShanghaiEXE.InputOutput;
-using NSShanghaiEXE.InputOutput.Rendering.DirectX9;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using SlimDX;
@@ -11,7 +10,7 @@ using NSGame;
 
 namespace NSChip
 {
-	internal class BeastBreath : ChipBase
+    internal class BeastBreath : ChipBase
 	{
 		private const int start = 44;
 		private const int speed = 2;
