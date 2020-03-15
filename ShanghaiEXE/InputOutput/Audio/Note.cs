@@ -8,11 +8,11 @@ namespace NSShanghaiEXE.InputOutput.Audio
         {
             var note = noteString[0].ToString();
             var isSharp = noteString[1] == '#';
-            var octave = int.Parse(noteString.Substring(isSharp ? 2 : 1));
+            var octave = int.Parse(noteString.Substring(isSharp ? 2 : 1)) + 2;
 
-            var noteOffset = "ABCDEFG".IndexOf(note, StringComparison.InvariantCulture) - 2;
+            var noteOffset = "CDEFGAB".IndexOf(note, StringComparison.InvariantCulture);
             var noteNumber = 12 * octave + noteOffset;
-            if (noteOffset == -3 || noteNumber < 0 || noteNumber > 127)
+            if (noteNumber < 0 || noteNumber > 127)
             {
                 throw new InvalidOperationException("Invalid note");
             }

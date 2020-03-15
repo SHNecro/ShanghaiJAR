@@ -4,36 +4,37 @@ namespace MapEditor.Models.Elements.Events
 {
     public class PianoEvent : EventBase
     {
-        private Note note;
+        private string noteKey;
+        private int octave;
         private int frameDuration;
 
-        public string NoteString
+        public string NoteKey
         {
             get
             {
-                return this.note?.NoteLabel;
+                return this.noteKey;
             }
 
             set
             {
-                this.Note = new Note(value);
+                this.SetValue(ref this.noteKey, value);
             }
         }
 
-        public Note Note
-		{
-			get
-			{
-				return this.note;
-			}
+        public int Octave
+        {
+            get
+            {
+                return this.octave;
+            }
 
-			set
-			{
-				this.SetValue(ref this.note, value);
-			}
-		}
+            set
+            {
+                this.SetValue(ref this.octave, value);
+            }
+        }
 
-		public int FrameDuration
+        public int FrameDuration
         {
 			get
 			{
@@ -48,9 +49,9 @@ namespace MapEditor.Models.Elements.Events
 
 		public override string Info => "Plays a piano key for a specified amount of frames.";
 
-        public override string Name => $"Piano {this.Note.NoteLabel}: {this.FrameDuration} frames";
+        public override string Name => $"Piano {this.NoteKey}{this.Octave}: {this.FrameDuration} frames";
 
-        protected override string GetStringValue() => $"piano:{this.Note.NoteLabel}:{this.FrameDuration}";
+        protected override string GetStringValue() => $"piano:{this.NoteKey}{this.Octave}:{this.FrameDuration}";
 
         protected override void SetStringValue(string value)
         {
@@ -60,13 +61,18 @@ namespace MapEditor.Models.Elements.Events
                 return;
             }
 
-			var newNote = new Note(entries[1]);
-            this.Validate(newNote, "Piano key does not exist.", n => !string.IsNullOrEmpty(newNote.NoteLabel));
-			var newFrameDuration = this.ParseIntOrAddError(entries[2]);
+            var newNoteKey = entries[1].TrimEnd("0123456789".ToCharArray());
+            this.Validate(newNoteKey, "Invalid note.", k => (k.Length == 1 || (k.Length == 2 && k[1] == '#')) && "ABCDEFG".Contains(k[0].ToString()));
+
+            var newOctave = this.ParseIntOrAddError(entries[1].TrimStart("ABCDEFG#".ToCharArray()));
+            this.Validate(newOctave, "Octave out of range.", o => o >= -2 && o <= 8);
+
+            var newFrameDuration = this.ParseIntOrAddError(entries[2]);
 
 			if (!this.HasErrors)
             {
-                this.Note = newNote;
+                this.NoteKey = newNoteKey;
+                this.Octave = newOctave;
                 this.FrameDuration = newFrameDuration;
             }
         }
