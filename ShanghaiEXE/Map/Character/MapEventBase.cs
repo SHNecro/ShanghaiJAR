@@ -618,7 +618,7 @@ namespace NSMap.Character
                         page.AddEvent(new NumberSet(this.sound, page.eventmanager, numsetDialogue[0], numsetDialogue.Face, numsetDialogue.Face.Mono, int.Parse(strArray1[2]), int.Parse(strArray1[3]), this.savedate));
                         break;
                     case "piano":
-                        page.AddEvent(new Piano(this.sound, page.eventmanager, new Note(strArray1[1]), int.Parse(strArray1[2]), this.parent, this.savedate));
+                        page.AddEvent(new Piano(this.sound, page.eventmanager, new Note(strArray1[1]), int.Parse(strArray1[2]), int.Parse(strArray1[3]), this.parent, this.savedate));
                         break;
                     case "playerHide":
                         page.AddEvent(new PlayerHide(this.sound, page.eventmanager, bool.Parse(strArray1[1]), this.parent.Player, this.savedate));

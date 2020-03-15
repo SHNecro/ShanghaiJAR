@@ -360,7 +360,7 @@ namespace MapEditor.Models
                         this.Instance = new SEOnEvent { SoundEffect = EffectSoundType.alert };
                         break;
                     case EventCategoryOption.Piano:
-                        this.Instance = new PianoEvent { NoteKey = "C", Octave = 6, FrameDuration = 15 };
+                        this.Instance = new PianoEvent { NoteKey = "C", Octave = 6, Volume = 127, FrameDuration = 15 };
                         break;
                     case EventCategoryOption.Shake:
                         this.Instance = new ShakeEvent { Magnitude = 1, DurationFrames = 60 };

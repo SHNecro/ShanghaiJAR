@@ -20,9 +20,9 @@ namespace NSShanghaiEXE.InputOutput.Audio.MIDI
             this.playingNotes = new Dictionary<int, Tuple<int, int>>();
         }
 
-        public void PlayNote(Note note, int tickDuration)
+        public void PlayNote(Note note, int volume, int tickDuration)
         {
-            outputDevice.Send(new ChannelMessage(ChannelCommand.NoteOn, 0, note.NoteIndex, 127));
+            outputDevice.Send(new ChannelMessage(ChannelCommand.NoteOn, 0, note.NoteIndex, volume));
             playingNotes[note.NoteIndex] = Tuple.Create(this.currentTick, tickDuration);
         }
 

@@ -263,9 +263,9 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
             this.Fade();
         }
 
-        public void PlayNote(Note note, int tickDuration)
+        public void PlayNote(Note note, int volume, int tickDuration)
         {
-            this.pianoNotePlayer.PlayNote(note, tickDuration);
+            this.pianoNotePlayer.PlayNote(note, volume, tickDuration);
         }
 
         public void UpdateNoteTick()

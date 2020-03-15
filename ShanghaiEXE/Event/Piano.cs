@@ -13,12 +13,14 @@ namespace NSEvent
         private SceneMap parent;
 
         private Note note;
+        private int volume;
         private int frameDuration;
 
-		public Piano(
+        public Piano(
           IAudioEngine s,
           EventManager m,
           Note note,
+          int volume,
           int frameDuration,
           SceneMap parent,
           SaveData save)
@@ -27,6 +29,7 @@ namespace NSEvent
 			this.NoTimeNext = false;
 
             this.note = note;
+            this.volume = volume;
             this.frameDuration = frameDuration;
 
             this.parent = parent;
@@ -42,7 +45,7 @@ namespace NSEvent
                 this.IsActive = true;
             }
 
-            this.sound.PlayNote(this.note, this.frameDuration);
+            this.sound.PlayNote(this.note, this.volume, this.frameDuration);
 
 			this.EndCommand();
 		}

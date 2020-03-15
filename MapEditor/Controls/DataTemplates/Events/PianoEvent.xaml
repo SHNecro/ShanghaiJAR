@@ -117,6 +117,24 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0"
                            VerticalAlignment="Center"
+                           Text="Volume:"/>
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0" Maximum="127">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="Volume" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" Maximum="127" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
                            Text="Duration:"/>
                 <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
                     <controls:WheelCaptureIntegerUpDown.Text>

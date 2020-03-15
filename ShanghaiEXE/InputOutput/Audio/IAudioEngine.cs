@@ -24,7 +24,7 @@ namespace NSShanghaiEXE.InputOutput.Audio
         void StopBGM();
         void StopSE(SoundEffect sname);
 
-        void PlayNote(Note note, int frameDuration);
+        void PlayNote(Note note, int volume, int frameDuration);
         void UpdateNoteTick();
         bool IsPlayingNote { get; }
     }
