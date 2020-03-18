@@ -568,8 +568,14 @@ hitform:square
 event:
 msgopen:
 msg:Map.RemihousePianoStage1Dialogue1FaceNone
-ifValue:10:False:5:4:0
+ifFlag:801:False:0
 msg:Map.RemihousePianoStage1Dialogue2FaceNone
+ifEnd:0
+ifFlag:801:True:0
+msg:Map.RemihousePianoStage2Dialogue2
+ifEnd:0
+ifValue:10:False:5:4:0
+msg:Map.RemihousePianoStage1Dialogue3FaceNone
 ifEnd:0
 ifValue:10:False:5:1:0
 msg:Map.RemihousePianoStage1Dialogue3JackIn

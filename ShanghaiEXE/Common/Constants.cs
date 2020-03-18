@@ -41,7 +41,10 @@ namespace NSShanghaiEXE.Common
             new Tuple<int, int>(10, 7),
             new Tuple<int, int>(13, 1),
             new Tuple<int, int>(13, 2),
-            new Tuple<int, int>(13, 4)
+            new Tuple<int, int>(13, 4),
+            new Tuple<int, int>(19, 1),
+            new Tuple<int, int>(19, 2),
+            new Tuple<int, int>(19, 3)
         };
 
         public static readonly List<byte[,]> PanelLayouts = new List<byte[,]>
