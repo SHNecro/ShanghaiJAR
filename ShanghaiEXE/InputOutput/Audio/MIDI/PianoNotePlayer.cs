@@ -1,6 +1,7 @@
 ﻿using Sanford.Multimedia.Midi;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace NSShanghaiEXE.InputOutput.Audio.MIDI
 {
@@ -22,8 +23,23 @@ namespace NSShanghaiEXE.InputOutput.Audio.MIDI
 
         public void PlayNote(Note note, int volume, int tickDuration)
         {
-            outputDevice.Send(new ChannelMessage(ChannelCommand.NoteOn, 0, note.NoteIndex, volume));
-            playingNotes[note.NoteIndex] = Tuple.Create(this.currentTick, tickDuration);
+            if (playingNotes.ContainsKey(note.NoteIndex) && tickDuration == -1 && playingNotes[note.NoteIndex].Item2 == -1)
+            {
+                return;
+            }
+            if (tickDuration == 0)
+            {
+                outputDevice.Send(new ChannelMessage(ChannelCommand.NoteOff, 0, note.NoteIndex, 0));
+                if (playingNotes.ContainsKey(note.NoteIndex))
+                {
+                    playingNotes.Remove(note.NoteIndex);
+                }
+            }
+            else
+            {
+                outputDevice.Send(new ChannelMessage(ChannelCommand.NoteOn, 0, note.NoteIndex, volume));
+                playingNotes[note.NoteIndex] = Tuple.Create(this.currentTick, tickDuration);
+            }
         }
 
         public void UpdateNoteTick()
@@ -32,11 +48,13 @@ namespace NSShanghaiEXE.InputOutput.Audio.MIDI
 
             foreach (var kvp in this.playingNotes)
             {
+                var isSustained = kvp.Value.Item2 == -1;
+
                 var noteIndex = kvp.Key;
                 var startTick = kvp.Value.Item1;
                 var duration = kvp.Value.Item2;
 
-                if (this.currentTick >= startTick + duration)
+                if (!isSustained && this.currentTick >= startTick + duration)
                 {
                     outputDevice.Send(new ChannelMessage(ChannelCommand.NoteOff, 0, noteIndex, 0));
                     expiredNotes.Add(noteIndex);
@@ -58,7 +76,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.MIDI
             }
         }
 
-        public bool IsPlayingNote => this.playingNotes.Count != 0;
+        public bool IsPlayingNote => this.playingNotes.Any(n => n.Value.Item2 != -1);
 
         #region IDisposable Support
 

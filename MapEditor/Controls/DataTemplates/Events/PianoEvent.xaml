@@ -136,11 +136,11 @@
                 <TextBlock Grid.Column="0"
                            VerticalAlignment="Center"
                            Text="Duration:"/>
-                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="-1">
                     <controls:WheelCaptureIntegerUpDown.Text>
                         <Binding Path="FrameDuration" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                             <Binding.ValidationRules>
-                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="-1" />
                             </Binding.ValidationRules>
                         </Binding>
                     </controls:WheelCaptureIntegerUpDown.Text>

@@ -1,6 +1,7 @@
 ﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
+using System;
 
 namespace NSEvent
 {
@@ -801,6 +802,34 @@ namespace NSEvent
                     else
                     {
                         this.savedata.selectQuestion = 0;
+                    }
+                    break;
+                case 18:
+                    var playerPosition = this.manager.parent.Player.Position;
+                    var x = playerPosition.X + 16;
+                    var y = playerPosition.Y;
+                    var field = this.manager.parent.Field;
+                    
+                    for (var octave = 3; octave <= 6; octave++)
+                    {
+                        foreach (var octaveNote in Note.OctaveNotes)
+                        {
+                            var note = $"{octaveNote}{octave}";
+                            var key = field.Events.Find(e => e.ID == note);
+
+                            var yLow = !octaveNote.EndsWith("#", StringComparison.InvariantCulture) ? 22 : 27;
+                            var yHigh = !octaveNote.EndsWith("#", StringComparison.InvariantCulture) ? 30 : 34;
+                            if (y >= yLow && y <= yHigh && Math.Abs(x - key.Position.X) < 5)
+                            {
+                                key.eventPages[0].defaultAngle = NSMap.Character.MapCharacterBase.ANGLE.UPLEFT;
+                                this.sound.PlayNote(new Note(note), 127, -1);
+                            }
+                            else if (!this.sound.IsPlayingNote)
+                            {
+                                key.eventPages[0].defaultAngle = NSMap.Character.MapCharacterBase.ANGLE.DOWNRIGHT;
+                                this.sound.PlayNote(new Note(note), 127, 0);
+                            }
+                        }
                     }
                     break;
             }

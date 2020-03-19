@@ -4,6 +4,8 @@ namespace NSShanghaiEXE.InputOutput.Audio
 {
     public class Note
     {
+        public static readonly string[] OctaveNotes = { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };
+
         public Note(string noteString)
         {
             var note = noteString[0].ToString();

@@ -31,8 +31,23 @@ battle:13:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:Tru
 
 
 
+ID:PianoCollisionDetection
+position:84:-28:0
+page:1
+startterms:parallel
+type:1
+terms:none
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:5:5:0:0
+hitform:square
+event:
+Special:18
+end
+
 ID:Pianist6
-position:46:18:0
+position:46:16:0
 page:1
 startterms:Abutton
 type:1
@@ -50,7 +65,7 @@ msgclose:
 end
 
 ID:Pianist5
-position:80:17:0
+position:112:16:0
 page:1
 startterms:Abutton
 type:1
@@ -64,11 +79,12 @@ event:
 msgopen:
 msg:Map.PianoPianist5Stage1Dialogue1
 msg:Map.PianoPianist5Stage1Dialogue2
+msg:Map.PianoPianist5Stage1Dialogue3
 msgclose:
 end
 
 ID:Pianist4
-position:113:18:0
+position:80:16:0
 page:1
 startterms:Abutton
 type:1
@@ -87,7 +103,7 @@ msgclose:
 end
 
 ID:Pianist3
-position:146:17:0
+position:146:16:0
 page:1
 startterms:Abutton
 type:1
@@ -1025,7 +1041,7 @@ end
 ID:C3
 position:175:49:0
 page:1
-startterms:Touch
+startterms:none
 type:0
 terms:none
 move:

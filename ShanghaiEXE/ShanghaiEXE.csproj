@@ -1383,8 +1383,10 @@
     <Content Include="Graphics\yuyuko.png" />
     <Content Include="Graphics\yuyukoAttack.png" />
     <Content Include="Language\en-US\Credits.xml" />
+    <Content Include="Language\en-US\Map\Piano.xml" />
     <Content Include="Language\en-US\Map\UraNet11.xml" />
     <Content Include="Language\ja-JP\Credits.xml" />
+    <Content Include="Language\ja-JP\Map\Piano.xml" />
     <Content Include="Language\ja-JP\Map\UraNet11.xml" />
     <Content Include="ShanghaiEXE\Files\README-OLD.txt" />
     <Content Include="Sounds\alert.wav" />

@@ -300,6 +300,21 @@
                                                                                  ToolTip="East"
                                                                                  IsChecked="{Binding Path=Type, Converter={StaticResource ObjectEqualityBooleanConverter}, ConverterParameter={x:Static enums:MoveType.AngleRight}}" />
                                                                 </UniformGrid>
+                                                                <StackPanel Grid.Column="2"
+                                                                            Orientation="Vertical"
+                                                                            VerticalAlignment="Center">
+                                                                    <TextBlock HorizontalAlignment="Center"
+                                                                               Text="Duration:"/>
+                                                                    <controls:WheelCaptureIntegerUpDown Minimum="0">
+                                                                        <controls:WheelCaptureIntegerUpDown.Text>
+                                                                            <Binding Path="Distance" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                                                <Binding.ValidationRules>
+                                                                                    <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
+                                                                                </Binding.ValidationRules>
+                                                                            </Binding>
+                                                                        </controls:WheelCaptureIntegerUpDown.Text>
+                                                                    </controls:WheelCaptureIntegerUpDown>
+                                                                </StackPanel>
                                                             </Grid>
                                                         </Setter.Value>
                                                     </Setter>

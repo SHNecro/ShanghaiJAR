@@ -82,7 +82,7 @@ namespace MapEditor.Models.Elements.Events
             this.Validate(newOctave, "Octave out of range.", o => o >= -2 && o <= 8);
 
             var newVolume = this.ParseIntOrAddError(entries[2]);
-            this.Validate(newOctave, "Octave out of range.", o => o >= 0 && o <= 127);
+            this.Validate(newOctave, "Octave out of range.", o => o >= -1 && o <= 127);
 
             var newFrameDuration = this.ParseIntOrAddError(entries[3]);
 

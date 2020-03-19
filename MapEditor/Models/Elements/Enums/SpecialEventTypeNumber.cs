@@ -38,5 +38,7 @@ namespace MapEditor.Models.Elements.Enums
         CheckCrakTool = 16,
         [Description("Remove CrakTool if Q==0 (Q=1 or Q=0)")]
         RemoveCrakTool = 17,
+        [Description("Piano Collision Check")]
+        PianoCollision = 18,
     }
 }
