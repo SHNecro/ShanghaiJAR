@@ -265,7 +265,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void PlayNote(Note note, int volume, int tickDuration)
         {
-            this.pianoNotePlayer.PlayNote(note, volume, tickDuration);
+            var adjustedVolume = (int)Math.Min(Math.Round(volume * this.SoundEffectVolume * 4), 127);
+            this.pianoNotePlayer.PlayNote(note, adjustedVolume, tickDuration);
         }
 
         public void UpdateNoteTick()

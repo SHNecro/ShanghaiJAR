@@ -1,4 +1,4 @@
-24,24,-272,-112,784,400,Map.PianoName,0,1,0,118,1,mobcyber,0
+24,24,-272,-112,784,400,Map.PianoName,0,1,0,0,0,mobcyber,0
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -24,10 +24,12 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 
-battle:25:1:3:0:1:1:1:0::25:1:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
-battle:25:1:5:1:1:1:1:0::8:2:3:0:1:1:1:0::8:2:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
-battle:25:2:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:7:4:False:True:True:True:VSvirus:0
-battle:13:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
+battle:41:3:4:1:1:1:1:0::41:1:5:0:1:1:1:0::41:1:5:2:1:1:1:0::0:1:5:False:True:True:True:VSvirus:0
+battle:41:1:5:2:1:1:1:0::41:1:4:0:1:1:1:0::0:2:5:1:1:1:1:0::1:0:5:False:True:True:True:VSvirus:0
+battle:0:2:5:1:1:1:1:0::41:2:5:0:1:1:1:0::41:2:5:2:1:1:1:0::0:1:6:False:True:True:True:VSvirus:0
+battle:37:2:3:0:1:1:1:0::37:2:5:1:1:1:1:0::0:1:3:2:1:1:1:0::8:0:12:False:True:True:True:VSvirus:0
+battle:37:2:5:0:1:1:1:0::37:2:4:2:1:1:1:0::0:1:3:2:1:1:1:0::8:0:16:False:True:True:True:VSvirus:0
+battle:37:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:8:4:False:True:True:True:VSvirus:0
 
 
 
@@ -44,6 +46,25 @@ hitrange:5:5:0:0
 hitform:square
 event:
 Special:18
+end
+
+ID:Sprite
+position:8:153:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:0
+graphic:2:6,0,5,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.PianoSpriteStage1Dialogue1
+msg:Map.PianoSpriteStage1Dialogue2
+msg:Map.PianoSpriteStage1Dialogue3
+msgclose:
 end
 
 ID:Pianist6
@@ -1094,6 +1115,58 @@ hitform:square
 event:
 bgmoff:
 eventDeath:
+end
+
+MysteryID:BMD-SlvKnife
+position:7:7:0
+Mystery:1,0,59,3,,257
+page:1
+startterms:Abutton
+type:1
+terms:
+move:
+speed:3
+graphic:-2:0,40,16,40,16
+hitrange:2:0:8:8
+hitform:circle
+event:
+end
+page:2
+startterms:Abutton
+type:0
+terms:
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+end
+
+MysteryID:BMD-MtlAura
+position:185:185:0
+Mystery:1,0,151,0,,257
+page:1
+startterms:Abutton
+type:1
+terms:
+move:
+speed:3
+graphic:-2:0,40,16,40,16
+hitrange:2:0:8:8
+hitform:circle
+event:
+end
+page:2
+startterms:Abutton
+type:0
+terms:
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
 end
 
 
