@@ -74,6 +74,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.MariHPWallpaperSpriteStage1Dialogue1FaceSprite
+ifValue:13:False:9:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:9:5:2
 msg:Map.MariHPWallpaperSpriteStage1Dialogue2FaceSprite
 msg:Map.MariHPWallpaperSpriteStage1Dialogue3FaceSprite
 question:Map.MariHPWallpaperSpriteStage1Dialogue4QuestionFaceSprite:Map.MariHPWallpaperSpriteStage1Dialogue4Options
@@ -90,6 +94,7 @@ msg:Map.MariHPWallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.MariHPWallpaperSpriteStage1Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

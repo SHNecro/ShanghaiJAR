@@ -453,4 +453,6 @@
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue5" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue6" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue7" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue2AlreadyTaken" Value="[You’ve already accepted,this mission.]" Face="None" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied" Value="[YOU’RE ALREADY USING,THIS WALLPAPER!,NICE，ISN’T IT?]" Face="Sprite" Mono="False" />
 </data>

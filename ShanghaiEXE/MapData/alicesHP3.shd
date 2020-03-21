@@ -209,6 +209,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.AlicesHP3WallpaperSpriteStage1Dialogue1FaceSprite
+ifValue:13:False:0:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:0:5:2
 msg:Map.AlicesHP3WallpaperSpriteStage1Dialogue2FaceSprite
 msg:Map.AlicesHP3WallpaperSpriteStage1Dialogue3FaceSprite
 question:Map.AlicesHP3WallpaperSpriteStage1Dialogue4QuestionFaceSprite:Map.AlicesHP3WallpaperSpriteStage1Dialogue4Options
@@ -225,6 +229,7 @@ msg:Map.AlicesHP3WallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.AlicesHP3WallpaperSpriteStage1Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

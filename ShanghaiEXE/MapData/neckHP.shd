@@ -60,6 +60,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.NeckHPWallpaperSpriteStage1Dialogue1FaceSprite
+ifValue:13:False:20:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:20:5:2
 msg:Map.NeckHPWallpaperSpriteStage1Dialogue2FaceSprite
 msg:Map.NeckHPWallpaperSpriteStage1Dialogue3FaceSprite
 question:Map.NeckHPWallpaperSpriteStage1Dialogue4QuestionFaceSprite:Map.NeckHPWallpaperSpriteStage1Dialogue4Options
@@ -76,6 +80,7 @@ msg:Map.NeckHPWallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.NeckHPWallpaperSpriteStage1Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

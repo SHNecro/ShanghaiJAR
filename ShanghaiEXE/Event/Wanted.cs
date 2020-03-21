@@ -299,9 +299,17 @@ namespace NSEvent
             this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
             var dialogue = ShanghaiEXE.Translate("Bounty.AcceptDialogue1Format").Format(this.encountArea[this.list[this.Select]]);
             this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], false, dialogue.Face, dialogue.Face.Mono, this.savedata));
-            var question = ShanghaiEXE.Translate("Bounty.AcceptDialogue2Question");
-            var options = ShanghaiEXE.Translate("Bounty.AcceptDialogue2Options");
-            this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], options[0], options[1], false, true, false, question.Face, this.savedata, true));
+            if (this.savedata.ValList[12] == this.list[this.Select])
+            {
+                dialogue = ShanghaiEXE.Translate("Bounty.AcceptDialogue2AlreadyTaken");
+                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], false, dialogue.Face, dialogue.Face.Mono, this.savedata));
+            }
+            else
+            {
+                var question = ShanghaiEXE.Translate("Bounty.AcceptDialogue2Question");
+                var options = ShanghaiEXE.Translate("Bounty.AcceptDialogue2Options");
+                this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], options[0], options[1], false, true, false, question.Face, this.savedata, true));
+            }
             this.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.eventmanager));
         }
 

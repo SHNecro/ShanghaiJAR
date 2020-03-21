@@ -1109,6 +1109,10 @@ hitform:circle
 event:
 msgopen:
 msg:Misc.WallpaperSpriteStage1Dialogue1
+ifValue:13:False:14:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:14:5:2
 msg:Misc.WallpaperSpriteStage1Dialogue2
 msg:Misc.WallpaperSpriteStage1Dialogue3Zenny5000
 question:Misc.WallpaperSpriteStage1Dialogue4Question:Misc.WallpaperSpriteStage1Dialogue4Options
@@ -1125,6 +1129,7 @@ msg:Misc.WallpaperSpriteStage1Dialogue6
 ifEnd:0
 BranchEnd:
 msg:Misc.WallpaperSpriteStage1Dialogue7
+ifEnd:2
 msgclose:
 end
 

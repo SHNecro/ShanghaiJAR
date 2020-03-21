@@ -1205,6 +1205,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.GenNetSquareLinkSpriteStage3Dialogue1FaceSprite
+ifValue:13:False:5:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:5:5:2
 msg:Map.GenNetSquareLinkSpriteStage3Dialogue2FaceSprite
 msg:Map.GenNetSquareLinkSpriteStage3Dialogue3FaceSprite
 question:Map.GenNetSquareLinkSpriteStage3Dialogue4QuestionFaceSprite:Map.GenNetSquareLinkSpriteStage3Dialogue4Options
@@ -1221,6 +1225,7 @@ msg:Map.GenNetSquareLinkSpriteStage3Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.GenNetSquareLinkSpriteStage3Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

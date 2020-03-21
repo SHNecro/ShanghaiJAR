@@ -487,6 +487,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.UraNetSquare2LinkSpriteStage3Dialogue1FaceSprite
+ifValue:13:False:26:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:26:5:2
 msg:Map.UraNetSquare2LinkSpriteStage3Dialogue2FaceSprite
 msg:Map.UraNetSquare2LinkSpriteStage3Dialogue3FaceSprite
 question:Map.UraNetSquare2LinkSpriteStage3Dialogue4QuestionFaceSprite:Map.UraNetSquare2LinkSpriteStage3Dialogue4Options
@@ -503,6 +507,7 @@ msg:Map.UraNetSquare2LinkSpriteStage3Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.UraNetSquare2LinkSpriteStage3Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

@@ -261,6 +261,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.InglesSquareLinkSpriteStage3Dialogue1FaceSprite
+ifValue:13:False:23:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:23:5:2
 msg:Map.InglesSquareLinkSpriteStage3Dialogue2FaceSprite
 msg:Map.InglesSquareLinkSpriteStage3Dialogue3FaceSprite
 question:Map.InglesSquareLinkSpriteStage3Dialogue4QuestionFaceSprite:Map.InglesSquareLinkSpriteStage3Dialogue4Options
@@ -277,6 +281,7 @@ msg:Map.InglesSquareLinkSpriteStage3Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.InglesSquareLinkSpriteStage3Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

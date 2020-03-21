@@ -44,6 +44,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue1FaceSprite
+ifValue:13:False:19:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:19:5:2
 msg:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue2FaceSprite
 msg:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue3FaceSprite
 question:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue4QuestionFaceSprite:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue4Options
@@ -60,6 +64,7 @@ msg:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.EienHighSchoolHPWallpaperSpriteStage1Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

@@ -317,6 +317,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.Jinja3WallpaperSpriteStage1Dialogue1FaceSprite
+ifValue:13:False:18:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:18:5:2
 msg:Map.Jinja3WallpaperSpriteStage1Dialogue2FaceSprite
 msg:Map.Jinja3WallpaperSpriteStage1Dialogue3FaceSprite
 question:Map.Jinja3WallpaperSpriteStage1Dialogue4QuestionFaceSprite:Map.Jinja3WallpaperSpriteStage1Dialogue4Options
@@ -333,6 +337,7 @@ msg:Map.Jinja3WallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.Jinja3WallpaperSpriteStage1Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

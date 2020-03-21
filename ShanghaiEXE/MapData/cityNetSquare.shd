@@ -720,6 +720,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.CityNetSquareLinkSpriteStage3Dialogue1FaceSprite
+ifValue:13:False:7:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:7:5:2
 msg:Map.CityNetSquareLinkSpriteStage3Dialogue2FaceSprite
 msg:Map.CityNetSquareLinkSpriteStage3Dialogue3FaceSprite
 question:Map.CityNetSquareLinkSpriteStage3Dialogue4QuestionFaceSprite:Map.CityNetSquareLinkSpriteStage3Dialogue4Options
@@ -736,6 +740,7 @@ msg:Map.CityNetSquareLinkSpriteStage3Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.CityNetSquareLinkSpriteStage3Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 

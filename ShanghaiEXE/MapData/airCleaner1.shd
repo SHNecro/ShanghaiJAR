@@ -558,6 +558,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.AirCleaner1WallpaperSpriteStage1Dialogue1FaceSprite
+ifValue:13:False:8:0:3
+msg:Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied
+ifEnd:3
+ifValue:13:False:8:5:2
 msg:Map.AirCleaner1WallpaperSpriteStage1Dialogue2FaceSprite
 msg:Map.AirCleaner1WallpaperSpriteStage1Dialogue3FaceSprite
 question:Map.AirCleaner1WallpaperSpriteStage1Dialogue4QuestionFaceSprite:Map.AirCleaner1WallpaperSpriteStage1Dialogue4Options
@@ -574,6 +578,7 @@ msg:Map.AirCleaner1WallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
 msg:Map.AirCleaner1WallpaperSpriteStage1Dialogue7FaceSprite
+ifEnd:2
 msgclose:
 end
 
