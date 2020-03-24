@@ -44,7 +44,7 @@
   <!-- 私は引退した元ネットエージェントである -->
   <Dialogue Key="Messages.RequestBoard13Dialogue1None" Value="I’m a retired ex-NetAgent." Face="None" Mono="False" />
   <!-- だが　最近の治安の悪化に対応するために復帰を考えている -->
-  <Dialogue Key="Messages.RequestBoard13Dialogue2None" Value="I’m thinking about retutning,to duty to help with the recent,public safety issues." Face="None" Mono="False" />
+  <Dialogue Key="Messages.RequestBoard13Dialogue2None" Value="I’m thinking about returning,to duty to help with the recent,public safety issues." Face="None" Mono="False" />
   <!-- しかし　長らく戦っていなかったので身体のなまりが心配なのだ -->
   <Dialogue Key="Messages.RequestBoard13Dialogue3None" Value="But I’m worried my skills might,have deteriorated during my,retirement." Face="None" Mono="False" />
   <!-- 私の前で激しい戦いを見せて戦いのカンを取り戻させてくれる人材を探している -->

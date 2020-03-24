@@ -607,22 +607,6 @@ hitform:square
 event:
 end
 
-ID:Sprite
-position:49:473:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:0
-graphic:2:6,0,7,0,0
-hitrange:3:0:0:0
-hitform:circle
-event:
-editFlag:791:False
-editValue:15:False:0:0:0
-end
-
 ID:Keystone-AutoClearVar15
 position:-26:403:0
 page:1

@@ -27,6 +27,7 @@ namespace NSShanghaiEXE.Common
             new Tuple<int, int>(13, 5),
             new Tuple<int, int>(13, 7),
             new Tuple<int, int>(17, 4),
+            new Tuple<int, int>(19, 4)
         };
 
         private static readonly HashSet<Tuple<int, int>> NoShadowCharacters = new HashSet<Tuple<int, int>>

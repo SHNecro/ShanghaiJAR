@@ -410,4 +410,39 @@
   <Text Key="Map.EienSquareChipShopStage1Dialogue1Options" Value="買う,買わない" />
   <Dialogue Key="Map.EienSquarePostGameBystander1Dialogue1" Value="バトルの時に生えている,草ってなんの種類の,雑草なんだろうか？" Face="NaviGreenRobot" Mono="False" />
   <Dialogue Key="Map.EienSquarePostGameBystander2Dialogue1" Value="ＲＯＭが倒れてから,掲示板に活気が戻ったみたいだ" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameAndRequestDialogue1" Value="[And while you’re at it， can you,find the code to some weird,door in some “Heaven” area?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameAndRequestDialogue2" Value="[Ohoho.... one at a time，lass!,A “Reincarnation Program”，,you say?]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameAndRequestAfterDialogue1" Value="[Sorry，I’m all tuckered out for,today，mayble I’ll be up for,another question later.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameAndRequestAfterDialogue2" Value="[In the meantime，why don’t,you go looking for that sunken,ship you asked about?]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue1" Value="[Aah....,A nice nap really does an old,body good.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue2" Value="[Oh，you had another question?,Such an inquisitive mind!]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue3" Value="[Yeah，yeah. Do you know,anything about a “Heaven”,area in the Undernet?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue4" Value="[....Do you want me to look it up，,or is this just because I’m old?]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue5" Value="[Hahahaha!,Don’t mind my little joke，,what do you need to know?]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue6" Value="[Might be a longshot，but I need,the passcode for a door in,that area.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue7" Value="[Odd thing is，the message on,the front sounded like it was,specifically talking about you.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue8" Value="[Know anything about that?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue9" Value="[Huh.,Not the faintest clue，I’m afraid.,Just a second，please.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameDialogue10" Value="[Hummmmmmm....]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue1" Value="[Uhh....?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue2" Value="[--sin， sin， ack，ack--,--attest--,--nine to tonight--]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue3" Value="[--moshi，moshi--,--grail--,--understand--]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage3Dialogue1" Value="[You alright there，old man?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage3Dialogue2" Value="[Just fine，just fine，never better!,Nothing to worry about，girl!]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue1" Value="[....So，did you find anything?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue2" Value="[Oh，yes!,Aah....,Not as such， no.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue3" Value="[What?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue4" Value="[That is to say，I can’t give you,the passcode，but I saw the,steps you can take to find it!]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue5" Value="[Why do I get the feeling I’m,going to be very annoyed by,the end of this?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue1" Value="[Your first step can be found,where many others begin their,own pursuit of knowledge.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue2" Value="[There is a boy there.,Pass his test，and return here.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue1" Value="[Some knowledge can only be,found by the side of the road of,life.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue2" Value="[Find a man on his way to the,park. Answer his questions，,and return here.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue1" Value="[Climbing the steps of history,can let one reach new heights,of understanding.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue2" Value="[There is an old man.,Satisfy his curiosity and return,here.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1ResponseDialogue1" Value="[Ugh....,You better not be wasting my,time! I’ll be right back!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue1" Value="[What does that even mean?!,Would it kill you to talk straight?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue2" Value="[I’m sorry!,My visions only give me so,much I can say!]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3ResponseDialogue1" Value="[I hope this is the last one.,You better hope so， too.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3ResponseDialogue2" Value="[Eek!]" Face="NaviOrangeRobot" Mono="False" />
 </data>

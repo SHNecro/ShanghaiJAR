@@ -376,6 +376,7 @@
     <Compile Include="Common\Face.cs" />
     <Compile Include="Common\FaceId.cs" />
     <Compile Include="Common\VariableArray.cs" />
+    <Compile Include="Effect\SageFloat.cs" />
     <Compile Include="Effect\KeystoneUnlock.cs" />
     <Compile Include="Effect\ShanghaiHeavenWarp.cs" />
     <Compile Include="Effect\PetalBreeze.cs" />
@@ -1374,6 +1375,7 @@
     <Content Include="Graphics\chipicone.png" />
     <Content Include="Graphics\druidman.png" />
     <Content Include="Graphics\druidmanSP.png" />
+    <Content Include="Graphics\Face10.png" />
     <Content Include="Graphics\flandre.png" />
     <Content Include="Graphics\flandreAttack.png" />
     <Content Include="Graphics\ranDS.png" />
@@ -2174,7 +2176,9 @@
     <Content Include="Language\en-US\Messages\EirinCallInfo.xml" />
     <Content Include="Language\en-US\Messages\GenBoard.xml" />
     <Content Include="Language\en-US\Messages\HumorInfo.xml" />
-    <Content Include="Language\en-US\Messages\RequestBoard.xml" />
+    <Content Include="Language\en-US\Messages\RequestBoard.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\en-US\Messages\RequestBoardComplete.xml" />
     <Content Include="Language\en-US\Messages\ShanghaiInfo.xml" />
     <Content Include="Language\en-US\Messages\ShanghaiRequestInfo.xml" />
