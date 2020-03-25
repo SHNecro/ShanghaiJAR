@@ -593,7 +593,7 @@ namespace NSGame
                 this.ValList[199] = 1;
             }
 
-            // 1: 0.550, fix chip ID issues, add illegal chips to library (only recordkeeping)
+            // 1: 0.550, fix chip ID issues, add illegal chips to library (only recordkeeping), set new hint message
             // Refund duplicate addons
             if (this.ValList[199] == 1)
             {
@@ -767,6 +767,11 @@ namespace NSGame
                     });
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat").Format(refundedAddonsString));
                     this.AddOnRUN();
+                }
+
+                if (this.ValList[3] == 101)
+                {
+                    this.ValList[3] = 102;
                 }
 
                 this.ValList[199] = 2;

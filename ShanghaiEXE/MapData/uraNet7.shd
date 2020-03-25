@@ -608,7 +608,7 @@ event:
 end
 
 ID:Keystone-AutoClearVar15
-position:-26:403:0
+position:-46:399:0
 page:1
 startterms:Auto
 type:1
@@ -854,6 +854,7 @@ bgmfade:0:1200:False
 msg:Map.UraNet7PostgameKeystoneUnlockStage3Dialogue1
 msg:Map.UraNet7PostgameKeystoneUnlockStage3Dialogue2
 msg:Map.UraNet7PostgameKeystoneUnlockStage3Dialogue3
+editValue:3:False:0:0:103
 bgmfade:0:60:True
 bgmLoad:
 bgmfade:100:240:False

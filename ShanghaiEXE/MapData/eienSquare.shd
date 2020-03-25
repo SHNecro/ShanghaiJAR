@@ -158,9 +158,7 @@ graphic:12:0,0,7,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
-msgopen:
 EventLun:SageDoorEvent:-1
-msgclose:
 end
 page:4
 startterms:Abutton
@@ -235,9 +233,7 @@ graphic:12:0,0,7,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
-msgopen:
 EventLun:SageDoorEvent:-1
-msgclose:
 end
 page:7
 startterms:Abutton
@@ -1362,6 +1358,7 @@ hitform:square
 event:
 fade:40:255:0:0:0:True
 mapChange:eienSquare:259:72:0:0
+emove:3章千里眼爺さん:waydown,0:wait,0
 emove:プレイヤー:wayup,0:wait,0
 fade:40:0:0:0:0:True
 msgopen:
@@ -1410,6 +1407,8 @@ msg:Map.EienSquareSagePostgameStage4Dialogue3
 msg:Map.EienSquareSagePostgameStage4Dialogue4
 msg:Map.EienSquareSagePostgameStage4Dialogue5
 EventLun:SageQuizProgress:-1
+editFlag:802:True
+editValue:3:False:0:0:106
 msgclose:
 end
 

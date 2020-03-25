@@ -405,15 +405,36 @@ namespace Messages
 				{
 					ShanghaiEXE.Translate("Messages.AliceInfo100Dialogue1Alice"),
 				},
+                // 100
 				new Dialogue[]
 				{
 					ShanghaiEXE.Translate("Messages.AliceInfo101Dialogue1Alice"),
 				},
-				new Dialogue[]
-				{
-					ShanghaiEXE.Translate("Messages.AliceInfo102Dialogue1Alice"),
-				},
-			};
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.AliceInfo102Dialogue1Alice"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.AliceInfo103Dialogue1Alice"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.AliceInfo104Dialogue1Alice"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.AliceInfo105Dialogue1Alice"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.AliceInfo106Dialogue1Alice"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.AliceInfo107Dialogue1Alice"),
+                },
+            };
         }
     }
 }

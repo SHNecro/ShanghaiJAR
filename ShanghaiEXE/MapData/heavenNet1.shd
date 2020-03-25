@@ -221,6 +221,7 @@ msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue5
 msg:Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue6
 msgclose:
 editFlag:793:True
+editValue:3:False:0:0:104
 stopSkip:
 eventDeath:
 end
@@ -230,16 +231,13 @@ position:194:106:0
 page:1
 startterms:Abutton
 type:0
-terms:none
+terms:!flag/796
 move:
 speed:3
 graphic:-25:0,740,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:MidAreaDoorShadow
@@ -269,6 +267,7 @@ msg:Map.HeavenNet1MidAreaDoorStage2Dialogue2
 msg:Map.HeavenNet1MidAreaDoorStage2Dialogue3
 msg:Map.HeavenNet1MidAreaDoorStage2Dialogue4
 msg:Map.HeavenNet1MidAreaDoorStage2Dialogue5
+editValue:3:False:0:0:105
 ifEnd:1
 ifEnd:0
 ifValue:7:False:12345:0:0
@@ -286,16 +285,13 @@ position:504:282:0
 page:1
 startterms:Abutton
 type:2
-terms:none
+terms:!flag/809
 move:
 speed:3
 graphic:-25:0,740,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:SpecialDoorShadow7
@@ -303,7 +299,7 @@ position:504:282:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/809
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -321,7 +317,7 @@ position:577:368:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/808
 move:
 speed:3
 graphic:-25:0,684,32,56,4
@@ -338,7 +334,7 @@ position:577:368:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/808
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -356,16 +352,13 @@ position:62:202:0
 page:1
 startterms:Abutton
 type:0
-terms:none
+terms:!flag/807
 move:
 speed:3
 graphic:-25:0,740,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:SpecialDoorShadow5
@@ -373,7 +366,7 @@ position:62:202:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/807
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -391,16 +384,13 @@ position:113:368:0
 page:1
 startterms:Abutton
 type:2
-terms:none
+terms:!flag/806
 move:
 speed:3
 graphic:-25:0,684,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:SpecialDoorShadow4
@@ -408,7 +398,7 @@ position:113:368:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/806
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -426,16 +416,13 @@ position:481:83:0
 page:1
 startterms:Abutton
 type:0
-terms:none
+terms:!flag/805
 move:
 speed:3
 graphic:-25:0,684,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:SpecialDoorShadow3
@@ -443,7 +430,7 @@ position:481:83:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/805
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -461,16 +448,13 @@ position:403:353:0
 page:1
 startterms:Abutton
 type:2
-terms:none
+terms:!flag/804
 move:
 speed:3
 graphic:-25:0,684,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:SpecialDoorShadow2
@@ -478,7 +462,7 @@ position:403:353:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/804
 move:
 speed:0
 graphic:-1:0,0,0,0,0
@@ -496,16 +480,13 @@ position:290:370:0
 page:1
 startterms:Abutton
 type:0
-terms:none
+terms:!flag/803
 move:
 speed:3
 graphic:-25:0,684,32,56,4
 hitrange:0:0:0:0
 hitform:square
 event:
-msgopen:
-msg:Map.HeavenNet1Name
-msgclose:
 end
 
 ID:SpecialDoorShadow1
@@ -513,7 +494,7 @@ position:290:370:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:!flag/803
 move:
 speed:0
 graphic:-1:0,0,0,0,0

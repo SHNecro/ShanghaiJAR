@@ -408,6 +408,7 @@ namespace Messages
 				{
 					ShanghaiEXE.Translate("Messages.ShanghaiInfo100Dialogue1Shanghai"),
 				},
+                // 100
 				new Dialogue[]
 				{
 					ShanghaiEXE.Translate("Messages.ShanghaiInfo101Dialogue1Shanghai"),
@@ -416,7 +417,27 @@ namespace Messages
 				{
 					ShanghaiEXE.Translate("Messages.ShanghaiInfo102Dialogue1Shanghai"),
 				},
-			};
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.ShanghaiInfo103Dialogue1Shanghai"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.ShanghaiInfo104Dialogue1Shanghai"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.ShanghaiInfo105Dialogue1Shanghai"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.ShanghaiInfo106Dialogue1Shanghai"),
+                },
+                new Dialogue[]
+                {
+                    ShanghaiEXE.Translate("Messages.ShanghaiInfo107Dialogue1Shanghai"),
+                },
+            };
         }
     }
 }
