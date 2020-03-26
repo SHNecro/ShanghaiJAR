@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.ClockTowerReal3fName" Value="Clock Tower Interior Stairwell" />
   <!-- だれがよんだか　クイズキング〜だれがよんだか　クイズキング〜 -->
@@ -76,7 +76,7 @@
   <!-- ５問目６問目７問目 -->
   <Text Key="Map.ClockTowerReal3fQuizKingStage1Dialogue29Options" Value="5th,6th,7th" />
   <!-- ぐぬっ！では折返しとなる８問目！ -->
-  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue30FaceMaleElderly" Value="Though I had ya! Question 8!" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue30FaceMaleElderly" Value="Thought I had ya! Question 8!" Face="MaleElderly" Mono="False" />
   <!-- ゲンソウエリア２の店先にあった青色のミステリーデータその中身はいったい何？ -->
   <Dialogue Key="Map.ClockTowerReal3fQuizKingStage1Dialogue31FaceMaleElderly" Value="There was a blue mystery data, in Genso Area 2 by the shop.,What was in it?" Face="MaleElderly" Mono="False" />
   <!--  -->

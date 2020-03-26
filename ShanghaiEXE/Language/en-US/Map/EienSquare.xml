@@ -426,7 +426,7 @@
   <Dialogue Key="Map.EienSquareSagePostgameDialogue10" Value="Hummmmmmm...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue1" Value="Uhh....?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue2" Value="--sin， sin， ack，ack--,--attest--,--nine to tonight--" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue3" Value="--moshi moshi--,--grail--,--understand--" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue3" Value="--moshi moshi--,--trial--,--understand--" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage3Dialogue1" Value="You alright there，old man?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage3Dialogue2" Value="Just fine，just fine，never better!,Nothing to worry about，girl!" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue1" Value="....So，did you find anything?" Face="Shanghai" Mono="False" />
@@ -443,6 +443,17 @@
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1ResponseDialogue1" Value="Ugh....,You better not be wasting my,time! I’ll be right back!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue1" Value="What does that even mean?!,Would it kill you to talk straight?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue2" Value="I’m sorry!,My visions only give me so,much I can say!" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3ResponseDialogue1" Value="I hope this is the last one.,You better hope so， too." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3ResponseDialogue1" Value="I hope this is it.,You better hope so， too." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3ResponseDialogue2" Value="Eek!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteSequenceBreakDialogue1" Value=".... Well， the good news is that,you’ve already taken all the,steps that I was given." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteNormalDialogue1" Value="Congratulations，miss!,You’re at the final step!,Please calm down!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteDialogue1" Value="Now，I owe you an apology.,I haven’t been completely,honest with you." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteDialogue2" Value="But at my age，I can’t afford to,ignore anyone potentially in,charge of the afterlife." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteDialogue3" Value="Beings of power can detect,when I search for them，as I,found out some years ago." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteDialogue4" Value="So when you came to me with,that question，the admin of that,area gave me -- and you --" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteDialogue5" Value="a trial to determine whether to,allow us entry，now or later.,Please forgive me." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue1" Value="Fine.,But you owe me." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue2" Value="Then there’s one last thing I’ll,owe you for." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue3" Value="I suppose it’s fitting that your,last test will be something I was,brought into this world to do...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue4" Value="Give me a couple of minutes,to spin up some old routines.,I’ll meet you where we first met." Face="NaviOrangeRobot" Mono="False" />
 </data>
