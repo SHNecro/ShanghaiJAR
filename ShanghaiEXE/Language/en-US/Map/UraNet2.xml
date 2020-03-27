@@ -172,7 +172,7 @@
   <!-- でも　どうやって調べに行こうかしら -->
   <Dialogue Key="Map.UraNet27BookerStage1Dialogue31FaceAlice" Value="Where do we start，then?" Face="Alice" Mono="False" />
   <!-- 中央街の電話ボックスからボーダーコンツェルンの社内ネットワークに行けたはず -->
-  <Dialogue Key="Map.UraNet27BookerStage1Dialogue32FaceShanghai" Value="The phone in front of their office,shoud connect to their company,intranet." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue32FaceShanghai" Value="The phone in front of their office,should connect to the company,intranet." Face="Shanghai" Mono="False" />
   <!-- あたしがうまくやるからとりあえずそこに向かいましょう -->
   <Dialogue Key="Map.UraNet27BookerStage1Dialogue33FaceShanghai" Value="That will at least get us started，,so let’s head over there." Face="Shanghai" Mono="False" />
   <!-- わかったわ -->

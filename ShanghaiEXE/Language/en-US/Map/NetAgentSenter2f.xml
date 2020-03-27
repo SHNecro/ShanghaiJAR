@@ -15,7 +15,7 @@
   <!-- あえて心地を悪くすることで長時間の休憩を抑止しているのだろうか？ -->
   <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue3FaceNone" Value="Is it some sort of productivity,trick? Maybe management,doesn’t like long breaks." Face="None" Mono="False" />
   <!-- 買った商品がリフトで下まで運ばれるタイプの自動販売機だ -->
-  <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue1FaceNone" Value="It’s one of those fancy vending,machines that uses a platform,to delivers your item to the slot." Face="None" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue1FaceNone" Value="It’s one of those fancy vending,machines that uses a platform,to deliver your item to the slot." Face="None" Mono="False" />
   <!-- ラインナップはパンが多くこれを昼食にする隊員が多いのだと予想できる -->
   <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue2FaceNone" Value="It’s full of lunch foods and bread，,for the working NetAgent." Face="None" Mono="False" />
   <!-- ちょっと！せっかく廊下のど真ん中に立ってるのに無視！？ -->

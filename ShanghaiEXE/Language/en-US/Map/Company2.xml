@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ボーダーコンツェルン本社　エレベーターホール -->
   <Text Key="Map.Company2Name" Value="Border Concern HQ Elevator Hallway" />
@@ -11,7 +11,7 @@
   <!-- 社長ってことは紫さんと会うのよね････ -->
   <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue4FaceAlice" Value="The president...." Face="Alice" Mono="False" />
   <!-- 私　あの人が悪い人には見えなかったから････ -->
-  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue5FaceAlice" Value="I didn’t see Preisdent Yukari,as a bad person...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue5FaceAlice" Value="I didn’t see President Yukari,as a bad person...." Face="Alice" Mono="False" />
   <!-- 悪人顔をした悪人など世の中では少数派だ -->
   <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue6FaceReisen" Value="Very few in the world are as,ugly outside as they are within." Face="Reisen" Mono="False" />
   <!-- 生まれたときからの悪人など存在しない -->
