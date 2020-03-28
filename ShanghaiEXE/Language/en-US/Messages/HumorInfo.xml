@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- アリス　ユーモアトークを付けたからといって必ずしも面白いことは言わないのよ -->
   <Dialogue Key="Messages.HumorInfo1Dialogue1Shanghai" Value="Alice，just because you added,a Humor AddOn doesn’t mean,that I’ll say something funny." Face="Shanghai" Mono="False" />
@@ -607,7 +607,7 @@
   <!-- おっ、なんだ？私の話でもしてるのか？ -->
   <Dialogue Key="Messages.HumorInfo39Dialogue4Kumami" Value="Hmm? Are you guys talking,about me?" Face="Kumami" Mono="False" />
   <!-- あっみ　の人だ -->
-  <Dialogue Key="Messages.HumorInfo39Dialogue5Shanghai" Value="Ah! Look，a man!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo39Dialogue5Shanghai" Value="Ah!,Look，a distraction!" Face="Shanghai" Mono="False" />
   <!-- み！？ -->
   <Dialogue Key="Messages.HumorInfo39Dialogue6Kumami" Value="Where?!" Face="Kumami" Mono="False" />
   <!-- レミリアに天子にリグル････あんたって女の子ばかり落としてるわよね -->

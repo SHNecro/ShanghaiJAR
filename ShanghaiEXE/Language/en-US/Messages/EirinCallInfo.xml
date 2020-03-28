@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- あら　さっそく渡したアドオン使ってくれたのね -->
   <Dialogue Key="Messages.EirinCallInfo1Dialogue1Eirin" Value="You’re already using the,AddOn I gave you?" Face="Eirin" Mono="False" />
@@ -61,7 +61,7 @@
   <!-- ちなみに炉から出る光線は炉の内部にあるスパークダケというキノコによるものなの -->
   <Dialogue Key="Messages.EirinCallInfo4Dialogue5Eirin" Value="The laser beam that they,fire come from Sparktake,mushrooms living in the shell." Face="Eirin" Mono="False" />
   <!-- スパークダケはゲルパークの背中に生える電脳キノコで熱を与えると放電するの -->
-  <Dialogue Key="Messages.EirinCallInfo4Dialogue6Eirin" Value="Sparktake take shell’s heat,and turn it into electricity,that can be discharged." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue6Eirin" Value="Sparktake take the shell’s heat,and turn it into electricity,that can be discharged." Face="Eirin" Mono="False" />
   <!-- 炉の中にキノコの電気を蓄えビームの形にして発射するという仕組みなわけね -->
   <Dialogue Key="Messages.EirinCallInfo4Dialogue7Eirin" Value="That’s how the GelPack can,fire those huge beams." Face="Eirin" Mono="False" />
   <!-- スパークダケも一度食べてみたいわね -->

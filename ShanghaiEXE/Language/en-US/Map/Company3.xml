@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ボーダーコンツェルン　社長室 -->
   <Text Key="Map.Company3Name" Value="Border Concern HQ President Office" />
@@ -236,7 +236,7 @@
   <!-- 新社長････と言う割にはやけに若いわね？ -->
   <Dialogue Key="Map.Company3Request15MerryStage1Dialogue3FaceShanghai" Value="The new president....,Aren’t you a bit young?" Face="Shanghai" Mono="False" />
   <!-- 前社長の姪というだけでこの地位に据えられた人間でもあるから -->
-  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue4FaceMaribel" Value="I was given the position as the,neice of the previous president." Face="Maribel" Mono="False" />
+  <Dialogue Key="Map.Company3Request15MerryStage1Dialogue4FaceMaribel" Value="I was given the position as the,niece of the previous president." Face="Maribel" Mono="False" />
   <!-- いつかはこうなると思ってちゃんと経営の勉強はしっかりしてたけどね -->
   <Dialogue Key="Map.Company3Request15MerryStage1Dialogue5FaceMaribel" Value="I anticipated this would happen,some day，so I had already,begun studying business." Face="Maribel" Mono="False" />
   <!-- うちのバカ伯母がご迷惑をおかけしました -->

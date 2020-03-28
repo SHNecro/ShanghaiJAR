@@ -236,4 +236,13 @@
   <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue5FaceShanghai" Value="I have to break in and save her!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3PostGameBystander1Dialogue1" Value="Oh，I got lost....,This Area is just too,complicated!" Face="NaviBlueRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="Mistress Shanghai!,Nothing out of the ordinary to,report!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="I had the oddest feeling you,would seek me out here...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="Well，you’ve found me.,And you’ve passed all of my,students’ tests." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="Surprised? One of my earliest,test functions was to generate,quizzes from what I learned." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="No catchy theme song this,time，I’m afraid，my partner’s,moved on to bigger things." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="No catchy theme song this time，,I’m afraid." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="I’m sure you want to get started，,and my partner’s moved on to,bigger things anyways." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="Ready for QuizBot’s final,routine?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="Yes,No" />
+  <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="I understand，take all the time,you need to prepare." Face="NaviOrangeRobot" Mono="False" />
 </data>

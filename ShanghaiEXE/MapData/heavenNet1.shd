@@ -257,6 +257,7 @@ msg:Map.HeavenNet1MidAreaDoorStage1Dialogue1
 msg:Map.HeavenNet1MidAreaDoorStage1Dialogue2
 editValue:7:False:0:0:0
 numset:Map.HeavenNet1MidAreaDoorStage1Dialogue3Question:7:5
+canSkip:
 ifValue:7:False:12345:5:0
 seon:error
 ifFlag:795:False:1
@@ -268,6 +269,8 @@ msg:Map.HeavenNet1MidAreaDoorStage2Dialogue3
 msg:Map.HeavenNet1MidAreaDoorStage2Dialogue4
 msg:Map.HeavenNet1MidAreaDoorStage2Dialogue5
 editValue:3:False:0:0:105
+msgclose:
+stopSkip:
 ifEnd:1
 ifEnd:0
 ifValue:7:False:12345:0:0
@@ -276,8 +279,8 @@ editFlag:797:True
 ifEnd:1
 editFlag:796:True
 msg:Debug.UnimplementedText
-ifEnd:0
 msgclose:
+ifEnd:0
 end
 
 ID:SpecialDoor7

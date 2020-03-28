@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.EienBoard1Dialogue1None" Value="Hello hello!,It’s Eien Square’s crown jewel，,the Budget Chat Board!" Face="None" Mono="False" />
   <Dialogue Key="Messages.EienBoard1Dialogue2None" Value="Let’s share useful info about,everything from life to,NetBattling!" Face="None" Mono="False" />
@@ -148,7 +148,7 @@
   <!-- レア度の高いチップといえばナビチップがありますね -->
   <Dialogue Key="Messages.EienBoard25Dialogue2None" Value="But a rare chip，huh....?,I guess a Navi chip would,count as rare." Face="None" Mono="False" />
   <!-- 手に入れたときのために友達のナビをレベルＳで倒せるように練習しておこうかな -->
-  <Dialogue Key="Messages.EienBoard25Dialogue3None" Value="I wonder I should practice,S-ranking my friend’s Navi,for when I find a CrimNois." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard25Dialogue3None" Value="I wonder if I should practice,S-ranking my friend’s Navi,for when I find a CrimNois." Face="None" Mono="False" />
   <!-- そんなチップがあるんだったらデータリストのコンプリートできないじゃないですかー！ -->
   <Dialogue Key="Messages.EienBoard26Dialogue1None" Value="But if normal people can’t,get those versions，how will,we complete our libraries?" Face="None" Mono="False" />
   <!-- もう少しでコンプリートできそうなのに････くすん（泣） -->

@@ -1683,6 +1683,17 @@ msg:Map.GencityChapter3TankStage1Dialogue3FaceNone
 msg:Map.GencityChapter3TankStage1Dialogue4FaceNone
 msgclose:
 end
+page:2
+startterms:Abutton
+type:1
+terms:flag/764,variable/10/False/5/8
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:2:2:0:30
+hitform:square
+event:
+end
 
 ID:3章戦車Plugin
 position:148:276:0
@@ -1694,6 +1705,18 @@ move:
 speed:0
 graphic:-7:0,0,0,0,0
 hitrange:24:24:1:3
+hitform:square
+event:
+plugIn:kumamiTank:106:106:0:3
+end
+page:2
+startterms:Rbutton
+type:1
+terms:flag/764,variable/10/False/5/8
+move:
+speed:0
+graphic:-7:0,0,0,0,0
+hitrange:2:2:0:41
 hitform:square
 event:
 plugIn:kumamiTank:106:106:0:3
