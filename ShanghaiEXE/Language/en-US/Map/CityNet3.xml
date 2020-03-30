@@ -239,10 +239,56 @@
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="I had the oddest feeling you,would seek me out here...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="Well，you’ve found me.,And you’ve passed all of my,students’ tests." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="Surprised? One of my earliest,test functions was to generate,quizzes from what I learned." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="No catchy theme song this,time，I’m afraid，my partner’s,moved on to bigger things." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="No catchy theme song this,time I’m afraid，my partner’s,moved on to bigger things." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="No catchy theme song this time，,I’m afraid." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="I’m sure you want to get started，,and my partner’s moved on to,bigger things anyways." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="Ready for QuizBot’s final,routine?" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="Yes,No" />
   <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="I understand，take all the time,you need to prepare." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizFailureDialogue1" Value="I’m sorry， that’s unfortunately,incorrect!,You’ll have to try again!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion1Question" Value="1! Easy one!,How many areas deep does,the Undernet go?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion1Options" Value="6,8,10" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion2Question" Value="2!,What book has had all copies,checked out at the library?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion2Options" Value="Samurai Slayer,A Misfit Student (Me),Forbidden Scrollery" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion3Question" Value="3! What was the University,student in the lobby writing his,thesis on?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion3Options" Value="The ecology of viruses,The rights of NetNavis,The rise of Net Crime" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion4Question" Value="4! How many students can a,Genso Middle School,classroom seat?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion4Options" Value="12,16,20" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion5Question" Value="5! Some history for you!,What system was hacked，,sparking the Cyber Wars?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion5Options" Value="Environmental controls,Drone controls,Missile guidance" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion6Question" Value="6! One just for you!,What fruit is on the brim of your,friend Tenshi’s Navi’s hat?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion6Options" Value="Peach,Plum,Blackberry" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion7Question" Value="7!,What side of the road do the,Engellese drive on?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion7Options" Value="Left,Right,Depends on province" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion8Question" Value="8! Bringing it back home!,How many public jack-in points,are there in Genso City?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion8Options" Value="2,3,4" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion9Question" Value="9!,Which of these viruses belongs,to the Lansir family?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion9Options" Value="Legion,Piker,Hoplite" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion10Dialogue1" Value="10! Whew，halfway there!,Y’know what，let’s use this,one to just enjoy the view." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion10Question" Value="How many different windows,turn on their lights in one block,of the City Area background?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion10Options" Value="20,21,24" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion11Question" Value="11，then! Easing back into it!,What object is the entrance to,the Border Concern network?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion11Options" Value="Statue,Trash can,Phone booth" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion12Question" Value="12!,What does CWF stand for in,the acronym CWFD?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion12Options" Value="Cardiac Wasting Fascinoma,Congenital Weakness Factor,Circulatory Warble Frequency" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion13Question" Value="13，you’ve done well!,Including every quiz，what,number is this question?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion13Options" Value="38th,43rd,48th" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion14Question" Value="14 now!,How sets of stairs are there in,the Engelles Clock Tower?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion14Options" Value="4,5,6" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion15Question" Value="15!,What shape is the middle tier,of the University fountain?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion15Options" Value="Square,Hexagon,Octagon" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion16Question" Value="16! You should know this one!,What was the name of the ,tournament you won?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion16Options" Value="N1 Tournament,N1 Grand Prix,Lunar Competition" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion17Question" Value="17! Almost there!,What was Border Concern’s,original name?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion17Options" Value="Internal Concerns Inc.,Frontier Solutions,Border Trading Co." />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion18Question" Value="18!,Which one of these is a real,Barrier chip?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion18Options" Value="HealBarr,PwrBarr,Barr100" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion19Question" Value="19! Sorry about this one!,How many teeth do the skull,doors have?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion19Options" Value="3,4,5" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion20Question" Value="20! Final question!,I’ll be a little sad if you get this,one wrong!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion20Dialogue1" Value="What chip did I ask you for,the first time we met?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion20Options" Value="Recov20 ＊,Recov10 ＊,RayGun C" />
+  <Dialogue Key="Map.CityNet3SageQuizCheckpoint" Value="Let’s start at the halfway point，,I know you know the first half,already." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizBlankQuestion" Value="" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue1" Value="That’s it，then!,You’ve answered everything,correctly!" Face="NaviOrangeRobot" Mono="False" />
 </data>

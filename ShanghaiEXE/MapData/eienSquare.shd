@@ -1409,8 +1409,11 @@ msg:Map.EienSquareSagePostgameStage4Dialogue5
 msgclose:
 stopSkip:
 emove:3章千里眼爺さん:waydown,0:wait,0
+ifFlag:618:False:0
 wait:45:False
+ifEnd:0
 ifFlag:618:True:0
+wait:15:False
 editFlag:798:True
 ifEnd:0
 EventLun:SageQuizProgress:-1

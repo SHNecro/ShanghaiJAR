@@ -83,9 +83,9 @@
   <!-- 高級ソファ -->
   <Text Key="Interior.Item45" Value="HighClassSofa" />
   <!-- インゲレス街路樹 -->
-  <Text Key="Interior.Item46" Value="InglesStreetTree" />
+  <Text Key="Interior.Item46" Value="StreetTree" />
   <!-- 名探偵の像 -->
-  <Text Key="Interior.Item47" Value="DetectiveStatue" />
+  <Text Key="Interior.Item47" Value="DtctiveStatue" />
   <!-- バス停 -->
   <Text Key="Interior.Item48" Value="BusStation" />
   <!-- ねこどるぐるみ -->
@@ -93,7 +93,7 @@
   <!-- ダンボール -->
   <Text Key="Interior.Item50" Value="Cardboard" />
   <!-- 二段ダンボール -->
-  <Text Key="Interior.Item51" Value="FancyCardboard" />
+  <Text Key="Interior.Item51" Value="FancyCardbrd" />
   <Text Key="NumberSet.SetNumberFormat" Value="{0},,(Up，Down changes number)" />
   <Text Key="MysteryItem.BattleChipText" Value="Battle Chip" />
   <Text Key="MysteryItem.SubChipText" Value="Sub Chip" />
