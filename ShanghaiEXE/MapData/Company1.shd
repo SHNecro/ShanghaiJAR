@@ -1,4 +1,4 @@
-13,31,-51,-78,680,616,Map.Company1Name,0,1,2,0,0,Company1f,6
+13,31,-51,-78,680,616,Map.Company1Name,0,1,2,0,0,Company1f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -186,7 +186,7 @@ msg:Map.Company1Chapter7EventsStage5Dialogue8FaceShanghai
 msgclose:
 fade:60:255:0:0:0:True
 wait:30:False
-plugInNO:CompanyServer1:138:43:1:3
+plugInNO:CompanyServer1:138:43:1:0
 stopSkip:
 fade:60:0:0:0:0:True
 end

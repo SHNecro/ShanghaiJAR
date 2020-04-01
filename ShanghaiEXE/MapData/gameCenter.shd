@@ -1,4 +1,4 @@
-24,18,-273,9,656,512,Map.GameCenterName,0,1,1,0,0,gameCenter,339
+24,18,-273,9,656,512,Map.GameCenterName,0,1,1,0,0,gameCenter,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
@@ -212,7 +212,7 @@ msg:Map.GameCenterChapter3EventsStage13Dialogue13FaceAlice
 msg:Map.GameCenterChapter3EventsStage13Dialogue14FaceShanghai
 msgclose:
 battle:42:4:4:1:11:67:92:800:Map.GameCenterChapter3EventsBattle1Enemy1:0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:False:True:Tournament:17
-plugInNO:netBattleMachineGame:114:58:0:3
+plugInNO:netBattleMachineGame:114:58:0:0
 end
 page:2
 startterms:Auto

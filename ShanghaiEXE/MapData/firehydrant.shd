@@ -1,4 +1,4 @@
-24,24,-272,-112,784,400,Map.FirehydrantName,0,1,0,113,1,mobcyber,8
+24,24,-272,-112,784,400,Map.FirehydrantName,0,1,0,113,1,mobcyber,0
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -24,10 +24,10 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 
-battle:1:1:5:0:0:0:0:0::1:1:5:1:0:0:0:0::1:1:5:2:0:0:0:0::0:0:1:False:True:True:True:VSvirus
-battle:1:1:3:0:0:0:0:0::1:1:5:1:0:0:0:0::1:1:4:2:0:0:0:0::0:0:1:False:True:True:True:VSvirus
-battle:17:2:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:17:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:1:1:5:0:1:1:1:0::1:1:5:1:1:1:1:0::1:1:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:1:1:3:0:1:1:1:0::1:1:5:1:1:1:1:0::1:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:17:2:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:17:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 
 
@@ -43,7 +43,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2
@@ -110,7 +110,7 @@ event:
 msgopen:
 msg:Map.FirehydrantTestSprite2Stage1Dialogue1FaceSprite
 msgclose:
-battle:14:1:5:0:1:121:158:300:Map.FirehydrantTestSprite2Battle1Enemy1:41:4:4:1:21:44:18:200:Map.FirehydrantTestSprite2Battle1Enemy2:14:2:5:2:3:3:3:200:Map.FirehydrantTestSprite2Battle1Enemy3:0:0:1:False:True:False:True:VSvirus:0
+battle:14:1:5:0:1:1:1:0::41:4:4:1:1:1:1:0::14:2:5:2:1:1:1:0::0:0:1:False:True:False:True:VSvirus:0
 fade:21:0:0:0:0:False
 end
 
@@ -130,6 +130,29 @@ msgopen:
 msg:Map.FirehydrantSprite2Stage1Dialogue1FaceSprite
 msg:Map.FirehydrantSprite2Stage1Dialogue2FaceSprite
 msgclose:
+end
+
+ID:サプチップ商人
+position:96:158:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:0
+graphic:2:2,0,3,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.FirehydrantASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot
+question:Map.FirehydrantASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot:Map.FirehydrantASub-chipMerchantStage1Dialogue2Options
+BranchHead:0
+shop:0:1:0:2:2:0:0,0,0,0:2,0,0,0:3,0,0,0
+BranchEnd:
+BranchHead:1
+msgclose:
+BranchEnd:
 end
 
 MysteryID:ミステリー3：エリアバッシュ　＊
@@ -156,29 +179,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:サプチップ商人
-position:96:158:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:0
-graphic:2:2,0,3,0,0
-hitrange:3:0:0:0
-hitform:circle
-event:
-msgopen:
-msg:Map.FirehydrantASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot
-question:Map.FirehydrantASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot:Map.FirehydrantASub-chipMerchantStage1Dialogue2Options
-BranchHead:0
-shop:0:1:0:2:2:0:0,0,0,0:2,0,0,0:3,0,0,0
-BranchEnd:
-BranchHead:1
-msgclose:
-BranchEnd:
 end
 
 MysteryID:ミステリー127：700ゼニー

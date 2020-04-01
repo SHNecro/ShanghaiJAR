@@ -1,4 +1,4 @@
-24,24,-272,-112,784,400,Map.PartytableName,0,1,21,104,1,mobcyber,25
+24,24,-272,-112,784,400,Map.PartytableName,0,1,21,104,1,mobcyber,0
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -39,7 +39,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2

@@ -176,13 +176,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:42:12:5:1:170:149:36:300:Map.CompanyServer2RandomBattle1Enemy1:33:3:4:0:1:1:1:0::33:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:12:5:1:170:149:36:300:Map.CompanyServer2RandomBattle2Enemy1:27:3:3:0:1:1:1:0::27:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer2RandomBattle3Enemy1:12:2:5:0:1:1:1:0::2:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer2RandomBattle4Enemy1:20:3:5:0:1:1:1:0::20:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:0:68:72:158:600:Map.CompanyServer2RandomBattle5Enemy1:42:12:5:2:170:149:36:300:Map.CompanyServer2RandomBattle5Enemy2:0:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:2:3:3:0:1:1:1:0::33:3:4:1:1:1:1:0::2:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:12:2:3:0:1:1:1:0::12:2:5:1:1:1:1:0::20:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:42:12:5:1:170:149:36:300:Map.CompanyServer2RandomBattle1Enemy1:33:3:4:0:1:1:1:0::33:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:12:5:1:170:149:36:300:Map.CompanyServer2RandomBattle2Enemy1:27:3:3:0:1:1:1:0::27:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer2RandomBattle3Enemy1:12:2:5:0:1:1:1:0::2:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer2RandomBattle4Enemy1:20:3:5:0:1:1:1:0::20:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:0:68:72:158:600:Map.CompanyServer2RandomBattle5Enemy1:42:12:5:2:170:149:36:300:Map.CompanyServer2RandomBattle5Enemy2:0:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:2:3:3:0:1:1:1:0::33:3:4:1:1:1:1:0::2:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:12:2:3:0:1:1:1:0::12:2:5:1:1:1:1:0::20:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 
@@ -1057,7 +1057,7 @@ msgopen:
 msg:Map.CompanyServer2PunishmentStage1Dialogue1FaceNone
 msg:Map.CompanyServer2PunishmentStage1Dialogue2FaceNone
 msgclose:
-battle:42:12:4:1:6:6:6:1100:Map.CompanyServer2PunishmentBattle1Enemy1:0:14:4:2:3:3:3:1100:Map.CompanyServer2PunishmentBattle1Enemy2:0:1:5:1:1:1:1:0::0:0:1:False:False:False:True:Tournament:27
+battle:42:12:4:1:6:6:6:1100:Map.CompanyServer2PunishmentBattle1Enemy1:0:14:4:2:1:1:1:0::0:1:5:1:1:1:1:0::0:0:1:False:False:False:True:Tournament:27
 EventLun:ギミックリセット:1
 bgmon:cyber_of_server
 fade:15:0:0:0:0:True

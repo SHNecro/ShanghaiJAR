@@ -1,4 +1,4 @@
-24,24,-272,-112,784,400,Map.AlicesHP2Name,0,1,0,0,0,mobcyber,77
+24,24,-272,-112,784,400,Map.AlicesHP2Name,0,1,0,0,0,mobcyber,0
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -996,8 +996,8 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-Interior:0
-bgmon:internet:0
+Interior:
+bgmon:internet
 eventDeath:
 end
 

@@ -122,6 +122,8 @@ namespace MapEditor.Models
                 encountersWithNewlineOrBlank += "\r\n";
             }
 
+            var mapObjectsString = this.MapObjects.StringValue;
+
             return string.Join("\r\n", new[]
             {
                 this.Header.StringValue,
@@ -130,8 +132,8 @@ namespace MapEditor.Models
                 encountersWithNewlineOrBlank,
                 this.RandomMysteryData.StringValue,
                 string.Empty,
-                this.MapObjects.StringValue
-            }).TrimEnd() + "\r\n\r\n\r\n";
+                mapObjectsString
+            }).TrimEnd() + "\r\n\r\n\r\n" + (string.IsNullOrWhiteSpace(mapObjectsString) ? "\r\n\r\n\r\n" : string.Empty);
         }
 
         protected override void SetStringValue(string value)

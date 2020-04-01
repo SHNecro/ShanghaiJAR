@@ -1,4 +1,4 @@
-18,32,-80,-116,624,328,Map.AlicesHPName,0,1,4,0,0,aliceHP,48
+18,32,-80,-116,624,328,Map.AlicesHPName,0,1,4,0,0,aliceHP,0
 1,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1,8,4,8,4,1,1,1,1,1,1,1,1,3,7,0,0,0
 8,4,8,4,1,1,1,1,1,1,1,1,1,1,3,7,0,0
@@ -351,7 +351,7 @@ ifEnd:1
 ifValue:7:False:0:1:0
 seon:get
 editValue:13:False:0:0:4
-money:0:False
+money:0:True
 msg:Map.AlicesHPWallpaperSpriteStage1Dialogue6FaceSprite
 ifEnd:0
 BranchEnd:
@@ -610,7 +610,7 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-bgmon:internet:0
+bgmon:internet
 eventDeath:
 end
 page:2

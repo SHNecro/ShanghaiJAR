@@ -1,4 +1,4 @@
-20,20,0,0,592,392,Map.CompanyB1Name,0,1,2,0,0,CompanyB1f,6
+20,20,0,0,592,392,Map.CompanyB1Name,0,1,2,0,0,CompanyB1f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -201,7 +201,7 @@ msg:Map.CompanyB1Chapter7EventsStage9Dialogue13FaceAlice
 msgclose:
 fade:60:255:0:0:0:True
 wait:30:False
-plugInNO:CompanyServerB:250:223:1:3
+plugInNO:CompanyServerB:250:223:1:0
 fade:60:0:0:0:0:True
 stopSkip:
 editValue:3:False:0:0:91

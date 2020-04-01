@@ -41,6 +41,7 @@ namespace MapEditor.ViewModels
         public ICommand LoadAllMapsCommand => new RelayCommand(this.LoadAllMaps);
         public ICommand DumpCommand => new RelayCommand(this.Dump);
         public ICommand DumpStringsCommand => new RelayCommand(this.DumpStrings);
+        public ICommand DumpMapsCommand => new RelayCommand(this.DumpMaps);
 
         private void LoadAllMaps()
         {
@@ -128,6 +129,27 @@ namespace MapEditor.ViewModels
                 }
 
                 this.CopyFolder(source, target);
+            }
+        }
+
+        private void DumpMaps()
+        {
+            var folderBrowserDialog = new CommonOpenFileDialog
+            {
+                RestoreDirectory = false,
+                InitialDirectory = Directory.GetCurrentDirectory(),
+                IsFolderPicker = true,
+                EnsureFileExists = true,
+                Title = "Export all maps"
+            };
+
+            var folderBrowserDialogSuccess = folderBrowserDialog.ShowDialog();
+            if (folderBrowserDialogSuccess == CommonFileDialogResult.Ok)
+            {
+                foreach (var map in this.allMaps)
+                {
+                    File.WriteAllText($"{Path.Combine(folderBrowserDialog.FileName, map.Name)}.shd", map.StringValue);
+                }
             }
         }
 

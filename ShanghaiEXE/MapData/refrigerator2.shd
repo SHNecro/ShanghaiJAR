@@ -1,4 +1,4 @@
-46,75,-376,-472,1600,880,Map.Refrigerator2Name,0,1,6,101,1,refrigerator2f,112
+46,75,-376,-472,1600,880,Map.Refrigerator2Name,0,1,6,101,1,refrigerator2f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -75,11 +75,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:8:1:3:0:1:1:1:0::8:1:3:2:1:1:1:0::17:1:5:1:1:1:1:0::0:4:1:False:True:True:True:VSvirus
-battle:29:1:5:0:1:1:1:0::29:1:3:1:1:1:1:0::8:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:17:1:4:0:1:1:1:0::17:1:3:1:1:1:1:0::17:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:8:1:4:0:1:1:1:0::29:1:3:1:1:1:1:0::8:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:1:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:8:1:3:0:1:1:1:0::8:1:3:2:1:1:1:0::17:1:5:1:1:1:1:0::0:4:1:False:True:True:True:VSvirus:0
+battle:29:1:5:0:1:1:1:0::29:1:3:1:1:1:1:0::8:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:17:1:4:0:1:1:1:0::17:1:3:1:1:1:1:0::17:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:8:1:4:0:1:1:1:0::29:1:3:1:1:1:1:0::8:1:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:1:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 
 
@@ -1427,6 +1427,52 @@ hitform:square
 event:
 end
 
+ID:エリア1へ
+position:200:36:0
+page:1
+startterms:Touch
+type:1
+terms:none
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:16:8:0:0
+hitform:square
+event:
+fade:15:255:0:0:0:True
+mapChange:refrigerator1:185:554:0:3
+fade:15:0:0:0:0:True
+end
+
+ID:BGMStart
+position:146:62:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:jump,32:right,16:left,16
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmon:cyber_of_refrigerator
+eventDeath:
+end
+page:2
+startterms:Auto
+type:0
+terms:variable/14/False/0/3
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmoff:
+eventDeath:
+end
+
 MysteryID:ミステリー12：マジカルボム　Q
 position:50:234:0
 Mystery:1,0,43,1,マジカルボム　Q,12
@@ -1607,52 +1653,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:エリア1へ
-position:200:36:0
-page:1
-startterms:Touch
-type:1
-terms:none
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:16:8:0:0
-hitform:square
-event:
-fade:15:255:0:0:0:True
-mapChange:refrigerator1:185:554:0:3
-fade:15:0:0:0:0:True
-end
-
-ID:BGMStart
-position:146:62:0
-page:1
-startterms:Auto
-type:1
-terms:none
-move:jump,32:right,16:left,16
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmon:cyber_of_refrigerator
-eventDeath:
-end
-page:2
-startterms:Auto
-type:0
-terms:variable/14/False/0/3
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmoff:
-eventDeath:
 end
 
 MysteryID:ミステリー46：ゴーストボディ　＊

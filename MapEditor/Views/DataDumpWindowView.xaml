@@ -23,6 +23,7 @@
                 <ProgressBar Grid.Column="1" Value="{Binding MapLoadProgress}" Minimum="0" Maximum="1" />
                 <TextBlock Grid.Column="2" Text="{Binding MapLoadProgressLabel}" />
             </Grid>
+            <Button Content="Export all map files" Command="{Binding DumpMapsCommand}" />
             <ComboBox SelectedIndex="0" SelectedValue="{Binding Operation, Mode=OneWayToSource}" SelectedValuePath="Content">
                 <ComboBoxItem Content="Chips" />
                 <ComboBoxItem Content="AddOns" />

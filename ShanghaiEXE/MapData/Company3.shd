@@ -1,4 +1,4 @@
-16,16,-144,20,512,392,Map.Company3Name,0,1,2,0,0,Company3f,50
+16,16,-144,20,512,392,Map.Company3Name,0,1,2,0,0,Company3f,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
 0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
@@ -237,7 +237,7 @@ emove:鈴仙:down,16:down,16:down,16:down,16
 fade:60:255:0:0:0:True
 emoveEnd:
 stopSkip:
-plugInNO:CompanyServer4:262:203:0:3
+plugInNO:CompanyServer4:262:203:0:0
 CameraDefault:0
 Facehere:
 editValue:22:False:0:0:0

@@ -1,4 +1,4 @@
-11,12,-72,16,360,352,Map.SeirenShipRoom103Name,0,1,1,0,0,SeirenShipRoom,48
+11,12,-72,16,360,352,Map.SeirenShipRoom103Name,0,1,1,0,0,SeirenShipRoom,0
 0,0,0,0,0,0,0,0,0,0,0
 0,1,1,1,1,1,1,1,1,1,0
 0,1,1,1,1,1,1,1,1,1,0
@@ -133,7 +133,7 @@ msgclose:
 bgmfade:0:120:False
 fade:120:255:0:0:0:True
 editFlag:436:True
-plugInNO:SeirenShipTV:107:18:0:7
+plugInNO:SeirenShipTV:107:18:0:0
 BranchEnd:
 lavel:end
 end

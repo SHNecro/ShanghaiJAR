@@ -1,4 +1,4 @@
-14,12,-96,40,368,304,Map.ChipShopCenterName,0,1,2,0,0,ChipShopCenter,10
+14,12,-96,40,368,304,Map.ChipShopCenterName,0,1,2,0,0,ChipShopCenter,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,1,1,1,1,1,1,1,1,1,1,1,1,0
 0,1,1,1,1,1,1,1,1,1,1,1,1,0
@@ -266,7 +266,7 @@ graphic:-1:0,0,0,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
-bgmon:in_room:0
+bgmon:in_room
 eventDelete:BGMStart
 end
 page:2

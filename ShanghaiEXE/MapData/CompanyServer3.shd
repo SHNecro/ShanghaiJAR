@@ -176,14 +176,14 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-battle:42:12:4:1:170:149:36:300:Map.CompanyServer3RandomBattle1Enemy1:24:3:3:0:1:1:1:0::33:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:12:5:1:170:149:36:300:Map.CompanyServer3RandomBattle2Enemy1:19:3:4:0:1:1:1:0::19:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer3RandomBattle3Enemy1:27:3:5:0:1:1:1:0::20:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:15:4:1:68:72:158:600:Map.CompanyServer3RandomBattle4Enemy1:12:2:5:0:1:1:1:0::2:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:14:4:1:13:7:112:450:Map.CompanyServer3RandomBattle5Enemy1:19:3:3:0:1:1:1:0::33:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:42:14:5:1:13:7:112:450:Map.CompanyServer3RandomBattle6Enemy1:28:2:3:2:1:1:1:0::0:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:28:2:5:0:1:1:1:0::28:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
-battle:24:3:3:0:1:1:1:0::33:3:5:1:1:1:1:0::24:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus
+battle:42:12:4:1:170:149:36:300:Map.CompanyServer3RandomBattle1Enemy1:24:3:3:0:1:1:1:0::33:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:12:5:1:170:149:36:300:Map.CompanyServer3RandomBattle2Enemy1:19:3:4:0:1:1:1:0::19:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer3RandomBattle3Enemy1:27:3:5:0:1:1:1:0::20:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:15:4:1:68:72:158:600:Map.CompanyServer3RandomBattle4Enemy1:12:2:5:0:1:1:1:0::2:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:14:4:1:13:7:112:450:Map.CompanyServer3RandomBattle5Enemy1:19:3:3:0:1:1:1:0::33:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:42:14:5:1:13:7:112:450:Map.CompanyServer3RandomBattle6Enemy1:28:2:3:2:1:1:1:0::0:3:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:28:2:5:0:1:1:1:0::28:2:5:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
+battle:24:3:3:0:1:1:1:0::33:3:5:1:1:1:1:0::24:3:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
 
 

@@ -1,4 +1,4 @@
-24,24,-272,-112,784,400,Map.CarName,0,1,0,117,1,mobcyber,3
+24,24,-272,-112,784,400,Map.CarName,0,1,0,117,1,mobcyber,0
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -24,10 +24,10 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 
-battle:39:1:4:0:1:1:1:0::2:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:7:1:False:True:True:True:VSvirus
-battle:2:1:5:0:1:1:1:0::2:1:3:2:1:1:1:0::0:1:3:2:1:1:1:0::7:0:4:False:True:True:True:VSvirus
-battle:2:2:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::7:7:1:False:True:True:True:VSvirus
-battle:3:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi
+battle:39:1:4:0:1:1:1:0::2:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:7:1:False:True:True:True:VSvirus:0
+battle:2:1:5:0:1:1:1:0::2:1:3:2:1:1:1:0::0:1:3:2:1:1:1:0::7:0:4:False:True:True:True:VSvirus:0
+battle:2:2:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::7:7:1:False:True:True:True:VSvirus:0
+battle:3:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
 
 
@@ -82,6 +82,35 @@ msg:Map.CarSprite2Stage1Dialogue2FaceSprite
 msgclose:
 end
 
+ID:BGMStart
+position:152:88:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:jump,32:right,16:left,16
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmon:internet
+eventDeath:
+end
+page:2
+startterms:Auto
+type:0
+terms:variable/14/False/0/3
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmoff:
+eventDeath:
+end
+
 MysteryID:ミステリー52：ハッケロ２　R
 position:19:179:0
 Mystery:1,0,11,2,ハッケロ２　R,52
@@ -106,35 +135,6 @@ graphic:-1:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
-end
-
-ID:BGMStart
-position:152:88:0
-page:1
-startterms:Auto
-type:1
-terms:none
-move:jump,32:right,16:left,16
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmon:internet:0
-eventDeath:
-end
-page:2
-startterms:Auto
-type:0
-terms:variable/14/False/0/3
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
-bgmoff:
-eventDeath:
 end
 
 
