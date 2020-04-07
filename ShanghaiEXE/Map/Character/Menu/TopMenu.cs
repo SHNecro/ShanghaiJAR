@@ -414,9 +414,8 @@ namespace NSMap.Character.Menu
                             i
                         }))
                         {
-                            this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                             this._position = new Vector2(pointF3.X + 8 * data.i, pointF3.Y);
-                            dg.DrawImage(dg, "font", this._rect, true, this._position, white3);
+                            this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, white3);
                         }
                     }
                 }

@@ -366,7 +366,8 @@ namespace MapEditor
             Constants.TranslationCallKeys = new Dictionary<string, string>();
             try
             {
-                Constants.TranslationService = new TrackingLanguageTranslationService(new[] { "en-US", "ja-JP" });
+                var locales = Directory.GetDirectories("language").Select(path => Path.GetFileName(path)).ToArray();
+                Constants.TranslationService = new TrackingLanguageTranslationService(locales);
             }
             catch (Exception e)
             {

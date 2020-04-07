@@ -130,7 +130,6 @@ namespace NSAddOn
             _rect = new Rectangle(!flash ? 496 : 576, 16 * (int)this.color, 80, 16);
             _point = new Vector2(set ? posi.X + 8f : posi.X, posi.Y);
             dg.DrawImage(dg, "menuwindows", _rect, true, _point, Color.White);
-            all.Nametodata(this.name);
             Vector2 position = new Vector2(set ? posi.X + 16f : posi.X + 8f, posi.Y);
             all.TextRender(dg, this.name, false, position, true);
             int[] numArray = all.ChangeCount(this.UseHz);

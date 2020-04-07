@@ -114,10 +114,10 @@
     <Resource Include="KeyConfig.ico" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Language\ja-JP.xml" />
+    <Content Include="Language\ja-JP\Config.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Language\en-US.xml" />
+    <Content Include="Language\en-US\Config.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
@@ -143,7 +143,12 @@
     <Exec Command="DEL &quot;$(ProjectDir)$(OutDir)&quot;/Q /S" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>mkdir "$(TargetDir)language"
+
+mkdir "$(TargetDir)language\en-US"
+xcopy "$(ProjectDir)Language\en-US" "$(TargetDir)language\en-US" /s /d /y
+
+mkdir "$(TargetDir)language\ja-JP"
+xcopy "$(ProjectDir)Language\ja-JP" "$(TargetDir)language\ja-JP" /s /d /y</PostBuildEvent>
   </PropertyGroup>
 </Project>

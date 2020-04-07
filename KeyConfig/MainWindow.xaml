@@ -19,7 +19,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TabControl MinHeight="220">
+        <TabControl MinHeight="370">
             <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Config}">
                 <Canvas>
                     <GroupBox Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=ScreenSize}">
@@ -142,7 +142,7 @@
                             </StackPanel>
                         </Grid>
                     </GroupBox>
-                    <GroupBox Canvas.Left="150" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=WindowedHeader}">
+                    <GroupBox Canvas.Left="155" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=WindowedHeader}">
                         <StackPanel Orientation="Vertical">
                             <StackPanel.Resources>
                                 <Style TargetType="RadioButton">
@@ -153,7 +153,7 @@
                             <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Fullscreen}" IsChecked="{Binding Fullscreen, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=True}"/>
                         </StackPanel>
                     </GroupBox>
-                    <GroupBox Canvas.Top="70" Canvas.Left="150" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=InactiveHeader}">
+                    <GroupBox Canvas.Top="70" Canvas.Left="155" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=InactiveHeader}">
                         <StackPanel Orientation="Vertical">
                             <StackPanel.Resources>
                                 <Style TargetType="RadioButton">
@@ -283,11 +283,10 @@
                       Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Language}">
                 <ComboBox VerticalAlignment="Center"
                           HorizontalAlignment="Stretch"
-                          SelectedValuePath="Tag"
-                          SelectedValue="{Binding Language}">
-                    <ComboBoxItem Content="日本語" Tag="ja-JP"/>
-                    <ComboBoxItem Content="English" Tag="en-US"/>
-                </ComboBox>
+                          ItemsSource="{x:Static converters:RegionToTranslatedConverter.Locales}"
+                          DisplayMemberPath="Item1"
+                          SelectedValuePath="Item2"
+                          SelectedValue="{Binding Language}" />
             </GroupBox>
             <GroupBox Grid.Column="1"
                       Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Rendering}">

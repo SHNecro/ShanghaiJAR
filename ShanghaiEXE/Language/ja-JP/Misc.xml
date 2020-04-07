@@ -381,6 +381,7 @@
   <Text Key="Virus.Introduction" Value="飼っているウィルスの状態よ" />
   <Text Key="Virus.OptionsFormat" Value="　エサを与える　　残り{0}個,　ウィルスを預ける" />
   <Text Key="Virus.Power" Value="パワー:" />
+  <Text Key="Virus.Empty" Value="EMPTY" />
   <Dialogue Key="Bounty.ClaimDialogue1Format" Value="{0} を,倒したんですね！" Face="None" Mono="False" />
   <Dialogue Key="Bounty.ClaimDialogue2Format" Value="賞金{0}Zを,お受取りください！" Face="None" Mono="False" />
   <Dialogue Key="Bounty.ClaimDialogue3" Value="これからのあなたの活躍も,期待していますよ！" Face="None" Mono="False" />

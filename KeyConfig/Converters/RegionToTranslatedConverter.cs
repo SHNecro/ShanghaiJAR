@@ -16,9 +16,29 @@ namespace KeyConfig.Converters
         static RegionToTranslatedConverter()
         {
             RegionToTranslatedConverter.Language = new Dictionary<string, Dictionary<string, string>>();
-            RegionToTranslatedConverter.LoadLabels("en-US");
-            RegionToTranslatedConverter.LoadLabels("ja-JP");
+
+            foreach (var locale in RegionToTranslatedConverter.Locales)
+            {
+                RegionToTranslatedConverter.LoadLabels(locale.Item2);
+            }
         }
+
+        public static IEnumerable<Tuple<string, string>> Locales => Directory.GetDirectories("language").Select(path =>
+        {
+            var localeName = Path.GetFileName(path);
+            Tuple<string, string> locale;
+            try
+            {
+                var culture = new CultureInfo(localeName);
+                locale = Tuple.Create(culture.Parent.NativeName, culture.Name);
+            }
+            catch (CultureNotFoundException)
+            {
+                locale = Tuple.Create(localeName, localeName);
+            }
+
+            return locale;
+        });
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
@@ -42,12 +62,7 @@ namespace KeyConfig.Converters
         {
             Language[region] = new Dictionary<string, string>();
             var languageDoc = new XmlDocument();
-            var assembly = Assembly.GetExecutingAssembly();
-            string resourceName = assembly.GetManifestResourceNames().Single(str => str.EndsWith($"{region}.xml"));
-            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
-            {
-                languageDoc.Load(stream);
-            }
+            languageDoc.Load($"language/{region}/Config.xml");
 
             var text = languageDoc.SelectNodes("data/Text");
             foreach (XmlNode node in text)

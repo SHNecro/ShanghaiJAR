@@ -308,118 +308,203 @@ namespace NSGame
 						strArray[data.i] = name.Substring(data.i, 2);
 						name = name.Remove(data.i + 1, 1);
 					}
-					else
-						strArray[data.i] = name.Substring(data.i, 1);
-					if (strArray[data.i] == "+" || strArray[data.i] == "＋")
-						strArray[data.i] = "plus";
-					if (strArray[data.i] == "-" || strArray[data.i] == "－")
-						strArray[data.i] = "ー";
-					if (strArray[data.i] == "*")
-						strArray[data.i] = "kakeru";
-					if (strArray[data.i] == "/")
-						strArray[data.i] = "slash";
-					if (strArray[data.i] == "=" || strArray[data.i] == "＝")
-						strArray[data.i] = "equal";
-					if (strArray[data.i] == ":" || strArray[data.i] == "：")
-						strArray[data.i] = "colon";
-					if (strArray[data.i] == "?" || strArray[data.i] == "？")
-						strArray[data.i] = "question";
-					if (strArray[data.i] == "!" || strArray[data.i] == "！")
-						strArray[data.i] = "exclamation";
-					if (strArray[data.i] == ".")
-						strArray[data.i] = "dot";
-					if (strArray[data.i] == ",")
-						strArray[data.i] = "readdot";
-					if (strArray[data.i] == "&")
-						strArray[data.i] = "and";
-					if (strArray[data.i] == "０" || strArray[data.i] == "0")
-						strArray[data.i] = "zero";
-					if (strArray[data.i] == "１" || strArray[data.i] == "1")
-						strArray[data.i] = "one";
-					if (strArray[data.i] == "２" || strArray[data.i] == "2")
-						strArray[data.i] = "two";
-					if (strArray[data.i] == "３" || strArray[data.i] == "3")
-						strArray[data.i] = "three";
-					if (strArray[data.i] == "４" || strArray[data.i] == "4")
-						strArray[data.i] = "four";
-					if (strArray[data.i] == "５" || strArray[data.i] == "5")
-						strArray[data.i] = "five";
-					if (strArray[data.i] == "６" || strArray[data.i] == "6")
-						strArray[data.i] = "six";
-					if (strArray[data.i] == "７" || strArray[data.i] == "7")
-						strArray[data.i] = "seven";
-					if (strArray[data.i] == "８" || strArray[data.i] == "8")
-						strArray[data.i] = "eight";
-					if (strArray[data.i] == "９" || strArray[data.i] == "9")
-						strArray[data.i] = "night";
-					if (strArray[data.i] == "Ｖ")
-						strArray[data.i] = "V";
-					if (strArray[data.i] == "a")
-						strArray[data.i] = "al";
-					if (strArray[data.i] == "b")
-						strArray[data.i] = "bl";
-					if (strArray[data.i] == "c")
-						strArray[data.i] = "cl";
-					if (strArray[data.i] == "d")
-						strArray[data.i] = "dl";
-					if (strArray[data.i] == "e")
-						strArray[data.i] = "el";
-					if (strArray[data.i] == "f")
-						strArray[data.i] = "fl";
-					if (strArray[data.i] == "g")
-						strArray[data.i] = "gl";
-					if (strArray[data.i] == "h")
-						strArray[data.i] = "hl";
-					if (strArray[data.i] == "i")
-						strArray[data.i] = "il";
-					if (strArray[data.i] == "j")
-						strArray[data.i] = "jl";
-					if (strArray[data.i] == "k")
-						strArray[data.i] = "kl";
-					if (strArray[data.i] == "m")
-						strArray[data.i] = "ml";
-					if (strArray[data.i] == "l")
-						strArray[data.i] = "ll";
-					if (strArray[data.i] == "n")
-						strArray[data.i] = "nl";
-					if (strArray[data.i] == "o")
-						strArray[data.i] = "ol";
-					if (strArray[data.i] == "p")
-						strArray[data.i] = "pl";
-					if (strArray[data.i] == "q")
-						strArray[data.i] = "ql";
-					if (strArray[data.i] == "r")
-						strArray[data.i] = "rl";
-					if (strArray[data.i] == "s")
-						strArray[data.i] = "sl";
-					if (strArray[data.i] == "t")
-						strArray[data.i] = "tl";
-					if (strArray[data.i] == "u")
-						strArray[data.i] = "ul";
-					if (strArray[data.i] == "v")
-						strArray[data.i] = "vl";
-					if (strArray[data.i] == "w")
-						strArray[data.i] = "wl";
-					if (strArray[data.i] == "x")
-						strArray[data.i] = "xl";
-					if (strArray[data.i] == "y")
-						strArray[data.i] = "yl";
-					if (strArray[data.i] == "z")
-						strArray[data.i] = "zl";
-					if (strArray[data.i] == "・" || strArray[data.i] == "･")
-						strArray[data.i] = "ten";
-					if (strArray[data.i] == "＊")
-						strArray[data.i] = "asterisk";
-					if (strArray[data.i] == "　" || strArray[data.i] == " ")
-						strArray[data.i] = "no";
-					if (strArray[data.i] == "(" || strArray[data.i] == "（")
-						strArray[data.i] = "marukakko";
-					if (strArray[data.i] == ")" || strArray[data.i] == "）")
-						strArray[data.i] = "marukakkoTojiru";
-					if (strArray[data.i] == "[" || strArray[data.i] == "「")
-						strArray[data.i] = "kagikakko";
-					if (strArray[data.i] == "]" || strArray[data.i] == "」")
-						strArray[data.i] = "kagikakkoTojiru";
+                    else
+                    {
+                        strArray[data.i] = name.Substring(data.i, 1);
+                    }
+
+                    var replacement = strArray[data.i];
+                    switch (replacement)
+                    {
+                        case "+":
+                        case "＋":
+                            replacement = nameof(NAME.plus);
+                            break;
+                        case "-":
+                        case "－":
+                            replacement = nameof(NAME.ー);
+                            break;
+                        case "*":
+                            replacement = nameof(NAME.kakeru);
+                            break;
+                        case "/":
+                            replacement = nameof(NAME.slash);
+                            break;
+                        case "=":
+                        case "＝":
+                            replacement = nameof(NAME.equal);
+                            break;
+                        case ":":
+                        case "：":
+                            replacement = nameof(NAME.colon);
+                            break;
+                        case "?":
+                        case "？":
+                            replacement = nameof(NAME.question);
+                            break;
+                        case "!":
+                        case "！":
+                            replacement = nameof(NAME.exclamation);
+                            break;
+                        case ".":
+                            replacement = nameof(NAME.dot);
+                            break;
+                        case ",":
+                            replacement = nameof(NAME.readdot);
+                            break;
+                        case "&":
+                            replacement = nameof(NAME.and);
+                            break;
+                        case "０":
+                        case "0":
+                            replacement = nameof(NAME.zero);
+                            break;
+                        case "１":
+                        case "1":
+                            replacement = nameof(NAME.one);
+                            break;
+                        case "２":
+                        case "2":
+                            replacement = nameof(NAME.two);
+                            break;
+                        case "３":
+                        case "3":
+                            replacement = nameof(NAME.three);
+                            break;
+                        case "４":
+                        case "4":
+                            replacement = nameof(NAME.four);
+                            break;
+                        case "５":
+                        case "5":
+                            replacement = nameof(NAME.five);
+                            break;
+                        case "６":
+                        case "6":
+                            replacement = nameof(NAME.six);
+                            break;
+                        case "７":
+                        case "7":
+                            replacement = nameof(NAME.seven);
+                            break;
+                        case "８":
+                        case "8":
+                            replacement = nameof(NAME.eight);
+                            break;
+                        case "９":
+                        case "9":
+                            replacement = nameof(NAME.night);
+                            break;
+                        case "Ｖ":
+                            replacement = nameof(NAME.V);
+                            break;
+                        case "a":
+                            replacement = nameof(NAME.al);
+                            break;
+                        case "b":
+                            replacement = nameof(NAME.bl);
+                            break;
+                        case "c":
+                            replacement = nameof(NAME.cl);
+                            break;
+                        case "d":
+                            replacement = nameof(NAME.dl);
+                            break;
+                        case "e":
+                            replacement = nameof(NAME.el);
+                            break;
+                        case "f":
+                            replacement = nameof(NAME.fl);
+                            break;
+                        case "g":
+                            replacement = nameof(NAME.gl);
+                            break;
+                        case "h":
+                            replacement = nameof(NAME.hl);
+                            break;
+                        case "i":
+                            replacement = nameof(NAME.il);
+                            break;
+                        case "j":
+                            replacement = nameof(NAME.jl);
+                            break;
+                        case "k":
+                            replacement = nameof(NAME.kl);
+                            break;
+                        case "m":
+                            replacement = nameof(NAME.ml);
+                            break;
+                        case "l":
+                            replacement = nameof(NAME.ll);
+                            break;
+                        case "n":
+                            replacement = nameof(NAME.nl);
+                            break;
+                        case "o":
+                            replacement = nameof(NAME.ol);
+                            break;
+                        case "p":
+                            replacement = nameof(NAME.pl);
+                            break;
+                        case "q":
+                            replacement = nameof(NAME.ql);
+                            break;
+                        case "r":
+                            replacement = nameof(NAME.rl);
+                            break;
+                        case "s":
+                            replacement = nameof(NAME.sl);
+                            break;
+                        case "t":
+                            replacement = nameof(NAME.tl);
+                            break;
+                        case "u":
+                            replacement = nameof(NAME.ul);
+                            break;
+                        case "v":
+                            replacement = nameof(NAME.vl);
+                            break;
+                        case "w":
+                            replacement = nameof(NAME.wl);
+                            break;
+                        case "x":
+                            replacement = nameof(NAME.xl);
+                            break;
+                        case "y":
+                            replacement = nameof(NAME.yl);
+                            break;
+                        case "z":
+                            replacement = nameof(NAME.zl);
+                            break;
+                        case "・":
+                        case "･":
+                            replacement = nameof(NAME.ten);
+                            break;
+                        case "＊":
+                            replacement = nameof(NAME.asterisk);
+                            break;
+                        case "　":
+                        case " ":
+                            replacement = nameof(NAME.no);
+                            break;
+                        case "(":
+                        case "（":
+                            replacement = nameof(NAME.marukakko);
+                            break;
+                        case ")":
+                        case "）":
+                            replacement = nameof(NAME.marukakkoTojiru);
+                            break;
+                        case "[":
+                        case "「":
+                            replacement = nameof(NAME.kagikakko);
+                            break;
+                        case "]":
+                        case "」":
+                            replacement = nameof(NAME.kagikakkoTojiru);
+                            break;
+                    }
+                    strArray[data.i] = replacement;
 				}
 				catch
 				{
@@ -433,10 +518,75 @@ namespace NSGame
 			}))
 			{
 				if (strArray[data.i] != null)
-					nameArray[data.i] = (AllBase.NAME)Enum.Parse(typeof(AllBase.NAME), strArray[data.i], true);
-			}
+                {
+                    NAME character;
+                    var parseSuccess = Enum.TryParse(strArray[data.i], out character);
+
+                    if (parseSuccess)
+                    {
+                        nameArray[data.i] = character;
+                    }
+                    else
+                    {
+                        if (strArray[data.i].Length == 1)
+                        {
+                            nameArray[data.i] = (NAME)(-strArray[data.i][0]);
+                        }
+                        else
+                        {
+                            throw new InvalidOperationException("Invalid multi-character block character");
+                        }
+                    }
+                }
+            }
 			return nameArray;
 		}
+
+        public static Rectangle DrawBlockCharacter(IRenderer dg, NAME characterOrFallback, int textTypeOffset, Vector2 position, Color color)
+        {
+            var characterOffset = (int)characterOrFallback;
+            if (characterOffset >= 0)
+            {
+                var rect = new Rectangle(characterOffset * 8, textTypeOffset, 8, 16);
+                dg.DrawImage(dg, "font", rect, true, position, color);
+                return rect;
+            }
+            else
+            {
+                var shadow = textTypeOffset < 48;
+                var plain = textTypeOffset >= 48 && textTypeOffset < 72;
+                var outlined = textTypeOffset >= 72;
+
+                var offsets = new int[0, 0];
+                if (shadow)
+                {
+                    offsets = new int[,]
+                    {
+                        { 1, 1 }
+                    };
+                }
+                else if (outlined)
+                {
+                    offsets = new int[,]
+                    {
+                        { -1, -1 }, { 0, -1 }, { 1, -1 },
+                        { -1, 0 }, { 1, 0 },
+                        { -1, 1 }, { 0, 1 }, { 1, 1 },
+                    };
+                }
+
+                var charString = new string((char)-characterOffset, 1);
+
+                for (var entryIndex = 0; entryIndex < offsets.GetLength(0); entryIndex++)
+                {
+                    var offPosition = new Vector2(position.X + offsets[entryIndex, 0], position.Y + offsets[entryIndex, 1]);
+                    dg.DrawMiniText(charString, offPosition, Color.Black);
+                }
+
+                dg.DrawMiniText(charString, position, color);
+                return new Rectangle();
+            }
+        }
 
 		public void TextRender(
 		  IRenderer dg,
@@ -466,10 +616,9 @@ namespace NSGame
 				j
 			}))
 			{
-				this._rect = new Rectangle((int)data.v * 8, shadow ? 16 : 88, 8, 16);
 				this._position = new Vector2(vector2.X + num1 * data.j, vector2.Y);
-				dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
-			}
+                this._rect = DrawBlockCharacter(dg, data.v, shadow ? 16 : 88, this._position, Color.White);
+            }
 		}
 
 		public void TextRender(
@@ -500,10 +649,9 @@ namespace NSGame
 				j
 			}))
 			{
-				this._rect = new Rectangle((int)data.v * 8, shadow ? 16 : 88, 8, 16);
 				this._position = new Vector2(vector2.X + num1 * data.j, vector2.Y);
-				dg.DrawImage(dg, "font", this._rect, true, this._position, color);
-			}
+                this._rect = DrawBlockCharacter(dg, data.v, shadow ? 16 : 88, this._position, color);
+            }
 		}
 
 		public void ShakeStart(int level)
@@ -566,7 +714,7 @@ namespace NSGame
 
 		public enum NAME
 		{
-			no,
+			no = 0,
 			ア,
 			イ,
 			ウ,
@@ -736,7 +884,7 @@ namespace NSGame
 			marukakkoTojiru,
 			kagikakko,
 			kagikakkoTojiru,
-			none,
+			none
 		}
 	}
 }

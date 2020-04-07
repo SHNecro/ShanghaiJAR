@@ -198,9 +198,8 @@ namespace NSMap.Character.Menu
                         var chipIdLocation = new Vector2(96 + currentMoveXOffset + 24 - (chipIdBlockText.Length - 1) * 8, 32 + visibleRowIndex * 16);
                         for (int index = 0; index < chipIdBlockText.Length; ++index)
                         {
-                            this._rect = new Rectangle((int)chipIdBlockText[index] * 8, 16, 8, 16);
                             this._position = new Vector2(chipIdLocation.X + index * 8, chipIdLocation.Y);
-                            dg.DrawImage(dg, "font", this._rect, true, this._position, Color.SkyBlue);
+                            this._rect = DrawBlockCharacter(dg, chipIdBlockText[index], 16, this._position, Color.SkyBlue);
                         }
                     }
 
@@ -210,9 +209,8 @@ namespace NSMap.Character.Menu
                     var chipNameLocation = new Vector2(96 + currentMoveXOffset + nameOffset, 32 + visibleRowIndex * 16);
                     for (int index = 0; index < chipNameBlockText.Length; ++index)
                     {
-                        this._rect = new Rectangle((int)chipNameBlockText[index] * 8, 16, 8, 16);
                         this._position = new Vector2(chipNameLocation.X + index * 8, chipNameLocation.Y);
-                        dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                        this._rect = DrawBlockCharacter(dg, chipNameBlockText[index], 16, this._position, Color.White);
                     }
 
                     if (rowChipEntry.IsSeen && drawnPageType != LibraryPageType.PA)
@@ -248,9 +246,8 @@ namespace NSMap.Character.Menu
                 var pageTitleLocation = new Vector2(96 + currentMoveXOffset + 8, 10f);
                 for (int index = 0; index < pageTitleBlockText.Length; ++index)
                 {
-                    this._rect = new Rectangle((int)pageTitleBlockText[index] * 8, 88, 8, 16);
                     this._position = new Vector2(pageTitleLocation.X + index * 8, pageTitleLocation.Y);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, drawnPage.TitleColor);
+                    this._rect = DrawBlockCharacter(dg, pageTitleBlockText[index], 88, this._position, drawnPage.TitleColor);
                 }
             }
 

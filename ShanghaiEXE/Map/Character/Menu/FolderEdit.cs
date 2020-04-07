@@ -513,9 +513,8 @@ namespace NSMap.Character.Menu
                                 j
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(num1 + 24 + 8 * data.j, 32 + 16 * index1);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                             }
                             this._rect = new Rectangle(216 + (int)chipFolder.chip.element * 16, 88, 16, 16);
                             this._position = new Vector2(num1 + 88, 32 + index1 * 16);
@@ -602,9 +601,8 @@ namespace NSMap.Character.Menu
                     j
                 }))
                 {
-                    this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                     this._position = new Vector2(num1 + 24 + 8 * data.j, 8f);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                 }
             }
             if (this.nowscene != FolderEdit.SCENE.bag)
@@ -627,9 +625,8 @@ namespace NSMap.Character.Menu
                             j
                         }))
                         {
-                            this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                             this._position = new Vector2(this.seetX + 120 + 8 * data.j, 32 + 16 * index1);
-                            dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                            this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                         }
                         this._rect = new Rectangle(216 + (int)this.main.chipfolder[this.Selectfolder, this.Topchip + index1].chip.element * 16, 88, 16, 16);
                         this._position = new Vector2(this.seetX + 184, 32 + index1 * 16);
@@ -718,9 +715,8 @@ namespace NSMap.Character.Menu
                     j
                 }))
                 {
-                    this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                     this._position = new Vector2(this.seetX + 104 + 8 * data.j, 10f);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                 }
                 int[] numArray1 = this.ChangeCount(savedata.Regularlarge);
                 PointF pointF1 = new PointF(this.seetX + 192, 0.0f);

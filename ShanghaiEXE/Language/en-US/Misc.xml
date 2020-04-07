@@ -381,6 +381,7 @@
   <Text Key="Virus.Introduction" Value="This is the virus we’re raising." />
   <Text Key="Virus.OptionsFormat" Value="　Give food　({0} Remaining),　Deposit virus" />
   <Text Key="Virus.Power" Value="Pow:" />
+  <Text Key="Virus.Empty" Value="EMPTY" />
   <Dialogue Key="Bounty.ClaimDialogue1Format" Value="You defeated,{0} !" Face="None" Mono="False" />
   <Dialogue Key="Bounty.ClaimDialogue2Format" Value="Your bounty is,{0}Z!" Face="None" Mono="False" />
   <Dialogue Key="Bounty.ClaimDialogue3" Value="We’ll be counting on,you in the future!" Face="None" Mono="False" />

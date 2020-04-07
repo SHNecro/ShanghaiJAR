@@ -1207,9 +1207,8 @@ namespace NSBattle
                             {
                                 for (int index = 0; index < nameArray.Length; ++index)
                                 {
-                                    this._rect = new Rectangle((int)nameArray[index] * 8, 16, 8, 16);
                                     this._position = new Vector2(16 + 8 * index, num1 + 16 + 24 * data.i);
-                                    dg.DrawImage(dg, "font", this._rect, true, this._position, color2);
+                                    this._rect = DrawBlockCharacter(dg, nameArray[index], 16, this._position, color2);
                                 }
                                 if (this.canchips[data.v].chip.code[this.canchips[data.v].codeNo] != ChipFolder.CODE.none)
                                 {
@@ -1396,9 +1395,8 @@ namespace NSBattle
                                 i
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(_point.X + 24f + 8 * data.i, 7f);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
                             }
                         }
                         else

@@ -417,9 +417,8 @@ namespace NSEvent
                     j
                 }))
                 {
-                    this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                     this._position = new Vector2(24 + 8 * data.j, 8f);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                 }
                 string[] strArray = new string[6];
                 strArray[0] = (this.setchips.Count % this.MaxSet).ToString();
@@ -435,9 +434,8 @@ namespace NSEvent
                     j
                 }))
                 {
-                    this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                     this._position = new Vector2(160 + 8 * data.j, 8f);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                 }
                 float num1 = this.overtop != 0 && this.Topchip != 0 ? 104f / overtop * Topchip : 0.0f;
                 this._rect = new Rectangle(176, 168, 8, 8);
@@ -460,9 +458,8 @@ namespace NSEvent
                                 j
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(24 + 8 * data.j, 32 + 16 * index1);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
                             }
                             this._rect = new Rectangle(216 + (int)chipFolder.chip.element * 16, 88, 16, 16);
                             this._position = new Vector2(88f, 32 + index1 * 16);
@@ -504,9 +501,8 @@ namespace NSEvent
                         j
                     }))
                     {
-                        this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                         this._position = new Vector2(152 + 8 * data.j, 32 + 16 * index);
-                        dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                        this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
                     }
                     this._rect = new Rectangle((int)chipFolder.chip.code[chipFolder.codeNo] * 8, 32, 8, 16);
                     this._position = new Vector2(224f, 32 + index * 16);

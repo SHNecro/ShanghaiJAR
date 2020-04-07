@@ -441,36 +441,40 @@ namespace NSEnemy
         {
             if (!this.namePrint || this.parent == null || !this.parent.namePrint)
                 return;
-            AllBase.NAME[] nameArray = !this.printNumber || this.version <= 1 ? this.Nametodata(this.name) : this.Nametodata(this.name + this.version.ToString());
+            var adjustedName = (!this.printNumber || this.version <= 1) ? this.name : (this.name + this.version.ToString());
+            AllBase.NAME[] nameArray = this.Nametodata(adjustedName);
             int length = nameArray.Length;
-            int num1 = 0;
+            int nameVersionAdjustmentOffset = 0;
             try
             {
                 if (this.name.Contains("V2") || this.name.Contains("V3") || (this.name.Contains("DS") || this.name.Contains("BX")) || (this.name.Contains("SP") || this.name.Contains("RV")) || this.name.Contains("EX"))
                 {
                     --length;
-                    num1 = 8;
+                    nameVersionAdjustmentOffset = 8;
                 }
             }
             catch
             {
             }
-            int num2 = !numberprint ? 240 - nameArray.Length * 8 : 240 - nameArray.Length * 8;
+            int nameXPosition = 240 - nameArray.Length * 8;
             this.color = this.alfha == 0 ? Color.FromArgb(0, byte.MaxValue, byte.MaxValue, byte.MaxValue) : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue);
+
+            // Draw edge of name backround <
             this._rect = new Rectangle(320, 104, 8, 16);
-            this._position = new Vector2(num2 - 8 + num1, this.number * 16);
+            this._position = new Vector2(nameXPosition - 8 + nameVersionAdjustmentOffset, this.number * 16);
             dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+            // Draw background and name
             for (int index = 0; index < length; ++index)
             {
-                this._position = new Vector2(num2 + 8 * index + num1, this.number * 16);
+                this._position = new Vector2(nameXPosition + 8 * index + nameVersionAdjustmentOffset, this.number * 16);
                 this._rect = new Rectangle(328, 104, 8, 16);
                 dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-                this._rect = new Rectangle((int)nameArray[index] * 8, 88, 8, 16);
-                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+                this._rect = DrawBlockCharacter(dg, nameArray[index], 88, this._position, this.color);
             }
+            // Draw version number
             if (numberprint && this.version > 1)
             {
-                this._position = new Vector2(num2 + 8 * nameArray.Length + num1, this.number * 16);
+                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
                 this._rect = new Rectangle(328, 104, 8, 16);
                 dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
                 this._rect = new Rectangle(version * 8, 104, 8, 16);

@@ -266,9 +266,8 @@ namespace NSMap.Character.Menu
                             j
                         }))
                         {
-                            this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                             this._position = new Vector2(10 + 8 * data.j, 24 + 40 * index);
-                            dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                            this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                         }
                     }
                 }
@@ -306,9 +305,8 @@ namespace NSMap.Character.Menu
                             j
                         }))
                         {
-                            this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                             this._position = new Vector2(120 + 8 * data.j, 16 + 16 * index1);
-                            dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                            this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                         }
                         this._rect = new Rectangle(216 + (int)this.main.chipfolder[this.select, this.Topchip + index1].chip.element * 16, 88, 16, 16);
                         this._position = new Vector2(184f, 16 + index1 * 16);

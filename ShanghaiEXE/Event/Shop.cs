@@ -291,9 +291,8 @@ namespace NSEvent
                                     j
                                 }))
                                 {
-                                    this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                     this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                    dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                                    this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                                 }
                                 this._position = new Vector2(88f, 12 + 16 * index);
                                 this._rect = new Rectangle(chipS.Code * 8, 32, 8, 16);
@@ -309,9 +308,8 @@ namespace NSEvent
                                 j
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                             }
                             num = this.goods[this.top + index].price + this.goods[this.top + index].numberSub * this.savedata.ShopCount[this.shopNo, index];
                             if (this.savedata.ShopCount[this.shopNo, this.top + index] >= this.goods[this.top + index].stock)
@@ -326,9 +324,8 @@ namespace NSEvent
                                 j
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                             }
                             num = SubChip.PriceSet(this.goods[this.top + index].numberNo) - this.goods[this.top + index].numberSub;
                             break;
@@ -341,9 +338,8 @@ namespace NSEvent
                                 j
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                             }
                             AllBase.NAME[] nameArray4 = this.Nametodata(AddOnBase.ColorToAlphabet(this.goods[this.top + index].numberSub));
                             point = new Vector2(88f, 12 + index * 16);
@@ -353,9 +349,8 @@ namespace NSEvent
                                 j
                             }))
                             {
-                                this._rect = new Rectangle((int)data.v * 8, 16, 8, 16);
                                 this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                dg.DrawImage(dg, "font", this._rect, true, this._position, color);
+                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
                             }
                             num = this.goods[this.top + index].price;
                             break;
@@ -525,9 +520,8 @@ namespace NSEvent
                         j
                     }))
                     {
-                        this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                         this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                        dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                        this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                     }
                 }
                 else

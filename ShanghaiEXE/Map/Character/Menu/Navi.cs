@@ -331,9 +331,8 @@ namespace NSMap.Character.Menu
                     j
                 }))
                 {
-                    this._rect = new Rectangle((int)data.v * 8, 88, 8, 16);
                     this._position = new Vector2(position.X + 8 * data.j, position.Y);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
+                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
                 }
                 for (int index = 0; index < this.savedata.busterspec.Length; ++index)
                 {
@@ -351,7 +350,6 @@ namespace NSMap.Character.Menu
                             break;
                     }
                     position = new Vector2(this.pageX[0] + 16, 44 + 16 * index);
-                    this.Nametodata(str);
                     this.TextRender(dg, str, false, position, true);
                     this._rect = new Rectangle(this.savedata.busterspec[index] * 8, 0, 8, 16);
                     this._position = new Vector2(this._position.X + 16f, this._position.Y);
@@ -365,8 +363,6 @@ namespace NSMap.Character.Menu
                     this._rect = new Rectangle(360, 144, 112, 88);
                     this._position = new Vector2(this.pageX[1], 16f);
                     dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
-                    AllBase.NAME[] nameArray2;
-                    nameArray2 = this.Nametodata(ShanghaiEXE.Translate("Navi.AddOn"));
                     position = new Vector2(this.pageX[1] + 8, 18f);
                     this.TextRender(dg, ShanghaiEXE.Translate("Navi.AddOn"), false, position, false);
                     for (int index = 0; index < 3; ++index)
