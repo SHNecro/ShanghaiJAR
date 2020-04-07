@@ -56,8 +56,8 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 2/28/20):
-- Implementation of postgame area, effects as needed
+#### In Progress (as of 4/06/20):
+- Continued implementation of postgame area, effects as needed (effects and sprites took longer than expected, current circumstances have not helped)
 - Planning of rewards, barriers, BMDs
 - Planning of battle enhancements (new PAs, chips, etc.)
 
