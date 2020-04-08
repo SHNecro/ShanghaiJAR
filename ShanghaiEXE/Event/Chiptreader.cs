@@ -410,16 +410,9 @@ namespace NSEvent
                 this._rect = new Rectangle(480, 784, 240, 160);
                 this._position = new Vector2(0.0f, 0.0f);
                 dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
-                AllBase.NAME[] nameArray = this.Nametodata(ShanghaiEXE.Translate("ChipTrader.NameToData")); ;
-                foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                {
-                    v,
-                    j
-                }))
-                {
-                    this._position = new Vector2(24 + 8 * data.j, 8f);
-                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                }
+                AllBase.NAME[] nameArray = this.Nametodata(ShanghaiEXE.Translate("ChipTrader.NameToData"));
+                this._position = new Vector2(24, 8f);
+                DrawBlockCharacters(dg, nameArray, 88, this._position, Color.White, out this._rect, out this._position);
                 string[] strArray = new string[6];
                 strArray[0] = (this.setchips.Count % this.MaxSet).ToString();
                 strArray[1] = "/";
@@ -428,15 +421,9 @@ namespace NSEvent
                 strArray[4] = (this.setchips.Count / this.MaxSet).ToString();
                 strArray[5] = ShanghaiEXE.Translate("ChipTrader.ChipNumberSuffix");
                 var name = string.Concat(strArray);
-                foreach (var data in ((IEnumerable<AllBase.NAME>)this.Nametodata(name)).Select((v, j) => new
-                {
-                    v,
-                    j
-                }))
-                {
-                    this._position = new Vector2(160 + 8 * data.j, 8f);
-                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                }
+                var nameBlockCharacters = this.Nametodata(name);
+                this._position = new Vector2(160, 8f);
+                DrawBlockCharacters(dg, nameBlockCharacters, 88, this._position, Color.White, out this._rect, out this._position);
                 float num1 = this.overtop != 0 && this.Topchip != 0 ? 104f / overtop * Topchip : 0.0f;
                 this._rect = new Rectangle(176, 168, 8, 8);
                 this._position = new Vector2(144f, 32f + num1);
@@ -452,15 +439,9 @@ namespace NSEvent
                         {
                             this._position = new Vector2(8f, 32 + 16 * index1);
                             chipFolder.chip.IconRender(dg, this._position, false, false, chipFolder.codeNo, false);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)this.Nametodata(chipFolder.chip.name)).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(24 + 8 * data.j, 32 + 16 * index1);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
-                            }
+                            var chipNameBlockCharacters = this.Nametodata(chipFolder.chip.name);
+                            this._position = new Vector2(24, 32 + 16 * index1);
+                            DrawBlockCharacters(dg, chipNameBlockCharacters, 16, this._position, Color.White, out this._rect, out this._position);
                             this._rect = new Rectangle(216 + (int)chipFolder.chip.element * 16, 88, 16, 16);
                             this._position = new Vector2(88f, 32 + index1 * 16);
                             dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
@@ -495,15 +476,9 @@ namespace NSEvent
                     ChipFolder chipFolder = new ChipFolder(this.sound);
                     chipFolder.SettingChip(this.setchips[num2 + index].number);
                     chipFolder.codeNo = this.setchips[num2 + index].code;
-                    foreach (var data in ((IEnumerable<AllBase.NAME>)this.Nametodata(chipFolder.chip.name)).Select((v, j) => new
-                    {
-                        v,
-                        j
-                    }))
-                    {
-                        this._position = new Vector2(152 + 8 * data.j, 32 + 16 * index);
-                        this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
-                    }
+                    var chipNameBlockCharacters = this.Nametodata(chipFolder.chip.name);
+                    this._position = new Vector2(152, 32 + 16 * index);
+                    DrawBlockCharacters(dg, chipNameBlockCharacters, 16, this._position, Color.White, out this._rect, out this._position);
                     this._rect = new Rectangle((int)chipFolder.chip.code[chipFolder.codeNo] * 8, 32, 8, 16);
                     this._position = new Vector2(224f, 32 + index * 16);
                     dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);

@@ -408,15 +408,8 @@ namespace NSMap.Character.Menu
                         Color white3 = Color.White;
                         PointF pointF3 = new PointF(144f, 86 + index * 16);
                         var names = this.Nametodata(string.Format(ShanghaiEXE.Translate("TopMenu.FragCountFormat"), this.savedata.havePeace[index]));
-                        foreach (var data in ((IEnumerable<AllBase.NAME>)names).Select((v, i) => new
-                        {
-                            v,
-                            i
-                        }))
-                        {
-                            this._position = new Vector2(pointF3.X + 8 * data.i, pointF3.Y);
-                            this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, white3);
-                        }
+                        this._position = new Vector2(pointF3.X, pointF3.Y);
+                        DrawBlockCharacters(dg, names, 88, this._position, white3, out this._rect, out this._position);
                     }
                 }
             }

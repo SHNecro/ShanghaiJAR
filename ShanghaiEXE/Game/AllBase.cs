@@ -542,50 +542,77 @@ namespace NSGame
 			return nameArray;
 		}
 
-        public static Rectangle DrawBlockCharacter(IRenderer dg, NAME characterOrFallback, int textTypeOffset, Vector2 position, Color color)
+        public static void DrawBlockCharacters(IRenderer dg, IList<NAME> charactersOrFallback, int textTypeOffset, Vector2 position, Color color, out Rectangle finalRect, out Vector2 finalPosition, bool reversed = false)
         {
-            var characterOffset = (int)characterOrFallback;
-            if (characterOffset >= 0)
+            var currentRect = new Rectangle();
+            var currentPosition = position;
+            for (int i = 0; i < charactersOrFallback.Count; i++)
             {
-                var rect = new Rectangle(characterOffset * 8, textTypeOffset, 8, 16);
-                dg.DrawImage(dg, "font", rect, true, position, color);
-                return rect;
-            }
-            else
-            {
-                var shadow = textTypeOffset < 48;
-                var plain = textTypeOffset >= 48 && textTypeOffset < 72;
-                var outlined = textTypeOffset >= 72;
-
-                var offsets = new int[0, 0];
-                if (shadow)
+                var characterOrFallback = charactersOrFallback[i];
+                var characterOffset = (int)characterOrFallback;
+                if (characterOffset >= 0)
                 {
-                    offsets = new int[,]
-                    {
-                        { 1, 1 }
-                    };
+                    var rect = new Rectangle(characterOffset * 8, textTypeOffset, 8, 16);
+                    dg.DrawImage(dg, "font", rect, true, currentPosition, color);
+                    currentPosition.X += reversed ? -8 : 8;
+                    currentRect = rect;
                 }
-                else if (outlined)
+                else
                 {
-                    offsets = new int[,]
+                    var contiguousText = charactersOrFallback.Skip(i).TakeWhile(n => n < 0);
+                    i += contiguousText.Count() - 1;
+
+                    var shadow = textTypeOffset < 48;
+                    var plain = textTypeOffset >= 48 && textTypeOffset < 72;
+                    var outlined = textTypeOffset >= 72;
+
+                    var offsets = new int[0, 0];
+                    if (shadow)
                     {
+                        offsets = new int[,]
+                        {
+                        { 1, 1 }
+                        };
+                    }
+                    else if (outlined)
+                    {
+                        offsets = new int[,]
+                        {
                         { -1, -1 }, { 0, -1 }, { 1, -1 },
                         { -1, 0 }, { 1, 0 },
                         { -1, 1 }, { 0, 1 }, { 1, 1 },
-                    };
+                        };
+                    }
+                    
+                    var charString = new string(contiguousText.Select(n => (char)(-(int)n)).ToArray());
+                    var textWidth = dg.GetTextMeasurer().MeasureMiniText(charString);
+
+                    if (reversed)
+                    {
+                        currentPosition.X -= textWidth.Width;
+                    }
+
+                    for (var entryIndex = 0; entryIndex < offsets.GetLength(0); entryIndex++)
+                    {
+                        var offPosition = new Vector2(currentPosition.X + offsets[entryIndex, 0], currentPosition.Y + offsets[entryIndex, 1]);
+                        dg.DrawMiniText(charString, offPosition, Color.Black);
+                    }
+
+                    dg.DrawMiniText(charString, currentPosition, color);
+
+                    if (reversed)
+                    {
+                        currentPosition.X -= 8;
+                    }
+                    else
+                    {
+                        currentPosition.X += textWidth.Width;
+                    }
                 }
-
-                var charString = new string((char)-characterOffset, 1);
-
-                for (var entryIndex = 0; entryIndex < offsets.GetLength(0); entryIndex++)
-                {
-                    var offPosition = new Vector2(position.X + offsets[entryIndex, 0], position.Y + offsets[entryIndex, 1]);
-                    dg.DrawMiniText(charString, offPosition, Color.Black);
-                }
-
-                dg.DrawMiniText(charString, position, color);
-                return new Rectangle();
             }
+
+            finalPosition = currentPosition;
+            finalRect = currentRect;
         }
 
 		public void TextRender(
@@ -597,29 +624,18 @@ namespace NSGame
 		{
 			AllBase.NAME[] nameArray = this.Nametodata(txt);
 			Vector2 vector2;
-			int num1;
 			if (!LeftRight)
 			{
 				vector2 = position;
-				num1 = 8;
 			}
 			else
 			{
 				vector2 = new Vector2(position.X - 8 * (nameArray.Length - 1), position.Y);
 				nameArray = ((IEnumerable<AllBase.NAME>)nameArray).Reverse<AllBase.NAME>().ToArray<AllBase.NAME>();
-				num1 = -8;
 			}
-			int num2 = shadow ? 16 : 32;
-			foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-			{
-				v,
-				j
-			}))
-			{
-				this._position = new Vector2(vector2.X + num1 * data.j, vector2.Y);
-                this._rect = DrawBlockCharacter(dg, data.v, shadow ? 16 : 88, this._position, Color.White);
-            }
-		}
+            this._position = new Vector2(vector2.X, vector2.Y);
+            DrawBlockCharacters(dg, nameArray, shadow ? 16 : 88, this._position, Color.White, out this._rect, out this._position, LeftRight);
+        }
 
 		public void TextRender(
 		  IRenderer dg,
@@ -631,28 +647,17 @@ namespace NSGame
 		{
 			AllBase.NAME[] nameArray = this.Nametodata(txt);
 			Vector2 vector2;
-			int num1;
 			if (!LeftRight)
 			{
 				vector2 = position;
-				num1 = 8;
 			}
 			else
 			{
 				vector2 = new Vector2(position.X - 8 * (nameArray.Length - 1), position.Y);
-				num1 = 8;
 			}
-			int num2 = shadow ? 16 : 32;
-			foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-			{
-				v,
-				j
-			}))
-			{
-				this._position = new Vector2(vector2.X + num1 * data.j, vector2.Y);
-                this._rect = DrawBlockCharacter(dg, data.v, shadow ? 16 : 88, this._position, color);
-            }
-		}
+            this._position = new Vector2(vector2.X, vector2.Y);
+            DrawBlockCharacters(dg, nameArray, shadow ? 16 : 88, this._position, color, out this._rect, out this._position);
+        }
 
 		public void ShakeStart(int level)
 		{

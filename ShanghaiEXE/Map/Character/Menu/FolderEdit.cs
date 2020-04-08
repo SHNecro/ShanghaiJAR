@@ -507,15 +507,9 @@ namespace NSMap.Character.Menu
                                 color = this.illegalColor;
                             this._position = new Vector2(num1 + 8, 32 + 16 * index1);
                             chipFolder.chip.IconRender(dg, this._position, false, false, chipFolder.codeNo, false);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)this.Nametodata(chipFolder.chip.name)).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(num1 + 24 + 8 * data.j, 32 + 16 * index1);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                            }
+                            var blockCharacters = this.Nametodata(chipFolder.chip.name);
+                            this._position = new Vector2(num1 + 24, 32 + 16 * index1);
+                            DrawBlockCharacters(dg, blockCharacters, 16, this._position, color, out this._rect, out this._position);
                             this._rect = new Rectangle(216 + (int)chipFolder.chip.element * 16, 88, 16, 16);
                             this._position = new Vector2(num1 + 88, 32 + index1 * 16);
                             dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
@@ -595,15 +589,8 @@ namespace NSMap.Character.Menu
                 this._position = new Vector2(num1 + 144, 32f + num2);
                 dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
                 var bagNames = this.Nametodata(ShanghaiEXE.Translate("FolderEdit.BagName"));
-                foreach (var data in ((IEnumerable<AllBase.NAME>)bagNames).Select((v, j) => new
-                {
-                    v,
-                    j
-                }))
-                {
-                    this._position = new Vector2(num1 + 24 + 8 * data.j, 8f);
-                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                }
+                this._position = new Vector2(num1 + 24, 8f);
+                DrawBlockCharacters(dg, bagNames, 88, this._position, Color.White, out this._rect, out this._position);
             }
             if (this.nowscene != FolderEdit.SCENE.bag)
             {
@@ -619,15 +606,9 @@ namespace NSMap.Character.Menu
                             color = this.illegalColor;
                         this._position = new Vector2(this.seetX + 104, 32 + 16 * index1);
                         this.main.chipfolder[this.Selectfolder, this.Topchip + index1].chip.IconRender(dg, this._position, false, false, this.main.chipfolder[this.Selectfolder, this.Topchip + index1].codeNo, false);
-                        foreach (var data in ((IEnumerable<AllBase.NAME>)this.Nametodata(this.main.chipfolder[this.Selectfolder, this.Topchip + index1].chip.name)).Select((v, j) => new
-                        {
-                            v,
-                            j
-                        }))
-                        {
-                            this._position = new Vector2(this.seetX + 120 + 8 * data.j, 32 + 16 * index1);
-                            this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                        }
+                        var blockCharacters = this.Nametodata(this.main.chipfolder[this.Selectfolder, this.Topchip + index1].chip.name);
+                        this._position = new Vector2(this.seetX + 120, 32 + 16 * index1);
+                        DrawBlockCharacters(dg, blockCharacters, 16, this._position, color, out this._rect, out this._position);
                         this._rect = new Rectangle(216 + (int)this.main.chipfolder[this.Selectfolder, this.Topchip + index1].chip.element * 16, 88, 16, 16);
                         this._position = new Vector2(this.seetX + 184, 32 + index1 * 16);
                         dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
@@ -709,15 +690,9 @@ namespace NSMap.Character.Menu
                         name = this.savedata.foldername;
                         break;
                 }
-                foreach (var data in ((IEnumerable<AllBase.NAME>)this.Nametodata(name)).Select((v, j) => new
-                {
-                    v,
-                    j
-                }))
-                {
-                    this._position = new Vector2(this.seetX + 104 + 8 * data.j, 10f);
-                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                }
+                var nameBlockCharacters = this.Nametodata(name);
+                this._position = new Vector2(this.seetX + 104, 10f);
+                DrawBlockCharacters(dg, nameBlockCharacters, 88, this._position, Color.White, out this._rect, out this._position);
                 int[] numArray1 = this.ChangeCount(savedata.Regularlarge);
                 PointF pointF1 = new PointF(this.seetX + 192, 0.0f);
                 for (int index = 0; index < numArray1.Length; ++index)

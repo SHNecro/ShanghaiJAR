@@ -1205,11 +1205,8 @@ namespace NSBattle
                                 color2 = Color.White;
                             if (!flag || this.paprintname)
                             {
-                                for (int index = 0; index < nameArray.Length; ++index)
-                                {
-                                    this._position = new Vector2(16 + 8 * index, num1 + 16 + 24 * data.i);
-                                    this._rect = DrawBlockCharacter(dg, nameArray[index], 16, this._position, color2);
-                                }
+                                this._position = new Vector2(16, num1 + 16 + 24 * data.i);
+                                DrawBlockCharacters(dg, nameArray, 16, this._position, color2, out this._rect, out this._position);
                                 if (this.canchips[data.v].chip.code[this.canchips[data.v].codeNo] != ChipFolder.CODE.none)
                                 {
                                     this._rect = new Rectangle((int)this.canchips[data.v].chip.code[this.canchips[data.v].codeNo] * 8, 32, 8, 16);
@@ -1389,15 +1386,9 @@ namespace NSBattle
                             }
                             this._position = new Vector2(_point.X + 28f, 24f);
                             this.canchips[index].chip.GraphicsRender(dg, this._position, this.canchips[index].codeNo, true, true);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)this.canchips[this.cursor.X].chip.Nametodata(this.canchips[index].chip.name)).Select((v, i) => new
-                            {
-                                v,
-                                i
-                            }))
-                            {
-                                this._position = new Vector2(_point.X + 24f + 8 * data.i, 7f);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
-                            }
+                            var blockCharacters = this.Nametodata(this.canchips[index].chip.name);
+                            this._position = new Vector2(_point.X + 24f, 7f);
+                            DrawBlockCharacters(dg, blockCharacters, 88, this._position, Color.White, out this._rect, out this._position);
                         }
                         else
                         {

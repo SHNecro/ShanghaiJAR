@@ -196,22 +196,16 @@ namespace NSMap.Character.Menu
                         var displayId = drawnPageType == LibraryPageType.Illegal ? IllegalChipDisplayId : rowChipEntry.DisplayId;
                         var chipIdBlockText = this.Nametodata(displayId);
                         var chipIdLocation = new Vector2(96 + currentMoveXOffset + 24 - (chipIdBlockText.Length - 1) * 8, 32 + visibleRowIndex * 16);
-                        for (int index = 0; index < chipIdBlockText.Length; ++index)
-                        {
-                            this._position = new Vector2(chipIdLocation.X + index * 8, chipIdLocation.Y);
-                            this._rect = DrawBlockCharacter(dg, chipIdBlockText[index], 16, this._position, Color.SkyBlue);
-                        }
+                        this._position = new Vector2(chipIdLocation.X, chipIdLocation.Y);
+                        DrawBlockCharacters(dg, chipIdBlockText, 16, this._position, Color.SkyBlue, out this._rect, out this._position);
                     }
 
                     // Draw entry chip name
                     var chipNameBlockText = this.Nametodata(rowChipEntry.IsSeen ? rowChipEntry.Chip.name : UnknownChipNameText);
                     var nameOffset = drawnPageType == LibraryPageType.PA ? 16 : 48;
                     var chipNameLocation = new Vector2(96 + currentMoveXOffset + nameOffset, 32 + visibleRowIndex * 16);
-                    for (int index = 0; index < chipNameBlockText.Length; ++index)
-                    {
-                        this._position = new Vector2(chipNameLocation.X + index * 8, chipNameLocation.Y);
-                        this._rect = DrawBlockCharacter(dg, chipNameBlockText[index], 16, this._position, Color.White);
-                    }
+                    this._position = new Vector2(chipNameLocation.X, chipNameLocation.Y);
+                    DrawBlockCharacters(dg, chipNameBlockText, 16, this._position, Color.White, out this._rect, out this._position);
 
                     if (rowChipEntry.IsSeen && drawnPageType != LibraryPageType.PA)
                     {
@@ -244,11 +238,8 @@ namespace NSMap.Character.Menu
                 // Draw library page title
                 var pageTitleBlockText = this.Nametodata(drawnPage.Title);
                 var pageTitleLocation = new Vector2(96 + currentMoveXOffset + 8, 10f);
-                for (int index = 0; index < pageTitleBlockText.Length; ++index)
-                {
-                    this._position = new Vector2(pageTitleLocation.X + index * 8, pageTitleLocation.Y);
-                    this._rect = DrawBlockCharacter(dg, pageTitleBlockText[index], 88, this._position, drawnPage.TitleColor);
-                }
+                this._position = new Vector2(pageTitleLocation.X, pageTitleLocation.Y);
+                DrawBlockCharacters(dg, pageTitleBlockText, 88, this._position, drawnPage.TitleColor, out this._rect, out this._position);
             }
 
             // Fade in/out

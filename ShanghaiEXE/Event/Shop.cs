@@ -285,15 +285,8 @@ namespace NSEvent
                                 ChipS chipS = new ChipS(this.goods[this.top + index].numberNo, this.goods[this.top + index].numberSub);
                                 AllBase.NAME[] nameArray = this.Nametodata(chipS.Name);
                                 point = new Vector2(16f, 12 + index * 16);
-                                foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                                {
-                                    v,
-                                    j
-                                }))
-                                {
-                                    this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                    this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                                }
+                                this._position = new Vector2(point.X, point.Y);
+                                DrawBlockCharacters(dg, nameArray, 16, this._position, color, out this._rect, out this._position);
                                 this._position = new Vector2(88f, 12 + 16 * index);
                                 this._rect = new Rectangle(chipS.Code * 8, 32, 8, 16);
                                 dg.DrawImage(dg, "font", this._rect, true, this._position, color);
@@ -302,15 +295,8 @@ namespace NSEvent
                             }
                             AllBase.NAME[] nameArray1 = this.Nametodata(ShanghaiEXE.Translate("Shop.HPMemory"));
                             point = new Vector2(16f, 12 + index * 16);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray1).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                            }
+                            this._position = new Vector2(point.X, point.Y);
+                            DrawBlockCharacters(dg, nameArray1, 16, this._position, color, out this._rect, out this._position);
                             num = this.goods[this.top + index].price + this.goods[this.top + index].numberSub * this.savedata.ShopCount[this.shopNo, index];
                             if (this.savedata.ShopCount[this.shopNo, this.top + index] >= this.goods[this.top + index].stock)
                                 num -= this.goods[this.top + index].numberSub;
@@ -318,40 +304,19 @@ namespace NSEvent
                         case 1:
                             AllBase.NAME[] nameArray2 = this.Nametodata(SubChip.NameSet(this.goods[this.top + index].numberNo));
                             point = new Vector2(16f, 12 + index * 16);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray2).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                            }
+                            this._position = new Vector2(point.X, point.Y);
+                            DrawBlockCharacters(dg, nameArray2, 16, this._position, color, out this._rect, out this._position);
                             num = SubChip.PriceSet(this.goods[this.top + index].numberNo) - this.goods[this.top + index].numberSub;
                             break;
                         case 2:
                             AllBase.NAME[] nameArray3 = this.Nametodata(AddOnBase.AddOnSet(this.goods[this.top + index].numberNo, this.goods[this.top + index].numberSub).name);
                             point = new Vector2(16f, 12 + index * 16);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray3).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                            }
+                            this._position = new Vector2(point.X, point.Y);
+                            DrawBlockCharacters(dg, nameArray3, 16, this._position, color, out this._rect, out this._position);
                             AllBase.NAME[] nameArray4 = this.Nametodata(AddOnBase.ColorToAlphabet(this.goods[this.top + index].numberSub));
                             point = new Vector2(88f, 12 + index * 16);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray4).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                            }
+                            this._position = new Vector2(point.X, point.Y);
+                            DrawBlockCharacters(dg, nameArray4, 16, this._position, color, out this._rect, out this._position);
                             num = this.goods[this.top + index].price;
                             break;
                         case 3:
@@ -514,15 +479,8 @@ namespace NSEvent
                 {
                     AllBase.NAME[] nameArray = this.Nametodata(string.Format(ShanghaiEXE.Translate("Shop.ZennyFormat"), this.savedata.havePeace[this.moneyType - 1]));
                     point = new Vector2(232 - nameArray.Length * 8, 16f);
-                    foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                    {
-                        v,
-                        j
-                    }))
-                    {
-                        this._position = new Vector2(point.X + 8 * data.j, point.Y);
-                        this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                    }
+                    this._position = new Vector2(point.X, point.Y);
+                    DrawBlockCharacters(dg, nameArray, 88, this._position, Color.White, out this._rect, out this._position);
                 }
                 else
                 {

@@ -469,8 +469,9 @@ namespace NSEnemy
                 this._position = new Vector2(nameXPosition + 8 * index + nameVersionAdjustmentOffset, this.number * 16);
                 this._rect = new Rectangle(328, 104, 8, 16);
                 dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-                this._rect = DrawBlockCharacter(dg, nameArray[index], 88, this._position, this.color);
             }
+            this._position = new Vector2(nameXPosition + nameVersionAdjustmentOffset, this.number * 16);
+            DrawBlockCharacters(dg, nameArray, 88, this._position, this.color, out this._rect, out this._position);
             // Draw version number
             if (numberprint && this.version > 1)
             {

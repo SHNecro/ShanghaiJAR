@@ -260,15 +260,8 @@ namespace NSMap.Character.Menu
                                 nameArray = this.Nametodata(this.savedata.foldername);
                                 break;
                         }
-                        foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                        {
-                            v,
-                            j
-                        }))
-                        {
-                            this._position = new Vector2(10 + 8 * data.j, 24 + 40 * index);
-                            this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                        }
+                        this._position = new Vector2(10, 24 + 40 * index);
+                        DrawBlockCharacters(dg, nameArray, 88, this._position, Color.White, out this._rect, out this._position);
                     }
                 }
                 this._rect = new Rectangle(112, this.cursolanime ? 216 : 248, 96, 32);
@@ -299,15 +292,8 @@ namespace NSMap.Character.Menu
                         Color color = Color.White;
                         if (this.main.chipfolder[this.select, this.Topchip + index1].chip.number >= 350)
                             color = this.illegalColor;
-                        foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                        {
-                            v,
-                            j
-                        }))
-                        {
-                            this._position = new Vector2(120 + 8 * data.j, 16 + 16 * index1);
-                            this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, color);
-                        }
+                        this._position = new Vector2(120, 16 + 16 * index1);
+                        DrawBlockCharacters(dg, nameArray, 16, this._position, color, out this._rect, out this._position);
                         this._rect = new Rectangle(216 + (int)this.main.chipfolder[this.select, this.Topchip + index1].chip.element * 16, 88, 16, 16);
                         this._position = new Vector2(184f, 16 + index1 * 16);
                         dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);

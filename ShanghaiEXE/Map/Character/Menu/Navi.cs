@@ -325,15 +325,8 @@ namespace NSMap.Character.Menu
                 dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
                 AllBase.NAME[] nameArray1 = this.Nametodata(ShanghaiEXE.Translate("Navi.Buster"));
                 position = new Vector2(this.pageX[0] + 8, 18f);
-                foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray1).Select((v, j) => new
-                {
-                    v,
-                    j
-                }))
-                {
-                    this._position = new Vector2(position.X + 8 * data.j, position.Y);
-                    this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                }
+                this._position = new Vector2(position.X, position.Y);
+                DrawBlockCharacters(dg, nameArray1, 88, this._position, Color.White, out this._rect, out this._position);
                 for (int index = 0; index < this.savedata.busterspec.Length; ++index)
                 {
                     string str = "";

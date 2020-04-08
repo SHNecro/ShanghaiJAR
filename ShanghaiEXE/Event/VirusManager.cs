@@ -358,15 +358,8 @@ namespace NSEvent
                         {
                             AllBase.NAME[] nameArray = this.Nametodata(this.savedata.HaveVirus[index].Name);
                             vector2 = new Vector2(8f, 32 + index * 32);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(vector2.X + 8 * data.j, vector2.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                            }
+                            this._position = new Vector2(vector2.X, vector2.Y);
+                            DrawBlockCharacters(dg, nameArray, 88, this._position, Color.White, out this._rect, out this._position);
                             this._position = new Vector2(88f, 32 + 32 * index);
                             this._rect = new Rectangle(this.savedata.HaveVirus[index].code * 8, 120, 8, 16);
                             dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
@@ -376,15 +369,8 @@ namespace NSEvent
                             var emptyText = ShanghaiEXE.Translate("Virus.Empty");
                             AllBase.NAME[] nameArray = this.Nametodata(emptyText);
                             vector2 = new Vector2(8f, 32 + index * 32);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(vector2.X + 8 * data.j, vector2.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 16, this._position, Color.White);
-                            }
+                            this._position = new Vector2(vector2.X, vector2.Y);
+                            DrawBlockCharacters(dg, nameArray, 16, this._position, Color.White, out this._rect, out this._position);
                         }
                     }
                     this._position = new Vector2(8f, 120f);
@@ -409,15 +395,8 @@ namespace NSEvent
                             dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
                             AllBase.NAME[] nameArray = this.Nametodata(this.savedata.stockVirus[num + this.top].Name);
                             vector2 = new Vector2(128f, 32 + num * 32);
-                            foreach (var data in ((IEnumerable<AllBase.NAME>)nameArray).Select((v, j) => new
-                            {
-                                v,
-                                j
-                            }))
-                            {
-                                this._position = new Vector2(vector2.X + 8 * data.j, vector2.Y);
-                                this._rect = DrawBlockCharacter(dg, data.v, 88, this._position, Color.White);
-                            }
+                            this._position = new Vector2(vector2.X, vector2.Y);
+                            DrawBlockCharacters(dg, nameArray, 88, this._position, Color.White, out this._rect, out this._position);
                             this._position = new Vector2(208f, 32 + 32 * num);
                             this._rect = new Rectangle(this.savedata.stockVirus[num + this.top].code * 8, 120, 8, 16);
                             dg.DrawImage(dg, "font", this._rect, true, this._position, Color.White);
