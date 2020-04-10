@@ -258,7 +258,7 @@ namespace NSEnemy
                                 {
                                     this.animationpoint = this.AnimeShellReady(this.waittime);
                                     if (this.waittime == this.aspeed)
-                                        this.sound.PlaySE(SoundEffect.throw_);
+                                        this.sound.PlaySE(SoundEffect.throwbomb);
                                     if (this.waittime == this.aspeed * 3)
                                         this.sound.PlaySE(SoundEffect.chain);
                                     if (this.waittime >= this.aspeed * 7)

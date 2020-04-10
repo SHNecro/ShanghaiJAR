@@ -86,7 +86,7 @@ namespace NSChip
           this.animePoint = this.AnimeAncerThrow(this.waittime);
           if (this.waittime == 9)
           {
-            this.sound.PlaySE(SoundEffect.throw_);
+            this.sound.PlaySE(SoundEffect.throwbomb);
             AnchorBomb.TYPE ty = AnchorBomb.TYPE.singleG;
             if (this.action == 3)
               ty = AnchorBomb.TYPE.single;

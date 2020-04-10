@@ -296,7 +296,7 @@ namespace NSEnemy
                             {
                                 case 8:
                                     this.counterTiming = false;
-                                    this.sound.PlaySE(SoundEffect.throw_);
+                                    this.sound.PlaySE(SoundEffect.throwbomb);
                                     this.target = this.RandomTarget();
                                     this.parent.attacks.Add(new AnchorBomb(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, new Vector2(this.positionDirect.X + (this.union == Panel.COLOR.red ? 0.0f : 0.0f), this.positionDirect.Y - 8f), this.target, Math.Max(40 / (version / 2 + 1), 20), AnchorBomb.TYPE.single, -1));
                                     this.positionre = this.position;

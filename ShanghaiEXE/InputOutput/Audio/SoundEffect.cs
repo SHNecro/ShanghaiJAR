@@ -81,7 +81,7 @@
         sword,
         teacharrow,
         thiptransmission,
-        throw_,
+        throwbomb,
         thunder,
         treader,
         vulcan,

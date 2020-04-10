@@ -21,7 +21,7 @@ namespace NSCharge
         {
             this.player.animationpoint = this.MoveAnimation(this.player.waittime);
             if (this.player.waittime == 1)
-                this.sound.PlaySE(SoundEffect.throw_);
+                this.sound.PlaySE(SoundEffect.throwbomb);
             if (this.player.waittime == 18)
             {
                 this.sound.PlaySE(SoundEffect.canon);

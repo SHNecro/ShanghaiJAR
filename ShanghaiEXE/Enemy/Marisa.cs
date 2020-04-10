@@ -224,7 +224,7 @@ namespace NSEnemy
                                     {
                                         case 32:
                                             this.counterTiming = false;
-                                            this.sound.PlaySE(SoundEffect.throw_);
+                                            this.sound.PlaySE(SoundEffect.throwbomb);
                                             this.RandomTarget();
                                             Vector2 v = new Vector2(this.positionDirect.X + 8 * this.UnionRebirth(this.union), this.positionDirect.Y - 8f);
                                             for (int seed = 0; seed < Math.Min(version - 1, 2); ++seed)

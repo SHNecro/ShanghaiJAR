@@ -40,7 +40,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       if (character.waittime == 3)
-        this.sound.PlaySE(SoundEffect.throw_);
+        this.sound.PlaySE(SoundEffect.throwbomb);
       character.animationpoint = CharacterAnimation.BombAnimation(character.waittime);
       if (character.waittime == 6)
       {

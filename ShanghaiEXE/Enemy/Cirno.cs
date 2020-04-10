@@ -311,7 +311,7 @@ namespace NSEnemy
                                         this.Noslip = true;
                                         this.effecting = true;
                                         this.counterTiming = false;
-                                        this.sound.PlaySE(SoundEffect.throw_);
+                                        this.sound.PlaySE(SoundEffect.throwbomb);
                                         this.attack = Cirno.ATTACK.icePress;
                                         this.target = this.RandomTarget();
                                         this.positionre = this.target;
