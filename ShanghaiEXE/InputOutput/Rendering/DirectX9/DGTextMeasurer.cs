@@ -46,8 +46,10 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
 
             using (var graphics = Graphics.FromHwnd(IntPtr.Zero))
             {
-                var slimFont = new SlimFont(font);
-                return slimFont.Font.MeasureString(null, text, SlimDX.Direct3D9.DrawTextFormat.Left).Size;
+                using (var slimFont = new SlimFont(font))
+                {
+                    return slimFont.Font.MeasureString(null, text, SlimDX.Direct3D9.DrawTextFormat.Left).Size;
+                }
             }
         }
     }
