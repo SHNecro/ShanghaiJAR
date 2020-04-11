@@ -41,6 +41,7 @@ namespace NSGame
         private double learnedFPSAdjustment = 1;
         private static readonly int FPSAdjustmentWeighting = 15;
         private static readonly TimeSpan FPSAdjustmentPeriod = TimeSpan.FromSeconds(0.25);
+        private static readonly int UpdateRate = 65;
         public Dictionary<string, SlimTex> Tex = new Dictionary<string, SlimTex>();
         public string[] KeepTexList = new string[87]
         {
@@ -415,7 +416,7 @@ namespace NSGame
 
         public void MainLoop()
         {
-            var updateRate = 60;
+            var updateRate = UpdateRate;
             var isTurbo = Input.IsPush(Button.Turbo);
             if (isTurbo)
             {
@@ -512,7 +513,7 @@ namespace NSGame
                 {
                     if (this.updatesSinceLastFPSAdjustment != 0 && !isTurbo)
                     {
-                        var desiredUpdateRate = 60;
+                        var desiredUpdateRate = UpdateRate;
                         if (isTurbo)
                         {
                             desiredUpdateRate = (ShanghaiEXE.Config.AllowTurboSlowdown ?? false)
