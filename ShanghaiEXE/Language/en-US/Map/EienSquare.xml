@@ -426,7 +426,7 @@
   <Dialogue Key="Map.EienSquareSagePostgameDialogue10" Value="Hummmmmmm...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue1" Value="Uhh....?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue2" Value="--sin， sin， ack，ack--,--attest--,--nine to tonight--" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue3" Value="--moshi moshi--,--trial--,--understand--" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSagePostgameStage2Dialogue3" Value="--moshi--,--trial--,--understand--" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage3Dialogue1" Value="You alright there，old man?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage3Dialogue2" Value="Just fine，just fine，never better!,Nothing to worry about，girl!" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue1" Value="....So，did you find anything?" Face="Shanghai" Mono="False" />
@@ -434,12 +434,12 @@
   <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue3" Value="What?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue4" Value="That is to say，I can’t give you,the passcode，but I saw the,steps you can take to find it!" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue5" Value="Why do I get the feeling I’m,going to be very annoyed by,the end of this?" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue1" Value="Your first step can be found,where many others begin their,own pursuit of knowledge." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue2" Value="There is a boy there.,Pass his test，and return here." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue1" Value="Some knowledge can only be,found by the side of the road of,life." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue2" Value="Find a man on his way to the,park. Answer his questions，,and return here." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue1" Value="Climbing the steps of history,can let one reach new heights,of understanding." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue2" Value="There is an old man.,Satisfy his curiosity and return,here." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue1" Value="“Your first step can be found,where many others begin their,own pursuit of knowledge.“" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue2" Value="“There is a boy there.,Pass his test，and return here.“" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue1" Value="“Some knowledge can only be,found by the side of the road of,life.“" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue2" Value="“Find a man on his way to the,park. Answer his questions，,and return here.“" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue1" Value="“Climbing the steps of history,can let one reach new heights,of understanding.“" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue2" Value="“You will find an old man.,Satisfy his curiosity and return,here.“" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1ResponseDialogue1" Value="Ugh....,You better not be wasting my,time! I’ll be right back!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue1" Value="What does that even mean?!,Would it kill you to talk straight?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue2" Value="I’m sorry!,My visions only give me so,much I can say!" Face="NaviOrangeRobot" Mono="False" />
@@ -456,4 +456,11 @@
   <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue2" Value="Then there’s one last thing I’ll,owe you for." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue3" Value="I suppose it’s fitting that your,last test will be something I was,brought into this world to do...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizCompleteStage2Dialogue4" Value="Give me a couple of minutes,to spin up some old routines.,I’ll be where we first met." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageMidPostgameAndRequestDialogue1" Value="Ah，back for the next step?,Just a moment，I--" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageMidPostgameAndRequestDialogue2" Value="No，no，I got sick of riddles and,started working on something,else." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageMidPostgameAndRequestDialogue3" Value="You ever heard of a....,“Reincarnation Program”?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageMidPostgameAndRequestDialogue4" Value="You’re lucky I’m feeling as fit,as a fiddle today，miss.,Just a second，I’ll look it up." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageMidPostgameAndRequestAfterDialogue1" Value="Sorry，this old man’s mind just,isn’t what it used to be.,What were we talking about?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageMidPostgameAndRequestAfterDialogue2Question" Value="" Face="Shanghai" Mono="False" />
+  <Text Key="Map.EienSquareSageMidPostgameAndRequestAfterDialogue2Options" Value="Reincarnation Program,Heaven Area,Nothing" />
 </data>
