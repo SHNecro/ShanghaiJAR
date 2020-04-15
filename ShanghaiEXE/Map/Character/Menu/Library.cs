@@ -263,7 +263,7 @@ namespace NSMap.Character.Menu
                     {
                         this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
                         var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                        if (newCode != currentCode)
+                        if (this.CurrentPageType == LibraryPageType.PA || newCode != currentCode)
                         {
                             break;
                         }
