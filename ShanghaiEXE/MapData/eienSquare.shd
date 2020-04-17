@@ -299,7 +299,8 @@ hitrange:3:0:0:0
 hitform:circle
 event:
 msgopen:
-ifFlag:802:True:0
+ifFlag:796:False:0
+ifFlag:802:True:1
 msg:Map.EienSquareSageMidPostgameAndRequestAfterDialogue1
 question:Map.EienSquareSageMidPostgameAndRequestAfterDialogue2Question:Map.EienSquareSageMidPostgameAndRequestAfterDialogue2Options
 BranchHead:1
@@ -310,11 +311,12 @@ BranchEnd:
 BranchHead:2
 goto:end
 BranchEnd:
-ifEnd:0
-ifFlag:802:False:0
-ifFlag:795:True:1
+ifEnd:1
+ifFlag:802:False:1
+ifFlag:795:True:2
 msg:Map.EienSquareSagePostgameAndRequestAfterDialogue1
 msg:Map.EienSquareSagePostgameAndRequestAfterDialogue2
+ifEnd:2
 ifEnd:1
 ifEnd:0
 msg:Map.EienSquareChapter3SageOldManStage7Dialogue1FaceNaviOrangeRobot
@@ -1453,8 +1455,9 @@ msg:Map.EienSquareSageQuizCompleteDialogue3
 msg:Map.EienSquareSageQuizCompleteDialogue4
 msg:Map.EienSquareSageQuizCompleteDialogue5
 msgclose:
-wait:60:False
+wait:30:False
 ifFlag:798:False:0
+wait:30:False
 effectEnd:
 playerHide:False
 ifEnd:0

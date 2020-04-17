@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.ShanghaiRequestInfo1Dialogue1None" Value="null" Face="None" Mono="False" />
   <Dialogue Key="Messages.ShanghaiRequestInfo2Dialogue1Shanghai" Value="Our client said they were,near Remilia’s mansion." Face="Shanghai" Mono="False" />
@@ -34,7 +34,7 @@
   <!-- 依頼人は幻想町の黄色い屋根の家の花壇の電脳ってもしかして････ -->
   <Dialogue Key="Messages.ShanghaiRequestInfo29Dialogue1Shanghai" Value="Our client’s in the flowerbed,of a house with a yellow roof,in Genso Town." Face="Shanghai" Mono="False" />
   <!-- 探しものなら千里眼じいさん！エイエンスクエアに行ってみましょう！ -->
-  <Dialogue Key="Messages.ShanghaiRequestInfo30Dialogue1Shanghai" Value="Our target’s the old sage in,Eien Square!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.ShanghaiRequestInfo30Dialogue1Shanghai" Value="Our target’s the old Sage in,Eien Square!" Face="Shanghai" Mono="False" />
   <!-- サルベージプログラムを探して座標　Ｘ−９８　Y−０５　へプラグインしてみましょ！ -->
   <Dialogue Key="Messages.ShanghaiRequestInfo31Dialogue1Shanghai" Value="Look for the salvage program,at X-98 Y-05." Face="Shanghai" Mono="False" />
   <!-- 沈没船の電脳で転生プログラムを探すのよ！ -->

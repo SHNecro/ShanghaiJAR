@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.AliceRequestInfo1Dialogue1None" Value="null" Face="None" Mono="False" />
   <Dialogue Key="Messages.AliceRequestInfo2Dialogue1Alice" Value="Our client said they were,waiting near Remilia’s,mansion." Face="Alice" Mono="False" />
@@ -34,7 +34,7 @@
   <!-- 依頼人がいるっていう花だんの電脳ってひとつしかないわよね････？ -->
   <Dialogue Key="Messages.AliceRequestInfo29Dialogue1Alice" Value="There’s only one flowerbed,comp our client could be in...." Face="Alice" Mono="False" />
   <!-- 千里眼のおじいさんってエイエンスクエアにいるのかな？ -->
-  <Dialogue Key="Messages.AliceRequestInfo30Dialogue1Alice" Value="Would the old sage be in,Eien Square?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceRequestInfo30Dialogue1Alice" Value="Would the old Sage still be in,Eien Square?" Face="Alice" Mono="False" />
   <!-- サルベージプログラムを見つけて座標　Ｘ−９８　Y−０５　に行けばいいのよね？ -->
   <Dialogue Key="Messages.AliceRequestInfo31Dialogue1Alice" Value="The salvage program should,be at X-98 Y-05，right?" Face="Alice" Mono="False" />
   <!-- この電脳のどこかに転生プログラムがあるのよね？探しましょう！ -->

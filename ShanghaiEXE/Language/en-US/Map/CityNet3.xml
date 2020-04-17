@@ -296,15 +296,29 @@
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue1" Value="You may have defeated me，,but there is another， more,knowledgable than I." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue2" Value="They reside in a heavenly,network，but in order to reach,them，you must travel through--" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue3" Value="--the Undernet?,Yeah，I’ve been there.,You’re overselling it，old man." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue4" Value="Oh. Uh....,Huh. Congratulations again，,then. That was all I had." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedDialogue1" Value="You’ve passed the test and,earned the right to enter,Heaven." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue4" Value="Oh. Uh.... Huh.,Congratulations again，then.,I should head back to Eien." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedDialogue1" Value="You’ve passed the test and,earned the right to enter,Heaven Area." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue1" Value="Yeah，about that....,We already figured out the,code on our own." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue2" Value="Honestly，you dodged a bullet.,If you’d tried to tell me that the,password was “12345”...." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue3" Value="That’s，ah.... good to hear?,Congratulations again，then." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue4" Value="Thanks，old man.,You might want to look for a,better afterlife，though." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue3" Value="Well，I wouldn’t have been,very happy，let’s leave it at,that." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue4" Value="That’s，ah.... good to hear?,I should head back to Eien.,Congratulations again." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue1" Value="I was about to ask about it，,but it looked like you really,wanted to do your quiz." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue2" Value="You have the password to that,door blocking the way?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue3" Value="Oh，ah....,One second，please." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue1" Value="Finally!,Well，what’s the password?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue2" Value="One moment please...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue1" Value="I guess they call you the Sage,for a reason，huh. Already,know what I’m going to ask?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue2" Value="A question....?,If you want to ask something，,meet me back at Eien Square." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue3" Value="No，no，I’m here to answer,your NetOp’s challenge for,the Quiz Crown." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue4" Value="Quiz Kid，Quiz Master，Quiz,King....,Ever wonder who taught them?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue1" Value="How’s the search for that ship,going?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue2" Value="Eh，it can wait.,Listen，I’ve got a question I,really need an answer to." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue3" Value="Sorry，my powers leave me,all tuckered out，I’m just not,up to it today." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue4" Value="But，tell you what....,If you can pass my quiz，I’ll,make an exception for you." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue1" Value="Eh，I’m taking a bit of a break.,What are you doing all the way,out here?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue2" Value="I’ve been hearing through the,grapevine that your NetOp is,a real Quiz enthusiast!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteReminderDialogue1" Value="“12345” sure is an odd code....,I hope you find what you need,in the Heaven Area." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue1" Value="Geez，what a pain.,Y’know，doesn’t this make you,the Quiz Queen or something?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="You might get challengers!,Do you have a dark corner,already picked out?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="Don’t be silly，Shanghai!,I don’t think it works like that，,anyways." Face="Alice" Mono="False" />
 </data>

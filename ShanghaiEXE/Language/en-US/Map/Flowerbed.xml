@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 花だんの電脳 -->
   <Text Key="Map.FlowerbedName" Value="Flower Bed Comp" />
@@ -41,7 +41,7 @@
   <!-- こういうときに頼れる相手をあたしたちは知ってるじゃない -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue10FaceShanghai" Value="Who do we usually go to with,these questions?" Face="Shanghai" Mono="False" />
   <!-- あっ！千里眼おじさんね！ -->
-  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue11FaceAlice" Value="Ah! The old sage!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue11FaceAlice" Value="Ah! The old Sage!" Face="Alice" Mono="False" />
   <!-- じいさんだった気がするけど････ -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue12FaceShanghai" Value="Old，for sure，but I don’t know,about the word ”sage”...." Face="Shanghai" Mono="False" />
   <!-- たしかエイエンスクエアにいたから　訪ねてみましょ！ -->
