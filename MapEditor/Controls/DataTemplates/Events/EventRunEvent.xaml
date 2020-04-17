@@ -36,7 +36,7 @@
                            VerticalAlignment="Center"
                            Text="Target Page:"/>
                 <controls:WheelCaptureIntegerUpDown Grid.Column="1"
-                                                    Value="{Binding Page, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                                    Text="{Binding Page, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 <Button Grid.Column="2"
                         Style="{StaticResource SetTagBindingButton}"
                         VerticalContentAlignment="Center"
