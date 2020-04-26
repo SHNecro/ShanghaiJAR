@@ -205,11 +205,11 @@ namespace NSMap
                     this.eventmanagerParallel.UpDate();
                 if (!this.player.openMenu && !this.eventmanager.playevent)
                     this.TimerUpdate();
-				foreach (var credit in persistentEvents)
+				foreach (var persistentEvent in this.persistentEvents)
 				{
-					if (credit.IsActive)
+					if (persistentEvent.IsActive)
 					{
-						credit.PersistentUpdate();
+						persistentEvent.PersistentUpdate();
 					}
 				}
                 this.persistentEvents.RemoveAll(pe => !pe.IsActive);
@@ -950,11 +950,11 @@ namespace NSMap
 			{
 				this.eventmanagerParallel.Render(dg);
 			}
-			foreach (var credit in persistentEvents)
+			foreach (var persistentEvent in this.persistentEvents)
 			{
-				if (credit.IsActive)
+				if (persistentEvent.IsActive)
 				{
-					credit.PersistentRender(dg);
+					persistentEvent.PersistentRender(dg);
 				}
 			}
             if (this.DebugOn)

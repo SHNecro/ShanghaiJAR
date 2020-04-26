@@ -65,8 +65,10 @@ namespace NSMap.Character
             [49] = (sound, position, field) => new PetalBreeze(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
             [50] = (sound, position, field) => new ShanghaiHeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false),
             [51] = (sound, position, field) => new ShanghaiHeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true),
-            [52] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), false),
-            [53] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), true)
+            [52] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), false, true),
+            [53] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), true, true),
+            [54] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), false, false),
+            [55] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), true, false)
         };
 
     public EffectBase effect;

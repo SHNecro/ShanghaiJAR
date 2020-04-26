@@ -135,7 +135,7 @@ namespace MapEditor.Models.Elements.Enums
         CameraDefault,
         [Description("Run Event")]
         EventRun,
-		[Description("Show Credit")]
+		[Description("Show Onscreen Text")]
 		Credit,
 		[Description("Start Screen Shake")]
         Shake,

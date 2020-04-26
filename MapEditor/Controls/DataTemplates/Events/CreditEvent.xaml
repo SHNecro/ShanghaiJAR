@@ -62,60 +62,146 @@
                            Text="Centered:" />
                 <CheckBox Grid.Column="1" IsChecked="{Binding Centered}" />
             </Grid>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0"
-                           VerticalAlignment="Center"
-                           Text="Fade In:" />
-                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
-                    <controls:WheelCaptureIntegerUpDown.Text>
-                        <Binding Path="FadeInTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </controls:WheelCaptureIntegerUpDown.Text>
-                </controls:WheelCaptureIntegerUpDown>
-            </Grid>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0"
-                           VerticalAlignment="Center"
-                           Text="Hang Time:" />
-                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
-                    <controls:WheelCaptureIntegerUpDown.Text>
-                        <Binding Path="HangTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </controls:WheelCaptureIntegerUpDown.Text>
-                </controls:WheelCaptureIntegerUpDown>
-            </Grid>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0"
-                           VerticalAlignment="Center"
-                           Text="Fade Out:" />
-                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
-                    <controls:WheelCaptureIntegerUpDown.Text>
-                        <Binding Path="FadeOutTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </controls:WheelCaptureIntegerUpDown.Text>
-                </controls:WheelCaptureIntegerUpDown>
-            </Grid>
+            <TabControl SelectedValuePath="Tag" SelectedValue="{Binding CreditType}">
+                <TabItem Header="Timed" Tag="{x:Static events:CreditEvent.Timed}">
+                    <StackPanel Orientation="Vertical">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                                           VerticalAlignment="Center"
+                                                           Text="Fade In:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="FadeInTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                                           VerticalAlignment="Center"
+                                                           Text="Hang Time:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="HangTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                                           VerticalAlignment="Center"
+                                                           Text="Fade Out:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="FadeOutTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Fade In" Tag="{x:Static events:CreditEvent.FadeIn}">
+                    <StackPanel Orientation="Vertical">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       VerticalAlignment="Center"
+                                       Text="ID:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="FadeOutTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       VerticalAlignment="Center"
+                                       Text="Fade In:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="FadeInTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Fade Out" Tag="{x:Static events:CreditEvent.FadeOut}">
+                    <StackPanel Orientation="Vertical">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       VerticalAlignment="Center"
+                                       Text="ID:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="FadeInTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0"
+                                       VerticalAlignment="Center"
+                                       Text="Fade Out:" />
+                            <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
+                                <controls:WheelCaptureIntegerUpDown.Text>
+                                    <Binding Path="FadeOutTime" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                        <Binding.ValidationRules>
+                                            <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" />
+                                        </Binding.ValidationRules>
+                                    </Binding>
+                                </controls:WheelCaptureIntegerUpDown.Text>
+                            </controls:WheelCaptureIntegerUpDown>
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+            </TabControl>
         </StackPanel>
     </DataTemplate>
 </ResourceDictionary>

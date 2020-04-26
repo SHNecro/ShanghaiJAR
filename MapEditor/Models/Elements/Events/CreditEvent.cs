@@ -1,16 +1,37 @@
 ﻿using MapEditor.Core;
+using System;
 
 namespace MapEditor.Models.Elements.Events
 {
     public class CreditEvent : EventBase, ITranslatedModel
     {
-		private string creditKey;
+        public const int Timed = 0;
+        public const int FadeIn = 1;
+        public const int FadeOut = 2;
+
+        private int creditType;
+
+        private string creditKey;
         private int x;
         private int y;
         private bool centered;
-		private int fadeInTime;
-		private int hangTime;
-		private int fadeOutTime;
+        private int fadeInTime;
+        private int hangTime;
+        private int fadeOutTime;
+
+        public int CreditType
+        {
+            get
+            {
+                return this.creditType;
+            }
+
+            set
+            {
+                this.UpdateCreditType(value);
+                this.SetValue(ref this.creditType, value);
+            }
+        }
 
 		public string CreditKey
 		{
@@ -122,7 +143,17 @@ namespace MapEditor.Models.Elements.Events
         protected override string GetStringValue()
         {
             var centeredText = this.Centered ? "True" : "False";
-            return $"credit:{this.CreditKey}:{this.X}:{this.Y}:{centeredText}:{this.FadeInTime}:{this.HangTime}:{this.FadeOutTime}";
+            var adjustedHangTime = this.HangTime;
+            switch (this.CreditType)
+            {
+                case CreditEvent.FadeIn:
+                    adjustedHangTime = -1;
+                    break;
+                case CreditEvent.FadeOut:
+                    adjustedHangTime = -2;
+                    break;
+            }
+            return $"credit:{this.CreditKey}:{this.X}:{this.Y}:{centeredText}:{this.FadeInTime}:{adjustedHangTime}:{this.FadeOutTime}";
         }
 
         protected override void SetStringValue(string value)
@@ -149,8 +180,68 @@ namespace MapEditor.Models.Elements.Events
 				this.Y = newY;
                 this.Centered = newCentered;
 				this.FadeInTime = newFadeInTime;
-				this.HangTime = newHangTime;
+				this.HangTime = newHangTime < 0 ? 30 : newHangTime;
 				this.FadeOutTime = newFadeOutTime;
+
+                switch (newHangTime)
+                {
+                    case -1:
+                        this.creditType = CreditEvent.FadeIn;
+                        break;
+                    case -2:
+                        this.creditType = CreditEvent.FadeOut;
+                        break;
+                    default:
+                        this.creditType = CreditEvent.Timed;
+                        break;
+                }
+            }
+        }
+
+        private void UpdateCreditType(int value)
+        {
+            switch (this.CreditType)
+            {
+                case 0:
+                    switch (value)
+                    {
+                        case 1:
+                            this.FadeOutTime = 0;
+                            break;
+                        case 2:
+                            this.FadeInTime = 0;
+                            break;
+                    }
+                    break;
+                case 1:
+                    switch (value)
+                    {
+                        case 0:
+                            this.FadeOutTime = 0;
+                            break;
+                        case 2:
+                            var id = this.fadeOutTime;
+                            var fadeTime = this.FadeInTime;
+                            this.FadeInTime = id;
+                            this.FadeOutTime = fadeTime;
+                            break;
+                    }
+                    break;
+                case 2:
+                    switch (value)
+                    {
+                        case 0:
+                            this.FadeInTime = 0;
+                            break;
+                        case 1:
+                            var id = this.FadeInTime;
+                            var fadeTime = this.fadeOutTime;
+                            this.FadeOutTime = this.FadeInTime;
+                            this.FadeInTime = fadeTime;
+                            this.FadeOutTime = id;
+                            break;
+                    }
+                    break;
             }
         }
     }

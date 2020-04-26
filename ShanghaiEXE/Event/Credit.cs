@@ -5,11 +5,16 @@ using NSMap;
 using System.Drawing;
 using SlimDX;
 using System;
+using System.Linq;
 
 namespace NSEvent
 {
     internal class Credit : EventBase, IPersistentEvent
     {
+        private const int Timed = 0;
+        private const int FadeIn = -1;
+        private const int FadeOut = -2;
+
         private SceneMap parent;
 
 		private string creditKey;
@@ -47,6 +52,11 @@ namespace NSEvent
 			this.hangTime = hangTime;
 			this.fadeOutTime = fadeOutTime;
 
+            if (this.hangTime < 0)
+            {
+                this.PersistentId = this.hangTime == -1 ? this.fadeOutTime : this.fadeInTime;
+            }
+
 			this.state = CreditState.FadingIn;
 
 			this.alpha = 0;
@@ -54,9 +64,22 @@ namespace NSEvent
 
 		public bool IsActive { get; set; }
 
+        public int? PersistentId { get; set; }
+
 		public override void Update()
         {
-            parent.persistentEvents.Add(this);
+            if (this.hangTime != FadeOut)
+            {
+                parent.persistentEvents.Add(this);
+            }
+            else
+            {
+                var matchingCredits = parent.persistentEvents.OfType<Credit>().Where(c => c.PersistentId == this.PersistentId);
+                foreach (var c in matchingCredits)
+                {
+                    c.ForceFadeOut(this.fadeOutTime);
+                }
+            }
             this.IsActive = true;
 			this.EndCommand();
 		}
@@ -79,7 +102,7 @@ namespace NSEvent
 					}
 					break;
 				case CreditState.Hanging:
-					if (this.frame >= this.hangTime)
+					if (this.hangTime != FadeIn && this.frame >= this.hangTime)
 					{
 						this.frame = 0;
 						this.alpha = 255;
@@ -129,6 +152,14 @@ namespace NSEvent
 		public override void Render(IRenderer dg)
 		{
 		}
+
+        private void ForceFadeOut(int fadeTime)
+        {
+            this.frame = 0;
+            this.alpha = 255;
+            this.fadeOutTime = fadeTime;
+            this.state = CreditState.FadingOut;
+        }
 
 		private enum CreditState
 		{

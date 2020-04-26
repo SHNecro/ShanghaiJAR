@@ -407,7 +407,20 @@ namespace MapEditor.Models
             }
         }
 
-        public virtual string Name => this.Instance.Name;
+        public virtual string Name
+        {
+            get
+            {
+                try
+                {
+                    return this.Instance.Name;
+                }
+                catch
+                {
+                    return "INVALID EVENT";
+                }
+            }
+        }
 
         public static EventObject FromString(string value)
         {

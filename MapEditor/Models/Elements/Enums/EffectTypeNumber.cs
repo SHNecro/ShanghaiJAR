@@ -54,7 +54,9 @@
         PetalBreeze = 49,
         ShanghaiHeavenWarpOut = 50,
         ShanghaiHeavenWarpIn = 51,
-        SageFloatUp = 52,
-        SageFloatDown = 53,
+        SageFloatUpSouth = 52,
+        SageFloatDownSouth = 53,
+        SageFloatUpNorth = 54,
+        SageFloatDownNorth = 55,
     }
 }
