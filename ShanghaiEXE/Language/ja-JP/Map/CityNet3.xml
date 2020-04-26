@@ -283,11 +283,11 @@
   <Text Key="Map.CityNet3SageQuizQuestion17Options" Value="[Internal Concerns Inc.,Frontier Solutions,Border Trading Co.]" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion18Question" Value="[18!,Which one of these is a real,Barrier chip?]" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestion18Options" Value="[HealBarr,PwrBarr,Barr100]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion19Question" Value="[19! Sorry about this one!,How many teeth do the skull,doors have?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion19Options" Value="[3,4,5]" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion19Question" Value="[19!,What shape is the disguised,Genso University air purifier?]" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion19Options" Value="[Statue,Potted Plant,Tree]" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion20Question" Value="[20! Final question!,I’ll be a little sad if you get this,one wrong!]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion20Dialogue1" Value="[What chip did I ask you for,the first time we met?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion20Options" Value="[Recov20 ＊,Recov10 ＊,RayGun C]" />
+  <Text Key="Map.CityNet3SageQuizQuestion20Options" Value="[Recov20 ＊,ShotWav ＊,RayGun C]" />
   <Dialogue Key="Map.CityNet3SageQuizCheckpoint" Value="[Let’s start at the halfway point，,I know you know the first half,already.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizBlankQuestion" Value="" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue1" Value="[That’s it，then!,You’ve answered everything,correctly!]" Face="NaviOrangeRobot" Mono="False" />
@@ -319,6 +319,12 @@
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue2" Value="[I’ve been hearing through the,grapevine that your NetOp is,a real Quiz enthusiast!]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteReminderDialogue1" Value="[“12345” sure is an odd code....,I hope you find what you need,in the Heaven Area.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue1" Value="[Geez，what a pain.,Y’know，doesn’t this make you,the Quiz Queen or something?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="[You might get challengers!,Do you have a dark corner,already picked out?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="[Don’t be silly，Shanghai!,I don’t think it works like that，,anyways.]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="[Don’t be silly，Shanghai!,I don’t think it works like that，,anyways.]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="[Are you sure? You could find a,nice， dark corner and come up,with your own quizzes!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1" Value="[I’ll give you some space for,your lightshow.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage2Dialogue1" Value="[Mmmmmmmm....,I see....]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="[Š‰—§® [ CLIENT ] €†–©¤Œ¬Ž­š,’ž«”‡¡Š¢•™”…[ CONNECT ]‰£§€,¬˜˜¤ž  [ SECURE ] ›—‹Šª“‹ˆš]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="[­€“ [ USER ] ¡”› [ DEFINE ] ¦©‡’¬,Ž›Œƒ…Ÿ [ ACCESS ] £œ‡–«“‹Œ,ª­ [ AUTHENTICATE ] «€‘š’Ž–”]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="[­£••¤©†¡¡¦‡¦Š–Ÿ›—Šª“ [ BEGIN ] „,š§£§€ž’‘®¬Ž¦Š™Ž©¤Œ‰¦†™ª•‚,—¢†‘‹ [ SEQUENCE ] ™†®§œ]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="[Shanghai，look!]" Face="Alice" Mono="False" />
 </data>
