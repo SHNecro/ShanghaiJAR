@@ -185,7 +185,7 @@ namespace NSEvent
 
         public void Render(IRenderer dg)
         {
-            if (this.playeventnumber <= this.events.Count - 1)
+            if (this.playevent && this.playeventnumber < this.events.Count)
             {
                 this.events[this.playeventnumber].Render(dg);
             }

@@ -825,13 +825,13 @@ credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText2:120:64:True:150:90:9
 wait:60:False
 credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText3:120:80:True:150:120:90
 wait:120:False
-bgmfade:25:240:False
-bgmon:whiteheavenarea
+bgmfade:100:240:False
+bgmon:heavenbackground
 wait:75:False
 fade:120:64:255:255:255:False
 editValue:15:False:0:0:1
 camera:-152:256:0:True
-camera:0:100:120:False
+camera:0:100:180:False
 msgopen:
 msg:Map.UraNet7PostgameKeystoneUnlockStage2Dialogue1
 msg:Map.UraNet7PostgameKeystoneUnlockStage2Dialogue2

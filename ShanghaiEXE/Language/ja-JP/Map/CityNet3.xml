@@ -239,9 +239,9 @@
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="[I had the oddest feeling you,would seek me out here....]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="[Well，you’ve found me.,And you’ve passed all of my,students’ tests.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="[Surprised? One of my earliest,test functions was to generate,quizzes from what I learned.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="[No catchy theme song this,time I’m afraid，my partner’s,moved on to bigger things.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="[No catchy theme song this time，,I’m afraid.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="[I’m sure you want to get started，,and my partner’s moved on to,bigger things anyways.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="[No catchy theme this time I’m,afraid，my songwriter’s,moved on to bigger things.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="[Well，here we are.,No catchy theme this time，I’m,afraid.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="[I’m sure you want to get started，,and my songwriter’s moved on,to bigger things anyways.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="[Ready for QuizBot’s final,routine?]" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="はい,いいえ" />
   <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="[I understand，take all the time,you need to prepare.]" Face="NaviOrangeRobot" Mono="False" />
@@ -327,4 +327,29 @@
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="[­€“ [ USER ] ¡”› [ DEFINE ] ¦©‡’¬,Ž›Œƒ…Ÿ [ ACCESS ] £œ‡–«“‹Œ,ª­ [ AUTHENTICATE ] «€‘š’Ž–”]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="[­£••¤©†¡¡¦‡¦Š–Ÿ›—Šª“ [ BEGIN ] „,š§£§€ž’‘®¬Ž¦Š™Ž©¤Œ‰¦†™ª•‚,—¢†‘‹ [ SEQUENCE ] ™†®§œ]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="[Shanghai，look!]" Face="Alice" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5HiddenCode" Value="#" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code1" Value="1" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code2" Value="2" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code3" Value="3" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code4" Value="4" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code5" Value="5" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue1" Value="[They can’t even bother to just,tell us the code normally....?,Annoying to the very end....]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue2" Value="[Shush，it’s not every day that,you get let into a super secret,area of the Net.]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue3" Value="[We go to new parts of the Net,every other week!,It’s not that special!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue1" Value="[Shanghai! Don’t look away!,Oh，where did I put my pen?!,“1”，“2”....]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue2" Value="[I’m just saying，it’s just another,part of the Net，I don’t see why,they have to try so hard.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue3" Value="[And you don’t need to write it,down，it’s just 5 numbers.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue4" Value="[See，“1”，then “2”，then....]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue1" Value="[....“3”.,Hold on a minute.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue2" Value="[No....,They wouldn’t....!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue1" Value="[Alice.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue2" Value="[Shanghai....?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue3" Value="[Get me out of here.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue4" Value="[It....,It could be something else....]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue5" Value="[I don’t care!,If I’m wrong，we can just try,every other number!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue6" Value="[Get me out of here before I,do something I regret!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue1" Value="[RRRRGGGHH!,ALICE!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue2" Value="[Alright，alright!]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue1" Value="[Ahhhh....,I hope you found what you,were looking for，miss.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue2" Value="[Miss....?]" Face="NaviOrangeRobot" Mono="False" />
 </data>

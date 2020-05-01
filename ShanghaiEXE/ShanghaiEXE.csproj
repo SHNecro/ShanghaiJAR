@@ -1451,6 +1451,7 @@
     <Content Include="Sounds\menuopen.wav" />
     <Content Include="Sounds\message.wav" />
     <Content Include="Sounds\movecursol.wav" />
+    <Content Include="Sounds\Music\heavenbackground.ogg" />
     <Content Include="Sounds\noise.wav" />
     <Content Include="Sounds\openchip.wav" />
     <Content Include="Sounds\pause.wav" />
@@ -1965,7 +1966,9 @@
     <Content Include="Language\en-US\Enemy.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Language\en-US\Chip.xml" />
+    <Content Include="Language\en-US\Chip.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\ja-JP\Misc.xml" />
     <Content Include="Language\ja-JP\AddOn.xml" />
     <Content Include="Language\ja-JP\Battle.xml" />
