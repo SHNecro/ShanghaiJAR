@@ -20,11 +20,14 @@ namespace NSEvent
 		private string creditKey;
 		private Vector2 position;
         private bool centered;
+        private bool movesWithCamera;
 		private int fadeInTime;
 		private int hangTime;
 		private int fadeOutTime;
 
 		private CreditState state;
+
+        private Vector2 initialCamera;
 
 		private int alpha;
 
@@ -34,6 +37,7 @@ namespace NSEvent
 		  string key,
           Point position,
           bool centered,
+          bool movesWithCamera,
           int fadeInTime,
 		  int hangTime,
           int fadeOutTime,
@@ -48,6 +52,7 @@ namespace NSEvent
 			this.creditKey = key;
 			this.position = new Vector2(position.X, position.Y);
             this.centered = centered;
+            this.movesWithCamera = movesWithCamera;
 			this.fadeInTime = fadeInTime;
 			this.hangTime = hangTime;
 			this.fadeOutTime = fadeOutTime;
@@ -68,6 +73,8 @@ namespace NSEvent
 
 		public override void Update()
         {
+            this.initialCamera = parent.Field.camera;
+
             if (this.hangTime != FadeOut)
             {
                 parent.persistentEvents.Add(this);
@@ -130,6 +137,7 @@ namespace NSEvent
             var text = ShanghaiEXE.Translate(this.creditKey);
             var textSize = ShanghaiEXE.measurer.MeasureRegularText(text);
             var centerOffset = this.centered ? new Vector2(-textSize.Width / 2, -textSize.Height / 2) : new Vector2();
+            var cameraOffset = this.movesWithCamera ? this.initialCamera - this.parent.Field.camera : Vector2.Zero;
             var xOff = new[] { -1, 1, 0 };
             var yOff = new[] { -1, 1, 0 };
             foreach (var x in xOff)
@@ -138,7 +146,7 @@ namespace NSEvent
                 {
                     dg.DrawText(
                         text,
-                        this.position + new Vector2(x, y) + centerOffset,
+                        this.position + new Vector2(x, y) + centerOffset + cameraOffset,
                         x == 0 && y == 0 ? Color.FromArgb(this.alpha, Color.White) : Color.FromArgb(this.alpha, 32, 32, 32));
                 }
             }

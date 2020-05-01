@@ -92,11 +92,11 @@ hitrange:3:3:0:0
 hitform:square
 event:
 bgmLoad:
-credit:Credits.Category3Role1:16:0:False:60:270:60
-credit:Credits.Category2Credit1:32:16:False:60:270:60
-credit:Credits.Category3Credit2:32:32:False:60:270:60
-credit:Credits.Category3Credit3:32:48:False:60:270:60
-credit:Credits.Category3Credit4:32:64:False:60:270:60
+credit:Credits.Category3Role1:16:0:False:False:60:270:60
+credit:Credits.Category2Credit1:32:16:False:False:60:270:60
+credit:Credits.Category3Credit2:32:32:False:False:60:270:60
+credit:Credits.Category3Credit3:32:48:False:False:60:270:60
+credit:Credits.Category3Credit4:32:64:False:False:60:270:60
 CameraDefault:0
 camera:75:470:0:True
 eventDelete:ギミック時計

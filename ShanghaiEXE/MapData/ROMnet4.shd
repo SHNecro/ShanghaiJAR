@@ -98,9 +98,9 @@ bgmon:ending
 bgmfade:0:0:True
 bgmfade:100:360:False
 bgmSave:
-credit:Credits.Team1:16:0:False:60:320:60
-credit:Credits.Category1Role1:16:16:False:60:320:60
-credit:Credits.Category1Credit1:32:32:False:60:320:60
+credit:Credits.Team1:16:0:False:False:60:320:60
+credit:Credits.Category1Role1:16:16:False:False:60:320:60
+credit:Credits.Category1Credit1:32:32:False:False:60:320:60
 CameraDefault:0
 camera:1000:750:0:True
 wait:15:False

@@ -15,6 +15,7 @@ namespace MapEditor.Models.Elements.Events
         private int x;
         private int y;
         private bool centered;
+        private bool movesWithCamera;
         private int fadeInTime;
         private int hangTime;
         private int fadeOutTime;
@@ -85,6 +86,19 @@ namespace MapEditor.Models.Elements.Events
             }
         }
 
+        public bool MovesWithCamera
+        {
+            get
+            {
+                return this.movesWithCamera;
+            }
+
+            set
+            {
+                this.SetValue(ref this.movesWithCamera, value);
+            }
+        }
+
         public int FadeInTime
         {
             get
@@ -130,8 +144,9 @@ namespace MapEditor.Models.Elements.Events
         {
             get
 			{
+                var typeText = this.CreditType == CreditEvent.FadeOut ? $"FadeOut " : string.Empty;
 				var dialogue = Constants.TranslationService.Translate(this.CreditKey);
-				return $"Credits ({this.X}, {this.Y}): {dialogue.Text}";
+				return $"{typeText}Onscreen Text ({this.X}, {this.Y}): {dialogue.Text}";
 			}
         }
 
@@ -143,6 +158,7 @@ namespace MapEditor.Models.Elements.Events
         protected override string GetStringValue()
         {
             var centeredText = this.Centered ? "True" : "False";
+            var movesWithCameraText = this.movesWithCamera ? "True" : "False";
             var adjustedHangTime = this.HangTime;
             switch (this.CreditType)
             {
@@ -153,13 +169,13 @@ namespace MapEditor.Models.Elements.Events
                     adjustedHangTime = -2;
                     break;
             }
-            return $"credit:{this.CreditKey}:{this.X}:{this.Y}:{centeredText}:{this.FadeInTime}:{adjustedHangTime}:{this.FadeOutTime}";
+            return $"credit:{this.CreditKey}:{this.X}:{this.Y}:{centeredText}:{movesWithCamera}:{this.FadeInTime}:{adjustedHangTime}:{this.FadeOutTime}";
         }
 
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
-            if (!this.Validate(entries, $"Malformed credit event \"{value}\".", e => e.Length == 8 && e[0] == "credit"))
+            if (!this.Validate(entries, $"Malformed credit event \"{value}\".", e => e.Length == 9 && e[0] == "credit"))
             {
                 return;
             }
@@ -169,9 +185,10 @@ namespace MapEditor.Models.Elements.Events
 			var newX = this.ParseIntOrAddError(entries[2]);
             var newY = this.ParseIntOrAddError(entries[3]);
             var newCentered = this.ParseBoolOrAddError(entries[4]);
-            var newFadeInTime = this.ParseIntOrAddError(entries[5]);
-            var newHangTime = this.ParseIntOrAddError(entries[6]);
-			var newFadeOutTime = this.ParseIntOrAddError(entries[7]);
+            var newMovesWithCamera = this.ParseBoolOrAddError(entries[5]);
+            var newFadeInTime = this.ParseIntOrAddError(entries[6]);
+            var newHangTime = this.ParseIntOrAddError(entries[7]);
+			var newFadeOutTime = this.ParseIntOrAddError(entries[8]);
 
 			if (!this.HasErrors)
             {
@@ -179,6 +196,7 @@ namespace MapEditor.Models.Elements.Events
 				this.X = newX;
 				this.Y = newY;
                 this.Centered = newCentered;
+                this.MovesWithCamera = newMovesWithCamera;
 				this.FadeInTime = newFadeInTime;
 				this.HangTime = newHangTime < 0 ? 30 : newHangTime;
 				this.FadeOutTime = newFadeOutTime;

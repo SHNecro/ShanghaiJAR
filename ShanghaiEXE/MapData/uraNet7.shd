@@ -819,11 +819,11 @@ msgopen:
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue9
 msgclose:
 wait:75:False
-credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText1:120:48:True:150:90:90
+credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText1:120:48:True:False:150:90:90
 wait:60:False
-credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText2:120:64:True:150:90:90
+credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText2:120:64:True:False:150:90:90
 wait:60:False
-credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText3:120:80:True:150:120:90
+credit:Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText3:120:80:True:False:150:120:90
 wait:120:False
 bgmfade:100:240:False
 bgmon:heavenbackground

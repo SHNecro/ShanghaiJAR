@@ -62,6 +62,16 @@
                            Text="Centered:" />
                 <CheckBox Grid.Column="1" IsChecked="{Binding Centered}" />
             </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Moves With Camera:" />
+                <CheckBox Grid.Column="1" IsChecked="{Binding MovesWithCamera}" />
+            </Grid>
             <TabControl SelectedValuePath="Tag" SelectedValue="{Binding CreditType}">
                 <TabItem Header="Timed" Tag="{x:Static events:CreditEvent.Timed}">
                     <StackPanel Orientation="Vertical">

@@ -143,8 +143,8 @@ hitrange:3:3:0:0
 hitform:square
 event:
 bgmLoad:
-credit:Credits.Category4Role1:16:0:False:60:270:60
-credit:Credits.Category4Credit1:32:16:False:60:270:60
+credit:Credits.Category4Role1:16:0:False:False:60:270:60
+credit:Credits.Category4Credit1:32:16:False:False:60:270:60
 CameraDefault:0
 camera:550:400:0:True
 wait:15:False

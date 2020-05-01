@@ -25,12 +25,12 @@ hitform:square
 event:
 fade:0:255:0:0:0:True
 bgmfade:0:1280:False
-credit:Credits.Team4:16:0:False:60:90:60
-credit:Credits.Category18Role1:16:16:False:60:90:60
-credit:Credits.Category18Credit1:32:32:False:60:90:60
+credit:Credits.Team4:16:0:False:False:60:90:60
+credit:Credits.Category18Role1:16:16:False:False:60:90:60
+credit:Credits.Category18Credit1:32:32:False:False:60:90:60
 wait:210:False
-credit:Credits.Category19Role1:16:16:False:60:90:60
-credit:Credits.Category19Credit1:32:32:False:60:90:60
+credit:Credits.Category19Role1:16:16:False:False:60:90:60
+credit:Credits.Category19Credit1:32:32:False:False:60:90:60
 wait:210:False
 wait:60:False
 msgopen:
