@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Message Index="0">
+    <Dialogue Key="Messages.HumorInfo1Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo1Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo1Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo1Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo1Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo1Dialogue6Alice" />
+  </Message>
+  <Message Index="1">
+    <Dialogue Key="Messages.HumorInfo2Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo2Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo2Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo2Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo2Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo2Dialogue6Alice" />
+  </Message>
+  <Message Index="2">
+    <Dialogue Key="Messages.HumorInfo3Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo3Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo3Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo3Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo3Dialogue5Alice" />
+  </Message>
+  <Message Index="3">
+    <Dialogue Key="Messages.HumorInfo4Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo4Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo4Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo4Dialogue4Alice" />
+  </Message>
+  <Message Index="4">
+    <Dialogue Key="Messages.HumorInfo5Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo5Dialogue2NaviPurplePunk" />
+    <Dialogue Key="Messages.HumorInfo5Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo5Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo5Dialogue5Alice" />
+  </Message>
+  <Message Index="5">
+    <Dialogue Key="Messages.HumorInfo6Dialogue1Alice" />
+    <Dialogue Key="Messages.HumorInfo6Dialogue2Sprite" />
+    <Dialogue Key="Messages.HumorInfo6Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo6Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo6Dialogue5Alice" />
+    <Dialogue Key="Messages.HumorInfo6Dialogue6Shanghai" />
+  </Message>
+  <Message Index="6">
+    <Dialogue Key="Messages.HumorInfo7Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue6Alice" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue7SpannerMan" />
+    <Dialogue Key="Messages.HumorInfo7Dialogue8Alice" />
+  </Message>
+  <Message Index="7">
+    <Dialogue Key="Messages.HumorInfo8Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo8Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo8Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo8Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo8Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo8Dialogue6Alice" />
+  </Message>
+  <Message Index="8">
+    <Dialogue Key="Messages.HumorInfo9Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo9Dialogue8Alice" />
+  </Message>
+  <Message Index="9">
+    <Dialogue Key="Messages.HumorInfo10Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue4None" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue5Alice" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue6Reisen" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue7Alice" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue8Reisen" />
+    <Dialogue Key="Messages.HumorInfo10Dialogue9Shanghai" />
+  </Message>
+  <Message Index="10">
+    <Dialogue Key="Messages.HumorInfo11Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue2Mari" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue4Mari" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue5Mari" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue6Mari" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue8Alice" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue9Mari" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue10Alice" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue11Shanghai" />
+    <Dialogue Key="Messages.HumorInfo11Dialogue12Mari" />
+  </Message>
+  <Message Index="11">
+    <Dialogue Key="Messages.HumorInfo12Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue2NaviPurpleHeel" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue4NaviPurpleHeel" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue6Alice" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo12Dialogue8Alice" />
+  </Message>
+  <Message Index="12">
+    <Dialogue Key="Messages.HumorInfo13Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo13Dialogue2NaviPurplePunk" />
+    <Dialogue Key="Messages.HumorInfo13Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo13Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo13Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo13Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo13Dialogue7Alice" />
+  </Message>
+  <Message Index="13">
+    <Dialogue Key="Messages.HumorInfo14Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo14Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo14Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo14Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo14Dialogue5Alice" />
+    <Dialogue Key="Messages.HumorInfo14Dialogue6Shanghai" />
+  </Message>
+  <Message Index="14">
+    <Dialogue Key="Messages.HumorInfo15Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo15Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo15Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo15Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo15Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo15Dialogue6Alice" />
+    <Dialogue Key="Messages.HumorInfo15Dialogue7Shanghai" />
+  </Message>
+  <Message Index="15">
+    <Dialogue Key="Messages.HumorInfo16Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo16Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo16Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo16Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo16Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo16Dialogue6Alice" />
+  </Message>
+  <Message Index="16">
+    <Dialogue Key="Messages.HumorInfo17Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo17Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo17Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo17Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo17Dialogue5Alice" />
+  </Message>
+  <Message Index="17">
+    <Dialogue Key="Messages.HumorInfo18Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue2Patchouli" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue4Patchouli" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue6OrangeHairMaleWesterner" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue8OrangeHairMaleWesterner" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue9Shanghai" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue10OrangeHairMaleWesterner" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue11Alice" />
+    <Dialogue Key="Messages.HumorInfo18Dialogue12Patchouli" />
+  </Message>
+  <Message Index="18">
+    <Dialogue Key="Messages.HumorInfo19Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue7Alice" />
+    <Dialogue Key="Messages.HumorInfo19Dialogue8Shanghai" />
+  </Message>
+  <Message Index="19">
+    <Dialogue Key="Messages.HumorInfo20Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue5Alice" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue7Sakuya" />
+    <Dialogue Key="Messages.HumorInfo20Dialogue8Alice" />
+  </Message>
+  <Message Index="20">
+    <Dialogue Key="Messages.HumorInfo21Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue6Alice" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue8Alice" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue9Shanghai" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue10Alice" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue11Shanghai" />
+    <Dialogue Key="Messages.HumorInfo21Dialogue12Alice" />
+  </Message>
+  <Message Index="21">
+    <Dialogue Key="Messages.HumorInfo22Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo22Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo22Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo22Dialogue4Alice" />
+  </Message>
+  <Message Index="22">
+    <Dialogue Key="Messages.HumorInfo23Dialogue1Alice" />
+    <Dialogue Key="Messages.HumorInfo23Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo23Dialogue3Punk" />
+    <Dialogue Key="Messages.HumorInfo23Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo23Dialogue5Alice" />
+  </Message>
+  <Message Index="23">
+    <Dialogue Key="Messages.HumorInfo24Dialogue1YoungAlice" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue5Alice" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue7Alice" />
+    <Dialogue Key="Messages.HumorInfo24Dialogue8Shanghai" />
+  </Message>
+  <Message Index="24">
+    <Dialogue Key="Messages.HumorInfo25Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue2TsubakiNekku" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue4TsubakiNekku" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue5TsubakiNekku" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue7Sprite" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue8TsubakiNekku" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue9Sprite" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue10TsubakiNekku" />
+    <Dialogue Key="Messages.HumorInfo25Dialogue11Alice" />
+  </Message>
+  <Message Index="25">
+    <Dialogue Key="Messages.HumorInfo26Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue4YoungAlice" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue5YoungAlice" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue6YoungAlice" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue7Alice" />
+    <Dialogue Key="Messages.HumorInfo26Dialogue8Shanghai" />
+  </Message>
+  <Message Index="26">
+    <Dialogue Key="Messages.HumorInfo27Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo27Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo27Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo27Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo27Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo27Dialogue6Alice" />
+  </Message>
+  <Message Index="27">
+    <Dialogue Key="Messages.HumorInfo28Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo28Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo28Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo28Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo28Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo28Dialogue6Alice" />
+  </Message>
+  <Message Index="28">
+    <Dialogue Key="Messages.HumorInfo29Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue5None" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue6Alice" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue7Reisen" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue8Alice" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue9Reisen" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue10Alice" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue11Shanghai" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue12None" />
+    <Dialogue Key="Messages.HumorInfo29Dialogue13Shanghai" />
+  </Message>
+  <Message Index="29">
+    <Dialogue Key="Messages.HumorInfo30Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue6Alice" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue8Alice" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue9Shanghai" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue10Alice" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue11Shanghai" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue12Alice" />
+    <Dialogue Key="Messages.HumorInfo30Dialogue13Alice" />
+  </Message>
+  <Message Index="30">
+    <Dialogue Key="Messages.HumorInfo31Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo31Dialogue8Alice" />
+  </Message>
+  <Message Index="31">
+    <Dialogue Key="Messages.HumorInfo32Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue2Yorihime" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue4Yorihime" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue6Yorihime" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue8Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue9Yorihime" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue10Yorihime" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue11Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue12Yorihime" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue13Shanghai" />
+    <Dialogue Key="Messages.HumorInfo32Dialogue14Alice" />
+  </Message>
+  <Message Index="32">
+    <Dialogue Key="Messages.HumorInfo33Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo33Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo33Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo33Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo33Dialogue5Alice" />
+  </Message>
+  <Message Index="33">
+    <Dialogue Key="Messages.HumorInfo34Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue7Alice" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue8Mama" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue9Mama" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue10Alice" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue11Shanghai" />
+    <Dialogue Key="Messages.HumorInfo34Dialogue12Mama" />
+  </Message>
+  <Message Index="34">
+    <Dialogue Key="Messages.HumorInfo35Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo35Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo35Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo35Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo35Dialogue5Shanghai" />
+  </Message>
+  <Message Index="35">
+    <Dialogue Key="Messages.HumorInfo36Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue2WriggleHat" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue4WriggleHat" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue5WriggleHat" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue6WriggleHat" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue8WriggleHat" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue9Shanghai" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue10Shanghai" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue11WriggleHat" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue12Alice" />
+    <Dialogue Key="Messages.HumorInfo36Dialogue13Shanghai" />
+  </Message>
+  <Message Index="36">
+    <Dialogue Key="Messages.HumorInfo37Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo37Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo37Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo37Dialogue4Alice" />
+    <Dialogue Key="Messages.HumorInfo37Dialogue5Shanghai" />
+  </Message>
+  <Message Index="37">
+    <Dialogue Key="Messages.HumorInfo38Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue2NaviPurpleHeel" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue3NaviPurplePunk" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue4NaviPurpleHeel" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue5Alice" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue7Shanghai" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue8Shanghai" />
+    <Dialogue Key="Messages.HumorInfo38Dialogue9Alice" />
+  </Message>
+  <Message Index="38">
+    <Dialogue Key="Messages.HumorInfo39Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo39Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo39Dialogue3Shanghai" />
+    <Dialogue Key="Messages.HumorInfo39Dialogue4Kumami" />
+    <Dialogue Key="Messages.HumorInfo39Dialogue5Shanghai" />
+    <Dialogue Key="Messages.HumorInfo39Dialogue6Kumami" />
+  </Message>
+  <Message Index="39">
+    <Dialogue Key="Messages.HumorInfo40Dialogue1Shanghai" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue2Alice" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue5Patchouli" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue6Shanghai" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue7Patchouli" />
+    <Dialogue Key="Messages.HumorInfo40Dialogue8Alice" />
+  </Message>
+  <Message Index="40">
+    <Dialogue Key="Messages.HumorInfo41Dialogue1Alice" />
+    <Dialogue Key="Messages.HumorInfo41Dialogue2Shanghai" />
+    <Dialogue Key="Messages.HumorInfo41Dialogue3Alice" />
+    <Dialogue Key="Messages.HumorInfo41Dialogue4Shanghai" />
+    <Dialogue Key="Messages.HumorInfo41Dialogue5Alice" />
+  </Message>
+  <Message Index="41">
+    <Dialogue Key="Messages.HumorInfoEirinCall" />
+  </Message>
+</data>

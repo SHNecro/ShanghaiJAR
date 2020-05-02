@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Message Index="0">
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue2Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue9Alice" />
+    <Dialogue Key="Messages.EirinCallInfo1Dialogue10Eirin" />
+  </Message>
+  <Message Index="1">
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo2Dialogue8Shanghai" />
+  </Message>
+  <Message Index="2">
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo3Dialogue7Alice" />
+  </Message>
+  <Message Index="3">
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue8Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo4Dialogue9Alice" />
+  </Message>
+  <Message Index="4">
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue7Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo5Dialogue9Alice" />
+  </Message>
+  <Message Index="5">
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue7Alice" />
+    <Dialogue Key="Messages.EirinCallInfo6Dialogue8Alice" />
+  </Message>
+  <Message Index="6">
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue8Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue9Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue10Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo7Dialogue11Alice" />
+  </Message>
+  <Message Index="7">
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue7Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo8Dialogue9Alice" />
+  </Message>
+  <Message Index="8">
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo9Dialogue7Alice" />
+  </Message>
+  <Message Index="9">
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo10Dialogue7Alice" />
+  </Message>
+  <Message Index="10">
+    <Dialogue Key="Messages.EirinCallInfo11Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo11Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo11Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo11Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo11Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo11Dialogue6Shanghai" />
+  </Message>
+  <Message Index="11">
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo12Dialogue7Alice" />
+  </Message>
+  <Message Index="12">
+    <Dialogue Key="Messages.EirinCallInfo13Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo13Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo13Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo13Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo13Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo13Dialogue6Alice" />
+  </Message>
+  <Message Index="13">
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue6Alice" />
+    <Dialogue Key="Messages.EirinCallInfo14Dialogue7Shanghai" />
+  </Message>
+  <Message Index="14">
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue6Alice" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue8Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo15Dialogue9Eirin" />
+  </Message>
+  <Message Index="15">
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue4Alice" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue5Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue7Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo16Dialogue8Alice" />
+  </Message>
+  <Message Index="16">
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo17Dialogue7Alice" />
+  </Message>
+  <Message Index="17">
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue6Alice" />
+    <Dialogue Key="Messages.EirinCallInfo18Dialogue7Eirin" />
+  </Message>
+  <Message Index="18">
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue8Alice" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue9Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue10Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue11Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue12Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo19Dialogue13Alice" />
+  </Message>
+  <Message Index="19">
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue7Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo20Dialogue8Eirin" />
+  </Message>
+  <Message Index="20">
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue9Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo21Dialogue10Alice" />
+  </Message>
+  <Message Index="21">
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue7Alice" />
+    <Dialogue Key="Messages.EirinCallInfo22Dialogue8Eirin" />
+  </Message>
+  <Message Index="22">
+    <Dialogue Key="Messages.EirinCallInfo23Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo23Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo23Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo23Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo23Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo23Dialogue6Eirin" />
+  </Message>
+  <Message Index="23">
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo24Dialogue7Alice" />
+  </Message>
+  <Message Index="24">
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo25Dialogue7Eirin" />
+  </Message>
+  <Message Index="25">
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue9Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo26Dialogue10Eirin" />
+  </Message>
+  <Message Index="26">
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue9Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue10Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue11Alice" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue12Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo27Dialogue13Alice" />
+  </Message>
+  <Message Index="27">
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo28Dialogue7Shanghai" />
+  </Message>
+  <Message Index="28">
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue8Alice" />
+    <Dialogue Key="Messages.EirinCallInfo29Dialogue9Shanghai" />
+  </Message>
+  <Message Index="29">
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo30Dialogue7Shanghai" />
+  </Message>
+  <Message Index="30">
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo31Dialogue7Alice" />
+  </Message>
+  <Message Index="31">
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue8Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo32Dialogue9Alice" />
+  </Message>
+  <Message Index="32">
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue3Alice" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue7Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo33Dialogue8Shanghai" />
+  </Message>
+  <Message Index="33">
+    <Dialogue Key="Messages.EirinCallInfo34Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo34Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo34Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo34Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo34Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo34Dialogue6Alice" />
+  </Message>
+  <Message Index="34">
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo35Dialogue7Eirin" />
+  </Message>
+  <Message Index="35">
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue7Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue8Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo36Dialogue9Alice" />
+  </Message>
+  <Message Index="36">
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue4Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue6Alice" />
+    <Dialogue Key="Messages.EirinCallInfo37Dialogue7Shanghai" />
+  </Message>
+  <Message Index="37">
+    <Dialogue Key="Messages.EirinCallInfo38Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo38Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo38Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo38Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo38Dialogue5Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo38Dialogue6Alice" />
+  </Message>
+  <Message Index="38">
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue3Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue5Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue7Alice" />
+    <Dialogue Key="Messages.EirinCallInfo39Dialogue8Eirin" />
+  </Message>
+  <Message Index="39">
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo40Dialogue7Shanghai" />
+  </Message>
+  <Message Index="40">
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue6Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo41Dialogue7Alice" />
+  </Message>
+  <Message Index="41">
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue1Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue2Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue3Shanghai" />
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue4Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue5Alice" />
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue6Eirin" />
+    <Dialogue Key="Messages.EirinCallInfo42Dialogue7Alice" />
+  </Message>
+</data>
