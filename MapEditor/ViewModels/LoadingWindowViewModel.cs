@@ -85,6 +85,7 @@ namespace MapEditor.ViewModels
             Task.Factory.StartNew((Action)(() =>
             {
                 var success = false;
+                var failedOnce = false;
                 while (!success)
                 {
                     success = Constants.Initialize();
@@ -93,8 +94,14 @@ namespace MapEditor.ViewModels
                     var initialMapPath = $"{LoadingWindowViewModel.Settings.MapDataFolder}/{LoadingWindowViewModel.Settings.InitialMap}";
                     success &= LoadingWindowViewModel.MainWindowViewModel.LoadMap(initialMapPath, true);
 
-                    if (!success)
+                    if (failedOnce)
                     {
+                        MessageBox.Show("Loading failed again. Check that resource files exist and try again.");
+                        Environment.Exit(1);
+                    }
+                    else if (!success)
+                    {
+                        failedOnce = true;
                         MessageBox.Show("Loading failed. Check your settings and try again.");
                         Application.Current?.Dispatcher?.Invoke(() => SettingsWindow.ShowWindow());
                     }

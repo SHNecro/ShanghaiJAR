@@ -366,7 +366,7 @@ namespace MapEditor
             Constants.TranslationCallKeys = new Dictionary<string, string>();
             try
             {
-                var locales = Directory.GetDirectories("language").Select(path => Path.GetFileName(path)).ToArray();
+                var locales = Directory.GetDirectories("language").Select(path => Path.GetFileName(path)).Where(l => l != "data").ToArray();
                 Constants.TranslationService = new TrackingLanguageTranslationService(locales);
             }
             catch (Exception e)

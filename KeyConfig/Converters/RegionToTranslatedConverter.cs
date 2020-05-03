@@ -23,9 +23,9 @@ namespace KeyConfig.Converters
             }
         }
 
-        public static IEnumerable<Tuple<string, string>> Locales => Directory.GetDirectories("language").Select(path =>
+        public static IEnumerable<Tuple<string, string>> Locales => Directory.GetDirectories("language")
+            .Select(p => Path.GetFileName(p)).Where(l => l != "data").Select(localeName =>
         {
-            var localeName = Path.GetFileName(path);
             Tuple<string, string> locale;
             try
             {
