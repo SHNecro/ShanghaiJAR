@@ -2,6 +2,7 @@
 using MapEditor.ExtensionMethods;
 using Messages;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
@@ -63,7 +64,8 @@ namespace MapEditor.ViewModels
             public MessageTypeViewModel(MessageType messageType, string file)
             {
                 this.messageType = messageType;
-                this.Messages = new List<MessageViewModel>();
+                this.Messages = new ObservableCollection<MessageViewModel>();
+                this.Messages.CollectionChanged += this.UpdateMessageIndices;
 
                 this.filePath = $"language/data/Messages/{file}";
 
@@ -105,6 +107,14 @@ namespace MapEditor.ViewModels
                 this.selectedMessage = this.Messages.FirstOrDefault();
             }
 
+            private void UpdateMessageIndices(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+            {
+                for (var i = 0; i < this.Messages.Count; i++)
+                {
+                    this.Messages[i].Index = i;
+                }
+            }
+
             private void MessageIsDirtyChanged(object sender, PropertyChangedEventArgs e)
             {
                 if (e.PropertyName == nameof(MessageViewModel.IsDirty))
@@ -114,7 +124,7 @@ namespace MapEditor.ViewModels
                 }
             }
 
-            public List<MessageViewModel> Messages { get; }
+            public ObservableCollection<MessageViewModel> Messages { get; }
 
             public MessageViewModel SelectedMessage
             {
@@ -166,6 +176,16 @@ namespace MapEditor.ViewModels
                     {
                         xmlDoc.WriteTo(xw);
                     }
+                }
+            }
+
+            private void Undo()
+            {
+                var dirtyMessages = this.Messages.Where(m => m.IsDirty);
+
+                foreach (var message in dirtyMessages)
+                {
+                    message.Undo();
                 }
             }
         }

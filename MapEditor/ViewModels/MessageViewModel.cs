@@ -15,9 +15,22 @@ namespace MapEditor.ViewModels
 {
     public class MessageViewModel : StringRepresentation
     {
+        private int index;
+        private Wrapper<string> selectedDialogue;
+
+        private int initialIndex;
         private string[] initialKeys;
 
-        private Wrapper<string> selectedDialogue;
+        public MessageViewModel()
+        {
+            this.Index = -1;
+            this.DialogueKeys = new ObservableCollection<Wrapper<string>>();
+            this.DialogueKeys.CollectionChanged += CollectionChanged;
+            this.RegisterDialogueKeys();
+
+            this.initialIndex = this.Index;
+            this.initialKeys = this.DialogueKeys.Select(d => d?.Value).ToArray();
+        }
 
         public MessageViewModel(int index, IList<Wrapper<string>> dialogueKeys)
         {
@@ -26,6 +39,7 @@ namespace MapEditor.ViewModels
             this.DialogueKeys.CollectionChanged += CollectionChanged;
             this.RegisterDialogueKeys();
 
+            this.initialIndex = this.Index;
             this.initialKeys = this.DialogueKeys.Select(d => d?.Value).ToArray();
         }
 
@@ -34,7 +48,20 @@ namespace MapEditor.ViewModels
             this.Refresh();
         }
 
-        public int Index { get; private set; }
+        public int Index
+        {
+            get
+            {
+                return this.index;
+            }
+
+            set
+            {
+                this.SetValue(ref this.index, value);
+                this.OnPropertyChanged(nameof(this.IndexLabel));
+                this.OnPropertyChanged(nameof(this.IsDirty));
+            }
+        }
 
         public ObservableCollection<Wrapper<string>> DialogueKeys { get; }
 
@@ -56,12 +83,13 @@ namespace MapEditor.ViewModels
             return $"{dialogue.Face.ToString()}: {dialogue.Text}";
         }));
 
-        public bool IsDirty => this.initialKeys.Length != this.DialogueKeys.Count || this.initialKeys.Where((k, i) => this.DialogueKeys[i].Value != k).Any();
+        public bool IsDirty => this.initialIndex != this.Index || this.initialKeys.Length != this.DialogueKeys.Count || this.initialKeys.Where((k, i) => this.DialogueKeys[i].Value != k).Any();
 
         public ICommand UndoCommand => new RelayCommand(this.Undo);
 
         public void Save()
         {
+            this.initialIndex = this.Index;
             this.initialKeys = this.DialogueKeys.Select(d => d?.Value).ToArray();
             this.Refresh();
         }
