@@ -287,6 +287,7 @@ namespace MapEditor.ViewModels
         public ICommand ReloadGraphicsCommand => new RelayCommand(this.ReloadGraphics);
         public ICommand ReloadTranslationKeysCommand => new RelayCommand(this.ReloadTranslationKeys);
         public ICommand OpenStringBrowserCommand => new RelayCommand(this.OpenStringBrowser);
+        public ICommand OpenDataBrowserCommand => new RelayCommand(this.OpenDataBrowser);
         public ICommand UnpackTCDCommand => new RelayCommand(this.UnpackTCD);
         public ICommand PackTCDCommand => new RelayCommand(this.PackTCD);
 
@@ -574,6 +575,11 @@ namespace MapEditor.ViewModels
         {
             TranslationKeySelectionWindow.SetKeySetterAction(key => { });
             TranslationKeySelectionWindow.ShowWindow(null);
+        }
+
+        private void OpenDataBrowser()
+        {
+            DataWindow.ShowWindow();
         }
 
         public void UnpackTCD()

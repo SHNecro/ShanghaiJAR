@@ -45,7 +45,7 @@ namespace Messages
         private static Dialogue[][] LoadMessages(string sourceFile)
         {
             var languageDoc = new XmlDocument();
-            languageDoc.Load($"language/data/{sourceFile}");
+            languageDoc.Load($"language/data/Messages/{sourceFile}");
 
             var text = languageDoc.SelectNodes("data/Message");
             var messageArray = new Dialogue[text.Count][];

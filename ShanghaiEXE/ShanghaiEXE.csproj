@@ -1368,22 +1368,26 @@
     <Content Include="Graphics\yorihimeDS.png" />
     <Content Include="Graphics\yuyuko.png" />
     <Content Include="Graphics\yuyukoAttack.png" />
-    <Content Include="Language\data\AliceInfo.xml" />
-    <Content Include="Language\data\AliceRequestInfo.xml" />
-    <Content Include="Language\data\EienBoard.xml" />
-    <Content Include="Language\data\EirinCallInfo.xml" />
-    <Content Include="Language\data\GenBoard.xml" />
-    <Content Include="Language\data\HumorInfo.xml" />
-    <Content Include="Language\data\RequestBoard.xml" />
-    <Content Include="Language\data\RequestBoardComplete.xml" />
-    <Content Include="Language\data\ShanghaiInfo.xml" />
-    <Content Include="Language\data\ShanghaiRequestInfo.xml" />
-    <Content Include="Language\data\UnderBattleBoard.xml" />
-    <Content Include="Language\data\UnderBoard.xml" />
-    <Content Include="Language\data\UniversityBoard.xml" />
-    <Content Include="Language\data\UNKNOWN1.xml" />
-    <Content Include="Language\data\UNKNOWN2.xml" />
-    <Content Include="Language\data\UNKNOWN3.xml" />
+    <Content Include="Language\data\Messages\AliceInfo.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Language\data\Messages\AliceRequestInfo.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Language\data\Messages\EienBoard.xml" />
+    <Content Include="Language\data\Messages\EirinCallInfo.xml" />
+    <Content Include="Language\data\Messages\GenBoard.xml" />
+    <Content Include="Language\data\Messages\HumorInfo.xml" />
+    <Content Include="Language\data\Messages\RequestBoard.xml" />
+    <Content Include="Language\data\Messages\RequestBoardComplete.xml" />
+    <Content Include="Language\data\Messages\ShanghaiInfo.xml" />
+    <Content Include="Language\data\Messages\ShanghaiRequestInfo.xml" />
+    <Content Include="Language\data\Messages\UnderBattleBoard.xml" />
+    <Content Include="Language\data\Messages\UnderBoard.xml" />
+    <Content Include="Language\data\Messages\UniversityBoard.xml" />
+    <Content Include="Language\data\Messages\UNKNOWN1.xml" />
+    <Content Include="Language\data\Messages\UNKNOWN2.xml" />
+    <Content Include="Language\data\Messages\UNKNOWN3.xml" />
     <Content Include="Language\en-US\Credits.xml" />
     <Content Include="Language\en-US\Map\Piano.xml" />
     <Content Include="Language\en-US\Map\UraNet11.xml" />

@@ -175,6 +175,7 @@
     <Compile Include="Controls\WheelCaptureIntegerUpDown.xaml.cs">
       <DependentUpon>WheelCaptureIntegerUpDown.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Core\DataWindow.cs" />
     <Compile Include="Core\Converters\ChipToChipChancesConverter.cs" />
     <Compile Include="Core\Converters\EqualsValueConverter.cs" />
     <Compile Include="Core\SettingsWindow.cs" />
@@ -205,6 +206,7 @@
     <Compile Include="Core\AddEditTranslationWindow.cs" />
     <Compile Include="Core\TextureLoadProgressWindow.cs" />
     <Compile Include="Core\DataDumpWindow.cs" />
+    <Compile Include="Core\Wrapper.cs" />
     <Compile Include="ExtensionMethods\StringExtensionMethods.cs" />
     <Compile Include="LoadingWindow.xaml.cs">
       <DependentUpon>LoadingWindow.xaml</DependentUpon>
@@ -215,6 +217,8 @@
     <Compile Include="Models\Elements\Terms\TermBase.cs" />
     <Compile Include="Rendering\AddEditTranslationRenderer.cs" />
     <Compile Include="Rendering\AddEditTranslationRenderer.Drawing.cs" />
+    <Compile Include="ViewModels\DataWindowViewModel.cs" />
+    <Compile Include="ViewModels\MessageViewModel.cs" />
     <Compile Include="ViewModels\SettingsWindowViewModel.cs" />
     <Compile Include="ViewModels\LoadingWindowViewModel.cs" />
     <Compile Include="ViewModels\TextureLoadProgressWindowViewModel.cs" />
@@ -347,6 +351,9 @@
     <Compile Include="ViewModels\MapSelectionWindowViewModel.cs" />
     <Compile Include="ViewModels\DataDumpWindowViewModel.cs" />
     <Compile Include="ViewModels\TranslationKeySelectionWindowViewModel.cs" />
+    <Compile Include="Views\DataWindowView.xaml.cs">
+      <DependentUpon>DataWindowView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SettingsWindowView.xaml.cs">
       <DependentUpon>SettingsWindowView.xaml</DependentUpon>
     </Compile>
@@ -674,6 +681,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LoadingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DataWindowView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

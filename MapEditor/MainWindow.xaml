@@ -5,11 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:rendering="clr-namespace:MapEditor.Rendering"
         xmlns:views="clr-namespace:MapEditor.Views"
+        xmlns:viewModels="clr-namespace:MapEditor.ViewModels"
         xmlns:converters="clr-namespace:MapEditor.Core.Converters"
         xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules"
         xmlns:core="clr-namespace:MapEditor.Core"
         xmlns:controls="clr-namespace:MapEditor.Controls"
         mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=viewModels:MainWindowViewModel, IsDesignTimeCreatable=False}"
         Closing="Window_Closing"
         Title="{Binding Title}"
         Height="640" Width="1280"
@@ -53,6 +55,7 @@
             </MenuItem>
             <MenuItem Header="_Tools">
                 <MenuItem Header="Open String Browser" Command="{Binding OpenStringBrowserCommand}" />
+                <MenuItem Header="Open Data Browser" Command="{Binding OpenDataBrowserCommand}" />
                 <MenuItem Header="Reload Graphics" Command="{Binding ReloadGraphicsCommand}" />
                 <MenuItem Header="Reload Strings" Command="{Binding ReloadTranslationKeysCommand}" />
                 <MenuItem Header="Unpack .tcd..." Command="{Binding UnpackTCDCommand}" InputGestureText="Ctrl+U" />

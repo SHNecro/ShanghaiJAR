@@ -1,5 +1,6 @@
 ﻿using Common.OpenGL;
 using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models;
 using MapEditor.Models.Elements;
 using MapEditor.Models.Elements.Enums;
@@ -72,7 +73,7 @@ namespace MapEditor
             "msg:Debug.UnimplementedText",
             "msgclose:",
             "end",
-        })};
+        }) };
         public static Func<MapEventPage> BlankMapEventPageCreator = () => new MapEventPage
         { StringValue = string.Join("\r\n", new[]
         {
@@ -87,7 +88,7 @@ namespace MapEditor
             "hitform:square",
             "event:",
             "end"
-        })};
+        }) };
         public static Func<MapMystery> BlankMapMysteryCreator = () => new MapMystery { StringValue = string.Join("\r\n", new[]
         {
             "MysteryID:GMD",
@@ -115,7 +116,7 @@ namespace MapEditor
             "hitform:square",
             "event:",
             "end"
-        })};
+        }) };
         public static Func<Map> BlankMapCreator = () => new Map { Name = "Blank", StringValue = string.Join("\r\n", new[]
         {
             "24,24,-272,-112,784,400,Common.Title,0,1,0,117,1,mobcyber,3",
@@ -191,7 +192,8 @@ namespace MapEditor
             "eventDeath:",
             "end",
             ""
-        })};
+        }) };
+
 
         public static Func<WalkableTileType, ConveyorColorType, Point, int, MapEntity> ConveyorCreator = (tileType, color, position, level) =>
         {
@@ -233,12 +235,14 @@ namespace MapEditor
                 "hitform:square",
                 "event:",
                 "end"
-            })};
+            }) };
         };
         public static Func<Move> MoveCreator = () => new Move { StringValue = "wait,0" };
         public static Func<ShopItem> ShopItemCreator = () => new ShopItem { StringValue = "0,0,0,0" };
         public static Func<TermObject> TermCreator = () => TermObject.FromString("none");
         public static Func<EventObject> EventCreator = () => EventObject.FromString("msg:Debug.UnimplementedText");
+        public static Func<Wrapper<string>> MessageDialogueCreator = () => "Debug.UnimplementedText".Wrap();
+        public static Func<MessageViewModel> MessageCreator = () => new MessageViewModel(1, new[] { MessageDialogueCreator() });
 
         public static ICommand MoveItemUpCommand => new RelayCommand(
             (cmdParams) => Constants.CanMoveItem(cmdParams, true),
@@ -532,7 +536,7 @@ namespace MapEditor
                 var bindFlags = BindingFlags.Public | BindingFlags.Instance;
                 if (paramsArray.Length == 2)
                 {
-                    var index = (int)sourceCollection.GetType().GetMethod("IndexOf", bindFlags).Invoke(sourceCollection, new[] { toMove });
+                    var index = (int)sourceCollection.GetType().GetMethods(bindFlags).First(m => m.Name == "IndexOf").Invoke(sourceCollection, new[] { toMove });
                     sourceCollection.GetType().GetMethod("Move", bindFlags).Invoke(sourceCollection, new object[] { index, isUp ? (index - 1) : (index + 1) });
                 }
                 else

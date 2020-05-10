@@ -126,12 +126,12 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="English" IsReadOnly="True" Width="Auto">
+                <DataGridTemplateColumn Header="Text" IsReadOnly="True" Width="Auto">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Margin="5,0"
                                        TextWrapping="Wrap"
-                                       Text="{Binding Path=Value.(core:TranslationEntry.Dialogue).(common:Dialogue.Text), Converter={StaticResource TextToMultiLineStringConverter}}" />
+                                       Text="{Binding Path=Value.(core:TranslationEntry.Dialogue).Text, Converter={StaticResource TextToMultiLineStringConverter}}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
