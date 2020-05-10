@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Message Index="0">
     <Dialogue Key="Messages.AliceInfo1Dialogue1Alice" />
@@ -30,10 +30,8 @@
   <Message Index="9">
     <Dialogue Key="Messages.AliceInfo10Dialogue1Alice" />
   </Message>
-  <Message Index="10">
-  </Message>
-  <Message Index="11">
-  </Message>
+  <Message Index="10" />
+  <Message Index="11" />
   <Message Index="12">
     <Dialogue Key="Messages.AliceInfo13Dialogue1Alice" />
   </Message>
@@ -118,8 +116,7 @@
   <Message Index="39">
     <Dialogue Key="Messages.AliceInfo40Dialogue1Alice" />
   </Message>
-  <Message Index="40">
-  </Message>
+  <Message Index="40" />
   <Message Index="41">
     <Dialogue Key="Messages.AliceInfo42Dialogue1Alice" />
   </Message>
@@ -135,8 +132,7 @@
   <Message Index="45">
     <Dialogue Key="Messages.AliceInfo46Dialogue1Alice" />
   </Message>
-  <Message Index="46">
-  </Message>
+  <Message Index="46" />
   <Message Index="47">
     <Dialogue Key="Messages.AliceInfo48Dialogue1Alice" />
   </Message>
@@ -316,5 +312,9 @@
   </Message>
   <Message Index="106">
     <Dialogue Key="Messages.AliceInfo107Dialogue1Alice" />
+  </Message>
+  <Message Index="107">
+    <Dialogue Key="Messages.AliceInfo108Dialogue1Alice" />
+    <Dialogue Key="Messages.AliceInfo108Dialogue2Alice" />
   </Message>
 </data>

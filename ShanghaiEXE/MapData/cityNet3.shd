@@ -1311,6 +1311,7 @@ EventLun:SageQuizEnd:2
 ifEnd:1
 ifEnd:0
 editFlag:810:True
+editValue:3:False:0:0:107
 goto:End
 lavel:Failure
 seon:error
@@ -1363,6 +1364,7 @@ hitform:square
 event:
 msg:Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1
 msgclose:
+canSkip:
 editValue:1:False:0:5:1
 ifValue:1:False:40:4:0
 emove:プレイヤー:wayleft,0:wayfix,0:right,4:wayfixend,0:wait,0
@@ -1486,6 +1488,7 @@ msgclose:
 wait:30:False
 fade:60:255:0:0:0:True
 PlugOut:
+stopSkip:
 playerHide:False
 fade:60:0:0:0:0:False
 bgmfade:100:120:False

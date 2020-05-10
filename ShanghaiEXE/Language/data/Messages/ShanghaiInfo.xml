@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Message Index="0">
     <Dialogue Key="Messages.ShanghaiInfo1Dialogue1Shanghai" />
@@ -271,10 +271,8 @@
   <Message Index="89">
     <Dialogue Key="Messages.ShanghaiInfo90Dialogue1Shanghai" />
   </Message>
-  <Message Index="90">
-  </Message>
-  <Message Index="91">
-  </Message>
+  <Message Index="90" />
+  <Message Index="91" />
   <Message Index="92">
     <Dialogue Key="Messages.ShanghaiInfo93Dialogue1Shanghai" />
   </Message>
@@ -319,5 +317,9 @@
   </Message>
   <Message Index="106">
     <Dialogue Key="Messages.ShanghaiInfo107Dialogue1Shanghai" />
+  </Message>
+  <Message Index="107">
+    <Dialogue Key="Messages.ShanghaiInfo108Dialogue1Shanghai" />
+    <Dialogue Key="Messages.ShanghaiInfo108Dialogue2Shanghai" />
   </Message>
 </data>
