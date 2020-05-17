@@ -605,22 +605,25 @@ namespace NSMap
                 ++num1;
                 if (mapEventBase.floor == this.player.floor && (mapEventBase.LunPage.hitrange.X != 0 || mapEventBase.LunPage.hitrange.Y != 0))
                 {
-                    bool flag2 = false;
+                    bool isColliding = false;
                     Vector3 vector3_1 = new Vector3();
                     vector3_1 = !mapEventBase.LunPage.character ? this.player.position : this.player.Position;
                     vector3_1.X += vector2.X;
                     vector3_1.Y += vector2.Y;
+                    // circle collision check (walkthrough, handling later)
                     if (!mapEventBase.LunPage.hitform)
                     {
                         float num2 = MyMath.Pow(mapEventBase.position.X + mapEventBase.LunPage.hitShift.X - vector3_1.X, 2)
                                    + MyMath.Pow(mapEventBase.position.Y + mapEventBase.LunPage.hitShift.Y - vector3_1.Y, 2);
-                        flag2 = MyMath.Pow(mapEventBase.LunPage.startterms == EventPage.STARTTERMS.Touch
+                        isColliding = MyMath.Pow(mapEventBase.LunPage.startterms == EventPage.STARTTERMS.Touch
 							                ? mapEventBase.LunPage.hitrange.X + 2
 							                : mapEventBase.LunPage.hitrange.X + (a != MapCharacterBase.ANGLE.none
 																	                ? this.player.hitLange
 																	                : this.player.hitLange + 1),
                                             2)
 								>= (double)num2;
+                        // disable collision for 0-size circles
+                        isColliding &= mapEventBase.LunPage.hitrange.X != 0;
                     }
                     else if (mapEventBase.LunPage.startterms == EventPage.STARTTERMS.Abutton || mapEventBase.LunPage.startterms == EventPage.STARTTERMS.Rbutton)
                     {
@@ -646,7 +649,7 @@ namespace NSMap
                                     break;
                             }
                             int num6 = this.player.hitLange + 3;
-                            flag2 = vector3_1.X >= mapEventBase.position.X + (double)mapEventBase.LunPage.hitShift.X - mapEventBase.LunPage.hitrange.X / 2 - num6 - num3
+                            isColliding = vector3_1.X >= mapEventBase.position.X + (double)mapEventBase.LunPage.hitShift.X - mapEventBase.LunPage.hitrange.X / 2 - num6 - num3
 								&& vector3_1.X <= mapEventBase.position.X + (double)mapEventBase.LunPage.hitShift.X + mapEventBase.LunPage.hitrange.X / 2 + num6 + num2
 								&& vector3_1.Y >= mapEventBase.position.Y + (double)mapEventBase.LunPage.hitShift.Y - mapEventBase.LunPage.hitrange.Y / 2 - num6 - num5
 								&& vector3_1.Y <= mapEventBase.position.Y + (double)mapEventBase.LunPage.hitShift.Y + mapEventBase.LunPage.hitrange.Y / 2 + num6 + num4;
@@ -654,15 +657,15 @@ namespace NSMap
                         else
                         {
                             int num2 = this.player.hitLange + 3;
-                            flag2 = vector3_1.X >= mapEventBase.position.X + (double)mapEventBase.LunPage.hitShift.X - mapEventBase.LunPage.hitrange.X / 2 - num2
+                            isColliding = vector3_1.X >= mapEventBase.position.X + (double)mapEventBase.LunPage.hitShift.X - mapEventBase.LunPage.hitrange.X / 2 - num2
 								&& vector3_1.X <= mapEventBase.position.X + (double)mapEventBase.LunPage.hitShift.X + mapEventBase.LunPage.hitrange.X / 2 + num2
 								&& vector3_1.Y >= mapEventBase.position.Y + (double)mapEventBase.LunPage.hitShift.Y - mapEventBase.LunPage.hitrange.Y / 2 - num2
 								&& vector3_1.Y <= mapEventBase.position.Y + (double)mapEventBase.LunPage.hitShift.Y + mapEventBase.LunPage.hitrange.Y / 2 + num2;
                         }
                     }
-                    if (flag2 && mapEventBase.LunPage.NormalMan)
+                    if (isColliding && mapEventBase.LunPage.NormalMan)
                         this.player.stopping = true;
-                    if (flag2 && (this.player.stoptime <= 120 || !mapEventBase.LunPage.NormalMan))
+                    if (isColliding && (this.player.stoptime <= 120 || !mapEventBase.LunPage.NormalMan))
                     {
                         mapEventBase.playeHit = true;
                         if (mapEventBase.LunPage.startterms == EventPage.STARTTERMS.Touch)

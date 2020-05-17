@@ -1,4 +1,5 @@
 ﻿using Common.OpenGL;
+using Data;
 using MapEditor.Models.Elements.Events;
 using MapEditor.ViewModels;
 using System;
@@ -55,7 +56,7 @@ namespace MapEditor.Rendering
                     else
                     {
                         bool reversed = mapObjectPage.Angle == 3 || mapObjectPage.Angle == 7;
-                        var noShadow = NSShanghaiEXE.Common.Constants.IsNoShadowCharacter(mapObjectPage.GraphicsIndex, mapObjectPage.CharacterIndex);
+                        var noShadow = CharacterInfo.IsNoShadowCharacter(mapObjectPage.GraphicsIndex, mapObjectPage.CharacterIndex);
                         if (!noShadow)
                         {
                             var shadowPosition = mapObjectPosition;

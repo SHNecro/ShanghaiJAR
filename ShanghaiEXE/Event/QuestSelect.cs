@@ -268,7 +268,7 @@ namespace NSEvent
                 var dialogue = ShanghaiEXE.Translate("Request.RequestComplete");
                 this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face.Mono, dialogue.Face, dialogue.Face.Mono, this.savedata));
             }
-            this.eventmanager.EventPass(this.info.GetMessage(flag ? Messages.MessageType.RequestBoardComplete : Messages.MessageType.RequestBoard, index));
+            this.eventmanager.EventPass(this.info.GetMessage(flag ? Data.MessageType.RequestBoardComplete : Data.MessageType.RequestBoard, index));
             if (!this.savedata.questEnd[index])
             {
                 if (this.savedata.ValList[11] < 0)

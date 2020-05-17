@@ -376,6 +376,7 @@
     <Compile Include="Common\Face.cs" />
     <Compile Include="Common\FaceId.cs" />
     <Compile Include="Common\VariableArray.cs" />
+    <Compile Include="Data\CharacterInfo.cs" />
     <Compile Include="Effect\SageFloat.cs" />
     <Compile Include="Effect\KeystoneUnlock.cs" />
     <Compile Include="Effect\ShanghaiHeavenWarp.cs" />
@@ -414,7 +415,7 @@
     <Compile Include="InputOutput\Rendering\OpenGL\OpenGLRenderer.cs" />
     <Compile Include="InputOutput\Rendering\TextureLoadProgressUpdatedEventArgs.cs" />
     <Compile Include="Map\Character\Menu\Library.cs" />
-    <Compile Include="Messages\AllMessages.cs" />
+    <Compile Include="Data\Messages.cs" />
     <Compile Include="Services\ILanguageTranslationService.cs" />
     <Compile Include="Services\LanguageTranslationService.cs" />
     <Compile Include="Title\SceneTitle.cs" />
@@ -1368,26 +1369,29 @@
     <Content Include="Graphics\yorihimeDS.png" />
     <Content Include="Graphics\yuyuko.png" />
     <Content Include="Graphics\yuyukoAttack.png" />
-    <Content Include="Language\data\Messages\AliceInfo.xml">
+    <Content Include="Data\data\CharacterInfo.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Language\data\Messages\AliceRequestInfo.xml">
+    <Content Include="Data\data\Messages\AliceInfo.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Language\data\Messages\EienBoard.xml" />
-    <Content Include="Language\data\Messages\EirinCallInfo.xml" />
-    <Content Include="Language\data\Messages\GenBoard.xml" />
-    <Content Include="Language\data\Messages\HumorInfo.xml" />
-    <Content Include="Language\data\Messages\RequestBoard.xml" />
-    <Content Include="Language\data\Messages\RequestBoardComplete.xml" />
-    <Content Include="Language\data\Messages\ShanghaiInfo.xml" />
-    <Content Include="Language\data\Messages\ShanghaiRequestInfo.xml" />
-    <Content Include="Language\data\Messages\UnderBattleBoard.xml" />
-    <Content Include="Language\data\Messages\UnderBoard.xml" />
-    <Content Include="Language\data\Messages\UniversityBoard.xml" />
-    <Content Include="Language\data\Messages\UNKNOWN1.xml" />
-    <Content Include="Language\data\Messages\UNKNOWN2.xml" />
-    <Content Include="Language\data\Messages\UNKNOWN3.xml" />
+    <Content Include="Data\data\Messages\AliceRequestInfo.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\data\Messages\EienBoard.xml" />
+    <Content Include="Data\data\Messages\EirinCallInfo.xml" />
+    <Content Include="Data\data\Messages\GenBoard.xml" />
+    <Content Include="Data\data\Messages\HumorInfo.xml" />
+    <Content Include="Data\data\Messages\RequestBoard.xml" />
+    <Content Include="Data\data\Messages\RequestBoardComplete.xml" />
+    <Content Include="Data\data\Messages\ShanghaiInfo.xml" />
+    <Content Include="Data\data\Messages\ShanghaiRequestInfo.xml" />
+    <Content Include="Data\data\Messages\UnderBattleBoard.xml" />
+    <Content Include="Data\data\Messages\UnderBoard.xml" />
+    <Content Include="Data\data\Messages\UniversityBoard.xml" />
+    <Content Include="Data\data\Messages\UNKNOWN1.xml" />
+    <Content Include="Data\data\Messages\UNKNOWN2.xml" />
+    <Content Include="Data\data\Messages\UNKNOWN3.xml" />
     <Content Include="Language\en-US\Credits.xml" />
     <Content Include="Language\en-US\Map\Piano.xml" />
     <Content Include="Language\en-US\Map\UraNet11.xml" />
@@ -2439,18 +2443,20 @@
   <PropertyGroup>
     <PostBuildEvent>if not "$(ConfigurationName)"=="Debug Program Only" (
     "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE\MapData" "$(TargetDir)data"
+    mkdir "$(TargetDir)data\data"
+    xcopy "$(ProjectDir)Data\data\*" "data\data\" /s /d /y
 
     "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Graphics" "$(TargetDir)ShaG"
     "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Sounds" "$(TargetDir)ShaS"
 
     mkdir "$(TargetDir)music"
-    xcopy "$(ProjectDir)Sounds\Music" "$(TargetDir)music\" /s /d /y
+    xcopy "$(ProjectDir)Sounds\Music\*" "$(TargetDir)music\" /s /d /y
 
     mkdir "$(TargetDir)language"
-    xcopy "$(ProjectDir)Language" "$(TargetDir)language\" /s /d /y
+    xcopy "$(ProjectDir)Language\*" "$(TargetDir)language\" /s /d /y
 
     mkdir "$(TargetDir)mod"
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\mod" "$(TargetDir)mod\" /s /d /y
+    xcopy "$(ProjectDir)ShanghaiEXE\Files\mod\*" "$(TargetDir)mod\" /s /d /y
 
     xcopy "$(ProjectDir)ShanghaiEXE\Files\icon.ico" "$(TargetDir)" /s /d /y
     xcopy "$(ProjectDir)ShanghaiEXE\Files\option.xml" "$(TargetDir)" /s /d /y

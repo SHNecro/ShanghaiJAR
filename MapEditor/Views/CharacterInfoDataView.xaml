@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="MapEditor.Views.CharacterInfoDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MapEditor.Views"
+             xmlns:rendering="clr-namespace:MapEditor.Rendering"
+             xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules"
+             xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions"
+             xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+             xmlns:controls="clr-namespace:MapEditor.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+                <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:EnumIntegerValueConverter x:Key="EnumToIntegerValueConverter" />
+            <converters:ConverterGroup x:Key="EnumEqualityToBooleanConverter">
+                <converters:EnumIntegerValueConverter />
+                <converters:ObjectEqualityBooleanConverter />
+            </converters:ConverterGroup>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Grid.IsSharedSizeScope="True" Orientation="Vertical">
+            <Button Content="Save" Command="{Binding SaveCommand}" IsEnabled="{Binding IsDirty}" />
+            <TextBlock Text="Spritesheet:" FontWeight="Bold" />
+            <ListBox ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     MaxHeight="150"
+                     ItemsSource="{x:Static rendering:CharacterInfoRenderer.CharacterSheetIndices}"
+                     SelectedItem="{Binding CurrentSheetIndex}"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Index:" />
+                <controls:WheelCaptureIntegerUpDown Grid.Column="5" Minimum="0" Maximum="7">
+                    <controls:WheelCaptureIntegerUpDown.Text>
+                        <Binding Path="CharacterIndex" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0" Maximum="7" />
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </controls:WheelCaptureIntegerUpDown.Text>
+                </controls:WheelCaptureIntegerUpDown>
+            </Grid>
+            <TextBlock Text="Preview:" FontWeight="Bold" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Walking:" />
+                        <CheckBox Grid.Column="1" IsChecked="{Binding IsWalking}" />
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"
+                           VerticalAlignment="Center"
+                           Text="Angle:" />
+                        <UniformGrid Grid.Column="1" Rows="2" Columns="2"
+                             HorizontalAlignment="Right">
+                            <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleWestArrowIcon}"
+                                 ToolTip="West"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.West}}" />
+                            <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleNorthArrowIcon}"
+                                 ToolTip="North"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.North}}" />
+                            <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleSouthArrowIcon}"
+                                 ToolTip="South"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.South}}" />
+                            <RadioButton Style="{StaticResource AngleIconRadioButton}"
+                                 Tag="{StaticResource AngleEastArrowIcon}"
+                                 ToolTip="East"
+                                 IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.East}}" />
+                        </UniformGrid>
+                    </Grid>
+                </StackPanel>
+                <ContentControl Grid.Column="1"
+                                Width="64" Height="96"
+                                HorizontalAlignment="Center"
+                                Content="{x:Static rendering:CharacterInfoRenderer.PreviewControlHost}"/>
+            </Grid>
+            <Grid>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="Character Info:" FontWeight="Bold" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"
+                                   VerticalAlignment="Center"
+                                   Text="Is Floating:" />
+                        <CheckBox Grid.Column="1" IsChecked="{Binding IsFloating}" />
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="CharacterLabelColumn" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0"
+                                   VerticalAlignment="Center"
+                                   Text="Has No Shadow:" />
+                        <CheckBox Grid.Column="1" IsChecked="{Binding NoShadow}" />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+        <GridSplitter Grid.Column="1"  Background="DarkGray"  ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+                          HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <ScrollViewer Grid.Column="2"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      Background="Black"
+                      MinWidth="50"
+                      MinHeight="50">
+            <ContentControl Content="{x:Static rendering:CharacterInfoRenderer.SpriteSheetControlHost}"/>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

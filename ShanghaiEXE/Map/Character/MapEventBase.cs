@@ -5,13 +5,13 @@ using NSEnemy;
 using NSEvent;
 using NSGame;
 using NSMap.Character.Terms;
-using NSShanghaiEXE.Common;
 using SlimDX;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using Common.EncodeDecode;
+using Data;
 
 namespace NSMap.Character
 {
@@ -110,9 +110,9 @@ namespace NSMap.Character
             if (this.LunPage.character)
             {
                 var sheet = this.LunPage.graphicNo[1];
-                var index = this.LunPage.graphicNo[0];
-                this.floating = Constants.IsFloatingCharacter(sheet, index);
-                this.noShadow = Constants.IsNoShadowCharacter(sheet, index);
+                var charIndex = this.LunPage.graphicNo[0];
+                this.floating = CharacterInfo.IsFloatingCharacter(sheet, charIndex);
+                this.noShadow = CharacterInfo.IsNoShadowCharacter(sheet, charIndex);
             }
         }
 

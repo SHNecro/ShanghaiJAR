@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using Data;
+using MapEditor.ViewModels;
 
 namespace MapEditor.Rendering
 {
@@ -393,8 +395,8 @@ namespace MapEditor.Rendering
                         {
                             var animFrame = (int)((MapRenderer.Frame / (6 / 2.0)) % 7);
                             bool reversed = mapObjectPage.Angle == 3 || mapObjectPage.Angle == 7;
-                            var floating = NSShanghaiEXE.Common.Constants.IsFloatingCharacter(mapObjectPage.GraphicsIndex, mapObjectPage.CharacterIndex);
-                            var noShadow = NSShanghaiEXE.Common.Constants.IsNoShadowCharacter(mapObjectPage.GraphicsIndex, mapObjectPage.CharacterIndex);
+                            var floating = CharacterInfoDataViewModel.UnmodifiedIsFloatingCharacter(mapObjectPage.GraphicsIndex, mapObjectPage.CharacterIndex);
+                            var noShadow = CharacterInfoDataViewModel.UnmodifiedIsNoShadowCharacter(mapObjectPage.GraphicsIndex, mapObjectPage.CharacterIndex);
                             if (!noShadow)
                             {
                                 var shadowPosition = mapObjectPosition;

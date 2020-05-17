@@ -1,4 +1,4 @@
-﻿using Messages;
+﻿using Data;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSEvent;
 using NSGame;
@@ -19,7 +19,7 @@ namespace NSMap.Character
         public EventManager GetMessage(MessageType command, int number)
         {
             var result = new EventManager(this.IAudioEngine);
-            var messages = AllMessages.GetMessage(command, number);
+            var messages = Messages.GetMessage(command, number);
             if ((int)command < 8)
             {
                 result.AddEvent(new OpenMassageWindow(this.IAudioEngine, result));
