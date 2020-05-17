@@ -30,4 +30,17 @@
   <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue2" Value="[....Shanghai，are you alright?,Do you want to talk about it?]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue3" Value="[No.,Let’s just hurry up and find,whoever’s in charge here.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue4" Value="[Find them， and.... ask them,some questions.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock1Dialogue1" Value="[It’s a rock.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock1Dialogue2" Value="[Someone’s taken great care to,model every crack and crevice,to make it as real as possible.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock2Dialogue1" Value="[It’s a long，sloped rock.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock2Dialogue2" Value="[The slope is just too steep to,comfortably sit on，but too,shallow to lean against.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandTree1Dialogue1" Value="[This wiry tree survives in a,small patch of soil surrounded,by sand.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue1" Value="[Forget finding answers，are,we going to find anybody at,all in this place?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue2" Value="[Anybody intelligent，I mean.,Honestly，that password....]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue3" Value="[Somebody has to be taking,care of this place，I’m sure,they’re further inside.]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue4" Value="[Oh，they’d better be.,Let’s go， Alice.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue1" Value="[Shanghai，is that--?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue2" Value="[Finally!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue3" Value="[Hey，you!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue4" Value="[Yeah，you!,Who’s in charge of this place，,huh?]" Face="Shanghai" Mono="False" />
 </data>
