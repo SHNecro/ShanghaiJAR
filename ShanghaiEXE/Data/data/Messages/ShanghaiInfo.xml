@@ -322,4 +322,7 @@
     <Dialogue Key="Messages.ShanghaiInfo108Dialogue1Shanghai" />
     <Dialogue Key="Messages.ShanghaiInfo108Dialogue2Shanghai" />
   </Message>
+  <Message Index="108">
+    <Dialogue Key="Messages.ShanghaiInfo108Dialogue1ShanghaiRealIndexStart" />
+  </Message>
 </data>

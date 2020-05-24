@@ -35,12 +35,41 @@
   <Dialogue Key="Map.HeavenNet1SandRock2Dialogue1" Value="It’s a long，sloped rock." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SandRock2Dialogue2" Value="The slope is just too steep to,comfortably sit on，but too,shallow to lean against." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SandTree1Dialogue1" Value="This wiry tree survives in a,small patch of soil surrounded,by sand." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue1" Value="Forget finding answers，are,we going to find anybody at,all in this place?" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue2" Value="Anybody intelligent，I mean.,Honestly，that password...." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue3" Value="Somebody has to be taking,care of this place，I’m sure,they’re further inside." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue1" Value="Just sand and rocks，huh?,Forget “all-seeing”， are we,going to find anyone at all?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue2" Value="Anybody intelligent，I mean.,Honestly，this place...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue3" Value="Somebody has to be taking,care of all this，I’m sure,they’re further inside." Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue4" Value="Oh，they’d better be.,Let’s go， Alice." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue1" Value="Shanghai，is that--?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue1" Value="Isn’t that someone right there?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue2" Value="Finally!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue3" Value="Hey，you!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue4" Value="Yeah，you!,Who’s in charge of this place，,huh?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue5" Value="Uuuuuuu...." Face="Ghost" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue6" Value="You going to be a pain too?,Let’s see how you feel after,you meet my fist!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue1" Value="!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue2" Value="Another one...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue8" Value="Shanghai!,You can’t just threaten random--" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue3" Value="What’s your problem!?,We were talking here!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue4" Value="Hmm?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue5" Value="You!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue6" Value="I won’t let you get away again!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue7" Value="Are you an idiot?! I’ve never,seen you before in my life!,Alice，she’s crazy!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue8" Value="After what you did here--!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue9" Value="She’s going to attack again!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue10" Value="Battle Routine! Set!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue11" Value="Execute!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue12" Value="I’ll cut you down where you,stand!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue1" Value="Had enough?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue2" Value="Grk!,This time，I’ll--!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue3" Value="That’s enough，Youmu." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue4" Value="Mistress Yuyuko!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue5" Value="Welcome to the White Heaven,Area，Alice and Shanghai." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue6" Value="Forgive Youmu’s enthusiasm，,I must have forgotten to tell her,you were coming，hehehe!" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue7" Value="Forgot--?! She tried to cut me,in two! That’s not something to,just giggle about!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue8" Value="Why don’t we meet in my,sanctum，I’m sure you have,many questions!" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue9" Value="Come along，Youmu.,I believe you mentioned,steamed GelPack?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue10" Value="....Yes，my lady." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue11" Value="Ugh!,I hate this place and everyone,in it!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue12" Value="Just a little further，Shanghai.,....Where is her sanctum，,anyways?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue13" Value="Argh!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue10.5" Value="Hey!,Just wait a--!" Face="Shanghai" Mono="False" />
 </data>

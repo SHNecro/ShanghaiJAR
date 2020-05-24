@@ -317,4 +317,7 @@
     <Dialogue Key="Messages.AliceInfo108Dialogue1Alice" />
     <Dialogue Key="Messages.AliceInfo108Dialogue2Alice" />
   </Message>
+  <Message Index="108">
+    <Dialogue Key="Messages.AliceInfo108Dialogue1AliceRealIndexStart" />
+  </Message>
 </data>

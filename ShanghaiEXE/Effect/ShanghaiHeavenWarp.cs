@@ -8,46 +8,56 @@ using NSMap.Character;
 
 namespace NSEffect
 {
-    internal class ShanghaiHeavenWarp : EffectBase
+    internal class HeavenWarp : EffectBase
     {
-        private const int XOffset = 7;
-        private const int Width = 24;
-
-        private static readonly Dictionary<MapCharacterBase.ANGLE, Point> AngleTextures = new Dictionary<MapCharacterBase.ANGLE, Point>
+        private static readonly Dictionary<MapCharacterBase.ANGLE, int> AngleTextures = new Dictionary<MapCharacterBase.ANGLE, int>
         {
-            { MapCharacterBase.ANGLE.DOWN, new Point(0, 48 * 0) },
-            { MapCharacterBase.ANGLE.DOWNRIGHT, new Point(0, 48 * 1) },
-            { MapCharacterBase.ANGLE.RIGHT, new Point(0, 48 * 2) },
-            { MapCharacterBase.ANGLE.UPRIGHT, new Point(0, 48 * 3) },
-            { MapCharacterBase.ANGLE.UP, new Point(0, 48 * 4) },
-            { MapCharacterBase.ANGLE.UPLEFT, new Point(0, 48 * 5) },
-            { MapCharacterBase.ANGLE.LEFT, new Point(0, 48 * 6) },
-            { MapCharacterBase.ANGLE.DOWNLEFT, new Point(0, 48 * 7) },
+            { MapCharacterBase.ANGLE.DOWN, 48 * 0 },
+            { MapCharacterBase.ANGLE.DOWNRIGHT, 48 * 1 },
+            { MapCharacterBase.ANGLE.RIGHT, 48 * 2 },
+            { MapCharacterBase.ANGLE.UPRIGHT, 48 * 3 },
+            { MapCharacterBase.ANGLE.UP, 48 * 4 },
+            { MapCharacterBase.ANGLE.UPLEFT, 48 * 5 },
+            { MapCharacterBase.ANGLE.LEFT, 48 * 6 },
+            { MapCharacterBase.ANGLE.DOWNLEFT, 48 * 7 },
         };
+
+        private string textureFile;
+        private Rectangle textureRect;
 
         private MapField field;
         private long ySpeed;
         private long[] yOffsets;
 
-        private bool reversed;
+        private bool xFlipped;
+        private bool warpIn;
 
-        public ShanghaiHeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool reversed)
+        public HeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool warpIn)
+          : this(s, pd, posi, field, warpIn, false, "charachip1", new Rectangle(0, AngleTextures[field.parent.Player.Angle], 32, 48))
+        {
+        }
+
+        public HeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool warpIn, bool xFlipped, string textureFile, Rectangle textureRect)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = new Vector2(pd.X, pd.Y - 20);
 
+            this.textureFile = textureFile;
+            this.textureRect = textureRect;
+
             this.field = field;
             this.ySpeed = 16;
-            this.yOffsets = new long[32];
+            this.yOffsets = new long[this.textureRect.Width];
 
-            this.reversed = reversed;
-            if (this.reversed)
+            this.xFlipped = xFlipped;
+            this.warpIn = warpIn;
+            if (this.warpIn)
             {
-                for (int setupFrame = 0; setupFrame < Width; setupFrame++)
+                for (int setupFrame = 0; setupFrame < this.textureRect.Width; setupFrame++)
                 {
-                    for (int i = XOffset; i < Width; i++)
+                    for (int i = 0; i < this.textureRect.Width; i++)
                     {
-                        var iAdj = i % 2 == 0 ? (i / 2) : (Width - ((i + 1) / 2));
+                        var iAdj = i % 2 == 0 ? (i / 2) : (this.textureRect.Width - ((i + 1) / 2));
                         var yOffsetSpeed = this.ySpeed >> iAdj;
                         yOffsets[i] = yOffsets[i] + yOffsetSpeed;
                     }
@@ -61,19 +71,19 @@ namespace NSEffect
         {
             if (this.moveflame)
             {
-                for (int i = XOffset; i < Width; i++)
+                for (int i = 0; i < this.textureRect.Width; i++)
                 {
-                    var iAdj = i % 2 == 0 ? (i / 2) : (Width - ((i + 1) / 2));
-                    var yOffsetSpeed = (this.reversed ? -1 : 1) * (this.ySpeed >> iAdj);
+                    var iAdj = i % 2 == 0 ? (i / 2) : (this.textureRect.Width - ((i + 1) / 2));
+                    var yOffsetSpeed = (this.warpIn ? -1 : 1) * (this.ySpeed >> iAdj);
 
                     yOffsets[i] += yOffsetSpeed;
                 }
-                this.ySpeed = this.reversed ? (this.ySpeed / 2) : (this.ySpeed * 2);
+                this.ySpeed = this.warpIn ? (this.ySpeed / 2) : (this.ySpeed * 2);
             }
 
             this.FlameControl(3);
 
-            if (this.frame > Width)
+            if (this.frame > this.textureRect.Width)
             {
                 this.flag = false;
             }
@@ -87,20 +97,22 @@ namespace NSEffect
             }
 
             this._rect = new Rectangle(0, 48 * 8, 32, 48);
+            var centerOffset = this.textureRect.Width / 2;
             this._position = new Vector2(this.positionDirect.X + Shake.X, this.positionDirect.Y + Shake.Y - 18);
             this.color = Color.White;
             dg.DrawImage(dg, "charachip1", this._rect, false, this._position, this.rebirth, this.color);
 
-            var angleTexturePoint = AngleTextures[this.field.parent.Player.Angle];
-            for (int i = XOffset; i < Width; i++)
+            for (int i = 0; i < this.textureRect.Width; i++)
             {
-                var xOff = i - 15;
+                var x = !this.xFlipped ? i : (this.textureRect.Width - i - 1);
+
+                var xOff = x - centerOffset;
                 var yOff = this.yOffsets[i] + 18;
 
-                this._rect = new Rectangle(angleTexturePoint.X + i, angleTexturePoint.Y, 1, 48);
+                this._rect = new Rectangle(this.textureRect.X + i, this.textureRect.Y, 1, this.textureRect.Height);
                 this._position = new Vector2(this.positionDirect.X + Shake.X + xOff, this.positionDirect.Y + Shake.Y - yOff);
                 this.color = Color.White;
-                dg.DrawImage(dg, "charachip1", this._rect, false, this._position, this.rebirth, this.color);
+                dg.DrawImage(dg, this.textureFile, this._rect, false, this._position, this.rebirth, this.color);
             }
         }
     }

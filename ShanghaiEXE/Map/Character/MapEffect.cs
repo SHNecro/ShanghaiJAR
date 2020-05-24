@@ -11,6 +11,7 @@ namespace NSMap.Character
 {
     public class MapEffect : MapCharacterBase
     {
+        // Editor effects list at MapEditor.Models.Elements.Enums.EffectTypeNumber
         private static readonly Dictionary<int, Func<IAudioEngine, Vector3, MapField, EffectBase>> EffectFactory = new Dictionary<int, Func<IAudioEngine, Vector3, MapField, EffectBase>>
         {
             [0] = (sound, position, field) => new AliceJump(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
@@ -63,12 +64,16 @@ namespace NSMap.Character
             [47] = (sound, position, field) => new FireBall(sound, new Vector2(position.X, position.Y), new Point(0, 0), true),
             [48] = (sound, position, field) => new KeystoneUnlock(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
             [49] = (sound, position, field) => new PetalBreeze(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
-            [50] = (sound, position, field) => new ShanghaiHeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false),
-            [51] = (sound, position, field) => new ShanghaiHeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true),
+            [50] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false),
+            [51] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true),
             [52] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), false, true),
             [53] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), true, true),
             [54] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), false, false),
-            [55] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), true, false)
+            [55] = (sound, position, field) => new SageFloat(sound, new Vector2(position.X, position.Y), new Point(0, 0), true, false),
+            [56] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(18, 240, 24, 48)),
+            [57] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(18, 240, 24, 48)),
+            [58] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(448 + 18, 240, 24, 48)),
+            [59] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(448 + 18, 240, 24, 48))
         };
 
     public EffectBase effect;

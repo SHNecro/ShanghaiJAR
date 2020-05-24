@@ -58,5 +58,9 @@
         SageFloatDownSouth = 53,
         SageFloatUpNorth = 54,
         SageFloatDownNorth = 55,
+        YoumuHeavenWarpOut = 56,
+        YoumuHeavenWarpIn = 57,
+        YuyukoHeavenWarpOut = 58,
+        YuyukoHeavenWarpIn = 59,
     }
 }
