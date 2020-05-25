@@ -106,7 +106,7 @@ namespace NSEffect
             {
                 var x = !this.xFlipped ? i : (this.textureRect.Width - i - 1);
 
-                var xOff = x - centerOffset;
+                var xOff = x - centerOffset + 0.5f;
                 var yOff = this.yOffsets[i] + 18;
 
                 this._rect = new Rectangle(this.textureRect.X + i, this.textureRect.Y, 1, this.textureRect.Height);

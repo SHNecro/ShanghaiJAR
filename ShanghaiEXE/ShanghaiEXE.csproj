@@ -379,7 +379,7 @@
     <Compile Include="Data\CharacterInfo.cs" />
     <Compile Include="Effect\SageFloat.cs" />
     <Compile Include="Effect\KeystoneUnlock.cs" />
-    <Compile Include="Effect\ShanghaiHeavenWarp.cs" />
+    <Compile Include="Effect\HeavenWarp.cs" />
     <Compile Include="Effect\PetalBreeze.cs" />
     <Compile Include="Effect\KikuriFade.cs" />
     <Compile Include="Effect\DruidManFlinch.cs" />
