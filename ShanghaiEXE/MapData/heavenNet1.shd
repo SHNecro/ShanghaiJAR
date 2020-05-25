@@ -590,7 +590,7 @@ type:1
 terms:!flag/813
 move:
 speed:1
-graphic:19:3,0,1,0,0
+graphic:19:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -811,7 +811,7 @@ type:2
 terms:!flag/820
 move:wayfix,0:left,6:wait,15:right,1:wait,5:right,1:wait,5:right,1:wait,5:right,1:wait,5:right,1:wait,5:right,1:wait,5
 speed:4
-graphic:19:3,0,5,0,0
+graphic:19:7,0,5,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -857,7 +857,7 @@ type:0
 terms:!flag/819
 move:right,24:wait,90:down,16:wait,90:left,24:wait,90:up,16
 speed:2
-graphic:19:3,0,1,0,0
+graphic:19:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -906,7 +906,7 @@ type:0
 terms:!flag/818
 move:
 speed:2
-graphic:19:3,0,1,0,0
+graphic:19:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -952,7 +952,7 @@ type:0
 terms:!flag/817
 move:wayright,0:wait,90:waydown,0:wait,90:wayleft,0:wait,90:wayup,0:wait,90
 speed:2
-graphic:19:3,0,1,0,0
+graphic:19:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -998,7 +998,7 @@ type:0
 terms:!flag/816
 move:wait,900:up,32:left,32:wait,90:right,32:down,32
 speed:2
-graphic:19:3,0,1,0,0
+graphic:19:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -1044,7 +1044,7 @@ type:0
 terms:!flag/815
 move:
 speed:2
-graphic:19:3,0,7,0,0
+graphic:19:7,0,7,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -1150,7 +1150,7 @@ type:0
 terms:!flag/819,variable/7/False/5/1,variable/7/False/5/2,variable/7/False/5/3
 move:
 speed:2
-graphic:19:3,0,3,0,0
+graphic:19:7,0,3,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -1161,7 +1161,7 @@ type:0
 terms:!flag/819,variable/7/False/0/1
 move:
 speed:2
-graphic:19:3,0,1,0,0
+graphic:19:7,0,1,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -1172,7 +1172,7 @@ type:0
 terms:!flag/819,variable/7/False/0/2
 move:
 speed:2
-graphic:19:3,0,7,0,0
+graphic:19:7,0,7,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
@@ -1183,7 +1183,7 @@ type:0
 terms:!flag/819,variable/7/False/0/3
 move:
 speed:2
-graphic:19:3,0,5,0,0
+graphic:19:7,0,5,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
