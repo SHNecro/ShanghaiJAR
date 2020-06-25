@@ -56,7 +56,8 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 5/24/20):
+#### In Progress (as of 6/24/20):
+- Not dead, but somehow 2020 got even worse. In lieu of actual progress, got a lot of planning/ideas done.
 - Postgame area special doors
 - Second half of first postgame area, planning barriers, etc.
 - Planning of rewards, barriers, BMDs
