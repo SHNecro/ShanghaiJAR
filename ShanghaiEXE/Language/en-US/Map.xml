@@ -15,4 +15,5 @@
   <Text Key="Map.ChipTraderOptions" Value="Yes,No" />
   <Text Key="Map.ChipTraderSpecialOptions" Value="Yes,No" />
   <Dialogue Key="Map.JackIn" Value="#b@true#Jack in!#w@15#,Shanghai.EXE!#w@8#,Execute!#w@30##e@#" Face="Alice" Mono="False" />
+  <Text Key="Map.RandomItemEncounterName" Value="Encounter" />
 </data>

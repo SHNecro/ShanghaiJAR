@@ -15,4 +15,5 @@
   <Text Key="Map.ChipTraderOptions" Value="はい,いいえ" />
   <Text Key="Map.ChipTraderSpecialOptions" Value="はい,いいえ" />
   <Dialogue Key="Map.JackIn" Value="#b@true#プラグイン！#w@15#,シャンハイ.EXE！#w@8#,トランスミッション！#w@30##e@#" Face="Alice" Mono="False" />
+  <Text Key="Map.RandomItemEncounterName" Value="エンカウント" />
 </data>

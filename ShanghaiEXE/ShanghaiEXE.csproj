@@ -1986,8 +1986,6 @@
     <Content Include="Language\ja-JP\Map.xml" />
     <Content Include="Language\en-US\TestItem.xml" />
     <Content Include="Language\en-US\BBS.xml" />
-    <Content Include="Language\en-US\MapItems.xml" />
-    <Content Include="Language\en-US\MapRandomItems.xml" />
     <Content Include="Language\en-US\Map\AirCleaner1.xml" />
     <Content Include="Language\en-US\Map\AirCleaner2.xml" />
     <Content Include="Language\en-US\Map\AirCleaner3.xml" />
@@ -2201,7 +2199,6 @@
     <Content Include="Language\en-US\Messages\UNKNOWN3.xml" />
     <Content Include="Language\en-US\TestMail.xml" />
     <Content Include="Language\ja-JP\BBS.xml" />
-    <Content Include="Language\ja-JP\MapRandomItems.xml" />
     <Content Include="Language\ja-JP\Map\AirCleaner1.xml" />
     <Content Include="Language\ja-JP\Map\AirCleaner2.xml" />
     <Content Include="Language\ja-JP\Map\AirCleaner3.xml" />
@@ -2323,7 +2320,6 @@
     <Content Include="Language\ja-JP\Map\Library.xml" />
     <Content Include="Language\ja-JP\Map\LostShip1.xml" />
     <Content Include="Language\ja-JP\Map\LostShip2.xml" />
-    <Content Include="Language\ja-JP\MapItems.xml" />
     <Content Include="Language\ja-JP\Map\MariHP.xml" />
     <Content Include="Language\ja-JP\Map\Mariroom.xml" />
     <Content Include="Language\ja-JP\Map\NeckHP.xml" />
