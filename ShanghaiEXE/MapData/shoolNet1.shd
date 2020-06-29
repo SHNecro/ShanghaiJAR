@@ -1135,7 +1135,7 @@ end
 
 MysteryID:ミステリー71：ギガレイガン　C
 position:51:125:0
-Mystery:1,0,2,1,ギガレイガン　C,71
+Mystery:1,0,2,1,,71
 page:1
 startterms:Abutton
 type:1
@@ -1161,7 +1161,7 @@ end
 
 MysteryID:ミステリー72：レギュラーアップ1
 position:88:26:0
-Mystery:1,3,1,1,レギュラーアップ1,72
+Mystery:1,3,1,1,,72
 page:1
 startterms:Abutton
 type:1
@@ -1187,7 +1187,7 @@ end
 
 MysteryID:ミステリー73：リペア１５０　H
 position:82:406:0
-Mystery:1,0,176,1,リペア１５０　H,73
+Mystery:1,0,176,1,,73
 page:1
 startterms:Abutton
 type:1
@@ -1213,7 +1213,7 @@ end
 
 MysteryID:ミステリー74：サブメモリ
 position:225:311:0
-Mystery:1,3,2,0,サブメモリ,74
+Mystery:1,3,2,0,,74
 page:1
 startterms:Abutton
 type:1
@@ -1239,7 +1239,7 @@ end
 
 MysteryID:ミステリー75：3200ゼニー
 position:256:312:0
-Mystery:1,3,8,3200,3200ゼニー,75
+Mystery:1,3,8,3200,,75
 page:1
 startterms:Abutton
 type:1

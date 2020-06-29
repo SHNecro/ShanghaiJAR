@@ -112,7 +112,7 @@ end
 
 MysteryID:ミステリー142：リペア３００　F
 position:25:169:0
-Mystery:1,0,178,0,リペア３００　F,142
+Mystery:1,0,178,0,,142
 page:1
 startterms:Abutton
 type:1
@@ -138,7 +138,7 @@ end
 
 MysteryID:ミステリー143：フルエナジー
 position:171:27:0
-Mystery:1,1,1,0,フルエナジー,143
+Mystery:1,1,1,0,,143
 page:1
 startterms:Abutton
 type:1

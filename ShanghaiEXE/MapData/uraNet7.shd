@@ -167,7 +167,7 @@ battle:11:3:4:0:1:1:1:0::11:3:4:1:1:1:1:0::11:3:4:2:1:1:1:0::4:9:2:False:True:Tr
 battle:6:3:3:0:1:1:1:0::27:2:5:1:1:1:1:0::6:3:3:2:1:1:1:0::5:0:4:False:True:True:True:VSvirus:0
 battle:6:3:5:0:1:1:1:0::11:3:4:1:1:1:1:0::20:3:3:2:1:1:1:0::0:1:1:False:True:True:True:VSvirus:0
 
-random:0,105,2,Map.RandomItemDethWpr1WName:0,115,2,Map.RandomItemLeafWav2OName:0,127,1,Map.RandomItemEleFang2JName:0,135,0,Map.RandomItemBustrAmp＊Name:3,8,400,Map.RandomItem400ZennyName:3,8,1100,Map.RandomItem1100ZennyName:3,8,3600,Map.RandomItem3600ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,105,2,:0,115,2,:0,127,1,:0,135,0,:3,8,400,:3,8,1100,:3,8,3600,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:BGMStart
 position:146:65:0
@@ -928,7 +928,7 @@ end
 
 MysteryID:ミステリー182：Ｃフォールナイフ
 position:297:529:1
-Mystery:1,2,89,4,Ｃフォールナイフ,182
+Mystery:1,2,89,4,,182
 page:1
 startterms:Abutton
 type:1
@@ -954,7 +954,7 @@ end
 
 MysteryID:ミステリー183：レイルガン３　R
 position:330:338:1
-Mystery:1,0,113,2,レイルガン３　R,183
+Mystery:1,0,113,2,,183
 page:1
 startterms:Abutton
 type:1
@@ -980,7 +980,7 @@ end
 
 MysteryID:ミステリー184：5000ゼニー
 position:139:131:1
-Mystery:1,3,8,5000,5000ゼニー,184
+Mystery:1,3,8,5000,,184
 page:1
 startterms:Abutton
 type:1

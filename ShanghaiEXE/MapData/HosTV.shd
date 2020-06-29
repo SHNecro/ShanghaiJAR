@@ -139,9 +139,9 @@ fade:30:0:0:0:0:True
 msgopen:
 msg:Map.HosTVRequestRehabilitationStage3Dialogue1FaceNaviBlueRobot
 msg:Map.HosTVRequestRehabilitationStage3Dialogue2FaceNaviBlueRobot
-ItemGet:2:54:0:Map.ItemHumorName
-ItemGet:3:8:50000:Map.Item50000ZennyName
-ItemGet:3:4:1:Map.ItemHertzUpName
+ItemGet:2:54:0:
+ItemGet:3:8:50000:
+ItemGet:3:4:1:
 msg:Map.HosTVRequestRehabilitationStage3Dialogue3FaceNaviBlueRobot
 ItemGet:3:8:0:TestItem.ROMIDName
 EditItem:20:True
@@ -173,7 +173,7 @@ end
 
 MysteryID:ミステリー107：リペア３００　M
 position:26:170:0
-Mystery:1,0,178,2,リペア３００　M,107
+Mystery:1,0,178,2,,107
 page:1
 startterms:Abutton
 type:1

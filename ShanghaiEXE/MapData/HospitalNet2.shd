@@ -761,7 +761,7 @@ playerHide:False
 fade:60:0:0:0:0:True
 msgopen:
 msg:Map.HospitalNet2BossEventStage9Dialogue1FaceShanghai
-ItemGet:0:256:0:Map.ItemDrkBrethAName
+ItemGet:0:256:0:
 msg:Map.HospitalNet2BossEventStage9Dialogue2FaceAlice
 msg:Map.HospitalNet2BossEventStage9Dialogue3FaceShanghai
 msg:Map.HospitalNet2BossEventStage9Dialogue4FaceUtsuho
@@ -931,7 +931,7 @@ end
 
 MysteryID:ミステリー231：ファイアネット　A
 position:416:208:0
-Mystery:1,0,36,1,ファイアネット　A,231
+Mystery:1,0,36,1,,231
 page:1
 startterms:Abutton
 type:1
@@ -957,7 +957,7 @@ end
 
 MysteryID:ミステリー232：リペア５００　A
 position:178:356:0
-Mystery:1,0,179,0,リペア５００　A,232
+Mystery:1,0,179,0,,232
 page:1
 startterms:Abutton
 type:1
@@ -983,7 +983,7 @@ end
 
 MysteryID:ミステリー233：フハツナパーム　A
 position:163:113:0
-Mystery:1,0,83,1,フハツナパーム　A,233
+Mystery:1,0,83,1,,233
 page:1
 startterms:Abutton
 type:1
@@ -1009,7 +1009,7 @@ end
 
 MysteryID:ミステリー234：フルエナジー
 position:305:113:0
-Mystery:1,1,1,0,フルエナジー,234
+Mystery:1,1,1,0,,234
 page:1
 startterms:Abutton
 type:1

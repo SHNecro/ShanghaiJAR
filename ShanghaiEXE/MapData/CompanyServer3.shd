@@ -1995,7 +1995,7 @@ end
 
 MysteryID:ミステリー205：バスターチャージ
 position:206:174:1
-Mystery:1,2,2,0,バスターチャージ,205
+Mystery:1,2,2,0,,205
 page:1
 startterms:Abutton
 type:1
@@ -2021,7 +2021,7 @@ end
 
 MysteryID:ミステリー206：オーラソード３　K
 position:353:161:1
-Mystery:1,0,125,1,オーラソード３　K,206
+Mystery:1,0,125,1,,206
 page:1
 startterms:Abutton
 type:1
@@ -2047,7 +2047,7 @@ end
 
 MysteryID:ミステリー207：2800ゼニー
 position:338:240:1
-Mystery:1,3,8,2800,2800ゼニー,207
+Mystery:1,3,8,2800,,207
 page:1
 startterms:Abutton
 type:1
@@ -2073,7 +2073,7 @@ end
 
 MysteryID:ミステリー212：サブメモリ
 position:447:95:1
-Mystery:1,3,2,0,サブメモリ,212
+Mystery:1,3,2,0,,212
 page:1
 startterms:Abutton
 type:1

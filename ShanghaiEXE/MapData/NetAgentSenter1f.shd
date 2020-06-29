@@ -954,7 +954,7 @@ msgopen:
 msg:Map.NetAgentSenter1fWhiteVendingMachineStage1Dialogue1FaceNone
 msg:Map.NetAgentSenter1fWhiteVendingMachineStage1Dialogue2FaceNone
 msg:Map.NetAgentSenter1fWhiteVendingMachineStage1Dialogue3FaceNone
-ItemGet:3:0:0:Map.ItemHPMemoryName
+ItemGet:3:0:0:
 msgclose:
 editFlag:287:True
 end

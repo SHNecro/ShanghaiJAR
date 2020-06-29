@@ -2671,7 +2671,7 @@ end
 
 MysteryID:ミステリー159：HPメモリ
 position:59:297:0
-Mystery:1,3,0,0,HPメモリ,159
+Mystery:1,3,0,0,,159
 page:1
 startterms:Abutton
 type:1
@@ -2697,7 +2697,7 @@ end
 
 MysteryID:ミステリー160：2000ゼニー
 position:59:361:0
-Mystery:1,3,8,2000,2000ゼニー,160
+Mystery:1,3,8,2000,,160
 page:1
 startterms:Abutton
 type:1
@@ -2723,7 +2723,7 @@ end
 
 MysteryID:ミステリー161：メタルナパーム　S
 position:283:233:0
-Mystery:1,0,81,3,メタルナパーム　S,161
+Mystery:1,0,81,3,,161
 page:1
 startterms:Abutton
 type:1
@@ -2749,7 +2749,7 @@ end
 
 MysteryID:ミステリー162：サブメモリ
 position:411:185:0
-Mystery:1,3,2,0,サブメモリ,162
+Mystery:1,3,2,0,,162
 page:1
 startterms:Abutton
 type:1

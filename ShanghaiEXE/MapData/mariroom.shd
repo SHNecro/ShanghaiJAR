@@ -143,7 +143,7 @@ ItemGet:3:8:0:TestItem.AntiFreezeName
 EditItem:2:True
 ifFlag:28:False:0
 msg:Map.MariroomMariStage1Dialogue3FaceMari
-ItemGet:0:190:0:Map.ItemMarisaMName
+ItemGet:0:190:0:
 ifEnd:0
 msg:Map.MariroomMariStage1Dialogue4FaceAlice
 msg:Map.MariroomMariStage1Dialogue5FaceMari

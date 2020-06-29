@@ -492,7 +492,7 @@ end
 
 MysteryID:ミステリー111：1000ゼニー
 position:233:361:1
-Mystery:1,3,8,1000,1000ゼニー,111
+Mystery:1,3,8,1000,,111
 page:1
 startterms:Abutton
 type:1
@@ -518,7 +518,7 @@ end
 
 MysteryID:ミステリー112：ヘビィアンカー２　M
 position:394:442:1
-Mystery:1,0,46,1,ヘビィアンカー２　M,112
+Mystery:1,0,46,1,,112
 page:1
 startterms:Abutton
 type:1
@@ -544,7 +544,7 @@ end
 
 MysteryID:ミステリー113：リペア１００　＊
 position:439:201:1
-Mystery:1,0,175,3,リペア１００　＊,113
+Mystery:1,0,175,3,,113
 page:1
 startterms:Abutton
 type:1
@@ -570,7 +570,7 @@ end
 
 MysteryID:ミステリー114：パネルシュート２　N
 position:475:201:1
-Mystery:1,0,100,3,パネルシュート２　N,114
+Mystery:1,0,100,3,,114
 page:1
 startterms:Abutton
 type:1
@@ -596,7 +596,7 @@ end
 
 MysteryID:ミステリー115：HPメモリ
 position:281:201:1
-Mystery:1,3,0,0,HPメモリ,115
+Mystery:1,3,0,0,,115
 page:1
 startterms:Abutton
 type:1
@@ -622,7 +622,7 @@ end
 
 MysteryID:ミステリー116：アイスロード　＊
 position:89:391:1
-Mystery:1,0,161,0,アイスロード　＊,116
+Mystery:1,0,161,0,,116
 page:1
 startterms:Abutton
 type:1

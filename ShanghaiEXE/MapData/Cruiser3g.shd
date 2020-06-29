@@ -512,7 +512,7 @@ end
 
 MysteryID:ミステリー121：5000ゼニー
 position:327:385:1
-Mystery:1,3,8,5000,5000ゼニー,121
+Mystery:1,3,8,5000,,121
 page:1
 startterms:Abutton
 type:1
@@ -538,7 +538,7 @@ end
 
 MysteryID:ミステリー122：ヘルツプラス
 position:296:288:1
-Mystery:1,3,4,1,ヘルツプラス,122
+Mystery:1,3,4,1,,122
 page:1
 startterms:Abutton
 type:1
@@ -564,7 +564,7 @@ end
 
 MysteryID:ミステリー123：サブメモリ
 position:296:384:1
-Mystery:1,3,2,0,サブメモリ,123
+Mystery:1,3,2,0,,123
 page:1
 startterms:Abutton
 type:1
@@ -590,7 +590,7 @@ end
 
 MysteryID:ミステリー124：パワーオーラ　B
 position:457:255:1
-Mystery:1,0,149,0,パワーオーラ　B,124
+Mystery:1,0,149,0,,124
 page:1
 startterms:Abutton
 type:1

@@ -182,7 +182,7 @@ battle:35:3:3:0:1:1:1:0::26:3:4:1:1:1:1:0::26:3:5:2:1:1:1:0::0:0:1:False:True:Tr
 battle:7:3:5:1:1:1:1:0::35:3:3:0:1:1:1:0::40:3:4:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 battle:16:3:3:0:1:1:1:0::26:3:4:1:1:1:1:0::16:3:3:2:1:1:1:0::5:0:12:False:True:True:True:VSvirus:0
 
-random:0,97,0,Map.RandomItemDrgnFlm2CName:0,106,0,Map.RandomItemDethWpr2EName:0,18,2,Map.RandomItemGrounWavJName:0,49,2,Map.RandomItemTadpole2NName:3,8,250,Map.RandomItem250ZennyName:3,8,2500,Map.RandomItem2500ZennyName:3,8,25000,Map.RandomItem25000ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,97,0,:0,106,0,:0,18,2,:0,49,2,:3,8,250,:3,8,2500,:3,8,25000,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:CreditsAutoplayCategory14
 position:142:258:1
@@ -929,7 +929,7 @@ end
 
 MysteryID:ミステリー190：ダークチップ＋１
 position:81:19:2
-Mystery:2,2,37,3,ダークチップ＋１,190
+Mystery:2,2,37,3,,190
 page:1
 startterms:Abutton
 type:1
@@ -955,7 +955,7 @@ end
 
 MysteryID:ミステリー191：ワンフルオープン
 position:73:185:1
-Mystery:1,2,20,4,ワンフルオープン,191
+Mystery:1,2,20,4,,191
 page:1
 startterms:Abutton
 type:1

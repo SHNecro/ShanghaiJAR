@@ -61,7 +61,7 @@ battle:12:1:5:0:1:1:1:0::12:1:3:1:1:1:1:0::27:2:4:2:1:1:1:0::0:0:1:False:True:Tr
 battle:4:2:4:0:1:1:1:0::30:2:3:1:1:1:1:0::12:1:5:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 battle:17:3:3:0:1:1:1:0::17:3:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 
-random:3,8,1000,Map.RandomItem1000ZennyName:3,8,1000,Map.RandomItem1000ZennyName:3,8,1000,Map.RandomItem1000ZennyName:3,8,1000,Map.RandomItem1000ZennyName:3,8,4000,Map.RandomItem4000ZennyName:3,8,4000,Map.RandomItem4000ZennyName:3,8,4000,Map.RandomItem4000ZennyName:3,8,8000,Map.RandomItem8000ZennyName:3,8,8000,Map.RandomItem8000ZennyName:3,8,14000,Map.RandomItem14000ZennyName:3,8,18000,Map.RandomItem18000ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:3,8,1000,:3,8,1000,:3,8,1000,:3,8,1000,:3,8,4000,:3,8,4000,:3,8,4000,:3,8,8000,:3,8,8000,:3,8,14000,:3,8,18000,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:BGMStart
 position:146:62:0
@@ -695,7 +695,7 @@ end
 
 MysteryID:ミステリー137：HPメモリ
 position:314:170:0
-Mystery:1,3,0,0,HPメモリ,137
+Mystery:1,3,0,0,,137
 page:1
 startterms:Abutton
 type:1
@@ -721,7 +721,7 @@ end
 
 MysteryID:ミステリー138：クラックツール
 position:187:139:0
-Mystery:1,1,6,0,クラックツール,138
+Mystery:1,1,6,0,,138
 page:1
 startterms:Abutton
 type:1
@@ -747,7 +747,7 @@ end
 
 MysteryID:ミステリー139：チャージカノン１　＊
 position:25:249:0
-Mystery:1,0,6,3,チャージカノン１　＊,139
+Mystery:1,0,6,3,,139
 page:1
 startterms:Abutton
 type:1
@@ -773,7 +773,7 @@ end
 
 MysteryID:ミステリー140：レギュラーアップ1
 position:57:249:0
-Mystery:1,3,1,1,レギュラーアップ1,140
+Mystery:1,3,1,1,,140
 page:1
 startterms:Abutton
 type:1
@@ -799,7 +799,7 @@ end
 
 MysteryID:ミステリー141：ファーストアド
 position:122:314:0
-Mystery:2,2,18,5,ファーストアド,141
+Mystery:2,2,18,5,,141
 page:1
 startterms:Abutton
 type:1

@@ -1679,7 +1679,7 @@ end
 
 MysteryID:ミステリー86：4000ゼニー
 position:193:431:0
-Mystery:1,3,8,4000,4000ゼニー,86
+Mystery:1,3,8,4000,,86
 page:1
 startterms:Abutton
 type:1
@@ -1705,7 +1705,7 @@ end
 
 MysteryID:ミステリー87：アースウェーブ　M
 position:49:49:0
-Mystery:1,0,17,1,アースウェーブ　M,87
+Mystery:1,0,17,1,,87
 page:1
 startterms:Abutton
 type:1
@@ -1731,7 +1731,7 @@ end
 
 MysteryID:ミステリー88：グラビボール３　I
 position:258:258:0
-Mystery:1,0,41,3,グラビボール３　I,88
+Mystery:1,0,41,3,,88
 page:1
 startterms:Abutton
 type:1

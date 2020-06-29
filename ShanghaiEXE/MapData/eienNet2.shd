@@ -149,7 +149,7 @@ battle:36:2:3:0:1:1:1:0::2:1:5:1:1:1:1:0::39:2:4:2:1:1:1:0::0:0:1:False:True:Tru
 battle:41:1:5:0:1:1:1:0::26:1:4:1:1:1:1:0::41:1:5:2:1:1:1:0::3:3:1:False:True:True:True:VSvirus:0
 battle:39:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
-random:0,80,1,Map.RandomItemBrnzNplmOName:0,53,3,Map.RandomItemBubBlst2VName:0,1,3,Map.RandomItemMRayGun＊Name:0,3,0,Map.RandomItemSeedCan1CName:3,8,100,Map.RandomItem100ZennyName:3,8,1000,Map.RandomItem1000ZennyName:3,8,1500,Map.RandomItem1500ZennyName:3,8,2000,Map.RandomItem2000ZennyName:3,8,2500,Map.RandomItem2500ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,80,1,:0,53,3,:0,1,3,:0,3,0,:3,8,100,:3,8,1000,:3,8,1500,:3,8,2000,:3,8,2500,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:ネックキューブ
 position:298:58:1
@@ -1226,7 +1226,7 @@ fade:15:0:0:0:0:True
 msgopen:
 msg:Map.EienNet2DarkSellerStage7Dialogue1FaceNaviBlackHeel
 msg:Map.EienNet2DarkSellerStage7Dialogue2FaceNaviBlackHeel
-ItemGet:0:261:0:Map.ItemDrkFallOName
+ItemGet:0:261:0:
 msgclose:
 editFlag:402:True
 BranchEnd:
@@ -1490,7 +1490,7 @@ end
 
 MysteryID:ミステリー61：2000ゼニー
 position:439:375:1
-Mystery:1,3,8,2000,2000ゼニー,61
+Mystery:1,3,8,2000,,61
 page:1
 startterms:Abutton
 type:1
@@ -1516,7 +1516,7 @@ end
 
 MysteryID:ミステリー62：メタルナパーム　D
 position:296:136:1
-Mystery:1,0,81,0,メタルナパーム　D,62
+Mystery:1,0,81,0,,62
 page:1
 startterms:Abutton
 type:1
@@ -1542,7 +1542,7 @@ end
 
 MysteryID:ミステリー63：バイオスプレー２　P
 position:277:39:0
-Mystery:1,0,133,0,バイオスプレー２　P,63
+Mystery:1,0,133,0,,63
 page:1
 startterms:Abutton
 type:1

@@ -157,7 +157,7 @@ end
 
 MysteryID:ミステリー3：エリアバッシュ　＊
 position:18:18:0
-Mystery:2,0,157,3,エリアバッシュ　＊,3
+Mystery:2,0,157,3,,3
 page:1
 startterms:Abutton
 type:1
@@ -183,7 +183,7 @@ end
 
 MysteryID:ミステリー127：700ゼニー
 position:178:178:0
-Mystery:1,3,8,700,700ゼニー,127
+Mystery:1,3,8,700,,127
 page:1
 startterms:Abutton
 type:1

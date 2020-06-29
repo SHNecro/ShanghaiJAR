@@ -112,7 +112,7 @@ end
 
 MysteryID:ミステリー222：クラックツール
 position:60:28:0
-Mystery:1,1,6,0,クラックツール,222
+Mystery:1,1,6,0,,222
 page:1
 startterms:Abutton
 type:1
@@ -138,7 +138,7 @@ end
 
 MysteryID:ミステリー223：バグのかけら10個
 position:141:171:0
-Mystery:1,3,5,10,バグのかけら10個,223
+Mystery:1,3,5,10,,223
 page:1
 startterms:Abutton
 type:1

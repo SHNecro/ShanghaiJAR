@@ -65,7 +65,7 @@ battle:56:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True
 battle:8:3:3:0:1:1:1:0::8:3:5:1:1:1:1:0::8:3:4:2:1:1:1:0::4:4:1:False:True:True:True:VSvirus:0
 battle:17:3:4:0:1:1:1:0::17:3:4:1:1:1:1:0::17:3:4:2:1:1:1:0::4:4:1:False:True:True:True:VSvirus:0
 
-random:3,8,500,Map.RandomItem500ZennyName:3,8,1100,Map.RandomItem1100ZennyName:3,8,1900,Map.RandomItem1900ZennyName:3,8,2800,Map.RandomItem2800ZennyName:0,56,2,Map.RandomItemLifeShldHName:0,67,3,Map.RandomItemStepSwrdTName:0,94,2,Map.RandomItemChainGn2OName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:3,8,500,:3,8,1100,:3,8,1900,:3,8,2800,:0,56,2,:0,67,3,:0,94,2,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:BGMStart
 position:146:62:0
@@ -147,7 +147,7 @@ fade:15:0:0:0:0:True
 msgopen:
 msg:Map.InglesNet3DarkSellerStage7Dialogue1FaceNaviBlackHeel
 msg:Map.InglesNet3DarkSellerStage7Dialogue2FaceNaviBlackHeel
-ItemGet:0:259:0:Map.ItemDrkFangAName
+ItemGet:0:259:0:
 msgclose:
 editFlag:412:True
 BranchEnd:
@@ -336,7 +336,7 @@ end
 
 MysteryID:ミステリー148：チャージカノン１　＊
 position:297:265:0
-Mystery:1,0,6,3,チャージカノン１　＊,148
+Mystery:1,0,6,3,,148
 page:1
 startterms:Abutton
 type:1
@@ -362,7 +362,7 @@ end
 
 MysteryID:ミステリー149：ワンフルオープン
 position:136:394:0
-Mystery:2,0,9,3,ワンフルオープン,149
+Mystery:2,0,9,3,,149
 page:1
 startterms:Abutton
 type:1

@@ -114,7 +114,7 @@ end
 
 MysteryID:ミステリー50：バスターパワー
 position:172:170:0
-Mystery:2,2,0,0,バスターパワー,50
+Mystery:2,2,0,0,,50
 page:1
 startterms:Abutton
 type:1
@@ -140,7 +140,7 @@ end
 
 MysteryID:ミステリー51：シードキャノン１　T
 position:27:25:0
-Mystery:1,0,3,2,シードキャノン１　T,51
+Mystery:1,0,3,2,,51
 page:1
 startterms:Abutton
 type:1

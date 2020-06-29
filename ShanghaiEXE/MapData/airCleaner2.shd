@@ -746,7 +746,7 @@ end
 
 MysteryID:ミステリー30：キューブ　＊
 position:169:465:0
-Mystery:1,0,141,3,キューブ　＊,30
+Mystery:1,0,141,3,,30
 page:1
 startterms:Abutton
 type:1
@@ -772,7 +772,7 @@ end
 
 MysteryID:ミステリー31：ショットガン２　Ｔ
 position:428:344:0
-Mystery:1,0,121,3,ショットガン２　Ｔ,31
+Mystery:1,0,121,3,,31
 page:1
 startterms:Abutton
 type:1
@@ -798,7 +798,7 @@ end
 
 MysteryID:ミステリー32：サブメモリ
 position:455:347:0
-Mystery:1,3,2,0,サブメモリ,32
+Mystery:1,3,2,0,,32
 page:1
 startterms:Abutton
 type:1
@@ -824,7 +824,7 @@ end
 
 MysteryID:ミステリー33：コールドエアー２　B
 position:324:434:0
-Mystery:1,0,24,0,コールドエアー２　B,33
+Mystery:1,0,24,0,,33
 page:1
 startterms:Abutton
 type:1

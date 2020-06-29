@@ -1076,10 +1076,10 @@ ifValue:15:False:100:1:0
 Special:9
 msg:Map.AirCleaner3ClientStage1Dialogue12FaceNaviBlueRobot
 msg:Map.AirCleaner3ClientStage1Dialogue13FaceNaviBlueRobot
-ItemGet:3:1:3:Map.ItemRegUp3Name
-ItemGet:3:1:3:Map.ItemRegUp3Name
-ItemGet:3:1:2:Map.ItemRegUp2Name
-ItemGet:3:1:2:Map.ItemRegUp2Name
+ItemGet:3:1:3:
+ItemGet:3:1:3:
+ItemGet:3:1:2:
+ItemGet:3:1:2:
 msg:Map.AirCleaner3ClientStage1Dialogue14FaceNaviBlueRobot
 msg:Map.AirCleaner3ClientStage1Dialogue15FaceNaviBlueRobot
 editFlag:91:True
@@ -1135,7 +1135,7 @@ end
 
 MysteryID:ミステリー34：フルエナジー
 position:185:351:0
-Mystery:1,1,1,0,フルエナジー,34
+Mystery:1,1,1,0,,34
 page:1
 startterms:Abutton
 type:1
@@ -1161,7 +1161,7 @@ end
 
 MysteryID:ミステリー35：1000ゼニー
 position:306:502:0
-Mystery:1,3,8,1000,1000ゼニー,35
+Mystery:1,3,8,1000,,35
 page:1
 startterms:Abutton
 type:1
@@ -1187,7 +1187,7 @@ end
 
 MysteryID:ミステリー36：バイオスプレー１　＊
 position:497:175:0
-Mystery:1,0,132,3,バイオスプレー１　＊,36
+Mystery:1,0,132,3,,36
 page:1
 startterms:Abutton
 type:1
@@ -1213,7 +1213,7 @@ end
 
 MysteryID:ミステリー37：コールドショット　C
 position:297:209:0
-Mystery:1,0,22,1,コールドショット　C,37
+Mystery:1,0,22,1,,37
 page:1
 startterms:Abutton
 type:1

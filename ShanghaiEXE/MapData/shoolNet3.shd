@@ -567,7 +567,7 @@ end
 
 MysteryID:ミステリー83：リフレステージ　E
 position:192:122:0
-Mystery:1,0,172,0,リフレステージ　E,83
+Mystery:1,0,172,0,,83
 page:1
 startterms:Abutton
 type:1
@@ -593,7 +593,7 @@ end
 
 MysteryID:ミステリー84：レジスト　E
 position:272:376:0
-Mystery:1,0,180,0,レジスト　E,84
+Mystery:1,0,180,0,,84
 page:1
 startterms:Abutton
 type:1
@@ -619,7 +619,7 @@ end
 
 MysteryID:ミステリー85：5000ゼニー
 position:289:249:0
-Mystery:1,3,8,5000,5000ゼニー,85
+Mystery:1,3,8,5000,,85
 page:1
 startterms:Abutton
 type:1

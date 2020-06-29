@@ -918,7 +918,7 @@ event:
 msgopen:
 msg:Map.CenterccityWestBicycleScalpel1Stage1Dialogue1FaceNone
 msg:Map.CenterccityWestBicycleScalpel1Stage1Dialogue2FaceNone
-ItemGet:3:0:0:Map.ItemHPMemoryName
+ItemGet:3:0:0:
 msgclose:
 editFlag:289:True
 end

@@ -132,7 +132,7 @@ BranchEnd:
 seon:pinpon
 msg:Map.Genschool2fbQuizKidStage1Dialogue24FaceMaleChild
 msg:Map.Genschool2fbQuizKidStage1Dialogue25FaceMaleChild
-ItemGet:2:41:6:Map.ItemRunSoulName
+ItemGet:2:41:6:
 editFlag:185:True
 msg:Map.Genschool2fbQuizKidStage1Dialogue26FaceMaleChild
 goto:終わり

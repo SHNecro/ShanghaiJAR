@@ -2812,7 +2812,7 @@ end
 
 MysteryID:ミステリー169：ポイズンネット　M
 position:146:298:0
-Mystery:1,0,37,0,ポイズンネット　M,169
+Mystery:1,0,37,0,,169
 page:1
 startterms:Abutton
 type:1
@@ -2838,7 +2838,7 @@ end
 
 MysteryID:ミステリー170：HPメモリ
 position:258:202:0
-Mystery:1,3,0,0,HPメモリ,170
+Mystery:1,3,0,0,,170
 page:1
 startterms:Abutton
 type:1
@@ -2864,7 +2864,7 @@ end
 
 MysteryID:ミステリー171：8000ゼニー
 position:418:522:0
-Mystery:1,3,8,8000,8000ゼニー,171
+Mystery:1,3,8,8000,,171
 page:1
 startterms:Abutton
 type:1
@@ -2890,7 +2890,7 @@ end
 
 MysteryID:ミステリー172：フルエナジー
 position:178:282:0
-Mystery:1,1,1,0,フルエナジー,172
+Mystery:1,1,1,0,,172
 page:1
 startterms:Abutton
 type:1

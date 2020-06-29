@@ -56,7 +56,7 @@ battle:36:3:3:0:1:1:1:0::36:3:5:1:1:1:1:0::36:3:4:2:1:1:1:0::3:3:1:False:True:Tr
 battle:2:3:4:0:1:1:1:0::2:3:3:1:1:1:1:0::2:3:4:2:1:1:1:0::3:3:1:False:True:True:True:VSvirus:0
 battle:57:3:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSnavi:0
 
-random:3,8,50,Map.RandomItem50ZennyName:3,8,150,Map.RandomItem150ZennyName:3,8,1500,Map.RandomItem1500ZennyName:3,8,15000,Map.RandomItem15000ZennyName:0,105,0,Map.RandomItemDethWpr1IName:0,135,0,Map.RandomItemBustrAmp＊Name:0,149,3,Map.RandomItemPwrAuraPName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:3,8,50,:3,8,150,:3,8,1500,:3,8,15000,:0,105,0,:0,135,0,:0,149,3,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:BGMStart
 position:146:63:0
@@ -770,7 +770,7 @@ end
 
 MysteryID:ミステリー150：10000ゼニー
 position:154:122:0
-Mystery:1,3,8,10000,10000ゼニー,150
+Mystery:1,3,8,10000,,150
 page:1
 startterms:Abutton
 type:1
@@ -796,7 +796,7 @@ end
 
 MysteryID:ミステリー151：パネルシュート３　B
 position:393:41:0
-Mystery:1,0,101,0,パネルシュート３　B,151
+Mystery:1,0,101,0,,151
 page:1
 startterms:Abutton
 type:1

@@ -195,7 +195,7 @@ msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue6FaceShanghai
 msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue7FaceAlice
 msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue8FaceTenshi
 msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue9FaceTenshi
-ItemGet:0:76:0:Map.ItemElecDrilIName
+ItemGet:0:76:0:
 msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue10FaceAlice
 msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue11FaceTenshi
 msg:Map.Hospital2fRoomChapter5EventsStage1Dialogue12FaceTenshi
@@ -716,7 +716,7 @@ hitform:circle
 event:
 msgopen:
 msg:Map.Hospital2fRoomHidingCharactersStage1Dialogue1FaceNaviBlackRobe
-ItemGet:0:264:0:Map.ItemDrkAuraAName
+ItemGet:0:264:0:
 msg:Map.Hospital2fRoomHidingCharactersStage1Dialogue2FaceNaviBlackRobe
 msgclose:
 editFlag:410:True

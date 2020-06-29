@@ -959,7 +959,7 @@ end
 
 MysteryID:ミステリー38：600ゼニー
 position:315:417:0
-Mystery:1,3,8,600,600ゼニー,38
+Mystery:1,3,8,600,,38
 page:1
 startterms:Abutton
 type:1
@@ -985,7 +985,7 @@ end
 
 MysteryID:ミステリー39：フロートバリアー　F
 position:82:306:0
-Mystery:1,0,148,0,フロートバリアー　F,39
+Mystery:1,0,148,0,,39
 page:1
 startterms:Abutton
 type:1
@@ -1011,7 +1011,7 @@ end
 
 MysteryID:ミステリー40：2000ゼニー
 position:113:305:0
-Mystery:1,3,8,2000,2000ゼニー,40
+Mystery:1,3,8,2000,,40
 page:1
 startterms:Abutton
 type:1
@@ -1037,7 +1037,7 @@ end
 
 MysteryID:ミステリー41：キューブ　＊
 position:266:392:0
-Mystery:1,0,141,3,キューブ　＊,41
+Mystery:1,0,141,3,,41
 page:1
 startterms:Abutton
 type:1

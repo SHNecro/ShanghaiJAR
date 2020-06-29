@@ -988,7 +988,7 @@ end
 
 MysteryID:ミステリー218：ハーフエナジー
 position:140:282:0
-Mystery:1,1,0,0,ハーフエナジー,218
+Mystery:1,1,0,0,,218
 page:1
 startterms:Abutton
 type:1
@@ -1014,7 +1014,7 @@ end
 
 MysteryID:ミステリー219：6000ゼニー
 position:283:361:0
-Mystery:1,3,8,6000,6000ゼニー,219
+Mystery:1,3,8,6000,,219
 page:1
 startterms:Abutton
 type:1
@@ -1040,7 +1040,7 @@ end
 
 MysteryID:ミステリー220：シェルアーマー３　A
 position:298:218:0
-Mystery:1,0,28,2,シェルアーマー３　A,220
+Mystery:1,0,28,2,,220
 page:1
 startterms:Abutton
 type:1
@@ -1066,7 +1066,7 @@ end
 
 MysteryID:ミステリー221：フルエナジー
 position:361:137:0
-Mystery:1,1,1,0,フルエナジー,221
+Mystery:1,1,1,0,,221
 page:1
 startterms:Abutton
 type:1

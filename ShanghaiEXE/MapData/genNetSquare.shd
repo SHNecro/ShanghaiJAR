@@ -103,7 +103,7 @@ msg:Map.GenNetSquareRequest1RecipientStage1Dialogue2FaceNone
 EditItem:5:False
 msg:Map.GenNetSquareRequest1RecipientStage1Dialogue3FaceNaviOrangeMale
 msg:Map.GenNetSquareRequest1RecipientStage1Dialogue4FaceNaviOrangeMale
-ItemGet:3:1:2:Map.ItemRegUp2Name
+ItemGet:3:1:2:
 msg:Map.GenNetSquareRequest1RecipientStage1Dialogue5FaceNaviOrangeMale
 msgclose:
 QuestEnd:
@@ -738,9 +738,9 @@ fade:21:0:0:0:0:False
 msgopen:
 msg:Map.GenNetSquareTestSprite1Stage3Dialogue1FaceSprite
 msg:Map.GenNetSquareTestSprite1Stage3Dialogue2FaceSprite
-ItemGet:0:84:2:Map.ItemStormSName
-ItemGet:0:85:1:Map.ItemHotStormFName
-ItemGet:0:86:0:Map.ItemMagStormCName
+ItemGet:0:84:2:
+ItemGet:0:85:1:
+ItemGet:0:86:0:
 msgclose:
 BranchEnd:
 BranchHead:1

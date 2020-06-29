@@ -94,7 +94,7 @@ battle:42:4:4:1:18:18:11:320:Map.UraNet1RandomBattle1Enemy1:42:4:3:0:22:4:118:20
 battle:42:4:5:1:122:122:147:320:Map.UraNet1RandomBattle2Enemy1:42:4:4:0:11:11:11:200:Map.UraNet1RandomBattle2Enemy2:42:4:4:2:11:11:11:200:Map.UraNet1RandomBattle2Enemy3:0:0:1:False:True:True:True:VSvirus:0
 battle:41:0:4:0:1:1:1:0::41:0:3:1:1:1:1:0::41:0:5:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
-random:0,176,0,Map.RandomItemRecov150DName:0,161,0,Map.RandomItemIceRoad＊Name:0,43,1,Map.RandomItemMagiBombQName:0,170,2,Map.RandomItemPoisStgePName:3,8,10,Map.RandomItem10ZennyName:3,8,100,Map.RandomItem100ZennyName:3,8,1000,Map.RandomItem1000ZennyName:3,8,10000,Map.RandomItem10000ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,176,0,:0,161,0,:0,43,1,:0,170,2,:3,8,10,:3,8,100,:3,8,1000,:3,8,10000,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:3章男
 position:340:482:0
@@ -178,7 +178,7 @@ editValue:15:False:0:4:2
 ifValue:15:False:80000:1:0
 msg:Map.UraNet1Chapter3DarkSellerStage1Dialogue5FaceNaviPurpleHeel
 money:80000:False
-ItemGet:0:257:0:Map.ItemDrkWiperWName
+ItemGet:0:257:0:
 editFlag:224:True
 goto:end
 ifEnd:0
@@ -1430,7 +1430,7 @@ end
 
 MysteryID:ミステリー70：HPメモリ
 position:131:51:0
-Mystery:2,3,0,0,HPメモリ,70
+Mystery:2,3,0,0,,70
 page:1
 startterms:Abutton
 type:1

@@ -1722,7 +1722,7 @@ end
 
 MysteryID:ミステリー201：レギュラーアップ1
 position:176:354:1
-Mystery:1,3,1,1,レギュラーアップ1,201
+Mystery:1,3,1,1,,201
 page:1
 startterms:Abutton
 type:1
@@ -1748,7 +1748,7 @@ end
 
 MysteryID:ミステリー202：パワーオブアース　S
 position:128:32:1
-Mystery:1,0,51,3,パワーオブアース　S,202
+Mystery:1,0,51,3,,202
 page:1
 startterms:Abutton
 type:1
@@ -1774,7 +1774,7 @@ end
 
 MysteryID:ミステリー203：7400ゼニー
 position:18:84:1
-Mystery:1,3,8,7400,7400ゼニー,203
+Mystery:1,3,8,7400,,203
 page:1
 startterms:Abutton
 type:1
@@ -1800,7 +1800,7 @@ end
 
 MysteryID:ミステリー204：バスターラピッド
 position:19:401:1
-Mystery:1,2,1,0,バスターラピッド,204
+Mystery:1,2,1,0,,204
 page:1
 startterms:Abutton
 type:1

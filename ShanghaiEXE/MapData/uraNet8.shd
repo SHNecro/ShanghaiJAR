@@ -47,7 +47,7 @@ battle:24:2:4:0:1:1:1:0::24:2:4:2:1:1:1:0::0:1:3:2:1:1:1:0::1:1:1:False:True:Tru
 battle:22:2:3:0:1:1:1:0::22:2:3:2:1:1:1:0::19:3:4:1:1:1:1:0::0:5:3:False:True:True:True:VSvirus:0
 battle:35:3:3:1:1:1:1:0::7:3:5:0:1:1:1:0::7:3:5:2:1:1:1:0::0:4:1:False:True:True:True:VSvirus:0
 
-random:0,149,2,Map.RandomItemPwrAuraFName:0,176,3,Map.RandomItemRecov150RName:0,181,2,Map.RandomItemGhostBdyVName:0,168,3,Map.RandomItemSandStgeZName:3,8,800,Map.RandomItem800ZennyName:3,8,1600,Map.RandomItem1600ZennyName:3,8,3200,Map.RandomItem3200ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,149,2,:0,176,3,:0,181,2,:0,168,3,:3,8,800,:3,8,1600,:3,8,3200,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:ウラ6へ
 position:29:178:0
@@ -848,7 +848,7 @@ end
 
 MysteryID:ミステリー185：パネルシュート２　B
 position:322:298:0
-Mystery:1,0,100,0,パネルシュート２　B,185
+Mystery:1,0,100,0,,185
 page:1
 startterms:Abutton
 type:1
@@ -874,7 +874,7 @@ end
 
 MysteryID:ミステリー186：4000ゼニー
 position:114:282:0
-Mystery:1,3,8,4000,4000ゼニー,186
+Mystery:1,3,8,4000,,186
 page:1
 startterms:Abutton
 type:1
@@ -900,7 +900,7 @@ end
 
 MysteryID:ミステリー187：5000ゼニー
 position:146:90:0
-Mystery:1,3,8,5000,5000ゼニー,187
+Mystery:1,3,8,5000,,187
 page:1
 startterms:Abutton
 type:1

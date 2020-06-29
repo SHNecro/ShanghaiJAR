@@ -1018,7 +1018,7 @@ msg:Map.Class2nen1kumiClassClassCollectionStage1Dialogue3FaceNone
 msg:Map.Class2nen1kumiClassClassCollectionStage1Dialogue4FaceNone
 ifFlag:16:False:0
 msg:Map.Class2nen1kumiClassClassCollectionStage1Dialogue5FaceNone
-ItemGet:3:0:0:Map.ItemHPMemoryName
+ItemGet:3:0:0:
 editFlag:16:True
 ifEnd:0
 msgclose:

@@ -53,7 +53,7 @@ fade:60:0:255:255:255:True
 msgopen:
 msg:Map.PhoneRequest9NaviStage3Dialogue1FaceNaviBlueRobot
 msg:Map.PhoneRequest9NaviStage3Dialogue2FaceNaviBlueRobot
-ItemGet:3:8:10000:Map.Item10000ZennyName
+ItemGet:3:8:10000:
 msg:Map.PhoneRequest9NaviStage3Dialogue3FaceShanghai
 msg:Map.PhoneRequest9NaviStage3Dialogue4FaceNaviBlueRobot
 msg:Map.PhoneRequest9NaviStage3Dialogue5FaceShanghai
@@ -61,7 +61,7 @@ msg:Map.PhoneRequest9NaviStage3Dialogue6FaceShanghai
 msg:Map.PhoneRequest9NaviStage3Dialogue7FaceShanghai
 msg:Map.PhoneRequest9NaviStage3Dialogue8FaceShanghai
 msg:Map.PhoneRequest9NaviStage3Dialogue9FaceNaviBlueRobot
-ItemGet:2:48:3:Map.ItemCrimNoisName
+ItemGet:2:48:3:
 msg:Map.PhoneRequest9NaviStage3Dialogue10FaceShanghai
 msg:Map.PhoneRequest9NaviStage3Dialogue11FaceShanghai
 msg:Map.PhoneRequest9NaviStage3Dialogue12FaceNaviBlueRobot
@@ -173,7 +173,7 @@ end
 
 MysteryID:ミステリー67：レギュラーアップ1
 position:26:170:0
-Mystery:1,3,1,1,レギュラーアップ1,67
+Mystery:1,3,1,1,,67
 page:1
 startterms:Abutton
 type:1
@@ -199,7 +199,7 @@ end
 
 MysteryID:ミステリー68：シルバーナイフ　L
 position:171:27:0
-Mystery:1,0,59,1,シルバーナイフ　L,68
+Mystery:1,0,59,1,,68
 page:1
 startterms:Abutton
 type:1

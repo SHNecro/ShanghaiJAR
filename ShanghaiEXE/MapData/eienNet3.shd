@@ -126,7 +126,7 @@ battle:4:1:4:0:1:1:1:0::36:2:3:2:1:1:1:0::0:1:3:2:1:1:1:0::0:3:1:False:True:True
 battle:4:1:3:0:1:1:1:0::41:1:4:1:1:1:1:0::26:1:5:2:1:1:1:0::3:0:4:False:True:True:True:VSvirus:0
 battle:19:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
-random:0,16,3,Map.RandomItemShotWav＊Name:0,61,3,Map.RandomItemSword＊Name:0,84,1,Map.RandomItemStormJName:0,24,3,Map.RandomItemColdAir2UName:0,59,2,Map.RandomItemSlvKnifeSName:3,8,1000,Map.RandomItem1000ZennyName:3,8,1600,Map.RandomItem1600ZennyName:3,8,3000,Map.RandomItem3000ZennyName:3,8,3200,Map.RandomItem3200ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,16,3,:0,61,3,:0,84,1,:0,24,3,:0,59,2,:3,8,1000,:3,8,1600,:3,8,3000,:3,8,3200,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:ROMゲート
 position:322:89:1
@@ -1294,7 +1294,7 @@ end
 
 MysteryID:ミステリー65：60000ゼニー
 position:302:64:1
-Mystery:1,3,8,60000,60000ゼニー,65
+Mystery:1,3,8,60000,,65
 page:1
 startterms:Abutton
 type:1
@@ -1320,7 +1320,7 @@ end
 
 MysteryID:ミステリー66：エレメントオーラ　A
 position:334:62:1
-Mystery:1,0,150,0,エレメントオーラ　A,66
+Mystery:1,0,150,0,,66
 page:1
 startterms:Abutton
 type:1

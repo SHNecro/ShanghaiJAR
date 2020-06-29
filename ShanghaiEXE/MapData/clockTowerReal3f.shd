@@ -293,7 +293,7 @@ BranchEnd:
 seon:pinpon
 msg:Map.ClockTowerReal3fQuizKingStage1Dialogue54FaceMaleElderly
 msg:Map.ClockTowerReal3fQuizKingStage1Dialogue55FaceMaleElderly
-ItemGet:0:260:0:Map.ItemDrkAnchrAName
+ItemGet:0:260:0:
 editFlag:618:True
 msg:Map.ClockTowerReal3fQuizKingStage1Dialogue56FaceMaleElderly
 goto:終わり

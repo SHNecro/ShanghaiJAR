@@ -1525,7 +1525,7 @@ end
 
 MysteryID:ミステリー101：クッサクドリル２　Ｉ
 position:162:322:0
-Mystery:1,0,74,0,クッサクドリル２　Ｉ,101
+Mystery:1,0,74,0,,101
 page:1
 startterms:Abutton
 type:1
@@ -1551,7 +1551,7 @@ end
 
 MysteryID:ミステリー102：リペア２００　E
 position:402:372:0
-Mystery:1,0,177,0,リペア２００　E,102
+Mystery:1,0,177,0,,102
 page:1
 startterms:Abutton
 type:1
@@ -1577,7 +1577,7 @@ end
 
 MysteryID:ミステリー103：フルエナジー
 position:33:371:0
-Mystery:1,1,1,0,フルエナジー,103
+Mystery:1,1,1,0,,103
 page:1
 startterms:Abutton
 type:1
@@ -1603,7 +1603,7 @@ end
 
 MysteryID:ミステリー104：HPメモリ
 position:34:114:0
-Mystery:1,3,0,0,HPメモリ,104
+Mystery:1,3,0,0,,104
 page:1
 startterms:Abutton
 type:1

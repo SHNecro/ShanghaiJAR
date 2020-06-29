@@ -63,7 +63,7 @@ msg:Map.GenUniversity3Chair1Stage1Dialogue1FaceNone
 msg:Map.GenUniversity3Chair1Stage1Dialogue2FaceNone
 ifFlag:186:False:0
 msg:Map.GenUniversity3Chair1Stage1Dialogue3FaceNone
-ItemGet:3:1:1:Map.ItemRegUp1Name
+ItemGet:3:1:1:
 editFlag:186:True
 ifEnd:0
 msgclose:

@@ -2422,7 +2422,7 @@ end
 
 MysteryID:ミステリー253：リペア５００　Ｌ
 position:113:425:0
-Mystery:1,0,179,1,リペア５００　Ｌ,253
+Mystery:1,0,179,1,,253
 page:1
 startterms:Abutton
 type:1
@@ -2448,7 +2448,7 @@ end
 
 MysteryID:ミステリー254：レイルガン３　M
 position:288:344:0
-Mystery:1,0,113,1,レイルガン３　M,254
+Mystery:1,0,113,1,,254
 page:1
 startterms:Abutton
 type:1
@@ -2474,7 +2474,7 @@ end
 
 MysteryID:ミステリー255：14000ゼニー
 position:146:426:0
-Mystery:1,3,8,14000,14000ゼニー,255
+Mystery:1,3,8,14000,,255
 page:1
 startterms:Abutton
 type:1
@@ -2500,7 +2500,7 @@ end
 
 MysteryID:ミステリー256：6000ゼニー
 position:688:248:0
-Mystery:1,3,8,6000,6000ゼニー,256
+Mystery:1,3,8,6000,,256
 page:1
 startterms:Abutton
 type:1

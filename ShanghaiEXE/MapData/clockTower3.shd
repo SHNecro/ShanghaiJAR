@@ -2829,7 +2829,7 @@ end
 
 MysteryID:ミステリー163：グラビフィールド　Ｐ
 position:146:114:0
-Mystery:1,0,155,2,グラビフィールド　Ｐ,163
+Mystery:1,0,155,2,,163
 page:1
 startterms:Abutton
 type:1
@@ -2855,7 +2855,7 @@ end
 
 MysteryID:ミステリー164：レギュラーアップ2
 position:434:66:0
-Mystery:1,3,1,2,レギュラーアップ2,164
+Mystery:1,3,1,2,,164
 page:1
 startterms:Abutton
 type:1
@@ -2881,7 +2881,7 @@ end
 
 MysteryID:ミステリー165：3200ゼニー
 position:291:291:0
-Mystery:1,3,8,3200,3200ゼニー,165
+Mystery:1,3,8,3200,,165
 page:1
 startterms:Abutton
 type:1

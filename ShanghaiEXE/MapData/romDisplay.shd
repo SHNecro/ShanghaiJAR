@@ -142,7 +142,7 @@ fade:15:0:0:0:0:True
 msgopen:
 msg:Map.RomDisplayDarkSellerStage7Dialogue1FaceNaviBlackHeel
 msg:Map.RomDisplayDarkSellerStage7Dialogue2FaceNaviBlackHeel
-ItemGet:0:263:0:Map.ItemDrkRecovAName
+ItemGet:0:263:0:
 msgclose:
 editFlag:411:True
 BranchEnd:
@@ -164,7 +164,7 @@ end
 
 MysteryID:ミステリー247：ノーガード
 position:97:51:0
-Mystery:2,2,82,7,ノーガード,247
+Mystery:2,2,82,7,,247
 page:1
 startterms:Abutton
 type:1

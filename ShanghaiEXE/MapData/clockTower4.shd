@@ -2951,7 +2951,7 @@ end
 
 MysteryID:ミステリー166：リペア２００　G
 position:35:131:0
-Mystery:1,0,177,1,リペア２００　G,166
+Mystery:1,0,177,1,,166
 page:1
 startterms:Abutton
 type:1
@@ -2977,7 +2977,7 @@ end
 
 MysteryID:ミステリー167：4000ゼニー
 position:307:179:0
-Mystery:1,3,8,4000,4000ゼニー,167
+Mystery:1,3,8,4000,,167
 page:1
 startterms:Abutton
 type:1
@@ -3003,7 +3003,7 @@ end
 
 MysteryID:ミステリー168：1500ゼニー
 position:211:243:0
-Mystery:1,3,8,1500,1500ゼニー,168
+Mystery:1,3,8,1500,,168
 page:1
 startterms:Abutton
 type:1

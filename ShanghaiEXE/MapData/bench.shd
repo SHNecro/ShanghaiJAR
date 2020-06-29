@@ -157,7 +157,7 @@ msg:Map.BenchClientStage6Dialogue1FaceNaviGreenRobot
 msg:Map.BenchClientStage6Dialogue2FaceNaviGreenRobot
 msg:Map.BenchClientStage6Dialogue3FaceNaviGreenRobot
 msg:Map.BenchClientStage6Dialogue4FaceNaviGreenRobot
-ItemGet:3:3:1:Map.ItemCorePlusName
+ItemGet:3:3:1:
 msg:Map.BenchClientStage6Dialogue5FaceNaviGreenRobot
 editFlag:89:True
 QuestEnd:
@@ -185,7 +185,7 @@ end
 
 MysteryID:ミステリー47：レギュラーアップ2
 position:45:157:0
-Mystery:1,3,1,2,レギュラーアップ2,47
+Mystery:1,3,1,2,,47
 page:1
 startterms:Abutton
 type:1
@@ -211,7 +211,7 @@ end
 
 MysteryID:ミステリー48：ヘルツプラス2
 position:184:26:0
-Mystery:1,3,4,2,ヘルツプラス2,48
+Mystery:1,3,4,2,,48
 page:1
 startterms:Abutton
 type:1

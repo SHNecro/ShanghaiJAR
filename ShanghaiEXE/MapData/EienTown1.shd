@@ -353,7 +353,7 @@ BranchEnd:
 seon:pinpon
 msg:Map.EienTown1QuizMasterStage1Dialogue39FaceScientist
 msg:Map.EienTown1QuizMasterStage1Dialogue40FaceScientist
-ItemGet:2:49:1:Map.ItemSpdRunnrName
+ItemGet:2:49:1:
 editFlag:286:True
 msg:Map.EienTown1QuizMasterStage1Dialogue41FaceScientist
 goto:終わり
@@ -1212,7 +1212,7 @@ msg:Map.EienTown1Requester12Stage5Dialogue1FaceSumireko
 msg:Map.EienTown1Requester12Stage5Dialogue2FaceNone
 msg:Map.EienTown1Requester12Stage5Dialogue3FaceSumireko
 msg:Map.EienTown1Requester12Stage5Dialogue4FaceSumireko
-ItemGet:3:3:1:Map.ItemCorePlusName
+ItemGet:3:3:1:
 msg:Map.EienTown1Requester12Stage5Dialogue5FaceSumireko
 msg:Map.EienTown1Requester12Stage5Dialogue6FaceSumireko
 msg:Map.EienTown1Requester12Stage5Dialogue7FaceSumireko

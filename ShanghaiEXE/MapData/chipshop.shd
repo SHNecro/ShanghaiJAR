@@ -237,7 +237,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage1Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage1Dialogue2FaceNone
-ItemGet:0:184:0:Map.ItemFstGaugeDName
+ItemGet:0:184:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -267,7 +267,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage5Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage5Dialogue2FaceNone
-ItemGet:0:185:2:Map.ItemSloGaugeSName
+ItemGet:0:185:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -297,7 +297,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage9Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage9Dialogue2FaceNone
-ItemGet:0:186:0:Map.ItemMaxGauge＊Name
+ItemGet:0:186:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -327,7 +327,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage13Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage13Dialogue2FaceNone
-ItemGet:3:5:100:Map.Item100BugFragsName
+ItemGet:3:5:100:
 msgclose:
 goto:end
 ifEnd:1
@@ -357,7 +357,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage17Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage17Dialogue2FaceNone
-ItemGet:3:6:100:Map.Item100FreezeFragsName
+ItemGet:3:6:100:
 msgclose:
 goto:end
 ifEnd:1
@@ -387,7 +387,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage21Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage21Dialogue2FaceNone
-ItemGet:0:137:0:Map.ItemZSaberEName
+ItemGet:0:137:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -417,7 +417,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage25Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage25Dialogue2FaceNone
-ItemGet:0:138:2:Map.ItemTriplRodTName
+ItemGet:0:138:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -447,7 +447,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage29Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage29Dialogue2FaceNone
-ItemGet:0:139:0:Map.ItemZKnucklCName
+ItemGet:0:139:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -477,7 +477,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage33Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage33Dialogue2FaceNone
-ItemGet:0:190:2:Map.ItemMarisa＊Name
+ItemGet:0:190:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -507,7 +507,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage37Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage37Dialogue2FaceNone
-ItemGet:0:193:2:Map.ItemSakuya＊Name
+ItemGet:0:193:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -537,7 +537,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage41Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage41Dialogue2FaceNone
-ItemGet:0:196:2:Map.ItemTankM＊Name
+ItemGet:0:196:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -567,7 +567,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage45Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage45Dialogue2FaceNone
-ItemGet:0:199:2:Map.ItemSpannerM＊Name
+ItemGet:0:199:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -597,7 +597,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage49Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage49Dialogue2FaceNone
-ItemGet:0:104:0:Map.ItemGigaHawkDName
+ItemGet:0:104:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -627,7 +627,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage53Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage53Dialogue2FaceNone
-ItemGet:0:65:2:Map.ItemBravSwrdSName
+ItemGet:0:65:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -657,7 +657,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage57Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage57Dialogue2FaceNone
-ItemGet:0:131:0:Map.ItemMnkyPol3HName
+ItemGet:0:131:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -687,7 +687,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage61Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage61Dialogue2FaceNone
-ItemGet:0:119:0:Map.ItemSandPit3CName
+ItemGet:0:119:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -717,7 +717,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage65Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage65Dialogue2FaceNone
-ItemGet:0:125:3:Map.ItemAuraSwd3ZName
+ItemGet:0:125:3:
 msgclose:
 goto:end
 ifEnd:1
@@ -747,7 +747,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage69Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage69Dialogue2FaceNone
-ItemGet:1:6:0:Map.ItemCrakToolName
+ItemGet:1:6:0:
 msgclose:
 goto:end
 ifEnd:1
@@ -777,7 +777,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage73Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage73Dialogue2FaceNone
-ItemGet:0:25:1:Map.ItemColdAir3JName
+ItemGet:0:25:1:
 msgclose:
 goto:end
 ifEnd:1
@@ -807,7 +807,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage77Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage77Dialogue2FaceNone
-ItemGet:2:6:2:Map.ItemBstrPackName
+ItemGet:2:6:2:
 msgclose:
 goto:end
 ifEnd:1
@@ -837,7 +837,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage81Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage81Dialogue2FaceNone
-ItemGet:2:61:3:Map.ItemRShieldName
+ItemGet:2:61:3:
 msgclose:
 goto:end
 ifEnd:1
@@ -867,7 +867,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage85Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage85Dialogue2FaceNone
-ItemGet:2:67:5:Map.ItemLLockOnName
+ItemGet:2:67:5:
 msgclose:
 goto:end
 ifEnd:1
@@ -897,7 +897,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage89Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage89Dialogue2FaceNone
-ItemGet:2:33:7:Map.ItemLostAreaName
+ItemGet:2:33:7:
 msgclose:
 goto:end
 ifEnd:1
@@ -927,7 +927,7 @@ msgopen:
 msg:Map.ChipshopNumberTraderPremiumStage93Dialogue1FacePatchouli
 seon:treader
 msg:Map.ChipshopNumberTraderPremiumStage93Dialogue2FaceNone
-ItemGet:2:81:7:Map.ItemDeadBodyName
+ItemGet:2:81:7:
 msgclose:
 goto:end
 ifEnd:1

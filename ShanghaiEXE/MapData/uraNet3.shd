@@ -150,7 +150,7 @@ battle:5:3:4:0:1:1:1:0::5:3:3:1:1:1:1:0::5:3:4:2:1:1:1:0::0:7:1:False:True:True:
 battle:7:3:3:0:1:1:1:0::7:3:5:1:1:1:1:0::7:3:3:2:1:1:1:0::0:4:3:False:True:True:True:VSvirus:0
 battle:58:3:5:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSnavi:0
 
-random:0,12,0,Map.RandomItemHakkero3DName:0,14,0,Map.RandomItemFireArm2CName:0,22,0,Map.RandomItemColdShotAName:0,43,2,Map.RandomItemMagiBombVName:3,8,1000,Map.RandomItem1000ZennyName:3,8,2000,Map.RandomItem2000ZennyName:3,8,3000,Map.RandomItem3000ZennyName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
+random:0,12,0,:0,14,0,:0,22,0,:0,43,2,:3,8,1000,:3,8,2000,:3,8,3000,:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName:4,0,0,Map.RandomItemEncounterName
 
 ID:依頼15モブ
 position:543:85:0
@@ -520,7 +520,7 @@ end
 
 MysteryID:ミステリー177：2800ゼニー
 position:385:185:1
-Mystery:1,3,8,2800,2800ゼニー,177
+Mystery:1,3,8,2800,,177
 page:1
 startterms:Abutton
 type:1
@@ -546,7 +546,7 @@ end
 
 MysteryID:ミステリー178：シードキャノン３　K
 position:209:93:1
-Mystery:1,0,5,1,シードキャノン３　K,178
+Mystery:1,0,5,1,,178
 page:1
 startterms:Abutton
 type:1
@@ -572,7 +572,7 @@ end
 
 MysteryID:ミステリー179：チャージカノン２　E
 position:198:130:0
-Mystery:1,0,7,1,チャージカノン２　E,179
+Mystery:1,0,7,1,,179
 page:1
 startterms:Abutton
 type:1
@@ -598,7 +598,7 @@ end
 
 MysteryID:ミステリー180：4300ゼニー
 position:131:259:0
-Mystery:1,3,8,4300,4300ゼニー,180
+Mystery:1,3,8,4300,,180
 page:1
 startterms:Abutton
 type:1
@@ -624,7 +624,7 @@ end
 
 MysteryID:ミステリー181：8000ゼニー
 position:434:172:1
-Mystery:1,3,8,8000,8000ゼニー,181
+Mystery:1,3,8,8000,,181
 page:1
 startterms:Abutton
 type:1

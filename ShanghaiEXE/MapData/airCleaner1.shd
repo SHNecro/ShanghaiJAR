@@ -610,7 +610,7 @@ end
 
 MysteryID:ミステリー25：レギュラーアップ2
 position:267:551:0
-Mystery:1,3,1,2,レギュラーアップ2,25
+Mystery:1,3,1,2,,25
 page:1
 startterms:Abutton
 type:1
@@ -636,7 +636,7 @@ end
 
 MysteryID:ミステリー26：HPメモリ
 position:153:237:0
-Mystery:1,3,0,0,HPメモリ,26
+Mystery:1,3,0,0,,26
 page:1
 startterms:Abutton
 type:1
@@ -662,7 +662,7 @@ end
 
 MysteryID:ミステリー27：1500ゼニー
 position:41:169:0
-Mystery:1,3,8,1500,1500ゼニー,27
+Mystery:1,3,8,1500,,27
 page:1
 startterms:Abutton
 type:1
@@ -688,7 +688,7 @@ end
 
 MysteryID:ミステリー28：リペア１００　D
 position:266:218:0
-Mystery:1,0,175,0,リペア１００　D,28
+Mystery:1,0,175,0,,28
 page:1
 startterms:Abutton
 type:1
@@ -714,7 +714,7 @@ end
 
 MysteryID:ミステリー29：バスターチャージ
 position:359:251:0
-Mystery:1,2,2,0,バスターチャージ,29
+Mystery:1,2,2,0,,29
 page:1
 startterms:Abutton
 type:1

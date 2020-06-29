@@ -1809,7 +1809,7 @@ emove:4章紫:wayleft,0
 msgopen:
 msg:Map.GameCenterChapter4BattleEventStage63Dialogue1FacePresidentYukari
 msg:Map.GameCenterChapter4BattleEventStage63Dialogue2FaceAlice
-ItemGet:3:8:100000:Map.Item100000ZennyName
+ItemGet:3:8:100000:
 ItemGet:3:8:0:TestItem.CruiseTicketName
 msgclose:
 EditItem:14:True
@@ -2991,7 +2991,7 @@ msg:Map.GameCenterTrash1Stage1Dialogue1FaceNone
 msg:Map.GameCenterTrash1Stage1Dialogue2FaceNone
 ifFlag:188:False:0
 msg:Map.GameCenterTrash1Stage1Dialogue3FaceNone
-ItemGet:3:1:1:Map.ItemRegUp1Name
+ItemGet:3:1:1:
 editFlag:188:True
 ifEnd:0
 msgclose:

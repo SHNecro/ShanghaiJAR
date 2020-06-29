@@ -1475,7 +1475,7 @@ end
 
 MysteryID:ミステリー12：マジカルボム　Q
 position:50:234:0
-Mystery:1,0,43,1,マジカルボム　Q,12
+Mystery:1,0,43,1,,12
 page:1
 startterms:Abutton
 type:1
@@ -1501,7 +1501,7 @@ end
 
 MysteryID:ミステリー13：リペア２０　＊
 position:306:186:0
-Mystery:1,0,173,3,リペア２０　＊,13
+Mystery:1,0,173,3,,13
 page:1
 startterms:Abutton
 type:1
@@ -1527,7 +1527,7 @@ end
 
 MysteryID:ミステリー14：エレキチェーン１　S
 position:337:249:0
-Mystery:1,0,32,2,エレキチェーン１　S,14
+Mystery:1,0,32,2,,14
 page:1
 startterms:Abutton
 type:1
@@ -1553,7 +1553,7 @@ end
 
 MysteryID:ミステリー15：500ゼニー
 position:223:217:0
-Mystery:1,3,8,500,500ゼニー,15
+Mystery:1,3,8,500,,15
 page:1
 startterms:Abutton
 type:1
@@ -1579,7 +1579,7 @@ end
 
 MysteryID:ミステリー16：サブメモリ
 position:115:379:0
-Mystery:1,3,2,0,サブメモリ,16
+Mystery:1,3,2,0,,16
 page:1
 startterms:Abutton
 type:1
@@ -1605,7 +1605,7 @@ end
 
 MysteryID:ミステリー17：1000ゼニー
 position:211:279:0
-Mystery:1,3,8,1000,1000ゼニー,17
+Mystery:1,3,8,1000,,17
 page:1
 startterms:Abutton
 type:1
@@ -1631,7 +1631,7 @@ end
 
 MysteryID:ミステリー18：フルエナジー
 position:81:411:0
-Mystery:1,1,1,0,フルエナジー,18
+Mystery:1,1,1,0,,18
 page:1
 startterms:Abutton
 type:1
@@ -1657,7 +1657,7 @@ end
 
 MysteryID:ミステリー46：ゴーストボディ　＊
 position:17:233:0
-Mystery:1,0,181,3,ゴーストボディ　＊,46
+Mystery:1,0,181,3,,46
 page:1
 startterms:Abutton
 type:1

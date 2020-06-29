@@ -72,7 +72,7 @@ battle:1:2:3:0:1:1:1:0::1:2:4:2:1:1:1:0::0:2:5:2:1:1:1:0::0:0:1:False:True:True:
 battle:5:1:4:0:1:1:1:0::5:1:5:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:True:True:True:VSvirus:0
 battle:14:0:4:0:1:1:1:0::14:0:4:2:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:True:True:VSnavi:0
 
-random:3,8,100,Map.RandomItem100ZennyName:3,8,300,Map.RandomItem300ZennyName:3,8,500,Map.RandomItem500ZennyName:3,8,1000,Map.RandomItem1000ZennyName:3,8,1500,Map.RandomItem1500ZennyName:3,8,2000,Map.RandomItem2000ZennyName:3,8,3000,Map.RandomItem3000ZennyName
+random:3,8,100,:3,8,300,:3,8,500,:3,8,1000,:3,8,1500,:3,8,2000,:3,8,3000,
 
 ID:チェンV2
 position:196:260:0
@@ -721,7 +721,7 @@ msgopen:
 msg:Map.CityNet3Request8NaviStage5Dialogue1FaceNaviOrangeMale
 msg:Map.CityNet3Request8NaviStage5Dialogue2FaceNaviOrangeMale
 msg:Map.CityNet3Request8NaviStage5Dialogue3FaceNaviOrangeMale
-ItemGet:0:137:3:Map.ItemZSaberZName
+ItemGet:0:137:3:
 msgclose:
 editFlag:383:True
 QuestEnd:
@@ -1666,7 +1666,7 @@ end
 
 MysteryID:ミステリー42：フレイムアーム１　M
 position:259:139:0
-Mystery:1,0,13,1,フレイムアーム１　M,42
+Mystery:1,0,13,1,,42
 page:1
 startterms:Abutton
 type:1
@@ -1692,7 +1692,7 @@ end
 
 MysteryID:ミステリー43：エリアバッシュ　S
 position:101:125:0
-Mystery:1,0,157,2,エリアバッシュ　S,43
+Mystery:1,0,157,2,,43
 page:1
 startterms:Abutton
 type:1
@@ -1718,7 +1718,7 @@ end
 
 MysteryID:ミステリー44：オーラソード１　S
 position:324:398:0
-Mystery:1,0,123,2,オーラソード１　S,44
+Mystery:1,0,123,2,,44
 page:1
 startterms:Abutton
 type:1
@@ -1744,7 +1744,7 @@ end
 
 MysteryID:ミステリー45：シャドーボディ　＊
 position:95:91:0
-Mystery:2,0,182,3,シャドーボディ　＊,45
+Mystery:2,0,182,3,,45
 page:1
 startterms:Abutton
 type:1
