@@ -28,7 +28,7 @@ namespace NSGame
             this.info = info;
         }
 
-        public static void LoadKeyItems()
+        private static void LoadKeyItems()
         {
             var languageDoc = new XmlDocument();
             languageDoc.Load($"data/data/KeyItems.xml");
