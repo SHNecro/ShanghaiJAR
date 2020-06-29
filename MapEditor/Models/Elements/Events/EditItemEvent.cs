@@ -1,5 +1,5 @@
 ﻿using MapEditor.Core.Converters;
-using MapEditor.Models.Elements.Enums;
+using System.Collections.Generic;
 
 namespace MapEditor.Models.Elements.Events
 {
@@ -27,7 +27,7 @@ namespace MapEditor.Models.Elements.Events
             get
             {
                 var isAddingString = this.IsAdding ? "Add" : "Remove";
-                var keyItemString = (new EnumDescriptionTypeConverter(typeof(KeyItemTypeNumber))).ConvertToString((KeyItemTypeNumber)this.ItemNumber);
+                var keyItemString = Constants.KeyItemDefinitions.ContainsKey(this.ItemNumber) ? Constants.KeyItemDefinitions[this.ItemNumber].Name : "INVALID";
                 return $"{isAddingString} {keyItemString} Key Item";
             }
         }

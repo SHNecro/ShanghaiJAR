@@ -1,6 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
+                    xmlns:editor="clr-namespace:MapEditor"
                     xmlns:controls="clr-namespace:MapEditor.Controls"
                     xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules">
     <ResourceDictionary.MergedDictionaries>
@@ -12,21 +13,18 @@
         <StackPanel Orientation="Vertical">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0"
                            VerticalAlignment="Center"
-                           Text="Mail Number:"/>
-                <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0">
-                    <controls:WheelCaptureIntegerUpDown.Text>
-                        <Binding Path="MailNumber" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                            <Binding.ValidationRules>
-                                <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="0"/>
-                            </Binding.ValidationRules>
-                        </Binding>
-                    </controls:WheelCaptureIntegerUpDown.Text>
-                </controls:WheelCaptureIntegerUpDown>
+                           Text="Mail:"/>
+                <ComboBox Grid.Column="1"
+                          ItemsSource="{x:Static editor:Constants.MailDefinitions}"
+                          SelectedValue="{Binding MailNumber}"
+                          SelectedValuePath="Key"
+                          DisplayMemberPath="Value.Name"/>
+
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>

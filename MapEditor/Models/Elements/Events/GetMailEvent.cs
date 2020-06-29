@@ -23,8 +23,9 @@
         {
             get
             {
+                var mailName = Constants.MailDefinitions.ContainsKey(this.MailNumber) ? Constants.MailDefinitions[this.MailNumber].Name : "INVALID";
                 var isPlayingEffectString = this.IsPlayingEffect ? string.Empty : " (Silent)";
-                return $"Get Mail: {this.MailNumber}{isPlayingEffectString}";
+                return $"Get Mail: {mailName}{isPlayingEffectString}";
             }
         }
 

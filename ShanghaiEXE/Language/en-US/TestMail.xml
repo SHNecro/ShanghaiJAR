@@ -157,7 +157,7 @@
   <Dialogue Key="TestMail.Mail22Dialogue4" Value="You’re not a NetAgent，but,I’d still like you to participate." Face="Sagume" Mono="True" />
   <Dialogue Key="TestMail.Mail22Dialogue5" Value="It’s okay if you can’t make it，,but please come to the Agent,Center if you can." Face="Sagume" Mono="True" />
   <Dialogue Key="TestMail.Mail22Dialogue6" Value="" Face="Sagume" Mono="True" />
-  <Text Key="TestMail.Mail23Title" Value="Sorry to bother you...." Mono="True" />
+  <Text Key="TestMail.Mail23Title" Value="Sorry to bother you" Mono="True" />
   <Text Key="TestMail.Mail23Sender" Value="Henchie" Mono="True" />
   <Dialogue Key="TestMail.Mail23Dialogue1" Value="Excuse me，Mistress Shanghai.,I have something confidential,for your ears only." Face="Henchie" Mono="True" />
   <Dialogue Key="TestMail.Mail23Dialogue2" Value="Please come to where we ran,into each other in Undernet 2." Face="Henchie" Mono="True" />

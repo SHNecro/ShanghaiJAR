@@ -214,6 +214,8 @@
     <Compile Include="Models\Elements\Events\PianoEvent.cs" />
     <Compile Include="Models\Elements\Events\CreditEvent.cs" />
     <Compile Include="Models\Elements\Events\EventBase.cs" />
+    <Compile Include="Models\Elements\MailDefinition.cs" />
+    <Compile Include="Models\Elements\KeyItemDefinition.cs" />
     <Compile Include="Models\Elements\Terms\TermBase.cs" />
     <Compile Include="Rendering\AddEditTranslationRenderer.cs" />
     <Compile Include="Rendering\AddEditTranslationRenderer.Drawing.cs" />
@@ -244,7 +246,6 @@
     <Compile Include="Models\Elements\Enums\EventMoveTargetOption.cs" />
     <Compile Include="Models\Elements\Enums\EventCategoryOption.cs" />
     <Compile Include="Models\Elements\Enums\MenuItemTypeNumber.cs" />
-    <Compile Include="Models\Elements\Enums\KeyItemTypeNumber.cs" />
     <Compile Include="Models\Elements\Enums\ShopPriceTypeNumber.cs" />
     <Compile Include="Models\Elements\Enums\ShopClerkTypeNumber.cs" />
     <Compile Include="Models\Elements\Enums\ShopTypeNumber.cs" />

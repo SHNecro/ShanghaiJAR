@@ -19,6 +19,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Input;
+using System.Xml;
 using FontStyle = System.Drawing.FontStyle;
 using Point = System.Drawing.Point;
 
@@ -47,6 +48,9 @@ namespace MapEditor
         public static Dictionary<int, AddOnDefinition> AddOnDefinitions { get; private set; }
         public static Dictionary<int, string> InteriorDefinitions { get; private set; }
         public static Dictionary<int, BackgroundDefinition> BackgroundDefinitions { get; private set; }
+
+        public static Dictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
+        public static Dictionary<int, MailDefinition> MailDefinitions { get; private set; }
 
         public static Rectangle ConveyorSpriteArea;
         public static Dictionary<FontType, Font> Fonts;
@@ -469,6 +473,55 @@ namespace MapEditor
                 Constants.BackgroundDefinitions[i] = new BackgroundDefinition(BackgroundBase.BackMake(i));
                 dataLoaded++;
                 Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Data: Background: ", dataLoaded / totalDataToLoad));
+            }
+
+            Constants.KeyItemDefinitions = new Dictionary<int, KeyItemDefinition>();
+            LoadKeyItems();
+
+            Constants.MailDefinitions = new Dictionary<int, MailDefinition>();
+            LoadMail();
+        }
+
+        private static void LoadKeyItems()
+        {
+            var languageDoc = new XmlDocument();
+            languageDoc.Load($"data/data/KeyItems.xml");
+
+            var characterNodes = languageDoc.SelectNodes("data/KeyItem");
+            foreach (XmlNode characterNode in characterNodes)
+            {
+                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+
+                if (index == -1)
+                {
+                    throw new InvalidOperationException("Invalid Key Item index.");
+                }
+
+                var name = Constants.TranslationService.Translate(characterNode?.Attributes["Name"].Value);
+
+                KeyItemDefinitions[index] = new KeyItemDefinition { Name = name };
+            }
+        }
+
+        private static void LoadMail()
+        {
+            var languageDoc = new XmlDocument();
+            languageDoc.Load($"data/data/Mail.xml");
+
+            var characterNodes = languageDoc.SelectNodes("data/Mail");
+            foreach (XmlNode characterNode in characterNodes)
+            {
+                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+
+                if (index == -1)
+                {
+                    throw new InvalidOperationException("Invalid Key Item index.");
+                }
+
+                var subject = Constants.TranslationService.Translate(characterNode?.Attributes["Subject"].Value);
+                var sender = Constants.TranslationService.Translate(characterNode?.Attributes["Sender"].Value);
+
+                MailDefinitions[index] = new MailDefinition { Subject = subject, Sender = sender };
             }
         }
 
