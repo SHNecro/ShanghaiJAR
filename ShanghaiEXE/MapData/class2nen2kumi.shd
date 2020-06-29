@@ -2296,7 +2296,7 @@ hitform:square
 event:
 msgopen:
 msg:Map.Class2nen2kumiTeachStage3Dialogue1FaceAlice
-ItemGet:3:8:0:TestItem.TeacherIDName
+ItemGet:3:8:0:KeyItem.TeacherIDName
 EditItem:13:True
 msg:Map.Class2nen2kumiTeachStage3Dialogue2FaceAlice
 msg:Map.Class2nen2kumiTeachStage3Dialogue3FaceShanghai
@@ -3424,7 +3424,7 @@ ifFlag:6:True:1
 msgopen:
 msg:Map.Class2nen2kumiMarisaBattleStage10Dialogue1FaceMari
 msg:Map.Class2nen2kumiMarisaBattleStage10Dialogue2FaceMari
-ItemGet:3:8:0:TestItem.MariPCodeName
+ItemGet:3:8:0:KeyItem.MariPCodeName
 EditItem:6:True
 msg:Map.Class2nen2kumiMarisaBattleStage10Dialogue3FaceMari
 msg:Map.Class2nen2kumiMarisaBattleStage10Dialogue4FaceMari

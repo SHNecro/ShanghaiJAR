@@ -483,7 +483,7 @@ ifFlag:6:True:1
 msgopen:
 msg:Map.ROMbase3fMarisaBattleStage10Dialogue1FaceMari
 msg:Map.ROMbase3fMarisaBattleStage10Dialogue2FaceMari
-ItemGet:3:8:0:TestItem.MariPCodeName
+ItemGet:3:8:0:KeyItem.MariPCodeName
 EditItem:6:True
 msg:Map.ROMbase3fMarisaBattleStage10Dialogue3FaceMari
 msg:Map.ROMbase3fMarisaBattleStage10Dialogue4FaceMari

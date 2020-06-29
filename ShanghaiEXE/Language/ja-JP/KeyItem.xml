@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="KeyItem.CompressedDataName" Value="圧縮データ" />
+  <Text Key="KeyItem.CompressedDataDescDialogue1" Value="ゲンソウエリアに埋まってた,謎が多い圧縮データね" />
+  <Text Key="KeyItem.CompressedDataDescDialogue2" Value="中身を見るには専門の所を,たずねる必要がありそうね" />
+  <Text Key="KeyItem.HeatDataName" Value="排熱データ" />
+  <Text Key="KeyItem.HeatDataDescDialogue1" Value="冷蔵庫の排熱機能のコピーね,電脳世界の氷を溶かせるわ！,（残り個数　#v@20#個）" />
+  <Text Key="KeyItem.AntiFreezeName" Value="融雪剤" />
+  <Text Key="KeyItem.AntiFreezeDescDialogue1" Value="魔理が調合して作った薬品よ,雪も氷も一瞬で溶かすらしいわ,何が入ってるのかしらね？" />
+  <Text Key="KeyItem.MetroPassName" Value="メトロ学生パス" />
+  <Text Key="KeyItem.MetroPassDescDialogue1" Value="これがあればリニアメトロに,乗り放題のフリーパスよ！" />
+  <Text Key="KeyItem.IceCrystalDataName" Value="氷の結晶データ" />
+  <Text Key="KeyItem.IceCrystalDataDescDialogue1" Value="すごく綺麗な氷の結晶の,データよ！,見ているだけでいやされそう" />
+  <Text Key="KeyItem.PackageDataName" Value="荷物データ" />
+  <Text Key="KeyItem.PackageDataDescDialogue1" Value="依頼で運ぶ荷物のデータね,中身はサブチップみたいよ" />
+  <Text Key="KeyItem.MariPCodeName" Value="魔理のＰコード" />
+  <Text Key="KeyItem.MariPCodeDescDialogue1" Value="魔理のＨＰのＰコードよ,インターネットのセキュリティを,解除できるわ" />
+  <Text Key="KeyItem.RemiliaPCodeName" Value="レミリアのＰコード" />
+  <Text Key="KeyItem.RemiliaPCodeDescDialogue1" Value="レミリアのＨＰのＰコードよ,インターネットのセキュリティを,解除できるわ" />
+  <Text Key="KeyItem.RikaPCodeName" Value="里香のＰコード" />
+  <Text Key="KeyItem.RikaPCodeDescDialogue1" Value="里香のＨＰのＰコードよ,インターネットのセキュリティを,解除できるわ" />
+  <Text Key="KeyItem.TsubakiPCodeName" Value="ネックのＰコード" />
+  <Text Key="KeyItem.TsubakiPCodeDescDialogue1" Value="ネックのＨＰのＰコードよ,インターネットのセキュリティを,解除できるわ" />
+  <Text Key="KeyItem.TenshiPCodeName" Value="天子のＰコード" />
+  <Text Key="KeyItem.TenshiPCodeDescDialogue1" Value="天子のＨＰのＰコードよ,インターネットのセキュリティを,解除できるわ" />
+  <Text Key="KeyItem.SpareCodeName" Value="予備のＰコード" />
+  <Text Key="KeyItem.SpareCodeDescDialogue1" Value="魔理のＨＰのＰコードよ,インターネットのセキュリティを,解除できるわ" />
+  <Text Key="KeyItem.OldChipDataName" Value="古いデータチップ" />
+  <Text Key="KeyItem.OldChipDataDescDialogue1" Value="公園の砂場に埋まっていた,かなり古いデータチップよ,何が入ってるのかしら？" />
+  <Text Key="KeyItem.TeacherIDName" Value="先生のＩＤカード" />
+  <Text Key="KeyItem.TeacherIDDescDialogue1" Value="こぁ先生のＩＤカードね,これで学校のネットワークに,アクセスできるわよ" />
+  <Text Key="KeyItem.CruiseTicketName" Value="ツアーチケット" />
+  <Text Key="KeyItem.CruiseTicketDescDialogue1" Value="Ｎ１リーグの賞品の,インゲレスツアーのチケットよ,豪華客船に乗れるわ！" />
+  <Text Key="KeyItem.YinKeyName" Value="陰のカギ" />
+  <Text Key="KeyItem.YinKeyDescDialogue1" Value="神社の電脳の扉を開ける,黒いカギよ！,陽のカギとセットで使うわ" />
+  <Text Key="KeyItem.YangKeyName" Value="陽のカギ" />
+  <Text Key="KeyItem.YangKeyDescDialogue1" Value="神社の電脳の扉を開ける,白いカギよ！,陰のカギとセットで使うわ" />
+  <Text Key="KeyItem.AdminPCodeName" Value="管理Ｐコード" />
+  <Text Key="KeyItem.AdminPCodeDescDialogue1" Value="「キズナフレンド」の,管理エリアに入るための,Ｐコードね" />
+  <Text Key="KeyItem.SmallParcelName" Value="小さな小包" />
+  <Text Key="KeyItem.SmallParcelDescDialogue1" Value="依頼で受け取った,小さい小包よ,早く届けなきゃね" />
+  <!--
+  リグルのペンダント
+  半透明の琥珀のついた
+  きれいな首飾りね
+  琥珀の中に何か
+  入ってるみたいだけど
+  よく見えないわね
+  -->
+  <Text Key="KeyItem.WrigglePendantName" Value="リグルのペンダント" />
+  <Text Key="KeyItem.WrigglePendantDescDialogue1" Value="半透明の琥珀のついた,きれいな首飾りね" />
+  <Text Key="KeyItem.WrigglePendantDescDialogue2" Value="琥珀の中に何か,入ってるみたいだけど,よく見えないわね" />
+  <!-- 
+  古いＩＤデータ
+  沈没船の電脳の扉を開く
+  ＩＤデータよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.ROMIDName" Value="ＲＯＭ－ＩＤ" />
+  <Text Key="KeyItem.ROMIDDescDialogue1" Value="インターネットにある,ドクロの扉を開く,ＩＤデータよ" />
+  <!-- 
+  プﾘザｰブドフラﾜｰ
+  特殊な加工をした
+  きれいな造花よ
+  いい匂いもするわね
+  -->
+  <Text Key="KeyItem.PreservedFlowerName" Value="プﾘザｰブドフラﾜｰ" />
+  <Text Key="KeyItem.PreservedFlowerDescDialogue1" Value="特殊な加工をした,きれいな造花よ,いい匂いもするわね" />
+  <!-- 
+  古いキーデータ
+  沈没船の電脳の扉を開く
+  鍵データよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldKeyDataName" Value="古いキーデータ" />
+  <Text Key="KeyItem.OldKeyDataDescDialogue1" Value="沈没船の電脳の扉を開く,鍵データよ,今にも崩れそうな脆さね" />
+  <!-- 
+  古いＩＤデータ
+  沈没船の電脳の扉を開く
+  ＩＤデータよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldIDDataName" Value="古いＩＤデータ" />
+  <Text Key="KeyItem.OldIDDataDescDialogue1" Value="沈没船の電脳の扉を開く,ＩＤデータよ,今にも崩れそうな脆さね" />
+  <!-- 
+  古いパスコード
+  沈没船の電脳の扉を開く
+  パスコードよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldPasscodeName" Value="古いパスコード" />
+  <Text Key="KeyItem.OldPasscodeDescDialogue1" Value="沈没船の電脳の扉を開く,パスコードよ,今にも崩れそうな脆さね" />
+  <!--
+  転生プログラム
+  スプライトをナビに転生させる
+  今では使われてない
+  特別なプログラムね
+  -->
+  <Text Key="KeyItem.ReincarnationProgramName" Value="転生プログラム" />
+  <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="スプライトをナビに転生させる,今では使われてない,特別なプログラムね" />
+</data>

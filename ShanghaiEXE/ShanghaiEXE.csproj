@@ -446,14 +446,14 @@
     <Compile Include="Map\Character\Menu\FolderSelect.cs" />
     <Compile Include="Map\Character\Menu\NetWork.cs" />
     <Compile Include="Map\Character\Menu\NameEdit.cs" />
-    <Compile Include="Map\Character\Menu\Mail.cs" />
+    <Compile Include="Map\Character\Menu\MailMenu.cs" />
     <Compile Include="Map\Character\Menu\MenuBase.cs" />
     <Compile Include="Map\Character\Menu\Navi.cs" />
     <Compile Include="Map\Character\Menu\Save.cs" />
     <Compile Include="Map\Character\Menu\SubChip.cs" />
     <Compile Include="Map\Character\Menu\TopMenu.cs" />
     <Compile Include="Map\Character\Menu\Virus.cs" />
-    <Compile Include="Map\Character\Menu\KeyItem.cs" />
+    <Compile Include="Map\Character\Menu\KeyItemMenu.cs" />
     <Compile Include="Map\Character\Terms\None.cs" />
     <Compile Include="Map\Character\Terms\Flag.cs" />
     <Compile Include="Map\Character\Terms\FlagNot.cs" />
@@ -1310,7 +1310,6 @@
     <Compile Include="Game\ChipS.cs" />
     <Compile Include="Game\Virus.cs" />
     <Compile Include="Game\Mail.cs" />
-    <Compile Include="Game\KeyItem.cs" />
     <Compile Include="Game\Interior.cs" />
     <Compile Include="Game\Loading.cs">
       <SubType>Form</SubType>
@@ -1320,8 +1319,8 @@
     <Compile Include="Game\Circle.cs" />
     <Compile Include="Game\AllBase.cs" />
     <Compile Include="Game\Bound.cs" />
-    <Compile Include="Game\TestItem.cs" />
-    <Compile Include="Game\TestMail.cs" />
+    <Compile Include="Game\KeyItem.cs" />
+    <Compile Include="Game\MailItem.cs" />
     <Compile Include="Game\SceneMain.cs" />
     <Compile Include="Game\IScene.cs" />
     <Compile Include="Game\SceneBase.cs" />
@@ -1988,7 +1987,7 @@
     <Content Include="Language\ja-JP\Enemy.xml" />
     <Content Include="Language\en-US\Map.xml" />
     <Content Include="Language\ja-JP\Map.xml" />
-    <Content Include="Language\en-US\TestItem.xml" />
+    <Content Include="Language\en-US\KeyItem.xml" />
     <Content Include="Language\en-US\BBS.xml" />
     <Content Include="Language\en-US\Map\AirCleaner1.xml" />
     <Content Include="Language\en-US\Map\AirCleaner2.xml" />
@@ -2201,7 +2200,7 @@
     <Content Include="Language\en-US\Messages\UNKNOWN1.xml" />
     <Content Include="Language\en-US\Messages\UNKNOWN2.xml" />
     <Content Include="Language\en-US\Messages\UNKNOWN3.xml" />
-    <Content Include="Language\en-US\TestMail.xml" />
+    <Content Include="Language\en-US\Mail.xml" />
     <Content Include="Language\ja-JP\BBS.xml" />
     <Content Include="Language\ja-JP\Map\AirCleaner1.xml" />
     <Content Include="Language\ja-JP\Map\AirCleaner2.xml" />
@@ -2414,8 +2413,8 @@
     <Content Include="Language\ja-JP\Messages\UNKNOWN1.xml" />
     <Content Include="Language\ja-JP\Messages\UNKNOWN2.xml" />
     <Content Include="Language\ja-JP\Messages\UNKNOWN3.xml" />
-    <Content Include="Language\ja-JP\TestItem.xml" />
-    <Content Include="Language\ja-JP\TestMail.xml" />
+    <Content Include="Language\ja-JP\KeyItem.xml" />
+    <Content Include="Language\ja-JP\Mail.xml" />
     <Content Include="ShanghaiEXE\Files\mod\music\MODé╠Ägéóò√.txt" />
     <Content Include="ShanghaiEXE\Files\mod\music\MODé╠Ägéóò√òΓæ½.png" />
     <Content Include="ShanghaiEXE\Files\mod\music\âeâôâvâîü[âg.txt" />

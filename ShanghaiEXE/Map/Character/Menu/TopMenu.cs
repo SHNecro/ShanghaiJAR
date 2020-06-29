@@ -125,10 +125,10 @@ namespace NSMap.Character.Menu
                         this.menu = new Virus(this.sound, this.player, this, this.savedata);
                         break;
                     case TopMenu.TOPMENU.mail:
-                        this.menu = new Mail(this.sound, this.player, this, this.savedata);
+                        this.menu = new MailMenu(this.sound, this.player, this, this.savedata);
                         break;
                     case TopMenu.TOPMENU.keyitem:
-                        this.menu = new KeyItem(this.sound, this.player, this, this.savedata);
+                        this.menu = new KeyItemMenu(this.sound, this.player, this, this.savedata);
                         break;
                     case TopMenu.TOPMENU.network:
                         this.menu = new NetWork(this.sound, this.player, this, this.savedata);

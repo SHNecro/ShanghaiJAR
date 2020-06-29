@@ -9,10 +9,10 @@ using System.Drawing;
 
 namespace NSMap.Character.Menu
 {
-    internal class Mail : MenuBase
+    internal class MailMenu : MenuBase
     {
         private readonly List<NSGame.Mail> mails = new List<NSGame.Mail>();
-        private Mail.SCENE nowscene;
+        private MailMenu.SCENE nowscene;
         private EventManager eventmanager;
         private int cursol;
         private int top;
@@ -35,12 +35,12 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public Mail(IAudioEngine s, Player p, TopMenu t, SaveData save)
+        public MailMenu(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             for (int index = 1; index <= this.savedata.mail.Count; ++index)
             {
-                NSGame.Mail mail = new TestMail(this.savedata.mail[this.savedata.mail.Count - index]);
+                Mail mail = new MailItem(this.savedata.mail[this.savedata.mail.Count - index]);
                 mail.read = this.savedata.mailread[this.savedata.mail.Count - index];
                 this.mails.Add(mail);
             }
@@ -51,15 +51,15 @@ namespace NSMap.Character.Menu
         {
             switch (this.nowscene)
             {
-                case Mail.SCENE.fadein:
+                case MailMenu.SCENE.fadein:
                     if (this.Alpha > 0)
                     {
                         this.Alpha -= 51;
                         break;
                     }
-                    this.nowscene = Mail.SCENE.select;
+                    this.nowscene = MailMenu.SCENE.select;
                     break;
-                case Mail.SCENE.select:
+                case MailMenu.SCENE.select:
                     if (this.eventmanager.playevent)
                         this.eventmanager.UpDate();
                     else
@@ -74,7 +74,7 @@ namespace NSMap.Character.Menu
                         break;
                     this.cursolanime = 0;
                     break;
-                case Mail.SCENE.fadeout:
+                case MailMenu.SCENE.fadeout:
                     if (this.Alpha < byte.MaxValue)
                     {
                         this.Alpha += 51;
@@ -100,7 +100,7 @@ namespace NSMap.Character.Menu
             if (Input.IsPress(Button._B))
             {
                 this.sound.PlaySE(SoundEffect.cancel);
-                this.nowscene = Mail.SCENE.fadeout;
+                this.nowscene = MailMenu.SCENE.fadeout;
             }
             if (this.waittime <= 0)
             {
@@ -191,7 +191,7 @@ namespace NSMap.Character.Menu
                 this._position = new Vector2(48f, 124f);
                 dg.DrawText(dialogue[1], this._position);
             }
-            if (this.nowscene != Mail.SCENE.fadein && this.nowscene != Mail.SCENE.fadeout)
+            if (this.nowscene != MailMenu.SCENE.fadein && this.nowscene != MailMenu.SCENE.fadeout)
                 return;
             Color color = Color.FromArgb(this.Alpha, 0, 0, 0);
             this._rect = new Rectangle(0, 0, 240, 160);

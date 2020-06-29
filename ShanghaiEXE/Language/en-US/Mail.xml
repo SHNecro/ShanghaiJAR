@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Mail.Mail1Title" Value="Net Crime Alert!" Mono="True" />
+  <Text Key="Mail.Mail1Sender" Value="E-News" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue1" Value="Genso Report Network!,Trust GRN with your,morning news!" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue2" Value="Net crime rates have,been on the rise over,the past few days." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue3" Value="It is suspected that a,criminal group called,ROM is involved." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue4" Value="The World Net Police，,NetAgents，and others would,like to keep you informed." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue5" Value="ROM is named after,Read Only Memory." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue6" Value="We’re aware of their activities，,but it seems unlikely that they,will be stopped anytime soon." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue7" Value="Expect tighter security from,NetAgents moving forward" Face="None" Mono="True" />
+  <Text Key="Mail.Mail2Title" Value="Thanks!" Mono="True" />
+  <Text Key="Mail.Mail2Sender" Value="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail2Dialogue1" Value="Thanks for gettin’ Patchouli,for me!,Now I can open the store!" Face="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail2Dialogue2" Value="I’m busy ’til the grand openin’，,so I’ll hafta thank ya in person,later!" Face="Kumami" Mono="True" />
+  <Text Key="Mail.Mail3Title" Value="Apologies" Mono="True" />
+  <Text Key="Mail.Mail3Sender" Value="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue1" Value="Sorry about before.,It’s hard for me to be,honest in person." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue2" Value="Sakuya even scolded me,about it afterwards." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue3" Value="Looking back，I’ve done,some awful things.,I’ll reflect on my actions." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue4" Value="It’s not the most refined,apology，but I’ll give you,my P-Code." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue5" Value="If you’d like to play，please,come over to my house." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue6" Value="We simply must Netbattle,again! Sakuya is looking,forward to it too." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue7" Value="Well then，see you later." Face="Remilia" Mono="True" />
+  <Text Key="Mail.Mail4Title" Value="Re:Your Data" Mono="True" />
+  <Text Key="Mail.Mail4Sender" Value="Dr. Morichika" Mono="True" />
+  <Dialogue Key="Mail.Mail4Dialogue1" Value="Alice，I have several things,I need to tell you about the,data you brought me." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail4Dialogue2" Value="It’s difficult to explain by email.,Sorry to trouble you，but could,you please stop by my lab?" Face="DrMorichika" Mono="True" />
+  <Text Key="Mail.Mail5Title" Value="Grand Opening!" Mono="True" />
+  <Text Key="Mail.Mail5Sender" Value="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail5Dialogue1" Value="The chip shop is now open,next to the Genso Town,metro station!" Face="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail5Dialogue2" Value="From Battle Chips to AddOns，,there’s a lot to see! So come,on by ’n take a look!" Face="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail5Dialogue3" Value="P.S.,Blondie，be sure to drop by,so I can thank ya in person!" Face="Kumami" Mono="True" />
+  <Text Key="Mail.Mail6Title" Value="Re:Style Changes" Mono="True" />
+  <Text Key="Mail.Mail6Sender" Value="Dr. Morichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue1" Value="I will now explain Style,Changes，which can be,acquired through battle." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue2" Value="When you’re in the Custom,Screen，press UP to open,the Style Menu." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue3" Value="You can freely switch,between any Styles that,you’ve acquired." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue4" Value="It’s important to note that you,can only switch to a certain,Style once per battle." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue5" Value="Also，you can change Styles,as often as you want outside,of battle." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue6" Value="It’s possible that you can,acquire new Styles as you,battle!" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue7" Value="Switching your Styles to suit,the situation can give you an,edge in your battles!" Face="DrMorichika" Mono="True" />
+  <Text Key="Mail.Mail7Title" Value="Virus Ball" Mono="True" />
+  <Text Key="Mail.Mail7Sender" Value="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue1" Value="Lady Shanghai，please allow,me to explain how to use,the Virus Ball." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue2" Value="First，as I said earlier，,the Virus Ball is a tool,for catching viruses." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue3" Value="If you land the finishing blow,on a virus with the Virus Ball，,you’ll catch that virus!" Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue4" Value="Caught viruses can be,found in the ”Virus” tab,in the START menu." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue5" Value="There，you can raise your,virus by feeding it various,kinds of frags." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue6" Value="The virus can only eat up,to 50 frags in total." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue7" Value="You can manage viruses,you’ve caught with the,equipment in Alice’s HP." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue8" Value="Please be sure to try,depositing and withdrawing,viruses." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue9" Value="Once you’ve caught a virus，,the Virus Ball chip changes,into a virus summoning chip." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue10" Value="Depositing the virus will,change the chip back to,the Virus Ball." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue11" Value="By the way，each virus can,have a different code." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue12" Value="The same kind of virus might,have different codes，so keep,that in mind!" Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue13" Value="A newly caught virus will,start at Level 1." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue14" Value="So it might be a good idea,to catch weaker viruses." Face="Henchie" Mono="True" />
+  <Text Key="Mail.Mail8Title" Value="Dark Chips" Mono="True" />
+  <Text Key="Mail.Mail8Sender" Value="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue1" Value="Please allow me to briefly,explain Dark Chips." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue2" Value="It seems like your heart is,separated from Alice when,using a Dark Chip." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue3" Value="That said，you’ll return to,normal after you use the,Dark Chip，so don’t worry!" Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue4" Value="Dark Chips shroud your heart，,so you won’t be able to enter,Full Synchro." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue5" Value="If you’re concerned about,other downsides，don’t worry!" Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue6" Value="The only other downside is,that a folder can only hold,one Dark Chip." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue7" Value="That’s everything!,Sorry for the long messages!" Face="Henchie" Mono="True" />
+  <Text Key="Mail.Mail9Title" Value="Do Your Best!" Mono="True" />
+  <Text Key="Mail.Mail9Sender" Value="Tsubaki" Mono="True" />
+  <Dialogue Key="Mail.Mail9Dialogue1" Value="It’s finally time for the,tournament!,See you in the finals!" Face="TsubakiNekku" Mono="True" />
+  <Text Key="Mail.Mail10Title" Value="Good Luck!" Mono="True" />
+  <Text Key="Mail.Mail10Sender" Value="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail10Dialogue1" Value="Good luck in the N1 League!,I’ll be cheering for you!" Face="Tenshi" Mono="True" />
+  <Text Key="Mail.Mail11Title" Value="Fight On!" Mono="True" />
+  <Text Key="Mail.Mail11Sender" Value="Mari" Mono="True" />
+  <Dialogue Key="Mail.Mail11Dialogue1" Value="You’re in the N1 League，,right? I can’t watch，but,I’ll be rootin’ for ya!" Face="Mari" Mono="True" />
+  <Dialogue Key="Mail.Mail11Dialogue2" Value="It’ll be fine!,You’re Alice Shinki!,You got this!" Face="Mari" Mono="True" />
+  <Text Key="Mail.Mail12Title" Value="Support!" Mono="True" />
+  <Text Key="Mail.Mail12Sender" Value="Rika" Mono="True" />
+  <Dialogue Key="Mail.Mail12Dialogue1" Value="Good luck!,I’ll be cheering for you,from home! I will!" Face="Rika" Mono="True" />
+  <Text Key="Mail.Mail13Title" Value="Today Again!" Mono="True" />
+  <Text Key="Mail.Mail13Sender" Value="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail13Dialogue1" Value="Sorry to send you mail so,early in the morning，Alice." Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail13Dialogue2" Value="I have to go to the Agent,Center again this afternoon!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail13Dialogue3" Value="So I guess I’m going,with you again today!" Face="Tenshi" Mono="True" />
+  <Text Key="Mail.Mail14Title" Value="Thanks，Alice" Mono="True" />
+  <Text Key="Mail.Mail14Sender" Value="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue1" Value="I’m sending this from the,hospital." Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue2" Value="After my treatment，I just,have to rest and heal." Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue3" Value="I’m going to be in the hospital,for a week on bed rest." Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue4" Value="But thanks to you，Reimu,and her shrine are okay!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue5" Value="Thank you so much，Alice!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue6" Value="P.S. The hospital is boring，,so I’d love it if you paid me,a visit!" Face="Tenshi" Mono="True" />
+  <Text Key="Mail.Mail15Title" Value="Folder Rules" Mono="True" />
+  <Text Key="Mail.Mail15Sender" Value="Ms. Famous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue1" Value="This email was automatically,sent to those who bought the,Chip Folder Starter Pack!" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue2" Value="I’m Ms. Famous from,the Japan Netbattlers’,Association!" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue3" Value="When you get a chip，you can,add it to a chip folder from,the START menu." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue4" Value="But you can’t put just anything,into a chip folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue5" Value="A standard chip’s size,determines how many,can fit in a chip folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue6" Value="For chips smaller than 19MB，,you can fit 5 into a folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue7" Value="20-29MB，4 per folder.,30-39MB，3 per folder.,40-49MB，2 per folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue8" Value="For chips larger than 50MB，,you can only fit 1 into a folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue9" Value="Since these rules only apply,to chips with the same name，,you can have multiple" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue10" Value="50MB chips with different,names in the same folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue11" Value="However，only 5 blue Navi,chips of any kind are allowed,in a folder." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue12" Value="Those of you with many,NetBattling friends,should memorize this!" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue13" Value="That said，please learn the,rules and enjoy building your,folders!" Face="MsFamous" Mono="True" />
+  <Text Key="Mail.Mail16Title" Value="Fighter Style" Mono="True" />
+  <Text Key="Mail.Mail16Sender" Value="NetherServer" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue1" Value="Fighter Style,Detailed Explanation...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue2" Value="◆ Change Conditions ◆,Use buster,Use breaking chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue3" Value="◆ Special Abilities ◆,Buster power x2,Non-elemental chips +10" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue4" Value="◆ Charge: Fighter Punch ◆,2 panel breaking punch,knocks enemies back" Face="None" Mono="True" />
+  <Text Key="Mail.Mail17Title" Value="Ninja Style" Mono="True" />
+  <Text Key="Mail.Mail17Sender" Value="NetherServer" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue1" Value="Ninja Style,Detailed Explanation...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue2" Value="◆ Change Conditions ◆,End battles quickly,Use sword chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue3" Value="◆ Special Abilities 1 ◆,At MaxCharge，step with chip,Faster movement" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue4" Value="◆ Special Abilities 2 ◆,Swords and charge shot,can reflect enemy attacks" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue5" Value="◆ Charge: Element Sword ◆,Elemental sword with a wide,slash" Face="None" Mono="True" />
+  <Text Key="Mail.Mail18Title" Value="Doc Style" Mono="True" />
+  <Text Key="Mail.Mail18Sender" Value="NetherServer" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue1" Value="Doctor Style,Detailed Explanation...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue2" Value="◆ Change Conditions ◆,Use ADD; Use PAs,Use Power+ chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue3" Value="◆ Special Abilities 1 ◆,Custom +1,Can pick 6 chips per turn" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue4" Value="◆ Special Abilities 2 ◆,Can ADD up to 12 chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue5" Value="◆ Charge: Injection Tray ◆,Inject enemy with your,element’s status" Face="None" Mono="True" />
+  <Text Key="Mail.Mail19Title" Value="Gaia Style" Mono="True" />
+  <Text Key="Mail.Mail19Sender" Value="NetherServer" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue1" Value="Gaia Style,Detailed Explanation...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue2" Value="◆ Change Conditions 1 ◆,Take damage,Use shield chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue3" Value="◆ Change Conditions 2 ◆,Use object chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue4" Value="◆ Special Abilities 1 ◆,Cross-shaped terrain on,first turn" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue5" Value="◆ Special Abilities 2 ◆,Damage while standing,still is halved" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue6" Value="◆ Charge: Element Quake ◆,Quake third panel ahead and,turn into an elemental panel" Face="None" Mono="True" />
+  <Text Key="Mail.Mail20Title" Value="Wing Style" Mono="True" />
+  <Text Key="Mail.Mail20Sender" Value="NetherServer" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue1" Value="Wing Style,Detailed Explanation...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue2" Value="◆ Change Conditions 1 ◆,Move onto elemental panels,Use panel-changing chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue3" Value="◆ Change Conditions 2 ◆,Use panel-cracking chips" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue4" Value="◆Special Abilities 1◆,Unaffected by holes，winds，,and special panels" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue5" Value="◆ Special Abilities 2 ◆,Once per turn，with no chips,left，press A to evade" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue6" Value="◆ Charge: Tornado ◆,8 hits 2 panels ahead!,Improved by sand panels" Face="None" Mono="True" />
+  <Text Key="Mail.Mail21Title" Value="Witch Style" Mono="True" />
+  <Text Key="Mail.Mail21Sender" Value="NetherServer" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue1" Value="Witch Style,Detailed Explanation...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue2" Value="◆ Change Conditions ◆,Use elemental chips,Exploit enemy weakness" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue3" Value="◆ Special Abilities 1 ◆,Elemental chip power +10,Style’s element +10 more" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue4" Value="◆ Special Abilities 2 ◆,x1.5 dmg from weaknesses,Immune to statuses" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue5" Value="◆ Charge: Magic Flame ◆,Magic elemental flame,extends 3 panels ahead" Face="None" Mono="True" />
+  <Text Key="Mail.Mail22Title" Value="Re:Hooded Navis" Mono="True" />
+  <Text Key="Mail.Mail22Sender" Value="Sagume Kishin" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue1" Value="It’s been a while，Alice.,Thank you for your help the,other day." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue2" Value="Your work has helped us get,a grasp on the true identity,of those hooded Navis." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue3" Value="I’ll be conducting a debriefing,on the matter on the second,floor of the Agent Center." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue4" Value="You’re not a NetAgent，but,I’d still like you to participate." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue5" Value="It’s okay if you can’t make it，,but please come to the Agent,Center if you can." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue6" Value="" Face="Sagume" Mono="True" />
+  <Text Key="Mail.Mail23Title" Value="Sorry to bother you" Mono="True" />
+  <Text Key="Mail.Mail23Sender" Value="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail23Dialogue1" Value="Excuse me，Mistress Shanghai.,I have something confidential,for your ears only." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail23Dialogue2" Value="Please come to where we ran,into each other in Undernet 2." Face="Henchie" Mono="True" />
+  <Text Key="Mail.Mail24Title" Value="Thank You" Mono="True" />
+  <Text Key="Mail.Mail24Sender" Value="Engelles Tourism" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue1" Value="Dear Ms. Alice Shinki，,We sincerely thank you for,rescuing Princess Wriggelle." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue2" Value="As thanks for preserving the,friendship between Engelles,and the Insector Kingdom，" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue3" Value="please accept this free,3-month air pass." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue4" Value="You can use this to fly to,Engelles as many times,as you like." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue5" Value="Simply show this email to,customs at the airport." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue6" Value="Please use this email when,you travel to Engelles.,　　　-Engelles Tourism Dept." Face="WhiteHairMaleButler" Mono="True" />
+  <Text Key="Mail.Mail25Title" Value="Siren Suspension" Mono="True" />
+  <Text Key="Mail.Mail25Sender" Value="Genso Tourism" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue1" Value="This mail is being sent,to all customers who were,present on the Siren." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue2" Value="Recently，an intruder,breached ship security and,gained unauthorized access." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue3" Value="The Siren will be out of,service while upgrades are,made to the security system." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue4" Value="Meanwhile，the ship will,remain open to the public,while anchored at port." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue5" Value="Be sure to stop by!,,　　　         -Genso Tourism" Face="FemaleOld" Mono="True" />
+  <Text Key="Mail.Mail26Title" Value="About Shanghai" Mono="True" />
+  <Text Key="Mail.Mail26Sender" Value="Dr. Morichika" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue1" Value="I have something I’d like to,speak with you about，,concerning Shanghai." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue2" Value="As it happens，I am at the,NetAgent center right now." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue3" Value="Would you mind coming by,when you have the chance?" Face="DrMorichika" Mono="True" />
+  <Text Key="Mail.Mail27Title" Value="Surgery" Mono="True" />
+  <Text Key="Mail.Mail27Sender" Value="Koishi Koji" Mono="True" />
+  <Dialogue Key="Mail.Mail27Dialogue1" Value="The surgery will begin,soon! " Face="Koishi" Mono="True" />
+  <Dialogue Key="Mail.Mail27Dialogue2" Value="Would you like to come,by to visit before they,start the surgery?" Face="Koishi" Mono="True" />
+  <Dialogue Key="Mail.Mail27Dialogue3" Value="I’m sure it would mean,a lot to Satori,if you were there!" Face="Koishi" Mono="True" />
+  <Text Key="Mail.Mail28Title" Value="Stay Safe" Mono="True" />
+  <Text Key="Mail.Mail28Sender" Value="Lloyd Shinki" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue1" Value="I heard from your friend,that you went to the,ROM base." Face="Lloyd" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue2" Value="If that’s your decision，,I won’t stop you，but,hope with all my heart" Face="Lloyd" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue3" Value="for both of you to stay,safe. I’m sure you can,do it." Face="Lloyd" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue4" Value="Take this AddOn，may,it serve you well.,I’m sure you can do it!" Face="Lloyd" Mono="True" />
+</data>

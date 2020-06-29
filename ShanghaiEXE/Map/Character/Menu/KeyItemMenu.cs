@@ -8,10 +8,10 @@ using System.Drawing;
 
 namespace NSMap.Character.Menu
 {
-    internal class KeyItem : MenuBase
+    internal class KeyItemMenu : MenuBase
     {
         private readonly List<NSGame.KeyItem> keyitems = new List<NSGame.KeyItem>();
-        private KeyItem.SCENE nowscene;
+        private KeyItemMenu.SCENE nowscene;
         private int cursol;
         private int top;
         private int cursolanime;
@@ -34,11 +34,11 @@ namespace NSMap.Character.Menu
             }
         }
 
-        public KeyItem(IAudioEngine s, Player p, TopMenu t, SaveData save)
+        public KeyItemMenu(IAudioEngine s, Player p, TopMenu t, SaveData save)
           : base(s, p, t, save)
         {
             for (int index = 0; index < this.savedata.keyitem.Count; ++index)
-                this.keyitems.Add(new TestItem(this.savedata.keyitem[index]));
+                this.keyitems.Add(new KeyItem(this.savedata.keyitem[index]));
             if (this.keyitems.Count <= 0)
                 return;
             this.ChangeItem();
@@ -48,15 +48,15 @@ namespace NSMap.Character.Menu
         {
             switch (this.nowscene)
             {
-                case KeyItem.SCENE.fadein:
+                case KeyItemMenu.SCENE.fadein:
                     if (this.Alpha > 0)
                     {
                         this.Alpha -= 51;
                         break;
                     }
-                    this.nowscene = KeyItem.SCENE.select;
+                    this.nowscene = KeyItemMenu.SCENE.select;
                     break;
-                case KeyItem.SCENE.select:
+                case KeyItemMenu.SCENE.select:
                     this.Control();
                     this.FlamePlus();
                     if (this.frame % 10 == 0)
@@ -65,7 +65,7 @@ namespace NSMap.Character.Menu
                         break;
                     this.cursolanime = 0;
                     break;
-                case KeyItem.SCENE.fadeout:
+                case KeyItemMenu.SCENE.fadeout:
                     if (this.Alpha < byte.MaxValue)
                     {
                         this.Alpha += 51;
@@ -87,7 +87,7 @@ namespace NSMap.Character.Menu
             if (Input.IsPress(Button._B))
             {
                 this.sound.PlaySE(SoundEffect.cancel);
-                this.nowscene = KeyItem.SCENE.fadeout;
+                this.nowscene = KeyItemMenu.SCENE.fadeout;
             }
             if (this.waittime <= 0)
             {
@@ -192,7 +192,7 @@ namespace NSMap.Character.Menu
             this._rect = new Rectangle(176, 168, 8, 8);
             this._position = new Vector2(224f, 16f + num);
             dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
-            if (this.nowscene != KeyItem.SCENE.fadein && this.nowscene != KeyItem.SCENE.fadeout)
+            if (this.nowscene != KeyItemMenu.SCENE.fadein && this.nowscene != KeyItemMenu.SCENE.fadeout)
                 return;
             Color color = Color.FromArgb(this.Alpha, 0, 0, 0);
             this._rect = new Rectangle(0, 0, 240, 160);

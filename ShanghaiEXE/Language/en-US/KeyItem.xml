@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="KeyItem.CompressedDataName" Value="Compressed Data" />
+  <Text Key="KeyItem.CompressedDataDescDialogue1" Value="It’s a mysterious data that,was buried in Genso Area." />
+  <Text Key="KeyItem.CompressedDataDescDialogue2" Value="Looks like we need to ask an,expert to check what’s inside." />
+  <Text Key="KeyItem.HeatDataName" Value="Heat Data" />
+  <Text Key="KeyItem.HeatDataDescDialogue1" Value="A copy of the HeatExhaust,data. It can melt cyber ice!,(#v@20# charges left)" />
+  <Text Key="KeyItem.AntiFreezeName" Value="Antifreeze" />
+  <Text Key="KeyItem.AntiFreezeDescDialogue1" Value="A chemical made by Mari,that melts snow and ice.,I wonder what’s in it." />
+  <Text Key="KeyItem.MetroPassName" Value="Metro Pass" />
+  <Text Key="KeyItem.MetroPassDescDialogue1" Value="With this，we can ride the,Linear Metro for free!" />
+  <Text Key="KeyItem.IceCrystalDataName" Value="Ice Crystal Data" />
+  <Text Key="KeyItem.IceCrystalDataDescDialogue1" Value="It’s pretty ice crystal data!,Just looking at it makes me,feel better." />
+  <Text Key="KeyItem.PackageDataName" Value="Package Data" />
+  <Text Key="KeyItem.PackageDataDescDialogue1" Value="It’s a pack of data that our,client wants delivered.,Looks like some Sub Chips." />
+  <Text Key="KeyItem.MariPCodeName" Value="Mari P-Code" />
+  <Text Key="KeyItem.MariPCodeDescDialogue1" Value="The P-Code to Mari’s HP.,It unlocks Mari’s P-Cube." />
+  <Text Key="KeyItem.RemiliaPCodeName" Value="Remilia P-Code" />
+  <Text Key="KeyItem.RemiliaPCodeDescDialogue1" Value="The P-Code to Remilia’s HP.,It unlocks Remilia’s P-Cube." />
+  <Text Key="KeyItem.RikaPCodeName" Value="Rika P-Code" />
+  <Text Key="KeyItem.RikaPCodeDescDialogue1" Value="The P-Code to Rika’s HP.,It unlocks Rika’s P-Cube." />
+  <Text Key="KeyItem.TsubakiPCodeName" Value="Tsubaki P-Code" />
+  <Text Key="KeyItem.TsubakiPCodeDescDialogue1" Value="The P-Code to Tsubaki’s HP.,It unlocks Tsubaki’s P-Cube." />
+  <Text Key="KeyItem.TenshiPCodeName" Value="Tenshi P-Code" />
+  <Text Key="KeyItem.TenshiPCodeDescDialogue1" Value="The P-Code to Tenshi’s HP.,It unlocks Tenshi’s P-Cube." />
+  <Text Key="KeyItem.SpareCodeName" Value="SpareCode" />
+  <Text Key="KeyItem.SpareCodeDescDialogue1" Value="dammy,dammy,dammy" />
+  <Text Key="KeyItem.OldChipDataName" Value="Old Data Chip" />
+  <Text Key="KeyItem.OldChipDataDescDialogue1" Value="It’s an old data chip found,in the park’s sandbox.,I wonder what’s inside." />
+  <Text Key="KeyItem.TeacherIDName" Value="Teacher ID" />
+  <Text Key="KeyItem.TeacherIDDescDialogue1" Value="It’s Ms. Koa’s ID card.,We can use it to access,the school’s network." />
+  <Text Key="KeyItem.CruiseTicketName" Value="Cruise Ticket" />
+  <Text Key="KeyItem.CruiseTicketDescDialogue1" Value="The N1 League prize was a,ticket for a cruise to Engelles,on a luxury cruise liner!" />
+  <Text Key="KeyItem.YinKeyName" Value="Yin Key" />
+  <Text Key="KeyItem.YinKeyDescDialogue1" Value="This black key can open,the Shrine Comp gates!,Works with a YangKey." />
+  <Text Key="KeyItem.YangKeyName" Value="Yang Key" />
+  <Text Key="KeyItem.YangKeyDescDialogue1" Value="This white key can open,the Shrine Comp gates!,Works with a YinKey." />
+  <Text Key="KeyItem.AdminPCodeName" Value="Admin P-Code" />
+  <Text Key="KeyItem.AdminPCodeDescDialogue1" Value="A P-Code to the “Friend Link“,admin area." />
+  <Text Key="KeyItem.SmallParcelName" Value="Small Parcel" />
+  <Text Key="KeyItem.SmallParcelDescDialogue1" Value="A small parcel that our,client gave us. We need,to deliver it quickly." />
+  <!--
+  リグルのペンダント
+  半透明の琥珀のついた
+  きれいな首飾りね
+  琥珀の中に何か
+  入ってるみたいだけど
+  よく見えないわね
+  -->
+  <Text Key="KeyItem.WrigglePendantName" Value="Wriggle’s Pendant" />
+  <Text Key="KeyItem.WrigglePendantDescDialogue1" Value="Translucent amber on,a beautiful necklace" />
+  <Text Key="KeyItem.WrigglePendantDescDialogue2" Value="There's something stuck,in the amber...,I can barely see it." />
+  <!-- 
+  古いＩＤデータ
+  沈没船の電脳の扉を開く
+  ＩＤデータよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.ROMIDName" Value="ROM ID" />
+  <Text Key="KeyItem.ROMIDDescDialogue1" Value="Can be used to open,skull doors across,the Net." />
+  <!-- 
+  プﾘザｰブドフラﾜｰ
+  特殊な加工をした
+  きれいな造花よ
+  いい匂いもするわね
+  -->
+  <Text Key="KeyItem.PreservedFlowerName" Value="Preserved Flowers" />
+  <Text Key="KeyItem.PreservedFlowerDescDialogue1" Value="Flowers that underwent,a special process.,They smell nice." />
+  <!-- 
+  古いキーデータ
+  沈没船の電脳の扉を開く
+  鍵データよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldKeyDataName" Value="Old Key Data" />
+  <Text Key="KeyItem.OldKeyDataDescDialogue1" Value="Key data that opens,a door in a ship's comp.,It looks fragile." />
+  <!-- 
+  古いＩＤデータ
+  沈没船の電脳の扉を開く
+  ＩＤデータよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldIDDataName" Value="Old ID Data" />
+  <Text Key="KeyItem.OldIDDataDescDialogue1" Value="ID data that opens,a door in a ship's comp.,It looks fragile." />
+  <!--
+  古いパスコード
+  沈没船の電脳の扉を開く
+  パスコードよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldPasscodeName" Value="Old Passcode" />
+  <Text Key="KeyItem.OldPasscodeDescDialogue1" Value="A passcode that opens,a door in a ship's comp.,It looks fragile." />
+  <!--
+  転生プログラム
+  スプライトをナビに転生させる
+  今では使われてない
+  特別なプログラムね
+  -->
+  <Text Key="KeyItem.ReincarnationProgramName" Value="Reincarnation Program" />
+  <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="Allows a sprite to be,reborn as a Net Navi.,A special program." />
+</data>

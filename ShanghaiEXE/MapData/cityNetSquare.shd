@@ -119,7 +119,7 @@ msg:Map.CityNetSquareChapter2StationNaviStage3Dialogue1FaceNaviBlueRobot
 msg:Map.CityNetSquareChapter2StationNaviStage3Dialogue2FaceNaviBlueRobot
 msg:Map.CityNetSquareChapter2StationNaviStage3Dialogue3FaceNaviBlueRobot
 EditItem:3:True
-ItemGet:3:8:0:TestItem.MetroPassName
+ItemGet:3:8:0:KeyItem.MetroPassName
 msgclose:
 editValue:3:False:0:0:17
 editFlag:74:True

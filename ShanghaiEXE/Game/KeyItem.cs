@@ -1,17 +1,65 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Collections.Generic;
+using System.Xml;
 
 namespace NSGame
 {
     [Serializable]
-    public class KeyItem
+    internal class KeyItem
     {
+        private static readonly Dictionary<int, KeyItem> KeyItems;
+
         public List<string> info = new List<string>();
         public string name;
 
-        protected void AddTXT(string t)
+        static KeyItem()
         {
-            this.info.Add(t);
+            KeyItems = new Dictionary<int, KeyItem>();
+            LoadKeyItems();
+        }
+
+        public KeyItem(int index)
+        {
+            this.name = KeyItems[index].name;
+            this.info = KeyItems[index].info;
+        }
+
+        private KeyItem(string name, List<string> info)
+        {
+            this.name = name;
+            this.info = info;
+        }
+
+        private static void LoadKeyItems()
+        {
+            var languageDoc = new XmlDocument();
+            languageDoc.Load($"data/data/KeyItems.xml");
+
+            var characterNodes = languageDoc.SelectNodes("data/KeyItem");
+            foreach (XmlNode characterNode in characterNodes)
+            {
+                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+
+                if (index == -1)
+                {
+                    throw new InvalidOperationException("Invalid Key Item index.");
+                }
+
+                var name = ShanghaiEXE.Translate(characterNode?.Attributes["Name"].Value);
+
+                var info = new List<string>();
+                var dialogues = characterNode.ChildNodes;
+                foreach (XmlNode dialogueXml in dialogues)
+                {
+                    var dialogue = ShanghaiEXE.Translate(dialogueXml.Attributes["Key"].Value);
+                    info.Add(dialogue[0]);
+                    info.Add(dialogue[1]);
+                    info.Add(dialogue[2]);
+                }
+
+                KeyItems[index] = new KeyItem(name, info);
+            }
         }
     }
 }

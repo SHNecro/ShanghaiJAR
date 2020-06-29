@@ -139,7 +139,7 @@ msg:Map.RikaHPSpriteStage1Dialogue1FaceSprite
 msg:Map.RikaHPSpriteStage1Dialogue2FaceSprite
 msg:Map.RikaHPSpriteStage1Dialogue3FaceSprite
 EditItem:8:True
-ItemGet:3:8:0:TestItem.RikaPCodeName
+ItemGet:3:8:0:KeyItem.RikaPCodeName
 msgclose:
 editFlag:285:True
 end

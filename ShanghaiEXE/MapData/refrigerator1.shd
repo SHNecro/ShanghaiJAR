@@ -516,7 +516,7 @@ event:
 msgopen:
 msg:Map.Refrigerator1Chapter1Sprite4Stage1Dialogue1FaceSprite
 msg:Map.Refrigerator1Chapter1Sprite4Stage1Dialogue2FaceSprite
-ItemGet:3:8:0:TestItem.HeatDataName
+ItemGet:3:8:0:KeyItem.HeatDataName
 editValue:20:False:0:0:8
 EditItem:1:True
 msg:Map.Refrigerator1Chapter1Sprite4Stage1Dialogue3FaceSprite
@@ -543,7 +543,7 @@ msgopen:
 msg:Map.Refrigerator1Chapter1Sprite4Stage3Dialogue1FaceSprite
 question:Map.Refrigerator1Chapter1Sprite4Stage3Dialogue2QuestionFaceSprite:Map.Refrigerator1Chapter1Sprite4Stage3Dialogue2Options
 BranchHead:0
-ItemGet:3:8:0:TestItem.HeatDataName
+ItemGet:3:8:0:KeyItem.HeatDataName
 editValue:20:False:0:0:8
 editFlag:40:False
 editFlag:41:False

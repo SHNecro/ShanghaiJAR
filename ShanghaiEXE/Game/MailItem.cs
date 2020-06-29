@@ -6,13 +6,13 @@ using System.Xml;
 namespace NSGame
 {
     [Serializable]
-    internal class TestMail : Mail
+    internal class MailItem : Mail
     {
-        private static readonly Dictionary<int, TestMail> Mail;
+        private static readonly Dictionary<int, Mail> Mail;
 
-        static TestMail()
+        static MailItem()
         {
-            Mail = new Dictionary<int, TestMail>();
+            Mail = new Dictionary<int, Mail>();
             LoadMail();
         }
 
@@ -43,18 +43,18 @@ namespace NSGame
                     dialogues.Add(ShanghaiEXE.Translate(dialogueXml.Attributes["Key"].Value));
                 }
 
-                Mail[index] = new TestMail(subject, sender, dialogues);
+                Mail[index] = new MailItem(subject, sender, dialogues);
             }
         }
 
-        public TestMail(int number)
+        public MailItem(int number)
         {
             this.title = Mail[number].title;
             this.parson = Mail[number].parson;
             this.txt = Mail[number].txt;
         }
 
-        private TestMail(string subject, string sender, List<Dialogue> dialogues)
+        private MailItem(string subject, string sender, List<Dialogue> dialogues)
         {
             this.title = subject;
             this.parson = sender;

@@ -1410,7 +1410,7 @@ msg:Map.Refrigerator2IceCrystalDataStage1Dialogue2FaceShanghai
 msg:Map.Refrigerator2IceCrystalDataStage1Dialogue3FaceAlice
 msg:Map.Refrigerator2IceCrystalDataStage1Dialogue4FaceShanghai
 editFlag:86:True
-ItemGet:3:8:0:TestItem.IceCrystalDataName
+ItemGet:3:8:0:KeyItem.IceCrystalDataName
 EditItem:4:True
 msgclose:
 editValue:4:False:0:0:8

@@ -115,7 +115,7 @@ hitrange:8:8:8:8
 hitform:square
 event:
 EditItem:15:True
-ItemGet:3:8:0:TestItem.YinKeyName
+ItemGet:3:8:0:KeyItem.YinKeyName
 editFlag:273:True
 end
 page:2
@@ -154,7 +154,7 @@ hitrange:8:8:8:8
 hitform:square
 event:
 EditItem:16:True
-ItemGet:3:8:0:TestItem.YangKeyName
+ItemGet:3:8:0:KeyItem.YangKeyName
 editFlag:274:True
 end
 page:2

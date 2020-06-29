@@ -1,195 +1,195 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <Mail Index="0" Subject="TestMail.Mail1Title" Sender="TestMail.Mail1Sender">
-    <Dialogue Key="TestMail.Mail1Dialogue1" />
-    <Dialogue Key="TestMail.Mail1Dialogue2" />
-    <Dialogue Key="TestMail.Mail1Dialogue3" />
-    <Dialogue Key="TestMail.Mail1Dialogue4" />
-    <Dialogue Key="TestMail.Mail1Dialogue5" />
-    <Dialogue Key="TestMail.Mail1Dialogue6" />
-    <Dialogue Key="TestMail.Mail1Dialogue7" />
+  <Mail Index="0" Subject="Mail.Mail1Title" Sender="Mail.Mail1Sender">
+    <Dialogue Key="Mail.Mail1Dialogue1" />
+    <Dialogue Key="Mail.Mail1Dialogue2" />
+    <Dialogue Key="Mail.Mail1Dialogue3" />
+    <Dialogue Key="Mail.Mail1Dialogue4" />
+    <Dialogue Key="Mail.Mail1Dialogue5" />
+    <Dialogue Key="Mail.Mail1Dialogue6" />
+    <Dialogue Key="Mail.Mail1Dialogue7" />
   </Mail>
-  <Mail Index="1" Subject="TestMail.Mail2Title" Sender="TestMail.Mail2Sender">
-    <Dialogue Key="TestMail.Mail2Dialogue1" />
-    <Dialogue Key="TestMail.Mail2Dialogue2" />
+  <Mail Index="1" Subject="Mail.Mail2Title" Sender="Mail.Mail2Sender">
+    <Dialogue Key="Mail.Mail2Dialogue1" />
+    <Dialogue Key="Mail.Mail2Dialogue2" />
   </Mail>
-  <Mail Index="2" Subject="TestMail.Mail3Title" Sender="TestMail.Mail3Sender">
-    <Dialogue Key="TestMail.Mail3Dialogue1" />
-    <Dialogue Key="TestMail.Mail3Dialogue2" />
-    <Dialogue Key="TestMail.Mail3Dialogue3" />
-    <Dialogue Key="TestMail.Mail3Dialogue4" />
-    <Dialogue Key="TestMail.Mail3Dialogue5" />
-    <Dialogue Key="TestMail.Mail3Dialogue6" />
-    <Dialogue Key="TestMail.Mail3Dialogue7" />
+  <Mail Index="2" Subject="Mail.Mail3Title" Sender="Mail.Mail3Sender">
+    <Dialogue Key="Mail.Mail3Dialogue1" />
+    <Dialogue Key="Mail.Mail3Dialogue2" />
+    <Dialogue Key="Mail.Mail3Dialogue3" />
+    <Dialogue Key="Mail.Mail3Dialogue4" />
+    <Dialogue Key="Mail.Mail3Dialogue5" />
+    <Dialogue Key="Mail.Mail3Dialogue6" />
+    <Dialogue Key="Mail.Mail3Dialogue7" />
   </Mail>
-  <Mail Index="3" Subject="TestMail.Mail4Title" Sender="TestMail.Mail4Sender">
-    <Dialogue Key="TestMail.Mail4Dialogue1" />
-    <Dialogue Key="TestMail.Mail4Dialogue2" />
+  <Mail Index="3" Subject="Mail.Mail4Title" Sender="Mail.Mail4Sender">
+    <Dialogue Key="Mail.Mail4Dialogue1" />
+    <Dialogue Key="Mail.Mail4Dialogue2" />
   </Mail>
-  <Mail Index="4" Subject="TestMail.Mail5Title" Sender="TestMail.Mail5Sender">
-    <Dialogue Key="TestMail.Mail5Dialogue1" />
-    <Dialogue Key="TestMail.Mail5Dialogue2" />
-    <Dialogue Key="TestMail.Mail5Dialogue3" />
+  <Mail Index="4" Subject="Mail.Mail5Title" Sender="Mail.Mail5Sender">
+    <Dialogue Key="Mail.Mail5Dialogue1" />
+    <Dialogue Key="Mail.Mail5Dialogue2" />
+    <Dialogue Key="Mail.Mail5Dialogue3" />
   </Mail>
-  <Mail Index="5" Subject="TestMail.Mail6Title" Sender="TestMail.Mail6Sender">
-    <Dialogue Key="TestMail.Mail6Dialogue1" />
-    <Dialogue Key="TestMail.Mail6Dialogue2" />
-    <Dialogue Key="TestMail.Mail6Dialogue3" />
-    <Dialogue Key="TestMail.Mail6Dialogue4" />
-    <Dialogue Key="TestMail.Mail6Dialogue5" />
-    <Dialogue Key="TestMail.Mail6Dialogue6" />
-    <Dialogue Key="TestMail.Mail6Dialogue7" />
+  <Mail Index="5" Subject="Mail.Mail6Title" Sender="Mail.Mail6Sender">
+    <Dialogue Key="Mail.Mail6Dialogue1" />
+    <Dialogue Key="Mail.Mail6Dialogue2" />
+    <Dialogue Key="Mail.Mail6Dialogue3" />
+    <Dialogue Key="Mail.Mail6Dialogue4" />
+    <Dialogue Key="Mail.Mail6Dialogue5" />
+    <Dialogue Key="Mail.Mail6Dialogue6" />
+    <Dialogue Key="Mail.Mail6Dialogue7" />
   </Mail>
-  <Mail Index="6" Subject="TestMail.Mail7Title" Sender="TestMail.Mail7Sender">
-    <Dialogue Key="TestMail.Mail7Dialogue1" />
-    <Dialogue Key="TestMail.Mail7Dialogue2" />
-    <Dialogue Key="TestMail.Mail7Dialogue3" />
-    <Dialogue Key="TestMail.Mail7Dialogue4" />
-    <Dialogue Key="TestMail.Mail7Dialogue5" />
-    <Dialogue Key="TestMail.Mail7Dialogue6" />
-    <Dialogue Key="TestMail.Mail7Dialogue7" />
-    <Dialogue Key="TestMail.Mail7Dialogue8" />
-    <Dialogue Key="TestMail.Mail7Dialogue9" />
-    <Dialogue Key="TestMail.Mail7Dialogue10" />
-    <Dialogue Key="TestMail.Mail7Dialogue11" />
-    <Dialogue Key="TestMail.Mail7Dialogue12" />
-    <Dialogue Key="TestMail.Mail7Dialogue13" />
-    <Dialogue Key="TestMail.Mail7Dialogue14" />
+  <Mail Index="6" Subject="Mail.Mail7Title" Sender="Mail.Mail7Sender">
+    <Dialogue Key="Mail.Mail7Dialogue1" />
+    <Dialogue Key="Mail.Mail7Dialogue2" />
+    <Dialogue Key="Mail.Mail7Dialogue3" />
+    <Dialogue Key="Mail.Mail7Dialogue4" />
+    <Dialogue Key="Mail.Mail7Dialogue5" />
+    <Dialogue Key="Mail.Mail7Dialogue6" />
+    <Dialogue Key="Mail.Mail7Dialogue7" />
+    <Dialogue Key="Mail.Mail7Dialogue8" />
+    <Dialogue Key="Mail.Mail7Dialogue9" />
+    <Dialogue Key="Mail.Mail7Dialogue10" />
+    <Dialogue Key="Mail.Mail7Dialogue11" />
+    <Dialogue Key="Mail.Mail7Dialogue12" />
+    <Dialogue Key="Mail.Mail7Dialogue13" />
+    <Dialogue Key="Mail.Mail7Dialogue14" />
   </Mail>
-  <Mail Index="7" Subject="TestMail.Mail8Title" Sender="TestMail.Mail8Sender">
-    <Dialogue Key="TestMail.Mail8Dialogue1" />
-    <Dialogue Key="TestMail.Mail8Dialogue2" />
-    <Dialogue Key="TestMail.Mail8Dialogue3" />
-    <Dialogue Key="TestMail.Mail8Dialogue4" />
-    <Dialogue Key="TestMail.Mail8Dialogue5" />
-    <Dialogue Key="TestMail.Mail8Dialogue6" />
-    <Dialogue Key="TestMail.Mail8Dialogue7" />
+  <Mail Index="7" Subject="Mail.Mail8Title" Sender="Mail.Mail8Sender">
+    <Dialogue Key="Mail.Mail8Dialogue1" />
+    <Dialogue Key="Mail.Mail8Dialogue2" />
+    <Dialogue Key="Mail.Mail8Dialogue3" />
+    <Dialogue Key="Mail.Mail8Dialogue4" />
+    <Dialogue Key="Mail.Mail8Dialogue5" />
+    <Dialogue Key="Mail.Mail8Dialogue6" />
+    <Dialogue Key="Mail.Mail8Dialogue7" />
   </Mail>
-  <Mail Index="8" Subject="TestMail.Mail9Title" Sender="TestMail.Mail9Sender">
-    <Dialogue Key="TestMail.Mail9Dialogue1" />
+  <Mail Index="8" Subject="Mail.Mail9Title" Sender="Mail.Mail9Sender">
+    <Dialogue Key="Mail.Mail9Dialogue1" />
   </Mail>
-  <Mail Index="9" Subject="TestMail.Mail10Title" Sender="TestMail.Mail10Sender">
-    <Dialogue Key="TestMail.Mail10Dialogue1" />
+  <Mail Index="9" Subject="Mail.Mail10Title" Sender="Mail.Mail10Sender">
+    <Dialogue Key="Mail.Mail10Dialogue1" />
   </Mail>
-  <Mail Index="10" Subject="TestMail.Mail11Title" Sender="TestMail.Mail11Sender">
-    <Dialogue Key="TestMail.Mail11Dialogue1" />
-    <Dialogue Key="TestMail.Mail11Dialogue2" />
+  <Mail Index="10" Subject="Mail.Mail11Title" Sender="Mail.Mail11Sender">
+    <Dialogue Key="Mail.Mail11Dialogue1" />
+    <Dialogue Key="Mail.Mail11Dialogue2" />
   </Mail>
-  <Mail Index="11" Subject="TestMail.Mail12Title" Sender="TestMail.Mail12Sender">
-    <Dialogue Key="TestMail.Mail12Dialogue1" />
+  <Mail Index="11" Subject="Mail.Mail12Title" Sender="Mail.Mail12Sender">
+    <Dialogue Key="Mail.Mail12Dialogue1" />
   </Mail>
-  <Mail Index="12" Subject="TestMail.Mail13Title" Sender="TestMail.Mail13Sender">
-    <Dialogue Key="TestMail.Mail13Dialogue1" />
-    <Dialogue Key="TestMail.Mail13Dialogue2" />
-    <Dialogue Key="TestMail.Mail13Dialogue3" />
+  <Mail Index="12" Subject="Mail.Mail13Title" Sender="Mail.Mail13Sender">
+    <Dialogue Key="Mail.Mail13Dialogue1" />
+    <Dialogue Key="Mail.Mail13Dialogue2" />
+    <Dialogue Key="Mail.Mail13Dialogue3" />
   </Mail>
-  <Mail Index="13" Subject="TestMail.Mail14Title" Sender="TestMail.Mail14Sender">
-    <Dialogue Key="TestMail.Mail14Dialogue1" />
-    <Dialogue Key="TestMail.Mail14Dialogue2" />
-    <Dialogue Key="TestMail.Mail14Dialogue3" />
-    <Dialogue Key="TestMail.Mail14Dialogue4" />
-    <Dialogue Key="TestMail.Mail14Dialogue5" />
-    <Dialogue Key="TestMail.Mail14Dialogue6" />
+  <Mail Index="13" Subject="Mail.Mail14Title" Sender="Mail.Mail14Sender">
+    <Dialogue Key="Mail.Mail14Dialogue1" />
+    <Dialogue Key="Mail.Mail14Dialogue2" />
+    <Dialogue Key="Mail.Mail14Dialogue3" />
+    <Dialogue Key="Mail.Mail14Dialogue4" />
+    <Dialogue Key="Mail.Mail14Dialogue5" />
+    <Dialogue Key="Mail.Mail14Dialogue6" />
   </Mail>
-  <Mail Index="14" Subject="TestMail.Mail15Title" Sender="TestMail.Mail15Sender">
-    <Dialogue Key="TestMail.Mail15Dialogue1" />
-    <Dialogue Key="TestMail.Mail15Dialogue2" />
-    <Dialogue Key="TestMail.Mail15Dialogue3" />
-    <Dialogue Key="TestMail.Mail15Dialogue4" />
-    <Dialogue Key="TestMail.Mail15Dialogue5" />
-    <Dialogue Key="TestMail.Mail15Dialogue6" />
-    <Dialogue Key="TestMail.Mail15Dialogue7" />
-    <Dialogue Key="TestMail.Mail15Dialogue8" />
-    <Dialogue Key="TestMail.Mail15Dialogue9" />
-    <Dialogue Key="TestMail.Mail15Dialogue10" />
-    <Dialogue Key="TestMail.Mail15Dialogue11" />
-    <Dialogue Key="TestMail.Mail15Dialogue12" />
-    <Dialogue Key="TestMail.Mail15Dialogue13" />
+  <Mail Index="14" Subject="Mail.Mail15Title" Sender="Mail.Mail15Sender">
+    <Dialogue Key="Mail.Mail15Dialogue1" />
+    <Dialogue Key="Mail.Mail15Dialogue2" />
+    <Dialogue Key="Mail.Mail15Dialogue3" />
+    <Dialogue Key="Mail.Mail15Dialogue4" />
+    <Dialogue Key="Mail.Mail15Dialogue5" />
+    <Dialogue Key="Mail.Mail15Dialogue6" />
+    <Dialogue Key="Mail.Mail15Dialogue7" />
+    <Dialogue Key="Mail.Mail15Dialogue8" />
+    <Dialogue Key="Mail.Mail15Dialogue9" />
+    <Dialogue Key="Mail.Mail15Dialogue10" />
+    <Dialogue Key="Mail.Mail15Dialogue11" />
+    <Dialogue Key="Mail.Mail15Dialogue12" />
+    <Dialogue Key="Mail.Mail15Dialogue13" />
   </Mail>
-  <Mail Index="15" Subject="TestMail.Mail16Title" Sender="TestMail.Mail16Sender">
-    <Dialogue Key="TestMail.Mail16Dialogue1" />
-    <Dialogue Key="TestMail.Mail16Dialogue2" />
-    <Dialogue Key="TestMail.Mail16Dialogue3" />
-    <Dialogue Key="TestMail.Mail16Dialogue4" />
+  <Mail Index="15" Subject="Mail.Mail16Title" Sender="Mail.Mail16Sender">
+    <Dialogue Key="Mail.Mail16Dialogue1" />
+    <Dialogue Key="Mail.Mail16Dialogue2" />
+    <Dialogue Key="Mail.Mail16Dialogue3" />
+    <Dialogue Key="Mail.Mail16Dialogue4" />
   </Mail>
-  <Mail Index="16" Subject="TestMail.Mail17Title" Sender="TestMail.Mail17Sender">
-    <Dialogue Key="TestMail.Mail17Dialogue1" />
-    <Dialogue Key="TestMail.Mail17Dialogue2" />
-    <Dialogue Key="TestMail.Mail17Dialogue3" />
-    <Dialogue Key="TestMail.Mail17Dialogue4" />
-    <Dialogue Key="TestMail.Mail17Dialogue5" />
+  <Mail Index="16" Subject="Mail.Mail17Title" Sender="Mail.Mail17Sender">
+    <Dialogue Key="Mail.Mail17Dialogue1" />
+    <Dialogue Key="Mail.Mail17Dialogue2" />
+    <Dialogue Key="Mail.Mail17Dialogue3" />
+    <Dialogue Key="Mail.Mail17Dialogue4" />
+    <Dialogue Key="Mail.Mail17Dialogue5" />
   </Mail>
-  <Mail Index="17" Subject="TestMail.Mail18Title" Sender="TestMail.Mail18Sender">
-    <Dialogue Key="TestMail.Mail18Dialogue1" />
-    <Dialogue Key="TestMail.Mail18Dialogue2" />
-    <Dialogue Key="TestMail.Mail18Dialogue3" />
-    <Dialogue Key="TestMail.Mail18Dialogue4" />
-    <Dialogue Key="TestMail.Mail18Dialogue5" />
+  <Mail Index="17" Subject="Mail.Mail18Title" Sender="Mail.Mail18Sender">
+    <Dialogue Key="Mail.Mail18Dialogue1" />
+    <Dialogue Key="Mail.Mail18Dialogue2" />
+    <Dialogue Key="Mail.Mail18Dialogue3" />
+    <Dialogue Key="Mail.Mail18Dialogue4" />
+    <Dialogue Key="Mail.Mail18Dialogue5" />
   </Mail>
-  <Mail Index="18" Subject="TestMail.Mail19Title" Sender="TestMail.Mail19Sender">
-    <Dialogue Key="TestMail.Mail19Dialogue1" />
-    <Dialogue Key="TestMail.Mail19Dialogue2" />
-    <Dialogue Key="TestMail.Mail19Dialogue3" />
-    <Dialogue Key="TestMail.Mail19Dialogue4" />
-    <Dialogue Key="TestMail.Mail19Dialogue5" />
-    <Dialogue Key="TestMail.Mail19Dialogue6" />
+  <Mail Index="18" Subject="Mail.Mail19Title" Sender="Mail.Mail19Sender">
+    <Dialogue Key="Mail.Mail19Dialogue1" />
+    <Dialogue Key="Mail.Mail19Dialogue2" />
+    <Dialogue Key="Mail.Mail19Dialogue3" />
+    <Dialogue Key="Mail.Mail19Dialogue4" />
+    <Dialogue Key="Mail.Mail19Dialogue5" />
+    <Dialogue Key="Mail.Mail19Dialogue6" />
   </Mail>
-  <Mail Index="19" Subject="TestMail.Mail20Title" Sender="TestMail.Mail20Sender">
-    <Dialogue Key="TestMail.Mail20Dialogue1" />
-    <Dialogue Key="TestMail.Mail20Dialogue2" />
-    <Dialogue Key="TestMail.Mail20Dialogue3" />
-    <Dialogue Key="TestMail.Mail20Dialogue4" />
-    <Dialogue Key="TestMail.Mail20Dialogue5" />
-    <Dialogue Key="TestMail.Mail20Dialogue6" />
+  <Mail Index="19" Subject="Mail.Mail20Title" Sender="Mail.Mail20Sender">
+    <Dialogue Key="Mail.Mail20Dialogue1" />
+    <Dialogue Key="Mail.Mail20Dialogue2" />
+    <Dialogue Key="Mail.Mail20Dialogue3" />
+    <Dialogue Key="Mail.Mail20Dialogue4" />
+    <Dialogue Key="Mail.Mail20Dialogue5" />
+    <Dialogue Key="Mail.Mail20Dialogue6" />
   </Mail>
-  <Mail Index="20" Subject="TestMail.Mail21Title" Sender="TestMail.Mail21Sender">
-    <Dialogue Key="TestMail.Mail21Dialogue1" />
-    <Dialogue Key="TestMail.Mail21Dialogue2" />
-    <Dialogue Key="TestMail.Mail21Dialogue3" />
-    <Dialogue Key="TestMail.Mail21Dialogue4" />
-    <Dialogue Key="TestMail.Mail21Dialogue5" />
+  <Mail Index="20" Subject="Mail.Mail21Title" Sender="Mail.Mail21Sender">
+    <Dialogue Key="Mail.Mail21Dialogue1" />
+    <Dialogue Key="Mail.Mail21Dialogue2" />
+    <Dialogue Key="Mail.Mail21Dialogue3" />
+    <Dialogue Key="Mail.Mail21Dialogue4" />
+    <Dialogue Key="Mail.Mail21Dialogue5" />
   </Mail>
-  <Mail Index="21" Subject="TestMail.Mail22Title" Sender="TestMail.Mail22Sender">
-    <Dialogue Key="TestMail.Mail22Dialogue1" />
-    <Dialogue Key="TestMail.Mail22Dialogue2" />
-    <Dialogue Key="TestMail.Mail22Dialogue3" />
-    <Dialogue Key="TestMail.Mail22Dialogue4" />
-    <Dialogue Key="TestMail.Mail22Dialogue5" />
-    <Dialogue Key="TestMail.Mail22Dialogue6" />
+  <Mail Index="21" Subject="Mail.Mail22Title" Sender="Mail.Mail22Sender">
+    <Dialogue Key="Mail.Mail22Dialogue1" />
+    <Dialogue Key="Mail.Mail22Dialogue2" />
+    <Dialogue Key="Mail.Mail22Dialogue3" />
+    <Dialogue Key="Mail.Mail22Dialogue4" />
+    <Dialogue Key="Mail.Mail22Dialogue5" />
+    <Dialogue Key="Mail.Mail22Dialogue6" />
   </Mail>
-  <Mail Index="22" Subject="TestMail.Mail23Title" Sender="TestMail.Mail23Sender">
-    <Dialogue Key="TestMail.Mail23Dialogue1" />
-    <Dialogue Key="TestMail.Mail23Dialogue2" />
+  <Mail Index="22" Subject="Mail.Mail23Title" Sender="Mail.Mail23Sender">
+    <Dialogue Key="Mail.Mail23Dialogue1" />
+    <Dialogue Key="Mail.Mail23Dialogue2" />
   </Mail>
-  <Mail Index="23" Subject="TestMail.Mail24Title" Sender="TestMail.Mail24Sender">
-    <Dialogue Key="TestMail.Mail24Dialogue1" />
-    <Dialogue Key="TestMail.Mail24Dialogue2" />
-    <Dialogue Key="TestMail.Mail24Dialogue3" />
-    <Dialogue Key="TestMail.Mail24Dialogue4" />
-    <Dialogue Key="TestMail.Mail24Dialogue5" />
-    <Dialogue Key="TestMail.Mail24Dialogue6" />
+  <Mail Index="23" Subject="Mail.Mail24Title" Sender="Mail.Mail24Sender">
+    <Dialogue Key="Mail.Mail24Dialogue1" />
+    <Dialogue Key="Mail.Mail24Dialogue2" />
+    <Dialogue Key="Mail.Mail24Dialogue3" />
+    <Dialogue Key="Mail.Mail24Dialogue4" />
+    <Dialogue Key="Mail.Mail24Dialogue5" />
+    <Dialogue Key="Mail.Mail24Dialogue6" />
   </Mail>
-  <Mail Index="24" Subject="TestMail.Mail25Title" Sender="TestMail.Mail25Sender">
-    <Dialogue Key="TestMail.Mail25Dialogue1" />
-    <Dialogue Key="TestMail.Mail25Dialogue2" />
-    <Dialogue Key="TestMail.Mail25Dialogue3" />
-    <Dialogue Key="TestMail.Mail25Dialogue4" />
-    <Dialogue Key="TestMail.Mail25Dialogue5" />
+  <Mail Index="24" Subject="Mail.Mail25Title" Sender="Mail.Mail25Sender">
+    <Dialogue Key="Mail.Mail25Dialogue1" />
+    <Dialogue Key="Mail.Mail25Dialogue2" />
+    <Dialogue Key="Mail.Mail25Dialogue3" />
+    <Dialogue Key="Mail.Mail25Dialogue4" />
+    <Dialogue Key="Mail.Mail25Dialogue5" />
   </Mail>
-  <Mail Index="25" Subject="TestMail.Mail26Title" Sender="TestMail.Mail26Sender">
-    <Dialogue Key="TestMail.Mail26Dialogue1" />
-    <Dialogue Key="TestMail.Mail26Dialogue2" />
-    <Dialogue Key="TestMail.Mail26Dialogue3" />
+  <Mail Index="25" Subject="Mail.Mail26Title" Sender="Mail.Mail26Sender">
+    <Dialogue Key="Mail.Mail26Dialogue1" />
+    <Dialogue Key="Mail.Mail26Dialogue2" />
+    <Dialogue Key="Mail.Mail26Dialogue3" />
   </Mail>
-  <Mail Index="26" Subject="TestMail.Mail27Title" Sender="TestMail.Mail27Sender">
-    <Dialogue Key="TestMail.Mail27Dialogue1" />
-    <Dialogue Key="TestMail.Mail27Dialogue2" />
-    <Dialogue Key="TestMail.Mail27Dialogue3" />
+  <Mail Index="26" Subject="Mail.Mail27Title" Sender="Mail.Mail27Sender">
+    <Dialogue Key="Mail.Mail27Dialogue1" />
+    <Dialogue Key="Mail.Mail27Dialogue2" />
+    <Dialogue Key="Mail.Mail27Dialogue3" />
   </Mail>
-  <Mail Index="27" Subject="TestMail.Mail28Title" Sender="TestMail.Mail28Sender">
-    <Dialogue Key="TestMail.Mail28Dialogue1" />
-    <Dialogue Key="TestMail.Mail28Dialogue2" />
-    <Dialogue Key="TestMail.Mail28Dialogue3" />
-    <Dialogue Key="TestMail.Mail28Dialogue4" />
+  <Mail Index="27" Subject="Mail.Mail28Title" Sender="Mail.Mail28Sender">
+    <Dialogue Key="Mail.Mail28Dialogue1" />
+    <Dialogue Key="Mail.Mail28Dialogue2" />
+    <Dialogue Key="Mail.Mail28Dialogue3" />
+    <Dialogue Key="Mail.Mail28Dialogue4" />
   </Mail>
 </data>

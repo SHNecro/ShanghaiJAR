@@ -143,7 +143,7 @@ ItemGet:2:54:0:
 ItemGet:3:8:50000:
 ItemGet:3:4:1:
 msg:Map.HosTVRequestRehabilitationStage3Dialogue3FaceNaviBlueRobot
-ItemGet:3:8:0:TestItem.ROMIDName
+ItemGet:3:8:0:KeyItem.ROMIDName
 EditItem:20:True
 msg:Map.HosTVRequestRehabilitationStage3Dialogue4FaceNaviBlueRobot
 msg:Map.HosTVRequestRehabilitationStage3Dialogue5FaceNaviBlueRobot
