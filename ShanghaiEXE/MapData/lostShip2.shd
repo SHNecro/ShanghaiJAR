@@ -248,7 +248,7 @@ msgopen:
 msg:Map.LostShip2Sprite1AStage1Dialogue1FaceSprite
 msg:Map.LostShip2Sprite1AStage1Dialogue2FaceSprite
 EditItem:22:True
-ItemGet:3:8:0:Map.ItemOldKeyDataName
+ItemGet:3:8:0:TestItem.OldKeyDataName
 msg:Map.LostShip2Sprite1AStage1Dialogue3FaceSprite
 msgclose:
 editFlag:703:True
@@ -298,7 +298,7 @@ msgopen:
 msg:Map.LostShip2Sprite2AStage1Dialogue1FaceSprite
 msg:Map.LostShip2Sprite2AStage1Dialogue2FaceSprite
 EditItem:23:True
-ItemGet:3:8:0:Map.ItemOldIDDataName
+ItemGet:3:8:0:TestItem.OldIDDataName
 msg:Map.LostShip2Sprite2AStage1Dialogue3FaceSprite
 msgclose:
 editFlag:705:True
@@ -348,7 +348,7 @@ msgopen:
 msg:Map.LostShip2Sprite3AStage1Dialogue1FaceSprite
 msg:Map.LostShip2Sprite3AStage1Dialogue2FaceSprite
 EditItem:24:True
-ItemGet:3:8:0:Map.ItemOldPasscodeName
+ItemGet:3:8:0:TestItem.OldPasscodeName
 msg:Map.LostShip2Sprite3AStage1Dialogue3FaceSprite
 msgclose:
 editFlag:707:True
@@ -787,7 +787,7 @@ msgclose:
 emove:プレイヤー:up,16:wait,0
 emoveEnd:
 EditItem:25:True
-ItemGet:3:8:0:Map.ItemReincarnationProgramName
+ItemGet:3:8:0:TestItem.ReincarnationProgramName
 editFlag:709:True
 Facehere:
 msgopen:

@@ -15,6 +15,32 @@
                 <TabItem.Style>
                     <Style TargetType="TabItem">
                         <Style.Triggers>
+                            <DataTrigger Binding="{Binding KeyItemDataViewModel.IsDirty}" Value="True">
+                                <Setter Property="Header" Value="Key Items*" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                        <Setter Property="Header" Value="Key Items" />
+                    </Style>
+                </TabItem.Style>
+                <local:KeyItemDataView DataContext="{Binding KeyItemDataViewModel}" />
+            </TabItem>
+            <TabItem>
+                <TabItem.Style>
+                    <Style TargetType="TabItem">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding MailDataViewModel.IsDirty}" Value="True">
+                                <Setter Property="Header" Value="Mail*" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                        <Setter Property="Header" Value="Mail" />
+                    </Style>
+                </TabItem.Style>
+                <local:MailDataView DataContext="{Binding MailDataViewModel}" />
+            </TabItem>
+            <TabItem>
+                <TabItem.Style>
+                    <Style TargetType="TabItem">
+                        <Style.Triggers>
                             <DataTrigger Binding="{Binding CharacterInfoDataViewModel.IsDirty}" Value="True">
                                 <Setter Property="Header" Value="CharacterInfo*" />
                             </DataTrigger>

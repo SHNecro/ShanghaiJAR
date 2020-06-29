@@ -247,15 +247,59 @@
                                                                                         </MultiDataTrigger.Conditions>
                                                                                         <Setter Property="Content">
                                                                                             <Setter.Value>
-                                                                                                <controls:WheelCaptureIntegerUpDown Minimum="1" DefaultValue="1" Height="22">
-                                                                                                    <controls:WheelCaptureIntegerUpDown.Text>
-                                                                                                        <Binding Path="Data" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                                                                                                            <Binding.ValidationRules>
-                                                                                                                <validationrules:MinMaxValidationRule Minimum="1" ValidationStep="RawProposedValue"/>
-                                                                                                            </Binding.ValidationRules>
-                                                                                                        </Binding>
-                                                                                                    </controls:WheelCaptureIntegerUpDown.Text>
-                                                                                                </controls:WheelCaptureIntegerUpDown>
+                                                                                                <Grid>
+                                                                                                    <Grid.ColumnDefinitions>
+                                                                                                        <ColumnDefinition Width="*" />
+                                                                                                        <ColumnDefinition Width="Auto" />
+                                                                                                    </Grid.ColumnDefinitions>
+                                                                                                    
+                                                                                                    <controls:WheelCaptureIntegerUpDown Grid.Column="0" Minimum="1" DefaultValue="1" Height="22">
+                                                                                                        <controls:WheelCaptureIntegerUpDown.Text>
+                                                                                                            <Binding Path="Data" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                                                                                                <Binding.ValidationRules>
+                                                                                                                    <validationrules:MinMaxValidationRule Minimum="1" ValidationStep="RawProposedValue"/>
+                                                                                                                </Binding.ValidationRules>
+                                                                                                            </Binding>
+                                                                                                        </controls:WheelCaptureIntegerUpDown.Text>
+                                                                                                    </controls:WheelCaptureIntegerUpDown>
+
+                                                                                                    <CheckBox Grid.Column="1" VerticalContentAlignment="Center" Content="Text?" IsChecked="{Binding IsCustomMystery}">
+                                                                                                        <CheckBox.Style>
+                                                                                                            <Style TargetType="CheckBox">
+                                                                                                                <Style.Triggers>
+                                                                                                                    <DataTrigger Binding="{Binding ID}" Value="8">
+                                                                                                                        <Setter Property="Visibility" Value="Visible" />
+                                                                                                                    </DataTrigger>
+                                                                                                                </Style.Triggers>
+                                                                                                                
+                                                                                                                <Setter Property="Visibility" Value="Collapsed" />
+                                                                                                            </Style>
+                                                                                                        </CheckBox.Style>
+                                                                                                    </CheckBox>
+                                                                                                </Grid>
+                                                                                            </Setter.Value>
+                                                                                        </Setter>
+                                                                                    </MultiDataTrigger>
+                                                                                    <MultiDataTrigger>
+                                                                                        <MultiDataTrigger.Conditions>
+                                                                                            <Condition Binding="{Binding Category}" Value="3" />
+                                                                                            <Condition Binding="{Binding ID}" Value="8" />
+                                                                                            <Condition Binding="{Binding Data}" Value="0" />
+                                                                                        </MultiDataTrigger.Conditions>
+                                                                                        <Setter Property="Content">
+                                                                                            <Setter.Value>
+                                                                                                <Border Height="22">
+                                                                                                    <Grid>
+                                                                                                        <Grid.ColumnDefinitions>
+                                                                                                            <ColumnDefinition Width="*" />
+                                                                                                            <ColumnDefinition Width="Auto" />
+                                                                                                        </Grid.ColumnDefinitions>
+                                                                                                        
+                                                                                                        <controls:TranslatedTextSelector Grid.Column="0" TextKey="{Binding ItemKey, Mode=TwoWay}" />
+
+                                                                                                        <CheckBox Grid.Column="1" VerticalContentAlignment="Center" Content="Text?" IsChecked="{Binding IsCustomMystery}" />
+                                                                                                    </Grid>
+                                                                                                </Border>
                                                                                             </Setter.Value>
                                                                                         </Setter>
                                                                                     </MultiDataTrigger>

@@ -1810,7 +1810,7 @@ msgopen:
 msg:Map.GameCenterChapter4BattleEventStage63Dialogue1FacePresidentYukari
 msg:Map.GameCenterChapter4BattleEventStage63Dialogue2FaceAlice
 ItemGet:3:8:100000:Map.Item100000ZennyName
-ItemGet:3:8:0:Map.ItemCruiseTicketName
+ItemGet:3:8:0:TestItem.CruiseTicketName
 msgclose:
 EditItem:14:True
 emove:プレイヤー:waydown,0

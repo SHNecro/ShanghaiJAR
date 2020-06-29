@@ -143,7 +143,7 @@ ItemGet:2:54:0:Map.ItemHumorName
 ItemGet:3:8:50000:Map.Item50000ZennyName
 ItemGet:3:4:1:Map.ItemHertzUpName
 msg:Map.HosTVRequestRehabilitationStage3Dialogue3FaceNaviBlueRobot
-ItemGet:3:8:0:Map.ItemROMIDName
+ItemGet:3:8:0:TestItem.ROMIDName
 EditItem:20:True
 msg:Map.HosTVRequestRehabilitationStage3Dialogue4FaceNaviBlueRobot
 msg:Map.HosTVRequestRehabilitationStage3Dialogue5FaceNaviBlueRobot

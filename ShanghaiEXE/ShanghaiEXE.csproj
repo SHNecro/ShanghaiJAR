@@ -1346,6 +1346,10 @@
     <None Include="ShanghaiEXE\Files\README.txt">
       <TargetPath>README.txt</TargetPath>
     </None>
+    <Content Include="Data\data\KeyItems.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\data\Mail.xml" />
     <Content Include="Graphics\body23.png" />
     <Content Include="Graphics\body24.png" />
     <Content Include="Graphics\body25.png" />

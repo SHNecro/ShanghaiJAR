@@ -1533,7 +1533,7 @@ msg:Map.GencityChapter2EventsStage5Dialogue8FaceRemilia
 msg:Map.GencityChapter2EventsStage5Dialogue9FaceRemilia
 effectEnd:
 playerHide:False
-ItemGet:3:8:0:Map.ItemRemiliaPCodeName
+ItemGet:3:8:0:TestItem.RemiliaPCodeName
 EditItem:7:True
 msg:Map.GencityChapter2EventsStage5Dialogue10FaceShanghai
 msg:Map.GencityChapter2EventsStage5Dialogue11FaceAlice
@@ -1578,7 +1578,7 @@ msg:Map.GencityRequester1Stage1Dialogue3FaceMaleAdult
 msg:Map.GencityRequester1Stage1Dialogue4FaceMaleAdult
 msg:Map.GencityRequester1Stage1Dialogue5FaceMaleAdult
 EditItem:5:True
-ItemGet:3:8:0:Map.ItemPackageDataName
+ItemGet:3:8:0:TestItem.PackageDataName
 msgclose:
 editFlag:80:True
 editValue:4:False:0:0:2
@@ -3857,7 +3857,7 @@ fade:60:0:0:0:0:True
 msgopen:
 msg:Map.GencityTreasureStage7Dialogue1FaceAlice
 msg:Map.GencityTreasureStage7Dialogue2FaceShanghai
-ItemGet:3:8:0:Map.ItemOldDataName
+ItemGet:3:8:0:TestItem.OldChipDataName
 EditItem:12:True
 msg:Map.GencityTreasureStage7Dialogue3FaceShanghai
 msg:Map.GencityTreasureStage7Dialogue4FaceAlice

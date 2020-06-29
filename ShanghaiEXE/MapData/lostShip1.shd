@@ -406,7 +406,7 @@ msg:Map.LostShip1Sprite0Stage5Dialogue2FaceSprite
 msg:Map.LostShip1Sprite0Stage5Dialogue3FaceSprite
 msg:Map.LostShip1Sprite0Stage5Dialogue4FaceSprite
 EditItem:24:True
-ItemGet:3:8:0:Map.ItemOldPasscodeName
+ItemGet:3:8:0:TestItem.OldPasscodeName
 msg:Map.LostShip1Sprite0Stage5Dialogue5FaceShanghai
 msg:Map.LostShip1Sprite0Stage5Dialogue6FaceSprite
 msg:Map.LostShip1Sprite0Stage5Dialogue7FaceSprite
@@ -464,7 +464,7 @@ msgopen:
 msg:Map.LostShip1Sprite1AStage1Dialogue1FaceSprite
 msg:Map.LostShip1Sprite1AStage1Dialogue2FaceSprite
 EditItem:22:True
-ItemGet:3:8:0:Map.ItemOldKeyDataName
+ItemGet:3:8:0:TestItem.OldKeyDataName
 msg:Map.LostShip1Sprite1AStage1Dialogue3FaceSprite
 msgclose:
 editFlag:703:True
@@ -528,7 +528,7 @@ msgopen:
 msg:Map.LostShip1Sprite2AStage1Dialogue1FaceSprite
 msg:Map.LostShip1Sprite2AStage1Dialogue2FaceSprite
 EditItem:23:True
-ItemGet:3:8:0:Map.ItemOldIDDataName
+ItemGet:3:8:0:TestItem.OldIDDataName
 msg:Map.LostShip1Sprite2AStage1Dialogue3FaceSprite
 msgclose:
 editFlag:705:True
@@ -592,7 +592,7 @@ msgopen:
 msg:Map.LostShip1Sprite3AStage1Dialogue1FaceSprite
 msg:Map.LostShip1Sprite3AStage1Dialogue2FaceSprite
 EditItem:24:True
-ItemGet:3:8:0:Map.ItemOldPasscodeName
+ItemGet:3:8:0:TestItem.OldPasscodeName
 msg:Map.LostShip1Sprite3AStage1Dialogue3FaceSprite
 msgclose:
 editFlag:707:True

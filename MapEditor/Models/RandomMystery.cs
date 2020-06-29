@@ -10,6 +10,8 @@ namespace MapEditor.Models
         private int data;
         private string itemKey;
 
+        private int lastData;
+
         public int Category
         {
             get
@@ -64,6 +66,31 @@ namespace MapEditor.Models
             set
             {
                 this.SetValue(ref this.itemKey, value);
+                this.OnPropertyChanged(nameof(this.Name));
+            }
+        }
+
+        public bool IsCustomMystery
+        {
+            get
+            {
+                return this.Category == 3 && this.ID == 8 && this.Data == 0;
+            }
+
+            set
+            {
+                if (value)
+                {
+                    this.lastData = this.Data;
+                    this.Data = 0;
+                }
+                else
+                {
+                    this.Data = this.lastData;
+                }
+
+                this.OnPropertyChanged(nameof(this.IsCustomMystery));
+                this.OnPropertyChanged(nameof(this.Data));
             }
         }
 
@@ -91,8 +118,15 @@ namespace MapEditor.Models
                         var addOnColor = this.ParseEnumOrAddError<ProgramColorTypeNumber>(this.Data.ToString()).ToString();
                         return $"{addOnDefinition.Name} {addOnColor}";
                     case ItemTypeNumber.Other:
-                        var otherType = this.ParseEnumOrAddError<OtherItemTypeNumber>(this.ID.ToString()).ToString();
-                        return (this.ID == 0 || this.ID == 2 || this.ID == 3) ? $"{otherType}" : $"{this.Data} {otherType}";
+                        if (this.IsCustomMystery)
+                        {
+                            return $"Text: \"{Constants.TranslationService.Translate(this.ItemKey).Text}\"";
+                        }
+                        else
+                        {
+                            var otherType = this.ParseEnumOrAddError<OtherItemTypeNumber>(this.ID.ToString()).ToString();
+                            return (this.ID == 0 || this.ID == 2 || this.ID == 3) ? $"{otherType}" : $"{this.Data} {otherType}";
+                        }
                     case ItemTypeNumber.Virus:
                         return "Encounter";
                     default:
@@ -122,12 +156,22 @@ namespace MapEditor.Models
 
         protected override string GetStringValue()
         {
+            var text = string.Empty;
+            if (this.Category == 4)
+            {
+                text = Constants.EncounterKey;
+            }
+            else if (this.IsCustomMystery)
+            {
+                text = this.ItemKey;
+            }
+
             return string.Join(",", new object[]
             {
                 this.Category,
                 this.ID,
                 this.Data,
-                this.Category != 4 ? this.ItemKey : Constants.EncounterKey
+                text
             });
         }
 

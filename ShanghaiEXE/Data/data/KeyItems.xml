@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <KeyItem Index="0" Name="TestItem.CompressedDataName">
+    <Dialogue Key="TestItem.CompressedDataDescDialogue1" />
+    <Dialogue Key="TestItem.CompressedDataDescDialogue2" />
+  </KeyItem>
+  <KeyItem Index="1" Name="TestItem.HeatDataName">
+    <Dialogue Key="TestItem.HeatDataDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="2" Name="TestItem.AntiFreezeName">
+    <Dialogue Key="TestItem.AntiFreezeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="3" Name="TestItem.MetroPassName">
+    <Dialogue Key="TestItem.MetroPassDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="4" Name="TestItem.IceCrystalDataName">
+    <Dialogue Key="TestItem.IceCrystalDataDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="5" Name="TestItem.PackageDataName">
+    <Dialogue Key="TestItem.PackageDataDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="6" Name="TestItem.MariPCodeName">
+    <Dialogue Key="TestItem.MariPCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="7" Name="TestItem.RemiliaPCodeName">
+    <Dialogue Key="TestItem.RemiliaPCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="8" Name="TestItem.RikaPCodeName">
+    <Dialogue Key="TestItem.RikaPCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="9" Name="TestItem.TsubakiPCodeName">
+    <Dialogue Key="TestItem.TsubakiPCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="10" Name="TestItem.TenshiPCodeName">
+    <Dialogue Key="TestItem.TenshiPCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="11" Name="TestItem.SpareCodeName">
+    <Dialogue Key="TestItem.SpareCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="12" Name="TestItem.OldChipDataName">
+    <Dialogue Key="TestItem.OldChipDataDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="13" Name="TestItem.TeacherIDName">
+    <Dialogue Key="TestItem.TeacherIDDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="14" Name="TestItem.CruiseTicketName">
+    <Dialogue Key="TestItem.CruiseTicketDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="15" Name="TestItem.YinKeyName">
+    <Dialogue Key="TestItem.YinKeyDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="16" Name="TestItem.YangKeyName">
+    <Dialogue Key="TestItem.YangKeyDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="17" Name="TestItem.AdminPCodeName">
+    <Dialogue Key="TestItem.AdminPCodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="18" Name="TestItem.SmallParcelName">
+    <Dialogue Key="TestItem.SmallParcelDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="19" Name="TestItem.WrigglePendantName">
+    <Dialogue Key="TestItem.WrigglePendantDescDialogue1" />
+    <Dialogue Key="TestItem.WrigglePendantDescDialogue2" />
+  </KeyItem>
+  <KeyItem Index="20" Name="TestItem.ROMIDName">
+    <Dialogue Key="TestItem.ROMIDDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="21" Name="TestItem.PreservedFlowerName">
+    <Dialogue Key="TestItem.PreservedFlowerDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="22" Name="TestItem.OldKeyDataName">
+    <Dialogue Key="TestItem.OldKeyDataDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="23" Name="TestItem.OldIDDataName">
+    <Dialogue Key="TestItem.OldIDDataDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="24" Name="TestItem.OldPasscodeName">
+    <Dialogue Key="TestItem.OldPasscodeDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="25" Name="TestItem.ReincarnationProgramName">
+    <Dialogue Key="TestItem.ReincarnationProgramDescDialogue1" />
+  </KeyItem>
+</data>

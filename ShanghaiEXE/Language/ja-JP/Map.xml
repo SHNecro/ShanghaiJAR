@@ -16,4 +16,8 @@
   <Text Key="Map.ChipTraderSpecialOptions" Value="はい,いいえ" />
   <Dialogue Key="Map.JackIn" Value="#b@true#プラグイン！#w@15#,シャンハイ.EXE！#w@8#,トランスミッション！#w@30##e@#" Face="Alice" Mono="False" />
   <Text Key="Map.RandomItemEncounterName" Value="エンカウント" />
+  <Text Key="Map.ItemXtraFldrName" Value="ヨビフォルダ" />
+  <Text Key="Map.ItemFolder2Name" Value="フォルダ２" />
+  <Text Key="Map.ItemAddOnManagerName" Value="アドオンマネージャー" />
+  <Text Key="Map.ItemVrsBall1＊Name" Value="ウィルスボール１　＊" />
 </data>

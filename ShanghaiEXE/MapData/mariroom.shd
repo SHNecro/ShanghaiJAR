@@ -139,7 +139,7 @@ event:
 msgopen:
 msg:Map.MariroomMariStage1Dialogue1FaceMari
 msg:Map.MariroomMariStage1Dialogue2FaceMari
-ItemGet:3:8:0:Map.ItemAntifreezeName
+ItemGet:3:8:0:TestItem.AntiFreezeName
 EditItem:2:True
 ifFlag:28:False:0
 msg:Map.MariroomMariStage1Dialogue3FaceMari
@@ -540,7 +540,7 @@ ifFlag:6:True:1
 msgopen:
 msg:Map.MariroomMarisaBattleStage10Dialogue1FaceMari
 msg:Map.MariroomMarisaBattleStage10Dialogue2FaceMari
-ItemGet:3:8:0:Map.ItemMariPCodeName
+ItemGet:3:8:0:TestItem.MariPCodeName
 EditItem:6:True
 msg:Map.MariroomMarisaBattleStage10Dialogue3FaceMari
 msg:Map.MariroomMarisaBattleStage10Dialogue4FaceMari

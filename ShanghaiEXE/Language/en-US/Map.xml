@@ -16,4 +16,8 @@
   <Text Key="Map.ChipTraderSpecialOptions" Value="Yes,No" />
   <Dialogue Key="Map.JackIn" Value="#b@true#Jack in!#w@15#,Shanghai.EXE!#w@8#,Execute!#w@30##e@#" Face="Alice" Mono="False" />
   <Text Key="Map.RandomItemEncounterName" Value="Encounter" />
+  <Text Key="Map.ItemXtraFldrName" Value="XtraFldr" />
+  <Text Key="Map.ItemFolder2Name" Value="Folder 2" />
+  <Text Key="Map.ItemAddOnManagerName" Value="AddOn Manager" />
+  <Text Key="Map.ItemVrsBall1＊Name" Value="VrsBall1 ＊" />
 </data>

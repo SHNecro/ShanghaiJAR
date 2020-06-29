@@ -221,6 +221,8 @@
     <Compile Include="Rendering\CharacterInfoRenderer.Drawing.cs" />
     <Compile Include="ViewModels\CharacterInfoDataViewModel.cs" />
     <Compile Include="ViewModels\DataWindowViewModel.cs" />
+    <Compile Include="ViewModels\KeyItemDataViewModel.cs" />
+    <Compile Include="ViewModels\MailDataViewModel.cs" />
     <Compile Include="ViewModels\MessagesDataViewModel.cs" />
     <Compile Include="ViewModels\MessageViewModel.cs" />
     <Compile Include="ViewModels\SettingsWindowViewModel.cs" />
@@ -360,6 +362,12 @@
     </Compile>
     <Compile Include="Views\DataWindowView.xaml.cs">
       <DependentUpon>DataWindowView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\KeyItemDataView.xaml.cs">
+      <DependentUpon>KeyItemDataView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MailDataView.xaml.cs">
+      <DependentUpon>MailDataView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MessagesDataView.xaml.cs">
       <DependentUpon>MessagesDataView.xaml</DependentUpon>
@@ -699,6 +707,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DataWindowView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\KeyItemDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MailDataView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

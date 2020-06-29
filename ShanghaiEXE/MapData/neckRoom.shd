@@ -49,7 +49,7 @@ msgopen:
 msg:Map.NeckRoomSpannerManBattleStage5Dialogue1FaceTsubakiNekku
 msg:Map.NeckRoomSpannerManBattleStage5Dialogue2FaceTsubakiNekku
 EditItem:9:True
-ItemGet:3:8:0:Map.ItemNekkuPCodeName
+ItemGet:3:8:0:TestItem.TsubakiPCodeName
 msg:Map.NeckRoomSpannerManBattleStage5Dialogue3FaceTsubakiNekku
 msgclose:
 goto:end

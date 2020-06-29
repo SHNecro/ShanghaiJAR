@@ -56,7 +56,7 @@ msgopen:
 msg:Map.CenterccityNorthRequest11MotherStage1Dialogue1FaceFemaleElderly
 msg:Map.CenterccityNorthRequest11MotherStage1Dialogue2FaceFemaleElderly
 msg:Map.CenterccityNorthRequest11MotherStage1Dialogue3FaceFemaleElderly
-ItemGet:3:8:0:Map.ItemSmallParcelName
+ItemGet:3:8:0:TestItem.SmallParcelName
 EditItem:18:True
 msg:Map.CenterccityNorthRequest11MotherStage1Dialogue4FaceFemaleElderly
 msgclose:
