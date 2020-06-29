@@ -313,7 +313,7 @@ namespace NSMap
                     random.itemType = int.Parse(strArray5[1]);
                     random.itemNumber = int.Parse(strArray5[2]);
                     random.itemSub = int.Parse(strArray5[3]);
-                    random.getInfo = strArray5[4];
+                    random.getInfo = ShanghaiEXE.Translate(strArray5[4]);
                     random.flugNumber = int.Parse(strArray5[5]);
                     this.Events.Add(new MysteryData(s, this.parent, po, floor, MapCharacterBase.ANGLE.UP, this, id, save, reader, random));
                 }
