@@ -43,13 +43,16 @@ namespace NSGame
                     throw new InvalidOperationException("Invalid Key Item index.");
                 }
 
-                var name = characterNode?.Attributes["Name"]?.Value;
+                var name = ShanghaiEXE.Translate(characterNode?.Attributes["Name"].Value);
 
                 var info = new List<string>();
                 var dialogues = characterNode.ChildNodes;
-                foreach (XmlNode dialogue in dialogues)
+                foreach (XmlNode dialogueXml in dialogues)
                 {
-                    info.Add(ShanghaiEXE.Translate(dialogue.Attributes["Key"].Value));
+                    var dialogue = ShanghaiEXE.Translate(dialogueXml.Attributes["Key"].Value);
+                    info.Add(dialogue[0]);
+                    info.Add(dialogue[1]);
+                    info.Add(dialogue[2]);
                 }
 
                 KeyItems[index] = new TestItem(name, info);
