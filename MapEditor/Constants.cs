@@ -245,8 +245,9 @@ namespace MapEditor
         public static Func<ShopItem> ShopItemCreator = () => new ShopItem { StringValue = "0,0,0,0" };
         public static Func<TermObject> TermCreator = () => TermObject.FromString("none");
         public static Func<EventObject> EventCreator = () => EventObject.FromString("msg:Debug.UnimplementedText");
-        public static Func<Wrapper<string>> MessageDialogueCreator = () => "Debug.UnimplementedText".Wrap();
-        public static Func<MessageViewModel> MessageCreator = () => new MessageViewModel(-1, new[] { MessageDialogueCreator() });
+        public static Func<Wrapper<string>> DialogueCreator = () => "Debug.UnimplementedText".Wrap();
+        public static Func<MessageViewModel> MessageCreator = () => new MessageViewModel(-1, new[] { DialogueCreator() });
+        public static Func<KeyItemViewModel> KeyItemCreator = () => new KeyItemViewModel(-1, new KeyItemDefinition { NameKey = "Debug.UnimplementedText", DialogueKeys = new List<string> { "Debug.UnimplementedText" } });
 
         public static ICommand MoveItemUpCommand => new RelayCommand(
             (cmdParams) => Constants.CanMoveItem(cmdParams, true),

@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
-                    xmlns:editor="clr-namespace:MapEditor"
+                    xmlns:root="clr-namespace:MapEditor"
                     xmlns:core="clr-namespace:MapEditor.Core">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
@@ -19,7 +19,7 @@
                            VerticalAlignment="Center"
                            Text="Key Item:"/>
                 <ComboBox Grid.Column="1"
-                          ItemsSource="{x:Static editor:Constants.KeyItemDefinitions}"
+                          ItemsSource="{x:Static root:Constants.KeyItemDefinitions}"
                           SelectedValue="{Binding ItemNumber}"
                           SelectedValuePath="Key"
                           DisplayMemberPath="Value.Name"/>

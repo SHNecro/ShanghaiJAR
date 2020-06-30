@@ -84,7 +84,7 @@
                                 <Button.CommandParameter>
                                     <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
                                         <Binding Path="DialogueKeys" />
-                                        <Binding Source="{x:Static root:Constants.MessageDialogueCreator}" />
+                                        <Binding Source="{x:Static root:Constants.DialogueCreator}" />
                                         <Binding Path="SelectedDialogue" />
                                     </MultiBinding>
                                 </Button.CommandParameter>
@@ -246,8 +246,8 @@
                     </Button>
                 </Grid>
                 <ListBox Grid.Row="1"
-                         ItemsSource="{Binding Messages}"
                          Grid.IsSharedSizeScope="True"
+                         ItemsSource="{Binding Messages}"
                          SelectedValue="{Binding SelectedMessage}"
                          HorizontalContentAlignment="Stretch">
                     <ListBox.ItemTemplate>

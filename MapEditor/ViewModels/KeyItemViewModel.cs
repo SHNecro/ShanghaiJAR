@@ -1,5 +1,6 @@
 ﻿using MapEditor.Core;
 using MapEditor.ExtensionMethods;
+using MapEditor.Models.Elements;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,22 +8,22 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Windows;
 using System.Windows.Input;
 
 namespace MapEditor.ViewModels
 {
-    public class MessageViewModel : StringRepresentation
+    public class KeyItemViewModel : StringRepresentation
     {
         private int index;
+        private string nameKey;
         private Wrapper<string> selectedDialogue;
 
         private string initialStringValue;
 
-        public MessageViewModel()
+        public KeyItemViewModel()
         {
-            this.Index = -1;
+            this.index = -1;
+            this.nameKey = "Debug.UnimplementedText";
             this.DialogueKeys = new ObservableCollection<Wrapper<string>>();
             this.DialogueKeys.CollectionChanged += CollectionChanged;
             this.RegisterDialogueKeys();
@@ -30,10 +31,11 @@ namespace MapEditor.ViewModels
             this.initialStringValue = string.Empty;
         }
 
-        public MessageViewModel(int index, IList<Wrapper<string>> dialogueKeys)
+        public KeyItemViewModel(int index, KeyItemDefinition keyItemDefinition)
         {
-            this.Index = index;
-            this.DialogueKeys = new ObservableCollection<Wrapper<string>>(dialogueKeys ?? new List<Wrapper<string>>());
+            this.index = index;
+            this.nameKey = keyItemDefinition.NameKey;
+            this.DialogueKeys = new ObservableCollection<Wrapper<string>>(keyItemDefinition.DialogueKeys.Select(k => k.Wrap()) ?? new List<Wrapper<string>>());
             this.DialogueKeys.CollectionChanged += CollectionChanged;
             this.RegisterDialogueKeys();
 
@@ -59,6 +61,20 @@ namespace MapEditor.ViewModels
             }
         }
 
+        public string NameKey
+        {
+            get
+            {
+                return this.nameKey;
+            }
+
+            set
+            {
+                this.SetValue(ref this.nameKey, value);
+                this.Refresh();
+            }
+        }
+
         public ObservableCollection<Wrapper<string>> DialogueKeys { get; }
 
         public Wrapper<string> SelectedDialogue
@@ -67,7 +83,7 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref this.selectedDialogue, value); }
         }
 
-        public string IndexLabel => $"{this.Index}{(this.IsDirty ? "*" : string.Empty)}";
+        public string Name => Constants.TranslationService.Translate(this.NameKey);
 
         public string Summary => string.Join(Environment.NewLine, this.DialogueKeys.Select(k =>
         {
@@ -76,10 +92,12 @@ namespace MapEditor.ViewModels
                 return "INVALID KEY";
             }
             var dialogue = Constants.TranslationService.Translate(k.Value);
-            return $"{dialogue.Face.ToString()}: {dialogue.Text}";
+            return $"{dialogue.Text}";
         }));
 
         public bool IsDirty => this.initialStringValue != this.StringValue;
+
+        public string IndexLabel => $"{this.Index}{(this.IsDirty ? "*" : string.Empty)}";
 
         public ICommand UndoCommand => new RelayCommand(this.Undo);
 
@@ -92,7 +110,6 @@ namespace MapEditor.ViewModels
         public void Undo()
         {
             this.UnregisterDialogueKeys();
-            this.DialogueKeys.Clear();
             var realIndex = this.Index;
             this.StringValue = this.initialStringValue;
             this.Index = realIndex;
@@ -103,12 +120,12 @@ namespace MapEditor.ViewModels
         protected override string GetStringValue()
         {
             var stringValueBuilder = new StringBuilder();
-            stringValueBuilder.AppendLine($"<Message Index=\"{this.Index}\">");
+            stringValueBuilder.AppendLine($"<KeyItem Index=\"{this.Index}\" Name=\"{this.NameKey}\">");
             foreach (var dialogueKey in this.DialogueKeys)
             {
                 stringValueBuilder.AppendLine($"  <Dialogue Key=\"{dialogueKey.Value}\" />");
             }
-            stringValueBuilder.AppendLine("</Message>");
+            stringValueBuilder.AppendLine("</KeyItem>");
 
             return stringValueBuilder.ToString();
         }
@@ -121,13 +138,15 @@ namespace MapEditor.ViewModels
             );
 
             var newIndex = 0;
+            var newNameKey = string.Empty;
             var newDialogueKeys = new List<string>();
 
-            var indexMatch = default(Match);
-            this.Validate(lines, "Empty message", l => l.Length > 0);
+            var openTagMatch = default(Match);
+            this.Validate(lines, "Empty key item", l => l.Length > 0);
             if (this.HasErrors) return;
-            this.Validate(lines[0], "Malformed message open", l => (indexMatch = Regex.Match(l, @"<Message Index=""(\d+)"">")).Success);
-            newIndex = int.Parse(indexMatch.Groups[1].Value);
+            this.Validate(lines[0], "Malformed key item open", l => (openTagMatch = Regex.Match(l, @"<KeyItem Index=""(\d+)"" Name=""([^""]+)"">")).Success);
+            newIndex = int.Parse(openTagMatch.Groups[1].Value);
+            newNameKey = openTagMatch.Groups[2].Value;
             if (this.HasErrors) return;
 
             for (int i = 0; i < lines.Length; i++)
@@ -141,7 +160,7 @@ namespace MapEditor.ViewModels
 
                 if (i == lines.Length - 1)
                 {
-                    this.Validate(line, "Malformed message close", l => Regex.IsMatch(l, @"</Message>"));
+                    this.Validate(line, "Malformed key item close", l => Regex.IsMatch(l, @"</KeyItem>"));
                     if (this.HasErrors) return;
                     continue;
                 }
@@ -153,6 +172,7 @@ namespace MapEditor.ViewModels
             }
 
             this.Index = newIndex;
+            this.NameKey = newNameKey;
             this.DialogueKeys.Clear();
             foreach (var k in newDialogueKeys)
             {
@@ -193,6 +213,7 @@ namespace MapEditor.ViewModels
             this.OnPropertyChanged(nameof(this.IsDirty));
             this.OnPropertyChanged(nameof(this.IndexLabel));
             this.OnPropertyChanged(nameof(this.Summary));
+            this.OnPropertyChanged(nameof(this.Name));
         }
     }
 }

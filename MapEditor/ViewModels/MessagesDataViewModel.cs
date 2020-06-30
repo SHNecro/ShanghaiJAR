@@ -3,6 +3,7 @@ using MapEditor.Core;
 using MapEditor.ExtensionMethods;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
@@ -107,23 +108,6 @@ namespace MapEditor.ViewModels
                 this.selectedMessage = this.Messages.FirstOrDefault();
             }
 
-            private void UpdateMessageIndices(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-            {
-                for (var i = 0; i < this.Messages.Count; i++)
-                {
-                    this.Messages[i].Index = i;
-                }
-            }
-
-            private void MessageIsDirtyChanged(object sender, PropertyChangedEventArgs e)
-            {
-                if (e.PropertyName == nameof(MessageViewModel.IsDirty))
-                {
-                    this.OnPropertyChanged(nameof(this.IsDirty));
-                    this.OnPropertyChanged(nameof(this.Label));
-                }
-            }
-
             public ObservableCollection<MessageViewModel> Messages { get; }
 
             public MessageViewModel SelectedMessage
@@ -137,6 +121,50 @@ namespace MapEditor.ViewModels
             public bool IsDirty => this.Messages.Any(m => m.IsDirty);
 
             public ICommand SaveCommand => new RelayCommand(this.Save);
+
+            private void UpdateMessageIndices(object sender, NotifyCollectionChangedEventArgs e)
+            {
+                for (var i = 0; i < this.Messages.Count; i++)
+                {
+                    this.Messages[i].Index = i;
+                }
+
+                if (e.Action == NotifyCollectionChangedAction.Add)
+                {
+                    foreach (var newObject in e.NewItems)
+                    {
+                        var newMessage = newObject as MessageViewModel;
+                        if (newMessage != null)
+                        {
+                            newMessage.PropertyChanged += this.MessageIsDirtyChanged;
+                        }
+                    }
+                }
+
+                if (e.Action == NotifyCollectionChangedAction.Remove)
+                {
+                    foreach (var oldObject in e.OldItems)
+                    {
+                        var oldMessage = oldObject as MessageViewModel;
+                        if (oldMessage != null)
+                        {
+                            oldMessage.PropertyChanged -= this.MessageIsDirtyChanged;
+                        }
+                    }
+                }
+
+                this.OnPropertyChanged(nameof(this.Label));
+                this.OnPropertyChanged(nameof(this.IsDirty));
+            }
+
+            private void MessageIsDirtyChanged(object sender, PropertyChangedEventArgs e)
+            {
+                if (e.PropertyName == nameof(MessageViewModel.IsDirty))
+                {
+                    this.OnPropertyChanged(nameof(this.IsDirty));
+                    this.OnPropertyChanged(nameof(this.Label));
+                }
+            }
 
             private void Save()
             {

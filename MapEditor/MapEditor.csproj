@@ -224,6 +224,7 @@
     <Compile Include="ViewModels\CharacterInfoDataViewModel.cs" />
     <Compile Include="ViewModels\DataWindowViewModel.cs" />
     <Compile Include="ViewModels\KeyItemDataViewModel.cs" />
+    <Compile Include="ViewModels\KeyItemViewModel.cs" />
     <Compile Include="ViewModels\MailDataViewModel.cs" />
     <Compile Include="ViewModels\MessagesDataViewModel.cs" />
     <Compile Include="ViewModels\MessageViewModel.cs" />

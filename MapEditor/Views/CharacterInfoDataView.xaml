@@ -30,7 +30,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300" />
-            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="3" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
@@ -138,7 +138,7 @@
             </Grid>
         </StackPanel>
 
-        <GridSplitter Grid.Column="1"  Background="DarkGray"  ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+        <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
                           HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
 
         <ScrollViewer Grid.Column="2"

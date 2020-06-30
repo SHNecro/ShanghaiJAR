@@ -4,9 +4,358 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MapEditor.Views"
+             xmlns:elements="clr-namespace:MapEditor.Models.Elements"
+             xmlns:root="clr-namespace:MapEditor"
+             xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+             xmlns:controls="clr-namespace:MapEditor.Controls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:KeyToTranslatedTextConverter x:Key="KeyToTranslatedTextConverter" />
+            <converters:BindingsToArrayMultiConverter x:Key="BindingsToArrayMultiConverter" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <UserControl.InputBindings>
+        <KeyBinding Modifiers="Ctrl"
+                    Key="S"
+                    Command="{Binding SaveCommand}" />
+        <KeyBinding Modifiers="Ctrl"
+                    Key="Z"
+                    Command="{Binding SelectedKeyItem.UndoCommand}" />
+    </UserControl.InputBindings>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="3" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0"
+                    Command="{Binding SaveCommand}" IsEnabled="{Binding IsDirty}"
+                    Content="Save" />
             
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Key Items:" FontWeight="Bold" />
+                <Button Grid.Column="1" Command="{x:Static root:Constants.DuplicateItemCommand}">
+                    <Button.CommandParameter>
+                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                            <Binding Path="KeyItems" />
+                            <Binding Path="SelectedKeyItem" />
+                        </MultiBinding>
+                    </Button.CommandParameter>
+                    <Rectangle Width="16" Height="16"  Fill="{StaticResource DuplicateIcon}" />
+                </Button>
+                <Button Grid.Column="2" Command="{x:Static root:Constants.AddItemCommand}">
+                    <Button.CommandParameter>
+                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                            <Binding Path="KeyItems" />
+                            <Binding Source="{x:Static root:Constants.KeyItemCreator}" />
+                            <Binding Path="SelectedKeyItem" />
+                        </MultiBinding>
+                    </Button.CommandParameter>
+                    <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
+                </Button>
+            </Grid>
+
+            <ListBox Grid.Row="2"
+                     Grid.IsSharedSizeScope="True"
+                     ItemsSource="{Binding KeyItems}"
+                     SelectedValue="{Binding SelectedKeyItem}"
+                     HorizontalContentAlignment="Stretch">
+                <ListBox.ItemTemplate>
+                    <DataTemplate DataType="{x:Type elements:KeyItemDefinition}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="IndexColumn" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Margin="5,0" VerticalAlignment="Center" Text="{Binding IndexLabel, Mode=OneWay}" />
+                            <TextBlock Grid.Column="1" Text="{Binding Name, Mode=OneWay}" />
+                            <StackPanel Grid.Column="2"
+                                        HorizontalAlignment="Right"
+                                        Orientation="Horizontal"
+                                        VerticalAlignment="Center">
+                                <StackPanel.Style>
+                                    <Style TargetType="StackPanel">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Path=IsMouseOver, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListBoxItem}}" Value="True">
+                                                <Setter Property="Visibility" Value="Visible" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                        <Setter Property="Visibility" Value="Hidden" />
+                                    </Style>
+                                </StackPanel.Style>
+                                <Button Command="{x:Static root:Constants.MoveItemUpCommand}">
+                                    <Button.CommandParameter>
+                                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                            <Binding Path="DataContext.KeyItems" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                            <Binding Path="." />
+                                        </MultiBinding>
+                                    </Button.CommandParameter>
+                                    <Rectangle Width="16" Height="16" Fill="{StaticResource UpArrowIcon}" />
+                                </Button>
+                                <Button Command="{x:Static root:Constants.MoveItemDownCommand}">
+                                    <Button.CommandParameter>
+                                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                            <Binding Path="DataContext.KeyItems" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                            <Binding Path="ItemsSource" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                            <Binding Path="." />
+                                        </MultiBinding>
+                                    </Button.CommandParameter>
+                                    <Rectangle Width="16" Height="16" Fill="{StaticResource DownArrowIcon}" />
+                                </Button>
+                                <Button Command="{x:Static root:Constants.DeleteItemCommand}">
+                                    <Button.CommandParameter>
+                                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                            <Binding Path="DataContext.KeyItems" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                            <Binding Path="." />
+                                        </MultiBinding>
+                                    </Button.CommandParameter>
+                                    <Rectangle Width="16" Height="16"  Fill="{StaticResource DeleteIcon}" />
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+                <ListBox.InputBindings>
+                    <KeyBinding Modifiers="Alt"
+                                Key="Up"
+                                Command="{x:Static root:Constants.MoveItemUpCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="KeyItems" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Modifiers="Alt"
+                                Key="Down"
+                                Command="{x:Static root:Constants.MoveItemDownCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="KeyItems" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Key="Delete"
+                                Command="{x:Static root:Constants.DeleteItemCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="KeyItems" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Modifiers="Shift"
+                                Key="Delete"
+                                Command="{x:Static root:Constants.DeleteItemCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="KeyItems" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Modifiers="Ctrl"
+                                Key="D"
+                                Command="{x:Static root:Constants.DuplicateItemCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="KeyItems" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                </ListBox.InputBindings>
+            </ListBox>
+            
+        </Grid>
+
+        <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <controls:StringEditableExpander IsExpanded="True"
+                                             Header="Key Item" DataContext="{Binding SelectedKeyItem}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <DockPanel Grid.Row="0" LastChildFill="True">
+                        <TextBlock Text="Name: " VerticalAlignment="Center" Margin="0,0,10,0" />
+                        <controls:TranslatedTextSelector TextKey="{Binding Path=NameKey, Mode=TwoWay}" />
+                    </DockPanel>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Description:" FontWeight="Bold" />
+                        <Button Grid.Column="1" Command="{x:Static root:Constants.DuplicateItemCommand}">
+                            <Button.CommandParameter>
+                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                    <Binding Path="DialogueKeys" />
+                                    <Binding Path="SelectedDialogue" />
+                                </MultiBinding>
+                            </Button.CommandParameter>
+                            <Rectangle Width="16" Height="16"  Fill="{StaticResource DuplicateIcon}" />
+                        </Button>
+                        <Button Grid.Column="2" Command="{x:Static root:Constants.AddItemCommand}">
+                            <Button.CommandParameter>
+                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                    <Binding Path="DialogueKeys" />
+                                    <Binding Source="{x:Static root:Constants.DialogueCreator}" />
+                                    <Binding Path="SelectedDialogue" />
+                                </MultiBinding>
+                            </Button.CommandParameter>
+                            <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
+                        </Button>
+                    </Grid>
+                    <ListBox Grid.Row="2" ItemsSource="{Binding DialogueKeys}"
+                             SelectedValue="{Binding SelectedDialogue}"
+                             HorizontalContentAlignment="Stretch">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <controls:TranslatedTextSelector Grid.Column="0"
+                                                                     TextKey="{Binding Path=Value, Mode=TwoWay}" />
+                                    <StackPanel Grid.Column="1"
+                                                HorizontalAlignment="Right"
+                                                Orientation="Horizontal">
+                                        <StackPanel.Style>
+                                            <Style TargetType="StackPanel">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding Path=IsMouseOver, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListBoxItem}}" Value="True">
+                                                        <Setter Property="Visibility" Value="Visible" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                                <Setter Property="Visibility" Value="Hidden" />
+                                            </Style>
+                                        </StackPanel.Style>
+                                        <Button Command="{x:Static root:Constants.MoveItemUpCommand}">
+                                            <Button.CommandParameter>
+                                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                    <Binding Path="DataContext.DialogueKeys" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                    <Binding Path="ItemsSource" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                    <Binding Path="." />
+                                                </MultiBinding>
+                                            </Button.CommandParameter>
+                                            <Rectangle Width="16" Height="16" Fill="{StaticResource UpArrowIcon}" />
+                                        </Button>
+                                        <Button Command="{x:Static root:Constants.MoveItemDownCommand}">
+                                            <Button.CommandParameter>
+                                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                    <Binding Path="DataContext.DialogueKeys" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                    <Binding Path="ItemsSource" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                    <Binding Path="." />
+                                                </MultiBinding>
+                                            </Button.CommandParameter>
+                                            <Rectangle Width="16" Height="16" Fill="{StaticResource DownArrowIcon}" />
+                                        </Button>
+                                        <Button Command="{x:Static root:Constants.DeleteItemCommand}">
+                                            <Button.CommandParameter>
+                                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                    <Binding Path="DataContext.DialogueKeys" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                    <Binding Path="." />
+                                                </MultiBinding>
+                                            </Button.CommandParameter>
+                                            <Rectangle Width="16" Height="16"  Fill="{StaticResource DeleteIcon}" />
+                                        </Button>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                        <ListBox.InputBindings>
+                            <KeyBinding Modifiers="Alt"
+                                        Key="Up"
+                                        Command="{x:Static root:Constants.MoveItemUpCommand}">
+                                <KeyBinding.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                        <Binding Path="DialogueKeys" />
+                                        <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </KeyBinding.CommandParameter>
+                            </KeyBinding>
+                            <KeyBinding Modifiers="Alt"
+                                        Key="Down"
+                                        Command="{x:Static root:Constants.MoveItemDownCommand}">
+                                <KeyBinding.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                        <Binding Path="DialogueKeys" />
+                                        <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </KeyBinding.CommandParameter>
+                            </KeyBinding>
+                            <KeyBinding Key="Delete"
+                                        Command="{x:Static root:Constants.DeleteItemCommand}">
+                                <KeyBinding.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                        <Binding Path="DialogueKeys" />
+                                        <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </KeyBinding.CommandParameter>
+                            </KeyBinding>
+                            <KeyBinding Modifiers="Shift"
+                                        Key="Delete"
+                                        Command="{x:Static root:Constants.DeleteItemCommand}">
+                                <KeyBinding.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                        <Binding Path="DialogueKeys" />
+                                        <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </KeyBinding.CommandParameter>
+                            </KeyBinding>
+                            <KeyBinding Modifiers="Ctrl"
+                                        Key="D"
+                                        Command="{x:Static root:Constants.DuplicateItemCommand}">
+                                <KeyBinding.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                        <Binding Path="DialogueKeys" />
+                                        <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                                    </MultiBinding>
+                                </KeyBinding.CommandParameter>
+                            </KeyBinding>
+                        </ListBox.InputBindings>
+                    </ListBox>
+                </Grid>
+            </controls:StringEditableExpander>
+            <Button Grid.Row="1"
+                    Command="{Binding SelectedKeyItem.UndoCommand}" IsEnabled="{Binding SelectedKeyItem.IsDirty}"
+                    Width="100" HorizontalAlignment="Right"
+                    Content="Undo"/>
+        </Grid>
     </Grid>
 </UserControl>
