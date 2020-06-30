@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Xml;
+﻿using System.Collections.Generic;
 
 namespace MapEditor.Models.Elements
 {
     public class MailDefinition
     {
-        public string Sender { get; set; }
-        public string Subject { get; set; }
+        public string SenderKey { get; set; }
+        public string SubjectKey { get; set; }
 
-        public string Name => $"{this.Sender}: {this.Subject}";
+        public List<string> DialogueKeys { get; set; }
+
+        public string Name => $"{Constants.TranslationService.Translate(this.SenderKey).Text}: {Constants.TranslationService.Translate(this.SubjectKey).Text}";
     }
 }

@@ -193,7 +193,5 @@ namespace MapEditor.ViewModels
         }
 
         public Action<MapEventPage> PageSetterAction { get; set; }
-
-
     }
 }

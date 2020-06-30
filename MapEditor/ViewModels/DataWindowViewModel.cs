@@ -5,12 +5,20 @@ namespace MapEditor.ViewModels
 {
     public class DataWindowViewModel : ViewModelBase
     {
+        private int selectedTabIndex;
+
         public DataWindowViewModel()
         {
             this.MessagesDataViewModel = new MessagesDataViewModel();
             this.KeyItemDataViewModel = new KeyItemDataViewModel();
             this.MailDataViewModel = new MailDataViewModel();
             this.CharacterInfoDataViewModel = CharacterInfoRenderer.ViewModel;
+        }
+
+        public int SelectedTabIndex
+        {
+            get { return this.selectedTabIndex; }
+            set { this.SetValue(ref this.selectedTabIndex, value); }
         }
 
         public MessagesDataViewModel MessagesDataViewModel { get; }

@@ -487,19 +487,27 @@ namespace MapEditor
             var languageDoc = new XmlDocument();
             languageDoc.Load($"data/data/KeyItems.xml");
 
-            var characterNodes = languageDoc.SelectNodes("data/KeyItem");
-            foreach (XmlNode characterNode in characterNodes)
+            var keyItemNodes = languageDoc.SelectNodes("data/KeyItem");
+            foreach (XmlNode keyItemNode in keyItemNodes)
             {
-                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+                var index = int.Parse(keyItemNode?.Attributes["Index"]?.Value ?? "-1");
 
                 if (index == -1)
                 {
                     throw new InvalidOperationException("Invalid Key Item index.");
                 }
 
-                var name = Constants.TranslationService.Translate(characterNode?.Attributes["Name"].Value);
+                var nameKey = keyItemNode?.Attributes["Name"].Value;
 
-                KeyItemDefinitions[index] = new KeyItemDefinition { Name = name };
+                var info = new List<string>();
+                var dialogueNodes = keyItemNode.ChildNodes;
+                var dialogueKeys = new List<string>();
+                foreach (XmlNode dialogueXml in dialogueNodes)
+                {
+                    dialogueKeys.Add(dialogueXml.Attributes["Key"].Value);
+                }
+
+                KeyItemDefinitions[index] = new KeyItemDefinition { NameKey = nameKey, DialogueKeys = dialogueKeys };
             }
         }
 
@@ -508,20 +516,28 @@ namespace MapEditor
             var languageDoc = new XmlDocument();
             languageDoc.Load($"data/data/Mail.xml");
 
-            var characterNodes = languageDoc.SelectNodes("data/Mail");
-            foreach (XmlNode characterNode in characterNodes)
+            var mailNodes = languageDoc.SelectNodes("data/Mail");
+            foreach (XmlNode mailNode in mailNodes)
             {
-                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+                var index = int.Parse(mailNode?.Attributes["Index"]?.Value ?? "-1");
 
                 if (index == -1)
                 {
                     throw new InvalidOperationException("Invalid Key Item index.");
                 }
 
-                var subject = Constants.TranslationService.Translate(characterNode?.Attributes["Subject"].Value);
-                var sender = Constants.TranslationService.Translate(characterNode?.Attributes["Sender"].Value);
+                var subjectKey = mailNode?.Attributes["Subject"].Value;
+                var senderKey = mailNode?.Attributes["Sender"].Value;
 
-                MailDefinitions[index] = new MailDefinition { Subject = subject, Sender = sender };
+                var info = new List<string>();
+                var dialogueNodes = mailNode.ChildNodes;
+                var dialogueKeys = new List<string>();
+                foreach (XmlNode dialogueXml in dialogueNodes)
+                {
+                    dialogueKeys.Add(dialogueXml.Attributes["Key"].Value);
+                }
+
+                MailDefinitions[index] = new MailDefinition { SubjectKey = subjectKey, SenderKey = senderKey, DialogueKeys = dialogueKeys };
             }
         }
 

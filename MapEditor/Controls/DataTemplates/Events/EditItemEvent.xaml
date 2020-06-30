@@ -2,8 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
                     xmlns:editor="clr-namespace:MapEditor"
-                    xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
-                    xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions">
+                    xmlns:core="clr-namespace:MapEditor.Core">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
@@ -39,6 +38,7 @@
                         Height="22"
                         IsChecked="{Binding IsAdding, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
             </Grid>
+            <Button Command="{x:Static core:DataWindow.OpenKeyItemTabCommand}" Content="Open Key Item Data Editor" />
         </StackPanel>
     </DataTemplate>
 </ResourceDictionary>

@@ -21,23 +21,23 @@ namespace NSGame
             var languageDoc = new XmlDocument();
             languageDoc.Load($"data/data/Mail.xml");
 
-            var characterNodes = languageDoc.SelectNodes("data/Mail");
-            foreach (XmlNode characterNode in characterNodes)
+            var mailNodes = languageDoc.SelectNodes("data/Mail");
+            foreach (XmlNode mailNode in mailNodes)
             {
-                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+                var index = int.Parse(mailNode?.Attributes["Index"]?.Value ?? "-1");
 
                 if (index == -1)
                 {
                     throw new InvalidOperationException("Invalid Key Item index.");
                 }
 
-                var subject = ShanghaiEXE.Translate(characterNode?.Attributes["Subject"].Value);
-                var sender = ShanghaiEXE.Translate(characterNode?.Attributes["Sender"].Value);
+                var subject = ShanghaiEXE.Translate(mailNode?.Attributes["Subject"].Value);
+                var sender = ShanghaiEXE.Translate(mailNode?.Attributes["Sender"].Value);
 
                 var dialogues = new List<Dialogue>();
 
                 var info = new List<string>();
-                var dialogueNodes = characterNode.ChildNodes;
+                var dialogueNodes = mailNode.ChildNodes;
                 foreach (XmlNode dialogueXml in dialogueNodes)
                 {
                     dialogues.Add(ShanghaiEXE.Translate(dialogueXml.Attributes["Key"].Value));

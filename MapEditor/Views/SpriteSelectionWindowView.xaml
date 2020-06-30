@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:core="clr-namespace:MapEditor.Core"
         xmlns:rendering="clr-namespace:MapEditor.Rendering"
         xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
@@ -228,6 +229,7 @@
                                                                  IsChecked="{Binding Path=Angle, Converter={StaticResource EnumEqualityToBooleanConverter}, ConverterParameter={x:Static enums:AngleTypeNumber.East}}" />
                                                 </UniformGrid>
                                             </Grid>
+                                            <Button Command="{x:Static core:DataWindow.OpenCharacterInfoTabCommand}" Content="Open Character Info Data Editor" />
                                         </StackPanel>
                                     </Setter.Value>
                                 </Setter>

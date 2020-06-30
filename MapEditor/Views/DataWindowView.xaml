@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Data Browser" Height="450" Width="900">
     <Grid>
-        <TabControl>
+        <TabControl SelectedIndex="{Binding SelectedTabIndex}">
             <TabItem Header="Messages">
                 <local:MessagesDataView DataContext="{Binding MessagesDataViewModel}" />
             </TabItem>

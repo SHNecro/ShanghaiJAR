@@ -1,5 +1,6 @@
 ﻿using MapEditor.ViewModels;
 using MapEditor.Views;
+using System.Windows.Input;
 
 namespace MapEditor.Core
 {
@@ -29,5 +30,15 @@ namespace MapEditor.Core
         {
             DataWindow.WindowInstance.Show();
         }
+
+        private static void ShowWindow(int tabIndex)
+        {
+            ShowWindow();
+            DataWindow.Instance.SelectedTabIndex = tabIndex;
+        }
+
+        public static ICommand OpenKeyItemTabCommand => new RelayCommand(() => DataWindow.ShowWindow(1));
+        public static ICommand OpenMailTabCommand => new RelayCommand(() => DataWindow.ShowWindow(2));
+        public static ICommand OpenCharacterInfoTabCommand => new RelayCommand(() => DataWindow.ShowWindow(3));
     }
 }

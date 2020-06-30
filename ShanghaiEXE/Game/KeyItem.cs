@@ -36,20 +36,20 @@ namespace NSGame
             var languageDoc = new XmlDocument();
             languageDoc.Load($"data/data/KeyItems.xml");
 
-            var characterNodes = languageDoc.SelectNodes("data/KeyItem");
-            foreach (XmlNode characterNode in characterNodes)
+            var keyItemNodes = languageDoc.SelectNodes("data/KeyItem");
+            foreach (XmlNode keyItemNode in keyItemNodes)
             {
-                var index = int.Parse(characterNode?.Attributes["Index"]?.Value ?? "-1");
+                var index = int.Parse(keyItemNode?.Attributes["Index"]?.Value ?? "-1");
 
                 if (index == -1)
                 {
                     throw new InvalidOperationException("Invalid Key Item index.");
                 }
 
-                var name = ShanghaiEXE.Translate(characterNode?.Attributes["Name"].Value);
+                var name = ShanghaiEXE.Translate(keyItemNode?.Attributes["Name"].Value);
 
                 var info = new List<string>();
-                var dialogues = characterNode.ChildNodes;
+                var dialogues = keyItemNode.ChildNodes;
                 foreach (XmlNode dialogueXml in dialogues)
                 {
                     var dialogue = ShanghaiEXE.Translate(dialogueXml.Attributes["Key"].Value);

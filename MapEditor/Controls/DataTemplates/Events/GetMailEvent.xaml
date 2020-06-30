@@ -2,8 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
                     xmlns:editor="clr-namespace:MapEditor"
-                    xmlns:controls="clr-namespace:MapEditor.Controls"
-                    xmlns:validationrules="clr-namespace:MapEditor.Core.ValidationRules">
+                    xmlns:core="clr-namespace:MapEditor.Core">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
@@ -39,6 +38,7 @@
                           Height="22"
                           IsChecked="{Binding IsPlayingEffect, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
             </Grid>
+            <Button Command="{x:Static core:DataWindow.OpenMailTabCommand}" Content="Open Mail Data Editor" />
         </StackPanel>
     </DataTemplate>
 </ResourceDictionary>
