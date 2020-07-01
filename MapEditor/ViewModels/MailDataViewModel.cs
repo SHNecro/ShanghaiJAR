@@ -106,7 +106,7 @@ namespace MapEditor.ViewModels
                     mailItemNode.Attributes.Append(senderAttribute);
 
                     var subjectAttribute = xmlDoc.CreateAttribute("Subject");
-                    subjectAttribute.Value = mailItem.SenderKey;
+                    subjectAttribute.Value = mailItem.SubjectKey;
                     mailItemNode.Attributes.Append(subjectAttribute);
 
                     foreach (var dialogue in mailItem.DialogueKeys)
