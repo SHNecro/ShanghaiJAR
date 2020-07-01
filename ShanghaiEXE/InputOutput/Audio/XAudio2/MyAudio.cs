@@ -1,5 +1,4 @@
-﻿using NSGame;
-using SlimDX.Multimedia;
+﻿using SlimDX.Multimedia;
 using SlimDX.XAudio2;
 using System;
 using System.Collections.Generic;
@@ -30,7 +29,6 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
         private readonly List<string> soundNames = new List<string>();
         private readonly List<WaveStream> musicstream = new List<WaveStream>();
         private readonly List<string> musicNames = new List<string>();
-        private ShanghaiEXE parent;
         private WaveOut waveOut;
         private byte music_timer;
         private bool musicPlay;
@@ -52,9 +50,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public float SoundEffectVolume { get; set; }
 
-        public MyAudio(ShanghaiEXE parent)
+        public MyAudio(float soundEffectVolume)
         {
-            this.parent = parent;
             DirectoryInfo directoryInfo = new DirectoryInfo("music");
             int length = 0;
             foreach (FileInfo file in directoryInfo.GetFiles())
@@ -71,7 +68,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
                 this.waveOut = new WaveOut(-1, 44100, 16, 2);
                 this.xaDevice = new SlimDX.XAudio2.XAudio2();
                 this.xaMaster = new MasteringVoice(this.xaDevice);
-                this.SoundEffectVolume = parent.volSE;
+                this.SoundEffectVolume = soundEffectVolume;
             }
             catch
             {

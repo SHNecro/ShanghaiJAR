@@ -380,7 +380,7 @@ namespace NSGame
             ShanghaiEXE.measurer = this.dg.GetTextMeasurer();
 
             this.UpdateLoadingText(LoadType.Audio, 25);
-            this.ad = new MyAudio(this);
+            this.ad = new MyAudio(this.volSE);
             this.ad.BGMVolume = this.volBGM;
             this.ad.SoundEffectVolume = this.volSE;
             this.ad.ProgressUpdated += this.AudioLoad_ProgressUpdate;
