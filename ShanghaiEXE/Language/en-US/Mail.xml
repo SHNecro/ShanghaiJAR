@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Mail.Mail1Title" Value="Net Crime Alert!" Mono="True" />
   <Text Key="Mail.Mail1Sender" Value="E-News" Mono="True" />
@@ -139,7 +139,7 @@
   <Dialogue Key="Mail.Mail20Dialogue1" Value="Wing Style,Detailed Explanation...." Face="None" Mono="True" />
   <Dialogue Key="Mail.Mail20Dialogue2" Value="◆ Change Conditions 1 ◆,Move onto elemental panels,Use panel-changing chips" Face="None" Mono="True" />
   <Dialogue Key="Mail.Mail20Dialogue3" Value="◆ Change Conditions 2 ◆,Use panel-cracking chips" Face="None" Mono="True" />
-  <Dialogue Key="Mail.Mail20Dialogue4" Value="◆Special Abilities 1◆,Unaffected by holes，winds，,and special panels" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue4" Value="◆ Special Abilities 1 ◆,Unaffected by holes，winds，,and special panels" Face="None" Mono="True" />
   <Dialogue Key="Mail.Mail20Dialogue5" Value="◆ Special Abilities 2 ◆,Once per turn，with no chips,left，press A to evade" Face="None" Mono="True" />
   <Dialogue Key="Mail.Mail20Dialogue6" Value="◆ Charge: Tornado ◆,8 hits 2 panels ahead!,Improved by sand panels" Face="None" Mono="True" />
   <Text Key="Mail.Mail21Title" Value="Witch Style" Mono="True" />
@@ -156,7 +156,7 @@
   <Dialogue Key="Mail.Mail22Dialogue3" Value="I’ll be conducting a debriefing,on the matter on the second,floor of the Agent Center." Face="Sagume" Mono="True" />
   <Dialogue Key="Mail.Mail22Dialogue4" Value="You’re not a NetAgent，but,I’d still like you to participate." Face="Sagume" Mono="True" />
   <Dialogue Key="Mail.Mail22Dialogue5" Value="It’s okay if you can’t make it，,but please come to the Agent,Center if you can." Face="Sagume" Mono="True" />
-  <Dialogue Key="Mail.Mail22Dialogue6" Value="" Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue6" Value="- Sagume Kishin" Face="Sagume" Mono="True" />
   <Text Key="Mail.Mail23Title" Value="Sorry to bother you" Mono="True" />
   <Text Key="Mail.Mail23Sender" Value="Henchie" Mono="True" />
   <Dialogue Key="Mail.Mail23Dialogue1" Value="Excuse me，Mistress Shanghai.,I have something confidential,for your ears only." Face="Henchie" Mono="True" />

@@ -12,18 +12,20 @@ using System.Windows.Input;
 
 namespace MapEditor.ViewModels
 {
-    public class KeyItemViewModel : StringRepresentation
+    public class MailItemViewModel : StringRepresentation
     {
         private int index;
-        private string nameKey;
+        private string senderKey;
+        private string subjectKey;
         private Wrapper<string> selectedDialogue;
 
         private string initialStringValue;
 
-        public KeyItemViewModel()
+        public MailItemViewModel()
         {
             this.index = -1;
-            this.nameKey = "Debug.UnimplementedText";
+            this.senderKey = "Debug.UnimplementedText";
+            this.subjectKey = "Debug.UnimplementedText";
             this.DialogueKeys = new ObservableCollection<Wrapper<string>>();
             this.DialogueKeys.CollectionChanged += CollectionChanged;
             this.RegisterDialogueKeys();
@@ -31,11 +33,12 @@ namespace MapEditor.ViewModels
             this.initialStringValue = string.Empty;
         }
 
-        public KeyItemViewModel(int index, KeyItemDefinition keyItemDefinition)
+        public MailItemViewModel(int index, MailDefinition mailDefinition)
         {
             this.index = index;
-            this.nameKey = keyItemDefinition.NameKey;
-            this.DialogueKeys = new ObservableCollection<Wrapper<string>>(keyItemDefinition.DialogueKeys.Select(k => k.Wrap()) ?? new List<Wrapper<string>>());
+            this.senderKey = mailDefinition.SenderKey;
+            this.subjectKey = mailDefinition.SubjectKey;
+            this.DialogueKeys = new ObservableCollection<Wrapper<string>>(mailDefinition.DialogueKeys.Select(k => k.Wrap()) ?? new List<Wrapper<string>>());
             this.DialogueKeys.CollectionChanged += CollectionChanged;
             this.RegisterDialogueKeys();
 
@@ -61,16 +64,30 @@ namespace MapEditor.ViewModels
             }
         }
 
-        public string NameKey
+        public string SenderKey
         {
             get
             {
-                return this.nameKey;
+                return this.senderKey;
             }
 
             set
             {
-                this.SetValue(ref this.nameKey, value);
+                this.SetValue(ref this.senderKey, value);
+                this.Refresh();
+            }
+        }
+
+        public string SubjectKey
+        {
+            get
+            {
+                return this.subjectKey;
+            }
+
+            set
+            {
+                this.SetValue(ref this.subjectKey, value);
                 this.Refresh();
             }
         }
@@ -83,7 +100,7 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref this.selectedDialogue, value); }
         }
 
-        public string Name => Constants.TranslationService.Translate(this.NameKey).Text;
+        public string Name => Constants.TranslationService.Translate(this.SenderKey).Text + ": " + Constants.TranslationService.Translate(this.SubjectKey).Text;
 
         public bool IsDirty => this.initialStringValue != this.StringValue;
 
@@ -110,12 +127,12 @@ namespace MapEditor.ViewModels
         protected override string GetStringValue()
         {
             var stringValueBuilder = new StringBuilder();
-            stringValueBuilder.AppendLine($"<KeyItem Index=\"{this.Index}\" Name=\"{this.NameKey}\">");
+            stringValueBuilder.AppendLine($"<Mail Index=\"{this.Index}\" Sender=\"{this.SenderKey}\" Sender=\"{this.SubjectKey}\">");
             foreach (var dialogueKey in this.DialogueKeys)
             {
                 stringValueBuilder.AppendLine($"  <Dialogue Key=\"{dialogueKey.Value}\" />");
             }
-            stringValueBuilder.AppendLine("</KeyItem>");
+            stringValueBuilder.AppendLine("</Mail>");
 
             return stringValueBuilder.ToString();
         }
@@ -128,15 +145,17 @@ namespace MapEditor.ViewModels
             );
 
             var newIndex = 0;
-            var newNameKey = string.Empty;
+            var newSenderKey = string.Empty;
+            var newSubjectKey = string.Empty;
             var newDialogueKeys = new List<string>();
 
             var openTagMatch = default(Match);
             this.Validate(lines, "Empty key item", l => l.Length > 0);
             if (this.HasErrors) return;
-            this.Validate(lines[0], "Malformed key item open", l => (openTagMatch = Regex.Match(l, @"<KeyItem Index=""(\d+)"" Name=""([^""]+)"">")).Success);
+            this.Validate(lines[0], "Malformed key item open", l => (openTagMatch = Regex.Match(l, @"<Mail Index=""(\d+)"" Subject=""([^""]+)"" Sender=""([^""]+)"">")).Success);
             newIndex = int.Parse(openTagMatch.Groups[1].Value);
-            newNameKey = openTagMatch.Groups[2].Value;
+            newSenderKey = openTagMatch.Groups[2].Value;
+            newSubjectKey = openTagMatch.Groups[3].Value;
             if (this.HasErrors) return;
 
             for (int i = 0; i < lines.Length; i++)
@@ -150,7 +169,7 @@ namespace MapEditor.ViewModels
 
                 if (i == lines.Length - 1)
                 {
-                    this.Validate(line, "Malformed key item close", l => Regex.IsMatch(l, @"</KeyItem>"));
+                    this.Validate(line, "Malformed key item close", l => Regex.IsMatch(l, @"</Mail>"));
                     if (this.HasErrors) return;
                     continue;
                 }
@@ -162,7 +181,8 @@ namespace MapEditor.ViewModels
             }
 
             this.Index = newIndex;
-            this.NameKey = newNameKey;
+            this.SenderKey = newSenderKey;
+            this.SubjectKey = newSubjectKey;
             this.DialogueKeys.Clear();
             foreach (var k in newDialogueKeys)
             {
