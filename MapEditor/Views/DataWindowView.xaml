@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MapEditor.Views"
         mc:Ignorable="d"
-        Title="Data Browser" Height="450" Width="900">
+        Title="Data Browser" Height="450" Width="1200">
     <Grid>
         <TabControl SelectedIndex="{Binding SelectedTabIndex}">
             <TabItem Header="Messages">
@@ -49,6 +49,19 @@
                     </Style>
                 </TabItem.Style>
                 <local:CharacterInfoDataView DataContext="{Binding CharacterInfoDataViewModel}" />
+            </TabItem>
+            <TabItem>
+                <TabItem.Style>
+                    <Style TargetType="TabItem">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding CharacterInfoDataViewModel.IsDirty}" Value="True">
+                                <Setter Property="Header" Value="BGM*" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                        <Setter Property="Header" Value="BGM" />
+                    </Style>
+                </TabItem.Style>
+                <local:BGMDataView DataContext="{Binding BGMDataViewModel}" />
             </TabItem>
         </TabControl>
     </Grid>

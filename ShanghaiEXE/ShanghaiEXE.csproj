@@ -1462,7 +1462,9 @@
     <Content Include="Sounds\menuopen.wav" />
     <Content Include="Sounds\message.wav" />
     <Content Include="Sounds\movecursol.wav" />
+    <Content Include="Sounds\Music\ending.ogg" />
     <Content Include="Sounds\Music\heavenbackground.ogg" />
+    <Content Include="Sounds\Music\LastBattle.ogg" />
     <Content Include="Sounds\noise.wav" />
     <Content Include="Sounds\openchip.wav" />
     <Content Include="Sounds\pause.wav" />

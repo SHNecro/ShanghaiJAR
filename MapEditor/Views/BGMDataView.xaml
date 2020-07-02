@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="MapEditor.Views.BGMDataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MapEditor.Views"
+             xmlns:controls="clr-namespace:MapEditor.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="3" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ListBox Grid.Column="0"
+                 ItemsSource="{Binding BGM}"
+                 SelectedItem="{Binding SelectedBGM}"
+                 DisplayMemberPath="Label">
+            
+        </ListBox>
+
+        <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <StackPanel Grid.Column="2" Orientation="Vertical"
+                    DataContext="{Binding SelectedBGM}">
+            <GroupBox Header="Name">
+                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+            </GroupBox>
+            
+            <GroupBox Header="Loop Start">
+                <controls:WheelCaptureIntegerUpDown Value="{Binding LoopStart, UpdateSourceTrigger=PropertyChanged}" />
+            </GroupBox>
+
+            <GroupBox Header="Loop End">
+                <controls:WheelCaptureIntegerUpDown Value="{Binding LoopEnd, UpdateSourceTrigger=PropertyChanged}" />
+            </GroupBox>
+
+            <Grid Height="75">
+                <Grid.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Margin" Value="3" />
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                        Content="▶ Play"
+                        Command="{Binding PlayCommand}" />
+                
+                <Button Grid.Row="0" Grid.Column="1"
+                        Content="■ Stop"
+                        Command="{Binding StopCommand}" />
+                
+                <Button Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"
+                        Content="Save"
+                        Command="{Binding SaveCommand}" />
+            </Grid>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

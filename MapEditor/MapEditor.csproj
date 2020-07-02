@@ -221,6 +221,8 @@
     <Compile Include="Rendering\AddEditTranslationRenderer.Drawing.cs" />
     <Compile Include="Rendering\CharacterInfoRenderer.cs" />
     <Compile Include="Rendering\CharacterInfoRenderer.Drawing.cs" />
+    <Compile Include="ViewModels\BGMDataViewModel.cs" />
+    <Compile Include="ViewModels\BGMViewModel.cs" />
     <Compile Include="ViewModels\CharacterInfoDataViewModel.cs" />
     <Compile Include="ViewModels\DataWindowViewModel.cs" />
     <Compile Include="ViewModels\KeyItemDataViewModel.cs" />
@@ -360,6 +362,9 @@
     <Compile Include="ViewModels\MapSelectionWindowViewModel.cs" />
     <Compile Include="ViewModels\DataDumpWindowViewModel.cs" />
     <Compile Include="ViewModels\TranslationKeySelectionWindowViewModel.cs" />
+    <Compile Include="Views\BGMDataView.xaml.cs">
+      <DependentUpon>BGMDataView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\CharacterInfoDataView.xaml.cs">
       <DependentUpon>CharacterInfoDataView.xaml</DependentUpon>
     </Compile>
@@ -705,6 +710,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\BGMDataView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\CharacterInfoDataView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -873,6 +882,10 @@
   "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE\MapData" "$(TargetDir)data"
   mkdir "$(TargetDir)data\data"
   xcopy "$(SolutionDir)ShanghaiEXE\Data\data\*" "data\data\" /s /d /y
+  mkdir "$(TargetDir)mod"
+  xcopy "$(SolutionDir)ShanghaiEXE\ShanghaiEXE\Files\mod\music\*" "mod\" /s /d /y
+  mkdir "$(TargetDir)music"
+  xcopy "$(SolutionDir)ShanghaiEXE\Sounds\Music\*" "music\" /s /d /y
   "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Graphics" "$(TargetDir)ShaG"
 
   mkdir "$(TargetDir)language"

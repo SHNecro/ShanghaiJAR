@@ -13,6 +13,7 @@ namespace MapEditor.ViewModels
             this.KeyItemDataViewModel = new KeyItemDataViewModel();
             this.MailDataViewModel = new MailDataViewModel();
             this.CharacterInfoDataViewModel = CharacterInfoRenderer.ViewModel;
+            this.BGMDataViewModel = new BGMDataViewModel();
         }
 
         public int SelectedTabIndex
@@ -28,5 +29,7 @@ namespace MapEditor.ViewModels
         public MailDataViewModel MailDataViewModel { get; }
 
         public CharacterInfoDataViewModel CharacterInfoDataViewModel { get; }
+
+        public BGMDataViewModel BGMDataViewModel { get; }
     }
 }
