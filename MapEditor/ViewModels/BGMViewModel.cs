@@ -71,14 +71,11 @@ namespace MapEditor.ViewModels
             var newFile = entries[3];
 
             this.Validate(newFile, $"Missing bgm file {newFile}", f => System.IO.File.Exists(Path.Combine("music", newFile + ".ogg")));
-
-            //if (!this.HasErrors)
-            //{
-                this.LoopStart = newLoopStart;
-                this.LoopEnd = newLoopEnd;
-                this.Name = newName;
-                this.File = newFile;
-            //}
+            
+            this.LoopStart = newLoopStart;
+            this.LoopEnd = newLoopEnd;
+            this.Name = newName;
+            this.File = newFile;
         }
     }
 }

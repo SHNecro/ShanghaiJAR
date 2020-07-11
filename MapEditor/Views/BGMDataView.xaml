@@ -4,9 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MapEditor.Views"
+             xmlns:viewModels="clr-namespace:MapEditor.ViewModels"
              xmlns:controls="clr-namespace:MapEditor.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="300" d:DesignWidth="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -16,56 +17,166 @@
 
         <ListBox Grid.Column="0"
                  ItemsSource="{Binding BGM}"
-                 SelectedItem="{Binding SelectedBGM}"
-                 DisplayMemberPath="Label">
-            
+                 SelectedItem="{Binding SelectedBGM}">
+            <ListBox.ItemTemplate>
+                <DataTemplate DataType="{x:Type viewModels:BGMViewModel}">
+                    <Border>
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding HasErrors}" Value="True">
+                                        <Setter Property="Background" Value="#FFFF4040" />
+                                        <Setter Property="ToolTip">
+                                            <Setter.Value>
+                                                <ItemsControl ItemsSource="{Binding Errors}" />
+                                            </Setter.Value>
+                                        </Setter>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                        <TextBlock Text="{Binding Label}" />
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
         </ListBox>
 
         <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
 
-        <StackPanel Grid.Column="2" Orientation="Vertical"
-                    DataContext="{Binding SelectedBGM}">
-            <GroupBox Header="Name">
+        <DockPanel Grid.Column="2" LastChildFill="False"
+                   DataContext="{Binding SelectedBGM}">
+            <GroupBox DockPanel.Dock="Top" Header="Name">
                 <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
             </GroupBox>
-            
-            <GroupBox Header="Loop Start">
+
+            <GroupBox DockPanel.Dock="Top" Header="Loop Start">
                 <controls:WheelCaptureIntegerUpDown Value="{Binding LoopStart, UpdateSourceTrigger=PropertyChanged}" />
             </GroupBox>
 
-            <GroupBox Header="Loop End">
+            <GroupBox DockPanel.Dock="Top" Header="Loop End">
                 <controls:WheelCaptureIntegerUpDown Value="{Binding LoopEnd, UpdateSourceTrigger=PropertyChanged}" />
             </GroupBox>
 
-            <Grid Height="75">
-                <Grid.Resources>
-                    <Style TargetType="Button">
-                        <Setter Property="Margin" Value="3" />
-                    </Style>
-                </Grid.Resources>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
+            <Button DockPanel.Dock="Bottom"
+                    Content="Save"
+                    DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}"
+                    Command="{Binding SaveCommand}" />
+            
+            <GroupBox DockPanel.Dock="Bottom"
+                      Padding="5"
+                      DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}">
+                <GroupBox.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Playback" />
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel.Style>
+                                <Style TargetType="StackPanel">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding PlayingBGM}" Value="{x:Null}">
+                                            <Setter Property="Visibility" Value="Collapsed" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </StackPanel.Style>
+                            <TextBlock Text=" - " />
+                            <TextBlock Text="{Binding PlayingBGM.Label}" />
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox.Header>
+                <StackPanel Orientation="Vertical">
+                    <Grid DataContext="{Binding OggProgress}">
+                        <ProgressBar Grid.Row="1" Minimum="0" Maximum="{Binding TotalSamples}"
+                             Value="{Binding ProgressSamples, Mode=OneWay}" />
+                        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                            <TextBlock>
+                        <Run Text="{Binding ProgressTimeString, Mode=OneWay}" />
+                        <Run Text="/" />
+                        <Run Text="{Binding TotalTimeString, Mode=OneWay}" />
+                        <Run Text=" (" />
+                        <Run Text="{Binding ProgressSamples, Mode=OneWay}" />
+                        <Run Text="/" />
+                        <Run Text="{Binding TotalSamples, Mode=OneWay}" />
+                        <Run Text=")" />
+                            </TextBlock>
+                        </StackPanel>
+                    </Grid>
 
-                <Button Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
-                        Content="▶ Play"
-                        Command="{Binding PlayCommand}" />
-                
-                <Button Grid.Row="0" Grid.Column="1"
-                        Content="■ Stop"
-                        Command="{Binding StopCommand}" />
-                
-                <Button Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"
-                        Content="Save"
-                        Command="{Binding SaveCommand}" />
-            </Grid>
-        </StackPanel>
-        
+                    <Grid Grid.IsSharedSizeScope="True">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition SharedSizeGroup="LabelColumn" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition SharedSizeGroup="LabelColumn" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="Volume:" HorizontalAlignment="Center" />
+                        <TextBlock Grid.Column="1" Text="0 %" HorizontalAlignment="Center" />
+                        <Slider Grid.Column="2" Minimum="0" Maximum="1"
+                                TickFrequency="0.05"
+                                AutoToolTipPlacement="TopLeft"
+                                AutoToolTipPrecision="2"
+                                IsSnapToTickEnabled="True"
+                                LargeChange="0.4"
+                                SmallChange="0.1"
+                                IsMoveToPointEnabled="True"
+                                Value="{Binding Volume}" />
+                        <TextBlock Grid.Column="3" Text="100 %" HorizontalAlignment="Center" />
+                    </Grid>
+
+                    <Grid Height="75" DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}">
+                        <Grid.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="Margin" Value="3" />
+                            </Style>
+                        </Grid.Resources>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button Grid.Column="0" 
+                                Command="{Binding PlayPauseCommand}">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock>
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding IsPlaying}" Value="True">
+                                                    <Setter Property="Text" Value="❚❚ Pause" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="Text" Value="▶ Play" />
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                                <CheckBox Content="Loop" Margin="10,0,-20,0"
+                                          IsChecked="{Binding IsLooping}">
+                                    <CheckBox.Style>
+                                        <Style TargetType="CheckBox">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding IsPlaying}" Value="True">
+                                                    <Setter Property="IsEnabled" Value="False" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="IsEnabled" Value="True" />
+                                        </Style>
+                                    </CheckBox.Style>
+                                </CheckBox>
+                            </StackPanel>
+                        </Button>
+
+                        <Button Grid.Row="0" Grid.Column="1"
+                                Content="■ Stop"
+                                Command="{Binding StopCommand}" />
+                    </Grid>
+                </StackPanel>
+            </GroupBox>
+        </DockPanel>
+
     </Grid>
 </UserControl>

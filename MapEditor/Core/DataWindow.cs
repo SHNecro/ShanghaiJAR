@@ -21,6 +21,7 @@ namespace MapEditor.Core
             DataWindow.WindowInstance.Closing += (s, e) =>
             {
                 e.Cancel = true;
+                DataWindow.Instance.Remove();
                 DataWindow.WindowInstance.Hide();
             };
             DataWindow.WindowInstance.DataContext = DataWindow.Instance;
