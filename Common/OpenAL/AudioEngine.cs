@@ -13,8 +13,8 @@ namespace Common.OpenAL
     public class AudioEngine : IDisposable
     {
         #region Fields
-        private const int OggBufferCount = 3;
-        private const double OggBufferSize = 0.25;
+        private const int OggBufferCount = 10;
+        private const double OggBufferSize = 0.1;
 
         // AudioContext.Dispose causes popping sound
         private readonly AudioContext sharedContext;
@@ -199,11 +199,6 @@ namespace Common.OpenAL
                 throw new InvalidOperationException("Invalid .ogg file");
             }
 
-            if (this.oggProgress < 0 || this.oggProgress >= this.oggLoopEnd)
-            {
-                this.OggSeek(this.oggLoopStart);
-            }
-
             // get the channels & sample rate
             channels = vorbis.Channels;
             bits_per_sample = 16;
@@ -222,6 +217,12 @@ namespace Common.OpenAL
             var position = TimeSpan.Zero;
             this.oggTotalSamples = vorbis.TotalSamples;
 
+            var sampleEnd = isLooping ? this.oggLoopEnd : this.oggTotalSamples;
+            if (this.oggProgress < 0 || this.oggProgress >= sampleEnd)
+            {
+                this.OggSeek(0);
+            }
+
             this.UpdateOggProgress(this.oggPausePosition);
             vorbis.SeekTo(this.oggPausePosition);
 
@@ -229,6 +230,7 @@ namespace Common.OpenAL
 
             var buffers = new List<int>();
 
+            var playbackEnded = false;
             var queueThread = new Thread(() =>
             {
                 lock (this.oggQueueLock)
@@ -236,13 +238,12 @@ namespace Common.OpenAL
                     for (int i = 0; i < OggBufferCount; i++)
                     {
                         var currentBuffer = AL.GenBuffer();
-                        this.QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, this.oggLoopEnd);
+                        this.QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
                         buffers.Add(currentBuffer);
                     }
 
                     var allBuffersProcessed = false;
-
-                    while (!buffersInitialized || this.IsInProgress)
+                    while (!buffersInitialized || !playbackEnded)
                     {
                         buffersInitialized = true;
 
@@ -263,7 +264,7 @@ namespace Common.OpenAL
                             newUnqueuedSize += currentBufferSize;
 
                             AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
-                            this.QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, this.oggLoopEnd);
+                            this.QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
                             buffers.Add(currentBuffer);
                         }
 
@@ -287,7 +288,7 @@ namespace Common.OpenAL
                         this.UpdateOggProgress(adjustedProgress);
 
                         Thread.Sleep(10);
-                        allBuffersProcessed = vorbis.SamplePosition >= this.oggLoopEnd && (!isLooping);
+                        allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
                         if (isLooping)
                         {
                             if (vorbis.SamplePosition >= this.oggLoopEnd)
@@ -314,6 +315,7 @@ namespace Common.OpenAL
             this.OggPlayback?.Invoke(this, new OggPlaybackEventArgs { StateChange = ALSourceState.Playing });
             this.Play(currentSource, () =>
             {
+                playbackEnded = true;
                 lock (this.oggQueueLock)
                 {
                     foreach (var buf in buffers)

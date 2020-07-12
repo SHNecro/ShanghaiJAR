@@ -24,5 +24,10 @@ namespace MapEditor.Views
         {
             InitializeComponent();
         }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            (this.DataContext as DataWindowViewModel)?.Remove();
+        }
     }
 }

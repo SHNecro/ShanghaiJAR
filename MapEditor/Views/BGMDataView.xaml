@@ -6,8 +6,12 @@
              xmlns:local="clr-namespace:MapEditor.Views"
              xmlns:viewModels="clr-namespace:MapEditor.ViewModels"
              xmlns:controls="clr-namespace:MapEditor.Controls"
+             xmlns:converters="clr-namespace:MapEditor.Core.Converters"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="800">
+    <UserControl.Resources>
+        <converters:OggProgressBarConverter x:Key="OggProgressBarConverter" />
+    </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -85,23 +89,63 @@
                     </StackPanel>
                 </GroupBox.Header>
                 <StackPanel Orientation="Vertical">
-                    <Grid DataContext="{Binding OggProgress}">
-                        <ProgressBar Grid.Row="1" Minimum="0" Maximum="{Binding TotalSamples}"
-                             Value="{Binding ProgressSamples, Mode=OneWay}" />
-                        <StackPanel Grid.Row="1" Orientation="Horizontal"
-                            HorizontalAlignment="Center">
-                            <TextBlock>
-                        <Run Text="{Binding ProgressTimeString, Mode=OneWay}" />
-                        <Run Text="/" />
-                        <Run Text="{Binding TotalTimeString, Mode=OneWay}" />
-                        <Run Text=" (" />
-                        <Run Text="{Binding ProgressSamples, Mode=OneWay}" />
-                        <Run Text="/" />
-                        <Run Text="{Binding TotalSamples, Mode=OneWay}" />
-                        <Run Text=")" />
-                            </TextBlock>
-                        </StackPanel>
-                    </Grid>
+                    <Border BorderThickness="1" BorderBrush="Gray">
+                        <Grid DataContext="{Binding OggProgress}">
+                            <Grid>
+                                <Grid.DataContext>
+                                    <MultiBinding Converter="{StaticResource OggProgressBarConverter}">
+                                        <Binding Path="." />
+                                        <Binding Path="DataContext.PlayingBGM.LoopStart" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}" />
+                                        <Binding Path="DataContext.PlayingBGM.LoopEnd" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}" />
+                                    </MultiBinding>
+                                </Grid.DataContext>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="{Binding ProgressStar}" />
+                                        <ColumnDefinition Width="{Binding RemainingStar}" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Border Grid.Column="0" Background="Green" />
+                                </Grid>
+                                <Grid>
+                                    <Grid.Style>
+                                        <Style TargetType="Grid">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding DataContext.IsLooping, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}" Value="False">
+                                                    <Setter Property="Opacity" Value="0.3" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Grid.Style>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="{Binding LeftLoopMarginStar}" />
+                                        <ColumnDefinition Width="1" />
+                                        <ColumnDefinition Width="{Binding LoopStar}" />
+                                        <ColumnDefinition Width="1" />
+                                        <ColumnDefinition Width="{Binding RightLoopMarginStar}" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Border Grid.Column="0" Background="LightGray" Opacity="0.4" />
+                                    <Border Grid.Column="1" Background="SlateGray" />
+                                    <Border Grid.Column="3" Background="SlateGray" />
+                                    <Border Grid.Column="4" Background="LightGray" Opacity="0.4" />
+                                </Grid>
+                            </Grid>
+                            <StackPanel Orientation="Horizontal"
+                                        HorizontalAlignment="Center">
+                                <TextBlock>
+                                    <Run Text="{Binding ProgressTimeString, Mode=OneWay}" />
+                                    <Run Text="/" />
+                                    <Run Text="{Binding TotalTimeString, Mode=OneWay}" />
+                                    <Run Text=" (" />
+                                    <Run Text="{Binding ProgressSamples, Mode=OneWay}" />
+                                    <Run Text="/" />
+                                    <Run Text="{Binding TotalSamples, Mode=OneWay}" />
+                                    <Run Text=")" />
+                                </TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
 
                     <Grid Grid.IsSharedSizeScope="True">
                         <Grid.ColumnDefinitions>

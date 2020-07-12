@@ -175,6 +175,7 @@
     <Compile Include="Controls\WheelCaptureIntegerUpDown.xaml.cs">
       <DependentUpon>WheelCaptureIntegerUpDown.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Core\Converters\OggProgressBarConverter.cs" />
     <Compile Include="Core\DataWindow.cs" />
     <Compile Include="Core\Converters\ChipToChipChancesConverter.cs" />
     <Compile Include="Core\Converters\EqualsValueConverter.cs" />
