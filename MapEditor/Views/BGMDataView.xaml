@@ -27,31 +27,38 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <ListBox Grid.Column="0"
-                 ItemsSource="{Binding BGM}"
-                 SelectedItem="{Binding SelectedBGM}">
-            <ListBox.ItemTemplate>
-                <DataTemplate DataType="{x:Type viewModels:BGMViewModel}">
-                    <Border>
-                        <Border.Style>
-                            <Style TargetType="Border">
-                                <Style.Triggers>
-                                    <DataTrigger Binding="{Binding HasErrors}" Value="True">
-                                        <Setter Property="Background" Value="#FFFF4040" />
-                                        <Setter Property="ToolTip">
-                                            <Setter.Value>
-                                                <ItemsControl ItemsSource="{Binding Errors}" />
-                                            </Setter.Value>
-                                        </Setter>
-                                    </DataTrigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Border.Style>
-                        <TextBlock Text="{Binding Label}" />
-                    </Border>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+        <DockPanel Grid.Column="0">
+            <Button DockPanel.Dock="Top"
+                    Content="Save"
+                    IsEnabled="{Binding IsDirty}"
+                    Command="{Binding SaveCommand}" />
+            
+            <ListBox DockPanel.Dock="Top"
+                     ItemsSource="{Binding BGM}"
+                     SelectedItem="{Binding SelectedBGM}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate DataType="{x:Type viewModels:BGMViewModel}">
+                        <Border>
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding HasErrors}" Value="True">
+                                            <Setter Property="Background" Value="#FFFF4040" />
+                                            <Setter Property="ToolTip">
+                                                <Setter.Value>
+                                                    <ItemsControl ItemsSource="{Binding Errors}" />
+                                                </Setter.Value>
+                                            </Setter>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                            <TextBlock Text="{Binding Label}" />
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </DockPanel>
 
         <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
@@ -74,11 +81,12 @@
             </GroupBox>
 
             <Button DockPanel.Dock="Bottom"
-                    Content="Save"
-                    DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}"
+                    HorizontalAlignment="Right"
+                    Command="{Binding UndoCommand}"
+                    Content="Undo"
+                    Padding="15,0"
                     IsEnabled="{Binding IsDirty}"
-                    Command="{Binding SaveCommand}" />
-            
+                    DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}" />
             <GroupBox DockPanel.Dock="Bottom"
                       Padding="5"
                       DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}">

@@ -196,11 +196,13 @@ namespace MapEditor.ViewModels
         {
             File.WriteAllText(FilePath, this.StringValue, Encoding.GetEncoding("Shift_JIS"));
             this.originalStringValue = this.StringValue;
+            this.OnPropertyChanged(nameof(this.IsDirty));
         }
 
         private void Undo()
         {
             this.StringValue = this.originalStringValue;
+            this.OnPropertyChanged(nameof(this.IsDirty));
         }
 
         private void OggPlayback(object sender, OggPlaybackEventArgs e)
@@ -209,10 +211,7 @@ namespace MapEditor.ViewModels
             {
                 case ALSourceState.Initial:
                 case null:
-                    Application.Current?.Dispatcher?.BeginInvoke(new Action(() =>
-                    {
-                        this.OggProgress = e;
-                    }));
+                    this.OggProgress = e;
                     break;
                 case ALSourceState.Stopped:
                     this.IsPlaying = false;

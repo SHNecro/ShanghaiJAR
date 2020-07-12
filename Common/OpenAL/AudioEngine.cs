@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Common.OpenAL
 {
@@ -238,7 +239,7 @@ namespace Common.OpenAL
                     for (int i = 0; i < OggBufferCount; i++)
                     {
                         var currentBuffer = AL.GenBuffer();
-                        this.QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
+                        QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
                         buffers.Add(currentBuffer);
                     }
 
@@ -251,10 +252,8 @@ namespace Common.OpenAL
                         AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out buffersQueued);
                         AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out buffersProcessed);
 
-                        var freedBuffers = buffersProcessed;
-
                         var newUnqueuedSize = 0;
-                        for (int i = 0; i < freedBuffers; i++)
+                        for (int i = 0; i < buffersProcessed; i++)
                         {
                             var currentBuffer = buffers.First();
                             buffers.Remove(currentBuffer);
@@ -264,15 +263,13 @@ namespace Common.OpenAL
                             newUnqueuedSize += currentBufferSize;
 
                             AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
-                            this.QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
+                            QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
                             buffers.Add(currentBuffer);
                         }
-
-                        var bufferProgress = freedBuffers;
+                        
+                        allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
                         if (allBuffersProcessed && buffersProcessed != 0)
                         {
-                            bufferProgress = buffersProcessed;
-
                             int currentBufferSize;
                             var unqueuedBuffers = new int[buffersProcessed];
                             AL.SourceUnqueueBuffers(currentSource, buffersProcessed, unqueuedBuffers);
@@ -287,17 +284,16 @@ namespace Common.OpenAL
                         var adjustedProgress = this.oggProgress + newProgress;
                         this.UpdateOggProgress(adjustedProgress);
 
-                        Thread.Sleep(10);
-                        allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
                         if (isLooping)
                         {
-                            if (vorbis.SamplePosition >= this.oggLoopEnd)
+                            var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
+                            if (vorbis.SamplePosition >= realLoopEnd)
                             {
                                 vorbis.SeekTo(this.oggLoopStart);
                             }
-                            if (this.oggProgress >= this.oggLoopEnd)
+                            if (this.oggProgress >= realLoopEnd)
                             {
-                                this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % this.oggLoopEnd));
+                                this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % realLoopEnd));
                             }
                         }
                     }
@@ -331,35 +327,6 @@ namespace Common.OpenAL
 
         }
 
-        private void QueueBuffer(int source, int buffer, VorbisReader vorbis, ALFormat format, int sampleRate, int targetSamples, long endSample)
-        {
-            var samples = Math.Min(targetSamples, (int)(endSample - vorbis.SamplePosition) * sizeof(short));
-            if (samples <= 0)
-            {
-                return;
-            }
-
-            var floatBuffer = new float[samples];
-
-            if (vorbis.ReadSamples(floatBuffer, 0, samples) <= 0)
-            {
-                return;
-            }
-
-            var shortBuffer = new short[samples];
-            for (int i = 0; i < samples; i++)
-            {
-                var temp = (int)(short.MaxValue * floatBuffer[i]);
-                if (temp > short.MaxValue) temp = short.MaxValue;
-                else if (temp < short.MinValue) temp = short.MinValue;
-                shortBuffer[i] = (short)temp;
-            }
-
-            AL.BufferData(buffer, format, shortBuffer, shortBuffer.Length * sizeof(short), sampleRate);
-
-            AL.SourceQueueBuffer(source, buffer);
-        }
-
         private void Play(int source, Action bufferCleanup, Action callback = null)
         {
             var waitThread = new Thread(() =>
@@ -379,11 +346,10 @@ namespace Common.OpenAL
                         this.playStates[source] = (ALSourceState)state;
                         this.playStates[source] = this.playStates[source];
                     }
-
                     callback?.Invoke();
                 }
                 while (this.playStates[source] != ALSourceState.Stopped);
-
+                
                 AL.SourceStop(source);
                 AL.DeleteSource(source);
                 this.currentSources.Remove(source);
@@ -492,6 +458,49 @@ namespace Common.OpenAL
                 rate = sampleRate;
 
                 return bytes;
+            }
+        }
+
+        private static void QueueBuffer(int source, int buffer, VorbisReader vorbis, ALFormat format, int sampleRate, int targetSamples, long endSample)
+        {
+            var shortBuffer = new short[targetSamples];
+            try
+            {
+                var samples = Math.Min(targetSamples, (int)(endSample - vorbis.SamplePosition) * sizeof(short));
+                if (samples <= 0)
+                {
+                    return;
+                }
+
+                var floatBuffer = new float[samples];
+
+                var thread = default(Thread);
+                var t = Task.Factory.StartNew(() =>
+                {
+                    thread = Thread.CurrentThread;
+                    return vorbis.ReadSamples(floatBuffer, 0, samples);
+                });
+
+                if (!t.Wait(10) || t.Result <= 0)
+                {
+                    thread?.Abort();
+                    return;
+                }
+
+                shortBuffer = new short[samples];
+
+                for (int i = 0; i < samples; i++)
+                {
+                    var temp = (int)(short.MaxValue * floatBuffer[i]);
+                    if (temp > short.MaxValue) temp = short.MaxValue;
+                    else if (temp < short.MinValue) temp = short.MinValue;
+                    shortBuffer[i] = (short)temp;
+                }
+            }
+            finally
+            {
+                AL.BufferData(buffer, format, shortBuffer, shortBuffer.Length * sizeof(short), sampleRate);
+                AL.SourceQueueBuffer(source, buffer);
             }
         }
 
