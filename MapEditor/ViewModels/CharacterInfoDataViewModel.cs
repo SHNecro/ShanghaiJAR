@@ -16,8 +16,6 @@ namespace MapEditor.ViewModels
         private static bool[,] UnmodifiedFloatingCharacters;
         private static bool[,] UnmodifiedNoShadowCharacters;
 
-        private bool isDirty;
-
         private bool[,] floatingCharacters;
         private bool[,] noShadowCharacters;
 

@@ -55,7 +55,7 @@
                 <TabItem.Style>
                     <Style TargetType="TabItem">
                         <Style.Triggers>
-                            <DataTrigger Binding="{Binding CharacterInfoDataViewModel.IsDirty}" Value="True">
+                            <DataTrigger Binding="{Binding BGMDataViewModel.IsDirty}" Value="True">
                                 <Setter Property="Header" Value="BGM*" />
                             </DataTrigger>
                         </Style.Triggers>

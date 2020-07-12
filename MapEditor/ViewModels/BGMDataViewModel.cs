@@ -3,8 +3,10 @@ using MapEditor.Core;
 using OpenTK.Audio.OpenAL;
 using System;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Windows;
 using System.Windows.Input;
@@ -27,6 +29,8 @@ namespace MapEditor.ViewModels
         private BGMViewModel playingBGM;
         private bool isPaused;
         private bool nextAudioStopIsPause;
+
+        private string originalStringValue;
 
         public BGMDataViewModel()
         {
@@ -51,9 +55,18 @@ namespace MapEditor.ViewModels
             }
             set
             {
-                this.SetValue(ref this.selectedBGM, value);
+                if (this.SelectedBGM != null)
+                {
+                    this.SelectedBGM.PropertyChanged -= this.SelectedBGMPropertyChanged;
+                }
 
-                if (!this.IsPlaying && !this.isPaused)
+                this.SetValue(ref this.selectedBGM, value);
+                if (this.SelectedBGM != null)
+                {
+                    this.SelectedBGM.PropertyChanged += this.SelectedBGMPropertyChanged;
+                }
+
+                if (!this.IsPlaying && !this.isPaused  && this.SelectedBGM != null)
                 {
                     this.audio.OggStop();
                     var filePath = string.Format(MusicPathFormat, this.SelectedBGM.File);
@@ -106,16 +119,25 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref this.playingBGM, value); }
         }
 
+        public bool IsDirty => this.StringValue != this.originalStringValue;
+
         public ICommand PlayPauseCommand => new RelayCommand(this.PlayPause);
 
         public ICommand StopCommand => new RelayCommand(this.Stop);
 
         public ICommand SaveCommand => new RelayCommand(this.Save);
 
+        public ICommand UndoCommand => new RelayCommand(this.Undo);
+
         public void LoadFromFile()
         {
             var loopPointContents = File.ReadAllText(FilePath, Encoding.GetEncoding("Shift_JIS"));
             this.SetStringValue(loopPointContents);
+        }
+
+        public void Remove()
+        {
+            this.audio.OggStop();
         }
 
         protected override string GetStringValue()
@@ -130,8 +152,17 @@ namespace MapEditor.ViewModels
                 .Select(res => new BGMViewModel { StringValue = res }).ToList();
             this.AddChildErrors(null, newBgm);
 
+            var originalSelectedFile = this.SelectedBGM?.File;
             this.BGM = new ObservableCollection<BGMViewModel>(newBgm);
-            this.SelectedBGM = this.BGM.First();
+            this.SelectedBGM = this.BGM.FirstOrDefault(bgm => bgm.File == originalSelectedFile) ?? bgm.FirstOrDefault();
+
+            this.originalStringValue = this.StringValue;
+        }
+
+        protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            base.OnPropertyChanged(propertyName);
+            base.OnPropertyChanged(nameof(this.IsDirty));
         }
 
         private void PlayPause()
@@ -164,6 +195,12 @@ namespace MapEditor.ViewModels
         private void Save()
         {
             File.WriteAllText(FilePath, this.StringValue, Encoding.GetEncoding("Shift_JIS"));
+            this.originalStringValue = this.StringValue;
+        }
+
+        private void Undo()
+        {
+            this.StringValue = this.originalStringValue;
         }
 
         private void OggPlayback(object sender, OggPlaybackEventArgs e)
@@ -188,9 +225,9 @@ namespace MapEditor.ViewModels
             }
         }
 
-        public void Remove()
+        private void SelectedBGMPropertyChanged(object sender, PropertyChangedEventArgs args)
         {
-            this.audio.OggStop();
+            this.OnPropertyChanged(nameof(this.IsDirty));
         }
     }
 }

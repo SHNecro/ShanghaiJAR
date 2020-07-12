@@ -12,6 +12,14 @@
     <UserControl.Resources>
         <converters:OggProgressBarConverter x:Key="OggProgressBarConverter" />
     </UserControl.Resources>
+    <UserControl.InputBindings>
+        <KeyBinding Modifiers="Ctrl"
+                    Key="S"
+                    Command="{Binding SaveCommand}" />
+        <KeyBinding Modifiers="Ctrl"
+                    Key="Z"
+                    Command="{Binding UndoCommand}" />
+    </UserControl.InputBindings>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -51,20 +59,24 @@
         <DockPanel Grid.Column="2" LastChildFill="False"
                    DataContext="{Binding SelectedBGM}">
             <GroupBox DockPanel.Dock="Top" Header="Name">
-                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                         PreviewKeyDown="EntryKeyDown" />
             </GroupBox>
 
             <GroupBox DockPanel.Dock="Top" Header="Loop Start">
-                <controls:WheelCaptureIntegerUpDown Value="{Binding LoopStart, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBox Text="{Binding LoopStart, UpdateSourceTrigger=PropertyChanged}"
+                         PreviewKeyDown="EntryKeyDown" MouseWheel="LoopMouseWheel" />
             </GroupBox>
 
             <GroupBox DockPanel.Dock="Top" Header="Loop End">
-                <controls:WheelCaptureIntegerUpDown Value="{Binding LoopEnd, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBox Text="{Binding LoopEnd, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                         PreviewKeyDown="EntryKeyDown" MouseWheel="LoopMouseWheel" />
             </GroupBox>
 
             <Button DockPanel.Dock="Bottom"
                     Content="Save"
                     DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}"
+                    IsEnabled="{Binding IsDirty}"
                     Command="{Binding SaveCommand}" />
             
             <GroupBox DockPanel.Dock="Bottom"
