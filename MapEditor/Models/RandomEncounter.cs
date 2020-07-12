@@ -219,7 +219,7 @@ namespace MapEditor.Models
             var newIsChipDropped = this.ParseBoolOrAddError(entries[offset + 4]);
             var newIsEscapable = this.ParseBoolOrAddError(entries[offset + 5]);
 
-            var newIsGameEnding = isLongForm ? this.ParseBoolOrAddError(entries[offset + 6]) : true;
+            var newIsGameEnding = !isLongForm || this.ParseBoolOrAddError(entries[offset + 6]);
             var newBackgroundMusic = isLongForm ? entries[offset + 7] : "VSvirus";
 
             // Not used by random encounters

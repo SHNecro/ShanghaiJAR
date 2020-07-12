@@ -18,7 +18,7 @@ namespace MapEditor.ViewModels
         private const string FilePath = "music/looppoint.txt";
         private const string MusicPathFormat = "music/{0}.ogg";
 
-        private AudioEngine audio;
+        private readonly AudioEngine audio;
 
         private ObservableCollection<BGMViewModel> bgm;
         private BGMViewModel selectedBGM;

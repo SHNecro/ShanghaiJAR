@@ -16,8 +16,8 @@ namespace MapEditor.ViewModels
         private static bool[,] UnmodifiedFloatingCharacters;
         private static bool[,] UnmodifiedNoShadowCharacters;
 
-        private bool[,] floatingCharacters;
-        private bool[,] noShadowCharacters;
+        private readonly bool[,] floatingCharacters;
+        private readonly bool[,] noShadowCharacters;
 
         private int currentSheetIndex;
         private int characterIndex;

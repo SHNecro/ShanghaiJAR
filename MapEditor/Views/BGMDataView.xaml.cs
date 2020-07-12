@@ -40,8 +40,7 @@ namespace MapEditor.Views
             // Manual implementation of wheel events because of IntegerUpDown property update bug
             if (sender is TextBox textBox)
             {
-                var sample = 0l;
-                if (!long.TryParse(textBox.Text, out sample))
+                if (!long.TryParse(textBox.Text, out long sample))
                 {
                     return;
                 }

@@ -376,7 +376,7 @@ namespace MapEditor
             Constants.TranslationCallKeys = new Dictionary<string, string>();
             try
             {
-                var locales = Directory.GetDirectories("language").Select(path => Path.GetFileName(path)).ToArray();
+                var locales = Directory.GetDirectories("language").Select(Path.GetFileName).ToArray();
                 Constants.TranslationService = new TrackingLanguageTranslationService(locales);
             }
             catch (Exception e)
@@ -696,7 +696,7 @@ namespace MapEditor
                     var index = (int)collection.GetType().GetMethod("IndexOf", bindFlags).Invoke(collection, new[] { toDelete });
                     collection.GetType().GetMethod("RemoveAt", bindFlags).Invoke(collection, new object[] { index });
                 }
-                catch { }
+                catch { ; }
             }
         }
 

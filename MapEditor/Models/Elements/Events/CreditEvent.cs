@@ -181,7 +181,7 @@ namespace MapEditor.Models.Elements.Events
             }
 
 			var newCreditKey = entries[1];
-			this.Validate(newCreditKey, "Credit key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+			this.Validate(newCreditKey, "Credit key does not exist.", Constants.TranslationService.CanTranslate);
 			var newX = this.ParseIntOrAddError(entries[2]);
             var newY = this.ParseIntOrAddError(entries[3]);
             var newCentered = this.ParseBoolOrAddError(entries[4]);

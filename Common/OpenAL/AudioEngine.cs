@@ -20,8 +20,9 @@ namespace Common.OpenAL
         // AudioContext.Dispose causes popping sound
         private readonly AudioContext sharedContext;
 
-        private ConcurrentDictionary<int, ALSourceState> playStates;
-        private List<int> currentSources;
+        private readonly ConcurrentDictionary<int, ALSourceState> playStates;
+        private readonly List<int> currentSources;
+        private readonly object oggQueueLock = new object();
 
         private float volume = 1.0f;
 
@@ -30,7 +31,6 @@ namespace Common.OpenAL
         private long oggLoopStart;
         private long oggLoopEnd;
         private long oggPausePosition;
-        private object oggQueueLock = new object();
 
         private long oggTotalSamples;
         private long oggProgress;
@@ -248,9 +248,8 @@ namespace Common.OpenAL
                     {
                         buffersInitialized = true;
 
-                        int buffersQueued, buffersProcessed;
-                        AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out buffersQueued);
-                        AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out buffersProcessed);
+                        AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out int buffersQueued);
+                        AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out int buffersProcessed);
 
                         var newUnqueuedSize = 0;
                         for (int i = 0; i < buffersProcessed; i++)
@@ -258,8 +257,7 @@ namespace Common.OpenAL
                             var currentBuffer = buffers.First();
                             buffers.Remove(currentBuffer);
 
-                            int currentBufferSize;
-                            AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out currentBufferSize);
+                            AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
                             newUnqueuedSize += currentBufferSize;
 
                             AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
@@ -270,12 +268,11 @@ namespace Common.OpenAL
                         allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
                         if (allBuffersProcessed && buffersProcessed != 0)
                         {
-                            int currentBufferSize;
                             var unqueuedBuffers = new int[buffersProcessed];
                             AL.SourceUnqueueBuffers(currentSource, buffersProcessed, unqueuedBuffers);
                             foreach (var currentBuffer in unqueuedBuffers)
                             {
-                                AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out currentBufferSize);
+                                AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
                                 newUnqueuedSize += currentBufferSize;
                             }
                         }
@@ -331,9 +328,8 @@ namespace Common.OpenAL
         {
             var waitThread = new Thread(() =>
             {
-                int state;
                 AL.SourcePlay(source);
-                AL.GetSource(source, ALGetSourcei.SourceState, out state);
+                AL.GetSource(source, ALGetSourcei.SourceState, out int state);
                 this.playStates[source] = (ALSourceState)state;
 
                 // Query the source to find out when it stops playing.
@@ -516,7 +512,7 @@ namespace Common.OpenAL
         #endregion
 
         #region IDisposable Support
-        private bool disposedValue = false; // To detect redundant calls
+        private bool disposedValue;
 
         protected virtual void Dispose(bool disposing)
         {
