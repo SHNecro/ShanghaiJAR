@@ -1,5 +1,6 @@
 ﻿using Common.OpenAL;
 using MapEditor.Core;
+using Microsoft.WindowsAPICodePack.Dialogs;
 using OpenTK.Audio.OpenAL;
 using System;
 using System.Collections.ObjectModel;
@@ -30,6 +31,8 @@ namespace MapEditor.ViewModels
         private bool isPaused;
         private bool nextAudioStopIsPause;
 
+        private int lastSelectedIndex;
+
         private string originalStringValue;
 
         public BGMDataViewModel()
@@ -47,6 +50,12 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref this.bgm, value); }
         }
 
+        public int LastSelectedIndex
+        {
+            private get { return this.lastSelectedIndex; }
+            set { this.lastSelectedIndex = value < 0 ? this.lastSelectedIndex : Math.Min(this.BGM.Count - 1, value); }
+        }
+
         public BGMViewModel SelectedBGM
         {
             get
@@ -60,7 +69,9 @@ namespace MapEditor.ViewModels
                     this.SelectedBGM.PropertyChanged -= this.SelectedBGMPropertyChanged;
                 }
 
-                this.SetValue(ref this.selectedBGM, value);
+                var valueOrClosest = value ?? this.BGM[this.LastSelectedIndex];
+
+                this.SetValue(ref this.selectedBGM, valueOrClosest);
                 if (this.SelectedBGM != null)
                 {
                     this.SelectedBGM.PropertyChanged += this.SelectedBGMPropertyChanged;
@@ -69,9 +80,9 @@ namespace MapEditor.ViewModels
                 if (!this.IsPlaying && !this.isPaused  && this.SelectedBGM != null)
                 {
                     this.audio.OggStop();
-                    var filePath = string.Format(MusicPathFormat, this.SelectedBGM.File);
-                    this.audio.LoadOggInfo(filePath, this.SelectedBGM.LoopStart, this.SelectedBGM.LoopEnd);
                     this.PlayingBGM = this.SelectedBGM;
+                    var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
+                    this.audio.InitializeOgg(filePath);
                 }
             }
         }
@@ -129,6 +140,8 @@ namespace MapEditor.ViewModels
 
         public ICommand UndoCommand => new RelayCommand(this.Undo);
 
+        public ICommand AddBGMEntryCommand => new RelayCommand(this.AddBGMEntry);
+
         public void LoadFromFile()
         {
             var loopPointContents = File.ReadAllText(FilePath, Encoding.GetEncoding("Shift_JIS"));
@@ -152,9 +165,9 @@ namespace MapEditor.ViewModels
                 .Select(res => new BGMViewModel { StringValue = res }).ToList();
             this.AddChildErrors(null, newBgm);
 
-            var originalSelectedFile = this.SelectedBGM?.File;
+            var originalSelectedBGM = this.SelectedBGM?.StringValue;
             this.BGM = new ObservableCollection<BGMViewModel>(newBgm);
-            this.SelectedBGM = this.BGM.FirstOrDefault(bgm => bgm.File == originalSelectedFile) ?? bgm.FirstOrDefault();
+            this.SelectedBGM = this.BGM.FirstOrDefault(bgm => bgm.StringValue == originalSelectedBGM) ?? bgm.FirstOrDefault();
 
             this.originalStringValue = this.StringValue;
         }
@@ -189,7 +202,7 @@ namespace MapEditor.ViewModels
             this.isPaused = false;
             this.PlayingBGM = this.SelectedBGM;
             var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
-            this.audio.LoadOggInfo(filePath, this.PlayingBGM.LoopStart, this.PlayingBGM.LoopEnd);
+            this.audio.InitializeOgg(filePath);
         }
 
         private void Save()
@@ -203,6 +216,48 @@ namespace MapEditor.ViewModels
         {
             this.StringValue = this.originalStringValue;
             this.OnPropertyChanged(nameof(this.IsDirty));
+        }
+
+        private void AddBGMEntry()
+        {
+            try
+            {
+                var musicDirectory = Path.Combine(Directory.GetCurrentDirectory(), Path.GetDirectoryName(MusicPathFormat));
+
+                var selectFileDialog = new CommonOpenFileDialog
+                {
+                    RestoreDirectory = false,
+                    InitialDirectory = Directory.GetCurrentDirectory() + "\\music\\",
+                    EnsureFileExists = true,
+                    Multiselect = false,
+                    Title = "Add .ogg"
+                };
+                selectFileDialog.Filters.Add(new CommonFileDialogFilter("Ogg Vorbis File", "*.ogg"));
+                selectFileDialog.Filters.Add(new CommonFileDialogFilter("All Files", "*.*"));
+
+                var dialogSuccess = selectFileDialog.ShowDialog();
+                if (dialogSuccess == CommonFileDialogResult.Ok)
+                {
+                    AudioEngine.LoadOggInfo(selectFileDialog.FileName, out _, out long totalSamples);
+                    var fileName = Path.GetFileNameWithoutExtension(selectFileDialog.FileName);
+                    var newBGM = new BGMViewModel
+                    {
+                        File = fileName,
+                        LoopStart = 0,
+                        LoopEnd = totalSamples,
+                        Name = fileName
+                    };
+
+                    var selectedBGMIndex = this.BGM.IndexOf(this.SelectedBGM);
+                    this.BGM.Insert(selectedBGMIndex, newBGM);
+
+                    this.OnPropertyChanged(nameof(this.IsDirty));
+                }
+            }
+            catch (InvalidOperationException e)
+            {
+                MessageBox.Show(Application.Current.MainWindow, e.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void OggPlayback(object sender, OggPlaybackEventArgs e)

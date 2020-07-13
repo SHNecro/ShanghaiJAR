@@ -7,8 +7,8 @@ namespace MapEditor.ViewModels
     {
         private string file;
         private string name;
-        private int loopStart;
-        private int loopEnd;
+        private long loopStart;
+        private long loopEnd;
 
         public string File
         {
@@ -38,13 +38,13 @@ namespace MapEditor.ViewModels
             }
         }
 
-        public int LoopStart
+        public long LoopStart
         {
             get { return this.loopStart; }
             set { this.SetValue(ref this.loopStart, value); }
         }
 
-        public int LoopEnd
+        public long LoopEnd
         {
             get { return this.loopEnd; }
             set { this.SetValue(ref this.loopEnd, value); }

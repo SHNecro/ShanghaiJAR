@@ -6,11 +6,19 @@
              xmlns:local="clr-namespace:MapEditor.Views"
              xmlns:viewModels="clr-namespace:MapEditor.ViewModels"
              xmlns:controls="clr-namespace:MapEditor.Controls"
+             xmlns:root="clr-namespace:MapEditor"
              xmlns:converters="clr-namespace:MapEditor.Core.Converters"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="800">
     <UserControl.Resources>
-        <converters:OggProgressBarConverter x:Key="OggProgressBarConverter" />
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:OggProgressBarConverter x:Key="OggProgressBarConverter" />
+            <converters:BindingsToArrayMultiConverter x:Key="BindingsToArrayMultiConverter" />
+        </ResourceDictionary>
     </UserControl.Resources>
     <UserControl.InputBindings>
         <KeyBinding Modifiers="Ctrl"
@@ -32,10 +40,24 @@
                     Content="Save"
                     IsEnabled="{Binding IsDirty}"
                     Command="{Binding SaveCommand}" />
-            
+
+            <Grid DockPanel.Dock="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="BGM:" FontWeight="Bold" />
+                <Button Grid.Column="1" Command="{Binding AddBGMEntryCommand}">
+                    <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
+                </Button>
+            </Grid>
+
             <ListBox DockPanel.Dock="Top"
                      ItemsSource="{Binding BGM}"
-                     SelectedItem="{Binding SelectedBGM}">
+                     SelectedIndex="{Binding LastSelectedIndex, Mode=OneWayToSource}"
+                     SelectedItem="{Binding SelectedBGM}"
+                     HorizontalContentAlignment="Stretch"
+                     Grid.IsSharedSizeScope="True">
                 <ListBox.ItemTemplate>
                     <DataTemplate DataType="{x:Type viewModels:BGMViewModel}">
                         <Border>
@@ -53,10 +75,104 @@
                                     </Style.Triggers>
                                 </Style>
                             </Border.Style>
-                            <TextBlock Text="{Binding Label}" />
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" SharedSizeGroup="IndexColumn" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0" Margin="5,0" VerticalAlignment="Center" Text="{Binding File, Mode=OneWay, StringFormat={}{0}.ogg}" />
+                                <TextBlock Grid.Column="1" Text="{Binding Name, Mode=OneWay, StringFormat=({0})}" />
+                                <StackPanel Grid.Column="2"
+                                            HorizontalAlignment="Right"
+                                            Orientation="Horizontal"
+                                            VerticalAlignment="Center">
+                                    <StackPanel.Style>
+                                        <Style TargetType="StackPanel">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=IsMouseOver, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ListBoxItem}}" Value="True">
+                                                    <Setter Property="Visibility" Value="Visible" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="Visibility" Value="Hidden" />
+                                        </Style>
+                                    </StackPanel.Style>
+                                    <Button Command="{x:Static root:Constants.MoveItemUpCommand}">
+                                        <Button.CommandParameter>
+                                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                <Binding Path="DataContext.BGM" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                <Binding Path="ItemsSource" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                <Binding Path="." />
+                                            </MultiBinding>
+                                        </Button.CommandParameter>
+                                        <Rectangle Width="16" Height="16" Fill="{StaticResource UpArrowIcon}" />
+                                    </Button>
+                                    <Button Command="{x:Static root:Constants.MoveItemDownCommand}">
+                                        <Button.CommandParameter>
+                                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                <Binding Path="DataContext.BGM" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                <Binding Path="ItemsSource" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                <Binding Path="." />
+                                            </MultiBinding>
+                                        </Button.CommandParameter>
+                                        <Rectangle Width="16" Height="16" Fill="{StaticResource DownArrowIcon}" />
+                                    </Button>
+                                    <Button Command="{x:Static root:Constants.DeleteItemCommand}">
+                                        <Button.CommandParameter>
+                                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                <Binding Path="DataContext.BGM" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}"/>
+                                                <Binding Path="." />
+                                            </MultiBinding>
+                                        </Button.CommandParameter>
+                                        <Rectangle Width="16" Height="16"  Fill="{StaticResource DeleteIcon}" />
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
                         </Border>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
+                <ListBox.InputBindings>
+                    <KeyBinding Modifiers="Alt"
+                                Key="Up"
+                                Command="{x:Static root:Constants.MoveItemUpCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="BGM" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Modifiers="Alt"
+                                Key="Down"
+                                Command="{x:Static root:Constants.MoveItemDownCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="BGM" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Key="Delete"
+                                Command="{x:Static root:Constants.DeleteItemCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="BGM" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                    <KeyBinding Modifiers="Shift"
+                                Key="Delete"
+                                Command="{x:Static root:Constants.DeleteItemCommand}">
+                        <KeyBinding.CommandParameter>
+                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                <Binding Path="BGM" />
+                                <Binding Path="SelectedValue" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=ListBox}" />
+                            </MultiBinding>
+                        </KeyBinding.CommandParameter>
+                    </KeyBinding>
+                </ListBox.InputBindings>
             </ListBox>
         </DockPanel>
 

@@ -62,42 +62,36 @@ namespace Common.OpenAL
 
         public void PlayOggCommand(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null)
         {
-            this.oggFilePath = filePath;
-
-            this.LoadOggInfo(filePath, sampleStart, sampleEnd);
-
-            this.PlayOgg(isLooping);
-        }
-
-        public void LoadOggInfo(string filePath, long? sampleStart, long? sampleEnd)
-        {
-            if (string.IsNullOrEmpty(filePath) || this.IsInProgress)
+            if (this.IsInProgress)
             {
                 return;
             }
 
-            try
-            {
-                using (var vorbis = new VorbisReader(filePath))
-                {
-                    this.oggLoopStart = sampleStart ?? 0;
-                    this.oggLoopEnd = sampleEnd ?? vorbis.TotalSamples;
+            this.oggFilePath = filePath;
 
-                    var sampleRate = vorbis.SampleRate;
-                    var totalSamples = vorbis.TotalSamples;
+            LoadOggInfo(filePath, out long sampleRate, out long totalSamples);
+            this.oggLoopStart = sampleStart ?? 0;
+            this.oggLoopEnd = sampleEnd ?? totalSamples;
 
-                    this.OggPlayback?.Invoke(this, new OggPlaybackEventArgs
-                    {
-                        StateChange = ALSourceState.Initial,
-                        SampleRate = sampleRate,
-                        TotalSamples = totalSamples
-                    });
-                }
-            }
-            catch (ArgumentException)
+            this.OggPlayback?.Invoke(this, new OggPlaybackEventArgs
             {
-                throw new InvalidOperationException("Invalid .ogg file");
-            }
+                StateChange = ALSourceState.Initial,
+                SampleRate = sampleRate,
+                TotalSamples = totalSamples
+            });
+
+            this.PlayOgg(isLooping);
+        }
+
+        public void InitializeOgg(string filePath)
+        {
+            LoadOggInfo(filePath, out long sampleRate, out long totalSamples);
+            this.OggPlayback?.Invoke(this, new OggPlaybackEventArgs
+            {
+                StateChange = ALSourceState.Initial,
+                SampleRate = sampleRate,
+                TotalSamples = totalSamples
+            });
         }
 
         public void Stop()
@@ -454,6 +448,29 @@ namespace Common.OpenAL
                 rate = sampleRate;
 
                 return bytes;
+            }
+        }
+
+        public static void LoadOggInfo(string filePath, out long sampleRate, out long totalSamples)
+        {
+            if (string.IsNullOrEmpty(filePath))
+            {
+                sampleRate = 0;
+                totalSamples = 0;
+                return;
+            }
+
+            try
+            {
+                using (var vorbis = new VorbisReader(filePath))
+                {
+                    sampleRate = vorbis.SampleRate;
+                    totalSamples = vorbis.TotalSamples;
+                }
+            }
+            catch (ArgumentException)
+            {
+                throw new InvalidOperationException("Invalid .ogg file");
             }
         }
 
