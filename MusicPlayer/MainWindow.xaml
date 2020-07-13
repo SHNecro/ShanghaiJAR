@@ -7,6 +7,16 @@
         xmlns:mapEditor="clr-namespace:MapEditor.Views;assembly=MapEditor"
         mc:Ignorable="d"
         Closed="Window_Closed"
-        Title="Music Player" Height="450" Width="800">
+        Height="450" Width="800">
+    <Window.Style>
+        <Style TargetType="Window">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding BGMDataViewModel.IsDirty}" Value="True">
+                    <Setter Property="Title" Value="Music Player*" />
+                </DataTrigger>
+            </Style.Triggers>
+            <Setter Property="Title" Value="Music Player" />
+        </Style>
+    </Window.Style>
     <mapEditor:BGMDataView DataContext="{Binding BGMDataViewModel}" />
 </Window>

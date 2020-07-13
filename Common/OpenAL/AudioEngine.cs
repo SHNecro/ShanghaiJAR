@@ -474,6 +474,10 @@ namespace Common.OpenAL
                     totalSamples = vorbis.TotalSamples;
                 }
             }
+            catch (FileNotFoundException)
+            {
+                throw new InvalidOperationException("Invalid .ogg file");
+            }
             catch (ArgumentException)
             {
                 throw new InvalidOperationException("Invalid .ogg file");

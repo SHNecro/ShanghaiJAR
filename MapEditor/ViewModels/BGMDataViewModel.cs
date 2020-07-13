@@ -132,6 +132,8 @@ namespace MapEditor.ViewModels
 
         public bool IsDirty => this.StringValue != this.originalStringValue;
 
+        public bool CanSave => this.IsDirty && !this.BGM.Any(bgm => !bgm.CanSave);
+
         public ICommand PlayPauseCommand => new RelayCommand(this.PlayPause);
 
         public ICommand StopCommand => new RelayCommand(this.Stop);
@@ -176,6 +178,7 @@ namespace MapEditor.ViewModels
         {
             base.OnPropertyChanged(propertyName);
             base.OnPropertyChanged(nameof(this.IsDirty));
+            base.OnPropertyChanged(nameof(this.CanSave));
         }
 
         private void PlayPause()
@@ -210,12 +213,14 @@ namespace MapEditor.ViewModels
             File.WriteAllText(FilePath, this.StringValue, Encoding.GetEncoding("Shift_JIS"));
             this.originalStringValue = this.StringValue;
             this.OnPropertyChanged(nameof(this.IsDirty));
+            this.OnPropertyChanged(nameof(this.CanSave));
         }
 
         private void Undo()
         {
             this.StringValue = this.originalStringValue;
             this.OnPropertyChanged(nameof(this.IsDirty));
+            this.OnPropertyChanged(nameof(this.CanSave));
         }
 
         private void AddBGMEntry()
@@ -252,6 +257,7 @@ namespace MapEditor.ViewModels
                     this.BGM.Insert(selectedBGMIndex, newBGM);
 
                     this.OnPropertyChanged(nameof(this.IsDirty));
+                    this.OnPropertyChanged(nameof(this.CanSave));
                 }
             }
             catch (InvalidOperationException e)
@@ -282,6 +288,7 @@ namespace MapEditor.ViewModels
         private void SelectedBGMPropertyChanged(object sender, PropertyChangedEventArgs args)
         {
             this.OnPropertyChanged(nameof(this.IsDirty));
+            this.OnPropertyChanged(nameof(this.CanSave));
         }
     }
 }

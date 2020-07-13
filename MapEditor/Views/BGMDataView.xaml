@@ -8,6 +8,7 @@
              xmlns:controls="clr-namespace:MapEditor.Controls"
              xmlns:root="clr-namespace:MapEditor"
              xmlns:converters="clr-namespace:MapEditor.Core.Converters"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="800">
     <UserControl.Resources>
@@ -18,6 +19,7 @@
 
             <converters:OggProgressBarConverter x:Key="OggProgressBarConverter" />
             <converters:BindingsToArrayMultiConverter x:Key="BindingsToArrayMultiConverter" />
+            <converters:ObjectEqualityBooleanConverter x:Key="ObjectEqualityBooleanConverter" />
         </ResourceDictionary>
     </UserControl.Resources>
     <UserControl.InputBindings>
@@ -38,7 +40,7 @@
         <DockPanel Grid.Column="0">
             <Button DockPanel.Dock="Top"
                     Content="Save"
-                    IsEnabled="{Binding IsDirty}"
+                    IsEnabled="{Binding CanSave}"
                     Command="{Binding SaveCommand}" />
 
             <Grid DockPanel.Dock="Top">
@@ -51,6 +53,13 @@
                     <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
                 </Button>
             </Grid>
+            
+            <Button DockPanel.Dock="Bottom"
+                    HorizontalAlignment="Right"
+                    Command="{Binding UndoCommand}"
+                    Content="Undo"
+                    Padding="15,0"
+                    IsEnabled="{Binding IsDirty}" />
 
             <ListBox DockPanel.Dock="Top"
                      ItemsSource="{Binding BGM}"
@@ -187,22 +196,44 @@
             </GroupBox>
 
             <GroupBox DockPanel.Dock="Top" Header="Loop Start">
-                <TextBox Text="{Binding LoopStart, UpdateSourceTrigger=PropertyChanged}"
+                <Border>
+                    <Border.Style>
+                        <Style TargetType="Border">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding BgmErrors[LoopStart], Converter={StaticResource ObjectEqualityBooleanConverter}, ConverterParameter={x:Static sys:String.Empty}}" Value="False">
+                                    <Setter Property="BorderBrush" Value="Red" />
+                                    <Setter Property="ToolTip" Value="{Binding BgmErrors[LoopStart]}" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                            <Setter Property="BorderBrush" Value="Transparent" />
+                            <Setter Property="BorderThickness" Value="2" />
+                        </Style>
+                    </Border.Style>
+                    <TextBox Text="{Binding LoopStart, UpdateSourceTrigger=PropertyChanged}"
                          PreviewKeyDown="EntryKeyDown" MouseWheel="LoopMouseWheel" />
+                </Border>
             </GroupBox>
 
             <GroupBox DockPanel.Dock="Top" Header="Loop End">
-                <TextBox Text="{Binding LoopEnd, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                <Border>
+                    <Border.Style>
+                        <Style TargetType="Border">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding BgmErrors[LoopEnd], Converter={StaticResource ObjectEqualityBooleanConverter}, ConverterParameter={x:Static sys:String.Empty}}" Value="False">
+                                    <Setter Property="BorderBrush" Value="Red" />
+                                    <Setter Property="ToolTip" Value="{Binding BgmErrors[LoopEnd]}" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                            <Setter Property="BorderBrush" Value="Transparent" />
+                            <Setter Property="BorderThickness" Value="2" />
+                        </Style>
+                    </Border.Style>
+                    
+                    <TextBox Text="{Binding LoopEnd, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
                          PreviewKeyDown="EntryKeyDown" MouseWheel="LoopMouseWheel" />
+                </Border>
             </GroupBox>
 
-            <Button DockPanel.Dock="Bottom"
-                    HorizontalAlignment="Right"
-                    Command="{Binding UndoCommand}"
-                    Content="Undo"
-                    Padding="15,0"
-                    IsEnabled="{Binding IsDirty}"
-                    DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}" />
             <GroupBox DockPanel.Dock="Bottom"
                       Padding="5"
                       DataContext="{Binding DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:BGMDataView}}">
@@ -320,6 +351,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Button Grid.Column="0" 
+                                IsEnabled="{Binding PlayingBGM.CanSave}"
                                 Command="{Binding PlayPauseCommand}">
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock>
@@ -352,7 +384,18 @@
 
                         <Button Grid.Row="0" Grid.Column="1"
                                 Content="■ Stop"
-                                Command="{Binding StopCommand}" />
+                                Command="{Binding StopCommand}">
+                            <Button.Style>
+                                <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsPlaying}" Value="True">
+                                            <Setter Property="IsEnabled" Value="True" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    <Setter Property="IsEnabled" Value="{Binding PlayingBGM.CanSave}" />
+                                </Style>
+                            </Button.Style>
+                        </Button>
                     </Grid>
                 </StackPanel>
             </GroupBox>
