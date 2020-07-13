@@ -100,6 +100,7 @@ namespace Common.OpenAL
             foreach (var k in sources)
             {
                 this.playStates[k] = ALSourceState.Stopped;
+                AL.SourceStop(k);
             }
         }
 
@@ -107,6 +108,8 @@ namespace Common.OpenAL
         {
             this.Stop();
             this.OggSeek(0);
+
+            this.UpdateOggProgress(0);
         }
 
         public void OggPause()
@@ -225,7 +228,7 @@ namespace Common.OpenAL
 
             var buffers = new List<int>();
 
-            var playbackEnded = false;
+            var playbackStopDetected = false;
             var queueThread = new Thread(() =>
             {
                 lock (this.oggQueueLock)
@@ -238,7 +241,7 @@ namespace Common.OpenAL
                     }
 
                     var allBuffersProcessed = false;
-                    while (!buffersInitialized || !playbackEnded)
+                    while (!buffersInitialized || !playbackStopDetected)
                     {
                         buffersInitialized = true;
 
@@ -273,7 +276,10 @@ namespace Common.OpenAL
 
                         var newProgress = newUnqueuedSize / (channels * (bits_per_sample / 8));
                         var adjustedProgress = this.oggProgress + newProgress;
-                        this.UpdateOggProgress(adjustedProgress);
+                        if (AL.GetSourceState(currentSource) == ALSourceState.Playing)
+                        {
+                            this.UpdateOggProgress(adjustedProgress);
+                        }
 
                         if (isLooping)
                         {
@@ -302,7 +308,7 @@ namespace Common.OpenAL
             this.OggPlayback?.Invoke(this, new OggPlaybackEventArgs { StateChange = ALSourceState.Playing });
             this.Play(currentSource, () =>
             {
-                playbackEnded = true;
+                playbackStopDetected = true;
                 lock (this.oggQueueLock)
                 {
                     foreach (var buf in buffers)
