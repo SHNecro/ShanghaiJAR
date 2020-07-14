@@ -9,9 +9,11 @@ using System.Xml;
 
 namespace MapEditor.ViewModels
 {
-    public class KeyItemDataViewModel : ViewModelBase
+    public class KeyItemDataViewModel : StringRepresentation
     {
         private KeyItemViewModel selectedKeyItem;
+
+        private string originalStringValue;
 
         public KeyItemDataViewModel()
         {
@@ -24,6 +26,8 @@ namespace MapEditor.ViewModels
             {
                 keyItem.PropertyChanged += this.KeyItemIsDirtyChanged;
             }
+
+            this.originalStringValue = this.StringValue;
         }
 
         public KeyItemViewModel SelectedKeyItem
@@ -36,7 +40,39 @@ namespace MapEditor.ViewModels
 
         public ICommand SaveCommand => new RelayCommand(this.Save);
 
-        public ObservableCollection<KeyItemViewModel> KeyItems { get; }
+        public ICommand UndoCommand => new RelayCommand(this.Undo);
+
+        public ObservableCollection<KeyItemViewModel> KeyItems { get; private set; }
+
+        protected override void SetStringValue(string value)
+        {
+            base.SetStringValue(value);
+
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(value);
+
+            var keyItems = Constants.LoadKeyItems(xmlDoc);
+
+            this.KeyItems.CollectionChanged -= this.KeyItemsCollectionChanged;
+            foreach (var keyItem in this.KeyItems)
+            {
+                keyItem.PropertyChanged -= this.KeyItemIsDirtyChanged;
+            }
+
+            this.KeyItems = new ObservableCollection<KeyItemViewModel>(keyItems.Select(kvp => new KeyItemViewModel(kvp.Key, kvp.Value)));
+            this.KeyItems.CollectionChanged += this.KeyItemsCollectionChanged;
+            foreach (var keyItem in this.KeyItems)
+            {
+                keyItem.PropertyChanged += this.KeyItemIsDirtyChanged;
+            }
+
+            this.SelectedKeyItem = this.KeyItems.FirstOrDefault();
+        }
+
+        protected override string GetStringValue()
+        {
+            return this.GetXmlDocument().OuterXml;
+        }
 
         private void KeyItemsCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
@@ -89,40 +125,54 @@ namespace MapEditor.ViewModels
                 keyItem.Save();
             }
 
-            var xmlDoc = new XmlDocument();
-            xmlDoc.AppendChild(xmlDoc.CreateElement("data"));
+            var xmlDoc = this.GetXmlDocument();
+
             using (var fs = new FileStream("data/data/KeyItems.xml", FileMode.Create))
             {
-                foreach (var keyItem in this.KeyItems)
-                {
-                    var keyItemNode = xmlDoc.CreateElement("KeyItem");
-
-                    var indexAttribute = xmlDoc.CreateAttribute("Index");
-                    indexAttribute.Value = keyItem.Index.ToString();
-                    keyItemNode.Attributes.Append(indexAttribute);
-
-                    var nameAttribute = xmlDoc.CreateAttribute("Name");
-                    nameAttribute.Value = keyItem.NameKey;
-                    keyItemNode.Attributes.Append(nameAttribute);
-
-                    foreach (var dialogue in keyItem.DialogueKeys)
-                    {
-                        var dialogueNode = xmlDoc.CreateElement("Dialogue");
-                        var keyAttribute = xmlDoc.CreateAttribute("Key");
-                        keyAttribute.Value = dialogue.Value;
-                        dialogueNode.Attributes.Append(keyAttribute);
-
-                        keyItemNode.AppendChild(dialogueNode);
-                    }
-
-                    xmlDoc.SelectSingleNode("data").AppendChild(keyItemNode);
-                }
-
                 using (var xw = XmlWriter.Create(fs, new XmlWriterSettings { Indent = true }))
                 {
                     xmlDoc.WriteTo(xw);
                 }
             }
+            this.originalStringValue = this.StringValue;
+        }
+
+        private void Undo()
+        {
+            this.StringValue = this.originalStringValue;
+        }
+
+        private XmlDocument GetXmlDocument()
+        {
+            var xmlDoc = new XmlDocument();
+            xmlDoc.AppendChild(xmlDoc.CreateElement("data"));
+
+            foreach (var keyItem in this.KeyItems)
+            {
+                var keyItemNode = xmlDoc.CreateElement("KeyItem");
+
+                var indexAttribute = xmlDoc.CreateAttribute("Index");
+                indexAttribute.Value = keyItem.Index.ToString();
+                keyItemNode.Attributes.Append(indexAttribute);
+
+                var nameAttribute = xmlDoc.CreateAttribute("Name");
+                nameAttribute.Value = keyItem.NameKey;
+                keyItemNode.Attributes.Append(nameAttribute);
+
+                foreach (var dialogue in keyItem.DialogueKeys)
+                {
+                    var dialogueNode = xmlDoc.CreateElement("Dialogue");
+                    var keyAttribute = xmlDoc.CreateAttribute("Key");
+                    keyAttribute.Value = dialogue.Value;
+                    dialogueNode.Attributes.Append(keyAttribute);
+
+                    keyItemNode.AppendChild(dialogueNode);
+                }
+
+                xmlDoc.SelectSingleNode("data").AppendChild(keyItemNode);
+            }
+
+            return xmlDoc;
         }
     }
 }

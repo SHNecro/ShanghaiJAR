@@ -58,7 +58,7 @@
                     HorizontalAlignment="Right"
                     Command="{Binding UndoCommand}"
                     Content="Undo"
-                    Padding="15,0"
+                    Width="100"
                     IsEnabled="{Binding IsDirty}" />
 
             <ListBox DockPanel.Dock="Top"

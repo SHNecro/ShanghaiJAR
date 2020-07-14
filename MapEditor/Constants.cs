@@ -477,19 +477,20 @@ namespace MapEditor
                 Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Data: Background: ", dataLoaded / totalDataToLoad));
             }
 
-            Constants.KeyItemDefinitions = new Dictionary<int, KeyItemDefinition>();
-            LoadKeyItems();
+            var keyItemDoc = new XmlDocument();
+            keyItemDoc.Load($"data/data/KeyItems.xml");
+            Constants.KeyItemDefinitions = LoadKeyItems(keyItemDoc);
 
-            Constants.MailDefinitions = new Dictionary<int, MailDefinition>();
-            LoadMail();
+            var mailDoc = new XmlDocument();
+            mailDoc.Load($"data/data/Mail.xml");
+            Constants.MailDefinitions = LoadMail(mailDoc);
         }
 
-        private static void LoadKeyItems()
+        public static Dictionary<int, KeyItemDefinition> LoadKeyItems(XmlDocument keyItemDoc)
         {
-            var languageDoc = new XmlDocument();
-            languageDoc.Load($"data/data/KeyItems.xml");
+            var keyItemDefinitions = new Dictionary<int, KeyItemDefinition>();
 
-            var keyItemNodes = languageDoc.SelectNodes("data/KeyItem");
+            var keyItemNodes = keyItemDoc.SelectNodes("data/KeyItem");
             foreach (XmlNode keyItemNode in keyItemNodes)
             {
                 var index = int.Parse(keyItemNode?.Attributes["Index"]?.Value ?? "-1");
@@ -509,16 +510,17 @@ namespace MapEditor
                     dialogueKeys.Add(dialogueXml.Attributes["Key"].Value);
                 }
 
-                KeyItemDefinitions[index] = new KeyItemDefinition { NameKey = nameKey, DialogueKeys = dialogueKeys };
+                keyItemDefinitions[index] = new KeyItemDefinition { NameKey = nameKey, DialogueKeys = dialogueKeys };
             }
+
+            return keyItemDefinitions;
         }
 
-        private static void LoadMail()
+        public static Dictionary<int, MailDefinition> LoadMail(XmlDocument mailDoc)
         {
-            var languageDoc = new XmlDocument();
-            languageDoc.Load($"data/data/Mail.xml");
+            var mailDefinitions = new Dictionary<int, MailDefinition>();
 
-            var mailNodes = languageDoc.SelectNodes("data/Mail");
+            var mailNodes = mailDoc.SelectNodes("data/Mail");
             foreach (XmlNode mailNode in mailNodes)
             {
                 var index = int.Parse(mailNode?.Attributes["Index"]?.Value ?? "-1");
@@ -539,8 +541,10 @@ namespace MapEditor
                     dialogueKeys.Add(dialogueXml.Attributes["Key"].Value);
                 }
 
-                MailDefinitions[index] = new MailDefinition { SubjectKey = subjectKey, SenderKey = senderKey, DialogueKeys = dialogueKeys };
+                mailDefinitions[index] = new MailDefinition { SubjectKey = subjectKey, SenderKey = senderKey, DialogueKeys = dialogueKeys };
             }
+
+            return mailDefinitions;
         }
 
         private static bool CanMoveItem(object param, bool isUp)

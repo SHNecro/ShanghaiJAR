@@ -9,9 +9,11 @@ using System.Xml;
 
 namespace MapEditor.ViewModels
 {
-    public class MailDataViewModel : ViewModelBase
+    public class MailDataViewModel : StringRepresentation
     {
         private MailItemViewModel selectedMail;
+
+        private string originalStringValue;
 
         public MailDataViewModel()
         {
@@ -24,6 +26,8 @@ namespace MapEditor.ViewModels
             {
                 keyItem.PropertyChanged += this.MailIsDirtyChanged;
             }
+
+            this.originalStringValue = this.StringValue;
         }
 
         public MailItemViewModel SelectedMail
@@ -36,7 +40,39 @@ namespace MapEditor.ViewModels
 
         public ICommand SaveCommand => new RelayCommand(this.Save);
 
-        public ObservableCollection<MailItemViewModel> Mail { get; }
+        public ICommand UndoCommand => new RelayCommand(this.Undo);
+
+        public ObservableCollection<MailItemViewModel> Mail { get; private set; }
+
+        protected override void SetStringValue(string value)
+        {
+            base.SetStringValue(value);
+
+            var xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(value);
+
+            var mail = Constants.LoadMail(xmlDoc);
+
+            this.Mail.CollectionChanged -= this.MailCollectionChanged;
+            foreach (var keyItem in this.Mail)
+            {
+                keyItem.PropertyChanged -= this.MailIsDirtyChanged;
+            }
+
+            this.Mail = new ObservableCollection<MailItemViewModel>(mail.Select(kvp => new MailItemViewModel(kvp.Key, kvp.Value)));
+            this.Mail.CollectionChanged += this.MailCollectionChanged;
+            foreach (var keyItem in this.Mail)
+            {
+                keyItem.PropertyChanged += this.MailIsDirtyChanged;
+            }
+
+            this.SelectedMail = this.Mail.FirstOrDefault();
+        }
+
+        protected override string GetStringValue()
+        {
+            return this.GetXmlDocument().OuterXml;
+        }
 
         private void MailCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
@@ -89,44 +125,57 @@ namespace MapEditor.ViewModels
                 mailItem.Save();
             }
 
-            var xmlDoc = new XmlDocument();
-            xmlDoc.AppendChild(xmlDoc.CreateElement("data"));
+            var xmlDoc = this.GetXmlDocument();
+
             using (var fs = new FileStream("data/data/Mail.xml", FileMode.Create))
             {
-                foreach (var mailItem in this.Mail)
-                {
-                    var mailItemNode = xmlDoc.CreateElement("Mail");
-
-                    var indexAttribute = xmlDoc.CreateAttribute("Index");
-                    indexAttribute.Value = mailItem.Index.ToString();
-                    mailItemNode.Attributes.Append(indexAttribute);
-
-                    var senderAttribute = xmlDoc.CreateAttribute("Sender");
-                    senderAttribute.Value = mailItem.SenderKey;
-                    mailItemNode.Attributes.Append(senderAttribute);
-
-                    var subjectAttribute = xmlDoc.CreateAttribute("Subject");
-                    subjectAttribute.Value = mailItem.SubjectKey;
-                    mailItemNode.Attributes.Append(subjectAttribute);
-
-                    foreach (var dialogue in mailItem.DialogueKeys)
-                    {
-                        var dialogueNode = xmlDoc.CreateElement("Dialogue");
-                        var keyAttribute = xmlDoc.CreateAttribute("Key");
-                        keyAttribute.Value = dialogue.Value;
-                        dialogueNode.Attributes.Append(keyAttribute);
-
-                        mailItemNode.AppendChild(dialogueNode);
-                    }
-
-                    xmlDoc.SelectSingleNode("data").AppendChild(mailItemNode);
-                }
-
                 using (var xw = XmlWriter.Create(fs, new XmlWriterSettings { Indent = true }))
                 {
                     xmlDoc.WriteTo(xw);
                 }
             }
+        }
+
+        private XmlDocument GetXmlDocument()
+        {
+            var xmlDoc = new XmlDocument();
+            xmlDoc.AppendChild(xmlDoc.CreateElement("data"));
+
+            foreach (var mailItem in this.Mail)
+            {
+                var mailItemNode = xmlDoc.CreateElement("Mail");
+
+                var indexAttribute = xmlDoc.CreateAttribute("Index");
+                indexAttribute.Value = mailItem.Index.ToString();
+                mailItemNode.Attributes.Append(indexAttribute);
+
+                var senderAttribute = xmlDoc.CreateAttribute("Sender");
+                senderAttribute.Value = mailItem.SenderKey;
+                mailItemNode.Attributes.Append(senderAttribute);
+
+                var subjectAttribute = xmlDoc.CreateAttribute("Subject");
+                subjectAttribute.Value = mailItem.SubjectKey;
+                mailItemNode.Attributes.Append(subjectAttribute);
+
+                foreach (var dialogue in mailItem.DialogueKeys)
+                {
+                    var dialogueNode = xmlDoc.CreateElement("Dialogue");
+                    var keyAttribute = xmlDoc.CreateAttribute("Key");
+                    keyAttribute.Value = dialogue.Value;
+                    dialogueNode.Attributes.Append(keyAttribute);
+
+                    mailItemNode.AppendChild(dialogueNode);
+                }
+
+                xmlDoc.SelectSingleNode("data").AppendChild(mailItemNode);
+            }
+
+            return xmlDoc;
+        }
+
+        private void Undo()
+        {
+            this.StringValue = this.originalStringValue;
         }
     }
 }
