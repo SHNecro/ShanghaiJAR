@@ -22,7 +22,7 @@ namespace MapEditor.ViewModels
 
         public MessageViewModel()
         {
-            this.Index = -1;
+            this.Index = 0;
             this.DialogueKeys = new ObservableCollection<Wrapper<string>>();
             this.DialogueKeys.CollectionChanged += CollectionChanged;
             this.RegisterDialogueKeys();

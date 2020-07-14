@@ -22,7 +22,7 @@ namespace MapEditor.ViewModels
 
         public KeyItemViewModel()
         {
-            this.index = -1;
+            this.index = 0;
             this.nameKey = "Debug.UnimplementedText";
             this.DialogueKeys = new ObservableCollection<Wrapper<string>>();
             this.DialogueKeys.CollectionChanged += CollectionChanged;
@@ -85,7 +85,7 @@ namespace MapEditor.ViewModels
 
         public string Name => Constants.TranslationService.Translate(this.NameKey).Text;
 
-        public bool IsDirty => this.initialStringValue != this.StringValue;
+        public bool IsDirty => TrimIndex(this.initialStringValue) != TrimIndex(this.StringValue);
 
         public string IndexLabel => $"{this.Index}{(this.IsDirty ? "*" : string.Empty)}";
 
@@ -203,6 +203,13 @@ namespace MapEditor.ViewModels
             this.OnPropertyChanged(nameof(this.IsDirty));
             this.OnPropertyChanged(nameof(this.IndexLabel));
             this.OnPropertyChanged(nameof(this.Name));
+        }
+
+        private static string TrimIndex(string s)
+        {
+            var index = s?.IndexOf("Name=\"", StringComparison.InvariantCulture) ?? -1;
+
+            return index == -1 ? s : s.Substring(index);
         }
     }
 }

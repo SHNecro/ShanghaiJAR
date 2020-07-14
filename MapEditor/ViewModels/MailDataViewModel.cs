@@ -36,7 +36,7 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref this.selectedMail, value); }
         }
 
-        public bool IsDirty => this.Mail.Any(k => k.IsDirty);
+        public bool IsDirty => this.originalStringValue != this.StringValue;
 
         public ICommand SaveCommand => new RelayCommand(this.Save);
 

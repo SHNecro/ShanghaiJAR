@@ -23,7 +23,7 @@ namespace MapEditor.ViewModels
 
         public MailItemViewModel()
         {
-            this.index = -1;
+            this.index = 0;
             this.senderKey = "Debug.UnimplementedText";
             this.subjectKey = "Debug.UnimplementedText";
             this.DialogueKeys = new ObservableCollection<Wrapper<string>>();
@@ -102,7 +102,7 @@ namespace MapEditor.ViewModels
 
         public string Name => Constants.TranslationService.Translate(this.SenderKey).Text + ": " + Constants.TranslationService.Translate(this.SubjectKey).Text;
 
-        public bool IsDirty => this.initialStringValue != this.StringValue;
+        public bool IsDirty => TrimIndex(this.initialStringValue) != TrimIndex(this.StringValue);
 
         public string IndexLabel => $"{this.Index}{(this.IsDirty ? "*" : string.Empty)}";
 
@@ -127,7 +127,7 @@ namespace MapEditor.ViewModels
         protected override string GetStringValue()
         {
             var stringValueBuilder = new StringBuilder();
-            stringValueBuilder.AppendLine($"<Mail Index=\"{this.Index}\" Sender=\"{this.SenderKey}\" Sender=\"{this.SubjectKey}\">");
+            stringValueBuilder.AppendLine($"<Mail Index=\"{this.Index}\" Subject=\"{this.SenderKey}\" Sender=\"{this.SubjectKey}\">");
             foreach (var dialogueKey in this.DialogueKeys)
             {
                 stringValueBuilder.AppendLine($"  <Dialogue Key=\"{dialogueKey.Value}\" />");
@@ -223,6 +223,13 @@ namespace MapEditor.ViewModels
             this.OnPropertyChanged(nameof(this.IsDirty));
             this.OnPropertyChanged(nameof(this.IndexLabel));
             this.OnPropertyChanged(nameof(this.Name));
+        }
+
+        private static string TrimIndex(string s)
+        {
+            var index = s?.IndexOf("Sender=\"", StringComparison.InvariantCulture) ?? -1;
+
+            return index == -1 ? s : s.Substring(index);
         }
     }
 }
