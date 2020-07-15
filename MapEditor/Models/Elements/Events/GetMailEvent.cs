@@ -5,6 +5,13 @@
         private int mailNumber;
         private bool isPlayingEffect;
 
+        public GetMailEvent()
+        {
+            // TODO: MEMORY LEAK
+            // However, would require propagating Dispose() all the way down Map, which would have been nice to do at the very start
+            Constants.MailDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.MailNumber)); };
+        }
+
         public int MailNumber
         {
             get { return this.mailNumber; }

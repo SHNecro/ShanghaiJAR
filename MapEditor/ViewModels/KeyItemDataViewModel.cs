@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.Models.Elements;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
@@ -11,8 +12,10 @@ namespace MapEditor.ViewModels
 {
     public class KeyItemDataViewModel : StringRepresentation
     {
+        private ObservableCollection<KeyItemViewModel> keyItems;
         private KeyItemViewModel selectedKeyItem;
 
+        private int lastSelectedIndex;
         private string originalStringValue;
 
         public KeyItemDataViewModel()
@@ -30,10 +33,49 @@ namespace MapEditor.ViewModels
             this.originalStringValue = this.StringValue;
         }
 
+        public ObservableCollection<KeyItemViewModel> KeyItems
+        {
+            get
+            {
+                return this.keyItems;
+            }
+            set
+            {
+                if (this.KeyItems != null)
+                {
+                    this.KeyItems.CollectionChanged -= this.KeyItemsCollectionChanged;
+                    foreach (var keyItem in this.KeyItems)
+                    {
+                        keyItem.PropertyChanged -= this.KeyItemIsDirtyChanged;
+                    }
+                }
+
+                this.SetValue(ref this.keyItems, value);
+
+                this.KeyItems.CollectionChanged += this.KeyItemsCollectionChanged;
+                foreach (var keyItem in this.KeyItems)
+                {
+                    keyItem.PropertyChanged += this.KeyItemIsDirtyChanged;
+                }
+
+                this.SelectedKeyItem = this.KeyItems.FirstOrDefault();
+            }
+        }
+
         public KeyItemViewModel SelectedKeyItem
         {
-            get { return this.selectedKeyItem; }
-            set { this.SetValue(ref this.selectedKeyItem, value); }
+            get
+            {
+                return this.selectedKeyItem;
+            }
+            set
+            {
+                if (value != null || this.KeyItems.Count == 0)
+                {
+                    this.SetValue(ref this.selectedKeyItem, value);
+                    this.lastSelectedIndex = this.KeyItems.IndexOf(this.SelectedKeyItem);
+                }
+            }
         }
 
         public bool IsDirty => this.originalStringValue != this.StringValue;
@@ -42,8 +84,6 @@ namespace MapEditor.ViewModels
 
         public ICommand UndoCommand => new RelayCommand(this.Undo);
 
-        public ObservableCollection<KeyItemViewModel> KeyItems { get; private set; }
-
         protected override void SetStringValue(string value)
         {
             base.SetStringValue(value);
@@ -51,20 +91,8 @@ namespace MapEditor.ViewModels
             var xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(value);
 
-            var keyItems = Constants.LoadKeyItems(xmlDoc);
-
-            this.KeyItems.CollectionChanged -= this.KeyItemsCollectionChanged;
-            foreach (var keyItem in this.KeyItems)
-            {
-                keyItem.PropertyChanged -= this.KeyItemIsDirtyChanged;
-            }
-
-            this.KeyItems = new ObservableCollection<KeyItemViewModel>(keyItems.Select(kvp => new KeyItemViewModel(kvp.Key, kvp.Value)));
-            this.KeyItems.CollectionChanged += this.KeyItemsCollectionChanged;
-            foreach (var keyItem in this.KeyItems)
-            {
-                keyItem.PropertyChanged += this.KeyItemIsDirtyChanged;
-            }
+            var globalKeyItems = Constants.LoadKeyItems(xmlDoc);
+            this.KeyItems = new ObservableCollection<KeyItemViewModel>(globalKeyItems.Select(kvp => new KeyItemViewModel(kvp.Key, kvp.Value)));
 
             this.SelectedKeyItem = this.KeyItems.FirstOrDefault();
         }
@@ -104,7 +132,13 @@ namespace MapEditor.ViewModels
                     }
                 }
             }
-            
+
+            if (!this.KeyItems.Contains(this.SelectedKeyItem))
+            {
+                this.SelectedKeyItem = this.lastSelectedIndex < this.KeyItems.Count && this.lastSelectedIndex >= 0 ? this.KeyItems[this.lastSelectedIndex] : this.KeyItems.LastOrDefault();
+            }
+
+            this.OnPropertyChanged(nameof(this.KeyItems));
             this.OnPropertyChanged(nameof(this.IsDirty));
         }
 
@@ -135,6 +169,23 @@ namespace MapEditor.ViewModels
                 }
             }
             this.originalStringValue = this.StringValue;
+
+            var globalKeyItemKeys = Constants.KeyItemDefinitions.Keys.ToList();
+            foreach (var globalDefinitionKey in globalKeyItemKeys)
+            {
+                Constants.KeyItemDefinitions.Remove(globalDefinitionKey);
+            }
+
+            foreach (var keyItem in this.KeyItems)
+            {
+                Constants.KeyItemDefinitions.Add(keyItem.Index, new KeyItemDefinition
+                {
+                    NameKey = keyItem.NameKey,
+                    DialogueKeys = keyItem.DialogueKeys.Select(ws => ws.Value).ToList()
+                });
+            }
+
+            this.OnPropertyChanged(nameof(this.IsDirty));
         }
 
         private void Undo()

@@ -49,8 +49,8 @@ namespace MapEditor
         public static Dictionary<int, string> InteriorDefinitions { get; private set; }
         public static Dictionary<int, BackgroundDefinition> BackgroundDefinitions { get; private set; }
 
-        public static Dictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
-        public static Dictionary<int, MailDefinition> MailDefinitions { get; private set; }
+        public static ObservableConcurrentDictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
+        public static ObservableConcurrentDictionary<int, MailDefinition> MailDefinitions { get; private set; }
 
         public static Rectangle ConveyorSpriteArea;
         public static Dictionary<FontType, Font> Fonts;
@@ -479,11 +479,21 @@ namespace MapEditor
 
             var keyItemDoc = new XmlDocument();
             keyItemDoc.Load($"data/data/KeyItems.xml");
-            Constants.KeyItemDefinitions = LoadKeyItems(keyItemDoc);
+            var keyItemDefintions = LoadKeyItems(keyItemDoc);
+            Constants.KeyItemDefinitions = new ObservableConcurrentDictionary<int, KeyItemDefinition>();
+            foreach (var kvp in keyItemDefintions)
+            {
+                Constants.KeyItemDefinitions.Add(kvp.Key, kvp.Value);
+            }
 
             var mailDoc = new XmlDocument();
             mailDoc.Load($"data/data/Mail.xml");
-            Constants.MailDefinitions = LoadMail(mailDoc);
+            var mailDefinitions = LoadMail(mailDoc);
+            Constants.MailDefinitions = new ObservableConcurrentDictionary<int, MailDefinition>();
+            foreach (var kvp in mailDefinitions)
+            {
+                Constants.MailDefinitions.Add(kvp.Key, kvp.Value);
+            }
         }
 
         public static Dictionary<int, KeyItemDefinition> LoadKeyItems(XmlDocument keyItemDoc)

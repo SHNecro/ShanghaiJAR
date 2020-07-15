@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.Models.Elements;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
@@ -11,8 +12,10 @@ namespace MapEditor.ViewModels
 {
     public class MailDataViewModel : StringRepresentation
     {
+        private ObservableCollection<MailItemViewModel> mail;
         private MailItemViewModel selectedMail;
 
+        private int lastSelectedIndex;
         private string originalStringValue;
 
         public MailDataViewModel()
@@ -30,10 +33,49 @@ namespace MapEditor.ViewModels
             this.originalStringValue = this.StringValue;
         }
 
+        public ObservableCollection<MailItemViewModel> Mail
+        {
+            get
+            {
+                return this.mail;
+            }
+            set
+            {
+                if (this.Mail != null)
+                {
+                    this.Mail.CollectionChanged -= this.MailCollectionChanged;
+                    foreach (var keyItem in this.Mail)
+                    {
+                        keyItem.PropertyChanged -= this.MailIsDirtyChanged;
+                    }
+                }
+
+                this.SetValue(ref this.mail, value);
+
+                this.Mail.CollectionChanged += this.MailCollectionChanged;
+                foreach (var keyItem in this.Mail)
+                {
+                    keyItem.PropertyChanged += this.MailIsDirtyChanged;
+                }
+
+                this.SelectedMail = this.Mail.FirstOrDefault();
+            }
+        }
+
         public MailItemViewModel SelectedMail
         {
-            get { return this.selectedMail; }
-            set { this.SetValue(ref this.selectedMail, value); }
+            get
+            {
+                return this.selectedMail;
+            }
+            set
+            {
+                if (value != null || this.Mail.Count == 0)
+                {
+                    this.SetValue(ref this.selectedMail, value);
+                    this.lastSelectedIndex = this.Mail.IndexOf(this.SelectedMail);
+                }
+            }
         }
 
         public bool IsDirty => this.originalStringValue != this.StringValue;
@@ -42,8 +84,6 @@ namespace MapEditor.ViewModels
 
         public ICommand UndoCommand => new RelayCommand(this.Undo);
 
-        public ObservableCollection<MailItemViewModel> Mail { get; private set; }
-
         protected override void SetStringValue(string value)
         {
             base.SetStringValue(value);
@@ -51,7 +91,7 @@ namespace MapEditor.ViewModels
             var xmlDoc = new XmlDocument();
             xmlDoc.LoadXml(value);
 
-            var mail = Constants.LoadMail(xmlDoc);
+            var globalMail = Constants.LoadMail(xmlDoc);
 
             this.Mail.CollectionChanged -= this.MailCollectionChanged;
             foreach (var keyItem in this.Mail)
@@ -59,7 +99,7 @@ namespace MapEditor.ViewModels
                 keyItem.PropertyChanged -= this.MailIsDirtyChanged;
             }
 
-            this.Mail = new ObservableCollection<MailItemViewModel>(mail.Select(kvp => new MailItemViewModel(kvp.Key, kvp.Value)));
+            this.Mail = new ObservableCollection<MailItemViewModel>(globalMail.Select(kvp => new MailItemViewModel(kvp.Key, kvp.Value)));
             this.Mail.CollectionChanged += this.MailCollectionChanged;
             foreach (var keyItem in this.Mail)
             {
@@ -104,7 +144,14 @@ namespace MapEditor.ViewModels
                     }
                 }
             }
-            
+
+            if (!this.Mail.Contains(this.SelectedMail))
+            {
+                this.SelectedMail = this.lastSelectedIndex < this.Mail.Count && this.lastSelectedIndex >= 0
+                    ? this.Mail[this.lastSelectedIndex] : this.Mail.LastOrDefault();
+            }
+
+            this.OnPropertyChanged(nameof(this.Mail));
             this.OnPropertyChanged(nameof(this.IsDirty));
         }
 
@@ -134,6 +181,24 @@ namespace MapEditor.ViewModels
                     xmlDoc.WriteTo(xw);
                 }
             }
+
+            var globalMailItemKeys = Constants.MailDefinitions.Keys.ToList();
+            foreach (var globalDefinitionKey in globalMailItemKeys)
+            {
+                Constants.MailDefinitions.Remove(globalDefinitionKey);
+            }
+
+            foreach (var mailItem in this.Mail)
+            {
+                Constants.MailDefinitions.Add(mailItem.Index, new MailDefinition
+                {
+                    SenderKey = mailItem.SenderKey,
+                    SubjectKey = mailItem.SubjectKey,
+                    DialogueKeys = mailItem.DialogueKeys.Select(ws => ws.Value).ToList()
+                });
+            }
+
+            this.OnPropertyChanged(nameof(this.IsDirty));
         }
 
         private XmlDocument GetXmlDocument()

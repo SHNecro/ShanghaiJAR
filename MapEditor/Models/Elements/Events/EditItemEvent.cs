@@ -1,12 +1,16 @@
-﻿using MapEditor.Core.Converters;
-using System.Collections.Generic;
-
-namespace MapEditor.Models.Elements.Events
+﻿namespace MapEditor.Models.Elements.Events
 {
     public class EditItemEvent : EventBase
     {
         private int itemNumber;
         private bool isAdding;
+
+        public EditItemEvent()
+        {
+            // TODO: MEMORY LEAK
+            // However, would require propagating Dispose() all the way down Map, which would have been nice to do at the very start
+            Constants.KeyItemDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.ItemNumber)); };
+        }
 
         public int ItemNumber
         {

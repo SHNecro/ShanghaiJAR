@@ -228,6 +228,7 @@
     <Compile Include="Models\Elements\MailDefinition.cs" />
     <Compile Include="Models\Elements\KeyItemDefinition.cs" />
     <Compile Include="Models\Elements\Terms\TermBase.cs" />
+    <Compile Include="ObservableConcurrentDictionary.cs" />
     <Compile Include="Rendering\AddEditTranslationRenderer.cs" />
     <Compile Include="Rendering\AddEditTranslationRenderer.Drawing.cs" />
     <Compile Include="Rendering\CharacterInfoRenderer.cs" />
