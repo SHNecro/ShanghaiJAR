@@ -44,18 +44,18 @@ namespace MapEditor.ViewModels
                 if (this.Mail != null)
                 {
                     this.Mail.CollectionChanged -= this.MailCollectionChanged;
-                    foreach (var keyItem in this.Mail)
+                    foreach (var mailItem in this.Mail)
                     {
-                        keyItem.PropertyChanged -= this.MailIsDirtyChanged;
+                        mailItem.PropertyChanged -= this.MailIsDirtyChanged;
                     }
                 }
 
                 this.SetValue(ref this.mail, value);
 
                 this.Mail.CollectionChanged += this.MailCollectionChanged;
-                foreach (var keyItem in this.Mail)
+                foreach (var mailItem in this.Mail)
                 {
-                    keyItem.PropertyChanged += this.MailIsDirtyChanged;
+                    mailItem.PropertyChanged += this.MailIsDirtyChanged;
                 }
 
                 this.SelectedMail = this.Mail.FirstOrDefault();
@@ -92,19 +92,7 @@ namespace MapEditor.ViewModels
             xmlDoc.LoadXml(value);
 
             var globalMail = Constants.LoadMail(xmlDoc);
-
-            this.Mail.CollectionChanged -= this.MailCollectionChanged;
-            foreach (var keyItem in this.Mail)
-            {
-                keyItem.PropertyChanged -= this.MailIsDirtyChanged;
-            }
-
             this.Mail = new ObservableCollection<MailItemViewModel>(globalMail.Select(kvp => new MailItemViewModel(kvp.Key, kvp.Value)));
-            this.Mail.CollectionChanged += this.MailCollectionChanged;
-            foreach (var keyItem in this.Mail)
-            {
-                keyItem.PropertyChanged += this.MailIsDirtyChanged;
-            }
 
             this.SelectedMail = this.Mail.FirstOrDefault();
         }

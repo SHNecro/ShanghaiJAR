@@ -4,6 +4,7 @@ using Microsoft.WindowsAPICodePack.Dialogs;
 using OpenTK.Audio.OpenAL;
 using System;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
@@ -46,14 +47,23 @@ namespace MapEditor.ViewModels
 
         public ObservableCollection<BGMViewModel> BGM
         {
-            get { return this.bgm; }
-            set { this.SetValue(ref this.bgm, value); }
-        }
+            get
+            {
+                return this.bgm;
+            }
+            set
+            {
+                if (this.BGM != null)
+                {
+                    this.BGM.CollectionChanged -= this.BGMCollectionChanged;
+                }
 
-        public int LastSelectedIndex
-        {
-            private get { return this.lastSelectedIndex; }
-            set { this.lastSelectedIndex = value < 0 ? this.lastSelectedIndex : Math.Min(this.BGM.Count - 1, value); }
+                this.SetValue(ref this.bgm, value);
+
+                this.BGM.CollectionChanged += this.BGMCollectionChanged;
+
+                this.SelectedBGM = this.BGM.FirstOrDefault();
+            }
         }
 
         public BGMViewModel SelectedBGM
@@ -64,25 +74,19 @@ namespace MapEditor.ViewModels
             }
             set
             {
-                if (this.SelectedBGM != null)
+                if (value != null || this.BGM.Count == 0)
                 {
-                    this.SelectedBGM.PropertyChanged -= this.SelectedBGMPropertyChanged;
-                }
+                    this.SetValue(ref this.selectedBGM, value);
 
-                var valueOrClosest = value ?? this.BGM[this.LastSelectedIndex];
+                    if (!this.IsPlaying && !this.isPaused && this.SelectedBGM != null)
+                    {
+                        this.audio.OggStop();
+                        this.PlayingBGM = this.SelectedBGM;
+                        var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
+                        this.audio.InitializeOgg(filePath);
+                    }
 
-                this.SetValue(ref this.selectedBGM, valueOrClosest);
-                if (this.SelectedBGM != null)
-                {
-                    this.SelectedBGM.PropertyChanged += this.SelectedBGMPropertyChanged;
-                }
-
-                if (!this.IsPlaying && !this.isPaused  && this.SelectedBGM != null)
-                {
-                    this.audio.OggStop();
-                    this.PlayingBGM = this.SelectedBGM;
-                    var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
-                    this.audio.InitializeOgg(filePath);
+                    this.lastSelectedIndex = this.BGM.IndexOf(this.SelectedBGM);
                 }
             }
         }
@@ -245,13 +249,7 @@ namespace MapEditor.ViewModels
                 {
                     AudioEngine.LoadOggInfo(selectFileDialog.FileName, out _, out long totalSamples);
                     var fileName = Path.GetFileNameWithoutExtension(selectFileDialog.FileName);
-                    var newBGM = new BGMViewModel
-                    {
-                        File = fileName,
-                        LoopStart = 0,
-                        LoopEnd = totalSamples,
-                        Name = fileName
-                    };
+                    var newBGM = new BGMViewModel { StringValue = $"{0},{totalSamples},{fileName},{fileName}" };
 
                     var selectedBGMIndex = this.BGM.IndexOf(this.SelectedBGM);
                     this.BGM.Insert(selectedBGMIndex, newBGM);
@@ -285,10 +283,16 @@ namespace MapEditor.ViewModels
             }
         }
 
-        private void SelectedBGMPropertyChanged(object sender, PropertyChangedEventArgs args)
+        private void BGMCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
+            if (!this.BGM.Contains(this.SelectedBGM))
+            {
+                this.SelectedBGM = this.lastSelectedIndex < this.BGM.Count && this.lastSelectedIndex >= 0
+                    ? this.BGM[this.lastSelectedIndex] : this.BGM.LastOrDefault();
+            }
+
+            this.OnPropertyChanged(nameof(this.BGM));
             this.OnPropertyChanged(nameof(this.IsDirty));
-            this.OnPropertyChanged(nameof(this.CanSave));
         }
     }
 }
