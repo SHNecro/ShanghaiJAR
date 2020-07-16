@@ -222,6 +222,7 @@
     <Compile Include="LoadingWindow.xaml.cs">
       <DependentUpon>LoadingWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Elements\BGMDefinition.cs" />
     <Compile Include="Models\Elements\Events\PianoEvent.cs" />
     <Compile Include="Models\Elements\Events\CreditEvent.cs" />
     <Compile Include="Models\Elements\Events\EventBase.cs" />

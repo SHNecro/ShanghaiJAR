@@ -1,5 +1,6 @@
 ﻿using MapEditor.Core;
 using MapEditor.Rendering;
+using MapEditor.ViewModels;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -22,6 +23,13 @@ namespace MapEditor.Models
         private bool isGameEnding;
         private string backgroundMusic;
         private int backgroundNumber;
+
+        public RandomEncounter()
+        {
+            // TODO: MEMORY LEAK
+            // However, would require propagating Dispose() all the way down Map, which would have been nice to do at the very start
+            BGMDataViewModel.BGMDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.BackgroundMusic)); };
+        }
 
         public Enemy Enemy1
         {
@@ -121,8 +129,17 @@ namespace MapEditor.Models
         }
         public string BackgroundMusic
         {
-            get { return this.backgroundMusic; }
-            set { this.SetValue(ref this.backgroundMusic, value); }
+            get
+            {
+                return this.backgroundMusic;
+            }
+            set
+            {
+                if (value != null)
+                {
+                    this.SetValue(ref this.backgroundMusic, value);
+                }
+            }
         }
         public int BackgroundNumber
         {
@@ -170,7 +187,7 @@ namespace MapEditor.Models
             {
                 elements.AddRange(new[] {
                     this.IsGameEnding ? "True" : "False",
-                    this.BackgroundMusic.ToString(),
+                    this.BackgroundMusic,
                     this.BackgroundNumber.ToString(),
                 });
             }

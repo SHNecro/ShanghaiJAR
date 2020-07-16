@@ -38,8 +38,10 @@ namespace MapEditor.Core
             DataWindow.Instance.SelectedTabIndex = tabIndex;
         }
 
+        public static ICommand OpenMessagesTabCommand => new RelayCommand(() => DataWindow.ShowWindow(0));
         public static ICommand OpenKeyItemTabCommand => new RelayCommand(() => DataWindow.ShowWindow(1));
         public static ICommand OpenMailTabCommand => new RelayCommand(() => DataWindow.ShowWindow(2));
         public static ICommand OpenCharacterInfoTabCommand => new RelayCommand(() => DataWindow.ShowWindow(3));
+        public static ICommand OpenBGMTabCommand => new RelayCommand(() => DataWindow.ShowWindow(4));
     }
 }

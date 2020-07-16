@@ -1,13 +1,31 @@
-﻿namespace MapEditor.Models.Elements.Events
+﻿using MapEditor.ViewModels;
+
+namespace MapEditor.Models.Elements.Events
 {
     public class StartBGMEvent : EventBase
     {
         private string bgmName;
 
+        public StartBGMEvent()
+        {
+            // TODO: MEMORY LEAK
+            // However, would require propagating Dispose() all the way down Map, which would have been nice to do at the very start
+            BGMDataViewModel.BGMDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.BGMName)); };
+        }
+
         public string BGMName
         {
-            get { return this.bgmName; }
-            set { this.SetValue(ref this.bgmName, value); }
+            get
+            {
+                return this.bgmName;
+            }
+            set
+            {
+                if (value != null)
+                {
+                    this.SetValue(ref this.bgmName, value);
+                }
+            }
         }
 
         public override string Info => "Starts playing BGM from a .ogg, with \"mod/music\" overriding \"music/\".";

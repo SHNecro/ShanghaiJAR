@@ -32,6 +32,10 @@ namespace MapEditor
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             e.Cancel = !MainWindowViewModel.GetInstance().ConfirmMapChange();
+            if (!e.Cancel)
+            {
+                Environment.Exit(Environment.ExitCode);
+            }
         }
     }
 }

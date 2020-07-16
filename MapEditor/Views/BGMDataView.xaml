@@ -63,7 +63,6 @@
 
             <ListBox DockPanel.Dock="Top"
                      ItemsSource="{Binding BGM}"
-                     SelectedIndex="{Binding LastSelectedIndex, Mode=OneWayToSource}"
                      SelectedItem="{Binding SelectedBGM}"
                      HorizontalContentAlignment="Stretch"
                      Grid.IsSharedSizeScope="True">

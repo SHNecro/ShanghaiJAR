@@ -1,5 +1,6 @@
 ﻿using Common.OpenAL;
 using MapEditor.Core;
+using MapEditor.Models.Elements;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using OpenTK.Audio.OpenAL;
 using System;
@@ -17,6 +18,22 @@ namespace MapEditor.ViewModels
 {
     public class BGMDataViewModel : StringRepresentation
     {
+        public static ObservableCollection<BGMDefinition> BGMDefinitions;
+
+        static BGMDataViewModel()
+        {
+            var loopPointContents = File.ReadAllText(FilePath, Encoding.GetEncoding("Shift_JIS"));
+            BGMDataViewModel.Instance = new BGMDataViewModel { StringValue = loopPointContents };
+
+            BGMDataViewModel.BGMDefinitions = new ObservableCollection<BGMDefinition>();
+            foreach (var bgmViewModel in BGMDataViewModel.Instance.BGM)
+            {
+                BGMDataViewModel.BGMDefinitions.Add(new BGMDefinition { Name = bgmViewModel.Name, File = bgmViewModel.File });
+            }
+        }
+
+        public static BGMDataViewModel Instance { get; }
+
         private const string FilePath = "music/looppoint.txt";
         private const string MusicPathFormat = "music/{0}.ogg";
 
@@ -36,7 +53,7 @@ namespace MapEditor.ViewModels
 
         private string originalStringValue;
 
-        public BGMDataViewModel()
+        private BGMDataViewModel()
         {
             this.audio = new AudioEngine();
             this.audio.OggPlayback += this.OggPlayback;
@@ -56,11 +73,20 @@ namespace MapEditor.ViewModels
                 if (this.BGM != null)
                 {
                     this.BGM.CollectionChanged -= this.BGMCollectionChanged;
+
+                    foreach (var bgmViewModel in this.BGM)
+                    {
+                        bgmViewModel.PropertyChanged -= this.BGMViewModelPropertyChanged;
+                    }
                 }
 
                 this.SetValue(ref this.bgm, value);
 
                 this.BGM.CollectionChanged += this.BGMCollectionChanged;
+                foreach (var bgmViewModel in this.BGM)
+                {
+                    bgmViewModel.PropertyChanged += this.BGMViewModelPropertyChanged;
+                }
 
                 this.SelectedBGM = this.BGM.FirstOrDefault();
             }
@@ -148,12 +174,6 @@ namespace MapEditor.ViewModels
 
         public ICommand AddBGMEntryCommand => new RelayCommand(this.AddBGMEntry);
 
-        public void LoadFromFile()
-        {
-            var loopPointContents = File.ReadAllText(FilePath, Encoding.GetEncoding("Shift_JIS"));
-            this.SetStringValue(loopPointContents);
-        }
-
         public void Remove()
         {
             this.audio.OggStop();
@@ -218,6 +238,16 @@ namespace MapEditor.ViewModels
             this.originalStringValue = this.StringValue;
             this.OnPropertyChanged(nameof(this.IsDirty));
             this.OnPropertyChanged(nameof(this.CanSave));
+
+            while (BGMDataViewModel.BGMDefinitions.Any())
+            {
+                BGMDataViewModel.BGMDefinitions.RemoveAt(0);
+            }
+
+            foreach (var bgmViewModel in this.BGM)
+            {
+                BGMDataViewModel.BGMDefinitions.Add(new BGMDefinition { Name = bgmViewModel.Name, File = bgmViewModel.File });
+            }
         }
 
         private void Undo()
@@ -291,7 +321,36 @@ namespace MapEditor.ViewModels
                     ? this.BGM[this.lastSelectedIndex] : this.BGM.LastOrDefault();
             }
 
+            if (e.Action == NotifyCollectionChangedAction.Add)
+            {
+                foreach (var newObject in e.NewItems)
+                {
+                    var newMessage = newObject as MessageViewModel;
+                    if (newMessage != null)
+                    {
+                        newMessage.PropertyChanged += this.BGMViewModelPropertyChanged;
+                    }
+                }
+            }
+
+            if (e.Action == NotifyCollectionChangedAction.Remove)
+            {
+                foreach (var oldObject in e.OldItems)
+                {
+                    var oldMessage = oldObject as MessageViewModel;
+                    if (oldMessage != null)
+                    {
+                        oldMessage.PropertyChanged -= this.BGMViewModelPropertyChanged;
+                    }
+                }
+            }
+
             this.OnPropertyChanged(nameof(this.BGM));
+            this.OnPropertyChanged(nameof(this.IsDirty));
+        }
+
+        private void BGMViewModelPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
             this.OnPropertyChanged(nameof(this.IsDirty));
         }
     }

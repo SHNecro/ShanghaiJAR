@@ -21,9 +21,8 @@ namespace MusicPlayer
         {
             public MusicPlayerViewModel()
             {
-                // IF IN DEBUG MODE, WILL HAVE ODD INVALIDATE BEHAVIOR
-                this.BGMDataViewModel = new BGMDataViewModel();
-                this.BGMDataViewModel.LoadFromFile();
+                // IF IN DEBUG MODE, WILL HAVE ODD INVALIDATE BEHAVIOR (will only update ui when mouse hovers, window moved, etc.)
+                this.BGMDataViewModel = BGMDataViewModel.Instance;
             }
 
             public BGMDataViewModel BGMDataViewModel { get; }

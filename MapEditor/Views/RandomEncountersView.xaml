@@ -11,6 +11,7 @@
              xmlns:controls="clr-namespace:MapEditor.Controls"
              xmlns:converters="clr-namespace:MapEditor.Core.Converters"
              xmlns:rendering="clr-namespace:MapEditor.Rendering"
+             xmlns:viewModels="clr-namespace:MapEditor.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="400">
     <UserControl.Resources>
@@ -225,13 +226,19 @@
                                 </Grid>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn"/>
+                                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
-                                    <TextBlock Grid.Column="0" Text="Music:"/>
-                                    <TextBox Grid.Column="1"
-                                             Text="{Binding BackgroundMusic, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                    <TextBlock Grid.Column="0"
+                                               VerticalAlignment="Center"
+                                               Text="BGM:"/>
+                                    <ComboBox Grid.Column="1"
+                                              ItemsSource="{x:Static viewModels:BGMDataViewModel.BGMDefinitions}"
+                                              SelectedValue="{Binding BackgroundMusic}"
+                                              SelectedValuePath="File"
+                                              DisplayMemberPath="Label"/>
                                 </Grid>
+                                <Button Command="{x:Static core:DataWindow.OpenBGMTabCommand}" Content="Open BGM List/Player" />
 
                                 <TabControl ItemsSource="{Binding Enemies}"
                                             TabStripPlacement="Top"
