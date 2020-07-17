@@ -1,4 +1,5 @@
 ﻿using Common.OpenGL;
+using Data;
 using MapEditor.Core;
 using MapEditor.ExtensionMethods;
 using MapEditor.Models;
@@ -50,6 +51,8 @@ namespace MapEditor
         public static Dictionary<int, string> InteriorDefinitions { get; private set; }
         public static Dictionary<int, BackgroundDefinition> BackgroundDefinitions { get; private set; }
 
+        public static bool[,] FloatingCharacters;
+        public static bool[,] NoShadowCharacters;
         public static ObservableConcurrentDictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
         public static ObservableConcurrentDictionary<int, MailDefinition> MailDefinitions { get; private set; }
 
@@ -478,6 +481,8 @@ namespace MapEditor
                 Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Data: Background: ", dataLoaded / totalDataToLoad));
             }
 
+            CharacterInfo.LoadCharacterInfo(out FloatingCharacters, out NoShadowCharacters);
+
             var keyItemDoc = new XmlDocument();
             keyItemDoc.Load($"data/data/KeyItems.xml");
             var keyItemDefintions = LoadKeyItems(keyItemDoc);
@@ -495,8 +500,20 @@ namespace MapEditor
             {
                 Constants.MailDefinitions.Add(kvp.Key, kvp.Value);
             }
-            
+
             // BGM definitions attached to viewmodel (public static) so standalone does not require
+        }
+
+        public static bool IsFloatingCharacter(int sheet, int index)
+        {
+            return sheet < Constants.FloatingCharacters.GetLength(0) && index < 8
+                && Constants.FloatingCharacters[sheet, index];
+        }
+
+        public static bool IsNoShadowCharacter(int sheet, int index)
+        {
+            return sheet < Constants.NoShadowCharacters.GetLength(0) && index < 8
+                && Constants.NoShadowCharacters[sheet, index];
         }
 
         public static Dictionary<int, KeyItemDefinition> LoadKeyItems(XmlDocument keyItemDoc)

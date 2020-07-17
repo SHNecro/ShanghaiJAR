@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MapEditor.Views"
         mc:Ignorable="d"
         Closed="Window_Closed"
-        Title="Data Browser" Height="450" Width="1200">
+        Title="Data Browser" Height="500" Width="1200">
     <Grid>
         <TabControl SelectedIndex="{Binding SelectedTabIndex}">
             <TabItem Header="Messages">

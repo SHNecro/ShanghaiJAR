@@ -128,7 +128,7 @@ namespace Common.OpenGL
 
         public IEnumerable<string> GetProvidableTextures()
         {
-            var files = this.textureBytes.Keys;
+            var files = this.textureBytes.Keys.ToArray();
 
             var formatInverterFunc = this.graphicsFormat.CreateFormatInverter(files);
 

@@ -11,11 +11,8 @@ using System.Xml;
 
 namespace MapEditor.ViewModels
 {
-    public class CharacterInfoDataViewModel : ViewModelBase
+    public class CharacterInfoDataViewModel : StringRepresentation
     {
-        private static bool[,] UnmodifiedFloatingCharacters;
-        private static bool[,] UnmodifiedNoShadowCharacters;
-
         private readonly bool[,] floatingCharacters;
         private readonly bool[,] noShadowCharacters;
 
@@ -24,39 +21,13 @@ namespace MapEditor.ViewModels
         private int angle;
         private bool isWalking;
 
-        static CharacterInfoDataViewModel()
-        {
-            CharacterInfo.LoadCharacterInfo(out UnmodifiedFloatingCharacters, out UnmodifiedNoShadowCharacters);
-        }
+        private string originalStringValue;
 
         public CharacterInfoDataViewModel()
         {
             CharacterInfo.LoadCharacterInfo(out this.floatingCharacters, out this.noShadowCharacters);
-        }
 
-        public bool IsDirty
-        {
-            get
-            {
-                if (CharacterInfoDataViewModel.UnmodifiedFloatingCharacters.GetLength(0) != this.floatingCharacters.GetLength(0))
-                {
-                    return true;
-                }
-
-                for (var i = 0; i < floatingCharacters.GetLength(0); i++)
-                {
-                    for (var ii = 0; ii <= 7; ii++)
-                    {
-                        if (CharacterInfoDataViewModel.UnmodifiedFloatingCharacters[i, ii] != floatingCharacters[i, ii]
-                            || CharacterInfoDataViewModel.UnmodifiedNoShadowCharacters[i, ii] != noShadowCharacters[i, ii])
-                        {
-                            return true;
-                        }
-                    }
-                }
-
-                return false;
-            }
+            this.originalStringValue = this.StringValue;
         }
 
         public int CurrentSheetIndex
@@ -151,7 +122,11 @@ namespace MapEditor.ViewModels
 
         public int TexY => (this.CharacterIndex % 4) * 192 + (this.AngleUp ? 96 : 0);
 
+        public bool IsDirty => this.originalStringValue != this.StringValue;
+
         public ICommand SaveCommand => new RelayCommand(this.Save);
+
+        public ICommand UndoCommand => new RelayCommand(this.Undo);
 
         public bool IsFloatingCharacter(int sheet, int index)
         {
@@ -163,66 +138,97 @@ namespace MapEditor.ViewModels
             return sheet < this.noShadowCharacters.GetLength(0) && index < 8 && this.noShadowCharacters[sheet, index];
         }
 
+        protected override void SetStringValue(string value)
+        {
+            base.SetStringValue(value);
+
+            for (var sheet = 0; sheet < this.floatingCharacters.GetLength(0); sheet++)
+            {
+                for (var charIndex = 0; charIndex < this.floatingCharacters.GetLength(1); charIndex++)
+                {
+                    this.floatingCharacters[sheet, charIndex] = Constants.IsFloatingCharacter(sheet, charIndex);
+                }
+            }
+
+            for (var sheet = 0; sheet < this.noShadowCharacters.GetLength(0); sheet++)
+            {
+                for (var charIndex = 0; charIndex < this.noShadowCharacters.GetLength(1); charIndex++)
+                {
+                    this.noShadowCharacters[sheet, charIndex] = Constants.IsNoShadowCharacter(sheet, charIndex);
+                }
+            }
+
+            this.OnPropertyChanged(nameof(this.IsFloating));
+            this.OnPropertyChanged(nameof(this.NoShadow));
+        }
+
+        protected override string GetStringValue()
+        {
+            return this.GetXmlDocument().OuterXml;
+        }
+
         private void Save()
         {
-            var xmlDoc = new XmlDocument();
-            xmlDoc.AppendChild(xmlDoc.CreateElement("data"));
+            var xmlDoc = this.GetXmlDocument();
+
             using (var fs = new FileStream("data/data/CharacterInfo.xml", FileMode.Create))
             {
-                for (var i = 0; i < floatingCharacters.GetLength(0); i++)
-                {
-                    for (var ii = 0; ii <= 7; ii++)
-                    {
-                        var isFloating = this.IsFloatingCharacter(i, ii);
-                        var noShadow = this.IsNoShadowCharacter(i, ii);
-
-                        if (!isFloating && !noShadow)
-                        {
-                            continue;
-                        }
-
-                        var characterNode = xmlDoc.CreateElement("Character");
-
-                        var sheetAttribute = xmlDoc.CreateAttribute("Sheet");
-                        sheetAttribute.Value = i.ToString();
-                        characterNode.Attributes.Append(sheetAttribute);
-
-                        var indexAttribute = xmlDoc.CreateAttribute("Index");
-                        indexAttribute.Value = ii.ToString();
-                        characterNode.Attributes.Append(indexAttribute);
-
-                        var isFloatingAttribute = xmlDoc.CreateAttribute("IsFloating");
-                        isFloatingAttribute.Value = isFloating ? "True" : "False";
-                        characterNode.Attributes.Append(isFloatingAttribute);
-
-                        var noShadowAttribute = xmlDoc.CreateAttribute("NoShadow");
-                        noShadowAttribute.Value = noShadow ? "True" : "False";
-                        characterNode.Attributes.Append(noShadowAttribute);
-
-                        xmlDoc.SelectSingleNode("data").AppendChild(characterNode);
-                    }
-                }
-
                 using (var xw = XmlWriter.Create(fs, new XmlWriterSettings { Indent = true }))
                 {
                     xmlDoc.WriteTo(xw);
                 }
             }
 
-            CharacterInfo.LoadCharacterInfo(out UnmodifiedFloatingCharacters, out UnmodifiedNoShadowCharacters);
+            this.originalStringValue = this.StringValue;
             this.OnPropertyChanged(nameof(this.IsDirty));
+
+            CharacterInfo.LoadCharacterInfo(out Constants.FloatingCharacters, out Constants.NoShadowCharacters);
         }
 
-        public static bool UnmodifiedIsFloatingCharacter(int sheet, int index)
+        private void Undo()
         {
-            return sheet < CharacterInfoDataViewModel.UnmodifiedFloatingCharacters.GetLength(0) && index < 8
-                && CharacterInfoDataViewModel.UnmodifiedFloatingCharacters[sheet, index];
+            this.StringValue = this.originalStringValue;
         }
 
-        public static bool UnmodifiedIsNoShadowCharacter(int sheet, int index)
+        private XmlDocument GetXmlDocument()
         {
-            return sheet < CharacterInfoDataViewModel.UnmodifiedNoShadowCharacters.GetLength(0) && index < 8
-                && CharacterInfoDataViewModel.UnmodifiedNoShadowCharacters[sheet, index];
+            var xmlDoc = new XmlDocument();
+            xmlDoc.AppendChild(xmlDoc.CreateElement("data"));
+            for (var i = 0; i < floatingCharacters.GetLength(0); i++)
+            {
+                for (var ii = 0; ii <= 7; ii++)
+                {
+                    var isFloating = this.IsFloatingCharacter(i, ii);
+                    var noShadow = this.IsNoShadowCharacter(i, ii);
+
+                    if (!isFloating && !noShadow)
+                    {
+                        continue;
+                    }
+
+                    var characterNode = xmlDoc.CreateElement("Character");
+
+                    var sheetAttribute = xmlDoc.CreateAttribute("Sheet");
+                    sheetAttribute.Value = i.ToString();
+                    characterNode.Attributes.Append(sheetAttribute);
+
+                    var indexAttribute = xmlDoc.CreateAttribute("Index");
+                    indexAttribute.Value = ii.ToString();
+                    characterNode.Attributes.Append(indexAttribute);
+
+                    var isFloatingAttribute = xmlDoc.CreateAttribute("IsFloating");
+                    isFloatingAttribute.Value = isFloating ? "True" : "False";
+                    characterNode.Attributes.Append(isFloatingAttribute);
+
+                    var noShadowAttribute = xmlDoc.CreateAttribute("NoShadow");
+                    noShadowAttribute.Value = noShadow ? "True" : "False";
+                    characterNode.Attributes.Append(noShadowAttribute);
+
+                    xmlDoc.SelectSingleNode("data").AppendChild(characterNode);
+                }
+            }
+
+            return xmlDoc;
         }
     }
 }
