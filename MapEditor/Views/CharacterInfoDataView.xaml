@@ -149,7 +149,7 @@
                 </Grid>
             </StackPanel>
 
-            <Button Grid.Row="1" Content="Undo" Width="100" HorizontalAlignment="Right"
+            <Button Grid.Row="1" Content="Undo All" Width="100" HorizontalAlignment="Right"
                     IsEnabled="{Binding IsDirty}" Command="{Binding UndoCommand}" />
         </Grid>
 

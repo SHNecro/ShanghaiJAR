@@ -26,15 +26,35 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="3*" />
         </Grid.ColumnDefinitions>
-        <ListBox Grid.Column="0" ItemsSource="{Binding MessageTypes}"
-                 SelectedItem="{Binding SelectedMessageTypeModel}"
-                 DisplayMemberPath="Label">
-            <ListBox.InputBindings>
-                <KeyBinding Modifiers="Ctrl"
-                            Key="S"
-                            Command="{Binding SaveCommand}" />
-            </ListBox.InputBindings>
-        </ListBox>
+        <Grid Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0"
+                    Command="{Binding SaveCommand}"
+                    Content="Save All"
+                    IsEnabled="{Binding IsDirty}" />
+            
+            <ListBox Grid.Row="1" ItemsSource="{Binding MessageTypes}"
+                     SelectedItem="{Binding SelectedMessageTypeModel}"
+                     DisplayMemberPath="Label">
+                <ListBox.InputBindings>
+                    <KeyBinding Modifiers="Ctrl"
+                                Key="S"
+                                Command="{Binding SaveCommand}" />
+                </ListBox.InputBindings>
+            </ListBox>
+
+            <Button Grid.Row="2"
+                    Command="{Binding UndoCommand}"
+                    Content="Undo All"
+                    Width="100"
+                    HorizontalAlignment="Right"
+                    IsEnabled="{Binding IsDirty}" />
+        </Grid>
 
         <GridSplitter Grid.Column="1" Width="3" Margin="2,0" VerticalAlignment="Stretch"
                       ResizeBehavior="PreviousAndNext" ResizeDirection="Columns" />
@@ -204,7 +224,7 @@
                     </Grid>
                 </controls:StringEditableExpander>
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                    <Button Padding="15,0" Content="Undo"
+                    <Button Width="100" Content="Undo"
                             Command="{Binding UndoCommand}" IsEnabled="{Binding IsDirty}" />
                 </StackPanel>
             </Grid>
@@ -361,8 +381,10 @@
                     </ListBox.InputBindings>
                 </ListBox>
                 <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
-                    <Button Padding="15,0" Content="Save"
+                    <Button Width="100" Content="Save"
                             Command="{Binding SaveCommand}" IsEnabled="{Binding IsDirty}" />
+                    <Button Width="100" Content="Undo"
+                            Command="{Binding UndoCommand}" IsEnabled="{Binding IsDirty}" />
                 </StackPanel>
             </Grid>
         </Grid>

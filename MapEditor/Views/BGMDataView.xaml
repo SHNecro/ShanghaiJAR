@@ -57,7 +57,7 @@
             <Button DockPanel.Dock="Bottom"
                     HorizontalAlignment="Right"
                     Command="{Binding UndoCommand}"
-                    Content="Undo"
+                    Content="Undo All"
                     Width="100"
                     IsEnabled="{Binding IsDirty}" />
 

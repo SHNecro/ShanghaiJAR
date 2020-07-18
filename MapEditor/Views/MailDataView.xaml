@@ -194,7 +194,7 @@
             <Button Grid.Row="3"
                     Command="{Binding UndoCommand}" IsEnabled="{Binding IsDirty}"
                     Width="100" HorizontalAlignment="Right"
-                    Content="Undo"/>
+                    Content="Undo All"/>
         </Grid>
 
         <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 

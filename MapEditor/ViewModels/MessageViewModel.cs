@@ -81,24 +81,9 @@ namespace MapEditor.ViewModels
 
         public bool IsDirty => this.initialStringValue != this.StringValue;
 
+        public ICommand SaveCommand => new RelayCommand(this.Save);
+
         public ICommand UndoCommand => new RelayCommand(this.Undo);
-
-        public void Save()
-        {
-            this.initialStringValue = this.StringValue;
-            this.Refresh();
-        }
-
-        public void Undo()
-        {
-            this.UnregisterDialogueKeys();
-            this.DialogueKeys.Clear();
-            var realIndex = this.Index;
-            this.StringValue = this.initialStringValue;
-            this.Index = realIndex;
-            this.RegisterDialogueKeys();
-            this.Refresh();
-        }
 
         protected override string GetStringValue()
         {
@@ -164,6 +149,23 @@ namespace MapEditor.ViewModels
                 this.initialStringValue = this.StringValue;
             }
 
+            this.Refresh();
+        }
+
+        private void Save()
+        {
+            this.initialStringValue = this.StringValue;
+            this.Refresh();
+        }
+
+        private void Undo()
+        {
+            this.UnregisterDialogueKeys();
+            this.DialogueKeys.Clear();
+            var realIndex = this.Index;
+            this.StringValue = this.initialStringValue;
+            this.Index = realIndex;
+            this.RegisterDialogueKeys();
             this.Refresh();
         }
 

@@ -243,6 +243,7 @@
     <Compile Include="ViewModels\KeyItemViewModel.cs" />
     <Compile Include="ViewModels\MailDataViewModel.cs" />
     <Compile Include="ViewModels\MessagesDataViewModel.cs" />
+    <Compile Include="ViewModels\MessageTypeViewModel.cs" />
     <Compile Include="ViewModels\MessageViewModel.cs" />
     <Compile Include="ViewModels\SettingsWindowViewModel.cs" />
     <Compile Include="ViewModels\LoadingWindowViewModel.cs" />
