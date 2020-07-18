@@ -126,7 +126,7 @@ namespace MapEditor.ViewModels
                         this.audio.OggStop();
                         this.PlayingBGM = this.SelectedBGM;
                         var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
-                        this.audio.InitializeOgg(filePath);
+                        this.audio.OggInitialize(filePath);
                     }
 
                     this.lastSelectedIndex = this.BGM.IndexOf(this.SelectedBGM);
@@ -266,7 +266,7 @@ namespace MapEditor.ViewModels
             if (!this.IsPlaying)
             {
                 var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
-                this.audio.PlayOggCommand(filePath, this.IsLooping, this.PlayingBGM.LoopStart, this.PlayingBGM.LoopEnd);
+                this.audio.OggPlay(filePath, this.IsLooping, this.PlayingBGM.LoopStart, this.PlayingBGM.LoopEnd);
                 this.isPaused = false;
                 this.oggDataLoaded = true;
             }
@@ -286,7 +286,7 @@ namespace MapEditor.ViewModels
             this.isPaused = false;
             this.PlayingBGM = this.SelectedBGM;
             var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
-            this.audio.InitializeOgg(filePath);
+            this.audio.OggInitialize(filePath);
         }
 
         private void Save()

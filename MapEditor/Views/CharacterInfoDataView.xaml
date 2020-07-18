@@ -49,9 +49,9 @@
                 <Button Content="Save" Command="{Binding SaveCommand}" IsEnabled="{Binding IsDirty}" />
                 <TextBlock Text="Spritesheet:" FontWeight="Bold" />
                 <ListBox ScrollViewer.VerticalScrollBarVisibility="Auto"
-                             MaxHeight="150"
-                             ItemsSource="{x:Static rendering:CharacterInfoRenderer.CharacterSheetIndices}"
-                             SelectedItem="{Binding CurrentSheetIndex}"/>
+                         MaxHeight="150"
+                         ItemsSource="{x:Static rendering:CharacterInfoRenderer.CharacterSheetIndices}"
+                         SelectedItem="{Binding CurrentSheetIndex}"/>
 
                 <Grid>
                     <Grid.ColumnDefinitions>

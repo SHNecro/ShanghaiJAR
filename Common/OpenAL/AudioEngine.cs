@@ -26,7 +26,7 @@ namespace Common.OpenAL
 
         private float volume = 1.0f;
 
-        private string wavFilePath;
+        private int oggSource;
         private string oggFilePath;
         private long oggLoopStart;
         private long oggLoopEnd;
@@ -54,13 +54,23 @@ namespace Common.OpenAL
 
         #region Properties
 
-        public void PlayWaveCommand(string filePath)
+        public void WavPlay(byte[] wavBytes)
         {
-            this.wavFilePath = filePath;
-            this.PlayWave();
+            using (var memoryStream = new MemoryStream(wavBytes))
+            {
+                this.BeginWav(memoryStream);
+            }
         }
 
-        public void PlayOggCommand(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null)
+        public void WavPlay(string fileName)
+        {
+            using (var fileStream = File.Open(fileName, FileMode.Open))
+            {
+                this.BeginWav(fileStream);
+            }
+        }
+
+        public void OggPlay(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null)
         {
             if (this.IsInProgress)
             {
@@ -80,10 +90,10 @@ namespace Common.OpenAL
                 TotalSamples = totalSamples
             });
 
-            this.PlayOgg(isLooping);
+            this.BeginOgg(isLooping);
         }
 
-        public void InitializeOgg(string filePath)
+        public void OggInitialize(string filePath)
         {
             LoadOggInfo(filePath, out long sampleRate, out long totalSamples);
             this.OggPlayback?.Invoke(this, new OggPlaybackEventArgs
@@ -94,11 +104,16 @@ namespace Common.OpenAL
             });
         }
 
-        public void Stop()
+        public void WavStop()
         {
             var sources = this.playStates.Keys;
             foreach (var k in sources)
             {
+                if (k == this.oggSource)
+                {
+                    continue;
+                }
+
                 this.playStates[k] = ALSourceState.Stopped;
                 AL.SourceStop(k);
             }
@@ -106,7 +121,9 @@ namespace Common.OpenAL
 
         public void OggStop()
         {
-            this.Stop();
+            this.playStates[this.oggSource] = ALSourceState.Stopped;
+            AL.SourceStop(this.oggSource);
+
             this.OggSeek(0);
 
             this.UpdateOggProgress(0);
@@ -115,7 +132,8 @@ namespace Common.OpenAL
         public void OggPause()
         {
             this.OggSeek(this.oggProgress);
-            this.Stop();
+            this.playStates[this.oggSource] = ALSourceState.Stopped;
+            AL.SourceStop(this.oggSource);
         }
 
         public void OggSeek(long sample)
@@ -147,13 +165,8 @@ namespace Common.OpenAL
         #endregion
 
         #region Methods
-        private void PlayWave()
+        private void BeginWav(Stream byteStream)
         {
-            if (string.IsNullOrEmpty(this.wavFilePath))
-            {
-                return;
-            }
-
             var buffer = AL.GenBuffer();
             var currentSource = GenSourceWithVolume();
 
@@ -161,7 +174,7 @@ namespace Common.OpenAL
             byte[] sound_data;
             try
             {
-                sound_data = LoadBytes(File.Open(this.wavFilePath, FileMode.Open), out channels, out bits_per_sample, out sample_rate);
+                sound_data = LoadBytes(byteStream, out channels, out bits_per_sample, out sample_rate);
             }
             catch (NotSupportedException)
             {
@@ -175,7 +188,7 @@ namespace Common.OpenAL
             this.Play(currentSource, () => { AL.DeleteBuffer(buffer); });
         }
 
-        private void PlayOgg(bool isLooping)
+        private void BeginOgg(bool isLooping)
         {
             if (string.IsNullOrEmpty(this.oggFilePath) || this.IsInProgress)
             {
@@ -183,8 +196,9 @@ namespace Common.OpenAL
             }
 
             lock (this.oggQueueLock) { }
-            
-            var currentSource = GenSourceWithVolume();
+
+            this.oggSource = GenSourceWithVolume();
+            var currentSource = this.oggSource;
 
             int channels, bits_per_sample;
             VorbisReader vorbis;
@@ -320,6 +334,7 @@ namespace Common.OpenAL
                         StateChange = ALSourceState.Stopped
                     });
                 }
+                this.oggSource = -1;
             });
 
         }

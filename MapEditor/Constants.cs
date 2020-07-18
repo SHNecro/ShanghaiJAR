@@ -12,13 +12,13 @@ using NSGame;
 using Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Windows;
 using System.Windows.Input;
 using System.Xml;
@@ -55,6 +55,7 @@ namespace MapEditor
         public static bool[,] NoShadowCharacters;
         public static ObservableConcurrentDictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
         public static ObservableConcurrentDictionary<int, MailDefinition> MailDefinitions { get; private set; }
+        public static ObservableConcurrentDictionary<string, byte[]> SoundEffectDefinitions { get; private set; }
 
         public static Rectangle ConveyorSpriteArea;
         public static Dictionary<FontType, Font> Fonts;
@@ -485,7 +486,7 @@ namespace MapEditor
 
             var keyItemDoc = new XmlDocument();
             keyItemDoc.Load($"data/data/KeyItems.xml");
-            var keyItemDefintions = LoadKeyItems(keyItemDoc);
+            var keyItemDefintions = Constants.LoadKeyItems(keyItemDoc);
             Constants.KeyItemDefinitions = new ObservableConcurrentDictionary<int, KeyItemDefinition>();
             foreach (var kvp in keyItemDefintions)
             {
@@ -494,14 +495,21 @@ namespace MapEditor
 
             var mailDoc = new XmlDocument();
             mailDoc.Load($"data/data/Mail.xml");
-            var mailDefinitions = LoadMail(mailDoc);
+            var mailDefinitions = Constants.LoadMail(mailDoc);
             Constants.MailDefinitions = new ObservableConcurrentDictionary<int, MailDefinition>();
             foreach (var kvp in mailDefinitions)
             {
                 Constants.MailDefinitions.Add(kvp.Key, kvp.Value);
             }
 
-            // BGM definitions attached to viewmodel (public static) so standalone does not require
+            // BGM definitions attached to viewmodel (public static) so standalone does not load everything
+
+            Constants.SoundEffectDefinitions = new ObservableConcurrentDictionary<string, byte[]>();
+            var soundEffects = Constants.LoadSoundEffects();
+            foreach (var kvp in soundEffects)
+            {
+                Constants.SoundEffectDefinitions.Add(kvp.Key, kvp.Value);
+            }
         }
 
         public static bool IsFloatingCharacter(int sheet, int index)
@@ -575,6 +583,11 @@ namespace MapEditor
             }
 
             return mailDefinitions;
+        }
+
+        public static IDictionary<string, byte[]> LoadSoundEffects()
+        {
+            return new Dictionary<string, byte[]>();
         }
 
         private static bool CanMoveItem(object param, bool isUp)
