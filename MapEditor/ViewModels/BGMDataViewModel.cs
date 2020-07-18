@@ -11,6 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Timers;
 using System.Windows;
 using System.Windows.Input;
 
@@ -53,6 +54,10 @@ namespace MapEditor.ViewModels
 
         private string originalStringValue;
 
+        private bool oggDataLoaded;
+        private bool playingWhenSeek;
+        private Timer seekPlayDelay;
+
         private BGMDataViewModel()
         {
             this.audio = new AudioEngine();
@@ -60,6 +65,16 @@ namespace MapEditor.ViewModels
             this.audio.Volume = 0.5f;
 
             this.isLooping = true;
+
+            this.seekPlayDelay = new Timer { Interval = 400, AutoReset = false, Enabled = false };
+            this.seekPlayDelay.Elapsed += (sender, args) =>
+            {
+                if (!this.IsPlaying && this.playingWhenSeek)
+                {
+                    this.PlayPause();
+                }
+                this.playingWhenSeek = false;
+            };
         }
 
         public ObservableCollection<BGMViewModel> BGM
@@ -106,6 +121,8 @@ namespace MapEditor.ViewModels
 
                     if (!this.IsPlaying && !this.isPaused && this.SelectedBGM != null)
                     {
+                        this.oggDataLoaded = false;
+                        this.seekPlayDelay.Stop();
                         this.audio.OggStop();
                         this.PlayingBGM = this.SelectedBGM;
                         var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
@@ -179,6 +196,45 @@ namespace MapEditor.ViewModels
             this.audio.OggStop();
         }
 
+        public void SeekToPercent(double percent)
+        {
+            if (this.IsPlaying)
+            {
+                this.playingWhenSeek = true;
+                this.PlayPause();
+            }
+
+            this.seekPlayDelay.Stop();
+            this.seekPlayDelay.Start();
+
+            var progressSamples = (long)(percent * this.OggProgress.TotalSamples);
+
+            if (!this.oggDataLoaded)
+            {
+                var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
+                AudioEngine.LoadOggInfo(filePath, out long sampleRate, out long totalSamples);
+                this.OggProgress = new OggPlaybackEventArgs
+                {
+                    ProgressSamples = progressSamples,
+                    SampleRate = sampleRate,
+                    TotalSamples = totalSamples
+                };
+
+                this.oggDataLoaded = true;
+            }
+            else
+            {
+                this.OggProgress = new OggPlaybackEventArgs
+                {
+                    ProgressSamples = progressSamples,
+                    SampleRate = this.OggProgress.SampleRate,
+                    TotalSamples = this.OggProgress.TotalSamples
+                };
+            }
+
+            this.audio.OggSeek(progressSamples);
+        }
+
         protected override string GetStringValue()
         {
             return string.Join("\r\n", this.BGM.Select(re => re.StringValue));
@@ -212,6 +268,7 @@ namespace MapEditor.ViewModels
                 var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
                 this.audio.PlayOggCommand(filePath, this.IsLooping, this.PlayingBGM.LoopStart, this.PlayingBGM.LoopEnd);
                 this.isPaused = false;
+                this.oggDataLoaded = true;
             }
             else
             {
@@ -300,7 +357,10 @@ namespace MapEditor.ViewModels
             {
                 case ALSourceState.Initial:
                 case null:
-                    this.OggProgress = e;
+                    if (!this.seekPlayDelay.Enabled)
+                    {
+                        this.OggProgress = e;
+                    }
                     break;
                 case ALSourceState.Stopped:
                     this.IsPlaying = false;

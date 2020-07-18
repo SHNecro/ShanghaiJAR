@@ -255,8 +255,12 @@
                     </StackPanel>
                 </GroupBox.Header>
                 <StackPanel Orientation="Vertical">
-                    <Border BorderThickness="1" BorderBrush="Gray">
-                        <Grid DataContext="{Binding OggProgress}">
+                    <Border BorderThickness="1" BorderBrush="Gray"
+                            MouseDown="Border_MouseDown"
+                            MouseUp="Border_MouseUp"
+                            MouseMove="Border_MouseEvent"
+                            DataContext="{Binding OggProgress}">
+                        <Grid>
                             <Grid>
                                 <Grid.DataContext>
                                     <MultiBinding Converter="{StaticResource OggProgressBarConverter}">
