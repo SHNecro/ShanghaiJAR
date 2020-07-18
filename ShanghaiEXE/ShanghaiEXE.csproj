@@ -103,6 +103,9 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="app.manifest" />
+    <None Include="FodyWeavers.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="MapData\airCleaner1.shd" />
     <None Include="MapData\airCleaner2.shd" />
     <None Include="MapData\airCleaner3.shd" />

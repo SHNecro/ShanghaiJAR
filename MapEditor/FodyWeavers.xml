@@ -4,6 +4,7 @@
     <ExcludeAssemblies>
       Common
       SlimDX
+      ShanghaiEXE
     </ExcludeAssemblies>
   </Costura>
 </Weavers>
