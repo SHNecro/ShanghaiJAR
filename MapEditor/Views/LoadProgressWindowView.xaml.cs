@@ -4,11 +4,11 @@ using System.Windows.Input;
 namespace MapEditor.Views
 {
     /// <summary>
-    /// Interaction logic for TextureLoadProgressWindowView.xaml
+    /// Interaction logic for LoadProgressWindowView.xaml
     /// </summary>
-    public partial class TextureLoadProgressWindowView : Window
+    public partial class LoadProgressWindowView : Window
     {
-        public TextureLoadProgressWindowView()
+        public LoadProgressWindowView()
         {
             InitializeComponent();
         }

@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using Common.EncodeDecode;
 using Common.OpenGL;
 using NSGame;
 using SlimDX;
@@ -37,7 +38,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
 
         public OpenGLRenderer(string tcdFile, string password, string graphicsFormat, double initialScaleX, double initialScaleY)
         {
-            var loadStrategy = new TCDTextureLoadStrategy(tcdFile, password, graphicsFormat);
+            var loadStrategy = new TCDLoadStrategy(tcdFile, password, graphicsFormat);
             //var loadStrategy = new FolderTextureLoadStrategy("Graphics/{0}.png");
             loadStrategy.ProgressUpdated += this.Load_ProgressUpdate;
             loadStrategy.Load();
@@ -296,12 +297,12 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
             return text;
         }
 
-        private void Load_ProgressUpdate(object sender, global::Common.OpenGL.TextureLoadProgressUpdatedEventArgs e)
+        private void Load_ProgressUpdate(object sender, LoadProgressUpdatedEventArgs e)
         {
             if (e == null)
             {
                 this.ProgressUpdated?.Invoke(this, null);
-                ((TCDTextureLoadStrategy)sender).ProgressUpdated -= this.Load_ProgressUpdate;
+                ((TCDLoadStrategy)sender).ProgressUpdated -= this.Load_ProgressUpdate;
             }
             else
             {

@@ -2,7 +2,7 @@
 
 namespace MapEditor.ViewModels
 {
-    public class TextureLoadProgressWindowViewModel : ViewModelBase
+    public class LoadProgressWindowViewModel : ViewModelBase
     {
         private double progress;
         private string progressLabel;

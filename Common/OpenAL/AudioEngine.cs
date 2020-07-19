@@ -17,6 +17,8 @@ namespace Common.OpenAL
         private const int OggBufferCount = 10;
         private const double OggBufferSize = 0.1;
 
+        public static AudioEngine Instance;
+
         // AudioContext.Dispose causes popping sound
         private readonly AudioContext sharedContext;
 
@@ -38,7 +40,13 @@ namespace Common.OpenAL
         #endregion
 
         #region Constructor
-        public AudioEngine()
+
+        static AudioEngine()
+        {
+            AudioEngine.Instance = new AudioEngine();
+        }
+
+        private AudioEngine()
         {
             this.sharedContext = new AudioContext();
             this.playStates = new ConcurrentDictionary<int, ALSourceState>();
@@ -68,6 +76,11 @@ namespace Common.OpenAL
             {
                 this.BeginWav(fileStream);
             }
+        }
+
+        public void WavPlay(WAVData wavData)
+        {
+            this.BeginWav(wavData);
         }
 
         public void OggPlay(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null)
@@ -167,21 +180,26 @@ namespace Common.OpenAL
         #region Methods
         private void BeginWav(Stream byteStream)
         {
-            var buffer = AL.GenBuffer();
-            var currentSource = GenSourceWithVolume();
-
-            int channels, bits_per_sample, sample_rate;
-            byte[] sound_data;
+            WAVData wavData;
             try
             {
-                sound_data = LoadBytes(byteStream, out channels, out bits_per_sample, out sample_rate);
+                wavData = LoadBytes(byteStream);
             }
             catch (NotSupportedException)
             {
                 throw new InvalidOperationException("Invalid .wav file");
             }
-            var soundFormat = GetSoundFormat(channels, bits_per_sample);
-            AL.BufferData(buffer, soundFormat, sound_data, sound_data.Length, sample_rate);
+
+            this.BeginWav(wavData);
+        }
+
+        private void BeginWav(WAVData wavData)
+        {
+            var buffer = AL.GenBuffer();
+            var currentSource = GenSourceWithVolume();
+
+            var soundFormat = wavData.SoundFormat;
+            AL.BufferData(buffer, soundFormat, wavData.Data, wavData.Data.Length, wavData.Rate);
 
             AL.Source(currentSource, ALSourcei.Buffer, buffer);
 
@@ -400,7 +418,7 @@ namespace Common.OpenAL
 
         #region Static Methods
         // Loads a wave/riff audio file.
-        private static byte[] LoadBytes(Stream stream, out int channels, out int bits, out int rate)
+        public static WAVData LoadBytes(Stream stream)
         {
             if (stream == null)
                 throw new ArgumentNullException(nameof(stream));
@@ -464,11 +482,13 @@ namespace Common.OpenAL
 
                 var bytes = reader.ReadBytes(dataSize);
 
-                channels = numChannels;
-                bits = bitsPerSample;
-                rate = sampleRate;
-
-                return bytes;
+                return new WAVData
+                {
+                    Data = bytes,
+                    Channels = numChannels,
+                    Bits = bitsPerSample,
+                    Rate = sampleRate
+                };
             }
         }
 

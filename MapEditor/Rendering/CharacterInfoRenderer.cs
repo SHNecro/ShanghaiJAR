@@ -116,7 +116,7 @@ namespace MapEditor.Rendering
         {
             get
             {
-                return Constants.TextureLoadStrategy.GetProvidableTextures()
+                return Constants.TextureLoadStrategy.GetProvidableFiles()
                     .Select(p => CharacterInfoRenderer.CharacterRegex.Match(Path.GetFileNameWithoutExtension(p)))
                     .Where(m => m.Success)
                     .Select(m => int.Parse(m.Groups[1].Value))

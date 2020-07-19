@@ -1,4 +1,6 @@
-﻿using Common.OpenGL;
+﻿using Common.EncodeDecode;
+using Common.OpenAL;
+using Common.OpenGL;
 using Data;
 using MapEditor.Core;
 using MapEditor.ExtensionMethods;
@@ -36,6 +38,10 @@ namespace MapEditor
         public static ITextureLoadStrategy TextureLoadStrategy;
         public static TextMeasurer TextMeasurer;
 
+        public static ISoundLoadStrategy SoundLoadStrategy;
+        public static AudioEngine AudioEngine;
+        public static ObservableCollection<string> SoundEffects { get; private set; }
+
         public static string EncounterKey = "Map.RandomItemEncounterName";
 
         public static string ResourceSuffix = "Resource.tcd";
@@ -55,7 +61,6 @@ namespace MapEditor
         public static bool[,] NoShadowCharacters;
         public static ObservableConcurrentDictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
         public static ObservableConcurrentDictionary<int, MailDefinition> MailDefinitions { get; private set; }
-        public static ObservableConcurrentDictionary<string, byte[]> SoundEffectDefinitions { get; private set; }
 
         public static Rectangle ConveyorSpriteArea;
         public static Dictionary<FontType, Font> Fonts;
@@ -286,6 +291,7 @@ namespace MapEditor
         static Constants()
         {
             Constants.ConveyorSpriteArea = new Rectangle(512, 368, (64 * 4) + 2, (32 * 4 * 2) + 2);
+            Constants.AudioEngine = AudioEngine.Instance;
         }
 
         public static bool Initialize()
@@ -294,8 +300,9 @@ namespace MapEditor
             {
                 Constants.InitializeFonts();
                 Constants.InitializeLanguage();
-                Constants.InitializeTextures();
+                Constants.InitializeResources();
                 Constants.InitializeGameData();
+                // BGM definitions attached to viewmodel (public static) so standalone does not load everything
                 return true;
             }
             catch (Exception e)
@@ -303,38 +310,6 @@ namespace MapEditor
                 MessageBox.Show(e.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return false;
             }
-        }
-
-        public static void ReloadTextures(EventHandler<TextureLoadProgressUpdatedEventArgs> updateEventHandler)
-        {
-            ITextureLoadStrategy resourceLoadStrategy;
-
-            if (!LoadingWindowViewModel.Settings.UsesPackedResources)
-            {
-                resourceLoadStrategy = new FolderTextureLoadStrategy(LoadingWindowViewModel.Settings.GraphicsFormat);
-            }
-            else
-            {
-                resourceLoadStrategy = new TCDTextureLoadStrategy(
-                    LoadingWindowViewModel.Settings.GraphicsResourceFile,
-                    LoadingWindowViewModel.Settings.GraphicsResourceFilePassword,
-                    LoadingWindowViewModel.Settings.GraphicsResourceFileFormat);
-            }
-
-            var progressUpdateAction = default(EventHandler<TextureLoadProgressUpdatedEventArgs>);
-
-            progressUpdateAction = (sender, args) =>
-            {
-                updateEventHandler(sender, args);
-                if (args == null)
-                {
-                    resourceLoadStrategy.ProgressUpdated -= progressUpdateAction;
-                }
-            };
-            resourceLoadStrategy.ProgressUpdated += progressUpdateAction;
-            resourceLoadStrategy.Load();
-
-            Constants.TextureLoadStrategy = resourceLoadStrategy;
         }
 
         private static void InitializeFonts()
@@ -404,24 +379,107 @@ namespace MapEditor
             Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Language", 1));
         }
 
-        private static void InitializeTextures()
+        private static void InitializeResources()
         {
-            EventHandler<TextureLoadProgressUpdatedEventArgs> progressUpdateAction = (sender, args) =>
+            var textureComplete = 0.0;
+            var soundComplete = 0.0;
+
+            EventHandler<LoadProgressUpdatedEventArgs> progressTextureUpdateAction = (sender, args) =>
             {
-                if (args != null)
-                {
-                    Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Textures: " + args.UpdateLabel, args.UpdateProgress));
-                }
-                else
-                {
-                    Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Textures: Load Complete", 1.0));
-                }
+                var updateLabel = args != null ? args.UpdateLabel : "Load Complete";
+                textureComplete = args?.UpdateProgress / 2 ?? 0.5;
+                Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Textures: " + updateLabel, soundComplete + textureComplete));
             };
 
-            Constants.ReloadTextures(progressUpdateAction);
+            Constants.ReloadTextures(progressTextureUpdateAction);
             Constants.TextMeasurer = new TextMeasurer();
 
             SpriteRendererPanel.ReloadTextures();
+
+            EventHandler<LoadProgressUpdatedEventArgs> progressSoundUpdateAction = (sender, args) =>
+            {
+                var updateLabel = args != null ? args.UpdateLabel : "Load Complete";
+                soundComplete = args?.UpdateProgress / 2 ?? 0.5;
+                Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Sounds: " + updateLabel, soundComplete + textureComplete));
+            };
+
+            Constants.SoundEffects = new ObservableCollection<string>();
+            Constants.ReloadSound(progressSoundUpdateAction);
+        }
+
+        public static void ReloadTextures(EventHandler<LoadProgressUpdatedEventArgs> updateEventHandler)
+        {
+            ITextureLoadStrategy resourceLoadStrategy;
+
+            if (!LoadingWindowViewModel.Settings.GraphicsIsPackedResource)
+            {
+                resourceLoadStrategy = new FolderLoadStrategy(LoadingWindowViewModel.Settings.GraphicsFormat);
+            }
+            else
+            {
+                resourceLoadStrategy = new TCDLoadStrategy(
+                    LoadingWindowViewModel.Settings.GraphicsResourceFile,
+                    LoadingWindowViewModel.Settings.GraphicsResourceFilePassword,
+                    LoadingWindowViewModel.Settings.GraphicsResourceFileFormat);
+            }
+
+            var progressUpdateAction = default(EventHandler<LoadProgressUpdatedEventArgs>);
+
+            progressUpdateAction = (sender, args) =>
+            {
+                updateEventHandler(sender, args);
+                if (args == null)
+                {
+                    resourceLoadStrategy.ProgressUpdated -= progressUpdateAction;
+                }
+            };
+            resourceLoadStrategy.ProgressUpdated += progressUpdateAction;
+            resourceLoadStrategy.Load();
+
+            Constants.TextureLoadStrategy = resourceLoadStrategy;
+        }
+
+        public static void ReloadSound(EventHandler<LoadProgressUpdatedEventArgs> updateEventHandler)
+        {
+            ISoundLoadStrategy resourceLoadStrategy;
+
+            if (!LoadingWindowViewModel.Settings.SoundIsPackedResource)
+            {
+                resourceLoadStrategy = new FolderLoadStrategy(LoadingWindowViewModel.Settings.SoundFormat);
+            }
+            else
+            {
+                resourceLoadStrategy = new TCDLoadStrategy(
+                    LoadingWindowViewModel.Settings.SoundResourceFile,
+                    LoadingWindowViewModel.Settings.SoundResourceFilePassword,
+                    LoadingWindowViewModel.Settings.SoundResourceFileFormat);
+            }
+
+            var progressUpdateAction = default(EventHandler<LoadProgressUpdatedEventArgs>);
+
+            progressUpdateAction = (sender, args) =>
+            {
+                updateEventHandler(sender, args);
+                if (args == null)
+                {
+                    resourceLoadStrategy.ProgressUpdated -= progressUpdateAction;
+
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        Constants.SoundEffects.Clear();
+                        var soundEffects = resourceLoadStrategy.GetProvidableFiles();
+                        foreach (var se in soundEffects)
+                        {
+                            Constants.SoundEffects.Add(se);
+                        }
+                        Constants.SoundEffects.Add("none");
+                    });
+                }
+            };
+            resourceLoadStrategy.ProgressUpdated += progressUpdateAction;
+            resourceLoadStrategy.Load();
+
+            Constants.SoundLoadStrategy = resourceLoadStrategy;
         }
 
         private static void InitializeGameData()
@@ -501,15 +559,6 @@ namespace MapEditor
             {
                 Constants.MailDefinitions.Add(kvp.Key, kvp.Value);
             }
-
-            // BGM definitions attached to viewmodel (public static) so standalone does not load everything
-
-            Constants.SoundEffectDefinitions = new ObservableConcurrentDictionary<string, byte[]>();
-            var soundEffects = Constants.LoadSoundEffects();
-            foreach (var kvp in soundEffects)
-            {
-                Constants.SoundEffectDefinitions.Add(kvp.Key, kvp.Value);
-            }
         }
 
         public static bool IsFloatingCharacter(int sheet, int index)
@@ -583,11 +632,6 @@ namespace MapEditor
             }
 
             return mailDefinitions;
-        }
-
-        public static IDictionary<string, byte[]> LoadSoundEffects()
-        {
-            return new Dictionary<string, byte[]>();
         }
 
         private static bool CanMoveItem(object param, bool isUp)

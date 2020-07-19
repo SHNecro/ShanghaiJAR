@@ -285,6 +285,7 @@ namespace MapEditor.ViewModels
         public ICommand OpenSettingsCommand => new RelayCommand(this.OpenSettings);
 
         public ICommand ReloadGraphicsCommand => new RelayCommand(this.ReloadGraphics);
+        public ICommand ReloadSoundCommand => new RelayCommand(this.ReloadSound);
         public ICommand ReloadTranslationKeysCommand => new RelayCommand(this.ReloadTranslationKeys);
         public ICommand OpenStringBrowserCommand => new RelayCommand(this.OpenStringBrowser);
         public ICommand OpenDataBrowserCommand => new RelayCommand(this.OpenDataBrowser);
@@ -537,19 +538,19 @@ namespace MapEditor.ViewModels
         {
             try
             {
-                Application.Current?.Dispatcher?.BeginInvoke((Action)(() => TextureLoadProgressWindow.ShowWindow()));
+                Application.Current?.Dispatcher?.BeginInvoke((Action)(() => LoadProgressWindow.ShowWindow()));
 
-                EventHandler<TextureLoadProgressUpdatedEventArgs> progressUpdateAction = (sender, args) =>
+                EventHandler<LoadProgressUpdatedEventArgs> progressUpdateAction = (sender, args) =>
                 {
                     Application.Current?.Dispatcher?.BeginInvoke((Action)(() =>
                     {
                         if (args != null)
                         {
-                            TextureLoadProgressWindow.SetProgress(args.UpdateProgress, args.UpdateLabel);
+                            LoadProgressWindow.SetProgress(args.UpdateProgress, args.UpdateLabel);
                         }
                         else
                         {
-                            TextureLoadProgressWindow.HideWindow();
+                            LoadProgressWindow.HideWindow();
                         }
                     }));
                 };
@@ -560,7 +561,37 @@ namespace MapEditor.ViewModels
             }
             catch (Exception e)
             {
-                Application.Current?.Dispatcher?.BeginInvoke((Action)(() => TextureLoadProgressWindow.HideWindow()));
+                Application.Current?.Dispatcher?.BeginInvoke((Action)(() => LoadProgressWindow.HideWindow()));
+                MessageBox.Show(e.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void ReloadSound()
+        {
+            try
+            {
+                Application.Current?.Dispatcher?.BeginInvoke((Action)(() => LoadProgressWindow.ShowWindow()));
+
+                EventHandler<LoadProgressUpdatedEventArgs> progressUpdateAction = (sender, args) =>
+                {
+                    Application.Current?.Dispatcher?.BeginInvoke((Action)(() =>
+                    {
+                        if (args != null)
+                        {
+                            LoadProgressWindow.SetProgress(args.UpdateProgress, args.UpdateLabel);
+                        }
+                        else
+                        {
+                            LoadProgressWindow.HideWindow();
+                        }
+                    }));
+                };
+
+                Constants.ReloadSound(progressUpdateAction);
+            }
+            catch (Exception e)
+            {
+                Application.Current?.Dispatcher?.BeginInvoke((Action)(() => LoadProgressWindow.HideWindow()));
                 MessageBox.Show(e.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }

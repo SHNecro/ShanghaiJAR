@@ -215,7 +215,7 @@
     <Compile Include="Core\SpriteSelectionWindow.cs" />
     <Compile Include="Core\MapSelectionWindow.cs" />
     <Compile Include="Core\AddEditTranslationWindow.cs" />
-    <Compile Include="Core\TextureLoadProgressWindow.cs" />
+    <Compile Include="Core\LoadProgressWindow.cs" />
     <Compile Include="Core\DataDumpWindow.cs" />
     <Compile Include="Core\Wrapper.cs" />
     <Compile Include="ExtensionMethods\StringExtensionMethods.cs" />
@@ -247,7 +247,7 @@
     <Compile Include="ViewModels\MessageViewModel.cs" />
     <Compile Include="ViewModels\SettingsWindowViewModel.cs" />
     <Compile Include="ViewModels\LoadingWindowViewModel.cs" />
-    <Compile Include="ViewModels\TextureLoadProgressWindowViewModel.cs" />
+    <Compile Include="ViewModels\LoadProgressWindowViewModel.cs" />
     <Compile Include="ViewModels\TranslationEntryViewModel.cs" />
     <Compile Include="Core\TranslationKeySelectionWindow.cs" />
     <Compile Include="ExtensionMethods\GenericExtensionMethods.cs" />
@@ -259,7 +259,6 @@
     <Compile Include="Models\Elements\Enums\EditValuePlayerValueTypeNumber.cs" />
     <Compile Include="Models\Elements\Enums\EditValueReferenceTypeNumber.cs" />
     <Compile Include="Models\Elements\Enums\EffectLocationTypeNumber.cs" />
-    <Compile Include="Models\Elements\Enums\EffectSoundType.cs" />
     <Compile Include="Models\Elements\Enums\EffectTypeNumber.cs" />
     <Compile Include="Models\Elements\Enums\EventMoveTargetOption.cs" />
     <Compile Include="Models\Elements\Enums\EventCategoryOption.cs" />
@@ -415,8 +414,8 @@
     <Compile Include="Views\SpriteSelectionWindowView.xaml.cs">
       <DependentUpon>SpriteSelectionWindowView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TextureLoadProgressWindowView.xaml.cs">
-      <DependentUpon>TextureLoadProgressWindowView.xaml</DependentUpon>
+    <Compile Include="Views\LoadProgressWindowView.xaml.cs">
+      <DependentUpon>LoadProgressWindowView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DataDumpWindowView.xaml.cs">
       <DependentUpon>DataDumpWindowView.xaml</DependentUpon>
@@ -776,7 +775,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TextureLoadProgressWindowView.xaml">
+    <Page Include="Views\LoadProgressWindowView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -894,6 +893,7 @@
   mkdir "$(TargetDir)music"
   xcopy "$(SolutionDir)ShanghaiEXE\Sounds\Music\*" "music\" /s /d /y
   "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Graphics" "$(TargetDir)ShaG"
+  "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Sounds" "$(TargetDir)ShaS"
 
   mkdir "$(TargetDir)language"
   xcopy "$(SolutionDir)ShanghaiEXE\Language\*" "$(TargetDir)language" /s /d /y

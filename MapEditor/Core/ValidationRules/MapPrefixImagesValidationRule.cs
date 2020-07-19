@@ -18,7 +18,7 @@ namespace MapEditor.Core.ValidationRules
             for (int i = 1; i < levels * 2; i++)
             {
                 var fileName = $"{value.ToString()}{i}";
-                if (!Constants.TextureLoadStrategy.CanProvideTexture(fileName))
+                if (!Constants.TextureLoadStrategy.CanProvideFile(fileName))
                 {
                     return new ValidationResult(false, $"Map image\"{fileName}\" could not be found.");
                 }

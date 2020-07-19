@@ -1,5 +1,4 @@
 ﻿using OpenTK.Graphics.OpenGL;
-using Common.EncodeDecode;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -10,30 +9,32 @@ using System.Threading;
 using Common.ExtensionMethods;
 using System.Windows;
 using System.Security.Cryptography;
+using Common.OpenGL;
+using Common.OpenAL;
 
-namespace Common.OpenGL
+namespace Common.EncodeDecode
 {
-    public class TCDTextureLoadStrategy : ITextureLoadStrategy
+    public class TCDLoadStrategy : ITextureLoadStrategy, ISoundLoadStrategy
     {
         public static readonly string ResourceSuffix = "Resource.tcd";
         public static readonly string PatternSuffix = "Pattern.tcd";
 
         private readonly string selectedFile;
         private readonly string password;
-        private readonly string graphicsFormat;
-        private readonly Dictionary<string, byte[]> textureBytes;
+        private readonly string fileFormat;
+        private readonly Dictionary<string, byte[]> fileBytes;
 
-        private bool texturesLoaded;
+        private bool filesLoaded;
 
-        public event EventHandler<TextureLoadProgressUpdatedEventArgs> ProgressUpdated;
+        public event EventHandler<LoadProgressUpdatedEventArgs> ProgressUpdated;
 
-        public TCDTextureLoadStrategy(string tcdPatternOrResource, string password, string graphicsFormat)
+        public TCDLoadStrategy(string tcdPatternOrResource, string password, string fileFormat)
         {
             this.selectedFile = tcdPatternOrResource;
             this.password = password;
-            this.graphicsFormat = graphicsFormat;
+            this.fileFormat = fileFormat;
 
-            this.textureBytes = new Dictionary<string, byte[]>();
+            this.fileBytes = new Dictionary<string, byte[]>();
         }
 
         public void Load()
@@ -42,22 +43,22 @@ namespace Common.OpenGL
             resourceFile = patternFile = fileBase = string.Empty;
             if (!File.Exists(this.selectedFile))
             {
-                throw new InvalidOperationException($"Missing graphics file \"{this.selectedFile}\".");
+                throw new InvalidOperationException($"Missing file \"{this.selectedFile}\".");
             }
-            else if (this.selectedFile.EndsWith(TCDTextureLoadStrategy.ResourceSuffix, StringComparison.InvariantCultureIgnoreCase))
+            else if (this.selectedFile.EndsWith(TCDLoadStrategy.ResourceSuffix, StringComparison.InvariantCultureIgnoreCase))
             {
-                fileBase = Path.GetFileName(this.selectedFile.Substring(0, this.selectedFile.Length - TCDTextureLoadStrategy.ResourceSuffix.Length));
+                fileBase = Path.GetFileName(this.selectedFile.Substring(0, this.selectedFile.Length - TCDLoadStrategy.ResourceSuffix.Length));
                 resourceFile = this.selectedFile;
-                patternFile = Path.Combine(Path.GetDirectoryName(this.selectedFile), fileBase + TCDTextureLoadStrategy.PatternSuffix);
+                patternFile = Path.Combine(Path.GetDirectoryName(this.selectedFile), fileBase + TCDLoadStrategy.PatternSuffix);
                 if (!File.Exists(patternFile))
                 {
                     throw new InvalidOperationException($"Missing associated pattern file \"{patternFile}\".");
                 }
             }
-            else if (this.selectedFile.EndsWith(TCDTextureLoadStrategy.PatternSuffix, StringComparison.InvariantCultureIgnoreCase))
+            else if (this.selectedFile.EndsWith(TCDLoadStrategy.PatternSuffix, StringComparison.InvariantCultureIgnoreCase))
             {
-                fileBase = Path.GetFileName(this.selectedFile.Substring(0, this.selectedFile.Length - TCDTextureLoadStrategy.PatternSuffix.Length));
-                resourceFile = Path.Combine(Path.GetDirectoryName(this.selectedFile), fileBase + TCDTextureLoadStrategy.ResourceSuffix);
+                fileBase = Path.GetFileName(this.selectedFile.Substring(0, this.selectedFile.Length - TCDLoadStrategy.PatternSuffix.Length));
+                resourceFile = Path.Combine(Path.GetDirectoryName(this.selectedFile), fileBase + TCDLoadStrategy.ResourceSuffix);
                 patternFile = this.selectedFile;
                 if (!File.Exists(resourceFile))
                 {
@@ -66,7 +67,7 @@ namespace Common.OpenGL
             }
             else
             {
-                throw new InvalidOperationException($"Invalid graphics file \"{this.selectedFile}\".{Environment.NewLine}Expected a \"<name>Resource\" or \"<name>Pattern\" .tcd file.");
+                throw new InvalidOperationException($"Invalid file \"{this.selectedFile}\".{Environment.NewLine}Expected a \"<name>Resource\" or \"<name>Pattern\" .tcd file.");
             }
 
             var unpackThread = new Thread(() =>
@@ -85,17 +86,17 @@ namespace Common.OpenGL
                                 var pattern = TCDEncodeDecode.DecryptString(file, this.password);
 
                                 var parts = pattern.Split('_');
-                                var textureName = string.Join("_", parts.Take(parts.Length - 1));
+                                var fileName = string.Join("_", parts.Take(parts.Length - 1));
                                 var size = int.Parse(parts.Last());
 
                                 var rawBuffer = rsr.ReadBytes(size);
 
                                 var buffer = rawBuffer.Select((b, i) => i > 1024 ? (byte)b : (byte)(~b & 0xff)).ToArray();
-                                this.textureBytes[textureName] = buffer;
+                                this.fileBytes[fileName] = buffer;
 
                                 fileNumber += 1;
 
-                                this.UpdateProgress(textureName, (double)fileNumber / fileCount);
+                                this.UpdateProgress(fileName, (double)fileNumber / fileCount);
                             }
                         }
                     }
@@ -115,40 +116,48 @@ namespace Common.OpenGL
 
         public Texture ProvideTexture(string textureName, TextureUnit textureUnit, TextureMinFilter minFilter = TextureMinFilter.Linear, TextureMagFilter magFilter = TextureMagFilter.Nearest)
         {
-            var textureKey = string.Format(this.graphicsFormat, textureName);
-            if (textureBytes.ContainsKey(textureKey))
+            var textureKey = string.Format(this.fileFormat, textureName);
+            if (this.fileBytes.ContainsKey(textureKey))
             {
                 // Intermediate bitmap used since passing bytes failed to load textures
-                var bitmap = new Bitmap(new MemoryStream(textureBytes[textureKey]));
+                var bitmap = new Bitmap(new MemoryStream(fileBytes[textureKey]));
                 return new Texture(bitmap, textureUnit, minFilter, magFilter);
             }
 
             return Texture.NotLoaded;
         }
 
-        public IEnumerable<string> GetProvidableTextures()
+        public WAVData ProvideSound(string file)
         {
-            var files = this.textureBytes.Keys.ToArray();
+            using (var stream = new MemoryStream(this.fileBytes[string.Format(this.fileFormat, file)]))
+            {
+                return AudioEngine.LoadBytes(stream);
+            }
+        }
 
-            var formatInverterFunc = this.graphicsFormat.CreateFormatInverter(files);
+        public IEnumerable<string> GetProvidableFiles()
+        {
+            var files = this.fileBytes.Keys.ToArray();
+
+            var formatInverterFunc = this.fileFormat.CreateFormatInverter(files);
 
             return files.Select(formatInverterFunc).ToArray();
         }
 
-        public bool CanProvideTexture(string textureName)
+        public bool CanProvideFile(string fileName)
         {
-            return !this.texturesLoaded || this.textureBytes.ContainsKey(string.Format(this.graphicsFormat, textureName));
+            return !this.filesLoaded || this.fileBytes.ContainsKey(string.Format(this.fileFormat, fileName));
         }
 
         private void UpdateProgress(string label, double progress)
         {
-            this.ProgressUpdated?.Invoke(this, new TextureLoadProgressUpdatedEventArgs(label, progress));
+            this.ProgressUpdated?.Invoke(this, new LoadProgressUpdatedEventArgs(label, progress));
         }
 
         private void UpdateProgressComplete()
         {
             this.ProgressUpdated?.Invoke(this, null);
-            this.texturesLoaded = true;
+            this.filesLoaded = true;
         }
     }
 }

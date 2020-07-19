@@ -65,22 +65,16 @@ namespace Common.Config
 
         [OptionalField(VersionAdded = 2)]
         private int? fps;
-
         [OptionalField(VersionAdded = 2)]
         private bool? allowTurboSlowdown;
-
         [OptionalField(VersionAdded = 2)]
         private int? turboUPS;
-
         [OptionalField(VersionAdded = 3)]
         private bool? disableBGMOverride;
-
         [OptionalField(VersionAdded = 4)]
         private bool? fixEngrish;
-
         [OptionalField(VersionAdded = 5)]
         private bool? stretchFullscreen;
-
 
         public string RenderEngine { get; set; }
 

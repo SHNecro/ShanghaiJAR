@@ -60,7 +60,7 @@ namespace MapEditor.ViewModels
 
         private BGMDataViewModel()
         {
-            this.audio = new AudioEngine();
+            this.audio = AudioEngine.Instance;
             this.audio.OggPlayback += this.OggPlayback;
             this.audio.Volume = 0.5f;
 

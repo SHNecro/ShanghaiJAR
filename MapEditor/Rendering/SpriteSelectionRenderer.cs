@@ -64,7 +64,7 @@ namespace MapEditor.Rendering
         {
             get
             {
-                return Constants.TextureLoadStrategy.GetProvidableTextures()
+                return Constants.TextureLoadStrategy.GetProvidableFiles()
                     .Select(p => SpriteSelectionRenderer.ObjectRegex.Match(Path.GetFileNameWithoutExtension(p)))
                     .Where(m => m.Success)
                     .Select(m => int.Parse(m.Groups[1].Value))
@@ -76,7 +76,7 @@ namespace MapEditor.Rendering
         {
             get
             {
-                return Constants.TextureLoadStrategy.GetProvidableTextures()
+                return Constants.TextureLoadStrategy.GetProvidableFiles()
                     .Select(p => SpriteSelectionRenderer.CharacterRegex.Match(Path.GetFileNameWithoutExtension(p)))
                     .Where(m => m.Success)
                     .Select(m => int.Parse(m.Groups[1].Value))

@@ -1,16 +1,52 @@
-﻿using MapEditor.Models.Elements.Enums;
+﻿using MapEditor.Core;
+using MapEditor.Models.Elements.Enums;
+using System.Collections.Generic;
+using System.Linq;
+using System.Timers;
+using System.Windows.Input;
 
 namespace MapEditor.Models.Elements.Events
 {
     public class SEOnEvent : EventBase
     {
-        private EffectSoundType soundEffect;
+        private readonly Timer reselectTimer;
 
-        public EffectSoundType SoundEffect
+        private string soundEffect;
+
+        public SEOnEvent()
         {
-            get { return this.soundEffect; }
-            set { this.SetValue(ref this.soundEffect, value); }
+            this.reselectTimer = new Timer { Interval = 100, AutoReset = false, Enabled = false };
+            this.reselectTimer.Elapsed += (sender, args) =>
+            {
+                var originalSoundEffect = this.SoundEffect;
+                this.SoundEffect = Constants.SoundEffects.LastOrDefault();
+                this.SoundEffect = Constants.SoundEffects[Constants.SoundEffects.IndexOf(originalSoundEffect)];
+            };
         }
+
+        public string SoundEffect
+        {
+            get
+            {
+                return this.soundEffect;
+            }
+            set
+            {
+                if (value == null)
+                {
+                    this.reselectTimer.Stop();
+                    this.reselectTimer.Start();
+                }
+                else
+                {
+                    this.SetValue(ref this.soundEffect, value);
+                }
+            }
+        }
+
+        public ICommand PlayCommand => new RelayCommand(this.PlaySoundEffectCommand);
+
+        public ICommand StopCommand => new RelayCommand(this.StopSoundEffectCommand);
 
         public override string Info => "Plays a sound effect.";
 
@@ -29,12 +65,28 @@ namespace MapEditor.Models.Elements.Events
                 return;
             }
 
-            var newSoundEffect = this.ParseEnumOrAddError<EffectSoundType>(entries[1]);
+            var newSoundEffect = entries[1];
+            this.Validate(newSoundEffect, $"Sound ({newSoundEffect}.wav) not found", Constants.SoundEffects.Contains);
 
             if (!this.HasErrors)
             {
                 this.SoundEffect = newSoundEffect;
             }
+        }
+
+        private void PlaySoundEffectCommand()
+        {
+            if (this.SoundEffect == "none")
+            {
+                return;
+            }
+
+            Constants.AudioEngine.WavPlay(Constants.SoundLoadStrategy.ProvideSound(this.SoundEffect));
+        }
+
+        private void StopSoundEffectCommand()
+        {
+            Constants.AudioEngine.WavStop();
         }
     }
 }

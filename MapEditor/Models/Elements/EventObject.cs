@@ -357,7 +357,7 @@ namespace MapEditor.Models
                         this.Instance = new PlayerHideEvent { IsHiding = true };
                         break;
                     case EventCategoryOption.SEOn:
-                        this.Instance = new SEOnEvent { SoundEffect = EffectSoundType.alert };
+                        this.Instance = new SEOnEvent { SoundEffect = "alert" };
                         break;
                     case EventCategoryOption.Piano:
                         this.Instance = new PianoEvent { NoteKey = "C", Octave = 6, Volume = 127, FrameDuration = 15 };
@@ -380,7 +380,7 @@ namespace MapEditor.Models
                             Interval = -1,
                             RandomXY = 0,
                             RendType = 0,
-                            SoundEffect = EffectSoundType.none
+                            SoundEffect = "none"
                         };
                         break;
                     case EventCategoryOption.EffectDelete:

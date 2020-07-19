@@ -4,16 +4,18 @@ using System.IO;
 using System.Linq;
 using System;
 using Common.ExtensionMethods;
+using Common.OpenGL;
+using Common.OpenAL;
 
-namespace Common.OpenGL
+namespace Common.EncodeDecode
 {
-    public class FolderTextureLoadStrategy : ITextureLoadStrategy
+    public class FolderLoadStrategy : ITextureLoadStrategy, ISoundLoadStrategy
     {
-        public event EventHandler<TextureLoadProgressUpdatedEventArgs> ProgressUpdated;
+        public event EventHandler<LoadProgressUpdatedEventArgs> ProgressUpdated;
 
         private readonly string graphicsFormat;
 
-        public FolderTextureLoadStrategy(string graphicsFormat)
+        public FolderLoadStrategy(string graphicsFormat)
         {
             this.graphicsFormat = graphicsFormat;
         }
@@ -28,7 +30,16 @@ namespace Common.OpenGL
             return new Texture(string.Format(this.graphicsFormat, textureName), textureUnit, minFilter, magFilter);
         }
 
-        public IEnumerable<string> GetProvidableTextures()
+        public WAVData ProvideSound(string file)
+        {
+            var filePath = string.Format(this.graphicsFormat, file);
+            using (var fileStream = File.Open(filePath, FileMode.Open))
+            {
+                return AudioEngine.LoadBytes(fileStream);
+            }
+        }
+
+        public IEnumerable<string> GetProvidableFiles()
         {
             var files = Directory.EnumerateFiles(Path.GetDirectoryName(this.graphicsFormat));
 
@@ -37,9 +48,9 @@ namespace Common.OpenGL
             return files.Select(formatInverterFunc).ToArray();
         }
 
-        public bool CanProvideTexture(string textureName)
+        public bool CanProvideFile(string fileName)
         {
-            return File.Exists(string.Format(this.graphicsFormat, textureName));
+            return File.Exists(string.Format(this.graphicsFormat, fileName));
         }
     }
 }

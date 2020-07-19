@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:events="clr-namespace:MapEditor.Models.Elements.Events"
                     xmlns:enums="clr-namespace:MapEditor.Models.Elements.Enums"
-                    xmlns:markup="clr-namespace:MapEditor.Core.MarkupExtensions">
+                    xmlns:root="clr-namespace:MapEditor">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/MapEditor;component/Controls/IconResources.xaml" />
         <ResourceDictionary Source="/MapEditor;component/Controls/Styles.xaml" />
@@ -13,13 +13,23 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
                 <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="0"
                            VerticalAlignment="Center"
                            Text="Sound Effect:"/>
             <ComboBox Grid.Column="1"
-                          ItemsSource="{markup:EnumBindingSource EnumType={x:Type enums:EffectSoundType}}"
-                          SelectedValue="{Binding SoundEffect, Mode=TwoWay, Converter={StaticResource EnumToStringValueConverter}, ConverterParameter={x:Type enums:EffectSoundType}}"/>
+                          ItemsSource="{x:Static root:Constants.SoundEffects}"
+                          SelectedValue="{Binding SoundEffect, Mode=TwoWay}" />
+            <Button Grid.Column="2"
+                        Width="{Binding Path=ActualHeight, RelativeSource={RelativeSource Self}}"
+                        Command="{Binding PlayCommand}">
+                <TextBlock Text="▶" Foreground="DarkGreen" />
+            </Button>
+            <Button Grid.Column="3"
+                        Width="{Binding Path=ActualHeight, RelativeSource={RelativeSource Self}}"
+                        Content="■" Command="{Binding StopCommand}" />
         </Grid>
     </DataTemplate>
 </ResourceDictionary>

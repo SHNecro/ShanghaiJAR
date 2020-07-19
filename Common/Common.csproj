@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="Configuration\Config.cs" />
     <Compile Include="Configuration\XInputGamePadButton.cs" />
+    <Compile Include="EncodeDecode\ILoadStrategy.cs" />
     <Compile Include="EncodeDecode\TCDEncodeDecode.cs" />
     <Compile Include="ExtensionMethods\GenericExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\InputExtensionMethods.cs" />
@@ -79,11 +80,13 @@
     <Compile Include="ExtensionMethods\StringExtensionMethods.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="OpenAL\AudioEngine.cs" />
+    <Compile Include="OpenAL\ISoundLoadStrategy.cs" />
     <Compile Include="OpenAL\OggPlaybackEventArgs.cs" />
+    <Compile Include="OpenAL\WAVData.cs" />
     <Compile Include="OpenGL\FontGlyphs.cs" />
-    <Compile Include="OpenGL\TextureLoadProgressUpdatedEventArgs.cs" />
-    <Compile Include="OpenGL\TCDTextureLoadStrategy.cs" />
-    <Compile Include="OpenGL\FolderTextureLoadStrategy.cs" />
+    <Compile Include="EncodeDecode\LoadProgressUpdatedEventArgs.cs" />
+    <Compile Include="EncodeDecode\TCDLoadStrategy.cs" />
+    <Compile Include="EncodeDecode\FolderLoadStrategy.cs" />
     <Compile Include="OpenGL\TextMeasurer.cs" />
     <Compile Include="OpenGL\IControl.cs" />
     <Compile Include="OpenGL\IMouseInteractionControl.cs" />

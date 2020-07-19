@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace Common.OpenGL
+namespace Common.EncodeDecode
 {
-    public class TextureLoadProgressUpdatedEventArgs : EventArgs
+    public class LoadProgressUpdatedEventArgs : EventArgs
     {
         public string UpdateLabel { get; set; }
         public double UpdateProgress { get; set; }
 
-        public TextureLoadProgressUpdatedEventArgs(string label, double progress)
+        public LoadProgressUpdatedEventArgs(string label, double progress)
         {
             this.UpdateLabel = label;
             this.UpdateProgress = progress;

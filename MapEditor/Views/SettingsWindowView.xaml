@@ -8,205 +8,292 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
         ResizeMode="CanMinimize"
-        Title="Configuration" Height="300" Width="400">
-    <StackPanel Orientation="Vertical"
-                Margin="10,0,10,10">
-        <TabControl Grid.Column="0"
-                    Grid.IsSharedSizeScope="True">
-            <TabItem Header="General">
-                <StackPanel Orientation="Vertical">
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="Initial Map: " />
-                        <controls:FileSelector Grid.Column="1"
-                                               Title="Select Initial Map"
-                                               InitialDirectory="{Binding MapDataFolder}"
-                                               FilePath="{Binding InitialMap, Mode=TwoWay}">
-                            <controls:FileSelector.Filters>
-                                <controls:FileSelectorFilter DisplayName="Encoded Map File" Extensions="*.she" />
-                                <controls:FileSelectorFilter DisplayName="All Files" Extensions="*.*" />
-                            </controls:FileSelector.Filters>
-                        </controls:FileSelector>
-                    </Grid>
+        Title="Configuration" Height="325" Width="400">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Vertical"
+                    Margin="10,0,10,10">
+            <TabControl Grid.Column="0"
+                        Grid.IsSharedSizeScope="True">
+                <TabItem Header="General">
+                    <StackPanel Orientation="Vertical">
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="Initial Map: " />
+                            <controls:FileSelector Grid.Column="1"
+                                                   Title="Select Initial Map"
+                                                   InitialDirectory="{Binding MapDataFolder}"
+                                                   FilePath="{Binding InitialMap, Mode=TwoWay}">
+                                <controls:FileSelector.Filters>
+                                    <controls:FileSelectorFilter DisplayName="Encoded Map File" Extensions="*.she" />
+                                    <controls:FileSelectorFilter DisplayName="All Files" Extensions="*.*" />
+                                </controls:FileSelector.Filters>
+                            </controls:FileSelector>
+                        </Grid>
 
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="Map Data Folder: " />
-                        <controls:FileSelector Grid.Column="1"
-                                               Title="Select Map Data Folder"
-                                               FilePath="{Binding MapDataFolder, Mode=TwoWay}"
-                                               IsFolderPicker="True" />
-                    </Grid>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="Map Data Folder: " />
+                            <controls:FileSelector Grid.Column="1"
+                                                   Title="Select Map Data Folder"
+                                                   FilePath="{Binding MapDataFolder, Mode=TwoWay}"
+                                                   IsFolderPicker="True" />
+                        </Grid>
 
-                    <GroupBox Padding="4">
-                        <GroupBox.Header>
-                            <CheckBox IsChecked="{Binding UsesPackedResources}"
-                              Content="Uses Packed Textures" />
-                        </GroupBox.Header>
-                        <StackPanel Orientation="Vertical">
+                        <GroupBox Padding="4">
+                            <GroupBox.Header>
+                                <CheckBox IsChecked="{Binding GraphicsIsPackedResource}"
+                                  Content="Uses Packed Textures" />
+                            </GroupBox.Header>
                             <StackPanel Orientation="Vertical">
-                                <StackPanel.Style>
-                                    <Style TargetType="StackPanel">
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding UsesPackedResources}" Value="True">
-                                                <Setter Property="Visibility" Value="Collapsed" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                        <Setter Property="Visibility" Value="Visible" />
-                                    </Style>
-                                </StackPanel.Style>
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel.Style>
+                                        <Style TargetType="StackPanel">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding GraphicsIsPackedResource}" Value="True">
+                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </Style>
+                                    </StackPanel.Style>
 
-                                <Grid Margin="0,4">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock VerticalAlignment="Center"
-                                               Margin="0,0,15,0"
-                                               Text="Resource Format: " />
-                                    <TextBox Grid.Column="1"
-                                             Text="{Binding GraphicsFormat}" />
-                                </Grid>
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Resource Format: " />
+                                        <TextBox Grid.Column="1"
+                                                 Text="{Binding GraphicsFormat}" />
+                                    </Grid>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel.Style>
+                                        <Style TargetType="StackPanel">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding GraphicsIsPackedResource}" Value="True">
+                                                    <Setter Property="Visibility" Value="Visible" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="Visibility" Value="Collapsed" />
+                                        </Style>
+                                    </StackPanel.Style>
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Graphics File: " />
+                                        <controls:FileSelector Grid.Column="1"
+                                                               Title="Select Graphics Resource File"
+                                                               FilePath="{Binding GraphicsResourceFile, Mode=TwoWay}" />
+                                    </Grid>
+
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Password: " />
+                                        <TextBox Grid.Column="1"
+                                                 Text="{Binding GraphicsResourceFilePassword}" />
+                                    </Grid>
+
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Resource Format: " />
+                                        <TextBox Grid.Column="1"
+                                                 Text="{Binding GraphicsResourceFileFormat}" />
+                                    </Grid>
+                                </StackPanel>
+                                <Button HorizontalAlignment="Right"
+                                        Padding="4"
+                                        Content="Reload Graphics"
+                                        Command="{Binding ReloadGraphicsCommand}"/>
                             </StackPanel>
+                        </GroupBox>
+
+                        <GroupBox Padding="4">
+                            <GroupBox.Header>
+                                <CheckBox IsChecked="{Binding SoundIsPackedResource}"
+                                  Content="Uses Packed Sounds" />
+                            </GroupBox.Header>
                             <StackPanel Orientation="Vertical">
-                                <StackPanel.Style>
-                                    <Style TargetType="StackPanel">
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding UsesPackedResources}" Value="True">
-                                                <Setter Property="Visibility" Value="Visible" />
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                        <Setter Property="Visibility" Value="Collapsed" />
-                                    </Style>
-                                </StackPanel.Style>
-                                <Grid Margin="0,4">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock VerticalAlignment="Center"
-                                               Margin="0,0,15,0"
-                                               Text="Graphics File: " />
-                                    <controls:FileSelector Grid.Column="1"
-                                                           Title="Select Graphics Resource File"
-                                                           FilePath="{Binding GraphicsResourceFile, Mode=TwoWay}" />
-                                </Grid>
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel.Style>
+                                        <Style TargetType="StackPanel">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding SoundIsPackedResource}" Value="True">
+                                                    <Setter Property="Visibility" Value="Collapsed" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </Style>
+                                    </StackPanel.Style>
 
-                                <Grid Margin="0,4">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock VerticalAlignment="Center"
-                                               Margin="0,0,15,0"
-                                               Text="Password: " />
-                                    <TextBox Grid.Column="1"
-                                             Text="{Binding GraphicsResourceFilePassword}" />
-                                </Grid>
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Resource Format: " />
+                                        <TextBox Grid.Column="1"
+                                                 Text="{Binding SoundFormat}" />
+                                    </Grid>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel.Style>
+                                        <Style TargetType="StackPanel">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding SoundIsPackedResource}" Value="True">
+                                                    <Setter Property="Visibility" Value="Visible" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                            <Setter Property="Visibility" Value="Collapsed" />
+                                        </Style>
+                                    </StackPanel.Style>
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Sound File: " />
+                                        <controls:FileSelector Grid.Column="1"
+                                                               Title="Select Sound Resource File"
+                                                               FilePath="{Binding SoundResourceFile, Mode=TwoWay}" />
+                                    </Grid>
 
-                                <Grid Margin="0,4">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock VerticalAlignment="Center"
-                                               Margin="0,0,15,0"
-                                               Text="Resource Format: " />
-                                    <TextBox Grid.Column="1"
-                                             Text="{Binding GraphicsResourceFileFormat}" />
-                                </Grid>
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Password: " />
+                                        <TextBox Grid.Column="1"
+                                                 Text="{Binding SoundResourceFilePassword}" />
+                                    </Grid>
+
+                                    <Grid Margin="0,4">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Margin="0,0,15,0"
+                                                   Text="Resource Format: " />
+                                        <TextBox Grid.Column="1"
+                                                 Text="{Binding SoundResourceFileFormat}" />
+                                    </Grid>
+                                </StackPanel>
+                                <Button HorizontalAlignment="Right"
+                                        Padding="4"
+                                        Content="Reload Sound"
+                                        Command="{Binding ReloadSoundCommand}"/>
                             </StackPanel>
-                            <Button HorizontalAlignment="Right"
-                                    Padding="4"
-                                    Content="Reload Graphics"
-                                    Command="{Binding ReloadGraphicsCommand}"/>
-                        </StackPanel>
-                    </GroupBox>
-                </StackPanel>
-            </TabItem>
-            <TabItem Header="Advanced">
-                <StackPanel Orientation="Vertical">
-                    <TextBlock Text="These settings will require the map editor to be reopened."
-                               TextWrapping="Wrap"/>
+                        </GroupBox>
+                    </StackPanel>
+                </TabItem>
+                <TabItem Header="Advanced">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="These settings will require the map editor to be reopened."
+                                   TextWrapping="Wrap"/>
 
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="Enemy Count: " />
-                        <xctk:IntegerUpDown Grid.Column="1"
-                                            Text="{Binding EnemyCount}" />
-                    </Grid>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="Enemy Count: " />
+                            <xctk:IntegerUpDown Grid.Column="1"
+                                                Text="{Binding EnemyCount}" />
+                        </Grid>
 
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="Chip Count: " />
-                        <xctk:IntegerUpDown Grid.Column="1"
-                                            Text="{Binding ChipCount}" />
-                    </Grid>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="Chip Count: " />
+                            <xctk:IntegerUpDown Grid.Column="1"
+                                                Text="{Binding ChipCount}" />
+                        </Grid>
 
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="AddOn Count: " />
-                        <xctk:IntegerUpDown Grid.Column="1"
-                                            Text="{Binding AddOnCount}" />
-                    </Grid>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="AddOn Count: " />
+                            <xctk:IntegerUpDown Grid.Column="1"
+                                                Text="{Binding AddOnCount}" />
+                        </Grid>
 
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="Interior Count: " />
-                        <xctk:IntegerUpDown Grid.Column="1"
-                                            Text="{Binding InteriorCount}" />
-                    </Grid>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="Interior Count: " />
+                            <xctk:IntegerUpDown Grid.Column="1"
+                                                Text="{Binding InteriorCount}" />
+                        </Grid>
 
-                    <Grid Margin="0,4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock VerticalAlignment="Center"
-                                   Margin="0,0,15,0"
-                                   Text="Background Count: " />
-                        <xctk:IntegerUpDown Grid.Column="1"
-                                            Text="{Binding BackgroundCount}" />
-                    </Grid>
-                </StackPanel>
-            </TabItem>
-        </TabControl>
-        <Button HorizontalAlignment="Right"
-                VerticalAlignment="Bottom"
-                Margin="5"
-                Width="50"
-                Height="25"
-                Content="OK"
-                Command="{Binding CloseSettingsCommand}" />
-    </StackPanel>
+                        <Grid Margin="0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="LabelColumn" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="0,0,15,0"
+                                       Text="Background Count: " />
+                            <xctk:IntegerUpDown Grid.Column="1"
+                                                Text="{Binding BackgroundCount}" />
+                        </Grid>
+                    </StackPanel>
+                </TabItem>
+            </TabControl>
+            <Button HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="5"
+                    Width="50"
+                    Height="25"
+                    Content="OK"
+                    Command="{Binding CloseSettingsCommand}" />
+        </StackPanel>
+    </ScrollViewer>
 </Window>

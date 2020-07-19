@@ -18,6 +18,7 @@ namespace MapEditor.ViewModels
             get { return LoadingWindowViewModel.Settings.MapDataFolder; }
             set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.MapDataFolder, (val) => LoadingWindowViewModel.Settings.MapDataFolder = val, value); }
         }
+
         public string GraphicsFormat
         {
             get { return LoadingWindowViewModel.Settings.GraphicsFormat; }
@@ -38,10 +39,36 @@ namespace MapEditor.ViewModels
             get { return LoadingWindowViewModel.Settings.GraphicsResourceFileFormat; }
             set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.GraphicsResourceFileFormat, (val) => LoadingWindowViewModel.Settings.GraphicsResourceFileFormat = val, value); }
         }
-        public bool UsesPackedResources
+        public bool GraphicsIsPackedResource
         {
-            get { return LoadingWindowViewModel.Settings.UsesPackedResources; }
-            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.UsesPackedResources, (val) => LoadingWindowViewModel.Settings.UsesPackedResources = val, value); }
+            get { return LoadingWindowViewModel.Settings.GraphicsIsPackedResource; }
+            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.GraphicsIsPackedResource, (val) => LoadingWindowViewModel.Settings.GraphicsIsPackedResource = val, value); }
+        }
+
+        public string SoundFormat
+        {
+            get { return LoadingWindowViewModel.Settings.SoundFormat; }
+            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.SoundFormat, (val) => LoadingWindowViewModel.Settings.SoundFormat = val, value); }
+        }
+        public string SoundResourceFile
+        {
+            get { return LoadingWindowViewModel.Settings.SoundResourceFile; }
+            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.SoundResourceFile, (val) => LoadingWindowViewModel.Settings.SoundResourceFile = val, value); }
+        }
+        public string SoundResourceFilePassword
+        {
+            get { return LoadingWindowViewModel.Settings.SoundResourceFilePassword; }
+            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.SoundResourceFilePassword, (val) => LoadingWindowViewModel.Settings.SoundResourceFilePassword = val, value); }
+        }
+        public string SoundResourceFileFormat
+        {
+            get { return LoadingWindowViewModel.Settings.SoundResourceFileFormat; }
+            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.SoundResourceFileFormat, (val) => LoadingWindowViewModel.Settings.SoundResourceFileFormat = val, value); }
+        }
+        public bool SoundIsPackedResource
+        {
+            get { return LoadingWindowViewModel.Settings.SoundIsPackedResource; }
+            set { this.SetAndSaveValue(() => LoadingWindowViewModel.Settings.SoundIsPackedResource, (val) => LoadingWindowViewModel.Settings.SoundIsPackedResource = val, value); }
         }
         #endregion
 
@@ -77,6 +104,8 @@ namespace MapEditor.ViewModels
 
         public ICommand ReloadGraphicsCommand => new RelayCommand(() => { MainWindowViewModel.GetInstance().ReloadGraphicsCommand.Execute(null); });
 
+        public ICommand ReloadSoundCommand => new RelayCommand(() => { MainWindowViewModel.GetInstance().ReloadSoundCommand.Execute(null); });
+
         public ICommand CloseSettingsCommand => new RelayCommand(() => { SettingsWindow.HideWindow(); });
 
         #endregion
@@ -91,6 +120,12 @@ namespace MapEditor.ViewModels
             this.OnPropertyChanged(nameof(this.GraphicsResourceFile));
             this.OnPropertyChanged(nameof(this.GraphicsResourceFilePassword));
             this.OnPropertyChanged(nameof(this.GraphicsResourceFileFormat));
+            this.OnPropertyChanged(nameof(this.GraphicsIsPackedResource));
+            this.OnPropertyChanged(nameof(this.SoundFormat));
+            this.OnPropertyChanged(nameof(this.SoundResourceFile));
+            this.OnPropertyChanged(nameof(this.SoundResourceFilePassword));
+            this.OnPropertyChanged(nameof(this.SoundResourceFileFormat));
+            this.OnPropertyChanged(nameof(this.SoundIsPackedResource));
 
             this.OnPropertyChanged(nameof(this.EnemyCount));
             this.OnPropertyChanged(nameof(this.ChipCount));
@@ -98,7 +133,6 @@ namespace MapEditor.ViewModels
             this.OnPropertyChanged(nameof(this.InteriorCount));
             this.OnPropertyChanged(nameof(this.BackgroundCount));
 
-            this.OnPropertyChanged(nameof(this.UsesPackedResources));
         }
 
         private void SetAndSaveValue<T>(Func<T> getAction, Action<T> setAction, T value, [CallerMemberName] string propertyName = null)

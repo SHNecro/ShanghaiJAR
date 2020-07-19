@@ -1,10 +1,19 @@
-﻿using MapEditor.Models.Elements.Enums;
+﻿using MapEditor.Core;
+using MapEditor.Models.Elements.Enums;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Timers;
+using System.Windows;
+using System.Windows.Input;
 
 namespace MapEditor.Models.Elements.Events
 {
     public class EffectEvent : EventBase
     {
+        private readonly Timer reselectTimer;
+
         private int effectNumber;
         private string id;
         private int x;
@@ -15,7 +24,18 @@ namespace MapEditor.Models.Elements.Events
         private int interval;
         private int randomXY;
         private int rendType;
-        private EffectSoundType soundEffect;
+        private string soundEffect;
+
+        public EffectEvent()
+        {
+            this.reselectTimer = new Timer { Interval = 100, AutoReset = false, Enabled = false };
+            this.reselectTimer.Elapsed += (sender, args) =>
+            {
+                var originalSoundEffect = this.SoundEffect;
+                this.SoundEffect = Constants.SoundEffects.LastOrDefault();
+                this.SoundEffect = Constants.SoundEffects[Constants.SoundEffects.IndexOf(originalSoundEffect)];
+            };
+        }
 
         public int EffectNumber
         {
@@ -77,11 +97,29 @@ namespace MapEditor.Models.Elements.Events
             set { this.SetValue(ref this.rendType, value); }
         }
 
-        public EffectSoundType SoundEffect
+        public string SoundEffect
         {
-            get { return this.soundEffect; }
-            set { this.SetValue(ref this.soundEffect, value); }
+            get
+            {
+                return this.soundEffect;
+            }
+            set
+            {
+                if (value == null)
+                {
+                    this.reselectTimer.Stop();
+                    this.reselectTimer.Start();
+                }
+                else
+                {
+                    this.SetValue(ref this.soundEffect, value);
+                }
+            }
         }
+
+        public ICommand PlayCommand => new RelayCommand(this.PlaySoundEffectCommand);
+
+        public ICommand StopCommand => new RelayCommand(this.StopSoundEffectCommand);
 
         public override string Info => "Creates an effect at an object or a set of coordinates.";
 
@@ -169,7 +207,8 @@ namespace MapEditor.Models.Elements.Events
             var newRandomXY = this.ParseIntOrAddError(entries[8]);
             var newRendType = this.ParseIntOrAddError(entries[9]);
             this.ParseEnumOrAddError<RenderTypeNumber>(entries[9]);
-            var newSoundEffect = this.ParseEnumOrAddError<EffectSoundType>(entries[10]);
+            var newSoundEffect = entries[10];
+            this.Validate(newSoundEffect, $"Sound ({newSoundEffect}.wav) not found", Constants.SoundEffects.Contains);
 
             if (!this.HasErrors)
             {
@@ -185,6 +224,21 @@ namespace MapEditor.Models.Elements.Events
                 this.RendType = newRendType;
                 this.SoundEffect = newSoundEffect;
             }
+        }
+
+        private void PlaySoundEffectCommand()
+        {
+            if (this.SoundEffect == "none")
+            {
+                return;
+            }
+
+            Constants.AudioEngine.WavPlay(Constants.SoundLoadStrategy.ProvideSound(this.SoundEffect));
+        }
+
+        private void StopSoundEffectCommand()
+        {
+            Constants.AudioEngine.WavStop();
         }
     }
 }
