@@ -14,6 +14,7 @@ namespace MapEditor.Views
     {
         private Action lastSentSeek;
         private Timer heldMouseResendTimer;
+        private bool? originallyIsLooping;
 
         public BGMDataView()
         {
@@ -87,6 +88,8 @@ namespace MapEditor.Views
 
             element.ReleaseMouseCapture();
             this.Border_MouseEvent(sender, e);
+
+            this.originallyIsLooping = null;
         }
 
         private void Border_MouseEvent(object sender, MouseEventArgs e)
@@ -109,6 +112,17 @@ namespace MapEditor.Views
                 {
                     this.lastSentSeek = () => vm.SeekToPercent(percent);
                     this.lastSentSeek.Invoke();
+
+                    var progressSamples = (long)(percent * vm.OggProgress.TotalSamples);
+                    if (vm.IsLooping && progressSamples >= vm.PlayingBGM.LoopEnd)
+                    {
+                        this.originallyIsLooping = vm.IsLooping;
+                        vm.IsLooping = false;
+                    }
+                    else if (!vm.IsLooping && progressSamples < vm.PlayingBGM.LoopEnd && (this.originallyIsLooping ?? false))
+                    {
+                        vm.IsLooping = true;
+                    }
                 }
             }
         }

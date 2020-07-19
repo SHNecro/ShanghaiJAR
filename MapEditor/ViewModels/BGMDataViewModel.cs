@@ -209,6 +209,8 @@ namespace MapEditor.ViewModels
 
             var progressSamples = (long)(percent * this.OggProgress.TotalSamples);
 
+            this.audio.OggSeek(progressSamples);
+
             if (!this.oggDataLoaded)
             {
                 var filePath = string.Format(MusicPathFormat, this.PlayingBGM.File);
@@ -231,8 +233,6 @@ namespace MapEditor.ViewModels
                     TotalSamples = this.OggProgress.TotalSamples
                 };
             }
-
-            this.audio.OggSeek(progressSamples);
         }
 
         protected override string GetStringValue()
