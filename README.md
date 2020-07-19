@@ -56,7 +56,7 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 6/24/20):
+#### In Progress (as of 7/19/20):
 - Not dead, but somehow 2020 got even worse. In lieu of actual progress, got a lot of planning/ideas done.
 - Postgame area special doors
 - Second half of first postgame area, planning barriers, etc.
@@ -71,4 +71,6 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - Reworked PA system for potential issues adding new PAs
 - Minor balancing of DruidMan, minor difficulty increase for stunlocking
 - Events, cutscenes up to midway point of first postgame area
-- Moved some constant data out to external files so map editor can edit
+- Moved some constant data out to external files so map editor can edit (data/data/*.xml)
+- Added editors for external data
+- Added music player, audio engine to map editor for bgm/sound effects

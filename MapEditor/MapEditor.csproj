@@ -869,7 +869,9 @@
     <Resource Include="Resources\OutlineIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README-Editor.txt" />
+    <None Include="README-Editor.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Resource Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>

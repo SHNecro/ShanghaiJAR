@@ -1345,8 +1345,9 @@
     <None Include="ShanghaiEXE\Files\option.xml">
       <TargetPath>option.xml</TargetPath>
     </None>
-    <None Include="ShanghaiEXE\Files\README.txt">
+    <None Include="README.txt">
       <TargetPath>README.txt</TargetPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="Data\data\KeyItems.xml">
       <SubType>Designer</SubType>
