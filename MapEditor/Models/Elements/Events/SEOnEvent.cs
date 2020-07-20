@@ -16,12 +16,7 @@ namespace MapEditor.Models.Elements.Events
         public SEOnEvent()
         {
             this.reselectTimer = new Timer { Interval = 100, AutoReset = false, Enabled = false };
-            this.reselectTimer.Elapsed += (sender, args) =>
-            {
-                var originalSoundEffect = this.SoundEffect;
-                this.SoundEffect = Constants.SoundEffects.LastOrDefault();
-                this.SoundEffect = Constants.SoundEffects[Constants.SoundEffects.IndexOf(originalSoundEffect)];
-            };
+            this.reselectTimer.Elapsed += this.ReloadSoundEffects;
         }
 
         public string SoundEffect
@@ -66,7 +61,7 @@ namespace MapEditor.Models.Elements.Events
             }
 
             var newSoundEffect = entries[1];
-            this.Validate(newSoundEffect, $"Sound ({newSoundEffect}.wav) not found", Constants.SoundEffects.Contains);
+//            this.Validate(newSoundEffect, $"Sound ({newSoundEffect}.wav) not found", Constants.SoundEffects.Contains);
 
             if (!this.HasErrors)
             {
@@ -87,6 +82,13 @@ namespace MapEditor.Models.Elements.Events
         private void StopSoundEffectCommand()
         {
             Constants.AudioEngine.WavStop();
+        }
+
+        private void ReloadSoundEffects(object sender, ElapsedEventArgs args)
+        {
+            var originalSoundEffect = this.SoundEffect;
+            this.SoundEffect = Constants.SoundEffects.LastOrDefault();
+            this.SoundEffect = Constants.SoundEffects[Constants.SoundEffects.IndexOf(originalSoundEffect)];
         }
     }
 }

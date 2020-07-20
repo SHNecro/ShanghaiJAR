@@ -71,8 +71,7 @@
   </Target>
   <PropertyGroup>
     <PreBuildEvent>xcopy "$(SolutionDir)ShanghaiEXE\Language" "$(TargetDir)language\" /s /d /y
-xcopy "$(SolutionDir)ShanghaiEXE\Graphics" "$(TargetDir)Graphics\" /s /d /y
-xcopy "$(SolutionDir)ShanghaiEXE\Sounds" "$(TargetDir)Sounds\" /s /d /y
+xcopy "$(SolutionDir)ShanghaiEXE\Sounds\Music\*" "$(TargetDir)music\" /s /d /y
 xcopy "$(SolutionDir)ShanghaiEXE\MapData" "$(TargetDir)MapData\" /s /d /y</PreBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\MSTest.TestAdapter.1.4.0\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.1.4.0\build\net45\MSTest.TestAdapter.targets')" />

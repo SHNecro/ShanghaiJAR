@@ -10,7 +10,10 @@ namespace MapEditor.Models.Elements.Events
         {
             // TODO: MEMORY LEAK
             // However, would require propagating Dispose() all the way down Map, which would have been nice to do at the very start
-            BGMDataViewModel.BGMDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.BGMName)); };
+            if (BGMDataViewModel.BGMDefinitions != null)
+            {
+                BGMDataViewModel.BGMDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.BGMName)); };
+            }
         }
 
         public string BGMName

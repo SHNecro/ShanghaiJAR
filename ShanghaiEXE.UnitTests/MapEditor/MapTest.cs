@@ -1,7 +1,9 @@
-﻿using MapEditor.Models;
+﻿using MapEditor;
+using MapEditor.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 
 namespace Tests.MapEditor
 {
@@ -11,6 +13,8 @@ namespace Tests.MapEditor
         [TestMethod]
         public void LoadMap_AllExistingMaps_NoErrors()
         {
+            typeof(Constants).GetMethod("InitializeLanguage", BindingFlags.NonPublic | BindingFlags.Static).Invoke(null, null);
+
             var mapDataDir = new DirectoryInfo("MapData");
 
             var errors = new List<string>();

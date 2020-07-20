@@ -19,6 +19,9 @@ namespace MapEditor.ViewModels
 {
     public class BGMDataViewModel : StringRepresentation
     {
+        private const string FilePath = "music/looppoint.txt";
+        private const string MusicPathFormat = "music/{0}.ogg";
+
         public static ObservableCollection<BGMDefinition> BGMDefinitions;
 
         static BGMDataViewModel()
@@ -34,9 +37,6 @@ namespace MapEditor.ViewModels
         }
 
         public static BGMDataViewModel Instance { get; }
-
-        private const string FilePath = "music/looppoint.txt";
-        private const string MusicPathFormat = "music/{0}.ogg";
 
         private readonly AudioEngine audio;
 

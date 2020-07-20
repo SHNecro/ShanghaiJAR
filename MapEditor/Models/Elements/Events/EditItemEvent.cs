@@ -9,7 +9,10 @@
         {
             // TODO: MEMORY LEAK
             // However, would require propagating Dispose() all the way down Map, which would have been nice to do at the very start
-            Constants.KeyItemDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.ItemNumber)); };
+            if (Constants.KeyItemDefinitions != null)
+            {
+                Constants.KeyItemDefinitions.CollectionChanged += (sender, args) => { this.OnPropertyChanged(nameof(this.ItemNumber)); };
+            }
         }
 
         public int ItemNumber

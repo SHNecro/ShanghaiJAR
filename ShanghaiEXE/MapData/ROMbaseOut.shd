@@ -139,7 +139,7 @@ msgopen:
 msg:Map.ROMbaseOutSpannerManBattleStage5Dialogue1FaceTsubakiNekku
 msg:Map.ROMbaseOutSpannerManBattleStage5Dialogue2FaceTsubakiNekku
 EditItem:9:True
-ItemGet:3:8:0:KeyItem.NekkuPCodeName
+ItemGet:3:8:0:KeyItem.TsubakiPCodeName
 msg:Map.ROMbaseOutSpannerManBattleStage5Dialogue3FaceTsubakiNekku
 msgclose:
 goto:end
