@@ -458,25 +458,29 @@ namespace Common.OpenAL
                 }
 
                 // Handle other sections (misnamed BWF file)
-                var optionalSectionType = new string(reader.ReadChars(4));
-                switch (optionalSectionType)
+                var optionalSectionType = string.Empty;
+                do
                 {
-                    case "JUNK":
-                    case "bext":
-                    case "iXML":
-                    case "qlty":
-                    case "mext":
-                    case "levl":
-                    case "link":
-                    case "axml":
-                        var sectionSize = reader.ReadInt32();
-                        reader.ReadBytes(sectionSize);
-                        break;
-                    case "data":
-                        break;
-                    default:
-                        throw new NotSupportedException("Specified wave file is not supported (nonstandard data header).");
-                }
+                    optionalSectionType = new string(reader.ReadChars(4));
+                    switch (optionalSectionType)
+                    {
+                        case "JUNK":
+                        case "bext":
+                        case "iXML":
+                        case "qlty":
+                        case "mext":
+                        case "levl":
+                        case "link":
+                        case "axml":
+                            var sectionSize = reader.ReadInt32();
+                            stream.Seek(sectionSize, SeekOrigin.Current);
+                            break;
+                        case "data":
+                            break;
+                        default:
+                            throw new NotSupportedException("Specified wave file is not supported (nonstandard data header).");
+                    }
+                } while (optionalSectionType != "data");
 
                 var dataSize = reader.ReadInt32();
 
