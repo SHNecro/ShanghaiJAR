@@ -1363,6 +1363,7 @@
     <Content Include="Graphics\central6f5.png" />
     <Content Include="Graphics\centralback.png" />
     <Content Include="Graphics\charachip19.png" />
+    <Content Include="Graphics\charachip20.png" />
     <Content Include="Graphics\chipgraphic23.png" />
     <Content Include="Graphics\chipicone.png" />
     <Content Include="Graphics\druidman.png" />
@@ -1399,9 +1400,11 @@
     <Content Include="Data\data\Messages\UNKNOWN1.xml" />
     <Content Include="Data\data\Messages\UNKNOWN2.xml" />
     <Content Include="Data\data\Messages\UNKNOWN3.xml" />
+    <Content Include="Language\en-US\Config.xml" />
     <Content Include="Language\en-US\Credits.xml" />
     <Content Include="Language\en-US\Map\Piano.xml" />
     <Content Include="Language\en-US\Map\UraNet11.xml" />
+    <Content Include="Language\ja-JP\Config.xml" />
     <Content Include="Language\ja-JP\Credits.xml" />
     <Content Include="Language\ja-JP\Map\Piano.xml" />
     <Content Include="Language\ja-JP\Map\UraNet11.xml" />

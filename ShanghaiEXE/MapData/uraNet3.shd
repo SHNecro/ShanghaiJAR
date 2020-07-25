@@ -481,6 +481,10 @@ hitform:circle
 event:
 msgopen:
 msg:Map.UraNet3PostgameUndernet4PurpleChildDialogue1
+ifFlag:565:True:0
+msg:Map.UraNet3PostgameUndernet4PurpleChildDialogue2
+msg:Map.UraNet3PostgameUndernet4PurpleChildDialogue3
+ifEnd:0
 msgclose:
 end
 

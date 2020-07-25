@@ -28,6 +28,7 @@ StatusHide:False
 editMenu:8:True
 editValue:14:False:0:0:0
 editFlag:788:True
+editValue:3:False:0:0:102
 msgopen:
 msg:Credits.TeaserStage2Dialogue1
 msg:Credits.TeaserStage2Dialogue2
@@ -43,8 +44,6 @@ msgopen:
 msg:Map.AliceroomPostGameAutomaticStartStage1Dialogue1
 msgclose:
 bgmon:in_room
-bgmfade:0:0:True
-bgmfade:100:480:False
 effect:29:PostGameAutoplayStart-AliceBed:PostGameAutoplayStart-AliceSleeping:::3:-1:0:2:none
 editFlag:788:True
 wait:15:False

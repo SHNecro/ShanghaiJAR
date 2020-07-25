@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- エージェントセンター　会議室 -->
   <Text Key="Map.NetAgentSenter2froomName" Value="エージェントセンター　会議室" />
@@ -7,29 +7,17 @@
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
   <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- 表面に細かい傷跡が無数に入っている長机だ -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeStage1Dialogue1FaceNone" Value="表面に細かい傷跡が,無数に入っている長机だ" Face="None" Mono="False" />
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- 表面に細かい傷跡が無数に入っている長机だ -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeStage1Dialogue1FaceNone" Value="表面に細かい傷跡が,無数に入っている長机だ" Face="None" Mono="False" />
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- 表面に細かい傷跡が無数に入っている長机だ -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeStage1Dialogue1FaceNone" Value="表面に細かい傷跡が,無数に入っている長机だ" Face="None" Mono="False" />
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- 表面に細かい傷跡が無数に入っている長机だ -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="表面に細かい傷跡が,無数に入っている長机だ" Face="None" Mono="False" />
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- 表面に細かい傷跡が無数に入っている長机だ -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="表面に細かい傷跡が,無数に入っている長机だ" Face="None" Mono="False" />
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- 表面に細かい傷跡が無数に入っている長机だ -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="表面に細かい傷跡が,無数に入っている長机だ" Face="None" Mono="False" />
   <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineDupeDupeDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="何人ものエージェント隊員が,この机で重要な作戦について,議論を交わしたのであろう" Face="None" Mono="False" />
   <!-- ＲＯＭがこれ以上ビヨンダードへのゲートを開かないように頑張らないと -->
   <Dialogue Key="Map.NetAgentSenter2froomChapter7FaceSagumeStage1Dialogue1FaceSagume" Value="ＲＯＭがこれ以上,ビヨンダードへのゲートを,開かないように頑張らないと" Face="Sagume" Mono="False" />
   <!-- でも　まだ情報が全然無いのよねー････ -->
@@ -310,4 +298,5 @@
   <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue17FaceDrMorichika" Value="僕らと　子どもたちの,未来を守るために････！" Face="DrMorichika" Mono="False" />
   <!-- ああ････！ -->
   <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue18FaceLloyd" Value="ああ････！" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue3FaceNone" Value="[....Maybe some unimportant,meetings，too. “25644364” is,scratched under a doodle.]" Face="None" Mono="False" />
 </data>

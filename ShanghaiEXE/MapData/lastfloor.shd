@@ -135,8 +135,6 @@ msg:Map.LastfloorFinalCutsceneBossStage3Dialogue7
 msgclose:
 stopSkip:
 battle:65:1:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:LastBattle:37
-bgmon:null_no_sound
-bgmfade:0:0:False
 canSkip:
 fade:0:255:255:255:255:False
 effect:3:FinalCutsceneBoss-KikuriCombatExplosions:FinalCutsceneBoss-KikuriCombat:::3:12:16:1:bomb
@@ -156,15 +154,14 @@ shake:4:30
 fade:30:255:255:255:255:True
 shake:2:90
 fade:120:0:255:255:255:False
-bgmoff:
-bgmfade:0:1:True
 wait:30:False
 effect:43:FinalCutsceneBoss-KikuriCombatFade:FinalCutsceneBoss-KikuriCombat:::3:-1:0:2:none
 eventDelete:FinalCutsceneBoss-KikuriCombat
 emove:FinalCutsceneBoss-Kikuri:warpdown,128
-wait:30:False
+wait:60:False
 effectDelete:FinalCutsceneBoss-KikuriCombatExplosionsIntense
 effectDelete:FinalCutsceneBoss-KikuriCombatExplosions
+wait:30:False
 bgmon:sadness
 wait:90:False
 msgopen:
@@ -742,7 +739,7 @@ msg:Map.LastfloorFinalCutsceneStage1Dialogue3
 msg:Map.LastfloorFinalCutsceneStage1Dialogue4
 msgclose:
 bgmon:ending
-bgmfade:50:240:False
+bgmfade:100:240:False
 fade:120:0:0:0:0:False
 wait:60:False
 emove:FinalCutscene-Alice:jump,0
@@ -766,7 +763,7 @@ msgclose:
 fade:120:255:0:0:0:True
 stopSkip:
 bgmon:ending
-bgmfade:50:0:True
+bgmfade:100:0:True
 eventDelete:FinalCutscene-Alice
 eventDelete:FinalCutscene-Shanghai
 playerHide:False
