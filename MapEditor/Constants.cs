@@ -388,7 +388,7 @@ namespace MapEditor
             {
                 var updateLabel = args != null ? args.UpdateLabel : "Load Complete";
                 textureComplete = args?.UpdateProgress / 2 ?? 0.5;
-                Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Textures: " + updateLabel, soundComplete + textureComplete));
+                Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Resources: Textures: " + updateLabel, soundComplete + textureComplete));
             };
 
             Constants.ReloadTextures(progressTextureUpdateAction);
@@ -400,7 +400,7 @@ namespace MapEditor
             {
                 var updateLabel = args != null ? args.UpdateLabel : "Load Complete";
                 soundComplete = args?.UpdateProgress / 2 ?? 0.5;
-                Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Sounds: " + updateLabel, soundComplete + textureComplete));
+                Constants.ConstantsLoadProgressEventUpdated?.Invoke(null, new ConstantsLoadProgressEventUpdatedEventArgs("Resources: Sounds: " + updateLabel, soundComplete + textureComplete));
             };
 
             Constants.SoundEffects = new ObservableCollection<string>();

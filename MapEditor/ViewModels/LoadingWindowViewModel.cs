@@ -17,7 +17,7 @@ namespace MapEditor.ViewModels
         public static MainWindow MainWindow;
         public static MainWindowViewModel MainWindowViewModel;
 
-        private static readonly List<string> CategoriesToLoad = new List<string> { "Font", "Language", "Data", "Map", "Textures" };
+        private static readonly List<string> CategoriesToLoad = new List<string> { "Font", "Language", "Data", "Map", "Resources" };
 
         public Dictionary<string, double> CategoriesLoaded = new Dictionary<string, double>();
 
@@ -37,7 +37,7 @@ namespace MapEditor.ViewModels
 
         public bool? MapStatus => this.CategoriesLoaded.ContainsKey("Map") ? (bool?)(Math.Abs(this.CategoriesLoaded["Map"] - 1) < 0.0001) : null;
 
-        public bool? TexturesStatus => this.CategoriesLoaded.ContainsKey("Textures") ? (bool?)(Math.Abs(this.CategoriesLoaded["Textures"] - 1) < 0.0001) : null;
+        public bool? ResourcesStatus => this.CategoriesLoaded.ContainsKey("Resources") ? (bool?)(Math.Abs(this.CategoriesLoaded["Resources"] - 1) < 0.0001) : null;
 
         public double TotalLoadProgress => this.CategoriesLoaded.Values.Sum() / LoadingWindowViewModel.CategoriesToLoad.Count();
 
@@ -127,7 +127,7 @@ namespace MapEditor.ViewModels
             this.OnPropertyChanged(nameof(this.LanguageStatus));
             this.OnPropertyChanged(nameof(this.DataStatus));
             this.OnPropertyChanged(nameof(this.MapStatus));
-            this.OnPropertyChanged(nameof(this.TexturesStatus));
+            this.OnPropertyChanged(nameof(this.ResourcesStatus));
 
             this.OnPropertyChanged(nameof(this.TotalLoadProgress));
 
