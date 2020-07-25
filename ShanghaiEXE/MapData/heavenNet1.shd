@@ -151,7 +151,7 @@ position:26:104:0
 page:1
 startterms:Abutton
 type:1
-terms:!flag/794,flag/813
+terms:!flag/999,flag/813
 move:
 speed:0
 graphic:2:6,0,1,0,0
@@ -963,7 +963,8 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorRequest1
 msgclose:
-editFlag:808:True
+EventLun:SpecialDoor6RequestCheck:-1
+ifFlag:808:True:0
 emove:SpecialGhost6:wait,30:wayup,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -985,6 +986,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost6:warpdown,24
 editFlag:808:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -1218,7 +1220,8 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorVirusTraning1
 msgclose:
-editFlag:805:True
+EventLun:SpecialDoor3VirusTamingCheck:-1
+ifFlag:805:True:0
 emove:SpecialGhost3:wait,30:waydown,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -1240,6 +1243,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost3:warpup,24
 editFlag:805:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -1255,6 +1259,36 @@ msgopen:
 msg:Map.HeavenNet1LockdownDoorDialogue1
 msg:Map.HeavenNet1LockdownDoorDialogue2
 msgclose:
+end
+
+ID:SpecialDoor3VirusTamingCheck
+position:466:98:0
+page:1
+startterms:none
+type:1
+terms:flag/300,flag/301,flag/302,flag/303,flag/304,flag/305,flag/306,flag/307,flag/308,flag/309,flag/310,flag/311,flag/312,flag/313,flag/314,flag/315,flag/316,flag/317,flag/318,flag/319,flag/320,flag/321,flag/322,flag/323,flag/324,flag/325,flag/326,flag/327,flag/328,flag/329,flag/330,flag/331,flag/332,flag/333,flag/334,flag/335,flag/336,flag/337,flag/338,flag/339,flag/340
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:4:4:0:0
+hitform:square
+event:
+editFlag:805:True
+end
+
+ID:SpecialDoor6RequestCheck
+position:562:368:0
+page:1
+startterms:none
+type:1
+terms:flag/81,flag/84,flag/87,flag/89,flag/91,flag/92,flag/95,flag/383,flag/384,flag/385,flag/390,flag/395,flag/396,flag/710,flag/716,flag/717,flag/746
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:4:4:0:0
+hitform:square
+event:
+editFlag:808:True
 end
 
 ID:SpecialGhost2
@@ -1300,7 +1334,7 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorSPBounty1
 msgclose:
-editFlag:804:True
+ifFlag:804:True:0
 emove:SpecialGhost2:wait,25:wayup,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -1322,6 +1356,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost2:warpdown,24
 editFlag:804:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -1554,7 +1589,7 @@ hitform:square
 event:
 end
 
-ID:PlaceholderSprite1
+ID:Barrier1
 position:369:121:0
 page:1
 startterms:Abutton
@@ -1611,6 +1646,36 @@ stopSkip:
 end
 
 ID:PlaceholderSprite2
+position:394:334:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:0
+graphic:2:6,0,1,0,0
+hitrange:9:0:-5:0
+hitform:circle
+event:
+editFlag:746:True
+end
+
+ID:PlaceholderSprite2
+position:507:261:0
+page:1
+startterms:Abutton
+type:1
+terms:none
+move:
+speed:0
+graphic:2:6,0,1,0,0
+hitrange:9:0:-5:0
+hitform:circle
+event:
+editFlag:794:True
+end
+
+ID:PlaceholderSprite2
 position:54:134:0
 page:1
 startterms:Abutton
@@ -1622,10 +1687,10 @@ graphic:2:6,0,1,0,0
 hitrange:9:0:-5:0
 hitform:circle
 event:
-editFlag:794:True
+editFlag:999:True
 end
 
-ID:PlaceholderSprite2
+ID:Barrier2
 position:226:217:0
 page:1
 startterms:Abutton

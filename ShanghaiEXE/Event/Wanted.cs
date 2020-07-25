@@ -72,6 +72,7 @@ namespace NSEvent
         private const byte waitshort = 4;
         private readonly InfoMessage info;
 
+        // Virus #, enable flag, on-task flag, reward
         public static int[,] WantedList { get; } = new int[41, 4]
         {
             {6, -1, 100, 10000},

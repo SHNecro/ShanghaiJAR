@@ -78,7 +78,9 @@ namespace NSGame
         public int[] havePeace = new int[3];
         public bool[,] bbsRead = new bool[6, 100];
         public bool[] questEnd = new bool[50];
+        // flags for whether the current bounty target has been defeated
         public bool[] virusSPbustedFlug = new bool[45];
+        // flags for whether the bounty targets have ever been defeated
         public bool[] virusSPbusted = new bool[45];
         public bool firstchange = false;
         public int[,,] chipFolder = new int[3, 30, 2];
