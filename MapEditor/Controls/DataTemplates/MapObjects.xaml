@@ -420,15 +420,29 @@
                                             <ColumnDefinition Width="*" />
                                             <ColumnDefinition Width="Auto" />
                                         </Grid.ColumnDefinitions>
-                                        <controls:WheelCaptureIntegerUpDown Grid.Column="0" Minimum="1">
-                                            <controls:WheelCaptureIntegerUpDown.Text>
-                                                <Binding Path="PageNumber" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
-                                                    <Binding.ValidationRules>
-                                                        <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue" Minimum="1"/>
-                                                    </Binding.ValidationRules>
-                                                </Binding>
-                                            </controls:WheelCaptureIntegerUpDown.Text>
-                                        </controls:WheelCaptureIntegerUpDown>
+                                        <TextBox Grid.Column="0"
+                                                 Text="{Binding PageNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                                            <TextBox.InputBindings>
+                                                <MouseBinding Gesture="{x:Static controls:MouseWheelGesture.Down}"
+                                                              Command="{x:Static local:Constants.MoveItemUpCommand}">
+                                                    <MouseBinding.CommandParameter>
+                                                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                            <Binding Path="DataContext.Pages.MapEventPages" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=TabControl}"/>
+                                                            <Binding Path="." />
+                                                        </MultiBinding>
+                                                    </MouseBinding.CommandParameter>
+                                                </MouseBinding>
+                                                <MouseBinding Gesture="{x:Static controls:MouseWheelGesture.Up}"
+                                                              Command="{x:Static local:Constants.MoveItemDownCommand}">
+                                                    <MouseBinding.CommandParameter>
+                                                        <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                                            <Binding Path="DataContext.Pages.MapEventPages" RelativeSource="{RelativeSource Mode=FindAncestor, AncestorType=TabControl}"/>
+                                                            <Binding Path="." />
+                                                        </MultiBinding>
+                                                    </MouseBinding.CommandParameter>
+                                                </MouseBinding>
+                                            </TextBox.InputBindings>
+                                        </TextBox>
                                         <StackPanel Grid.Column="1"
                                                     HorizontalAlignment="Right"
                                                     Orientation="Horizontal">
@@ -1243,9 +1257,10 @@
                                                     <ColumnDefinition Width="Auto" />
                                                     <ColumnDefinition Width="Auto" />
                                                 </Grid.ColumnDefinitions>
-                                                <TextBlock Grid.Column="0"
-                                                           Text="Events:"
-                                                           FontWeight="Bold" />
+                                                <Expander Grid.Column="0"
+                                                          Header="Events:"
+                                                          IsExpanded="{Binding DataContext.EventsExpanded, Source={StaticResource MapEventPageProxyElement}}"
+                                                          FontWeight="Bold" />
                                                 <Button Grid.Column="1" Command="{x:Static local:Constants.DuplicateItemCommand}">
                                                     <Button.CommandParameter>
                                                         <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
@@ -1280,7 +1295,6 @@
                                                 </TextBlock.Style>
                                             </TextBlock>
                                             <ListBox HorizontalContentAlignment="Stretch"
-                                                     MaxHeight="150"
                                                      ScrollViewer.VerticalScrollBarVisibility="Auto"
                                                      SelectionMode="Single"
                                                      ItemsSource="{Binding DataContext.Events, Source={StaticResource EventsProxyElement}}"
@@ -1292,6 +1306,9 @@
                                                         <Style.Triggers>
                                                             <DataTrigger Binding="{Binding Events.Events.Count}" Value="0">
                                                                 <Setter Property="Visibility" Value="Collapsed"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding EventsExpanded}" Value="False">
+                                                                <Setter Property="MaxHeight" Value="150"/>
                                                             </DataTrigger>
                                                         </Style.Triggers>
                                                         <Setter Property="Visibility" Value="Visible"/>

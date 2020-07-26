@@ -108,6 +108,7 @@
                              HorizontalAlignment="Stretch"
                              VerticalAlignment="Stretch"
                              VerticalContentAlignment="Top"
+                             VerticalScrollBarVisibility="Auto"
                              Height="Auto"
                              TextWrapping="Wrap"
                              AcceptsReturn="True"

@@ -157,6 +157,7 @@
     <Compile Include="Controls\BattleEventSetter.xaml.cs">
       <DependentUpon>BattleEventSetter.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\MouseWheelGesture.cs" />
     <Compile Include="Controls\FileSelectorFilter.cs" />
     <Compile Include="Controls\DoubleClickSelectListBox.xaml.cs">
       <DependentUpon>DoubleClickSelectListBox.xaml</DependentUpon>

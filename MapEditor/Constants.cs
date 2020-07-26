@@ -714,6 +714,8 @@ namespace MapEditor
             {
                 Console.WriteLine($"{e.GetType().ToString()}: {e.Message}");
             }
+
+            CommandManager.InvalidateRequerySuggested();
         }
 
         private static bool CanDeleteItem(object param)

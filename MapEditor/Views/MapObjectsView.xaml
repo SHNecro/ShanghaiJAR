@@ -30,9 +30,7 @@
                                          IsExpanded="True"
                                          DataContext="{Binding MapObjects}">
             <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <DockPanel MinHeight="1600"
-                           MaxHeight="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=ScrollViewer, Mode=FindAncestor}}"
-                           LastChildFill="True">
+                <DockPanel LastChildFill="True">
                     <DockPanel.Resources>
                         <FrameworkElement x:Key="MapObjectsProxyElement" DataContext="{Binding}"/>
                         <FrameworkElement x:Key="MapEntitiesProxyElement" DataContext="{Binding MapObjects, Converter={StaticResource MapEventConverter}}"/>
@@ -52,9 +50,9 @@
                             </Style>
                         </Grid.Style>
                         <controls:StringEditableExpander IsExpanded="True"
-                                                         HorizontalContentAlignment="Stretch"
-                                                         DataContext="{Binding SelectedObject}"
-                                                         Margin="10,0,0,0">
+                                                            HorizontalContentAlignment="Stretch"
+                                                            DataContext="{Binding SelectedObject}"
+                                                            Margin="10,0,0,0">
                             <controls:StringEditableExpander.Style>
                                 <Style TargetType="controls:StringEditableExpander">
                                     <Style.Triggers>
@@ -87,7 +85,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0" Text="ID:"/>
                                     <TextBox Grid.Column="1" 
-                                             Text="{Binding ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                                Text="{Binding ID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                                 </Grid>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -162,8 +160,8 @@
                                             <ColumnDefinition Width="Auto" />
                                         </Grid.ColumnDefinitions>
                                         <TextBlock Grid.Column="0"
-                                                   Text="Entities:"
-                                                   FontWeight="Bold" />
+                                                    Text="Entities:"
+                                                    FontWeight="Bold" />
                                         <Button Grid.Column="1"
                                                 Command="{x:Static local:Constants.AddItemCommand}">
                                             <Button.CommandParameter>
@@ -177,8 +175,8 @@
                                         </Button>
                                     </Grid>
                                     <TextBlock DockPanel.Dock="Top"
-                                               HorizontalAlignment="Center"
-                                               Text="No Entities">
+                                                HorizontalAlignment="Center"
+                                                Text="No Entities">
                                         <TextBlock.Style>
                                             <Style TargetType="TextBlock">
                                                 <Style.Triggers>
@@ -272,8 +270,8 @@
                                             <ColumnDefinition Width="Auto" />
                                         </Grid.ColumnDefinitions>
                                         <TextBlock Grid.Column="0"
-                                                   Text="Mystery Data:"
-                                                   FontWeight="Bold" />
+                                                    Text="Mystery Data:"
+                                                    FontWeight="Bold" />
                                         <Button Grid.Column="1"
                                                 Command="{x:Static local:Constants.AddItemCommand}">
                                             <Button.CommandParameter>
@@ -287,8 +285,8 @@
                                         </Button>
                                     </Grid>
                                     <TextBlock DockPanel.Dock="Top"
-                                               HorizontalAlignment="Center"
-                                               Text="No Mystery Data">
+                                                HorizontalAlignment="Center"
+                                                Text="No Mystery Data">
                                         <TextBlock.Style>
                                             <Style TargetType="TextBlock">
                                                 <Style.Triggers>
@@ -301,13 +299,13 @@
                                         </TextBlock.Style>
                                     </TextBlock>
                                     <ListBox DockPanel.Dock="Top"
-                                             HorizontalContentAlignment="Stretch"
-                                             ScrollViewer.VerticalScrollBarVisibility="Auto"
-                                             SelectionMode="Single"
-                                             SelectedValue="{Binding SelectedObject, Mode=TwoWay, Delay=100}"
-                                             ItemsSource="{Binding MapObjects, Converter={StaticResource MapMysteryConverter}}"
-                                             ItemTemplate="{StaticResource MapObjectListTemplate}"
-                                             ItemContainerStyle="{StaticResource MapObjectContainerStyle}">
+                                                HorizontalContentAlignment="Stretch"
+                                                ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                                SelectionMode="Single"
+                                                SelectedValue="{Binding SelectedObject, Mode=TwoWay, Delay=100}"
+                                                ItemsSource="{Binding MapObjects, Converter={StaticResource MapMysteryConverter}}"
+                                                ItemTemplate="{StaticResource MapObjectListTemplate}"
+                                                ItemContainerStyle="{StaticResource MapObjectContainerStyle}">
                                         <ListBox.Style>
                                             <Style TargetType="ListBox">
                                                 <Style.Triggers>

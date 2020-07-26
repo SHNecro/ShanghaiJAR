@@ -9,6 +9,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Windows.Input;
 
 namespace MapEditor.Models
 {
@@ -36,10 +37,25 @@ namespace MapEditor.Models
         private EventCollection events;
         private int rendType;
 
+        //private bool movesExpanded;
+        //private bool termsExpanded;
+        private bool eventsExpanded;
+
         public int PageNumber
         {
-            get { return this.pageNumber; }
-            set { this.SetValue(ref this.pageNumber, value); }
+            get
+            {
+                return this.pageNumber;
+            }
+
+            set
+            {
+                if (!this.UpdatePageNumberAction?.Invoke(this.pageNumber - 1, value - 1) ?? false)
+                {
+                    return;
+                }
+                this.SetValue(ref this.pageNumber, value);
+            }
         }
 
         public int GraphicsIndex
@@ -232,6 +248,25 @@ namespace MapEditor.Models
             return e is MapChangeEvent || e is MapWarpEvent || e is WarpEvent || e is WarpPlugOutEvent;
         });
 
+        //public bool MovesExpanded
+        //{
+        //    get { return this.movesExpanded; }
+        //    set { this.SetValue(ref this.movesExpanded, value); }
+        //}
+
+        //public bool TermsExpanded
+        //{
+        //    get { return this.termsExpanded; }
+        //    set { this.SetValue(ref this.termsExpanded, value); }
+        //}
+
+        public bool EventsExpanded
+        {
+            get { return this.eventsExpanded; }
+            set { this.SetValue(ref this.eventsExpanded, value); }
+        }
+
+        public Func<int, int, bool> UpdatePageNumberAction { get; set; }
 
         public string Texture => this.IsCharacter ? $"charachip{this.GraphicsIndex}" : $"body{this.GraphicsIndex}";
 

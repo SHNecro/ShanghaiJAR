@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 
@@ -18,7 +19,7 @@ namespace MapEditor.Models
 			this.MapEventPages = new ObservableCollection<MapEventPage>();
 		}
 
-		public ObservableCollection<MapEventPage> MapEventPages
+        public ObservableCollection<MapEventPage> MapEventPages
 		{
 			get
 			{
@@ -90,6 +91,27 @@ namespace MapEditor.Models
                 this.SelectedEventPage = this.lastSelectedIndex < this.MapEventPages.Count && this.lastSelectedIndex >= 0 ? this.MapEventPages[this.lastSelectedIndex] : this.MapEventPages.LastOrDefault();
             }
             this.OnPropertyChanged(nameof(this.MapEventPages));
+
+            for (int i = 0; i < this.MapEventPages.Count; i++)
+            {
+                var page = this.MapEventPages[i];
+                page.UpdatePageNumberAction = null;
+                page.PageNumber = i + 1;
+            }
+            for (int i = 0; i < this.MapEventPages.Count; i++)
+            {
+                var page = this.MapEventPages[i];
+                page.UpdatePageNumberAction = (oldIndex, newIndex) =>
+                {
+                    if (newIndex < 0 || newIndex >= this.MapEventPages.Count)
+                    {
+                        return false;
+                    }
+
+                    this.MapEventPages.Move(oldIndex, newIndex);
+                    return true;
+                };
+            }
         }
 
         private void OnSelectedObjectPropertyChanged(object sender, PropertyChangedEventArgs e)
