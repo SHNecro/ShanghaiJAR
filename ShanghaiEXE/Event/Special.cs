@@ -832,6 +832,14 @@ namespace NSEvent
                         }
                     }
                     break;
+                case 19:
+                    var busted = true;
+                    for (var i = 1; i <= 41; i++)
+                    {
+                        busted &= this.savedata.virusSPbusted[i];
+                    }
+                    this.savedata.FlagList[804] = busted;
+                    break;
             }
             this.EndCommand();
         }

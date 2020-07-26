@@ -40,5 +40,7 @@ namespace MapEditor.Models.Elements.Enums
         RemoveCrakTool = 17,
         [Description("Piano Collision Check")]
         PianoCollision = 18,
+        [Description("Set Bounty Complete Flag 804")]
+        IfSPBounties = 19,
     }
 }

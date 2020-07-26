@@ -867,9 +867,13 @@ hitrange:4:27:6:6
 hitform:square
 event:
 msgopen:
-msg:Map.HeavenNet1SpecialDoorLottoCodes1
+msg:Map.HeavenNet1SpecialDoorZenny1
 msgclose:
+editValue:15:False:0:4:2
+ifValue:15:False:2000000:1:0
 editFlag:809:True
+ifEnd:0
+ifFlag:809:True:0
 editValue:0:False:0:5:0
 editValue:0:False:2:0:1
 editValue:1:False:0:5:1
@@ -889,6 +893,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost7:warpright,16
 editFlag:809:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -1334,6 +1339,7 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorSPBounty1
 msgclose:
+Special:19
 ifFlag:804:True:0
 emove:SpecialGhost2:wait,25:wayup,0:wait,5
 emoveEnd:
@@ -1510,7 +1516,7 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorStoryKey1
 msgclose:
-editFlag:803:True
+ifFlag:803:True:0
 editValue:0:False:0:5:0
 editValue:0:False:2:0:1
 editValue:1:False:0:5:1
@@ -1530,6 +1536,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost1:warpup,24
 editFlag:803:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -1646,22 +1653,7 @@ stopSkip:
 end
 
 ID:PlaceholderSprite2
-position:394:334:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:0
-graphic:2:6,0,1,0,0
-hitrange:9:0:-5:0
-hitform:circle
-event:
-editFlag:746:True
-end
-
-ID:PlaceholderSprite2
-position:507:261:0
+position:457:279:0
 page:1
 startterms:Abutton
 type:1
