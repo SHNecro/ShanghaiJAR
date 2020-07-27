@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
   <Text Key="Map.BlackbackName" Value="■■ Flashback 1 ■■" />
-  <Dialogue Key="Map.BlackbackEventStage1Dialogue1FaceLloyd" Value="I’m home!" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage1Dialogue1FaceTroid" Value="I’m home!" Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage1Dialogue2FaceMama" Value="Welcome back!" Face="Mama" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage1Dialogue3FaceYoungAlice" Value="Papa，you’re back!" Face="YoungAlice" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage3Dialogue1FaceLloyd" Value="Alice!,You’ve gotten taller!" Face="Lloyd" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage3Dialogue2FaceLloyd" Value="Were you a good girl while,Papa was gone?" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage3Dialogue1FaceTroid" Value="Alice!,You’ve gotten taller!" Face="Troid" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage3Dialogue2FaceTroid" Value="Were you a good girl while,Papa was gone?" Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage3Dialogue3FaceYoungAlice" Value="Yeah!" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage3Dialogue4FaceMama" Value="She sure was!,She helped me a lot today!" Face="Mama" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage3Dialogue5FaceLloyd" Value="Really?,What a good girl!" Face="Lloyd" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage5Dialogue1FaceLloyd" Value="Since you’ve been such a,good girl，I brought you a,present." Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage3Dialogue5FaceTroid" Value="Really?,What a good girl!" Face="Troid" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage5Dialogue1FaceTroid" Value="Since you’ve been such a,good girl，I brought you a,present." Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue2FaceYoungAlice" Value="A present!?,Yay! Thanks!" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue3FaceYoungAlice" Value="It’s a phone....with a doll inside?" Face="YoungAlice" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage5Dialogue4FaceLloyd" Value="That’s your....new friend." Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage5Dialogue4FaceTroid" Value="That’s your....new friend." Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue5FaceYoungAlice" Value="A friend?" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue6FaceYoungAlice" Value="Ah! I see her!" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue7FaceYoungAlice" Value="My name is Alice Shinki!,Nice to meet you!" Face="YoungAlice" Mono="False" />

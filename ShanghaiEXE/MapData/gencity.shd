@@ -73,7 +73,7 @@ emove:CreditsAutoplayCategory17-Tenshi:wait,168:wayright,0:wait,148:jump,72
 emove:CreditsAutoplayCategory17-Tsubaki:wait,224:wayright,0:wait,96:jump,72
 emove:CreditsAutoplayCategory17-Rika:wait,224:wait,80:jump,72
 emove:CreditsAutoplayCategory17-Remilia:wait,192:wayright,0
-emove:CreditsAutoplayCategory17-Lloyd:down,32:left,12:wait,64:right,74
+emove:CreditsAutoplayCategory17-Troid:down,32:left,12:wait,64:right,74
 emove:CreditsAutoplayCategory17-Mama:wait,210:left,24:wait,48:right,24
 wait:15:False
 fade:60:0:0:0:0:False
@@ -169,7 +169,7 @@ hitform:square
 event:
 end
 
-ID:CreditsAutoplayCategory17-Lloyd
+ID:CreditsAutoplayCategory17-Troid
 position:125:116:0
 page:1
 startterms:Auto
@@ -382,7 +382,7 @@ msg:Map.GencityFinalCutsceneEpilogueStartStage1Dialogue10
 msg:Map.GencityFinalCutsceneEpilogueStartStage1Dialogue11
 emove:FinalCutsceneEpilogueStart-Mama:waydown,0
 msg:Map.GencityFinalCutsceneEpilogueStartStage1Dialogue12
-emove:FinalCutsceneEpilogueStart-Lloyd:wayup,0
+emove:FinalCutsceneEpilogueStart-Troid:wayup,0
 msg:Map.GencityFinalCutsceneEpilogueStartStage1Dialogue13
 emove:FinalCutsceneEpilogueStart-Kumami:wayright,0
 msg:Map.GencityFinalCutsceneEpilogueStartStage1Dialogue14
@@ -416,7 +416,7 @@ emove:FinalCutsceneEpilogueStart-Rika:wait,64:waydown,0:wait,64:wayright,0:wait,
 emove:FinalCutsceneEpilogueStart-Tsubaki:wait,96:waydown,0:wayfix,0:up,12:wayfixend,0
 emove:FinalCutsceneEpilogueStart-Mari:wait,24:waydown,0:wait,64:wayfix,0:up,8
 emove:FinalCutsceneEpilogueStart-Remilia:wait,88:wayfix,0:up,4
-emove:FinalCutsceneEpilogueStart-Lloyd:wait,128:wayright,0
+emove:FinalCutsceneEpilogueStart-Troid:wait,128:wayright,0
 emove:FinalCutsceneEpilogueStart-Mama:wait,128:wayright,0
 wait:30:False
 camera:64:24:30:False
@@ -426,7 +426,7 @@ msg:Map.GencityFinalCutsceneEpilogueStartStage3Dialogue1
 msgclose:
 effect:39:FinalCutsceneEpilogueStart-FlowerBedSpark:228:140:0:0:-1:0:1:thunder
 effect:38:FinalCutsceneEpilogueStart-FlowerBedSmoke:228:140:0:0:48:0:1:none
-emove:FinalCutsceneEpilogueStart-Lloyd:wait,32:wayup,0
+emove:FinalCutsceneEpilogueStart-Troid:wait,32:wayup,0
 emove:FinalCutsceneEpilogueStart-Remilia:wait,24:wayleft,0
 emove:FinalCutsceneEpilogueStart-Mari:wait,28:wayleft,0
 emove:FinalCutsceneEpilogueStart-Tsubaki:wait,22:wayleft,0
@@ -481,7 +481,7 @@ hitform:circle
 event:
 end
 
-ID:FinalCutsceneEpilogueStart-Lloyd
+ID:FinalCutsceneEpilogueStart-Troid
 position:240:180:0
 page:1
 startterms:none

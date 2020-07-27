@@ -187,9 +187,9 @@
   <Dialogue Key="Mail.Mail27Dialogue2" Value="Would you like to come,by to visit before they,start the surgery?" Face="Koishi" Mono="True" />
   <Dialogue Key="Mail.Mail27Dialogue3" Value="I’m sure it would mean,a lot to Satori,if you were there!" Face="Koishi" Mono="True" />
   <Text Key="Mail.Mail28Title" Value="Stay Safe" Mono="True" />
-  <Text Key="Mail.Mail28Sender" Value="Lloyd Shinki" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue1" Value="I heard from your friend,that you went to the,ROM base." Face="Lloyd" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue2" Value="If that’s your decision，,I won’t stop you，but,hope with all my heart" Face="Lloyd" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue3" Value="for both of you to stay,safe. I’m sure you can,do it." Face="Lloyd" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue4" Value="Take this AddOn，may,it serve you well.,I’m sure you can do it!" Face="Lloyd" Mono="True" />
+  <Text Key="Mail.Mail28Sender" Value="Troid Shinki" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue1" Value="I heard from your friend,that you went to the,ROM base." Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue2" Value="If that’s your decision，,I won’t stop you，but,hope with all my heart" Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue3" Value="for both of you to stay,safe. I’m sure you can,do it." Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue4" Value="Take this AddOn，may,it serve you well.,I’m sure you can do it!" Face="Troid" Mono="True" />
 </data>

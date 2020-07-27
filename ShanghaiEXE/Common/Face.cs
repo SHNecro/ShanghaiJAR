@@ -74,7 +74,7 @@
         SpannerMan,
         Tenshi,
         Iku,
-        Lloyd,
+        Troid,
         YoungAlice,
         MsKamishirasawa,        // Eien Teacher HakutakuMan Op
         Sumireko,               // Eien student, Renko younger sister

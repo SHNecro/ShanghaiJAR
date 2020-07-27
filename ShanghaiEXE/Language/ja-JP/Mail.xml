@@ -188,8 +188,8 @@
   <Dialogue Key="Mail.Mail27Dialogue3" Value="目が見えるようになったら,アリスさんの顔を,見てみたいんだって！" Face="Koishi" Mono="True" />
   <Text Key="Mail.Mail28Title" Value="無事を祈る" Mono="True" />
   <Text Key="Mail.Mail28Sender" Value="神綺トロイド" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue1" Value="お前の友達から,ＲＯＭの基地に向かった,ことを聞いた" Face="Lloyd" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue2" Value="お前たちがやると決めたなら,俺は止めはしない,全力でやり遂げるんだ" Face="Lloyd" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue3" Value="アリスとレベッカ,二人の無事を祈ってこの,アドオンを預ける" Face="Lloyd" Mono="True" />
-  <Dialogue Key="Mail.Mail28Dialogue4" Value="二人ならやれると,俺は確信しているぞ！" Face="Lloyd" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue1" Value="お前の友達から,ＲＯＭの基地に向かった,ことを聞いた" Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue2" Value="お前たちがやると決めたなら,俺は止めはしない,全力でやり遂げるんだ" Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue3" Value="アリスとレベッカ,二人の無事を祈ってこの,アドオンを預ける" Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue4" Value="二人ならやれると,俺は確信しているぞ！" Face="Troid" Mono="True" />
 </data>

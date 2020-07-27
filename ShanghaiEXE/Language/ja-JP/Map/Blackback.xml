@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
   <Text Key="Map.BlackbackName" Value="■■回想１■■" />
-  <Dialogue Key="Map.BlackbackEventStage1Dialogue1FaceLloyd" Value="ただいま" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage1Dialogue1FaceTroid" Value="ただいま" Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage1Dialogue2FaceMama" Value="あなた　おかえりなさい" Face="Mama" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage1Dialogue3FaceYoungAlice" Value="パパ　おかえりー！" Face="YoungAlice" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage3Dialogue1FaceLloyd" Value="アリス　また背が伸びたなー！" Face="Lloyd" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage3Dialogue2FaceLloyd" Value="パパがいないあいだ,いい子にしてたか？" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage3Dialogue1FaceTroid" Value="アリス　また背が伸びたなー！" Face="Troid" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage3Dialogue2FaceTroid" Value="パパがいないあいだ,いい子にしてたか？" Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage3Dialogue3FaceYoungAlice" Value="うん！" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage3Dialogue4FaceMama" Value="アリスったら　今日はいっぱい,お手伝いしてくれて,すごく助かったの" Face="Mama" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage3Dialogue5FaceLloyd" Value="そうか　いい子だ" Face="Lloyd" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage5Dialogue1FaceLloyd" Value="いい子にしていたアリスに,ほら、プレゼントだ" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage3Dialogue5FaceTroid" Value="そうか　いい子だ" Face="Troid" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage5Dialogue1FaceTroid" Value="いい子にしていたアリスに,ほら、プレゼントだ" Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue2FaceYoungAlice" Value="プレゼント！,わーい　ありがとう！" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue3FaceYoungAlice" Value="電話の中に････お人形さん？" Face="YoungAlice" Mono="False" />
-  <Dialogue Key="Map.BlackbackEventStage5Dialogue4FaceLloyd" Value="それは　アリスの・・・・,新しいお友達だよ" Face="Lloyd" Mono="False" />
+  <Dialogue Key="Map.BlackbackEventStage5Dialogue4FaceTroid" Value="それは　アリスの・・・・,新しいお友達だよ" Face="Troid" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue5FaceYoungAlice" Value="お友達？" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue6FaceYoungAlice" Value="あ！　こっちを見た！" Face="YoungAlice" Mono="False" />
   <Dialogue Key="Map.BlackbackEventStage5Dialogue7FaceYoungAlice" Value="私の名前は神綺アリス！,よろしくね！" Face="YoungAlice" Mono="False" />

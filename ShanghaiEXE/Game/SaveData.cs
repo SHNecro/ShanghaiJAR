@@ -862,6 +862,12 @@ namespace NSGame
                     }
                 }
 
+                // Lloyd -> Troid retcon
+                if (retconMessages.Any())
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550Lloyd"));
+                }
+
                 this.ValList[199] = 2;
             }
 

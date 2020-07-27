@@ -31,13 +31,13 @@
   <!-- パパから？えーっと････ -->
   <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue2FaceAlice" Value="From Dad....?" Face="Alice" Mono="False" />
   <!-- お前の友達からＲＯＭの基地に向かったことを聞いた -->
-  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue3FaceLloyd" Value="I heard from your friend,that you went to the,ROM base." Face="Lloyd" Mono="True" />
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue3FaceTroid" Value="I heard from your friend,that you went to the,ROM base." Face="Troid" Mono="True" />
   <!-- お前たちがやると決めたなら俺は止めはしない全力でやり遂げるんだ -->
-  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue4FaceLloyd" Value="If that’s your decision，,I won’t stop you，but,hope with all my heart" Face="Lloyd" Mono="True" />
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue4FaceTroid" Value="If that’s your decision，,I won’t stop you，but,hope with all my heart" Face="Troid" Mono="True" />
   <!-- アリスとレベッカ二人の無事を祈ってこのアドオンを預ける -->
-  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue5FaceLloyd" Value="for both of you to stay,safe. I’m sure you can,do it." Face="Lloyd" Mono="True" />
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue5FaceTroid" Value="for both of you to stay,safe. I’m sure you can,do it." Face="Troid" Mono="True" />
   <!-- 二人ならやれると俺は確信しているぞ！ -->
-  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue6FaceLloyd" Value="Take this AddOn，may,it serve you well.,I’m sure you can do it!" Face="Lloyd" Mono="True" />
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue6FaceTroid" Value="Take this AddOn，may,it serve you well.,I’m sure you can do it!" Face="Troid" Mono="True" />
   <!-- パパ････ -->
   <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue7FaceAlice" Value="Papa...." Face="Alice" Mono="False" />
   <!-- パパの想いのためにも気をつけましょう　アリス！ -->
