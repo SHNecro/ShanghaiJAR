@@ -550,44 +550,69 @@ namespace NSEnemy
             this.parent.effects.Add(new StepShadow(this.sound, this.parent, new Rectangle(this.animationpoint.X * this.wide, (this.version < 4 ? 0 : 2) * this.height, this.wide, this.height), this.positionDirect, this.picturename, this.rebirth, this.position));
         }
 
-        protected void SPBustedFlag()
+        protected void SetBustedFlags()
         {
-            if (this.version < 4)
-                return;
-            if (this is Marisa)
-                this.parent.parent.savedata.FlagList[620] = true;
-            if (this is Sakuya)
-                this.parent.parent.savedata.FlagList[621] = true;
-            if (this is TankMan)
-                this.parent.parent.savedata.FlagList[622] = true;
-            if (this is SpannerMan)
-                this.parent.parent.savedata.FlagList[623] = true;
-            if (this is HakutakuMan)
-                this.parent.parent.savedata.FlagList[625] = true;
-            if (this is TortoiseMan)
-                this.parent.parent.savedata.FlagList[626] = true;
-            if (this is BeetleMan)
-                this.parent.parent.savedata.FlagList[627] = true;
-            if (this is Yorihime)
-                this.parent.parent.savedata.FlagList[628] = true;
-            if (this is Cirno)
-                this.parent.parent.savedata.FlagList[629] = true;
-            if (this is Medicine)
-                this.parent.parent.savedata.FlagList[630] = true;
-            if (this is Iku)
-                this.parent.parent.savedata.FlagList[631] = true;
-            if (this is PyroMan)
-                this.parent.parent.savedata.FlagList[632] = true;
-            if (this is Mrasa)
-                this.parent.parent.savedata.FlagList[633] = true;
-            if (this is ScissorMan)
-                this.parent.parent.savedata.FlagList[634] = true;
-            if (this is Chen)
-                this.parent.parent.savedata.FlagList[635] = true;
-            if (this is Ran)
-                this.parent.parent.savedata.FlagList[636] = true;
-            if (this is Uthuho)
-                this.parent.parent.savedata.FlagList[640] = true;
+            if (this.version >= 3)
+            {
+                var v3BustFlag = default(int?);
+                switch (this)
+                {
+                    case Cirno e: v3BustFlag = 838; break;
+                    case PyroMan e: v3BustFlag = 839; break;
+                    case Mrasa e: v3BustFlag = 840; break;
+                    case ScissorMan e: v3BustFlag = 841; break;
+                    case Chen e: v3BustFlag = 842; break;
+                    case DruidMan e: v3BustFlag = 843; break;
+                    case Marisa e: v3BustFlag = 844; break;
+                    case Sakuya e: v3BustFlag = 845; break;
+                    case TankMan e: v3BustFlag = 846; break;
+                    case Iku e: v3BustFlag = 847; break;
+                    case SpannerMan e: v3BustFlag = 848; break;
+                    case Medicine e: v3BustFlag = 849; break;
+                    case Yorihime e: v3BustFlag = 850; break;
+                    case HakutakuMan e: v3BustFlag = 851; break;
+                    case TortoiseMan e: v3BustFlag = 852; break;
+                    case BeetleMan e: v3BustFlag = 853; break;
+                    case Ran e: v3BustFlag = 854; break;
+                    case Uthuho e: v3BustFlag = 855; break;
+                    case Youmu e: v3BustFlag = 856; break;
+                }
+
+                if (v3BustFlag != null)
+                {
+                    this.parent.parent.savedata.FlagList[v3BustFlag.Value] = true;
+                }
+            }
+
+            if (this.version >= 4)
+            {
+                var spBustFlag = default(int?);
+                switch (this)
+                {
+                    case Marisa e: spBustFlag = 620; break;
+                    case Sakuya e: spBustFlag = 621; break;
+                    case TankMan e: spBustFlag = 622; break;
+                    case SpannerMan e: spBustFlag = 623; break;
+                    case HakutakuMan e: spBustFlag = 625; break;
+                    case TortoiseMan e: spBustFlag = 626; break;
+                    case BeetleMan e: spBustFlag = 627; break;
+                    case Yorihime e: spBustFlag = 628; break;
+                    case Cirno e: spBustFlag = 629; break;
+                    case Medicine e: spBustFlag = 630; break;
+                    case Iku e: spBustFlag = 631; break;
+                    case PyroMan e: spBustFlag = 632; break;
+                    case Mrasa e: spBustFlag = 633; break;
+                    case ScissorMan e: spBustFlag = 634; break;
+                    case Chen e: spBustFlag = 635; break;
+                    case Ran e: spBustFlag = 636; break;
+                    case Uthuho e: spBustFlag = 640; break;
+                }
+
+                if (spBustFlag != null)
+                {
+                    this.parent.parent.savedata.FlagList[spBustFlag.Value] = true;
+                }
+            }
         }
 
         protected void Death(Rectangle r, Rectangle rw, Vector2 v, string n)
@@ -607,7 +632,7 @@ namespace NSEnemy
                     --this.parent.manyenemys;
                     this.parent.stopEnd = true;
                 }
-                this.SPBustedFlag();
+                this.SetBustedFlags();
                 if (this is Kikuri)
                     this.parent.effects.Add(new KikuriDeath(this.sound, this.parent, r, rw, this.rd, v, n, this.rebirth, this.position));
                 else

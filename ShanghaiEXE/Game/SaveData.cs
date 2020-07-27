@@ -619,7 +619,7 @@ namespace NSGame
                         }
                     }
                 }
-                // Replace in-bag chips
+                // Replace in-bag chip counts
                 for (var codeIndex = 0; codeIndex < 4; codeIndex++)
                 {
                     foreach (var replacement in replacements)
@@ -628,6 +628,7 @@ namespace NSGame
                         this.havechip[replacement.Original, codeIndex] = 0;
                     }
                 }
+                // Replace bag order chips
                 for (var chipIndex = 0; chipIndex < this.havechips.Count; chipIndex++)
                 {
                     foreach (var replacement in replacements)
@@ -677,9 +678,7 @@ namespace NSGame
                 {
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HumorEirinCallFormat").Format(replacedAddonNames));
                 }
-
-                // TODO: ADDON REFUND
-                // retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat"));
+                
                 var refundedAddons = new List<Tuple<int, int, string>>();
                 var refundedAddonNames = new List<string>();
                 var voileCRecovBought = this.shopCount[7, 8] > 0;
@@ -771,9 +770,96 @@ namespace NSGame
                     this.AddOnRUN();
                 }
 
+                // Fix old "at end of game" L message with postgame message
                 if (this.ValList[3] == 101)
                 {
                     this.ValList[3] = 102;
+                }
+
+                // Guess V3 defeat flags from V2 flags and
+                // V2, chip, code, V3, name
+                var v2AndChips = new[]
+                {
+                    new {V2 = 35, Chip = 220, Code = 0, V3 = 838, Name="Enemy.CirnoName4"}, // Cirno
+                    new {V2 = 165, Chip = 229, Code = 0, V3 = 839, Name="Enemy.PyroManName4"}, // PyroMan
+                    new {V2 = 170, Chip = 232, Code = 0, V3 = 840, Name="Enemy.MrasaName4"}, // Murasa
+                    new {V2 = 171, Chip = 235, Code = 0, V3 = 841, Name="Enemy.ScissorManName4"}, // ScissorMan
+                    new {V2 = 173, Chip = 238, Code = 0, V3 = 842, Name="Enemy.ChenName4"}, // Chen
+                    new {V2 = 790, Chip = 247, Code = 0, V3 = 843, Name="Enemy.DruidManNameV3"}, // DruidMan
+                    new {V2 = 148, Chip = 193, Code = 0, V3 = 844, Name="Enemy.MarisaName3"}, // Marisa
+                    new {V2 = 155, Chip = 196, Code = 0, V3 = 845, Name="Enemy.SakuyaName3"}, // Sakuya
+                    new {V2 = 163, Chip = 199, Code = 0, V3 = 846, Name="Enemy.TankManName3"}, // TankMan
+                    new {V2 = 164, Chip = 226, Code = 0, V3 = 847, Name="Enemy.IkuName3"}, // Iku
+                    new {V2 = 166, Chip = 202, Code = 0, V3 = 848, Name="Enemy.SpannerManName3"}, // SpannerMan
+                    new {V2 = 161, Chip = 223, Code = 0, V3 = 849, Name="Enemy.MedicineName3"}, // Medicine
+                    new {V2 = 169, Chip = 217, Code = 0, V3 = 850, Name="Enemy.YorihimeName3"}, // Yorihime
+                    new {V2 = 168, Chip = 208, Code = 0, V3 = 851, Name="Enemy.HakutakuManName3"}, // HakutakuMan
+                    new {V2 = 167, Chip = 211, Code = 0, V3 = 852, Name="Enemy.TortoiseManName3"}, // TortoiseMan
+                    new {V2 = 172, Chip = 214, Code = 0, V3 = 853, Name="Enemy.BeetleManName3"}, // BeetleMan
+                    new {V2 = 174, Chip = 241, Code = 0, V3 = 854, Name="Enemy.RanName3"}, // Ran
+                    // No implemented ways to fight Youmu, Utsuho
+                };
+
+                var v3Flags = v2AndChips.ToList();
+                v3Flags.Clear();
+
+                foreach (var check in v2AndChips)
+                {
+                    var v2Flag = this.FlagList[check.V2];
+                    var hasChip = false;
+                    for (var codeIndex = 0; codeIndex < 4; codeIndex++)
+                    {
+                        hasChip |= this.havechip[check.Chip, check.Code] != 0;
+                    }
+                    for (var folderIndex = 0; folderIndex < this.chipFolder.GetLength(0); folderIndex++)
+                    {
+                        for (var chipIndex = 0; chipIndex < this.chipFolder.GetLength(1); chipIndex++)
+                        {
+                            hasChip |= this.chipFolder[folderIndex, chipIndex, 0] == check.Chip
+                                && this.chipFolder[folderIndex, chipIndex, 1] == check.Code;
+                        }
+                    }
+
+                    if (v2Flag && hasChip)
+                    {
+                        v3Flags.Add(check);
+                    }
+                }
+
+                if (v3Flags.Any())
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550V3Tracking"));
+                    var nameDialogue = default(Dialogue);
+                    var lines = 0;
+                    foreach (var v3 in v3Flags)
+                    {
+                        this.FlagList[v3.V3] = true;
+
+                        if (lines == 0)
+                        {
+                            nameDialogue = new Dialogue { Face = FACE.Sprite.ToFaceId(), Text = ShanghaiEXE.Translate(v3.Name) + ",," };
+                            lines++;
+                        }
+                        else
+                        {
+                            var blankCommas = 3 - lines;
+                            nameDialogue.Text = nameDialogue.Text.Substring(0, nameDialogue.Text.Length - blankCommas)
+                                + "," + ShanghaiEXE.Translate(v3.Name)
+                                + new string(Enumerable.Repeat(',', blankCommas - 1).ToArray());
+                            lines++;
+                            if (lines >= 3)
+                            {
+                                retconMessages.Add(nameDialogue);
+                                nameDialogue = null;
+                                lines = 0;
+                            }
+                        }
+                    }
+
+                    if (nameDialogue != null)
+                    {
+                        retconMessages.Add(nameDialogue);
+                    }
                 }
 
                 this.ValList[199] = 2;

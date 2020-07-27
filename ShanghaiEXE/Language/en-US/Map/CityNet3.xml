@@ -3,7 +3,7 @@
   <!-- インターネット　シティエリア３ -->
   <Text Key="Map.CityNet3Name" Value="City Area 3" />
   <!-- 倒したナビの残骸データがどこかへと飛び去っていった････ -->
-  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue1FaceNone" Value="The defeated Navi’s remains,flew away...." Face="None" Mono="False" />
+  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue1FaceNone" Value="The defeated Navi’s remains,flew away deep into the Net...." Face="None" Mono="False" />
   <!-- ←：シティエリア１↓：エイエンエリア１ -->
   <Dialogue Key="Map.CityNet3GuidePlateStage1Dialogue1FaceNone" Value="←: City Area 1,↓: Eien Area 1" Face="None" Mono="False" />
   <!-- ネットエージェントによって一時的に封鎖されているようだ -->
@@ -352,4 +352,5 @@
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue2" Value="Alright，alright!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue1" Value="Ahhhh....,I hope you found what you,were looking for，miss." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue2" Value="Miss....?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue2FaceNone" Value="It seems the type to seek out,a dark，secluded place with,lots of cover." Face="None" Mono="False" />
 </data>

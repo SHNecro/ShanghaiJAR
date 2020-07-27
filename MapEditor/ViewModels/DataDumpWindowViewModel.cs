@@ -160,6 +160,10 @@ namespace MapEditor.ViewModels
 
             foreach (var file in files)
             {
+                if (file.Contains("Config.xml"))
+                {
+                    continue;
+                }
                 File.Copy(file, Path.Combine(target, Path.GetFileName(file)), true);
             }
             foreach (var folder in folders)
