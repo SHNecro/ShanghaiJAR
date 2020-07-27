@@ -32,11 +32,9 @@
         <controls:StringEditableExpander Header="Random Mystery Data"
                                          IsExpanded="True"
                                          DataContext="{Binding RandomMysteryData}">
-            <Grid>
-                <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    <DockPanel MinHeight="260"
-                               MaxHeight="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=ScrollViewer, Mode=FindAncestor}}"
-                               LastChildFill="True">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid>
+                    <DockPanel LastChildFill="True">
                         <DockPanel.Style>
                             <Style TargetType="DockPanel">
                                 <Style.Triggers>
@@ -494,44 +492,44 @@
                             </ListBox>
                         </Grid>
                     </DockPanel>
-                </ScrollViewer>
-                <Grid VerticalAlignment="Top">
-                    <TextBlock HorizontalAlignment="Center"
-                               Text="No Random Mystery Data">
-                        <TextBlock.Style>
-                            <Style TargetType="TextBlock">
-                                <Style.Triggers>
-                                    <DataTrigger Binding="{Binding RandomMysteryData.Count}" Value="0">
-                                        <Setter Property="Visibility" Value="Visible"/>
-                                    </DataTrigger>
-                                </Style.Triggers>
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </Style>
-                        </TextBlock.Style>
-                    </TextBlock>
-                    <Button HorizontalAlignment="Right"
-                            Command="{x:Static local:Constants.AddItemCommand}">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Style.Triggers>
-                                    <DataTrigger Binding="{Binding RandomMysteryData.Count}" Value="0">
-                                        <Setter Property="Visibility" Value="Visible"/>
-                                    </DataTrigger>
-                                </Style.Triggers>
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </Style>
-                        </Button.Style>
-                        <Button.CommandParameter>
-                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
-                                <Binding Path="RandomMysteryData" />
-                                <Binding Source="{x:Static local:Constants.BlankMysteryCreator}" />
-                                <Binding Path="SelectedMystery" />
-                            </MultiBinding>
-                        </Button.CommandParameter>
-                        <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
-                    </Button>
+                    <Grid VerticalAlignment="Top">
+                        <TextBlock HorizontalAlignment="Center"
+                                   Text="No Random Mystery Data">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding RandomMysteryData.Count}" Value="0">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                        <Button HorizontalAlignment="Right"
+                                Command="{x:Static local:Constants.AddItemCommand}">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding RandomMysteryData.Count}" Value="0">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </Style>
+                            </Button.Style>
+                            <Button.CommandParameter>
+                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                    <Binding Path="RandomMysteryData" />
+                                    <Binding Source="{x:Static local:Constants.BlankMysteryCreator}" />
+                                    <Binding Path="SelectedMystery" />
+                                </MultiBinding>
+                            </Button.CommandParameter>
+                            <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
+                        </Button>
+                    </Grid>
                 </Grid>
-            </Grid>
+            </ScrollViewer>
         </controls:StringEditableExpander>
     </Grid>
 </UserControl>

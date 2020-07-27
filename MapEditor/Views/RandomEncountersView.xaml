@@ -32,11 +32,9 @@
         <controls:StringEditableExpander Header="Random Encounters"
                                          IsExpanded="True"
                                          DataContext="{Binding RandomEncounters}">
-            <Grid>
-                <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    <DockPanel MinHeight="875"
-                               MaxHeight="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType=ScrollViewer, Mode=FindAncestor}}"
-                               LastChildFill="True">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid>
+                    <DockPanel LastChildFill="True">
                         <DockPanel.Style>
                             <Style TargetType="DockPanel">
                                 <Style.Triggers>
@@ -52,14 +50,14 @@
                         <ContentControl Visibility="Collapsed"
                                         Content="{StaticResource RandomEncountersProxyElement}"/>
                         <controls:StringEditableExpander DockPanel.Dock="Top"
-                                                         IsExpanded="True"
-                                                         DataContext="{Binding SelectedEncounter}"
-                                                         Margin="10,0,0,0">
+                                                            IsExpanded="True"
+                                                            DataContext="{Binding SelectedEncounter}"
+                                                            Margin="10,0,0,0">
                             <controls:StringEditableExpander.Header>
                                 <Grid>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Text="{Binding Enemy1.Name}"
-                                                   Margin="0,0,5,0">
+                                                    Margin="0,0,5,0">
                                             <TextBlock.Style>
                                                 <Style TargetType="TextBlock">
                                                     <Style.Triggers>
@@ -75,7 +73,7 @@
                                             </TextBlock.Style>
                                         </TextBlock>
                                         <TextBlock Text="{Binding Enemy2.Name}"
-                                                   Margin="0,0,5,0">
+                                                    Margin="0,0,5,0">
                                             <TextBlock.Style>
                                                 <Style TargetType="TextBlock">
                                                     <Style.Triggers>
@@ -91,7 +89,7 @@
                                             </TextBlock.Style>
                                         </TextBlock>
                                         <TextBlock Text="{Binding Enemy3.Name}"
-                                                   Margin="0,0,5,0">
+                                                    Margin="0,0,5,0">
                                             <TextBlock.Style>
                                                 <Style TargetType="TextBlock">
                                                     <Style.Triggers>
@@ -107,7 +105,7 @@
                                             </TextBlock.Style>
                                         </TextBlock>
                                         <TextBlock Text="{Binding Enemy3.Name}"
-                                                   Margin="0,0,5,0">
+                                                    Margin="0,0,5,0">
                                             <TextBlock.Style>
                                                 <Style TargetType="TextBlock">
                                                     <Style.Triggers>
@@ -143,10 +141,10 @@
                             <StackPanel Orientation="Vertical"
                                         Grid.IsSharedSizeScope="True">
                                 <ScrollViewer HorizontalScrollBarVisibility="Auto"
-                                              VerticalScrollBarVisibility="Auto"
-                                              Background="Black"
-                                              MinWidth="50"
-                                              MinHeight="50">
+                                                VerticalScrollBarVisibility="Auto"
+                                                Background="Black"
+                                                MinWidth="50"
+                                                MinHeight="50">
                                     <ContentControl HorizontalAlignment="Center"
                                                     Width="240"
                                                     Height="160"
@@ -160,7 +158,7 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               Text="Primary Panel:" />
+                                                Text="Primary Panel:" />
                                     <ContentControl Grid.Column="1"
                                                     HorizontalAlignment="Right"
                                                     Width="44"
@@ -173,7 +171,7 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               Text="Secondary Panel:" />
+                                                Text="Secondary Panel:" />
                                     <ContentControl Grid.Column="1"
                                                     HorizontalAlignment="Right"
                                                     Width="44"
@@ -186,10 +184,10 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               Text="Tutorial:" />
+                                                Text="Tutorial:" />
                                     <CheckBox Grid.Column="1"
-                                              HorizontalAlignment="Right"
-                                              IsChecked="{Binding IsTutorial}" />
+                                                HorizontalAlignment="Right"
+                                                IsChecked="{Binding IsTutorial}" />
                                 </Grid>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -197,10 +195,10 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               Text="Drops Chips:" />
+                                                Text="Drops Chips:" />
                                     <CheckBox Grid.Column="1"
-                                              HorizontalAlignment="Right"
-                                              IsChecked="{Binding IsChipDropped}" />
+                                                HorizontalAlignment="Right"
+                                                IsChecked="{Binding IsChipDropped}" />
                                 </Grid>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -208,10 +206,10 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               Text="Escapable:" />
+                                                Text="Escapable:" />
                                     <CheckBox Grid.Column="1"
-                                              HorizontalAlignment="Right"
-                                              IsChecked="{Binding IsEscapable}" />
+                                                HorizontalAlignment="Right"
+                                                IsChecked="{Binding IsEscapable}" />
                                 </Grid>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -219,10 +217,10 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               Text="Ends Game:" />
+                                                Text="Ends Game:" />
                                     <CheckBox Grid.Column="1"
-                                              HorizontalAlignment="Right"
-                                              IsChecked="{Binding IsGameEnding}" />
+                                                HorizontalAlignment="Right"
+                                                IsChecked="{Binding IsGameEnding}" />
                                 </Grid>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
@@ -230,13 +228,13 @@
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Grid.Column="0"
-                                               VerticalAlignment="Center"
-                                               Text="BGM:"/>
+                                                VerticalAlignment="Center"
+                                                Text="BGM:"/>
                                     <ComboBox Grid.Column="1"
-                                              ItemsSource="{x:Static viewModels:BGMDataViewModel.BGMDefinitions}"
-                                              SelectedValue="{Binding BackgroundMusic}"
-                                              SelectedValuePath="File"
-                                              DisplayMemberPath="Label"/>
+                                                ItemsSource="{x:Static viewModels:BGMDataViewModel.BGMDefinitions}"
+                                                SelectedValue="{Binding BackgroundMusic}"
+                                                SelectedValuePath="File"
+                                                DisplayMemberPath="Label"/>
                                 </Grid>
                                 <Button Command="{x:Static core:DataWindow.OpenBGMTabCommand}" Content="Open BGM List/Player" />
 
@@ -263,7 +261,7 @@
                                                         <ColumnDefinition Width="*" />
                                                     </Grid.ColumnDefinitions>
                                                     <TextBlock Grid.Column="0"
-                                                               Text="Enemy:" />
+                                                                Text="Enemy:" />
                                                     <ContentControl Grid.Column="1"
                                                                     HorizontalAlignment="Right"
                                                                     Width="84"
@@ -277,7 +275,7 @@
                                                     </Grid.ColumnDefinitions>
                                                     <TextBlock Grid.Column="0" Text="Position:"/>
                                                     <Grid Grid.Column="1"
-                                                          Margin="10,0">
+                                                            Margin="10,0">
                                                         <Grid.ColumnDefinitions>
                                                             <ColumnDefinition Width="*" />
                                                             <ColumnDefinition Width="10"/>
@@ -286,7 +284,7 @@
                                                         <StackPanel Grid.Column="0" 
                                                                     Orientation="Horizontal">
                                                             <TextBlock Text="X:"
-                                                                       Margin="0,0,5,0"/>
+                                                                        Margin="0,0,5,0"/>
                                                             <controls:WheelCaptureIntegerUpDown Minimum="3" Maximum="5">
                                                                 <controls:WheelCaptureIntegerUpDown.Text>
                                                                     <Binding Path="X" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
@@ -308,7 +306,7 @@
                                                         <StackPanel Grid.Column="2" 
                                                                     Orientation="Horizontal">
                                                             <TextBlock Text="Y:"
-                                                                       Margin="0,0,5,0"/>
+                                                                        Margin="0,0,5,0"/>
                                                             <controls:WheelCaptureIntegerUpDown Minimum="0" Maximum="2">
                                                                 <controls:WheelCaptureIntegerUpDown.Text>
                                                                     <Binding Path="Y" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
@@ -419,10 +417,10 @@
                                                         </Grid.ColumnDefinitions>
                                                         <TextBlock Grid.Column="0" Text="S:" />
                                                         <ComboBox Grid.Column="1"
-                                                                  ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                                  SelectedItem="{Binding Chip5, Converter={StaticResource ChipToChipDefinitionConverter}}"
-                                                                  ToolTip="{Binding Chip5, Converter={StaticResource ChipToChipChancesConverter}}"
-                                                                  ToolTipService.ShowOnDisabled="True">
+                                                                    ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
+                                                                    SelectedItem="{Binding Chip5, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                                    ToolTip="{Binding Chip5, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                                    ToolTipService.ShowOnDisabled="True">
                                                             <ComboBox.ItemTemplate>
                                                                 <DataTemplate>
                                                                     <StackPanel Orientation="Horizontal">
@@ -459,10 +457,10 @@
                                                         </Grid.ColumnDefinitions>
                                                         <TextBlock Grid.Column="0" Text="10,9:" />
                                                         <ComboBox Grid.Column="1"
-                                                                  ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                                  SelectedItem="{Binding Chip4, Converter={StaticResource ChipToChipDefinitionConverter}}"
-                                                                  ToolTip="{Binding Chip4, Converter={StaticResource ChipToChipChancesConverter}}"
-                                                                  ToolTipService.ShowOnDisabled="True">
+                                                                    ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
+                                                                    SelectedItem="{Binding Chip4, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                                    ToolTip="{Binding Chip4, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                                    ToolTipService.ShowOnDisabled="True">
                                                             <ComboBox.ItemTemplate>
                                                                 <DataTemplate>
                                                                     <StackPanel Orientation="Horizontal">
@@ -499,10 +497,10 @@
                                                         </Grid.ColumnDefinitions>
                                                         <TextBlock Grid.Column="0" Text="8,7:"/>
                                                         <ComboBox Grid.Column="1"
-                                                                  ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                                  SelectedItem="{Binding Chip3, Converter={StaticResource ChipToChipDefinitionConverter}}"
-                                                                  ToolTip="{Binding Chip3, Converter={StaticResource ChipToChipChancesConverter}}"
-                                                                  ToolTipService.ShowOnDisabled="True">
+                                                                    ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
+                                                                    SelectedItem="{Binding Chip3, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                                    ToolTip="{Binding Chip3, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                                    ToolTipService.ShowOnDisabled="True">
                                                             <ComboBox.ItemTemplate>
                                                                 <DataTemplate>
                                                                     <StackPanel Orientation="Horizontal">
@@ -561,10 +559,10 @@
                                                                 </TextBlock.Style>
                                                             </TextBlock>
                                                             <ComboBox Grid.Column="1"
-                                                                      ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                                      SelectedItem="{Binding Chip2, Converter={StaticResource ChipToChipDefinitionConverter}}"
-                                                                      ToolTip="{Binding Chip2, Converter={StaticResource ChipToChipChancesConverter}}"
-                                                                      ToolTipService.ShowOnDisabled="True">
+                                                                        ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
+                                                                        SelectedItem="{Binding Chip2, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                                        ToolTip="{Binding Chip2, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                                        ToolTipService.ShowOnDisabled="True">
                                                                 <ComboBox.ItemTemplate>
                                                                     <DataTemplate>
                                                                         <StackPanel Orientation="Horizontal">
@@ -613,10 +611,10 @@
                                                                 </TextBlock.Style>
                                                             </TextBlock>
                                                             <ComboBox Grid.Column="1"
-                                                                      ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
-                                                                      SelectedItem="{Binding Chip1, Converter={StaticResource ChipToChipDefinitionConverter}}"
-                                                                      ToolTip="{Binding Chip1, Converter={StaticResource ChipToChipChancesConverter}}"
-                                                                      ToolTipService.ShowOnDisabled="True">
+                                                                        ItemsSource="{Binding Values, Source={x:Static local:Constants.ChipDefinitions}}"
+                                                                        SelectedItem="{Binding Chip1, Converter={StaticResource ChipToChipDefinitionConverter}}"
+                                                                        ToolTip="{Binding Chip1, Converter={StaticResource ChipToChipChancesConverter}}"
+                                                                        ToolTipService.ShowOnDisabled="True">
                                                                 <ComboBox.ItemTemplate>
                                                                     <DataTemplate>
                                                                         <StackPanel Orientation="Horizontal">
@@ -686,7 +684,7 @@
                             </Grid.ColumnDefinitions>
                             <StackPanel Grid.Column="0" Orientation="Horizontal">
                                 <TextBlock Text="Encounters"
-                                           FontWeight="Bold" />
+                                            FontWeight="Bold" />
                                 <StackPanel Orientation="Horizontal">
                                     <StackPanel.Style>
                                         <Style TargetType="StackPanel">
@@ -699,9 +697,9 @@
                                         </Style>
                                     </StackPanel.Style>
                                     <TextBlock FontWeight="Bold" 
-                                               Text=" "/>
+                                                Text=" "/>
                                     <TextBlock FontWeight="Bold"
-                                               Background="LightGreen">
+                                                Background="LightGreen">
                                         <TextBlock.Text>
                                             <MultiBinding StringFormat="({0} Special, Flag {1})">
                                                 <Binding Path="DataContext.Header.SpecialEncounterCount" Source="{StaticResource CurrentMapProxyElement}" />
@@ -711,7 +709,7 @@
                                     </TextBlock>
                                 </StackPanel>
                                 <TextBlock Text=":"
-                                           FontWeight="Bold" />
+                                            FontWeight="Bold" />
                             </StackPanel>
                             <Button Grid.Column="1"
                                     Command="{x:Static local:Constants.DuplicateItemCommand}">
@@ -736,12 +734,12 @@
                             </Button>
                         </Grid>
                         <Grid DockPanel.Dock="Top"
-                              MinHeight="150">
+                                MinHeight="150">
                             <ListBox DockPanel.Dock="Top"
-                                     Style="{StaticResource EncounterListBox}"
-                                     SelectedValue="{Binding SelectedEncounter, Delay=100}"
-                                     ItemsSource="{Binding RandomEncounters}"
-                                     Tag="{Binding DataContext.Header.SpecialEncounterCount, Source={StaticResource CurrentMapProxyElement}}">
+                                        Style="{StaticResource EncounterListBox}"
+                                        SelectedValue="{Binding SelectedEncounter, Delay=100}"
+                                        ItemsSource="{Binding RandomEncounters}"
+                                        Tag="{Binding DataContext.Header.SpecialEncounterCount, Source={StaticResource CurrentMapProxyElement}}">
                                 <ListBox.InputBindings>
                                     <KeyBinding Modifiers="Alt"
                                                 Key="Up"
@@ -796,44 +794,44 @@
                             </ListBox>
                         </Grid>
                     </DockPanel>
-                </ScrollViewer>
-                <Grid VerticalAlignment="Top">
-                    <TextBlock HorizontalAlignment="Center"
-                               Text="No Random Encounters">
-                        <TextBlock.Style>
-                            <Style TargetType="TextBlock">
-                                <Style.Triggers>
-                                    <DataTrigger Binding="{Binding RandomEncounters.Count}" Value="0">
-                                        <Setter Property="Visibility" Value="Visible"/>
-                                    </DataTrigger>
-                                </Style.Triggers>
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </Style>
-                        </TextBlock.Style>
-                    </TextBlock>
-                    <Button HorizontalAlignment="Right"
-                            Command="{x:Static local:Constants.AddItemCommand}">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Style.Triggers>
-                                    <DataTrigger Binding="{Binding RandomEncounters.Count}" Value="0">
-                                        <Setter Property="Visibility" Value="Visible"/>
-                                    </DataTrigger>
-                                </Style.Triggers>
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </Style>
-                        </Button.Style>
-                        <Button.CommandParameter>
-                            <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
-                                <Binding Path="RandomEncounters" />
-                                <Binding Source="{x:Static local:Constants.BlankEncounterCreator}" />
-                                <Binding Path="SelectedEncounter" />
-                            </MultiBinding>
-                        </Button.CommandParameter>
-                        <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
-                    </Button>
+                    <Grid VerticalAlignment="Top">
+                        <TextBlock HorizontalAlignment="Center"
+                                   Text="No Random Encounters">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding RandomEncounters.Count}" Value="0">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                        <Button HorizontalAlignment="Right"
+                                Command="{x:Static local:Constants.AddItemCommand}">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding RandomEncounters.Count}" Value="0">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </Style>
+                            </Button.Style>
+                            <Button.CommandParameter>
+                                <MultiBinding Converter="{StaticResource BindingsToArrayMultiConverter}">
+                                    <Binding Path="RandomEncounters" />
+                                    <Binding Source="{x:Static local:Constants.BlankEncounterCreator}" />
+                                    <Binding Path="SelectedEncounter" />
+                                </MultiBinding>
+                            </Button.CommandParameter>
+                            <Rectangle Width="16" Height="16"  Fill="{StaticResource AddIcon}" />
+                        </Button>
+                    </Grid>
                 </Grid>
-            </Grid>
+            </ScrollViewer>
         </controls:StringEditableExpander>
     </Grid>
 </UserControl>
