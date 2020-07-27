@@ -668,6 +668,21 @@ msg:Map.HeavenNet1LockdownDoorDialogue2
 msgclose:
 end
 
+ID:SpecialDoor8LinkGateCheck
+position:356:728:1
+page:1
+startterms:none
+type:1
+terms:flag/60,flag/61,flag/62,flag/63,flag/64,flag/65
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:4:4:0:0
+hitform:square
+event:
+editFlag:824:True
+end
+
 ID:SpecialDoor9
 position:115:641:1
 page:1
@@ -711,7 +726,8 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorAllyNavis1
 msgclose:
-editFlag:825:True
+EventLun:SpecialDoor9AllyV3Check:-1
+ifFlag:825:True:0
 emove:SpecialGhost9:wait,25:wayup,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -733,6 +749,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost9:warpdown,24
 editFlag:825:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -750,19 +767,19 @@ msg:Map.HeavenNet1LockdownDoorDialogue2
 msgclose:
 end
 
-ID:SpecialDoor8LinkGateCheck
-position:356:728:1
+ID:SpecialDoor9AllyV3Check
+position:100:639:1
 page:1
 startterms:none
 type:1
-terms:flag/60,flag/61,flag/62,flag/63,flag/64,flag/65
+terms:flag/844,flag/845,flag/846,flag/847,flag/848,flag/849,flag/850,flag/851,flag/852,flag/853
 move:
 speed:0
 graphic:-1:0,0,0,0,0
 hitrange:4:4:0:0
 hitform:square
 event:
-editFlag:824:True
+editFlag:825:True
 end
 
 ID:SpecialDoor10
@@ -808,7 +825,8 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorEnemyNavis1
 msgclose:
-editFlag:826:True
+EventLun:SpecialDoor10EnemyV3Check:-1
+ifFlag:826:True:0
 emove:SpecialGhost10:wait,30:waydown,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -830,6 +848,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost10:warpup,24
 editFlag:826:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -845,6 +864,21 @@ msgopen:
 msg:Map.HeavenNet1LockdownDoorDialogue1
 msg:Map.HeavenNet1LockdownDoorDialogue2
 msgclose:
+end
+
+ID:SpecialDoor10EnemyV3Check
+position:85:532:1
+page:1
+startterms:none
+type:1
+terms:flag/838,flag/839,flag/840,flag/841,flag/842,flag/843
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:4:4:0:0
+hitform:square
+event:
+editFlag:826:True
 end
 
 ID:SpecialDoor11
