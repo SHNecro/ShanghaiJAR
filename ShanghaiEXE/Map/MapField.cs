@@ -407,45 +407,48 @@ namespace NSMap
 
         private List<MapCharacterBase> RendSort()
         {
-            List<MapCharacterBase> source1 = new List<MapCharacterBase>();
-            List<MapCharacterBase> source2 = new List<MapCharacterBase>();
+            List<MapCharacterBase> playerSquaresAndEffects = new List<MapCharacterBase>();
+            List<MapCharacterBase> circles = new List<MapCharacterBase>();
             foreach (MapEventBase mapEventBase in this.Events)
             {
                 if (mapEventBase.LunPage.hitform)
-                    source2.Add(mapEventBase);
+                    circles.Add(mapEventBase);
                 else
-                    source1.Add(mapEventBase);
+                    playerSquaresAndEffects.Add(mapEventBase);
             }
             foreach (MapEffect mapEffect in this.effect)
-                source1.Add(mapEffect);
-            source1.Add(parent.Player);
-            List<MapCharacterBase> list1 = source1.OrderBy<MapCharacterBase, float>(c => c.RendSetter()).ToList<MapCharacterBase>();
-            List<MapCharacterBase> list2 = source2.OrderBy<MapCharacterBase, float>(c => c.RendSetter()).ToList<MapCharacterBase>();
-            int[] numArray = new int[list2.Count];
-            int num = -1;
-            foreach (MapEventBase object_ in list2)
+                playerSquaresAndEffects.Add(mapEffect);
+            playerSquaresAndEffects.Add(parent.Player);
+            // Changed: sort by floor first, fixing clipping issues if a 0,0 effect is on a lower floor (ex. HeavenWater)
+            List<MapCharacterBase> sortedPSE = playerSquaresAndEffects.OrderBy(c => c.floor).ThenBy(c => c.RendSetter()).ToList();
+            List<MapCharacterBase> sortedCircles = circles.ToList();
+            var circleCount = sortedCircles.Count;
+            foreach (MapEventBase circleObject in sortedCircles)
             {
-                ++num;
-                bool flag = false;
-                for (int index = 0; index < list1.Count; ++index)
+                bool circleAbovePSE = false;
+                for (int index = 0; index < sortedPSE.Count; ++index)
                 {
-                    if (this.ObjectLine(object_, list1[index]))
+                    // TODO: Still needs fixing: long object hitboxes, EienTown 1 flowerboxes, Siren party room 2nd table
+                    if (this.ObjectLine(circleObject, sortedPSE[index]))
                     {
-                        object_.index = index;
-                        flag = true;
+                        // If above some PSE, it is above all PSEs after it
+                        // Set to insert to
+                        circleObject.index = index;
+                        circleAbovePSE = true;
                         break;
                     }
                 }
-                if (!flag)
-                    object_.index = list1.Count;
+                if (!circleAbovePSE)
+                    circleObject.index = sortedPSE.Count;
             }
-            List<MapCharacterBase> list3 = list2.OrderBy<MapCharacterBase, int>(o => o.index).ToList<MapCharacterBase>();
-            for (int index1 = 0; index1 < numArray.Length; ++index1)
+            List<MapCharacterBase> circlesByIndex = sortedCircles.OrderBy(o => o.index).ToList();
+            for (int index1 = 0; index1 < circleCount; ++index1)
             {
-                int index2 = numArray.Length - index1 - 1;
-                list1.Insert(list3[index2].index, list3[index2]);
+                // Insert in reverse order
+                int index2 = circleCount - index1 - 1;
+                sortedPSE.Insert(circlesByIndex[index2].index, circlesByIndex[index2]);
             }
-            return list1;
+            return sortedPSE;
         }
 
         private bool ObjectLine(MapEventBase object_, MapCharacterBase chara_)
