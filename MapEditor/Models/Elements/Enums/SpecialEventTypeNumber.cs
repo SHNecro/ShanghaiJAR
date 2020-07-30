@@ -42,5 +42,9 @@ namespace MapEditor.Models.Elements.Enums
         PianoCollision = 18,
         [Description("Set Bounty Complete Flag 804")]
         IfSPBounties = 19,
+        [Description("Set Std Library Complete Flag 806")]
+        IfStdChips = 20,
+        [Description("Set Std Library Complete Flag 807")]
+        IfStdPAs = 21,
     }
 }

@@ -457,5 +457,5 @@
   <Dialogue Key="Bounty.AcceptDialogue2AlreadyTaken" Value="[You’ve already accepted,this mission.]" Face="None" Mono="False" />
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied" Value="[YOU’RE ALREADY USING,THIS WALLPAPER!,NICE，ISN’T IT?]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550V3Tracking" Value="[Added flag for tracking V3 fights,beaten，guessing based on V2,and chip:]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550Lloyd" Value="[Retconned “Lloyd” to “Troid”，,originally just never made the,connection.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550Lloyd" Value="[Retconned “Lloyd” to “Troid”，,which is just more accurate and,make more sense.]" Face="Sprite" Mono="False" />
 </data>

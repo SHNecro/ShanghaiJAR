@@ -61,10 +61,10 @@ namespace MapEditor.Models.Elements.Events
             }
 
             var newQuestionKey = entries[1];
-            this.Validate(newQuestionKey, "Question key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            // this.Validate(newQuestionKey, "Question key does not exist.", k => Constants.TranslationService.CanTranslate(k));
 
             var newAnswerKey = entries[2];
-            this.Validate(newAnswerKey, "Answer key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            // this.Validate(newAnswerKey, "Answer key does not exist.", k => Constants.TranslationService.CanTranslate(k));
 
             if (!this.HasErrors)
             {

@@ -48,7 +48,7 @@ namespace MapEditor.Models.Elements.Events
             }
             
             var newMessageKey = entries[1];
-            this.Validate(newMessageKey, "Message key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            // this.Validate(newMessageKey, "Message key does not exist.", k => Constants.TranslationService.CanTranslate(k));
 
             if (!this.HasErrors)
             {

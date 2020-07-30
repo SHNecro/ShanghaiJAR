@@ -317,7 +317,7 @@ namespace MapEditor.Models
                 chip3 = new Chip { ID = this.ParseIntOrAddError(entries[6]), CodeNumber = null };
                 newHP = this.ParseIntOrAddError(entries[7]);
                 newNameKey = entries[8];
-                this.Validate(newNameKey, "Name key does not exist.", Constants.TranslationService.CanTranslate);
+                // this.Validate(newNameKey, "Name key does not exist.", Constants.TranslationService.CanTranslate);
             }
 
             if (!this.HasErrors)

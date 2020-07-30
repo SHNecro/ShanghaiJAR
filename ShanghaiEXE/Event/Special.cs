@@ -2,6 +2,8 @@
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using System;
+using NSMap.Character.Menu;
+using System.Linq;
 
 namespace NSEvent
 {
@@ -839,6 +841,20 @@ namespace NSEvent
                         busted &= this.savedata.virusSPbusted[i];
                     }
                     this.savedata.FlagList[804] = busted;
+                    break;
+                case 20:
+                    var completionLibrary = new Library(this.sound, null, null, this.savedata);
+                    if (completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.All(c => c.IsSeen))
+                    {
+                        this.savedata.FlagList[804] = true;
+                    }
+                    break;
+                case 21:
+                    var paCompletionLibrary = new Library(this.sound, null, null, this.savedata);
+                    if (paCompletionLibrary.LibraryPages[Library.LibraryPageType.PA].Chips.Where(c => c.Chip.number >= 271 && c.Chip.number <= 283).All(c => c.IsSeen))
+                    {
+                        this.savedata.FlagList[807] = true;
+                    }
                     break;
             }
             this.EndCommand();

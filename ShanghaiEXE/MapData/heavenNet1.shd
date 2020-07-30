@@ -1052,7 +1052,8 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorStdProgramAdvances1
 msgclose:
-editFlag:807:True
+Special:21
+ifFlag:807:True:0
 editValue:0:False:0:5:0
 editValue:0:False:2:0:1
 editValue:1:False:0:5:1
@@ -1072,6 +1073,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost5:warpleft,12
 editFlag:807:False
+ifEnd:0
 end
 page:2
 startterms:Abutton
@@ -1132,7 +1134,8 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorStdChips1
 msgclose:
-editFlag:806:True
+Special:20
+ifFlag:806:True:0
 emove:SpecialGhost4:wait,25:wayup,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -1154,6 +1157,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost4:warpdown,24
 editFlag:806:False
+ifEnd:0
 end
 page:2
 startterms:Abutton

@@ -138,7 +138,7 @@ namespace MapEditor.Models
             this.Validate(imageSize, "Non-positive image size.", s => s.Width > 0 && s.Height > 0);
 
             var newTitleKey = entries[6];
-            this.Validate(newTitleKey, "Title key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            // this.Validate(newTitleKey, "Title key does not exist.", k => Constants.TranslationService.CanTranslate(k));
 
             var newFloorHeight = this.ParseIntOrAddError(entries[7]);
             this.Validate(newFloorHeight, "Non-positive floor height.", h => h >= 0);
