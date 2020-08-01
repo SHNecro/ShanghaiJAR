@@ -76,23 +76,20 @@ namespace MapEditor.Models.Elements.Events
             }
 
             var newNoteKey = entries[1].TrimEnd("0123456789".ToCharArray());
-            this.Validate(newNoteKey, "Invalid note.", k => (k.Length == 1 || (k.Length == 2 && k[1] == '#')) && "ABCDEFG".Contains(k[0].ToString()));
+            this.Validate(newNoteKey, () => this.NoteKey, s => $"Invalid note key \"{s}\".", k => (k.Length == 1 || (k.Length == 2 && k[1] == '#')) && "ABCDEFG".Contains(k[0].ToString()));
 
             var newOctave = this.ParseIntOrAddError(entries[1].TrimStart("ABCDEFG#".ToCharArray()));
-            this.Validate(newOctave, "Octave out of range.", o => o >= -2 && o <= 8);
+            this.Validate(newOctave, () => this.Octave, i => $"Octave {i} out of range (-2 - 8).", o => o >= -2 && o <= 8);
 
             var newVolume = this.ParseIntOrAddError(entries[2]);
-            this.Validate(newOctave, "Octave out of range.", o => o >= -1 && o <= 127);
+            this.Validate(newVolume, () => this.Volume, i => $"Volume {i} out of range (-1 - 127).", o => o >= -1 && o <= 127);
 
             var newFrameDuration = this.ParseIntOrAddError(entries[3]);
 
-			if (!this.HasErrors)
-            {
-                this.NoteKey = newNoteKey;
-                this.Octave = newOctave;
-                this.volume = newVolume;
-                this.FrameDuration = newFrameDuration;
-            }
+            this.NoteKey = newNoteKey;
+            this.Octave = newOctave;
+            this.volume = newVolume;
+            this.FrameDuration = newFrameDuration;
         }
     }
 }

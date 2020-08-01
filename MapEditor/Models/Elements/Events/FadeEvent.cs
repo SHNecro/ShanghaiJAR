@@ -87,24 +87,21 @@ namespace MapEditor.Models.Elements.Events
                 return;
             }
 
-            var newFadeTime = this.ParseIntOrAddError(entries[1], (ft) => ft >= 0, (ft) => $"Invalid fade time {ft} (>= 0)");
+            var newFadeTime = this.ParseIntOrAddError(entries[1], () => this.FadeTime, (ft) => ft >= 0, (ft) => $"Invalid fade time {ft} (>= 0)");
 
-            var newA = this.ParseIntOrAddError(entries[2], (b) => b >= 0 && b <= 255, (b) => $"Invalid alpha value {b} (0 - 255)");
-            var newR = this.ParseIntOrAddError(entries[3], (b) => b >= 0 && b <= 255, (b) => $"Invalid red value {b} (0 - 255)");
-            var newG = this.ParseIntOrAddError(entries[4], (b) => b >= 0 && b <= 255, (b) => $"Invalid green value {b} (0 - 255)");
-            var newB = this.ParseIntOrAddError(entries[5], (b) => b >= 0 && b <= 255, (b) => $"Invalid blue value {b} (0 - 255)");
+            var newA = this.ParseIntOrAddError(entries[2], () => this.A, (b) => b >= 0 && b <= 255, (b) => $"Invalid alpha value {b} (0 - 255)");
+            var newR = this.ParseIntOrAddError(entries[3], () => this.R, (b) => b >= 0 && b <= 255, (b) => $"Invalid red value {b} (0 - 255)");
+            var newG = this.ParseIntOrAddError(entries[4], () => this.G, (b) => b >= 0 && b <= 255, (b) => $"Invalid green value {b} (0 - 255)");
+            var newB = this.ParseIntOrAddError(entries[5], () => this.B, (b) => b >= 0 && b <= 255, (b) => $"Invalid blue value {b} (0 - 255)");
 
             var newIsWaiting = this.ParseBoolOrAddError(entries[6]);
 
-            if (!this.HasErrors)
-            {
-                this.FadeTime = newFadeTime;
-                this.A = (byte)newA;
-                this.R = (byte)newR;
-                this.G = (byte)newG;
-                this.B = (byte)newB;
-                this.IsWaiting = newIsWaiting;
-            }
+            this.FadeTime = newFadeTime;
+            this.A = (byte)newA;
+            this.R = (byte)newR;
+            this.G = (byte)newG;
+            this.B = (byte)newB;
+            this.IsWaiting = newIsWaiting;
         }
     }
 }

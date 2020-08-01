@@ -56,11 +56,8 @@
             var newItemNumber = this.ParseIntOrAddError(entries[1]);
             var newIsAdding = this.ParseBoolOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.ItemNumber = newItemNumber;
-                this.IsAdding = newIsAdding;
-            }
+            this.ItemNumber = newItemNumber;
+            this.IsAdding = newIsAdding;
         }
     }
 }

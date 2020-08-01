@@ -160,12 +160,9 @@ namespace MapEditor.Models
                 newDistance = this.ParseIntOrAddError(moveParams[1]);
             }
 
-            if (!this.HasErrors)
-            {
-                this.Type = newType;
-                this.Distance = newDistance;
-            }
-		}
+            this.Type = newType;
+            this.Distance = newDistance;
+        }
 
 		private MoveType GetAngleOfNewType(MoveCategoryOption category, MoveType originalMove)
 		{

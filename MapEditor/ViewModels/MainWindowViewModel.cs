@@ -55,7 +55,7 @@ namespace MapEditor.ViewModels
                         isDrawing = false;
                     }), DispatcherPriority.Render);
                 }
-                catch (TaskCanceledException)
+                catch
                 { }
             };
         }
@@ -278,8 +278,8 @@ namespace MapEditor.ViewModels
         public bool IsDirty => this.CurrentMap?.StringValue != this.LastLoadedMap?.StringValue;
 
         public ICommand ChooseEncodedFileCommand => new RelayCommand(this.ChooseEncodedFile);
-        public ICommand SaveOrCreateEncodedFileCommand => new RelayCommand(this.SaveOrCreateEncodedFile);
-        public ICommand SaveNewEncodedFileCommand => new RelayCommand(this.SaveNewEncodedFile);
+        public ICommand SaveOrCreateEncodedFileCommand => new RelayCommand(() => this.SaveOrCreateEncodedFile());
+        public ICommand SaveNewEncodedFileCommand => new RelayCommand(() => this.SaveNewEncodedFile());
         public ICommand ChooseDecodedFileCommand => new RelayCommand(this.ChooseDecodedFile);
         public ICommand SaveDecodedFileCommand => new RelayCommand(this.SaveDecodedFile);
         public ICommand OpenSettingsCommand => new RelayCommand(this.OpenSettings);
@@ -292,6 +292,7 @@ namespace MapEditor.ViewModels
         public ICommand UnpackTCDCommand => new RelayCommand(this.UnpackTCD);
         public ICommand PackTCDCommand => new RelayCommand(this.PackTCD);
 
+        public ICommand OpenErrorsCommand => new RelayCommand(this.OpenErrors);
         public ICommand DataDumpCommand => new RelayCommand(this.DataDump);
 
         public static Map GetCurrentMap() => MainWindowViewModel.currentMap;
@@ -357,52 +358,69 @@ namespace MapEditor.ViewModels
 
             var openedMap = new Map { StringValue = mapContents, Name = Path.GetFileNameWithoutExtension(fileName) };
 
-            var mapLoadSuccess = !openedMap.HasErrors;
-            if (mapLoadSuccess)
+            if (openedMap.HasErrors)
             {
-                this.CurrentMap = openedMap;
-                this.LoadedMapPath = fileName;
-                this.LastLoadedMap = (Map)this.CurrentMap.Clone();
+                MessageBox.Show($"Map contains errors, please find and resolve with View > Errors", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            else
-            {
-                var filteredErrors = openedMap.Errors.Distinct();
-                if (filteredErrors.Count() < 25)
-                {
-                    MessageBox.Show($"Map failed to parse, with the following errors:{Environment.NewLine}{string.Join(Environment.NewLine, filteredErrors)}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
-                else
-                {
-                    MessageBox.Show($"Map failed to parse, with many errors.{Environment.NewLine}Please check that you've chosen the right file:{Environment.NewLine}{string.Join(Environment.NewLine, filteredErrors.Take(25))}{Environment.NewLine}...", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
 
-                this.CurrentMap = Constants.BlankMapCreator();
-                this.LoadedMapPath = null;
-                this.LastLoadedMap = (Map)this.CurrentMap.Clone();
-            }
+            this.CurrentMap = openedMap;
+            this.LoadedMapPath = fileName;
+            this.LastLoadedMap = (Map)this.CurrentMap.Clone();
+            //var mapLoadSuccess = !openedMap.HasErrors;
+            //if (mapLoadSuccess)
+            //{
+            //    this.CurrentMap = openedMap;
+            //    this.LoadedMapPath = fileName;
+            //    this.LastLoadedMap = (Map)this.CurrentMap.Clone();
+            //}
+            //else
+            //{
+            //    var filteredErrors = openedMap.Errors.Distinct();
+            //    if (filteredErrors.Count() < 25)
+            //    {
+            //        MessageBox.Show($"Map failed to parse, with the following errors:{Environment.NewLine}{string.Join(Environment.NewLine, filteredErrors)}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show($"Map failed to parse, with many errors.{Environment.NewLine}Please check that you've chosen the right file:{Environment.NewLine}{string.Join(Environment.NewLine, filteredErrors.Take(25))}{Environment.NewLine}...", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    }
+
+            //    this.CurrentMap = Constants.BlankMapCreator();
+            //    this.LoadedMapPath = null;
+            //    this.LastLoadedMap = (Map)this.CurrentMap.Clone();
+            //}
 
             MapRenderer.Refresh();
             MainWindowViewModel.MapLoadProgressEvent?.Invoke();
 
-            return mapLoadSuccess;
+            return true;
         }
 
-        public void SaveOrCreateEncodedFile()
+        public bool SaveOrCreateEncodedFile()
         {
+            var success = false;
             if (this.LoadedMapPath == null)
             {
-                this.SaveNewEncodedFile();
+                success = this.SaveNewEncodedFile();
             }
             else
             {
                 var shdFile = Path.ChangeExtension(this.LoadedMapPath, ".she");
-                TCDEncodeDecode.SaveFile(shdFile, TCDEncodeDecode.EncodeMap(this.CurrentMap.StringValue));
+                success = TCDEncodeDecode.SaveFile(shdFile, TCDEncodeDecode.EncodeMap(this.CurrentMap.StringValue));
                 this.LastLoadedMap = (Map)this.CurrentMap.Clone();
             }
+
+            return success;
         }
 
-        public void SaveNewEncodedFile()
+        public bool SaveNewEncodedFile()
         {
+            if (this.CurrentMap.HasErrors)
+            {
+                MessageBox.Show($"Map contains errors, please find and resolve with View > Errors before saving.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+
             var saveFileDialog = new CommonSaveFileDialog
             {
                 RestoreDirectory = false,
@@ -422,7 +440,11 @@ namespace MapEditor.ViewModels
                 TCDEncodeDecode.SaveFile(saveFileDialog.FileName, TCDEncodeDecode.EncodeMap(this.CurrentMap.StringValue));
                 this.LoadedMapPath = saveFileDialog.FileName;
                 this.LastLoadedMap = (Map)this.CurrentMap.Clone();
+
+                return true;
             }
+
+            return false;
         }
 
         public void ChooseEncodedFile()
@@ -509,8 +531,7 @@ namespace MapEditor.ViewModels
                 switch (result)
                 {
                     case MessageBoxResult.Yes:
-                        MainWindowViewModel.GetInstance().SaveOrCreateEncodedFile();
-                        return true;
+                        return MainWindowViewModel.GetInstance().SaveOrCreateEncodedFile();
                     case MessageBoxResult.No:
                         return true;
                     case MessageBoxResult.Cancel:
@@ -695,6 +716,11 @@ namespace MapEditor.ViewModels
                         this.Progress = progress;
                 });
             }
+        }
+
+        public void OpenErrors()
+        {
+            ErrorsWindow.ShowWindow();
         }
 
         public void DataDump()

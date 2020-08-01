@@ -44,10 +44,7 @@
 
             var newIsSpecial = this.ParseIntOrAddError(entries[1]) == 1;
 
-            if (!this.HasErrors)
-            {
-                this.IsSpecial = newIsSpecial;
-            }
+            this.IsSpecial = newIsSpecial;
         }
     }
 }

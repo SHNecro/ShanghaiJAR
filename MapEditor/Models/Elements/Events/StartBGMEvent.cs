@@ -50,10 +50,7 @@ namespace MapEditor.Models.Elements.Events
 
             var newBGMName = entries[1];
 
-            if (!this.HasErrors)
-            {
-                this.BGMName = newBGMName;
-            }
+            this.BGMName = newBGMName;
         }
     }
 }

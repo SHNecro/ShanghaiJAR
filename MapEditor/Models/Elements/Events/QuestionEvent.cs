@@ -55,22 +55,19 @@ namespace MapEditor.Models.Elements.Events
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
-            if (!this.Validate(entries, "Invalid number of parameters.", e => e.Length == 3 && e[0] == "question"))
+            if (!this.Validate(entries, "Malformed question event.", e => e.Length == 3 && e[0] == "question"))
             {
                 return;
             }
 
             var newQuestionKey = entries[1];
-            // this.Validate(newQuestionKey, "Question key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            this.Validate(newQuestionKey, () => this.QuestionKey, s => $"Question key \"{s}\" does not exist.", Constants.TranslationService.CanTranslate);
 
             var newAnswerKey = entries[2];
-            // this.Validate(newAnswerKey, "Answer key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            this.Validate(newAnswerKey, () => this.AnswerKey, s => $"Answer key \"{s}\" does not exist.", Constants.TranslationService.CanTranslate);
 
-            if (!this.HasErrors)
-            {
-                this.QuestionKey = newQuestionKey;
-                this.AnswerKey = newAnswerKey;
-            }
+            this.QuestionKey = newQuestionKey;
+            this.AnswerKey = newAnswerKey;
         }
     }
 }

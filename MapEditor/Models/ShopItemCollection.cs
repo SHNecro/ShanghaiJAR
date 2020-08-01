@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -109,15 +110,16 @@ namespace MapEditor.Models
 		protected override void SetStringValue(string value)
 		{
 			var newShopItems = value.Split(':').Where(ms => !string.IsNullOrEmpty(ms)).Select(ms => new ShopItem { StringValue = ms, ShopType = this.ShopType, PriceType = this.PriceType }).ToList();
-			this.AddChildErrors("ShopItems", newShopItems);
 
-			if (!this.HasErrors)
-			{
-				this.ShopItems = new ObservableCollection<ShopItem>(newShopItems);
-			}
-		}
+            this.ShopItems = new ObservableCollection<ShopItem>(newShopItems);
+        }
 
-		private void OnShopItemsCollectionChanged(object sender, EventArgs args)
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.ShopItems?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+        }
+
+        private void OnShopItemsCollectionChanged(object sender, EventArgs args)
 		{
             if (!this.ShopItems.Contains(this.SelectedShopItem))
             {

@@ -44,11 +44,8 @@
             var newID = entries[1];
             var newPage = this.ParseIntOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.ID = newID;
-                this.Page = newPage;
-            }
+            this.ID = newID;
+            this.Page = newPage;
         }
     }
 }

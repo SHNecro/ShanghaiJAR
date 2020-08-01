@@ -99,11 +99,8 @@ namespace MapEditor.Models.Elements.Events
 
             var newIsAdding = this.ParseBoolOrAddError(chipParams[3]);
 
-            if (!this.HasErrors)
-            {
-                this.Chip = newChip;
-                this.IsAdding = newIsAdding;
-            }
+            this.Chip = newChip;
+            this.IsAdding = newIsAdding;
         }
     }
 }

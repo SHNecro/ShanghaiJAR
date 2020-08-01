@@ -29,10 +29,7 @@
 
             var newStatementID = this.ParseIntOrAddError(entries[1]);
 
-            if (!this.HasErrors)
-            {
-                this.StatementID = newStatementID;
-            }
+            this.StatementID = newStatementID;
         }
     }
 }

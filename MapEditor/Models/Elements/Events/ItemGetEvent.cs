@@ -1,4 +1,8 @@
-﻿using System.ComponentModel;
+﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
+using System;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 
 namespace MapEditor.Models.Elements.Events
@@ -50,12 +54,12 @@ namespace MapEditor.Models.Elements.Events
 
             var newMystery = new RandomMystery { StringValue = string.Join(",", entries.Skip(1)) };
 
-            this.AddChildErrors(null, new[] { newMystery });
+            this.Mystery = newMystery;
+        }
 
-            if (!this.HasErrors)
-            {
-                this.Mystery = newMystery;
-            }
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.Mystery?.Errors).AsObservableCollectionOrEmpty();
         }
 
         private void MysteryPropertyChanged(object sender, PropertyChangedEventArgs e)

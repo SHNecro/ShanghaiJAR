@@ -125,61 +125,58 @@ namespace MapEditor.Models
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(',');
-            if (!this.Validate(entries, "Invalid number of parameters.", e => e.Length == 14))
+            if (!this.Validate(entries, "Malformed header.", e => e.Length == 14))
             {
                 return;
             }
 
             var walkSize = new Size(this.ParseIntOrAddError(entries[0]), this.ParseIntOrAddError(entries[1]));
-            this.Validate(walkSize, "Invalid walkable size (1 - 150).", s => s.Width > 0 && s.Height > 0 && s.Width <= 150 && s.Height <= 150);
+            this.Validate(walkSize, () => this.WalkableSize, sz => $"Invalid walkable size {sz} (150x150 max).", sz => sz.Width > 0 && sz.Height > 0 && sz.Width <= 150 && sz.Height <= 150);
 
             var rendOffset = new Point(this.ParseIntOrAddError(entries[2]), this.ParseIntOrAddError(entries[3]));
             var imageSize = new Size(this.ParseIntOrAddError(entries[4]), this.ParseIntOrAddError(entries[5]));
-            this.Validate(imageSize, "Non-positive image size.", s => s.Width > 0 && s.Height > 0);
+            this.Validate(imageSize, () => this.ImageSize, sz => $"Non-positive image size {sz}.", sz => sz.Width > 0 && sz.Height > 0);
 
             var newTitleKey = entries[6];
-            // this.Validate(newTitleKey, "Title key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            this.Validate(newTitleKey, () => this.TitleKey, s => $"Title key \"{s}\" does not exist.", Constants.TranslationService.CanTranslate);
 
             var newFloorHeight = this.ParseIntOrAddError(entries[7]);
-            this.Validate(newFloorHeight, "Non-positive floor height.", h => h >= 0);
-            this.Validate(newFloorHeight, "Floor height must be multiple of 16 (1 walkable tile distance).", h => h % 16 == 0);
+            this.Validate(newFloorHeight, () => this.FloorHeight, i => $"Non-positive floor height {i}.", h => h >= 0);
+            this.Validate(newFloorHeight, () => this.FloorHeight, i => $"Floor height {i} must be multiple of 16 (1 walkable tile distance).", h => h % 16 == 0);
 
             var newLevels = this.ParseIntOrAddError(entries[8]);
-            this.Validate(newLevels, "Invalid number of levels (1 - 5).", l => l > 0 && l <= 5);
+            this.Validate(newLevels, () => this.Levels, i => $"Invalid number of levels {i} (max 5).", l => l > 0 && l <= 5);
 
             var newBackgroundNumber = this.ParseIntOrAddError(entries[9]);
 
             var newSpecialEncounterFlag = this.ParseIntOrAddError(entries[10]);
             var newSpecialEncounterCount = this.ParseIntOrAddError(entries[11]);
-            this.Validate(newSpecialEncounterCount, "Negative special encounters count.", l => l >= 0);
+            this.Validate(newSpecialEncounterCount, () => this.SpecialEncounterCount, i => $"Negative special encounters count {i}.", l => l >= 0);
 
             var newImagePrefix = entries[12];
-            //if (Constants.TextureLoadStrategy != null)
-            //{
-            //    this.Validate(newImagePrefix, $"Missing map images {newImagePrefix}(1 - {2 * newLevels - 1}).", s =>
-            //    {
-            //        var allExist = true;
-            //        for (int i = 1; i < newLevels * 2; i++)
-            //        {
-            //            allExist &= Constants.TextureLoadStrategy.CanProvideTexture($"{newImagePrefix}{i}");
-            //        }
-            //        return allExist;
-            //    });
-            //}
-
-            if (!this.HasErrors)
+            if (Constants.TextureLoadStrategy != null)
             {
-                this.WalkableSize = walkSize;
-                this.RendOffset = rendOffset;
-                this.ImageSize = imageSize;
-                this.TitleKey = newTitleKey;
-                this.FloorHeight = newFloorHeight;
-                this.Levels = newLevels;
-                this.BackgroundNumber = newBackgroundNumber;
-                this.SpecialEncounterFlag = newSpecialEncounterFlag;
-                this.SpecialEncounterCount = newSpecialEncounterCount;
-                this.ImagePrefix = newImagePrefix;
+                this.Validate(newImagePrefix, () => this.ImagePrefix, s => $"Not all map images {s}(1 - {2 * newLevels - 1}) found.", s =>
+                {
+                    var allExist = true;
+                    for (int i = 1; i < newLevels * 2; i++)
+                    {
+                        allExist &= Constants.TextureLoadStrategy.CanProvideFile($"{s}{i}");
+                    }
+                    return allExist;
+                });
             }
+
+            this.WalkableSize = walkSize;
+            this.RendOffset = rendOffset;
+            this.ImageSize = imageSize;
+            this.TitleKey = newTitleKey;
+            this.FloorHeight = newFloorHeight;
+            this.Levels = newLevels;
+            this.BackgroundNumber = newBackgroundNumber;
+            this.SpecialEncounterFlag = newSpecialEncounterFlag;
+            this.SpecialEncounterCount = newSpecialEncounterCount;
+            this.ImagePrefix = newImagePrefix;
         }
     }
 }

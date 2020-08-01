@@ -1,9 +1,11 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models.Elements.Enums;
 using MapEditor.Models.Elements.Events;
 using NSMap.Character;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Drawing;
 using System.IO;
@@ -358,7 +360,7 @@ namespace MapEditor.Models
             }
             int newCharacterIndex, newTexX, newTexY, newTexW, newTexH, texFrames;
             newCharacterIndex = newTexX = newTexY = newTexW = newTexH = texFrames = 0;
-            if (this.Validate(spriteEntries, "", se => se.Length == 5))
+            if (this.Validate(spriteEntries, "Missing graphics positions", se => se.Length == 5))
             {
                 newTexX = ParseIntOrAddError(spriteEntries[0]);
                 newTexY = ParseIntOrAddError(spriteEntries[1]);
@@ -438,43 +440,46 @@ namespace MapEditor.Models
 
             var newEvents = new EventCollection { StringValue = string.Join("\r\n", eventStrings) };
 
-            this.AddChildErrors(null, new[] { newMoves });
-            this.AddChildErrors(null, new[] { newTerms });
-            this.AddChildErrors(null, new[] { newEvents });
+            this.GraphicsIndex = Math.Abs(newGraphicsIndex);
 
-            if (!this.HasErrors)
+            this.IsCharacter = newIsCharacter;
+            if (this.IsCharacter)
             {
-                this.GraphicsIndex = Math.Abs(newGraphicsIndex);
-
-                this.IsCharacter = newIsCharacter;
-                if (this.IsCharacter)
-                {
-                    this.CharacterIndex = newCharacterIndex;
-                    this.Angle = newAngle;
-                }
-                else
-                {
-                    this.TexX = newTexX;
-                    this.TexY = newTexY;
-                    this.TexW = newTexW;
-                    this.TexH = newTexH;
-                    this.Frames = texFrames;
-                }
-
-                this.Speed = newSpeed;
-                this.Moves = newMoves;
-
-                this.HitRange = newHitRange;
-                this.HitShift = newHitShift;
-                this.HitForm = newHitForm;
-
-                this.RendType = type;
-
-                this.StartTerms = newStartTerms;
-                this.Terms = newTerms;
-
-                this.Events = newEvents;
+                this.CharacterIndex = newCharacterIndex;
+                this.Angle = newAngle;
             }
+            else
+            {
+                this.TexX = newTexX;
+                this.TexY = newTexY;
+                this.TexW = newTexW;
+                this.TexH = newTexH;
+                this.Frames = texFrames;
+            }
+
+            this.Speed = newSpeed;
+            this.Moves = newMoves;
+
+            this.HitRange = newHitRange;
+            this.HitShift = newHitShift;
+            this.HitForm = newHitForm;
+
+            this.RendType = type;
+
+            this.StartTerms = newStartTerms;
+            this.Terms = newTerms;
+
+            this.Events = newEvents;
+        }
+
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return new[]
+            {
+                (this.Moves?.Errors).AsObservableCollectionOrEmpty(),
+                (this.Terms?.Errors).AsObservableCollectionOrEmpty(),
+                (this.Events?.Errors).AsObservableCollectionOrEmpty()
+            }.SelectMany(oc => oc).AsObservableCollectionOrEmpty();
         }
 
         private void OnMovesPropertyChanged(object sender, PropertyChangedEventArgs e)

@@ -1,7 +1,11 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
+using System.Linq;
 
 namespace MapEditor.Models
 {
@@ -169,21 +173,24 @@ namespace MapEditor.Models
 
             // Read map objects
             var newMapObjects = new MapObjectCollection { StringValue = reader.ReadToEnd().TrimEnd() };
-			
-			this.AddChildErrors(null, new[] { newHeader });
-			this.AddChildErrors(null, new[] { newWalkableMap });
-			this.AddChildErrors(null, new[] { newRandomEncounters });
-			this.AddChildErrors(null, new[] { newRandomMysteryData });
-			this.AddChildErrors(null, new[] { newMapObjects });
 
-			if (!this.HasErrors)
+            this.Header = newHeader;
+            this.WalkableMap = newWalkableMap;
+            this.RandomEncounters = newRandomEncounters;
+            this.RandomMysteryData = newRandomMysteryData;
+            this.MapObjects = newMapObjects;
+        }
+
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return new[]
             {
-                this.Header = newHeader;
-                this.WalkableMap = newWalkableMap;
-                this.RandomEncounters = newRandomEncounters;
-                this.RandomMysteryData = newRandomMysteryData;
-                this.MapObjects = newMapObjects;
-            }
+                (this.Header?.Errors).AsObservableCollectionOrEmpty(),
+                (this.WalkableMap?.Errors).AsObservableCollectionOrEmpty(),
+                (this.RandomEncounters?.Errors).AsObservableCollectionOrEmpty(),
+                (this.RandomMysteryData?.Errors).AsObservableCollectionOrEmpty(),
+                (this.MapObjects?.Errors).AsObservableCollectionOrEmpty()
+            }.SelectMany(oc => oc).AsObservableCollectionOrEmpty();
         }
 
         private void OnHeaderPropertyChanged(object sender, PropertyChangedEventArgs e)

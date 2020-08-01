@@ -181,7 +181,7 @@ namespace MapEditor.Models.Elements.Events
             }
 
 			var newCreditKey = entries[1];
-			this.Validate(newCreditKey, "Credit key does not exist.", Constants.TranslationService.CanTranslate);
+			this.Validate(newCreditKey, () => this.CreditKey, s => $"Credit key \"{s}\" does not exist.", Constants.TranslationService.CanTranslate);
 			var newX = this.ParseIntOrAddError(entries[2]);
             var newY = this.ParseIntOrAddError(entries[3]);
             var newCentered = this.ParseBoolOrAddError(entries[4]);
@@ -190,29 +190,26 @@ namespace MapEditor.Models.Elements.Events
             var newHangTime = this.ParseIntOrAddError(entries[7]);
 			var newFadeOutTime = this.ParseIntOrAddError(entries[8]);
 
-			if (!this.HasErrors)
-            {
-				this.CreditKey = newCreditKey;
-				this.X = newX;
-				this.Y = newY;
-                this.Centered = newCentered;
-                this.MovesWithCamera = newMovesWithCamera;
-				this.FadeInTime = newFadeInTime;
-				this.HangTime = newHangTime < 0 ? 30 : newHangTime;
-				this.FadeOutTime = newFadeOutTime;
+            this.CreditKey = newCreditKey;
+            this.X = newX;
+            this.Y = newY;
+            this.Centered = newCentered;
+            this.MovesWithCamera = newMovesWithCamera;
+            this.FadeInTime = newFadeInTime;
+            this.HangTime = newHangTime < 0 ? 30 : newHangTime;
+            this.FadeOutTime = newFadeOutTime;
 
-                switch (newHangTime)
-                {
-                    case -1:
-                        this.creditType = CreditEvent.FadeIn;
-                        break;
-                    case -2:
-                        this.creditType = CreditEvent.FadeOut;
-                        break;
-                    default:
-                        this.creditType = CreditEvent.Timed;
-                        break;
-                }
+            switch (newHangTime)
+            {
+                case -1:
+                    this.creditType = CreditEvent.FadeIn;
+                    break;
+                case -2:
+                    this.creditType = CreditEvent.FadeOut;
+                    break;
+                default:
+                    this.creditType = CreditEvent.Timed;
+                    break;
             }
         }
 

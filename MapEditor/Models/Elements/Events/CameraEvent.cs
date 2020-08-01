@@ -89,13 +89,10 @@
             var newMoveTime = this.ParseIntOrAddError(entries[3]);
             var newIsRelative = this.ParseBoolOrAddError(entries[4]);
 
-            if (!this.HasErrors)
-            {
-                this.X = newTargetX;
-                this.Y = newTargetY;
-                this.MoveTime = newMoveTime;
-                this.IsAbsolute = newIsRelative;
-            }
+            this.X = newTargetX;
+            this.Y = newTargetY;
+            this.MoveTime = newMoveTime;
+            this.IsAbsolute = newIsRelative;
         }
     }
 }

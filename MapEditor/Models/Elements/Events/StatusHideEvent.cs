@@ -30,10 +30,7 @@
 
             var newIsHiding = this.ParseBoolOrAddError(entries[1]);
 
-            if (!this.HasErrors)
-            {
-                this.IsHiding = newIsHiding;
-            }
+            this.IsHiding = newIsHiding;
         }
     }
 }

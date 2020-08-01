@@ -57,17 +57,14 @@ namespace MapEditor.Models.Elements.Events
             }
 
             var newMessageKey = entries[1];
-            // this.Validate(newMessageKey, "NumSet message key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            this.Validate(newMessageKey, () => this.NumSetKey, s=> $"NumSet message key \"{s}\" does not exist.", Constants.TranslationService.CanTranslate);
 
-            var newTargetVariable = this.ParseIntOrAddError(entries[2], tv => tv >= 0, tv => $"Invalid target variable {tv} (>= 0)");
-            var newNumberOfDigits = this.ParseIntOrAddError(entries[3], nod => nod >= 0, nod => $"Invalid number of digits {nod} (>= 0)");
+            var newTargetVariable = this.ParseIntOrAddError(entries[2], () => this.TargetVariable, tv => tv >= 0, tv => $"Invalid target variable {tv} (>= 0)");
+            var newNumberOfDigits = this.ParseIntOrAddError(entries[3], () => this.NumberOfDigits, nod => nod >= 0, nod => $"Invalid number of digits {nod} (>= 0)");
 
-            if (!this.HasErrors)
-            {
-                this.NumSetKey = newMessageKey;
-                this.TargetVariable = newTargetVariable;
-                this.NumberOfDigits = newNumberOfDigits;
-            }
+            this.NumSetKey = newMessageKey;
+            this.TargetVariable = newTargetVariable;
+            this.NumberOfDigits = newNumberOfDigits;
         }
     }
 }

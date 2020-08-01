@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -69,12 +70,16 @@ namespace MapEditor.Models
         public static MapEventPageCollection FromStringList(IList<string> stringList)
         {
             var newPageCollection = new MapEventPageCollection { MapEventPages = new ObservableCollection<MapEventPage>(stringList.Select((pageString, pageNumber) => { return new MapEventPage { PageNumber = pageNumber + 1, StringValue = pageString }; })) };
-            newPageCollection.AddChildErrors(null, newPageCollection.MapEventPages);
 
             return newPageCollection;
         }
 
-		protected override string GetStringValue()
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.MapEventPages?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+        }
+
+        protected override string GetStringValue()
 		{
 			return string.Join("\r\n", this.MapEventPages.Select(rm => rm.StringValue));
 		}

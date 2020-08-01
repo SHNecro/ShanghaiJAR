@@ -1,4 +1,8 @@
-﻿using MapEditor.Models.Elements.Enums;
+﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
+using MapEditor.Models.Elements.Enums;
+using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 
@@ -100,15 +104,15 @@ namespace MapEditor.Models.Elements.Events
 
             var newMoves = new MoveCollection { StringValue = string.Join(":", entries.Skip(2)) };
 
-            this.AddChildErrors(null, new[] { newMoves });
+            this.IsMapIndex = newIsMapIndex;
+            this.MapIndex = newMapIndex;
+            this.ObjectID = newObjectID;
+            this.Moves = newMoves;
+        }
 
-            if (!this.HasErrors)
-            {
-                this.IsMapIndex = newIsMapIndex;
-                this.MapIndex = newMapIndex;
-                this.ObjectID = newObjectID;
-                this.Moves = newMoves;
-            }
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.Moves?.Errors).AsObservableCollectionOrEmpty();
         }
 
         private void OnMovesPropertyChanged(object sender, PropertyChangedEventArgs e)

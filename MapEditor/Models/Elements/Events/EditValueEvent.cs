@@ -208,7 +208,7 @@ namespace MapEditor.Models.Elements.Events
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
-            if (!this.Validate(entries, "Invalid number of parameters.", e => e.Length == 6))
+            if (!this.Validate(entries, "Malformed edit value event.", e => e.Length == 6))
             {
                 return;
             }
@@ -231,14 +231,11 @@ namespace MapEditor.Models.Elements.Events
                 this.ParseEnumOrAddError<EditValuePlayerPositionTypeNumber>(entries[5]);
             }
 
-            if (!this.HasErrors)
-            {
-                this.Index = newIndex;
-                this.IsVariable = newIsVariable;
-                this.Operation = newOperation;
-                this.ReferenceType = newReferenceType;
-                this.ReferenceData = newReferenceData;
-            }
+            this.Index = newIndex;
+            this.IsVariable = newIsVariable;
+            this.Operation = newOperation;
+            this.ReferenceType = newReferenceType;
+            this.ReferenceData = newReferenceData;
         }
     }
 }

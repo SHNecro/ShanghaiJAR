@@ -57,11 +57,8 @@
                 newFlag = this.ParseIntOrAddError(flagParams[1]);
             }
 
-            if (!this.HasErrors)
-            {
-                this.Inverted = newInverted;
-                this.Flag = newFlag;
-            }
+            this.Inverted = newInverted;
+            this.Flag = newFlag;
         }
     }
 }

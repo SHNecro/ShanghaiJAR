@@ -63,11 +63,8 @@ namespace MapEditor.Models.Elements.Events
             var newMenuNumber = this.ParseIntOrAddError(entries[1]);
             var newIsAdding = this.ParseBoolOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.MenuNumber = newMenuNumber;
-                this.IsAdding = newIsAdding;
-            }
+            this.MenuNumber = newMenuNumber;
+            this.IsAdding = newIsAdding;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -73,15 +74,16 @@ namespace MapEditor.Models
         protected override void SetStringValue(string value)
         {
 			var newRandomEncounters = value.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None).Where(res => res != string.Empty).Select(res => new RandomEncounter { StringValue = res }).ToList();
-			this.AddChildErrors(null, newRandomEncounters);
 
-			if (!this.HasErrors)
-			{
-				this.RandomEncounters = new ObservableCollection<RandomEncounter>(newRandomEncounters);
-			}
+            this.RandomEncounters = new ObservableCollection<RandomEncounter>(newRandomEncounters);
         }
 
-		private void OnRandomEncountersCollectionChanged(object sender, EventArgs args)
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.RandomEncounters?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+        }
+
+        private void OnRandomEncountersCollectionChanged(object sender, EventArgs args)
 		{
             if (!this.RandomEncounters.Contains(this.SelectedEncounter))
             {

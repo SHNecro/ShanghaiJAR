@@ -45,11 +45,8 @@
             var newWaitFrames = this.ParseIntOrAddError(entries[1]);
             var newIsBlocking = this.ParseBoolOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.WaitFrames = newWaitFrames;
-                this.IsBlocking = newIsBlocking;
-            }
+            this.WaitFrames = newWaitFrames;
+            this.IsBlocking = newIsBlocking;
         }
     }
 }

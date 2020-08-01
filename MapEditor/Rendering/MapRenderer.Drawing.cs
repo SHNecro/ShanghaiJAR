@@ -541,6 +541,7 @@ namespace MapEditor.Rendering
                 new Tuple<Color, MapObject>(Color.FromArgb(128, Color.AliceBlue), MapRenderer.ListHoveredMapObject),
                 new Tuple<Color, MapObject>(Color.FromArgb(128, Color.AliceBlue), MapRenderer.MapHoveredMapObject)
             };
+            outlinedObjects.AddRange(MapRenderer.CurrentMap.MapObjects.MapObjects.Where(mo => mo.HasErrors).Select(mo => Tuple.Create(Color.FromArgb(128, Color.Red), mo)));
 
             foreach (var outlined in outlinedObjects)
             {

@@ -187,6 +187,7 @@
       <DependentUpon>WheelCaptureIntegerUpDown.xaml</DependentUpon>
     </Compile>
     <Compile Include="Core\Converters\OggProgressBarConverter.cs" />
+    <Compile Include="Core\ErrorsWindow.cs" />
     <Compile Include="Core\DataWindow.cs" />
     <Compile Include="Core\Converters\ChipToChipChancesConverter.cs" />
     <Compile Include="Core\Converters\EqualsValueConverter.cs" />
@@ -239,6 +240,7 @@
     <Compile Include="ViewModels\BGMViewModel.cs" />
     <Compile Include="ViewModels\CharacterInfoDataViewModel.cs" />
     <Compile Include="ViewModels\DataWindowViewModel.cs" />
+    <Compile Include="ViewModels\ErrorsWindowViewModel.cs" />
     <Compile Include="ViewModels\KeyItemDataViewModel.cs" />
     <Compile Include="ViewModels\MailItemViewModel.cs" />
     <Compile Include="ViewModels\KeyItemViewModel.cs" />
@@ -384,6 +386,9 @@
     </Compile>
     <Compile Include="Views\DataWindowView.xaml.cs">
       <DependentUpon>DataWindowView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ErrorsWindowView.xaml.cs">
+      <DependentUpon>ErrorsWindowView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\KeyItemDataView.xaml.cs">
       <DependentUpon>KeyItemDataView.xaml</DependentUpon>
@@ -733,6 +738,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\DataWindowView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ErrorsWindowView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -101,17 +101,14 @@ namespace MapEditor.Models.Elements.Events
             var newTargetMap = entries[1];
             var newX = this.ParseIntOrAddError(entries[2]);
             var newY = this.ParseIntOrAddError(entries[3]);
-            var newZ = this.ParseIntOrAddError(entries[4], z => z >= 0, z => $"Invalid floor \"{z}\" (>= 0)");
+            var newZ = this.ParseIntOrAddError(entries[4], () => this.Z, z => z >= 0, z => $"Invalid floor \"{z}\" (>= 0)");
             var newAngle = this.ParseIntOrAddError(entries[5]);
 
-            if (!this.HasErrors)
-            {
-                this.TargetMap = newTargetMap;
-                this.X = newX;
-                this.Y = newY;
-                this.Z = newZ;
-                this.Angle = newAngle;
-            }
+            this.TargetMap = newTargetMap;
+            this.X = newX;
+            this.Y = newY;
+            this.Z = newZ;
+            this.Angle = newAngle;
         }
     }
 }

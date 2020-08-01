@@ -87,18 +87,15 @@ namespace MapEditor.Models.Elements.Terms
             {
                 newVariableLeft = this.ParseIntOrAddError(variableParams[1]);
                 newOperatorType = this.ParseIntOrAddError(variableParams[3]);
-                this.Validate(newOperatorType, "Invalid operator (0: ==, 1: <=, 2: >=, 3: <, 4: >, 5: !=)", o => o >= 0 && o <= 5);
+                this.Validate(newOperatorType, () => this.OperatorType, i => $"Invalid operator {i} (0: ==, 1: <=, 2: >=, 3: <, 4: >, 5: !=)", o => o >= 0 && o <= 5);
                 newVariableOrConstantRight = this.ParseIntOrAddError(variableParams[4]);
                 newIsVariable = this.ParseBoolOrAddError(variableParams[2]);
             }
 
-            if (!this.HasErrors)
-            {
-                this.VariableLeft = newVariableLeft;
-                this.OperatorType = newOperatorType;
-                this.VariableOrConstantRight = newVariableOrConstantRight;
-                this.IsVariable = newIsVariable;
-            }
+            this.VariableLeft = newVariableLeft;
+            this.OperatorType = newOperatorType;
+            this.VariableOrConstantRight = newVariableOrConstantRight;
+            this.IsVariable = newIsVariable;
         }
     }
 }

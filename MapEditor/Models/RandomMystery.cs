@@ -86,7 +86,7 @@ namespace MapEditor.Models
                 }
                 else
                 {
-                    this.Data = this.lastData;
+                    this.Data = this.lastData == 0 ? 100 : this.lastData;
                 }
 
                 this.OnPropertyChanged(nameof(this.IsCustomMystery));
@@ -184,26 +184,23 @@ namespace MapEditor.Models
             }
 
             var newCategory = this.ParseIntOrAddError(entries[0]);
-            this.Validate(newCategory, "Invalid category (0: Chip, 1: SubChip, 2: AddOn, 3: Other, 4: Virus)", c => c >= 0 && c <= 4);
+            this.Validate(newCategory, () => this.Category, i => $"Invalid category {i} (0: Chip, 1: SubChip, 2: AddOn, 3: Other, 4: Virus)", c => c >= 0 && c <= 4);
 
             var newId = this.ParseIntOrAddError(entries[1]);
             if (newId == 1)
             {
-                this.Validate(newId, "Invalid SubChip ID (0-6)", c => c >= 0 && c <= 3);
+                this.Validate(newId, () => this.ID, "Invalid SubChip ID {i} (0 - 6)", c => c >= 0 && c <= 3);
             }
 
             var newData = this.ParseIntOrAddError(entries[2]);
 
             var newItemKey = entries[3];
-            //this.Validate(itemKey, "Item key does not exist.", k => Constants.TranslationService.CanTranslate(k));
+            this.Validate(itemKey, () => this.ItemKey, s => $"Item key \"{s}\" does not exist.", k => string.IsNullOrEmpty(k) || Constants.TranslationService.CanTranslate(k));
 
-            if (!this.HasErrors)
-            {
-                this.Category = newCategory;
-                this.ID = newId;
-                this.Data = newData;
-                this.ItemKey = newItemKey;
-            }
+            this.Category = newCategory;
+            this.ID = newId;
+            this.Data = newData;
+            this.ItemKey = newItemKey;
         }
     }
 }

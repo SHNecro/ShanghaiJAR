@@ -107,12 +107,9 @@ namespace MapEditor.Models.Elements.Events
             var newIsPresent = this.ParseBoolOrAddError(chipParams[3]);
             var newStatementID = this.ParseIntOrAddError(chipParams[4]);
 
-            if (!this.HasErrors)
-            {
-                this.Chip = newChip;
-                this.IsPresent = newIsPresent;
-                this.StatementID = newStatementID;
-            }
+            this.Chip = newChip;
+            this.IsPresent = newIsPresent;
+            this.StatementID = newStatementID;
         }
     }
 }

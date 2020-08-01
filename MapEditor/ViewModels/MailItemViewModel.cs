@@ -150,9 +150,9 @@ namespace MapEditor.ViewModels
             var newDialogueKeys = new List<string>();
 
             var openTagMatch = default(Match);
-            this.Validate(lines, "Empty key item", l => l.Length > 0);
+            this.Validate(lines, "Empty mail item", l => l.Length > 0);
             if (this.HasErrors) return;
-            this.Validate(lines[0], "Malformed key item open", l => (openTagMatch = Regex.Match(l, @"<Mail Index=""(\d+)"" Subject=""([^""]+)"" Sender=""([^""]+)"">")).Success);
+            this.Validate(lines[0], "Malformed mail item open", l => (openTagMatch = Regex.Match(l, @"<Mail Index=""(\d+)"" Subject=""([^""]+)"" Sender=""([^""]+)"">")).Success);
             newIndex = int.Parse(openTagMatch.Groups[1].Value);
             newSenderKey = openTagMatch.Groups[2].Value;
             newSubjectKey = openTagMatch.Groups[3].Value;
@@ -169,7 +169,7 @@ namespace MapEditor.ViewModels
 
                 if (i == lines.Length - 1)
                 {
-                    this.Validate(line, "Malformed key item close", l => Regex.IsMatch(l, @"</Mail>"));
+                    this.Validate(line, "Malformed mail item close", l => Regex.IsMatch(l, @"</Mail>"));
                     if (this.HasErrors) return;
                     continue;
                 }

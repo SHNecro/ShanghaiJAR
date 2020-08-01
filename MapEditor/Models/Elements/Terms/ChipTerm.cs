@@ -86,10 +86,7 @@ namespace MapEditor.Models.Elements.Terms
                 newChip = new Chip { ID = this.ParseIntOrAddError(chipParams[1]), CodeNumber = this.ParseIntOrAddError(chipParams[2]) - 1 };
             }
 
-            if (!this.HasErrors)
-            {
-                this.Chip = newChip;
-            }
+            this.Chip = newChip;
         }
     }
 }

@@ -203,22 +203,19 @@ namespace MapEditor.Models.Elements.Events
             var newRendType = this.ParseIntOrAddError(entries[9]);
             this.ParseEnumOrAddError<RenderTypeNumber>(entries[9]);
             var newSoundEffect = entries[10];
-//            this.Validate(newSoundEffect, $"Sound ({newSoundEffect}.wav) not found", Constants.SoundEffects.Contains);
+            this.Validate(newSoundEffect, () => this.SoundEffect, s => $"Sound ({s}.wav) not found", Constants.SoundEffects.Contains);
 
-            if (!this.HasErrors)
-            {
-                this.EffectNumber = newEffectNumber;
-                this.ID = newID;
-                this.X = newX;
-                this.Y = newY;
-                this.Z = newZ;
-                this.TargetName = newName;
-                this.LocationType = newLocationType;
-                this.Interval = newInterval;
-                this.RandomXY = newRandomXY;
-                this.RendType = newRendType;
-                this.SoundEffect = newSoundEffect;
-            }
+            this.EffectNumber = newEffectNumber;
+            this.ID = newID;
+            this.X = newX;
+            this.Y = newY;
+            this.Z = newZ;
+            this.TargetName = newName;
+            this.LocationType = newLocationType;
+            this.Interval = newInterval;
+            this.RandomXY = newRandomXY;
+            this.RendType = newRendType;
+            this.SoundEffect = newSoundEffect;
         }
 
         private void PlaySoundEffectCommand()

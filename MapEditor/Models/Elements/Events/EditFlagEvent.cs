@@ -59,11 +59,8 @@
             var newFlagNumber = this.ParseIntOrAddError(entries[1]);
             var newValueToSet = this.ParseBoolOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.FlagNumber = newFlagNumber;
-                this.ValueToSet = newValueToSet;
-            }
+            this.FlagNumber = newFlagNumber;
+            this.ValueToSet = newValueToSet;
         }
     }
 }

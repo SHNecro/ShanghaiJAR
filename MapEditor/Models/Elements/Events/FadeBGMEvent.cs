@@ -49,16 +49,13 @@
                 return;
             }
 
-            var newEndVolume = this.ParseIntOrAddError(entries[1], (ev) => ev >= 0 && ev <= 100, (ev) => $"Invalid ending volume {ev} (0-100)");
-            var newFadeTime = this.ParseIntOrAddError(entries[2], (ft) => ft >= 0, (ft) => $"Invalid fade time {ft} (>= 0)");
+            var newEndVolume = this.ParseIntOrAddError(entries[1], () => this.EndVolume, (ev) => ev >= 0 && ev <= 100, (ev) => $"Invalid ending volume {ev} (0-100)");
+            var newFadeTime = this.ParseIntOrAddError(entries[2], () => this.FadeTime, (ft) => ft >= 0, (ft) => $"Invalid fade time {ft} (>= 0)");
             var newIsWaiting = this.ParseBoolOrAddError(entries[3]);
 
-            if (!this.HasErrors)
-            {
-                this.EndVolume = newEndVolume;
-                this.FadeTime = newFadeTime;
-                this.IsWaiting = newIsWaiting;
-            }
+            this.EndVolume = newEndVolume;
+            this.FadeTime = newFadeTime;
+            this.IsWaiting = newIsWaiting;
         }
     }
 }

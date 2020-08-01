@@ -53,12 +53,9 @@
             var newIsTrue = this.ParseBoolOrAddError(entries[2]);
             var newStatementID = this.ParseIntOrAddError(entries[3]);
 
-            if (!this.HasErrors)
-            {
-                this.FlagNumber = newFlagNumber;
-                this.IsTrue = newIsTrue;
-                this.StatementID = newStatementID;
-            }
+            this.FlagNumber = newFlagNumber;
+            this.IsTrue = newIsTrue;
+            this.StatementID = newStatementID;
         }
     }
 }

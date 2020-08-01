@@ -295,15 +295,15 @@ namespace MapEditor.Models
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
-            this.Validate(entries, "Invalid number of parameters.", e => e.Length == 4 || e.Length == 9);
+            this.Validate(entries, "Malformed enemy specification.", e => e.Length == 4 || e.Length == 9);
 
             var newId = this.ParseIntOrAddError(entries[0]);
             var newRank = this.ParseIntOrAddError(entries[1]);
-			this.Validate(newRank, "Negative rank.", rankVal => rankVal >= 0);
+			this.Validate(newRank, () => this.Rank, "Negative rank.", rankVal => rankVal >= 0);
 			var newX = this.ParseIntOrAddError(entries[2]);
-			this.Validate(newX, "X position out of enemy area.", xPos => xPos >= 3 && xPos <= 5);
+			this.Validate(newX, () => this.X, "X position out of enemy area.", xPos => xPos >= 3 && xPos <= 5);
 			var newY = this.ParseIntOrAddError(entries[3]);
-			this.Validate(newY, "Y position out of enemy area.", yPos => yPos >= 0 && yPos <= 2);
+			this.Validate(newY, () => this.Y, "Y position out of enemy area.", yPos => yPos >= 0 && yPos <= 2);
 
 			Chip chip1, chip2, chip3;
             int newHP = 1;
@@ -317,22 +317,19 @@ namespace MapEditor.Models
                 chip3 = new Chip { ID = this.ParseIntOrAddError(entries[6]), CodeNumber = null };
                 newHP = this.ParseIntOrAddError(entries[7]);
                 newNameKey = entries[8];
-                // this.Validate(newNameKey, "Name key does not exist.", Constants.TranslationService.CanTranslate);
+                this.Validate(newNameKey, () => this.NameKey, s => $"Name key \"{s}\" does not exist.", Constants.TranslationService.CanTranslate);
             }
 
-            if (!this.HasErrors)
-            {
-                this.id = newId;
-                this.x = newX;
-                this.y = newY;
-                this.rank = newRank;
-                
-                this.chips = new[] { chip1, chip2, chip3, chip2, chip1 };
-                this.hp = newHP;
-                this.nameKey = newNameKey;
+            this.id = newId;
+            this.x = newX;
+            this.y = newY;
+            this.rank = newRank;
 
-                this.RefreshEnemyDefinition();
-            }
+            this.chips = new[] { chip1, chip2, chip3, chip2, chip1 };
+            this.hp = newHP;
+            this.nameKey = newNameKey;
+
+            this.RefreshEnemyDefinition();
         }
     }
 }

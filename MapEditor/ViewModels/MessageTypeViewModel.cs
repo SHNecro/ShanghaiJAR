@@ -87,8 +87,6 @@ namespace MapEditor.ViewModels
 
         protected override void SetStringValue(string value)
         {
-            base.SetStringValue(value);
-
             this.Messages.Clear();
 
             var xmlDoc = new XmlDocument();

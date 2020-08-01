@@ -1,4 +1,7 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
+using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 
@@ -57,12 +60,12 @@ namespace MapEditor.Models.Elements.Events
             
             var newEncounter = new RandomEncounter { StringValue = value };
 
-            this.AddChildErrors(null, new[] { newEncounter });
+            this.Encounter = newEncounter;
+        }
 
-            if (!this.HasErrors)
-            {
-                this.Encounter = newEncounter;
-            }
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.Encounter?.Errors).AsObservableCollectionOrEmpty();
         }
 
         private void EncounterPropertyChanged(object sender, PropertyChangedEventArgs e)

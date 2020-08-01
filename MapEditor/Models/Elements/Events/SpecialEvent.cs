@@ -40,10 +40,7 @@ namespace MapEditor.Models.Elements.Events
             var newSpecialEventNumber = this.ParseIntOrAddError(entries[1]);
             this.ParseEnumOrAddError<SpecialEventTypeNumber>(entries[1]);
 
-            if (!this.HasErrors)
-            {
-                this.SpecialEventNumber = newSpecialEventNumber;
-            }
+            this.SpecialEventNumber = newSpecialEventNumber;
         }
     }
 }

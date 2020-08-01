@@ -70,8 +70,8 @@ namespace MapEditor.Rendering
             //foreach (MapEffect mapEffect in this.effect)
             //	circleObjects.Add(mapEffect);
             //circleObjects.Add(parent.Player);
-            List<MapObject> orderedCircleObjects = mapObjects.Where(o => o.Pages.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm == HitFormType.Circle).OrderBy(c => c.X + c.Y).ToList();
-            List<MapObject> orderedSquareObjects = mapObjects.Where(o => o.Pages.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm != HitFormType.Circle).OrderBy(c => c.X + c.Y).ToList();
+            List<MapObject> orderedCircleObjects = mapObjects.Where(o => o.Pages?.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm == HitFormType.Circle).OrderBy(c => c.X + c.Y).ToList();
+            List<MapObject> orderedSquareObjects = mapObjects.Where(o => o.Pages?.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm != HitFormType.Circle).OrderBy(c => c.Level).ThenBy(c => c.X + c.Y).ToList();
             var objectIndex = orderedCircleObjects.Select((x, i) => new Tuple<int, MapObject>(i, x)).ToDictionary(t => new Tuple<int, int>(t.Item1, 0), t => t.Item2);
             foreach (MapObject mapObject in orderedSquareObjects)
             {

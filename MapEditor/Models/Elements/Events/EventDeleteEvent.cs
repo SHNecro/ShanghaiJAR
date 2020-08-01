@@ -36,10 +36,7 @@
 
             var newID = entries[1];
 
-            if (!this.HasErrors)
-            {
-                this.ID = newID;
-            }
+            this.ID = newID;
         }
     }
 }

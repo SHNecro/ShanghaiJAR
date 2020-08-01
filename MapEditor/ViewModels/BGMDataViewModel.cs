@@ -1,5 +1,6 @@
 ﻿using Common.OpenAL;
 using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models.Elements;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using OpenTK.Audio.OpenAL;
@@ -245,13 +246,17 @@ namespace MapEditor.ViewModels
             var newBgm = value.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None)
                 .Where(res => res != string.Empty)
                 .Select(res => new BGMViewModel { StringValue = res }).ToList();
-            this.AddChildErrors(null, newBgm);
 
             var originalSelectedBGM = this.SelectedBGM?.StringValue;
             this.BGM = new ObservableCollection<BGMViewModel>(newBgm);
             this.SelectedBGM = this.BGM.FirstOrDefault(bgm => bgm.StringValue == originalSelectedBGM) ?? bgm.FirstOrDefault();
 
             this.originalStringValue = this.StringValue;
+        }
+
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.BGM?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
         }
 
         protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)

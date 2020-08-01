@@ -42,10 +42,7 @@ namespace MapEditor.Models.Elements.Events
             var newHPChange = this.ParseIntOrAddError(entries[1]);
             var newIsAdding = this.ParseBoolOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.HPChange = newIsAdding ? newHPChange : -newHPChange;
-            }
+            this.HPChange = newIsAdding ? newHPChange : -newHPChange;
         }
     }
 }

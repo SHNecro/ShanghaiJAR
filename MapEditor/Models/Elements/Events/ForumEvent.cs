@@ -40,10 +40,7 @@ namespace MapEditor.Models.Elements.Events
             var newForumNumber = this.ParseIntOrAddError(entries[1]);
             this.ParseEnumOrAddError<ForumTypeNumber>(entries[1]);
 
-            if (!this.HasErrors)
-            {
-                this.ForumNumber = newForumNumber;
-            }
+            this.ForumNumber = newForumNumber;
         }
     }
 }

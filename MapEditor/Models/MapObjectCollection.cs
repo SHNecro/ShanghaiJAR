@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -88,12 +89,13 @@ namespace MapEditor.Models
 
                 return 0;
             })).ToList();
-			this.AddChildErrors(null, newMapObjects);
 
-			if (!this.HasErrors)
-			{
-                this.MapObjects = new ObservableCollection<MapObject>(newMapObjects);
-            }
+            this.MapObjects = new ObservableCollection<MapObject>(newMapObjects);
+        }
+
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.MapObjects?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
         }
 
         private void OnMapObjectCollectionChanged(object sender, EventArgs args)

@@ -36,10 +36,7 @@
 
             var newBranchNumber = this.ParseIntOrAddError(entries[1]);
 
-            if (!this.HasErrors)
-            {
-                this.BranchNumber = newBranchNumber;
-            }
+            this.BranchNumber = newBranchNumber;
         }
     }
 }

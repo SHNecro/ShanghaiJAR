@@ -1,7 +1,10 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Rendering;
 using MapEditor.ViewModels;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using Panel = NSBattle.Panel;
@@ -223,17 +226,15 @@ namespace MapEditor.Models
                 this.Validate(entries, "Invalid number of parameters.", e => e.Length == 37 || e.Length == 19);
                 return;
             }
-            
-            this.AddChildErrors("Enemies", new[] { newEnemy1, newEnemy2, newEnemy3 });
 
             var newPrimaryPanelInt = this.ParseIntOrAddError(entries[offset]);
-            this.Validate(newPrimaryPanelInt, "Invalid primary panel type (0 - 9).", ppi => ppi >= 0 && ppi <= 9);
+            this.Validate(newPrimaryPanelInt, () => (int)this.PrimaryPanel, i => $"Invalid primary panel type {i} (0 - 9).", ppi => ppi >= 0 && ppi <= 9);
 
             var newSecondaryPanelInt = this.ParseIntOrAddError(entries[offset + 1]);
-            this.Validate(newSecondaryPanelInt, "Invalid secondary panel type (0 - 9).", spi => spi >= 0 && spi <= 9);
+            this.Validate(newSecondaryPanelInt, () => (int)this.SecondaryPanel, i => $"Invalid secondary panel type {i} (0 - 9).", spi => spi >= 0 && spi <= 9);
 
             var newPanelPatternNumber = this.ParseIntOrAddError(entries[offset + 2]);
-            this.Validate(newPanelPatternNumber, "Invalid panel pattern (0 - 21).", ppn => ppn < NSShanghaiEXE.Common.Constants.PanelLayouts.Count);
+            this.Validate(newPanelPatternNumber, () => this.PanelPatternNumber, i => $"Invalid panel pattern {i} (0 - 21).", ppn => ppn < NSShanghaiEXE.Common.Constants.PanelLayouts.Count);
 
             var newIsTutorial = this.ParseBoolOrAddError(entries[offset + 3]);
             var newIsChipDropped = this.ParseBoolOrAddError(entries[offset + 4]);
@@ -245,26 +246,28 @@ namespace MapEditor.Models
             // Not used by random encounters
             var newBackgroundNumber = isLongForm ? (offset + 8 < entries.Length ? this.ParseIntOrAddError(entries[offset + 8]) : 0) : 0;
 
-            if (!this.HasErrors)
-            {
-                this.Enemy1 = newEnemy1;
-                this.Enemy2 = newEnemy2;
-                this.Enemy3 = newEnemy3;
-                this.PrimaryPanel = (Panel.PANEL)newPrimaryPanelInt;
-                this.SecondaryPanel = (Panel.PANEL)newSecondaryPanelInt;
-                this.PanelPatternNumber = newPanelPatternNumber;
-                this.IsTutorial = newIsTutorial;
-                this.IsChipDropped = newIsChipDropped;
-                this.IsEscapable = newIsEscapable;
+            this.Enemy1 = newEnemy1;
+            this.Enemy2 = newEnemy2;
+            this.Enemy3 = newEnemy3;
+            this.PrimaryPanel = (Panel.PANEL)newPrimaryPanelInt;
+            this.SecondaryPanel = (Panel.PANEL)newSecondaryPanelInt;
+            this.PanelPatternNumber = newPanelPatternNumber;
+            this.IsTutorial = newIsTutorial;
+            this.IsChipDropped = newIsChipDropped;
+            this.IsEscapable = newIsEscapable;
 
-                this.IsLongForm = isLongForm;
-                if (this.IsLongForm)
-                {
-                    this.IsGameEnding = newIsGameEnding;
-                    this.BackgroundMusic = newBackgroundMusic;
-                    this.BackgroundNumber = newBackgroundNumber;
-                }
+            this.IsLongForm = isLongForm;
+            if (this.IsLongForm)
+            {
+                this.IsGameEnding = newIsGameEnding;
+                this.BackgroundMusic = newBackgroundMusic;
+                this.BackgroundNumber = newBackgroundNumber;
             }
+        }
+
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.Enemies?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
         }
 
         private Enemy GetFirstEnemyOrDefault()

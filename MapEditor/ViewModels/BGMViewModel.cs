@@ -93,28 +93,43 @@ namespace MapEditor.ViewModels
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(',');
-            if (!this.Validate(entries, "Invalid number of parameters.", e => e.Length == 4))
+            if (!this.Validate(entries, "Malformed BGM entry.", e => e.Length == 4))
             {
                 return;
             }
 
-            var newLoopStart = this.ParseIntOrAddError(entries[0], i => i >= 0, (i) => "Loop start must be >= 0");
-            var newLoopEnd = this.ParseIntOrAddError(entries[1], i => i >= 0, (i) => "Loop end must be >= 0");
+            var newLoopStart = this.ParseLongOrAddError(entries[0], () => this.LoopStart, i => i >= 0, (i) => "Loop start must be >= 0");
+            var newLoopEnd = this.ParseLongOrAddError(entries[1], () => this.LoopEnd, i => i >= 0, (i) => "Loop end must be >= 0");
             var newName = entries[2];
             var newFile = entries[3];
             var filePath = Path.Combine("music", newFile + ".ogg");
 
-            this.Validate(newFile, $"Missing bgm file {newFile}", f => System.IO.File.Exists(filePath));
+            this.Validate(newFile, () => this.File, s => $"Missing bgm file {s}", s => System.IO.File.Exists(s));
 
             try
             {
                 AudioEngine.LoadOggInfo(filePath, out _, out this.totalSamples);
-                this.Validate(newLoopStart, $"Loop start past loop end or .ogg sample range {this.totalSamples}", l => l <= newLoopEnd && l <= this.totalSamples);
-                this.Validate(newLoopEnd, $"Loop end before loop start or past .ogg sample range {this.totalSamples}", l => l >= newLoopStart && l <= this.totalSamples);
+                this.Validate(newLoopStart, () => this.LoopStart, $"Loop start past loop end or .ogg sample range {this.totalSamples}", l => l <= newLoopEnd && l <= this.totalSamples);
+                this.Validate(newLoopEnd, () => this.LoopEnd, $"Loop end before loop start or past .ogg sample range {this.totalSamples}", l => l >= newLoopStart && l <= this.totalSamples);
             }
             catch (InvalidOperationException)
             {
-                this.Validate(false, $"Invalid .ogg file \"{filePath}\"", b => b);
+                this.Validate(
+                    newFile,
+                    () => Path.Combine("music", this.File + ".ogg"),
+                    s => $"Invalid .ogg file \"{s}\"",
+                    s => 
+                    {
+                        try
+                        {
+                            AudioEngine.LoadOggInfo(Path.Combine("music", s + ".ogg"), out _, out this.totalSamples);
+                            return true;
+                        }
+                        catch
+                        {
+                            return false;
+                        }
+                    });
             }
 
             // Still error design issues, ideally would have "properties-to-validate-on", etc. but too much work

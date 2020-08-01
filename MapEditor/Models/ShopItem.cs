@@ -190,13 +190,10 @@ namespace MapEditor.Models
             var newPrice = this.ParseIntOrAddError(entries[2]);
             var newStock = this.ParseIntOrAddError(entries[3]);
 
-            if (!this.HasErrors)
-            {
-                this.ID = newID;
-                this.Data = newData;
-                this.Price = newPrice;
-                this.Stock = newStock;
-            }
+            this.ID = newID;
+            this.Data = newData;
+            this.Price = newPrice;
+            this.Stock = newStock;
         }
 
         protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)

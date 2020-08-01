@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models.Elements;
 using System;
 using System.Collections.ObjectModel;
@@ -73,15 +74,16 @@ namespace MapEditor.Models
 		protected override void SetStringValue(string value)
 		{
 			var newTerms = value.Split(',').Where(ms => !string.IsNullOrEmpty(ms)).Select(ms => TermObject.FromString(ms)).ToList();
-			this.AddChildErrors(null, newTerms);
 
-			if (!this.HasErrors)
-			{
-				this.Terms = new ObservableCollection<TermObject>(newTerms);
-			}
-		}
+            this.Terms = new ObservableCollection<TermObject>(newTerms);
+        }
 
-		private void OnTermsCollectionChanged(object sender, EventArgs args)
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.Terms?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+        }
+
+        private void OnTermsCollectionChanged(object sender, EventArgs args)
 		{
 			if (!this.Terms.Contains(this.SelectedTerm))
 			{

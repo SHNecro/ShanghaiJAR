@@ -53,14 +53,11 @@
                 return;
             }
 
-            var newMailNumber = this.ParseIntOrAddError(entries[1], (ev) => ev >= 0, (ev) => $"Invalid mail number {ev} (>= 0)");
+            var newMailNumber = this.ParseIntOrAddError(entries[1], () => this.MailNumber, (ev) => ev >= 0, (ev) => $"Invalid mail number {ev} (>= 0)");
             var newIsPlayingEffect = this.ParseBoolOrAddError(entries[2]);
 
-            if (!this.HasErrors)
-            {
-                this.MailNumber = newMailNumber;
-                this.IsPlayingEffect = newIsPlayingEffect;
-            }
+            this.MailNumber = newMailNumber;
+            this.IsPlayingEffect = newIsPlayingEffect;
         }
     }
 }

@@ -1,7 +1,11 @@
 ﻿using Common;
 using ExtensionMethods;
+using MapEditor.Core;
 using MapEditor.Core.Converters;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models.Elements.Enums;
+using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 
@@ -151,17 +155,18 @@ namespace MapEditor.Models.Elements.Events
             this.ParseEnumOrAddError<ShopPriceTypeNumber>(entries[6]);
 
             var newShopItems = new ShopItemCollection { StringValue = string.Join(":", entries.Skip(7)), ShopType = newShopTypeNumber, PriceType = newPriceTypeNumber };
-            this.AddChildErrors(null, new[] { newShopItems });
 
-            if (!this.HasErrors)
-            {
-                this.ShopStockIndex = newShopStockIndex;
-                this.ShopTypeNumber = newShopTypeNumber;
-                this.ShopClerkTypeNumber = newClerkType;
-                this.Face = newFace;
-                this.PriceTypeNumber = newPriceTypeNumber;
-                this.ShopItems = newShopItems;
-            }
+            this.ShopStockIndex = newShopStockIndex;
+            this.ShopTypeNumber = newShopTypeNumber;
+            this.ShopClerkTypeNumber = newClerkType;
+            this.Face = newFace;
+            this.PriceTypeNumber = newPriceTypeNumber;
+            this.ShopItems = newShopItems;
+        }
+
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.ShopItems?.Errors).AsObservableCollectionOrEmpty();
         }
 
         private void OnShopItemsPropertyChanged(object sender, PropertyChangedEventArgs e)

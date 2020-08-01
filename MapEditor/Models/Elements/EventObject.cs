@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models.Elements.Enums;
 using MapEditor.Models.Elements.Events;
 using System;
@@ -708,7 +709,7 @@ namespace MapEditor.Models
             }
             else
             {
-                term.Errors.Add($"Invalid event \"{value}\".");
+                term.Errors.Add(Tuple.Create((StringRepresentation)null, $"Invalid event \"{value}\"."));
             }
 
             return term;
@@ -718,7 +719,7 @@ namespace MapEditor.Models
 
         protected override void SetStringValue(string value) => this.Instance = EventObject.FromString(value).Instance;
 
-        protected override ObservableCollection<string> GetErrors() => this.Instance?.Errors;
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors() => (this.Instance?.Errors).AsObservableCollectionOrEmpty();
 
         protected override string GetTypeName() => this.Instance?.TypeName;
 

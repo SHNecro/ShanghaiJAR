@@ -41,14 +41,11 @@
                 return;
             }
 
-            var newMagnitude = this.ParseIntOrAddError(entries[1], m => m >= 1, m => $"Invalid magnitude {m} (>= 1)");
-            var newDurationFrames = this.ParseIntOrAddError(entries[2], df => df >= 0, df => $"Invalid duration {df} (>= 0)");
+            var newMagnitude = this.ParseIntOrAddError(entries[1], () => this.Magnitude, m => m >= 1, m => $"Invalid magnitude {m} (>= 1)");
+            var newDurationFrames = this.ParseIntOrAddError(entries[2], () => this.DurationFrames, df => df >= 0, df => $"Invalid duration {df} (>= 0)");
 
-            if (!this.HasErrors)
-            {
-                this.Magnitude = newMagnitude;
-                this.DurationFrames = newDurationFrames;
-            }
+            this.Magnitude = newMagnitude;
+            this.DurationFrames = newDurationFrames;
         }
     }
 }

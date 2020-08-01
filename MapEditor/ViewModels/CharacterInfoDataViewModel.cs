@@ -140,8 +140,6 @@ namespace MapEditor.ViewModels
 
         protected override void SetStringValue(string value)
         {
-            base.SetStringValue(value);
-
             for (var sheet = 0; sheet < this.floatingCharacters.GetLength(0); sheet++)
             {
                 for (var charIndex = 0; charIndex < this.floatingCharacters.GetLength(1); charIndex++)

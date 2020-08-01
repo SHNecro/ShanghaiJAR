@@ -48,6 +48,8 @@
                 <MenuItem Header="Se_ttings..." Command="{Binding OpenSettingsCommand}" InputGestureText="Ctrl+T" />
             </MenuItem>
             <MenuItem Header="_View">
+                <MenuItem Header="_Errors" Command="{Binding OpenErrorsCommand}" />
+                <Separator />
                 <MenuItem Header="_Print Entity IDs" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsShowingIDs, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 <MenuItem Header="_Animate" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsAnimating, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                 <MenuItem Header="_Outline Selected Object" IsCheckable="True" IsChecked="{Binding MapDisplayOptions.IsOutlining, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>

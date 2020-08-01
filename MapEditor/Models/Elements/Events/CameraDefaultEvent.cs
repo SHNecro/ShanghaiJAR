@@ -36,10 +36,7 @@
 
             var newMoveTime = this.ParseIntOrAddError(entries[1]);
 
-            if (!this.HasErrors)
-            {
-                this.MoveTime = newMoveTime;
-            }
+            this.MoveTime = newMoveTime;
         }
     }
 }

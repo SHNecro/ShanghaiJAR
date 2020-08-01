@@ -1,6 +1,8 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Drawing;
 using System.IO;
@@ -144,17 +146,17 @@ namespace MapEditor.Models
 			var newPages = MapEventPageCollection.FromStringList(pageStrings);
 			this.Validate(newPages, "No valid event pages found", pgs => pgs.MapEventPages.Count > 0);
 
-            this.AddChildErrors(null, new[] { newPages });
+            this.ID = newId;
+            this.X = newX;
+            this.Y = newY;
+            this.Level = newZ;
 
-            if (!this.HasErrors)
-            {
-                this.ID = newId;
-                this.X = newX;
-                this.Y = newY;
-                this.Level = newZ;
+            this.Pages = newPages;
+        }
 
-				this.Pages = newPages;
-            }
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        {
+            return (this.Pages?.Errors).AsObservableCollectionOrEmpty();
         }
 
         private void OnPagesPropertyChanged(object sender, PropertyChangedEventArgs e)

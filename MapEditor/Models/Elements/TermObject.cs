@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using MapEditor.ExtensionMethods;
 using MapEditor.Models.Elements.Enums;
 using MapEditor.Models.Elements.Terms;
 using System;
@@ -115,7 +116,7 @@ namespace MapEditor.Models.Elements
 
         protected override void SetStringValue(string value) => this.Instance = TermObject.FromString(value).Instance;
 
-        protected override ObservableCollection<string> GetErrors() => this.Instance?.Errors;
+        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors() => (this.Instance?.Errors).AsObservableCollectionOrEmpty();
 
         protected override string GetTypeName() => this.Instance?.TypeName;
 

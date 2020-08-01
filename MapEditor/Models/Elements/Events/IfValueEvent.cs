@@ -66,25 +66,22 @@ namespace MapEditor.Models.Elements.Events
                 return;
             }
 
-            var newVariableLeft = this.ParseIntOrAddError(entries[1], vl => vl >= 0, vl => $"Invalid target variable {vl} (>= 0)");
+            var newVariableLeft = this.ParseIntOrAddError(entries[1], () => this.VariableLeft, vl => vl >= 0, vl => $"Invalid target variable {vl} (>= 0)");
 
             var newIsVariable = this.ParseBoolOrAddError(entries[2]);
 
-            var newVariableOrConstantRight = this.ParseIntOrAddError(entries[3], vocr => !newIsVariable || vocr >= 0, vocr => $"Invalid comparison variable {vocr} (>= 0)");
+            var newVariableOrConstantRight = this.ParseIntOrAddError(entries[3], () => this.VariableOrConstantRight, vocr => !newIsVariable || vocr >= 0, vocr => $"Invalid comparison variable {vocr} (>= 0)");
 
             var newOperatorType = this.ParseIntOrAddError(entries[4]);
             this.ParseEnumOrAddError<IfValueOperatorTypeNumber>(entries[4]);
 
             var newStatementID = this.ParseIntOrAddError(entries[5]);
 
-            if (!this.HasErrors)
-            {
-                this.VariableLeft = newVariableLeft;
-                this.OperatorType = newOperatorType;
-                this.VariableOrConstantRight = newVariableOrConstantRight;
-                this.IsVariable = newIsVariable;
-                this.StatementID = newStatementID;
-            }
+            this.VariableLeft = newVariableLeft;
+            this.OperatorType = newOperatorType;
+            this.VariableOrConstantRight = newVariableOrConstantRight;
+            this.IsVariable = newIsVariable;
+            this.StatementID = newStatementID;
         }
     }
 }

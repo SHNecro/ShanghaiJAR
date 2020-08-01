@@ -36,10 +36,7 @@
 
             var newLabel = entries[1];
 
-            if (!this.HasErrors)
-            {
-                this.Label = newLabel;
-            }
+            this.Label = newLabel;
         }
     }
 }
