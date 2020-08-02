@@ -70,6 +70,8 @@ namespace MapEditor.Models
 
         protected override void SetStringValue(string value)
         {
+            base.SetStringValue(value);
+
             var newType = default(int);
             var mystery = default(RandomMystery);
             var newFlag = default(int);

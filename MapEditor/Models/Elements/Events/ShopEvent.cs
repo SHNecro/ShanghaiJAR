@@ -164,9 +164,9 @@ namespace MapEditor.Models.Elements.Events
             this.ShopItems = newShopItems;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.ShopItems?.Errors).AsObservableCollectionOrEmpty();
+            return this.UpdateChildErrorStack(ShopItems);
         }
 
         private void OnShopItemsPropertyChanged(object sender, PropertyChangedEventArgs e)

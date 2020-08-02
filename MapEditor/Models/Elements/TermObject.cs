@@ -116,7 +116,7 @@ namespace MapEditor.Models.Elements
 
         protected override void SetStringValue(string value) => this.Instance = TermObject.FromString(value).Instance;
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors() => (this.Instance?.Errors).AsObservableCollectionOrEmpty();
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors() => this.Instance?.Errors ?? new ObservableCollection<Tuple<StringRepresentation[], string>>();
 
         protected override string GetTypeName() => this.Instance?.TypeName;
 

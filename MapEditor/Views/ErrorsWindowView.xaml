@@ -7,12 +7,98 @@
         mc:Ignorable="d"
         Title="ErrorsWindowView" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition  />
-            <RowDefinition />
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Text="Errors" />
-        <TextBox Grid.Row="1" IsReadOnly="True"
-                 Text="{Binding Text}" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="3" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="2"
+              Panel.ZIndex="9"
+              Background="LightGray">
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Errors.Count}" Value="0">
+                            <Setter Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                    
+                    <Setter Property="Visibility" Value="Collapsed" />
+                </Style>
+            </Grid.Style>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Text="No errors" />
+        </Grid>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0"
+                    Content="Refresh"
+                    Command="{Binding RefreshCommand}" />
+
+            <ListBox Grid.Row="1"
+                     ScrollViewer.VerticalScrollBarVisibility="Auto"
+                     ItemsSource="{Binding Errors}"
+                     SelectedItem="{Binding SelectedError}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock FontWeight="Bold"
+                                       Text="{Binding Item2}" />
+                            <ItemsControl ItemsSource="{Binding Item1}"
+                                      DisplayMemberPath="Item2" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+        <GridSplitter Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" 
+                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <TextBlock Grid.Row="0"
+                       FontWeight="Bold"
+                       Text="{Binding SelectedError.Item2}" />
+
+            <ListView Grid.Row="1"
+                      x:Name="LevelList"
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden"
+                      ItemsSource="{Binding SelectedError.Item1}">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <Run Text="> " />
+                            <Run Text="{Binding Item2, Mode=OneWay}" />
+                        </TextBlock>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBox Grid.Row="2"
+                     IsReadOnly="True"
+                     AcceptsReturn="True"
+                     TextWrapping="NoWrap"
+                     VerticalScrollBarVisibility="Auto"
+                     HorizontalScrollBarVisibility="Auto"
+                     Opacity="0.56"
+                     Text="{Binding Path=SelectedItem.Item1.StringValue, ElementName=LevelList, Mode=OneWay}" />
+        </Grid>
     </Grid>
 </Window>

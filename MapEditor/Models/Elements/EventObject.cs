@@ -709,7 +709,7 @@ namespace MapEditor.Models
             }
             else
             {
-                term.Errors.Add(Tuple.Create((StringRepresentation)null, $"Invalid event \"{value}\"."));
+                term.Errors.Add(Tuple.Create(new StringRepresentation[] { term }, $"Invalid event \"{value}\"."));
             }
 
             return term;
@@ -719,7 +719,7 @@ namespace MapEditor.Models
 
         protected override void SetStringValue(string value) => this.Instance = EventObject.FromString(value).Instance;
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors() => (this.Instance?.Errors).AsObservableCollectionOrEmpty();
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors() => this.Instance?.Errors ?? new ObservableCollection<Tuple<StringRepresentation[], string>>();
 
         protected override string GetTypeName() => this.Instance?.TypeName;
 

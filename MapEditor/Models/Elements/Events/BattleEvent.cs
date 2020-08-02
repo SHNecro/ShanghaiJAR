@@ -63,9 +63,9 @@ namespace MapEditor.Models.Elements.Events
             this.Encounter = newEncounter;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Encounter?.Errors).AsObservableCollectionOrEmpty();
+            return this.UpdateChildErrorStack(this.Encounter);
         }
 
         private void EncounterPropertyChanged(object sender, PropertyChangedEventArgs e)

@@ -77,9 +77,16 @@ namespace MapEditor.Models
             this.Moves = new ObservableCollection<Move>(newMoves);
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Moves?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.Moves == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.Moves.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private void OnMovesCollectionChanged(object sender, EventArgs args)

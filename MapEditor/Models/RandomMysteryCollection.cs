@@ -80,9 +80,16 @@ namespace MapEditor.Models
             this.RandomMysteryData = new ObservableCollection<RandomMystery>(newRandomMysteryData);
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.RandomMysteryData?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.RandomMysteryData == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.RandomMysteryData.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private void OnRandomMysteryDataCollectionChanged(object sender, EventArgs args)

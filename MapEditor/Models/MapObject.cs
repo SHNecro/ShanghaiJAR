@@ -143,7 +143,8 @@ namespace MapEditor.Models
                 newZ = ParseIntOrAddError(positionEntries[3]);
             }
 
-			var newPages = MapEventPageCollection.FromStringList(pageStrings);
+            var wholePages = string.Join(Environment.NewLine + Environment.NewLine, pageStrings);
+			var newPages = new MapEventPageCollection { StringValue = wholePages };
 			this.Validate(newPages, "No valid event pages found", pgs => pgs.MapEventPages.Count > 0);
 
             this.ID = newId;
@@ -154,9 +155,9 @@ namespace MapEditor.Models
             this.Pages = newPages;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Pages?.Errors).AsObservableCollectionOrEmpty();
+            return this.UpdateChildErrorStack(Pages);
         }
 
         private void OnPagesPropertyChanged(object sender, PropertyChangedEventArgs e)

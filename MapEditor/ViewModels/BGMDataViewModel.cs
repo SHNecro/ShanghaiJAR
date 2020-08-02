@@ -254,9 +254,16 @@ namespace MapEditor.ViewModels
             this.originalStringValue = this.StringValue;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.BGM?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.BGM == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.BGM.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)

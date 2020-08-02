@@ -78,9 +78,16 @@ namespace MapEditor.Models
             this.RandomEncounters = new ObservableCollection<RandomEncounter>(newRandomEncounters);
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.RandomEncounters?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.RandomEncounters == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.RandomEncounters.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private void OnRandomEncountersCollectionChanged(object sender, EventArgs args)

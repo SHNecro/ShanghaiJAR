@@ -93,9 +93,16 @@ namespace MapEditor.Models
             this.MapObjects = new ObservableCollection<MapObject>(newMapObjects);
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.MapObjects?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.MapObjects == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.MapObjects.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private void OnMapObjectCollectionChanged(object sender, EventArgs args)

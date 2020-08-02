@@ -472,14 +472,14 @@ namespace MapEditor.Models
             this.Events = newEvents;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return new[]
+            return new ObservableCollection<Tuple<StringRepresentation[], string>>(new[]
             {
-                (this.Moves?.Errors).AsObservableCollectionOrEmpty(),
-                (this.Terms?.Errors).AsObservableCollectionOrEmpty(),
-                (this.Events?.Errors).AsObservableCollectionOrEmpty()
-            }.SelectMany(oc => oc).AsObservableCollectionOrEmpty();
+                this.UpdateChildErrorStack(Moves),
+                this.UpdateChildErrorStack(Terms),
+                this.UpdateChildErrorStack(Events)
+            }.SelectMany(oc => oc));
         }
 
         private void OnMovesPropertyChanged(object sender, PropertyChangedEventArgs e)

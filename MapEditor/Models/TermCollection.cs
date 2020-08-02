@@ -78,9 +78,16 @@ namespace MapEditor.Models
             this.Terms = new ObservableCollection<TermObject>(newTerms);
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Terms?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.Terms == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.Terms.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private void OnTermsCollectionChanged(object sender, EventArgs args)

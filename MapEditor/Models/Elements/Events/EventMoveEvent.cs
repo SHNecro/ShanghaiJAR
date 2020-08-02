@@ -110,9 +110,9 @@ namespace MapEditor.Models.Elements.Events
             this.Moves = newMoves;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Moves?.Errors).AsObservableCollectionOrEmpty();
+            return this.UpdateChildErrorStack(Moves);
         }
 
         private void OnMovesPropertyChanged(object sender, PropertyChangedEventArgs e)

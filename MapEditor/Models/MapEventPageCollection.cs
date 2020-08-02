@@ -67,16 +67,16 @@ namespace MapEditor.Models
 
         public MapEventPage this[int i] => this.MapEventPages[i];
 
-        public static MapEventPageCollection FromStringList(IList<string> stringList)
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            var newPageCollection = new MapEventPageCollection { MapEventPages = new ObservableCollection<MapEventPage>(stringList.Select((pageString, pageNumber) => { return new MapEventPage { PageNumber = pageNumber + 1, StringValue = pageString }; })) };
-
-            return newPageCollection;
-        }
-
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
-        {
-            return (this.MapEventPages?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.MapEventPages == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.MapEventPages.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         protected override string GetStringValue()
@@ -86,8 +86,16 @@ namespace MapEditor.Models
 
 		protected override void SetStringValue(string value)
 		{
-            throw new InvalidOperationException("List of event pages must be parsed as part of MapObject.");
-		}
+            var lines = value.Split(new[] { Environment.NewLine + Environment.NewLine } , StringSplitOptions.None);
+            this.MapEventPages = new ObservableCollection<MapEventPage>(
+                lines.Select(
+                    (pageString, pageNumber) =>
+                    {
+                        return new MapEventPage { PageNumber = pageNumber + 1, StringValue = pageString };
+                    }
+                )
+            );
+        }
 
 		private void OnEventsCollectionChanged(object sender, EventArgs args)
         {

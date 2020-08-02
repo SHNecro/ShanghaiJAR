@@ -181,16 +181,16 @@ namespace MapEditor.Models
             this.MapObjects = newMapObjects;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return new[]
+            return new ObservableCollection<Tuple<StringRepresentation[], string>>(new[]
             {
-                (this.Header?.Errors).AsObservableCollectionOrEmpty(),
-                (this.WalkableMap?.Errors).AsObservableCollectionOrEmpty(),
-                (this.RandomEncounters?.Errors).AsObservableCollectionOrEmpty(),
-                (this.RandomMysteryData?.Errors).AsObservableCollectionOrEmpty(),
-                (this.MapObjects?.Errors).AsObservableCollectionOrEmpty()
-            }.SelectMany(oc => oc).AsObservableCollectionOrEmpty();
+                this.UpdateChildErrorStack(Header),
+                this.UpdateChildErrorStack(WalkableMap),
+                this.UpdateChildErrorStack(RandomEncounters),
+                this.UpdateChildErrorStack(RandomMysteryData),
+                this.UpdateChildErrorStack(MapObjects)
+            }.SelectMany(oc => oc));
         }
 
         private void OnHeaderPropertyChanged(object sender, PropertyChangedEventArgs e)

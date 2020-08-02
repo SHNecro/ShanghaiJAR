@@ -265,9 +265,16 @@ namespace MapEditor.Models
             }
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Enemies?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.Enemies == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.Enemies.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private Enemy GetFirstEnemyOrDefault()

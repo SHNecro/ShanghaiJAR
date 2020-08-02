@@ -114,9 +114,16 @@ namespace MapEditor.Models
             this.ShopItems = new ObservableCollection<ShopItem>(newShopItems);
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.ShopItems?.SelectMany(t => t.Errors)).AsObservableCollectionOrEmpty();
+            if (this.ShopItems == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+            else
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>(this.ShopItems.SelectMany(sr => this.UpdateChildErrorStack(sr)));
+            }
         }
 
         private void OnShopItemsCollectionChanged(object sender, EventArgs args)

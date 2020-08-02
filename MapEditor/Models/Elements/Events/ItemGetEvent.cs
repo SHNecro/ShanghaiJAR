@@ -57,9 +57,9 @@ namespace MapEditor.Models.Elements.Events
             this.Mystery = newMystery;
         }
 
-        protected override ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected override ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
-            return (this.Mystery?.Errors).AsObservableCollectionOrEmpty();
+            return this.UpdateChildErrorStack(Mystery);
         }
 
         private void MysteryPropertyChanged(object sender, PropertyChangedEventArgs e)

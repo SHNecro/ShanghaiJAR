@@ -9,14 +9,14 @@ namespace MapEditor.Core
 	public class StringRepresentation : ViewModelBase, ICloneable
 	{
         private Collection<Tuple<Func<bool>, Func<string>>> validationRules;
-        private ObservableCollection<Tuple<StringRepresentation, string>> errors;
+        private ObservableCollection<Tuple<StringRepresentation[], string>> errors;
 
         private bool initializedByStringValue;
 
         public StringRepresentation()
 		{
             this.validationRules = new Collection<Tuple<Func<bool>, Func<string>>>();
-			this.errors = new ObservableCollection<Tuple<StringRepresentation, string>>();
+			this.errors = new ObservableCollection<Tuple<StringRepresentation[], string>>();
 		}
 
 		public string StringValue
@@ -39,7 +39,8 @@ namespace MapEditor.Core
 				catch (Exception e)
 				{
 					Console.WriteLine($"{e.GetType().ToString()}: {e.Message}");
-					this.Errors.Add(Tuple.Create((StringRepresentation)this, $"{e.GetType().ToString()}: {e.Message}"));
+                    // More of a code error, but combine handling
+					this.Errors.Add(Tuple.Create(new[] { this }, $"{e.GetType().ToString()}: {e.Message}"));
 				}
 
 				this.OnPropertyChanged(string.Empty);
@@ -47,7 +48,7 @@ namespace MapEditor.Core
             }
 		}
 
-        public ObservableCollection<Tuple<StringRepresentation, string>> Errors => this.GetErrors();
+        public ObservableCollection<Tuple<StringRepresentation[], string>> Errors => this.GetErrors();
 
 		public bool HasErrors => this.Errors == null || this.Errors.Count != 0;
 
@@ -60,7 +61,7 @@ namespace MapEditor.Core
             this.errors.Clear();
         }
 
-        protected virtual ObservableCollection<Tuple<StringRepresentation, string>> GetErrors()
+        protected virtual ObservableCollection<Tuple<StringRepresentation[], string>> GetErrors()
         {
             return this.errors;
         }
@@ -93,13 +94,13 @@ namespace MapEditor.Core
                 else
                 {
                     var errorFuncOrDefault = errorFunc ?? (i => $"Invalid parameter \"{i}\"");
-                    this.Errors.Add(Tuple.Create(this, errorFunc(parsed)));
+                    this.Errors.Add(Tuple.Create(new[] { this }, errorFunc(parsed)));
                     return -1;
                 }
             }
             else
             {
-                this.Errors.Add(Tuple.Create((StringRepresentation)this, $"Failed to parse \"{s}\" as int"));
+                this.Errors.Add(Tuple.Create(new[] { this }, $"Failed to parse \"{s}\" as int"));
                 return -1;
             }
         }
@@ -123,13 +124,13 @@ namespace MapEditor.Core
                 else
                 {
                     var errorFuncOrDefault = errorFunc ?? (i => $"Invalid parameter \"{i}\"");
-                    this.Errors.Add(Tuple.Create(this, errorFunc(parsed)));
+                    this.Errors.Add(Tuple.Create(new[] { this }, errorFunc(parsed)));
                     return -1;
                 }
             }
             else
             {
-                this.Errors.Add(Tuple.Create((StringRepresentation)this, $"Failed to parse \"{s}\" as long"));
+                this.Errors.Add(Tuple.Create(new[] { this }, $"Failed to parse \"{s}\" as long"));
                 return -1;
             }
         }
@@ -146,7 +147,7 @@ namespace MapEditor.Core
 			}
 			else
 			{
-				this.Errors.Add(Tuple.Create((StringRepresentation)this, $"Failed to parse \"{s}\" as {typeof(TEnum).Name}"));
+				this.Errors.Add(Tuple.Create(new[] { this }, $"Failed to parse \"{s}\" as {typeof(TEnum).Name}"));
 				return default(TEnum);
 			}
         }
@@ -163,30 +164,9 @@ namespace MapEditor.Core
             }
             else
             {
-                this.Errors.Add(Tuple.Create((StringRepresentation)this, $"Failed to parse \"{s}\" as boolean."));
+                this.Errors.Add(Tuple.Create(new[] { this }, $"Failed to parse \"{s}\" as boolean."));
                 return false;
             }
-        }
-
-        protected bool AddChildErrors(string location, IEnumerable<StringRepresentation> children)
-		{
-            foreach (var c in children)
-            {
-			    var prepend = location == null ? $"{c.TypeName}: " : $"{location}: ";
-				foreach(var e in c.Errors)
-				{
-					this.Errors.Add(Tuple.Create((StringRepresentation)c, $"{prepend}{e}"));
-				}
-
-            }
-			if (children.Any(c => c.Errors.Any()))
-			{
-				return false;
-			}
-			else
-			{
-				return true;
-			}
         }
 
         protected bool Validate<TVar>(TVar value, Func<TVar> getterFunc, Func<TVar, string> errorFunc, Func<TVar, bool> validateFunc)
@@ -202,7 +182,7 @@ namespace MapEditor.Core
             }
             else
             {
-                this.Errors.Add(Tuple.Create((StringRepresentation)this, errorFunc(value)));
+                this.Errors.Add(Tuple.Create(new[] { this }, errorFunc(value)));
                 return false;
             }
         }
@@ -215,6 +195,16 @@ namespace MapEditor.Core
 
         protected bool Validate<TVar>(TVar value, string error, Func<TVar, bool> validateFunc)
             => this.Validate(value, (s) => error, validateFunc);
+
+        protected ObservableCollection<Tuple<StringRepresentation[], string>> UpdateChildErrorStack(StringRepresentation child)
+        {
+            if (child == null)
+            {
+                return new ObservableCollection<Tuple<StringRepresentation[], string>>();
+            }
+
+            return new ObservableCollection<Tuple<StringRepresentation[], string>>(child.Errors.Select(tup => Tuple.Create(tup.Item1.Concat(new[] { this }).ToArray(), tup.Item2)));
+        }
 
         protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
@@ -233,7 +223,7 @@ namespace MapEditor.Core
             {
                 if (!rule.Item1.Invoke())
                 {
-                    this.Errors.Add(Tuple.Create(this, rule.Item2.Invoke()));
+                    this.Errors.Add(Tuple.Create(new[] { this }, rule.Item2.Invoke()));
                 }
             }
         }
