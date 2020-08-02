@@ -763,7 +763,7 @@ ID:Keystone-Shadow
 position:28:512:0
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:30
@@ -778,7 +778,7 @@ msgclose:
 end
 page:2
 startterms:Abutton
-type:1
+type:0
 terms:flag/788
 move:
 speed:30
@@ -891,7 +891,7 @@ type:0
 terms:none
 move:
 speed:0
-graphic:-25:1150,600,300,200,0
+graphic:-25:0,0,0,0,0
 hitrange:0:0:0:0
 hitform:square
 event:
