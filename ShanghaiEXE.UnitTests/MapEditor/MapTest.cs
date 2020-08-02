@@ -19,7 +19,7 @@ namespace Tests.MapEditor
 
             var mapDataDir = new DirectoryInfo("MapData");
 
-            var errors = new List<Tuple<StringRepresentation, string>>();
+            var errors = new List<Tuple<StringRepresentation[], string>>();
             foreach (var file in mapDataDir.GetFiles("*.shd"))
             {
                 using (var sr = new StreamReader(file.OpenRead()))
