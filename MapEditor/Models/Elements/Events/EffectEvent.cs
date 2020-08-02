@@ -203,7 +203,7 @@ namespace MapEditor.Models.Elements.Events
             var newRendType = this.ParseIntOrAddError(entries[9]);
             this.ParseEnumOrAddError<RenderTypeNumber>(entries[9]);
             var newSoundEffect = entries[10];
-            this.Validate(newSoundEffect, () => this.SoundEffect, s => $"Sound ({s}.wav) not found", s => Constants.SoundLoadStrategy?.CanProvideFile(s + ".wav") ?? true);
+            this.Validate(newSoundEffect, () => this.SoundEffect, s => $"Sound ({s}.wav) not found", s => s == "none" || (Constants.SoundLoadStrategy?.CanProvideFile(s) ?? true));
 
             this.EffectNumber = newEffectNumber;
             this.ID = newID;
