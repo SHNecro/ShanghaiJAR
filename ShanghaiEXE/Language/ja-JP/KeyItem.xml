@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="KeyItem.CompressedDataName" Value="圧縮データ" />
   <Text Key="KeyItem.CompressedDataDescDialogue1" Value="ゲンソウエリアに埋まってた,謎が多い圧縮データね" />
@@ -98,4 +98,6 @@
   -->
   <Text Key="KeyItem.ReincarnationProgramName" Value="転生プログラム" />
   <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="スプライトをナビに転生させる,今では使われてない,特別なプログラムね" />
+  <Text Key="KeyItem.SecretKeyName" Value="[Secret Key]" />
+  <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="[An important-looking key.,Probably opens an,important-looking door.]" Face="None" Mono="False" />
 </data>

@@ -215,6 +215,10 @@ msg:Map.EienSquareSagePostgameStage4Dialogue2
 msg:Map.EienSquareSagePostgameStage4Dialogue3
 msg:Map.EienSquareSagePostgameStage4Dialogue4
 msg:Map.EienSquareSagePostgameStage4Dialogue5
+msg:Map.EienSquareSagePostgameStage4Dialogue6
+msg:Map.EienSquareSagePostgameStage4Dialogue7
+msg:Map.EienSquareSagePostgameStage4Dialogue8
+msg:Map.EienSquareSagePostgameStage4Dialogue9
 msgclose:
 stopSkip:
 emove:3章千里眼爺さん:waydown,0:wait,0
@@ -1457,9 +1461,6 @@ msg:Map.EienSquareSageQuizCompleteSequenceBreakDialogue1
 ifEnd:0
 msg:Map.EienSquareSageQuizCompleteDialogue1
 msg:Map.EienSquareSageQuizCompleteDialogue2
-msg:Map.EienSquareSageQuizCompleteDialogue3
-msg:Map.EienSquareSageQuizCompleteDialogue4
-msg:Map.EienSquareSageQuizCompleteDialogue5
 msgclose:
 wait:30:False
 ifFlag:798:False:0
@@ -1487,7 +1488,6 @@ hitform:square
 event:
 msgopen:
 msg:Map.EienSquareSageQuizProgressQuiz3Dialogue1
-msg:Map.EienSquareSageQuizProgressQuiz3Dialogue2
 msg:Map.EienSquareSageQuizProgressQuiz3ResponseDialogue1
 msg:Map.EienSquareSageQuizProgressQuiz3ResponseDialogue2
 end
@@ -1503,9 +1503,7 @@ hitform:square
 event:
 msgopen:
 msg:Map.EienSquareSageQuizProgressQuiz2Dialogue1
-msg:Map.EienSquareSageQuizProgressQuiz2Dialogue2
 msg:Map.EienSquareSageQuizProgressQuiz2ResponseDialogue1
-msg:Map.EienSquareSageQuizProgressQuiz2ResponseDialogue2
 end
 page:4
 startterms:none
@@ -1519,7 +1517,6 @@ hitform:square
 event:
 msgopen:
 msg:Map.EienSquareSageQuizProgressQuiz1Dialogue1
-msg:Map.EienSquareSageQuizProgressQuiz1Dialogue2
 msg:Map.EienSquareSageQuizProgressQuiz1ResponseDialogue1
 end
 page:5

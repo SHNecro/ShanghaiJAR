@@ -238,7 +238,7 @@
   <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="シャンハイ様！,このエリアは異常なしですぜ！" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="[I had the oddest feeling you,would seek me out here....]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="[Well，you’ve found me.,And you’ve passed all of my,students’ tests.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="[Surprised? One of my earliest,test functions was to generate,quizzes from what I learned.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="[Surprised? One of my earliest,test functions was to generate,quizzes from what I found.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="[No catchy theme this time I’m,afraid，my songwriter’s,moved on to bigger things.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="[Well，here we are.,No catchy theme this time，I’m,afraid.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="[I’m sure you want to get started，,and my songwriter’s moved on,to bigger things anyways.]" Face="NaviOrangeRobot" Mono="False" />
@@ -293,7 +293,7 @@
   <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue1" Value="[That’s it，then!,You’ve answered everything,correctly!]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue2" Value="[Firstly，take this reward!,You’ve earned it!]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue3" Value="[Secondly....]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue1" Value="[You may have defeated me，,but there is another， more,knowledgable than I.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue1" Value="[You’ve passed the test to ask,a favor from a very wise and,powerful Navi.]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue2" Value="[They reside in a heavenly,network，but in order to reach,them，you must travel through--]" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue3" Value="[--the Undernet?,Yeah，I’ve been there.,You’re overselling it，old man.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue4" Value="[Oh. Uh.... Huh.,Congratulations again，then.,I should head back to Eien.]" Face="NaviOrangeRobot" Mono="False" />
@@ -323,9 +323,9 @@
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="[Are you sure? You could find a,nice， dark corner and come up,with your own quizzes!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1" Value="[I’ll give you some space for,your lightshow.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage2Dialogue1" Value="[Mmmmmmmm....,I see....]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="[Š‰—§® [ CLIENT ] €†–©¤Œ¬Ž­š,’ž«”‡¡Š¢•™”…[ CONNECT ]‰£§€,¬˜˜¤ž  [ SECURE ] ›—‹Šª“‹ˆš]" Face="SageGlowing" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="[­€“ [ USER ] ¡”› [ DEFINE ] ¦©‡’¬,Ž›Œƒ…Ÿ [ ACCESS ] £œ‡–«“‹Œ,ª­ [ AUTHENTICATE ] «€‘š’Ž–”]" Face="SageGlowing" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="[­£••¤©†¡¡¦‡¦Š–Ÿ›—Šª“ [ BEGIN ] „,š§£§€ž’‘®¬Ž¦Š™Ž©¤Œ‰¦†™ª•‚,—¢†‘‹ [ SEQUENCE ] ™†®§œ]" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="[Š̴̨̥̀͌͗͐‰̶͓̦̈́̓—̷̡̛͈̯͗̓̚§̴͕͔͙̫̉͛̑®̵̗̙̼͚͐̓̑́ ̶̧̟̖̔̓̈́͝｢ＣＬＩＥＮＴ｣  ̴͓͛̄€̷̖̯͛̎̃͜͝†̷̧̯͉͎̒̿̔–̶̬͒̂̕͝©̷̦̲̫̠̌͘¤̴̻̪̌̃͆Œ̶̲̗̣̓͗̃̊ͅ¬̶̲̳͌Ž̵͚͝­̵͓̱̼̮̑š̶̡͐̐̈́̕,̸̛̗̺̙́̔́’̷͍̳̤̙̈ž̴̭͗̾̄̕«̷̮̈̅̀”̴͙̮̎̄́‡̸̠̎̀͂̕¡̴̟̍Š̸̨̭̽̓͋͘¢̷̢̣̱͘•̶̧͇̊̍͌̀™̵͎̝̀́”̷̻͋͗̍…̷̺̭̀̉ ̵̩̎｢ＣＯＮＮＥＣＴ｣‰̴̮͖̺̞̽̀£̸̰̗͒§̴̗͖̦̾͋̓,̸̮̉͝¬̸̭̾͜˜̸̭͚̼̿̚͜˜̴̡̩͙̭̊̇̾͘¤̷̹̼͆̕ž̸̜̯̼́ ̸̮͗͆̉｢ＳＥＣＵＲＥ｣ ̴͉̉̾̈́›̷̮͚̜̜̌̕—̴̦͒͜‹̴̯̬̯͌̎̷͉̩͍̱̈́̏̌Š̵̨̨̺͌̈́͠ª̶͍̕“̵͍̈̍‹̶͇̦̻̈́͜͠ˆ̶͙͚̫̐͊͛š̷̝̈ͅ]" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="[€̴͖̝̳̊͛̾̿“̸̡̙̱̿̚͜͝ ̷̞͋̀͌͆｢ＵＳＥＲ｣ ̸͕̜̀̐̚ͅ¡̶̩̪̺͂̑”̴͈̬̭͐›̴̩̦̽̄͝ ̷̨̩̰͊̀｢ＤＥＦＩＮＥ｣ ̷̫͙̊¦̴̖̮͎̌͋͝©̵͇̾̈́̕‡̷̧̜̳̒̒̀̔ͅ’̷͍̥͚̏̓̚͠¬̸͙͍͚̆,̸̝͑̇̔̚ͅŽ̶͙̠͓͕͛̒͐̽›̴̦͈̓̿̔͛Œ̸̛̮̬̈́̽̕ƒ̸̙̌͗̉…̶̹̈́̅͝Ÿ̴̛̥̹͠ ̶̽͂ͅ｢ＡＣＣＥＳＳ｣ ̷͓̮̩͑£̴̳͕̇́͐œ̵͖͎͉̿‡̸̼̤̫̙̍̑̓̆–̴̢̪̝̣͌̈́«̸͇̊͊͝“̶͍̽̉̓͛‹̷̙̘̦̀͛́̈́Œ̶̢͊̑,̴̨̳̲̈ª̴͉͖̳̩͂ ̴̤̣̽́͑͘͜｢ＡＵＴＨＥＮＴＩＣＡＴＥ｣ ̵̱̌̂̈́̕«̸̢̢̛͐̆͝€̸̻̹͂̍‘̶̳̌̈́̈š̴̔̂̄̋ͅ’̵̛͕̩̇̓Ž̵̙̐–̸̪̲̤͑̽”̴̡̲̱̀̿]" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="[­̴̮̪̾̓̏£̸̢̗̖̓̆̚̚•̷̢̛̮̮̄̚•̷̬̱̯͒̏¤̴̤̞̯̓̋́́ͅ©̵̠̻͈̂†̷͈͚̬̯̈¡̴̝͎̗̏̇̚¡̶̢̫̳̭̒̑͘¦̶͓̬̈́͐‡̴͔̆͗͝¦̴̯̬͛Š̶̡̗̙̀̿–̴̬̪̝̐̾̍̅Ÿ̵̧̟͐›̷̗̭̼̲̃̒̓—̴̘͓͈̫͒́͐Ş̵̌̈ª̵̨̗̞͒͊̀̿“̶̖̝͚͖̀͌͠ ̵͇̏｢ＢＥＧＩＮ｣ ̴͔̜̬̀͛,̷̻̐̈́͝š̶̜̲̀ͅ§̸̢͚͂̋£̸̝̊͌§̷͈̲̝̃̄͝€̸͓̺̚ž̸͙͒̄’̸̝̹̉̈́‘̶͕̹͖̬́̓̑͛®̵͎̝̣͊͂̓͜¬̸̡̮̾̉̌Ž̷͎̳̚¦̶̫̙̈̒̊͝Š̶̜̲̃™̸̲̙͌Ž̸̧͌̓͝©̴̗̼̭̄¤̷̲͇̻͍̽̄̉Œ̷̣̖̆̔̇͗‰̵̜̈́̋̈̚¦̷͔̭͎̹̔͐̇͘†̸̪̞͂̂͋̎™̶̜̞̐̊̽͜ª̸̼́•̸̢̍͝‚̷̲̓,̵̲̜͊͜͠—̶̻̥͑͐̉̕¢̴͉́†̴̮̞̌̒͜‘̸̛̖͘͝‹̸̺͚͈͆̿͆ͅ ̷̛̫̯｢ＳＥＱＵＥＮＣＥ｣ ̸̨̖̳̍͐̏ͅ™̸͕̤͇̀͗́̕†̵̼͙̐͑®̵̢̟͔͖̔̑͘§̷̟̘̓̂̃̾œ̶̙͇̿͌̇̂͜]" Face="SageGlowing" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="[Shanghai，look!]" Face="Alice" Mono="False" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5HiddenCode" Value="#" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code1" Value="1" />

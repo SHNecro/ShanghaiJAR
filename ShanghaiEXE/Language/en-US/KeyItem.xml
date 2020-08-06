@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="KeyItem.CompressedDataName" Value="Compressed Data" />
   <Text Key="KeyItem.CompressedDataDescDialogue1" Value="It’s a mysterious data that,was buried in Genso Area." />
@@ -98,4 +98,6 @@
   -->
   <Text Key="KeyItem.ReincarnationProgramName" Value="Reincarnation Program" />
   <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="Allows a sprite to be,reborn as a Net Navi.,A special program." />
+  <Text Key="KeyItem.SecretKeyName" Value="Secret Key" />
+  <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="An important-looking key.,Probably opens an,important-looking door." Face="None" Mono="False" />
 </data>

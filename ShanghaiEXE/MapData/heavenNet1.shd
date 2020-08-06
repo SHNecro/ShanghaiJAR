@@ -874,6 +874,8 @@ ifValue:15:False:2000000:1:0
 editFlag:809:True
 ifEnd:0
 ifFlag:809:True:0
+seon:counterhit
+wait:15:False
 editValue:0:False:0:5:0
 editValue:0:False:2:0:1
 editValue:1:False:0:5:1
@@ -1054,6 +1056,8 @@ msg:Map.HeavenNet1SpecialDoorStdProgramAdvances1
 msgclose:
 Special:21
 ifFlag:807:True:0
+seon:counterhit
+wait:15:False
 editValue:0:False:0:5:0
 editValue:0:False:2:0:1
 editValue:1:False:0:5:1
@@ -1136,6 +1140,8 @@ msg:Map.HeavenNet1SpecialDoorStdChips1
 msgclose:
 Special:20
 ifFlag:806:True:0
+seon:counterhit
+wait:15:False
 emove:SpecialGhost4:wait,25:wayup,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -1231,6 +1237,8 @@ msg:Map.HeavenNet1SpecialDoorVirusTraning1
 msgclose:
 EventLun:SpecialDoor3VirusTamingCheck:-1
 ifFlag:805:True:0
+seon:counterhit
+wait:15:False
 emove:SpecialGhost3:wait,30:waydown,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -1345,6 +1353,8 @@ msg:Map.HeavenNet1SpecialDoorSPBounty1
 msgclose:
 Special:19
 ifFlag:804:True:0
+seon:counterhit
+wait:15:False
 emove:SpecialGhost2:wait,25:wayup,0:wait,5
 emoveEnd:
 editValue:0:False:0:5:0
@@ -1520,7 +1530,12 @@ event:
 msgopen:
 msg:Map.HeavenNet1SpecialDoorStoryKey1
 msgclose:
+ifFlag:857:True:0
+editFlag:803:True
+ifEnd:0
 ifFlag:803:True:0
+seon:counterhit
+wait:15:False
 editValue:0:False:0:5:0
 editValue:0:False:2:0:1
 editValue:1:False:0:5:1
@@ -1540,6 +1555,7 @@ fade:0:0:255:255:255:True
 wait:45:False
 emove:SpecialGhost1:warpup,24
 editFlag:803:False
+EditItem:26:False
 ifEnd:0
 end
 page:2
@@ -1601,7 +1617,7 @@ event:
 end
 
 ID:Barrier1
-position:369:121:0
+position:369:120:0
 page:1
 startterms:Abutton
 type:1
@@ -1636,7 +1652,7 @@ effect:11:BarrierFight1:0:1:2:1:-1:0:1:none
 fade:0:0:255:255:255:False
 bgmLoad:
 canSkip:
-effect:3:BarrierDestroy1:0:0:0:2:4:4:1:bomb
+effect:3:BarrierDestroy1:0:0:0:2:2:8:1:bomb
 wait:45:False
 editFlag:822:True
 effectDelete:BarrierDestroy1
@@ -1654,6 +1670,34 @@ emove:プレイヤー:wayleft,0
 msg:Map.HeavenNet1Barrier1CutsceneEndDialogue6
 msgclose:
 stopSkip:
+end
+
+ID:Barrier1-Extra1
+position:364:116:0
+page:1
+startterms:none
+type:1
+terms:!flag/822
+move:
+speed:0
+graphic:20:0,0,1,0,0
+hitrange:0:24:0:0
+hitform:circle
+event:
+end
+
+ID:Barrier1-Extra2
+position:364:124:0
+page:1
+startterms:none
+type:1
+terms:!flag/822
+move:
+speed:0
+graphic:20:0,0,1,0,0
+hitrange:0:24:0:0
+hitform:circle
+event:
 end
 
 ID:PlaceholderSprite2
@@ -1687,7 +1731,7 @@ editFlag:999:True
 end
 
 ID:Barrier2
-position:226:217:0
+position:224:216:0
 page:1
 startterms:Abutton
 type:1
@@ -1714,13 +1758,41 @@ fade:15:255:255:255:255:True
 battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
 fade:0:0:255:255:255:False
 bgmLoad:
-effect:3:BarrierDestroy2:0:0:0:2:4:4:1:bomb
+effect:3:BarrierDestroy2:0:0:0:2:2:8:1:bomb
 wait:45:False
 editFlag:823:True
 effectDelete:BarrierDestroy2
 effectEnd:
 playerHide:False
 wait:15:False
+end
+
+ID:Barrier2-Extra1
+position:219:220:0
+page:1
+startterms:none
+type:1
+terms:!flag/823
+move:
+speed:0
+graphic:20:0,0,1,0,0
+hitrange:0:24:0:0
+hitform:circle
+event:
+end
+
+ID:Barrier2-Extra2
+position:219:212:0
+page:1
+startterms:none
+type:1
+terms:!flag/823
+move:
+speed:0
+graphic:20:0,0,1,0,0
+hitrange:0:24:0:0
+hitform:circle
+event:
 end
 
 ID:小さい桜
@@ -2048,7 +2120,7 @@ mapChange:heavenNet2:382:754:1:5
 fade:15:0:0:0:0:True
 end
 
-MysteryID:GMD
+MysteryID:GMD119
 position:177:265:0
 Mystery:0,0,0,0,,119
 page:1
@@ -2074,7 +2146,7 @@ hitform:square
 event:
 end
 
-MysteryID:GMD
+MysteryID:GMD120
 position:578:235:0
 Mystery:0,0,0,0,,120
 page:1
@@ -2100,7 +2172,7 @@ hitform:square
 event:
 end
 
-MysteryID:GMD
+MysteryID:GMD121
 position:371:316:0
 Mystery:0,0,0,0,,121
 page:1
@@ -2126,7 +2198,7 @@ hitform:square
 event:
 end
 
-MysteryID:BMD
+MysteryID:BMD257
 position:337:169:0
 Mystery:1,0,180,3,,257
 page:1
@@ -2152,16 +2224,16 @@ hitform:square
 event:
 end
 
-MysteryID:BMD
-position:535:119:0
-Mystery:1,3,6,5,,259
+MysteryID:PMD258
+position:117:257:0
+Mystery:2,0,137,2,,258
 page:1
 startterms:Abutton
 type:1
 terms:
 move:
 speed:3
-graphic:-2:0,40,16,40,16
+graphic:-2:0,80,16,40,16
 hitrange:2:0:8:8
 hitform:circle
 event:
@@ -2178,16 +2250,16 @@ hitform:square
 event:
 end
 
-MysteryID:PMD
-position:117:257:0
-Mystery:2,0,164,3,,258
+MysteryID:BMD259
+position:535:119:0
+Mystery:1,3,6,5,,259
 page:1
 startterms:Abutton
 type:1
 terms:
 move:
 speed:3
-graphic:-2:0,80,16,40,16
+graphic:-2:0,40,16,40,16
 hitrange:2:0:8:8
 hitform:circle
 event:

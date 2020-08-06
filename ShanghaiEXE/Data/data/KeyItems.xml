@@ -80,4 +80,7 @@
   <KeyItem Index="25" Name="KeyItem.ReincarnationProgramName">
     <Dialogue Key="KeyItem.ReincarnationProgramDescDialogue1" />
   </KeyItem>
+  <KeyItem Index="26" Name="KeyItem.SecretKeyName">
+    <Dialogue Key="KeyItem.SecretKeyDescDialogue1" />
+  </KeyItem>
 </data>
