@@ -7,7 +7,13 @@
   <Text Key="Addon.ShortGreen" Value="G" />
   <Text Key="Addon.ShortOrange" Value="O" />
   <Text Key="Addon.ShortDark" Value="D" />
-  <Text Key="Addon.LetterOrange" Value="Y" />
+  <Text Key="Addon.LetterPink" Value="P" />
+  <Text Key="Addon.LetterSkyBlue" Value="S" />
+  <Text Key="Addon.LetterRed" Value="R" />
+  <Text Key="Addon.LetterBlue" Value="B" />
+  <Text Key="Addon.LetterGreen" Value="G" />
+  <Text Key="Addon.LetterOrange" Value="O" />
+  <Text Key="Addon.LetterDark" Value="D" />
 
   <!-- AddOns -->
   <Text Key="AddOn.BustorPowerName" Value="BstrPwr" />

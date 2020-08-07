@@ -165,8 +165,9 @@ namespace NSAddOn
                     return ShanghaiEXE.Translate("Addon.ShortOrange");
                 case 7:
                     return ShanghaiEXE.Translate("Addon.ShortDark");
+                default:
+                    return "";
             }
-            return "";
         }
 
         public static string ColorToAlphabet(int color)
@@ -176,19 +177,19 @@ namespace NSAddOn
                 case 0:
                     return "";
                 case 1:
-                    return "P";
+                    return ShanghaiEXE.Translate("Addon.LetterPink");
                 case 2:
-                    return "S";
+                    return ShanghaiEXE.Translate("Addon.LetterSkyBlue");
                 case 3:
-                    return "R";
+                    return ShanghaiEXE.Translate("Addon.LetterRed");
                 case 4:
-                    return "B";
+                    return ShanghaiEXE.Translate("Addon.LetterBlue");
                 case 5:
-                    return "G";
+                    return ShanghaiEXE.Translate("Addon.LetterGreen");
                 case 6:
                     return ShanghaiEXE.Translate("Addon.LetterOrange");
                 case 7:
-                    return "D";
+                    return ShanghaiEXE.Translate("Addon.LetterDark");
                 default:
                     return "";
             }
