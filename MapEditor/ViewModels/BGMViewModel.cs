@@ -104,7 +104,7 @@ namespace MapEditor.ViewModels
             var newFile = entries[3];
             var filePath = Path.Combine("music", newFile + ".ogg");
 
-            this.Validate(newFile, () => this.File, s => $"Missing bgm file {s}", s => System.IO.File.Exists(s));
+            this.Validate(newFile, () => this.File, s => $"Missing bgm file {s}", s => System.IO.File.Exists($"music/{s}.ogg"));
 
             try
             {

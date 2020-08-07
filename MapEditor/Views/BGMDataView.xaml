@@ -76,7 +76,13 @@
                                             <Setter Property="Background" Value="#FFFF4040" />
                                             <Setter Property="ToolTip">
                                                 <Setter.Value>
-                                                    <ItemsControl ItemsSource="{Binding Errors}" />
+                                                    <ItemsControl ItemsSource="{Binding Errors}">
+                                                        <ItemsControl.ItemTemplate>
+                                                            <DataTemplate>
+                                                                <TextBlock Text="{Binding Item2}" />
+                                                            </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                    </ItemsControl>
                                                 </Setter.Value>
                                             </Setter>
                                         </DataTrigger>
