@@ -18,9 +18,12 @@
   <Dialogue Key="Map.HeavenNet2MadManRejectDialogue1" Value="I HAVE NO TIME FOR THOSE,WITHOUT DEDICATION.,BEGONE，AMATEUR." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue1" Value="I SEE YOU ALSO KNOW THE,PRICE OF TRUE POWER." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="COME!,WE SHALL SEE WHO WILL,STAND AT THE PEAK!" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="WHAT IS THIS LUNACY?,DO YOU SEEK DEATH SO,EAGERLY?" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="TO MOCK MY RESOLVE BY,DEBASING YOURSELF FOR,NO GREATER CAUSE?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="DID YOU BRING YOURSELF,TO THE VERGE OF DEATH,JUST TO MOCK ME?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="OR DO YOU TRULY BELIEVE,TO BE ABLE TO DEFEAT ME,IN SUCH A STATE?" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue3" Value="IF YOU ARE SO CONFIDENT,IN YOUR SKILL，I WILL FREE,YOU OF YOUR DELUSIONS!" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="I WILL BE MERCIFUL AND,ASSUME THAT YOU ARE,MERELY INCOMPETENT." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue2" Value="DO NOT SHOW YOURSELF,BEFORE ME IN SUCH A,PITIFUL STATE AGAIN." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="TO ALLOW VIRUSES TO,REDUCE YOU TO SUCH A,STATE...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue2" Value="I WILL BE MERCIFUL AND,ASSUME THAT YOU ARE,MERELY INCOMPETENT." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue3" Value="DO NOT SHOW YOURSELF,BEFORE ME IN SUCH A,PITIFUL STATE AGAIN." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue1" Value="UNBELIEVABLE....,TO BE DEFEATED AT THE,HEIGHT OF MY POWER...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue2" Value="HAVE I FINALLY BEHELD....,PERFECTION....?,AT LAST...." Face="None" Mono="False" />
 </data>

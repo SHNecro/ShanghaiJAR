@@ -366,6 +366,7 @@ ifFlag:858:False:0
 ifValue:7:False:1:0:1
 msg:Map.HeavenNet2MadMan1HPAtIntroDialogue1
 msg:Map.HeavenNet2MadMan1HPAtIntroDialogue2
+msg:Map.HeavenNet2MadMan1HPAtIntroDialogue3
 msgclose:
 goto:endbattle
 ifEnd:1
@@ -379,6 +380,10 @@ bgmSave:
 battle:42:18:4:1:262:261:260:1:Map.HeavenNet2MadManName:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:6:2:False:False:False:True:VSnavi:36
 fade:0:0:0:0:0:False
 bgmLoad:
+msgopen:
+msg:Map.HeavenNet2MadManEndDialogue1
+msg:Map.HeavenNet2MadManEndDialogue2
+msgclose:
 editFlag:859:True
 wait:45:False
 lavel:endbattle
@@ -757,11 +762,10 @@ effect:12:BarrierFight7:0:1:2:1:-1:0:1:none
 playerHide:True
 emove:プレイヤー:wayup,0
 msgclose:
-bgmSave:
-fade:15:255:255:255:255:True
-battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
-fade:0:0:255:255:255:False
-bgmLoad:
+wait:45:False
+msgopen:
+msg:Debug.UnimplementedText
+msgclose:
 effect:3:BarrierDestroy7:Barrier7:::3:2:8:1:bomb
 wait:45:False
 editFlag:836:True

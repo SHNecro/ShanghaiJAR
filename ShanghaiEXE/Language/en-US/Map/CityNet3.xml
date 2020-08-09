@@ -239,9 +239,9 @@
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="I had the oddest feeling you,would seek me out here...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="Well，you’ve found me.,And you’ve passed all of my,students’ tests." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="Surprised? One of my earliest,test functions was to generate,quizzes from what I found." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="No catchy theme this time I’m,afraid，my songwriter’s,moved on to bigger things." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="Well，here we are.,No catchy theme this time，I’m,afraid." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="I’m sure you want to get started，,and my songwriter’s moved on,to bigger things anyways." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="Forgive me if I skip the jingle，,It’s been a while and my voice,just isn’t what it used to be." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="Well，here we are.,No jingle this time，I’m afraid." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="I’m sure you want to get started，,and my voice just isn’t what it,used to be." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="Ready for QuizBot’s final,routine?" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="Yes,No" />
   <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="I understand，take all the time,you need to prepare." Face="NaviOrangeRobot" Mono="False" />
@@ -269,7 +269,7 @@
   <Text Key="Map.CityNet3SageQuizQuestion10Options" Value="20,21,24" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion11Question" Value="11，then! Easing back into it!,What object is the entrance to,the Border Concern network?" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestion11Options" Value="Statue,Trash can,Phone booth" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion12Question" Value="12!,What does CWF stand for in,the acronym CWFD?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion12Question" Value="12!,Which one of these is part of the,acronym CWFD?" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestion12Options" Value="Cardiac Wasting Fascinoma,Congenital Weakness Factor,Circulatory Warble Frequency" />
   <Dialogue Key="Map.CityNet3SageQuizQuestion13Question" Value="13，you’ve done well!,Including every quiz，what,number is this question?" Face="NaviOrangeRobot" Mono="False" />
   <Text Key="Map.CityNet3SageQuizQuestion13Options" Value="38th,43rd,48th" />
@@ -310,7 +310,7 @@
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue1" Value="I guess they call you the Sage,for a reason，huh. Already,know what I’m going to ask?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue2" Value="A question....?,If you want to ask something，,meet me back at Eien Square." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue3" Value="No，no，I’m here to answer,your NetOp’s challenge for,the Quiz Crown." Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue4" Value="Quiz Kid，Quiz Master，Quiz,King....,Ever wonder who taught them?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue4" Value="Quiz Kid，Master，King....,Did you ever wonder where,they got their answers?" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue1" Value="How’s the search for that ship,going?" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue2" Value="Eh，it can wait.,Listen，I’ve got a question I,really need an answer to." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue3" Value="Sorry，my powers leave me,all tuckered out，I’m just not,up to it today." Face="NaviOrangeRobot" Mono="False" />
