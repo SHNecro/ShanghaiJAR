@@ -1548,21 +1548,6 @@ msg:Map.EienSquareSageQuizCompleteStage2Dialogue3
 msg:Map.EienSquareSageQuizCompleteStage2Dialogue4
 end
 
-ID:Sprite
-position:282:59:0
-page:1
-startterms:Abutton
-type:1
-terms:
-move:
-speed:0
-graphic:2:6,0,1,0,0
-hitrange:3:3:0:0
-hitform:circle
-event:
-EventLun:SageDoorEvent:-1
-end
-
 ID:SageFloat
 position:250:256:0
 page:1

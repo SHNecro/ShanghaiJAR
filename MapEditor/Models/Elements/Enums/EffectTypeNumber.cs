@@ -62,5 +62,13 @@
         YoumuHeavenWarpIn = 57,
         YuyukoHeavenWarpOut = 58,
         YuyukoHeavenWarpIn = 59,
+        GhostFreeSoulNorth = 60,
+        GhostFreeSoulEast = 61,
+        GhostFreeSoulSouth = 62,
+        GhostFreeSoulWest = 63,
+        AliveFreeSoulNorth = 64,
+        AliveFreeSoulEast = 65,
+        AliveFreeSoulSouth = 66,
+        AliveFreeSoulWest = 67,
     }
 }

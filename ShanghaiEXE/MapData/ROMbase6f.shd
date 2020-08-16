@@ -44,8 +44,9 @@ wait:30:False
 emove:RitualCircle:warpdown,600
 emove:RitualCircle-Glowing:warpup,600
 seon:dark
-bgmfade:100:240:False
 bgmon:encounter
+bgmfade:0:0:False
+bgmfade:100:240:False
 emove:プレイヤー:wait,15:wayright,15:wait,15:wayleft,15:wait,15:waydown,15:wait,15:wayup,15
 msgopen:
 msg:Map.ROMbase6fFinalCutsceneStage2Dialogue1

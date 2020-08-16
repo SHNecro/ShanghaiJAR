@@ -244,16 +244,24 @@ namespace NSMap.Character
             return this.Position.X + this.Position.Y;
         }
 
+        // orig:
+        //       UP 
+        // LEFT -||-  RIGHT 
+        //      DOWN
+        // new:
+        //   WEST  /  NORTH
+        // ---------------
+        // SOUTH / EAST
         public enum ANGLE
         {
             DOWN,
-            DOWNRIGHT,
+            DOWNRIGHT, // EAST
             RIGHT,
-            UPRIGHT,
+            UPRIGHT, // NORTH
             UP,
-            UPLEFT,
+            UPLEFT, // WEST
             LEFT,
-            DOWNLEFT,
+            DOWNLEFT, // SOUTH
             none,
         }
     }

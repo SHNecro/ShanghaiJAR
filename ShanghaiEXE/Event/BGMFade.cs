@@ -6,8 +6,8 @@ namespace NSEvent
 {
     internal class BGMFade : EventBase
     {
-        private readonly int endparsent;
-        private readonly int fadeingTime;
+        public readonly int endparsent;
+        public readonly int fadeingTime;
 
         public BGMFade(IAudioEngine s, EventManager m, int endparsent, int ms, bool wait, SaveData save)
           : base(s, m, save)

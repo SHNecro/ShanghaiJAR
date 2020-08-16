@@ -135,7 +135,7 @@ namespace NSBattle
             switch (this.scene)
             {
                 case Result.RESULT.finish:
-                    if (this.frame <= 75)
+                    if (this.frame <= 90)
                         break;
                     if (this.parent.doresult)
                     {
@@ -457,7 +457,7 @@ namespace NSBattle
                     {
                         this._rect = new Rectangle(384, 0, 128, 16);
                     }
-                    float scall = this.frame >= 15 ? (this.frame >= 17 ? (this.frame >= 60 ? (float)(1.0 - (this.frame - 60) * 0.0599999986588955) : 1f) : 1.02f) : frame * 0.06f;
+                    float scall = Math.Max(0, this.frame >= 15 ? (this.frame >= 17 ? (this.frame >= 60 ? (float)(1.0 - (this.frame - 60) * 0.0599999986588955) : 1f) : 1.02f) : frame * 0.06f);
                     dg.DrawImage(dg, "battleobjects", this._rect, false, this._position, scall, 0.0f, Color.White);
                     break;
                 case Result.RESULT.stylechange:

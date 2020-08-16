@@ -26,4 +26,17 @@
   <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue3" Value="[DO NOT SHOW YOURSELF,BEFORE ME IN SUCH A,PITIFUL STATE AGAIN.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManEndDialogue1" Value="[UNBELIEVABLE....,TO BE DEFEATED AT THE,HEIGHT OF MY POWER....]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManEndDialogue2" Value="[HAVE I FINALLY BEHELD....,PERFECTION....?,AT LAST....]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue1" Value="[THANK YOU FOR SAVING,ME FROM THOSE AWFUL，,AWFUL NAVIS!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue2" Value="[WELCOME TO HEAVEN,SQUARE! WE DON’T GET,MANY VISITORS!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue3" Value="[I’M THE SPRITE THAT,CONNECTS LINK GATES!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue4" Value="[I CAN LINK THIS SQUARE，,SUCH AS IT IS， TO YOUR,HOMEPAGE!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue5" Value="[THE CONNECTION FEE IS,45000 ZENNY!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue6Question" Value="[CREATE A LINK?]" Face="Sprite" Mono="False" />
+  <Text Key="Map.HeavenNet2LinkGateSpriteDialogue6Answers" Value="[Yes,No]" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue7NoMoney" Value="[UNFORTUNATELY，YOU,DON’T HAVE ENOUGH,MONEY!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue7" Value="[LINK CREATED!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue8" Value="[I HOPE TO SEE YOU AGAIN,SOON!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue1" Value="[NORMALLY THIS WHOLE,AREA IS A SAFE PLACE!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue2" Value="[BUT SOMETHING HAS,DRIVEN ALL THE SPIRITS,INTO A FRENZY!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue3" Value="[JUST WHAT IS THE ,CYBERWORLD COMING TO?]" Face="Sprite" Mono="False" />
 </data>

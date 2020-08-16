@@ -73,6 +73,7 @@ emove:FinalCutsceneBoss-ShanghaiFight:warpup,600
 wait:30:False
 CameraDefault:0
 bgmon:theme_of_ROM
+bgmfade:0:0:False
 bgmfade:100:90:False
 fade:90:0:0:0:0:False
 camera:512:-16:0:True
@@ -163,6 +164,7 @@ effectDelete:FinalCutsceneBoss-KikuriCombatExplosionsIntense
 effectDelete:FinalCutsceneBoss-KikuriCombatExplosions
 wait:30:False
 bgmon:sadness
+bgmfade:0:0:False
 wait:90:False
 msgopen:
 bgmfade:100:720:False
@@ -245,6 +247,7 @@ emove:FinalCutsceneBoss-PortalRight:warpright,32
 playerHide:True
 emove:FinalCutsceneBoss-ShanghaiFight:warpup,600
 bgmon:emergency
+bgmfade:0:0:False
 wait:30:False
 bgmfade:100:45:False
 camera:-80:90:30:False
@@ -322,6 +325,7 @@ msgclose:
 fade:15:64:255:224:0:False
 bgmfade:0:30:True
 bgmon:main_theme
+bgmfade:0:0:False
 fade:150:0:255:224:0:False
 bgmfade:100:60:False
 msgopen:
@@ -739,6 +743,7 @@ msg:Map.LastfloorFinalCutsceneStage1Dialogue3
 msg:Map.LastfloorFinalCutsceneStage1Dialogue4
 msgclose:
 bgmon:ending
+bgmfade:0:0:False
 bgmfade:100:240:False
 fade:120:0:0:0:0:False
 wait:60:False

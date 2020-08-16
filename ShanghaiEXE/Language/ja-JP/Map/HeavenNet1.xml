@@ -74,7 +74,6 @@
   <Dialogue Key="Map.HeavenNet1SpecialDoorSPBounty1" Value="[THE WAY SHALL OPEN FOR,ONE WHO FEARS NO BEAST,AND HUNTS ALL QUARRY]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorRequest1" Value="[THE WAY SHALL OPEN FOR,ONE WHO OFFERS ALL A,HELPING HAND]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorStdProgramAdvances1" Value="[THE WAY SHALL OPEN FOR,ONE WHO FINDS THE TRUE,MIGHT OF HUMBLE TOOLS.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1SpecialDoorVirusTraning1" Value="[THE WAY SHALL OPEN FOR,ONE WHO HARNESSES THE,POWERS OF THE WILD]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorEnemyNavis1" Value="[THE WAY SHALL OPEN FOR,ONE WHO SEES THEIR FOES,RETURNED TO DUST]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorZenny1" Value="[THE WAY SHALL OPEN FOR,ONE WHO WANTS FOR,NOTHING]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorAllyNavis1" Value="[THE WAY SHALL OPEN FOR,ONE WHO NURTURES THE,BONDS OF FRIENDSHIP]" Face="None" Mono="False" />
@@ -93,4 +92,5 @@
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue4" Value="[They didn’t even move!,I had to do all the work myself!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue5" Value="[There，there，Shanghai.,I’m sure the next one will be....,....more of a challenge?]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue6" Value="[Tch....,Let’s keep going，Alice.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorVirusTraining1" Value="[THE WAY SHALL OPEN FOR,ONE WHO HARNESSES THE,POWERS OF THE WILD]" Face="None" Mono="False" />
 </data>

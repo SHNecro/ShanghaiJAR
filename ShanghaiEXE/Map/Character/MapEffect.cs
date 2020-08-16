@@ -73,7 +73,15 @@ namespace NSMap.Character
             [56] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(18, 240, 24, 48)),
             [57] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(18, 240, 24, 48)),
             [58] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(448 + 18, 240, 24, 48)),
-            [59] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(448 + 18, 240, 24, 48))
+            [59] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(448 + 18, 240, 24, 48)),
+            [60] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPRIGHT, FreeSoul.DissolveCharacter.Ghost),
+            [61] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNRIGHT, FreeSoul.DissolveCharacter.Ghost),
+            [62] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNLEFT, FreeSoul.DissolveCharacter.Ghost),
+            [63] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Ghost),
+            [64] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPRIGHT, FreeSoul.DissolveCharacter.Alive),
+            [65] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNRIGHT, FreeSoul.DissolveCharacter.Alive),
+            [66] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNLEFT, FreeSoul.DissolveCharacter.Alive),
+            [67] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Alive)
         };
 
     public EffectBase effect;

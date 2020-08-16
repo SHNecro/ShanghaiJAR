@@ -348,9 +348,16 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void BGMFadeStart(int flame, int endparsent)
         {
-            this.plusParsent = (endparsent - this.currentBGMVolume) / flame;
-            this.endParsent = endparsent;
-            this.fadeBGM = true;
+            if (flame == 0)
+            {
+                this.BGMVolumeSet(endparsent);
+            }
+            else
+            {
+                this.plusParsent = (endparsent - this.currentBGMVolume) / flame;
+                this.endParsent = endparsent;
+                this.fadeBGM = true;
+            }
         }
 
         public void BGMVolumeSet(int volume)
