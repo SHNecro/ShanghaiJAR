@@ -1,4 +1,10 @@
 ![Splash screen](https://i.imgur.com/yn7YYdE.jpg)
+## Disclaimer
+This project is a fan continuation of a project created and developed by koki_thlal/Technodot, but is not affiliated with or in contact with the above in any way.
+
+Additionally, out of respect to the copyright holders of originally-referenced material, many assets have been replaced with placeholders.
+
+While older or alternate versions exist using the original `ShaGResource.tcd` and `ShaGPattern.tcd` files, this repository will only maintain the placeholder resources, which can be used to overwrite the above files to replace the graphics.
 
 # ShanghaiEXE
 Shanghai.EXE was a fangame inspired by Touhou and Megaman Battle Network.
@@ -56,12 +62,12 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 7/19/20):
-- Not dead, but somehow 2020 got even worse. In lieu of actual progress, got a lot of planning/ideas done.
-- Postgame area special doors
-- Second half of first postgame area, planning barriers, etc.
-- Planning of rewards, barriers, BMDs
-- Planning of battle enhancements (new PAs, chips, etc.)
+#### In Progress (as of 8/27/20):
+- Rework of overworld rendering system to fix render order issues
+- Implementation of postgame area 1 completion cutscene
+- Implementation of special battles/enemies
+- Implementation of rewards
+
 
 ##### Completed:
 - First draft of story/dialogue/cutscenes
@@ -74,3 +80,4 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - Moved some constant data out to external files so map editor can edit (data/data/*.xml)
 - Added editors for external data
 - Added music player, audio engine to map editor for bgm/sound effects
+- Added contents, basic cutscenes for postgame area 1
