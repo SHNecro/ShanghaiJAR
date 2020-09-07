@@ -354,7 +354,7 @@ namespace NSMap.Character.Menu
                 RightPage = LibraryPageType.Navi
             };
 
-            var hasDarkChips = allChips.Any(c => IsDarkChipPredicate(c.Chip));
+            var hasDarkChips = allChips.Any(c => IsDarkChipPredicate(c.Chip) && c.IsSeen);
             this.LibraryPages[LibraryPageType.Navi] = new LibraryPage
             {
                 Chips = FillBlanks(allChips.Where(c => IsNaviChipPredicate(c.Chip))),
