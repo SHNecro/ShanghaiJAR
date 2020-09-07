@@ -1943,7 +1943,8 @@ effect:11:BarrierFight1:0:1:2:1:-1:0:1:none
 fade:0:0:255:255:255:False
 bgmLoad:
 canSkip:
-effect:3:BarrierDestroy1:0:0:0:2:2:8:1:bomb
+effect:3:BarrierDestroy1:0:0:0:2:4:8:1:none
+effect:3:BarrierDestroy1:0:0:0:2:4:8:1:bomb
 wait:45:False
 editFlag:822:True
 effectDelete:BarrierDestroy1
@@ -2019,7 +2020,8 @@ fade:15:255:255:255:255:True
 battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
 fade:0:0:255:255:255:False
 bgmLoad:
-effect:3:BarrierDestroy2:0:0:0:2:2:8:1:bomb
+effect:3:BarrierDestroy2:0:0:0:2:4:8:1:bomb
+effect:3:BarrierDestroy2:0:0:0:2:4:8:1:none
 wait:45:False
 editFlag:823:True
 effectDelete:BarrierDestroy2

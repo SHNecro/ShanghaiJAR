@@ -623,7 +623,7 @@ position:24:17:0
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/8
 move:
 speed:0
 graphic:11:3,0,1,0,0
@@ -643,7 +643,7 @@ position:12:107:1
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/8
 move:
 speed:0
 graphic:11:0,0,5,0,0
@@ -657,7 +657,7 @@ position:12:108:1
 page:1
 startterms:Abutton
 type:1
-terms:none
+terms:variable/10/False/0/8
 move:
 speed:0
 graphic:-1:0,0,0,0,0
