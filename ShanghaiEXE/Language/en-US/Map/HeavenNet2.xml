@@ -13,19 +13,18 @@
   <Dialogue Key="Map.HeavenNet2BackgroundSpriteTreeBought" Value="YOU HEAR THAT?!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue2FaceNone" Value="It is said that all data deleted in,the past gathers around this,tree." Face="None" Mono="False" />
   <Text Key="Map.HeavenNet2MadManName" Value="MadMan" />
-  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue1" Value="I GAVE UP EVERYTHING,TO REACH UNRIVALLED,STRENGTH AND SKILL." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue2" Value="NONE MAY CLAIM TO SEEK,PERFECTION WITHOUT,SACRIFICING AS MUCH AS I." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManRejectDialogue1" Value="I HAVE NO TIME FOR THOSE,WITHOUT DEDICATION.,BEGONE，AMATEUR." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue1" Value="I SEE YOU ALSO KNOW THE,PRICE OF TRUE POWER." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="COME!,WE SHALL SEE WHO WILL,STAND AT THE PEAK!" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="DID YOU BRING YOURSELF,TO THE VERGE OF DEATH,JUST TO MOCK ME?" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="OR DO YOU TRULY BELIEVE,TO BE ABLE TO DEFEAT ME,IN SUCH A STATE?" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue3" Value="IF YOU ARE SO CONFIDENT,IN YOUR SKILL，I WILL FREE,YOU OF YOUR DELUSIONS!" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="TO ALLOW VIRUSES TO,REDUCE YOU TO SUCH A,STATE...." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue2" Value="I WILL BE MERCIFUL AND,ASSUME THAT YOU ARE,MERELY INCOMPETENT." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue3" Value="DO NOT SHOW YOURSELF,BEFORE ME IN SUCH A,PITIFUL STATE AGAIN." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManEndDialogue1" Value="UNBELIEVABLE....,TO BE DEFEATED AT THE,HEIGHT OF MY POWER...." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManEndDialogue2" Value="HAVE I FINALLY BEHELD....,PERFECTION....?,AT LAST...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue1" Value="To pursue ultimate power....,I pushed myself to the limits,of what was thought possible...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue2" Value="In the end....,My own body had nothing,left to give...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManRejectDialogue1" Value="I have no interest in weaklings,who have sacrificed nothing....,Leave me to my misery...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue1" Value="You think you can succeed,where I had failed....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="Come....,I will show you the mistake,you have made...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="Are you here to mock me，,to rub salt in my wounds....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="Do you think me powerless,in this state....?,A helpless victim....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue3" Value="I will show you how wrong,you are!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="To allow viruses to reduce,you to such a state...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue2" Value="How far has the art of battling,fallen....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue3" Value="Leave，before I mistake your,incompetence for an insult...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue1" Value="Unbelievable....,To have taken my style,and perfected it...." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue1" Value="THANK YOU FOR SAVING,ME FROM THOSE AWFUL，,AWFUL NAVIS!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue2" Value="WELCOME TO HEAVEN,SQUARE! WE DON’T GET,MANY VISITORS!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue3" Value="I’M THE SPRITE THAT,CONNECTS LINK GATES!" Face="Sprite" Mono="False" />
@@ -39,4 +38,11 @@
   <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue1" Value="NORMALLY THIS WHOLE,AREA IS A SAFE PLACE!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue2" Value="BUT SOMETHING HAS,DRIVEN ALL THE SPIRITS,INTO A FRENZY!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue3" Value="JUST WHAT IS THE ,CYBERWORLD COMING TO?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue3" Value="I can move on，freed from my,regrets....!,At last....!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEnd1HPDialogue1" Value="I see now....,You wanted to prove that you,could follow in my footsteps...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEnd1HPDialogue2" Value="And for you to not only survive，,but thrive....!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue1" Value="It’s an old playbook filled to,the brim with battle strategies,and modification plans." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue4" Value="The departed spirit left,something behind...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue2" Value="The final page has been angrily,scratched out，but the number,“11111111” is barely legible." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue3" Value="It looks like the previous,owner had a habit of using,random items as bookmarks!" Face="None" Mono="False" />
 </data>

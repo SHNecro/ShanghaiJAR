@@ -91,12 +91,12 @@
   <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue1FaceReisen" Value="There’s an unsettling feeling,coming from the room ahead." Face="Reisen" Mono="False" />
   <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue2FaceReisen" Value="It may be a sign of abnormal,energies. Recording devices,might malfunction." Face="Reisen" Mono="False" />
   <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue3FaceReisen" Value="Before you go further， it may,be prudent to review and back,up your data." Face="Reisen" Mono="False" />
-  <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue1" Value="Notes and research on ancient,programs，alternate worlds，,bribes and blackmail...." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue1" Value="Notes and research on arcane,programs，alternate worlds，,bribes and blackmail...." Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue2" Value="....a copy of an upcoming test,on virus ecosystems?,I really shouldn’t read further...." Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5fSupercomputerStage1Dialogue1" Value="This machine is capable of,intense calculations to pinpoint,dimensional variances." Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5fSupercomputerStage1Dialogue2" Value="Even idle，the gentle humming,of its cooling systems fills the,room." Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue1" Value="I don’t know what might be,waiting for us up ahead...." Face="Alice" Mono="False" />
-  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue2" Value="Once we walk through that door，,we might not be able to come,back...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue2" Value="Once we go through that door，,there might be no coming back...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue3Question" Value="Are we really ready for this?" Face="Shanghai" Mono="False" />
   <Text Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue3Option" Value="Yes,No" />
   <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue4" Value="#u@#Saving...." Face="Shanghai" Mono="False" />
