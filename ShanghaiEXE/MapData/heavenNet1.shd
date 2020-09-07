@@ -738,31 +738,17 @@ msg:Map.HeavenNet1SandRock1Dialogue2
 msgclose:
 end
 
-ID:SandRock2Left
-position:106:96:0
+ID:SandRock2
+position:107:91:0
 page:1
 startterms:none
 type:1
 terms:none
 move:
 speed:0
-graphic:-25:290,740,20,50,0
-hitrange:0:0:0:0
-hitform:circle
-event:
-end
-
-ID:SandRock2Right
-position:111:91:0
-page:1
-startterms:none
-type:1
-terms:none
-move:
-speed:0
-graphic:-25:310,740,20,50,0
-hitrange:0:0:-4:-4
-hitform:circle
+graphic:-25:290,740,40,50,0
+hitrange:8:16:6:6
+hitform:square
 event:
 end
 

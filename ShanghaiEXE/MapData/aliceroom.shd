@@ -108,26 +108,6 @@ hitform:square
 event:
 end
 
-ID:テストスプライト
-position:-3:163:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:0
-graphic:2:6,0,1,0,0
-hitrange:3:0:0:0
-hitform:circle
-event:
-msgopen:
-msg:Map.AliceroomTestSpriteStage1Dialogue1FaceNone
-msgclose:
-fade:15:255:0:0:0:True
-mapChange:ingleasHotel:76:64:0:0
-fade:15:0:0:0:0:True
-end
-
 ID:タンス
 position:2:60:0
 page:1

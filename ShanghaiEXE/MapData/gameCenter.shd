@@ -2476,7 +2476,7 @@ terms:none
 move:
 speed:0
 graphic:-11:368,0,48,40,0
-hitrange:18:18:6:2
+hitrange:18:18:4:2
 hitform:square
 event:
 end
@@ -2498,7 +2498,7 @@ terms:flag/257
 move:
 speed:0
 graphic:-11:368,0,48,40,0
-hitrange:18:18:6:2
+hitrange:18:18:4:2
 hitform:square
 event:
 end

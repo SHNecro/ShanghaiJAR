@@ -1411,7 +1411,7 @@ terms:none
 move:
 speed:0
 graphic:-13:80,0,80,56,0
-hitrange:25:40:1:0
+hitrange:16:28:3:3
 hitform:square
 event:
 msgopen:
@@ -1429,7 +1429,7 @@ terms:none
 move:
 speed:0
 graphic:-13:80,0,80,56,0
-hitrange:31:38:3:0
+hitrange:16:28:3:3
 hitform:square
 event:
 msgopen:

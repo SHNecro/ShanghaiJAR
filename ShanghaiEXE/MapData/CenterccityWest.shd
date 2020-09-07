@@ -353,7 +353,7 @@ msgclose:
 end
 
 ID:8章ロボ盾
-position:101:330:0
+position:95:330:0
 page:1
 startterms:Abutton
 type:1
@@ -657,7 +657,7 @@ terms:none
 move:
 speed:0
 graphic:-11:536,216,104,120,0
-hitrange:39:30:5:10
+hitrange:39:30:2:10
 hitform:square
 event:
 end
@@ -685,7 +685,7 @@ terms:none
 move:
 speed:0
 graphic:-11:256,240,88,80,0
-hitrange:45:12:-7:-5
+hitrange:38:24:2:1
 hitform:square
 event:
 end
@@ -742,7 +742,7 @@ terms:none
 move:
 speed:0
 graphic:-11:184,240,72,88,0
-hitrange:28:6:10:4
+hitrange:36:4:10:4
 hitform:square
 event:
 end
@@ -912,7 +912,7 @@ terms:none
 move:
 speed:0
 graphic:-1:0,0,0,0,0
-hitrange:39:6:0:0
+hitrange:41:8:2:0
 hitform:square
 event:
 msgopen:

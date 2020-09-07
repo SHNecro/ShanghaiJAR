@@ -91,7 +91,7 @@
   <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue1FaceReisen" Value="この先の部屋から,禍々しい気を感じる" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue2FaceReisen" Value="もしかすれば電子機器に,異常が起こり記録機能が,麻痺するかもしれないな" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.ROMbase5fReisenStage2Dialogue3FaceReisen" Value="先へ進む前に,しっかりとデータを見直した,方が良いかもな" Face="Reisen" Mono="False" />
-  <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue1" Value="[Notes and research on esoteric,programs，alternate worlds，,evil plans....]" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue1" Value="[Notes and research on ancient,programs，alternate worlds，,bribes and blackmail....]" Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5fDeskStage1Dialogue2" Value="[....a copy of an upcoming test,on virus ecosystems?,I really shouldn’t read further....]" Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5fSupercomputerStage1Dialogue1" Value="[This machine is capable of,intense calculations to pinpoint,dimensional variances.]" Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase5fSupercomputerStage1Dialogue2" Value="[Even idle，the gentle humming,of its cooling systems fills the,room.]" Face="None" Mono="False" />
@@ -103,9 +103,9 @@
   <Dialogue Key="Map.ROMbase5f6fTransitionPreFinalBossSaveDialogue5" Value="セーブ完了！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue1" Value="[Hold on，Alice.,Whatever Asakura did here let,out some really nasty energy.]" Face="Sagume" Mono="False" />
   <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue2" Value="[Short exposure like you had,should be fine，but any more,would be risky.]" Face="Sagume" Mono="False" />
-  <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue3" Value="[We’ve got protective gear，but,it’s custom-fitted. Don’t worry，,we won’t miss a thing.]" Face="Sagume" Mono="False" />
-  <Dialogue Key="Map.ROMbase5fPostgameScientistDialogue1" Value="[Did somebody unplug these,cables from somewhere?]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.ROMbase5fPostgameScientistDialogue2" Value="[If it wasn’t one of us....,Someone check the tapes!,We can’t let any of this get out!]" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostGameSagumeDialogue3" Value="[We’ve sent for some special,protective equipment，but for,now it’s best to leave it alone.]" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostgameScientistDialogue1" Value="[I don’t see where these cables,could connect to....]" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fPostgameScientistDialogue2" Value="[If nothing matches up after we,finish taking inventory，there,might be a second base....]" Face="Scientist" Mono="False" />
   <Dialogue Key="Map.ROMbase5fPostgameAgentDialogue1" Value="[“Hail ROM”， huh....?]" Face="Policeman" Mono="False" />
   <Dialogue Key="Map.ROMbase5fPostgameAgentDialogue2" Value="[Can’t believe a bunch of,fanatics managed to cause,so much trouble....]" Face="Policeman" Mono="False" />
 </data>

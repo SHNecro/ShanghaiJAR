@@ -632,7 +632,7 @@ terms:variable/15/False/0/0
 move:
 speed:5
 graphic:-25:0,0,70,200,48
-hitrange:0:0:59:42
+hitrange:1:0:63:46
 hitform:circle
 event:
 end
@@ -679,7 +679,7 @@ terms:variable/15/False/0/0
 move:
 speed:5
 graphic:-25:0,199,70,200,48
-hitrange:0:0:42:60
+hitrange:1:0:46:64
 hitform:circle
 event:
 end

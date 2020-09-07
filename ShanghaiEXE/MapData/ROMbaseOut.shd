@@ -263,25 +263,6 @@ lavel:end
 wait:0:False
 end
 
-ID:テストスプライト3
-position:-37:381:0
-page:1
-startterms:Abutton
-type:1
-terms:none
-move:
-speed:0
-graphic:2:6,0,3,0,0
-hitrange:3:0:0:0
-hitform:circle
-event:
-msgopen:
-msg:Map.ROMbaseOutTestSprite3Stage1Dialogue1FaceNone
-msgclose:
-editValue:38:False:0:0:8
-mapChange:chipshop:117:121:0:0
-end
-
 ID:木
 position:262:232:0
 page:1
@@ -467,7 +448,7 @@ terms:none
 move:
 speed:0
 graphic:-21:288,0,82,112,0
-hitrange:32:12:15:15
+hitrange:42:12:10:15
 hitform:square
 event:
 end

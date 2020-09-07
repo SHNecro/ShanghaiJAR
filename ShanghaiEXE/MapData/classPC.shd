@@ -98,12 +98,7 @@ stopSkip:
 camera:64:88:60:False
 msgopen:
 msg:Map.ClassPCRikakoProfessorKoaStage3Dialogue1FaceAlice
-ifFlag:99:True:0
 question:Map.ClassPCRikakoProfessorKoaStage3Dialogue2QuestionFaceShanghai:Map.ClassPCRikakoProfessorKoaStage3Dialogue2Options
-ifEnd:0
-ifFlag:99:False:1
-msg:Map.ClassPCRikakoProfessorKoaStage3Dialogue3FaceShanghai
-ifEnd:1
 canSkip:
 BranchHead:0
 msg:Map.ClassPCRikakoProfessorKoaStage3Dialogue4FaceAlice
