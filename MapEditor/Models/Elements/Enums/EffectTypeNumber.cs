@@ -70,5 +70,6 @@
         AliveFreeSoulEast = 65,
         AliveFreeSoulSouth = 66,
         AliveFreeSoulWest = 67,
+        NoBodyFreeSoul = 68,
     }
 }

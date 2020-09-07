@@ -818,7 +818,7 @@ namespace NSMap.Character
                     dg.DrawImage(dg, this.eventPages[this.lunPage].graphicName, this._rect, false, this._position, rebirth, Color.White);
                 }
             }
-            else if (positionQ.X <= (double)(-this.LunPage.graphicNo[0] / 2) || !(positionQ.X < (double)(this.LunPage.graphicNo[0] / 2) & positionQ.Y > (double)(-this.LunPage.graphicNo[1] / 2)) || positionQ.Y >= (double)(this.LunPage.graphicNo[1] / 2))
+            else // if (positionQ.X <= (double)(-this.LunPage.graphicNo[0] / 2) || !(positionQ.X < (double)(this.LunPage.graphicNo[0] / 2) & positionQ.Y > (double)(-this.LunPage.graphicNo[1] / 2)) || positionQ.Y >= (double)(this.LunPage.graphicNo[1] / 2))
             {
                 this._rect = new Rectangle(this.LunPage.graphicNo[4] <= 1 ? this.LunPage.graphicNo[0] : this.LunPage.graphicNo[0] + this.LunPage.graphicNo[2] * animeflame, this.LunPage.graphicNo[1], this.LunPage.graphicNo[2], this.LunPage.graphicNo[3]);
                 this._position = new Vector2((int)this.positionQ.X - (int)this.field.camera.X + this.Shake.X, (int)this.positionQ.Y - (int)this.field.camera.Y + this.Shake.Y - 4);

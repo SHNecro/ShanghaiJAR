@@ -179,7 +179,7 @@ move:
 speed:2
 graphic:9:5,0,7,0,0
 hitrange:3:3:0:0
-hitform:square
+hitform:circle
 event:
 end
 
@@ -249,7 +249,7 @@ terms:flag/787,!flag/788,!flag/789
 move:
 speed:0
 graphic:3:0,0,1,0,0
-hitrange:3:3:16:16
+hitrange:3:3:25:25
 hitform:square
 event:
 end
@@ -264,7 +264,7 @@ move:
 speed:8
 graphic:3:1,0,1,0,0
 hitrange:3:3:0:0
-hitform:square
+hitform:circle
 event:
 end
 
@@ -278,7 +278,7 @@ move:
 speed:8
 graphic:4:7,0,1,0,0
 hitrange:3:3:0:0
-hitform:square
+hitform:circle
 event:
 end
 
@@ -292,7 +292,7 @@ move:
 speed:8
 graphic:4:3,0,1,0,0
 hitrange:3:3:0:0
-hitform:square
+hitform:circle
 event:
 end
 

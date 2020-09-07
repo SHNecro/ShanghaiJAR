@@ -15,6 +15,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Common.EncodeDecode;
+using NSShanghaiEXE.ExtensionMethods;
+using NSShanghaiEXE.InputOutput.Rendering.OpenGL;
 
 namespace NSMap
 {
@@ -279,6 +281,7 @@ namespace NSMap
             string A6 = reader.ReadLine();
             if (NSGame.Debug.MaskMapFile)
                 str2 = TCDEncodeDecode.EncMapScript(A6);
+            var eventIndex = 0;
             string A7;
             while ((A7 = reader.ReadLine()) != null)
             {
@@ -293,7 +296,9 @@ namespace NSMap
                         A2 = TCDEncodeDecode.EncMapScript(A2);
                     string[] strArray4 = A2.Split(':');
                     Point po = new Point(int.Parse(strArray4[1]), int.Parse(strArray4[2]));
-                    this.Events.Add(new MapEventBase(s, this.parent, po, int.Parse(strArray4[3]), MapCharacterBase.ANGLE.UP, this, id, save, reader, this.mapname));
+                    var mapEvent = new MapEventBase(s, this.parent, po, int.Parse(strArray4[3]), MapCharacterBase.ANGLE.UP, this, id, save, reader, this.mapname);
+                    mapEvent.index = eventIndex;
+                    this.Events.Add(mapEvent);
                 }
                 else
                 {
@@ -315,8 +320,11 @@ namespace NSMap
                     random.itemSub = int.Parse(strArray5[3]);
                     random.getInfo = ShanghaiEXE.Translate(strArray5[4]);
                     random.flugNumber = int.Parse(strArray5[5]);
-                    this.Events.Add(new MysteryData(s, this.parent, po, floor, MapCharacterBase.ANGLE.UP, this, id, save, reader, random));
+                    var mysteryData = new MysteryData(s, this.parent, po, floor, MapCharacterBase.ANGLE.UP, this, id, save, reader, random);
+                    mysteryData.index = eventIndex;
+                    this.Events.Add(mysteryData);
                 }
+                eventIndex++;
             }
             reader.Close();
             this.threadEnd = false;
@@ -382,87 +390,20 @@ namespace NSMap
 
         public void Render(IRenderer dg)
         {
-            try
-            {
-                this.back.Render(dg);
-            }
-            catch
-            {
-            }
-            List<MapCharacterBase> mapCharacterBaseList = this.RendSort();
+            this.back.Render(dg);
+            var mapCharacters = this.GetSortedLevelObjects();
             for (int index1 = ((IEnumerable<string>)this.GraphicName).Count<string>() / 2 + 1; index1 >= 0; --index1)
             {
+                // Draw floors and ramps
                 this.FieldRender(dg, index1 * 2);
                 this.FieldRender(dg, index1 * 2 + 1);
-                for (int index2 = 0; index2 <= 2; ++index2)
+
+                var levelMapCharacters = mapCharacters.ContainsKey(index1) ? mapCharacters[index1] : new MapCharacterBase[0];
+                foreach (MapCharacterBase mapCharacterBase in levelMapCharacters)
                 {
-                    foreach (MapCharacterBase mapCharacterBase in mapCharacterBaseList)
-                    {
-                        if (mapCharacterBase.rendType == index2 && mapCharacterBase.floor == index1)
-                            mapCharacterBase.Render(dg);
-                    }
+                    mapCharacterBase.Render(dg);
                 }
             }
-        }
-
-        private List<MapCharacterBase> RendSort()
-        {
-            List<MapCharacterBase> playerSquaresAndEffects = new List<MapCharacterBase>();
-            List<MapCharacterBase> circles = new List<MapCharacterBase>();
-            foreach (MapEventBase mapEventBase in this.Events)
-            {
-                if (mapEventBase.LunPage.hitform)
-                    circles.Add(mapEventBase);
-                else
-                    playerSquaresAndEffects.Add(mapEventBase);
-            }
-            foreach (MapEffect mapEffect in this.effect)
-                playerSquaresAndEffects.Add(mapEffect);
-            playerSquaresAndEffects.Add(parent.Player);
-            // Changed: sort by floor first, fixing clipping issues if a 0,0 effect is on a lower floor (ex. HeavenWater)
-            List<MapCharacterBase> sortedPSE = playerSquaresAndEffects.OrderBy(c => c.floor).ThenBy(c => c.RendSetter()).ToList();
-            List<MapCharacterBase> sortedCircles = circles.ToList();
-            var circleCount = sortedCircles.Count;
-            foreach (MapEventBase circleObject in sortedCircles)
-            {
-                bool circleAbovePSE = false;
-                for (int index = 0; index < sortedPSE.Count; ++index)
-                {
-                    // TODO: Still needs fixing: long object hitboxes, EienTown 1 flowerboxes, Siren party room 2nd table
-                    if (this.ObjectLine(circleObject, sortedPSE[index]))
-                    {
-                        // If above some PSE, it is above all PSEs after it
-                        // Set to insert to
-                        circleObject.index = index;
-                        circleAbovePSE = true;
-                        break;
-                    }
-                }
-                if (!circleAbovePSE)
-                    circleObject.index = sortedPSE.Count;
-            }
-            List<MapCharacterBase> circlesByIndex = sortedCircles.OrderBy(o => o.index).ToList();
-            for (int index1 = 0; index1 < circleCount; ++index1)
-            {
-                // Insert in reverse order
-                int index2 = circleCount - index1 - 1;
-                sortedPSE.Insert(circlesByIndex[index2].index, circlesByIndex[index2]);
-            }
-            return sortedPSE;
-        }
-
-        private bool ObjectLine(MapEventBase object_, MapCharacterBase chara_)
-        {
-            if (object_.floor < chara_.floor)
-                return true;
-            if (object_.floor > chara_.floor)
-                return false;
-            EventPage lunPage = object_.LunPage;
-            if (lunPage.hitrange.X == 0)
-                return true;
-            double num1 = -(lunPage.hitrange.Y / (double)lunPage.hitrange.X);
-            double num2 = object_.Position.Y + (double)object_.LunPage.hitShift.Y - num1 * (object_.Position.X + (double)object_.LunPage.hitShift.X);
-            return chara_.position.X * num1 + num2 < (int)chara_.position.Y;
         }
 
         public void FieldRender(IRenderer dg, int i)
@@ -510,6 +451,252 @@ namespace NSMap
                     this.Events.Add(mapEventBase2);
                 }
             }
+        }
+
+        private Dictionary<int, MapCharacterBase[]> GetSortedLevelObjects()
+        {
+            var unsortedLevels = new IEnumerable<MapCharacterBase>[]
+            { this.Events, this.effect, new[] { parent.Player } }
+            .SelectMany(em => em).GroupBy(mcb => mcb.floor);
+
+            var sortedLevels = new Dictionary<int, MapCharacterBase[]>();
+
+            foreach (var levelObjects in unsortedLevels)
+            {
+                var objects = new List<MapCharacterBase>();
+
+                var rendTypes = levelObjects.GroupBy(mcb => mcb.rendType).OrderBy(gr => gr.Key);
+                foreach (var rendType in rendTypes)
+                {
+                    var sortedRendType = TopologicalRenderSort(rendType.ToList());
+
+                    objects.AddRange(sortedRendType);
+                }
+                sortedLevels[levelObjects.Key] = objects.ToArray();
+            }
+
+            return sortedLevels;
+        }
+        
+        private static IList<MapCharacterBase> TopologicalRenderSort(IList<MapCharacterBase> unsorted)
+        {
+            // Creates graph of items which are behind each
+            var graph = Enumerable.Range(0, unsorted.Count).ToDictionary(i => i, i => new List<int>());
+            for (var i = 0; i < unsorted.Count; i++)
+            {
+                for (var ii = i+1; ii < unsorted.Count; ii++)
+                {
+                    var sortValue = IsBehind(unsorted[i], unsorted[ii]);
+                    // If algorithm supports order-doesn't-matter, null value means no edge
+                    if (sortValue == true)
+                    {
+                        graph[ii].Add(i);
+                    }
+                    else if (sortValue == false)
+                    {
+                        graph[i].Add(ii);
+                    }
+                }
+            }
+
+            var sortedNodeIndices = new List<int>();
+            
+            var lowValues = new Dictionary<int, int>();
+            var discoveryDepth = 0;
+
+            Action<int> recursiveTarjan = i => { };
+            recursiveTarjan = (i) =>
+            {
+                lowValues[i] = discoveryDepth;
+                foreach (var child in graph[i])
+                {
+                    if (!lowValues.ContainsKey(child))
+                    {
+                        discoveryDepth++;
+                        recursiveTarjan(child);
+                    }
+                    lowValues[i] = Math.Min(lowValues[i], lowValues[child]);
+                }
+                sortedNodeIndices.Add(i);
+            };
+
+            var unsortedNode = graph.FirstOrDefault(kvp => !lowValues.ContainsKey(kvp.Key));
+            while (unsortedNode.Value != default(List<int>))
+            {
+                recursiveTarjan(unsortedNode.Key);
+                unsortedNode = graph.FirstOrDefault(kvp => !lowValues.ContainsKey(kvp.Key));
+            }
+
+            return sortedNodeIndices.Select(i => unsorted[i]).ToList();
+        }
+
+        private static bool? IsBehind(MapCharacterBase mcb1, MapCharacterBase mcb2)
+        {
+            if (mcb1 == mcb2) return null;
+
+            // REQUIRES TOPOLOGICAL SORT
+            var obj1 = mcb1 as MapEventBase;
+            var page1 = obj1?.LunPage;
+            var obj2 = mcb2 as MapEventBase;
+            var page2 = obj2?.LunPage;
+
+            Vector2 center1 = new Vector2(mcb1.Position.X, mcb1.Position.Y), size1 = Vector2.Zero;
+            Vector2 center2 = new Vector2(mcb2.Position.X, mcb2.Position.Y), size2 = Vector2.Zero;
+
+            if (obj1 != null)
+            {
+                if (!page1.character && (page1.graphicNo[2] == 0 || page1.graphicNo[3] == 0)) return null;
+
+                center1 += new Vector2(page1.hitShift.X, page1.hitShift.Y);
+                var width1 = (page1.hitform ? page1.hitrange.X : page1.hitrange.X * 2);
+                var height1 = (page1.hitform ? page1.hitrange.Y : page1.hitrange.X * 2);
+                size1 = new Vector2(width1, height1);
+                if (obj1.LunPage.hitform == true)
+                {
+                    center1 += new Vector2(-8, -8);
+                }
+                if (obj1 is MysteryData)
+                {
+                    center1 += new Vector2(-10, -10);
+                }
+            }
+            else if (mcb1 is Player)
+            {
+                size1 += new Vector2(2, 2);
+            }
+
+            if (obj2 != null)
+            {
+                if (!page2.character && (page2.graphicNo[2] == 0 || page2.graphicNo[3] == 0)) return null;
+
+                center2 += new Vector2(page2.hitShift.X, page2.hitShift.Y);
+                var width2 = (page2.hitform ? page2.hitrange.X : page2.hitrange.X * 2);
+                var height2 = (page2.hitform ? page2.hitrange.Y : page2.hitrange.X * 2);
+                size2 = new Vector2(width2, height2);
+                if (obj2?.LunPage.hitform == true)
+                {
+                    center2 += new Vector2(-8, -8);
+                }
+                if (obj2 is MysteryData)
+                {
+                    center1 += new Vector2(-10, -10);
+                }
+            }
+            else if (mcb2 is Player)
+            {
+                size2 += new Vector2(2, 2);
+            }
+
+            var front1 = center1 + size1 / 2;
+            var back1 = center1 - size1 / 2;
+
+            var front2 = center2 + size2 / 2;
+            var back2 = center2 - size2 / 2;
+            
+            var rect1 = RectangleF.FromLTRB(back1.X, back1.Y, front1.X, front1.Y);
+            var rect2 = RectangleF.FromLTRB(back2.X, back2.Y, front2.X, front2.Y);
+
+            // Hitboxes do not intersect
+            if (!rect1.IntersectsWith(rect2))
+            {
+                var screenFront1 = ToScreenPosition(front1);
+                var screenPosition1 = ToScreenPosition(new Vector2(mcb1.Position.X, mcb1.Position.Y));
+                var leftmost1 = front1 - new Vector2(size1.X, 0);
+                var rightmost1 = front1 - new Vector2(0, size1.Y);
+                var screenLeftmost1 = ToScreenPosition(leftmost1);
+                var screenRightmost1 = ToScreenPosition(rightmost1);
+
+                var screenFront2 = ToScreenPosition(front2);
+                var screenPosition2 = ToScreenPosition(new Vector2(mcb2.Position.X, mcb2.Position.Y));
+                var leftmost2 = front2 - new Vector2(size2.X, 0);
+                var rightmost2 = front2 - new Vector2(0, size2.Y);
+                var screenLeftmost2 = ToScreenPosition(leftmost2);
+                var screenRightmost2 = ToScreenPosition(rightmost2);
+
+                // If 2 is to the right of 1 entirely
+                if (screenLeftmost2.X >= screenRightmost1.X)
+                {
+                    var graphicRightSideWidth1 = obj1 != null
+                        ? (page1.character ? 64 : page1.graphicNo[2]) / 4
+                        : (mcb1 is MapEffect ? 24 : 0);
+
+                    var graphicLeftSideWidth2 = obj2 != null
+                        ? (page2.character ? 64 : page2.graphicNo[2]) / 4
+                        : (mcb2 is MapEffect ? 24 : 0);
+
+                    // Only check if sprite extends past hitbox (fixed length for effects, which have no defined width)
+                    // Prevents mis-sorting when Tarjan's algorithm 'cuts' a cycle and an off-screen object is "in front"
+                    if (screenPosition1.X + graphicRightSideWidth1 > screenPosition2.X - graphicLeftSideWidth2)
+                    {
+                        return screenLeftmost2.Y > screenRightmost1.Y;
+                    }
+
+                    return null;
+                }
+
+                // If 2 is to the left of 1 entirely
+                if (screenRightmost2.X <= screenLeftmost1.X)
+                {
+                    var graphicLeftSideWidth1 = obj1 != null
+                        ? (page1.character ? 64 : page1.graphicNo[2]) / 4
+                        : (mcb1 is MapEffect ? 24 : 0);
+
+                    var graphicRightSideWidth2 = obj2 != null
+                        ? (page2.character ? 64 : page2.graphicNo[2]) / 4
+                        : (mcb2 is MapEffect ? 24 : 0);
+
+                    if (screenPosition2.X + graphicRightSideWidth2 > screenPosition1.X - graphicLeftSideWidth1)
+                    {
+                        return screenLeftmost2.Y > screenRightmost1.Y;
+                    }
+
+                    return null;
+                }
+
+                // If objects overlap in screen-Y, trivial since boxes do not intersect
+                if (back1.X >= front2.X) return false;
+                if (back2.X >= front1.X) return true;
+
+                if (back1.Y >= front2.Y) return false;
+                if (back2.Y >= front1.Y) return true;
+
+                // Impossible case, does not intersect
+                return null;
+            }
+            else
+            {
+                // If front is inside, will always be behind (reversed for effects)
+                if (rect1.Contains(new PointF(front2.X, front2.Y))) return mcb2 is MapEffect;
+                if (rect2.Contains(new PointF(front1.X, front1.Y))) return !(mcb1 is MapEffect);
+
+                if (rect1.Contains(new PointF(back2.X, back2.Y)))
+                {
+                    // If back is inside and front isn't, in front
+                    return true;
+                }
+                else
+                {
+                    // Only left point inside
+                    if (rect1.Contains(new PointF(back2.X, front2.Y)))
+                    {
+                        var rightmostRect1 = ToScreenPosition(front1 - new Vector2(0, size1.Y));
+                        var leftmostRect2 = ToScreenPosition(front2 - new Vector2(size2.X, 0));
+                        return rightmostRect1.Y < leftmostRect2.Y;
+                    }
+                    // Check not needed, all other cases handled (front is outside, back is inside, left not inside, is intersecting)
+                    else // if (rect1.Contains(new PointF(front2.X, back2.Y)))
+                    {
+                        var leftmostRect1 = ToScreenPosition(front1 - new Vector2(size1.X, 0));
+                        var rightmostRect2 = ToScreenPosition(front2 - new Vector2(0, size2.Y));
+                        return leftmostRect1.Y < rightmostRect2.Y;
+                    }
+                }
+            }
+        }
+
+        private static Vector2 ToScreenPosition(Vector2 gamePosition)
+        {
+            return new Vector2(gamePosition.X - gamePosition.Y, (gamePosition.X + gamePosition.Y) / 2);
         }
     }
 }

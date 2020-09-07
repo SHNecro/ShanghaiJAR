@@ -1,6 +1,7 @@
 ﻿using Common.OpenGL;
 using MapEditor.Models;
 using MapEditor.Models.Elements.Enums;
+using OpenTK;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -65,47 +66,230 @@ namespace MapEditor.Rendering
             return new Point(a * 8, b * 8);
         }
 
-        private static IEnumerable<MapObject> RendSort(IEnumerable<MapObject> mapObjects)
+        public static IEnumerable<MapObject> RendSort(IEnumerable<MapObject> mapObjects)
         {
-            //foreach (MapEffect mapEffect in this.effect)
-            //	circleObjects.Add(mapEffect);
-            //circleObjects.Add(parent.Player);
-            List<MapObject> orderedCircleObjects = mapObjects.Where(o => o.Pages?.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm == HitFormType.Circle).OrderBy(c => c.X + c.Y).ToList();
-            List<MapObject> orderedSquareObjects = mapObjects.Where(o => o.Pages?.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm != HitFormType.Circle).OrderBy(c => c.Level).ThenBy(c => c.X + c.Y).ToList();
-            var objectIndex = orderedCircleObjects.Select((x, i) => new Tuple<int, MapObject>(i, x)).ToDictionary(t => new Tuple<int, int>(t.Item1, 0), t => t.Item2);
-            foreach (MapObject mapObject in orderedSquareObjects)
-            {
-                int placedIndex = orderedCircleObjects.Count;
-                for (int i = 0; i < orderedCircleObjects.Count; ++i)
-                {
-                    if (ObjectLine(mapObject, orderedCircleObjects[i]))
-                    {
-                        placedIndex = i;
-                        break;
-                    }
-                }
-                var bucketNum = 0;
-                while (objectIndex.ContainsKey(new Tuple<int, int>(placedIndex, bucketNum)))
-                {
-                    bucketNum++;
-                }
-                objectIndex[new Tuple<int, int>(placedIndex, bucketNum)] = mapObject;
-            }
-            return objectIndex.OrderBy(kvp => kvp.Key.Item1).ThenBy(kvp => kvp.Key.Item2).Select(kvp => kvp.Value);
+            var levelObjects = GetSortedLevelObjects(mapObjects);
+
+            return levelObjects.SelectMany(kvp => kvp.Value);
         }
 
-        private static bool ObjectLine(MapObject lowerObject, MapObject higherObject)
+        private static Dictionary<int, MapObject[]> GetSortedLevelObjects(IEnumerable<MapObject> mapObjects)
         {
-            if (lowerObject.Level < higherObject.Level)
-                return true;
-            if (lowerObject.Level > higherObject.Level)
-                return false;
-            MapEventPage lowerObjectPage = lowerObject.Pages.SelectedEventPage;
-            if (lowerObjectPage.HitRange.Width == 0)
-                return true;
-            double num1 = -(lowerObjectPage.HitRange.Width / lowerObjectPage.HitRange.Width);
-            double num2 = lowerObject.Y + lowerObjectPage.HitShift.Y - num1 * (lowerObject.X + lowerObjectPage.HitShift.X);
-            return higherObject.X * num1 + num2 < higherObject.Y;
+            var unsortedLevels = mapObjects.GroupBy(mo => mo.Level);
+
+            var sortedLevels = new Dictionary<int, MapObject[]>();
+
+            foreach (var levelObjects in unsortedLevels)
+            {
+                var objects = new List<MapObject>();
+
+                var rendTypes = levelObjects.GroupBy(mo => mo.Pages.SelectedEventPage.RendType).OrderBy(gr => gr.Key);
+                foreach (var rendType in rendTypes)
+                {
+                    var sortedRendType = TopologicalRenderSort(rendType.ToList());
+
+                    objects.AddRange(sortedRendType);
+                }
+                sortedLevels[levelObjects.Key] = objects.ToArray();
+            }
+
+            return sortedLevels;
+        }
+
+        private static IList<MapObject> TopologicalRenderSort(IList<MapObject> unsorted)
+        {
+            var graph = Enumerable.Range(0, unsorted.Count).ToDictionary(i => i, i => new List<int>());
+            for (var i = 0; i < unsorted.Count; i++)
+            {
+                for (var ii = i+1; ii < unsorted.Count; ii++)
+                {
+                    var sortValue = IsBehind(unsorted[i], unsorted[ii]);
+                    // If algorithm supports order-doesn't-matter, null value means no edge
+                    if (sortValue == true)
+                    {
+                        graph[ii].Add(i);
+                    }
+                    else if (sortValue == false)
+                    {
+                        graph[i].Add(ii);
+                    }
+                }
+            }
+
+            var sortedNodeIndices = new List<int>();
+
+            var lowValues = new Dictionary<int, int>();
+            var discoveryDepth = 0;
+
+            Action<int> recursiveTarjan = i => { };
+            recursiveTarjan = (i) =>
+            {
+                lowValues[i] = discoveryDepth;
+                foreach (var child in graph[i])
+                {
+                    if (!lowValues.ContainsKey(child))
+                    {
+                        discoveryDepth++;
+                        recursiveTarjan(child);
+                    }
+                    lowValues[i] = Math.Min(lowValues[i], lowValues[child]);
+                }
+                sortedNodeIndices.Add(i);
+            };
+
+            var unsortedNode = graph.FirstOrDefault(kvp => !lowValues.ContainsKey(kvp.Key));
+            while (unsortedNode.Value != default(List<int>))
+            {
+                recursiveTarjan(unsortedNode.Key);
+                unsortedNode = graph.FirstOrDefault(kvp => !lowValues.ContainsKey(kvp.Key));
+            }
+
+            return sortedNodeIndices.Select(i => unsorted[i]).ToList();
+        }
+
+        private static bool? IsBehind(MapObject mo1, MapObject mo2)
+        {
+            if (mo1 == mo2) return null;
+
+            // REQUIRES TOPOLOGICAL SORT
+            var page1 = mo1.Pages?.SelectedEventPage;
+            var page2 = mo2.Pages?.SelectedEventPage;
+
+            Vector2 center1 = new Vector2(mo1.MapPosition.X, mo1.MapPosition.Y), size1 = Vector2.Zero;
+            Vector2 center2 = new Vector2(mo2.MapPosition.X, mo2.MapPosition.Y), size2 = Vector2.Zero;
+
+            if (page1 != null)
+            {
+                center1 += new Vector2(page1.HitShift.X, page1.HitShift.Y);
+                var width1 = (page1.HitForm == HitFormType.Square ? page1.HitRange.Width : page1.HitRange.Width * 2);
+                var height1 = (page1.HitForm == HitFormType.Square ? page1.HitRange.Height : page1.HitRange.Height * 2);
+                size1 = new Vector2(width1, height1);
+                if (page1.HitForm == HitFormType.Square)
+                {
+                    center1 += new Vector2(-8, -8);
+                }
+                if (mo1 is MapMystery)
+                {
+                    center1 += new Vector2(-10, -10);
+                }
+            }
+
+            if (page2 != null)
+            {
+                center2 += new Vector2(page2.HitShift.X, page2.HitShift.Y);
+                var width2 = (page2.HitForm == HitFormType.Square ? page2.HitRange.Width : page2.HitRange.Width * 2);
+                var height2 = (page2.HitForm == HitFormType.Square ? page2.HitRange.Height : page2.HitRange.Height * 2);
+                size2 = new Vector2(width2, height2);
+                if (page2.HitForm == HitFormType.Square)
+                {
+                    center2 += new Vector2(-8, -8);
+                }
+                if (mo2 is MapMystery)
+                {
+                    center2 += new Vector2(-10, -10);
+                }
+            }
+
+            var front1 = center1 + size1 / 2;
+            var back1 = center1 - size1 / 2;
+
+            var front2 = center2 + size2 / 2;
+            var back2 = center2 - size2 / 2;
+
+            var rect1 = RectangleF.FromLTRB(back1.X, back1.Y, front1.X, front1.Y);
+            var rect2 = RectangleF.FromLTRB(back2.X, back2.Y, front2.X, front2.Y);
+
+            // Hitboxes do not intersect
+            if (!rect1.IntersectsWith(rect2))
+            {
+                var screenFront1 = ToScreenPosition(front1);
+                var screenPosition1 = ToScreenPosition(new Vector2(mo1.X, mo1.Y));
+                var leftmost1 = front1 - new Vector2(size1.X, 0);
+                var rightmost1 = front1 - new Vector2(0, size1.Y);
+                var screenLeftmost1 = ToScreenPosition(leftmost1);
+                var screenRightmost1 = ToScreenPosition(rightmost1);
+
+                var screenFront2 = ToScreenPosition(front2);
+                var screenPosition2 = ToScreenPosition(new Vector2(mo2.X, mo2.Y));
+                var leftmost2 = front2 - new Vector2(size2.X, 0);
+                var rightmost2 = front2 - new Vector2(0, size2.Y);
+                var screenLeftmost2 = ToScreenPosition(leftmost2);
+                var screenRightmost2 = ToScreenPosition(rightmost2);
+
+                // If 2 is to the right of 1 entirely
+                if (screenLeftmost2.X >= screenRightmost1.X)
+                {
+                    var graphicRightSideWidth1 = (page1.IsCharacter ? 64 : page1.TexW) / 4;
+                    var graphicLeftSideWidth2 = (page2.IsCharacter ? 64 : page2.TexW) / 4;
+
+                    // Only check if sprite extends past hitbox (fixed length for effects, which have no defined width)
+                    // Prevents mis-sorting when Tarjan's algorithm 'cuts' a cycle and an off-screen object is "in front"
+                    if (screenPosition1.X + graphicRightSideWidth1 > screenPosition2.X - graphicLeftSideWidth2)
+                    {
+                        return screenLeftmost2.Y > screenRightmost1.Y;
+                    }
+
+                    return null;
+                }
+
+                // If 2 is to the left of 1 entirely
+                if (screenRightmost2.X <= screenLeftmost1.X)
+                {
+                    var graphicLeftSideWidth1 = (page1.IsCharacter ? 64 : page1.TexW) / 4;
+                    var graphicRightSideWidth2 = (page2.IsCharacter ? 64 : page2.TexW) / 4;
+
+                    if (screenPosition2.X + graphicRightSideWidth2 > screenPosition1.X - graphicLeftSideWidth1)
+                    {
+                        return screenLeftmost2.Y > screenRightmost1.Y;
+                    }
+
+                    return null;
+                }
+
+                // If objects overlap in screen-Y, trivial since boxes do not intersect
+                if (back1.X >= front2.X) return false;
+                if (back2.X >= front1.X) return true;
+
+                if (back1.Y >= front2.Y) return false;
+                if (back2.Y >= front1.Y) return true;
+
+                // Impossible case, does not intersect
+                return null;
+            }
+            else
+            {
+                // If front is inside, will always be behind (reversed for effects)
+                if (rect1.Contains(new PointF(front2.X, front2.Y))) return false;
+                if (rect2.Contains(new PointF(front1.X, front1.Y))) return true;
+
+                if (rect1.Contains(new PointF(back2.X, back2.Y)))
+                {
+                    // If back is inside and front isn't, in front
+                    return true;
+                }
+                else
+                {
+                    // Only left point inside
+                    if (rect1.Contains(new PointF(back2.X, front2.Y)))
+                    {
+                        var rightmostRect1 = ToScreenPosition(front1 - new Vector2(0, size1.Y));
+                        var leftmostRect2 = ToScreenPosition(front2 - new Vector2(size2.X, 0));
+                        return rightmostRect1.Y < leftmostRect2.Y;
+                    }
+                    // Check not needed, all other cases handled (front is outside, back is inside, left not inside, is intersecting)
+                    else // if (rect1.Contains(new PointF(front2.X, back2.Y)))
+                    {
+                        var leftmostRect1 = ToScreenPosition(front1 - new Vector2(size1.X, 0));
+                        var rightmostRect2 = ToScreenPosition(front2 - new Vector2(0, size2.Y));
+                        return leftmostRect1.Y < rightmostRect2.Y;
+                    }
+                }
+            }
+        }
+
+        private static Vector2 ToScreenPosition(Vector2 gamePosition)
+        {
+            return new Vector2(gamePosition.X - gamePosition.Y, (gamePosition.X + gamePosition.Y) / 2);
         }
 
         private static void Iterate2D(Point p1, Point p2, Action<int, int> act)

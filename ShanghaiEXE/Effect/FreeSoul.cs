@@ -21,6 +21,7 @@ namespace NSEffect
         private readonly DissolveCharacter character;
 
         private readonly Rectangle dissolveTextureRect;
+        private readonly bool noBody;
 
         private IDictionary<Point, int> sparkles = new ConcurrentDictionary<Point, int>();
 
@@ -60,6 +61,9 @@ namespace NSEffect
                     break;
                 case DissolveCharacter.Alive:
                     dissolveAdjustmentX = DissolveTextureRectOrigin.Width * 6;
+                    break;
+                case DissolveCharacter.NoBody:
+                    this.noBody = true;
                     break;
             }
 
@@ -128,10 +132,10 @@ namespace NSEffect
             }
 
             var dissolveFrame = this.frame / 2;
-            if (dissolveFrame < 5)
+            if (!this.noBody && dissolveFrame < 5)
             {
                 // Shadow
-                this._rect = new Rectangle(0, 48 * 8, 32, 48);
+                this._rect = new Rectangle(32 * ((dissolveFrame / 2) + 1), 48 * 8, 32, 48);
                 this._position = new Vector2(this.positionDirect.X + Shake.X, this.positionDirect.Y + Shake.Y - 1);
                 this.color = Color.White;
                 dg.DrawImage(dg, "charachip1", this._rect, false, this._position, this.rebirth, this.color);
@@ -148,6 +152,7 @@ namespace NSEffect
         {
             Ghost = 0,
             Alive,
+            NoBody,
         }
     }
 }

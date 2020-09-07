@@ -121,12 +121,12 @@ ID:CreditsAutoplayCategory10-ProjectorBase
 position:106:116:0
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:flag/787,!flag/788
 move:
 speed:10
 graphic:-20:0,196,64,26,4
-hitrange:0:0:0:0
+hitrange:8:8:0:0
 hitform:square
 event:
 end
@@ -253,7 +253,7 @@ move:
 speed:0
 graphic:16:1,0,1,0,0
 hitrange:3:3:0:0
-hitform:square
+hitform:circle
 event:
 end
 

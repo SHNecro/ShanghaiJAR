@@ -23,7 +23,7 @@ namespace MapEditor.Rendering
         public static void DrawObjectsAndHitBoxes()
         {
             var allObjects = MapSelectionRenderer.CurrentMap.MapObjects.MapObjects;
-            var sortedObjects = RendSort(allObjects);
+            var sortedObjects = MapEditor.Rendering.MapRenderer.RendSort(allObjects);
             foreach (var mapObject in sortedObjects)
             {
                 try

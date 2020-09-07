@@ -46,48 +46,5 @@ namespace MapEditor.Rendering
             var mapY = (4 * y + w + 2 * ox + 32) / 8 - (x + 2 * c + 2 * oy) / 4;
             return new Point(mapX, mapY);
         }
-
-        private static IEnumerable<MapObject> RendSort(IEnumerable<MapObject> mapObjects)
-        {
-            //foreach (MapEffect mapEffect in this.effect)
-            //	circleObjects.Add(mapEffect);
-            //circleObjects.Add(parent.Player);
-            List<MapObject> orderedCircleObjects = mapObjects.Where(o => o.Pages.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm == HitFormType.Circle).OrderBy(c => c.X + c.Y).ToList();
-            List<MapObject> orderedSquareObjects = mapObjects.Where(o => o.Pages.SelectedEventPage != null && o.Pages.SelectedEventPage.HitForm != HitFormType.Circle).OrderBy(c => c.X + c.Y).ToList();
-            var objectIndex = orderedCircleObjects.Select((x, i) => new Tuple<int, MapObject>(i, x)).ToDictionary(t => new Tuple<int, int>(t.Item1, 0), t => t.Item2);
-            foreach (MapObject mapObject in orderedSquareObjects)
-            {
-                int placedIndex = orderedCircleObjects.Count;
-                for (int i = 0; i < orderedCircleObjects.Count; ++i)
-                {
-                    if (ObjectLine(mapObject, orderedCircleObjects[i]))
-                    {
-                        placedIndex = i;
-                        break;
-                    }
-                }
-                var bucketNum = 0;
-                while (objectIndex.ContainsKey(new Tuple<int, int>(placedIndex, bucketNum)))
-                {
-                    bucketNum++;
-                }
-                objectIndex[new Tuple<int, int>(placedIndex, bucketNum)] = mapObject;
-            }
-            return objectIndex.OrderBy(kvp => kvp.Key.Item1).ThenBy(kvp => kvp.Key.Item2).Select(kvp => kvp.Value);
-        }
-
-        private static bool ObjectLine(MapObject lowerObject, MapObject higherObject)
-        {
-            if (lowerObject.Level < higherObject.Level)
-                return true;
-            if (lowerObject.Level > higherObject.Level)
-                return false;
-            MapEventPage lowerObjectPage = lowerObject.Pages.SelectedEventPage;
-            if (lowerObjectPage.HitRange.Width == 0)
-                return true;
-            double num1 = -(lowerObjectPage.HitRange.Width / lowerObjectPage.HitRange.Width);
-            double num2 = lowerObject.Y + lowerObjectPage.HitShift.Y - num1 * (lowerObject.X + lowerObjectPage.HitShift.X);
-            return higherObject.X * num1 + num2 < higherObject.Y;
-        }
     }
 }

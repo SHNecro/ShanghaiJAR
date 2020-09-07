@@ -400,6 +400,7 @@
     <Compile Include="ExtensionMethods\AddOnBaseExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\AnimationExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\FaceExtensionMethods.cs" />
+    <Compile Include="ExtensionMethods\DoubleExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\PointRectangleExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\RenderingExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\StringExtensionMethods.cs" />

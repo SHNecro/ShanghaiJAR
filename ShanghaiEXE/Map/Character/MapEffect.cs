@@ -81,7 +81,8 @@ namespace NSMap.Character
             [64] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPRIGHT, FreeSoul.DissolveCharacter.Alive),
             [65] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNRIGHT, FreeSoul.DissolveCharacter.Alive),
             [66] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNLEFT, FreeSoul.DissolveCharacter.Alive),
-            [67] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Alive)
+            [67] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Alive),
+            [68] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.none, FreeSoul.DissolveCharacter.NoBody)
         };
 
     public EffectBase effect;

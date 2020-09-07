@@ -18,7 +18,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
         private static readonly Color DefaultTextColor = Color.FromArgb(byte.MaxValue, 64, 56, 56);
         private static readonly Color TextShadowColor = Color.FromArgb(byte.MaxValue, 32, 32, 32);
         private static readonly string FallbackFont = "MICROSS.TTF";
-
+        public SpriteRendererPanel rend => this.renderer;
         private readonly SpriteRendererPanel renderer;
         private readonly Font regularFont;
         private readonly Font miniFont;
