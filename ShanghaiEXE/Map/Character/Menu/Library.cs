@@ -354,6 +354,7 @@ namespace NSMap.Character.Menu
                 RightPage = LibraryPageType.Navi
             };
 
+            var hasDarkChips = allChips.Any(c => IsDarkChipPredicate(c.Chip));
             this.LibraryPages[LibraryPageType.Navi] = new LibraryPage
             {
                 Chips = FillBlanks(allChips.Where(c => IsNaviChipPredicate(c.Chip))),
@@ -361,7 +362,7 @@ namespace NSMap.Character.Menu
                 TitleColor = Color.FromArgb(183, 231, 255),
                 CustomTextArea = new TextArea { Sprite = new Rectangle(272, 128, 88, 56), Position = new Vector2(8f, 96f) },
                 LeftPage = LibraryPageType.Normal,
-                RightPage = LibraryPageType.Dark
+                RightPage = hasDarkChips ? LibraryPageType.Dark : LibraryPageType.PA
             };
 
             this.LibraryPages[LibraryPageType.Dark] = new LibraryPage
@@ -380,7 +381,7 @@ namespace NSMap.Character.Menu
                 Title = ShanghaiEXE.Translate("DataList.PAdvance"),
                 TitleColor = Color.White,
                 CustomTextArea = new TextArea { Sprite = new Rectangle(760, 120, 88, 136), Position = new Vector2(8f, 16) },
-                LeftPage = LibraryPageType.Dark,
+                LeftPage = hasDarkChips ? LibraryPageType.Dark : LibraryPageType.Navi,
                 RightPage = this.savedata.FlagList[800] ? (LibraryPageType?)LibraryPageType.Illegal : null
             };
 
