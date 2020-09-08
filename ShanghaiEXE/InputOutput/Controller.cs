@@ -12,6 +12,9 @@ namespace NSShanghaiEXE.InputOutput
 {
     public class Controller : IDisposable
 	{
+        private const int InitializationCycles = 25;
+        private const int StuckOnThreshold = 20;
+
 		private static readonly List<XInputGamePadButton> TKButtons;
 
 		public static CooperativeLevel ctl = CooperativeLevel.Background;
@@ -20,6 +23,11 @@ namespace NSShanghaiEXE.InputOutput
 		private static int MaximumButtonCode;
         private Joystick stick;
         private readonly ShanghaiEXE form;
+
+        private bool controllerInitialized;
+        private Dictionary<int, int> initializationButtonCounts;
+        private HashSet<int> initialButtons;
+        private int initializationCount;
 
 		private HashSet<int> push;
 		private HashSet<int> press;
@@ -33,6 +41,22 @@ namespace NSShanghaiEXE.InputOutput
 
 			directInput = new DirectInput();
 		}
+
+        public Controller(ShanghaiEXE f)
+		{
+			this.form = f;
+			this.push = new HashSet<int>();
+			this.press = new HashSet<int>();
+			this.up = new HashSet<int>();
+
+            this.controllerInitialized = false;
+            this.initializationButtonCounts = new Dictionary<int, int>();
+            this.initializationCount = 0;
+
+			for (int index = 0; index < 30; ++index)
+                Input.inputRecord.Add(new bool[Enum.GetNames(typeof(Button)).Length]);
+            this.CreateDevice();
+        }
 
 		public int _Up
         {
@@ -166,17 +190,6 @@ namespace NSShanghaiEXE.InputOutput
             }
         }
 
-        public Controller(ShanghaiEXE f)
-		{
-			this.form = f;
-			this.push = new HashSet<int>();
-			this.press = new HashSet<int>();
-			this.up = new HashSet<int>();
-			for (int index = 0; index < 30; ++index)
-                Input.inputRecord.Add(new bool[Enum.GetNames(typeof(Button)).Length]);
-            this.CreateDevice();
-        }
-
         public void GetKeyData()
         {
             if (this.stick == null)
@@ -241,6 +254,37 @@ namespace NSShanghaiEXE.InputOutput
 				MaximumButtonCode = Math.Max(MaximumButtonCode, buttons.Max());
 			}
 
+            if (!this.controllerInitialized)
+            {
+                if (this.initializationCount < InitializationCycles)
+                {
+                    foreach (var button in buttons)
+                    {
+                        if (!this.initializationButtonCounts.ContainsKey(button))
+                        {
+                            this.initializationButtonCounts[button] = 0;
+                        }
+
+                        this.initializationButtonCounts[button]++;
+                    }
+
+                    this.initializationCount++;
+                }
+                else if (this.initializationCount == InitializationCycles)
+                {
+                    this.initialButtons = new HashSet<int>(this.initializationButtonCounts.Where(kvp => kvp.Value > StuckOnThreshold)
+                        .Select(kvp => kvp.Key));
+                    this.initializationCount++;
+                }
+                else
+                {
+                    if (!this.initialButtons.SetEquals(buttons))
+                    {
+                        this.controllerInitialized = true;
+                    }
+                }
+            }
+
 			for(var i = MinimumButtonCode; i <= MaximumButtonCode; i++)
 			{
 				if (buttons.Contains(i))
@@ -272,18 +316,33 @@ namespace NSShanghaiEXE.InputOutput
 		}
 
 		public bool IsPush(int key)
-		{
-			return this.push.Contains(key);
+        {
+            if (!this.controllerInitialized)
+            {
+                return false;
+            }
+
+            return this.push.Contains(key);
 		}
 
 		public bool IsPress(int key)
 		{
+            if (!this.controllerInitialized)
+            {
+                return false;
+            }
+
 			return this.press.Contains(key);
 		}
 
 		public bool IsUp(int key)
-		{
-			return this.up.Contains(key);
+        {
+            if (!this.controllerInitialized)
+            {
+                return false;
+            }
+
+            return this.up.Contains(key);
 		}
 
 		private bool CreateDevice()
