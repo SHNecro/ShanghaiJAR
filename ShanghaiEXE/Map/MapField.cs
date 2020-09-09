@@ -579,7 +579,7 @@ namespace NSMap
                 }
                 if (obj2 is MysteryData)
                 {
-                    center1 += new Vector2(-10, -10);
+                    center2 += new Vector2(-10, -10);
                 }
             }
             else if (mcb2 is Player)
