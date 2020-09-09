@@ -665,13 +665,24 @@ namespace NSMap
             }
             else
             {
-                // If front is inside, will always be behind (reversed for effects)
-                if (rect1.Contains(new PointF(front2.X, front2.Y))) return mcb2 is MapEffect;
-                if (rect2.Contains(new PointF(front1.X, front1.Y))) return !(mcb1 is MapEffect);
+                // If completely within, compare center to diagonal
+                var rect1InRect2 = rect1.Contains(rect2);
+                var rect2InRect1 = rect2.Contains(rect1);
+                if (rect1InRect2 || rect2InRect1)
+                {
+                    var containerCenter = rect1InRect2 ? center1 : center2;
+                    var containerSize = rect1InRect2 ? size1 : size2;
+                    var containedCenter = rect1InRect2 ? center2 : center1;
+                    // https://stackoverflow.com/questions/1560492/how-to-tell-whether-a-point-is-to-the-right-or-left-side-of-a-line
+                    var ab = (containerCenter + (new Vector2(containerSize.X, -containerSize.Y) / 2)) - containerCenter;
+                    var am = containedCenter - containerCenter;
+
+                    return (ab.X * am.Y) - (ab.Y * am.X) > 0;
+                }
 
                 if (rect1.Contains(new PointF(back2.X, back2.Y)))
                 {
-                    // If back is inside and front isn't, in front
+                    // If back but not front inside (otherwise would be completely inside), is in front
                     return true;
                 }
                 else
