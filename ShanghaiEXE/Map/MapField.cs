@@ -666,18 +666,20 @@ namespace NSMap
             else
             {
                 // If completely within, compare center to diagonal
-                var rect1InRect2 = rect1.Contains(rect2);
-                var rect2InRect1 = rect2.Contains(rect1);
+                var rect1InRect2 = rect2.Contains(rect1);
+                var rect2InRect1 = rect1.Contains(rect2);
                 if (rect1InRect2 || rect2InRect1)
                 {
-                    var containerCenter = rect1InRect2 ? center1 : center2;
-                    var containerSize = rect1InRect2 ? size1 : size2;
-                    var containedCenter = rect1InRect2 ? center2 : center1;
-                    // https://stackoverflow.com/questions/1560492/how-to-tell-whether-a-point-is-to-the-right-or-left-side-of-a-line
-                    var ab = (containerCenter + (new Vector2(containerSize.X, -containerSize.Y) / 2)) - containerCenter;
-                    var am = containedCenter - containerCenter;
+                    return ToScreenPosition(center1).Y < ToScreenPosition(center2).Y;
+                    //Broken: If 3 objects A contains B contains C, and A is long/B is wide, B can be in front of A, but C is in front of B but behind A
+                    //var containerCenter = rect1InRect2 ? center1 : center2;
+                    //var containerSize = rect1InRect2 ? size1 : size2;
+                    //var containedCenter = rect1InRect2 ? center2 : center1;
+                    //// https://stackoverflow.com/questions/1560492/how-to-tell-whether-a-point-is-to-the-right-or-left-side-of-a-line
+                    //var ab = (containerCenter + (new Vector2(containerSize.X, -containerSize.Y) / 2)) - containerCenter;
+                    //var am = containedCenter - containerCenter;
 
-                    return (ab.X * am.Y) - (ab.Y * am.X) > 0;
+                    //return (ab.X * am.Y) - (ab.Y * am.X) > 0;
                 }
 
                 if (rect1.Contains(new PointF(back2.X, back2.Y)))
