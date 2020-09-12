@@ -201,16 +201,27 @@ namespace NSChip
         {
             if (!printgraphics)
                 return;
-            string[] strArray = new string[3]
+            switch (c % 2)
             {
-        ShanghaiEXE.Translate("Chip.ProgramAdvanceTwinHeroinesCombo1Line1"),
-        ShanghaiEXE.Translate("Chip.ProgramAdvanceTwinHeroinesCombo1Line2"),
-        ShanghaiEXE.Translate("Chip.ProgramAdvanceTwinHeroinesCombo1Line3")
-            };
-            for (int index = 0; index < strArray.Length; ++index)
-            {
-                this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
-                this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
+                case 0:
+                    this._rect = new Rectangle(848, 320, 74, 79);
+                    dg.DrawImage(dg, "menuwindows", this._rect, true, p - new Vector2(9, 16), Color.White);
+                    this._rect = new Rectangle(56 * 3, 48 * 0, 56, 48);
+                    dg.DrawImage(dg, "pagraphic2", this._rect, true, p, Color.White);
+                    return;
+                case 1:
+                    string[] strArray =
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceTwinHeroinesCombo1Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceTwinHeroinesCombo1Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceTwinHeroinesCombo1Line3")
+                    };
+                    for (int index = 0; index < strArray.Length; ++index)
+                    {
+                        this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
+                        this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
+                    }
+                    return;
             }
         }
 
@@ -233,7 +244,7 @@ namespace NSChip
                 this._rect = new Rectangle(480, 64 + num4 * 96, 16, 16);
                 dg.DrawImage(dg, "chipicon", this._rect, true, p, Color.White);
             }
-            base.IconRender(dg, p, select, custom, c, noicon);
+            base.IconRender(dg, p, select, custom, 0, noicon);
         }
 
         public override void Render(IRenderer dg, CharacterBase character)

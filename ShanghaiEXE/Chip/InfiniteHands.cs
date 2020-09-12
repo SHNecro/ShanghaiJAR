@@ -189,18 +189,29 @@ namespace NSChip
 		{
 			if (!printgraphics)
 				return;
-			string[] strArray = new string[3]
-			{
-				ShanghaiEXE.Translate("Chip.ProgramAdvanceInfiniteHandsCombo1Line1"),
-				ShanghaiEXE.Translate("Chip.ProgramAdvanceInfiniteHandsCombo1Line2"),
-				ShanghaiEXE.Translate("Chip.ProgramAdvanceInfiniteHandsCombo1Line3")
-			};
-			for (int index = 0; index < strArray.Length; ++index)
-			{
-				this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
-				this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
-			}
-		}
+            switch (c % 2)
+            {
+                case 0:
+                    this._rect = new Rectangle(848, 320, 74, 79);
+                    dg.DrawImage(dg, "menuwindows", this._rect, true, p - new Vector2(9, 16), Color.White);
+                    this._rect = new Rectangle(56 * 5, 48 * 1, 56, 48);
+                    dg.DrawImage(dg, "pagraphic2", this._rect, true, p, Color.White);
+                    return;
+                case 1:
+                    string[] strArray =
+                    {
+				        ShanghaiEXE.Translate("Chip.ProgramAdvanceInfiniteHandsCombo1Line1"),
+				        ShanghaiEXE.Translate("Chip.ProgramAdvanceInfiniteHandsCombo1Line2"),
+				        ShanghaiEXE.Translate("Chip.ProgramAdvanceInfiniteHandsCombo1Line3")
+                    };
+                    for (int index = 0; index < strArray.Length; ++index)
+                    {
+                        this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
+                        this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
+                    }
+                    return;
+            }
+        }
 
 		public override void IconRender(
 		  IRenderer dg,
@@ -218,7 +229,7 @@ namespace NSChip
 				this._rect = new Rectangle(608, 80 + num * 96, 16, 16);
 				dg.DrawImage(dg, "chipicon", this._rect, true, p, Color.White);
 			}
-			base.IconRender(dg, p, select, custom, c, noicon);
+			base.IconRender(dg, p, select, custom, 0, noicon);
 		}
 
 		public override void Render(IRenderer dg, CharacterBase character)

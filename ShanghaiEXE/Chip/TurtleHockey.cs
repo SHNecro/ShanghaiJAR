@@ -61,29 +61,6 @@ namespace NSChip
             this.sortNumber = 189.5f;
         }
 
-        /*
-        public override void GraphicsRender(
-          IRenderer dg,
-          Vector2 p,
-          int c,
-          bool printgraphics,
-          bool printstatus)
-        {
-            if (!printgraphics)
-                return;
-            string[] strArray = new string[3]
-            {
-        ShanghaiEXE.Translate("Chip.ProgramAdvanceHellsHockeyCombo1Line1"),
-        ShanghaiEXE.Translate("Chip.ProgramAdvanceHellsHockeyCombo1Line2"),
-        ShanghaiEXE.Translate("Chip.ProgramAdvanceHellsHockeyCombo1Line3")
-            };
-            for (int index = 0; index < strArray.Length; ++index)
-            {
-                this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
-                this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
-            }
-        }*/
-
         public override void GraphicsRender(
             IRenderer dg,
             Vector2 p,

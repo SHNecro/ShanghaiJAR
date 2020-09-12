@@ -16,8 +16,7 @@ namespace NSMap.Character.Menu
         private static readonly Predicate<ChipBase> IsNormalChipPredicate = (c) => c.number >= 1 && c.number <= 190;
         private static readonly Predicate<ChipBase> IsNaviChipPredicate = (c) => c.number >= 191 && c.number <= 254;
         private static readonly Predicate<ChipBase> IsDarkChipPredicate = (c) => c.dark && !IsPAPredicate(c);
-        // TODO: implement new PA system
-        private static readonly Predicate<ChipBase> IsPAPredicate = (c) => c.number >= 271 && c.number <= 302;
+        private static readonly Predicate<ChipBase> IsPAPredicate = (c) => ChipFolder.ProgramAdvances.Any(pa => pa.ProgramAdvance == c.number);
         private static readonly Predicate<ChipBase> IsIllegalPredicate = (c) =>
         {
             var excludedChips = new[] { 310, 311, 312 };
@@ -258,14 +257,22 @@ namespace NSMap.Character.Menu
             {
                 if (this.CurrentPage.CurrentChip.IsSeen)
                 {
-                    var currentCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                    for (var i = 0; i < 4; i++)
+                    if (this.CurrentPageType == LibraryPageType.PA)
                     {
-                        this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
-                        var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
-                        if (this.CurrentPageType == LibraryPageType.PA || newCode != currentCode)
+                        // hitting int.maxvalue is probably not a concern
+                        this.CurrentPage.CurrentChip.CurrentCodeNumber++;
+                    }
+                    else
+                    {
+                        var currentCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
+                        for (var i = 0; i < 4; i++)
                         {
-                            break;
+                            this.CurrentPage.CurrentChip.CurrentCodeNumber = (this.CurrentPage.CurrentChip.CurrentCodeNumber + 1) % 4;
+                            var newCode = this.CurrentPage.CurrentChip.Chip.code[this.CurrentPage.CurrentChip.CurrentCodeNumber];
+                            if (newCode != currentCode)
+                            {
+                                break;
+                            }
                         }
                     }
                     this.sound.PlaySE(SoundEffect.decide);

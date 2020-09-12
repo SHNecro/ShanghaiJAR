@@ -65,48 +65,54 @@ namespace NSChip
 		{
 			if (!printgraphics)
 				return;
-			string[] strArray;
-			switch (c)
-			{
-				case 0:
-					strArray = new string[3]
-					{
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo1Line1"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo1Line2"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo1Line3")
-					};
-					break;
-				case 1:
-					strArray = new string[3]
-					{
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo2Line1"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo2Line2"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo2Line3")
-					};
-					break;
-				case 2:
-					strArray = new string[3]
-					{
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo3Line1"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo3Line2"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo3Line3")
-					};
-					break;
-				default:
-					strArray = new string[3]
-					{
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo4Line1"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo4Line2"),
-			ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo4Line3")
-					};
-					break;
-			}
-			for (int index = 0; index < strArray.Length; ++index)
-			{
-				this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
-				this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
-			}
-		}
+			var strArray = new string[0];
+            switch (c % 5)
+            {
+                case 0:
+                    this._rect = new Rectangle(848, 320, 74, 79);
+                    dg.DrawImage(dg, "menuwindows", this._rect, true, p - new Vector2(9, 16), Color.White);
+                    this._rect = new Rectangle(56 * 4, 48 * 0, 56, 48);
+                    dg.DrawImage(dg, "pagraphic1", this._rect, true, p, Color.White);
+                    return;
+                case 1:
+                    strArray = new string[3]
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo1Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo1Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo1Line3")
+                    };
+                    break;
+                case 2:
+                    strArray = new string[3]
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo2Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo2Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo2Line3")
+                    };
+                    break;
+                case 3:
+                    strArray = new string[3]
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo3Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo3Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo3Line3")
+                    };
+                    break;
+                case 4:
+                    strArray = new string[3]
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo4Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo4Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceBigTyphoonCombo4Line3")
+                    };
+                    break;
+            }
+            for (int index = 0; index < strArray.Length; ++index)
+            {
+                this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
+                this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
+            }
+        }
 
 		public override void IconRender(
 		  IRenderer dg,
@@ -124,7 +130,7 @@ namespace NSChip
 				this._rect = new Rectangle(624, 80 + num * 96, 16, 16);
 				dg.DrawImage(dg, "chipicon", this._rect, true, p, Color.White);
 			}
-			base.IconRender(dg, p, select, custom, c, noicon);
+			base.IconRender(dg, p, select, custom, 0, noicon);
 		}
 
 		public override void Render(IRenderer dg, CharacterBase character)
