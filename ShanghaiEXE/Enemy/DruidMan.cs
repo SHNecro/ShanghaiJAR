@@ -864,12 +864,12 @@ namespace NSEnemy
             this.picturename = "druidman";
             this.element = ChipBase.ELEMENT.poison;
 
-            this.idleDelayBase = 40;
+            this.idleDelayBase = 30;
             this.idleDelayFuzz = 0;
 
             this.attackChance = 0.5;
 
-            this.attackDelayBase = 12;
+            this.attackDelayBase = 8;
             this.attackDelayFuzz = 0;
             this.attackCooldownBase = 8;
             this.attackCooldownFuzz = 0;
@@ -942,9 +942,9 @@ namespace NSEnemy
 
             if (this.version >= 2)
             {
-                this.idleDelayBase = 38;
+                this.idleDelayBase = 28;
                 this.attackChance = 0.55;
-                this.attackDelayBase = 10;
+                this.attackDelayBase = 7;
                 this.attackCooldownBase = 6;
 
                 this.burstAttackInitialDelay = 20;
@@ -966,10 +966,10 @@ namespace NSEnemy
 
             if (this.version >= 3)
             {
-                this.idleDelayBase = 36;
+                this.idleDelayBase = 26;
                 this.attackChance = 0.6;
                 this.attackCooldownBase = 8;
-                this.attackDelayBase = 4;
+                this.attackDelayBase = 5;
 
                 this.burstAttackInitialDelay = 16;
                 this.burstWarning = 32;
