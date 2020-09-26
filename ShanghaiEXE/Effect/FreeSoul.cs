@@ -12,7 +12,9 @@ namespace NSEffect
 {
     internal class FreeSoul : EffectBase
     {
-        private static readonly Rectangle DissolveTextureRectOrigin = new Rectangle(360, 680, 30, 50);
+        private static readonly Rectangle GhostDissolveTextureRectOrigin = new Rectangle(360, 680, 30, 50);
+        private static readonly Rectangle AliveDissolveTextureRectOrigin = new Rectangle(360 + (30 * 6), 680, 30, 50);
+        private static readonly Rectangle SpriteDissolveTextureRectOrigin = new Rectangle(1410, 680, 30, 50);
         private static readonly Rectangle SoulTextureRect = new Rectangle(360, 780, 30, 20);
         private static readonly Rectangle SparkleTextureRect = new Rectangle(450, 780, 5, 5);
 
@@ -45,33 +47,37 @@ namespace NSEffect
                 this.characterOffset = new Point(-2, -6);
             }
 
-            var dissolveAdjustmentX = 0;
-            var dissolveAdjustmentY = 0;
-
-            if (this.angle == ANGLE.UPLEFT
-                || this.angle == ANGLE.UPRIGHT)
-            {
-                dissolveAdjustmentY = DissolveTextureRectOrigin.Height;
-            }
-
+            var dissolveTextureRectOrigin = new Rectangle();
             switch (this.character)
             {
                 case DissolveCharacter.Ghost:
-                    dissolveAdjustmentX = 0;
+                    dissolveTextureRectOrigin = GhostDissolveTextureRectOrigin;
                     break;
                 case DissolveCharacter.Alive:
-                    dissolveAdjustmentX = DissolveTextureRectOrigin.Width * 6;
+                    dissolveTextureRectOrigin = AliveDissolveTextureRectOrigin;
+                    break;
+                case DissolveCharacter.Sprite:
+                    dissolveTextureRectOrigin = SpriteDissolveTextureRectOrigin;
                     break;
                 case DissolveCharacter.NoBody:
                     this.noBody = true;
                     break;
             }
 
+            var dissolveAdjustmentX = 0;
+            var dissolveAdjustmentY = 0;
+
+            if (this.angle == ANGLE.UPLEFT
+                || this.angle == ANGLE.UPRIGHT)
+            {
+                dissolveAdjustmentY = dissolveTextureRectOrigin.Height;
+            }
+
             var adjustedRect = new Rectangle(
-                DissolveTextureRectOrigin.X + dissolveAdjustmentX,
-                DissolveTextureRectOrigin.Y + dissolveAdjustmentY,
-                DissolveTextureRectOrigin.Width,
-                DissolveTextureRectOrigin.Height);
+                dissolveTextureRectOrigin.X + dissolveAdjustmentX,
+                dissolveTextureRectOrigin.Y + dissolveAdjustmentY,
+                dissolveTextureRectOrigin.Width,
+                dissolveTextureRectOrigin.Height);
             this.dissolveTextureRect = adjustedRect;
         }
 
@@ -153,6 +159,7 @@ namespace NSEffect
             Ghost = 0,
             Alive,
             NoBody,
+            Sprite,
         }
     }
 }

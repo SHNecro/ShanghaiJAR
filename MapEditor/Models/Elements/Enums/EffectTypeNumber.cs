@@ -71,5 +71,9 @@
         AliveFreeSoulSouth = 66,
         AliveFreeSoulWest = 67,
         NoBodyFreeSoul = 68,
+        SpriteFreeSoulNorth = 69,
+        SpriteFreeSoulEast = 70,
+        SpriteFreeSoulSouth = 71,
+        SpriteFreeSoulWest = 72,
     }
 }

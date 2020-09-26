@@ -82,7 +82,11 @@ namespace NSMap.Character
             [65] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNRIGHT, FreeSoul.DissolveCharacter.Alive),
             [66] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNLEFT, FreeSoul.DissolveCharacter.Alive),
             [67] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Alive),
-            [68] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.none, FreeSoul.DissolveCharacter.NoBody)
+            [68] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.none, FreeSoul.DissolveCharacter.NoBody),
+            [69] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPRIGHT, FreeSoul.DissolveCharacter.Sprite),
+            [70] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNRIGHT, FreeSoul.DissolveCharacter.Sprite),
+            [71] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNLEFT, FreeSoul.DissolveCharacter.Sprite),
+            [72] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Sprite),
         };
 
     public EffectBase effect;

@@ -99,6 +99,22 @@ msg:Map.TesuriSprite1Stage1Dialogue2FaceSprite
 msgclose:
 end
 
+ID:Var7Clear
+position:3:-20:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:3:3:0:0
+hitform:square
+event:
+editValue:7:False:0:0:0
+eventDeath:
+end
+
 ID:BGMStart
 position:152:88:0
 page:1
