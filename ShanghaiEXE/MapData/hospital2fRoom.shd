@@ -405,6 +405,7 @@ hitform:square
 event:
 fade:60:255:0:0:0:True
 mapChange:hospital2fRoom:148:40:0:0
+emove:プレイヤー:wayright,0:wait,0
 wait:15:False
 fade:60:0:0:0:0:False
 msgopen:

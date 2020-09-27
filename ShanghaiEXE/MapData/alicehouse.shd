@@ -398,7 +398,7 @@ end
 page:9
 startterms:Abutton
 type:1
-terms:flag/283
+terms:flag/282
 move:
 speed:0
 graphic:4:6,0,7,0,0
@@ -1399,9 +1399,9 @@ hitform:square
 event:
 bgmon:emergency
 fade:20:0:255:255:255:False
-emove:-1:down,16:wayup,0
+emove:-1:down,16:wayup,0:wait,0
 wait:10:False
-effect:8:突き出る氷1:0:0:0:2:-1:0:1:shotwave
+effect:8:突き出る氷1:29:5:0:0:-1:0:1:shotwave
 msgopen:
 canSkip:
 msg:Map.AlicehouseUnusualIceStage1Dialogue1FaceMama
@@ -1448,7 +1448,7 @@ terms:flag/32
 move:
 speed:0
 graphic:-7:128,0,56,56,0
-hitrange:16:16:8:8
+hitrange:19:16:8:8
 hitform:square
 event:
 msgopen:

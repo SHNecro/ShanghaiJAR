@@ -249,8 +249,8 @@ terms:flag/787,!flag/788,!flag/789
 move:
 speed:0
 graphic:3:0,0,1,0,0
-hitrange:3:3:25:25
-hitform:square
+hitrange:2:3:7:7
+hitform:circle
 event:
 end
 
@@ -319,8 +319,8 @@ terms:flag/787,!flag/788,!flag/789
 move:
 speed:4
 graphic:11:3,0,1,0,0
-hitrange:3:3:16:16
-hitform:square
+hitrange:3:3:0:0
+hitform:circle
 event:
 end
 

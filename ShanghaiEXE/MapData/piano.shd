@@ -62,8 +62,6 @@ hitform:circle
 event:
 msgopen:
 msg:Map.PianoSpriteStage1Dialogue1
-msg:Map.PianoSpriteStage1Dialogue2
-msg:Map.PianoSpriteStage1Dialogue3
 msgclose:
 end
 
@@ -169,10 +167,14 @@ hitform:square
 event:
 msgopen:
 msg:Map.PianoConductorStage1Dialogue1
-msgclose:
 wait:15:False
+bgmfade:0:120:False
+wait:15:False
+fade:30:64:0:0:0:True
 EventLun:PlayPiano:-1
+bgmfade:100:120:False
 wait:15:False
+fade:30:0:0:0:0:True
 msgopen:
 msg:Map.PianoConductorStage1Dialogue2
 msgclose:

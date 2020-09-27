@@ -420,7 +420,7 @@ terms:variable/10/False/0/8
 move:
 speed:0
 graphic:-21:96,0,82,112,0
-hitrange:28:12:15:15
+hitrange:30:12:13:15
 hitform:square
 event:
 end
@@ -1611,10 +1611,12 @@ msg:Map.ROMbaseOutAppearanceEventStage1Dialogue3FaceBlackRobot
 msg:Map.ROMbaseOutAppearanceEventStage1Dialogue4FaceShanghai
 msgclose:
 bgmfade:0:60:False
-effect:40:弾:G7:::3:4:16:1:gun
+effect:40:弾1:G7:::3:4:16:1:gun
+effect:40:弾2:G7:::3:4:16:2:none
 wait:60:False
 fade:75:255:255:255:255:True
-effectDelete:弾
+effectDelete:弾1
+effectDelete:弾2
 seon:bombbig
 editFlag:776:True
 effect:3:爆発:G7:::3:8:16:0:none

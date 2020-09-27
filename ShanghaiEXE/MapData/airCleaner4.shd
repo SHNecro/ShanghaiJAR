@@ -655,12 +655,12 @@ msg:Map.AirCleaner4BossEventStage3Dialogue2FaceShanghai
 msg:Map.AirCleaner4BossEventStage3Dialogue3FaceAlice
 msg:Map.AirCleaner4BossEventStage3Dialogue4FaceMedicine
 bgmon:emergency
-emove:19:right,104
-emove:20:left,104
-emove:21:up,104
+editFlag:142:True
+emove:イベントガス1:right,104
+emove:イベントガス2:left,104
+emove:イベントガス3:up,104
 msg:Map.AirCleaner4BossEventStage3Dialogue5FaceMedicine
 msgclose:
-editFlag:142:True
 wait:30:False
 effectEnd:
 effect:17::0:1:2:1:-1:0:1:none

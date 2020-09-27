@@ -1394,8 +1394,8 @@ fade:20:32:255:255:255:False
 effect:54:SageFloatUp:3章千里眼:::3:-1:0:1:none
 emove:3章千里眼:warpup,200
 wait:32:False
-wait:112:False
-emove:SageFloat:warpdown,200:wayup,0:wait,0
+wait:109:False
+emove:SageFloat:wayup,0:wayfix,0:warpdown,200:wayfixend,0:wait,0
 effectEnd:
 msgopen:
 msg:Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1
@@ -1477,7 +1477,7 @@ CameraDefault:5
 effect:55:SageFloatDown:SageFloat:::3:-1:0:1:none
 emove:SageFloat:warpup,200
 wait:124:False
-emove:3章千里眼:warpdown,200:wayup,0:wait,0
+emove:3章千里眼:wayup,0:wayfix,0:warpdown,200:wayfixend,0:wait,0
 fade:20:0:0:0:0:True
 effectEnd:
 bgmfade:0:450:False

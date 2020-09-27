@@ -2352,7 +2352,7 @@ terms:none
 move:
 speed:0
 graphic:3:6,0,1,0,0
-hitrange:3:6:0:0
+hitrange:2:6:0:0
 hitform:circle
 event:
 msgopen:

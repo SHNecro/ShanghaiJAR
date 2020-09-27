@@ -622,6 +622,24 @@ hitform:square
 event:
 end
 
+ID:Ch5EirinTalkReminder
+position:134:159:0
+page:1
+startterms:Touch
+type:1
+terms:flag/295,!flag/296
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:58:8:0:0
+hitform:square
+event:
+emove:プレイヤー:up,12:wait,0
+msgopen:
+msg:Map.Hospital1fHospitalCh5EirinTalkReminder
+msgclose:
+end
+
 ID:5章EV缶
 position:170:77:0
 page:1

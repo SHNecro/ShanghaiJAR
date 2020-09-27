@@ -1369,7 +1369,7 @@ ID:床カメラ
 position:157:326:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1383,7 +1383,7 @@ ID:床カメラ
 position:182:326:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1397,7 +1397,7 @@ ID:床カメラ
 position:182:301:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1411,7 +1411,7 @@ ID:床カメラ
 position:157:301:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1454,7 +1454,7 @@ ID:床カメラ上
 position:349:365:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1468,7 +1468,7 @@ ID:床カメラ右
 position:374:365:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1482,7 +1482,7 @@ ID:床カメラ左
 position:349:390:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4
@@ -1496,7 +1496,7 @@ ID:床カメラ下
 position:374:390:1
 page:1
 startterms:Abutton
-type:1
+type:0
 terms:none
 move:
 speed:4

@@ -217,7 +217,7 @@ terms:none
 move:
 speed:0
 graphic:-8:0,0,48,64,0
-hitrange:24:24:6:3
+hitrange:20:24:7:1
 hitform:square
 event:
 msgopen:
@@ -235,7 +235,7 @@ terms:none
 move:
 speed:0
 graphic:-8:48,0,48,64,0
-hitrange:24:24:-6:3
+hitrange:20:24:-5:3
 hitform:square
 event:
 msgopen:
