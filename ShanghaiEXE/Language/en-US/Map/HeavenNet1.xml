@@ -93,4 +93,17 @@
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue5" Value="There，there，Shanghai.,I’m sure the next one will be....,....more of a challenge?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue6" Value="Tch....,Let’s keep going，Alice." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorVirusTraining1" Value="THE WAY SHALL OPEN FOR,ONE WHO HARNESSES THE,POWERS OF THE WILD" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue1" Value="What....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue2" Value="Something bad is happening,here，that’s for sure." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue3" Value="Shanghai!,Watch out!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue4" Value="What is this stuff?!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue5" Value="How am I supposed to deal,with this?!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue6" Value="Hm?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue7" Value="Is it.... over?,Are you alright，Shanghai?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue8" Value="Seems like it.,For the record，I don’t like this,one bit，Alice." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue9" Value="We’re here to track down the,Queen of Darkness，let’s get,our answers and get out." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1OverloadQuestion" Value="Do you want to try to overload,the protection system?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet1Barrier1OverloadAnswers" Value="Yes,No" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue1" Value="ACCESS DENIED,UNSAFE CORRUPTION,LEVELS DETECTED" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue2" Value="There should be a barrier,nearby that we can overload,to clear this stuff out." Face="Shanghai" Mono="False" />
 </data>

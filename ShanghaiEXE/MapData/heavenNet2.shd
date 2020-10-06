@@ -543,9 +543,9 @@ type:1
 terms:!flag/832
 move:
 speed:0
-graphic:20:0,0,7,0,0
-hitrange:14:12:0:-8
-hitform:circle
+graphic:20:0,0,3,0,0
+hitrange:24:10:8:8
+hitform:square
 event:
 msgopen:
 msg:Map.HeavenNet1Barrier1CutsceneDialogue1
@@ -581,7 +581,7 @@ type:1
 terms:!flag/832
 move:
 speed:0
-graphic:20:0,0,7,0,0
+graphic:20:0,0,3,0,0
 hitrange:0:24:0:0
 hitform:circle
 event:
@@ -595,7 +595,7 @@ type:1
 terms:!flag/832
 move:
 speed:0
-graphic:20:0,0,7,0,0
+graphic:20:0,0,3,0,0
 hitrange:0:24:0:0
 hitform:circle
 event:
