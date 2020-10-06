@@ -87,6 +87,8 @@ namespace NSMap.Character
             [70] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNRIGHT, FreeSoul.DissolveCharacter.Sprite),
             [71] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.DOWNLEFT, FreeSoul.DissolveCharacter.Sprite),
             [72] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Sprite),
+            [73] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip20", new Rectangle(15, 32, 30, 64), false),
+            [74] = (sound, position, field) => new Noise(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
         };
 
     public EffectBase effect;

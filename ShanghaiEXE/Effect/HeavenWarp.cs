@@ -31,6 +31,7 @@ namespace NSEffect
 
         private bool xFlipped;
         private bool warpIn;
+        private bool hasShadow;
 
         public HeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool warpIn)
           : this(s, pd, posi, field, warpIn, false, "charachip1", new Rectangle(0, AngleTextures[field.parent.Player.Angle], 32, 48))
@@ -38,6 +39,11 @@ namespace NSEffect
         }
 
         public HeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool warpIn, bool xFlipped, string textureFile, Rectangle textureRect)
+          : this(s, pd, posi, field, warpIn, xFlipped, textureFile, textureRect, true)
+        {
+        }
+
+        public HeavenWarp(IAudioEngine s, Vector2 pd, Point posi, MapField field, bool warpIn, bool xFlipped, string textureFile, Rectangle textureRect, bool hasShadow)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = new Vector2(pd.X, pd.Y - 20);
@@ -51,6 +57,7 @@ namespace NSEffect
 
             this.xFlipped = xFlipped;
             this.warpIn = warpIn;
+            this.hasShadow = hasShadow;
             if (this.warpIn)
             {
                 for (int setupFrame = 0; setupFrame < this.textureRect.Width; setupFrame++)
@@ -96,11 +103,14 @@ namespace NSEffect
                 return;
             }
 
-            this._rect = new Rectangle(0, 48 * 8, 32, 48);
             var centerOffset = this.textureRect.Width / 2;
-            this._position = new Vector2(this.positionDirect.X + Shake.X, this.positionDirect.Y + Shake.Y - 18);
-            this.color = Color.White;
-            dg.DrawImage(dg, "charachip1", this._rect, false, this._position, this.rebirth, this.color);
+            if (this.hasShadow)
+            {
+                this._rect = new Rectangle(0, 48 * 8, 32, 48);
+                this._position = new Vector2(this.positionDirect.X + Shake.X, this.positionDirect.Y + Shake.Y - 18);
+                this.color = Color.White;
+                dg.DrawImage(dg, "charachip1", this._rect, false, this._position, this.rebirth, this.color);
+            }
 
             for (int i = 0; i < this.textureRect.Width; i++)
             {

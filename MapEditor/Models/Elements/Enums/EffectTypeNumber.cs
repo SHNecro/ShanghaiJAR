@@ -75,5 +75,7 @@
         SpriteFreeSoulEast = 70,
         SpriteFreeSoulSouth = 71,
         SpriteFreeSoulWest = 72,
+        BarrierSouthWarpIn = 73,
+        Noise = 74,
     }
 }

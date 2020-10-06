@@ -381,6 +381,7 @@
     <Compile Include="Common\VariableArray.cs" />
     <Compile Include="Data\CharacterInfo.cs" />
     <Compile Include="Effect\FreeSoul.cs" />
+    <Compile Include="Effect\Noise.cs" />
     <Compile Include="Effect\SageFloat.cs" />
     <Compile Include="Effect\KeystoneUnlock.cs" />
     <Compile Include="Effect\HeavenWarp.cs" />

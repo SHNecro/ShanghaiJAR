@@ -109,8 +109,8 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
                 Texture = texture,
                 TexX = spriteRect.Left,
                 TexY = spriteRect.Top,
-                X = (int)position.X,
-                Y = (int)position.Y,
+                X = position.X,
+                Y = position.Y,
                 Width = spriteRect.Width,
                 Height = spriteRect.Height,
                 Scale = new OpenTK.Vector2(reversed ? -scale : scale, scale),
@@ -121,6 +121,8 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
             {
                 drawnSprite = drawnSprite.WithTopLeftPosition();
             }
+            drawnSprite.X += (drawnSprite.Width % 2) / 2;
+            drawnSprite.Y += (drawnSprite.Height % 2) / 2;
 
             this.renderer.Draw(drawnSprite, this.currentRenderLevel);
         }

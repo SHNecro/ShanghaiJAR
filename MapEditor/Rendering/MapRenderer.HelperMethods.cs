@@ -160,6 +160,7 @@ namespace MapEditor.Rendering
 
             if (page1 != null)
             {
+                if (!page1.IsCharacter && (page1.TexW == 0 || page1.TexH == 0)) return null;
                 center1 += new Vector2(page1.HitShift.X, page1.HitShift.Y);
                 var width1 = (page1.HitForm == HitFormType.Square ? page1.HitRange.Width : page1.HitRange.Width * 2);
                 var height1 = (page1.HitForm == HitFormType.Square ? page1.HitRange.Height : page1.HitRange.Height * 2);
@@ -176,6 +177,7 @@ namespace MapEditor.Rendering
 
             if (page2 != null)
             {
+                if (!page2.IsCharacter && (page2.TexW == 0 || page2.TexH == 0)) return null;
                 center2 += new Vector2(page2.HitShift.X, page2.HitShift.Y);
                 var width2 = (page2.HitForm == HitFormType.Square ? page2.HitRange.Width : page2.HitRange.Width * 2);
                 var height2 = (page2.HitForm == HitFormType.Square ? page2.HitRange.Height : page2.HitRange.Height * 2);
