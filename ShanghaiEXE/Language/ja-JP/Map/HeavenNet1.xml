@@ -102,8 +102,9 @@
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue7" Value="[Is it.... over?,Are you alright，Shanghai?]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue8" Value="[Seems like it.,For the record，I don’t like this,one bit，Alice.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue9" Value="[We’re here to track down the,Queen of Darkness，let’s get,our answers and get out.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1Barrier1OverloadQuestion" Value="[Do you want to try to overload,the protection system?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1OverloadQuestion" Value="[Do you want to try to overload,the barrier system?]" Face="Shanghai" Mono="False" />
   <Text Key="Map.HeavenNet1Barrier1OverloadAnswers" Value="はい,いいえ" />
   <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue1" Value="[ACCESS DENIED,UNSAFE CORRUPTION,LEVELS DETECTED]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue2" Value="[There should be a barrier,nearby that we can overload,to clear this stuff out.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue10" Value="[We don’t have the time to deal,with.... whatever this is.]" Face="Shanghai" Mono="False" />
 </data>
