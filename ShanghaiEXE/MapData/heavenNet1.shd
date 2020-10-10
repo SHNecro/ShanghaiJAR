@@ -165,21 +165,6 @@ emove:NoiseOutbreak4:warpdown,500
 eventDeath:
 end
 
-ID:DemoEndSprite
-position:354:68:0
-page:1
-startterms:Abutton
-type:1
-terms:
-move:
-speed:0
-graphic:2:6,0,1,0,0
-hitrange:4:0:2:2
-hitform:circle
-event:
-editFlag:794:True
-end
-
 ID:BackgroundCover
 position:55:-4:1
 page:1
@@ -905,15 +890,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout7
-position:373:42:0
-page:2
+position:365:34:0
+page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
 speed:3
-graphic:-2:512,316,32,56,4
-hitrange:4:27:6:6
+graphic:-25:1600,700,32,80,8
+hitrange:4:27:14:14
 hitform:square
 event:
 msgopen:
@@ -951,7 +936,7 @@ event:
 end
 
 ID:SpecialGhost6
-position:559:387:0
+position:563:387:0
 page:1
 startterms:Abutton
 type:1
@@ -1032,15 +1017,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout6
-position:577:363:0
+position:570:355:0
 page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
 speed:3
-graphic:-2:512,260,32,56,4
-hitrange:27:4:6:6
+graphic:-25:1600,620,32,80,8
+hitrange:27:4:14:14
 hitform:square
 event:
 msgopen:
@@ -1161,15 +1146,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout5
-position:67:202:0
+position:59:194:0
 page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
 speed:3
-graphic:-2:512,316,32,56,4
-hitrange:4:27:6:6
+graphic:-25:1600,700,32,80,8
+hitrange:4:27:14:14
 hitform:square
 event:
 msgopen:
@@ -1277,15 +1262,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout4
-position:113:363:0
+position:106:355:0
 page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
 speed:3
-graphic:-2:512,260,32,56,4
-hitrange:27:4:6:6
+graphic:-25:1600,620,32,80,8
+hitrange:27:4:14:14
 hitform:square
 event:
 msgopen:
@@ -1323,7 +1308,7 @@ event:
 end
 
 ID:SpecialGhost3
-position:498:48:0
+position:497:48:0
 page:1
 startterms:Abutton
 type:1
@@ -1404,15 +1389,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout3
-position:481:88:0
+position:474:80:0
 page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
 speed:3
-graphic:-2:512,260,32,56,4
-hitrange:27:4:6:6
+graphic:-25:1600,620,32,80,8
+hitrange:27:4:14:14
 hitform:square
 event:
 msgopen:
@@ -1535,15 +1520,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout2
-position:403:348:0
+position:394:340:0
 page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
-speed:3
-graphic:-2:512,260,32,56,4
-hitrange:27:4:6:6
+speed:4
+graphic:-25:1600,620,32,80,8
+hitrange:24:3:14:14
 hitform:square
 event:
 msgopen:
@@ -1744,15 +1729,15 @@ ifEnd:0
 end
 
 ID:SpecialDoorLockout1
-position:290:375:0
+position:282:367:0
 page:1
 startterms:Abutton
 type:1
 terms:!flag/794
 move:
 speed:3
-graphic:-2:512,260,32,56,4
-hitrange:27:4:6:6
+graphic:-25:1600,620,32,80,8
+hitrange:27:4:14:14
 hitform:square
 event:
 msgopen:
@@ -1790,42 +1775,42 @@ event:
 end
 
 ID:LockdownDoor4-3
-position:32:104:0
+position:26:98:0
 page:1
 startterms:Abutton
 type:2
 terms:!flag/813
 move:
 speed:3
-graphic:-2:512,312,32,56,4
+graphic:-25:1600,700,32,80,8
 hitrange:0:0:0:0
 hitform:square
 event:
 end
 
 ID:LockdownDoor4-2
-position:36:104:0
+position:30:98:0
 page:1
 startterms:Abutton
 type:2
 terms:!flag/813
 move:
 speed:3
-graphic:-2:512,312,32,56,4
+graphic:-25:1600,700,32,80,8
 hitrange:0:0:0:0
 hitform:square
 event:
 end
 
 ID:LockdownDoor4-1
-position:40:104:0
+position:34:98:0
 page:1
 startterms:Abutton
 type:2
 terms:!flag/813
 move:
 speed:3
-graphic:-2:512,312,32,56,4
+graphic:-25:1600,700,32,80,8
 hitrange:0:0:0:0
 hitform:square
 event:
@@ -2986,7 +2971,7 @@ position:79:303:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1636,590,36,30,9
@@ -3000,7 +2985,7 @@ position:86:308:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1636,590,36,30,9
@@ -3014,7 +2999,7 @@ position:87:319:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:4
 graphic:-25:1672,590,36,30,7
@@ -3028,7 +3013,7 @@ position:80:325:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:3
 graphic:-25:1708,590,36,30,6
@@ -3042,7 +3027,7 @@ position:87:329:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1600,590,36,30,8
@@ -3056,7 +3041,7 @@ position:82:334:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:3
 graphic:-25:1600,590,36,30,8
@@ -3070,7 +3055,7 @@ position:83:341:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:3
 graphic:-25:1708,590,36,30,7
@@ -3084,7 +3069,7 @@ position:88:347:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1636,590,36,30,8
@@ -3098,7 +3083,7 @@ position:92:343:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1708,590,36,30,7
@@ -3112,7 +3097,7 @@ position:98:343:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:3
 graphic:-25:1600,590,36,30,6
@@ -3126,7 +3111,7 @@ position:103:348:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:4
 graphic:-25:1600,590,36,30,6
@@ -3135,12 +3120,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-9
 position:106:344:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:4
 graphic:-25:1636,590,36,30,6
@@ -3149,12 +3134,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-8
 position:114:356:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1600,590,36,30,6
@@ -3163,12 +3148,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-7
 position:116:346:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:3
 graphic:-25:1636,590,36,30,9
@@ -3177,12 +3162,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-6
 position:121:351:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1708,590,36,30,6
@@ -3191,12 +3176,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-5
 position:125:346:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1708,590,36,30,7
@@ -3205,12 +3190,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-3
 position:134:353:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1600,590,36,30,9
@@ -3219,12 +3204,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-4
 position:132:345:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1708,590,36,30,7
@@ -3233,12 +3218,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-2
 position:143:349:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:4
 graphic:-25:1600,590,36,30,7
@@ -3247,12 +3232,12 @@ hitform:square
 event:
 end
 
-ID:NoiseBlock2
+ID:NoiseBlock2-1
 position:148:345:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:3
 graphic:-25:1636,590,36,30,6
@@ -3266,7 +3251,7 @@ position:82:314:0
 page:1
 startterms:none
 type:1
-terms:!flag/864,flag/822
+terms:!flag/823,flag/822
 move:
 speed:5
 graphic:-25:1672,590,36,30,8
@@ -3314,25 +3299,68 @@ editValue:0:False:2:0:1
 editValue:1:False:0:5:1
 editValue:1:False:2:0:2
 editValue:2:False:0:5:2
-effect:16:BarrierFight:0:1:2:1:-1:0:1:none
+effect:11:BarrierFight:0:1:2:1:-1:0:1:none
 playerHide:True
-emove:プレイヤー:wayleft,0
+emove:プレイヤー:wayleft,0:wait,0
 msgclose:
 bgmSave:
 fade:15:255:255:255:255:True
+effect:38:BarrierSmoke:Barrier2:::3:16:4:1:none
+effect:38:BarrierSmoke:Barrier2-Extra1:::3:16:4:1:none
+effect:38:BarrierSmoke:Barrier2-Extra2:::3:16:4:1:none
 battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
-fade:0:0:255:255:255:False
-bgmLoad:
-effect:3:BarrierDestroy1:352:140:0:0:4:8:1:bomb
-effect:3:BarrierDestroy2:352:140:0:0:4:8:1:none
-wait:45:False
-editFlag:823:True
-editFlag:864:True
-effectDelete:BarrierDestroy1
-effectDelete:BarrierDestroy2
+bgmon:heavenbackground
+bgmfade:0:0:True
+bgmfade:100:60:False
+fade:0:0:255:255:255:True
+fade:60:64:255:0:255:False
+wait:30:False
+effect:49:Petals:0:0:0:2:-1:0:2:none
+wait:30:False
+seon:pikin
+eventDelete:NoiseBlock2-1
+wait:10:False
+eventDelete:NoiseBlock2-2
+wait:10:False
+seon:pikin
 effectEnd:
 playerHide:False
-wait:15:False
+eventDelete:NoiseBlock2-3
+wait:10:False
+eventDelete:NoiseBlock2-4
+wait:10:False
+seon:pikin
+eventDelete:NoiseBlock2-5
+wait:10:False
+eventDelete:NoiseBlock2-6
+wait:10:False
+seon:pikin
+eventDelete:NoiseBlock2-7
+wait:10:False
+eventDelete:NoiseBlock2-8
+wait:10:False
+seon:pikin
+eventDelete:NoiseBlock2-9
+eventDelete:NoiseBlock2
+bgmfade:0:120:False
+wait:10:False
+wait:30:False
+effect:3:BarrierDestroy1:156:344:0:0:4:8:1:bomb
+effect:3:BarrierDestroy2:156:344:0:0:4:8:1:none
+effectDelete:BarrierSmoke
+wait:60:False
+effectDelete:BarrierDestroy1
+effectDelete:BarrierDestroy2
+eventDelete:Barrier2
+eventDelete:Barrier2-Extra1
+eventDelete:Barrier2-Extra2
+wait:60:False
+fade:60:0:255:255:255:False
+bgmLoad:
+bgmfade:100:120:False
+wait:60:False
+seon:chain
+editFlag:823:True
 BranchEnd:
 BranchHead:1
 msgclose:
