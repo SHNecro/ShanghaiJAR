@@ -1107,7 +1107,8 @@ msgopen:
 msg:Map.HeavenNet1SpecialDoorStdProgramAdvances1
 msgclose:
 Special:21
-ifFlag:807:True:0
+ifValue:7:False:32:1:0
+editFlag:807:True
 seon:get
 wait:15:False
 editValue:0:False:0:5:0
@@ -1221,7 +1222,8 @@ msgopen:
 msg:Map.HeavenNet1SpecialDoorStdChips1
 msgclose:
 Special:20
-ifFlag:806:True:0
+ifValue:7:False:190:1:0
+editFlag:806:True
 seon:get
 wait:15:False
 emove:SpecialGhost4:wait,25:wayup,0:wait,5
@@ -1479,7 +1481,8 @@ msgopen:
 msg:Map.HeavenNet1SpecialDoorSPBounty1
 msgclose:
 Special:19
-ifFlag:804:True:0
+ifValue:7:False:41:1:0
+editFlag:804:True
 seon:get
 wait:15:False
 emove:SpecialGhost2:wait,25:wayup,0:wait,5

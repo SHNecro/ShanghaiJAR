@@ -835,26 +835,26 @@ namespace NSEvent
                     }
                     break;
                 case 19:
-                    var busted = true;
+                    var numBusted = 0;
                     for (var i = 1; i <= 41; i++)
                     {
-                        busted &= this.savedata.virusSPbusted[i];
+                        if (this.savedata.virusSPbusted[i])
+                        {
+                            numBusted++;
+                        }
                     }
-                    this.savedata.FlagList[804] = busted;
+
+                    this.savedata.ValList[7] = numBusted;
                     break;
                 case 20:
                     var completionLibrary = new Library(this.sound, null, null, this.savedata);
-                    if (completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.All(c => c.IsSeen))
-                    {
-                        this.savedata.FlagList[804] = true;
-                    }
+                    var numStdSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Count(c => c.IsSeen);
+                    this.savedata.ValList[7] = numStdSeen;
                     break;
                 case 21:
                     var paCompletionLibrary = new Library(this.sound, null, null, this.savedata);
-                    if (paCompletionLibrary.LibraryPages[Library.LibraryPageType.PA].Chips.Where(c => c.Chip.number >= 271 && c.Chip.number <= 283).All(c => c.IsSeen))
-                    {
-                        this.savedata.FlagList[807] = true;
-                    }
+                    var numPaSeen = paCompletionLibrary.LibraryPages[Library.LibraryPageType.PA].Chips.Where(c => c.Chip.number >= 271 && c.Chip.number <= 283).Count(c => c.IsSeen);
+                    this.savedata.ValList[7] = numPaSeen;
                     break;
             }
             this.EndCommand();
