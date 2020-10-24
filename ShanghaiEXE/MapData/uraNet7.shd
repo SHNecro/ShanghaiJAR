@@ -811,7 +811,7 @@ bgmfade:0:600:False
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue7
 msgclose:
 fade:60:128:255:255:255:False
-emove:プレイヤー:wayleft,0
+emove:プレイヤー:wayleft,0:wait,0
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue8
 seon:encount
 fade:10:255:255:255:255:True
