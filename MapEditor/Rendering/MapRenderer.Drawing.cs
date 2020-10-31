@@ -1428,7 +1428,9 @@ namespace MapEditor.Rendering
                     {
                         MapRenderer.draggedMapObjectOffset = new Point(MapRenderer.MapHoveredMapObject.MapPosition.X - mouseMapPosition.X, MapRenderer.MapHoveredMapObject.MapPosition.Y - mouseMapPosition.Y);
                     }
-                    MapRenderer.MapHoveredMapObject.MapPosition = new Point(mouseMapPosition.X + MapRenderer.draggedMapObjectOffset.Value.X, mouseMapPosition.Y + MapRenderer.draggedMapObjectOffset.Value.Y);
+
+                    var newPosition = new Point(mouseMapPosition.X + MapRenderer.draggedMapObjectOffset.Value.X, mouseMapPosition.Y + MapRenderer.draggedMapObjectOffset.Value.Y);
+                    MapRenderer.MapHoveredMapObject.SetMapPosition(newPosition, MapRenderer.MapHoveredMapObject != MapRenderer.CurrentMapObject);
                 }
             }
             else if (MapRenderer.MouseClickPosition.HasValue)
@@ -1442,6 +1444,7 @@ namespace MapEditor.Rendering
                 if (MapRenderer.MapHoveredMapObject != null)
                 {
                     MapRenderer.CurrentMapObject = MapRenderer.MapHoveredMapObject;
+                    MapRenderer.MapHoveredMapObject.SetMapPosition(MapRenderer.MapHoveredMapObject.MapPosition, true);
                     MapRenderer.draggedMapObjectOffset = null;
                 }
                 MapRenderer.MouseDragRelease = null;
@@ -1449,7 +1452,19 @@ namespace MapEditor.Rendering
             }
             else if (MapRenderer.MousePosition.HasValue)
             {
-                MapRenderer.MapHoveredMapObject = MapRenderer.GetObjectAtImagePoint(MapRenderer.MousePosition.Value);
+                var hoveredObject = MapRenderer.GetObjectAtImagePoint(MapRenderer.MousePosition.Value);
+                if (MapRenderer.MapHoveredMapObject != hoveredObject)
+                {
+                    MapRenderer.MapHoveredMapObject = hoveredObject;
+                    if (!MapRenderer.HoverLayerChanged)
+                    {
+                        MapRenderer.HoverLayer = 0;
+                    }
+                    else
+                    {
+                        MapRenderer.HoverLayerChanged = false;
+                    }
+                }
             }
 
             if (MapRenderer.MousePosition.HasValue)
@@ -1467,7 +1482,7 @@ namespace MapEditor.Rendering
         {
             var allObjects = MapRenderer.CurrentMap.MapObjects.MapObjects;
             var sortedObjects = MapRenderer.RenderSortedObjects;
-            return sortedObjects.LastOrDefault(mapObject =>
+            var hoveredObjects = sortedObjects.Where(mapObject =>
             {
                 var levelIndex = mapObject.Level;
                 var mapObjectPage = mapObject.Pages.SelectedEventPage;
@@ -1556,7 +1571,19 @@ namespace MapEditor.Rendering
                 }
 
                 return (objectHoverBox.Contains(p) || inHitboxHoverBox);
-            });
+            }).ToList();
+
+            var hoveredObjectCount = hoveredObjects.Count();
+            if (hoveredObjectCount > 0)
+            {
+                var layerOffset = ((ushort)MapRenderer.HoverLayer) % hoveredObjectCount;
+                hoveredObjects.Reverse();
+                return hoveredObjects[layerOffset];
+            }
+            else
+            {
+                return null;
+            }
         }
 
 		private static void DrawMovePath(int width, Point start, Point end, int zPosition, Color color, int renderPass)

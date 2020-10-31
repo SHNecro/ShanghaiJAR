@@ -39,10 +39,12 @@ Documentation of flags and variables
 		No modifiers: Up/Down
 		Ctrl+Shift: Zoom in/out
 		Shift: Left/Right
-		Ctrl (Dragging object): Move object up/down a level
+		Ctrl (Hovering over object): Change to next overlapping hovered object
+		  Clicking will select the hovered object
 		Ctrl (Drawing): Move cursor up/down a level
 	Arrow Keys (Item selected):
 		No modifiers: Move object along map coordinates
+		Shift: Move x8
 		Alt: Move object directly up/down/left/right
 	Delete (Item selected):
 		No modifiers: Delete

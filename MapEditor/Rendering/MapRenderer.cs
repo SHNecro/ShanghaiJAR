@@ -82,7 +82,9 @@ namespace MapEditor.Rendering
         public static MapObject MapHoveredMapObject { get; set; }
         public static MapObject ListHoveredMapObject { get; set; }
         public static List<MapObject> RenderSortedObjects { get; set; }
-		public static Move ListHoveredMove { get; set; }
+        public static int HoverLayer { get; set; }
+        public static bool HoverLayerChanged { get; set; }
+        public static Move ListHoveredMove { get; set; }
 
 		public static ISpriteRenderer LevelRenderer { get; }
         public static IMouseInteractionControl LevelControl { get; }
@@ -181,28 +183,30 @@ namespace MapEditor.Rendering
                         switch (MapRenderer.CurrentTool)
                         {
                             case EditToolType.SelectionTool:
-                                levelGetter = () => MapRenderer.MapHoveredMapObject?.Level ?? MapRenderer.CurrentLevel;
+                                levelGetter = () => MapRenderer.HoverLayer;
                                 levelSetter = (value) => 
                                 {
-                                    MapRenderer.CurrentLevel = value;
-                                    if (MapRenderer.MapHoveredMapObject == null)
-                                    {
-                                        return;
-                                    }
-                                    MapRenderer.MapHoveredMapObject.Level = value;
+                                    MapRenderer.HoverLayer = value;
+                                    MapRenderer.HoverLayerChanged = true;
                                 };
                                 break;
                             case EditToolType.DrawTool:
                                 levelGetter = () => MapRenderer.CurrentLevel;
-                                levelSetter = (value) => MapRenderer.CurrentLevel = value;
+                                levelSetter = (value) =>
+                                {
+                                    if (value >= 0 && value <= MapRenderer.CurrentMap.Header.Levels)
+                                    {
+                                        MapRenderer.CurrentLevel = value;
+                                    }
+                                };
                                 break;
                         }
 
-                        if (args.Delta > 0 && levelGetter() > 0)
+                        if (args.Delta > 0)
                         {
                             levelSetter(levelGetter() - 1);
                         }
-                        else if (args.Delta < 0 && levelGetter() < MapRenderer.CurrentMap.Header.Levels - 1)
+                        else if (args.Delta < 0)
                         {
                             levelSetter(levelGetter() + 1);
                         }
@@ -228,8 +232,16 @@ namespace MapEditor.Rendering
                             break;
                     }
                 };
+
                 renderingControl.KeyDown += (sender, args) =>
                 {
+                    var nudgeDistance = 1;
+
+                    if (args.Modifiers.HasFlag(Keys.Shift))
+                    {
+                        nudgeDistance *= 8;
+                    }
+
                     if (args.KeyCode == Keys.Delete)
                     {
                         Constants.DeleteItemCommand.Execute(new object[] { MapRenderer.CurrentMap?.MapObjects?.MapObjects, MapRenderer.CurrentMapObject });
@@ -244,9 +256,9 @@ namespace MapEditor.Rendering
                         if (position != null)
                         {
                             var newPosition = args.Modifiers.HasFlag(Keys.Alt)
-                                ? new Point(position.Value.X - 1, position.Value.Y - 1)
-                                : new Point(position.Value.X, position.Value.Y - 1);
-                            MapRenderer.CurrentMapObject.MapPosition = newPosition;
+                                ? new Point(position.Value.X - nudgeDistance, position.Value.Y - nudgeDistance)
+                                : new Point(position.Value.X, position.Value.Y - nudgeDistance);
+                            MapRenderer.CurrentMapObject.SetMapPosition(newPosition, false);
                         }
                     }
                     else if (args.KeyCode == Keys.Down)
@@ -255,9 +267,9 @@ namespace MapEditor.Rendering
                         if (position != null)
                         {
                             var newPosition = args.Modifiers.HasFlag(Keys.Alt)
-                                ? new Point(position.Value.X + 1, position.Value.Y + 1)
-                                : new Point(position.Value.X, position.Value.Y + 1);
-                            MapRenderer.CurrentMapObject.MapPosition = newPosition;
+                                ? new Point(position.Value.X + nudgeDistance, position.Value.Y + nudgeDistance)
+                                : new Point(position.Value.X, position.Value.Y + nudgeDistance);
+                            MapRenderer.CurrentMapObject.SetMapPosition(newPosition, false);
                         }
                     }
                     else if (args.KeyCode == Keys.Left)
@@ -266,9 +278,9 @@ namespace MapEditor.Rendering
                         if (position != null)
                         {
                             var newPosition = args.Modifiers.HasFlag(Keys.Alt)
-                                ? new Point(position.Value.X - 1, position.Value.Y + 1)
-                                : new Point(position.Value.X - 1, position.Value.Y);
-                            MapRenderer.CurrentMapObject.MapPosition = newPosition;
+                                ? new Point(position.Value.X - nudgeDistance, position.Value.Y + nudgeDistance)
+                                : new Point(position.Value.X - nudgeDistance, position.Value.Y);
+                            MapRenderer.CurrentMapObject.SetMapPosition(newPosition, false);
                         }
                     }
                     else if (args.KeyCode == Keys.Right)
@@ -277,11 +289,16 @@ namespace MapEditor.Rendering
                         if (position != null)
                         {
                             var newPosition = args.Modifiers.HasFlag(Keys.Alt)
-                                ? new Point(position.Value.X + 1, position.Value.Y - 1)
-                                : new Point(position.Value.X + 1, position.Value.Y);
-                            MapRenderer.CurrentMapObject.MapPosition = newPosition;
+                                ? new Point(position.Value.X + nudgeDistance, position.Value.Y - nudgeDistance)
+                                : new Point(position.Value.X + nudgeDistance, position.Value.Y);
+                            MapRenderer.CurrentMapObject.SetMapPosition(newPosition, false);
                         }
                     }
+                };
+
+                renderingControl.KeyUp += (sender, args) =>
+                {
+                    MapRenderer.CurrentMapObject?.SetMapPosition(MapRenderer.CurrentMapObject.MapPosition, true);
                 };
                 return scrollFormsHost;
             }

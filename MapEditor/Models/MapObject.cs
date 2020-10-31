@@ -83,6 +83,19 @@ namespace MapEditor.Models
 			}
         }
 
+        public void SetMapPosition(Point position, bool update = true)
+        {
+            if (update)
+            {
+                this.MapPosition = position;
+            }
+            else
+            {
+                this.x = position.X;
+                this.y = position.Y;
+            }
+        }
+
         // GetStringValue implemented by MapEvent, MapMystery
 
         protected override void SetStringValue(string value)
