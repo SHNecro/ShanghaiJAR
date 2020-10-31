@@ -13,12 +13,12 @@
   <Dialogue Key="Map.HeavenNet2BackgroundSpriteTreeBought" Value="YOU HEAR THAT?!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue2FaceNone" Value="It is said that all data deleted in,the past gathers around this,tree." Face="None" Mono="False" />
   <Text Key="Map.HeavenNet2MadManName" Value="MadMan" />
-  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue1" Value="To pursue ultimate power....,I pushed myself to the limits,of what was thought possible...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue1" Value="To achieve ultimate power....,I pushed myself to the limits,of what was thought possible...." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManIntroDialogue2" Value="In the end....,My own body had nothing,left to give...." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManRejectDialogue1" Value="I have no interest in weaklings,who have sacrificed nothing....,Leave me to my misery...." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue1" Value="You think you can succeed,where I had failed....?" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="Come....,I will show you the mistake,you have made...." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="Are you here to mock me，,to rub salt in my wounds....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="I will show you the mistake,you have made...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="Are you here to mock me....?" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="Do you think me powerless,in this state....?,A helpless victim....?" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue3" Value="I will show you how wrong,you are!" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="To allow viruses to reduce,you to such a state...." Face="None" Mono="False" />
@@ -64,10 +64,10 @@
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue17" Value="But to bring Mistress Yuyuko,so close to the corruption....,The risks are too great." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue18" Value="Oh，no.,You hear that， Alice? Looks,like there’s nothing we can do." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue19" Value="SCAN COMPLETE,VERIFYING IDENTITY" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20" Value="DETECTED:,THE POWER OF 144,DEFEATED FOES" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20" Value="WELCOME BACK，,MISTRESS OF 144,FORMS OF COMBAT" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue21" Value="WELCOME BACK，,MISTRESS YUYUKO" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue22" Value="...." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23" Value="The fragment in the barrier,must have.... resonated....,with a similar power nearby." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23" Value="The fragment in the barrier must,have gotten.... confused.... by,similarities during the scan." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue24" Value="That’s great!,Now we just have to get rid of,all that nasty corruption!" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue25" Value="And how would “we” do that?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue26" Value="The barrier absorbs incoming,attacks and uses that power,to charge an internal buffer." Face="None" Mono="False" />
@@ -75,7 +75,7 @@
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue28" Value="Along with the person who was,just shooting it and everything,else nearby，I bet." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue29" Value="Whatever，blowing these things,up is as good a plan as any.,This better be worth it." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue30" Value="Alice，let’s go through our chip,folder one more time and get,this over with." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20Failed" Value="FLAG NOT FOUND:,THE POWER OF 144,DEFEATED FOES" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20Failed" Value="TITLE NOT FOUND:,MISTRESS OF 144,FORMS OF COMBAT" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue21Failed" Value="ACCESS DENIED" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue22Failed" Value="What a shame." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23Failed" Value="See you soon!" Face="None" Mono="False" />

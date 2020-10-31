@@ -4,6 +4,7 @@ using NSGame;
 using System;
 using NSMap.Character.Menu;
 using System.Linq;
+using NSChip;
 
 namespace NSEvent
 {
@@ -835,26 +836,85 @@ namespace NSEvent
                     }
                     break;
                 case 19:
-                    var numBusted = 0;
-                    for (var i = 1; i <= 41; i++)
                     {
-                        if (this.savedata.virusSPbusted[i])
+                        var numBusted = 0;
+                        for (var i = 1; i <= 41; i++)
                         {
-                            numBusted++;
+                            if (this.savedata.virusSPbusted[i])
+                            {
+                                numBusted++;
+                            }
                         }
-                    }
 
-                    this.savedata.ValList[7] = numBusted;
+                        this.savedata.ValList[7] = numBusted;
+                    }
                     break;
                 case 20:
-                    var completionLibrary = new Library(this.sound, null, null, this.savedata);
-                    var numStdSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Count(c => c.IsSeen);
-                    this.savedata.ValList[7] = numStdSeen;
+                    {
+                        var completionLibrary = new Library(this.sound, null, null, this.savedata);
+                        var numStdSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Count(c => c.IsSeen);
+                        this.savedata.ValList[7] = numStdSeen;
+                    }
                     break;
                 case 21:
-                    var paCompletionLibrary = new Library(this.sound, null, null, this.savedata);
-                    var numPaSeen = paCompletionLibrary.LibraryPages[Library.LibraryPageType.PA].Chips.Where(c => c.Chip.number >= 271 && c.Chip.number <= 283).Count(c => c.IsSeen);
-                    this.savedata.ValList[7] = numPaSeen;
+                    {
+                        var paCompletionLibrary = new Library(this.sound, null, null, this.savedata);
+                        var numPaSeen = paCompletionLibrary.LibraryPages[Library.LibraryPageType.PA].Chips.Count(c => c.IsSeen);
+                        this.savedata.ValList[7] = numPaSeen;
+                    }
+                    break;
+                case 22:
+                    {
+                        var completionLibrary = new Library(this.sound, null, null, this.savedata);
+                        var anyIllegalNavi = completionLibrary.LibraryPages[Library.LibraryPageType.Illegal].Chips.Any(c => c.Chip.navi);
+                        this.savedata.ValList[7] = anyIllegalNavi ? 1 : 0;
+                    }
+                    break;
+                case 23:
+                    {
+                        var completionLibrary = new Library(this.sound, null, null, this.savedata);
+                        var chips = new[] { 174, 175, 176, 177, 178, 179, 180, 264 };
+                        var chipsSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen)
+                            && completionLibrary.LibraryPages[Library.LibraryPageType.Dark].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen);
+                        var addons = new[] { 8, 9, 10, 11, 14, 38 };
+                        var addonsObtained = addons.All(id => this.savedata.haveAddon.Any(a => a.ID == id));
+                        var subChipsObtained = this.savedata.haveSubChis[0] == 9 && this.savedata.haveSubChis[1] == 9;
+                        var healingFound = chipsSeen && addonsObtained && subChipsObtained;
+                        this.savedata.ValList[7] = healingFound ? 1 : 0;
+                    }
+                    break;
+                case 24:
+                    {
+                        var codes = this.savedata.havechips.Select(c => ChipFolder.Chips[c.number].Invoke(this.sound).code[c.code]).Distinct().ToList();
+
+                        for (var folderIndex = 0; folderIndex < this.savedata.chipFolder.GetLength(0); folderIndex++)
+                        {
+                            for (var chipIndex = 0; chipIndex < this.savedata.chipFolder.GetLength(1); chipIndex++)
+                            {
+                                var chipNumber = this.savedata.chipFolder[folderIndex, chipIndex, 0];
+                                if (!ChipFolder.Chips.ContainsKey(chipNumber))
+                                {
+                                    continue;
+                                }
+                                var chip = ChipFolder.Chips[chipNumber].Invoke(this.sound);
+                                var code = chip.code[this.savedata.chipFolder[folderIndex, chipIndex, 1]];
+
+                                if (!codes.Contains(code))
+                                {
+                                    codes.Add(code);
+                                }
+                            }
+                        }
+
+                        var codesFound = codes.Count >= 27;
+                        this.savedata.ValList[7] = codesFound ? 1 : 0;
+                    }
+                    break;
+                case 25:
+                    {
+                        var virusUpgraded = this.savedata.HaveVirus.Where(v => v != null).Any(v => v.eatSum >= 50);
+                        this.savedata.ValList[7] = virusUpgraded ? 1 : 0;
+                    }
                     break;
             }
             this.EndCommand();

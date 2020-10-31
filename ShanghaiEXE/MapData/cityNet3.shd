@@ -1278,7 +1278,7 @@ lavel:Q20Correct
 msg:Map.CityNet3SageQuizCompleteDialogue1
 msg:Map.CityNet3SageQuizCompleteDialogue2
 msgclose:
-ItemGet:2:39:7:
+ItemGet:2:11:2:
 msgopen:
 msg:Map.CityNet3SageQuizCompleteDialogue3
 ifFlag:802:False:0

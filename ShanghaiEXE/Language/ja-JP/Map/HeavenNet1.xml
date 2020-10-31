@@ -73,7 +73,7 @@
   <Dialogue Key="Map.HeavenNet1SpecialDoorStdChips1" Value="[THE WAY SHALL OPEN FOR,ONE WHO WIELDS ALL,WEAPONS OF THE WORLD]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorSPBounty1" Value="[THE WAY SHALL OPEN FOR,ONE WHO FEARS NO BEAST,AND HUNTS ALL QUARRY]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorRequest1" Value="[THE WAY SHALL OPEN FOR,ONE WHO OFFERS ALL A,HELPING HAND]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1SpecialDoorStdProgramAdvances1" Value="[THE WAY SHALL OPEN FOR,ONE WHO FINDS THE TRUE,MIGHT OF HUMBLE TOOLS.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorStdProgramAdvances1" Value="[THE WAY SHALL OPEN FOR,ONE WHO UNLOCKS THEIR,TOOLS’ FULL POTENTIAL.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorEnemyNavis1" Value="[THE WAY SHALL OPEN FOR,ONE WHO SEES THEIR FOES,RETURNED TO DUST]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorZenny1" Value="[THE WAY SHALL OPEN FOR,ONE WHO WANTS FOR,NOTHING]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1SpecialDoorAllyNavis1" Value="[THE WAY SHALL OPEN FOR,ONE WHO NURTURES THE,BONDS OF FRIENDSHIP]" Face="None" Mono="False" />
@@ -92,7 +92,7 @@
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue4" Value="[They didn’t even move!,I had to do all the work myself!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue5" Value="[There，there，Shanghai.,I’m sure the next one will be....,....more of a challenge?]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue6" Value="[Tch....,Let’s keep going，Alice.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1SpecialDoorVirusTraining1" Value="[THE WAY SHALL OPEN FOR,ONE WHO HARNESSES THE,POWERS OF THE WILD]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorVirusTraining1" Value="[THE WAY SHALL OPEN FOR,ONE WHO TAMES THE WILD,SOULS OF FERAL BEASTS.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue1" Value="[What....?]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue2" Value="[Something bad is happening,here，that’s for sure.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue3" Value="[Shanghai!,Watch out!]" Face="Alice" Mono="False" />
@@ -107,4 +107,20 @@
   <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue1" Value="[ACCESS DENIED,UNSAFE CORRUPTION,LEVELS DETECTED]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue2" Value="[There should be a barrier,nearby that we can overload,to clear this stuff out.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue10" Value="[We don’t have the time to deal,with.... whatever this is.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanDialogue1" Value="[SCAN COMPLETE,VERIFYING IDENTITY]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanDialogue2Failure" Value="[ACCESS DENIED]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckSuccess" Value="[USER FOUND:,TAMER OF FEROCIOUS,BEASTS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckFailure" Value="[TITLE NOT FOUND:,TAMER OF FEROCIOUS,BEASTS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisSuccess" Value="[USER FOUND:,GUIDE OF LOST SOULS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisFailure" Value="[TITLE NOT FOUND:,GUIDE OF LOST SOULS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupSuccess" Value="[USER FOUND:,OWNER OF THE 27 MARKS,OF POWER]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupFailure" Value="[TITLE NOT FOUND:,OWNER OF THE 27 MARKS,OF POWER]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviSuccess" Value="[USER FOUND:,SEEKER OF FORBIDDEN,POWER]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviFailure" Value="[TITLE NOT FOUND:,SEEKER OF FORBIDDEN,POWER]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesSuccess" Value="[USER FOUND:,MISTRESS OF THE SIX,WAYS OF BATTLE]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesFailure" Value="[TITLE NOT FOUND:,MISTRESS OF THE SIX,WAYS OF BATTLE]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsSuccess" Value="[USER FOUND:,WIELDER OF 144 WEAPONS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsFailure" Value="[TITLE NOT FOUND:,WIELDER OF 144 WEAPONS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckSuccess" Value="[USER FOUND:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckFailure" Value="[TITLE NOT FOUND:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
 </data>
