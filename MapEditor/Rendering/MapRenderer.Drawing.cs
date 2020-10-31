@@ -10,8 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using Data;
-using MapEditor.ViewModels;
 
 namespace MapEditor.Rendering
 {
@@ -357,7 +355,8 @@ namespace MapEditor.Rendering
         public static void DrawObjectsAndHitBoxes()
         {
             var allObjects = MapRenderer.CurrentMap.MapObjects.MapObjects;
-            var sortedObjects = RendSort(allObjects);
+            MapRenderer.RenderSortedObjects = RendSort(allObjects).ToList();
+            var sortedObjects = MapRenderer.RenderSortedObjects;
             foreach (var mapObject in sortedObjects)
             {
                 try
@@ -1467,8 +1466,8 @@ namespace MapEditor.Rendering
         private static MapObject GetObjectAtImagePoint(Point p)
         {
             var allObjects = MapRenderer.CurrentMap.MapObjects.MapObjects;
-            var sortedObjects = RendSort(allObjects);
-            return sortedObjects.FirstOrDefault(mapObject =>
+            var sortedObjects = MapRenderer.RenderSortedObjects;
+            return sortedObjects.LastOrDefault(mapObject =>
             {
                 var levelIndex = mapObject.Level;
                 var mapObjectPage = mapObject.Pages.SelectedEventPage;

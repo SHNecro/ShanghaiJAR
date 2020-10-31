@@ -81,6 +81,7 @@ namespace MapEditor.Rendering
 
         public static MapObject MapHoveredMapObject { get; set; }
         public static MapObject ListHoveredMapObject { get; set; }
+        public static List<MapObject> RenderSortedObjects { get; set; }
 		public static Move ListHoveredMove { get; set; }
 
 		public static ISpriteRenderer LevelRenderer { get; }
