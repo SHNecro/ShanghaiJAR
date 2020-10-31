@@ -2562,7 +2562,7 @@ terms:flag/863,!flag/822
 move:
 speed:0
 graphic:-25:0,0,0,0,0
-hitrange:24:3:14:14
+hitrange:24:3:14:18
 hitform:square
 event:
 msgopen:
@@ -2970,7 +2970,7 @@ terms:flag/834,!flag/861
 move:
 speed:0
 graphic:-1:0,0,0,0,0
-hitrange:18:24:5:14
+hitrange:18:24:4:8
 hitform:square
 event:
 msgopen:
@@ -3593,7 +3593,7 @@ terms:flag/836,!flag/823
 move:
 speed:0
 graphic:-1:0,0,0,0,0
-hitrange:8:24:12:14
+hitrange:8:24:10:14
 hitform:square
 event:
 msgopen:

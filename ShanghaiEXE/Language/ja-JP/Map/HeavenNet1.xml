@@ -110,17 +110,17 @@
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanDialogue1" Value="[SCAN COMPLETE,VERIFYING IDENTITY]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanDialogue2Failure" Value="[ACCESS DENIED]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckSuccess" Value="[USER FOUND:,TAMER OF FEROCIOUS,BEASTS]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckFailure" Value="[TITLE NOT FOUND:,TAMER OF FEROCIOUS,BEASTS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckFailure" Value="[USER NOT PRESENT:,TAMER OF FEROCIOUS,BEASTS]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisSuccess" Value="[USER FOUND:,GUIDE OF LOST SOULS]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisFailure" Value="[TITLE NOT FOUND:,GUIDE OF LOST SOULS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisFailure" Value="[USER NOT PRESENT:,GUIDE OF LOST SOULS]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupSuccess" Value="[USER FOUND:,OWNER OF THE 27 MARKS,OF POWER]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupFailure" Value="[TITLE NOT FOUND:,OWNER OF THE 27 MARKS,OF POWER]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupFailure" Value="[USER NOT PRESENT:,OWNER OF THE 27 MARKS,OF POWER]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviSuccess" Value="[USER FOUND:,SEEKER OF FORBIDDEN,POWER]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviFailure" Value="[TITLE NOT FOUND:,SEEKER OF FORBIDDEN,POWER]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesSuccess" Value="[USER FOUND:,MISTRESS OF THE SIX,WAYS OF BATTLE]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesFailure" Value="[TITLE NOT FOUND:,MISTRESS OF THE SIX,WAYS OF BATTLE]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviFailure" Value="[USER NOT PRESENT:,SEEKER OF FORBIDDEN,POWER]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesSuccess" Value="[USER FOUND:,MISTRESS OF THE SIX,STYLES OF COMBAT]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesFailure" Value="[USER NOT PRESENT:,MISTRESS OF THE SIX,STYLES OF COMBAT]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsSuccess" Value="[USER FOUND:,WIELDER OF 144 WEAPONS]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsFailure" Value="[TITLE NOT FOUND:,WIELDER OF 144 WEAPONS]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsFailure" Value="[USER NOT PRESENT:,WIELDER OF 144 WEAPONS]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckSuccess" Value="[USER FOUND:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckFailure" Value="[TITLE NOT FOUND:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckFailure" Value="[USER NOT PRESENT:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
 </data>
