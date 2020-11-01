@@ -866,7 +866,7 @@ namespace NSEvent
                 case 22:
                     {
                         var completionLibrary = new Library(this.sound, null, null, this.savedata);
-                        var anyIllegalNavi = completionLibrary.LibraryPages[Library.LibraryPageType.Illegal].Chips.Any(c => c.Chip.navi);
+                        var anyIllegalNavi = completionLibrary.LibraryPages[Library.LibraryPageType.Illegal].Chips.Any(c => c.IsSeen && c.Chip.navi);
                         this.savedata.ValList[7] = anyIllegalNavi ? 1 : 0;
                     }
                     break;
