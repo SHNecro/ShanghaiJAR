@@ -851,7 +851,9 @@ namespace NSMap.Character
         private void EncountCheck(int plus)
         {
             this.hidenumber = this.field.encountCap[1];
-            if (!(this.field.encounts.Count > 0 & this.SubChipCount()))
+            // If subchip message is shown, or no encounters (after handling special), return
+            // Always evaluate SubChipCount, has side-effect of decrementing timers
+            if (!this.SubChipCount() || (this.field.encounts.Count - (this.savedata.FlagList[this.field.encountCap[0]] ? 0 : this.hidenumber) <= 0))
                 return;
             if (this.encountInterval <= 0)
             {
