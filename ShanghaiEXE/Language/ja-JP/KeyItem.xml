@@ -100,4 +100,6 @@
   <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="スプライトをナビに転生させる,今では使われてない,特別なプログラムね" />
   <Text Key="KeyItem.SecretKeyName" Value="[Secret Key]" />
   <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="[An important-looking key.,Probably opens an,important-looking door.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.DarkKeyName" Value="[Dark Key]" />
+  <Dialogue Key="KeyItem.DarkKeyDescDialogue1" Value="[A key that pulses with an,ominous light.]" Face="None" Mono="False" />
 </data>

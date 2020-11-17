@@ -48,10 +48,10 @@
   <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue8" Value="[Shanghai!,You can’t just threaten random--]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue3" Value="[What’s your problem!?,We were talking here!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue4" Value="[Hmm?]" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue5" Value="[You!]" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue6" Value="[I won’t let you get away again!]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue5" Value="[Another one!]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue6" Value="[You won’t get away this time!]" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue7" Value="[Are you an idiot?! I’ve never,seen you before in my life!,Alice，she’s crazy!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue8" Value="[After what you did here--!]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue8" Value="[After what your kind did here--!]" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue9" Value="[She’s going to attack again!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue10" Value="[Battle Routine! Set!]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue11" Value="[Execute!]" Face="Shanghai" Mono="False" />
@@ -60,11 +60,11 @@
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue2" Value="[Grk!,This time，I’ll--!]" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue3" Value="[That’s enough，Youmu.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue4" Value="[Mistress Yuyuko!]" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue5" Value="[Welcome to the White Heaven,Area，Alice and Shanghai!]" Face="YuyukoCombat" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue6" Value="[I must have forgotten to tell,Youmu you were coming，,hehehe!]" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue5" Value="[Welcome to the White Heaven,Area，Alice and Shanghai!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue6" Value="[I must have forgotten to tell,Youmu you were coming，,hehehe!]" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue7" Value="[Forgot--?! She tried to cut me,in two! That’s not something to,just giggle about!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue8" Value="[Let’s talk more in my sanctum!,I’m sure you have many,questions!]" Face="YuyukoCombat" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue9" Value="[Let’s go，Youmu!,Did I smell steamed GelPack,earlier?]" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue8" Value="[Let’s talk more in my sanctum!,I’m sure you have many,questions!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue9" Value="[Let’s go，Youmu!,Did I smell steamed GelPack,earlier?]" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue10" Value="[....Yes，my lady.]" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue11" Value="[Ugh!,I hate this place and everyone,in it!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue12" Value="[Just a little further，Shanghai.,....Where is her sanctum，,anyways?]" Face="Alice" Mono="False" />
@@ -100,8 +100,8 @@
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue5" Value="[How am I supposed to deal,with this?!]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue6" Value="[Hm?]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue7" Value="[Is it.... over?,Are you alright，Shanghai?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue8" Value="[Seems like it.,For the record，I don’t like this,one bit，Alice.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue9" Value="[We’re here to track down the,Queen of Darkness，let’s get,our answers and get out.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue8" Value="[Of course I am.,But for the record，I don’t like,this one bit，Alice.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue9" Value="[We’re here to find the Queen of,Darkness，not solve everyone,else’s problems.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet1Barrier1OverloadQuestion" Value="[Do you want to try to overload,the barrier system?]" Face="Shanghai" Mono="False" />
   <Text Key="Map.HeavenNet1Barrier1OverloadAnswers" Value="はい,いいえ" />
   <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue1" Value="[ACCESS DENIED,UNSAFE CORRUPTION,LEVELS DETECTED]" Face="None" Mono="False" />

@@ -49,16 +49,16 @@
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue2" Value="[If there’s nowhere else，then,this has to be the way forward，,but....]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue3" Value="[....2 million....,....seven，no，eight bounties....?]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue4" Value="[....Hey，Alice.,Aren’t you tired? A nap right,now seems great，huh?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue5" Value="[Let’s just go home，call it a day.,I’m not seeing any way past this,barrier，anyways.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue6" Value="[We can pass this on to the Net,Agents，even. Maybe they can,find a way past this.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue7" Value="[Ah....,Sure， if you really think so....]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue5" Value="[You’re right，Shanghai，a nap,does sound great，doesn’t it?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue6" Value="[But it’s not like we can stay,in bed all day!,Up and at ’em，Shanghai!]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue7" Value="[....]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8" Value="[Hehe--!,Oops，I knew there was,something I forgot!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue9" Value="[Grrr....]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue10" Value="[Uh-oh....!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue11" Value="[Having a bit of trouble?,“Forgot” how to open your,own doors?]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue12" Value="[Youmu!,Look at what it’s done this time!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue13" Value="[The system reports that it,entered lockout after too many,failed access attempts....]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue14" Value="[The corruption’s probes must,have adapted to the automatic,filter.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue14" Value="[The corruption must have,adapted to the automatic filter.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue15" Value="[Hey! I made you!,What do you mean “remote,access disabled” ?!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue16" Value="[Each barrier holds a fragment,of the Mistress’ power，and,would recognize its owner.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue17" Value="[But to bring Mistress Yuyuko,so close to the corruption....,The risks are too great.]" Face="None" Mono="False" />
@@ -67,8 +67,8 @@
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20" Value="[WELCOME BACK，,MISTRESS OF 144,FORMS OF COMBAT]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue21" Value="[WELCOME BACK，,MISTRESS YUYUKO]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue22" Value="[....]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23" Value="[The fragment in the barrier must,have gotten.... confused.... by,similarities during the scan.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue24" Value="[That’s great!,Now we just have to get rid of,all that nasty corruption!]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23" Value="[The fragment in the barrier,must have gotten.... confused....,during the scan.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue24" Value="[That’s great!,Now we just have to get rid of,all that ugly corruption!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue25" Value="[And how would “we” do that?]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue26" Value="[The barrier absorbs incoming,attacks and uses that power,to charge an internal buffer.]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue27" Value="[If that buffer can be overloaded，,the resulting purge should be,able to clear the corruption.]" Face="None" Mono="False" />
@@ -82,4 +82,64 @@
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue31" Value="[See you soon!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8a" Value="[Here，let me get those doors,for you!]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8b" Value="[Hmm?]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2FridgeDescription1" Value="[It’s a tall，multicompartment,cyber-refridgerator.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2FridgeDescription2" Value="[It chills cyber-food and keeps,it safe from.... cyber.... bacteria?]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2OvenDescription1" Value="[The air is still warm around the,oven; it seems that somebody,was just using it.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2OvenDescription2" Value="[Older，less popular models,needed to use heat-element,chips as fuel.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2SinkDescription1" Value="[Spotless tableware and,cutlery are neatly arranged,in organized cabinets.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Cushion1Description" Value="[A tall，firm cushion takes the,place of a chair.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2TableDescription1" Value="[It seems to be a traditional,sitting table，but raised to,standing height.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2TableDescription2" Value="[For NetNavis，cyber-cuisine is,a luxury，so a personal dining,area like this is a rare sight.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorBlockedDialogue1" Value="[I think they’d notice if I tried to,barge into their private room.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue1" Value="[Two swords are displayed ,on the shelf，between closets,of assorted linens.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue2" Value="[As the real blades are weapon,data，these are only exquisitely,detailed decorations.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1" Value="[Knock. Knock.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue2" Value="[Oh，it’s you!,Come in，we were just about,to get started!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue3" Value="[Isn’t Youmu amazing?,Sit，sit! I can’t wait to dig in!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue4" Value="[....Fine.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue5" Value="[....and that’s how the White,Heaven Area regulates the,cycle of souls!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue6" Value="[Wow....]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue7" Value="[Hmph.,How’s that corruption and,lockdown working out for you?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue8" Value="[You....!]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue9" Value="[Ugh，it’s all because of those,nasty squatters!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue10" Value="[Go on，Youmu!,Tell her what happened!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue11" Value="[#b@false#As you wish，Mistress.,#w@150##e#]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue12" Value="[#b@false#Some time ago，a large mass,of souls came to our gates after,some calamity on the Net.#w@80# ]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue13" Value="[#b@false#Most moved on peacefully....#w@50# ,But among them were groups,of.... abnormal souls.#w@50# ]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue14" Value="[Many times more dense than a,normal Navi，they clung to life,even as their souls moved on.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue15" Value="[Rather than fading away without,a soul to hold it together，to be,recycled by the Cyberworld....]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue16" Value="[These empty husks，driven by,instinct，refused to be recycled,into new life by the Cyberworld.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue17" Value="[Worse，trying to fill the hole in,their very being，they attack,and consume innocent souls.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue18" Value="[Wow.,Takes one to know one，huh?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19" Value="[Rrrgh--!,If anything，you’re--!]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue20" Value="[As chief administrator of the,area，Mistress Yuyuko was,able to seal those souls away.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue21" Value="[But before we could find a way,to properly cleanse them....]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue22" Value="[....one more abnormal soul,came to our area.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue23" Value="[Not only was it massive，but,the sheer weight of its regrets,warped the world around it.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue24" Value="[The seals began to fail under,the pressure，and in order to,protect the server....]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25" Value="[The abnormal soul had to be,sequestered while we fought,to regain control.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue26" Value="[But in the chaos，a being of,great evil was able to sneak in，,and spirited that soul away....]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue27" Value="[Who knows what she could,do with that power....]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue28" Value="[Uh-huh，great.,Any chance you could point,me their way?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue29" Value="[I’m not taking any chances.,Big bad evil is the Queen of,Darkness，right?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19a" Value="[Ahem.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue30" Value="[The Queen of Darkness....?,Oh，Mima would just love that!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue31" Value="[Don’t mind Youmu，I’m sure,Mima was just too shy to ask if,she could borrow it!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue32" Value="[You should visit her!,She’s probably cooped up in,her lair with her new toy.]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue33" Value="[Oh，where did I put that key....?]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue34" Value="[Perhaps it slipped out during,the chaos....?]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue35" Value="[No，wait....,....Aha! Here it is!,How lucky!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue36" Value="[You do know there’s a bounty,on her head，right?]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue37" Value="[Oh，I’m sure she’ll be fine!,She’s just across the way，,tell her I said hi!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue38" Value="[That it?,Great.,See you never.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue39" Value="[Wait.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue40" Value="[My lady.... often sees things,very differently than most.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue41" Value="[Do not expect any mercy，or,honor，or reason from that,woman or her.... creations.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue42" Value="[You’ll find her lab deep in the,Undernet. Even the Net around,her is barren and lifeless.]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue43" Value="[Yeah，yeah，nothing I haven’t,heard before.,I’m shaking in my boots.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue44" Value="[Got that all out of your system，,Shanghai?]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1a" Value="[Now，you better be--!]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue4a" Value="[Rub a dub dub，,thanks for the grub!],[頂きます!]" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue45" Value="[Alice，I don’t want to hear it.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue46" Value="[Now，there’s no need to be,so rude....]" Face="Alice" Mono="False" />
 </data>

@@ -83,4 +83,7 @@
   <KeyItem Index="26" Name="KeyItem.SecretKeyName">
     <Dialogue Key="KeyItem.SecretKeyDescDialogue1" />
   </KeyItem>
+  <KeyItem Index="27" Name="KeyItem.DarkKeyName">
+    <Dialogue Key="KeyItem.DarkKeyDescDialogue1" />
+  </KeyItem>
 </data>

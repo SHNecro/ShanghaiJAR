@@ -796,7 +796,16 @@ Facehere:
 msgopen:
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1Edited
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1
+msgclose:
+wait:20:False
+emove:プレイヤー:wayleft,0
+wait:45:False
+emove:プレイヤー:wayup,0
+wait:30:False
+emove:プレイヤー:waydown,0
+wait:30:False
 Facehere:
+msgopen:
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue2
 emove:プレイヤー:wayright,0
 msg:Map.UraNet7PostgameKeystoneUnlockStage1Dialogue3

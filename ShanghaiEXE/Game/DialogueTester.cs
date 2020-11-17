@@ -1,6 +1,7 @@
 ﻿using Common;
 using ExtensionMethods;
 using NSGame;
+using Services;
 using System;
 using System.Drawing;
 using System.Text.RegularExpressions;
@@ -14,6 +15,7 @@ namespace NSShanghaiEXE.Game
         private Func<SceneBase> sceneGetter;
         private RichTextBox textBox;
         private Button sendButton;
+        private Button reloadButton;
 
         public DialogueTester(ShanghaiEXE s, Func<SceneBase> sceneGetter)
         {
@@ -83,8 +85,18 @@ namespace NSShanghaiEXE.Game
                 }
                 catch { }
             };
+            this.reloadButton = new Button();
+            this.reloadButton.Anchor = AnchorStyles.Bottom;
+            this.reloadButton.Dock = DockStyle.Bottom;
+            this.reloadButton.MaximumSize = new Size(int.MaxValue, 20);
+            this.reloadButton.Text = "Reload";
+            this.reloadButton.Click += (sender, args) =>
+            {
+                ShanghaiEXE.languageTranslationService = new LanguageTranslationService(ShanghaiEXE.Config.Language);
+            };
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.sendButton);
+            this.Controls.Add(this.reloadButton);
         }
     }
 }

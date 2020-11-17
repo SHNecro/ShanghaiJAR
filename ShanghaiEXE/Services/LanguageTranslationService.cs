@@ -27,7 +27,8 @@ namespace Services
             var decodedKey = System.Web.HttpUtility.HtmlDecode(key);
             if (!language.ContainsKey(decodedKey))
             {
-                throw new KeyNotFoundException($"Key not found: {decodedKey}");
+                // throw new KeyNotFoundException($"Key not found: {decodedKey}");
+                return new Dialogue { Face = FACE.None.ToFaceId(), Text = decodedKey };
             }
             return language[decodedKey];
         }
