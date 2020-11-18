@@ -104,15 +104,53 @@
                                     MinHeight="56"
                                     Content="{x:Static rendering:AddEditTranslationRenderer.DialogueControlHost}"/>
                 </ScrollViewer>
-                <StackPanel Orientation="Horizontal"
-                            HorizontalAlignment="Right">
-                    <Button Content="-"
+                <DockPanel LastChildFill="False">
+                    <Button DockPanel.Dock="Right"
+                            Content="-"
                             Width="18"
                             Command="{x:Static rendering:AddEditTranslationRenderer.ZoomOutCommand}" />
-                    <Button Content="+"
+                    <Button DockPanel.Dock="Right"
+                            Content="+"
                             Width="18"
                             Command="{x:Static rendering:AddEditTranslationRenderer.ZoomInCommand}" />
-                </StackPanel>
+                    <StackPanel DockPanel.Dock="Left"
+                                Orientation="Horizontal"
+                                ToolTipService.ShowDuration="99999">
+                        <StackPanel.Style>
+                            <Style TargetType="StackPanel">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding DataContext.IsDialogue, Source={StaticResource AddEditTranslationWindowViewModelProxy}}" Value="False">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                                <Setter Property="Visibility" Value="Visible" />
+                            </Style>
+                        </StackPanel.Style>
+                        <StackPanel.ToolTip>
+                            <ToolTip MaxWidth="2000">
+                                <TextBlock>
+                                Certain text sequences in dialogues trigger ingame events or alter the text flow.<LineBreak /> 
+                                They are invoked through "#&lt;type&gt;@&lt;arg&gt;#", ex. "#w@20#" to wait 20 frames.<LineBreak /> 
+                                The types of commands are:<LineBreak /> 
+                                • s: Play the sound effect given by &lt;arg&gt;, ex. "#s@chain#Whoosh!"<LineBreak /> 
+                                • w: Wait for the given number of frames &lt;arg&gt;, ex. "Ten!#w@60# Nine!"<LineBreak /> 
+                                • b: Enable/disable user input/fastforward &lt;arg&gt;, ex. "#b@true#....#b@false# Done!"<LineBreak /> 
+                                • u: Saves the game (no args), ex. "Saving....#u@# Done!"<LineBreak /> 
+                                • e: Ends the dialogue immediately (no args), ex. "Wait just a--#e@#"<LineBreak /> 
+                                • p: (new) Runs an event (id given by &lt;arg&gt;) parallel to the text, ex. "Red#p@FadeRed# Blue#p@FadeBlue#"<LineBreak /> 
+                                • v: Replaces sequence with the var given by &lt;arg&gt;, ex. "#v@20# HeatData remaining!"<LineBreak /> 
+                                • i: Replaces sequence with the last opened item &lt;arg&gt;, ex. "Shanghai got battlechip #i@#"<LineBreak /> 
+                                • c: Replaces sequence with the type of the last opened item &lt;arg&gt;, ex. "Shanghai got #c@#"
+                                </TextBlock>
+                            </ToolTip>
+                        </StackPanel.ToolTip>
+                        <Grid DockPanel.Dock="Right"
+                              Width="16"
+                              Height="16"
+                              Background="{StaticResource InfoIcon}"/>
+                        <TextBlock Margin="4,0" Text="Info about command sequences" Opacity="0.56" />
+                    </StackPanel>
+                </DockPanel>
             </StackPanel>
             <ScrollViewer Grid.Row="3"
                           VerticalScrollBarVisibility="Auto"
