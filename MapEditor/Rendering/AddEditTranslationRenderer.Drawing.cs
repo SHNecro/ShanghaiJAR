@@ -128,6 +128,8 @@ namespace MapEditor.Rendering
                                     break;
                                 case 'e': // End
                                     break;
+                                case 'p': // Parallel Event Run
+                                    break;
                                 case 'v': // Print var
                                     if (!int.TryParse(param, out _))
                                     {

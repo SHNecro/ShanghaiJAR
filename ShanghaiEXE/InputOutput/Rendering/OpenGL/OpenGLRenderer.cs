@@ -265,7 +265,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
         private string ControlCharacterChange(string text, SaveData save)
         {
             string[] tokens = text.Split('#');
-            var controlCharacters = new[] { "v", "s", "w", "b", "e", "i", "u", "c" };
+            var controlCharacters = new[] { "v", "s", "w", "b", "e", "i", "u", "c", "p" };
             string parsedString = string.Empty;
             for (int i = 0; i < tokens.Length; ++i)
             {

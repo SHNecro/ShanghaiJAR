@@ -35,7 +35,7 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0"
                         VerticalAlignment="Center"
-                        Text="Block Player:"/>
+                        Text="Block until A press:"/>
                 <CheckBox Grid.Column="1"
                         VerticalContentAlignment="Center"
                         Height="22"

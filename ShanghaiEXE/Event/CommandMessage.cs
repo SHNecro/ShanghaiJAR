@@ -7,6 +7,8 @@ using SlimDX;
 using System;
 using System.Drawing;
 using System.Threading;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace NSEvent
 {
@@ -41,6 +43,7 @@ namespace NSEvent
         private bool noTalk;
         protected string[] text;
         private Thread thread_1;
+        private List<EventManager> parallelEventManagers;
 
         public CommandMessage(
           IAudioEngine s,
@@ -179,6 +182,7 @@ namespace NSEvent
             this.canskip = true;
             this.longwaiting = false;
             this.shortmassage = new string[3] { "", "", "" };
+            this.parallelEventManagers = new List<EventManager>();
         }
 
         public override void Update()
@@ -189,6 +193,10 @@ namespace NSEvent
                 this.ToDecomposition(this.massage[1]),
                 this.ToDecomposition(this.massage[2])
             };
+            foreach (var parallelEvents in this.parallelEventManagers.Where(em => em.playevent))
+            {
+                parallelEvents.UpDate();
+            }
             if (this.manager.alpha <= 0 && this.canskip && this.massage[0].Length > 0 && (Input.IsPress(Button._B) || Input.IsPress(Button._A) || this.fastprint))
             {
                 this.endprint = strArray.Length - 1;
@@ -199,11 +207,14 @@ namespace NSEvent
             {
                 case CommandMessage.SCENE.printing:
                     ++this.printfonts;
-                    if (this.printfonts > strArray[this.endprint].Length)
+                    if (this.endprint >= strArray.Length || this.printfonts > strArray[this.endprint].Length)
                     {
                         this.printfonts = 0;
                         ++this.endprint;
-                        if (this.endprint >= this.massage.Length)
+                        var parallelComplete = this.parallelEventManagers.All(em => !em.playevent);
+                        var endOfMessage = this.endprint >= this.massage.Length;
+                        this.noTalk = endOfMessage;
+                        if (parallelComplete && endOfMessage)
                         {
                             this.arrowprint = true;
                             this.nowscene = CommandMessage.SCENE.pushA;
@@ -304,6 +315,11 @@ namespace NSEvent
                                     this.Init();
                                     this.EndCommand();
                                     return;
+                                case "p":
+                                    var newEventManager = new EventManager(this.manager.parent, this.sound);
+                                    newEventManager.AddEvent(new LunEvent(this.sound, newEventManager, s, -1, newEventManager.parent, newEventManager.parent.Field, this.savedata));
+                                    this.parallelEventManagers.Add(newEventManager);
+                                    break;
                             }
                             do
                             {
@@ -387,6 +403,10 @@ namespace NSEvent
 
         public override void Render(IRenderer dg)
         {
+            foreach (var parallelEvents in this.parallelEventManagers.Where(em => em.playevent))
+            {
+                parallelEvents.Render(dg);
+            }
             this._position = new Vector2(0.0f, 104f);
             this._rect = new Rectangle(0, 0, 240, 56);
             dg.DrawImage(dg, "window", this._rect, true, this._position, Color.White);

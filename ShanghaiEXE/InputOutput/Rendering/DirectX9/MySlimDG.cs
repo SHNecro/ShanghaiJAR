@@ -476,7 +476,8 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
                 "e",
                 "i",
                 "u",
-                "c"
+                "c",
+                "p"
             };
             string str2 = "";
             for (int index1 = 0; index1 < strArray1.Length; ++index1)
