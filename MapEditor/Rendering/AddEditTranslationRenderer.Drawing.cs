@@ -10,7 +10,7 @@ namespace MapEditor.Rendering
 {
     public static partial class AddEditTranslationRenderer
     {
-        private static readonly List<char> ControlCharacters = new List<char> { 's', 'w', 'b', 'u', 'e', 'v', 'i', 'c' };
+        private static readonly List<char> ControlCharacters = new List<char> { 's', 'w', 'b', 'u', 'e', 'p', 'v', 'i', 'c' };
 
         public static void DrawDialogue()
         {
