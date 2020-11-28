@@ -41,9 +41,14 @@ namespace NSEvent
                     if (mapEventBase.ID == this.eventID)
                     {
                         if (this.page >= 0)
+                        {
                             this.eventmanager.EventClone(mapEventBase.eventPages[this.page].eventmanager);
+                        }
                         else
+                        {
+                            mapEventBase.LunPageCheck();
                             this.eventmanager.EventClone(mapEventBase.LunPage.eventmanager);
+                        }
                         this.eventmanager.playevent = true;
                         this.lun = true;
                         break;
