@@ -317,7 +317,7 @@ namespace NSEvent
                                     return;
                                 case "p":
                                     var newEventManager = new EventManager(this.manager.parent, this.sound);
-                                    newEventManager.AddEvent(new LunEvent(this.sound, newEventManager, s, -1, newEventManager.parent, newEventManager.parent.Field, this.savedata));
+                                    newEventManager.AddEvent(new RunEvent(this.sound, newEventManager, s, -1, newEventManager.parent, newEventManager.parent.Field, this.savedata));
                                     this.parallelEventManagers.Add(newEventManager);
                                     break;
                             }

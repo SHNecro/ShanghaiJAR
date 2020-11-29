@@ -395,6 +395,7 @@
     <Compile Include="Enemy\ShanghaiBase.cs" />
     <Compile Include="Enemy\ShanghaiDS.cs" />
     <Compile Include="Enemy\yuyuko.cs" />
+    <Compile Include="Event\RunEventParallel.cs" />
     <Compile Include="Event\Piano.cs" />
     <Compile Include="Event\Credit.cs" />
     <Compile Include="Event\IPersistentEvent.cs" />
@@ -1260,7 +1261,7 @@
     <Compile Include="Event\EventDelete.cs" />
     <Compile Include="Event\EventMoveEnd.cs" />
     <Compile Include="Event\PlayerHide.cs" />
-    <Compile Include="Event\LunEvent.cs" />
+    <Compile Include="Event\RunEvent.cs" />
     <Compile Include="Event\StatusHide.cs" />
     <Compile Include="Event\InteriorSet.cs" />
     <Compile Include="Event\ifEnd.cs" />

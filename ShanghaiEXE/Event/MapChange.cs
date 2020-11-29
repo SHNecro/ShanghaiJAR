@@ -44,8 +44,8 @@ namespace NSEvent
                 this.manager.parent.Player.floor = this.floor;
                 foreach (EventBase eventBase in this.manager.events)
                 {
-                    if (eventBase is LunEvent)
-                        ((LunEvent)eventBase).field = this.manager.parent.Field;
+                    if (eventBase is RunEvent)
+                        ((RunEvent)eventBase).field = this.manager.parent.Field;
                 }
             }
             else

@@ -6,16 +6,16 @@ using NSMap.Character;
 
 namespace NSEvent
 {
-    internal class LunEvent : EventBase
+    internal class RunEvent : EventBase
     {
         private readonly int page;
         private readonly string eventID;
-        private readonly EventManager eventmanager;
+        protected readonly EventManager eventmanager;
         public MapField field;
         private bool lun;
         private bool skip;
 
-        public LunEvent(
+        public RunEvent(
           IAudioEngine s,
           EventManager m,
           string ID,

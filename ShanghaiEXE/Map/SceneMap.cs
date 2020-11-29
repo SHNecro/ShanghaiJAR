@@ -205,7 +205,8 @@ namespace NSMap
                     this.eventmanagerParallel.UpDate();
                 if (!this.player.openMenu && !this.eventmanager.playevent)
                     this.TimerUpdate();
-				foreach (var persistentEvent in this.persistentEvents)
+                // Temporary copy made in case a persistent event (runevent) adds another persistent event, will need to start next tick
+				foreach (var persistentEvent in this.persistentEvents.ToArray())
 				{
 					if (persistentEvent.IsActive)
 					{
@@ -953,7 +954,8 @@ namespace NSMap
 			{
 				this.eventmanagerParallel.Render(dg);
 			}
-			foreach (var persistentEvent in this.persistentEvents)
+            // Temporary copy made in case of race condition modifying collection
+			foreach (var persistentEvent in this.persistentEvents.ToArray())
 			{
 				if (persistentEvent.IsActive)
 				{

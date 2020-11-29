@@ -4,6 +4,7 @@
     {
         private string id;
         private int page;
+        private bool isParallel;
 
         public string ID
         {
@@ -17,35 +18,45 @@
             set { this.SetValue(ref this.page, value); }
         }
 
+        public bool IsParallel
+        {
+            get { return this.isParallel; }
+            set { this.SetValue(ref this.isParallel, value); }
+        }
+
         public override string Info => "Runs the events of an object's active page or one specified.";
 
         public override string Name
         {
             get
             {
+                var subtype = this.IsParallel ? " (parallel)" : string.Empty;
                 var pageString = this.Page == -1 ? "Active page" : $"pg. {this.Page}";
-                return $"Run events: \"{this.ID}\" {pageString}";
+                return $"Run events{subtype}: \"{this.ID}\" {pageString}";
             }
         }
 
         protected override string GetStringValue()
         {
-            return $"EventLun:{this.ID}:{this.Page}";
+            var subtype = this.IsParallel ? "EventLunPara" : "EventLun";
+            return $"{subtype}:{this.ID}:{this.Page}";
         }
 
         protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
-            if (!this.Validate(entries, $"Malformed event run event \"{value}\".", e => e.Length == 3 && e[0] == "EventLun"))
+            if (!this.Validate(entries, $"Malformed event run event \"{value}\".", e => e.Length == 3 && (e[0] == "EventLun" || e[0] == "EventLunPara" )))
             {
                 return;
             }
 
             var newID = entries[1];
             var newPage = this.ParseIntOrAddError(entries[2]);
+            var newIsParallel = entries[0] == "EventLunPara";
 
             this.ID = newID;
             this.Page = newPage;
+            this.IsParallel = newIsParallel;
         }
     }
 }

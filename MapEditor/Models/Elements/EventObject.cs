@@ -447,6 +447,10 @@ namespace MapEditor.Models
             {
                 term.Instance = new EventRunEvent { StringValue = value };
             }
+            else if (value.StartsWith("EventLunPara:", StringComparison.InvariantCulture))
+            {
+                term.Instance = new EventRunEvent { StringValue = value };
+            }
             else if (value.StartsWith("Facehere:", StringComparison.InvariantCulture))
             {
                 term.Instance = new FaceScreenEvent { StringValue = value };

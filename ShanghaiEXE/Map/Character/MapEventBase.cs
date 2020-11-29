@@ -241,7 +241,10 @@ namespace NSMap.Character
                         page.AddEvent(new EditItem(this.sound, page.eventmanager, int.Parse(strArray1[1]), bool.Parse(strArray1[2]), this.savedate));
                         break;
                     case "EventLun":
-                        page.AddEvent(new LunEvent(this.sound, page.eventmanager, strArray1[1], int.Parse(strArray1[2]), this.parent, this.field, this.savedate));
+                        page.AddEvent(new RunEvent(this.sound, page.eventmanager, strArray1[1], int.Parse(strArray1[2]), this.parent, this.field, this.savedate));
+                        break;
+                    case "EventLunPara":
+                        page.AddEvent(new RunEventParallel(this.sound, page.eventmanager, strArray1[1], int.Parse(strArray1[2]), this.parent, this.field, this.savedate));
                         break;
                     case "Facehere":
                         page.AddEvent(new Facehere(this.sound, page.eventmanager, this.parent, this.savedate));
@@ -558,7 +561,7 @@ namespace NSMap.Character
                         break;
                     case "mapChange":
                         page.AddEvent(new MapChange(this.sound, page.eventmanager, strArray1[1], new Point(int.Parse(strArray1[2]), int.Parse(strArray1[3])), int.Parse(strArray1[4]), (MapCharacterBase.ANGLE)int.Parse(strArray1[5]), this.savedate, this.field));
-                        page.AddEvent(new LunEvent(this.sound, page.eventmanager, "BGMStart", -1, this.parent, this.field, this.savedate));
+                        page.AddEvent(new RunEvent(this.sound, page.eventmanager, "BGMStart", -1, this.parent, this.field, this.savedate));
                         break;
                     case "mapWarp":
                         page.AddEvent(new PlayerHide(this.sound, page.eventmanager, true, this.parent.Player, this.savedate));
@@ -648,7 +651,7 @@ namespace NSMap.Character
                         page.AddEvent(new SEmon(this.sound, page.eventmanager, "warp", 0, this.savedate));
                         page.AddEvent(new EffectMake(this.sound, page.eventmanager, 2, "player", 0, 1, 2, 1, -1, 0, 1, "none", this.parent, this.field, this, this.savedate));
                         page.AddEvent(new Fade(this.sound, page.eventmanager, 0, byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue, true, this.savedate));
-                        page.AddEvent(new LunEvent(this.sound, page.eventmanager, "BGMStart", -1, this.parent, this.field, this.savedate));
+                        page.AddEvent(new RunEvent(this.sound, page.eventmanager, "BGMStart", -1, this.parent, this.field, this.savedate));
                         page.AddEvent(new Fade(this.sound, page.eventmanager, 30, 0, byte.MaxValue, byte.MaxValue, byte.MaxValue, true, this.savedate));
                         page.AddEvent(new Wait(this.sound, page.eventmanager, 10, false, this.savedate));
                         page.AddEvent(new PlayerHide(this.sound, page.eventmanager, false, this.parent.Player, this.savedate));
@@ -741,7 +744,7 @@ namespace NSMap.Character
                         page.AddEvent(new EffectMake(this.sound, page.eventmanager, 5, "player", 0, 1, 2, 1, -1, 0, 1, "none", this.parent, this.field, this, this.savedate));
                         page.AddEvent(new Fade(this.sound, page.eventmanager, 30, byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue, true, this.savedate));
                         page.AddEvent(new MapChange(this.sound, page.eventmanager, strArray1[1], new Point(int.Parse(strArray1[2]), int.Parse(strArray1[3])), int.Parse(strArray1[4]), MapCharacterBase.ANGLE.DOWN, this.savedate, this.field));
-                        page.AddEvent(new LunEvent(this.sound, page.eventmanager, "BGMStart", -1, this.parent, this.field, this.savedate));
+                        page.AddEvent(new RunEvent(this.sound, page.eventmanager, "BGMStart", -1, this.parent, this.field, this.savedate));
                         page.AddEvent(new EditValue(this.sound, page.eventmanager, 0, false, 0, 5, "0", this.parent.Player, this.savedate));
                         page.AddEvent(new EditValue(this.sound, page.eventmanager, 1, false, 0, 5, "1", this.parent.Player, this.savedate));
                         page.AddEvent(new EditValue(this.sound, page.eventmanager, 2, false, 0, 5, "2", this.parent.Player, this.savedate));

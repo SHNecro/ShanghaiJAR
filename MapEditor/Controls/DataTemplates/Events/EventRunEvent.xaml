@@ -44,6 +44,19 @@
                         Tag="{Binding Page}"
                         CommandParameter="-1" />
             </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0"
+                        VerticalAlignment="Center"
+                        Text="Parallel:"/>
+                <CheckBox Grid.Column="1"
+                        VerticalContentAlignment="Center"
+                        Height="22"
+                        IsChecked="{Binding IsParallel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+            </Grid>
         </StackPanel>
     </DataTemplate>
 </ResourceDictionary>
