@@ -35,13 +35,13 @@ namespace NSGame
         private Stopwatch fpsUpdateStopwatch = Stopwatch.StartNew();
         private int rendersSinceLastFPSUpdate = 0;
         private int updatesSinceLastFPSUpdate = 0;
-        private static readonly TimeSpan FPSUpdatePeriod = TimeSpan.FromSeconds(1);
+        private double fpsAdjustmentFactor = 0;
+        private static readonly int FPSAdjustmentWindow = 20;
+        private static readonly TimeSpan FPSUpdatePeriod = TimeSpan.FromSeconds(0.5);
+        private static readonly TimeSpan FPSAdjustmentPeriod = TimeSpan.FromSeconds(0.25);
         private Stopwatch fpsAdjustmentStopwatch = Stopwatch.StartNew();
         private int updatesSinceLastFPSAdjustment = 0;
-        private double learnedFPSAdjustment = 1;
-        private static readonly int FPSAdjustmentWeighting = 15;
-        private static readonly TimeSpan FPSAdjustmentPeriod = TimeSpan.FromSeconds(0.25);
-        private static readonly int UpdateRate = 65;
+        private static readonly int UpdateRate = 60;
         public Dictionary<string, SlimTex> Tex = new Dictionary<string, SlimTex>();
         public string[] KeepTexList = new string[87]
         {
@@ -416,18 +416,21 @@ namespace NSGame
 
         public void MainLoop()
         {
-            var updateRate = UpdateRate;
+            var desiredUpdateRate = UpdateRate;
             var isTurbo = Input.IsPush(Button.Turbo);
             if (isTurbo)
             {
-                updateRate = (ShanghaiEXE.Config.AllowTurboSlowdown ?? false)
+                desiredUpdateRate = (ShanghaiEXE.Config.AllowTurboSlowdown ?? false)
                     ? ShanghaiEXE.Config.TurboUPS.Value
                     : Math.Max(60, ShanghaiEXE.Config.TurboUPS ?? 300);
             }
-            var updatePeriod = TimeSpan.FromSeconds(1d / (this.learnedFPSAdjustment * updateRate));
-            var renderPeriod = TimeSpan.FromSeconds(1d / (this.learnedFPSAdjustment * ShanghaiEXE.Config.FPS ?? 60));
+            var fpsAdjustment = isTurbo || Math.Abs(this.fpsAdjustmentFactor) < double.Epsilon || double.IsNaN(this.fpsAdjustmentFactor) || double.IsInfinity(this.fpsAdjustmentFactor) ? 1 : this.fpsAdjustmentFactor;
+            var updatePeriod = TimeSpan.FromMilliseconds(1000d / (desiredUpdateRate * fpsAdjustment));
+            var renderPeriod = TimeSpan.FromMilliseconds(1000d / ShanghaiEXE.Config.FPS ?? 60);
 
-            var queuedUpdates = default(int);
+            var isUpdatePaused = this.isPaused && ShanghaiEXE.Config.PausedWhenInactive;
+
+            var queuedUpdates = 0;
             if (updatePeriod > TimeSpan.Zero)
             {
                 queuedUpdates = (int)(this.updateStopwatch.ElapsedMilliseconds / updatePeriod.TotalMilliseconds);
@@ -436,15 +439,14 @@ namespace NSGame
             {
                 // If DirectX9, dg.End() blocks execution and queuedUpdates = 1 caps speed to refresh rate
                 // "Incorrect" behavior if OpenGL or when FPS set to 144 on a 60hz screen, but this is edge case anyways with essentially infinite speed
-                queuedUpdates = (int)(renderPeriod.TotalSeconds / (1d / updateRate));
+                // TODO: split render to separate thread, if safe and no race conditions from render changing things (unlikely)
+                queuedUpdates = (int)(renderPeriod.TotalSeconds / (1d / desiredUpdateRate));
             }
 
             var isUpdating = queuedUpdates > 0;
             if (isUpdating)
             {
                 this.updateStopwatch.Restart();
-                this.updatesSinceLastFPSUpdate += queuedUpdates;
-                this.updatesSinceLastFPSAdjustment += queuedUpdates;
             }
             var isRendering = this.renderStopwatch.Elapsed >= renderPeriod;
             if (isRendering)
@@ -472,7 +474,7 @@ namespace NSGame
 
                     if (ShanghaiEXE.scene != null)
                     {
-                        if (!(this.isPaused && ShanghaiEXE.Config.PausedWhenInactive))
+                        if (!isUpdatePaused)
                         {
                             for (var i = 0; i < queuedUpdates; i++)
                             {
@@ -481,6 +483,9 @@ namespace NSGame
                                     this.GetKeyData();
                                 }
                                 ShanghaiEXE.scene.Updata();
+
+                                this.updatesSinceLastFPSUpdate++;
+                                this.updatesSinceLastFPSAdjustment++;
                             }
                         }
 
@@ -507,26 +512,21 @@ namespace NSGame
             }
 
             var timeSinceLastFPSAdjustment = this.fpsAdjustmentStopwatch.Elapsed;
-            if (timeSinceLastFPSAdjustment > ShanghaiEXE.FPSAdjustmentPeriod)
+            if (!isUpdatePaused && timeSinceLastFPSAdjustment > ShanghaiEXE.FPSAdjustmentPeriod)
             {
-                if (this.loadend)
+                if (this.loadend && !isTurbo)
                 {
-                    if (this.updatesSinceLastFPSAdjustment != 0 && !isTurbo)
-                    {
-                        var desiredUpdateRate = UpdateRate;
-                        if (isTurbo)
-                        {
-                            desiredUpdateRate = (ShanghaiEXE.Config.AllowTurboSlowdown ?? false)
-                                ? ShanghaiEXE.Config.TurboUPS.Value
-                                : Math.Max(60, ShanghaiEXE.Config.TurboUPS ?? 300);
-                        }
-                        var speedAdjustmentFactor = (desiredUpdateRate * ShanghaiEXE.FPSAdjustmentPeriod.TotalSeconds) / this.updatesSinceLastFPSAdjustment;
-                        this.learnedFPSAdjustment = (speedAdjustmentFactor + (ShanghaiEXE.FPSAdjustmentWeighting - 1) * this.learnedFPSAdjustment) / ShanghaiEXE.FPSAdjustmentWeighting;
-                    }
-
-                    this.fpsAdjustmentStopwatch.Restart();
+                    var expectedUpdatesSinceLastAdjustment = ShanghaiEXE.FPSAdjustmentPeriod.TotalMilliseconds / updatePeriod.TotalMilliseconds;
+                    var newFpsAdjustment = expectedUpdatesSinceLastAdjustment / this.updatesSinceLastFPSAdjustment;
+                    this.fpsAdjustmentFactor = (newFpsAdjustment + (fpsAdjustment * (ShanghaiEXE.FPSAdjustmentWindow - 1))) / ShanghaiEXE.FPSAdjustmentWindow;
                     this.updatesSinceLastFPSAdjustment = 0;
                 }
+
+                this.fpsAdjustmentStopwatch.Restart();
+            }
+            if (isUpdatePaused)
+            {
+                this.fpsAdjustmentStopwatch.Restart();
             }
 
             var timeSinceLastFPSUpdate = this.fpsUpdateStopwatch.Elapsed;
