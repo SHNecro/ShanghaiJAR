@@ -89,6 +89,20 @@ namespace NSMap.Character
             [72] = (sound, position, field) => new FreeSoul(sound, new Vector2(position.X, position.Y), new Point(0, 0), ANGLE.UPLEFT, FreeSoul.DissolveCharacter.Sprite),
             [73] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip20", new Rectangle(15, 32, 30, 64), false),
             [74] = (sound, position, field) => new Noise(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
+            [75] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(448 + 18, 192 + 48, 24, 48)),
+            [76] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(448 + 18, 192 + 48, 24, 48)),
+            [77] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip19", new Rectangle(448 + 18, 672 + 48, 24, 48)),
+            [78] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip19", new Rectangle(448 + 18, 672 + 48, 24, 48)),
+            [79] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, false, "charachip19", new Rectangle(448 + 18, 576 + 48, 24, 48)),
+            [80] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, false, "charachip19", new Rectangle(448 + 18, 576 + 48, 24, 48)),
+            [81] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip19", new Rectangle(448 + 18, 576 + 48, 24, 48)),
+            [82] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip19", new Rectangle(448 + 18, 576 + 48, 24, 48)),
+            [83] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, false, "charachip19", new Rectangle(448 + 18, 672 + 48, 24, 48)),
+            [84] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, false, "charachip19", new Rectangle(448 + 18, 672 + 48, 24, 48)),
+            [85] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip20", new Rectangle(15, 96 + 32, 30, 64), false),
+            [86] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, false, "charachip20", new Rectangle(15, 32, 30, 64), false),
+            [87] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip20", new Rectangle(15, 32, 30, 64), false),
+            [88] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, false, "charachip20", new Rectangle(15, 96 + 32, 30, 64), false),
         };
 
     public EffectBase effect;
