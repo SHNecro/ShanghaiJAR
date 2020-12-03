@@ -103,6 +103,8 @@ namespace NSMap.Character
             [86] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, false, "charachip20", new Rectangle(15, 32, 30, 64), false),
             [87] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip20", new Rectangle(15, 32, 30, 64), false),
             [88] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, false, "charachip20", new Rectangle(15, 96 + 32, 30, 64), false),
+            [89] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(18, 288 + 32, 24, 64)),
+            [90] = (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(18, 288 + 32, 24, 64)),
         };
 
     public EffectBase effect;
