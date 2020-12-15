@@ -3669,6 +3669,7 @@ playerHide:False
 CameraDefault:0
 fade:150:0:0:0:0:True
 msgopen:
+msg:Map.HeavenNet2MeetingCutsceneDialogue28
 msg:Map.HeavenNet2MeetingCutsceneDialogue29
 emove:プレイヤー:wait,8:wayup,0
 msg:Map.HeavenNet2MeetingCutsceneDialogue30
@@ -3757,7 +3758,7 @@ end
 ID:MeetingCutsceneYoumu
 position:164:91:0
 page:1
-startterms:Touch
+startterms:Abutton
 type:1
 terms:!flag/871
 move:
@@ -3771,7 +3772,7 @@ end
 ID:MeetingAfterCutsceneYoumu
 position:132:70:0
 page:1
-startterms:Touch
+startterms:Abutton
 type:1
 terms:flag/871
 move:
@@ -3780,6 +3781,11 @@ graphic:18:1,0,3,0,0
 hitrange:3:8:0:0
 hitform:circle
 event:
+msgopen:
+msg:Map.HeavenNet2MeetingCutsceneDialogue40
+msg:Map.HeavenNet2MeetingCutsceneDialogue41
+msg:Map.HeavenNet2MeetingCutsceneDialogue42
+msgclose:
 end
 
 ID:MeetingCutsceneYoumuFight
@@ -3799,7 +3805,7 @@ end
 ID:MeetingCutsceneYuyuko
 position:180:67:0
 page:1
-startterms:Touch
+startterms:Abutton
 type:1
 terms:none
 move:
@@ -3808,6 +3814,10 @@ graphic:18:6,0,7,0,0
 hitrange:3:8:0:0
 hitform:circle
 event:
+msgopen:
+msg:Map.HeavenNet2MeetingCutsceneDialogue31
+msg:Map.HeavenNet2MeetingCutsceneDialogue32
+msgclose:
 end
 
 ID:MeetingGroundBarrier
