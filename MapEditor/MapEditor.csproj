@@ -887,6 +887,11 @@
   <ItemGroup>
     <Resource Include="Resources\Splash.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenAL32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
