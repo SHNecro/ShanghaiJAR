@@ -1361,6 +1361,20 @@ hitform:circle
 event:
 end
 
+ID:MeetingCutsceneFlashbackMima
+position:505:678:0
+page:1
+startterms:none
+type:1
+terms:flag/870,!flag/873
+move:
+speed:1
+graphic:21:1,0,3,0,0
+hitrange:0:0:0:0
+hitform:circle
+event:
+end
+
 ID:MeetingCutsceneFlashbackNaviSpirit1
 position:155:104:0
 page:1
@@ -2241,11 +2255,25 @@ effect:68:LooseSouls2:500:630:0:0:40:16:2:none
 effect:6:KikuriSmoke2:500:630:0:0:20:16:2:none
 effect:6:KikuriSmoke3:478:608:0:0:4:6:2:none
 effect:68:LooseSouls3:484:610:0:0:8:6:2:none
-effect:74:KikuriNoise2:500:630:0:0:20:16:2:none
+effect:74:KikuriNoise3:500:630:0:0:20:16:2:none
 wait:15:False
 fade:30:48:48:48:0:True
 fade:30:96:128:98:0:False
 camera:0:50:60:False
+effectDelete:LooseSouls2
+effectDelete:LooseSouls3
+effectDelete:KikuriNoise3
+effectDelete:KikuriSmoke2
+effectDelete:KikuriSmoke3
+fade:30:128:64:32:0:True
+fade:8:96:128:98:0:True
+fade:8:128:64:32:0:True
+fade:8:96:128:98:0:True
+wait:15:False
+fade:5:255:0:0:0:True
+eventDelete:MeetingCutsceneFlashbackKikuri2
+eventDelete:MeetingCutsceneFlashbackMima
+fade:30:48:255:196:0:True
 end
 
 ID:MCFParallelKikuriBanish
