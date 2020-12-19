@@ -2315,7 +2315,7 @@ fade:30:48:255:196:0:True
 end
 
 ID:MCFParallelEnd
-position:139:32:0
+position:142:29:0
 page:1
 startterms:none
 type:1
@@ -2326,6 +2326,8 @@ graphic:-1:0,0,0,0,0
 hitrange:3:3:0:0
 hitform:square
 event:
+CameraDefault:0
+shakeStop:
 end
 
 ID:MeetingCutsceneFlashback
@@ -2403,6 +2405,7 @@ editFlag:822:True
 editFlag:862:True
 StatusHide:False
 stopSkip:
+EventLun:MCFParallelEnd:-1
 mapChange:heavenNet2:200:94:0:0
 end
 
@@ -2466,9 +2469,6 @@ wait:60:False
 EventLun:MCFParallelGhostTrap:-1
 wait:30:False
 EventLun:MCFParallelMima:-1
-wait:60:False
-EventLun:MCFParallelEnd:-1
-wait:300:False
 end
 
 ID:MCFDoor1
@@ -2653,6 +2653,13 @@ msg:Map.HeavenNet1SpecialDoorZenny1
 msgclose:
 editValue:15:False:0:4:2
 ifValue:15:False:2000000:1:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:15:False:0:0:0
+ifEnd:0
+ifValue:15:False:2000000:1:0
 editFlag:809:True
 ifEnd:0
 ifFlag:809:True:0
@@ -2780,6 +2787,13 @@ msgopen:
 msg:Map.HeavenNet1SpecialDoorRequest1
 msgclose:
 EventLun:SpecialDoor6RequestCheck:-1
+ifFlag:808:True:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editFlag:808:False
+ifEnd:0
 ifFlag:808:True:0
 seon:get
 wait:15:False
@@ -2962,6 +2976,13 @@ msg:Map.HeavenNet1SpecialDoorStdProgramAdvances1
 msgclose:
 Special:21
 ifValue:7:False:32:1:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:7:False:0:0:0
+ifEnd:0
+ifValue:7:False:32:1:0
 editFlag:807:True
 seon:get
 wait:15:False
@@ -3121,6 +3142,13 @@ msg:Map.HeavenNet1SpecialDoorStdChips1
 msgclose:
 Special:20
 ifValue:7:False:190:1:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:7:False:0:0:0
+ifEnd:0
+ifValue:7:False:190:1:0
 editFlag:806:True
 seon:get
 wait:15:False
@@ -3249,6 +3277,13 @@ msgopen:
 msg:Map.HeavenNet1SpecialDoorVirusTraining1
 msgclose:
 EventLun:SpecialDoor3VirusTamingCheck:-1
+ifFlag:805:True:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editFlag:805:False
+ifEnd:0
 ifFlag:805:True:0
 seon:get
 wait:15:False
@@ -3381,6 +3416,13 @@ msgopen:
 msg:Map.HeavenNet1SpecialDoorSPBounty1
 msgclose:
 Special:19
+ifValue:7:False:41:1:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:7:False:0:0:0
+ifEnd:0
 ifValue:7:False:41:1:0
 editFlag:804:True
 seon:get
@@ -3593,9 +3635,14 @@ msg:Map.HeavenNet1SpecialDoorStoryKey1
 msgclose:
 ifFlag:857:True:0
 editFlag:803:True
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editFlag:803:False
 ifEnd:0
 ifFlag:803:True:0
-EditItem:26:True
+EditItem:26:False
 seon:get
 wait:15:False
 editValue:0:False:0:5:0
@@ -4441,6 +4488,13 @@ msgopen:
 msg:Map.HeavenNet1BarrierUnlockScanDialogue1
 Special:24
 ifValue:7:False:1:0:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:7:False:0:0:0
+ifEnd:0
+ifValue:7:False:1:0:0
 seon:getchip
 editFlag:863:True
 msg:Map.HeavenNet1BarrierUnlockScanAlphabetSoupSuccess
@@ -4848,6 +4902,13 @@ fade:15:0:255:0:255:True
 msgopen:
 msg:Map.HeavenNet1BarrierUnlockScanDialogue1
 Special:25
+ifValue:7:False:1:0:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:7:False:0:0:0
+ifEnd:0
 ifValue:7:False:1:0:0
 seon:getchip
 editFlag:834:True
@@ -5471,6 +5532,13 @@ fade:15:0:255:0:255:True
 msgopen:
 msg:Map.HeavenNet1BarrierUnlockScanDialogue1
 EventLun:Barrier1-3V2NaviCheck:-1
+ifValue:7:False:1:0:0
+msgopen:
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
+msgclose:
+editValue:7:False:0:0:0
+ifEnd:0
 ifValue:7:False:1:0:0
 seon:getchip
 editFlag:836:True
