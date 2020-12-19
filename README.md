@@ -31,23 +31,19 @@ Visual Studio 2017 is required to compile the project due to the C# 7 syntax gen
 
 Additionally, the C++ development environment must be installed for Visual Studio in order for freetype6.dll to be copied to the output directory.
 
-## Latest Release (0.503e4, 1/4/20)
+## Latest Release (0.550eWIP, 12/19/20)
 
 ### Changelog:
-- New content from demo end (before penultimate boss) to beginning of post-game
-- Final dungeon boss (+ chips, ghost)
-- Final boss (already implemented)
-- Cutscenes, credits, and epilogue start
-- Epilogue flavor NPCs
-- Fixed minor graphical glitches/jitter
-- Fixed fullscreen mode for OpenGL
-- Fixed various postgame NPCs appearing before postgame
-- Fixed Yuyuko crash on heavy+sand
-- Fixed Hospital event BGM override
-- Fixed shaking if skipping during cutscene
-- Changed object cleanup from Render to Update loops, fixing possible issues w/ turbo
-- Modified logos/labels to distance from original creator
-- Re-added chip icons for new illegal chip ShellHoc
+- Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
+- Added retcon system to fix savegames from previous versions
+- Reworked Library page for potential issues with chip IDs, PAs
+- Reworked PA system for potential issues adding new PAs
+- Minor balancing of DruidMan, minor difficulty increase for stunlocking
+- Added postgame area 1 story cutscenes
+- Added postgame area 1 mechanics
+- Moved some constant data out to external files so map editor can edit (data/data/*.xml)
+- Added editors for external data
+- Added music player, audio engine to map editor for bgm/sound effects
 
 ### Release plans (No release dates):
 - Few/no repo updates until next major release either on remaining repos or as a dropped download link
@@ -62,22 +58,6 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 8/27/20):
-- Rework of overworld rendering system to fix render order issues
-- Implementation of postgame area 1 completion cutscene
-- Implementation of special battles/enemies
-- Implementation of rewards
-
-
-##### Completed:
-- First draft of story/dialogue/cutscenes
-- Fleshing out of empty areas during postgame, BBS, unadded SP viruses
-- Retcon system to fix savegames from previous versions
-- Reworked Library page for potential issues with chip IDs, PAs
-- Reworked PA system for potential issues adding new PAs
-- Minor balancing of DruidMan, minor difficulty increase for stunlocking
-- Events, cutscenes up to midway point of first postgame area
-- Moved some constant data out to external files so map editor can edit (data/data/*.xml)
-- Added editors for external data
-- Added music player, audio engine to map editor for bgm/sound effects
-- Added contents, basic cutscenes for postgame area 1
+#### In Progress (as of 12/19/20):
+- Implementation of postgame battles (barrier, guardians, special event)
+- Implementation of postgame rewards (+unlocking existing Youmu, Yuyuko fights)
