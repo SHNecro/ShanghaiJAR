@@ -893,7 +893,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="wrap_oal.dll" />
+    <None Include="wrap_oal.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
