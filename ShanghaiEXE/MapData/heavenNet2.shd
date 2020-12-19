@@ -3535,9 +3535,9 @@ graphic:-2:0,40,16,40,16
 hitrange:8:8:6:6
 hitform:square
 event:
+editFlag:857:True
 ItemGet:3:8:0:KeyItem.SecretKeyName
 EditItem:26:True
-editFlag:857:True
 end
 
 ID:MeetingCutsceneTrigger
@@ -4176,7 +4176,7 @@ end
 page:2
 startterms:Abutton
 type:1
-terms:none
+terms:flag/876
 move:
 speed:0
 graphic:-26:290,50,70,100,0
