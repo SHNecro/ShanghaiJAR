@@ -887,16 +887,6 @@
   <ItemGroup>
     <Resource Include="Resources\Splash.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="OpenAL32.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="wrap_oal.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
