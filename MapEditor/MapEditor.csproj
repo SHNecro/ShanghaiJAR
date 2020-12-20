@@ -887,6 +887,10 @@
   <ItemGroup>
     <Resource Include="Resources\Splash.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Costura32\OpenAL32.dll" />
+    <EmbeddedResource Include="Costura32\wrap_oal.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
