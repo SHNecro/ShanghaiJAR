@@ -33,7 +33,9 @@ namespace KeyConfig.Controls
         private static DirectInput DirectInput = new DirectInput();
         private static HashSet<TKKey> TKKeysHeld;
         private static bool[] DXButtonsHeld = new bool[256];
-		private static HashSet<XInputGamePadButton> TKButtonsHeld;
+		private static Dictionary<XInputGamePadButton, bool> TKButtonsHeld;
+		private static bool?[] DXButtonInitialState;
+		private static Dictionary<XInputGamePadButton, bool?> TKButtonsInitialState;
         private static bool FieldSet = false;
 
         static EntryField()
@@ -42,7 +44,7 @@ namespace KeyConfig.Controls
 			TKButtons = Enum.GetValues(typeof(XInputGamePadButton)).Cast<XInputGamePadButton>().ToList();
 
 			TKKeysHeld = new HashSet<TKKey>();
-			TKButtonsHeld = new HashSet<XInputGamePadButton>();
+			TKButtonsHeld = new Dictionary<XInputGamePadButton, bool>();
 
             var inputPoll = new Timer(50);
             inputPoll.Elapsed += (sender, args) =>
@@ -77,45 +79,82 @@ namespace KeyConfig.Controls
                 if (CreateController())
                 {
                     var buttons = CaptureControllerInput();
+					if (DXButtonInitialState == null)
+					{
+						DXButtonInitialState = buttons.Cast<bool?>().ToArray();
+					}
+
                     for (int i = 0; buttons != null && i < buttons.Length; i++)
                     {
-                        if (buttons[i])
-                        {
-                            if (!DXButtonsHeld[i])
-                            {
-                                OnButtonPress(i);
-                            }
-                            DXButtonsHeld[i] = true;
-							inputPressed = true;
+						if (buttons[i] != DXButtonInitialState[i])
+						{
+							DXButtonInitialState[i] = null;
 						}
-                        else
-                        {
-                            DXButtonsHeld[i] = false;
-                        }
+
+						if (DXButtonInitialState[i] == null)
+						{
+							if (buttons[i])
+							{
+								if (!DXButtonsHeld[i])
+								{
+									OnButtonPress(i);
+								}
+								DXButtonsHeld[i] = true;
+								inputPressed = true;
+							}
+							else
+							{
+								DXButtonsHeld[i] = false;
+							}
+						}
                     }
                 }
+
+				var isFirstRun = TKButtonsInitialState == null;
+				if (isFirstRun)
+				{
+					TKButtonsInitialState = new Dictionary<XInputGamePadButton, bool?>();
+				}
 
 				for (int i = 0; i <= 3; i++)
 				{
 					try
 					{
 						var gamePadState = GamePad.GetState(i);
+
 						if (gamePadState.IsConnected)
 						{
 							foreach (var button in TKButtons)
 							{
-								if (gamePadState.IsPressed(button))
+								var buttonIsPressed = gamePadState.IsPressed(button);
+
+								if (isFirstRun)
 								{
-									if (!TKButtonsHeld.Contains(button))
-									{
-										OnTKButtonPress(button);
-									}
-									TKButtonsHeld.Add(button);
-									inputPressed = true;
+									TKButtonsInitialState.TryGetValue(button, out var state);
+									TKButtonsInitialState[button] = (state ?? false) || buttonIsPressed;
+									continue;
 								}
-								else
+
+								if (TKButtonsInitialState[button] != buttonIsPressed)
 								{
-									TKButtonsHeld.Remove(button);
+									TKButtonsInitialState[button] = null;
+								}
+
+								if (TKButtonsInitialState[button] == null)
+								{
+									if (buttonIsPressed)
+									{
+										if (!TKButtonsHeld[button])
+										{
+											OnTKButtonPress(button);
+										}
+										TKButtonsHeld[button] = true;
+										inputPressed = true;
+									}
+									else
+									{
+										TKButtonsHeld[button] = false;
+									}
 								}
 							}
 						}
