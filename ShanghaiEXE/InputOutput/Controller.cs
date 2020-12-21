@@ -257,10 +257,6 @@ namespace NSShanghaiEXE.InputOutput
 				{
 					this.initialStuckButtons.Remove(i);
 				}
-				else
-				{
-					continue;
-				}
 
 				if (buttons.Contains(i))
 				{
