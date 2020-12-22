@@ -2315,7 +2315,7 @@ fade:30:48:255:196:0:True
 end
 
 ID:MCFParallelEnd
-position:139:32:0
+position:142:29:0
 page:1
 startterms:none
 type:1
@@ -2326,6 +2326,8 @@ graphic:-1:0,0,0,0,0
 hitrange:3:3:0:0
 hitform:square
 event:
+CameraDefault:0
+shakeStop:
 end
 
 ID:MeetingCutsceneFlashback
@@ -2403,6 +2405,7 @@ editFlag:822:True
 editFlag:862:True
 StatusHide:False
 stopSkip:
+EventLun:MCFParallelEnd:-1
 mapChange:heavenNet2:200:94:0:0
 end
 
@@ -2466,9 +2469,6 @@ wait:60:False
 EventLun:MCFParallelGhostTrap:-1
 wait:30:False
 EventLun:MCFParallelMima:-1
-wait:60:False
-EventLun:MCFParallelEnd:-1
-wait:300:False
 end
 
 ID:MCFDoor1
