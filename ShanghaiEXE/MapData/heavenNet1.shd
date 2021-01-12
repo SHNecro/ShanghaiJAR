@@ -2793,7 +2793,8 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:882:True
-ItemGet:3:8:0:Common.Title
+ItemGet:3:8:0:KeyItem.TroubleshooterIDName
+EditItem:29:True
 end
 
 ID:SpecialDoor6
@@ -2963,7 +2964,7 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:881:True
-ItemGet:3:8:0:Common.Title
+ItemGet:2:35:2:
 end
 page:2
 startterms:Abutton
@@ -3149,7 +3150,8 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:880:True
-ItemGet:3:8:0:Common.Title
+ItemGet:3:8:0:KeyItem.CrimDexName
+EditItem:28:True
 end
 
 ID:SpecialDoor4
@@ -3669,7 +3671,8 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:877:True
-ItemGet:3:8:0:Common.Title
+ItemGet:3:8:0:KeyItem.ServingDishName
+EditItem:33:True
 end
 
 ID:SpecialDoor1

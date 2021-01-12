@@ -102,4 +102,17 @@
   <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="[An important-looking key.,Probably opens an,important-looking door.]" Face="None" Mono="False" />
   <Text Key="KeyItem.DarkKeyName" Value="[Dark Key]" />
   <Dialogue Key="KeyItem.DarkKeyDescDialogue1" Value="[A key that pulses with an,ominous light.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.CrimDexName" Value="[CrimDex]" />
+  <Dialogue Key="KeyItem.CrimDexDescDialogue1" Value="[A discontinued battlechip,library extension which tracks,illegal or mutated chip data.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.TroubleshooterIDName" Value="[Troubleshooter ID]" />
+  <Dialogue Key="KeyItem.TroubleshooterIDDescDialogue1" Value="[A badge which marks its wearer,as someone who can be relied,upon to get things done.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.RoukankenName" Value="[Sword Data]" />
+  <Dialogue Key="KeyItem.RoukankenDescDialogue1" Value="[Data in the shape of a blade，,detailing the history and abilities,of a long-bladed sword.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.MirrorShardName" Value="[Mirror Shard]" />
+  <Dialogue Key="KeyItem.MirrorShardDescDialogue1" Value="[A sharp，jagged shard of a,shattered mirror.]" Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.MirrorShardDescDialogue2" Value="[At certain angles it seems to,reflect light from a nonexistant,source.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.FreezeCoreName" Value="[FrzCore]" />
+  <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" Value="[A collection of FrzFrag，tightly,cemented into a solid mass.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.ServingDishName" Value="[Serving Dish]" />
+  <Dialogue Key="KeyItem.ServingDishDescDialogue1" Value="[A well-used but otherwise,ordinary digital serving dish.]" Face="None" Mono="False" />
 </data>

@@ -3247,7 +3247,8 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:884:True
-ItemGet:3:8:0:Common.Title
+ItemGet:3:8:0:KeyItem.RoukankenName
+EditItem:30:True
 end
 
 ID:SpecialDoor9AllyV3Check
@@ -3395,7 +3396,8 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:885:True
-ItemGet:3:8:0:Common.Title
+ItemGet:3:8:0:KeyItem.MirrorShardName
+EditItem:31:True
 end
 
 ID:SpecialDoor10EnemyV3Check
@@ -3525,7 +3527,8 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:886:True
-ItemGet:3:8:0:Common.Title
+ItemGet:3:8:0:KeyItem.FreezeCoreName
+EditItem:32:True
 end
 
 ID:SpecialDoor11LottoCodeCheck

@@ -86,4 +86,23 @@
   <KeyItem Index="27" Name="KeyItem.DarkKeyName">
     <Dialogue Key="KeyItem.DarkKeyDescDialogue1" />
   </KeyItem>
+  <KeyItem Index="28" Name="KeyItem.CrimDexName">
+    <Dialogue Key="KeyItem.CrimDexDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="29" Name="KeyItem.TroubleshooterIDName">
+    <Dialogue Key="KeyItem.TroubleshooterIDDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="30" Name="KeyItem.RoukankenName">
+    <Dialogue Key="KeyItem.RoukankenDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="31" Name="KeyItem.MirrorShardName">
+    <Dialogue Key="KeyItem.MirrorShardDescDialogue1" />
+    <Dialogue Key="KeyItem.MirrorShardDescDialogue2" />
+  </KeyItem>
+  <KeyItem Index="32" Name="KeyItem.FreezeCoreName">
+    <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" />
+  </KeyItem>
+  <KeyItem Index="33" Name="KeyItem.ServingDishName">
+    <Dialogue Key="KeyItem.ServingDishDescDialogue1" />
+  </KeyItem>
 </data>
