@@ -206,4 +206,10 @@
   <Text Key="AddOn.CRepairDesc" Value="Charge Shot,becomes,Recov!" />
   <Text Key="AddOn.CShotGunName" Value="CShotGun" />
   <Text Key="AddOn.CShotGunDesc" Value="Charge Shot,becomes,ShotGun!" />
+  <Text Key="AddOn.ScavengerName" Value="Salvage" />
+  <Text Key="AddOn.ScavengerDesc" Value="Allow choice,of lower-rank,rewards!" />
+  <Text Key="AddOn.SacrificeName" Value="Frndship" />
+  <Text Key="AddOn.SacrificeDesc" Value="Take a hit,for allies!" />
+  <Text Key="AddOn.MammonName" Value="Mammon" />
+  <Text Key="AddOn.MammonDesc" Value="Chips and buster,cost Zenny to,fire!" />
 </data>

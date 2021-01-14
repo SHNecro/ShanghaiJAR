@@ -1081,7 +1081,19 @@ namespace NSBattle
             this.Random.Next();
             this.Random.Next();
             this.Random.Next();
-            this.element = !this.savedata.addonSkill[7] ? (!this.savedata.addonSkill[8] ? (!this.savedata.addonSkill[9] ? (!this.savedata.addonSkill[10] ? (!this.savedata.addonSkill[11] ? (!this.savedata.addonSkill[12] ? (ChipBase.ELEMENT)(this.Random.Next(600) / 100 + 1) : ChipBase.ELEMENT.earth) : ChipBase.ELEMENT.poison) : ChipBase.ELEMENT.eleki) : ChipBase.ELEMENT.leaf) : ChipBase.ELEMENT.aqua) : ChipBase.ELEMENT.heat;
+            this.element = !this.savedata.addonSkill[7] ?
+                (!this.savedata.addonSkill[8] ?
+                    (!this.savedata.addonSkill[9] ?
+                        (!this.savedata.addonSkill[10] ?
+                            (!this.savedata.addonSkill[11] ?
+                                (!this.savedata.addonSkill[12] ?
+                                    (ChipBase.ELEMENT)(this.Random.Next(600) / 100 + 1)
+                                    : ChipBase.ELEMENT.earth)
+                                : ChipBase.ELEMENT.poison)
+                            : ChipBase.ELEMENT.eleki)
+                        : ChipBase.ELEMENT.leaf)
+                    : ChipBase.ELEMENT.aqua)
+                : ChipBase.ELEMENT.heat;
             string message = "";
             switch (this.style)
             {

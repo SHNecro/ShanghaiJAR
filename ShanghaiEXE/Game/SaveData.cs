@@ -1818,78 +1818,156 @@ namespace NSGame
 
         public enum ADDONSKILL
         {
+            // BltzBstr
             アサルトバスター,
+            // RichRich
             確実ゼニー取得,
+            // DataFind
             確実チップ取得,
+            // (UNUSED? "Suppresses the appearance of weak enemies", Firewall?)
             弱い敵の出現抑制,
+            // (UNUSED? "Charge Shot Invincibility", SprArmr?)
             チャージショット無敵,
+            // (UNUSED? "Damage invincibility is doubled", Early DmgGhost?)
             ダメージ無敵時間２倍,
+            // FullOpen
             最初のターンだけフルオープン,
+            // HeatPeac
             炎属性エンカウント,
+            // AquaPeac
             水属性エンカウント,
+            // LeafPeac
             草属性エンカウント,
+            // ElecPeac
             雷属性エンカウント,
+            // PoisPeac
             毒属性エンカウント,
+            // ErthPeac
             土属性エンカウント,
+            // CAuraSrd
             Ｃオーラソード,
+            // CDustBom
             Ｃダストボム,
+            // CVulcan
             Ｃバルカン,
+            // CFalKnif
             Ｃフォールナイフ,
+            // CBlstCan
             Ｃブラストカノン,
+            // CLance
             Ｃランス,
+            // CShotGun
             Ｃショットガン,
+            // CRecov
             Ｃリペア,
+            // RStrShld
             Ｒボタンシールド,
+            // RHoleFix
             Ｒボタン穴塞ぎ,
+            // RPnkCrak
             Ｒボタン穴あけ,
+            // LCube
             Ｌボタンキューブ,
+            // LHeadWnd
             Ｌボタン向かい風,
+            // LTailWnd
             Ｌボタン追い風,
+            // LLockOn
             Ｌボタンロックオン,
+            // Giv&Take
             ユズリアイ,
+            // ReStyle
             スタイル再利用,
+            // SpdRunner
             倍速移動,
+            // ChipCure
             チップ使用回復,
+            // (UNUSED? "Prevent push out", Head/Tailwind immunity?)
             押し出し防止,
+            // (UNUSED? "Crack floor disabled", FlotShoe?)
             ヒビ床無効,
+            // (UNUSED? "No folder shuffling", early UnShuffle?)
             フォルダシャッフル無し,
+            // (UNUSED? "Zero version of Shinobi style", unknown)
             ゼロ版シノビスタイル,
+            // Ammo
             薬莢,
+            // BigAmmo
             薬莢大,
+            // BlueBstr
             青バスター,
+            // RunSoul
             逃走率１００パー,
+            // MeltSelf
             常時メルト,
+            // Slippery
             常時スリップ,
+            // LostLght
             常時ブラインド,
+            // HvyFoot
             常時ヘビィ,
+            // AcidBody
             常時ポイズン,
+            // CustPain
             カスタム毎にダメージ,
+            // AreaHold
             フカシンエリア,
+            // MyGarden
             自エリア整理,
+            // SBarrier
             開始時バリア,
+            // DmgGhost
             無敵時間増加,
+            // HoldChrg
             チャージストック,
+            // AngrMind
             不安が怒りに変化,
+            // CrimNois
             イリーガルゲット,
+            // ChipChrg
             チャージで威力１０アップ,
+            // JunkBstr
             バスター空打ち,
+            // DarkMind
             常にダーク状態,
+            // StunDmg
             ダメージでマヒ,
+            // HideLife
             敵HP視認不可,
+            // LostArea
             ハイスイノジン,
+            // (UNUSED? "Sense of Humor", early Humor?)
             ユーモアセンス,
+            // (UNUSED? "Aelin Call", early EirnCall?)
             エーリンコール,
+            // (UNUSED? "Line Change 1", unknown)
             セリフ変更１,
+            // (UNUSED? "Line Change 2", unknown)
             セリフ変更２,
+            // Statue
             フドウミョウオウ,
+            // NoGuard
             ノーガード,
+            // ChipPain
             ユーズドペイン,
+            // SlowStrt
             スロウスタート,
+            // HrdObjct
             ハードオブジェ,
+            // AutoADD
             オートＡＤＤ,
+            // AutoChrg
             オートチャージ,
+            // UnderSht
             キシカイセイ,
+            // Unshuffle
             アンシャッフル,
+            // Scavenger
+            Scavenger,
+            // Sacrifice
+            Sacrifice,
+            // Mammon
+            Mammon,
         }
     }
 }

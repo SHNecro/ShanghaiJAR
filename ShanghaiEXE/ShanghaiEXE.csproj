@@ -352,6 +352,9 @@
     <None Include="Sounds\Music\whiteheavenarea.ogg" />
     <None Include="UPnPControlPoint.cs" />
     <None Include="SampleGame\SlimDX.cs" />
+    <Compile Include="AddOn\Mammon.cs" />
+    <Compile Include="AddOn\Sacrifice.cs" />
+    <Compile Include="AddOn\Scavenger.cs" />
     <Compile Include="Attack\Butterfly.cs" />
     <Compile Include="Attack\ButterflyHoc.cs" />
     <Compile Include="Chip\DarkFlae.cs" />
@@ -1988,7 +1991,9 @@
     <Content Include="Language\en-US\Battle.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Language\en-US\AddOn.xml" />
+    <Content Include="Language\en-US\AddOn.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\en-US\Enemy.xml">
       <SubType>Designer</SubType>
     </Content>

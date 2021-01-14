@@ -106,7 +106,10 @@ namespace NSAddOn
                 [91] = new CLance((AddOnBase.ProgramColor)color),
                 [92] = new CRepair((AddOnBase.ProgramColor)color),
                 [93] = new CShotGun((AddOnBase.ProgramColor)color),
-                [94] = new FudouMyoou((AddOnBase.ProgramColor)color)
+                [94] = new FudouMyoou((AddOnBase.ProgramColor)color),
+                [95] = new Scavenger((AddOnBase.ProgramColor)color),
+                [96] = new Sacrifice((AddOnBase.ProgramColor)color),
+                [97] = new Mammon((AddOnBase.ProgramColor)color),
             };
             return dictionary.ContainsKey(number) ? dictionary[number] : null;
         }
