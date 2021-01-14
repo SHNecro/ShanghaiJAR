@@ -21,9 +21,10 @@ namespace NSShanghaiEXE.InputOutput
         private Joystick stick;
         private readonly ShanghaiEXE form;
 
-		private HashSet<int> initialStuckButtons;
+		private HashSet<int> initialStuckDXButtons;
+        private Dictionary<int, Dictionary<XInputGamePadButton, bool?>> initialStuckTKButtons;
 
-		private HashSet<int> push;
+        private HashSet<int> push;
 		private HashSet<int> press;
 		private HashSet<int> up;
 
@@ -42,6 +43,8 @@ namespace NSShanghaiEXE.InputOutput
 			this.push = new HashSet<int>();
 			this.press = new HashSet<int>();
 			this.up = new HashSet<int>();
+
+            this.initialStuckTKButtons = new Dictionary<int, Dictionary<XInputGamePadButton, bool?>>();
 
 			for (int index = 0; index < 30; ++index)
                 Input.inputRecord.Add(new bool[Enum.GetNames(typeof(Button)).Length]);
@@ -189,14 +192,14 @@ namespace NSShanghaiEXE.InputOutput
 			try
 			{
 				if (this.stick.Acquire().IsSuccess)
-				{
-					var currentState = this.stick.GetCurrentState();
+                {
+                    var currentState = this.stick.GetCurrentState();
 					var buttonState = currentState.GetButtons();
 					for (int i = 0; i < buttonState.Length; i++)
 					{
 						if (buttonState[i])
-						{
-							buttons.Add(i);
+                        {
+                            buttons.Add(i);
 						}
 						if (currentState.X > 500)
 						{
@@ -214,28 +217,75 @@ namespace NSShanghaiEXE.InputOutput
 						{
 							buttons.Add(100);
 						}
-					}
-				}
+                    }
+
+                    if (this.initialStuckDXButtons == null)
+                    {
+                        this.initialStuckDXButtons = buttons;
+                    }
+                    else
+                    {
+                        foreach (var button in this.initialStuckDXButtons)
+                        {
+                            if (!buttons.Contains(button))
+                            {
+                                this.initialStuckDXButtons.Remove(button);
+                            }
+
+                            buttons.Remove(button);
+                        }
+                    }
+                }
             }
             catch { }
 			
 			for (int i = 0; i <= 3; i++)
-			{
-				try
+            {
+                var isFirstRun = initialStuckTKButtons.Count <= i || initialStuckTKButtons[i] == null;
+                if (isFirstRun)
+                {
+                    initialStuckTKButtons[i] = new Dictionary<XInputGamePadButton, bool?>();
+                }
+
+                var initialState = initialStuckTKButtons[i];
+
+                try
 				{
 					var gamePadState = GamePad.GetState(i);
 					if (gamePadState.IsConnected)
 					{
 						foreach (var button in TKButtons)
-						{
-							if (gamePadState.IsPressed(button))
-							{
-								buttons.Add(button.ToSHButtonCode());
-							}
+                        {
+                            var buttonIsPressed = gamePadState.IsPressed(button);
+
+                            if (isFirstRun)
+                            {
+                                initialState.TryGetValue(button, out var state);
+                                initialState[button] = (state ?? false) || buttonIsPressed;
+                                continue;
+                            }
+
+
+                            if (initialState[button] != null
+                                && initialState[button] != buttonIsPressed)
+                            {
+                                initialState[button] = null;
+                            }
+
+                            if (initialState[button] == null)
+                            {
+                                if (buttonIsPressed)
+                                {
+                                    buttons.Add(button.ToSHButtonCode());
+                                }
+                            }
 						}
 					}
 				}
-				catch { }
+				catch
+                {
+                    this.initialStuckTKButtons[i] = null;
+                }
 			}
 
 			if (buttons.Any())
@@ -243,20 +293,10 @@ namespace NSShanghaiEXE.InputOutput
 				MinimumButtonCode = Math.Min(MinimumButtonCode, buttons.Min());
 				MaximumButtonCode = Math.Max(MaximumButtonCode, buttons.Max());
 			}
-			
-			if (this.initialStuckButtons == null)
-			{
-				this.initialStuckButtons = buttons;
-			}
 
-			for(var i = MinimumButtonCode; i <= MaximumButtonCode; i++)
+            for (var i = MinimumButtonCode; i <= MaximumButtonCode; i++)
 			{
 				var buttonPressed = buttons.Contains(i);
-
-				if (this.initialStuckButtons.Contains(i) && !buttonPressed)
-				{
-					this.initialStuckButtons.Remove(i);
-				}
 
 				if (buttons.Contains(i))
 				{

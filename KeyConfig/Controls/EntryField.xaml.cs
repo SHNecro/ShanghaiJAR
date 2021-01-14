@@ -35,7 +35,7 @@ namespace KeyConfig.Controls
         private static bool[] DXButtonsHeld = new bool[256];
 		private static Dictionary<XInputGamePadButton, bool> TKButtonsHeld;
 		private static bool?[] DXButtonInitialState;
-		private static Dictionary<XInputGamePadButton, bool?> TKButtonsInitialState;
+		private static Dictionary<int, Dictionary<XInputGamePadButton, bool?>> TKButtonsInitialState;
         private static bool FieldSet = false;
 
         static EntryField()
@@ -44,7 +44,9 @@ namespace KeyConfig.Controls
 			TKButtons = Enum.GetValues(typeof(XInputGamePadButton)).Cast<XInputGamePadButton>().ToList();
 
 			TKKeysHeld = new HashSet<TKKey>();
-			TKButtonsHeld = new Dictionary<XInputGamePadButton, bool>();
+            TKButtonsHeld = TKButtons.ToDictionary(b => b, b => false);
+
+            TKButtonsInitialState = new Dictionary<int, Dictionary<XInputGamePadButton, bool?>>();
 
             var inputPoll = new Timer(50);
             inputPoll.Elapsed += (sender, args) =>
@@ -110,15 +112,17 @@ namespace KeyConfig.Controls
                     }
                 }
 
-				var isFirstRun = TKButtonsInitialState == null;
-				if (isFirstRun)
-				{
-					TKButtonsInitialState = new Dictionary<XInputGamePadButton, bool?>();
-				}
-
 				for (int i = 0; i <= 3; i++)
-				{
-					try
+                {
+                    var isFirstRun = TKButtonsInitialState.Count <= i || TKButtonsInitialState[i] == null;
+                    if (isFirstRun)
+                    {
+                        TKButtonsInitialState[i] = new Dictionary<XInputGamePadButton, bool?>();
+                    }
+
+                    var initialState = TKButtonsInitialState[i];
+
+                    try
 					{
 						var gamePadState = GamePad.GetState(i);
 
@@ -130,17 +134,18 @@ namespace KeyConfig.Controls
 
 								if (isFirstRun)
 								{
-									TKButtonsInitialState.TryGetValue(button, out var state);
-									TKButtonsInitialState[button] = (state ?? false) || buttonIsPressed;
+                                    initialState.TryGetValue(button, out var state);
+                                    initialState[button] = (state ?? false) || buttonIsPressed;
 									continue;
 								}
 
-								if (TKButtonsInitialState[button] != buttonIsPressed)
+								if (initialState[button] != null
+                                    && initialState[button] != buttonIsPressed)
 								{
-									TKButtonsInitialState[button] = null;
+                                    initialState[button] = null;
 								}
 
-								if (TKButtonsInitialState[button] == null)
+								if (initialState[button] == null)
 								{
 									if (buttonIsPressed)
 									{
@@ -159,15 +164,20 @@ namespace KeyConfig.Controls
 							}
 						}
 					}
-					catch { }
+					catch
+                    {
+                        TKButtonsInitialState[i] = null;
+                    }
 				}
 
 				if (!inputPressed && FieldSet)
 				{
 					InputComplete();
 				}
+
+                inputPoll.Start();
             };
-            inputPoll.AutoReset = true;
+            inputPoll.AutoReset = false;
             inputPoll.Start();
 
             Application.Current.Exit += (sender, args) =>
