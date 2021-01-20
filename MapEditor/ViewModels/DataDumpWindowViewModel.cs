@@ -41,6 +41,7 @@ namespace MapEditor.ViewModels
         public ICommand LoadAllMapsCommand => new RelayCommand(this.LoadAllMaps);
         public ICommand DumpCommand => new RelayCommand(this.Dump);
         public ICommand DumpStringsCommand => new RelayCommand(this.DumpStrings);
+        public ICommand DumpDataCommand => new RelayCommand(this.DumpData);
         public ICommand DumpMapsCommand => new RelayCommand(this.DumpMaps);
 
         private void LoadAllMaps()
@@ -123,7 +124,33 @@ namespace MapEditor.ViewModels
                 var source = "language";
                 var target = Path.GetFullPath(folderBrowserDialog.FileName);
 
-                if (source == target)
+                if (Path.GetFullPath(source) == target)
+                {
+                    return;
+                }
+
+                this.CopyFolder(source, target);
+            }
+        }
+
+        private void DumpData()
+        {
+            var folderBrowserDialog = new CommonOpenFileDialog
+            {
+                RestoreDirectory = false,
+                InitialDirectory = Directory.GetCurrentDirectory(),
+                IsFolderPicker = true,
+                EnsureFileExists = true,
+                Title = "Copy all data files"
+            };
+
+            var folderBrowserDialogSuccess = folderBrowserDialog.ShowDialog();
+            if (folderBrowserDialogSuccess == CommonFileDialogResult.Ok)
+            {
+                var source = "data/data";
+                var target = Path.GetFullPath(folderBrowserDialog.FileName);
+
+                if (Path.GetFullPath(source) == target)
                 {
                     return;
                 }
