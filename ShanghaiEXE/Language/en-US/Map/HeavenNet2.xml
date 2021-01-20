@@ -91,8 +91,8 @@
   <Dialogue Key="Map.HeavenNet2TableDescription1" Value="It seems to be a traditional,sitting table，but raised to,standing height." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2TableDescription2" Value="For NetNavis，cyber-cuisine is,a luxury，so a personal dining,area like this is a rare sight." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2DoorBlockedDialogue1" Value="I think they’d notice if I tried to,barge into their private room." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue1" Value="Two swords are displayed ,on the shelf，between closets,of assorted linens." Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue2" Value="As the real blades are weapon,data，these are only exquisitely,detailed decorations." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue1" Value="Two swords are displayed ,on the shelf，between closets,of assorted supplies." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue2" Value="While most swords used in,battle are battlechips，it seems,these have seen real use." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1" Value="Knock. Knock." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue2" Value="Oh，it’s you!,Come in，we were just about,to get started!" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue3" Value="Isn’t Youmu amazing?,Sit，sit! I can’t wait to dig in!" Face="YuyukoCasual" Mono="False" />
@@ -120,7 +120,7 @@
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25" Value="#b@false#...Lady Yuyuko had to banish,the soul while we contained,the damage.#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue26" Value="#b@false#But while we were occupied，a,being of great evil broke in and,spirited away the sealed soul.#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue27" Value="#b@false#Who knows what she could do,with that soul’s power....#w@75##e@#" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue28" Value="She could be a huge pain in,my neck，that’s what she could,do." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue28" Value="Besides be a huge pain in my,neck，you mean?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue29" Value="Just making sure though，,Little Miss Big Bad Evil is the,Queen of Darkness，right?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19a" Value="#b@false#Ahem.#w@25#,Excuse me.#w@25##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue30" Value="The Queen of Darkness....?,Oh，she would just love that!" Face="YuyukoCasual" Mono="False" />
@@ -151,4 +151,28 @@
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue24a" Value="#b@false#Faced with spreading chaos,and unchecked corruption，,in order to protect the server....#w@120##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25a" Value="#b@false#However，Lady Yuyuko’s full,power was occupied restraining,the soul and its corruption.#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25b" Value="#b@false#Without the ability to seal the,invaders，we instead lured and,trapped them within our vaults.#w@150##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue1" Value="Is that....?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue2" Value="Roukanken!,I thought you were lost to the,invaders forever!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue3" Value="Are those stains?! Ugh!,Oh，I’ll take care of you as,soon as I can!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue4" Value="....Ah!,Thank you for recovering my,sword and returning it to me." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue5" Value="In return，I would be willing to,share some techniques，if you,have the patience to learn." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue6" Value="I will be waiting in the side,room，seeing to my blade." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeIntroDialogue1" Value="Finally， returned to your rightful,place...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue2" Value="Are you here to test yourself,against my blades?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue3Question" Value="Challenge Youmu to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet2YoumuChallengeDialogue3Options" Value="Yes,No" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue4Accept" Value="With the true Roukanken back,in my hands，there is nothing,that can’t be cut!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue4Decline" Value="Perhaps you will be ready,some other time." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV2Dialogue1" Value="I suppose there’s nothing more,I can teach you." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV2Dialogue2" Value="....Here，take this." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV2Dialogue3" Value="While battle data will never,compare to the real thing，I feel,that you could use it properly." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV2Dialogue1" Value="There are few that can stand,against Roukanken and,Hakurouken." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue1" Value="Would you mind a friendly spar?,I feel there is much we could,learn from eachother." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue2Question" Value="Challenge Youmu to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet2YoumuChallengeV3Dialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV3Dialogue1" Value="Thank you for the match.,There is much I can do to,improve，it seems." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV2Dialogue2" Value="A fine attempt，however.,Return again when you feel,that you are ready." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV3Dialogue1" Value="A good fight.,Perhaps next time." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Accept" Value="I will not be defeated this time!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Decline" Value="Very well." Face="Youmu" Mono="False" />
 </data>

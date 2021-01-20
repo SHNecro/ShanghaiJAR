@@ -2261,7 +2261,7 @@ hitform:square
 event:
 fade:30:48:48:48:0:True
 fade:30:255:0:0:0:True
-camera:570:100:0:True
+camera:670:200:0:True
 emove:SpecialGhost5:warpright,60
 wait:15:False
 fade:30:48:48:48:0:True
@@ -2297,7 +2297,7 @@ effect:74:KikuriNoise3:500:630:0:0:20:16:2:none
 wait:15:False
 fade:30:48:48:48:0:True
 fade:30:96:128:98:0:False
-camera:0:50:60:False
+camera:0:70:120:False
 effectDelete:LooseSouls2
 effectDelete:LooseSouls3
 effectDelete:KikuriNoise3
@@ -2649,7 +2649,7 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:883:True
-ItemGet:3:8:0:Common.Title
+ItemGet:2:97:7:
 end
 
 ID:SpecialDoor7
@@ -3296,7 +3296,7 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:879:True
-ItemGet:3:8:0:Common.Title
+ItemGet:2:96:1:
 end
 
 ID:SpecialDoor3
@@ -3444,7 +3444,7 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:878:True
-ItemGet:3:8:0:Common.Title
+ItemGet:2:95:6:
 end
 
 ID:SpecialDoor2
