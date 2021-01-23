@@ -440,6 +440,7 @@
   <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="Cleared emergency music,from Hospital event." Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550HumorEirinCallFormat" Value="Removed AddOn cost and,color: {0}." Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="Refunded duplicate AddOn(s):,{0}." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefund2" Value="Single copies may have been,removed if the “real” location,has yet not been found." Face="Sprite" Mono="False" />
   <Text Key="Bounty.Area39" Value="ROM Base Gate Comp" />
   <Text Key="Bounty.Area40" Value="ROM Comp 4" />
   <Text Key="Bounty.Area41" Value="ROM Screen Comp" />

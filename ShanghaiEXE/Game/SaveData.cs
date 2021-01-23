@@ -767,6 +767,7 @@ namespace NSGame
                         return $"{accum}，{linebreak}{next}";
                     });
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefundFormat").Format(refundedAddonsString));
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRefund2"));
                     this.AddOnRUN();
                 }
 
