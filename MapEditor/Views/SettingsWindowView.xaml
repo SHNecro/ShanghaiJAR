@@ -48,6 +48,9 @@
                                                    FilePath="{Binding MapDataFolder, Mode=TwoWay}"
                                                    IsFolderPicker="True" />
                         </Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <CheckBox Content="Load worldstate from savegame" IsChecked="{Binding UseSavegameFlags}" />
+                        </StackPanel>
 
                         <GroupBox Padding="4">
                             <GroupBox.Header>
