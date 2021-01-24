@@ -26,7 +26,6 @@ namespace MapEditor.ViewModels
         private static string loadedMapPath;
         private static Map lastloadedMap;
         private static Map currentMap;
-
         private static string positionStatus;
         private static string progressStatus;
         private static double progress;

@@ -30,15 +30,11 @@ namespace MapEditor.Core
         [OptionalField(VersionAdded = 2)]
         public bool soundIsPackedResource = true;
 
-        [OptionalField(VersionAdded = 3)]
-        public bool useSavegameFlags = true;
-
         public string SoundFormat { get => this.soundFormat; set => this.soundFormat = value; }
         public string SoundResourceFile { get => this.soundResourceFile; set => this.soundResourceFile = value; }
         public string SoundResourceFilePassword { get => this.soundResourceFilePassword; set => this.soundResourceFilePassword = value; }
         public string SoundResourceFileFormat { get => this.soundResourceFileFormat; set => this.soundResourceFileFormat = value; }
         public bool SoundIsPackedResource { get => this.soundIsPackedResource; set => this.soundIsPackedResource = value; }
-        public bool UseSavegameFlags { get => this.useSavegameFlags; set => this.useSavegameFlags = value; }
 
         public int EnemyCount { get; set; } = 85;
         public int ChipCount { get; set; } = 431;

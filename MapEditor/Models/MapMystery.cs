@@ -10,8 +10,6 @@ namespace MapEditor.Models
         private RandomMystery baseMystery;
         private int flag;
 
-        private bool isHidden;
-
         public int Type
         {
             get
@@ -26,23 +24,15 @@ namespace MapEditor.Models
                 this.Pages = newMystery.Pages;
             }
         }
-
         public RandomMystery BaseMystery
         {
             get { return this.baseMystery; }
             set { this.SetValue(ref this.baseMystery, value); }
         }
-
         public int Flag
         {
             get { return this.flag; }
             set { this.SetValue(ref this.flag, value); }
-        }
-
-        public bool IsHidden
-        {
-            get { return this.isHidden; }
-            set { this.SetValue(ref this.isHidden, value); }
         }
 
         protected override string GetStringValue()

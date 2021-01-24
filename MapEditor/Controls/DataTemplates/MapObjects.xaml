@@ -29,7 +29,6 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
                     <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Column="0" Text="Flag:"/>
                 <controls:WheelCaptureIntegerUpDown Grid.Column="1" Minimum="0" DefaultValue="599" Height="22">
@@ -41,7 +40,6 @@
                         </Binding>
                     </controls:WheelCaptureIntegerUpDown.Text>
                 </controls:WheelCaptureIntegerUpDown>
-                <CheckBox Grid.Column="2" Content="Hidden" IsChecked="{Binding IsHidden}" VerticalAlignment="Center" />
             </Grid>
             <TextBlock Text="Mystery Data:" FontWeight="Bold" />
             <Grid>
