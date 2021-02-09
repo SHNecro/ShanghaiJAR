@@ -352,7 +352,7 @@ position:191:223:0
 page:1
 startterms:Abutton
 type:1
-terms:flag/551,!flag/609
+terms:flag/551
 move:
 speed:0
 graphic:12:3,0,7,0,0
@@ -404,7 +404,7 @@ end
 page:2
 startterms:Abutton
 type:1
-terms:flag/548,!flag/609
+terms:flag/548
 move:
 speed:0
 graphic:12:3,0,7,0,0
@@ -414,6 +414,17 @@ event:
 msgopen:
 msg:Map.UraNet27BookerStage3Dialogue1FaceHenchie
 msgclose:
+end
+page:3
+startterms:Abutton
+type:1
+terms:flag/609
+move:
+speed:0
+graphic:-2:0,0,0,0,0
+hitrange:0:0:33:33
+hitform:square
+event:
 end
 
 ID:PostgameThugNavi

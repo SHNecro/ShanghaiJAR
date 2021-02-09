@@ -303,6 +303,10 @@ graphic:-1:0,0,0,0,6
 hitrange:4:4:0:0
 hitform:square
 event:
+msgopen:
+msg:Retcon.0550HeavenWIP
+editFlag:900:True
+msgclose:
 canSkip:
 emoveEnd:
 emove:プレイヤー:wait,60:wayup,0:wait,60:waydown,0:wait,60
@@ -2261,7 +2265,7 @@ hitform:square
 event:
 fade:30:48:48:48:0:True
 fade:30:255:0:0:0:True
-camera:670:200:0:True
+camera:580:100:0:True
 emove:SpecialGhost5:warpright,60
 wait:15:False
 fade:30:48:48:48:0:True
@@ -2343,7 +2347,6 @@ hitrange:3:3:0:0
 hitform:square
 event:
 StatusHide:True
-editFlag:822:False
 editFlag:862:False
 camera:950:150:0:True
 canSkip:
@@ -2401,7 +2404,6 @@ CameraDefault:0
 camera:-16:-8:0:False
 wait:60:False
 editFlag:871:True
-editFlag:822:True
 editFlag:862:True
 StatusHide:False
 stopSkip:

@@ -40,7 +40,7 @@ namespace MapEditor.Core
         public int ChipCount { get; set; } = 431;
         public int AddOnCount { get; set; } = 98;
         public int InteriorCount { get; set; } = 51;
-        public int BackgroundCount { get; set; } = 39;
+        public int BackgroundCount { get; set; } = 40;
 
         public void ToXML(string filename)
         {

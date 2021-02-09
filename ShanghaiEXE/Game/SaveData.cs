@@ -872,6 +872,13 @@ namespace NSGame
                 this.ValList[199] = 2;
             }
 
+            // TODO: Remove event from entrance cutscene
+            if (this.FlagList[793] && !this.FlagList[900])
+            {
+                retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenWIP2"));
+                this.FlagList[900] = true;
+            }
+
             return retconMessages;
         }
 

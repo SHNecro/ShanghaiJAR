@@ -57,7 +57,7 @@
   <Text Key="Credits.Category16Role1" Value="・Translation Documents" />
   <Text Key="Credits.Category16Credit1" Value="Anonymous" />
   <Text Key="Credits.Category17Role1" Value="・Feedback&amp;Support" />
-  <Text Key="Credits.Category17Credit1" Value="/jp/" />
+  <Text Key="Credits.Category17Credit1" Value="/jp/ and all other" />
   <Text Key="Credits.Team4" Value="「Special Thanks」" />
   <Text Key="Credits.Category18Role1" Value="・Touhou Project" />
   <Text Key="Credits.Category18Credit1" Value="ZUN，Team Shanghai Alice" />
@@ -71,4 +71,5 @@
   <Dialogue Key="Credits.TeaserStage2Dialogue1" Value="Your clear data will be saved." Face="None" Mono="False" />
   <Dialogue Key="Credits.TeaserStage2Dialogue2" Value="#u@#Saving...." Face="None" Mono="False" />
   <Dialogue Key="Credits.TeaserStage2Dialogue3" Value="Save Complete!" Face="None" Mono="False" />
+  <Text Key="Credits.Category17Credit2" Value="contributors" />
 </data>

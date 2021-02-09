@@ -64,6 +64,7 @@ event:
 bgmLoad:
 credit:Credits.Category17Role1:16:0:False:False:60:300:60
 credit:Credits.Category17Credit1:32:16:False:False:60:300:60
+credit:Credits.Category17Credit2:32:32:False:False:60:300:60
 CameraDefault:0
 camera:650:225:0:True
 emove:CreditsAutoplayCategory17-Alice:wait,32:jump,32:wait,72:jump,32:wait,96:wayright,0:wait,30:right,12:wait,12:wayleft,12:jump,12:wait,12:right,48

@@ -998,7 +998,10 @@ hitform:square
 event:
 Interior:
 bgmon:internet
-ifValue:13:False:3:0:0
+ifValue:13:False:22:0:0
+effect:41:WaterStart:0:0:1:0:-1:0:1:none
+ifEnd:0
+ifValue:13:False:39:0:0
 effect:41:WaterStart:0:0:1:0:-1:0:1:none
 ifEnd:0
 eventDeath:

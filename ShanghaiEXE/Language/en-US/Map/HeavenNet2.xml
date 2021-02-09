@@ -175,4 +175,13 @@
   <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV3Dialogue1" Value="A good fight.,Perhaps next time." Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Accept" Value="I will not be defeated this time!" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Decline" Value="Very well." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoAfterMeetingNoBattleDialogue1" Value="Oh，you’re back!,Here，have some tea!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoAfterMeetingNoBattleDialogue2" Value="On better days， the view from,up here is simply beautiful...." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingNoBattleDialogue1" Value="My highest duty is to serve,and protect Mistress Yuyuko." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingNoBattleDialogue2" Value="Even still，it pains me to allow,our home to remain in such a,sorry state...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue1" Value="-- line not used --" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue2" Value="Isn’t it beautiful?,Just the way it should be!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue3" Value="And right on time，too!,Look!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue4" Value="Ah，it’s been too long...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue5" Value="You have my deepest thanks，,Shanghai.,And Alice too，of course." Face="YuyukoCombat" Mono="False" />
 </data>

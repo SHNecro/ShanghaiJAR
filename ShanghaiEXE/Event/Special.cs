@@ -873,10 +873,12 @@ namespace NSEvent
                 case 23:
                     {
                         var completionLibrary = new Library(this.sound, null, null, this.savedata);
+                        // Repair 20,50,100,150,200,300,500, DarkRecov
                         var chips = new[] { 174, 175, 176, 177, 178, 179, 180, 264 };
                         var chipsSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen)
                             && completionLibrary.LibraryPages[Library.LibraryPageType.Dark].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen);
-                        var addons = new[] { 8, 9, 10, 11, 14, 38 };
+                        // HP+50,100,200,500, HP+300, ChipCure, CRecov
+                        var addons = new[] { 8, 9, 10, 11, 14, 38, 92 };
                         var addonsObtained = addons.All(id => this.savedata.haveAddon.Any(a => a.ID == id));
                         var subChipsObtained = this.savedata.haveSubChis[0] == 9 && this.savedata.haveSubChis[1] == 9;
                         var healingFound = chipsSeen && addonsObtained && subChipsObtained;

@@ -83,6 +83,8 @@ namespace MapEditor.Models.Elements.Enums
         [Description("Final Floor")]
         FinalFloorBack = 37,
         [Description("Central")]
-        Central = 38
+        Central = 38,
+        [Description("Heaven Water (cyan)")]
+        HeavenWater = 39
     }
 }
