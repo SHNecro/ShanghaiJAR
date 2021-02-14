@@ -25,7 +25,7 @@ namespace NSMap.Character
         public Vector2 moveEndPosition;
         public int movingOrder;
         public Vector3 position;
-        protected Vector2 positionQ;
+        public Vector2 positionQ;
         public SceneMap parent;
         public MapField field;
         public bool playeHit;

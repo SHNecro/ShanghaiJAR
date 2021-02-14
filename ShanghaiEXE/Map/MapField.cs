@@ -468,7 +468,7 @@ namespace NSMap
                 var rendTypes = levelObjects.GroupBy(mcb => mcb.rendType).OrderBy(gr => gr.Key);
                 foreach (var rendType in rendTypes)
                 {
-                    var sortedRendType = TopologicalRenderSort(rendType.ToList());
+                    var sortedRendType = TopologicalRenderSort(rendType.ToList(), this.camera, parent.MapsizeX / 2.0);
 
                     objects.AddRange(sortedRendType);
                 }
@@ -478,14 +478,18 @@ namespace NSMap
             return sortedLevels;
         }
         
-        private static IList<MapCharacterBase> TopologicalRenderSort(IList<MapCharacterBase> unsorted)
+        private static IList<MapCharacterBase> TopologicalRenderSort(IList<MapCharacterBase> unsorted, Vector2 camera, double mapXAdj)
         {
             // Creates graph of items which are behind each
             var graph = Enumerable.Range(0, unsorted.Count).ToDictionary(i => i, i => new List<int>());
             for (var i = 0; i < unsorted.Count; i++)
             {
+                if (IsOrderingSkipped(unsorted[i] as MapEventBase, camera, mapXAdj)) continue;
+
                 for (var ii = i+1; ii < unsorted.Count; ii++)
                 {
+                    if (IsOrderingSkipped(unsorted[ii] as MapEventBase, camera, mapXAdj)) continue;
+
                     var sortValue = IsBehind(unsorted[i], unsorted[ii]);
                     // If algorithm supports order-doesn't-matter, null value means no edge
                     if (sortValue == true)
@@ -530,6 +534,41 @@ namespace NSMap
             return sortedNodeIndices.Select(i => unsorted[i]).ToList();
         }
 
+        private static bool IsOrderingSkipped(MapEventBase mcb, Vector2 camera, double mapXAdjust)
+        {
+            var page = mcb?.LunPage;
+
+            if (page == null) return false;
+            if (!page.character && (page.graphicNo[2] == 0 || page.graphicNo[3] == 0)) return true;
+
+            Vector2 center = new Vector2(mcb.Position.X, mcb.Position.Y);
+            var cameraRect = new RectangleF(0, 0, 240, 160);
+
+            center += new Vector2(page.hitShift.X, page.hitShift.Y);
+            if (page.hitform == true)
+            {
+                center += new Vector2(-8, -8);
+            }
+            if (mcb is MysteryData)
+            {
+                center += new Vector2(-10, -10);
+            }
+
+            var graphicPosX = (float)(120.0 + mapXAdjust + center.X * 2.0 - center.Y * 2.0);
+            var graphicPosY = (float)(32.0 + center.X + center.Y + mcb.Position.Z + 24.0);
+            var cameraTLRelativePos = new Vector2(graphicPosX - camera.X, graphicPosY - camera.Y);
+
+            var graphicWidth = (page.character ? 64 : page.graphicNo[2]) / 2;
+            var graphicHeight = (page.character ? 96 : page.graphicNo[3]) / 2;
+
+            var cameraTLRelativeRect1 = RectangleF.FromLTRB(
+                cameraTLRelativePos.X - graphicWidth,
+                cameraTLRelativePos.Y - graphicHeight,
+                cameraTLRelativePos.X + graphicWidth,
+                cameraTLRelativePos.Y + graphicHeight);
+            return !cameraTLRelativeRect1.IntersectsWith(cameraRect);
+        }
+
         private static bool? IsBehind(MapCharacterBase mcb1, MapCharacterBase mcb2)
         {
             if (mcb1 == mcb2) return null;
@@ -545,13 +584,12 @@ namespace NSMap
 
             if (obj1 != null)
             {
-                if (!page1.character && (page1.graphicNo[2] == 0 || page1.graphicNo[3] == 0)) return null;
-
                 center1 += new Vector2(page1.hitShift.X, page1.hitShift.Y);
                 var width1 = (page1.hitform ? page1.hitrange.X : page1.hitrange.X * 2);
                 var height1 = (page1.hitform ? page1.hitrange.Y : page1.hitrange.X * 2);
                 size1 = new Vector2(width1, height1);
-                if (obj1.LunPage.hitform == true)
+
+                if (page1.hitform == true)
                 {
                     center1 += new Vector2(-8, -8);
                 }
@@ -567,13 +605,11 @@ namespace NSMap
 
             if (obj2 != null)
             {
-                if (!page2.character && (page2.graphicNo[2] == 0 || page2.graphicNo[3] == 0)) return null;
-
                 center2 += new Vector2(page2.hitShift.X, page2.hitShift.Y);
                 var width2 = (page2.hitform ? page2.hitrange.X : page2.hitrange.X * 2);
                 var height2 = (page2.hitform ? page2.hitrange.Y : page2.hitrange.X * 2);
                 size2 = new Vector2(width2, height2);
-                if (obj2?.LunPage.hitform == true)
+                if (page2.hitform == true)
                 {
                     center2 += new Vector2(-8, -8);
                 }
@@ -599,14 +635,12 @@ namespace NSMap
             // Hitboxes do not intersect
             if (!rect1.IntersectsWith(rect2))
             {
-                var screenFront1 = ToScreenPosition(front1);
                 var screenPosition1 = ToScreenPosition(new Vector2(mcb1.Position.X, mcb1.Position.Y));
                 var leftmost1 = front1 - new Vector2(size1.X, 0);
                 var rightmost1 = front1 - new Vector2(0, size1.Y);
                 var screenLeftmost1 = ToScreenPosition(leftmost1);
                 var screenRightmost1 = ToScreenPosition(rightmost1);
 
-                var screenFront2 = ToScreenPosition(front2);
                 var screenPosition2 = ToScreenPosition(new Vector2(mcb2.Position.X, mcb2.Position.Y));
                 var leftmost2 = front2 - new Vector2(size2.X, 0);
                 var rightmost2 = front2 - new Vector2(0, size2.Y);

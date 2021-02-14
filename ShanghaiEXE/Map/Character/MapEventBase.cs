@@ -25,13 +25,15 @@ namespace NSMap.Character
         public int lunPage;
         public bool stop;
 
+        private static EventPage defaultEventPage;
+
         public virtual EventPage LunPage
         {
             get
             {
                 if (this.lunPage >= 0)
                     return this.eventPages[this.lunPage];
-                return new EventPage(this.sound, this, this.savedate);
+                return (MapEventBase.defaultEventPage ?? (MapEventBase.defaultEventPage = new EventPage(this.sound, this, this.savedate)));
             }
         }
 
