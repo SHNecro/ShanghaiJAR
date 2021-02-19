@@ -867,7 +867,12 @@ editValue:3:False:0:0:103
 bgmfade:0:60:True
 bgmLoad:
 bgmfade:100:240:False
+fade:30:255:0:0:0:True
+mapChange:uraNet7:62:512:0:0
+emove:プレイヤー:wayleft,0:wait,0
+fade:30:0:0:0:0:True
 stopSkip:
+bgmfade:100:240:False
 end
 page:3
 startterms:Abutton

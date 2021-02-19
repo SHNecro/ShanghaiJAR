@@ -3673,7 +3673,7 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:877:True
-ItemGet:3:8:0:KeyItem.ServingDishName
+ItemGet:3:8:0:KeyItem.OrderBookName
 EditItem:33:True
 end
 

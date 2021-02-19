@@ -102,7 +102,8 @@
   <KeyItem Index="32" Name="KeyItem.FreezeCoreName">
     <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" />
   </KeyItem>
-  <KeyItem Index="33" Name="KeyItem.ServingDishName">
-    <Dialogue Key="KeyItem.ServingDishDescDialogue1" />
+  <KeyItem Index="33" Name="KeyItem.OrderBookName">
+    <Dialogue Key="KeyItem.OrderBookDescDialogue1" />
+    <Dialogue Key="KeyItem.OrderBookDescDialogue2" />
   </KeyItem>
 </data>

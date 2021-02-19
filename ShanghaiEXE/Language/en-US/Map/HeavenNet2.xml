@@ -136,7 +136,7 @@
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue40" Value="My lady.... often sees things,very differently than most." Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue41" Value="Do not expect any mercy，or,honor，or reason from that,woman or her.... creations." Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue42" Value="You’ll find her lab deep in the,Undernet. Even the Net around,her is barren and lifeless." Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue43" Value="Uh-huh.,Have fun with that corruption,and your ghost problem." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue43" Value="Uh-huh.,See ya." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue44" Value="Got that all out of your system，,Shanghai?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1a" Value="#b@false#Now，you better be--!#b@false##w@30##e@#" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue4a" Value="Mmm!,So good!" Face="YuyukoCasual" Mono="False" />
@@ -184,4 +184,32 @@
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue3" Value="And right on time，too!,Look!" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue4" Value="Ah，it’s been too long...." Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue5" Value="You have my deepest thanks，,Shanghai.,And Alice too，of course." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue6" Value="If you don’t mind，I’d like to,make sure all traces of the,corruption have been purged." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue7" Value="This will take just a moment，,then we can discuss matters,further." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue1" Value="It seems that you were very,thorough in your work.,I really am grateful." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue2" Value="No corruption remains，and,with my power restored it will,never gain a foothold again." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue3" Value="...Oh? Am I speaking differently?,My apologies，I tend to relax,while in my casualwear." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue4" Value="In any case，the stability of the,Area is no longer at risk，and,as for the intruders...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue5" Value="During their rampage，it seems,they fed on loose souls and,grew in power immensely." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue6" Value="As they are，the power needed,to overcome their unique nature,would devastate the Area." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue7" Value="Unfortunately，there is nothing,we can do now besides confine,them until they weaken." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue8" Value="If someone were to find a way,to safely release their souls，,however...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue9" Value="Well，it certainly saves some,time picking a reward from the,vaults，I suppose." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue5" Value="Well，you would know more,than I，I suppose." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue6" Value="It seems we owe you yet again.,After the souls they consumed,during their rampage...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue7" Value="The power we would have,needed to subdue them could,have devastated the Area." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue8" Value="How lucky that there was,someone nearby who could,counter their unique nature!" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue9" Value="As thanks，please feel free to,help yourself to the contents,of the vaults." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue1" Value="Oh?,Was there something you,needed?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue2Question" Value="Challenge Yuyuko to a,NetBattle?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet2YuyukoChallengeDialogue2Options" Value="Yes,No" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue3Accept" Value="Ah，it’s been too long since,I’ve had the chance to stretch,my legs!" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue3Decline" Value="Our doors are always open,to you." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue1" Value="An error in the battle data,recorder?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue2" Value="My apologies，mundane,systems tend to have issues,analyzing my power." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue3" Value="Here.,To recognize a battle,well-fought." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeLostDialogue1" Value="It’s not every day that I get the,chance to go all out!" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue1" Value="I should prepare something,special for Mistress Yuyuko...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue2" Value="Ah. Yes，thank you for cleaning,up the corruption， of course." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue3" Value="Now，what do make，what to,make....?" Face="Youmu" Mono="False" />
 </data>
