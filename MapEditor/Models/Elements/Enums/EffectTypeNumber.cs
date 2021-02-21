@@ -94,5 +94,6 @@
         YoumuNorthHeavenWarpOut,
         YoumuNorthHeavenWarpIn,
         HeavenWarpKikuri,
+        TreeEvent,
     }
 }

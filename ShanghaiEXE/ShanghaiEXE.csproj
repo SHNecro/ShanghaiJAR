@@ -384,6 +384,7 @@
     <Compile Include="Common\VariableArray.cs" />
     <Compile Include="Data\CharacterInfo.cs" />
     <Compile Include="Effect\FreeSoul.cs" />
+    <Compile Include="Effect\HeavenTreeEvent.cs" />
     <Compile Include="Effect\HeavenWarpKikuri.cs" />
     <Compile Include="Effect\Noise.cs" />
     <Compile Include="Effect\SageFloat.cs" />

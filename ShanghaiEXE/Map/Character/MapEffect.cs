@@ -106,6 +106,7 @@ namespace NSMap.Character
             (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, false, true, "charachip18", new Rectangle(18, 288 + 32, 24, 64)),
             (sound, position, field) => new HeavenWarp(sound, new Vector2(position.X, position.Y), new Point(0, 0), field, true, true, "charachip18", new Rectangle(18, 288 + 32, 24, 64)),
             (sound, position, field) => new HeavenWarpKikuri(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
+            (sound, position, field) => new HeavenTreeEvent(sound, new Vector2(position.X, position.Y), new Point(0, 0)),
         };
 
     public EffectBase effect;
