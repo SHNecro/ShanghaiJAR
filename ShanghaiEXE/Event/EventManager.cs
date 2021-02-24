@@ -212,7 +212,7 @@ namespace NSEvent
             this.skip = true;
 
             // If skipping to battle
-            if (this.skipColor == Color.Black)
+            if (this.skipColor != Color.Black)
             {
                 this.sound.PlaySE(SoundEffect.encount);
             }
