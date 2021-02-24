@@ -147,9 +147,9 @@ namespace MapEditor.Models.Elements.Enums
         Piano,
         [Description("Play Effect")]
         Effect,
-        [Description("Delete Effect")]
+        [Description("End Repeating Effect")]
         EffectDelete,
-        [Description("End all effects")]
+        [Description("End Certain Effects")]
         EffectEnd,
         [Description("Delete self")]
         EventDeath,

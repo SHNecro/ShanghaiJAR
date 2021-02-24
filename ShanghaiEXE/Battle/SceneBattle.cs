@@ -81,6 +81,7 @@ namespace NSBattle
         public bool stopEnd;
         public bool bossFlag;
         public bool blackOutStopper;
+        public bool resultError;
 
         public SceneBattle() : base(null, null, null) { }
 

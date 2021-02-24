@@ -736,6 +736,9 @@
   <Text Key="Chip.FlandreDSName" Value="[FlandreDS]" />
   <Text Key="Chip.FlandreDSDesc" Value="[THE POWER,THAT BREAKS,ANYTHING]" />
 
+  <Text Key="Chip.ErrorName" Value="ERROR" />
+  <Text Key="Chip.ErrorDesc" Value="MSG NOT USED" />
+
   <!-- Program Advance -->
   <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line1" Value="バリアー　　　　B" />
   <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line2" Value="パワーオーラ　　B" />

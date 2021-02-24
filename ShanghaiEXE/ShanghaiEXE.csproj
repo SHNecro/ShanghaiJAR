@@ -372,6 +372,7 @@
     <Compile Include="Chip\DruidMnV2.cs" />
     <Compile Include="Chip\FlandreDS.cs" />
     <Compile Include="Chip\DruidMnV1.cs" />
+    <Compile Include="Chip\Error.cs" />
     <Compile Include="Chip\MimaDS.cs" />
     <Compile Include="Chip\RanDS.cs" />
     <Compile Include="Chip\TurtleHockey.cs" />
@@ -1990,7 +1991,9 @@
     <None Include="ShanghaiEXE\Files\icon.ico">
       <TargetPath>icon.ico</TargetPath>
     </None>
-    <Content Include="Language\en-US\Misc.xml" />
+    <Content Include="Language\en-US\Misc.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\en-US\Battle.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -2006,7 +2009,9 @@
     <Content Include="Language\ja-JP\Misc.xml" />
     <Content Include="Language\ja-JP\AddOn.xml" />
     <Content Include="Language\ja-JP\Battle.xml" />
-    <Content Include="Language\ja-JP\Chip.xml" />
+    <Content Include="Language\ja-JP\Chip.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\ja-JP\Enemy.xml" />
     <Content Include="Language\en-US\Map.xml" />
     <Content Include="Language\ja-JP\Map.xml" />

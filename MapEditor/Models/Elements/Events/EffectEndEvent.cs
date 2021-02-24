@@ -5,7 +5,19 @@ namespace MapEditor.Models.Elements.Events
 {
     public class EffectEndEvent : EventBase
     {
-        public override string Info => "Ends all effects on the map.";
+        public override string Info => @"Ends all effects of these types on the map:
+AliceJump
+ItemGet
+ShanghaiIN
+AlicePhone
+AlicePowder
+AlicePowderLeft
+FightShanhaiBack
+FightMarisa
+SlashYorihime
+AliceBed
+ROMHead
+DruidAttack";
 
         public override string Name => new EnumDescriptionTypeConverter(typeof(EventCategoryOption)).ConvertToString(EventCategoryOption.EffectEnd);
 

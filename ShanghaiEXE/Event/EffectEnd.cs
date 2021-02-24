@@ -23,8 +23,25 @@ namespace NSEvent
                 this.field = this.manager.parent.Field;
             for (int index = 0; index < this.field.effect.Count; ++index)
             {
-                if (this.field.effect[index].effect is AliceJump || this.field.effect[index].effect is ItemGet || (this.field.effect[index].effect is ShanghaiIN || this.field.effect[index].effect is AlicePhone) || (this.field.effect[index].effect is AlicePowder || this.field.effect[index].effect is AlicePowderLeft || (this.field.effect[index].effect is FightShanhaiBack || this.field.effect[index].effect is FightMarisa)) || (this.field.effect[index].effect is SlashYorihime || this.field.effect[index].effect is AliceBed || this.field.effect[index].effect is ROMHead) || this.field.effect[index].effect is DruidAttack)
-                    this.field.effect[index].Flag = false;
+                var effect = this.field.effect[index].effect;
+                switch (effect)
+                {
+                    case AliceJump _:
+                    case ItemGet _:
+                    case ShanghaiIN _:
+                    case AlicePhone _:
+                    case AlicePowder _:
+                    case AlicePowderLeft _:
+                    case FightShanhaiBack _:
+                    case FightMarisa _:
+                    case SlashYorihime _:
+                    case AliceBed _:
+                    case ROMHead _:
+                    case DruidAttack _:
+                    case HeavenTreeEvent _:
+                        this.field.effect[index].Flag = false;
+                        break;
+                }
             }
             this.EndCommand();
         }

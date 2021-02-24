@@ -107,19 +107,6 @@ namespace NSEnemy
             this.PositionDirectSet();
             switch (this.version)
             {
-                case 1:
-                    this.dropchips[0].chip = new YoumuV1(this.sound);
-                    this.dropchips[0].codeNo = 0;
-                    this.dropchips[1].chip = new YoumuV1(this.sound);
-                    this.dropchips[1].codeNo = 0;
-                    this.dropchips[2].chip = new YoumuV1(this.sound);
-                    this.dropchips[2].codeNo = 0;
-                    this.dropchips[3].chip = new YoumuV1(this.sound);
-                    this.dropchips[3].codeNo = 0;
-                    this.dropchips[4].chip = new YoumuV1(this.sound);
-                    this.dropchips[4].codeNo = 0;
-                    this.havezenny = 0;
-                    break;
                 default:
                     this.dropchips[0].chip = new YoumuV1(this.sound);
                     this.dropchips[0].codeNo = 1;
@@ -128,15 +115,10 @@ namespace NSEnemy
                     this.dropchips[2].chip = new YoumuV1(this.sound);
                     this.dropchips[2].codeNo = 1;
                     this.dropchips[3].chip = new YoumuV1(this.sound);
-                    this.dropchips[3].codeNo = 2;
+                    this.dropchips[3].codeNo = 1;
                     this.dropchips[4].chip = new YoumuV1(this.sound);
                     this.dropchips[4].codeNo = 1;
                     this.havezenny = 100000;
-                    if (this.version < 8)
-                        break;
-                    this.dropchips[4].chip = new YoumuX(this.sound);
-                    this.dropchips[4].codeNo = this.Random.Next(4);
-                    this.havezenny = 200000;
                     break;
             }
         }
@@ -144,6 +126,13 @@ namespace NSEnemy
         public override void PositionDirectSet()
         {
             this.positionDirect = new Vector2((float)(position.X * 40.0 + 16.0), (float)(position.Y * 24.0 + 58.0));
+        }
+
+        public override void InitAfter()
+        {
+            base.InitAfter();
+
+            this.parent.resultError = !this.parent.parent.savedata.FlagList[894];
         }
 
         protected override void Moving()

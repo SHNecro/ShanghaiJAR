@@ -50,6 +50,8 @@ namespace NSBattle
         private int illegalanime;
         private int illegalanimeSub;
 
+        private bool resultError;
+
         public Result(
           IAudioEngine s,
           SceneBattle p,
@@ -102,7 +104,15 @@ namespace NSBattle
                 this.bustinglevel = this.CalculateBustingRank(t, simu, damage, move);
                 this.selectedBustinglevel = this.bustinglevel;
 
-                this.illegal = (this.parent.illegal || (this.player.addonSkill[52] && this.bustinglevel == 11));
+                if (this.parent.resultError)
+                {
+                    this.resultError = true;
+                    this.illegal = false;
+                }
+                else
+                {
+                    this.illegal = (this.parent.illegal || (this.player.addonSkill[52] && this.bustinglevel == 11));
+                }
                 this.chooseIllegal = this.illegal;
 
                 this.CalculateLoot();
@@ -207,8 +217,19 @@ namespace NSBattle
                     ++this.screenflame;
                     this.screen[this.openscreen[screenflame].X, this.openscreen[screenflame].Y] = false;
                     ++this.screenflame;
+
                     if (!this.chooseIllegal)
-                        this.sound.PlaySE(SoundEffect.openchip);
+                    {
+                        if (this.resultError)
+                        {
+                            this.sound.PlaySE(SoundEffect.error);
+                        }
+                        else
+                        {
+                            this.sound.PlaySE(SoundEffect.openchip);
+                        }
+                    }
+
                     if (this.screenflame >= 42)
                     {
                         for (int index1 = 0; index1 < this.screen.GetLength(0); ++index1)
@@ -218,9 +239,13 @@ namespace NSBattle
                         }
                         this.frame = 0;
                         if (this.dropchip && this.scene == Result.RESULT.printchip)
+                        {
                             this.sound.PlaySE(SoundEffect.getchip);
+                        }
                         else
+                        {
                             this.sound.PlaySE(SoundEffect.getzenny);
+                        }
                         switch (this.scene)
                         {
                             case Result.RESULT.printchip:
@@ -726,6 +751,11 @@ namespace NSBattle
 
         private void AddLoot()
         {
+            if (this.resultError)
+            {
+                return;
+            }
+
             if (this.parent.doresult)
             {
                 if (this.dropchip)
@@ -745,30 +775,40 @@ namespace NSBattle
 
         private void CalculateLoot()
         {
-
-            var chipThreshold = this.GetThresholdFromBustingLevel(this.selectedBustinglevel);
-            
-            this.dropchip = this.chooseIllegal
-                || this.parent.dropzenny <= 0
-                || this.player.addonSkill[2]
-                || (this.Random.Next(100) >= chipThreshold && !this.player.addonSkill[1]);
-            if (this.parent is NetBattle)
-                return;
-            if (!this.chooseIllegal)
+            if (this.resultError)
             {
-                if (this.dropchip)
-                {
-                    this.getchip = this.GetChipDrop(this.selectedBustinglevel, this.parent.dropchip);
-                }
-                else
-                {
-                    this.dropmoney = this.GetZennyDrop(this.selectedBustinglevel, this.parent.dropzenny);
-                }
+                this.dropchip = true;
+                var errorChipFolder = new ChipFolder(this.sound);
+                errorChipFolder.chip = new Error(this.sound);
+                this.getchip = errorChipFolder;
             }
             else
             {
-                this.getchip = this.IllegalGetMake(parent.dropchip[4].chip.reality);
+                var chipThreshold = this.GetThresholdFromBustingLevel(this.selectedBustinglevel);
+
+                this.dropchip = this.chooseIllegal
+                    || this.parent.dropzenny <= 0
+                    || this.player.addonSkill[2]
+                    || (this.Random.Next(100) >= chipThreshold && !this.player.addonSkill[1]);
+                if (this.parent is NetBattle)
+                    return;
+                if (!this.chooseIllegal)
+                {
+                    if (this.dropchip)
+                    {
+                        this.getchip = this.GetChipDrop(this.selectedBustinglevel, this.parent.dropchip);
+                    }
+                    else
+                    {
+                        this.dropmoney = this.GetZennyDrop(this.selectedBustinglevel, this.parent.dropzenny);
+                    }
+                }
+                else
+                {
+                    this.getchip = this.IllegalGetMake(parent.dropchip[4].chip.reality);
+                }
             }
+
             switch (this.parent.lastCounterBug)
             {
                 case 1:
