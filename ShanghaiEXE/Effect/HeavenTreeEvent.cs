@@ -259,6 +259,11 @@ namespace NSEffect
             this.FlameControl(1);
         }
 
+        public override void SkipUpdate()
+        {
+            this.flag = false;
+        }
+
         public override void Render(IRenderer dg)
         {
             if (!this.flag)

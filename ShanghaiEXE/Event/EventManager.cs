@@ -126,8 +126,15 @@ namespace NSEvent
                         }
                         else
                         {
-                            if (this.playeventnumber != 23) { }
                             this.noTimeNext = false;
+
+                            // Allow cleanup of events after skipping blackout
+                            var effects = this.parent?.Field?.effect;
+                            foreach (var effect in effects)
+                            {
+                                effect?.effect?.SkipUpdate();
+                            }
+
                             if (this.playeventnumber >= this.events.Count || this.events[this.playeventnumber] is Battle || this.events[this.playeventnumber] is StopSkip)
                             {
                                 if (this.eventCharacter != null)
@@ -160,6 +167,8 @@ namespace NSEvent
                     }
                     while (this.noTimeNext);
                 }
+
+                // Skip started
                 if (this.skip)
                 {
                     this.alpha += 5;
@@ -197,12 +206,16 @@ namespace NSEvent
             dg.DrawImage(dg, "fadescreen", _rect, true, _point, color);
         }
 
+        // Skip pressed
         public void SkipMode()
         {
             this.skip = true;
-            if (!(this.skipColor == Color.White))
-                return;
-            this.sound.PlaySE(SoundEffect.encount);
+
+            // If skipping to battle
+            if (this.skipColor == Color.Black)
+            {
+                this.sound.PlaySE(SoundEffect.encount);
+            }
         }
 
         public void Init()

@@ -13,5 +13,9 @@ namespace NSEffect
             this.position = new Point(pX, pY);
             this.number = -100;
         }
+
+        public virtual void SkipUpdate()
+        {
+        }
     }
 }
