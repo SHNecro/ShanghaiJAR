@@ -188,7 +188,7 @@
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue7" Value="[This will take just a moment，,then we can discuss matters,further.]" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue1" Value="[It seems that you were very,thorough in your work.,I really am grateful.]" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue2" Value="[No corruption remains，and,with my power restored it will,never gain a foothold again.]" Face="YuyukoCombat" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue3" Value="[...Oh? Am I speaking differently?,My apologies，I tend to relax,while in my casualwear.]" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue3" Value="[....Am I speaking differently?,My apologies，I tend to relax,while in my casualwear.]" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue4" Value="[In any case，the stability of the,Area is no longer at risk，and,as for the intruders....]" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue5" Value="[During their rampage，it seems,they fed on loose souls and,grew in power immensely.]" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue6" Value="[As they are，the power needed,to overcome their unique nature,would devastate the Area.]" Face="YuyukoCombat" Mono="False" />
@@ -212,4 +212,5 @@
   <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue1" Value="[I should prepare something,special for Mistress Yuyuko....]" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue2" Value="[Ah. Yes，thank you for cleaning,up the corruption， of course.]" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue3" Value="[Now，what do make，what to,make....?]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinChipGottenDialogue1" Value="[A battle well-fought.]" Face="YuyukoCombat" Mono="False" />
 </data>

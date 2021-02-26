@@ -2400,13 +2400,13 @@ msg:Map.HeavenNet2MeetingCutsceneDialogue27
 msgclose:
 fade:70:48:48:48:0:True
 fade:70:255:0:0:0:True
-CameraDefault:0
 camera:-16:-8:0:False
 wait:60:False
 editFlag:871:True
 editFlag:862:True
-StatusHide:False
 stopSkip:
+StatusHide:False
+CameraDefault:0
 EventLun:MCFParallelEnd:-1
 mapChange:heavenNet2:200:94:0:0
 end
