@@ -36,6 +36,7 @@ namespace NSAttack
             this.positionDirect = new Vector2(position.X * 40f, (float)(position.Y * 24.0 + 22.0));
             this.frame = 0;
             this.OldPD = this.positionDirect;
+            this.panelChange = true;
         }
 
         public override void Updata()
@@ -50,6 +51,7 @@ namespace NSAttack
             if (this.moveflame)
                 this.anime = !this.anime;
             this.FlameControl(2);
+            this.PanelChange();
         }
 
         public override void Render(IRenderer dg)
