@@ -867,7 +867,7 @@ namespace NSMap.Character
                         this.encounter = false;
                         if (this.savedata.runSubChips[3])
                         {
-                            this.encounts = new List<EventManager>(field.encounts);
+                            this.encounts = new List<EventManager>(this.field.encounts);
                             this.encountNumber = this.savedata.ValList[19];
                         }
                         else
@@ -900,7 +900,7 @@ namespace NSMap.Character
                         {
                             this.encounterBreak = false;
                             this.encount = true;
-                            this.savedata.ValList[19] = this.encountNumber;
+                            this.savedata.ValList[19] = this.field.encounts.IndexOf(this.encounts[this.encountNumber]);
                         }
                     }
                 }
