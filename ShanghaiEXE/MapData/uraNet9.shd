@@ -395,8 +395,10 @@ fade:15:0:0:0:0:True
 bgmon:ura_internet
 bgmfade:100:90:False
 msgopen:
-msg:Debug.UnimplementedText
+msg:Misc.DemoEndDialogue1
+msg:Misc.DemoEndDialogue2
 msgclose:
+editFlag:890:True
 end
 
 ID:DeepNetPortalShadeTrigger
