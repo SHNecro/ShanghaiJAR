@@ -192,11 +192,11 @@ namespace NSBattle
                     if (this.frame == 10)
                     {
                         this.frame = 0;
-                        this.anime += this.rebirth ? -1 : 1;
                         if (this.anime <= 0 && this.rebirth)
                             this.rebirth = false;
                         if (this.anime >= 2 && !this.rebirth)
                             this.rebirth = true;
+                        this.anime += this.rebirth ? -1 : 1;
                         break;
                     }
                     break;
@@ -237,6 +237,15 @@ namespace NSBattle
                                         }
                                     }
                                 }
+
+                                if (this.anime < 0)
+                                {
+                                    this.anime = 0;
+                                }
+                                else if (this.anime > 2)
+                                {
+                                    this.anime = 1;
+                                }
                             }
                         }
                         else if (this.state == Panel.PANEL._thunder)
@@ -252,6 +261,9 @@ namespace NSBattle
                         }
                         break;
                     }
+                    break;
+                default:
+                    this.anime = 0;
                     break;
             }
             if (this.breaktime > 0)
@@ -311,8 +323,6 @@ namespace NSBattle
         {
             if (!this.noRender)
             {
-                if (this.anime < 0)
-                    this.anime = 0;
                 int num = (int)this.color;
                 if (this.flashing)
                 {
@@ -326,8 +336,6 @@ namespace NSBattle
                             break;
                     }
                 }
-                if (this.state != Panel.PANEL._poison && this.state != Panel.PANEL._burner && this.state != Panel.PANEL._thunder && (uint)this.anime > 0U)
-                    this.anime = 0;
                 switch (this.state)
                 {
                     case Panel.PANEL._break:
