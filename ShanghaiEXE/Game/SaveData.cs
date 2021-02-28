@@ -888,16 +888,19 @@ namespace NSGame
                     this.bbsRead[1, 21] = false;
                 }
 
+                // If HeavenNet already entered, warn that area in progress, battles to be reverted
+                // TODO: when no longer needed (battles implemented), unset 900 & revert battles (+give message)
+                if (this.FlagList[793] && !this.FlagList[900])
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenWIP2"));
+                    this.FlagList[900] = true;
+                }
+
                 this.ValList[199] = 3;
             }
 
-            // TODO: Remove event from entrance cutscene
-            if (this.FlagList[793] && !this.FlagList[900])
-            {
-                retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenWIP2"));
-                this.FlagList[900] = true;
-            }
-
+            // Set var to "current save version"
+            this.ValList[199] = 3;
             return retconMessages;
         }
 
