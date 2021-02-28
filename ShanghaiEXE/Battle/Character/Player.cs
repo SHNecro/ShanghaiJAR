@@ -1677,30 +1677,45 @@ namespace NSBattle.Character
         public enum ChargeShot
         {
             none,
+            // AuraSwd
             オーラソード,
+            // DustBomb
             ダストボム,
+            // Vulcan
             バルカン,
+            // FallKnife
             フォールナイフ,
+            // BlastCannon
             ブラストカノン,
+            // Lance
             ランス,
+            // Shotgun
             ショットガン,
+            // Repair
             リペア,
         }
 
         public enum Rbutton
         {
             none,
+            // StarShield
             スターシールド,
+            // Hole Fix
             ホールリペア,
+            // PnlCrak
             パネルクラック,
         }
 
         public enum Lbutton
         {
             none,
+            // Cube
             ボロキューブ,
+            // HeadWind
             ムカイカゼ,
+            // TailWind
             オイカゼ,
+            // Lock-on
             ロックオン,
         }
     }

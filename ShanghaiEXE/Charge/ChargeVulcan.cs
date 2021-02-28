@@ -30,17 +30,53 @@ namespace NSCharge
         public override void Action()
         {
             this.character.animationpoint = ChargeVulcan.Animation(this.character.waittime);
-            if (this.character.waittime == 4 * (player.busterPower * 4))
+
+            // # of shots: 2 shots per power
+            var numShots = player.busterPower * 2;
+
+            // At max Chrg (5), the player can chain knockbacks infinitely (barely)
+            var maxShots = numShots >= 16;
+            if (maxShots)
+            {
+                numShots = 15;
+            }
+
+            var firingTime = 8 * numShots;
+            if (this.character.waittime >= firingTime)
             {
                 this.End();
                 this.player.animationpoint = new Point(0, 0);
                 this.player.motion = Player.PLAYERMOTION._neutral;
             }
+
             if (this.character.waittime % 8 != 4)
                 return;
+
+            // Damage per shot: 10 (5 if melt status)
+            var damage = this.Power / player.busterPower;
+
+            // If capped at 15 shots, increase per-shot damage (adjusted for even numbers per shot)
+            if (maxShots)
+            {
+                numShots = 15;
+                damage += player.busterPower - 8 + 1;
+
+                var shotNumber = this.character.waittime / 8;
+                var shotAdjustmentNumber = shotNumber % 3;
+                var perShotAdjustment = (player.busterPower - shotAdjustmentNumber - 1) / 3 - 2;
+
+                if (this.player.badstatus[1])
+                {
+                    perShotAdjustment = -perShotAdjustment - 1;
+                }
+
+                damage += perShotAdjustment;
+            }
+
             this.battle.effects.Add(new BulletShells(this.sound, this.battle, this.character.position, this.character.positionDirect.X + 4 * this.character.UnionRebirth, this.character.positionDirect.Y + 8f, 26, this.character.union, 20 + this.Random.Next(20), 2, 0));
             this.sound.PlaySE(SoundEffect.vulcan);
-            this.character.parent.attacks.Add(this.CounterNone(new Vulcan(this.sound, this.character.parent, this.character.position.X + this.UnionRebirth(this.character.union), this.character.position.Y, this.character.union, this.Power / player.busterPower, Vulcan.SHOT.Vulcan, ChipBase.ELEMENT.normal, false)));
+
+            this.character.parent.attacks.Add(this.CounterNone(new Vulcan(this.sound, this.character.parent, this.character.position.X + this.UnionRebirth(this.character.union), this.character.position.Y, this.character.union, damage, Vulcan.SHOT.Vulcan, ChipBase.ELEMENT.normal, false)));
         }
 
         public override void Render(IRenderer dg, Vector2 position, string picturename)
