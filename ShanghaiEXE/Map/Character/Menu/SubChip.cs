@@ -106,7 +106,10 @@ namespace NSMap.Character.Menu
                                             this.nowscene = SubChip.SCENE.fadeout;
                                             break;
                                     }
-                                    --this.savedata.haveSubChis[this.cursol];
+                                    if (this.Cursol != 6)
+                                    {
+                                        --this.savedata.haveSubChis[this.cursol];
+                                    }
                                     break;
                             }
                             this.question = false;
@@ -183,11 +186,18 @@ namespace NSMap.Character.Menu
                 else
                 {
                     this.eventmanager.events.Clear();
-                    this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
-                    var question = ShanghaiEXE.Translate("SubChip.UseQuestion");
-                    var options = ShanghaiEXE.Translate("SubChip.UseOptions");
-                    this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], question[1], options[0], options[1], false, true, FACE.Shanghai.ToFaceId(), this.savedata));
-                    this.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.eventmanager));
+                    if (this.cursol == 6)
+                    {
+                        this.savedata.selectQuestion = 0;
+                    }
+                    else
+                    {
+                        this.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.eventmanager));
+                        var questionDialogue = ShanghaiEXE.Translate("SubChip.UseQuestion");
+                        var options = ShanghaiEXE.Translate("SubChip.UseOptions");
+                        this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, questionDialogue[0], questionDialogue[1], options[0], options[1], false, true, FACE.Shanghai.ToFaceId(), this.savedata));
+                        this.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.eventmanager));
+                    }
                     this.question = true;
                 }
             }

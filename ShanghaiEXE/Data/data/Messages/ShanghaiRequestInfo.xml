@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Message Index="0">
     <Dialogue Key="Messages.ShanghaiRequestInfo1Dialogue1None" />
@@ -129,90 +129,48 @@
   <Message Index="42">
     <Dialogue Key="Messages.ShanghaiRequestInfo43Dialogue1Shanghai" />
   </Message>
-  <Message Index="43">
-  </Message>
-  <Message Index="44">
-  </Message>
-  <Message Index="45">
-  </Message>
-  <Message Index="46">
-  </Message>
-  <Message Index="47">
-  </Message>
-  <Message Index="48">
-  </Message>
-  <Message Index="49">
-  </Message>
-  <Message Index="50">
-  </Message>
-  <Message Index="51">
-  </Message>
-  <Message Index="52">
-  </Message>
-  <Message Index="53">
-  </Message>
-  <Message Index="54">
-  </Message>
-  <Message Index="55">
-  </Message>
-  <Message Index="56">
-  </Message>
-  <Message Index="57">
-  </Message>
-  <Message Index="58">
-  </Message>
-  <Message Index="59">
-  </Message>
-  <Message Index="60">
-  </Message>
-  <Message Index="61">
-  </Message>
-  <Message Index="62">
-  </Message>
-  <Message Index="63">
-  </Message>
-  <Message Index="64">
-  </Message>
-  <Message Index="65">
-  </Message>
-  <Message Index="66">
-  </Message>
-  <Message Index="67">
-  </Message>
-  <Message Index="68">
-  </Message>
-  <Message Index="69">
-  </Message>
-  <Message Index="70">
-  </Message>
-  <Message Index="71">
-  </Message>
-  <Message Index="72">
-  </Message>
-  <Message Index="73">
-  </Message>
-  <Message Index="74">
-  </Message>
-  <Message Index="75">
-  </Message>
-  <Message Index="76">
-  </Message>
-  <Message Index="77">
-  </Message>
-  <Message Index="78">
-  </Message>
-  <Message Index="79">
-  </Message>
-  <Message Index="80">
-  </Message>
-  <Message Index="81">
-  </Message>
-  <Message Index="82">
-  </Message>
-  <Message Index="83">
-  </Message>
-  <Message Index="84">
-  </Message>
+  <Message Index="43" />
+  <Message Index="44" />
+  <Message Index="45" />
+  <Message Index="46" />
+  <Message Index="47" />
+  <Message Index="48" />
+  <Message Index="49" />
+  <Message Index="50" />
+  <Message Index="51" />
+  <Message Index="52" />
+  <Message Index="53" />
+  <Message Index="54" />
+  <Message Index="55" />
+  <Message Index="56" />
+  <Message Index="57" />
+  <Message Index="58" />
+  <Message Index="59" />
+  <Message Index="60" />
+  <Message Index="61" />
+  <Message Index="62" />
+  <Message Index="63" />
+  <Message Index="64" />
+  <Message Index="65" />
+  <Message Index="66" />
+  <Message Index="67" />
+  <Message Index="68" />
+  <Message Index="69" />
+  <Message Index="70" />
+  <Message Index="71" />
+  <Message Index="72" />
+  <Message Index="73" />
+  <Message Index="74" />
+  <Message Index="75" />
+  <Message Index="76" />
+  <Message Index="77" />
+  <Message Index="78" />
+  <Message Index="79" />
+  <Message Index="80" />
+  <Message Index="81" />
+  <Message Index="82" />
+  <Message Index="83" />
+  <Message Index="84" />
   <Message Index="85">
     <Dialogue Key="Messages.ShanghaiRequestInfo86Dialogue1Alice" />
   </Message>

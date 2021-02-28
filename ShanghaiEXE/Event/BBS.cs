@@ -60,7 +60,7 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterDonkichi"), ShanghaiEXE.Translate("BBS.SubjectRe:Peace!"), 619)
             },
             // City
-            new ForumItem[39]
+            new ForumItem[42]
             {
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterYanFan"), ShanghaiEXE.Translate("BBS.SubjectRegularChip"), -1),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterMars"), ShanghaiEXE.Translate("BBS.SubjectRe:RegularChip"), -1),
@@ -81,6 +81,11 @@ namespace NSEvent
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterChoChon"), ShanghaiEXE.Translate("BBS.SubjectN1League"), 225),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterRenkoSis"), ShanghaiEXE.Translate("BBS.SubjectRe:N1League"), 225),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterMars"), ShanghaiEXE.Translate("BBS.SubjectRe:N1League"), 225),
+
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterElerai"), ShanghaiEXE.Translate("BBS.SubjectSPHunting"), 225),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterMars"), ShanghaiEXE.Translate("BBS.SubjectRe:SPHunting"), 225),
+                new ForumItem(ShanghaiEXE.Translate("BBS.PosterElerai"), ShanghaiEXE.Translate("BBS.SubjectRe:SPHunting"), 225),
+
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterChoChon"), ShanghaiEXE.Translate("BBS.SubjectRe:N1League"), 260),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterRenkoSis"), ShanghaiEXE.Translate("BBS.SubjectUtterDefeat!"), 260),
                 new ForumItem(ShanghaiEXE.Translate("BBS.PosterMars"), ShanghaiEXE.Translate("BBS.SubjectRe:UtterDefeat!"), 260),

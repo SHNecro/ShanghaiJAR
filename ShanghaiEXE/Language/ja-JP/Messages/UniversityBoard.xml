@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.UniversityBoard1Dialogue1None" Value="バトル掲示板へようこそ,管理人のヤンファンと言います" Face="None" Mono="False" />
   <Dialogue Key="Messages.UniversityBoard1Dialogue2None" Value="多発するネット犯罪や,ウィルスに負けないように　" Face="None" Mono="False" />
@@ -149,4 +149,15 @@
   <Dialogue Key="Messages.UniversityBoard39Dialogue1None" Value="マイナスアドオン！,そんないいものが！" Face="None" Mono="False" />
   <Dialogue Key="Messages.UniversityBoard39Dialogue2None" Value="友達からもらった紫色の,アドオン怖くて使って,なかったんだー！" Face="None" Mono="False" />
   <Dialogue Key="Messages.UniversityBoard39Dialogue3None" Value="マイナス効果を消すのって,面白そうですね！,研究してみます！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard20NewDialogue1None" Value="[Greetings， all!,Any pro virus hunters here able,to help a newbie out?]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard20NewDialogue2None" Value="[I’m starting off easy，looking for,a KedamaSP in Genso Area 1，,but it’s nowhere to be found!]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard20NewDialogue3None" Value="[I just need this bounty after,splurging on AddOns，can,anyone help me?]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue1None" Value="[Welcome!,I’m no pro，but I might have an,idea of what’s going on....]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue2None" Value="[Judging from your name....,Have you been running into a,lot of those pesky oni viruses?]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue3None" Value="[You might have left one of those,fancy new AddOns installed!]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue4None" Value="[I’ve done the same myself，,those “Peac“ AddOns are just,too useful for collectors!]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue5None" Value="[Once “ElecPeac” is uninstalled，,just keep running around and,you’ll find one eventually.]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue6None" Value="[I’ve heard the pros know ways,to sniff them out，but that’s way,out of my league. Peace! (lol)]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard22NewDialogue1None" Value="[That was it!,Thanks，Mars!]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard22NewDialogue2None" Value="[I knew something felt off，but I,think those oni are cute so I,didn’t realize anything!]" Face="None" Mono="False" />
 </data>

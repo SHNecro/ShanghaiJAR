@@ -872,6 +872,25 @@ namespace NSGame
                 this.ValList[199] = 2;
             }
 
+            if (this.ValList[199] == 2)
+            {
+                // Shift City BBS ids up by 3 for new entries
+                var cityBbsEntries = this.bbsRead.GetLength(1);
+                var movedEntriesRead = Enumerable.Range(19, cityBbsEntries - 19).Any(i => this.bbsRead[1, i]);
+                if (movedEntriesRead)
+                {
+                    for (var i = cityBbsEntries - 1; i > 21; i--)
+                    {
+                        this.bbsRead[1, i] = this.bbsRead[1, i - 3];
+                    }
+                    this.bbsRead[1, 19] = false;
+                    this.bbsRead[1, 20] = false;
+                    this.bbsRead[1, 21] = false;
+                }
+
+                this.ValList[199] = 3;
+            }
+
             // TODO: Remove event from entrance cutscene
             if (this.FlagList[793] && !this.FlagList[900])
             {
