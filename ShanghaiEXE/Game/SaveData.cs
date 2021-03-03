@@ -687,26 +687,26 @@ namespace NSGame
                 var undernetLostLghtBought = this.shopCount[15, 1] > 0;
                 var engellesFullOpenOpened = this.getMystery[149];
 
-                // Bought CRecov from Voile for 12000 Z (removed, now from Engelles 1 PMD)
+                // Bought CRecov from Voile for 12000 Z (removed, now only from Engelles 1 BMD 136)
                 if (voileCRecovBought)
                 {
                     refundedAddons.Add(Tuple.Create(92, 12000, "Z"));
                 }
 
-                // Bought CShotgun from Voile for 12000 Z (removed, now bought from Undersquare 2 for 17000 Z)
+                // Bought CShotgun from Voile for 12000 Z (removed, now only bought from Undersquare 2 for 17000 Z)
                 if (voileCShotgunBought)
                 {
                     // No refund, free 5000 Z and mark down Undersquare 2
                     this.shopCount[14, 2] = 1;
                 }
 
-                // Bought CLance from World Undersquare for 17000 Z (replaced with CShotgun)
+                // Bought CLance from World Undersquare for 17000 Z (replaced with CShotgun, now only at Voile)
                 if (undersquareCLanceBought)
                 {
                     refundedAddons.Add(Tuple.Create(91, 17000, "Z"));
                 }
 
-                // Bought LostLght from Undernet 3 for 50 BugFrags (removed, now bought from LordUsa comp for 18000 Z)
+                // Bought LostLght from Undernet 3 for 50 BugFrags (removed, now only bought from LordUsa comp for 18000 Z)
                 if (undernetLostLghtBought)
                 {
                     refundedAddons.Add(Tuple.Create(73, 50, "BugFrag"));
@@ -716,7 +716,7 @@ namespace NSGame
                     }
                 }
 
-                // Got FullOpen from Engelles 3 PMD (now from Undernet 10 BMD behind ROM gate, replaced with MedusEye Y)
+                // Got FullOpen from Engelles 3 PMD (replaced with MedusEye Y, now only from Undernet 10 BMD behind ROM gate)
                 if (engellesFullOpenOpened)
                 {
                     refundedAddons.Add(Tuple.Create(20, 0, ""));
