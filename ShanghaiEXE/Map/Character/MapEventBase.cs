@@ -25,7 +25,7 @@ namespace NSMap.Character
         public int lunPage;
         public bool stop;
 
-        private static EventPage defaultEventPage;
+        private EventPage defaultEventPage;
 
         public virtual EventPage LunPage
         {
@@ -33,7 +33,7 @@ namespace NSMap.Character
             {
                 if (this.lunPage >= 0)
                     return this.eventPages[this.lunPage];
-                return (MapEventBase.defaultEventPage ?? (MapEventBase.defaultEventPage = new EventPage(this.sound, this, this.savedate)));
+                return (this.defaultEventPage ?? (this.defaultEventPage = new EventPage(this.sound, this, this.savedate)));
             }
         }
 
