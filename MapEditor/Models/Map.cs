@@ -20,7 +20,7 @@ namespace MapEditor.Models
         public Map()
         {
             this.Header = new Header();
-            this.WalkableMap = new WalkableMap();
+            this.WalkableMap = new WalkableMap(this.Header);
             this.RandomEncounters = new RandomEncounterCollection();
             this.RandomMysteryData = new RandomMysteryCollection();
             this.MapObjects = new MapObjectCollection();
@@ -153,7 +153,7 @@ namespace MapEditor.Models
                 walkableMapLines.Add(reader.ReadLine());
             }
 
-            var newWalkableMap = new WalkableMap { StringValue = string.Join("\r\n", walkableMapLines) };
+            var newWalkableMap = new WalkableMap(newHeader) { StringValue = string.Join("\r\n", walkableMapLines) };
 
             reader.ReadLine();
 

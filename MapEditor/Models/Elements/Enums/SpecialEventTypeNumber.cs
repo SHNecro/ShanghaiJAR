@@ -48,7 +48,7 @@ namespace MapEditor.Models.Elements.Enums
         IfPAs = 21,
         [Description("Set illegal navichip check var7 0/1")]
         IfAnyIllegalNavi = 22,
-        [Description("Set healing collction check var7 0/1")]
+        [Description("Set healing collection check var7 0/1")]
         IfHealingCollection = 23,
         [Description("Set alphabet soup check var7 0/1")]
         IfAlphabetSoup = 24,

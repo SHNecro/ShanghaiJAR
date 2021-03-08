@@ -390,15 +390,11 @@ wait:15:False
 wait:15:False
 fade:15:255:0:0:0:True
 playerHide:False
-mapChange:uraNet9:96:96:0:0
+mapChange:deepura1:72:295:0:0
 fade:15:0:0:0:0:True
+emove:プレイヤー:up,16
 bgmon:ura_internet
 bgmfade:100:90:False
-msgopen:
-msg:Misc.DemoEndDialogue1
-msg:Misc.DemoEndDialogue2
-msgclose:
-editFlag:890:True
 end
 
 ID:DeepNetPortalShadeTrigger

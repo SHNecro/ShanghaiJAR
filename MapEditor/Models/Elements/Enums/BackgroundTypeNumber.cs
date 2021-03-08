@@ -85,6 +85,8 @@ namespace MapEditor.Models.Elements.Enums
         [Description("Central")]
         Central = 38,
         [Description("Heaven Water (cyan)")]
-        HeavenWater = 39
+        HeavenWater = 39,
+        [Description("Deep Undernet")]
+        DeepUra = 40
     }
 }

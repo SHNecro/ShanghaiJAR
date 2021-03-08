@@ -64,6 +64,7 @@ namespace NSBackground
             [37] = new FinalFloorBack(),
             [38] = new CentralBack(),
             [39] = new BackgroundBase(Color.FromArgb(87, 206, 234)),
+            [40] = new DeepUraBack(),
         };
 
 		public static BackgroundBase BackMake(int number)

@@ -357,6 +357,7 @@
     <Compile Include="AddOn\Scavenger.cs" />
     <Compile Include="Attack\Butterfly.cs" />
     <Compile Include="Attack\ButterflyHoc.cs" />
+    <Compile Include="Background\DeepUraBack.cs" />
     <Compile Include="Chip\DarkFlae.cs" />
     <Compile Include="Attack\flanBunshin.cs" />
     <Compile Include="Attack\FlanGear.cs" />
@@ -1378,6 +1379,8 @@
     <Content Include="Graphics\charachip21.png" />
     <Content Include="Graphics\chipgraphic23.png" />
     <Content Include="Graphics\chipicone.png" />
+    <Content Include="Graphics\deepura1f1.png" />
+    <Content Include="Graphics\deepuranet.png" />
     <Content Include="Graphics\druidman.png" />
     <Content Include="Graphics\druidmanSP.png" />
     <Content Include="Graphics\Face10.png" />
