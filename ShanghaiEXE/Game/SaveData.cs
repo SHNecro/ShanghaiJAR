@@ -681,8 +681,8 @@ namespace NSGame
                 
                 var refundedAddons = new List<Tuple<int, int, string>>();
                 var refundedAddonNames = new List<string>();
-                var voileCRecovBought = this.shopCount[7, 8] > 0;
-                var voileCShotgunBought = this.shopCount[7, 9] > 0;
+                var voileCRecovBought = this.shopCount[11, 8] > 0;
+                var voileCShotgunBought = this.shopCount[11, 9] > 0;
                 var undersquareCLanceBought = this.shopCount[14, 2] > 0;
                 var undernetLostLghtBought = this.shopCount[15, 1] > 0;
                 var engellesFullOpenOpened = this.getMystery[149];
