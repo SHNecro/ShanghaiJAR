@@ -899,8 +899,36 @@ namespace NSGame
                 this.ValList[199] = 3;
             }
 
+            if (this.ValList[199] == 3)
+            {
+                var reAddedAddOns = new List<string>();
+
+                var engellesCRecovOpened = this.getMystery[136];
+                if (engellesCRecovOpened && !this.haveAddon.Any(ao => ao is CRepair))
+                {
+                    this.GetAddon(new CRepair(AddOnBase.ProgramColor.blue));
+                    reAddedAddOns.Add(ShanghaiEXE.Translate("AddOn.CRepairName"));
+                }
+
+                var undersquareCShotgunBought = this.shopCount[14, 1] > 0;
+                if (undersquareCShotgunBought && !this.haveAddon.Any(ao => ao is CShotGun))
+                {
+                    this.GetAddon(new CShotGun(AddOnBase.ProgramColor.blue));
+                    reAddedAddOns.Add(ShanghaiEXE.Translate("AddOn.CShotgunName"));
+                }
+
+                if (reAddedAddOns.Any())
+                {
+                    var reAddDialogue = ShanghaiEXE.Translate("Retcon.0550ReAddedAddOns");
+                    reAddDialogue.Text += string.Join("，", reAddedAddOns);
+                    retconMessages.Add(reAddDialogue);
+                }
+
+                this.ValList[199] = 4;
+            }
+
             // Set var to "current save version"
-            this.ValList[199] = 3;
+            this.ValList[199] = 4;
             return retconMessages;
         }
 
