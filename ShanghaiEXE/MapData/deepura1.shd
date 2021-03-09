@@ -82,6 +82,35 @@ battle:27:0:4:1:1:1:1:0::0:1:3:1:1:1:1:0::0:1:3:2:1:1:1:0::0:0:1:False:False:Tru
 
 
 
+ID:BGMStart
+position:0:0:0
+page:1
+startterms:Auto
+type:1
+terms:none
+move:jump,32:right,16:left,16
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmon:DeepArea
+eventDeath:
+end
+page:2
+startterms:Auto
+type:0
+terms:variable/14/False/0/3
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+bgmoff:
+eventDeath:
+end
+
 ID:Sprite
 position:64:240:0
 page:1
@@ -112,6 +141,8 @@ graphic:-2:256,0,80,48,6
 hitrange:8:0:0:0
 hitform:circle
 event:
+editFlag:887:True
+editFlag:888:True
 bgmfade:0:90:False
 fade:90:255:255:255:255:True
 bgmfade:0:0:False

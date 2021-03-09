@@ -132,6 +132,18 @@ event:
 bgmoff:
 eventDeath:
 end
+page:3
+startterms:Auto
+type:0
+terms:flag/888
+move:
+speed:0
+graphic:-1:0,0,0,0,0
+hitrange:0:0:0:0
+hitform:square
+event:
+eventDeath:
+end
 
 ID:エラー交換屋
 position:116:228:0
@@ -393,7 +405,6 @@ playerHide:False
 mapChange:deepura1:72:295:0:0
 fade:15:0:0:0:0:True
 emove:プレイヤー:up,16
-bgmon:ura_internet
 bgmfade:100:90:False
 end
 
