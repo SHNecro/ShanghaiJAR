@@ -6,6 +6,11 @@ namespace NSAddOn
     [Serializable]
     internal class Mammon : AddOnBase
     {
+        public const int ChipCost = 2000;
+        public const int ChargeShotCost = 750;
+        public const int AssaultBusterCost = 250;
+        public const int BusterCost = 250;
+
         public Mammon(AddOnBase.ProgramColor color) : base(color)
         {
             this.Init();
