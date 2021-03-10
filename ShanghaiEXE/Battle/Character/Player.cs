@@ -874,22 +874,8 @@ namespace NSBattle.Character
                 this.sound.PlaySE(SoundEffect.damageplayer);
                 this.Hp -= 30;
             }
-            if (this.addonSkill[74])
-            {
-                if (this.savedata.Money < NSAddOn.Mammon.ChipCost)
-                {
-                    this.sound.PlaySE(SoundEffect.error);
-                    this.haveChip[0] = new Reygun(this.sound);
-                }
-                else
-                {
-                    this.savedata.Money -= NSAddOn.Mammon.ChipCost;
-                }
-            }
             if (this.chargeBypass && this.chargeMax)
-            {
                 this.haveChip[0].pluspower += 10;
-            }
             if (this.style == Player.STYLE.witch && (uint)this.haveChip[0].element > 0U)
             {
                 if (this.haveChip[0].element == this.element)
@@ -898,9 +884,7 @@ namespace NSBattle.Character
                     this.haveChip[0].pluspower += 10;
             }
             if (this.style == Player.STYLE.fighter && this.haveChip[0].element == ChipBase.ELEMENT.normal)
-            {
                 this.haveChip[0].pluspower += 10;
-            }
             if (!this.chargeStock)
             {
                 this.charge = false;
@@ -950,29 +934,11 @@ namespace NSBattle.Character
         {
             this.charge = false;
             this.chargeOff = false;
-            
             if (this.chargeMax)
             {
                 bool flag = true;
                 if (this.ponkothu && this.Random.Next(3) < 2)
-                {
                     flag = false;
-                }
-                if (this.addonSkill[74])
-                {
-                    if (this.savedata.Money < NSAddOn.Mammon.ChargeShotCost)
-                    {
-                        if (this.Random.Next(3) < 2)
-                        {
-                            flag = false;
-                        }
-                    }
-                    else
-                    {
-                        this.savedata.Money -= NSAddOn.Mammon.ChargeShotCost;
-                    }
-                }
-
                 if (flag)
                 {
                     this.PluspointFighter(5);
@@ -996,9 +962,7 @@ namespace NSBattle.Character
                 this.chargeMax = false;
             }
             else
-            {
                 this.motion = Player.PLAYERMOTION._buster;
-            }
             this.waittime = 0;
             this.canMove = false;
         }
@@ -1192,128 +1156,89 @@ namespace NSBattle.Character
                     if (this.bustor == Player.BUSTOR.assault)
                     {
                         this.chargeTime = 0;
+                        bool flag = true;
+                        if (this.ponkothu && this.Random.Next(3) < 2)
+                            flag = false;
                         this.animationpoint = CharacterAnimation.BusterAnimation(this.waittime);
                         int num1 = this.busterRapid >= 3 ? busterRapid + 2 : busterRapid;
-                        var adjustedWaitTime = this.waittime + num1;
-                        switch (adjustedWaitTime)
+                        if (this.waittime == 10 - num1)
                         {
-                            case 10:
-                                bool flag = true;
-                                if (this.ponkothu && this.Random.Next(3) < 2)
-                                {
-                                    flag = false;
-                                }
-                                if (this.addonSkill[74])
-                                {
-                                    if (this.savedata.Money < NSAddOn.Mammon.AssaultBusterCost)
-                                    {
-                                        if (this.Random.Next(3) < 2)
-                                        {
-                                            this.sound.PlaySE(SoundEffect.switchon);
-                                            flag = false;
-                                        }
-                                    }
-                                    else
-                                    {
-                                        this.savedata.Money -= NSAddOn.Mammon.AssaultBusterCost;
-                                    }
-                                }
-
-                                if (flag)
-                                {
-                                    this.vusterFire = true;
-                                    this.sound.PlaySE(SoundEffect.vulcan);
-                                }
-                                else
-                                {
-                                    this.vusterFire = false;
-                                    this.sound.PlaySE(SoundEffect.switchon);
-                                }
+                            if (flag)
+                            {
+                                this.vusterFire = true;
+                                this.sound.PlaySE(SoundEffect.vulcan);
                                 break;
-                            case 12:
-                                int num2 = this.style != Player.STYLE.fighter ? busterPower : busterPower * 2;
-                                this.PluspointFighter(1);
-                                if (this.vusterFire)
-                                {
-                                    if (this.addonSkill[36])
-                                        this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                    if (this.addonSkill[37])
-                                        this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                    this.parent.attacks.Add(new AssaultBuster(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, !this.badstatus[1] ? num2 : num2 / 2, busterPower / 2, busterCharge, this.busterBlue, ChipBase.ELEMENT.normal));
-                                }
-                                if (Input.IsPush(Button._B) && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
-                                {
-                                    this.waittime = 0;
-                                }
-                                else
-                                {
-                                    this.canMove = true;
-                                }
-                                break;
-                            case 14:
-                                this.motion = Player.PLAYERMOTION._neutral;
-                                this.animationpoint = new Point();
-                                this.canMove = true;
-                                break;
+                            }
+                            this.vusterFire = false;
+                            this.sound.PlaySE(SoundEffect.switchon);
+                            break;
                         }
-                    }
-                    else
-                    {
-                        this.animationpoint = CharacterAnimation.BusterAnimation(this.waittime);
-                        switch (this.waittime)
+                        if (this.waittime == 12 - num1)
                         {
-                            case 4:
-                                bool flag1 = true;
-                                if (this.ponkothu && this.Random.Next(3) < 2)
-                                {
-                                    flag1 = false;
-                                }
-                                if (this.addonSkill[74])
-                                {
-                                    if (this.savedata.Money < NSAddOn.Mammon.BusterCost)
-                                    {
-                                        if (this.Random.Next(3) < 2)
-                                        {
-                                            flag1 = false;
-                                        }
-                                    }
-                                    else
-                                    {
-                                        this.savedata.Money -= NSAddOn.Mammon.BusterCost;
-                                    }
-                                }
-
-                                if (flag1)
-                                {
-                                    this.vusterFire = true;
-                                    if (this.addonSkill[36])
-                                        this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                    if (this.addonSkill[37])
-                                        this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                    this.sound.PlaySE(SoundEffect.buster);
-                                    break;
-                                }
-                                this.vusterFire = false;
-                                this.sound.PlaySE(SoundEffect.switchon);
+                            int num2 = this.style != Player.STYLE.fighter ? busterPower : busterPower * 2;
+                            this.PluspointFighter(1);
+                            if (flag)
+                            {
+                                if (this.addonSkill[36])
+                                    this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
+                                if (this.addonSkill[37])
+                                    this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
+                                this.parent.attacks.Add(new AssaultBuster(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, !this.badstatus[1] ? num2 : num2 / 2, busterPower / 2, busterCharge, this.busterBlue, ChipBase.ELEMENT.normal));
+                            }
+                            if (Input.IsPush(Button._B) && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
+                            {
+                                this.waittime = 0;
                                 break;
-                            case 6:
-                                if (this.vusterFire)
-                                {
-                                    int num = this.style != Player.STYLE.fighter ? busterPower : busterPower * 2;
-                                    this.PluspointFighter(2);
-                                    this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X, this.position.Y, this.union, !this.badstatus[1] ? num : num / 2, BustorShot.SHOT.bustor, ChipBase.ELEMENT.normal, false, 0));
-                                }
-                                this.canMove = true;
-                                break;
-                            case 9:
-                                this.canMove = true;
-                                break;
+                            }
+                            this.canMove = true;
+                            break;
                         }
-                        if (this.waittime == 35 - busterRapid * 5)
+                        if (this.waittime == 14 - num1)
                         {
                             this.motion = Player.PLAYERMOTION._neutral;
-                            this.waittime = 0;
+                            this.animationpoint = new Point();
+                            this.canMove = true;
+                            break;
                         }
+                        break;
+                    }
+                    bool flag1 = true;
+                    if (this.ponkothu && this.Random.Next(3) < 2)
+                        flag1 = false;
+                    this.animationpoint = CharacterAnimation.BusterAnimation(this.waittime);
+                    switch (this.waittime)
+                    {
+                        case 4:
+                            if (flag1)
+                            {
+                                this.vusterFire = true;
+                                if (this.addonSkill[36])
+                                    this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
+                                if (this.addonSkill[37])
+                                    this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
+                                this.sound.PlaySE(SoundEffect.buster);
+                                break;
+                            }
+                            this.vusterFire = false;
+                            this.sound.PlaySE(SoundEffect.switchon);
+                            break;
+                        case 6:
+                            if (flag1)
+                            {
+                                int num = this.style != Player.STYLE.fighter ? busterPower : busterPower * 2;
+                                this.PluspointFighter(2);
+                                this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X, this.position.Y, this.union, !this.badstatus[1] ? num : num / 2, BustorShot.SHOT.bustor, ChipBase.ELEMENT.normal, false, 0));
+                            }
+                            this.canMove = true;
+                            break;
+                        case 9:
+                            this.canMove = true;
+                            break;
+                    }
+                    if (this.waittime == 35 - busterRapid * 5)
+                    {
+                        this.motion = Player.PLAYERMOTION._neutral;
+                        this.waittime = 0;
                     }
                     break;
                 case Player.PLAYERMOTION._charge:
