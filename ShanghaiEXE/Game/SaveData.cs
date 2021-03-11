@@ -41,7 +41,6 @@ namespace NSGame
         };
         public static int[,] Pad = {{132,118,50,76,33,35,10,28,31,12,53,78},{100,102,101,103,3,2,4,5,7,6,-1,8}};
         public static bool ScreenMode = false;
-        public static bool AdjustBustLevel = false;
         public bool saveEnd = true;
         private bool flugEnd = true;
         private bool valEnd = true;

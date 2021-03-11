@@ -327,8 +327,6 @@ namespace NSGame
             ShanghaiEXE.languageTranslationService = new LanguageTranslationService(ShanghaiEXE.Config.Language);
             ShanghaiEXE.language = ShanghaiEXE.Config.Language == "en-US" ? 1 : 0;
 
-            SaveData.AdjustBustLevel = ShanghaiEXE.Config.AdjustBustingLevel;
-
             if (ShanghaiEXE.Config.ShowDialogueTester)
             {
                 var dialogueTester = new DialogueTester(this, () => scene);

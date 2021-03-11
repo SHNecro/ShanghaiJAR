@@ -263,8 +263,6 @@
                 <StackPanel Orientation="Vertical">
                     <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DialogueTester}"
                               IsChecked="{Binding ShowDialogueTester}"/>
-                    <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=AdjustBustingLevel}"
-                              IsChecked="{Binding AdjustBustingLevel}"/>
                     <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=AllowTurboSlowdown}"
                               IsChecked="{Binding AllowTurboSlowdown}"/>
                     <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DisableBGMOverride}"

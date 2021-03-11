@@ -59,8 +59,6 @@ namespace Common.Config
 
         public bool ShowDialogueTester { get; set; } = false;
 
-        public bool AdjustBustingLevel { get; set; } = false;
-
         #region New
 
         [OptionalField(VersionAdded = 2)]

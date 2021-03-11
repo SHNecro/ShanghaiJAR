@@ -179,7 +179,7 @@ namespace NSBattle
                         this.frame = 0;
                         this.AddLoot();
                     }
-                    else if (SaveData.AdjustBustLevel)
+                    else if (this.savedata.addonSkill[72])
                     {
                         if (Input.IsPress(Button.Up))
                         {
@@ -566,7 +566,7 @@ namespace NSBattle
                         dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
                         ++num;
                     }
-                    if (SaveData.AdjustBustLevel && this.scene == Result.RESULT.waitInput)
+                    if (this.savedata.addonSkill[72] && this.scene == Result.RESULT.waitInput)
                     {
                         var bobStage = (this.frame % 12) / 4;
                         if (this.selectedBustinglevel != this.bustinglevel || (this.illegal && !this.chooseIllegal))
