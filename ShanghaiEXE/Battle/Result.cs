@@ -22,6 +22,9 @@ namespace NSBattle
         private readonly bool[,] screen = new bool[7, 6];
         private readonly byte bustinglevel = 0;
         private byte selectedBustinglevel = 0;
+        private int selectedCounterBugs;
+        private int selectedCounterErrors;
+        private int selectedCounterFreezes;
         private readonly Point[] openscreen = new Point[42];
         private byte screenflame = 0;
         private readonly int[] getitem = new int[3];
@@ -103,6 +106,10 @@ namespace NSBattle
 
                 this.bustinglevel = this.CalculateBustingRank(t, simu, damage, move);
                 this.selectedBustinglevel = this.bustinglevel;
+
+                this.selectedCounterBugs = this.parent.lastCounterBug;
+                this.selectedCounterErrors = this.parent.lastCounterError;
+                this.selectedCounterFreezes = this.parent.lastCounterFreeze;
 
                 if (this.parent.resultError)
                 {
@@ -205,6 +212,40 @@ namespace NSBattle
                             }
                             this.CalculateLoot();
                         }
+                        /*
+                        else if (Input.IsPress(Button.Left))
+                        {
+                            if (this.selectedCounterBugs > 0)
+                            {
+                                this.selectedCounterBugs--;
+                            }
+                            else if (this.selectedCounterFreezes > 0)
+                            {
+                                this.selectedCounterFreezes--;
+                            }
+                            else if (this.selectedCounterErrors > 0)
+                            {
+                                this.selectedCounterErrors--;
+                            }
+                            this.CalculateLoot();
+                        }
+                        else if (Input.IsPress(Button.Right))
+                        {
+                            if (this.parent.lastCounterError > this.selectedCounterErrors)
+                            {
+                                this.selectedCounterErrors++;
+                            }
+                            else if (this.parent.lastCounterFreeze > this.selectedCounterFreezes)
+                            {
+                                this.selectedCounterFreezes++;
+                            }
+                            else if (this.parent.lastCounterBug > this.selectedCounterBugs)
+                            {
+                                this.selectedCounterBugs++;
+                            }
+                            this.CalculateLoot();
+                        }
+                        */
                     }
                     break;
                 case Result.RESULT.printchip:
@@ -277,19 +318,19 @@ namespace NSBattle
                     switch (this.scene)
                     {
                         case Result.RESULT.printchipend:
-                            if (this.parent.lastCounterBug > 0)
+                            if (this.selectedCounterBugs > 0)
                             {
                                 this.next = Result.RESULT.printBug;
                                 this.print = this.next;
                                 break;
                             }
-                            if (this.parent.lastCounterFreeze > 0)
+                            if (this.selectedCounterFreezes > 0)
                             {
                                 this.next = Result.RESULT.printFreeze;
                                 this.print = this.next;
                                 break;
                             }
-                            if (this.parent.lastCounterError > 0)
+                            if (this.selectedCounterErrors > 0)
                             {
                                 this.next = Result.RESULT.printError;
                                 this.print = this.next;
@@ -298,13 +339,13 @@ namespace NSBattle
                             flag = true;
                             break;
                         case Result.RESULT.printBugend:
-                            if (this.parent.lastCounterFreeze > 0)
+                            if (this.selectedCounterFreezes > 0)
                             {
                                 this.next = Result.RESULT.printFreeze;
                                 this.print = this.next;
                                 break;
                             }
-                            if (this.parent.lastCounterError > 0)
+                            if (this.selectedCounterErrors > 0)
                             {
                                 this.next = Result.RESULT.printError;
                                 this.print = this.next;
@@ -313,7 +354,7 @@ namespace NSBattle
                             flag = true;
                             break;
                         case Result.RESULT.printFreezeend:
-                            if (this.parent.lastCounterError > 0)
+                            if (this.selectedCounterErrors > 0)
                             {
                                 this.next = Result.RESULT.printError;
                                 this.print = this.next;
@@ -545,21 +586,21 @@ namespace NSBattle
                     this._position = new Vector2(this.windowposition.X + 128f, this.windowposition.Y + 47f);
                     dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
                     int num = 0;
-                    for (int index = 0; index < this.parent.lastCounterBug; ++index)
+                    for (int index = 0; index < this.selectedCounterBugs; ++index)
                     {
                         this._rect = new Rectangle(352, 24, 8, 8);
                         this._position = new Vector2(this.windowposition.X + 144f + num * 8, this.windowposition.Y + 55f);
                         dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
                         ++num;
                     }
-                    for (int index = 0; index < this.parent.lastCounterFreeze; ++index)
+                    for (int index = 0; index < this.selectedCounterFreezes; ++index)
                     {
                         this._rect = new Rectangle(360, 24, 8, 8);
                         this._position = new Vector2(this.windowposition.X + 144f + num * 8, this.windowposition.Y + 55f);
                         dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
                         ++num;
                     }
-                    for (int index = 0; index < this.parent.lastCounterError; ++index)
+                    for (int index = 0; index < this.selectedCounterErrors; ++index)
                     {
                         this._rect = new Rectangle(368, 24, 8, 8);
                         this._position = new Vector2(this.windowposition.X + 144f + num * 8, this.windowposition.Y + 55f);
@@ -622,7 +663,7 @@ namespace NSBattle
                             break;
                         case Result.RESULT.printBug:
                         case Result.RESULT.printBugend:
-                            this._rect = new Rectangle(56 * this.parent.lastCounterBug, 0, 56, 48);
+                            this._rect = new Rectangle(56 * this.selectedCounterBugs, 0, 56, 48);
                             dg.DrawImage(dg, "chipgraphic0", this._rect, true, this._position, Color.White);
                             if (this.scene == Result.RESULT.printBugend || this.scene == Result.RESULT.fadeout || this.scene == Result.RESULT.end)
                             {
@@ -641,7 +682,7 @@ namespace NSBattle
                             break;
                         case Result.RESULT.printFreeze:
                         case Result.RESULT.printFreezeend:
-                            this._rect = new Rectangle(168 + 56 * this.parent.lastCounterFreeze, 0, 56, 48);
+                            this._rect = new Rectangle(168 + 56 * this.selectedCounterFreezes, 0, 56, 48);
                             dg.DrawImage(dg, "chipgraphic0", this._rect, true, this._position, Color.White);
                             if (this.scene == Result.RESULT.printFreezeend || this.scene == Result.RESULT.fadeout || this.scene == Result.RESULT.end)
                             {
@@ -659,7 +700,7 @@ namespace NSBattle
                             break;
                         case Result.RESULT.printError:
                         case Result.RESULT.printErrorend:
-                            this._rect = new Rectangle(336 + 56 * this.parent.lastCounterError, 0, 56, 48);
+                            this._rect = new Rectangle(336 + 56 * this.selectedCounterErrors, 0, 56, 48);
                             dg.DrawImage(dg, "chipgraphic0", this._rect, true, this._position, Color.White);
                             if (this.scene == Result.RESULT.printErrorend || this.scene == Result.RESULT.fadeout || this.scene == Result.RESULT.end)
                             {
@@ -809,7 +850,7 @@ namespace NSBattle
                 }
             }
 
-            switch (this.parent.lastCounterBug)
+            switch (this.selectedCounterBugs)
             {
                 case 1:
                     this.getitem[0] = 1;
@@ -821,7 +862,7 @@ namespace NSBattle
                     this.getitem[0] = 10;
                     break;
             }
-            switch (this.parent.lastCounterFreeze)
+            switch (this.selectedCounterFreezes)
             {
                 case 1:
                     this.getitem[1] = 1;
@@ -833,7 +874,7 @@ namespace NSBattle
                     this.getitem[1] = 10;
                     break;
             }
-            switch (this.parent.lastCounterError)
+            switch (this.selectedCounterErrors)
             {
                 case 1:
                     this.getitem[2] = 1;
