@@ -1,4 +1,8 @@
-﻿using NSGame;
+﻿using NSBattle;
+using NSEffect;
+using NSGame;
+using NSShanghaiEXE.InputOutput.Audio;
+using SlimDX;
 using System;
 
 namespace NSAddOn
@@ -16,7 +20,7 @@ namespace NSAddOn
             this.ID = 97;
             this.name = ShanghaiEXE.Translate("AddOn.MammonName");
             this.Plus = true;
-            this.UseHz = 4;
+            this.UseHz = 6;
             this.UseCore = 3;
             var information = ShanghaiEXE.Translate("AddOn.MammonDesc");
             this.infomasion[0] = information[0];
@@ -27,6 +31,88 @@ namespace NSAddOn
         public override void Running(SaveData save)
         {
             save.addonSkill[74] = true;
+        }
+        
+        public static Action ApplyMammonPunishments(IAudioEngine sound, SceneBattle battle, ref int canopenchips, int chips)
+        {
+            if (chips >= 2)
+            {
+                sound.PlaySE(SoundEffect.damageplayer);
+
+                var playerChar = battle.player;
+                battle.effects.Add(new Debuff(
+                    sound,
+                    battle,
+                    new Vector2(
+                        (int)playerChar.positionDirect.X * (playerChar.union == Panel.COLOR.red ? 1 : -1),
+                        (int)playerChar.positionDirect.Y + 16),
+                    2,
+                    playerChar.position));
+            }
+
+            var chipPain = chips * 10;
+            if (chips >= 2)
+            {
+                battle.player.chipPain += chipPain;
+            }
+
+            var busterDowngrade = new int[] { 0, 0, 0 };
+            if (chips >= 3)
+            {
+                var downgradeAmount = chips - 2;
+                var newBusterStats = new int[3];
+                newBusterStats[0] = Math.Max(1, battle.player.busterPower - downgradeAmount);
+                newBusterStats[1] = Math.Max(1, battle.player.busterRapid - downgradeAmount);
+                newBusterStats[2] = Math.Max(1, battle.player.busterCharge - downgradeAmount);
+
+                busterDowngrade[0] = battle.player.busterPower - newBusterStats[0];
+                busterDowngrade[1] = battle.player.busterRapid - newBusterStats[1];
+                busterDowngrade[2] = battle.player.busterCharge - newBusterStats[2];
+
+                battle.player.busterPower = (byte)newBusterStats[0];
+                battle.player.busterRapid = (byte)newBusterStats[1];
+                battle.player.busterCharge = (byte)newBusterStats[2];
+            }
+
+            var addedAnxiety = false;
+            if (chips >= 4)
+            {
+                battle.player.mind.mindNow = MindWindow.MIND.pinch;
+                addedAnxiety = true;
+            }
+
+            var custSpeedDowngrade = 0;
+            if (chips >= 5)
+            {
+                var newCustSpeed = 1;
+                custSpeedDowngrade = battle.customgauge.Customspeed - newCustSpeed;
+                battle.CustomSpeedChange(newCustSpeed);
+            }
+
+            // Not undone at end of round, using a full, doc-boosted hand is asking for it.
+            if (chips >= 6)
+            {
+                canopenchips = Math.Max(1, canopenchips - 1);
+            }
+
+            return () =>
+            {
+                battle.player.chipPain -= chipPain;
+
+                battle.player.busterPower += (byte)busterDowngrade[0];
+                battle.player.busterRapid += (byte)busterDowngrade[1];
+                battle.player.busterCharge += (byte)busterDowngrade[2];
+
+                if (addedAnxiety)
+                {
+                    if (battle.player.mind.mindNow == MindWindow.MIND.pinch)
+                    {
+                        battle.player.mind.mindNow = MindWindow.MIND.normal;
+                    }
+                }
+
+                battle.CustomSpeedChange(battle.customgauge.Customspeed + custSpeedDowngrade);
+            };
         }
     }
 }

@@ -13,6 +13,8 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using NSEffect;
+using NSAddOn;
 
 namespace NSBattle
 {
@@ -66,6 +68,7 @@ namespace NSBattle
         private bool getData;
         private bool sendData;
         private bool escape;
+        private Action revertMammonAction;
 
         public Custom(IAudioEngine s, SceneBattle p, SceneMain main, Player pl, SaveData save)
           : base(s)
@@ -479,8 +482,8 @@ namespace NSBattle
                             this.parent.ResetPlayerChips();
                             if (this.transmission)
                             {
-                                int num1 = 0;
-                                bool flag1 = false;
+                                int usableChips = 0;
+                                bool darkChip = false;
                                 for (int index = 0; index < this.selectedchips.Length; ++index)
                                 {
                                     int selectedchip = this.selectedchips[index];
@@ -489,10 +492,10 @@ namespace NSBattle
                                         if (!(this.canchips[selectedchip].chip is DammyChip))
                                         {
                                             if (this.canchips[selectedchip].chip.dark)
-                                                flag1 = true;
-                                            bool flag2 = false;
-                                            bool flag3 = false;
-                                            bool flag4 = false;
+                                                darkChip = true;
+                                            bool modifierChip = false;
+                                            bool stungame = false;
+                                            bool timestop = false;
                                             int num2 = 0;
                                             switch (this.canchips[selectedchip].chip.number)
                                             {
@@ -500,63 +503,64 @@ namespace NSBattle
                                                     if (index > 0)
                                                     {
                                                         this.player.PluspointDoctor(20);
-                                                        flag4 = true;
-                                                        flag2 = true;
+                                                        timestop = true;
+                                                        modifierChip = true;
                                                         break;
                                                     }
                                                     break;
                                                 case 188:
-                                                    if (index > 0 && this.player.haveChip[num1 - 1].powerprint)
+                                                    if (index > 0 && this.player.haveChip[usableChips - 1].powerprint)
                                                     {
                                                         this.player.PluspointDoctor(20);
                                                         num2 = 10;
-                                                        flag2 = true;
+                                                        modifierChip = true;
                                                         break;
                                                     }
                                                     break;
                                                 case 189:
-                                                    if (index > 0 && this.player.haveChip[num1 - 1].powerprint)
+                                                    if (index > 0 && this.player.haveChip[usableChips - 1].powerprint)
                                                     {
                                                         this.player.PluspointDoctor(20);
                                                         num2 = 30;
-                                                        flag2 = true;
+                                                        modifierChip = true;
                                                         break;
                                                     }
                                                     break;
                                                 case 190:
-                                                    if (index > 0 && this.player.haveChip[num1 - 1].powerprint)
+                                                    if (index > 0 && this.player.haveChip[usableChips - 1].powerprint)
                                                     {
                                                         this.player.PluspointDoctor(20);
-                                                        flag3 = true;
-                                                        flag2 = true;
+                                                        stungame = true;
+                                                        modifierChip = true;
                                                         break;
                                                     }
                                                     break;
                                             }
-                                            if (!flag2)
+                                            if (!modifierChip)
                                             {
                                                 this.player.haveChip.Add(this.canchips[selectedchip].ReturnChip(this.canchips[selectedchip].chip.number));
-                                                ++num1;
+                                                ++usableChips;
                                             }
                                             else
                                             {
-                                                this.player.haveChip[num1 - 1].pluspower += num2;
-                                                if (flag3)
-                                                    this.player.haveChip[num1 - 1].paralyze = true;
-                                                if (flag4)
-                                                    this.player.haveChip[num1 - 1].timeStopper = true;
+                                                this.player.haveChip[usableChips - 1].pluspower += num2;
+                                                if (stungame)
+                                                    this.player.haveChip[usableChips - 1].paralyze = true;
+                                                if (timestop)
+                                                    this.player.haveChip[usableChips - 1].timeStopper = true;
                                             }
                                         }
                                         this.chipUseFlag[this.sortnumber[selectedchip]] = true;
                                     }
                                 }
-                                if (flag1)
+                                if (darkChip)
                                     this.player.mind.mindNow = MindWindow.MIND.dark;
                                 else if (this.player.mind.mindNow == MindWindow.MIND.dark)
                                     this.player.mind.mindNow = MindWindow.MIND.normal;
-                                this.parent.player.numOfChips = num1;
+                                this.parent.player.numOfChips = usableChips;
                             }
                         }
+
                         this.EventStartbattle();
                     }
                     if (this.frame <= 2)
@@ -565,9 +569,9 @@ namespace NSBattle
                     {
                         if (this.player.style != Player.STYLE.doctor && this.canopenchips == 5)
                             this.canopenchips = 6;
-                        if (this.canopenchips <= 4 && this.canopenchips + selectchips >= 5 && this.player.style != Player.STYLE.doctor)
+                        if (this.canopenchips <= 4 && this.canopenchips + this.selectchips >= 5 && this.player.style != Player.STYLE.doctor)
                             ++this.canopenchips;
-                        this.canopenchips += selectchips;
+                        this.canopenchips += this.selectchips;
                         if (this.canopenchips > 12)
                             this.canopenchips = 12;
                         this.chipadd = false;
@@ -620,9 +624,17 @@ namespace NSBattle
                     ++this.parent.turn;
                     if (this.player.addonSkill[68])
                         ++this.canopenchips;
+
+                    if (this.savedata.addonSkill[74])
+                    {
+                        this.revertMammonAction?.Invoke();
+                        this.revertMammonAction = Mammon.ApplyMammonPunishments(this.sound, this.parent, ref this.canopenchips, this.selectchips);
+                    }
+
                     if (this.canopenchips > 12)
                         this.canopenchips = 12;
                     this.parent.nowscene = SceneBattle.BATTLESCENE.battle;
+
                     break;
                 case Custom.CUSTOMCHENE.escape:
                     if (this.savedata.selectQuestion == 0 && this.parent.canEscape)
@@ -928,6 +940,8 @@ namespace NSBattle
                     {
                         if (!this.parent.init)
                             this.parent.init = true;
+                        // Send chips
+                        // New chips added at Custom.CUSTOMCHENE.chipMake
                         if (this.cursor.Y == 0)
                         {
                             if (this.parent.namePrint)
@@ -938,6 +952,7 @@ namespace NSBattle
                             }
                             else
                             {
+                                // Clear existing chips
                                 if (this.selectchips > 0)
                                 {
                                     for (int index = 0; index < 6; ++index)
@@ -949,6 +964,7 @@ namespace NSBattle
                                 this.scene = Custom.CUSTOMCHENE.fadeOut;
                             }
                         }
+                        // ADD
                         else
                         {
                             if (this.parent.namePrint)
@@ -1026,7 +1042,7 @@ namespace NSBattle
                 {
                     if (this.selectchips > 0)
                     {
-                        this.chipSelecFlag[this.selectedchips[selectchips - 1]] = false;
+                        this.chipSelecFlag[this.selectedchips[this.selectchips - 1]] = false;
                         this.selectedchips[selectchips - 1] = -1;
                         --this.selectchips;
                         this.sound.PlaySE(SoundEffect.cancel);

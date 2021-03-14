@@ -39,6 +39,7 @@ namespace NSBattle.Character
         public const byte maxChips = 6;
         public ChipBase usingChip;
         public int numOfChips;
+        // Per-battle buster stats, permanent values in savedata.busterspec
         public byte busterPower;
         public byte busterRapid;
         public byte busterCharge;
@@ -73,6 +74,7 @@ namespace NSBattle.Character
         private Point NextPosi;
         private int nextchipwait;
         private int synkFlame;
+        public int chipPain;
 
         public int mindNow
         {
@@ -187,6 +189,8 @@ namespace NSBattle.Character
             this.printhp = false;
             this.usingChip = new ChipBase(s);
             this.positionold = new Point(0, 1);
+
+            this.chipPain = this.addonSkill[65] ? 30 : 0;
         }
 
         public void Setstyle(int sets)
@@ -869,10 +873,10 @@ namespace NSBattle.Character
                 this.sound.PlaySE(SoundEffect.repair);
                 this.Hp += 30;
             }
-            if (this.addonSkill[65])
+            if (this.chipPain != 0)
             {
                 this.sound.PlaySE(SoundEffect.damageplayer);
-                this.Hp -= 30;
+                this.Hp -= this.chipPain;
             }
             if (this.chargeBypass && this.chargeMax)
                 this.haveChip[0].pluspower += 10;
