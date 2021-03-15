@@ -11,6 +11,8 @@ using NSObject;
 using SlimDX;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
+using NSEnemy;
 
 namespace NSBattle.Character
 {
@@ -1283,17 +1285,8 @@ namespace NSBattle.Character
                     this.canMove = true;
                     break;
                 case Player.PLAYERMOTION._chip:
-                    if (this.usingChip.timeStopper)
-                    {
-                        if (this.usingChip.BlackOut(this, this.parent, this.usingChip.name, this.usingChip.Power(this).ToString()))
-                        {
-                            if (!this.usingChip.chipUseEnd)
-                                this.usingChip.Action(this, this.parent);
-                            if (this.usingChip.chipUseEnd)
-                                this.usingChip.ActionEnd(this, this.parent);
-                        }
-                    }
-                    else
+                    // Short-circuiting, only evaluate BlackOut if timeStopper true
+                    if (!this.usingChip.timeStopper || this.usingChip.BlackOut(this, this.parent, this.usingChip.name, this.usingChip.Power(this).ToString()))
                     {
                         if (!this.usingChip.chipUseEnd)
                             this.usingChip.Action(this, this.parent);
