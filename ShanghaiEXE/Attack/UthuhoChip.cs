@@ -44,14 +44,21 @@ namespace NSAttack
             if (this.over)
                 return;
             this.PanelBright();
+
             this.positionDirect.X += this.movespeed * this.UnionRebirth;
-            this.position.X = this.Calcposition(this.positionDirect, 56, false).X;
+            var oldX = this.position.X;
+            var newX = this.Calcposition(this.positionDirect, 56, false).X;
+            if (newX != oldX)
+            {
+                this.PanelChange();
+            }
+            this.position.X = newX;
+
             if (positionDirect.X < 0.0 || positionDirect.X > 240.0)
                 this.flag = false;
             if (this.moveflame)
                 this.anime = !this.anime;
             this.FlameControl(2);
-            this.PanelChange();
         }
 
         public override void Render(IRenderer dg)
