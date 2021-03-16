@@ -952,6 +952,7 @@ bgmfade:0:30:False
 effect:5::0:1:2:1:-1:0:1:none
 wait:30:False
 fade:60:255:0:0:0:True
+editFlag:13:True
 PlugOut:
 playerHide:False
 mapChange:CompanyB1:60:53:0:5

@@ -291,6 +291,7 @@ msg:Map.CompanyServer4Chapter7BossEventStage11Dialogue1FaceShanghai
 msgclose:
 fade:60:255:0:0:0:True
 stopSkip:
+editFlag:13:False
 PlugOut:
 mapChange:Company3:73:72:0:3
 end
