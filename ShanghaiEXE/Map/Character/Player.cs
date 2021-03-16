@@ -250,7 +250,7 @@ namespace NSMap.Character
                     if (Input.IsPush(Button._B) || (uint)this.parent.step > 0U)
                     {
                         this.walkSpeed = 1f;
-                        this.animespeed = this.savedata.realORsiver ? 4 : 6;
+                        this.animespeed = this.savedata.isJackedIn ? 4 : 6;
                         this.run = true;
                         if (Input.IsPress(Button._B))
                             this.animeflame = 0;
@@ -266,7 +266,7 @@ namespace NSMap.Character
                     int num = this.parent.Field.Map_[this.floor, (int)this.Position.X / 8, (int)this.Position.Y / 8];
                     this.OverMove(num);
                     bool flag = this.MoveKey(num);
-                    if (this.savedata.addonSkill[30] && this.savedata.realORsiver && !this.savedata.FlagList[98])
+                    if (this.savedata.addonSkill[30] && this.savedata.isJackedIn && !this.savedata.FlagList[98])
                         this.MoveKey(num);
                     if (this.encount)
                     {
@@ -288,7 +288,7 @@ namespace NSMap.Character
                     {
                         if (!this.savedata.FlagList[271] && !this.savedata.FlagList[0] && !this.savedata.FlagList[785])
                         {
-                            if (this.savedata.realORsiver)
+                            if (this.savedata.isJackedIn)
                             {
                                 this.parent.eventmanager.EventClone(this.PlugOut());
                                 this.parent.eventmanager.playevent = true;
@@ -324,7 +324,7 @@ namespace NSMap.Character
                                 {
                                     if (this.infotype == 1 && this.savedata.ValList[4] <= 0 || this.savedata.FlagList[0] || this.infotype > 1)
                                         this.infotype = 0;
-                                    this.parent.eventmanager.EventClone(this.info.GetMessage(this.infotype * 2 + (this.savedata.realORsiver ? 1 : 0), this.savedata.ValList[3 + this.infotype]));
+                                    this.parent.eventmanager.EventClone(this.info.GetMessage(this.infotype * 2 + (this.savedata.isJackedIn ? 1 : 0), this.savedata.ValList[3 + this.infotype]));
                                     if (this.infotype == 0)
                                     {
                                         if (this.savedata.ValList[4] > 0)
@@ -388,7 +388,7 @@ namespace NSMap.Character
                         else if (this.frame % this.animespeed == 0)
                         {
                             ++this.animeflame;
-                            if (this.run && !this.savedata.realORsiver)
+                            if (this.run && !this.savedata.isJackedIn)
                             {
                                 if (this.animeflame >= 9)
                                     this.animeflame = 1;
@@ -591,7 +591,7 @@ namespace NSMap.Character
         {
             if (this.NoPrint)
                 return;
-            this._rect = new Rectangle(animeflame * 32 + (this.savedata.realORsiver ? 0 : (!this.run || this.animeflame <= 0 ? 224 : 416)), (int)this.angle * 48, 32, 48);
+            this._rect = new Rectangle(animeflame * 32 + (this.savedata.isJackedIn ? 0 : (!this.run || this.animeflame <= 0 ? 224 : 416)), (int)this.angle * 48, 32, 48);
             double num1 = 120.0 - field.CameraPlus.X;
             Point shake = this.Shake;
             double x = shake.X;

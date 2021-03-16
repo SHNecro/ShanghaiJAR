@@ -138,7 +138,7 @@ namespace NSMap.Character.Menu
         {
             if (Input.IsPress(Button._A))
             {
-                if (!this.savedata.realORsiver)
+                if (!this.savedata.isJackedIn)
                 {
                     this.eventmanager.events.Clear();
                     this.sound.PlaySE(SoundEffect.error);

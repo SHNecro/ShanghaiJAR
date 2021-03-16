@@ -55,7 +55,7 @@ namespace NSMap.Character.Menu
                 this.canselectmenu[index] = this.savedata.canselectmenu[index];
             if (this.savedata.FlagList[0])
             {
-                if (!this.savedata.realORsiver)
+                if (!this.savedata.isJackedIn)
                 {
                     this.canselectmenu[1] = false;
                     this.canselectmenu[3] = false;

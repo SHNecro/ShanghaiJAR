@@ -150,7 +150,7 @@ namespace NSGame
         public const int nameMany = 10;
         public int netWorkFace;
         public int message;
-        public bool realORsiver;
+        public bool isJackedIn;
         public int selectQuestion;
         private Thread shopThread;
         private Thread flagThread;
@@ -328,7 +328,7 @@ namespace NSGame
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.plase = str;
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.realORsiver = bool.Parse(str);
+                    this.isJackedIn = bool.Parse(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     string[] strArray19 = str.Split('@');
                     for (int index = 0; index < strArray19.Length - 1; ++index)
@@ -434,7 +434,7 @@ namespace NSGame
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.message = int.Parse(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.realORsiver = bool.Parse(str);
+                    this.isJackedIn = bool.Parse(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.nowMap = str;
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
@@ -1072,7 +1072,7 @@ namespace NSGame
             sourceString30.Append(this.plase);
             streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString30, SaveData.pass));
             StringBuilder sourceString31 = new StringBuilder();
-            sourceString31.Append(this.realORsiver);
+            sourceString31.Append(this.isJackedIn);
             streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString31, SaveData.pass));
             StringBuilder sourceString32 = new StringBuilder();
             foreach (byte num in this.regularchip)
@@ -1143,7 +1143,7 @@ namespace NSGame
             sourceString46.Append(this.message.ToString());
             streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString46, SaveData.pass));
             StringBuilder sourceString47 = new StringBuilder();
-            sourceString47.Append(this.realORsiver.ToString());
+            sourceString47.Append(this.isJackedIn.ToString());
             streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString47, SaveData.pass));
             StringBuilder sourceString48 = new StringBuilder();
             sourceString48.Append(this.nowMap.ToString());
@@ -1765,7 +1765,7 @@ namespace NSGame
 
         public void AddonSet()
         {
-            if (!this.realORsiver)
+            if (!this.isJackedIn)
                 this.HPNow = this.HPMax;
             for (int index = 0; index < this.busterspec.Length; ++index)
             {

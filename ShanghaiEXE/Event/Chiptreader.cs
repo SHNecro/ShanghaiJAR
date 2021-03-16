@@ -393,7 +393,7 @@ namespace NSEvent
                 this.eventmanager.AddEvent(new EditValue(this.sound, this.eventmanager, 2, false, 0, 5, "2", this.manager.parent.Player, this.savedata));
                 this.eventmanager.AddEvent(new EffectMake(this.sound, this.eventmanager, 4, "get", 0, 1, 2, 1, -1, 0, 1, "none", this.manager.parent, this.manager.parent.Field, null, this.savedata));
                 this.eventmanager.AddEvent(new PlayerHide(this.sound, this.eventmanager, true, this.manager.parent.Player, this.savedata));
-                string receiver = this.savedata.realORsiver ? ShanghaiEXE.Translate("ChipTrader.ResultRecipientShanghai") : ShanghaiEXE.Translate("ChipTrader.ResultRecipientAlice");
+                string receiver = this.savedata.isJackedIn ? ShanghaiEXE.Translate("ChipTrader.ResultRecipientShanghai") : ShanghaiEXE.Translate("ChipTrader.ResultRecipientAlice");
                 dialogue = ShanghaiEXE.Translate("ChipTrader.ResultDialogue1Format").Format(receiver, chipFolder.chip.name, chipCode);
                 this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.savedata));
                 this.eventmanager.AddEvent(new PlayerHide(this.sound, this.eventmanager, false, this.manager.parent.Player, this.savedata));

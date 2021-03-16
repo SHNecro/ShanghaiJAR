@@ -24,7 +24,7 @@ namespace NSEvent
 
         public override void Update()
         {
-            this.savedata.realORsiver = true;
+            this.savedata.isJackedIn = true;
             this.savedata.pluginMap = this.field.mapname;
             this.savedata.pluginX = this.player.position.X;
             this.savedata.pluginY = this.player.position.Y;

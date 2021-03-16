@@ -136,7 +136,7 @@ namespace NSMap
         {
             this.player = new NSMap.Character.Player(this.sound, this, new Point(32, 32), 0, MapCharacterBase.ANGLE.DOWN, this.main, this.savedata, 0.0f);
             this.field = new MapField(this.sound, "aliceroom", this.savedata, this);
-            this.savedata.realORsiver = false;
+            this.savedata.isJackedIn = false;
             if (plus >= 0)
             {
                 this.savedata.ValList[28] = plus;
@@ -849,13 +849,14 @@ namespace NSMap
             {
                 if (!this.hideStatus)
                 {
-                    if (this.savedata.realORsiver)
+                    if (this.savedata.isJackedIn)
                     {
                         Vector2 vector2 = new Vector2(24f, 8f);
                         this._rect = new Rectangle(80, 0, 44, 16);
                         this._position = vector2;
                         dg.DrawImage(dg, "battleobjects", this._rect, false, this._position, Color.White);
                         this.HP.HPRender(dg, new Vector2(vector2.X + 12f, vector2.Y - 1f));
+                        // 38: ROM element
                         if (this.savedata.ValList[38] > 0)
                         {
                             if (this.savedata.ValList[38] == 8 || this.savedata.ValList[38] == 7)

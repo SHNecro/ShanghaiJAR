@@ -21,16 +21,19 @@ namespace NSEvent
         public override void Update()
         {
             this.map.FieldSet(this.savedata.pluginMap, new Point((int)this.savedata.pluginX, (int)this.savedata.pluginY), this.savedata.pluginFroor, MapCharacterBase.ANGLE.DOWN);
-            this.savedata.realORsiver = false;
-            this.savedata.GetRandomMystery = new bool[600];
+            this.savedata.isJackedIn = false;
             this.savedata.FlagList[2] = false;
-            this.savedata.runSubChips[0] = false;
-            this.savedata.runSubChips[1] = false;
-            this.savedata.runSubChips[2] = false;
-            this.savedata.runSubChips[3] = false;
-            this.savedata.ValList[19] = 0;
-            this.savedata.HPNow = this.savedata.HPMax;
-            this.map.step = SceneMap.STEPS.normal;
+            if (!this.savedata.FlagList[13])
+            {
+                this.savedata.GetRandomMystery = new bool[600];
+                this.savedata.runSubChips[0] = false;
+                this.savedata.runSubChips[1] = false;
+                this.savedata.runSubChips[2] = false;
+                this.savedata.runSubChips[3] = false;
+                this.savedata.ValList[19] = 0;
+                this.savedata.HPNow = this.savedata.HPMax;
+                this.map.step = SceneMap.STEPS.normal;
+            }
             this.EndCommand();
         }
 

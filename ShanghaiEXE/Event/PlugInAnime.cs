@@ -35,7 +35,7 @@ namespace NSEvent
             this.FlameControl(3);
             if (this.frame < 90)
                 return;
-            this.savedata.realORsiver = true;
+            this.savedata.isJackedIn = true;
             this.savedata.pluginMap = this.field.mapname;
             this.savedata.pluginX = this.player.position.X;
             this.savedata.pluginY = this.player.position.Y;

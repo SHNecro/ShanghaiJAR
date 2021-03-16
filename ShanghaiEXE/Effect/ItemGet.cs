@@ -53,7 +53,7 @@ namespace NSEffect
             this._position = new Vector2(this.positionDirect.X + Shake.X, (float)(positionDirect.Y + (double)this.Shake.Y - 1.0));
             Rectangle _rect = new Rectangle(0, 384, 32, 48);
             dg.DrawImage(dg, "charachip1", _rect, false, this._position, false, Color.White);
-            this._rect = new Rectangle(192 + this.animationpoint.X * 24 + (!this.savedata.realORsiver ? 72 : 0), 0, 24, 48);
+            this._rect = new Rectangle(192 + this.animationpoint.X * 24 + (!this.savedata.isJackedIn ? 72 : 0), 0, 24, 48);
             this._position = new Vector2(this.positionDirect.X + Shake.X, (float)(positionDirect.Y + (double)this.Shake.Y - 2.0 + 1.0) - (int)this.y);
             this.color = Color.White;
             dg.DrawImage(dg, "body3", this._rect, false, this._position, this.rebirth, this.color);

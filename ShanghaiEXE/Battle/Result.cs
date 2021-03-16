@@ -488,7 +488,7 @@ namespace NSBattle
                     this.parent.parent.TexClear(false);
                     if (!(this.parent is NetBattle))
                     {
-                        this.savedata.HPnow = !this.savedata.realORsiver ? this.savedata.HPMax : this.parent.player.Hp;
+                        this.savedata.HPnow = !this.savedata.isJackedIn ? this.savedata.HPMax : this.parent.player.Hp;
                         this.parent.main.mapscene.HP.hpprint = this.savedata.HPnow;
                         this.savedata.mind = this.parent.mind.MindNow == MindWindow.MIND.pinch || this.parent.mind.MindNow == MindWindow.MIND.dark || this.parent.mind.MindNow == MindWindow.MIND.angry ? 0 : (int)this.parent.mind.MindNow;
                     }

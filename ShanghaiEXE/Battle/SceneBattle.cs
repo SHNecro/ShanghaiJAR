@@ -819,7 +819,7 @@ namespace NSBattle
             else
             {
                 this.savedata.FlagList[6] = false;
-                if (this.savedata.realORsiver)
+                if (this.savedata.isJackedIn)
                     this.savedata.HPnow = 1;
                 else
                     this.savedata.HPnow = this.savedata.HPMax;
