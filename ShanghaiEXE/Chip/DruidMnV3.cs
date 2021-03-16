@@ -124,7 +124,7 @@ namespace NSChip
                             this.power,
                             -1,
                             ChipBase.ELEMENT.poison);
-                        character.parent.attacks.Add(towerAttack);
+                        character.parent.attacks.Add(this.Paralyze(towerAttack));
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
                             this.sound.PlaySE(SoundEffect.repair);
@@ -175,7 +175,7 @@ namespace NSChip
                             WaveSpeed,
                             this.element);
                         waveAttack.BadStatusSet(CharacterBase.BADSTATUS.poison, this.poisonPower * 8);
-                        character.parent.attacks.Add(waveAttack);
+                        character.parent.attacks.Add(this.Paralyze(waveAttack));
                     }
                 }
             }

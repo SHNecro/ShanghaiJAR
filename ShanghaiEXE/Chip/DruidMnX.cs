@@ -187,7 +187,7 @@ namespace NSChip
                                 break;
                         }
                         
-                        character.parent.attacks.Add(towerAttack);
+                        character.parent.attacks.Add(this.Paralyze(towerAttack));
 
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {

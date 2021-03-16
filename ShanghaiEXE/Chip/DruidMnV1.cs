@@ -92,7 +92,7 @@ namespace NSChip
                 {
                     if (bw.Item2 == burstAttackTime)
                     {
-                        character.parent.attacks.Add(new Tower(
+                        character.parent.attacks.Add(this.Paralyze(new Tower(
                             this.sound,
                             character.parent,
                             bw.Item1.X,
@@ -100,7 +100,7 @@ namespace NSChip
                             character.union,
                             this.power,
                             -1,
-                            ChipBase.ELEMENT.poison));
+                            ChipBase.ELEMENT.poison)));
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
                             this.sound.PlaySE(SoundEffect.repair);
