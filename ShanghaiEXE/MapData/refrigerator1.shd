@@ -1005,6 +1005,7 @@ wait:60:False
 playerHide:False
 editFlag:26:True
 editFlag:0:True
+editFlag:13:True
 PlugOut:
 end
 page:2
@@ -1032,6 +1033,7 @@ msg:Map.Refrigerator1IceEventStage3Dialogue6FaceShanghai
 msgclose:
 stopSkip:
 editValue:3:False:0:0:9
+editFlag:13:False
 editFlag:29:True
 end
 page:3

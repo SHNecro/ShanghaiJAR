@@ -2199,6 +2199,7 @@ fade:60:255:0:0:0:True
 playerHide:True
 stopSkip:
 editValue:14:False:0:0:3
+editFlag:13:True
 PlugOut:
 mapChange:ROMbase5f:66:57:0:0
 bgmfade:0:15:False
@@ -2219,6 +2220,7 @@ event:
 bgmoff:
 bgmon:encounter
 wait:30:False
+editFlag:13:True
 msgopen:
 canSkip:
 msg:Map.ROMnet4DruidEncounterEventStage11Dialogue1FaceYorihime

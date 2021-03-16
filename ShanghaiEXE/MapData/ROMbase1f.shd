@@ -627,6 +627,7 @@ plugInNO:ROMnet2:361:401:0:0
 editFlag:770:True
 wait:30:False
 stopSkip:
+editFlag:13:False
 bgmoff:
 bgmon:cyber_of_rom
 fade:60:0:0:0:0:True
