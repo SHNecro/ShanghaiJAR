@@ -149,7 +149,7 @@ namespace NSChip
                             bw.Item1.X,
                             bw.Item1.Y,
                             character.union,
-                            this.power,
+                            this.Power(character),
                             -1,
                             this.element);
                         switch (this.element)
@@ -165,7 +165,7 @@ namespace NSChip
                                     bw.Item1.X,
                                     bw.Item1.Y,
                                     character.union,
-                                    this.power,
+                                    this.Power(character),
                                     false);
                                 break;
                             case ChipBase.ELEMENT.leaf:
@@ -179,7 +179,7 @@ namespace NSChip
                                     bw.Item1.X,
                                     bw.Item1.Y,
                                     character.union,
-                                    this.power,
+                                    this.Power(character),
                                     4,
                                     0,
                                     SandHoleAttack.MOTION.set,
@@ -192,7 +192,7 @@ namespace NSChip
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
                             this.sound.PlaySE(SoundEffect.repair);
-                            character.Hp += Math.Min(this.power / 2, c.Hp / 2);
+                            character.Hp += Math.Min(this.Power(character), c.Hp);
                         }
                     }
                 });

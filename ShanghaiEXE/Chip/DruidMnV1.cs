@@ -98,13 +98,13 @@ namespace NSChip
                             bw.Item1.X,
                             bw.Item1.Y,
                             character.union,
-                            this.power,
+                            this.Power(character),
                             -1,
                             ChipBase.ELEMENT.poison)));
                         foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
                         {
                             this.sound.PlaySE(SoundEffect.repair);
-                            character.Hp += Math.Min(this.power, c.Hp);
+                            character.Hp += Math.Min(this.Power(character), c.Hp);
                         }
                     }
                 });
