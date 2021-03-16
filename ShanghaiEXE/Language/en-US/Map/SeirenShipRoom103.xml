@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 豪華客船セイレーン　１０３号室 -->
-  <Text Key="Map.SeirenShipRoom103Name" Value="Siren 3F Room 103" />
+  <Text Key="Map.SeirenShipRoom103Name" Value="Seiren 3F Room 103" />
   <!-- この船に乗ったらこんな豪華なお部屋に泊まれるんだ〜 -->
   <Dialogue Key="Map.SeirenShipRoom103FromChapter7Onwards1Stage1Dialogue1FaceGreenHairFemalePinkEyes" Value="Would I have a luxury room,like this if I took a cruise?" Face="GreenHairFemalePinkEyes" Mono="False" />
   <!-- とてもフカフカなベッドだ -->

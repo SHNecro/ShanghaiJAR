@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 豪華客船セイレーン１Ｆ　ロビーエリア -->
   <Text Key="Map.SeirenShip1fName" Value="Cruise Ship 1F Lobby" />
@@ -9,7 +9,7 @@
   <!-- お部屋につきましたら別途ご案内をさせてもらいます -->
   <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue3FaceMaleAdult" Value="A staff member will be present,in the lodging area to guide,you to your room." Face="MaleAdult" Mono="False" />
   <!-- それでは快適な海の旅をお楽しみくださいませ -->
-  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue4FaceMaleAdult" Value="Please，enjoy a pleasant trip,on the luxury liner Siren!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue4FaceMaleAdult" Value="Please，enjoy a pleasant trip,on the luxury liner Seiren!" Face="MaleAdult" Mono="False" />
   <!-- パーティはそこの青い扉の先となっております -->
   <Dialogue Key="Map.SeirenShip1fAttendantStage3Dialogue1FaceMaleAdult" Value="The party is just past the blue,door over there." Face="MaleAdult" Mono="False" />
   <!-- どうぞお楽しみくださいませ -->
@@ -23,13 +23,13 @@
   <!-- 船を降りたところにあるバスに乗ればインゲレスの市街まで送ってもらえますよ -->
   <Dialogue Key="Map.SeirenShip1fAttendantStage7Dialogue2FaceMaleAdult" Value="There is a bus waiting at the,disembarkment to take,passengers to Engelles." Face="MaleAdult" Mono="False" />
   <!-- 豪華客船セイレーン号へようこそ！ -->
-  <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue1FaceMaleAdult" Value="Welcome to the luxury liner,Siren!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue1FaceMaleAdult" Value="Welcome to the luxury liner,Seiren!" Face="MaleAdult" Mono="False" />
   <!-- 当船舶は現在セキュリティ改善中なので自由に見学なさってください -->
   <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue2FaceMaleAdult" Value="Please feel free to take a look,around as we perform a,security upgrade." Face="MaleAdult" Mono="False" />
   <!-- チケットを拝見いたします -->
   <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue1FaceMaleAdult" Value="Ticket，please." Face="MaleAdult" Mono="False" />
   <!-- ・・・・神綺アリス様ですねようこそ豪華客船セイレーンへ -->
-  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue2FaceMaleAdult" Value="Miss Shinki....,Welcome to the luxury liner,Siren!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue2FaceMaleAdult" Value="Miss Shinki....,Welcome to the luxury liner,Seiren!" Face="MaleAdult" Mono="False" />
   <!-- アリス様のお部屋は宿泊エリアの１０３号室でございます -->
   <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue3FaceMaleAdult" Value="Your room is number 103 in the,lodging compartment." Face="MaleAdult" Mono="False" />
   <!-- エレベーターに乗って宿泊エリアに向かってください -->

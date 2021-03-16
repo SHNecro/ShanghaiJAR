@@ -419,6 +419,35 @@ msg:Map.CompanyServer1Chapter7ServantStage3Dialogue4FaceNaviBlueRobot
 msg:Map.CompanyServer1Chapter7ServantStage3Dialogue5FaceNaviBlueRobot
 msgclose:
 end
+page:3
+startterms:Abutton
+type:1
+terms:flag/555
+move:
+speed:0
+graphic:2:2,0,1,0,0
+hitrange:3:0:0:0
+hitform:circle
+event:
+msgopen:
+msg:Map.CompanyServer1Chapter7ServantStage3Dialogue1FaceNaviBlueRobot
+msg:Map.CompanyServer1Chapter7ServantStage3Dialogue2FaceNaviBlueRobot
+msg:Map.CompanyServer1Chapter7ServantStage3Dialogue3FaceNaviBlueRobot
+msg:Map.CompanyServer1Chapter7ServantStage3Dialogue4FaceNaviBlueRobot
+msg:Map.CompanyServer1Chapter7ServantStage3Dialogue5FaceNaviBlueRobot
+msgclose:
+end
+page:4
+startterms:none
+type:1
+terms:flag/609
+move:
+speed:0
+graphic:-2:0,0,0,0,0
+hitrange:0:0:0:-12
+hitform:square
+event:
+end
 
 ID:7章　スプライト
 position:338:354:1

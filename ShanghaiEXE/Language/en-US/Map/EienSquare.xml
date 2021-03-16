@@ -355,7 +355,7 @@
   <!-- ウラインターネットから悪い連中が来ることも最近はなくなったよ -->
   <Dialogue Key="Map.EienSquareChapter7MaleNavigation1DupeStage1Dialogue1FaceNaviGreenRobot" Value="There’s been a lot of bad guys,on the Net lately." Face="NaviGreenRobot" Mono="False" />
   <!-- 依頼掲示板だ -->
-  <Dialogue Key="Map.EienSquareRequestBulletinBoardStage1Dialogue1FaceNone" Value="It’s a Mission Board." Face="None" Mono="False" />
+  <Dialogue Key="Map.EienSquareRequestBulletinBoardStage1Dialogue1FaceNone" Value="It’s a Request Board." Face="None" Mono="False" />
   <!-- お得情報掲示板だ -->
   <Dialogue Key="Map.EienSquareBulletinBoardStage1Dialogue1FaceNone" Value="It’s the Budget Chat Board." Face="None" Mono="False" />
   <!-- バトラーズオフィスへようこそ！こちらではＳＰウィルス討伐の依頼をあっせんしています -->

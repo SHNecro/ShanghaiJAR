@@ -161,19 +161,19 @@
   <!-- どこまで乗りますか？ -->
   <Dialogue Key="Map.CenterccitySouthToTheStationStage3Dialogue1QuestionFaceNone" Value="Ride the train to where?" Face="None" Mono="False" />
   <!-- 港（豪華客船セイレーン）乗らない -->
-  <Text Key="Map.CenterccitySouthToTheStationStage3Dialogue1Options" Value="Harbor (Siren Cruise Ship),Leave" />
+  <Text Key="Map.CenterccitySouthToTheStationStage3Dialogue1Options" Value="Harbor (Seiren Cruise Ship),Leave" />
   <!-- どこへ行きますか？ -->
   <Dialogue Key="Map.CenterccitySouthToTheStationStage5Dialogue1FaceNone" Value="Ride the train to where?" Face="None" Mono="False" />
   <!--  -->
   <Dialogue Key="Map.CenterccitySouthToTheStationStage5Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
   <!-- 港（豪華客船セイレーン）空港（インゲレス）乗らない -->
-  <Text Key="Map.CenterccitySouthToTheStationStage5Dialogue2Options" Value="Harbor (Siren Cruise Ship),Airport (Engelles),Leave" />
+  <Text Key="Map.CenterccitySouthToTheStationStage5Dialogue2Options" Value="Harbor (Seiren Cruise Ship),Airport (Engelles),Leave" />
   <!-- どこへ行きますか？ -->
   <Dialogue Key="Map.CenterccitySouthToTheStationStage7Dialogue1FaceNone" Value="Ride the train to where?" Face="None" Mono="False" />
   <!--  -->
   <Dialogue Key="Map.CenterccitySouthToTheStationStage7Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
   <!-- 港（豪華客船セイレーン）空港（インゲレス）飛行場（ＲＯＭの基地） -->
-  <Text Key="Map.CenterccitySouthToTheStationStage7Dialogue2Options" Value="Harbor (Siren Cruise Ship),Airport (Engelles),Airport (ROM Base)" />
+  <Text Key="Map.CenterccitySouthToTheStationStage7Dialogue2Options" Value="Harbor (Seiren Cruise Ship),Airport (Engelles),Airport (ROM Base)" />
   <!-- 地下道　工事中と書かれている -->
   <Dialogue Key="Map.CenterccitySouthToUndergroundAisleStage1Dialogue1FaceNone" Value="Underpass Under,Construction,is written on the door." Face="None" Mono="False" />
   <!-- 地下通路を通って西区まで行くの？ -->

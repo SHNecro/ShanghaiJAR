@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <Text Key="Map.SeirenShip3fName" Value="Siren 3F Lodging" />
+  <Text Key="Map.SeirenShip3fName" Value="Seiren 3F Lodging" />
   <Dialogue Key="Map.SeirenShip3f101Stage1Dialogue1FaceNone" Value="It’s Room 101.,The door is locked." Face="None" Mono="False" />
   <Dialogue Key="Map.SeirenShip3f102Stage1Dialogue1FaceNone" Value="It’s Room 102.,The door is locked." Face="None" Mono="False" />
   <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue1FaceNone" Value="The elevator opened!,Go to which floor?" Face="None" Mono="False" />

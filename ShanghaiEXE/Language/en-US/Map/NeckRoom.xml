@@ -65,7 +65,7 @@
   <!-- アリス　予選はエイエンスクエアだぜ！ -->
   <Dialogue Key="Map.NeckRoomNekkuStage1Dialogue1FaceTsubakiNekku" Value="Alice，the qualifiers are in,Eien Square!" Face="TsubakiNekku" Mono="False" />
   <!-- 自分のパソコンからアクセスしろよな！ -->
-  <Dialogue Key="Map.NeckRoomNekkuStage1Dialogue2FaceTsubakiNekku" Value="Go ahead and use my,computer!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.NeckRoomNekkuStage1Dialogue2FaceTsubakiNekku" Value="You should be on your,computer right now!" Face="TsubakiNekku" Mono="False" />
   <!-- お互い予選突破したんだ大会で戦うのが楽しみだぜ！ -->
   <Dialogue Key="Map.NeckRoomNekkuStage3Dialogue1FaceTsubakiNekku" Value="I’m looking forward to battlin’,you in the tournament!" Face="TsubakiNekku" Mono="False" />
   <!-- アリス　来たな！ -->

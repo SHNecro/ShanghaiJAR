@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 病院の電脳１ -->
   <Text Key="Map.HospitalNet1Name" Value="Hospital Comp 1" />
   <!-- うっ････ -->
   <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue1FaceShanghai" Value="Ugh...." Face="Shanghai" Mono="False" />
   <!-- 体力が限界ね････一度プラグアウトしましょう！ -->
-  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue2FaceAlice" Value="We’ve reached our limits....,We need jack out，now!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue2FaceAlice" Value="We’ve reached our limits....,We need to jack out，now!" Face="Alice" Mono="False" />
   <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
   <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue1FaceSprite" Value="LET’S FIX YOU RIGHT UP!" Face="Sprite" Mono="False" />
   <!-- シャンハイのＨＰが全回復した！ -->

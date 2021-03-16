@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.Cruiser3gName" Value="Cruise Comp 3" />
-  <Dialogue Key="Map.Cruiser3gTerminalStage1Dialogue1FaceNone" Value="It’s the Siren cruise liner’s,autopilot system." Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser3gTerminalStage1Dialogue1FaceNone" Value="It’s the Seiren cruise liner’s,autopilot system." Face="None" Mono="False" />
   <Dialogue Key="Map.Cruiser3gEventStage1Dialogue1FaceMurasa" Value="Fufufu....,Did you come to stop me?" Face="Murasa" Mono="False" />
   <Dialogue Key="Map.Cruiser3gEventStage1Dialogue2FaceShanghai" Value="So you’re a ROM Navi，hm〜?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.Cruiser3gEventStage1Dialogue3FaceMurasa" Value="That’s right! I hijacked the,ship’s controls，and...." Face="Murasa" Mono="False" />

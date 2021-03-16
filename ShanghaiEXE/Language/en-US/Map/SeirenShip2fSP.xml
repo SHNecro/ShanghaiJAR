@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <Text Key="Map.SeirenShip2fSPName" Value="Siren 2F Showroom" />
+  <Text Key="Map.SeirenShip2fSPName" Value="Seiren 2F Showroom" />
   <Dialogue Key="Map.SeirenShip2fSPReisenStage1Dialogue1FaceReisen" Value="Seeing these flying battleships,really brings me back....,I was hunkered down in a" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fSPReisenStage1Dialogue2FaceReisen" Value="trench being bombed by a,flying battleship captured by,enemy guerrilla forces...." Face="Reisen" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fSPShowcase1Stage1Dialogue1FaceNone" Value="It’s a replica of a battleship,cannon firing a shell." Face="None" Mono="False" />
@@ -26,13 +26,13 @@
   <!-- 戦う船ってかっこいいよね -->
   <Dialogue Key="Map.SeirenShip2fSPFromChapter7Onwards1Stage1Dialogue1FaceMaleStudent" Value="That space fighter’s so cool!" Face="MaleStudent" Mono="False" />
   <!-- セイレーン号の乗船記念に「セイレーンフォルダ」はいかがですか？ -->
-  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue1FaceWhiteHairMaleButler" Value="Interested in a ”Siren Folder”，,to remember the Siren by?" Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue1FaceWhiteHairMaleButler" Value="Interested in a ”Seiren Folder”，,to remember the Seiren by?" Face="WhiteHairMaleButler" Mono="False" />
   <!-- 豪華客船を思わせる水属性のチップがたくさん入っています -->
   <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue2FaceWhiteHairMaleButler" Value="It contains many water-element,chips as a memory of the sea." Face="WhiteHairMaleButler" Mono="False" />
   <!-- 今持っている予備フォルダに上書きする形になってしまいますけどね -->
   <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue3FaceWhiteHairMaleButler" Value="It will overwrite the extra folder,you have now，though." Face="WhiteHairMaleButler" Mono="False" />
   <!-- 「セイレーンフォルダ」を予備フォルダにしますか？ -->
-  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4QuestionFaceWhiteHairMaleButler" Value="How about it? Do you want the,”Siren Folder”?" Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4QuestionFaceWhiteHairMaleButler" Value="How about it? Do you want the,”Seiren Folder”?" Face="WhiteHairMaleButler" Mono="False" />
   <!-- よろしいよろしくない -->
   <Text Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4Options" Value="Yes,No" />
   <!-- ・・・・・・・・#s@docking#ピコーン！ -->
@@ -40,7 +40,7 @@
   <!-- 転送完了しました -->
   <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue2FaceWhiteHairMaleButler" Value="Transfer complete." Face="WhiteHairMaleButler" Mono="False" />
   <!-- このフォルダでのバトルにセイレーン号の思い出をはせてくださいね -->
-  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue3FaceWhiteHairMaleButler" Value="Please remember the Siren,whenever you use this folder." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue3FaceWhiteHairMaleButler" Value="Please remember the Seiren,whenever you use this folder." Face="WhiteHairMaleButler" Mono="False" />
   <!-- 悲しいです -->
   <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage5Dialogue1FaceWhiteHairMaleButler" Value="As you wish." Face="WhiteHairMaleButler" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fSPMale1Stage1Dialogue1FaceOrangeHairMaleWesterner" Value="Wow! Japanese battleships,were super powerful，huh!?" Face="OrangeHairMaleWesterner" Mono="False" />

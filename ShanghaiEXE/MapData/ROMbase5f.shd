@@ -424,7 +424,7 @@ event:
 end
 
 ID:首領邂逅イベント
-position:75:135:0
+position:90:135:0
 page:1
 startterms:Touch
 type:1
@@ -432,7 +432,7 @@ terms:none
 move:
 speed:0
 graphic:-1:0,0,0,0,0
-hitrange:114:6:0:0
+hitrange:150:6:0:0
 hitform:square
 event:
 emove:プレイヤー:up,16:up,16:wait,0

@@ -1515,8 +1515,8 @@ event:
 bgmon:gen_city
 playerHide:False
 fade:120:0:0:0:0:True
-canSkip:
 GetMail:2:True
+canSkip:
 wait:60:False
 msgopen:
 msg:Map.GencityChapter2EventsStage5Dialogue1FaceShanghai
