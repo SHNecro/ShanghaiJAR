@@ -10,6 +10,7 @@ namespace NSEvent
         public int number;
         private readonly SceneMap map;
         private readonly bool effect;
+        private bool alreadyAdded;
 
         public GetMail(IAudioEngine s, EventManager m, int ID, bool effect, SceneMap map, SaveData save)
           : base(s, m, save)
@@ -31,13 +32,17 @@ namespace NSEvent
             }
             this.savedata.mail.Add(this.number);
             this.savedata.mailread.Add(false);
+            this.alreadyAdded = true;
             this.EndCommand();
         }
 
         public override void SkipUpdate()
         {
-            this.savedata.mail.Add(this.number);
-            this.savedata.mailread.Add(false);
+            if (!alreadyAdded)
+            {
+                this.savedata.mail.Add(this.number);
+                this.savedata.mailread.Add(false);
+            }
             this.EndCommand();
         }
 
