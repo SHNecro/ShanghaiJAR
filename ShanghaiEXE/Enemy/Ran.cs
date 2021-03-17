@@ -50,7 +50,7 @@ namespace NSEnemy
         private int aspeed = 4;
         private readonly Point[] target = new Point[5];
         private List<Point> targetMulti = new List<Point>();
-        private readonly RanBarrier[] barrier = new RanBarrier[4];
+        private readonly List<RanBarrier> barriers = new List<RanBarrier>();
         private int action;
         private readonly int attackSpeed;
         private bool ready;
@@ -341,11 +341,13 @@ namespace NSEnemy
                                         this.ready = true;
                                         if (this.version > 1)
                                         {
-                                            this.barrier[0] = new RanBarrier(this.sound, this.parent, this.target[0].X, this.target[0].Y, this.Power, 2, this.union, -1, this.version >= 4);
-                                            this.parent.objects.Add(this.barrier[0]);
+                                            var newV2Barrier = new RanBarrier(this.sound, this.parent, this.target[0].X, this.target[0].Y, this.Power, 2, this.union, -1, this.version >= 4);
+                                            this.barriers.Add(newV2Barrier);
+                                            this.parent.objects.Add(newV2Barrier);
                                         }
-                                        this.barrier[1] = new RanBarrier(this.sound, this.parent, this.target[1].X, this.target[1].Y, this.Power, 2, this.union, -1, this.version >= 4);
-                                        this.parent.objects.Add(this.barrier[1]);
+                                        var newBarrier = new RanBarrier(this.sound, this.parent, this.target[1].X, this.target[1].Y, this.Power, 2, this.union, -1, this.version >= 4);
+                                        this.barriers.Add(newBarrier);
+                                        this.parent.objects.Add(newBarrier);
                                         this.target[2] = new Point(this.union == Panel.COLOR.blue ? 0 : 5, 0);
                                         this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.target[2].X, this.target[2].Y, this.union, new Point(), time, true));
                                         if (this.version >= 2)
@@ -363,9 +365,15 @@ namespace NSEnemy
                                 int num = this.waittime / this.aspeed;
                                 if (this.waittime == this.aspeed * 8)
                                 {
-                                    this.parent.objects.Add(new RanBarrier(this.sound, this.parent, this.target[2].X, this.target[2].Y, this.Power, 2, this.union, 3, this.version >= 4));
+                                    var newBarrier = new RanBarrier(this.sound, this.parent, this.target[2].X, this.target[2].Y, this.Power, 2, this.union, 3, this.version >= 4);
+                                    this.barriers.Add(newBarrier);
+                                    this.parent.objects.Add(newBarrier);
                                     if (this.version >= 2)
-                                        this.parent.objects.Add(new RanBarrier(this.sound, this.parent, this.target[1].X, this.target[1].Y, this.Power, 2, this.union, 3, this.version >= 4));
+                                    {
+                                        var newV2Barrier = new RanBarrier(this.sound, this.parent, this.target[1].X, this.target[1].Y, this.Power, 2, this.union, 3, this.version >= 4);
+                                        this.barriers.Add(newV2Barrier);
+                                        this.parent.objects.Add(newV2Barrier);
+                                    }
                                     switch (this.attackProcess % 8)
                                     {
                                         case 0:
@@ -433,10 +441,11 @@ namespace NSEnemy
                                                 this.roopneutral = 0;
                                                 this.waittime = 0;
                                                 this.Motion = NaviBase.MOTION.neutral;
-                                                if (this.barrier[0] != null)
-                                                    this.barrier[0].Break();
-                                                if (this.barrier[1] != null)
-                                                    this.barrier[1].Break();
+                                                foreach (var barrier in this.barriers)
+                                                {
+                                                    barrier?.Break();
+                                                }
+                                                this.barriers.Clear();
                                                 break;
                                             }
                                             break;
@@ -637,10 +646,11 @@ namespace NSEnemy
                     {
                         case 2:
                             this.rebirth = this.union == Panel.COLOR.red;
-                            if (this.barrier[0] != null)
-                                this.barrier[0].Break();
-                            if (this.barrier[1] != null)
-                                this.barrier[1].Break();
+                            foreach (var barrier in this.barriers)
+                            {
+                                barrier?.Break();
+                            }
+                            this.barriers.Clear();
                             if (this.chargeEffect != null)
                                 this.chargeEffect.flag = false;
                             this.guard = CharacterBase.GUARD.none;
@@ -713,6 +723,11 @@ namespace NSEnemy
                 int height2 = height1 + y4;
                 this._rect = new Rectangle(x2, y3, wide, height2);
                 this.Death(this._rect, new Rectangle(this.animationpoint.X * this.wide, this.height, this.wide, this.height), this._position, this.picturename);
+                foreach (var barrier in this.barriers)
+                {
+                    barrier?.Break();
+                }
+                this.barriers.Clear();
             }
             if (this.whitetime == 0)
             {
