@@ -295,14 +295,26 @@ namespace NSEvent
                 e.position = this.position[number];
                 e.version = this.lank[number];
                 int val = this.savedata.ValList[28];
-                if (e.version != 0 && !(e is NormalNavi))
+                if (e.version != 0)
                 {
-                    e.version += (byte)val;
-                    if (e.version > 8)
-                        e.version = 8;
-                    if (e.version < 1)
-                        e.version = 1;
+                    if (!(e is NormalNavi))
+                    {
+                        e.version += (byte)val;
+                        if (e.version > 8)
+                            e.version = 8;
+                        if (e.version < 1)
+                            e.version = 1;
+                    }
                 }
+                else if (val != 0)
+                {
+                    // EX version handling
+                    if (e is Cirno || e is PyroMan || e is Mrasa || e is ScissorMan || e is Chen)
+                    {
+                        e.version = (byte)(5 + val);
+                    }
+                }
+
                 e.number = number;
                 e.union = Panel.COLOR.blue;
                 if (e is NormalNavi normalNavi)
