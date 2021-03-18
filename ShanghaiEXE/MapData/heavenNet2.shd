@@ -1132,7 +1132,7 @@ ifValue:7:False:144:4:0
 seon:error
 msg:Map.HeavenNet1BarrierUnlockScanPartialStdChipsFailure
 msg:Map.HeavenNet1BarrierUnlockScanDialogue2Failure
-emove:プレイヤー:down,12:left,16:down,24:wait,0
+emove:プレイヤー:down,12:down,12:left,16:down,24:wait,0
 msg:Map.HeavenNet2Barrier3DoorUnlockEventDialogue22Failed
 fade:15:32:255:0:255:False
 msg:Map.HeavenNet2Barrier3DoorUnlockEventDialogue23Failed
