@@ -85,7 +85,9 @@ namespace NSEvent
             if (this.itemData.type == 0)
             {
                 RandomMystery[] randomMysteryArray = (RandomMystery[])this.field.randomMystery.Clone();
-                if (this.savedata.runSubChips[2])
+                // Remove all encounters if AntiVrs or no encounters
+                if (this.savedata.runSubChips[2] ||
+                    this.field.encounts.Count - (this.savedata.FlagList[this.field.encountCap[0]] ? 0 : this.field.encountCap[1]) <= 0)
                 {
                     List<RandomMystery> list = ((IEnumerable<RandomMystery>)randomMysteryArray).ToList<RandomMystery>();
                     list.RemoveAll(r => r.itemType == 4);
