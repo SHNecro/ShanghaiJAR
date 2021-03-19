@@ -926,8 +926,21 @@ namespace NSGame
                 this.ValList[199] = 4;
             }
 
+            if (this.ValList[199] == 4)
+            {
+                // Replace new addons
+
+                if (this.FlagList[796])
+                {
+                    this.FlagList[795] = true;
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550SageSkipped"));
+                }
+
+                this.ValList[199] = 5;
+            }
+
             // Set var to "current save version"
-            this.ValList[199] = 4;
+            this.ValList[199] = 5;
             return retconMessages;
         }
 

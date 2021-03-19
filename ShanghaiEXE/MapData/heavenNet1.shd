@@ -369,7 +369,6 @@ numset:Map.HeavenNet1MidAreaDoorStage1Dialogue3Question:7:5
 ifValue:7:False:12345:5:0
 seon:error
 ifFlag:795:False:1
-editFlag:795:True
 canSkip:
 Facehere:
 msg:Map.HeavenNet1MidAreaDoorStage2Dialogue1
@@ -418,6 +417,7 @@ msgclose:
 stopSkip:
 ifEnd:1
 ifEnd:0
+editFlag:795:True
 end
 
 ID:MidAreaEvent
