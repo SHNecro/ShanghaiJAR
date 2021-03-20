@@ -926,6 +926,7 @@ namespace NSGame
                 this.ValList[199] = 4;
             }
 
+            // WIP9
             if (this.ValList[199] == 4)
             {
                 // Replace new addons

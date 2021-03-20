@@ -29,7 +29,7 @@
   <!-- もちろんメンテナンスや操作のためにプラグインできる -->
   <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue3FaceNone" Value="Of course，it has a jack in port,for maintenance." Face="None" Mono="False" />
   <!-- しかしシャンハイがメンテナンスを面倒臭がって入ろうとしない -->
-  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue4FaceNone" Value="But Shanghai doesn’t like,doing maintenance，so she,won’t jack in." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue4FaceNone" Value="But Shanghai doesn’t like,doing maintenance，so she,won’t jack in. Maybe later." Face="None" Mono="False" />
   <!-- 超うす型の最新式テレビだ -->
   <Dialogue Key="Map.AlicehouseTVSetStage3Dialogue1FaceNone" Value="It’s the latest ultra-flatscreen,TV." Face="None" Mono="False" />
   <!-- テレビとしての機能だけでなく家中の電子機器を管理するコンパネの役目も果たす -->
