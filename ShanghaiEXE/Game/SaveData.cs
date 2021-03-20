@@ -1331,6 +1331,10 @@ namespace NSGame
                     File.Copy(BackupPath, SavePath, true);
                     errorText += Environment.NewLine + Environment.NewLine + ShanghaiEXE.Translate("Save.SaveRetained").Text;
                 }
+                else
+                {
+                    errorText += Environment.NewLine + Environment.NewLine + ShanghaiEXE.Translate("Save.SaveBackupNotFound").Text;
+                }
 
                 parent?.Invoke((Action)(() =>
                 {

@@ -466,8 +466,9 @@
   <Dialogue Key="Retcon.0550CrimDexEnabled" Value="[Enabled illegal library.]" Face="Sprite" Mono="False" />
 
   <Text Key="Save.SaveFailedTitle" Value="[Save Failed!]" />
-  <Text Key="Save.SaveFailed" Value="[Unfortunately, something went wrong during the save process.&#xA;&#xD;&#xA;&#xD;Please report this bug at https://gitgud.io/SHNecro/shanghaiexe/-/issues or wherever you downloaded this copy of the game.]" />
-  <Text Key="Save.SaveRetained" Value="[A backup has been created of your last working savegame.]" />
+  <Text Key="Save.SaveFailed" Value="[Something went wrong during the save process.&#xA;&#xD;&#xA;&#xD;Unfortunately, it is unlikely that the problem can be solved without a game update.&#xA;&#xD;&#xA;&#xD;Please report this bug at https://gitgud.io/SHNecro/shanghaiexe/-/issues or wherever you downloaded this copy of the game.]" />
+  <Text Key="Save.SaveRetained" Value="[A backup has been restored from your last working savegame.&#xA;&#xD;&#xA;&#xD;Press 'ESC' to return to the start screen once the game resumes.]" />
+  <Text Key="Save.SaveBackupNotFound" Value="[No backup was able to be found.&#xA;&#xD;&#xA;&#xD;Press 'ESC' to return to the start screen once the game resumes.]" />
   <Text Key="Save.MainSaveCorruptedTitle" Value="[Load Failed!]" />
   <Text Key="Save.MainSaveCorrupted" Value="[Unfortunately, the game was unable to read the save file.]" />
   <Text Key="Save.BackupRestored" Value="[Your previous savegame has been restored from backup.]" />
