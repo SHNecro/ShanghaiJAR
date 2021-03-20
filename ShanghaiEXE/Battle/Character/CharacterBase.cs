@@ -1279,12 +1279,12 @@ namespace NSBattle.Character
                 this.mastorcolor = color;
             if (this.badstatus[1])
             {
-                if (this.badstatustime[1] == 0)
+                if (this.badstatustime[1] == 0 && !this.eturnalMelt)
                 {
                     this.badstatus[1] = false;
                     this.mastorcolor = Color.White;
                 }
-                else if (this.badstatustime[1] > 0 || this.eturnalMelt)
+                else
                 {
                     --this.badstatustime[1];
                     this.mastorcolor = this.badstatustime[1] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, byte.MaxValue, 55, 55);
@@ -1297,7 +1297,7 @@ namespace NSBattle.Character
                     this.badstatus[2] = false;
                     this.mastorcolor = color;
                 }
-                else if (this.badstatustime[2] > 0)
+                else
                 {
                     --this.badstatustime[2];
                     this.mastorcolor = this.badstatustime[2] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 50, 155, byte.MaxValue);
@@ -1310,7 +1310,7 @@ namespace NSBattle.Character
                     this.badstatus[3] = false;
                     this.mastorcolor = color;
                 }
-                else if (this.badstatustime[3] > 0)
+                else
                 {
                     --this.badstatustime[3];
                     this.mastorcolor = this.badstatustime[3] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, 0);
@@ -1323,7 +1323,7 @@ namespace NSBattle.Character
                     this.badstatus[4] = false;
                     this.mastorcolor = color;
                 }
-                else if (this.badstatustime[4] > 0)
+                else
                 {
                     --this.badstatustime[4];
                     this.mastorcolor = this.badstatustime[4] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 155, byte.MaxValue, 55);
@@ -1336,7 +1336,7 @@ namespace NSBattle.Character
                     this.badstatus[5] = false;
                     this.mastorcolor = color;
                 }
-                else if (this.badstatustime[5] > 0)
+                else
                 {
                     --this.badstatustime[5];
                     this.mastorcolor = this.badstatustime[5] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 100, 50, byte.MaxValue);
@@ -1349,7 +1349,7 @@ namespace NSBattle.Character
                     this.badstatus[6] = false;
                     this.mastorcolor = color;
                 }
-                else if (this.badstatustime[6] > 0)
+                else
                 {
                     --this.badstatustime[6];
                     this.mastorcolor = this.badstatustime[6] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 160, 100, 50);
@@ -1372,7 +1372,7 @@ namespace NSBattle.Character
                     this.badstatus[8] = false;
                     this.mastorcolor = color;
                 }
-                else if (this.badstatustime[8] > 0)
+                else
                 {
                     --this.badstatustime[8];
                     this.mastorcolor = this.badstatustime[8] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 0, 0, 0);

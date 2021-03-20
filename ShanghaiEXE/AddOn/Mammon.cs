@@ -21,7 +21,7 @@ namespace NSAddOn
             this.name = ShanghaiEXE.Translate("AddOn.MammonName");
             this.Plus = true;
             this.UseHz = 6;
-            this.UseCore = 3;
+            this.UseCore = 4;
             var information = ShanghaiEXE.Translate("AddOn.MammonDesc");
             this.infomasion[0] = information[0];
             this.infomasion[1] = information[1];
@@ -56,8 +56,32 @@ namespace NSAddOn
                 battle.player.chipPain += chipPain;
             }
 
-            var busterDowngrade = new int[] { 0, 0, 0 };
+            var isSlipImmune = battle.player.Element == NSChip.ChipBase.ELEMENT.aqua;
+            var replacedStatuses = default(Tuple<bool[], int[]>);
             if (chips >= 3)
+            {
+                if (!isSlipImmune)
+                {
+                    replacedStatuses = Tuple.Create(new bool[9], new int[9]);
+                    for (var i = 1; i <= 6; i++)
+                    {
+                        replacedStatuses.Item1[i] = battle.player.badstatus[i];
+                        replacedStatuses.Item2[i] = battle.player.badstatustime[i];
+                    }
+                    battle.player.badstatus[2] = true;
+                    battle.player.badstatustime[2] = -1;
+                }
+                else
+                {
+                    for (var i = 0; i < 3; i++)
+                    {
+                        battle.panel[battle.player.position.X, i].State = Panel.PANEL._thunder;
+                    }
+                }
+            }
+
+            var busterDowngrade = new int[] { 0, 0, 0 };
+            if (chips >= 4)
             {
                 var downgradeAmount = chips - 2;
                 var newBusterStats = new int[3];
@@ -74,13 +98,6 @@ namespace NSAddOn
                 battle.player.busterCharge = (byte)newBusterStats[2];
             }
 
-            var addedAnxiety = false;
-            if (chips >= 4)
-            {
-                battle.player.mind.mindNow = MindWindow.MIND.pinch;
-                addedAnxiety = true;
-            }
-
             var custSpeedDowngrade = 0;
             if (chips >= 5)
             {
@@ -92,7 +109,7 @@ namespace NSAddOn
             // Not undone at end of round, using a full, doc-boosted hand is asking for it.
             if (chips >= 6)
             {
-                canopenchips = Math.Max(1, canopenchips - 1);
+                canopenchips = Math.Max(1, canopenchips - 2);
             }
 
             return () =>
@@ -103,11 +120,12 @@ namespace NSAddOn
                 battle.player.busterRapid += (byte)busterDowngrade[1];
                 battle.player.busterCharge += (byte)busterDowngrade[2];
 
-                if (addedAnxiety)
+                if (replacedStatuses != null)
                 {
-                    if (battle.player.mind.mindNow == MindWindow.MIND.pinch)
+                    for (var i = 1; i <= 6; i++)
                     {
-                        battle.player.mind.mindNow = MindWindow.MIND.normal;
+                        battle.player.badstatus[i] = replacedStatuses.Item1[i];
+                        battle.player.badstatustime[i] = replacedStatuses.Item2[i];
                     }
                 }
 

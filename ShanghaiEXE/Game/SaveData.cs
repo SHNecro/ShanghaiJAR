@@ -987,13 +987,15 @@ namespace NSGame
                 var hasMammon = this.haveAddon.Any(ao => ao is Mammon);
                 if (friendshipIndex != -1)
                 {
+                    var equipIndex = this.equipAddon[friendshipIndex];
+                    var equipNameList = equipIndex ? this.equipAddon.Take(friendshipIndex).Count(b => b) : -1;
+
                     this.haveAddon.RemoveAt(friendshipIndex);
                     this.equipAddon.RemoveAt(friendshipIndex);
 
-                    var equipIndex = this.equipAddon[friendshipIndex] ? this.equipAddon.Take(friendshipIndex).Count(b => b) : -1;
-                    if (equipIndex != -1)
+                    if (equipNameList != -1)
                     {
-                        this.addonNames.RemoveAt(equipIndex);
+                        this.addonNames.RemoveAt(equipNameList);
                     }
 
                     this.GetAddon(new Sacrifice(AddOnBase.ProgramColor.gleen));
