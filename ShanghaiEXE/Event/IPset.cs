@@ -46,7 +46,6 @@ namespace NSEvent
         private readonly string[] text;
         protected const byte waitlong = 10;
         protected const byte waitshort = 4;
-        private Thread thread_1;
         private bool enginit;
         private int waittime;
         private long returnNum;
@@ -181,8 +180,8 @@ namespace NSEvent
                                     else
                                     {
                                         this.manager.parent.main.FolderReset();
-                                        this.thread_1 = new Thread(new ThreadStart(this.savedata.SaveFile));
-                                        this.thread_1.Start();
+                                        var saveThread = new Thread(new ThreadStart(() => this.savedata.SaveFile(this.manager.parent.parent)));
+                                        saveThread.Start();
                                         this.saving = true;
                                     }
                                 }

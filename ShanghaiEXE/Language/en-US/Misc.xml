@@ -464,4 +464,13 @@
   <Dialogue Key="Retcon.0550ReAddedAddOns" Value="Re-added mistakenly removed,AddOns:" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550SageSkipped" Value="Enabled missing flag that,made 4th quiz missable." Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550CrimDexEnabled" Value="Enabled illegal library." Face="Sprite" Mono="False" />
+
+  <Text Key="Save.SaveFailedTitle" Value="Save Failed!" />
+  <Text Key="Save.SaveFailed" Value="Unfortunately, something went wrong during the save process.&#xA;&#xD;&#xA;&#xD;Please report this bug at https://gitgud.io/SHNecro/shanghaiexe/-/issues or wherever you downloaded this copy of the game." />
+  <Text Key="Save.SaveRetained" Value="A backup has been created of your last working savegame." />
+  <Text Key="Save.MainSaveCorruptedTitle" Value="Load Failed!" />
+  <Text Key="Save.MainSaveCorrupted" Value="Unfortunately, the game was unable to read the save file." />
+  <Text Key="Save.BackupRestored" Value="Your previous savegame has been restored from backup." />
+  <Text Key="Save.BackupCorrupted" Value="The backup savegame has also failed to load." />
+  <Text Key="Save.BackupNotFound" Value="No backup was able to be found." />
 </data>

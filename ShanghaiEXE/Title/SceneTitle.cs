@@ -161,8 +161,8 @@ namespace NSTitle
                     if (Input.IsPush(Button.Esc))
                         this.parent.Close();
                     if (backpx % 64 == 0)
-                        this.printpush = !this.printpush;
-                    if (Input.IsPress(Button._Start))
+                        this.printpush = this.savedata.loadEnd && !this.printpush;
+                    if (Input.IsPress(Button._Start) && this.savedata.loadEnd)
                     {
                         this.StarCheck();
                         this.sound.PlaySE(SoundEffect.decide);

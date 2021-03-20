@@ -31,7 +31,7 @@ namespace NSMap.Character.Menu
             this.comp = this.savedata.GetHaveManyChips();
             this.chips = this.savedata.GetHaveChips();
             this.money = this.savedata.Money.ToString();
-            this.thread_1 = new Thread(new ThreadStart(this.savedata.SaveFile));
+            this.thread_1 = new Thread(new ThreadStart(() => this.savedata.SaveFile(this.main.parent)));
         }
 
         public override void UpDate()

@@ -42,7 +42,6 @@ namespace NSEvent
         private bool saving;
         private bool noTalk;
         protected string[] text;
-        private Thread thread_1;
         private List<EventManager> parallelEventManagers;
 
         public CommandMessage(
@@ -305,10 +304,10 @@ namespace NSEvent
                                     catch { }
                                     break;
                                 case "u":
-                                    this.thread_1 = new Thread(new ThreadStart(this.savedata.SaveFile));
+                                    var saveThread = new Thread(new ThreadStart(() => this.savedata.SaveFile(this.manager.parent.parent)));
                                     this.manager.parent.main.FolderSave();
                                     this.savedata.saveEnd = false;
-                                    this.thread_1.Start();
+                                    saveThread.Start();
                                     this.saving = true;
                                     break;
                                 case "e":

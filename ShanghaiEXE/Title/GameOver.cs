@@ -24,8 +24,8 @@ namespace NSTitle
             this.parent = p;
             this.nowscene = GameOver.TITLESCENE.init;
             this.savedata.Init();
-            this.parent.thread_1 = new Thread(new ThreadStart(this.savedata.Load));
-            this.parent.thread_1.Start();
+            var loadThread = new Thread(new ThreadStart(() => this.savedata.Load(this.parent)));
+            loadThread.Start();
             this.sound.StartBGM(this.titlemusic);
         }
 

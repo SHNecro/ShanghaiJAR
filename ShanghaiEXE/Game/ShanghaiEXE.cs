@@ -154,7 +154,6 @@ namespace NSGame
         public bool soundLoad;
         public bool loadSUCCESS;
         public static ITextMeasurer measurer;
-        public Thread thread_1;
         public static bool rend;
         public static Config Config;
         private bool isPaused;
@@ -394,7 +393,7 @@ namespace NSGame
             this.savedata = new SaveData();
             this.savedata.Init();
             this.UpdateLoadingText(LoadType.Save, 50);
-            this.savedata.Load();
+            this.savedata.Load(this);
             this.UpdateLoadingText(LoadType.Save, 100);
         }
 

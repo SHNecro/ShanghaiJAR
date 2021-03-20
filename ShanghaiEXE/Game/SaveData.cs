@@ -12,11 +12,15 @@ using NSMap.Character.Menu;
 using static NSMap.Character.Menu.Library;
 using System.Linq;
 using Common;
+using System.Windows.Forms;
 
 namespace NSGame
 {
     public class SaveData
     {
+        const string SavePath = "save.she";
+        const string BackupPath = "save.she.bak";
+
         public static int decCount = 0;
         public static string pass = "sasanasi";
         public static Virus[] HAVEVirus = new Virus[3];
@@ -104,6 +108,7 @@ namespace NSGame
         public bool loadSucces;
         public bool saveEndnowsub;
         public bool saveEndnow;
+        private bool attemptingBackupLoad;
         private string fluglist;
         private string vallist;
         private string shoplist;
@@ -174,22 +179,24 @@ namespace NSGame
         public string item;
         public string category;
 
-        public void Load()
+        public void Load(Control parent = null)
         {
+            this.loadEnd = false;
+            var loadAttemptedAndFailed = false;
+
             SaveData.decCount = 0;
-            string path = "save.she";
-            if (!File.Exists(path))
+            if (!File.Exists(SavePath))
             {
-                this.loadEnd = true;
                 this.loadSucces = false;
             }
             else
             {
-                StreamReader streamReader = new StreamReader(path, Encoding.GetEncoding("Shift_JIS"));
+                var streamReader = default(StreamReader);
                 string str = "";
                 try
                 {
-                    this.loadEnd = false;
+                    streamReader = new StreamReader(SavePath, Encoding.GetEncoding("Shift_JIS"));
+                    
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     string[] strArray1 = str.Split('@');
                     this.addonNames.Clear();
@@ -551,9 +558,6 @@ namespace NSGame
                     }
 
                     this.loadSucces = true;
-                    this.loadEnd = true;
-                    streamReader.Dispose();
-                    streamReader.Close();
                     this.shopThread = new Thread(new ThreadStart(this.ShopSave));
                     this.shopThread.Start();
                     this.flagThread = new Thread(new ThreadStart(this.FlugSave));
@@ -570,12 +574,61 @@ namespace NSGame
                 }
                 catch
                 {
-                    streamReader.Dispose();
-                    streamReader.Close();
                     this.loadSucces = false;
-                    this.loadEnd = true;
+                    loadAttemptedAndFailed = true;
+                }
+                finally
+                {
+                    streamReader.Close();
+                    streamReader.Dispose();
                 }
             }
+
+            if (!this.loadSucces && !this.attemptingBackupLoad)
+            {
+                var errorText = ShanghaiEXE.Translate("Save.MainSaveCorrupted").Text;
+
+                if (File.Exists(BackupPath))
+                {
+                    File.Copy(BackupPath, SavePath, true);
+                    this.attemptingBackupLoad = true;
+                    this.Load(parent);
+                    this.attemptingBackupLoad = false;
+
+                    if (!this.loadSucces)
+                    {
+                        errorText += Environment.NewLine + Environment.NewLine + ShanghaiEXE.Translate("Save.BackupCorrupted").Text;
+                    }
+                    else
+                    {
+                        errorText += Environment.NewLine + Environment.NewLine + ShanghaiEXE.Translate("Save.BackupRestored").Text;
+                    }
+
+                    parent?.Invoke((Action)(() =>
+                    {
+                        MessageBox.Show(
+                            errorText,
+                            ShanghaiEXE.Translate("Save.MainSaveCorruptedTitle").Text,
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                    }));
+                }
+                else if (loadAttemptedAndFailed)
+                {
+                    errorText += Environment.NewLine + Environment.NewLine + ShanghaiEXE.Translate("Save.BackupNotFound").Text;
+                    
+                    parent?.Invoke((Action)(() =>
+                    {
+                        MessageBox.Show(
+                            errorText,
+                            ShanghaiEXE.Translate("Save.MainSaveCorruptedTitle").Text,
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                    }));
+                }
+            }
+
+            this.loadEnd = true;
         }
 
         public ICollection<Dialogue> RetconSave()
@@ -951,306 +1004,344 @@ namespace NSGame
             return retconMessages;
         }
 
-        public void SaveFile()
+        public void SaveFile(Form parent = null)
         {
-            this.shopThread = new Thread(new ThreadStart(this.ShopSave));
-            this.shopThread.Start();
-            this.flagThread = new Thread(new ThreadStart(this.FlugSave));
-            this.flagThread.Start();
-            this.valThread = new Thread(new ThreadStart(this.ValSave));
-            this.valThread.Start();
-            this.mysThread = new Thread(new ThreadStart(this.MysSave));
-            this.mysThread.Start();
-            this.ranThread = new Thread(new ThreadStart(this.RanSave));
-            this.ranThread.Start();
-            this.chipThread = new Thread(new ThreadStart(this.ChipSave));
-            this.chipThread.Start();
-            this.saveEnd = false;
-            StringBuilder stringBuilder = new StringBuilder();
-            StreamWriter streamWriter = new StreamWriter("save.she", false, Encoding.GetEncoding("Shift_JIS"));
-            StringBuilder sourceString1 = new StringBuilder();
-            foreach (string addonName in this.addonNames)
-                sourceString1.Append(addonName + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString1, SaveData.pass));
-            StringBuilder sourceString2 = new StringBuilder();
-            foreach (byte num in this.busterspec)
-                sourceString2.Append(((int)num).ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString2, SaveData.pass));
-            StringBuilder sourceString3 = new StringBuilder();
-            foreach (bool flag in this.canselectmenu)
-                sourceString3.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString3, SaveData.pass));
-            StringBuilder sourceString4 = new StringBuilder();
-            for (int index1 = 0; index1 < this.chipFolder.GetLength(0); ++index1)
+            if (File.Exists(SavePath))
             {
-                for (int index2 = 0; index2 < this.chipFolder.GetLength(1); ++index2)
+                File.Copy(SavePath, BackupPath, true);
+            }
+
+            var streamWriter = default(StreamWriter);
+            var saveFailed = false;
+
+            try
+            {
+                this.shopThread = new Thread(new ThreadStart(this.ShopSave));
+                this.shopThread.Start();
+                this.flagThread = new Thread(new ThreadStart(this.FlugSave));
+                this.flagThread.Start();
+                this.valThread = new Thread(new ThreadStart(this.ValSave));
+                this.valThread.Start();
+                this.mysThread = new Thread(new ThreadStart(this.MysSave));
+                this.mysThread.Start();
+                this.ranThread = new Thread(new ThreadStart(this.RanSave));
+                this.ranThread.Start();
+                this.chipThread = new Thread(new ThreadStart(this.ChipSave));
+                this.chipThread.Start();
+                this.saveEnd = false;
+                StringBuilder stringBuilder = new StringBuilder();
+                streamWriter = new StreamWriter(SavePath, false, Encoding.GetEncoding("Shift_JIS"));
+                StringBuilder sourceString1 = new StringBuilder();
+                foreach (string addonName in this.addonNames)
+                    sourceString1.Append(addonName + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString1, SaveData.pass));
+                StringBuilder sourceString2 = new StringBuilder();
+                foreach (byte num in this.busterspec)
+                    sourceString2.Append(((int)num).ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString2, SaveData.pass));
+                StringBuilder sourceString3 = new StringBuilder();
+                foreach (bool flag in this.canselectmenu)
+                    sourceString3.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString3, SaveData.pass));
+                StringBuilder sourceString4 = new StringBuilder();
+                for (int index1 = 0; index1 < this.chipFolder.GetLength(0); ++index1)
                 {
-                    for (int index3 = 0; index3 < this.chipFolder.GetLength(2); ++index3)
-                        sourceString4.Append(this.chipFolder[index1, index2, index3].ToString() + "@");
-                    sourceString4.Append("|");
+                    for (int index2 = 0; index2 < this.chipFolder.GetLength(1); ++index2)
+                    {
+                        for (int index3 = 0; index3 < this.chipFolder.GetLength(2); ++index3)
+                            sourceString4.Append(this.chipFolder[index1, index2, index3].ToString() + "@");
+                        sourceString4.Append("|");
+                    }
+                    sourceString4.Append("/");
                 }
-                sourceString4.Append("/");
-            }
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString4, SaveData.pass));
-            StringBuilder sourceString5 = new StringBuilder();
-            foreach (ChipS havechip in this.havechips)
-                sourceString5.Append(havechip.number.ToString() + "/" + havechip.code + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString5, SaveData.pass));
-            StringBuilder sourceString6 = new StringBuilder();
-            foreach (bool flag in this.datelist)
-                sourceString6.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString6, SaveData.pass));
-            StringBuilder sourceString7 = new StringBuilder();
-            sourceString7.Append(this.efolder);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString7, SaveData.pass));
-            StringBuilder sourceString8 = new StringBuilder();
-            foreach (bool flag in this.equipAddon)
-                sourceString8.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString8, SaveData.pass));
-            StringBuilder sourceString9 = new StringBuilder();
-            sourceString9.Append(this.firstchange);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString9, SaveData.pass));
-            StringBuilder sourceString10 = new StringBuilder();
-            sourceString10.Append(this.foldername);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString10, SaveData.pass));
-            StringBuilder sourceString11 = new StringBuilder();
-            foreach (AddOnBase addOnBase in this.haveAddon)
-            {
-                var typeName = addOnBase.GetType().ToAddOnName();
-                sourceString11.Append(typeName + "/" + addOnBase.color + "@");
-            }
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString11, SaveData.pass));
-            StringBuilder sourceString12 = new StringBuilder();
-            sourceString12.Append(this.haveCaptureBomb);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString12, SaveData.pass));
-            this.chipThread.Join();
-            streamWriter.WriteLine(this.chiplist);
-            StringBuilder sourceString13 = new StringBuilder();
-            foreach (bool flag in this.havefolder)
-                sourceString13.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString13, SaveData.pass));
-            StringBuilder sourceString14 = new StringBuilder();
-            foreach (int num in this.havePeace)
-                sourceString14.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString14, SaveData.pass));
-            StringBuilder sourceString15 = new StringBuilder();
-            sourceString15.Append(this.havestyles);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString15, SaveData.pass));
-            StringBuilder sourceString16 = new StringBuilder();
-            foreach (int haveSubChi in this.haveSubChis)
-                sourceString16.Append(haveSubChi.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString16, SaveData.pass));
-            StringBuilder sourceString17 = new StringBuilder();
-            sourceString17.Append(this.haveSubMemory);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString17, SaveData.pass));
-            StringBuilder sourceString18 = new StringBuilder();
-            foreach (Virus haveViru in this.HaveVirus)
-            {
-                if (haveViru != null)
-                    sourceString18.Append(haveViru.type.ToString() + "/" + haveViru.eatBug + "/" + haveViru.eatError + "/" + haveViru.eatFreeze + "/" + haveViru.code + "@");
-                else
-                    sourceString18.Append("null@");
-            }
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString18, SaveData.pass));
-            StringBuilder sourceString19 = new StringBuilder();
-            sourceString19.Append(this.HPmax);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString19, SaveData.pass));
-            StringBuilder sourceString20 = new StringBuilder();
-            sourceString20.Append(this.HPnow);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString20, SaveData.pass));
-            StringBuilder sourceString21 = new StringBuilder();
-            sourceString21.Append(this.HPplus);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString21, SaveData.pass));
-            StringBuilder sourceString22 = new StringBuilder();
-            foreach (int num in this.keyitem)
-                sourceString22.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString22, SaveData.pass));
-            StringBuilder sourceString23 = new StringBuilder();
-            foreach (int num in this.mail)
-                sourceString23.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString23, SaveData.pass));
-            StringBuilder sourceString24 = new StringBuilder();
-            foreach (bool flag in this.mailread)
-                sourceString24.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString24, SaveData.pass));
-            StringBuilder sourceString25 = new StringBuilder();
-            sourceString25.Append(this.manybattle);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString25, SaveData.pass));
-            StringBuilder sourceString26 = new StringBuilder();
-            sourceString26.Append(this.MaxCore);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString26, SaveData.pass));
-            StringBuilder sourceString27 = new StringBuilder();
-            sourceString27.Append(this.MaxHz);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString27, SaveData.pass));
-            StringBuilder sourceString28 = new StringBuilder();
-            sourceString28.Append(this.mind);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString28, SaveData.pass));
-            StringBuilder sourceString29 = new StringBuilder();
-            sourceString29.Append(this.Money);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString29, SaveData.pass));
-            StringBuilder sourceString30 = new StringBuilder();
-            sourceString30.Append(this.plase);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString30, SaveData.pass));
-            StringBuilder sourceString31 = new StringBuilder();
-            sourceString31.Append(this.isJackedIn);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString31, SaveData.pass));
-            StringBuilder sourceString32 = new StringBuilder();
-            foreach (byte num in this.regularchip)
-                sourceString32.Append(((int)num).ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString32, SaveData.pass));
-            StringBuilder sourceString33 = new StringBuilder();
-            foreach (bool flag in this.regularflag)
-                sourceString33.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString33, SaveData.pass));
-            StringBuilder sourceString34 = new StringBuilder();
-            sourceString34.Append(this.Regularlarge);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString34, SaveData.pass));
-            StringBuilder sourceString35 = new StringBuilder();
-            foreach (bool runSubChip in this.runSubChips)
-                sourceString35.Append(runSubChip.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString35, SaveData.pass));
-            StringBuilder sourceString36 = new StringBuilder();
-            sourceString36.Append(this.selectQuestion);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString36, SaveData.pass));
-            StringBuilder sourceString37 = new StringBuilder();
-            sourceString37.Append(this.setstyle);
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString37, SaveData.pass));
-            StringBuilder sourceString38 = new StringBuilder();
-            foreach (Virus stockViru in this.stockVirus)
-                sourceString38.Append(stockViru.type.ToString() + "/" + stockViru.eatBug + "/" + stockViru.eatError + "/" + stockViru.eatFreeze + "/" + stockViru.code + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString38, SaveData.pass));
-            StringBuilder sourceString39 = new StringBuilder();
-            foreach (Style style in this.style)
-                sourceString39.Append(style.style.ToString() + "/" + style.element + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString39, SaveData.pass));
-            StringBuilder sourceString40 = new StringBuilder();
-            foreach (int num in this.stylepoint)
-                sourceString40.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString40, SaveData.pass));
-            StringBuilder sourceString41 = new StringBuilder();
-            foreach (byte num in this.time)
-                sourceString41.Append(((int)num).ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString41, SaveData.pass));
-            StringBuilder sourceString42 = new StringBuilder();
-            foreach (bool flag in this.virusSPbusted)
-                sourceString42.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString42, SaveData.pass));
-            StringBuilder sourceString43 = new StringBuilder();
-            foreach (bool flag in this.virusSPbustedFlug)
-                sourceString43.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString43, SaveData.pass));
-            StringBuilder sourceString44 = new StringBuilder();
-            bool[,] bbsRead = this.bbsRead;
-            int upperBound1 = bbsRead.GetUpperBound(0);
-            int upperBound2 = bbsRead.GetUpperBound(1);
-            for (int lowerBound1 = bbsRead.GetLowerBound(0); lowerBound1 <= upperBound1; ++lowerBound1)
-            {
-                for (int lowerBound2 = bbsRead.GetLowerBound(1); lowerBound2 <= upperBound2; ++lowerBound2)
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString4, SaveData.pass));
+                StringBuilder sourceString5 = new StringBuilder();
+                foreach (ChipS havechip in this.havechips)
+                    sourceString5.Append(havechip.number.ToString() + "/" + havechip.code + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString5, SaveData.pass));
+                StringBuilder sourceString6 = new StringBuilder();
+                foreach (bool flag in this.datelist)
+                    sourceString6.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString6, SaveData.pass));
+                StringBuilder sourceString7 = new StringBuilder();
+                sourceString7.Append(this.efolder);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString7, SaveData.pass));
+                StringBuilder sourceString8 = new StringBuilder();
+                foreach (bool flag in this.equipAddon)
+                    sourceString8.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString8, SaveData.pass));
+                StringBuilder sourceString9 = new StringBuilder();
+                sourceString9.Append(this.firstchange);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString9, SaveData.pass));
+                StringBuilder sourceString10 = new StringBuilder();
+                sourceString10.Append(this.foldername);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString10, SaveData.pass));
+                StringBuilder sourceString11 = new StringBuilder();
+                foreach (AddOnBase addOnBase in this.haveAddon)
                 {
-                    bool flag = bbsRead[lowerBound1, lowerBound2];
-                    sourceString44.Append(flag.ToString() + "@");
+                    var typeName = addOnBase.GetType().ToAddOnName();
+                    sourceString11.Append(typeName + "/" + addOnBase.color + "@");
                 }
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString11, SaveData.pass));
+                StringBuilder sourceString12 = new StringBuilder();
+                sourceString12.Append(this.haveCaptureBomb);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString12, SaveData.pass));
+                this.chipThread.Join();
+                streamWriter.WriteLine(this.chiplist);
+                StringBuilder sourceString13 = new StringBuilder();
+                foreach (bool flag in this.havefolder)
+                    sourceString13.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString13, SaveData.pass));
+                StringBuilder sourceString14 = new StringBuilder();
+                foreach (int num in this.havePeace)
+                    sourceString14.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString14, SaveData.pass));
+                StringBuilder sourceString15 = new StringBuilder();
+                sourceString15.Append(this.havestyles);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString15, SaveData.pass));
+                StringBuilder sourceString16 = new StringBuilder();
+                foreach (int haveSubChi in this.haveSubChis)
+                    sourceString16.Append(haveSubChi.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString16, SaveData.pass));
+                StringBuilder sourceString17 = new StringBuilder();
+                sourceString17.Append(this.haveSubMemory);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString17, SaveData.pass));
+                StringBuilder sourceString18 = new StringBuilder();
+                foreach (Virus haveViru in this.HaveVirus)
+                {
+                    if (haveViru != null)
+                        sourceString18.Append(haveViru.type.ToString() + "/" + haveViru.eatBug + "/" + haveViru.eatError + "/" + haveViru.eatFreeze + "/" + haveViru.code + "@");
+                    else
+                        sourceString18.Append("null@");
+                }
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString18, SaveData.pass));
+                StringBuilder sourceString19 = new StringBuilder();
+                sourceString19.Append(this.HPmax);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString19, SaveData.pass));
+                StringBuilder sourceString20 = new StringBuilder();
+                sourceString20.Append(this.HPnow);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString20, SaveData.pass));
+                StringBuilder sourceString21 = new StringBuilder();
+                sourceString21.Append(this.HPplus);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString21, SaveData.pass));
+                StringBuilder sourceString22 = new StringBuilder();
+                foreach (int num in this.keyitem)
+                    sourceString22.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString22, SaveData.pass));
+                StringBuilder sourceString23 = new StringBuilder();
+                foreach (int num in this.mail)
+                    sourceString23.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString23, SaveData.pass));
+                StringBuilder sourceString24 = new StringBuilder();
+                foreach (bool flag in this.mailread)
+                    sourceString24.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString24, SaveData.pass));
+                StringBuilder sourceString25 = new StringBuilder();
+                sourceString25.Append(this.manybattle);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString25, SaveData.pass));
+                StringBuilder sourceString26 = new StringBuilder();
+                sourceString26.Append(this.MaxCore);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString26, SaveData.pass));
+                StringBuilder sourceString27 = new StringBuilder();
+                sourceString27.Append(this.MaxHz);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString27, SaveData.pass));
+                StringBuilder sourceString28 = new StringBuilder();
+                sourceString28.Append(this.mind);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString28, SaveData.pass));
+                StringBuilder sourceString29 = new StringBuilder();
+                sourceString29.Append(this.Money);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString29, SaveData.pass));
+                StringBuilder sourceString30 = new StringBuilder();
+                sourceString30.Append(this.plase);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString30, SaveData.pass));
+                StringBuilder sourceString31 = new StringBuilder();
+                sourceString31.Append(this.isJackedIn);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString31, SaveData.pass));
+                StringBuilder sourceString32 = new StringBuilder();
+                foreach (byte num in this.regularchip)
+                    sourceString32.Append(((int)num).ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString32, SaveData.pass));
+                StringBuilder sourceString33 = new StringBuilder();
+                foreach (bool flag in this.regularflag)
+                    sourceString33.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString33, SaveData.pass));
+                StringBuilder sourceString34 = new StringBuilder();
+                sourceString34.Append(this.Regularlarge);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString34, SaveData.pass));
+                StringBuilder sourceString35 = new StringBuilder();
+                foreach (bool runSubChip in this.runSubChips)
+                    sourceString35.Append(runSubChip.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString35, SaveData.pass));
+                StringBuilder sourceString36 = new StringBuilder();
+                sourceString36.Append(this.selectQuestion);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString36, SaveData.pass));
+                StringBuilder sourceString37 = new StringBuilder();
+                sourceString37.Append(this.setstyle);
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString37, SaveData.pass));
+                StringBuilder sourceString38 = new StringBuilder();
+                foreach (Virus stockViru in this.stockVirus)
+                    sourceString38.Append(stockViru.type.ToString() + "/" + stockViru.eatBug + "/" + stockViru.eatError + "/" + stockViru.eatFreeze + "/" + stockViru.code + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString38, SaveData.pass));
+                StringBuilder sourceString39 = new StringBuilder();
+                foreach (Style style in this.style)
+                    sourceString39.Append(style.style.ToString() + "/" + style.element + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString39, SaveData.pass));
+                StringBuilder sourceString40 = new StringBuilder();
+                foreach (int num in this.stylepoint)
+                    sourceString40.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString40, SaveData.pass));
+                StringBuilder sourceString41 = new StringBuilder();
+                foreach (byte num in this.time)
+                    sourceString41.Append(((int)num).ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString41, SaveData.pass));
+                StringBuilder sourceString42 = new StringBuilder();
+                foreach (bool flag in this.virusSPbusted)
+                    sourceString42.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString42, SaveData.pass));
+                StringBuilder sourceString43 = new StringBuilder();
+                foreach (bool flag in this.virusSPbustedFlug)
+                    sourceString43.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString43, SaveData.pass));
+                StringBuilder sourceString44 = new StringBuilder();
+                bool[,] bbsRead = this.bbsRead;
+                int upperBound1 = bbsRead.GetUpperBound(0);
+                int upperBound2 = bbsRead.GetUpperBound(1);
+                for (int lowerBound1 = bbsRead.GetLowerBound(0); lowerBound1 <= upperBound1; ++lowerBound1)
+                {
+                    for (int lowerBound2 = bbsRead.GetLowerBound(1); lowerBound2 <= upperBound2; ++lowerBound2)
+                    {
+                        bool flag = bbsRead[lowerBound1, lowerBound2];
+                        sourceString44.Append(flag.ToString() + "@");
+                    }
+                }
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString44, SaveData.pass));
+                StringBuilder sourceString45 = new StringBuilder();
+                foreach (bool flag in this.questEnd)
+                    sourceString45.Append(flag.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString45, SaveData.pass));
+                stringBuilder = new StringBuilder();
+                this.shopThread.Join();
+                streamWriter.WriteLine(this.shoplist);
+                StringBuilder sourceString46 = new StringBuilder();
+                sourceString46.Append(this.message.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString46, SaveData.pass));
+                StringBuilder sourceString47 = new StringBuilder();
+                sourceString47.Append(this.isJackedIn.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString47, SaveData.pass));
+                StringBuilder sourceString48 = new StringBuilder();
+                sourceString48.Append(this.nowMap.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString48, SaveData.pass));
+                StringBuilder sourceString49 = new StringBuilder();
+                sourceString49.Append(this.nowX.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString49, SaveData.pass));
+                StringBuilder sourceString50 = new StringBuilder();
+                sourceString50.Append(this.nowY.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString50, SaveData.pass));
+                StringBuilder sourceString51 = new StringBuilder();
+                sourceString51.Append(this.nowZ.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString51, SaveData.pass));
+                StringBuilder sourceString52 = new StringBuilder();
+                sourceString52.Append(this.nowFroor.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString52, SaveData.pass));
+                StringBuilder sourceString53 = new StringBuilder();
+                sourceString53.Append(this.steptype.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString53, SaveData.pass));
+                StringBuilder sourceString54 = new StringBuilder();
+                sourceString54.Append(this.stepoverX.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString54, SaveData.pass));
+                StringBuilder sourceString55 = new StringBuilder();
+                sourceString55.Append(this.stepoverY.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString55, SaveData.pass));
+                StringBuilder sourceString56 = new StringBuilder();
+                sourceString56.Append(this.stepCounter.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString56, SaveData.pass));
+                StringBuilder sourceString57 = new StringBuilder();
+                sourceString57.Append(this.pluginMap.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString57, SaveData.pass));
+                StringBuilder sourceString58 = new StringBuilder();
+                sourceString58.Append(this.pluginX.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString58, SaveData.pass));
+                StringBuilder sourceString59 = new StringBuilder();
+                sourceString59.Append(this.pluginY.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString59, SaveData.pass));
+                StringBuilder sourceString60 = new StringBuilder();
+                sourceString60.Append(this.pluginZ.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString60, SaveData.pass));
+                StringBuilder sourceString61 = new StringBuilder();
+                sourceString61.Append(this.pluginFroor.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString61, SaveData.pass));
+                this.flagThread.Join();
+                streamWriter.WriteLine(this.fluglist);
+                this.valThread.Join();
+                streamWriter.WriteLine(this.vallist);
+                this.mysThread.Join();
+                streamWriter.WriteLine(this.myslist);
+                this.ranThread.Join();
+                streamWriter.WriteLine(this.ranlist);
+                StringBuilder sourceString62 = new StringBuilder();
+                for (int index = 0; index < this.interiors.Count; ++index)
+                {
+                    sourceString62.Append(this.interiors[index].number.ToString() + "@");
+                    sourceString62.Append(this.interiors[index].posiX.ToString() + "@");
+                    sourceString62.Append(this.interiors[index].posiY.ToString() + "@");
+                    sourceString62.Append(this.interiors[index].set.ToString() + "@");
+                    sourceString62.Append(this.interiors[index].rebirth.ToString() + "@");
+                }
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString62, SaveData.pass));
+                StringBuilder sourceString63 = new StringBuilder();
+                foreach (int num in this.netWorkName)
+                    sourceString63.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString63, SaveData.pass));
+                StringBuilder sourceString64 = new StringBuilder();
+                sourceString64.Append(this.netWorkFace.ToString());
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString64, SaveData.pass));
+                StringBuilder sourceString65 = new StringBuilder();
+                foreach (int num in this.RirekNetWorkAddress)
+                    sourceString65.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString65, SaveData.pass));
+                StringBuilder sourceString66 = new StringBuilder();
+                foreach (int num in this.RirekNetWorkFace)
+                    sourceString66.Append(num.ToString() + "@");
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString66, SaveData.pass));
+                StringBuilder sourceString67 = new StringBuilder();
+                foreach (int[] numArray in this.RirekNetWorkName)
+                {
+                    string str = "";
+                    for (int index = 0; index < numArray.Length; ++index)
+                        str = str + numArray[index] + ",";
+                    sourceString67.Append(str + "@");
+                }
+                streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString67, SaveData.pass));
             }
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString44, SaveData.pass));
-            StringBuilder sourceString45 = new StringBuilder();
-            foreach (bool flag in this.questEnd)
-                sourceString45.Append(flag.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString45, SaveData.pass));
-            stringBuilder = new StringBuilder();
-            this.shopThread.Join();
-            streamWriter.WriteLine(this.shoplist);
-            StringBuilder sourceString46 = new StringBuilder();
-            sourceString46.Append(this.message.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString46, SaveData.pass));
-            StringBuilder sourceString47 = new StringBuilder();
-            sourceString47.Append(this.isJackedIn.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString47, SaveData.pass));
-            StringBuilder sourceString48 = new StringBuilder();
-            sourceString48.Append(this.nowMap.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString48, SaveData.pass));
-            StringBuilder sourceString49 = new StringBuilder();
-            sourceString49.Append(this.nowX.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString49, SaveData.pass));
-            StringBuilder sourceString50 = new StringBuilder();
-            sourceString50.Append(this.nowY.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString50, SaveData.pass));
-            StringBuilder sourceString51 = new StringBuilder();
-            sourceString51.Append(this.nowZ.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString51, SaveData.pass));
-            StringBuilder sourceString52 = new StringBuilder();
-            sourceString52.Append(this.nowFroor.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString52, SaveData.pass));
-            StringBuilder sourceString53 = new StringBuilder();
-            sourceString53.Append(this.steptype.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString53, SaveData.pass));
-            StringBuilder sourceString54 = new StringBuilder();
-            sourceString54.Append(this.stepoverX.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString54, SaveData.pass));
-            StringBuilder sourceString55 = new StringBuilder();
-            sourceString55.Append(this.stepoverY.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString55, SaveData.pass));
-            StringBuilder sourceString56 = new StringBuilder();
-            sourceString56.Append(this.stepCounter.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString56, SaveData.pass));
-            StringBuilder sourceString57 = new StringBuilder();
-            sourceString57.Append(this.pluginMap.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString57, SaveData.pass));
-            StringBuilder sourceString58 = new StringBuilder();
-            sourceString58.Append(this.pluginX.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString58, SaveData.pass));
-            StringBuilder sourceString59 = new StringBuilder();
-            sourceString59.Append(this.pluginY.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString59, SaveData.pass));
-            StringBuilder sourceString60 = new StringBuilder();
-            sourceString60.Append(this.pluginZ.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString60, SaveData.pass));
-            StringBuilder sourceString61 = new StringBuilder();
-            sourceString61.Append(this.pluginFroor.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString61, SaveData.pass));
-            this.flagThread.Join();
-            streamWriter.WriteLine(this.fluglist);
-            this.valThread.Join();
-            streamWriter.WriteLine(this.vallist);
-            this.mysThread.Join();
-            streamWriter.WriteLine(this.myslist);
-            this.ranThread.Join();
-            streamWriter.WriteLine(this.ranlist);
-            StringBuilder sourceString62 = new StringBuilder();
-            for (int index = 0; index < this.interiors.Count; ++index)
+            catch
             {
-                sourceString62.Append(this.interiors[index].number.ToString() + "@");
-                sourceString62.Append(this.interiors[index].posiX.ToString() + "@");
-                sourceString62.Append(this.interiors[index].posiY.ToString() + "@");
-                sourceString62.Append(this.interiors[index].set.ToString() + "@");
-                sourceString62.Append(this.interiors[index].rebirth.ToString() + "@");
+                saveFailed = true;
             }
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString62, SaveData.pass));
-            StringBuilder sourceString63 = new StringBuilder();
-            foreach (int num in this.netWorkName)
-                sourceString63.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString63, SaveData.pass));
-            StringBuilder sourceString64 = new StringBuilder();
-            sourceString64.Append(this.netWorkFace.ToString());
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString64, SaveData.pass));
-            StringBuilder sourceString65 = new StringBuilder();
-            foreach (int num in this.RirekNetWorkAddress)
-                sourceString65.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString65, SaveData.pass));
-            StringBuilder sourceString66 = new StringBuilder();
-            foreach (int num in this.RirekNetWorkFace)
-                sourceString66.Append(num.ToString() + "@");
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString66, SaveData.pass));
-            StringBuilder sourceString67 = new StringBuilder();
-            foreach (int[] numArray in this.RirekNetWorkName)
+            finally
             {
-                string str = "";
-                for (int index = 0; index < numArray.Length; ++index)
-                    str = str + numArray[index] + ",";
-                sourceString67.Append(str + "@");
+                streamWriter?.Close();
+                streamWriter?.Dispose();
             }
-            streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString67, SaveData.pass));
-            streamWriter.Dispose();
-            streamWriter.Close();
+
+            if (saveFailed)
+            {
+                var errorText = ShanghaiEXE.Translate("Save.SaveFailed").Text;
+                if (File.Exists(BackupPath))
+                {
+                    File.Copy(BackupPath, SavePath, true);
+                    errorText += Environment.NewLine + Environment.NewLine + ShanghaiEXE.Translate("Save.SaveRetained").Text;
+                }
+
+                parent?.Invoke((Action)(() =>
+                {
+                    MessageBox.Show(
+                        errorText,
+                        ShanghaiEXE.Translate("Save.SaveFailedTitle").Text,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }));
+            }
+
             this.saveEnd = true;
             this.saveEndnowsub = true;
             this.saveEndnow = true;

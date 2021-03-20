@@ -131,12 +131,11 @@ namespace NSGame
         {
             this.mapscene.loadflame = 120;
             this.savedata.Init();
-            this.parent.thread_1 = new Thread(new ThreadStart(this.savedata.Load));
-            this.parent.thread_1.Start();
+            var loadThread = new Thread(new ThreadStart(() => this.savedata.Load(this.parent)));
+            loadThread.Start();
             this.sound.StopBGM();
             this.sound.BGMVolumeSet(100);
             this.parent.ChangeOfSecne(Scene.Title);
-            this.savedata = new SaveData();
         }
 
         public override void Render(IRenderer dg)
