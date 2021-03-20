@@ -462,6 +462,7 @@
   <Dialogue Key="Retcon.0550HeavenWIP" Value="[This area is a work in progress.,Barriers are placeholders，,to be reset in the next release.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550HeavenWIP2" Value="[Replaced postgame “WIP”,blockers with placeholders，,to be reset on next release.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550ReAddedAddOns" Value="[Re-added mistakenly removed,AddOns:]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRebalance" Value="[Rebalanced postgame AddOns.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550SageSkipped" Value="[Enabled missing flag that,made 4th quiz missable.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550CrimDexEnabled" Value="[Enabled illegal library.]" Face="Sprite" Mono="False" />
 

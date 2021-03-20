@@ -983,6 +983,25 @@ namespace NSGame
             if (this.ValList[199] == 4)
             {
                 // Replace new addons
+                var friendshipIndex = this.haveAddon.FindIndex(ao => ao is Sacrifice);
+                var hasMammon = this.haveAddon.Any(ao => ao is Mammon);
+                if (friendshipIndex != -1)
+                {
+                    this.haveAddon.RemoveAt(friendshipIndex);
+                    this.equipAddon.RemoveAt(friendshipIndex);
+
+                    var equipIndex = this.equipAddon[friendshipIndex] ? this.equipAddon.Take(friendshipIndex).Count(b => b) : -1;
+                    if (equipIndex != -1)
+                    {
+                        this.addonNames.RemoveAt(equipIndex);
+                    }
+
+                    this.GetAddon(new Sacrifice(AddOnBase.ProgramColor.gleen));
+                }
+                if (friendshipIndex != -1 && hasMammon)
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRebalance"));
+                }
 
                 if (this.FlagList[796])
                 {
