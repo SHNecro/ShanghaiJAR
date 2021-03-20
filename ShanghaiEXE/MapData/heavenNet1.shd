@@ -3152,6 +3152,7 @@ hitrange:8:8:6:6
 hitform:square
 event:
 editFlag:880:True
+editFlag:800:True
 ItemGet:3:8:0:KeyItem.CrimDexName
 EditItem:28:True
 end

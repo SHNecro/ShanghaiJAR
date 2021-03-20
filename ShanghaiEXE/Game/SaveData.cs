@@ -935,6 +935,12 @@ namespace NSGame
                     this.FlagList[795] = true;
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550SageSkipped"));
                 }
+                
+                if (this.FlagList[880])
+                {
+                    this.FlagList[800] = true;
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550CrimDexEnabled"));
+                }
 
                 this.ValList[199] = 5;
             }
