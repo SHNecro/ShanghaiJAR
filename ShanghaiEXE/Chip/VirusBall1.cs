@@ -9,6 +9,8 @@ using NSGame;
 using NSNet;
 using SlimDX;
 using System.Drawing;
+using System.Linq;
+using System;
 
 namespace NSChip
 {
@@ -100,19 +102,39 @@ namespace NSChip
                     if (character is NetPlayer)
                     {
                         haveViru = ((NetPlayer)character).viruss[this.id];
-                        e = new EnemyBase(this.sound, battle, character.positionold.X, character.positionold.Y, 0, character.union, haveViru.rank);
                     }
                     else
                     {
                         haveViru = SaveData.HAVEVirus[this.id];
-                        e = new EnemyBase(this.sound, battle, character.positionold.X, character.positionold.Y, 0, character.union, haveViru.rank);
                     }
-                    EnemyBase enemyBase = EnemyBase.EnemyMake(haveViru.type, e, false);
+                    var newVirus = new Virus
+                    {
+                        type = haveViru.type,
+                        eatBug = haveViru.eatBug,
+                        eatError = haveViru.eatError,
+                        eatFreeze = haveViru.eatFreeze,
+                    };
+                    if ((character as Player)?.addonSkill[73] == true)
+                    {
+                        var enemies = battle.AllChara().Where(c => character.UnionEnemy == c.union);
+                        var maxEnemyRank = enemies.Max(c => (c as EnemyBase)?.version ?? 0);
+
+                        if (enemies.Any(c => c is NaviBase))
+                        {
+                            maxEnemyRank++;
+                        }
+
+                        var rankUpgrades = Math.Max(0, maxEnemyRank - haveViru.rank - (3 - haveViru.rank));
+                        newVirus.eatBug += 20 * rankUpgrades;
+                        newVirus.ReturnVirus(newVirus.type);
+                    }
+                    e = new EnemyBase(this.sound, battle, character.positionold.X, character.positionold.Y, 0, character.union, newVirus.rank);
+                    EnemyBase enemyBase = EnemyBase.EnemyMake(newVirus.type, e, false);
                     enemyBase.number = battle.enemys.Count;
                     if (this.randomSeed != null)
                         enemyBase.randomSeed = this.randomSeed;
-                    enemyBase.HPset(haveViru.HP);
-                    enemyBase.power = haveViru.Power;
+                    enemyBase.HPset(newVirus.HP);
+                    enemyBase.power = newVirus.Power;
                     if (enemyBase.Canmove(enemyBase.position))
                     {
                         battle.enemys.Add(enemyBase);

@@ -1187,9 +1187,9 @@ namespace NSBattle.Character
                 if (enemy.union != union)
                     pointList.Add(enemy.position);
             }
-            int index = this.RandomSeedUse() % pointList.Count;
             try
             {
+                int index = this.RandomSeedUse() % pointList.Count;
                 return pointList[index];
             }
             catch
