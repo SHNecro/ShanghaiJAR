@@ -3,6 +3,7 @@ using NSChip;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSEffect;
 using System.Drawing;
+using System.Linq;
 
 namespace NSEnemy
 {
@@ -66,8 +67,20 @@ namespace NSEnemy
         {
             base.SetUsedChip();
 
-            int num = this.Random.Next(100);
-            this.usechip = this.no2ChipUsed < this.HpMax / 700 ? (num >= 20 ? (num >= 50 ? 0 : 2) : 1) : (num >= 30 ? 0 : 1);
+            var chipWeights = this.no2ChipUsed < this.HpMax / 700
+                ? new[] { 50, 20, 30 }
+                : new[] { 70, 30, 0 };
+            var num = this.Random.Next(chipWeights.Sum());
+            for (var i = 0; i < chipWeights.Length; i++)
+            {
+                num -= chipWeights[i];
+                if (num < 0)
+                {
+                    this.usechip = i;
+                    break;
+                }
+            }
+
         }
 
         protected override void OnAttack()
