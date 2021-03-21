@@ -189,10 +189,15 @@ namespace NSChip
                         
                         character.parent.attacks.Add(this.Paralyze(towerAttack));
 
-                        foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
+                        if (!this.isElemental)
                         {
-                            this.sound.PlaySE(SoundEffect.repair);
-                            character.Hp += Math.Min(this.Power(character), c.Hp);
+                            var affectedEnemies = battle.AllChara().Where(c => character.UnionEnemy == c.union && towerAttack.HitCheck(c.position));
+                            var drainedLife = affectedEnemies.Sum(c => Math.Min(this.Power(character), c.Hp));
+                            if (drainedLife > 0)
+                            {
+                                this.sound.PlaySE(SoundEffect.repair);
+                                character.Hp += drainedLife;
+                            }
                         }
                     }
                 });

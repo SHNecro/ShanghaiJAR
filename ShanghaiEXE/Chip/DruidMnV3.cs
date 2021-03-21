@@ -115,7 +115,7 @@ namespace NSChip
                 {
                     if (bw.Item2 == burstAttackTime)
                     {
-                        var towerAttack = new Tower(
+                        var burst = this.Paralyze(new Tower(
                             this.sound,
                             character.parent,
                             bw.Item1.X,
@@ -123,12 +123,14 @@ namespace NSChip
                             character.union,
                             this.Power(character),
                             -1,
-                            ChipBase.ELEMENT.poison);
-                        character.parent.attacks.Add(this.Paralyze(towerAttack));
-                        foreach (var c in character.parent.AllChara().Where(c => c.union == character.union).Where(c => c.position == bw.Item1))
+                            ChipBase.ELEMENT.poison));
+                        character.parent.attacks.Add(burst);
+                        var affectedEnemies = battle.AllChara().Where(c => character.UnionEnemy == c.union && burst.HitCheck(c.position));
+                        var drainedLife = affectedEnemies.Sum(c => Math.Min(this.Power(character), c.Hp));
+                        if (drainedLife > 0)
                         {
                             this.sound.PlaySE(SoundEffect.repair);
-                            character.Hp += Math.Min(this.Power(character), c.Hp);
+                            character.Hp += drainedLife;
                         }
                     }
                 });
