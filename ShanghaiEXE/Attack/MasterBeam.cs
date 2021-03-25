@@ -79,14 +79,18 @@ namespace NSAttack
                     {
                         if (characterBase.position.Y >= this.position.Y && characterBase.position.Y <= this.position.Y + this.hitrange.Y && !characterBase.nohit)
                         {
-                            var damageMultiplier = this.DamageMath(characterBase) / this.power;
+                            Func<int> calcDamageMultiplier = () => this.DamageMath(characterBase) / this.power;
                             if (this.union == Panel.COLOR.red)
                             {
                                 if (characterBase.position.X >= this.position.X)
-                                    characterBaseList.Add(Tuple.Create(characterBase, damageMultiplier));
+                                {
+                                    characterBaseList.Add(Tuple.Create(characterBase, calcDamageMultiplier()));
+                                }
                             }
                             else if (characterBase.position.X <= this.position.X)
-                                characterBaseList.Add(Tuple.Create(characterBase, damageMultiplier));
+                            {
+                                characterBaseList.Add(Tuple.Create(characterBase, calcDamageMultiplier()));
+                            }
                         }
                     }
                     this.hitter = characterBaseList.ToArray();
