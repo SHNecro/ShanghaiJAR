@@ -113,7 +113,7 @@
   <!-- そう言えばそうねまるで兎の耳みたいな白いメッシュの髪の毛あるし -->
   <Dialogue Key="Messages.HumorInfo10Dialogue2Alice" Value="Wow!,It’s like you’ve got rabbit’s ears!" Face="Alice" Mono="False" />
   <!-- まるで頭にシラタキでも乗せているかのような････ -->
-  <Dialogue Key="Messages.HumorInfo10Dialogue3Shanghai" Value="Like a bowl of noodles got,dumped over my face!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo10Dialogue3Shanghai" Value="Like a bowl of udon got,dumped over my face!" Face="Shanghai" Mono="False" />
   <!-- #s@phone#プルルルルル！ -->
   <Dialogue Key="Messages.HumorInfo10Dialogue4None" Value="#s@phone#Briiiiing!" Face="None" Mono="False" />
   <!-- も　もしもし？ -->
@@ -125,7 +125,7 @@
   <!-- そうか････ -->
   <Dialogue Key="Messages.HumorInfo10Dialogue8Reisen" Value="Good." Face="Reisen" Mono="False" />
   <!-- この地獄耳････いや地獄シラタキめ･･･ -->
-  <Dialogue Key="Messages.HumorInfo10Dialogue9Shanghai" Value="Rabbit’s ear....,Noodles....,Snkrrt." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo10Dialogue9Shanghai" Value="Rabbit eared....,Udon-head....,Snkrrt." Face="Shanghai" Mono="False" />
   <!-- 『シャンハイのお悩み相談室』今回のゲストはこちらです -->
   <Dialogue Key="Messages.HumorInfo11Dialogue1Shanghai" Value="Shanghai’s Consultation room，,we’ve got a guest caller!" Face="Shanghai" Mono="False" />
   <!-- どうも、森近魔理だぜ -->
@@ -155,15 +155,15 @@
   <!-- 第一防衛ライン突破されました！ -->
   <Dialogue Key="Messages.HumorInfo12Dialogue2NaviPurpleHeel" Value="They’ve broken through the,first line of defense!" Face="NaviPurpleHeel" Mono="False" />
   <!-- ええい　たかが小娘１人になにを手こずっているのだ！！ -->
-  <Dialogue Key="Messages.HumorInfo12Dialogue3Shanghai" Value="What are our fighters doing?!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo12Dialogue3Shanghai" Value="What are our fighters even,doing?!" Face="Shanghai" Mono="False" />
   <!-- しかし　やつの力は我々の想像を上回っており････ -->
-  <Dialogue Key="Messages.HumorInfo12Dialogue4NaviPurpleHeel" Value="Their power level is beyond,our comprehension!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo12Dialogue4NaviPurpleHeel" Value="Their power....,Their power level is beyond,anything we’ve seen before!" Face="NaviPurpleHeel" Mono="False" />
   <!-- もういい　ふがいないザコどもめこうなったらあたしが出る！ -->
-  <Dialogue Key="Messages.HumorInfo12Dialogue5Shanghai" Value="I’m getting out of here!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo12Dialogue5Shanghai" Value="Worthless! Enough out of you，,I’ll have to take to the field,myself!" Face="Shanghai" Mono="False" />
   <!-- ････何やってるの？ -->
-  <Dialogue Key="Messages.HumorInfo12Dialogue6Alice" Value="What’s going on?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo12Dialogue6Alice" Value="....What’s even going on here?" Face="Alice" Mono="False" />
   <!-- 捉えた女の子が意外と強くて基地の防衛を次々突破される悪の組織の指揮官ゴッコ -->
-  <Dialogue Key="Messages.HumorInfo12Dialogue7Shanghai" Value="She’s caught me! The beast,has broken through! Is this the,end of our brave defenders?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo12Dialogue7Shanghai" Value="Here to take your shot at the,organization’s commander?,Enough talk! Have at you!" Face="Shanghai" Mono="False" />
   <!-- 細かっ！？ -->
   <Dialogue Key="Messages.HumorInfo12Dialogue8Alice" Value="What?!" Face="Alice" Mono="False" />
   <!-- ご苦労様　さがっていいわ -->
@@ -411,7 +411,7 @@
   <!-- あいつの白い髪の毛ってうどんの束みたいじゃない？ -->
   <Dialogue Key="Messages.HumorInfo29Dialogue3Shanghai" Value="That weird white hair she has, looks like noodles，right?" Face="Shanghai" Mono="False" />
   <!-- だからウドンの毛でウドン毛って････ -->
-  <Dialogue Key="Messages.HumorInfo29Dialogue4Shanghai" Value="So ”Udon Hair” fits someone, with hair that looks like udon." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo29Dialogue4Shanghai" Value="So ”Udon Girl” fits someone, with hair that looks like udon." Face="Shanghai" Mono="False" />
   <!-- #s@phone#プルルルルル！ -->
   <Dialogue Key="Messages.HumorInfo29Dialogue5None" Value="#s@phone#Briiiiing！" Face="None" Mono="False" />
   <!-- も　もしもし？ -->
@@ -425,7 +425,7 @@
   <!-- ホッ････ -->
   <Dialogue Key="Messages.HumorInfo29Dialogue10Alice" Value="(Phew....)" Face="Alice" Mono="False" />
   <!-- ････地獄耳いや　地獄ウドン毛め････ -->
-  <Dialogue Key="Messages.HumorInfo29Dialogue11Shanghai" Value="....rabbit-ear-udon-hair...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo29Dialogue11Shanghai" Value="....rabbit-eared udon girl...." Face="Shanghai" Mono="False" />
   <!-- #s@phone#プルルルルル！ -->
   <Dialogue Key="Messages.HumorInfo29Dialogue12None" Value="#s@phone#Briiiiing！" Face="None" Mono="False" />
   <!-- ヒィッ！？ -->
@@ -527,13 +527,13 @@
   <!-- あら　ふたりば面白か遊びばしとるね -->
   <Dialogue Key="Messages.HumorInfo34Dialogue8Mama" Value="You two look like you’re,having fun!" Face="Mama" Mono="False" />
   <!-- シャンハイの方言もなかなかっちゃけどまだまだやね -->
-  <Dialogue Key="Messages.HumorInfo34Dialogue9Mama" Value="The words are right，but...." Face="Mama" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo34Dialogue9Mama" Value="You have some work to do on,your accent，though...." Face="Mama" Mono="False" />
   <!-- ママ！？ -->
   <Dialogue Key="Messages.HumorInfo34Dialogue10Alice" Value="Mama?!" Face="Alice" Mono="False" />
   <!-- 流石に現地民には勝てんばい････ -->
-  <Dialogue Key="Messages.HumorInfo34Dialogue11Shanghai" Value="It’s because my voice is still,young and beautiful!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo34Dialogue11Shanghai" Value="There’s just no way to beat,the accent of a real local...." Face="Shanghai" Mono="False" />
   <!-- 年季が違うとよ〜 -->
-  <Dialogue Key="Messages.HumorInfo34Dialogue12Mama" Value="I’m planning dinner，do you,want eggs and rice?" Face="Mama" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo34Dialogue12Mama" Value="Oh，it’s only because your,voice is still young and,beautiful!" Face="Mama" Mono="False" />
   <!-- 生卵をかけて白いご飯でときます -->
   <Dialogue Key="Messages.HumorInfo35Dialogue1Shanghai" Value="You have to wake up!" Face="Shanghai" Mono="False" />
   <!-- ････その心は？ -->
@@ -607,7 +607,7 @@
   <!-- おっ、なんだ？私の話でもしてるのか？ -->
   <Dialogue Key="Messages.HumorInfo39Dialogue4Kumami" Value="Hmm? Are you guys talking,about me?" Face="Kumami" Mono="False" />
   <!-- あっみ　の人だ -->
-  <Dialogue Key="Messages.HumorInfo39Dialogue5Shanghai" Value="Ah!,Look，a distraction!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo39Dialogue5Shanghai" Value="Ah!,Look，a tax auditor!" Face="Shanghai" Mono="False" />
   <!-- み！？ -->
   <Dialogue Key="Messages.HumorInfo39Dialogue6Kumami" Value="Where?!" Face="Kumami" Mono="False" />
   <!-- レミリアに天子にリグル････あんたって女の子ばかり落としてるわよね -->
