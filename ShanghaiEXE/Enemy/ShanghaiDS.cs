@@ -22,15 +22,15 @@ namespace NSEnemy
 
             var trueSaveData = this.Parent.parent.savedata;
             var equipFolderIndex = trueSaveData.efolder;
-            var playerFolder = trueSaveData.chipFolder;
+            var playerFolder = this.Parent.main.chipfolder;
 
             this.chips = new ChipFolder[playerFolder.GetLength(1)];
 
             for (int i = 0; i < playerFolder.GetLength(1); i++)
             {
                 this.chips[i] = new ChipFolder(this.sound);
-                this.chips[i].SettingChip(playerFolder[equipFolderIndex, i, 0]);
-                this.chips[i].codeNo = playerFolder[equipFolderIndex, i, 1];
+                this.chips[i].SettingChip(playerFolder[equipFolderIndex, i].chip.number);
+                this.chips[i].codeNo = playerFolder[equipFolderIndex, i].codeNo;
             }
         }
 
