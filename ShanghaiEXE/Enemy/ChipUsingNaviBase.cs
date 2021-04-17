@@ -95,6 +95,7 @@ namespace NSEnemy
             {
                 if (this.moveflame)
                 {
+                    this.MovementIdle();
                     this.positionre = this.position;
                     switch (this.Motion)
                     {

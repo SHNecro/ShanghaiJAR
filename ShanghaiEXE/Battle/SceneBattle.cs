@@ -16,6 +16,7 @@ using SlimDX;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System;
 
 namespace NSBattle
 {
@@ -327,16 +328,20 @@ namespace NSBattle
             foreach (CharacterBase allObject in this.AllObjects())
             {
                 int num = !allObject.invincibility ? 0 : (!this.blackOut ? 1 : 0);
-                allObject.mastorcolor = num == 0 ? Color.FromArgb(byte.MaxValue, allObject.mastorcolor) : Color.FromArgb(sbyte.MaxValue * (allObject.invincibilitytime % 3), allObject.mastorcolor);
+                allObject.mastorcolor = num == 0
+                    ? Color.FromArgb(byte.MaxValue, allObject.mastorcolor)
+                    : Color.FromArgb(sbyte.MaxValue * Math.Abs(allObject.invincibilitytime % 3), allObject.mastorcolor);
                 if (!this.blackOut)
                 {
-                    if (allObject.invincibilitytime > 0)
+                    if (allObject.invincibilitytime == 0)
+                    {
+                        allObject.invincibility = false;
+                    }
+                    else
                     {
                         allObject.invincibility = true;
                         --allObject.invincibilitytime;
                     }
-                    else
-                        allObject.invincibility = false;
                 }
             }
             this.Debug();

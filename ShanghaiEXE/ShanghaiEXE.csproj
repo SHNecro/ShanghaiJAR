@@ -400,6 +400,7 @@
     <Compile Include="Enemy\ChipUsingNaviBase.cs" />
     <Compile Include="Enemy\DruidMan.cs" />
     <Compile Include="Enemy\Flandre.cs" />
+    <Compile Include="Enemy\Madman.cs" />
     <Compile Include="Enemy\ShanghaiBase.cs" />
     <Compile Include="Enemy\ShanghaiDS.cs" />
     <Compile Include="Enemy\yuyuko.cs" />
@@ -2016,7 +2017,9 @@
     <Content Include="Language\ja-JP\Chip.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Language\ja-JP\Enemy.xml" />
+    <Content Include="Language\ja-JP\Enemy.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\en-US\Map.xml" />
     <Content Include="Language\ja-JP\Map.xml" />
     <Content Include="Language\en-US\KeyItem.xml" />

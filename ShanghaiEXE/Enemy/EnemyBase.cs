@@ -239,6 +239,9 @@ namespace NSEnemy
                 case 60:
                     enemyBase = new Uthuho(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                case 61:
+                    enemyBase = new Madman(sound, parent, point.X, point.Y, n, u, v);
+                    break;
                 case 62:
                     enemyBase = new Youmu(sound, parent, point.X, point.Y, n, u, v);
                     break;

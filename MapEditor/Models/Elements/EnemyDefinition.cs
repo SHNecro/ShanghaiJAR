@@ -54,28 +54,34 @@ namespace MapEditor.Models.Elements
                 DrawCalls = new List<DrawCall>()
             };
 
-            var mockParentObject = new SceneBattle { nowscene = SceneBattle.BATTLESCENE.battle };
-            enemyMade.parent = mockParentObject;
+            var blankParentObject = new SceneBattle { nowscene = SceneBattle.BATTLESCENE.battle };
+            enemyMade.parent = blankParentObject;
+
+            try
+            {
+                enemyMade.InitAfter();
+            }
+            catch { }
             var mockRenderDg = new Mock<IRenderer>(MockBehavior.Strict);
             mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<Color>()))
                 .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, Color color) =>
                 {
-                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, 1.0f, 0.0f, false, color);
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, 1.0f, 0.0f, false, Color.White);
                 });
             mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<bool>(), It.IsAny<Color>()))
                 .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, bool reversed, Color color) =>
                 {
-                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, 1.0f, 0.0f, reversed, color);
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, 1.0f, 0.0f, reversed, Color.White);
                 });
             mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<float>(), It.IsAny<float>(), It.IsAny<Color>()))
                 .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, float scale, float rotate, Color color) =>
                 {
-                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, scale, rotate, false, color);
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, scale, rotate, false, Color.White);
                 });
             mockRenderDg.Setup(msdg => msdg.DrawImage(It.IsAny<IRenderer>(), It.IsAny<string>(), It.IsAny<Rectangle>(), It.IsAny<bool>(), It.IsAny<Vector2>(), It.IsAny<float>(), It.IsAny<float>(), It.IsAny<bool>(), It.IsAny<Color>()))
                 .Callback((IRenderer dg, string tex, Rectangle texRect, bool topLeft, Vector2 point, float scale, float rotate, bool reversed, Color color) =>
                 {
-                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, scale, rotate, reversed, color);
+                    definition.AddDrawCall(dg, tex, texRect, topLeft, point, scale, rotate, reversed, Color.White);
                 });
 
             try
