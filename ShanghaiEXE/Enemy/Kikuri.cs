@@ -9,6 +9,7 @@ using NSGame;
 using NSObject;
 using SlimDX;
 using System.Drawing;
+using System.Linq;
 
 namespace NSEnemy
 {
@@ -145,20 +146,31 @@ namespace NSEnemy
             this.parent.noFanfale = true;
             this.parent.mind.perfect = true;
             this.parent.player.busterPower += 5;
-            this.parent.panel[4, 0].inviolability = true;
-            this.parent.panel[4, 1].inviolability = true;
-            this.parent.panel[4, 2].inviolability = true;
-            this.parent.panel[4, 0].noRender = true;
-            this.parent.panel[4, 1].noRender = true;
-            this.parent.panel[4, 2].noRender = true;
-            this.parent.panel[5, 0].state = Panel.PANEL._un;
-            this.parent.panel[5, 1].state = Panel.PANEL._un;
-            this.parent.panel[5, 2].state = Panel.PANEL._un;
+            this.ForcePanels();
             this.animationpoint = new Point(6, 0);
+        }
+
+        private void ForcePanels()
+        {
+            var invisiblePanels = Enumerable.Range(4, 1).SelectMany(x => Enumerable.Range(0, 3).Select(y => new Point(x, y)));
+            foreach (var panel in invisiblePanels)
+            {
+                this.parent.panel[panel.X, panel.Y].inviolability = true;
+                this.parent.panel[panel.X, panel.Y].noRender = true;
+                this.parent.panel[panel.X, panel.Y].state = Panel.PANEL._nomal;
+            }
+            var emptyPanels = Enumerable.Range(5, 1).SelectMany(x => Enumerable.Range(0, 3).Select(y => new Point(x, y)));
+            foreach (var panel in emptyPanels)
+            {
+                this.parent.panel[panel.X, panel.Y].inviolability = true;
+                this.parent.panel[panel.X, panel.Y].noRender = true;
+                this.parent.panel[panel.X, panel.Y].state = Panel.PANEL._un;
+            }
         }
 
         protected override void Moving()
         {
+            this.ForcePanels();
             this.neutlal = this.Motion == NaviBase.MOTION.neutral;
             switch (this.Motion)
             {
