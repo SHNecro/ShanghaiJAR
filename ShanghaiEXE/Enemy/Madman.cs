@@ -457,6 +457,14 @@ namespace NSEnemy
                 }
                 else
                 {
+                    if (this.stage != Stage.Vulnerable)
+                    {
+                        this.Sound.PlaySE(SoundEffect.barrier);
+                    }
+                    else
+                    {
+                        this.Sound.PlaySE(SoundEffect.bright);
+                    }
                     this.SummonStageEnemies(this.stage == Stage.Enraged ? this.enrageStage : this.stage, false);
                     this.nohit = false;
                     this.stageInitialized = true;
