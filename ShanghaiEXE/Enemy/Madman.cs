@@ -68,8 +68,6 @@ namespace NSEnemy
 
         private NSObject.Rock shellArmorRock;
         private bool isFloatingOverCube;
-
-        private bool brokenInvis;
         
         private bool beastOutEnd;
         private Color soulOverlayColor = Color.FromArgb(0);
@@ -82,7 +80,7 @@ namespace NSEnemy
           byte n,
           Panel.COLOR u,
           byte v)
-          : base(s, p, pX, pY, n, u, v, 1500, NSGame.ShanghaiEXE.Translate("Enemy.MadmanName"), "none")
+          : base(s, p, pX, pY, n, u, v, 800, NSGame.ShanghaiEXE.Translate("Enemy.MadmanName"), "none")
         {
             this.hp = 1;
             this.hpprint = 1;
@@ -228,7 +226,8 @@ namespace NSEnemy
             if (this.invincibility && this.invincibilitytime != 0
                 && attack.breakinvi)
             {
-                this.brokenInvis = true;
+                this.invincibility = false;
+                this.invincibilitytime = 0;
             }
             if ((this.barrierType == BARRIER.None &&
                     !this.invincibility &&
@@ -237,7 +236,6 @@ namespace NSEnemy
                 this.guard == GUARD.guard && attack.breaking)
             {
                 this.guard = GUARD.none;
-                this.Hp = 0;
             }
         }
 
@@ -426,7 +424,7 @@ namespace NSEnemy
                     }
                     else if (this.waittime > 30)
                     {
-                        this.Hp = 1500;
+                        this.Hp = this.HpMax;
                         var lifespan = 90;
                         var initialSoulPosition = new Vector2(this.soulPosition.X + Random.Next(-4, 5), this.soulPosition.Y);
                         var pos = new Point((int)initialSoulPosition.X, (int)initialSoulPosition.Y - 160);
@@ -551,7 +549,7 @@ namespace NSEnemy
                                 break;
                         }
 
-                        if (endStage || this.brokenInvis)
+                        if (endStage || !this.invincibility && this.invincibilitytime == 0)
                         {
                             this.invincibility = false;
                             this.invincibilitytime = 0;
@@ -624,6 +622,7 @@ namespace NSEnemy
                     break;
                 case Stage.Guard:
                     {
+                        var endStage = false;
                         switch (this.CheckSummonChange(activeStage))
                         {
                             case 2:
@@ -633,10 +632,15 @@ namespace NSEnemy
                             case 1:
                                 break;
                             case 0:
-                                this.guard = GUARD.none;
-                                this.EndStage(activeStage);
-                                activeStage = Stage.Vulnerable;
+                                endStage = true;
                                 break;
+                        }
+
+                        if (endStage || this.guard == GUARD.none)
+                        {
+                            this.guard = GUARD.none;
+                            this.EndStage(activeStage);
+                            activeStage = Stage.Vulnerable;
                         }
 
                         for (var i = 0; i < 10; i++)
@@ -862,6 +866,7 @@ namespace NSEnemy
                         summon.Hp = 0;
                     }
                 }
+                this.CheckSummonChange(activeStageValue);
             }
         }
 
@@ -874,7 +879,7 @@ namespace NSEnemy
                     return false;
                 }
                 return s.number == StageSummons[activeStage].Summon1.Id || s.number == StageSummons[activeStage].Summon2.Id;
-            }).GroupBy(s => s.flag);
+            }).GroupBy(s => s.flag && s.Hp != 0);
             var currentSummonCount = liveDeadSummons.Sum(gr => gr.Key ? gr.Count() : 0);
 
             if (this.prevSummonCount != currentSummonCount)

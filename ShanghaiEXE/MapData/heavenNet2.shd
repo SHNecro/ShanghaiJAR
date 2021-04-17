@@ -382,7 +382,7 @@ msg:Map.HeavenNet2MadManDeadBodyDialogue2
 msgclose:
 ifEnd:2
 bgmSave:
-battle:42:18:4:1:262:261:260:1:Map.HeavenNet2MadManName:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:6:2:False:False:False:True:VSnavi:36
+battle:61:18:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:6:2:False:False:False:True:VSnavi:36
 fade:45:0:0:0:0:False
 bgmfade:0:0:False
 bgmfade:100:150:False
