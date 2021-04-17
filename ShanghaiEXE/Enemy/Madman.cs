@@ -101,7 +101,8 @@ namespace NSEnemy
                     this.guard == GUARD.none &&
                     !this.invincibility &&
                     !this.isFloatingOverCube &&
-                    this.stageInitialized)
+                    this.stageInitialized &&
+                    (this.stage == Stage.Vulnerable || this.enrageStage == Stage.Vulnerable))
                     || (this.stage == Stage.Enraged && value > base.Hp))
                 {
                     base.Hp = value;
