@@ -110,7 +110,7 @@ msg:Map.UsakouAdd-onMerchantStage1Dialogue1FaceNaviPurplePunk
 question:Map.UsakouAdd-onMerchantStage1Dialogue2QuestionFaceNaviPurplePunk:Map.UsakouAdd-onMerchantStage1Dialogue2Options
 BranchHead:0
 msgclose:
-shop:9:2:2:2:6:0:12,6,34000,1:13,6,36000,1:31,1,15000,1:5,2,18000,1:83,7,15000,1:75,7,20000,1:84,7,17000,1:85,7,22000,1:73,7,18000,1
+shop:9:2:2:2:6:0:12,6,34000,1:13,6,36000,1:31,5,15000,1:5,2,18000,1:83,7,15000,1:75,7,20000,1:84,7,17000,1:85,7,22000,1:73,7,18000,1
 BranchEnd:
 BranchHead:1
 msg:Map.UsakouAdd-onMerchantStage2Dialogue1FaceNaviPurplePunk
