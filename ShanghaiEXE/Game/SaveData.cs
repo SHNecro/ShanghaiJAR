@@ -983,26 +983,31 @@ namespace NSGame
             if (this.ValList[199] == 4)
             {
                 // Replace new addons
-                var friendshipIndex = this.haveAddon.FindIndex(ao => ao is Sacrifice);
+                var hasFriendship = this.haveAddon.Any(ao => ao is Sacrifice);
                 var hasMammon = this.haveAddon.Any(ao => ao is Mammon);
-                if (friendshipIndex != -1)
+                var givNTakeIndex = this.haveAddon.FindIndex(ao => ao is Yuzuriai);
+                if (givNTakeIndex != -1)
                 {
-                    var equipIndex = this.equipAddon[friendshipIndex];
-                    var equipNameList = equipIndex ? this.equipAddon.Take(friendshipIndex).Count(b => b) : -1;
+                    var equipIndex = this.equipAddon[givNTakeIndex];
+                    var equipNameList = equipIndex ? this.equipAddon.Take(givNTakeIndex).Count(b => b) : -1;
 
-                    this.haveAddon.RemoveAt(friendshipIndex);
-                    this.equipAddon.RemoveAt(friendshipIndex);
+                    this.haveAddon.RemoveAt(givNTakeIndex);
+                    this.equipAddon.RemoveAt(givNTakeIndex);
 
                     if (equipNameList != -1)
                     {
                         this.addonNames.RemoveAt(equipNameList);
                     }
 
-                    this.GetAddon(new Sacrifice(AddOnBase.ProgramColor.gleen));
+                    this.GetAddon(new Yuzuriai(AddOnBase.ProgramColor.gleen));
                 }
-                if (friendshipIndex != -1 && hasMammon)
+                if (hasFriendship || hasMammon)
                 {
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRebalance"));
+                }
+                if (givNTakeIndex != -1)
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550AddOnRebalance2"));
                 }
 
                 if (this.FlagList[796])
