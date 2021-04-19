@@ -14,6 +14,8 @@ namespace NSEnemy
 {
     internal class Shellrun : EnemyBase
     {
+        private const int InternalHpRatio = 40;
+
         private Shellrun.MOTION motion = Shellrun.MOTION.neutral;
         private int count;
         private readonly int attackCount;
@@ -44,7 +46,7 @@ namespace NSEnemy
             this.Noslip = true;
             this.wide = 40;
             this.height = 40;
-            this.hp = 300 * version;
+            this.hp = InternalHpRatio * 3 * version;
             this.hpmax = this.hp;
             this.power = 5 + 15 * (version - 1);
             this.speed = 5 - version;
@@ -60,7 +62,7 @@ namespace NSEnemy
                     this.name = ShanghaiEXE.Translate("Enemy.ShellrunName2");
                     this.printNumber = false;
                     this.power = 150;
-                    this.hp = 700;
+                    this.hp = 7 * InternalHpRatio;
                     this.hpmax = this.hp;
                     this.speed = 1;
                     this.time = 30;
@@ -199,7 +201,7 @@ namespace NSEnemy
             this.shadow.PositionDirectSet(this.position);
             if (this.version > 0)
             {
-                this.hp /= 100;
+                this.hp /= InternalHpRatio;
                 this.hpprint = this.hp;
                 this.hpmax = this.hp;
                 this.guard = CharacterBase.GUARD.Sarmar;
