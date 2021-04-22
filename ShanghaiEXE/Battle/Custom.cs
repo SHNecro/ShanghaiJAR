@@ -621,6 +621,15 @@ namespace NSBattle
                             ++this.player.numOfChips;
                         }
                     }
+                    else
+                    {
+                        if (this.parent.player.style != Player.STYLE.wing)
+                        {
+                            var evade = this.parent.player.haveChip.Where(c => c is Flyng).ToList();
+                            this.parent.player.haveChip.RemoveAll(c => evade.Contains(c));
+                            this.parent.player.numOfChips -= evade.Count;
+                        }
+                    }
                     ++this.parent.turn;
                     if (this.player.addonSkill[68])
                         ++this.canopenchips;
@@ -628,7 +637,10 @@ namespace NSBattle
                     if (this.savedata.addonSkill[74])
                     {
                         this.revertMammonAction?.Invoke();
-                        this.revertMammonAction = Mammon.ApplyMammonPunishments(this.sound, this.parent, ref this.canopenchips, this.selectchips);
+                        if (this.transmission)
+                        {
+                            this.revertMammonAction = Mammon.ApplyMammonPunishments(this.sound, this.parent, ref this.canopenchips, this.selectchips);
+                        }
                     }
 
                     if (this.canopenchips > 12)
