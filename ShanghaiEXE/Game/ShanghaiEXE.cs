@@ -36,9 +36,9 @@ namespace NSGame
         private int rendersSinceLastFPSUpdate = 0;
         private int updatesSinceLastFPSUpdate = 0;
         private double fpsAdjustmentFactor = 0;
-        private static readonly int FPSAdjustmentWindow = 20;
+        private static readonly int FPSAdjustmentWindow = 10;
         private static readonly TimeSpan FPSUpdatePeriod = TimeSpan.FromSeconds(0.5);
-        private static readonly TimeSpan FPSAdjustmentPeriod = TimeSpan.FromSeconds(0.25);
+        private static readonly TimeSpan FPSAdjustmentPeriod = TimeSpan.FromSeconds(0.05);
         private Stopwatch fpsAdjustmentStopwatch = Stopwatch.StartNew();
         private int updatesSinceLastFPSAdjustment = 0;
         private static readonly int UpdateRate = 60;
@@ -403,6 +403,7 @@ namespace NSGame
             ShanghaiEXE.scene = new FirstTitle(this.ad, this, this.savedata);
             ShanghaiEXE.scene.Init();
             this.init = true;
+            this.Text = ShanghaiEXE.Translate("Common.Title").Text;
         }
 
         private void GetKeyData()
@@ -511,19 +512,19 @@ namespace NSGame
             var timeSinceLastFPSAdjustment = this.fpsAdjustmentStopwatch.Elapsed;
             if (!isUpdatePaused && timeSinceLastFPSAdjustment > ShanghaiEXE.FPSAdjustmentPeriod)
             {
-                if (this.loadend && !isTurbo)
+                if (this.loadend)
                 {
                     var expectedUpdatesSinceLastAdjustment = ShanghaiEXE.FPSAdjustmentPeriod.TotalMilliseconds / updatePeriod.TotalMilliseconds;
                     var newFpsAdjustment = expectedUpdatesSinceLastAdjustment / this.updatesSinceLastFPSAdjustment;
                     this.fpsAdjustmentFactor = (newFpsAdjustment + (fpsAdjustment * (ShanghaiEXE.FPSAdjustmentWindow - 1))) / ShanghaiEXE.FPSAdjustmentWindow;
-                    this.updatesSinceLastFPSAdjustment = 0;
                 }
-
+                this.updatesSinceLastFPSAdjustment = 0;
                 this.fpsAdjustmentStopwatch.Restart();
             }
-            if (isUpdatePaused)
+            if (isUpdatePaused || isTurbo)
             {
                 this.fpsAdjustmentStopwatch.Restart();
+                this.updatesSinceLastFPSAdjustment = 0;
             }
 
             var timeSinceLastFPSUpdate = this.fpsUpdateStopwatch.Elapsed;
