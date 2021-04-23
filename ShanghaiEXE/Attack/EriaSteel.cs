@@ -66,12 +66,27 @@ namespace NSAttack
                 this.FlameControl();
             if (this.frame == 21)
             {
-                if (!this.hitedflag && !this.parent.panel[this.position.X, this.position.Y].inviolability && this.NoObject(this.position))
+                for (var px = 0; px < this.parent.panel.GetLength(0); px++)
                 {
-                    this.parent.panel[this.position.X, this.position.Y].bashed = true;
-                    this.parent.panel[this.position.X, this.position.Y].color = this.union;
-                    this.parent.bashtime = 1800;
+                    var rowPos = new Point(px, this.position.Y);
+                    var panel = this.parent.panel[rowPos.X, rowPos.Y];
+                    var isReappliedPanel = this.union == Panel.COLOR.red ? px < this.position.X : px > this.position.X;
+                    if (rowPos == this.position || isReappliedPanel)
+                    {
+                        if (isReappliedPanel && panel.flashtime > 0)
+                        {
+                            this.parent.effects.Add(new AfterSteal(this.sound, this.parent, rowPos.X, rowPos.Y));
+                        }
+
+                        if (isReappliedPanel || (!this.hitedflag && !panel.inviolability && this.NoObject(rowPos)))
+                        {
+                            panel.bashed = true;
+                            panel.color = this.union;
+                            panel.flashtime = 0;
+                        }
+                    }
                 }
+                this.parent.bashtime = 1800;
                 this.flag = false;
             }
         }
