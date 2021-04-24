@@ -163,15 +163,22 @@ namespace NSEnemy
             this.positionDirect = new Vector2((float)(position.X * 40.0 + 16.0), (float)(position.Y * 24.0 + 62.0));
         }
 
-        protected override void Moving()
+        public override void Updata()
         {
-            this.neutlal = this.motion == BakeBake.MOTION.neutral;
+            base.Updata();
+
             ++this.hpspeed;
             if (this.hpspeed > (8 - Math.Min(7, (int)this.version)) * (this.version > 2 || this.version <= 0 ? 1 : 2))
             {
                 this.hpspeed = 0;
                 ++this.Hp;
             }
+        }
+
+        protected override void Moving()
+        {
+            this.neutlal = this.motion == BakeBake.MOTION.neutral;
+
             switch (this.motion)
             {
                 case BakeBake.MOTION.neutral:
