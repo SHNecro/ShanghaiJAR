@@ -33,6 +33,7 @@ namespace NSBattle
         private int initflame = 0;
         private readonly byte[] time = new byte[3];
         public List<EnemyBase> enemys = new List<EnemyBase>();
+        public List<EnemyBase> deletedEnemies = new List<EnemyBase>();
         public List<ObjectBase> objects = new List<ObjectBase>();
         public List<AttackBase> attacks = new List<AttackBase>();
         public List<EffectBase> effects = new List<EffectBase>();
@@ -580,6 +581,7 @@ namespace NSBattle
                 if (!attack.flag)
                     this.attackLosted.Add(attack);
             }
+            this.deletedEnemies.AddRange(this.enemys.Where(e => !e.flag));
             this.enemys.RemoveAll(e => !e.flag);
             this.objects.RemoveAll(o => !o.flag);
             this.attacks.RemoveAll(a => !a.flag);
@@ -668,9 +670,97 @@ namespace NSBattle
                 NetParam.battleEnd = true;
             }
             this.result = new Result(this.sound, this, this.playerstatus, this.time, this.simultaneousdel, this.player.damaged, this.player.manymove, this.player.stylepoint, this.player, this.savedata, escape);
+            if (!escape)
+            {
+                this.SetBustedFlags();
+            }
             for (int index = 0; index < this.player.haveChip.Count; ++index)
                 this.player.haveChip[index] = new ChipBase(this.sound);
             this.player.numOfChips = 0;
+        }
+
+        private void SetBustedFlags()
+        {
+            var enemies = this.deletedEnemies;
+            foreach (var enemy in enemies)
+            {
+                if (enemy.version >= 3)
+                {
+                    var v3BustFlag = default(int?);
+                    switch (enemy)
+                    {
+                        case Cirno e: v3BustFlag = 838; break;
+                        case PyroMan e: v3BustFlag = 839; break;
+                        case Mrasa e: v3BustFlag = 840; break;
+                        case ScissorMan e: v3BustFlag = 841; break;
+                        case Chen e: v3BustFlag = 842; break;
+                        case DruidMan e: v3BustFlag = 843; break;
+                        case Marisa e: v3BustFlag = 844; break;
+                        case Sakuya e: v3BustFlag = 845; break;
+                        case TankMan e: v3BustFlag = 846; break;
+                        case Iku e: v3BustFlag = 847; break;
+                        case SpannerMan e: v3BustFlag = 848; break;
+                        case Medicine e: v3BustFlag = 849; break;
+                        case Yorihime e: v3BustFlag = 850; break;
+                        case HakutakuMan e: v3BustFlag = 851; break;
+                        case TortoiseMan e: v3BustFlag = 852; break;
+                        case BeetleMan e: v3BustFlag = 853; break;
+                        case Ran e: v3BustFlag = 854; break;
+                        case Uthuho e: v3BustFlag = 855; break;
+                        case Youmu e: v3BustFlag = 856; break;
+                    }
+
+                    if (v3BustFlag != null)
+                    {
+                        enemy.parent.parent.savedata.FlagList[v3BustFlag.Value] = true;
+                    }
+                }
+
+                if (enemy.version >= 4)
+                {
+                    var spBustFlag = default(int?);
+                    switch (enemy)
+                    {
+                        case Marisa e: spBustFlag = 620; break;
+                        case Sakuya e: spBustFlag = 621; break;
+                        case TankMan e: spBustFlag = 622; break;
+                        case SpannerMan e: spBustFlag = 623; break;
+                        case HakutakuMan e: spBustFlag = 625; break;
+                        case TortoiseMan e: spBustFlag = 626; break;
+                        case BeetleMan e: spBustFlag = 627; break;
+                        case Yorihime e: spBustFlag = 628; break;
+                        case Cirno e: spBustFlag = 629; break;
+                        case Medicine e: spBustFlag = 630; break;
+                        case Iku e: spBustFlag = 631; break;
+                        case PyroMan e: spBustFlag = 632; break;
+                        case Mrasa e: spBustFlag = 633; break;
+                        case ScissorMan e: spBustFlag = 634; break;
+                        case Chen e: spBustFlag = 635; break;
+                        case Ran e: spBustFlag = 636; break;
+                        case Uthuho e: spBustFlag = 640; break;
+                    }
+
+                    if (spBustFlag != null)
+                    {
+                        enemy.parent.parent.savedata.FlagList[spBustFlag.Value] = true;
+                    }
+                }
+
+                if (enemy.version == 0)
+                {
+                    for (int index = 0; index < Wanted.WantedList.GetLength(0); ++index)
+                    {
+                        if ((EnemyBase.VIRUS)Wanted.WantedList[index, 0] == enemy.ID && enemy.parent.parent.savedata.FlagList[Wanted.WantedList[index, 2]])
+                        {
+                            enemy.parent.parent.savedata.FlagList[Wanted.WantedList[index, 2]] = false;
+                            enemy.parent.parent.savedata.virusSPbusted[(int)enemy.ID] = true;
+                            enemy.parent.parent.savedata.virusSPbustedFlug[(int)enemy.ID] = true;
+                            enemy.parent.parent.savedata.ValList[19] = 0;
+                            break;
+                        }
+                    }
+                }
+            }
         }
 
         private void HitCheck()
