@@ -12,7 +12,7 @@ namespace NSEnemy
     internal class ShanghaiDS : ChipUsingNaviBase
     {
 
-        protected ChipFolder[] hand;
+        protected ChipFolder[] hand; // currently unused
         protected int deckLoc;
         protected int deckSize;
 
@@ -20,31 +20,32 @@ namespace NSEnemy
             : base(s, p, pX, pY, n, u, v, 3000, "ShanghaiDS", "ShanghaiDS")
         {
 
-            /*tst*/
 
+            /* todo:
+             *      have shanghaiDS assemble 'hands' by taking 5-6 chips from the deck
+             *          check hands for potential PAs
+             *          remove applicable chips from hand, replace with PA
+             *          make it so shanghaiDS assembles new hands when the player opens the custom screen
+             *      have shanghaiDS use buster attack when out of chips for that turn?
+             *      
+             *      have shanghaiDS mirror style changes (sprites at least?)
+             *      
+             *      chip 'location memory'?
+             *          this would require a pretty massive retcon in game code and adding stuff to the save
+             *          tl;dr MMBN4/5 recorded where on the screen you like to use chips, to use as a reference for what location MMDS would be when using it himself
+             *      
+             *      chip 'combo system'?
+             *          like location memory, but records which chips you like to use before and after each other, plus locations
+             *          
+             *      //
+             *      
+             */
 
 
 
         }
 
-        /*
-        private void shuffleDeck(this Random rng, T[] array)
-        {
-            //
-            var rng = new Random();
-
-            int n = array.Length;
-            while (n > 1)
-            {
-                int k = rng.Next(n--);
-                T temp = array[n];
-                array[n] = array[k];
-                array[k] = temp;
-            }
-
-        }
-        */
-
+        // Knuth Shuffle
         private void Shuffle<T>(T[] array)
         {
             int n = array.Length;
@@ -74,11 +75,11 @@ namespace NSEnemy
                 this.chips[i].codeNo = playerFolder[equipFolderIndex, i].codeNo;
             }
 
-
-            var rng = new Random();
+            // randomize deck order
             Shuffle(this.chips);
             Shuffle(this.chips);
 
+            // set deckSize/deckLoc
             this.deckSize = this.chips.Length;
             this.deckLoc = 0;
 
@@ -92,11 +93,13 @@ namespace NSEnemy
 
             this.usechip = this.deckLoc;
             this.deckLoc++;
+
+            // ensure deckLoc does not go out of bounds, reshuffle deck
             if (this.deckLoc >= this.deckSize)
             {
                 //
                 this.deckLoc = 0;
-
+                Shuffle(this.chips);
             }
 
 
