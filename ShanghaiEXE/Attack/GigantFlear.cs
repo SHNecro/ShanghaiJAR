@@ -71,7 +71,9 @@ namespace NSAttack
                     this.parent.effects.Add(new FlashFead(this.sound, this.parent, Color.White, 90));
                     this.sound.PlaySE(SoundEffect.bombbig);
                     this.ShakeStart(4, 90);
-                    this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, 90, new Point(9, 0), ChipBase.ELEMENT.heat)));
+                    var beamAttack = this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, 90, new Point(9, 0), ChipBase.ELEMENT.heat));
+                    beamAttack.breaking = true;
+                    this.parent.attacks.Add(beamAttack);
                     this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y - 1, this.union, this.power, 1, 90, new Point(1, 0), ChipBase.ELEMENT.heat)));
                     this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y + 1, this.union, this.power, 1, 90, new Point(1, 0), ChipBase.ELEMENT.heat)));
                     this.parent.effects.Add(new RandomBomber(this.sound, this.parent, Bomber.BOMBERTYPE.bomber, 2, new Point(this.position.X + this.UnionRebirth, this.position.Y - 1), new Point(1, 2), this.union, 36));
