@@ -524,13 +524,14 @@ namespace NSEnemy
                                                     var y = this.currentWaveRows[i];
                                                     if (waveTime % waveSpacing == 0)
                                                     {
+                                                        var wavePower = this.waveElements[i] == ChipBase.ELEMENT.leaf ? (this.Power / this.wavesPerRepeat) : this.Power;
                                                         this.parent.attacks.Add(new DruidManWave(
                                                             this.sound,
                                                             this.parent,
                                                             this.rebirth ? 0 : 5,
                                                             y,
                                                             this.union,
-                                                            this.Power,
+                                                            wavePower,
                                                             this.waveSpeed,
                                                             this.waveElements[i]));
                                                     }
