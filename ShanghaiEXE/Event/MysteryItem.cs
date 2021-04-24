@@ -159,7 +159,7 @@ namespace NSEvent
                     }
                     break;
                 default:
-                    this.manager.parent.Player.EncountSet();
+                    this.manager.parent.Player.EncountSet(true);
                     break;
             }
             if ((uint)this.itemData.type > 0U)

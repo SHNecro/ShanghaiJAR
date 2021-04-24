@@ -848,7 +848,7 @@ namespace NSMap.Character
             return flag;
         }
 
-        private void EncountCheck(int plus)
+        private void EncountCheck(int plus, bool ignoreSpecialEncounters = false)
         {
             this.hidenumber = this.field.encountCap[1];
             // If subchip message is shown, or no encounters (after handling special), return
@@ -860,7 +860,13 @@ namespace NSMap.Character
                 this.encountCounter += plus * this.Random.Next(10);
                 if (NSGame.Debug.EncountMax || this.savedata.runSubChips[1] || this.encounter)
                     this.encountCounter = 1021;
-                if (!this.savedata.runSubChips[1] && this.encountCounter % 1024 == 1021 || (this.encountCounter % 1024 == 872 || this.encountCounter % 1024 == 234) || this.encountCounter % 1024 == 662 || (this.savedata.runSubChips[1] && this.encountCounter % 1024 == 1021 || (this.encountCounter % 1024 == 872 || this.encountCounter % 1024 == 234) || (this.encountCounter % 1024 == 662 || this.encountCounter % 1024 == 326 || this.encountCounter % 1024 == 234) || this.encountCounter % 1024 == 448))
+                if (!this.savedata.runSubChips[1] && this.encountCounter % 1024 == 1021
+                    || (this.encountCounter % 1024 == 872 || this.encountCounter % 1024 == 234)
+                    || this.encountCounter % 1024 == 662
+                    || (this.savedata.runSubChips[1] && this.encountCounter % 1024 == 1021
+                    || (this.encountCounter % 1024 == 872 || this.encountCounter % 1024 == 234)
+                    || (this.encountCounter % 1024 == 662 || this.encountCounter % 1024 == 326 || this.encountCounter % 1024 == 234)
+                    || this.encountCounter % 1024 == 448))
                 {
                     if (this.Random.Next(100) < 75 || this.savedata.runSubChips[1] || this.encounter)
                     {
@@ -873,14 +879,16 @@ namespace NSMap.Character
                         else
                         {
                             int count = this.field.encounts.Count;
-                            if (!this.savedata.FlagList[this.field.encountCap[0]])
+                            if (!this.savedata.FlagList[this.field.encountCap[0]] || ignoreSpecialEncounters)
                             {
                                 this.encounts = new List<EventManager>();
                                 for (int index = 0; index < this.field.encounts.Count - this.field.encountCap[1]; ++index)
                                     this.encounts.Add(this.field.encounts[index]);
                             }
                             else
+                            {
                                 this.encounts = new List<EventManager>(field.encounts);
+                            }
                             if (this.savedata.addonSkill[7])
                                 this.encounts = this.Element(ChipBase.ELEMENT.heat);
                             else if (this.savedata.addonSkill[8])
@@ -920,12 +928,12 @@ namespace NSMap.Character
             this.parent.battleflag = true;
         }
 
-        public void EncountSet()
+        public void EncountSet(bool ignoreSpecialEncounters)
         {
             this.encounter = true;
             this.encounterBreak = true;
             this.encountInterval = 0;
-            this.EncountCheck(0);
+            this.EncountCheck(0, ignoreSpecialEncounters);
         }
 
         private bool IsBypassingFirewall(int number)
