@@ -83,6 +83,10 @@ namespace NSEnemy
             this.deckSize = this.chips.Length;
             this.deckLoc = 0;
 
+            for (var i = 0; i < this.dropchips.Length; i++)
+            {
+                this.dropchips[i] = this.chips[i];
+            }
         }
 
         protected override void SetUsedChip()
