@@ -2220,7 +2220,7 @@ event:
 bgmoff:
 bgmon:encounter
 wait:30:False
-editFlag:13:True
+editFlag:13:False
 msgopen:
 canSkip:
 msg:Map.ROMnet4DruidEncounterEventStage11Dialogue1FaceYorihime
