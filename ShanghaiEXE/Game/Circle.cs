@@ -1,4 +1,4 @@
-﻿using SlimDX;
+﻿using Common.Vectors;
 
 namespace NSGame
 {

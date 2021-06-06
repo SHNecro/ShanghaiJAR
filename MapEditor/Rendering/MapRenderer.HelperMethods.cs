@@ -1,4 +1,4 @@
-﻿using Common.OpenGL;
+﻿using Common.Vectors;
 using MapEditor.Models;
 using MapEditor.Models.Elements.Enums;
 using OpenTK;

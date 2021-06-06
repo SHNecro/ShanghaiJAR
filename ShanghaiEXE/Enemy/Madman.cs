@@ -4,7 +4,7 @@ using NSShanghaiEXE.InputOutput.Audio;
 using System.Drawing;
 using System.Linq;
 using NSShanghaiEXE.InputOutput.Rendering;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Generic;
 using System.Collections.Concurrent;

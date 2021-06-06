@@ -7,7 +7,7 @@ using NSShanghaiEXE.InputOutput.Rendering;
 using NSEffect;
 using NSEnemy;
 using NSObject;
-using SlimDX;
+using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
 

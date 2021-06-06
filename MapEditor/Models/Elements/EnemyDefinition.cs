@@ -9,7 +9,7 @@ using NSBattle;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSEnemy;
-using SlimDX;
+using Common.Vectors;
 
 namespace MapEditor.Models.Elements
 {

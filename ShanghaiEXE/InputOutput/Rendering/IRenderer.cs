@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using NSGame;
-using SlimDX;
+using Common.Vectors;
 
 namespace NSShanghaiEXE.InputOutput.Rendering
 {

@@ -1,7 +1,7 @@
 ﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
-using SlimDX;
+using Common.Vectors;
 
 namespace NSEvent
 {

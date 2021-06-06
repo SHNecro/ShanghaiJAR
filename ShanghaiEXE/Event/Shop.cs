@@ -7,7 +7,7 @@ using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using NSMap;
 using NSMap.Character.Menu;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

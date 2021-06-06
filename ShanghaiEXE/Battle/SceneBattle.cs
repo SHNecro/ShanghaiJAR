@@ -12,7 +12,7 @@ using NSGame;
 using NSNet;
 using NSObject;
 using NSShanghaiEXE.Common;
-using SlimDX;
+using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;

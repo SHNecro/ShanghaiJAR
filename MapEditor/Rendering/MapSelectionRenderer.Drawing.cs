@@ -1,4 +1,4 @@
-﻿using Common.OpenGL;
+﻿using Common.Vectors;
 using Data;
 using MapEditor.Models.Elements.Events;
 using MapEditor.ViewModels;

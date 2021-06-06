@@ -96,7 +96,8 @@ namespace Common.OpenGL
         public void SetVector2(string name, Vector2 data)
         {
             var location = this.GetOrCacheUniformLocation(name);
-            GL.Uniform2(location, data);
+            var tkVector2 = new OpenTK.Vector2(data.X, data.Y);
+            GL.Uniform2(location, tkVector2);
         }
 
         public void SetVector4(string name, Vector4 data)

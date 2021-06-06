@@ -1,7 +1,7 @@
 ﻿using NSShanghaiEXE.InputOutput;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSMap.Character.Menu;
-using SlimDX;
+using Common.Vectors;
 using SlimDX.DirectInput;
 using System;
 using System.Collections.Generic;

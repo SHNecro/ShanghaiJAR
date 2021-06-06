@@ -1,4 +1,5 @@
 ﻿using NSGame;
+using Common.Vectors;
 using SlimDX;
 using SlimDX.Direct3D9;
 using System;
@@ -10,6 +11,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using Font = System.Drawing.Font;
+using Vector2 = Common.Vectors.Vector2;
 
 namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
 {
@@ -100,11 +102,11 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
                 Type = LightType.Directional,
                 Diffuse = Color.White,
                 Ambient = Color.GhostWhite,
-                Direction = new Vector3(0.0f, -1f, 0.0f)
+                Direction = new SlimDX.Vector3(0.0f, -1f, 0.0f)
             });
             this.device.EnableLight(0, true);
             this.device.SetTransform(TransformState.Projection, Matrix.PerspectiveFovLH(0.7853982f, form.Width / (float)this.form.Height, 0.1f, 20f));
-            this.device.SetTransform(TransformState.View, Matrix.LookAtLH(new Vector3(3f, 2f, -3f), Vector3.Zero, new Vector3(0.0f, 1f, 0.0f)));
+            this.device.SetTransform(TransformState.View, Matrix.LookAtLH(new SlimDX.Vector3(3f, 2f, -3f), SlimDX.Vector3.Zero, new SlimDX.Vector3(0.0f, 1f, 0.0f)));
             this.device.Material = new Material()
             {
                 Diffuse = new Color4(Color.GhostWhite)
@@ -226,12 +228,13 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
             string _texture = t + ".png";
             try
             {
+                var point = new SlimDX.Vector2(_point.X, _point.Y);
                 var dgDevice = (MySlimDG)device;
-                Matrix matrix = Matrix.AffineTransformation2D(scall, Vector2.Zero, MyMath.Rad(rotation), _point);
+                Matrix matrix = Matrix.AffineTransformation2D(scall, SlimDX.Vector2.Zero, MyMath.Rad(rotation), point);
                 dgDevice.sprite.Transform = matrix;
-                Vector3 vector3 = !leftpoint ? new Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new Vector3(0.0f, 0.0f, 0.0f);
+                SlimDX.Vector3 vector3 = !leftpoint ? new SlimDX.Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new SlimDX.Vector3(0.0f, 0.0f, 0.0f);
                 this.LoadTexture(_texture);
-                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new Vector3?(vector3), new Vector3?(new Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
+                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new SlimDX.Vector3?(vector3), new SlimDX.Vector3?(new SlimDX.Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
                 dgDevice.sprite.Transform = Matrix.Identity;
             }
             catch
@@ -257,23 +260,23 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
             {
                 var dgDevice = (MySlimDG)device;
                 Point point = new Point((int)_point.X, (int)_point.Y);
-                _point = new Vector2(point.X, point.Y);
+                var dx_point = new SlimDX.Vector2(point.X, point.Y);
                 Matrix matrix;
                 if (!rebirth)
                 {
-                    matrix = Matrix.AffineTransformation2D(scall, Vector2.Zero, MyMath.Rad(rotation), _point);
+                    matrix = Matrix.AffineTransformation2D(scall, SlimDX.Vector2.Zero, MyMath.Rad(rotation), dx_point);
                 }
                 else
                 {
                     Quaternion rotation1 = new Quaternion(0.0f, -1f, 0.0f, 0.0f);
-                    Vector3 rotationCenter = new Vector3(0.0f, 0.0f, 0.0f);
-                    Vector3 translation = new Vector3(_point.X, _point.Y, 0.0f);
+                    SlimDX.Vector3 rotationCenter = new SlimDX.Vector3(0.0f, 0.0f, 0.0f);
+                    SlimDX.Vector3 translation = new SlimDX.Vector3(_point.X, _point.Y, 0.0f);
                     matrix = Matrix.AffineTransformation(scall, rotationCenter, rotation1, translation);
                 }
                 dgDevice.sprite.Transform = matrix;
-                Vector3 vector3 = !leftpoint ? new Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new Vector3(0.0f, 0.0f, 0.0f);
+                SlimDX.Vector3 vector3 = !leftpoint ? new SlimDX.Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new SlimDX.Vector3(0.0f, 0.0f, 0.0f);
                 this.LoadTexture(_texture);
-                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new Vector3?(vector3), new Vector3?(new Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
+                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new SlimDX.Vector3?(vector3), new SlimDX.Vector3?(new SlimDX.Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
                 dgDevice.sprite.Transform = Matrix.Identity;
             }
             catch
@@ -297,23 +300,23 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
             {
                 var dgDevice = (MySlimDG)device;
                 Point point = new Point((int)_point.X, (int)_point.Y);
-                _point = new Vector2(point.X, point.Y);
+                var dx_point = new SlimDX.Vector2(point.X, point.Y);
                 Matrix matrix;
                 if (!rebirth)
                 {
-                    matrix = Matrix.AffineTransformation2D(1f, Vector2.Zero, MyMath.Rad(0.0f), _point);
+                    matrix = Matrix.AffineTransformation2D(1f, SlimDX.Vector2.Zero, MyMath.Rad(0.0f), dx_point);
                 }
                 else
                 {
                     Quaternion rotation = new Quaternion(0.0f, -1f, 0.0f, 0.0f);
-                    Vector3 rotationCenter = new Vector3(0.0f, 0.0f, 0.0f);
-                    Vector3 translation = new Vector3(_point.X, _point.Y, 0.0f);
+                    SlimDX.Vector3 rotationCenter = new SlimDX.Vector3(0.0f, 0.0f, 0.0f);
+                    SlimDX.Vector3 translation = new SlimDX.Vector3(_point.X, _point.Y, 0.0f);
                     matrix = Matrix.AffineTransformation(1f, rotationCenter, rotation, translation);
                 }
                 dgDevice.sprite.Transform = matrix;
-                Vector3 vector3 = !leftpoint ? new Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new Vector3(0.0f, 0.0f, 0.0f);
+                SlimDX.Vector3 vector3 = !leftpoint ? new SlimDX.Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new SlimDX.Vector3(0.0f, 0.0f, 0.0f);
                 this.LoadTexture(_texture);
-                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new Vector3?(vector3), new Vector3?(new Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
+                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new SlimDX.Vector3?(vector3), new SlimDX.Vector3?(new SlimDX.Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
                 dgDevice.sprite.Transform = Matrix.Identity;
             }
             catch
@@ -336,12 +339,12 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
             {
                 var dgDevice = (MySlimDG)device;
                 Point point = new Point((int)_point.X, (int)_point.Y);
-                _point = new Vector2(point.X, point.Y);
-                Matrix matrix = Matrix.AffineTransformation2D(1f, Vector2.Zero, MyMath.Rad(0.0f), _point);
+                var dx_point = new SlimDX.Vector2(point.X, point.Y);
+                Matrix matrix = Matrix.AffineTransformation2D(1f, SlimDX.Vector2.Zero, MyMath.Rad(0.0f), dx_point);
                 dgDevice.sprite.Transform = matrix;
-                Vector3 vector3 = !leftpoint ? new Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new Vector3(0.0f, 0.0f, 0.0f);
+                SlimDX.Vector3 vector3 = !leftpoint ? new SlimDX.Vector3(_rect.Width / 2, _rect.Height / 2, 0.0f) : new SlimDX.Vector3(0.0f, 0.0f, 0.0f);
                 this.LoadTexture(_texture);
-                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new Vector3?(vector3), new Vector3?(new Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
+                dgDevice.sprite.Draw(this.form.Tex[_texture].Texture, new Rectangle?(_rect), new SlimDX.Vector3?(vector3), new SlimDX.Vector3?(new SlimDX.Vector3(0.0f, 0.0f, 0.0f)), new Color4(color));
                 dgDevice.sprite.Transform = Matrix.Identity;
             }
             catch

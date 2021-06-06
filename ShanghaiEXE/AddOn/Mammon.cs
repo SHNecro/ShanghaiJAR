@@ -2,7 +2,7 @@
 using NSEffect;
 using NSGame;
 using NSShanghaiEXE.InputOutput.Audio;
-using SlimDX;
+using Common.Vectors;
 using System;
 
 namespace NSAddOn

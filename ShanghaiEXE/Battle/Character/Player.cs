@@ -8,7 +8,7 @@ using NSEffect;
 using NSGame;
 using NSNet;
 using NSObject;
-using SlimDX;
+using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;

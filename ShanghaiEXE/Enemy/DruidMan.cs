@@ -7,7 +7,7 @@ using NSShanghaiEXE.Common;
 using NSShanghaiEXE.ExtensionMethods;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
