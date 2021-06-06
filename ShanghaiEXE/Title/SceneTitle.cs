@@ -2,7 +2,7 @@
 using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
-using SlimDX;
+using Common.Vectors;
 using System.Drawing;
 using NSMap.Character.Menu;
 using System.Linq;

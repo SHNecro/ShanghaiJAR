@@ -1,6 +1,6 @@
 ﻿using Common.EncodeDecode;
 using Common.OpenAL;
-using Common.OpenGL;
+using Common.Vectors;
 using Data;
 using MapEditor.Core;
 using MapEditor.ExtensionMethods;

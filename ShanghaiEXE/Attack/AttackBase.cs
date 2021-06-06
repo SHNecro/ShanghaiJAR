@@ -5,7 +5,7 @@ using NSShanghaiEXE.InputOutput.Audio;
 using NSEffect;
 using NSEnemy;
 using NSObject;
-using SlimDX;
+using Common.Vectors;
 using System.Drawing;
 
 namespace NSAttack

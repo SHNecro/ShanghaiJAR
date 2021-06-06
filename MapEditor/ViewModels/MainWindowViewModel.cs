@@ -1,5 +1,5 @@
 ﻿using Common.EncodeDecode;
-using Common.OpenGL;
+using Common.Vectors;
 using MapEditor.Core;
 using MapEditor.Models;
 using MapEditor.Models.Elements.Enums;

@@ -7,7 +7,7 @@ using NSEffect;
 using NSEnemy;
 using NSGame;
 using NSObject;
-using SlimDX;
+using Common.Vectors;
 using System.Drawing;
 
 namespace NSAttack

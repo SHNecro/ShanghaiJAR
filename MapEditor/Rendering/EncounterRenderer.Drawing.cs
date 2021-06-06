@@ -1,4 +1,4 @@
-﻿using Common.OpenGL;
+﻿using Common.Vectors;
 using MapEditor.ViewModels;
 using NSBattle;
 using OpenTK;

@@ -3,7 +3,7 @@ using NSBattle.Character;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSNet;
-using SlimDX;
+using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
 

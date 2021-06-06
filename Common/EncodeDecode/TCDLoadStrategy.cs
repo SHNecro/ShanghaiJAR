@@ -9,6 +9,7 @@ using System.Threading;
 using Common.ExtensionMethods;
 using System.Windows;
 using System.Security.Cryptography;
+using Common.Vectors;
 using Common.OpenGL;
 using Common.OpenAL;
 using System.Windows.Forms;

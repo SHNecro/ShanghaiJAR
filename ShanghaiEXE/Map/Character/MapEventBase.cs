@@ -5,7 +5,7 @@ using NSEnemy;
 using NSEvent;
 using NSGame;
 using NSMap.Character.Terms;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

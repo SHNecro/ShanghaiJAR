@@ -6,7 +6,7 @@ using NSShanghaiEXE.InputOutput.Rendering;
 using NSEvent;
 using NSGame;
 using NSNet;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

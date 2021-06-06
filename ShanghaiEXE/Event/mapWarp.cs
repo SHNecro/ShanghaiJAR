@@ -2,7 +2,7 @@
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using NSMap.Character;
-using SlimDX;
+using Common.Vectors;
 using System.Drawing;
 
 namespace NSEvent

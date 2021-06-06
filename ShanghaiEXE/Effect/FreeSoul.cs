@@ -1,6 +1,6 @@
 ﻿using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;

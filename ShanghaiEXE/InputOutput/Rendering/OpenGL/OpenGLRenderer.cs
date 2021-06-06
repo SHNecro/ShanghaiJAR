@@ -6,9 +6,9 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using Common.EncodeDecode;
-using Common.OpenGL;
+using Common.Vectors;
 using NSGame;
-using SlimDX;
+using Common.OpenGL;
 using Text = Common.OpenGL.Text;
 
 namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL

@@ -1,4 +1,4 @@
-﻿using Common.OpenGL;
+﻿using Common.Vectors;
 using MapEditor.Controls;
 using MapEditor.Core;
 using System.Windows.Forms.Integration;

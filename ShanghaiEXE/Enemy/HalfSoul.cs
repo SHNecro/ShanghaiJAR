@@ -2,7 +2,7 @@
 using NSBattle;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
-using SlimDX;
+using Common.Vectors;
 using System.Drawing;
 
 namespace NSEnemy

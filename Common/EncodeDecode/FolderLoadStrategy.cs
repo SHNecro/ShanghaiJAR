@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System;
 using Common.ExtensionMethods;
+using Common.Vectors;
 using Common.OpenGL;
 using Common.OpenAL;
 

@@ -1,4 +1,4 @@
-﻿using Common.OpenGL;
+﻿using Common.Vectors;
 using System.Drawing;
 
 namespace MapEditor.Rendering

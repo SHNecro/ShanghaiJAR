@@ -6,7 +6,7 @@ using NSEnemy;
 using NSEvent;
 using NSGame;
 using NSMap.Character.Menu;
-using SlimDX;
+using Common.Vectors;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

@@ -1,4 +1,6 @@
-﻿using Common.OpenGL;
+﻿
+using Common.Vectors;
+using Common.OpenGL;
 using System.Drawing;
 
 namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL

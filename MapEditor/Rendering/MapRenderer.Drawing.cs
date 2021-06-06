@@ -1,5 +1,5 @@
 ﻿using MapEditor.Core;
-using Common.OpenGL;
+using Common.Vectors;
 using MapEditor.ExtensionMethods;
 using MapEditor.Models;
 using MapEditor.Models.Elements;

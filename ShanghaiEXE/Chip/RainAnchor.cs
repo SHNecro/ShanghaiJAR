@@ -4,7 +4,7 @@ using NSBattle.Character;
 using NSShanghaiEXE.InputOutput.Audio;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
-using SlimDX;
+using Common.Vectors;
 using System.Drawing;
 
 namespace NSChip
