@@ -305,7 +305,6 @@
     <None Include="packages.config" />
     <None Include="ShanghaiEXE\Files\mod\music\âTâôâvâï.ogg" />
     <None Include="ShanghaiEXE\Files\save.she" />
-    <None Include="ShanghaiEXE\Resources\MICROSS.TTF" />
     <None Include="Sounds\Music\add_on.ogg" />
     <None Include="Sounds\Music\centre_city.ogg" />
     <None Include="Sounds\Music\cruise_ship.ogg" />
@@ -1349,6 +1348,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ShanghaiEXE\Resources\JF-Dot-jiskan16s.ttf" />
+    <EmbeddedResource Include="ShanghaiEXE\Resources\MICROSS.TTF" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ShanghaiEXE\Resources\load02.jpg" />
@@ -2471,6 +2471,10 @@
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{02fbc9e9-b245-4268-bf06-366901e5ff19}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resource Packing Build Step\Resource Packing Build Step.csproj">
+      <Project>{8DACB18F-5250-4F6F-A5A5-6B2E2957DC29}</Project>
+      <Name>Resource Packing Build Step</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

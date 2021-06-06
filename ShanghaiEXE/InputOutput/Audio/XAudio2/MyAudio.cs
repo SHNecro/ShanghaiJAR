@@ -63,6 +63,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
                 }
             }
             this.musiclength = new int[2, length];
+            /*
             try
             {
                 this.waveOut = new WaveOut(-1, 44100, 16, 2);
@@ -74,10 +75,12 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
             {
                 this.disabled = true;
             }
+            */
+            this.disabled = true;
             this.thread_1 = new Thread(new ThreadStart(this.Init));
             this.thread_1.Start();
 
-            this.pianoNotePlayer = new PianoNotePlayer();
+            //this.pianoNotePlayer = new PianoNotePlayer();
         }
 
         public void Init()
@@ -127,7 +130,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
                 Stream stream = new MemoryStream(byteList.ToArray());
                 if (strArray[0].Split('.')[1] == "wav")
                 {
-                    this.SoundMake(strArray[0], stream);
+                    //this.SoundMake(strArray[0], stream);
                     this.soundNames.Add(strArray[0]);
                 }
                 this.ProgressUpdated?.Invoke(this, new AudioLoadProgressUpdatedEventArgs(strArray[0], (double)currentByteOffset / fileStreamTotalBytes));
@@ -153,6 +156,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void SetBGM(string name)
         {
+            return;
             try
             {
                 bool flag = false;
@@ -189,6 +193,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void StartBGM(string name)
         {
+            return;
             if (!this.BGMEnabled || !(name != this.CurrentBGM))
                 return;
             this.CurrentBGM = name;
@@ -198,11 +203,13 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void ReStartBGM()
         {
+            return;
             this.musicPlay = true;
         }
 
         public void StopBGM()
         {
+            return;
             this.CurrentBGM = "none_";
             this.BGMVolumeSet(100);
             this.musicPlay = false;
@@ -210,6 +217,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void StopSE(SoundEffect sname)
         {
+            return;
             string soundName = sname.ToString() + ".wav";
             if (this.xaSourceSE[soundName] != null)
                 this.xaSourceSE[soundName].Dispose();
@@ -253,6 +261,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void PlayingMusic()
         {
+            return;
             ++this.music_timer;
             if (this.music_timer < 6)
                 return;
@@ -262,12 +271,14 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void PlayNote(Note note, int volume, int tickDuration)
         {
+            return;
             var adjustedVolume = (int)Math.Min(Math.Round(volume * this.SoundEffectVolume * 4), 127);
             this.pianoNotePlayer.PlayNote(note, adjustedVolume, tickDuration);
         }
 
         public void UpdateNoteTick()
         {
+            return;
             this.pianoNotePlayer.UpdateNoteTick();
         }
 
@@ -275,6 +286,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void Dispose()
         {
+            return;
             this.xaMaster.Dispose();
             this.xaDevice.Dispose();
             if (this.xaBufferBGM != null)
@@ -287,7 +299,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
             this.xaStreamSE.Clear();
             this.xaBufferSE.Clear();
 
-            this.waveOut.Close();
+            //this.waveOut.Close();
 
             this.pianoNotePlayer.Dispose();
         }
@@ -323,6 +335,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void BGMFade()
         {
+            return;
             if (!this.fadeBGM)
                 return;
             this.currentBGMVolume += this.plusParsent;
@@ -348,6 +361,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void BGMFadeStart(int flame, int endparsent)
         {
+            return;
             if (flame == 0)
             {
                 this.BGMVolumeSet(endparsent);
@@ -362,6 +376,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.XAudio2
 
         public void BGMVolumeSet(int volume)
         {
+            return;
             this.currentBGMVolume = volume;
             this.endParsent = volume;
             this.fadeBGM = false;

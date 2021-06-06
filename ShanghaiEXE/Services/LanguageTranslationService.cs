@@ -39,7 +39,7 @@ namespace Services
             foreach (var keyFile in languageFiles)
             {
                 var languageDoc = new XmlDocument();
-                languageDoc.Load($"{directory}/{keyFile}");
+                languageDoc.Load($"{keyFile}");
 
                 var text = languageDoc.SelectNodes("data/Text");
                 foreach (XmlNode node in text)

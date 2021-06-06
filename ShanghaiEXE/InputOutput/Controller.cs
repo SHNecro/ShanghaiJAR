@@ -34,7 +34,7 @@ namespace NSShanghaiEXE.InputOutput
 			MinimumButtonCode = 0;
 			MaximumButtonCode = 256;
 
-			directInput = new DirectInput();
+			//directInput = new DirectInput();
 		}
 
         public Controller(ShanghaiEXE f)
@@ -343,6 +343,7 @@ namespace NSShanghaiEXE.InputOutput
 
 		private bool CreateDevice()
         {
+            return true;
             int num = 1;
             foreach (DeviceInstance device in Controller.directInput.GetDevices(DeviceClass.GameController, DeviceEnumerationFlags.AttachedOnly))
             {

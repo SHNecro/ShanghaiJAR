@@ -48,7 +48,6 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
             var usedFont = default(Font);
             var usedMiniFont = default(Font);
             var usedMicroFont = default(Font);
-
             if ((new InstalledFontCollection().Families).Any(f => f.Name == "Microsoft Sans Serif"))
             {
                 usedFont = new Font("Microsoft Sans Serif", 15f, FontStyle.Regular);

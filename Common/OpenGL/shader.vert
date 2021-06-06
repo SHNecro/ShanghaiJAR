@@ -1,4 +1,5 @@
-#version 330 core
+#version 140
+#extension GL_ARB_explicit_attrib_location : require
 
 layout(location = 0) in vec2 aPosition;
 layout(location = 1) in float aIndex;
