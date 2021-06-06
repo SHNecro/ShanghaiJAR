@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows;
-using System.Windows.Media;
+//using System.Windows.Media;
 
 namespace Common.OpenGL
 {
@@ -41,11 +41,11 @@ namespace Common.OpenGL
         {
             if (!FontGlyphs.TextFaces.TryGetValue(text.Font, out var face))
             {
-                var windowFontFamily = new System.Windows.Media.FontFamily(text.Font.FontFamily.Name);
-                var typeface = new Typeface(windowFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
-                typeface.TryGetGlyphTypeface(out var glyphTypeface);
+                //var windowFontFamily = new System.Windows.Media.FontFamily(text.Font.FontFamily.Name);
+                //var typeface = new Typeface(windowFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
+                //typeface.TryGetGlyphTypeface(out var glyphTypeface);
 
-                face = new Face(FontGlyphs.TextLibrary, glyphTypeface.FontUri.AbsolutePath);
+                face = new Face(FontGlyphs.TextLibrary, ""/*glyphTypeface.FontUri.AbsolutePath*/);
                 face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
                 FontGlyphs.TextFaces[text.Font] = face;
                 FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;

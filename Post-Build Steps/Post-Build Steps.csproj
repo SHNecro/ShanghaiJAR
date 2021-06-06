@@ -5,11 +5,18 @@
     <RootNamespace>Post_Build_Steps</RootNamespace>
   </PropertyGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="DEL &quot;$(SolutionDir)$(ConfigurationName)&quot;/Q /S&#xD;&#xA;mkdir &quot;$(SolutionDir)$(ConfigurationName)&quot;&#xD;&#xA;xcopy &quot;$(SolutionDir)ShanghaiEXE/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;xcopy &quot;$(SolutionDir)KeyConfig/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;xcopy &quot;$(SolutionDir)MapEditor/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;xcopy &quot;$(SolutionDir)MusicPlayer/$(ConfigurationName)&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;&#xD;&#xA;if &quot;$(ConfigurationName)&quot;==&quot;Release&quot; (&#xD;&#xA;    xcopy &quot;$(SolutionDir)keys\verify.txt&quot; &quot;$(SolutionDir)$(ConfigurationName)&quot; /s /d /y&#xD;&#xA;    DEL &quot;$(SolutionDir)$(ConfigurationName)\*.exe.config&quot;/Q /S&#xD;&#xA;    DEL &quot;$(SolutionDir)$(ConfigurationName)\*.dll.config&quot;/Q /S&#xD;&#xA;)" />
-  </Target>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>rm -rf "${SolutionDir}/${ProjectConfigName}"; cp -r "${SolutionDir}/ShanghaiEXE/${ProjectConfigName}" "${SolutionDir}/${ProjectConfigName}"</command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
   <Target Name="SpicNSpan" AfterTargets="Clean">
-    <Exec Command="DEL &quot;$(SolutionDir)$(ConfigurationName)&quot;/Q /S" />
+    <Exec Command="rm -rf &quot;$(SolutionDir)$(ConfigurationName)&quot;" />
   </Target>
 
 </Project>

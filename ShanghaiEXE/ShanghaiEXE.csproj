@@ -79,14 +79,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\OggVorbis.dll</HintPath>
     </Reference>
-    <Reference Include="OpenTK, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
-      <HintPath>..\packages\OpenTK.3.1.0\lib\net20\OpenTK.dll</HintPath>
-    </Reference>
     <Reference Include="OpenTK.GLControl, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <HintPath>..\packages\OpenTK.GLControl.3.1.0\lib\net20\OpenTK.GLControl.dll</HintPath>
-    </Reference>
-    <Reference Include="Sanford.Multimedia.Midi, Version=6.6.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sanford.Multimedia.Midi.6.6.2\lib\net20\Sanford.Multimedia.Midi.dll</HintPath>
     </Reference>
     <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86">
       <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
@@ -99,6 +93,12 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Security" />
     <Reference Include="System.Core" />
+    <Reference Include="OpenTK, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.3.1.0\lib\net20\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="Sanford.Multimedia.Midi, Version=6.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sanford.Multimedia.Midi.6.6.2\lib\net20\Sanford.Multimedia.Midi.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -2475,32 +2475,35 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>if not "$(ConfigurationName)"=="Debug Program Only" (
-    "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE\MapData" "$(TargetDir)data"
-    mkdir "$(TargetDir)data\data"
-    xcopy "$(ProjectDir)Data\data\*" "data\data\" /s /d /y
+    <PostBuildEvent>#if not "$(ConfigurationName)"=="Debug Program Only" (
+    "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE/MapData" "$(TargetDir)data"
+#    mkdir "$(TargetDir)data/data"
+    cp -r "$(ProjectDir)Data/data" "$(TargetDir)data/data"
 
-    "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Graphics" "$(TargetDir)ShaG"
-    "$(SolutionDir)Resource Packing Build Step\$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE\Sounds" "$(TargetDir)ShaS"
+    "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE/Graphics" "$(TargetDir)ShaG"
+    "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE/Sounds" "$(TargetDir)ShaS"
 
-    mkdir "$(TargetDir)music"
-    xcopy "$(ProjectDir)Sounds\Music\*" "$(TargetDir)music\" /s /d /y
+#    mkdir "$(TargetDir)music"
+    cp -r "$(ProjectDir)Sounds/Music" "$(TargetDir)music"
 
-    mkdir "$(TargetDir)language"
-    xcopy "$(ProjectDir)Language\*" "$(TargetDir)language\" /s /d /y
+#    mkdir "$(TargetDir)language"
+    cp -r "$(ProjectDir)Language" "$(TargetDir)language"
 
-    mkdir "$(TargetDir)mod"
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\mod\*" "$(TargetDir)mod\" /s /d /y
+#    mkdir "$(TargetDir)mod"
+    cp -r "$(ProjectDir)ShanghaiEXE/Files/mod" "$(TargetDir)mod"
 
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\icon.ico" "$(TargetDir)" /s /d /y
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\option.xml" "$(TargetDir)" /s /d /y
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\README.txt" "$(TargetDir)" /s /d /y
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\README-OLD.txt" "$(TargetDir)" /s /d /y
-)
+    cp -r "$(ProjectDir)ShanghaiEXE/Files/icon.ico" "$(TargetDir)"
+    cp -r "$(ProjectDir)ShanghaiEXE/Files/option.xml" "$(TargetDir)"
+#    cp -r "$(ProjectDir)ShanghaiEXE/Files/README.txt" "$(TargetDir)"
+    cp -r "$(ProjectDir)ShanghaiEXE/Files/README-OLD.txt" "$(TargetDir)"
+#)
 
-if "$(ConfigurationName)"=="Debug Full Build" (
-    xcopy "$(ProjectDir)ShanghaiEXE\Files\save.she" "$(TargetDir)" /s /d /y
-)
+#if "$(ConfigurationName)"=="Debug Full Build" (
+#    cp -r "$(ProjectDir)ShanghaiEXE/Files/save.she" "$(TargetDir)"
+#)
+chmod +x "$(TargetDir)$(TargetFileName)"
+rm -rf "$(SolutionDir)/Debug"
+cp -r "$(TargetDir)" "$(SolutionDir)/Debug"
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
@@ -2510,13 +2513,15 @@ if "$(ConfigurationName)"=="Debug Full Build" (
   <Target Name="AfterClean">
     <ItemGroup>
       <FilesToDelete Include="$(TargetDir)\*.*" />
+            <!--
       <DirectoriesToDelete Include="$([System.IO.Directory]::GetDirectories($(TargetDir), '*', System.IO.SearchOption.AllDirectories))" />
+            -->
     </ItemGroup>
     <Delete Files="@(FilesToDelete)" />
     <RemoveDir Directories="@(DirectoriesToDelete)" />
   </Target>
   <Target Name="SpicNSpan" AfterTargets="Clean">
-    <Exec Command="DEL &quot;$(ProjectDir)$(OutDir)&quot;/Q /S" />
+    <Exec Command="rm -rf &quot;$(ProjectDir)$(OutDir)&quot;" />
   </Target>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

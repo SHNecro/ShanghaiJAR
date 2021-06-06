@@ -11,6 +11,7 @@ using System.Windows;
 using System.Security.Cryptography;
 using Common.OpenGL;
 using Common.OpenAL;
+using System.Windows.Forms;
 
 namespace Common.EncodeDecode
 {
@@ -103,7 +104,7 @@ namespace Common.EncodeDecode
                 }
                 catch (CryptographicException)
                 {
-                    MessageBox.Show("Resource file decryption error. Check the password in the Settings.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Resource file decryption error. Check the password in the Settings.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 finally
                 {

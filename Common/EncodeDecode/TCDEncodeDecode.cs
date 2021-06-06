@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Windows;
+using System.Windows.Forms;
 
 namespace Common.EncodeDecode
 {
@@ -164,7 +165,7 @@ namespace Common.EncodeDecode
             }
             catch (Exception e)
             {
-                MessageBox.Show($"File could not be read.\n{e.GetType().ToString()}: {e.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"File could not be read.\n{e.GetType().ToString()}: {e.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
         }
@@ -178,7 +179,7 @@ namespace Common.EncodeDecode
             }
             catch (Exception e)
             {
-                MessageBox.Show($"File could not be saved.\n{e.GetType().ToString()}: {e.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"File could not be saved.\n{e.GetType().ToString()}: {e.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
