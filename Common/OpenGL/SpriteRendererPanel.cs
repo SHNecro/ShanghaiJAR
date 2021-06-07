@@ -211,6 +211,7 @@ namespace Common.OpenGL
 
         public void DrawText(Text t, int renderPass)
         {
+            return;
             if (!this.renderedObjects.ContainsKey(renderPass))
             {
                 this.renderedObjects[renderPass] = new RenderedObjectCollection();
@@ -612,6 +613,7 @@ namespace Common.OpenGL
 
         private static bool LoadTextTextures(Text text)
         {
+            return true;
             var success = true;
 
             for (var i = 0; i < text.Content.Length; i++)
