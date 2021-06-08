@@ -305,7 +305,7 @@
     <None Include="packages.config" />
     <None Include="ShanghaiEXE\Files\mod\music\âTâôâvâï.ogg" />
     <None Include="ShanghaiEXE\Files\save.she" />
-    <None Include="ShanghaiEXE\Resources\MICROSS.TTF" />
+    <EmbeddedResource Include="ShanghaiEXE\Resources\MICROSS.TTF" />
     <None Include="Sounds\Music\add_on.ogg" />
     <None Include="Sounds\Music\centre_city.ogg" />
     <None Include="Sounds\Music\cruise_ship.ogg" />
