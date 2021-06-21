@@ -45,7 +45,7 @@ namespace Common.OpenGL
                 //var typeface = new Typeface(windowFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
                 //typeface.TryGetGlyphTypeface(out var glyphTypeface);
 
-                face = new Face(FontGlyphs.TextLibrary, ""/*glyphTypeface.FontUri.AbsolutePath*/);
+                face = new Face(FontGlyphs.TextLibrary, FontGlyphs.FallbackFontBytes, 1);
                 face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
                 FontGlyphs.TextFaces[text.Font] = face;
                 FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;

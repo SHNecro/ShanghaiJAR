@@ -59,7 +59,7 @@ namespace Common.OpenGL
         private static int vertexArrayObject;
         private static int elementBufferObject;
 
-		private static Dictionary<Color, Vector4> CachedColorModulation;
+        private static Dictionary<Color, Vector4> CachedColorModulation;
 
         private readonly Dictionary<int, RenderedObjectCollection> renderedObjects;
         private ITextureLoadStrategy textureLoadStrategy;
@@ -79,7 +79,7 @@ namespace Common.OpenGL
             SpriteRendererPanel.SpriteSheets = new Dictionary<string, Texture>();
             SpriteRendererPanel.TextTextures = new Dictionary<string, Texture>();
 
-			SpriteRendererPanel.CachedColorModulation = new Dictionary<Color, Vector4>();
+            SpriteRendererPanel.CachedColorModulation = new Dictionary<Color, Vector4>();
         }
 
         public SpriteRendererPanel(ITextureLoadStrategy textureLoadStrategy) : this(textureLoadStrategy, null)
@@ -211,7 +211,6 @@ namespace Common.OpenGL
 
         public void DrawText(Text t, int renderPass)
         {
-            return;
             if (!this.renderedObjects.ContainsKey(renderPass))
             {
                 this.renderedObjects[renderPass] = new RenderedObjectCollection();
@@ -267,7 +266,7 @@ namespace Common.OpenGL
                 GL.BindVertexArray(vertexArrayObject);
                 SpriteRendererPanel.Shader.SetVector2("origin", this.origin);
                 SpriteRendererPanel.Shader.SetMatrix4("projection", this.projection);
-                
+
                 SpriteRendererPanel.Shader.SetInt($"drawType", 2);
                 if (this.backgroundTile != null)
                 {
@@ -384,35 +383,35 @@ namespace Common.OpenGL
                     {
                         var textureName = sprites[i].Texture;
                         var textureIndex = this.GetOrSetTextureUnit(textureName);
-						if (textureIndex == -1)
+                        if (textureIndex == -1)
                         {
                             continue;
                         }
 
-						// Manually clips texture since CLAMP_TO_EDGE didn't do anything on one test computer
-						var textureRect = new Rectangle(new Point(), this.GetTextureSize(textureName) ?? new Size(2000, 2000));
-						var spriteRect = new Rectangle(sprites[i].TexX, sprites[i].TexY, sprites[i].Width, sprites[i].Height);
-						if (!textureRect.Contains(spriteRect))
-						{
-							spriteRect.Intersect(textureRect);
-							sprites[i].TexX = spriteRect.Left;
-							sprites[i].TexY = spriteRect.Top;
-							sprites[i].Width = spriteRect.Width;
-							sprites[i].Height = spriteRect.Height;
-						}
+                        // Manually clips texture since CLAMP_TO_EDGE didn't do anything on one test computer
+                        var textureRect = new Rectangle(new Point(), this.GetTextureSize(textureName) ?? new Size(2000, 2000));
+                        var spriteRect = new Rectangle(sprites[i].TexX, sprites[i].TexY, sprites[i].Width, sprites[i].Height);
+                        if (!textureRect.Contains(spriteRect))
+                        {
+                            spriteRect.Intersect(textureRect);
+                            sprites[i].TexX = spriteRect.Left;
+                            sprites[i].TexY = spriteRect.Top;
+                            sprites[i].Width = spriteRect.Width;
+                            sprites[i].Height = spriteRect.Height;
+                        }
 
-						var spriteColorModulation = default(Vector4);
-						if (!SpriteRendererPanel.CachedColorModulation.TryGetValue(sprites[i].ColorModulation, out spriteColorModulation))
-						{
-							spriteColorModulation = new Vector4(
-								sprites[i].ColorModulation.R / 255.0f,
-								sprites[i].ColorModulation.G / 255.0f,
-								sprites[i].ColorModulation.B / 255.0f,
-								sprites[i].ColorModulation.A / 255.0f);
-							SpriteRendererPanel.CachedColorModulation[sprites[i].ColorModulation] = spriteColorModulation;
-						}
+                        var spriteColorModulation = default(Vector4);
+                        if (!SpriteRendererPanel.CachedColorModulation.TryGetValue(sprites[i].ColorModulation, out spriteColorModulation))
+                        {
+                            spriteColorModulation = new Vector4(
+                                sprites[i].ColorModulation.R / 255.0f,
+                                sprites[i].ColorModulation.G / 255.0f,
+                                sprites[i].ColorModulation.B / 255.0f,
+                                sprites[i].ColorModulation.A / 255.0f);
+                            SpriteRendererPanel.CachedColorModulation[sprites[i].ColorModulation] = spriteColorModulation;
+                        }
 
-						var batchIndex = "[" + batchSize + "]";
+                        var batchIndex = "[" + batchSize + "]";
                         SpriteRendererPanel.Shader.SetFloat($"spriteX" + batchIndex, sprites[i].X);
                         SpriteRendererPanel.Shader.SetFloat($"spriteY" + batchIndex, sprites[i].Y);
                         SpriteRendererPanel.Shader.SetInt($"spriteW" + batchIndex, sprites[i].Width);
@@ -436,7 +435,7 @@ namespace Common.OpenGL
                     SpriteRendererPanel.Shader.SetInt($"drawType", 0);
                     foreach (var text in texts)
                     {
-						var offset = 0.0;
+                        var offset = 0.0;
                         for (var i = 0; i < text.Content.Length; i++)
                         {
                             var textureIndex = SpriteRendererPanel.GetOrSetTextureUnit(text, i);
@@ -446,24 +445,24 @@ namespace Common.OpenGL
                             }
 
                             var texture = SpriteRendererPanel.TextTextures[text.GetCharKey(i)];
-							var metrics = FontGlyphs.TextMetrics[text.GetCharKey(i)];
+                            var metrics = FontGlyphs.TextMetrics[text.GetCharKey(i)];
 
-							var face = FontGlyphs.TextFaces[text.Font];
+                            var face = FontGlyphs.TextFaces[text.Font];
                             var faceHeight = FontGlyphs.TextFaceHeights[text.Font];
 
-							var adjustedPosition = new PointF(
+                            var adjustedPosition = new PointF(
                                 text.Position.X + (float)(offset + metrics.HorizontalBearingX + (metrics.Width / 2.0)),
                                 text.Position.Y + (float)(faceHeight - metrics.HorizontalBearingY + (metrics.Height / 2.0)));
 
                             var advance = metrics.HorizontalAdvance;
 
-							var textColorModulation = default(Vector4);
-							if (!SpriteRendererPanel.CachedColorModulation.TryGetValue(text.Color, out textColorModulation))
-							{
-								textColorModulation = new Vector4(text.Color.R / 255.0f, text.Color.G / 255.0f, text.Color.B / 255.0f, text.Color.A / 255.0f);
-								SpriteRendererPanel.CachedColorModulation[text.Color] = textColorModulation;
-							}
-							SpriteRendererPanel.Shader.SetFloat($"spriteX[0]", adjustedPosition.X);
+                            var textColorModulation = default(Vector4);
+                            if (!SpriteRendererPanel.CachedColorModulation.TryGetValue(text.Color, out textColorModulation))
+                            {
+                                textColorModulation = new Vector4(text.Color.R / 255.0f, text.Color.G / 255.0f, text.Color.B / 255.0f, text.Color.A / 255.0f);
+                                SpriteRendererPanel.CachedColorModulation[text.Color] = textColorModulation;
+                            }
+                            SpriteRendererPanel.Shader.SetFloat($"spriteX[0]", adjustedPosition.X);
                             SpriteRendererPanel.Shader.SetFloat($"spriteY[0]", adjustedPosition.Y);
                             SpriteRendererPanel.Shader.SetInt($"spriteW[0]", texture.Width);
                             SpriteRendererPanel.Shader.SetInt($"spriteH[0]", texture.Height);
@@ -479,13 +478,13 @@ namespace Common.OpenGL
                             offset += advance;
                         }
                     }
-                    
+
                 }
                 this.backgroundTile = null;
                 this.renderedObjects.Clear();
 
-			    this.SwapBuffers();
-                
+                this.SwapBuffers();
+
                 // TODO: Figure out what messes with textureunits between renders
                 SpriteRendererPanel.TextureUnits.Clear();
             }
@@ -529,7 +528,7 @@ namespace Common.OpenGL
             {
                 return -1;
             }
-            
+
             if (SpriteRendererPanel.TextureUnits.ContainsKey(Tuple.Create(TextureType.Text, text.GetCharKey(index))))
             {
                 return SpriteRendererPanel.TextureUnits[Tuple.Create(TextureType.Text, text.GetCharKey(index))].ToInt();
@@ -613,7 +612,6 @@ namespace Common.OpenGL
 
         private static bool LoadTextTextures(Text text)
         {
-            return true;
             var success = true;
 
             for (var i = 0; i < text.Content.Length; i++)
@@ -623,7 +621,7 @@ namespace Common.OpenGL
                     continue;
                 }
 
-				var glyphSlot = FontGlyphs.GetOrSetGlyphMetrics(text, i);
+                var glyphSlot = FontGlyphs.GetOrSetGlyphMetrics(text, i);
 
                 var gdipBitmap = default(Bitmap);
                 using (var glyph = glyphSlot.GetGlyph())
@@ -639,17 +637,6 @@ namespace Common.OpenGL
                             glyphSlot.Metrics.Width.Round(),
                             glyphSlot.Metrics.Height.Round());
                         gdipBitmap = bitmap.ToGdipBitmap(Color.White).Crop(metricRect);
-                        
-                        // TODO: Fix real reason for malformed X
-                        if (text.Content[i] == 'X' && Math.Abs(text.Font.SizeInPoints - 15) < double.Epsilon * 8)
-                        {
-                            var fixedXBitmap = new Bitmap(gdipBitmap, metricRect.Size);
-                            for (int c = 0; c < metricRect.Width; c++)
-                            {
-                                fixedXBitmap.SetPixel(c, metricRect.Height - 1, fixedXBitmap.GetPixel(c, metricRect.Height - 2));
-                            }
-                            gdipBitmap = fixedXBitmap;
-                        }
                     }
                     else
                     {
@@ -700,11 +687,11 @@ namespace Common.OpenGL
             GL.EnableVertexAttribArray(vertexLocation);
             GL.VertexAttribPointer(vertexLocation, 2, VertexAttribPointerType.Float, false, 5 * sizeof(float), 0);
 
-			int indexLocation = SpriteRendererPanel.Shader.GetAttribLocation("aIndex");
-			GL.EnableVertexAttribArray(indexLocation);
-			GL.VertexAttribPointer(indexLocation, 1, VertexAttribPointerType.Float, false, 5 * sizeof(float), 2 * sizeof(float));
+            int indexLocation = SpriteRendererPanel.Shader.GetAttribLocation("aIndex");
+            GL.EnableVertexAttribArray(indexLocation);
+            GL.VertexAttribPointer(indexLocation, 1, VertexAttribPointerType.Float, false, 5 * sizeof(float), 2 * sizeof(float));
 
-			int texCoordLocation = SpriteRendererPanel.Shader.GetAttribLocation("aTexCoord");
+            int texCoordLocation = SpriteRendererPanel.Shader.GetAttribLocation("aTexCoord");
             GL.EnableVertexAttribArray(texCoordLocation);
             GL.VertexAttribPointer(texCoordLocation, 2, VertexAttribPointerType.Float, false, 5 * sizeof(float), 3 * sizeof(float));
             SpriteRendererPanel.TextureLoad?.Invoke();

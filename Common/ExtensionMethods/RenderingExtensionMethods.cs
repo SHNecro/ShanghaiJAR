@@ -90,11 +90,13 @@ namespace Common.ExtensionMethods
 
         public static Bitmap Crop(this Bitmap b, Rectangle r)
         {
-            Bitmap nb = new Bitmap(r.Width, r.Height);
+            return b;
+            Bitmap nb = new Bitmap(r.Width, r.Height, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
             using (var g = Graphics.FromImage(nb))
             {
                 g.DrawImage(b, -r.X, -r.Y);
             }
+
             return nb;
         }
     }
