@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using Common.OpenGL;
 
 namespace NSShanghaiEXE.InputOutput.Rendering
 {
@@ -10,8 +11,8 @@ namespace NSShanghaiEXE.InputOutput.Rendering
 
         Size MeasureMicroText(string text);
 
-        Size MeasureText(string text, Font font, int roundIncrement);
+        Size MeasureText(string text, LoadedFont font, int roundIncrement);
 
-        Size MeasureText(string text, Font font);
+        Size MeasureText(string text, LoadedFont font);
     }
 }

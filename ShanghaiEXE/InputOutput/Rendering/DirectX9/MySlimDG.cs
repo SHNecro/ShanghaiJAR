@@ -12,6 +12,8 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Font = System.Drawing.Font;
 using Vector2 = Common.Vectors.Vector2;
+using Sprite = SlimDX.Direct3D9.Sprite;
+using Common.OpenGL;
 
 namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
 {
@@ -50,15 +52,15 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
             this.thread_1 = new Thread(new ThreadStart(this.tex.Tex));
             this.thread_1.Start();
 
-            var usedFont = default(Font);
-            var usedMiniFont = default(Font);
-            var usedMicroFont = default(Font);
+            var usedFont = default(LoadedFont);
+            var usedMiniFont = default(LoadedFont);
+            var usedMicroFont = default(LoadedFont);
             
             if ((new InstalledFontCollection().Families).Any(f => f.Name == "Microsoft Sans Serif"))
             {
-                usedFont = new Font("Microsoft Sans Serif", 10f, FontStyle.Regular);
-                usedMiniFont = new Font("Microsoft Sans Serif", 9f, FontStyle.Regular);
-                usedMicroFont = new Font("Microsoft Sans Serif", 8f, FontStyle.Regular);
+                usedFont = new LoadedFont(new Font("Microsoft Sans Serif", 10f, FontStyle.Regular));
+                usedMiniFont = new LoadedFont(new Font("Microsoft Sans Serif", 9f, FontStyle.Regular));
+                usedMicroFont = new LoadedFont(new Font("Microsoft Sans Serif", 8f, FontStyle.Regular));
             }
             else
             {
@@ -76,14 +78,14 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
                 Marshal.Copy(fontBytes, 0, handle, fontBytes.Length);
                 MySlimDG.customFontInstance.AddMemoryFont(handle, fontBytes.Length);
                 Marshal.FreeCoTaskMem(handle);
-                usedFont = new Font(MySlimDG.customFontInstance.Families[0], 12, FontStyle.Regular);
-                usedMiniFont = new Font(MySlimDG.customFontInstance.Families[0], 10, FontStyle.Regular);
-                usedMicroFont = new Font(MySlimDG.customFontInstance.Families[0], 10, FontStyle.Regular);
+                usedFont = new LoadedFont(new Font(MySlimDG.customFontInstance.Families[0], 12, FontStyle.Regular), fontBytes);
+                usedMiniFont = new LoadedFont(new Font(MySlimDG.customFontInstance.Families[0], 10, FontStyle.Regular), fontBytes);
+                usedMicroFont = new LoadedFont(new Font(MySlimDG.customFontInstance.Families[0], 10, FontStyle.Regular), fontBytes);
             }
 
-            this.font = new SlimFont(usedFont);
-            this.minifont = new SlimFont(usedMiniFont);
-            this.microfont = new SlimFont(usedMicroFont);
+            this.font = new SlimFont(usedFont.Font);
+            this.minifont = new SlimFont(usedMiniFont.Font);
+            this.microfont = new SlimFont(usedMicroFont.Font);
 
             this.measurer = new DGTextMeasurer(usedFont, usedMiniFont, usedMicroFont);
         }

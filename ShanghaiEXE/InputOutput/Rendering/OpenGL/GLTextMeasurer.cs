@@ -9,16 +9,16 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
     {
         private static TextMeasurer measurer;
 
-        private Font regularFont;
-        private Font miniFont;
-        private Font microFont;
+        private LoadedFont regularFont;
+        private LoadedFont miniFont;
+        private LoadedFont microFont;
 
         static GLTextMeasurer()
         {
             GLTextMeasurer.measurer = new TextMeasurer();
         }
 
-        public GLTextMeasurer(Font regularFont, Font miniFont, Font microFont)
+        public GLTextMeasurer(LoadedFont regularFont, LoadedFont miniFont, LoadedFont microFont)
         {
             this.regularFont = regularFont;
             this.miniFont = miniFont;
@@ -31,12 +31,12 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
 
         public Size MeasureMicroText(string text) => this.MeasureText(text, this.microFont);
 
-        public Size MeasureText(string text, Font font, int roundIncrement)
+        public Size MeasureText(string text, LoadedFont font, int roundIncrement)
         {
             return GLTextMeasurer.measurer.MeasureText(text, font, roundIncrement);
         }
 
-        public Size MeasureText(string text, Font font)
+        public Size MeasureText(string text, LoadedFont font)
         {
             return GLTextMeasurer.measurer.MeasureText(text, font);
         }

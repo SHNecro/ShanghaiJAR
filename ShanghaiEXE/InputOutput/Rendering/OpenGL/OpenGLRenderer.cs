@@ -20,9 +20,9 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
         private static readonly string FallbackFont = "MICROSS.TTF";
         public SpriteRendererPanel rend => this.renderer;
         private readonly SpriteRendererPanel renderer;
-        private readonly Font regularFont;
-        private readonly Font miniFont;
-        private readonly Font microFont;
+        private readonly LoadedFont regularFont;
+        private readonly LoadedFont miniFont;
+        private readonly LoadedFont microFont;
 
         private readonly PrivateFontCollection customFontInstance;
         private readonly ITextMeasurer measurer;
@@ -45,14 +45,14 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
             this.renderer = new SpriteRendererPanel(loadStrategy, initialScaleX, initialScaleY);
             this.lastWasText = false;
 
-            var usedFont = default(Font);
-            var usedMiniFont = default(Font);
-            var usedMicroFont = default(Font);
+            var usedFont = default(LoadedFont);
+            var usedMiniFont = default(LoadedFont);
+            var usedMicroFont = default(LoadedFont);
             if ((new InstalledFontCollection().Families).Any(f => f.Name == "Microsoft Sans Serif"))
             {
-                usedFont = new Font("Microsoft Sans Serif", 15f, FontStyle.Regular);
-                usedMiniFont = new Font("Microsoft Sans Serif", 12f, FontStyle.Regular);
-                usedMicroFont = new Font("Microsoft Sans Serif", 11f, FontStyle.Regular);
+                usedFont = new LoadedFont(new Font("Microsoft Sans Serif", 15f, FontStyle.Regular));
+                usedMiniFont = new LoadedFont(new Font("Microsoft Sans Serif", 12f, FontStyle.Regular));
+                usedMicroFont = new LoadedFont(new Font("Microsoft Sans Serif", 11f, FontStyle.Regular));
             }
             else
             {
@@ -70,9 +70,9 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
                 Marshal.Copy(fontBytes, 0, handle, fontBytes.Length);
                 this.customFontInstance.AddMemoryFont(handle, fontBytes.Length);
                 Marshal.FreeCoTaskMem(handle);
-                usedFont = new Font(this.customFontInstance.Families[0], 15, FontStyle.Regular);
-                usedMiniFont = new Font(this.customFontInstance.Families[0], 12, FontStyle.Regular);
-                usedMicroFont = new Font(this.customFontInstance.Families[0], 11, FontStyle.Regular);
+                usedFont = new LoadedFont(new Font(this.customFontInstance.Families[0], 15, FontStyle.Regular), fontBytes);
+                usedMiniFont = new LoadedFont(new Font(this.customFontInstance.Families[0], 12, FontStyle.Regular), fontBytes);
+                usedMicroFont = new LoadedFont(new Font(this.customFontInstance.Families[0], 11, FontStyle.Regular), fontBytes);
             }
 
             this.regularFont = usedFont;

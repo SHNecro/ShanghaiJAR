@@ -107,6 +107,7 @@
     <Compile Include="OpenGL\Tile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vectors\Vectors.cs" />
+    <Compile Include="OpenGL\LoadedFont.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

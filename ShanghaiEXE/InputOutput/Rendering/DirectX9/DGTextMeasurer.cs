@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Drawing;
+using Common.OpenGL;
 
 namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
 {
     public class DGTextMeasurer : ITextMeasurer
     {
-        private Font regularFont;
-        private Font miniFont;
-        private Font microFont;
+        private LoadedFont regularFont;
+        private LoadedFont miniFont;
+        private LoadedFont microFont;
 
-        public DGTextMeasurer(Font regularFont, Font miniFont, Font microFont)
+        public DGTextMeasurer(LoadedFont regularFont, LoadedFont miniFont, LoadedFont microFont)
         {
             this.regularFont = regularFont;
             this.miniFont = miniFont;
@@ -26,13 +27,13 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
 
         public Size MeasureMicroText(string text) => this.MeasureText(text, this.microFont);
 
-        public Size MeasureText(string text, Font font, int roundIncrement)
+        public Size MeasureText(string text, LoadedFont font, int roundIncrement)
         {
             var unroundedSize = this.MeasureText(text, font);
             return new Size((int)Math.Ceiling((double)unroundedSize.Width / roundIncrement) * roundIncrement, (int)Math.Ceiling((double)unroundedSize.Height / roundIncrement) * roundIncrement);
         }
 
-        public Size MeasureText(string text, Font font)
+        public Size MeasureText(string text, LoadedFont font)
         {
             if (font == null)
             {
@@ -46,7 +47,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.DirectX9
 
             using (var graphics = Graphics.FromHwnd(IntPtr.Zero))
             {
-                using (var slimFont = new SlimFont(font))
+                using (var slimFont = new SlimFont(font.Font))
                 {
                     return slimFont.Font.MeasureString(null, text, SlimDX.Direct3D9.DrawTextFormat.Left).Size;
                 }

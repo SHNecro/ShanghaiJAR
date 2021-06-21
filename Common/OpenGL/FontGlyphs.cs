@@ -13,20 +13,20 @@ namespace Common.OpenGL
         private static Library TextLibrary;
         private static string FallbackFont = "MSGOTHIC.TTC";
         private static byte[] FallbackFontBytes;
-        private static Dictionary<Font, Face> FallbackTextFaces;
+        private static Dictionary<LoadedFont, Face> FallbackTextFaces;
 
         public static Dictionary<string, GlyphMetrics> TextMetrics;
-        public static Dictionary<Font, Face> TextFaces;
+        public static Dictionary<LoadedFont, Face> TextFaces;
         // Face heights caches due to memory leak accessing Face.Size
-        public static Dictionary<Font, Fixed26Dot6> TextFaceHeights;
+        public static Dictionary<LoadedFont, Fixed26Dot6> TextFaceHeights;
 
         static FontGlyphs()
         {
             FontGlyphs.TextMetrics = new Dictionary<string, GlyphMetrics>();
             FontGlyphs.TextLibrary = new Library();
-            FontGlyphs.TextFaces = new Dictionary<Font, Face>();
-            FontGlyphs.TextFaceHeights = new Dictionary<Font, Fixed26Dot6>();
-            FontGlyphs.FallbackTextFaces = new Dictionary<Font, Face>();
+            FontGlyphs.TextFaces = new Dictionary<LoadedFont, Face>();
+            FontGlyphs.TextFaceHeights = new Dictionary<LoadedFont, Fixed26Dot6>();
+            FontGlyphs.FallbackTextFaces = new Dictionary<LoadedFont, Face>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             var fallbackFontResourceName = assembly.GetManifestResourceNames().First(s => s.EndsWith(FontGlyphs.FallbackFont, StringComparison.Ordinal));
@@ -45,8 +45,8 @@ namespace Common.OpenGL
                 //var typeface = new Typeface(windowFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
                 //typeface.TryGetGlyphTypeface(out var glyphTypeface);
 
-                face = new Face(FontGlyphs.TextLibrary, FontGlyphs.FallbackFontBytes, 1);
-                face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
+                face = new Face(FontGlyphs.TextLibrary, text.Font.Bytes ?? FontGlyphs.FallbackFontBytes, 0);
+                face.SetCharSize(0, text.Font.Font.SizeInPoints * 64, 1, 1);
                 FontGlyphs.TextFaces[text.Font] = face;
                 FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;
             }
@@ -56,7 +56,7 @@ namespace Common.OpenGL
                 if (!FontGlyphs.FallbackTextFaces.TryGetValue(text.Font, out face))
                 {
                     face = new Face(FontGlyphs.TextLibrary, FontGlyphs.FallbackFontBytes, 1);
-                    face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
+                    face.SetCharSize(0, text.Font.Font.SizeInPoints * 64, 1, 1);
                     FontGlyphs.FallbackTextFaces[text.Font] = face;
                 }
             }
