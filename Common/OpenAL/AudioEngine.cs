@@ -37,6 +37,8 @@ namespace Common.OpenAL
         private long oggTotalSamples;
         private long oggProgress;
         private int oggSampleRate;
+
+        private bool playbackEnded;
         #endregion
 
         #region Constructor
@@ -134,6 +136,7 @@ namespace Common.OpenAL
 
         public void OggStop()
         {
+            this.playbackEnded = true;
             this.playStates[this.oggSource] = ALSourceState.Stopped;
             AL.SourceStop(this.oggSource);
 
@@ -144,6 +147,7 @@ namespace Common.OpenAL
 
         public void OggPause()
         {
+            this.playbackEnded = true;
             this.OggSeek(this.oggProgress);
             this.playStates[this.oggSource] = ALSourceState.Stopped;
             AL.SourceStop(this.oggSource);
@@ -213,6 +217,8 @@ namespace Common.OpenAL
                 return;
             }
 
+            this.playbackEnded = false;
+
             lock (this.oggQueueLock) { }
 
             this.oggSource = GenSourceWithVolume();
@@ -273,7 +279,7 @@ namespace Common.OpenAL
                     }
 
                     var allBuffersProcessed = false;
-                    while (!buffersInitialized || !playbackStopDetected)
+                    while (!buffersInitialized || !playbackStopDetected || !this.playbackEnded)
                     {
                         buffersInitialized = true;
 
@@ -312,6 +318,10 @@ namespace Common.OpenAL
                         {
                             this.UpdateOggProgress(adjustedProgress);
                         }
+                        else
+                        {
+                            AL.SourcePlay(currentSource);
+                        }
 
                         if (isLooping)
                         {
@@ -323,6 +333,14 @@ namespace Common.OpenAL
                             if (this.oggProgress >= realLoopEnd)
                             {
                                 this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % realLoopEnd));
+                            }
+                        }
+                        else
+                        {
+                            var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
+                            if (vorbis.SamplePosition >= realLoopEnd)
+                            {
+                                this.playbackEnded = true;
                             }
                         }
                     }
@@ -377,7 +395,7 @@ namespace Common.OpenAL
                     }
                     callback?.Invoke();
                 }
-                while (this.playStates[source] != ALSourceState.Stopped);
+                while (this.playStates[source] != ALSourceState.Stopped || !this.playbackEnded);
                 
                 AL.SourceStop(source);
                 AL.DeleteSource(source);
