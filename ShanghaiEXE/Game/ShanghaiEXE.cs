@@ -24,6 +24,7 @@ using Common.Config;
 using System.Diagnostics;
 using NSEvent;
 using NSShanghaiEXE.InputOutput.Audio.XAudio2;
+using NSShanghaiEXE.InputOutput.Audio.OpenAL;
 
 namespace NSGame
 {
@@ -377,7 +378,15 @@ namespace NSGame
             ShanghaiEXE.measurer = this.dg.GetTextMeasurer();
 
             this.UpdateLoadingText(LoadType.Audio, 25);
-            this.ad = new MyAudio(this.volSE);
+            switch ("Original")
+            {
+                case "Original":
+                    this.ad = new MyAudio(this.volSE);
+                    break;
+                case "OpenAL":
+                    this.ad = new OpenALAudio(this.volSE, "ShaSResource.tcd", "sasanasi", "{0}.wav");
+                    break;
+            }
             this.ad.BGMVolume = this.volBGM;
             this.ad.SoundEffectVolume = this.volSE;
             this.ad.ProgressUpdated += this.AudioLoad_ProgressUpdate;

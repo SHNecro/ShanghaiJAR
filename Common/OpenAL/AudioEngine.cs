@@ -17,16 +17,20 @@ namespace Common.OpenAL
         private const int OggBufferCount = 10;
         private const double OggBufferSize = 0.1;
 
+        public const string DefaultStartGroup = "default";
+        public const string DefaultVolumeGroup = "default";
+
         public static AudioEngine Instance;
 
         // AudioContext.Dispose causes popping sound
         private readonly AudioContext sharedContext;
 
         private readonly ConcurrentDictionary<int, ALSourceState> playStates;
-        private readonly List<int> currentSources;
+        private readonly ConcurrentDictionary<int, string> playStateGroups;
+        private readonly Dictionary<string, List<int>> currentSources;
         private readonly object oggQueueLock = new object();
 
-        private float volume = 1.0f;
+        private IDictionary<string, float> volumes = new Dictionary<string, float> { { AudioEngine.DefaultVolumeGroup, 0.5f } };
 
         private int oggSource;
         private string oggFilePath;
@@ -52,7 +56,8 @@ namespace Common.OpenAL
         {
             this.sharedContext = new AudioContext();
             this.playStates = new ConcurrentDictionary<int, ALSourceState>();
-            this.currentSources = new List<int>();
+            this.playStateGroups = new ConcurrentDictionary<int, string>();
+            this.currentSources = new Dictionary<string, List<int>>();
         }
         #endregion
 
@@ -64,32 +69,32 @@ namespace Common.OpenAL
 
         #region Properties
 
-        public void WavPlay(byte[] wavBytes)
+        public void WavPlay(byte[] wavBytes, string volumeGroup = AudioEngine.DefaultVolumeGroup, string startGroup = DefaultStartGroup)
         {
             using (var memoryStream = new MemoryStream(wavBytes))
             {
-                this.BeginWav(memoryStream);
+                this.BeginWav(memoryStream, volumeGroup, startGroup);
             }
         }
 
-        public void WavPlay(string fileName)
+        public void WavPlay(string fileName, string volumeGroup = AudioEngine.DefaultVolumeGroup, string startGroup = DefaultStartGroup)
         {
             using (var fileStream = File.Open(fileName, FileMode.Open))
             {
-                this.BeginWav(fileStream);
+                this.BeginWav(fileStream, volumeGroup, startGroup);
             }
         }
 
-        public void WavPlay(WAVData wavData)
+        public void WavPlay(WAVData wavData, string volumeGroup = AudioEngine.DefaultVolumeGroup, string startGroup = DefaultStartGroup)
         {
-            this.BeginWav(wavData);
+            this.BeginWav(wavData, volumeGroup, startGroup);
         }
 
-        public void OggPlay(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null)
+        public void OggPlay(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null, string volumeGroup = AudioEngine.DefaultVolumeGroup)
         {
             if (this.IsInProgress)
             {
-                return;
+                this.OggStop();
             }
 
             this.oggFilePath = filePath;
@@ -105,7 +110,7 @@ namespace Common.OpenAL
                 TotalSamples = totalSamples
             });
 
-            this.BeginOgg(isLooping);
+            this.BeginOgg(isLooping, volumeGroup);
         }
 
         public void OggInitialize(string filePath)
@@ -119,12 +124,18 @@ namespace Common.OpenAL
             });
         }
 
-        public void WavStop()
+        public void WavStop(string startGroup = null)
         {
             var sources = this.playStates.Keys;
             foreach (var k in sources)
             {
                 if (k == this.oggSource)
+                {
+                    continue;
+                }
+
+                var isStoppedGroup = startGroup == null || (this.playStateGroups.ContainsKey(k) && this.playStateGroups[k] == startGroup);
+                if (!isStoppedGroup)
                 {
                     continue;
                 }
@@ -136,9 +147,9 @@ namespace Common.OpenAL
 
         public void OggStop()
         {
-            this.playbackEnded = true;
             this.playStates[this.oggSource] = ALSourceState.Stopped;
             AL.SourceStop(this.oggSource);
+            this.StopPlayback();
 
             this.OggSeek(0);
 
@@ -147,10 +158,10 @@ namespace Common.OpenAL
 
         public void OggPause()
         {
-            this.playbackEnded = true;
             this.OggSeek(this.oggProgress);
             this.playStates[this.oggSource] = ALSourceState.Stopped;
             AL.SourceStop(this.oggSource);
+            this.StopPlayback();
         }
 
         public void OggSeek(long sample)
@@ -160,29 +171,29 @@ namespace Common.OpenAL
             this.UpdateOggProgress(sample);
         }
 
-        public float Volume
+        public void SetVolume(float volume, string volumeGroup = AudioEngine.DefaultVolumeGroup)
         {
-            get
-            {
-                return this.volume;
-            }
+            this.volumes[volumeGroup] = volume;
 
-            set
+            if (this.currentSources.TryGetValue(volumeGroup, out var groupSources))
             {
-                this.volume = value;
-
-                foreach (var source in this.currentSources)
+                foreach (var source in groupSources)
                 {
-                    AL.Source((uint)source, ALSourcef.Gain, value);
+                    AL.Source((uint)source, ALSourcef.Gain, volume);
                 }
             }
+        }
+
+        public float GetVolume(string volumeGroup = AudioEngine.DefaultVolumeGroup)
+        {
+            return this.volumes[volumeGroup];
         }
 
         private bool IsInProgress => this.playStates.Any(kvp => kvp.Value == ALSourceState.Playing);
         #endregion
 
         #region Methods
-        private void BeginWav(Stream byteStream)
+        private void BeginWav(Stream byteStream, string volumeGroup, string startGroup)
         {
             WAVData wavData;
             try
@@ -194,13 +205,13 @@ namespace Common.OpenAL
                 throw new InvalidOperationException("Invalid .wav file");
             }
 
-            this.BeginWav(wavData);
+            this.BeginWav(wavData, volumeGroup, startGroup);
         }
 
-        private void BeginWav(WAVData wavData)
+        private void BeginWav(WAVData wavData, string volumeGroup, string startGroup)
         {
             var buffer = AL.GenBuffer();
-            var currentSource = GenSourceWithVolume();
+            var currentSource = GenSourceWithVolume(volumeGroup);
 
             var soundFormat = wavData.SoundFormat;
             AL.BufferData(buffer, soundFormat, wavData.Data, wavData.Data.Length, wavData.Rate);
@@ -210,18 +221,16 @@ namespace Common.OpenAL
             this.Play(currentSource, () => { AL.DeleteBuffer(buffer); });
         }
 
-        private void BeginOgg(bool isLooping)
+        private void BeginOgg(bool isLooping, string volumeGroup)
         {
-            if (string.IsNullOrEmpty(this.oggFilePath) || this.IsInProgress)
+            if (string.IsNullOrEmpty(this.oggFilePath))
             {
                 return;
             }
 
             this.playbackEnded = false;
 
-            lock (this.oggQueueLock) { }
-
-            this.oggSource = GenSourceWithVolume();
+            this.oggSource = GenSourceWithVolume(volumeGroup);
             var currentSource = this.oggSource;
 
             int channels, bits_per_sample;
@@ -375,13 +384,14 @@ namespace Common.OpenAL
 
         }
 
-        private void Play(int source, Action bufferCleanup, Action callback = null)
+        private void Play(int source, Action bufferCleanup, Action callback = null, string startGroup = DefaultStartGroup)
         {
             var waitThread = new Thread(() =>
             {
                 AL.SourcePlay(source);
                 AL.GetSource(source, ALGetSourcei.SourceState, out int state);
                 this.playStates[source] = (ALSourceState)state;
+                this.playStateGroups[source] = startGroup;
 
                 // Query the source to find out when it stops playing.
                 do
@@ -399,12 +409,23 @@ namespace Common.OpenAL
                 
                 AL.SourceStop(source);
                 AL.DeleteSource(source);
-                this.currentSources.Remove(source);
+
+                foreach (var volumeGroup in this.currentSources.Values)
+                {
+                    volumeGroup.Remove(source);
+                }
                 this.playStates.TryRemove(source, out _);
+                this.playStateGroups.TryRemove(source, out _);
                 bufferCleanup();
             });
 
             waitThread.Start();
+        }
+
+        private void StopPlayback()
+        {
+            this.playbackEnded = true;
+            lock (this.oggQueueLock) { }
         }
 
         private void UpdateOggProgress(long sample)
@@ -424,11 +445,17 @@ namespace Common.OpenAL
             });
         }
 
-        private int GenSourceWithVolume()
+        private int GenSourceWithVolume(string volumeGroup)
         {
             var source = AL.GenSource();
-            AL.Source(source, ALSourcef.Gain, this.volume);
-            this.currentSources.Add(source);
+            AL.Source(source, ALSourcef.Gain, this.volumes[volumeGroup]);
+
+            if (!this.currentSources.ContainsKey(volumeGroup))
+            {
+                this.currentSources[volumeGroup] = new List<int>();
+            }
+
+            this.currentSources[volumeGroup].Add(source);
             return source;
         }
 
