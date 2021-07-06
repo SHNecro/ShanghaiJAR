@@ -378,7 +378,7 @@ namespace NSGame
             ShanghaiEXE.measurer = this.dg.GetTextMeasurer();
 
             this.UpdateLoadingText(LoadType.Audio, 25);
-            switch ("Original")
+            switch ("OpenAL")
             {
                 case "Original":
                     this.ad = new MyAudio(this.volSE);

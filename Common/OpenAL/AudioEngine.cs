@@ -148,19 +148,22 @@ namespace Common.OpenAL
         public void OggStop()
         {
             this.playStates[this.oggSource] = ALSourceState.Stopped;
+            AL.SourcePause(this.oggSource);
             AL.SourceStop(this.oggSource);
             this.StopPlayback();
 
-            this.OggSeek(0);
-
-            this.UpdateOggProgress(0);
+            this.WaitOnLock(this.oggQueueLock, () =>
+            {
+                this.OggSeek(0);
+                this.UpdateOggProgress(0);
+            });
         }
 
         public void OggPause()
         {
             this.OggSeek(this.oggProgress);
             this.playStates[this.oggSource] = ALSourceState.Stopped;
-            AL.SourceStop(this.oggSource);
+            AL.SourcePause(this.oggSource);
             this.StopPlayback();
         }
 
@@ -228,6 +231,7 @@ namespace Common.OpenAL
                 return;
             }
 
+            lock (this.oggQueueLock) { }
             this.playbackEnded = false;
 
             this.oggSource = GenSourceWithVolume(volumeGroup);
@@ -276,88 +280,83 @@ namespace Common.OpenAL
             var buffers = new List<int>();
 
             var playbackStopDetected = false;
-            var queueThread = new Thread(() =>
+            this.WaitOnLock(this.oggQueueLock, () =>
             {
-                lock (this.oggQueueLock)
+                for (int i = 0; i < OggBufferCount; i++)
                 {
-                    for (int i = 0; i < OggBufferCount; i++)
+                    var currentBuffer = AL.GenBuffer();
+                    QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
+                    buffers.Add(currentBuffer);
+                }
+
+                var allBuffersProcessed = false;
+                while (!buffersInitialized || (!playbackStopDetected && !this.playbackEnded))
+                {
+                    buffersInitialized = true;
+
+                    AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out int buffersQueued);
+                    AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out int buffersProcessed);
+
+                    var newUnqueuedSize = 0;
+                    for (int i = 0; i < buffersProcessed; i++)
                     {
-                        var currentBuffer = AL.GenBuffer();
+                        var currentBuffer = buffers.First();
+                        buffers.Remove(currentBuffer);
+
+                        AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
+                        newUnqueuedSize += currentBufferSize;
+
+                        AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
                         QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
                         buffers.Add(currentBuffer);
                     }
 
-                    var allBuffersProcessed = false;
-                    while (!buffersInitialized || !playbackStopDetected || !this.playbackEnded)
+                    allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
+                    if (allBuffersProcessed && buffersProcessed != 0)
                     {
-                        buffersInitialized = true;
-
-                        AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out int buffersQueued);
-                        AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out int buffersProcessed);
-
-                        var newUnqueuedSize = 0;
-                        for (int i = 0; i < buffersProcessed; i++)
+                        var unqueuedBuffers = new int[buffersProcessed];
+                        AL.SourceUnqueueBuffers(currentSource, buffersProcessed, unqueuedBuffers);
+                        foreach (var currentBuffer in unqueuedBuffers)
                         {
-                            var currentBuffer = buffers.First();
-                            buffers.Remove(currentBuffer);
-
                             AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
                             newUnqueuedSize += currentBufferSize;
+                        }
+                    }
 
-                            AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
-                            QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
-                            buffers.Add(currentBuffer);
-                        }
-                        
-                        allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
-                        if (allBuffersProcessed && buffersProcessed != 0)
-                        {
-                            var unqueuedBuffers = new int[buffersProcessed];
-                            AL.SourceUnqueueBuffers(currentSource, buffersProcessed, unqueuedBuffers);
-                            foreach (var currentBuffer in unqueuedBuffers)
-                            {
-                                AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
-                                newUnqueuedSize += currentBufferSize;
-                            }
-                        }
+                    var newProgress = newUnqueuedSize / (channels * (bits_per_sample / 8));
+                    var adjustedProgress = this.oggProgress + newProgress;
+                    if (AL.GetSourceState(currentSource) == ALSourceState.Playing)
+                    {
+                        this.UpdateOggProgress(adjustedProgress);
+                    }
+                    else
+                    {
+                        AL.SourcePlay(currentSource);
+                    }
 
-                        var newProgress = newUnqueuedSize / (channels * (bits_per_sample / 8));
-                        var adjustedProgress = this.oggProgress + newProgress;
-                        if (AL.GetSourceState(currentSource) == ALSourceState.Playing)
+                    if (isLooping)
+                    {
+                        var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
+                        if (vorbis.SamplePosition >= realLoopEnd)
                         {
-                            this.UpdateOggProgress(adjustedProgress);
+                            vorbis.SeekTo(this.oggLoopStart);
                         }
-                        else
+                        if (this.oggProgress >= realLoopEnd)
                         {
-                            AL.SourcePlay(currentSource);
+                            this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % realLoopEnd));
                         }
-
-                        if (isLooping)
+                    }
+                    else
+                    {
+                        var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
+                        if (vorbis.SamplePosition >= realLoopEnd)
                         {
-                            var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
-                            if (vorbis.SamplePosition >= realLoopEnd)
-                            {
-                                vorbis.SeekTo(this.oggLoopStart);
-                            }
-                            if (this.oggProgress >= realLoopEnd)
-                            {
-                                this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % realLoopEnd));
-                            }
-                        }
-                        else
-                        {
-                            var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
-                            if (vorbis.SamplePosition >= realLoopEnd)
-                            {
-                                this.playbackEnded = true;
-                            }
+                            this.playbackEnded = true;
                         }
                     }
                 }
-
                 vorbis.Dispose();
             });
-            queueThread.Start();
 
             while (!buffersInitialized)
             {
@@ -368,7 +367,7 @@ namespace Common.OpenAL
             this.Play(currentSource, () =>
             {
                 playbackStopDetected = true;
-                lock (this.oggQueueLock)
+                this.WaitOnLock(this.oggQueueLock, () =>
                 {
                     foreach (var buf in buffers)
                     {
@@ -378,8 +377,8 @@ namespace Common.OpenAL
                     {
                         StateChange = ALSourceState.Stopped
                     });
-                }
-                this.oggSource = -1;
+                    this.oggSource = -1;
+                });
             });
 
         }
@@ -396,7 +395,7 @@ namespace Common.OpenAL
                 // Query the source to find out when it stops playing.
                 do
                 {
-                    Thread.Sleep(250);
+                    Thread.Sleep(10);
                     if (this.playStates[source] == ALSourceState.Playing)
                     {
                         AL.GetSource(source, ALGetSourcei.SourceState, out state);
@@ -425,7 +424,7 @@ namespace Common.OpenAL
         private void StopPlayback()
         {
             this.playbackEnded = true;
-            lock (this.oggQueueLock) { }
+            // lock (this.oggQueueLock) { }
         }
 
         private void UpdateOggProgress(long sample)
@@ -457,6 +456,19 @@ namespace Common.OpenAL
 
             this.currentSources[volumeGroup].Add(source);
             return source;
+        }
+
+        private void WaitOnLock(object lockObject, Action action)
+        {
+            var waitingThread = new Thread(() =>
+            {
+                lock (lockObject)
+                {
+                    action.Invoke();
+                }
+            });
+
+            waitingThread.Start();
         }
 
         #endregion
