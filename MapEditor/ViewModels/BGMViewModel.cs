@@ -15,6 +15,7 @@ namespace MapEditor.ViewModels
         public BGMViewModel()
         {
             this.BgmErrors = new Dictionary<string, string>();
+            this.oggData = new OggData();
         }
 
         public string File
@@ -158,7 +159,7 @@ namespace MapEditor.ViewModels
 
         private void SetValueValidate<T>(Func<T> getter, Action<T> setter, T value, string propertyName, string error, Func<T, bool> validationFunc)
         {
-            if (validationFunc(getter()))
+            if (validationFunc(value))
             {
                 this.BgmErrors[propertyName] = string.Empty;
             }
@@ -167,7 +168,7 @@ namespace MapEditor.ViewModels
                 this.BgmErrors[propertyName] = error;
             }
 
-            this.SetValue(getter, setter, getter(), propertyName);
+            this.SetValue(getter, setter, value, propertyName);
             this.OnPropertyChanged(nameof(this.BgmErrors));
             this.OnPropertyChanged(nameof(this.CanSave));
         }
