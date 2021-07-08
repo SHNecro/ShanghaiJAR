@@ -27,8 +27,9 @@ namespace Common.OpenAL
 
         private readonly ConcurrentDictionary<int, ALSourceState> playStates;
         private readonly ConcurrentDictionary<int, string> playStateGroups;
-        private readonly Dictionary<string, List<int>> currentSources;
+        private readonly Dictionary<string, ConcurrentDictionary<int, int>> currentSources;
         private readonly object oggQueueLock = new object();
+        private readonly ConcurrentDictionary<int, Thread> runningThreads;
 
         private IDictionary<string, float> volumes = new Dictionary<string, float> { { AudioEngine.DefaultVolumeGroup, 0.5f } };
 
@@ -42,7 +43,7 @@ namespace Common.OpenAL
         private long oggProgress;
         private int oggSampleRate;
 
-        private bool playbackEnded;
+        private bool oggPlaybackEnded;
         #endregion
 
         #region Constructor
@@ -57,7 +58,8 @@ namespace Common.OpenAL
             this.sharedContext = new AudioContext();
             this.playStates = new ConcurrentDictionary<int, ALSourceState>();
             this.playStateGroups = new ConcurrentDictionary<int, string>();
-            this.currentSources = new Dictionary<string, List<int>>();
+            this.currentSources = new Dictionary<string, ConcurrentDictionary<int, int>>();
+            this.runningThreads = new ConcurrentDictionary<int, Thread>();
         }
         #endregion
 
@@ -180,7 +182,7 @@ namespace Common.OpenAL
 
             if (this.currentSources.TryGetValue(volumeGroup, out var groupSources))
             {
-                foreach (var source in groupSources)
+                foreach (var source in groupSources.Values)
                 {
                     AL.Source((uint)source, ALSourcef.Gain, volume);
                 }
@@ -221,7 +223,7 @@ namespace Common.OpenAL
 
             AL.Source(currentSource, ALSourcei.Buffer, buffer);
 
-            this.Play(currentSource, () => { AL.DeleteBuffer(buffer); });
+            this.Play(currentSource, () => { AL.DeleteBuffer(buffer); }, false, null, startGroup);
         }
 
         private void BeginOgg(bool isLooping, string volumeGroup)
@@ -232,7 +234,7 @@ namespace Common.OpenAL
             }
 
             lock (this.oggQueueLock) { }
-            this.playbackEnded = false;
+            this.oggPlaybackEnded = false;
 
             this.oggSource = GenSourceWithVolume(volumeGroup);
             var currentSource = this.oggSource;
@@ -290,7 +292,7 @@ namespace Common.OpenAL
                 }
 
                 var allBuffersProcessed = false;
-                while (!buffersInitialized || (!playbackStopDetected && !this.playbackEnded))
+                while (!buffersInitialized || (!playbackStopDetected && !this.oggPlaybackEnded))
                 {
                     buffersInitialized = true;
 
@@ -351,7 +353,7 @@ namespace Common.OpenAL
                         var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
                         if (vorbis.SamplePosition >= realLoopEnd)
                         {
-                            this.playbackEnded = true;
+                            this.oggPlaybackEnded = true;
                         }
                     }
                 }
@@ -379,13 +381,14 @@ namespace Common.OpenAL
                     });
                     this.oggSource = -1;
                 });
-            });
+            },
+            true);
 
         }
 
-        private void Play(int source, Action bufferCleanup, Action callback = null, string startGroup = DefaultStartGroup)
+        private void Play(int source, Action bufferCleanup, bool isOggPlayback, Action callback = null, string startGroup = DefaultStartGroup)
         {
-            var waitThread = new Thread(() =>
+            var waitThread = this.CreateAndRegisterThread(() =>
             {
                 AL.SourcePlay(source);
                 AL.GetSource(source, ALGetSourcei.SourceState, out int state);
@@ -404,14 +407,14 @@ namespace Common.OpenAL
                     }
                     callback?.Invoke();
                 }
-                while (this.playStates[source] != ALSourceState.Stopped || !this.playbackEnded);
+                while (this.playStates[source] != ALSourceState.Stopped || (isOggPlayback && !this.oggPlaybackEnded));
                 
                 AL.SourceStop(source);
                 AL.DeleteSource(source);
 
                 foreach (var volumeGroup in this.currentSources.Values)
                 {
-                    volumeGroup.Remove(source);
+                    volumeGroup.TryRemove(source, out _);
                 }
                 this.playStates.TryRemove(source, out _);
                 this.playStateGroups.TryRemove(source, out _);
@@ -423,7 +426,7 @@ namespace Common.OpenAL
 
         private void StopPlayback()
         {
-            this.playbackEnded = true;
+            this.oggPlaybackEnded = true;
             // lock (this.oggQueueLock) { }
         }
 
@@ -451,16 +454,16 @@ namespace Common.OpenAL
 
             if (!this.currentSources.ContainsKey(volumeGroup))
             {
-                this.currentSources[volumeGroup] = new List<int>();
+                this.currentSources[volumeGroup] = new ConcurrentDictionary<int, int>();
             }
 
-            this.currentSources[volumeGroup].Add(source);
+            this.currentSources[volumeGroup].TryAdd(source, source);
             return source;
         }
 
         private void WaitOnLock(object lockObject, Action action)
         {
-            var waitingThread = new Thread(() =>
+            var waitingThread = this.CreateAndRegisterThread(() =>
             {
                 lock (lockObject)
                 {
@@ -469,6 +472,20 @@ namespace Common.OpenAL
             });
 
             waitingThread.Start();
+        }
+
+        private Thread CreateAndRegisterThread(Action action)
+        {
+            var idx = this.runningThreads.Any() ? this.runningThreads.Keys.Max() + 1 : 0;
+            Thread newThread = null;
+            newThread = new Thread(() =>
+            {
+                action.Invoke();
+                this.runningThreads.TryRemove(idx, out _);
+            });
+
+            this.runningThreads.TryAdd(idx, newThread);
+            return newThread;
         }
 
         #endregion
@@ -643,6 +660,10 @@ namespace Common.OpenAL
             {
                 if (disposing)
                 {
+                    foreach (var thread in this.runningThreads.Values)
+                    {
+                        thread.Abort();
+                    }
                     this.sharedContext.Dispose();
                 }
 

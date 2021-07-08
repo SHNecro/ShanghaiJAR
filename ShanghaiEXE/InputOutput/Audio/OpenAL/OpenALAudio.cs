@@ -28,6 +28,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
         private List<OggData> bgmListAlternate;
         private ISoundLoadStrategy loadStrategy;
 
+        private float baseVolume;
+        private float percentVolume = 100;
         private int fadeDuration = -1;
         private int fadeCurrentProgress = -1;
         private float fadeInitialVolume;
@@ -66,14 +68,16 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
         {
             get
             {
-                return this.audio.GetVolume(OpenALAudio.BGMVolumeGroup);
+                return this.baseVolume;
             }
 
             set
             {
-                this.audio.SetVolume(value / 100f, OpenALAudio.BGMVolumeGroup);
+                this.baseVolume = value;
+                this.UpdateAudioBGMVolume(true);
             }
         }
+
         public float SoundEffectVolume
         {
             get
@@ -98,13 +102,14 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
         {
             this.fadeDuration = flame;
             this.fadeCurrentProgress = flame;
-            this.fadeInitialVolume = this.BGMVolume;
-            this.fadeEndVolume = endparsent / 100.0f;
+            this.fadeInitialVolume = this.percentVolume;
+            this.fadeEndVolume = endparsent;
 
             if (this.fadeDuration == 0)
             {
+                this.percentVolume = endparsent;
                 this.UpdateCurrentFadeBGMVolume();
-                this.UpdateAudioBGMVolume();
+                this.UpdateAudioBGMVolume(true);
             }
         }
 
@@ -127,7 +132,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
 
         public void PlayingMusic()
         {
-            this.UpdateAudioBGMVolume();
+            this.UpdateAudioBGMVolume(false);
         }
 
         public void PlayNote(Note note, int volume, int tickDuration)
@@ -138,6 +143,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
 
         public void PlaySE(SoundEffect sname)
         {
+            this.audio.WavStop(sname.ToString());
             this.audio.WavPlay(this.loadStrategy.ProvideSound(sname.ToString()), SEVolumeGroup, sname.ToString());
         }
 
@@ -178,6 +184,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
         {
             this.CurrentBGM = "none_";
             this.MusicPlay = false;
+            this.BGMVolumeSet(100);
 
             this.audio.OggStop();
         }
@@ -203,8 +210,8 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
             {
                 this.fadeDuration = -1;
                 this.fadeCurrentProgress = -1;
-                this.fadeEndVolume = this.BGMVolume;
-                this.fadeInitialVolume = this.BGMVolume;
+                this.fadeEndVolume = this.percentVolume;
+                this.fadeInitialVolume = this.percentVolume;
             }
             else
             {
@@ -212,15 +219,18 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
             }
         }
 
-        private void UpdateAudioBGMVolume()
+        private void UpdateAudioBGMVolume(bool forceUpdate)
         {
-            if (this.fadeDuration < 0)
+            if (this.fadeDuration >= 0)
             {
-                return;
+                var progress = this.fadeDuration == 0 ? 1f : (1 - (float)this.fadeCurrentProgress / this.fadeDuration);
+                this.percentVolume = this.fadeInitialVolume + (this.fadeEndVolume - this.fadeInitialVolume) * progress;
             }
 
-            this.BGMVolume = this.fadeInitialVolume * ((float)this.fadeDuration / this.fadeCurrentProgress);
-            this.audio.SetVolume(this.BGMVolume, BGMVolumeGroup);
+            if (this.fadeDuration >= 0 || forceUpdate)
+            {
+                this.audio.SetVolume((this.BGMVolume / 100f) * (this.percentVolume / 100f), BGMVolumeGroup);
+            }
         }
 
         private void Load_ProgressUpdate(object sender, LoadProgressUpdatedEventArgs e)

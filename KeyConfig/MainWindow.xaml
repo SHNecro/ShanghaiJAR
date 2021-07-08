@@ -178,6 +178,32 @@
                             <Slider DockPanel.Dock="Right" Value="{Binding VolumeSE}" Minimum="0" Maximum="200" TickFrequency="1" IsSnapToTickEnabled="True"/>
                         </DockPanel>
                     </GroupBox>
+                    <Grid Canvas.Top="270" Width="270">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <GroupBox Grid.Column="0"
+                                  Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Rendering}">
+                            <ComboBox VerticalAlignment="Center"
+                                      HorizontalAlignment="Stretch"
+                                      SelectedValuePath="Tag"
+                                      SelectedValue="{Binding RenderEngine}">
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DirectX9}" Tag="DirectX9"/>
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=OpenGL}" Tag="OpenGL"/>
+                            </ComboBox>
+                        </GroupBox>
+                        <GroupBox Grid.Column="1"
+                                  Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Audio}">
+                            <ComboBox VerticalAlignment="Center"
+                                      HorizontalAlignment="Stretch"
+                                      SelectedValuePath="Tag"
+                                      SelectedValue="{Binding AudioEngine}">
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DirectSound}" Tag="DirectSound"/>
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=OpenAL}" Tag="OpenAL"/>
+                            </ComboBox>
+                        </GroupBox>
+                    </Grid>
                 </Canvas>
             </TabItem>
             <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Keyboard}"
@@ -275,7 +301,6 @@
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <GroupBox Grid.Column="0"
                       Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Language}">
@@ -285,16 +310,6 @@
                           DisplayMemberPath="Item1"
                           SelectedValuePath="Item2"
                           SelectedValue="{Binding Language}" />
-            </GroupBox>
-            <GroupBox Grid.Column="1"
-                      Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Rendering}">
-                <ComboBox VerticalAlignment="Center"
-                          HorizontalAlignment="Stretch"
-                          SelectedValuePath="Tag"
-                          SelectedValue="{Binding RenderEngine}">
-                    <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DirectX9}" Tag="DirectX9"/>
-                    <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=OpenGL}" Tag="OpenGL"/>
-                </ComboBox>
             </GroupBox>
         </Grid>
         <Button Grid.Row="2" Height="32" Content="Save Changes" Click="SaveChanges"/>

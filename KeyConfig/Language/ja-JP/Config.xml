@@ -26,6 +26,9 @@
   <Text Key="Keyboard" Value="キーボード" />
   <Text Key="DirectX9" Value="DirectX 9" />
   <Text Key="OpenGL" Value="OpenGL" />
+  <Text Key="Audio" Value="[Audio]" />
+  <Text Key="DirectSound" Value="DirectSound" />
+  <Text Key="OpenAL" Value="OpenAL" />
   <Text Key="KeyUp" Value="十字キ ↑" />
   <Text Key="KeyRight" Value="十字キ →" />
   <Text Key="KeyDown" Value="十字キ ↓" />

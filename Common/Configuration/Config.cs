@@ -73,8 +73,12 @@ namespace Common.Config
         private bool? fixEngrish;
         [OptionalField(VersionAdded = 5)]
         private bool? stretchFullscreen;
+        [OptionalField(VersionAdded = 6)]
+        private string audioEngine;
 
         public string RenderEngine { get; set; }
+
+        public string AudioEngine { get => this.audioEngine; set => this.audioEngine = value; }
 
         public int? FPS
         {
@@ -111,6 +115,7 @@ namespace Common.Config
         private void ApplyNewFieldDefaults()
         {
             this.RenderEngine = this.RenderEngine ?? "OpenGL";
+            this.AudioEngine = this.AudioEngine ?? "DirectSound";
             this.KeyboardMapping.Turbo = this.KeyboardMapping.Turbo ?? 78;
             this.ControllerMapping.Turbo = this.ControllerMapping.Turbo ?? 8;
             this.FPS = this.FPS ?? (this.FPS30 ? 30 : 60);
