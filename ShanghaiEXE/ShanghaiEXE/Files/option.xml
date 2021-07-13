@@ -35,6 +35,7 @@
   <ShowDialogueTester>false</ShowDialogueTester>
   <AdjustBustingLevel>false</AdjustBustingLevel>
   <RenderEngine>OpenGL</RenderEngine>
+  <AudioEngine>OpenAL</AudioEngine>
   <FPS>144</FPS>
   <AllowTurboSlowdown>false</AllowTurboSlowdown>
   <TurboUPS>300</TurboUPS>

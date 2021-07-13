@@ -2509,9 +2509,15 @@
 #if "$(ConfigurationName)"=="Debug Full Build" (
 #    cp -r "$(ProjectDir)ShanghaiEXE/Files/save.she" "$(TargetDir)"
 #)
+
+#fullName="$(ConfigurationName)"
+#buildType=`echo $fullName | grep -Pzo '^(?:(?:Debug)|(?:Release))'`
+#echo "$buildType" > /home/owner/tmp.txt
+
 chmod +x "$(TargetDir)$(TargetFileName)"
-rm -rf "$(SolutionDir)/Debug"
-cp -r "$(TargetDir)" "$(SolutionDir)/Debug"
+rm -rf "$(SolutionDir)$(OutDir)"
+cp -r "$(TargetDir)" "$(SolutionDir)$(OutDir)"
+cp -r $(SolutionDir)Common/bin/$(OutDir)OpenTK.* "$(SolutionDir)$(OutDir)"
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>

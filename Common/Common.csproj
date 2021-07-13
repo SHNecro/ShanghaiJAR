@@ -119,7 +119,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="OpenGL\MSGOTHIC.TTC" />
-    <None Include="OpenTK.dll.config" />
+    <None Include="OpenTK.dll.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

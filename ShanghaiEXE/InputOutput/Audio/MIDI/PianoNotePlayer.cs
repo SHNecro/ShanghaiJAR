@@ -1,4 +1,4 @@
-﻿using Sanford.Multimedia.Midi;
+﻿//using Sanford.Multimedia.Midi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +7,42 @@ namespace NSShanghaiEXE.InputOutput.Audio.MIDI
 {
     public class PianoNotePlayer : IDisposable
     {
+        private bool disposedValue = false; // To detect redundant calls
+
+        public PianoNotePlayer()
+        {
+        }
+
+        public void PlayNote(Note note, int volume, int tickDuration)
+        {
+
+        }
+
+        public void UpdateNoteTick()
+        {
+        }
+
+        public bool IsPlayingNote => false;
+
+        #region IDisposable Support
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                }
+
+                disposedValue = true;
+            }
+        }
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+        #endregion
+        /*
         private OutputDevice outputDevice;
         // Note: <StartTime, Duration>
         private Dictionary<int, Tuple<int, int>> playingNotes;
@@ -97,5 +133,6 @@ namespace NSShanghaiEXE.InputOutput.Audio.MIDI
             Dispose(true);
         }
         #endregion
+        */
     }
 }
