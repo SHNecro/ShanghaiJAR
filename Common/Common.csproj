@@ -82,6 +82,7 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="OpenAL\AudioEngine.cs" />
     <Compile Include="OpenAL\ISoundLoadStrategy.cs" />
+    <Compile Include="OpenAL\OggData.cs" />
     <Compile Include="OpenAL\OggPlaybackEventArgs.cs" />
     <Compile Include="OpenAL\WAVData.cs" />
     <Compile Include="OpenGL\FontGlyphs.cs" />

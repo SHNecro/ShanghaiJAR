@@ -1025,8 +1025,15 @@ namespace NSGame
                 this.ValList[199] = 5;
             }
 
+            // WIP10
+            if (this.ValList[199] == 5)
+            {
+                // Flag13 should only be active during automatically-progressing cutscenes, no savegame should have it set
+                this.FlagList[13] = false;
+                this.ValList[199] = 6;
+            }
             // Set var to "current save version"
-            this.ValList[199] = 5;
+            this.ValList[199] = 6;
             return retconMessages;
         }
 

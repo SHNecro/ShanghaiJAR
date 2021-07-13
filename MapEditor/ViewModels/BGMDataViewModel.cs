@@ -63,7 +63,7 @@ namespace MapEditor.ViewModels
         {
             this.audio = AudioEngine.Instance;
             this.audio.OggPlayback += this.OggPlayback;
-            this.audio.Volume = 0.5f;
+            this.audio.SetVolume(0.5f);
 
             this.isLooping = true;
 
@@ -163,11 +163,11 @@ namespace MapEditor.ViewModels
         {
             get
             {
-                return this.audio.Volume;
+                return this.audio.GetVolume(AudioEngine.DefaultVolumeGroup);
             }
             set
             {
-                this.audio.Volume = value;
+                this.audio.SetVolume(value, AudioEngine.DefaultVolumeGroup);
                 this.OnPropertyChanged(nameof(this.Volume));
             }
         }

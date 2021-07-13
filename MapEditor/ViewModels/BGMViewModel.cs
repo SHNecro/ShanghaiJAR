@@ -9,28 +9,25 @@ namespace MapEditor.ViewModels
 {
     public class BGMViewModel : StringRepresentation
     {
-        private string file;
-        private string name;
-        private long loopStart;
-        private long loopEnd;
-
+        private OggData oggData;
         private long totalSamples;
 
         public BGMViewModel()
         {
             this.BgmErrors = new Dictionary<string, string>();
+            this.oggData = new OggData();
         }
 
         public string File
         {
             get
             {
-                return this.file;
+                return this.oggData.File;
             }
 
             set
             {
-                this.SetValue(ref this.file, value);
+                this.SetValue(() => this.oggData.File, val => this.oggData.File = val, value);
                 this.OnPropertyChanged(nameof(this.Label));
             }
         }
@@ -39,12 +36,12 @@ namespace MapEditor.ViewModels
         {
             get
             {
-                return this.name;
+                return this.oggData.Name;
             }
 
             set
             {
-                this.SetValue(ref this.name, value);
+                this.SetValue(() => this.oggData.Name, val => this.oggData.Name = val, value);
                 this.OnPropertyChanged(nameof(this.Label));
             }
         }
@@ -55,11 +52,12 @@ namespace MapEditor.ViewModels
 
         public long LoopStart
         {
-            get { return this.loopStart; }
+            get { return this.oggData.LoopStart; }
             set
             {
                 this.SetValueValidate(
-                ref this.loopStart,
+                () => this.oggData.LoopStart,
+                val => this.oggData.LoopStart = val,
                 value,
                 nameof(this.LoopStart),
                 $"Loop start out of range (0 - {Math.Min(this.LoopEnd, this.totalSamples)})",
@@ -69,11 +67,12 @@ namespace MapEditor.ViewModels
 
         public long LoopEnd
         {
-            get { return this.loopEnd; }
+            get { return this.oggData.LoopEnd; }
             set
             {
                 this.SetValueValidate(
-                ref this.loopEnd,
+                () => this.oggData.LoopEnd,
+                val => this.oggData.LoopEnd = val,
                 value,
                 nameof(this.LoopEnd),
                 $"Loop end out of range ({Math.Max(0, this.LoopStart)} - {this.totalSamples})",
@@ -154,6 +153,22 @@ namespace MapEditor.ViewModels
             }
 
             this.SetValue(ref valueReference, value, propertyName);
+            this.OnPropertyChanged(nameof(this.BgmErrors));
+            this.OnPropertyChanged(nameof(this.CanSave));
+        }
+
+        private void SetValueValidate<T>(Func<T> getter, Action<T> setter, T value, string propertyName, string error, Func<T, bool> validationFunc)
+        {
+            if (validationFunc(value))
+            {
+                this.BgmErrors[propertyName] = string.Empty;
+            }
+            else
+            {
+                this.BgmErrors[propertyName] = error;
+            }
+
+            this.SetValue(getter, setter, value, propertyName);
             this.OnPropertyChanged(nameof(this.BgmErrors));
             this.OnPropertyChanged(nameof(this.CanSave));
         }

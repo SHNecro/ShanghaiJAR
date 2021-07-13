@@ -17,16 +17,21 @@ namespace Common.OpenAL
         private const int OggBufferCount = 10;
         private const double OggBufferSize = 0.1;
 
+        public const string DefaultStartGroup = "default";
+        public const string DefaultVolumeGroup = "default";
+
         public static AudioEngine Instance;
 
         // AudioContext.Dispose causes popping sound
         private readonly AudioContext sharedContext;
 
         private readonly ConcurrentDictionary<int, ALSourceState> playStates;
-        private readonly List<int> currentSources;
+        private readonly ConcurrentDictionary<int, string> playStateGroups;
+        private readonly Dictionary<string, ConcurrentDictionary<int, int>> currentSources;
         private readonly object oggQueueLock = new object();
+        private readonly ConcurrentDictionary<int, Thread> runningThreads;
 
-        private float volume = 1.0f;
+        private IDictionary<string, float> volumes = new Dictionary<string, float> { { AudioEngine.DefaultVolumeGroup, 0.5f } };
 
         private int oggSource;
         private string oggFilePath;
@@ -37,6 +42,8 @@ namespace Common.OpenAL
         private long oggTotalSamples;
         private long oggProgress;
         private int oggSampleRate;
+
+        private bool oggPlaybackEnded;
         #endregion
 
         #region Constructor
@@ -50,7 +57,9 @@ namespace Common.OpenAL
         {
             this.sharedContext = new AudioContext();
             this.playStates = new ConcurrentDictionary<int, ALSourceState>();
-            this.currentSources = new List<int>();
+            this.playStateGroups = new ConcurrentDictionary<int, string>();
+            this.currentSources = new Dictionary<string, ConcurrentDictionary<int, int>>();
+            this.runningThreads = new ConcurrentDictionary<int, Thread>();
         }
         #endregion
 
@@ -62,32 +71,32 @@ namespace Common.OpenAL
 
         #region Properties
 
-        public void WavPlay(byte[] wavBytes)
+        public void WavPlay(byte[] wavBytes, string volumeGroup = AudioEngine.DefaultVolumeGroup, string startGroup = DefaultStartGroup)
         {
             using (var memoryStream = new MemoryStream(wavBytes))
             {
-                this.BeginWav(memoryStream);
+                this.BeginWav(memoryStream, volumeGroup, startGroup);
             }
         }
 
-        public void WavPlay(string fileName)
+        public void WavPlay(string fileName, string volumeGroup = AudioEngine.DefaultVolumeGroup, string startGroup = DefaultStartGroup)
         {
             using (var fileStream = File.Open(fileName, FileMode.Open))
             {
-                this.BeginWav(fileStream);
+                this.BeginWav(fileStream, volumeGroup, startGroup);
             }
         }
 
-        public void WavPlay(WAVData wavData)
+        public void WavPlay(WAVData wavData, string volumeGroup = AudioEngine.DefaultVolumeGroup, string startGroup = DefaultStartGroup)
         {
-            this.BeginWav(wavData);
+            this.BeginWav(wavData, volumeGroup, startGroup);
         }
 
-        public void OggPlay(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null)
+        public void OggPlay(string filePath, bool isLooping, long? sampleStart = null, long? sampleEnd = null, string volumeGroup = AudioEngine.DefaultVolumeGroup)
         {
             if (this.IsInProgress)
             {
-                return;
+                this.OggStop();
             }
 
             this.oggFilePath = filePath;
@@ -103,7 +112,7 @@ namespace Common.OpenAL
                 TotalSamples = totalSamples
             });
 
-            this.BeginOgg(isLooping);
+            this.BeginOgg(isLooping, volumeGroup);
         }
 
         public void OggInitialize(string filePath)
@@ -117,12 +126,18 @@ namespace Common.OpenAL
             });
         }
 
-        public void WavStop()
+        public void WavStop(string startGroup = null)
         {
             var sources = this.playStates.Keys;
             foreach (var k in sources)
             {
                 if (k == this.oggSource)
+                {
+                    continue;
+                }
+
+                var isStoppedGroup = startGroup == null || (this.playStateGroups.ContainsKey(k) && this.playStateGroups[k] == startGroup);
+                if (!isStoppedGroup)
                 {
                     continue;
                 }
@@ -135,18 +150,23 @@ namespace Common.OpenAL
         public void OggStop()
         {
             this.playStates[this.oggSource] = ALSourceState.Stopped;
+            AL.SourcePause(this.oggSource);
             AL.SourceStop(this.oggSource);
+            this.StopPlayback();
 
-            this.OggSeek(0);
-
-            this.UpdateOggProgress(0);
+            this.WaitOnLock(this.oggQueueLock, () =>
+            {
+                this.OggSeek(0);
+                this.UpdateOggProgress(0);
+            });
         }
 
         public void OggPause()
         {
             this.OggSeek(this.oggProgress);
             this.playStates[this.oggSource] = ALSourceState.Stopped;
-            AL.SourceStop(this.oggSource);
+            AL.SourcePause(this.oggSource);
+            this.StopPlayback();
         }
 
         public void OggSeek(long sample)
@@ -156,29 +176,29 @@ namespace Common.OpenAL
             this.UpdateOggProgress(sample);
         }
 
-        public float Volume
+        public void SetVolume(float volume, string volumeGroup = AudioEngine.DefaultVolumeGroup)
         {
-            get
-            {
-                return this.volume;
-            }
+            this.volumes[volumeGroup] = volume;
 
-            set
+            if (this.currentSources.TryGetValue(volumeGroup, out var groupSources))
             {
-                this.volume = value;
-
-                foreach (var source in this.currentSources)
+                foreach (var source in groupSources.Values)
                 {
-                    AL.Source((uint)source, ALSourcef.Gain, value);
+                    AL.Source((uint)source, ALSourcef.Gain, volume);
                 }
             }
+        }
+
+        public float GetVolume(string volumeGroup = AudioEngine.DefaultVolumeGroup)
+        {
+            return this.volumes[volumeGroup];
         }
 
         private bool IsInProgress => this.playStates.Any(kvp => kvp.Value == ALSourceState.Playing);
         #endregion
 
         #region Methods
-        private void BeginWav(Stream byteStream)
+        private void BeginWav(Stream byteStream, string volumeGroup, string startGroup)
         {
             WAVData wavData;
             try
@@ -190,32 +210,33 @@ namespace Common.OpenAL
                 throw new InvalidOperationException("Invalid .wav file");
             }
 
-            this.BeginWav(wavData);
+            this.BeginWav(wavData, volumeGroup, startGroup);
         }
 
-        private void BeginWav(WAVData wavData)
+        private void BeginWav(WAVData wavData, string volumeGroup, string startGroup)
         {
             var buffer = AL.GenBuffer();
-            var currentSource = GenSourceWithVolume();
+            var currentSource = GenSourceWithVolume(volumeGroup);
 
             var soundFormat = wavData.SoundFormat;
             AL.BufferData(buffer, soundFormat, wavData.Data, wavData.Data.Length, wavData.Rate);
 
             AL.Source(currentSource, ALSourcei.Buffer, buffer);
 
-            this.Play(currentSource, () => { AL.DeleteBuffer(buffer); });
+            this.Play(currentSource, () => { AL.DeleteBuffer(buffer); }, false, null, startGroup);
         }
 
-        private void BeginOgg(bool isLooping)
+        private void BeginOgg(bool isLooping, string volumeGroup)
         {
-            if (string.IsNullOrEmpty(this.oggFilePath) || this.IsInProgress)
+            if (string.IsNullOrEmpty(this.oggFilePath))
             {
                 return;
             }
 
             lock (this.oggQueueLock) { }
+            this.oggPlaybackEnded = false;
 
-            this.oggSource = GenSourceWithVolume();
+            this.oggSource = GenSourceWithVolume(volumeGroup);
             var currentSource = this.oggSource;
 
             int channels, bits_per_sample;
@@ -261,76 +282,83 @@ namespace Common.OpenAL
             var buffers = new List<int>();
 
             var playbackStopDetected = false;
-            var queueThread = new Thread(() =>
+            this.WaitOnLock(this.oggQueueLock, () =>
             {
-                lock (this.oggQueueLock)
+                for (int i = 0; i < OggBufferCount; i++)
                 {
-                    for (int i = 0; i < OggBufferCount; i++)
+                    var currentBuffer = AL.GenBuffer();
+                    QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
+                    buffers.Add(currentBuffer);
+                }
+
+                var allBuffersProcessed = false;
+                while (!buffersInitialized || (!playbackStopDetected && !this.oggPlaybackEnded))
+                {
+                    buffersInitialized = true;
+
+                    AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out int buffersQueued);
+                    AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out int buffersProcessed);
+
+                    var newUnqueuedSize = 0;
+                    for (int i = 0; i < buffersProcessed; i++)
                     {
-                        var currentBuffer = AL.GenBuffer();
+                        var currentBuffer = buffers.First();
+                        buffers.Remove(currentBuffer);
+
+                        AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
+                        newUnqueuedSize += currentBufferSize;
+
+                        AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
                         QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
                         buffers.Add(currentBuffer);
                     }
 
-                    var allBuffersProcessed = false;
-                    while (!buffersInitialized || !playbackStopDetected)
+                    allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
+                    if (allBuffersProcessed && buffersProcessed != 0)
                     {
-                        buffersInitialized = true;
-
-                        AL.GetSource(currentSource, ALGetSourcei.BuffersQueued, out int buffersQueued);
-                        AL.GetSource(currentSource, ALGetSourcei.BuffersProcessed, out int buffersProcessed);
-
-                        var newUnqueuedSize = 0;
-                        for (int i = 0; i < buffersProcessed; i++)
+                        var unqueuedBuffers = new int[buffersProcessed];
+                        AL.SourceUnqueueBuffers(currentSource, buffersProcessed, unqueuedBuffers);
+                        foreach (var currentBuffer in unqueuedBuffers)
                         {
-                            var currentBuffer = buffers.First();
-                            buffers.Remove(currentBuffer);
-
                             AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
                             newUnqueuedSize += currentBufferSize;
-
-                            AL.SourceUnqueueBuffers(currentSource, 1, new[] { currentBuffer });
-                            QueueBuffer(currentSource, currentBuffer, vorbis, soundFormat, oggSampleRate, valuesPerBuffer, sampleEnd);
-                            buffers.Add(currentBuffer);
                         }
-                        
-                        allBuffersProcessed = vorbis.SamplePosition >= this.oggTotalSamples && (!isLooping);
-                        if (allBuffersProcessed && buffersProcessed != 0)
-                        {
-                            var unqueuedBuffers = new int[buffersProcessed];
-                            AL.SourceUnqueueBuffers(currentSource, buffersProcessed, unqueuedBuffers);
-                            foreach (var currentBuffer in unqueuedBuffers)
-                            {
-                                AL.GetBuffer(currentBuffer, ALGetBufferi.Size, out int currentBufferSize);
-                                newUnqueuedSize += currentBufferSize;
-                            }
-                        }
+                    }
 
-                        var newProgress = newUnqueuedSize / (channels * (bits_per_sample / 8));
-                        var adjustedProgress = this.oggProgress + newProgress;
-                        if (AL.GetSourceState(currentSource) == ALSourceState.Playing)
-                        {
-                            this.UpdateOggProgress(adjustedProgress);
-                        }
+                    var newProgress = newUnqueuedSize / (channels * (bits_per_sample / 8));
+                    var adjustedProgress = this.oggProgress + newProgress;
+                    if (AL.GetSourceState(currentSource) == ALSourceState.Playing)
+                    {
+                        this.UpdateOggProgress(adjustedProgress);
+                    }
+                    else
+                    {
+                        AL.SourcePlay(currentSource);
+                    }
 
-                        if (isLooping)
+                    if (isLooping)
+                    {
+                        var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
+                        if (vorbis.SamplePosition >= realLoopEnd)
                         {
-                            var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
-                            if (vorbis.SamplePosition >= realLoopEnd)
-                            {
-                                vorbis.SeekTo(this.oggLoopStart);
-                            }
-                            if (this.oggProgress >= realLoopEnd)
-                            {
-                                this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % realLoopEnd));
-                            }
+                            vorbis.SeekTo(this.oggLoopStart);
+                        }
+                        if (this.oggProgress >= realLoopEnd)
+                        {
+                            this.UpdateOggProgress(this.oggLoopStart + (this.oggProgress % realLoopEnd));
+                        }
+                    }
+                    else
+                    {
+                        var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
+                        if (vorbis.SamplePosition >= realLoopEnd)
+                        {
+                            this.oggPlaybackEnded = true;
                         }
                     }
                 }
-
                 vorbis.Dispose();
             });
-            queueThread.Start();
 
             while (!buffersInitialized)
             {
@@ -341,7 +369,7 @@ namespace Common.OpenAL
             this.Play(currentSource, () =>
             {
                 playbackStopDetected = true;
-                lock (this.oggQueueLock)
+                this.WaitOnLock(this.oggQueueLock, () =>
                 {
                     foreach (var buf in buffers)
                     {
@@ -351,24 +379,26 @@ namespace Common.OpenAL
                     {
                         StateChange = ALSourceState.Stopped
                     });
-                }
-                this.oggSource = -1;
-            });
+                    this.oggSource = -1;
+                });
+            },
+            true);
 
         }
 
-        private void Play(int source, Action bufferCleanup, Action callback = null)
+        private void Play(int source, Action bufferCleanup, bool isOggPlayback, Action callback = null, string startGroup = DefaultStartGroup)
         {
-            var waitThread = new Thread(() =>
+            var waitThread = this.CreateAndRegisterThread(() =>
             {
                 AL.SourcePlay(source);
                 AL.GetSource(source, ALGetSourcei.SourceState, out int state);
                 this.playStates[source] = (ALSourceState)state;
+                this.playStateGroups[source] = startGroup;
 
                 // Query the source to find out when it stops playing.
                 do
                 {
-                    Thread.Sleep(250);
+                    Thread.Sleep(10);
                     if (this.playStates[source] == ALSourceState.Playing)
                     {
                         AL.GetSource(source, ALGetSourcei.SourceState, out state);
@@ -377,16 +407,27 @@ namespace Common.OpenAL
                     }
                     callback?.Invoke();
                 }
-                while (this.playStates[source] != ALSourceState.Stopped);
+                while (this.playStates[source] != ALSourceState.Stopped || (isOggPlayback && !this.oggPlaybackEnded));
                 
                 AL.SourceStop(source);
                 AL.DeleteSource(source);
-                this.currentSources.Remove(source);
+
+                foreach (var volumeGroup in this.currentSources.Values)
+                {
+                    volumeGroup.TryRemove(source, out _);
+                }
                 this.playStates.TryRemove(source, out _);
+                this.playStateGroups.TryRemove(source, out _);
                 bufferCleanup();
             });
 
             waitThread.Start();
+        }
+
+        private void StopPlayback()
+        {
+            this.oggPlaybackEnded = true;
+            // lock (this.oggQueueLock) { }
         }
 
         private void UpdateOggProgress(long sample)
@@ -406,12 +447,45 @@ namespace Common.OpenAL
             });
         }
 
-        private int GenSourceWithVolume()
+        private int GenSourceWithVolume(string volumeGroup)
         {
             var source = AL.GenSource();
-            AL.Source(source, ALSourcef.Gain, this.volume);
-            this.currentSources.Add(source);
+            AL.Source(source, ALSourcef.Gain, this.volumes[volumeGroup]);
+
+            if (!this.currentSources.ContainsKey(volumeGroup))
+            {
+                this.currentSources[volumeGroup] = new ConcurrentDictionary<int, int>();
+            }
+
+            this.currentSources[volumeGroup].TryAdd(source, source);
             return source;
+        }
+
+        private void WaitOnLock(object lockObject, Action action)
+        {
+            var waitingThread = this.CreateAndRegisterThread(() =>
+            {
+                lock (lockObject)
+                {
+                    action.Invoke();
+                }
+            });
+
+            waitingThread.Start();
+        }
+
+        private Thread CreateAndRegisterThread(Action action)
+        {
+            var idx = this.runningThreads.Any() ? this.runningThreads.Keys.Max() + 1 : 0;
+            Thread newThread = null;
+            newThread = new Thread(() =>
+            {
+                action.Invoke();
+                this.runningThreads.TryRemove(idx, out _);
+            });
+
+            this.runningThreads.TryAdd(idx, newThread);
+            return newThread;
         }
 
         #endregion
@@ -586,6 +660,10 @@ namespace Common.OpenAL
             {
                 if (disposing)
                 {
+                    foreach (var thread in this.runningThreads.Values)
+                    {
+                        thread.Abort();
+                    }
                     this.sharedContext.Dispose();
                 }
 
