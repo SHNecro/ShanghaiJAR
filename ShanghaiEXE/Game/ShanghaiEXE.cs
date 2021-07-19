@@ -247,7 +247,7 @@ namespace NSGame
         {
             Debug.DebugSet();
             this.InitializeComponent();
-            Directory.SetCurrentDirectory(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location));
+            Directory.SetCurrentDirectory(Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName));
             this.Icon = new Icon("icon.ico");
 
             var oldConfig = Config.FromCFG("option.cfg");

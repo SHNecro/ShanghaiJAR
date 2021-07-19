@@ -3,6 +3,7 @@ using ExtensionMethods;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net;
 using System.Xml;
 
 namespace Services
@@ -24,7 +25,7 @@ namespace Services
 
         public Dialogue Translate(string key)
         {
-            var decodedKey = System.Web.HttpUtility.HtmlDecode(key);
+            var decodedKey = WebUtility.HtmlDecode(key);
             if (!language.ContainsKey(decodedKey))
             {
                 // throw new KeyNotFoundException($"Key not found: {decodedKey}");

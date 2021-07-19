@@ -1,0 +1,1 @@
+mkbundle ShanghaiEXE.exe -o ShanghaiEXE.exe2 --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v

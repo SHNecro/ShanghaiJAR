@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{857C6454-745E-4007-AE03-E4C29D4B4AC8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AssemblyName>ShanghaiEXE</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
@@ -72,9 +71,6 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
-      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
-    </Reference>
     <Reference Include="OggVorbis, Version=1.0.4656.10, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\OggVorbis.dll</HintPath>
@@ -85,10 +81,6 @@
     <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=x86">
       <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Drawing" />
     <Reference Include="System" />
@@ -102,13 +94,14 @@
     <Reference Include="Sanford.Multimedia.Midi, Version=6.6.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Sanford.Multimedia.Midi.6.6.2\lib\net20\Sanford.Multimedia.Midi.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="app.manifest" />
-    <None Include="FodyWeavers.xsd">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="MapData\airCleaner1.shd" />
     <None Include="MapData\airCleaner2.shd" />
     <None Include="MapData\airCleaner3.shd" />
@@ -304,7 +297,6 @@
     <None Include="MapData\WiiU.shd" />
     <None Include="MapData\Yamada.shd" />
     <None Include="MapData\yukkuri.shd" />
-    <None Include="OpenTK.dll.config" />
     <None Include="packages.config" />
     <None Include="ShanghaiEXE\Files\mod\music\âTâôâvâï.ogg" />
     <None Include="ShanghaiEXE\Files\save.she" />
@@ -1349,6 +1341,7 @@
     </Compile>
     <Compile Include="Game\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="OpenTK.dll.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ShanghaiEXE\Resources\JF-Dot-jiskan16s.ttf" />
@@ -1356,9 +1349,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ShanghaiEXE\Resources\load02.jpg" />
-    <Resource Include="FodyWeavers.xml">
-      <SubType>Designer</SubType>
-    </Resource>
     <None Include="ShanghaiEXE\Files\option.xml">
       <TargetPath>option.xml</TargetPath>
     </None>
@@ -2512,12 +2502,12 @@
 
 #fullName="$(ConfigurationName)"
 #buildType=`echo $fullName | grep -Pzo '^(?:(?:Debug)|(?:Release))'`
-#echo "$buildType" > /home/owner/tmp.txt
+#echo "$buildType" &gt; /home/owner/tmp.txt
 
 chmod +x "$(TargetDir)$(TargetFileName)"
 rm -rf "$(SolutionDir)$(OutDir)"
 cp -r "$(TargetDir)" "$(SolutionDir)$(OutDir)"
-cp -r $(SolutionDir)Common/bin/$(OutDir)OpenTK.* "$(SolutionDir)$(OutDir)"
+cp -r $(SolutionDir)Common/bin/$(OutDir)*.dll "$(SolutionDir)$(OutDir)"
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
@@ -2537,12 +2527,4 @@ cp -r $(SolutionDir)Common/bin/$(OutDir)OpenTK.* "$(SolutionDir)$(OutDir)"
   <Target Name="SpicNSpan" AfterTargets="Clean">
     <Exec Command="rm -rf &quot;$(ProjectDir)$(OutDir)&quot;" />
   </Target>
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
-    <Error Condition="!Exists('..\packages\Fody.4.2.1\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.2.1\build\Fody.targets'))" />
-  </Target>
-  <Import Project="..\packages\Fody.4.2.1\build\Fody.targets" Condition="Exists('..\packages\Fody.4.2.1\build\Fody.targets')" />
 </Project>
