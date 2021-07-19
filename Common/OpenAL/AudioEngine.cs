@@ -275,7 +275,14 @@ namespace Common.OpenAL
             }
 
             this.UpdateOggProgress(this.oggPausePosition);
-            vorbis.SeekTo(this.oggPausePosition);
+            try
+            {
+                vorbis.SeekTo(this.oggPausePosition);
+            }
+            catch (IndexOutOfRangeException)
+            {
+                // Lag related?
+            }
 
             var buffersInitialized = false;
 
@@ -341,7 +348,14 @@ namespace Common.OpenAL
                         var realLoopEnd = Math.Min(this.oggLoopEnd, this.oggTotalSamples);
                         if (vorbis.SamplePosition >= realLoopEnd)
                         {
-                            vorbis.SeekTo(this.oggLoopStart);
+                            try
+                            {
+                                vorbis.SeekTo(this.oggLoopStart);
+                            }
+                            catch (IndexOutOfRangeException)
+                            {
+                                // Lag related?
+                            }
                         }
                         if (this.oggProgress >= realLoopEnd)
                         {
