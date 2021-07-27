@@ -2508,6 +2508,11 @@ chmod +x "$(TargetDir)$(TargetFileName)"
 rm -rf "$(SolutionDir)$(OutDir)"
 cp -r "$(TargetDir)" "$(SolutionDir)$(OutDir)"
 cp -r $(SolutionDir)Common/bin/$(OutDir)*.dll "$(SolutionDir)$(OutDir)"
+
+cd "$(SolutionDir)$(OutDir)"
+mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
+rm *.exe *.exe.config *.dll *.dll.config
+mv ShanghaiEXE.execombined ShanghaiEXE.exe
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
