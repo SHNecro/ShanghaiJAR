@@ -1,6 +1,6 @@
 ﻿using MapEditor.Controls;
 using MapEditor.Core;
-using Common.Vectors;
+using Common.OpenGL;
 using MapEditor.Models;
 using MapEditor.ViewModels;
 using System;

@@ -1,5 +1,5 @@
 ﻿using MapEditor.Core;
-using Common.Vectors;
+using Common.OpenGL;
 using System.Drawing;
 using System.Text;
 using System.Collections.Generic;

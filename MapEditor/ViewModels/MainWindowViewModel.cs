@@ -1,5 +1,5 @@
 ﻿using Common.EncodeDecode;
-using Common.Vectors;
+using Common.OpenGL;
 using MapEditor.Core;
 using MapEditor.Models;
 using MapEditor.Models.Elements.Enums;
@@ -11,7 +11,6 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;

@@ -1,4 +1,5 @@
-﻿using Common.Vectors;
+﻿using Common.OpenGL;
+using Common.Vectors;
 using Data;
 using MapEditor.Models.Elements.Events;
 using MapEditor.ViewModels;
@@ -81,7 +82,7 @@ namespace MapEditor.Rendering
                             Width = 64,
                             Height = 96,
                             Texture = $"charachip{mapObjectPage.GraphicsIndex}",
-                            Scale = new OpenTK.Vector2(reversed ? -1 : 1, 1)
+                            Scale = new Vector2(reversed ? -1 : 1, 1)
                         }, renderPass);
                     }
                 }

@@ -1,4 +1,5 @@
 ﻿using MapEditor.Core;
+using Common.OpenGL;
 using Common.Vectors;
 using MapEditor.ExtensionMethods;
 using MapEditor.Models;
@@ -420,7 +421,7 @@ namespace MapEditor.Rendering
                                 Width = 64,
                                 Height = 96,
                                 Texture = $"charachip{mapObjectPage.GraphicsIndex}",
-                                Scale = new OpenTK.Vector2(reversed ? -1 : 1, 1)
+                                Scale = new Vector2(reversed ? -1 : 1, 1)
                             }, renderPass);
                         }
 

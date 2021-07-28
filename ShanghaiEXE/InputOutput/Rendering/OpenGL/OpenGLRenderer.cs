@@ -113,7 +113,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
                 Y = position.Y,
                 Width = spriteRect.Width,
                 Height = spriteRect.Height,
-                Scale = new OpenTK.Vector2(reversed ? -scale : scale, scale),
+                Scale = new Vector2(reversed ? -scale : scale, scale),
                 Rotate = rotation * (float)Math.PI / 180.0f,
                 ColorModulation = color
             };

@@ -1,4 +1,4 @@
-﻿using OpenTK;
+﻿using Common.Vectors;
 using System.Drawing;
 
 namespace Common.OpenGL

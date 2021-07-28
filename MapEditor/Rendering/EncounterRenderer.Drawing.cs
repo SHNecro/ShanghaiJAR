@@ -1,7 +1,7 @@
-﻿using Common.Vectors;
+﻿using Common.OpenGL;
+using Common.Vectors;
 using MapEditor.ViewModels;
 using NSBattle;
-using OpenTK;
 using System.Drawing;
 using System.Linq;
 
