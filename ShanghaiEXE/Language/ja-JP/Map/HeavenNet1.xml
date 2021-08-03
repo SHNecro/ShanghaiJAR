@@ -123,4 +123,5 @@
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsFailure" Value="[USER NOT PRESENT:,WIELDER OF 144 WEAPONS]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckSuccess" Value="[USER FOUND:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckFailure" Value="[USER NOT PRESENT:,IMMORTAL GIVER OF LIFE]" Face="None" Mono="False" />
+  <Text Key="Map.HeavenNet1GhostEnemyName" Value="????" />
 </data>

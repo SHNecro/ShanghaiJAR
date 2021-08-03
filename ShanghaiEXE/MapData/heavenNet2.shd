@@ -2999,7 +2999,7 @@ emove:SpecialGhost8-1:down,24
 emove:SpecialGhost8-2:wait,5:waydown,0:wait,2:down,24
 fade:15:255:255:255:255:True
 bgmSave:
-battle:42:1:5:1:1:1:1:60:Enemy.DruidManDarkSummonName:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
+battle:42:19:4:2:350:35:48:1200:Map.HeavenNet1GhostEnemyName:42:19:4:0:35:350:255:1200:Map.HeavenNet1GhostEnemyName:15:8:5:1:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
 effectEnd:
 playerHide:False
 editFlag:828:True
@@ -3178,7 +3178,7 @@ seon:dragonVoice
 emove:SpecialGhost9:up,24
 fade:15:255:255:255:255:True
 bgmSave:
-battle:42:1:5:1:1:1:1:60:Enemy.DruidManDarkSummonName:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
+battle:42:19:5:1:370:362:274:1700:Map.HeavenNet1GhostEnemyName:0:8:4:2:1:1:1:0::0:4:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
 effectEnd:
 playerHide:False
 editFlag:829:True
@@ -3327,7 +3327,7 @@ seon:dragonVoice
 emove:SpecialGhost10:down,24
 fade:15:255:255:255:255:True
 bgmSave:
-battle:42:1:5:1:1:1:1:60:Enemy.DruidManDarkSummonName:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
+battle:42:19:4:1:24:143:26:1300:Map.HeavenNet1GhostEnemyName:8:4:5:0:1:1:1:0::8:4:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
 effectEnd:
 playerHide:False
 editFlag:830:True
@@ -3476,7 +3476,7 @@ seon:dragonVoice
 emove:SpecialGhost11:up,24
 fade:15:255:255:255:255:True
 bgmSave:
-battle:42:1:5:1:1:1:1:60:Enemy.DruidManDarkSummonName:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
+battle:42:19:4:2:48:47:46:1500:Map.HeavenNet1GhostEnemyName:7:3:4:1:1:1:1:0::7:3:5:1:1:1:1:0::0:0:20:False:False:False:True:VSnavi:36
 effectEnd:
 playerHide:False
 editFlag:831:True
