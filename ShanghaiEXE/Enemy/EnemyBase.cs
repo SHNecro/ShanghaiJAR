@@ -200,6 +200,7 @@ namespace NSEnemy
                 case 46:
                     enemyBase = new SpannerMan(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                // 47
                 case 48:
                     enemyBase = new HakutakuMan(sound, parent, point.X, point.Y, n, u, v);
                     break;
@@ -245,12 +246,18 @@ namespace NSEnemy
                 case 62:
                     enemyBase = new Youmu(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                case 63:
+                    enemyBase = new HeavenBarrier(sound, parent, point.X, point.Y, n, u, v);
+                    break;
+                // 64
                 case 65:
                     enemyBase = new Kikuri(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                // 66-67
                 case 68:
                     enemyBase = new Mima(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                // 69-80
                 case 81:
                     enemyBase = new ShanghaiDS(sound, parent, point.X, point.Y, n, u, v);
                     break;
