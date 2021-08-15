@@ -5,6 +5,7 @@ using System;
 using NSMap.Character.Menu;
 using System.Linq;
 using NSChip;
+using System.Collections.Generic;
 
 namespace NSEvent
 {
@@ -874,14 +875,33 @@ namespace NSEvent
                     {
                         var completionLibrary = new Library(this.sound, null, null, this.savedata);
                         // Repair 20,50,100,150,200,300,500, DarkRecov
-                        var chips = new[] { 174, 175, 176, 177, 178, 179, 180, 264 };
-                        var chipsSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen)
-                            && completionLibrary.LibraryPages[Library.LibraryPageType.Dark].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen);
+                        var recovAmounts = new Dictionary<int, int>
+                        {
+                            { 174, 20 },
+                            { 175, 50 },
+                            { 176, 100 },
+                            { 177, 150 },
+                            { 178, 200 },
+                            { 179, 300 },
+                            { 180, 500 },
+                            { 264, 1000 },
+                        };
+                        var bagRecov = recovAmounts.Sum(kvp => Enumerable.Range(0, 4).Sum(code => this.savedata.Havechip[kvp.Key, code] * kvp.Value));
+                        var folderRecov = Enumerable.Range(0, 3).Sum(fNum => Enumerable.Range(0, 30).Sum(fChip =>
+                        {
+                            var folderChip = this.savedata.chipFolder[fNum, fChip, 0];
+                            return recovAmounts.TryGetValue(folderChip, out int folderRecovChipAmount) ? folderRecovChipAmount : 0;
+                        }));
+                        var totalHealing = bagRecov + folderRecov;
+                        var healingFound = totalHealing >= 5000;
+                        //var chips = new[] { 174, 175, 176, 177, 178, 179, 180, 264 };
+                        //var chipsSeen = completionLibrary.LibraryPages[Library.LibraryPageType.Normal].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen)
+                        //    && completionLibrary.LibraryPages[Library.LibraryPageType.Dark].Chips.Where(c => chips.Contains(c.Chip.number)).All(c => c.IsSeen);
                         // HP+50,100,200,500, HP+300, ChipCure, CRecov
-                        var addons = new[] { 8, 9, 10, 11, 14, 38, 92 };
-                        var addonsObtained = addons.All(id => this.savedata.haveAddon.Any(a => a.ID == id));
-                        var subChipsObtained = this.savedata.haveSubChis[0] == 9 && this.savedata.haveSubChis[1] == 9;
-                        var healingFound = chipsSeen && addonsObtained && subChipsObtained;
+                        //var addons = new[] { 8, 9, 10, 11, 14, 38, 92 };
+                        //var addonsObtained = addons.All(id => this.savedata.haveAddon.Any(a => a.ID == id));
+                        //var subChipsObtained = this.savedata.haveSubChis[0] == 9 && this.savedata.haveSubChis[1] == 9;
+                        //var healingFound = chipsSeen && addonsObtained && subChipsObtained;
                         this.savedata.ValList[7] = healingFound ? 1 : 0;
                     }
                     break;
