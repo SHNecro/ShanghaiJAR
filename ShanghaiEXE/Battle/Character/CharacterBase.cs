@@ -370,7 +370,10 @@ namespace NSBattle.Character
                 if ((this.badstatus[5] || this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._poison && !this.Flying) && ((this.Element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0) && this.parent.nowscene != SceneBattle.BATTLESCENE.end) && !(this is ObjectBase))
                 {
                     if (this.mastorflame % 8 == 0)
+                    {
                         --this.Hp;
+                        this.Dameged(new Dummy(this.sound, this.parent, this.position.X, this.position.Y, this.union, Point.Empty, 0, false));
+                    }
                 }
             }
             catch

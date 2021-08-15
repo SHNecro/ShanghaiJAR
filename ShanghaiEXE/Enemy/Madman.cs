@@ -224,6 +224,11 @@ namespace NSEnemy
 
         public override void Dameged(AttackBase attack)
         {
+            if (attack is Dummy)
+            {
+                return;
+            }
+
             if (this.invincibility && this.invincibilitytime != 0
                 && attack.breakinvi)
             {

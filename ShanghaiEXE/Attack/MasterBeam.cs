@@ -113,6 +113,7 @@ namespace NSAttack
                     {
                         this.sound.PlaySE(SoundEffect.damageenemy);
                         characterBase.Hp -= 2 * damageMultiplier;
+                        characterBase.Dameged(this);
                         if (characterBase.Hp <= 0)
                             this.sound.PlaySE(SoundEffect.clincher);
                     }

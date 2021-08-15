@@ -38,6 +38,11 @@ namespace NSEnemy
 
         public override void Dameged(AttackBase attack)
         {
+            if (attack is Dummy)
+            {
+                return;
+            }
+
             this.MainEnemy.Hp -= 100000 - this.hp;
             this.hp = 100000;
             this.MainEnemy.whitetime = this.whitetime;

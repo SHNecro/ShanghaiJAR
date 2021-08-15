@@ -61,6 +61,7 @@ namespace NSAttack
                             characterBase.Hp -= this.power;
                             break;
                     }
+                    characterBase.Dameged(this);
                 }
             }
             if (this.gas)
