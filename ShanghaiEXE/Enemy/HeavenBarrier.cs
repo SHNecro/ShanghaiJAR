@@ -375,18 +375,39 @@ namespace NSEnemy
             {
                 if (this.controlledBarriers.Any(c => c.state == MOTION.Absorbing))
                 {
-                    if (this.waittime % 200 == 100 && this.Random.NextDouble() < 0.5)
+                    if (this.waittime % 2 == 0)
+                    {
+                        var xOffset = this.Random.Next(0, 50);
+                        var yOffset = this.Random.Next(0, 70 - xOffset);
+                        var noisePosition = new Vector2(250 - xOffset, -10 + yOffset);
+                        var noiseEffect = new Noise(this.sound, noisePosition, Point.Empty);
+                        noiseEffect.downprint = true;
+                        this.parent.effects.Insert(0, noiseEffect);
+                    }
+                    if (this.waittime % 40 == 0)
+                    {
+                        var xOffset = this.Random.Next(20, 50) + 10;
+                        var yOffset = 70 - xOffset;
+                        var shieldPosition = new Vector2(250 - xOffset, -10 + yOffset);
+                        var shieldEffect = new ReflShield(this.sound, shieldPosition, Point.Empty);
+                        shieldEffect.downprint = true;
+                        this.parent.effects.Add(shieldEffect);
+                    }
+
+                    if (this.waittime % 100 == 50 && this.Random.NextDouble() < 0.5)
                     {
                         var breakthroughChance = 1.0 - (double)this.controlledBarriers.Count(c => c.state == MOTION.Absorbing) / (this.controlledBarriers.Count + 1);
                         if (this.Random.NextDouble() < breakthroughChance)
                         {
                             // TODO:
                             // attack occurs
+                            this.parent.attacks.Add(new MeteorRay(this.sound, this.parent, 1, 1, this.union, 0, 1, ChipBase.ELEMENT.normal));
                         }
                         else
                         {
                             // TODO:
                             // block effect happens
+                            this.parent.effects.Add(new NSEffect.DreamMeteo(this.sound, this.parent, 1, 1, 40, false));
                         }
                     }
                 }

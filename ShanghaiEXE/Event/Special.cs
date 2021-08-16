@@ -874,7 +874,7 @@ namespace NSEvent
                 case 23:
                     {
                         var completionLibrary = new Library(this.sound, null, null, this.savedata);
-                        // Repair 20,50,100,150,200,300,500, DarkRecov
+                        // Repair 20,50,100,150,200,300,500, DarkRecov(1000)
                         var recovAmounts = new Dictionary<int, int>
                         {
                             { 174, 20 },
