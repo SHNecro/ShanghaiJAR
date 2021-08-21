@@ -12,6 +12,7 @@ namespace NSEffect
         {
             this.position = new Point(pX, pY);
             this.number = -100;
+            this.blackOutObject = true;
         }
 
         public virtual void SkipUpdate()

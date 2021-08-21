@@ -358,6 +358,7 @@
     <Compile Include="AddOn\Mammon.cs" />
     <Compile Include="AddOn\Sacrifice.cs" />
     <Compile Include="AddOn\Scavenger.cs" />
+    <Compile Include="Attack\NoiseBreakout.cs" />
     <Compile Include="Attack\Butterfly.cs" />
     <Compile Include="Attack\ButterflyHoc.cs" />
     <Compile Include="Background\DeepUraBack.cs" />

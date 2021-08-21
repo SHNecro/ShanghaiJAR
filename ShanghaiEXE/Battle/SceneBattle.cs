@@ -501,7 +501,7 @@ namespace NSBattle
             }
             foreach (CharacterBase allObject in this.AllObjects())
             {
-                if (!this.blackOut || allObject.blackOutObject || allObject is EffectBase)
+                if (!this.blackOut || allObject.blackOutObject)
                     allObject.Updata();
                 if (this.blackOut)
                 {

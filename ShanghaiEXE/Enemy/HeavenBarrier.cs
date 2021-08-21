@@ -173,6 +173,7 @@ namespace NSEnemy
                     { ChipBase.ELEMENT.eleki, 0 },
                     { ChipBase.ELEMENT.leaf, 0 },
                     { ChipBase.ELEMENT.poison, 0 },
+                    { ChipBase.ELEMENT.earth, 0 }
                 };
             }
         }
@@ -382,6 +383,7 @@ namespace NSEnemy
                         var noisePosition = new Vector2(250 - xOffset, -10 + yOffset);
                         var noiseEffect = new Noise(this.sound, noisePosition, Point.Empty);
                         noiseEffect.downprint = true;
+                        noiseEffect.blackOutObject = false;
                         this.parent.effects.Insert(0, noiseEffect);
                     }
                     if (this.waittime % 40 == 0)
@@ -391,24 +393,30 @@ namespace NSEnemy
                         var shieldPosition = new Vector2(250 - xOffset, -10 + yOffset);
                         var shieldEffect = new ReflShield(this.sound, shieldPosition, Point.Empty);
                         shieldEffect.downprint = true;
+                        shieldEffect.blackOutObject = false;
                         this.parent.effects.Add(shieldEffect);
                     }
 
                     if (this.waittime % 100 == 50 && this.Random.NextDouble() < 0.5)
                     {
+                        var target = this.RandomPanel(this.UnionEnemy);
+                        var xOffset = this.Random.Next(0, 50);
+                        var yOffset = this.Random.Next(0, 70 - xOffset);
+                        var noisePower = 100;
+                        var noisePosition = new Vector2(260 - xOffset, -10 + yOffset);
+                        var yVel = -(float)this.Random.NextDouble() * Math.Max(0, noisePosition.Y) / 5;
                         var breakthroughChance = 1.0 - (double)this.controlledBarriers.Count(c => c.state == MOTION.Absorbing) / (this.controlledBarriers.Count + 1);
-                        if (this.Random.NextDouble() < breakthroughChance)
-                        {
-                            // TODO:
-                            // attack occurs
-                            this.parent.attacks.Add(new MeteorRay(this.sound, this.parent, 1, 1, this.union, 0, 1, ChipBase.ELEMENT.normal));
-                        }
-                        else
-                        {
-                            // TODO:
-                            // block effect happens
-                            this.parent.effects.Add(new NSEffect.DreamMeteo(this.sound, this.parent, 1, 1, 40, false));
-                        }
+                        this.parent.attacks.Add(
+                            new NoiseBreakout(
+                                this.sound,
+                                this.parent,
+                                target.X, target.Y,
+                                this.union,
+                                noisePower,
+                                1,
+                                noisePosition,
+                                yVel,
+                                this.Random.NextDouble() >= breakthroughChance));
                     }
                 }
             }
