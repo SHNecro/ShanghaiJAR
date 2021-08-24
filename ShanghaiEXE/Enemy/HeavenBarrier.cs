@@ -218,28 +218,36 @@ namespace NSEnemy
                                 c.state = MOTION.RetaliatingChargeUp;
                                 c.waittime = 0;
                             });
-                            //this.sound.PlaySE(SoundEffect.charge);
-                            //this.sound.BGMFadeStart(300, 25);
                         }
                     }
                     break;
                 case MOTION.RetaliatingChargeUp:
                     this.animationpoint = new Point(1, 1);
-                    if (this.waittime < 660)
+                    if (this.waittime < 360)
                     {
-                        //if (this.controller == this)
-                        //{
-                        //    if (this.waittime == 300)
-                        //    {
-                        //        this.sound.BGMFadeStart(50, 0);
-                        //    }
-                        //    if (this.waittime == 350)
-                        //    {
-                        //        this.sound.SetBGM("heavenbackground");
-                        //        this.sound.BGMFadeStart(20, 100);
-                        //    }
-                        //}
-                        if (this.waittime < 400)
+                        if (this.controller == this)
+                        {
+                            if (this.waittime > 180 && this.waittime <= 200)
+                            {
+                                this.sound.PlaySE(SoundEffect.beamlong);
+                            }
+                            if (this.waittime == 200)
+                            {
+                                this.sound.BGMFadeStart(90, 25);
+                            }
+
+                            if (this.waittime == 290)
+                            {
+                                this.sound.BGMFadeStart(50, 0);
+                            }
+                            if (this.waittime == 340)
+                            {
+                                this.sound.SetBGM("heavenbackground");
+                                this.sound.BGMFadeStart(20, 100);
+                            }
+                        }
+
+                        if (this.waittime < 300)
                         {
                             var whiteoutProgress = 0.5 * (1 - Math.Cos((Math.Min(500, this.waittime * 1.5) / 500.0 / 2) * 2 * Math.PI));
                             this.overlayColor = Color.FromArgb((int)(whiteoutProgress * 255), Color.White);
@@ -270,79 +278,99 @@ namespace NSEnemy
                         }
                         else
                         {
-                            var whiteoutProgress = (int)Math.Min(255, (this.waittime - 400) / 150.0 * 255);
+                            var whiteoutProgress = (int)Math.Max(0, Math.Min(255, (this.waittime - 300) / 60.0 * 255));
                             this.overlayColor = Color.FromArgb(255 - whiteoutProgress, Color.White);
                             this.alfha = (byte)(255 - whiteoutProgress);
                         }
 
                         if (this.controller == this)
                         {
-                            if (this.waittime > 100 && this.waittime < 300)
+
+                            if (this.waittime > 200)
                             {
-                                if (this.waittime % 30 == 0)
+                                if (this.waittime % 8 == 0)
                                 {
-                                    this.sound.PlaySE(SoundEffect.pikin);
+                                    var untargetedPanels = Enumerable.Range(0, 6).SelectMany(c => Enumerable.Range(0, 3).Select(r => new Point(c, r))).Cast<Point?>()
+                                        .Where(p => !this.parent.attacks.Any(ef => ef is Dummy && ef.position == p));
+                                    var untargetedOrRandomPanel = untargetedPanels.ElementAtOrDefault(this.Random.Next(0, untargetedPanels.Count()))
+                                        ?? new Point(this.Random.Next(0, 6), this.Random.Next(0, 3));
+                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, untargetedOrRandomPanel.X, untargetedOrRandomPanel.Y, this.union, new Point(0, 0), 120, true));
                                 }
-
-                                if (this.waittime == 200)
-                                {
-                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 1, 1, this.union, new Point(0, 0), 100, true));
-                                }
                             }
-                            else if (this.waittime == 300)
+
+                            if (this.waittime == 300)
                             {
-                                this.parent.attacks.Add(new Dummy(this.sound, this.parent, 1, 1, this.union, new Point(0, 0), 600, false));
-                                this.parent.attacks.Add(new Dummy(this.sound, this.parent, 2, 0, this.union, new Point(3, 3), 150, true));
-                                this.sound.PlaySE(SoundEffect.wave);
-                            }
-                            else if (this.waittime == 450)
-                            {
-                                this.parent.attacks.Add(new Dummy(this.sound, this.parent, 2, 0, this.union, new Point(3, 3), 600, false));
-                            }
-                            else if (this.waittime > 450)
-                            {
-                                this.RetaliateTick();
-                                this.sound.PlaySE(SoundEffect.beamlong);
+                                this.parent.effects.Add(new PetalBreeze(this.sound, Vector2.Zero, Point.Empty));
                             }
 
-                            var numberOfSparkles = 8 * Math.Pow(this.waittime / 660.0, 2);
-                            for (var i = 1; i < numberOfSparkles; i++)
-                            {
-                                // Pillar starts offscreen, goes to 60, 105 (middle of area)
-                                var initialPosition = new Point(60, -8 + this.Random.Next(1, 4));
-                                var lifespan = 720;
-                                var t = 0;
-                                var randomPhaseShift = this.Random.NextDouble() * 2 * Math.PI;
-                                
-                                var spinSpeedFactor = 1 + 4 * ((double)this.waittime / lifespan);
-                                var rotations = 5;
+                            //if (this.waittime > 100 && this.waittime < 300)
+                            //{
+                            //    if (this.waittime % 30 == 0)
+                            //    {
+                            //        this.sound.PlaySE(SoundEffect.pikin);
+                            //    }
 
-                                var downwardsVelocity = 2 * (this.waittime / 660.0);
-                                var radiusExpansion = (this.Random.NextDouble() + 0.5) * (this.waittime / 660.0);
-                                var movement = new Action<Sparkle>(s =>
-                                {
-                                    t++;
-                                    var radian = randomPhaseShift + (spinSpeedFactor * (t * rotations / (360 / (2 * Math.PI))));
+                            //    if (this.waittime == 200)
+                            //    {
+                            //        this.parent.attacks.Add(new Dummy(this.sound, this.parent, 1, 1, this.union, new Point(0, 0), 100, true));
+                            //    }
+                            //}
 
-                                    var radius = 5 + ((double)t / lifespan) * 50 * 0.5 * (1 - Math.Cos(Math.Min(Math.PI, radiusExpansion * (t / (360 / (2 * Math.PI))))));
-                                    var xSpin = radius * Math.Cos(radian);
-                                    var ySpin = 0.5 * radius * Math.Sin(radian);
+                            //else if (this.waittime == 300)
+                            //{
+                            //    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 1, 1, this.union, new Point(0, 0), 600, false));
+                            //    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 2, 0, this.union, new Point(3, 3), 150, true));
+                            //    this.sound.PlaySE(SoundEffect.wave);
+                            //}
+                            //else if (this.waittime == 450)
+                            //{
+                            //    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 2, 0, this.union, new Point(3, 3), 600, false));
+                            //}
+                            //else if (this.waittime > 450)
+                            //{
+                            //    this.RetaliateTick();
+                            //    this.sound.PlaySE(SoundEffect.beamlong);
+                            //}
 
-                                    var yOffset = 115 * 0.5 * (1 - Math.Cos(Math.Min(Math.PI, downwardsVelocity * (t / (360 / (2 * Math.PI))))));
+                            //var numberOfSparkles = 8 * Math.Pow(this.waittime / 660.0, 2);
+                            //for (var i = 1; i < numberOfSparkles; i++)
+                            //{
+                            //    // Pillar starts offscreen, goes to 60, 105 (middle of area)
+                            //    var initialPosition = new Point(60, -8 + this.Random.Next(1, 4));
+                            //    var lifespan = 720;
+                            //    var t = 0;
+                            //    var randomPhaseShift = this.Random.NextDouble() * 2 * Math.PI;
 
-                                    var x = 0.0 + xSpin;
-                                    var y = yOffset + ySpin;
-                                    s.Position = new Point(initialPosition.X + (int)Math.Round(x), initialPosition.Y + (int)Math.Round(y));
-                                });
-                                var newSparkle = new Sparkle { Lifespan = lifespan, RemainingLife = lifespan, Movement = movement };
-                                movement.Invoke(newSparkle);
-                                this.sparkles[this.sparkles.FirstOrDefault(kvp => !this.sparkles.ContainsKey(kvp.Key + 1)).Key + 1] = newSparkle;
-                            }
+                            //    var spinSpeedFactor = 1 + 4 * ((double)this.waittime / lifespan);
+                            //    var rotations = 5;
+
+                            //    var downwardsVelocity = 2 * (this.waittime / 660.0);
+                            //    var radiusExpansion = (this.Random.NextDouble() + 0.5) * (this.waittime / 660.0);
+                            //    var movement = new Action<Sparkle>(s =>
+                            //    {
+                            //        t++;
+                            //        var radian = randomPhaseShift + (spinSpeedFactor * (t * rotations / (360 / (2 * Math.PI))));
+
+                            //        var radius = 5 + ((double)t / lifespan) * 50 * 0.5 * (1 - Math.Cos(Math.Min(Math.PI, radiusExpansion * (t / (360 / (2 * Math.PI))))));
+                            //        var xSpin = radius * Math.Cos(radian);
+                            //        var ySpin = 0.5 * radius * Math.Sin(radian);
+
+                            //        var yOffset = 115 * 0.5 * (1 - Math.Cos(Math.Min(Math.PI, downwardsVelocity * (t / (360 / (2 * Math.PI))))));
+
+                            //        var x = 0.0 + xSpin;
+                            //        var y = yOffset + ySpin;
+                            //        s.Position = new Point(initialPosition.X + (int)Math.Round(x), initialPosition.Y + (int)Math.Round(y));
+                            //    });
+                            //    var newSparkle = new Sparkle { Lifespan = lifespan, RemainingLife = lifespan, Movement = movement };
+                            //    movement.Invoke(newSparkle);
+                            //    this.sparkles[this.sparkles.FirstOrDefault(kvp => !this.sparkles.ContainsKey(kvp.Key + 1)).Key + 1] = newSparkle;
+                            //}
                         }
                     }
-                    else if (this.waittime >= 660)
+                    else
                     {
                         this.state = MOTION.Retaliating;
+                        this.waittime = 0;
                     }
                     break;
                 case MOTION.Retaliating:
@@ -353,8 +381,38 @@ namespace NSEnemy
                         if (this.waittime < 1000)
                         {
                             this.RetaliateTick();
+
+                            if (this.waittime % 120 == 0)
+                            {
+                                this.parent.effects.Add(new PetalBreeze(this.sound, Vector2.Zero, Point.Empty));
+                            }
+
+                            if (this.waittime % 4 == 0)
+                            {
+                                var untargetedPanels = Enumerable.Range(0, 6).SelectMany(c => Enumerable.Range(0, 3).Select(r => new Point(c, r))).Cast<Point?>()
+                                    .Where(p => !this.parent.effects.Any(ef => ef is BadWater && ef.position == p));
+                                var untargetedOrRandomPanel = untargetedPanels.ElementAtOrDefault(this.Random.Next(0, untargetedPanels.Count()))
+                                    ?? new Point(this.Random.Next(0, 6), this.Random.Next(0, 3));
+                                this.parent.effects.Add(new BadWater(this.sound, this.parent, untargetedOrRandomPanel.X, untargetedOrRandomPanel.Y, 2, BadWater.TYPE.Pink));
+                            }
+
+                            if (this.waittime < 1000 - 120)
+                            {
+                                if (this.waittime % 8 == 0)
+                                {
+                                    var untargetedPanels = Enumerable.Range(0, 6).SelectMany(c => Enumerable.Range(0, 3).Select(r => new Point(c, r))).Cast<Point?>()
+                                        .Where(p => !this.parent.attacks.Any(ef => ef is Dummy && ef.position == p));
+                                    var untargetedOrRandomPanel = untargetedPanels.ElementAtOrDefault(this.Random.Next(0, untargetedPanels.Count()))
+                                        ?? new Point(this.Random.Next(0, 6), this.Random.Next(0, 3));
+                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, untargetedOrRandomPanel.X, untargetedOrRandomPanel.Y, this.union, new Point(0, 0), 120, true));
+                                }
+                            }
                         }
-                        else if (this.waittime >= 1000)
+                        else if (this.waittime < 1300)
+                        {
+
+                        }
+                        else
                         {
                             if (this.controlledBarriers.All(c => c.state == MOTION.Retaliating))
                             {
@@ -417,6 +475,49 @@ namespace NSEnemy
                                 noisePosition,
                                 yVel,
                                 this.Random.NextDouble() >= breakthroughChance));
+                    }
+                }
+                else if (this.controlledBarriers.Any(c => c.state == MOTION.RetaliatingChargeUp))
+                {
+                    var xOffset = this.Random.Next(0, 50);
+                    var yOffset = this.Random.Next(0, 70 - xOffset);
+                    var noisePosition = new Vector2(250 - xOffset, -10 + yOffset);
+
+                    var noiseExpansion = 1 + (200 - Math.Abs(200 - Math.Min(360, this.waittime))) / 30;
+                    var expansionPositions = new[]
+                    {
+                        noisePosition,
+                        new Vector2(220, 20), new Vector2(204, 6), new Vector2(210, 40),
+                        new Vector2(180, 18), new Vector2(170, 10), new Vector2(190, 30)
+                    };
+                    
+                    if (this.waittime % 2 == 0)
+                    {
+                        for (var i = 0; i < noiseExpansion; i++)
+                        {
+                            if (i >= expansionPositions.Length) break;
+
+                            var newNoisePosition = new Vector2(expansionPositions[i].X + this.Random.Next(-10, 9), expansionPositions[i].Y + this.Random.Next(-10, 9));
+                            var noiseEffect = new Noise(this.sound, newNoisePosition, Point.Empty);
+                            noiseEffect.downprint = true;
+                            noiseEffect.blackOutObject = false;
+                            this.parent.effects.Insert(0, noiseEffect);
+                        }
+                    }
+
+                    if (this.waittime > 50 && this.waittime < 200)
+                    {
+                        if (this.waittime % 45 == 0)
+                        {
+                            this.sound.PlaySE(SoundEffect.noise);
+                        }
+                    }
+                    else if (this.waittime > 200 && this.waittime < 400)
+                    {
+                        if (this.waittime % 30 == 0)
+                        {
+                            this.sound.PlaySE(SoundEffect.pikin);
+                        }
                     }
                 }
             }
