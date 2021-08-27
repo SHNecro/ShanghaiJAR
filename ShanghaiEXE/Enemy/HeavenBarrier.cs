@@ -27,8 +27,12 @@ namespace NSEnemy
 
         private MOTION state;
         private Color overlayColor;
-
         private int lastDamage;
+
+        private int deathOrder;
+
+        private int totalHp;
+        private int retaliationTaken;
 
         public HeavenBarrier(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
@@ -39,15 +43,15 @@ namespace NSEnemy
             this.picturename = "heavenbarrier";
             this.race = EnemyBase.ENEMY.virus;
             this.element = ChipBase.ELEMENT.normal;
-            this.Flying = false;
+            this.Flying = true;
             this.power = 0;
             this.wide = 32;
             this.height = 80;
             this.version = v;
             this.frame = 0;
             this.speed = 7 - version;
-            this.printhp = true;
-            this.printNumber = true;
+            this.printhp = false;
+            this.printNumber = false;
             this.effecting = false;
             if (this.parent != null)
                 this.roop = (byte)(parent.manyenemys - (uint)this.number);
@@ -118,14 +122,11 @@ namespace NSEnemy
                         // Keep track of ending damage to prevent overkill
                         this.lastDamage = originalHp - this.Hp;
                     }
-                    if (this.Hp <= 0)
-                    {
-                        this.state = MOTION.Breaking;
-                        this.printhp = false;
-                    }
                 }
             }
         }
+
+        private Action RetaliateTickAction { get; set; }
 
         public override void Dameged(AttackBase attack)
         {
@@ -134,7 +135,7 @@ namespace NSEnemy
                 return;
             }
 
-            if (this.state == MOTION.Absorbing || this.state == MOTION.Breaking)
+            if (this.state == MOTION.Absorbing)
             {
                 var attackDamage = this.lastDamage;
                 if (attackDamage == -1)
@@ -148,7 +149,8 @@ namespace NSEnemy
                 }
 
                 // TODO: Handle damage cancelling, effects
-                controller.damageBuildup[attack.Element] += attackDamage;
+                var remainingDamage = this.controller.totalHp - this.controller.damageBuildup.Sum(kvp => kvp.Value);
+                controller.damageBuildup[attack.Element] += Math.Min(attackDamage, remainingDamage);
                 this.lastDamage = -1;
             }
         }
@@ -163,8 +165,15 @@ namespace NSEnemy
                 this.controller = barriers.Select(b => b.controller).FirstOrDefault(c => c != null) ?? barriers.FirstOrDefault() ?? this;
                 this.controlledBarriers = barriers.ToList();
 
-                this.controlledBarriers.ForEach(c => c.controller = this.controller);
-
+                var newDeathOrder = 0;
+                this.controlledBarriers.ForEach(c => 
+                {
+                    c.controller = this.controller;
+                    this.totalHp += c.Hp;
+                    c.Hp = int.MaxValue;
+                    c.deathOrder = newDeathOrder++;
+                });
+                
                 this.damageBuildup = new Dictionary<ChipBase.ELEMENT, int>
                 {
                     { ChipBase.ELEMENT.normal, 0 },
@@ -191,16 +200,28 @@ namespace NSEnemy
             {
                 case MOTION.Absorbing:
                     this.animationpoint = new Point(this.version, 0);
+
+                    var totalDamage = this.controller.damageBuildup.Sum(kvp => kvp.Value);
+                    if (totalDamage >= this.controller.totalHp)
+                    {
+                        this.state = MOTION.Breaking;
+                        this.Hp = 0;
+                        this.waittime = 0;
+                    }
                     break;
                 case MOTION.Breaking:
-                    var fakeDeathPosition = new Vector2((int)this.positionDirect.X + this.Shake.X, (int)this.positionDirect.Y + this.Shake.Y);
-                    var fakeDeathRect = new Rectangle(this.animationpoint.X * this.wide, this.animationpoint.Y * this.height, this.wide, this.height);
-                    
-                    this.parent.effects.Add(new EnemyDeath(this.sound, this.parent, fakeDeathRect, new Rectangle(this.animationpoint.X * this.wide, 0, this.wide, this.height), fakeDeathPosition, this.picturename, this.rebirth, this.position));
+                    var deathDelay = (this.deathOrder + 1) * 90;
+                    if (this.waittime >= deathDelay)
+                    {
+                        var fakeDeathPosition = new Vector2((int)this.positionDirect.X + this.Shake.X, (int)this.positionDirect.Y + this.Shake.Y);
+                        var fakeDeathRect = new Rectangle(this.animationpoint.X * this.wide, this.animationpoint.Y * this.height, this.wide, this.height);
 
-                    this.animationpoint = new Point(this.Random.Next(1, 9 + 1), 1);
-                    this.waittime = 0;
-                    this.state = MOTION.Broken;
+                        this.parent.effects.Add(new EnemyDeath(this.sound, this.parent, fakeDeathRect, new Rectangle(this.animationpoint.X * this.wide, 0, this.wide, this.height), fakeDeathPosition, this.picturename, this.rebirth, this.position));
+
+                        this.animationpoint = new Point(this.Random.Next(1, 9 + 1), 1);
+                        this.waittime = 0;
+                        this.state = MOTION.Broken;
+                    }
                     break;
                 case MOTION.Broken:
                     if (this.waittime % 8 == 0)
@@ -371,6 +392,9 @@ namespace NSEnemy
                     {
                         this.state = MOTION.Retaliating;
                         this.waittime = 0;
+
+                        this.invincibility = true;
+                        this.invincibilitytime = 99999999;
                     }
                     break;
                 case MOTION.Retaliating:
@@ -378,9 +402,37 @@ namespace NSEnemy
 
                     if (this.controller == this)
                     {
-                        if (this.waittime < 1000)
+                        var retaliationTime = 1000;
+                        if (this.waittime < retaliationTime)
                         {
-                            this.RetaliateTick();
+                            if (this.RetaliateTickAction == null)
+                            {
+                                // TODO:
+                                var adjustedRetaliation = this.damageBuildup.Sum(kvp => kvp.Value);
+
+                                var fullDamagePerTick = (double)adjustedRetaliation / retaliationTime;
+                                var damagePerTick = (int)fullDamagePerTick;
+                                var remainderPerTick = fullDamagePerTick % 1.0;
+                                var leftoverDamage = 0.0;
+                                this.RetaliateTickAction = () =>
+                                {
+                                    leftoverDamage += remainderPerTick;
+                                    var leftoverRemainder = leftoverDamage % 1.0;
+                                    var wholeLeftoverDamage = (int)(leftoverDamage - leftoverRemainder);
+                                    leftoverDamage = leftoverRemainder;
+
+                                    var damageThisTick = wholeLeftoverDamage + damagePerTick;
+                                    this.retaliationTaken += damageThisTick;
+
+                                    var enemies = this.parent.AllChara().Where(c => c.union == this.UnionEnemy);
+                                    foreach (var enemy in enemies)
+                                    {
+                                        enemy.Hp -= damageThisTick;
+                                    }
+                                };
+                            }
+
+                            this.RetaliateTickAction.Invoke();
 
                             if (this.waittime % 120 == 0)
                             {
@@ -408,9 +460,9 @@ namespace NSEnemy
                                 }
                             }
                         }
-                        else if (this.waittime < 1300)
+                        else if (this.waittime < retaliationTime + 300)
                         {
-
+                            // settle
                         }
                         else
                         {
@@ -432,7 +484,32 @@ namespace NSEnemy
 
             if (this.controller == this)
             {
-                if (this.controlledBarriers.Any(c => c.state == MOTION.Absorbing))
+                var panels = Enumerable.Range(0, this.parent.panel.GetLength(0))
+                    .SelectMany(px => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(py => new Point(px, py)));
+                foreach (var panelPos in panels)
+                {
+                    var panel = this.parent.panel[panelPos.X, panelPos.Y];
+                    switch (panel.State)
+                    {
+                        case Panel.PANEL._crack:
+                        case Panel.PANEL._break:
+                        case Panel.PANEL._grass:
+                        case Panel.PANEL._ice:
+                        case Panel.PANEL._sand:
+                        case Panel.PANEL._poison:
+                        case Panel.PANEL._burner:
+                        case Panel.PANEL._thunder:
+                            panel.State = Panel.PANEL._nomal;
+                            this.parent.effects.Add(new Smoke(this.sound, this.parent, panelPos.X, panelPos.Y, panel.Element));
+                            break;
+                        case Panel.PANEL._nomal:
+                        case Panel.PANEL._none:
+                        case Panel.PANEL._un:
+                            break;
+                    }
+                }
+
+                if (this.controlledBarriers.Any(c => c.state == MOTION.Absorbing || c.state == MOTION.Breaking || c.state == MOTION.Broken))
                 {
                     if (this.waittime % 2 == 0)
                     {
@@ -563,8 +640,14 @@ namespace NSEnemy
                 dg.DrawImage(dg, "body25", this._rect, false, this._position, this.rebirth, this.color);
             }
 
-            this.HPposition = new Vector2(this.positionDirect.X + 4f, this.positionDirect.Y - 32f);
+            //this.HPposition = new Vector2(this.positionDirect.X + 4f, this.positionDirect.Y - 32f);
             this.Nameprint(dg, this.printNumber);
+
+            if (this == this.controller)
+            {
+                var totalRetaliation = this.Nametodata((this.damageBuildup.Sum(kvp => kvp.Value) - this.retaliationTaken).ToString());
+                DrawBlockCharacters(dg, totalRetaliation, 88, new Vector2(172 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);
+            }
         }
 
         private void UpdateSparkles()
@@ -584,16 +667,6 @@ namespace NSEnemy
             foreach (var kvp in this.sparkles)
             {
                 kvp.Value.Movement?.Invoke(kvp.Value);
-            }
-        }
-
-        private void RetaliateTick()
-        {
-            var enemies = this.parent.AllChara().Where(c => c.union == this.UnionEnemy);
-            foreach (var enemy in enemies)
-            {
-                // TODO:
-                enemy.Hp -= 1;
             }
         }
 
