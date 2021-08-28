@@ -24,6 +24,7 @@ namespace NSEnemy
         private HeavenBarrier controller;
         private List<HeavenBarrier> controlledBarriers;
         private Dictionary<ChipBase.ELEMENT, int> damageBuildup;
+        private int rawDamageTaken;
 
         private MOTION state;
         private Color overlayColor;
@@ -148,9 +149,13 @@ namespace NSEnemy
                     attackDamage = attack.DamageMath(this) / num;
                 }
 
+                var remainingDamage = this.controller.totalHp - this.controller.rawDamageTaken;
+                var cappedDamage = Math.Min(attackDamage, remainingDamage);
+                this.controller.rawDamageTaken += cappedDamage;
+
                 // TODO: Handle damage cancelling, effects
-                var remainingDamage = this.controller.totalHp - this.controller.damageBuildup.Sum(kvp => kvp.Value);
-                controller.damageBuildup[attack.Element] += Math.Min(attackDamage, remainingDamage);
+                this.controller.damageBuildup[attack.Element] += cappedDamage;
+
                 this.lastDamage = -1;
             }
         }
@@ -201,7 +206,7 @@ namespace NSEnemy
                 case MOTION.Absorbing:
                     this.animationpoint = new Point(this.version, 0);
 
-                    var totalDamage = this.controller.damageBuildup.Sum(kvp => kvp.Value);
+                    var totalDamage = this.controller.rawDamageTaken;
                     if (totalDamage >= this.controller.totalHp)
                     {
                         this.state = MOTION.Breaking;
@@ -407,8 +412,8 @@ namespace NSEnemy
                         {
                             if (this.RetaliateTickAction == null)
                             {
-                                // TODO:
-                                var adjustedRetaliation = this.damageBuildup.Sum(kvp => kvp.Value);
+                                // TODO: actual damage calc
+                                var adjustedRetaliation = this.rawDamageTaken;
 
                                 var fullDamagePerTick = (double)adjustedRetaliation / retaliationTime;
                                 var damagePerTick = (int)fullDamagePerTick;
@@ -491,8 +496,6 @@ namespace NSEnemy
                     var panel = this.parent.panel[panelPos.X, panelPos.Y];
                     switch (panel.State)
                     {
-                        case Panel.PANEL._crack:
-                        case Panel.PANEL._break:
                         case Panel.PANEL._grass:
                         case Panel.PANEL._ice:
                         case Panel.PANEL._sand:
@@ -502,6 +505,8 @@ namespace NSEnemy
                             panel.State = Panel.PANEL._nomal;
                             this.parent.effects.Add(new Smoke(this.sound, this.parent, panelPos.X, panelPos.Y, panel.Element));
                             break;
+                        case Panel.PANEL._crack:
+                        case Panel.PANEL._break:
                         case Panel.PANEL._nomal:
                         case Panel.PANEL._none:
                         case Panel.PANEL._un:
@@ -645,8 +650,11 @@ namespace NSEnemy
 
             if (this == this.controller)
             {
-                var totalRetaliation = this.Nametodata((this.damageBuildup.Sum(kvp => kvp.Value) - this.retaliationTaken).ToString());
-                DrawBlockCharacters(dg, totalRetaliation, 88, new Vector2(172 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);
+                var remainingHp = this.totalHp - this.rawDamageTaken;
+                if (remainingHp > 0 && this.controlledBarriers.All(c => c.state == MOTION.Absorbing))
+                {
+                    DrawBlockCharacters(dg, this.Nametodata(remainingHp.ToString()), 88, new Vector2(168 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);
+                }
             }
         }
 
