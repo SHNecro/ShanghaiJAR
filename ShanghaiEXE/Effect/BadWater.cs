@@ -13,8 +13,8 @@ namespace NSEffect
         private static readonly IDictionary<TYPE, Tuple<string, Rectangle>> Types = new Dictionary<TYPE, Tuple<string, Rectangle>>
         {
             { TYPE.Poison, Tuple.Create("kikuriAttack", new Rectangle(0, 360, 40, 32)) },
-            { TYPE.Blue, Tuple.Create("body26", new Rectangle(110, 350, 40, 32)) },
-            { TYPE.Pink, Tuple.Create("body26", new Rectangle(110, 382, 40, 32)) },
+            { TYPE.Blue, Tuple.Create("heavenbarrier", new Rectangle(0, 192, 40, 32)) },
+            { TYPE.Pink, Tuple.Create("heavenbarrier", new Rectangle(0, 160, 40, 32)) },
         };
 
         private readonly TYPE type;
