@@ -23,17 +23,16 @@ namespace NSEnemy
 
         private HeavenBarrier controller;
         private List<HeavenBarrier> controlledBarriers;
+        private int totalHp;
         private Dictionary<ChipBase.ELEMENT, int> damageBuildup;
         private int rawDamageTaken;
+        private int remainingRetaliation;
+        private Color textColor;
 
         private MOTION state;
         private Color overlayColor;
         private int lastDamage;
-
         private int deathOrder;
-
-        private int totalHp;
-        private int retaliationTaken;
 
         public HeavenBarrier(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
@@ -99,6 +98,7 @@ namespace NSEnemy
             this.badstatusresist = true;
 
             this.overlayColor = Color.Transparent;
+            this.textColor = Color.White;
         }
 
         public override int Hp
@@ -245,6 +245,9 @@ namespace NSEnemy
                                 c.waittime = 0;
                             });
                         }
+
+                        // TODO: actual damage calc
+                        this.remainingRetaliation = this.rawDamageTaken;
                     }
                     break;
                 case MOTION.RetaliatingChargeUp:
@@ -311,6 +314,18 @@ namespace NSEnemy
 
                         if (this.controller == this)
                         {
+                            if (this.waittime < 225)
+                            {
+                                var textStrobeTime = 45;
+                                if (this.waittime % textStrobeTime == 0)
+                                {
+                                    this.textColor = (this.waittime / textStrobeTime) % 2 == 0 ? Color.Red : Color.Transparent;
+                                }
+                            }
+                            else
+                            {
+                                this.textColor = Color.Red;
+                            }
 
                             if (this.waittime > 200)
                             {
@@ -412,10 +427,9 @@ namespace NSEnemy
                         {
                             if (this.RetaliateTickAction == null)
                             {
-                                // TODO: actual damage calc
-                                var adjustedRetaliation = this.rawDamageTaken;
+                                this.textColor = Color.Red;
 
-                                var fullDamagePerTick = (double)adjustedRetaliation / retaliationTime;
+                                var fullDamagePerTick = (double)this.remainingRetaliation / retaliationTime;
                                 var damagePerTick = (int)fullDamagePerTick;
                                 var remainderPerTick = fullDamagePerTick % 1.0;
                                 var leftoverDamage = 0.0;
@@ -427,7 +441,7 @@ namespace NSEnemy
                                     leftoverDamage = leftoverRemainder;
 
                                     var damageThisTick = wholeLeftoverDamage + damagePerTick;
-                                    this.retaliationTaken += damageThisTick;
+                                    this.remainingRetaliation -= damageThisTick;
 
                                     var enemies = this.parent.AllChara().Where(c => c.union == this.UnionEnemy);
                                     foreach (var enemy in enemies)
@@ -468,6 +482,7 @@ namespace NSEnemy
                         else if (this.waittime < retaliationTime + 300)
                         {
                             // settle
+                            this.textColor = Color.Transparent;
                         }
                         else
                         {
@@ -648,12 +663,19 @@ namespace NSEnemy
             //this.HPposition = new Vector2(this.positionDirect.X + 4f, this.positionDirect.Y - 32f);
             this.Nameprint(dg, this.printNumber);
 
-            if (this == this.controller)
+            if (this.controller == this)
             {
-                var remainingHp = this.totalHp - this.rawDamageTaken;
-                if (remainingHp > 0 && this.controlledBarriers.All(c => c.state == MOTION.Absorbing))
+                if (this.textColor.A != 0)
                 {
-                    DrawBlockCharacters(dg, this.Nametodata(remainingHp.ToString()), 88, new Vector2(168 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);
+                    var remainingHp = this.totalHp - this.rawDamageTaken;
+                    if (remainingHp > 0 && this.controlledBarriers.All(c => c.state == MOTION.Absorbing))
+                    {
+                        DrawBlockCharacters(dg, this.Nametodata(remainingHp.ToString()), 88, new Vector2(164 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);
+                    }
+                    else if (this.controlledBarriers.All(c => c.state == MOTION.RetaliatingChargeUp || c.state == MOTION.Retaliating))
+                    {
+                        DrawBlockCharacters(dg, this.Nametodata(this.remainingRetaliation.ToString()), 88, new Vector2(164 + this.Shake.X, 40 + this.Shake.Y), Color.Red, out var finalRect, out var finalPos);
+                    }
                 }
             }
         }
