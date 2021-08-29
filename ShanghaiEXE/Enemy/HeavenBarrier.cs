@@ -23,6 +23,7 @@ namespace NSEnemy
 
         private HeavenBarrier controller;
         private List<HeavenBarrier> controlledBarriers;
+        private List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>> unprocessedAttacks;
         private int totalHp;
         private Dictionary<ChipBase.ELEMENT, int> damageBuildup;
         private int rawDamageTaken;
@@ -92,8 +93,8 @@ namespace NSEnemy
             this.dropchips[4].chip = new Reygun(this.sound);
             this.dropchips[4].codeNo = 3;
 
-            this.hpmax = this.hp;
-            this.hpprint = this.hp;
+            this.hpmax = int.MaxValue;
+            this.hpprint = int.MaxValue;
             this.neutlal = true;
             this.badstatusresist = true;
 
@@ -153,8 +154,7 @@ namespace NSEnemy
                 var cappedDamage = Math.Min(attackDamage, remainingDamage);
                 this.controller.rawDamageTaken += cappedDamage;
 
-                // TODO: Handle damage cancelling, effects
-                this.controller.damageBuildup[attack.Element] += cappedDamage;
+                this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
 
                 this.lastDamage = -1;
             }
@@ -189,6 +189,7 @@ namespace NSEnemy
                     { ChipBase.ELEMENT.poison, 0 },
                     { ChipBase.ELEMENT.earth, 0 }
                 };
+                this.unprocessedAttacks = new List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>>();
             }
         }
 
@@ -504,6 +505,24 @@ namespace NSEnemy
 
             if (this.controller == this)
             {
+                foreach (var attack in this.unprocessedAttacks)
+                {
+                    var hitBarrier = attack.Item1;
+                    var hitElement = attack.Item2;
+                    var hitAmount = attack.Item3;
+
+                    var barriersNotSimulHit = this.controlledBarriers.Except(this.unprocessedAttacks.Select(a => a.Item1));
+                    foreach (var barrier in barriersNotSimulHit)
+                    {
+                        // TODO:
+                        // this.parent.effects.Add(new Repair(this.sound, this.parent, barrier.position.X, barrier.position.Y, 2));
+                    }
+
+                    // TODO: Handle damage cancelling, effects
+                    this.damageBuildup[hitElement] += hitAmount;
+                }
+                this.unprocessedAttacks.Clear();
+
                 var panels = Enumerable.Range(0, this.parent.panel.GetLength(0))
                     .SelectMany(px => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(py => new Point(px, py)));
                 foreach (var panelPos in panels)
