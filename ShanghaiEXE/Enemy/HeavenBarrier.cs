@@ -18,6 +18,7 @@ namespace NSEnemy
     internal class HeavenBarrier : EnemyBase
     {
         private static readonly Rectangle SparkleTextureRect = new Rectangle(450, 780, 5, 5);
+        private static readonly Rectangle DamageBlobTextureRect = new Rectangle(200, 160, 9, 9);
 
         private readonly IDictionary<int, Sparkle> sparkles = new ConcurrentDictionary<int, Sparkle>();
 
@@ -248,7 +249,7 @@ namespace NSEnemy
                         }
 
                         // TODO: actual damage calc
-                        this.remainingRetaliation = this.rawDamageTaken;
+                        this.remainingRetaliation = this.damageBuildup.Sum(kvp => kvp.Value);
                     }
                     break;
                 case MOTION.RetaliatingChargeUp:
@@ -511,15 +512,25 @@ namespace NSEnemy
                     var hitElement = attack.Item2;
                     var hitAmount = attack.Item3;
 
-                    var barriersNotSimulHit = this.controlledBarriers.Except(this.unprocessedAttacks.Select(a => a.Item1));
-                    foreach (var barrier in barriersNotSimulHit)
+                    var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1);
+                    foreach (var barrier in this.controlledBarriers)
                     {
-                        // TODO:
-                        // this.parent.effects.Add(new Repair(this.sound, this.parent, barrier.position.X, barrier.position.Y, 2));
-                    }
+                        var isSuccessful = barriersSimulHit.Contains(barrier);
+                        if (isSuccessful)
+                        {
+                            // simulhit
+                            // no effects
+                        }
+                        else
+                        {
+                            var damageBlob = new BarrierDamageBlob(this.sound, this.parent, hitBarrier.positionDirect, hitBarrier.position, barrier.positionDirect);
+                            damageBlob.upprint = true;
+                            this.parent.effects.Add(damageBlob);
 
-                    // TODO: Handle damage cancelling, effects
-                    this.damageBuildup[hitElement] += hitAmount;
+                            // TODO: Handle damage cancelling, effects
+                            this.damageBuildup[hitElement] += hitAmount;
+                        }
+                    }
                 }
                 this.unprocessedAttacks.Clear();
 
@@ -530,8 +541,6 @@ namespace NSEnemy
                     var panel = this.parent.panel[panelPos.X, panelPos.Y];
                     switch (panel.State)
                     {
-                        case Panel.PANEL._grass:
-                        case Panel.PANEL._ice:
                         case Panel.PANEL._sand:
                         case Panel.PANEL._poison:
                         case Panel.PANEL._burner:
@@ -539,6 +548,8 @@ namespace NSEnemy
                             panel.State = Panel.PANEL._nomal;
                             this.parent.effects.Add(new Smoke(this.sound, this.parent, panelPos.X, panelPos.Y, panel.Element));
                             break;
+                        case Panel.PANEL._grass:
+                        case Panel.PANEL._ice:
                         case Panel.PANEL._crack:
                         case Panel.PANEL._break:
                         case Panel.PANEL._nomal:
@@ -579,7 +590,7 @@ namespace NSEnemy
                         var noisePower = 100;
                         var noisePosition = new Vector2(260 - xOffset, -10 + yOffset);
                         var yVel = -(float)this.Random.NextDouble() * Math.Max(0, noisePosition.Y) / 5;
-                        var breakthroughChance = 1.0 - (double)this.controlledBarriers.Count(c => c.state == MOTION.Absorbing) / (this.controlledBarriers.Count + 1);
+                        var breakthroughChance = 0.1 + (0.8 * this.rawDamageTaken / this.totalHp);
                         this.parent.attacks.Add(
                             new NoiseBreakout(
                                 this.sound,

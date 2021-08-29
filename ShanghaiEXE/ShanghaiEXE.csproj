@@ -392,6 +392,7 @@
     <Compile Include="Effect\FreeSoul.cs" />
     <Compile Include="Effect\HeavenTreeEvent.cs" />
     <Compile Include="Effect\HeavenWarpKikuri.cs" />
+    <Compile Include="Effect\BarrierDamageBlob.cs" />
     <Compile Include="Effect\ReflShield.cs" />
     <Compile Include="Effect\Noise.cs" />
     <Compile Include="Effect\Debuff.cs" />
