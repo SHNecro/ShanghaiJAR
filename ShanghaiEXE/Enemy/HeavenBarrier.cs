@@ -28,7 +28,9 @@ namespace NSEnemy
         private int totalHp;
         private Dictionary<ChipBase.ELEMENT, int> damageBuildup;
         private int rawDamageTaken;
+        private int rawDamageTakenSinceLastUpdate;
         private int remainingRetaliation;
+        private bool isPerfectKill;
         private Color textColor;
 
         private MOTION state;
@@ -153,7 +155,7 @@ namespace NSEnemy
 
                 var remainingDamage = this.controller.totalHp - this.controller.rawDamageTaken;
                 var cappedDamage = Math.Min(attackDamage, remainingDamage);
-                this.controller.rawDamageTaken += cappedDamage;
+                this.controller.rawDamageTakenSinceLastUpdate += cappedDamage;
 
                 this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
 
@@ -250,6 +252,7 @@ namespace NSEnemy
 
                         // TODO: actual damage calc
                         this.remainingRetaliation = this.damageBuildup.Sum(kvp => kvp.Value);
+                        this.isPerfectKill = this.remainingRetaliation == 0;
                     }
                     break;
                 case MOTION.RetaliatingChargeUp:
@@ -329,21 +332,25 @@ namespace NSEnemy
                                 this.textColor = Color.Red;
                             }
 
+                            // pre-mark panels for petals
                             if (this.waittime > 200)
                             {
                                 if (this.waittime % 8 == 0)
                                 {
                                     var untargetedPanels = Enumerable.Range(0, 6).SelectMany(c => Enumerable.Range(0, 3).Select(r => new Point(c, r))).Cast<Point?>()
-                                        .Where(p => !this.parent.attacks.Any(ef => ef is Dummy && ef.position == p));
+                                        .Where(p => !this.parent.attacks.Any(ef => ef is Dummy && ef.position == p)
+                                                && (!this.isPerfectKill || this.parent.panel[p.Value.X, p.Value.Y].color == this.union));
                                     var untargetedOrRandomPanel = untargetedPanels.ElementAtOrDefault(this.Random.Next(0, untargetedPanels.Count()))
-                                        ?? new Point(this.Random.Next(0, 6), this.Random.Next(0, 3));
+                                        ?? new Point(this.Random.Next(!this.isPerfectKill ? 0 : 3, 6), this.Random.Next(0, 3));
                                     this.parent.attacks.Add(new Dummy(this.sound, this.parent, untargetedOrRandomPanel.X, untargetedOrRandomPanel.Y, this.union, new Point(0, 0), 120, true));
                                 }
                             }
 
                             if (this.waittime == 300)
                             {
-                                this.parent.effects.Add(new PetalBreeze(this.sound, Vector2.Zero, Point.Empty));
+                                var petalBreeze = new PetalBreeze(this.sound, Vector2.Zero, Point.Empty);
+                                petalBreeze.upprint = true;
+                                this.parent.effects.Add(petalBreeze);
                             }
 
                             //if (this.waittime > 100 && this.waittime < 300)
@@ -424,7 +431,7 @@ namespace NSEnemy
 
                     if (this.controller == this)
                     {
-                        var retaliationTime = 1000;
+                        var retaliationTime = !this.isPerfectKill ? 1000 : 200;
                         if (this.waittime < retaliationTime)
                         {
                             if (this.RetaliateTickAction == null)
@@ -457,15 +464,18 @@ namespace NSEnemy
 
                             if (this.waittime % 120 == 0)
                             {
-                                this.parent.effects.Add(new PetalBreeze(this.sound, Vector2.Zero, Point.Empty));
+                                var petalBreeze = new PetalBreeze(this.sound, Vector2.Zero, Point.Empty);
+                                petalBreeze.upprint = (this.waittime / 120) % 2 == 0;
+                                this.parent.effects.Add(petalBreeze);
                             }
 
                             if (this.waittime % 4 == 0)
                             {
                                 var untargetedPanels = Enumerable.Range(0, 6).SelectMany(c => Enumerable.Range(0, 3).Select(r => new Point(c, r))).Cast<Point?>()
-                                    .Where(p => !this.parent.effects.Any(ef => ef is BadWater && ef.position == p));
+                                    .Where(p => !this.parent.effects.Any(ef => ef is BadWater && ef.position == p)
+                                                && (!this.isPerfectKill || this.parent.panel[p.Value.X, p.Value.Y].color == this.union));
                                 var untargetedOrRandomPanel = untargetedPanels.ElementAtOrDefault(this.Random.Next(0, untargetedPanels.Count()))
-                                    ?? new Point(this.Random.Next(0, 6), this.Random.Next(0, 3));
+                                    ?? new Point(this.Random.Next(!this.isPerfectKill ? 0 : 3, 6), this.Random.Next(0, 3));
                                 this.parent.effects.Add(new BadWater(this.sound, this.parent, untargetedOrRandomPanel.X, untargetedOrRandomPanel.Y, 2, BadWater.TYPE.Pink));
                             }
 
@@ -474,15 +484,26 @@ namespace NSEnemy
                                 if (this.waittime % 8 == 0)
                                 {
                                     var untargetedPanels = Enumerable.Range(0, 6).SelectMany(c => Enumerable.Range(0, 3).Select(r => new Point(c, r))).Cast<Point?>()
-                                        .Where(p => !this.parent.attacks.Any(ef => ef is Dummy && ef.position == p));
+                                        .Where(p => !this.parent.attacks.Any(ef => ef is Dummy && ef.position == p)
+                                                && (!this.isPerfectKill || this.parent.panel[p.Value.X, p.Value.Y].color == this.union));
                                     var untargetedOrRandomPanel = untargetedPanels.ElementAtOrDefault(this.Random.Next(0, untargetedPanels.Count()))
-                                        ?? new Point(this.Random.Next(0, 6), this.Random.Next(0, 3));
+                                        ?? new Point(this.Random.Next(!this.isPerfectKill ? 0 : 3, 6), this.Random.Next(0, 3));
                                     this.parent.attacks.Add(new Dummy(this.sound, this.parent, untargetedOrRandomPanel.X, untargetedOrRandomPanel.Y, this.union, new Point(0, 0), 120, true));
                                 }
                             }
                         }
                         else if (this.waittime < retaliationTime + 300)
                         {
+                            if (this.remainingRetaliation > 0)
+                            {
+                                var enemies = this.parent.AllChara().Where(c => c.union == this.UnionEnemy);
+                                foreach (var enemy in enemies)
+                                {
+                                    enemy.Hp -= this.remainingRetaliation;
+                                }
+                                this.remainingRetaliation = 0;
+                            }
+
                             // settle
                             this.textColor = Color.Transparent;
                         }
@@ -533,6 +554,12 @@ namespace NSEnemy
                     }
                 }
                 this.unprocessedAttacks.Clear();
+
+                if (this.rawDamageTakenSinceLastUpdate > 0)
+                {
+                    this.rawDamageTaken += this.rawDamageTakenSinceLastUpdate;
+                    this.rawDamageTakenSinceLastUpdate = 0;
+                }
 
                 var panels = Enumerable.Range(0, this.parent.panel.GetLength(0))
                     .SelectMany(px => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(py => new Point(px, py)));
@@ -702,7 +729,7 @@ namespace NSEnemy
                     {
                         DrawBlockCharacters(dg, this.Nametodata(remainingHp.ToString()), 88, new Vector2(164 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);
                     }
-                    else if (this.controlledBarriers.All(c => c.state == MOTION.RetaliatingChargeUp || c.state == MOTION.Retaliating))
+                    else if (this.controlledBarriers.All(c => c.state == MOTION.RetaliatingChargeUp || c.state == MOTION.Retaliating) && !this.isPerfectKill)
                     {
                         DrawBlockCharacters(dg, this.Nametodata(this.remainingRetaliation.ToString()), 88, new Vector2(164 + this.Shake.X, 40 + this.Shake.Y), Color.Red, out var finalRect, out var finalPos);
                     }
