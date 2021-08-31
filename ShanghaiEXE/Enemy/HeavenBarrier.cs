@@ -351,6 +351,12 @@ namespace NSEnemy
                                 var petalBreeze = new PetalBreeze(this.sound, Vector2.Zero, Point.Empty);
                                 petalBreeze.upprint = true;
                                 this.parent.effects.Add(petalBreeze);
+
+                                var enemies = this.parent.AllChara().Where(c => c.union == this.UnionEnemy);
+                                foreach (var enemy in enemies)
+                                {
+                                    enemy.barierTime = Math.Min(enemy.barierTime, 60);
+                                }
                             }
 
                             //if (this.waittime > 100 && this.waittime < 300)
@@ -544,12 +550,15 @@ namespace NSEnemy
                         }
                         else
                         {
-                            var damageBlob = new BarrierDamageBlob(this.sound, this.parent, hitBarrier.positionDirect, hitBarrier.position, barrier.positionDirect);
+                            var damageBlob = new BarrierDamageBlob(
+                                this.sound,
+                                this.parent,
+                                hitBarrier.positionDirect,
+                                hitBarrier.position,
+                                barrier.positionDirect,
+                                () => { this.damageBuildup[hitElement] += hitAmount; });
                             damageBlob.upprint = true;
                             this.parent.effects.Add(damageBlob);
-
-                            // TODO: Handle damage cancelling, effects
-                            this.damageBuildup[hitElement] += hitAmount;
                         }
                     }
                 }

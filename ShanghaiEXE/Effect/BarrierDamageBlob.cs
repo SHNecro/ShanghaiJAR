@@ -13,13 +13,16 @@ namespace NSEffect
         private static readonly Rectangle TextureRect = new Rectangle(200, 160, 9, 9);
 
         private Vector2 destination;
+        private Action onArrivalAction;
 
-        public BarrierDamageBlob(IAudioEngine s, SceneBattle parent, Vector2 pd, Point posi, Vector2 destination)
+        public BarrierDamageBlob(IAudioEngine s, SceneBattle parent, Vector2 pd, Point posi, Vector2 destination, Action onArrivalAction)
           : base(s, null, posi.X, posi.Y)
         {
             this.parent = parent;
             this.positionDirect = pd;
             this.destination = destination;
+            this.onArrivalAction = onArrivalAction;
+
             this.animationpoint.X = 0;
         }
 
@@ -30,6 +33,8 @@ namespace NSEffect
                 var repairEffect = new Repair(this.sound, this.parent, this.positionDirect, 2, this.position);
                 repairEffect.upprint = true;
                 this.parent.effects.Add(repairEffect);
+                this.onArrivalAction?.Invoke();
+
                 this.flag = false;
             }
 
