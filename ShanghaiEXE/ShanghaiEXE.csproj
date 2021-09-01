@@ -440,6 +440,7 @@
     <Compile Include="InputOutput\Rendering\TextureLoadProgressUpdatedEventArgs.cs" />
     <Compile Include="Map\Character\Menu\Library.cs" />
     <Compile Include="Data\Messages.cs" />
+    <Compile Include="Object\BarrierInfoPanel.cs" />
     <Compile Include="Services\ILanguageTranslationService.cs" />
     <Compile Include="Services\LanguageTranslationService.cs" />
     <Compile Include="Title\SceneTitle.cs" />

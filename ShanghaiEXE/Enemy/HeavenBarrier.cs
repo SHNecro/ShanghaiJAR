@@ -12,6 +12,7 @@ using NSEffect;
 using System.Collections.Concurrent;
 using System;
 using NSBattle.Character;
+using NSObject;
 
 namespace NSEnemy
 {
@@ -32,6 +33,7 @@ namespace NSEnemy
         private int remainingRetaliation;
         private bool isPerfectKill;
         private Color textColor;
+        private BarrierInfoPanel infoPanel;
 
         private MOTION state;
         private Color overlayColor;
@@ -193,6 +195,9 @@ namespace NSEnemy
                     { ChipBase.ELEMENT.earth, 0 }
                 };
                 this.unprocessedAttacks = new List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>>();
+
+                this.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.damageBuildup[elem]);
+                this.parent.objects.Add(this.infoPanel);
             }
         }
 
@@ -248,6 +253,7 @@ namespace NSEnemy
                                 c.state = MOTION.RetaliatingChargeUp;
                                 c.waittime = 0;
                             });
+                            this.infoPanel.Break();
                         }
 
                         // TODO: actual damage calc
