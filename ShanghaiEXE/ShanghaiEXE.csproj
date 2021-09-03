@@ -402,6 +402,7 @@
     <Compile Include="Effect\PetalBreeze.cs" />
     <Compile Include="Effect\KikuriFade.cs" />
     <Compile Include="Effect\DruidManFlinch.cs" />
+    <Compile Include="Effect\ScreenObjectFade.cs" />
     <Compile Include="Effect\StepShadowYuyu.cs" />
     <Compile Include="Enemy\ChipUsingNaviBase.cs" />
     <Compile Include="Enemy\DruidMan.cs" />

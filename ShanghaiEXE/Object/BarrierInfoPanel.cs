@@ -8,6 +8,7 @@ using NSChip;
 using System.Collections.Generic;
 using System;
 using NSEffect;
+using System.Linq;
 
 namespace NSObject
 {
@@ -27,11 +28,23 @@ namespace NSObject
             { ChipBase.ELEMENT.earth, new Point(3, 0) }
         };
 
+        private static Dictionary<ChipBase.ELEMENT, Tuple<Vector2, Color>> ElementTextLocations = new Dictionary<ChipBase.ELEMENT, Tuple<Vector2, Color>>
+        {
+            { ChipBase.ELEMENT.normal, Tuple.Create(new Vector2(106, 48), Color.White) },
+            { ChipBase.ELEMENT.heat, Tuple.Create(new Vector2(106 - 28, 48 - 18), Color.FromArgb(240, 136, 0)) },
+            { ChipBase.ELEMENT.aqua, Tuple.Create(new Vector2(106 - 28, 48 + 18), Color.FromArgb(88, 128, 248)) },
+            { ChipBase.ELEMENT.eleki, Tuple.Create(new Vector2(106 + 28, 48 + 18), Color.FromArgb(248, 240, 50)) },
+            { ChipBase.ELEMENT.leaf, Tuple.Create(new Vector2(106 + 28, 48 - 18), Color.FromArgb(56, 224, 144)) },
+            { ChipBase.ELEMENT.poison, Tuple.Create(new Vector2(106 + 52, 48), Color.FromArgb(176, 65, 241)) },
+            { ChipBase.ELEMENT.earth, Tuple.Create(new Vector2(106 - 52, 48), Color.FromArgb(214, 162, 24)) }
+        };
+
         private Func<ChipBase.ELEMENT, int> elementAmountFunc;
 
         private bool breaking;
 
         private ScreenBlack screenGreyOut;
+        private List<ScreenObjectFade> infoText;
 
         public BarrierInfoPanel(
           IAudioEngine s,
@@ -61,6 +74,7 @@ namespace NSObject
             this.positionDirect = new Vector2(pX * 40 + 20, pY * 24 + 83);
 
             this.elementAmountFunc = elementLightUpFunc;
+            this.infoText = new List<ScreenObjectFade>();
         }
 
         public override void Updata()
@@ -95,6 +109,49 @@ namespace NSObject
                         this.screenGreyOut = new ScreenBlack(this.sound, this.parent, Vector2.Zero, new Point(5, 2), ChipBase.ELEMENT.normal, 0, false, Color.FromArgb(96, Color.Black), 6);
                         this.screenGreyOut.downprint = false;
                         this.parent.effects.Add(this.screenGreyOut);
+
+                        foreach (var elementEntry in ElementTextLocations)
+                        {
+                            var elementIcon = new ScreenObjectFade(
+                                this.sound,
+                                this.parent,
+                                "battleobjects",
+                                new Rectangle(216 + 16 * (int)elementEntry.Key, 88, 16, 16),
+                                elementEntry.Value.Item1,
+                                this.position,
+                                0,
+                                false,
+                                Color.White,
+                                8);
+                            this.parent.effects.Add(elementIcon);
+                            this.infoText.Add(elementIcon);
+
+                            var elementText = new ScreenObjectFade(
+                                this.sound,
+                                this.parent,
+                                () => this.elementAmountFunc(elementEntry.Key).ToString(),
+                                elementEntry.Value.Item1 + new Vector2(16 + 2 - 1, 0 - 1),
+                                this.position,
+                                0,
+                                false,
+                                elementEntry.Value.Item2,
+                                8);
+                            this.parent.effects.Add(elementText);
+                            this.infoText.Add(elementText);
+                        }
+
+                        var totalDamageText = new ScreenObjectFade(
+                            this.sound,
+                            this.parent,
+                            () => ElementTextLocations.Select(kvp => this.elementAmountFunc(kvp.Key)).Sum().ToString(),
+                            new Vector2(106, 48 + 18*2) + new Vector2(16 + 2 - 1 - 8, 0 - 1),
+                            this.position,
+                            0,
+                            false,
+                            Color.Red,
+                            8);
+                        this.parent.effects.Add(totalDamageText);
+                        this.infoText.Add(totalDamageText);
                     }
                 }
                 else
@@ -103,6 +160,12 @@ namespace NSObject
                     {
                         this.screenGreyOut.end = true;
                         this.screenGreyOut = null;
+
+                        foreach (var elementInfoText in this.infoText)
+                        {
+                            elementInfoText.end = true;
+                        }
+                        this.infoText.Clear();
                     }
                 }
             }
@@ -131,6 +194,12 @@ namespace NSObject
             {
                 this.screenGreyOut.end = true;
                 this.screenGreyOut = null;
+
+                foreach (var elementInfoText in this.infoText)
+                {
+                    elementInfoText.end = true;
+                }
+                this.infoText.Clear();
             }
         }
 
