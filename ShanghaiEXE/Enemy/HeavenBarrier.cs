@@ -40,6 +40,8 @@ namespace NSEnemy
         private int lastDamage;
         private int deathOrder;
 
+        private Action retaliateTickAction;
+
         public HeavenBarrier(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
@@ -132,8 +134,6 @@ namespace NSEnemy
                 }
             }
         }
-
-        private Action RetaliateTickAction { get; set; }
 
         public override void Dameged(AttackBase attack)
         {
@@ -254,11 +254,35 @@ namespace NSEnemy
                                 c.waittime = 0;
                             });
                             this.infoPanel.Break();
-                        }
 
-                        // TODO: actual damage calc
-                        this.remainingRetaliation = this.damageBuildup.Sum(kvp => kvp.Value);
-                        this.isPerfectKill = this.remainingRetaliation == 0;
+                            var cancelledElements = this.damageBuildup.ToDictionary(kvp => kvp.Key, kvp => 0);
+                            foreach (var typeDamage in this.damageBuildup)
+                            {
+                                if (typeDamage.Key == ChipBase.ELEMENT.normal || typeDamage.Value <= 0)
+                                {
+                                    continue;
+                                }
+
+                                var effectiveTypes = GetEffectiveElements(typeDamage.Key);
+                                if (effectiveTypes.All(t => this.damageBuildup[t] - cancelledElements[t] > 0))
+                                {
+                                    var cancelledElementTypes = effectiveTypes.ToList();
+                                    cancelledElementTypes.Add(typeDamage.Key);
+                                    var cancelledAmount = cancelledElementTypes.Select(t => this.damageBuildup[t] - cancelledElements[t]).Min();
+                                    foreach (var cancelledElementType in cancelledElementTypes)
+                                    {
+                                        cancelledElements[cancelledElementType] += cancelledAmount;
+                                    }
+                                }
+                            }
+                            foreach (var kvp in cancelledElements)
+                            {
+                                this.damageBuildup[kvp.Key] -= kvp.Value;
+                            }
+
+                            this.remainingRetaliation = this.damageBuildup.Sum(kvp => kvp.Value);
+                            this.isPerfectKill = this.remainingRetaliation == 0;
+                        }
                     }
                     break;
                 case MOTION.RetaliatingChargeUp:
@@ -364,69 +388,6 @@ namespace NSEnemy
                                     enemy.barierTime = Math.Min(enemy.barierTime, 60);
                                 }
                             }
-
-                            //if (this.waittime > 100 && this.waittime < 300)
-                            //{
-                            //    if (this.waittime % 30 == 0)
-                            //    {
-                            //        this.sound.PlaySE(SoundEffect.pikin);
-                            //    }
-
-                            //    if (this.waittime == 200)
-                            //    {
-                            //        this.parent.attacks.Add(new Dummy(this.sound, this.parent, 1, 1, this.union, new Point(0, 0), 100, true));
-                            //    }
-                            //}
-
-                            //else if (this.waittime == 300)
-                            //{
-                            //    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 1, 1, this.union, new Point(0, 0), 600, false));
-                            //    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 2, 0, this.union, new Point(3, 3), 150, true));
-                            //    this.sound.PlaySE(SoundEffect.wave);
-                            //}
-                            //else if (this.waittime == 450)
-                            //{
-                            //    this.parent.attacks.Add(new Dummy(this.sound, this.parent, 2, 0, this.union, new Point(3, 3), 600, false));
-                            //}
-                            //else if (this.waittime > 450)
-                            //{
-                            //    this.RetaliateTick();
-                            //    this.sound.PlaySE(SoundEffect.beamlong);
-                            //}
-
-                            //var numberOfSparkles = 8 * Math.Pow(this.waittime / 660.0, 2);
-                            //for (var i = 1; i < numberOfSparkles; i++)
-                            //{
-                            //    // Pillar starts offscreen, goes to 60, 105 (middle of area)
-                            //    var initialPosition = new Point(60, -8 + this.Random.Next(1, 4));
-                            //    var lifespan = 720;
-                            //    var t = 0;
-                            //    var randomPhaseShift = this.Random.NextDouble() * 2 * Math.PI;
-
-                            //    var spinSpeedFactor = 1 + 4 * ((double)this.waittime / lifespan);
-                            //    var rotations = 5;
-
-                            //    var downwardsVelocity = 2 * (this.waittime / 660.0);
-                            //    var radiusExpansion = (this.Random.NextDouble() + 0.5) * (this.waittime / 660.0);
-                            //    var movement = new Action<Sparkle>(s =>
-                            //    {
-                            //        t++;
-                            //        var radian = randomPhaseShift + (spinSpeedFactor * (t * rotations / (360 / (2 * Math.PI))));
-
-                            //        var radius = 5 + ((double)t / lifespan) * 50 * 0.5 * (1 - Math.Cos(Math.Min(Math.PI, radiusExpansion * (t / (360 / (2 * Math.PI))))));
-                            //        var xSpin = radius * Math.Cos(radian);
-                            //        var ySpin = 0.5 * radius * Math.Sin(radian);
-
-                            //        var yOffset = 115 * 0.5 * (1 - Math.Cos(Math.Min(Math.PI, downwardsVelocity * (t / (360 / (2 * Math.PI))))));
-
-                            //        var x = 0.0 + xSpin;
-                            //        var y = yOffset + ySpin;
-                            //        s.Position = new Point(initialPosition.X + (int)Math.Round(x), initialPosition.Y + (int)Math.Round(y));
-                            //    });
-                            //    var newSparkle = new Sparkle { Lifespan = lifespan, RemainingLife = lifespan, Movement = movement };
-                            //    movement.Invoke(newSparkle);
-                            //    this.sparkles[this.sparkles.FirstOrDefault(kvp => !this.sparkles.ContainsKey(kvp.Key + 1)).Key + 1] = newSparkle;
-                            //}
                         }
                     }
                     else
@@ -446,7 +407,7 @@ namespace NSEnemy
                         var retaliationTime = !this.isPerfectKill ? 1000 : 200;
                         if (this.waittime < retaliationTime)
                         {
-                            if (this.RetaliateTickAction == null)
+                            if (this.retaliateTickAction == null)
                             {
                                 this.textColor = Color.Red;
 
@@ -454,7 +415,7 @@ namespace NSEnemy
                                 var damagePerTick = (int)fullDamagePerTick;
                                 var remainderPerTick = fullDamagePerTick % 1.0;
                                 var leftoverDamage = 0.0;
-                                this.RetaliateTickAction = () =>
+                                this.retaliateTickAction = () =>
                                 {
                                     leftoverDamage += remainderPerTick;
                                     var leftoverRemainder = leftoverDamage % 1.0;
@@ -472,7 +433,7 @@ namespace NSEnemy
                                 };
                             }
 
-                            this.RetaliateTickAction.Invoke();
+                            this.retaliateTickAction.Invoke();
 
                             if (this.waittime % 120 == 0)
                             {
@@ -603,6 +564,26 @@ namespace NSEnemy
 
                 if (this.controlledBarriers.Any(c => c.state == MOTION.Absorbing || c.state == MOTION.Breaking || c.state == MOTION.Broken))
                 {
+                    var decrementedElements = new List<ChipBase.ELEMENT>();
+                    foreach (var typeDamage in this.damageBuildup)
+                    {
+                        if (typeDamage.Key == ChipBase.ELEMENT.normal || typeDamage.Value <= 0)
+                        {
+                            continue;
+                        }
+
+                        var effectiveTypes = GetEffectiveElements(typeDamage.Key);
+                        if (effectiveTypes.All(t => this.damageBuildup[t] > 0))
+                        {
+                            decrementedElements.Add(typeDamage.Key);
+                            decrementedElements.AddRange(effectiveTypes);
+                        }
+                    }
+                    foreach (var decrementedElement in decrementedElements)
+                    {
+                        this.damageBuildup[decrementedElement]--;
+                    }
+
                     if (this.waittime % 2 == 0)
                     {
                         var xOffset = this.Random.Next(0, 50);
@@ -769,6 +750,27 @@ namespace NSEnemy
             foreach (var kvp in this.sparkles)
             {
                 kvp.Value.Movement?.Invoke(kvp.Value);
+            }
+        }
+
+        private static ChipBase.ELEMENT[] GetEffectiveElements(ChipBase.ELEMENT elem)
+        {
+            switch (elem)
+            {
+                case ChipBase.ELEMENT.heat:
+                    return new[] { ChipBase.ELEMENT.aqua, ChipBase.ELEMENT.earth };
+                case ChipBase.ELEMENT.aqua:
+                    return new[] { ChipBase.ELEMENT.eleki, ChipBase.ELEMENT.poison };
+                case ChipBase.ELEMENT.eleki:
+                    return new[] { ChipBase.ELEMENT.leaf, ChipBase.ELEMENT.earth };
+                case ChipBase.ELEMENT.leaf:
+                    return new[] { ChipBase.ELEMENT.heat, ChipBase.ELEMENT.poison };
+                case ChipBase.ELEMENT.poison:
+                    return new[] { ChipBase.ELEMENT.heat, ChipBase.ELEMENT.eleki };
+                case ChipBase.ELEMENT.earth:
+                    return new[] { ChipBase.ELEMENT.aqua, ChipBase.ELEMENT.leaf };
+                default:
+                    return Enum.GetValues(typeof(ChipBase.ELEMENT)).Cast<ChipBase.ELEMENT>().Except(new[] { ChipBase.ELEMENT.normal }).ToArray();
             }
         }
 
