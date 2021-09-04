@@ -30,13 +30,13 @@ namespace NSObject
 
         private static Dictionary<ChipBase.ELEMENT, Tuple<Vector2, Color>> ElementTextLocations = new Dictionary<ChipBase.ELEMENT, Tuple<Vector2, Color>>
         {
-            { ChipBase.ELEMENT.normal, Tuple.Create(new Vector2(106, 48), Color.White) },
-            { ChipBase.ELEMENT.heat, Tuple.Create(new Vector2(106 - 28, 48 - 18), Color.FromArgb(240, 136, 0)) },
-            { ChipBase.ELEMENT.aqua, Tuple.Create(new Vector2(106 - 28, 48 + 18), Color.FromArgb(88, 128, 248)) },
-            { ChipBase.ELEMENT.eleki, Tuple.Create(new Vector2(106 + 28, 48 + 18), Color.FromArgb(248, 240, 50)) },
-            { ChipBase.ELEMENT.leaf, Tuple.Create(new Vector2(106 + 28, 48 - 18), Color.FromArgb(56, 224, 144)) },
-            { ChipBase.ELEMENT.poison, Tuple.Create(new Vector2(106 + 52, 48), Color.FromArgb(176, 65, 241)) },
-            { ChipBase.ELEMENT.earth, Tuple.Create(new Vector2(106 - 52, 48), Color.FromArgb(214, 162, 24)) }
+            { ChipBase.ELEMENT.normal, Tuple.Create(new Vector2(106, 48 - 18 - 18 + 12), Color.White) },
+            { ChipBase.ELEMENT.heat, Tuple.Create(new Vector2(106 - 28, 48 - 18 + 12), Color.FromArgb(240, 136, 0)) },
+            { ChipBase.ELEMENT.aqua, Tuple.Create(new Vector2(106 - 28, 48 + 18 + 12), Color.FromArgb(88, 128, 248)) },
+            { ChipBase.ELEMENT.eleki, Tuple.Create(new Vector2(106 + 28, 48 + 18 + 12), Color.FromArgb(248, 240, 50)) },
+            { ChipBase.ELEMENT.leaf, Tuple.Create(new Vector2(106 + 28, 48 - 18 + 12), Color.FromArgb(56, 224, 144)) },
+            { ChipBase.ELEMENT.poison, Tuple.Create(new Vector2(106 + 52, 48 + 12), Color.FromArgb(176, 65, 241)) },
+            { ChipBase.ELEMENT.earth, Tuple.Create(new Vector2(106 - 52, 48 + 12), Color.FromArgb(214, 162, 24)) }
         };
 
         private Func<ChipBase.ELEMENT, int> elementAmountFunc;
@@ -144,7 +144,7 @@ namespace NSObject
                             this.sound,
                             this.parent,
                             () => ElementTextLocations.Select(kvp => this.elementAmountFunc(kvp.Key)).Sum().ToString(),
-                            new Vector2(106, 48 + 18*2) + new Vector2(16 + 2 - 1 - 8, 0 - 1),
+                            new Vector2(106, 48 + 12) + new Vector2(16 + 2 - 1 - 8, 0 - 1),
                             this.position,
                             0,
                             false,

@@ -561,6 +561,12 @@ namespace NSEnemy
                             break;
                     }
                 }
+                var forbiddenObjects = this.parent.AllObjects().Where(o => o is SuzuranWhite || o is BigSuzuran).Cast<ObjectBase>();
+                foreach (var forbiddenObject in forbiddenObjects)
+                {
+                    forbiddenObject.Break();
+                    this.parent.attacks.Add(new CrackThunder(this.sound, this.parent, forbiddenObject.position.X, forbiddenObject.position.Y, this.union, forbiddenObject.Hp, true));
+                }
 
                 if (this.controlledBarriers.Any(c => c.state == MOTION.Absorbing || c.state == MOTION.Breaking || c.state == MOTION.Broken))
                 {
