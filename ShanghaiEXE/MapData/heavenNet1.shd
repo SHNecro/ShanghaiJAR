@@ -4595,7 +4595,7 @@ fade:15:255:255:255:255:True
 effect:38:BarrierSmoke:Barrier1-1Stage2:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier1-1Stage2-Extra1:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier1-1Stage2-Extra2:::3:16:4:1:none
-battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:2:4:0:1:1:1:0::63:3:3:1:1:1:1:0::63:2:4:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
 bgmon:heavenbackground
 bgmfade:0:0:True
 bgmfade:100:60:False
@@ -5003,7 +5003,7 @@ fade:15:255:255:255:255:True
 effect:38:BarrierSmoke:Barrier1-2:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier1-2-Extra1:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier1-2-Extra2:::3:16:4:1:none
-battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:2:3:1:1:1:1:0::63:2:4:1:1:1:1:0::63:2:5:1:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
 bgmon:heavenbackground
 bgmfade:0:0:True
 bgmfade:100:60:False
@@ -5626,7 +5626,7 @@ fade:15:255:255:255:255:True
 effect:38:BarrierSmoke:Barrier1-3:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier1-3-Extra1:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier1-3-Extra2:::3:16:4:1:none
-battle:42:1:4:1:1:1:1:60:Enemy.MimaSpecial:0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:3:4:0:1:1:1:0::63:3:5:1:1:1:1:0::63:3:4:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
 bgmon:heavenbackground
 bgmfade:0:0:True
 bgmfade:100:60:False

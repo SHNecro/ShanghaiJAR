@@ -61,6 +61,7 @@ namespace NSEnemy
             this.printhp = false;
             this.printNumber = false;
             this.effecting = false;
+            this.noslip = true;
             if (this.parent != null)
                 this.roop = (byte)(parent.manyenemys - (uint)this.number);
             this.PositionDirectSet();
