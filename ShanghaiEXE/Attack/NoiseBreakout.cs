@@ -74,7 +74,7 @@ namespace NSAttack
         public override void Updata()
         {
             var noiseSpread = this.positionDirect + new Vector2(10 * 2 * (float)(this.Random.NextDouble() - 0.5), 10 * 2 * (float)(this.Random.NextDouble() - 0.5));
-            var noiseTrail = new Noise(this.sound, noiseSpread, Point.Empty, true);
+            var noiseTrail = new Noise(this.sound, noiseSpread, this.position, true);
             noiseTrail.blackOutObject = false;
             this.parent.effects.Add(noiseTrail);
             this.positionDirect += new Vector2(this.velocity.X, this.velocity.Y);
