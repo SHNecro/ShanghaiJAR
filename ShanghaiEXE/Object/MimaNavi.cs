@@ -174,7 +174,7 @@ namespace NSObject
 
         private bool EnemySearch(int Y)
         {
-            foreach (CharacterBase characterBase in this.parent.AllHitter())
+            foreach (CharacterBase characterBase in this.parent.AllChara())
             {
                 if (characterBase.union == this.UnionEnemy && characterBase.position.Y == Y)
                     return true;

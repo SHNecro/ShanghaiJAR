@@ -888,7 +888,7 @@ namespace NSBattle
                             break;
                         case 3:
                             this.panel[pX, pY].state = Panel.PANEL._nomal;
-                            this.objects.Add(new Rock(this.sound, this, pX, pY, Panel.COLOR.blue));
+                            this.objects.Add(new Rock(this.sound, this, pX, pY, this.panel[pX, pY].color));
                             break;
                     }
                 }
