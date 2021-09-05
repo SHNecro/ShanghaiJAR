@@ -268,14 +268,17 @@ namespace NSBattle
             }
             if (this.breaktime > 0)
             {
-                if (this.state == Panel.PANEL._break && !this.parent.blackOut)
+                if (this.state == Panel.PANEL._break)
                 {
-                    --this.breaktime;
-                    if (this.breaktime < 180 && this.breaktime % 3 == 0)
-                        this.breaktoggle = !this.breaktoggle;
-                    if (this.breaktime > 0)
-                        return;
-                    this.state = Panel.PANEL._nomal;
+                    if (!this.parent.blackOut)
+                    {
+                        --this.breaktime;
+                        if (this.breaktime < 180 && this.breaktime % 3 == 0)
+                            this.breaktoggle = !this.breaktoggle;
+                        if (this.breaktime > 0)
+                            return;
+                        this.state = Panel.PANEL._nomal;
+                    }
                 }
                 else
                     this.breaktime = 0;
