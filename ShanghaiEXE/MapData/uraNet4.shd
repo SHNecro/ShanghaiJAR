@@ -585,14 +585,14 @@ event:
 msgopen:
 msg:Map.UraNet4ROMGateStage3Dialogue1FaceNone
 seon:thiptransmission
-editFlag:565:True
+editFlag:564:True
 msg:Map.UraNet4ROMGateStage3Dialogue2FaceNone
 msgclose:
 end
 page:3
 startterms:Abutton
 type:0
-terms:flag/565
+terms:flag/564
 move:
 speed:0
 graphic:-1:0,0,0,0,0
