@@ -123,18 +123,14 @@ namespace NSChip
 					this.animePoint.Y = 0;
 					character.animationpoint.X = -1;
 					this.sound.PlaySE(SoundEffect.warp);
-
-
-
-
 					break;
 				case 8:
 					this.sound.PlaySE(SoundEffect.dark);
 					this.sound.PlaySE(SoundEffect.charge);
-					//character.animationpoint.Y = 4;
+					character.animationpoint.Y = 4;
 					break;
 				case 14:
-					battle.attacks.Add(new GigantFlear(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, false));
+					battle.attacks.Add(this.Paralyze(new GigantFlear(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 2, false)));
 					break;
 				case 120:
 					//character.waittime = 101;

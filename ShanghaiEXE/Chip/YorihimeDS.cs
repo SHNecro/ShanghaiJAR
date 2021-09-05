@@ -352,7 +352,7 @@ namespace NSChip
                                                 AttackBase attackBase = new BombAttack(this.sound, battle, this.xPosition + (1 + i) * base.UnionRebirth(character.union), j, character.union, base.Power(character), 4, this.element);
                                                 attackBase.breaking = true;
                                                 attackBase.invincibility = false;
-                                                battle.attacks.Add(base.Paralyze(attackBase));
+                                                battle.attacks.Add(this.Paralyze(attackBase));
                                                 battle.effects.Add(new Shock(this.sound, battle, attackBase.position.X, attackBase.position.Y, 2, Panel.COLOR.red));
                                             }
                                         }

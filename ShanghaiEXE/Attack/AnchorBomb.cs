@@ -112,7 +112,7 @@ namespace NSAttack
                         {
                             breaking = true
                         };
-                        this.parent.attacks.Add(bombAttack);
+                        this.parent.attacks.Add(this.StateCopy(bombAttack));
                         this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y, sp));
                         this.sound.PlaySE(SoundEffect.clincher);
                         this.ShakeStart(5, 30);
@@ -120,19 +120,19 @@ namespace NSAttack
                         {
                             case AnchorBomb.TYPE.line:
                                 this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y - 1, sp));
-                                this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.power, 1, this.element));
+                                this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.power, 1, this.element)));
                                 this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y + 1, sp));
-                                this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.power, 1, this.element));
+                                this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.power, 1, this.element)));
                                 break;
                             case AnchorBomb.TYPE.closs:
                                 this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y - 1, sp));
-                                this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.power, 1, this.element));
+                                this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.power, 1, this.element)));
                                 this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y + 1, sp));
-                                this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.power, 1, this.element));
+                                this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.power, 1, this.element)));
                                 this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X + 1, this.position.Y, sp));
-                                this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X + 1, this.position.Y, this.union, this.power, 1, this.element));
+                                this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X + 1, this.position.Y, this.union, this.power, 1, this.element)));
                                 this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X - 1, this.position.Y, sp));
-                                this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X - 1, this.position.Y, this.union, this.power, 1, this.element));
+                                this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X - 1, this.position.Y, this.union, this.power, 1, this.element)));
                                 break;
                         }
                     }
