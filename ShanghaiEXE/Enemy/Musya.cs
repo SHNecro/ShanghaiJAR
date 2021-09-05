@@ -9,6 +9,8 @@ using NSGame;
 using Common.Vectors;
 using System;
 using System.Drawing;
+using System.Linq;
+using NSObject;
 
 namespace NSEnemy
 {
@@ -186,7 +188,10 @@ namespace NSEnemy
             this.dammy.flag = true;
             this.dammy.nomove = true;
             this.dammy.effecting = true;
-            this.parent.enemys.Add(dammy);
+            if (!this.parent.enemys.Contains(this.dammy))
+            {
+                this.parent.enemys.Add(dammy);
+            }
         }
 
         public override void PositionDirectSet()
@@ -295,21 +300,26 @@ namespace NSEnemy
             if (this.motion == Musya.MOTION.attack && this.slide)
             {
                 this.animationpoint = this.AnimeMove(this.frame);
-                if (this.SlideMove(slideSpeed, 0))
+                if (!this.InAreaCheck(new Point(this.position.X + this.UnionRebirth, this.position.Y)))
                 {
-                    this.SlideMoveEnd();
-                    if (!this.InAreaCheck(new Point(this.position.X + this.UnionRebirth, this.position.Y)))
+                    this.slide = false;
+                    this.effecting = false;
+                    this.frame = 0;
+                    this.counterTiming = true;
+                }
+                else if (this.parent.AllHitter().Any(o => (o is ObjectBase || this.UnionEnemy == o.union) && o.position == new Point(this.position.X + this.UnionRebirth, this.position.Y))
+                    || this.parent.panel[this.position.X + this.UnionRebirth, this.position.Y].Hole)
+                {
+                    this.slide = false;
+                    this.frame = 0;
+                    this.counterTiming = true;
+                    this.effecting = false;
+                }
+                else
+                {
+                    if (this.SlideMove(slideSpeed, 0))
                     {
-                        this.slide = false;
-                        this.effecting = false;
-                        this.frame = 0;
-                        this.counterTiming = true;
-                    }
-                    else if (!this.NoObject(new Point(this.position.X + this.UnionRebirth, this.position.Y)) || this.parent.panel[this.position.X + this.UnionRebirth, this.position.Y].Hole)
-                    {
-                        this.slide = false;
-                        this.frame = 0;
-                        this.counterTiming = true;
+                        this.SlideMoveEnd();
                     }
                 }
             }
