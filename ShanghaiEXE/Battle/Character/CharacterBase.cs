@@ -394,7 +394,7 @@ namespace NSBattle.Character
                 ++this.Hp;
         }
 
-        public void DeleteBarier()
+        public virtual void DeleteBarier()
         {
             this.bariierAnime = 0;
             this.barrierType = CharacterBase.BARRIER.None;
