@@ -13,7 +13,7 @@ namespace NSAttack
 {
     internal class ElementFire : AttackBase
     {
-        private int count = 0;
+        public int count = 0;
         private readonly int roop = 3;
         private readonly int type;
         private readonly bool twohit;
