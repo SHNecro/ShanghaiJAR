@@ -15,10 +15,9 @@ namespace NSEnemy
     internal class Riveradar : EnemyBase
     {
         private Riveradar.MOTION motion = Riveradar.MOTION.neutral;
-        private readonly List<Point> target = new List<Point>();
+        private readonly List<RiveradarCrosshair> target = new List<RiveradarCrosshair>();
         private readonly int nspeed;
         private readonly int manytarget;
-        private int[] targetflame;
         private bool attackanimation;
         private int roopneutral;
         private int roopmove;
@@ -163,7 +162,6 @@ namespace NSEnemy
                     }
                     break;
             }
-            this.targetflame = new int[this.manytarget];
         }
 
         public override void PositionDirectSet()
@@ -181,10 +179,10 @@ namespace NSEnemy
                     {
                         for (int index = 0; index < this.target.Count; ++index)
                         {
-                            if (this.targetflame[index] < 2)
+                            if (this.target[index].ManualFrame < 2)
                             {
-                                ++this.targetflame[index];
-                                if (this.targetflame[index] == 2)
+                                ++this.target[index].ManualFrame;
+                                if (this.target[index].ManualFrame == 2)
                                     this.sound.PlaySE(SoundEffect.search);
                             }
                         }
@@ -192,13 +190,18 @@ namespace NSEnemy
                         if (this.frame >= 6)
                         {
                             if (this.target.Count < this.manytarget)
-                                this.target.Add(this.RandomPanel(this.UnionEnemy));
+                            {
+                                var newTarget = this.RandomPanel(this.UnionEnemy);
+                                var newTargetEffect = new RiveradarCrosshair(this.sound, this.parent, newTarget.X, newTarget.Y, this.picturename, this.version);
+                                this.target.Add(newTargetEffect);
+                                this.parent.effects.Add(newTargetEffect);
+                            }
                             this.frame = 0;
                             ++this.roopneutral;
                             if (this.roopneutral >= 2 && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                             {
                                 this.roopneutral = 0;
-                                if (this.target.Count >= this.manytarget - 1 && this.targetflame[this.manytarget - 1] >= 2 && !this.badstatus[4])
+                                if (this.target.Count == this.manytarget && this.target[this.manytarget - 1].ManualFrame >= 2 && !this.badstatus[4])
                                 {
                                     this.speed = 4;
                                     this.motion = Riveradar.MOTION.attackStart;
@@ -252,9 +255,9 @@ namespace NSEnemy
                             List<AttackBase> attacks = this.parent.attacks;
                             IAudioEngine sound1 = this.sound;
                             SceneBattle parent1 = this.parent;
-                            Point point = this.target[0];
+                            Point point = this.target[0].position;
                             int x1 = point.X;
-                            point = this.target[0];
+                            point = this.target[0].position;
                             int y1 = point.Y;
                             int union1 = (int)this.union;
                             int power = this.Power;
@@ -265,19 +268,23 @@ namespace NSEnemy
                             List<EffectBase> effects = this.parent.effects;
                             IAudioEngine sound2 = this.sound;
                             SceneBattle parent2 = this.parent;
-                            point = this.target[0];
+                            point = this.target[0].position;
                             int x2 = point.X;
-                            point = this.target[0];
+                            point = this.target[0].position;
                             int y2 = point.Y;
                             int union2 = (int)this.union;
                             GunHit gunHit = new GunHit(sound2, parent2, x2, y2, (Panel.COLOR)union2);
                             effects.Add(gunHit);
                             this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X - 8 * this.UnionRebirth, this.positionDirect.Y - 24f, 32, this.union, 20 + this.Random.Next(20), 2, 0));
+                            this.target[0].flag = false;
                             this.target.RemoveAt(0);
                         }
                         if (this.target.Count <= 0 && !this.attackanimation)
                         {
-                            this.targetflame = new int[this.manytarget];
+                            foreach (var crosshair in this.target)
+                            {
+                                crosshair.ManualFrame = 0;
+                            }
                             this.frame = 0;
                             this.roopmove = 0;
                             this.roopneutral = 0;
@@ -348,14 +355,6 @@ namespace NSEnemy
             if (this.version == 0)
                 this._rect.Y = 5 * this.height;
             dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, this.color);
-            for (int index = 0; index < this.target.Count; ++index)
-            {
-                this._position = new Vector2(this.target[index].X * 40 + 20, this.target[index].Y * 24 + 70);
-                this._rect = new Rectangle(608 + this.targetflame[index] * 32, Math.Min(this.version, (byte)4) * this.height, 32, 32);
-                if (this.version == 0)
-                    this._rect.Y = 5 * this.height;
-                dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, this.color);
-            }
             this.HPposition = new Vector2((int)this.positionDirect.X, (int)this.positionDirect.Y - this.height / 2 + 36);
             this.Nameprint(dg, this.printNumber);
         }

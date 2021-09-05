@@ -396,6 +396,7 @@
     <Compile Include="Effect\ReflShield.cs" />
     <Compile Include="Effect\Noise.cs" />
     <Compile Include="Effect\Debuff.cs" />
+    <Compile Include="Effect\RiveradarCrosshair.cs" />
     <Compile Include="Effect\SageFloat.cs" />
     <Compile Include="Effect\KeystoneUnlock.cs" />
     <Compile Include="Effect\HeavenWarp.cs" />
