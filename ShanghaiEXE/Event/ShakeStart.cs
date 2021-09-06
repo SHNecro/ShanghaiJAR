@@ -26,6 +26,11 @@ namespace NSEvent
             this.EndCommand();
         }
 
+        public override void SkipUpdate()
+        {
+            this.Update();
+        }
+
         public override void Render(IRenderer dg)
         {
             this.NoTimesRender(dg);

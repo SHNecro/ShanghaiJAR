@@ -40,6 +40,7 @@ namespace NSEvent
 
         public override void SkipUpdate()
         {
+            this.sound.BGMFadeStart(0, this.endparsent);
         }
 
         public override void Render(IRenderer dg)

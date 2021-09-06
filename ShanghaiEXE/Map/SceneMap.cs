@@ -1045,6 +1045,7 @@ namespace NSMap
                 this.endG = fadecolor.G;
                 this.endB = fadecolor.B;
                 this.fadeColor = fadecolor;
+                this.fadeflug = false;
             }
         }
 
