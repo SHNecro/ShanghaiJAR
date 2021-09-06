@@ -18,8 +18,9 @@ namespace NSChip
 
 		public BigTyphoon(IAudioEngine s)
 		  : base(s)
-		{
-			this.number = 275;
+        {
+            this.rockOnPoint = new Point(-3, 0);
+            this.number = 275;
 			this.name = NSGame.ShanghaiEXE.Translate("Chip.BigTyphoonName");
 			this.element = ChipBase.ELEMENT.aqua;
 			this.power = 30;

@@ -15,6 +15,7 @@ namespace NSChip
         public HakurouBlade(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-1, 0);
             this.infight = true;
             this.swordtype = true;
             this.number = 61;

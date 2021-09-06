@@ -15,6 +15,7 @@ namespace NSChip
         public HiMegaCanon(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-1, 0);
             this.number = 272;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.HiMegaCanonName");
             this.element = ChipBase.ELEMENT.normal;

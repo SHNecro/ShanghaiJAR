@@ -18,6 +18,7 @@ namespace NSChip
         public EXSprayGun(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-2, 0);
             this.number = 277;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.EXSprayGunName");
             this.element = ChipBase.ELEMENT.poison;
