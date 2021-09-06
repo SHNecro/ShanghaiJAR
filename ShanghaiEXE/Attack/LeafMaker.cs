@@ -79,7 +79,7 @@ namespace NSAttack
                 AttackBase attackBase = this.StateCopy(new LeafWave(sound, parent, x, y, (Panel.COLOR)union, power, 1, 10));
                 attacks.Add(attackBase);
                 ++this.count;
-                if (this.count >= this.target.Count)
+                if (this.count >= this.target.Count || this.parent.panel[x, y].Hole)
                     this.flag = false;
             }
             ++this.frame;
