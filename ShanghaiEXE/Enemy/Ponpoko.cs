@@ -67,14 +67,14 @@ namespace NSEnemy
                     this.moveroop = 3;
                     break;
                 case 4:
-                    this.power = 100;
+                    this.power = 220;
                     this.hp = 250;
                     this.moveroop = 3;
                     this.name = ShanghaiEXE.Translate("Enemy.PonpokoName3");
                     this.printNumber = false;
                     break;
                 default:
-                    this.power = 100 + (version - 4) * 20;
+                    this.power = 220 + (version - 4) * 40;
                     this.hp = 250 + (version - 4) * 50;
                     this.moveroop = 3;
                     this.name = ShanghaiEXE.Translate("Enemy.PonpokoName4") + (version - 3).ToString();
