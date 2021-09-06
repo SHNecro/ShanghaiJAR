@@ -653,23 +653,32 @@ namespace NSAttack
                         break;
                 }
             }
-            if (c.badstatus[1] && this.Element == ChipBase.ELEMENT.aqua)
+            if (c.badstatus[(int)ChipBase.ELEMENT.heat] && this.Element == ChipBase.ELEMENT.aqua)
             {
                 num2 *= 2f;
                 this.parent.effects.Add(new WeakPointBlue(this.sound, this.parent, c.positionDirect, c.position));
-                c.badstatustime[1] = 0;
+                if (c.badstatustime[(int)ChipBase.ELEMENT.heat] > -1)
+                {
+                    c.badstatustime[(int)ChipBase.ELEMENT.heat] = 0;
+                }
             }
-            if (c.badstatus[2] && this.Element == ChipBase.ELEMENT.eleki)
+            if (c.badstatus[(int)ChipBase.ELEMENT.aqua] && this.Element == ChipBase.ELEMENT.eleki)
             {
                 num2 *= 2f;
                 this.parent.effects.Add(new WeakPointBlue(this.sound, this.parent, c.positionDirect, c.position));
-                c.badstatustime[2] = 0;
+                if (c.badstatustime[(int)ChipBase.ELEMENT.aqua] > -1)
+                {
+                    c.badstatustime[(int)ChipBase.ELEMENT.aqua] = 0;
+                }
             }
-            if (c.badstatus[4] && this.Element == ChipBase.ELEMENT.heat)
+            if (c.badstatus[(int)ChipBase.ELEMENT.leaf] && this.Element == ChipBase.ELEMENT.heat)
             {
                 num2 *= 2f;
                 this.parent.effects.Add(new WeakPointBlue(this.sound, this.parent, c.positionDirect, c.position));
-                c.badstatustime[4] = 0;
+                if (c.badstatustime[(int)ChipBase.ELEMENT.leaf] > -1)
+                {
+                    c.badstatustime[(int)ChipBase.ELEMENT.leaf] = 0;
+                }
             }
             return (int)(num1 * (double)num2);
         }
