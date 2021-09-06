@@ -78,6 +78,7 @@ namespace NSBattle.Character
         public Point position;
         public Point positionre;
         public Point positionold;
+        public Point? positionReserved;
         protected Point positionnow;
         public Vector2 positionDirect;
         public bool flying;

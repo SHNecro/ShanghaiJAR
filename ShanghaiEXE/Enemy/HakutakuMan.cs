@@ -649,9 +649,12 @@ namespace NSEnemy
                                 }
                                 break;
                             case 4:
+                                var originalPosition = this.position;
                                 this.position = this.positionre;
+                                this.positionReserved = null;
                                 if (this.attackFlag)
                                 {
+                                    this.positionReserved = originalPosition;
                                     switch (this.attack)
                                     {
                                         case HakutakuMan.ATTACK.WideCrow:

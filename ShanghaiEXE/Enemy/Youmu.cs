@@ -386,6 +386,7 @@ namespace NSEnemy
                                             case 2:
                                                 this.target = this.RandomTarget(this.union);
                                                 this.effecting = true;
+                                                this.positionReserved = this.position;
                                                 this.positionre = new Point(this.union == Panel.COLOR.blue ? 0 : 5, this.target.Y);
                                                 this.position = this.positionre;
                                                 this.PositionDirectSet();
@@ -400,6 +401,7 @@ namespace NSEnemy
                                                 this.parent.attacks.Add(swordCloss);
                                                 break;
                                             case 25:
+                                                this.positionReserved = null;
                                                 this.speed = this.nspeed;
                                                 this.motion = NaviBase.MOTION.move;
                                                 this.effecting = false;

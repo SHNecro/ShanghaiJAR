@@ -107,7 +107,9 @@ namespace NSBattle
             bool flag = false;
             foreach (CharacterBase characterBase in this.parent.AllHitter())
             {
-                if (this.position.X == characterBase.position.X && this.position.Y == characterBase.position.Y && !characterBase.Flying)
+                if (!characterBase.Flying
+                    && ((this.position.X == characterBase.position.X && this.position.Y == characterBase.position.Y)
+                        || (characterBase.positionReserved != null && this.position.X == characterBase.positionReserved.Value.X && this.position.Y == characterBase.positionReserved.Value.Y)))
                 {
                     flag = true;
                     break;
