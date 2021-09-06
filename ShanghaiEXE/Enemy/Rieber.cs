@@ -9,6 +9,7 @@ using NSObject;
 using Common.Vectors;
 using System;
 using System.Drawing;
+using System.Linq;
 
 namespace NSEnemy
 {
@@ -219,7 +220,9 @@ namespace NSEnemy
                         else
                         {
                             this.dammy.flag = false;
-                            var targets = this.RandomMultiPanel(Math.Min(this.version, (byte)4), this.UnionEnemy, false);
+                            var maxPits = Math.Min(this.version, (byte)4);
+                            var enemyPanels = Enumerable.Range(0, 3).SelectMany(y => Enumerable.Range(0, 6).Select(x => this.parent.panel[x, y])).ToArray();
+                            var targets = this.RandomMultiPanel(enemyPanels.Length, this.UnionEnemy).Where(p => !this.parent.panel[p.X, p.Y].Hole).Take(maxPits);
                             foreach (var point in targets)
                             { 
                                 this.positionre = point;
