@@ -391,7 +391,8 @@ namespace NSBattle
             }
 
             var renderedObjects = this.AllObjects().Where(allObject =>
-                (!(allObject is EnemyBase) || allObject.Hp <= 0 || !this.player.badstatus[4])
+                (allObject.position.Y >= 0 && allObject.position.Y <= 2) 
+                && (!(allObject is EnemyBase) || allObject.Hp <= 0 || !this.player.badstatus[4])
                 && (!allObject.upprint && !allObject.downprint) && allObject.rend)
                 .OrderBy(ao => ao.position.Y).ThenByDescending(ao => TypeRenderOrder.IndexOf(ao.GetType()));
             foreach (CharacterBase allObject in renderedObjects)
