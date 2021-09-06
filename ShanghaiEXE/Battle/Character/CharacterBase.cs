@@ -209,7 +209,27 @@ namespace NSBattle.Character
                 if (this.parent.manyenemys <= 0)
                     return;
                 if ((this.badstatus[5] || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0)) && value - this.hp > 0)
-                    this.hp -= value - this.hp;
+                {
+                    var healAmount = value - this.hp;
+                    var multiplier = 1;
+                    switch (this.Element)
+                    {
+                        case ChipBase.ELEMENT.aqua:
+                        case ChipBase.ELEMENT.leaf:
+                            multiplier *= 2;
+                            break;
+                    }
+                    if (this.badstatus[(int)ChipBase.ELEMENT.aqua])
+                    {
+                        multiplier *= 2;
+                    }
+                    if (this.badstatus[(int)ChipBase.ELEMENT.leaf])
+                    {
+                        multiplier *= 2;
+                    }
+
+                    this.hp -= healAmount * multiplier;
+                }
                 else
                     this.hp = value;
                 if (this.hp < 0)
@@ -371,7 +391,24 @@ namespace NSBattle.Character
                 {
                     if (this.mastorflame % 8 == 0)
                     {
-                        --this.Hp;
+                        var multiplier = 1;
+                        switch (this.Element)
+                        {
+                            case ChipBase.ELEMENT.aqua:
+                            case ChipBase.ELEMENT.leaf:
+                                multiplier *= 2;
+                                break;
+                        }
+                        if (this.badstatus[(int)ChipBase.ELEMENT.aqua])
+                        {
+                            multiplier *= 2;
+                        }
+                        if (this.badstatus[(int)ChipBase.ELEMENT.leaf])
+                        {
+                            multiplier *= 2;
+                        }
+
+                        this.Hp -= 1 * multiplier;
                         this.Dameged(new Dummy(this.sound, this.parent, this.position.X, this.position.Y, this.union, Point.Empty, 0, false));
                     }
                 }

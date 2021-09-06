@@ -48,7 +48,26 @@ namespace NSObject
                     foreach (CharacterBase characterBase in this.parent.AllChara())
                     {
                         if (characterBase.union == this.UnionEnemy && characterBase.Element != ChipBase.ELEMENT.poison)
-                            --characterBase.Hp;
+                        {
+                            var multiplier = 1;
+                            switch (characterBase.Element)
+                            {
+                                case ChipBase.ELEMENT.aqua:
+                                case ChipBase.ELEMENT.leaf:
+                                    multiplier *= 2;
+                                    break;
+                            }
+                            if (characterBase.badstatus[(int)ChipBase.ELEMENT.aqua])
+                            {
+                                multiplier *= 2;
+                            }
+                            if (characterBase.badstatus[(int)ChipBase.ELEMENT.leaf])
+                            {
+                                multiplier *= 2;
+                            }
+
+                            characterBase.Hp -= 1 * multiplier;
+                        }
                     }
                     if (this.frame % 3 == 0)
                         this.parent.effects.Add(new Smoke(this.sound, this.parent, this.Random.Next(6), this.Random.Next(3), ChipBase.ELEMENT.poison));
