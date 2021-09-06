@@ -150,6 +150,7 @@ namespace NSChip
                     switch (this.frame)
                     {
                         case 1:
+                            this.posi = character.position;
                             character.animationpoint.X = -1;
                             if (character.StandPanel.state == Panel.PANEL._grass)
                             {
@@ -164,11 +165,10 @@ namespace NSChip
                                 {
                                     Point position = characterBase.position;
                                     position.X -= this.UnionRebirth(character.union);
-                                    if (character.InAreaCheck(position) && ((character.NoObject(position) || this.posi == character.position) && !battle.panel[position.X, position.Y].Hole && (!(characterBase is DammyEnemy) || !characterBase.nohit) && character.InAreaCheck(character.position)))
+                                    if (character.InAreaCheck(position) && ((character.NoObject(position) || position == character.position) && !battle.panel[position.X, position.Y].Hole && (!(characterBase is DammyEnemy) || !characterBase.nohit) && character.InAreaCheck(character.position)))
                                         this.target.Add(position);
                                 }
                             }
-                            this.posi = character.position;
                             break;
                         case 10:
                             this.frame = 0;
