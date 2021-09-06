@@ -19,6 +19,7 @@ namespace NSCharge
         public int power;
         public Player player;
         protected ChipBase.ELEMENT element;
+        public bool shadow = true;
 
         protected int Power
         {

@@ -949,7 +949,7 @@ namespace NSBattle.Character
                 {
                     this.PluspointFighter(5);
                     this.chargeTime = 0;
-                    if (this.body == CharacterBase.BODY.Shadow)
+                    if (this.body == CharacterBase.BODY.Shadow && this.chargeShot.shadow)
                         this.Step();
                     this.motion = Player.PLAYERMOTION._charge;
                     this.chargeRL = Player.ChargeRL.Charge;
