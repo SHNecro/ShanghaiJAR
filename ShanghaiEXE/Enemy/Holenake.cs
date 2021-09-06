@@ -20,6 +20,9 @@ namespace NSEnemy
         private int roopneutral;
         private int roopmove;
 
+        private int attackFrames;
+        private double remainingPerTickDamage;
+
         public Holenake(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
         {
@@ -32,37 +35,43 @@ namespace NSEnemy
             {
                 case 0:
                     this.name = ShanghaiEXE.Translate("Enemy.HolenakeName1");
-                    this.power = 60;
+                    this.attackFrames = 60;
+                    this.power = 270;
                     this.hp = 1200;
                     this.moveroop = 1;
                     break;
                 case 1:
                     this.name = ShanghaiEXE.Translate("Enemy.HolenakeName2");
-                    this.power = 30;
+                    this.attackFrames = 30;
+                    this.power = 120;
                     this.hp = 80;
                     this.moveroop = 2;
                     break;
                 case 2:
                     this.name = ShanghaiEXE.Translate("Enemy.HolenakeName3");
-                    this.power = 35;
+                    this.attackFrames = 35;
+                    this.power = 160;
                     this.hp = 150;
                     this.moveroop = 2;
                     break;
                 case 3:
                     this.name = ShanghaiEXE.Translate("Enemy.HolenakeName4");
-                    this.power = 40;
+                    this.attackFrames = 40;
+                    this.power = 200;
                     this.hp = 210;
                     this.moveroop = 1;
                     break;
                 case 4:
                     this.name = ShanghaiEXE.Translate("Enemy.HolenakeName5");
-                    this.power = 45;
+                    this.attackFrames = 45;
+                    this.power = 240;
                     this.hp = 260;
                     this.moveroop = 1;
                     break;
                 default:
                     this.name = ShanghaiEXE.Translate("Enemy.HolenakeName6") + (version - 3).ToString();
-                    this.power = 50;
+                    this.attackFrames = 50;
+                    this.power = 240 + (version - 4) * 40;
                     this.hp = 260 + (version - 4) * 40;
                     this.moveroop = 1;
                     break;
@@ -226,9 +235,13 @@ namespace NSEnemy
                 case Holenake.MOTION.attack:
                     if (this.frame >= 7)
                     {
-                        int po = this.version > 2 ? 2 : 1;
-                        if (this.version == 0)
-                            po = 5;
+                        var actualPoisonGasAttacks = (this.speed * this.attackFrames) - ((this.speed * 7) - 1);
+                        var actualPerTickDamage = (double)this.Power / actualPoisonGasAttacks;
+                        this.remainingPerTickDamage += actualPerTickDamage;
+                        var damageThisTick = (this.frame >= this.attackFrames) ? (int)Math.Round(this.remainingPerTickDamage) : (int)Math.Floor(this.remainingPerTickDamage);
+                        this.remainingPerTickDamage -= damageThisTick;
+                        var po = damageThisTick;
+
                         this.parent.attacks.Add(new PoisonGas(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y - 1, this.union, po, this.moveflame, this.Element));
                         this.parent.attacks.Add(new PoisonGas(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y, this.union, po, this.moveflame, this.Element));
                         this.parent.attacks.Add(new PoisonGas(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y + 1, this.union, po, this.moveflame, this.Element));
@@ -252,7 +265,7 @@ namespace NSEnemy
                         }
                         if (this.frame >= 7)
                             this.sound.PlaySE(SoundEffect.lance);
-                        if (this.frame >= this.Power)
+                        if (this.frame >= this.attackFrames)
                         {
                             this.animationpoint.X = 0;
                             this.animepls = 0;
