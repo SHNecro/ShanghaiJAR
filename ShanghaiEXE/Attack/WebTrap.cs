@@ -8,6 +8,7 @@ using NSEnemy;
 using NSObject;
 using Common.Vectors;
 using System.Drawing;
+using System.Linq;
 
 namespace NSAttack
 {
@@ -44,6 +45,13 @@ namespace NSAttack
             this.frame = 0;
             if (this.StandPanel.Hole)
                 this.flag = false;
+
+            var existingObject = p.attacks.FirstOrDefault(a => a is WebTrap && a.position == this.position);
+            if (existingObject != null)
+            {
+                this.parent.effects.Add(new Smoke(this.sound, this.parent, this.position.X, this.position.Y, ChipBase.ELEMENT.normal));
+                existingObject.flag = false;
+            }
         }
 
         public void Init()
@@ -73,6 +81,7 @@ namespace NSAttack
 
         public override void Updata()
         {
+            this.union = this.parent.panel[this.position.X, this.position.Y].color == Panel.COLOR.blue ? Panel.COLOR.red : Panel.COLOR.blue;
             if (this.over)
                 return;
             if (this.StandPanel.Hole)

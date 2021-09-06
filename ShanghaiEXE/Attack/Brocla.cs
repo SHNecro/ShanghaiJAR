@@ -8,6 +8,7 @@ using NSEnemy;
 using NSObject;
 using Common.Vectors;
 using System.Drawing;
+using System.Linq;
 
 namespace NSAttack
 {
@@ -47,10 +48,18 @@ namespace NSAttack
             else
                 this.positionDirect = new Vector2((this.position.X + 1) * 40 - 8, this.position.Y * 24 + 70);
             this.frame = 0;
+
+            var existingObject = p.attacks.FirstOrDefault(a => a is Brocla && a.position == this.position);
+            if (existingObject != null)
+            {
+                this.parent.effects.Add(new Smoke(this.sound, this.parent, this.position.X, this.position.Y, ChipBase.ELEMENT.normal));
+                existingObject.flag = false;
+            }
         }
 
         public override void Updata()
         {
+            this.union = this.parent.panel[this.position.X, this.position.Y].color == Panel.COLOR.blue ? Panel.COLOR.red : Panel.COLOR.blue;
             if (this.over)
                 return;
             if (this.frame >= 2800 || this.StandPanel.Hole)
