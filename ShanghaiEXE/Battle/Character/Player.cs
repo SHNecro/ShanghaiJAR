@@ -272,7 +272,14 @@ namespace NSBattle.Character
                                 break;
                             case 1:
                                 this.parent.panel[index1, index2].inviolability = true;
-                                this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
+                                switch (this.parent.panel[index1, index2].state)
+                                {
+                                    case Panel.PANEL._break:
+                                    case Panel.PANEL._none:
+                                    case Panel.PANEL._un:
+                                        this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
+                                        break;
+                                }
                                 break;
                             case 2:
                                 this.parent.panel[index1, index2].inviolability = true;
