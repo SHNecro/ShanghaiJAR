@@ -77,7 +77,8 @@ namespace NSChip
         {
             if (!printgraphics)
                 return;
-            switch (c % 2)
+            var strArray = new string[0];
+            switch (c % 4)
             {
                 case 0:
                     this._rect = new Rectangle(848, 320, 74, 79);
@@ -86,18 +87,34 @@ namespace NSChip
                     dg.DrawImage(dg, "pagraphic1", this._rect, true, p, Color.White);
                     return;
                 case 1:
-                    string[] strArray =
+                    strArray = new string[]
                     {
                         ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo1Line1"),
                         ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo1Line2"),
                         ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo1Line3")
                     };
-                    for (int index = 0; index < strArray.Length; ++index)
+                    break;
+                case 2:
+                    strArray = new string[]
                     {
-                        this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
-                        this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
-                    }
-                    return;
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo2Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo2Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo2Line3")
+                    };
+                    break;
+                case 3:
+                    strArray = new string[]
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo3Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo3Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceFlashBurnCombo3Line3")
+                    };
+                    break;
+            }
+            for (int index = 0; index < strArray.Length; ++index)
+            {
+                this._position = new Vector2(p.X - 12f, p.Y - 8f + index * 16);
+                this.TextRender(dg, strArray[index], false, this._position, false, Color.LightBlue);
             }
         }
 

@@ -60,7 +60,7 @@ namespace NSChip
             if (!printgraphics)
                 return;
             var strArray = new string[0];
-            switch (c % 3)
+            switch (c % 4)
             {
                 case 0:
                     this._rect = new Rectangle(848, 320, 74, 79);
@@ -82,6 +82,14 @@ namespace NSChip
                         ShanghaiEXE.Translate("Chip.ProgramAdvanceMegaHalberdCombo2Line1"),
                         ShanghaiEXE.Translate("Chip.ProgramAdvanceMegaHalberdCombo2Line2"),
                         ShanghaiEXE.Translate("Chip.ProgramAdvanceMegaHalberdCombo2Line3")
+                    };
+                    break;
+                case 3:
+                    strArray = new string[]
+                    {
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceMegaHalberdCombo3Line1"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceMegaHalberdCombo3Line2"),
+                        ShanghaiEXE.Translate("Chip.ProgramAdvanceMegaHalberdCombo3Line3")
                     };
                     break;
             }

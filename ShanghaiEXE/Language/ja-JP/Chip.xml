@@ -770,12 +770,21 @@
   <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line1" Value="スナアラシ　　　D" />
   <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line2" Value="グラビボール２　D" />
   <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line3" Value="スナジゴク２　　D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line1" Value="スナアラシ　　　S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line2" Value="グラビボール２　S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line3" Value="スナジゴク２　　S" />
   <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line1" Value="ベノムショット　P" />
   <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line2" Value="ポイズンステージP" />
   <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line3" Value="バイオスプレー２P" />
   <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line1" Value="エレキチェーン２F" />
   <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line2" Value="ジキアラシ　　　F" />
   <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line3" Value="パライズカセット＊" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line1" Value="エレキチェーン２C" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line2" Value="ジキアラシ　　　C" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line3" Value="パライズカセット＊" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line1" Value="エレキチェーン２L" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line2" Value="ジキアラシ　　　L" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line3" Value="パライズカセット＊" />
   <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line1" Value="アイスソード　　C" />
   <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line2" Value="アイスステージ　C" />
   <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line3" Value="チルノV2　　　　C" />
@@ -815,6 +824,9 @@
   <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line1" Value="ナイフ　S" />
   <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line2" Value="ソード　S" />
   <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line3" Value="ランス　S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line1" Value="ナイフ　K" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line2" Value="ソード　K" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line3" Value="ランス　＊" />
   <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line1" Value="ロウカンケン　 Y" />
   <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line2" Value="ハクロウケン　 Y" />
   <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line3" Value="ヨウムV2　　　 Y" />
@@ -830,6 +842,9 @@
   <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line1" Value="チェインガン２　L" />
   <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line2" Value="チャージカノン２L" />
   <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line3" Value="ショットガン２　L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line1" Value="チェインガン２　T" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line2" Value="チャージカノン２T" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line3" Value="ショットガン２　T" />
   <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line1" Value="ブレイブソード　Y" />
   <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line2" Value="ナイトランス　　Y" />
   <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line3" Value="ヨリヒメV2　　　Y" />
