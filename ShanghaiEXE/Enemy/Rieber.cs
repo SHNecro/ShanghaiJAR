@@ -207,7 +207,7 @@ namespace NSEnemy
                                 for (int seed = 0; seed < 4; ++seed)
                                 {
                                     this.MoveRandom(false, false, this.UnionEnemy, seed);
-                                    this.parent.attacks.Add(new SandHoleAttack(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 45, 4, SandHoleAttack.MOTION.init, this.element));
+                                    this.parent.attacks.Add(new SandHoleAttack(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 45, 4, SandHoleAttack.MOTION.init, this.element, true));
                                 }
                             }
                         }
@@ -219,11 +219,11 @@ namespace NSEnemy
                         else
                         {
                             this.dammy.flag = false;
-                            for (int index = 0; index < Math.Min(this.version, (byte)4); ++index)
-                            {
-                                Point point = this.RandomMultiPanel(1, this.UnionEnemy, false)[0];
+                            var targets = this.RandomMultiPanel(Math.Min(this.version, (byte)4), this.UnionEnemy, false);
+                            foreach (var point in targets)
+                            { 
                                 this.positionre = point;
-                                this.parent.attacks.Add(new SandHoleAttack(this.sound, this.parent, point.X, point.Y, this.union, this.Power, 30, Math.Min(version - 1, 3), SandHoleAttack.MOTION.init, this.element));
+                                this.parent.attacks.Add(new SandHoleAttack(this.sound, this.parent, point.X, point.Y, this.union, this.Power, 30, Math.Min(version - 1, 3), SandHoleAttack.MOTION.init, this.element, true));
                             }
                         }
                         this.going = this.positionre;
