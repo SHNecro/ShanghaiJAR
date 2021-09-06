@@ -217,7 +217,10 @@ namespace NSBattle.Character
                 }
             }
             this.frame = 0;
-            this.motion = Player.PLAYERMOTION._neutral;
+            if (this.motion != PLAYERMOTION._chip)
+            {
+                this.motion = Player.PLAYERMOTION._neutral;
+            }
         }
 
         public void AddOn()
