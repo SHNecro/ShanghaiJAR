@@ -594,8 +594,10 @@ namespace NSEnemy
                     ++this.parent.simultaneousdel;
                     this.parent.printdelete = 60;
                     this.parent.simultaneoustime = 20;
-                    if (this.parent.simultaneousdel >= 2 && this.parent.mind.MindNow != MindWindow.MIND.fullsync)
+                    if (this.parent.simultaneousdel >= 2 && this.parent.mind.MindNow != MindWindow.MIND.fullsync && !this.badstatus[(int)ChipBase.ELEMENT.poison])
+                    {
                         this.parent.mind.MindNow = MindWindow.MIND.smile;
+                    }
                 }
             }
             this.parent.blackOutChips.RemoveAll(c => c.userNum == this.number);
