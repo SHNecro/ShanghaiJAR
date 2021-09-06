@@ -328,7 +328,15 @@ namespace NSEnemy
             if (this.version == 0)
                 this._rect.Y = 5 * this.height;
             if (this.Hp <= 0)
+            {
                 this.Death(this._rect, new Rectangle(this.animationpoint.X * this.wide, 0, this.wide, this.height), this._position, this.picturename);
+                foreach (var crosshair in this.target)
+                {
+                    crosshair.flag = false;
+                }
+
+                this.target.Clear();
+            }
             if (this.alfha < byte.MaxValue)
                 this.color = Color.FromArgb(alfha, byte.MaxValue, byte.MaxValue, byte.MaxValue);
             else
