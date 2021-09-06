@@ -32,6 +32,7 @@ namespace NSObject
             this.guard = CharacterBase.GUARD.guard;
             this.positionre = this.position;
             this.positionDirect = new Vector2(pX * 40 + 20, pY * 24 + 64);
+            this.OldPD = this.positionDirect;
         }
 
         public override void Updata()
