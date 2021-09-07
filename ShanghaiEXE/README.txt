@@ -94,14 +94,16 @@ in the first place but the two got tangled up and hacked together.
 Other hacks got introduced to deal with that, and those may have broken.
 
 -------- Changelog --------
----- 0.550eWIP (12/19/2020) ----
+---- 0.550eWIP10 (09/06/2021) ----
 Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
 Added retcon system to fix savegames from previous versions
+Added automatic backup system for potential save corruption
 Reworked Library page for potential issues with chip IDs, PAs
 Reworked PA system for potential issues adding new PAs
 Minor balancing of DruidMan, minor difficulty increase for stunlocking
-Added postgame area 1 story cutscenes
-Added postgame area 1 mechanics
+Completed postgame area 1, incl battles, reward addons
+Implemented OpenAL sound engine
+Various bugfixes
 ---- 0.503e4 (1/4/2020) ----
 Fixed Yuyuko crash on heavy+sand
 Fixed Hospital event BGM override
