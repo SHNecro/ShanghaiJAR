@@ -770,12 +770,21 @@
   <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line1" Value="SndStorm D" />
   <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line2" Value="GrvBall2 D" />
   <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line3" Value="SandPit2 D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line1" Value="SndStorm S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line2" Value="GrvBall2 S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line3" Value="SandPit2 S" />
   <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line1" Value="VnmShot  P" />
   <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line2" Value="PoisStge P" />
   <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line3" Value="BioSpry2 P" />
   <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line1" Value="ElChain2 F" />
   <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line2" Value="MagStorm F" />
   <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line3" Value="StunGame ＊" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line1" Value="ElChain2 C" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line2" Value="MagStorm C" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line3" Value="StunGame ＊" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line1" Value="ElChain2 L" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line2" Value="MagStorm L" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line3" Value="StunGame ＊" />
   <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line1" Value="IceSwrd  C" />
   <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line2" Value="IceStge  C" />
   <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line3" Value="CirnoV2   C" />
@@ -815,6 +824,9 @@
   <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line1" Value="Knife    S" />
   <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line2" Value="Sword    S" />
   <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line3" Value="Lance    S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line1" Value="Knife    K" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line2" Value="Sword    K" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line3" Value="Lance    ＊" />
   <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line1" Value="Roukankn Y" />
   <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line2" Value="Hakurokn Y" />
   <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line3" Value="YoumuV2   Y" />
@@ -830,6 +842,9 @@
   <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line1" Value="ChainGn2 L" />
   <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line2" Value="ChrgCan2 L" />
   <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line3" Value="ShotGun2 L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line1" Value="ChainGn2 T" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line2" Value="ChrgCan2 T" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line3" Value="ShotGun2 T" />
   <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line1" Value="BravSwrd Y" />
   <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line2" Value="KnghtLnc Y" />
   <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line3" Value="YorihimV2 Y" />

@@ -312,6 +312,16 @@ namespace NSEnemy
                     }
                     break;
                 case NaviBase.MOTION.attack:
+                    if (this.parent.panel[this.position.X, this.position.Y].Hole)
+                    {
+                        this.HitFlagReset();
+                        this.PositionDirectSet();
+                        this.roopmove = 0;
+                        this.attackProcess = 0;
+                        this.effecting = false;
+                        this.motion = NaviBase.MOTION.move;
+                        this.OgreSet();
+                    }
                     switch (this.attack)
                     {
                         case Chen.ATTACK.Boomerang:
@@ -703,9 +713,7 @@ namespace NSEnemy
         private enum ATTACK
         {
             Boomerang,
-            Hockey,
-            SpreadCanon,
-            MachineGunRey,
+            Hockey
         }
     }
 }

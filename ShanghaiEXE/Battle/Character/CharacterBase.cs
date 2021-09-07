@@ -78,6 +78,7 @@ namespace NSBattle.Character
         public Point position;
         public Point positionre;
         public Point positionold;
+        public Point? positionReserved;
         protected Point positionnow;
         public Vector2 positionDirect;
         public bool flying;
@@ -209,7 +210,27 @@ namespace NSBattle.Character
                 if (this.parent.manyenemys <= 0)
                     return;
                 if ((this.badstatus[5] || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0)) && value - this.hp > 0)
-                    this.hp -= value - this.hp;
+                {
+                    var healAmount = value - this.hp;
+                    var multiplier = 1;
+                    switch (this.Element)
+                    {
+                        case ChipBase.ELEMENT.aqua:
+                        case ChipBase.ELEMENT.leaf:
+                            multiplier *= 2;
+                            break;
+                    }
+                    if (this.badstatus[(int)ChipBase.ELEMENT.aqua])
+                    {
+                        multiplier *= 2;
+                    }
+                    if (this.badstatus[(int)ChipBase.ELEMENT.leaf])
+                    {
+                        multiplier *= 2;
+                    }
+
+                    this.hp -= healAmount * multiplier;
+                }
                 else
                     this.hp = value;
                 if (this.hp < 0)
@@ -370,7 +391,27 @@ namespace NSBattle.Character
                 if ((this.badstatus[5] || this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._poison && !this.Flying) && ((this.Element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0) && this.parent.nowscene != SceneBattle.BATTLESCENE.end) && !(this is ObjectBase))
                 {
                     if (this.mastorflame % 8 == 0)
-                        --this.Hp;
+                    {
+                        var multiplier = 1;
+                        switch (this.Element)
+                        {
+                            case ChipBase.ELEMENT.aqua:
+                            case ChipBase.ELEMENT.leaf:
+                                multiplier *= 2;
+                                break;
+                        }
+                        if (this.badstatus[(int)ChipBase.ELEMENT.aqua])
+                        {
+                            multiplier *= 2;
+                        }
+                        if (this.badstatus[(int)ChipBase.ELEMENT.leaf])
+                        {
+                            multiplier *= 2;
+                        }
+
+                        this.Hp -= 1 * multiplier;
+                        this.Dameged(new Dummy(this.sound, this.parent, this.position.X, this.position.Y, this.union, Point.Empty, 0, false));
+                    }
                 }
             }
             catch
@@ -391,7 +432,7 @@ namespace NSBattle.Character
                 ++this.Hp;
         }
 
-        public void DeleteBarier()
+        public virtual void DeleteBarier()
         {
             this.bariierAnime = 0;
             this.barrierType = CharacterBase.BARRIER.None;

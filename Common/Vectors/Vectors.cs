@@ -59,8 +59,18 @@ namespace Common.Vectors
             return new Vector2(v1.X / scalar, v1.Y / scalar);
         }
 
+        public static bool operator ==(Vector2 v1, Vector2 v2)
+        {
+            return Math.Abs(v1.X - v2.X) < float.Epsilon && Math.Abs(v1.Y - v2.Y) < float.Epsilon;
+        }
+
+        public static bool operator !=(Vector2 v1, Vector2 v2)
+        {
+            return !(v1 == v2);
+        }
+
         public static readonly Vector2 One = new Vector2(1.0f, 1.0f);
 
-        public static readonly Vector2 Zero = new Vector2(1.0f, 1.0f);
+        public static readonly Vector2 Zero = new Vector2(0.0f, 0.0f);
     }
 }

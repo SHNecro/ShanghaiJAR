@@ -56,7 +56,7 @@ namespace NSAddOn
                 battle.player.chipPain += chipPain;
             }
 
-            var isSlipImmune = battle.player.Element == NSChip.ChipBase.ELEMENT.aqua;
+            var isSlipImmune = battle.player.Element == NSChip.ChipBase.ELEMENT.aqua || battle.player.style == NSBattle.Character.Player.STYLE.wing;
             var replacedStatuses = default(Tuple<bool[], int[]>);
             if (chips >= 3)
             {

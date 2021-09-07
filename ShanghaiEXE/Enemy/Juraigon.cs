@@ -9,6 +9,8 @@ using NSGame;
 using Common.Vectors;
 using System;
 using System.Drawing;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace NSEnemy
 {
@@ -23,6 +25,8 @@ namespace NSEnemy
         private readonly int nspeed;
         private bool breathMode;
         private int breathCount;
+        private int wideBreathTicks;
+        private List<ElementFire> fireBreath;
 
         public Juraigon(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
           : base(s, p, pX, pY, n, u, v)
@@ -38,6 +42,7 @@ namespace NSEnemy
             this.wide = 120;
             this.height = 64;
             this.printNumber = true;
+            this.noslip = true;
             this.name = ShanghaiEXE.Translate("Enemy.JuraigonName1");
             switch (this.version)
             {
@@ -96,6 +101,7 @@ namespace NSEnemy
             this.effecting = false;
             this.PositionDirectSet();
             this.element = ChipBase.ELEMENT.heat;
+            this.fireBreath = new List<ElementFire>();
             switch (this.version)
             {
                 case 0:
@@ -195,6 +201,8 @@ namespace NSEnemy
                 this.parent.enemys.Add(this.dammyEnemy[0]);
                 this.parent.enemys.Add(this.dammyEnemy[1]);
                 this.dammyEnemy[0].nohit = true;
+                this.dammyEnemy[0].noslip = true;
+                this.dammyEnemy[1].noslip = true;
             }
             this.neutlal = this.motion == Juraigon.MOTION.neutral;
             if (this.moveflame)
@@ -275,7 +283,8 @@ namespace NSEnemy
                     case Juraigon.MOTION.attack2:
                         this.animationpoint.X = this.AnimeAttack2(this.frame % 2).X;
                         int num1 = 8;
-                        switch (this.frame)
+                        this.wideBreathTicks++;
+                        switch (this.wideBreathTicks)
                         {
                             case 1:
                                 this.counterTiming = false;
@@ -284,43 +293,55 @@ namespace NSEnemy
                                 break;
                             case 8:
                                 this.sound.PlaySE(SoundEffect.quake);
-                                AttackBase attackBase1 = new ElementFire(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase1 = new ElementFire(this.sound, this.parent, this.position.X + 2 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase1.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase1);
+                                this.fireBreath.Add(attackBase1);
                                 break;
                             case 11:
                                 this.sound.PlaySE(SoundEffect.quake);
                                 int num2 = 3;
-                                AttackBase attackBase2 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y - 1, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase2 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y - 1, this.union, this.Power, 18, this.element, false, 1);
+
                                 attackBase2.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase2);
-                                AttackBase attackBase3 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase3 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase3.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase3);
-                                AttackBase attackBase4 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y + 1, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase4 = new ElementFire(this.sound, this.parent, this.position.X + num2 * this.UnionRebirth, this.position.Y + 1, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase4.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase4);
+                                this.fireBreath.Add(attackBase2);
+                                this.fireBreath.Add(attackBase3);
+                                this.fireBreath.Add(attackBase4);
                                 break;
                             case 14:
                                 this.sound.PlaySE(SoundEffect.quake);
                                 int num3 = 4;
-                                AttackBase attackBase5 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y - 1, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase5 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y - 1, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase5.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase5);
-                                AttackBase attackBase6 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase6 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase6.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase6);
-                                AttackBase attackBase7 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y + 1, this.union, this.Power, 18, this.element, false, 1);
+                                var attackBase7 = new ElementFire(this.sound, this.parent, this.position.X + num3 * this.UnionRebirth, this.position.Y + 1, this.union, this.Power, 18, this.element, false, 1);
                                 attackBase7.positionDirect.Y += num1;
                                 this.parent.attacks.Add(attackBase7);
+                                this.fireBreath.Add(attackBase5);
+                                this.fireBreath.Add(attackBase6);
+                                this.fireBreath.Add(attackBase7);
                                 break;
-                            case 60:
-                                this.frame = 0;
-                                this.dammyEnemy[0].nohit = true;
-                                this.dammyEnemy[0].effecting = true;
-                                this.motion = Juraigon.MOTION.move;
-                                this.speed = this.nspeed;
-                                break;
+                        }
+                        if (this.frame >= 60)
+                        {
+                            this.wideBreathTicks = 0;
+                            this.frame = 0;
+                            this.dammyEnemy[0].nohit = true;
+                            this.dammyEnemy[0].effecting = true;
+                            this.motion = Juraigon.MOTION.move;
+                            this.speed = this.nspeed;
+                            this.fireBreath.Clear();
+                            this.waittime = 0;
                         }
                         break;
                     case Juraigon.MOTION.attack3:
@@ -404,6 +425,31 @@ namespace NSEnemy
             }
             this.MoveAftar();
             this.FlameControl();
+        }
+
+        public override void Updata()
+        {
+            base.Updata();
+            if (this.badstatus[3] && this.badstatustime[3] != 0)
+            {
+                this.waittime++;
+                this.wideBreathTicks = 0;
+                if (this.waittime % (this.speed * 4) == 0)
+                {
+                    var oldestBreathLifetime = this.fireBreath.Where(ef => ef.flag).OrderByDescending(ef => ef.count).FirstOrDefault()?.count ?? -1;
+                    var oldestBreaths = this.fireBreath.Where(ef => ef.flag && ef.count == oldestBreathLifetime).ToArray();
+                    foreach (var oldestBreath in oldestBreaths)
+                    {
+                        oldestBreath.count = 20;
+                        this.fireBreath.Remove(oldestBreath);
+                    }
+
+                    if (oldestBreathLifetime == -1)
+                    {
+                        this.waittime = 0;
+                    }
+                }
+            }
         }
 
         public override void Render(IRenderer dg)

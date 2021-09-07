@@ -26,7 +26,8 @@ namespace NSAttack
           int t,
           int c,
           SandHoleAttack.MOTION m,
-          ChipBase.ELEMENT ele)
+          ChipBase.ELEMENT ele,
+          bool warnPanel = false)
           : base(so, p, pX, pY, u, po, ele)
         {
             if (!this.flag)
@@ -58,6 +59,10 @@ namespace NSAttack
                 case SandHoleAttack.MOTION.set:
                     this.hitting = true;
                     break;
+            }
+            if (warnPanel)
+            {
+                this.parent.attacks.Add(new Dummy(so, p, pX, pY, u, Point.Empty, 4 * this.speed, true));
             }
             this.frame = 0;
         }

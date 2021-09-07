@@ -74,21 +74,13 @@ namespace NSEnemy
                     this.hp = 3000;
                     this.moveroop = 1;
                     break;
-                case 4:
+                case 0:
+                default:
                     this.nspeed = 2;
                     this.name = ShanghaiEXE.Translate("Enemy.YuyukoName2");
                     this.power = 250;
                     this.hp = 4000;
                     this.moveroop = 2;
-                    this.aspeed = 3;
-                    attackspeed = 2;
-                    break;
-                default:
-                    this.nspeed = 2;
-                    this.name = ShanghaiEXE.Translate("Enemy.YuyukoName2") + (version - 3).ToString();
-                    this.power = 280;
-                    this.hp = 3300 + (version - 4) * 300;
-                    this.moveroop = 3;
                     this.aspeed = 3;
                     attackspeed = 2;
                     break;

@@ -461,22 +461,22 @@ bgmLoad:
 fade:0:0:0:0:0:False
 end
 
-ID:ヨリヒメ
-position:14:95:0
+ID:Blocker
+position:176:97:0
 page:1
 startterms:Abutton
 type:1
 terms:none
 move:
 speed:0
-graphic:5:3,0,1,0,0
+graphic:20:0,0,5,0,0
 hitrange:3:0:0:0
 hitform:circle
 event:
-msgopen:
-msg:Map.ExOmakeYorihimeStage1Dialogue1FaceYorihime
-msgclose:
-EventLun:ヨリヒメバトル:1
+bgmSave:
+battle:63:1:4:1:1:1:1:0::63:1:5:0:1:1:1:0::63:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSnavi:36
+bgmLoad:
+fade:0:0:0:0:0:False
 end
 
 ID:ヨリヒメバトル

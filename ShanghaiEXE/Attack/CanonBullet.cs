@@ -83,62 +83,6 @@ namespace NSAttack
             dg.DrawImage(dg, "shot", this._rect, true, this._position, this.rebirth, Color.White);
         }
 
-        public override bool HitCheck(Point charaposition, Panel.COLOR charaunion)
-        {
-            if (!base.HitCheck(charaposition, charaunion))
-                return false;
-            this.flag = false;
-            this.ShakeStart(2, 16);
-            this.sound.PlaySE(SoundEffect.bombmiddle);
-            this.parent.effects.Add(new Bomber(this.sound, this.parent, charaposition.X, charaposition.Y, Bomber.BOMBERTYPE.flashbomber, 2));
-            if (this.spled)
-            {
-                int num1 = -1;
-                int num2 = -1;
-                for (int index = 0; index < 8; ++index)
-                {
-                    switch (index)
-                    {
-                        case 0:
-                            num1 = -1;
-                            num2 = -1;
-                            break;
-                        case 1:
-                            num1 = 0;
-                            num2 = -1;
-                            break;
-                        case 2:
-                            num1 = 1;
-                            num2 = -1;
-                            break;
-                        case 3:
-                            num1 = -1;
-                            num2 = 0;
-                            break;
-                        case 4:
-                            num1 = 1;
-                            num2 = 0;
-                            break;
-                        case 5:
-                            num1 = -1;
-                            num2 = 1;
-                            break;
-                        case 6:
-                            num1 = 0;
-                            num2 = 1;
-                            break;
-                        case 7:
-                            num1 = 1;
-                            num2 = 1;
-                            break;
-                    }
-                    this.parent.effects.Add(new Bomber(this.sound, this.parent, charaposition.X + num1, charaposition.Y + num2, Bomber.BOMBERTYPE.flashbomber, 2));
-                    this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, charaposition.X + num1, charaposition.Y + num2, this.union, this.power, 1, this.element)));
-                }
-            }
-            return true;
-        }
-
         public override bool HitCheck(Point charaposition)
         {
             if (!base.HitCheck(charaposition))

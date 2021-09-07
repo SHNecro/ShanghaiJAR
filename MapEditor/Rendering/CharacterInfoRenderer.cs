@@ -1,6 +1,5 @@
 ﻿using MapEditor.Controls;
-using Common.Vectors;
-using MapEditor.Models;
+using Common.OpenGL;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;

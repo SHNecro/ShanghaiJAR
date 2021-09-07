@@ -217,7 +217,10 @@ namespace NSBattle.Character
                 }
             }
             this.frame = 0;
-            this.motion = Player.PLAYERMOTION._neutral;
+            if (this.motion != PLAYERMOTION._chip)
+            {
+                this.motion = Player.PLAYERMOTION._neutral;
+            }
         }
 
         public void AddOn()
@@ -264,11 +267,19 @@ namespace NSBattle.Character
                         switch (index1)
                         {
                             case 0:
-                                this.parent.panel[index1, index2].state = Panel.PANEL._un;
+                                this.parent.panel[index1, index2].state = Panel.PANEL._none;
+                                this.parent.panel[index1, index2].noRender = true;
                                 break;
                             case 1:
                                 this.parent.panel[index1, index2].inviolability = true;
-                                this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
+                                switch (this.parent.panel[index1, index2].state)
+                                {
+                                    case Panel.PANEL._break:
+                                    case Panel.PANEL._none:
+                                    case Panel.PANEL._un:
+                                        this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
+                                        break;
+                                }
                                 break;
                             case 2:
                                 this.parent.panel[index1, index2].inviolability = true;
@@ -949,7 +960,7 @@ namespace NSBattle.Character
                 {
                     this.PluspointFighter(5);
                     this.chargeTime = 0;
-                    if (this.body == CharacterBase.BODY.Shadow)
+                    if (this.body == CharacterBase.BODY.Shadow && this.chargeShot.shadow)
                         this.Step();
                     this.motion = Player.PLAYERMOTION._charge;
                     this.chargeRL = Player.ChargeRL.Charge;

@@ -19,6 +19,7 @@ namespace NSChip
         public AuraSlash(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-3, 0);
             this.infight = true;
             this.swordtype = true;
             this.number = 278;

@@ -419,7 +419,8 @@ namespace Common.OpenGL
                         SpriteRendererPanel.Shader.SetInt($"spriteTX" + batchIndex, sprites[i].TexX);
                         SpriteRendererPanel.Shader.SetInt($"spriteTY" + batchIndex, sprites[i].TexY);
                         SpriteRendererPanel.Shader.SetInt($"spriteTI" + batchIndex, textureIndex);
-                        SpriteRendererPanel.Shader.SetVector2($"spriteScale" + batchIndex, sprites[i].Scale);
+                        var tkScaleVector = new Vector2(sprites[i].Scale.X, sprites[i].Scale.Y);
+                        SpriteRendererPanel.Shader.SetVector2($"spriteScale" + batchIndex, tkScaleVector);
                         SpriteRendererPanel.Shader.SetFloat($"spriteRotate" + batchIndex, sprites[i].Rotate);
                         SpriteRendererPanel.Shader.SetVector4($"colorModulation" + batchIndex, spriteColorModulation);
                         batchSize++;

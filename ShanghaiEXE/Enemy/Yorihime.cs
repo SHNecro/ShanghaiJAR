@@ -470,6 +470,7 @@ namespace NSEnemy
                                             this.effecting = true;
                                             this.Shadow();
                                             int x = this.union == Panel.COLOR.blue ? 2 : 3;
+                                            this.positionReserved = this.position;
                                             if (!this.HeviSand)
                                                 this.position = new Point(x, 1);
                                             this.PositionDirectSet();
@@ -553,6 +554,7 @@ namespace NSEnemy
                                                 break;
                                             case 2:
                                                 this.Shadow();
+                                                this.positionReserved = this.position;
                                                 this.position = this.positionre;
                                                 this.PositionDirectSet();
                                                 break;
@@ -584,6 +586,7 @@ namespace NSEnemy
                                                 break;
                                             case 2:
                                                 this.Shadow();
+                                                this.positionReserved = this.position;
                                                 this.position = this.positionre;
                                                 this.PositionDirectSet();
                                                 break;
@@ -610,6 +613,7 @@ namespace NSEnemy
                                                 break;
                                             case 2:
                                                 this.Shadow();
+                                                this.positionReserved = this.position;
                                                 this.position = this.positionre;
                                                 this.PositionDirectSet();
                                                 break;
@@ -628,6 +632,7 @@ namespace NSEnemy
                         }
                         break;
                     case NaviBase.MOTION.move:
+                        this.positionReserved = null;
                         this.animationpoint = this.AnimeMove(this.waittime);
                         if (this.moveflame)
                         {

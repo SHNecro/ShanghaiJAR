@@ -35,6 +35,7 @@ namespace NSEnemy
             switch (this.version)
             {
                 case 13:
+                case 19:
                     this.navitype = NormalNavi.NAVITYPE.blackroab;
                     this.Flying = true;
                     break;

@@ -19,6 +19,7 @@ namespace NSChip
         public MassDriver(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-2, 0);
             this.number = 280;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.MassDriverName");
             this.element = ChipBase.ELEMENT.normal;

@@ -17,6 +17,7 @@ namespace NSChip
         public GigaHalberd(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-1, 0);
             this.infight = true;
             this.number = 274;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.GigaHalberdName");

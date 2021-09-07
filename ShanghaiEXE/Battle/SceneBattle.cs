@@ -22,6 +22,8 @@ namespace NSBattle
 {
     public class SceneBattle : SceneBase
     {
+        private static readonly List<Type> TypeRenderOrder = new List<Type> { typeof(ObjectBase), typeof(EnemyBase), typeof(Player), typeof(AttackBase), typeof(EffectBase) };
+
         public int bashtime = 0;
         public byte fadealpha = byte.MaxValue;
         public Panel[,] panel = new Panel[6, 3];
@@ -387,18 +389,19 @@ namespace NSBattle
                 }
                 allObject.RenderDOWN(dg);
             }
-            for (int index = 0; index < 3; ++index)
+
+            var renderedObjects = this.AllObjects().Where(allObject =>
+                (allObject.position.Y >= 0 && allObject.position.Y <= 2) 
+                && (!(allObject is EnemyBase) || allObject.Hp <= 0 || !this.player.badstatus[4])
+                && (!allObject.upprint && !allObject.downprint) && allObject.rend)
+                .OrderBy(ao => ao.position.Y).ThenByDescending(ao => TypeRenderOrder.IndexOf(ao.GetType()));
+            foreach (CharacterBase allObject in renderedObjects)
             {
-                foreach (CharacterBase allObject in this.AllObjects())
-                {
-                    if ((!(allObject is EnemyBase) || allObject.Hp <= 0 || !this.player.badstatus[4]) && (allObject.position.Y == index && !allObject.upprint && !allObject.downprint) && allObject.rend)
-                    {
-                        allObject.BarrierRend(dg);
-                        allObject.Render(dg);
-                        allObject.BarrierPowerRend(dg);
-                    }
-                }
+                allObject.BarrierRend(dg);
+                allObject.Render(dg);
+                allObject.BarrierPowerRend(dg);
             }
+
             foreach (CharacterBase allObject in this.AllObjects())
             {
                 if (allObject.upprint)
@@ -501,7 +504,7 @@ namespace NSBattle
             }
             foreach (CharacterBase allObject in this.AllObjects())
             {
-                if (!this.blackOut || allObject.blackOutObject || allObject is EffectBase)
+                if (!this.blackOut || allObject.blackOutObject)
                     allObject.Updata();
                 if (this.blackOut)
                 {
@@ -888,7 +891,7 @@ namespace NSBattle
                             break;
                         case 3:
                             this.panel[pX, pY].state = Panel.PANEL._nomal;
-                            this.objects.Add(new Rock(this.sound, this, pX, pY, Panel.COLOR.blue));
+                            this.objects.Add(new Rock(this.sound, this, pX, pY, this.panel[pX, pY].color));
                             break;
                     }
                 }

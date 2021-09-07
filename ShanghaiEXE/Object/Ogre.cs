@@ -67,7 +67,7 @@ namespace NSObject
             this.speed = 2;
             this.movespeed = 1;
             this.hpmax = this.hp;
-            this.unionhit = true;
+            this.unionhit = false;
             this.overslip = false;
             this.effecting = true;
             this.noslip = true;

@@ -216,7 +216,7 @@ namespace NSChip
                                 this.sound.PlaySE(SoundEffect.gun);
                                 //battle.attacks.Add(this.Paralyze(new BustorShot(this.sound, battle, character.position.X + this.UnionRebirth(character.union), this.targetY[this.atacks], character.union, this.Power(character), BustorShot.SHOT.ranShot, this.element, false, 6)));
                                 battle.effects.Add(new GunHit(this.sound, battle, this.targetMulti[q].X, this.targetMulti[q].Y, character.union));
-                                battle.attacks.Add(new BombAttack(this.sound, battle, this.targetMulti[q].X, this.targetMulti[q].Y, character.union, base.Power(character), 0, this.element));
+                                battle.attacks.Add(this.Paralyze(new BombAttack(this.sound, battle, this.targetMulti[q].X, this.targetMulti[q].Y, character.union, base.Power(character), 0, this.element)));
                                 //index++;
 
                             }

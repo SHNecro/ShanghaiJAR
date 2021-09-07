@@ -102,6 +102,11 @@ namespace NSObject
 
         public override void Dameged(AttackBase attack)
         {
+            if (attack is Dummy)
+            {
+                return;
+            }
+
             if (attack.breaking || this.attacked)
                 return;
             this.attakedunion = attack.union;

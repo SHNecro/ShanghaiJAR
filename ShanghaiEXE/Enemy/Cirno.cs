@@ -84,7 +84,7 @@ namespace NSEnemy
             }
             this.picturename = "cirno";
             this.race = EnemyBase.ENEMY.navi;
-            this.Flying = false;
+            this.Flying = true;
             this.wide = 40;
             this.height = 56;
             this.hpmax = this.hp;
@@ -97,6 +97,7 @@ namespace NSEnemy
             switch (this.version)
             {
                 case 1:
+                    this.Flying = false;
                     this.dropchips[0].chip = new CirnoV1(this.sound);
                     this.dropchips[0].codeNo = 0;
                     this.dropchips[1].chip = new CirnoV1(this.sound);
@@ -170,8 +171,8 @@ namespace NSEnemy
             switch (this.Motion)
             {
                 case NaviBase.MOTION.neutral:
-                    if (this.flying)
-                        this.flying = false;
+//                    if (this.flying)
+//                        this.flying = false;
                     if (this.moveflame)
                         ++this.waittime;
                     if (this.moveflame)
@@ -305,7 +306,7 @@ namespace NSEnemy
                                     case 1:
                                         this.counterTiming = true;
                                         this.sound.PlaySE(SoundEffect.warp);
-                                        this.flying = true;
+//                                        this.flying = true;
                                         break;
                                     case 5:
                                         this.Noslip = true;
@@ -429,7 +430,7 @@ namespace NSEnemy
                     switch (this.waittime)
                     {
                         case 2:
-                            this.flying = false;
+//                            this.flying = false;
                             this.animationpoint = new Point(6, 0);
                             this.counterTiming = false;
                             this.effecting = false;

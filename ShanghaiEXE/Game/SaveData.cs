@@ -1028,8 +1028,31 @@ namespace NSGame
             // WIP10
             if (this.ValList[199] == 5)
             {
-                // Flag13 should only be active during automatically-progressing cutscenes, no savegame should have it set
+                // Reset flag accidentally left on after cutscene
+                // Flag13 should only be active during automatically-progressing cutscenes, no savegame should have it set legitimately
                 this.FlagList[13] = false;
+
+                // Reset WIP endgame flags
+                var endgamePlaceholderFlags = new[]
+                {
+                    803, 804, 805, 806, 807, 808, 809, 824, 825, 826, 827, // Ghost doors opened (always linked to ghosts defeated)
+                    814, 815, 816, 817, 818, 819, 820, 828, 829, 830, 831, // Ghosts defeated
+                    822, 861, 823, 832, 835, 833, 837 // Barriers destroyed (barrier doors opening unaffected)
+                };
+                var anyFlagsReset = false;
+                foreach (var endgameFlag in endgamePlaceholderFlags)
+                {
+                    if (this.FlagList[endgameFlag])
+                    {
+                        this.FlagList[endgameFlag] = false;
+                        anyFlagsReset = true;
+                    }
+                }
+                if (anyFlagsReset)
+                {
+                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550WIPEndgameReset"));
+                }
+
                 this.ValList[199] = 6;
             }
             // Set var to "current save version"

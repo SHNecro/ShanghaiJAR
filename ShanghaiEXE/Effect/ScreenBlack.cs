@@ -14,6 +14,7 @@ namespace NSEffect
         private readonly int alphaPlus = 25;
         private readonly Color color_ = Color.Black;
         private new readonly bool rebirth;
+        private int endAlpha = byte.MaxValue;
         public bool end;
 
         public ScreenBlack(
@@ -54,6 +55,7 @@ namespace NSEffect
             this.positionDirect = pd;
             this.animationpoint.X = 3;
             this.alphaPlus = alphaPlus;
+            this.endAlpha = color.A;
             this.color_ = Color.FromArgb(0, color);
             this.color = Color.FromArgb(0, Color.Black);
         }
@@ -62,11 +64,11 @@ namespace NSEffect
         {
             if (!this.end)
             {
-                if (this.alpha < byte.MaxValue)
+                if (this.alpha < endAlpha)
                 {
                     this.alpha += this.alphaPlus;
-                    if (this.alpha > byte.MaxValue)
-                        this.alpha = byte.MaxValue;
+                    if (this.alpha > endAlpha)
+                        this.alpha = endAlpha;
                 }
                 this.color = Color.FromArgb(this.alpha, this.color_);
             }

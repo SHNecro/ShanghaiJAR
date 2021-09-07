@@ -22,13 +22,11 @@ namespace NSEffect
         private static readonly double InitialBreezeStrength = 9;
         private static readonly double BreezeDecay = 0.99;
 
-        private static readonly List<Petal> Petals = new List<Petal>();
+        private readonly List<Petal> petals = new List<Petal>();
+        private double basePetalsToAdd;
+        private double breezeStrength;
 
-        private static double BasePetalsToAdd;
-
-        private static double BreezeStrength;
-
-        public PetalBreeze(IAudioEngine s, Vector2 pd, Point posi, bool mute = false)
+        public PetalBreeze(IAudioEngine s, Vector2 pd, Point posi)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;
@@ -40,25 +38,25 @@ namespace NSEffect
             var timeToCrossScreen = 240 / InitialBreezeStrength;
             if (this.frame < timeToCrossScreen)
             {
-                BreezeStrength = InitialBreezeStrength * (this.frame / timeToCrossScreen);
+                breezeStrength = InitialBreezeStrength * (this.frame / timeToCrossScreen);
             }
             else
             {
-                BreezeStrength *= BreezeDecay;
-                if (Petals.Count == 0)
+                breezeStrength *= BreezeDecay;
+                if (petals.Count == 0)
                 {
                     this.flag = false;
                 }
             }
 
-            var breezeX = BreezeStrength;
+            var breezeX = breezeStrength;
             var gravityY = 2;
 
             var isPetalAddFrame = false;
 
-            BasePetalsToAdd = (breezeX > BasePetalsToAdd) ? breezeX : (breezeX * 0.01 + BasePetalsToAdd * 0.99);
+            basePetalsToAdd = (breezeX > basePetalsToAdd) ? breezeX : (breezeX * 0.01 + basePetalsToAdd * 0.99);
 
-            var petalsToAdd = Random.Next((isPetalAddFrame ? 1 : 0), (int)Math.Round(BasePetalsToAdd / 2));
+            var petalsToAdd = Random.Next((isPetalAddFrame ? 1 : 0), (int)Math.Round(basePetalsToAdd / 2));
 
             for (int i = 0; i < petalsToAdd; i++)
             {
@@ -67,24 +65,24 @@ namespace NSEffect
                 var petalInfo = petalType == 1 ? Petal1 : Petal2;
                 var petalInitialFrame = Random.Next(0, petalInfo.Frames);
 
-                var newPos = Random.Next(-160, (int)(240 / Math.Max(1, BasePetalsToAdd)));
-                var xPos = newPos < 0 ? 0 : (newPos * BasePetalsToAdd);
+                var newPos = Random.Next(-160, (int)(240 / Math.Max(1, basePetalsToAdd)));
+                var xPos = newPos < 0 ? 0 : (newPos * basePetalsToAdd);
                 var yPos = newPos < 0 ? -newPos : 0;
 
                 var petalPos = new PointF((float)(xPos - petalInfo.Sprite.Width), (float)(yPos - petalInfo.Sprite.Height));
                 var petalScale = (float)(Random.NextDouble() * (1.4 - 0.6) + 0.6);
 
-                Petals.Add(new Petal(petalPos, petalInitialFrame, petalType, petalScale));
+               this.petals.Add(new Petal(petalPos, petalInitialFrame, petalType, petalScale));
             }
 
-            foreach (var petal in Petals)
+            foreach (var petal in this.petals)
             {
                 var xOff = Random.NextDouble() - 0.5;
                 var yOff = Random.NextDouble() - 0.5;
                 petal.Position = new PointF((float)(petal.Position.X + xOff + breezeX), (float)(petal.Position.Y + yOff + gravityY));
             }
 
-            Petals.RemoveAll(p => p.Position.X > 240 || p.Position.Y > 160);
+            this.petals.RemoveAll(p => p.Position.X > 240 || p.Position.Y > 160);
             this.FlameControl(1);
         }
 
@@ -92,7 +90,7 @@ namespace NSEffect
         {
             this.color = Color.White;
 
-            foreach (var petal in Petals)
+            foreach (var petal in this.petals)
             {
                 var petalInfo = petal.Type == 1 ? Petal1 : Petal2;
                 var petalFrame = (petal.InitialFrame + (this.frame / petalInfo.Delay)) % petalInfo.Frames;

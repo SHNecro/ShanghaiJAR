@@ -58,6 +58,11 @@ namespace NSObject
 
         public override void Dameged(AttackBase attack)
         {
+            if (attack is Dummy)
+            {
+                return;
+            }
+
             if (attack.Element != ChipBase.ELEMENT.heat)
                 return;
             this.bomb = true;

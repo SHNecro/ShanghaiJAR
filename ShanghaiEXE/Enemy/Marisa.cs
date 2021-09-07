@@ -225,15 +225,13 @@ namespace NSEnemy
                                         case 32:
                                             this.counterTiming = false;
                                             this.sound.PlaySE(SoundEffect.throwbomb);
+                                            var bombTargets = this.RandomMultiPanel(Math.Min(version - 1, 2), this.UnionEnemy);
                                             this.RandomTarget();
                                             Vector2 v = new Vector2(this.positionDirect.X + 8 * this.UnionRebirth(this.union), this.positionDirect.Y - 8f);
-                                            for (int seed = 0; seed < Math.Min(version - 1, 2); ++seed)
+                                            foreach (var bombTarget in bombTargets)
                                             {
-                                                this.MoveRandom(false, false, this.union == Panel.COLOR.red ? Panel.COLOR.blue : Panel.COLOR.red, seed);
-                                                Point positionre = this.positionre;
-                                                this.parent.attacks.Add(new ClossBomb(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.Power, 1, v, positionre, 40, ClossBomb.TYPE.closs, false, ClossBomb.TYPE.big, false, false));
+                                                this.parent.attacks.Add(new ClossBomb(this.sound, this.parent, bombTarget.X, bombTarget.Y, this.union, this.Power, 1, v, bombTarget, 40, ClossBomb.TYPE.closs, false, ClossBomb.TYPE.big, false, false));
                                             }
-                                            this.positionre = this.position;
                                             break;
                                         case 44:
                                             this.roopneutral = 0;

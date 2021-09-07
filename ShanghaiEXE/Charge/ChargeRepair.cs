@@ -24,6 +24,7 @@ namespace NSCharge
             this.shorttime = 20;
             this.character = player;
             this.battle = this.player.parent;
+            this.shadow = false;
         }
 
         public override void Action()

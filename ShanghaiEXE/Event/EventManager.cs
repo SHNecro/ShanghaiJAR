@@ -178,6 +178,7 @@ namespace NSEvent
                         this.skip = false;
                         this.skipnow = true;
                         this.events[this.playeventnumber - 1].SkipUpdate();
+                        this.events[this.playeventnumber].FlameReset();
                     }
                 }
             }

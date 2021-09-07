@@ -168,6 +168,34 @@ namespace NSEnemy
             }
         }
 
+        public override void DeleteBarier()
+        {
+            base.DeleteBarier();
+
+            if (this.aulaLevel > 0 && (this.barierPower <= 0 || this.barrierType == CharacterBase.BARRIER.None))
+            {
+                --this.aulaLevel;
+                if (this.aulaLevel > 0)
+                {
+                    this.barrierType = CharacterBase.BARRIER.Barrier;
+                    this.barierPower = this.barierHP;
+                }
+
+                switch (this.aulaLevel)
+                {
+                    case 0:
+                        this.animationpoint = this.AnimeNeutral(this.waittime % 3);
+                        break;
+                    case 1:
+                        this.animationpoint = this.AnimeNeutralAura2(this.waittime % 3);
+                        break;
+                    case 2:
+                        this.animationpoint = this.AnimeNeutralAura1(this.waittime % 3);
+                        break;
+                }
+            }
+        }
+
         protected override void Moving()
         {
             this.ForcePanels();
@@ -175,15 +203,6 @@ namespace NSEnemy
             switch (this.Motion)
             {
                 case NaviBase.MOTION.neutral:
-                    if (this.aulaLevel > 0 && (this.barierPower <= 0 || this.barrierType == CharacterBase.BARRIER.None))
-                    {
-                        --this.aulaLevel;
-                        if (this.aulaLevel > 0)
-                        {
-                            this.barrierType = CharacterBase.BARRIER.Barrier;
-                            this.barierPower = this.barierHP;
-                        }
-                    }
                     if (this.moveflame)
                         ++this.waittime;
                     ++this.movetime;

@@ -15,6 +15,7 @@ namespace NSChip
         public HiCanon(IAudioEngine s)
           : base(s)
         {
+            this.rockOnPoint = new Point(-1, 0);
             this.number = 271;
             this.name = NSGame.ShanghaiEXE.Translate("Chip.HiCanonName");
             this.element = ChipBase.ELEMENT.normal;

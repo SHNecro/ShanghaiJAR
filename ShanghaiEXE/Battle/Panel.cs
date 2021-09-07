@@ -107,7 +107,9 @@ namespace NSBattle
             bool flag = false;
             foreach (CharacterBase characterBase in this.parent.AllHitter())
             {
-                if (this.position.X == characterBase.position.X && this.position.Y == characterBase.position.Y && !characterBase.Flying)
+                if (!characterBase.Flying
+                    && ((this.position.X == characterBase.position.X && this.position.Y == characterBase.position.Y)
+                        || (characterBase.positionReserved != null && this.position.X == characterBase.positionReserved.Value.X && this.position.Y == characterBase.positionReserved.Value.Y)))
                 {
                     flag = true;
                     break;
@@ -268,14 +270,17 @@ namespace NSBattle
             }
             if (this.breaktime > 0)
             {
-                if (this.state == Panel.PANEL._break && !this.parent.blackOut)
+                if (this.state == Panel.PANEL._break)
                 {
-                    --this.breaktime;
-                    if (this.breaktime < 180 && this.breaktime % 3 == 0)
-                        this.breaktoggle = !this.breaktoggle;
-                    if (this.breaktime > 0)
-                        return;
-                    this.state = Panel.PANEL._nomal;
+                    if (!this.parent.blackOut)
+                    {
+                        --this.breaktime;
+                        if (this.breaktime < 180 && this.breaktime % 3 == 0)
+                            this.breaktoggle = !this.breaktoggle;
+                        if (this.breaktime > 0)
+                            return;
+                        this.state = Panel.PANEL._nomal;
+                    }
                 }
                 else
                     this.breaktime = 0;
@@ -360,6 +365,12 @@ namespace NSBattle
                 }
                 this._position = new Vector2(40 * this.position.X + this.Shake.X, 70 + 24 * this.position.Y + this.Shake.X);
                 dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                if (this.inviolability && this.position.X >= 1 && this.position.X <= 4)
+                {
+                    this._rect = new Rectangle(80, 288, 40, 32);
+                    this._position = new Vector2(40 * this.position.X + this.Shake.X, 70 + 24 * this.position.Y + this.Shake.X);
+                    dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                }
             }
             if (!this.bright || this.state == Panel.PANEL._un)
                 return;

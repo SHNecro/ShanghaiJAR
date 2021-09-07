@@ -151,7 +151,7 @@ namespace NSChip
                                             
                                             attackBase.invincibility = false;
                                             
-                                            battle.attacks.Add(base.Paralyze(attackBase));
+                                            battle.attacks.Add(this.Paralyze(attackBase));
                                             battle.effects.Add(new Shock(this.sound, battle, attackBase.position.X, attackBase.position.Y, 2, Panel.COLOR.red));
                                         }
                                     }

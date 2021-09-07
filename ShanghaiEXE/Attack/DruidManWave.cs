@@ -55,7 +55,7 @@ namespace NSAttack
 						&& this.parent.panel[nextPosition.X, nextPosition.Y].state != Panel.PANEL._break
 						&& this.parent.panel[nextPosition.X, nextPosition.Y].state != Panel.PANEL._none)
 					{
-						this.parent.attacks.Add(new DruidManWave(this.sound, this.parent, nextPosition.X, nextPosition.Y, this.union, this.power, this.speed, this.element));
+						this.parent.attacks.Add(this.StateCopy(new DruidManWave(this.sound, this.parent, nextPosition.X, nextPosition.Y, this.union, this.power, this.speed, this.element)));
 					}
 				}
 

@@ -14,10 +14,13 @@ namespace NSChip
 		private const int start = 5;
 		private const int speed = 3;
 
+        private AttackBase attack;
+
 		public BigTyphoon(IAudioEngine s)
 		  : base(s)
-		{
-			this.number = 275;
+        {
+            this.rockOnPoint = new Point(-3, 0);
+            this.number = 275;
 			this.name = NSGame.ShanghaiEXE.Translate("Chip.BigTyphoonName");
 			this.element = ChipBase.ELEMENT.aqua;
 			this.power = 30;
@@ -46,17 +49,24 @@ namespace NSChip
 			else if (character.waittime < 26)
 				character.animationpoint = new Point(6, 1);
 			else if (character.waittime >= 50)
-				base.Action(character, battle);
+            {
+                if (!battle.blackOut || this.attack?.flag == false)
+                {
+                    base.Action(character, battle);
+                }
+            }
 			if (character.waittime != 14)
 				return;
 			int num = this.power + this.pluspower;
-			character.parent.attacks.Add(this.Paralyze(new Tornado(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), this.element, 16)
-			{
-				roop = 5
-			}));
+            this.attack = this.Paralyze(new Tornado(this.sound, battle, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), this.element, 16)
+            {
+                roop = 5
+            });
+
+            character.parent.attacks.Add(this.attack);
 		}
 
-		public override void GraphicsRender(
+        public override void GraphicsRender(
 		  IRenderer dg,
 		  Vector2 p,
 		  int c,

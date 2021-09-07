@@ -66,6 +66,11 @@ namespace NSAttack
 
         public override void Updata()
         {
+            if (this.parent.panel[this.position.X, this.position.Y].Hole)
+            {
+                this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
+                this.flag = false;
+            }
             this.PanelBright();
             if (this.shadow_ == null)
             {

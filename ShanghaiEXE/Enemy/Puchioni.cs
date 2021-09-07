@@ -54,7 +54,7 @@ namespace NSEnemy
             this.picturename = "putioni";
             this.race = EnemyBase.ENEMY.virus;
             this.element = ChipBase.ELEMENT.eleki;
-            this.Flying = false;
+            this.Flying = true;
             this.wide = 40;
             this.height = 48;
             this.hpmax = this.hp;

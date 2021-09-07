@@ -53,13 +53,13 @@ namespace NSChip
           if ((uint) battle.panel[pX1, pY].Element > 0U)
           {
             this.ShakeStart(4, 2);
-            battle.attacks.Add(new FootPanel(this.sound, battle, pX1, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX1, pY].Element, false));
+            battle.attacks.Add(this.Paralyze(new FootPanel(this.sound, battle, pX1, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX1, pY].Element, false)));
           }
           int pX2 = 5;
           if ((uint) battle.panel[pX2, pY].Element > 0U)
           {
             this.ShakeStart(4, 2);
-            battle.attacks.Add(new FootPanel(this.sound, battle, pX2, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX2, pY].Element, false));
+            battle.attacks.Add(this.Paralyze(new FootPanel(this.sound, battle, pX2, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX2, pY].Element, false)));
           }
         }
       }
@@ -71,13 +71,13 @@ namespace NSChip
           if ((uint) battle.panel[pX1, pY].Element > 0U)
           {
             this.ShakeStart(4, 2);
-            battle.attacks.Add(new FootPanel(this.sound, battle, pX1, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX1, pY].Element, false));
+            battle.attacks.Add(this.Paralyze(new FootPanel(this.sound, battle, pX1, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX1, pY].Element, false)));
           }
           int pX2 = 4;
           if ((uint) battle.panel[pX2, pY].Element > 0U)
           {
             this.ShakeStart(4, 2);
-            battle.attacks.Add(new FootPanel(this.sound, battle, pX2, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX2, pY].Element, false));
+            battle.attacks.Add(this.Paralyze(new FootPanel(this.sound, battle, pX2, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX2, pY].Element, false)));
           }
         }
       }
@@ -89,13 +89,13 @@ namespace NSChip
           if ((uint) battle.panel[pX1, pY].Element > 0U)
           {
             this.ShakeStart(4, 2);
-            battle.attacks.Add(new FootPanel(this.sound, battle, pX1, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX1, pY].Element, false));
+            battle.attacks.Add(this.Paralyze(new FootPanel(this.sound, battle, pX1, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX1, pY].Element, false)));
           }
           int pX2 = 3;
           if ((uint) battle.panel[pX2, pY].Element > 0U)
           {
             this.ShakeStart(4, 2);
-            battle.attacks.Add(new FootPanel(this.sound, battle, pX2, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX2, pY].Element, false));
+            battle.attacks.Add(this.Paralyze(new FootPanel(this.sound, battle, pX2, pY, character.union, this.Power(character), 0, FootPanel.MOTION.init, battle.panel[pX2, pY].Element, false)));
           }
         }
       }

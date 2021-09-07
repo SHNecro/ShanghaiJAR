@@ -410,6 +410,7 @@ namespace NSEnemy
                                             this.MoveRandom(true, true);
 
                                             this.Shadow();
+                                            this.positionReserved = this.position;
                                             this.position = this.positionre;
                                             this.PositionDirectSet();
 
@@ -456,6 +457,7 @@ namespace NSEnemy
                                             this.speed = this.nspeed;
                                             //this.chargeEffect = 0;
                                             this.preX = this.position.X;
+                                            this.positionReserved = this.position;
                                             this.position.X = this.TargetX(this, this.parent);
                                             if (this.position.X < 0)
                                             {
@@ -513,7 +515,9 @@ namespace NSEnemy
                                         case 50:
                                             this.roopneutral = 0;
                                             this.Motion = NaviBase.MOTION.neutral;
+                                            this.positionReserved = null;
                                             this.position.X = this.preX;
+                                            this.PositionDirectSet();
                                             if (!this.atack)
                                             {
                                                 this.speed = this.nspeed;
@@ -545,6 +549,7 @@ namespace NSEnemy
                                 }
                                 break;
                             case 3:
+                                this.positionReserved = null;
                                 this.position = this.positionre;
                                 this.PositionDirectSet();
                                 break;

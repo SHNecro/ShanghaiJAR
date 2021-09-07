@@ -51,16 +51,25 @@ namespace NSAttack
             {
                 if (characterBase.position == this.position && characterBase.union == this.UnionEnemy && !characterBase.nohit)
                 {
+                    var multiplier = 1;
                     switch (characterBase.Element)
                     {
                         case ChipBase.ELEMENT.aqua:
                         case ChipBase.ELEMENT.leaf:
-                            characterBase.Hp -= this.power * 2;
-                            break;
-                        default:
-                            characterBase.Hp -= this.power;
+                            multiplier *= 2;
                             break;
                     }
+                    if (characterBase.badstatus[(int)ChipBase.ELEMENT.aqua])
+                    {
+                        multiplier *= 2;
+                    }
+                    if (characterBase.badstatus[(int)ChipBase.ELEMENT.leaf])
+                    {
+                        multiplier *= 2;
+                    }
+
+                    characterBase.Hp -= this.power * multiplier;
+                    characterBase.Dameged(this);
                 }
             }
             if (this.gas)

@@ -8,21 +8,25 @@ namespace NSEffect
     internal class Noise : EffectBase
     {
         private readonly Rectangle textureRect = new Rectangle(1600, 590, 36, 30);
-        private readonly int frames = 5;
+        private readonly int frames;
 
-        public Noise(IAudioEngine s, Vector2 pd, Point posi)
+        public Noise(IAudioEngine s, Vector2 pd, Point posi, bool randomFrame = false, int frames = 5)
           : base(s, null, posi.X, posi.Y)
         {
             this.positionDirect = pd;
-            this.animationpoint.X = 0;
+            this.animationpoint.X = randomFrame ? this.Random.Next(0, frames) : 0;
+            this.frames = frames;
         }
 
         public override void Updata()
         {
             this.FlameControl(4);
             if (this.moveflame)
-                ++this.animationpoint.X;
-            if (this.animationpoint.X >= frames)
+            {
+                this.animationpoint.X = ((this.animationpoint.X + 1) % this.frames);
+                this.waittime++;
+            }
+            if (this.waittime >= frames)
                 this.flag = false;
         }
 

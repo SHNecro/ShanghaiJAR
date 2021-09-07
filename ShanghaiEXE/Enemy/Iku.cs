@@ -176,7 +176,10 @@ namespace NSEnemy
                 this.position.Y = 0;
             if (this.position.Y > 2)
                 this.position.Y = 2;
-            this.positionDirect = new Vector2((float)(position.X * 40.0 + 20.0), (float)(position.Y * 24.0 + 54.0));
+            if (!(this.motion == NaviBase.MOTION.attack && this.attack == Iku.ATTACK.drillBreak))
+            {
+                this.positionDirect = new Vector2((float)(position.X * 40.0 + 20.0), (float)(position.Y * 24.0 + 54.0));
+            }
         }
 
         protected override void Moving()
