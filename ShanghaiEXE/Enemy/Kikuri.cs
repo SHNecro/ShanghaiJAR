@@ -146,7 +146,9 @@ namespace NSEnemy
             this.parent.noFanfale = true;
             this.parent.mind.perfect = true;
             this.parent.player.busterPower += 5;
+
             this.ForcePanels();
+            this.parent.effects.Add(new KikuriHalfBrokenPanels(this.sound, this.parent));
             this.animationpoint = new Point(6, 0);
         }
 
@@ -164,7 +166,7 @@ namespace NSEnemy
             {
                 this.parent.panel[panel.X, panel.Y].inviolability = true;
                 this.parent.panel[panel.X, panel.Y].noRender = true;
-                this.parent.panel[panel.X, panel.Y].state = Panel.PANEL._un;
+                this.parent.panel[panel.X, panel.Y].state = Panel.PANEL._none;
             }
         }
 

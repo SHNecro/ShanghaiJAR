@@ -46,7 +46,7 @@ namespace NSChip
       if (character is Player)
       {
         Player player = (Player) character;
-        if (player.InputIsPush(Button._A) && !this.command && this.commandTime < 10)
+        if (Input.IsPush(Button._A) && !this.command && this.commandTime < 10)
         {
           character.waittime = 0;
           this.CommandInput("上下左右", player);

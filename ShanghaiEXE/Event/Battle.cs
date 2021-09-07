@@ -29,8 +29,6 @@ namespace NSEvent
         private readonly bool canEscape;
         private readonly string bgm;
         private readonly bool gameover;
-        private readonly NetPlayer netplayer;
-        private readonly NetBattle netButtle;
 
         public SceneMain MainScene
         {
@@ -182,35 +180,6 @@ namespace NSEvent
             this.NoTimeNext = true;
         }
 
-        public Battle(
-          IAudioEngine s,
-          EventManager m,
-          NetBattle netButtle,
-          NetPlayer netplayer,
-          Panel.PANEL panel1,
-          Panel.PANEL panel2,
-          int type,
-          bool count,
-          bool result,
-          bool escape,
-          int back,
-          SaveData save)
-          : base(s, m, save)
-        {
-            this.netButtle = netButtle;
-            this.netplayer = netplayer;
-            this.position[0].X = netplayer.position.X;
-            this.position[0].Y = netplayer.position.Y;
-            this.panels[0] = panel1;
-            this.panels[1] = panel2;
-            this.paneltype = type;
-            this.countRend = count;
-            this.resultRend = result;
-            this.canEscape = escape;
-            this.back = back;
-            this.NoTimeNext = true;
-        }
-
         public override void Update()
         {
             if (this.manager.alpha >= byte.MaxValue)
@@ -244,21 +213,10 @@ namespace NSEvent
                             ++this.savedata.ValList[9];
                             count = this.savedata.ValList[9];
                         }
-                        if (this.netplayer == null)
-                        {
-                            this.MainScene.battlescene = new SceneBattle(this.sound, this.MainScene.parent, this.MainScene, new EventManager(this.sound), this.resultRend, count, this.gameover, this.bgm, this.savedata);
-                            this.MainScene.battlescene.EnemySet(this.EnemyMake(0), this.EnemyMake(1), this.EnemyMake(2), this.paneltype, this.panels[0], this.panels[1]);
-                            this.MainScene.battlescene.SetBack(this.back);
-                            this.MapScene.alpha = byte.MaxValue;
-                        }
-                        else
-                        {
-                            this.netButtle.playerE = this.netplayer;
-                            this.MainScene.battlescene = netButtle;
-                            this.MainScene.battlescene.EnemySet(this.netplayer, this.paneltype, this.panels[0], this.panels[1]);
-                            this.MainScene.battlescene.SetBack(this.back);
-                            this.MapScene.alpha = 0.0f;
-                        }
+                        this.MainScene.battlescene = new SceneBattle(this.sound, this.MainScene.parent, this.MainScene, new EventManager(this.sound), this.resultRend, count, this.gameover, this.bgm, this.savedata);
+                        this.MainScene.battlescene.EnemySet(this.EnemyMake(0), this.EnemyMake(1), this.EnemyMake(2), this.paneltype, this.panels[0], this.panels[1]);
+                        this.MainScene.battlescene.SetBack(this.back);
+                        this.MapScene.alpha = byte.MaxValue;
                         this.MainScene.parent.battlenum = MapScene.battlecouunt;
                         this.MapScene.main.NowScene = SceneMain.PLAYSCENE.battle;
                         this.MainScene.battlescene.canEscape = this.canEscape;

@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using NSEnemy;
+using System;
 
 namespace NSBattle.Character
 {
@@ -165,16 +166,8 @@ namespace NSBattle.Character
             this.busterCharge = bc;
             this.chargeWait = this.chargeShot.chargetime - busterCharge * this.chargeShot.shorttime;
             this.mind = m;
-            if (this.parent is NetBattle)
-            {
-                this.hpmax = this.savedata.HPMax;
-                this.hp = this.savedata.HPMax;
-            }
-            else
-            {
-                this.hpmax = this.savedata.HPMax;
-                this.hp = this.savedata.HPnow;
-            }
+            this.hpmax = this.savedata.HPMax;
+            this.hp = this.savedata.HPnow;
             this.hpprint = this.hp;
             this.position = new Point(pX, pY);
             this.positionre = this.position;
@@ -197,16 +190,7 @@ namespace NSBattle.Character
 
         public void Setstyle(int sets)
         {
-            if (this is NetPlayer)
-            {
-                NetPlayer netPlayer = (NetPlayer)this;
-                this.picturename = netPlayer.nextStyleP;
-                this.style = netPlayer.nextStyle;
-                this.element = netPlayer.nextelEment;
-                this.StyleAbilitySet();
-            }
-            else
-                this.picturename = this.StyleGraphics(sets);
+            this.picturename = this.StyleGraphics(sets);
             this.animationpoint = new Point(0, 0);
             for (int index = 0; index < this.badstatus.Length; ++index)
             {
@@ -240,7 +224,7 @@ namespace NSBattle.Character
                     for (int lowerBound2 = panel1.GetLowerBound(1); lowerBound2 <= upperBound2; ++lowerBound2)
                     {
                         Panel panel2 = panel1[lowerBound1, lowerBound2];
-                        if (panel2.state != Panel.PANEL._none)
+                        if (panel2.state != Panel.PANEL._none && panel2.state != Panel.PANEL._un)
                             panel2.state = Panel.PANEL._nomal;
                     }
                 }
@@ -267,18 +251,14 @@ namespace NSBattle.Character
                         switch (index1)
                         {
                             case 0:
-                                this.parent.panel[index1, index2].state = Panel.PANEL._none;
+                                this.parent.panel[index1, index2].state = Panel.PANEL._un;
                                 this.parent.panel[index1, index2].noRender = true;
                                 break;
                             case 1:
                                 this.parent.panel[index1, index2].inviolability = true;
-                                switch (this.parent.panel[index1, index2].state)
+                                if (this.parent.panel[index1, index2].Hole)
                                 {
-                                    case Panel.PANEL._break:
-                                    case Panel.PANEL._none:
-                                    case Panel.PANEL._un:
-                                        this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
-                                        break;
+                                    this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
                                 }
                                 break;
                             case 2:
@@ -641,39 +621,9 @@ namespace NSBattle.Character
             this.stylepoint[5] += point;
         }
 
-        public void NetSync()
-        {
-            if (this is NetPlayer)
-                return;
-            this.NetWorkSend(301, this.hp.ToString());
-        }
-
-        public void NetSyncSet()
-        {
-            if (!(this is NetPlayer))
-                return;
-            string[] strArray = NetParam.DataUse("301");
-            if (strArray != null)
-            {
-                this.hp = int.Parse(strArray[3]);
-                if (this.motion != Player.PLAYERMOTION._move)
-                {
-                    this.position.X = 5 - NetParam.ENpositionX[NetParam.backFlame];
-                    this.position.Y = NetParam.ENpositionY[NetParam.backFlame];
-                }
-            }
-        }
-
-        public void HitSync()
-        {
-            if (this is NetPlayer) { }
-        }
-
         public override void Updata()
         {
             CustomGauge customgauge = this.parent.customgauge;
-            this.NetSync();
-            this.NetSyncSet();
             this.synkFlame = 0;
             ++this.synkFlame;
             if (this.Hp <= 0 && this.addonSkill[70] && !this.kishikaisei)
@@ -804,23 +754,14 @@ namespace NSBattle.Character
 
         public virtual bool LRControl(CustomGauge custom)
         {
-            if (!custom.Customflag || this.parent.blackOut || !this.InputIsPress(Button._L) && !this.InputIsPress(Button._R))
+            if (!custom.Customflag || this.parent.blackOut || !Input.IsPress(Button._L) && !Input.IsPress(Button._R))
                 return false;
             this.ButtonLRCustom(custom);
             return true;
         }
 
-        protected override void NetWorkSend(int number, string data)
-        {
-            if (!(this.parent is NetBattle) || this is NetPlayer)
-                return;
-            NetParam.SendingData(number, data);
-        }
-
         protected void ButtonLRCustom(CustomGauge custom)
         {
-            NetParam.ClearData(201);
-            NetParam.ClearData(202);
             if (this.savedata.addonSkill[45])
             {
                 this.Hp -= this.Hp > 50 ? 50 : this.Hp - 1;
@@ -1025,109 +966,62 @@ namespace NSBattle.Character
             this.chargeOff = true;
         }
 
-        public void NextChipSend()
-        {
-            if (!(this is NetPlayer))
-            {
-                if (this.haveChip.Count > 0)
-                    NetParam.NextChipSend(this.haveChip[0]);
-                else
-                    NetParam.NextChipSend(null);
-            }
-            else
-            {
-                this.haveChip.Clear();
-                this.haveChip.Add(NetParam.NextChipMake(this.sound));
-                if (!(this.haveChip[0] is DammyChip))
-                {
-                    this.numOfChips = 1;
-                }
-                else
-                {
-                    this.haveChip.Clear();
-                    this.numOfChips = 0;
-                }
-            }
-        }
-
         public void BlackOutControl()
         {
-            if (!this.InputIsPress(Button._A) || this.parent.blackOutStopper || this.numOfChips <= 0 || this.parent.nowscene == SceneBattle.BATTLESCENE.custom || (!this.haveChip[0].timeStopper || this.parent.blackOutChips[0].nameAlpha != byte.MaxValue))
-                return;
-            this.ButtonA();
-            this.usingChip.chipUseEnd = false;
-            this.usingChip.BlackOut(this, this.parent, this.usingChip.name, this.usingChip.Power(this).ToString());
+            if (Input.IsPress(Button._A)
+                && !this.parent.blackOutStopper
+                && this.numOfChips > 0
+                && this.parent.nowscene != SceneBattle.BATTLESCENE.custom
+                && this.haveChip[0].timeStopper
+                && this.parent.blackOutChips[0].nameAlpha == byte.MaxValue)
+            {
+                this.ButtonA();
+                this.usingChip.chipUseEnd = false;
+                this.usingChip.BlackOut(this, this.parent, this.usingChip.name, this.usingChip.Power(this).ToString());
+            }
         }
 
         public virtual void Control(CustomGauge custom)
         {
-            if (!this.canUseChip && !this.InputIsPush(Button._A))
+            if (!this.canUseChip && !Input.IsPush(Button._A))
                 this.canUseChip = true;
-            this.NextChipSend();
             if (this.canMove && this.motion != Player.PLAYERMOTION._damage && (this.motion != Player.PLAYERMOTION._chip && this.motion != Player.PLAYERMOTION._charge) && !this.badstatus[7] && !this.badstatus[8])
             {
-                if (this.InputIsPush(Button.Up) && !this.nomove)
+                if (Input.IsPush(Button.Up) && !this.nomove)
                     this.ButtonUp();
-                else if (this.InputIsPush(Button.Down) && !this.nomove)
+                else if (Input.IsPush(Button.Down) && !this.nomove)
                     this.ButtonDown();
-                else if (this.InputIsPush(Button.Left) && !this.nomove)
+                else if (Input.IsPush(Button.Left) && !this.nomove)
                     this.ButtonLeft();
-                else if (this.InputIsPush(Button.Right) && !this.nomove)
+                else if (Input.IsPush(Button.Right) && !this.nomove)
                     this.ButtonRight();
             }
             if (this.motion == Player.PLAYERMOTION._neutral)
             {
                 this.canMove = true;
-                if (!this.InputIsPush(Button._A))
+                if (!Input.IsPush(Button._A))
                     this.needAbuutonPush = false;
-                if (this.InputIsPush(Button._A) && !this.needAbuutonPush && (this.numOfChips > 0 && this.canUseChip) && this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.nextchipwait == 0)
+                if (Input.IsPush(Button._A) && !this.needAbuutonPush && (this.numOfChips > 0 && this.canUseChip) && this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.nextchipwait == 0)
                     this.ButtonA();
-                else if (this.charge && !this.InputIsPush(Button._B) && !this.addonSkill[69] || (this.chargeOff || this.InputIsPush(Button._B) && this.bustor != Player.BUSTOR.normal) || this.addonSkill[69] && this.InputIsPush(Button._B))
+                else if (this.charge && !Input.IsPush(Button._B) && !this.addonSkill[69] || (this.chargeOff || Input.IsPush(Button._B) && this.bustor != Player.BUSTOR.normal) || this.addonSkill[69] && Input.IsPush(Button._B))
                     this.ButtonB();
-                else if (this.InputIsPress(Button._R) && !custom.Customflag && (this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.Rbutton_ != Player.Rbutton.none) && !this.RbuttonUse && this.Rtimer <= 0)
+                else if (Input.IsPress(Button._R) && !custom.Customflag && (this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.Rbutton_ != Player.Rbutton.none) && !this.RbuttonUse && this.Rtimer <= 0)
                     this.ButtonR();
-                else if (this.InputIsPress(Button._L) && !custom.Customflag && (this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.Lbutton_ != Player.Lbutton.none) && !this.LbuttonUse && this.Ltimer <= 0)
+                else if (Input.IsPress(Button._L) && !custom.Customflag && (this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.Lbutton_ != Player.Lbutton.none) && !this.LbuttonUse && this.Ltimer <= 0)
                     this.ButtonL();
                 if (this.motion != Player.PLAYERMOTION._chip)
                 {
                     if (this.addonSkill[69] && !this.charge)
                         this.ChargeStart();
-                    if (!this.charge && this.InputIsPush(Button._B) && this.bustor == Player.BUSTOR.normal)
+                    if (!this.charge && Input.IsPush(Button._B) && this.bustor == Player.BUSTOR.normal)
                         this.ChargeStart();
-                    if (this.charge && this.InputIsUp(Button._B))
+                    if (this.charge && Input.IsUp(Button._B))
                         this.ChargeEnd();
                 }
             }
             if (this.nextchipwait <= 0)
                 return;
             --this.nextchipwait;
-        }
-
-        public bool InputIsPush(Button button)
-        {
-            if (!(this.parent is NetBattle))
-                return Input.IsPush(button);
-            if (!(this is NetPlayer))
-                return Input.IR_Push(button, NetParam.readDeray);
-            return Input.IR_PushE(button, NetParam.backFlame);
-        }
-
-        public bool InputIsPress(Button button)
-        {
-            if (!(this.parent is NetBattle))
-                return Input.IsPress(button);
-            if (!(this is NetPlayer))
-                return Input.IR_Press(button, NetParam.readDeray);
-            return Input.IR_PressE(button, NetParam.backFlame);
-        }
-
-        public bool InputIsUp(Button button)
-        {
-            if (!(this.parent is NetBattle))
-                return Input.IsUp(button);
-            if (!(this is NetPlayer))
-                return Input.IR_Up(button, NetParam.readDeray);
-            return Input.IR_UpE(button, NetParam.backFlame);
         }
 
         public void LossChip()
@@ -1200,7 +1094,7 @@ namespace NSBattle.Character
                                     this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
                                 if (this.addonSkill[37])
                                     this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                this.parent.attacks.Add(new AssaultBuster(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, !this.badstatus[1] ? num2 : num2 / 2, busterPower / 2, busterCharge, this.busterBlue, ChipBase.ELEMENT.normal));
+                                this.parent.attacks.Add(new AssaultBuster(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, !this.badstatus[1] ? num2 : Math.Max(1, num2 / 2), busterPower / 2, busterCharge, this.busterBlue, ChipBase.ELEMENT.normal));
                             }
                             if (Input.IsPush(Button._B) && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                             {
@@ -1244,7 +1138,7 @@ namespace NSBattle.Character
                             {
                                 int num = this.style != Player.STYLE.fighter ? busterPower : busterPower * 2;
                                 this.PluspointFighter(2);
-                                this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X, this.position.Y, this.union, !this.badstatus[1] ? num : num / 2, BustorShot.SHOT.bustor, ChipBase.ELEMENT.normal, false, 0));
+                                this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X, this.position.Y, this.union, !this.badstatus[1] ? num : Math.Max(1, num / 2), BustorShot.SHOT.bustor, ChipBase.ELEMENT.normal, false, 0));
                             }
                             this.canMove = true;
                             break;
@@ -1313,21 +1207,6 @@ namespace NSBattle.Character
                         break;
                     }
                     this.alfha = 0;
-                    if (this.parent is NetBattle)
-                    {
-                        if (this.parent.nowscene != SceneBattle.BATTLESCENE.end)
-                        {
-                            if (this is NetPlayer)
-                            {
-                                this.parent.manyenemys = 0;
-                                this.savedata.selectQuestion = this.parent.player.hp > 0 ? 0 : 2;
-                            }
-                            else
-                                this.savedata.selectQuestion = 1;
-                            this.parent.BattleEnd(false);
-                        }
-                    }
-                    else
                         this.parent.nowscene = SceneBattle.BATTLESCENE.dead;
                     break;
             }
@@ -1569,68 +1448,53 @@ namespace NSBattle.Character
 
         public override void RenderUP(IRenderer dg)
         {
-            if (this is NetPlayer)
+            
+            if (this.numOfChips > 0 && !this.parent.blackOut)
             {
-                this.HPposition = new Vector2(this.positionDirect.X, (float)(positionDirect.Y + 2.0 + this.Height / 2 - 16.0));
-                this._position = new Vector2(224f, 144f);
-                if (NetParam.readDeray <= 3)
-                    this._rect = new Rectangle(592, 24, 16, 16);
-                else if (NetParam.readDeray <= 6)
-                    this._rect = new Rectangle(608, 24, 16, 16);
-                else if (NetParam.readDeray <= 9)
-                    this._rect = new Rectangle(624, 24, 16, 16);
-                else
-                    this._rect = new Rectangle(640, 24, 16, 16);
-                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
-            }
-            else
-            {
-                if (this.numOfChips > 0 && !this.parent.blackOut)
+                for (int index = this.haveChip.Count - 1; index >= 0; --index)
                 {
-                    for (int index = this.haveChip.Count - 1; index >= 0; --index)
+                    if (this.haveChip[index] != null && this.haveChip[index].printIcon)
                     {
-                        if (this.haveChip[index] != null && this.haveChip[index].printIcon)
-                        {
-                            this._position = new Vector2(this.position.X * 40 + 16 - 2 * index + this.Shake.X, this.position.Y * 24 + 40 - 16 - 2 * index + this.Shake.Y);
-                            this._rect = new Rectangle(296, 104, 16, 16);
-                            dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
-                            this.haveChip[index].IconRender(dg, this._position, false, false, 0, false);
-                        }
-                    }
-                    if (this.haveChip.Count > 0 && this.haveChip[0].name != null)
-                    {
-                        int length = this.haveChip[0].name.Length;
-                        this._position = new Vector2(8f, 144f);
-                        this.TextRender(dg, this.haveChip[0].name, false, this._position, true);
-                        if (this.haveChip[0].powerprint)
-                        {
-                            string txt = this.haveChip[0].power.ToString();
-                            int pluspower = this.haveChip[0].pluspower;
-                            if (this.chargeBypass && this.chargeMax)
-                                pluspower += 10;
-                            if (this.style == Player.STYLE.witch && (uint)this.haveChip[0].element > 0U)
-                            {
-                                if (this.haveChip[0].element == this.element)
-                                    pluspower += 20;
-                                else
-                                    pluspower += 10;
-                            }
-                            if (this.style == Player.STYLE.fighter && this.haveChip[0].element == ChipBase.ELEMENT.normal)
-                                pluspower += 10;
-                            if (pluspower > 0)
-                                txt = txt + " +" + pluspower.ToString();
-                            if (this.mind.MindNow == MindWindow.MIND.fullsync || this.mind.MindNow == MindWindow.MIND.angry)
-                                txt += " *2";
-                            this._position = new Vector2(24 + length * 8, 144f);
-                            this.TextRender(dg, txt, false, this._position, true, Color.FromArgb(byte.MaxValue, 230, 30));
-                        }
+                        this._position = new Vector2(this.position.X * 40 + 16 - 2 * index + this.Shake.X, this.position.Y * 24 + 40 - 16 - 2 * index + this.Shake.Y);
+                        this._rect = new Rectangle(296, 104, 16, 16);
+                        dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                        this.haveChip[index].IconRender(dg, this._position, false, false, 0, false);
                     }
                 }
-                this._rect = new Rectangle(80, 0, 44, 16);
-                this._position = this.parent.positionHPwindow;
-                dg.DrawImage(dg, "battleobjects", this._rect, false, this._position, Color.White);
-                this.HPRender(dg, new Vector2(this.parent.positionHPwindow.X + 12f, this.parent.positionHPwindow.Y - 1f));
+                if (this.haveChip.Count > 0 && this.haveChip[0].name != null)
+                {
+                    int length = this.haveChip[0].name.Length;
+                    this._position = new Vector2(8f, 144f);
+                    this.TextRender(dg, this.haveChip[0].name, false, this._position, true);
+                    if (this.haveChip[0].powerprint)
+                    {
+                        string txt = this.haveChip[0].power.ToString();
+                        int pluspower = this.haveChip[0].pluspower;
+                        if (this.chargeBypass && this.chargeMax)
+                            pluspower += 10;
+                        if (this.style == Player.STYLE.witch && (uint)this.haveChip[0].element > 0U)
+                        {
+                            if (this.haveChip[0].element == this.element)
+                                pluspower += 20;
+                            else
+                                pluspower += 10;
+                        }
+                        if (this.style == Player.STYLE.fighter && this.haveChip[0].element == ChipBase.ELEMENT.normal)
+                            pluspower += 10;
+                        if (pluspower > 0)
+                            txt = txt + " +" + pluspower.ToString();
+                        if (this.mind.MindNow == MindWindow.MIND.fullsync || this.mind.MindNow == MindWindow.MIND.angry)
+                            txt += " *2";
+                        this._position = new Vector2(24 + length * 8, 144f);
+                        this.TextRender(dg, txt, false, this._position, true, Color.FromArgb(byte.MaxValue, 230, 30));
+                    }
+                }
             }
+            this._rect = new Rectangle(80, 0, 44, 16);
+            this._position = this.parent.positionHPwindow;
+            dg.DrawImage(dg, "battleobjects", this._rect, false, this._position, Color.White);
+            this.HPRender(dg, new Vector2(this.parent.positionHPwindow.X + 12f, this.parent.positionHPwindow.Y - 1f));
+            
             if (this.usingChip.chipUseEnd)
                 return;
             this.usingChip.BlackOutRender(dg, this.union);

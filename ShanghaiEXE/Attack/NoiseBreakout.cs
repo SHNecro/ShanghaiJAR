@@ -119,11 +119,11 @@ namespace NSAttack
             {
                 if (this.waittime >= this.framesToImpact / 2)
                 {
-                    var blockShield = new ReflShield(this.sound, this.positionDirect, Point.Empty);
+                    var blockShield = new ReflShield(this.sound, this.positionDirect, this.position);
                     blockShield.blackOutObject = false;
                     this.parent.effects.Add(blockShield);
 
-                    var shieldBlock = new Guard(this.sound, this.parent, noiseSpread, 2, Point.Empty);
+                    var shieldBlock = new Guard(this.sound, this.parent, noiseSpread, 2, this.position);
                     shieldBlock.blackOutObject = false;
                     this.parent.effects.Add(shieldBlock);
                     this.sound.PlaySE(SoundEffect.damagezero);

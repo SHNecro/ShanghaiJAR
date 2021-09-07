@@ -879,7 +879,8 @@ namespace NSMap.Character
                         else
                         {
                             int count = this.field.encounts.Count;
-                            if (!this.savedata.FlagList[this.field.encountCap[0]] || ignoreSpecialEncounters)
+                            if (!this.savedata.FlagList[this.field.encountCap[0]]
+                                || (ignoreSpecialEncounters && this.field.encountCap[1] != this.field.encounts.Count))
                             {
                                 this.encounts = new List<EventManager>();
                                 for (int index = 0; index < this.field.encounts.Count - this.field.encountCap[1]; ++index)
@@ -904,7 +905,7 @@ namespace NSMap.Character
                             this.encountNumber = this.Random.Next(this.encounts.Count);
                         }
                         this.encountInterval = 300;
-                        if (!this.savedata.runSubChips[0] || this.IsBypassingFirewall(this.encountNumber) || this.encounterBreak)
+                        if ((!this.savedata.runSubChips[0] || this.IsBypassingFirewall(this.encountNumber) || this.encounterBreak) && this.encounts.Count > this.encountNumber)
                         {
                             this.encounterBreak = false;
                             this.encount = true;

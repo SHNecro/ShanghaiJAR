@@ -1690,7 +1690,7 @@ fade:15:255:255:255:255:True
 effect:38:BarrierSmoke:Barrier2-2:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier2-2-Extra1:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier2-2-Extra2:::3:16:4:1:none
-battle:63:1:5:0:1:1:1:0::63:2:3:1:1:1:1:0::63:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:1:5:0:1:1:1:0::63:2:3:1:1:1:1:0::63:1:5:2:1:1:1:0::0:9:8:False:False:False:True:VSvirus:36
 bgmon:heavenbackground
 bgmfade:0:0:True
 bgmfade:100:60:False
@@ -1857,7 +1857,7 @@ fade:15:255:255:255:255:True
 effect:38:BarrierSmoke:Barrier2-3:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier2-3-Extra1:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier2-3-Extra2:::3:16:4:1:none
-battle:63:2:3:0:1:1:1:0::63:1:4:1:1:1:1:0::63:2:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:2:3:0:1:1:1:0::63:1:4:1:1:1:1:0::63:2:5:0:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
 bgmon:heavenbackground
 bgmfade:0:0:True
 bgmfade:100:60:False
@@ -2668,7 +2668,7 @@ fade:15:255:255:255:255:True
 effect:38:BarrierSmoke:Barrier2-4:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier2-4-Extra1:::3:16:4:1:none
 effect:38:BarrierSmoke:Barrier2-4-Extra2:::3:16:4:1:none
-battle:63:2:5:0:1:1:1:0::63:2:3:1:1:1:1:0::63:3:4:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:2:5:2:1:1:1:0::63:2:3:1:1:1:1:0::63:3:4:0:1:1:1:0::0:9:13:False:False:False:True:VSvirus:36
 bgmon:heavenbackground
 bgmfade:0:0:True
 bgmfade:100:60:False
@@ -3064,7 +3064,7 @@ end
 page:2
 startterms:Touch
 type:0
-terms:flag/66
+terms:flag/66,flag/828
 move:
 speed:10
 graphic:-2:64,448,64,34,4

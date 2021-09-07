@@ -32,8 +32,8 @@ namespace NSChip
             this.color = 0;
             this.code[0] = ChipFolder.CODE.U;
             this.code[1] = ChipFolder.CODE.R;
-            this.code[2] = ChipFolder.CODE.U;
-            this.code[3] = ChipFolder.CODE.R;
+            this.code[2] = ChipFolder.CODE.asterisk;
+            this.code[3] = ChipFolder.CODE.asterisk;
             var information = NSGame.ShanghaiEXE.Translate("Chip.UthuhoV1Desc");
             this.information[0] = information[0];
             this.information[1] = information[1];

@@ -34,6 +34,7 @@ namespace NSAttack
             this.invincibility = false;
             this.speed = s;
             this.positionDirect = v;
+            this.hitting = true;
             this.BadStatusSet(CharacterBase.BADSTATUS.heavy, 600);
         }
 
@@ -43,7 +44,6 @@ namespace NSAttack
             if (this.frame >= 3 && !this.movestart)
             {
                 this.movestart = true;
-                this.hitting = true;
                 this.sound.PlaySE(SoundEffect.canon);
             }
             if (this.moveflame)

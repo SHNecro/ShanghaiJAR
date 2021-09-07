@@ -42,7 +42,7 @@ namespace NSAttack
             else
                 this.positionDirect = new Vector2((this.position.X + 1) * 40 + 5, this.position.Y * 24 + 42);
             this.frame = 0;
-            if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._break || this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._none)
+            if (this.parent.panel[this.position.X, this.position.Y].Hole)
                 this.flag = false;
             else
                 this.sound.PlaySE(SoundEffect.shotwave);
@@ -76,7 +76,9 @@ namespace NSAttack
                 {
                     this.hitting = false;
                     this.positionre.X = this.union == Panel.COLOR.red ? this.position.X + 1 : this.position.X - 1;
-                    if (this.positionre.X >= 0 && this.positionre.X < 6 && this.positionre.Y >= 0 && this.positionre.Y < 3 && (this.parent.panel[this.positionre.X, this.positionre.Y].state != Panel.PANEL._break && this.parent.panel[this.positionre.X, this.positionre.Y].state != Panel.PANEL._none))
+                    if (this.positionre.X >= 0 && this.positionre.X < 6 &&
+                        this.positionre.Y >= 0 && this.positionre.Y < 3 &&
+                        (!this.parent.panel[this.positionre.X, this.positionre.Y].Hole))
                         this.parent.attacks.Add(this.StateCopy(new WaveAttsck(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, !this.badstatus[1] ? this.power : this.power / 2, this.nextmake, this.panelchange, this.element)));
                     this.positionre = this.position;
                 }

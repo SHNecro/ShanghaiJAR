@@ -24,8 +24,7 @@ namespace NSAttack
         {
             if (!this.flag
 				|| !this.InArea
-				|| this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._break
-				|| this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._none)
+				|| this.parent.panel[this.position.X, this.position.Y].Hole)
 			{
 				this.flag = false;
 			}
@@ -52,8 +51,7 @@ namespace NSAttack
 					var nextPosition = this.position.WithOffset(xOffset, 0);
 
 					if (this.InAreaCheck(nextPosition)
-						&& this.parent.panel[nextPosition.X, nextPosition.Y].state != Panel.PANEL._break
-						&& this.parent.panel[nextPosition.X, nextPosition.Y].state != Panel.PANEL._none)
+						&& !this.parent.panel[nextPosition.X, nextPosition.Y].Hole)
 					{
 						this.parent.attacks.Add(this.StateCopy(new DruidManWave(this.sound, this.parent, nextPosition.X, nextPosition.Y, this.union, this.power, this.speed, this.element)));
 					}

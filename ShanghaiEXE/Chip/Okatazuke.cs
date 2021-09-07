@@ -44,7 +44,7 @@ namespace NSChip
       {
         for (int pY = 0; pY < battle.panel.GetLength(1); ++pY)
         {
-          if (battle.panel[pX, pY].State != Panel.PANEL._none && battle.panel[pX, pY].color == character.union)
+          if (battle.panel[pX, pY].State != Panel.PANEL._none && battle.panel[pX, pY].State != Panel.PANEL._un && battle.panel[pX, pY].color == character.union)
           {
             battle.panel[pX, pY].State = Panel.PANEL._nomal;
             battle.effects.Add(new Smoke(this.sound, battle, pX, pY, this.element));

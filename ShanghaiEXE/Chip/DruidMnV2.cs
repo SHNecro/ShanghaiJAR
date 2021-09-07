@@ -63,6 +63,8 @@ namespace NSChip
         private Point animePoint;
         private bool afterimage;
 
+        private int? initialEnemyHPSum;
+
         public DruidMnV2(IAudioEngine s)
           : base(s)
         {
@@ -102,8 +104,9 @@ namespace NSChip
             this.animePoint = this.Animation(character.waittime);
             if (character.waittime == 0)
             {
-                    character.animationpoint.X = -1;
-                    this.sound.PlaySE(SoundEffect.warp);
+                character.animationpoint.X = -1;
+                this.sound.PlaySE(SoundEffect.warp);
+                this.initialEnemyHPSum = battle.AllChara().Where(c => character.UnionEnemy == c.union).Sum(c => c.Hp);
             }
             else if (character.waittime >= AnimationTiming.First().Delay && character.waittime < AnimationTiming.TakeWhile(a => a.Row == 2 || a.Row == 0).Sum(a => a.Delay))
             {
@@ -122,13 +125,6 @@ namespace NSChip
                                -1,
                                ChipBase.ELEMENT.poison));
                         character.parent.attacks.Add(burst);
-                        var affectedEnemies = battle.AllChara().Where(c => character.UnionEnemy == c.union && burst.HitCheck(c.position));
-                        var drainedLife = affectedEnemies.Sum(c => Math.Min(this.Power(character), c.Hp));
-                        if (drainedLife > 0)
-                        {
-                            this.sound.PlaySE(SoundEffect.repair);
-                            character.Hp += drainedLife;
-                        }
                     }
                 });
                 if (burstAttackTime % BurstSpacing == 0)
@@ -136,8 +132,7 @@ namespace NSChip
                     var columnProgress = (burstAttackTime / BurstSpacing) % 6;
                     var column = character.union == Panel.COLOR.red ? columnProgress : (5 - columnProgress);
                     var validRows = Enumerable.Range(0, 3).Where(r =>
-                        character.parent.panel[column, r].state != Panel.PANEL._break
-                        && character.parent.panel[column, r].state != Panel.PANEL._none
+                        !character.parent.panel[column, r].Hole
                         && !this.burstWarnings.Any(bw => bw.Item1.X == column && bw.Item1.Y == r)).ToArray();
                     var row = validRows.Length > 0 ? validRows[this.Random.Next(0, validRows.Length)] : -1;
                     if (row != -1)
@@ -157,6 +152,19 @@ namespace NSChip
             }
             else if (character.waittime >= AnimationTiming.TakeWhile(a => a.Row == 2 || a.Row == 0).Sum(a => a.Delay) && character.waittime < AnimationTiming.Sum(a => a.Delay))
             {
+                if (this.initialEnemyHPSum != null)
+                {
+                    var afterBurstEnemyHpSum = battle.AllChara().Where(c => character.UnionEnemy == c.union).Sum(c => c.Hp);
+                    var drainedLife = this.initialEnemyHPSum.Value - afterBurstEnemyHpSum;
+                    if (drainedLife > 0)
+                    {
+                        this.sound.PlaySE(SoundEffect.repair);
+                        character.Hp += drainedLife;
+                    }
+
+                    this.initialEnemyHPSum = null;
+                }
+
                 var waveAttackTime = character.waittime - AnimationTiming.TakeWhile(a => a.Row == 2 || a.Row == 0).Sum(a => a.Delay) - AnimationTiming.First().Delay;
 
                 if (waveAttackTime >= WaveAttackDelay)

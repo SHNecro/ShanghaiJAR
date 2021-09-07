@@ -52,7 +52,7 @@ namespace NSAttack
             this.PanelBright();
             if (!this.movestart)
             {
-                if (this.InAreaCheck(this.position) && (this.parent.panel[this.position.X, this.position.Y].State == Panel.PANEL._break || this.parent.panel[this.position.X, this.position.Y].State == Panel.PANEL._none))
+                if (this.InAreaCheck(this.position) && (this.parent.panel[this.position.X, this.position.Y].Hole))
                 {
                     this.parent.effects.Add(new StepShadow(this.sound, this.parent, this._rect, this.positionDirect, this.picturename, this.rebirth, this.position));
                     this.flag = false;
@@ -106,7 +106,7 @@ namespace NSAttack
                     this.sound.PlaySE(SoundEffect.knock);
                     ++this.refrect;
                 }
-                if (this.refrect >= 4 || (this.InAreaCheck(poji) && (this.parent.panel[poji.X, poji.Y].State == Panel.PANEL._break || this.parent.panel[poji.X, poji.Y].State == Panel.PANEL._none)))
+                if (this.refrect >= 4 || (this.InAreaCheck(poji) && (this.parent.panel[poji.X, poji.Y].Hole)))
                 {
                     this.parent.effects.Add(new StepShadow(this.sound, this.parent, this._rect, this.positionDirect, this.picturename, this.rebirth, this.position));
                     this.flag = false;

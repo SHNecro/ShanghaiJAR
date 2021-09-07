@@ -103,43 +103,43 @@ namespace NSGame
 
 		protected void CommandInput(string button, Player player)
 		{
-			if (player.InputIsPress(Button._A) && button.Contains('A'))
+			if (Input.IsPress(Button._A) && button.Contains('A'))
 			{
 				this.CommandAdd(Button._A);
 			}
-			else if (player.InputIsPress(Button._B) && button.Contains('B'))
+			else if (Input.IsPress(Button._B) && button.Contains('B'))
 			{
 				this.CommandAdd(Button._B);
 			}
-			else if (player.InputIsPress(Button._L) && button.Contains('L'))
+			else if (Input.IsPress(Button._L) && button.Contains('L'))
 			{
 				this.CommandAdd(Button._L);
 			}
-			else if (player.InputIsPress(Button._R) && button.Contains('R'))
+			else if (Input.IsPress(Button._R) && button.Contains('R'))
 			{
 				this.CommandAdd(Button._R);
 			}
-			else if (player.InputIsPress(Button._Start) && button.Contains('S'))
+			else if (Input.IsPress(Button._Start) && button.Contains('S'))
 			{
 				this.CommandAdd(Button._Start);
 			}
-			else if (player.InputIsPress(Button._Select) && button.Contains('s'))
+			else if (Input.IsPress(Button._Select) && button.Contains('s'))
 			{
 				this.CommandAdd(Button._Select);
 			}
-			else if (player.InputIsPress(Button.Up) && button.Contains('上'))
+			else if (Input.IsPress(Button.Up) && button.Contains('上'))
 			{
 				this.CommandAdd(Button.Up);
 			}
-			else if (player.InputIsPress(Button.Down) && button.Contains('下'))
+			else if (Input.IsPress(Button.Down) && button.Contains('下'))
 			{
 				this.CommandAdd(Button.Down);
 			}
-			else if (player.InputIsPress(Button.Left) && button.Contains('左'))
+			else if (Input.IsPress(Button.Left) && button.Contains('左'))
 			{
 				this.CommandAdd(Button.Left);
 			}
-			else if (player.InputIsPress(Button.Right) && button.Contains('右'))
+			else if (Input.IsPress(Button.Right) && button.Contains('右'))
 			{
 				this.CommandAdd(Button.Right);
 			}

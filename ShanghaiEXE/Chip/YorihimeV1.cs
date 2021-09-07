@@ -70,7 +70,7 @@ namespace NSChip
             if (character is Player)
             {
                 Player player = (Player)character;
-                if (this.nowmotion == 0 && this.frame < 3 && (player.InputIsPush(Button._A) && this.command == 0) && this.commandTime < 60)
+                if (this.nowmotion == 0 && this.frame < 3 && (Input.IsPush(Button._A) && this.command == 0) && this.commandTime < 60)
                 {
                     this.CommandInput("上下左右B", player);
                     if (this.CommandCheck("下左上右下"))
@@ -142,17 +142,17 @@ namespace NSChip
                                 if (character is Player && this.command == 0)
                                 {
                                     Player player = (Player)character;
-                                    if (player.InputIsPush(Button.Right))
+                                    if (Input.IsPush(Button.Right))
                                     {
                                         this.sound.PlaySE(SoundEffect.CommandSuccess);
                                         this.command = 1;
                                     }
-                                    else if (player.InputIsPush(Button.Up))
+                                    else if (Input.IsPush(Button.Up))
                                     {
                                         this.sound.PlaySE(SoundEffect.CommandSuccess);
                                         this.command = 2;
                                     }
-                                    else if (player.InputIsPush(Button.Left))
+                                    else if (Input.IsPush(Button.Left))
                                     {
                                         this.sound.PlaySE(SoundEffect.CommandSuccess);
                                         this.command = 3;
@@ -385,7 +385,7 @@ namespace NSChip
                     if (characterBase.union == character.UnionEnemy)
                         characterBaseList.Add(characterBase);
                 }
-                else if (characterBase is Player || characterBase is NetPlayer)
+                else if (characterBase is Player)
                 {
                     if (characterBase.union == character.UnionEnemy)
                         characterBaseList.Add(characterBase);

@@ -427,20 +427,12 @@ hitform:circle
 event:
 msgopen:
 msg:Map.UraNetSquare2Request12ChinpiraStage5Dialogue1FaceNaviPurplePunk
+ifchip:155:3:False:0
+ItemGet:0:154:3:
+ifEnd:0
 msg:Map.UraNetSquare2Request12ChinpiraStage5Dialogue2FaceNaviPurplePunk
 msg:Map.UraNetSquare2Request12ChinpiraStage5Dialogue3FaceShanghai
 msgclose:
-end
-page:3
-startterms:Abutton
-type:0
-terms:flag/395
-move:
-speed:0
-graphic:-1:0,0,0,0,0
-hitrange:0:0:0:0
-hitform:square
-event:
 end
 
 ID:リンクスプライト

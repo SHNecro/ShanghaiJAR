@@ -81,7 +81,7 @@ namespace NSChip
             }
             AttackBase a = new SonicBoom(this.sound, character.parent, character.position.X + this.UnionRebirth(character.union), character.position.Y, character.union, this.Power(character), 8, this.element, false);
             a.invincibility = this.count >= 3;
-            character.parent.attacks.Add(this.Paralyze(a));
+            character.parent.attacks.Add(this.Paralyze(a, character));
         }
 
         public override void GraphicsRender(

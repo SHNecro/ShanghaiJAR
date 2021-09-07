@@ -13,7 +13,7 @@ namespace NSEffect
         private readonly bool print = true;
         private int alpha = 0;
         private readonly int alphaPlus = 25;
-        private readonly Color color_ = Color.Black;
+        private readonly Func<Color> finalColorGetter;
         private new readonly bool rebirth;
         private int endAlpha = byte.MaxValue;
 
@@ -21,7 +21,7 @@ namespace NSEffect
         private Func<string> textGetter;
 
         private string spriteSheet;
-        private Rectangle spriteTexture;
+        private Func<Rectangle> spriteTextureGetter;
 
         public bool end;
         
@@ -33,7 +33,7 @@ namespace NSEffect
           Point posi,
           int _speed,
           bool rebirth,
-          Color color,
+          Func<Color> colorGetter,
           int alphaPlus)
           : base(s, p, posi.X, posi.Y)
         {
@@ -44,12 +44,106 @@ namespace NSEffect
             this.positionDirect = pd;
             this.animationpoint.X = 3;
             this.alphaPlus = alphaPlus;
-            this.endAlpha = color.A;
-            this.color_ = Color.FromArgb(0, color);
+            this.endAlpha = colorGetter().A;
+            this.finalColorGetter = colorGetter;
             this.color = Color.FromArgb(0, Color.Black);
 
             this.isText = true;
+            this.blackOutObject = true;
         }
+
+        public ScreenObjectFade(
+          IAudioEngine s,
+          SceneBattle p,
+          string spriteSheet,
+          Func<Rectangle> spriteTextureGetter,
+          Vector2 pd,
+          Point posi,
+          int _speed,
+          bool rebirth,
+          Func<Color> colorGetter,
+          int alphaPlus)
+          : base(s, p, posi.X, posi.Y)
+        {
+            this.rebirth = rebirth;
+            this.spriteSheet = spriteSheet;
+            this.spriteTextureGetter = spriteTextureGetter;
+            this.upprint = true;
+            this.speed = _speed;
+            this.positionDirect = pd;
+            this.animationpoint.X = 3;
+            this.alphaPlus = alphaPlus;
+            this.endAlpha = colorGetter().A;
+            this.finalColorGetter = colorGetter;
+            this.color = Color.FromArgb(0, Color.Black);
+
+            this.isText = false;
+            this.blackOutObject = true;
+        }
+
+        public ScreenObjectFade(
+          IAudioEngine s,
+          SceneBattle p,
+          Func<string> textGetter,
+          Vector2 pd,
+          Point posi,
+          int _speed,
+          bool rebirth,
+          Color color,
+          int alphaPlus)
+          : this(s, p, textGetter, pd, posi, _speed, rebirth, () => color, alphaPlus) { }
+
+        public ScreenObjectFade(
+          IAudioEngine s,
+          SceneBattle p,
+          string text,
+          Vector2 pd,
+          Point posi,
+          int _speed,
+          bool rebirth,
+          Func<Color> colorGetter,
+          int alphaPlus)
+          : this(s, p, () => text, pd, posi, _speed, rebirth, colorGetter, alphaPlus) { }
+
+        public ScreenObjectFade(
+          IAudioEngine s,
+          SceneBattle p,
+          string text,
+          Vector2 pd,
+          Point posi,
+          int _speed,
+          bool rebirth,
+          Color color,
+          int alphaPlus)
+          : this(s, p, () => text, pd, posi, _speed, rebirth, () => color, alphaPlus) { }
+
+        public ScreenObjectFade(
+          IAudioEngine s,
+          SceneBattle p,
+          string spriteSheet,
+          Func<Rectangle> spriteTextureGetter,
+          Vector2 pd,
+          Point posi,
+          int _speed,
+          bool rebirth,
+          Color color,
+          int alphaPlus)
+          : this(s, p, spriteSheet, spriteTextureGetter, pd, posi, _speed, rebirth, () => color, alphaPlus)
+        { }
+
+        public ScreenObjectFade(
+          IAudioEngine s,
+          SceneBattle p,
+          string spriteSheet,
+          Rectangle spriteTexture,
+          Vector2 pd,
+          Point posi,
+          int _speed,
+          bool rebirth,
+          Func<Color> colorGetter,
+          int alphaPlus)
+          : this(s, p, spriteSheet, () => spriteTexture, pd, posi, _speed, rebirth, colorGetter, alphaPlus)
+        { }
 
         public ScreenObjectFade(
           IAudioEngine s,
@@ -62,41 +156,28 @@ namespace NSEffect
           bool rebirth,
           Color color,
           int alphaPlus)
-          : base(s, p, posi.X, posi.Y)
-        {
-            this.rebirth = rebirth;
-            this.spriteSheet = spriteSheet;
-            this.spriteTexture = spriteTexture;
-            this.upprint = true;
-            this.speed = _speed;
-            this.positionDirect = pd;
-            this.animationpoint.X = 3;
-            this.alphaPlus = alphaPlus;
-            this.endAlpha = color.A;
-            this.color_ = Color.FromArgb(0, color);
-            this.color = Color.FromArgb(0, Color.Black);
-
-            this.isText = false;
-        }
+          : this(s, p, spriteSheet, () => spriteTexture, pd, posi, _speed, rebirth, () => color, alphaPlus)
+        { }
 
         public override void Updata()
         {
+            this.endAlpha = this.finalColorGetter().A;
             if (!this.end)
             {
                 if (this.alpha < endAlpha)
                 {
                     this.alpha += this.alphaPlus;
-                    if (this.alpha > endAlpha)
-                        this.alpha = endAlpha;
                 }
-                this.color = Color.FromArgb(this.alpha, this.color_);
+                if (this.alpha > endAlpha)
+                    this.alpha = endAlpha;
+                this.color = Color.FromArgb(this.alpha, this.finalColorGetter());
             }
             else
             {
                 this.alpha -= this.alphaPlus;
                 if (this.alpha < 0)
                     this.alpha = 0;
-                this.color = Color.FromArgb(this.alpha, this.color_);
+                this.color = Color.FromArgb(this.alpha, this.finalColorGetter());
                 if (this.alpha == 0)
                     this.flag = false;
             }
@@ -113,7 +194,7 @@ namespace NSEffect
             }
             else
             {
-                this._rect = this.spriteTexture;
+                this._rect = this.spriteTextureGetter();
                 dg.DrawImage(dg, this.spriteSheet, this._rect, true, this._position, this.rebirth, this.color);
             }
         }

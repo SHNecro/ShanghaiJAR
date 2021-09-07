@@ -143,14 +143,16 @@ namespace NSAttack
                         Point point = this.RandomTarget();
                         if (point.Y == this.position.Y && point.X == this.position.X)
                             this.angle = 5;
-                        if (point.Y < this.position.Y)
-                            this.angle = !this.InAreaCheck(new Point(this.position.X, this.position.Y - 1)) ? 5 : 2;
-                        else if (point.Y > this.position.Y)
-                            this.angle = !this.InAreaCheck(new Point(this.position.X, this.position.Y + 1)) ? 5 : 3;
-                        else if (point.X > this.position.X)
-                            this.angle = !this.InAreaCheck(new Point(this.position.X + 1, this.position.Y)) ? 5 : (this.union != Panel.COLOR.blue ? 0 : 1);
-                        else if (point.X < this.position.X)
-                            this.angle = !this.InAreaCheck(new Point(this.position.X - 1, this.position.Y)) ? 5 : (this.union != Panel.COLOR.blue ? 1 : 0);
+                        if (point.Y < this.position.Y && this.InAreaCheck(new Point(this.position.X, this.position.Y - 1)))
+                            this.angle = 2;
+                        else if (point.Y > this.position.Y && this.InAreaCheck(new Point(this.position.X, this.position.Y + 1)))
+                            this.angle = 3;
+                        else if (point.X > this.position.X && this.InAreaCheck(new Point(this.position.X + 1, this.position.Y)))
+                            this.angle = this.union != Panel.COLOR.blue ? 0 : 1;
+                        else if (point.X < this.position.X && this.InAreaCheck(new Point(this.position.X - 1, this.position.Y)))
+                            this.angle = this.union != Panel.COLOR.blue ? 1 : 0;
+                        else
+                            this.angle = 5;
                     }
                 }
                 else

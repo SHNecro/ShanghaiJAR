@@ -330,7 +330,6 @@
   <Text Key="Enemy.MadmanName" Value="[Madman]" />
   <Text Key="Enemy.MadmanSpecial" Value="[Enrage]" />
   
-  <Text Key="Enemy.HeavenBarrierName1" Value="[Blocker1]" />
-  <Text Key="Enemy.HeavenBarrierName2" Value="[Blocker2]" />
-  <Text Key="Enemy.HeavenBarrierName3" Value="[Blocker3]" />
+  <Text Key="Enemy.HeavenBarrierName" Value="[Blocker]" />
+  <Text Key="Enemy.HeavenBarrierSpecial" Value="[Mitigate]" />
 </data>

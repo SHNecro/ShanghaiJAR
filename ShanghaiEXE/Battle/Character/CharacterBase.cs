@@ -207,12 +207,22 @@ namespace NSBattle.Character
             }
             set
             {
-                if (this.parent.manyenemys <= 0)
+                if (this.parent.manyenemys <= 0 && !this.parent.blackOut)
                     return;
-                if ((this.badstatus[5] || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0)) && value - this.hp > 0)
+                if ((this as Player)?.mind.MindNow == MindWindow.MIND.pinch && value > this.hp)
+                    (this as Player).mind.MindNow = MindWindow.MIND.normal;
+
+                var antiHealEffects = this.CalculatePoisonEffects();
+
+                if (antiHealEffects.Any(b => b)
+                    && value - this.hp > 0
+                    && !((this as Player)?.mind.MindNow == MindWindow.MIND.smile))
                 {
                     var healAmount = value - this.hp;
                     var multiplier = 1;
+
+                    multiplier *= (int)Math.Pow(2, antiHealEffects.Count(b => b) - 1);
+
                     switch (this.Element)
                     {
                         case ChipBase.ELEMENT.aqua:
@@ -347,13 +357,6 @@ namespace NSBattle.Character
             this.blackOutObject = this.parent.blackOut;
         }
 
-        protected virtual void NetWorkSend(int number, string data)
-        {
-            if (!(this.parent is NetBattle))
-                return;
-            NetParam.SendingData(number, data);
-        }
-
         public virtual void Updata()
         {
             if (this.parent.blackOut)
@@ -388,11 +391,18 @@ namespace NSBattle.Character
             ++this.mastorflame;
             try
             {
-                if ((this.badstatus[5] || this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._poison && !this.Flying) && ((this.Element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0) && this.parent.nowscene != SceneBattle.BATTLESCENE.end) && !(this is ObjectBase))
+                var antiHealEffects = this.CalculatePoisonEffects();
+
+                if ((antiHealEffects.Any(b => b)
+                    && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
+                    && !(this is ObjectBase))
                 {
                     if (this.mastorflame % 8 == 0)
                     {
                         var multiplier = 1;
+
+                        multiplier *= (int)Math.Pow(2, antiHealEffects.Count(b => b) - 1);
+
                         switch (this.Element)
                         {
                             case ChipBase.ELEMENT.aqua:
@@ -426,9 +436,12 @@ namespace NSBattle.Character
                     this.position.X = 5;
                 this.PositionDirectSet();
             }
-            if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._grass && this.Element == ChipBase.ELEMENT.leaf && this.parent.nowscene != SceneBattle.BATTLESCENE.end && (this.mastorflame % 6 == 0 && this.Hp < this.hpmax))
+            if (this.InArea
+                && this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._grass && this.Element == ChipBase.ELEMENT.leaf
+                && this.parent.nowscene != SceneBattle.BATTLESCENE.end
+                && (this.mastorflame % 6 == 0))
                 ++this.Hp;
-            if (this.mastorflame % 6 == 0 && this.Hp < this.hpmax && this.barrierType == CharacterBase.BARRIER.HealBarrier)
+            if (this.mastorflame % 6 == 0 && this.barrierType == CharacterBase.BARRIER.HealBarrier)
                 ++this.Hp;
         }
 
@@ -799,7 +812,13 @@ namespace NSBattle.Character
 
         public bool Canmove(Point gomove)
         {
-            if (gomove.X < 0 || gomove.X >= 6 || gomove.Y < 0 || gomove.Y >= 3 || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) && (this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._break || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._none || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) || this.parent.panel[gomove.X, gomove.Y].color != this.union))
+            if (gomove.X < 0
+                || gomove.X >= 6
+                || gomove.Y < 0
+                || gomove.Y >= 3
+                || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un)
+                    && (this.parent.panel[gomove.X, gomove.Y].Hole)
+                    || this.parent.panel[gomove.X, gomove.Y].color != this.union))
                 return false;
             bool flag = true;
             if (this.effecting)
@@ -819,7 +838,13 @@ namespace NSBattle.Character
 
         protected bool Canmove(Point gomove, int enemynumber)
         {
-            if (gomove.X < 0 || gomove.X >= 6 || gomove.Y < 0 || gomove.Y >= 3 || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) && (this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._break || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._none || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) || this.parent.panel[gomove.X, gomove.Y].color != this.union))
+            if (gomove.X < 0
+                || gomove.X >= 6
+                || gomove.Y < 0
+                || gomove.Y >= 3
+                || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un)
+                    && (this.parent.panel[gomove.X, gomove.Y].Hole)
+                    || this.parent.panel[gomove.X, gomove.Y].color != this.union))
                 return false;
             bool flag = true;
             if (this.effecting)
@@ -839,7 +864,10 @@ namespace NSBattle.Character
 
         protected bool Canmove(Point gomove, int enemynumber, Panel.COLOR uni)
         {
-            if (!this.InAreaCheck(new Point(gomove.X, gomove.Y)) || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) && (this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._break || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._none || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) || this.parent.panel[gomove.X, gomove.Y].color != uni))
+            if (!this.InAreaCheck(new Point(gomove.X, gomove.Y))
+                || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un)
+                    && (this.parent.panel[gomove.X, gomove.Y].Hole)
+                    || this.parent.panel[gomove.X, gomove.Y].color != uni))
                 return false;
             bool flag = true;
             if (this.effecting)
@@ -961,7 +989,8 @@ namespace NSBattle.Character
                     this.parent.panel[this.positionnow.X, this.positionnow.Y].Crack();
                 if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._burner && this.Element != ChipBase.ELEMENT.heat)
                     this.parent.panel[this.position.X, this.position.Y].animationON = true;
-                if (this.badstatus[6] && this.parent.panel[this.positionnow.X, this.positionnow.Y].state != Panel.PANEL._break && this.parent.panel[this.positionnow.X, this.positionnow.Y].state != Panel.PANEL._none)
+                if (this.badstatus[6]
+                    && !this.parent.panel[this.positionnow.X, this.positionnow.Y].Hole)
                     this.parent.panel[this.positionnow.X, this.positionnow.Y].state = Panel.PANEL._crack;
             }
             this.positionold = this.positionnow;
@@ -1396,15 +1425,25 @@ namespace NSBattle.Character
                     this.mastorcolor = this.badstatustime[6] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 160, 100, 50);
                 }
             }
-            if (this.badstatus[7] && this.badstatustime[6] <= 0)
+            if (this.badstatus[7])
             {
-                if (this.badstatustime[7] == 0)
+                var nonSandPit = this.badstatustime[6] <= 0;
+                var forceEndSandPit = this.StandPanel.State != Panel.PANEL._sand;
+                if (!nonSandPit && forceEndSandPit)
                 {
-                    this.badstatus[7] = false;
-                    this.mastorcolor = color;
+                    this.badstatustime[7] = 0;
                 }
-                else if (this.badstatustime[7] > 0)
-                    --this.badstatustime[7];
+
+                if (forceEndSandPit || nonSandPit)
+                {
+                    if (this.badstatustime[7] == 0)
+                    {
+                        this.badstatus[7] = false;
+                        this.mastorcolor = color;
+                    }
+                    else if (this.badstatustime[7] > 0)
+                        --this.badstatustime[7];
+                }
             }
             if (this.badstatus[8])
             {
@@ -1703,6 +1742,17 @@ namespace NSBattle.Character
             }
             else
                 this.moveflame = false;
+        }
+
+        private bool[] CalculatePoisonEffects()
+        {
+            var acidBody = this.badstatustime[5] < 0;
+            var poisonImmune = this.element == ChipBase.ELEMENT.poison;
+            var poisoned = this.badstatus[5] && !acidBody && !poisonImmune;
+            var poisonPanelEffect = this.StandPanel.State == Panel.PANEL._poison && !this.Flying && !poisonImmune;
+            var antiHealEffects = new[] { poisoned, poisonPanelEffect, acidBody };
+
+            return antiHealEffects;
         }
 
         public enum BADSTATUS

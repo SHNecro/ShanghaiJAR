@@ -92,14 +92,7 @@ namespace NSBattle
             {
                 this.scene = Result.RESULT.finish;
                 this.sound.StopBGM();
-                if (this.parent is NetBattle)
-                {
-                    if (this.savedata.selectQuestion == 1)
-                        this.sound.StartBGM("GameOver");
-                    else if (this.savedata.selectQuestion != 2 && this.savedata.selectQuestion == 2)
-                        this.sound.StartBGM("result_short");
-                }
-                else if (this.parent.doresult)
+                if (this.parent.doresult)
                     this.sound.StartBGM("result");
                 else
                     this.sound.StartBGM("result_short");
@@ -486,12 +479,9 @@ namespace NSBattle
                         break;
                     }
                     this.parent.parent.TexClear(false);
-                    if (!(this.parent is NetBattle))
-                    {
-                        this.savedata.HPnow = !this.savedata.isJackedIn ? this.savedata.HPMax : this.parent.player.Hp;
-                        this.parent.main.mapscene.HP.hpprint = this.savedata.HPnow;
-                        this.savedata.mind = this.parent.mind.MindNow == MindWindow.MIND.pinch || this.parent.mind.MindNow == MindWindow.MIND.dark || this.parent.mind.MindNow == MindWindow.MIND.angry ? 0 : (int)this.parent.mind.MindNow;
-                    }
+                    this.savedata.HPnow = !this.savedata.isJackedIn ? this.savedata.HPMax : this.parent.player.Hp;
+                    this.parent.main.mapscene.HP.hpprint = this.savedata.HPnow;
+                    this.savedata.mind = this.parent.mind.MindNow == MindWindow.MIND.pinch || this.parent.mind.MindNow == MindWindow.MIND.dark || this.parent.mind.MindNow == MindWindow.MIND.angry ? 0 : (int)this.parent.mind.MindNow;
                     this.sound.StopBGM();
                     this.playerdate.NowScene = SceneMain.PLAYSCENE.map;
                     this.parent.main.mapscene.battleflag = false;
@@ -506,16 +496,7 @@ namespace NSBattle
             {
                 case Result.RESULT.finish:
                     this._position = new Vector2(120f, 80f);
-                    if (this.parent is NetBattle)
-                    {
-                        if (this.savedata.selectQuestion == 1)
-                            this._rect = new Rectangle(608, 64, 80, 16);
-                        else if (this.savedata.selectQuestion == 2)
-                            this._rect = new Rectangle(688, 64, 80, 16);
-                        else
-                            this._rect = new Rectangle(384, 0, 128, 16);
-                    }
-                    else if (ShanghaiEXE.Config.FixEngrish ?? true)
+                    if (ShanghaiEXE.Config.FixEngrish ?? true)
                     {
                         this._rect = new Rectangle(384, 616, 128, 16);
                     }
@@ -831,8 +812,6 @@ namespace NSBattle
                     || this.parent.dropzenny <= 0
                     || this.player.addonSkill[2]
                     || (this.Random.Next(100) >= chipThreshold && !this.player.addonSkill[1]);
-                if (this.parent is NetBattle)
-                    return;
                 if (!this.chooseIllegal)
                 {
                     if (this.dropchip)

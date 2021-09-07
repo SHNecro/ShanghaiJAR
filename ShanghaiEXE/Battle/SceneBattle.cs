@@ -215,38 +215,6 @@ namespace NSBattle
             this.GaiaPanelChange(this.player.Element, false);
         }
 
-        public void EnemySet(NetPlayer enemy1, int pattern, Panel.PANEL panel1, Panel.PANEL panel2)
-        {
-            this.bossFlag = true;
-            this.PanelChange(pattern, panel1, panel2);
-            this.players.Add(enemy1);
-            this.players = !NetParam.Host ? this.players.OrderByDescending<Player, int>(p => p.number).ToList<Player>() : this.players.OrderBy<Player, int>(p => p.number).ToList<Player>();
-            this.manyenemys = 1;
-            bool half = false;
-            if (this.player.style == Player.STYLE.gaia)
-            {
-                this.GaiaPanelChange(this.player.Element, half);
-                half = true;
-            }
-            if (this.bossFlag)
-                this.mind.MindNow = MindWindow.MIND.normal;
-            this.player.AddOn();
-            if (this.panel[1, 1].state == Panel.PANEL._none && !this.player.addonSkill[58])
-                this.player.positionX = 0;
-            if (!this.player.Canmove(this.player.position) && !this.player.addonSkill[58])
-            {
-                this.player.position.X = 0;
-                this.player.positionre.X = 0;
-                this.player.positionold.X = 0;
-                this.player.PositionDirectSet();
-            }
-            foreach (CharacterBase characterBase in this.AllChara())
-                characterBase.InitAfter();
-            if (enemy1.style != Player.STYLE.gaia)
-                return;
-            this.GaiaPanelChange(enemy1.Element, half);
-        }
-
         public override void Updata()
         {
             if (this.manyenemys <= 0 && this.nowscene != SceneBattle.BATTLESCENE.end && !this.blackOut && !this.stopEnd)
@@ -423,8 +391,6 @@ namespace NSBattle
                 {
                     enemyBase.Nameprint(dg, enemyBase.printNumber);
                 }
-                else if (characterBase is NetPlayer)
-                    ((NetPlayer)characterBase).Nameprint(dg);
             }
             if (this.nowscene != SceneBattle.BATTLESCENE.end)
                 this.mind.Render(dg, this.positionHPwindow.X);
@@ -510,9 +476,6 @@ namespace NSBattle
                 {
                     if (allObject is Player player)
                     {
-                        player.NetSync();
-                        player.NetSyncSet();
-                        player.NextChipSend();
                         if (this.blackOutChips.Count > 0)
                         {
                             if (!this.blackOutChips[0].blackOutLend && this.blackOutChips[0].userNum != player.number && this.blackOutChips.Count < 3)
@@ -625,23 +588,7 @@ namespace NSBattle
                 if (this.initcount < manyenemys)
                 {
                     ++this.initflame;
-                    if (this is NetBattle netBattle)
-                    {
-                        if (this.initflame < 30)
-                            netBattle.playerE.alfha += 8;
-                        else if (this.initflame == 30)
-                        {
-                            netBattle.playerE.alfha = byte.MaxValue;
-                        }
-                        else
-                        {
-                            if (this.initflame != 40)
-                                return;
-                            this.initflame = 0;
-                            ++this.initcount;
-                        }
-                    }
-                    else if (this.enemys[this.initcount].EnemyInitAction())
+                    if (this.enemys[this.initcount].EnemyInitAction())
                     {
                         this.initflame = 0;
                         ++this.initcount;
@@ -666,12 +613,6 @@ namespace NSBattle
             this.player.chargeTime = 0;
             this.player.chargeMax = false;
             this.player.charge = false;
-            if (this is NetBattle)
-            {
-                if (((NetBattle)this).playerE.Hp <= 0 && this.player.Hp <= 0)
-                    this.savedata.selectQuestion = 2;
-                NetParam.battleEnd = true;
-            }
             this.result = new Result(this.sound, this, this.playerstatus, this.time, this.simultaneousdel, this.player.damaged, this.player.manymove, this.player.stylepoint, this.player, this.savedata, escape);
             if (!escape)
             {
@@ -800,7 +741,10 @@ namespace NSBattle
                                 BustorShot bustorShot = new BustorShot(this.sound, this, attack2.position.X, attack2.position.Y, attack1.union, attack1.power, BustorShot.SHOT.reflect, attack1.Element, true, 0)
                                 {
                                     canCounter = false,
-                                    breaking = false
+                                    breaking = false,
+                                    invincibility = attack1.invincibility,
+                                    invincibilitytime = attack1.invincibilitytime,
+                                    invincibilitytimeA = attack1.invincibilitytimeA,
                                 };
                                 bustorShotList.Add(bustorShot);
                                 attack2.flag = false;
