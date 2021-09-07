@@ -363,6 +363,12 @@ namespace NSBattle
                 }
                 this._position = new Vector2(40 * this.position.X + this.Shake.X, 70 + 24 * this.position.Y + this.Shake.X);
                 dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                if (this.inviolability && this.position.X >= 1 && this.position.X <= 4)
+                {
+                    this._rect = new Rectangle(80, 288, 40, 32);
+                    this._position = new Vector2(40 * this.position.X + this.Shake.X, 70 + 24 * this.position.Y + this.Shake.X);
+                    dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                }
             }
             if (!this.bright || this.state == Panel.PANEL._un)
                 return;
