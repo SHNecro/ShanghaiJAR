@@ -1,9 +1,9 @@
 ﻿######################################################
-ShanghaiEXE Genso Network Map Editor 0503e3 (12/21/2019)
+ShanghaiEXE Genso Network Map Editor 0550e1 (9/6/2021)
 ######################################################
 
 -------- Changelog --------
----- 0.550eWIP ----
+---- 0.550e1 ----
 Moved some constant data out to external files so map editor can edit (data/data/*.xml)
 Added editors for external data
 Added music player, audio engine to map editor for bgm/sound effects

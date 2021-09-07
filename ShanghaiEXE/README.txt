@@ -1,5 +1,5 @@
 ﻿###############################################
-ShanghaiEXE Genso Network 0.550eWIP10 (9/6/2021)
+ShanghaiEXE Genso Network 0.550e (9/6/2021)
 ###############################################
 
 -------- Installation --------
@@ -94,7 +94,7 @@ in the first place but the two got tangled up and hacked together.
 Other hacks got introduced to deal with that, and those may have broken.
 
 -------- Changelog --------
----- 0.550eWIP10 (09/06/2021) ----
+---- 0.550e (09/06/2021) ----
 Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
 Added retcon system to fix savegames from previous versions
 Added automatic backup system for potential save corruption
