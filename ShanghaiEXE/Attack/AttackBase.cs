@@ -544,7 +544,7 @@ namespace NSAttack
                             else
                                 naviBase.waittime = 2;
                         }
-                        if (this.invincibility && !flag && !this.badstatus[3] && this.element != ChipBase.ELEMENT.leaf)
+                        if (this.invincibility && !flag && !this.badstatus[3] && this.element != ChipBase.ELEMENT.leaf && (!naviBase.badstatus[4] || this.element == ChipBase.ELEMENT.heat))
                         {
                             c.invincibilitytime = this.invincibilitytimeA;
                             if (naviBase.badstatus[3])
