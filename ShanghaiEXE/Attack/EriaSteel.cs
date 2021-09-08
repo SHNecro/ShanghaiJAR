@@ -78,7 +78,7 @@ namespace NSAttack
                             this.parent.effects.Add(new AfterSteal(this.sound, this.parent, rowPos.X, rowPos.Y));
                         }
 
-                        if (isReappliedPanel || (!this.hitedflag && !panel.inviolability && this.NoObject(rowPos)))
+                        if (isReappliedPanel || (!this.hitedflag && !panel.inviolability && this.NoObject(rowPos) && !panel.OnCharaCheck()))
                         {
                             panel.bashed = true;
                             panel.color = this.union;
