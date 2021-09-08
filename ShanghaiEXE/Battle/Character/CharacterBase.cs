@@ -209,7 +209,10 @@ namespace NSBattle.Character
             {
                 if (this.parent.manyenemys <= 0)
                     return;
-                if ((this.badstatus[5] || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0)) && value - this.hp > 0)
+                if ((this.badstatus[5]
+                    || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0))
+                    && value - this.hp > 0
+                    && !((this as Player)?.mind.MindNow == MindWindow.MIND.smile))
                 {
                     var healAmount = value - this.hp;
                     var multiplier = 1;
