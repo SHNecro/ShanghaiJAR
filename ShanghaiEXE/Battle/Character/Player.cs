@@ -267,8 +267,7 @@ namespace NSBattle.Character
                         switch (index1)
                         {
                             case 0:
-                                this.parent.panel[index1, index2].state = Panel.PANEL._none;
-                                this.parent.panel[index1, index2].noRender = true;
+                                this.parent.panel[index1, index2].state = Panel.PANEL._un;
                                 break;
                             case 1:
                                 this.parent.panel[index1, index2].inviolability = true;
