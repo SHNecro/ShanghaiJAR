@@ -19,7 +19,7 @@ namespace Common.Vectors
         {
             this.X = v1.X;
             this.Y = v1.Y;
-            this.Z = 1.0f;
+            this.Z = z;
         }
     }
 
