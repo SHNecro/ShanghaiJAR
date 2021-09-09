@@ -302,7 +302,7 @@ namespace NSEnemy
                             this.retaliationWaitTime = 0;
                             var allPanelCoords = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y)));
                             var allPanels = allPanelCoords.Select(p => Tuple.Create(p, this.parent.panel[p.X, p.Y]));
-                            var potentialPanels = allPanels.Where(tup => tup.Item2.color == this.UnionEnemy && tup.Item2.State != Panel.PANEL._break && tup.Item2.State != Panel.PANEL._none)
+                            var potentialPanels = allPanels.Where(tup => tup.Item2.color == this.UnionEnemy && !tup.Item2.Hole)
                                 .Select(tup => tup.Item1).ToList();
                             var burstCount = Math.Min(Math.Max(0, potentialPanels.Count - 1), this.knockbackRetaliationBurstCount);
                             var panels = new Point[burstCount];
@@ -389,8 +389,7 @@ namespace NSEnemy
                                                 var columnProgress = (burstAttackTime / this.burstSpacing) % 6;
                                                 var column = this.rebirth ? columnProgress : (5 - columnProgress);
                                                 var validRows = Enumerable.Range(0, 3).Where(r =>
-                                                    this.parent.panel[column, r].state != Panel.PANEL._break
-                                                    && this.parent.panel[column, r].state != Panel.PANEL._none).ToArray();
+                                                    !this.parent.panel[column, r].Hole).ToArray();
                                                 var row = validRows.Length > 0 ? validRows[this.Random.Next(0, validRows.Length)] : -1;
 
                                                 if (this.isElemental && columnProgress == 0)
@@ -470,8 +469,7 @@ namespace NSEnemy
                                                         }
                                                         foreach (var c in cols)
                                                         {
-                                                            if (this.parent.panel[c, y].state == Panel.PANEL._break
-                                                                || this.parent.panel[c, y].state == Panel.PANEL._none)
+                                                            if (this.parent.panel[c, y].Hole)
                                                             {
                                                                 break;
                                                             }

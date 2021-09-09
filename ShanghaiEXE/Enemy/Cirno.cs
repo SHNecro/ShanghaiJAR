@@ -344,7 +344,7 @@ namespace NSEnemy
                         }
                         else if (this.flyflame == this.time)
                         {
-                            if (this.parent.panel[this.target.X, this.target.Y].state != Panel.PANEL._none && this.parent.panel[this.target.X, this.target.Y].state != Panel.PANEL._break)
+                            if (!this.parent.panel[this.target.X, this.target.Y].Hole)
                             {
                                 this.parent.panel[this.target.X, this.target.Y].Crack();
                                 this.ShakeStart(8, 30);

@@ -116,8 +116,7 @@ namespace NSChip
                     var columnProgress = (burstAttackTime / BurstSpacing) % 6;
                     var column = character.union == Panel.COLOR.red ? columnProgress : (5 - columnProgress);
                     var validRows = Enumerable.Range(0, 3).Where(r =>
-                        character.parent.panel[column, r].state != Panel.PANEL._break
-                        && character.parent.panel[column, r].state != Panel.PANEL._none
+                        !character.parent.panel[column, r].Hole
                         && !this.burstWarnings.Any(bw => bw.Item1.X == column && bw.Item1.Y == r)).ToArray();
                     var row = validRows.Length > 0 ? validRows[this.Random.Next(0, validRows.Length)] : -1;
                     if (row != -1)

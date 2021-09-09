@@ -802,7 +802,13 @@ namespace NSBattle.Character
 
         public bool Canmove(Point gomove)
         {
-            if (gomove.X < 0 || gomove.X >= 6 || gomove.Y < 0 || gomove.Y >= 3 || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) && (this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._break || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._none || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) || this.parent.panel[gomove.X, gomove.Y].color != this.union))
+            if (gomove.X < 0
+                || gomove.X >= 6
+                || gomove.Y < 0
+                || gomove.Y >= 3
+                || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un)
+                    && (this.parent.panel[gomove.X, gomove.Y].Hole)
+                    || this.parent.panel[gomove.X, gomove.Y].color != this.union))
                 return false;
             bool flag = true;
             if (this.effecting)
@@ -822,7 +828,13 @@ namespace NSBattle.Character
 
         protected bool Canmove(Point gomove, int enemynumber)
         {
-            if (gomove.X < 0 || gomove.X >= 6 || gomove.Y < 0 || gomove.Y >= 3 || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) && (this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._break || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._none || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) || this.parent.panel[gomove.X, gomove.Y].color != this.union))
+            if (gomove.X < 0
+                || gomove.X >= 6
+                || gomove.Y < 0
+                || gomove.Y >= 3
+                || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un)
+                    && (this.parent.panel[gomove.X, gomove.Y].Hole)
+                    || this.parent.panel[gomove.X, gomove.Y].color != this.union))
                 return false;
             bool flag = true;
             if (this.effecting)
@@ -842,7 +854,10 @@ namespace NSBattle.Character
 
         protected bool Canmove(Point gomove, int enemynumber, Panel.COLOR uni)
         {
-            if (!this.InAreaCheck(new Point(gomove.X, gomove.Y)) || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) && (this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._break || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._none || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un) || this.parent.panel[gomove.X, gomove.Y].color != uni))
+            if (!this.InAreaCheck(new Point(gomove.X, gomove.Y))
+                || ((!this.Flying || this.badstatus[6] || this.parent.panel[gomove.X, gomove.Y].state == Panel.PANEL._un)
+                    && (this.parent.panel[gomove.X, gomove.Y].Hole)
+                    || this.parent.panel[gomove.X, gomove.Y].color != uni))
                 return false;
             bool flag = true;
             if (this.effecting)
@@ -964,7 +979,8 @@ namespace NSBattle.Character
                     this.parent.panel[this.positionnow.X, this.positionnow.Y].Crack();
                 if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._burner && this.Element != ChipBase.ELEMENT.heat)
                     this.parent.panel[this.position.X, this.position.Y].animationON = true;
-                if (this.badstatus[6] && this.parent.panel[this.positionnow.X, this.positionnow.Y].state != Panel.PANEL._break && this.parent.panel[this.positionnow.X, this.positionnow.Y].state != Panel.PANEL._none)
+                if (this.badstatus[6]
+                    && !this.parent.panel[this.positionnow.X, this.positionnow.Y].Hole)
                     this.parent.panel[this.positionnow.X, this.positionnow.Y].state = Panel.PANEL._crack;
             }
             this.positionold = this.positionnow;

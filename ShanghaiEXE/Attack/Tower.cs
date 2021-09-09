@@ -87,7 +87,11 @@ namespace NSAttack
                     this.make = true;
                     this.hitting = false;
                     this.positionre.X = this.position.X + this.UnionRebirth;
-                    if (this.positionre.X >= 0 && this.positionre.X < 6 && this.positionre.Y >= 0 && this.positionre.Y < 3 && (this.parent.panel[this.positionre.X, this.positionre.Y].state != Panel.PANEL._break && this.parent.panel[this.positionre.X, this.positionre.Y].state != Panel.PANEL._none))
+                    if (this.positionre.X >= 0
+                        && this.positionre.X < 6
+                        && this.positionre.Y >= 0
+                        && this.positionre.Y < 3
+                        && (!this.parent.panel[this.positionre.X, this.positionre.Y].Hole))
                     {
                         Tower tower = new Tower(this.sound, this.parent, this.positionre.X, this.positionre.Y, this.union, this.power, this.nextmake, this.element)
                         {

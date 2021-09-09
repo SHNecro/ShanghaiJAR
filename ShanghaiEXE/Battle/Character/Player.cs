@@ -240,7 +240,7 @@ namespace NSBattle.Character
                     for (int lowerBound2 = panel1.GetLowerBound(1); lowerBound2 <= upperBound2; ++lowerBound2)
                     {
                         Panel panel2 = panel1[lowerBound1, lowerBound2];
-                        if (panel2.state != Panel.PANEL._none)
+                        if (panel2.state != Panel.PANEL._none && panel2.state != Panel.PANEL._un)
                             panel2.state = Panel.PANEL._nomal;
                     }
                 }
@@ -268,16 +268,13 @@ namespace NSBattle.Character
                         {
                             case 0:
                                 this.parent.panel[index1, index2].state = Panel.PANEL._un;
+                                this.parent.panel[index1, index2].noRender = true;
                                 break;
                             case 1:
                                 this.parent.panel[index1, index2].inviolability = true;
-                                switch (this.parent.panel[index1, index2].state)
+                                if (this.parent.panel[index1, index2].Hole)
                                 {
-                                    case Panel.PANEL._break:
-                                    case Panel.PANEL._none:
-                                    case Panel.PANEL._un:
-                                        this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
-                                        break;
+                                    this.parent.panel[index1, index2].state = Panel.PANEL._nomal;
                                 }
                                 break;
                             case 2:
