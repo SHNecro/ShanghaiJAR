@@ -1401,8 +1401,8 @@ terms:flag/85
 move:
 speed:5
 graphic:-2:0,40,16,40,16
-hitrange:2:0:9:9
-hitform:circle
+hitrange:7:7:6:6
+hitform:square
 event:
 msgopen:
 msg:Map.Refrigerator2IceCrystalDataStage1Dialogue1FaceShanghai
