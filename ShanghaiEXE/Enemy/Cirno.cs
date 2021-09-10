@@ -390,7 +390,7 @@ namespace NSEnemy
                         {
                             this.positionDirect.X += Math.Min(3 + version, 8) * this.UnionRebirth(this.union);
                             this.position.X = this.Calcposition(this.positionDirect, this.height, false).X;
-                            if (this.StandPanel.Hole || positionDirect.X < 0.0 || positionDirect.X > 240.0)
+                            if (positionDirect.X < 0.0 || positionDirect.X > 240.0)
                             {
                                 this.HitFlagReset();
                                 this.effecting = false;
