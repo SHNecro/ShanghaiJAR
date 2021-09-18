@@ -66,26 +66,13 @@ namespace NSEnemy
                 this.roop = (byte)(parent.manyenemys - (uint)this.number);
             this.PositionDirectSet();
 
-            if (this.version <= 0 || this.version > 3)
+            this.name = ShanghaiEXE.Translate("Enemy.HeavenBarrierName");
+            if (this.version < 1)
             {
-                this.version = (byte)((this.version % 3) + 1);
+                this.version = 1;
             }
+            this.hp = 800 + (200 * this.version - 1);
 
-            switch (this.version)
-            {
-                case 1:
-                    this.name = ShanghaiEXE.Translate("Enemy.HeavenBarrierName1");
-                    this.hp = 600;
-                    break;
-                case 2:
-                    this.name = ShanghaiEXE.Translate("Enemy.HeavenBarrierName2");
-                    this.hp = 800;
-                    break;
-                case 3:
-                    this.name = ShanghaiEXE.Translate("Enemy.HeavenBarrierName3");
-                    this.hp = 1000;
-                    break;
-            }
             this.animationpoint = new Point(this.version, 0);
             this.printNumber = false;
 
@@ -214,7 +201,7 @@ namespace NSEnemy
             switch (this.state)
             {
                 case MOTION.Absorbing:
-                    this.animationpoint = new Point(this.version, 0);
+                    this.animationpoint = IdleAnimation(this.waittime);
 
                     var totalDamage = this.controller.rawDamageTaken;
                     if (totalDamage >= this.controller.totalHp)
@@ -236,6 +223,10 @@ namespace NSEnemy
                         this.animationpoint = new Point(this.Random.Next(1, 9 + 1), 1);
                         this.waittime = 0;
                         this.state = MOTION.Broken;
+                    }
+                    else
+                    {
+                        this.animationpoint = IdleAnimation(this.waittime);
                     }
                     break;
                 case MOTION.Broken:
@@ -779,6 +770,18 @@ namespace NSEnemy
                 default:
                     return Enum.GetValues(typeof(ChipBase.ELEMENT)).Cast<ChipBase.ELEMENT>().Except(new[] { ChipBase.ELEMENT.normal }).ToArray();
             }
+        }
+
+        private static Point IdleAnimation(int frame)
+        {
+            const int cyclelength = 18 - 1;
+            var x = 1;
+            var adjustedFrame = frame / 6;
+            var cycleFrame = adjustedFrame % cyclelength;
+
+            x = new[] { 1, 1, 1, 2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 3, 2, 1, 1, 1 }[cycleFrame];
+
+            return new Point(x, 0);
         }
 
         private class Sparkle
