@@ -353,14 +353,6 @@ namespace NSBattle
                 this.gaiaChange = false;
                 if (this.stylechange[0])
                     this.StyleSet(this.player);
-                if (this.stylechange[1])
-                {
-                    NetBattle parent = (NetBattle)this.parent;
-                    parent.playerE.style = parent.playerE.nextStyle;
-                    parent.playerE.element = parent.playerE.nextelEment;
-                    parent.playerE.picturename = parent.playerE.nextStyleP;
-                    this.StyleSet(parent.playerE);
-                }
             }
             else if (this.frame >= 75 && this.frame < 105)
             {
@@ -470,9 +462,6 @@ namespace NSBattle
                 case Custom.CUSTOMCHENE.stylechange:
                     this.Stylechange();
                     break;
-                case Custom.CUSTOMCHENE.netWorkCheck:
-                    this.NetWorkCheck();
-                    break;
                 case Custom.CUSTOMCHENE.chipMake:
                     ++this.frame;
                     if (this.frame == 1)
@@ -578,14 +567,7 @@ namespace NSBattle
                     }
                     if (this.styleset)
                         this.stylechange[0] = true;
-                    if (this.parent is NetBattle)
-                    {
-                        this.frame = 0;
-                        this.getData = false;
-                        this.sendData = false;
-                        this.scene = Custom.CUSTOMCHENE.netWorkCheck;
-                    }
-                    else if (this.stylechange[0] || this.stylechange[1])
+                    if (this.stylechange[0] || this.stylechange[1])
                     {
                         this.parent.backscreencolor = 0;
                         this.frame = 0;
@@ -678,93 +660,6 @@ namespace NSBattle
                     this.scene = Custom.CUSTOMCHENE.custom;
                     break;
             }
-        }
-
-        public void NetWorkCheck()
-        {
-            if (this.getData)
-            {
-                NetParam.SendingData(202, "OK");
-                if (this.frame >= 60)
-                {
-                    string[] strArray = NetParam.DataUse("202");
-                    if (strArray != null && strArray[3] == "OK")
-                    {
-                        this.sound.PlaySE(SoundEffect.pi);
-                        NetParam.sendflame = 0L;
-                        if (this.stylechange[0] || this.stylechange[1])
-                        {
-                            this.parent.backscreencolor = 0;
-                            this.frame = 0;
-                            this.scene = Custom.CUSTOMCHENE.stylechange;
-                        }
-                        else
-                        {
-                            this.scene = Custom.CUSTOMCHENE.start;
-                            this.frame = 0;
-                        }
-                    }
-                }
-            }
-            else if (this.getData && !this.sendData)
-            {
-                NetParam.SendingData(201, "OK");
-                string[] strArray = NetParam.DataUse("201");
-                if (strArray != null && strArray[3] == "OK")
-                    this.sendData = true;
-            }
-            if (!this.sendData)
-            {
-                int[] numArray1 = new int[9];
-                int[] numArray2 = new int[9];
-                int[] numArray3 = new int[9];
-                int index1 = 0;
-                for (int index2 = 0; index2 < this.parent.panel.GetLength(0) / 2; ++index2)
-                {
-                    for (int index3 = 0; index3 < this.parent.panel.GetLength(1); ++index3)
-                    {
-                        Panel panel = this.parent.panel[index2, index3];
-                        numArray1[index1] = (int)panel.color;
-                        numArray2[index1] = (int)panel.state;
-                        numArray3[index1] = panel.breaktime;
-                        ++index1;
-                    }
-                }
-                string str = "null";
-                int num1 = -1;
-                int num2 = -1;
-                this.player.NextChipSend();
-                if (this.stylechange[0])
-                {
-                    str = this.player.StyleGraphicsName(this.style);
-                    num1 = this.savedata.style[this.style].style;
-                    num2 = this.savedata.style[this.style].element;
-                }
-                NetParam.SendingData(200, str + "@" + num1.ToString() + "@" + num2.ToString());
-                string[] strArray = NetParam.DataUse("201");
-                if (strArray != null && strArray[3] == "OK")
-                    this.sendData = true;
-            }
-            if (!this.getData)
-            {
-                string[] strArray = NetParam.DataUse("200");
-                if (strArray != null)
-                {
-                    if (!(strArray[3] != "")) { }
-                    if (strArray[3] != "null")
-                    {
-                        NetBattle parent = (NetBattle)this.parent;
-                        this.stylechange[1] = true;
-                        parent.playerE.nextStyleP = strArray[3];
-                        parent.playerE.nextStyle = (Player.STYLE)int.Parse(strArray[4]);
-                        parent.playerE.nextelEment = (ChipBase.ELEMENT)int.Parse(strArray[5]);
-                    }
-                    NetParam.SendingData(201, "OK");
-                    this.getData = true;
-                    this.frame = 0;
-                }
-            }
-            ++this.frame;
         }
 
         public void Control()
@@ -1266,24 +1161,6 @@ namespace NSBattle
                             this._position.Y += Shake.Y;
                             dg.DrawImage(dg, this.stylepicture, this._rect, false, this._position, color3);
                         }
-                        if (!this.stylechange[1])
-                            break;
-                        this._rect = new Rectangle(0, 0, this.player.Wide, this.player.Height);
-                        Color color4 = Color.FromArgb(128, byte.MaxValue, byte.MaxValue, byte.MaxValue);
-                        NetBattle parent = (NetBattle)this.parent;
-                        this._position = parent.playerE.positionDirect;
-                        this._position.X += this.styleposition[0].X;
-                        this._position.Y += this.styleposition[0].Y;
-                        this._position.X += Shake.X;
-                        this._position.Y += Shake.Y;
-                        dg.DrawImage(dg, parent.playerE.nextStyleP, this._rect, false, this._position, true, color4);
-                        Color color5 = Color.FromArgb(128, 128, 128, 128);
-                        this._position = parent.playerE.positionDirect;
-                        this._position.X += this.styleposition[1].X;
-                        this._position.Y += this.styleposition[1].Y;
-                        this._position.X += Shake.X;
-                        this._position.Y += Shake.Y;
-                        dg.DrawImage(dg, parent.playerE.nextStyleP, this._rect, false, this._position, true, color5);
                         break;
                     }
                     if (this.frame <= 75)
@@ -1306,34 +1183,6 @@ namespace NSBattle
                         this._rect = new Rectangle(this.savedata.style[this.style].style * 120, 0, this.player.Wide, this.player.Height);
                         dg.DrawImage(dg, "Silhouette", this._rect, false, this._position, color2);
                     }
-                    if (this.stylechange[1])
-                    {
-                        NetBattle parent = (NetBattle)this.parent;
-                        this._position = parent.playerE.positionDirect;
-                        Color color2 = Color.FromArgb(this.parent.backscreen, byte.MaxValue, byte.MaxValue, byte.MaxValue);
-                        this._position = parent.playerE.positionDirect;
-                        ref float local1 = ref this._position.X;
-                        double num2 = local1;
-                        shake = this.Shake;
-                        double x = shake.X;
-                        local1 = (float)(num2 + x);
-                        ref float local2 = ref this._position.Y;
-                        double num3 = local2;
-                        shake = this.Shake;
-                        double y = shake.Y;
-                        local2 = (float)(num3 + y);
-                        this._rect = new Rectangle((int)parent.playerE.nextStyle * 120, 0, this.player.Wide, this.player.Height);
-                        dg.DrawImage(dg, "Silhouette", this._rect, false, this._position, true, color2);
-                    }
-                    break;
-                case Custom.CUSTOMCHENE.netWorkCheck:
-                    if (this.frame % 90 < 45)
-                        break;
-                    this._rect = ShanghaiEXE.language == 1
-                        ? new Rectangle(480, 1160, 80, 16)
-                        : new Rectangle(480, 1144, 80, 16);
-                    this._position = new Vector2(160f, 24f);
-                    dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
                     break;
                 case Custom.CUSTOMCHENE.start:
                     if (this.scene != Custom.CUSTOMCHENE.start)
@@ -1352,7 +1201,6 @@ namespace NSBattle
                             break;
                         case Custom.CUSTOMCHENE.close:
                         case Custom.CUSTOMCHENE.paprint:
-                        case Custom.CUSTOMCHENE.netWorkCheck:
                         case Custom.CUSTOMCHENE.chipMake:
                         case Custom.CUSTOMCHENE.start:
                             _point = new Vector2(sbyte.MinValue, 0.0f);
@@ -2077,7 +1925,6 @@ namespace NSBattle
             fadeOut,
             paprint,
             stylechange,
-            netWorkCheck,
             chipMake,
             start,
             escape,

@@ -449,11 +449,6 @@
     <Compile Include="Title\SceneTitle.cs" />
     <Compile Include="Title\GameOver.cs" />
     <Compile Include="Title\FirstTitle.cs" />
-    <Compile Include="Net\NetParam.cs" />
-    <Compile Include="Net\UPnP.cs" />
-    <Compile Include="Net\NetBattle.cs" />
-    <Compile Include="Net\NetEnemy.cs" />
-    <Compile Include="Net\NetPlayer.cs" />
     <Compile Include="Map\MapField.cs" />
     <Compile Include="Map\SceneMap.cs" />
     <Compile Include="Map\Character\MapEffect.cs" />
@@ -472,8 +467,6 @@
     <Compile Include="Map\Character\Menu\SortAddon.cs" />
     <Compile Include="Map\Character\Menu\FolderEdit.cs" />
     <Compile Include="Map\Character\Menu\FolderSelect.cs" />
-    <Compile Include="Map\Character\Menu\NetWork.cs" />
-    <Compile Include="Map\Character\Menu\NameEdit.cs" />
     <Compile Include="Map\Character\Menu\MailMenu.cs" />
     <Compile Include="Map\Character\Menu\MenuBase.cs" />
     <Compile Include="Map\Character\Menu\Navi.cs" />
@@ -1294,7 +1287,6 @@
     <Compile Include="Event\CanSkip.cs" />
     <Compile Include="Event\StopSkip.cs" />
     <Compile Include="Event\Wait.cs" />
-    <Compile Include="Event\IPset.cs" />
     <Compile Include="Event\NumberSet.cs" />
     <Compile Include="Event\VirusManager.cs" />
     <Compile Include="Event\QuestEnd.cs" />

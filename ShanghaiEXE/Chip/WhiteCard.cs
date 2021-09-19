@@ -41,7 +41,7 @@ namespace NSChip
     public override void Action(CharacterBase character, SceneBattle battle)
     {
       this.sound.PlaySE(SoundEffect.docking);
-      if (character is Player && !(character is NetPlayer))
+      if (character is Player)
       {
         Player player = (Player) character;
         List<ChipFolder> chipFolderList = new List<ChipFolder>();

@@ -697,8 +697,6 @@ namespace NSGame
             {
                 this.TexClear(true);
                 this.dg.Dispose();
-                if (NetWork.connectThread != null)
-                    NetWork.connectThread.Abort();
                 this.ad.Dispose();
                 this.loading.Close();
             }

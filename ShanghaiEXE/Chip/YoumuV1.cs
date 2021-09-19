@@ -245,7 +245,7 @@ namespace NSChip
           if (characterBase.union == character.UnionEnemy)
             characterBaseList.Add(characterBase);
         }
-        else if (characterBase is Player || characterBase is NetPlayer)
+        else if (characterBase is Player)
         {
           if (characterBase.union == character.UnionEnemy)
             characterBaseList.Add(characterBase);

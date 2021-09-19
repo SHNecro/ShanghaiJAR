@@ -131,7 +131,7 @@ namespace NSMap.Character.Menu
                         this.menu = new KeyItemMenu(this.sound, this.player, this, this.savedata);
                         break;
                     case TopMenu.TOPMENU.network:
-                        this.menu = new NetWork(this.sound, this.player, this, this.savedata);
+                        // this.menu = new NetWork(this.sound, this.player, this, this.savedata);
                         break;
                     case TopMenu.TOPMENU.save:
                         this.menu = new Save(this.sound, this.player, this, this.savedata, this.main);

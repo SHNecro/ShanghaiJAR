@@ -91,16 +91,7 @@ namespace NSGame
             {
                 case SceneMain.PLAYSCENE.battle:
                     Input.InputSave();
-                    NetParam.PosiSave(this.battlescene.player.position.X, this.battlescene.player.position.Y);
-                    if (!(this.battlescene is NetBattle))
-                    {
-                        this.battlescene.Updata();
-                        break;
-                    }
-                    NetParam.PanelParamSet(this.battlescene.panel);
-                    this.packetGetSucces = NetParam.GetInput();
                     this.battlescene.Updata();
-                    if (!this.packetGetSucces) { }
                     break;
                 case SceneMain.PLAYSCENE.map:
                     this.mapscene.Updata();
@@ -108,7 +99,7 @@ namespace NSGame
             }
             if (this.ShakeFlag)
                 this.Shaking();
-            if (this.savedata.saveEnd && !NetParam.connecting)
+            if (this.savedata.saveEnd)
             {
                 if (Input.IsPush(Button.Esc))
                     this.Reset();
@@ -143,14 +134,7 @@ namespace NSGame
             switch (this.nowscene)
             {
                 case SceneMain.PLAYSCENE.battle:
-                    if (!(this.battlescene is NetBattle))
-                    {
-                        this.battlescene.Render(dg);
-                        break;
-                    }
-                    NetParam.SendInput(5);
                     this.battlescene.Render(dg);
-                    this.packetLossTime = 0;
                     break;
                 case SceneMain.PLAYSCENE.map:
                     this.mapscene.Render(dg);

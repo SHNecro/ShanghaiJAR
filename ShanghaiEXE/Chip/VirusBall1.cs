@@ -99,14 +99,8 @@ namespace NSChip
                     this.sound.PlaySE(SoundEffect.enterenemy);
                     Virus haveViru;
                     EnemyBase e;
-                    if (character is NetPlayer)
-                    {
-                        haveViru = ((NetPlayer)character).viruss[this.id];
-                    }
-                    else
-                    {
-                        haveViru = SaveData.HAVEVirus[this.id];
-                    }
+                    haveViru = SaveData.HAVEVirus[this.id];
+
                     var newVirus = new Virus
                     {
                         type = haveViru.type,

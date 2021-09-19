@@ -350,13 +350,6 @@ namespace NSBattle.Character
             this.blackOutObject = this.parent.blackOut;
         }
 
-        protected virtual void NetWorkSend(int number, string data)
-        {
-            if (!(this.parent is NetBattle))
-                return;
-            NetParam.SendingData(number, data);
-        }
-
         public virtual void Updata()
         {
             if (this.parent.blackOut)
