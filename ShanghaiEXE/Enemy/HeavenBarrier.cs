@@ -47,7 +47,6 @@ namespace NSEnemy
         {
             for (int index = 0; index < this.dropchips.Length; ++index)
                 this.dropchips[index] = new ChipFolder(this.sound);
-            this.name = ShanghaiEXE.Translate("Enemy.HeavenBarrierName1");
             this.picturename = "heavenbarrier";
             this.race = EnemyBase.ENEMY.virus;
             this.element = ChipBase.ELEMENT.normal;
