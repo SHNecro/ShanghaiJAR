@@ -12,6 +12,7 @@ using NSEffect;
 using System.Collections.Concurrent;
 using System;
 using NSObject;
+using NSBattle.Character;
 
 namespace NSEnemy
 {
@@ -34,6 +35,8 @@ namespace NSEnemy
         private Color textColor;
         private BarrierInfoPanel infoPanel;
         private DammyChip blackoutAdaptChip;
+        // Inherent problem w/ timestop counter, ongoing effects continue (ex. masterspark)
+        private int? preAdaptWaitTime;
 
         private MOTION state;
         private Color overlayColor;
@@ -131,6 +134,22 @@ namespace NSEnemy
 
             if (this.state == MOTION.Absorbing)
             {
+                if (this.controller == this)
+                {
+                    if (this.parent.blackOut && this.blackoutAdaptChip == null && this.preAdaptWaitTime == null)
+                    {
+                        foreach (CharacterBase characterBase in parent.AllChara())
+                        {
+                            if (characterBase.number == parent.blackOutChips[0].userNum)
+                                this.preAdaptWaitTime = characterBase.waittime;
+                        }
+
+                        this.blackoutAdaptChip = new DammyChip(this.sound);
+                        var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
+                        this.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
+                    }
+                }
+
                 var attackAdapted = this.controller.unprocessedAttacks.Any(a => a.Item1 == this && a.Item2 == attack.Element);
                 if (!attackAdapted)
                 {
@@ -193,9 +212,6 @@ namespace NSEnemy
                 this.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.damageBuildup[elem]);
                 this.parent.objects.Add(this.infoPanel);
 
-                // Dummy chip triggered on first timestop
-                this.blackoutAdaptChip = new DammyChip(this.sound);
-                // Set to false after first timestop, stopping Updata on blackout
                 this.blackOutObject = true;
             }
         }
@@ -210,32 +226,41 @@ namespace NSEnemy
             if (!this.parent.blackOut)
             {
                 base.Updata();
-            }
 
-            if (this.controller == this)
-            {
-                if (this.parent.blackOut)
-                {
-                    if (this.parent.blackOutChips[0].blackOutLend)
-                    {
-                        var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
-                        this.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
-                        this.blackOutObject = false;
-                        this.infoPanel.ForcedShowState = false;
-                    }
-                }
-                else
+                if (this.controller == this)
                 {
                     this.infoPanel.ForcedShowState = null;
+                    this.blackoutAdaptChip = null;
+                }
+            }
+            else
+            {
+                if (this.controller == this)
+                {
+                    this.infoPanel.ForcedShowState = false;
+
+                    if (this.preAdaptWaitTime != null && parent.blackOutChips[0] != this.blackoutAdaptChip)
+                    {
+                        foreach (CharacterBase characterBase in parent.AllChara())
+                        {
+                            if (characterBase.number == parent.blackOutChips[0].userNum)
+                                characterBase.waittime = this.preAdaptWaitTime.Value;
+                        }
+                        this.preAdaptWaitTime = null;
+                    }
                 }
             }
         }
 
         public override void RenderUP(IRenderer dg)
         {
-            if (this.blackoutAdaptChip?.chipUseEnd != false)
-                return;
-            this.blackoutAdaptChip.BlackOutRender(dg, this.union);
+            if (this.controller == this)
+            {
+                if (this.blackoutAdaptChip?.chipUseEnd == false)
+                {
+                    this.blackoutAdaptChip.BlackOutRender(dg, this.union);
+                }
+            }
         }
 
 
