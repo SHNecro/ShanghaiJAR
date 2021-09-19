@@ -11,7 +11,6 @@ using System.Collections.Generic;
 using NSEffect;
 using System.Collections.Concurrent;
 using System;
-using NSBattle.Character;
 using NSObject;
 
 namespace NSEnemy
@@ -34,6 +33,7 @@ namespace NSEnemy
         private bool isPerfectKill;
         private Color textColor;
         private BarrierInfoPanel infoPanel;
+        private DammyChip blackoutAdaptChip;
 
         private MOTION state;
         private Color overlayColor;
@@ -70,9 +70,9 @@ namespace NSEnemy
             {
                 this.version = 1;
             }
-            this.hp = 800 + (200 * this.version - 1);
+            this.hp = 800 + (200 * (this.version - 1));
 
-            this.animationpoint = new Point(this.version, 0);
+            this.animationpoint = new Point(1, 0);
             this.printNumber = false;
 
             // No chip or zenny reward
@@ -131,22 +131,29 @@ namespace NSEnemy
 
             if (this.state == MOTION.Absorbing)
             {
-                var attackDamage = this.lastDamage;
-                if (attackDamage == -1)
+                var attackAdapted = this.controller.unprocessedAttacks.Any(a => a.Item1 == this && a.Item2 == attack.Element);
+                if (!attackAdapted)
                 {
-                    int num = 1;
-                    if (this.standbarrier)
-                        num *= 2;
-                    if (this.guard == CharacterBase.GUARD.armar && attack.breaking)
-                        num *= 2;
-                    attackDamage = attack.DamageMath(this) / num;
+                    var attackDamage = this.lastDamage;
+                    if (attackDamage == -1)
+                    {
+                        attackDamage = attack.DamageMath(this);
+                    }
+
+                    var remainingDamage = this.controller.totalHp - this.controller.rawDamageTaken;
+                    var cappedDamage = Math.Min(attackDamage, remainingDamage);
+                    this.controller.rawDamageTakenSinceLastUpdate += cappedDamage;
+
+                    this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
                 }
-
-                var remainingDamage = this.controller.totalHp - this.controller.rawDamageTaken;
-                var cappedDamage = Math.Min(attackDamage, remainingDamage);
-                this.controller.rawDamageTakenSinceLastUpdate += cappedDamage;
-
-                this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
+                else
+                {
+                    this.sound.PlaySE(SoundEffect.bound);
+                    this.invincibility = true;
+                    this.invincibilitytime = 1;
+                    // alpha increases by 15 per tick, if not exact then overflows and wraps around
+                    this.alfha = byte.MaxValue - (15 * 8);
+                }
 
                 this.lastDamage = -1;
             }
@@ -185,6 +192,11 @@ namespace NSEnemy
 
                 this.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.damageBuildup[elem]);
                 this.parent.objects.Add(this.infoPanel);
+
+                // Dummy chip triggered on first timestop
+                this.blackoutAdaptChip = new DammyChip(this.sound);
+                // Set to false after first timestop, stopping Updata on blackout
+                this.blackOutObject = true;
             }
         }
 
@@ -192,6 +204,40 @@ namespace NSEnemy
         {
             this.positionDirect = new Vector2((float)(position.X * 40.0 + 20.0) + 4 * this.UnionRebirth + 2, (float)(position.Y * 24.0 + 54.0) - 4);
         }
+
+        public override void Updata()
+        {
+            if (!this.parent.blackOut)
+            {
+                base.Updata();
+            }
+
+            if (this.controller == this)
+            {
+                if (this.parent.blackOut)
+                {
+                    if (this.parent.blackOutChips[0].blackOutLend)
+                    {
+                        var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
+                        this.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
+                        this.blackOutObject = false;
+                        this.infoPanel.ForcedShowState = false;
+                    }
+                }
+                else
+                {
+                    this.infoPanel.ForcedShowState = null;
+                }
+            }
+        }
+
+        public override void RenderUP(IRenderer dg)
+        {
+            if (this.blackoutAdaptChip?.chipUseEnd != false)
+                return;
+            this.blackoutAdaptChip.BlackOutRender(dg, this.union);
+        }
+
 
         protected override void Moving()
         {
@@ -202,6 +248,8 @@ namespace NSEnemy
                 case MOTION.Absorbing:
                     this.animationpoint = IdleAnimation(this.waittime);
 
+                    this.invincibility = false;
+                    this.invincibilitytime = 0;
                     var totalDamage = this.controller.rawDamageTaken;
                     if (totalDamage >= this.controller.totalHp)
                     {
@@ -491,20 +539,18 @@ namespace NSEnemy
 
             if (this.controller == this)
             {
+                var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1);
                 foreach (var attack in this.unprocessedAttacks)
                 {
                     var hitBarrier = attack.Item1;
                     var hitElement = attack.Item2;
                     var hitAmount = attack.Item3;
-
-                    var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1);
                     foreach (var barrier in this.controlledBarriers)
                     {
-                        var isSuccessful = barriersSimulHit.Contains(barrier);
-                        if (isSuccessful)
+                        var simulHit = barriersSimulHit.Contains(barrier);
+                        if (simulHit)
                         {
-                            // simulhit
-                            // no effects
+                            // do nothing
                         }
                         else
                         {
@@ -717,7 +763,7 @@ namespace NSEnemy
             {
                 if (this.textColor.A != 0)
                 {
-                    var remainingHp = this.totalHp - this.rawDamageTaken;
+                    var remainingHp = this.totalHp - (this.rawDamageTaken + this.rawDamageTakenSinceLastUpdate);
                     if (remainingHp > 0 && this.controlledBarriers.All(c => c.state == MOTION.Absorbing))
                     {
                         DrawBlockCharacters(dg, this.Nametodata(remainingHp.ToString()), 88, new Vector2(164 + this.Shake.X, 20 + this.Shake.Y), Color.White, out var finalRect, out var finalPos);

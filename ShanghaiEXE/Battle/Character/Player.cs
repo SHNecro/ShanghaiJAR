@@ -967,16 +967,17 @@ namespace NSBattle.Character
 
         public void BlackOutControl()
         {
-            if (!Input.IsPress(Button._A)
-                || this.parent.blackOutStopper
-                || this.numOfChips <= 0
-                || this.parent.nowscene == SceneBattle.BATTLESCENE.custom
-                || (!this.haveChip[0].timeStopper
-                || this.parent.blackOutChips[0].nameAlpha != byte.MaxValue))
-                return;
-            this.ButtonA();
-            this.usingChip.chipUseEnd = false;
-            this.usingChip.BlackOut(this, this.parent, this.usingChip.name, this.usingChip.Power(this).ToString());
+            if (Input.IsPress(Button._A)
+                && !this.parent.blackOutStopper
+                && this.numOfChips > 0
+                && this.parent.nowscene != SceneBattle.BATTLESCENE.custom
+                && this.haveChip[0].timeStopper
+                && this.parent.blackOutChips[0].nameAlpha == byte.MaxValue)
+            {
+                this.ButtonA();
+                this.usingChip.chipUseEnd = false;
+                this.usingChip.BlackOut(this, this.parent, this.usingChip.name, this.usingChip.Power(this).ToString());
+            }
         }
 
         public virtual void Control(CustomGauge custom)

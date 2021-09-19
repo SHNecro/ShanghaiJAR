@@ -75,12 +75,16 @@ namespace NSObject
 
             this.elementAmountFunc = elementLightUpFunc;
             this.infoText = new List<ScreenObjectFade>();
+            this.blackOutObject = true;
         }
+
+        public bool? ForcedShowState { get; set; }
 
         public override void Updata()
         {
             if (!breaking)
             {
+                this.hp = int.MaxValue;
                 if (this.moveflame)
                 {
                     switch (this.frame)
@@ -102,11 +106,11 @@ namespace NSObject
                 }
                 this.FlameControl(24);
 
-                if (this.parent.player.position == new Point(0, 1))
+                if (this.ForcedShowState ?? this.parent.player.position == new Point(0, 1))
                 {
                     if (this.screenGreyOut == null)
                     {
-                        this.screenGreyOut = new ScreenBlack(this.sound, this.parent, Vector2.Zero, new Point(5, 2), ChipBase.ELEMENT.normal, 0, false, Color.FromArgb(96, Color.Black), 6);
+                        this.screenGreyOut = new ScreenBlack(this.sound, this.parent, Vector2.Zero, new Point(5, 2), ChipBase.ELEMENT.normal, 0, false, Color.FromArgb(96, Color.Black),  6);
                         this.screenGreyOut.downprint = false;
                         this.parent.effects.Add(this.screenGreyOut);
 

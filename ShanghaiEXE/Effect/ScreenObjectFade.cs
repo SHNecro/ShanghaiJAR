@@ -49,6 +49,7 @@ namespace NSEffect
             this.color = Color.FromArgb(0, Color.Black);
 
             this.isText = true;
+            this.blackOutObject = true;
         }
 
         public ScreenObjectFade(
@@ -77,6 +78,7 @@ namespace NSEffect
             this.color = Color.FromArgb(0, Color.Black);
 
             this.isText = false;
+            this.blackOutObject = true;
         }
 
         public override void Updata()
