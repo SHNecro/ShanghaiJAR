@@ -619,10 +619,9 @@ namespace NSBattle
                     if (this.savedata.addonSkill[74])
                     {
                         this.revertMammonAction?.Invoke();
-                        if (this.transmission)
-                        {
-                            this.revertMammonAction = Mammon.ApplyMammonPunishments(this.sound, this.parent, ref this.canopenchips, this.selectchips);
-                        }
+                        this.revertMammonAction = this.transmission
+                            ? Mammon.ApplyMammonPunishments(this.sound, this.parent, ref this.canopenchips, this.selectchips)
+                            : null;
                     }
 
                     if (this.canopenchips > 12)
