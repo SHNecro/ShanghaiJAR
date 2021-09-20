@@ -211,13 +211,18 @@ namespace NSBattle.Character
                     return;
                 if ((this as Player)?.mind.MindNow == MindWindow.MIND.pinch && value > this.hp)
                     (this as Player).mind.MindNow = MindWindow.MIND.normal;
-                if ((this.badstatus[5]
-                    || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0))
+
+                var antiHealEffects = this.CalculatePoisonEffects();
+
+                if (antiHealEffects.Any()
                     && value - this.hp > 0
                     && !((this as Player)?.mind.MindNow == MindWindow.MIND.smile))
                 {
                     var healAmount = value - this.hp;
                     var multiplier = 1;
+
+                    multiplier *= (int)Math.Pow(2, antiHealEffects.Count(b => b) - 1);
+
                     switch (this.Element)
                     {
                         case ChipBase.ELEMENT.aqua:
@@ -386,11 +391,18 @@ namespace NSBattle.Character
             ++this.mastorflame;
             try
             {
-                if ((this.badstatus[5] || this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._poison && !this.Flying) && ((this.Element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0) && this.parent.nowscene != SceneBattle.BATTLESCENE.end) && !(this is ObjectBase))
+                var antiHealEffects = this.CalculatePoisonEffects();
+
+                if ((antiHealEffects.Any(b => b)
+                    && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
+                    && !(this is ObjectBase))
                 {
                     if (this.mastorflame % 8 == 0)
                     {
                         var multiplier = 1;
+
+                        multiplier *= (int)Math.Pow(2, antiHealEffects.Count(b => b) - 1);
+
                         switch (this.Element)
                         {
                             case ChipBase.ELEMENT.aqua:
@@ -1717,6 +1729,17 @@ namespace NSBattle.Character
             }
             else
                 this.moveflame = false;
+        }
+
+        private bool[] CalculatePoisonEffects()
+        {
+            var acidBody = this.badstatustime[5] < 0;
+            var poisonImmune = this.element == ChipBase.ELEMENT.poison;
+            var poisoned = this.badstatus[5] && !acidBody && !poisonImmune;
+            var poisonPanelEffect = this.StandPanel.State == Panel.PANEL._poison && !this.Flying && !poisonImmune;
+            var antiHealEffects = new[] { poisoned, poisonPanelEffect, acidBody };
+
+            return antiHealEffects;
         }
 
         public enum BADSTATUS
