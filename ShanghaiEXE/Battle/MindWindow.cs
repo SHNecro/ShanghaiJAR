@@ -72,8 +72,6 @@ namespace NSBattle
                 }
                 else if (this.mindOld != this.MindNow)
                     this.turnTime = 20;
-                if (this.parent.player.Hp > this.parent.player.hpprint && this.MindNow == MindWindow.MIND.pinch)
-                    this.MindNow = MindWindow.MIND.normal;
             }
         }
 

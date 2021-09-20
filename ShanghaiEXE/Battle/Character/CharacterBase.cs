@@ -209,6 +209,8 @@ namespace NSBattle.Character
             {
                 if (this.parent.manyenemys <= 0)
                     return;
+                if ((this as Player)?.mind.MindNow == MindWindow.MIND.pinch && value > this.hp)
+                    (this as Player).mind.MindNow = MindWindow.MIND.normal;
                 if ((this.badstatus[5]
                     || this.StandPanel.State == Panel.PANEL._poison && !this.Flying && (this.element != ChipBase.ELEMENT.poison || this.badstatustime[5] < 0))
                     && value - this.hp > 0
@@ -422,9 +424,9 @@ namespace NSBattle.Character
                     this.position.X = 5;
                 this.PositionDirectSet();
             }
-            if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._grass && this.Element == ChipBase.ELEMENT.leaf && this.parent.nowscene != SceneBattle.BATTLESCENE.end && (this.mastorflame % 6 == 0 && this.Hp < this.hpmax))
+            if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._grass && this.Element == ChipBase.ELEMENT.leaf && this.parent.nowscene != SceneBattle.BATTLESCENE.end && (this.mastorflame % 6 == 0))
                 ++this.Hp;
-            if (this.mastorflame % 6 == 0 && this.Hp < this.hpmax && this.barrierType == CharacterBase.BARRIER.HealBarrier)
+            if (this.mastorflame % 6 == 0 && this.barrierType == CharacterBase.BARRIER.HealBarrier)
                 ++this.Hp;
         }
 
