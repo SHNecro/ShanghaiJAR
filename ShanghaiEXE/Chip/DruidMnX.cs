@@ -47,6 +47,8 @@ namespace NSChip
         private Point animePoint;
         private bool afterimage;
 
+        private int? initialEnemyHPSum;
+
         private bool isElemental;
 
         public DruidMnX(IAudioEngine s)
@@ -97,8 +99,9 @@ namespace NSChip
             this.animePoint = this.Animation(character.waittime);
             if (character.waittime == 0)
             {
-                    character.animationpoint.X = -1;
-                    this.sound.PlaySE(SoundEffect.warp);
+                character.animationpoint.X = -1;
+                this.sound.PlaySE(SoundEffect.warp);
+                this.initialEnemyHPSum = battle.AllChara().Where(c => character.UnionEnemy == c.union).Sum(c => c.Hp);
             }
             else if (character.waittime < AnimationTiming.First().Delay)
             {
@@ -188,17 +191,6 @@ namespace NSChip
                         }
                         
                         character.parent.attacks.Add(this.Paralyze(towerAttack));
-
-                        if (!this.isElemental)
-                        {
-                            var affectedEnemies = battle.AllChara().Where(c => character.UnionEnemy == c.union && towerAttack.HitCheck(c.position));
-                            var drainedLife = affectedEnemies.Sum(c => Math.Min(this.Power(character), c.Hp));
-                            if (drainedLife > 0)
-                            {
-                                this.sound.PlaySE(SoundEffect.repair);
-                                character.Hp += drainedLife;
-                            }
-                        }
                     }
                 });
                 var modifiedBurstSpacing = this.isElemental ? this.ExtraElementalTime(BurstSpacing) : BurstSpacing;
@@ -228,6 +220,19 @@ namespace NSChip
             else if (character.waittime >= totalAnimationTime && character.waittime < totalAnimationTime + PostAttackDelay)
             {
                 this.afterimage = true;
+
+                if (!this.isElemental && this.initialEnemyHPSum != null)
+                {
+                    var afterBurstEnemyHpSum = battle.AllChara().Where(c => character.UnionEnemy == c.union).Sum(c => c.Hp);
+                    var drainedLife = this.initialEnemyHPSum.Value - afterBurstEnemyHpSum;
+                    if (drainedLife > 0)
+                    {
+                        this.sound.PlaySE(SoundEffect.repair);
+                        character.Hp += drainedLife;
+                    }
+
+                    this.initialEnemyHPSum = null;
+                }
             }
             else if (character.waittime >= totalAnimationTime + PostAttackDelay && this.BlackOutEnd(character, battle))
             {

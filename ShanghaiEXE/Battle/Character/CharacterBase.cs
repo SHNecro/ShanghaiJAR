@@ -207,14 +207,14 @@ namespace NSBattle.Character
             }
             set
             {
-                if (this.parent.manyenemys <= 0)
+                if (this.parent.manyenemys <= 0 && !this.parent.blackOut)
                     return;
                 if ((this as Player)?.mind.MindNow == MindWindow.MIND.pinch && value > this.hp)
                     (this as Player).mind.MindNow = MindWindow.MIND.normal;
 
                 var antiHealEffects = this.CalculatePoisonEffects();
 
-                if (antiHealEffects.Any()
+                if (antiHealEffects.Any(b => b)
                     && value - this.hp > 0
                     && !((this as Player)?.mind.MindNow == MindWindow.MIND.smile))
                 {

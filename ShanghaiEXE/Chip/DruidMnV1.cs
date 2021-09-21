@@ -43,6 +43,8 @@ namespace NSChip
         private Point animePoint;
         private bool afterimage;
 
+        private int? initialEnemyHPSum;
+
         public DruidMnV1(IAudioEngine s)
           : base(s)
         {
@@ -82,8 +84,9 @@ namespace NSChip
             this.animePoint = this.Animation(character.waittime);
             if (character.waittime == 0)
             {
-                    character.animationpoint.X = -1;
-                    this.sound.PlaySE(SoundEffect.warp);
+                character.animationpoint.X = -1;
+                this.sound.PlaySE(SoundEffect.warp);
+                this.initialEnemyHPSum = battle.AllChara().Where(c => character.UnionEnemy == c.union).Sum(c => c.Hp);
             }
             else if (character.waittime >= 24 && character.waittime < AnimationTiming.Sum(a => a.Delay))
             {
@@ -102,13 +105,6 @@ namespace NSChip
                             -1,
                             ChipBase.ELEMENT.poison));
                         character.parent.attacks.Add(burst);
-                        var affectedEnemies = battle.AllChara().Where(c => character.UnionEnemy == c.union && burst.HitCheck(c.position));
-                        var drainedLife = affectedEnemies.Sum(c => Math.Min(this.Power(character), c.Hp));
-                        if (drainedLife > 0)
-                        {
-                            this.sound.PlaySE(SoundEffect.repair);
-                            character.Hp += drainedLife;
-                        }
                     }
                 });
                 if (burstAttackTime % BurstSpacing == 0)
@@ -137,6 +133,19 @@ namespace NSChip
             else if (character.waittime >= AnimationTiming.Sum(a => a.Delay))
             {
                 this.afterimage = true;
+
+                if (this.initialEnemyHPSum != null)
+                {
+                    var afterBurstEnemyHpSum = battle.AllChara().Where(c => character.UnionEnemy == c.union).Sum(c => c.Hp);
+                    var drainedLife = this.initialEnemyHPSum.Value - afterBurstEnemyHpSum;
+                    if (drainedLife > 0)
+                    {
+                        this.sound.PlaySE(SoundEffect.repair);
+                        character.Hp += drainedLife;
+                    }
+
+                    this.initialEnemyHPSum = null;
+                }
             }
             if (character.waittime > AnimationTiming.Sum(a => a.Delay) + 40 && this.BlackOutEnd(character, battle))
                 base.Action(character, battle);
