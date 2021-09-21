@@ -436,7 +436,10 @@ namespace NSBattle.Character
                     this.position.X = 5;
                 this.PositionDirectSet();
             }
-            if (this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._grass && this.Element == ChipBase.ELEMENT.leaf && this.parent.nowscene != SceneBattle.BATTLESCENE.end && (this.mastorflame % 6 == 0))
+            if (this.InArea
+                && this.parent.panel[this.position.X, this.position.Y].state == Panel.PANEL._grass && this.Element == ChipBase.ELEMENT.leaf
+                && this.parent.nowscene != SceneBattle.BATTLESCENE.end
+                && (this.mastorflame % 6 == 0))
                 ++this.Hp;
             if (this.mastorflame % 6 == 0 && this.barrierType == CharacterBase.BARRIER.HealBarrier)
                 ++this.Hp;
