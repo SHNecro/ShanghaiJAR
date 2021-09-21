@@ -1051,6 +1051,30 @@ namespace NSGame
                 if (anyFlagsReset)
                 {
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550WIPEndgameReset"));
+
+                    if (this.nowMap == "heavenNet1" || this.nowMap == "heavenNet2")
+                    {
+                        retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenJackOut"));
+
+                        this.nowMap = this.pluginMap;
+                        this.nowFroor = this.pluginFroor;
+                        this.nowX = this.pluginX;
+                        this.nowY = this.pluginY;
+                        this.nowZ = this.pluginZ;
+
+                        this.isJackedIn = false;
+                        this.FlagList[2] = false;
+                        if (!this.FlagList[13])
+                        {
+                            this.GetRandomMystery = new bool[600];
+                            this.runSubChips[0] = false;
+                            this.runSubChips[1] = false;
+                            this.runSubChips[2] = false;
+                            this.runSubChips[3] = false;
+                            this.ValList[19] = 0;
+                            this.HPNow = this.HPMax;
+                        }
+                    }
                 }
 
                 this.ValList[199] = 6;

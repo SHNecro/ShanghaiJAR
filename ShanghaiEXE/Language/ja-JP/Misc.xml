@@ -467,6 +467,7 @@
   <Dialogue Key="Retcon.0550SageSkipped" Value="[Enabled missing flag that,made 4th quiz missable.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550CrimDexEnabled" Value="[Enabled illegal library.]" Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.0550WIPEndgameReset" Value="[Reset endgame placeholder,battles.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenJackOut" Value="[Jacked out of Heaven Area.]" Face="Sprite" Mono="False" />
 
   <Text Key="Save.SaveFailedTitle" Value="[Save Failed!]" />
   <Text Key="Save.SaveFailed" Value="[Something went wrong during the save process.&#xA;&#xD;&#xA;&#xD;Unfortunately, it is unlikely that the problem can be solved without a game update.&#xA;&#xD;&#xA;&#xD;Please report this bug at https://gitgud.io/SHNecro/shanghaiexe/-/issues or wherever you downloaded this copy of the game.]" />

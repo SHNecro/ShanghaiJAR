@@ -587,8 +587,6 @@ namespace NSGame
         public void LoadGame()
         {
             SceneMain scene = (SceneMain)ShanghaiEXE.scene;
-            scene.mapscene.LoadGame();
-            ShanghaiEXE.scene = scene;
 
             var retconMessages = this.savedata.RetconSave();
             if (retconMessages.Any())
@@ -620,6 +618,9 @@ namespace NSGame
                 scene.mapscene.eventmanager.AddEvent(new StopSkip(this.ad, scene.mapscene.eventmanager, this.savedata));
                 scene.mapscene.eventmanager.AddEvent(new Fade(this.ad, scene.mapscene.eventmanager, 15, 0, 0, 0, 0, true, this.savedata));
             }
+
+            scene.mapscene.LoadGame();
+            ShanghaiEXE.scene = scene;
         }
 
         private void Game_Load(object sender, EventArgs e)
