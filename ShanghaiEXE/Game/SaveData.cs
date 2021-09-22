@@ -13,6 +13,7 @@ using static NSMap.Character.Menu.Library;
 using System.Linq;
 using Common;
 using System.Windows.Forms;
+using NSMap;
 
 namespace NSGame
 {
@@ -1073,6 +1074,7 @@ namespace NSGame
                             this.runSubChips[3] = false;
                             this.ValList[19] = 0;
                             this.HPNow = this.HPMax;
+                            this.steptype = (int)SceneMap.STEPS.normal;
                         }
                     }
                 }
