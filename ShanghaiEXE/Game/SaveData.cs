@@ -943,11 +943,11 @@ namespace NSGame
 
                 // If HeavenNet already entered, warn that area in progress, battles to be reverted
                 // TODO: when no longer needed (battles implemented), unset 900 & revert battles (+give message)
-                if (this.FlagList[793] && !this.FlagList[900])
-                {
-                    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenWIP2"));
-                    this.FlagList[900] = true;
-                }
+                //if (this.FlagList[793] && !this.FlagList[900])
+                //{
+                //    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenWIP2"));
+                //    this.FlagList[900] = true;
+                //}
 
                 this.ValList[199] = 3;
             }
@@ -1078,6 +1078,9 @@ namespace NSGame
                         }
                     }
                 }
+
+                // Unset WIP message shown flag
+                this.FlagList[900] = false;
 
                 this.ValList[199] = 6;
             }
