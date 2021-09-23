@@ -1366,6 +1366,8 @@
       <TargetPath>README.txt</TargetPath>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <EmbeddedResource Include="Costura32\OpenAL32.dll" />
+    <EmbeddedResource Include="Costura32\wrap_oal.dll" />
     <Content Include="Data\data\KeyItems.xml">
       <SubType>Designer</SubType>
     </Content>
