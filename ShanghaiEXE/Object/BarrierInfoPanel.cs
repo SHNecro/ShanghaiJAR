@@ -84,7 +84,7 @@ namespace NSObject
         {
             if (!breaking)
             {
-                this.hp = int.MaxValue;
+                this.hp = 99999;
                 if (this.moveflame)
                 {
                     switch (this.frame)

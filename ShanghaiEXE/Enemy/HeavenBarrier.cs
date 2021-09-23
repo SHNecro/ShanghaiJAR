@@ -90,8 +90,8 @@ namespace NSEnemy
             this.dropchips[4].chip = new Reygun(this.sound);
             this.dropchips[4].codeNo = 3;
 
-            this.hpmax = int.MaxValue;
-            this.hpprint = int.MaxValue;
+            this.hpmax = 99999;
+            this.hpprint = 99999;
             this.neutlal = true;
             this.badstatusresist = true;
 
@@ -193,7 +193,7 @@ namespace NSEnemy
                 {
                     c.controller = this.controller;
                     this.totalHp += c.Hp;
-                    c.Hp = int.MaxValue;
+                    c.Hp = 99999;
                     c.deathOrder = newDeathOrder++;
                 });
                 
