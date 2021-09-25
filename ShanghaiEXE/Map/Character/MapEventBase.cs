@@ -12,6 +12,7 @@ using System.Drawing;
 using System.IO;
 using Common.EncodeDecode;
 using Data;
+using System.Globalization;
 
 namespace NSMap.Character
 {
@@ -455,7 +456,15 @@ namespace NSMap.Character
                         page.AddEvent(new BGMon(this.sound, page.eventmanager, strArray1[1], 0, this.savedate));
                         break;
                     case "camera":
-                        page.AddEvent(new moveCamera(this.sound, page.eventmanager, new Vector2(float.Parse(strArray1[1]), float.Parse(strArray1[2])), int.Parse(strArray1[3]), bool.Parse(strArray1[4]), this.parent, this.savedate));
+                        page.AddEvent(new moveCamera(
+                            this.sound,
+                            page.eventmanager,
+                            new Vector2(float.Parse(strArray1[1], CultureInfo.InvariantCulture),
+                            float.Parse(strArray1[2], CultureInfo.InvariantCulture)),
+                            int.Parse(strArray1[3]),
+                            bool.Parse(strArray1[4]),
+                            this.parent,
+                            this.savedate));
                         break;
                     case "canSkip":
                         page.AddEvent(new CanSkip(this.sound, page.eventmanager, this.savedate));

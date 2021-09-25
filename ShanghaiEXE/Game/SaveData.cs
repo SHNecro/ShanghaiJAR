@@ -446,11 +446,11 @@ namespace NSGame
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.nowMap = str;
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.nowX = float.Parse(str);
+                    this.nowX = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.nowY = float.Parse(str);
+                    this.nowY = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.nowZ = float.Parse(str);
+                    this.nowZ = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.nowFroor = int.Parse(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
@@ -460,15 +460,15 @@ namespace NSGame
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.stepoverY = int.Parse(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.stepCounter = float.Parse(str);
+                    this.stepCounter = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.pluginMap = str;
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.pluginX = float.Parse(str);
+                    this.pluginX = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.pluginY = float.Parse(str);
+                    this.pluginY = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
-                    this.pluginZ = float.Parse(str);
+                    this.pluginZ = FloatParseAnySeparator(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
                     this.pluginFroor = int.Parse(str);
                     str = TCDEncodeDecode.DecryptString(streamReader.ReadLine(), SaveData.pass);
@@ -1317,13 +1317,13 @@ namespace NSGame
                 sourceString48.Append(this.nowMap.ToString());
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString48, SaveData.pass));
                 StringBuilder sourceString49 = new StringBuilder();
-                sourceString49.Append(this.nowX.ToString());
+                sourceString49.Append(this.nowX.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString49, SaveData.pass));
                 StringBuilder sourceString50 = new StringBuilder();
-                sourceString50.Append(this.nowY.ToString());
+                sourceString50.Append(this.nowY.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString50, SaveData.pass));
                 StringBuilder sourceString51 = new StringBuilder();
-                sourceString51.Append(this.nowZ.ToString());
+                sourceString51.Append(this.nowZ.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString51, SaveData.pass));
                 StringBuilder sourceString52 = new StringBuilder();
                 sourceString52.Append(this.nowFroor.ToString());
@@ -1338,19 +1338,19 @@ namespace NSGame
                 sourceString55.Append(this.stepoverY.ToString());
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString55, SaveData.pass));
                 StringBuilder sourceString56 = new StringBuilder();
-                sourceString56.Append(this.stepCounter.ToString());
+                sourceString56.Append(this.stepCounter.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString56, SaveData.pass));
                 StringBuilder sourceString57 = new StringBuilder();
                 sourceString57.Append(this.pluginMap.ToString());
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString57, SaveData.pass));
                 StringBuilder sourceString58 = new StringBuilder();
-                sourceString58.Append(this.pluginX.ToString());
+                sourceString58.Append(this.pluginX.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString58, SaveData.pass));
                 StringBuilder sourceString59 = new StringBuilder();
-                sourceString59.Append(this.pluginY.ToString());
+                sourceString59.Append(this.pluginY.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString59, SaveData.pass));
                 StringBuilder sourceString60 = new StringBuilder();
-                sourceString60.Append(this.pluginZ.ToString());
+                sourceString60.Append(this.pluginZ.ToString(System.Globalization.CultureInfo.InvariantCulture));
                 streamWriter.WriteLine(TCDEncodeDecode.EncryptString(sourceString60, SaveData.pass));
                 StringBuilder sourceString61 = new StringBuilder();
                 sourceString61.Append(this.pluginFroor.ToString());
@@ -2051,6 +2051,16 @@ namespace NSGame
                     return index;
             }
             return -1;
+        }
+
+        private static float FloatParseAnySeparator(string str)
+        {
+            var parseCulture = str.Contains(",")
+                // known culture using comma as decimal
+                ? System.Globalization.CultureInfo.GetCultureInfo("es-ES")
+                : System.Globalization.CultureInfo.InvariantCulture;
+
+            return float.Parse(str, parseCulture);
         }
 
         public enum EXMESSID
