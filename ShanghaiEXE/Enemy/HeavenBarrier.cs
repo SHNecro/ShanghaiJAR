@@ -489,7 +489,7 @@ namespace NSEnemy
                                     var damageThisTick = wholeLeftoverDamage + damagePerTick;
                                     this.remainingRetaliation -= damageThisTick;
 
-                                    var enemies = this.parent.AllChara().Where(c => c.union == this.UnionEnemy);
+                                    var enemies = this.parent.AllHitter().Where(c => c.union == this.UnionEnemy);
                                     foreach (var enemy in enemies)
                                     {
                                         enemy.Hp -= damageThisTick;
