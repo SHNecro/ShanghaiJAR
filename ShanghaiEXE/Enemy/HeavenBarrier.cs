@@ -635,13 +635,13 @@ namespace NSEnemy
                     var decrementedElements = new List<ChipBase.ELEMENT>();
                     foreach (var typeDamage in this.damageBuildup)
                     {
-                        if (typeDamage.Key == ChipBase.ELEMENT.normal || typeDamage.Value <= 0)
+                        if (typeDamage.Key == ChipBase.ELEMENT.normal || typeDamage.Value - decrementedElements.Count(e => e == typeDamage.Key) <= 0)
                         {
                             continue;
                         }
 
                         var effectiveTypes = GetEffectiveElements(typeDamage.Key);
-                        if (effectiveTypes.All(t => this.damageBuildup[t] > 0))
+                        if (effectiveTypes.All(t => this.damageBuildup[t] - decrementedElements.Count(e => e == t) > 0))
                         {
                             decrementedElements.Add(typeDamage.Key);
                             decrementedElements.AddRange(effectiveTypes);
