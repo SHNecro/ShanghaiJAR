@@ -140,6 +140,7 @@ namespace NSObject
                                         return Color.Transparent;
                                     }
 
+                                    // 0: None, 1: part of cancel trio, 2: is last cancelled part of trio, 3: is last cancelling part of trio
                                     var hintState = 0;
                                     var cancellingElements = GetEffectiveElements(elementEntry.Key);
                                     var elementsToBeCancelled = ElementTextLocations.Keys.Where(e =>
@@ -154,10 +155,13 @@ namespace NSObject
                                     {
                                         hintState = 1;
                                     }
-                                    if (cancellingElements.All(e => this.elementAmountFunc(e) > 0)
-                                        || elementsToBeCancelled.Any())
+                                    if (cancellingElements.All(e => this.elementAmountFunc(e) > 0))
                                     {
                                         hintState = 2;
+                                    }
+                                    else if (elementsToBeCancelled.Any())
+                                    {
+                                        hintState = 3;
                                     }
 
                                     switch (hintState)
@@ -166,11 +170,15 @@ namespace NSObject
                                         case 0:
                                             return Color.Transparent;
                                         case 1:
+                                            // By modulation, blue
+                                            return Color.FromArgb(128, Color.White);
+                                        case 2:
                                             // By modulation, green
                                             return Color.Yellow;
-                                        case 2:
-                                            // By modulation, blue
-                                            return Color.White;
+                                        case 3:
+                                            // By modulation, green
+                                            //return Color.White;
+                                            return Color.Yellow;
                                     }
                                 },
                                 8);
