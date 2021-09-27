@@ -741,7 +741,10 @@ namespace NSBattle
                                 BustorShot bustorShot = new BustorShot(this.sound, this, attack2.position.X, attack2.position.Y, attack1.union, attack1.power, BustorShot.SHOT.reflect, attack1.Element, true, 0)
                                 {
                                     canCounter = false,
-                                    breaking = false
+                                    breaking = false,
+                                    invincibility = attack1.invincibility,
+                                    invincibilitytime = attack1.invincibilitytime,
+                                    invincibilitytimeA = attack1.invincibilitytimeA,
                                 };
                                 bustorShotList.Add(bustorShot);
                                 attack2.flag = false;
