@@ -377,7 +377,7 @@ namespace NSAttack
                     }
                     for (int index = 0; index < this.badstatus.Length; ++index)
                     {
-                        if (this.badstatus[index] && c.Element != (ChipBase.ELEMENT)index && !c.Badstatusresist)
+                        if (this.badstatus[index] && c.Element != (ChipBase.ELEMENT)index && !c.Badstatusresist && c.badstatustime[index] >= 0)
                         {
                             c.badstatus[index] = true;
                             c.badstatustime[index] = this.badstatustime[index];
@@ -479,7 +479,7 @@ namespace NSAttack
                     }
                     for (int index = 0; index < this.badstatus.Length; ++index)
                     {
-                        if (this.badstatus[index] && c.Element != (ChipBase.ELEMENT)index && !c.Badstatusresist)
+                        if (this.badstatus[index] && c.Element != (ChipBase.ELEMENT)index && !c.Badstatusresist && c.badstatustime[index] >= 0)
                         {
                             c.badstatus[index] = true;
                             c.badstatustime[index] = this.badstatustime[index];
