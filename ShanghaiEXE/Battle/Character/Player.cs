@@ -13,6 +13,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using NSEnemy;
+using System;
 
 namespace NSBattle.Character
 {
@@ -1093,7 +1094,7 @@ namespace NSBattle.Character
                                     this.parent.effects.Add(new BulletShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
                                 if (this.addonSkill[37])
                                     this.parent.effects.Add(new BulletBigShells(this.sound, this.parent, this.position, this.positionDirect.X + 20 * this.UnionRebirth, this.positionDirect.Y + 12f, 26, this.union, 20 + this.Random.Next(20), 2, 0));
-                                this.parent.attacks.Add(new AssaultBuster(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, !this.badstatus[1] ? num2 : num2 / 2, busterPower / 2, busterCharge, this.busterBlue, ChipBase.ELEMENT.normal));
+                                this.parent.attacks.Add(new AssaultBuster(this.sound, this.parent, this.position.X + this.UnionRebirth, this.position.Y, this.union, !this.badstatus[1] ? num2 : Math.Max(1, num2 / 2), busterPower / 2, busterCharge, this.busterBlue, ChipBase.ELEMENT.normal));
                             }
                             if (Input.IsPush(Button._B) && this.parent.nowscene != SceneBattle.BATTLESCENE.end)
                             {
@@ -1137,7 +1138,7 @@ namespace NSBattle.Character
                             {
                                 int num = this.style != Player.STYLE.fighter ? busterPower : busterPower * 2;
                                 this.PluspointFighter(2);
-                                this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X, this.position.Y, this.union, !this.badstatus[1] ? num : num / 2, BustorShot.SHOT.bustor, ChipBase.ELEMENT.normal, false, 0));
+                                this.parent.attacks.Add(new BustorShot(this.sound, this.parent, this.position.X, this.position.Y, this.union, !this.badstatus[1] ? num : Math.Max(1, num / 2), BustorShot.SHOT.bustor, ChipBase.ELEMENT.normal, false, 0));
                             }
                             this.canMove = true;
                             break;
