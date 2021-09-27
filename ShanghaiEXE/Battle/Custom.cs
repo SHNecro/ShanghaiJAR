@@ -583,35 +583,30 @@ namespace NSBattle
                     ++this.frame;
                     if (this.frame <= 75)
                         break;
-                    if (this.selectchips > 0)
+
+                    Player.STYLE newTurnStyle;
+                    ChipBase.ELEMENT element;
+                    if (this.styleset)
                     {
-                        Player.STYLE style;
-                        ChipBase.ELEMENT element;
-                        if (this.styleset)
-                        {
-                            style = (Player.STYLE)this.savedata.style[this.style].style;
-                            element = (ChipBase.ELEMENT)this.savedata.style[this.style].element;
-                        }
-                        else
-                        {
-                            style = this.player.style;
-                            element = this.player.Element;
-                        }
-                        if (style == Player.STYLE.wing)
-                        {
-                            this.player.haveChip.Add(new Flyng(this.sound));
-                            ++this.player.numOfChips;
-                        }
+                        newTurnStyle = (Player.STYLE)this.savedata.style[this.style].style;
+                        element = (ChipBase.ELEMENT)this.savedata.style[this.style].element;
                     }
                     else
                     {
-                        if (this.parent.player.style != Player.STYLE.wing)
-                        {
-                            var evade = this.parent.player.haveChip.Where(c => c is Flyng).ToList();
-                            this.parent.player.haveChip.RemoveAll(c => evade.Contains(c));
-                            this.parent.player.numOfChips -= evade.Count;
-                        }
+                        newTurnStyle = this.player.style;
+                        element = this.player.Element;
                     }
+
+                    var evade = this.parent.player.haveChip.Where(c => c is Flyng).ToList();
+                    this.parent.player.haveChip.RemoveAll(c => evade.Contains(c));
+                    this.parent.player.numOfChips -= evade.Count;
+
+                    if (newTurnStyle == Player.STYLE.wing)
+                    {
+                        this.player.haveChip.Add(new Flyng(this.sound));
+                        ++this.player.numOfChips;
+                    }
+
                     ++this.parent.turn;
                     if (this.player.addonSkill[68])
                         ++this.canopenchips;
