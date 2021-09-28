@@ -30,13 +30,13 @@ namespace NSObject
 
         private static Dictionary<ChipBase.ELEMENT, Tuple<Vector2, Color>> ElementTextLocations = new Dictionary<ChipBase.ELEMENT, Tuple<Vector2, Color>>
         {
-            { ChipBase.ELEMENT.normal, Tuple.Create(new Vector2(106, 48 - 18 - 18 + 12), Color.White) },
-            { ChipBase.ELEMENT.heat, Tuple.Create(new Vector2(106 - 28, 48 - 18 + 12), Color.FromArgb(240, 136, 0)) },
-            { ChipBase.ELEMENT.aqua, Tuple.Create(new Vector2(106 - 28, 48 + 18 + 12), Color.FromArgb(88, 128, 248)) },
-            { ChipBase.ELEMENT.eleki, Tuple.Create(new Vector2(106 + 28, 48 + 18 + 12), Color.FromArgb(248, 240, 50)) },
-            { ChipBase.ELEMENT.leaf, Tuple.Create(new Vector2(106 + 28, 48 - 18 + 12), Color.FromArgb(56, 224, 144)) },
-            { ChipBase.ELEMENT.poison, Tuple.Create(new Vector2(106 + 52, 48 + 12), Color.FromArgb(176, 65, 241)) },
-            { ChipBase.ELEMENT.earth, Tuple.Create(new Vector2(106 - 52, 48 + 12), Color.FromArgb(214, 162, 24)) }
+            { ChipBase.ELEMENT.normal, Tuple.Create(new Vector2(106, 48 + 18 + 18), Color.White) },
+            { ChipBase.ELEMENT.heat, Tuple.Create(new Vector2(106 - 28, 48 - 18), Color.FromArgb(240, 136, 0)) },
+            { ChipBase.ELEMENT.aqua, Tuple.Create(new Vector2(106 - 28, 48 + 18), Color.FromArgb(88, 128, 248)) },
+            { ChipBase.ELEMENT.eleki, Tuple.Create(new Vector2(106 + 28, 48 + 18), Color.FromArgb(248, 240, 50)) },
+            { ChipBase.ELEMENT.leaf, Tuple.Create(new Vector2(106 + 28, 48 - 18), Color.FromArgb(56, 224, 144)) },
+            { ChipBase.ELEMENT.poison, Tuple.Create(new Vector2(106 + 52, 48), Color.FromArgb(176, 65, 241)) },
+            { ChipBase.ELEMENT.earth, Tuple.Create(new Vector2(106 - 52, 48), Color.FromArgb(214, 162, 24)) }
         };
 
         private Func<ChipBase.ELEMENT, int> elementAmountFunc;
@@ -124,6 +124,8 @@ namespace NSObject
 
                         foreach (var elementEntry in ElementTextLocations)
                         {
+                            var hidden = elementEntry.Key != ChipBase.ELEMENT.normal && this.elementAmountFunc(elementEntry.Key) <= 0;
+
                             var elementIndicator = new ScreenObjectFade(
                                 this.sound,
                                 this.parent,
@@ -135,6 +137,7 @@ namespace NSObject
                                 false,
                                 () =>
                                 {
+                                    hidden = elementEntry.Key != ChipBase.ELEMENT.normal && this.elementAmountFunc(elementEntry.Key) <= 0;
                                     if (elementEntry.Key == ChipBase.ELEMENT.normal || this.elementAmountFunc(elementEntry.Key) > 0)
                                     {
                                         return Color.Transparent;
@@ -164,6 +167,8 @@ namespace NSObject
                                         hintState = 3;
                                     }
 
+                                    hidden &= hintState == 0;
+                                    
                                     switch (hintState)
                                     {
                                         default:
@@ -194,7 +199,15 @@ namespace NSObject
                                 new Point(5, 2),
                                 0,
                                 false,
-                                Color.White,
+                                () => 
+                                {
+                                    if (hidden)
+                                    {
+                                        return Color.Transparent;
+                                    }
+
+                                    return Color.White;
+                                },
                                 8);
                             this.parent.effects.Add(elementIcon);
                             this.infoText.Add(elementIcon);
@@ -207,7 +220,15 @@ namespace NSObject
                                 new Point(5, 2),
                                 0,
                                 false,
-                                elementEntry.Value.Item2,
+                                () =>
+                                {
+                                    if (hidden)
+                                    {
+                                        return Color.Transparent;
+                                    }
+
+                                    return elementEntry.Value.Item2;
+                                },
                                 8);
                             this.parent.effects.Add(elementText);
                             this.infoText.Add(elementText);
@@ -217,7 +238,7 @@ namespace NSObject
                             this.sound,
                             this.parent,
                             () => ElementTextLocations.Select(kvp => this.elementAmountFunc(kvp.Key)).Sum().ToString(),
-                            new Vector2(106, 48 + 12) + new Vector2(16 + 2 - 1 - 8, 0 - 1),
+                            new Vector2(106, 48) + new Vector2(16 + 2 - 1 - 8, 0 - 1),
                                 new Point(5, 2),
                             0,
                             false,
