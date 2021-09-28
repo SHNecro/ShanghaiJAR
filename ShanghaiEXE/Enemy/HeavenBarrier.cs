@@ -150,7 +150,8 @@ namespace NSEnemy
                     }
                 }
 
-                var attackAdapted = this.controller.unprocessedAttacks.Any(a => a.Item1 == this && a.Item2 == attack.Element);
+                var attackAdapted = (this != this.controller)
+                    && this.controller.unprocessedAttacks.Any(a => a.Item1 == this && a.Item2 == attack.Element);
                 if (!attackAdapted)
                 {
                     var attackDamage = this.lastDamage;
@@ -165,9 +166,14 @@ namespace NSEnemy
 
                     this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
                 }
-                else
+                else if (!this.invincibility)
                 {
                     this.sound.PlaySE(SoundEffect.bound);
+
+                    var effectiveEffect = new WeakPoint(this.sound, this.parent, this.positionDirect, this.position);
+                    effectiveEffect.blackOutObject = true;
+                    this.parent.effects.Add(effectiveEffect);
+
                     this.invincibility = true;
                     this.invincibilitytime = 1;
                     // alpha increases by 15 per tick, if not exact then overflows and wraps around
@@ -182,9 +188,9 @@ namespace NSEnemy
         {
             base.InitAfter();
 
-            if (this.controller == null)
+            var barriers = this.Parent.AllChara().Where(c => c.union == this.union).OfType<HeavenBarrier>();
+            if (this.controller == null && this == barriers.OrderBy(b => b.position.X).ThenBy(b => b.position.Y).First())
             {
-                var barriers = this.Parent.AllChara().Where(c => c.union == this.union).OfType<HeavenBarrier>();
                 this.controller = barriers.Select(b => b.controller).FirstOrDefault(c => c != null) ?? barriers.FirstOrDefault() ?? this;
                 this.controlledBarriers = barriers.ToList();
 
