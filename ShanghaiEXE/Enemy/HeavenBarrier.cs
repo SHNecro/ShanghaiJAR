@@ -657,6 +657,7 @@ namespace NSEnemy
                     {
                         this.damageBuildup[decrementedElement]--;
                     }
+                    this.damageBuildup[ChipBase.ELEMENT.normal] -= Math.Min(decrementedElements.Count, this.damageBuildup[ChipBase.ELEMENT.normal]);
 
                     if (this.waittime % 2 == 0)
                     {
