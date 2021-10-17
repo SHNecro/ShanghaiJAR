@@ -254,44 +254,31 @@ namespace NSEnemy
                         {
                             case 12:
                                 this.nohit = false;
+                                this.Sound.PlaySE(SoundEffect.clincher);
+                                this.counterTiming = true;
+                                this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y, sp));
+                                BombAttack bombAttack = new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 1, this.element);
+                                bombAttack.breaking = true;
+                                this.parent.attacks.Add(bombAttack);
                                 if (!this.StandPanel.Hole)
                                 {
                                     this.ShakeStart(5, 30);
-                                    this.Sound.PlaySE(SoundEffect.clincher);
-                                    this.counterTiming = true;
-                                    this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y, sp));
-                                    BombAttack bombAttack = new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.Power, 1, this.element);
-                                    switch (this.version)
+                                    if (this.version > 1 || this.version == 0)
                                     {
-                                        case 1:
-                                            bombAttack.breaking = true;
-                                            this.parent.attacks.Add(bombAttack);
-                                            break;
-                                        case 2:
-                                            bombAttack.breaking = true;
-                                            this.parent.attacks.Add(bombAttack);
-                                            this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y - 1, sp));
-                                            this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.Power, 1, this.element));
-                                            this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y + 1, sp));
-                                            this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.Power, 1, this.element));
-                                            break;
-                                        default:
-                                            bombAttack.breaking = true;
-                                            this.parent.attacks.Add(bombAttack);
-                                            this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y - 1, sp));
-                                            this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.Power, 1, this.element));
-                                            this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y + 1, sp));
-                                            this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.Power, 1, this.element));
-                                            this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X + 1, this.position.Y, sp));
-                                            this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X + 1, this.position.Y, this.union, this.Power, 1, this.element));
-                                            this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X - 1, this.position.Y, sp));
-                                            this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X - 1, this.position.Y, this.union, this.Power, 1, this.element));
-                                            break;
+                                        this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y - 1, sp));
+                                        this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y - 1, this.union, this.Power, 1, this.element));
+                                        this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X, this.position.Y + 1, sp));
+                                        this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y + 1, this.union, this.Power, 1, this.element));
                                     }
-                                    this.StandPanel.Crack();
-                                    break;
+                                    if (this.version > 2 || this.version == 0)
+                                    {
+                                        this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X + 1, this.position.Y, sp));
+                                        this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X + 1, this.position.Y, this.union, this.Power, 1, this.element));
+                                        this.parent.effects.Add(new Water(this.sound, this.parent, this.position.X - 1, this.position.Y, sp));
+                                        this.parent.attacks.Add(new BombAttack(this.sound, this.parent, this.position.X - 1, this.position.Y, this.union, this.Power, 1, this.element));
+                                    }
                                 }
-                                this.effecting = false;
+                                this.StandPanel.Crack();
                                 break;
                             case 20:
                                 this.counterTiming = false;
