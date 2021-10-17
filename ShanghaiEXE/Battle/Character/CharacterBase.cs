@@ -1425,15 +1425,25 @@ namespace NSBattle.Character
                     this.mastorcolor = this.badstatustime[6] % 3 != 0 ? color : Color.FromArgb(byte.MaxValue, 160, 100, 50);
                 }
             }
-            if (this.badstatus[7] && this.badstatustime[6] <= 0)
+            if (this.badstatus[7])
             {
-                if (this.badstatustime[7] == 0)
+                var nonSandPit = this.badstatustime[6] <= 0;
+                var forceEndSandPit = this.StandPanel.State != Panel.PANEL._sand;
+                if (!nonSandPit && forceEndSandPit)
                 {
-                    this.badstatus[7] = false;
-                    this.mastorcolor = color;
+                    this.badstatustime[7] = 0;
                 }
-                else if (this.badstatustime[7] > 0)
-                    --this.badstatustime[7];
+
+                if (forceEndSandPit || nonSandPit)
+                {
+                    if (this.badstatustime[7] == 0)
+                    {
+                        this.badstatus[7] = false;
+                        this.mastorcolor = color;
+                    }
+                    else if (this.badstatustime[7] > 0)
+                        --this.badstatustime[7];
+                }
             }
             if (this.badstatus[8])
             {
