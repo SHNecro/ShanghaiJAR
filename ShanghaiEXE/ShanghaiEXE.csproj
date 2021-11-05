@@ -353,7 +353,6 @@
     <None Include="Sounds\Music\VSnavi.ogg" />
     <None Include="Sounds\Music\VSvirus.ogg" />
     <None Include="Sounds\Music\whiteheavenarea.ogg" />
-    <None Include="UPnPControlPoint.cs" />
     <None Include="SampleGame\SlimDX.cs" />
     <Compile Include="AddOn\Mammon.cs" />
     <Compile Include="AddOn\Sacrifice.cs" />
