@@ -1432,7 +1432,8 @@ namespace NSGame
                 {
                     File.Copy(SavePath, BackupPath, true);
                 }
-                File.Move(SavePathTemp, SavePath);
+                File.Copy(SavePathTemp, SavePath, true);
+                File.Delete(SavePathTemp);
             }
 
             this.saveEnd = true;
