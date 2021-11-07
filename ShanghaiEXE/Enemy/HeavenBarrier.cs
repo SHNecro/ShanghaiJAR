@@ -192,18 +192,18 @@ namespace NSEnemy
             if (this.controller == null && this == barriers.OrderBy(b => b.position.X).ThenBy(b => b.position.Y).First())
             {
                 this.controller = barriers.Select(b => b.controller).FirstOrDefault(c => c != null) ?? barriers.FirstOrDefault() ?? this;
-                this.controlledBarriers = barriers.ToList();
+                this.controller.controlledBarriers = barriers.ToList();
 
                 var newDeathOrder = 0;
-                this.controlledBarriers.ForEach(c => 
+                this.controller.controlledBarriers.ForEach(c => 
                 {
                     c.controller = this.controller;
-                    this.totalHp += c.Hp;
+                    this.controller.totalHp += c.Hp;
                     c.Hp = 99999;
                     c.deathOrder = newDeathOrder++;
                 });
                 
-                this.damageBuildup = new Dictionary<ChipBase.ELEMENT, int>
+                this.controller.damageBuildup = new Dictionary<ChipBase.ELEMENT, int>
                 {
                     { ChipBase.ELEMENT.normal, 0 },
                     { ChipBase.ELEMENT.heat, 0 },
@@ -213,12 +213,12 @@ namespace NSEnemy
                     { ChipBase.ELEMENT.poison, 0 },
                     { ChipBase.ELEMENT.earth, 0 }
                 };
-                this.unprocessedAttacks = new List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>>();
+                this.controller.unprocessedAttacks = new List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>>();
 
-                this.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.damageBuildup[elem]);
-                this.parent.objects.Add(this.infoPanel);
+                this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.controller.damageBuildup[elem]);
+                this.controller.parent.objects.Add(this.controller.infoPanel);
 
-                this.blackOutObject = true;
+                this.controller.blackOutObject = true;
             }
         }
 

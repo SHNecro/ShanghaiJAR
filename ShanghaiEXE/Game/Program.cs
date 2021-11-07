@@ -24,10 +24,11 @@ namespace NSGame
                         form.MainLoop();
                 }
             }
-            catch (Exception e)
+            catch (Exception e) when (!System.Diagnostics.Debugger.IsAttached)
             {
                 var messageText = e.ToString();
                 MessageBox.Show(messageText, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
             }
         }
     }
