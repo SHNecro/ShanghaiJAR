@@ -20,6 +20,7 @@ namespace NSGame
     public class SaveData
     {
         const string SavePath = "save.she";
+        const string SavePathTemp = "save.she.tmp";
         const string BackupPath = "save.she.bak";
 
         public static int decCount = 0;
@@ -1091,11 +1092,6 @@ namespace NSGame
 
         public void SaveFile(Form parent = null)
         {
-            if (File.Exists(SavePath))
-            {
-                File.Copy(SavePath, BackupPath, true);
-            }
-
             var streamWriter = default(StreamWriter);
             var saveFailed = false;
 
@@ -1115,7 +1111,7 @@ namespace NSGame
                 this.chipThread.Start();
                 this.saveEnd = false;
                 StringBuilder stringBuilder = new StringBuilder();
-                streamWriter = new StreamWriter(SavePath, false, Encoding.GetEncoding("Shift_JIS"));
+                streamWriter = new StreamWriter(SavePathTemp, false, Encoding.GetEncoding("Shift_JIS"));
                 StringBuilder sourceString1 = new StringBuilder();
                 foreach (string addonName in this.addonNames)
                     sourceString1.Append(addonName + "@");
@@ -1429,6 +1425,14 @@ namespace NSGame
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);
                 }));
+            }
+            else
+            {
+                if (File.Exists(SavePath))
+                {
+                    File.Copy(SavePath, BackupPath, true);
+                }
+                File.Move(SavePathTemp, SavePath);
             }
 
             this.saveEnd = true;
