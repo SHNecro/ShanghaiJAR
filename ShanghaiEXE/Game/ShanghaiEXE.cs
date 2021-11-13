@@ -642,8 +642,11 @@ namespace NSGame
                 this.dg.Dispose();
                 this.ad.Dispose();
             }
-            catch { }
-            Application.Exit();
+            catch
+            {
+                Environment.Exit(1);
+            }
+            Environment.Exit(0);
         }
 
         protected override void OnKeyDown(KeyEventArgs e)
@@ -701,8 +704,11 @@ namespace NSGame
                 this.ad.Dispose();
                 this.loading.Close();
             }
-            catch { }
-            Application.Exit();
+            catch
+            {
+                Environment.Exit(1);
+            }
+            Environment.Exit(0);
         }
 
         protected override void Dispose(bool disposing)
