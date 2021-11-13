@@ -68,7 +68,7 @@ namespace NSEnemy
             this.picturename = "woojow";
             this.race = EnemyBase.ENEMY.virus;
             this.element = ChipBase.ELEMENT.leaf;
-            this.Flying = false;
+            this.Flying = true;
             this.wide = 40;
             this.height = 64;
             this.hpmax = this.hp;
