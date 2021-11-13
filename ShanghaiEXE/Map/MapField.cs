@@ -15,8 +15,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Common.EncodeDecode;
-using NSShanghaiEXE.ExtensionMethods;
-using NSShanghaiEXE.InputOutput.Rendering.OpenGL;
+using NSShanghaiEXE.Map;
 
 namespace NSMap
 {
@@ -31,7 +30,7 @@ namespace NSMap
         private readonly List<MapEventBase> masterList = new List<MapEventBase>();
         public string saveBGM;
         private readonly string[] graphicName;
-        private readonly byte[,,] map;
+        private readonly UnboundedMap map;
         private Rectangle rect;
         private readonly int height;
         private readonly int rendX;
@@ -54,7 +53,7 @@ namespace NSMap
             }
         }
 
-        public byte[,,] Map_
+        public UnboundedMap Map_
         {
             get
             {
@@ -139,7 +138,7 @@ namespace NSMap
             this.rect = new Rectangle(0, 0, int.Parse(strArray1[4]), int.Parse(strArray1[5]));
             save.plase = ShanghaiEXE.Translate(strArray1[6]);
             this.height = int.Parse(strArray1[7]);
-            this.map = new byte[length3, length1, length2];
+            this.map = new UnboundedMap(new byte[length3, length1, length2]);
             this.backNo = int.Parse(strArray1[9]);
             this.back = BackgroundBase.BackMake(this.backNo);
             this.encountCap[0] = int.Parse(strArray1[10]);
