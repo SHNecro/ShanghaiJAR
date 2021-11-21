@@ -638,7 +638,7 @@ namespace NSGame
             var retconMessages = new List<Dialogue>();
 
             // 0 : unmodified, fix hospital event incident BGM not cleared.
-            if (this.ValList[199] == 0)
+            if (this.ValList[199] <= 0)
             {
                 // If hospital event complete, the postgame hasn't started, and endgame robots aren't out 
                 if (this.ValList[14] != 0 && this.FlagList[744] && !this.FlagList[791] && this.ValList[10] != 7)
@@ -646,12 +646,11 @@ namespace NSGame
                     this.ValList[14] = 0;
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0503HospitalEmergencyMusic"));
                 }
-                this.ValList[199] = 1;
             }
 
             // 1: 0.550, fix chip ID issues, add illegal chips to library (only recordkeeping), set new hint message
             // Refund duplicate addons
-            if (this.ValList[199] == 1)
+            if (this.ValList[199] <= 1)
             {
                 var replacements = new[]
                 {
@@ -922,11 +921,9 @@ namespace NSGame
                 {
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550Lloyd"));
                 }
-
-                this.ValList[199] = 2;
             }
 
-            if (this.ValList[199] == 2)
+            if (this.ValList[199] <= 2)
             {
                 // Shift City BBS ids up by 3 for new entries
                 var cityBbsEntries = this.bbsRead.GetLength(1);
@@ -949,11 +946,9 @@ namespace NSGame
                 //    retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550HeavenWIP2"));
                 //    this.FlagList[900] = true;
                 //}
-
-                this.ValList[199] = 3;
             }
 
-            if (this.ValList[199] == 3)
+            if (this.ValList[199] <= 3)
             {
                 var reAddedAddOns = new List<string>();
 
@@ -977,12 +972,10 @@ namespace NSGame
                     reAddDialogue.Text += string.Join("，", reAddedAddOns);
                     retconMessages.Add(reAddDialogue);
                 }
-
-                this.ValList[199] = 4;
             }
 
             // WIP9
-            if (this.ValList[199] == 4)
+            if (this.ValList[199] <= 4)
             {
                 // Replace new addons
                 var hasFriendship = this.haveAddon.Any(ao => ao is Sacrifice);
@@ -1023,12 +1016,10 @@ namespace NSGame
                     this.FlagList[800] = true;
                     retconMessages.Add(ShanghaiEXE.Translate("Retcon.0550CrimDexEnabled"));
                 }
-
-                this.ValList[199] = 5;
             }
 
             // WIP10
-            if (this.ValList[199] == 5)
+            if (this.ValList[199] <= 5)
             {
                 // Reset flag accidentally left on after cutscene
                 // Flag13 should only be active during automatically-progressing cutscenes, no savegame should have it set legitimately
@@ -1082,11 +1073,20 @@ namespace NSGame
 
                 // Unset WIP message shown flag
                 this.FlagList[900] = false;
-
-                this.ValList[199] = 6;
             }
+
+            // WIP14
+            if (this.ValList[199] <= 6)
+            {
+                // Remove duplicate keys (only if door opened)
+                if (this.keyitem.Count(ki => ki == 26) >= 2)
+                {
+                    this.keyitem.RemoveAll(ki => ki == 26);
+                }
+            }
+
             // Set var to "current save version"
-            this.ValList[199] = 6;
+            this.ValList[199] = 7;
             return retconMessages;
         }
 
