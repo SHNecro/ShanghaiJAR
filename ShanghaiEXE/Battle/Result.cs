@@ -361,7 +361,7 @@ namespace NSBattle
                     }
                     if (flag)
                     {
-                        if (this.savedata.manybattle < 50 || !this.savedata.FlagList[5] || this.savedata.FlagList[0])
+                        if (this.savedata.manybattle < stylechange || !this.savedata.FlagList[5] || this.savedata.FlagList[0])
                         {
                             this.scene = Result.RESULT.end;
                         }

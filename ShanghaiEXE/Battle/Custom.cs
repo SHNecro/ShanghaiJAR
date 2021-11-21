@@ -603,8 +603,8 @@ namespace NSBattle
 
                     if (newTurnStyle == Player.STYLE.wing)
                     {
-                        this.player.haveChip.Add(new Flyng(this.sound));
-                        ++this.player.numOfChips;
+                        this.parent.player.haveChip.Add(new Flyng(this.sound));
+                        ++this.parent.player.numOfChips;
                     }
 
                     ++this.parent.turn;

@@ -88,9 +88,12 @@ namespace NSAttack
             {
                 Player character = (Player)this.character;
                 ChipFolder chipFolder = new ChipFolder(this.sound);
-                character.haveChip.Insert(0, chipFolder.ReturnChip(p.haveChip[0].number));
-                ++character.numOfChips;
-                character.haveChip.RemoveAll(a => a == null);
+                if (p.haveChip[0] != null)
+                {
+                    character.haveChip.Insert(0, chipFolder.ReturnChip(p.haveChip[0].number));
+                    ++character.numOfChips;
+                    character.haveChip.RemoveAll(a => a == null);
+                }
             }
             p.LossChip();
             this.get = true;
