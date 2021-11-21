@@ -605,6 +605,7 @@ namespace NSBattle
                     {
                         this.parent.player.haveChip.Add(new Flyng(this.sound));
                         ++this.parent.player.numOfChips;
+                        player.haveChip.RemoveAll(a => a == null);
                     }
 
                     ++this.parent.turn;
