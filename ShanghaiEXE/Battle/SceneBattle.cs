@@ -764,6 +764,7 @@ namespace NSBattle
             }
         }
 
+        // TODO: Figure out if this can be removed safely
         public void ResetPlayerChips()
         {
             foreach (var data in this.player.haveChip.Select((v, i) => new

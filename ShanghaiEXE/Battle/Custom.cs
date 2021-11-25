@@ -259,6 +259,8 @@ namespace NSBattle
                             this.parent.eventmanager.AddEvent(new CommandMessage(this.sound, this.parent.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedata));
                             this.parent.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.parent.eventmanager));
                             this.escapeV += 50;
+
+                            this.selectchips = 0;
                         }
                         this.escape = false;
                     }
