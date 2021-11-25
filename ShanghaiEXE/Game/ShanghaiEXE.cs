@@ -314,7 +314,6 @@ namespace NSGame
                 }
                 this.ControlBox = false;
                 this.Text = String.Empty;
-                this.FormBorderStyle = FormBorderStyle.None;
             }
 
             this.volBGM = (float)ShanghaiEXE.Config.VolumeBGM;
@@ -334,8 +333,7 @@ namespace NSGame
             }
 
             ShanghaiEXE.Config.ToXML("option.xml");
-
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            
             this.Closing += new CancelEventHandler(this.Game_Closing);
             this.MaximizeBox = false;
             this.SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer, true);
