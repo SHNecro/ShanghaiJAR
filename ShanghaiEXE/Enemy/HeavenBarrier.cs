@@ -327,6 +327,7 @@ namespace NSEnemy
                                 c.state = MOTION.RetaliatingChargeUp;
                                 c.waittime = 0;
                             });
+                            this.infoPanel.AllowedToBreak = true;
                             this.infoPanel.Break();
 
                             var cancelledElements = this.damageBuildup.ToDictionary(kvp => kvp.Key, kvp => 0);

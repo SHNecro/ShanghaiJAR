@@ -82,9 +82,11 @@ namespace NSObject
 
         public bool? ForcedShowState { get; set; }
 
+        public bool AllowedToBreak { get; set; }
+
         public override void Updata()
         {
-            if (!breaking)
+            if (!this.breaking)
             {
                 this.hp = 99999;
                 if (this.moveflame)
@@ -283,6 +285,11 @@ namespace NSObject
 
         public override void Break()
         {
+            if (!this.AllowedToBreak)
+            {
+                return;
+            }
+
             this.frame = 0;
             this.breaking = true;
 
