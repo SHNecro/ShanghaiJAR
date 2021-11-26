@@ -215,7 +215,11 @@ namespace NSEnemy
                 };
                 this.controller.unprocessedAttacks = new List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>>();
 
-                this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.controller.damageBuildup[elem]);
+                var infoPositionX = !this.parent.panel[0, 1].Hole && this.parent.panel[0, 1].state != Panel.PANEL._un
+                    ? 0 : 1;
+                var infoPositionY = !this.parent.panel[0, 1].Hole && this.parent.panel[0, 1].state != Panel.PANEL._un
+                    ? 1 : 2;
+                this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, infoPositionX, infoPositionY, elem => this.controller.damageBuildup[elem]);
                 this.controller.parent.objects.Add(this.controller.infoPanel);
 
                 this.controller.blackOutObject = true;
@@ -619,10 +623,15 @@ namespace NSEnemy
                             panel.State = Panel.PANEL._nomal;
                             this.parent.effects.Add(new Smoke(this.sound, this.parent, panelPos.X, panelPos.Y, panel.Element));
                             break;
+                        case Panel.PANEL._break:
+                            if (this.controlledBarriers.Any(c => c.position == panelPos))
+                            {
+                                panel.state = Panel.PANEL._crack;
+                            }
+                            break;
                         case Panel.PANEL._grass:
                         case Panel.PANEL._ice:
                         case Panel.PANEL._crack:
-                        case Panel.PANEL._break:
                         case Panel.PANEL._nomal:
                         case Panel.PANEL._none:
                         case Panel.PANEL._un:
