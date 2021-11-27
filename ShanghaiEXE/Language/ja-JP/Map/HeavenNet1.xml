@@ -124,4 +124,5 @@
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckSuccess" Value="[TITLE DETECTED:,HEALER OF 5000 WOUNDS]" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckFailure" Value="[TITLE NOT FOUND:,HEALER OF 5000 WOUNDS]" Face="None" Mono="False" />
   <Text Key="Map.HeavenNet1GhostEnemyName" Value="????" />
+  <Dialogue Key="Map.HeavenNet1Barrier1EscapeDialogue1" Value="[Hmph. Looks like the barriers,are regenerating.,We’ll get ’em next time， Alice.]" Face="Shanghai" Mono="False" />
 </data>

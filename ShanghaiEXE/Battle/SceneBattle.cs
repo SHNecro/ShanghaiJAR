@@ -609,7 +609,7 @@ namespace NSBattle
         {
             this.main.FolderReset();
             this.nowscene = SceneBattle.BATTLESCENE.end;
-            this.savedata.FlagList[6] = true;
+            this.savedata.FlagList[6] = !escape;
             this.player.chargeTime = 0;
             this.player.chargeMax = false;
             this.player.charge = false;

@@ -18,6 +18,8 @@ namespace NSEnemy
 {
     internal class HeavenBarrier : EnemyBase
     {
+        private const int ArbitraryLargeValue = 99999;
+
         private static readonly Rectangle SparkleTextureRect = new Rectangle(450, 780, 5, 5);
         private static readonly Rectangle DamageBlobTextureRect = new Rectangle(200, 160, 9, 9);
 
@@ -90,8 +92,8 @@ namespace NSEnemy
             this.dropchips[4].chip = new Reygun(this.sound);
             this.dropchips[4].codeNo = 3;
 
-            this.hpmax = 99999;
-            this.hpprint = 99999;
+            this.hpmax = ArbitraryLargeValue;
+            this.hpprint = ArbitraryLargeValue;
             this.neutlal = true;
             this.badstatusresist = true;
 
@@ -199,7 +201,7 @@ namespace NSEnemy
                 {
                     c.controller = this.controller;
                     this.controller.totalHp += c.Hp;
-                    c.Hp = 99999;
+                    c.Hp = ArbitraryLargeValue;
                     c.deathOrder = newDeathOrder++;
                 });
                 
@@ -223,6 +225,8 @@ namespace NSEnemy
                 this.controller.parent.objects.Add(this.controller.infoPanel);
 
                 this.controller.blackOutObject = true;
+
+                this.parent.custom.escapeV = ArbitraryLargeValue;
             }
         }
 
@@ -471,10 +475,12 @@ namespace NSEnemy
                         this.waittime = 0;
 
                         this.invincibility = true;
-                        this.invincibilitytime = 99999999;
+                        this.invincibilitytime = ArbitraryLargeValue;
                     }
                     break;
                 case MOTION.Retaliating:
+                    // Prevent fleeing after retaliation starts
+                    // this.parent.custom.escapeV = -ArbitraryLargeValue;
                     this.animationpoint = new Point(1, 1);
 
                     if (this.controller == this)
