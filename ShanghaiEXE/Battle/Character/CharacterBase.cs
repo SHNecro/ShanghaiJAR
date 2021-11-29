@@ -1036,33 +1036,14 @@ namespace NSBattle.Character
             return posi;
         }
 
-        protected void AttackMake(int power, int slideX = 0, int slideY = 0)
+        protected virtual void AttackMake(int power, int slideX = 0, int slideY = 0, bool break_ = false)
         {
             if (!this.effecting)
                 return;
-            this.parent.attacks.Add(new EnemyHit(this.sound, this.parent, this.position.X + slideX, this.position.Y + slideY, this.union, power, this.element, this));
-        }
-
-        protected void AttackMake(int power, bool break_)
-        {
-            if (!this.effecting)
-                return;
-            EnemyHit enemyHit = new EnemyHit(this.sound, this.parent, this.position.X, this.position.Y, this.union, power, this.element, this)
+            this.parent.attacks.Add(new EnemyHit(this.sound, this.parent, this.position.X + slideX, this.position.Y + slideY, this.union, power, this.element, this)
             {
                 breaking = break_
-            };
-            this.parent.attacks.Add(enemyHit);
-        }
-
-        protected void AttackMake(int power, int slideX, int slideY, bool break_)
-        {
-            if (!this.effecting)
-                return;
-            EnemyHit enemyHit = new EnemyHit(this.sound, this.parent, this.position.X + slideX, this.position.Y + slideY, this.union, power, this.element, this)
-            {
-                breaking = break_
-            };
-            this.parent.attacks.Add(enemyHit);
+            });
         }
 
         protected void Slip(int graphicHeight)
@@ -1314,7 +1295,8 @@ namespace NSBattle.Character
                 this.union = attackunion;
             if (!this.Noslip)
             {
-                this.slipdirecsion = attackunion != Panel.COLOR.blue ? (!push ? CharacterBase.DIRECTION.left : CharacterBase.DIRECTION.right) : (!push ? CharacterBase.DIRECTION.right : CharacterBase.DIRECTION.left);
+                // red: right, blue: left, flip on pulling (not pushing)
+                this.slipdirecsion = (attackunion == Panel.COLOR.red ^ !push) ? CharacterBase.DIRECTION.right : CharacterBase.DIRECTION.left;
                 if (this.CanSlip(this.slipdirecsion))
                 {
                     this.slipping = true;

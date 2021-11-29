@@ -27,9 +27,10 @@ namespace NSObject
             this.height = 48;
             this.wide = 32;
             this.hp = HP;
-            this.hitPower = 0;
+            this.element = ChipBase.ELEMENT.leaf;
+            this.hitPower = 100;
             this.hpmax = this.hp;
-            this.unionhit = false;
+            this.unionhit = true;
             this.overslip = true;
             this.time = time;
             this.rebirth = union == Panel.COLOR.blue;
@@ -93,6 +94,11 @@ namespace NSObject
             double num2 = y1 + y2;
             this._position = new Vector2((float)num1, (float)num2);
             dg.DrawImage(dg, "objects1", this._rect, false, this._position, this.rebirth, Color.White);
+        }
+
+        protected override void AttackMake(int power, int slideX = 0, int slideY = 0, bool break_ = false)
+        {
+            base.AttackMake(power, slideX, slideY, false);
         }
     }
 }
