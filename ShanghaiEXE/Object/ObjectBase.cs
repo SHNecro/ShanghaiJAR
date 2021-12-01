@@ -49,7 +49,7 @@ namespace NSObject
                     this.effecting = false;
             }
             if (this.effecting && this.nohit && this.slipping)
-                this.AttackMake(this.hitPower, 0, 0, true);
+                this.AttackMake(this.hitPower, true);
             this.hit = false;
             base.Updata();
         }

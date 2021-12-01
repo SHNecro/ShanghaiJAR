@@ -469,9 +469,9 @@ namespace NSEnemy
                         if (positionDirect.X >= 0.0 && positionDirect.X <= 240.0)
                         {
                             this.nohit = false;
-                            this.AttackMake(this.Power, 0, 0, true);
-                            this.AttackMake(this.Power, 0, -1);
-                            this.AttackMake(this.Power, 0, 1);
+                            this.AttackMake(this.Power, true);
+                            this.AttackMake(this.Power, 0, -1, false);
+                            this.AttackMake(this.Power, 0, 1, false);
                         }
                         else
                             this.nohit = true;
