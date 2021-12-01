@@ -29,7 +29,8 @@ namespace NSObject
             this.hp = HP;
             this.hitPower = 0;
             this.hpmax = this.hp;
-            this.unionhit = false;
+            this.unionhit = true;
+            this.noslip = true;
             this.overslip = true;
             this.time = time;
             this.rebirth = union == Panel.COLOR.blue;
