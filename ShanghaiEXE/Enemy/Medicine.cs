@@ -410,7 +410,6 @@ namespace NSEnemy
                 this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 this.suzu[0] = new SuzuranWhite(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
-                this.suzu[0].unionhit = false;
                 this.parent.objects.Add(this.suzu[0]);
             }
             else
@@ -424,7 +423,6 @@ namespace NSEnemy
                 this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 ObjectBase objectBase = new SuzuranWhite(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
-                objectBase.unionhit = false;
                 objectBase.Hp = 10 * version;
                 this.suzu[0] = objectBase;
                 this.parent.objects.Add(this.suzu[0]);
@@ -442,7 +440,6 @@ namespace NSEnemy
                 this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 ObjectBase objectBase = new SuzuranBlue(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
-                objectBase.unionhit = false;
                 objectBase.Hp = 10 * version;
                 this.suzu[1] = objectBase;
                 this.parent.objects.Add(this.suzu[1]);
@@ -458,7 +455,6 @@ namespace NSEnemy
                 this.sound.PlaySE(SoundEffect.enterenemy);
                 this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, positionre.X, positionre.Y));
                 ObjectBase objectBase = new SuzuranBlue(this.sound, this.parent, positionre.X, positionre.Y, this.union, 10 * version, 180);
-                objectBase.unionhit = false;
                 objectBase.Hp = 10 * version;
                 this.suzu[1] = objectBase;
                 this.parent.objects.Add(this.suzu[1]);
