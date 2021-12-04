@@ -1088,6 +1088,7 @@ namespace NSGame
                 if (this.ValList[10] >= 8)
                 {
                     this.interiors.Add(new Interior(51, 106, 186, true, false));
+                    this.FlagList[465] = true;
                 }
             }
 

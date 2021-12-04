@@ -23,6 +23,8 @@ namespace MapEditor.Models.Elements.Enums
         [Description("ErrFrag")]
         ErrFrag = 7,
         [Description("Zenny/Text")]
-        Zenny = 8
+        Zenny = 8,
+        [Description("Interior")]
+        Interior = 9
     }
 }
