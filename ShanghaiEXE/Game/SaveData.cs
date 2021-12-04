@@ -1083,6 +1083,12 @@ namespace NSGame
                 {
                     this.keyitem.RemoveAll(ki => ki == 26);
                 }
+
+                // Replace demo room with interior
+                if (this.ValList[10] >= 8)
+                {
+                    this.interiors.Add(new Interior(51, 106, 186, true, false));
+                }
             }
 
             // Set var to "current save version"

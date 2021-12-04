@@ -969,18 +969,23 @@ event:
 warp:alicesHP:81:225:0:3
 end
 
-ID:おまけワープ
+ID:InteriorItem52
 position:106:186:0
 page:1
 startterms:Touch
 type:0
-terms:variable/10/False/0/8
+terms:none
 move:
 speed:10
 graphic:-2:256,48,80,48,6
 hitrange:5:0:0:0
 hitform:circle
 event:
+editValue:7:False:0:5:0
+editValue:7:False:2:0:0
+editValue:15:False:0:5:1
+editValue:15:False:2:0:0
+editValue:42:False:0:6:
 warp:exOmake:105:105:0:3
 end
 
