@@ -95,6 +95,7 @@
   <!-- 二段ダンボール -->
   <Text Key="Interior.Item51" Value="二段ダンボール" />
   <Text Key="Interior.Item52" Value="[DemoRoom]" />
+  <Text Key="Interior.Item53" Value="[DebugRoom]" />
   <Text Key="NumberSet.SetNumberFormat" Value="{0},,（上下または数字キーで数字変更）" />
   <Text Key="MysteryItem.BattleChipText" Value="バトルチップ" />
   <Text Key="MysteryItem.SubChipText" Value="サブチップ" />

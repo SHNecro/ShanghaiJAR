@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.DebugRoom1Name" Value="[Debug Room]" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue1" Value="[This room contains content,either in development，not,available normally， or even]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue2" Value="[made just to test various ideas.,Please keep in mind that bugs,or balance issues may result.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue3" Value="[Some fights may also interact,oddly with Hardmode or other,rank modifiers. Have fun!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1RankQuestion" Value="[Custom Rank:]" Face="SoundOnly" Mono="False" />
+  <Text Key="Map.DebugRoom1RanksV1" Value="ＵＰ　　　　 ,Ｖ１　　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksV2" Value="ＵＰ　　　　 ,Ｖ２　　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksV3" Value="ＵＰ　　　　 ,Ｖ３　　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksEX" Value="ＵＰ　　　　 ,ＥＸ　　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksSP" Value="ＵＰ　　　　 ,ＳＰ　　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksSP2" Value="ＵＰ　　　　 ,ＳＰ２　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksSP3" Value="ＵＰ　　　　 ,ＳＰ３　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksSP4" Value="ＵＰ　　　　 ,ＳＰ４　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksSP5" Value="ＵＰ　　　　 ,ＳＰ５　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Text Key="Map.DebugRoom1RanksHM" Value="ＵＰ　　　　 ,ＨＭ　　　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
+  <Dialogue Key="Map.DebugRoom1CirnoQuestion" Value="[Cirno Battle Test]" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1PyroManQuestion" Value="[PyroMan Battle Test]" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MurasaQuestion" Value="[Murasa Battle Test]" Face="Murasa" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1ScissorManQuestion" Value="[ScissorMan Battle Test]" Face="ScissorMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1ChenQuestion" Value="[Chen Battle Test]" Face="Chen" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1DruidManQuestion" Value="[DruidMan Battle Test]" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MarisaQuestion" Value="[Marisa Battle Test]" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1SakuyaQuestion" Value="[Sakuya Battle Test]" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1TankManQuestion" Value="[TankMan Battle Test]" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1SpannerManQuestion" Value="[SpannerMan Battle Test]" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1HakuTakuManQuestion" Value="[HakuTakuMan Battle Test]" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1TortoiseManQuestion" Value="[TortoiseMan Battle Test]" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1BeetleManQuestion" Value="[BeetleMan Battle Test]" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1YorihimeQuestion" Value="[Yorihime Battle Test]" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MedicineQuestion" Value="[Medicine Battle Test]" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1IkuQuestion" Value="[Iku Battle Test]" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1RanQuestion" Value="[Ran Battle Test]" Face="Ran" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1YoumuQuestion" Value="[Youmu Battle Test]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1YuyukoQuestion" Value="[Yuyuko Battle Test]" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1KikuriQuestion" Value="[Kikuri Battle Test]" Face="KikuriCombat" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1RanChenQuestion" Value="[Ran+Chen Battle Test]" Face="Ran" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MimaQuestion" Value="[Mima Battle Test]" Face="Mima" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1FlandreQuestion" Value="[Flandre Battle Test]" Face="FlandreAngry" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1UtsuhoQuestion" Value="[Utsuho Battle Test]" Face="UtsuhoDark" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MadManQuestion" Value="[MadMan Battle Test]" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1BlockerQuestion" Value="[Blocker Battle Test]" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1ShanghaiDSQuestion" Value="[ShanghaiDS Battle Test]" Face="Shanghai" Mono="False" />
+  <Text Key="Map.DebugRoom1StartCancel" Value="Start,Cancel" />
+</data>

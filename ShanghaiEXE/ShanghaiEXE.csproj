@@ -171,6 +171,8 @@
     <None Include="MapData\Cruiser3g.shd" />
     <None Include="MapData\cycle.shd" />
     <None Include="MapData\dami.shd" />
+    <None Include="MapData\debugroom1.shd" />
+    <None Include="MapData\deepura1.shd" />
     <None Include="MapData\eienHighSchoolHP.shd" />
     <None Include="MapData\eienNet1.shd" />
     <None Include="MapData\eienNet2.shd" />
@@ -1387,6 +1389,7 @@
     <Content Include="Graphics\charachip21.png" />
     <Content Include="Graphics\chipgraphic23.png" />
     <Content Include="Graphics\chipicone.png" />
+    <Content Include="Graphics\debugroom1f1.png" />
     <Content Include="Graphics\deepura1f1.png" />
     <Content Include="Graphics\deepuranet.png" />
     <Content Include="Graphics\druidman.png" />
@@ -1428,9 +1431,13 @@
     <Content Include="Data\data\Messages\UNKNOWN2.xml" />
     <Content Include="Data\data\Messages\UNKNOWN3.xml" />
     <Content Include="Language\en-US\Credits.xml" />
+    <Content Include="Language\en-US\Map\DebugRoom1.xml" />
+    <Content Include="Language\en-US\Map\DeepUra1.xml" />
     <Content Include="Language\en-US\Map\Piano.xml" />
     <Content Include="Language\en-US\Map\UraNet11.xml" />
     <Content Include="Language\ja-JP\Credits.xml" />
+    <Content Include="Language\ja-JP\Map\DebugRoom1.xml" />
+    <Content Include="Language\ja-JP\Map\DeepUra1.xml" />
     <Content Include="Language\ja-JP\Map\Piano.xml" />
     <Content Include="Language\ja-JP\Map\UraNet11.xml" />
     <Content Include="ShanghaiEXE\Files\README-OLD.txt" />
