@@ -36,7 +36,7 @@ namespace NSEnemy
         private bool isPerfectKill;
         private Color textColor;
         private BarrierInfoPanel infoPanel;
-        private DammyChip blackoutAdaptChip;
+        private ChipBase blackoutAdaptChip;
         // Inherent problem w/ timestop counter, ongoing effects continue (ex. masterspark)
         private int? preAdaptWaitTime;
 
@@ -44,6 +44,8 @@ namespace NSEnemy
         private Color overlayColor;
         private int lastDamage;
         private int deathOrder;
+        private bool blackoutSimulhitPossible;
+        private bool blackoutBuildupInterrupted;
 
         private Action retaliateTickAction;
 
@@ -136,25 +138,38 @@ namespace NSEnemy
 
             if (this.state == MOTION.Absorbing)
             {
-                if (this.controller == this)
+                if (this.parent.blackOut && this.controller.blackoutAdaptChip == null && this.controller.preAdaptWaitTime == null)
                 {
-                    if (this.parent.blackOut && this.blackoutAdaptChip == null && this.preAdaptWaitTime == null)
+                    foreach (CharacterBase characterBase in this.parent.AllChara())
                     {
-                        foreach (CharacterBase characterBase in parent.AllChara())
-                        {
-                            if (characterBase.number == parent.blackOutChips[0].userNum)
-                                this.preAdaptWaitTime = characterBase.waittime;
-                        }
+                        if (characterBase.number == parent.blackOutChips[0].userNum)
+                            this.controller.preAdaptWaitTime = characterBase.waittime;
+                    }
 
-                        this.blackoutAdaptChip = new DammyChip(this.sound);
-                        var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
-                        this.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
+                    this.controller.blackoutAdaptChip = new DammyChip(this.sound);
+                    var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
+                    this.controller.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
+                }
+
+                if (this.parent.blackOut)
+                {
+                    if (!this.controller.controlledBarriers.Any(b => b.blackOutObject))
+                    {
+                        this.blackOutObject = true;
+
+                        foreach (var b in this.controller.controlledBarriers)
+                        {
+                            if (b == this)
+                            {
+                                continue;
+                            }
+
+                            b.blackoutSimulhitPossible = true;
+                        }
                     }
                 }
 
-                var attackAdapted = (this != this.controller)
-                    && this.controller.unprocessedAttacks.Any(a => a.Item1 == this && a.Item2 == attack.Element);
-                if (!attackAdapted)
+                if (!this.parent.blackOut || this.blackOutObject || this.blackoutSimulhitPossible)
                 {
                     var attackDamage = this.lastDamage;
                     if (attackDamage == -1)
@@ -168,18 +183,10 @@ namespace NSEnemy
 
                     this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
                 }
-                else if (!this.invincibility)
+                else if (this.parent.blackOut)
                 {
-                    this.sound.PlaySE(SoundEffect.bound);
-
-                    var effectiveEffect = new WeakPoint(this.sound, this.parent, this.positionDirect, this.position);
-                    effectiveEffect.blackOutObject = true;
-                    this.parent.effects.Add(effectiveEffect);
-
-                    this.invincibility = true;
-                    this.invincibilitytime = 1;
-                    // alpha increases by 15 per tick, if not exact then overflows and wraps around
-                    this.alfha = byte.MaxValue - (15 * 8);
+                    // TODO: Effects
+                    this.blackoutBuildupInterrupted = true;
                 }
 
                 this.lastDamage = -1;
@@ -224,8 +231,6 @@ namespace NSEnemy
                 this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, infoPositionX, infoPositionY, elem => this.controller.damageBuildup[elem]);
                 this.controller.parent.objects.Add(this.controller.infoPanel);
 
-                this.controller.blackOutObject = true;
-
                 this.parent.custom.escapeV = ArbitraryLargeValue;
             }
         }
@@ -245,22 +250,43 @@ namespace NSEnemy
                 {
                     this.infoPanel.ForcedShowState = null;
                     this.blackoutAdaptChip = null;
+
+                    foreach (var b in this.controlledBarriers)
+                    {
+                        b.blackOutObject = false;
+                    }
                 }
             }
             else
             {
-                if (this.controller == this)
-                {
-                    this.infoPanel.ForcedShowState = false;
+                this.controller.infoPanel.ForcedShowState = false;
 
-                    if (this.preAdaptWaitTime != null && parent.blackOutChips[0] != this.blackoutAdaptChip)
+                if (this.controller.preAdaptWaitTime != null && parent.blackOutChips[0] != this.controller.blackoutAdaptChip)
+                {
+                    foreach (CharacterBase characterBase in parent.AllChara())
                     {
-                        foreach (CharacterBase characterBase in parent.AllChara())
+                        if (characterBase.number == parent.blackOutChips[0].userNum)
+                            characterBase.waittime = this.controller.preAdaptWaitTime.Value;
+                    }
+                    this.controller.preAdaptWaitTime = null;
+                }
+
+                // redundant check since only flagged objs run during blackout
+                // harmless, but explicitly should only run if it's the "main" one
+                if (this.blackOutObject)
+                {
+                    foreach (var b in this.controller.controlledBarriers)
+                    {
+                        if (b.blackoutSimulhitPossible)
                         {
-                            if (characterBase.number == parent.blackOutChips[0].userNum)
-                                characterBase.waittime = this.preAdaptWaitTime.Value;
+                            // TODO: Effects
+                            b.invincibility = true;
+                            b.invincibilitytime = 1;
+                            // alpha increases by 15 per tick, if not exact then overflows and wraps around
+                            b.alfha = byte.MaxValue - (15 * 8);
+
+                            b.blackoutSimulhitPossible = false;
                         }
-                        this.preAdaptWaitTime = null;
                     }
                 }
             }
@@ -581,7 +607,7 @@ namespace NSEnemy
 
             if (this.controller == this)
             {
-                var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1);
+                var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1).Concat(this.controlledBarriers.Where(b => b.blackoutBuildupInterrupted));
                 foreach (var attack in this.unprocessedAttacks)
                 {
                     var hitBarrier = attack.Item1;
@@ -790,7 +816,7 @@ namespace NSEnemy
                     dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, this.color);
                 }
 
-                this._rect.Offset(-this._rect.X, 0);
+                this._rect.Offset(320 - this._rect.X, 0);
                 dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, this.overlayColor);
             }
 
