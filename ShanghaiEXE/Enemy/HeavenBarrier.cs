@@ -46,6 +46,7 @@ namespace NSEnemy
         private int deathOrder;
         private bool blackoutSimulhitPossible;
         private bool blackoutBuildupInterrupted;
+        private int blackoutWaittime;
 
         private Action retaliateTickAction;
 
@@ -185,6 +186,17 @@ namespace NSEnemy
                 }
                 else if (this.parent.blackOut)
                 {
+                    this.sound.PlaySE(SoundEffect.bound);
+
+                    var effectiveEffect = new Elementhit(this.sound, this.parent, this.positionDirect, 1, this.position, ChipBase.ELEMENT.eleki);
+                    effectiveEffect.blackOutObject = true;
+                    this.parent.effects.Add(effectiveEffect);
+                    
+                    this.invincibility = true;
+                    this.invincibilitytime = 1;
+                    // alpha increases by 15 per tick, if not exact then overflows and wraps around
+                    this.alfha = byte.MaxValue - (15 * 8);
+
                     // TODO: Effects
                     this.blackoutBuildupInterrupted = true;
                 }
@@ -254,41 +266,39 @@ namespace NSEnemy
                     foreach (var b in this.controlledBarriers)
                     {
                         b.blackOutObject = false;
+                        b.blackoutBuildupInterrupted = false;
+                        b.blackoutWaittime = 0;
                     }
                 }
             }
             else
             {
-                this.controller.infoPanel.ForcedShowState = false;
-
-                if (this.controller.preAdaptWaitTime != null && parent.blackOutChips[0] != this.controller.blackoutAdaptChip)
-                {
-                    foreach (CharacterBase characterBase in parent.AllChara())
-                    {
-                        if (characterBase.number == parent.blackOutChips[0].userNum)
-                            characterBase.waittime = this.controller.preAdaptWaitTime.Value;
-                    }
-                    this.controller.preAdaptWaitTime = null;
-                }
-
                 // redundant check since only flagged objs run during blackout
                 // harmless, but explicitly should only run if it's the "main" one
                 if (this.blackOutObject)
                 {
+                    this.controller.infoPanel.ForcedShowState = false;
+
+                    if (this.controller.preAdaptWaitTime != null && parent.blackOutChips[0] != this.controller.blackoutAdaptChip)
+                    {
+                        foreach (CharacterBase characterBase in parent.AllChara())
+                        {
+                            if (characterBase.number == parent.blackOutChips[0].userNum)
+                                characterBase.waittime = this.controller.preAdaptWaitTime.Value;
+                        }
+                        this.controller.preAdaptWaitTime = null;
+                    }
+
                     foreach (var b in this.controller.controlledBarriers)
                     {
                         if (b.blackoutSimulhitPossible)
                         {
-                            // TODO: Effects
-                            b.invincibility = true;
-                            b.invincibilitytime = 1;
-                            // alpha increases by 15 per tick, if not exact then overflows and wraps around
-                            b.alfha = byte.MaxValue - (15 * 8);
-
                             b.blackoutSimulhitPossible = false;
                         }
                     }
                 }
+
+                this.blackoutWaittime++;
             }
         }
 
@@ -828,6 +838,17 @@ namespace NSEnemy
                 this._position = new Vector2(Shake.X + sparkle.Position.X, Shake.Y + sparkle.Position.Y);
                 this.color = Color.White;
                 dg.DrawImage(dg, "body25", this._rect, false, this._position, this.rebirth, this.color);
+            }
+
+            HeavenBarrier activeBlackoutObject;
+            if (this.parent.blackOut && ((activeBlackoutObject = this.controller.controlledBarriers.FirstOrDefault(b => b.blackOutObject)) != null)
+                && activeBlackoutObject != this && !this.blackoutBuildupInterrupted)
+            {
+                var chargeFrame = (activeBlackoutObject.blackoutWaittime / 2) % 8;
+                this._rect = new Rectangle(64 * chargeFrame, 0, 64, 64);
+                this._position = new Vector2((int)this.positionDirect.X + this.Shake.X, (int)this.positionDirect.Y + this.Shake.Y);
+                this.color = Color.White;
+                dg.DrawImage(dg, "charge", this._rect, false, this._position, this.rebirth, this.color);
             }
 
             //this.HPposition = new Vector2(this.positionDirect.X + 4f, this.positionDirect.Y - 32f);
