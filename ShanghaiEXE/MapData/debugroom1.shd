@@ -3488,7 +3488,7 @@ hitform:circle
 event:
 end
 
-ID:Madman
+ID:MadMan
 position:325:177:0
 page:1
 startterms:Abutton
@@ -3501,7 +3501,7 @@ hitrange:3:0:1:0
 hitform:circle
 event:
 msgopen:
-question:Map.DebugRoom1BlockerQuestion:Map.DebugRoom1StartCancel
+question:Map.DebugRoom1MadManQuestion:Map.DebugRoom1StartCancel
 BranchHead:0
 lavel:HPCheck
 editValue:7:False:0:4:1
