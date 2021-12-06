@@ -184,7 +184,7 @@ namespace NSEnemy
 
                     this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
                 }
-                else if (this.parent.blackOut)
+                else if (this.parent.blackOut && !this.blackoutBuildupInterrupted)
                 {
                     this.sound.PlaySE(SoundEffect.bound);
 
