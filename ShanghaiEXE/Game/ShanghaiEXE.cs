@@ -315,7 +315,6 @@ namespace NSGame
                 }
                 this.ControlBox = false;
                 this.Text = String.Empty;
-                this.FormBorderStyle = FormBorderStyle.None;
             }
 
             this.volBGM = (float)ShanghaiEXE.Config.VolumeBGM;
@@ -335,8 +334,7 @@ namespace NSGame
             }
 
             ShanghaiEXE.Config.ToXML("option.xml");
-
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            
             this.Closing += new CancelEventHandler(this.Game_Closing);
             this.MaximizeBox = false;
             this.SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer, true);
@@ -643,8 +641,11 @@ namespace NSGame
                 this.dg.Dispose();
                 this.ad.Dispose();
             }
-            catch { }
-            Application.Exit();
+            catch
+            {
+                Environment.Exit(1);
+            }
+            Environment.Exit(0);
         }
 
         protected override void OnKeyDown(KeyEventArgs e)
@@ -702,8 +703,11 @@ namespace NSGame
                 this.ad.Dispose();
                 this.loading.Close();
             }
-            catch { }
-            Application.Exit();
+            catch
+            {
+                Environment.Exit(1);
+            }
+            Environment.Exit(0);
         }
 
         protected override void Dispose(bool disposing)

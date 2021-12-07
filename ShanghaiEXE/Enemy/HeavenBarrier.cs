@@ -18,6 +18,8 @@ namespace NSEnemy
 {
     internal class HeavenBarrier : EnemyBase
     {
+        private const int ArbitraryLargeValue = 99999;
+
         private static readonly Rectangle SparkleTextureRect = new Rectangle(450, 780, 5, 5);
         private static readonly Rectangle DamageBlobTextureRect = new Rectangle(200, 160, 9, 9);
 
@@ -34,7 +36,7 @@ namespace NSEnemy
         private bool isPerfectKill;
         private Color textColor;
         private BarrierInfoPanel infoPanel;
-        private DammyChip blackoutAdaptChip;
+        private ChipBase blackoutAdaptChip;
         // Inherent problem w/ timestop counter, ongoing effects continue (ex. masterspark)
         private int? preAdaptWaitTime;
 
@@ -42,6 +44,9 @@ namespace NSEnemy
         private Color overlayColor;
         private int lastDamage;
         private int deathOrder;
+        private bool blackoutSimulhitPossible;
+        private bool blackoutBuildupInterrupted;
+        private int blackoutWaittime;
 
         private Action retaliateTickAction;
 
@@ -90,8 +95,8 @@ namespace NSEnemy
             this.dropchips[4].chip = new Reygun(this.sound);
             this.dropchips[4].codeNo = 3;
 
-            this.hpmax = 99999;
-            this.hpprint = 99999;
+            this.hpmax = ArbitraryLargeValue;
+            this.hpprint = ArbitraryLargeValue;
             this.neutlal = true;
             this.badstatusresist = true;
 
@@ -134,25 +139,38 @@ namespace NSEnemy
 
             if (this.state == MOTION.Absorbing)
             {
-                if (this.controller == this)
+                if (this.parent.blackOut && this.controller.blackoutAdaptChip == null && this.controller.preAdaptWaitTime == null)
                 {
-                    if (this.parent.blackOut && this.blackoutAdaptChip == null && this.preAdaptWaitTime == null)
+                    foreach (CharacterBase characterBase in this.parent.AllChara())
                     {
-                        foreach (CharacterBase characterBase in parent.AllChara())
-                        {
-                            if (characterBase.number == parent.blackOutChips[0].userNum)
-                                this.preAdaptWaitTime = characterBase.waittime;
-                        }
+                        if (characterBase.number == parent.blackOutChips[0].userNum)
+                            this.controller.preAdaptWaitTime = characterBase.waittime;
+                    }
 
-                        this.blackoutAdaptChip = new DammyChip(this.sound);
-                        var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
-                        this.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
+                    this.controller.blackoutAdaptChip = new DammyChip(this.sound);
+                    var adaptText = ShanghaiEXE.Translate("Enemy.HeavenBarrierSpecial");
+                    this.controller.blackoutAdaptChip.BlackOut(this, this.parent, adaptText, "");
+                }
+
+                if (this.parent.blackOut)
+                {
+                    if (!this.controller.controlledBarriers.Any(b => b.blackOutObject))
+                    {
+                        this.blackOutObject = true;
+
+                        foreach (var b in this.controller.controlledBarriers)
+                        {
+                            if (b == this)
+                            {
+                                continue;
+                            }
+
+                            b.blackoutSimulhitPossible = true;
+                        }
                     }
                 }
 
-                var attackAdapted = (this != this.controller)
-                    && this.controller.unprocessedAttacks.Any(a => a.Item1 == this && a.Item2 == attack.Element);
-                if (!attackAdapted)
+                if (!this.parent.blackOut || this.blackOutObject || this.blackoutSimulhitPossible)
                 {
                     var attackDamage = this.lastDamage;
                     if (attackDamage == -1)
@@ -166,18 +184,21 @@ namespace NSEnemy
 
                     this.controller.unprocessedAttacks.Add(Tuple.Create(this, attack.Element, cappedDamage));
                 }
-                else if (!this.invincibility)
+                else if (this.parent.blackOut && !this.blackoutBuildupInterrupted)
                 {
                     this.sound.PlaySE(SoundEffect.bound);
 
-                    var effectiveEffect = new WeakPoint(this.sound, this.parent, this.positionDirect, this.position);
+                    var effectiveEffect = new Elementhit(this.sound, this.parent, this.positionDirect, 1, this.position, ChipBase.ELEMENT.eleki);
                     effectiveEffect.blackOutObject = true;
                     this.parent.effects.Add(effectiveEffect);
-
+                    
                     this.invincibility = true;
                     this.invincibilitytime = 1;
                     // alpha increases by 15 per tick, if not exact then overflows and wraps around
                     this.alfha = byte.MaxValue - (15 * 8);
+
+                    // TODO: Effects
+                    this.blackoutBuildupInterrupted = true;
                 }
 
                 this.lastDamage = -1;
@@ -199,7 +220,7 @@ namespace NSEnemy
                 {
                     c.controller = this.controller;
                     this.controller.totalHp += c.Hp;
-                    c.Hp = 99999;
+                    c.Hp = ArbitraryLargeValue;
                     c.deathOrder = newDeathOrder++;
                 });
                 
@@ -215,10 +236,14 @@ namespace NSEnemy
                 };
                 this.controller.unprocessedAttacks = new List<Tuple<HeavenBarrier, ChipBase.ELEMENT, int>>();
 
-                this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, elem => this.controller.damageBuildup[elem]);
+                var infoPositionX = !this.parent.panel[0, 1].Hole && this.parent.panel[0, 1].state != Panel.PANEL._un
+                    ? 0 : 1;
+                var infoPositionY = !this.parent.panel[0, 1].Hole && this.parent.panel[0, 1].state != Panel.PANEL._un
+                    ? 1 : 2;
+                this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, infoPositionX, infoPositionY, elem => this.controller.damageBuildup[elem]);
                 this.controller.parent.objects.Add(this.controller.infoPanel);
 
-                this.controller.blackOutObject = true;
+                this.parent.custom.escapeV = ArbitraryLargeValue;
             }
         }
 
@@ -237,24 +262,43 @@ namespace NSEnemy
                 {
                     this.infoPanel.ForcedShowState = null;
                     this.blackoutAdaptChip = null;
+
+                    foreach (var b in this.controlledBarriers)
+                    {
+                        b.blackOutObject = false;
+                        b.blackoutBuildupInterrupted = false;
+                        b.blackoutWaittime = 0;
+                    }
                 }
             }
             else
             {
-                if (this.controller == this)
+                // redundant check since only flagged objs run during blackout
+                // harmless, but explicitly should only run if it's the "main" one
+                if (this.blackOutObject)
                 {
-                    this.infoPanel.ForcedShowState = false;
+                    this.controller.infoPanel.ForcedShowState = false;
 
-                    if (this.preAdaptWaitTime != null && parent.blackOutChips[0] != this.blackoutAdaptChip)
+                    if (this.controller.preAdaptWaitTime != null && parent.blackOutChips[0] != this.controller.blackoutAdaptChip)
                     {
                         foreach (CharacterBase characterBase in parent.AllChara())
                         {
                             if (characterBase.number == parent.blackOutChips[0].userNum)
-                                characterBase.waittime = this.preAdaptWaitTime.Value;
+                                characterBase.waittime = this.controller.preAdaptWaitTime.Value;
                         }
-                        this.preAdaptWaitTime = null;
+                        this.controller.preAdaptWaitTime = null;
+                    }
+
+                    foreach (var b in this.controller.controlledBarriers)
+                    {
+                        if (b.blackoutSimulhitPossible)
+                        {
+                            b.blackoutSimulhitPossible = false;
+                        }
                     }
                 }
+
+                this.blackoutWaittime++;
             }
         }
 
@@ -323,6 +367,7 @@ namespace NSEnemy
                                 c.state = MOTION.RetaliatingChargeUp;
                                 c.waittime = 0;
                             });
+                            this.infoPanel.AllowedToBreak = true;
                             this.infoPanel.Break();
 
                             var cancelledElements = this.damageBuildup.ToDictionary(kvp => kvp.Key, kvp => 0);
@@ -466,10 +511,12 @@ namespace NSEnemy
                         this.waittime = 0;
 
                         this.invincibility = true;
-                        this.invincibilitytime = 99999999;
+                        this.invincibilitytime = ArbitraryLargeValue;
                     }
                     break;
                 case MOTION.Retaliating:
+                    // Prevent fleeing after retaliation starts
+                    // this.parent.custom.escapeV = -ArbitraryLargeValue;
                     this.animationpoint = new Point(1, 1);
 
                     if (this.controller == this)
@@ -570,7 +617,7 @@ namespace NSEnemy
 
             if (this.controller == this)
             {
-                var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1);
+                var barriersSimulHit = this.unprocessedAttacks.Select(a => a.Item1).Concat(this.controlledBarriers.Where(b => b.blackoutBuildupInterrupted));
                 foreach (var attack in this.unprocessedAttacks)
                 {
                     var hitBarrier = attack.Item1;
@@ -619,10 +666,15 @@ namespace NSEnemy
                             panel.State = Panel.PANEL._nomal;
                             this.parent.effects.Add(new Smoke(this.sound, this.parent, panelPos.X, panelPos.Y, panel.Element));
                             break;
+                        case Panel.PANEL._break:
+                            if (this.controlledBarriers.Any(c => c.position == panelPos))
+                            {
+                                panel.state = Panel.PANEL._crack;
+                            }
+                            break;
                         case Panel.PANEL._grass:
                         case Panel.PANEL._ice:
                         case Panel.PANEL._crack:
-                        case Panel.PANEL._break:
                         case Panel.PANEL._nomal:
                         case Panel.PANEL._none:
                         case Panel.PANEL._un:
@@ -774,7 +826,7 @@ namespace NSEnemy
                     dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, this.color);
                 }
 
-                this._rect.Offset(-this._rect.X, 0);
+                this._rect.Offset(320 - this._rect.X, 0);
                 dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, this.overlayColor);
             }
 
@@ -786,6 +838,17 @@ namespace NSEnemy
                 this._position = new Vector2(Shake.X + sparkle.Position.X, Shake.Y + sparkle.Position.Y);
                 this.color = Color.White;
                 dg.DrawImage(dg, "body25", this._rect, false, this._position, this.rebirth, this.color);
+            }
+
+            HeavenBarrier activeBlackoutObject;
+            if (this.parent.blackOut && ((activeBlackoutObject = this.controller.controlledBarriers.FirstOrDefault(b => b.blackOutObject)) != null)
+                && activeBlackoutObject != this && !this.blackoutBuildupInterrupted)
+            {
+                var chargeFrame = (activeBlackoutObject.blackoutWaittime / 2) % 8;
+                this._rect = new Rectangle(64 * chargeFrame, 0, 64, 64);
+                this._position = new Vector2((int)this.positionDirect.X + this.Shake.X, (int)this.positionDirect.Y + this.Shake.Y);
+                this.color = Color.White;
+                dg.DrawImage(dg, "charge", this._rect, false, this._position, this.rebirth, this.color);
             }
 
             //this.HPposition = new Vector2(this.positionDirect.X + 4f, this.positionDirect.Y - 32f);

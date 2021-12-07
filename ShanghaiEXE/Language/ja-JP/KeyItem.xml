@@ -115,5 +115,5 @@
   <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" Value="[A collection of FrzFrag，tightly,cemented into a solid mass.]" Face="None" Mono="False" />
   <Text Key="KeyItem.OrderBookName" Value="[Order Book]" />
   <Dialogue Key="KeyItem.OrderBookDescDialogue1" Value="[A slightly battered ledger of,transactions. At the bottom is a,very familiar order for rice.]" Face="None" Mono="False" />
-  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="[Following financial regulations，,the payment information is,heavily encrrypted.]" Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="[Following financial regulations，,the payment information is,heavily encrypted.]" Face="None" Mono="False" />
 </data>

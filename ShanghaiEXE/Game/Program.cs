@@ -26,9 +26,12 @@ namespace NSGame
             }
             catch (Exception e) when (!System.Diagnostics.Debugger.IsAttached)
             {
-                var messageText = e.ToString();
-                MessageBox.Show(messageText, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
+                if (Application.OpenForms.Count > 0)
+                {
+                    var messageText = e.ToString();
+                    MessageBox.Show(messageText, "Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                Environment.Exit(1);
             }
         }
     }

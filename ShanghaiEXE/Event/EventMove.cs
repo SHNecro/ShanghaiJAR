@@ -14,6 +14,7 @@ namespace NSEvent
         private readonly NSMap.Character.EventMove[] moves;
         private readonly SceneMap map;
         private readonly MapField field;
+        private bool movesAdded;
 
         public EventMove(
           IAudioEngine s,
@@ -102,36 +103,33 @@ namespace NSEvent
                 {
                 }
             }
+            this.movesAdded = true;
             this.EndCommand();
         }
 
         public override void SkipUpdate()
         {
+            if (!this.movesAdded)
+            {
+                this.Update();
+            }
+
             if (this.IDname == "プレイヤー")
             {
                 this.manager.parent.Player.MoveEndPosi();
                 this.manager.parent.Player.moveOrder = new NSMap.Character.EventMove[0];
+                this.manager.parent.Player.movingOrder = 0;
             }
             else
             {
                 foreach (MapEventBase mapEventBase in this.field.Events)
                 {
-                    mapEventBase.MoveEndPosi();
-                    mapEventBase.moveOrder = new NSMap.Character.EventMove[0];
-                }
-            }
-            this.Update();
-            if (this.IDname == "プレイヤー")
-            {
-                this.manager.parent.Player.MoveEndPosi();
-                this.manager.parent.Player.moveOrder = new NSMap.Character.EventMove[0];
-            }
-            else
-            {
-                foreach (MapEventBase mapEventBase in this.field.Events)
-                {
-                    mapEventBase.MoveEndPosi();
-                    mapEventBase.moveOrder = new NSMap.Character.EventMove[0];
+                    if (mapEventBase.ID == this.IDname)
+                    {
+                        mapEventBase.MoveEndPosi();
+                        mapEventBase.moveOrder = new NSMap.Character.EventMove[0];
+                        mapEventBase.movingOrder = 0;
+                    }
                 }
             }
         }

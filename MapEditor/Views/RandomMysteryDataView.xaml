@@ -304,6 +304,29 @@
                                                                                     <MultiDataTrigger>
                                                                                         <MultiDataTrigger.Conditions>
                                                                                             <Condition Binding="{Binding Category}" Value="3" />
+                                                                                            <Condition Binding="{Binding ID}" Value="9" />
+                                                                                        </MultiDataTrigger.Conditions>
+                                                                                        <Setter Property="Content">
+                                                                                            <Setter.Value>
+                                                                                                <Border Height="22">
+                                                                                                    <Grid>
+                                                                                                        <Grid.ColumnDefinitions>
+                                                                                                            <ColumnDefinition Width="*" />
+                                                                                                            <ColumnDefinition Width="Auto" />
+                                                                                                        </Grid.ColumnDefinitions>
+                                                                                                        <ComboBox Grid.Column="0"
+                                                                                              ItemsSource="{Binding Source={x:Static local:Constants.InteriorDefinitions}}"
+                                                                                              SelectedValue="{Binding Data}"
+                                                                                              SelectedValuePath="Key"
+                                                                                              DisplayMemberPath="Value"/>
+                                                                                                    </Grid>
+                                                                                                </Border>
+                                                                                            </Setter.Value>
+                                                                                        </Setter>
+                                                                                    </MultiDataTrigger>
+                                                                                    <MultiDataTrigger>
+                                                                                        <MultiDataTrigger.Conditions>
+                                                                                            <Condition Binding="{Binding Category}" Value="3" />
                                                                                             <Condition Binding="{Binding ID, Converter={StaticResource OtherTypeToHasAmountBooleanConverter}}" Value="False" />
                                                                                         </MultiDataTrigger.Conditions>
                                                                                         <Setter Property="Content">

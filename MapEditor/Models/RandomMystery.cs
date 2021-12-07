@@ -1,5 +1,6 @@
 ﻿using MapEditor.Core;
 using MapEditor.Models.Elements.Enums;
+using System;
 
 namespace MapEditor.Models
 {
@@ -34,6 +35,11 @@ namespace MapEditor.Models
             }
             set
             {
+                if (value == 9)
+                {
+                    this.Data = Math.Max(0, Math.Min(this.Data, Constants.InteriorDefinitions.Count - 1));
+                }
+
                 this.SetValue(ref this.id, value);
                 if (this.Category == 0)
                 {
@@ -121,6 +127,10 @@ namespace MapEditor.Models
                         if (this.IsCustomMystery)
                         {
                             return $"Text: \"{Constants.TranslationService.Translate(this.ItemKey).Text}\"";
+                        }
+                        else if (this.ID == 9)
+                        {
+                            return Constants.InteriorDefinitions[this.Data];
                         }
                         else
                         {

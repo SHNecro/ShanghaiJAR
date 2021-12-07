@@ -156,6 +156,9 @@ namespace NSEvent
                         case 8:
                             this.savedata.Money += this.itemData.itemSub;
                             break;
+                        case 9:
+                            this.savedata.interiors.Add(new Interior(this.itemData.itemSub, 0, 0, false, false));
+                            break;
                     }
                     break;
                 default:
@@ -296,6 +299,10 @@ namespace NSEvent
                                 return string.Format(ShanghaiEXE.Translate("MysteryData.ZennyText"), itemSub);
                             }
                             return getInfo;
+                        case 9:
+                            var interiorNumber = itemSub;
+                            var interiorName = Shop.INTERIOR.GetItem(itemSub);
+                            return interiorName;
                     }
             }
             return "";

@@ -153,4 +153,7 @@
   <Dialogue Key="Map.ExOmakeDruidManBattleQuestion" Value="ドルイドマン" Face="DruidMan" Mono="False" />
   <Text Key="Map.ExOmakeMimaStage1Dialogue1QuestionOptions" Value="ミマ,[Cancel]" />
   <Dialogue Key="Map.ExOmakeMimaStage1Dialogue1Question" Value="ミマ" Face="Mima" Mono="False" />
+  <Dialogue Key="Map.ExOmakeInteriorCodeGiverDialogue1" Value="[If you’d like to move or remove,the Demo Room warp，use,Lotto code “21216128”!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue1" Value="[Bosses and in-development,content have been moved to,another room!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue2" Value="[Use Lotto code “19122018” to,access them!,Beware of spoilers!]" Face="Sprite" Mono="False" />
 </data>

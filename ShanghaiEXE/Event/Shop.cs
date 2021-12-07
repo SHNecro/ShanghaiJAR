@@ -855,10 +855,22 @@ namespace NSEvent
                 ShanghaiEXE.Translate("Interior.Item48"),
                 ShanghaiEXE.Translate("Interior.Item49"),
                 ShanghaiEXE.Translate("Interior.Item50"),
-                ShanghaiEXE.Translate("Interior.Item51")
+                ShanghaiEXE.Translate("Interior.Item51"),
+                ShanghaiEXE.Translate("Interior.Item52"),
+                ShanghaiEXE.Translate("Interior.Item53")
             };
 
-            public static string GetItem(int index) => index < items.Count ? items[index] : "NO_ITEM";
+            public static string GetItem(int index)
+            {
+                if (index < items.Count)
+                    return items[index];
+
+                var fallbackKey = $"Interior.Item{index + 1}";
+                if (ShanghaiEXE.languageTranslationService.CanTranslate(fallbackKey))
+                    return ShanghaiEXE.Translate(fallbackKey);
+
+                return "NO_ITEM";
+            }
         }
 
         private enum SCENE

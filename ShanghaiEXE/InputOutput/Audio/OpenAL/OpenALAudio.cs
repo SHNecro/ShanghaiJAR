@@ -316,7 +316,7 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
             else
             {
                 MessageBox.Show(errorFunc(value), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
+                Environment.Exit(1);
                 throw new InvalidOperationException(errorFunc(value));
             }
         }
@@ -340,14 +340,14 @@ namespace NSShanghaiEXE.InputOutput.Audio.OpenAL
                 else
                 {
                     MessageBox.Show((errorFunc ?? (i => $"Invalid parameter \"{i}\""))(parsed), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Application.Exit();
+                    Environment.Exit(1);
                     throw new InvalidOperationException(errorFunc(parsed));
                 }
             }
             else
             {
                 MessageBox.Show($"Failed to parse \"{s}\" as long", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Application.Exit();
+                Environment.Exit(1);
                 throw new InvalidOperationException(errorFunc(parsed));
             }
         }

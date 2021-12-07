@@ -8,7 +8,7 @@ namespace MapEditor.Core.Converters
 	{
 		public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
 		{
-            if (!(value is int id) || !(id >= 0 && id <= 8))
+            if (!(value is int id) || !(id >= 0 && id <= 9))
             {
                 return false;
             }

@@ -46,16 +46,17 @@ namespace NSObject
         private ScreenBlack screenGreyOut;
         private List<ScreenObjectFade> infoText;
 
+        private Point panelPosition;
+
         public BarrierInfoPanel(
           IAudioEngine s,
           SceneBattle p,
           Panel.COLOR union,
+          int pX,
+          int pY,
           Func<ChipBase.ELEMENT, int> elementLightUpFunc)
           : base(s, p, 5, 2, union)
         {
-            var pX = 0;
-            var pY = 1;
-
             this.height = 128;
             this.wide = 96;
             this.hp = 10;
@@ -70,6 +71,7 @@ namespace NSObject
             this.invincibilitytime = -1;
             this.invincibility = true;
             this.guard = CharacterBase.GUARD.noDamage;
+            this.panelPosition = new Point(pX, pY);
             this.positionre = this.position;
             this.positionDirect = new Vector2(pX * 40 + 20, pY * 24 + 83);
 
@@ -80,9 +82,11 @@ namespace NSObject
 
         public bool? ForcedShowState { get; set; }
 
+        public bool AllowedToBreak { get; set; }
+
         public override void Updata()
         {
-            if (!breaking)
+            if (!this.breaking)
             {
                 this.hp = 99999;
                 if (this.moveflame)
@@ -105,7 +109,7 @@ namespace NSObject
                 }
                 this.FlameControl(4);
 
-                if (this.ForcedShowState ?? this.parent.player.position == new Point(0, 1))
+                if (this.ForcedShowState ?? this.parent.player.position == this.panelPosition)
                 {
                     if (this.screenGreyOut == null)
                     {
@@ -281,6 +285,11 @@ namespace NSObject
 
         public override void Break()
         {
+            if (!this.AllowedToBreak)
+            {
+                return;
+            }
+
             this.frame = 0;
             this.breaking = true;
 

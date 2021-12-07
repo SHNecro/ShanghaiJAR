@@ -656,7 +656,7 @@ namespace NSBattle.Character
             }
             this.neutlal = this.motion == Player.PLAYERMOTION._neutral;
             if (this.numOfChips > 0)
-                this.haveChip[0].HaveUpdate(this);
+                this.haveChip[0]?.HaveUpdate(this);
             if (this.badstatus[3] && this.motion != Player.PLAYERMOTION._damage)
             {
                 if (this.slipping)
@@ -972,7 +972,7 @@ namespace NSBattle.Character
                 && !this.parent.blackOutStopper
                 && this.numOfChips > 0
                 && this.parent.nowscene != SceneBattle.BATTLESCENE.custom
-                && this.haveChip[0].timeStopper
+                && this.haveChip[0]?.timeStopper == true
                 && this.parent.blackOutChips[0].nameAlpha == byte.MaxValue)
             {
                 this.ButtonA();
@@ -1001,7 +1001,7 @@ namespace NSBattle.Character
                 this.canMove = true;
                 if (!Input.IsPush(Button._A))
                     this.needAbuutonPush = false;
-                if (Input.IsPush(Button._A) && !this.needAbuutonPush && (this.numOfChips > 0 && this.canUseChip) && this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.nextchipwait == 0)
+                if (Input.IsPush(Button._A) && !this.needAbuutonPush && (this.numOfChips > 0 && this.canUseChip && this.haveChip[0] != null) && this.parent.nowscene != SceneBattle.BATTLESCENE.custom && this.nextchipwait == 0)
                     this.ButtonA();
                 else if (this.charge && !Input.IsPush(Button._B) && !this.addonSkill[69] || (this.chargeOff || Input.IsPush(Button._B) && this.bustor != Player.BUSTOR.normal) || this.addonSkill[69] && Input.IsPush(Button._B))
                     this.ButtonB();
@@ -1015,7 +1015,7 @@ namespace NSBattle.Character
                         this.ChargeStart();
                     if (!this.charge && Input.IsPush(Button._B) && this.bustor == Player.BUSTOR.normal)
                         this.ChargeStart();
-                    if (this.charge && Input.IsUp(Button._B))
+                    if (this.charge && !Input.IsPush(Button._B))
                         this.ChargeEnd();
                 }
             }
@@ -1026,6 +1026,11 @@ namespace NSBattle.Character
 
         public void LossChip()
         {
+            if (this.numOfChips == 0)
+            {
+                return;
+            }
+
             --this.numOfChips;
             for (int index = 0; index < this.numOfChips; ++index)
                 this.haveChip[index] = this.haveChip[index + 1];
@@ -1461,7 +1466,7 @@ namespace NSBattle.Character
                         this.haveChip[index].IconRender(dg, this._position, false, false, 0, false);
                     }
                 }
-                if (this.haveChip.Count > 0 && this.haveChip[0].name != null)
+                if (this.haveChip.Count > 0 && this.haveChip[0]?.name != null)
                 {
                     int length = this.haveChip[0].name.Length;
                     this._position = new Vector2(8f, 144f);
@@ -1495,9 +1500,9 @@ namespace NSBattle.Character
             dg.DrawImage(dg, "battleobjects", this._rect, false, this._position, Color.White);
             this.HPRender(dg, new Vector2(this.parent.positionHPwindow.X + 12f, this.parent.positionHPwindow.Y - 1f));
             
-            if (this.usingChip.chipUseEnd)
+            if (this.usingChip?.chipUseEnd == true)
                 return;
-            this.usingChip.BlackOutRender(dg, this.union);
+            this.usingChip?.BlackOutRender(dg, this.union);
         }
 
         public override void BarrierRend(IRenderer dg)

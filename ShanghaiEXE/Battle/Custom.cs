@@ -61,7 +61,7 @@ namespace NSBattle
         private int darksound;
         private int darkA;
         protected SaveData savedata;
-        private int escapeV;
+        public int escapeV;
         private const int escapeplus = 50;
         private bool gaiaChange;
         private bool canescape;
@@ -106,6 +106,7 @@ namespace NSBattle
             this.paprintname = false;
             this.panamebright = false;
             this.TutorialSort();
+            this.escapeV = this.savedata.addonSkill[39] ? 100 : 0;
         }
 
         public void Init()
@@ -259,6 +260,8 @@ namespace NSBattle
                             this.parent.eventmanager.AddEvent(new CommandMessage(this.sound, this.parent.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedata));
                             this.parent.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.parent.eventmanager));
                             this.escapeV += 50;
+
+                            this.selectchips = 0;
                         }
                         this.escape = false;
                     }
@@ -603,8 +606,9 @@ namespace NSBattle
 
                     if (newTurnStyle == Player.STYLE.wing)
                     {
-                        this.player.haveChip.Add(new Flyng(this.sound));
-                        ++this.player.numOfChips;
+                        this.parent.player.haveChip.Add(new Flyng(this.sound));
+                        ++this.parent.player.numOfChips;
+                        player.haveChip.RemoveAll(a => a == null);
                     }
 
                     ++this.parent.turn;
@@ -630,18 +634,18 @@ namespace NSBattle
                         this.canescape = true;
                         if (!this.parent.canEscape)
                             this.canescape = false;
-                        else if (!this.savedata.addonSkill[39])
+                        else
                         {
-                            int num1 = 0;
+                            int sumEnemyHp = 0;
                             foreach (EnemyBase enemy in this.parent.enemys)
                             {
                                 if (enemy.union == Panel.COLOR.blue && !(enemy is DammyEnemy))
-                                    num1 += enemy.Hp;
+                                    sumEnemyHp += enemy.Hp;
                             }
-                            int num2 = this.player.HpMax - num1 + 100;
-                            if (num2 < 0)
-                                num2 = 0;
-                            if (this.Random.Next(100) > num2 + this.escapeV)
+                            int hpAdvantageFactor = this.player.HpMax - sumEnemyHp + 100;
+                            if (hpAdvantageFactor < 0)
+                                hpAdvantageFactor = 0;
+                            if (this.Random.Next(100) > hpAdvantageFactor + this.escapeV)
                                 this.canescape = false;
                         }
                         this.frame = 0;
