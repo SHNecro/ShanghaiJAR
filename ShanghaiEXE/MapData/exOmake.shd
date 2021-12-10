@@ -553,11 +553,8 @@ event:
 msgopen:
 msg:Map.ExOmakeRankUpStage1Dialogue1FaceNaviRedSprite
 msg:Map.ExOmakeRankUpStage1Dialogue2FaceNaviRedSprite
-numset:Map.ExOmakeRankUpStage1Dialogue3NumsetFaceNaviRedSprite:15:1
+numset:Map.ExOmakeRankUpStage1Dialogue3NumsetFaceNaviRedSprite:28:1
 msgclose:
-ifValue:0:False:0:1:0
-editValue:28:False:0:1:0
-ifEnd:0
 end
 
 ID:チップトレーダー
