@@ -295,7 +295,7 @@ namespace MapEditor.Models
             {
                 graphicString = $"{-this.GraphicsIndex}:{this.TexX},{this.TexY},{this.TexW},{this.TexH},{this.Frames}";
             }
-            var hitRangeByForm = this.HitForm == HitFormType.Circle ? $"{this.HitRange.Width}:{this.HitRange.Width}" : $"{this.HitRange.Width}:{this.HitRange.Height}";
+            var hitRangeByForm = false /*this.HitForm == HitFormType.Circle*/ ? $"{this.HitRange.Width}:{this.HitRange.Width}" : $"{this.HitRange.Width}:{this.HitRange.Height}";
             var hitRangeString = $"{hitRangeByForm}:{this.HitShift.X}:{this.HitShift.Y}";
             var hitFormString = this.HitForm == HitFormType.Circle ? "circle" : "square";
             var eventsString = this.Events.StringValue;
