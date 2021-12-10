@@ -4592,7 +4592,7 @@ emove:プレイヤー:waydown,0:wait,0
 msgclose:
 bgmSave:
 fade:15:255:255:255:255:True
-battle:63:2:4:0:1:1:1:0::63:3:3:1:1:1:1:0::63:2:4:2:1:1:1:0::0:9:5:False:False:False:True:VSvirus:36
+battle:63:2:4:0:1:1:1:0::63:3:3:1:1:1:1:0::63:2:4:2:1:1:1:0::0:9:5:False:False:True:True:VSvirus:36
 ifFlag:6:False:0
 goto:ESCAPE
 ifEnd:0
@@ -5014,7 +5014,7 @@ emove:プレイヤー:wayleft,0:wait,0
 msgclose:
 bgmSave:
 fade:15:255:255:255:255:True
-battle:63:2:3:1:1:1:1:0::63:2:4:1:1:1:1:0::63:2:5:1:1:1:1:0::0:0:0:False:False:False:True:VSvirus:36
+battle:63:2:3:1:1:1:1:0::63:2:4:1:1:1:1:0::63:2:5:1:1:1:1:0::0:0:0:False:False:True:True:VSvirus:36
 ifFlag:6:False:0
 goto:ESCAPE
 ifEnd:0
@@ -5651,7 +5651,7 @@ emove:プレイヤー:wayleft,0:wait,0
 msgclose:
 bgmSave:
 fade:15:255:255:255:255:True
-battle:63:3:4:2:1:1:1:0::63:3:5:0:1:1:1:0::63:3:3:0:1:1:1:0::0:0:16:False:False:False:True:VSvirus:36
+battle:63:3:4:2:1:1:1:0::63:3:5:0:1:1:1:0::63:3:3:0:1:1:1:0::0:0:16:False:False:True:True:VSvirus:36
 ifFlag:6:False:0
 goto:ESCAPE
 ifEnd:0

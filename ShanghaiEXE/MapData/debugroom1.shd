@@ -3534,7 +3534,7 @@ msgopen:
 question:Map.DebugRoom1BlockerQuestion:Map.DebugRoom1StartCancel
 BranchHead:0
 EventLun:StorePreBattle:-1
-battle:63:1:4:1:1:1:1:0::63:1:5:0:1:1:1:0::63:1:5:2:1:1:1:0::0:0:0:False:False:False:False:VSnavi:36
+battle:63:1:4:1:1:1:1:0::63:1:5:0:1:1:1:0::63:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:36
 EventLun:RestorePostBattle:-1
 BranchEnd:
 BranchHead:1
