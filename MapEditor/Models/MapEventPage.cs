@@ -158,6 +158,14 @@ namespace MapEditor.Models
             get { return this.HitRange.Height; }
             set { this.HitRange = new Size(this.HitRange.Width, value); }
         }
+        public int HitRangeRadius
+        {
+            get { return this.HitRange.Width; }
+            set
+            {
+                this.HitRange = new Size(value, value);
+            }
+        }
 
         public Point HitShift
         {
@@ -287,7 +295,8 @@ namespace MapEditor.Models
             {
                 graphicString = $"{-this.GraphicsIndex}:{this.TexX},{this.TexY},{this.TexW},{this.TexH},{this.Frames}";
             }
-            var hitRangeString = $"{this.HitRange.Width}:{this.HitRange.Height}:{this.HitShift.X}:{this.HitShift.Y}";
+            var hitRangeByForm = this.HitForm == HitFormType.Circle ? $"{this.HitRange.Width}:{this.HitRange.Width}" : $"{this.HitRange.Width}:{this.HitRange.Height}";
+            var hitRangeString = $"{hitRangeByForm}:{this.HitShift.X}:{this.HitShift.Y}";
             var hitFormString = this.HitForm == HitFormType.Circle ? "circle" : "square";
             var eventsString = this.Events.StringValue;
             return string.Join("\r\n", new[]
