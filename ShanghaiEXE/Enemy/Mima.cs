@@ -208,7 +208,7 @@ namespace NSEnemy
                             this.animationpoint = this.AnimeNeutral(this.waittime % 3);
                             ++this.waittime;
                         }
-                        if (this.moveflame && (this.waittime >= 8 / version || this.atack))
+                        if (this.moveflame && (this.waittime >= 8 / (version == 0 ? 5 : version) || this.atack))
                         {
                             this.waittime = 0;
                             ++this.roopneutral;
