@@ -6,11 +6,14 @@ using NSMap;
 using Common.Vectors;
 using System;
 using System.Drawing;
+using System.Collections.Generic;
 
 namespace NSEvent
 {
     internal class InteriorSetting : EventBase
     {
+        private static readonly ICollection<int> RareInteriors = new[] { 51, 52 };
+
         private InteriorSetting.NOWSCENE nowschene;
         private InteriorSetting.MENU menu;
         private bool sort;
@@ -417,10 +420,19 @@ namespace NSEvent
         private void EventMake()
         {
             this.eventmanager.events.Clear();
-            var question = ShanghaiEXE.Translate("Interior.DiscardQuestion");
-            var options = ShanghaiEXE.Translate("Interior.DiscardOptions");
-            this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], question[1], options[0], options[1], true, true, question.Face, this.savedata));
-            this.yesnoSelect = true;
+            if (RareInteriors.Contains(this.savedata.interiors[this.Select].number))
+            {
+                var dialogue = ShanghaiEXE.Translate("ChipTrader.RareChipStopDialogue1");
+                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedata));
+                this.yesnoSelect = false;
+            }
+            else
+            {
+                var question = ShanghaiEXE.Translate("Interior.DiscardQuestion");
+                var options = ShanghaiEXE.Translate("Interior.DiscardOptions");
+                this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], question[1], options[0], options[1], true, true, question.Face, this.savedata));
+                this.yesnoSelect = true;
+            }
         }
 
         public override void Render(IRenderer dg)
