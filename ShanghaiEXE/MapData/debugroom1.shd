@@ -3379,7 +3379,7 @@ BranchHead:3
 goto:ENDMSG
 BranchEnd:
 lavel:DS
-question:Map.DebugRoom1UtsuhoQuestion:Map.DebugRoom1RanksV3
+question:Map.DebugRoom1UtsuhoQuestion:Map.DebugRoom1RanksDS
 BranchHead:0
 goto:SP
 BranchEnd:
