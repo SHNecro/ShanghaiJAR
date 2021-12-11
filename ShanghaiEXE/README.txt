@@ -104,6 +104,8 @@ Reworked PA system for potential issues adding new PAs
 Minor balancing of DruidMan, minor difficulty increase for stunlocking
 Implemented OpenAL sound engine
 Ported to linux
+Moved bossfights into separate (debug) room, made both into movable interiors
+  Now available by lotto code, demo: 21216128 (or after final boss if unused), debug: 19122018
 Various bugfixes
 ---- 0.503e4 (1/4/2020) ----
 Fixed Yuyuko crash on heavy+sand
