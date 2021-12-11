@@ -1092,8 +1092,22 @@ namespace NSGame
                 }
             }
 
+            // WIP15
+            if (this.ValList[199] <= 7)
+            {
+                // Return demo and debug rooms if discarded
+                if (this.FlagList[465] && !this.interiors.Any(i => i.number == 51))
+                {
+                    this.interiors.Add(new Interior(51, 106, 186, false, false));
+                }
+                if (this.FlagList[466] && !this.interiors.Any(i => i.number == 52))
+                {
+                    this.interiors.Add(new Interior(52, 136, 186, false, false));
+                }
+            }
+
             // Set var to "current save version"
-            this.ValList[199] = 7;
+            this.ValList[199] = 8;
             return retconMessages;
         }
 
