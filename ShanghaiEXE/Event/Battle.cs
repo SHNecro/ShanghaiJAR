@@ -6,6 +6,7 @@ using NSGame;
 using NSMap;
 using NSNet;
 using System.Drawing;
+using System;
 
 namespace NSEvent
 {
@@ -269,7 +270,12 @@ namespace NSEvent
                     // EX version handling
                     if (e is Cirno || e is PyroMan || e is Mrasa || e is ScissorMan || e is Chen)
                     {
-                        e.version = (byte)(5 + val);
+                        e.version = 5;
+                        e.version += (byte)val;
+                        if (e.version > 8)
+                            e.version = 8;
+                        if (e.version < 1)
+                            e.version = 1;
                     }
                 }
 

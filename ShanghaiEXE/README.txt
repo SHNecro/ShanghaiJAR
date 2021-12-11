@@ -94,15 +94,18 @@ in the first place but the two got tangled up and hacked together.
 Other hacks got introduced to deal with that, and those may have broken.
 
 -------- Changelog --------
----- 0.550e (09/06/2021) ----
+---- 0.550eWIP15 (12/10/2021) ----
 Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
+Completed postgame area 1, incl battles, reward addons
 Added retcon system to fix savegames from previous versions
 Added automatic backup system for potential save corruption
 Reworked Library page for potential issues with chip IDs, PAs
 Reworked PA system for potential issues adding new PAs
 Minor balancing of DruidMan, minor difficulty increase for stunlocking
-Completed postgame area 1, incl battles, reward addons
 Implemented OpenAL sound engine
+Ported to linux
+Moved bossfights into separate (debug) room, made both into movable interiors
+  Now available by lotto code, demo: 21216128 (or after final boss if unused), debug: 19122018
 Various bugfixes
 ---- 0.503e4 (1/4/2020) ----
 Fixed Yuyuko crash on heavy+sand

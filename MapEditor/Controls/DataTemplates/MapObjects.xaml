@@ -583,7 +583,7 @@
                                                Text="Hitbox Radius:"/>
                                     <controls:WheelCaptureIntegerUpDown Grid.Column="1">
                                         <controls:WheelCaptureIntegerUpDown.Text>
-                                            <Binding Path="HitRangeWidth" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
+                                            <Binding Path="HitRangeRadius" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged">
                                                 <Binding.ValidationRules>
                                                     <validationrules:MinMaxValidationRule ValidationStep="RawProposedValue"/>
                                                 </Binding.ValidationRules>
