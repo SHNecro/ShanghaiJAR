@@ -290,6 +290,7 @@ namespace NSGame
 
             if (!ShanghaiEXE.Config.Fullscreen)
             {
+                this.FormBorderStyle = FormBorderStyle.FixedSingle;
                 SaveData.ScreenMode = false;
             }
             else
@@ -315,6 +316,7 @@ namespace NSGame
                 this.ControlBox = false;
                 this.Text = String.Empty;
             }
+
 
             this.volBGM = (float)ShanghaiEXE.Config.VolumeBGM;
             this.volSE = (float)(ShanghaiEXE.Config.VolumeSE / 100);
