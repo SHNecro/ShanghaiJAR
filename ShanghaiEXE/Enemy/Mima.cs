@@ -75,37 +75,22 @@ namespace NSEnemy
             for (int index = 0; index < this.dropchips.Length; ++index)
                 this.dropchips[index] = new ChipFolder(this.sound);
             this.element = ChipBase.ELEMENT.poison;
+            if (this.version != 1)
+            {
+                this.version = 8;
+            }
+
             switch (this.version)
 			{
-				case 0:
 				case 1:
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName1");
+                    this.name = ShanghaiEXE.Translate("Enemy.MimaName2");
                     this.power = 100;
                     this.hp = 3000;
                     this.moveroop = 1;
                     break;
-                case 2:
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName2");
-                    this.power = 40;
-                    this.hp = 1500;
-                    this.moveroop = 1;
-                    break;
-                case 3:
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName3");
-                    this.power = 100;
-                    this.hp = 2000;
-                    this.moveroop = 2;
-                    break;
-                case 4:
-                    this.nspeed = 1;
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName4");
-                    this.power = 200;
-                    this.hp = 2500;
-                    this.moveroop = 2;
-                    break;
                 default:
                     this.nspeed = 1;
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName5") + (version - 3).ToString();
+                    this.name = ShanghaiEXE.Translate("Enemy.MimaName1");
                     this.power = 200;
                     this.hp = 3000 + (version - 4) * 500;
                     this.moveroop = 3;
@@ -744,14 +729,15 @@ namespace NSEnemy
                 shake = this.Shake;
                 int x1 = shake.X;
                 int x2 = num3 + x1;
-                int y3 = (this.version != 0 && version < 5 ? 0 : 2) * this.height;
+                int y3 = (this.version == 1 ? this.animationpoint.Y : this.animationpoint.Y + 12) * this.height;
                 int wide = this.wide;
                 int height1 = this.height;
                 shake = this.Shake;
                 int y4 = shake.Y;
                 int height2 = height1 + y4;
                 this._rect = new Rectangle(x2, y3, wide, height2);
-                this.Death(this._rect, new Rectangle(this.animationpoint.X * this.wide, this.height, this.wide, this.height), this._position, this.picturename);
+                var deathAnimRect = new Rectangle(5 * this.wide, (4 + 6) * this.height, this.wide, this.height);
+                this.Death(this._rect, deathAnimRect, this._position, this.picturename);
             }
             if (this.whitetime == 0)
             {

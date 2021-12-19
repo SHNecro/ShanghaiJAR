@@ -480,7 +480,7 @@ namespace NSChip
 
         public bool BlackOutEnd(CharacterBase character, SceneBattle parent)
         {
-            if (this.boEndOK2)
+            if (true /* prev: if not netbattle */ || this.boEndOK2)
             {
                 if (parent.blackOutChips.Count > 1)
                 {

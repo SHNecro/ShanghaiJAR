@@ -66,6 +66,11 @@ namespace NSEnemy
 
             this.aspeed = 4;
 
+            if (this.version != 1)
+            {
+                this.version = 4;
+            }
+
             switch (this.version)
             {
                 case 1:
