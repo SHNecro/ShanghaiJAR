@@ -1,5 +1,5 @@
 ﻿######################################################
-ShanghaiEXE Genso Network Map Editor 0550e1 (9/6/2021)
+ShanghaiEXE Genso Network Map Editor 0550e1 (12/19/2021)
 ######################################################
 
 -------- Changelog --------
