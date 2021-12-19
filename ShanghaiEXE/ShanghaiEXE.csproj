@@ -1344,6 +1344,9 @@
     <Compile Include="Game\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="OpenTK.dll.config" />
+    <None Include="README-Linux.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ShanghaiEXE\Resources\JF-Dot-jiskan16s.ttf" />
