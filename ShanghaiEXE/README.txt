@@ -1,5 +1,5 @@
 ﻿###############################################
-ShanghaiEXE Genso Network 0.550e (9/6/2021)
+ShanghaiEXE Genso Network 0.550e1 (12/19/2021)
 ###############################################
 
 -------- Installation --------
@@ -23,11 +23,13 @@ This may not be needed, as a fresh image was able to run without
 installing this.
 
 -------- Information --------
-The project was previously hosted at github, but that got DMCAd so
-there's no set place to report bugs/get the latest release.
-If a suitable host is found, hopefully I'll remember to update this note.
-The commit history may not be up to date, as I use a personal repo
-for source control and push to the public repo in batches.
+The main repository at https://gitgud.io/SHNecro/shanghaiexe
+appears to be reliable, and provides the standard repo functions
+of change tracking, issues tracking, and forking/collaboration.
+New versions should generally be made available at
+https://gitgud.io/SHNecro/shanghaiexe/-/releases, potentially
+including unstable or in-progress builds for quick feedback and
+testing.
 
 -------- Compatibility with previous versions (<0.502e) --------
 ---- Savegames ----
@@ -57,44 +59,13 @@ the game if an invalid one is present.
 The language files are new, and will obviously not work with old versions.
 
 -------- Known Issues --------
-The sound stops working when plugging in or unplugging headphone/speakers:
-I haven't looked too deeply at the audio parts of the code, so I never fixed it.
-Just don't unplug your audio, or exit and reopen the game.
-
-The screen is blurry for scaled-up sizes:
-Update: Implemented a OpenGL engine which should solve blur issues.
-I recommend using OpenGL since I actually understand that engine and
-can maintain it.
-
-The config file codes don't match any standard keycodes:
-That's how the game reads keys, and I'm not rewriting the input
-section/breaking backwards compatibility just for a minor config file issue.
-
-Some controller buttons aren't registering:
-Update: Added XInput support, controllers should be working now.
-
-
--------- Unknown Issues (please report) --------
-Missing content:
-I may or may not continue, but it would be very helpful if someone
-could compile what's missing, since I haven't watched any dev streams
-or teased content.
-Transcribed Japanese text or even translations would be nice, too.
-Same with stitched area maps, sprites, etc. from streams.
-
-Text alignment and mistranslations:
-If text doesn't fit onscreen/is badly aligned, that can be fixed.
-Or you can fix it yourself (in the language files), and share.
-Likewise for bad translations, I don't even speak Japanese.
-
-Other bugs:
-Introducing the Turbo button required breaking apart the rendering
-and game tick loops, which is how it looks like the game was designed
-in the first place but the two got tangled up and hacked together.
-Other hacks got introduced to deal with that, and those may have broken.
+Please report any issues encountered to
+https://gitgud.io/SHNecro/shanghaiexe/-/issues.
+The OpenAL audio options is currently known to be somewhat unstable and
+not recommended for Windows, as it was rushed in order to support Linux.
 
 -------- Changelog --------
----- 0.550eWIP15 (12/10/2021) ----
+---- 0.550e1 (12/19/2021) ----
 Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
 Completed postgame area 1, incl battles, reward addons
 Added retcon system to fix savegames from previous versions
