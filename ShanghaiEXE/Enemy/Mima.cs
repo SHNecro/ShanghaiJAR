@@ -729,14 +729,15 @@ namespace NSEnemy
                 shake = this.Shake;
                 int x1 = shake.X;
                 int x2 = num3 + x1;
-                int y3 = (this.version != 0 && version < 5 ? 0 : 2) * this.height;
+                int y3 = (this.version == 1 ? this.animationpoint.Y : this.animationpoint.Y + 12) * this.height;
                 int wide = this.wide;
                 int height1 = this.height;
                 shake = this.Shake;
                 int y4 = shake.Y;
                 int height2 = height1 + y4;
                 this._rect = new Rectangle(x2, y3, wide, height2);
-                this.Death(this._rect, new Rectangle(this.animationpoint.X * this.wide, this.height, this.wide, this.height), this._position, this.picturename);
+                var deathAnimRect = new Rectangle(5 * this.wide, (4 + 6) * this.height, this.wide, this.height);
+                this.Death(this._rect, deathAnimRect, this._position, this.picturename);
             }
             if (this.whitetime == 0)
             {
