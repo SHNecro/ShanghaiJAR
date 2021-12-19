@@ -3149,7 +3149,7 @@ BranchHead:0
 goto:SP
 BranchEnd:
 BranchHead:1
-battle:68:2:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:False:True:False:VSnavi:40
+battle:68:1:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:False:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3558,7 +3558,7 @@ msgopen:
 question:Map.DebugRoom1ShanghaiDSQuestion:Map.DebugRoom1StartCancel
 BranchHead:0
 EventLun:StorePreBattle:-1
-battle:81:1:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:False:False:False:VSnavi:17
+battle:81:1:4:1:1:1:1:0::0:2:5:1:1:1:1:0::0:2:4:2:1:1:1:0::0:0:1:False:False:False:False:VSnavi:40
 EventLun:RestorePostBattle:-1
 BranchEnd:
 BranchHead:1

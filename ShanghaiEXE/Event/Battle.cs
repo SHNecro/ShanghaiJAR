@@ -265,19 +265,6 @@ namespace NSEvent
                             e.version = 1;
                     }
                 }
-                else if (val != 0)
-                {
-                    // EX version handling
-                    if (e is Cirno || e is PyroMan || e is Mrasa || e is ScissorMan || e is Chen)
-                    {
-                        e.version = 5;
-                        e.version += (byte)val;
-                        if (e.version > 8)
-                            e.version = 8;
-                        if (e.version < 1)
-                            e.version = 1;
-                    }
-                }
 
                 e.number = number;
                 e.union = Panel.COLOR.blue;
@@ -290,9 +277,19 @@ namespace NSEvent
                     normalNavi.InitialName = this.name[number];
                     e = normalNavi;
                 }
+
+                var battleVersion = e.version;
+                // HP-only scaling for SP and normalnavi
                 e = EnemyBase.EnemyMake((int)this.enemy[number], e, true);
-                if (e.version == 0 || e is NormalNavi)
-                    e.HPplus(val * 100);
+                if (val != 0 && (battleVersion == 0 || e is NormalNavi))
+                {
+                    var initialHp = e.HpMax;
+                    var rawIncrease = initialHp / 5;
+                    var roundingValue = rawIncrease > 100 ? 100.0 : 20.0;
+                    var roundedIncrease = (int)(Math.Floor(rawIncrease / roundingValue) * roundingValue);
+                    var cappedTotalIncrease = (int)Math.Min(roundedIncrease * val, initialHp * 2);
+                    e.HPplus(cappedTotalIncrease);
+                }
             }
             return e;
         }

@@ -75,37 +75,22 @@ namespace NSEnemy
             for (int index = 0; index < this.dropchips.Length; ++index)
                 this.dropchips[index] = new ChipFolder(this.sound);
             this.element = ChipBase.ELEMENT.poison;
+            if (this.version != 1)
+            {
+                this.version = 8;
+            }
+
             switch (this.version)
 			{
-				case 0:
 				case 1:
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName1");
+                    this.name = ShanghaiEXE.Translate("Enemy.MimaName2");
                     this.power = 100;
                     this.hp = 3000;
                     this.moveroop = 1;
                     break;
-                case 2:
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName2");
-                    this.power = 40;
-                    this.hp = 1500;
-                    this.moveroop = 1;
-                    break;
-                case 3:
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName3");
-                    this.power = 100;
-                    this.hp = 2000;
-                    this.moveroop = 2;
-                    break;
-                case 4:
-                    this.nspeed = 1;
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName4");
-                    this.power = 200;
-                    this.hp = 2500;
-                    this.moveroop = 2;
-                    break;
                 default:
                     this.nspeed = 1;
-                    this.name = ShanghaiEXE.Translate("Enemy.MimaName5") + (version - 3).ToString();
+                    this.name = ShanghaiEXE.Translate("Enemy.MimaName1");
                     this.power = 200;
                     this.hp = 3000 + (version - 4) * 500;
                     this.moveroop = 3;
