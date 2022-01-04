@@ -27,7 +27,7 @@ jobs:
       shell: bash
       run: |
         mkdir deploy
-        mv html index.html deploy/
+        mv html deploy/
 
     - name: Deploy to GitHub pages
       uses: JamesIves/github-pages-deploy-action@4.1.0
