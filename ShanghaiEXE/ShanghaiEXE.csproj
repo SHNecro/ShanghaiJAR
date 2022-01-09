@@ -2463,6 +2463,9 @@
     <Content Include="ShanghaiEXE\Files\mod\music\âeâôâvâîü[âg.txt" />
     <Content Include="ShanghaiEXE\Files\mod\music\âTâôâvâï.txt" />
     <Content Include="Sounds\Music\looppoint.txt" />
+    <Content Include="ShanghaiEXE.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -2527,6 +2530,7 @@ cd "$(SolutionDir)$(OutDir)"
 mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
 rm *.exe *.exe.config *.dll *.dll.config
 mv ShanghaiEXE.execombined ShanghaiEXE.exe
+chmod +x "ShanghaiEXE.sh"
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
