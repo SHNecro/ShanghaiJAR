@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="KeyItem.CompressedDataName" Value="圧縮データ" />
   <Text Key="KeyItem.CompressedDataDescDialogue1" Value="ゲンソウエリアに埋まってた,謎が多い圧縮データね" />
@@ -98,22 +98,22 @@
   -->
   <Text Key="KeyItem.ReincarnationProgramName" Value="転生プログラム" />
   <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="スプライトをナビに転生させる,今では使われてない,特別なプログラムね" />
-  <Text Key="KeyItem.SecretKeyName" Value="[Secret Key]" />
-  <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="[An important-looking key.,Probably opens an,important-looking door.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.DarkKeyName" Value="[Dark Key]" />
-  <Dialogue Key="KeyItem.DarkKeyDescDialogue1" Value="[A key that pulses with an,ominous light.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.CrimDexName" Value="[CrimDex]" />
-  <Dialogue Key="KeyItem.CrimDexDescDialogue1" Value="[A discontinued battlechip,library extension which tracks,illegal or mutated chip data.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.TroubleshooterIDName" Value="[Troubleshooter ID]" />
-  <Dialogue Key="KeyItem.TroubleshooterIDDescDialogue1" Value="[A badge which marks its wearer,as someone who can be relied,upon to get things done.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.RoukankenName" Value="[Sword Data]" />
-  <Dialogue Key="KeyItem.RoukankenDescDialogue1" Value="[Sword-shaped data，detailing,the history and abilities,of a long-bladed katana.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.MirrorShardName" Value="[Mirror Shard]" />
-  <Dialogue Key="KeyItem.MirrorShardDescDialogue1" Value="[A sharp，jagged shard of a,shattered mirror.]" Face="None" Mono="False" />
-  <Dialogue Key="KeyItem.MirrorShardDescDialogue2" Value="[At certain angles it seems to,reflect light from a nonexistant,source.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.FreezeCoreName" Value="[FrzCore]" />
-  <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" Value="[A collection of FrzFrag，tightly,cemented into a solid mass.]" Face="None" Mono="False" />
-  <Text Key="KeyItem.OrderBookName" Value="[Order Book]" />
-  <Dialogue Key="KeyItem.OrderBookDescDialogue1" Value="[A slightly battered ledger of,transactions. At the bottom is a,very familiar order for rice.]" Face="None" Mono="False" />
-  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="[Following financial regulations，,the payment information is,heavily encrypted.]" Face="None" Mono="False" />
+  <Text Key="KeyItem.SecretKeyName" Value="秘密の鍵" />
+  <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="大事みたいな鍵よ,この鍵で開ける扉が,どこかにある筈よね" Face="None" Mono="False" />
+  <Text Key="KeyItem.DarkKeyName" Value="闇の鍵" />
+  <Dialogue Key="KeyItem.DarkKeyDescDialogue1" Value="禍々しく輝く鍵よ,深いウラから来た,としか思えない光ね" Face="None" Mono="False" />
+  <Text Key="KeyItem.CrimDexName" Value="クリムゾンライブラリ" />
+  <Dialogue Key="KeyItem.CrimDexDescDialogue1" Value="イリーガルや変種チップデータの,情報を記録する為に作られた,張版ライブラリみたいね" Face="None" Mono="False" />
+  <Text Key="KeyItem.TroubleshooterIDName" Value="万事屋ＩＤバッジ" />
+  <Dialogue Key="KeyItem.TroubleshooterIDDescDialogue1" Value="つけるとどんな事でも,解決してくれる人だと,思われそうなバッジね" Face="None" Mono="False" />
+  <Text Key="KeyItem.RoukankenName" Value="剣のデータ" />
+  <Dialogue Key="KeyItem.RoukankenDescDialogue1" Value="剣の形をしてるデータよ,大太刀や脇差の歴史や機能が,詳しく書かれているわね" Face="None" Mono="False" />
+  <Text Key="KeyItem.MirrorShardName" Value="鏡の欠片" />
+  <Dialogue Key="KeyItem.MirrorShardDescDialogue1" Value="壊れた鏡の欠片よ,手に取りたくないくらい,鈍いわね、これ" Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.MirrorShardDescDialogue2" Value="でもこの欠片、結構不思議よ,とある角度で見ると存在しない,所から光を照り返してる" Face="None" Mono="False" />
+  <Text Key="KeyItem.FreezeCoreName" Value="フリーズコア" />
+  <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" Value="フリーズの欠片が,沢山集まって固くなった,結晶みたいな物よ" Face="None" Mono="False" />
+  <Text Key="KeyItem.OrderBookName" Value="注文内訳書" />
+  <Dialogue Key="KeyItem.OrderBookDescDialogue1" Value="注文内容が書かれてる台帳よ,決済内訳は金融規定により,複雑に暗号化されてるけどね" Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="…てかちょっと待って,この下に米を注文した,内訳があるけど、これ内の話？" Face="None" Mono="False" />
 </data>
