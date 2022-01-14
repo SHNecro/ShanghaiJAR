@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <!-- Enemy -->
   <Text Key="Enemy.BakeBakeName1" Value="バケバケSP" />
@@ -308,17 +308,17 @@
   <Text Key="Enemy.BeetleManSpecial" Value="バグホール" />
   <Text Key="Enemy.BrocoolerSpecial" Value="オカタヅケ" />
   <Text Key="Enemy.HakutakuManSpecial" Value="ビーストアウト" />
-  <Text Key="Enemy.MimaSpecial" Value="デジョネイション" />
+  <Text Key="Enemy.MimaSpecial" Value="ヤミノウミ" />
   <Text Key="Enemy.YorihimeSpecial" Value="カミオロシ" />
 
-  <Text Key="Enemy.FlandreName1" Value="[Flandre]" />
-  <Text Key="Enemy.FlandreName2" Value="[FlandreV2]" />
-  <Text Key="Enemy.FlandreName3" Value="[FlandreV3]" />
-  <Text Key="Enemy.FlandreName4" Value="[FlandreSP]" />
+  <Text Key="Enemy.FlandreName1" Value="フランドール" />
+  <Text Key="Enemy.FlandreName2" Value="フランドールV2" />
+  <Text Key="Enemy.FlandreName3" Value="フランドールV3" />
+  <Text Key="Enemy.FlandreName4" Value="フランドールSP" />
 
-  <Text Key="Enemy.YuyukoName1" Value="[Yuyuko]" />
-  <Text Key="Enemy.YuyukoName2" Value="[YuyukoSP]" />
-  <Text Key="Enemy.YuyukoName3" Value="[YuyukoDS]" />
+  <Text Key="Enemy.YuyukoName1" Value="ユユコ" />
+  <Text Key="Enemy.YuyukoName2" Value="ユユコSP" />
+  <Text Key="Enemy.YuyukoName3" Value="ユユコDS" />
   
   <Text Key="Enemy.DruidManName" Value="ドルイドマン" />
   <Text Key="Enemy.DruidManNameV2" Value="ドルイドマンV2" />
@@ -327,9 +327,9 @@
   <Text Key="Enemy.DruidManNameSPPlus" Value="ドルイドマンSP" />
   <Text Key="Enemy.DruidManDarkSummonName" Value="リカコナビ" />
 
-  <Text Key="Enemy.MadmanName" Value="[Madman]" />
-  <Text Key="Enemy.MadmanSpecial" Value="[Enrage]" />
+  <Text Key="Enemy.MadmanName" Value="いかれたソウル" />
+  <Text Key="Enemy.MadmanSpecial" Value="オレヲオコラセタ" />
   
-  <Text Key="Enemy.HeavenBarrierName" Value="[Blocker]" />
-  <Text Key="Enemy.HeavenBarrierSpecial" Value="[Mitigate]" />
+  <Text Key="Enemy.HeavenBarrierName" Value="ノイズブロッカー" />
+  <Text Key="Enemy.HeavenBarrierSpecial" Value="イレギュラトリガ" />
 </data>
