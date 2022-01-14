@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <!-- Chip -->
   <Text Key="Chip.AquaStormName" Value="タイフーン" />
@@ -421,7 +421,7 @@
   <Text Key="Chip.MrasaXDesc" Value="敵１体に狙って,上から押し潰す,グレートアンカー！" />
   <Text Key="Chip.OkatazukeName" Value="オカタヅケ" />
   <Text Key="Chip.OkatazukeDesc" Value="自エリアを正常に,戻し互いの,置物を破壊する！" />
-  <Text Key="Chip.OmegaSaberName" Value="セットセイバー" />
+  <Text Key="Chip.OmegaSaberName" Value="オメガセイバー" />
   <Text Key="Chip.OmegaSaberDesc" Value="横２マスを３回,連続で斬り裂く,メシアの剣閃！" />
   <Text Key="Chip.PaladinLanceName" Value="パラディンランス" />
   <Text Key="Chip.PaladinLanceDesc" Value="前方２マスを,一気に貫く,聖騎士のヤリ！" />
@@ -657,7 +657,7 @@
   <Text Key="Chip.TortoiseManXDesc" Value="一番近い敵の,列とその奥の列に,マッドウェーブ！" />
   <Text Key="Chip.TrapNetName" Value="トラップネット" />
   <Text Key="Chip.TrapNetDesc" Value="踏むと足止め,するクモの巣を,３マス前に設置" />
-  <Text Key="Chip.TripleRodName" Value="ドールランス" />
+  <Text Key="Chip.TripleRodName" Value="トリプルロッド" />
   <Text Key="Chip.TripleRodDesc" Value="１マスずつ伸び,３連攻撃する,エイユウの戦槍！" />
   <Text Key="Chip.TwinHeroinesName" Value="ツインヒロインズ" />
   <Text Key="Chip.TwinHeroinesDesc" Value="シャンハイと,ヨリヒメが全体に,超連続攻撃！" />
@@ -711,7 +711,7 @@
   <Text Key="Chip.DruidManXDesc" Value="すべての商攵カら,ＨＰを穿い取る,ベノムドレイン!" />
   <Text Key="Chip.ZeroKnuckleName" Value="カゲクラウ" />
   <Text Key="Chip.ZeroKnuckleDesc" Value="目の前にナックル,敵からチップを,奪い取る！" />
-  <Text Key="Chip.ZSaberName" Value="ドールセイバー" />
+  <Text Key="Chip.ZSaberName" Value="ゼットセイバー" />
   <Text Key="Chip.ZSaberDesc" Value="横２マスを３回,連続で斬り裂く,エイユウの剣閃！" />
   <Text Key="Chip.VrsBall1Name" Value="ウィルスボール１" />
   <Text Key="Chip.VrsBall1Desc" Value="トドメに使うと,ウィルスを捕獲,するボール" />
@@ -723,18 +723,18 @@
   <Text Key="Chip.VrsBall3Desc" Value="トドメに使うと,ウィルスを捕獲,するボール" />
   <Text Key="Chip.VrsBall3FilledDesc" Value="直前にいたマスに,３ターン援護する,ウィルスを召喚！" />
 
-  <Text Key="Chip.DarkFlaeName" Value="[DrkFlare]" />
-  <Text Key="Chip.DarkFlaeDesc" Value="[UNLEASH,EXTREME,FLAMES]" />
-  <Text Key="Chip.MimaDSName" Value="[MimaDS]" />
-  <Text Key="Chip.MimaDSDesc" Value="[REND APART,ALL WITH,DARKNESS]" />
-  <Text Key="Chip.RanDSName" Value="[RanDS]" />
-  <Text Key="Chip.RanDSDesc" Value="[OVERWHELM,WITH DARK,BARRAGE]" />
-  <Text Key="Chip.YorihimeDSName" Value="[YorihimDS]" />
-  <Text Key="Chip.YorihimeDSDesc" Value="[CRUSH ENEMY,WITH GRAND,BREAKER]" />
-  <Text Key="Chip.UthuhoDSName" Value="[UtsuhoDS]" />
-  <Text Key="Chip.UthuhoDSDesc" Value="[BLAST WITH,RAVENOUS,FLAMES]" />
-  <Text Key="Chip.FlandreDSName" Value="[FlandreDS]" />
-  <Text Key="Chip.FlandreDSDesc" Value="[THE POWER,THAT BREAKS,ANYTHING]" />
+  <Text Key="Chip.DarkFlaeName" Value="ダークフレア" />
+  <Text Key="Chip.DarkFlaeDesc" Value="オマエノアイテヲ,ジゴクノホノオデ,ジョウカセヨ" />
+  <Text Key="Chip.MimaDSName" Value="ミマDS" />
+  <Text Key="Chip.MimaDSDesc" Value="アサハカモノタチ,ヤミノウミニ,シズムガヨイ" />
+  <Text Key="Chip.RanDSName" Value="ランDS" />
+  <Text Key="Chip.RanDSDesc" Value="ヤミノダンマクデ,オノレノテキヲ,ハチノスニセヨ" />
+  <Text Key="Chip.YorihimeDSName" Value="ヨリヒメDS" />
+  <Text Key="Chip.YorihimeDSDesc" Value="キュウキョクノ,イチゲキデテキヲ,フンサイシホロボセ" />
+  <Text Key="Chip.UthuhoDSName" Value="ウツホDS" />
+  <Text Key="Chip.UthuhoDSDesc" Value="ジゴクノゴウカハ,ナニモノコセズ,ハイニカエス････" />
+  <Text Key="Chip.FlandreDSName" Value="フランドールDS" />
+  <Text Key="Chip.FlandreDSDesc" Value="ドンナモノダロウト,カノジョノマエデハ,ムリョクナダケダ" />
 
   <Text Key="Chip.ErrorName" Value="ERROR" />
   <Text Key="Chip.ErrorDesc" Value="MSG NOT USED" />
