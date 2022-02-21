@@ -332,4 +332,7 @@
   
   <Text Key="Enemy.HeavenBarrierName" Value="[Blocker]" />
   <Text Key="Enemy.HeavenBarrierSpecial" Value="[Mitigate]" />
+
+  <Text Key="Enemy.CirnoBXName" Value="[CirnoBX]" />
+  <Text Key="Enemy.CirnoDXName" Value="[CirnoDX]" />
 </data>
