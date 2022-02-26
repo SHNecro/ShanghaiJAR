@@ -774,7 +774,6 @@ namespace NSEnemy
 
             var hitmarkedAnimationPoint = this.whitetime == 0 ? this.animationpoint : this.animationpoint.WithOffset(0, 1);
             dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedAnimationPoint.X), FrameCoordY(hitmarkedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, this.color);
-			this.HPRend(dg);
 			this.Nameprint(dg, this.printNumber);
 		}
 

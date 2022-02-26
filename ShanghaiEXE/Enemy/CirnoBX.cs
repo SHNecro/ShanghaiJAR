@@ -19,44 +19,10 @@ namespace NSEnemy
 {
     internal class CirnoBX : NaviBase
     {
-        private const int IdleFrames = 4;
-
         private static readonly Rectangle FullFrameRect = new Rectangle(0, 0, 96, 128);
         private static readonly Vector2 SpriteOffset = new Vector2(20, 52);
         
         private static readonly Vector2 HPOffset = new Vector2(0, -48);
-
-        private static readonly Animation[] WaveAnimation =
-        {
-            new Animation { Frame = 0, Delay = 4 },
-            new Animation { Frame = 1, Delay = 2 },
-            new Animation { Frame = 2, Delay = 4, IsCounter = true },
-            new Animation { Frame = 3, Delay = 2, IsCounter = true },
-            new Animation { Frame = 4, Delay = 4, IsCounter = true },
-            new Animation { Frame = 5, Delay = 4, IsCounter = true },
-            new Animation { Frame = 6, Delay = 2, IsCounter = true },
-            new Animation { Frame = 7, Delay = 2, IsCounter = true },
-            new Animation { Frame = 8, Delay = 4 },
-            new Animation { Frame = 9, Delay = 2 },
-            new Animation { Frame = 10, Delay = 4 },
-            new Animation { Frame = 11, Delay = 4 },
-        };
-        private static readonly IEnumerable<Tuple<Animation, int>> WaveAnimationFrameTimings = WaveAnimation.ToFrameTimings();
-
-        private static readonly Animation[] BurstAnimation =
-        {
-            new Animation { Frame = 0, Delay = 2, IsCounter = true },
-            new Animation { Frame = 1, Delay = 4, IsCounter = true },
-            new Animation { Frame = 2, Delay = 6, IsCounter = true },
-            new Animation { Frame = 3, Delay = 3, IsCounter = true },
-            new Animation { Frame = 4, Delay = 2, IsCounter = true },
-            new Animation { Frame = 5, Delay = 2 },
-            new Animation { Frame = 6, Delay = 3 },
-            new Animation { Frame = 7, Delay = 3 },
-            new Animation { Frame = 8, Delay = 3 },
-            new Animation { Frame = 9, Delay = 4 }
-        };
-        private static readonly IEnumerable<Tuple<Animation, int>> BurstAnimationFrameTimings = BurstAnimation.ToFrameTimings();
 
         private int idleDelay;
         private int idleDelayBase;
@@ -79,6 +45,15 @@ namespace NSEnemy
         private int diveFeatherDelay;
         private int diveFeatherCount;
         private int diveFeatherSets;
+
+        private int crossDiveWarningFrames;
+        private int crossDiveInitialDelayFrames;
+        private int crossDiveDiagonalPassFrames;
+        private int crossDiveCircleBackDelayFrames;
+        private int crossDiveEndFlightFrames;
+        private bool crossDiveDirectionBottomUp;
+        private int crossDiveCenterX;
+        private bool crossDiveReverse;
 
         private int diveWeight;
         private int crossDiveWeight;
@@ -200,6 +175,12 @@ namespace NSEnemy
                     break;
                 case MOTION.knockback:
                     this.counterTiming = false;
+                    this.nohit = false;
+                    this.effecting = false;
+                    this.printhp = true;
+                    this.rend = true;
+                    this.overMove = false;
+                    this.detachedShadow = false;
                     if (this.positionReserved != null)
                     {
                         this.position = this.positionReserved.Value;
@@ -217,6 +198,7 @@ namespace NSEnemy
                             this.positionDirect.Y -= 1;
                             break;
                         case 21:
+
                             this.Motion = MOTION.neutral;
                             break;
                     }
@@ -416,9 +398,6 @@ namespace NSEnemy
 											
 											this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.diveTargetPosition));
 										}
-//										else if (this.attackWaitTime > 38 + diveToTargetFrames && this.attackWaitTime < 38 + diveToTargetFrames + this.diveRestFrames)
-//										{
-//										}
 										else if (this.attackWaitTime >= 38 + diveToTargetFrames + this.diveRestFrames)
 										{
 											this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
@@ -440,16 +419,231 @@ namespace NSEnemy
                                     // movement effect on takeoff
                                     // reserve position
                                     // ? ice powerup? no visual effects
-                                    switch (this.attackWaitTime)
+
+                                    // TODO: detach shadow
+                                    if (!this.crossDiveReverse)
                                     {
-                                        case 0:
-                                            this.animationpoint = new Point(0, 2);
-                                            break;
-                                        case 60:
+                                        if (this.attackWaitTime == 0)
+                                        {
+                                            this.printhp = false;
+                                            this.rend = false;
+                                            this.nohit = true;
+                                            this.overMove = true;
+
+                                            this.positionReserved = this.position;
+
+                                            this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
+                                        }
+                                        else if (this.attackWaitTime < this.crossDiveInitialDelayFrames)
+                                        {
+                                            ;
+                                        }
+                                        else if (this.attackWaitTime == this.crossDiveInitialDelayFrames)
+                                        {
+                                            var target = this.RandomTarget();
+                                            this.crossDiveCenterX = target.X < 3 ? 1 : target.X;
+                                            
+                                            var bottomUpIfEligible = Random.Next() % 2 == 0;
+                                            for (var y = 0; y < 3; y++)
+                                            {
+                                                var tiltLeft = bottomUpIfEligible ^ this.union == Panel.COLOR.blue;
+                                                var xOffForY = (1 - y) * (tiltLeft ? 1 : -1);
+                                                var targetMissed = true;
+                                                for (var xOff = -1; xOff < 2; xOff++)
+                                                {
+                                                    var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
+                                                    if (point == target)
+                                                    {
+                                                        targetMissed = false;
+                                                        break;
+                                                    }
+                                                }
+                                                bottomUpIfEligible ^= targetMissed;
+                                            }
+
+                                            this.crossDiveDirectionBottomUp = bottomUpIfEligible;
+                                            this.animationpoint = this.crossDiveDirectionBottomUp ? new Point(2, 2) : new Point(3, 2);
+
+
+                                            var targetPositionDirect = new Vector2(40 * this.crossDiveCenterX, 24 * 1);
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.PI - Math.Atan(24.0 / 40.0)
+                                                : Math.Atan(24.0 / 40.0)) );
+                                            if (!this.crossDiveDirectionBottomUp)
+                                            {
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
+
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            var pixelsFromTargetPosition = pixelsPerFrame * (this.crossDiveDiagonalPassFrames * 0.5 + this.crossDiveWarningFrames);
+                                            this.positionDirect = new Vector2(
+                                                (float)(targetPositionDirect.X + Math.Cos(angle) * -pixelsFromTargetPosition),
+                                                (float)(targetPositionDirect.Y + Math.Sin(angle) * pixelsFromTargetPosition));
+
+                                            // create warning flashes
+                                            for (var y = 0; y < 3; y++)
+                                            {
+                                                var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                                var xOffForY = (1 - y) * (tiltLeft ? 1 : -1);
+                                                for (var xOff = -1; xOff < 2; xOff++)
+                                                {
+                                                    var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
+                                                    if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
+                                                    {
+                                                        continue;
+                                                    }
+
+                                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, point.X, point.Y, this.union, Point.Empty, this.crossDiveWarningFrames, true));
+                                                }
+                                            }
+
+                                            this.printhp = true;
+                                            this.rend = true;
+                                            this.nohit = false;
+                                        }
+                                        else if (this.attackWaitTime < this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveCircleBackDelayFrames)
+                                        {
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.PI - Math.Atan(24.0 / 40.0)
+                                                : Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
+                                            {
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
+
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            this.positionDirect += new Vector2(
+                                                (float)(Math.Cos(angle) * pixelsPerFrame),
+                                                (float)(Math.Sin(angle) * -pixelsPerFrame));
+                                            var yPosition = (int)Math.Round(this.positionDirect.Y / 24);
+                                            var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                            var xOffForY = (1 - yPosition) * (tiltLeft ? 1 : -1);
+                                            this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
+                                            this.effecting = true;
+
+                                            this.detachedShadow = (this.positionDirect.Y > 0 && this.positionDirect.Y < 24 * 3);
+
+                                            if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
+                                            {
+                                                this.nohit = true;
+                                                this.effecting = false;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            var targetPositionDirect = new Vector2(40 * this.crossDiveCenterX, 24 * 1);
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.Atan(24.0 / 40.0)
+                                                : Math.PI - Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
+                                            {
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
+
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            var pixelsFromTargetPosition = pixelsPerFrame * (this.crossDiveDiagonalPassFrames * 0.5 + this.crossDiveWarningFrames);
+                                            this.positionDirect = new Vector2(
+                                                (float)(targetPositionDirect.X + Math.Cos(angle) * -pixelsFromTargetPosition),
+                                                (float)(targetPositionDirect.Y + Math.Sin(angle) * pixelsFromTargetPosition));
+
+                                            // create warning flashes
+                                            for (var y = 0; y < 3; y++)
+                                            {
+                                                var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                                var xOffForY = (1 - y) * (tiltLeft  ? -1 : 1 );
+                                                for (var xOff = -1; xOff < 2; xOff++)
+                                                {
+                                                    var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
+                                                    if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
+                                                    {
+                                                        continue;
+                                                    }
+
+                                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, point.X, point.Y, this.union, Point.Empty, this.crossDiveWarningFrames, true));
+                                                }
+                                            }
+
+                                            this.crossDiveReverse = true;
+                                            this.attackWaitTime = 0;
+                                            this.nohit = false;
+                                            this.HitFlagReset();
+                                        }
+                                    }
+                                    else
+                                    {
+                                        // starts at warningframes
+                                        if (this.attackWaitTime < this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveEndFlightFrames)
+                                        {
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.Atan(24.0 / 40.0)
+                                                : Math.PI - Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
+                                            {
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
+
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            this.positionDirect += new Vector2(
+                                                (float)(Math.Cos(angle) * pixelsPerFrame),
+                                                (float)(Math.Sin(angle) * -pixelsPerFrame));
+                                            var yPosition = (int)Math.Round(this.positionDirect.Y / 24);
+                                            var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                            var xOffForY = (1 - yPosition) * (tiltLeft ? -1 : 1);
+                                            this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
+                                            this.effecting = true;
+
+                                            this.detachedShadow = (this.positionDirect.Y > 0 && this.positionDirect.Y < 24 * 3);
+
+                                            if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
+                                            {
+                                                this.nohit = true;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect + SpriteOffset, new Point(0, 0)));
+
+                                            this.nohit = false;
+                                            this.effecting = false;
+                                            this.overMove = false;
+                                            this.position = this.positionReserved.Value;
+                                            this.positionReserved = null;
                                             this.AttackMotion = AttackState.Cooldown;
                                             this.AttackCooldownSet();
-                                            break;
+                                            this.crossDiveReverse = false;
+                                            this.PositionDirectSet();
+                                            this.HitFlagReset();
+                                        }
                                     }
+                                    
+                                    if (this.effecting)
+                                    {
+                                        var trailingX = this.crossDiveReverse ^ this.union == Panel.COLOR.red ? -1 : 1;
+                                        var trailingY = this.crossDiveDirectionBottomUp ? 1 : -1;
+                                        var offsets = new List<Point>
+                                        {
+                                            new Point(0, 0),
+                                            new Point(trailingX, 0),
+                                            new Point(0, trailingY),
+                                            new Point(trailingX, trailingY)
+                                        };
+
+                                        foreach (var offset in offsets)
+                                        {
+                                            var point = this.position.WithOffset(offset);
+                                            if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
+                                            {
+                                                continue;
+                                            }
+
+                                            this.AttackMake(this.Power, offset.X, offset.Y, true);
+                                        }
+                                    }
+
                                     break;
                                 case AttackType.IceCrash:
                                     switch (this.attackWaitTime)
@@ -537,9 +731,9 @@ namespace NSEnemy
                 dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(shadowFramePoint.X), FrameCoordY(shadowFramePoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, detachedShadowPositionDirect, this.color);
             }
 
+            var reversed = this.crossDiveReverse;
             var hitmarkedAnimationPoint = this.whitetime == 0 ? this.animationpoint : this.animationpoint.WithOffset(6, 0);
-            dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedAnimationPoint.X), FrameCoordY(hitmarkedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, this.color);
-            this.HPRend(dg);
+            dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedAnimationPoint.X), FrameCoordY(hitmarkedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
             this.Nameprint(dg, this.printNumber);
         }
 
@@ -610,7 +804,7 @@ namespace NSEnemy
         private void SetDefaultVersionStats()
         {
             this.name = ShanghaiEXE.Translate("Enemy.CirnoBXName");
-            this.power = 200;
+            this.power = 100;
             this.hp = 200;
             this.picturename = "CirnoBX";
             this.element = ChipBase.ELEMENT.aqua;
@@ -632,8 +826,14 @@ namespace NSEnemy
             this.diveFeatherCount = 3;
             this.diveFeatherSets = 2;
 
-            this.diveWeight = 5;
-            this.crossDiveWeight = 0;
+            this.crossDiveWarningFrames = 20;
+            this.crossDiveInitialDelayFrames = 45;
+            this.crossDiveDiagonalPassFrames = 15;
+            this.crossDiveCircleBackDelayFrames = 5;
+            this.crossDiveEndFlightFrames = 30;
+
+            this.diveWeight = 0;
+            this.crossDiveWeight = 1;
             this.iceCrashWeight = 0;
             this.spinWeight = 0;
             this.powerUpWeight = 0;
@@ -760,76 +960,6 @@ namespace NSEnemy
             IceCrash,
             Spin,
             PowerUp
-        }
-
-        private class DiveFeatherSwingSpawner : AttackBase
-        {
-            private static readonly int[][] LPatternOffsets = { new[] { 0, -1 }, new[] { 0, 0 }, new[] { 0, 1 }, new[] { 1, 1 } };
-
-            private int hittime;
-            private int hitdelay;
-            private int swingCount;
-
-            private bool inverseSwingPattern;
-
-            private CharacterBase targetedEnemy;
-
-            public DiveFeatherSwingSpawner(
-                IAudioEngine so,
-                SceneBattle p,
-                Panel.COLOR u,
-                int po,
-                int hittime,
-                int hitdelay,
-                int swingCount,
-                ChipBase.ELEMENT ele)
-                : base(so, p, 0, 0, u, po, ele)
-            {
-                this.hittime = hittime;
-                this.hitdelay = hitdelay;
-                this.swingCount = swingCount;
-
-                var targets = p.AllChara().Where(c => c.union != this.union);
-                if (targets.Any())
-                {
-                    var selectedEnemyIndex = Random.Next(0, targets.Count());
-                    this.targetedEnemy = targets.Skip(selectedEnemyIndex).First();
-                }
-
-                this.inverseSwingPattern = Random.Next() % 2 == 0;
-            }
-
-            public override void Updata()
-            {
-                if (this.frame / this.hitdelay >= this.swingCount)
-                {
-                    this.flag = false;
-                    return;
-                }
-
-                if (this.frame % this.hitdelay == 0)
-                {
-                    var mainTarget = targetedEnemy?.position ?? this.RandomTarget();
-                    var targets = new List<Point>();
-
-                    var flippedL = this.inverseSwingPattern ^ ((this.frame / this.hitdelay) % 2 == 0);
-
-                    var orderedOffsets = mainTarget.Y == 1 ? LPatternOffsets : LPatternOffsets.Reverse();
-
-                    foreach (var o in orderedOffsets)
-                    {
-                        targets.Add(new Point(mainTarget.X + o[0], 1 + (o[1] * (flippedL ? -1 : 1))));
-                    }
-
-                    var sharedAngle = DiveFeather.GenerateRandomAngle(Random, this.union);
-                    foreach (var target in targets)
-                    {
-                        this.parent.attacks.Add(new DiveFeather(this.sound, this.parent, target.X, target.Y, this.union, this.power, this.hittime, this.element, sharedAngle));
-                    }
-                }
-
-                this.FlameControl();
-            }
         }
 
         private class DiveFeatherSpawner : AttackBase
@@ -1079,7 +1209,10 @@ namespace NSEnemy
             {
                 const double MinAngle = 30;
                 const double MaxAngle = 60;
-                return (float)(rand.NextDouble() * (MaxAngle - MinAngle) + MinAngle + (union == Panel.COLOR.blue ? 0 : 90));
+
+                var randomAngle = rand.NextDouble() * (MaxAngle - MinAngle) + MinAngle;
+
+                return (float)(union == Panel.COLOR.blue ? randomAngle : 90 - randomAngle);
             }
 
             private static double NextGaussian(Random r, double mean = 0, double stddev = 1)
