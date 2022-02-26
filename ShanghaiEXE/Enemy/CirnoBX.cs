@@ -51,6 +51,8 @@ namespace NSEnemy
         private int crossDiveDiagonalPassFrames;
         private int crossDiveCircleBackDelayFrames;
         private int crossDiveEndFlightFrames;
+        private int crossDiveEntryFramesBeforeCounter;
+        private int crossDiveCounterFrames;
         private bool crossDiveDirectionBottomUp;
         private int crossDiveCenterX;
         private bool crossDiveReverse;
@@ -527,6 +529,12 @@ namespace NSEnemy
                                             this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
                                             this.detachedShadow = !this.nohit;
 
+                                            var diagonalPassStart = this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames;
+
+                                            // counter ignores already-present attacks, must hit just after entering
+                                            this.counterTiming = this.attackWaitTime > diagonalPassStart + this.crossDiveEntryFramesBeforeCounter
+                                                && this.attackWaitTime <= diagonalPassStart + this.crossDiveEntryFramesBeforeCounter + this.crossDiveCounterFrames;
+
                                             if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
                                             {
                                                 this.effecting = false;
@@ -828,6 +836,8 @@ namespace NSEnemy
             this.crossDiveDiagonalPassFrames = 15;
             this.crossDiveCircleBackDelayFrames = 5;
             this.crossDiveEndFlightFrames = 30;
+            this.crossDiveEntryFramesBeforeCounter = 1;
+            this.crossDiveCounterFrames = 15;
 
             this.diveWeight = 0;
             this.crossDiveWeight = 1;
