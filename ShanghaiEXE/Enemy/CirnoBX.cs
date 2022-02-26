@@ -181,6 +181,7 @@ namespace NSEnemy
                     this.rend = true;
                     this.overMove = false;
                     this.detachedShadow = false;
+                    this.superArmor = false;
                     if (this.positionReserved != null)
                     {
                         this.position = this.positionReserved.Value;
@@ -429,6 +430,7 @@ namespace NSEnemy
                                             this.rend = false;
                                             this.nohit = true;
                                             this.overMove = true;
+                                            this.superArmor = true;
 
                                             this.positionReserved = this.position;
 
@@ -500,7 +502,6 @@ namespace NSEnemy
 
                                             this.printhp = true;
                                             this.rend = true;
-                                            this.nohit = false;
                                         }
                                         else if (this.attackWaitTime < this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveCircleBackDelayFrames)
                                         {
@@ -523,11 +524,11 @@ namespace NSEnemy
                                             this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
                                             this.effecting = true;
 
-                                            this.detachedShadow = (this.positionDirect.Y > 0 && this.positionDirect.Y < 24 * 3);
+                                            this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
+                                            this.detachedShadow = !this.nohit;
 
                                             if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
                                             {
-                                                this.nohit = true;
                                                 this.effecting = false;
                                             }
                                         }
@@ -568,7 +569,6 @@ namespace NSEnemy
 
                                             this.crossDiveReverse = true;
                                             this.attackWaitTime = 0;
-                                            this.nohit = false;
                                             this.HitFlagReset();
                                         }
                                     }
@@ -596,12 +596,8 @@ namespace NSEnemy
                                             this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
                                             this.effecting = true;
 
-                                            this.detachedShadow = (this.positionDirect.Y > 0 && this.positionDirect.Y < 24 * 3);
-
-                                            if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
-                                            {
-                                                this.nohit = true;
-                                            }
+                                            this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
+                                            this.detachedShadow = !this.nohit;
                                         }
                                         else
                                         {
@@ -610,6 +606,7 @@ namespace NSEnemy
                                             this.nohit = false;
                                             this.effecting = false;
                                             this.overMove = false;
+                                            this.superArmor = false;
                                             this.position = this.positionReserved.Value;
                                             this.positionReserved = null;
                                             this.AttackMotion = AttackState.Cooldown;
