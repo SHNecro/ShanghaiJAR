@@ -1,26 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.UraNet7Name" Value="ウラインターネット７" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneLockedDialogue1" Value="[A light shines from just above,this massive floating stone.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneLockedDialogue2" Value="[It’s too bright to make out any,details.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgamePunkDialogue1" Value="[Agh! You startled me!,....Ugh，I’m just not feeling the,whole “Boo，outsiders!” thing.]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgamePunkDialogue2" Value="[I come out here to just unwind,sometimes. I dunno.,It’s peaceful.]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1" Value="[All we’ve found up here is this,giant rock，though.,Any clues，Shanghai?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue2" Value="[Nope，nothing.,We’ll have to look somewhere,else.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue3" Value="[I’m sure we’ll figure it out.,It seemed odd for Heaven to,be in the Undernet anyways.]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue4" Value="[Really?,Huh，how so?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue5" Value="[I mean， the Undernet’s,kinda.... evil? You get what I,mean，right?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue6" Value="[Not really....?,Some of these guys are pretty,fun，actually.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue7" Value="[I don’t know what I expected....,....Hold on a second. Is it just,me，or did it get brighter?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue8" Value="[Hm?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue9" Value="[Agh!,My eyes!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage2Dialogue1" Value="[Shanghai!,Are you seeing this?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage2Dialogue2" Value="[Hold on，hold on....,I’m still seeing spots....]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue1" Value="[Wow....,This is it，Shanghai!,We found Heaven!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue2" Value="[I’ll admit，this does seem more,“heaven-like”.,Just wish it wasn’t so.... flashy.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1Edited" Value="[Huh，I was sure we were on,the right track.,Heaven，high up，perfect fit.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue3" Value="[Let’s go see what the big,deal is.]" Face="Shanghai" Mono="False" />
-  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText1" Value="[....YOU WHO HAVE BEEN MARKED....]" />
-  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText2" Value="[....BY ANOTHER WORLD....]" />
-  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText3" Value="[....ENTER....]" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneLockedDialogue1" Value="この浮いてる巨大な,石の上から光が差してる" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneLockedDialogue2" Value="光が明るい過ぎて,その上の姿は何も見えない" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgamePunkDialogue1" Value="だっ！驚かすなよ！,････うぅ、こんな形で表の人に,驚かされるのは至って嫌いだよ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgamePunkDialogue2" Value="たまに気分転換の為にここに,来るよ。なんだか分からんけど,なんか平和だしな、ここ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1" Value="ここにはこの巨大な,岩しかいないけど････,シャンハイ、何か手掛かりは？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue2" Value="別に無いわね,別の所を探すのが良さそうよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue3" Value="流石にそっちの方が良さそうね,ウラインターネットに天国が,あるなんて考えにくいし" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue4" Value="本当？,どうやって？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue5" Value="だって、ウラインターネットは････,「悪い」場所だから？まあ、,そんな感じで言ってみたけど" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue6" Value="悪いとはいえ,面白いのもそれなりに,ある場所だけどね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue7" Value="私だって何を考えたか分から････,････ってかちょっと待って,今少し明るくなってない？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue8" Value="ふむ？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue9" Value="ギャッ！,眩しい！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage2Dialogue1" Value="シャンハイ！,これは一体････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage2Dialogue2" Value="落ち着いて、アリス････,あたしにも見えるわよ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue1" Value="信じられない････,見つけたわね、シャンハイ！,ネットにある天国を！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue2" Value="こんなに眩しく騒がらなくても,良かったけど････これならもっと,「天国」みたいだと言えるわね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage1Dialogue1Edited" Value="天国なら高い所にあるのが,ピッタリだと思って,ここに来たけど････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.UraNet7PostgameKeystoneUnlockStage3Dialogue3" Value="どんなに騒ぎな場所なのか,入ってみよう" Face="Shanghai" Mono="False" />
+  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText1" Value="････別の次元の世界に････" />
+  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText2" Value="････選ばれたもの達よ････" />
+  <Text Key="Map.UraNet7PostgameKeystoneUnlockStage2WhiteoutText3" Value="････ようこそ、天国へ････" />
 </data>
