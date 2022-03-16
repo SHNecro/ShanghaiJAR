@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.Hospital2fRoomName" Value="八意総合病院　病室" />
   <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue1FaceTenshi" Value="わーい！,みんな来てくれて,ありがとうなのよ！" Face="Tenshi" Mono="False" />
@@ -70,17 +70,17 @@
   <Dialogue Key="Map.Hospital2fRoomHidingCharactersStage1Dialogue1FaceNaviBlackRobe" Value="ウォォォン････,口惜しや口惜しや････" Face="NaviBlackRobe" Mono="False" />
   <!-- 必ずやこの力でわが怨敵に鉄槌を････ -->
   <Dialogue Key="Map.Hospital2fRoomHidingCharactersStage1Dialogue2FaceNaviBlackRobe" Value="必ずやこの力で,わが怨敵に鉄槌を････" Face="NaviBlackRobe" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue1" Value="[Are you feeling alright，Satori?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue2" Value="[Nothing to worry about，Alice.,I’m better now than I ever,remember being.]" Face="SatoriSeeing" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue3" Value="[That’s wonderful to hear，,Satori.,I’m so glad.]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue4" Value="[Anyways，Doctor Yagokoro,mentioned that you wanted to,talk about something?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue5" Value="[Oh.... I’m sorry if you came all,this way just for that，it’s really,just something silly....]" Face="SatoriSeeing" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue6" Value="[No，no， it was no trouble at all!,I’m always happy to come visit,a friend!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue7" Value="[A friend....,Thank you，Alice.]" Face="SatoriSeeing" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue8" Value="[And Shanghai，too!,What Satori wants to say，is,that we want to get strong，too!]" Face="Rin" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue9" Value="[Strong enough so nobody,can hurt Satori again!]" Face="Rin" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue10" Value="[It may be far in the future，but,some day we’ll challenge you,and prove our strength.]" Face="SatoriSeeing" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue11" Value="[Of course!,But please don’t push yourself，,Satori!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestAfterDialogue1" Value="[Rin and I have been catching,up on all that we’ve missed,while I was ill.]" Face="SatoriSeeing" Mono="False" />
-  <Dialogue Key="Map.Hospital2fRoomPostRequestAfterDialogue2" Value="[Just you wait，we’ll be strong,enough to challenge you in,no time!]" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue1" Value="調子はどうですか、,さとりさん？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue2" Value="心配しなくても大丈夫です、,アリスさん。今まで覚えてる,間より遥かに調子が良いです" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue3" Value="それは良かったんです、さとりさん,何より無事で････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue4" Value="そういえば、私に言いたい,ことがあるって八意先生から,聞いて来ましたけど" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue5" Value="あら････大したことではありません,なのでわざわざここまで脚を運ぶ,必要は無かったんですのに････" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue6" Value="いいえ、大丈夫ですって！,友達に会いに行くのは,当たり前でしょう？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue7" Value="友達････ですか,アリスさん････ありがとう" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue8" Value="そしてシャンハイにもありがとう！,さとりが言いたかったのは," Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue9" Value="私達も強くなりたい！,さとりが傷付かないようにね！" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue10" Value="結構遠くの話になりそうですが、,いつかあなた達にも,挑めてみたい････と思います" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue11" Value="勿論ですとも！,でも無理はしちゃ駄目ですよ、,さとりさん" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestAfterDialogue1" Value="最近リンと色々学んでいます,病院にいた間見逃したのが,多かったんですので" Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestAfterDialogue2" Value="待ってなさいよね！,あんた達にも挑めるように,実力をつけ続けるから！" Face="Rin" Mono="False" />
 </data>
