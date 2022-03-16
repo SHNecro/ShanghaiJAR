@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 八意総合病院1F -->
   <Text Key="Map.Hospital1fName" Value="八意総合病院1F" />
@@ -258,5 +258,5 @@
   <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue8FaceEirin" Value="時間のあるときにお見舞いに,行ってあげたら,喜ぶんじゃない？" Face="Eirin" Mono="False" />
   <!-- わかりました！ -->
   <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue9FaceAlice" Value="わかりました！" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Hospital1fHospitalCh5EirinTalkReminder" Value="[It’d be a bit rude to go home,while that doctor’s waiting for,us by the vending machine.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital1fHospitalCh5EirinTalkReminder" Value="自動販売機の隣で,医者さんが待ってるのに,帰るのって酷くない？" Face="Shanghai" Mono="False" />
 </data>
