@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 天子の部屋 -->
   <Text Key="Map.TenkoRoomName" Value="天子の部屋" />
@@ -140,6 +140,6 @@
   <Dialogue Key="Map.TenkoRoomTableStage1Dialogue1FaceNone" Value="こたつとしての機能を取られた,こたつテーブルだ" Face="None" Mono="False" />
   <!-- 人の動きを封じる毛布と冬場を乗り切る熱を失っても頑丈さは失われることはない -->
   <Dialogue Key="Map.TenkoRoomTableStage1Dialogue2FaceNone" Value="人の動きを封じる毛布と,冬場を乗り切る熱を失っても,頑丈さは失われることはない" Face="None" Mono="False" />
-  <Dialogue Key="Map.TenkoRoomPostGameTenshiDialogue1" Value="[Every once in a while I feel like,this is all one very good dream，,and that I’m about to wake up....]" Face="Tenshi" Mono="False" />
-  <Dialogue Key="Map.TenkoRoomPostGameTenshiDialogue2" Value="[But even if this is a dream，I’m,happy to have had it!,Right，Iku?]" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.TenkoRoomPostGameTenshiDialogue1" Value="たまにこの全てがまるで,目覚め一歩の甘過ぎる,夢みたいに感じる時があるのよ" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.TenkoRoomPostGameTenshiDialogue2" Value="でも例えこれが夢だとしても,こんな夢が見られて私は幸せなのよ,そうよね、イク？" Face="Tenshi" Mono="False" />
 </data>
