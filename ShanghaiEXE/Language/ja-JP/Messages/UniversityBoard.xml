@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.UniversityBoard1Dialogue1None" Value="バトル掲示板へようこそ,管理人のヤンファンと言います" Face="None" Mono="False" />
   <Dialogue Key="Messages.UniversityBoard1Dialogue2None" Value="多発するネット犯罪や,ウィルスに負けないように　" Face="None" Mono="False" />
@@ -149,15 +149,15 @@
   <Dialogue Key="Messages.UniversityBoard39Dialogue1None" Value="マイナスアドオン！,そんないいものが！" Face="None" Mono="False" />
   <Dialogue Key="Messages.UniversityBoard39Dialogue2None" Value="友達からもらった紫色の,アドオン怖くて使って,なかったんだー！" Face="None" Mono="False" />
   <Dialogue Key="Messages.UniversityBoard39Dialogue3None" Value="マイナス効果を消すのって,面白そうですね！,研究してみます！" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard20NewDialogue1None" Value="[Greetings， all!,Any pro virus hunters here able,to help a newbie out?]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard20NewDialogue2None" Value="[I’m starting off easy，looking for,a KedamaSP in Genso Area 1，,but it’s nowhere to be found!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard20NewDialogue3None" Value="[I just need this bounty after,splurging on AddOns，can,anyone help me?]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard21NewDialogue1None" Value="[Welcome!,I’m no pro，but I might have an,idea of what’s going on....]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard21NewDialogue2None" Value="[Judging from your name....,Have you been running into a,lot of those pesky oni viruses?]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard21NewDialogue3None" Value="[You might have left one of those,fancy new AddOns installed!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard21NewDialogue4None" Value="[I’ve done the same myself，,those “Peac“ AddOns are just,too useful for collectors!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard21NewDialogue5None" Value="[Once “ElecPeac” is uninstalled，,just keep running around and,you’ll find one eventually.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard21NewDialogue6None" Value="[I’ve heard the pros know ways,to sniff them out，but that’s way,out of my league. Peace! (lol)]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard22NewDialogue1None" Value="[That was it!,Thanks，Mars!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UniversityBoard22NewDialogue2None" Value="[I knew something felt off，but I,think those oni are cute so I,didn’t realize anything!]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard20NewDialogue1None" Value="皆さん、こんにちは！エレライです,プロハンター達の助けを,求めて来ました" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard20NewDialogue2None" Value="まずケダマＳＰから始めようと,思ってゲンソウエリア１で,探してますが見当たりません！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard20NewDialogue3None" Value="アドオンに金を無駄遣いして,この賞金がどうしても必要です,誰か助けてもらえますか？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue1None" Value="ようこそ！私はプロでは,ありませんが、何が起きてるかは,大体見当が付きます････" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue2None" Value="名前から推測したんですが････,もしあのオニ形のウイルスに,出会い過ぎたりしませんか？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue3None" Value="最近新しくリリースされた,アドオンを利用してるのでは,ないかと思います！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue4None" Value="「ピース」アドオンには特定,属性のウイルスを引く機能がある,収集家達向けのアドオンです" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue5None" Value="「ピースプラズマ」アドオンを外して,エリアを駆け続けると,いつか出会うかもしれません" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard21NewDialogue6None" Value="ＳＰウイルスのみを特定して探す,方法を分かるらしいが自分には,無理････ピース！（笑）" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard22NewDialogue1None" Value="解決出来ました！,ありがとうございます、まぁずさん！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UniversityBoard22NewDialogue2None" Value="何かおかしいと思ったのに、,目の前にあったあのオニ達が,可愛過ぎて気付かなかった！" Face="None" Mono="False" />
 </data>
