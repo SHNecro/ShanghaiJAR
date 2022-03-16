@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.ClockTowerReal1fName" Value="時計塔　内部　１階" />
   <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue1FaceNone" Value="一般人の通行を禁止する,分厚い扉だ" Face="None" Mono="False" />
@@ -11,13 +11,13 @@
   <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue2FaceNone" Value="今はアクセスが,フリーになっており,プラグインが可能だ！" Face="None" Mono="False" />
   <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue1FaceAlice" Value="この扉を開けないと,リグルくんが････！" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue2FaceShanghai" Value="サクッと中に入って,セキュリティを解除してくるわ！" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue1" Value="[Welcome to the historic Clock,Tower of Engelles!]" Face="OrangeHairMaleWesterner" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue2" Value="[Of course，to us Engellese,and for most of history，it was,simply “the Clock Tower”!]" Face="OrangeHairMaleWesterner" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue3" Value="[Feel free to look around，but,stay on this floor! The door to,the stairs is usually closed.]" Face="OrangeHairMaleWesterner" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue4" Value="[Someone must’ve left it open，,repair crews and officials have,been around after an incident.]" Face="OrangeHairMaleWesterner" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist1Dialogue1" Value="[So much history....]" Face="FemaleOld" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist2Dialogue1" Value="[I don’t see the souvenir shop....]" Face="MaleOld" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist3Dialogue1" Value="[Stay as a group，everybody!,You heard the man，no going,upstairs!]" Face="FemaleAdult" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist4Dialogue1" Value="[Wow....]" Face="MaleStudent" Mono="False" />
-  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist5Dialogue1" Value="[Ugh....,What’s so special about a,bunch of bricks?]" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue1" Value="インゲレスの歴史の象徴である,時計塔にようこそ！" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue2" Value="と言っても我々インゲレス人達や,ほとんどの歴史ではシンプルに,時計塔と呼ばれてましたけどね" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue3" Value="普段は閉じてますが、この前に,事件が起きた以来、整備盤や,調査員達の為に開けたので" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue4" Value="周りを見回るのは構いませんが,二階やその上には行かないよう,注意して下さい" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist1Dialogue1" Value="歴史が溢れてくる場所よね････" Face="FemaleOld" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist2Dialogue1" Value="お土産屋が見えないな････" Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist3Dialogue1" Value="皆、集めて移動しましょう！,ガイドおじさんの言った通り,上には上らないように！" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist4Dialogue1" Value="うわぁ････" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist5Dialogue1" Value="ただ煉瓦で作られた,建物にしか見えないけど････" Face="FemaleChild" Mono="False" />
 </data>
