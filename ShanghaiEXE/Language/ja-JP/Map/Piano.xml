@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
-  <Text Key="Map.PianoName" Value="[Piano Comp]" />
-  <Dialogue Key="Map.PianoConductorStage1Dialogue1" Value="[ALRIGHT，EVERYONE!,YOU KNOW THE DRILL!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoConductorStage1Dialogue2" Value="[GREAT WORK!,I’M SURE THE MISTRESS,WOULD HAVE LOVED IT!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist6Stage1Dialogue1" Value="[I DON’T REALLY DO MUCH,FOR THIS PERFORMANCE....]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist6Stage1Dialogue2" Value="[BUT WITHOUT ME，THE,WHOLE THING WOULD JUST,SOUND WRONG!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist5Stage1Dialogue1" Value="[SOMETHING ABOUT THIS,TUNE MAKES ME FEEL,HUNGRY....]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist4Stage1Dialogue1" Value="[I THINK THE MISTRESS WAS,PLANNING ON ADDING,MORE TO THIS TUNE!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist4Stage1Dialogue2" Value="[BUT BACK THEN，SHE WAS,TOO SMALL TO REACH ALL,THE KEYS!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist4Stage1Dialogue3" Value="[MAYBE SHE PLANNED ON,HAVING A FAMILY MEMBER,PLAY THESE NOTES?]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist3Stage1Dialogue1" Value="[I DON’T THINK MISTRESS,SCARLET IS COMING BACK....]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoPianist3Stage1Dialogue2" Value="[NO，NO，HAPPY THOUGHTS，,HAPPY THOUGHTS....!,FOCUS ON THE MUSIC!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.PianoSpriteStage1Dialogue1" Value="[MISTRESS SCARLET....,WHERE DID YOU GO....?]" Face="Sprite" Mono="False" />
+  <Text Key="Map.PianoName" Value="ピアノの電脳" />
+  <Dialogue Key="Map.PianoConductorStage1Dialogue1" Value="サテ、ミンナ！,ジブンノヤクメハワカルヨネ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoConductorStage1Dialogue2" Value="イイチョウシヨ！,オジョウサマモヨ,ロコンデタハズヨ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist6Stage1Dialogue1" Value="コノエンソウニワタシノヤクメハ,ヤタラトスクナインデスガ････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist6Stage1Dialogue2" Value="デモワタシガイナイト,エンソウソノモノガメチャクチャ,デタラメニナッチャイマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist5Stage1Dialogue1" Value="コノオンガクヲエンソウシテルト,ナンダカハラガヘッタキガスル････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist4Stage1Dialogue1" Value="ナニカニマンジカンヲツイヤスト,ソノナニカノセンモンカト,ナルッテイワレマスヨネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist4Stage1Dialogue2" Value="ジャアコノロクオンサレタ,オンガクノブブンヲマイニチ,シエンシツヅケレバ････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist4Stage1Dialogue3" Value="ワタシタチモジシンタチヲ,センモンピアニストッテヨベバ,イイッテコトデショウカ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist3Stage1Dialogue1" Value="スカーレットオジョウサマハ,モドッテコナイカモ････" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoPianist3Stage1Dialogue2" Value="イヤイヤ、ダメヨ！,シアワセ、シアワセ････！,オンガクニシュウチュウシナキャ！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PianoSpriteStage1Dialogue1" Value="スカーレットオジョウサマ････,ドコへイッチャッタンデスカ････？" Face="Sprite" Mono="False" />
 </data>
