@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 豪華客船セイレーン１Ｆ　操舵室 -->
   <Text Key="Map.SeirenShip1fbridgeName" Value="豪華客船セイレーン１Ｆ　操舵室" />
@@ -94,9 +94,9 @@
   <Dialogue Key="Map.SeirenShip1fbridgeShikigamiStage1Dialogue1FaceBlackRobot" Value="････････" Face="BlackRobot" Mono="False" />
   <!-- 全く動かない -->
   <Dialogue Key="Map.SeirenShip1fbridgeShikigamiStage1Dialogue2FaceNone" Value="全く動かない" Face="None" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint1Dialogue1" Value="[What part of “no” don’t you,understand?]" Face="WhiteHairFemaleRichLady" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint1Dialogue2" Value="[We’ve just had a cybersecurity,incident，and you want to open,a port straight to the Net?!]" Face="WhiteHairFemaleRichLady" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue1" Value="[But Captain，data  transfer is the,major bottleneck of our study!]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue2" Value="[We can’t keep using interns,to run thumbdrives from the,railing back to the lab!]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue3" Value="[The submarine took up all,of our budget，we can’t afford,bigger hard drives!]" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint1Dialogue1" Value="一体どこが「いけない」と,いうのかしら？" Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint1Dialogue2" Value="この前にネット保安事故が,あったのにまだネットにポートを,繋ぎたいって、危ないのでは？" Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue1" Value="しかし船長、我々の研究に,一番足止めになってるのは,データの伝送の部分です！" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue2" Value="インターン達にＵＳＢを持たせて,駅と研究所を往復させるにも,限度があります！" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeRequest14HandrailHint2Dialogue3" Value="潜水艦の開発に予算が大部,使われましたよ！容量の大きい,ＨＤＤさえ買えない状態です！" Face="Scientist" Mono="False" />
 </data>
