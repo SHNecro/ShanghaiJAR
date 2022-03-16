@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.UnderBattleBoard1Dialogue1None" Value="ウラでしかできないような,クールな極秘バトル情報を,書き込んでいけ！" Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBattleBoard1Dialogue2None" Value="まずは俺から,プログラムアドバンスって,もちろん知ってるよな？" Face="None" Mono="False" />
@@ -41,26 +41,26 @@
   <Dialogue Key="Messages.UnderBattleBoard17Dialogue2None" Value="戦車みたいなナビに,大砲系チップふたつ,くっつけたらPAに化けたぞ" Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBattleBoard18Dialogue1None" Value="スズランと毒の竜巻と,あと毒属性のナビででかい,スズランができたぞ" Face="None" Mono="False" />
   <Dialogue Key="Messages.UnderBattleBoard18Dialogue2None" Value="あえて名前を出さないのは,俺が意地悪だからだ" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard19Dialogue1" Value="[Enough about PAs!,All you low-IQ battlers chasing,your big shiny super move....]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard19Dialogue2" Value="[Enough about PAs!,All you low-IQ battlers chasing,your big shiny super move....]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard20Dialogue1" Value="[&gt;seething,What’s the problem?,Don’t know your alphabet?]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard21Dialogue1" Value="[&gt;troll /        |,======~~|~~~,       &gt;&lt;&gt;     J]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard22Dialogue1" Value="[The troll has a point though.,The point of PA is to build a,folder around it.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard22Dialogue2" Value="[If you can’t combo with just the,parts of the PA， you’re doing,something wrong.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard23Dialogue1" Value="[I swear I’m not the troll，but I,just can’t find any of those PA,chips!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard23Dialogue2" Value="[I’ve made so many trips from,the store to the chip trader that,the clerk recognizes my face!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard24Dialogue1" Value="[Buy，buy，buy....,You are everything that’s wrong,with NetBattling today.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard24Dialogue2" Value="[Why don’t you buy yourself an,OpenPort and try earning some,of those chips?]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard25Dialogue1" Value="[&gt;buybrain btfo,I have all the chips I need，so,I run Firewall for convenience.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard25Dialogue2" Value="[But just the other day I got hit,by a virus anyways! I’m gonna,go pay that vendor a visit!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard26Dialogue1" Value="[Are you sure you’re using it,correctly? Firewall is a great,product and 100% reliable!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard27Dialogue1" Value="[Proof or it didn’t happen. I’m,using Firewall right now and it’s,100% reliable!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard28Dialogue1" Value="[Really? At least mix up your,scripts if you made it all the way,here，you corporate bots.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard28Dialogue2" Value="[What Firewall actually does is,expose your max HP，which,scares off most weak viruses.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard28Dialogue3" Value="[But if a virus thinks they’re tough,enough to take you at your,best，you’re out of luck.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard29Dialogue1" Value="[&gt;expose your max HP,If you think that’s all it exposes，,I’ve got news for you.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard29Dialogue2" Value="[ID，metadata，favorite food....,You can’t trust companies,these days.]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard30Dialogue1" Value="[All y’all’re whining cowards.,I mix Firewall and OpenPort to,blast my data area-wide!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard30Dialogue2" Value="[Navi got beef with me?,Tough virus wanna scrap?,Fight me!]" Face="None" Mono="False" />
-  <Dialogue Key="Messages.UnderBattleBoard31Dialogue1" Value="[Ok， tough guy.]" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard19Dialogue1" Value="ＰＡばかり言う気かよ！,そんな光りばかりの,技の何が良い？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard19Dialogue2" Value="どうせ皆ＰＡに使えるチップ,待ちながら身を隠し,ばかりじゃしゃあないだろう" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard20Dialogue1" Value="&gt;タイトル,何がＰＡ連射だ、嘘つき荒らしめ,そして場所みて突っ込めよ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard21Dialogue1" Value="&gt;荒らし /    |,======~~|~~~,       &gt;&lt;&gt;     J" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard22Dialogue1" Value="でもあの荒らしがああ言うのも,無理は無いな。ＰＡに合わせて,フォルダーを作る羽目になるから" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard22Dialogue2" Value="ＰＡの部品チップでコンボ,繋げないならそれもそれなりに,問題じゃないのかな？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard23Dialogue1" Value="あの荒らしの意見はさておき,そのＰＡの為のチップが,全く見えないんだ！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard23Dialogue2" Value="チップ屋やトレーダーに訪れ,過ぎてそっちの主が俺の,顔を覚えるくらいだ！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard24Dialogue1" Value="買い物ばかりみたいだなｗｗ,最近のネットバトルには全く,似合わない真似しっぱなしだな" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard24Dialogue2" Value="オープンポート等でも買って,ウイルスからチップを,稼ぐ方がもっと楽さ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard25Dialogue1" Value="&gt;買い物ばかりの負け者,必要なチップは全部持ってるから,最近はマークフィン使ってる" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard25Dialogue2" Value="でも確かにあれ使ってるのに,ウイルスにあってしまったよ！,ポンコツでも使ったのかな？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard26Dialogue1" Value="マークフィンは問題なく作動する,１００％信用できますけど？,ちゃんと使ってますか？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard27Dialogue1" Value="会ったとの証拠は？こっちは,問題なく使ってますけど？,１００％信用できますけど？" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard28Dialogue1" Value="ここまで来てボット使って荒らすな,やるなら少しはテキストを変える,努力でもしろよ、間抜け企業め" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard28Dialogue2" Value="マークフィンを使うと最大体力が,表に見られて弱いウイルスを,怖がらせるんだよ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard28Dialogue3" Value="でもウイルスが使った奴よりも,体力が高いとの理由で喧嘩売る,気になったら無駄になるさ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard29Dialogue1" Value="&gt;最大体力を表に見せる,それだけ表に見えると思ってる？,お前から何を見たか教えてやる" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard29Dialogue2" Value="ＩＤ、メタデータ、大好物････,最近の企業ってやつは,信じがたいものだよ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard30Dialogue1" Value="怖がり屋さんばかりですねー、ここ,俺はマークフィンとオープンポートを,当時に使って一掃するケドよ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard30Dialogue2" Value="ナビだろうがウイルスだろうが,俺に喧嘩うってんのなら,容赦しねえさ！かかって来い！" Face="None" Mono="False" />
+  <Dialogue Key="Messages.UnderBattleBoard31Dialogue1" Value="うるせぇよ、タフガイ" Face="None" Mono="False" />
 </data>
