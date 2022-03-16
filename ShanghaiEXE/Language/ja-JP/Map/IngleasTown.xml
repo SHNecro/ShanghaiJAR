@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インゲレス　市街 -->
   <Text Key="Map.IngleasTownName" Value="インゲレス　市街" />
@@ -284,9 +284,9 @@
   <Dialogue Key="Map.IngleasTownPostGameReisenBattleWin2" Value="････当然の結果だな" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.IngleasTownPostGameReisenBattleLose2" Value="この強さ････やはり本物か････" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.IngleasTownPostGameReisenBattleCancel" Value="怖気づいたか,それとも････？" Face="Reisen" Mono="False" />
-  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue1" Value="[Hmm?,Oh， don’t worry about me，lass.,Just watching the cars go by.]" Face="MaleElderly" Mono="False" />
-  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue2" Value="[Hard to believe horses and,carts used to go down these,very same roads.]" Face="MaleElderly" Mono="False" />
-  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue3" Value="[’Course，that’d be my own,gramps’ time，or my gramps’,gramps’. Long，long ago....]" Face="MaleElderly" Mono="False" />
-  <Dialogue Key="Map.IngleasTownWriggleLocationHintDialogue1" Value="[Aww! I wanted to see the,princess，but she already went,to some other big city!]" Face="BlondHairMaleChild" Mono="False" />
-  <Dialogue Key="Map.IngleasTownWriggleLocationHintDialogue2" Value="[What does “fostering,relationships with new friends”,even mean?]" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue1" Value="儂の事は気にしなくていいぞ,ただ車が道路を,通ってるのを見てるだけよ" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue2" Value="昔には同じ道路を馬や,手車が通ったと言っておる,今の時代では信じがたい話じゃ" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue3" Value="無論その昔というのも遥かなもの,儂の先代、それともその,先代の先代の話じゃろう" Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownWriggleLocationHintDialogue1" Value="あ、もう！あの姫様,既に他の大きい都市へと,行っちゃったみたい！" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTownWriggleLocationHintDialogue2" Value="「新しい友達との関係造成」,とか言ってたけど,どういうこと？" Face="BlondHairMaleChild" Mono="False" />
 </data>
