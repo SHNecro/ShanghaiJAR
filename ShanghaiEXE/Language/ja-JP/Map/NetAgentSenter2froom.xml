@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- エージェントセンター　会議室 -->
   <Text Key="Map.NetAgentSenter2froomName" Value="エージェントセンター　会議室" />
@@ -298,5 +298,5 @@
   <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue17FaceDrMorichika" Value="僕らと　子どもたちの,未来を守るために････！" Face="DrMorichika" Mono="False" />
   <!-- ああ････！ -->
   <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue18FaceTroid" Value="ああ････！" Face="Troid" Mono="False" />
-  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue3FaceNone" Value="[....Maybe some unimportant,meetings，too. “25644364” is,scratched under a doodle.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue3FaceNone" Value="････そこまで大したのでは,なかったみたいだ。落書きの下に,２５６４４３６４とか書いてあるし" Face="None" Mono="False" />
 </data>
