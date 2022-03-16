@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="" Value="" />
   <Dialogue Key="Debug.UnimplementedText" Value="[FIRST LINE],[TEXT NOT IMPLEMENTED],[THIRD LINE]" Face="Sprite" Mono="False" />
@@ -94,8 +94,8 @@
   <Text Key="Interior.Item50" Value="ダンボール" />
   <!-- 二段ダンボール -->
   <Text Key="Interior.Item51" Value="二段ダンボール" />
-  <Text Key="Interior.Item52" Value="[DemoRoom]" />
-  <Text Key="Interior.Item53" Value="[DebugRoom]" />
+  <Text Key="Interior.Item52" Value="体験版おまけルーム" />
+  <Text Key="Interior.Item53" Value="デバッグルーム" />
   <Text Key="NumberSet.SetNumberFormat" Value="{0},,（上下または数字キーで数字変更）" />
   <Text Key="MysteryItem.BattleChipText" Value="バトルチップ" />
   <Text Key="MysteryItem.SubChipText" Value="サブチップ" />
@@ -435,14 +435,14 @@
   <Text Key="RandomMystery.DefaultContents" Value="レイガン　A" />
   <Text Key="VirusManager.HP" Value="HP :" />
   <Text Key="VirusManager.Power" Value="パワー:" />
-  <Dialogue Key="Misc.DemoEndDialogue1" Value="[This content is in progress.,Please wait warmly while,development continues.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Misc.DemoEndDialogue2" Value="[In the meantime，please visit,Shanghai’s Room for challenge,battles and secret content.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.OpeningMessageQuestion" Value="[Fixing errors from previous,versions. List changes?]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.DemoEndDialogue1" Value="本バージョンの更新はここまで,となります　次バージョンへの,アップデートをお待ち下さい" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.DemoEndDialogue2" Value="シャンハイの部屋にある,体現版おまけルームに訪れて,みるのは如何でしょうか？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.OpeningMessageQuestion" Value="以前のバージョンで直された,バグリストを公開しますか？" Face="Sprite" Mono="False" />
   <Text Key="Retcon.OpeningMessageQuestionOptions" Value="はい,いいえ" />
-  <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="[Cleared emergency music,from Hospital event.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550HumorEirinCallFormat" Value="[Removed AddOn cost and,color: {0}.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="[Refunded duplicate AddOn(s):,{0}.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550AddOnRefund2" Value="[Single copies may have been,removed if the “real” location,has not yet been found.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="病院の依頼で,異常事態が発生した時の音楽が,出ないようにしました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HumorEirinCallFormat" Value="{0}アドオンの,コア色とヘルツ,要求量を消しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="{0}アドオンが,複数得られた現象を直し,追加分は別の物に交換しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefund2" Value="「本当」の入手先が,見つからない場合は,削除された可能性あり" Face="Sprite" Mono="False" />
   <Text Key="Bounty.Area39" Value="ＲＯＭ基地ゲートの電脳" />
   <Text Key="Bounty.Area40" Value="ＲＯＭの電脳４" />
   <Text Key="Bounty.Area41" Value="ＲＯＭのディスプレイ電脳" />
@@ -457,27 +457,27 @@
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue5" Value="ザンネンデスガ,オカネガ　タリマセン" Face="Sprite" Mono="False" />
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue6" Value="オカイアゲ,アリガトウゴザイマース！" Face="Sprite" Mono="False" />
   <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue7" Value="マタノ　ゴリヨウヲ,オマチシテオリマス" Face="Sprite" Mono="False" />
-  <Dialogue Key="Bounty.AcceptDialogue2AlreadyTaken" Value="[You’ve already accepted,this mission.]" Face="None" Mono="False" />
-  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied" Value="[YOU’RE ALREADY USING,THIS WALLPAPER!,NICE，ISN’T IT?]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550V3Tracking" Value="[Added flag for tracking V3 fights,beaten，guessing based on V2,and chip:]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550Lloyd" Value="[Retconned “Lloyd” to “Troid”，,which is just more accurate and,make more sense.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550HeavenWIP" Value="[This area is a work in progress.,Barriers are placeholders，,to be reset in the next release.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550HeavenWIP2" Value="[Replaced postgame “WIP”,blockers with placeholders，,to be reset on next release.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550ReAddedAddOns" Value="[Re-added mistakenly removed,AddOns:]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550AddOnRebalance" Value="[Rebalanced postgame AddOns.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550AddOnRebalance2" Value="[Recolored Giv&amp;Take to,green for balancing.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550SageSkipped" Value="[Enabled missing flag that,made 4th quiz missable.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550CrimDexEnabled" Value="[Enabled illegal library.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550WIPEndgameReset" Value="[Reset endgame placeholder,battles.]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Retcon.0550HeavenJackOut" Value="[Jacked out of Heaven Area.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue2AlreadyTaken" Value="この依頼は現在実行中です" Face="None" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied" Value="イマコノカベガミヲ,ツカッテイマスネ,ステキデショウ？" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550V3Tracking" Value="次のナビのV3とのバトル済み,フラグをV2やチップ情報,から推測して追加しました：" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550Lloyd" Value="英語のみの話：,“Lloyd”と書いてたのを,“Troid”に直しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenWIP" Value="このエリアはまだ制作中です,バリアーはプレースホルダーで,次のｱｯプデｰﾄに実装予定です" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenWIP2" Value="ヘブンにあるバリアー等との,バトルを実装しました。次の,リリースでリセット予定です" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550ReAddedAddOns" Value="間違って消した,アドオンを復刻させました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRebalance" Value="ポストゲームアドオンを,追加しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRebalance2" Value="バランス調節目的で,アドオン「ユズリアイ」の,コアの色を緑に変更しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550SageSkipped" Value="４番目のクイズをスルー出来る,フラグを追加しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550CrimDexEnabled" Value="イリーガルライブラリを,追加しました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550WIPEndgameReset" Value="臨時で仕掛けてた,バリアー等とのバトルを,リセットしました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenJackOut" Value="バリアー等の実装により,ホワイトヘブンエリアから,プラグアウトさせました" Face="Sprite" Mono="False" />
 
-  <Text Key="Save.SaveFailedTitle" Value="[Save Failed!]" />
-  <Text Key="Save.SaveFailed" Value="[Something went wrong during the save process.&#xA;&#xD;&#xA;&#xD;Unfortunately, it is unlikely that the problem can be solved without a game update.&#xA;&#xD;&#xA;&#xD;Please report this bug at https://gitgud.io/SHNecro/shanghaiexe/-/issues or wherever you downloaded this copy of the game.]" />
-  <Text Key="Save.SaveRetained" Value="[A backup has been restored from your last working savegame.&#xA;&#xD;&#xA;&#xD;Press 'ESC' to return to the start screen once the game resumes.]" />
-  <Text Key="Save.SaveBackupNotFound" Value="[No backup was able to be found.&#xA;&#xD;&#xA;&#xD;Press 'ESC' to return to the start screen once the game resumes.]" />
-  <Text Key="Save.MainSaveCorruptedTitle" Value="[Load Failed!]" />
-  <Text Key="Save.MainSaveCorrupted" Value="[Unfortunately, the game was unable to read the save file.]" />
-  <Text Key="Save.BackupRestored" Value="[Your previous savegame has been restored from backup.]" />
-  <Text Key="Save.BackupCorrupted" Value="[The backup savegame has also failed to load.]" />
-  <Text Key="Save.BackupNotFound" Value="[No backup was able to be found.]" />
+  <Text Key="Save.SaveFailedTitle" Value="セーブ失敗！" />
+  <Text Key="Save.SaveFailed" Value="セーブの途中に問題が発生しました。&#xA;&#xD;&#xA;&#xD;最新バージョンへのアップデートをお勧めします。&#xA;&#xD;&#xA;&#xD;最新バージョンでプレイしてる場合は、今起きたバグをhttps://gitgud.io/SHNecro/shanghaiexe/-/issuesやこのゲームをＤＬした所に通報して下さい。" />
+  <Text Key="Save.SaveRetained" Value="正常的に作動するセーブファイルをバックアップから読み込みました。&#xA;&#xD;&#xA;&#xD;ゲームに戻ると'ESC'キーで最初の画面に戻って下さい" />
+  <Text Key="Save.SaveBackupNotFound" Value="バックアップファイルが見つかりませんでした。&#xA;&#xD;&#xA;&#xD;ゲームに戻ると'ESC'キーで最初の画面に戻って下さい" />
+  <Text Key="Save.MainSaveCorruptedTitle" Value="読み込み失敗！" />
+  <Text Key="Save.MainSaveCorrupted" Value="セーブファイルを読み込むことが出来ませんでした" />
+  <Text Key="Save.BackupRestored" Value="以前のセーブファイルをバックアップから読み込みました" />
+  <Text Key="Save.BackupCorrupted" Value="バックアップ,セーブファイルの,読み込みに失敗しました" />
+  <Text Key="Save.BackupNotFound" Value="バックアップ,セーブファイルが,見つかりませんでした" />
 </data>
