@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　通路 -->
   <Text Key="Map.ROMbase3fName" Value="ROM基地　通路" />
@@ -110,11 +110,11 @@
   <Dialogue Key="Map.ROMbase3fIkutororuStage10Dialogue1FaceTenshi" Value="アリスすごい！,今度カスタマイズ教えてよ！" Face="Tenshi" Mono="False" />
   <!-- 気が向いたらやろうね！ -->
   <Dialogue Key="Map.ROMbase3fIkutororuStage11Dialogue1FaceTenshi" Value="気が向いたらやろうね！" Face="Tenshi" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue1" Value="[Mmm.....,Hm? Ah!,I didn’t see you there!]" Face="Policeman" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue2" Value="[I’m just，uh.... unwinding after,some.... investigative work.]" Face="Policeman" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue3" Value="[That vending machine there?,Fif-- I mean，fourteen bags of,Prog Farms brand cookies.]" Face="Policeman" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue4" Value="[Very important information，,y’know. Maybe we should,investigate them next.]" Face="Policeman" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue1" Value="[A standard area-denial barrier,system，controlled by a custom,network security infrastructure.]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue2" Value="[Network is semi-partitioned，,various local systems share,one central control.]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue3" Value="[Phew.... ,Maybe I should turn up the AC，,it’s getting a bit stuffy in here.]" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue1" Value="むむむ････,ふむ？あっ、これは失礼しました,全然気にしてませんでした" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue2" Value="私はただ、あの････調査で,少し疲れて息抜きしてる,だけです" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue3" Value="あの自動販売機のことなら十五、,いや、十四種類のプログファーム,ブランドクッキーで一杯なんです" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameAgentDialogue4" Value="妙に重要な情報だと思います,後に調べる価値は,充分あると思います" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue1" Value="標準型バリアフェンスシステムを,カスタマイズしたネットワーク,防犯インフラで運用してたのか" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue2" Value="ネットワークがいくつが分けていて,様々なシステムが中央にある,装置で管理される仕組みだな" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase3fPostgameScientistDialogue3" Value="ふぅ････,なんか窮屈になったみたいだ,エアコン機能でも使うか････" Face="Scientist" Mono="False" />
 </data>
