@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ＲＯＭの電脳３ -->
   <Text Key="Map.ROMnet3Name" Value="ＲＯＭの電脳３" />
@@ -154,6 +154,6 @@
   <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue6FaceAlice" Value="もちろん！" Face="Alice" Mono="False" />
   <!-- よし　バリアーも解除できたしプラグアウトよ！ -->
   <Dialogue Key="Map.ROMnet3VSCirnoEventStage13Dialogue7FaceShanghai" Value="よし　バリアーも解除できたし,プラグアウトよ！" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.ROMnet3ConsoleDialogue1FaceNone" Value="[It’s the controls for both the air,conditioning system and the,barrier.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.ROMnet3ConsoleDialogue2FaceNone" Value="[The barrier’s been shut down,and the AC has been very,precisely shorted out.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMnet3ConsoleDialogue1FaceNone" Value="空調機能とバリアフェンスを,共に管理出来る,コントロール装置だ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMnet3ConsoleDialogue2FaceNone" Value="バリアは解除されていて,空調機能は正確に,短絡されてる" Face="None" Mono="False" />
 </data>
