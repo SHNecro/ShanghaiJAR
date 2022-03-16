@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- アリスの家 -->
   <Text Key="Map.AlicehouseName" Value="アリスの家" />
@@ -406,6 +406,6 @@
   <Dialogue Key="Map.AlicehouseUnusualIceStage21Dialogue2FaceAlice" Value="ありがとう　ママ！" Face="Alice" Mono="False" />
   <!-- アリスちゃんが無事ならママはそれでいいのよ〜 -->
   <Dialogue Key="Map.AlicehouseUnusualIceStage21Dialogue3FaceMama" Value="アリスちゃんが無事なら,ママはそれでいいのよ〜" Face="Mama" Mono="False" />
-  <Dialogue Key="Map.AlicehousePostGameMamaDialogue1" Value="[Isn’t it just a beautiful day,outside，Alice?,Be back in time for dinner!,]" Face="Mama" Mono="False" />
-  <Dialogue Key="Map.AlicehousePostGameMamaDialogue2" Value="[....Oh，you’ve grown so much....]" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.AlicehousePostGameMamaDialogue1" Value="今日もいい天気ね,夕飯までは帰って来るのよ？" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.AlicehousePostGameMamaDialogue2" Value="････と言っても,アリスだってもう,大人びてるんだから････" Face="Mama" Mono="False" />
 </data>
