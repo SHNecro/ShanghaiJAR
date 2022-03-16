@@ -1,24 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.InglesNet1fName" Value="インターネット　インゲレスエリア１" />
-  <Dialogue Key="Map.InglesNet1fMurasaV2Stage1Dialogue1FaceNone" Value="[The defeated Navi’s,remains flew away to another,part of the Net....]" Face="None" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fMurasaV2Stage1Dialogue1FaceNone" Value="倒したナビの残骸データが,別の電脳へと,飛び去っていった････" Face="None" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="おや　そこのワープから,来たということは旅行者かな？" Face="NaviGreenRobot" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi1Stage1Dialogue2FaceNaviGreenRobot" Value="インゲレスのインターネットは,構造が複雑だから,迷わないように気をつけてね" Face="NaviGreenRobot" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi2Stage1Dialogue1FaceNaviOrangeMale" Value="日本ではスクエアへの道が,メインストリートなんだって？" Face="NaviOrangeMale" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi2Stage1Dialogue2FaceNaviOrangeMale" Value="このインゲレスエリアには,そんな概念なんて,存在しないよ" Face="NaviOrangeMale" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi3Stage1Dialogue1FaceSprite" Value="ワタシハ　シンセツ　スプライト〜,スクエアハ　コッチデ,アッテルヨ〜" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.InglesNet1fChapter6-1Navi3Stage1Dialogue2FaceSprite" Value="ワープニ　ノラズニ,エリア２ニ　イッテチョウダイ,イッテキナ〜" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameSpriteDialogue1" Value="[ALL SPRITES ARE TRAINED,TO SPEAK MULTIPLE,LANGUAGES!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameSpriteDialogue2" Value="[WE’RE MORE THAN JUST,PRETTY FACES!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue1" Value="[This part of the Net was ,deliberately designed to be,confusing， believe it or not!]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue2" Value="[Back when the Cyberworld,Theory came over from Japan，,lots of folks didn’t trust the idea.]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue3" Value="[So they thought: Let’s connect，,but make it as tough to navigate,as we can! Data’ll find the way!]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue4" Value="[Turns out viruses are data too，,and all that did was make things,harder for everyone else.]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameOrangeNaviDialogue1" Value="[Oh no.....,I swear I took the right warp to,the Square....]" Face="NaviOrangeMale" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgamePinkNaviDialogue1" Value="[You just can’t trust anyone on,the Net these days，especially,not based on how they look!]" Face="NaviPinkFemale" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgamePinkNaviDialogue2" Value="[Some creeps choose child-,type Navis just to trick people!,Ugh!]" Face="NaviPinkFemale" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue1" Value="[Are you sure there’s no beach,around here? Port Engelles,is 10 minutes away，tops.]" Face="NaviOrangeMale" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue2" Value="[I’m quite sure. Engelles Net,represents the city proper，,and this is no beach town.]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue3" Value="[Aww.... I smelled an ocean,breeze somewhere，now all I,want is to go to the beach....]" Face="NaviOrangeMale" Mono="False" />
-  <Dialogue Key="Map.InglesNet1fMurasaV2Stage1Dialogue2FaceNone" Value="[It seems to have been drawn,toward the dark energies of,a nearby Area.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameSpriteDialogue1" Value="スベテノスプライトタチハ,イロンナクニノコトバヲハナスヨウ,クンレンヲウケマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameSpriteDialogue2" Value="ツマリタダノカワイイ,オニンギョウサンデハ,アリマセンッテコトデス！" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue1" Value="信じられん話かも知れんが,ここのネットはわざと,複雑にデザインされたんだって" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue2" Value="かつて日本から電脳理論が,提唱された時、ほとんどの人々は,その理論を馬鹿にしてたよ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue3" Value="それで彼らが考えたのが、これさ,「データのみが道を分かるよう,出来る限り複雑に連結しよ！」" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameGreenNaviDialogue4" Value="でもウイルスだってデータだろう？,結局あのデザインで得した人は,誰もいないってことさ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeNaviDialogue1" Value="あちゃ～,スクエア向けのワープに,乗ったと思ったのに････" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgamePinkNaviDialogue1" Value="最近のネットには信じられない,人ばかりよね。特に姿や,形だけでは誰も信じられないわ" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgamePinkNaviDialogue2" Value="子供の姿で人を騙そうとする,破廉恥な奴らもあるんだって！,何考えてるのよ、一体････" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue1" Value="ここからインゲレスの港までは,１０分くらいで行けるのに,ここにはビーチエリアがいない" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue2" Value="インゲレスの電脳は海のある,町はともかく、都市だけを,象徴しただけみたいね" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fPostgameOrangeGreenNavi2Dialogue3" Value="どこから海の匂いがしたと,思ったのに････っと、,海に行きたくなったよ" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet1fMurasaV2Stage1Dialogue2FaceNone" Value="近くに暗いエネルギーが,湧いてくるエリアに惑わされて,そこに近いエリアに向かったようだ" Face="None" Mono="False" />
 </data>
