@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インゲレス　時計塔前広場 -->
   <Text Key="Map.IngleasTowerParkName" Value="インゲレス　時計塔前広場" />
@@ -138,9 +138,9 @@
   <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage13Dialogue4FaceShanghai" Value="そうね　流石に天子も,退院しただろうし" Face="Shanghai" Mono="False" />
   <!-- アリス　メールが来たわよ！ -->
   <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage15Dialogue1FaceShanghai" Value="アリス　メールが来たわよ！" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.IngleasTowerParkPostgameGirl1Dialogue1" Value="[I’m tellin’ ya! I saw a princess!,With weird hair and a thingy,on her head!]" Face="OrangeHairFemaleChild" Mono="False" />
-  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue2" Value="[Nuh-uh!,That’s the scary girl from the,cake store!]" Face="BlondHairMaleChild" Mono="False" />
-  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue3" Value="[I asked her what kind she was,gonna get since she kept,lookin’ but she got real mad!]" Face="BlondHairMaleChild" Mono="False" />
-  <Dialogue Key="Map.IngleasTowerParkPostgameWomanDialogue1" Value="[My friend told me about that,nasty business with ROM in,Japan.]" Face="GreenHairFemalePinkEyes" Mono="False" />
-  <Dialogue Key="Map.IngleasTowerParkPostgameWomanDialogue2" Value="[I can’t believe the ringleader,came from our own Institute,of Eurica!]" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameGirl1Dialogue1" Value="私本当にあの姫様を見たってば！,髪型めっちゃおかしく,頭の上が飾ってた人だっだよ！" Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue2" Value="そんな訳あるかよ！,ケーキ屋の傍にいるあの,怖そうな姉さんのことでしょう！" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue3" Value="あの姉さんがずっとここを,見てたから直接聞いてみたけど,逆で怒られちまったよ！" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameWomanDialogue1" Value="日本であったあのＲＯＭ事件に,ついて友達から聞いたわよ" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameWomanDialogue2" Value="まさか我々のヨーリカの,学会の出があの組織の,リーダーだったなんて････" Face="GreenHairFemalePinkEyes" Mono="False" />
 </data>
