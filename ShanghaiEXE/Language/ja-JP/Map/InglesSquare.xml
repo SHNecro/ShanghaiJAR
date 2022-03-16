@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　インゲレススクエア -->
   <Text Key="Map.InglesSquareName" Value="インターネット　インゲレススクエア" />
@@ -84,12 +84,12 @@
   <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue1FaceNaviPurplePunk" Value="日本人は数字を送るの,大好きですか？" Face="NaviPurplePunk" Mono="False" />
   <!-- 日本の友人１０６７０５８１　って送ってきたヨ -->
   <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue2FaceNaviPurplePunk" Value="日本の友人,１０６７０５８１　って,送ってきたヨ" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue1" Value="[No，no，no.,I’m not interested in any of these,gaudy knickknacks.]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue2" Value="[It looks like I’ll have to take my,business elsewhere.,Bodyguards! To me!]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard1Dialogue1" Value="[DEFEND MISTRESS!]" Face="Autoroid" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard2Dialogue1" Value="[OCULAR ASSESSMENT:,NON-HOSTILE]" Face="Autoroid" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue1" Value="[Sign up for a tour today!,Special offer for guests of the,Clock Tower Hotel only!]" Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue2" Value="[See the sights!,Don’t let your trip to Engelles,go to waste!]" Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue1" Value="[The viruses outside are just,too tough!]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue2" Value="[I bet it’s the connection to the,Undernet，I’d brick the whole,place up if I had any say in it!]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue1" Value="いや、いや、いや、こんな,浅はかな飾り物なんかに,興味は無いわ" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue2" Value="この社業の話はどうやら,別の所でするのが良さそうね,ついて来い、ボディーガード！" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard1Dialogue1" Value="オジョウサマヲ　マモル" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard2Dialogue1" Value="ガンキュウニンシキケッカ：,ヒテキセイユーザー" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue1" Value="時計塔ホテル利用客向けの,ツアー登録を受けています！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue2" Value="あなたのインゲレス旅行を,あらゆる観光名所で,満たせましょう！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue1" Value="外にあるウイルス達が強すぎるぞ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue2" Value="どうやらウラが原因のようだな,出来ればこのエリアを全部,封鎖する方が良さそうと思うよ" Face="NaviGreenRobot" Mono="False" />
 </data>
