@@ -640,13 +640,13 @@ namespace NSEnemy
 
                                     break;
                                 case AttackType.IceCrash:
+                                    // TODO: real attack logic
                                     switch (this.attackWaitTime)
                                     {
                                         case 0:
                                             this.animationpoint = new Point(0, 4);
-                                            this.parent.attacks.Add(new LargeIceCrash(this.sound, this.parent, 1, 1, this.union, this.power, 60, this.element));
-                                            // todo : icespikeshatter
-                                            this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, 3, 1, this.union, this.power, 45, this.element, false));
+                                            this.parent.attacks.Add(new LargeIceCrash(this.sound, this.parent, 1, 1, this.union, this.power, 60, this.element, 60));
+                                            this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, 3, 1, this.union, this.power, 45, this.element, false, 60));
                                             break;
                                         case 60:
                                             this.AttackMotion = AttackState.Cooldown;
@@ -655,6 +655,7 @@ namespace NSEnemy
                                     }
                                     break;
                                 case AttackType.Spin:
+                                    // TODO:
                                     switch (this.attackWaitTime)
                                     {
                                         case 0:
@@ -667,6 +668,7 @@ namespace NSEnemy
                                     }
                                     break;
                                 case AttackType.PowerUp:
+                                    // TODO:
                                     switch (this.attackWaitTime)
                                     {
                                         case 1:
@@ -798,6 +800,7 @@ namespace NSEnemy
             return adjustedTime;
         }
 
+        // TODO:
         private void SetDefaultVersionStats()
         {
             this.name = ShanghaiEXE.Translate("Enemy.CirnoBXName");
@@ -854,6 +857,7 @@ namespace NSEnemy
             }
         }
 
+        // TODO:
         private void SetVersionDrops()
         {
             if (this.version == 1)
@@ -886,6 +890,7 @@ namespace NSEnemy
             }
         }
 
+        // TODO:
         private void SetDynamicAttackWeights()
         {
             if (this.version == 1)
@@ -1285,6 +1290,7 @@ namespace NSEnemy
             private static readonly float DropAcceleration = 9.8f / 60;
             private static readonly int MinHeight = 160;
 
+            private readonly int lifetime;
             private readonly int hitTime;
             private readonly Vector2 initialPosition;
             private readonly float initialVelocity;
@@ -1297,7 +1303,8 @@ namespace NSEnemy
                 Panel.COLOR u,
                 int po,
                 int hittime,
-                ChipBase.ELEMENT ele)
+                ChipBase.ELEMENT ele,
+                int lifetime)
                 : base(so, p, pX, pY, u, po, ele)
             {
                 this.picturename = "cirnobx";
@@ -1307,6 +1314,7 @@ namespace NSEnemy
 
                 this.hitting = false;
 
+                this.lifetime = lifetime;
                 this.hitTime = hittime;
 
                 this.initialVelocity = (float)((160 - (0.5 * DropAcceleration * this.hitTime * this.hitTime)) / this.hitTime);
@@ -1353,14 +1361,19 @@ namespace NSEnemy
                         }
                     }
 
-                    var occupiedSpaces = this.parent.AllHitter().Where(c => targetedPanels.Contains(c.position) || (c.positionReserved != null && targetedPanels.Contains(c.positionReserved.Value)));
-                    if (occupiedSpaces.Any())
+                    var hitObjects = this.parent.AllHitter().Where(c => targetedPanels.Contains(c.position) || (c.positionReserved != null && targetedPanels.Contains(c.positionReserved.Value)));
+                    if (hitObjects.Any())
                     {
-                        // todo: add ice objects (attackmake)
+                        var emptySpaces = targetedPanels.Except(hitObjects.Select(e => e.position));
+                        foreach (var space in emptySpaces)
+                        {
+                            this.parent.objects.Add(new IceRocks(this.sound, this.parent, space.X, space.Y, this.union, this.lifetime));
+                        }
+                        // TODO: CREATE DEBRIS
                     }
                     else
                     {
-                        // todo: add large ice block
+                        this.parent.objects.Add(new IceRockLarge(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime));
                     }
                 }
 
@@ -1409,6 +1422,7 @@ namespace NSEnemy
             private static readonly float DropAcceleration = 9.8f / 60;
             private static readonly int InitialHeight = 160;
 
+            private readonly int lifetime;
             private readonly int hitTime;
             private readonly Vector2 initialPosition;
             private readonly bool createObject;
@@ -1425,7 +1439,8 @@ namespace NSEnemy
                 int po,
                 int hittime,
                 ChipBase.ELEMENT ele,
-                bool createObject)
+                bool createObject,
+                int lifetime)
                 : base(so, p, pX, pY, u, po, ele)
             {
                 this.invincibility = false;
@@ -1433,6 +1448,7 @@ namespace NSEnemy
 
                 this.hitting = false;
 
+                this.lifetime = lifetime;
                 this.hitTime = hittime;
 
                 this.initialVelocity = (float)((160 - (0.5 * DropAcceleration * this.hitTime * this.hitTime)) / this.hitTime);
@@ -1472,7 +1488,7 @@ namespace NSEnemy
                                     c.Break();
                                 }
 
-                                this.parent.objects.Add(new IceRocks(this.sound, this.parent, this.position.X, this.position.Y, this.union));
+                                this.parent.objects.Add(new IceRocks(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime));
                             }
                         }
                         else
@@ -1547,9 +1563,10 @@ namespace NSEnemy
 
         private class IceRocks : ObjectBase
         {
+            private readonly int lifetime;
             private bool breaked;
 
-            public IceRocks(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union)
+            public IceRocks(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime)
               : base(s, p, pX, pY, union)
             {
                 this.height = 128;
@@ -1559,7 +1576,7 @@ namespace NSEnemy
                 this.hpmax = this.hp;
                 this.unionhit = false;
                 this.overslip = false;
-                this.speed = 5;
+                this.lifetime = lifetime;
 
                 this.positionDirect = new Vector2(position.X * 40.0f + 0, position.Y * 24.0f + 0);
                 this.animationpoint = new Point(6, 6);
@@ -1571,9 +1588,15 @@ namespace NSEnemy
             {
                 base.Updata();
 
-                if (this.frame < 4)
+                var animFrame = this.frame / 5;
+                if (animFrame < 4)
                 {
-                    this.animationpoint.X = 6 + this.frame;
+                    this.animationpoint.X = 6 + animFrame;
+                }
+
+                if (this.frame > this.lifetime)
+                {
+                    this.Break();
                 }
 
                 this.FlameControl();
@@ -1608,6 +1631,224 @@ namespace NSEnemy
                 var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
                 this._position = spriteOffsetPosition;
                 dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, Color.White);
+            }
+        }
+
+        private class IceRockLarge : ObjectBase
+        {
+            private readonly List<DummyObject> dummyObjects;
+
+            private readonly int lifetime;
+            private bool breaked;
+            private int shockwaveFrame;
+
+            public IceRockLarge(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime)
+              : base(s, p, pX, pY, union)
+            {
+                this.height = 128;
+                this.wide = 96;
+                this.hp = 500;
+                this.hitPower = 200;
+                this.hpmax = this.hp;
+                this.unionhit = false;
+                this.overslip = false;
+                this.lifetime = lifetime;
+
+                this.dummyObjects = new List<DummyObject>();
+                for (var xOff = 0; xOff <= 1; xOff++)
+                {
+                    for (var yOff = 0; yOff <= 1; yOff++)
+                    {
+                        var dummy = new DummyObject(this.sound, this.parent, pX + xOff, pY + yOff, this.union, this);
+                        this.parent.objects.Add(dummy);
+                    }
+                }
+
+                this.positionDirect = new Vector2(40 * this.position.X + 20, 24 * this.position.Y + 12);
+                this.animationpoint = new Point(4, 4);
+                this.whitetime = 3;
+
+                this.picturename = "cirnobx";
+            }
+
+            public override void Updata()
+            {
+                base.Updata();
+
+                var animFrame = this.frame;
+                switch (animFrame)
+                {
+                    case 0:
+                        this.ShakeStart(4);
+                        this.animationpoint = new Point(4, 4);
+                        break;
+                    case 3:
+                        this.ShakeEnd();
+                        this.animationpoint = new Point(3, 4);
+                        break;
+                    case 6:
+                        this.shockwaveFrame = 1;
+                        break;
+                    case 9:
+                        this.shockwaveFrame = 2;
+                        break;
+                    case 12:
+                        this.shockwaveFrame = 0;
+                        break;
+                }
+
+                if (this.frame > this.lifetime)
+                {
+                    this.Break();
+                }
+
+                this.FlameControl();
+            }
+
+            // TODO:
+            public override void Break()
+            {
+                if (!this.breaked || this.StandPanel.Hole)
+                {
+                    this.ShakeEnd();
+                    this.breaked = true;
+                    //this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 16 + CirnoBX.SpriteOffset.Y, 12, this.union, 20, false, BreakIceRock.DebrisType.ChunkTall));
+                    //this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 16 + CirnoBX.SpriteOffset.Y, 12, this.union, 20, true, BreakIceRock.DebrisType.ChunkSharp));
+                }
+                this.flag = false;
+                
+                foreach (var dummy in this.dummyObjects)
+                {
+                    dummy.Break();
+                    dummy.flag = false;
+                }
+            }
+
+            public override void Render(IRenderer dg)
+            {
+                if (!this.flag)
+                    return;
+
+                var shadowAnimationPoint = new Point(5, 6);
+                if (this.whitetime > 0)
+                {
+                    shadowAnimationPoint.Y += 1;
+                }
+
+                var shadowRect = new Rectangle(FrameCoordX(5), FrameCoordY(6), FullFrameRect.Width, FullFrameRect.Height);
+                var shadowOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
+
+                dg.DrawImage(
+                    dg,
+                    this.picturename,
+                    shadowRect,
+                    false,
+                    shadowOffsetPosition,
+                    1.0f,
+                    0,
+                    this.color);
+
+                var shockwaveRect = new Rectangle?();
+                switch (this.shockwaveFrame)
+                {
+                    case 1:
+                        shockwaveRect = new Rectangle(FrameCoordX(5), FrameCoordY(4), FullFrameRect.Width, FullFrameRect.Height / 2);
+                        break;
+                    case 2:
+                        shockwaveRect = new Rectangle(FrameCoordX(5), FrameCoordY(4) + FullFrameRect.Height / 2, FullFrameRect.Width, FullFrameRect.Height / 2);
+                        break;
+                }
+                if (shockwaveRect != null)
+                {
+                    var shockwavePosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(0, FullFrameRect.Height / 4) + new Vector2(this.Shake.X, this.Shake.Y);
+
+                    dg.DrawImage(
+                        dg,
+                        this.picturename,
+                        shockwaveRect.Value,
+                        false,
+                        shockwavePosition,
+                        1.0f,
+                        0,
+                        this.color);
+                }
+
+                var adjustedAnimationPoint = new Vector2(this.animationpoint.X, this.animationpoint.Y);
+                if (this.whitetime > 0)
+                {
+                    adjustedAnimationPoint.X += 6;
+                }
+
+                var rockRect = new Rectangle(FrameCoordX(this.animationpoint.X), FrameCoordY(this.animationpoint.Y), FullFrameRect.Width, FullFrameRect.Height);
+                var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
+
+                if (this.animationpoint.X == 3)
+                {
+                    rockRect.Height -= 30;
+                    spriteOffsetPosition.Y += -15;
+                }
+
+                dg.DrawImage(
+                    dg,
+                    this.picturename,
+                    rockRect,
+                    false,
+                    spriteOffsetPosition,
+                    1.0f,
+                    0,
+                    this.color);
+            }
+        }
+
+        private class DummyObject : ObjectBase
+        {
+            private ObjectBase parentObject;
+
+            public DummyObject(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, ObjectBase parentObject)
+                : base(s, p, pX, pY, union)
+            {
+                this.hpmax = 100000;
+                this.hp = 100000;
+                this.noslip = true;
+
+                this.parentObject = parentObject;
+            }
+
+            public override void Dameged(AttackBase attack)
+            {
+                if (attack is Dummy)
+                {
+                    return;
+                }
+
+                this.parentObject.Hp -= 100000 - this.hp;
+                this.hp = 100000;
+                this.parentObject.whitetime = this.whitetime;
+                base.Dameged(attack);
+            }
+
+            public override void Updata()
+            {
+                if (this.hp < 100000)
+                {
+                    this.parentObject.Hp -= 100000 - this.hp;
+                    this.hp = 100000;
+                }
+
+                this.counterTiming = this.parentObject.counterTiming;
+                this.element = this.parentObject.Element;
+                this.guard = this.parentObject.guard;
+                this.badstatus = this.parentObject.badstatus;
+                this.badstatustime = this.parentObject.badstatustime;
+                this.flag = this.parentObject.flag;
+            }
+
+            public override void PositionDirectSet()
+            {
+            }
+
+            public override void Render(IRenderer dg)
+            {
             }
         }
 

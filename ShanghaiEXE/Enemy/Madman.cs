@@ -149,7 +149,7 @@ namespace NSEnemy
             {
                 var lifespan = 36;
                 var randomDist = Random.NextDouble() * 5 + 8;
-                var randomAngle = random.NextDouble() * 2 * Math.PI;
+                var randomAngle = Random.NextDouble() * 2 * Math.PI;
                 var pos = new Point((int)this.soulPosition.X + (int)(randomDist * Math.Cos(randomAngle)), (int)this.soulPosition.Y + (int)(randomDist * Math.Sin(randomAngle)));
 
                 var newSparkle = new Sparkle { Lifespan = lifespan, RemainingLife = lifespan, Position = pos, Movement = null };
@@ -319,7 +319,7 @@ namespace NSEnemy
                         var lifespan = 24;
                         var initialSoulPosition = this.soulPosition;
                         var randomDist = Random.NextDouble() * 3 + 24;
-                        var randomAngle = random.NextDouble() * 2 * Math.PI;
+                        var randomAngle = Random.NextDouble() * 2 * Math.PI;
                         var circleX = Math.Cos(randomAngle);
                         var circleY = Math.Sin(randomAngle);
                         var pos = new Point((int)initialSoulPosition.X + (int)(randomDist * circleX), (int)initialSoulPosition.Y + (int)(randomDist * circleY));
@@ -342,7 +342,7 @@ namespace NSEnemy
                     {
                         var lifespan = 32;
                         var initialSoulPosition = this.soulPosition;
-                        var randomAngle = random.NextDouble() * 2 * Math.PI;
+                        var randomAngle = Random.NextDouble() * 2 * Math.PI;
                         var circleX = Math.Cos(randomAngle);
                         var circleY = Math.Sin(randomAngle);
                         var pos = new Point((int)initialSoulPosition.X, (int)initialSoulPosition.Y);
@@ -369,7 +369,7 @@ namespace NSEnemy
                         {
                             var lifespan = 32;
                             var initialSoulPosition = this.soulPosition;
-                            var randomAngle = random.NextDouble() * 2 * Math.PI;
+                            var randomAngle = Random.NextDouble() * 2 * Math.PI;
                             var circleX = Math.Cos(randomAngle);
                             var circleY = Math.Sin(randomAngle);
                             var pos = new Point((int)initialSoulPosition.X, (int)initialSoulPosition.Y);
@@ -662,7 +662,7 @@ namespace NSEnemy
                             var lifespan = 24;
                             var initialSoulPosition = this.soulPosition;
                             var randomDist = Random.NextDouble() * 3 + 24;
-                            var randomAngle = random.NextDouble() * 2 * Math.PI;
+                            var randomAngle = Random.NextDouble() * 2 * Math.PI;
                             var circleX = Math.Cos(randomAngle);
                             var circleY = Math.Sin(randomAngle);
                             var pos = new Point((int)initialSoulPosition.X + (int)(randomDist * circleX), (int)initialSoulPosition.Y + (int)(randomDist * circleY));
@@ -695,7 +695,7 @@ namespace NSEnemy
                         {
                             var lifespan = 32;
                             var initialSoulPosition = this.soulPosition;
-                            var randomAngle = random.NextDouble() * 2 * Math.PI;
+                            var randomAngle = Random.NextDouble() * 2 * Math.PI;
                             var circleX = Math.Cos(randomAngle);
                             var circleY = Math.Sin(randomAngle);
                             var pos = new Point((int)initialSoulPosition.X, (int)initialSoulPosition.Y);
@@ -928,7 +928,7 @@ namespace NSEnemy
             {
                 var lifespan = 32;
                 var initialSoulPosition = this.soulPosition;
-                var randomAngle = random.NextDouble() * 2 * Math.PI;
+                var randomAngle = Random.NextDouble() * 2 * Math.PI;
                 var circleX = Math.Cos(randomAngle);
                 var circleY = Math.Sin(randomAngle);
                 var burstSpeed = Random.NextDouble() * 3 + 2;

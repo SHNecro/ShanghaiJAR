@@ -48,15 +48,17 @@ namespace NSGame
 		{
 			get
 			{
-				if (this.randomN != null)
-					return this.randomN;
-				++AllBase.randomUseCount;
-				if (AllBase.randomUseCount > 9999)
-				{
-					AllBase.randomUseCount = 0;
-					AllBase.random = new Random(Environment.TickCount);
-				}
-				return AllBase.random;
+                // no idea what the point of this is, theoretically entire section can be removed and will be just as random
+                //if (this.randomN != null)
+                //    return this.randomN;
+                //++AllBase.randomUseCount;
+                //if (AllBase.randomUseCount > 9999)
+                //{
+                //    AllBase.randomUseCount = 0;
+                //    AllBase.random = new Random(Environment.TickCount);
+                //}
+                // 
+                return AllBase.random;
 			}
 		}
 
