@@ -645,8 +645,8 @@ namespace NSEnemy
                                     {
                                         case 0:
                                             this.animationpoint = new Point(0, 4);
-                                            this.parent.attacks.Add(new LargeIceCrash(this.sound, this.parent, 1, 1, this.union, this.power, 60, this.element, 60));
-                                            this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, 3, 1, this.union, this.power, 45, this.element, false, 60));
+                                            this.parent.attacks.Add(new LargeIceCrash(this.sound, this.parent, 1, Environment.TickCount % 2 == 0 ? 1 : 0, this.union, this.power, 60, this.element, 360));
+                                            this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, 3, 1, this.union, this.power, 45, this.element, true, 360));
                                             break;
                                         case 60:
                                             this.AttackMotion = AttackState.Cooldown;
@@ -1295,6 +1295,8 @@ namespace NSEnemy
             private readonly Vector2 initialPosition;
             private readonly float initialVelocity;
 
+            private bool hasShadow;
+
             public LargeIceCrash(
                 IAudioEngine so,
                 SceneBattle p,
@@ -1329,6 +1331,8 @@ namespace NSEnemy
                 if (this.over)
                     return;
 
+                this.hasShadow = !this.parent.AllHitter().OfType<IceRockLarge>().Any(c => c.position == this.position);
+
                 if (this.frame == 0)
                 {
                     for (var xOff = 0; xOff <= 1; xOff++)
@@ -1350,8 +1354,7 @@ namespace NSEnemy
                     {
                         for (var yOff = 0; yOff <= 1; yOff++)
                         {
-                            // todo: add push/pull attacks
-                            // if pinned in corner, damage++ & add individual panel blocks
+                            // TODO: if pinned in corner, damage++ & add individual panel blocks
                             var point = new Point(this.position.X + xOff, this.position.Y + yOff);
                             targetedPanels.Add(point);
 
@@ -1362,17 +1365,55 @@ namespace NSEnemy
                     }
 
                     var hitObjects = this.parent.AllHitter().Where(c => targetedPanels.Contains(c.position) || (c.positionReserved != null && targetedPanels.Contains(c.positionReserved.Value)));
-                    if (hitObjects.Any())
+                    if (hitObjects.Any(o => !(o is IceRockLarge || o is DummyObject)))
                     {
                         var emptySpaces = targetedPanels.Except(hitObjects.Select(e => e.position));
                         foreach (var space in emptySpaces)
                         {
                             this.parent.objects.Add(new IceRocks(this.sound, this.parent, space.X, space.Y, this.union, this.lifetime));
                         }
-                        // TODO: CREATE DEBRIS
+
+                        // create debris
+                        var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
+                        var pdY = this.positionDirect.Y + CirnoBX.SpriteOffset.Y;
+                        var factory = BreakIceRock.MakeOffsetFactory(this.sound, this.parent, this.position, this.union);
+
+                        var fragmentStages = new[]
+                        {
+                            Tuple.Create(1, new[] { BreakIceRock.DebrisType.LargeLeft, BreakIceRock.DebrisType.LargeRight }),
+                            Tuple.Create(4, new[] { BreakIceRock.DebrisType.FragLumpy, BreakIceRock.DebrisType.FragRound, BreakIceRock.DebrisType.FragSharp }),
+                            Tuple.Create(8, new[] { BreakIceRock.DebrisType.ClodFlatLeft, BreakIceRock.DebrisType.ClodFlatRight, BreakIceRock.DebrisType.ClodRound, BreakIceRock.DebrisType.ClodSharp }),
+                            Tuple.Create(16, new[] { BreakIceRock.DebrisType.ChipRound, BreakIceRock.DebrisType.ChipScale, BreakIceRock.DebrisType.ChipSharp, BreakIceRock.DebrisType.ChunkSharp, BreakIceRock.DebrisType.ChunkTall }),
+                        };
+
+                        var breakOffsets = new[] { new Vector2(12, -32), new Vector2(-5, -14), new Vector2(8, -56) };
+                        foreach (var offset in breakOffsets)
+                        {
+                            foreach (var stage in fragmentStages)
+                            {
+                                var fragmentCount = this.Random.Next(stage.Item1 / 4, stage.Item1);
+                                for (int i = 0; i < fragmentCount; i++)
+                                {
+                                    var isRight = Random.Next() % 2 == 0;
+                                    this.parent.effects.Add(factory.Invoke(
+                                        pdX + offset.X + Random.Next(-5, 6),
+                                        pdY + offset.Y + Random.Next(-5, 6),
+                                        Random.Next(-32, 32),
+                                        Random.Next(16, 48),
+                                        Random.Next(20, 48),
+                                        stage.Item2[Random.Next(stage.Item2.Length)]));
+                                }
+                            }
+                        }
                     }
                     else
                     {
+                        var collidingIceRocks = this.parent.AllHitter().OfType<IceRockLarge>().Where(o => new Rectangle(this.position, new Size(2, 2)).IntersectsWith(new Rectangle(o.position, new Size(2, 2))));
+                        foreach (var rock in collidingIceRocks)
+                        {
+                            rock.Break();
+                        }
+
                         this.parent.objects.Add(new IceRockLarge(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime));
                     }
                 }
@@ -1388,19 +1429,22 @@ namespace NSEnemy
                 if (this.over || !this.flag)
                     return;
 
-                var shadowRect = new Rectangle(FrameCoordX(5), FrameCoordY(6), FullFrameRect.Width, FullFrameRect.Height);
-                var shadowPosition = new Vector2(this.initialPosition.X, this.initialPosition.Y + MinHeight);
-                var shadowOffsetPosition = shadowPosition + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
+                if (this.hasShadow)
+                {
+                    var shadowRect = new Rectangle(FrameCoordX(5), FrameCoordY(6), FullFrameRect.Width, FullFrameRect.Height);
+                    var shadowPosition = new Vector2(this.initialPosition.X, this.initialPosition.Y + MinHeight);
+                    var shadowOffsetPosition = shadowPosition + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
 
-                dg.DrawImage(
-                    dg,
-                    this.picturename,
-                    shadowRect,
-                    false,
-                    shadowOffsetPosition,
-                    1.0f,
-                    0,
-                    this.color);
+                    dg.DrawImage(
+                        dg,
+                        this.picturename,
+                        shadowRect,
+                        false,
+                        shadowOffsetPosition,
+                        1.0f,
+                        0,
+                        this.color);
+                }
 
                 var rockRect = new Rectangle(FrameCoordX(3), FrameCoordY(4), FullFrameRect.Width, FullFrameRect.Height);
                 var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
@@ -1494,12 +1538,27 @@ namespace NSEnemy
                         else
                         {
                             // create break effect
+                            var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
+                            var pdY = this.positionDirect.Y + CirnoBX.SpriteOffset.Y;
+                            var factory = BreakIceRock.MakeLeftRightFactory(this.sound, this.parent, this.position, this.union);
 
                             var fragmentTypes = new[] { BreakIceRock.DebrisType.ChunkTall, BreakIceRock.DebrisType.ChipSharp, BreakIceRock.DebrisType.ClodSharp, BreakIceRock.DebrisType.ChunkSharp, BreakIceRock.DebrisType.ClodFlatLeft, BreakIceRock.DebrisType.ClodFlatRight, BreakIceRock.DebrisType.FragLumpy };
 
-                            this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + Random.Next(-8, 16) + CirnoBX.SpriteOffset.X, this.positionDirect.Y + Random.Next(8, 14) + CirnoBX.SpriteOffset.Y, Random.Next(16, 20), this.union, Random.Next(20, 28), false, fragmentTypes[Random.Next(fragmentTypes.Length)]));
-
-                            this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + Random.Next(-16, 8) + CirnoBX.SpriteOffset.X, this.positionDirect.Y + Random.Next(8, 14) + CirnoBX.SpriteOffset.Y, Random.Next(16, 20), this.union, Random.Next(20, 24), true, fragmentTypes[Random.Next(fragmentTypes.Length)]));
+                            this.parent.effects.Add(factory.Invoke(
+                                pdX + Random.Next(-8, 16),
+                                pdY + Random.Next(8, 14),
+                                Random.Next(16, 20),
+                                Random.Next(20, 28),
+                                false,
+                                fragmentTypes[Random.Next(fragmentTypes.Length)]));
+                            this.parent.effects.Add(factory.Invoke(
+                                pdX + Random.Next(-16, 8),
+                                pdY + Random.Next(8, 14),
+                                Random.Next(16, 20),
+                                Random.Next(20, 24),
+                                false,
+                                fragmentTypes[Random.Next(fragmentTypes.Length)]));
+                            
                         }
                     }
                     else
@@ -1607,16 +1666,23 @@ namespace NSEnemy
                 if (!this.breaked || this.StandPanel.Hole)
                 {
                     this.breaked = true;
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 16 + CirnoBX.SpriteOffset.Y, 12, this.union, 20, false, BreakIceRock.DebrisType.ChunkTall));
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 16 + CirnoBX.SpriteOffset.Y, 12, this.union, 20, true, BreakIceRock.DebrisType.ChunkSharp));
 
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X - 8 + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 20 + CirnoBX.SpriteOffset.Y, 20, this.union, 10, false, BreakIceRock.DebrisType.FragSharp));
+                    var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
+                    var pdY = this.positionDirect.Y + CirnoBX.SpriteOffset.Y;
+                    var fuzzFactory = new Func<float, float, int, int, bool, BreakIceRock.DebrisType, BreakIceRock>(
+                        (pX, pY, pZ, time, isRight, type) =>
+                        {
+                            Func<int> fuzz = () => this.Random.Next(-3, 4);
+                            return BreakIceRock.MakeLeftRightFactory(this.sound, this.parent, this.position, this.union).Invoke(pX + fuzz(), pY + fuzz(), pZ + fuzz(), time + fuzz(), isRight, type);
+                        });
 
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 14 + CirnoBX.SpriteOffset.Y, 8, this.union, 24, true, BreakIceRock.DebrisType.ClodFlatRight));
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X - 8 + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 18 + CirnoBX.SpriteOffset.Y, 16, this.union, 16, true, BreakIceRock.DebrisType.ClodSharp));
-
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + 5 + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 8 + CirnoBX.SpriteOffset.Y, 8, this.union, 10, false, BreakIceRock.DebrisType.ChipRound));
-                    this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X - 5 + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 12 + CirnoBX.SpriteOffset.Y, 16, this.union, 8, true, BreakIceRock.DebrisType.ChipSharp));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 16, 12, 20, false, BreakIceRock.DebrisType.ChunkTall));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 16, 12, 20, true, BreakIceRock.DebrisType.ChunkSharp));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 20, 20, 10, false, BreakIceRock.DebrisType.FragSharp));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 14, 8, 24, true, BreakIceRock.DebrisType.ClodFlatRight));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 18, 16, 16, true, BreakIceRock.DebrisType.ClodSharp));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 8, 8, 10, false, BreakIceRock.DebrisType.ChipRound));
+                    this.parent.effects.Add(fuzzFactory.Invoke(pdX, pdY + 12, 16, 8, true, BreakIceRock.DebrisType.ChipSharp));
                 }
                 this.flag = false;
             }
@@ -1636,11 +1702,13 @@ namespace NSEnemy
 
         private class IceRockLarge : ObjectBase
         {
+            private const int BreakdownSteps = 3;
             private readonly List<DummyObject> dummyObjects;
 
             private readonly int lifetime;
             private bool breaked;
             private int shockwaveFrame;
+            private int breakdowns;
 
             public IceRockLarge(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime)
               : base(s, p, pX, pY, union)
@@ -1697,7 +1765,56 @@ namespace NSEnemy
                         break;
                 }
 
-                if (this.frame > this.lifetime)
+                for (int i = 0; i < BreakdownSteps; i++)
+                {
+                    if (this.breakdowns < i + 1)
+                    {
+                        if (this.frame > this.lifetime * (i + 1.0) / BreakdownSteps)
+                        {
+                            this.Hp -= (int)(this.HpMax * 1.0 / BreakdownSteps) + 1;
+                        }
+
+                        if (this.HpMax - this.Hp > this.HpMax * (i + 1.0) / BreakdownSteps)
+                        {
+                            this.whitetime = 3;
+                            this.ShakeSingleStart(3, 3);
+                            this.breakdowns++;
+
+                            // create partial debris
+                            var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
+                            var pdY = this.positionDirect.Y + CirnoBX.SpriteOffset.Y;
+                            var factory = BreakIceRock.MakeOffsetFactory(this.sound, this.parent, this.position, this.union);
+
+                            var fragmentStages = new[]
+                            {
+                                Tuple.Create(1, new[] { BreakIceRock.DebrisType.LargeLeft, BreakIceRock.DebrisType.LargeRight }),
+                                Tuple.Create(4, new[] { BreakIceRock.DebrisType.FragLumpy, BreakIceRock.DebrisType.FragRound, BreakIceRock.DebrisType.FragSharp }),
+                                Tuple.Create(8, new[] { BreakIceRock.DebrisType.ClodFlatLeft, BreakIceRock.DebrisType.ClodFlatRight, BreakIceRock.DebrisType.ClodRound, BreakIceRock.DebrisType.ClodSharp }),
+                                Tuple.Create(16, new[] { BreakIceRock.DebrisType.ChipRound, BreakIceRock.DebrisType.ChipScale, BreakIceRock.DebrisType.ChipSharp, BreakIceRock.DebrisType.ChunkSharp, BreakIceRock.DebrisType.ChunkTall }),
+                            };
+
+                            var breakOffsets = new[] { new Vector2(12, -32), new Vector2(-5, -14), new Vector2(8, -56) };
+
+                            var offset = breakOffsets[i % breakOffsets.Length];
+                            foreach (var stage in fragmentStages)
+                            {
+                                var fragmentCount = this.Random.Next(stage.Item1 / 4, stage.Item1);
+                                for (int ii = 0; ii < fragmentCount; ii++)
+                                {
+                                    var isRight = Random.Next() % 2 == 0;
+                                    this.parent.effects.Add(factory.Invoke(
+                                        pdX + offset.X + Random.Next(-5, 6),
+                                        pdY + offset.Y + Random.Next(-5, 6),
+                                        Random.Next(-32, 32),
+                                        Random.Next(16, 48),
+                                        Random.Next(20, 48),
+                                        stage.Item2[Random.Next(stage.Item2.Length)]));
+                                }
+                            }
+                        }
+                    }
+                }
+                if (this.Hp <= 0 || this.frame > this.lifetime)
                 {
                     this.Break();
                 }
@@ -1705,15 +1822,55 @@ namespace NSEnemy
                 this.FlameControl();
             }
 
-            // TODO:
             public override void Break()
             {
                 if (!this.breaked || this.StandPanel.Hole)
                 {
                     this.ShakeEnd();
                     this.breaked = true;
-                    //this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 16 + CirnoBX.SpriteOffset.Y, 12, this.union, 20, false, BreakIceRock.DebrisType.ChunkTall));
-                    //this.parent.effects.Add(new BreakIceRock(this.sound, this.parent, this.position, this.positionDirect.X + CirnoBX.SpriteOffset.X, this.positionDirect.Y + 16 + CirnoBX.SpriteOffset.Y, 12, this.union, 20, true, BreakIceRock.DebrisType.ChunkSharp));
+
+                    var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
+                    var pdY = this.positionDirect.Y + CirnoBX.SpriteOffset.Y;
+                    var factory = BreakIceRock.MakeOffsetFactory(this.sound, this.parent, this.position, this.union);
+
+                    var fragmentStages = new[]
+                    {
+                        Tuple.Create(1, new[] { BreakIceRock.DebrisType.LargeLeft, BreakIceRock.DebrisType.LargeRight }),
+                        Tuple.Create(3, new[] { BreakIceRock.DebrisType.FragLumpy, BreakIceRock.DebrisType.FragRound, BreakIceRock.DebrisType.FragSharp }),
+                        Tuple.Create(9, new[] { BreakIceRock.DebrisType.ClodFlatLeft, BreakIceRock.DebrisType.ClodFlatRight, BreakIceRock.DebrisType.ClodRound, BreakIceRock.DebrisType.ClodSharp }),
+                        Tuple.Create(27, new[] { BreakIceRock.DebrisType.ChipRound, BreakIceRock.DebrisType.ChipScale, BreakIceRock.DebrisType.ChipSharp, BreakIceRock.DebrisType.ChunkSharp, BreakIceRock.DebrisType.ChunkTall }),
+                    };
+
+                    var breakOffsets = new[] { new Vector2(12, -32), new Vector2(-5, -14), new Vector2(8, -56) };
+                    var breaks = this.breakdowns % breakOffsets.Length;
+                    for (var i = 0; i < breakOffsets.Length; i++)
+                    {
+                        var offset = breakOffsets[i];
+                        offset.Y += 48;
+
+                        var countMultiplier = 1.0;
+                        if (i < breaks)
+                        {
+                            countMultiplier = 0.5;
+                        }
+
+                        foreach (var stage in fragmentStages)
+                        {
+                            var maxFragments = (int)Math.Round(stage.Item1 * countMultiplier);
+                            var fragmentCount = this.Random.Next(maxFragments / 4, maxFragments);
+                            for (int ii = 0; ii < fragmentCount; ii++)
+                            {
+                                var isRight = Random.Next() % 2 == 0;
+                                this.parent.effects.Add(factory.Invoke(
+                                    pdX + offset.X + Random.Next(-5, 6),
+                                    pdY + offset.Y + Random.Next(-5, 6),
+                                    Random.Next(-32, 32),
+                                    Random.Next(16, 48),
+                                    Random.Next(20, 48),
+                                    stage.Item2[Random.Next(stage.Item2.Length)]));
+                            }
+                        }
+                    }
                 }
                 this.flag = false;
                 
@@ -1752,15 +1909,15 @@ namespace NSEnemy
                 switch (this.shockwaveFrame)
                 {
                     case 1:
-                        shockwaveRect = new Rectangle(FrameCoordX(5), FrameCoordY(4), FullFrameRect.Width, FullFrameRect.Height / 2);
+                        shockwaveRect = new Rectangle(FrameCoordX(3), FrameCoordY(1), FullFrameRect.Width, FullFrameRect.Height);
                         break;
                     case 2:
-                        shockwaveRect = new Rectangle(FrameCoordX(5), FrameCoordY(4) + FullFrameRect.Height / 2, FullFrameRect.Width, FullFrameRect.Height / 2);
+                        shockwaveRect = new Rectangle(FrameCoordX(4), FrameCoordY(1), FullFrameRect.Width, FullFrameRect.Height);
                         break;
                 }
                 if (shockwaveRect != null)
                 {
-                    var shockwavePosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(0, FullFrameRect.Height / 4) + new Vector2(this.Shake.X, this.Shake.Y);
+                    var shockwavePosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
 
                     dg.DrawImage(
                         dg,
@@ -1773,13 +1930,13 @@ namespace NSEnemy
                         this.color);
                 }
 
-                var adjustedAnimationPoint = new Vector2(this.animationpoint.X, this.animationpoint.Y);
+                var adjustedAnimationPoint = new Point(this.animationpoint.X, this.animationpoint.Y);
                 if (this.whitetime > 0)
                 {
                     adjustedAnimationPoint.X += 6;
                 }
 
-                var rockRect = new Rectangle(FrameCoordX(this.animationpoint.X), FrameCoordY(this.animationpoint.Y), FullFrameRect.Width, FullFrameRect.Height);
+                var rockRect = new Rectangle(FrameCoordX(adjustedAnimationPoint.X), FrameCoordY(adjustedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height);
                 var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
 
                 if (this.animationpoint.X == 3)
@@ -1877,7 +2034,6 @@ namespace NSEnemy
             private readonly int pZ;
             private readonly int time;
             private readonly Bound bound;
-            private readonly bool rightleft;
             private readonly DebrisType type;
 
             public BreakIceRock(
@@ -1891,9 +2047,23 @@ namespace NSEnemy
               int time,
               bool isRight,
               DebrisType type)
+              : this(s, p, position, pX, pY, -32 * (!isRight ? -1 : 1), pZ, union, time, type)
+            {
+            }
+
+            public BreakIceRock(
+              IAudioEngine s,
+              SceneBattle p,
+              Point position,
+              float pX,
+              float pY,
+              float dX,
+              float dY,
+              Panel.COLOR union,
+              int time,
+              DebrisType type)
               : base(s, p, position.X, position.Y)
             {
-                this.rightleft = isRight;
                 this.type = type;
                 this.time = time;
                 this.union = union;
@@ -1901,7 +2071,8 @@ namespace NSEnemy
                 this.positionDirect = new Vector2(pX, pY);
                 if (union == Panel.COLOR.red)
                     this.rebirth = true;
-                this.bound = new Bound(new Vector2(pX, pY), new Vector2(pX - 32 * (!isRight ? -1 : 1), pY + pZ), time);
+                var endOffset = new Vector2(dX, dY);
+                this.bound = new Bound(new Vector2(pX, pY), new Vector2(pX, pY) + endOffset, time);
             }
 
             public override void Updata()
@@ -1918,6 +2089,16 @@ namespace NSEnemy
                 this._position = this.positionDirect;
                 this._position.Y -= this.bound.plusy;
                 dg.DrawImage(dg, "cirnobx", this._rect, false, this._position, !this.rebirth, Color.White);
+            }
+
+            public static Func<float, float, float, float, int, DebrisType, BreakIceRock> MakeOffsetFactory(IAudioEngine s, SceneBattle p, Point position, Panel.COLOR union)
+            {
+                return (pX, pY, dX, dY, time, type) => new BreakIceRock(s, p, position, pX, pY, dX, dY, union, time, type);
+            }
+
+            public static Func<float, float, int, int, bool, DebrisType, BreakIceRock> MakeLeftRightFactory(IAudioEngine s, SceneBattle p, Point position, Panel.COLOR union)
+            {
+                return (pX, pY, pZ, time, isRight, type) => new BreakIceRock(s, p, position, pX, pY, pZ, union, time, isRight, type);
             }
 
             public enum DebrisType
