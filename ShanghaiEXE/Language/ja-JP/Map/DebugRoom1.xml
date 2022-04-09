@@ -44,4 +44,5 @@
   <Dialogue Key="Map.DebugRoom1BlockerQuestion" Value="ノイズブロッカーとのバトルテスト" Face="SoundOnly" Mono="False" />
   <Dialogue Key="Map.DebugRoom1ShanghaiDSQuestion" Value="シャンハイDSとのバトルテスト" Face="Shanghai" Mono="False" />
   <Text Key="Map.DebugRoom1StartCancel" Value="始める,やめる" />
+  <Dialogue Key="Map.DebugRoom1CirnoBXQuestion" Value="チルノBXとのバトルテスト" Face="SoundOnly" Mono="False" />
 </data>
