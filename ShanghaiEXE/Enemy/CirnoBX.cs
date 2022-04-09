@@ -62,6 +62,8 @@ namespace NSEnemy
         private int largeIceLifetime;
         private int smallIceHitTime;
         private int smallIceSpawnDelay;
+        private int iceCrashBlockerHitTime;
+        private int iceCrashBlockerLifetime;
 
         private int diveWeight;
         private int crossDiveWeight;
@@ -76,6 +78,8 @@ namespace NSEnemy
 
         private bool detachedShadow;
         private Vector2 detachedShadowOffset;
+
+        private Point? underAnimationPoint;
 
         public CirnoBX(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
             : base(s, p, pX, pY, n, u, v)
@@ -162,24 +166,26 @@ namespace NSEnemy
                     }
                     break;
                 case MOTION.move:
-                    var initialPosition = this.position;
-                    var initialPositionDirect = this.SpritePositionDirect;
-                    this.CommitMoveRandom();
-                    this.animationpoint = new Point(2, 0);
-                    if (initialPosition != this.position)
                     {
-                        this.parent.effects.Add(new StepShadowYuyu(
-                            this.sound,
-                            this.parent,
-                            new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
-                            initialPositionDirect,
-                            this.picturename,
-                            this.rebirth,
-                            initialPosition,
-                            255, 255, 255));
-                    }
+                        var initialPosition = this.position;
+                        var initialPositionDirect = this.SpritePositionDirect;
+                        this.CommitMoveRandom();
+                        this.animationpoint = new Point(2, 0);
+                        if (initialPosition != this.position)
+                        {
+                            this.parent.effects.Add(new StepShadowYuyu(
+                                this.sound,
+                                this.parent,
+                                new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                initialPositionDirect,
+                                this.picturename,
+                                this.rebirth,
+                                initialPosition,
+                                255, 255, 255));
+                        }
 
-                    this.Motion = MOTION.neutral;
+                        this.Motion = MOTION.neutral;
+                    }
                     break;
                 case MOTION.knockback:
                     this.counterTiming = false;
@@ -676,14 +682,60 @@ namespace NSEnemy
                                             this.animationpoint = new Point(2, 4);
                                             this.counterTiming = false;
 
-
-
-                                            // TODO: Spawn attacks (ensure not standing under?)
-                                            // Attack spawner so it can't be interrupted?
                                             this.parent.attacks.Add(new IceCrashSpawner(this.sound, this.parent, this.union, this.power, this.element, this.iceCrashDuration, this.largeIceHitTime, this.largeIceLifetime, this.smallIceHitTime, this.smallIceSpawnDelay));
                                             break;
                                         case 60:
-                                            // TODO: reset timers, set attack to powerup
+                                        case 90:
+                                        case 120:
+                                        case 150:
+                                            {
+                                                var initialPosition = this.position;
+                                                var initialPositionDirect = this.SpritePositionDirect;
+
+                                                this.MoveRandom(false, false);
+                                                for (var i_retry = 0; i_retry < 6; i_retry++)
+                                                {
+                                                    if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
+                                                        && (this.union == Panel.COLOR.blue || this.positionre.X < 2))
+                                                    {
+                                                        break;
+                                                    }
+                                                    this.MoveRandom(false, false);
+                                                }
+                                                this.position = this.positionre;
+                                                this.PositionDirectSet();
+
+                                                this.animationpoint = new Point(2, 0);
+                                                if (initialPosition != this.position)
+                                                {
+                                                    this.parent.effects.Add(new StepShadowYuyu(
+                                                        this.sound,
+                                                        this.parent,
+                                                        new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                                        initialPositionDirect,
+                                                        this.picturename,
+                                                        this.rebirth,
+                                                        initialPosition,
+                                                        255, 255, 255));
+                                                }
+                                            }
+                                            break;
+                                        case 64:
+                                        case 94:
+                                        case 124:
+                                        case 154:
+                                            this.animationpoint = new Point(1, 0);
+                                            break;
+                                        case 65:
+                                        case 85:
+                                        case 105:
+                                            {
+                                                var blockerRow = (this.attackWaitTime - 65) / 20;
+                                                var blockerColumn = this.union == Panel.COLOR.blue ? 3 : 2;
+                                                this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, blockerColumn, blockerRow, this.union, this.power, iceCrashBlockerHitTime, this.element, true, iceCrashBlockerLifetime));
+                                            }
+                                            break;
+                                        case 180:
                                             this.attackType = AttackType.PowerUp;
                                             // this.AttackCooldownSet();
                                             this.attackWaitTime = 0;
@@ -709,8 +761,42 @@ namespace NSEnemy
                                     {
                                         case 1:
                                             this.animationpoint = new Point(0, 1);
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset = new Vector2(0, -1);
+                                            this.detachedShadow = true;
+                                            this.counterTiming = true;
                                             break;
-                                        case 360:
+                                        case 5:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 10:
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset.Y -= 1;
+                                            break;
+                                        case 15:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 20:
+                                            this.animationpoint = new Point(1, 1);
+                                            this.underAnimationPoint = new Point(3, 1);
+                                            this.detachedShadow = false;
+                                            this.ShakeStart(4, 3);
+
+                                            // TODO: add powered up flag, add powered up attack patterns
+                                            break;
+                                        case 23:
+                                            this.underAnimationPoint = new Point(4, 1);
+                                            break;
+                                        case 24:
+                                            this.animationpoint = new Point(2, 1);
+                                            this.counterTiming = false;
+                                            break;
+                                        case 26:
+                                            this.underAnimationPoint = null;
+                                            break;
+                                        case 60:
                                             this.AttackMotion = AttackState.Cooldown;
                                             this.AttackCooldownSet();
                                             break;
@@ -767,6 +853,13 @@ namespace NSEnemy
             }
 
             var reversed = this.crossDiveReverse;
+
+            if (this.underAnimationPoint != null)
+            {
+                var hitmarkedUnderAnimationPoint = this.whitetime == 0 ? this.underAnimationPoint.Value : this.underAnimationPoint.Value.WithOffset(6, 0);
+                dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedUnderAnimationPoint.X), FrameCoordY(hitmarkedUnderAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
+            }
+
             var hitmarkedAnimationPoint = this.whitetime == 0 ? this.animationpoint : this.animationpoint.WithOffset(6, 0);
             dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedAnimationPoint.X), FrameCoordY(hitmarkedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
             this.Nameprint(dg, this.printNumber);
@@ -870,11 +963,13 @@ namespace NSEnemy
             this.crossDiveEntryFramesBeforeCounter = 1;
             this.crossDiveCounterFrames = 15;
 
-            this.iceCrashDuration = 400;
+            this.iceCrashDuration = 280;
             this.largeIceHitTime = 60;
-            this.largeIceLifetime = 240;
+            this.largeIceLifetime = 200;
             this.smallIceHitTime = 45;
             this.smallIceSpawnDelay = 10;
+            this.iceCrashBlockerHitTime = 45;
+            this.iceCrashBlockerLifetime = 150;
 
             this.diveWeight = 0;
             this.crossDiveWeight = 0;
@@ -1784,7 +1879,7 @@ namespace NSEnemy
             {
                 this.height = 128;
                 this.wide = 96;
-                this.hp = 500;
+                this.hp = 200;
                 this.hitPower = 200;
                 this.hpmax = this.hp;
                 this.unionhit = false;
@@ -1901,11 +1996,10 @@ namespace NSEnemy
                 switch (animFrame)
                 {
                     case 0:
-                        this.ShakeStart(4);
+                        this.ShakeStart(4, 3);
                         this.animationpoint = new Point(4, 4);
                         break;
                     case 3:
-                        this.ShakeEnd();
                         this.animationpoint = new Point(3, 4);
                         break;
                     case 6:
@@ -1980,7 +2074,6 @@ namespace NSEnemy
             {
                 if (!this.breaked || this.StandPanel.Hole)
                 {
-                    this.ShakeEnd();
                     this.breaked = true;
 
                     var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
