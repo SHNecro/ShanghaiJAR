@@ -15,7 +15,7 @@ namespace Common.OpenAL
     {
         #region Fields
         private const int OggBufferCount = 10;
-        private const double OggBufferSize = 0.1;
+        private const double OggBufferSize = 0.05;
 
         public const string DefaultStartGroup = "default";
         public const string DefaultVolumeGroup = "default";
@@ -617,7 +617,7 @@ namespace Common.OpenAL
                     return vorbis.ReadSamples(floatBuffer, 0, samples);
                 });
 
-                if (!t.Wait(10) || t.Result <= 0)
+                if (!t.Wait((int)(OggBufferSize * 100)) || t.Result <= 0)
                 {
                     thread?.Abort();
                     return;

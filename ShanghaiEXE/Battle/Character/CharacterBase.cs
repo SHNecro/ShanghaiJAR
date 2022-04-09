@@ -1035,26 +1035,8 @@ namespace NSBattle.Character
                 posi.Y = 2;
             return posi;
         }
-
-        protected void AttackMake(int power, int slideX = 0, int slideY = 0)
-        {
-            if (!this.effecting)
-                return;
-            this.parent.attacks.Add(new EnemyHit(this.sound, this.parent, this.position.X + slideX, this.position.Y + slideY, this.union, power, this.element, this));
-        }
-
-        protected void AttackMake(int power, bool break_)
-        {
-            if (!this.effecting)
-                return;
-            EnemyHit enemyHit = new EnemyHit(this.sound, this.parent, this.position.X, this.position.Y, this.union, power, this.element, this)
-            {
-                breaking = break_
-            };
-            this.parent.attacks.Add(enemyHit);
-        }
-
-        protected void AttackMake(int power, int slideX, int slideY, bool break_)
+        
+        protected virtual void AttackMake(int power, int slideX = 0, int slideY = 0, bool break_ = false)
         {
             if (!this.effecting)
                 return;
@@ -1304,33 +1286,39 @@ namespace NSBattle.Character
         public void HitFlagReset()
         {
             this.hitflag = new bool[6, 3];
-        }
+		}
 
-        public void Knockbuck(bool push, bool slip, Panel.COLOR attackunion)
-        {
-            if (this.slipping)
-                return;
-            if (this is ObjectBase && ((ObjectBase)this).unionhit)
-                this.union = attackunion;
-            if (!this.Noslip)
-            {
-                this.slipdirecsion = attackunion != Panel.COLOR.blue ? (!push ? CharacterBase.DIRECTION.left : CharacterBase.DIRECTION.right) : (!push ? CharacterBase.DIRECTION.right : CharacterBase.DIRECTION.left);
-                if (this.CanSlip(this.slipdirecsion))
-                {
-                    this.slipping = true;
-                    this.knockslip = true;
-                    this.nobreak = true;
-                    this.slipslip = slip;
-                }
-                else
-                {
-                    this.nobreak = false;
-                    this.positionre = this.position;
-                }
-            }
-        }
+		public void Knockbuck(bool push, bool slip, Panel.COLOR attackunion)
+		{
+			var direction = attackunion != Panel.COLOR.blue ? (!push ? CharacterBase.DIRECTION.left : CharacterBase.DIRECTION.right) : (!push ? CharacterBase.DIRECTION.right : CharacterBase.DIRECTION.left);
+			this.Knockbuck(direction, slip, attackunion);
+		}
 
-        public virtual void Dameged(AttackBase attack)
+		public void Knockbuck(DIRECTION direction, bool slip, Panel.COLOR attackunion)
+		{
+			if (this.slipping)
+				return;
+			if (this is ObjectBase && ((ObjectBase)this).unionhit)
+				this.union = attackunion;
+			if (!this.Noslip)
+			{
+				this.slipdirecsion = direction;
+				if (this.CanSlip(this.slipdirecsion))
+				{
+					this.slipping = true;
+					this.knockslip = true;
+					this.nobreak = true;
+					this.slipslip = slip;
+				}
+				else
+				{
+					this.nobreak = false;
+					this.positionre = this.position;
+				}
+			}
+		}
+
+		public virtual void Dameged(AttackBase attack)
         {
         }
 

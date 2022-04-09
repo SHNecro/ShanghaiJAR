@@ -267,11 +267,14 @@ namespace NSEnemy
 				case 83:
 					enemyBase = new yuyuko(sound, parent, point.X, point.Y, n, u, v);
 					break;
-				case 84:
-					enemyBase = new DruidMan(sound, parent, point.X, point.Y, n, u, v);
-					break;
+                case 84:
+                    enemyBase = new DruidMan(sound, parent, point.X, point.Y, n, u, v);
+                    break;
+                case 85:
+                    enemyBase = new CirnoBX(sound, parent, point.X, point.Y, n, u, v);
+                    break;
 
-				default:
+                default:
                     enemyBase = null;
                     break;
             }
