@@ -57,6 +57,12 @@ namespace NSEnemy
         private int crossDiveCenterX;
         private bool crossDiveReverse;
 
+        private int iceCrashDuration;
+        private int largeIceHitTime;
+        private int largeIceLifetime;
+        private int smallIceHitTime;
+        private int smallIceSpawnDelay;
+
         private int diveWeight;
         private int crossDiveWeight;
         private int iceCrashWeight;
@@ -645,12 +651,42 @@ namespace NSEnemy
                                     {
                                         case 0:
                                             this.animationpoint = new Point(0, 4);
-                                            this.parent.attacks.Add(new LargeIceCrash(this.sound, this.parent, 1, Environment.TickCount % 2 == 0 ? 1 : 0, this.union, this.power, 60, this.element, 360));
-                                            this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, 3, 1, this.union, this.power, 45, this.element, true, 360));
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset = new Vector2(0, -1);
+                                            this.detachedShadow = true;
+                                            this.counterTiming = true;
+                                            break;
+                                        case 5:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 10:
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset.Y -= 1;
+                                            break;
+                                        case 15:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 20:
+                                            this.animationpoint = new Point(1, 4);
+                                            this.detachedShadow = false;
+                                            break;
+                                        case 24:
+                                            this.animationpoint = new Point(2, 4);
+                                            this.counterTiming = false;
+
+
+
+                                            // TODO: Spawn attacks (ensure not standing under?)
+                                            // Attack spawner so it can't be interrupted?
+                                            this.parent.attacks.Add(new IceCrashSpawner(this.sound, this.parent, this.union, this.power, this.element, this.iceCrashDuration, this.largeIceHitTime, this.largeIceLifetime, this.smallIceHitTime, this.smallIceSpawnDelay));
                                             break;
                                         case 60:
-                                            this.AttackMotion = AttackState.Cooldown;
-                                            this.AttackCooldownSet();
+                                            // TODO: reset timers, set attack to powerup
+                                            this.attackType = AttackType.PowerUp;
+                                            // this.AttackCooldownSet();
+                                            this.attackWaitTime = 0;
                                             break;
                                     }
                                     break;
@@ -674,7 +710,7 @@ namespace NSEnemy
                                         case 1:
                                             this.animationpoint = new Point(0, 1);
                                             break;
-                                        case 60:
+                                        case 360:
                                             this.AttackMotion = AttackState.Cooldown;
                                             this.AttackCooldownSet();
                                             break;
@@ -833,6 +869,12 @@ namespace NSEnemy
             this.crossDiveEndFlightFrames = 30;
             this.crossDiveEntryFramesBeforeCounter = 1;
             this.crossDiveCounterFrames = 15;
+
+            this.iceCrashDuration = 400;
+            this.largeIceHitTime = 60;
+            this.largeIceLifetime = 240;
+            this.smallIceHitTime = 45;
+            this.smallIceSpawnDelay = 10;
 
             this.diveWeight = 0;
             this.crossDiveWeight = 0;
@@ -1285,7 +1327,117 @@ namespace NSEnemy
             }
         }
 
-        private class LargeIceCrash : AttackBase
+        private class IceCrashSpawner : AttackBase
+        {
+            private readonly int duration;
+            private readonly int largeIceHitTime;
+            private readonly int largeIceLifetime;
+            private readonly int smallIceHitTime;
+            private readonly int smallIceSpawnTime;
+
+            public IceCrashSpawner(
+                IAudioEngine so,
+                SceneBattle p,
+                Panel.COLOR u,
+                int po,
+                ChipBase.ELEMENT ele,
+                int duration,
+                int largeIceHitTime,
+                int largeIceLifetime,
+                int smallIceHitTime,
+                int smallIceSpawnTime)
+                : base(so, p, 0, 0, u, po, ele)
+            {
+                this.duration = duration;
+                this.largeIceHitTime = largeIceHitTime;
+                this.largeIceLifetime = largeIceLifetime;
+                this.smallIceHitTime = smallIceHitTime;
+                this.smallIceSpawnTime = smallIceSpawnTime;
+            }
+
+            public override void Updata()
+            {
+                if (this.frame > this.duration)
+                {
+                    this.flag = false;
+                    return;
+                }
+
+                if (this.frame == 0)
+                {
+                    var allPanelPositions = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y))).ToArray();
+                    var enemyPanels = allPanelPositions.Where(p => this.parent.panel[p.X, p.Y].color != this.union).ToArray();
+
+                    var validTargets = allPanelPositions.Where(pos =>
+                    {
+                        var attackPositions = Enumerable.Range(0, 2).SelectMany(xOff => Enumerable.Range(0, 2).Select(yOff => new Point(pos.X + xOff, pos.Y + yOff))).ToArray();
+
+                        var isOutOfBounds = attackPositions.Any(p => p.X >= this.parent.panel.GetLength(0) || p.Y >= this.parent.panel.GetLength(1) || this.parent.panel[p.X, p.Y].State == Panel.PANEL._un);
+                        var hitsEnemyArea = attackPositions.Any(enemyPanels.Contains);
+                        var willBlockArea = enemyPanels.Where(p => this.parent.panel[p.X, p.Y].State != Panel.PANEL._un).Except(attackPositions).Count() < 2;
+
+                        return hitsEnemyArea && !isOutOfBounds && !willBlockArea;
+                    }).ToList();
+
+                    if (validTargets.Any())
+                    {
+                        // Occupy the max number of enemy panels
+                        var maxPanelsHit = validTargets.Max(pos =>
+                        {
+                            var attackPositions = Enumerable.Range(0, 2).SelectMany(xOff => Enumerable.Range(0, 2).Select(yOff => new Point(pos.X + xOff, pos.Y + yOff))).ToArray();
+                            return enemyPanels.Intersect(attackPositions).Count();
+                        });
+
+                        validTargets.RemoveAll(pos =>
+                        {
+                            var attackPositions = Enumerable.Range(0, 2).SelectMany(xOff => Enumerable.Range(0, 2).Select(yOff => new Point(pos.X + xOff, pos.Y + yOff))).ToArray();
+                            return enemyPanels.Intersect(attackPositions).Count() < maxPanelsHit;
+                        });
+                    }
+                    else
+                    {
+                        // Block enemy panels without locking into 1 space
+                        var frontmostPanels = enemyPanels.GroupBy(p => p.Y).Select(gr => gr.OrderBy(p => this.union == Panel.COLOR.blue ? -p.X : p.X).First());
+
+                        validTargets.AddRange(frontmostPanels.Select(p => p.WithOffset(this.union == Panel.COLOR.blue ? 1 : -1, 0)).Where(pos =>
+                        {
+                            var attackPositions = Enumerable.Range(0, 2).SelectMany(xOff => Enumerable.Range(0, 2).Select(yOff => new Point(pos.X + xOff, pos.Y + yOff))).ToArray();
+
+                            var isOutOfBounds = attackPositions.Any(p => p.X >= this.parent.panel.GetLength(0) || p.Y >= this.parent.panel.GetLength(1) || this.parent.panel[p.X, p.Y].State == Panel.PANEL._un);
+
+                            return !isOutOfBounds;
+                        }));
+                    }
+
+                    var targetedPosition = validTargets[this.Random.Next(0, validTargets.Count)];
+
+                    this.parent.attacks.Add(new IceCrashLarge(this.sound, this.parent, targetedPosition.X, targetedPosition.Y, this.union, this.power, this.largeIceHitTime, this.element, largeIceLifetime));
+                }
+                else if (this.frame % this.smallIceSpawnTime == 0)
+                {
+                    var allPanelPositions = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y))).ToArray();
+                    var enemyPanels = allPanelPositions.Where(p => this.parent.panel[p.X, p.Y].color != this.union).ToArray();
+
+                    var targetPanels = enemyPanels.Where(pos =>
+                    {
+                        var existingIcePresent = this.parent.AllHitter().Any(o => (o is IceRockLarge || o is DummyObject || o is IceRocks) && o.position == pos);
+                        var iceIncoming = this.parent.attacks.Any(a =>
+                        {
+                            var attackPositions = Enumerable.Range(0, 2).SelectMany(xOff => Enumerable.Range(0, 2).Select(yOff => new Point(a.position.X + xOff, a.position.Y + yOff)));
+                            return a is IceCrashLarge && attackPositions.Contains(pos);
+                        });
+                        return !existingIcePresent && !iceIncoming;
+                    }).ToArray();
+                    var targetPos = targetPanels[this.Random.Next(0, targetPanels.Length)];
+
+                    this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, targetPos.X, targetPos.Y, this.union, this.power, this.smallIceHitTime, this.element, false));
+                }
+
+                this.FlameControl();
+            }
+        }
+
+        private class IceCrashLarge : AttackBase
         {
             private static readonly float DropAcceleration = 9.8f / 60;
             private static readonly int MinHeight = 160;
@@ -1297,7 +1449,7 @@ namespace NSEnemy
 
             private bool hasShadow;
 
-            public LargeIceCrash(
+            public IceCrashLarge(
                 IAudioEngine so,
                 SceneBattle p,
                 int pX,
@@ -1354,7 +1506,6 @@ namespace NSEnemy
                     {
                         for (var yOff = 0; yOff <= 1; yOff++)
                         {
-                            // TODO: if pinned in corner, damage++ & add individual panel blocks
                             var point = new Point(this.position.X + xOff, this.position.Y + yOff);
                             targetedPanels.Add(point);
 
@@ -1368,9 +1519,13 @@ namespace NSEnemy
                     if (hitObjects.Any(o => !(o is IceRockLarge || o is DummyObject)))
                     {
                         var emptySpaces = targetedPanels.Except(hitObjects.Select(e => e.position));
+                        var isPinned = hitObjects.Select(e => e.position).Any(p =>
+                            new[] { new Point(0, 1), new Point(0, -1), new Point(1, 0), new Point(-1, 0) }.Select(off => p.WithOffset(off.X, off.Y))
+                            .All(adj => !(adj.X >= 0 && adj.X < 6 && adj.Y >= 0 && adj.Y < 3) || this.parent.panel[adj.X, adj.Y].color == this.union || this.parent.OnPanelCheck(adj.X, adj.Y, true) || emptySpaces.Contains(adj))
+                        );
                         foreach (var space in emptySpaces)
                         {
-                            this.parent.objects.Add(new IceRocks(this.sound, this.parent, space.X, space.Y, this.union, this.lifetime));
+                            this.parent.objects.Add(new IceRocks(this.sound, this.parent, space.X, space.Y, this.union, this.lifetime / (isPinned ? 2 : 1)));
                         }
 
                         // create debris
@@ -1466,6 +1621,7 @@ namespace NSEnemy
             private static readonly float DropAcceleration = 9.8f / 60;
             private static readonly int InitialHeight = 160;
 
+            private readonly Shadow shadow;
             private readonly int lifetime;
             private readonly int hitTime;
             private readonly Vector2 initialPosition;
@@ -1484,7 +1640,7 @@ namespace NSEnemy
                 int hittime,
                 ChipBase.ELEMENT ele,
                 bool createObject,
-                int lifetime)
+                int lifetime = 60)
                 : base(so, p, pX, pY, u, po, ele)
             {
                 this.invincibility = false;
@@ -1502,6 +1658,9 @@ namespace NSEnemy
                 this.positionDirect = new Vector2(this.initialPosition.X, this.initialPosition.Y);
 
                 this.createObject = createObject;
+
+                this.shadow = new Shadow(this.sound, this.parent, this.position.X, this.position.Y, this);
+                this.parent.effects.Add(shadow);
             }
 
             public override void Updata()
@@ -1514,6 +1673,8 @@ namespace NSEnemy
                     this.isEnding = true;
 
                     this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, this.element)));
+
+                    this.shadow.rend = !this.StandPanel.Hole && !this.isEnding;
 
                     if (!this.StandPanel.Hole)
                     {
@@ -1556,7 +1717,7 @@ namespace NSEnemy
                                 pdY + Random.Next(8, 14),
                                 Random.Next(16, 20),
                                 Random.Next(20, 24),
-                                false,
+                                true,
                                 fragmentTypes[Random.Next(fragmentTypes.Length)]));
                             
                         }
@@ -1573,6 +1734,7 @@ namespace NSEnemy
                     if (!this.createObject)
                     {
                         this.flag = false;
+                        this.shadow.flag = false;
                     }
                     else
                     {
@@ -1581,6 +1743,7 @@ namespace NSEnemy
                         if (pxAboveGroundLevel < 0)
                         {
                             this.flag = false;
+                            this.shadow.flag = false;
                         }
                     }
                 }
@@ -1595,15 +1758,6 @@ namespace NSEnemy
             {
                 if (this.over || !this.flag)
                     return;
-                
-                if (!this.StandPanel.Hole && !this.isEnding && !this.StandPanel.OnCharaCheck())
-                {
-                    var shadowPosition = new Vector2(this.initialPosition.X, this.initialPosition.Y + InitialHeight + 32);
-                    var shadowOffsetPosition = shadowPosition + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
-                    this._rect = new Rectangle(0, 440, 32, 8);
-                    this._position = shadowOffsetPosition;
-                    dg.DrawImage(dg, "towers", this._rect, false, this._position, this.rebirth, Color.White);
-                }
 
                 var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
                 this._rect = new Rectangle(0, 392, 32, 48);
