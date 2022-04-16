@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Mail.Mail1Title" Value="Net Crime Alert!" Mono="True" />
   <Text Key="Mail.Mail1Sender" Value="E-News" Mono="True" />
@@ -182,7 +182,7 @@
   <Dialogue Key="Mail.Mail26Dialogue2" Value="As it happens，I am at the,NetAgent center right now." Face="DrMorichika" Mono="True" />
   <Dialogue Key="Mail.Mail26Dialogue3" Value="Would you mind coming by,when you have the chance?" Face="DrMorichika" Mono="True" />
   <Text Key="Mail.Mail27Title" Value="Surgery" Mono="True" />
-  <Text Key="Mail.Mail27Sender" Value="Koishi Koji" Mono="True" />
+  <Text Key="Mail.Mail27Sender" Value="Koishi Komeiji" Mono="True" />
   <Dialogue Key="Mail.Mail27Dialogue1" Value="The surgery will begin,soon! " Face="Koishi" Mono="True" />
   <Dialogue Key="Mail.Mail27Dialogue2" Value="Would you like to come,by to visit before they,start the surgery?" Face="Koishi" Mono="True" />
   <Dialogue Key="Mail.Mail27Dialogue3" Value="I’m sure it would mean,a lot to Satori,if you were there!" Face="Koishi" Mono="True" />
