@@ -96,7 +96,7 @@
   <Text Key="Interior.Item51" Value="二段ダンボール" />
   <Text Key="Interior.Item52" Value="体験版おまけルーム" />
   <Text Key="Interior.Item53" Value="デバッグルーム" />
-  <Text Key="NumberSet.SetNumberFormat" Value="{0},,（上下または数字キーで数字変更）" />
+  <Text Key="NumberSet.SetNumberFormat" Value="{0},,（上下キーで数字変更）" />
   <Text Key="MysteryItem.BattleChipText" Value="バトルチップ" />
   <Text Key="MysteryItem.SubChipText" Value="サブチップ" />
   <Text Key="MysteryItem.AddText" Value="アドオン" />
@@ -205,7 +205,7 @@
   <Text Key="MysteryItem.OpenDialogue1" Value="シャンハイは,ミステリーデータを調べた・・・・" />
   <Text Key="MysteryItem.LockedDialogue1" Value="このミステリーデータには,セキュリティがかかっていて,解析することができない" />
   <Text Key="MysteryItem.LockedDialogue2" Value="解析するには,サブチップ「クラックツール」,が必要だ" />
-  <Text Key="MysteryItem.LockUseCrakToolQuestionFormat" Value="[Would you like to use one?,({0} remaining)]" />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionFormat" Value="クラックツールを使いますか？,（残り{0}コ）" />
   <Text Key="MysteryItem.LockUseCrakToolQuestionOptions" Value="はい,いいえ" />
   <Text Key="MysteryItem.LockOpenedDialogue1" Value="シャンハイは,ミステリーデータを調べた・・・・" />
   <Dialogue Key="AddOnManager.ExitQuestion" Value="ＲＵＮしてないけど,戻っていいの？" Face="Shanghai" Mono="False" />
@@ -250,7 +250,7 @@
   <Text Key="DataList.Navi" Value="ナビチップ" />
   <Text Key="DataList.Dark" Value="ダークチップ" />
   <Text Key="DataList.PAdvance" Value="アドバンスメモ" />
-  <Text Key="DataList.Illegal" Value="[Illegal]" />
+  <Text Key="DataList.Illegal" Value="イリーガル" />
   <Text Key="DataList.IllegalChipDisplayId" Value="？？" />
   <Text Key="FolderEdit.BagName" Value="バッグ" />
   <Text Key="FolderEdit.Folder1" Value="フォルダ１" />
