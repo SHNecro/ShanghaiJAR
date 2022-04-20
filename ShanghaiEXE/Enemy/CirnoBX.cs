@@ -65,6 +65,17 @@ namespace NSEnemy
         private int iceCrashBlockerHitTime;
         private int iceCrashBlockerLifetime;
 
+        private int spinPatternLength;
+        private int spinFeatherPatternStayWeight;
+        private int spinFeatherPatternMoveWeight;
+        private int spinSpinupTime;
+        private int spinDuration;
+        private int spinFeatherInitialDelay;
+        private int spinFeatherMinimumDelay;
+        private int spinFeatherPerPanelTime;
+
+        private List<int> spinPattern;
+
         private int diveWeight;
         private int crossDiveWeight;
         private int iceCrashWeight;
@@ -104,6 +115,8 @@ namespace NSEnemy
             this.picturename = "cirnobx";
 
             this.animationpoint = new Point(1, 0);
+
+            this.spinPattern = new List<int>();
         }
 
         private Vector2 SpritePositionDirect => this.positionDirect + SpriteOffset;
@@ -196,6 +209,7 @@ namespace NSEnemy
                     this.overMove = false;
                     this.detachedShadow = false;
                     this.superArmor = false;
+                    this.guard = GUARD.none;
                     if (this.positionReserved != null)
                     {
                         this.position = this.positionReserved.Value;
@@ -652,7 +666,6 @@ namespace NSEnemy
 
                                     break;
                                 case AttackType.IceCrash:
-                                    // TODO: real attack logic
                                     switch (this.attackWaitTime)
                                     {
                                         case 0:
@@ -743,20 +756,220 @@ namespace NSEnemy
                                     }
                                     break;
                                 case AttackType.Spin:
-                                    // TODO:
-                                    switch (this.attackWaitTime)
+                                    const int spinPoseFrames = 6;
+                                    const int spinSwipeFrames = 4;
+                                    if (this.attackWaitTime < this.spinSpinupTime)
                                     {
-                                        case 0:
-                                            this.animationpoint = new Point(0, 5);
-                                            break;
-                                        case 60:
-                                            this.AttackMotion = AttackState.Cooldown;
-                                            this.AttackCooldownSet();
-                                            break;
+                                        // move to center
+                                        if (this.attackWaitTime <= 10 + spinPoseFrames + spinSwipeFrames)
+                                        {
+                                            switch (this.attackWaitTime)
+                                            {
+                                                case 0:
+                                                    {
+                                                        var initialPosition = this.position;
+                                                        var initialPositionDirect = this.SpritePositionDirect;
+
+                                                        var spinPosition = this.union == Panel.COLOR.blue ? new Point(4, 1) : new Point(1, 1);
+                                                        if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                        {
+                                                            spinPosition = this.union == Panel.COLOR.blue ? new Point(5, 1) : new Point(0, 1);
+                                                        }
+
+                                                        if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                        {
+                                                            this.MoveRandom(false, false);
+                                                            for (var i_retry = 0; i_retry < 6; i_retry++)
+                                                            {
+                                                                if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
+                                                                    && (this.union == Panel.COLOR.blue || this.positionre.X < 2)
+                                                                    && !this.parent.panel[this.positionre.X, this.positionre.Y].Hole)
+                                                                {
+                                                                    spinPosition = this.positionre;
+                                                                    break;
+                                                                }
+                                                                this.MoveRandom(false, false);
+                                                            }
+                                                        }
+                                                        this.positionre = spinPosition;
+
+                                                        this.position = this.positionre;
+                                                        this.PositionDirectSet();
+
+                                                        this.animationpoint = new Point(2, 0);
+                                                        if (initialPosition != this.position)
+                                                        {
+                                                            this.parent.effects.Add(new StepShadowYuyu(
+                                                                this.sound,
+                                                                this.parent,
+                                                                new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                                                initialPositionDirect,
+                                                                this.picturename,
+                                                                this.rebirth,
+                                                                initialPosition,
+                                                                255, 255, 255));
+                                                        }
+                                                        break;
+                                                    }
+                                                case 4:
+                                                    this.animationpoint = new Point(1, 0);
+                                                    break;
+                                                case 10:
+                                                    this.animationpoint = new Point(0, 5);
+                                                    this.counterTiming = true;
+                                                    break;
+                                                case 10 + spinPoseFrames:
+                                                    this.animationpoint = new Point(1, 5);
+                                                    break;
+                                                case 10 + spinSwipeFrames + spinPoseFrames:
+                                                    this.animationpoint = new Point(2, 5);
+                                                    this.counterTiming = false;
+                                                    this.guard = GUARD.guard;
+
+                                                    this.spinPattern.Clear();
+                                                    var initialRow = this.Random.Next(3);
+                                                    this.spinPattern.Add(initialRow);
+                                                    var potentialMovements = new List<int>();
+
+                                                    for (var i = 0; i < this.spinPatternLength - 1; i++)
+                                                    {
+                                                        var currentRow = this.spinPattern.Last();
+                                                        var distanceFromCycleStart = currentRow - initialRow;
+
+                                                        var remainingRows = this.spinPatternLength - 1 - i;
+                                                        if (Math.Abs(distanceFromCycleStart) >= remainingRows)
+                                                        {
+                                                            this.spinPattern.Add(currentRow + (distanceFromCycleStart > 0 ? -1 : 1));
+                                                        }
+                                                        else
+                                                        {
+                                                            potentialMovements.Clear();
+                                                            potentialMovements.AddRange(Enumerable.Repeat(0, this.spinFeatherPatternStayWeight));
+                                                            if (currentRow != 0)
+                                                            {
+                                                                potentialMovements.AddRange(Enumerable.Repeat(-1, this.spinFeatherPatternMoveWeight));
+                                                            }
+                                                            if (currentRow != 2)
+                                                            {
+                                                                potentialMovements.AddRange(Enumerable.Repeat(1, this.spinFeatherPatternMoveWeight));
+                                                            }
+
+                                                            this.spinPattern.Add(currentRow + potentialMovements[this.Random.Next(potentialMovements.Count)]);
+                                                        }
+                                                    }
+
+                                                    break;
+                                            }
+                                        }
+                                        else
+                                        {
+                                            var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
+
+                                            const int minFrameDelay = 2;
+                                            const int initialFrameDelay = 6;
+                                            Func<int, int> calculateFrameDelay = t => (int)(Math.Round(initialFrameDelay - (initialFrameDelay - minFrameDelay) * ((double)t / this.spinSpinupTime)));
+
+                                            var animProgress = 0;
+                                            while (animProgress < spinStartTime)
+                                            {
+                                                animProgress += calculateFrameDelay(animProgress);
+                                            }
+
+                                            if (animProgress == spinStartTime)
+                                            {
+                                                var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
+                                                this.animationpoint = new Point(spinFrame + 2, 5);
+                                            }
+
+                                            Func<int, int> calculateFeatherDelay = t => (int)(Math.Round(this.spinFeatherInitialDelay - (this.spinFeatherInitialDelay - this.spinFeatherMinimumDelay) * ((double)t / this.spinSpinupTime)));
+
+                                            var featherProgress = 0;
+                                            while (featherProgress < spinStartTime)
+                                            {
+                                                featherProgress += calculateFeatherDelay(featherProgress);
+                                            }
+
+                                            // Spawn row attacks on similar acceleration (to establish pattern)
+                                            if (featherProgress == spinStartTime)
+                                            {
+                                                // Spawn row attacks at max speed in same pattern
+                                                var gap = this.spinPattern[0];
+                                                this.spinPattern.RemoveAt(0);
+                                                this.spinPattern.Add(gap);
+
+                                                var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
+                                                var px = 3;
+                                                for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                {
+                                                    var py = randomDelayOrder[i];
+                                                    if (py != gap)
+                                                    {
+                                                        var delayTime = 10 + 2 * i;
+                                                        this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    else if (this.attackWaitTime < this.spinSpinupTime + this.spinDuration)
+                                    {
+                                        if (this.attackWaitTime % 2 == 0)
+                                        {
+                                            var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
+                                            this.animationpoint = new Point(spinFrame + 2, 5);
+                                        }
+
+                                        const int subdivisions = 3;
+
+                                        var fullSpinTime = this.attackWaitTime - this.spinSpinupTime;
+                                        var delayDivision = this.spinFeatherMinimumDelay / subdivisions;
+                                        var switchTime = this.spinSpinupTime % delayDivision;
+                                        if (fullSpinTime % delayDivision == switchTime)
+                                        {
+                                            var fullDelayHit = fullSpinTime % (delayDivision * subdivisions) == switchTime;
+                                            var isFullSpeed = fullSpinTime > this.spinFeatherMinimumDelay * this.spinPatternLength / subdivisions;
+
+                                            if (isFullSpeed && this.spinPattern.Count == this.spinPatternLength)
+                                            {
+                                                // Convert gaps to bits 0, 1, 2, add middle with both gaps between
+                                                var repeatedPatternBits = this.spinPattern.Select(g => Enumerable.Repeat(1 << g, subdivisions - 1).ToArray())
+                                                    .Aggregate((i, j) => i.Concat(Enumerable.Repeat(i[i.Length - 1] | j[0], subdivisions - 1)).Concat(j).ToArray()).ToList();
+                                                repeatedPatternBits.AddRange(Enumerable.Repeat(repeatedPatternBits[repeatedPatternBits.Count - 1] | repeatedPatternBits[0], subdivisions - 1));
+                                                this.spinPattern.Clear();
+                                                this.spinPattern.AddRange(repeatedPatternBits);
+                                            }
+
+                                            // Spawn row attacks at max speed in same pattern
+                                            var gapBits = isFullSpeed ? this.spinPattern[0] : (1 << this.spinPattern[0]);
+                                            
+                                            if (isFullSpeed || fullDelayHit)
+                                            {
+                                                var originalHead = this.spinPattern[0];
+                                                this.spinPattern.RemoveAt(0);
+                                                this.spinPattern.Add(originalHead);
+
+                                                var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
+                                                var px = 3;
+                                                for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                {
+                                                    var py = randomDelayOrder[i];
+                                                    if (((1 << py) & gapBits) == 0)
+                                                    {
+                                                        var delayTime = 10 + 2 * i;
+                                                        this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        this.guard = GUARD.none;
+                                        this.AttackMotion = AttackState.Cooldown;
+                                        this.AttackCooldownSet();
                                     }
                                     break;
                                 case AttackType.PowerUp:
-                                    // TODO:
                                     switch (this.attackWaitTime)
                                     {
                                         case 1:
@@ -971,10 +1184,19 @@ namespace NSEnemy
             this.iceCrashBlockerHitTime = 45;
             this.iceCrashBlockerLifetime = 150;
 
+            this.spinPatternLength = 5;
+            this.spinFeatherPatternStayWeight = 2;
+            this.spinFeatherPatternMoveWeight = 5;
+            this.spinSpinupTime = 240;
+            this.spinDuration = 240;
+            this.spinFeatherInitialDelay = 45;
+            this.spinFeatherMinimumDelay = 16;
+            this.spinFeatherPerPanelTime = 8;
+
             this.diveWeight = 0;
             this.crossDiveWeight = 0;
-            this.iceCrashWeight = 1;
-            this.spinWeight = 0;
+            this.iceCrashWeight = 0;
+            this.spinWeight = 1;
             this.powerUpWeight = 0;
         }
 
@@ -1767,7 +1989,8 @@ namespace NSEnemy
                 {
                     this.isEnding = true;
 
-                    this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, this.element)));
+                    //this.parent.attacks.Add(this.StateCopy(new BombAttack(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 1, this.element)));
+                    this.hitting = true;
 
                     this.shadow.rend = !this.StandPanel.Hole && !this.isEnding;
 
@@ -2364,6 +2587,96 @@ namespace NSEnemy
                 ChipRound,
                 ChipSharp,
                 ChipScale
+            }
+        }
+
+        private class SpinFeather : AttackBase
+        {
+            private readonly int throwDelay;
+            private readonly int perPanelMoveTime;
+
+            private readonly int initialX;
+            private readonly float moveSpeed;
+
+            public SpinFeather(
+                IAudioEngine so,
+                SceneBattle p,
+                Panel.COLOR u,
+                int po,
+                int pX,
+                int pY,
+                int throwDelay,
+                int perPanelMoveTime,
+                ChipBase.ELEMENT ele)
+                : base(so, p, pX, pY, u, po, ele)
+            {
+                this.throwDelay = throwDelay;
+                this.perPanelMoveTime = perPanelMoveTime;
+
+                this.moveSpeed = 40.0f / perPanelMoveTime;
+                this.initialX = this.position.X;
+
+                this.picturename = "cirnobx";
+                this.animationpoint = new Point(5, 5);
+                this.wide = 96;
+                this.height = 128;
+                this.positionDirect = new Vector2(position.X * 40.0f + 0, position.Y * 24.0f + 0);
+                this.hitting = true;
+            }
+
+            public override void Updata()
+            {
+                if (this.waittime >= this.throwDelay)
+                {
+                    var directionMult = (this.union == Panel.COLOR.blue ? -1 : 1);
+                    this.positionDirect.X += directionMult * this.moveSpeed;
+
+                    Func<double, int> roundingFunc = x => (int)(this.union == Panel.COLOR.blue ? Math.Floor(x) : Math.Ceiling(x));
+                    var centerOffset = directionMult * -20;
+                    this.position.X = roundingFunc((this.positionDirect.X + centerOffset) / 40); // this.initialX + directionMult * (int)Math.Floor((double)(this.waittime - this.throwDelay) / this.perPanelMoveTime);
+                    this.PanelBright();
+                    
+                    if (this.positionDirect.X < 0 - 13 || this.positionDirect.X > 240 + 13)
+                    {
+                        this.flag = false;
+                    }
+                }
+
+                this.waittime++;
+
+
+            }
+
+            public override void Render(IRenderer dg)
+            {
+                this._rect = new Rectangle(FrameCoordX(this.animationpoint.X), FrameCoordY(this.animationpoint.Y), this.wide, this.height);
+                var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
+                this._position = spriteOffsetPosition;
+                dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, Color.White);
+            }
+
+            public override bool HitEvent(Player p)
+            {
+                if (!base.HitEvent(p))
+                    return false;
+                this.flag = false;
+                return true;
+            }
+
+            public override bool HitEvent(EnemyBase e)
+            {
+                if (!base.HitEvent(e))
+                    return false;
+                this.flag = false;
+                return true;
+            }
+
+            public override bool HitEvent(ObjectBase o)
+            {
+                if (!base.HitEvent(o))
+                    return false;
+                this.flag = false;
+                return true;
             }
         }
     }
