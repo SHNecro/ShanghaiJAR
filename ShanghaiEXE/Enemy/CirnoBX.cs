@@ -73,8 +73,9 @@ namespace NSEnemy
         private int spinFeatherInitialDelay;
         private int spinFeatherMinimumDelay;
         private int spinFeatherPerPanelTime;
-
         private List<int> spinPattern;
+
+        private bool powerupActive;
 
         private int diveWeight;
         private int crossDiveWeight;
@@ -95,6 +96,7 @@ namespace NSEnemy
         public CirnoBX(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
             : base(s, p, pX, pY, n, u, v)
         {
+            // TODO: sound effects
             for (int index = 0; index < this.dropchips.Length; ++index)
                 this.dropchips[index] = new ChipFolder(this.sound);
 
@@ -210,6 +212,7 @@ namespace NSEnemy
                     this.detachedShadow = false;
                     this.superArmor = false;
                     this.guard = GUARD.none;
+                    this.powerupActive = false;
                     if (this.positionReserved != null)
                     {
                         this.position = this.positionReserved.Value;
@@ -420,6 +423,15 @@ namespace NSEnemy
                                             this.parent.attacks.Add(slamAttack);
 
                                             this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.diveTargetPosition));
+
+                                            if (this.powerupActive)
+                                            {
+                                                this.powerupActive = false;
+
+                                                this.ShakeStart(2, 120);
+
+                                                // TODO: spawn blocker-icicles on uneven delay
+                                            }
                                         }
                                         else if (this.attackWaitTime >= 38 + diveToTargetFrames + this.diveRestFrames)
                                         {
@@ -749,9 +761,16 @@ namespace NSEnemy
                                             }
                                             break;
                                         case 180:
-                                            this.attackType = AttackType.PowerUp;
-                                            // this.AttackCooldownSet();
-                                            this.attackWaitTime = 0;
+                                            if (this.powerupActive)
+                                            {
+                                                this.AttackMotion = AttackState.Cooldown;
+                                                this.AttackCooldownSet();
+                                            }
+                                            else
+                                            {
+                                                this.attackType = AttackType.PowerUp;
+                                                this.attackWaitTime = 0;
+                                            }
                                             break;
                                     }
                                     break;
@@ -972,6 +991,12 @@ namespace NSEnemy
                                 case AttackType.PowerUp:
                                     switch (this.attackWaitTime)
                                     {
+                                        case 0:
+                                            if (this.powerupActive)
+                                            {
+                                                this.AttackMotion = AttackState.Idle;
+                                            }
+                                            break;
                                         case 1:
                                             this.animationpoint = new Point(0, 1);
                                             this.positionDirect.Y += 1;
@@ -998,6 +1023,7 @@ namespace NSEnemy
                                             this.ShakeStart(4, 3);
 
                                             // TODO: add powered up flag, add powered up attack patterns
+                                            this.powerupActive = true;
                                             break;
                                         case 23:
                                             this.underAnimationPoint = new Point(4, 1);
@@ -1073,8 +1099,21 @@ namespace NSEnemy
                 dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedUnderAnimationPoint.X), FrameCoordY(hitmarkedUnderAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
             }
 
-            var hitmarkedAnimationPoint = this.whitetime == 0 ? this.animationpoint : this.animationpoint.WithOffset(6, 0);
+            var whiteAnimationPoint = this.animationpoint.WithOffset(6, 0);
+            var hitmarkedAnimationPoint = this.whitetime == 0 ? this.animationpoint : whiteAnimationPoint;
             dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedAnimationPoint.X), FrameCoordY(hitmarkedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
+
+            if (this.powerupActive)
+            {
+                const double period = 20;
+                var strobeProgress = this.frame / period;
+                var opacity = 120 * 0.5 * (1 - Math.Cos(strobeProgress * (2 * Math.PI)));
+                var roundedOpacity = (int)Math.Round(opacity);
+
+                var strobeColor = Color.FromArgb(roundedOpacity, Color.White);
+                dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(whiteAnimationPoint.X), FrameCoordY(whiteAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, strobeColor);
+            }
+
             this.Nameprint(dg, this.printNumber);
         }
 
@@ -1180,7 +1219,7 @@ namespace NSEnemy
             this.largeIceHitTime = 60;
             this.largeIceLifetime = 200;
             this.smallIceHitTime = 45;
-            this.smallIceSpawnDelay = 10;
+            this.smallIceSpawnDelay = 20;
             this.iceCrashBlockerHitTime = 45;
             this.iceCrashBlockerLifetime = 150;
 
@@ -1193,11 +1232,11 @@ namespace NSEnemy
             this.spinFeatherMinimumDelay = 16;
             this.spinFeatherPerPanelTime = 8;
 
-            this.diveWeight = 0;
-            this.crossDiveWeight = 0;
-            this.iceCrashWeight = 0;
+            this.diveWeight = 6;
+            this.crossDiveWeight = 6;
+            this.iceCrashWeight = 3;
             this.spinWeight = 1;
-            this.powerUpWeight = 0;
+            this.powerUpWeight = 1;
         }
 
         private void SetVersionStats()
@@ -1254,13 +1293,9 @@ namespace NSEnemy
         {
             if (this.version == 1)
             {
-                //this.iceCrashWeight = (this.Hp > this.HpMax / 2) ? 1 : 3;
-                //this.spinWeight = (this.Hp > this.HpMax / 2) ? 0 : 3;
             }
             else
             {
-                //this.iceCrashWeight = (this.Hp > this.HpMax / 2) ? 1 : 3;
-                //this.spinWeight = (this.Hp > this.HpMax / 2) ? 0 : 3;
             }
         }
 
