@@ -45,6 +45,11 @@ namespace NSEnemy
         private int diveFeatherDelay;
         private int diveFeatherCount;
         private int diveFeatherSets;
+        private int powerDiveSmallIceCount;
+        private int powerDiveIcicleHitTime;
+        private int powerDiveSmallIceLifetime;
+        private int powerDiveSmallIceSpawnDelay;
+        private int powerDiveSmallIceHp;
 
         private int crossDiveWarningFrames;
         private int crossDiveInitialDelayFrames;
@@ -58,12 +63,16 @@ namespace NSEnemy
         private bool crossDiveReverse;
 
         private int iceCrashDuration;
-        private int largeIceHitTime;
-        private int largeIceLifetime;
-        private int smallIceHitTime;
-        private int smallIceSpawnDelay;
+        private int iceCrashLargeIceHitTime;
+        private int iceCrashLargeIceLifetime;
+        private int iceCrashLargeIceHp;
+        private int iceCrashSmallIceHitTime;
+        private int iceCrashSmallIceSpawnDelay;
+        private int iceCrashSmallIceLifetime;
+        private int iceCrashSmallIceHp;
         private int iceCrashBlockerHitTime;
         private int iceCrashBlockerLifetime;
+        private int iceCrashBlockerHp;
 
         private int spinPatternLength;
         private int spinFeatherPatternStayWeight;
@@ -75,16 +84,10 @@ namespace NSEnemy
         private int spinFeatherPerPanelTime;
         private List<int> spinPattern;
 
-        private bool powerupActive;
-        private bool powerupActivating;
+        private bool isPoweredUp;
 
-        private int diveWeight;
-        private int crossDiveWeight;
-        private int iceCrashWeight;
-        private int spinWeight;
-        private int powerUpWeight;
-
-        private int initialPowerupWeight;
+        private Dictionary<AttackType, int> standardAttackWeights;
+        private Dictionary<AttackType, int> poweredAttackWeights;
 
         private AttackState attackMotion;
         private AttackType attackType;
@@ -103,6 +106,10 @@ namespace NSEnemy
             for (int index = 0; index < this.dropchips.Length; ++index)
                 this.dropchips[index] = new ChipFolder(this.sound);
 
+            this.spinPattern = new List<int>();
+            this.standardAttackWeights = new Dictionary<AttackType, int>();
+            this.poweredAttackWeights = new Dictionary<AttackType, int>();
+
             this.SetVersionStats();
             this.SetVersionDrops();
             this.SetDynamicAttackWeights();
@@ -120,8 +127,6 @@ namespace NSEnemy
             this.picturename = "cirnobx";
 
             this.animationpoint = new Point(1, 0);
-
-            this.spinPattern = new List<int>();
         }
 
         private Vector2 SpritePositionDirect => this.positionDirect + SpriteOffset;
@@ -215,8 +220,7 @@ namespace NSEnemy
                     this.detachedShadow = false;
                     this.superArmor = false;
                     this.guard = GUARD.none;
-                    this.powerupActivating = false;
-                    this.powerupActive = false;
+                    this.isPoweredUp = false;
                     if (this.positionReserved != null)
                     {
                         this.position = this.positionReserved.Value;
@@ -245,415 +249,448 @@ namespace NSEnemy
                     {
                         case AttackState.Idle:
                             this.AttackMotion = AttackState.Attack;
-                            var bins = new[]
-                            {
-                                    Tuple.Create(AttackType.Dive, this.diveWeight),
-                                    Tuple.Create(AttackType.CrossDive, this.crossDiveWeight),
-                                    Tuple.Create(AttackType.IceCrash, this.iceCrashWeight),
-                                    Tuple.Create(AttackType.Spin, this.spinWeight),
-                                    Tuple.Create(AttackType.PowerUp, this.powerUpWeight)
-                            };
-                            var draw = this.Random.Next(bins.Sum(b => b.Item2));
-                            this.attackType = bins.Select((b, i) => Tuple.Create(b.Item1, bins.Take(i + 1).Sum(bb => bb.Item2))).FirstOrDefault(b => b.Item2 > draw)?.Item1 ?? AttackType.Dive;
+                            var bins = !this.isPoweredUp ? this.standardAttackWeights : this.poweredAttackWeights;
+                            var draw = this.Random.Next(bins.Sum(b => b.Value));
+                            this.attackType = bins.Select((b, i) => Tuple.Create(b.Key, bins.Take(i + 1).Sum(bb => bb.Value))).FirstOrDefault(b => b.Item2 > draw)?.Item1 ?? AttackType.Dive;
                             this.attackWaitTime = 0;
                             break;
                         case AttackState.Attack:
-                            if (!this.powerupActive)
+                            // TODO: remove powerup on "slightly stronger" finish
+                            switch (this.attackType)
                             {
-                                switch (this.attackType)
-                                {
-                                    case AttackType.Dive:
+                                case AttackType.Dive:
+                                    if (this.attackWaitTime == 0)
+                                    {
+                                        // idle shuttered
+                                        this.animationpoint = new Point(2, 0);
+                                    }
+                                    else if (this.attackWaitTime == 4)
+                                    {
+                                        // takeoff shuttered
+                                        this.animationpoint = new Point(0, 3);
+                                    }
+                                    else if (this.attackWaitTime == 8)
+                                    {
+                                        // takeoff
+                                        this.animationpoint = new Point(1, 3);
+                                        this.counterTiming = true;
+                                    }
+                                    else if (this.attackWaitTime == 13)
+                                    {
+                                        // leg motion
+                                        this.animationpoint = new Point(2, 3);
+                                    }
+                                    else if (this.attackWaitTime == 18)
+                                    {
+                                        this.counterTiming = false;
+                                        // leg out, detach shadow for bobbing
+                                        this.animationpoint = new Point(3, 3);
+                                        this.detachedShadow = true;
+                                        this.detachedShadowOffset = new Vector2(0, 0);
+                                    }
+                                    else if (this.attackWaitTime == 23)
+                                    {
+                                        // main sprite dips down 1px
+                                        this.positionDirect.Y += 1;
+
+                                        this.parent.attacks.Add(new DiveFeatherSpawner(this.sound, this.parent, this.union, this.power / 4, this.diveFeatherHitTime, this.diveFeatherDelay, this.diveFeatherSets, this.diveFeatherCount, this.element));
+                                    }
+                                    else if (this.attackWaitTime == 28)
+                                    {
+                                        // main sprite returns 1px
+                                        this.positionDirect.Y -= 1;
+                                    }
+                                    else if (this.attackWaitTime == 33)
+                                    {
+                                        // main sprite dips down 1px
+                                        this.positionDirect.Y += 1;
+                                    }
+                                    else if (this.attackWaitTime == 38)
+                                    {
+                                        // dive begins, sprite offset resets
+                                        this.animationpoint = new Point(4, 3);
+                                        this.PositionDirectSet();
+                                        this.positionReserved = this.position;
+
+                                        var targetedEnemyPosition = this.RandomTarget();
+                                        var targets = this.parent.AllChara().Where(c => c.union != this.union);
+                                        if (targets.Any())
+                                        {
+                                            var selectedEnemyIndex = Random.Next(0, targets.Count());
+                                            targetedEnemyPosition = targets.Skip(selectedEnemyIndex).First().position;
+                                        }
+
+                                        if (this.union == Panel.COLOR.blue && targetedEnemyPosition.X >= this.position.X)
+                                        {
+                                            targetedEnemyPosition = new Point(0, this.position.Y);
+                                        }
+                                        else if (this.union == Panel.COLOR.red && targetedEnemyPosition.X <= this.position.X)
+                                        {
+                                            targetedEnemyPosition = new Point(5, this.position.Y);
+                                        }
+
+                                        // extrapolate to edge of field
+                                        var offsetX = (double)(targetedEnemyPosition.X - this.position.X);
+                                        var offsetY = (double)(targetedEnemyPosition.Y - this.position.Y);
+                                        var xRepeatsUntilBorderHit = this.union == Panel.COLOR.blue
+                                            ? (0 - this.position.X) / offsetX
+                                            : (5 - this.position.X) / offsetX;
+                                        var yRepeatsUntilBorderHit = offsetY < 0
+                                            ? (0 - this.position.Y) / offsetY
+                                            : (2 - this.position.Y) / offsetY;
+                                        xRepeatsUntilBorderHit = double.IsNaN(xRepeatsUntilBorderHit) ? double.PositiveInfinity : xRepeatsUntilBorderHit;
+                                        yRepeatsUntilBorderHit = double.IsNaN(yRepeatsUntilBorderHit) ? double.PositiveInfinity : yRepeatsUntilBorderHit;
+                                        var repeatsUntilBorderHit = Math.Min(xRepeatsUntilBorderHit, yRepeatsUntilBorderHit);
+                                        var edgeRoundingFunc = this.union == Panel.COLOR.blue ? (Func<double, double>)Math.Floor : Math.Ceiling;
+                                        this.diveTargetPosition = new Point(
+                                            (int)edgeRoundingFunc(this.position.X + offsetX * repeatsUntilBorderHit),
+                                            (int)Math.Round(this.position.Y + offsetY * repeatsUntilBorderHit));
+
+                                        // Mark target position? too short?
+                                        this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.diveTargetPosition.X, this.diveTargetPosition.Y, this.union, new Point(0, 0), this.CalculateDiveToTargetFrames(), true));
+
+                                        // Turn on hit for on-path panels
+                                        this.effecting = true;
+                                    }
+                                    else if (this.attackWaitTime > 38)
+                                    {
+                                        var diveToTargetFrames = this.CalculateDiveToTargetFrames();
+
+                                        // Dive handling
+                                        if (this.attackWaitTime < 38 + diveToTargetFrames)
+                                        {
+                                            var t = (this.attackWaitTime - 38.0) / diveToTargetFrames;
+                                            var diveProgress = (float)(t * t); // still ranges [0, 1]
+                                            var diveStartPositionDirect = new Vector2(this.positionReserved.Value.X * 40.0f + 0, this.positionReserved.Value.Y * 24.0f + 0);
+                                            var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
+                                            var endPositionDirect = new Vector2(this.diveTargetPosition.X * 40.0f + panelEdgeAdjustment, this.diveTargetPosition.Y * 24.0f + 32.0f);
+
+                                            this.positionDirect = diveStartPositionDirect + (endPositionDirect - diveStartPositionDirect) * diveProgress;
+
+                                            var groundOffset = 32 * diveProgress;
+                                            this.detachedShadowOffset = new Vector2(0, -groundOffset);
+
+                                            var panelPosition = new Vector2((this.positionDirect.X - panelEdgeAdjustment) / 40, (this.positionDirect.Y - groundOffset) / 24);
+                                            var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
+                                            this.position = new Point((int)roundingFunc(panelPosition.X), (int)Math.Round(panelPosition.Y));
+
+                                            var dir = default(DIRECTION?);
+                                            const double PanelDragAllowance = 0.45;
+                                            var xDiff = this.position.X - panelPosition.X;
+                                            var yDiff = this.position.Y - panelPosition.Y;
+                                            if (Math.Sqrt(xDiff * xDiff + yDiff * yDiff) < PanelDragAllowance)
+                                            {
+                                                // simple calculation, only drag if on main path
+                                                var xDiffEnd = this.diveTargetPosition.X - this.positionReserved.Value.X;
+                                                var yDiffEnd = this.diveTargetPosition.Y - this.positionReserved.Value.Y;
+                                                var xDiffAbs = Math.Abs(xDiffEnd);
+                                                var yDiffAbs = Math.Abs(yDiffEnd);
+                                                if (xDiffAbs < yDiffAbs)
+                                                {
+                                                    dir = yDiff > 0 ? DIRECTION.down : DIRECTION.up;
+                                                }
+                                                else // include exact diagonal, default to push
+                                                {
+                                                    var direction = this.union != Panel.COLOR.blue ? DIRECTION.right : DIRECTION.left;
+                                                    dir = direction;
+                                                }
+                                            }
+
+                                            if (dir != null)
+                                            {
+                                                this.DiveDragAttackMake(this.Power / 4, dir.Value);
+                                            }
+                                        }
+                                        else if (this.attackWaitTime == 38 + diveToTargetFrames)
+                                        {
+                                            var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
+                                            var endPositionDirect = new Vector2(this.diveTargetPosition.X * 40.0f + panelEdgeAdjustment, this.diveTargetPosition.Y * 24.0f + 32.0f);
+
+                                            this.positionDirect = endPositionDirect;
+                                            var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
+                                            this.position = this.diveTargetPosition.WithOffset(this.UnionRebirth(this.UnionEnemy), 0);
+
+                                            this.detachedShadowOffset = new Vector2(0, -32);
+
+                                            this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
+                                            this.effecting = false;
+
+                                            var slamAttack = new BombAttack(this.sound, this.parent, this.diveTargetPosition.X, this.diveTargetPosition.Y, this.union, this.Power, 1, this.element)
+                                            {
+                                                invincibility = false
+                                            };
+                                            slamAttack.BadStatusSet(BADSTATUS.paralyze, 45);
+                                            slamAttack.BadStatusSet(BADSTATUS.stop, 45);
+                                            this.parent.attacks.Add(slamAttack);
+
+                                            this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.diveTargetPosition));
+
+                                            if (this.isPoweredUp)
+                                            {
+                                                var targets = this.RandomMultiPanel(this.powerDiveSmallIceCount, this.UnionEnemy);
+
+                                                var smallIceIcicleSpawner = new AttackSpawner(
+                                                    this.sound,
+                                                    this.parent,
+                                                    this.union,
+                                                    f => f >= this.powerDiveSmallIceCount * this.powerDiveSmallIceSpawnDelay,
+                                                    f =>
+                                                    {
+                                                        if (f % this.powerDiveSmallIceSpawnDelay == 0)
+                                                        {
+                                                            var target = targets[f / this.powerDiveSmallIceSpawnDelay];
+                                                            var icicle = new IceSpikeBX(this.sound, this.parent, target.X, target.Y, this.union, this.power, this.powerDiveIcicleHitTime, this.element, true, this.powerDiveSmallIceLifetime, this.powerDiveSmallIceHp);
+                                                            this.parent.attacks.Add(icicle);
+                                                        }
+                                                    });
+
+                                                this.parent.attacks.Add(smallIceIcicleSpawner);
+
+                                                this.parent.ShakeStart(8, 8);
+                                                this.isPoweredUp = false;
+                                            }
+                                        }
+                                        else if (this.attackWaitTime >= 38 + diveToTargetFrames + this.diveRestFrames)
+                                        {
+                                            this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
+
+                                            this.position = this.positionReserved.Value;
+                                            this.positionReserved = null;
+                                            this.detachedShadow = false;
+                                            this.effecting = false;
+                                            this.HitFlagReset();
+
+                                            this.PositionDirectSet();
+                                            this.AttackMotion = AttackState.Cooldown;
+
+                                            this.AttackCooldownSet();
+                                        }
+                                    }
+                                    break;
+                                case AttackType.CrossDive:
+                                    if (!this.crossDiveReverse)
+                                    {
                                         if (this.attackWaitTime == 0)
                                         {
-                                            // idle shuttered
-                                            this.animationpoint = new Point(2, 0);
-                                        }
-                                        else if (this.attackWaitTime == 4)
-                                        {
-                                            // takeoff shuttered
-                                            this.animationpoint = new Point(0, 3);
-                                        }
-                                        else if (this.attackWaitTime == 8)
-                                        {
-                                            // takeoff
-                                            this.animationpoint = new Point(1, 3);
-                                            this.counterTiming = true;
-                                        }
-                                        else if (this.attackWaitTime == 13)
-                                        {
-                                            // leg motion
-                                            this.animationpoint = new Point(2, 3);
-                                        }
-                                        else if (this.attackWaitTime == 18)
-                                        {
-                                            this.counterTiming = false;
-                                            // leg out, detach shadow for bobbing
-                                            this.animationpoint = new Point(3, 3);
-                                            this.detachedShadow = true;
-                                            this.detachedShadowOffset = new Vector2(0, 0);
+                                            this.printhp = false;
+                                            this.rend = false;
+                                            this.nohit = true;
+                                            this.overMove = true;
+                                            this.superArmor = true;
 
-                                            // Begin feather rain 
-                                            this.parent.attacks.Add(new DiveFeatherSpawner(this.sound, this.parent, this.union, this.power / 4, this.diveFeatherHitTime, this.diveFeatherDelay, this.diveFeatherSets, this.diveFeatherCount, this.element));
-                                        }
-                                        else if (this.attackWaitTime == 23)
-                                        {
-                                            // main sprite dips down 1px
-                                            this.positionDirect.Y += 1;
-                                        }
-                                        else if (this.attackWaitTime == 28)
-                                        {
-                                            // main sprite returns 1px
-                                            this.positionDirect.Y -= 1;
-                                        }
-                                        else if (this.attackWaitTime == 33)
-                                        {
-                                            // main sprite dips down 1px
-                                            this.positionDirect.Y += 1;
-                                        }
-                                        else if (this.attackWaitTime == 38)
-                                        {
-                                            // dive begins, sprite offset resets
-                                            this.animationpoint = new Point(4, 3);
-                                            this.PositionDirectSet();
                                             this.positionReserved = this.position;
 
-                                            var targetedEnemyPosition = this.RandomTarget();
-                                            var targets = this.parent.AllChara().Where(c => c.union != this.union);
-                                            if (targets.Any())
-                                            {
-                                                var selectedEnemyIndex = Random.Next(0, targets.Count());
-                                                targetedEnemyPosition = targets.Skip(selectedEnemyIndex).First().position;
-                                            }
-
-                                            if (this.union == Panel.COLOR.blue && targetedEnemyPosition.X >= this.position.X)
-                                            {
-                                                targetedEnemyPosition = new Point(0, this.position.Y);
-                                            }
-                                            else if (this.union == Panel.COLOR.red && targetedEnemyPosition.X <= this.position.X)
-                                            {
-                                                targetedEnemyPosition = new Point(5, this.position.Y);
-                                            }
-
-                                            // extrapolate to edge of field
-                                            var offsetX = (double)(targetedEnemyPosition.X - this.position.X);
-                                            var offsetY = (double)(targetedEnemyPosition.Y - this.position.Y);
-                                            var xRepeatsUntilBorderHit = this.union == Panel.COLOR.blue
-                                                ? (0 - this.position.X) / offsetX
-                                                : (5 - this.position.X) / offsetX;
-                                            var yRepeatsUntilBorderHit = offsetY < 0
-                                                ? (0 - this.position.Y) / offsetY
-                                                : (2 - this.position.Y) / offsetY;
-                                            xRepeatsUntilBorderHit = double.IsNaN(xRepeatsUntilBorderHit) ? double.PositiveInfinity : xRepeatsUntilBorderHit;
-                                            yRepeatsUntilBorderHit = double.IsNaN(yRepeatsUntilBorderHit) ? double.PositiveInfinity : yRepeatsUntilBorderHit;
-                                            var repeatsUntilBorderHit = Math.Min(xRepeatsUntilBorderHit, yRepeatsUntilBorderHit);
-                                            var edgeRoundingFunc = this.union == Panel.COLOR.blue ? (Func<double, double>)Math.Floor : Math.Ceiling;
-                                            this.diveTargetPosition = new Point(
-                                                (int)edgeRoundingFunc(this.position.X + offsetX * repeatsUntilBorderHit),
-                                                (int)Math.Round(this.position.Y + offsetY * repeatsUntilBorderHit));
-
-                                            // Mark target position? too short?
-                                            this.parent.attacks.Add(new Dummy(this.sound, this.parent, this.diveTargetPosition.X, this.diveTargetPosition.Y, this.union, new Point(0, 0), this.CalculateDiveToTargetFrames(), true));
-
-                                            // Turn on hit for on-path panels
-                                            this.effecting = true;
+                                            this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
                                         }
-                                        else if (this.attackWaitTime > 38)
+                                        else if (this.attackWaitTime < this.crossDiveInitialDelayFrames)
                                         {
-                                            var diveToTargetFrames = this.CalculateDiveToTargetFrames();
-
-                                            // Dive handling
-                                            if (this.attackWaitTime < 38 + diveToTargetFrames)
-                                            {
-                                                var t = (this.attackWaitTime - 38.0) / diveToTargetFrames;
-                                                var diveProgress = (float)(t * t); // still ranges [0, 1]
-                                                var diveStartPositionDirect = new Vector2(this.positionReserved.Value.X * 40.0f + 0, this.positionReserved.Value.Y * 24.0f + 0);
-                                                var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
-                                                var endPositionDirect = new Vector2(this.diveTargetPosition.X * 40.0f + panelEdgeAdjustment, this.diveTargetPosition.Y * 24.0f + 32.0f);
-
-                                                this.positionDirect = diveStartPositionDirect + (endPositionDirect - diveStartPositionDirect) * diveProgress;
-
-                                                var groundOffset = 32 * diveProgress;
-                                                this.detachedShadowOffset = new Vector2(0, -groundOffset);
-
-                                                var panelPosition = new Vector2((this.positionDirect.X - panelEdgeAdjustment) / 40, (this.positionDirect.Y - groundOffset) / 24);
-                                                var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
-                                                this.position = new Point((int)roundingFunc(panelPosition.X), (int)Math.Round(panelPosition.Y));
-
-                                                var dir = default(DIRECTION?);
-                                                const double PanelDragAllowance = 0.45;
-                                                var xDiff = this.position.X - panelPosition.X;
-                                                var yDiff = this.position.Y - panelPosition.Y;
-                                                if (Math.Sqrt(xDiff * xDiff + yDiff * yDiff) < PanelDragAllowance)
-                                                {
-                                                    // simple calculation, only drag if on main path
-                                                    var xDiffEnd = this.diveTargetPosition.X - this.positionReserved.Value.X;
-                                                    var yDiffEnd = this.diveTargetPosition.Y - this.positionReserved.Value.Y;
-                                                    var xDiffAbs = Math.Abs(xDiffEnd);
-                                                    var yDiffAbs = Math.Abs(yDiffEnd);
-                                                    if (xDiffAbs < yDiffAbs)
-                                                    {
-                                                        dir = yDiff > 0 ? DIRECTION.down : DIRECTION.up;
-                                                    }
-                                                    else // include exact diagonal, default to push
-                                                    {
-                                                        var direction = this.union != Panel.COLOR.blue ? DIRECTION.right : DIRECTION.left;
-                                                        dir = direction;
-                                                    }
-                                                }
-
-                                                if (dir != null)
-                                                {
-                                                    this.DiveDragAttackMake(this.Power / 4, dir.Value);
-                                                }
-                                            }
-                                            else if (this.attackWaitTime == 38 + diveToTargetFrames)
-                                            {
-                                                var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
-                                                var endPositionDirect = new Vector2(this.diveTargetPosition.X * 40.0f + panelEdgeAdjustment, this.diveTargetPosition.Y * 24.0f + 32.0f);
-
-                                                this.positionDirect = endPositionDirect;
-                                                var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
-                                                this.position = this.diveTargetPosition.WithOffset(this.UnionRebirth(this.UnionEnemy), 0);
-
-                                                this.detachedShadowOffset = new Vector2(0, -32);
-
-                                                this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
-                                                this.effecting = false;
-
-                                                var slamAttack = new BombAttack(this.sound, this.parent, this.diveTargetPosition.X, this.diveTargetPosition.Y, this.union, this.Power, 1, this.element)
-                                                {
-                                                    invincibility = false
-                                                };
-                                                slamAttack.BadStatusSet(BADSTATUS.paralyze, 45);
-                                                slamAttack.BadStatusSet(BADSTATUS.stop, 45);
-                                                this.parent.attacks.Add(slamAttack);
-
-                                                this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.diveTargetPosition));
-                                            }
-                                            else if (this.attackWaitTime >= 38 + diveToTargetFrames + this.diveRestFrames)
-                                            {
-                                                this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
-
-                                                this.position = this.positionReserved.Value;
-                                                this.positionReserved = null;
-                                                this.detachedShadow = false;
-                                                this.effecting = false;
-                                                this.HitFlagReset();
-
-                                                this.PositionDirectSet();
-                                                this.AttackMotion = AttackState.Cooldown;
-
-                                                this.AttackCooldownSet();
-                                            }
+                                            // Wait before 1st pass
                                         }
-                                        break;
-                                    case AttackType.CrossDive:
-                                        if (!this.crossDiveReverse)
+                                        else if (this.attackWaitTime == this.crossDiveInitialDelayFrames)
                                         {
-                                            if (this.attackWaitTime == 0)
-                                            {
-                                                this.printhp = false;
-                                                this.rend = false;
-                                                this.nohit = true;
-                                                this.overMove = true;
-                                                this.superArmor = true;
+                                            // Set initial 1st pass position (next steps work by offset)
+                                            var target = this.RandomTarget();
+                                            this.crossDiveCenterX = target.X < 3 ? 1 : target.X;
 
-                                                this.positionReserved = this.position;
-
-                                                this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
-                                            }
-                                            else if (this.attackWaitTime < this.crossDiveInitialDelayFrames)
+                                            var bottomUpIfEligible = Random.Next() % 2 == 0;
+                                            for (var y = 0; y < 3; y++)
                                             {
-                                                ;
-                                            }
-                                            else if (this.attackWaitTime == this.crossDiveInitialDelayFrames)
-                                            {
-                                                var target = this.RandomTarget();
-                                                this.crossDiveCenterX = target.X < 3 ? 1 : target.X;
-
-                                                var bottomUpIfEligible = Random.Next() % 2 == 0;
-                                                for (var y = 0; y < 3; y++)
+                                                var tiltLeft = bottomUpIfEligible ^ this.union == Panel.COLOR.blue;
+                                                var xOffForY = (1 - y) * (tiltLeft ? 1 : -1);
+                                                var targetMissed = true;
+                                                for (var xOff = -1; xOff < 2; xOff++)
                                                 {
-                                                    var tiltLeft = bottomUpIfEligible ^ this.union == Panel.COLOR.blue;
-                                                    var xOffForY = (1 - y) * (tiltLeft ? 1 : -1);
-                                                    var targetMissed = true;
-                                                    for (var xOff = -1; xOff < 2; xOff++)
+                                                    var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
+                                                    if (point == target)
                                                     {
-                                                        var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
-                                                        if (point == target)
-                                                        {
-                                                            targetMissed = false;
-                                                            break;
-                                                        }
-                                                    }
-                                                    bottomUpIfEligible ^= targetMissed;
-                                                }
-
-                                                this.crossDiveDirectionBottomUp = bottomUpIfEligible;
-                                                this.animationpoint = this.crossDiveDirectionBottomUp ? new Point(2, 2) : new Point(3, 2);
-
-
-                                                var targetPositionDirect = new Vector2(40 * this.crossDiveCenterX, 24 * 1);
-                                                var angle = (float)((this.union == Panel.COLOR.blue
-                                                    ? Math.PI - Math.Atan(24.0 / 40.0)
-                                                    : Math.Atan(24.0 / 40.0)));
-                                                if (!this.crossDiveDirectionBottomUp)
-                                                {
-                                                    angle = (float)(Math.PI * 2 - angle);
-                                                }
-
-                                                var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
-                                                var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
-                                                var pixelsFromTargetPosition = pixelsPerFrame * (this.crossDiveDiagonalPassFrames * 0.5 + this.crossDiveWarningFrames);
-                                                this.positionDirect = new Vector2(
-                                                    (float)(targetPositionDirect.X + Math.Cos(angle) * -pixelsFromTargetPosition),
-                                                    (float)(targetPositionDirect.Y + Math.Sin(angle) * pixelsFromTargetPosition));
-
-                                                // create warning flashes
-                                                for (var y = 0; y < 3; y++)
-                                                {
-                                                    var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
-                                                    var xOffForY = (1 - y) * (tiltLeft ? 1 : -1);
-                                                    for (var xOff = -1; xOff < 2; xOff++)
-                                                    {
-                                                        var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
-                                                        if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
-                                                        {
-                                                            continue;
-                                                        }
-
-                                                        this.parent.attacks.Add(new Dummy(this.sound, this.parent, point.X, point.Y, this.union, Point.Empty, this.crossDiveWarningFrames, true));
+                                                        targetMissed = false;
+                                                        break;
                                                     }
                                                 }
-
-                                                this.printhp = true;
-                                                this.rend = true;
+                                                bottomUpIfEligible ^= targetMissed;
                                             }
-                                            else if (this.attackWaitTime < this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveCircleBackDelayFrames)
-                                            {
-                                                var angle = (float)((this.union == Panel.COLOR.blue
-                                                    ? Math.PI - Math.Atan(24.0 / 40.0)
-                                                    : Math.Atan(24.0 / 40.0)));
-                                                if (!this.crossDiveDirectionBottomUp)
-                                                {
-                                                    angle = (float)(Math.PI * 2 - angle);
-                                                }
 
-                                                var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
-                                                var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
-                                                this.positionDirect += new Vector2(
-                                                    (float)(Math.Cos(angle) * pixelsPerFrame),
-                                                    (float)(Math.Sin(angle) * -pixelsPerFrame));
-                                                var yPosition = (int)Math.Round(this.positionDirect.Y / 24);
+                                            this.crossDiveDirectionBottomUp = bottomUpIfEligible;
+                                            this.animationpoint = this.crossDiveDirectionBottomUp ? new Point(2, 2) : new Point(3, 2);
+
+
+                                            var targetPositionDirect = new Vector2(40 * this.crossDiveCenterX, 24 * 1);
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.PI - Math.Atan(24.0 / 40.0)
+                                                : Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
+                                            {
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
+
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            var pixelsFromTargetPosition = pixelsPerFrame * (this.crossDiveDiagonalPassFrames * 0.5 + this.crossDiveWarningFrames);
+                                            this.positionDirect = new Vector2(
+                                                (float)(targetPositionDirect.X + Math.Cos(angle) * -pixelsFromTargetPosition),
+                                                (float)(targetPositionDirect.Y + Math.Sin(angle) * pixelsFromTargetPosition));
+
+                                            // create warning flashes
+                                            for (var y = 0; y < 3; y++)
+                                            {
                                                 var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
-                                                var xOffForY = (1 - yPosition) * (tiltLeft ? 1 : -1);
-                                                this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
-                                                this.effecting = true;
-
-                                                this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
-                                                this.detachedShadow = !this.nohit;
-
-                                                var diagonalPassStart = this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames;
-
-                                                // counter ignores already-present attacks, must hit just after entering
-                                                this.counterTiming = this.attackWaitTime > diagonalPassStart + this.crossDiveEntryFramesBeforeCounter
-                                                    && this.attackWaitTime <= diagonalPassStart + this.crossDiveEntryFramesBeforeCounter + this.crossDiveCounterFrames;
-
-                                                if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
+                                                var xOffForY = (1 - y) * (tiltLeft ? 1 : -1);
+                                                for (var xOff = -1; xOff < 2; xOff++)
                                                 {
-                                                    this.effecting = false;
+                                                    var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
+                                                    if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
+                                                    {
+                                                        continue;
+                                                    }
+
+                                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, point.X, point.Y, this.union, Point.Empty, this.crossDiveWarningFrames, true));
                                                 }
                                             }
-                                            else
+
+                                            this.printhp = true;
+                                            this.rend = true;
+                                        }
+                                        else if (this.attackWaitTime < this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveCircleBackDelayFrames)
+                                        {
+                                            // Offset position
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.PI - Math.Atan(24.0 / 40.0)
+                                                : Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
                                             {
-                                                var targetPositionDirect = new Vector2(40 * this.crossDiveCenterX, 24 * 1);
-                                                var angle = (float)((this.union == Panel.COLOR.blue
-                                                    ? Math.Atan(24.0 / 40.0)
-                                                    : Math.PI - Math.Atan(24.0 / 40.0)));
-                                                if (!this.crossDiveDirectionBottomUp)
-                                                {
-                                                    angle = (float)(Math.PI * 2 - angle);
-                                                }
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
 
-                                                var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
-                                                var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
-                                                var pixelsFromTargetPosition = pixelsPerFrame * (this.crossDiveDiagonalPassFrames * 0.5 + this.crossDiveWarningFrames);
-                                                this.positionDirect = new Vector2(
-                                                    (float)(targetPositionDirect.X + Math.Cos(angle) * -pixelsFromTargetPosition),
-                                                    (float)(targetPositionDirect.Y + Math.Sin(angle) * pixelsFromTargetPosition));
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            this.positionDirect += new Vector2(
+                                                (float)(Math.Cos(angle) * pixelsPerFrame),
+                                                (float)(Math.Sin(angle) * -pixelsPerFrame));
+                                            var yPosition = (int)Math.Round(this.positionDirect.Y / 24);
+                                            var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                            var xOffForY = (1 - yPosition) * (tiltLeft ? 1 : -1);
+                                            this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
+                                            this.effecting = true;
 
-                                                // create warning flashes
-                                                for (var y = 0; y < 3; y++)
-                                                {
-                                                    var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
-                                                    var xOffForY = (1 - y) * (tiltLeft ? -1 : 1);
-                                                    for (var xOff = -1; xOff < 2; xOff++)
-                                                    {
-                                                        var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
-                                                        if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
-                                                        {
-                                                            continue;
-                                                        }
+                                            this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
+                                            this.detachedShadow = !this.nohit;
+                                            this.detachedShadowOffset = new Vector2(0, 0);
 
-                                                        this.parent.attacks.Add(new Dummy(this.sound, this.parent, point.X, point.Y, this.union, Point.Empty, this.crossDiveWarningFrames, true));
-                                                    }
-                                                }
+                                            var diagonalPassStart = this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames;
 
-                                                this.crossDiveReverse = true;
-                                                this.attackWaitTime = 0;
-                                                this.HitFlagReset();
+                                            // counter ignores already-present attacks, must hit just after entering
+                                            this.counterTiming = this.attackWaitTime > diagonalPassStart + this.crossDiveEntryFramesBeforeCounter
+                                                && this.attackWaitTime <= diagonalPassStart + this.crossDiveEntryFramesBeforeCounter + this.crossDiveCounterFrames;
+
+                                            if (this.attackWaitTime > this.crossDiveInitialDelayFrames + this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames)
+                                            {
+                                                this.effecting = false;
+                                            }
+
+                                            if (this.isPoweredUp)
+                                            {
+                                                // TODO: Spawn center tornado, arms unfolding from center (if center parried, remove arms)
                                             }
                                         }
                                         else
                                         {
-                                            // starts at warningframes
-                                            if (this.attackWaitTime < this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveEndFlightFrames)
+                                            // Set initial position for 2nd pass, flip for reverse
+                                            var targetPositionDirect = new Vector2(40 * this.crossDiveCenterX, 24 * 1);
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.Atan(24.0 / 40.0)
+                                                : Math.PI - Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
                                             {
-                                                var angle = (float)((this.union == Panel.COLOR.blue
-                                                    ? Math.Atan(24.0 / 40.0)
-                                                    : Math.PI - Math.Atan(24.0 / 40.0)));
-                                                if (!this.crossDiveDirectionBottomUp)
-                                                {
-                                                    angle = (float)(Math.PI * 2 - angle);
-                                                }
-
-                                                var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
-                                                var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
-                                                this.positionDirect += new Vector2(
-                                                    (float)(Math.Cos(angle) * pixelsPerFrame),
-                                                    (float)(Math.Sin(angle) * -pixelsPerFrame));
-                                                var yPosition = (int)Math.Round(this.positionDirect.Y / 24);
-                                                var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
-                                                var xOffForY = (1 - yPosition) * (tiltLeft ? -1 : 1);
-                                                this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
-                                                this.effecting = true;
-
-                                                this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
-                                                this.detachedShadow = !this.nohit;
+                                                angle = (float)(Math.PI * 2 - angle);
                                             }
-                                            else
-                                            {
-                                                this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect + SpriteOffset, new Point(0, 0)));
 
-                                                this.nohit = false;
-                                                this.effecting = false;
-                                                this.overMove = false;
-                                                this.superArmor = false;
-                                                this.position = this.positionReserved.Value;
-                                                this.positionReserved = null;
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-                                                this.crossDiveReverse = false;
-                                                this.PositionDirectSet();
-                                                this.HitFlagReset();
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            var pixelsFromTargetPosition = pixelsPerFrame * (this.crossDiveDiagonalPassFrames * 0.5 + this.crossDiveWarningFrames);
+                                            this.positionDirect = new Vector2(
+                                                (float)(targetPositionDirect.X + Math.Cos(angle) * -pixelsFromTargetPosition),
+                                                (float)(targetPositionDirect.Y + Math.Sin(angle) * pixelsFromTargetPosition));
+
+                                            // create warning flashes
+                                            for (var y = 0; y < 3; y++)
+                                            {
+                                                var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                                var xOffForY = (1 - y) * (tiltLeft ? -1 : 1);
+                                                for (var xOff = -1; xOff < 2; xOff++)
+                                                {
+                                                    var point = new Point(this.crossDiveCenterX + xOff + xOffForY, y);
+                                                    if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
+                                                    {
+                                                        continue;
+                                                    }
+
+                                                    this.parent.attacks.Add(new Dummy(this.sound, this.parent, point.X, point.Y, this.union, Point.Empty, this.crossDiveWarningFrames, true));
+                                                }
+                                            }
+
+                                            this.crossDiveReverse = true;
+                                            this.attackWaitTime = 0;
+                                            this.HitFlagReset();
+                                        }
+                                    }
+                                    else
+                                    {
+                                        // starts at warningframes
+                                        if (this.attackWaitTime < this.crossDiveWarningFrames + this.crossDiveDiagonalPassFrames + this.crossDiveEndFlightFrames)
+                                        {
+                                            // Offset position from 2nd pass initial position
+                                            var angle = (float)((this.union == Panel.COLOR.blue
+                                                ? Math.Atan(24.0 / 40.0)
+                                                : Math.PI - Math.Atan(24.0 / 40.0)));
+                                            if (!this.crossDiveDirectionBottomUp)
+                                            {
+                                                angle = (float)(Math.PI * 2 - angle);
+                                            }
+
+                                            var diagonalPassPixels = Math.Sqrt((24 * 3 * 24 * 3) + (40 * 3 * 40 * 3));
+                                            var pixelsPerFrame = diagonalPassPixels / this.crossDiveDiagonalPassFrames;
+                                            this.positionDirect += new Vector2(
+                                                (float)(Math.Cos(angle) * pixelsPerFrame),
+                                                (float)(Math.Sin(angle) * -pixelsPerFrame));
+                                            var yPosition = (int)Math.Round(this.positionDirect.Y / 24);
+                                            var tiltLeft = this.crossDiveDirectionBottomUp ^ this.union == Panel.COLOR.blue;
+                                            var xOffForY = (1 - yPosition) * (tiltLeft ? -1 : 1);
+                                            this.position = new Point(this.crossDiveCenterX + xOffForY, yPosition);
+                                            this.effecting = true;
+
+                                            this.nohit = (this.positionDirect.Y < 0 || this.positionDirect.Y > 24 * 3);
+                                            this.detachedShadow = !this.nohit;
+                                            this.detachedShadowOffset = new Vector2(0, 0);
+
+                                            if (this.isPoweredUp)
+                                            {
+                                                // TODO: accelerate arm rotation, outlast attack
                                             }
                                         }
-
-                                        if (this.effecting)
+                                        else
                                         {
-                                            var trailingX = this.crossDiveReverse ^ this.union == Panel.COLOR.red ? -1 : 1;
-                                            var trailingY = this.crossDiveDirectionBottomUp ? 1 : -1;
-                                            var offsets = new List<Point>
+                                            // Return to position, reset flags
+                                            this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.positionDirect + SpriteOffset, new Point(0, 0)));
+
+                                            this.nohit = false;
+                                            this.effecting = false;
+                                            this.overMove = false;
+                                            this.superArmor = false;
+                                            this.position = this.positionReserved.Value;
+                                            this.positionReserved = null;
+                                            this.AttackMotion = AttackState.Cooldown;
+                                            this.AttackCooldownSet();
+                                            this.crossDiveReverse = false;
+                                            this.PositionDirectSet();
+                                            this.HitFlagReset();
+                                        }
+                                    }
+
+                                    if (this.effecting)
+                                    {
+                                        var trailingX = this.crossDiveReverse ^ this.union == Panel.COLOR.red ? -1 : 1;
+                                        var trailingY = this.crossDiveDirectionBottomUp ? 1 : -1;
+                                        var offsets = new List<Point>
                                         {
                                             new Point(0, 0),
                                             new Point(trailingX, 0),
@@ -661,439 +698,429 @@ namespace NSEnemy
                                             new Point(trailingX, trailingY)
                                         };
 
-                                            foreach (var offset in offsets)
-                                            {
-                                                var point = this.position.WithOffset(offset);
-                                                if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
-                                                {
-                                                    continue;
-                                                }
-
-                                                this.AttackMake(this.Power, offset.X, offset.Y, true);
-                                            }
-                                        }
-
-                                        break;
-                                    case AttackType.IceCrash:
-                                        switch (this.attackWaitTime)
+                                        foreach (var offset in offsets)
                                         {
-                                            case 0:
-                                                this.animationpoint = new Point(0, 4);
-                                                this.positionDirect.Y += 1;
-                                                this.detachedShadowOffset = new Vector2(0, -1);
-                                                this.detachedShadow = true;
-                                                this.counterTiming = true;
-                                                break;
-                                            case 5:
-                                                this.positionDirect.Y -= 1;
-                                                this.detachedShadowOffset.Y += 1;
-                                                break;
-                                            case 10:
-                                                this.positionDirect.Y += 1;
-                                                this.detachedShadowOffset.Y -= 1;
-                                                break;
-                                            case 15:
-                                                this.positionDirect.Y -= 1;
-                                                this.detachedShadowOffset.Y += 1;
-                                                break;
-                                            case 20:
-                                                this.animationpoint = new Point(1, 4);
-                                                this.detachedShadow = false;
-                                                break;
-                                            case 24:
-                                                this.animationpoint = new Point(2, 4);
-                                                this.counterTiming = false;
+                                            var point = this.position.WithOffset(offset);
+                                            if (this.PositionOver(point) || this.parent.panel[point.X, point.Y].color == this.union)
+                                            {
+                                                continue;
+                                            }
 
-                                                this.parent.attacks.Add(new IceCrashSpawner(this.sound, this.parent, this.union, this.power, this.element, this.iceCrashDuration, this.largeIceHitTime, this.largeIceLifetime, this.smallIceHitTime, this.smallIceSpawnDelay));
-                                                break;
-                                            case 60:
-                                            case 90:
-                                            case 120:
-                                            case 150:
+                                            this.AttackMake(this.Power, offset.X, offset.Y, true);
+                                        }
+                                    }
+
+                                    break;
+                                case AttackType.IceCrash:
+                                    switch (this.attackWaitTime)
+                                    {
+                                        case 0:
+                                            this.animationpoint = new Point(0, 4);
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset = new Vector2(0, -1);
+                                            this.detachedShadow = true;
+                                            this.counterTiming = true;
+                                            break;
+                                        case 5:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 10:
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset.Y -= 1;
+                                            break;
+                                        case 15:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 20:
+                                            this.animationpoint = new Point(1, 4);
+                                            this.detachedShadow = false;
+                                            break;
+                                        case 24:
+                                            this.animationpoint = new Point(2, 4);
+                                            this.counterTiming = false;
+
+                                            // TODO: add parameter for isPowered/reposition large drop (short period of remnant small ice?)
+                                            this.parent.attacks.Add(new IceCrashSpawner(
+                                                this.sound,
+                                                this.parent,
+                                                this.union,
+                                                this.power,
+                                                this.element,
+                                                this.iceCrashDuration,
+                                                this.iceCrashLargeIceHitTime,
+                                                this.iceCrashLargeIceLifetime,
+                                                this.iceCrashLargeIceHp,
+                                                this.iceCrashSmallIceHitTime,
+                                                this.iceCrashSmallIceLifetime,
+                                                this.iceCrashSmallIceSpawnDelay,
+                                                this.iceCrashSmallIceHp));
+                                            break;
+                                        case 60:
+                                        case 90:
+                                        case 120:
+                                        case 150:
+                                            {
+                                                var initialPosition = this.position;
+                                                var initialPositionDirect = this.SpritePositionDirect;
+
+                                                this.MoveRandom(false, false);
+                                                for (var i_retry = 0; i_retry < 6; i_retry++)
                                                 {
-                                                    var initialPosition = this.position;
-                                                    var initialPositionDirect = this.SpritePositionDirect;
-
+                                                    if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
+                                                        && (this.union == Panel.COLOR.blue || this.positionre.X < 2))
+                                                    {
+                                                        break;
+                                                    }
                                                     this.MoveRandom(false, false);
-                                                    for (var i_retry = 0; i_retry < 6; i_retry++)
-                                                    {
-                                                        if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
-                                                            && (this.union == Panel.COLOR.blue || this.positionre.X < 2))
-                                                        {
-                                                            break;
-                                                        }
-                                                        this.MoveRandom(false, false);
-                                                    }
-                                                    this.position = this.positionre;
-                                                    this.PositionDirectSet();
+                                                }
+                                                this.position = this.positionre;
+                                                this.PositionDirectSet();
 
-                                                    this.animationpoint = new Point(2, 0);
-                                                    if (initialPosition != this.position)
-                                                    {
-                                                        this.parent.effects.Add(new StepShadowYuyu(
-                                                            this.sound,
-                                                            this.parent,
-                                                            new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
-                                                            initialPositionDirect,
-                                                            this.picturename,
-                                                            this.rebirth,
-                                                            initialPosition,
-                                                            255, 255, 255));
-                                                    }
-                                                }
-                                                break;
-                                            case 64:
-                                            case 94:
-                                            case 124:
-                                            case 154:
-                                                this.animationpoint = new Point(1, 0);
-                                                break;
-                                            case 65:
-                                            case 85:
-                                            case 105:
+                                                this.animationpoint = new Point(2, 0);
+                                                if (initialPosition != this.position)
                                                 {
-                                                    var blockerRow = (this.attackWaitTime - 65) / 20;
-                                                    var blockerColumn = this.union == Panel.COLOR.blue ? 3 : 2;
-                                                    this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, blockerColumn, blockerRow, this.union, this.power, iceCrashBlockerHitTime, this.element, true, iceCrashBlockerLifetime));
+                                                    this.parent.effects.Add(new StepShadowYuyu(
+                                                        this.sound,
+                                                        this.parent,
+                                                        new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                                        initialPositionDirect,
+                                                        this.picturename,
+                                                        this.rebirth,
+                                                        initialPosition,
+                                                        255, 255, 255));
                                                 }
-                                                break;
-                                            case 180:
+                                            }
+                                            break;
+                                        case 64:
+                                        case 94:
+                                        case 124:
+                                        case 154:
+                                            this.animationpoint = new Point(1, 0);
+                                            break;
+                                        case 65:
+                                        case 85:
+                                        case 105:
+                                            {
+                                                var blockerRow = (this.attackWaitTime - 65) / 20;
+                                                var blockerColumn = this.union == Panel.COLOR.blue ? 3 : 2;
+                                                this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, blockerColumn, blockerRow, this.union, this.power, this.iceCrashBlockerHitTime, this.element, true, this.iceCrashBlockerLifetime, this.iceCrashBlockerHp));
+                                            }
+                                            break;
+                                        case 180:
+                                            if (!this.isPoweredUp)
+                                            {
                                                 this.attackType = AttackType.PowerUp;
                                                 this.attackWaitTime = 0;
-                                                break;
-                                        }
-                                        break;
-                                    case AttackType.Spin:
-                                        const int spinPoseFrames = 6;
-                                        const int spinSwipeFrames = 4;
-                                        if (this.attackWaitTime < this.spinSpinupTime)
-                                        {
-                                            // move to center
-                                            if (this.attackWaitTime <= 10 + spinPoseFrames + spinSwipeFrames)
-                                            {
-                                                switch (this.attackWaitTime)
-                                                {
-                                                    case 0:
-                                                        {
-                                                            var initialPosition = this.position;
-                                                            var initialPositionDirect = this.SpritePositionDirect;
-
-                                                            var spinPosition = this.union == Panel.COLOR.blue ? new Point(4, 1) : new Point(1, 1);
-                                                            if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
-                                                            {
-                                                                spinPosition = this.union == Panel.COLOR.blue ? new Point(5, 1) : new Point(0, 1);
-                                                            }
-
-                                                            if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
-                                                            {
-                                                                this.MoveRandom(false, false);
-                                                                for (var i_retry = 0; i_retry < 6; i_retry++)
-                                                                {
-                                                                    if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
-                                                                        && (this.union == Panel.COLOR.blue || this.positionre.X < 2)
-                                                                        && !this.parent.panel[this.positionre.X, this.positionre.Y].Hole)
-                                                                    {
-                                                                        spinPosition = this.positionre;
-                                                                        break;
-                                                                    }
-                                                                    this.MoveRandom(false, false);
-                                                                }
-                                                            }
-                                                            this.positionre = spinPosition;
-
-                                                            this.position = this.positionre;
-                                                            this.PositionDirectSet();
-
-                                                            this.animationpoint = new Point(2, 0);
-                                                            if (initialPosition != this.position)
-                                                            {
-                                                                this.parent.effects.Add(new StepShadowYuyu(
-                                                                    this.sound,
-                                                                    this.parent,
-                                                                    new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
-                                                                    initialPositionDirect,
-                                                                    this.picturename,
-                                                                    this.rebirth,
-                                                                    initialPosition,
-                                                                    255, 255, 255));
-                                                            }
-                                                            break;
-                                                        }
-                                                    case 4:
-                                                        this.animationpoint = new Point(1, 0);
-                                                        break;
-                                                    case 10:
-                                                        this.animationpoint = new Point(0, 5);
-                                                        this.counterTiming = true;
-                                                        break;
-                                                    case 10 + spinPoseFrames:
-                                                        this.animationpoint = new Point(1, 5);
-                                                        break;
-                                                    case 10 + spinSwipeFrames + spinPoseFrames:
-                                                        this.animationpoint = new Point(2, 5);
-                                                        this.counterTiming = false;
-                                                        this.guard = GUARD.guard;
-
-                                                        this.spinPattern.Clear();
-                                                        var initialRow = this.Random.Next(3);
-                                                        this.spinPattern.Add(initialRow);
-                                                        var potentialMovements = new List<int>();
-
-                                                        for (var i = 0; i < this.spinPatternLength - 1; i++)
-                                                        {
-                                                            var currentRow = this.spinPattern.Last();
-                                                            var distanceFromCycleStart = currentRow - initialRow;
-
-                                                            var remainingRows = this.spinPatternLength - 1 - i;
-                                                            if (Math.Abs(distanceFromCycleStart) >= remainingRows)
-                                                            {
-                                                                this.spinPattern.Add(currentRow + (distanceFromCycleStart > 0 ? -1 : 1));
-                                                            }
-                                                            else
-                                                            {
-                                                                potentialMovements.Clear();
-                                                                potentialMovements.AddRange(Enumerable.Repeat(0, this.spinFeatherPatternStayWeight));
-                                                                if (currentRow != 0)
-                                                                {
-                                                                    potentialMovements.AddRange(Enumerable.Repeat(-1, this.spinFeatherPatternMoveWeight));
-                                                                }
-                                                                if (currentRow != 2)
-                                                                {
-                                                                    potentialMovements.AddRange(Enumerable.Repeat(1, this.spinFeatherPatternMoveWeight));
-                                                                }
-
-                                                                this.spinPattern.Add(currentRow + potentialMovements[this.Random.Next(potentialMovements.Count)]);
-                                                            }
-                                                        }
-
-                                                        break;
-                                                }
                                             }
                                             else
                                             {
-                                                var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
-
-                                                const int minFrameDelay = 2;
-                                                const int initialFrameDelay = 6;
-                                                Func<int, int> calculateFrameDelay = t => (int)(Math.Round(initialFrameDelay - (initialFrameDelay - minFrameDelay) * ((double)t / this.spinSpinupTime)));
-
-                                                var animProgress = 0;
-                                                while (animProgress < spinStartTime)
-                                                {
-                                                    animProgress += calculateFrameDelay(animProgress);
-                                                }
-
-                                                if (animProgress == spinStartTime)
-                                                {
-                                                    var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
-                                                    this.animationpoint = new Point(spinFrame + 2, 5);
-                                                }
-
-                                                Func<int, int> calculateFeatherDelay = t => (int)(Math.Round(this.spinFeatherInitialDelay - (this.spinFeatherInitialDelay - this.spinFeatherMinimumDelay) * ((double)t / this.spinSpinupTime)));
-
-                                                var featherProgress = 0;
-                                                while (featherProgress < spinStartTime)
-                                                {
-                                                    featherProgress += calculateFeatherDelay(featherProgress);
-                                                }
-
-                                                // Spawn row attacks on similar acceleration (to establish pattern)
-                                                if (featherProgress == spinStartTime)
-                                                {
-                                                    // Spawn row attacks at max speed in same pattern
-                                                    var gap = this.spinPattern[0];
-                                                    this.spinPattern.RemoveAt(0);
-                                                    this.spinPattern.Add(gap);
-
-                                                    var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
-                                                    var px = 3;
-                                                    for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                this.AttackMotion = AttackState.Cooldown;
+                                                this.AttackCooldownSet();
+                                            }
+                                            break;
+                                    }
+                                    break;
+                                case AttackType.Spin:
+                                    const int spinPoseFrames = 6;
+                                    const int spinSwipeFrames = 4;
+                                    if (this.attackWaitTime < this.spinSpinupTime)
+                                    {
+                                        // Move to center, animate and create pattern
+                                        if (this.attackWaitTime <= 10 + spinPoseFrames + spinSwipeFrames)
+                                        {
+                                            switch (this.attackWaitTime)
+                                            {
+                                                case 0:
                                                     {
-                                                        var py = randomDelayOrder[i];
-                                                        if (py != gap)
+                                                        var initialPosition = this.position;
+                                                        var initialPositionDirect = this.SpritePositionDirect;
+
+                                                        var spinPosition = this.union == Panel.COLOR.blue ? new Point(4, 1) : new Point(1, 1);
+                                                        if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
                                                         {
-                                                            var delayTime = 10 + 2 * i;
-                                                            this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
+                                                            spinPosition = this.union == Panel.COLOR.blue ? new Point(5, 1) : new Point(0, 1);
+                                                        }
+
+                                                        if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                        {
+                                                            this.MoveRandom(false, false);
+                                                            for (var i_retry = 0; i_retry < 6; i_retry++)
+                                                            {
+                                                                if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
+                                                                    && (this.union == Panel.COLOR.blue || this.positionre.X < 2)
+                                                                    && !this.parent.panel[this.positionre.X, this.positionre.Y].Hole)
+                                                                {
+                                                                    spinPosition = this.positionre;
+                                                                    break;
+                                                                }
+                                                                this.MoveRandom(false, false);
+                                                            }
+                                                        }
+                                                        this.positionre = spinPosition;
+
+                                                        this.position = this.positionre;
+                                                        this.PositionDirectSet();
+
+                                                        this.animationpoint = new Point(2, 0);
+                                                        if (initialPosition != this.position)
+                                                        {
+                                                            this.parent.effects.Add(new StepShadowYuyu(
+                                                                this.sound,
+                                                                this.parent,
+                                                                new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                                                initialPositionDirect,
+                                                                this.picturename,
+                                                                this.rebirth,
+                                                                initialPosition,
+                                                                255, 255, 255));
+                                                        }
+                                                        break;
+                                                    }
+                                                case 4:
+                                                    this.animationpoint = new Point(1, 0);
+                                                    break;
+                                                case 10:
+                                                    this.animationpoint = new Point(0, 5);
+                                                    this.counterTiming = true;
+                                                    break;
+                                                case 10 + spinPoseFrames:
+                                                    this.animationpoint = new Point(1, 5);
+                                                    break;
+                                                case 10 + spinSwipeFrames + spinPoseFrames:
+                                                    this.animationpoint = new Point(2, 5);
+                                                    this.counterTiming = false;
+                                                    this.guard = GUARD.guard;
+
+                                                    this.spinPattern.Clear();
+                                                    var initialRow = this.Random.Next(3);
+                                                    this.spinPattern.Add(initialRow);
+                                                    var potentialMovements = new List<int>();
+
+                                                    for (var i = 0; i < this.spinPatternLength - 1; i++)
+                                                    {
+                                                        var currentRow = this.spinPattern.Last();
+                                                        var distanceFromCycleStart = currentRow - initialRow;
+
+                                                        var remainingRows = this.spinPatternLength - 1 - i;
+                                                        if (Math.Abs(distanceFromCycleStart) >= remainingRows)
+                                                        {
+                                                            this.spinPattern.Add(currentRow + (distanceFromCycleStart > 0 ? -1 : 1));
+                                                        }
+                                                        else
+                                                        {
+                                                            potentialMovements.Clear();
+                                                            potentialMovements.AddRange(Enumerable.Repeat(0, this.spinFeatherPatternStayWeight));
+                                                            if (currentRow != 0)
+                                                            {
+                                                                potentialMovements.AddRange(Enumerable.Repeat(-1, this.spinFeatherPatternMoveWeight));
+                                                            }
+                                                            if (currentRow != 2)
+                                                            {
+                                                                potentialMovements.AddRange(Enumerable.Repeat(1, this.spinFeatherPatternMoveWeight));
+                                                            }
+
+                                                            this.spinPattern.Add(currentRow + potentialMovements[this.Random.Next(potentialMovements.Count)]);
                                                         }
                                                     }
-                                                }
+
+                                                    break;
                                             }
                                         }
-                                        else if (this.attackWaitTime < this.spinSpinupTime + this.spinDuration)
+                                        else
                                         {
-                                            if (this.attackWaitTime % 2 == 0)
+                                            // Start with slow spin, accelerate
+                                            var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
+
+                                            const int minFrameDelay = 2;
+                                            const int initialFrameDelay = 6;
+                                            Func<int, int> calculateFrameDelay = t => (int)(Math.Round(initialFrameDelay - (initialFrameDelay - minFrameDelay) * ((double)t / this.spinSpinupTime)));
+
+                                            var animProgress = 0;
+                                            while (animProgress < spinStartTime)
+                                            {
+                                                animProgress += calculateFrameDelay(animProgress);
+                                            }
+
+                                            if (animProgress == spinStartTime)
                                             {
                                                 var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
                                                 this.animationpoint = new Point(spinFrame + 2, 5);
                                             }
 
-                                            const int subdivisions = 3;
+                                            Func<int, int> calculateFeatherDelay = t => (int)(Math.Round(this.spinFeatherInitialDelay - (this.spinFeatherInitialDelay - this.spinFeatherMinimumDelay) * ((double)t / this.spinSpinupTime)));
 
-                                            var fullSpinTime = this.attackWaitTime - this.spinSpinupTime;
-                                            var delayDivision = this.spinFeatherMinimumDelay / subdivisions;
-                                            var switchTime = this.spinSpinupTime % delayDivision;
-                                            if (fullSpinTime % delayDivision == switchTime)
+                                            var featherProgress = 0;
+                                            while (featherProgress < spinStartTime)
                                             {
-                                                var fullDelayHit = fullSpinTime % (delayDivision * subdivisions) == switchTime;
-                                                var isFullSpeed = fullSpinTime > this.spinFeatherMinimumDelay * this.spinPatternLength / subdivisions;
+                                                featherProgress += calculateFeatherDelay(featherProgress);
+                                            }
 
-                                                if (isFullSpeed && this.spinPattern.Count == this.spinPatternLength)
-                                                {
-                                                    // Convert gaps to bits 0, 1, 2, add middle with both gaps between
-                                                    var repeatedPatternBits = this.spinPattern.Select(g => Enumerable.Repeat(1 << g, subdivisions - 1).ToArray())
-                                                        .Aggregate((i, j) => i.Concat(Enumerable.Repeat(i[i.Length - 1] | j[0], subdivisions - 1)).Concat(j).ToArray()).ToList();
-                                                    repeatedPatternBits.AddRange(Enumerable.Repeat(repeatedPatternBits[repeatedPatternBits.Count - 1] | repeatedPatternBits[0], subdivisions - 1));
-                                                    this.spinPattern.Clear();
-                                                    this.spinPattern.AddRange(repeatedPatternBits);
-                                                }
-
+                                            // Spawn row attacks on similar acceleration (to establish pattern)
+                                            if (featherProgress == spinStartTime)
+                                            {
                                                 // Spawn row attacks at max speed in same pattern
-                                                var gapBits = isFullSpeed ? this.spinPattern[0] : (1 << this.spinPattern[0]);
+                                                var gap = this.spinPattern[0];
+                                                this.spinPattern.RemoveAt(0);
+                                                this.spinPattern.Add(gap);
 
-                                                if (isFullSpeed || fullDelayHit)
+                                                var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
+                                                var px = 3;
+                                                for (var i = 0; i < randomDelayOrder.Length; i++)
                                                 {
-                                                    var originalHead = this.spinPattern[0];
-                                                    this.spinPattern.RemoveAt(0);
-                                                    this.spinPattern.Add(originalHead);
-
-                                                    var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
-                                                    var px = 3;
-                                                    for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                    var py = randomDelayOrder[i];
+                                                    if (py != gap)
                                                     {
-                                                        var py = randomDelayOrder[i];
-                                                        if (((1 << py) & gapBits) == 0)
-                                                        {
-                                                            var delayTime = 10 + 2 * i;
-                                                            this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
-                                                        }
+                                                        var delayTime = 10 + 2 * i;
+                                                        this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
                                                     }
                                                 }
                                             }
                                         }
-                                        else
+                                    }
+                                    else if (this.attackWaitTime < this.spinSpinupTime + this.spinDuration)
+                                    {
+                                        // Full-speed
+                                        if (this.attackWaitTime % 2 == 0)
                                         {
-                                            this.guard = GUARD.none;
+                                            var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
+                                            this.animationpoint = new Point(spinFrame + 2, 5);
+                                        }
+
+                                        const int subdivisions = 3;
+
+                                        var fullSpinTime = this.attackWaitTime - this.spinSpinupTime;
+                                        var delayDivision = this.spinFeatherMinimumDelay / subdivisions;
+                                        var switchTime = this.spinSpinupTime % delayDivision;
+                                        if (fullSpinTime % delayDivision == switchTime)
+                                        {
+                                            var fullDelayHit = fullSpinTime % (delayDivision * subdivisions) == switchTime;
+                                            var isFullSpeed = fullSpinTime > this.spinFeatherMinimumDelay * this.spinPatternLength / subdivisions;
+
+                                            if (isFullSpeed && this.spinPattern.Count == this.spinPatternLength)
+                                            {
+                                                // Convert gaps to bits 0, 1, 2, add middle with both gaps between
+                                                var repeatedPatternBits = this.spinPattern.Select(g => Enumerable.Repeat(1 << g, subdivisions - 1).ToArray())
+                                                    .Aggregate((i, j) => i.Concat(Enumerable.Repeat(i[i.Length - 1] | j[0], subdivisions - 1)).Concat(j).ToArray()).ToList();
+                                                repeatedPatternBits.AddRange(Enumerable.Repeat(repeatedPatternBits[repeatedPatternBits.Count - 1] | repeatedPatternBits[0], subdivisions - 1));
+                                                this.spinPattern.Clear();
+                                                this.spinPattern.AddRange(repeatedPatternBits);
+                                            }
+
+                                            // Spawn row attacks at max speed in same pattern
+                                            var gapBits = isFullSpeed ? this.spinPattern[0] : (1 << this.spinPattern[0]);
+
+                                            if (isFullSpeed || fullDelayHit)
+                                            {
+                                                var originalHead = this.spinPattern[0];
+                                                this.spinPattern.RemoveAt(0);
+                                                this.spinPattern.Add(originalHead);
+
+                                                var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
+                                                var px = 3;
+                                                for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                {
+                                                    var py = randomDelayOrder[i];
+                                                    if (((1 << py) & gapBits) == 0)
+                                                    {
+                                                        var delayTime = 10 + 2 * i;
+                                                        this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        if (this.isPoweredUp)
+                                        {
+                                            // TODO: spawn rotating tornadoes, 'pop' 1 by 1 after finish to do row attack? (until then still rotating)
+                                        }
+                                    }
+                                    else
+                                    {
+                                        this.guard = GUARD.none;
+                                        this.AttackMotion = AttackState.Cooldown;
+                                        this.AttackCooldownSet();
+                                    }
+                                    break;
+                                case AttackType.PowerUp:
+                                    switch (this.attackWaitTime)
+                                    {
+                                        case 1:
+                                            this.animationpoint = new Point(0, 1);
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset = new Vector2(0, -1);
+                                            this.detachedShadow = true;
+                                            this.counterTiming = true;
+                                            break;
+                                        case 5:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 10:
+                                            this.positionDirect.Y += 1;
+                                            this.detachedShadowOffset.Y -= 1;
+                                            break;
+                                        case 15:
+                                            this.positionDirect.Y -= 1;
+                                            this.detachedShadowOffset.Y += 1;
+                                            break;
+                                        case 20:
+                                            this.animationpoint = new Point(1, 1);
+                                            this.underAnimationPoint = new Point(3, 1);
+                                            this.detachedShadow = false;
+                                            this.ShakeStart(4, 3);
+                                            
+                                            this.isPoweredUp = true;
+                                            break;
+                                        case 23:
+                                            this.underAnimationPoint = new Point(4, 1);
+                                            break;
+                                        case 24:
+                                            this.animationpoint = new Point(2, 1);
+                                            this.counterTiming = false;
+                                            break;
+                                        case 26:
+                                            this.underAnimationPoint = null;
+                                            break;
+                                        case 60:
                                             this.AttackMotion = AttackState.Cooldown;
                                             this.AttackCooldownSet();
-                                        }
-                                        break;
-                                    case AttackType.PowerUp:
-                                        switch (this.attackWaitTime)
-                                        {
-                                            case 1:
-                                                this.animationpoint = new Point(0, 1);
-                                                this.positionDirect.Y += 1;
-                                                this.detachedShadowOffset = new Vector2(0, -1);
-                                                this.detachedShadow = true;
-                                                this.counterTiming = true;
-                                                break;
-                                            case 5:
-                                                this.positionDirect.Y -= 1;
-                                                this.detachedShadowOffset.Y += 1;
-                                                break;
-                                            case 10:
-                                                this.positionDirect.Y += 1;
-                                                this.detachedShadowOffset.Y -= 1;
-                                                break;
-                                            case 15:
-                                                this.positionDirect.Y -= 1;
-                                                this.detachedShadowOffset.Y += 1;
-                                                break;
-                                            case 20:
-                                                this.animationpoint = new Point(1, 1);
-                                                this.underAnimationPoint = new Point(3, 1);
-                                                this.detachedShadow = false;
-                                                this.ShakeStart(4, 3);
-
-                                                // TODO: add powered up flag, add powered up attack patterns
-                                                this.powerupActivating = true;
-                                                break;
-                                            case 23:
-                                                this.underAnimationPoint = new Point(4, 1);
-                                                break;
-                                            case 24:
-                                                this.animationpoint = new Point(2, 1);
-                                                this.counterTiming = false;
-                                                break;
-                                            case 26:
-                                                this.underAnimationPoint = null;
-                                                break;
-                                            case 60:
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-
-                                                this.powerupActivating = false;
-                                                this.powerupActive = true;
-                                                break;
-                                        }
-                                        break;
-                                }
-                            }
-                            else
-                            {
-                                switch (this.attackType)
-                                {
-                                    case AttackType.Dive:
-                                        switch (this.attackWaitTime)
-                                        {
-                                            case 0:
-                                                this.animationpoint = new Point(1, 3);
-                                                break;
-                                            case 60:
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-                                                break;
-                                        }
-                                        break;
-                                    case AttackType.CrossDive:
-                                        switch (this.attackWaitTime)
-                                        {
-                                            case 0:
-                                                this.animationpoint = new Point(0, 2);
-                                                break;
-                                            case 60:
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-                                                break;
-                                        }
-                                        break;
-                                    case AttackType.IceCrash:
-                                        switch (this.attackWaitTime)
-                                        {
-                                            case 0:
-                                                this.animationpoint = new Point(0, 4);
-                                                break;
-                                            case 60:
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-                                                break;
-                                        }
-                                        break;
-                                    case AttackType.Spin:
-                                        switch (this.attackWaitTime)
-                                        {
-                                            case 0:
-                                                this.animationpoint = new Point(0, 5);
-                                                break;
-                                            case 60:
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-                                                break;
-                                        }
-                                        break;
-                                    case AttackType.PowerUp:
-                                        switch (this.attackWaitTime)
-                                        {
-                                            case 0:
-                                                this.animationpoint = new Point(0, 1);
-                                                break;
-                                            case 60:
-                                                this.AttackMotion = AttackState.Cooldown;
-                                                this.AttackCooldownSet();
-                                                break;
-                                        }
-                                        break;
-                                }
+                                            break;
+                                    }
+                                    break;
+                                // TODO: gif, shudder+row w/ following spikes, swoops + feathers, impact w/ spike crater in + then X?
+                                case AttackType.SuperDive:
+                                    switch (this.attackWaitTime)
+                                    {
+                                        case 1:
+                                            this.animationpoint = new Point(4, 3);
+                                            break;
+                                        case 30:
+                                            this.isPoweredUp = false;
+                                            break;
+                                        case 60:
+                                            this.AttackMotion = AttackState.Cooldown;
+                                            this.AttackCooldownSet();
+                                            break;
+                                    }
+                                    break;
+                                // TODO: 'regular' random spacing, accelerating, ice spikes(from back)+blockers, tornados in columns. 1 blocker at 4th column, rest break by tornado hit
+                                case AttackType.SuperSpin:
+                                    switch (this.attackWaitTime)
+                                    {
+                                        case 1:
+                                            this.animationpoint = new Point(4, 5);
+                                            break;
+                                        case 30:
+                                            this.isPoweredUp = false;
+                                            break;
+                                        case 60:
+                                            this.AttackMotion = AttackState.Cooldown;
+                                            this.AttackCooldownSet();
+                                            break;
+                                    }
+                                    break;
                             }
                             this.attackWaitTime++;
                             break;
@@ -1156,7 +1183,7 @@ namespace NSEnemy
             var hitmarkedAnimationPoint = this.whitetime == 0 ? this.animationpoint : whiteAnimationPoint;
             dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedAnimationPoint.X), FrameCoordY(hitmarkedAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
 
-            if (this.powerupActive || this.powerupActivating)
+            if (this.isPoweredUp)
             {
                 const double period = 20;
                 var strobeProgress = this.frame / period;
@@ -1259,6 +1286,11 @@ namespace NSEnemy
             this.diveFeatherDelay = 60;
             this.diveFeatherCount = 3;
             this.diveFeatherSets = 2;
+            this.powerDiveSmallIceCount = 3;
+            this.powerDiveIcicleHitTime = 90;
+            this.powerDiveSmallIceLifetime = 180;
+            this.powerDiveSmallIceSpawnDelay = 15;
+            this.powerDiveSmallIceHp = 50;
 
             this.crossDiveWarningFrames = 20;
             this.crossDiveInitialDelayFrames = 45;
@@ -1269,12 +1301,16 @@ namespace NSEnemy
             this.crossDiveCounterFrames = 15;
 
             this.iceCrashDuration = 280;
-            this.largeIceHitTime = 60;
-            this.largeIceLifetime = 200;
-            this.smallIceHitTime = 45;
-            this.smallIceSpawnDelay = 20;
+            this.iceCrashLargeIceHitTime = 60;
+            this.iceCrashLargeIceLifetime = 200;
+            this.iceCrashLargeIceHp = 500;
+            this.iceCrashSmallIceHitTime = 45;
+            this.iceCrashSmallIceSpawnDelay = 20;
+            this.iceCrashSmallIceLifetime = 60;
+            this.iceCrashSmallIceHp = 200;
             this.iceCrashBlockerHitTime = 45;
             this.iceCrashBlockerLifetime = 150;
+            this.iceCrashBlockerHp = 200;
 
             this.spinPatternLength = 5;
             this.spinFeatherPatternStayWeight = 2;
@@ -1285,12 +1321,21 @@ namespace NSEnemy
             this.spinFeatherMinimumDelay = 16;
             this.spinFeatherPerPanelTime = 8;
 
-            this.diveWeight = 6;
-            this.crossDiveWeight = 6;
-            this.iceCrashWeight = 3;
-            this.spinWeight = 1;
-            this.powerUpWeight = 1;
-            this.initialPowerupWeight = this.powerUpWeight;
+            this.standardAttackWeights[AttackType.Dive] = 6;
+            this.standardAttackWeights[AttackType.CrossDive] = 6;
+            this.standardAttackWeights[AttackType.IceCrash] = 3;
+            this.standardAttackWeights[AttackType.Spin] = 1;
+            this.standardAttackWeights[AttackType.PowerUp] = 1;
+            this.standardAttackWeights[AttackType.SuperDive] = 0;
+            this.standardAttackWeights[AttackType.SuperSpin] = 0;
+
+            this.poweredAttackWeights[AttackType.Dive] = 3;
+            this.poweredAttackWeights[AttackType.CrossDive] = 3;
+            this.poweredAttackWeights[AttackType.IceCrash] = 2;
+            this.poweredAttackWeights[AttackType.Spin] = 2;
+            this.poweredAttackWeights[AttackType.PowerUp] = 0;
+            this.poweredAttackWeights[AttackType.SuperDive] = 1;
+            this.poweredAttackWeights[AttackType.SuperSpin] = 1;
         }
 
         private void SetVersionStats()
@@ -1375,8 +1420,6 @@ namespace NSEnemy
             this.waittime = 0;
             this.animationpoint = new Point(1, 0);
             this.attackCooldown = this.attackCooldownBase + this.Random.Next(-this.attackCooldownFuzz, this.attackCooldownFuzz);
-
-            this.powerupActive = false;
         }
 
         private void SetOverlayColor()
@@ -1413,7 +1456,9 @@ namespace NSEnemy
             CrossDive,
             IceCrash,
             Spin,
-            PowerUp
+            PowerUp,
+            SuperDive,
+            SuperSpin
         }
 
         private class DiveFeatherSpawner : AttackBase
@@ -1740,8 +1785,11 @@ namespace NSEnemy
             private readonly int duration;
             private readonly int largeIceHitTime;
             private readonly int largeIceLifetime;
+            private readonly int largeIceHp;
             private readonly int smallIceHitTime;
+            private readonly int smallIceLifetime;
             private readonly int smallIceSpawnTime;
+            private readonly int smallIceHp;
 
             public IceCrashSpawner(
                 IAudioEngine so,
@@ -1752,15 +1800,22 @@ namespace NSEnemy
                 int duration,
                 int largeIceHitTime,
                 int largeIceLifetime,
+                int largeIceHp,
                 int smallIceHitTime,
-                int smallIceSpawnTime)
+                int smallIceLifetime,
+                int smallIceSpawnTime,
+                int smallIceHp)
                 : base(so, p, 0, 0, u, po, ele)
             {
                 this.duration = duration;
                 this.largeIceHitTime = largeIceHitTime;
                 this.largeIceLifetime = largeIceLifetime;
+                this.largeIceHp = largeIceHp;
+
                 this.smallIceHitTime = smallIceHitTime;
+                this.smallIceLifetime = smallIceLifetime;
                 this.smallIceSpawnTime = smallIceSpawnTime;
+                this.smallIceHp = smallIceHp;
             }
 
             public override void Updata()
@@ -1819,7 +1874,7 @@ namespace NSEnemy
 
                     var targetedPosition = validTargets[this.Random.Next(0, validTargets.Count)];
 
-                    this.parent.attacks.Add(new IceCrashLarge(this.sound, this.parent, targetedPosition.X, targetedPosition.Y, this.union, this.power, this.largeIceHitTime, this.element, largeIceLifetime));
+                    this.parent.attacks.Add(new IceCrashLarge(this.sound, this.parent, targetedPosition.X, targetedPosition.Y, this.union, this.power, this.largeIceHitTime, this.element, this.largeIceLifetime, this.smallIceHp, this.largeIceHp));
                 }
                 else if (this.frame % this.smallIceSpawnTime == 0)
                 {
@@ -1838,7 +1893,7 @@ namespace NSEnemy
                     }).ToArray();
                     var targetPos = targetPanels[this.Random.Next(0, targetPanels.Length)];
 
-                    this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, targetPos.X, targetPos.Y, this.union, this.power, this.smallIceHitTime, this.element, false));
+                    this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, targetPos.X, targetPos.Y, this.union, this.power, this.smallIceHitTime, this.element, false, this.smallIceLifetime, this.smallIceHp));
                 }
 
                 this.FlameControl();
@@ -1855,6 +1910,9 @@ namespace NSEnemy
             private readonly Vector2 initialPosition;
             private readonly float initialVelocity;
 
+            private readonly int smallIceHp;
+            private readonly int largeIceHp;
+
             private bool hasShadow;
 
             public IceCrashLarge(
@@ -1866,7 +1924,9 @@ namespace NSEnemy
                 int po,
                 int hittime,
                 ChipBase.ELEMENT ele,
-                int lifetime)
+                int lifetime,
+                int smallIceHp,
+                int largeIceHp)
                 : base(so, p, pX, pY, u, po, ele)
             {
                 this.picturename = "cirnobx";
@@ -1877,6 +1937,9 @@ namespace NSEnemy
                 this.hitting = false;
 
                 this.lifetime = lifetime;
+                this.smallIceHp = smallIceHp;
+                this.largeIceHp = largeIceHp;
+
                 this.hitTime = hittime;
 
                 this.initialVelocity = (float)((160 - (0.5 * DropAcceleration * this.hitTime * this.hitTime)) / this.hitTime);
@@ -1924,7 +1987,7 @@ namespace NSEnemy
                     }
 
                     var hitObjects = this.parent.AllHitter().Where(c => targetedPanels.Contains(c.position) || (c.positionReserved != null && targetedPanels.Contains(c.positionReserved.Value)));
-                    if (hitObjects.Any(o => !(o is IceRockLarge || o is DummyObject)))
+                    if (hitObjects.Any(o => !(o is IceRockLarge || o is DummyObject || o is IceRocks)))
                     {
                         var emptySpaces = targetedPanels.Except(hitObjects.Select(e => e.position));
                         var isPinned = hitObjects.Select(e => e.position).Any(p =>
@@ -1933,7 +1996,7 @@ namespace NSEnemy
                         );
                         foreach (var space in emptySpaces)
                         {
-                            this.parent.objects.Add(new IceRocks(this.sound, this.parent, space.X, space.Y, this.union, this.lifetime / (isPinned ? 2 : 1)));
+                            this.parent.objects.Add(new IceRocks(this.sound, this.parent, space.X, space.Y, this.union, this.lifetime / (isPinned ? 2 : 1), this.smallIceHp));
                         }
 
                         // create debris
@@ -1971,13 +2034,13 @@ namespace NSEnemy
                     }
                     else
                     {
-                        var collidingIceRocks = this.parent.AllHitter().OfType<IceRockLarge>().Where(o => new Rectangle(this.position, new Size(2, 2)).IntersectsWith(new Rectangle(o.position, new Size(2, 2))));
+                        var collidingIceRocks = this.parent.AllHitter().OfType<ObjectBase>().Where(o => new Rectangle(this.position, new Size(2, 2)).IntersectsWith(new Rectangle(o.position, o is IceRockLarge ? new Size(2, 2) : new Size(1, 1))));
                         foreach (var rock in collidingIceRocks)
                         {
                             rock.Break();
                         }
 
-                        this.parent.objects.Add(new IceRockLarge(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime));
+                        this.parent.objects.Add(new IceRockLarge(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime, this.largeIceHp));
                     }
                 }
 
@@ -2030,11 +2093,12 @@ namespace NSEnemy
             private static readonly int InitialHeight = 160;
 
             private readonly Shadow shadow;
-            private readonly int lifetime;
             private readonly int hitTime;
             private readonly Vector2 initialPosition;
             private readonly bool createObject;
             private readonly float initialVelocity;
+            private readonly int smallIceLifetime;
+            private readonly int smallIceHp; 
 
             private bool isEnding;
 
@@ -2048,15 +2112,14 @@ namespace NSEnemy
                 int hittime,
                 ChipBase.ELEMENT ele,
                 bool createObject,
-                int lifetime = 60)
+                int lifetime,
+                int hp)
                 : base(so, p, pX, pY, u, po, ele)
             {
                 this.invincibility = false;
                 this.breaking = false;
 
                 this.hitting = false;
-
-                this.lifetime = lifetime;
                 this.hitTime = hittime;
 
                 this.initialVelocity = (float)((160 - (0.5 * DropAcceleration * this.hitTime * this.hitTime)) / this.hitTime);
@@ -2066,6 +2129,8 @@ namespace NSEnemy
                 this.positionDirect = new Vector2(this.initialPosition.X, this.initialPosition.Y);
 
                 this.createObject = createObject;
+                this.smallIceLifetime = lifetime;
+                this.smallIceHp = hp;
 
                 this.shadow = new Shadow(this.sound, this.parent, this.position.X, this.position.Y, this);
                 this.parent.effects.Add(shadow);
@@ -2102,7 +2167,7 @@ namespace NSEnemy
                                     c.Break();
                                 }
 
-                                this.parent.objects.Add(new IceRocks(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime));
+                                this.parent.objects.Add(new IceRocks(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.smallIceLifetime, this.smallIceHp));
                             }
                         }
                         else
@@ -2188,12 +2253,12 @@ namespace NSEnemy
             private readonly int lifetime;
             private bool breaked;
 
-            public IceRocks(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime)
+            public IceRocks(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime, int hp)
               : base(s, p, pX, pY, union)
             {
                 this.height = 128;
                 this.wide = 96;
-                this.hp = 200;
+                this.hp = hp;
                 this.hitPower = 200;
                 this.hpmax = this.hp;
                 this.unionhit = false;
@@ -2273,12 +2338,12 @@ namespace NSEnemy
             private int shockwaveFrame;
             private int breakdowns;
 
-            public IceRockLarge(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime)
+            public IceRockLarge(IAudioEngine s, SceneBattle p, int pX, int pY, Panel.COLOR union, int lifetime, int hp)
               : base(s, p, pX, pY, union)
             {
                 this.height = 128;
                 this.wide = 96;
-                this.hp = 500;
+                this.hp = hp;
                 this.hitPower = 200;
                 this.hpmax = this.hp;
                 this.unionhit = false;
@@ -2768,6 +2833,37 @@ namespace NSEnemy
                     return false;
                 this.flag = false;
                 return true;
+            }
+        }
+
+        private class AttackSpawner : AttackBase
+        {
+            private Func<int, bool> endPredicate;
+            private Action<int> updateFunc;
+
+            public AttackSpawner(
+                IAudioEngine so,
+                SceneBattle p,
+                Panel.COLOR u,
+                Func<int, bool> endPredicate,
+                Action<int> updateFunc)
+                : base(so, p, 0, 0, u, 0, ChipBase.ELEMENT.normal)
+            {
+                this.endPredicate = endPredicate;
+                this.updateFunc = updateFunc;
+            }
+
+            public override void Updata()
+            {
+                if (this.endPredicate(this.frame))
+                {
+                    this.flag = false;
+                    return;
+                }
+
+                this.updateFunc(this.frame);
+
+                this.FlameControl();
             }
         }
     }
