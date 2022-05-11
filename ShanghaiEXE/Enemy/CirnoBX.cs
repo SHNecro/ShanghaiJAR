@@ -73,6 +73,7 @@ namespace NSEnemy
         private int iceCrashBlockerLifetime;
         private int iceCrashBlockerHp;
         private int powerIceCrashAdditionalLargeIceSpawnDelay;
+        private bool iceCrashPowerupFollowup;
 
         private int spinPatternLength;
         private int spinFeatherPatternStayWeight;
@@ -802,6 +803,7 @@ namespace NSEnemy
                                                 this.iceCrashSmallIceHitTime,
                                                 this.iceCrashSmallIceSpawnDelay,
                                                 !this.isPoweredUp ? -1 : this.powerIceCrashAdditionalLargeIceSpawnDelay));
+                                            this.iceCrashPowerupFollowup = !this.isPoweredUp;
                                             this.isPoweredUp = false;
                                             break;
                                         case 60:
@@ -856,7 +858,7 @@ namespace NSEnemy
                                             }
                                             break;
                                         case 180:
-                                            if (!this.isPoweredUp)
+                                            if (this.iceCrashPowerupFollowup)
                                             {
                                                 this.attackType = AttackType.PowerUp;
                                                 this.attackWaitTime = 0;
@@ -1357,7 +1359,7 @@ namespace NSEnemy
             this.iceCrashBlockerHitTime = 45;
             this.iceCrashBlockerLifetime = 150;
             this.iceCrashBlockerHp = 200;
-            this.powerIceCrashAdditionalLargeIceSpawnDelay = 140;
+            this.powerIceCrashAdditionalLargeIceSpawnDelay = 160;
 
             this.spinPatternLength = 5;
             this.spinFeatherPatternStayWeight = 2;
@@ -1873,7 +1875,8 @@ namespace NSEnemy
                     return;
                 }
 
-                if (this.frame == 0 || (this.additionalLargeIceSpawnDelay != -1 && this.frame % this.additionalLargeIceSpawnDelay == 0))
+                var additionalLargeSpawn = this.frame != 0 && this.additionalLargeIceSpawnDelay != -1 && this.frame % this.additionalLargeIceSpawnDelay == 0;
+                if (this.frame == 0 || additionalLargeSpawn)
                 {
                     var allPanelPositions = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y))).ToArray();
                     var enemyPanels = allPanelPositions.Where(p => this.parent.panel[p.X, p.Y].color != this.union).ToArray();
@@ -1884,7 +1887,14 @@ namespace NSEnemy
 
                         var isOutOfBounds = attackPositions.Any(p => p.X >= this.parent.panel.GetLength(0) || p.Y >= this.parent.panel.GetLength(1) || this.parent.panel[p.X, p.Y].State == Panel.PANEL._un);
                         var hitsEnemyArea = attackPositions.Any(enemyPanels.Contains);
-                        var willBlockArea = enemyPanels.Where(p => this.parent.panel[p.X, p.Y].State != Panel.PANEL._un).Except(attackPositions).Count() < 2;
+                        var freeSpaces = enemyPanels.Where(p => this.parent.panel[p.X, p.Y].State != Panel.PANEL._un).Except(attackPositions);
+                        var willBlockArea = freeSpaces.Count() < 2;
+                        if (additionalLargeSpawn)
+                        {
+                            var occupiedPanels = this.parent.AllHitter().OfType<IceRockLarge>().SelectMany(o => new[] { "00", "01", "10", "11" }.Select(off => new Point(o.position.X + (off[0] == '0' ? 0 : 1), o.position.Y + (off[1] == '0' ? 0 : 1))));
+                            willBlockArea |= freeSpaces.Except(attackPositions).Except(occupiedPanels).Count() <= 2;
+                            hitsEnemyArea &= attackPositions.Except(occupiedPanels).Any();
+                        }
 
                         return hitsEnemyArea && !isOutOfBounds && !willBlockArea;
                     }).ToList();
