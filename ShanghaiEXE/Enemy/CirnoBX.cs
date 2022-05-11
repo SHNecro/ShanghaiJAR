@@ -66,13 +66,13 @@ namespace NSEnemy
         private int iceCrashLargeIceHitTime;
         private int iceCrashLargeIceLifetime;
         private int iceCrashLargeIceHp;
+        private int iceCrashLargeIceRemnantHp;
         private int iceCrashSmallIceHitTime;
         private int iceCrashSmallIceSpawnDelay;
-        private int iceCrashSmallIceLifetime;
-        private int iceCrashSmallIceHp;
         private int iceCrashBlockerHitTime;
         private int iceCrashBlockerLifetime;
         private int iceCrashBlockerHp;
+        private int powerIceCrashAdditionalLargeIceSpawnDelay;
 
         private int spinPatternLength;
         private int spinFeatherPatternStayWeight;
@@ -699,9 +699,17 @@ namespace NSEnemy
                                             this.detachedShadow = !this.nohit;
                                             this.detachedShadowOffset = new Vector2(0, 0);
 
+
                                             if (this.isPoweredUp)
                                             {
-                                                // arm rotation constant, handled from initialization
+                                                // arm rotation constant, handled from initialization, only handle clearing powerup
+                                                var previousYPositionDirect = this.positionDirect.Y - (float)(Math.Sin(angle) * -pixelsPerFrame);
+                                                var previousYPosition = (int)Math.Round(previousYPositionDirect / 24);
+
+                                                if (previousYPosition == 1 && yPosition != 1)
+                                                {
+                                                    this.isPoweredUp = false;
+                                                }
                                             }
                                         }
                                         else
@@ -718,6 +726,7 @@ namespace NSEnemy
                                             this.AttackMotion = AttackState.Cooldown;
                                             this.AttackCooldownSet();
                                             this.crossDiveReverse = false;
+                                            this.isPoweredUp = false;
                                             this.PositionDirectSet();
                                             this.HitFlagReset();
                                         }
@@ -789,10 +798,11 @@ namespace NSEnemy
                                                 this.iceCrashLargeIceHitTime,
                                                 this.iceCrashLargeIceLifetime,
                                                 this.iceCrashLargeIceHp,
+                                                this.iceCrashLargeIceRemnantHp,
                                                 this.iceCrashSmallIceHitTime,
-                                                this.iceCrashSmallIceLifetime,
                                                 this.iceCrashSmallIceSpawnDelay,
-                                                this.iceCrashSmallIceHp));
+                                                !this.isPoweredUp ? -1 : this.powerIceCrashAdditionalLargeIceSpawnDelay));
+                                            this.isPoweredUp = false;
                                             break;
                                         case 60:
                                         case 90:
@@ -1343,11 +1353,11 @@ namespace NSEnemy
             this.iceCrashLargeIceHp = 500;
             this.iceCrashSmallIceHitTime = 45;
             this.iceCrashSmallIceSpawnDelay = 20;
-            this.iceCrashSmallIceLifetime = 60;
-            this.iceCrashSmallIceHp = 200;
+            this.iceCrashLargeIceRemnantHp = 200;
             this.iceCrashBlockerHitTime = 45;
             this.iceCrashBlockerLifetime = 150;
             this.iceCrashBlockerHp = 200;
+            this.powerIceCrashAdditionalLargeIceSpawnDelay = 140;
 
             this.spinPatternLength = 5;
             this.spinFeatherPatternStayWeight = 2;
@@ -1823,10 +1833,10 @@ namespace NSEnemy
             private readonly int largeIceHitTime;
             private readonly int largeIceLifetime;
             private readonly int largeIceHp;
+            private readonly int largeIceRemnantHp;
             private readonly int smallIceHitTime;
-            private readonly int smallIceLifetime;
-            private readonly int smallIceSpawnTime;
-            private readonly int smallIceHp;
+            private readonly int smallIceSpawnDelay;
+            private readonly int additionalLargeIceSpawnDelay;
 
             public IceCrashSpawner(
                 IAudioEngine so,
@@ -1838,10 +1848,10 @@ namespace NSEnemy
                 int largeIceHitTime,
                 int largeIceLifetime,
                 int largeIceHp,
+                int largeIceRemnantHp,
                 int smallIceHitTime,
-                int smallIceLifetime,
                 int smallIceSpawnTime,
-                int smallIceHp)
+                int additionalLargeIceSpawnDelay)
                 : base(so, p, 0, 0, u, po, ele)
             {
                 this.duration = duration;
@@ -1850,9 +1860,9 @@ namespace NSEnemy
                 this.largeIceHp = largeIceHp;
 
                 this.smallIceHitTime = smallIceHitTime;
-                this.smallIceLifetime = smallIceLifetime;
-                this.smallIceSpawnTime = smallIceSpawnTime;
-                this.smallIceHp = smallIceHp;
+                this.smallIceSpawnDelay = smallIceSpawnTime;
+                this.largeIceRemnantHp = largeIceRemnantHp;
+                this.additionalLargeIceSpawnDelay = additionalLargeIceSpawnDelay;
             }
 
             public override void Updata()
@@ -1863,7 +1873,7 @@ namespace NSEnemy
                     return;
                 }
 
-                if (this.frame == 0)
+                if (this.frame == 0 || (this.additionalLargeIceSpawnDelay != -1 && this.frame % this.additionalLargeIceSpawnDelay == 0))
                 {
                     var allPanelPositions = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y))).ToArray();
                     var enemyPanels = allPanelPositions.Where(p => this.parent.panel[p.X, p.Y].color != this.union).ToArray();
@@ -1911,9 +1921,9 @@ namespace NSEnemy
 
                     var targetedPosition = validTargets[this.Random.Next(0, validTargets.Count)];
 
-                    this.parent.attacks.Add(new IceCrashLarge(this.sound, this.parent, targetedPosition.X, targetedPosition.Y, this.union, this.power, this.largeIceHitTime, this.element, this.largeIceLifetime, this.smallIceHp, this.largeIceHp));
+                    this.parent.attacks.Add(new IceCrashLarge(this.sound, this.parent, targetedPosition.X, targetedPosition.Y, this.union, this.power, this.largeIceHitTime, this.element, this.largeIceLifetime, this.largeIceRemnantHp, this.largeIceHp));
                 }
-                else if (this.frame % this.smallIceSpawnTime == 0)
+                else if (this.frame % this.smallIceSpawnDelay == 0)
                 {
                     var allPanelPositions = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y))).ToArray();
                     var enemyPanels = allPanelPositions.Where(p => this.parent.panel[p.X, p.Y].color != this.union).ToArray();
@@ -1930,7 +1940,7 @@ namespace NSEnemy
                     }).ToArray();
                     var targetPos = targetPanels[this.Random.Next(0, targetPanels.Length)];
 
-                    this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, targetPos.X, targetPos.Y, this.union, this.power, this.smallIceHitTime, this.element, false, this.smallIceLifetime, this.smallIceHp));
+                    this.parent.attacks.Add(new IceSpikeBX(this.sound, this.parent, targetPos.X, targetPos.Y, this.union, this.power, this.smallIceHitTime, this.element, false, 0, 0));
                 }
 
                 this.FlameControl();
