@@ -589,7 +589,44 @@ namespace NSEnemy
 
                                             if (this.isPoweredUp)
                                             {
-                                                // TODO: Spawn center tornado, arms unfolding from center (if center parried, remove arms)
+                                                var previousYPositionDirect = this.positionDirect.Y - (float)(Math.Sin(angle) * -pixelsPerFrame);
+                                                var previousYPosition = (int)Math.Round(previousYPositionDirect / 24);
+
+                                                if (previousYPosition == 1 && yPosition != 1)
+                                                {
+                                                    Func<BouzuTornado, Point> centerTargeting = t =>
+                                                    {
+                                                        t.flag = t.waittime++ < 8;
+                                                        return new Point(this.crossDiveCenterX, 1);
+                                                    };
+                                                    var centerTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 1, 0, false, centerTargeting);
+                                                    centerTornado.InitAfter();
+
+                                                    Func<bool, bool, Func<BouzuTornado, Point>> targetingFuncCreator = (isClockwise, isLeft) =>
+                                                    {
+                                                        return t =>
+                                                        {
+                                                            int xOff = 0, yOff = 0;
+                                                            var offsets = new[,] { { 0, 0 }, { -1, 0 }, { -1, -1 }, { 0, -1 }, { 1, -1 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { -1, 1 } };
+                                                            if (t.waittime < offsets.GetLength(0))
+                                                            {
+                                                                xOff = offsets[t.waittime, 0] * (isLeft ? -1 : 1);
+                                                                yOff = offsets[t.waittime, 1] * (isLeft ? -1 : 1) * (!isClockwise ? -1 : 1);
+                                                            }
+                                                            t.flag = t.waittime++ < 9 && centerTornado.flag;
+                                                            return new Point(this.crossDiveCenterX + xOff, 1 + yOff);
+                                                        };
+                                                    };
+                                                    var leftTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 5, 0, false, targetingFuncCreator(!this.crossDiveDirectionBottomUp, true));
+                                                    leftTornado.InitAfter();
+                                                    
+                                                    var rightTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 5, 0, false, targetingFuncCreator(!this.crossDiveDirectionBottomUp, false));
+                                                    rightTornado.InitAfter();
+
+                                                    this.parent.attacks.Add(centerTornado);
+                                                    this.parent.attacks.Add(leftTornado);
+                                                    this.parent.attacks.Add(rightTornado);
+                                                }
                                             }
                                         }
                                         else
@@ -664,7 +701,7 @@ namespace NSEnemy
 
                                             if (this.isPoweredUp)
                                             {
-                                                // TODO: accelerate arm rotation, outlast attack
+                                                // arm rotation constant, handled from initialization
                                             }
                                         }
                                         else
