@@ -84,6 +84,8 @@ namespace NSEnemy
         private int spinFeatherMinimumDelay;
         private int spinFeatherPerPanelTime;
         private List<int> spinPattern;
+        private int spinPowerupTornadoCounter;
+        private int spinPowerupTornadoMoverEvaluationNumber;
 
         private bool isPoweredUp;
 
@@ -256,7 +258,6 @@ namespace NSEnemy
                             this.attackWaitTime = 0;
                             break;
                         case AttackState.Attack:
-                            // TODO: remove powerup on "slightly stronger" finish
                             switch (this.attackType)
                             {
                                 case AttackType.Dive:
@@ -491,7 +492,15 @@ namespace NSEnemy
                                         {
                                             // Set initial 1st pass position (next steps work by offset)
                                             var target = this.RandomTarget();
-                                            this.crossDiveCenterX = target.X < 3 ? 1 : target.X;
+
+                                            if (this.union == Panel.COLOR.blue)
+                                            {
+                                                this.crossDiveCenterX = target.X < 3 ? 1 : target.X;
+                                            }
+                                            else
+                                            {
+                                                this.crossDiveCenterX = target.X > 2 ? 4 : target.X;
+                                            }
 
                                             var bottomUpIfEligible = Random.Next() % 2 == 0;
                                             for (var y = 0; y < 3; y++)
@@ -602,26 +611,11 @@ namespace NSEnemy
                                                     };
                                                     var centerTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 1, 0, false, centerTargeting);
                                                     centerTornado.InitAfter();
-
-                                                    Func<bool, bool, Func<BouzuTornado, Point>> targetingFuncCreator = (isClockwise, isLeft) =>
-                                                    {
-                                                        return t =>
-                                                        {
-                                                            int xOff = 0, yOff = 0;
-                                                            var offsets = new[,] { { 0, 0 }, { -1, 0 }, { -1, -1 }, { 0, -1 }, { 1, -1 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { -1, 1 } };
-                                                            if (t.waittime < offsets.GetLength(0))
-                                                            {
-                                                                xOff = offsets[t.waittime, 0] * (isLeft ? -1 : 1);
-                                                                yOff = offsets[t.waittime, 1] * (isLeft ? -1 : 1) * (!isClockwise ? -1 : 1);
-                                                            }
-                                                            t.flag = t.waittime++ < 9 && centerTornado.flag;
-                                                            return new Point(this.crossDiveCenterX + xOff, 1 + yOff);
-                                                        };
-                                                    };
-                                                    var leftTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 5, 0, false, targetingFuncCreator(!this.crossDiveDirectionBottomUp, true));
+                                                    
+                                                    var leftTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 5, 0, false, this.CreateTornadoOrbitTargetingFunc(!this.crossDiveDirectionBottomUp, true, new Point(this.crossDiveCenterX, 1), t => t.waittime++ < 9 && centerTornado.flag));
                                                     leftTornado.InitAfter();
                                                     
-                                                    var rightTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 5, 0, false, targetingFuncCreator(!this.crossDiveDirectionBottomUp, false));
+                                                    var rightTornado = new BouzuTornado(this.sound, this.parent, this.crossDiveCenterX, 1, this.union, this.power, this.element, -1, 5, 0, false, this.CreateTornadoOrbitTargetingFunc(!this.crossDiveDirectionBottomUp, false, new Point(this.crossDiveCenterX, 1), t => t.waittime++ < 9 && centerTornado.flag));
                                                     rightTornado.InitAfter();
 
                                                     this.parent.attacks.Add(centerTornado);
@@ -787,8 +781,7 @@ namespace NSEnemy
                                         case 24:
                                             this.animationpoint = new Point(2, 4);
                                             this.counterTiming = false;
-
-                                            // TODO: add parameter for isPowered/reposition large drop (short period of remnant small ice?)
+                                            
                                             this.parent.attacks.Add(new IceCrashSpawner(
                                                 this.sound,
                                                 this.parent,
@@ -1025,6 +1018,27 @@ namespace NSEnemy
                                                         this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
                                                     }
                                                 }
+
+                                                if (isPoweredUp)
+                                                {
+                                                    const int tornadoInterval = 2;
+                                                    if (this.spinPowerupTornadoCounter % tornadoInterval == 0)
+                                                    {
+                                                        var tornadoLifetime = this.Random.Next(12, 15);
+                                                        var tornadoTargeting = this.CreateTornadoOrbitTargetingFunc(false, this.spinPowerupTornadoCounter % (tornadoInterval * 2) == 0, this.position, t => t.waittime++ < tornadoLifetime);
+                                                        var tornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, tornadoTargeting);
+                                                        tornado.InitAfter();
+                                                        this.parent.attacks.Add(tornado);
+
+                                                        var currentPosition = this.position;
+                                                        Func<BouzuTornado, Point> centerTornadoTargeting = t => { t.flag = t.waittime++ < tornadoLifetime; return currentPosition; };
+                                                        var centerTornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, centerTornadoTargeting);
+                                                        centerTornado.InitAfter();
+                                                        this.parent.attacks.Add(centerTornado);
+                                                    }
+
+                                                    this.spinPowerupTornadoCounter++;
+                                                }
                                             }
                                         }
                                     }
@@ -1077,16 +1091,38 @@ namespace NSEnemy
                                                         this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
                                                     }
                                                 }
-                                            }
-                                        }
 
-                                        if (this.isPoweredUp)
-                                        {
-                                            // TODO: spawn rotating tornadoes, 'pop' 1 by 1 after finish to do row attack? (until then still rotating)
+                                                if (isPoweredUp)
+                                                {
+                                                    const int tornadoInterval = 8;
+                                                    if (this.spinPowerupTornadoCounter % tornadoInterval == 0)
+                                                    {
+                                                        var tornadoLifetime = this.Random.Next(9, 12);
+                                                        var tornadoOrbitTargeting = this.CreateTornadoOrbitTargetingFunc(false, this.spinPowerupTornadoCounter % (tornadoInterval * 2) == 0, this.position, t => t.waittime++ < tornadoLifetime);
+                                                        var tornadoTargeting = this.CreateTornadoMoverFunc(tornadoOrbitTargeting, () => tornadoLifetime += 5);
+                                                        var tornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, tornadoTargeting);
+                                                        tornado.InitAfter();
+                                                        this.parent.attacks.Add(tornado);
+
+                                                        var currentPosition = this.position;
+                                                        var centerTornadoLifetime = tornadoLifetime;
+                                                        Func<BouzuTornado, Point> centerTornadoTargeting = t => { t.flag = t.waittime++ < centerTornadoLifetime; return currentPosition; };
+                                                        var centerTornadoMoverTargeting = this.CreateTornadoMoverFunc(centerTornadoTargeting, () => centerTornadoLifetime += 5);
+                                                        var centerTornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, centerTornadoMoverTargeting);
+                                                        centerTornado.InitAfter();
+                                                        this.parent.attacks.Add(centerTornado);
+                                                    }
+
+                                                    this.spinPowerupTornadoCounter++;
+                                                }
+                                            }
                                         }
                                     }
                                     else
                                     {
+                                        this.spinPowerupTornadoCounter = 0;
+                                        this.spinPowerupTornadoMoverEvaluationNumber = 0;
+                                        this.isPoweredUp = false;
                                         this.guard = GUARD.none;
                                         this.AttackMotion = AttackState.Cooldown;
                                         this.AttackCooldownSet();
@@ -1138,7 +1174,7 @@ namespace NSEnemy
                                             break;
                                     }
                                     break;
-                                // TODO: gif, shudder+row w/ following spikes, swoops + feathers, impact w/ spike crater in + then X?
+                                // TODO: concept gif, shudder+row w/ following spikes, swoops + feathers, impact w/ spike crater in + then X?
                                 case AttackType.SuperDive:
                                     switch (this.attackWaitTime)
                                     {
@@ -1256,6 +1292,74 @@ namespace NSEnemy
                 invincibility = false
             };
             this.parent.attacks.Add(enemyHit);
+        }
+
+        private Func<BouzuTornado, Point> CreateTornadoOrbitTargetingFunc(bool isClockwise, bool isLeft, Point center, Func<BouzuTornado, bool> flagFunc)
+        {
+            return t =>
+            {
+                int xOff = 0, yOff = 0;
+                var offsets = new[,] { { -1, 0 }, { -1, -1 }, { 0, -1 }, { 1, -1 }, { 1, 0 }, { 1, 1 }, { 0, 1 }, { -1, 1 } };
+                if (t.waittime != 0)
+                {
+                    var offsetIndex = (t.waittime - 1) % offsets.GetLength(0);
+                    xOff = offsets[offsetIndex, 0] * (isLeft ? -1 : 1);
+                    yOff = offsets[offsetIndex, 1] * (isLeft ? -1 : 1) * (!isClockwise ? -1 : 1);
+                }
+                t.flag = flagFunc(t);
+                return new Point(center.X + xOff, center.Y + yOff);
+            };
+        }
+
+        private Func<BouzuTornado, Point> CreateTornadoMoverFunc(Func<BouzuTornado, Point> originalTargeting, Action lifetimeExtension)
+        {
+            var spinComplete = false;
+            var isMover = false;
+            var moverEvaluationCount = 0;
+
+            return t =>
+            {
+                if (!isMover)
+                {
+                    if (!spinComplete && !this.isPoweredUp)
+                    {
+                        spinComplete = true;
+                        lifetimeExtension.Invoke();
+                    }
+
+                    if (spinComplete)
+                    {
+                        if (moverEvaluationCount == this.spinPowerupTornadoMoverEvaluationNumber)
+                        {
+                            const int tornadoMoverDelayCount = 3;
+                            
+                            if (t.position.Y == this.RandomTarget().Y)
+                            {
+                                isMover = true;
+                                t.waittime = 0;
+                                this.spinPowerupTornadoMoverEvaluationNumber += tornadoMoverDelayCount;
+                            }
+                        }
+
+                        moverEvaluationCount++;
+                    }
+                }
+
+                if (isMover)
+                {
+                    var endPositionX = t.union == Panel.COLOR.blue ? 0 : 5;
+                    if (t.position.X == endPositionX)
+                    {
+                        t.waittime++;
+                    }
+
+                    t.flag = t.waittime < 2;
+
+                    return new Point(endPositionX, t.position.Y);
+                }
+
+                return originalTargeting.Invoke(t);
+            };
         }
 
         public class DragEnemyHit : EnemyHit
