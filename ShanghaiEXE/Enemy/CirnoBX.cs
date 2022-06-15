@@ -45,6 +45,7 @@ namespace NSEnemy
         private int diveFeatherDelay;
         private int diveFeatherCount;
         private int diveFeatherSets;
+        private bool diveAborted;
         private int powerDiveSmallIceCount;
         private int powerDiveIcicleHitTime;
         private int powerDiveSmallIceLifetime;
@@ -87,6 +88,28 @@ namespace NSEnemy
         private int spinPowerupTornadoCounter;
         private int spinPowerupTornadoMoverEvaluationNumber;
 
+        private int superDiveHorizontalDiveSpeed;
+        private int superDiveHorizontalDiveMaxTime;
+        private int superDiveSwoopCount;
+        private int superDiveSwoopMaxTime;
+        private int superDiveIceTrailRockDelay;
+        private int superDiveIceTrailRockLife;
+        private int superDiveIceTrailRockHp;
+        private int superDiveIceTrailSpikeDelay;
+        private int superDiveSwoopSpeed;
+        private double superDiveSwoopIncomingAngleSpeed;
+        private double superDiveSwoopOutgoingAngleSpeed;
+        private int superDiveSwoopIncomingFrames;
+        private int superDiveSwoopOutgoingFrames;
+        private int superDiveSwoopFeatherHitTime;
+        private int superDiveSwoopFeatherDelay;
+        private int superDiveSwoopFeatherSets;
+        private int superDiveSwoopFeatherCount;
+        private int superDiveImpactMaxTime;
+        private Point superDiveTargetPosition;
+        private bool superDiveImpactAborted;
+        private bool[] superDiveRowHolesHit;
+
         private bool isPoweredUp;
 
         private Dictionary<AttackType, int> standardAttackWeights;
@@ -101,6 +124,7 @@ namespace NSEnemy
         private Vector2 detachedShadowOffset;
 
         private Point? underAnimationPoint;
+        private Vector2 underAnimationOffset;
 
         public CirnoBX(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
             : base(s, p, pX, pY, n, u, v)
@@ -214,6 +238,7 @@ namespace NSEnemy
                     }
                     break;
                 case MOTION.knockback:
+                    this.ShakeEnd();
                     this.counterTiming = false;
                     this.nohit = false;
                     this.effecting = false;
@@ -221,6 +246,9 @@ namespace NSEnemy
                     this.rend = true;
                     this.overMove = false;
                     this.detachedShadow = false;
+                    this.detachedShadowOffset = Vector2.Zero;
+                    this.underAnimationPoint = null;
+                    this.underAnimationOffset = Vector2.Zero;
                     this.superArmor = false;
                     this.guard = GUARD.none;
                     this.isPoweredUp = false;
@@ -412,47 +440,54 @@ namespace NSEnemy
                                             var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
                                             this.position = this.diveTargetPosition.WithOffset(this.UnionRebirth(this.UnionEnemy), 0);
 
-                                            this.detachedShadowOffset = new Vector2(0, -32);
-
-                                            this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
-                                            this.effecting = false;
-
-                                            var slamAttack = new BombAttack(this.sound, this.parent, this.diveTargetPosition.X, this.diveTargetPosition.Y, this.union, this.Power, 1, this.element)
+                                            if (this.parent.panel[this.position.X, this.position.Y].Hole)
                                             {
-                                                invincibility = false
-                                            };
-                                            slamAttack.BadStatusSet(BADSTATUS.paralyze, 45);
-                                            slamAttack.BadStatusSet(BADSTATUS.stop, 45);
-                                            this.parent.attacks.Add(slamAttack);
-
-                                            this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.diveTargetPosition));
-
-                                            if (this.isPoweredUp)
+                                                this.diveAborted = true;
+                                            }
+                                            else
                                             {
-                                                var targets = this.RandomMultiPanel(this.powerDiveSmallIceCount, this.UnionEnemy);
+                                                this.detachedShadowOffset = new Vector2(0, -32);
 
-                                                var smallIceIcicleSpawner = new AttackSpawner(
-                                                    this.sound,
-                                                    this.parent,
-                                                    this.union,
-                                                    f => f >= this.powerDiveSmallIceCount * this.powerDiveSmallIceSpawnDelay,
-                                                    f =>
-                                                    {
-                                                        if (f % this.powerDiveSmallIceSpawnDelay == 0)
+                                                this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
+                                                this.effecting = false;
+
+                                                var slamAttack = new BombAttack(this.sound, this.parent, this.diveTargetPosition.X, this.diveTargetPosition.Y, this.union, this.Power, 1, this.element)
+                                                {
+                                                    invincibility = false
+                                                };
+                                                slamAttack.BadStatusSet(BADSTATUS.paralyze, 45);
+                                                slamAttack.BadStatusSet(BADSTATUS.stop, 45);
+                                                this.parent.attacks.Add(slamAttack);
+
+                                                this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.diveTargetPosition));
+
+                                                if (this.isPoweredUp)
+                                                {
+                                                    var targets = this.RandomMultiPanel(this.powerDiveSmallIceCount, this.UnionEnemy);
+
+                                                    var smallIceIcicleSpawner = new AttackSpawner(
+                                                        this.sound,
+                                                        this.parent,
+                                                        this.union,
+                                                        f => f >= this.powerDiveSmallIceCount * this.powerDiveSmallIceSpawnDelay,
+                                                        f =>
                                                         {
-                                                            var target = targets[f / this.powerDiveSmallIceSpawnDelay];
-                                                            var icicle = new IceSpikeBX(this.sound, this.parent, target.X, target.Y, this.union, this.power, this.powerDiveIcicleHitTime, this.element, true, this.powerDiveSmallIceLifetime, this.powerDiveSmallIceHp);
-                                                            this.parent.attacks.Add(icicle);
-                                                        }
-                                                    });
+                                                            if (f % this.powerDiveSmallIceSpawnDelay == 0)
+                                                            {
+                                                                var target = targets[f / this.powerDiveSmallIceSpawnDelay];
+                                                                var icicle = new IceSpikeBX(this.sound, this.parent, target.X, target.Y, this.union, this.power, this.powerDiveIcicleHitTime, this.element, true, this.powerDiveSmallIceLifetime, this.powerDiveSmallIceHp);
+                                                                this.parent.attacks.Add(icicle);
+                                                            }
+                                                        });
 
-                                                this.parent.attacks.Add(smallIceIcicleSpawner);
+                                                    this.parent.attacks.Add(smallIceIcicleSpawner);
 
-                                                this.parent.ShakeStart(8, 8);
-                                                this.isPoweredUp = false;
+                                                    this.parent.ShakeStart(8, 8);
+                                                    this.isPoweredUp = false;
+                                                }
                                             }
                                         }
-                                        else if (this.attackWaitTime >= 38 + diveToTargetFrames + this.diveRestFrames)
+                                        else if (this.attackWaitTime >= 38 + diveToTargetFrames + this.diveRestFrames || this.diveAborted)
                                         {
                                             this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
 
@@ -461,6 +496,7 @@ namespace NSEnemy
                                             this.detachedShadow = false;
                                             this.effecting = false;
                                             this.HitFlagReset();
+                                            this.diveAborted = false;
 
                                             this.PositionDirectSet();
                                             this.AttackMotion = AttackState.Cooldown;
@@ -1174,23 +1210,407 @@ namespace NSEnemy
                                             break;
                                     }
                                     break;
-                                // TODO: concept gif, shudder+row w/ following spikes, swoops + feathers, impact w/ spike crater in + then X?
                                 case AttackType.SuperDive:
                                     switch (this.attackWaitTime)
                                     {
                                         case 1:
-                                            this.animationpoint = new Point(4, 3);
+                                            // idle shuttered
+                                            this.animationpoint = new Point(2, 0);
                                             break;
-                                        case 30:
-                                            this.isPoweredUp = false;
+                                        case 5:
+                                            // takeoff shuttered
+                                            this.animationpoint = new Point(0, 3);
+                                            break;
+                                        case 9:
+                                            // takeoff
+                                            this.animationpoint = new Point(1, 3);
+                                            this.counterTiming = true;
+                                            break;
+                                        case 14:
+                                            // leg motion
+                                            this.animationpoint = new Point(2, 3);
+                                            break;
+                                        case 18:
+                                            this.counterTiming = false;
+                                            // leg out, detach shadow for bobbing
+                                            this.animationpoint = new Point(3, 3);
+                                            this.detachedShadow = true;
+                                            this.detachedShadowOffset = new Vector2(0, 0);
+
+                                            this.superArmor = true;
+                                            break;
+                                        case 24:
+                                            this.ShakeSingleStart(1, 36);
+                                            break;
+                                        case 48:
                                             break;
                                         case 60:
-                                            this.AttackMotion = AttackState.Cooldown;
-                                            this.AttackCooldownSet();
+                                            this.positionReserved = this.position;
+                                            this.superDiveRowHolesHit = new[] { false, false, false };
+                                            // further logic timing-dependent, in if statement
                                             break;
+                                    }
+
+                                    if (this.attackWaitTime < 60)
+                                    {
+                                        // handled by switch case
+                                    }
+                                    else if (this.attackWaitTime == 60)
+                                    {
+                                    }
+                                    else if (attackWaitTime < 60 + this.superDiveHorizontalDiveMaxTime)
+                                    {
+                                        var offset = this.superDiveHorizontalDiveSpeed * this.UnionRebirth(this.union);
+                                        this.positionDirect.X += offset;
+
+                                        if (attackWaitTime % 5 == 0)
+                                        {
+                                            this.parent.effects.Add(new StepShadowYuyu(
+                                                this.sound,
+                                                this.parent,
+                                                new Rectangle(FrameCoordX(9), FrameCoordY(3), FullFrameRect.Width, FullFrameRect.Height),
+                                                this.SpritePositionDirect - new Vector2(offset, 0),
+                                                this.picturename,
+                                                this.rebirth,
+                                                this.position,
+                                                255, 255, 255));
+                                        }
+
+                                        var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
+
+                                        var panelPosition = new Vector2((this.positionDirect.X - panelEdgeAdjustment) / 40, this.positionDirect.Y / 24);
+                                        var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
+                                        var newPosition = new Point((int)roundingFunc(panelPosition.X), (int)Math.Round(panelPosition.Y));
+                                        var positionChanged = newPosition != this.position;
+                                        this.position = newPosition;
+
+                                        if (this.InArea)
+                                        {
+                                            this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
+                                            this.HitFlagReset();
+                                            this.effecting = true;
+
+                                            if (positionChanged)
+                                            {
+                                                var currentPosition = this.position;
+                                                var iceTrailSpawner = new AttackSpawner(
+                                                    this.sound,
+                                                    this.parent,
+                                                    this.union,
+                                                    f => f > this.superDiveIceTrailRockDelay + this.superDiveIceTrailSpikeDelay,
+                                                    f =>
+                                                    {
+                                                        if (f == this.superDiveIceTrailRockDelay)
+                                                        {
+                                                            foreach (var y in new[] { currentPosition.Y - 1, currentPosition.Y + 1 })
+                                                            {
+                                                                if (y < 0 || y >= 3)
+                                                                {
+                                                                    continue;
+                                                                }
+
+                                                                if (this.superDiveRowHolesHit[y] || this.parent.panel[currentPosition.X, y].Hole)
+                                                                {
+                                                                    this.superDiveRowHolesHit[y] = true;
+                                                                    continue;
+                                                                }
+
+                                                                var direction = currentPosition.Y - y > 0 ? DIRECTION.down : DIRECTION.up;
+
+                                                                var rockCenterPush = new DragEnemyHit(this.sound, this.parent, currentPosition.X, y, this.union, this.Power, this.element, this, direction)
+                                                                {
+                                                                    breaking = true,
+                                                                    invincibility = false
+                                                                };
+                                                                this.parent.attacks.Add(rockCenterPush);
+                                                                this.parent.objects.Add(new IceRocks(this.sound, this.parent, currentPosition.X, y, this.union, this.superDiveIceTrailRockLife, this.superDiveIceTrailRockHp));
+                                                            }
+                                                        }
+                                                        else if (f == this.superDiveIceTrailRockDelay + this.superDiveIceTrailSpikeDelay)
+                                                        {
+                                                            for (var y = 0; y < 3; y++)
+                                                            {
+                                                                if (y == currentPosition.Y + 1 || y == currentPosition.Y - 1)
+                                                                {
+                                                                    continue;
+                                                                }
+
+                                                                if (this.superDiveRowHolesHit[y] || this.parent.panel[currentPosition.X, y].Hole)
+                                                                {
+                                                                    this.superDiveRowHolesHit[y] = true;
+                                                                    continue;
+                                                                }
+
+                                                                this.parent.attacks.Add(new Tower(this.sound, this.parent, currentPosition.X, y, this.union, this.Power, -1, this.Element));
+                                                            }
+                                                        }
+                                                    });
+
+                                                this.parent.attacks.Add(iceTrailSpawner);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            this.position = this.positionReserved.Value;
+                                        }
+                                    }
+                                    else if (this.attackWaitTime < 60 + this.superDiveHorizontalDiveMaxTime + (this.superDiveSwoopCount * this.superDiveSwoopMaxTime))
+                                    {
+                                        var swoopFrame = (attackWaitTime - (60 + this.superDiveHorizontalDiveMaxTime)) % this.superDiveSwoopMaxTime;
+                                        if (swoopFrame == 0)
+                                        {
+                                            this.nohit = true;
+
+                                            var diveTarget = this.RandomTarget();
+                                            // diveTarget.X += this.UnionRebirth(this.UnionEnemy);
+                                            this.position = diveTarget;
+
+                                            this.detachedShadow = false;
+                                            this.detachedShadowOffset = new Vector2(0, -12);
+                                            
+                                            this.positionDirect = new Vector2(diveTarget.X * 40 + 6, diveTarget.Y * 24 + 12);
+                                            for (var i = 1; i <= this.superDiveSwoopIncomingFrames; i++)
+                                            {
+                                                var angle = i * this.superDiveSwoopIncomingAngleSpeed;
+                                                angle = Math.Min(Math.PI / 2, angle);
+                                                this.positionDirect.X += this.superDiveSwoopSpeed * (float)Math.Cos(angle) * this.UnionRebirth(this.UnionEnemy);
+                                                var yOffset = this.superDiveSwoopSpeed * (float)Math.Sin(angle);
+                                                this.positionDirect.Y -= yOffset;
+                                                this.detachedShadowOffset.Y += yOffset;
+                                            }
+
+                                           this.parent.attacks.Add(new DiveFeatherSpawner(this.sound, this.parent, this.union, this.power / 4, this.superDiveSwoopFeatherHitTime, this.superDiveSwoopFeatherDelay, this.superDiveSwoopFeatherSets, this.superDiveSwoopFeatherCount, this.element));
+                                        }
+                                        else if (swoopFrame < this.superDiveSwoopIncomingFrames)
+                                        {
+                                            this.detachedShadow = this.detachedShadowOffset.Y < 16;
+
+                                            var angle = (this.superDiveSwoopIncomingFrames - swoopFrame) * this.superDiveSwoopIncomingAngleSpeed;
+                                            angle = Math.Min(Math.PI / 2, angle);
+                                            this.positionDirect.X -= this.superDiveSwoopSpeed * (float)Math.Cos(angle) * this.UnionRebirth(this.UnionEnemy);
+                                            var yOffset = this.superDiveSwoopSpeed * (float)Math.Sin(angle);
+                                            this.positionDirect.Y += yOffset;
+                                            this.detachedShadowOffset.Y -= yOffset;
+                                        }
+                                        else if (swoopFrame < this.superDiveSwoopIncomingFrames + this.superDiveSwoopOutgoingFrames)
+                                        {
+                                            this.detachedShadow = this.detachedShadowOffset.Y < 16;
+
+                                            var angle = (swoopFrame - this.superDiveSwoopIncomingFrames) * this.superDiveSwoopOutgoingAngleSpeed;
+                                            angle = Math.Min(Math.PI / 2, angle);
+                                            this.positionDirect.X -= this.superDiveSwoopSpeed * (float)Math.Cos(angle) * this.UnionRebirth(this.UnionEnemy);
+                                            var yOffset = this.superDiveSwoopSpeed * (float)Math.Sin(angle);
+                                            this.positionDirect.Y -= yOffset;
+                                            this.detachedShadowOffset.Y += yOffset;
+                                        }
+
+                                        if (attackWaitTime % 5 == 0)
+                                        {
+                                            this.parent.effects.Add(new StepShadowYuyu(
+                                                this.sound,
+                                                this.parent,
+                                                new Rectangle(FrameCoordX(9), FrameCoordY(3), FullFrameRect.Width, FullFrameRect.Height),
+                                                this.SpritePositionDirect,
+                                                this.picturename,
+                                                this.rebirth,
+                                                this.position,
+                                                255, 255, 255));
+                                        }
+
+                                        var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
+                                        var panelPosition = new Vector2((this.positionDirect.X - panelEdgeAdjustment) / 40, this.positionDirect.Y / 24);
+                                        var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
+                                        var newPosition = new Point((int)roundingFunc(panelPosition.X), (int)Math.Round(panelPosition.Y));
+                                        if ((this.position.Y * 24) - this.positionDirect.Y < 24)
+                                        {
+                                            this.position = new Point(newPosition.X, this.position.Y);
+                                            this.nohit = false;
+                                            this.effecting = true;
+                                            this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
+                                            this.HitFlagReset();
+                                        }
+                                        else
+                                        {
+                                            this.effecting = false;
+                                            this.nohit = true;
+                                            this.position = new Point(this.positionReserved.Value.X, this.position.Y);
+                                        }
+                                    }
+                                    else if (this.attackWaitTime < 60 + this.superDiveHorizontalDiveMaxTime + (this.superDiveSwoopCount * this.superDiveSwoopMaxTime) + this.superDiveImpactMaxTime
+                                        && !this.superDiveImpactAborted)
+                                    {
+                                        var diveTime = this.attackWaitTime - (60 + this.superDiveHorizontalDiveMaxTime + (this.superDiveSwoopCount * this.superDiveSwoopMaxTime));
+                                        // TODO: better acceleration function?
+                                        var diveTimeFunc = new Func<float, float>(time => 12 * time / this.superDiveImpactMaxTime);
+                                        var t = Math.Min(1f, diveTimeFunc(diveTime));
+                                        var diveImpactTime = Enumerable.Range(0, this.superDiveImpactMaxTime).First(time => diveTimeFunc(time) > 1);
+
+                                        var startingPosition = new Point(this.union == Panel.COLOR.blue ? 4 : 1, 1);
+                                        var startingPositionDirect = new Vector2(280, -20);
+
+
+                                        if (diveTime == 0)
+                                        {
+                                            this.superDiveTargetPosition = new Point(this.union == Panel.COLOR.blue ? 1 : 4, 1);
+
+                                            var allPanels = Enumerable.Range(0, this.parent.panel.GetLength(0)).SelectMany(x => Enumerable.Range(0, this.parent.panel.GetLength(1)).Select(y => new Point(x, y)));
+                                            var allEnemyPanels = allPanels.Where(p => this.parent.panel[p.X, p.Y].color != this.union);
+
+                                            var columnHitPanels = new[] { -1, 0, 1 }.Select(yOff => this.superDiveTargetPosition.WithOffset(0, yOff));
+                                            if (!allEnemyPanels.Except(columnHitPanels).Any())
+                                            {
+                                                this.superDiveTargetPosition.Offset(this.union == Panel.COLOR.blue ? 1 : -1, 0);
+                                            }
+                                        }
+
+                                        var panelEdgeAdjustment = (32.0f * this.UnionRebirth(this.UnionEnemy));
+                                        var endPositionDirect = new Vector2(this.superDiveTargetPosition.X * 40 + panelEdgeAdjustment, this.superDiveTargetPosition.Y * 24 + 32);
+
+                                        this.positionDirect = startingPositionDirect + Vector2.Multiply(endPositionDirect - startingPositionDirect, t);
+                                        
+                                        var panelPosition = new Vector2((this.positionDirect.X - panelEdgeAdjustment) / 40, this.positionDirect.Y / 24);
+                                        var roundingFunc = this.union == Panel.COLOR.red ? (Func<double, double>)Math.Floor : Math.Ceiling;
+                                        var newPosition = new Point((int)roundingFunc(panelPosition.X), (int)Math.Round(panelPosition.Y));
+                                        this.position = newPosition;
+
+                                        var impactTime = diveTime - diveImpactTime;
+
+                                        if (impactTime < 0 && (this.superDiveTargetPosition.Y * 24 + 32) - this.positionDirect.Y < 16)
+                                        {
+                                            this.nohit = false;
+
+                                            var dragPower = this.Power / 4;
+                                            var dir = this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right;
+
+                                            var dragPathX = Enumerable.Range(Math.Min(newPosition.X, this.superDiveTargetPosition.X), Math.Abs(newPosition.X - this.superDiveTargetPosition.X));
+                                            foreach (var pathX in dragPathX)
+                                            {
+                                                var enemyHit = new DragEnemyHit(this.sound, this.parent, pathX, this.superDiveTargetPosition.Y, this.union, dragPower, this.element, this, dir)
+                                                {
+                                                    breaking = true,
+                                                    invincibility = false
+                                                };
+                                                this.parent.attacks.Add(enemyHit);
+                                            }
+
+                                            this.HitFlagReset();
+                                        }
+                                        else if (impactTime > 0)
+                                        {
+                                            EnemyHit enemyHit = new EnemyHit(this.sound, this.parent, this.position.X - this.UnionRebirth(this.union), this.position.Y, this.union, this.Power / 4, this.element, this)
+                                            {
+                                                breaking = false
+                                            };
+                                            this.parent.attacks.Add(enemyHit);
+                                            this.HitFlagReset();
+                                        }
+
+                                        switch (impactTime)
+                                        {
+                                            case 0:
+                                                {
+                                                    if (this.parent.panel[this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y].Hole)
+                                                    {
+                                                        this.superDiveImpactAborted = true;
+                                                        break;
+                                                    }
+
+                                                    var slamAttack = new BombAttack(this.sound, this.parent, this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y, this.union, this.Power, 1, this.element)
+                                                    {
+                                                        invincibility = false
+                                                    };
+                                                    slamAttack.BadStatusSet(BADSTATUS.paralyze, 45);
+                                                    slamAttack.BadStatusSet(BADSTATUS.stop, 45);
+                                                    this.parent.attacks.Add(slamAttack);
+
+                                                    this.parent.effects.Add(new DiveBomber(this.sound, this.parent, this.superDiveTargetPosition));
+
+                                                    this.parent.panel[this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y].Crack();
+                                                    if (this.parent.panel[this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y].State == Panel.PANEL._break)
+                                                    {
+                                                        this.parent.panel[this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y].State = Panel.PANEL._crack;
+                                                    }
+
+                                                    this.ShakeStart(12, 8);
+
+                                                    this.isPoweredUp = false;
+                                                    break;
+                                                }
+                                            case 15:
+                                                {
+                                                    var offsets = new[,] { { -1, 0 }, { 1, 0 }, { 0, -1 }, { 0, 1 } };
+
+                                                    for (var i = 0; i < offsets.GetLength(0); i++)
+                                                    {
+                                                        var offsetPosition = this.superDiveTargetPosition.WithOffset(offsets[i, 0], offsets[i, 1]);
+                                                        if (this.InAreaCheck(offsetPosition) && !this.parent.panel[offsetPosition.X, offsetPosition.Y].Hole)
+                                                        {
+                                                            var slamAttack = new BombAttack(this.sound, this.parent, offsetPosition.X, offsetPosition.Y, this.union, this.Power, 1, this.element)
+                                                            {
+                                                                invincibility = true
+                                                            };
+                                                            this.parent.attacks.Add(slamAttack);
+
+                                                            this.parent.effects.Add(new DiveBomber(this.sound, this.parent, offsetPosition));
+                                                            this.ShakeStart(3, 5);
+                                                        }
+                                                    }
+                                                    
+                                                    break;
+                                                }
+                                            case 30:
+                                                {
+                                                    var offsets = new[,] { { -1, -1 }, { -1, 1 }, { 1, -1 }, { 1, 1 } };
+
+                                                    for (var i = 0; i < offsets.GetLength(0); i++)
+                                                    {
+                                                        var offsetPosition = this.superDiveTargetPosition.WithOffset(offsets[i, 0], offsets[i, 1]);
+                                                        if (this.InAreaCheck(offsetPosition) && !this.parent.panel[offsetPosition.X, offsetPosition.Y].Hole)
+                                                        {
+                                                            var slamAttack = new BombAttack(this.sound, this.parent, offsetPosition.X, offsetPosition.Y, this.union, this.Power, 1, this.element)
+                                                            {
+                                                                invincibility = true
+                                                            };
+                                                            this.parent.attacks.Add(slamAttack);
+
+                                                            this.parent.effects.Add(new DiveBomber(this.sound, this.parent, offsetPosition));
+                                                            this.ShakeStart(2);
+                                                        }
+                                                    }
+
+                                                    break;
+                                                }
+                                        }
+                                    }
+                                    else
+                                    {
+                                        this.ShakeEnd();
+                                        this.AttackMotion = AttackState.Cooldown;
+                                        this.AttackCooldownSet();
+
+                                        this.detachedShadow = false;
+                                        this.detachedShadowOffset = Vector2.Zero;
+                                        this.underAnimationPoint = null;
+                                        this.underAnimationOffset = Vector2.Zero;
+                                        this.isPoweredUp = false;
+                                        this.nohit = false;
+                                        this.superArmor = false;
+                                        this.effecting = false;
+                                        this.superDiveImpactAborted = false;
+
+                                        this.parent.effects.Add(new MoveEnemy(this.sound, this.parent, this.position.X, this.position.Y));
+                                        if (this.parent.panel[this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y].State == Panel.PANEL._crack)
+                                        {
+                                            this.parent.panel[this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y].State = Panel.PANEL._break;
+                                        }
+
+                                        this.position = this.positionReserved.Value;
+                                        this.PositionDirectSet();
+                                        this.positionReserved = null;
                                     }
                                     break;
                                 // TODO: 'regular' random spacing, accelerating, ice spikes(from back)+blockers, tornados in columns. 1 blocker at 4th column, rest break by tornado hit
+                                // or: tracking spin, accelerating feather speed (laser effect), intermittent blocker shockwaves, vertical tornados
                                 case AttackType.SuperSpin:
                                     switch (this.attackWaitTime)
                                     {
@@ -1261,7 +1681,7 @@ namespace NSEnemy
             if (this.underAnimationPoint != null)
             {
                 var hitmarkedUnderAnimationPoint = this.whitetime == 0 ? this.underAnimationPoint.Value : this.underAnimationPoint.Value.WithOffset(6, 0);
-                dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedUnderAnimationPoint.X), FrameCoordY(hitmarkedUnderAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition, 1f, 0f, reversed, this.color);
+                dg.DrawImage(dg, this.picturename, new Rectangle(FrameCoordX(hitmarkedUnderAnimationPoint.X), FrameCoordY(hitmarkedUnderAnimationPoint.Y), FullFrameRect.Width, FullFrameRect.Height), false, spriteOffsetPosition + this.underAnimationOffset, 1f, 0f, reversed, this.color);
             }
 
             var whiteAnimationPoint = this.animationpoint.WithOffset(6, 0);
@@ -1473,6 +1893,25 @@ namespace NSEnemy
             this.spinFeatherInitialDelay = 45;
             this.spinFeatherMinimumDelay = 16;
             this.spinFeatherPerPanelTime = 8;
+
+            this.superDiveHorizontalDiveSpeed = 10;
+            this.superDiveHorizontalDiveMaxTime = 90;
+            this.superDiveSwoopCount = 3;
+            this.superDiveSwoopMaxTime = 90;
+            this.superDiveIceTrailRockDelay = 15;
+            this.superDiveIceTrailRockLife = 30;
+            this.superDiveIceTrailRockHp = 30;
+            this.superDiveIceTrailSpikeDelay = 45;
+            this.superDiveSwoopSpeed = 12;
+            this.superDiveSwoopIncomingAngleSpeed = 3 * 2 * Math.PI / 360;
+            this.superDiveSwoopOutgoingAngleSpeed = 7 * 2 * Math.PI / 360;
+            this.superDiveSwoopIncomingFrames = 45;
+            this.superDiveSwoopOutgoingFrames = 32;
+            this.superDiveSwoopFeatherHitTime = 20;
+            this.superDiveSwoopFeatherDelay = 40;
+            this.superDiveSwoopFeatherSets = 2;
+            this.superDiveSwoopFeatherCount = 2;
+            this.superDiveImpactMaxTime = 120;
 
             this.standardAttackWeights[AttackType.Dive] = 6;
             this.standardAttackWeights[AttackType.CrossDive] = 6;
