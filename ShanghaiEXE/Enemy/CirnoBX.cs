@@ -110,6 +110,12 @@ namespace NSEnemy
         private bool superDiveImpactAborted;
         private bool[] superDiveRowHolesHit;
 
+        private int superSpinSpinupTime;
+        private int superSpinDuration;
+        private DIRECTION superSpinDirection;
+        private List<SpinFeather> superSpinFeathers;
+        private double superSpinCurrentFeatherIntervalFactor;
+
         private bool isPoweredUp;
 
         private Dictionary<AttackType, int> standardAttackWeights;
@@ -134,6 +140,7 @@ namespace NSEnemy
                 this.dropchips[index] = new ChipFolder(this.sound);
 
             this.spinPattern = new List<int>();
+            this.superSpinFeathers = new List<SpinFeather>();
             this.standardAttackWeights = new Dictionary<AttackType, int>();
             this.poweredAttackWeights = new Dictionary<AttackType, int>();
 
@@ -900,268 +907,229 @@ namespace NSEnemy
                                             break;
                                     }
                                     break;
+                                // TODO: fix naming after swap of normal and super
                                 case AttackType.Spin:
-                                    const int spinPoseFrames = 6;
-                                    const int spinSwipeFrames = 4;
-                                    if (this.attackWaitTime < this.spinSpinupTime)
                                     {
-                                        // Move to center, animate and create pattern
-                                        if (this.attackWaitTime <= 10 + spinPoseFrames + spinSwipeFrames)
+                                        const int superSpinInitialTrackingMoveTime = 40;
+                                        const int superSpinFinalTrackingMoveTime = 10;
+
+                                        const int superSpinInitialFeatherPerPanelTime = 8;
+                                        const int superSpinFinalFeatherPerPanelTime = 4;
+                                        const int superSpinInitialFeatherDelay = 60;
+                                        const int superSpinFinalFeatherDelay = 15;
+
+                                        const double superSpinMinFeatherIntervalFactor = 1.8;
+                                        const double superSpinMaxFeatherIntervalFactor = 2.4;
+
+                                        const int spinPoseFrames = 6;
+                                        const int spinSwipeFrames = 4;
+                                        if (this.attackWaitTime < this.superSpinSpinupTime)
                                         {
-                                            switch (this.attackWaitTime)
+                                            // Move to center, animate and create pattern
+                                            if (this.attackWaitTime <= 10 + spinPoseFrames + spinSwipeFrames)
                                             {
-                                                case 0:
-                                                    {
-                                                        var initialPosition = this.position;
-                                                        var initialPositionDirect = this.SpritePositionDirect;
-
-                                                        var spinPosition = this.union == Panel.COLOR.blue ? new Point(4, 1) : new Point(1, 1);
-                                                        if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                switch (this.attackWaitTime)
+                                                {
+                                                    case 0:
                                                         {
-                                                            spinPosition = this.union == Panel.COLOR.blue ? new Point(5, 1) : new Point(0, 1);
-                                                        }
+                                                            var initialPosition = this.position;
+                                                            var initialPositionDirect = this.SpritePositionDirect;
 
-                                                        if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
-                                                        {
-                                                            this.MoveRandom(false, false);
-                                                            for (var i_retry = 0; i_retry < 6; i_retry++)
+                                                            var spinPosition = this.union == Panel.COLOR.blue ? new Point(4, 1) : new Point(1, 1);
+                                                            if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
                                                             {
-                                                                if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
-                                                                    && (this.union == Panel.COLOR.blue || this.positionre.X < 2)
-                                                                    && !this.parent.panel[this.positionre.X, this.positionre.Y].Hole)
-                                                                {
-                                                                    spinPosition = this.positionre;
-                                                                    break;
-                                                                }
+                                                                spinPosition = this.union == Panel.COLOR.blue ? new Point(5, 1) : new Point(0, 1);
+                                                            }
+
+                                                            if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                            {
                                                                 this.MoveRandom(false, false);
+                                                                for (var i_retry = 0; i_retry < 6; i_retry++)
+                                                                {
+                                                                    if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
+                                                                        && (this.union == Panel.COLOR.blue || this.positionre.X < 2)
+                                                                        && !this.parent.panel[this.positionre.X, this.positionre.Y].Hole)
+                                                                    {
+                                                                        spinPosition = this.positionre;
+                                                                        break;
+                                                                    }
+                                                                    this.MoveRandom(false, false);
+                                                                }
                                                             }
-                                                        }
-                                                        this.positionre = spinPosition;
+                                                            this.positionre = spinPosition;
 
-                                                        this.position = this.positionre;
-                                                        this.PositionDirectSet();
+                                                            this.position = this.positionre;
+                                                            this.positionReserved = this.position;
+                                                            this.PositionDirectSet();
 
-                                                        this.animationpoint = new Point(2, 0);
-                                                        if (initialPosition != this.position)
-                                                        {
-                                                            this.parent.effects.Add(new StepShadowYuyu(
-                                                                this.sound,
-                                                                this.parent,
-                                                                new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
-                                                                initialPositionDirect,
-                                                                this.picturename,
-                                                                this.rebirth,
-                                                                initialPosition,
-                                                                255, 255, 255));
+                                                            this.animationpoint = new Point(2, 0);
+                                                            if (initialPosition != this.position)
+                                                            {
+                                                                this.parent.effects.Add(new StepShadowYuyu(
+                                                                    this.sound,
+                                                                    this.parent,
+                                                                    new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                                                    initialPositionDirect,
+                                                                    this.picturename,
+                                                                    this.rebirth,
+                                                                    initialPosition,
+                                                                    255, 255, 255));
+                                                            }
+                                                            break;
                                                         }
+                                                    case 4:
+                                                        this.animationpoint = new Point(1, 0);
                                                         break;
-                                                    }
-                                                case 4:
-                                                    this.animationpoint = new Point(1, 0);
-                                                    break;
-                                                case 10:
-                                                    this.animationpoint = new Point(0, 5);
-                                                    this.counterTiming = true;
-                                                    break;
-                                                case 10 + spinPoseFrames:
-                                                    this.animationpoint = new Point(1, 5);
-                                                    break;
-                                                case 10 + spinSwipeFrames + spinPoseFrames:
-                                                    this.animationpoint = new Point(2, 5);
-                                                    this.counterTiming = false;
-                                                    this.guard = GUARD.guard;
+                                                    case 10:
+                                                        this.animationpoint = new Point(0, 5);
+                                                        this.counterTiming = true;
+                                                        break;
+                                                    case 10 + spinPoseFrames:
+                                                        this.animationpoint = new Point(1, 5);
+                                                        break;
+                                                    case 10 + spinSwipeFrames + spinPoseFrames:
+                                                        this.animationpoint = new Point(2, 5);
+                                                        this.counterTiming = false;
+                                                        this.guard = GUARD.guard;
+                                                        this.superSpinDirection = DIRECTION.up;
+                                                        this.superSpinFeathers.Clear();
 
-                                                    this.spinPattern.Clear();
-                                                    var initialRow = this.Random.Next(3);
-                                                    this.spinPattern.Add(initialRow);
-                                                    var potentialMovements = new List<int>();
-
-                                                    for (var i = 0; i < this.spinPatternLength - 1; i++)
-                                                    {
-                                                        var currentRow = this.spinPattern.Last();
-                                                        var distanceFromCycleStart = currentRow - initialRow;
-
-                                                        var remainingRows = this.spinPatternLength - 1 - i;
-                                                        if (Math.Abs(distanceFromCycleStart) >= remainingRows)
-                                                        {
-                                                            this.spinPattern.Add(currentRow + (distanceFromCycleStart > 0 ? -1 : 1));
-                                                        }
-                                                        else
-                                                        {
-                                                            potentialMovements.Clear();
-                                                            potentialMovements.AddRange(Enumerable.Repeat(0, this.spinFeatherPatternStayWeight));
-                                                            if (currentRow != 0)
-                                                            {
-                                                                potentialMovements.AddRange(Enumerable.Repeat(-1, this.spinFeatherPatternMoveWeight));
-                                                            }
-                                                            if (currentRow != 2)
-                                                            {
-                                                                potentialMovements.AddRange(Enumerable.Repeat(1, this.spinFeatherPatternMoveWeight));
-                                                            }
-
-                                                            this.spinPattern.Add(currentRow + potentialMovements[this.Random.Next(potentialMovements.Count)]);
-                                                        }
-                                                    }
-
-                                                    break;
+                                                        this.superSpinCurrentFeatherIntervalFactor = superSpinMinFeatherIntervalFactor + this.Random.NextDouble() * (superSpinMaxFeatherIntervalFactor - superSpinMinFeatherIntervalFactor);
+                                                        break;
+                                                }
                                             }
-                                        }
-                                        else
-                                        {
-                                            // Start with slow spin, accelerate
-                                            var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
-
-                                            const int minFrameDelay = 2;
-                                            const int initialFrameDelay = 6;
-                                            Func<int, int> calculateFrameDelay = t => (int)(Math.Round(initialFrameDelay - (initialFrameDelay - minFrameDelay) * ((double)t / this.spinSpinupTime)));
-
-                                            var animProgress = 0;
-                                            while (animProgress < spinStartTime)
+                                            else
                                             {
-                                                animProgress += calculateFrameDelay(animProgress);
-                                            }
+                                                // Start with slow spin, accelerate
+                                                var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
 
-                                            if (animProgress == spinStartTime)
+                                                const int minFrameDelay = 2;
+                                                const int initialFrameDelay = 6;
+                                                Func<int, int, int, int> interpolate = (initial, final, t) => (int)(Math.Round(initial - (initial - final) * ((double)t / this.superSpinSpinupTime)));
+                                                Func<int, int> calculateFrameDelay = t => interpolate(initialFrameDelay, minFrameDelay, t);
+
+                                                var animProgress = 0;
+                                                while (animProgress < spinStartTime)
+                                                {
+                                                    animProgress += calculateFrameDelay(animProgress);
+                                                }
+
+                                                if (animProgress == spinStartTime)
+                                                {
+                                                    var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
+                                                    this.animationpoint = new Point(spinFrame + 2, 5);
+                                                }
+
+                                                var roundingFunc = this.superSpinDirection == DIRECTION.up ? (Func<double, double>)Math.Ceiling : Math.Floor;
+                                                var settledRow = (int)Math.Max(0, Math.Min(2, roundingFunc(this.positionDirect.Y / 24.0)));
+
+                                                var acceleratingMoveSpeed = interpolate(superSpinInitialTrackingMoveTime, superSpinFinalTrackingMoveTime, spinStartTime);
+
+                                                var spriteOffset = 24.0f / acceleratingMoveSpeed * (this.superSpinDirection == DIRECTION.up ? -1 : 1);
+                                                var newPosition = new Point((int)Math.Round(this.positionDirect.X / 40), (int)Math.Round(this.positionDirect.Y / 24));
+                                                this.positionDirect.Y += spriteOffset;
+                                                this.position = newPosition;
+
+                                                foreach (var feather in this.superSpinFeathers)
+                                                {
+                                                    if (!feather.IsThrown)
+                                                    {
+                                                        feather.positionDirect.Y += spriteOffset;
+                                                        feather.position = newPosition;
+                                                    }
+                                                    feather.HasShadow = feather.IsThrown;
+                                                }
+
+                                                var nextRow = settledRow + (this.superSpinDirection == DIRECTION.up ? -1 : 1);
+                                                if (nextRow < 0 || nextRow >= 3
+                                                    || this.parent.panel[this.position.X, nextRow].Hole
+                                                    || (this.parent.OnPanelCheck(this.position.X, nextRow, false) && this.position.Y != nextRow))
+                                                {
+                                                    this.superSpinDirection = this.superSpinDirection == DIRECTION.up ? DIRECTION.down : DIRECTION.up;
+                                                }
+
+                                                var featherInterval = (int)Math.Round(superSpinInitialTrackingMoveTime * this.superSpinCurrentFeatherIntervalFactor);
+                                                if (spinStartTime % featherInterval == 0)
+                                                {
+                                                    var perPanelTime = interpolate(superSpinInitialFeatherPerPanelTime, superSpinFinalFeatherPerPanelTime, spinStartTime);
+                                                    var delayTime = interpolate(superSpinInitialFeatherDelay, superSpinFinalFeatherDelay, spinStartTime);
+                                                    var newFeather = new SpinFeather(this.sound, this.parent, this.union, this.Power, this.position.X, this.position.Y, delayTime, perPanelTime, this.element);
+
+                                                    var yOff = this.Random.Next(-18, 3);
+                                                    var xOffRange = Math.Max(4, Math.Abs(yOff));
+                                                    var xOff = this.Random.Next(-xOffRange, xOffRange);
+                                                    newFeather.positionDirect.X += xOff;
+                                                    newFeather.positionDirect.Y += yOff;
+
+                                                    this.parent.attacks.Add(newFeather);
+                                                    this.superSpinFeathers.Add(newFeather);
+                                                }
+                                            }
+                                            // TODO: super: tornados deflect feathers?
+                                        }
+                                        else if (attackWaitTime < this.superSpinSpinupTime + this.superSpinDuration)
+                                        {
+                                            // Full-speed
+                                            if (this.attackWaitTime % 2 == 0)
                                             {
                                                 var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
                                                 this.animationpoint = new Point(spinFrame + 2, 5);
                                             }
 
-                                            Func<int, int> calculateFeatherDelay = t => (int)(Math.Round(this.spinFeatherInitialDelay - (this.spinFeatherInitialDelay - this.spinFeatherMinimumDelay) * ((double)t / this.spinSpinupTime)));
+                                            var roundingFunc = this.superSpinDirection == DIRECTION.up ? (Func<double, double>)Math.Ceiling : Math.Floor;
+                                            var settledRow = (int)Math.Max(0, Math.Min(2, roundingFunc(this.positionDirect.Y / 24.0)));
 
-                                            var featherProgress = 0;
-                                            while (featherProgress < spinStartTime)
+                                            var spriteOffset = 24.0f / superSpinFinalTrackingMoveTime * (this.superSpinDirection == DIRECTION.up ? -1 : 1);
+                                            var newPosition = new Point((int)Math.Round(this.positionDirect.X / 40), (int)Math.Round(this.positionDirect.Y / 24));
+                                            this.positionDirect.Y += spriteOffset;
+                                            this.position = newPosition;
+
+                                            foreach (var feather in this.superSpinFeathers)
                                             {
-                                                featherProgress += calculateFeatherDelay(featherProgress);
+                                                if (!feather.IsThrown)
+                                                {
+                                                    feather.positionDirect.Y += spriteOffset;
+                                                    feather.position = newPosition;
+                                                }
+                                                feather.HasShadow = feather.IsThrown;
                                             }
 
-                                            // Spawn row attacks on similar acceleration (to establish pattern)
-                                            if (featherProgress == spinStartTime)
+                                            var nextRow = settledRow + (this.superSpinDirection == DIRECTION.up ? -1 : 1);
+                                            if (nextRow < 0 || nextRow >= 3
+                                                || this.parent.panel[this.position.X, nextRow].Hole
+                                                || (this.parent.OnPanelCheck(this.position.X, nextRow, false) && this.position.Y != nextRow))
                                             {
-                                                // Spawn row attacks at max speed in same pattern
-                                                var gap = this.spinPattern[0];
-                                                this.spinPattern.RemoveAt(0);
-                                                this.spinPattern.Add(gap);
+                                                this.superSpinDirection = this.superSpinDirection == DIRECTION.up ? DIRECTION.down : DIRECTION.up;
+                                            }
 
-                                                var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
-                                                var px = 3;
-                                                for (var i = 0; i < randomDelayOrder.Length; i++)
-                                                {
-                                                    var py = randomDelayOrder[i];
-                                                    if (py != gap)
-                                                    {
-                                                        var delayTime = 10 + 2 * i;
-                                                        this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
-                                                    }
-                                                }
+                                            var featherInterval = (int)Math.Round(superSpinFinalTrackingMoveTime * this.superSpinCurrentFeatherIntervalFactor);
+                                            if (this.attackWaitTime % featherInterval == 0)
+                                            {
+                                                var perPanelTime = superSpinFinalFeatherPerPanelTime;
+                                                var delayTime = superSpinFinalFeatherDelay;
+                                                var newFeather = new SpinFeather(this.sound, this.parent, this.union, this.Power, this.position.X, this.position.Y, delayTime, perPanelTime, this.element);
 
-                                                if (isPoweredUp)
-                                                {
-                                                    const int tornadoInterval = 2;
-                                                    if (this.spinPowerupTornadoCounter % tornadoInterval == 0)
-                                                    {
-                                                        var tornadoLifetime = this.Random.Next(12, 15);
-                                                        var tornadoTargeting = this.CreateTornadoOrbitTargetingFunc(false, this.spinPowerupTornadoCounter % (tornadoInterval * 2) == 0, this.position, t => t.waittime++ < tornadoLifetime);
-                                                        var tornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, tornadoTargeting);
-                                                        tornado.InitAfter();
-                                                        this.parent.attacks.Add(tornado);
+                                                var yOff = this.Random.Next(-18, 6);
+                                                var xOffRange = Math.Max(6, Math.Abs(yOff));
+                                                var xOff = this.Random.Next(-xOffRange, xOffRange);
+                                                newFeather.positionDirect.X += xOff;
+                                                newFeather.positionDirect.Y += yOff;
 
-                                                        var currentPosition = this.position;
-                                                        Func<BouzuTornado, Point> centerTornadoTargeting = t => { t.flag = t.waittime++ < tornadoLifetime; return currentPosition; };
-                                                        var centerTornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, centerTornadoTargeting);
-                                                        centerTornado.InitAfter();
-                                                        this.parent.attacks.Add(centerTornado);
-                                                    }
-
-                                                    this.spinPowerupTornadoCounter++;
-                                                }
+                                                this.parent.attacks.Add(newFeather);
+                                                this.superSpinFeathers.Add(newFeather);
                                             }
                                         }
-                                    }
-                                    else if (this.attackWaitTime < this.spinSpinupTime + this.spinDuration)
-                                    {
-                                        // Full-speed
-                                        if (this.attackWaitTime % 2 == 0)
+                                        else
                                         {
-                                            var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
-                                            this.animationpoint = new Point(spinFrame + 2, 5);
+                                            this.isPoweredUp = false;
+                                            this.guard = GUARD.none;
+                                            this.AttackMotion = AttackState.Cooldown;
+                                            this.AttackCooldownSet();
+
+                                            this.position = this.positionReserved.Value;
+                                            this.positionReserved = null;
+                                            this.PositionDirectSet();
                                         }
-
-                                        const int subdivisions = 3;
-
-                                        var fullSpinTime = this.attackWaitTime - this.spinSpinupTime;
-                                        var delayDivision = this.spinFeatherMinimumDelay / subdivisions;
-                                        var switchTime = this.spinSpinupTime % delayDivision;
-                                        if (fullSpinTime % delayDivision == switchTime)
-                                        {
-                                            var fullDelayHit = fullSpinTime % (delayDivision * subdivisions) == switchTime;
-                                            var isFullSpeed = fullSpinTime > this.spinFeatherMinimumDelay * this.spinPatternLength / subdivisions;
-
-                                            if (isFullSpeed && this.spinPattern.Count == this.spinPatternLength)
-                                            {
-                                                // Convert gaps to bits 0, 1, 2, add middle with both gaps between
-                                                var repeatedPatternBits = this.spinPattern.Select(g => Enumerable.Repeat(1 << g, subdivisions - 1).ToArray())
-                                                    .Aggregate((i, j) => i.Concat(Enumerable.Repeat(i[i.Length - 1] | j[0], subdivisions - 1)).Concat(j).ToArray()).ToList();
-                                                repeatedPatternBits.AddRange(Enumerable.Repeat(repeatedPatternBits[repeatedPatternBits.Count - 1] | repeatedPatternBits[0], subdivisions - 1));
-                                                this.spinPattern.Clear();
-                                                this.spinPattern.AddRange(repeatedPatternBits);
-                                            }
-
-                                            // Spawn row attacks at max speed in same pattern
-                                            var gapBits = isFullSpeed ? this.spinPattern[0] : (1 << this.spinPattern[0]);
-
-                                            if (isFullSpeed || fullDelayHit)
-                                            {
-                                                var originalHead = this.spinPattern[0];
-                                                this.spinPattern.RemoveAt(0);
-                                                this.spinPattern.Add(originalHead);
-
-                                                var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
-                                                var px = 3;
-                                                for (var i = 0; i < randomDelayOrder.Length; i++)
-                                                {
-                                                    var py = randomDelayOrder[i];
-                                                    if (((1 << py) & gapBits) == 0)
-                                                    {
-                                                        var delayTime = 10 + 2 * i;
-                                                        this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
-                                                    }
-                                                }
-
-                                                if (isPoweredUp)
-                                                {
-                                                    const int tornadoInterval = 8;
-                                                    if (this.spinPowerupTornadoCounter % tornadoInterval == 0)
-                                                    {
-                                                        var tornadoLifetime = this.Random.Next(9, 12);
-                                                        var tornadoOrbitTargeting = this.CreateTornadoOrbitTargetingFunc(false, this.spinPowerupTornadoCounter % (tornadoInterval * 2) == 0, this.position, t => t.waittime++ < tornadoLifetime);
-                                                        var tornadoTargeting = this.CreateTornadoMoverFunc(tornadoOrbitTargeting, () => tornadoLifetime += 5);
-                                                        var tornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, tornadoTargeting);
-                                                        tornado.InitAfter();
-                                                        this.parent.attacks.Add(tornado);
-
-                                                        var currentPosition = this.position;
-                                                        var centerTornadoLifetime = tornadoLifetime;
-                                                        Func<BouzuTornado, Point> centerTornadoTargeting = t => { t.flag = t.waittime++ < centerTornadoLifetime; return currentPosition; };
-                                                        var centerTornadoMoverTargeting = this.CreateTornadoMoverFunc(centerTornadoTargeting, () => centerTornadoLifetime += 5);
-                                                        var centerTornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, centerTornadoMoverTargeting);
-                                                        centerTornado.InitAfter();
-                                                        this.parent.attacks.Add(centerTornado);
-                                                    }
-
-                                                    this.spinPowerupTornadoCounter++;
-                                                }
-                                            }
-                                        }
-                                    }
-                                    else
-                                    {
-                                        this.spinPowerupTornadoCounter = 0;
-                                        this.spinPowerupTornadoMoverEvaluationNumber = 0;
-                                        this.isPoweredUp = false;
-                                        this.guard = GUARD.none;
-                                        this.AttackMotion = AttackState.Cooldown;
-                                        this.AttackCooldownSet();
                                     }
                                     break;
                                 case AttackType.PowerUp:
@@ -1609,21 +1577,273 @@ namespace NSEnemy
                                         this.positionReserved = null;
                                     }
                                     break;
-                                // TODO: 'regular' random spacing, accelerating, ice spikes(from back)+blockers, tornados in columns. 1 blocker at 4th column, rest break by tornado hit
-                                // or: tracking spin, accelerating feather speed (laser effect), intermittent blocker shockwaves, vertical tornados
+                                // TODO: fix naming after swap of normal and super
                                 case AttackType.SuperSpin:
-                                    switch (this.attackWaitTime)
                                     {
-                                        case 1:
-                                            this.animationpoint = new Point(4, 5);
-                                            break;
-                                        case 30:
+                                        const int spinPoseFrames = 6;
+                                        const int spinSwipeFrames = 4;
+                                        if (this.attackWaitTime < this.spinSpinupTime)
+                                        {
+                                            // Move to center, animate and create pattern
+                                            if (this.attackWaitTime <= 10 + spinPoseFrames + spinSwipeFrames)
+                                            {
+                                                switch (this.attackWaitTime)
+                                                {
+                                                    case 0:
+                                                        {
+                                                            var initialPosition = this.position;
+                                                            var initialPositionDirect = this.SpritePositionDirect;
+
+                                                            var spinPosition = this.union == Panel.COLOR.blue ? new Point(4, 1) : new Point(1, 1);
+                                                            if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                            {
+                                                                spinPosition = this.union == Panel.COLOR.blue ? new Point(5, 1) : new Point(0, 1);
+                                                            }
+
+                                                            if (this.parent.panel[spinPosition.X, spinPosition.Y].color != this.union || this.parent.panel[spinPosition.X, spinPosition.Y].Hole)
+                                                            {
+                                                                this.MoveRandom(false, false);
+                                                                for (var i_retry = 0; i_retry < 6; i_retry++)
+                                                                {
+                                                                    if ((this.union == Panel.COLOR.red || this.positionre.X > 3)
+                                                                        && (this.union == Panel.COLOR.blue || this.positionre.X < 2)
+                                                                        && !this.parent.panel[this.positionre.X, this.positionre.Y].Hole)
+                                                                    {
+                                                                        spinPosition = this.positionre;
+                                                                        break;
+                                                                    }
+                                                                    this.MoveRandom(false, false);
+                                                                }
+                                                            }
+                                                            this.positionre = spinPosition;
+
+                                                            this.position = this.positionre;
+                                                            this.PositionDirectSet();
+
+                                                            this.animationpoint = new Point(2, 0);
+                                                            if (initialPosition != this.position)
+                                                            {
+                                                                this.parent.effects.Add(new StepShadowYuyu(
+                                                                    this.sound,
+                                                                    this.parent,
+                                                                    new Rectangle(FrameCoordX(3), FrameCoordY(0), FullFrameRect.Width, FullFrameRect.Height),
+                                                                    initialPositionDirect,
+                                                                    this.picturename,
+                                                                    this.rebirth,
+                                                                    initialPosition,
+                                                                    255, 255, 255));
+                                                            }
+                                                            break;
+                                                        }
+                                                    case 4:
+                                                        this.animationpoint = new Point(1, 0);
+                                                        break;
+                                                    case 10:
+                                                        this.animationpoint = new Point(0, 5);
+                                                        this.counterTiming = true;
+                                                        break;
+                                                    case 10 + spinPoseFrames:
+                                                        this.animationpoint = new Point(1, 5);
+                                                        break;
+                                                    case 10 + spinSwipeFrames + spinPoseFrames:
+                                                        this.animationpoint = new Point(2, 5);
+                                                        this.counterTiming = false;
+                                                        this.guard = GUARD.guard;
+
+                                                        this.spinPattern.Clear();
+                                                        var initialRow = this.Random.Next(3);
+                                                        this.spinPattern.Add(initialRow);
+                                                        var potentialMovements = new List<int>();
+
+                                                        for (var i = 0; i < this.spinPatternLength - 1; i++)
+                                                        {
+                                                            var currentRow = this.spinPattern.Last();
+                                                            var distanceFromCycleStart = currentRow - initialRow;
+
+                                                            var remainingRows = this.spinPatternLength - 1 - i;
+                                                            if (Math.Abs(distanceFromCycleStart) >= remainingRows)
+                                                            {
+                                                                this.spinPattern.Add(currentRow + (distanceFromCycleStart > 0 ? -1 : 1));
+                                                            }
+                                                            else
+                                                            {
+                                                                potentialMovements.Clear();
+                                                                potentialMovements.AddRange(Enumerable.Repeat(0, this.spinFeatherPatternStayWeight));
+                                                                if (currentRow != 0)
+                                                                {
+                                                                    potentialMovements.AddRange(Enumerable.Repeat(-1, this.spinFeatherPatternMoveWeight));
+                                                                }
+                                                                if (currentRow != 2)
+                                                                {
+                                                                    potentialMovements.AddRange(Enumerable.Repeat(1, this.spinFeatherPatternMoveWeight));
+                                                                }
+
+                                                                this.spinPattern.Add(currentRow + potentialMovements[this.Random.Next(potentialMovements.Count)]);
+                                                            }
+                                                        }
+
+                                                        break;
+                                                }
+                                            }
+                                            else
+                                            {
+                                                // Start with slow spin, accelerate
+                                                var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
+
+                                                const int minFrameDelay = 2;
+                                                const int initialFrameDelay = 6;
+                                                Func<int, int> calculateFrameDelay = t => (int)(Math.Round(initialFrameDelay - (initialFrameDelay - minFrameDelay) * ((double)t / this.spinSpinupTime)));
+
+                                                var animProgress = 0;
+                                                while (animProgress < spinStartTime)
+                                                {
+                                                    animProgress += calculateFrameDelay(animProgress);
+                                                }
+
+                                                if (animProgress == spinStartTime)
+                                                {
+                                                    var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
+                                                    this.animationpoint = new Point(spinFrame + 2, 5);
+                                                }
+
+                                                Func<int, int> calculateFeatherDelay = t => (int)(Math.Round(this.spinFeatherInitialDelay - (this.spinFeatherInitialDelay - this.spinFeatherMinimumDelay) * ((double)t / this.spinSpinupTime)));
+
+                                                var featherProgress = 0;
+                                                while (featherProgress < spinStartTime)
+                                                {
+                                                    featherProgress += calculateFeatherDelay(featherProgress);
+                                                }
+
+                                                // Spawn row attacks on similar acceleration (to establish pattern)
+                                                if (featherProgress == spinStartTime)
+                                                {
+                                                    // Spawn row attacks at max speed in same pattern
+                                                    var gap = this.spinPattern[0];
+                                                    this.spinPattern.RemoveAt(0);
+                                                    this.spinPattern.Add(gap);
+
+                                                    var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
+                                                    var px = 3;
+                                                    for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                    {
+                                                        var py = randomDelayOrder[i];
+                                                        if (py != gap)
+                                                        {
+                                                            var delayTime = 10 + 2 * i;
+                                                            this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
+                                                        }
+                                                    }
+
+                                                    // TODO: remove? edit: weakened since it now always happens
+                                                    if (isPoweredUp)
+                                                    {
+                                                        const int tornadoInterval = 4;
+                                                        if (this.spinPowerupTornadoCounter % tornadoInterval == 0)
+                                                        {
+                                                            var tornadoLifetime = this.Random.Next(12, 15);
+                                                            var tornadoTargeting = this.CreateTornadoOrbitTargetingFunc(false, this.spinPowerupTornadoCounter % (tornadoInterval * 2) == 0, this.position, t => t.waittime++ < tornadoLifetime);
+                                                            var tornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, tornadoTargeting);
+                                                            tornado.InitAfter();
+                                                            this.parent.attacks.Add(tornado);
+
+                                                            var currentPosition = this.position;
+                                                            Func<BouzuTornado, Point> centerTornadoTargeting = t => { t.flag = t.waittime++ < tornadoLifetime; return currentPosition; };
+                                                            var centerTornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, centerTornadoTargeting);
+                                                            centerTornado.InitAfter();
+                                                            this.parent.attacks.Add(centerTornado);
+                                                        }
+
+                                                        this.spinPowerupTornadoCounter++;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        else if (this.attackWaitTime < this.spinSpinupTime + this.spinDuration)
+                                        {
+                                            // Full-speed
+                                            if (this.attackWaitTime % 2 == 0)
+                                            {
+                                                var spinFrame = ((this.animationpoint.X - 2) + 1) % 3;
+                                                this.animationpoint = new Point(spinFrame + 2, 5);
+                                            }
+
+                                            const int subdivisions = 3;
+
+                                            var fullSpinTime = this.attackWaitTime - this.spinSpinupTime;
+                                            var delayDivision = this.spinFeatherMinimumDelay / subdivisions;
+                                            var switchTime = this.spinSpinupTime % delayDivision;
+                                            if (fullSpinTime % delayDivision == switchTime)
+                                            {
+                                                var fullDelayHit = fullSpinTime % (delayDivision * subdivisions) == switchTime;
+                                                var isFullSpeed = fullSpinTime > this.spinFeatherMinimumDelay * this.spinPatternLength / subdivisions;
+
+                                                if (isFullSpeed && this.spinPattern.Count == this.spinPatternLength)
+                                                {
+                                                    // Convert gaps to bits 0, 1, 2, add middle with both gaps between
+                                                    var repeatedPatternBits = this.spinPattern.Select(g => Enumerable.Repeat(1 << g, subdivisions - 1).ToArray())
+                                                        .Aggregate((i, j) => i.Concat(Enumerable.Repeat(i[i.Length - 1] | j[0], subdivisions - 1)).Concat(j).ToArray()).ToList();
+                                                    repeatedPatternBits.AddRange(Enumerable.Repeat(repeatedPatternBits[repeatedPatternBits.Count - 1] | repeatedPatternBits[0], subdivisions - 1));
+                                                    this.spinPattern.Clear();
+                                                    this.spinPattern.AddRange(repeatedPatternBits);
+                                                }
+
+                                                // Spawn row attacks at max speed in same pattern
+                                                var gapBits = isFullSpeed ? this.spinPattern[0] : (1 << this.spinPattern[0]);
+
+                                                if (isFullSpeed || fullDelayHit)
+                                                {
+                                                    var originalHead = this.spinPattern[0];
+                                                    this.spinPattern.RemoveAt(0);
+                                                    this.spinPattern.Add(originalHead);
+
+                                                    var randomDelayOrder = Enumerable.Range(0, 3).ToArray();//.OrderBy(x => this.Random.Next(-1, 2)).ToArray();
+                                                    var px = 3;
+                                                    for (var i = 0; i < randomDelayOrder.Length; i++)
+                                                    {
+                                                        var py = randomDelayOrder[i];
+                                                        if (((1 << py) & gapBits) == 0)
+                                                        {
+                                                            var delayTime = 10 + 2 * i;
+                                                            this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
+                                                        }
+                                                    }
+
+                                                    // TODO: remove? edit: weakened since it now always happens
+                                                    if (isPoweredUp)
+                                                    {
+                                                        const int tornadoInterval = 12;
+                                                        if (this.spinPowerupTornadoCounter % tornadoInterval == 0)
+                                                        {
+                                                            var tornadoLifetime = this.Random.Next(9, 12);
+                                                            var tornadoOrbitTargeting = this.CreateTornadoOrbitTargetingFunc(false, this.spinPowerupTornadoCounter % (tornadoInterval * 2) == 0, this.position, t => t.waittime++ < tornadoLifetime);
+                                                            var tornadoTargeting = this.CreateTornadoMoverFunc(tornadoOrbitTargeting, () => tornadoLifetime += 5);
+                                                            var tornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, tornadoTargeting);
+                                                            tornado.InitAfter();
+                                                            this.parent.attacks.Add(tornado);
+
+                                                            var currentPosition = this.position;
+                                                            var centerTornadoLifetime = tornadoLifetime;
+                                                            Func<BouzuTornado, Point> centerTornadoTargeting = t => { t.flag = t.waittime++ < centerTornadoLifetime; return currentPosition; };
+                                                            var centerTornadoMoverTargeting = this.CreateTornadoMoverFunc(centerTornadoTargeting, () => centerTornadoLifetime += 5);
+                                                            var centerTornado = new BouzuTornado(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, this.element, -1, 1, 0, false, centerTornadoMoverTargeting);
+                                                            centerTornado.InitAfter();
+                                                            this.parent.attacks.Add(centerTornado);
+                                                        }
+
+                                                        this.spinPowerupTornadoCounter++;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        else
+                                        {
+                                            this.spinPowerupTornadoCounter = 0;
+                                            this.spinPowerupTornadoMoverEvaluationNumber = 0;
                                             this.isPoweredUp = false;
-                                            break;
-                                        case 60:
+                                            this.guard = GUARD.none;
                                             this.AttackMotion = AttackState.Cooldown;
                                             this.AttackCooldownSet();
-                                            break;
+                                        }
                                     }
                                     break;
                             }
@@ -1888,7 +2108,7 @@ namespace NSEnemy
             this.spinPatternLength = 5;
             this.spinFeatherPatternStayWeight = 2;
             this.spinFeatherPatternMoveWeight = 5;
-            this.spinSpinupTime = 240;
+            this.spinSpinupTime = 120;
             this.spinDuration = 240;
             this.spinFeatherInitialDelay = 45;
             this.spinFeatherMinimumDelay = 16;
@@ -1912,6 +2132,9 @@ namespace NSEnemy
             this.superDiveSwoopFeatherSets = 2;
             this.superDiveSwoopFeatherCount = 2;
             this.superDiveImpactMaxTime = 120;
+
+            this.superSpinSpinupTime = 240;
+            this.superSpinDuration = 240;
 
             this.standardAttackWeights[AttackType.Dive] = 6;
             this.standardAttackWeights[AttackType.CrossDive] = 6;
@@ -2114,9 +2337,9 @@ namespace NSEnemy
 
         private class DiveFeather : AttackBase
         {
-            private static readonly Rectangle FeatherFullFrameRect = new Rectangle(515, 711, 22, 10);
-            private static readonly Rectangle FeatherShadowRect = new Rectangle(524, 734, 9, 4);
-            private static readonly Vector2 PanelsOffset = new Vector2(20, 80);
+            public static readonly Rectangle FeatherFullFrameRect = new Rectangle(515, 711, 22, 10);
+            public static readonly Rectangle FeatherShadowRect = new Rectangle(524, 734, 9, 4);
+            public static readonly Vector2 PanelsOffset = new Vector2(20, 80);
 
             private readonly Vector2 originPosition;
             private readonly Vector2 movementPerFrame;
@@ -3378,11 +3601,17 @@ namespace NSEnemy
                 this.height = 128;
                 this.positionDirect = new Vector2(position.X * 40.0f + 0, position.Y * 24.0f + 0);
                 this.hitting = true;
+
+                this.HasShadow = true;
             }
+
+            public bool HasShadow { get; set; }
+
+            public bool IsThrown => this.waittime >= this.throwDelay;
 
             public override void Updata()
             {
-                if (this.waittime >= this.throwDelay)
+                if (this.IsThrown)
                 {
                     var directionMult = (this.union == Panel.COLOR.blue ? -1 : 1);
                     this.positionDirect.X += directionMult * this.moveSpeed;
@@ -3405,10 +3634,35 @@ namespace NSEnemy
 
             public override void Render(IRenderer dg)
             {
-                this._rect = new Rectangle(FrameCoordX(this.animationpoint.X), FrameCoordY(this.animationpoint.Y), this.wide, this.height);
-                var spriteOffsetPosition = this.positionDirect + CirnoBX.SpriteOffset + new Vector2(this.Shake.X, this.Shake.Y);
-                this._position = spriteOffsetPosition;
-                dg.DrawImage(dg, this.picturename, this._rect, false, this._position, this.rebirth, Color.White);
+                var adjustedPositionDirect = this.positionDirect + new Vector2(0, -18);
+
+                if (this.HasShadow)
+                {
+                    var shadowPosition = new Vector2(adjustedPositionDirect.X, adjustedPositionDirect.Y + 24);
+                    var shadowOffsetPosition = shadowPosition + DiveFeather.PanelsOffset + new Vector2(this.Shake.X, this.Shake.Y);
+
+                    dg.DrawImage(
+                        dg,
+                        this.picturename,
+                        DiveFeather.FeatherShadowRect,
+                        false,
+                        shadowOffsetPosition,
+                        1.0f,
+                        0,
+                        this.color);
+                }
+
+                var spriteOffsetPosition = adjustedPositionDirect + DiveFeather.PanelsOffset + new Vector2(this.Shake.X, this.Shake.Y);
+
+                dg.DrawImage(
+                    dg,
+                    this.picturename,
+                    DiveFeather.FeatherFullFrameRect,
+                    false,
+                    spriteOffsetPosition,
+                    1.0f,
+                    0,
+                    this.color);
             }
 
             public override bool HitEvent(Player p)
