@@ -110,11 +110,22 @@ namespace NSEnemy
         private bool superDiveImpactAborted;
         private bool[] superDiveRowHolesHit;
 
+        private int superSpinInitialTrackingMoveTime;
+        private int superSpinFinalTrackingMoveTime;
+        private int superSpinInitialFeatherPerPanelTime;
+        private int superSpinFinalFeatherPerPanelTime;
+        private int superSpinPowerupFinalFeatherPerPanelTime;
+        private int superSpinInitialFeatherDelay;
+        private int superSpinFinalFeatherDelay;
+        private double superSpinMinFeatherIntervalFactor;
+        private double superSpinMaxFeatherIntervalFactor;
         private int superSpinSpinupTime;
         private int superSpinDuration;
         private DIRECTION superSpinDirection;
         private List<SpinFeather> superSpinFeathers;
         private double superSpinCurrentFeatherIntervalFactor;
+        private int superSpinPowerupTornadoDelay;
+        private int superSpinPowerupTornadoLifetime;
 
         private bool isPoweredUp;
 
@@ -910,17 +921,6 @@ namespace NSEnemy
                                 // TODO: fix naming after swap of normal and super
                                 case AttackType.Spin:
                                     {
-                                        const int superSpinInitialTrackingMoveTime = 40;
-                                        const int superSpinFinalTrackingMoveTime = 10;
-
-                                        const int superSpinInitialFeatherPerPanelTime = 8;
-                                        const int superSpinFinalFeatherPerPanelTime = 4;
-                                        const int superSpinInitialFeatherDelay = 60;
-                                        const int superSpinFinalFeatherDelay = 15;
-
-                                        const double superSpinMinFeatherIntervalFactor = 1.8;
-                                        const double superSpinMaxFeatherIntervalFactor = 2.4;
-
                                         const int spinPoseFrames = 6;
                                         const int spinSwipeFrames = 4;
                                         if (this.attackWaitTime < this.superSpinSpinupTime)
@@ -994,7 +994,7 @@ namespace NSEnemy
                                                         this.superSpinDirection = DIRECTION.up;
                                                         this.superSpinFeathers.Clear();
 
-                                                        this.superSpinCurrentFeatherIntervalFactor = superSpinMinFeatherIntervalFactor + this.Random.NextDouble() * (superSpinMaxFeatherIntervalFactor - superSpinMinFeatherIntervalFactor);
+                                                        this.superSpinCurrentFeatherIntervalFactor = this.superSpinMinFeatherIntervalFactor + this.Random.NextDouble() * (this.superSpinMaxFeatherIntervalFactor - this.superSpinMinFeatherIntervalFactor);
                                                         break;
                                                 }
                                             }
@@ -1002,6 +1002,22 @@ namespace NSEnemy
                                             {
                                                 // Start with slow spin, accelerate
                                                 var spinStartTime = this.attackWaitTime - (10 + spinPoseFrames + spinSwipeFrames);
+
+                                                if (this.isPoweredUp && spinStartTime == this.superSpinPowerupTornadoDelay)
+                                                {
+                                                    var tornadoRow = this.Random.Next() % 2 == 0 ? 0 : 2;
+                                                    var tornadoStartColumn = this.union == Panel.COLOR.red ? 0 : 5;
+                                                    var tornadoEndColumn = this.union == Panel.COLOR.red ? 3 : 2;
+                                                    var tornadoLifetime = this.superSpinPowerupTornadoLifetime;
+                                                    Func<BouzuTornado, Point> tornadoTargeting = t =>
+                                                    {
+                                                        t.flag = t.waittime++ < tornadoLifetime;
+                                                        return t.waittime < tornadoLifetime / 2 ? new Point(tornadoEndColumn, tornadoRow) : new Point(tornadoStartColumn, tornadoRow);
+                                                    };
+                                                    var deflectingTornado = new BouzuTornado(this.sound, this.parent, tornadoStartColumn, tornadoRow, this.union, this.Power, this.element, -1, 5, 1, false, tornadoTargeting);
+
+                                                    this.parent.attacks.Add(deflectingTornado);
+                                                }
 
                                                 const int minFrameDelay = 2;
                                                 const int initialFrameDelay = 6;
@@ -1023,7 +1039,7 @@ namespace NSEnemy
                                                 var roundingFunc = this.superSpinDirection == DIRECTION.up ? (Func<double, double>)Math.Ceiling : Math.Floor;
                                                 var settledRow = (int)Math.Max(0, Math.Min(2, roundingFunc(this.positionDirect.Y / 24.0)));
 
-                                                var acceleratingMoveSpeed = interpolate(superSpinInitialTrackingMoveTime, superSpinFinalTrackingMoveTime, spinStartTime);
+                                                var acceleratingMoveSpeed = interpolate(this.superSpinInitialTrackingMoveTime, this.superSpinFinalTrackingMoveTime, spinStartTime);
 
                                                 var spriteOffset = 24.0f / acceleratingMoveSpeed * (this.superSpinDirection == DIRECTION.up ? -1 : 1);
                                                 var newPosition = new Point((int)Math.Round(this.positionDirect.X / 40), (int)Math.Round(this.positionDirect.Y / 24));
@@ -1032,12 +1048,22 @@ namespace NSEnemy
 
                                                 foreach (var feather in this.superSpinFeathers)
                                                 {
+                                                    var freshlyMoving = !feather.HasShadow && feather.IsThrown;
                                                     if (!feather.IsThrown)
                                                     {
                                                         feather.positionDirect.Y += spriteOffset;
                                                         feather.position = newPosition;
                                                     }
-                                                    feather.HasShadow = feather.IsThrown;
+                                                    else if (freshlyMoving)
+                                                    {
+                                                        feather.positionDirect = new Vector2(feather.position.X * 40.0f + 0, feather.position.Y * 24.0f + 0);
+                                                        feather.HasShadow = true;
+                                                    }
+
+                                                    if (feather.DeflectDirection == null && this.parent.AllObjects().OfType<BouzuTornado>().Any(bt => bt.position == feather.position && bt.union == feather.union))
+                                                    {
+                                                        feather.DeflectDirection = feather.position.Y == 0 ? DIRECTION.down : DIRECTION.up;
+                                                    }
                                                 }
 
                                                 var nextRow = settledRow + (this.superSpinDirection == DIRECTION.up ? -1 : 1);
@@ -1048,12 +1074,13 @@ namespace NSEnemy
                                                     this.superSpinDirection = this.superSpinDirection == DIRECTION.up ? DIRECTION.down : DIRECTION.up;
                                                 }
 
-                                                var featherInterval = (int)Math.Round(superSpinInitialTrackingMoveTime * this.superSpinCurrentFeatherIntervalFactor);
+                                                var featherInterval = (int)Math.Round(this.superSpinInitialTrackingMoveTime * this.superSpinCurrentFeatherIntervalFactor);
                                                 if (spinStartTime % featherInterval == 0)
                                                 {
-                                                    var perPanelTime = interpolate(superSpinInitialFeatherPerPanelTime, superSpinFinalFeatherPerPanelTime, spinStartTime);
-                                                    var delayTime = interpolate(superSpinInitialFeatherDelay, superSpinFinalFeatherDelay, spinStartTime);
+                                                    var perPanelTime = interpolate(this.superSpinInitialFeatherPerPanelTime, this.isPoweredUp ? this.superSpinPowerupFinalFeatherPerPanelTime : this.superSpinFinalFeatherPerPanelTime, spinStartTime);
+                                                    var delayTime = interpolate(this.superSpinInitialFeatherDelay, this.superSpinFinalFeatherDelay, spinStartTime);
                                                     var newFeather = new SpinFeather(this.sound, this.parent, this.union, this.Power, this.position.X, this.position.Y, delayTime, perPanelTime, this.element);
+                                                    newFeather.HasShadow = false;
 
                                                     var yOff = this.Random.Next(-18, 3);
                                                     var xOffRange = Math.Max(4, Math.Abs(yOff));
@@ -1079,19 +1106,29 @@ namespace NSEnemy
                                             var roundingFunc = this.superSpinDirection == DIRECTION.up ? (Func<double, double>)Math.Ceiling : Math.Floor;
                                             var settledRow = (int)Math.Max(0, Math.Min(2, roundingFunc(this.positionDirect.Y / 24.0)));
 
-                                            var spriteOffset = 24.0f / superSpinFinalTrackingMoveTime * (this.superSpinDirection == DIRECTION.up ? -1 : 1);
+                                            var spriteOffset = 24.0f / this.superSpinFinalTrackingMoveTime * (this.superSpinDirection == DIRECTION.up ? -1 : 1);
                                             var newPosition = new Point((int)Math.Round(this.positionDirect.X / 40), (int)Math.Round(this.positionDirect.Y / 24));
                                             this.positionDirect.Y += spriteOffset;
                                             this.position = newPosition;
 
                                             foreach (var feather in this.superSpinFeathers)
                                             {
+                                                var freshlyMoving = !feather.HasShadow && feather.IsThrown;
                                                 if (!feather.IsThrown)
                                                 {
                                                     feather.positionDirect.Y += spriteOffset;
                                                     feather.position = newPosition;
                                                 }
-                                                feather.HasShadow = feather.IsThrown;
+                                                else if (freshlyMoving)
+                                                {
+                                                    feather.positionDirect = new Vector2(feather.position.X * 40.0f + 0, feather.position.Y * 24.0f + 0);
+                                                    feather.HasShadow = true;
+                                                }
+
+                                                if (feather.DeflectDirection == null && this.parent.AllObjects().OfType<BouzuTornado>().Any(bt => bt.position == feather.position && bt.union == feather.union))
+                                                {
+                                                    feather.DeflectDirection = feather.position.Y == 0 ? DIRECTION.down : DIRECTION.up;
+                                                }
                                             }
 
                                             var nextRow = settledRow + (this.superSpinDirection == DIRECTION.up ? -1 : 1);
@@ -1102,12 +1139,13 @@ namespace NSEnemy
                                                 this.superSpinDirection = this.superSpinDirection == DIRECTION.up ? DIRECTION.down : DIRECTION.up;
                                             }
 
-                                            var featherInterval = (int)Math.Round(superSpinFinalTrackingMoveTime * this.superSpinCurrentFeatherIntervalFactor);
+                                            var featherInterval = (int)Math.Round(this.superSpinFinalTrackingMoveTime * this.superSpinCurrentFeatherIntervalFactor);
                                             if (this.attackWaitTime % featherInterval == 0)
                                             {
-                                                var perPanelTime = superSpinFinalFeatherPerPanelTime;
-                                                var delayTime = superSpinFinalFeatherDelay;
+                                                var perPanelTime = this.isPoweredUp ? this.superSpinPowerupFinalFeatherPerPanelTime : this.superSpinFinalFeatherPerPanelTime;
+                                                var delayTime = this.superSpinFinalFeatherDelay;
                                                 var newFeather = new SpinFeather(this.sound, this.parent, this.union, this.Power, this.position.X, this.position.Y, delayTime, perPanelTime, this.element);
+                                                newFeather.HasShadow = false;
 
                                                 var yOff = this.Random.Next(-18, 6);
                                                 var xOffRange = Math.Max(6, Math.Abs(yOff));
@@ -2133,8 +2171,19 @@ namespace NSEnemy
             this.superDiveSwoopFeatherCount = 2;
             this.superDiveImpactMaxTime = 120;
 
+            this.superSpinInitialTrackingMoveTime = 40;
+            this.superSpinFinalTrackingMoveTime = 10;
+            this.superSpinInitialFeatherPerPanelTime = 8;
+            this.superSpinFinalFeatherPerPanelTime = 4;
+            this.superSpinPowerupFinalFeatherPerPanelTime = 8;
+            this.superSpinInitialFeatherDelay = 60;
+            this.superSpinFinalFeatherDelay = 15;
+            this.superSpinMinFeatherIntervalFactor = 1.8;
+            this.superSpinMaxFeatherIntervalFactor = 2.4;
             this.superSpinSpinupTime = 240;
             this.superSpinDuration = 240;
+            this.superSpinPowerupTornadoDelay = 180;
+            this.superSpinPowerupTornadoLifetime = 10;
 
             this.standardAttackWeights[AttackType.Dive] = 6;
             this.standardAttackWeights[AttackType.CrossDive] = 6;
@@ -3571,6 +3620,8 @@ namespace NSEnemy
 
         private class SpinFeather : AttackBase
         {
+            private static readonly double panelAngle = Math.Atan(24.0 / 40.0);
+
             private readonly int throwDelay;
             private readonly int perPanelMoveTime;
 
@@ -3607,18 +3658,32 @@ namespace NSEnemy
 
             public bool HasShadow { get; set; }
 
+            public DIRECTION? DeflectDirection { get; set; }
+
             public bool IsThrown => this.waittime >= this.throwDelay;
 
             public override void Updata()
             {
                 if (this.IsThrown)
                 {
-                    var directionMult = (this.union == Panel.COLOR.blue ? -1 : 1);
-                    this.positionDirect.X += directionMult * this.moveSpeed;
+                    var xDirectionMult = (this.union == Panel.COLOR.blue ? -1 : 1);
+                    var yDirectionMult = this.DeflectDirection == DIRECTION.down ? 1 : -1;
+
+                    var angle = this.DeflectDirection != null ? panelAngle : 0;
+                    var xMoveSpeed = this.moveSpeed * Math.Cos(angle);
+                    var yMoveSpeed = this.moveSpeed * Math.Sin(angle);
+
+                    this.positionDirect.X += xDirectionMult * (float)xMoveSpeed;
+                    this.positionDirect.Y += yDirectionMult * (float)yMoveSpeed;
 
                     Func<double, int> roundingFunc = x => (int)(this.union == Panel.COLOR.blue ? Math.Floor(x) : Math.Ceiling(x));
-                    var centerOffset = directionMult * -20;
+                    var centerOffset = xDirectionMult * -20;
                     this.position.X = roundingFunc((this.positionDirect.X + centerOffset) / 40); // this.initialX + directionMult * (int)Math.Floor((double)(this.waittime - this.throwDelay) / this.perPanelMoveTime);
+                    if (this.DeflectDirection != null)
+                    {
+                        this.position.Y = (int)Math.Round(this.positionDirect.Y / 24);
+                    }
+
                     this.PanelBright();
                     
                     if (this.positionDirect.X < 0 - 13 || this.positionDirect.X > 240 + 13)
@@ -3654,6 +3719,8 @@ namespace NSEnemy
 
                 var spriteOffsetPosition = adjustedPositionDirect + DiveFeather.PanelsOffset + new Vector2(this.Shake.X, this.Shake.Y);
 
+                var rotation = this.union == Panel.COLOR.blue ? 0f : 180f;
+                rotation += (float)((this.DeflectDirection != null ? panelAngle : 0) * (this.union == Panel.COLOR.blue ^ this.DeflectDirection == DIRECTION.down ? -1 : 1) * (180f / Math.PI));
                 dg.DrawImage(
                     dg,
                     this.picturename,
@@ -3661,7 +3728,7 @@ namespace NSEnemy
                     false,
                     spriteOffsetPosition,
                     1.0f,
-                    0,
+                    rotation,
                     this.color);
             }
 
