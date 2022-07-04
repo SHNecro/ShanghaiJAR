@@ -76,6 +76,7 @@ namespace NSEnemy
         private int powerIceCrashAdditionalLargeIceSpawnDelay;
         private bool iceCrashPowerupFollowup;
 
+        // Swapped with "superspin", which is now regular spin
         private int spinPatternLength;
         private int spinFeatherPatternStayWeight;
         private int spinFeatherPatternMoveWeight;
@@ -918,7 +919,6 @@ namespace NSEnemy
                                             break;
                                     }
                                     break;
-                                // TODO: fix naming after swap of normal and super
                                 case AttackType.Spin:
                                     {
                                         const int spinPoseFrames = 6;
@@ -1092,7 +1092,6 @@ namespace NSEnemy
                                                     this.superSpinFeathers.Add(newFeather);
                                                 }
                                             }
-                                            // TODO: super: tornados deflect feathers?
                                         }
                                         else if (attackWaitTime < this.superSpinSpinupTime + this.superSpinDuration)
                                         {
@@ -1446,7 +1445,6 @@ namespace NSEnemy
                                         && !this.superDiveImpactAborted)
                                     {
                                         var diveTime = this.attackWaitTime - (60 + this.superDiveHorizontalDiveMaxTime + (this.superDiveSwoopCount * this.superDiveSwoopMaxTime));
-                                        // TODO: better acceleration function?
                                         var diveTimeFunc = new Func<float, float>(time => 12 * time / this.superDiveImpactMaxTime);
                                         var t = Math.Min(1f, diveTimeFunc(diveTime));
                                         var diveImpactTime = Enumerable.Range(0, this.superDiveImpactMaxTime).First(time => diveTimeFunc(time) > 1);
@@ -1615,7 +1613,6 @@ namespace NSEnemy
                                         this.positionReserved = null;
                                     }
                                     break;
-                                // TODO: fix naming after swap of normal and super
                                 case AttackType.SuperSpin:
                                     {
                                         const int spinPoseFrames = 6;
@@ -1771,8 +1768,7 @@ namespace NSEnemy
                                                             this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
                                                         }
                                                     }
-
-                                                    // TODO: remove? edit: weakened since it now always happens
+                                                    
                                                     if (isPoweredUp)
                                                     {
                                                         const int tornadoInterval = 4;
@@ -1845,8 +1841,7 @@ namespace NSEnemy
                                                             this.parent.attacks.Add(new SpinFeather(this.sound, this.parent, this.union, this.Power, px, py, delayTime, this.spinFeatherPerPanelTime, this.element));
                                                         }
                                                     }
-
-                                                    // TODO: remove? edit: weakened since it now always happens
+                                                    
                                                     if (isPoweredUp)
                                                     {
                                                         const int tornadoInterval = 12;
