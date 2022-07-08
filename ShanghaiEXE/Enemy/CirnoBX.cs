@@ -147,7 +147,6 @@ namespace NSEnemy
         public CirnoBX(IAudioEngine s, SceneBattle p, int pX, int pY, byte n, Panel.COLOR u, byte v)
             : base(s, p, pX, pY, n, u, v)
         {
-            // TODO: sound effects
             for (int index = 0; index < this.dropchips.Length; ++index)
                 this.dropchips[index] = new ChipFolder(this.sound);
 
@@ -2105,8 +2104,7 @@ namespace NSEnemy
             var adjustedTime = (int)Math.Ceiling(framesToTravelDistance);
             return adjustedTime;
         }
-
-        // TODO:
+        
         private void SetDefaultVersionStats()
         {
             this.name = ShanghaiEXE.Translate("Enemy.CirnoBXName");
@@ -2264,8 +2262,7 @@ namespace NSEnemy
                 this.havezenny = 2600;
             }
         }
-
-        // TODO:
+        
         private void SetDynamicAttackWeights()
         {
             if (this.version == 1)
