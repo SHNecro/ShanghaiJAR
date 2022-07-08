@@ -2270,6 +2270,24 @@ namespace NSEnemy
         {
             if (this.version == 1)
             {
+                if (this.Hp < this.HpMax / 3)
+                {
+                    this.standardAttackWeights[AttackType.Dive] = 2;
+                    this.standardAttackWeights[AttackType.CrossDive] = 2;
+                    this.standardAttackWeights[AttackType.IceCrash] = 2;
+                    this.standardAttackWeights[AttackType.Spin] = 2;
+                    this.standardAttackWeights[AttackType.PowerUp] = 2;
+                    this.standardAttackWeights[AttackType.SuperDive] = 0;
+                    this.standardAttackWeights[AttackType.SuperSpin] = 0;
+
+                    this.poweredAttackWeights[AttackType.Dive] = 2;
+                    this.poweredAttackWeights[AttackType.CrossDive] = 2;
+                    this.poweredAttackWeights[AttackType.IceCrash] = 2;
+                    this.poweredAttackWeights[AttackType.Spin] = 2;
+                    this.poweredAttackWeights[AttackType.PowerUp] = 0;
+                    this.poweredAttackWeights[AttackType.SuperDive] = 2;
+                    this.poweredAttackWeights[AttackType.SuperSpin] = 2;
+                }
             }
             else
             {
