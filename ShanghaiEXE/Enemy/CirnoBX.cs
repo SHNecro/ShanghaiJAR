@@ -465,6 +465,8 @@ namespace NSEnemy
                                             }
                                             else
                                             {
+                                                this.sound.PlaySE(SoundEffect.bomb);
+
                                                 this.detachedShadowOffset = new Vector2(0, -32);
 
                                                 this.DiveDragAttackMake(this.Power / 4, this.union == Panel.COLOR.blue ? DIRECTION.left : DIRECTION.right);
@@ -652,11 +654,16 @@ namespace NSEnemy
                                                 this.effecting = false;
                                             }
 
+                                            var previousYPositionDirect = this.positionDirect.Y - (float)(Math.Sin(angle) * -pixelsPerFrame);
+                                            var previousYPosition = (int)Math.Round(previousYPositionDirect / 24);
+
+                                            if (previousYPosition == 1 && yPosition != 1)
+                                            {
+                                                this.sound.PlaySE(SoundEffect.futon);
+                                            }
+
                                             if (this.isPoweredUp)
                                             {
-                                                var previousYPositionDirect = this.positionDirect.Y - (float)(Math.Sin(angle) * -pixelsPerFrame);
-                                                var previousYPosition = (int)Math.Round(previousYPositionDirect / 24);
-
                                                 if (previousYPosition == 1 && yPosition != 1)
                                                 {
                                                     Func<BouzuTornado, Point> centerTargeting = t =>
@@ -749,13 +756,16 @@ namespace NSEnemy
                                             this.detachedShadow = !this.nohit;
                                             this.detachedShadowOffset = new Vector2(0, 0);
 
+                                            var previousYPositionDirect = this.positionDirect.Y - (float)(Math.Sin(angle) * -pixelsPerFrame);
+                                            var previousYPosition = (int)Math.Round(previousYPositionDirect / 24);
+                                            if (previousYPosition == 1 && yPosition != 1)
+                                            {
+                                                this.sound.PlaySE(SoundEffect.futon);
+                                            }
 
                                             if (this.isPoweredUp)
                                             {
                                                 // arm rotation constant, handled from initialization, only handle clearing powerup
-                                                var previousYPositionDirect = this.positionDirect.Y - (float)(Math.Sin(angle) * -pixelsPerFrame);
-                                                var previousYPosition = (int)Math.Round(previousYPositionDirect / 24);
-
                                                 if (previousYPosition == 1 && yPosition != 1)
                                                 {
                                                     this.isPoweredUp = false;
@@ -1063,6 +1073,7 @@ namespace NSEnemy
                                                     if (feather.DeflectDirection == null && this.parent.AllObjects().OfType<BouzuTornado>().Any(bt => bt.position == feather.position && bt.union == feather.union))
                                                     {
                                                         feather.DeflectDirection = feather.position.Y == 0 ? DIRECTION.down : DIRECTION.up;
+                                                        this.sound.PlaySE(SoundEffect.chain);
                                                     }
                                                 }
 
@@ -1196,7 +1207,8 @@ namespace NSEnemy
                                             this.underAnimationPoint = new Point(3, 1);
                                             this.detachedShadow = false;
                                             this.ShakeStart(4, 3);
-                                            
+
+                                            this.sound.PlaySE(SoundEffect.charge);
                                             this.isPoweredUp = true;
                                             break;
                                         case 23:
@@ -1262,6 +1274,7 @@ namespace NSEnemy
                                     }
                                     else if (this.attackWaitTime == 60)
                                     {
+                                        this.sound.PlaySE(SoundEffect.wave);
                                     }
                                     else if (attackWaitTime < 60 + this.superDiveHorizontalDiveMaxTime)
                                     {
@@ -1399,6 +1412,11 @@ namespace NSEnemy
                                         }
                                         else if (swoopFrame < this.superDiveSwoopIncomingFrames + this.superDiveSwoopOutgoingFrames)
                                         {
+                                            if (swoopFrame == this.superDiveSwoopIncomingFrames)
+                                            {
+                                                this.sound.PlaySE(SoundEffect.futon);
+                                            }
+
                                             this.detachedShadow = this.detachedShadowOffset.Y < 16;
 
                                             var angle = (swoopFrame - this.superDiveSwoopIncomingFrames) * this.superDiveSwoopOutgoingAngleSpeed;
@@ -1519,6 +1537,7 @@ namespace NSEnemy
                                                         break;
                                                     }
 
+                                                    this.sound.PlaySE(SoundEffect.bombmiddle);
                                                     var slamAttack = new BombAttack(this.sound, this.parent, this.superDiveTargetPosition.X, this.superDiveTargetPosition.Y, this.union, this.Power, 1, this.element)
                                                     {
                                                         invincibility = false
@@ -2092,7 +2111,7 @@ namespace NSEnemy
         {
             this.name = ShanghaiEXE.Translate("Enemy.CirnoBXName");
             this.power = 100;
-            this.hp = 200;
+            this.hp = 3000;
             this.picturename = "CirnoBX";
             this.element = ChipBase.ELEMENT.aqua;
 
@@ -2180,21 +2199,21 @@ namespace NSEnemy
             this.superSpinPowerupTornadoDelay = 180;
             this.superSpinPowerupTornadoLifetime = 10;
 
-            this.standardAttackWeights[AttackType.Dive] = 6;
-            this.standardAttackWeights[AttackType.CrossDive] = 6;
-            this.standardAttackWeights[AttackType.IceCrash] = 3;
-            this.standardAttackWeights[AttackType.Spin] = 1;
-            this.standardAttackWeights[AttackType.PowerUp] = 1;
+            this.standardAttackWeights[AttackType.Dive] = 4;
+            this.standardAttackWeights[AttackType.CrossDive] = 4;
+            this.standardAttackWeights[AttackType.IceCrash] = 2;
+            this.standardAttackWeights[AttackType.Spin] = 3;
+            this.standardAttackWeights[AttackType.PowerUp] = 2;
             this.standardAttackWeights[AttackType.SuperDive] = 0;
             this.standardAttackWeights[AttackType.SuperSpin] = 0;
 
             this.poweredAttackWeights[AttackType.Dive] = 3;
             this.poweredAttackWeights[AttackType.CrossDive] = 3;
-            this.poweredAttackWeights[AttackType.IceCrash] = 2;
-            this.poweredAttackWeights[AttackType.Spin] = 2;
+            this.poweredAttackWeights[AttackType.IceCrash] = 3;
+            this.poweredAttackWeights[AttackType.Spin] = 3;
             this.poweredAttackWeights[AttackType.PowerUp] = 0;
-            this.poweredAttackWeights[AttackType.SuperDive] = 1;
-            this.poweredAttackWeights[AttackType.SuperSpin] = 1;
+            this.poweredAttackWeights[AttackType.SuperDive] = 2;
+            this.poweredAttackWeights[AttackType.SuperSpin] = 2;
         }
 
         private void SetVersionStats()
@@ -2500,6 +2519,8 @@ namespace NSEnemy
                     {
                         this.hitting = true;
                         this.impacted = true;
+
+                        this.sound.PlaySE(SoundEffect.shotwave);
                     }
                 }
                 this.FlameControl();
@@ -2907,6 +2928,7 @@ namespace NSEnemy
                             rock.Break();
                         }
 
+                        this.sound.PlaySE(SoundEffect.bomb);
                         this.parent.objects.Add(new IceRockLarge(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.lifetime, this.largeIceHp));
                     }
                 }
@@ -3034,6 +3056,7 @@ namespace NSEnemy
                                     c.Break();
                                 }
 
+                                this.sound.PlaySE(SoundEffect.knock);
                                 this.parent.objects.Add(new IceRocks(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.smallIceLifetime, this.smallIceHp));
                             }
                         }
@@ -3043,6 +3066,8 @@ namespace NSEnemy
                             var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
                             var pdY = this.positionDirect.Y + CirnoBX.SpriteOffset.Y;
                             var factory = BreakIceRock.MakeLeftRightFactory(this.sound, this.parent, this.position, this.union);
+
+                            this.sound.PlaySE(SoundEffect.clincher);
 
                             var fragmentTypes = new[] { BreakIceRock.DebrisType.ChunkTall, BreakIceRock.DebrisType.ChipSharp, BreakIceRock.DebrisType.ClodSharp, BreakIceRock.DebrisType.ChunkSharp, BreakIceRock.DebrisType.ClodFlatLeft, BreakIceRock.DebrisType.ClodFlatRight, BreakIceRock.DebrisType.FragLumpy };
 
@@ -3160,6 +3185,7 @@ namespace NSEnemy
             {
                 if (!this.breaked || this.StandPanel.Hole)
                 {
+                    this.sound.PlaySE(SoundEffect.breakObject);
                     this.breaked = true;
 
                     var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
@@ -3320,6 +3346,7 @@ namespace NSEnemy
             {
                 if (!this.breaked || this.StandPanel.Hole)
                 {
+                    this.sound.PlaySE(SoundEffect.breakObject);
                     this.breaked = true;
 
                     var pdX = this.positionDirect.X + CirnoBX.SpriteOffset.X;
@@ -3661,6 +3688,11 @@ namespace NSEnemy
             {
                 if (this.IsThrown)
                 {
+                    if (this.waittime == this.throwDelay)
+                    {
+                        this.sound.PlaySE(SoundEffect.knife);
+                    }
+
                     var xDirectionMult = (this.union == Panel.COLOR.blue ? -1 : 1);
                     var yDirectionMult = this.DeflectDirection == DIRECTION.down ? 1 : -1;
 
