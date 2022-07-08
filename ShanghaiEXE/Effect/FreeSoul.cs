@@ -100,7 +100,7 @@ namespace NSEffect
                 this.soulPosition.Offset(0, -(1 + (int)(this.frame / 5)));
 
                 var randomDist = Random.NextDouble() * 5 + 8;
-                var randomAngle = random.NextDouble() * 2 * Math.PI;
+                var randomAngle = Random.NextDouble() * 2 * Math.PI;
                 var newSparklePoint = new Point(this.soulPosition.X + (int)(randomDist * Math.Cos(randomAngle)), this.soulPosition.Y + (int)(randomDist * Math.Sin(randomAngle)));
                 this.sparkles[newSparklePoint] = 3;
             }

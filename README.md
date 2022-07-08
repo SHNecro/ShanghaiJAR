@@ -31,7 +31,7 @@ Visual Studio 2017 is required to compile the project due to the C# 7 syntax gen
 
 Additionally, the C++ development environment must be installed for Visual Studio in order for freetype6.dll to be copied to the output directory.
 
-## Latest Release (0.550eWIP, 12/19/20)
+## Latest Release (0.550eWIP, 12/19/21)
 
 ### Changelog:
 - Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses

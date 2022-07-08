@@ -400,6 +400,7 @@
     <Compile Include="Effect\StepShadowYuyu.cs" />
     <Compile Include="Enemy\ChipUsingNaviBase.cs" />
     <Compile Include="Enemy\DruidMan.cs" />
+    <Compile Include="Enemy\CirnoBX.cs" />
     <Compile Include="Enemy\Flandre.cs" />
     <Compile Include="Enemy\Madman.cs" />
     <Compile Include="Enemy\HeavenBarrier.cs" />
@@ -1382,6 +1383,7 @@
     <Content Include="Graphics\charachip21.png" />
     <Content Include="Graphics\chipgraphic23.png" />
     <Content Include="Graphics\chipicone.png" />
+    <Content Include="Graphics\cirnobx.png" />
     <Content Include="Graphics\debugroom1f1.png" />
     <Content Include="Graphics\deepura1f1.png" />
     <Content Include="Graphics\deepuranet.png" />
@@ -2475,7 +2477,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DilectX\" />
     <Folder Include="ShanghaiEXE\Files\music\" />
   </ItemGroup>
   <ItemGroup>

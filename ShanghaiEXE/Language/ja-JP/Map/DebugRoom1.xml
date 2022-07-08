@@ -44,4 +44,5 @@
   <Dialogue Key="Map.DebugRoom1BlockerQuestion" Value="[Blocker Battle Test]" Face="SoundOnly" Mono="False" />
   <Dialogue Key="Map.DebugRoom1ShanghaiDSQuestion" Value="[ShanghaiDS Battle Test]" Face="Shanghai" Mono="False" />
   <Text Key="Map.DebugRoom1StartCancel" Value="Start,Cancel" />
+  <Dialogue Key="Map.DebugRoom1CirnoBXQuestion" Value="[CirnoBX Battle Test]" Face="SoundOnly" Mono="False" />
 </data>

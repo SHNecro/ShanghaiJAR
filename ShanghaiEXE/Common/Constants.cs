@@ -6,6 +6,8 @@ namespace NSShanghaiEXE.Common
 {
     public class Constants
     {
+        public const int ArbitraryLargeValue = 99999;
+
         public static readonly Size ScreenSize = new Size(240, 160);
 
         public static readonly List<byte[,]> PanelLayouts = new List<byte[,]>

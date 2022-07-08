@@ -8,6 +8,7 @@ using NSEnemy;
 using NSObject;
 using Common.Vectors;
 using System.Drawing;
+using System;
 
 namespace NSAttack
 {
@@ -18,9 +19,13 @@ namespace NSAttack
         private readonly int movespeed;
         private readonly int roop;
         private readonly int roopcount;
+        private readonly bool panelTrail;
+
+        private readonly Func<BouzuTornado, Point> targetingFunc;
         private int count;
         private bool move;
         private int angle;
+
 
         public BouzuTornado(
           IAudioEngine so,
@@ -32,7 +37,9 @@ namespace NSAttack
           ChipBase.ELEMENT ele,
           int s,
           int movespeed,
-          int movecount)
+          int movecount,
+          bool panelTrail = true,
+          Func<BouzuTornado, Point> targetingFunc = null)
           : base(so, p, pX, pY, u, po, ele)
         {
             if (!this.flag)
@@ -55,6 +62,9 @@ namespace NSAttack
             this.sound.PlaySE(SoundEffect.shoot);
             if (this.union == Panel.COLOR.red)
                 movespeed *= -1;
+
+            this.panelTrail = panelTrail;
+            this.targetingFunc = targetingFunc;
         }
 
         public override void PositionDirectSet()
@@ -67,7 +77,7 @@ namespace NSAttack
 
         public override void InitAfter()
         {
-            Point point = this.RandomTarget();
+            Point point = this.targetingFunc?.Invoke(this) ?? this.RandomTarget();
             if (point.Y == this.position.Y && point.X == this.position.X)
                 this.angle = 5;
             if (point.Y < this.position.Y)
@@ -106,30 +116,39 @@ namespace NSAttack
 
         public override void Updata()
         {
-            if (this.InArea && !this.StandPanel.Hole)
+            if (this.panelTrail)
             {
-                switch (this.element)
+                if (this.InArea && !this.StandPanel.Hole)
                 {
-                    case ChipBase.ELEMENT.heat:
-                        this.StandPanel.State = Panel.PANEL._burner;
-                        break;
-                    case ChipBase.ELEMENT.aqua:
-                        this.StandPanel.State = Panel.PANEL._ice;
-                        break;
-                    case ChipBase.ELEMENT.eleki:
-                        this.StandPanel.State = Panel.PANEL._thunder;
-                        break;
-                    case ChipBase.ELEMENT.leaf:
-                        this.StandPanel.State = Panel.PANEL._grass;
-                        break;
-                    case ChipBase.ELEMENT.poison:
-                        this.StandPanel.State = Panel.PANEL._poison;
-                        break;
-                    case ChipBase.ELEMENT.earth:
-                        this.StandPanel.State = Panel.PANEL._sand;
-                        break;
+                    switch (this.element)
+                    {
+                        case ChipBase.ELEMENT.heat:
+                            this.StandPanel.State = Panel.PANEL._burner;
+                            break;
+                        case ChipBase.ELEMENT.aqua:
+                            this.StandPanel.State = Panel.PANEL._ice;
+                            break;
+                        case ChipBase.ELEMENT.eleki:
+                            this.StandPanel.State = Panel.PANEL._thunder;
+                            break;
+                        case ChipBase.ELEMENT.leaf:
+                            this.StandPanel.State = Panel.PANEL._grass;
+                            break;
+                        case ChipBase.ELEMENT.poison:
+                            this.StandPanel.State = Panel.PANEL._poison;
+                            break;
+                        case ChipBase.ELEMENT.earth:
+                            this.StandPanel.State = Panel.PANEL._sand;
+                            break;
+                    }
                 }
             }
+            else
+            {
+                if (this.hitting)
+                    this.PanelBright();
+            }
+
             if (this.move)
             {
                 if (this.angle < 6)
@@ -140,7 +159,7 @@ namespace NSAttack
                         this.PositionDirectSet();
                         this.move = false;
                         this.count = 0;
-                        Point point = this.RandomTarget();
+                        Point point = this.targetingFunc?.Invoke(this) ?? this.RandomTarget();
                         if (point.Y == this.position.Y && point.X == this.position.X)
                             this.angle = 5;
                         if (point.Y < this.position.Y && this.InAreaCheck(new Point(this.position.X, this.position.Y - 1)))
@@ -184,7 +203,7 @@ namespace NSAttack
         {
             if (this.over || !this.flag)
                 return;
-            double x1 = positionDirect.X;
+            double x1 = positionDirect.X + 4 * this.UnionRebirth;
             Point shake = this.Shake;
             double x2 = shake.X;
             double num1 = x1 + x2;

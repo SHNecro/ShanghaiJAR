@@ -2,6 +2,7 @@
 using NSBattle;
 using NSChip;
 using NSShanghaiEXE.InputOutput.Audio;
+using NSShanghaiEXE.Common;
 using NSShanghaiEXE.InputOutput.Rendering;
 using NSGame;
 using Common.Vectors;
@@ -18,8 +19,6 @@ namespace NSEnemy
 {
     internal class HeavenBarrier : EnemyBase
     {
-        private const int ArbitraryLargeValue = 99999;
-
         private static readonly Rectangle SparkleTextureRect = new Rectangle(450, 780, 5, 5);
         private static readonly Rectangle DamageBlobTextureRect = new Rectangle(200, 160, 9, 9);
 
@@ -95,8 +94,8 @@ namespace NSEnemy
             this.dropchips[4].chip = new Reygun(this.sound);
             this.dropchips[4].codeNo = 3;
 
-            this.hpmax = ArbitraryLargeValue;
-            this.hpprint = ArbitraryLargeValue;
+            this.hpmax = Constants.ArbitraryLargeValue;
+            this.hpprint = Constants.ArbitraryLargeValue;
             this.neutlal = true;
             this.badstatusresist = true;
 
@@ -220,7 +219,7 @@ namespace NSEnemy
                 {
                     c.controller = this.controller;
                     this.controller.totalHp += c.Hp;
-                    c.Hp = ArbitraryLargeValue;
+                    c.Hp = Constants.ArbitraryLargeValue;
                     c.deathOrder = newDeathOrder++;
                 });
                 
@@ -243,7 +242,7 @@ namespace NSEnemy
                 this.controller.infoPanel = new BarrierInfoPanel(this.sound, this.parent, this.UnionEnemy, infoPositionX, infoPositionY, elem => this.controller.damageBuildup[elem]);
                 this.controller.parent.objects.Add(this.controller.infoPanel);
 
-                this.parent.custom.escapeV = ArbitraryLargeValue;
+                this.parent.custom.escapeV = Constants.ArbitraryLargeValue;
             }
         }
 
@@ -511,7 +510,7 @@ namespace NSEnemy
                         this.waittime = 0;
 
                         this.invincibility = true;
-                        this.invincibilitytime = ArbitraryLargeValue;
+                        this.invincibilitytime = Constants.ArbitraryLargeValue;
                     }
                     break;
                 case MOTION.Retaliating:

@@ -8,9 +8,12 @@ namespace NSShanghaiEXE.ExtensionMethods
 		public static Point WithOffset(this Point origin, int xOff, int yOff)
 		{
 			return new Point(origin.X + xOff, origin.Y + yOff);
-		}
+        }
 
-		public static Rectangle WithOffset(this Rectangle origin, int xOff, int yOff)
+        public static Point WithOffset(this Point origin, Point offset)
+            => origin.WithOffset(offset.X, offset.Y);
+
+        public static Rectangle WithOffset(this Rectangle origin, int xOff, int yOff)
 		{
 			return new Rectangle(origin.X + xOff, origin.Y + yOff, origin.Width, origin.Height);
 		}

@@ -111,7 +111,7 @@ namespace NSEffect
                                     var screenPos = this.FlowerToScreenPos(flower.Location);
 
                                     var randomDist = Random.NextDouble() * flower.Width / 2;
-                                    var randomAngle = random.NextDouble() * 2 * Math.PI;
+                                    var randomAngle = Random.NextDouble() * 2 * Math.PI;
                                     var sparkleX = screenPos.X + (int)(randomDist * Math.Cos(randomAngle));
                                     var sparkleY = screenPos.Y + (int)(randomDist * Math.Sin(randomAngle));
 
@@ -169,7 +169,7 @@ namespace NSEffect
                             else if (this.frame % 5 == 0)
                             {
                                 var randomDist = Random.NextDouble() * 20 / 2;
-                                var randomAngle = random.NextDouble() * 2 * Math.PI;
+                                var randomAngle = Random.NextDouble() * 2 * Math.PI;
                                 var sparkleX = this.peachPosition.Value.X + (int)(randomDist * Math.Cos(randomAngle));
                                 var sparkleY = this.peachPosition.Value.Y + (int)(randomDist * Math.Sin(randomAngle));
 
@@ -203,7 +203,7 @@ namespace NSEffect
                             if (this.frame % 3 == 0)
                             {
                                 var randomDist = Random.NextDouble() * 20 / 2;
-                                var randomAngle = random.NextDouble() * 2 * Math.PI;
+                                var randomAngle = Random.NextDouble() * 2 * Math.PI;
                                 var sparkleX = this.peachPosition.Value.X + (int)(randomDist * Math.Cos(randomAngle));
                                 var sparkleY = this.peachPosition.Value.Y + (int)(randomDist * Math.Sin(randomAngle));
 
@@ -233,7 +233,7 @@ namespace NSEffect
                             if (this.frame % 3 == 0)
                             {
                                 var randomDist = Random.NextDouble() * 20 / 2;
-                                var randomAngle = random.NextDouble() * 2 * Math.PI;
+                                var randomAngle = Random.NextDouble() * 2 * Math.PI;
                                 var sparkleX = this.peachPosition.Value.X + (int)(randomDist * Math.Cos(randomAngle));
                                 var sparkleY = this.peachPosition.Value.Y + (int)(randomDist * Math.Sin(randomAngle));
 
