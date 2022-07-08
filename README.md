@@ -31,19 +31,11 @@ Visual Studio 2017 is required to compile the project due to the C# 7 syntax gen
 
 Additionally, the C++ development environment must be installed for Visual Studio in order for freetype6.dll to be copied to the output directory.
 
-## Latest Release (0.550eWIP, 12/19/21)
+## Latest Release (0.560eWIP, 7/7/22)
 
 ### Changelog:
-- Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
-- Added retcon system to fix savegames from previous versions
-- Reworked Library page for potential issues with chip IDs, PAs
-- Reworked PA system for potential issues adding new PAs
-- Minor balancing of DruidMan, minor difficulty increase for stunlocking
-- Added postgame area 1 story cutscenes
-- Added postgame area 1 mechanics
-- Moved some constant data out to external files so map editor can edit (data/data/*.xml)
-- Added editors for external data
-- Added music player, audio engine to map editor for bgm/sound effects
+- Implemented 1 of 4? postgame bosses from teased animations / attack patterns (multiple reworks needed to convert into gameplay).
+  - Available in debug area for playtesting
 
 ### Release plans (No release dates):
 - Few/no repo updates until next major release either on remaining repos or as a dropped download link
@@ -58,6 +50,11 @@ Additionally, the C++ development environment must be installed for Visual Studi
 - **0.70+**: Additional requests to implement bosses that have some teased chip art
 - eventually: netplay
 
-#### In Progress (as of 12/19/20):
-- Implementation of postgame battles (barrier, guardians, special event)
-- Implementation of postgame rewards (+unlocking existing Youmu, Yuyuko fights)
+#### In Progress / planned for next release (as of 7/7/22):
+- Implementation of 1 postgame boss from last of teased animations (probably less ambitious adjustments to attack patterns)
+- Design/implementation of 1 postgame boss from single still image
+- Balance pass / alternate patterns of existing but unused boss
+- Further design/implementation of 2nd postgame area mechanics
+- Area design, story cutscenes
+- Chips/rewards for postgame
+- New set of requests

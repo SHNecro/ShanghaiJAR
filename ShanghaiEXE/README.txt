@@ -1,5 +1,5 @@
 ﻿###############################################
-ShanghaiEXE Genso Network 0.550e1 (12/19/2021)
+ShanghaiEXE Genso Network 0.560eWIP1 (7/7/2022)
 ###############################################
 
 -------- Installation --------
@@ -65,6 +65,8 @@ The OpenAL audio options is currently known to be somewhat unstable and
 not recommended for Windows, as it was rushed in order to support Linux.
 
 -------- Changelog --------
+---- 0.560eWIP1 (7/7/2022) ----
+Implemented postgame boss in debug area
 ---- 0.550e1 (12/19/2021) ----
 Fleshed out empty areas during postgame, BBS, mistakenly-omitted SP viruses
 Completed postgame area 1, incl battles, reward addons
