@@ -70,6 +70,9 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="OggVorbis, Version=1.0.4656.10, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
@@ -2492,7 +2495,8 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>#if not "$(ConfigurationName)"=="Debug Program Only" (
-    "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE/MapData" "$(TargetDir)data"
+#      chmod +x "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe"
+      "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE/MapData" "$(TargetDir)data"
 #    mkdir "$(TargetDir)data/data"
     cp -r "$(ProjectDir)Data/data" "$(TargetDir)data/data"
 

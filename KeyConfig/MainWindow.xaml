@@ -18,6 +18,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <TabControl MinHeight="370">
             <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Config}">

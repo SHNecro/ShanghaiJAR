@@ -5,15 +5,10 @@
     <RootNamespace>Post_Build_Steps</RootNamespace>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <CustomCommands>
-      <CustomCommands>
-        <Command>
-          <type>AfterBuild</type>
-          <command>rm -rf "${SolutionDir}/${ProjectConfigName}"; cp -r "${SolutionDir}/ShanghaiEXE/${ProjectConfigName}" "${SolutionDir}/${ProjectConfigName}"</command>
-        </Command>
-      </CustomCommands>
-    </CustomCommands>
+  <PropertyGroup>
+    <PostBuildEvent>
+      rm -rf "$(SolutionDir)$(Configuration)"; cp -r "$(SolutionDir)ShanghaiEXE/$(Configuration)" "$(SolutionDir)$(Configuration)"
+    </PostBuildEvent>
   </PropertyGroup>
   <Target Name="SpicNSpan" AfterTargets="Clean">
     <Exec Command="rm -rf &quot;$(SolutionDir)$(ConfigurationName)&quot;" />

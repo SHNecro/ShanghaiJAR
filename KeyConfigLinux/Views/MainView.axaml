@@ -1,0 +1,362 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:sys="clr-namespace:System;assembly=mscorlib"
+            xmlns:views="clr-namespace:KeyConfigLinux.Views"
+            xmlns:viewModels="clr-namespace:KeyConfigLinux.ViewModels"
+            xmlns:converters="clr-namespace:KeyConfigLinux.Converters"
+            xmlns:controls="clr-namespace:KeyConfigLinux.Controls"
+            mc:Ignorable="d"
+            x:Class="KeyConfigLinux.Views.MainView">
+    <Design.DataContext>
+        <viewModels:MainViewModel />
+    </Design.DataContext>
+
+    <UserControl.Resources>
+        <converters:EqualsValueConverter x:Key="ValueEqualsConverter" />
+        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+        <converters:RegionToTranslatedConverter x:Key="RegionToTranslatedConverter" />
+        <converters:ControlTagToStringConverter x:Key="ControlTagToStringConverter" />
+        <converters:LocaleTupleToStringConverter x:Key="LocaleTupleToStringConverter" />
+        <converters:BindingToConverterParameterMultiConverter x:Key="BindingToConverterParameterMultiConverter" />
+    </UserControl.Resources>
+    <UserControl.Styles>
+        <Style Selector="HeaderedContentControl">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border ZIndex="1" Padding="5,0,5,0" Background="White" Margin="5,0,0,0">
+                                <TextBlock TextBlock.FontWeight="Bold" Text="{TemplateBinding Header}" />
+                            </Border>
+                            <Border Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,10,0,0"
+                                    Padding="4,8,4,4"
+                                    BorderBrush="LightGray"
+                                    CornerRadius="3"
+                                    BorderThickness="1">
+                            <ContentPresenter Content="{TemplateBinding Content}" />
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style Selector="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+    </UserControl.Styles>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TabControl DataContext="{Binding ConfigWrapper}"
+                    MinHeight="370">
+            <TabControl.Styles>
+                <Style Selector="TabItem">
+                    <Setter Property="HeaderTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding}" FontSize="16" />
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Styles>
+            <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Config}">
+                <Canvas>
+                    <HeaderedContentControl Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=ScreenSize}"
+                                            Height="214">
+                        <Grid>
+                            <StackPanel Orientation="Vertical" IsVisible="{Binding !Fullscreen}">
+                                <StackPanel.Styles>
+                                    <Style Selector="RadioButton">
+                                        <Setter Property="Margin" Value="5,3" />
+                                    </Style>
+                                </StackPanel.Styles>
+                                <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Sizex1}" IsChecked="{Binding ScaleFactor, Mode=TwoWay, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=1}"/>
+                                <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Sizex2}" IsChecked="{Binding ScaleFactor, Mode=TwoWay, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=2}"/>
+                                <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Sizex3}" IsChecked="{Binding ScaleFactor, Mode=TwoWay, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=3}"/>
+                                <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Sizex4}" IsChecked="{Binding ScaleFactor, Mode=TwoWay, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=4}"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=SizeCustom}"
+                                                 IsChecked="{Binding IsCustomScaleFactor, Mode=TwoWay}">
+                                    </RadioButton>
+                                    <TextBlock Text="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=SizeCustomLeft}"/>
+                                    <TextBox Text="{Binding ScaleFactor, Mode=TwoWay}" Width="25"/>
+                                    <TextBlock Text="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=SizeCustomRight}"/>
+                                </StackPanel>
+                            </StackPanel>
+                            <Grid IsVisible="{Binding Fullscreen}">
+                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <CheckBox IsEnabled="{Binding RenderEngine, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=OpenGL}"
+                                              Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=StretchFullscreen}">
+                                        <CheckBox.Styles>
+                                            <Style Selector="CheckBox">
+                                                <Setter Property="IsChecked" Value="{Binding !StretchFullscreen}" />
+                                            </Style>
+                                            <Style Selector="CheckBox[IsEnabled=False]">
+                                                <Setter Property="IsChecked" Value="False" />
+                                            </Style>
+                                        </CheckBox.Styles>
+                                    </CheckBox>
+                                    <TextBlock Text="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=StretchFullscreenOpenGL}"
+                                               Classes.StretchSupported="{Binding RenderEngine, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=OpenGL}">
+                                        <TextBlock.Styles>
+                                            <Style Selector="TextBlock.StretchSupported">
+                                                <Setter Property="IsVisible" Value="False" />
+                                            </Style>
+                                        </TextBlock.Styles>
+                                    </TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </HeaderedContentControl>
+                    <HeaderedContentControl Canvas.Top="220" Width="330" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=RefreshRate}">
+                        <Grid HorizontalAlignment="Stretch">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.Styles>
+                                <Style Selector="StackPanel">
+                                    <Setter Property="Orientation" Value="Horizontal" />
+                                    <Setter Property="Margin" Value="2,5" />
+                                </Style>
+                                <Style Selector="TextBox">
+                                    <Setter Property="Width" Value="50" />
+                                    <Setter Property="Margin" Value="5,0" />
+                                </Style>
+                            </Grid.Styles>
+                            <StackPanel Grid.Column="0">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DisplayRate}" />
+                                    <TextBox Text="{Binding FPS}" />
+                                    <TextBlock Text="fps" />
+                                </StackPanel>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=TurboRate}" />
+                                    <TextBox Text="{Binding TurboUPS}" />
+                                    <TextBlock Text="ups" />
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </HeaderedContentControl>
+                    <HeaderedContentControl Canvas.Left="190" Width="150" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=WindowedHeader}">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel.Styles>
+                                <Style Selector="RadioButton">
+                                    <Setter Property="Margin" Value="10,3" />
+                                </Style>
+                            </StackPanel.Styles>
+                            <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Windowed}" IsChecked="{Binding !Fullscreen}"/>
+                            <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Fullscreen}" IsChecked="{Binding Fullscreen}"/>
+                        </StackPanel>
+                    </HeaderedContentControl>
+                    <HeaderedContentControl Canvas.Top="114" Canvas.Left="190" Width="150" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=InactiveHeader}">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel.Styles>
+                                <Style Selector="RadioButton">
+                                    <Setter Property="Margin" Value="10,3" />
+                                </Style>
+                            </StackPanel.Styles>
+                            <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Running}" IsChecked="{Binding PausedWhenInactive, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=False}"/>
+                            <RadioButton Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Paused}" IsChecked="{Binding PausedWhenInactive, Converter={StaticResource ValueEqualsConverter}, ConverterParameter=True}"/>
+                        </StackPanel>
+                    </HeaderedContentControl>
+                    <HeaderedContentControl Canvas.Top="300" Width="350" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=BGMVolume}">
+                        <DockPanel LastChildFill="True">
+                            <DockPanel LastChildFill="True">
+                                <TextBlock DockPanel.Dock="Right" Text="{Binding VolumeBGM}" Width="30"/>
+                                <Slider DockPanel.Dock="Right" Value="{Binding VolumeBGM}" Minimum="0" Maximum="200" TickFrequency="1" IsSnapToTickEnabled="True"/>
+                            </DockPanel>
+                        </DockPanel>
+                    </HeaderedContentControl>
+                    <HeaderedContentControl Canvas.Top="380" Width="350" Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=SFXVolume}">
+                        <DockPanel LastChildFill="True">
+                            <TextBlock DockPanel.Dock="Right" Text="{Binding VolumeSE}" Width="30"/>
+                            <Slider DockPanel.Dock="Right" Value="{Binding VolumeSE}" Minimum="0" Maximum="200" TickFrequency="1" IsSnapToTickEnabled="True"/>
+                        </DockPanel>
+                    </HeaderedContentControl>
+                    <Grid Canvas.Top="460" Width="350">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <!--
+                        <HeaderedContentControl Grid.Column="0"
+                                  Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Rendering}">
+                            <ComboBox VerticalAlignment="Center"
+                                      HorizontalAlignment="Stretch"
+                                      Tag="{Binding RenderEngine}"
+                                      Initialized="SelectTagItem">
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DirectX9}" Tag="DirectX9"/>
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=OpenGL}" Tag="OpenGL"/>
+                            </ComboBox>
+                        </HeaderedContentControl>
+                        <HeaderedContentControl Grid.Column="1"
+                                  Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Audio}">
+                            <ComboBox VerticalAlignment="Center"
+                                      HorizontalAlignment="Stretch"
+                                      Tag="{Binding AudioEngine}"
+                                      Initialized="SelectTagItem">
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DirectSound}" Tag="DirectSound"/>
+                                <ComboBoxItem Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=OpenAL}" Tag="OpenAL"/>
+                            </ComboBox>
+                        </HeaderedContentControl>
+                        -->
+                        <HeaderedContentControl Grid.Column="0"
+                                  Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Rendering}">
+                            <ComboBox VerticalAlignment="Center"
+                                      HorizontalAlignment="Stretch"
+                                      Items="{Binding RenderEngineEntries}"
+                                      SelectedItem="{Binding SelectedRenderEngineEntry}">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Item1}" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </HeaderedContentControl>
+                        <HeaderedContentControl Grid.Column="1"
+                                  Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Audio}">
+                            <ComboBox VerticalAlignment="Center"
+                                      HorizontalAlignment="Stretch"
+                                      Items="{Binding AudioEngineEntries}"
+                                      SelectedItem="{Binding SelectedAudioEngineEntry}">
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Item1}" />
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                        </HeaderedContentControl>
+                    </Grid>
+                </Canvas>
+            </TabItem>
+            <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Keyboard}"
+                     Tag="{Binding Language}">
+                <StackPanel Orientation="Vertical" DataContext="{Binding KeyboardMapping}"
+                            Grid.IsSharedSizeScope="True">
+                    <StackPanel.Styles>
+                        <Style Selector="controls|EntryField">
+                            <Setter Property="Margin" Value="5" />
+                        </Style>
+                    </StackPanel.Styles>
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyUp}" 
+                                       EntryText="{Binding Up, Mode=TwoWay}"/>
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyRight}" 
+                                       EntryText="{Binding Right, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyDown}" 
+                                       EntryText="{Binding Down, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyLeft}" 
+                                       EntryText="{Binding Left, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyA}" 
+                                       EntryText="{Binding A, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyB}" 
+                                       EntryText="{Binding B, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyL}" 
+                                       EntryText="{Binding L, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyR}" 
+                                       EntryText="{Binding R, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyStart}" 
+                                       EntryText="{Binding Start, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeySelect}" 
+                                       EntryText="{Binding Select, Mode=TwoWay}" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=KeyTurbo}" 
+                                       EntryText="{Binding Turbo, Mode=TwoWay}"
+                                       LastEntry="True" />
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=GamePad}"
+                     Tag="{Binding Language}">
+                <StackPanel Orientation="Vertical" DataContext="{Binding ControllerMapping}"
+                            Grid.IsSharedSizeScope="True">
+                    <StackPanel.Styles>
+                        <Style Selector="controls|EntryField">
+                            <Setter Property="Margin" Value="5" />
+                        </Style>
+                    </StackPanel.Styles>
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadUp}" 
+                                       EntryText="{Binding Up, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadRight}" 
+                                       EntryText="{Binding Right, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadDown}" 
+                                       EntryText="{Binding Down, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadLeft}" 
+                                       EntryText="{Binding Left, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadA}" 
+                                       EntryText="{Binding A, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadB}" 
+                                       EntryText="{Binding B, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadL}" 
+                                       EntryText="{Binding L, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadR}" 
+                                       EntryText="{Binding R, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadStart}" 
+                                       EntryText="{Binding Start, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadSelect}" 
+                                       EntryText="{Binding Select, Mode=TwoWay}"
+                                       IsKeyboardEntry="False" />
+                    <controls:EntryField LabelText="{Binding $parent[1].Tag, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=PadTurbo}" 
+                                       EntryText="{Binding Turbo, Mode=TwoWay}"
+                                       IsKeyboardEntry="False"
+                                       LastEntry="True" />
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Extra}">
+                <StackPanel Orientation="Vertical">
+                    <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DialogueTester}"
+                              IsChecked="{Binding ShowDialogueTester}"/>
+                    <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=AllowTurboSlowdown}"
+                              IsChecked="{Binding AllowTurboSlowdown}"/>
+                    <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=DisableBGMOverride}"
+                              IsChecked="{Binding DisableBGMOverride}"/>
+                    <CheckBox Content="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=FixEngrish}"
+                              IsChecked="{Binding FixEngrish}"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <Grid DataContext="{Binding ConfigWrapper}" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <HeaderedContentControl Grid.Column="0"
+                      Header="{Binding Language, Converter={StaticResource RegionToTranslatedConverter}, ConverterParameter=Language}">
+                <ComboBox VerticalAlignment="Center"
+                          HorizontalAlignment="Stretch"
+                          Items="{x:Static converters:RegionToTranslatedConverter.Locales}"
+                          SelectedItem="{Binding SelectedLanguageEntry}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Item1}" />
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </HeaderedContentControl>
+        </Grid>
+        <Button Grid.Row="2" Height="32" Content="Save Changes" Command="{Binding SaveChangesCommand}"/>
+    </Grid>
+</UserControl>

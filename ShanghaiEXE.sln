@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer", "MusicPlayer\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVorbis", "NVorbis\NVorbis.csproj", "{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConfigLinux", "KeyConfigLinux\KeyConfigLinux.csproj", "{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConfigLinux.Desktop", "KeyConfigLinux.Desktop\KeyConfigLinux.Desktop.csproj", "{10916854-5E5B-4C76-978A-70F6F579FA66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug Full Build|Any CPU = Debug Full Build|Any CPU
@@ -186,6 +190,38 @@ Global
 		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Full Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Full Build|Any CPU.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Full Build|x86.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Full Build|x86.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Program Only|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Program Only|Any CPU.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Program Only|x86.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug Program Only|x86.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Release Full Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Release Full Build|Any CPU.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Release Full Build|x86.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Release Full Build|x86.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A61E57-D5B3-454A-9EF7-DE7EABCE33C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Full Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Full Build|Any CPU.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Full Build|x86.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Full Build|x86.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Program Only|Any CPU.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Program Only|Any CPU.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Program Only|x86.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug Program Only|x86.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Release Full Build|Any CPU.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Release Full Build|Any CPU.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Release Full Build|x86.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Release Full Build|x86.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10916854-5E5B-4C76-978A-70F6F579FA66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
