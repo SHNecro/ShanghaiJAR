@@ -18,8 +18,10 @@
     <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="MessageBox.Avalonia" Version="2.0.2" />
+    <PackageReference Include="OpenTK" Version="3.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KeyConfigLinux\KeyConfigLinux.csproj" />
+    <ProjectReference Include="..\KeyConfigLinux\KeyConfigLinux.csproj" IncludeAssets="True" />
   </ItemGroup>
 </Project>

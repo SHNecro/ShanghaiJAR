@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Xml;
 using Avalonia.Data;
 using Avalonia.Data.Converters;
@@ -62,7 +63,15 @@ namespace KeyConfigLinux.Converters
         {
             Language[region] = new Dictionary<string, string>();
             var languageDoc = new XmlDocument();
-            languageDoc.Load($"language/{region}/Config.xml");
+            var xmlFileContents = File.ReadAllText($"language/{region}/Config.xml");
+
+            var bom = Encoding.UTF8.GetString(Encoding.UTF8.GetPreamble());
+            if (xmlFileContents.StartsWith(bom, StringComparison.Ordinal))
+            {
+                xmlFileContents = xmlFileContents.Remove(0, bom.Length);
+            }
+
+            languageDoc.Load(new StringReader(xmlFileContents));
 
             var text = languageDoc.SelectNodes("data/Text");
             foreach (XmlNode node in text)

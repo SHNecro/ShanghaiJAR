@@ -18,4 +18,16 @@
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Language\en-US\Config.xml" />
+    <ContentWithTargetPath Include="Language\en-US\Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>language\en-US\Config.xml</TargetPath>
+    </ContentWithTargetPath>
+    <None Remove="Language\ja-JP\Config.xml" />
+    <ContentWithTargetPath Include="Language\ja-JP\Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>language\ja-JP\Config.xml</TargetPath>
+    </ContentWithTargetPath>
+  </ItemGroup>
 </Project>
