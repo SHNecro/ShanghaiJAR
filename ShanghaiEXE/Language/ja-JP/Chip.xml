@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <!-- Chip -->
   <Text Key="Chip.AquaStormName" Value="タイフーン" />
@@ -735,6 +735,13 @@
   <Text Key="Chip.UthuhoDSDesc" Value="[BLAST WITH,RAVENOUS,FLAMES]" />
   <Text Key="Chip.FlandreDSName" Value="[FlandreDS]" />
   <Text Key="Chip.FlandreDSDesc" Value="[THE POWER,THAT BREAKS,ANYTHING]" />
+
+  <Text Key="Chip.FlandreV1Name" Value="Flandre" />
+  <Text Key="Chip.FlandreV1Desc" Value="Use fire attack,then laser!," />
+  <Text Key="Chip.FlandreV2Name" Value="FlandreV2" />
+  <Text Key="Chip.FlandreV2Desc" Value="Use fire attack,then laser!," />
+  <Text Key="Chip.FlandreV3Name" Value="FlandreV3" />
+  <Text Key="Chip.FlandreV3Desc" Value="Use fire attack,then laser!," />
 
   <Text Key="Chip.ErrorName" Value="ERROR" />
   <Text Key="Chip.ErrorDesc" Value="MSG NOT USED" />
