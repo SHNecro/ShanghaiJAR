@@ -1,4 +1,4 @@
-﻿using NSAttack;
+using NSAttack;
 using NSBattle;
 using NSBattle.Character;
 using NSShanghaiEXE.InputOutput.Audio;
@@ -227,7 +227,7 @@ namespace NSChip
                 if (this.end)
                     return;
                 this._rect = new Rectangle(78 * this.animePoint.X, 0, 78, 78);
-                this._position = new Vector2((float)(xPosition * 40.0 + 32.0) * this.UnionRebirth(character.union), (float)(character.position.Y * 24.0 + 58.0));
+                this._position = new Vector2((float)(xPosition * 40.0 + 20.0) * this.UnionRebirth(character.union), (float)(character.position.Y * 24.0 + 46.0));
                 dg.DrawImage(dg, "flandre", this._rect, false, this._position, character.union == Panel.COLOR.red, Color.White);
             }
             else
