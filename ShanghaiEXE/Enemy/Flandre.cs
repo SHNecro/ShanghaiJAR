@@ -1,4 +1,4 @@
-﻿using NSAttack;
+using NSAttack;
 using NSBattle;
 using NSBattle.Character;
 using NSChip;
@@ -103,60 +103,60 @@ namespace NSEnemy
             switch (this.version)
             {
                 case 1:
-                    this.dropchips[0].chip = new SakuyaV1(this.sound);
+                    this.dropchips[0].chip = new FlandreV1(this.sound);
                     this.dropchips[0].codeNo = 0;
-                    this.dropchips[1].chip = new SakuyaV1(this.sound);
+                    this.dropchips[1].chip = new FlandreV1(this.sound);
                     this.dropchips[1].codeNo = 0;
-                    this.dropchips[2].chip = new SakuyaV1(this.sound);
+                    this.dropchips[2].chip = new FlandreV1(this.sound);
                     this.dropchips[2].codeNo = 0;
-                    this.dropchips[3].chip = new SakuyaV1(this.sound);
+                    this.dropchips[3].chip = new FlandreV1(this.sound);
                     this.dropchips[3].codeNo = 0;
-                    this.dropchips[4].chip = new SakuyaV1(this.sound);
+                    this.dropchips[4].chip = new FlandreV1(this.sound);
                     this.dropchips[4].codeNo = 0;
                     this.havezenny = 0;
                     break;
                 case 2:
-                    this.dropchips[0].chip = new SakuyaV1(this.sound);
+                    this.dropchips[0].chip = new FlandreV2(this.sound);
                     this.dropchips[0].codeNo = 0;
-                    this.dropchips[1].chip = new SakuyaV1(this.sound);
+                    this.dropchips[1].chip = new FlandreV2(this.sound);
                     this.dropchips[1].codeNo = 0;
-                    this.dropchips[2].chip = new SakuyaV1(this.sound);
+                    this.dropchips[2].chip = new FlandreV2(this.sound);
                     this.dropchips[2].codeNo = 0;
-                    this.dropchips[3].chip = new SakuyaV1(this.sound);
+                    this.dropchips[3].chip = new FlandreV2(this.sound);
                     this.dropchips[3].codeNo = 0;
-                    this.dropchips[4].chip = new SakuyaV1(this.sound);
+                    this.dropchips[4].chip = new FlandreV2(this.sound);
                     this.dropchips[4].codeNo = 0;
                     this.havezenny = 0;
                     break;
                 case 3:
-                    this.dropchips[0].chip = new SakuyaV1(this.sound);
+                    this.dropchips[0].chip = new FlandreV1(this.sound);
                     this.dropchips[0].codeNo = 0;
-                    this.dropchips[1].chip = new SakuyaV1(this.sound);
+                    this.dropchips[1].chip = new FlandreV1(this.sound);
                     this.dropchips[1].codeNo = 0;
-                    this.dropchips[2].chip = new SakuyaV1(this.sound);
+                    this.dropchips[2].chip = new FlandreV2(this.sound);
                     this.dropchips[2].codeNo = 0;
-                    this.dropchips[3].chip = new SakuyaV1(this.sound);
+                    this.dropchips[3].chip = new FlandreV2(this.sound);
                     this.dropchips[3].codeNo = 0;
-                    this.dropchips[4].chip = new SakuyaV1(this.sound);
+                    this.dropchips[4].chip = new FlandreV3(this.sound);
                     this.dropchips[4].codeNo = 0;
                     this.havezenny = 800;
                     break;
                 default:
-                    this.dropchips[0].chip = new SakuyaV1(this.sound);
+                    this.dropchips[0].chip = new FlandreV1(this.sound);
                     this.dropchips[0].codeNo = 1;
-                    this.dropchips[1].chip = new SakuyaV1(this.sound);
+                    this.dropchips[1].chip = new FlandreV2(this.sound);
                     this.dropchips[1].codeNo = 1;
-                    this.dropchips[2].chip = new SakuyaV1(this.sound);
+                    this.dropchips[2].chip = new FlandreV2(this.sound);
                     this.dropchips[2].codeNo = 1;
-                    this.dropchips[3].chip = new SakuyaV1(this.sound);
+                    this.dropchips[3].chip = new FlandreV1(this.sound);
                     this.dropchips[3].codeNo = 2;
-                    this.dropchips[4].chip = new SakuyaV1(this.sound);
+                    this.dropchips[4].chip = new FlandreV3(this.sound);
                     this.dropchips[4].codeNo = 1;
                     this.havezenny = 9000;
                     if (this.version < 8)
                         break;
-                    this.dropchips[4].chip = new SakuyaX(this.sound);
-                    this.dropchips[4].codeNo = this.Random.Next(4);
+                    this.dropchips[4].chip = new FlandreDS(this.sound);
+                    this.dropchips[4].codeNo = 0);
                     this.havezenny = 18000;
                     break;
             }
