@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
   <PropertyGroup>
@@ -379,6 +379,9 @@
     <Compile Include="Chip\FlandreDS.cs" />
     <Compile Include="Chip\DruidMnV1.cs" />
     <Compile Include="Chip\Error.cs" />
+    <Compile Include="Chip\FlandreV1.cs" />
+    <Compile Include="Chip\FlandreV2.cs" />
+    <Compile Include="Chip\FlandreV3.cs" />
     <Compile Include="Chip\MimaDS.cs" />
     <Compile Include="Chip\RanDS.cs" />
     <Compile Include="Chip\TurtleHockey.cs" />
