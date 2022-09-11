@@ -156,7 +156,7 @@ namespace NSEnemy
                     if (this.version < 8)
                         break;
                     this.dropchips[4].chip = new FlandreDS(this.sound);
-                    this.dropchips[4].codeNo = 0);
+                    this.dropchips[4].codeNo = 0;
                     this.havezenny = 18000;
                     break;
             }
