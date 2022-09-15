@@ -51,7 +51,7 @@
   <!-- 比那名居さんのお見舞いですか？ -->
   <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue1FaceNurse" Value="Are you here to see Tenshi?" Face="Nurse" Mono="False" />
   <!-- 病室はお二階ですよエレベーターをお使いくださいね -->
-  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue2FaceNurse" Value="Miss Hananai’s room is on the,second floor. The elevator,should take you right up." Face="Nurse" Mono="False" />
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue2FaceNurse" Value="Miss Hinanai’s room is on the,second floor. The elevator,should take you right up." Face="Nurse" Mono="False" />
   <!-- 待ち時間がヒマでしたらチップトレーダーなんてどうでしょうか？ -->
   <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage3Dialogue1FaceNurse" Value="If you’re waiting for someone，,check out the chip trader." Face="Nurse" Mono="False" />
   <!-- よく家族のお見舞いに来た子どもたちがそこで一喜一憂してるんですよ -->
@@ -109,11 +109,11 @@
   <!-- ええ　そうね -->
   <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue3FaceSatori" Value="You’re right，let’s go." Face="Satori" Mono="False" />
   <!-- あなた　比那名居さんのお友達？ -->
-  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue1FaceEirin" Value="Are you here for Miss Hananai?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue1FaceEirin" Value="Are you here for Miss Hinanai?" Face="Eirin" Mono="False" />
   <!-- あ　はい！ -->
   <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue2FaceAlice" Value="I am!" Face="Alice" Mono="False" />
   <!-- 私は比那名居さんの担当医の八意永琳よ -->
-  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue3FaceEirin" Value="I’m Eirin Yagokoro，the doctor,in charge of Ms. Hananai’s,care." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue3FaceEirin" Value="I’m Eirin Yagokoro，the doctor,in charge of Ms. Hinanai’s,care." Face="Eirin" Mono="False" />
   <!-- あなた時間ある？ちょっとお話でもしない？ -->
   <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue4FaceEirin" Value="Do you have a second?,Tenshi’s told me a lot about,you." Face="Eirin" Mono="False" />
   <!-- 時間はありますけど････ -->
@@ -229,7 +229,7 @@
   <!-- フフ　安心してバッチリ治しちゃうから -->
   <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue15FaceEirin" Value="It’s no problem at all." Face="Eirin" Mono="False" />
   <!-- 比那名居さんのことは心配しないでいいわよ -->
-  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue1FaceEirin" Value="Don’t you worry about Miss,Hananai’s health." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue1FaceEirin" Value="Don’t you worry about Miss,Hinanai’s health." Face="Eirin" Mono="False" />
   <!-- この天才女医がついてるんだからね！ -->
   <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue2FaceEirin" Value="Haven’t you heard?,She’s being cared for by the,Genius Doctor!" Face="Eirin" Mono="False" />
   <!-- あはは････お願いします -->
