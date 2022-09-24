@@ -7,7 +7,6 @@
 
   <PropertyGroup>
     <PostBuildEvent>
-      rm -rf "$(SolutionDir)$(Configuration)"; cp -r "$(SolutionDir)ShanghaiEXE/$(Configuration)" "$(SolutionDir)$(Configuration)"
     </PostBuildEvent>
   </PropertyGroup>
   <Target Name="SpicNSpan" AfterTargets="Clean">

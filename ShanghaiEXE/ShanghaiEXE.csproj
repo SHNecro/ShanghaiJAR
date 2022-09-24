@@ -2495,47 +2495,55 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>#if not "$(ConfigurationName)"=="Debug Program Only" (
-#      chmod +x "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe"
-      "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE/MapData" "$(TargetDir)data"
-#    mkdir "$(TargetDir)data/data"
-    cp -r "$(ProjectDir)Data/data" "$(TargetDir)data/data"
+      #      chmod +x "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe"
+            "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" encode "$(SolutionDir)ShanghaiEXE/MapData" "$(TargetDir)data"
+      #    mkdir "$(TargetDir)data/data"
+          cp -r "$(ProjectDir)Data/data" "$(TargetDir)data/data"
+      
+          "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE/Graphics" "$(TargetDir)ShaG"
+          "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE/Sounds" "$(TargetDir)ShaS"
+      
+      #    mkdir "$(TargetDir)music"
+          cp -r "$(ProjectDir)Sounds/Music" "$(TargetDir)music"
+      
+      #    mkdir "$(TargetDir)language"
+          cp -r "$(ProjectDir)Language" "$(TargetDir)language"
+      
+      #    mkdir "$(TargetDir)mod"
+          cp -r "$(ProjectDir)ShanghaiEXE/Files/mod" "$(TargetDir)mod"
+      
+          cp -r "$(ProjectDir)ShanghaiEXE/Files/icon.ico" "$(TargetDir)"
+          cp -r "$(ProjectDir)ShanghaiEXE/Files/option.xml" "$(TargetDir)"
+      #    cp -r "$(ProjectDir)ShanghaiEXE/Files/README.txt" "$(TargetDir)"
+          cp -r "$(ProjectDir)ShanghaiEXE/Files/README-OLD.txt" "$(TargetDir)"
+      #)
+      
+      #if "$(ConfigurationName)"=="Debug Full Build" (
+      #    cp -r "$(ProjectDir)ShanghaiEXE/Files/save.she" "$(TargetDir)"
+      #)
+      
+      #fullName="$(ConfigurationName)"
+      #buildType=`echo $fullName | grep -Pzo '^(?:(?:Debug)|(?:Release))'`
+      #echo "$buildType" &gt; /home/owner/tmp.txt
+      
+      chmod +x "$(TargetDir)$(TargetFileName)"
+      rm -rf "$(SolutionDir)$(OutDir)"
+      cp -r "$(TargetDir)" "$(SolutionDir)$(OutDir)"
+      cp -r $(SolutionDir)Common/bin/$(OutDir)*.dll "$(SolutionDir)$(OutDir)"
+      cp -r $(SolutionDir)KeyConfig.WinForms/bin/$(OutDir)* "$(SolutionDir)$(OutDir)"
 
-    "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE/Graphics" "$(TargetDir)ShaG"
-    "$(SolutionDir)Resource Packing Build Step/$(OutDir)Resource Packing Build Step.exe" pack "$(SolutionDir)ShanghaiEXE/Sounds" "$(TargetDir)ShaS"
-
-#    mkdir "$(TargetDir)music"
-    cp -r "$(ProjectDir)Sounds/Music" "$(TargetDir)music"
-
-#    mkdir "$(TargetDir)language"
-    cp -r "$(ProjectDir)Language" "$(TargetDir)language"
-
-#    mkdir "$(TargetDir)mod"
-    cp -r "$(ProjectDir)ShanghaiEXE/Files/mod" "$(TargetDir)mod"
-
-    cp -r "$(ProjectDir)ShanghaiEXE/Files/icon.ico" "$(TargetDir)"
-    cp -r "$(ProjectDir)ShanghaiEXE/Files/option.xml" "$(TargetDir)"
-#    cp -r "$(ProjectDir)ShanghaiEXE/Files/README.txt" "$(TargetDir)"
-    cp -r "$(ProjectDir)ShanghaiEXE/Files/README-OLD.txt" "$(TargetDir)"
-#)
-
-#if "$(ConfigurationName)"=="Debug Full Build" (
-#    cp -r "$(ProjectDir)ShanghaiEXE/Files/save.she" "$(TargetDir)"
-#)
-
-#fullName="$(ConfigurationName)"
-#buildType=`echo $fullName | grep -Pzo '^(?:(?:Debug)|(?:Release))'`
-#echo "$buildType" &gt; /home/owner/tmp.txt
-
-chmod +x "$(TargetDir)$(TargetFileName)"
-rm -rf "$(SolutionDir)$(OutDir)"
-cp -r "$(TargetDir)" "$(SolutionDir)$(OutDir)"
-cp -r $(SolutionDir)Common/bin/$(OutDir)*.dll "$(SolutionDir)$(OutDir)"
-
-cd "$(SolutionDir)$(OutDir)"
-mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
-rm *.exe *.exe.config *.dll *.dll.config
-mv ShanghaiEXE.execombined ShanghaiEXE.exe
-chmod +x "ShanghaiEXE.sh"
+      cd "$(SolutionDir)$(OutDir)"
+      mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
+      mkbundle KeyConfig.exe -o KeyConfig.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
+      
+      mv option.xml option.xml#
+      rm *.exe *.exe.config *.dll *.dll.config *.pdb *.xml
+      mv option.xml# option.xml
+      
+      mv ShanghaiEXE.execombined ShanghaiEXE.exe
+      chmod +x "ShanghaiEXE.sh"
+      mv KeyConfig.execombined KeyConfig.exe
+      chmod +x "KeyConfig.sh"
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>

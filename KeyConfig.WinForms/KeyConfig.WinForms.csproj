@@ -105,5 +105,10 @@
   <ItemGroup>
     <EmbeddedResource Include="KeyConfig.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="KeyConfig.sh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

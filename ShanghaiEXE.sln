@@ -18,8 +18,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource Packing Build Step", "Resource Packing Build Step\Resource Packing Build Step.csproj", "{8DACB18F-5250-4F6F-A5A5-6B2E2957DC29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post-Build Steps", "Post-Build Steps\Post-Build Steps.csproj", "{C60350EF-7BF8-4DF4-926E-1C80EAC89090}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConfig.WinForms", "KeyConfig.WinForms\KeyConfig.WinForms.csproj", "{A5C79E2E-A52F-4957-8D76-34CB964465EA}"
 EndProject
 Global
@@ -47,12 +45,6 @@ Global
 		{8DACB18F-5250-4F6F-A5A5-6B2E2957DC29}.Debug Program Only|x86.Build.0 = Debug|Any CPU
 		{8DACB18F-5250-4F6F-A5A5-6B2E2957DC29}.Release Full Build|x86.ActiveCfg = Release|Any CPU
 		{8DACB18F-5250-4F6F-A5A5-6B2E2957DC29}.Release Full Build|x86.Build.0 = Release|Any CPU
-		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Debug Full Build|x86.ActiveCfg = Debug|Any CPU
-		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Debug Full Build|x86.Build.0 = Debug|Any CPU
-		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Debug Program Only|x86.ActiveCfg = Debug|Any CPU
-		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Debug Program Only|x86.Build.0 = Debug|Any CPU
-		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Release Full Build|x86.ActiveCfg = Release|Any CPU
-		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Release Full Build|x86.Build.0 = Release|Any CPU
 		{A5C79E2E-A52F-4957-8D76-34CB964465EA}.Debug Full Build|x86.ActiveCfg = Debug|Any CPU
 		{A5C79E2E-A52F-4957-8D76-34CB964465EA}.Debug Full Build|x86.Build.0 = Debug|Any CPU
 		{A5C79E2E-A52F-4957-8D76-34CB964465EA}.Debug Program Only|x86.ActiveCfg = Debug|Any CPU
