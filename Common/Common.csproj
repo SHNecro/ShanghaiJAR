@@ -36,6 +36,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NVorbis, Version=0.10.4.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\NVorbis.0.10.4\lib\net45\NVorbis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="OpenTK, Version=3.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <HintPath>..\packages\OpenTK.3.1.0\lib\net20\OpenTK.dll</HintPath>
     </Reference>
@@ -134,12 +138,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Vectors\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NVorbis\NVorbis.csproj">
-      <Project>{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}</Project>
-      <Name>NVorbis</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

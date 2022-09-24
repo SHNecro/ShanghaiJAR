@@ -20,8 +20,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource Packing Build Step
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post-Build Steps", "Post-Build Steps\Post-Build Steps.csproj", "{C60350EF-7BF8-4DF4-926E-1C80EAC89090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVorbis", "NVorbis\NVorbis.csproj", "{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyConfig.WinForms", "KeyConfig.WinForms\KeyConfig.WinForms.csproj", "{A5C79E2E-A52F-4957-8D76-34CB964465EA}"
 EndProject
 Global
@@ -100,22 +98,6 @@ Global
 		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C60350EF-7BF8-4DF4-926E-1C80EAC89090}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Full Build|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Full Build|Any CPU.Build.0 = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Full Build|x86.ActiveCfg = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Full Build|x86.Build.0 = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Program Only|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Program Only|Any CPU.Build.0 = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Program Only|x86.ActiveCfg = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug Program Only|x86.Build.0 = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release Full Build|Any CPU.ActiveCfg = Release|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release Full Build|Any CPU.Build.0 = Release|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release Full Build|x86.ActiveCfg = Release|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release Full Build|x86.Build.0 = Release|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F3E7612-6C0A-47AA-8A4B-83E425045FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A5C79E2E-A52F-4957-8D76-34CB964465EA}.Debug Full Build|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5C79E2E-A52F-4957-8D76-34CB964465EA}.Debug Full Build|Any CPU.Build.0 = Debug|Any CPU
 		{A5C79E2E-A52F-4957-8D76-34CB964465EA}.Debug Full Build|x86.ActiveCfg = Debug|Any CPU
