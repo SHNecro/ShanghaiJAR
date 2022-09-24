@@ -1,0 +1,4 @@
+OpenTK fails on Ubuntu 20.04
+  - .NET Core + OpenTK 3.x -> OpenTK.Platform.Linux exception, polling thread fails?
+  - Requires libudev-dev libinput-dev (if Ubuntu 22.04, libssl1.0.0 from 3rd party repo)
+
