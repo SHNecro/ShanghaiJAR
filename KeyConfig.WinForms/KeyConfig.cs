@@ -416,6 +416,7 @@ namespace KeyConfig.WinForms
             renderingGroupBox.Size = new Size(135, 50);
             this.RegisterTranslation(val => renderingGroupBox.Text = val, "Rendering");
             var renderingComboBox = new ComboBox();
+            renderingComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             renderingComboBox.Dock = DockStyle.Top;
             renderingComboBox.Anchor = AnchorStyles.Left | AnchorStyles.Top;
             renderingComboBox.DisplayMember = "Item1";
@@ -450,6 +451,7 @@ namespace KeyConfig.WinForms
             audioGroupBox.Size = new Size(135, 50);
             this.RegisterTranslation(val => audioGroupBox.Text = val, "Audio");
             var audioComboBox = new ComboBox();
+            audioComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             audioComboBox.Dock = DockStyle.Top;
             audioComboBox.Anchor = AnchorStyles.Left | AnchorStyles.Top;
             audioComboBox.DisplayMember = "Item1";
@@ -596,6 +598,7 @@ namespace KeyConfig.WinForms
             languageGroupBox.Dock = DockStyle.Bottom;
             languageGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             var languageBox = new ComboBox();
+            languageBox.DropDownStyle = ComboBoxStyle.DropDownList;
             languageBox.Items.AddRange(RegionToTranslatedConverter.Locales.ToArray());
             languageBox.DisplayMember = nameof(Tuple<string, string>.Item1);
             languageBox.ValueMember = nameof(Tuple<string, string>.Item2);
