@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using System.Text;
 using System.Xml;
 
 namespace Services
@@ -40,7 +41,15 @@ namespace Services
             foreach (var keyFile in languageFiles)
             {
                 var languageDoc = new XmlDocument();
-                languageDoc.Load($"{keyFile}");
+                var xmlFileContents = File.ReadAllText($"{keyFile}");
+
+                var bom = Encoding.UTF8.GetString(Encoding.UTF8.GetPreamble());
+                if (xmlFileContents.StartsWith(bom, StringComparison.Ordinal))
+                {
+                    xmlFileContents = xmlFileContents.Remove(0, bom.Length);
+                }
+                
+                languageDoc.Load(new StringReader(xmlFileContents));
 
                 var text = languageDoc.SelectNodes("data/Text");
                 foreach (XmlNode node in text)
