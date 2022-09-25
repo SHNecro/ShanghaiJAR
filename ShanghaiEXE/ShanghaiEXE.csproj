@@ -2534,7 +2534,7 @@
 
       cd "$(SolutionDir)$(OutDir)"
       mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
-      mkbundle KeyConfig.exe -o KeyConfig.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
+      mkbundle KeyConfig.WinForms.exe -o KeyConfig.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so -v
       
       mv option.xml option.xml#
       rm *.exe *.exe.config *.dll *.dll.config *.pdb *.xml

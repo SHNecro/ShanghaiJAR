@@ -1,65 +1,65 @@
-﻿﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
-  <Text Key="ImportOverwritePrompt" Value="Old and new versions of config file found.&#xD;&#xA;&#xD;&#xA;Overwrite new config?" />
-  <Text Key="KeyConfig" Value="KeyConfig" />
-  <Text Key="Config" Value="Config" />
-  <Text Key="ScreenSize" Value="Screen Size" />
-  <Text Key="Sizex1" Value="240x160 (GBA Size)" />
-  <Text Key="Sizex2" Value="480x320 (x2)" />
-  <Text Key="Sizex3" Value="720x480 (x3)" />
-  <Text Key="Sizex4" Value="960x640 (x4)" />
-  <Text Key="SizeCustom" Value="Custom" />
-  <Text Key="SizeCustomLeft" Value="(x" />
-  <Text Key="SizeCustomRight" Value=")" />
-  <Text Key="RefreshRate" Value="Refresh Rate" />
-  <Text Key="DisplayRate" Value="Display:" />
-  <Text Key="TurboRate" Value="Turbo:" />
-  <Text Key="WindowedHeader" Value="Windowed" />
-  <Text Key="Windowed" Value="Windowed" />
-  <Text Key="Fullscreen" Value="Fullscreen" />
-  <Text Key="InactiveHeader" Value="Inactive Window" />
-  <Text Key="Running" Value="Running" />
-  <Text Key="Paused" Value="Paused" />
-  <Text Key="BGMVolume" Value="BGM Volume" />
-  <Text Key="SFXVolume" Value="SFX Volume" />
-  <Text Key="Language" Value="Language" />
-  <Text Key="Rendering" Value="Rendering" />
-  <Text Key="Keyboard" Value="Keyboard" />
-  <Text Key="DirectX9" Value="DirectX 9" />
-  <Text Key="OpenGL" Value="OpenGL" />
-  <Text Key="Audio" Value="Audio" />
-  <Text Key="DirectSound" Value="DirectSound" />
-  <Text Key="OpenAL" Value="OpenAL" />
-  <Text Key="KeyUp" Value="D-Pad ↑" />
-  <Text Key="KeyRight" Value="D-Pad →" />
-  <Text Key="KeyDown" Value="D-Pad ↓" />
-  <Text Key="KeyLeft" Value="D-Pad ←" />
-  <Text Key="KeyA" Value="A Button (Decide, Use Chip)" />
-  <Text Key="KeyB" Value="B Button (Cancel, Buster)" />
-  <Text Key="KeyL" Value="L Button (Hint, Flee)" />
-  <Text Key="KeyR" Value="R Button (Jack In/Out)" />
-  <Text Key="KeyStart" Value="Start Button (Menu, Pause)" />
-  <Text Key="KeySelect" Value="Select Button (Various)" />
-  <Text Key="KeyTurbo" Value="Turbo Button" />
-  <Text Key="GamePad" Value="GamePad" />
-  <Text Key="PadUp" Value="D-Pad ↑" />
-  <Text Key="PadRight" Value="D-Pad →" />
-  <Text Key="PadDown" Value="D-Pad ↓" />
-  <Text Key="PadLeft" Value="D-Pad ←" />
-  <Text Key="PadA" Value="A Button (Decide, Use Chip)" />
-  <Text Key="PadB" Value="B Button (Cancel, Buster)" />
-  <Text Key="PadL" Value="L Button (Hint, Flee)" />
-  <Text Key="PadR" Value="R Button (Jack In/Out)" />
-  <Text Key="PadStart" Value="Start Button (Menu, Pause)" />
-  <Text Key="PadSelect" Value="Select Button (Various)" />
-  <Text Key="PadTurbo" Value="Turbo Button" />
-  <Text Key="Extra" Value="Extra" />
-  <Text Key="DialogueTester" Value="Show Dialogue Tester" />
-  <Text Key="AdjustBustingLevel" Value="Enable Busting Level Downgrading" />
-  <Text Key="AllowTurboSlowdown" Value="Allow Turbo Slowdown" />
-  <Text Key="DisableBGMOverride" Value="Disable BGM Override" />
-  <Text Key="FixEngrish" Value="Fix Original English" />
-  <Text Key="StretchFullscreen" Value="Maintain Aspect Ratio" />
-  <Text Key="StretchFullscreenOpenGL" Value="OpenGL mode only" />
-  <Text Key="SaveChanges" Value="Save Changes" />
+    <Text Key="ImportOverwritePrompt" Value="Old and new versions of config file found.&#xD;&#xA;&#xD;&#xA;Overwrite new config?" />
+    <Text Key="KeyConfig" Value="KeyConfig" />
+    <Text Key="Config" Value="Config" />
+    <Text Key="ScreenSize" Value="Screen Size" />
+    <Text Key="Sizex1" Value="240x160 (GBA Size)" />
+    <Text Key="Sizex2" Value="480x320 (x2)" />
+    <Text Key="Sizex3" Value="720x480 (x3)" />
+    <Text Key="Sizex4" Value="960x640 (x4)" />
+    <Text Key="SizeCustom" Value="Custom" />
+    <Text Key="SizeCustomLeft" Value="(x" />
+    <Text Key="SizeCustomRight" Value=")" />
+    <Text Key="RefreshRate" Value="Refresh Rate" />
+    <Text Key="DisplayRate" Value="Display:" />
+    <Text Key="TurboRate" Value="Turbo:" />
+    <Text Key="WindowedHeader" Value="Windowed" />
+    <Text Key="Windowed" Value="Windowed" />
+    <Text Key="Fullscreen" Value="Fullscreen" />
+    <Text Key="InactiveHeader" Value="Inactive Window" />
+    <Text Key="Running" Value="Running" />
+    <Text Key="Paused" Value="Paused" />
+    <Text Key="BGMVolume" Value="BGM Volume" />
+    <Text Key="SFXVolume" Value="SFX Volume" />
+    <Text Key="Language" Value="Language" />
+    <Text Key="Rendering" Value="Rendering" />
+    <Text Key="Keyboard" Value="Keyboard" />
+    <Text Key="DirectX9" Value="DirectX 9" />
+    <Text Key="OpenGL" Value="OpenGL" />
+    <Text Key="Audio" Value="Audio" />
+    <Text Key="DirectSound" Value="DirectSound" />
+    <Text Key="OpenAL" Value="OpenAL" />
+    <Text Key="KeyUp" Value="D-Pad ↑" />
+    <Text Key="KeyRight" Value="D-Pad →" />
+    <Text Key="KeyDown" Value="D-Pad ↓" />
+    <Text Key="KeyLeft" Value="D-Pad ←" />
+    <Text Key="KeyA" Value="A Button (Decide, Use Chip)" />
+    <Text Key="KeyB" Value="B Button (Cancel, Buster)" />
+    <Text Key="KeyL" Value="L Button (Hint, Flee)" />
+    <Text Key="KeyR" Value="R Button (Jack In/Out)" />
+    <Text Key="KeyStart" Value="Start Button (Menu, Pause)" />
+    <Text Key="KeySelect" Value="Select Button (Various)" />
+    <Text Key="KeyTurbo" Value="Turbo Button" />
+    <Text Key="GamePad" Value="GamePad" />
+    <Text Key="PadUp" Value="D-Pad ↑" />
+    <Text Key="PadRight" Value="D-Pad →" />
+    <Text Key="PadDown" Value="D-Pad ↓" />
+    <Text Key="PadLeft" Value="D-Pad ←" />
+    <Text Key="PadA" Value="A Button (Decide, Use Chip)" />
+    <Text Key="PadB" Value="B Button (Cancel, Buster)" />
+    <Text Key="PadL" Value="L Button (Hint, Flee)" />
+    <Text Key="PadR" Value="R Button (Jack In/Out)" />
+    <Text Key="PadStart" Value="Start Button (Menu, Pause)" />
+    <Text Key="PadSelect" Value="Select Button (Various)" />
+    <Text Key="PadTurbo" Value="Turbo Button" />
+    <Text Key="Extra" Value="Extra" />
+    <Text Key="DialogueTester" Value="Show Dialogue Tester" />
+    <Text Key="AdjustBustingLevel" Value="Enable Busting Level Downgrading" />
+    <Text Key="AllowTurboSlowdown" Value="Allow Turbo Slowdown" />
+    <Text Key="DisableBGMOverride" Value="Disable BGM Override" />
+    <Text Key="FixEngrish" Value="Fix Original English" />
+    <Text Key="StretchFullscreen" Value="Maintain Aspect Ratio" />
+    <Text Key="StretchFullscreenOpenGL" Value="OpenGL mode only" />
+    <Text Key="SaveChanges" Value="Save Changes" />
 </data>
