@@ -509,7 +509,9 @@ namespace KeyConfig.WinForms
                     {
                         key.Item2(keyEntry.KeyCode);
                     };
+                    keyEntry.TabStop = true;
                     keyEntry.KeyCode = key.Item3.Invoke();
+                    keyEntry.LastEntry = ReferenceEquals(key, options.Last());
                     keyHorizontalPanel.Height = keyEntry.Height;
                     
                     keyHorizontalPanel.Controls.AddRange(new Control[] { keyLabel, keyEntry });

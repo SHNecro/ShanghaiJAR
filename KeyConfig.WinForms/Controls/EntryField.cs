@@ -289,8 +289,7 @@ namespace KeyConfig.WinForms.Controls
                 return;
             }
 
-            Console.WriteLine("next");
-            this.SelectNextControl(this, true, false, false, true);
+            this.Parent?.Parent?.SelectNextControl(this, true, false, true, true);
         }
 
 	    /*
