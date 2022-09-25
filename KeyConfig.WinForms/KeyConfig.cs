@@ -11,7 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Common.Config;
+using KeyConfig.WinForms.Controls;
 using KeyConfigLinux.Converters;
+using OpenTK;
 
 namespace KeyConfig.WinForms
 {
@@ -60,6 +62,11 @@ namespace KeyConfig.WinForms
                 .FirstOrDefault(s => s.EndsWith("KeyConfig.ico"));
             var iconStream = assembly.GetManifestResourceStream(iconResourceName);
             this.Icon = new Icon(iconStream);
+            
+            var inputEnabler = new GLControl();
+            inputEnabler.Visible = false;
+            inputEnabler.Size = Size.Empty;
+            this.Controls.Add(inputEnabler);
             
             this.RegisterTranslation(val => this.Text = val, "KeyConfig");
 
@@ -470,7 +477,76 @@ namespace KeyConfig.WinForms
             
             var keyboardPage = new TabPage();
             this.RegisterTranslation(val => keyboardPage.Text = val, "Keyboard");
-            
+
+            Func<bool, Tuple<string, Action<int>, Func<int>>[], TableLayoutPanel> buttonPanelMaker = (isKeyboard, options) =>
+            {
+                var keyPanel = new TableLayoutPanel();
+                keyPanel.Dock = DockStyle.Fill;
+                keyPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+
+                var i = 0;
+                var labels = new List<Label>();
+                var maxWidth = 0;
+                foreach (var key in options)
+                {
+                    var keyHorizontalPanel = new Panel();
+                    keyHorizontalPanel.Dock = DockStyle.Right;
+                    keyHorizontalPanel.Anchor = AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Left;
+                    keyHorizontalPanel.Height = 30;
+
+                    var keyLabel = new Label();
+                    this.RegisterTranslation(val => keyLabel.Text = val, key.Item1);
+                    keyLabel.AutoSize = true;
+                    var width = keyLabel.Width;
+                    keyLabel.AutoSize = false;
+                    keyLabel.TextAlign = ContentAlignment.MiddleLeft;
+                    keyLabel.Dock = DockStyle.Left;
+                    
+                    var keyEntry = new EntryField();
+                    keyEntry.IsKeyboardEntry = isKeyboard;
+                    keyEntry.Dock = DockStyle.Right;
+                    keyEntry.TextChanged += (sender, args) =>
+                    {
+                        key.Item2(keyEntry.KeyCode);
+                    };
+                    keyEntry.KeyCode = key.Item3.Invoke();
+                    keyHorizontalPanel.Height = keyEntry.Height;
+                    
+                    keyHorizontalPanel.Controls.AddRange(new Control[] { keyLabel, keyEntry });
+                    keyPanel.Controls.Add(keyHorizontalPanel, 0, i);
+                    keyPanel.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                    i++;
+
+                    if (width > maxWidth)
+                    {
+                        maxWidth = keyLabel.Width;
+                        foreach (var label in labels)
+                        {
+                            label.Width = maxWidth;
+                        }
+                    }
+                    labels.Add(keyLabel);
+                    keyHorizontalPanel.Width = keyPanel.Width - maxWidth;
+                }
+
+                return keyPanel;
+            };
+
+            var keyOptions = new[]
+            {
+                Tuple.Create<string, Action<int>, Func<int>>("KeyUp", val => this.config.KeyboardMapping.Up = val, () => this.config.KeyboardMapping.Up),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyRight", val => this.config.KeyboardMapping.Right = val, () => this.config.KeyboardMapping.Right),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyDown", val => this.config.KeyboardMapping.Down = val, () => this.config.KeyboardMapping.Down),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyLeft", val => this.config.KeyboardMapping.Left = val, () => this.config.KeyboardMapping.Left),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyA", val => this.config.KeyboardMapping.A = val, () => this.config.KeyboardMapping.A),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyB", val => this.config.KeyboardMapping.B = val, () => this.config.KeyboardMapping.B),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyL", val => this.config.KeyboardMapping.L = val, () => this.config.KeyboardMapping.L),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyR", val => this.config.KeyboardMapping.R = val, () => this.config.KeyboardMapping.R),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyStart", val => this.config.KeyboardMapping.Start = val, () => this.config.KeyboardMapping.Start),
+                Tuple.Create<string, Action<int>, Func<int>>("KeySelect", val => this.config.KeyboardMapping.Select = val, () => this.config.KeyboardMapping.Select),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyTurbo", val => this.config.KeyboardMapping.Turbo = val, () => this.config.KeyboardMapping.Turbo ?? -4)
+            };
+            keyboardPage.Controls.Add(buttonPanelMaker(true, keyOptions));
             tabPanel.TabPages.Add(keyboardPage);
 
             #endregion
@@ -480,6 +556,21 @@ namespace KeyConfig.WinForms
             var gamepadPage = new TabPage();
             this.RegisterTranslation(val => gamepadPage.Text = val, "GamePad");
             
+            var gamepadOptions = new[]
+            {
+                Tuple.Create<string, Action<int>, Func<int>>("KeyUp", val => this.config.ControllerMapping.Up = val, () => this.config.ControllerMapping.Up),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyRight", val => this.config.ControllerMapping.Right = val, () => this.config.ControllerMapping.Right),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyDown", val => this.config.ControllerMapping.Down = val, () => this.config.ControllerMapping.Down),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyLeft", val => this.config.ControllerMapping.Left = val, () => this.config.ControllerMapping.Left),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyA", val => this.config.ControllerMapping.A = val, () => this.config.ControllerMapping.A),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyB", val => this.config.ControllerMapping.B = val, () => this.config.ControllerMapping.B),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyL", val => this.config.ControllerMapping.L = val, () => this.config.ControllerMapping.L),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyR", val => this.config.ControllerMapping.R = val, () => this.config.ControllerMapping.R),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyStart", val => this.config.ControllerMapping.Start = val, () => this.config.ControllerMapping.Start),
+                Tuple.Create<string, Action<int>, Func<int>>("KeySelect", val => this.config.ControllerMapping.Select = val, () => this.config.ControllerMapping.Select),
+                Tuple.Create<string, Action<int>, Func<int>>("KeyTurbo", val => this.config.ControllerMapping.Turbo = val, () => this.config.ControllerMapping.Turbo ?? -4)
+            };
+            gamepadPage.Controls.Add(buttonPanelMaker(false, gamepadOptions));
             tabPanel.TabPages.Add(gamepadPage);
 
             #endregion
