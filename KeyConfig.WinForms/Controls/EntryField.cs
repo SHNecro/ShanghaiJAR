@@ -223,8 +223,8 @@ namespace KeyConfig.WinForms.Controls
             {
                 this.Invoke(new Action(() =>
                 {
-	                this.Text = key.ToString();
 	                this.KeyCode = key.ToSHKeyCode();
+	                this.Text = key.ToString();
 	                FieldSet = true;
                 }));
             }
@@ -236,8 +236,8 @@ namespace KeyConfig.WinForms.Controls
             {
 	            this.Invoke(new Action(() =>
 				{
-					this.Text = buttonPress.FromSHButtonCode().ToString();
 					this.KeyCode = buttonPress;
+					this.Text = buttonPress.FromSHButtonCode().ToString();
 					FieldSet = true;
                 }));
             }
@@ -249,8 +249,8 @@ namespace KeyConfig.WinForms.Controls
 			{
 				this.Invoke(new Action(() =>
 				{
-					this.Text = buttonPress.ToString();
 					this.KeyCode = buttonPress.ToSHButtonCode();
+					this.Text = buttonPress.ToString();
 					FieldSet = true;
 				}));
 			}
@@ -266,6 +266,8 @@ namespace KeyConfig.WinForms.Controls
 
 			set
 			{
+				this.keyCode = value;
+				
 				if (this.IsKeyboardEntry)
 				{
 					var key = value.FromSHKeyCode();

@@ -510,6 +510,7 @@ namespace KeyConfig.WinForms
                     keyEntry.TextChanged += (sender, args) =>
                     {
                         key.Item2(keyEntry.KeyCode);
+                        Console.WriteLine(keyEntry.KeyCode);
                     };
                     keyEntry.TabStop = true;
                     keyEntry.KeyCode = key.Item3.Invoke();
@@ -583,6 +584,51 @@ namespace KeyConfig.WinForms
             
             var extraPage = new TabPage();
             this.RegisterTranslation(val => extraPage.Text = val, "Extra");
+            
+            var extraOptionsPanel = new FlowLayoutPanel();
+            extraOptionsPanel.FlowDirection = FlowDirection.TopDown;
+            extraOptionsPanel.WrapContents = false;
+            extraOptionsPanel.Dock = DockStyle.Fill;
+            extraOptionsPanel.Anchor = AnchorStyles.Top | AnchorStyles.Left;
+            
+            var dialogueTesterOption = new CheckBox();
+            dialogueTesterOption.Checked = this.config.ShowDialogueTester;
+            dialogueTesterOption.AutoSize = true;
+            dialogueTesterOption.CheckedChanged += (sender, args) =>
+            {
+                this.config.ShowDialogueTester = dialogueTesterOption.Checked;
+            };
+            this.RegisterTranslation(val => dialogueTesterOption.Text = val, "DialogueTester");
+            
+            var turboSlowdownOption = new CheckBox();
+            turboSlowdownOption.Checked = this.config.AllowTurboSlowdown ?? false;
+            turboSlowdownOption.AutoSize = true;
+            turboSlowdownOption.CheckedChanged += (sender, args) =>
+            {
+                this.config.AllowTurboSlowdown = turboSlowdownOption.Checked;
+            };
+            this.RegisterTranslation(val => turboSlowdownOption.Text = val, "AllowTurboSlowdown");
+            
+            var disableBgmOverrideOption = new CheckBox();
+            disableBgmOverrideOption.Checked = this.config.DisableBGMOverride ?? false;
+            disableBgmOverrideOption.AutoSize = true;
+            disableBgmOverrideOption.CheckedChanged += (sender, args) =>
+            {
+                this.config.DisableBGMOverride = disableBgmOverrideOption.Checked;
+            };
+            this.RegisterTranslation(val => disableBgmOverrideOption.Text = val, "DisableBGMOverride");
+            
+            var fixEngrishOption = new CheckBox();
+            fixEngrishOption.Checked = this.config.FixEngrish ?? false;
+            fixEngrishOption.AutoSize = true;
+            fixEngrishOption.CheckedChanged += (sender, args) =>
+            {
+                this.config.FixEngrish = fixEngrishOption.Checked;
+            };
+            this.RegisterTranslation(val => fixEngrishOption.Text = val, "FixEngrish");
+
+            extraOptionsPanel.Controls.AddRange(new Control[]{ dialogueTesterOption, turboSlowdownOption, disableBgmOverrideOption, fixEngrishOption });
+            extraPage.Controls.Add(extraOptionsPanel);
             
             tabPanel.TabPages.Add(extraPage);
 
