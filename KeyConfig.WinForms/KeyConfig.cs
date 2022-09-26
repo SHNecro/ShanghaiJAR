@@ -510,7 +510,6 @@ namespace KeyConfig.WinForms
                     keyEntry.TextChanged += (sender, args) =>
                     {
                         key.Item2(keyEntry.KeyCode);
-                        Console.WriteLine(keyEntry.KeyCode);
                     };
                     keyEntry.TabStop = true;
                     keyEntry.KeyCode = key.Item3.Invoke();
