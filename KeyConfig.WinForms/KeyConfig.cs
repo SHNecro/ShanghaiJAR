@@ -204,7 +204,39 @@ namespace KeyConfig.WinForms
             
             customOptionPanel.Controls.AddRange(new Control[] { customOption, customLeftParens, customEntry, customRightParens });
             screenSizesPanel.Controls.AddRange(new Control[] { x1Option, x2Option, x3Option, x4Option, customOptionPanel });
+            
             screenSizeGroupBox.Controls.Add(screenSizesPanel);
+            
+            var windowAspectPanel = new TableLayoutPanel();
+            windowAspectPanel.RowCount = 4;
+            windowAspectPanel.Dock = DockStyle.Fill;
+            windowAspectPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50f));
+            windowAspectPanel.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+            windowAspectPanel.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+            windowAspectPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50f));
+            
+            var windowAspectCheckBox = new CheckBox();
+            windowAspectCheckBox.AutoSize = true;
+            this.RegisterTranslation(val => windowAspectCheckBox.Text = val, "StretchFullscreen");
+            windowAspectCheckBox.Checked = !(this.config.StretchFullscreen ?? false);
+            windowAspectCheckBox.CheckedChanged += (sender, args) =>
+            {
+                if (!windowAspectCheckBox.Enabled)
+                {
+                    return;
+                }
+                this.config.StretchFullscreen = !windowAspectCheckBox.Checked;
+            };
+            
+            var windowAspectOpenGLText = new Label();
+            windowAspectOpenGLText.AutoSize = true;
+            windowAspectOpenGLText.Visible = this.config.RenderEngine != "OpenGL";
+            this.RegisterTranslation(val => windowAspectOpenGLText.Text = val, "StretchFullscreenOpenGL");
+            
+            windowAspectPanel.Controls.Add(windowAspectCheckBox, 0, 1);
+            windowAspectPanel.Controls.Add(windowAspectOpenGLText, 0, 2);
+            
+            screenSizeGroupBox.Controls.Add(windowAspectPanel);
 
             #endregion
 
@@ -242,6 +274,12 @@ namespace KeyConfig.WinForms
                 val => this.config.Fullscreen = (bool)val);
             foreach (var o in windowModeOptions)
             {
+                o.Item1.CheckedChanged += (sender, args) =>
+                {
+                    screenSizesPanel.Visible = !(bool)o.Item2;
+                    windowAspectPanel.Visible = (bool)o.Item2;
+                };
+                
                 o.Item1.Checked = this.config.Fullscreen == (bool)o.Item2;
                 o.Item1.CheckedChanged += windowModeEventHandler;
             }
@@ -439,6 +477,17 @@ namespace KeyConfig.WinForms
             renderingComboBox.SelectedValueChanged += (sender, args) =>
             {
                 this.config.RenderEngine = (renderingComboBox.SelectedItem as Tuple<string, string>).Item2;
+                if (this.config.RenderEngine == "OpenGL")
+                {
+                    windowAspectCheckBox.Checked = (bool)windowAspectCheckBox.Tag;
+                }
+                else
+                {
+                    windowAspectCheckBox.Tag = windowAspectCheckBox.Enabled;
+                    windowAspectCheckBox.Checked = false;
+                }
+                windowAspectCheckBox.Enabled = this.config.RenderEngine == "OpenGL";
+                windowAspectOpenGLText.Visible = this.config.RenderEngine != "OpenGL";
             };
             renderingGroupBox.Controls.Add(renderingComboBox);
 
