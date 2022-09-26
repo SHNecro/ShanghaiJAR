@@ -2533,8 +2533,8 @@
       cp -r $(SolutionDir)KeyConfig.WinForms/bin/$(OutDir)* "$(SolutionDir)$(OutDir)"
 
       cd "$(SolutionDir)$(OutDir)"
-      mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so --library /usr/lib/libgdiplus.so -v
-      mkbundle KeyConfig.WinForms.exe -o KeyConfig.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so --library /usr/lib/libgdiplus.so -v
+      mkbundle ShanghaiEXE.exe -o ShanghaiEXE.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so --library /usr/lib/libgdiplus.so --library /usr/lib/x86_64-linux-gnu/libsndio.so.7.0 --library /usr/lib/x86_64-linux-gnu/libopenal.so.1 -v
+      mkbundle KeyConfig.WinForms.exe -o KeyConfig.execombined --i18n all --simple --deps --machine-config /etc/mono/4.5/machine.config --static --config ../mono-config --library /usr/lib/libmono-native.so --library /usr/lib/libMonoPosixHelper.so --library /usr/lib/libmono-btls-shared.so --library /usr/lib/libgdiplus.so --library /usr/lib/x86_64-linux-gnu/libsndio.so.7.0 --library /usr/lib/x86_64-linux-gnu/libopenal.so.1 -v
       
       mv option.xml option.xml#
       rm *.exe *.exe.config *.dll *.dll.config *.pdb *.xml
