@@ -472,6 +472,11 @@ namespace NSGame
                     this.init = false;
                     this.loadend = true;
                     this.dg.AbortRenderThread();
+
+                    if (File.Exists(Program.restartStopper))
+                    {
+                        File.Delete(Program.restartStopper);
+                    }
                 }
                 if (this.loadend)
                 {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -6,6 +7,8 @@ namespace NSGame
 {
     internal static class Program
     {
+        public const string restartStopper = "openalrebootattempts";
+        
         [STAThread]
         private static void Main()
         {
@@ -26,6 +29,17 @@ namespace NSGame
             }
             catch (Exception e) when (!System.Diagnostics.Debugger.IsAttached)
             {
+                if (e.ToString().Contains("openal32.dll"))
+                {
+                    if (!File.Exists(restartStopper) || File.ReadAllText(restartStopper).Length < 5)
+                    {
+                        File.AppendAllText(restartStopper, "X");
+                        System.Diagnostics.Process.Start(Application.ExecutablePath);
+                        Application.Exit();
+                        return;
+                    }
+                }
+            
                 if (Application.OpenForms.Count > 0)
                 {
                     var messageText = e.ToString();
