@@ -223,33 +223,30 @@ namespace NSEvent
                     }
                     // ISSUE: explicit reference operation
                     this.shortmassage[this.endprint] += strArray[this.endprint][this.printfonts - 1];
-                    var inEllipsesFunc = new Func<string[], int, int>(
-                        (str, index) => {
-                            if ((str[index] != "." && str[index] != "・")
-                            || index + 1 >= str.Length
-                            || (index >= 2 && str[index - 2] == "D" && str[index - 1] == "r")
-                            || (index >= 2 && str[index - 2] == "M" && str[index - 1] == "r")
-                            || (index >= 2 && str[index - 2] == "M" && str[index - 1] == "s")) return 0;
+                    var inEllipsesFunc = new Func<string[], Func<string, bool>, int, int>(
+                        (str, ellipseCheck, index) => {
+                            if (index < 0 || index >= str.Length || !ellipseCheck(str[index])) return 0;
                             var seq = 1;
-                            for (int d = 1; index + d < str.Length && (str[index + d] == "." || str[index + d] == "・"); d += 1)
+                            for (int d = 1; index + d < str.Length && ellipseCheck(str[index + d]); d += 1)
                             {
                                 seq += 1;
                             }
 
-                            for (int d = 1; index - d >= 0 && (str[index - d] == "." || str[index - d] == "・"); d += 1)
+                            for (int d = 1; index - d >= 0 && ellipseCheck(str[index - d]); d += 1)
                             {
                                 seq += 1;
                             }
 
                             return seq;
                         });
-                    var ellipseLength = inEllipsesFunc(strArray[this.endprint], this.printfonts - 1);
+                    var interpunctEllipseLength = inEllipsesFunc(strArray[this.endprint], s => s == "・", this.printfonts - 1);
+                    var periodEllipseLength = inEllipsesFunc(strArray[this.endprint], s => s == ".", this.printfonts - 1);
                     var shortpause = strArray[this.endprint][this.printfonts - 1] == "、" || strArray[this.endprint][this.printfonts - 1] == "，";
                     var thinkStart = strArray[this.endprint][this.printfonts - 1] == "（" || strArray[this.endprint][this.printfonts - 1] == "(";
-                    if (ellipseLength > 0 && !this.mono)
+                    if ((interpunctEllipseLength > 0 || periodEllipseLength > 1) && !this.mono)
                     {
                         this.sound.PlaySE(SoundEffect.message);
-                        this.wait = 30 / ellipseLength;
+                        this.wait = 30 / Math.Max(interpunctEllipseLength, periodEllipseLength);
                         this.longwaiting = true;
                     }
                     else if (shortpause && !this.mono)
