@@ -303,10 +303,6 @@ graphic:-1:0,0,0,0,6
 hitrange:4:4:0:0
 hitform:square
 event:
-msgopen:
-msg:Retcon.0550HeavenWIP
-editFlag:900:True
-msgclose:
 canSkip:
 emoveEnd:
 emove:プレイヤー:wait,60:wayup,0:wait,60:waydown,0:wait,60
