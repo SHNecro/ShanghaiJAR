@@ -734,7 +734,7 @@ namespace NSBattle
                         List<BustorShot> bustorShotList = new List<BustorShot>();
                         foreach (AttackBase attack2 in this.attacks)
                         {
-                            if (attack2.hitting && (!object.Equals(attack1, attack2) && attack1.HitCheck(attack2.position) && attack1.HitCheck(attack2.position, attack2.union)))
+                            if (attack2.hitting && (!object.Equals(attack1, attack2) && attack1.HitCheck(attack2.position, attack2.union)))
                             {
                                 this.sound.PlaySE(SoundEffect.damagezero);
                                 this.effects.Add(new Guard(this.sound, this, attack2.position.X, attack2.position.Y, 2));
