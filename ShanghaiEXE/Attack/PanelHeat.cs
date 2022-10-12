@@ -47,6 +47,7 @@ namespace NSAttack
 
         public override void Updata()
         {
+            this.union = this.union == Panel.COLOR.blue ? Panel.COLOR.red : Panel.COLOR.blue;
             if (this.over)
                 return;
             if (this.StandPanel.Hole)
