@@ -116,7 +116,7 @@ namespace NSAttack
         {
             if (!base.HitEvent(e))
                 return false;
-            if (e.Hp <= 0 && e.race == EnemyBase.ENEMY.virus)
+            if (e.Hp <= 0 && e.race == EnemyBase.ENEMY.virus && (int)e.ID >= 1 && (int)e.ID <= 41)
             {
                 this.savedata.HaveVirus[this.number] = new Virus()
                 {
