@@ -403,7 +403,7 @@ namespace NSEnemy
         {
             if (this.suzu[0] == null)
             {
-                this.MoveRandom(false, false);
+                this.MoveRandomOffPanel();
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
@@ -416,7 +416,7 @@ namespace NSEnemy
             {
                 if (this.suzu[0].flag)
                     return;
-                this.MoveRandom(false, false);
+                this.MoveRandomOffPanel();
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
@@ -433,7 +433,7 @@ namespace NSEnemy
         {
             if (this.suzu[1] == null)
             {
-                this.MoveRandom(false, false);
+                this.MoveRandomOffPanel();
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
@@ -448,7 +448,7 @@ namespace NSEnemy
             {
                 if (this.suzu[1].flag)
                     return;
-                this.MoveRandom(false, false);
+                this.MoveRandomOffPanel();
                 Point positionre = this.positionre;
                 this.positionre = this.position;
                 this.parent.panel[positionre.X, positionre.Y].State = Panel.PANEL._grass;
@@ -458,6 +458,22 @@ namespace NSEnemy
                 objectBase.Hp = 10 * version;
                 this.suzu[1] = objectBase;
                 this.parent.objects.Add(this.suzu[1]);
+            }
+        }
+
+        private void MoveRandomOffPanel()
+        {
+            const int attempts = 10;
+            for (int i = 0; i < attempts; i++)
+            {
+                this.MoveRandom(false, false);
+
+                if (this.positionre != this.position)
+                {
+                    break;
+                }
+
+                this.positionre = this.position;
             }
         }
 
