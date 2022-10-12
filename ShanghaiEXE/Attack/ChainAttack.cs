@@ -15,6 +15,8 @@ namespace NSAttack
     {
         private readonly int colol;
 
+        private bool blocked;
+
         public ChainAttack(
           IAudioEngine so,
           SceneBattle p,
@@ -97,36 +99,52 @@ namespace NSAttack
             return base.HitCheck(charaposition);
         }
 
+        public override bool BarierCheck(CharacterBase c, int damage)
+        {
+            var barrierCheck = base.BarierCheck(c, damage);
+            this.blocked = !barrierCheck;
+            return barrierCheck;
+        }
+
         public override bool HitEvent(Player p)
         {
-            if (!base.HitEvent(p))
+            if (!base.HitEvent(p) && !this.blocked)
                 return false;
             this.frame = 6 - this.frame;
             this.hitting = false;
             p.Knockbuck(false, true, this.union);
-            this.parent.effects.Add(new Elementhit(this.sound, this.parent, p.position.X, p.position.Y, 1, this.element));
+            if (!this.blocked)
+            {
+                this.parent.effects.Add(new Elementhit(this.sound, this.parent, p.position.X, p.position.Y, 1, this.element));
+            }
             return true;
         }
 
         public override bool HitEvent(EnemyBase e)
         {
-            if (!base.HitEvent(e))
+            if (!base.HitEvent(e) && !this.blocked)
                 return false;
             this.frame = 6 - this.frame;
             this.hitting = false;
             e.Knockbuck(false, true, this.union);
-            this.parent.effects.Add(new Elementhit(this.sound, this.parent, e.position.X, e.position.Y, 1, this.element));
+            if (!this.blocked)
+            {
+                this.parent.effects.Add(new Elementhit(this.sound, this.parent, e.position.X, e.position.Y, 1, this.element));
+            }
             return true;
         }
 
         public override bool HitEvent(ObjectBase o)
         {
-            if (!base.HitEvent(o))
+            if (!base.HitEvent(o) && !this.blocked)
                 return false;
             this.frame = 6 - this.frame;
             this.hitting = false;
             o.Knockbuck(false, true, this.union);
-            this.parent.effects.Add(new Elementhit(this.sound, this.parent, o.position.X, o.position.Y, 1, this.element));
+            if (!this.blocked)
+            {
+                this.parent.effects.Add(new Elementhit(this.sound, this.parent, o.position.X, o.position.Y, 1, this.element));
+            }
             return true;
         }
     }

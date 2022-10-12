@@ -683,7 +683,7 @@ namespace NSAttack
             return (int)(num1 * (double)num2);
         }
 
-        public bool BarierCheck(CharacterBase c, int damage)
+        public virtual bool BarierCheck(CharacterBase c, int damage)
         {
             bool flag = false;
             if (c.shield != CharacterBase.SHIELD.none && !this.breaking)
