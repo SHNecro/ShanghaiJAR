@@ -1015,7 +1015,7 @@ namespace NSBattle.Character
                         this.ChargeStart();
                     if (!this.charge && Input.IsPush(Button._B) && this.bustor == Player.BUSTOR.normal)
                         this.ChargeStart();
-                    if (this.charge && !Input.IsPush(Button._B))
+                    if (this.charge && Input.IsUp(Button._B))
                         this.ChargeEnd();
                 }
             }
