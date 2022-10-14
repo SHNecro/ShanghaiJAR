@@ -201,9 +201,14 @@ namespace NSBattle.Character
                 }
             }
             this.frame = 0;
-            if (this.motion != PLAYERMOTION._chip)
+            switch (this.motion)
             {
-                this.motion = Player.PLAYERMOTION._neutral;
+                case PLAYERMOTION._chip:
+                case PLAYERMOTION._charge:
+                    break;
+                default:
+                    this.motion = Player.PLAYERMOTION._neutral;
+                    break;
             }
         }
 
