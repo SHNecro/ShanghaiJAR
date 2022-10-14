@@ -74,6 +74,7 @@ namespace NSObject
             this.panelPosition = new Point(pX, pY);
             this.positionre = this.position;
             this.positionDirect = new Vector2(pX * 40 + 20, pY * 24 + 83);
+            this.nohit = true;
 
             this.elementAmountFunc = elementLightUpFunc;
             this.infoText = new List<ScreenObjectFade>();
