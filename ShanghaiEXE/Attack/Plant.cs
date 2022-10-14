@@ -43,7 +43,7 @@ namespace NSAttack
             this.positionre = this.position;
             this.positionDirect = new Vector2(this.position.X * 40 + 20, this.position.Y * 24 + 64);
             this.frame = 0;
-            this.BadStatusSet(CharacterBase.BADSTATUS.stop, 60);
+            this.BadStatusSet(CharacterBase.BADSTATUS.stop, 12 * 6);
             this.StandPanel.State = Panel.PANEL._grass;
         }
 
