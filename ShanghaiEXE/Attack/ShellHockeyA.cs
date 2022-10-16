@@ -1,4 +1,4 @@
-﻿using NSBattle;
+using NSBattle;
 using NSBattle.Character;
 using NSChip;
 using NSShanghaiEXE.InputOutput.Audio;
@@ -34,8 +34,8 @@ namespace NSAttack
           ChipBase.ELEMENT ele)
           : base(so, p, pX, pY, u, po, ele)
         {
-            this.movespeed.X = 5f;
-            this.movespeed.Y = 3f;
+            this.movespeed.X = 8f;
+            this.movespeed.Y = 4.8f;
 
             this.picturename = "shot";
             this.invincibility = false;
@@ -70,7 +70,7 @@ namespace NSAttack
                 if (this.animationpoint.X >= 3)
                     this.animationpoint.X = 0;
             }
-            if (this.manymove >= 8)
+            if (this.manymove >= 5)
             {
                 bool reflected = false;
                 Point poji = new Point(this.position.X, this.position.Y + (this.angleDOWN ? 1 : -1));
@@ -106,7 +106,7 @@ namespace NSAttack
                     this.sound.PlaySE(SoundEffect.knock);
                     ++this.refrect;
                 }
-                if (this.refrect >= 4 || (this.InAreaCheck(poji) && (this.parent.panel[poji.X, poji.Y].Hole)))
+                if (this.frame >= 60 || (this.InAreaCheck(poji) && (this.parent.panel[poji.X, poji.Y].Hole)))
                 {
                     this.parent.effects.Add(new StepShadow(this.sound, this.parent, this._rect, this.positionDirect, this.picturename, this.rebirth, this.position));
                     this.flag = false;
