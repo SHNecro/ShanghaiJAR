@@ -19,7 +19,7 @@
   <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue1" Value="俺が間違ってた部分････,お前には乗り越えるか････？" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="お前が間違ってる部分を,俺が見せてやる････" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="おのれ････俺を侮辱する気か？" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="力無き････容易い獲物････,無力な被害者としか,俺を見ていなんだな････？" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="力無き････容易い獲物････,無力な被害者としか,俺を見ていないんだな････？" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue3" Value="そのふざけた考え方を,俺が直々に直してやる！" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="お前みたいな弱き者には,分かるまい････" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue2" Value="それともあのウイルス共に,身を捧げるのが流行ってるとか,そんなのが言いたいのか････？" Face="None" Mono="False" />
@@ -86,7 +86,7 @@
   <Dialogue Key="Map.HeavenNet2FridgeDescription2" Value="内部にしまった電脳料理を,冷やし、電脳バクテリア････,と言えるのを塞ぐ" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2OvenDescription1" Value="オーブンの周りの,空気がまだ暖かい,さっきまで誰かが使っていたようだ" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2OvenDescription2" Value="旧型や知名度の低いモデルは,炎属性チップを燃料として,消耗する必要があったらしい" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2SinkDescription1" Value="こざっぱりと洗った食器類が,きれいに盛られている" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2SinkDescription1" Value="こざっぱりと洗った食器類が,きれいに並んでいる" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Cushion1Description" Value="高い座布団を積み上げて,椅子の代わりに使っている" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2TableDescription1" Value="一般的なテーブルを,立て使えるように,脚を高くしたような物だ" Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2TableDescription2" Value="ネットナビにとって電脳料理は,奢侈なのでダイニングエリアは,珍しい光景だ" Face="None" Mono="False" />
@@ -110,15 +110,15 @@
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue15" Value="削除" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue16" Value="削除" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue17" Value="#b@false#それに加えてその････#w@20#化け物共は,流れて来る他の魂達を,攻撃し、食らい続きました#w@25##e@#" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue18" Value="#b@false#化け物だったから攻撃した,という訳ね。民間人まで,攻撃した奴らだったし････#w@75##e@#" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19" Value="#b@false#あいつらの事を考えると#p@MCFParallelAngry#,今も血が逆流しそうですよ！#w@45#,#p@MCFParallelAngryEnd##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue18" Value="#b@false#罪の無い人を襲うなんて,とんだ化け物ね　あんたが言う,立場じゃないと思うけど#w@75##e@#" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19" Value="#b@false#今私のことを化け物扱い#p@MCFParallelAngry#,しましたよね！？そうですよね！？#w@45#,#p@MCFParallelAngryEnd##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue20" Value="#b@false#でもこのエリアの管理者である,ユユコ様のおかげでここの異変は,無事解決することが出来ました#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue21" Value="#b@false#それも最後の異質的なのが,来る前の話でしたけどね････#w@120##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue22" Value="削除" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue23" Value="#b@false#最後に現れたのは巨大な上に,計り知れない程の恨みで,この電脳を汚染し始めました#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue24" Value="#b@false#その歪みの圧力で侵略者達の封印が,解けてしまい、開放された奴らは,このエリア全域で暴れ始めました#w@120##e@#" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25" Value="#b@false#････ダメージを耐え忍び,あの巨大な魂をこのエリアから,封印しました#w@75##e@#" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue26" Value="#b@false#だが私達があの二つに忙しいその間,強大な悪が乱入して封印した,その魂を引っこ抜きました#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25" Value="#b@false#････ダメージを耐え忍び,あの巨大な魂をこのエリアから,追放しました#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue26" Value="#b@false#だが私達があの二つに忙しいその間,強大な悪が乱入して追放した,その魂を引っこ抜きました#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue27" Value="#b@false#何の為にあの魂を奪ったのかは,一切分かりません････#w@75##e@#" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue28" Value="ただあたし達の邪魔になる,以上に危険な奴みたいね" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue29" Value="今ここではっきりとしよう,最後の強大な悪とやらが,あの「闇の女王」ってことよね？" Face="Shanghai" Mono="False" />
@@ -133,7 +133,7 @@
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue37" Value="まあまあ、彼女なら大丈夫よ！,彼女ならここの反対側にいるよ,彼女に私のよろしく伝えて！" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue38" Value="まじかよ#w@30#,じゃあ私はもう行くよ" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue39" Value="お待ちください" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue40" Value="お嬢様の言い方は一般的観点では,多少ずれていますけど,言ったものは大部事実です" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue40" Value="ユユコ様の言い方は一般的観点では,多少ずれていますけど,言ったものは大部事実です" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue41" Value="闇の女王はただ者ではありません,彼女や彼女の生み出した物には,格別に注意してください" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue42" Value="彼女はウラインターネットの,深い所にある、まるで死んだ,大地のような場所にいます" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue43" Value="そうそう、死んだ大地ね,じゃあ早速" Face="Shanghai" Mono="False" />
@@ -170,7 +170,7 @@
   <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue1" Value="私と稽古をつけてくれます？,お互いから学ぶことは,まだ沢山あると思います" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue2Question" Value="ヨウムにネットバトルを,申し込む？" Face="Shanghai" Mono="False" />
   <Text Key="Map.HeavenNet2YoumuChallengeV3Dialogue2Options" Value="はい,いいえ" />
-  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV3Dialogue1" Value="良い試合でした,まだまだ行ける気がしますねThere is much I can do to,improve，it seems." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV3Dialogue1" Value="良い試合でした,私もまだまだのようですね" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV2Dialogue2" Value="負けたとはいえ挑め自体に,問題はありません。いつかまた,機会があったらお願いしますね" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV3Dialogue1" Value="良い戦いでした,ではまた今度お願いします" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Accept" Value="今度は決して負けはしません！" Face="Youmu" Mono="False" />
@@ -210,7 +210,7 @@
   <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue3" Value="さあ、,良い戦いをさせてくれたお礼よ" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoChallengeLostDialogue1" Value="全力で行く機会が,あまり無かったの,久しぶりに良い運動になったわ" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue1" Value="ユユコ様が力を取り戻しましたので,何か特別なのを用意しなければ････" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue2" Value="勿論貴方にも感謝すべきでしょう,このエリアの汚染を片付いてくれて,ありがとうございます" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue2" Value="全部あなた達のお陰です,このエリアを救ってくれて,ありがとうございます" Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue3" Value="さて、次は何を料理しようかな････？" Face="Youmu" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinChipGottenDialogue1" Value="良い戦いだったわ" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinChipGottenDialogue1" Value="良いバトルだったわ" Face="YuyukoCombat" Mono="False" />
 </data>
