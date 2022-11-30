@@ -409,7 +409,7 @@
   <!-- 買う買わない -->
   <Text Key="Map.EienSquareChipShopStage1Dialogue1Options" Value="買う,買わない" />
   <Dialogue Key="Map.EienSquarePostGameBystander1Dialogue1" Value="バトルの時に生えている,草ってなんの種類の,雑草なんだろうか？" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquarePostGameBystander2Dialogue1" Value="ＲＯＭが倒れてから,掲示板に活気が戻ったみたいだ" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.EienSquarePostGameBystander2Dialogue1" Value="ＲＯＭが倒れてから,掲示板に活気が戻ったみたいね" Face="NaviOrangeMale" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameAndRequestDialogue1" Value="ねえ、ついでに聞きたい事がある,あの「天国」エリアにあった扉の,コードを探してるけど････" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameAndRequestDialogue2" Value="おっとっと、山ほどある問題なら,一つずつ解決するのが良いぞ,まずは「転生プログラム」じゃろ？" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSagePostgameAndRequestAfterDialogue1" Value="ごめんよ、嬢ちゃん,今の儂には気力が全く無いんじゃ,また今度訪ねて来てくれるかね？" Face="NaviOrangeRobot" Mono="False" />
@@ -436,7 +436,7 @@
   <Dialogue Key="Map.EienSquareSagePostgameStage4Dialogue5" Value="なるほど、じゃあ,今すぐコードは貰えない、,という事よね？" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1Dialogue1" Value="一番目の手掛かりは,「何かを学ぶのに一番の道は,最初から始まる事」" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2Dialogue1" Value="二番目の手掛かりは,「レースに勝つのは至って,ゆっくりする者」" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue1" Value="最後の手掛かりは,「天国に行きたいのなら,階段を上るべき」じゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3Dialogue1" Value="最後の手掛かりは,「天国に行きたいのなら,階段を数多く上るべき」じゃ" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz1ResponseDialogue1" Value="あーもう！時間の無駄に,ならなければいいけど････,すぐに行ってくるわよ！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz2ResponseDialogue1" Value="どういう意味よ、それ！？,もっと直接的にに言ったらどうよ！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.EienSquareSageQuizProgressQuiz3ResponseDialogue1" Value="これで終わりではないと,････後は分かるね････？" Face="Shanghai" Mono="False" />
