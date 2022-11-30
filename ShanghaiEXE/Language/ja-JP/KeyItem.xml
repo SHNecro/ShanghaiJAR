@@ -115,5 +115,5 @@
   <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" Value="フリーズの欠片が,沢山集まって固くなった,結晶みたいな物よ" Face="None" Mono="False" />
   <Text Key="KeyItem.OrderBookName" Value="注文内訳書" />
   <Dialogue Key="KeyItem.OrderBookDescDialogue1" Value="注文内容が書かれてる台帳よ,決済内訳は金融規定により,複雑に暗号化されてるけどね" Face="None" Mono="False" />
-  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="…てかちょっと待って,この下に米を注文した,内訳があるけど、これ内の話？" Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="････てかちょっと待って,この下に米を注文した,内訳があるけど、これ内の話？" Face="None" Mono="False" />
 </data>
