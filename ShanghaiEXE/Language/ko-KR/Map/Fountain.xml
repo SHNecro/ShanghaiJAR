@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.FountainName" Value="분수의 전뇌" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue1FaceSprite" Value="오，여기에 오신 걸 보니,꽤나 눈이 밝으시군요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue2FaceSprite" Value="이 분수는 전자식 제어를 통해,연출을 바꿀 수가 있어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite1Stage1Dialogue3FaceSprite" Value="축제 같은 때가 되면,물줄기가 솟아오른다구요 이게!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue1FaceSprite" Value="푸슈우우우우우우우우!,푸슈우우우우우우우우!,푸슈우우우우우우우우!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue2FaceSprite" Value="그리고 마무리로,푸슈우우우우우우우우!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue3FaceSprite" Value="이벤트 같은 때에 쓸,연출을 연습하는 중이에요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainSprite2Stage1Dialogue4FaceSprite" Value="쉬이，쉬이，딴 데 가세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue1FaceNaviPinkFemale" Value="아니.... 그러니까,하루만 더 기간을 주시면,갚을 테니까...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue2FaceNaviPurplePunk" Value="그래 말해도 형씨 말여，,우리가 무슨 자선사업하는,그런 데는 아니랑께." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue3FaceShanghai" Value="잠깐 괜찮을까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue4FaceNaviPurplePunk" Value="닌 누근데,우리들 비지니스에,트집을 잡어야!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage1Dialogue5FaceNaviPurplePunk" Value="가인나라 캐도,봐주는 거 없기라!,골탕 좀 멕여뿌까!" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.FountainRequesterBattle1Enemy1" Value="후지와라조직" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue1FaceNaviPurplePunk" Value="윽수로 센 놈 아이가!?,머 하는 놈이고 니는!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue2FaceShanghai" Value="이 사람한테 잠깐 할 이야기가,있어서 그러는데，,잠・깐・괜・찮・지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage3Dialogue3FaceNaviPurplePunk" Value="이래갖고는 일 못 하겄구마이.,난중에 돌아올 꺼니께,각오해 두래이!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue1FaceShanghai" Value="있지，,난 대출금 떼어먹는 거,협력하려 온 거 아니거든." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue2FaceNaviPinkFemale" Value="죄송합니다....,그렇지만 대출금을 갚을,수단이 있어요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue3FaceNaviPinkFemale" Value="그렇지만 아까 보셨던 것처럼,계속 이렇게 독촉당했다가는,그 수단을 얻을 새도 없이...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue4FaceShanghai" Value="수단이라고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue5FaceNaviPinkFemale" Value="네....,선조가 과거에 숨겨 놓은,보물이 있어요." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue6FaceNaviPinkFemale" Value="그걸 팔면 대출금을 갚고도,돈이 남을 정도라고 해요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue7FaceShanghai" Value="그 보물은 어디 있는데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue8FaceNaviPinkFemale" Value="그게.... 저도 몰라요." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue9FaceShanghai" Value="뭐어어어어어어어!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue10FaceNaviPinkFemale" Value="기다려 주세요!,힌트는 알고 있어요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue11FaceNaviPinkFemale" Value="”휴식이 태어나는 갈증의 밑바닥”,이라고 선조께서 쓴 책에,기록되어 있었어요." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue12FaceNaviPinkFemale" Value="그리고 그게 보물이 있는 곳을,표현한다는 증거도 있어요." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue13FaceShanghai" Value="휴식이 태어나는 갈증의 밑바닥?,뭐가 뭔지 모르겠네...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue14FaceNaviPinkFemale" Value="부탁드릴게요!,남은 길은 이것밖에 없어요!,부디 도와 주세요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue15FaceShanghai" Value="어쩔 수가 없네.,의뢰를 수락한 것도 있으니,찾아볼게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage5Dialogue16FaceNaviPinkFemale" Value="감사합니다. 부탁할게요...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage7Dialogue1FaceNaviPinkFemale" Value="조상님께선 대대로,환상 마을에 사셨어요." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage7Dialogue2FaceNaviPinkFemale" Value="그렇다면 환상 마을 어딘가에,있을 거라 생각하는데....,참고가 될지 모르겠네요." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue1FaceNaviPinkFemale" Value="보물은 찾으셨나요?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue2FaceShanghai" Value="이 낡아빠진 데이터를 찾았는데,그렇게까지 가치 있는 거야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue3FaceNaviPinkFemale" Value="낡아빠진 데이터?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue4FaceNaviPinkFemale" Value="....이，이건!!?" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue5FaceNaviPinkFemale" Value="이건 1990년대의,전뇌 절임이에요!!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue6FaceShanghai" Value="잠깐만 기다려 봐!!,지금의 인터넷이 된 게,지금으로부터 몇십년 전이잖아!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue7FaceShanghai" Value="왜 그 이전 년대의,전뇌 음식이 존재하는 거야!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage9Dialogue8FaceNone" Value="므시고，또 댁이가!" Face="None" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue1FaceNaviPurplePunk" Value="호오～～～ 그게,형씨의 보물이라는 게로구마이." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue2FaceNaviPinkFemale" Value="저기.... 귀중한 물건인데,이거면 빌린 돈을...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue3FaceNaviPurplePunk" Value="니 미쳤나!,이게 얼마나 가치 있는 건지,모르고 하는 소린겨!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue4FaceNaviPurplePunk" Value="1990년도면 말이제,세계 최초의 전뇌 세계가,탄생한 역사적 년대랑께!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue5FaceNaviPurplePunk" Value="어쩌믄 현존하는 전뇌 식품,중에서도 윽수로 오래된,걸지도 모른단 말이여...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue6FaceNaviPurplePunk" Value="이런 물건을 가진 조상이라니....,조상께선 무신 일 했었노?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue7FaceNaviPinkFemale" Value="분명히.... 연구 기관에서,기계 도매상을 운영했다고,들었어요...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue8FaceNaviPurplePunk" Value="그 연구기관이라 카는 데가,전뇌 세계를 만들었긋제...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue9FaceNaviPurplePunk" Value="우리 아부지는 전뇌 고고학에,억수로 열심이어서 말이제.,죽치고 들어 봐서 잘 알고 있어야." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue10FaceNaviPurplePunk" Value="그릉께 이거의 가치를 아는 기라.,돈으로 환산하믄 말도 안 되는,액수가 나올 거라는 것도 알아." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue11FaceNaviPurplePunk" Value="분명 아부지는 이걸 알고,형씨 상대로 윽수로,쪼인트 까게 했을 기라." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue12FaceNaviPurplePunk" Value="우리 아부지라믄 분명,이거 받아가는 대신에 대출금,싹 다 없애준다고 말해주긋제." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue13FaceNaviPurplePunk" Value="마，이제 빚진 것도 없으니께,나가 여그 굳이,있을 필요는 없겠제." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage11Dialogue14FaceNaviPurplePunk" Value="다시넌 우리네 같은 데서,돈 빌리믄 안 된데이～!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue1FaceShanghai" Value="....이걸로 괜찮았을까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue2FaceNaviPinkFemale" Value="네.... 덕분에 살았어요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue3FaceNaviPinkFemale" Value="답례로 이걸 드릴게요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue4FaceAlice" Value="저기 있지，나 땅 파느라,엄～청 애썼는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue5FaceShanghai" Value="고생했어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue6FaceShanghai" Value="이다음에 용돈으로,사고 싶었던 수공예품 사줄게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage13Dialogue7FaceAlice" Value="예～이....,뭔가 물건 하나에,낚인 기분이야...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage15Dialogue1FaceNaviPinkFemale" Value="앞으로는 선조님들께,부끄럽지 않도록,장사를 해 나가겠어요!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainRequesterStage15Dialogue2FaceNaviPinkFemale" Value="다시는 대출 따위,안 해도 되도록 말이죠!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.FountainDebtCollectionStage1Dialogue1FaceNaviPurplePunk" Value="그래 말해도 형씨 말여，,우리가 무슨 자선사업하는,그런 데는 아니랑께." Face="NaviPurplePunk" Mono="False" />
+</data>
