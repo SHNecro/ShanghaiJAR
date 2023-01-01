@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 資源採掘装置の電脳 -->
+  <Text Key="Map.UnderSaikutuName" Value="자원채굴장치의 전뇌" />
+  <!-- カイテイニハ　シゲントナルコウセキヤ　ガスガイッパイウマッテイマス -->
+  <Dialogue Key="Map.UnderSaikutuSprite1Stage1Dialogue1FaceSprite" Value="해저에는 자원이 되는,광석이나 가스가 잔뜩,묻혀 있습니다." Face="Sprite" Mono="False" />
+  <!-- ソレヲガガガッテ　ホリダスノガコノ　ソウチナノデス -->
+  <Dialogue Key="Map.UnderSaikutuSprite1Stage1Dialogue2FaceSprite" Value="이 장치는 그런 자원을,갈갈갈 하고 파내는 장치입니다." Face="Sprite" Mono="False" />
+  <!-- カイテイニハ　オタカラガアルッテ　ヨクイワレテマスヨネ -->
+  <Dialogue Key="Map.UnderSaikutuSprite2Stage1Dialogue1FaceSprite" Value="해저에는 보물이 있다고,흔히들 말하는데요." Face="Sprite" Mono="False" />
+  <!-- カイテイシゲンハ　マサニシゼンガツクッタオタカラナノデスヨ -->
+  <Dialogue Key="Map.UnderSaikutuSprite2Stage1Dialogue2FaceSprite" Value="해저 자원은 진짜로,자연이 만든,보물이에요." Face="Sprite" Mono="False" />
+</data>
