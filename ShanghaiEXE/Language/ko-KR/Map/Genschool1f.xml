@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Genschool1fName" Value="환상중학교 1층" />
+  <Dialogue Key="Map.Genschool1fToTheOutsideStage1Dialogue1FaceNone" Value="문에는 고압 전류가,흐르고 있어서 위험하다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue1FaceNone" Value="신문부에서 만든,학급신문이 게시되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue2FaceNone" Value="“전쟁이 이어지는 아랍스탄 정세”,“민주당 지지율 변화”,“소년에 의한 넷 범죄”" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue3FaceNone" Value="으음，무거운 테마의,기사밖에 없다." Face="None" Mono="False" />
+  <!-- コラム記事の部分に００００４６００という数字が書かれている -->
+  <Dialogue Key="Map.Genschool1fNewsStage1Dialogue4FaceNone" Value="칼럼 기사 부분에,00004600이라는,숫자가 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fBeforeEntranceOfStaffRoomStage1Dialogue1FaceNone" Value="나쁜 짓을 한 게 아니라고 해도,직원실에 들어가는 건,영 마음이 내키질 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fBeforeEntranceOfStaffRoomStage1Dialogue2FaceNone" Value="용건이 있을 때만,찾아가고 싶다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fAfterTheStaffRoomEntranceStage1Dialogue1FaceNone" Value="나쁜 짓을 한 게 아니라고 해도,직원실에 들어가는 건,영 마음이 내키질 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fAfterTheStaffRoomEntranceStage1Dialogue2FaceNone" Value="용건이 있을 때만,찾아가고 싶다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage1Dialogue1FaceFemaleAdult" Value="어머，2학년 2반의,신키 앨리스구나." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage1Dialogue2FaceFemaleAdult" Value="네 교실은,이 계단을 올라가서,2층에 올라가면 있어." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1OlderSisterStage3Dialogue1FaceKumako" Value="앨리스,다른 길로 새지 말고 돌아가렴." Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue1FaceFemaleAdult" Value="코아 선생님을 찾고 있니?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue2FaceFemaleAdult" Value="코아 선생님이라면 지금,도서관의 데이터베이스를,정리하고 있을 텐데...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter2OlderSisterStage1Dialogue3FaceFemaleAdult" Value="도서관의 데이터베이스는,2층의 PC 교실에서 접속할 수,있으니까 거기 있을 거라 생각해." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue1FaceFemaleStudent" Value="코아 쿠마코,선생님은 정말 미인이라니까." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue2FaceFemaleStudent" Value="학생들은 코아 선생님이라고,별명으로 부를 정도니까,상냥하기도 하겠지." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter1GirlStage1Dialogue3FaceFemaleStudent" Value="코아 선생님이 담임인 반이라니,좋겠다～ 부럽네～" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage1Dialogue1FaceFemaleStudent" Value="N1 리그의 예선에,도전해 봤는데,안 되겠더라～" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage1Dialogue2FaceFemaleStudent" Value="역시 앨리스 정도의,넷배틀 실력이 있어야 하려나～?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage3Dialogue1FaceFemaleStudent" Value="오늘 N1 리그였었지?,앨리스，파이팅!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fChapter4GirlStudentStage5Dialogue1FaceFemaleStudent" Value="N1 리그에서 우승이라니,앨리스 진짜 대단하다!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool1fPostGameBystander1Dialogue1" Value="설마 아사쿠라 선생님이,나쁜 사람이었을 줄이야." Face="FemaleOld" Mono="False" />
+  <Dialogue Key="Map.Genschool1fPostGameBystander1Dialogue2" Value="그렇게 나쁜 사람으로는,안 보였는데 말이지." Face="FemaleOld" Mono="False" />
+</data>
