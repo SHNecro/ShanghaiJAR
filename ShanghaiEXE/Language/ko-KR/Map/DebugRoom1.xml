@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.DebugRoom1Name" Value="디버그 룸" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue1" Value="이곳에는 현재 개발 중이거나，,정상적인 방법으로 마주할 수,없거나，내지는 다양한 아이디어를" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue2" Value="테스트할 목적으로 만들어진,컨텐츠들이 있으며，버그나,밸런스 이슈가 있을 수 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue3" Value="하드 모드나 적들의 난이도,세팅에 따라 다르게 작용하는,전투가 있을 수도 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1RankQuestion" Value="커스텀 랭크:" Face="SoundOnly" Mono="False" />
+  <Text Key="Map.DebugRoom1RanksV1" Value="상향　　　　 ,Ｖ１　　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksV2" Value="상향　　　　 ,Ｖ２　　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksV3" Value="상향　　　　 ,Ｖ３　　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksEX" Value="상향　　　　 ,ＥＸ　　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksSP" Value="상향　　　　 ,ＳＰ　　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksSP2" Value="상향　　　　 ,ＳＰ２　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksSP3" Value="상향　　　　 ,ＳＰ３　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksSP4" Value="상향　　　　 ,ＳＰ４　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksSP5" Value="상향　　　　 ,ＳＰ５　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksHM" Value="상향　　　　 ,ＨＭ　　　　,하향　　　　 ,취소　　　　" />
+  <Text Key="Map.DebugRoom1RanksDS" Value="상향　　　　 ,ＤＳ　　　　,하향　　　　 ,취소　　　　" />
+  <Dialogue Key="Map.DebugRoom1CirnoQuestion" Value="치르노 배틀 테스트" Face="Cirno" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1PyroManQuestion" Value="파이로맨 배틀 테스트" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MurasaQuestion" Value="무라사 배틀 테스트" Face="Murasa" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1ScissorManQuestion" Value="시저맨 배틀 테스트" Face="ScissorMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1ChenQuestion" Value="첸 배틀 테스트" Face="Chen" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1DruidManQuestion" Value="드루이드맨 배틀 테스트" Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MarisaQuestion" Value="마리사 배틀 테스트" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1SakuyaQuestion" Value="사쿠야 배틀 테스트" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1TankManQuestion" Value="탱크맨 배틀 테스트" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1SpannerManQuestion" Value="스패너맨 배틀 테스트" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1HakuTakuManQuestion" Value="하쿠타쿠맨 배틀 테스트" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1TortoiseManQuestion" Value="토터스맨 배틀 테스트" Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1BeetleManQuestion" Value="비틀맨 배틀 테스트" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1YorihimeQuestion" Value="요리히메 배틀 테스트" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MedicineQuestion" Value="메디슨 배틀 테스트" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1IkuQuestion" Value="이쿠 배틀 테스트" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1RanQuestion" Value="란 배틀 테스트" Face="Ran" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1YoumuQuestion" Value="요우무 배틀 테스트" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1YuyukoQuestion" Value="유유코 배틀 테스트" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1KikuriQuestion" Value="키쿠리 배틀 테스트" Face="KikuriCombat" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1RanChenQuestion" Value="란+첸 배틀 테스트" Face="Ran" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MimaQuestion" Value="미마 배틀 테스트" Face="Mima" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1FlandreQuestion" Value="플랑드르 배틀 테스트" Face="FlandreAngry" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1UtsuhoQuestion" Value="우츠호 배틀 테스트" Face="UtsuhoDark" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1MadManQuestion" Value="미친 영혼 배틀 테스트" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1BlockerQuestion" Value="노이즈블로커 배틀 테스트" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1ShanghaiDSQuestion" Value="샹하이DS 배틀 테스트" Face="Shanghai" Mono="False" />
+  <Text Key="Map.DebugRoom1StartCancel" Value="시작,취소" />
+  <Dialogue Key="Map.DebugRoom1CirnoBXQuestion" Value="치르노BX 배틀 테스트" Face="SoundOnly" Mono="False" />
+</data>
