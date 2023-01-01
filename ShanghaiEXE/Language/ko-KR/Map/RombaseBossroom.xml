@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
   <!-- ROM首領の部屋 -->
-  <Text Key="Map.RombaseBossroomName" Value="ROM 수령의 방" />
+  <Text Key="Map.RombaseBossroomName" Value="ROM 두령의 방" />
   <!-- 邪魔するぜ････ -->
   <Dialogue Key="Map.RombaseBossroomChapter5OpeningEventsStage1Dialogue1FacePyroManOpMokou" Value="실례하지...." Face="PyroManOpMokou" Mono="False" />
   <!-- あら？あなたは誰かしら？ -->
