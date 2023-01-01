@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳３ -->
+  <Text Key="Map.ClockTower3Name" Value="시계탑의 전뇌 3" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower3GimmickStage1Dialogue1QuestionFaceNone" Value="큰 시계와 연동되는 시계이다.,시곗바늘을 움직이겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower3GimmickStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower3GimmickStage3Dialogue1QuestionFaceNone" Value="시침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower3GimmickStage3Dialogue1Options" Value="１２시,　３시,　６시,　９시" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower3GimmickStage5Dialogue1QuestionFaceNone" Value="분침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower3GimmickStage5Dialogue1Options" Value="００분,１５분,３０분,４５분" />
+  <!-- ６ジ００フン　９ジ１５フン３ジ００フン　１２ジ３０フン････ -->
+  <Dialogue Key="Map.ClockTower3Sprite1AStage1Dialogue1FaceSprite" Value="6시 00분，9시 15분,3시 00분，12시 30분...." Face="Sprite" Mono="False" />
+  <!-- タテ　ヨコ　エルジ　タテ　マッスグ　スグサキ････ -->
+  <Dialogue Key="Map.ClockTower3Sprite1AStage1Dialogue2FaceSprite" Value="세로，가로，L자,세로，일직선，바로 앞...." Face="Sprite" Mono="False" />
+</data>
