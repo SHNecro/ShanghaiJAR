@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ウラインターネット９ -->
+  <Text Key="Map.UraNet9Name" Value="우라 인터넷 9" />
+  <!-- ウラの果てまでご苦労だなここはエラーのかけら交換屋だぜ -->
+  <Dialogue Key="Map.UraNet9ErrorExchangeShopStage1Dialogue1FaceNaviPurpleHeel" Value="우라의 끝까지 오다니 고생이 많군.,여기는 에러 조각,교환소야." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet9DruidManV2FightEnd" Value="쓰러뜨린 내비의 잔해 데이터가,어딘가로 날아가 사라져 버렸다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgamePunk2Dialogue1" Value="두 명 정도 다크 칩,판매원을 미행해 봤는데，,다들 여기서 멈추더라고." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgamePunk2Dialogue2" Value="또 말은 이렇게 하는데，,꼭 여기서 다 놓치기도 해.,여기 진짜 뭔가 큰 게 있는 거 같아!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgamePunk1Dialogue1" Value="끄으으으으으으....,다크 칩.... 다크 칩은,어디에 있는 거야아아아아악!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet9PostgameCreepyChildDialogue1" Value="헤헤헤헤....!,우리랑 같이 노올자....!" Face="NaviPurpleChild" Mono="False" />
+</data>
