@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Hospital3fName" Value="야고코로 종합 병원 3층" />
+  <Dialogue Key="Map.Hospital3fElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층에 가시겠습니까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Hospital3fElevatorStage1Dialogue2Options" Value="1층,2층,안 탄다" />
+  <Dialogue Key="Map.Hospital3fElevatorStage3Dialogue1FaceNone" Value="엘리베이터의 버튼을,눌러도 반응하질 않는다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage5Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층에 가시겠습니까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fElevatorStage5Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.Hospital3fElevatorStage5Dialogue2Options" Value="1층,2층,안 탄다" />
+  <Dialogue Key="Map.Hospital3fSofaStage1Dialogue1FaceNone" Value="기다리는 사람들을,위한 소파다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeStage1Dialogue1FaceNone" Value="기다리는 사람들을,위한 소파다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeDupeStage1Dialogue1FaceNone" Value="기다리는 사람들을,위한 소파다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fSofaDupeDupeStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fGodStage1Dialogue1FaceKoishi" Value="어떡해....,이대로는 언니가...." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue1FaceKoishi" Value="........" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue2FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue3FaceShanghai" Value="........" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue4FaceShanghai" Value="수술이 오래 걸리네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue5FaceKoishi" Value="의사 선생님께서도,어려운 수술이라,말씀하셨으니까...." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue6FaceAlice" Value="사토리 씨 괜찮을까...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue7FaceKoishi" Value="그래도 이번 수술은,야고코로 선생님께서,집도하실 거니까 괜찮아!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue8FaceAlice" Value="....뭔가 긴장해서 그런가,땀이 나네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue9FaceKoishi" Value="....그보다,뭔가 좀 뜨거운 것 같은데?" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage1Dialogue10FaceShanghai" Value="아니 그보다 실내 온도가,서서히 올라가고 있잖아!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue1FaceEirin" Value="저기，거기 밖에 누구 있어요!?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue2FaceAlice" Value="야고코로 선생님!,무슨 일이죠!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue3FaceEirin" Value="이 층만 공기 청정기에,고장이 발생해서 실내 온도가,올라가고 있는 것 같아!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue4FaceEirin" Value="문에 있는 전자 잠금 장치도,안 열리는 것 같고...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue5FaceKoishi" Value="어，언니는 괜찮나요!?" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue6FaceEirin" Value="아직까지는 괜찮지만,이대로 실온이 계속 올라갔다간,돌이킬 수 없는 사태가 벌어져!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue7FaceShanghai" Value="....이 층만 그렇다고?,이거 마치...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue8FaceShanghai" Value="아니 어느 경우건!,공기 청정기 고장이라는 건,전뇌 세계가 문제라는 거잖아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage3Dialogue9FaceShanghai" Value="어디에서 액세스할 수 있는지,알려 줘!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue1FaceEirin" Value="수술실 입구 옆에,컨트롤 패널이 있지?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue2FaceShanghai" Value="거기에 플러그인하라 이거지?,앨리스，가자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage5Dialogue3FaceAlice" Value="물론!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue1FaceKoishi" Value="선생님，언니는....?" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue2FaceEirin" Value="....기적이 일어났어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue3FaceEirin" Value="선천성 쇠약 인자 장애....,사토리 씨를 좀먹던,그 병이 치료되었어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue4FaceAlice" Value="네....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue5FaceEirin" Value="본디부터 이번 수술은,일시적으로 시력을 회복시키는,수술이 될 계획이었어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue6FaceEirin" Value="일시적으로 앞을 볼 수 있어도,병 때문에 몇 년이 지나면 또다시,보이지 않게 되어 버려." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue7FaceEirin" Value="선천성 쇠약 인자 장애의,치료 방법은 아직,확립된 게 아니니까...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue8FaceEirin" Value="그런데 고온의 수술실에서,집행된 수술 도중에" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue9FaceEirin" Value="선천성 쇠약 인자 장애를,일으키고 있던 세포가,정상적으로 돌아오기 시작했어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue10FaceEirin" Value="어쩌면 그 고열이,좋은 방향으로,작용한 걸지도 모르겠구나...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue11FaceEirin" Value="이거에 대한 연구는 나중에 하기로,하고，사토리 씨의 마취가 풀리면,사토리 씨도 앞이 보이게 될 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue12FaceKoishi" Value="가.... 감사합니다!!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue13FaceEirin" Value="자，사토리 씨를 병실에,데리고 가야 하니까,2층에서 기다려 줄래?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fHospitalEventStage7Dialogue14FaceKoishi" Value="네!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage1Dialogue1FaceNone" Value="이 층을 관리하는,컨트롤 패널이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage1Dialogue2FaceNone" Value="수술실 내부도 관리하고 있으므로,함부로 손 댔다간 돌이킬 수 없는,사태가 벌어질 지도 모른다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage3Dialogue1FaceNone" Value="이 층을 관리하는,컨트롤 패널이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fControlStage3Dialogue2FaceNone" Value="수술실 내부도 관리하고 있으므로,플러그인을 통해 외부에서,문제를 해결할 수 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue1FaceNone" Value="이 앞에는 수술실이 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue2FaceNone" Value="병과 의사의 진검승부 장소이므로,관계 없는 사람은 들어가기는,고사하고 관여할 수조차 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage1Dialogue3FaceNone" Value="수술을 받는 당사자마저도,마취 때문에 그 승부에,관여할 수가 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage3Dialogue1FaceEirin" Value="수술실 문 옆에 있는,컨트롤 패널에다,플러그인해줘!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage3Dialogue2FaceEirin" Value="이대로 있다간 사토리 씨의,생명이 위험해!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue1FaceNone" Value="이 앞에는 수술실이 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue2FaceNone" Value="병과 의사의 진검승부 장소이므로,관계 없는 사람은 들어가기는,고사하고 관여할 수조차 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital3fOperatingRoomStage5Dialogue3FaceNone" Value="수술을 받는 당사자마저도,마취 때문에 그 승부에,관여할 수가 없다." Face="None" Mono="False" />
+</data>
