@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　階段 -->
   <Text Key="Map.ROMbase2fName" Value="ROM 기지 계단" />
@@ -24,6 +24,6 @@
   <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue2" Value="쇠지렛대가 있어야,열 수 있을 정도로,단단하게 밀봉되어 있다." Face="None" Mono="False" />
   <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue1" Value="암호가 계속 바뀌는 현상인가?,아니，그럴 리가 없는데.,주기가 완전히 다르잖아." Face="Scientist" Mono="False" />
   <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue2" Value="아니면 이 “78234528”이 반복되는,현상은 그냥 진짜 데이터를,보호하기 위한 눈속임 같은데." Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue1" Value="녹음 자료가 남아 있었군!,75리터의 만물융화액을 주식회사,June에서 W3 유한회사로 보낸다라...." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue1" Value="녹음 자료가 남아 있었군!,75리터의 만물융화액을 주식회사,June에서 W3 유한회사로...." Face="Policeman" Mono="False" />
   <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue2" Value="분석가한테 보내 보자. ROM과,이어져 있었던 공범이나 ROM이,썼던 위장 수법을 알 수 있겠어." Face="Policeman" Mono="False" />
 </data>
