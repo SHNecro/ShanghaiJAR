@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.DebugRoom1Name" Value="디버그 룸" />
-  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue1" Value="이곳에는 현재 개발 중이거나，,정상적인 방법으로 마주할 수,없거나，내지는 다양한 아이디어를" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue2" Value="테스트할 목적으로 만들어진,컨텐츠들이 있으며，버그나,밸런스 이슈가 있을 수 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue1" Value="이곳에는 현재 개발 중이거나，,정상적인 방법으로 마주할 수,없거나，내지는 각종 아이디어의" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1Sprite1Dialogue2" Value="테스트를 목적으로 만들어진,컨텐츠들이 있으며，버그나,밸런스 이슈가 있을 수 있습니다." Face="Sprite" Mono="False" />
   <Dialogue Key="Map.DebugRoom1Sprite1Dialogue3" Value="하드 모드나 적들의 난이도,세팅에 따라 다르게 작용하는,전투가 있을 수도 있습니다." Face="Sprite" Mono="False" />
   <Dialogue Key="Map.DebugRoom1RankQuestion" Value="커스텀 랭크:" Face="SoundOnly" Mono="False" />
   <Text Key="Map.DebugRoom1RanksV1" Value="상향　　　　 ,Ｖ１　　　　,하향　　　　 ,취소　　　　" />
