@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.FirehydrantName" Value="소화전의 전뇌" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue1FaceSprite" Value="만의 하나에 사태에 대비해,물을 내뿜는 연습을,빠짐없이 합니다!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue2FaceSprite" Value="콰아아～，촬촬촬촬...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue3FaceSprite" Value="....그런데 그냥 글자만 나오면,제가 실수한 게 되잖아요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite1Stage1Dialogue4FaceSprite" Value="부끄러워～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantTestSprite2Stage1Dialogue1FaceSprite" Value="전투테스트" Face="Sprite" Mono="False" />
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy1" Value="깡패형님" />
+  <!-- ボマー -->
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy2" Value="보머" />
+  <!-- アクトウナビ -->
+  <Text Key="Map.FirehydrantTestSprite2Battle1Enemy3" Value="악당내비" />
+  <Dialogue Key="Map.FirehydrantSprite2Stage1Dialogue1FaceSprite" Value="저희들 보면,화재가 발생했을 때만,일하잖아요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantSprite2Stage1Dialogue2FaceSprite" Value="할 일 없는 것도 싫지만,일해야 할 때가 오는 건,더욱 더 싫어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.FirehydrantASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot" Value="저는 서브칩 상인입니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.FirehydrantASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot" Value="서브칩을 구매하시겠나요?" Face="NaviBlueRobot" Mono="False" />
+  <Text Key="Map.FirehydrantASub-chipMerchantStage1Dialogue2Options" Value="예,아니오" />
+</data>
