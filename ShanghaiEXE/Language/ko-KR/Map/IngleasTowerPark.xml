@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インゲレス　時計塔前広場 -->
+  <Text Key="Map.IngleasTowerParkName" Value="잉겔레스 시계탑 앞 광장" />
+  <!-- この時計塔は　えっと････ -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue1FaceAlice" Value="이 시계탑은，어디 보자...." Face="Alice" Mono="False" />
+  <!-- 第１次宇宙大戦の時に焼け落ちた大時計塔を最新技術で復元したものね -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue2FaceShanghai" Value="제1차 우주전쟁 때,불타 버린 큰 시계탑을,최신 기술로 복원한 거야." Face="Shanghai" Mono="False" />
+  <!-- といっても外観だけで中は当時の最新セキュリティの実験場になってたんだって -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue3FaceShanghai" Value="물론 그래도 외관만 그렇고,내부는 당시의 최신 보안의,실험장이 되었다는데." Face="Shanghai" Mono="False" />
+  <!-- セキュリティの？へぇ　それは意外だね -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue4FaceWriggleHat" Value="보안의 실험장이라고?,헤에，그건 좀 의외네." Face="WriggleHat" Mono="False" />
+  <!-- なんでも当時のインゲレス女王がすごく心配症だったとかでセキュリティ開発を命じて････ -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue5FaceShanghai" Value="아무래도 당시 잉겔레스 여왕이,뭣만 하면 걱정하는 성격이라,보안 개발을 명했고...." Face="Shanghai" Mono="False" />
+  <!-- 結果　内部は難攻不落のセキュリティ地獄になったんだって -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue6FaceShanghai" Value="그 결과 내부가 난공불락의,보안 지옥이 되었다고 하네." Face="Shanghai" Mono="False" />
+  <!-- といっても大半は危ないから取り外されて　扉が降りるとか軽いものだけになったとか -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue7FaceShanghai" Value="그렇게 말해도 태반이 위험한 거라,대부분 제거되고 문이 내려간다던지,하는 등 가벼운 것들만 남았다던가." Face="Shanghai" Mono="False" />
+  <!-- 歴史ある時計塔の復元なだけじゃないんだね -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue8FaceWriggleHat" Value="역사 있는 시계탑의,복원만 있는 게 아니구나." Face="WriggleHat" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.IngleasTowerParkDatingPlace4Stage1Dialogue9FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- 着いたーーー！インゲレスだーー！ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue1FaceAlice" Value="도착했다～～!,잉겔레스다～～!" Face="Alice" Mono="False" />
+  <!-- 大声出すんじゃないわよはずかしいったらありゃしない -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue2FaceShanghai" Value="큰 소리로 말하지 마.,부끄럽기 짝이 없다고." Face="Shanghai" Mono="False" />
+  <!-- でも見てあの時計塔！一番上が見えないくらい高いわよ！ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue3FaceAlice" Value="그래도 봐봐，저 시계탑!,제일 윗층이 보이지 않을 정도로,엄청 높잖아!" Face="Alice" Mono="False" />
+  <!-- この街のシンボルだからねあの時計塔は -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue4FaceShanghai" Value="이 마을의 심볼이니까，,저 시계탑은." Face="Shanghai" Mono="False" />
+  <!-- それより　すれ違う人間には注意しなさいよスリとか多いからね -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue5FaceShanghai" Value="그보다 지나가는 사람들은,주의하라고. 소매치기,같은 놈들 많으니까." Face="Shanghai" Mono="False" />
+  <!-- まあ　そんなことした奴はあたしが総力をもって潰すけど -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue6FaceShanghai" Value="뭐，그런 짓 하는 놈들은,내가 총력을 다해,박살내버리겠지만." Face="Shanghai" Mono="False" />
+  <!-- あはは････頼もしいわね -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue7FaceAlice" Value="아하하....,믿음직하네." Face="Alice" Mono="False" />
+  <!-- ふわぁ････ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue8FaceAlice" Value="흐아암...." Face="Alice" Mono="False" />
+  <!-- どうしたの？いきなりあくびなんかして -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue9FaceShanghai" Value="왜 그래?,갑자기 하품을 하고." Face="Shanghai" Mono="False" />
+  <!-- 安心したら急に眠くなってきた････ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue10FaceAlice" Value="안심하고 있으니까,갑자기 졸려서...." Face="Alice" Mono="False" />
+  <!-- ホテルにチェックインして一旦休みましょう -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue11FaceShanghai" Value="호텔에 체크인해서,일단 쉬자." Face="Shanghai" Mono="False" />
+  <!-- そうねホテルはどこだっけ？ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue12FaceAlice" Value="그러자.,호텔은 어디였지?" Face="Alice" Mono="False" />
+  <!-- ここは時計塔広場でしょう？ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue13FaceShanghai" Value="여기가 시계탑 광장이지?" Face="Shanghai" Mono="False" />
+  <!-- 道を右に曲がれば市街に繋がっててそこにホテルがあるわ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6ArrivalEventStage1Dialogue14FaceShanghai" Value="오른쪽으로 길을 꺾어서 가면,시가지로 이어질 거야.,거기에 호텔이 있어." Face="Shanghai" Mono="False" />
+  <!-- 右側に運転席のあるインゲレス製の車だ -->
+  <Dialogue Key="Map.IngleasTowerParkCar1Stage1Dialogue1FaceNone" Value="오른쪽에 운전석이 있는,잉겔레스제 차량이다." Face="None" Mono="False" />
+  <!-- インゲレスは外国ではあるが実は日本と同じ左側車線だ -->
+  <Dialogue Key="Map.IngleasTowerParkCar1Stage1Dialogue2FaceNone" Value="잉겔레스는 외국이지만,사실은 일본과 마찬가지로,좌측통행이다." Face="None" Mono="False" />
+  <!-- 日本製の車が停まっている -->
+  <Dialogue Key="Map.IngleasTowerParkCar2Stage1Dialogue1FaceNone" Value="일본제 차량이 정차해 있다." Face="None" Mono="False" />
+  <!-- 外国で日本製のものを見るとなんだか安心してしまう -->
+  <Dialogue Key="Map.IngleasTowerParkCar2Stage1Dialogue2FaceNone" Value="외국에서 일본제의 물건을 보니까,뭔가 안심하게 된다." Face="None" Mono="False" />
+  <!-- インゲレス市内を走るバスのバス停だ -->
+  <Dialogue Key="Map.IngleasTowerParkBusStopStage1Dialogue1FaceNone" Value="잉겔레스 시내를 달리는,버스의 정류장이다." Face="None" Mono="False" />
+  <!-- 時刻表を見る限りしばらくバスは来なさそうだ -->
+  <Dialogue Key="Map.IngleasTowerParkBusStopStage1Dialogue2FaceNone" Value="시간표를 보니 얼마 동안,버스는 안 올 것 같다." Face="None" Mono="False" />
+  <!-- インゲレス市内を走るバスのバス停だ -->
+  <Dialogue Key="Map.IngleasTowerParkBusStopStage3Dialogue1FaceNone" Value="잉겔레스 시내를 달리는,버스의 정류장이다." Face="None" Mono="False" />
+  <!-- 空港行きのバスに乗って日本へ帰りますか？ -->
+  <Dialogue Key="Map.IngleasTowerParkBusStopStage3Dialogue2QuestionFaceNone" Value="공항으로 가는 버스를 타고,일본으로 돌아가시겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.IngleasTowerParkBusStopStage3Dialogue2Options" Value="예,아니오" />
+  <!-- いやあ　何度来てもこの時計塔の大きさには驚かされますねー -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6-1ManStage1Dialogue1FaceOrangeHairMaleWesterner" Value="이야～ 몇 번을 오더라도,이 시계탑의 크기 앞에서는,놀라게 되네요～" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- なんでも２００年前に建てられたんですって歴史を感じますねー -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6-1ManStage1Dialogue2FaceOrangeHairMaleWesterner" Value="아무래도 200년 전에,세워졌다고 하니,역사를 느낄 수 있어요～" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- あら　外国から来たのかしら？ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6-1WomanStage1Dialogue1FaceGreenHairFemalePinkEyes" Value="어머，외국에서 왔니?" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- インゲレスの町並み楽しんでいってね -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6-1WomanStage1Dialogue2FaceGreenHairFemalePinkEyes" Value="잉겔레스의 시내 경관을,즐기다 가렴." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- ヨーリカに出るウィルスはけっこう強いんだぞ！ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6-1ChildStage1Dialogue1FaceBlondHairMaleChild" Value="유리카에서 나오는 바이러스는,꽤나 세다고!" Face="BlondHairMaleChild" Mono="False" />
+  <!-- お姉ちゃんのナビは大丈夫かなあ？ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter6-1ChildStage1Dialogue2FaceBlondHairMaleChild" Value="누나 내비는,이런 환경 속에서도,괜찮을까나?" Face="BlondHairMaleChild" Mono="False" />
+  <!-- まったく　最近のインゲレスにはスリルってもんが足りてねえ！ -->
+  <Dialogue Key="Map.IngleasTowerParkChapter7BlackManStage1Dialogue1FaceBlackHairMaleBlackRapper" Value="정말이지 최근의 잉글레스에는,스릴이라는 게 없어!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- どこか別の国に行って事件のひとつにも巻き込まれてみるか -->
+  <Dialogue Key="Map.IngleasTowerParkChapter7BlackManStage1Dialogue2FaceBlackHairMaleBlackRapper" Value="어디 다른 나라에 가서,사건 하나에라도,휘말려 볼까?" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- ニホンじゃあネット犯罪が大変みたいじゃないか -->
+  <Dialogue Key="Map.IngleasTowerParkChapter7OldManStage1Dialogue1FaceOrangeHairMaleWesterner" Value="일본이라면 넷 범죄 때문에,지금 크게 일 나지 않았나?" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- インゲレスのインターネットは平和そのものなのにな -->
+  <Dialogue Key="Map.IngleasTowerParkChapter7OldManStage1Dialogue2FaceOrangeHairMaleWesterner" Value="잉겔레스의 인터넷은,그야말로 평화로운데." Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- ････今ここに我が国インセクタ王国とインゲレスの不変の友好を -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage1Dialogue1FaceWriggleCrown" Value="....지금 이 자리에서,우리 나라 인섹터 왕국과,잉겔레스의 불변의 우호를" Face="WriggleCrown" Mono="False" />
+  <!-- 私　次期王位継承者のリグﾚｯﾄ･ナｲツバｰグ･ｲンセクタが宣言いたします！！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage1Dialogue2FaceWriggleCrown" Value="바로 저，차기 왕위 계승자인,리그릿･나이츠버그･인섹터가,선언하겠습니다!!" Face="WriggleCrown" Mono="False" />
+  <!-- ワァァァァ！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage1Dialogue3FaceNone" Value="와아아아아!" Face="None" Mono="False" />
+  <!-- 八意鈴仙　神綺アリス････お二人の勇気ある行動によって私の命は救われました -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage3Dialogue1FaceWriggleCrown" Value="야고코로 레이센，신키 앨리스....,두 분의 용감한 행동 덕분에,제가 살 수 있었습니다." Face="WriggleCrown" Mono="False" />
+  <!-- その勇気と栄誉をたたえインセクタ勲章を与えましょう -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage3Dialogue2FaceWriggleCrown" Value="그 용기와 영예를 찬양하고자,인섹터 훈장을 수여합니다." Face="WriggleCrown" Mono="False" />
+  <!-- （それにしてもまさか　お姫様だったなんてねえ･･･） -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage5Dialogue1FaceShanghai" Value="(그건 그렇다 치더라도 설마, 공주님이었을 줄이야....)" Face="Shanghai" Mono="False" />
+  <!-- （さようなら　私の初恋････） -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage5Dialogue2FaceAlice" Value="(안녕，내 첫사랑....)" Face="Alice" Mono="False" />
+  <!-- （元気出しなさいよ！　あんた顔は悪く無いから　そのうち良い奴みつかるって） -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage5Dialogue3FaceShanghai" Value="(기운 내라고!, 너 얼굴은 꽤 예쁘니까, 조만간 좋은 놈 만날 거야!)" Face="Shanghai" Mono="False" />
+  <!-- （全然なぐさめに　なってないよー！） -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage5Dialogue4FaceAlice" Value="(전혀 위로가, 되고 있지 않거든!)" Face="Alice" Mono="False" />
+  <!-- 神綺アリスさん本当にありがとうございました -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage7Dialogue1FaceWriggleCrown" Value="신키 앨리스 씨，,정말로 감사합니다." Face="WriggleCrown" Mono="False" />
+  <!-- ど　どういたしまして････ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage7Dialogue2FaceAlice" Value="여，영광스럽습니다...." Face="Alice" Mono="False" />
+  <!-- ････ねえ　アリス -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage9Dialogue1FaceWriggleCrown" Value="....있지，앨리스." Face="WriggleCrown" Mono="False" />
+  <!-- 今度ね　日本に遊びに行く予定があるんだ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage9Dialogue2FaceWriggleCrown" Value="이번에 일본에 놀러 갈,예정이야." Face="WriggleCrown" Mono="False" />
+  <!-- えっ････？ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage9Dialogue3FaceAlice" Value="어....?" Face="Alice" Mono="False" />
+  <!-- その時は　君の友達のリグルとしてまた一緒に遊ぼうね！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage9Dialogue4FaceWriggleCrown" Value="그 때는 네 친구인,리글로써 또 같이 놀자!" Face="WriggleCrown" Mono="False" />
+  <!-- ････うん！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage9Dialogue5FaceAlice" Value="....응!" Face="Alice" Mono="False" />
+  <!-- こうして　波乱に満ちた初めての海外旅行は幕を閉じたの････ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage11Dialogue1FaceNone" Value="이렇게 파란으로 가득찬,첫 해외 여행은,막을 내렸어...." Face="None" Mono="False" />
+  <!-- リグル君が女の子だったのはショックだったけど････ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage11Dialogue2FaceNone" Value="리글이 여자애였다는 건,쇼크였지만...." Face="None" Mono="False" />
+  <!-- お姫様の友達ができたからいい経験にはなったと思う -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage11Dialogue3FaceNone" Value="공주님의 친구가 되었으니까,좋은 경험이 되었다고 생각해." Face="None" Mono="False" />
+  <!-- 帰り際におみやげを買った私たちは････ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage11Dialogue4FaceNone" Value="돌아가는 길에 여행 선물을,사고 나서 우리는...." Face="None" Mono="False" />
+  <!-- 帰りの飛行機を降りてやっと幻想町に戻ってきた -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage11Dialogue5FaceNone" Value="귀국행 비행기에 타고,드디어 환상 마을에 돌아왔다." Face="None" Mono="False" />
+  <!-- あーやっと帰ってきたー！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage13Dialogue1FaceAlice" Value="아～ 드디어 돌아왔다～!" Face="Alice" Mono="False" />
+  <!-- 数日間離れてただけだけど何年も離れてたような気分だわ〜 -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage13Dialogue2FaceShanghai" Value="며칠 동안만 떨어져 있었는데,한 몇 년은 떨어져 있었던 듯한,기분이야～" Face="Shanghai" Mono="False" />
+  <!-- 向こうで買ったおみやげをみんなに渡してからお家に帰ろっか！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage13Dialogue3FaceAlice" Value="잉겔레스에서 산 여행 선물을,모두에게 주고 나서,집으로 돌아갈까!" Face="Alice" Mono="False" />
+  <!-- そうね　流石に天子も退院しただろうし -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage13Dialogue4FaceShanghai" Value="그러자. 역시나 텐시도,퇴원했기도 했으니까." Face="Shanghai" Mono="False" />
+  <!-- アリス　メールが来たわよ！ -->
+  <Dialogue Key="Map.IngleasTowerParkCeremonialEventStage15Dialogue1FaceShanghai" Value="앨리스，메일이 왔어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameGirl1Dialogue1" Value="나 진짜 그 공주님 봤다니까!,머리 모양 진짜 이상하고,머리 위에 장식 달고 있었어!" Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue2" Value="그럴 리 있겠냐!,케이크 집 근처에 있는,무서워 보이는 누나 말이겠지!" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameBoy1Dialogue3" Value="그 누나가 계속 여기 보길래,직접 물어봤는데 역으로,엄청 혼났어!" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameWomanDialogue1" Value="일본에서 있었던,그 ROM 사건에 대해서,친구한테서 들었어." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.IngleasTowerParkPostgameWomanDialogue2" Value="설마 우리 유리카의 학회에서,퇴출당한 사람이 그 조직의,리더였다니...." Face="GreenHairFemalePinkEyes" Mono="False" />
+</data>
