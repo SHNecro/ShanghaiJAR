@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.WiiUName" Value="최신 게임기의 전뇌" />
+  <Dialogue Key="Map.WiiUSprite1Stage1Dialogue1FaceSprite" Value="업데이트 패치의,설치가 완료되었습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.WiiUSprite1Stage1Dialogue2FaceSprite" Value="다음 번에 재기동시키면,업데이트가 적용됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.WiiUSprite2Stage1Dialogue1FaceSprite" Value="컨트롤러 화면만 가지고,놀 수 있는 게임도 있답니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.WiiUSprite2Stage1Dialogue2FaceSprite" Value="채널을 어느 한 채널로,고정할 필요가,없어졌다는 거죠!" Face="Sprite" Mono="False" />
+</data>
