@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳５ -->
+  <Text Key="Map.ClockTower5Name" Value="시계탑의 전뇌 5" />
+  <!-- セキュリティはすでに解除されている -->
+  <Dialogue Key="Map.ClockTower5TerminalStage1Dialogue1FaceNone" Value="보안은 이미,해제되어 있다." Face="None" Mono="False" />
+  <!-- コノエリアノ　トケイハソコノト　モウヒトツシカアリマセン -->
+  <Dialogue Key="Map.ClockTower5Sprite1AStage1Dialogue1FaceSprite" Value="이 에리어의 시계는,거기 있는 거랑,또 하나밖에 없어요." Face="Sprite" Mono="False" />
+  <!-- ナノデ　サイゴマデイケルジカンヲ　ミツケナイトイケマセンネ -->
+  <Dialogue Key="Map.ClockTower5Sprite1AStage1Dialogue2FaceSprite" Value="그렇기에 마지막까지 갈 수 있는,시간을 찾아야 해요." Face="Sprite" Mono="False" />
+  <!-- マエノ　エリアデサイショニ　トオッタカタチガソノママ　ツカエマスヨ -->
+  <Dialogue Key="Map.ClockTower5Sprite2AStage1Dialogue1FaceSprite" Value="이전 에리어에서,맨 처음에 지나간 시곗바늘,위치 그대로도 쓸 수 있어요." Face="Sprite" Mono="False" />
+  <!-- オヤオヤ〜？ツイサッキノ　コトナノニワスレテタリ　シマセンヨネ？ -->
+  <Dialogue Key="Map.ClockTower5Sprite2AStage1Dialogue2FaceSprite" Value="잠깐만요～?,바로 방금 전 일이었는데,잊어버린 건 아니죠?" Face="Sprite" Mono="False" />
+  <!-- マッスグニサイゴノミチヲツキススメ　　　スプライトチャン -->
+  <Dialogue Key="Map.ClockTower5Sprite3AStage1Dialogue1FaceSprite" Value="이대로 쭈욱,끝으로 향하는 길,뚫고 나가라　　　　　　스프라이트" Face="Sprite" Mono="False" />
+  <!-- ヒャーヒャヒャッヒャ！来やがったなァ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue1FaceScissorMan" Value="햐앗햣햣햐!,기어이 여기까지,와 버렸구나아!!" Face="ScissorMan" Mono="False" />
+  <!-- 俺様の名はシザーマン！我が主　タラカーン様の命によりここで貴様をデリートする！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue2FaceScissorMan" Value="이 나의 이름은 시저맨!,주인 타라칸 님의 명령대로,여기서 네놈을 딜리트해주마!" Face="ScissorMan" Mono="False" />
+  <!-- サッサとそこをどきなさい！そうしたら　痛い目に遭わなくて済むようにしてやるわよ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue3FaceShanghai" Value="당장 길 비켜!,그러면 최소한도 험한 꼴은,보지 않게 해 주마!" Face="Shanghai" Mono="False" />
+  <!-- ヒィーヒヒヒ････！！威勢のイイのナビだァ！ああ････たまらねェ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue4FaceScissorMan" Value="히잇히히히....!!,위세 좋은 내비로군!,아아.... 이거 못 참겠는데!" Face="ScissorMan" Mono="False" />
+  <!-- 俺様の趣味はキミのような気の強い女ナビをズタズタに引き裂くことだからなあ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue5FaceScissorMan" Value="내 취미는 너 같이 기세등등한,여자 내비를 갈기갈기,찢어발기는 거라서 말야!" Face="ScissorMan" Mono="False" />
+  <!-- あーら　奇遇ね -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue6FaceShanghai" Value="어이쿠，우연이 따로 없네." Face="Shanghai" Mono="False" />
+  <!-- あたしの趣味もあんたみたいなゲッスいナビをボッコボコにしてやることなのよ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue7FaceShanghai" Value="내 취미도 너 같이,쓰레기 같은 내비를,작신 두들겨 패는 거거든!" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャヒャ言うじゃねぇか！ますますズタズタに････ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue8FaceScissorMan" Value="햐앗햐햐,말 한 번 잘 하는군!,우선 갈기갈기 찢고 죽...." Face="ScissorMan" Mono="False" />
+  <!-- いや････気が変わったその綺麗なカラダを真っ二つにしてやりたくなってきたぜェ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue9FaceScissorMan" Value="아니지.... 생각이 바뀌었어.,그 예쁜 몸을 우선,반으로 가르고 싶어졌어!" Face="ScissorMan" Mono="False" />
+  <!-- シザーマンはしゃぐのは程々にしておけ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue10FaceScissorManOpTarakhan" Value="시저맨，,떠드는 건 적당히 하도록." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そいつの首を取ることも我々の目的のひとつだが油断はできぬ相手だぞ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue11FaceScissorManOpTarakhan" Value="그 놈의 머리를 따는 것도,우리의 목적 중 하나지만,방심해서는 안 되는 상대방이다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そう言われちゃあ仕方ねえバッサリやらせてもらうとするぜ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue12FaceScissorMan" Value="그렇게 말하면야 어쩔 수 없지.,단칼에 끝내 주겠어." Face="ScissorMan" Mono="False" />
+  <!-- せいぜいあっさりやられて俺様をがっかりさせないでくれよ････！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue13FaceScissorMan" Value="너무 간단하게 당해서,날 실망시키지나 말라고....!" Face="ScissorMan" Mono="False" />
+  <!-- ほざいてなさい！いくわよ　アリス！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue14FaceShanghai" Value="헛소리도 적당히 지껄이시지!,가자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- ええ！リグル君を助けるためにも負けられない！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue15FaceAlice" Value="그래!,리글을 위해서라도,질 수 없어!" Face="Alice" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue16FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue17FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャヒャ！！狩りの時間だァ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage1Dialogue18FaceScissorMan" Value="햐앗햐햐!!,사냥의 시간이 왔다아!!" Face="ScissorMan" Mono="False" />
+  <!-- ゲペェ････！な　なぜ俺様が････！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue1FaceScissorMan" Value="게헥....! 어，어째서 이 내가....!" Face="ScissorMan" Mono="False" />
+  <!-- うっさい！さっさと消えろ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue2FaceShanghai" Value="시끄러워!,잔말 말고 꺼져!" Face="Shanghai" Mono="False" />
+  <!-- ギョエエエッッッ！！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage3Dialogue3FaceScissorMan" Value="구에에에에에에엑!!" Face="ScissorMan" Mono="False" />
+  <!-- アリス！プラグアウトを！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue1FaceShanghai" Value="앨리스!,플러그아웃해!" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue2FaceAlice" Value="그래!" Face="Alice" Mono="False" />
+  <!-- （リグル君　無事でいて････！） -->
+  <Dialogue Key="Map.ClockTower5BossEventStage5Dialogue3FaceAlice" Value="(리글，무사해야 해....!)" Face="Alice" Mono="False" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage1Dialogue1QuestionFaceNone" Value="큰 시계와 연동되는 시계이다.,시곗바늘을 움직이겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower5GimmickStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage3Dialogue1QuestionFaceNone" Value="시침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower5GimmickStage3Dialogue1Options" Value="１２시,　３시,　６시,　９시" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower5GimmickStage5Dialogue1QuestionFaceNone" Value="분침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower5GimmickStage5Dialogue1Options" Value="００분,１５분,３０분,４５분" />
+</data>
