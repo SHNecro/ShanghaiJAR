@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ねこどるふぃんの電脳 -->
+  <Text Key="Map.NekodolphinName" Value="네코돌핀의 전뇌" />
+  <!-- ココハ　ネコドルフィンノデンノウダ　ニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite1Stage1Dialogue1FaceSprite" Value="여기는 네코돌핀의,전뇌야 뉴이!" Face="Sprite" Mono="False" />
+  <!-- ニュイ　トイウノハ　ネコノ「ニャー」ト　イルカノ　「キュイ」ヲアワセタ　モノナンデスヨ -->
+  <Dialogue Key="Map.NekodolphinSprite1Stage1Dialogue2FaceSprite" Value="뉴이라 말하는 건 고양이의,'냐'랑 돌고래의 '뀨이'를,서로 섞은 거랍니다." Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue1FaceSprite" Value="뉴이뉴이뉴이뉴이!" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue2FaceSprite" Value="뉴이뉴이뉴이뉴이!" Face="Sprite" Mono="False" />
+  <!-- ニュイニュイニュイニュイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue3FaceSprite" Value="뉴이뉴이뉴이뉴이!" Face="Sprite" Mono="False" />
+  <!-- ニュイイイイ！ -->
+  <Dialogue Key="Map.NekodolphinSprite2Stage1Dialogue4FaceSprite" Value="뉴이이이이이!" Face="Sprite" Mono="False" />
+</data>
