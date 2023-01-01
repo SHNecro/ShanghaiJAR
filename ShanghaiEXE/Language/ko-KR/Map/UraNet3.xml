@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ウラインターネット３ -->
+  <Text Key="Map.UraNet3Name" Value="우라 인터넷 3" />
+  <!-- どんなに脅したってお店のお金は渡さないわよ！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage1Dialogue1FaceNaviGreenFemale" Value="아무리 협박해 봤자야!,가게의 돈은,절대 넘겨주지 않겠어!" Face="NaviGreenFemale" Mono="False" />
+  <!-- もうすぐ来る痛めつけのスペシャリストの前で同じセリフが吐けるかな！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage1Dialogue2FaceNaviPurplePunk" Value="좀 있으면 도착할,고통의 스페셜리스트 앞에서도,그런 말이 나오는지 보자고!" Face="NaviPurplePunk" Mono="False" />
+  <!-- ････ん？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage1Dialogue3FaceNaviPurpleHeel" Value="....음?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- もしかしてお前が痛めつけのスペシャリストか？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue1FaceNaviPurpleHeel" Value="혹시 너가,고통의 스페셜리스트냐?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････まあそうかもしれないわね -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue2FaceShanghai" Value="....그럴 지도 모르겠네." Face="Shanghai" Mono="False" />
+  <!-- ただし････あたしが痛めつけるのはあんたたち悪党だけどね！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue3FaceShanghai" Value="....내가 고통을,선사해 줄 대상은,니네 같은 악질들이지만 말야!" Face="Shanghai" Mono="False" />
+  <!-- なんだって！？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue4FaceNaviPurplePunk" Value="머시기라고!?" Face="NaviPurplePunk" Mono="False" />
+  <!-- ちくしょう！せっかくの金づるを渡してたまるかよ！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage3Dialogue5FaceNaviPurpleHeel" Value="이런 제기랄!,모처럼 찾은 돈줄을,넘겨줄까보냐!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- アクトウ -->
+  <Text Key="Map.UraNet3Request15EventsBattle1Enemy1" Value="악당" />
+  <!-- シタッパ -->
+  <Text Key="Map.UraNet3Request15EventsBattle1Enemy2" Value="부하" />
+  <!-- 身の丈に合わない悪事はロクなことにならないのよ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage5Dialogue1FaceShanghai" Value="분수에 맞지 않게,악행을 저지르니까,변변치 못한 꼴이 나지." Face="Shanghai" Mono="False" />
+  <!-- （････謎の説得力を感じる） -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage5Dialogue2FaceAlice" Value="(....쓸데없이 설득력 있어.)" Face="Alice" Mono="False" />
+  <!-- 助けてくれてありがとう！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue1FaceNaviGreenFemale" Value="도와 줘서 감사합니다!" Face="NaviGreenFemale" Mono="False" />
+  <!-- あなたが幽香さんのナビね？ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue2FaceAlice" Value="네가 유카 씨의 내비구나?" Face="Alice" Mono="False" />
+  <!-- 早くオペレーターのもとへ戻りなさい -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue3FaceShanghai" Value="빨리 오퍼레이터,곁으로 돌아가." Face="Shanghai" Mono="False" />
+  <!-- 店が開けないって困ってたわよ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue4FaceShanghai" Value="가게를 열 수 없다면서,곤란해하고 있었어." Face="Shanghai" Mono="False" />
+  <!-- わかったわ！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage7Dialogue5FaceNaviGreenFemale" Value="알겠어요!" Face="NaviGreenFemale" Mono="False" />
+  <!-- これで一件落着････ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue1FaceAlice" Value="일단 이걸로 한 건 해결...." Face="Alice" Mono="False" />
+  <!-- じゃないわよ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue2FaceShanghai" Value="이 아니지." Face="Shanghai" Mono="False" />
+  <!-- 何のために花屋のナビを助けたか忘れないでね -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue3FaceShanghai" Value="뭣 때문에 꽃집 내비를,구해줬는지 잊지 말자고." Face="Shanghai" Mono="False" />
+  <!-- そうだった！とりあえず中央街に戻りましょう！ -->
+  <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue4FaceAlice" Value="아 맞아 그랬지!,일단 중앙가로 돌아가자!" Face="Alice" Mono="False" />
+  <!-- バグのかけらと　私のマイナスアドオンを交換しませんか？ -->
+  <Dialogue Key="Map.UraNet3BagChangePartShopStage1Dialogue1FaceNaviPurpleChild" Value="버그의 조각과,제 마이너스 애드온을,서로 교환해 보실래요?" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue1" Value="딴 데 가셔，금발 아가씨.,댁이랑은 전혀 상관 없는,이야기 하고 있다고." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue2" Value="외부인은 이래서,곤란하다니까...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue3" Value="뭐，하던 얘기 마저 하자고....,니네들 PRISM 데뷔할 때,미스티아 있던 거 봤어?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue4" Value="하하!,아직도 미스티아 빠냐?,지금은 PRISM이 대세라고!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameLedgeThugDialogue1" Value="아니，여기서 떨어지면,그냥 끝이잖아.... 먼 거리도 아닌데,그냥 차라리 걸어갈게...." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameLedgePunkDialogue1" Value="개쫄보네，이 녀석!,그냥 점프로 내려와! 뭣하면,내가 잡아줄 테니까!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue1" Value="ROM 쓰레기들은 진작에,다 뒈졌는데 왜 이 문은,아직도 여기 남아 있는데!" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue2" Value="저기 실례한데....,혹시 이 문 열쇠,가지고 계신가요?" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue3" Value="그냥 신경 쓰여서,여쭤 본 것 뿐이에요!,에헤헤헤헤...." Face="NaviPurpleChild" Mono="False" />
+</data>
