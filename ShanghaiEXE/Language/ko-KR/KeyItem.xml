@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="KeyItem.CompressedDataName" Value="압축데이터" />
+  <Text Key="KeyItem.CompressedDataDescDialogue1" Value="환상 에리어에 묻혀 있던,수수께끼의 압축 데이터야." />
+  <Text Key="KeyItem.CompressedDataDescDialogue2" Value="내용물을 보려면 전문가와,이야기해 봐야겠는데." />
+  <Text Key="KeyItem.HeatDataName" Value="방열데이터" />
+  <Text Key="KeyItem.HeatDataDescDialogue1" Value="냉장고 방열 기능의 카피본이야.,전뇌 얼음을 녹일 수 있어!,（남은 개수 #v@20#개）" />
+  <Text Key="KeyItem.AntiFreezeName" Value="제설제" />
+  <Text Key="KeyItem.AntiFreezeDescDialogue1" Value="마리가 조합해서 만든 약품이야.,눈이든 얼음이든 단숨에 녹인다나,본데 대체 뭐가 들어 있길래?" />
+  <Text Key="KeyItem.MetroPassName" Value="학생용 전철 패스" />
+  <Text Key="KeyItem.MetroPassDescDialogue1" Value="학생용 전철 프리 패스야.,이게 있으면 전철을,원하는 만큼 탈 수 있어!" />
+  <Text Key="KeyItem.IceCrystalDataName" Value="얼음결정 데이터" />
+  <Text Key="KeyItem.IceCrystalDataDescDialogue1" Value="예쁜 얼음 결정의 데이터야!,보고 있는 것만으로도,마음이 치유받는 느낌이야." />
+  <Text Key="KeyItem.PackageDataName" Value="수하물 데이터" />
+  <Text Key="KeyItem.PackageDataDescDialogue1" Value="의뢰로 배달해 줘야 하는,수하물 데이터네.,내용물은 서브칩 같은데." />
+  <Text Key="KeyItem.MariPCodeName" Value="마리의 P코드" />
+  <Text Key="KeyItem.MariPCodeDescDialogue1" Value="마리의 홈페이지의 P코드야.,인터넷 상의 시큐리티 큐브를,이걸로 해제할 수 있어." />
+  <Text Key="KeyItem.RemiliaPCodeName" Value="레밀리아의 P코드" />
+  <Text Key="KeyItem.RemiliaPCodeDescDialogue1" Value="레밀리아의 홈페이지의 P코드야.,인터넷 상의 시큐리티 큐브를,이걸로 해제할 수 있어." />
+  <Text Key="KeyItem.RikaPCodeName" Value="리카의 P코드" />
+  <Text Key="KeyItem.RikaPCodeDescDialogue1" Value="리카의 홈페이지의 P코드야.,인터넷 상의 시큐리티 큐브를,이걸로 해제할 수 있어." />
+  <Text Key="KeyItem.TsubakiPCodeName" Value="넥의 P코드" />
+  <Text Key="KeyItem.TsubakiPCodeDescDialogue1" Value="넥의 홈페이지의 P코드야.,인터넷 상의 시큐리티 큐브를,이걸로 해제할 수 있어." />
+  <Text Key="KeyItem.TenshiPCodeName" Value="텐시의 P코드" />
+  <Text Key="KeyItem.TenshiPCodeDescDialogue1" Value="텐시의 홈페이지의 P코드야.,인터넷 상의 시큐리티 큐브를,이걸로 해제할 수 있어." />
+  <Text Key="KeyItem.SpareCodeName" Value="예비 P코드" />
+  <Text Key="KeyItem.SpareCodeDescDialogue1" Value="예비로 쓰이는 홈페이지의 P코드야.,인터넷 상의 시큐리티 큐브를,이걸로 해제할 수 있어." />
+  <Text Key="KeyItem.OldChipDataName" Value="낡은 데이터칩" />
+  <Text Key="KeyItem.OldChipDataDescDialogue1" Value="공원의 모래장에 묻혀 있었던,꽤나 오래된 칩 데이터야.,어떤 내용이 있을까?" />
+  <Text Key="KeyItem.TeacherIDName" Value="선생님의 ID카드" />
+  <Text Key="KeyItem.TeacherIDDescDialogue1" Value="코아 선생님의 ID 카드잖아.,이게 있으면 학교의 네트워크에,접속할 수 있어." />
+  <Text Key="KeyItem.CruiseTicketName" Value="투어 티켓" />
+  <Text Key="KeyItem.CruiseTicketDescDialogue1" Value="N1 리그 상품으로 받은,잉겔레스 투어 티켓이야.,호화 여객선에 탈 수 있어!" />
+  <Text Key="KeyItem.YinKeyName" Value="음의 열쇠" />
+  <Text Key="KeyItem.YinKeyDescDialogue1" Value="신사의 전뇌의 문을 여는 데 쓰는,검은색 열쇠야!,양의 열쇠와 세트로 써야 해." />
+  <Text Key="KeyItem.YangKeyName" Value="양의 열쇠" />
+  <Text Key="KeyItem.YangKeyDescDialogue1" Value="신사의 전뇌의 문을 여는 데 쓰는,하얀색 열쇠야!,음의 열쇠와 세트로 써야 해." />
+  <Text Key="KeyItem.AdminPCodeName" Value="관리 P코드" />
+  <Text Key="KeyItem.AdminPCodeDescDialogue1" Value="”키즈나 프렌드”라는 SNS의,관리 에리어에 들어가기 위한,P 코드야." />
+  <Text Key="KeyItem.SmallParcelName" Value="작은 소포" />
+  <Text Key="KeyItem.SmallParcelDescDialogue1" Value="의뢰받아서 전달받은,작은 소포야.,빨리 전달해 줘야지." />
+  <!--
+  リグルのペンダント
+  半透明の琥珀のついた
+  きれいな首飾りね
+  琥珀の中に何か
+  入ってるみたいだけど
+  よく見えないわね
+  -->
+  <Text Key="KeyItem.WrigglePendantName" Value="리글의 펜던트" />
+  <Text Key="KeyItem.WrigglePendantDescDialogue1" Value="반투명한 호박이 박힌,예쁜 목걸이네." />
+  <Text Key="KeyItem.WrigglePendantDescDialogue2" Value="호박 속에 뭔가,들어있는 것 같은데,잘 보이지 않아." />
+  <!-- 
+  古いＩＤデータ
+  沈没船の電脳の扉を開く
+  ＩＤデータよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.ROMIDName" Value="ROM ID카드" />
+  <Text Key="KeyItem.ROMIDDescDialogue1" Value="인터넷 상에 있는,해골 문양의 문을 열 수 있는,ID 데이터야." />
+  <!-- 
+  プﾘザｰブドフラﾜｰ
+  特殊な加工をした
+  きれいな造花よ
+  いい匂いもするわね
+  -->
+  <Text Key="KeyItem.PreservedFlowerName" Value="프리저브드 플라워" />
+  <Text Key="KeyItem.PreservedFlowerDescDialogue1" Value="특수한 가공을 거친,예쁜 조화야.,좋은 향도 나는데." />
+  <!-- 
+  古いキーデータ
+  沈没船の電脳の扉を開く
+  鍵データよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldKeyDataName" Value="오래된 키 데이터" />
+  <Text Key="KeyItem.OldKeyDataDescDialogue1" Value="침몰한 배의 전뇌에 있는,문을 여는 열쇠 데이터야.,당장 부숴질 정도로 약한데." />
+  <!-- 
+  古いＩＤデータ
+  沈没船の電脳の扉を開く
+  ＩＤデータよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldIDDataName" Value="오래된 ID 데이터" />
+  <Text Key="KeyItem.OldIDDataDescDialogue1" Value="침몰한 배의 전뇌에 있는,문을 여는 ID 데이터야.,당장 부숴질 정도로 약한데." />
+  <!-- 
+  古いパスコード
+  沈没船の電脳の扉を開く
+  パスコードよ
+  今にも崩れそうな脆さね
+  -->
+  <Text Key="KeyItem.OldPasscodeName" Value="오래된 패스코드" />
+  <Text Key="KeyItem.OldPasscodeDescDialogue1" Value="침몰한 배의 전뇌에 있는,문을 여는 패스코드야.,당장 부숴질 정도로 약한데." />
+  <!--
+  転生プログラム
+  スプライトをナビに転生させる
+  今では使われてない
+  特別なプログラムね
+  -->
+  <Text Key="KeyItem.ReincarnationProgramName" Value="전생 프로그램" />
+  <Text Key="KeyItem.ReincarnationProgramDescDialogue1" Value="스프라이트를 내비로 전생시키는,특별한 프로그램이야.,요즘은 이런 거 안 쓰는데." />
+  <Text Key="KeyItem.SecretKeyName" Value="비밀의 열쇠" />
+  <Dialogue Key="KeyItem.SecretKeyDescDialogue1" Value="중요해 보이는 열쇠야.,이걸로 열 수 있는 문이,어딘가에 있겠지." Face="None" Mono="False" />
+  <Text Key="KeyItem.DarkKeyName" Value="어둠의 열쇠" />
+  <Dialogue Key="KeyItem.DarkKeyDescDialogue1" Value="꺼림칙한 빛이 나는,이상한 열쇠야." Face="None" Mono="False" />
+  <Text Key="KeyItem.CrimDexName" Value="크림슨 라이브러리" />
+  <Dialogue Key="KeyItem.CrimDexDescDialogue1" Value="일리걸，내지는 변종,칩 데이터를 기록할 예정이었던,배틀칩 라이브러리 확장팩 같은데." Face="None" Mono="False" />
+  <Text Key="KeyItem.TroubleshooterIDName" Value="해결사 뱃지" />
+  <Dialogue Key="KeyItem.TroubleshooterIDDescDialogue1" Value="달고 있으면 무슨 일이라도,해결해 줄 사람이라고,생각될 법한 뱃지잖아." Face="None" Mono="False" />
+  <Text Key="KeyItem.RoukankenName" Value="검의 데이터" />
+  <Dialogue Key="KeyItem.RoukankenDescDialogue1" Value="검의 모양을 한 데이터야.,오오다치나 와키자시의 역사나,기능이 상세하게 적혀 있어." Face="None" Mono="False" />
+  <Text Key="KeyItem.MirrorShardName" Value="거울의 조각" />
+  <Dialogue Key="KeyItem.MirrorShardDescDialogue1" Value="깨진 거울 조각이야.,손에 집고 싶기 싫을 정도로,날카롭단 말이지，이거." Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.MirrorShardDescDialogue2" Value="이 조각은 뭔가 이상해.,어떤 각도에서 바라보면 아무것도,없는 데에서 빛을 반사한다니까." Face="None" Mono="False" />
+  <Text Key="KeyItem.FreezeCoreName" Value="프리즈 코어" />
+  <Dialogue Key="KeyItem.FreezeCoreDescDialogue1" Value="프리즈의 조각들이 대량으로 뭉쳐서,굳어진 결정 같은 물건이야." Face="None" Mono="False" />
+  <Text Key="KeyItem.OrderBookName" Value="주문내역서" />
+  <Dialogue Key="KeyItem.OrderBookDescDialogue1" Value="약간 낡은 결제 내역서야.,결제 내역은 금융 규정에 따라,복잡하게 암호화되어 있어." Face="None" Mono="False" />
+  <Dialogue Key="KeyItem.OrderBookDescDialogue2" Value="....근데 잠깐만. 이 아래에,쌀을 주문한 내역이 있는데,이거 설마 우리 이야기야?" Face="None" Mono="False" />
+</data>
