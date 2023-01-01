@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 電子黒板の電脳 -->
+  <Text Key="Map.BlackBoardName" Value="전자 칠판의 전뇌" />
+  <!-- コクバン　ッテイウワリニミドリイロ　デスヨネ -->
+  <Dialogue Key="Map.BlackBoardSprite1Stage1Dialogue1FaceSprite" Value="전자 칠판이니만큼,분필도 전자 분필을 씁니다." Face="Sprite" Mono="False" />
+  <!-- ナンダカ　イケナイコトイッチャッタ　カモー？ -->
+  <Dialogue Key="Map.BlackBoardSprite1Stage1Dialogue2FaceSprite" Value="근데 왜 분필이라고 할까요?,가루가 흩날리는 것도 아닌데." Face="Sprite" Mono="False" />
+  <!-- ムカシハ　コクバンケシトイウドウグヲ　ポンポンッテタタイテ　アラッテタトカ -->
+  <Dialogue Key="Map.BlackBoardSprite2Stage1Dialogue1FaceSprite" Value="옛날에는 칠판 지우개라는,도구로 칠판을 지우던,시절이 있었어요." Face="Sprite" Mono="False" />
+  <!-- ソンナコト　シタラコナマミレニ　ナッチャイマスヨ〜 -->
+  <Dialogue Key="Map.BlackBoardSprite2Stage1Dialogue2FaceSprite" Value="지우개 청소하려고 창 밖에 가서,퐁퐁 두드리다가 바람이,휙～하고 부는 날에는...." Face="Sprite" Mono="False" />
+</data>
