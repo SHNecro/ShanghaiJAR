@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.RemihouseName" Value="레밀리아의 방" />
+  <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue1FaceRemilia" Value="어머，앨리스，,어서 와!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue2FaceRemilia" Value="있지，혹시 괜찮다면,넷배틀하지 않을래?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage3Dialogue1FaceRemilia" Value="통신 수업 시작하는 게,좀 늦네...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage3Dialogue2FaceRemilia" Value="있지，혹시 괜찮다면,넷배틀하지 않을래?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage5Dialogue1FaceRemilia" Value="텐시를 집에 데려오면,기뻐할까나?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage5Dialogue2FaceRemilia" Value="어머，앨리스，,넷배틀 하고 싶어?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue1FaceRemilia" Value="어?,왜 N1 리그에,참전하지 않냐고?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue2FaceRemilia" Value="어수룩하네.,라이벌 기업이 주최하는 이벤트에,내가 참전할 리 없잖아." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage7Dialogue3FaceRemilia" Value="거기다 넷배틀이라면,굳이 대회가 아니더라도,충분히 어울려 줄 수 있고." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue1FaceRemilia" Value="N1 리그 우승했다 들었어.,축하해." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue2FaceRemilia" Value="뭐，네 실력이라면,그 정도 대회에서 충분히,우승할 거라 생각했지만." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage9Dialogue3FaceRemilia" Value="흐흐응，네 실력을,내게 보여줄래?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue1FaceRemilia" Value="텐시가 다쳐서,입원했다 했지...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue2FaceRemilia" Value="요즘 의료 기술이라면,화상 흔적 하나 안 남기고,치료할 수 있다곤 하지만...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue3FaceRemilia" Value="역시 친구가 입원한다니,걱정은 되네." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage11Dialogue4FaceRemilia" Value="어머?,잠깐이라도 마음을,달래 주려고?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage13Dialogue1FaceRemilia" Value="호화 여객선 세이렌이라....,난 아버지와 함께,세 번 정도 타 본 적이 있어." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaStage13Dialogue2FaceRemilia" Value="앨리스한테 정말 좋은 경험이,될 거라고 생각되니까,마음껏 즐기고 와." Face="Remilia" Mono="False" />
+  <!-- あら　アリスおかえりなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue1FaceRemilia" Value="어머，앨리스.,어서 와." Face="Remilia" Mono="False" />
+  <!-- インゲレスはどうだった？楽しめたかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue2FaceRemilia" Value="잉겔레스는 어땠어?,많이 즐겼어?" Face="Remilia" Mono="False" />
+  <!-- いろいろあったけど楽しめたわ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue3FaceAlice" Value="이런저런 일이 많았는데,즐거웠어!" Face="Alice" Mono="False" />
+  <!-- はいおみやげ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue4FaceAlice" Value="자，여기 여행 선물!" Face="Alice" Mono="False" />
+  <!-- ････っていってもインゲレス生まれのレミリアには珍しい物じゃないかもだけど -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue5FaceAlice" Value="....이라 말해도,레밀리아는 잉겔레스 출신이라,드문 물건은 아닐 테지만." Face="Alice" Mono="False" />
+  <!-- フフ　こういうのは物に込められた気持ちが大切なのよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue6FaceRemilia" Value="후훗，이런 건,물건에 담긴 그 마음이,더 중요한 법이지." Face="Remilia" Mono="False" />
+  <!-- 見慣れたお菓子でもアリスから貰ったものは特別なお菓子になるわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue7FaceRemilia" Value="친숙한 과자라 하더라도,앨리스한테서 받은 건,특별한 과자가 돼." Face="Remilia" Mono="False" />
+  <!-- へぇ〜なんだか素敵な考え方ね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue8FaceAlice" Value="헤에～,뭔가 멋진 생각 방식이네." Face="Alice" Mono="False" />
+  <!-- ありがとうおみやげでお金使っちゃったでしょう？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue9FaceRemilia" Value="고마워.,선물 사느라 돈 많이 썼지?" Face="Remilia" Mono="False" />
+  <!-- 少ないけど取っておきなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue10FaceRemilia" Value="적지만 받아 둬." Face="Remilia" Mono="False" />
+  <!-- え！？こんなにいいの！？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue11FaceAlice" Value="엑!?,이렇게 많이 줘도 돼!?" Face="Alice" Mono="False" />
+  <!-- 素敵な贈り物のお返しよありがたく受け取りなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue12FaceRemilia" Value="멋진 선물에 대한 보답이야.,받아 줘." Face="Remilia" Mono="False" />
+  <!-- あ　ありがとう！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage15Dialogue13FaceAlice" Value="아，고마워!" Face="Alice" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage17Dialogue1FaceShanghai" Value="이걸로 여행 선물은,모두에게 다 전해 줬네." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage17Dialogue2FaceShanghai" Value="이제 돌아가서 엄마한테,돌아왔다고 말하는 것만 남았네!" Face="Shanghai" Mono="False" />
+  <!-- 今度　この家でパーティを開きましょうよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue1FaceRemilia" Value="이번에 우리 집에서,파티를 한 번 열자." Face="Remilia" Mono="False" />
+  <!-- おみやげのお菓子をみんなで楽しんだら素敵じゃない？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue2FaceRemilia" Value="선물받은 과자를,다른 애들이랑 같이 즐기면,참 멋질 거야." Face="Remilia" Mono="False" />
+  <!-- ････あら？サクヤとネットバトルしたいの？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage19Dialogue3FaceRemilia" Value="....어머?,사쿠야랑 넷배틀하고 싶어?" Face="Remilia" Mono="False" />
+  <!-- どんどん世の中が不穏になっていく今日このごろ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue1FaceRemilia" Value="요즘 서서히 세상이,불온해져 가는데" Face="Remilia" Mono="False" />
+  <!-- 非力な私にはネットバトルくらいでしか役に立てそうもないわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue2FaceRemilia" Value="힘이 약한 나로서는,넷배틀 정도 외에는,도움이 되어 줄 수가 없네." Face="Remilia" Mono="False" />
+  <!-- そんな私に稽古をつけてくれるのかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage21Dialogue3FaceRemilia" Value="그런 내 연습 상대가,되어 줄래?" Face="Remilia" Mono="False" />
+  <!-- 超武装した基地に攻めこむ方法ねえ････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue1FaceRemilia" Value="중무장한 요새에,침투할 방법이라...." Face="Remilia" Mono="False" />
+  <!-- どうして私に聞きに来たわけ？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue2FaceRemilia" Value="그걸 왜 나한테 물어봐?" Face="Remilia" Mono="False" />
+  <!-- いや　お金持ちだったら何かいい手を用意できると思って････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue3FaceAlice" Value="그게，아무래도 부잣집이니까,뭔가 좋은 방법을 얻을 수,있지 않을까 해서...." Face="Alice" Mono="False" />
+  <!-- あのねえ　お金持ちはスーパーマンじゃないのよ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue4FaceRemilia" Value="저기 있지，부자는,슈퍼맨이 아냐." Face="Remilia" Mono="False" />
+  <!-- ････それに　お金持ちなら私よりもお金を持っている人がいるじゃない -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue5FaceRemilia" Value="....거기다가 부자라면,나보다도 더 부자인,사람이 있잖아." Face="Remilia" Mono="False" />
+  <!-- えっ？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue6FaceAlice" Value="어?" Face="Alice" Mono="False" />
+  <!-- チップショップをやってるあの人よ　なんて名前だったか････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue7FaceRemilia" Value="저기 칩 샵 운영하는,그 사람 말하는 거야.,이름이 뭐였더라...." Face="Remilia" Mono="False" />
+  <!-- 隈美さん？あの人ってそんなにお金持ちだったっけ････ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue8FaceAlice" Value="쿠마미 씨?,그 사람 그렇게,부자였던가...." Face="Alice" Mono="False" />
+  <!-- とりあえず　私は力になれそうにないわごめんなさい -->
+  <Dialogue Key="Map.RemihouseRemiliaStage23Dialogue9FaceRemilia" Value="일단 난 힘이 되어,줄 수 있을 것 같지 않네.,미안해." Face="Remilia" Mono="False" />
+  <!-- 力になれなくてごめんなさいね -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue1FaceRemilia" Value="힘이 되어 주지 못 해서,미안해." Face="Remilia" Mono="False" />
+  <!-- 非力な私にはネットバトルくらいでしか役に立てそうもないわ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue2FaceRemilia" Value="힘이 약한 나로서는,넷배틀 정도 외에는,도움이 되어 줄 수가 없네." Face="Remilia" Mono="False" />
+  <!-- そんな私に稽古をつけてくれるのかしら？ -->
+  <Dialogue Key="Map.RemihouseRemiliaStage25Dialogue3FaceRemilia" Value="그런 내 연습 상대가,되어 줄래?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage1Dialogue1QuestionFaceShanghai" Value="레밀리아한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.RemihouseSakuyaBattleStage1Dialogue1Options" Value="예,아니오" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage1Dialogue2FaceRemilia" Value="힘을 보여 주렴!,사쿠야!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage3Dialogue1FaceRemilia" Value="호호호，제가 이겼사와요." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage5Dialogue1FaceRemilia" Value="역시나 앨리스야.,사쿠야 상대로 2번이나 이기다니." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage6Dialogue1FaceRemilia" Value="JUST 3분 안에,끝내 주겠어!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage8Dialogue1FaceRemilia" Value="호호호，제가 이겼사와요." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage10Dialogue1FaceRemilia" Value="너희들의 가능성....,헤아릴 수가 없네." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage11Dialogue1FaceRemilia" Value="아직도 그 때 그 일,때문에 화 났어?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseSakuyaBattleStage11Dialogue2FaceRemilia" Value="하고 싶어질 때면,언제든지 상대해 줄게." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf1Stage1Dialogue1FaceNone" Value="레밀리아의 책장이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf1Stage1Dialogue2FaceNone" Value="”재형저축의 자기관리체제”,라는 책이 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue1FaceNone" Value="레밀리아의 책장이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue2FaceNone" Value="레밀리아 본인의 키보다,훨씬 더 높은 위치에도,책이 잔뜩 꽂혀 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBookShelf2Stage1Dialogue3FaceNone" Value="책장 옆에 놓여 있는 매직 핸드로,책을 꽂고 빼는 걸까? 아니，그보다,저 높이까지 책을 옮길 수 있나?" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue1FaceNone" Value="레밀리아의 서버다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue2FaceNone" Value="꽤 거대한데,대체 어떤 데이터가,들어 있는 걸까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseServerStage1Dialogue3FaceNone" Value="안 됐지만,플러그인은 할 수 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue1FaceNone" Value="레밀리아의 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue2FaceNone" Value="4개의 디스플레이를 연결해서,꽤 많은 공간을 작업하는 데,쓸 수 있도록 되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseComputerStage1Dialogue3FaceNone" Value="플러그인도 가능하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue1FaceNone" Value="이상한 모양을 하고 있는,레밀리아의 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue2FaceNone" Value="맨 위에 있는 샹델리에의,컨트롤 패널이 장착되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseMachineStage1Dialogue3FaceNone" Value="플러그인도 가능하지만,플러그인 단자가,고장난 모양이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseDresserStage1Dialogue1FaceNone" Value="레밀리아의 화장대이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseDresserStage1Dialogue2FaceNone" Value="부자답게 고급 화장품이,빼곡하게 늘어서 있지만,쓴 흔적은 보이지 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue1FaceNone" Value="레밀리아의 거대한 침대다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue2FaceNone" Value="캐노피가 달려 있어,마치 공주님의 침대 같아 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue3FaceNone" Value="이런 고급 시트를 보면,무심코 뛰어들고 싶어진다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseBedStage1Dialogue4FaceNone" Value="언젠가 이런 침대에서,자 보고 싶어진다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseSofaStage1Dialogue1FaceNone" Value="레밀리아의 소파다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseSofaStage1Dialogue2FaceNone" Value="털구슬의 봉제인형이 있는데,레밀리아는 쉴 때 이걸,끌어안지 않을까 싶다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue1FaceNone" Value="레밀리아의 전자 피아노다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue2FaceNone" Value="레밀리아 말대로라면,”숙녀의 소양”이라는 듯하지만,먼지만 쌓여 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue3FaceNone" Value="플러그인은 할 수 있는데,전원이 보이지 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue1FaceNone" Value="레밀리아의 초상화다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue2FaceNone" Value="본인보다도 한 2할 가량,더 귀엽게 그려져 있다." Face="None" Mono="False" />
+  <!-- 額縁の端に小さく６９５４６２５８　と数字が刻まれている -->
+  <Dialogue Key="Map.RemihousePortraitStage1Dialogue3FaceNone" Value="액자 가장자리에 작게,69546258이라고,숫자가 새겨져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue1FaceNone" Value="오래된 유선 전화기가 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue2FaceNone" Value="외관은 오래된 모습이지만,내부는 최신 전화기와 같아서,실제로 쓸 수도 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePhoneStage1Dialogue3FaceNone" Value="기능은 최신형과 똑같다 보니,당연히 플러그인도 할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue1FaceNone" Value="벽에 상장이 걸려 있다." Face="None" Mono="False" />
+  <!-- 「ちびっ子論文大会　大賞」と書いてある -->
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue2FaceNone" Value="”어린이 에세이 대회 대상”,이라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate1Stage1Dialogue3FaceNone" Value="초등학교에 다니던 시절에,받은 거겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue1FaceNone" Value="벽에 상장이 걸려 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue2FaceNone" Value="”초등학교 판화 콩쿠르 우수상”,이라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate2Stage1Dialogue3FaceNone" Value="초등학교에 다니던 시절에,받은 거겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue1FaceNone" Value="벽에 상장이 걸려 있다." Face="None" Mono="False" />
+  <!-- 「幼稚園ピアノコンクール金賞」と書いてある -->
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue2FaceNone" Value="”유치원 피아노 콩쿠르 금상”,이라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue3FaceNone" Value="유치원에 다니던 시절에,받은 거겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihouseRemiliaPostGameDialogue1" Value="어머，어서 와，앨리스.,같이 놀래?" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue3JackIn" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage2Dialogue2" Value="최근에 쓴 듯하다.,전체적으로 건반이나 세밀한,부분까지 다 깨끗하다." Face="None" Mono="False" />
+</data>
