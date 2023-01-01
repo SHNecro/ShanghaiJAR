@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 八意総合病院2F -->
+  <Text Key="Map.Hospital2fName" Value="야고코로 종합 병원 2층" />
+  <!-- あたしゃまだ現役さね心配せんでもよろしい！ -->
+  <Dialogue Key="Map.Hospital2fChapter5GrandmotherStage1Dialogue1FaceFemaleElderly" Value="내는 아직 현역이여.,걱정 안 해도 된다니께!" Face="FemaleElderly" Mono="False" />
+  <!-- お母さん　そろそろ病室に戻ったほうが良いんじゃないかしら -->
+  <Dialogue Key="Map.Hospital2fChapter5OldManStage1Dialogue1FaceFemaleMiddleAged" Value="어머니，슬슬 병실에,돌아가시는 게 좋지 않을까요?" Face="FemaleMiddleAged" Mono="False" />
+  <!-- あっ！この間のお姉ちゃん！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue1FaceKoishi" Value="앗!,이전에 봤던 언니잖아!" Face="Koishi" Mono="False" />
+  <!-- もしかして　あなたが依頼人？ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue2FaceAlice" Value="혹시 네가 의뢰인이니?" Face="Alice" Mono="False" />
+  <!-- はいっ！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue3FaceKoishi" Value="웅!" Face="Koishi" Mono="False" />
+  <!-- 依頼の内容はね！お姉ちゃんのためにお花を買ってきて欲しいの！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue4FaceKoishi" Value="의뢰 내용은!,언니한테 줄 꽃을,사 줬으면 해!" Face="Koishi" Mono="False" />
+  <!-- お花を？ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue5FaceAlice" Value="꽃?" Face="Alice" Mono="False" />
+  <!-- お姉ちゃん　もうすぐ目が見えるようになる手術をするんだって -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue6FaceKoishi" Value="좀 있으면 언니도,앞이 보이게 되는 수술을,하게 될 거라고 해." Face="Koishi" Mono="False" />
+  <!-- それで手術前の元気づけにいい香りのお花を渡そうと思ってね！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue7FaceKoishi" Value="그래서 수술 전에 기운이 나도록,좋은 향이 나는 꽃을,선물해 주려고 해!" Face="Koishi" Mono="False" />
+  <!-- うにゅー････ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue8FaceUtsuho" Value="우뉴...." Face="Utsuho" Mono="False" />
+  <!-- ････あんたのナビは不満そうだけど？ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue9FaceShanghai" Value="....네 내비는,불만 가득인 것 같은데?" Face="Shanghai" Mono="False" />
+  <!-- だって最近ずっとこいしちゃん遊んでくれなくてつまらないにゅ････ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue10FaceUtsuho" Value="그도 그럴 게 최근에 계속,코이시가 나랑 놀아 주지,않아서 지루해뉴...." Face="Utsuho" Mono="False" />
+  <!-- ウツホ　我慢して！お姉ちゃんのお世話をしないといけないんだから！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue11FaceKoishi" Value="우츠호，참아!,언니를 보살펴야 해!" Face="Koishi" Mono="False" />
+  <!-- うにゅー････ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue12FaceUtsuho" Value="우뉴...." Face="Utsuho" Mono="False" />
+  <!-- それで　お花だっけ？ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue13FaceAlice" Value="그래서 꽃이라 했지?" Face="Alice" Mono="False" />
+  <!-- お姉ちゃん　目は見えないけど匂いをかぐことはできるの -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue14FaceKoishi" Value="언니는 눈이 안 보이지만,향을 맡는 건 가능해." Face="Koishi" Mono="False" />
+  <!-- だから目が治る前にお花のいい香りをかいで････ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue15FaceKoishi" Value="그러니까 눈이 낫기 전에는,꽃의 좋은 향을 맡고...." Face="Koishi" Mono="False" />
+  <!-- 手術が終わったら目と鼻でもう一回お花を楽しんでもらうの！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue16FaceKoishi" Value="수술이 끝나면,눈이랑 코로 또 한 번 꽃을,즐겼으면 해서!" Face="Koishi" Mono="False" />
+  <!-- 目が見えるようになった感動を増やそうってことね -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue17FaceShanghai" Value="눈이 보이게 되었을 때의 감동을,배로 늘려주는 거구나." Face="Shanghai" Mono="False" />
+  <!-- 粋な計らいじゃない気に入ったわ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue18FaceShanghai" Value="배려심 있는 조처구나.,마음에 들었어." Face="Shanghai" Mono="False" />
+  <!-- お花屋さんは中央街にあるらしいからおねがいします！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue19FaceKoishi" Value="꽃집은 중앙가에 있으니까,부탁할게!" Face="Koishi" Mono="False" />
+  <!-- あっ　お花に使ったお金は後でお礼と一緒に返すから！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue20FaceKoishi" Value="아，꽃 사는 데 쓴 돈은,나중에 사례할 때 같이 줄게!" Face="Koishi" Mono="False" />
+  <!-- それじゃあ　中央街で花屋を探すわよ！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage1Dialogue21FaceShanghai" Value="그러면 중앙가에서,꽃집을 찾아 보자!" Face="Shanghai" Mono="False" />
+  <!-- お花屋さんは中央街にあるらしいからおねがいします！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage3Dialogue1FaceKoishi" Value="꽃집은 중앙가에 있으니까,부탁할게!" Face="Koishi" Mono="False" />
+  <!-- あっ！キレイなお花だ！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue1FaceKoishi" Value="와아!,예쁜 꽃이다!" Face="Koishi" Mono="False" />
+  <!-- プリザーブドフラワーをこいしに手渡した -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue2FaceNone" Value="프리저브드 플라워를,코이시에게 전해 줬다." Face="None" Mono="False" />
+  <!-- 悩み事のお礼にもらったからお金はいらないわよ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue3FaceShanghai" Value="고민을 해결해 줘서,그 사례로 받은 거라,돈은 필요 없어." Face="Shanghai" Mono="False" />
+  <!-- 本当！？助かるなぁ！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue4FaceKoishi" Value="정말이야!?,다행이다!" Face="Koishi" Mono="False" />
+  <!-- じゃあ　コレがお礼だよ！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue5FaceKoishi" Value="그러면 여기 사례!" Face="Koishi" Mono="False" />
+  <!-- よし　依頼達成ね -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue6FaceShanghai" Value="좋아，의뢰는 해결했네." Face="Shanghai" Mono="False" />
+  <!-- よかったらお姉ちゃんのお見舞いにも来てね！ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage5Dialogue7FaceKoishi" Value="된다면 언니 병문안도 와 줘!" Face="Koishi" Mono="False" />
+  <!-- あの子のお姉さんってたしか　さとりさんだっけ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage7Dialogue1FaceAlice" Value="쟤 언니라 하면,사토리 씨라 했던가." Face="Alice" Mono="False" />
+  <!-- 病気で目が見えないのよね行ってみる？ -->
+  <Dialogue Key="Map.Hospital2fRequest15KojiStage7Dialogue2FaceShanghai" Value="병 때문에 앞이,안 보인다고 했지.,한 번 가 볼까?" Face="Shanghai" Mono="False" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital2fSofaStage1Dialogue1FaceNone" Value="기다리는 사람들을,위한 소파다." Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital2fSofaStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital2fSofaDupeStage1Dialogue1FaceNone" Value="기다리는 사람들을,위한 소파다." Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital2fSofaDupeStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <!-- さすがに他人の病室に勝手に入るのはどうかと思うわよ -->
+  <Dialogue Key="Map.Hospital2fToTheRightOfTheRoomStage1Dialogue1FaceShanghai" Value="역시나 다른 사람의 병실에,멋대로 들어가는 건,좀 아니라고 생각해." Face="Shanghai" Mono="False" />
+  <!-- エレベーターの扉が開いた！何階へ行きますか？ -->
+  <Dialogue Key="Map.Hospital2fElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층에 가시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.Hospital2fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- １階３階乗らない -->
+  <Text Key="Map.Hospital2fElevatorStage1Dialogue2Options" Value="1층,3층,안 탄다" />
+  <!-- もしかして　と思ったら救急車を呼ぶようにとうったえかけているポスターだ -->
+  <Dialogue Key="Map.Hospital2fPosterStage1Dialogue1FaceNone" Value="혹시나 하는 생각이 들면,바로 구급차를 불러 달라고,호소하는 포스터다." Face="None" Mono="False" />
+  <!-- 森林浴が健康に与えるよい影響が書かれたポスターだ -->
+  <Dialogue Key="Map.Hospital2fPosterDupeStage1Dialogue1FaceNone" Value="삼림욕이 건강에 끼치는,좋은 영향을 그려낸 포스터다." Face="None" Mono="False" />
+  <!-- 自然の景色や香りがストレス解消や健康に繋がると書かれている -->
+  <Dialogue Key="Map.Hospital2fPosterDupeStage1Dialogue2FaceNone" Value="자연의 경치나 향이,스트래스 해소나 건강과,연관이 있다고 써져 있다." Face="None" Mono="False" />
+</data>
