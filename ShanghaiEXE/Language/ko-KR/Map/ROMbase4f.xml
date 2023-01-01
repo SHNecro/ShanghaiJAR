@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ROM基地　地下エレベーター -->
+  <Text Key="Map.ROMbase4fName" Value="ROM 기지 지하 엘리베이터" />
+  <!-- 地下へと続くエレベーターだ乗りますか？ -->
+  <Dialogue Key="Map.ROMbase4fElevatorStage1Dialogue1QuestionFaceNone" Value="지상으로 이어지는 엘리베이터다.,타시겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbase4fElevatorStage1Dialogue1Options" Value="예,아니오" />
+</data>
