@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GenUniversity2fjimName" Value="환상대학교 사무실" />
+  <Dialogue Key="Map.GenUniversity2fjimChapter3OlderBrotherStage1Dialogue1FaceScientist" Value="넷 배틀에 있어서,칩의 특성을 알고 있는지는,중요한 부분이야." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChapter3OlderBrotherStage1Dialogue2FaceScientist" Value="귀찮다고 새 칩을,안 쓰고 있으면,절대 세질 수 없다고!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk1Stage1Dialogue1FaceNone" Value="사무 처리용 컴퓨터인데,지금 상황에서는 이걸,오래 잡고 있을 수가 없다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk1Stage3Dialogue1FaceNone" Value="사무 처리용 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk1Stage3Dialogue2FaceNone" Value="대학교의 사무 관련 데이터를,다루는 데 쓸 수 있지만,지금은 손댈 필요가 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk2Stage1Dialogue1FaceNone" Value="사무 처리용 컴퓨터인데,지금 상황에서는 이걸,오래 잡고 있을 수가 없다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk2Stage3Dialogue1FaceNone" Value="사무 처리용 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimDesk2Stage3Dialogue2FaceNone" Value="대학교의 사무 관련 데이터를,다루는 데 쓸 수 있지만,지금은 손댈 필요가 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed1Stage1Dialogue1FaceNone" Value="사무실 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed1Stage1Dialogue2FaceNone" Value="땀 같은 게,축축하게 스며들어 있어서,된다면 만지고 싶지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow1Stage1Dialogue1FaceNone" Value="모리치카 박사님의 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow1Stage1Dialogue2FaceNone" Value="손때나게 오래 쓴 듯하다.,여기저기에 있는 부품이,덜그럭거린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed2Stage1Dialogue1FaceNone" Value="사무실 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairRed2Stage1Dialogue2FaceNone" Value="이제 막 샀는지,나름 깨끗하다." Face="None" Mono="False" />
+  <!-- 椅子の下に２６５４７８５２　と書かれたメモ用紙が落ちている -->
+  <Dialogue Key="Map.GenUniversity2fjimChairRed2Stage1Dialogue3FaceNone" Value="의자 아래쪽에,메모지가 하나 떨어져 있다.,26547852라 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow2Stage1Dialogue1FaceNone" Value="모리치카 박사님의 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChairShadow2Stage1Dialogue2FaceNone" Value="손때나게 오래 쓴 듯하다.,여기저기에 있는 부품이,덜그럭거린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair1Stage1Dialogue1FaceNone" Value="방문객을 위한 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair1Stage1Dialogue2FaceNone" Value="발주 과정에서 발생한 실수,때문에 휴게실 의자랑 같은 걸,쓰고 있다는 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair2Stage1Dialogue1FaceNone" Value="방문객을 위한 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimChair2Stage1Dialogue2FaceNone" Value="발주 과정에서 발생한 실수,때문에 휴게실 의자랑 같은 걸,쓰고 있다는 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTableStage1Dialogue1FaceNone" Value="널찍한 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTableStage1Dialogue2FaceNone" Value="물걸레질한 흔적이 남은 걸로,봐서는 닦고 나서 그렇게,오래 지나지 않은 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTable2Stage1Dialogue1FaceNone" Value="널찍한 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimTable2Stage1Dialogue2FaceNone" Value="물걸레질한 흔적이 남은 걸로,봐서는 닦고 나서 그렇게,오래 지나지 않은 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage1Dialogue1FaceAlice" Value="이 화분 이제 보니까,공기 청정기였어!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage1Dialogue2FaceShanghai" Value="아무리 장식 목적이라지만,지금 같은 상황에서,이건 그냥 민폐인데...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage1Dialogue3FaceShanghai" Value="앨리스，플러그인해!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage3Dialogue1FaceNone" Value="얼핏 보면 화분 같아 보이지만,사실은 공기청정기 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirCleanerStage3Dialogue2FaceNone" Value="플러그인도 할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirPurifierpluginStage1Dialogue1FaceAlice" Value="이 화분 이제 보니까,공기 청정기였어!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirPurifierpluginStage1Dialogue2FaceShanghai" Value="아무리 장식 목적이라지만,지금 같은 상황에서,이건 그냥 민폐인데...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimAirPurifierpluginStage1Dialogue3FaceShanghai" Value="앨리스，플러그인해!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue1FaceAlice" Value="콜록!,여기도 공기 상태가...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue2FaceShanghai" Value="이래서는 등록 작업,같은 건 못 하겠는데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue3FaceShanghai" Value="그런데 공기 청정기는,어디 있는 거야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fjimGasGenerationStage1Dialogue4FaceAlice" Value="어딘가 숨겨져 있는 거 아냐....?,콜록.... 찾아 보자!" Face="Alice" Mono="False" />
+</data>
