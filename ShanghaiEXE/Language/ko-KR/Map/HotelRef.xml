@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HotelRefName" Value="호텔 냉장고의 전뇌" />
+  <Dialogue Key="Map.HotelRefSprite1Stage1Dialogue1FaceSprite" Value="술은 만 18세가 되고 나서." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelRefSprite1Stage1Dialogue2FaceSprite" Value="이 나라에서는 18살부터,성인으로 인정됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelRefSprite2Stage1Dialogue1FaceSprite" Value="음료는 이 냉장고에서 사는,것보다도 밖에서 사는,게 더 가격이 싸요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelRefSprite2Stage1Dialogue2FaceSprite" Value="다른 사람한테는 비밀이에요." Face="Sprite" Mono="False" />
+</data>
