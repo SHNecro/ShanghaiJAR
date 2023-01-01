@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Cruiser1fName" Value="豪華客船の電脳１" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue1FaceShanghai" Value="うわっ！,もしかしてこれ電脳世界が,水に浸ってるの！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue2FaceAlice" Value="だったら泳いで向こう岸に,いけたりしないかな？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue3FaceShanghai" Value="おバカ！,あたしは泳げないのよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue4FaceShanghai" Value="だから水に潜れだなんて,言うんじゃないわよ！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue5FaceAlice" Value="（初めて知ったんだけど････）" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue1FaceSprite" Value="コノサキノ　アカイハンドルヲ,マワスト　デンノウセカイノ,スイイガ　ヘンカシマス" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue2FaceSprite" Value="オヨゲナイノナラ,シズンダ　エリアニハ,ハイラナイホウガ　イイデスヨ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue3FaceSprite" Value="デモ　スイイガアガルト,ウクモノガ　アシバニナルカモ,シレマセンネ" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve1Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve1Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve2Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve2Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve3Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve3Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve4Stage1Dialogue1FaceNone" Value="シャンハイは,水位調整バルブをひねった！" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve4Stage3Dialogue1FaceNone" Value="バッシャーーン！" Face="None" Mono="False" />
+</data>
