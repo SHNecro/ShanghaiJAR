@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- Chip -->
+  <Text Key="Chip.AquaStormName" Value="태풍" />
+  <Text Key="Chip.AquaStormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.AuraSlashName" Value="오라연참" />
+  <Text Key="Chip.AuraSlashDesc" Value="관통하는,세로 3칸짜리 참격을,6발 날린다" />
+  <Text Key="Chip.AuraSword1Name" Value="오라소드1" />
+  <Text Key="Chip.AuraSword1Desc" Value="검으로 검기를 날린다!,오라나 배리어가,있다면 관통한다!" />
+  <Text Key="Chip.AuraSword2Name" Value="오라소드2" />
+  <Text Key="Chip.AuraSword2Desc" Value="2개의 검기를 날린다!,오라나 배리어가,있다면 관통한다!" />
+  <Text Key="Chip.AuraSword3Name" Value="오라소드3" />
+  <Text Key="Chip.AuraSword3Desc" Value="3개의 검기를 날린다!,오라나 배리어가,있다면 관통한다!" />
+  <Text Key="Chip.AuraSwordXName" Value="오라소드X" />
+  <Text Key="Chip.AuraSwordXDesc" Value="검으로 검기를 날린다!,오라나 배리어가,있다면 관통한다!" />
+  <Text Key="Chip.BackWindName" Value="순풍" />
+  <Text Key="Chip.BackWindDesc" Value="얼마 동안 적을,가까이 끌어들이는,돌풍이 불어온다!" />
+  <Text Key="Chip.BarrierName" Value="배리어" />
+  <Text Key="Chip.BarrierDesc" Value="한 번만,공격을 막을 수 있는,배리어를 두른다!" />
+  <Text Key="Chip.BeastBreathName" Value="버그비스트블레이즈" />
+  <Text Key="Chip.BeastBreathDesc" Value="적의 약점으로,속성이 변화하는,전뇌수의 브레스!" />
+  <Text Key="Chip.BeatleManV1Name" Value="비틀맨" />
+  <Text Key="Chip.BeatleManV1Desc" Value="공격과 기물을 흡수하여,파괴력이 세지는 십자로,폭발하는 버그 홀" />
+  <Text Key="Chip.BeatleManV2Name" Value="비틀맨V2" />
+  <Text Key="Chip.BeatleManV2Desc" Value="공격과 기물을 흡수하여,파괴력이 세지는 십자로,폭발하는 버그 홀" />
+  <Text Key="Chip.BeatleManV3Name" Value="비틀맨V3" />
+  <Text Key="Chip.BeatleManV3Desc" Value="공격과 기물을 흡수하여,파괴력이 세지는 십자로,폭발하는 버그 홀" />
+  <Text Key="Chip.BeatleManXName" Value="비틀맨X" />
+  <Text Key="Chip.BeatleManXDesc" Value="공격과 기물을 흡수하여,파괴력이 세지는 십자로,폭발하는 버그 홀" />
+  <Text Key="Chip.BigTyphoonName" Value="빅태풍" />
+  <Text Key="Chip.BigTyphoonDesc" Value="5번 왕복하는,무지막지한 회오리를,발생시킨다!" />
+  <Text Key="Chip.BioHazardName" Value="바이오해저드가든" />
+  <Text Key="Chip.BioHazardDesc" Value="흉악한 맹독을 내뿜는,거대한 은방울꽃을,바로 앞에 키운다!" />
+  <Text Key="Chip.BioSpray1Name" Value="바이오스프레이1" />
+  <Text Key="Chip.BioSpray1Desc" Value="2칸 앞을 향해,세로 3칸까지 퍼지는,유독 가스를 방사한다!" />
+  <Text Key="Chip.BioSpray2Name" Value="바이오스프레이2" />
+  <Text Key="Chip.BioSpray2Desc" Value="2칸 앞을 향해,세로 3칸까지 퍼지는,유독 가스를 방사한다!" />
+  <Text Key="Chip.BioSpray3Name" Value="바이오스프레이3" />
+  <Text Key="Chip.BioSpray3Desc" Value="2칸 앞을 향해,세로 3칸까지 퍼지는,유독 가스를 방사한다!" />
+  <Text Key="Chip.BioSprayXName" Value="바이오스프레이X" />
+  <Text Key="Chip.BioSprayXDesc" Value="2칸 앞을 향해,세로 3칸까지 퍼지는,유독 가스를 방사한다!" />
+  <Text Key="Chip.BioStormName" Value="해저드" />
+  <Text Key="Chip.BioStormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.BlindReafName" Value="블라인드리프" />
+  <Text Key="Chip.BlindReafDesc" Value="적 전체의 상태를,블라인드 상태로,만들어 버린다!" />
+  <Text Key="Chip.BlueSuzuranName" Value="파란은방울꽃" />
+  <Text Key="Chip.BlueSuzuranDesc" Value="바로 앞에,아군을 회복시키는,은방울꽃이 출현한다!" />
+  <Text Key="Chip.BraveSwordName" Value="브레이브소드" />
+  <Text Key="Chip.BraveSwordDesc" Value="강철의 검으로,단번에 가로 3칸을,방어를 무시하고 벤다!" />
+  <Text Key="Chip.BreakShotName" Value="브레이크샷" />
+  <Text Key="Chip.BreakShotDesc" Value="3칸 앞을,금 간 패널로 바꾸는,마그마를 발사한다!" />
+  <Text Key="Chip.BrocraLink1Name" Value="인터넷스팸링크1" />
+  <Text Key="Chip.BrocraLink1Desc" Value="적 에리어에 지뢰 배치!,밟으면 적 에리어에,죄다 금이 간다!" />
+  <Text Key="Chip.BrocraLink2Name" Value="인터넷스팸링크2" />
+  <Text Key="Chip.BrocraLink2Desc" Value="적 에리어에 지뢰 배치!,밟으면 적 에리어가,버너 패널이 된다!" />
+  <Text Key="Chip.BrocraLink3Name" Value="인터넷스팸링크3" />
+  <Text Key="Chip.BrocraLink3Desc" Value="적 에리어에 지뢰 배치!,밟으면 적 에리어가,얼음 패널이 된다!" />
+  <Text Key="Chip.BrocraLinkXName" Value="인터넷스팸링크X" />
+  <Text Key="Chip.BrocraLinkXDesc" Value="적 에리어에 지뢰 배치!,밟으면 적 에리어에,죄다 금이 간다!" />
+  <Text Key="Chip.BronzeNapalmName" Value="브론즈네이팜" />
+  <Text Key="Chip.BronzeNapalmDesc" Value="3칸 앞에 던져서,직격 시 브레이크하는,불꽃 폭탄을 던진다!" />
+  <Text Key="Chip.BubbleBlust1Name" Value="버블블래스트1" />
+  <Text Key="Chip.BubbleBlust1Desc" Value="앞을 향해,거품을 5연사한다!,착탄점 뒤쪽에도 유폭" />
+  <Text Key="Chip.BubbleBlust2Name" Value="버블블래스트2" />
+  <Text Key="Chip.BubbleBlust2Desc" Value="앞을 향해,거품을 5연사한다!,착탄점 뒤쪽에도 유폭" />
+  <Text Key="Chip.BubbleBlust3Name" Value="버블블래스트3" />
+  <Text Key="Chip.BubbleBlust3Desc" Value="앞을 향해,거품을 5연사한다!,착탄점 뒤쪽에도 유폭" />
+  <Text Key="Chip.BubbleBlustXName" Value="버블블래스트X" />
+  <Text Key="Chip.BubbleBlustXDesc" Value="앞을 향해,거품을 5연사한다!,착탄점 뒤쪽에도 유폭" />
+  <Text Key="Chip.BubbleLotionName" Value="버블로션" />
+  <Text Key="Chip.BubbleLotionDesc" Value="모든 적을,미끄러지는 상태로,만들어 버린다!" />
+  <Text Key="Chip.BurnerRoadName" Value="버너로드" />
+  <Text Key="Chip.BurnerRoadDesc" Value="서 있는 가로열을,버너 패널로,바꾼다!" />
+  <Text Key="Chip.BurnerStageName" Value="버너스테이지" />
+  <Text Key="Chip.BurnerStageDesc" Value="모든 패널들을,버너 패널로,바꾼다!!" />
+  <Text Key="Chip.BusterAnpName" Value="버스터앰프" />
+  <Text Key="Chip.BusterAnpDesc" Value="버스터의,위력이 1 증가,최대 10까지 적용" />
+  <Text Key="Chip.ChainGun1Name" Value="체인건1" />
+  <Text Key="Chip.ChainGun1Desc" Value="적이 있는 칸에,기관포를,3발 발사한다!" />
+  <Text Key="Chip.ChainGun2Name" Value="체인건2" />
+  <Text Key="Chip.ChainGun2Desc" Value="적이 있는 칸에,기관포를,3발 발사한다!" />
+  <Text Key="Chip.ChainGun3Name" Value="체인건3" />
+  <Text Key="Chip.ChainGun3Desc" Value="적이 있는 칸에,기관포를,3발 발사한다!" />
+  <Text Key="Chip.ChainGunXName" Value="체인건X" />
+  <Text Key="Chip.ChainGunXDesc" Value="적이 있는 칸에,기관포를,3발 발사한다!" />
+  <Text Key="Chip.ChargeCanon1Name" Value="차지캐논1" />
+  <Text Key="Chip.ChargeCanon1Desc" Value="오랫동안 충전한,뒤에 발포되는,초고화력포!!" />
+  <Text Key="Chip.ChargeCanon2Name" Value="차지캐논2" />
+  <Text Key="Chip.ChargeCanon2Desc" Value="오랫동안 충전한,뒤에 발포되는,초고화력포!!" />
+  <Text Key="Chip.ChargeCanon3Name" Value="차지캐논3" />
+  <Text Key="Chip.ChargeCanon3Desc" Value="오랫동안 충전한,뒤에 발포되는,초고화력포!!" />
+  <Text Key="Chip.ChargeCanonXName" Value="차지캐논X" />
+  <Text Key="Chip.ChargeCanonXDesc" Value="오랫동안 충전한,뒤에 발포되는,초고화력포!!" />
+  <Text Key="Chip.ChenV1Name" Value="첸" />
+  <Text Key="Chip.ChenV1Desc" Value="에리어 외곽을,3번 회전하며 돌격한다!,캣 부메랑!" />
+  <Text Key="Chip.ChenV2Name" Value="첸V2" />
+  <Text Key="Chip.ChenV2Desc" Value="에리어 외곽을,3번 회전하며 돌격한다!,캣 부메랑!" />
+  <Text Key="Chip.ChenV3Name" Value="첸V3" />
+  <Text Key="Chip.ChenV3Desc" Value="에리어 외곽을,3번 회전하며 돌격한다!,캣 부메랑!" />
+  <Text Key="Chip.ChenXName" Value="첸X" />
+  <Text Key="Chip.ChenXDesc" Value="에리어 외곽을,3번 회전하며 돌격한다!,캣 부메랑!" />
+  <Text Key="Chip.CirnoV1Name" Value="치르노" />
+  <Text Key="Chip.CirnoV1Desc" Value="얼음 위를 지나가면,더 세지고 관통까지 하게 되는,아이스 차지!" />
+  <Text Key="Chip.CirnoV2Name" Value="치르노V2" />
+  <Text Key="Chip.CirnoV2Desc" Value="얼음 위를 지나가면,더 세지고 관통하게 되는,아이스 차지!" />
+  <Text Key="Chip.CirnoV3Name" Value="치르노V3" />
+  <Text Key="Chip.CirnoV3Desc" Value="얼음 위를 지나가면,더 세지고 관통하게 되는,아이스 차지!" />
+  <Text Key="Chip.CirnoXName" Value="치르노X" />
+  <Text Key="Chip.CirnoXDesc" Value="얼음 위를 지나가면,더 세지고 관통하게 되는,아이스 차지!" />
+  <Text Key="Chip.ColdAir1Name" Value="콜드에어1" />
+  <Text Key="Chip.ColdAir1Desc" Value="앞으로 나아가며,맞은 물체를 밀쳐내는,차디찬 돌풍!" />
+  <Text Key="Chip.ColdAir2Name" Value="콜드에어2" />
+  <Text Key="Chip.ColdAir2Desc" Value="세로로 3칸까지 퍼지며,맞은 물체를 밀쳐내는,차디찬 돌풍!" />
+  <Text Key="Chip.ColdAir3Name" Value="콜드에어3" />
+  <Text Key="Chip.ColdAir3Desc" Value="앞으로 2개가 날아가며,맞은 물체를 밀쳐내는,차디찬 돌풍!" />
+  <Text Key="Chip.ColdAirXName" Value="콜드에어X" />
+  <Text Key="Chip.ColdAirXDesc" Value="앞으로 나아가며,맞은 물체를 밀쳐내는,차디찬 돌풍!" />
+  <Text Key="Chip.ColdShotName" Value="콜드샷" />
+  <Text Key="Chip.ColdShotDesc" Value="3칸 앞을,얼음 패널로 바꾸는,액체를 발사한다!" />
+  <Text Key="Chip.CrossSwordName" Value="크로스소드" />
+  <Text Key="Chip.CrossSwordDesc" Value="바로 앞을 중심으로,검으로 Ｘ자로 벤다!,중심에 있으면 2연타" />
+  <Text Key="Chip.CubeName" Value="큐브" />
+  <Text Key="Chip.CubeDesc" Value="눈 앞에 방패가 되어 줄,큐브를 생성한다!,내구력은 200" />
+  <Text Key="Chip.CustomMaxName" Value="커스텀맥스" />
+  <Text Key="Chip.CustomMaxDesc" Value="커스텀 게이지가,바로 최대치까지 찬다!" />
+  <Text Key="Chip.DanmakuValucunName" Value="탄막발칸" />
+  <Text Key="Chip.DanmakuValucunDesc" Value="앞을 향해,착탄점 뒤쪽에도 유폭하는,탄막을 10연사!" />
+  <Text Key="Chip.DarkAnchorName" Value="다크앵커" />
+  <Text Key="Chip.DarkAnchorDesc" Value="아홉 개의 닻이,적의 에리어에,쏟아질지어다" />
+  <Text Key="Chip.DarkAuraName" Value="다크오라" />
+  <Text Key="Chip.DarkAuraDesc" Value="어둠의 오라가,200 피해 미만의 기술들을,무효화시킬지어다" />
+  <Text Key="Chip.DarkAutumnName" Value="다크어텀" />
+  <Text Key="Chip.DarkAutumnDesc" Value="낙엽의 폭풍이,적의 시야를,빼앗을지어다...." />
+  <Text Key="Chip.DarkBreathName" Value="다크브레스" />
+  <Text Key="Chip.DarkBreathDesc" Value="넓은 범위를,어둠의 불꽃으로,불살라버려라" />
+  <Text Key="Chip.DarkFangName" Value="다크팽" />
+  <Text Key="Chip.DarkFangDesc" Value="천둥의 어금니가,적의 몸에 박혀서,적을 놓아주지 않을지니" />
+  <Text Key="Chip.DarkHurricaneName" Value="다크허리케인" />
+  <Text Key="Chip.DarkHurricaneDesc" Value="십자로 퍼져나가는,폭풍의 감옥에서,벗어날 수 없을지니" />
+  <Text Key="Chip.DarkRepairName" Value="다크리페어" />
+  <Text Key="Chip.DarkRepairDesc" Value="경이로운,회복 능력을,가져갈지어다...." />
+  <Text Key="Chip.DarkReygunName" Value="다크레이건" />
+  <Text Key="Chip.DarkReygunDesc" Value="상처입은 만큼,더욱 더 세지는,저주받은 탄환" />
+  <Text Key="Chip.DarkSandName" Value="다크데저트" />
+  <Text Key="Chip.DarkSandDesc" Value="다섯 개의 지옥이,적의 에리어에,퍼질지어다" />
+  <Text Key="Chip.DarkSparkName" Value="다크스파크" />
+  <Text Key="Chip.DarkSparkDesc" Value="어둠의 섬광이,적을 몸과 그림자,모두를 뚫어버릴지어다" />
+  <Text Key="Chip.DarkWiperName" Value="다크와이퍼" />
+  <Text Key="Chip.DarkWiperDesc" Value="어둠의 가위로,광범위하게 베어 버리고,독 속에 빠뜨릴지니" />
+  <Text Key="Chip.DeathWiper1Name" Value="데스와이퍼1" />
+  <Text Key="Chip.DeathWiper1Desc" Value="가로 3칸、세로 2칸 범위를,단박에 베어 버리는,필살 가위!" />
+  <Text Key="Chip.DeathWiper2Name" Value="데스와이퍼2" />
+  <Text Key="Chip.DeathWiper2Desc" Value="가로 3칸、세로 2칸 범위를,단박에 베어 버리는,필살 가위!" />
+  <Text Key="Chip.DeathWiper3Name" Value="데스와이퍼3" />
+  <Text Key="Chip.DeathWiper3Desc" Value="가로 3칸、세로 2칸 범위를,단박에 베어 버리는,필살 가위!" />
+  <Text Key="Chip.DigDrill1Name" Value="굴삭드릴1" />
+  <Text Key="Chip.DigDrill1Desc" Value="앞 2칸을,드릴로 뚫어 버린다!,최대 3연타 가능" />
+  <Text Key="Chip.DigDrill2Name" Value="굴삭드릴2" />
+  <Text Key="Chip.DigDrill2Desc" Value="앞 2칸을,드릴로 뚫어 버린다!,최대 3연타 가능" />
+  <Text Key="Chip.DigDrill3Name" Value="굴삭드릴3" />
+  <Text Key="Chip.DigDrill3Desc" Value="앞 2칸을,드릴로 뚫어 버린다!,최대 3연타 가능" />
+  <Text Key="Chip.DigDrillXName" Value="굴삭드릴X" />
+  <Text Key="Chip.DigDrillXDesc" Value="앞 2칸을,드릴로 뚫어 버린다!,최대 3연타 가능" />
+  <Text Key="Chip.DisasterCrowName" Value="디재스터클로" />
+  <Text Key="Chip.DisasterCrowDesc" Value="2칸 앞을 중심으로,세로와 가로를 십문자로,베는 클로 공격!" />
+  <Text Key="Chip.DragnoBreath1Name" Value="드래그노브레스1" />
+  <Text Key="Chip.DragnoBreath1Desc" Value="방사형으로 퍼지며,광범위하게 불태우는,용의 숨결을 내뿜는다!" />
+  <Text Key="Chip.DragnoBreath2Name" Value="드래그노브레스2" />
+  <Text Key="Chip.DragnoBreath2Desc" Value="방사형으로 퍼지며,광범위하게 불태우는,용의 숨결을 내뿜는다!" />
+  <Text Key="Chip.DragnoBreath3Name" Value="드래그노브레스3" />
+  <Text Key="Chip.DragnoBreath3Desc" Value="방사형으로 퍼지며,광범위하게 불태우는,용의 숨결을 내뿜는다!" />
+  <Text Key="Chip.DreamMeteoName" Value="드림메테오" />
+  <Text Key="Chip.DreamMeteoDesc" Value="대폭발을 일으키는,거대한 메테오를,5발 떨어뜨린다!" />
+  <Text Key="Chip.DrillBreakerName" Value="드릴브레이커" />
+  <Text Key="Chip.DrillBreakerDesc" Value="3개의 드릴이,돌격한 뒤、마지막에,낙뢰 공격!!" />
+  <Text Key="Chip.DustBombName" Value="더스트봄" />
+  <Text Key="Chip.DustBombDesc" Value="착탄 지점에서 십자 범위에,폭발이 일어나는,정크 폭탄을 3칸 앞에 던진다!" />
+  <Text Key="Chip.ElekiChain1Name" Value="일렉체인1" />
+  <Text Key="Chip.ElekiChain1Desc" Value="채찍을 3칸 앞까지 던져서,맞은 상대를 마비시키고,가까이 끌고 온다" />
+  <Text Key="Chip.ElekiChain2Name" Value="일렉체인2" />
+  <Text Key="Chip.ElekiChain2Desc" Value="채찍을 3칸 앞까지 던져서,맞은 상대를 마비시키고,가까이 끌고 온다" />
+  <Text Key="Chip.ElekiChain3Name" Value="일렉체인3" />
+  <Text Key="Chip.ElekiChain3Desc" Value="채찍을 3칸 앞까지 던져서,맞은 상대를 마비시키고,가까이 끌고 온다" />
+  <Text Key="Chip.ElekiChainXName" Value="일렉체인X" />
+  <Text Key="Chip.ElekiChainXDesc" Value="채찍을 3칸 앞까지 던져서,맞은 상대를 마비시키고,가까이 끌고 온다" />
+  <Text Key="Chip.ElekiDrillName" Value="용궁드릴" />
+  <Text Key="Chip.ElekiDrillDesc" Value="앞 2칸을 전격을 두른,드릴로 뚫어 버린다!,최대 3연타 가능" />
+  <Text Key="Chip.ElekiFang1Name" Value="일렉팽1" />
+  <Text Key="Chip.ElekiFang1Desc" Value="자신이 있는 곳 위아래 열에,직진하는 한 쌍의,전격을 방출한다!" />
+  <Text Key="Chip.ElekiFang2Name" Value="일렉팽2" />
+  <Text Key="Chip.ElekiFang2Desc" Value="자신이 있는 곳 위아래 열에,직진하는 한 쌍의,전격을 방출한다!" />
+  <Text Key="Chip.ElekiFang3Name" Value="일렉팽3" />
+  <Text Key="Chip.ElekiFang3Desc" Value="자신이 있는 곳 위아래 열에,직진하는 한 쌍의,전격을 방출한다!" />
+  <Text Key="Chip.ElekiNetName" Value="일렉넷" />
+  <Text Key="Chip.ElekiNetDesc" Value="움직임을 봉하고,마비시키는 거미줄을,3칸 앞에 설치한다" />
+  <Text Key="Chip.ElekiStormName" Value="자기폭풍" />
+  <Text Key="Chip.ElekiStormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.ElementsAuraName" Value="엘레멘트오라" />
+  <Text Key="Chip.ElementsAuraDesc" Value="오라를 둘러서,모든 무속성,공격을 무효화한다!" />
+  <Text Key="Chip.ElementSwordName" Value="엘레멘트소닉" />
+  <Text Key="Chip.ElementSwordDesc" Value="화염、물、전기、풀 순서대로,각 속성의 검기를,4개를 날린다!" />
+  <Text Key="Chip.EndlessSaharaName" Value="엔드리스사하라" />
+  <Text Key="Chip.EndlessSaharaDesc" Value="없어져도 계속 늘어나는,모래지옥이 상대방의,에리어에 퍼진다!" />
+  <Text Key="Chip.EriabashName" Value="에리어배시" />
+  <Text Key="Chip.EriabashDesc" Value="맨 왼쪽에 있는 적의,에리어 한 열을,잠시 동안 자신의 에리어로!" />
+  <Text Key="Chip.EriaGuardName" Value="불가침에리어" />
+  <Text Key="Chip.EriaGuardDesc" Value="적에게 빼앗기지,않는 에리어를,한 열 늘린다!" />
+  <Text Key="Chip.EXSprayGunName" Value="EX스프레이건" />
+  <Text Key="Chip.EXSprayGunDesc" Value="2칸 앞과 3칸 앞에,광범위하게 맹렬한,맹독가스 살포!" />
+  <Text Key="Chip.FalBreazerName" Value="파르블레이저" />
+  <Text Key="Chip.FalBreazerDesc" Value="상대가 멀리 있을 수록,더 큰 피해를 주는,전뇌수의 날선 폭풍!" />
+  <Text Key="Chip.FireArm1Name" Value="플레임암1" />
+  <Text Key="Chip.FireArm1Desc" Value="전방 3칸까지,가드를 뚫는,화염방사!!" />
+  <Text Key="Chip.FireArm2Name" Value="플레임암2" />
+  <Text Key="Chip.FireArm2Desc" Value="전방 3칸까지,가드를 뚫는,화염방사!!" />
+  <Text Key="Chip.FireArm3Name" Value="플레임암3" />
+  <Text Key="Chip.FireArm3Desc" Value="전방 3칸까지,가드를 뚫는,화염방사!!" />
+  <Text Key="Chip.FireArmXName" Value="플레임암X" />
+  <Text Key="Chip.FireArmXDesc" Value="전방 3칸까지,가드를 뚫는,화염방사!!" />
+  <Text Key="Chip.FireNetName" Value="파이어넷" />
+  <Text Key="Chip.FireNetDesc" Value="움직임을 봉하고 멜트,상태로 만드는 거미줄을,3칸 앞에 설치한다" />
+  <Text Key="Chip.FlaeGun1Name" Value="플레어건" />
+  <Text Key="Chip.FlaeGun1Desc" Value="화염구가 직진한다!,3칸 앞까지 갔는데도,안 맞았으면 폭발" />
+  <Text Key="Chip.FlaeGun2Name" Value="메가플레어건" />
+  <Text Key="Chip.FlaeGun2Desc" Value="화염구가 직진한다!,3칸 앞까지 갔는데도,안 맞았으면 폭발" />
+  <Text Key="Chip.FlaeGun3Name" Value="기가플레어건" />
+  <Text Key="Chip.FlaeGun3Desc" Value="화염구가 직진한다!,3칸 앞까지 갔는데도,안 맞았으면 폭발" />
+  <Text Key="Chip.FlaeGunXName" Value="플레어건X" />
+  <Text Key="Chip.FlaeGunXDesc" Value="화염구가 직진한다!,3칸 앞까지 갔는데도,안 맞았으면 폭발" />
+  <Text Key="Chip.FlashBurnName" Value="플래시뱅" />
+  <Text Key="Chip.FlashBurnDesc" Value="격한 빛으로,상대방의 움직임을 봉하고,그림자를 밝혀낸다!" />
+  <Text Key="Chip.FloatBarrierName" Value="플로트배리어" />
+  <Text Key="Chip.FloatBarrierDesc" Value="없어질 때까지,부유 상태가 되는,배리어를 두른다!" />
+  <!-- キンキュウカイヒ -->
+  <Text Key="Chip.FlyngName" Value="긴급회피" />
+  <!--  -->
+  <Text Key="Chip.FlyngDesc" Value="" />
+  <Text Key="Chip.FreezerSwordName" Value="프리저소드" />
+  <Text Key="Chip.FreezerSwordDesc" Value="가로 3칸을 패널채로,박살내 버리는,거대한 얼음검!" />
+  <Text Key="Chip.FuhathuNapalmName" Value="불발네이팜" />
+  <Text Key="Chip.FuhathuNapalmDesc" Value="불에 닿으면,대폭발을 일으키는,폭탄을 3칸 앞에 던진다!" />
+  <Text Key="Chip.GhostBodyName" Value="고스트바디" />
+  <Text Key="Chip.GhostBodyDesc" Value="잠깐 동안 투명한,상태가 되면서 피해를,받지 않게 된다!" />
+  <Text Key="Chip.GigaHalberdName" Value="기가핼버드" />
+  <Text Key="Chip.GigaHalberdDesc" Value="가로 2칸과,세로 3칸 범위를 베는,거대 핼버드!" />
+  <Text Key="Chip.GigantWaveName" Value="자이간트웨이브" />
+  <Text Key="Chip.GigantWaveDesc" Value="땅을 타고 가는 충격파,지나가는 동안 물체나,적들을 관통한다!" />
+  <Text Key="Chip.GigaReygunName" Value="기가레이건" />
+  <Text Key="Chip.GigaReygunDesc" Value="쏘는 즉시 끝까지 닿으며,전방의 적 하나를,공격한다!" />
+  <Text Key="Chip.GigaTomahawkName" Value="기가토마호크" />
+  <Text Key="Chip.GigaTomahawkDesc" Value="중앙 열에서는 왕복하고,외곽에서는 외곽을 휩쓰는,토마호크를 던진다" />
+  <Text Key="Chip.GrassRoadName" Value="그래스로드" />
+  <Text Key="Chip.GrassRoadDesc" Value="서 있는 가로열을,풀 패널로,바꾼다!" />
+  <Text Key="Chip.GrassStageName" Value="그래스스테이지" />
+  <Text Key="Chip.GrassStageDesc" Value="모든 패널들을,풀 패널로,바꾼다!!" />
+  <Text Key="Chip.GraviBall1Name" Value="그래비티볼1" />
+  <Text Key="Chip.GraviBall1Desc" Value="적을 추적하며,맞으면 헤비 상태가 되는,중력의 탄환!" />
+  <Text Key="Chip.GraviBall2Name" Value="그래비티볼2" />
+  <Text Key="Chip.GraviBall2Desc" Value="적을 추적하며,맞으면 헤비 상태가 되는,중력의 탄환!" />
+  <Text Key="Chip.GraviBall3Name" Value="그래비티볼3" />
+  <Text Key="Chip.GraviBall3Desc" Value="적을 추적하며,맞으면 헤비 상태가 되는,중력의 탄환!" />
+  <Text Key="Chip.GraviBallXName" Value="그래비티볼X" />
+  <Text Key="Chip.GraviBallXDesc" Value="적을 추적하며,맞으면 헤비 상태가 되는,중력의 탄환!" />
+  <Text Key="Chip.GraviFieldName" Value="그래비티필드" />
+  <Text Key="Chip.GraviFieldDesc" Value="모든 적들을,헤비 상태이상에,빠뜨린다!" />
+  <Text Key="Chip.GroundWaveName" Value="그라운드웨이브" />
+  <Text Key="Chip.GroundWaveDesc" Value="땅을 타고 가는 충격파,지나가는 동안 물체나,적들을 관통한다!" />
+  <Text Key="Chip.Hakkero1Name" Value="팔괘로1" />
+  <Text Key="Chip.Hakkero1Desc" Value="전방을 향해,관통하는 레이저를,발사한다!" />
+  <Text Key="Chip.Hakkero2Name" Value="팔괘로2" />
+  <Text Key="Chip.Hakkero2Desc" Value="전방을 향해,관통하는 레이저를,발사한다!" />
+  <Text Key="Chip.Hakkero3Name" Value="팔괘로3" />
+  <Text Key="Chip.Hakkero3Desc" Value="전방을 향해,관통하는 레이저를,발사한다!" />
+  <Text Key="Chip.HakurouBladeName" Value="백루검" />
+  <Text Key="Chip.HakurouBladeDesc" Value="방어 태세에 들어간 자들만을,그 어디서라도 벨 수 있는,전설의 단도" />
+  <Text Key="Chip.HakutakuManV1Name" Value="하쿠타쿠맨" />
+  <Text Key="Chip.HakutakuManV1Desc" Value="모든 적을 손톱으로,베어가른다!,풀밭 위에 있으면....?" />
+  <Text Key="Chip.HakutakuManV2Name" Value="하쿠타쿠맨V2" />
+  <Text Key="Chip.HakutakuManV2Desc" Value="모든 적을 손톱으로,베어가른다!,풀밭 위에 있으면....?" />
+  <Text Key="Chip.HakutakuManV3Name" Value="하쿠타쿠맨V3" />
+  <Text Key="Chip.HakutakuManV3Desc" Value="모든 적을 손톱으로,베어가른다!,풀밭 위에 있으면....?" />
+  <Text Key="Chip.HakutakuManXName" Value="하쿠타쿠맨X" />
+  <Text Key="Chip.HakutakuManXDesc" Value="모든 적을 손톱으로,베어가른다!,풀밭 위에 있으면....?" />
+  <Text Key="Chip.HealBarrierName" Value="힐링배리어" />
+  <Text Key="Chip.HealBarrierDesc" Value="없어질 때까지,체력을 회복해 주는,배리어를 두른다!" />
+  <Text Key="Chip.HeatSwordName" Value="히트소드" />
+  <Text Key="Chip.HeatSwordDesc" Value="눈 앞 세로 3칸을,불꽃의 검으로,재빠르게 벤다!" />
+  <Text Key="Chip.HeavyAnchor1Name" Value="헤비앵커1" />
+  <Text Key="Chip.HeavyAnchor1Desc" Value="착탄 지점의 패널에,금이 가는 거대한,닻을 3칸 앞에 던진다!" />
+  <Text Key="Chip.HeavyAnchor2Name" Value="헤비앵커2" />
+  <Text Key="Chip.HeavyAnchor2Desc" Value="착탄 지점의 패널에,금이 가는 거대한,닻을 3칸 앞에 던진다!" />
+  <Text Key="Chip.HeavyAnchor3Name" Value="헤비앵커3" />
+  <Text Key="Chip.HeavyAnchor3Desc" Value="착탄 지점의 패널에,금이 가는 거대한,닻을 3칸 앞에 던진다!" />
+  <Text Key="Chip.TurtleHockeyName" Value="헬즈하키" />
+  <Text Key="Chip.TurtleHockeyDesc" Value="종횡무진,쉴 틈 안 주고 튕기는,지옥의 하키!" />
+  <Text Key="Chip.HellsHockeyName" Value="헬즈하키" />
+  <Text Key="Chip.HellsHockeyDesc" Value="종횡무진,쉴 틈 안 주고 튕기는,지옥의 하키!" />
+  <Text Key="Chip.HellStormName" Value="열풍" />
+  <Text Key="Chip.HellStormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.HiCanonName" Value="하이캐논" />
+  <Text Key="Chip.HiCanonDesc" Value="세로 3칸 가로 3칸까지 닿는,극대 레이저포를,발사한다!" />
+  <Text Key="Chip.HiMegaCanonName" Value="하이메가캐논" />
+  <Text Key="Chip.HiMegaCanonDesc" Value="세로 3칸 가로 3칸까지 닿는,극대 레이저포를,발사한다!" />
+  <Text Key="Chip.HyperSpannerName" Value="하이퍼스패너" />
+  <Text Key="Chip.HyperSpannerDesc" Value="4칸 범위의,거대한 스패너를,부메랑처럼 투척!" />
+  <Text Key="Chip.IceRoadName" Value="아이스로드" />
+  <Text Key="Chip.IceRoadDesc" Value="서 있는 가로열을,얼음 패널로,바꾼다!" />
+  <Text Key="Chip.IceStageName" Value="아이스스테이지" />
+  <Text Key="Chip.IceStageDesc" Value="모든 패널들을,얼음 패널로,바꾼다!!" />
+  <Text Key="Chip.IceSwordName" Value="아이스소드" />
+  <Text Key="Chip.IceSwordDesc" Value="눈 앞 세로 3칸을,얼음의 검으로,재빠르게 벤다!" />
+  <Text Key="Chip.IkuV1Name" Value="이쿠" />
+  <Text Key="Chip.IkuV1Desc" Value="3칸 앞의 세로열 범위에,무적을 무시하는 낙뢰,라인 썬더!" />
+  <Text Key="Chip.IkuV2Name" Value="이쿠V2" />
+  <Text Key="Chip.IkuV2Desc" Value="3칸 앞의 세로열 범위에,무적을 무시하는 낙뢰,라인 썬더!" />
+  <Text Key="Chip.IkuV3Name" Value="이쿠V3" />
+  <Text Key="Chip.IkuV3Desc" Value="3칸 앞의 세로열 범위에,무적을 무시하는 낙뢰,라인 썬더!" />
+  <Text Key="Chip.IkuXName" Value="이쿠X" />
+  <Text Key="Chip.IkuXDesc" Value="3칸 앞의 세로열 범위에,무적을 무시하는 낙뢰,라인 썬더!" />
+  <Text Key="Chip.InfiniteHandsName" Value="인피니트핸즈" />
+  <Text Key="Chip.InfiniteHandsDesc" Value="상대 에리어에,어둠의 왕자의 손이,무수히 쏟아진다!" />
+  <Text Key="Chip.JusticeReyName" Value="저스티스레이" />
+  <Text Key="Chip.JusticeReyDesc" Value="무적을 무시하는,정의의 광선!,여파도 피해를 준다" />
+  <Text Key="Chip.KarehaWave1Name" Value="낙엽웨이브1" />
+  <Text Key="Chip.KarehaWave1Desc" Value="상대방을 향해,지그재그로 나아가는,낙엽의 폭풍!" />
+  <Text Key="Chip.KarehaWave2Name" Value="낙엽웨이브2" />
+  <Text Key="Chip.KarehaWave2Desc" Value="상대방을 향해,지그재그로 나아가는,낙엽의 폭풍!" />
+  <Text Key="Chip.KarehaWave3Name" Value="낙엽웨이브3" />
+  <Text Key="Chip.KarehaWave3Desc" Value="상대방을 향해,지그재그로 나아가는,낙엽의 폭풍!" />
+  <!-- キクリ -->
+  <Text Key="Chip.KikuriName" Value="키쿠리" />
+  <!-- ランダムに光線が降り注ぎ　天からサテライトバーン！ -->
+  <Text Key="Chip.KikuriDesc" Value="랜덤하게 광선이,내리퍼부으며 하늘에서,새틀라이트 번!" />
+  <Text Key="Chip.KishinCanonName" Value="귀신분노포" />
+  <Text Key="Chip.KishinCanonDesc" Value="착탄 시 주변에,유폭하는 캐논을,4연발 발포한다!" />
+  <Text Key="Chip.KnifeName" Value="나이프" />
+  <Text Key="Chip.KnifeDesc" Value="바로 앞 1칸을,재빠르게 베는,작은 나이프!" />
+  <Text Key="Chip.KnightLanceName" Value="나이트랜스" />
+  <Text Key="Chip.KnightLanceDesc" Value="앞 2칸을,단번에 뚫는,기사의 창!" />
+  <Text Key="Chip.LanceName" Value="랜스" />
+  <Text Key="Chip.LanceDesc" Value="앞 2칸을,단번에 뚫는,거대한 창!" />
+  <Text Key="Chip.LeafStormName" Value="꽃샘바람" />
+  <Text Key="Chip.LeafStormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.LeafSwordName" Value="리프소드" />
+  <Text Key="Chip.LeafSwordDesc" Value="눈 앞 세로 3칸을,생명의 검으로,재빠르게 벤다!" />
+  <Text Key="Chip.LifeShieldName" Value="라이프실드" />
+  <Text Key="Chip.LifeShieldDesc" Value="적의 공격을 막고,막아낸 공격력만큼,회복하고 반사한다" />
+  <Text Key="Chip.LjiOtama1Name" Value="L자올챙이1" />
+  <Text Key="Chip.LjiOtama1Desc" Value="적을 향해서,한 번만 꺾이는,올챙이!" />
+  <Text Key="Chip.LjiOtama2Name" Value="L자올챙이2" />
+  <Text Key="Chip.LjiOtama2Desc" Value="적을 향해서,한 번만 꺾이는,올챙이!" />
+  <Text Key="Chip.LjiOtama3Name" Value="L자올챙이3" />
+  <Text Key="Chip.LjiOtama3Desc" Value="적을 향해서,한 번만 꺾이는,올챙이!" />
+  <Text Key="Chip.LjiOtamaXName" Value="L자올챙이X" />
+  <Text Key="Chip.LjiOtamaXDesc" Value="적을 향해서,한 번만 꺾이는,올챙이!" />
+  <Text Key="Chip.MagicBombName" Value="매지컬봄" />
+  <Text Key="Chip.MagicBombDesc" Value="십자로 분열하는,마법의 폭탄을,3칸 앞에 던진다!" />
+  <Text Key="Chip.MagicBombXName" Value="매지컬봄X" />
+  <Text Key="Chip.MagicBombXDesc" Value="십자로 분열하는,마법의 폭탄을,3칸 앞에 던진다!" />
+  <Text Key="Chip.MarisaV1Name" Value="마리사" />
+  <Text Key="Chip.MarisaV1Desc" Value="전방을 향해,관통 레이저,내로우 스파크!" />
+  <Text Key="Chip.MarisaV2Name" Value="마리사V2" />
+  <Text Key="Chip.MarisaV2Desc" Value="전방을 향해,관통 레이저,내로우 스파크!" />
+  <Text Key="Chip.MarisaV3Name" Value="마리사V3" />
+  <Text Key="Chip.MarisaV3Desc" Value="전방을 향해,관통 레이저,내로우 스파크!" />
+  <Text Key="Chip.MarisaXName" Value="마리사X" />
+  <Text Key="Chip.MarisaXDesc" Value="전방을 향해,관통 레이저,내로우 스파크!" />
+  <Text Key="Chip.MassDriverName" Value="마스드라이버" />
+  <Text Key="Chip.MassDriverDesc" Value="다양한 물체를,5개 발사하는,초전자포!" />
+  <Text Key="Chip.MasterSparkName" Value="마스터스파크" />
+  <Text Key="Chip.MasterSparkDesc" Value="전방을 향해,세로 3칸 범위의 거대한,레이저를 발포한다" />
+  <Text Key="Chip.MasterStyleName" Value="마스터스타일" />
+  <Text Key="Chip.MasterStyleDesc" Value="모든 스타일로,모든 속성을 다 써서,7연속 공격!" />
+  <Text Key="Chip.MedicineV1Name" Value="메디슨" />
+  <Text Key="Chip.MedicineV1Desc" Value="3칸 앞에 포이즌 볼!,자신의 독 패널들을,흡수해서 위력이 올라간다" />
+  <Text Key="Chip.MedicineV2Name" Value="메디슨V2" />
+  <Text Key="Chip.MedicineV2Desc" Value="3칸 앞에 포이즌 볼!,자신의 독 패널들을,흡수해서 위력이 올라간다" />
+  <Text Key="Chip.MedicineV3Name" Value="메디슨V3" />
+  <Text Key="Chip.MedicineV3Desc" Value="3칸 앞에 포이즌 볼!,자신의 독 패널들을,흡수해서 위력이 올라간다" />
+  <Text Key="Chip.MedicineXName" Value="메디슨X" />
+  <Text Key="Chip.MedicineXDesc" Value="3칸 앞에 포이즌 볼!,자신의 독 패널들을,흡수해서 위력이 올라간다" />
+  <Text Key="Chip.MedousaEyeName" Value="메두사아이" />
+  <Text Key="Chip.MedousaEyeDesc" Value="필살석화광선!,바이러스는 돌이 되고,내비는 헤비 상태가 된다!" />
+  <Text Key="Chip.MegaHalberdName" Value="메가핼버드" />
+  <Text Key="Chip.MegaHalberdDesc" Value="가로 2칸과,세로 3칸 범위를 베는,거대 핼버드!" />
+  <Text Key="Chip.MegaReygunName" Value="메가레이건" />
+  <Text Key="Chip.MegaReygunDesc" Value="쏘는 즉시 끝까지 닿으며,전방의 적 하나를,공격한다!" />
+  <Text Key="Chip.MegaTomahawkName" Value="메가토마호크" />
+  <Text Key="Chip.MegaTomahawkDesc" Value="중앙 열에서는 왕복하고,외곽에서는 외곽을 휩쓰는,토마호크를 던진다" />
+  <Text Key="Chip.MeltRawName" Value="멜팅로우" />
+  <Text Key="Chip.MeltRawDesc" Value="모든 적을,멜트 상태로,만들어 버린다!" />
+  <Text Key="Chip.MetalAuraName" Value="메탈릭오라" />
+  <Text Key="Chip.MetalAuraDesc" Value="브레이크 판정,이외의 공격을 무효화하는,오라를 두른다!" />
+  <Text Key="Chip.MetalCubeName" Value="메탈큐브" />
+  <Text Key="Chip.MetalCubeDesc" Value="눈 앞에 방패가 되는,공격을 막아 주는,강철 큐브를 생성한다!" />
+  <Text Key="Chip.MetalNapalmName" Value="메탈네이팜" />
+  <Text Key="Chip.MetalNapalmDesc" Value="3칸 앞에 던져서,직격 시 브레이크가 뜨는,불꽃 폭탄을 던진다!" />
+  <Text Key="Chip.MetalNapalmXName" Value="메탈네이팜X" />
+  <Text Key="Chip.MetalNapalmXDesc" Value="3칸 앞에 던져서,직격 시 브레이크가 뜨는,불꽃 폭탄을 던진다!" />
+  <!-- ミライエイゴウザン -->
+  <Text Key="Chip.MiraiEigouZanName" Value="미래영겁참" />
+  <!-- 前方の敵１体を周囲から連続でめった斬り！ -->
+  <Text Key="Chip.MiraiEigouZanDesc" Value="앞에 있는 적 하나를,주변에서 연속으로,무자비하게 벤다!" />
+  <Text Key="Chip.MithrillNapalmName" Value="미스릴네이팜" />
+  <Text Key="Chip.MithrillNapalmDesc" Value="3칸 앞에 던져서,직격 시 브레이크가 뜨는,불꽃 폭탄을 던진다!" />
+  <Text Key="Chip.MonkeyPole1Name" Value="몽키폴1" />
+  <Text Key="Chip.MonkeyPole1Desc" Value="상대방 에리어의,맨 뒤쪽 열에서 갑자기,봉이 찌르고 들어온다!" />
+  <Text Key="Chip.MonkeyPole2Name" Value="몽키폴2" />
+  <Text Key="Chip.MonkeyPole2Desc" Value="상대방 에리어의,맨 뒤쪽 열에서 갑자기,봉이 찌르고 들어온다!" />
+  <Text Key="Chip.MonkeyPole3Name" Value="몽키폴3" />
+  <Text Key="Chip.MonkeyPole3Desc" Value="상대방 에리어의,맨 뒤쪽 열에서 갑자기,봉이 찌르고 들어온다!" />
+  <Text Key="Chip.MonkeyPoleXName" Value="몽키폴X" />
+  <Text Key="Chip.MonkeyPoleXDesc" Value="상대방 에리어의,맨 뒤쪽 열에서 갑자기,봉이 찌르고 들어온다!" />
+  <Text Key="Chip.MrasaV1Name" Value="무라사" />
+  <Text Key="Chip.MrasaV1Desc" Value="적 하나를 노리고,위에서 내려찍는,그레이트 앵커!" />
+  <Text Key="Chip.MrasaV2Name" Value="무라사V2" />
+  <Text Key="Chip.MrasaV2Desc" Value="적 하나를 노리고,위에서 내려찍는,그레이트 앵커!" />
+  <Text Key="Chip.MrasaV3Name" Value="무라사V3" />
+  <Text Key="Chip.MrasaV3Desc" Value="적 하나를 노리고,위에서 내려찍는,그레이트 앵커!" />
+  <Text Key="Chip.MrasaXName" Value="무라사X" />
+  <Text Key="Chip.MrasaXDesc" Value="적 하나를 노리고,위에서 내려찍는,그레이트 앵커!" />
+  <Text Key="Chip.OkatazukeName" Value="정리정돈" />
+  <Text Key="Chip.OkatazukeDesc" Value="자기 에리어를 정상,패널로 되돌리고 양측에,있는 기물들을 없앤다!" />
+  <Text Key="Chip.OmegaSaberName" Value="샹하이세이버" />
+  <Text Key="Chip.OmegaSaberDesc" Value="가로 2칸을 3번,연속으로 베어가르는,구세주의 무구!" />
+  <Text Key="Chip.PaladinLanceName" Value="팔라딘랜스" />
+  <Text Key="Chip.PaladinLanceDesc" Value="앞 2칸을,단번에 뚫는,성기사의 창!" />
+  <Text Key="Chip.PanelShoot1Name" Value="패널슛1" />
+  <Text Key="Chip.PanelShoot1Desc" Value="앞에 있는 패널을 뜯어서,날려 버린다! 속성이 붙은,패널을 날리면 피해량 증폭!" />
+  <Text Key="Chip.PanelShoot2Name" Value="패널슛2" />
+  <Text Key="Chip.PanelShoot2Desc" Value="세로 3개 패널을 뜯어서,날려 버린다! 속성이 붙은,패널을 날리면 피해량 증폭!" />
+  <Text Key="Chip.PanelShoot3Name" Value="패널슛3" />
+  <Text Key="Chip.PanelShoot3Desc" Value="가로 2개 패널을 뜯어서,날려 버린다! 속성이 붙은,패널을 날리면 피해량 증폭!" />
+  <Text Key="Chip.PanelShootXName" Value="패널슛X" />
+  <Text Key="Chip.PanelShootXDesc" Value="세로 3개 패널을 뜯어서,날려 버린다! 속성이 붙은,패널을 날리면 피해량 증폭!" />
+  <Text Key="Chip.ParayzeCassetteName" Value="패럴라이즈카세트" />
+  <Text Key="Chip.ParayzeCassetteDesc" Value="공격성 칩의 바로 뒤에,선택하면 해당 공격,칩에 마비 효과가 추가된다" />
+  <Text Key="Chip.PlantPrisonName" Value="플랜트프리즌" />
+  <Text Key="Chip.PlantPrisonDesc" Value="덩굴을 뻗어 움직이지,못 하게 하고 계속,조여서 피해를 준다" />
+  <Text Key="Chip.PoisonNetName" Value="포이즌넷" />
+  <Text Key="Chip.PoisonNetDesc" Value="움직임을 봉하고 중독,상태로 만드는 거미줄을,3칸 앞에 설치한다" />
+  <Text Key="Chip.PoisonRoadName" Value="포이즌로드" />
+  <Text Key="Chip.PoisonRoadDesc" Value="서 있는 가로열을,독성 늪 패널로,바꾼다!" />
+  <Text Key="Chip.PoisonShotName" Value="베놈샷" />
+  <Text Key="Chip.PoisonShotDesc" Value="3칸 앞을,독 패널로 바꾸는,독액을 발사한다!" />
+  <Text Key="Chip.PoisonShotXName" Value="베놈샷X" />
+  <Text Key="Chip.PoisonShotXDesc" Value="3칸 앞을,독 패널로 바꾸는,독액을 발사한다!" />
+  <Text Key="Chip.PoisonStageName" Value="포이즌스테이지" />
+  <Text Key="Chip.PoisonStageDesc" Value="모든 패널들을,독성 늪 패널로,바꾼다!!" />
+  <Text Key="Chip.PonpocoJizou1Name" Value="너구리지장보살1" />
+  <Text Key="Chip.PonpocoJizou1Desc" Value="공격한 측 모두에게,천벌을 내리는,지장보살!" />
+  <Text Key="Chip.PonpocoJizou2Name" Value="너구리지장보살2" />
+  <Text Key="Chip.PonpocoJizou2Desc" Value="공격한 측 모두에게,천벌을 내리는,지장보살!" />
+  <Text Key="Chip.PonpocoJizou3Name" Value="너구리지장보살3" />
+  <Text Key="Chip.PonpocoJizou3Desc" Value="공격한 측 모두에게,천벌을 내리는,지장보살!" />
+  <Text Key="Chip.PonpocoJizouXName" Value="너구리지장보살X" />
+  <Text Key="Chip.PonpocoJizouXDesc" Value="공격한 측 모두에게,천벌을 내리는,지장보살!" />
+  <Text Key="Chip.PowerAuraName" Value="파워오라" />
+  <Text Key="Chip.PowerAuraDesc" Value="공격력 80 미만의,공격을 무효화하는,오라를 두른다!" />
+  <Text Key="Chip.PowerOfEarthName" Value="파워오브어스" />
+  <Text Key="Chip.PowerOfEarthDesc" Value="속성 패널에서,대응하는 속성의,공격이 날아온다" />
+  <Text Key="Chip.PowerPlus10Name" Value="파워플러스10" />
+  <Text Key="Chip.PowerPlus10Desc" Value="공격성 칩의 바로,뒤에 선택하면 해당,칩의 공격력+10!" />
+  <Text Key="Chip.PowerPlus30Name" Value="파워플러스30" />
+  <Text Key="Chip.PowerPlus30Desc" Value="공격성 칩의 바로,뒤에 선택하면 해당,칩의 공격력+30!" />
+  <Text Key="Chip.ProtonThunderName" Value="프로톤썬더" />
+  <Text Key="Chip.ProtonThunderDesc" Value="10연타 전격 방출!,위아래 열과 가운데 열을,번갈아 가면서 공격한다!" />
+  <Text Key="Chip.PushWindName" Value="역풍" />
+  <Text Key="Chip.PushWindDesc" Value="얼마 동안 적을,뒤쪽으로 밀치는,돌풍이 불어온다!" />
+  <Text Key="Chip.PyroManV1Name" Value="파이로맨" />
+  <Text Key="Chip.PyroManV1Desc" Value="랜덤한 3개 패널에,풋 버너 공격!,그걸 3번 반복!" />
+  <Text Key="Chip.PyroManV2Name" Value="파이로맨V2" />
+  <Text Key="Chip.PyroManV2Desc" Value="랜덤한 3개 패널에,풋 버너 공격!,그걸 3번 반복!" />
+  <Text Key="Chip.PyroManV3Name" Value="파이로맨V3" />
+  <Text Key="Chip.PyroManV3Desc" Value="랜덤한 3개 패널에,풋 버너 공격!,그걸 3번 반복!" />
+  <Text Key="Chip.PyroManXName" Value="파이로맨X" />
+  <Text Key="Chip.PyroManXDesc" Value="랜덤한 3개 패널에,풋 버너 공격!,그걸 3번 반복!" />
+  <Text Key="Chip.QuickCustomName" Value="퀵커스텀" />
+  <Text Key="Chip.QuickCustomDesc" Value="커스텀 게이지가,차는 속도가,빨라진다!" />
+  <Text Key="Chip.Railgun1Name" Value="레일건1" />
+  <Text Key="Chip.Railgun1Desc" Value="전자포 발포!,일직선으로 뻗어 나가며,패널들을 부순다!" />
+  <Text Key="Chip.Railgun2Name" Value="레일건2" />
+  <Text Key="Chip.Railgun2Desc" Value="전자포 발포!,일직선으로 뻗어 나가며,패널들을 부순다!" />
+  <Text Key="Chip.Railgun3Name" Value="레일건3" />
+  <Text Key="Chip.Railgun3Desc" Value="전자포 발포!,일직선으로 뻗어 나가며,패널들을 부순다!" />
+  <Text Key="Chip.RailgunXName" Value="레일건X" />
+  <Text Key="Chip.RailgunXDesc" Value="전자포 발포!,일직선으로 뻗어 나가며,패널들을 부순다!" />
+  <Text Key="Chip.RainAnchorName" Value="레인앵커" />
+  <Text Key="Chip.RainAnchorDesc" Value="적 에리어에 총,27개의 닻을,떨어뜨린다!" />
+  <Text Key="Chip.RanV1Name" Value="란" />
+  <Text Key="Chip.RanV1Desc" Value="머신건 레이,모든 열에 무한 난사!,총 21발!!" />
+  <Text Key="Chip.RanV2Name" Value="란V2" />
+  <Text Key="Chip.RanV2Desc" Value="머신건 레이,모든 열에 무한 난사!,총 27발!!" />
+  <Text Key="Chip.RanV3Name" Value="란V3" />
+  <Text Key="Chip.RanV3Desc" Value="머신건 레이,모든 열에 무한 난사!,총 35발!!" />
+  <Text Key="Chip.RanXName" Value="란X" />
+  <Text Key="Chip.RanXDesc" Value="머신건 레이,모든 열에 무한 난사!,총 21발!!" />
+  <Text Key="Chip.RebirthShieldName" Value="리버스실드" />
+  <Text Key="Chip.RebirthShieldDesc" Value="적의 공격을 막고,충격파의 형태로,반사시킨다!" />
+  <Text Key="Chip.RebirthShieldXName" Value="리버스실드X" />
+  <Text Key="Chip.RebirthShieldXDesc" Value="적의 공격을 막고,충격파의 형태로,반사시킨다!" />
+  <Text Key="Chip.ReflectShieldName" Value="리플렉트실드" />
+  <Text Key="Chip.ReflectShieldDesc" Value="적의 공격을 막고,막아낸 공격력의,2배 위력으로 반사" />
+  <Text Key="Chip.RefreRoadName" Value="리프레시로드" />
+  <Text Key="Chip.RefreRoadDesc" Value="서 있는 가로열을,일반 패널로,복구한다!" />
+  <Text Key="Chip.RefreStageName" Value="리프레시스테이지" />
+  <Text Key="Chip.RefreStageDesc" Value="모든 패널들을,일반 패널로,복구한다!!" />
+  <Text Key="Chip.Repair100Name" Value="리페어100" />
+  <Text Key="Chip.Repair100Desc" Value="내비의 체력을,100 회복시킨다!" />
+  <Text Key="Chip.Repair150Name" Value="리페어150" />
+  <Text Key="Chip.Repair150Desc" Value="내비의 체력을,150 회복시킨다!" />
+  <Text Key="Chip.Repair20Name" Value="리페어20" />
+  <Text Key="Chip.Repair20Desc" Value="내비의 체력을,20 회복시킨다!" />
+  <Text Key="Chip.Repair200Name" Value="리페어200" />
+  <Text Key="Chip.Repair200Desc" Value="내비의 체력을,200 회복시킨다!" />
+  <Text Key="Chip.Repair300Name" Value="리페어300" />
+  <Text Key="Chip.Repair300Desc" Value="내비의 체력을,300 회복시킨다!" />
+  <Text Key="Chip.Repair50Name" Value="리페어50" />
+  <Text Key="Chip.Repair50Desc" Value="내비의 체력을,50 회복시킨다!" />
+  <Text Key="Chip.Repair500Name" Value="리페어500" />
+  <Text Key="Chip.Repair500Desc" Value="내비의 체력을,500 회복시킨다!" />
+  <Text Key="Chip.ResistName" Value="레지스트" />
+  <Text Key="Chip.ResistDesc" Value="상태 이상을 치료하고,모든 상태 이상에,면역 상태가 된다!" />
+  <Text Key="Chip.ReygunName" Value="레이건" />
+  <Text Key="Chip.ReygunDesc" Value="쏘는 즉시 끝까지 닿으며,전방의 적 하나를,공격한다!" />
+  <Text Key="Chip.RoukanBladeName" Value="누관검" />
+  <Text Key="Chip.RoukanBladeDesc" Value="속성이 없는 적에게,2배의 피해를 주는,전설의 긴 칼!" />
+  <Text Key="Chip.SakuyaV1Name" Value="사쿠야" />
+  <Text Key="Chip.SakuyaV1Desc" Value="적의 상하좌우에서,아무것도 없는 칸에,나이프가 배치된다!" />
+  <Text Key="Chip.SakuyaV2Name" Value="사쿠야V2" />
+  <Text Key="Chip.SakuyaV2Desc" Value="적의 상하좌우에서,아무것도 없는 칸에,나이프가 배치된다!" />
+  <Text Key="Chip.SakuyaV3Name" Value="사쿠야V3" />
+  <Text Key="Chip.SakuyaV3Desc" Value="적의 상하좌우에서,아무것도 없는 칸에,나이프가 배치된다!" />
+  <Text Key="Chip.SakuyaXName" Value="사쿠야X" />
+  <Text Key="Chip.SakuyaXDesc" Value="적의 상하좌우에서,아무것도 없는 칸에,나이프가 배치된다!" />
+  <!-- ビビティバット -->
+  <Text Key="Chip.SamonBibityName" Value="비비티뱃" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SamonBibityDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+  <Text Key="Chip.SamonKedamarName" Value="털구슬" />
+  <Text Key="Chip.SamonKedamarDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+  <!-- プチオニ -->
+  <Text Key="Chip.SamonPuchioniName" Value="쁘띠오니" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SamonPuchioniDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+  <Text Key="Chip.SamonReyCanonName" Value="레이캐논" />
+  <Text Key="Chip.SamonReyCanonDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+  <Text Key="Chip.SandHell1Name" Value="모래지옥1" />
+  <Text Key="Chip.SandHell1Desc" Value="적 에리어의 어딘가에,랜덤하게 1개의,모래지옥을 일으킨다" />
+  <Text Key="Chip.SandHell2Name" Value="모래지옥2" />
+  <Text Key="Chip.SandHell2Desc" Value="적 에리어의 어딘가에,랜덤하게 2개의,모래지옥을 일으킨다" />
+  <Text Key="Chip.SandHell3Name" Value="모래지옥3" />
+  <Text Key="Chip.SandHell3Desc" Value="적 에리어의 어딘가에,랜덤하게 3개의,모래지옥을 일으킨다" />
+  <Text Key="Chip.SandRoadName" Value="데저트로드" />
+  <Text Key="Chip.SandRoadDesc" Value="서 있는 가로열을,사막 패널로,바꾼다!" />
+  <Text Key="Chip.SandStageName" Value="데저트스테이지" />
+  <Text Key="Chip.SandStageDesc" Value="모든 패널들을,사막 패널로,바꾼다!!" />
+  <Text Key="Chip.SandStormName" Value="모래폭풍" />
+  <Text Key="Chip.SandStormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.SathujinDollName" Value="살인인형" />
+  <Text Key="Chip.SathujinDollDesc" Value="모든 빈 칸에,오른쪽을 향해 날아가는,나이프를 배치한다!" />
+  <Text Key="Chip.ScissorManV1Name" Value="시저맨" />
+  <Text Key="Chip.ScissorManV1Desc" Value="2칸 앞과 맨 뒤쪽,열에 메테오 시클!,날린 낫은 한동안 남아 있다" />
+  <Text Key="Chip.ScissorManV2Name" Value="시저맨V2" />
+  <Text Key="Chip.ScissorManV2Desc" Value="2칸 앞과 맨 뒤쪽,열에 메테오 시클!,날린 낫은 한동안 남아 있다" />
+  <Text Key="Chip.ScissorManV3Name" Value="시저맨V3" />
+  <Text Key="Chip.ScissorManV3Desc" Value="2칸 앞과 맨 뒤쪽,열에 메테오 시클!,날린 낫은 한동안 남아 있다" />
+  <Text Key="Chip.ScissorManXName" Value="시저맨X" />
+  <Text Key="Chip.ScissorManXDesc" Value="2칸 앞과 맨 뒤쪽,열에 메테오 시클!,날린 낫은 한동안 남아 있다" />
+  <Text Key="Chip.SeedCanon1Name" Value="시드캐논1" />
+  <Text Key="Chip.SeedCanon1Desc" Value="착탄 지점이나 에리어 맨 뒤쪽에,위아래로 유폭한다!,폭풍에서 풀밭이 피어난다" />
+  <Text Key="Chip.SeedCanon2Name" Value="시드캐논2" />
+  <Text Key="Chip.SeedCanon2Desc" Value="착탄 지점이나 에리어 맨 뒤쪽에,위아래로 유폭한다!,폭풍에서 풀밭이 피어난다" />
+  <Text Key="Chip.SeedCanon3Name" Value="시드캐논3" />
+  <Text Key="Chip.SeedCanon3Desc" Value="착탄 지점이나 에리어 맨 뒤쪽에,위아래로 유폭한다!,폭풍에서 풀밭이 피어난다" />
+  <Text Key="Chip.SeedCanonXName" Value="시드캐논X" />
+  <Text Key="Chip.SeedCanonXDesc" Value="착탄 지점이나 에리어 맨 뒤쪽에,위아래로 유폭한다!,폭풍에서 풀밭이 피어난다" />
+  <Text Key="Chip.ShadowBodyName" Value="섀도우바디" />
+  <Text Key="Chip.ShadowBodyDesc" Value="그림자처럼 변해,공격할 때마다 2칸,앞까지 무적 상태로 파고든다!" />
+  <Text Key="Chip.ShellArmor1Name" Value="셸아머1" />
+  <Text Key="Chip.ShellArmor1Desc" Value="3번까지 피해량을,반감해 주는,슈퍼 아머" />
+  <Text Key="Chip.ShellArmor2Name" Value="셸아머2" />
+  <Text Key="Chip.ShellArmor2Desc" Value="5번까지 피해량을,반감해 주는,슈퍼 아머" />
+  <Text Key="Chip.ShellArmor3Name" Value="셸아머3" />
+  <Text Key="Chip.ShellArmor3Desc" Value="7번까지 피해량을,반감해 주는,슈퍼 아머" />
+  <Text Key="Chip.ShellArmorXName" Value="셸아머X" />
+  <Text Key="Chip.ShellArmorXDesc" Value="9번까지 피해량을,반감해 주는,슈퍼 아머" />
+  <Text Key="Chip.ShootWaveName" Value="어스웨이브" />
+  <Text Key="Chip.ShootWaveDesc" Value="땅을 타고 가는 충격파,지나가는 동안 물체나,적들을 관통한다!" />
+  <Text Key="Chip.ShotGun1Name" Value="샷건1" />
+  <Text Key="Chip.ShotGun1Desc" Value="3연사격!,2칸 앞까지,방사형으로 퍼진다!" />
+  <Text Key="Chip.ShotGun2Name" Value="샷건2" />
+  <Text Key="Chip.ShotGun2Desc" Value="3연사격!,2칸 앞까지,방사형으로 퍼진다!" />
+  <Text Key="Chip.ShotGun3Name" Value="샷건3" />
+  <Text Key="Chip.ShotGun3Desc" Value="3연사격!,2칸 앞까지,방사형으로 퍼진다!" />
+  <Text Key="Chip.ShotGunXName" Value="샷건X" />
+  <Text Key="Chip.ShotGunXDesc" Value="3연사격!,2칸 앞까지,방사형으로 퍼진다!" />
+  <Text Key="Chip.ShotWaveName" Value="샷웨이브" />
+  <Text Key="Chip.ShotWaveDesc" Value="땅을 타고 가는 충격파,지나가는 동안 물체나,적들을 관통한다!" />
+  <Text Key="Chip.SilverKnifeName" Value="실버나이프" />
+  <Text Key="Chip.SilverKnifeDesc" Value="바로 앞 1칸을,재빠르게 베는,가드를 뚫는 나이프" />
+  <Text Key="Chip.SlowCustomName" Value="슬로우커스텀" />
+  <Text Key="Chip.SlowCustomDesc" Value="커스텀 게이지가,차는 속도가,느려진다!" />
+  <Text Key="Chip.SpannerManV1Name" Value="스패너맨" />
+  <Text Key="Chip.SpannerManV1Desc" Value="볼틱 암과 스패너로,연계 공격! 바로 앞에,있으면 2연타" />
+  <Text Key="Chip.SpannerManV2Name" Value="스패너맨V2" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SpannerManV2Desc" Value="볼틱 암과 스패너로,연계 공격! 바로 앞에,있으면 2연타" />
+  <Text Key="Chip.SpannerManV3Name" Value="스패너맨V3" />
+  <!-- 直前にいたマスに３ターン援護するウィルスを召喚！ -->
+  <Text Key="Chip.SpannerManV3Desc" Value="볼틱 암과 스패너로,연계 공격! 바로 앞에,있으면 2연타" />
+  <Text Key="Chip.SpannerManXName" Value="스패너맨X" />
+  <Text Key="Chip.SpannerManXDesc" Value="볼틱 암과 스패너로,연계 공격! 바로 앞에,있으면 2연타" />
+  <Text Key="Chip.StarBombName" Value="스타봄" />
+  <Text Key="Chip.StarBombDesc" Value="십자로 분열하는,마법의 폭탄을,3칸 앞에 던진다!" />
+  <Text Key="Chip.StormName" Value="스톰" />
+  <Text Key="Chip.StormDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.StormXName" Value="스톰X" />
+  <Text Key="Chip.StormXDesc" Value="2칸 앞에,8연타하는,회오리를 발생시킨다" />
+  <Text Key="Chip.SwordName" Value="소드" />
+  <Text Key="Chip.SwordDesc" Value="눈 앞 세로 3칸을,넓은 검으로,재빠르게 벤다!" />
+  <Text Key="Chip.SwordOffGunName" Value="소드오프건" />
+  <Text Key="Chip.SwordOffGunDesc" Value="7연사격!,2칸 앞까지,방사형으로 퍼진다!" />
+  <Text Key="Chip.SynchroBodyName" Value="싱크로바디" />
+  <Text Key="Chip.SynchroBodyDesc" Value="잠깐 동안 받은,피해량을 모든,적과 공유한다!" />
+  <Text Key="Chip.TankmanV1Name" Value="탱크맨" />
+  <Text Key="Chip.TankmanV1Desc" Value="기관총을 발사한 뒤,직진하는 포탄,탱크 캐논 발포!" />
+  <Text Key="Chip.TankmanV2Name" Value="탱크맨V2" />
+  <Text Key="Chip.TankmanV2Desc" Value="기관총을 발사한 뒤,직진하는 포탄,탱크 캐논 발포!" />
+  <Text Key="Chip.TankmanV3Name" Value="탱크맨V3" />
+  <Text Key="Chip.TankmanV3Desc" Value="기관총을 발사한 뒤,직진하는 포탄,탱크 캐논 발포!" />
+  <Text Key="Chip.TankmanXName" Value="탱크맨X" />
+  <Text Key="Chip.TankmanXDesc" Value="기관총을 발사한 뒤,직진하는 포탄,탱크 캐논 발포!" />
+  <Text Key="Chip.ThujigiriCrossName" Value="깜짝크로스" />
+  <Text Key="Chip.ThujigiriCrossDesc" Value="2칸 앞까지 뛰어들어서,검으로 Ｘ자로 벤다!,중심에 있으면 2연타" />
+  <Text Key="Chip.ThujigiriSwordName" Value="깜짝소드" />
+  <Text Key="Chip.ThujigiriSwordDesc" Value="2칸 앞까지 뛰어들어서,넓은 검으로,세로 3칸을 벤다!" />
+  <Text Key="Chip.ThujigiriSwordXName" Value="깜짝소드X" />
+  <Text Key="Chip.ThujigiriSwordXDesc" Value="2칸 앞까지 뛰어들어서,넓은 검으로,세로 3칸을 벤다!" />
+  <Text Key="Chip.ThunderRoadName" Value="썬더로드" />
+  <Text Key="Chip.ThunderRoadDesc" Value="서 있는 가로열을,썬더 패널로,바꾼다!" />
+  <Text Key="Chip.ThunderStageName" Value="썬더스테이지" />
+  <Text Key="Chip.ThunderStageDesc" Value="모든 패널들을,썬더 패널로,바꾼다!!" />
+  <Text Key="Chip.TimeStopperName" Value="타임스톱퍼" />
+  <Text Key="Chip.TimeStopperDesc" Value="칩의 뒤에 선택하면,사용하는 동안,시간이 멈춘다!" />
+  <Text Key="Chip.TomahawkName" Value="토마호크" />
+  <Text Key="Chip.TomahawkDesc" Value="중앙 열에서는 왕복하고,외곽에서는 외곽을 휩쓰는,토마호크를 던진다" />
+  <Text Key="Chip.TomahawkXName" Value="토마호크X" />
+  <Text Key="Chip.TomahawkXDesc" Value="중앙 열에서는 왕복하고,외곽에서는 외곽을 휩쓰는,토마호크를 던진다" />
+  <Text Key="Chip.TortoiseManV1Name" Value="토터스맨" />
+  <Text Key="Chip.TortoiseManV1Desc" Value="제일 가까운 적이,있는 열과 그 뒷쪽 열까지,머드 웨이브!" />
+  <Text Key="Chip.TortoiseManV2Name" Value="토터스맨V2" />
+  <Text Key="Chip.TortoiseManV2Desc" Value="제일 가까운 적이,있는 열과 그 뒷쪽 열까지,머드 웨이브!" />
+  <Text Key="Chip.TortoiseManV3Name" Value="토터스맨V3" />
+  <Text Key="Chip.TortoiseManV3Desc" Value="제일 가까운 적이,있는 열과 그 뒷쪽 열까지,머드 웨이브!" />
+  <Text Key="Chip.TortoiseManXName" Value="토터스맨X" />
+  <Text Key="Chip.TortoiseManXDesc" Value="제일 가까운 적이,있는 열과 그 뒷쪽 열까지,머드 웨이브!" />
+  <Text Key="Chip.TrapNetName" Value="트랩넷" />
+  <Text Key="Chip.TrapNetDesc" Value="밟으면 움직일 수,없게 되는 거미줄을,3칸 앞에 설치한다" />
+  <Text Key="Chip.TripleRodName" Value="돌로드" />
+  <Text Key="Chip.TripleRodDesc" Value="한 칸씩 뻗어 나가며,3연타 공격하는,서번트의 창!" />
+  <Text Key="Chip.TwinHeroinesName" Value="트윈히로인즈" />
+  <Text Key="Chip.TwinHeroinesDesc" Value="샹하이와 요리히메가,모든 적을 향해,미친 연속 공격!" />
+  <!-- ウツホ -->
+  <Text Key="Chip.UthuhoV1Name" Value="우츠호" />
+  <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
+  <Text Key="Chip.UthuhoV1Desc" Value="세로 3칸 범위에,중심은 브레이크 판정의,버스트 레이븐!" />
+  <!-- ウツホV2 -->
+  <Text Key="Chip.UthuhoV2Name" Value="우츠호V2" />
+  <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
+  <Text Key="Chip.UthuhoV2Desc" Value="세로 3칸 범위에,중심은 브레이크 판정의,버스트 레이븐!" />
+  <!-- ウツホV3 -->
+  <Text Key="Chip.UthuhoV3Name" Value="우츠호V3" />
+  <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
+  <Text Key="Chip.UthuhoV3Desc" Value="세로 3칸 범위에,중심은 브레이크 판정의,버스트 레이븐!" />
+  <Text Key="Chip.WhiteCardName" Value="화이트카드" />
+  <Text Key="Chip.WhiteCardDesc" Value="사용하면 폴더 안에 있는,공격 칩 2장으로,칩이 변화한다!" />
+  <Text Key="Chip.WhiteSuzuranName" Value="흰색은방울꽃" />
+  <Text Key="Chip.WhiteSuzuranDesc" Value="바로 앞에,독을 내뿜는,은방울꽃이 출현한다!" />
+  <Text Key="Chip.YorihimeV1Name" Value="요리히메" />
+  <Text Key="Chip.YorihimeV1Desc" Value="앞에 있는 적에게 접근하여,다양한 종류의 소드로,3연참!" />
+  <Text Key="Chip.YorihimeV2Name" Value="요리히메V2" />
+  <Text Key="Chip.YorihimeV2Desc" Value="앞에 있는 적에게 접근하여,다양한 종류의 소드로,4연참!" />
+  <Text Key="Chip.YorihimeV3Name" Value="요리히메V3" />
+  <Text Key="Chip.YorihimeV3Desc" Value="앞에 있는 적에게 접근하여,다양한 종류의 소드로,5연참!" />
+  <Text Key="Chip.YorihimeXName" Value="요리히메X" />
+  <Text Key="Chip.YorihimeXDesc" Value="앞에 있는 적에게 접근하여,다양한 종류의 소드로,3연참!" />
+  <!-- ヨウム -->
+  <Text Key="Chip.YoumuV1Name" Value="요우무" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuV1Desc" Value="앞에 있는 적 하나에게,중심에서 2연타하는,거합 십자베기!" />
+  <!-- ヨウムV2 -->
+  <Text Key="Chip.YoumuV2Name" Value="요우무V2" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuV2Desc" Value="앞에 있는 적 하나에게,중심에서 2연타하는,거합 십자베기!" />
+  <!-- ヨウムV3 -->
+  <Text Key="Chip.YoumuV3Name" Value="요우무V3" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuV3Desc" Value="앞에 있는 적 하나에게,중심에서 2연타하는,거합 십자베기!" />
+  <!-- ヨウムX -->
+  <Text Key="Chip.YoumuXName" Value="요우무X" />
+  <!-- 前方の敵１体に中心２ヒットの居合十字斬！ -->
+  <Text Key="Chip.YoumuXDesc" Value="앞에 있는 적 하나에게,중심에서 2연타하는,거합 십자베기!" />
+  <Text Key="Chip.DruidManV1Name" Value="드루이드맨" />
+  <Text Key="Chip.DruidManV1Desc" Value="모든 적에게서,체력을 앗아가는,베놈 드레인!" />
+  <Text Key="Chip.DruidManV2Name" Value="드루이드맨V2" />
+  <Text Key="Chip.DruidManV2Desc" Value="모든 적에게서,체력을 앗아가는,베놈 드레인!" />
+  <Text Key="Chip.DruidManV3Name" Value="드루이드맨V3" />
+  <Text Key="Chip.DruidManV3Desc" Value="모든 적에게서,체력을 앗아가는,베놈 드레인!" />
+  <Text Key="Chip.DruidManXName" Value="드루이드맨X" />
+  <Text Key="Chip.DruidManXDesc" Value="모든 적에게서,체력을 앗아가는,베놈 드레인!" />
+  <Text Key="Chip.ZeroKnuckleName" Value="카게로우클로" />
+  <Text Key="Chip.ZeroKnuckleDesc" Value="바로 앞 칸을 너클로,공격하여 적에게서,칩을 빼앗는다!" />
+  <Text Key="Chip.ZSaberName" Value="돌세이버" />
+  <Text Key="Chip.ZSaberDesc" Value="가로 2칸을 3번,연속으로 베어가르는,서번트의 무구!" />
+  <Text Key="Chip.VrsBall1Name" Value="바이러스볼1" />
+  <Text Key="Chip.VrsBall1Desc" Value="이걸로 막타를,치면 바이러스를,포획하는 볼" />
+  <Text Key="Chip.VrsBall1FilledDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+  <Text Key="Chip.VrsBall2Name" Value="바이러스볼2" />
+  <Text Key="Chip.VrsBall2Desc" Value="이걸로 막타를,치면 바이러스를,포획하는 볼" />
+  <Text Key="Chip.VrsBall2FilledDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+  <Text Key="Chip.VrsBall3Name" Value="바이러스볼3" />
+  <Text Key="Chip.VrsBall3Desc" Value="이걸로 막타를,치면 바이러스를,포획하는 볼" />
+  <Text Key="Chip.VrsBall3FilledDesc" Value="바로 앞에 있는 칸에,3턴 동안 원호해 주는,바이러스를 소환한다!" />
+
+  <Text Key="Chip.DarkFlaeName" Value="다크플레어건" />
+  <Text Key="Chip.DarkFlaeDesc" Value="그대의 적을,작열지옥의 불꽃으로,정화할지어다" />
+  <Text Key="Chip.MimaDSName" Value="미마DS" />
+  <Text Key="Chip.MimaDSDesc" Value="그녀의 어둠에,범벅이 된 채로,죽음을 맞이할지니" />
+  <Text Key="Chip.RanDSName" Value="란DS" />
+  <Text Key="Chip.RanDSDesc" Value="어둠의 탄막으로,적들을 모조리,벌집으로 만들지니" />
+  <Text Key="Chip.YorihimeDSName" Value="요리히메DS" />
+  <Text Key="Chip.YorihimeDSDesc" Value="그랜드 브레이커로,흔적 하나 없이,모두 찢어버릴지니" />
+  <Text Key="Chip.UthuhoDSName" Value="우츠호DS" />
+  <Text Key="Chip.UthuhoDSDesc" Value="지옥의 업화로,모조리 잿더미로,만들지어다" />
+  <Text Key="Chip.FlandreDSName" Value="플랑드르DS" />
+  <Text Key="Chip.FlandreDSDesc" Value="그 어떠한 것도,그녀의 손아귀 안에서는,무력할 뿐일지니" />
+
+  <Text Key="Chip.ErrorName" Value="ERROR" />
+  <Text Key="Chip.ErrorDesc" Value="이 메시지가 사용되면 안 됨" />
+
+  <!-- Program Advance -->
+  <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line1" Value="배리어　　　　　B" />
+  <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line2" Value="파워오라　　　B" />
+  <Text Key="Chip.ProgramAdvanceAuraSlashCombo1Line3" Value="오라소드2　　B" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo1Line1" Value="순풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo1Line2" Value="역풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo1Line3" Value="콜드에어2　　　B" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo2Line1" Value="순풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo2Line2" Value="역풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo2Line3" Value="콜드에어2　　　I" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo3Line1" Value="순풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo3Line2" Value="역풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo3Line3" Value="콜드에어2　　　Q" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo4Line1" Value="순풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo4Line2" Value="역풍　　　　　　＊" />
+  <Text Key="Chip.ProgramAdvanceBigTyphoonCombo4Line3" Value="콜드에어2　　　U" />
+  <Text Key="Chip.ProgramAdvanceBioHazardCombo1Line1" Value="흰색은방울꽃　M" />
+  <Text Key="Chip.ProgramAdvanceBioHazardCombo1Line2" Value="해저드　　　　M" />
+  <Text Key="Chip.ProgramAdvanceBioHazardCombo1Line3" Value="메디슨V2　　　　M" />
+  <Text Key="Chip.ProgramAdvanceDisasterCrowCombo1Line1" Value="리프소드　　　　H" />
+  <Text Key="Chip.ProgramAdvanceDisasterCrowCombo1Line2" Value="낙엽웨이브2　　H" />
+  <Text Key="Chip.ProgramAdvanceDisasterCrowCombo1Line3" Value="백택맨V2　　　　H" />
+  <Text Key="Chip.ProgramAdvanceDrillBreakerCombo1Line1" Value="용궁드릴　　　　I" />
+  <Text Key="Chip.ProgramAdvanceDrillBreakerCombo1Line2" Value="일렉팽2　　　　I" />
+  <Text Key="Chip.ProgramAdvanceDrillBreakerCombo1Line3" Value="이쿠V2　　　　　I" />
+  <Text Key="Chip.ProgramAdvanceElementSwordCombo1Line1" Value="히트소드　　　　S" />
+  <Text Key="Chip.ProgramAdvanceElementSwordCombo1Line2" Value="리프소드　　　　S" />
+  <Text Key="Chip.ProgramAdvanceElementSwordCombo1Line3" Value="아이스소드　　　S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line1" Value="모래폭풍　　　　D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line2" Value="그래비티볼2　　D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo1Line3" Value="모래지옥2　　　D" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line1" Value="모래폭풍　　　　S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line2" Value="그래비티볼2　　S" />
+  <Text Key="Chip.ProgramAdvanceEndlessSaharaCombo2Line3" Value="모래지옥2　　　S" />
+  <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line1" Value="베놈샷　　　　　P" />
+  <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line2" Value="포이즌스테이지　P" />
+  <Text Key="Chip.ProgramAdvanceEXSprayGunCombo1Line3" Value="바이오스프레이2P" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line1" Value="일렉체인2　　　F" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line2" Value="자기폭풍　　　　F" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo1Line3" Value="패럴라이즈카세트＊" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line1" Value="일렉체인2　　　C" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line2" Value="자기폭풍　　　　C" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo2Line3" Value="패럴라이즈카세트＊" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line1" Value="일렉체인2　　　L" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line2" Value="자기폭풍　　　　L" />
+  <Text Key="Chip.ProgramAdvanceFlashBurnCombo3Line3" Value="패럴라이즈카세트＊" />
+  <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line1" Value="아이스소드　　　C" />
+  <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line2" Value="아이스스테이지　C" />
+  <Text Key="Chip.ProgramAdvanceFreezerSwordCombo1Line3" Value="치르노V2　　　　C" />
+  <Text Key="Chip.ProgramAdvanceGigaHalberdCombo1Line1" Value="실버나이프　　　L" />
+  <Text Key="Chip.ProgramAdvanceGigaHalberdCombo1Line2" Value="크로스소드　　　L" />
+  <Text Key="Chip.ProgramAdvanceGigaHalberdCombo1Line3" Value="나이트랜스　　　L" />
+  <Text Key="Chip.ProgramAdvanceHellsHockeyCombo1Line1" Value="셸아머2　　　　T" />
+  <Text Key="Chip.ProgramAdvanceHellsHockeyCombo1Line2" Value="라이프실드　　　T" />
+  <Text Key="Chip.ProgramAdvanceHellsHockeyCombo1Line3" Value="토터스맨V2　　　T" />
+  <Text Key="Chip.ProgramAdvanceHiCanonCombo1Line1" Value="레이건　　A" />
+  <Text Key="Chip.ProgramAdvanceHiCanonCombo1Line2" Value="레이건　　B" />
+  <Text Key="Chip.ProgramAdvanceHiCanonCombo1Line3" Value="레이건　　C" />
+  <Text Key="Chip.ProgramAdvanceHiMegaCanonCombo1Line1" Value="메가레이건　　B" />
+  <Text Key="Chip.ProgramAdvanceHiMegaCanonCombo1Line2" Value="메가레이건　　C" />
+  <Text Key="Chip.ProgramAdvanceHiMegaCanonCombo1Line3" Value="메가레이건　　D" />
+  <Text Key="Chip.ProgramAdvanceHyperSpannerCombo1Line1" Value="메가토마호크　　S" />
+  <Text Key="Chip.ProgramAdvanceHyperSpannerCombo1Line2" Value="메탈네이팜　　　S" />
+  <Text Key="Chip.ProgramAdvanceHyperSpannerCombo1Line3" Value="스패너맨V2　　　S" />
+  <Text Key="Chip.ProgramAdvanceJusticeReyCombo1Line1" Value="제로너클　　　　J" />
+  <Text Key="Chip.ProgramAdvanceJusticeReyCombo1Line2" Value="브레이크샷　　　J" />
+  <Text Key="Chip.ProgramAdvanceJusticeReyCombo1Line3" Value="다크스파크　　　J" />
+  <Text Key="Chip.ProgramAdvanceKishinCanonCombo1Line1" Value="시드캐논2　　　T" />
+  <Text Key="Chip.ProgramAdvanceKishinCanonCombo1Line2" Value="차지캐논2　　　T" />
+  <Text Key="Chip.ProgramAdvanceKishinCanonCombo1Line3" Value="탱크맨V2　　　　T" />
+  <Text Key="Chip.ProgramAdvanceMassDriverCombo1Line1" Value="큐브　　　　　　T" />
+  <Text Key="Chip.ProgramAdvanceMassDriverCombo1Line2" Value="메탈큐브　　　　T" />
+  <Text Key="Chip.ProgramAdvanceMassDriverCombo1Line3" Value="레일건2　　　　T" />
+  <Text Key="Chip.ProgramAdvanceMasterSparkCombo1Line1" Value="팔괘로2　　　　M" />
+  <Text Key="Chip.ProgramAdvanceMasterSparkCombo1Line2" Value="매지컬봄　　　　M" />
+  <Text Key="Chip.ProgramAdvanceMasterSparkCombo1Line3" Value="마리사V2　　　　M" />
+  <Text Key="Chip.ProgramAdvanceMasterStyleCombo1Line1" Value="파워오브어스　　E" />
+  <Text Key="Chip.ProgramAdvanceMasterStyleCombo1Line2" Value="엘레멘트오라　E" />
+  <Text Key="Chip.ProgramAdvanceMasterStyleCombo1Line3" Value="화이트카드　　　＊" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo1Line1" Value="나이프　L" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo1Line2" Value="소드　　L" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo1Line3" Value="랜스　　L" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line1" Value="나이프　S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line2" Value="소드　　S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo2Line3" Value="랜스　　S" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line1" Value="나이프　K" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line2" Value="소드　　K" />
+  <Text Key="Chip.ProgramAdvanceMegaHalberdCombo3Line3" Value="랜스　　＊" />
+  <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line1" Value="누관검　　　　　Y" />
+  <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line2" Value="백루검　　　　　Y" />
+  <Text Key="Chip.ProgramAdvanceMiraiEigouZanCombo1Line3" Value="요우무V2　　　　Y" />
+  <Text Key="Chip.ProgramAdvancePlantPrisonCombo1Line1" Value="몽키폴2　　　　P" />
+  <Text Key="Chip.ProgramAdvancePlantPrisonCombo1Line2" Value="낙엽웨이브2　　P" />
+  <Text Key="Chip.ProgramAdvancePlantPrisonCombo1Line3" Value="블라인드리프　　P" />
+  <Text Key="Chip.ProgramAdvanceRainAnchorCombo1Line1" Value="헤비앵커2　　　M" />
+  <Text Key="Chip.ProgramAdvanceRainAnchorCombo1Line2" Value="버블블래스트2　M" />
+  <Text Key="Chip.ProgramAdvanceRainAnchorCombo1Line3" Value="무라사V2　　　　M" />
+  <Text Key="Chip.ProgramAdvanceSathujinDollCombo1Line1" Value="실버나이프　　　S" />
+  <Text Key="Chip.ProgramAdvanceSathujinDollCombo1Line2" Value="타임스톱퍼　　　＊" />
+  <Text Key="Chip.ProgramAdvanceSathujinDollCombo1Line3" Value="사쿠야V2　　　　S" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line1" Value="체인건2　　　　L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line2" Value="차지캐논2　　　L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo1Line3" Value="샷건2　　　　　L" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line1" Value="체인건2　　　　T" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line2" Value="차지캐논2　　　T" />
+  <Text Key="Chip.ProgramAdvanceSwordOffGunCombo2Line3" Value="샷건2　　　　　T" />
+  <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line1" Value="브레이브소드　　Y" />
+  <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line2" Value="나이트랜스　　　Y" />
+  <Text Key="Chip.ProgramAdvanceTwinHeroinesCombo1Line3" Value="요리히메V2　　　Y" />
+  <Text Key="Chip.ProgramAdvanceBeastBreathCombo1Line1" Value="어스웨이브　　　G" />
+  <Text Key="Chip.ProgramAdvanceBeastBreathCombo1Line2" Value="굴삭드릴2　　　G" />
+  <Text Key="Chip.ProgramAdvanceBeastBreathCombo1Line3" Value="다크브레스　　　G" />
+  <Text Key="Chip.ProgramAdvanceDreamMeteoCombo1Line1" Value="데스와이퍼2　　W" />
+  <Text Key="Chip.ProgramAdvanceDreamMeteoCombo1Line2" Value="팔괘로2　　　　W" />
+  <Text Key="Chip.ProgramAdvanceDreamMeteoCombo1Line3" Value="다크오라　　　W" />
+  <Text Key="Chip.ProgramAdvanceFalBreazerCombo1Line1" Value="열풍　　　　　　F" />
+  <Text Key="Chip.ProgramAdvanceFalBreazerCombo1Line2" Value="플로트배리어　　F" />
+  <Text Key="Chip.ProgramAdvanceFalBreazerCombo1Line3" Value="다크허리케인　　F" />
+  <Text Key="Chip.ProgramAdvanceInfiniteHandsCombo1Line1" Value="섀도우바디　　　N" />
+  <Text Key="Chip.ProgramAdvanceInfiniteHandsCombo1Line2" Value="패널슛2　　　　N" />
+  <Text Key="Chip.ProgramAdvanceInfiniteHandsCombo1Line3" Value="다크리페어　　　N" />
+  <Text Key="Chip.ProgramAdvanceProtonThunderCombo1Line1" Value="탄막발칸　　　　P" />
+  <Text Key="Chip.ProgramAdvanceProtonThunderCombo1Line2" Value="메가플레어건　　P" />
+  <Text Key="Chip.ProgramAdvanceProtonThunderCombo1Line3" Value="다크팽　　　　　P" />
+
+</data>
