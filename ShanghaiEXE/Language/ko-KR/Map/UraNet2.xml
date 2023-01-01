@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ウラインターネット２ -->
   <Text Key="Map.UraNet2Name" Value="우라 인터넷 2" />
-  <Text Key="Map.UraNet2RandomBattle1Enemy1" Value="양아치 내비" />
-  <Text Key="Map.UraNet2RandomBattle1Enemy2" Value="양아치 내비" />
-  <Text Key="Map.UraNet2RandomBattle2Enemy1" Value="양아치 내비" />
+  <Text Key="Map.UraNet2RandomBattle1Enemy1" Value="양아치내비" />
+  <Text Key="Map.UraNet2RandomBattle1Enemy2" Value="양아치내비" />
+  <Text Key="Map.UraNet2RandomBattle2Enemy1" Value="양아치내비" />
   <!-- ひゃぁぁぁぁあああ！！ -->
   <Dialogue Key="Map.UraNet2Chapter3EventsStage1Dialogue1FaceNone" Value="히야아아아아아아악!!" Face="None" Mono="False" />
   <!-- あ？ -->
