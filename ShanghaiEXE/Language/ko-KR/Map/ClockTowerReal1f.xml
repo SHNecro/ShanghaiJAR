@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.ClockTowerReal1fName" Value="시계탑 내부 1층" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue1FaceNone" Value="일반인이 지나갈 수 없게 하는,두꺼운 문이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage1Dialogue2FaceNone" Value="이 문은 의외로,신소재로 만들어졌다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage3Dialogue1FaceAlice" Value="이 문을 열지 않으면 리글이....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fDoorStage3Dialogue2FaceShanghai" Value="안에 들어가서,잽싸게 보안을 해제하고 올게!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage1Dialogue1FaceNone" Value="이 방의 보안을,제어하는 컨트롤 패널이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage1Dialogue2FaceNone" Value="액세스 락이 걸려 있어서,플러그인할 수가 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue1FaceNone" Value="이 방의 보안을,제어하는 컨트롤 패널이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControlDeviceStage3Dialogue2FaceNone" Value="지금은 액세스 락이 풀려 있어서,플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue1FaceAlice" Value="이 문을 열지 않으면 리글이....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fControllerPluginStage1Dialogue2FaceShanghai" Value="안에 들어가서,잽싸게 보안을 해제하고 올게!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue1" Value="엥겔레스의 역사의 상징인,시계탑에 오신 걸 환영합니다!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue2" Value="물론，저희 잉겔레스인이나,역사 속에서는 단순하게,“시계탑”이라고만 불리지만요." Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue3" Value="평소에 이 문은 잠겨 있지만,최근에 정비 및 사건 조사,목적으로 문을 열어 놓았습니다." Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourGuideDialogue4" Value="주변을 둘러보는 건 상관없지만,윗층에는 올라가지 않도록,해 주세요." Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist1Dialogue1" Value="역사를 느낄 수 있는 장소구나...." Face="FemaleOld" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist2Dialogue1" Value="기념품점은 보이지 않네...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist3Dialogue1" Value="모두들，단체로 움직여요!,가이드 아저씨 말대로，,위층에는 올라가지 마세요!" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist4Dialogue1" Value="이야...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.ClockTowerReal1fPostgameTourist5Dialogue1" Value="그냥 벽돌로 만든,건물로밖에 안 보이는데...." Face="FemaleChild" Mono="False" />
+</data>
