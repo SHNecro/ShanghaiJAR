@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 手すりの電脳 -->
+  <Text Key="Map.TesuriName" Value="난간의 전뇌" />
+  <!-- ココニアル　ソウチヲ　ツカウトカイテイニアル　デンノウセカイニアクセス　デキマスヨ -->
+  <Dialogue Key="Map.TesuriSprite1Stage1Dialogue1FaceSprite" Value="여기 있는 장치를 사용하면,해저에 있는 전뇌 세계에,접속할 수 있어요." Face="Sprite" Mono="False" />
+  <!-- カイテイサンポノキブンヲ　アジワオウ！ -->
+  <Dialogue Key="Map.TesuriSprite1Stage1Dialogue2FaceSprite" Value="해저를 산책하는,기분을 느껴 보세요!" Face="Sprite" Mono="False" />
+  <!-- サルベージプログラムの座標を変更します -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue1FaceNone" Value="샐비지 프로그램의,좌표를 변경합니다." Face="None" Mono="False" />
+  <!-- Ｘ座標を入力してください -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue2NumsetFaceNone" Value="X 좌표를 입력해 주십시오." Face="None" Mono="False" />
+  <!-- Ｙ座標を入力してください -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue3NumsetFaceNone" Value="Y 좌표를 입력해 주십시오." Face="None" Mono="False" />
+  <!-- ワープの座標をＸ−#v@36#　Ｙ−#v@37#にセットしました -->
+  <Dialogue Key="Map.TesuriSalvageDeviceStage1Dialogue4FaceNone" Value="워프의 좌표를,X - #v@36#　Y - #v@37#로,설정했습니다." Face="None" Mono="False" />
+</data>
