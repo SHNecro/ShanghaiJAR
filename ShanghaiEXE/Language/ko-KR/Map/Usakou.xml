@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.UsakouName" Value="우사 공의 동상의 전뇌" />
+  <Dialogue Key="Map.UsakouSprite1Stage1Dialogue1FaceSprite" Value="우사 공의 이야기는,영원 마을 내에서,꽤 유명합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UsakouSprite1Stage1Dialogue2FaceSprite" Value="그래서 영원 마을의,트레이드마크는,다름아닌 토끼랍니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage1Dialogue1FaceNaviPurplePunk" Value="여기는 애드온 파는 장소여." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage1Dialogue2QuestionFaceNaviPurplePunk" Value="애드온 함 봐 보실 겨?" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.UsakouAdd-onMerchantStage1Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.UsakouAdd-onMerchantStage2Dialogue1FaceNaviPurplePunk" Value="나중에 또 오게." Face="NaviPurplePunk" Mono="False" />
+</data>
