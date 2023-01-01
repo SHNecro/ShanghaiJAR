@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 中央街　東区 -->
+  <Text Key="Map.CenterccitySouthName" Value="중앙가 동구" />
+  <!-- おい！たかが不良にそこまでするのか？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue1FaceTsubakiNekku" Value="야! 겨우 불량아 상대로,이렇게까지 나올 거 있어?" Face="TsubakiNekku" Mono="False" />
+  <!-- 甘いわね奴らがＲＯＭが放ったテロリストの可能性もある -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue2FaceReisen" Value="무르군.,놈들이 ROM에서 보낸,테러리스트일 가능성도 있다." Face="Reisen" Mono="False" />
+  <!-- 先日も某国の高官が学生が扮するテロリストによって銃撃されるという事件が････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue3FaceReisen" Value="이전에도 어느 나라의 고위 관리가,학생으로 분장한 테러리스트에게,총격을 당했다는 사건이...." Face="Reisen" Mono="False" />
+  <!-- どう見ても違うでしょう！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue4FaceAlice" Value="아무리 봐도 아니잖아!" Face="Alice" Mono="False" />
+  <!-- それにこのロボットは何よ！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue5FaceAlice" Value="거기다 이 로봇은 또 뭐야!" Face="Alice" Mono="False" />
+  <!-- 素人に答える義理はない行くわよ　ヨリヒメ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue6FaceReisen" Value="아마추어한테 답할 의리는 없어.,가자，요리히메." Face="Reisen" Mono="False" />
+  <!-- イエス･マム -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage1Dialogue7FaceYorihime" Value="예스・맴." Face="Yorihime" Mono="False" />
+  <!-- き････消えた！？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue1FaceAlice" Value="사.... 사라졌어!?" Face="Alice" Mono="False" />
+  <!-- すっげえ････西ヨーリカ軍の新型機動兵器Ｇ７カーティスだ････！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue2FaceTsubakiNekku" Value="세상에....,서 유리카 군의 신형 기동 병기,G7 커티스다....!" Face="TsubakiNekku" Mono="False" />
+  <!-- 光学ステルスシステムも完成していたんだな････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue3FaceTsubakiNekku" Value="광학 스텔스 시스템도,완성되었구나...." Face="TsubakiNekku" Mono="False" />
+  <!-- 結局　何者だったのかしら････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue4FaceAlice" Value="그래서 결국 누구였지...." Face="Alice" Mono="False" />
+  <!-- 八意　鈴仙（やごころ れいせん） -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue5FaceShanghai" Value="야고코로 레이센." Face="Shanghai" Mono="False" />
+  <!-- 最年少ネットエージェントにしてトップクラスの凄腕････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue6FaceShanghai" Value="최연소 넷 에이전트로써,탑 클래스의 실력...." Face="Shanghai" Mono="False" />
+  <!-- ま、要するに天才のエリートさんねちょっと調べさせたら出てきたわ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue7FaceShanghai" Value="뭐，결국 까놓고 말해,천재 엘리트 씨구만.,좀 조사해 보니까 바로 나오네." Face="Shanghai" Mono="False" />
+  <!-- なんでそんな人がこんなところに････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue8FaceAlice" Value="왜 그런 사람이,이런 곳까지...." Face="Alice" Mono="False" />
+  <!-- それにしても　君ネットバトル強かったな！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue9FaceTsubakiNekku" Value="그건 그렇고 너,넷배틀 진짜 잘 하더라!" Face="TsubakiNekku" Mono="False" />
+  <!-- あたしの出来がいいからねぇ〜！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue10FaceShanghai" Value="내가 한 실력 하니까～!" Face="Shanghai" Mono="False" />
+  <!-- こらこら　調子に乗らないの -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue11FaceAlice" Value="자，자，너무 건방 떨지 말고." Face="Alice" Mono="False" />
+  <!-- っとありがとう　助けてくれてえっと････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue12FaceAlice" Value="아，고마워，도와 줘서.,그...." Face="Alice" Mono="False" />
+  <!-- 椿　でいいぜ君は？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue13FaceTsubakiNekku" Value="그냥 ”츠바키”라고만 불러.,네 이름은 뭔데?" Face="TsubakiNekku" Mono="False" />
+  <!-- 私　神綺アリスよろしくね -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue14FaceAlice" Value="난 신키 앨리스.,만나서 반가워." Face="Alice" Mono="False" />
+  <!-- よろしく！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue15FaceTsubakiNekku" Value="잘 부탁해!" Face="TsubakiNekku" Mono="False" />
+  <!-- 君　制服着てないってことは幻想中学校かな？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue16FaceTsubakiNekku" Value="교복을 안 입은 거 보니까,환상중학교 애구나?" Face="TsubakiNekku" Mono="False" />
+  <!-- えっと････そうだけど？どうして？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue17FaceAlice" Value="어，그.... 맞는데 그게 왜?" Face="Alice" Mono="False" />
+  <!-- いや　いいんだ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue18FaceTsubakiNekku" Value="아니，아무것도 아냐." Face="TsubakiNekku" Mono="False" />
+  <!-- じゃあ　またな！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue19FaceTsubakiNekku" Value="그러면 또 봐!" Face="TsubakiNekku" Mono="False" />
+  <!-- あ　ちょっと！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue20FaceAlice" Value="앗，잠깐만!" Face="Alice" Mono="False" />
+  <!-- またな････ってどういう意味かしら？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue21FaceShanghai" Value="또 보자니....,어떤 의미일까?" Face="Shanghai" Mono="False" />
+  <!-- さあ････？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue22FaceAlice" Value="글쎄....?" Face="Alice" Mono="False" />
+  <!-- 今日はもう疲れちゃったしお家に帰ろっか -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue23FaceAlice" Value="꽤 피곤해졌는데,이쯤해서 집에 돌아갈까?" Face="Alice" Mono="False" />
+  <!-- それもそうね明日は学校だし -->
+  <Dialogue Key="Map.CenterccitySouthChapter3G7CurtisStage3Dialogue24FaceShanghai" Value="그것도 그렇네.,내일은 또 학교 가야 하니까." Face="Shanghai" Mono="False" />
+  <!-- 本当だって！俺見たんだよ！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3ChildStage1Dialogue1FaceMaleChild" Value="진짜라니까!,나 진짜로 봤어!" Face="MaleChild" Mono="False" />
+  <!-- でっかいロボットが本当にいたんだって！アニメの話じゃないんだぜ！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3ChildStage1Dialogue2FaceMaleChild" Value="대따 큰 로봇이,진짜 있었다니까!,애니 이야기가 아니라고!" Face="MaleChild" Mono="False" />
+  <!-- あとでゲーセンでネットバトルしようぜ！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3ChildStage3Dialogue1FaceMaleChild" Value="나중에 오락실에서 넷배틀하자!" Face="MaleChild" Mono="False" />
+  <!-- こんなところにあるわけないだろう････ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3Child2Stage1Dialogue1FaceMaleStudent" Value="이런 데 있을 리가 없잖아...." Face="MaleStudent" Mono="False" />
+  <!-- 巨大ロボットなんて自衛隊くらいしか持ってないよ？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3Child2Stage1Dialogue2FaceMaleStudent" Value="거대 로봇 같은 건,방위군 같은 데밖에,보유한 데가 없잖아?" Face="MaleStudent" Mono="False" />
+  <!-- えー････ヤだよー絶対負けるもん -->
+  <Dialogue Key="Map.CenterccitySouthChapter3Child2Stage3Dialogue1FaceMaleStudent" Value="에이.... 싫어....～,어차피 내가 질 건데." Face="MaleStudent" Mono="False" />
+  <!-- 最近「不死鳥連合」を名乗る永遠町の不良がここらへんで問題ばかり起こしてるのよ -->
+  <Dialogue Key="Map.CenterccitySouthChapter3Female1Stage1Dialogue1FaceFemaleAdult" Value="최근에 ”불사조 연합”이라 불리는,영원 마을의 불량학생들이,이 주변에서 문제를 일으키고 있어." Face="FemaleAdult" Mono="False" />
+  <!-- ここでN1リーグが開かれるんだよな！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter4BoyStage1Dialogue1FaceMaleChild" Value="여기서 N1 리그가 개최된다는데!" Face="MaleChild" Mono="False" />
+  <!-- ネットバトルの大会があるみたいだけど実力がないからいいや -->
+  <Dialogue Key="Map.CenterccitySouthChapter4MaleStage1Dialogue1FaceMaleAdult" Value="넷배틀 대회가 있다는 것 같은데,실력이 없으니까 됐어." Face="MaleAdult" Mono="False" />
+  <!-- 最近のフォトプリチョー機能すごくってマジヤバイ感じ！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter5JKStage1Dialogue1FaceBlondeHairGalStudent" Value="최근의 포토 프린터는,아～쥬 기능성 쩔어 줘!,거의 위험한 수준이라니까!" Face="BlondeHairGalStudent" Mono="False" />
+  <!-- このチップショップアスタリスクコードのチップを売ってるんだよね -->
+  <Dialogue Key="Map.CenterccitySouthChapter5MenStage1Dialogue1FaceMaleStudent" Value="이 칩 샵에서는,애스터리스크 코드의,칩을 팔아." Face="MaleStudent" Mono="False" />
+  <!-- フォルダを全部アスタリスクにしたらチップ選び放題だね -->
+  <Dialogue Key="Map.CenterccitySouthChapter5MenStage1Dialogue2FaceMaleStudent" Value="폴더를 전부 애스터리스크,코드로만 채우면 칩을,원하는 대로 고를 수 있어." Face="MaleStudent" Mono="False" />
+  <!-- 港に行くんだったらこの駅から電車に乗るといいよ -->
+  <Dialogue Key="Map.CenterccitySouthChapter5SonStage1Dialogue1FaceMaleOld" Value="항구에 갈 거라면,이 역을 통해 전철을 타렴." Face="MaleOld" Mono="False" />
+  <!-- インターネットがやばい時は現実世界で遊ぶに限るぜ -->
+  <Dialogue Key="Map.CenterccitySouthChapter7ChildStage1Dialogue1FaceMaleChild" Value="인터넷이 위험한 때에는,현실세계에서 놀아야지." Face="MaleChild" Mono="False" />
+  <!-- という言い訳でゲームセンターに来るオイラなのであった -->
+  <Dialogue Key="Map.CenterccitySouthChapter7ChildStage1Dialogue2FaceMaleChild" Value="그런 고로,오락실에 온,나였다고 한다." Face="MaleChild" Mono="False" />
+  <!-- 海外出張の時はこの駅から空港に行くんだ -->
+  <Dialogue Key="Map.CenterccitySouthChapter7SonStage1Dialogue1FaceMaleOld" Value="해외에 출장 갈 때에는,이 역을 통해 공항에 가." Face="MaleOld" Mono="False" />
+  <!-- でも　空港の印象が薄くて気がついたら海外に到着してるイメージさ -->
+  <Dialogue Key="Map.CenterccitySouthChapter7SonStage1Dialogue2FaceMaleOld" Value="그래도 공항의 인상이 옅어서,정신이 들었을 즈음에는 이미,해외에 도착해 있다는 느낌이야." Face="MaleOld" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccitySouthChapter8RoboShieldStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체이다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccitySouthChapter8RoboShieldStage1Dialogue2FaceNone" Value="삼엄한 태도로,주위를 경계하고 있다." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccitySouthChapter8RoboBazookaStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체이다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccitySouthChapter8RoboBazookaStage1Dialogue2FaceNone" Value="도시 내 다른 것들과,전혀 어울리지 않아 보인다." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.CenterccitySouthChapter8RoboShieldDupeStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체이다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.CenterccitySouthChapter8RoboShieldDupeStage1Dialogue2FaceNone" Value="삼엄한 태도로,주위를 경계하고 있다." Face="None" Mono="False" />
+  <!-- 歩道に自動車が駐車してある -->
+  <Dialogue Key="Map.CenterccitySouthCar4Stage1Dialogue1FaceNone" Value="보도에 자동차가 주차되어 있다." Face="None" Mono="False" />
+  <!-- 放っておいたらレッカーで移動させられてしまうのだろうか -->
+  <Dialogue Key="Map.CenterccitySouthCar4Stage1Dialogue2FaceNone" Value="이대로 냅뒀다간 렉카차가 와서,끌고 갈 수도 있지 않나?" Face="None" Mono="False" />
+  <!-- 側面にプラグインの端子もある -->
+  <Dialogue Key="Map.CenterccitySouthCar4Stage1Dialogue3FaceNone" Value="옆면에 플러그인 단자도 있다." Face="None" Mono="False" />
+  <!-- 缶を捨てるゴミ箱だ -->
+  <Dialogue Key="Map.CenterccitySouthTrash1Stage1Dialogue1FaceNone" Value="캔을 버리는 쓰레기통이다." Face="None" Mono="False" />
+  <!-- 中は仕切りでわけられてペットボトルと缶が分別されて集められる -->
+  <Dialogue Key="Map.CenterccitySouthTrash1Stage1Dialogue2FaceNone" Value="안쪽이 칸막이로 나뉘어 있어서,페트병과 캔을 각기 다른 칸에,모으는 구성이다." Face="None" Mono="False" />
+  <!-- 自動販売機がある -->
+  <Dialogue Key="Map.CenterccitySouthRedVendingMachineStage1Dialogue1FaceNone" Value="자동판매기다." Face="None" Mono="False" />
+  <!-- ゲームセンターの前だからかジュースが多く並んでいる -->
+  <Dialogue Key="Map.CenterccitySouthRedVendingMachineStage1Dialogue2FaceNone" Value="오락실 앞에 있어서 그런지,쥬스 계열이 많이 진열되어 있다." Face="None" Mono="False" />
+  <!-- プラグイン端子もあるがイタズラでもされたのか壊されて使えない -->
+  <Dialogue Key="Map.CenterccitySouthRedVendingMachineStage1Dialogue3FaceNone" Value="플러그인 단자도 있는데,누가 장난을 쳐 놨는지,망가져 있어서 쓸 수 없다." Face="None" Mono="False" />
+  <!-- 道を塞ぐように自転車がひっそりと置かれている -->
+  <Dialogue Key="Map.CenterccitySouthBicycle1Stage1Dialogue1FaceNone" Value="자전거가 길을 막듯이,가만히 놓여져 있다." Face="None" Mono="False" />
+  <!-- どかそうと思ったが風雨にさらされギトギトで触りたくない････ -->
+  <Dialogue Key="Map.CenterccitySouthBicycle1Stage1Dialogue2FaceNone" Value="치워볼까 생각했는데,비바람을 맞아서 그런가,끈적끈적해서 만지기 싫다...." Face="None" Mono="False" />
+  <!-- サドルの辺りにかろうじて読める文字で０００５２１４９と書かれている気がする････ -->
+  <Dialogue Key="Map.CenterccitySouthBicycle1Stage1Dialogue3FaceNone" Value="안장 부근에 간신히 읽을 수 있는,문자로 00052149라고,써져 있는 느낌이 든다...." Face="None" Mono="False" />
+  <!-- リグルにネットバトルを申し込む？ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage1Dialogue1QuestionFaceShanghai" Value="리글한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CenterccitySouthBeetleBattleStage1Dialogue1Options" Value="예,아니오" />
+  <!-- いくよ　ビートルマン！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage1Dialogue2FaceWriggleHat" Value="가자，비틀맨!" Face="WriggleHat" Mono="False" />
+  <!-- やった！僕の勝ちだ！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage3Dialogue1FaceWriggleHat" Value="해냈다!,내가 이겼어!" Face="WriggleHat" Mono="False" />
+  <!-- アリス　次は負けないよ！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage5Dialogue1FaceWriggleHat" Value="앨리스，다음 번엔 안 져!" Face="WriggleHat" Mono="False" />
+  <!-- これが本気だ！ぶつかれ　ビートルマン！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage6Dialogue1FaceWriggleHat" Value="이게 내 진심이다!,격돌이야，비틀맨!" Face="WriggleHat" Mono="False" />
+  <!-- 姫様の勝利のために！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage6Dialogue2FaceBeetleMan" Value="공주님의 승리를 위해!" Face="BeetleMan" Mono="False" />
+  <!-- 目論見が見事に当たってくれたよ！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage8Dialogue1FaceWriggleHat" Value="계획대로 화려하게 들어맞았구나!" Face="WriggleHat" Mono="False" />
+  <!-- やっぱりアリスにはかなわないか〜〜！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage10Dialogue1FaceWriggleHat" Value="역시 앨리스는 쉽게,당해낼 수가 없네～～!" Face="WriggleHat" Mono="False" />
+  <!-- 僕はいつでも勝負に乗るよ！ -->
+  <Dialogue Key="Map.CenterccitySouthBeetleBattleStage11Dialogue1FaceWriggleHat" Value="난 언제든 준비되어 있어!" Face="WriggleHat" Mono="False" />
+  <!-- 電車で飛行場に行けば僕がＲＯＭの基地まで運んであげるよ！ -->
+  <Dialogue Key="Map.CenterccitySouthChapter8WriggleStage1Dialogue1FaceWriggleHat" Value="전철을 타고 비행장에 가면,내가 ROM 기지까지,데려다 줄게!" Face="WriggleHat" Mono="False" />
+  <!-- それとも　乗り込む前にネットバトルでもするかい？ -->
+  <Dialogue Key="Map.CenterccitySouthChapter8WriggleStage1Dialogue2FaceWriggleHat" Value="아니면 타기 전에,넷배틀이라도 할래?" Face="WriggleHat" Mono="False" />
+  <!-- 幻想線の駅だが今は乗る必要がない -->
+  <Dialogue Key="Map.CenterccitySouthToTheStationStage1Dialogue1FaceNone" Value="환상선의 역이지만,지금은 탈 필요가 없다." Face="None" Mono="False" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.CenterccitySouthToTheStationStage3Dialogue1QuestionFaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- 港（豪華客船セイレーン）乗らない -->
+  <Text Key="Map.CenterccitySouthToTheStationStage3Dialogue1Options" Value="항구 (호화 여객선 세이렌),안 탄다" />
+  <!-- どこへ行きますか？ -->
+  <Dialogue Key="Map.CenterccitySouthToTheStationStage5Dialogue1FaceNone" Value="어디로 향하시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.CenterccitySouthToTheStationStage5Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- 港（豪華客船セイレーン）空港（インゲレス）乗らない -->
+  <Text Key="Map.CenterccitySouthToTheStationStage5Dialogue2Options" Value="항구 (호화 여객선 세이렌),공항 (잉겔레스),안 탄다" />
+  <!-- どこへ行きますか？ -->
+  <Dialogue Key="Map.CenterccitySouthToTheStationStage7Dialogue1FaceNone" Value="어디로 향하시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.CenterccitySouthToTheStationStage7Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- 港（豪華客船セイレーン）空港（インゲレス）飛行場（ＲＯＭの基地） -->
+  <Text Key="Map.CenterccitySouthToTheStationStage7Dialogue2Options" Value="항구 (호화 여객선 세이렌),공항 (잉겔레스),비행장 (ROM 기지)" />
+  <!-- 地下道　工事中と書かれている -->
+  <Dialogue Key="Map.CenterccitySouthToUndergroundAisleStage1Dialogue1FaceNone" Value="지하도 공사중,이라고 써져 있다." Face="None" Mono="False" />
+  <!-- 地下通路を通って西区まで行くの？ -->
+  <Dialogue Key="Map.CenterccitySouthToUndergroundAisleStage3Dialogue1QuestionFaceShanghai" Value="지하도를 타고 서구까지 갈까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CenterccitySouthToUndergroundAisleStage3Dialogue1Options" Value="그래,아니" />
+  <Dialogue Key="Map.CentercitySouthPostGameBystander1Dialogue1" Value="이 넷배틀에서 진 쪽이,칩 한 장 쏘는 거다!" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.CentercitySouthPostGameBystander2Dialogue1" Value="그렇게 말해 놓고,너 맨날 지기만 하잖아." Face="MaleGlassesStudent" Mono="False" />
+  <Dialogue Key="Map.CentercitySouthPostGameBystander3Dialogue1" Value="오락실에서 남친을,기다리고 있어～" Face="BlondeHairGalStudent" Mono="False" />
+  <Dialogue Key="Map.CentercitySouthPostGameBystander3Dialogue2" Value="남친이랑 넷배틀하는 게,우리 데이트하는 거야～" Face="BlondeHairGalStudent" Mono="False" />
+</data>
