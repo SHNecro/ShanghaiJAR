@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔　最上部 -->
+  <Text Key="Map.ClockTowerReal5fName" Value="시계탑 최상부" />
+  <!-- き　来たわよ！リグル君を解放しなさい！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue1FaceAlice" Value="자，왔어!,리글을 풀어 줘!" Face="Alice" Mono="False" />
+  <!-- シザーマンめ　やられるとは情けないネットナビだ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue2FaceScissorManOpTarakhan" Value="시저맨 녀석，당해 버리다니，,한심한 내비로군." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- まあ良いだろうペンダントをこちらによこしてもらおうか -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue3FaceScissorManOpTarakhan" Value="뭐，괜찮겠지.,이 쪽으로 펜던트를,넘겨 주실까." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ････これよ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage1Dialogue4FaceAlice" Value="자.... 여기 있어!" Face="Alice" Mono="False" />
+  <!-- ････ちゃんと本物のようだな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue1FaceScissorManOpTarakhan" Value="....확실히 진품인 모양이군." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 約束よ！リグル君を返して！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue2FaceAlice" Value="약속했지!,이제 리글을 돌려 줘!" Face="Alice" Mono="False" />
+  <!-- おっとまだ返すわけにはいかないな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue3FaceScissorManOpTarakhan" Value="어이쿠，아직 돌려줄 순 없지." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- なっ！？や　約束と違うじゃない！！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue4FaceAlice" Value="뭣!?,야，약속했던 거랑 다르잖아!!" Face="Alice" Mono="False" />
+  <!-- 男なら約束くらい守りなさいよ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue5FaceShanghai" Value="남자라면 약속 정도는 지키라고!" Face="Shanghai" Mono="False" />
+  <!-- 何とでも言うがいいここまでは組織の仕事 -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue6FaceScissorManOpTarakhan" Value="원하는 대로 떠벌이시지.,여기까지는 조직의 일이니까." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ここからは　私個人の問題に移らせてもらおうか -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue7FaceScissorManOpTarakhan" Value="여기서부터는 내 개인 문제로,넘어가도록 할까." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- それにしてもリグル　とはね -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue8FaceScissorManOpTarakhan" Value="그건 그렇고 ”리글”이라고 했지." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 本当の名を友人に教えないとは薄情な奴だな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue9FaceScissorManOpTarakhan" Value="친구한테 진짜 이름을,알려주지 않다니,참 박정한 녀석이로군." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- リグル君の本当の名前････？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue10FaceAlice" Value="리글의 진짜 이름....?" Face="Alice" Mono="False" />
+  <!-- おやおや　コイツのことを何も知らないのか？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue11FaceScissorManOpTarakhan" Value="이런 이런，이 녀석에 대해서,정말 아무것도 모른다는 건가?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 良いだろうゲームの景品がわりに教えてようじゃないか -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue12FaceScissorManOpTarakhan" Value="좋아.,게임의 경품이라 생각하고,사실을 이야기해 주지." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- こいつの本当の名はリグﾚｯﾄ･ﾅｲツバーグ･ｲンセクタ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue13FaceScissorManOpTarakhan" Value="이 놈의 진짜 이름은,리그릿･나이츠버그･인섹터." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- インセクタ王国の王族それも次期王位継承者だ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue14FaceScissorManOpTarakhan" Value="인섹터 왕국의 왕족，그것도,차기 왕위 계승자다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- リグル君が････王族！？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue15FaceAlice" Value="리글이.... 왕족!?" Face="Alice" Mono="False" />
+  <!-- 私の家もかつてはインセクタ王国の王族だったのだがな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue16FaceScissorManOpTarakhan" Value="우리 가문도 과거에는,인섹터 왕국의,왕족이었지만...." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- コイツの祖父が起こした革命により　私の一族はその権利をはく奪されてな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue17FaceScissorManOpTarakhan" Value="이 녀석의 조부가 일으킨,혁명 때문에 내 일족이,그 권리를 박탈당해서 말이야." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- なるほど　それで僕を消せば復讐になるというわけか････ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue18FaceWriggleHat" Value="그렇군，그래서 날 없애는 걸로,복수를 이루려 했다 이거냐...." Face="WriggleHat" Mono="False" />
+  <!-- でもそれってリグル君本人は関係ないじゃない！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue19FaceAlice" Value="그래도 그건 리글 본인과는,관계가 없는 일이잖아!" Face="Alice" Mono="False" />
+  <!-- 血　というものは凡人が思う以上に大切なものなのだよ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue20FaceScissorManOpTarakhan" Value="일반인들은 절대 몰라.,피라는 게 얼마나,중요한 건지를 말이다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ククク　さようならだリグレット -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage3Dialogue21FaceScissorManOpTarakhan" Value="크크크，작별이다，리그릿." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- アリス！！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage5Dialogue1FaceWriggleHat" Value="앨리스!!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君！！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage5Dialogue2FaceAlice" Value="리그을!!" Face="Alice" Mono="False" />
+  <!-- ぐっ････！？銃が！？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage7Dialogue1FaceScissorManOpTarakhan" Value="그윽....!?, 총이!?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 一体何が････？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage7Dialogue2FaceAlice" Value="대체 무슨 일이....?" Face="Alice" Mono="False" />
+  <!-- アリス　上よ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage7Dialogue3FaceShanghai" Value="앨리스，위쪽이야!" Face="Shanghai" Mono="False" />
+  <!-- 約束を破り人質に発砲とは変わらないな　タラカーン -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue1FaceReisen" Value="약속도 어기고 인질에게 발포라니,예나 지금이나 변함 없군，타라칸." Face="Reisen" Mono="False" />
+  <!-- 貴様は････砂漠の首刈り兎か！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue2FaceScissorManOpTarakhan" Value="네놈은....,사막의 살인토끼!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- その名は捨てた今はネットエージェントの八意鈴仙だ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue3FaceReisen" Value="그 이름은 버렸어.,지금은 넷 에이전트의,야고코로 레이센이다." Face="Reisen" Mono="False" />
+  <!-- なぜここにいる！内部のセキュリティは完璧だったはずだ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue4FaceScissorManOpTarakhan" Value="왜 이 곳에 있는 거지!,내부의 보안 상태는,완벽했을 텐데!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さすがの貴様も外壁をよじ登ることまでは予想できなかったようだな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue5FaceReisen" Value="제아무리 네놈이라도,외벽을 타고 기어오르는 것까지는,예상 못 했던 모양이군." Face="Reisen" Mono="False" />
+  <!-- バカな････！？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue6FaceScissorManOpTarakhan" Value="이 무슨....!?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- タラカーン　貴様がＲＯＭの構成員になっていたとは堕ちたものだな -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue7FaceReisen" Value="타라칸，네녀석이 ROM의,구성원이 되었을 줄이야.,타락해 버렸군." Face="Reisen" Mono="False" />
+  <!-- 手段を選んでいられない事情があるのだよ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage9Dialogue8FaceScissorManOpTarakhan" Value="수단 방법 가리지 않을,사정이 있었단 말이다!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ････ありがとう助けてくれて -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue1FaceWriggleHat" Value="....고마워. 살려 줘서." Face="WriggleHat" Mono="False" />
+  <!-- 話は後です今はこの男を -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue2FaceReisen" Value="이야기는 나중에 하죠.,우선은 이 남자부터." Face="Reisen" Mono="False" />
+  <!-- タラカーン貴様を逮捕し　ＲＯＭの情報を吐いてもらうぞ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue3FaceReisen" Value="타라칸.,네놈을 체포해서 ROM에 대한,정보를 뜯어내 주겠다." Face="Reisen" Mono="False" />
+  <!-- クハハハ････！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue4FaceScissorManOpTarakhan" Value="크하하하....!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- リグレットを殺し損ねたがこちらの第一目標は達成済みだ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage11Dialogue5FaceScissorManOpTarakhan" Value="리그릿을 죽일 수는 없었지만,이 쪽의 첫번째 목표는,이미 달성했다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 次に会うときは････容赦せんぞ！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage13Dialogue1FaceScissorManOpTarakhan" Value="다음 번에 만날 때에는....,봐 주는 것 따위,없을 줄 알아라!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ････目くらましに乗じてハンググライダーで逃亡か -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage15Dialogue1FaceReisen" Value="....시야가 가려진 틈을 타,행글라이더로 도망쳤나." Face="Reisen" Mono="False" />
+  <!-- 奴の目的は阻止できなかったが最悪の事態は免れたわね -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue1FaceReisen" Value="놈의 목적을 저지할 순 없었지만,최악의 사태는 면했군." Face="Reisen" Mono="False" />
+  <!-- ねえ鈴仙あなた本当にこの時計塔を登ってきたの？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue2FaceAlice" Value="레이센，너 진짜로,이 시계탑을 타고 올라왔어?" Face="Alice" Mono="False" />
+  <!-- この程度の高さ敵から逃亡しつつ重装備で断崖をよじ登るより簡単よ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue3FaceReisen" Value="이 정도의 높이야 중장비를 메고,절벽을 기어오르면서 적에게서,도망치던 거에 비해서는 간단하지." Face="Reisen" Mono="False" />
+  <!-- ････もうさすがにツッコミきれないわ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage17Dialogue4FaceShanghai" Value="....역시 이 이상,딴지를 걸 수가 없다." Face="Shanghai" Mono="False" />
+  <!-- ごめんね　アリス僕が王族だって黙っていて････ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue1FaceWriggleHat" Value="미안해，앨리스.,내가 왕족이었던 걸,숨기고 있어서...." Face="WriggleHat" Mono="False" />
+  <!-- そ　そんなの気にしないわ！リグル君はリグル君だもの！ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue2FaceAlice" Value="그，그런 거 신경 안 써!,리글은 이러니저러니 해도,리글이니까!" Face="Alice" Mono="False" />
+  <!-- ････ちょっとビックリしたけどね -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue3FaceAlice" Value="....좀 놀라긴 했지만 말야." Face="Alice" Mono="False" />
+  <!-- お身体が問題無ければこの後の記念式典の準備を致しましょう -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue4FaceReisen" Value="옥체에 문제가 없다면,이 뒤에 있을 기념 축전의,준비를 하도록 하죠...." Face="Reisen" Mono="False" />
+  <!-- ････リグレット姫様 -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue5FaceReisen" Value="....리그릿 공주님." Face="Reisen" Mono="False" />
+  <!-- え････？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue6FaceAlice" Value="어....?" Face="Alice" Mono="False" />
+  <!-- 姫？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue7FaceShanghai" Value="공주님?" Face="Shanghai" Mono="False" />
+  <!-- ええぇぇぇぇーーーーー！！？？ -->
+  <Dialogue Key="Map.ClockTowerReal5fEventStage19Dialogue8FaceAlice" Value="뭐어어어어어～～～～～!!??" Face="Alice" Mono="False" />
+</data>
