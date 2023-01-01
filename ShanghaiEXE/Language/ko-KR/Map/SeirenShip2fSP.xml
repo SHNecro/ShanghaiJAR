@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.SeirenShip2fSPName" Value="호화 여객선 세이렌 2층 전시실" />
+  <Dialogue Key="Map.SeirenShip2fSPReisenStage1Dialogue1FaceReisen" Value="비행 전함을 보고 있자니,추억이 떠오르는군...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPReisenStage1Dialogue2FaceReisen" Value="적 게릴라 군이 노획해서 쓰던,비행전함의 폭격을 참호 안에서,버티던 때가...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase1Stage1Dialogue1FaceNone" Value="전함의 대포가 발사하는,포탄의 레플리카다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase1Stage1Dialogue2FaceNone" Value="상상했던 것보다 훨씬 커서,놀라움을 감출 수가 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase2Stage1Dialogue1FaceNone" Value="동유리카 군이 개발한,기동 병기 ”BM-2 ZERO-G”,의 모형이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase2Stage1Dialogue2FaceNone" Value="당시의 우주 전투용 기동 병기,중에서는 상위권의 성능을,가졌다는 듯 하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPShowcase2Stage1Dialogue3FaceNone" Value="이걸 육군용으로 개조한 것이,”BM-2G ONE-G”라고,넥이 열변한 적이 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPBattleship”Yamato”Stage1Dialogue1FaceNone" Value="전함 ”야마토”.,역사 상 최대 규모 전함." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPBattleship”Yamato”Stage1Dialogue2FaceNone" Value="착공 - 1937년,취역 - 1941년" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPBattleship”Yamato”Stage1Dialogue3FaceNone" Value="작전 수행 중 미군 기동부대의,맹공격을 받아 격침됨" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPEscortShip”Kon-tou”Stage1Dialogue1FaceNone" Value="호위함 ”콘토우”,해군 최초로,이지스 시스템을 탑재한 이지스함" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPEscortShip”Kon-tou”Stage1Dialogue2FaceNone" Value="착공 - 1990년,취역 - 1993년" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPEscortShip”Kon-tou”Stage1Dialogue3FaceNone" Value="나중에 유리카가 된 미국 해군이,처음으로 보유한 이지스함" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Vizen”Stage1Dialogue1FaceNone" Value="우주전함 ”비젠”,공군이 처음으로 보유한,우주전투함" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Vizen”Stage1Dialogue2FaceNone" Value="착공 - 1999년,취역 - 2004년" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Vizen”Stage1Dialogue3FaceNone" Value="세계 최초로 건조된,대기권 내외 양용함" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue1FaceNone" Value="우주전함 ”셋츠”,기동병기와의 연계를,전제로 한 최초의 우주전함" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue2FaceNone" Value="착공 - 2011년,취역 - 2014년" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue3FaceNone" Value="비젠형 전함 중에서는,처음으로 기동병기 격납고를,탑재한 전함" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPSpaceBattleship”Setz”Stage1Dialogue4FaceNone" Value="....거치대에 플러그인할,수 있을 법한 단자가,열려 있다!" Face="None" Mono="False" />
+  <!-- 流石にネットエージェントも宇宙戦力は持っていないんだよ -->
+  <Dialogue Key="Map.SeirenShip2fSPFromChapter7Onwards2Stage1Dialogue1FacePoliceman" Value="역시 제아무리 넷 에이전트라 해도,우주에서 싸울 힘까지,가지고 있는 건 아냐." Face="Policeman" Mono="False" />
+  <!-- 戦う船ってかっこいいよね -->
+  <Dialogue Key="Map.SeirenShip2fSPFromChapter7Onwards1Stage1Dialogue1FaceMaleStudent" Value="싸우는 배는 참 멋있다니까." Face="MaleStudent" Mono="False" />
+  <!-- セイレーン号の乗船記念に「セイレーンフォルダ」はいかがですか？ -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue1FaceWhiteHairMaleButler" Value="세이렌 호에 승선하신 기념으로,”성련 폴더”를 써 보시는 건,어떠하신지?" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 豪華客船を思わせる水属性のチップがたくさん入っています -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue2FaceWhiteHairMaleButler" Value="호화 여객선이 생각나게 하는,물 속성의 칩이,많이 들어 있답니다." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 今持っている予備フォルダに上書きする形になってしまいますけどね -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue3FaceWhiteHairMaleButler" Value="지금 가지고 계신 예비 폴더 위에,덮어쓰는 방식으로,드리게 되겠습니다만." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 「セイレーンフォルダ」を予備フォルダにしますか？ -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4QuestionFaceWhiteHairMaleButler" Value="”성련 폴더”를,예비 폴더로 쓰시겠는지요?" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- よろしいよろしくない -->
+  <Text Key="Map.SeirenShip2fSPSeirenFolderStage1Dialogue4Options" Value="좋습니다,그다지...." />
+  <!-- ・・・・・・・・#s@docking#ピコーン！ -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue1FaceWhiteHairMaleButler" Value="・・・・・・・・#s@docking#띠링〜!" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 転送完了しました -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue2FaceWhiteHairMaleButler" Value="전송 완료되었습니다." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- このフォルダでのバトルにセイレーン号の思い出をはせてくださいね -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage3Dialogue3FaceWhiteHairMaleButler" Value="이 폴더로 배틀하는 동안,세이렌 호와의 추억을,생각해 주시길." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 悲しいです -->
+  <Dialogue Key="Map.SeirenShip2fSPSeirenFolderStage5Dialogue1FaceWhiteHairMaleButler" Value="슬프군요." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPMale1Stage1Dialogue1FaceOrangeHairMaleWesterner" Value="OH～ 일본의 배틀쉽은,SUPER 빠워뿔하군～!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPMale2Stage1Dialogue1FaceWhiteHairMaleButler" Value="흐음，흐음，그렇군，그렇군." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPWomanStage1Dialogue1FaceOrangeHairFemaleChild" Value="우리 아빠가 이 로봇의,프라모델을 갖고 있어!" Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fSPToTheOutsideStage1Dialogue1FaceShanghai" Value="조금 더 전시회를 보고 가자고!" Face="Shanghai" Mono="False" />
+</data>
