@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ケーキ屋の電脳 -->
+  <Text Key="Map.CakeShopName" Value="케이크 상점의 전뇌" />
+  <!-- ヨウガシ　ト　カイテケーキ　ト　ヨム-->
+  <Dialogue Key="Map.CakeShopSprite1Stage1Dialogue1FaceSprite" Value="옛날에는 케이크는,거짓말이 아니라는,말이 있었다고 하네요." Face="Sprite" Mono="False" />
+  <!-- ナンカ　オシャレナキブン〜 -->
+  <Dialogue Key="Map.CakeShopSprite1Stage1Dialogue2FaceSprite" Value="뭐가 거짓말이었던 걸까요～?" Face="Sprite" Mono="False" />
+  <!-- コノミセノ　ケーキエイコク　ジョオウモコノンダトカ -->
+  <Dialogue Key="Map.CakeShopSprite2Stage1Dialogue1FaceSprite" Value="영국 여왕께서,이 매장의 케이크를,좋아한다는 소문이 있어요." Face="Sprite" Mono="False" />
+  <!-- アクマデモ　ウワサノウワサ〜-->
+  <Dialogue Key="Map.CakeShopSprite2Stage1Dialogue2FaceSprite" Value="어디까지나 소문이지만요～" Face="Sprite" Mono="False" />
+</data>
