@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 会議室の電脳 -->
+  <Text Key="Map.BlackbordName" Value="회의실의 전뇌" />
+  <!-- ネットハンザイハヤメヨウネ！ -->
+  <Dialogue Key="Map.BlackbordSprite1Stage1Dialogue1FaceSprite" Value="넷 범죄,멈춰!" Face="Sprite" Mono="False" />
+  <!-- ････ッテ　イッテヤメテクレタラ　ラクナンデスケドネ -->
+  <Dialogue Key="Map.BlackbordSprite1Stage1Dialogue2FaceSprite" Value="....이렇게 말해서,넷 범죄가 더 이상,안 일어났으면 좋겠네요." Face="Sprite" Mono="False" />
+  <!-- ネットエージェントノ　タンマツニモウィルスハ　イルモノデス -->
+  <Dialogue Key="Map.BlackbordSprite2Stage1Dialogue1FaceSprite" Value="넷 에이전트들의 장치에도,바이러스가 있는 법입니다." Face="Sprite" Mono="False" />
+  <!-- タオシテモスグニ　ドコカニウマレカワッチャウンデスヨー -->
+  <Dialogue Key="Map.BlackbordSprite2Stage1Dialogue2FaceSprite" Value="쓰러뜨려도 어디선가,그새 다시 살아난다니까요!" Face="Sprite" Mono="False" />
+</data>
