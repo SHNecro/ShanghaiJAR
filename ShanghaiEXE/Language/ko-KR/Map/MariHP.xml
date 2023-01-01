@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.MariHPName" Value="마리의 홈페이지" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue1FaceSprite" Value="저는 홈페이지의,벽지를 판매하는,스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue2FaceSprite" Value="당신의 홈페이지의,벽지를 이 에리어의 벽지로,바꿔 드립니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue3FaceSprite" Value="벽지 교체 비용은,100 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="벽지를 바꾸시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.MariHPWallpaperSpriteStage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue6FaceSprite" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.MariHPWallpaperSpriteStage1Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+</data>
