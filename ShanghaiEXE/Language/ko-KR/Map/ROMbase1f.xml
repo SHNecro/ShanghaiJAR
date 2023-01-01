@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ROM基地　倉庫 -->
+  <Text Key="Map.ROMbase1fName" Value="ROM 기지 창고" />
+  <!-- この部屋を管理するコントロールパネルだ -->
+  <Dialogue Key="Map.ROMbase1fControlStage1Dialogue1FaceNone" Value="이 방을 관리하는,컨트롤 패널이다." Face="None" Mono="False" />
+  <!-- 空調やバリアーの制御をするためにプラグインをすることが可能だ -->
+  <Dialogue Key="Map.ROMbase1fControlStage1Dialogue2FaceNone" Value="에어컨 기능이나 배리어 제어를,위해 플러그인이 가능하다." Face="None" Mono="False" />
+  <!-- 配線的にこの機械にプラグインすればそこのバリアーを解除できるはず！ -->
+  <Dialogue Key="Map.ROMbase1fROMDennou2PluginStage1Dialogue1FaceAlice" Value="배선 위치로 봤을 때 이 기계에,플러그인하면 이 배리어를,해제할 수 있을 거야!" Face="Alice" Mono="False" />
+  <!-- 頼んだわよ　アリス！ -->
+  <Dialogue Key="Map.ROMbase1fROMDennou2PluginStage1Dialogue2FaceShanghai" Value="부탁할게，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase1fContainerStage1Dialogue1FaceNone" Value="뭐가 들어 있는지는 모르지만,묵직하게 무거운 컨테이너다." Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase1fContainerStage1Dialogue2FaceNone" Value="장소를 생각하면,아마 쓸만한 건,들어있지 않을 것 같다." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- アリス　メールが来たわよあ、パパだ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue1FaceShanghai" Value="앨리스，메일이 왔어.,엇，아빠다." Face="Shanghai" Mono="False" />
+  <!-- パパから？えーっと････ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue2FaceAlice" Value="아빠한테서?,어디...." Face="Alice" Mono="False" />
+  <!-- お前の友達からＲＯＭの基地に向かったことを聞いた -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue3FaceTroid" Value="네 친구들한테서,네가 ROM의 기지로 향했다는,이야기를 들었어." Face="Troid" Mono="True" />
+  <!-- お前たちがやると決めたなら俺は止めはしない全力でやり遂げるんだ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue4FaceTroid" Value="너희들이 하겠다고 결심했다면,난 막지 않겠어.,전력을 다해 끝내렴." Face="Troid" Mono="True" />
+  <!-- アリスとレベッカ二人の無事を祈ってこのアドオンを預ける -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue5FaceTroid" Value="앨리스와 레베카,둘이 무사하기를 빌면서,이 애드온을 같이 보낼게." Face="Troid" Mono="True" />
+  <!-- 二人ならやれると俺は確信しているぞ！ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue6FaceTroid" Value="둘이라면 해낼 거라고,난 확신한다!" Face="Troid" Mono="True" />
+  <!-- パパ････ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue7FaceAlice" Value="아빠...." Face="Alice" Mono="False" />
+  <!-- パパの想いのためにも気をつけましょう　アリス！ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue8FaceShanghai" Value="아빠를 위해서라도,조심하자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.ROMbase1fMailEventStage1Dialogue9FaceAlice" Value="그래!" Face="Alice" Mono="False" />
+  <!-- バリアーフェンスで道が塞がれてるわね -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage1Dialogue1FaceShanghai" Value="배리어 펜스 때문에,길이 막혀 있네." Face="Shanghai" Mono="False" />
+  <!-- 配線的に････この近くの機械から制御しているみたいね -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage1Dialogue2FaceAlice" Value="배선 위치로 보면....,이 가까이 있는 기계를 통해,제어되고 있는 것 같아." Face="Alice" Mono="False" />
+  <!-- いつものようにプラグインして解除しましょ！ -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage1Dialogue3FaceShanghai" Value="항상 그래 왔듯 플러그인해서,해제하자!" Face="Shanghai" Mono="False" />
+  <!-- 隣の部屋への通行を妨げるバリアーフェンスだ -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage3Dialogue1FaceNone" Value="건너편 방으로 가는 길을 막는,배리어 펜스다." Face="None" Mono="False" />
+  <!-- 無理に通ろうとすると痺れるでは済まない -->
+  <Dialogue Key="Map.ROMbase1fBarrierStage3Dialogue2FaceNone" Value="억지로 지나가려 했다간,저릿하는 정도로는 안 끝난다." Face="None" Mono="False" />
+  <!-- チッ････ここまでってわけかよ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue1FacePyroManOpMokou" Value="치잇....,여기까지냐고...." Face="PyroManOpMokou" Mono="False" />
+  <!-- てめえらみたいなガキに負けて私のメンツはズタボロだ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue2FacePyroManOpMokou" Value="니네 같은 꼬맹이들한테 져서야,내 체면은 완전히 구겨졌네." Face="PyroManOpMokou" Mono="False" />
+  <!-- それがあたしたちに執着してた理由ってわけね -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue3FaceShanghai" Value="그것 때문에 우리한테,그렇게까지 집착했던 거였군." Face="Shanghai" Mono="False" />
+  <!-- 極道組織　藤原組組長の娘藤原妹紅････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue4FaceShanghai" Value="야쿠자 조직,후지와라 조직 두목의 딸,후지와라 모코우...." Face="Shanghai" Mono="False" />
+  <!-- 組長の娘････？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue5FaceAlice" Value="두목의 딸....?" Face="Alice" Mono="False" />
+  <!-- 裏社会ってのは力が全てだ負け犬には何の価値もねえ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue6FacePyroManOpMokou" Value="뒷세계는 힘이 전부야.,패배자한테는 아무 가치도 없어." Face="PyroManOpMokou" Mono="False" />
+  <!-- だから負けるわけにはいかなかった -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue7FacePyroManOpMokou" Value="그래서 질 수가 없었단 말이다." Face="PyroManOpMokou" Mono="False" />
+  <!-- 私はいつかは組織を継ぐ身だけどこんなシュウタイを晒しちまったんだ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue8FacePyroManOpMokou" Value="난 언젠가 조직을 이어나갈 몸이야.,그런데 이런 추태를 보여 버리다니." Face="PyroManOpMokou" Mono="False" />
+  <!-- こんな情けない姿オヤジが見たら失望さ縁を切られてもおかしくねえ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue9FacePyroManOpMokou" Value="이런 비참한 모습을 아버지가 보면,실망해서 연을 끊어 버려도,이상할 게 없어." Face="PyroManOpMokou" Mono="False" />
+  <!-- ････本当にそうかしら？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue10FaceShanghai" Value="....정말로 그럴까?" Face="Shanghai" Mono="False" />
+  <!-- ････何？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue11FacePyroManOpMokou" Value="....뭐야?" Face="PyroManOpMokou" Mono="False" />
+  <!-- このＲＯＭの基地の場所をネットエージェントに流したのは誰だと思う？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue12FaceShanghai" Value="이 ROM의 기지의 위치를,넷 에이전트에게 까발린 게,누구라고 생각해?" Face="Shanghai" Mono="False" />
+  <!-- 藤原組よ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue13FaceShanghai" Value="후지와라 조직이야." Face="Shanghai" Mono="False" />
+  <!-- オヤジが････？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue14FacePyroManOpMokou" Value="아버지가....?" Face="PyroManOpMokou" Mono="False" />
+  <!-- 妹紅さんのお父さんが妹紅さんを連れ戻したかったんだよ！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue15FaceReimu" Value="모코우 씨 아빠가,모코우 씨를,데려오고 싶어하셨어!" Face="Reimu" Mono="False" />
+  <!-- えっと････けいたい電話をスピーカーモードにしてっと････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage1Dialogue16FaceReimu" Value="어디 보자.... 휴대전화를,스피커 모드로 바꿔서...." Face="Reimu" Mono="False" />
+  <!-- 妹紅！妹紅聞いてる？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue1FaceSumireko" Value="모코우!,모코우，들려?" Face="Sumireko" Mono="False" />
+  <!-- 菫子（すみれこ）････？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue2FacePyroManOpMokou" Value="스미레코....?" Face="PyroManOpMokou" Mono="False" />
+  <!-- あなたのお父さんがあなた宛ての手紙を私に託したのよ！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue3FaceSumireko" Value="네 아버지가 너한테 보낼 편지를,나한테 맡겼어!" Face="Sumireko" Mono="False" />
+  <!-- 「道を間違えるな　過ちを正して帰ってこい」････って！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue4FaceSumireko" Value="”길을 잘못 들지 말거라., 과오를 바로잡고 돌아오거라.”,....라는 내용이야!" Face="Sumireko" Mono="False" />
+  <!-- オヤジ････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue5FacePyroManOpMokou" Value="아부지...." Face="PyroManOpMokou" Mono="False" />
+  <!-- ････私はいったいどうすればいいんだ？ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue6FacePyroManOpMokou" Value="....나는 대체,어떻게 해야 하지?" Face="PyroManOpMokou" Mono="False" />
+  <!-- 簡単だよ！悪い事しちゃったらごめんなさいってするの！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue7FaceReimu" Value="간단해!,잘못을 저질렀다면,미안하다고 사과하는 거야!" Face="Reimu" Mono="False" />
+  <!-- ごめんなさい････か -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue8FacePyroManOpMokou" Value="미안하다.... 라." Face="PyroManOpMokou" Mono="False" />
+  <!-- ････フッガキに教えられるなんて私もまだまだってわけだな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue9FacePyroManOpMokou" Value="....훗,꼬맹이한테 가르침을 받다니,나도 아직 갈 길이 멀었군." Face="PyroManOpMokou" Mono="False" />
+  <!-- ････悪かった -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue10FacePyroManOpMokou" Value="....미안했다." Face="PyroManOpMokou" Mono="False" />
+  <!-- これで大丈夫！妹紅さん　永遠町に一緒に帰ろう！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue11FaceReimu" Value="이걸로 된 거네!,모코우 씨，영원 마을에,같이 돌아가자!" Face="Reimu" Mono="False" />
+  <!-- ････そうだな菫子の奴にも詫びを入れなきゃいけないからな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue12FacePyroManOpMokou" Value="....그렇네.,스미레코 녀석한테도,사과해야 할 테니까 말이야." Face="PyroManOpMokou" Mono="False" />
+  <!-- 引き上げだパイロマン使えないナビなんて言って悪かったな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue13FacePyroManOpMokou" Value="돌아가자，파이로맨.,쓸모없는 내비라고 말해서,미안했다." Face="PyroManOpMokou" Mono="False" />
+  <!-- シュー････ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage3Dialogue14FacePyroMan" Value="슈우...." Face="PyroMan" Mono="False" />
+  <!-- アリスとか言ったなそこのバリアの受け持ちはタラカーンって野郎だ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue1FacePyroManOpMokou" Value="앨리스라고 했지.,그 배리어를 담당하는 녀석은,타라칸이라는 놈이다." Face="PyroManOpMokou" Mono="False" />
+  <!-- タラカーン････シザーマンのオペレーターね -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue2FaceAlice" Value="타라칸....,시저맨의 오퍼레이터겠네." Face="Alice" Mono="False" />
+  <!-- ････油断するなよお前は私に勝ったんだからな -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue3FacePyroManOpMokou" Value="....방심하지 마라.,넌 날 이겼으니까 말야." Face="PyroManOpMokou" Mono="False" />
+  <!-- 別のやつに負けちまったら私のメンツがもっとダメになる -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage5Dialogue4FacePyroManOpMokou" Value="다른 놈한테 니가 지면,내 체면이 이 이상으로,구겨지게 돼." Face="PyroManOpMokou" Mono="False" />
+  <!-- 本当に反省したのかねぇ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage7Dialogue1FaceShanghai" Value="저거 진짜로,반성하긴 한 걸까." Face="Shanghai" Mono="False" />
+  <!-- いいじゃないのとにかく　進むわよ！ -->
+  <Dialogue Key="Map.ROMbase1fPostPyromanEventStage7Dialogue2FaceAlice" Value="괜찮잖아?,일단 앞으로 나아가자!" Face="Alice" Mono="False" />
+  <!-- レミリアにネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage1Dialogue1QuestionFaceShanghai" Value="레밀리아한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ROMbase1fSakuyaBattleStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 力を見せて上げなさい！サクヤ！ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage1Dialogue2FaceRemilia" Value="힘을 보여 주렴!,사쿠야!" Face="Remilia" Mono="False" />
+  <!-- 호호호，제가 이겼사와요. -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage3Dialogue1FaceRemilia" Value="호호호，제가 이겼사와요." Face="Remilia" Mono="False" />
+  <!-- さすがはアリスねサクヤを２度も倒すなんて -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage5Dialogue1FaceRemilia" Value="역시나 앨리스야.,사쿠야 상대로 2번이나 이기다니." Face="Remilia" Mono="False" />
+  <!-- ジャスト３分で終わらせてあげるわよ！ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage6Dialogue1FaceRemilia" Value="JUST 3분 안에,끝내 주겠어!" Face="Remilia" Mono="False" />
+  <!-- 호호호，제가 이겼사와요. -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage8Dialogue1FaceRemilia" Value="호호호，제가 이겼사와요." Face="Remilia" Mono="False" />
+  <!-- あなた達のポテンシャル････計り知れないわね -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage10Dialogue1FaceRemilia" Value="너희들의 가능성....,헤아릴 수가 없네." Face="Remilia" Mono="False" />
+  <!-- まだあのこと怒ってる？ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage11Dialogue1FaceRemilia" Value="아직도 그 때 그 일,때문에 화 났어?" Face="Remilia" Mono="False" />
+  <!-- 気が向いた時に私はいつでも受けて立つわよ -->
+  <Dialogue Key="Map.ROMbase1fSakuyaBattleStage11Dialogue2FaceRemilia" Value="하고 싶어질 때면,언제든지 상대해 줄게." Face="Remilia" Mono="False" />
+  <!-- メディスンってばオペレーターを巻き込みたくないけどＲＯＭに挨拶には行きたいって言って -->
+  <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue1FaceRemilia" Value="메디슨은 자기 오퍼레이터가,휘말리는 건 보기 싫지만 ROM한테,인사 정도는 하고 싶었다더라." Face="Remilia" Mono="False" />
+  <!-- 私のところに頭下げて頼み込んできたのよ -->
+  <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue2FaceRemilia" Value="나한테 와서 고개 숙이고,부탁을 해 왔더라." Face="Remilia" Mono="False" />
+  <!-- やることはやったからってもう帰ったみたいだけどね -->
+  <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue3FaceRemilia" Value="할 일 다 끝나서인지,벌써 돌아간 것 같지만." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue1" Value="뭐가 들어 있는지는 모르지만,묵직하게 무거운 컨테이너다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue2" Value="쇠지렛대가 있어야,열 수 있을 정도로,단단하게 밀봉되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue1" Value="음? 이 컨테이너를 열어서,뭘 발견했는지를,알고 싶다고?" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue2" Value="뭐어，그다지 대단한 건 없었어.,해 봐야 탄약，전자 부품，,메모리 칩，잡다한 고철 등등...." Face="Policeman" Mono="False" />
+</data>
