@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PostName" Value="우체통의 전뇌" />
+  <Dialogue Key="Map.PostSprite1Stage1Dialogue1FaceSprite" Value="옛날에는 메일이라는 게 없어서,종이 편지로 연락을 했다네요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PostSprite1Stage1Dialogue2FaceSprite" Value="요즘은 메일로 훨씬 더 빠르고,편리하게 연락을 할 수,있게 되었지요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PostSprite2Stage1Dialogue1FaceSprite" Value="이 우체통에 손편지를 넣어 주시면,이걸 데이터로 변환해서,메일로 송신할 수 있어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PostSprite2Stage1Dialogue2FaceSprite" Value="옛날에는 이런 기능을 가진,팩스라는 기계가 있었다나 봐요." Face="Sprite" Mono="False" />
+</data>
