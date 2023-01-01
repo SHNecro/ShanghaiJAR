@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭ基地ゲートの電脳 -->
+  <Text Key="Map.RomGateName" Value="ROM 기지 게이트의 전뇌" />
+  <!-- クルモノ　コバミデルモノ　オウ -->
+  <Dialogue Key="Map.RomGateSprite1Stage1Dialogue1FaceSprite" Value="오는 사람 막고,가는 사람 잡기." Face="Sprite" Mono="False" />
+  <!-- ソレガワレワレノ　シゴトデス -->
+  <Dialogue Key="Map.RomGateSprite1Stage1Dialogue2FaceSprite" Value="그게 저희가 하는 일입니다." Face="Sprite" Mono="False" />
+  <!-- ゲートオープンゲートオープンピピピピ････ -->
+  <Dialogue Key="Map.RomGateSprite2Stage1Dialogue1FaceSprite" Value="게이트 오픈.,게이트 오픈.,삐삐삐삐...." Face="Sprite" Mono="False" />
+</data>
