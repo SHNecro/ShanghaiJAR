@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 漁礁の電脳 -->
+  <Text Key="Map.UnderGyosyouName" Value="해저 암초의 전뇌" />
+  <!-- ギョショウ　トイウノハサカナノ　スニナル　モノデス -->
+  <Dialogue Key="Map.UnderGyosyouSprite1Stage1Dialogue1FaceSprite" Value="이 암초 지대는 물고기에게는,집과도 같은 장소입니다." Face="Sprite" Mono="False" />
+  <!-- ナニモナイ　カイテイニハオサカナガ　スメナイノデブロックトカヲ　シズメルンデス -->
+  <Dialogue Key="Map.UnderGyosyouSprite1Stage1Dialogue2FaceSprite" Value="아무것도 없는 해저에는,물고기가 살 수 없다 보니,벽돌 같은 걸 가라앉혀 줍니다." Face="Sprite" Mono="False" />
+  <!-- オオムカシニ　シズンダフネガギョショウニ　ナッテイルコトモアリマス -->
+  <Dialogue Key="Map.UnderGyosyouSprite2Stage1Dialogue1FaceSprite" Value="저 먼 옛날에는 가라앉은 배가,이 해저 암초와 비슷하게,물고기들의 터전이 된 경우도 있어요." Face="Sprite" Mono="False" />
+  <!-- シズンダアトモ　オサカナノスミカニナルッテナンダカ　イイデスヨネ -->
+  <Dialogue Key="Map.UnderGyosyouSprite2Stage1Dialogue2FaceSprite" Value="가라앉은 뒤에도 물고기들의,집과도 같은 장소가 된다니,어딘가 좀 마음에 드네요." Face="Sprite" Mono="False" />
+</data>
