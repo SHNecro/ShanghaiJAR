@@ -1332,7 +1332,7 @@ namespace MapEditor.Rendering
                         var newConveyorArea = new Rectangle((iteratedRectangle.X + 1) * 8, (iteratedRectangle.Y + 1) * 8, (iteratedRectangle.Width + 1) * 8 , (iteratedRectangle.Height + 1) * 8);
                         var overwrittenConveyors = MapRenderer.CurrentMap.MapObjects.MapObjects.Where(mo =>
                         {
-                            return newConveyorArea.Contains(mo.X, mo.Y) && mo.Pages.MapEventPages.Any(mep => mep.Texture == "body2" && Constants.ConveyorSpriteArea.Contains(mep.TexX, mep.TexY));
+                            return newConveyorArea.Contains(mo.X, mo.Y) && mo.Pages.MapEventPages.Any(mep => mep.Texture == "body2" && Constants.ConveyorSpriteArea.Contains(mep.TexX, mep.TexY)) && mo.Level == MapRenderer.CurrentLevel;
                         }).ToList();
 
                         foreach (var deletedConveyor in overwrittenConveyors)
