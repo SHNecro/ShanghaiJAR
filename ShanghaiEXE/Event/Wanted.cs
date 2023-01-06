@@ -334,10 +334,7 @@ namespace NSEvent
                     {
                         if (this.savedata.virusSPbusted[Wanted.WantedList[index2, 0]])
                         {
-                            if ((uint)ShanghaiEXE.language > 0U)
-                                this._rect = new Rectangle(576, 600, 16, 16);
-                            else
-                                this._rect = new Rectangle(560, 600, 16, 16);
+                            this._rect = ShanghaiEXE.language == 1 ? new Rectangle(576, 600, 16, 16) : new Rectangle(560, 600, 16, 16);
                         }
                         else
                             this._rect = new Rectangle(528 + (this.cursolanime % 2 == 0 ? 0 : 16), 600, 16, 16);
