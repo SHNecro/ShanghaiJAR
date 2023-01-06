@@ -3,6 +3,7 @@ using ExtensionMethods;
 using Services;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows;
@@ -24,9 +25,21 @@ namespace MapEditor.Core
 
             foreach (var locale in locales)
             {
-                this.LoadTranslationKeys(locale, $"language/{locale}");
-                this.LoadTranslationKeys(locale, $"language/{locale}/Map");
-                this.LoadTranslationKeys(locale, $"language/{locale}/Messages");
+                var localeLanguageFolder = new DirectoryInfo($"language/{locale}");
+                var subFolders = new List<string> { localeLanguageFolder.FullName };
+                var unexploredSubFolders = localeLanguageFolder.GetDirectories().ToList();
+                while (unexploredSubFolders.Count > 0)
+                {
+                    subFolders.AddRange(unexploredSubFolders.Select(dir => dir.FullName));
+                    var subSubFolders = unexploredSubFolders.SelectMany(dir => dir.GetDirectories());
+                    unexploredSubFolders.Clear();
+                    unexploredSubFolders.AddRange(subSubFolders);
+                }
+
+                foreach (var dir in subFolders)
+                {
+                    this.LoadTranslationKeys(locale, dir);
+                }
             }
         }
 
@@ -51,6 +64,8 @@ namespace MapEditor.Core
             return LanguageEntries[new Tuple<string, string>(key, locale)].Dialogue;
         }
 
+        public Tuple<string, Rectangle> GetLocalizedSprite(string key) => throw new NotImplementedException("No editor implemented for localized sprites");
+
         public IEnumerable<string> GetFilePaths(string locale)
         {
             return this.LanguageEntries.Where(kvp => kvp.Key.Item2 == locale).Select(kvp => kvp.Value.FilePath).Distinct();
@@ -61,9 +76,21 @@ namespace MapEditor.Core
             this.LanguageEntries.Clear();
             foreach (var locale in this.Locales)
             {
-                this.LoadTranslationKeys(locale, $"language/{locale}");
-                this.LoadTranslationKeys(locale, $"language/{locale}/Map");
-                this.LoadTranslationKeys(locale, $"language/{locale}/Messages");
+                var localeLanguageFolder = new DirectoryInfo($"language/{locale}");
+                var subFolders = new List<string> { localeLanguageFolder.FullName };
+                var unexploredSubFolders = localeLanguageFolder.GetDirectories().ToList();
+                while (unexploredSubFolders.Count > 0)
+                {
+                    subFolders.AddRange(unexploredSubFolders.Select(dir => dir.FullName));
+                    var subSubFolders = unexploredSubFolders.SelectMany(dir => dir.GetDirectories());
+                    unexploredSubFolders.Clear();
+                    unexploredSubFolders.AddRange(subSubFolders);
+                }
+
+                foreach (var dir in subFolders)
+                {
+                    this.LoadTranslationKeys(locale, dir);
+                }
             }
 
             this.KeysReloaded?.Invoke(null, null);

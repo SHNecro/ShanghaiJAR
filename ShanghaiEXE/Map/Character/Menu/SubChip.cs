@@ -9,6 +9,7 @@ using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System;
 
 namespace NSMap.Character.Menu
 {
@@ -306,13 +307,23 @@ namespace NSMap.Character.Menu
             }
         }
 
+        private static string[] ActiveSubChipSprites = {
+            "SubChip.UsedChipFirewall",
+            "SubChip.UsedChipOpenPort",
+            "SubChip.UsedChipAnti-Vrs",
+            "SubChip.UsedChipVirusScn"
+        };
+        private Tuple<string, Rectangle> GetActiveSubChipSprite(int index)
+        {
+            return ShanghaiEXE.languageTranslationService.GetLocalizedSprite(ActiveSubChipSprites[index]);
+        }
+
         public override void Render(IRenderer dg)
         {
-            this._rect = ShanghaiEXE.language == 1
-                ? new Rectangle(240, 944, 240, 160)
-                : new Rectangle(240, 464, 240, 160);
+            var subChipScreenSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("SubChip.FullScreen");
+            this._rect = subChipScreenSprite.Item2;
             this._position = new Vector2(0.0f, 0.0f);
-            dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+            dg.DrawImage(dg, subChipScreenSprite.Item1, this._rect, true, this._position, Color.White);
             for (int index = 0; index < 7; ++index)
             {
                 this._rect = new Rectangle(8 * this.savedata.haveSubMemory, 0, 8, 16);
@@ -326,11 +337,10 @@ namespace NSMap.Character.Menu
             {
                 if (this.savedata.runSubChips[index])
                 {
-                    this._rect = ShanghaiEXE.language == 1
-                        ? new Rectangle(264, 1000 + 16 * index, 64, 16)
-                        : new Rectangle(264, 520 + 16 * index, 64, 16);
+                    var activeSubChipSprite = this.GetActiveSubChipSprite(index);
+                    this._rect = activeSubChipSprite.Item2;
                     this._position = new Vector2(144f, 24 + 16 * index);
-                    dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                    dg.DrawImage(dg, activeSubChipSprite.Item1, this._rect, true, this._position, Color.White);
                 }
             }
             foreach (var data in ((IEnumerable<string>)this.info).Select((v, i) => new

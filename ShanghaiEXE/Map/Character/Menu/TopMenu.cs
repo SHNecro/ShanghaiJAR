@@ -6,6 +6,7 @@ using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System;
 
 namespace NSMap.Character.Menu
 {
@@ -322,6 +323,22 @@ namespace NSMap.Character.Menu
             }
         }
 
+        private static string[,] MenuSprites = {
+            { "MainMenu.FolderUnselected", "MainMenu.FolderSelected" },
+            { "MainMenu.SubChipUnselected", "MainMenu.SubChipSelected" },
+            { "MainMenu.LibraryUnselected", "MainMenu.LibrarySelected" },
+            { "MainMenu.NaviUnselected", "MainMenu.NaviSelected" },
+            { "MainMenu.VirusUnselected", "MainMenu.VirusSelected" },
+            { "MainMenu.MailUnselected", "MainMenu.MailSelected" },
+            { "MainMenu.KeyItemUnselected", "MainMenu.KeyItemSelected" },
+            { "MainMenu.NetworkUnselected", "MainMenu.NetworkSelected" },
+            { "MainMenu.SaveUnselected", "MainMenu.SaveSelected" }
+        };
+        private Tuple<string, Rectangle> GetMenuSprite(bool unSelected, int index)
+        {
+            return ShanghaiEXE.languageTranslationService.GetLocalizedSprite(MenuSprites[index, unSelected ? 0 : 1]);
+        }
+
         private void TopmenuRender(IRenderer dg)
         {
             Color color1 = Color.FromArgb(this.alphaUnderFade, 0, 0, 0);
@@ -340,11 +357,10 @@ namespace NSMap.Character.Menu
                 {
                     if (this.canselectmenu[i])
                     {
-                        this._rect = ShanghaiEXE.language == 1
-                            ? new Rectangle(this.SelectNumber(i) ? 0 : 72, 16 * i + 944, 72, 16)
-                            : new Rectangle(this.SelectNumber(i) ? 32 : 104, 16 * i, 72, 16);
+                        var menuSprite = this.GetMenuSprite(this.SelectNumber(i), i);
+                        this._rect = menuSprite.Item2;
                         this._position = new Vector2(24f, 8 + 16 * i);
-                        dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                        dg.DrawImage(dg, menuSprite.Item1, this._rect, true, this._position, Color.White);
                         this._rect = new Rectangle(this.iconBright || this.SelectNumber(i) ? 0 : 16, 16 * i, 16, 16);
                         this._position = new Vector2(this.selectmenu != (TopMenu.TOPMENU)i ? 8f : 8 + this.iconX, 8 + 16 * i);
                         dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);

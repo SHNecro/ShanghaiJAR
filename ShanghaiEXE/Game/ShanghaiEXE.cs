@@ -148,7 +148,6 @@ namespace NSGame
         public int battlenum;
         public Loading loading;
         private readonly bool fps30;
-        public static int language;
         public float volBGM;
         public float volSE;
         public bool textureLoad;
@@ -326,7 +325,6 @@ namespace NSGame
             this.fps30 = ShanghaiEXE.Config.FPS30;
 
             ShanghaiEXE.languageTranslationService = new LanguageTranslationService(ShanghaiEXE.Config.Language);
-            ShanghaiEXE.language = ShanghaiEXE.Config.Language == "en-US" ? 1 : 0;
 
             if (ShanghaiEXE.Config.ShowDialogueTester)
             {

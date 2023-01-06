@@ -1,4 +1,6 @@
 ﻿using Common;
+using System;
+using System.Drawing;
 
 namespace Services
 {
@@ -7,5 +9,7 @@ namespace Services
         bool CanTranslate(string key);
 
         Dialogue Translate(string key);
+
+        Tuple<string, Rectangle> GetLocalizedSprite(string key);
     }
 }

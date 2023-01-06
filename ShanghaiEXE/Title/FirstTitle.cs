@@ -164,19 +164,17 @@ namespace NSTitle
                     switch (this.nowscene)
                     {
                         case FirstTitle.TITLESCENE.titlepush:
-                            this._rect = ShanghaiEXE.language == 1
-                                ? new Rectangle(0, 640, 528, 160)
-                                : new Rectangle(240, 320, 512, 160);
+                            var scrollingTitleSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("FirstTitle.ScrollingTitle");
+                            this._rect = scrollingTitleSprite.Item2;
                             this._position = new Vector2(rogopx, 0.0f);
-                            dg.DrawImage(dg, "title2", this._rect, true, this._position, false, Color.White);
+                            dg.DrawImage(dg, scrollingTitleSprite.Item1, this._rect, true, this._position, false, Color.White);
                             break;
                         case FirstTitle.TITLESCENE.titlespin:
                         case FirstTitle.TITLESCENE.titlefade:
-                            this._rect = ShanghaiEXE.language == 1
-                                ? new Rectangle(240, 480, 240, 160)
-                                : new Rectangle(0, 160, 240, 160);
+                            var spinningTitleSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("FirstTitle.SpinningTitle");
+                            this._rect = spinningTitleSprite.Item2;
                             this._position = new Vector2(120f, 80f);
-                            dg.DrawImage(dg, "title2", this._rect, false, this._position, this.scall, this.rogorota, Color.White);
+                            dg.DrawImage(dg, spinningTitleSprite.Item1, this._rect, false, this._position, this.scall, this.rogorota, Color.White);
                             break;
                     }
                     break;

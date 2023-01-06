@@ -543,20 +543,10 @@ namespace NSBattle
                     }
                     break;
                 default:
-                    if (!this.chooseIllegal)
-                    {
-                        this._rect = ShanghaiEXE.language == 1
-                            ? new Rectangle(280, 648, 192, 139)
-                            : new Rectangle(240, 184, 192, 139);
-                    }
-                    else
-                    {
-                        this._rect = ShanghaiEXE.language == 1
-                            ? new Rectangle(472, 648, 192, 139)
-                            : new Rectangle(0, 504, 192, 139);
-                    }
+                    var rewardPanelSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite(!this.chooseIllegal ? "Result.RewardNormal" : "Result.RewardNoise");
+                    this._rect = rewardPanelSprite.Item2;
                     this._position = this.windowposition;
-                    dg.DrawImage(dg, "battleobjects", this._rect, true, this.windowposition, Color.White);
+                    dg.DrawImage(dg, rewardPanelSprite.Item1, this._rect, true, this.windowposition, Color.White);
                     this._position = new Vector2(this.windowposition.X + 152f, this.windowposition.Y + 31f);
                     this.CountRender(dg, this.Count(this.time[0]), this._position, this.timecolor);
                     this._position = new Vector2(this.windowposition.X + 128f, this.windowposition.Y + 31f);
@@ -611,6 +601,7 @@ namespace NSBattle
                         dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
                     }
                     this._position = new Vector2(this.windowposition.X + 112f, this.windowposition.Y + 80f);
+                    var fragLabelSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Result.FragLabel");
                     switch (this.print)
                     {
                         case Result.RESULT.printchip:
@@ -652,10 +643,8 @@ namespace NSBattle
                                 this._position = new Vector2(this.windowposition.X + 20f, this.windowposition.Y + 96f);
                                 this.TextRender(dg, txt, false, this._position, true);
                                 this._position = new Vector2(this.windowposition.X + 20f + 8 * txt.Length, this.windowposition.Y + 96f);
-                                this._rect = ShanghaiEXE.language == 1
-                                    ? new Rectangle(96, 712, 24, 16)
-                                    : new Rectangle(432, 16, 32, 16);
-                                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                                this._rect = fragLabelSprite.Item2;
+                                dg.DrawImage(dg, fragLabelSprite.Item1, this._rect, true, this._position, Color.White);
                                 this._position = new Vector2(this.windowposition.X + 88f, this.windowposition.Y + 96f);
                                 this.TextRender(dg, this.getitem[0].ToString(), true, this._position, true, Color.Yellow);
                                 break;
@@ -671,9 +660,8 @@ namespace NSBattle
                                 this._position = new Vector2(this.windowposition.X + 20f, this.windowposition.Y + 96f);
                                 this.TextRender(dg, txt, false, this._position, true);
                                 this._position = new Vector2(this.windowposition.X + 20f + 8 * txt.Length, this.windowposition.Y + 96f);
-                                this._rect = ShanghaiEXE.language == 1
-                                    ? new Rectangle(96, 712, 24, 16) : new Rectangle(432, 16, 32, 16);
-                                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                                this._rect = fragLabelSprite.Item2;
+                                dg.DrawImage(dg, fragLabelSprite.Item1, this._rect, true, this._position, Color.White);
                                 this._position = new Vector2(this.windowposition.X + 88f, this.windowposition.Y + 96f);
                                 this.TextRender(dg, this.getitem[1].ToString(), true, this._position, true, Color.Yellow);
                                 break;
@@ -689,10 +677,8 @@ namespace NSBattle
                                 this._position = new Vector2(this.windowposition.X + 20f, this.windowposition.Y + 96f);
                                 this.TextRender(dg, txt, false, this._position, true);
                                 this._position = new Vector2(this.windowposition.X + 20f + 8 * txt.Length, this.windowposition.Y + 96f);
-                                this._rect = ShanghaiEXE.language == 1
-                                    ? new Rectangle(96, 712, 24, 16)
-                                    : new Rectangle(432, 16, 32, 16);
-                                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                                this._rect = fragLabelSprite.Item2;
+                                dg.DrawImage(dg, fragLabelSprite.Item1, this._rect, true, this._position, Color.White);
                                 this._position = new Vector2(this.windowposition.X + 88f, this.windowposition.Y + 96f);
                                 this.TextRender(dg, this.getitem[2].ToString(), true, this._position, true, Color.Yellow);
                                 break;

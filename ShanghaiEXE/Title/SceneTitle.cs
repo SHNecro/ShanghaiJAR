@@ -308,21 +308,18 @@ namespace NSTitle
             this._position = Vector2.Zero;
             this._rect = new Rectangle(240, 160, 240, 160);
             dg.DrawImage(dg, "title2", this._rect, true, this._position, false, Color.White);
-            this._rect = ShanghaiEXE.language == 1
-                ? new Rectangle(0, 480, 240, 160)
-                : new Rectangle(240, 0, 240, 160);
+            var logoBorderSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("SceneTitle.LogoBorder");
+            this._rect = logoBorderSprite.Item2;
             this._position = new Vector2(0.0f, 0.0f);
-            dg.DrawImage(dg, "title2", this._rect, true, this._position, false, Color.White);
-            this._rect = ShanghaiEXE.language == 1
-                ? new Rectangle(240, 480, 240, 160)
-                : new Rectangle(0, 160, 240, 160);
+            dg.DrawImage(dg, logoBorderSprite.Item1, this._rect, true, this._position, false, Color.White);
+            var logoTextSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("SceneTitle.LogoText");
+            this._rect = logoTextSprite.Item2;
             this._position = new Vector2(0.0f, 0.0f);
-            dg.DrawImage(dg, "title2", this._rect, true, this._position, false, Color.White);
-            this._rect = ShanghaiEXE.language == 1
-                ? new Rectangle(480, 480, 240, 160)
-                : new Rectangle(480, 160, 240, 160);
+            dg.DrawImage(dg, logoTextSprite.Item1, this._rect, true, this._position, false, Color.White);
+            var logoCutoutSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("SceneTitle.LogoCutout");
+            this._rect = logoCutoutSprite.Item2;
             this._position = new Vector2(0.0f, 0.0f);
-            dg.DrawImage(dg, "title2", this._rect, true, this._position, false, Color.White);
+            dg.DrawImage(dg, logoCutoutSprite.Item1, this._rect, true, this._position, false, Color.White);
             switch (this.nowscene)
             {
                 case SceneTitle.TITLESCENE.pushbutton:
@@ -382,31 +379,24 @@ namespace NSTitle
                         color2 = Color.White;
                         break;
                 }
-                this._rect = ShanghaiEXE.language == 1
-                    ? new Rectangle(336, 160, 64, 16)
-                    : new Rectangle(240, 160, 48, 16);
+                var newGameSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("SceneTitle.NewGame");
+                this._rect = newGameSprite.Item2;
                 if (this.menu == SceneTitle.TITLEMENU.Load)
                     this._rect.X += this._rect.Width;
-                this._position = ShanghaiEXE.language == 1 
-                    ? new Vector2(this.fontposition.X - 40f, this.fontposition.Y - 16f)
-                    : new Vector2(this.fontposition.X - 24f, this.fontposition.Y - 16f);
-                dg.DrawImage(dg, "title", this._rect, true, this._position, false, color2);
+                this._position = new Vector2(this.fontposition.X - (newGameSprite.Item2.Width - 24), this.fontposition.Y - (newGameSprite.Item2.Height - 0));
+                dg.DrawImage(dg, newGameSprite.Item1, this._rect, true, this._position, false, color2);
                 if (this.printLoad)
                 {
-                    this._rect = ShanghaiEXE.language == 1
-                        ? this._rect = new Rectangle(336, 176, 64, 16)
-                        : this._rect = new Rectangle(240, 176, 48, 16);
+                    var continueSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("SceneTitle.Continue");
+                    this._rect = continueSprite.Item2;
                     if (this.menu == SceneTitle.TITLEMENU.Load)
                         this._rect.X += this._rect.Width;
-                    this._position = ShanghaiEXE.language == 1
-                        ? new Vector2(this.fontposition.X - 40f, this.fontposition.Y)
-                        : new Vector2(this.fontposition.X - 24f, this.fontposition.Y);
+                    this._position = new Vector2(this.fontposition.X - (continueSprite.Item2.Width - 24), this.fontposition.Y);
                     dg.DrawImage(dg, "title", this._rect, true, this._position, false, Color.White);
                 }
             }
-            this._position.X = ShanghaiEXE.language == 1
-                ? (float)(fontposition.X - (double)(this._rect.Width / 2) - 16.0)
-                : (float)(fontposition.X - (double)(this._rect.Width / 2) - 8.0);
+            //this._position.X = (float)(fontposition.X - (double)(this._rect.Width / 2) - 16.0);
+            this._position.X = this._position.X - 8;
             this._position.Y = this.menu == SceneTitle.TITLEMENU.Start ? this.fontposition.Y - 8f : this.fontposition.Y + 8f;
             this._rect = new Rectangle(240 + this.frame % 4 * 16, 192, 16, 16);
             dg.DrawImage(dg, "title", this._rect, false, this._position, false, Color.White);

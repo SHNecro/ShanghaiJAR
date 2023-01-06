@@ -1432,12 +1432,18 @@
     <Content Include="Data\data\Messages\UNKNOWN1.xml" />
     <Content Include="Data\data\Messages\UNKNOWN2.xml" />
     <Content Include="Data\data\Messages\UNKNOWN3.xml" />
+    <Content Include="Language\en-US\LocalizedSprites.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\en-US\Credits.xml" />
     <Content Include="Language\en-US\Map\DebugRoom1.xml" />
     <Content Include="Language\en-US\Map\DeepUra1.xml" />
     <Content Include="Language\en-US\Map\Piano.xml" />
     <Content Include="Language\en-US\Map\UraNet11.xml" />
     <Content Include="Language\ja-JP\Credits.xml" />
+    <Content Include="Language\ja-JP\LocalizedSprites.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Language\ja-JP\Map\DebugRoom1.xml" />
     <Content Include="Language\ja-JP\Map\DeepUra1.xml" />
     <Content Include="Language\ja-JP\Map\Piano.xml" />

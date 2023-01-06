@@ -431,25 +431,28 @@ namespace NSEvent
                         dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
                         break;
                     case 1:
-                        this._rect = ShanghaiEXE.language == 1
-                            ? new Rectangle(800, 712, 80, 40)
-                            : new Rectangle(712, 712, 80, 40);
-                        this._position = new Vector2(160f, 0.0f);
-                        dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                        {
+                            var bugFragSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Shop.BugFragCounter");
+                            this._rect = bugFragSprite.Item2;
+                            this._position = new Vector2(160f, 0.0f);
+                            dg.DrawImage(dg, bugFragSprite.Item1, this._rect, true, this._position, Color.White);
+                        }
                         break;
                     case 2:
-                        this._rect = ShanghaiEXE.language == 1
-                            ? new Rectangle(800, 752, 80, 40)
-                            : new Rectangle(720, 752, 80, 40);
-                        this._position = new Vector2(160f, 0.0f);
-                        dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                        {
+                            var bugFragSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Shop.FrzFragCounter");
+                            this._rect = bugFragSprite.Item2;
+                            this._position = new Vector2(160f, 0.0f);
+                            dg.DrawImage(dg, bugFragSprite.Item1, this._rect, true, this._position, Color.White);
+                        }
                         break;
                     case 3:
-                        this._rect = ShanghaiEXE.language == 1
-                            ? new Rectangle(800, 792, 80, 40)
-                            : new Rectangle(720, 792, 80, 40);
-                        this._position = new Vector2(160f, 0.0f);
-                        dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                        {
+                            var bugFragSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Shop.ErrFragCounter");
+                            this._rect = bugFragSprite.Item2;
+                            this._position = new Vector2(160f, 0.0f);
+                            dg.DrawImage(dg, bugFragSprite.Item1, this._rect, true, this._position, Color.White);
+                        }
                         break;
                 }
                 if (this.moneyType == 0)

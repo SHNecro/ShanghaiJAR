@@ -1083,6 +1083,20 @@ namespace NSBattle
             return flag;
         }
 
+        private static string[,] StyleSprites = {
+            { "Custom.StyleNormUnselected", "Custom.StyleNormHovered", "Custom.StyleNormDisabled", "Custom.StyleNormSelected" },
+            { "Custom.StyleFghtUnselected", "Custom.StyleFghtHovered", "Custom.StyleFghtDisabled", "Custom.StyleFghtSelected" },
+            { "Custom.StyleNinjUnselected", "Custom.StyleNinjHovered", "Custom.StyleNinjDisabled", "Custom.StyleNinjSelected" },
+            { "Custom.StyleDocUnselected", "Custom.StyleDocHovered", "Custom.StyleDocDisabled", "Custom.StyleDocSelected" },
+            { "Custom.StyleGaiaUnselected", "Custom.StyleGaiaHovered", "Custom.StyleGaiaDisabled", "Custom.StyleGaiaSelected" },
+            { "Custom.StyleWingUnselected", "Custom.StyleWingHovered", "Custom.StyleWingDisabled", "Custom.StyleWingSelected" },
+            { "Custom.StyleWtchUnselected", "Custom.StyleWtchHovered", "Custom.StyleWtchDisabled", "Custom.StyleWtchSelected" }
+        };
+        private Tuple<string, Rectangle> GetStyleSprite(int status, int styleIndex)
+        {
+            return ShanghaiEXE.languageTranslationService.GetLocalizedSprite(StyleSprites[styleIndex, status]);
+        }
+
         public void Render(IRenderer dg)
         {
             Vector2 _point = new Vector2(0.0f, 0.0f);
@@ -1097,10 +1111,9 @@ namespace NSBattle
                         break;
                     int num1 = this.player.style == Player.STYLE.doctor ? 2 : 16;
                     this._position = new Vector2(16f, num1);
-                    this._rect = ShanghaiEXE.language == 1
-                        ? new Rectangle(0, 712, 88, 16)
-                        : new Rectangle(464, 80, 88, 16);
-                    dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                    var programAdvanceSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Custom.ProgramAdvance");
+                    this._rect = programAdvanceSprite.Item2;
+                    dg.DrawImage(dg, programAdvanceSprite.Item1, this._rect, true, this._position, Color.White);
                     foreach (var data in ((IEnumerable<int>)this.selectedchips).Select((v, i) => new
                     {
                         v,
@@ -1266,34 +1279,28 @@ namespace NSBattle
                         }
                         else
                         {
+                            var infoCardSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Custom.NoChipInfo");
                             if (this.cursor.Y == 0)
                             {
                                 if (this.selectchips == 0)
                                 {
-                                    this._rect = ShanghaiEXE.language == 1
-                                        ? new Rectangle(0, 648, 56, 64)
-                                        : new Rectangle(208, 120, 56, 64);
+                                    infoCardSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Custom.NoChipInfo");
                                 }
                                 else
                                 {
-                                    this._rect = ShanghaiEXE.language == 1
-                                        ? new Rectangle(56, 648, 56, 64)
-                                        : new Rectangle(264, 120, 56, 64);
+                                    infoCardSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Custom.SendChipInfo");
                                 }
                             }
                             else if (this.selectchips == 0)
                             {
-                                this._rect = ShanghaiEXE.language == 1
-                                    ? new Rectangle(112, 648, 56, 64)
-                                    : new Rectangle(376, 120, 56, 64);
+                                infoCardSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Custom.AddChipInfo1");
                             }
                             else
                             {
-                                this._rect = ShanghaiEXE.language == 1
-                                    ? new Rectangle(168, 648, 56, 64)
-                                    : new Rectangle(320, 120, 56, 64);
+                                infoCardSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("Custom.AddChipInfo2");
                             }
-                            dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                            this._rect = infoCardSprite.Item2;
+                            dg.DrawImage(dg, infoCardSprite.Item1, this._rect, true, this._position, Color.White);
                         }
                     }
                     if (this.savedata.havestyles > 1 && this.player.mind.MindNow != MindWindow.MIND.pinch)
@@ -1306,19 +1313,17 @@ namespace NSBattle
                     {
                         for (int index = 0; index < this.savedata.havestyles; ++index)
                         {
-                            var rectX = this.styleused[index] || index == this.player.setstyle
-                                    ? 368
+                            var styleStatus = this.styleused[index] || index == this.player.setstyle
+                                    ? 2
                                     : (!this.styleset || this.style != index
                                         ? (index == this.savedata.setstyle
-                                            ? 304
-                                            : 240)
-                                        : 432);
-                            var rectY = ShanghaiEXE.language == 1
-                                ? this.savedata.style[index].style * 16 +  504
-                                : this.savedata.style[index].style * 16 +  328;
-                            this._rect = new Rectangle(rectX, rectY, 64, 16);
+                                            ? 1
+                                            : 0)
+                                        : 3);
+                            var styleSprite = this.GetStyleSprite(styleStatus, this.savedata.style[index].style);
+                            this._rect = styleSprite.Item2;
                             this._position = new Vector2(_point.X + 16f, 19 + index * 16);
-                            dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);
+                            dg.DrawImage(dg, styleSprite.Item1, this._rect, true, this._position, Color.White);
                             this._rect = new Rectangle(216 + this.savedata.style[index].element * 16, 88, 16, 16);
                             this._position = new Vector2(_point.X + 80f, 19 + index * 16);
                             dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, Color.White);

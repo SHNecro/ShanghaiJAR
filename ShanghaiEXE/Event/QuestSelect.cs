@@ -305,16 +305,15 @@ namespace NSEvent
                     int index2 = this.questlistNumber[this.top + index1];
                     if (this.savedata.ValList[11] != index2)
                     {
+                        var checkmarkSprite = ShanghaiEXE.languageTranslationService.GetLocalizedSprite("RequestBoard.CompleteMark");
                         if (this.savedata.questEnd[index2])
                         {
-                            this._rect = ShanghaiEXE.language == 1
-                                ? new Rectangle(576, 600, 16, 16)
-                                : new Rectangle(560, 600, 16, 16);
+                            this._rect = checkmarkSprite.Item2;
                         }
                         else
                             this._rect = new Rectangle(528 + (this.cursolanime % 2 == 0 ? 0 : 16), 600, 16, 16);
                         this._position = new Vector2(24f, 16 + 16 * index1);
-                        dg.DrawImage(dg, "menuwindows", this._rect, true, this._position, Color.White);
+                        dg.DrawImage(dg, checkmarkSprite.Item1, this._rect, true, this._position, Color.White);
                     }
                     this._position = new Vector2(48f, 17 + 16 * index1);
                     dg.DrawMiniText(this.questlist[this.top + index1], this._position, Color.FromArgb(32, 32, 32));
