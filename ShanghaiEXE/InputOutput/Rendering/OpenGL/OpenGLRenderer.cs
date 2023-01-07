@@ -38,7 +38,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
 
         public OpenGLRenderer(string tcdFile, string password, string graphicsFormat, double initialScaleX, double initialScaleY)
         {
-            var loadStrategy = new TCDLoadStrategy(tcdFile, password, graphicsFormat);
+            var loadStrategy = new FolderOverrideLoadStrategy(tcdFile, password, graphicsFormat, $"language/{ShanghaiEXE.Config.Language}/{{0}}.png");
             //var loadStrategy = new FolderTextureLoadStrategy("Graphics/{0}.png");
             loadStrategy.ProgressUpdated += this.Load_ProgressUpdate;
             loadStrategy.Load();
@@ -304,7 +304,7 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
             if (e == null)
             {
                 this.ProgressUpdated?.Invoke(this, null);
-                ((TCDLoadStrategy)sender).ProgressUpdated -= this.Load_ProgressUpdate;
+                ((FolderOverrideLoadStrategy)sender).ProgressUpdated -= this.Load_ProgressUpdate;
             }
             else
             {

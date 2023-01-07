@@ -11,7 +11,7 @@ namespace Common.OpenGL
     //A helper class, much like Shader, meant to simplify loading textures.
     public class Texture : IDisposable
     {
-        public static Texture NotLoaded => new Texture();
+        public static Texture NotLoaded { get; } = new Texture();
 
         private readonly int Handle;
 

@@ -75,6 +75,7 @@
     <Compile Include="Configuration\XInputGamePadButton.cs" />
     <Compile Include="EncodeDecode\ILoadStrategy.cs" />
     <Compile Include="EncodeDecode\TCDEncodeDecode.cs" />
+    <Compile Include="EncodeDecode\FolderOverrideLoadStrategy.cs" />
     <Compile Include="ExtensionMethods\GenericExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\InputExtensionMethods.cs" />
     <Compile Include="ExtensionMethods\RenderingExtensionMethods.cs" />
