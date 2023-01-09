@@ -14,6 +14,8 @@ namespace Services
         private readonly Dictionary<string, Dialogue> language;
         private readonly Dictionary<string, Tuple<string, Rectangle>> localizedSprites;
 
+        private string fontOverride;
+
         public LanguageTranslationService(string locale)
         {
             this.language = new Dictionary<string, Dialogue>();
@@ -55,6 +57,8 @@ namespace Services
 
         public Tuple<string, Rectangle> GetLocalizedSprite(string key) => this.localizedSprites[key];
 
+        public string GetFontOverride() => this.fontOverride;
+
         private void LoadTranslationKeys(string directory)
         {
             var languageFiles = new DirectoryInfo(directory).GetFiles("*.xml");
@@ -90,6 +94,13 @@ namespace Services
                     var rect = (Rectangle)spriteRectangleConverter.ConvertFromString(node.Attributes["Sprite"].Value.Replace(' ', ','));
 
                     this.localizedSprites.Add(key, Tuple.Create(sheet, rect));
+                }
+
+                var font = languageDoc.SelectNodes("data/FontOverride");
+                foreach (XmlNode node in font)
+                {
+                    var ttf = node.Attributes["TTF"].Value;
+                    this.fontOverride = ttf;
                 }
             }
         }

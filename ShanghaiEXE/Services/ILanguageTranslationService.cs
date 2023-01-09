@@ -11,5 +11,7 @@ namespace Services
         Dialogue Translate(string key);
 
         Tuple<string, Rectangle> GetLocalizedSprite(string key);
+
+        string GetFontOverride();
     }
 }

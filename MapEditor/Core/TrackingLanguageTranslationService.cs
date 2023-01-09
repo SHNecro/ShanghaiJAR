@@ -66,6 +66,8 @@ namespace MapEditor.Core
 
         public Tuple<string, Rectangle> GetLocalizedSprite(string key) => throw new NotImplementedException("No editor implemented for localized sprites");
 
+        public string GetFontOverride() => null;//throw new NotImplementedException("No editor implemented for localized fonts");
+
         public IEnumerable<string> GetFilePaths(string locale)
         {
             return this.LanguageEntries.Where(kvp => kvp.Key.Item2 == locale).Select(kvp => kvp.Value.FilePath).Distinct();

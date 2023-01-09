@@ -19,6 +19,7 @@ namespace Common.OpenGL
         public static Dictionary<Font, Face> TextFaces;
         // Face heights caches due to memory leak accessing Face.Size
         public static Dictionary<Font, Fixed26Dot6> TextFaceHeights;
+        public static string FontOverride;
 
         static FontGlyphs()
         {
@@ -43,21 +44,31 @@ namespace Common.OpenGL
             {
                 var windowFontFamily = new System.Windows.Media.FontFamily(text.Font.FontFamily.Name);
                 var typeface = new Typeface(windowFontFamily, FontStyles.Normal, FontWeights.Normal, FontStretches.Normal);
-                typeface.TryGetGlyphTypeface(out var glyphTypeface);
-
-                face = new Face(FontGlyphs.TextLibrary, glyphTypeface.FontUri.AbsolutePath);
-                face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
-                FontGlyphs.TextFaces[text.Font] = face;
-                FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;
+                if (typeface.TryGetGlyphTypeface(out var glyphTypeface))
+                {
+                    face = new Face(FontGlyphs.TextLibrary, glyphTypeface.FontUri.AbsolutePath);
+                    face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
+                    FontGlyphs.TextFaces[text.Font] = face;
+                    FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;
+                }
+                else if (FontGlyphs.FontOverride != null)
+                {
+                    face = new Face(FontGlyphs.TextLibrary, FontGlyphs.FontOverride);
+                    face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
+                    FontGlyphs.TextFaces[text.Font] = face;
+                    FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;
+                }
             }
 
-            if (face.GetCharIndex(text.Content[i]) == 0)
+            if (/*face == null || */face.GetCharIndex(text.Content[i]) == 0)
             {
                 if (!FontGlyphs.FallbackTextFaces.TryGetValue(text.Font, out face))
                 {
                     face = new Face(FontGlyphs.TextLibrary, FontGlyphs.FallbackFontBytes, 1);
                     face.SetCharSize(0, text.Font.SizeInPoints * 64, 1, 1);
                     FontGlyphs.FallbackTextFaces[text.Font] = face;
+                    //FontGlyphs.TextFaces[text.Font] = face;
+                    //FontGlyphs.TextFaceHeights[text.Font] = face.Size.Metrics.Height;
                 }
             }
 

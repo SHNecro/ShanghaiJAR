@@ -49,7 +49,18 @@ namespace NSShanghaiEXE.InputOutput.Rendering.OpenGL
             var usedMiniFont = default(Font);
             var usedMicroFont = default(Font);
 
-            if ((new InstalledFontCollection().Families).Any(f => f.Name == "Microsoft Sans Serif"))
+            var fontOverride = ShanghaiEXE.languageTranslationService.GetFontOverride();
+            if (fontOverride != null)
+            {
+                this.customFontInstance = new PrivateFontCollection();
+                var fontOverridePath = $"language/{ShanghaiEXE.Config.Language}/{fontOverride}.ttf";
+                this.customFontInstance.AddFontFile(fontOverridePath);
+                usedFont = new Font(this.customFontInstance.Families[0], 15, FontStyle.Regular);
+                usedMiniFont = new Font(this.customFontInstance.Families[0], 12, FontStyle.Regular);
+                usedMicroFont = new Font(this.customFontInstance.Families[0], 11, FontStyle.Regular);
+                FontGlyphs.FontOverride = fontOverridePath;
+            }
+            else if ((new InstalledFontCollection().Families).Any(f => f.Name == "Microsoft Sans Serif"))
             {
                 usedFont = new Font("Microsoft Sans Serif", 15f, FontStyle.Regular);
                 usedMiniFont = new Font("Microsoft Sans Serif", 12f, FontStyle.Regular);
