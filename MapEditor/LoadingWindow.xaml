@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
         <Rectangle Grid.Row="0" Margin="5">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="Resources/Splash.jpg"
+                <ImageBrush ImageSource="Resources/Splash.png"
                                 TileMode="None"
                                 AlignmentY="Top"
                                 Stretch="Uniform" />
