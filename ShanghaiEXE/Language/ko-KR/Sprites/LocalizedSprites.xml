@@ -13,8 +13,8 @@
   <Sprite Key="Shop.FrzFragCounter" Sheet="Sprites/menuwindows" Sprite="880,752 80,40" />
   <Sprite Key="Shop.ErrFragCounter" Sheet="Sprites/menuwindows" Sprite="880,792 80,40" />
   <Sprite Key="SceneTitle.LogoBorder" Sheet="Sprites/title2" Sprite="240,0 240,160" />
-  <Sprite Key="SceneTitle.LogoText" Sheet="Sprites/title2" Sprite="588,628 240,160" />
-  <Sprite Key="SceneTitle.LogoCutout" Sheet="Sprites/title2" Sprite="560,840 240,160" />
+  <Sprite Key="SceneTitle.LogoText" Sheet="Sprites/title2" Sprite="576,628 240,160" />
+  <Sprite Key="SceneTitle.LogoCutout" Sheet="Sprites/title2" Sprite="554,840 240,160" />
   <Sprite Key="SceneTitle.NewGame" Sheet="Sprites/title" Sprite="354,210 48,16" />
   <Sprite Key="SceneTitle.Continue" Sheet="Sprites/title" Sprite="354,226 48,16" />
   <Sprite Key="Result.RewardNormal" Sheet="Sprites/battleobjects" Sprite="808,509 192,139" />
