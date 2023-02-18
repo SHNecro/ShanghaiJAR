@@ -30,7 +30,7 @@
   <!-- 確か社内にも何人かしもべがいるはずだし接触してみるか -->
   <Dialogue Key="Map.CompanyServer17INTROEventStage1Dialogue2FaceShanghai" Value="분명히 사내에도 몇 명 정도,부하들이 있을 테니까,접촉해 보자." Face="Shanghai" Mono="False" />
   <!-- シャンハイ様　お疲れ様です -->
-  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue1FaceNaviBlueRobot" Value="샹하이 님，고생이 많으십니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue1FaceNaviBlueRobot" Value="상하이 님，고생이 많으십니다." Face="NaviBlueRobot" Mono="False" />
   <!-- ちゃんと草（スパイのこと）として働いてるみたいね -->
   <Dialogue Key="Map.CompanyServer1Chapter7ServantStage1Dialogue2FaceShanghai" Value="제대로 오리(스파이)로써,활동하고 있었던 것 같네." Face="Shanghai" Mono="False" />
   <!-- はい！アリスさんは地下牢に閉じ込められています -->
@@ -78,7 +78,7 @@
   <!-- オートロイドBV2 -->
   <Text Key="Map.CompanyServer1Chapter7EventsBattle1Enemy3" Value="오토로이드BV2" />
   <!-- シャンハイ！今どのあたりにいるの？ -->
-  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue1FaceAlice" Value="샹하이!,지금 어디 주변에 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue1FaceAlice" Value="상하이!,지금 어디 주변에 있어?" Face="Alice" Mono="False" />
   <!-- １階のサーバーの奥にいるわ -->
   <Dialogue Key="Map.CompanyServer1Chapter7EventsStage3Dialogue2FaceShanghai" Value="1층의 서버 안쪽에 있어." Face="Shanghai" Mono="False" />
   <!-- よし　ならばその辺りの端末で赤外線センサーの機能を落としてくれ -->

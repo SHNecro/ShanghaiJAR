@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 永遠町　２丁目 -->
   <Text Key="Map.EienTown1Name" Value="영원 마을 2번가" />
@@ -189,7 +189,7 @@
   <!-- ええー！？ -->
   <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue8FaceAlice" Value="뭐어～!?" Face="Alice" Mono="False" />
   <!-- シャンハイ　わからない？ -->
-  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue9FaceAlice" Value="샹하이，너도 몰라?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue9FaceAlice" Value="상하이，너도 몰라?" Face="Alice" Mono="False" />
   <!-- あたしがわかるわけ無いでしょ！ -->
   <Dialogue Key="Map.EienTown1Chapter4SisterEventStage1Dialogue10FaceShanghai" Value="내가 알 리가 없잖아!" Face="Shanghai" Mono="False" />
   <!-- そっかぁじゃあ誰かに道を聞かないといけないわね -->

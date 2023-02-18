@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.UraNet1Name" Value="우라 인터넷 1" />
   <Text Key="Map.UraNet1RandomBattle1Enemy1" Value="양아치내비" />
@@ -28,7 +28,7 @@
   <Dialogue Key="Map.UraNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="후후후，여기서 날 습격해 오는,내비들을 역관광시키고,칩을 모으고 있어." Face="NaviPurpleFemale" Mono="False" />
   <Dialogue Key="Map.UraNet1Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="이 근처에 다크칩 상인이,있다고 들었는데,대체 어디 있는 거야?" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.UraNet1ROMGateStage1Dialogue1FaceNone" Value="꺼림칙한 문이,길을 막고 있어서,지나갈 수가 없다!" Face="None" Mono="False" />
-  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue1FaceNone" Value="샹하이는,'ROM ID카드'를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue1FaceNone" Value="상하이는,'ROM ID카드'를 썼다!" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue2FaceNone" Value="꺼림칙한 문이 열렸다!" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet1GuidePlateStage1Dialogue1FaceNone" Value="이 앞은 위험함!,목숨이 아깝다면 거기 워프,타고 돌아가셈" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet1PostgameTouristDialogue1" Value="여기가 우라 인터넷이구나....,개무섭네!" Face="NaviOrangeMale" Mono="False" />

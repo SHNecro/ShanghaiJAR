@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 豪華客船セイレーン１Ｆ　ロビーエリア -->
   <Text Key="Map.SeirenShip1fName" Value="호화 여객선 세이렌 1층 로비 에리어" />
@@ -152,7 +152,7 @@
   <!-- アリス　さっさと行くわよぉ愚かなおバカさんにお灸をすえてやるわぁ！ -->
   <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue1FaceShanghai" Value="앨리스，빨리 가자고.,그 어리석은 멍청이한테,합당한 체벌을 해 줘야지!" Face="Shanghai" Mono="False" />
   <!-- ねぇ　なんだかシャンハイいつもより怖くない？ -->
-  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue2FaceAlice" Value="있지，뭔가 샹하이,평소보다 더 무섭지 않아?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue2FaceAlice" Value="있지，뭔가 상하이,평소보다 더 무섭지 않아?" Face="Alice" Mono="False" />
   <!-- うふふふ　そーお？あたしはいつでもこんな感じよぉ････！ -->
   <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue3FaceShanghai" Value="으흐흐흐，그으래?,난 항상 이런 느낌인데 말야....!" Face="Shanghai" Mono="False" />
   <!-- （絶対に怖い････） -->
@@ -162,7 +162,7 @@
   <!-- それが　操舵室の扉が電子ロックされて開かないんです！ -->
   <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue2FaceMaleAdult" Value="그게，조타실로 향하는 문에,전자 락이 걸려서,열리질 않아요!" Face="MaleAdult" Mono="False" />
   <!-- よし　シャンハイ！プラグインを････ -->
-  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue3FaceAlice" Value="좋아，샹하이!,플러그인을...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue3FaceAlice" Value="좋아，상하이!,플러그인을...." Face="Alice" Mono="False" />
   <!-- どきなさい -->
   <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue4FaceReisen" Value="아니，비켜 봐." Face="Reisen" Mono="False" />
   <!-- この手に限る -->

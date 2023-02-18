@@ -11,7 +11,7 @@
   <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue5FaceDruidMan" Value="느리군." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3EventsStage3Dialogue6FaceDruidMan" Value="다크 프로그램 어드밴스!,드림 메테오!!" Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3EventsStage5Dialogue1FaceRemilia" Value="사쿠야아아아아!!!" Face="Remilia" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage1Dialogue1FaceNone" Value="네놈이 샹하이로군...." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage1Dialogue1FaceNone" Value="네놈이 상하이로군...." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage1Dialogue2FaceShanghai" Value="누구야!?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue1FaceDruidMan" Value="치르노와 메디슨을 물리친,내비라고 들었는데,이 정도의 존재였나...." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage3Dialogue2FaceAlice" Value="이 내비，사쿠야랑 탱크맨을,해친 내비잖아!" Face="Alice" Mono="False" />
@@ -33,15 +33,15 @@
   <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue13FaceShanghai" Value="드루이드맨은,넷 에이전트한테 맡기고,이 사건은 우리끼리 해결해야지." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue14FaceMari" Value="사쿠야랑 탱크맨이 무사한지,확인해야 해....!" Face="Mari" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Chapter3Event2Stage5Dialogue15FaceAlice" Value="당연하지!" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal1Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal1Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal1Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal1Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal1Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal2Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal2Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal2Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal2Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal2Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal3Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal3Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal3Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal3Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal3Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
@@ -54,7 +54,7 @@
   <Dialogue Key="Map.ShoolNet4Terminal5Stage4Dialogue1FaceShanghai" Value="어디 있어? 당장 나와!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage4Dialogue2FaceNone" Value="걸리셨군요!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue1FaceShanghai" Value="그윽!?" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue2FaceAlice" Value="샹하이!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue2FaceAlice" Value="상하이!?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage6Dialogue3FaceShanghai" Value="움직이지가 않아....!?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue1FaceIku" Value="죄송합니다만,함정을 설치해 놓았사옵니다...." Face="Iku" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue2FaceShanghai" Value="너.... 너가 이 사건을,일으킨 범인이로군....!" Face="Shanghai" Mono="False" />
@@ -64,7 +64,7 @@
   <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue6FaceShanghai" Value="이런 사건을 일으켜 놓고....,입은 아주 살았어....!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue7FaceIku" Value="반론할 기력은,있으신 듯하군요...." Face="Iku" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue8FaceIku" Value="그렇지만 그 상태에서는,한 발짝도 움직이실 수,없을 테죠." Face="Iku" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue9FaceAlice" Value="함정....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage8Dialogue9FaceAlice" Value="트랩....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue1FaceAlice" Value="양옆에 있는,저 발전 장치 같은 걸 부수면,어떻게든 될 것 같은데...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue2FaceIku" Value="어머，그걸 눈치채실 줄이야.,우수한 오퍼레이터 같군요." Face="Iku" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage10Dialogue3FaceIku" Value="그렇지만 그걸 알았다 해도,이 상태에서 어떻게,파괴하실 생각이시온지?" Face="Iku" Mono="False" />
@@ -77,12 +77,12 @@
   <Dialogue Key="Map.ShoolNet4Terminal5Stage12Dialogue1FaceAlice" Value="사쿠야!?,살아 있었구나!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage12Dialogue2FaceSakuya" Value="저 혼자만 살아 있는 게,아닙니다!" Face="Sakuya" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage12Dialogue3FaceNone" Value="탱크 캐논!" Face="None" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal5Stage14Dialogue1FaceTankMan" Value="헤헷!,기다리게 했지，샹하이!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage14Dialogue1FaceTankMan" Value="헤헷!,기다리게 했지，상하이!" Face="TankMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue1FaceShanghai" Value="고맙긴 한데....,빨리 성불해 인마!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue2FaceTankMan" Value="멋대로 죽이지 말라고!" Face="TankMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue3FaceIku" Value="드루이드맨 씨의 공격으로부터,도망쳐 나오셨군요....!" Face="Iku" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue4FaceSakuya" Value="요리히메라 불리는,내비 덕분에,간신히 살아나왔습니다." Face="Sakuya" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue5FaceTankMan" Value="샹하이!,이제 그 놈만 쓰러뜨리면 돼!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue5FaceTankMan" Value="상하이!,이제 그 놈만 쓰러뜨리면 돼!" Face="TankMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue6FaceShanghai" Value="알고 있어!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue7FaceIku" Value="어쩔 수 없군요...." Face="Iku" Mono="False" />
   <Dialogue Key="Map.ShoolNet4Terminal5Stage16Dialogue8FaceIku" Value="거친 행동은,별로 좋아하지 않사옵니다만...." Face="Iku" Mono="False" />
@@ -190,5 +190,5 @@
   <Dialogue Key="Map.ShoolNet4GateStage3Dialogue13FaceRika" Value="탱크맨은 분명....,분명히 살아 있을 거에요!" Face="Rika" Mono="False" />
   <Dialogue Key="Map.ShoolNet4GateStage3Dialogue14FaceRika" Value="그러니까 부탁하는 거에요!" Face="Rika" Mono="False" />
   <Dialogue Key="Map.ShoolNet4GateStage3Dialogue15FaceAlice" Value="물론이지!" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue16FaceAlice" Value="샹하이!,지나갈 수 있게 해 줄 테니까,잠깐만 기다려 줘!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet4GateStage3Dialogue16FaceAlice" Value="상하이!,지나갈 수 있게 해 줄 테니까,잠깐만 기다려 줘!" Face="Alice" Mono="False" />
 </data>

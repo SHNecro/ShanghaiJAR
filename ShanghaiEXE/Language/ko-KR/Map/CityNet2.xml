@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　シティエリア１ -->
   <Text Key="Map.CityNet2Name" Value="인터넷 시티 에리어 1" />
@@ -134,7 +134,7 @@
   <!-- この間のようなチンピラが出ないように見回りしてます！ -->
   <Dialogue Key="Map.CityNet2Chapter3ManNavi3Stage1Dialogue1FaceNaviPurplePunk" Value="저번에 봤던,양아치들이 나오지 않도록,순찰을 돌고 있어요!" Face="NaviPurplePunk" Mono="False" />
   <!-- このエリアもやがてはシャンハイ様のシマになるでしょうからね！ -->
-  <Dialogue Key="Map.CityNet2Chapter3ManNavi3Stage1Dialogue2FaceNaviPurplePunk" Value="이 에리어도 언젠가는,샹하이 님의 영역이,될 테니까요!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.CityNet2Chapter3ManNavi3Stage1Dialogue2FaceNaviPurplePunk" Value="이 에리어도 언젠가는,상하이 님의 영역이,될 테니까요!" Face="NaviPurplePunk" Mono="False" />
   <!-- どこかのスクエアにあるというインターネットバー････ -->
   <Dialogue Key="Map.CityNet2Chapter3GirlNavi3Stage1Dialogue1FaceNaviPurpleFemale" Value="어딘가의 스퀘어에,인터넷 바가 있다는데...." Face="NaviPurpleFemale" Mono="False" />
   <!-- 一度行ってみたいわぁ -->
@@ -210,7 +210,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.CityNet2BlackRobe2Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.CityNet2BlackRobe2Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet2BlackRobe2Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.CityNet2BlackRobe2Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 豪華客船セイレーン１Ｆ　操舵室 -->
   <Text Key="Map.SeirenShip1fbridgeName" Value="호화 여객선 세이렌 1층 조타실" />
@@ -85,7 +85,7 @@
   <!-- 私達も部屋で休みましょ張り切りすぎて疲れちゃった -->
   <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue1FaceShanghai" Value="우리도 방으로 돌아가자.,너무 힘 줘서 그런가 지쳤어." Face="Shanghai" Mono="False" />
   <!-- シャンハイ急に機嫌が良くなったわね？ -->
-  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue2FaceAlice" Value="샹하이，,갑자기 기분이 좋아진 거 같은데?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue2FaceAlice" Value="상하이，,갑자기 기분이 좋아진 거 같은데?" Face="Alice" Mono="False" />
   <!-- そりゃあ？みんなの命が助かったんだし！元気にもなるわよ！ -->
   <Dialogue Key="Map.SeirenShip1fbridgeChapter5EventsStage17Dialogue3FaceShanghai" Value="그야 당연히 모두의 생명을,구할 수 있었으니까,기분이 좋아지는 게 당연하지!" Face="Shanghai" Mono="False" />
   <!-- （絶対にウソだ････） -->

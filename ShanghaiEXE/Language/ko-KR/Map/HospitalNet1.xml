@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 病院の電脳１ -->
   <Text Key="Map.HospitalNet1Name" Value="병원의 전뇌 1" />
@@ -9,7 +9,7 @@
   <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
   <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue1FaceSprite" Value="당신의 체력을,회복시켜 드릴게요." Face="Sprite" Mono="False" />
   <!-- シャンハイのＨＰが全回復した！ -->
-  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue2FaceNone" Value="샹하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue2FaceNone" Value="상하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
   <!-- ネツボウソウデ　ＨＰガナクナルト　プラグアウトヲシナクテハ　イケマセン -->
   <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue3FaceSprite" Value="열폭주로 인해 체력이 없어지면,플러그아웃해야 해요." Face="Sprite" Mono="False" />
   <!-- ＨＰノ　リョウニハキヲツケテ　クダサイネ -->
@@ -17,7 +17,7 @@
   <!-- ううっ････流石に中も暑いわね -->
   <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue1FaceShanghai" Value="으윽....,역시 이 곳도 뜨거운데." Face="Shanghai" Mono="False" />
   <!-- この熱　シャンハイの体力をじわじわ減らすみたいね -->
-  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue2FaceAlice" Value="이 열 때문에 샹하이의 체력이,서서히 줄어드는 것 같아." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue2FaceAlice" Value="이 열 때문에 상하이의 체력이,서서히 줄어드는 것 같아." Face="Alice" Mono="False" />
   <!-- 体力が無くなる前にケリをつけるわよ！ -->
   <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue3FaceShanghai" Value="체력이 줄어들기 전에,끝을 봐야 해!" Face="Shanghai" Mono="False" />
   <!-- タスケテクダサイ！デンノウセカイガ　カジデス！ -->

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.SeirenShip1fPartyName" Value="호화 여객선 세이렌 1층 파티 회장" />
   <Dialogue Key="Map.SeirenShip1fPartyTable1Stage1Dialogue1FaceNone" Value="고급스러운 디저트가,차려져 있다." Face="None" Mono="False" />
@@ -63,7 +63,7 @@
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage7Dialogue1FaceNone" Value="와아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue1FaceSanaeReporter" Value="우선 동구권의 넷배틀러!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue2FaceSanaeReporter" Value="일본의 넷배틀 대회인,N1 리그에서 우승한...." Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue3FaceSanaeReporter" Value="금색의 마신!,신키 앨리스와,그 내비，샹하이～～～!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue3FaceSanaeReporter" Value="금색의 마신!,신키 앨리스와,그 내비，상하이～～～!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue4FaceAlice" Value="저 이명을 여기서까지,들어야 한다니...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue1FaceSanaeReporter" Value="이에 맞서는 서구권의 넷배틀러!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue2FaceSanaeReporter" Value="인섹터 왕국에서 개최된 대회인,웹 토너먼트에서 우승한...." Face="SanaeReporter" Mono="False" />
@@ -76,7 +76,7 @@
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage15Dialogue1FaceSanaeReporter" Value="그러면 양 선수，,플러그인해 주세요!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue1FaceShanghai" Value="네가 내 대전 상대구나?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue2FaceBeetleMan" Value="나의 이름은 비틀맨!" Face="BeetleMan" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue3FaceBeetleMan" Value="동방에서 온 넷 내비,샹하이여!,상대로써 부족함이 없다!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue3FaceBeetleMan" Value="동방에서 온 넷 내비,상하이여!,상대로써 부족함이 없다!" Face="BeetleMan" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue4FaceShanghai" Value="관객들에게 어필할 수 있는,좋은 승부를 보여주자구." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue5FaceBeetleMan" Value="후후，재미있는 말을 하는군!,그러면 정정당당하게!" Face="BeetleMan" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue6FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
@@ -85,8 +85,8 @@
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue9FaceBeetleMan" Value="간다!" Face="BeetleMan" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue1FaceSanaeReporter" Value="승자!,리글＆비틀맨!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue2FaceShanghai" Value="큭.... 꽤나 강하잖아." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue3FaceBeetleMan" Value="샹하이 그대도 꽤나,실력 있는 상대였소." Face="BeetleMan" Mono="False" />
-  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue1FaceSanaeReporter" Value="승자!,앨리스＆샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue3FaceBeetleMan" Value="상하이 그대도 꽤나,실력 있는 상대였소." Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue1FaceSanaeReporter" Value="승자!,앨리스＆상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue2FaceShanghai" Value="GG～!,서구권 내비도 별 거 아니구만!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue3FaceBeetleMan" Value="꽤나 간만에 졌군....,좋은 승부였소." Face="BeetleMan" Mono="False" />
   <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage23Dialogue1FaceWriggleHat" Value="즐거운 승부였어.,고마워!" Face="WriggleHat" Mono="False" />

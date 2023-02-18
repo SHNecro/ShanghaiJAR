@@ -31,7 +31,7 @@
   <!-- スパナマン！ -->
   <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue1FaceShanghai" Value="스패너맨!" Face="Shanghai" Mono="False" />
   <!-- どうだ　シャンハイちゃん！惚れなおしたか！ -->
-  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue2FaceSpannerMan" Value="어때，샹하이!,반할 만하지!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue2FaceSpannerMan" Value="어때，상하이!,반할 만하지!" Face="SpannerMan" Mono="False" />
   <!-- それは置いといて助かったわ！ -->
   <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue3FaceShanghai" Value="그 부분은 제껴 두고,덕분에 살았어!" Face="Shanghai" Mono="False" />
   <!-- 置いとかれた････ -->
@@ -67,7 +67,7 @@
   <!-- ふーこれで一安心････ -->
   <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue1FaceShanghai" Value="휘우～ 한 숨 돌렸네...." Face="Shanghai" Mono="False" />
   <!-- シャンハイ　大変！水が止まらないわ！ -->
-  <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue2FaceAlice" Value="샹하이，큰일이야!,물이 안 멈춰!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue2FaceAlice" Value="상하이，큰일이야!,물이 안 멈춰!" Face="Alice" Mono="False" />
   <!-- なんですって！？ -->
   <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue3FaceShanghai" Value="뭐야!?" Face="Shanghai" Mono="False" />
 </data>

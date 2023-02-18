@@ -36,7 +36,7 @@
   <!-- せめてあなたのサポートとしてこれくらいは････ -->
   <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue3FaceYorihime" Value="적어도 이걸로 널 서포팅해,줄 수는 있겠지...." Face="Yorihime" Mono="False" />
   <!-- ヨリヒメが渡したサブチップでシャンハイのＨＰが全回復した！ -->
-  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue4FaceNone" Value="요리히메가 건네준 서브칩 덕분에,샹하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue4FaceNone" Value="요리히메가 건네준 서브칩 덕분에,상하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
   <!-- セキュリティによりロックされている -->
   <Dialogue Key="Map.CompanyServerBDoorStage1Dialogue1FaceNone" Value="보안에 의해 잠겨 있다." Face="None" Mono="False" />
   <!-- セキュリティによりロックされている -->

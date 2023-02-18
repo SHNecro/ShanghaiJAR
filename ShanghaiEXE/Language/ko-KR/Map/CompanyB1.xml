@@ -29,21 +29,21 @@
   <!-- ヨリヒメをオペレートできれば脱出することもできるだろうが････ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue9FaceReisen" Value="요리히메를,오퍼레이트할 수만 있다면,탈출할 수도 있을 텐데...." Face="Reisen" Mono="False" />
   <!-- ････そうよ　シャンハイをプラグインしっぱなしだった！ -->
-  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue10FaceAlice" Value="....아 맞아，샹하이를,플러그인해 놓은 상태였어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue10FaceAlice" Value="....아 맞아，상하이를,플러그인해 놓은 상태였어!" Face="Alice" Mono="False" />
   <!-- なに？ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue11FaceReisen" Value="뭐?" Face="Reisen" Mono="False" />
   <!-- きっとシャンハイが助けに来てくれるはずよそれを待ちましょう！ -->
-  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue12FaceAlice" Value="분명 샹하이가,도와주러 올 거야.,그걸 기다리자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue12FaceAlice" Value="분명 상하이가,도와주러 올 거야.,그걸 기다리자!" Face="Alice" Mono="False" />
   <!-- なぜ　オペレーターの手を離れたネットナビをそんなに信用することができる？ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue13FaceReisen" Value="왜 오퍼레이터의 손에서 벗어난,넷 내비를 그렇게 신용할 수 있지?" Face="Reisen" Mono="False" />
   <!-- それは････シャンハイは私の大切な友達だから！ -->
-  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue14FaceAlice" Value="그건....,샹하이는 내 소중한 친구니까!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage3Dialogue14FaceAlice" Value="그건....,상하이는 내 소중한 친구니까!" Face="Alice" Mono="False" />
   <!-- ････む？ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage5Dialogue1FaceReisen" Value="....어?" Face="Reisen" Mono="False" />
   <!-- アリス　そこにいるのね！ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue1FaceShanghai" Value="앨리스，거기 있구나!" Face="Shanghai" Mono="False" />
   <!-- シャンハイ！ -->
-  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue2FaceAlice" Value="샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue2FaceAlice" Value="상하이!" Face="Alice" Mono="False" />
   <!-- ････よし！社内無線ネットワークからアリスの携帯へ接続できたわ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage7Dialogue3FaceShanghai" Value="....좋아!,회사 내 무선 네트워크를 통해,앨리스의 폰에 접속했어!" Face="Shanghai" Mono="False" />
   <!-- これでオペレートできるわねアリス　大丈夫？ -->
@@ -71,7 +71,7 @@
   <!-- あたしはこのままサーバーの中からあんたたちを支援するわ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue10FaceShanghai" Value="난 이대로,서버 안에서,너희들을 지원할게." Face="Shanghai" Mono="False" />
   <!-- プラグアウトはできないからシャンハイ　気をつけてね -->
-  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue11FaceAlice" Value="플러그아웃은 안 되니까,샹하이，조심해." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue11FaceAlice" Value="플러그아웃은 안 되니까,상하이，조심해." Face="Alice" Mono="False" />
   <!-- 神綺アリス　行くぞ！ -->
   <Dialogue Key="Map.CompanyB1Chapter7EventsStage9Dialogue12FaceReisen" Value="신키 앨리스，가자!" Face="Reisen" Mono="False" />
   <!-- ええ！ -->

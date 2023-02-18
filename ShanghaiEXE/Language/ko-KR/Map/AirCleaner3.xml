@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
   <Text Key="Map.AirCleaner3Name" Value="공기 청정기의 전뇌 3" />
-  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue1FaceSprite" Value="히이익!,엄청난 수의 가스가,발생해 버렸어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue1FaceSprite" Value="히이익!,엄청난 양의 가스가,발생해 버렸어요!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue2FaceSprite" Value="조심하면서 나아가 주세요!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.AirCleaner3Sprite1Stage3Dialogue1FaceSprite" Value="살았다～" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue1FaceSprite" Value="구조 프로그램에 의해 구조되면,이곳으로 후송됩니다." Face="Sprite" Mono="False" />
@@ -36,7 +36,7 @@
   <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue5FaceAlice" Value="이러면 등록할 수 있겠어." Face="Alice" Mono="False" />
   <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue6FaceAlice" Value="....좋아，등록 완료!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue7FaceShanghai" Value="엄청 빠른데." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue8FaceAlice" Value="샹하이한테만,모든 일을 맡길 순 없잖아." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue8FaceAlice" Value="상하이한테만,모든 일을 맡길 순 없잖아." Face="Alice" Mono="False" />
   <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue9FaceAlice" Value="자，서둘러 3층으로 가자!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.AirCleaner3ControlStage3Dialogue1FaceNone" Value="공기청정기는,정상적으로 작동하고 있다." Face="None" Mono="False" />
   <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue1FaceNaviBlueRobot" Value="당신이 의뢰를,수락해 준 분이군요?" Face="NaviBlueRobot" Mono="False" />

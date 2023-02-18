@@ -11,7 +11,7 @@
   <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
   <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue6FaceSprite" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.Jinja3GateStage1Dialogue1FaceNone" Value="샹하이는 문에,음의 열쇠와 양의 열쇠를,끼워넣었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue1FaceNone" Value="상하이는 문에,음의 열쇠와 양의 열쇠를,끼워넣었다!" Face="None" Mono="False" />
   <Dialogue Key="Map.Jinja3GateStage1Dialogue2FaceNone" Value="문이 아래로 내려가면서,길이 열렸다!" Face="None" Mono="False" />
   <Dialogue Key="Map.Jinja3GateStage3Dialogue1FaceNone" Value="문이 잠겨 있어서 꿈쩍도 안 한다!" Face="None" Mono="False" />
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue1FacePyroMan" Value="후르르르르르르...." Face="PyroMan" Mono="False" />
@@ -34,7 +34,7 @@
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue18FacePyroMan" Value="방해하는 놈들은 불태운다!,바이너리의 조각도 안 남을 정도로,통구이로 만들어 주마! 화르르르!" Face="PyroMan" Mono="False" />
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue19FaceShanghai" Value="말 자알 했다....!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue20FaceShanghai" Value="니놈의 그 하찮은 불꽃 따위,그 썩어빠진 근성과 함께,싸잡아서 날려 버리겠어!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue21FaceAlice" Value="샹하이! 가자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue21FaceAlice" Value="상하이! 가자!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue22FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue23FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.Jinja3BossEventStage1Dialogue24FacePyroMan" Value="화르르륵!" Face="PyroMan" Mono="False" />

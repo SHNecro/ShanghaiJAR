@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　ゲンソウエリア1 -->
   <Text Key="Map.GenNet1Name" Value="인터넷 환상 에리어 1" />
@@ -105,7 +105,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->
@@ -143,7 +143,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->
@@ -160,6 +160,6 @@
   <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
   <!-- ････そうね！いきましょうウラインターネットに！ -->
   <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.GenNet1PostGameBystander2Dialogue1" Value="샹하이 언니처럼,되는 게 내 꿈이야!" Face="NaviChild" Mono="False" />
-  <Dialogue Key="Map.GenNet1PostGameBystander1Dialogue1" Value="안녕하시오，샹하이 씨.,오늘도 이 에리어는 평화롭군요." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.GenNet1PostGameBystander2Dialogue1" Value="상하이 언니처럼,되는 게 내 꿈이야!" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.GenNet1PostGameBystander1Dialogue1" Value="안녕하시오，상하이 씨.,오늘도 이 에리어는 평화롭군요." Face="NaviGreenRobot" Mono="False" />
 </data>

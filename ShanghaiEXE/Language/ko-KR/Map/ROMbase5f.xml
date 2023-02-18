@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　首領の部屋 -->
   <Text Key="Map.ROMbase5fName" Value="ROM 기지 두령의 방" />
@@ -33,7 +33,7 @@
   <!-- できるものならやってみなさい八意鈴仙と神綺アリス -->
   <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue6FaceHoodedFace" Value="할 수 있다면 어디 해 보시지，,야고코로 레이센，,그리고 신키 앨리스." Face="HoodedFace" Mono="False" />
   <!-- やってやるわ！シャンハイ　プラグインよ！ -->
-  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue7FaceAlice" Value="해 주겠어!,샹하이，플러그인한다!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue7FaceAlice" Value="해 주겠어!,상하이，플러그인한다!" Face="Alice" Mono="False" />
   <!-- プラグインポイントはアリスの左斜め後方にあるみたいね -->
   <Dialogue Key="Map.ROMbase5fMeetingEncounterEventStage1Dialogue8FaceShanghai" Value="플러그인 포인트는,앨리스의 왼편 뒤쪽 대각선 쪽에,있는 것 같아." Face="Shanghai" Mono="False" />
   <!-- ここまでのセキュリティを突破したお前たちが先に行ったほうがいいだろう -->

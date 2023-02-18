@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.GenUniversity3roomName" Value="환상대학교 실험실" />
   <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue1FaceNone" Value="실험실의 컴퓨터다." Face="None" Mono="False" />
@@ -30,7 +30,7 @@
   <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue9FaceShanghai" Value="근데，그래도,한 마디는 해야겠어." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue10FaceShanghai" Value="이 세상에 싫은 게,너무 많은 건 사실이야." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue11FaceShanghai" Value="그런데 그런 싫은 거 하나하나마다,도망치려 들고 눈을 돌리는,넌 아무리 봐도 겁쟁이야." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue12FaceAlice" Value="샹하이，또 그런 말을...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue12FaceAlice" Value="상하이，또 그런 말을...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue13FaceShanghai" Value="조용히 하고 들어!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue14FaceShanghai" Value="레밀리아，넌 이대로,겁쟁이로 살고 싶어?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue15FaceShanghai" Value="도망치고 뒤에서 지적당하고,놀림받고 이래도 좋아?" Face="Shanghai" Mono="False" />
@@ -63,7 +63,7 @@
   <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue1FaceNone" Value="앨리.... 스...." Face="None" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue2FaceAlice" Value="레밀리아!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue3FaceShanghai" Value="구해줄 테니까,그 이전에 뒈지지나 말라고!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue4FaceAlice" Value="샹하이....,또 그런 식으로 말을...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue4FaceAlice" Value="상하이....,또 그런 식으로 말을...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue5FaceAlice" Value="...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue6FaceAlice" Value="공기청정기에 플러그인해야 해!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GenUniversity3roomToTheOutsideStage1Dialogue1FaceNone" Value="비상 사태이므로,방화 셔터를 폐쇄,....라고 표시되어 있다." Face="None" Mono="False" />

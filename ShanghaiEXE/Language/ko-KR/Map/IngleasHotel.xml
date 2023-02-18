@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インゲレス　ホテル -->
   <Text Key="Map.IngleasHotelName" Value="잉겔레스 호텔" />
@@ -23,7 +23,7 @@
   <!-- 翌日････ -->
   <Dialogue Key="Map.IngleasHotelBedStage7Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
   <!-- シャンハイ　おはよう････ -->
-  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue1FaceAlice" Value="샹하이，안녕...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue1FaceAlice" Value="상하이，안녕...." Face="Alice" Mono="False" />
   <!-- アリス　眠れた？ -->
   <Dialogue Key="Map.IngleasHotelBedStage9Dialogue2FaceShanghai" Value="앨리스，잠은 잤어?" Face="Shanghai" Mono="False" />
   <!-- それなりにね････ -->
@@ -133,11 +133,11 @@
   <!-- なんとか････逃げ切ったみたいね････ -->
   <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue2FaceShanghai" Value="어떻게든....,뿌리친 것 같네...." Face="Shanghai" Mono="False" />
   <!-- シャンハイ　ありがとう助けてくれて････ -->
-  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue3FaceAlice" Value="샹하이，고마워. 도와 줘서...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue3FaceAlice" Value="상하이，고마워. 도와 줘서...." Face="Alice" Mono="False" />
   <!-- それなのに私ったら････あなたにひどいこと言っちゃった -->
   <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue4FaceAlice" Value="그랬는데 난....,너한테 심한 말을 해 버렸어." Face="Alice" Mono="False" />
   <!-- いつもシャンハイが守ってくれてたのに私　私････ -->
-  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue5FaceAlice" Value="항상 샹하이가,날 지켜주고 있는데,나.... 난...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue5FaceAlice" Value="항상 상하이가,날 지켜주고 있는데,나.... 난...." Face="Alice" Mono="False" />
   <!-- あたしも　あんたの気持ちに気づくことが出来なくてゴメンね -->
   <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue6FaceShanghai" Value="나도 네 기분을,이해해 주지 않았어.,미안해." Face="Shanghai" Mono="False" />
   <!-- 遅いかもしれないけどこれからはあんたの気持ち応援するから････さ -->

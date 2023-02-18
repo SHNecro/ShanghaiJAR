@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 花だんの電脳 -->
   <Text Key="Map.FlowerbedName" Value="꽃밭의 전뇌" />
   <!-- お待ちしておりましたシャンハイ様 -->
-  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue1FaceNaviRedSprite" Value="기다리고 있었습니다，샹하이 님." Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue1FaceNaviRedSprite" Value="기다리고 있었습니다，상하이 님." Face="NaviRedSprite" Mono="False" />
   <!-- あなたって私の家のスプライトちゃん？ -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage1Dialogue2FaceAlice" Value="넌 우리 집의 스프라이트잖아?" Face="Alice" Mono="False" />
   <!-- 指定した場所でだいたい予想はついてたけどね -->
@@ -29,7 +29,7 @@
   <!-- なんでも転生プログラムというものでバージョンアップを行うとか････ -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue4FaceNaviRedSprite" Value="확실치는 않지만，,전생 프로그램이라는,걸로 버전업을 한다던가...." Face="NaviRedSprite" Mono="False" />
   <!-- シャンハイ様にはその「転生プログラム」を手に入れていただきたいのです -->
-  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue5FaceNaviRedSprite" Value="샹하이 님께서는 그,”전생 프로그램”을,얻어다 주셨으면 합니다." Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue5FaceNaviRedSprite" Value="상하이 님께서는 그,”전생 프로그램”을,얻어다 주셨으면 합니다." Face="NaviRedSprite" Mono="False" />
   <!-- 名前以外に情報は？ -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage3Dialogue6FaceShanghai" Value="이름 이외에 다른 정보는?" Face="Shanghai" Mono="False" />
   <!-- ････ありません -->
@@ -91,7 +91,7 @@
   <!-- ユメコ････良い名をいただき感謝の極みです！ -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue11FaceYumeko" Value="유메코.... 좋은 이름을 받아,너무도 감사하기 그지없습니다!" Face="Yumeko" Mono="False" />
   <!-- あっ　シャンハイ様には御礼の品としてこれをお送りします！ -->
-  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue12FaceYumeko" Value="아，샹하이 님께는,답례품으로써 이걸,보내 드리겠습니다!" Face="Yumeko" Mono="False" />
+  <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue12FaceYumeko" Value="아，상하이 님께는,답례품으로써 이걸,보내 드리겠습니다!" Face="Yumeko" Mono="False" />
   <!-- では早速！この新しい身体でお仕事に取り掛からせていただきます！ -->
   <Dialogue Key="Map.FlowerbedRequest14YumekoStage13Dialogue13FaceYumeko" Value="그러면 곧바로!,이 새로운 몸으로 일을,시작하러 가 보겠습니다!" Face="Yumeko" Mono="False" />
   <!-- なんだか家族が増えたみたい！ -->

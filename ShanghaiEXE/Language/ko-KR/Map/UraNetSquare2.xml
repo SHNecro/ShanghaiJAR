@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- セカイウラスクエア -->
   <Text Key="Map.UraNetSquare2Name" Value="세계 우라 스퀘어" />
@@ -23,9 +23,9 @@
   <!-- くれぐれも気をつけてくださいね -->
   <Dialogue Key="Map.UraNetSquare2Chapter6NaviBookerStage1Dialogue2FaceHenchie" Value="아무쪼록 조심해 주세요." Face="Henchie" Mono="False" />
   <!-- ブッカーの持っているサブチップでシャンハイのＨＰが全回復した！ -->
-  <Dialogue Key="Map.UraNetSquare2Chapter6NaviBookerStage1Dialogue3FaceNone" Value="부화가 가지고 있는 서브칩 덕분에,샹하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2Chapter6NaviBookerStage1Dialogue3FaceNone" Value="부화가 가지고 있는 서브칩 덕분에,상하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
   <!-- シャンハイ様ー本当に良いんですかー？ -->
-  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue1FaceHenchie" Value="샹하이 님，,진짜로 괜찮은 건가요?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue1FaceHenchie" Value="상하이 님，,진짜로 괜찮은 건가요?" Face="Henchie" Mono="False" />
   <!-- ････何がよ？ -->
   <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage1Dialogue2FaceShanghai" Value="....뭐가?" Face="Shanghai" Mono="False" />
   <!-- アリスさんを一人で放っておいて良いんです？ -->
@@ -49,7 +49,7 @@
   <!-- アリス？確かにあたしも悪かったけどさ････ -->
   <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue2FaceShanghai" Value="앨리스?,역시 나도 미안하긴 한데...." Face="Shanghai" Mono="False" />
   <!-- シャンハイ････ -->
-  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue3FaceAlice" Value="샹하이...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue3FaceAlice" Value="상하이...." Face="Alice" Mono="False" />
   <!-- た････助けて････！ -->
   <Dialogue Key="Map.UraNetSquare2Chapter6EventsStage3Dialogue4FaceAlice" Value="사.... 살려 줘....!" Face="Alice" Mono="False" />
   <!-- っ････！？何があったのっ！？ -->

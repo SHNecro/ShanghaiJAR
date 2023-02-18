@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- エージェントセンター　受付 -->
   <Text Key="Map.NetAgentSenter1fName" Value="에이전트 센터 접수처" />
@@ -57,7 +57,7 @@
   <!-- 売り切れってわけじゃないし故障かしら？ -->
   <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue10FaceShanghai" Value="매진은 아니니까，고장났나?" Face="Shanghai" Mono="False" />
   <!-- ウィルスが悪さしてるのかもシャンハイ　お願い -->
-  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue11FaceAlice" Value="바이러스가 나쁜 짓을,하고 있는 걸 지도 모르지.,샹하이，부탁할게." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue11FaceAlice" Value="바이러스가 나쁜 짓을,하고 있는 걸 지도 모르지.,상하이，부탁할게." Face="Alice" Mono="False" />
   <!-- へいへいそんなことだろうと思ったわよ -->
   <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue12FaceShanghai" Value="네에，네에.,그런 거일 거라 생각했어." Face="Shanghai" Mono="False" />
   <!-- ・・・・わっ！やっぱりウィルスが入ってるわよ！ -->

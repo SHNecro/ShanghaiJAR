@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 幻想町 -->
   <Text Key="Map.GencityName" Value="환상 마을" />
@@ -109,7 +109,7 @@
   <!-- えーっと　プラグイン端子は････ -->
   <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue12FaceAlice" Value="어～디 보자，,플러그인 단자가...." Face="Alice" Mono="False" />
   <!-- あった！行くわよシャンハイ！ -->
-  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue13FaceAlice" Value="여기 있네!,가자，샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue13FaceAlice" Value="여기 있네!,가자，상하이!" Face="Alice" Mono="False" />
   <!-- バトルオペレーション、セット！ -->
   <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue14FaceAlice" Value="배틀 오퍼레이션，셋!" Face="Alice" Mono="False" />
   <!-- イン！ -->
@@ -385,7 +385,7 @@
   <!-- 研究室ね！今から向かうわ！ -->
   <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue9FaceShanghai" Value="연구소라 그랬지!,지금 바로 갈게!" Face="Shanghai" Mono="False" />
   <!-- 急ぐわよ！シャンハイ！ -->
-  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue10FaceAlice" Value="서두르자，샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue10FaceAlice" Value="서두르자，상하이!" Face="Alice" Mono="False" />
   <!-- それじゃあ永遠町にレッツゴー！ -->
   <Dialogue Key="Map.GencityChapter4TenshiStage1Dialogue1FaceTenshi" Value="그러면 영원 마을로,고고씽!" Face="Tenshi" Mono="False" />
   <!-- アリス　永遠町に行くのよ！ -->
@@ -467,7 +467,7 @@
   <!-- おみやげすっごく嬉しいのです！感謝感激なのなのです！ -->
   <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue1FaceRika" Value="여행 선물을 받아서,너무 기쁜 거에요!,너무도 감격한 거에요!" Face="Rika" Mono="False" />
   <!-- シャンハイがいない間タンクマン寂しがってたのでネットバトルするのです！ -->
-  <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue2FaceRika" Value="샹하이가 없던 동안,탱크맨이 쓸쓸해했는데,넷배틀하는 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue2FaceRika" Value="상하이가 없던 동안,탱크맨이 쓸쓸해했는데,넷배틀하는 거에요!" Face="Rika" Mono="False" />
   <!-- 最近はＲＯＭの事件もないし平和だね -->
   <Dialogue Key="Map.GencityChapter7Boy1Stage1Dialogue1FaceMaleStudent" Value="최근에는 ROM이 사건을,일으키고 있는 것도 아니고,참 평화롭네." Face="MaleStudent" Mono="False" />
   <!-- ぼ　僕のナビがインターネットでやられちゃった！何が起こっているんだ！？ -->
@@ -599,7 +599,7 @@
   <!-- さすがアリスさんはすっごく強いのです！ -->
   <Dialogue Key="Map.GencityTankManBattleStage5Dialogue1FaceRika" Value="역시 앨리스 씨는,엄청 센 거에요!" Face="Rika" Mono="False" />
   <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
-  <Dialogue Key="Map.GencityTankManBattleStage6Dialogue1FaceTankMan" Value="샹하이!,멋진 모습을 보여 주겠다구!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GencityTankManBattleStage6Dialogue1FaceTankMan" Value="상하이!,멋진 모습을 보여 주겠다구!" Face="TankMan" Mono="False" />
   <!-- ファイトなのです！タンクマン！！ -->
   <Dialogue Key="Map.GencityTankManBattleStage6Dialogue2FaceRika" Value="파이팅인 거에요!,탱크맨!!" Face="Rika" Mono="False" />
   <!-- 里香の勝ちなのです！ -->
@@ -611,7 +611,7 @@
   <!-- これが里香の本気なのです！！ -->
   <Dialogue Key="Map.GencityTankManBattleStage11Dialogue2FaceRika" Value="이것이 리카의 진심인 거에요!!" Face="Rika" Mono="False" />
   <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
-  <Dialogue Key="Map.GencityTankManBattleStage13Dialogue1FaceTankMan" Value="어때，샹하이!,반할 만했지!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GencityTankManBattleStage13Dialogue1FaceTankMan" Value="어때，상하이!,반할 만했지!" Face="TankMan" Mono="False" />
   <!-- がーん！里香は勝てないのです！ -->
   <Dialogue Key="Map.GencityTankManBattleStage15Dialogue1FaceRika" Value="데～엥!,리카는 이기질 못 하는 거에요!" Face="Rika" Mono="False" />
   <!-- また今度やるのです！ -->
@@ -716,7 +716,7 @@
   <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue2" Value="고약한 바이러스라도,침입해 들어왔나 본데?" Face="Mari" Mono="False" />
   <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue3" Value="앨리스，몸 상태가 나아진 지,얼마 안 됐는데 미안하지만,평소 하던 그거 가자!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue4" Value="그래，물론이지!" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue5" Value="플러그인!,샹하이.EXE，,트랜스미션!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue5" Value="플러그인!,상하이.EXE，,트랜스미션!!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GencityPostGameBystander1Dialogue1" Value="안녕，앨리스!" Face="MaleStudent" Mono="False" />
   <Dialogue Key="Map.GencityPostGameBystander1Dialogue2" Value="세계를 구한 그 대단한 사람이,이 근방에 살고 있다는 게,뭔가 자랑스러워!" Face="MaleStudent" Mono="False" />
   <Dialogue Key="Map.GencityPostGameBystander2Dialogue1" Value="한 달만 더 지나면 여름방학이다!,방학 되기 전에 세계가,평화로워져서 다행이야～～!" Face="FemaleStudent" Mono="False" />

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.Genschool2faName" Value="환상중학교 2층" />
   <Dialogue Key="Map.Genschool2faToWarehouseStage1Dialogue1FaceNone" Value="창고로 이어지는 문이지만,잠겨 있어서 들어갈 수 없다." Face="None" Mono="False" />
@@ -6,7 +6,7 @@
   <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue2FaceNone" Value="입학한 이래로,사람들이 이 장소를 쓰는 걸,본 적이 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.Genschool2faTo1FStage1Dialogue1FaceShanghai" Value="아니 잠깐，수업 안 듣고,어디 가려는 거야!?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.Genschool2faTo1FStage3Dialogue1FaceShanghai" Value="돌아가기 전에 할 일이,아직 남아 있잖아!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.Genschool2faTo1FStage5Dialogue1FaceAlice" Value="샹하이를 두고 갈 수는 없어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage5Dialogue1FaceAlice" Value="상하이를 두고 갈 수는 없어!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue1FaceFemaleStudent" Value="이거 곤란하게 됐네...." Face="FemaleStudent" Mono="False" />
   <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue2FaceFemaleStudent" Value="창고에 볼일이 있는데,선생님은 아직 안 오셨고." Face="FemaleStudent" Mono="False" />
   <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue3FaceFemaleStudent" Value="아，교실은 이 쪽이 아니고,반대쪽 복도 쪽에 있는데?" Face="FemaleStudent" Mono="False" />

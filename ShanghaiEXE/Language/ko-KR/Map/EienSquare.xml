@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　エイエンスクエア -->
   <Text Key="Map.EienSquareName" Value="인터넷 영원 스퀘어" />
@@ -121,7 +121,7 @@
   <!-- それでは間もなく予選が始まりますのであちらの方へどうぞ！ -->
   <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage1Dialogue6FaceNaviPinkFemale" Value="그러면 좀 있다가,예선이 시작되니까,저쪽에서 기다려 주세요!" Face="NaviPinkFemale" Mono="False" />
   <!-- シャンハイちゃん！頑張ろうな！ -->
-  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage3Dialogue1FaceSpannerMan" Value="샹하이! 힘내자구!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage3Dialogue1FaceSpannerMan" Value="상하이! 힘내자구!" Face="SpannerMan" Mono="False" />
   <!-- 優勝はあたしがいただくんだからね -->
   <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage3Dialogue2FaceShanghai" Value="우승은 내가 가져가겠어." Face="Shanghai" Mono="False" />
   <!-- えー････コホン -->
@@ -155,7 +155,7 @@
   <!-- それでは　予選開始！ -->
   <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage11Dialogue1FaceNaviBlueRobot" Value="그러면 예선을 시작합니다!" Face="NaviBlueRobot" Mono="False" />
   <!-- シャンハイ････大丈夫？ -->
-  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue1FaceAlice" Value="샹하이.... 괜찮아?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue1FaceAlice" Value="상하이.... 괜찮아?" Face="Alice" Mono="False" />
   <!-- なんのこれしき！豪華客船のためならへっちゃらよ！ -->
   <Dialogue Key="Map.EienSquareChapter4N1ReceptionStage13Dialogue2FaceShanghai" Value="뭘 이런 걸 가지고!,호화 여객선을 위해서라면,이런 걸 못 하겠어!" Face="Shanghai" Mono="False" />
   <!-- あはは　頼もしいわね････ -->
@@ -171,13 +171,13 @@
   <!-- 勝ったわよ！ -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue1FaceShanghai" Value="다 이겼어!" Face="Shanghai" Mono="False" />
   <!-- ････はい！シャンハイさん　予選突破おめでとうございます -->
-  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue2FaceNaviBlueRobot2" Value="....네!,샹하이 씨，예선 돌파,축하드립니다." Face="NaviBlueRobot2" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue2FaceNaviBlueRobot2" Value="....네!,상하이 씨，예선 돌파,축하드립니다." Face="NaviBlueRobot2" Mono="False" />
   <!-- やったわね　シャンハイ！ -->
-  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue3FaceAlice" Value="해냈구나，샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue3FaceAlice" Value="해냈구나，상하이!" Face="Alice" Mono="False" />
   <!-- はん！　当然よ！ -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue4FaceShanghai" Value="하! 당연하지!" Face="Shanghai" Mono="False" />
   <!-- おーい！シャンハイちゃーん！ -->
-  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue5FaceSpannerMan" Value="어～이! 샹하이!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage3Dialogue5FaceSpannerMan" Value="어～이! 상하이!" Face="SpannerMan" Mono="False" />
   <!-- あら　その様子だとスパナマンも予選突破したみたいね -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue1FaceShanghai" Value="어머，보아하니 스패너맨 너도,예선 돌파한 것 같네." Face="Shanghai" Mono="False" />
   <!-- あたぼうよ！これくらい　ヘでもねえぜ！ -->
@@ -209,7 +209,7 @@
   <!-- っとと　あと５分しかない！アリス　じゃあな！ -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue15FaceTsubakiNekku" Value="이런，5분밖에 안 남았네!,나중에 봐，앨리스!" Face="TsubakiNekku" Mono="False" />
   <!-- じゃあなーシャンハイちゃーん -->
-  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue16FaceSpannerMan" Value="나중에 봐，샹하이." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue16FaceSpannerMan" Value="나중에 봐，상하이." Face="SpannerMan" Mono="False" />
   <!-- スパナマン　プラグアウト！ -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage5Dialogue17FaceTsubakiNekku" Value="스패너맨，플러그아웃!" Face="TsubakiNekku" Mono="False" />
   <!-- 私達もそろそろプラグアウトしましょうか -->
@@ -233,9 +233,9 @@
   <!-- げっ！あんたは････ -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue3FaceMedicine" Value="켁!,넌...." Face="Medicine" Mono="False" />
   <!-- あ！　アリスのナビだ！たしかシャンハイだっけ？ -->
-  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue4FaceYamame" Value="아! 앨리스의 내비다!,분명 샹하이라 했지?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue4FaceYamame" Value="아! 앨리스의 내비다!,분명 상하이라 했지?" Face="Yamame" Mono="False" />
   <!-- スーってシャンハイと知り合いだったの？ -->
-  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue5FaceYamame" Value="수랑 샹하이랑,서로 아는 사이야?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue5FaceYamame" Value="수랑 상하이랑,서로 아는 사이야?" Face="Yamame" Mono="False" />
   <!-- あ　アハハ！そういうものよ！ -->
   <Dialogue Key="Map.EienSquareChapter4ModeratorN1Stage13Dialogue6FaceMedicine" Value="아，아하하!,뭐 그런 거지!" Face="Medicine" Mono="False" />
   <!-- スー？あんたの名前ってメディ････ -->

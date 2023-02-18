@@ -44,7 +44,7 @@
   <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue2FaceTsubakiNekku" Value="걱정 마，안심해.,나 꽤 세다고....!" Face="TsubakiNekku" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue3FaceTsubakiNekku" Value="부품 단위로 해체를 해 주마!,가자!" Face="TsubakiNekku" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue4FaceTsubakiNekku" Value="플러그 인!,스패너맨.EXE!,트랜스미션!" Face="TsubakiNekku" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue5FaceAlice" Value="플러그 인!,샹하이.EXE!,트랜스미션!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue5FaceAlice" Value="플러그 인!,상하이.EXE!,트랜스미션!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue1FaceNaviPurplePunk" Value="으아니!" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue2FaceSpannerMan" Value="(우와! 미인 내비구나!)" Face="SpannerMan" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue3FaceShanghai" Value="스패너맨.... 이라 했지?,한 쪽은 너한테 맡길게!" Face="Shanghai" Mono="False" />
@@ -130,14 +130,14 @@
   <Dialogue Key="Map.GameCenterChapter4Audience3Stage1Dialogue1FaceNone" Value="왁자지껄 웅성웅성...." Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue1FaceSanaeReporter" Value="자 그럼!,분위기가 고조되어 가고 있는,N1 리그!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue4FaceAlice" Value="....네?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue5FaceAlice" Value="아니 아니 아니 잠깐만!,대체 뭘 해야 내 소개가,저게 되는 건데!?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue6FaceShanghai" Value="아.... 이전에 인터뷰어가 왔을 때,내 실제 사정을 알아 버린 거 아냐?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue7FaceAlice" Value="무슨 뜻이야?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue8FaceShanghai" Value="봐 봐，내가 뭘 할 때,내멋대로 하는 경우 많잖아?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue9FaceShanghai" Value="아마 인터뷰어가 그걸 전부,앨리스가 나한테 지시해서,한 거라고 생각한 거 아냐?" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue10FaceAlice" Value="진짜 샹하이 이 바보야...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue10FaceAlice" Value="진짜 상하이 이 바보야...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue11FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue12FaceSanaeReporter" Value="올곧게 살아가는 걸 좋아한다!,이시카 마사오 선수랑,그 내비，불혼!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage3Dialogue1FaceBrownHairMaleStudent" Value="한 방 때려박아 주겠어～!" Face="BrownHairMaleStudent" Mono="False" />
@@ -147,13 +147,13 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue3FaceAlice" Value="아오 이젠 나도 몰라!,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue4FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
   <Text Key="Map.GameCenterChapter4BattleEventBattle1Enemy1" Value="불혼" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue1FaceSanaeReporter" Value="승자는～!,샹하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue3FaceShanghai" Value="헤，쉽게 이겼구만!,얼굴 씻고 처음부터 다시 하시지!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue4FaceBrownHairMaleStudent" Value="그으으윽....,제대로 방향을 틀지 못 했어!" Face="BrownHairMaleStudent" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue1FaceSanaeReporter" Value="격한 싸움이 계속 이어지는,N1 리그!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue4FaceAlice" Value="나 설마 대회 내내,계속 이 이명으로,불리는 거 아니지....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue5FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue6FaceSanaeReporter" Value="드래곤 테이머의 이명을 가진,류자키 테츠야 선수랑,그 내비，자그레프!" Face="SanaeReporter" Mono="False" />
@@ -166,13 +166,13 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue5FaceAlice" Value="이대로는 내 이미지가....,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
   <Text Key="Map.GameCenterChapter4BattleEventBattle2Enemy1" Value="자그레프" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue1FaceSanaeReporter" Value="승자는～!,샹하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue3FaceShanghai" Value="정말이지，귀찮은 전법을,쓰는 상대였어...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue4FaceMaleAdult" Value="이럴 수가.... 내 드래곤이!?" Face="MaleAdult" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue1FaceSanaeReporter" Value="3회전에 들어선 N1 리그!,남은 선수는 16명입니다!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue4FaceAlice" Value="이명 변경.... 안 된대." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue5FaceShanghai" Value="그렇게 싫어?,난 멋지다고 생각하는데." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue6FaceAlice" Value="난 진짜 싫거든!" Face="Alice" Mono="False" />
@@ -188,7 +188,7 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue4FaceHakuTakuMan" Value="꼬맹이라 부르지 마!,얕봤다간 험한 꼴 본다고!" Face="HakuTakuMan" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue5FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue1FaceSanaeReporter" Value="승자는～!,샹하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue3FaceHakuTakuMan" Value="우～응....꽈당큐～" Face="HakuTakuMan" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue4FaceShanghai" Value="....이건 솔직히 놀랐어." Face="Shanghai" Mono="False" />
@@ -204,7 +204,7 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue3FaceSanaeReporter" Value="환상대학교의 넷배틀 여왕!,우사미 렌코 선수랑,그 내비，비봉!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue4FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue5FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue5FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage33Dialogue1FaceSumireko" Value="언니도 앨리스도 둘 다 힘내～!" Face="Sumireko" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue1FaceRenko" Value="어，너 스미레코랑 아는 사이니?" Face="Renko" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue2FaceAlice" Value="최근에 신사에서 알게 됐는데요...." Face="Alice" Mono="False" />
@@ -217,14 +217,14 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue4FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue5FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
   <Text Key="Map.GameCenterChapter4BattleEventBattle4Enemy1" Value="비봉" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue1FaceSanaeReporter" Value="승자는～!,샹하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue3FaceRenko" Value="우～응，져 버렸네....,메리가 보러 오지 않아서,다행이라 생각하자." Face="Renko" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue4FaceShanghai" Value="환상대학교의 넷배틀 여왕을,쓰러뜨렸다는 건 즉,이제 우리가 여왕이라는 거?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue5FaceAlice" Value="아마 그건 아니라고 생각해...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue1FaceSanaeReporter" Value="N1 리그도 준결승!,영광을 그 손에 쥘 자는,과연 누가 될 것인가!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue4FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue5FaceSanaeReporter" Value="천하무쌍의 넷배틀러!,츠바키 넥 선수랑,그 내비，스패너맨!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue6FaceAlice" Value="(이명 또 바꿨네....)" Face="Alice" Mono="False" />
@@ -243,18 +243,18 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue3FaceShanghai" Value="(둘 다 내 타입은 아닌데)" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue4FaceAlice" Value="츠바키，그럼 승부를 짓자!,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue5FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue1FaceSanaeReporter" Value="승자는～!,샹하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue3FaceSpannerMan" Value="쿨럭...." Face="SpannerMan" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue4FaceTsubakiNekku" Value="괜찮아，스패너맨...." Face="TsubakiNekku" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue5FaceShanghai" Value="조오아쓰!,결승 진출이다!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue6FaceAlice" Value="뭐야，벌써 거기까지 왔어?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue7FaceShanghai" Value="정신 차리라고，금색의 마신 씨!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue8FaceAlice" Value="아오～!,그거 전부 다 샹하이,너 때문이잖아!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue8FaceAlice" Value="아오～!,그거 전부 다 상하이,너 때문이잖아!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue1FaceSanaeReporter" Value="자 그럼 여러분!,벌써 N1 리그도,드디어 결승전입니다!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue2FaceSanaeReporter" Value="울어도 웃어도 결국은 최종결전!,이 싸움에서 이긴 쪽이,우승의 자리를 차지하게 됩니다!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue3FaceSanaeReporter" Value="그러면 결승에 진출한,엄청난 실력을 가진,넷배틀러들을 소개하겠습니다!" Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue4FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue4FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue5FaceAlice" Value="결국 마지막까지,이 이명이라니...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue6FaceShanghai" Value="그만 포기해...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue7FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
@@ -273,7 +273,7 @@
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue5FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage59Dialogue1FaceSanaeReporter" Value="이렇게 결정이 되는군요!,N1 리그의 영광을,떠안게 될 우승자는....!" Face="SanaeReporter" Mono="False" />
-  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue1FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，샹하이～～!!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue1FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이～～!!!" Face="SanaeReporter" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue3FaceNone" Value="우오오오오오오!" Face="None" Mono="False" />
   <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue4FaceNone" Value="이예에에에에에!" Face="None" Mono="False" />

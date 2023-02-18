@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　エイエンエリア２ -->
   <Text Key="Map.EienNet2Name" Value="인터넷 영원 에리어 2" />
@@ -119,7 +119,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->

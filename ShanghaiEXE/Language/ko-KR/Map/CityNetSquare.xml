@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　キャンパススクエア -->
   <Text Key="Map.CityNetSquareName" Value="인터넷 캠퍼스 스퀘어" />
@@ -27,7 +27,7 @@
   <!-- 幻想大学の学生はサーバーに直接プラグインしてここにすぐ来れるんだよ -->
   <Dialogue Key="Map.CityNetSquareChapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="환상대학교 학생들은,서버에 직접 플러그인해서,곧바로 여기 올 수 있어." Face="NaviGreenRobot" Mono="False" />
   <!-- おや　シャンハイ様こんなところで奇遇ですな -->
-  <Dialogue Key="Map.CityNetSquareChapter2GuardianNavi1Stage1Dialogue1FaceNaviPurplePunk" Value="어，샹하이 님.,이런 곳에서 만나뵙게 되다니,우연이군요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.CityNetSquareChapter2GuardianNavi1Stage1Dialogue1FaceNaviPurplePunk" Value="어，상하이 님.,이런 곳에서 만나뵙게 되다니,우연이군요." Face="NaviPurplePunk" Mono="False" />
   <!-- え？べ、別に店員がかわいいなとか思ってませんよ！ -->
   <Dialogue Key="Map.CityNetSquareChapter2GuardianNavi1Stage1Dialogue2FaceNaviPurplePunk" Value="네?,아，아니，딱히 점원이 귀엽다던가,그런 생각 안 하고 있어요!" Face="NaviPurplePunk" Mono="False" />
   <!-- ウィルスの力の源はバグやフリーズ、エラーなんかのコンピューターの不正の欠片 -->

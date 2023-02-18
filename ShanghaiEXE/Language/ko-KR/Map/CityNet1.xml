@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　シティエリア２ -->
   <Text Key="Map.CityNet1Name" Value="인터넷 시티 에리어 2" />
@@ -9,7 +9,7 @@
   <!-- 誰のかわからないと通りようがない -->
   <Dialogue Key="Map.CityNet1ManagementAreaCubeStage1Dialogue2FaceNone" Value="누구 거인지를 모르면,지나갈 수가 없다." Face="None" Mono="False" />
   <!-- シャンハイは管理Ｐコードを使った -->
-  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue1FaceNone" Value="샹하이는,관리 P코드를 썼다." Face="None" Mono="False" />
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue1FaceNone" Value="상하이는,관리 P코드를 썼다." Face="None" Mono="False" />
   <!-- 管理Ｐコードでセキュリティを解除した！ -->
   <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue2FaceNone" Value="관리 P코드로,시큐리티를 해제했다!" Face="None" Mono="False" />
   <!-- あら　あなたシティエリアは初めてかしら？ -->
@@ -246,7 +246,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->

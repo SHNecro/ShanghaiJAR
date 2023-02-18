@@ -28,7 +28,7 @@
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue21FaceMsAsakura" Value="설명이 필요하다면,손을 들어 보렴." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue22FaceMaleStudent" Value="선생님，부탁드릴게요!" Face="MaleStudent" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage1Dialogue23FaceFemaleStudent" Value="나도 한 번 물어볼까?" Face="FemaleStudent" Mono="False" />
-  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue1FaceAlice" Value="샹하이，넌,제대로 기억하고 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue1FaceAlice" Value="상하이，넌,제대로 기억하고 있어?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue2QuestionFaceShanghai" Value="어디 보자...." Face="Shanghai" Mono="False" />
   <Text Key="Map.ClassPCRikakoProfessorKoaStage3Dialogue2Options" Value="어라，기억 안 나....,완벽하게 기억하지!" />
   <!-- えーっと････あれ　思い出せない････ -->
@@ -54,7 +54,7 @@
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue3FaceAlice" Value="네，아사쿠라 선생님." Face="Alice" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue4FaceMsAsakura" Value="#b@false#・・・・・・・#b@true#" Face="MsAsakura" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue5FaceMsAsakura" Value="엄청 용량이 큰 내비네...." Face="MsAsakura" Mono="False" />
-  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue6FaceAlice" Value="이상해요.,샹하이만 다른 내비보다,묘하게 용량이 커서." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue6FaceAlice" Value="이상해요.,상하이만 다른 내비보다,묘하게 용량이 커서." Face="Alice" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue7FaceShanghai" Value="나더러 살 쪘다는 듯이,이야기하지 마.,실례되는 소리잖아!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue8FaceMsAsakura" Value="후훗，분명히 특별한 내비야." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Map.ClassPCRikakoProfessorKoaStage11Dialogue9FaceMsAsakura" Value="스캔 프로그램을 기동해서,데이터를 스캔해 보자." Face="MsAsakura" Mono="False" />

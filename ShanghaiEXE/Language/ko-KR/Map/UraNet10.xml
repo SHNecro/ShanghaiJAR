@@ -1,19 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ウラインターネット１０ -->
   <Text Key="Map.UraNet10Name" Value="우라 인터넷 10" />
   <!-- 不気味な扉が道を塞いで通ることができない！ -->
   <Dialogue Key="Map.UraNet10ROMGateStage1Dialogue1FaceNone" Value="꺼림칙한 문이,길을 막고 있어서,지나갈 수가 없다!" Face="None" Mono="False" />
   <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
-  <Dialogue Key="Map.UraNet10ROMGateStage3Dialogue1FaceNone" Value="샹하이는,'ROM ID카드'를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet10ROMGateStage3Dialogue1FaceNone" Value="상하이는,'ROM ID카드'를 썼다!" Face="None" Mono="False" />
   <!-- 不気味な扉が開いた！ -->
   <Dialogue Key="Map.UraNet10ROMGateStage3Dialogue2FaceNone" Value="꺼림칙한 문이 열렸다!" Face="None" Mono="False" />
   <!-- シャンハイ　あれ････！ -->
-  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue1FaceAlice" Value="샹하이，저거....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue1FaceAlice" Value="상하이，저거....!" Face="Alice" Mono="False" />
   <!-- あそこからウジャウジャと湧いて出てたのね -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue2FaceShanghai" Value="저기서 우글우글 몰려오는 거군." Face="Shanghai" Mono="False" />
   <!-- シャンハイ　どうするの？ -->
-  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue3FaceAlice" Value="샹하이，어떻게 할까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue3FaceAlice" Value="상하이，어떻게 할까?" Face="Alice" Mono="False" />
   <!-- あのゲートっぽいのを破壊しましょう -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage1Dialogue4FaceShanghai" Value="저 게이트 같은 걸 파괴하자." Face="Shanghai" Mono="False" />
   <!-- ゲートの破片でも持って帰ればそれを解析して連中の元締めがわかるかも -->
@@ -47,7 +47,7 @@
   <!-- しもべ　カムヒア！ -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage5Dialogue5FaceShanghai" Value="부하들，C'MERE!" Face="Shanghai" Mono="False" />
   <!-- シャンハイ親衛隊　参上！ -->
-  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue1FaceHenchie" Value="샹하이 팬 클럽，등장!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue1FaceHenchie" Value="상하이 팬 클럽，등장!" Face="Henchie" Mono="False" />
   <!-- ････やれ -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage7Dialogue2FaceShanghai" Value="....없애 버려." Face="Shanghai" Mono="False" />
   <!-- はっ！ -->
@@ -65,7 +65,7 @@
   <!-- じゃあ　ゲートのかけらをネットエージェントに届けておいて -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue2FaceShanghai" Value="그러면 게이트의 조각을,넷 에이전트에게 전해 줘." Face="Shanghai" Mono="False" />
   <!-- 了解です　シャンハイ様！ -->
-  <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue3FaceHenchie" Value="알겠습니다，샹하이 님!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue3FaceHenchie" Value="알겠습니다，상하이 님!" Face="Henchie" Mono="False" />
   <!-- 撤収！ -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage9Dialogue4FaceHenchie" Value="전원 철수한다!" Face="Henchie" Mono="False" />
   <!-- ････よし！ -->
@@ -86,10 +86,10 @@
   <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue8FaceShanghai" Value="이만큼 활약했으면,저 측에서 먼저 말 걸어오는 걸,기다려야지，이런 때는." Face="Shanghai" Mono="False" />
   <!-- へー････ -->
   <Dialogue Key="Map.UraNet10Chapter7EventsStage11Dialogue9FaceAlice" Value="헤에...." Face="Alice" Mono="False" />
-  <Dialogue Key="Map.UraNet10PostgameHenchieDialogue1" Value="샹하이 님，팬클럽 사람 중,몇몇이랑 함께 가던 중에,넷 에이전트랑 마주쳤습니다." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameHenchieDialogue1" Value="상하이 님，팬클럽 사람 중,몇몇이랑 함께 가던 중에,넷 에이전트랑 마주쳤습니다." Face="Henchie" Mono="False" />
   <Dialogue Key="Map.UraNet10PostgameHenchieDialogue2" Value="곤란한 상황에 처했던 모양이라,저희가 도와 드렸어요." Face="Henchie" Mono="False" />
   <Dialogue Key="Map.UraNet10PostgameHenchieDialogue3" Value="그들도 고마워할 겁니다.,뭔가 신경 쓰이는 게 발견되면,보고하겠습니다." Face="Henchie" Mono="False" />
-  <Dialogue Key="Map.UraNet10PostgameMinion1Dialogue1" Value="샹하이 님!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet10PostgameMinion1Dialogue1" Value="상하이 님!" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.UraNet10PostgameMinion2Dialogue1" Value="아무도 저희를 막을 순 없습니다!" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.UraNet10PostgameNetAgentScientistDialogue1" Value="이거 참 재미있게 되었군....,포탈이 있었던 그 장소랑,반응이 일치한다니." Face="NaviBlueRobot" Mono="False" />
   <Dialogue Key="Map.UraNet10PostgameNetAgentScientistDialogue2" Value="거기다 그 다른 포탈은,무려 현실 세계에 있었던,그 포탈이잖아!" Face="NaviBlueRobot" Mono="False" />

@@ -38,7 +38,7 @@
   <Dialogue Key="Map.ShoolNet1Sprite3AStage1Dialogue2FaceSprite" Value="서둘러요，서둘러!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Sprite3AStage3Dialogue1FaceSprite" Value="잘 배우고 잘 먹고 잘 자자." Face="Sprite" Mono="False" />
   <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue1FaceMarisa" Value="이 앞으로는 나아갈 수가 없네." Face="Marisa" Mono="False" />
-  <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue2FaceMarisa" Value="샹하이,너한테는 길이 보여?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1MarisaStage1Dialogue2FaceMarisa" Value="상하이,너한테는 길이 보여?" Face="Marisa" Mono="False" />
   <Dialogue Key="Map.ShoolNet1SakuyaStage1Dialogue1FaceSakuya" Value="크윽....,어지간히 바이러스가,상대하기 벅차네요....!" Face="Sakuya" Mono="False" />
   <Dialogue Key="Map.ShoolNet1SpannerManStage1Dialogue1FaceSpannerMan" Value="안 되겠어，지나갈 수가 없다!" Face="SpannerMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet1SpannerManStage1Dialogue2FaceSpannerMan" Value="내 열람 권한으로는,여기가 한계인가 보다.,비참하네...." Face="SpannerMan" Mono="False" />
@@ -46,22 +46,22 @@
   <Dialogue Key="Map.ShoolNet1GateStage1Dialogue2FaceAlice" Value="지금까지의 단말로는,조작할 수 없는 권한이려나....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ShoolNet1GateStage1Dialogue3FaceRika" Value="맡겨 줘라 이거에요!" Face="Rika" Mono="False" />
   <Dialogue Key="Map.ShoolNet1GateStage3Dialogue1FaceTankMan" Value="조오아쓰!,여기에 올 수 있는 건,나밖에 없었던 모양이구만!" Face="TankMan" Mono="False" />
-  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue2FaceTankMan" Value="자，샹하이,앞으로 가야지!" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1GateStage3Dialogue2FaceTankMan" Value="자，상하이,앞으로 가야지!" Face="TankMan" Mono="False" />
   <Dialogue Key="Map.ShoolNet1GateStage3Dialogue3FaceAlice" Value="고마워!,리카，탱크맨!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ShoolNet1TankManStage1Dialogue1FaceTankMan" Value="으음，내 열람 권한으로는,여기까지밖에 진행할 수,없나 본데." Face="TankMan" Mono="False" />
-  <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal1Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal1Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal1Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
-  <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal2Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal2Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal2Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
-  <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal3Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal3Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal3Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
-  <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue1FaceNone" Value="샹하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal4Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal4Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
   <Dialogue Key="Map.ShoolNet1Terminal4Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />

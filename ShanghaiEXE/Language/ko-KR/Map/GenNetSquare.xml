@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　ゲンソウスクエア -->
   <Text Key="Map.GenNetSquareName" Value="인터넷 환상 스퀘어" />
@@ -19,7 +19,7 @@
   <!-- その荷物データ････君が依頼を受けてくれた子だね -->
   <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue1FaceNaviOrangeMale" Value="그 수하물 데이터....,네가 의뢰를 받아준 애구나." Face="NaviOrangeMale" Mono="False" />
   <!-- シャンハイは荷物データを渡した -->
-  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue2FaceNone" Value="샹하이는,수하물 데이터를 넘겨줬다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue2FaceNone" Value="상하이는,수하물 데이터를 넘겨줬다." Face="None" Mono="False" />
   <!-- ありがとう！これでサブチップを安めに売ることができるよ！ -->
   <Dialogue Key="Map.GenNetSquareRequest1RecipientStage1Dialogue3FaceNaviOrangeMale" Value="고마워!,이제 서브칩을 더 싸게,살 수 있어!" Face="NaviOrangeMale" Mono="False" />
   <!-- 報酬だね？じゃあこれをあげよう -->
@@ -45,7 +45,7 @@
   <!-- あの人達なんなんですか？なんだか怖いです -->
   <Dialogue Key="Map.GenNetSquareChapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="저 사람 누구죠?,뭔가 무서운데." Face="NaviGreenRobot" Mono="False" />
   <!-- さすがシャンハイさん！おかげで平和になりました！ -->
-  <Dialogue Key="Map.GenNetSquareChapter1ManNavi1Stage3Dialogue1FaceNaviGreenRobot" Value="역시나 샹하이 씨!,덕분에 평화로워졌어요!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareChapter1ManNavi1Stage3Dialogue1FaceNaviGreenRobot" Value="역시나 상하이 씨!,덕분에 평화로워졌어요!" Face="NaviGreenRobot" Mono="False" />
   <!-- ここで売ってるチップを買えばあいつらに勝てるかなあ････ -->
   <Dialogue Key="Map.GenNetSquareChapter1ManNavi1DupeStage1Dialogue1FaceNaviOrangeMale" Value="여기서 파는 칩을 사면,저 녀석들한테 이길 수 있을까...." Face="NaviOrangeMale" Mono="False" />
   <!-- 僕が迷ってる間に解決したみたいだね････ -->
@@ -61,7 +61,7 @@
   <!-- あの乱暴なナビ達エイエンエリアの方から来たらしいわよ -->
   <Dialogue Key="Map.GenNetSquareChapterNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="저 난폭한 내비들,영원 에리어 쪽에서,왔다나 봐." Face="NaviPinkFemale" Mono="False" />
   <!-- あなたがここらで有名なシャンハイさんだったのね -->
-  <Dialogue Key="Map.GenNetSquareChapterNavi2Stage3Dialogue1FaceNaviPinkFemale" Value="네가 여기 주변에서,유명한 샹하이였구나." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareChapterNavi2Stage3Dialogue1FaceNaviPinkFemale" Value="네가 여기 주변에서,유명한 상하이였구나." Face="NaviPinkFemale" Mono="False" />
   <!-- どおりで悪漢に対してもひるまないわけね尊敬しちゃうわ -->
   <Dialogue Key="Map.GenNetSquareChapterNavi2Stage3Dialogue2FaceNaviPinkFemale" Value="어쩐지 악한들을 눈앞에 두고도,전혀 눈 하나 꿈쩍하지 않았구나.,존경스러워." Face="NaviPinkFemale" Mono="False" />
   <!-- アニキ〜なんか言ってるよこいつ〜 -->
@@ -87,7 +87,7 @@
   <!-- もう　仕方ないわね -->
   <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue10FaceAlice" Value="에휴，어쩔 수 없네." Face="Alice" Mono="False" />
   <!-- いくわよ！シャンハイ！バトルオペレーション！#w@20#セット！ -->
-  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue11FaceAlice" Value="가자! 샹하이!,배틀 오퍼레이션!#w@20#,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue11FaceAlice" Value="가자! 상하이!,배틀 오퍼레이션!#w@20#,셋!" Face="Alice" Mono="False" />
   <!-- イン！ -->
   <Dialogue Key="Map.GenNetSquareChapter1EvilNaviBrotherStage1Dialogue12FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
   <Text Key="Map.GenNetSquareChapter1EvilNaviBrotherBattle1Enemy1" Value="양아치형" />
@@ -315,7 +315,7 @@
   <!-- 何････こいつ！？ -->
   <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue2FaceShanghai" Value="뭐야.... 이 자식은!?" Face="Shanghai" Mono="False" />
   <!-- シャンハイ！ -->
-  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue3FaceAlice" Value="샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue3FaceAlice" Value="상하이!" Face="Alice" Mono="False" />
   <!-- あたしのシマで好き勝手は許さないわ！ -->
   <Dialogue Key="Map.GenNetSquareChapter7ShopStage9Dialogue4FaceShanghai" Value="내 영역에서,니 멋대로 하게 둘까보냐!" Face="Shanghai" Mono="False" />
   <!-- アリス　やるわよ！ -->
@@ -361,7 +361,7 @@
   <!-- 無論　ヨリヒメも例外ではなく苦戦を強いられている -->
   <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue10FaceReisen" Value="당연히 요리히메도 예외 없이,고전을 면치 못 하고 있어." Face="Reisen" Mono="False" />
   <!-- それじゃあ　シャンハイだけあの黒いナビと普通に戦えるってこと？ -->
-  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue11FaceAlice" Value="그러면 그 검은 내비들과,평범하게 싸울 수 있는 게,샹하이밖에 없다는 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue11FaceAlice" Value="그러면 그 검은 내비들과,평범하게 싸울 수 있는 게,상하이밖에 없다는 거야?" Face="Alice" Mono="False" />
   <!-- ････どうやらそのようだな -->
   <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue12FaceReisen" Value="....아무래도 그런 것 같아." Face="Reisen" Mono="False" />
   <!-- 何よ　言いたいことがあるならはっきり言いなさいよ -->
@@ -387,7 +387,7 @@
   <!-- 我々は可能な範囲で一般ナビの避難誘導と戦線の維持を行う -->
   <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue23FaceReisen" Value="우리는 가능한 범위 내에서,일반 내비들을 피난시키고,전선을 유지하겠다." Face="Reisen" Mono="False" />
   <!-- わかったわシャンハイ　行くわよ -->
-  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue24FaceAlice" Value="알겠어.,샹하이，가자." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue24FaceAlice" Value="알겠어.,상하이，가자." Face="Alice" Mono="False" />
   <!-- ええ　誰だか知らないけどこれ以上インターネットで好き放題やらせないわよ！ -->
   <Dialogue Key="Map.GenNetSquareChapter7ShopStage17Dialogue25FaceShanghai" Value="그래. 누군진 몰라도,이 이상 인터넷 상에서,날뛰게 냅두지는 않겠어!" Face="Shanghai" Mono="False" />
   <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->

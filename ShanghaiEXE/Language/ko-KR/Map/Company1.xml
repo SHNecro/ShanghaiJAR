@@ -23,7 +23,7 @@
   <!-- ひるんでいる暇はないぞこの先がエレベータールームだ -->
   <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue6FaceReisen" Value="기 죽어 있을 틈 없어.,이 앞에 엘리베이터실이 있다." Face="Reisen" Mono="False" />
   <!-- はいはい････シャンハイも頑張ろうね -->
-  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue7FaceAlice" Value="알았어，알았어....,샹하이도 힘 내자고." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue7FaceAlice" Value="알았어，알았어....,상하이도 힘 내자고." Face="Alice" Mono="False" />
   <!-- はーい！ -->
   <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue8FaceShanghai" Value="알겠어!" Face="Shanghai" Mono="False" />
 </data>

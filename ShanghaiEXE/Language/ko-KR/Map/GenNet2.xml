@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　ゲンソウエリア2 -->
   <Text Key="Map.GenNet2Name" Value="인터넷 환상 에리어 2" />
@@ -19,7 +19,7 @@
   <!-- こんなところに壊れたキューブ置いたのは誰だよ！ -->
   <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="이런 데에 망가진 큐브,때려박은 놈은 대체 누구야!" Face="NaviGreenRobot" Mono="False" />
   <!-- ああ　シャンハイさんここは通れないんでスクエアへは遠回りしてください -->
-  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="아，샹하이 씨. 여기는 지금,지나갈 수가 없어요.,스퀘어로 가려면 빙 돌아가야 해요." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="아，상하이 씨. 여기는 지금,지나갈 수가 없어요.,스퀘어로 가려면 빙 돌아가야 해요." Face="NaviGreenRobot" Mono="False" />
   <!-- 十字路を曲がったところの坂を降りて　下からぐるっと回りこめば向こう側へ行けます -->
   <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="십자로에서 양옆에 있는,경사로를 내려가서 아랫길을,돌아서 가면 될 거에요." Face="NaviGreenRobot" Mono="False" />
   <!-- やっとここが通れるようになったよ -->
@@ -125,7 +125,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->
@@ -145,7 +145,7 @@
   <!-- ひぃぃぃ！助けてくれぇぇ！ -->
   <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage1Dialogue1FaceNaviOrangeMale" Value="히이이익!,살려줘어어!" Face="NaviOrangeMale" Mono="False" />
   <!-- 助かったよシャンハイさん････ -->
-  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue1FaceNaviOrangeMale" Value="고맙습니다，샹하이 씨...." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue1FaceNaviOrangeMale" Value="고맙습니다，상하이 씨...." Face="NaviOrangeMale" Mono="False" />
   <!-- お礼にお手伝いをしたいけどこ　腰がぬけて動けない -->
   <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue2FaceNaviOrangeMale" Value="답례로 도와 드리고 싶은데,다，다리에 힘이 안 들어가네요." Face="NaviOrangeMale" Mono="False" />
   <!-- お買い物でしたらカウンターの向こうからお願いします -->
@@ -157,7 +157,7 @@
   <!-- 不気味な扉が道を塞いで通ることができない！ -->
   <Dialogue Key="Map.GenNet2ROMGateStage1Dialogue1FaceNone" Value="꺼림칙한 문이,길을 막고 있어서,지나갈 수가 없다!" Face="None" Mono="False" />
   <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
-  <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue1FaceNone" Value="샹하이는,”ROM ID카드”를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue1FaceNone" Value="상하이는,”ROM ID카드”를 썼다!" Face="None" Mono="False" />
   <!-- 不気味な扉が開いた！ -->
   <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue2FaceNone" Value="꺼림칙한 문이 열렸다!" Face="None" Mono="False" />
   <!-- 上と下の交わる････つまり道が縦に交差しててそれの底････ -->
@@ -173,7 +173,7 @@
   <!-- ・・・って何これ？ -->
   <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue6FaceShanghai" Value="....이건 뭐야?" Face="Shanghai" Mono="False" />
   <!-- バトルチップじゃなさそうね････シャンハイ　わからない？ -->
-  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue7FaceAlice" Value="배틀칩은 아닌 것 같은데....,샹하이，모르겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue7FaceAlice" Value="배틀칩은 아닌 것 같은데....,상하이，모르겠어?" Face="Alice" Mono="False" />
   <!-- えーっと・・・・何かしらの圧縮データってことしかわからないわね -->
   <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue8FaceShanghai" Value="어디 보자....,어떤 압축 데이터라는,것밖에는 모르겠네." Face="Shanghai" Mono="False" />
   <!-- あっしゅくデータ？ -->

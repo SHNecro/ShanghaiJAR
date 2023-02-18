@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ボーダーコンツェルン　社長室 -->
   <Text Key="Map.Company3Name" Value="보더 콘체른 사장실" />
@@ -89,7 +89,7 @@
   <!-- ････そうか -->
   <Dialogue Key="Map.Company3Chapter7EventsStage7Dialogue8FaceReisen" Value="....그래?" Face="Reisen" Mono="False" />
   <!-- アリス　お前はシャンハイにバリアーの解除をさせろ -->
-  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue1FaceReisen" Value="앨리스，넌 샹하이와 함께,배리어를 해제시켜." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue1FaceReisen" Value="앨리스，넌 상하이와 함께,배리어를 해제시켜." Face="Reisen" Mono="False" />
   <!-- あのサイズのバリアーなら携帯式ではないだろう -->
   <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue2FaceReisen" Value="저 사이즈의 배리어라면,휴대식은 아닐 거다." Face="Reisen" Mono="False" />
   <!-- バリアーに引きこもっている間は身動きがとれないはずだ -->
@@ -99,7 +99,7 @@
   <!-- 廊下でロボットどもを食い止める -->
   <Dialogue Key="Map.Company3Chapter7EventsStage9Dialogue5FaceReisen" Value="복도에서 로봇들을,틀어막겠다." Face="Reisen" Mono="False" />
   <!-- 聞いたわね　シャンハイ！ -->
-  <Dialogue Key="Map.Company3Chapter7EventsStage11Dialogue1FaceAlice" Value="너도 들었지，샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Company3Chapter7EventsStage11Dialogue1FaceAlice" Value="너도 들었지，상하이!" Face="Alice" Mono="False" />
   <!-- バリアーの制御端末を探して解除するのよ！ -->
   <Dialogue Key="Map.Company3Chapter7EventsStage11Dialogue2FaceAlice" Value="배리어의 제어 단말 장치를,찾아서 해제해!" Face="Alice" Mono="False" />
   <!-- さあて　あのアホ社長に吠え面かかせてやりますか！ -->
@@ -125,7 +125,7 @@
   <!-- あんたの想像力のほうが貧困だったようね -->
   <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue7FaceShanghai" Value="네 상상력 쪽이,빈곤했던 모양이구만." Face="Shanghai" Mono="False" />
   <!-- （鈴仙もシャンハイも　規格外すぎると思うけど） -->
-  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue8FaceAlice" Value="(레이센도 샹하이도, 둘 다 규격 외라 생각하지만.)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Company3Chapter7EventsStage15Dialogue8FaceAlice" Value="(레이센도 상하이도, 둘 다 규격 외라 생각하지만.)" Face="Alice" Mono="False" />
   <!-- こ　このコムスメどもが････！ -->
   <Dialogue Key="Map.Company3Chapter7EventsStage17Dialogue1FacePresidentYukari" Value="이，이 쬐끄만 꼬맹이들이....!" Face="PresidentYukari" Mono="False" />
   <!-- ナビを失い　バリアも失せ最後の手段のロボットは全滅････ -->
@@ -165,7 +165,7 @@
   <!-- 了解しましたあとは頼みます -->
   <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue3FaceReisen" Value="알겠습니다.,뒷일은 맡기겠습니다." Face="Reisen" Mono="False" />
   <!-- シャンハイ私たちも帰ろうか -->
-  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue4FaceAlice" Value="샹하이，우리도 돌아가자." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue4FaceAlice" Value="상하이，우리도 돌아가자." Face="Alice" Mono="False" />
   <!-- そうね　とりあえず外に出ましょう -->
   <Dialogue Key="Map.Company3Chapter7EventsStage21Dialogue5FaceShanghai" Value="그래，일단 밖으로 나가자." Face="Shanghai" Mono="False" />
   <!-- アリス　身体は大丈夫？ -->

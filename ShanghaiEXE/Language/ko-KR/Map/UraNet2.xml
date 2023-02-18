@@ -110,7 +110,7 @@
   <!-- ウラインターネットって暗い雰囲気だけど慣れると過ごしやすいんだぜ -->
   <Dialogue Key="Map.UraNet2Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="우라 인터넷은 분위기가 참 어두운데,이게 익숙해지면 지내기 참 편해져.慣れると過ごしやすいんだぜ" Face="NaviPurplePunk" Mono="False" />
   <!-- おお　シャンハイ様お待ちしていました -->
-  <Dialogue Key="Map.UraNet27BookerStage1Dialogue1FaceHenchie" Value="오오，샹하이 님.,기다리고 있었습니다." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue1FaceHenchie" Value="오오，상하이 님.,기다리고 있었습니다." Face="Henchie" Mono="False" />
   <!-- こんなところまで呼び出すってよっぽどの要件なのよね？ -->
   <Dialogue Key="Map.UraNet27BookerStage1Dialogue2FaceShanghai" Value="이런 곳까지 불러낼 정도면,매우 중요한 용건 때문에,부른 거겠지?" Face="Shanghai" Mono="False" />
   <!-- この間破壊したゲートの残骸････ -->
@@ -120,7 +120,7 @@
   <!-- ････なんですって？ -->
   <Dialogue Key="Map.UraNet27BookerStage1Dialogue5FaceShanghai" Value="....뭐라고?" Face="Shanghai" Mono="False" />
   <!-- シャンハイ様と私が初めて出会った時のことを覚えてますか？ -->
-  <Dialogue Key="Map.UraNet27BookerStage1Dialogue6FaceHenchie" Value="샹하이 님이랑 저랑,처음 만났을 때를,혹시 기억하시는지요?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet27BookerStage1Dialogue6FaceHenchie" Value="상하이 님이랑 저랑,처음 만났을 때를,혹시 기억하시는지요?" Face="Henchie" Mono="False" />
   <!-- ウィルスに追われてたっけ？ -->
   <Dialogue Key="Map.UraNet27BookerStage1Dialogue7FaceShanghai" Value="그 때 바이러스에게,쫓기지 않았어?" Face="Shanghai" Mono="False" />
   <!-- それよりもっと前です「Ｋｅｙ．ｂａｔ」を求めて戦った時のことです -->
@@ -178,12 +178,12 @@
   <!-- わかったわ -->
   <Dialogue Key="Map.UraNet27BookerStage1Dialogue34FaceAlice" Value="알았어." Face="Alice" Mono="False" />
   <!-- シャンハイ様お気をつけくださいね -->
-  <Dialogue Key="Map.UraNet27BookerStage3Dialogue1FaceHenchie" Value="샹하이 님，조심하십시오." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.UraNet27BookerStage3Dialogue1FaceHenchie" Value="상하이 님，조심하십시오." Face="Henchie" Mono="False" />
   <Dialogue Key="Map.UraNet2PostgameThugNaviDialogue1" Value="이히히히....,양지 인터넷에 암호화한,데이터를 뿌려 볼까...." Face="NaviPurpleHeel" Mono="False" />
   <Dialogue Key="Map.UraNet2PostgameThugNaviDialogue2" Value="레이건 A 같은 흔해빠진 거나,기대하시지，양지 사는,어중이떠중이 놈들! 하하하하하!" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Map.UraNet2PostgamePunkNavi1Dialogue1" Value="아，샹하이 님!" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet2PostgamePunkNavi1Dialogue2" Value="지금 저희는 샹하이 님의 영역에서,누군가 말썽 일으키지 않도록 하고 있고,최근에 새로운 동료들도 영입했어요." Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet2PostgamePunkNavi1Dialogue3" Value="다음 달 이사회의,기대하셔도 좋습니다!,샹하이 님도 좋아하실 거에요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet2PostgamePunkNavi1Dialogue1" Value="아，상하이 님!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet2PostgamePunkNavi1Dialogue2" Value="지금 저희는 상하이 님의 영역에서,누군가 말썽 일으키지 않도록 하고 있고,최근에 새로운 동료들도 영입했어요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet2PostgamePunkNavi1Dialogue3" Value="다음 달 이사회의,기대하셔도 좋습니다!,상하이 님도 좋아하실 거에요." Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.UraNet2PostgamePunkNavi2Dialogue1" Value="양지 인터넷에 서둘러 돌아가겠다고,이 길을 택하는 녀석들이 있어." Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.UraNet2PostgamePunkNavi2Dialogue2" Value="그 중에는 가끔씩 쓸데없이,움직이는 바람에 이 우라를,헤매다 나가는 멍청이들도 있어." Face="NaviPurplePunk" Mono="False" />
 </data>

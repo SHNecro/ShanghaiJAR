@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インゲレス　市街 -->
   <Text Key="Map.IngleasTownName" Value="잉겔레스 시가지" />
@@ -199,7 +199,7 @@
   <!-- ････ -->
   <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue12FaceAlice" Value="...." Face="Alice" Mono="False" />
   <!-- アリス　シャンハイ君たちと観光ができてほんとうに楽しかったよ -->
-  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue1FaceWriggleHat" Value="앨리스，샹하이.,너희들이랑 관광 갈 수,있어서 정말 즐거웠어." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue1FaceWriggleHat" Value="앨리스，상하이.,너희들이랑 관광 갈 수,있어서 정말 즐거웠어." Face="WriggleHat" Mono="False" />
   <!-- う　うん････私も楽しかったわ････ -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue2FaceAlice" Value="그，그래....,나도 즐거웠어...." Face="Alice" Mono="False" />
   <!-- アリス　どうしたんだい？ -->
@@ -227,15 +227,15 @@
   <!-- どうしたのよ　アリス？さっきから元気が無いけど -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue2FaceShanghai" Value="진짜 왜 그래，앨리스?,아까 전부터 기운 없어 보이는데." Face="Shanghai" Mono="False" />
   <!-- シャンハイ！！！！どうして私にリグル君と話をさせてくれなかったの！？ -->
-  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue3FaceAlice" Value="샹하이!!!!,왜 매번 리글이랑 이야기하지,못 하게 하는 거야!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue3FaceAlice" Value="상하이!!!!,왜 매번 리글이랑 이야기하지,못 하게 하는 거야!?" Face="Alice" Mono="False" />
   <!-- え？ -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue4FaceShanghai" Value="어?" Face="Shanghai" Mono="False" />
   <!-- シャンハイばっかり喋って！私だってリグル君に観光案内してあげたかったのに！ -->
-  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue5FaceAlice" Value="샹하이 너만 맨날 말하고!,나도 리글한테 관광 명소,안내하고 싶었단 말야!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue5FaceAlice" Value="상하이 너만 맨날 말하고!,나도 리글한테 관광 명소,안내하고 싶었단 말야!" Face="Alice" Mono="False" />
   <!-- そうだったらそう言って････ -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue6FaceShanghai" Value="그런 거였으면 그렇다고 말을...." Face="Shanghai" Mono="False" />
   <!-- シャンハイはいつもそう！！私の気持ちなんか知らないで勝手なことばっかり！！ -->
-  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue7FaceAlice" Value="샹하이 넌 맨날 그래!!,내 기분 따위 나몰라라 하고,매번 제멋대로 하기나 하고!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue7FaceAlice" Value="상하이 넌 맨날 그래!!,내 기분 따위 나몰라라 하고,매번 제멋대로 하기나 하고!!" Face="Alice" Mono="False" />
   <!-- いつも振り回される私の身にもなってよ！！もういい加減にして！！ -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue8FaceAlice" Value="맨날 휘둘리는 사람,입장도 생각해 달라고!!,진짜 적당히라는 말을 몰라!!" Face="Alice" Mono="False" />
   <!-- カチン！ -->
@@ -259,7 +259,7 @@
   <!-- アリスーーーー！！ -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage7Dialogue3FaceShanghai" Value="앨리스으으으으!!" Face="Shanghai" Mono="False" />
   <!-- シャンハイのバカ････！ -->
-  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage9Dialogue1FaceAlice" Value="샹하이，이 쓰레기야....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage9Dialogue1FaceAlice" Value="상하이，이 쓰레기야....!" Face="Alice" Mono="False" />
   <!-- リグル君と一緒に観光をしたかったのに････！ -->
   <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage9Dialogue2FaceAlice" Value="난 리글이랑 같이,관광명소를 탐방하고 싶었는데....!" Face="Alice" Mono="False" />
   <!-- クハハハハ････ -->

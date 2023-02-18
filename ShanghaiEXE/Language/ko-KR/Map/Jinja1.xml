@@ -3,7 +3,7 @@
   <Text Key="Map.Jinja1Name" Value="신사의 전뇌 1" />
   <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue1FaceShanghai" Value="으윽...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue2FaceAlice" Value="체력 상태가 한계에 다다랐어....,일단 지금은 플러그아웃하자!" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Jinja1GateStage1Dialogue1FaceNone" Value="샹하이는 문에,음의 열쇠와 양의 열쇠를,끼워넣었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue1FaceNone" Value="상하이는 문에,음의 열쇠와 양의 열쇠를,끼워넣었다!" Face="None" Mono="False" />
   <Dialogue Key="Map.Jinja1GateStage1Dialogue2FaceNone" Value="문이 아래로 내려가면서,길이 열렸다!" Face="None" Mono="False" />
   <Dialogue Key="Map.Jinja1GateStage3Dialogue1FaceNone" Value="문이 잠겨 있어서 꿈쩍도 안 한다!" Face="None" Mono="False" />
   <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue1FaceSprite" Value="어떡해요，어떡해!" Face="Sprite" Mono="False" />
@@ -29,6 +29,6 @@
   <Dialogue Key="Map.Jinja1Sprite2AStage3Dialogue1FaceSprite" Value="새전 기부하세요～!,새전 기부하세요～!,기부하시고 은혜 받으세요～!" Face="Sprite" Mono="False" />
   <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue1FaceShanghai" Value="더워라....,역시 이 화재는,전뇌가 원인이었던 것 같네." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue2FaceAlice" Value="원인을 없애 버리면,불도 꺼질 거야....!" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue3FaceAlice" Value="서둘러，샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue3FaceAlice" Value="서둘러，상하이!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue4FaceShanghai" Value="말 안 해도 그럴 거야!" Face="Shanghai" Mono="False" />
 </data>

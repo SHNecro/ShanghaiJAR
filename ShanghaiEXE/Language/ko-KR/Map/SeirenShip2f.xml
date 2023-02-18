@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.SeirenShip2fName" Value="호화 여객선 세이렌 2층 상업 에리어" />
   <Dialogue Key="Map.SeirenShip2fElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
@@ -24,7 +24,7 @@
   <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue3FaceReisen" Value="그 주변 매장에서,더 싼 거 팔고 있잖아." Face="Reisen" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue4FaceReisen" Value="왜 그렇게까지 비싼 걸,사려고 하는 지 모르겠네." Face="Reisen" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue5FaceShanghai" Value="으～음，,나도 솔직히 브랜드 가방이,뭐가 좋은지 모르겠어." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue6FaceAlice" Value="그래?,샹하이는 이런 거,좋아할 거라 생각했는데." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue6FaceAlice" Value="그래?,상하이는 이런 거,좋아할 거라 생각했는데." Face="Alice" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue7FaceShanghai" Value="앨리스，너 날,뭘로 보는 거야...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fABagShopStage5Dialogue1FaceNone" Value="유명 브랜드의 가방을,파는 매장이다." Face="None" Mono="False" />
   <Dialogue Key="Map.SeirenShip2fABagShopStage5Dialogue2FaceNone" Value="아마도 나하고는 평생,인연이 없을 만한 장소이다." Face="None" Mono="False" />

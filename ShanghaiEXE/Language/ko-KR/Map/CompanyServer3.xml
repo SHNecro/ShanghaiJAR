@@ -27,7 +27,7 @@
   <!-- どうせここまで来れる侵入者なんていないとでも思ってるとかかな？ -->
   <Dialogue Key="Map.CompanyServer3Chapter7EventsStage1Dialogue2FaceShanghai" Value="어차피 여기까지 올,침입자 따위 없을 거라고,생각하고 있는 거 아니지?" Face="Shanghai" Mono="False" />
   <!-- シャンハイ！今どこ？ -->
-  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue1FaceAlice" Value="샹하이! 지금 어디야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue1FaceAlice" Value="상하이! 지금 어디야?" Face="Alice" Mono="False" />
   <!-- ２０階のサーバーの奥よ -->
   <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue2FaceShanghai" Value="20층 서버 안에 있어." Face="Shanghai" Mono="False" />
   <!-- よし　ならばその辺りの端末でエレベーターの個人認証システムを切ってくれ -->

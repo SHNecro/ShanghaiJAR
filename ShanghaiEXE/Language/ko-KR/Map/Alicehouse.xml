@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- アリスの家 -->
   <Text Key="Map.AlicehouseName" Value="앨리스의 집" />
@@ -29,7 +29,7 @@
   <!-- もちろんメンテナンスや操作のためにプラグインできる -->
   <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue3FaceNone" Value="물론 메인터넌스나 조작 목적으로,플러그인도 할 수 있다." Face="None" Mono="False" />
   <!-- しかしシャンハイがメンテナンスを面倒臭がって入ろうとしない -->
-  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue4FaceNone" Value="그렇지만 샹하이가,메인터넌스를 귀찮아해서,들어가려 하질 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue4FaceNone" Value="그렇지만 상하이가,메인터넌스를 귀찮아해서,들어가려 하질 않는다." Face="None" Mono="False" />
   <!-- 超うす型の最新式テレビだ -->
   <Dialogue Key="Map.AlicehouseTVSetStage3Dialogue1FaceNone" Value="엄청 얇은 최신형 TV이다." Face="None" Mono="False" />
   <!-- テレビとしての機能だけでなく家中の電子機器を管理するコンパネの役目も果たす -->
@@ -41,7 +41,7 @@
   <!-- 扉に付いている画面やボタンで中の温度や匂いの状態を知ったり､操作したりできる -->
   <Dialogue Key="Map.AlicehouseRefrigeratorStage1Dialogue2FaceNone" Value="문에 붙어 있는 화면 버튼으로,내부 온도나 탈취 상태를,알거나 조작할 수도 있다." Face="None" Mono="False" />
   <!-- プラグインができるがシャンハイが寒がって入ろうとしない -->
-  <Dialogue Key="Map.AlicehouseRefrigeratorStage1Dialogue3FaceNone" Value="플러그인할 수 있지만,샹하이가 추워해서,들어가려 하질 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage1Dialogue3FaceNone" Value="플러그인할 수 있지만,상하이가 추워해서,들어가려 하질 않는다." Face="None" Mono="False" />
   <!-- 高性能冷蔵庫だ -->
   <Dialogue Key="Map.AlicehouseRefrigeratorStage3Dialogue1FaceNone" Value="고성능 냉장고이다." Face="None" Mono="False" />
   <!-- 扉に付いている画面やボタンで中の温度や匂いの状態を知ったり､操作したりできる -->
@@ -225,7 +225,7 @@
   <!-- ママ　安心してあたしがついてるから -->
   <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue5FaceShanghai" Value="엄마，안심해.,내가 같이 가니까." Face="Shanghai" Mono="False" />
   <!-- ････そうねシャンハイちゃんが一緒なら安心ね -->
-  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue6FaceMama" Value="....그래，샹하이가 같이 가면,안심이겠네." Face="Mama" Mono="False" />
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue6FaceMama" Value="....그래，상하이가 같이 가면,안심이겠네." Face="Mama" Mono="False" />
   <!-- 私　信用されてないのかなあ -->
   <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue7FaceAlice" Value="뭔가 나 신용받지 못하는 건가." Face="Alice" Mono="False" />
   <!-- 愛されてるだけよ -->
@@ -339,7 +339,7 @@
   <!-- きゃぁあああ！！ -->
   <Dialogue Key="Map.AlicehouseUnusualIceStage1Dialogue1FaceMama" Value="꺄아아아아아!!" Face="Mama" Mono="False" />
   <!-- シャンハイ！？シャンハイどうしたの！？ -->
-  <Dialogue Key="Map.AlicehouseUnusualIceStage1Dialogue2FaceAlice" Value="샹하이!?,샹하이，어떻게 된 거야!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AlicehouseUnusualIceStage1Dialogue2FaceAlice" Value="상하이!?,상하이，어떻게 된 거야!?" Face="Alice" Mono="False" />
   <!-- ウフフフ････ -->
   <Dialogue Key="Map.AlicehouseUnusualIceStage3Dialogue1FaceNone" Value="우후후후...." Face="None" Mono="False" />
   <!-- 誰っ！？ -->
@@ -377,9 +377,9 @@
   <!-- よし　氷がちょっとだけ溶けた！ -->
   <Dialogue Key="Map.AlicehouseUnusualIceStage13Dialogue1FaceAlice" Value="좋아，얼음이 조금 녹았어!" Face="Alice" Mono="False" />
   <!-- シャンハイ！応答してシャンハイ！！ -->
-  <Dialogue Key="Map.AlicehouseUnusualIceStage13Dialogue2FaceAlice" Value="샹하이!,말해 봐，샹하이!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AlicehouseUnusualIceStage13Dialogue2FaceAlice" Value="상하이!,말해 봐，상하이!!" Face="Alice" Mono="False" />
   <!-- やったわね　シャンハイ！ -->
-  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue1FaceAlice" Value="해냈구나，샹하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue1FaceAlice" Value="해냈구나，상하이!" Face="Alice" Mono="False" />
   <!-- 痛た････ -->
   <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue2FaceAlice" Value="아야...." Face="Alice" Mono="False" />
   <!-- 大変、手のところが凍傷にかかってる！ -->

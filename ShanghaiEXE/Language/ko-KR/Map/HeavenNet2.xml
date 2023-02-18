@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ホワイトヘブンエリア２ -->
   <Text Key="Map.HeavenNet2Name" Value="화이트 헤븐 에리어 2" />
@@ -45,12 +45,12 @@
   <Dialogue Key="Map.HeavenNet2MadManEndDialogue4" Value="이 세상을 떠난 혼은,자신이 있던 곳에 무언가를,남기고는 성불했다...." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue2" Value="마지막 페이지는 분을 못 이기고,막 휘갈긴 것 같아 보이지만,숫자 “11111111”만큼은 잘 보인다." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue3" Value="이 책의 전 주인은,책갈피로 다양한 걸,썼던 모양이다!" Face="None" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue1" Value="샹하이，우리 여기 말고,다른 길들은 다 가 봤지?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue1" Value="상하이，우리 여기 말고,다른 길들은 다 가 봤지?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue2" Value="따로 길이 없다면,이제 남은 길은,여기밖에 없는데...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue3" Value="토벌 보수가.... 2백만....,....7，아니，8이었던가....?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue4" Value="있지，앨리스.,난 벌써 지쳤는데 넌 어때?,나 지금 자고 싶은데." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue5" Value="그렇네，샹하이.,이번 의뢰는,좀 많이 피곤하네." Face="Alice" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue6" Value="그렇지만 언제고 자고 있다간,귀찮은 게 늘어날 뿐이야.,가자，샹하이." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue5" Value="그렇네，상하이.,이번 의뢰는,좀 많이 피곤하네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue6" Value="그렇지만 언제고 자고 있다간,귀찮은 게 늘어날 뿐이야.,가자，상하이." Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue7" Value="...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8" Value="에헤헤!,어머，너희들을,완전히 잊고 있었네." Face="None" Mono="False" />
   <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue9" Value="저，저 진짜 짜증나는 거...." Face="Shanghai" Mono="False" />
@@ -137,7 +137,7 @@
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue41" Value="어둠의 여왕은 보통 존재가,아닙니다. 그녀나 그녀가 창조해낸,존재들은 각별히 주의하시길." Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue42" Value="그녀는 우라 인터넷의,깊은 곳에 있는，죽은 듯한,대지에 있습니다." Face="Youmu" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue43" Value="그래，그래. 죽은 대지라고?,알았어，그럼 서두르지." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue44" Value="이제 속이 좀 풀려，샹하이?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue44" Value="이제 속이 좀 풀려，상하이?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1a" Value="#b@false#자，어디 그럼,이야기를 좀 해 보....#b@false##w@30##e@#" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue4a" Value="자，어디 그럼，,잘 먹겠습니다!" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue45" Value="앨리스，난 한시라도 빨리,저 머저리 같은 데를,벗어나고 싶었을 뿐이야." Face="Shanghai" Mono="False" />
@@ -183,7 +183,7 @@
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue2" Value="예쁘지 않니?,이 나무는 원래,이런 모습이었단다!" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue3" Value="그리고 딱 좋은 타이밍에 왔네.,보렴!" Face="YuyukoCasual" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue4" Value="이 감촉，오래간만이로고...." Face="YuyukoCombat" Mono="False" />
-  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue5" Value="샹하이，그리고 앨리스.,화이트 헤븐 에리어의 관리자로써,마음 깊은 감사를 표합니다." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue5" Value="상하이，그리고 앨리스.,화이트 헤븐 에리어의 관리자로써,마음 깊은 감사를 표합니다." Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue6" Value="그러면，이 에리어에,남아 있는 오염의 흔적을,제 힘으로 없애도록 하죠." Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue7" Value="다른 문제 이야기는,이게 다 끝나고 나서 하죠.,오래 걸리지 않을 겁니다." Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue1" Value="이 에리어를,구해 주신 것에 대해,진심으로 감사드립니다." Face="YuyukoCombat" Mono="False" />

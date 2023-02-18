@@ -19,7 +19,7 @@
   <!-- 感情を持たないナビって薄気味悪いわね････ -->
   <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue1FaceShanghai" Value="감정이 없는 내비라니,어째 섬뜩한데...." Face="Shanghai" Mono="False" />
   <!-- シャンハイ！早く次へ行きましょう！ -->
-  <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue2FaceAlice" Value="샹하이!,빨리 다음 지역으로 가자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue2FaceAlice" Value="상하이!,빨리 다음 지역으로 가자!" Face="Alice" Mono="False" />
   <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
   <Dialogue Key="Map.ClockTower2GimmickStage1Dialogue1QuestionFaceNone" Value="큰 시계와 연동되는 시계이다.,시곗바늘을 움직이겠습니까?" Face="None" Mono="False" />
   <!-- はいいいえ -->

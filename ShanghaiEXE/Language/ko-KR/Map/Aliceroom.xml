@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- アリスの部屋 -->
   <Text Key="Map.AliceroomName" Value="앨리스의 방" />
@@ -11,7 +11,7 @@
   <!-- アリスのパソコンだプラグインできる -->
   <Dialogue Key="Map.AliceroomPCStage1Dialogue1FaceNone" Value="앨리스의 컴퓨터다.,플러그인할 수 있다." Face="None" Mono="False" />
   <!-- 実はアリスの誕生日にシャンハイがプレゼントした超高性能パソコンなのだが -->
-  <Dialogue Key="Map.AliceroomPCStage1Dialogue2FaceNone" Value="사실은 앨리스의 생일에,샹하이가 선물해 준,초고성능의 컴퓨터인데" Face="None" Mono="False" />
+  <Dialogue Key="Map.AliceroomPCStage1Dialogue2FaceNone" Value="사실은 앨리스의 생일에,상하이가 선물해 준,초고성능의 컴퓨터인데" Face="None" Mono="False" />
   <!-- その資金の出どころは知るよしもない･･･ -->
   <Dialogue Key="Map.AliceroomPCStage1Dialogue3FaceNone" Value="어디서 컴퓨터 살 돈을,충당했는지는 알 방도가 없다...." Face="None" Mono="False" />
   <!-- だが　今はインターネットをしている場合ではない！ -->
@@ -115,7 +115,7 @@
   <!-- ････ -->
   <Dialogue Key="Map.AliceroomBedStage21Dialogue1FaceAlice" Value="...." Face="Alice" Mono="False" />
   <!-- ････シャンハイ起きてる？ -->
-  <Dialogue Key="Map.AliceroomBedStage21Dialogue2FaceAlice" Value="....샹하이,자고 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue2FaceAlice" Value="....상하이,자고 있어?" Face="Alice" Mono="False" />
   <!-- ････眠れないの？ -->
   <Dialogue Key="Map.AliceroomBedStage21Dialogue3FaceShanghai" Value="....잠 안 와?" Face="Shanghai" Mono="False" />
   <!-- うん････ -->
@@ -203,7 +203,7 @@
   <!-- 案ずることはない機会を伺い再度刺客を送り込めば済むこと -->
   <Dialogue Key="Map.AliceroomBedStage34Dialogue2FaceDruidMan" Value="걱정할 필요 없다.,기회를 봐서 다시 자객을,보내면 될 일이니까." Face="DruidMan" Mono="False" />
   <!-- しかし　チルノに続いてメディスンまでも倒すシャンハイとかいうナビ････ -->
-  <Dialogue Key="Map.AliceroomBedStage34Dialogue3FaceDruidMan" Value="그렇지만 치르노에 이어서,메디슨까지도 쓰러뜨린,그 샹하이라는 내비...." Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue3FaceDruidMan" Value="그렇지만 치르노에 이어서,메디슨까지도 쓰러뜨린,그 상하이라는 내비...." Face="DruidMan" Mono="False" />
   <!-- こちらでも彼女についてのデータは収集しているけれど不明瞭な部分が多いわ -->
   <Dialogue Key="Map.AliceroomBedStage34Dialogue4FaceHoodedFace" Value="우리 측에서도 그녀에 대한,데이터는 수집하고 있지만,불명료한 부분들이 많아." Face="HoodedFace" Mono="False" />
   <!-- やはり　私が直接出向きその能力を計るとするか -->
@@ -547,7 +547,7 @@
   <!-- やがて　世界が我がROMの物になる日をお待ちくださいませ -->
   <Dialogue Key="Map.AliceroomBedStage137Dialogue4FaceHoodedFace" Value="머지않아 세계가 저희,ROM의 수중에 들어올 날을,손꼽아 기다리시기를." Face="HoodedFace" Mono="False" />
   <!-- シャンハイ････これは････ -->
-  <Dialogue Key="Map.AliceroomBedStage139Dialogue1FaceAlice" Value="샹하이.... 이건...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomBedStage139Dialogue1FaceAlice" Value="상하이.... 이건...." Face="Alice" Mono="False" />
   <!-- ＲＯＭの連中　いよいよ宣戦布告してきたわね -->
   <Dialogue Key="Map.AliceroomBedStage139Dialogue2FaceShanghai" Value="ROM 놈들，결국 선전포고를 했군." Face="Shanghai" Mono="False" />
   <!-- 私達もなにかできることないかしら？ -->
@@ -559,7 +559,7 @@
   <!-- えーっと････ -->
   <Dialogue Key="Map.AliceroomBedStage141Dialogue3FaceShanghai" Value="어디...." Face="Shanghai" Mono="False" />
   <!-- アリスさんシャンハイについて話したいことがあるんだ -->
-  <Dialogue Key="Map.AliceroomBedStage141Dialogue4FaceDrMorichika" Value="앨리스，,샹하이에 대해,이야기하고픈 게 있어." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue4FaceDrMorichika" Value="앨리스，,상하이에 대해,이야기하고픈 게 있어." Face="DrMorichika" Mono="True" />
   <!-- 僕は今　エージェントセンターを訪れている -->
   <Dialogue Key="Map.AliceroomBedStage141Dialogue5FaceDrMorichika" Value="난 지금 에이전트 센터에 있어." Face="DrMorichika" Mono="True" />
   <!-- もしよければ　今からエージェントセンターへ来てくれないかい？ -->
@@ -589,7 +589,7 @@
   <!-- まだ寝るような時間じゃないわ -->
   <Dialogue Key="Map.AliceroomBedStage148Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
   <!-- シャンハイ・・・・？ -->
-  <Dialogue Key="Map.AliceroomSleepingAliceStage1Dialogue1FaceAlice" Value="샹하이....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomSleepingAliceStage1Dialogue1FaceAlice" Value="상하이....?" Face="Alice" Mono="False" />
   <!-- ・・・・あれ？ -->
   <Dialogue Key="Map.AliceroomSleepingAliceStage3Dialogue1FaceAlice" Value="....어라?" Face="Alice" Mono="False" />
   <!-- 夢か････ -->
@@ -607,7 +607,7 @@
   <!-- それから数日後････ -->
   <Dialogue Key="Map.AliceroomSleepingAliceStage7Dialogue1FaceNone" Value="그로부터 며칠 후...." Face="None" Mono="False" />
   <!-- 冒険家のパパが外国で買ってきてくれたシャンハイに似た人形だ -->
-  <Dialogue Key="Map.AliceroomWindowStage1Dialogue1FaceNone" Value="모험가인 아빠가,외국에서 사서 주신,샹하이를 닮은 인형이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AliceroomWindowStage1Dialogue1FaceNone" Value="모험가인 아빠가,외국에서 사서 주신,상하이를 닮은 인형이다." Face="None" Mono="False" />
   <!-- 有名な人形師の作品でめったに手に入らないとウワサの人形だ -->
   <Dialogue Key="Map.AliceroomWindowStage1Dialogue2FaceNone" Value="유명한 인형사의 작품으로,쉽게 얻을 수 없다고,소문이 난 인형이다." Face="None" Mono="False" />
   <!-- 二つの人形は姉妹らしいので窓際で仲良く並べて飾ってあげている -->
@@ -687,7 +687,7 @@
   <!-- ふわぁ････朝から騒がしいわねえ -->
   <Dialogue Key="Map.AliceroomOPEventStage13Dialogue5FaceShanghai" Value="흐아암....,아침부터 소란스럽네." Face="Shanghai" Mono="False" />
   <!-- シャンハイ！あなたまた勝手に目覚まし止めたでしょう！ -->
-  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue6FaceAlice" Value="샹하이!,너 또 알람 껐지!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue6FaceAlice" Value="상하이!,너 또 알람 껐지!" Face="Alice" Mono="False" />
   <!-- だってあたしの安眠を妨害したんだもの -->
   <Dialogue Key="Map.AliceroomOPEventStage13Dialogue7FaceShanghai" Value="아니 나 자는 데 방해되잖아." Face="Shanghai" Mono="False" />
   <!-- もう､どうしてあなたはそんなに勝手なのよ！ -->
@@ -797,7 +797,7 @@
   <!-- 続きは製品版でお楽しみください -->
   <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue2FaceNone" Value="차후 내용은 정식판을,기대해 주세요." Face="None" Mono="False" />
   <!-- なお　アリスのHPのシャンハイの私室左下にておまけ部屋を用意しました -->
-  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue3FaceNone" Value="또한 앨리스의 홈페이지의,샹하이의 개인 방 왼쪽 아래에,보너스 방이 준비되었습니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue3FaceNone" Value="또한 앨리스의 홈페이지의,상하이의 개인 방 왼쪽 아래에,보너스 방이 준비되었습니다." Face="None" Mono="False" />
   <!-- 腕に自身のある方は挑戦してみてください -->
   <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue4FaceNone" Value="실력에 자신이 있으신 분들께서는,도전해 보시기 바랍니다." Face="None" Mono="False" />
   <!-- あれ　アリス出かける準備してるけど今日どこか行く予定あったっけ？ -->
@@ -815,7 +815,7 @@
   <!-- えーとどれどれ････ブッカーから？ -->
   <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue2FaceShanghai" Value="어디 한 번 봐 보자....,부화한테서 왔네?" Face="Shanghai" Mono="False" />
   <!-- シャンハイ様　すみません他の者に聞かれたくない内密な話があります -->
-  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue3FaceHenchie" Value="샹하이 님，죄송합니다만,샹하이 님한테만 하고 싶은,비밀 이야기가 있습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue3FaceHenchie" Value="상하이 님，죄송합니다만,상하이 님한테만 하고 싶은,비밀 이야기가 있습니다." Face="Henchie" Mono="True" />
   <!-- なので　ウラインターネット２で私とシャンハイ様が出会った場所まで来てください -->
   <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue4FaceHenchie" Value="그래서 그런데 우라 인터넷 2에서,저희 둘이 처음 마주친,그 장소까지 와 주세요." Face="Henchie" Mono="True" />
   <!-- 何かしら　内密な話って？ -->

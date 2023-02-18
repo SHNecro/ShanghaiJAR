@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ＲＯＭの電脳４ -->
   <Text Key="Map.ROMnet4Name" Value="ROM의 전뇌 4" />
   <!-- あと半分といったところかしら -->
   <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue1FaceShanghai" Value="이제 반 남았나." Face="Shanghai" Mono="False" />
   <!-- シャンハイ　油断しちゃダメよ！ -->
-  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue2FaceAlice" Value="샹하이，방심하지 마!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue2FaceAlice" Value="상하이，방심하지 마!" Face="Alice" Mono="False" />
   <!-- そんな事するはずが････あら？ -->
   <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue3FaceShanghai" Value="그럴 리가.... 어라?" Face="Shanghai" Mono="False" />
   <!-- おーーーい！ -->
-  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue4FaceNone" Value="샹하이 씨～!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage1Dialogue4FaceNone" Value="상하이 씨～!" Face="None" Mono="False" />
   <!-- ふう　間に合ったようですね -->
   <Dialogue Key="Map.ROMnet4DruidEncounterEventStage3Dialogue1FaceMsAsakuraNavi" Value="후우，제시간에 맞춰서,도착한 것 같군요." Face="MsAsakuraNavi" Mono="False" />
   <!-- 朝倉先生のナビだ！先生も応援に来てくれたのね -->
@@ -79,18 +79,18 @@
   <!-- 奥でヨリヒメが戦ってる････！ -->
   <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue1FaceShanghai" Value="저 안에서 요리히메가,싸우고 있어....!" Face="Shanghai" Mono="False" />
   <!-- 放っておけないわ！シャンハイ　急いで追うのよ！ -->
-  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue2FaceAlice" Value="그냥 두고 볼 순 없어!,샹하이，서둘러서 쫓아가!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue2FaceAlice" Value="그냥 두고 볼 순 없어!,상하이，서둘러서 쫓아가!" Face="Alice" Mono="False" />
   <!-- もち！ -->
   <Dialogue Key="Map.ROMnet4DruidEncounterEventStage17Dialogue3FaceShanghai" Value="물론!" Face="Shanghai" Mono="False" />
   <!-- 本バージョンの更新はここまでとなります -->
-  <Dialogue Key="Map.ROMnet4AnnouncementSpriteStage1Dialogue1FaceSprite" Value="本バージョンの更新は,ここまでとなります" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ROMnet4AnnouncementSpriteStage1Dialogue1FaceSprite" Value="현 버전 갱신은,여기까지입니다." Face="Sprite" Mono="False" />
   <!-- 続きはアップデートをお待ち下さい -->
-  <Dialogue Key="Map.ROMnet4AnnouncementSpriteStage1Dialogue2FaceSprite" Value="続きはアップデートを,お待ち下さい" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ROMnet4AnnouncementSpriteStage1Dialogue2FaceSprite" Value="업데이트될 부분을,기대해 주세요." Face="Sprite" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue1FaceYorihime" Value="그윽...." Face="Yorihime" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue2FaceDruidMan" Value="호오.... 평범한 냇 네비가,나한테 이 정도의 부상을,입힐 줄이야...." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue3FaceDruidMan" Value="하지만 네놈도 이젠 한계에,다다랐다. 시간도 충분히 끌었겠다，,슬슬 없어져 줘야겠어." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue4FaceShanghai" Value="잠깐 기다리라고!,내가 있다는 걸 잊은 건,아니겠지，이 등신아!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue5FaceDruidMan" Value="왔군，샹하이." Face="DruidMan" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue5FaceDruidMan" Value="왔군，상하이." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue6FaceShanghai" Value="요리히메랑 그렇게 사투를,벌여 놓고도 아직도,팔팔하다니....!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue7FaceDruidMan" Value="네놈이라면,이 나의 힘의 원천을,이해하고 있겠지." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage1Dialogue8FaceDruidMan" Value="같은 다크 칩을,다루는 사람으로써 말야." Face="DruidMan" Mono="False" />
@@ -109,7 +109,7 @@
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage2Dialogue7FaceDruidMan" Value="공포에 떨 지어다，,나의 어둠의 힘 앞에!!" Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage3Dialogue1FaceDruidMan" Value="흐하하하하...." Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage3Dialogue2FaceDruidMan" Value="이미 늦었다....,비욘다드로 통하는,문이 열린다!" Face="DruidMan" Mono="False" />
-  <Dialogue Key="Map.ROMnet4FinalCutsceneStage4Dialogue1FaceAlice" Value="샹하이!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ROMnet4FinalCutsceneStage4Dialogue1FaceAlice" Value="상하이!!" Face="Alice" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage3Dialogue3FaceDruidMan" Value="흐하하하하....,흐하하하하!!!" Face="DruidMan" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue1FaceShanghai" Value="나는 괜찮아....,요리히메는....?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.ROMnet4FinalCutsceneStage5Dialogue2FaceReisen" Value="대미지율 80% 초과....,전투 불능이다." Face="Reisen" Mono="False" />

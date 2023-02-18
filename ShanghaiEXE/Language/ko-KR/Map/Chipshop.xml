@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- チップショップ「ヴワル」 -->
   <Text Key="Map.ChipshopName" Value="칩 샵 ”브와르”" />
@@ -341,7 +341,7 @@
   <!-- ！！ -->
   <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue14FaceShanghai" Value="!!" Face="Shanghai" Mono="False" />
   <!-- 賞品は私も欲しいけどシャンハイがこう言ってるし私は････ -->
-  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue15FaceAlice" Value="상품은 나도 가지고 싶은데,샹하이도 이렇게 말하니 난...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue15FaceAlice" Value="상품은 나도 가지고 싶은데,상하이도 이렇게 말하니 난...." Face="Alice" Mono="False" />
   <!-- さあアリス！Ｎ１リーグのエントリーをしに行くわよ！ -->
   <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue16FaceShanghai" Value="자，앨리스!,N1 리그 참가 신청하러 가자!" Face="Shanghai" Mono="False" />
   <!-- え？だって今　疲れてるからって････ -->
@@ -363,7 +363,7 @@
   <!-- ま　なんにせよぼっち参加からは逃れられたな！ -->
   <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue25FaceSpannerMan" Value="뭐，어떻게든 솔로 참가는,피했네!" Face="SpannerMan" Mono="False" />
   <!-- お前はシャンハイと一緒に参加できるから嬉しいんだろ？ -->
-  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue26FaceTsubakiNekku" Value="넌 샹하이랑 같이,참가할 수 있어서,좋은 거 아냐?" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue26FaceTsubakiNekku" Value="넌 상하이랑 같이,참가할 수 있어서,좋은 거 아냐?" Face="TsubakiNekku" Mono="False" />
   <!-- な！　な！　な！ち　ちげーから！ -->
   <Dialogue Key="Map.ChipshopChapter4EventsStage3Dialogue27FaceSpannerMan" Value="무! 무! 무슨!,아，아니거든!" Face="SpannerMan" Mono="False" />
   <!-- はいはい -->

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 病院の電脳２ -->
   <Text Key="Map.HospitalNet2Name" Value="병원의 전뇌 2" />
@@ -9,7 +9,7 @@
   <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
   <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue1FaceSprite" Value="당신의 체력을,회복시켜 드릴게요." Face="Sprite" Mono="False" />
   <!-- シャンハイのＨＰが全回復した！ -->
-  <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue2FaceNone" Value="샹하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue2FaceNone" Value="상하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
   <!-- ネツボウソウデ　ＨＰガナクナルト　プラグアウトヲシナクテハ　イケマセン -->
   <Dialogue Key="Map.HospitalNet2RecoverySpriteStage1Dialogue3FaceSprite" Value="열폭주로 인해 체력이 없어지면,플러그아웃해야 해요." Face="Sprite" Mono="False" />
   <!-- ＨＰノ　リョウニハキヲツケテ　クダサイネ -->
@@ -45,7 +45,7 @@
   <!-- ････うん？ -->
   <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue2FaceUtsuhoDark" Value="....음?" Face="UtsuhoDark" Mono="False" />
   <!-- あんたは！たしかシャンハイとかいうナビ！ -->
-  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue3FaceUtsuhoDark" Value="넌!,분명히 샹하이인가,뭔가 했던 내비!" Face="UtsuhoDark" Mono="False" />
+  <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue3FaceUtsuhoDark" Value="넌!,분명히 상하이인가,뭔가 했던 내비!" Face="UtsuhoDark" Mono="False" />
   <!-- うにゅ〜････！せっかく良いところだったのに！ -->
   <Dialogue Key="Map.HospitalNet2BossEventStage1Dialogue4FaceUtsuhoDark" Value="우뉴～....!,모처럼 좋은 상황이었는데!" Face="UtsuhoDark" Mono="False" />
   <!-- 「うにゅ」って････ -->

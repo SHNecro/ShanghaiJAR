@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　シティエリア３ -->
   <Text Key="Map.CityNet3Name" Value="인터넷 시티 에리어 3" />
@@ -135,7 +135,7 @@
   <!-- ウラインターネットの深部････わかったわ -->
   <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
   <!-- いいの？　シャンハイ -->
-  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue8FaceAlice" Value="샹하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
   <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
   <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
   <!-- 根絶やしにできるならなんだってしてやるわよ -->
@@ -235,7 +235,7 @@
   <!-- まずは　侵入してアリスを助けないと････！ -->
   <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue5FaceShanghai" Value="우선 침입해서,앨리스를 구해야 해....!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3PostGameBystander1Dialogue1" Value="아오，또 길 잃었어.,이 에리어는 진짜 복잡하다니까." Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="샹하이 님!,이 에리어에는 아무 이상,없습니다!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="상하이 님!,이 에리어에는 아무 이상,없습니다!" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="”그대가 여기를 찾아올 것이다”,라는 묘한 느낌이 들어서,여기서 기다리고 있었네...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="아무래도 정답이었던 것 같구먼.,그리고 내 제자들과의 승부에서,이길 줄이야，놀라우이." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="제자라고 말한 데에는 이유가 있네.,내가 만들어졌을 때 내게 주어진,최신 시험 기능으로 그들을 가르쳤거든." Face="NaviOrangeRobot" Mono="False" />
@@ -319,14 +319,14 @@
   <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue2" Value="아가씨의 오퍼레이터가,그렇게 퀴즈를 좋아한다는,소문을 듣고 여기 왔네!" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteReminderDialogue1" Value="”12345”라니 참 기묘한 코드일세....,천국 에리어에서 아가씨가,원하는 걸 찾을 거라 믿네." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue1" Value="이거야 원이야.,그래도 여기까지 왔으니 이제,우리가 퀴즈 퀸이라는 걸까?" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="퀴즈를 다 이겼다고,꼭 퀴즈의 왕이 되는 건,아니지 않아，샹하이....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="퀴즈를 다 이겼다고,꼭 퀴즈의 왕이 되는 건,아니지 않아，상하이....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="그래? 뭔가 퀴즈를 잔뜩 준비해,놓고 도전자를 기다린다던지,하는 거 두근거리잖아!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1" Value="그래，맞아. ,그 때 그것 같은 거라면,자리를 조금 벌려 줄게." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage2Dialogue1" Value="으으으으으으으음....,좋네...." Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="Š̴̨̥̀͌͗͐‰̶͓̦̈́̓—̷̡̛͈̯͗̓̚§̴͕͔͙̫̉͛̑®̵̗̙̼͚͐̓̑́ ̶̧̟̖̔̓̈́͝｢ＣＬＩＥＮＴ｣  ̴͓͛̄€̷̖̯͛̎̃͜͝†̷̧̯͉͎̒̿̔–̶̬͒̂̕͝©̷̦̲̫̠̌͘¤̴̻̪̌̃͆Œ̶̲̗̣̓͗̃̊ͅ¬̶̲̳͌Ž̵͚͝­̵͓̱̼̮̑š̶̡͐̐̈́̕,̸̛̗̺̙́̔́’̷͍̳̤̙̈ž̴̭͗̾̄̕«̷̮̈̅̀”̴͙̮̎̄́‡̸̠̎̀͂̕¡̴̟̍Š̸̨̭̽̓͋͘¢̷̢̣̱͘•̶̧͇̊̍͌̀™̵͎̝̀́”̷̻͋͗̍…̷̺̭̀̉ ̵̩̎｢ＣＯＮＮＥＣＴ｣‰̴̮͖̺̞̽̀£̸̰̗͒§̴̗͖̦̾͋̓,̸̮̉͝¬̸̭̾͜˜̸̭͚̼̿̚͜˜̴̡̩͙̭̊̇̾͘¤̷̹̼͆̕ž̸̜̯̼́ ̸̮͗͆̉｢ＳＥＣＵＲＥ｣ ̴͉̉̾̈́›̷̮͚̜̜̌̕—̴̦͒͜‹̴̯̬̯͌̎̷͉̩͍̱̈́̏̌Š̵̨̨̺͌̈́͠ª̶͍̕“̵͍̈̍‹̶͇̦̻̈́͜͠ˆ̶͙͚̫̐͊͛š̷̝̈ͅ" Face="SageGlowing" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="€̴͖̝̳̊͛̾̿“̸̡̙̱̿̚͜͝ ̷̞͋̀͌͆｢ＵＳＥＲ｣ ̸͕̜̀̐̚ͅ¡̶̩̪̺͂̑”̴͈̬̭͐›̴̩̦̽̄͝ ̷̨̩̰͊̀｢ＤＥＦＩＮＥ｣ ̷̫͙̊¦̴̖̮͎̌͋͝©̵͇̾̈́̕‡̷̧̜̳̒̒̀̔ͅ’̷͍̥͚̏̓̚͠¬̸͙͍͚̆,̸̝͑̇̔̚ͅŽ̶͙̠͓͕͛̒͐̽›̴̦͈̓̿̔͛Œ̸̛̮̬̈́̽̕ƒ̸̙̌͗̉…̶̹̈́̅͝Ÿ̴̛̥̹͠ ̶̽͂ͅ｢ＡＣＣＥＳＳ｣ ̷͓̮̩͑£̴̳͕̇́͐œ̵͖͎͉̿‡̸̼̤̫̙̍̑̓̆–̴̢̪̝̣͌̈́«̸͇̊͊͝“̶͍̽̉̓͛‹̷̙̘̦̀͛́̈́Œ̶̢͊̑,̴̨̳̲̈ª̴͉͖̳̩͂ ̴̤̣̽́͑͘͜｢ＡＵＴＨＥＮＴＩＣＡＴＥ｣ ̵̱̌̂̈́̕«̸̢̢̛͐̆͝€̸̻̹͂̍‘̶̳̌̈́̈š̴̔̂̄̋ͅ’̵̛͕̩̇̓Ž̵̙̐–̸̪̲̤͑̽”̴̡̲̱̀̿" Face="SageGlowing" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="­̴̮̪̾̓̏£̸̢̗̖̓̆̚̚•̷̢̛̮̮̄̚•̷̬̱̯͒̏¤̴̤̞̯̓̋́́ͅ©̵̠̻͈̂†̷͈͚̬̯̈¡̴̝͎̗̏̇̚¡̶̢̫̳̭̒̑͘¦̶͓̬̈́͐‡̴͔̆͗͝¦̴̯̬͛Š̶̡̗̙̀̿–̴̬̪̝̐̾̍̅Ÿ̵̧̟͐›̷̗̭̼̲̃̒̓—̴̘͓͈̫͒́͐Ş̵̌̈ª̵̨̗̞͒͊̀̿“̶̖̝͚͖̀͌͠ ̵͇̏｢ＢＥＧＩＮ｣ ̴͔̜̬̀͛,̷̻̐̈́͝š̶̜̲̀ͅ§̸̢͚͂̋£̸̝̊͌§̷͈̲̝̃̄͝€̸͓̺̚ž̸͙͒̄’̸̝̹̉̈́‘̶͕̹͖̬́̓̑͛®̵͎̝̣͊͂̓͜¬̸̡̮̾̉̌Ž̷͎̳̚¦̶̫̙̈̒̊͝Š̶̜̲̃™̸̲̙͌Ž̸̧͌̓͝©̴̗̼̭̄¤̷̲͇̻͍̽̄̉Œ̷̣̖̆̔̇͗‰̵̜̈́̋̈̚¦̷͔̭͎̹̔͐̇͘†̸̪̞͂̂͋̎™̶̜̞̐̊̽͜ª̸̼́•̸̢̍͝‚̷̲̓,̵̲̜͊͜͠—̶̻̥͑͐̉̕¢̴͉́†̴̮̞̌̒͜‘̸̛̖͘͝‹̸̺͚͈͆̿͆ͅ ̷̛̫̯｢ＳＥＱＵＥＮＣＥ｣ ̸̨̖̳̍͐̏ͅ™̸͕̤͇̀͗́̕†̵̼͙̐͑®̵̢̟͔͖̔̑͘§̷̟̘̓̂̃̾œ̶̙͇̿͌̇̂͜" Face="SageGlowing" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="샹하이，봐봐!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="상하이，봐봐!" Face="Alice" Mono="False" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5HiddenCode" Value="#" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code1" Value="1" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code2" Value="2" />
@@ -336,14 +336,14 @@
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue1" Value="이렇게까지 해서 코드를,감출 필요가 있어? 대체 얼마나,비밀로 부치고 싶었으면...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue2" Value="자，자，지금 가는 에리어는,최심부에 있는데다 숨겨져 있기까지,한 드문 지역이잖아." Face="Alice" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue3" Value="그래도 최근에 계속 인터넷의,새로운 지역에 가기만 했잖아.,지금 와서 그렇게 대단한 건...." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue1" Value="샹하이! 어딜 보고 있어!?,아，맞아! 저거 써야지....!,“1”，“2”...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue1" Value="상하이! 어딜 보고 있어!?,아，맞아! 저거 써야지....!,“1”，“2”...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue2" Value="이렇게까지 해서 거길 봉쇄하는,이유를 난 모르겠어서 그래.,거기도 결국 인터넷의 일부니까." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue3" Value="그리고 뭘 또 쓰려고 해.,겨우 5자리 숫자잖아?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue4" Value="저 정도 쯤이야,난 쉽게 외운다고.,어디 보자，“1”，그리고 “2”...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue1" Value="....“3”,....어 잠깐만." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue2" Value="아 잠깐 이거 설마." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue1" Value="앨리스，나 이거,이 이상 보고 싶지 않아." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue2" Value="샹하이....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue2" Value="상하이....?" Face="Alice" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue3" Value="빨리 플러그아웃하자.,이 이상 볼 필요도 없겠어." Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue4" Value="아니，그래도 마지막에는,다른 숫자가 나올지도 모르잖아...." Face="Alice" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue5" Value="어차피 저기까지 알았으면,나머지 하나는 대충 때려맞추면,될 일이잖아!" Face="Shanghai" Mono="False" />
