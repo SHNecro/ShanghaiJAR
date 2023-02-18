@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.HumorInfo1Dialogue1Shanghai" Value="앨리스，유머 토크를 장착했다고,해서 꼭 재미있는 이야기만,한다는 법은 없어." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo1Dialogue2Shanghai" Value="애초에... 재미있다고 느끼는 건,사람의 뇌가...." Face="Shanghai" Mono="False" />
@@ -6,7 +6,7 @@
   <Dialogue Key="Messages.HumorInfo1Dialogue4Alice" Value="내가 유모라니...,유모라니... 유머라니...,이 정도만 해 줘도 되잖아." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo1Dialogue5Shanghai" Value="진짜 재미없는 개그였어.,바보 아냐?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo1Dialogue6Alice" Value="....왜 내가 혼나는 거지?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo2Dialogue1Shanghai" Value="『샹하이의 고민 상담실』,방황하는 어린양들에게,조금이나마 조언해 드립니다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo2Dialogue1Shanghai" Value="『상하이의 고민 상담실』,방황하는 어린양들에게,조금이나마 조언해 드립니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo2Dialogue2Alice" Value="어? 고민 상담실?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo2Dialogue3Shanghai" Value="오늘의 게스트는,금색의 마신인 신키 앨리스 씨,입니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo2Dialogue4Alice" Value="아니 그러니까 그 이명은,좀 잊어버리라고 했잖아!?" Face="Alice" Mono="False" />
@@ -25,8 +25,8 @@
   <Dialogue Key="Messages.HumorInfo5Dialogue2NaviPurplePunk" Value="헷헷헤....,누님，오늘도 인터넷에서,구절구절 이야기하죠." Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Messages.HumorInfo5Dialogue3Shanghai" Value="야 인마!,앨리스 앞에 나타나지 마!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo5Dialogue4Shanghai" Value="아，아하하!,방금 건 그냥 잊어버려～" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo5Dialogue5Alice" Value="(이걸 굳이 숨길 필요 있어?, 그냥 평소 샹하이인데....)" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo6Dialogue1Alice" Value="있지，샹하이,물어보고 싶은 게...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo5Dialogue5Alice" Value="(이걸 굳이 숨길 필요 있어?, 그냥 평소 상하이인데....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo6Dialogue1Alice" Value="있지，상하이,물어보고 싶은 게...." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo6Dialogue2Sprite" Value="!?" Face="Sprite" Mono="False" />
   <Dialogue Key="Messages.HumorInfo6Dialogue3Alice" Value="!?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo6Dialogue4Shanghai" Value="아，안녕，앨리스!,무슨 일이야?" Face="Shanghai" Mono="False" />
@@ -42,7 +42,7 @@
   <Dialogue Key="Messages.HumorInfo7Dialogue8Alice" Value="넌 언제 왔는데!?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo8Dialogue1Shanghai" Value="만약 내가,마법소녀라면...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo8Dialogue2Alice" Value="마법소녀라면....?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo8Dialogue3Shanghai" Value="매지컬 샹하이!,드레스 업!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo8Dialogue3Shanghai" Value="매지컬 상하이!,드레스 업!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo8Dialogue4Shanghai" Value="이 매지컬 정육기로,저 나쁜 것들을,햄버그 재료로 만들어 주마!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo8Dialogue5Shanghai" Value="거역하는 것들은 척살이다!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo8Dialogue6Alice" Value="개무서워 진짜!!,곰보게임이야!!" Face="Alice" Mono="False" />
@@ -63,7 +63,7 @@
   <Dialogue Key="Messages.HumorInfo10Dialogue7Alice" Value="아，아니?,아무 말도 안 했는데?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo10Dialogue8Reisen" Value="그래....?" Face="Reisen" Mono="False" />
   <Dialogue Key="Messages.HumorInfo10Dialogue9Shanghai" Value="이런 지옥귀.... 아니，,지옥 곤약귀..." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo11Dialogue1Shanghai" Value="『샹하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo11Dialogue1Shanghai" Value="『상하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo11Dialogue2Mari" Value="안녕，모리치카 마리야." Face="Mari" Mono="False" />
   <Dialogue Key="Messages.HumorInfo11Dialogue3Shanghai" Value="가지고 있는 고민이 뭔데?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo11Dialogue4Mari" Value="나 의외로 캐릭터 설정,수수하지 않나? 싶어서...." Face="Mari" Mono="False" />
@@ -85,7 +85,7 @@
   <Dialogue Key="Messages.HumorInfo12Dialogue8Alice" Value="뭐 이렇게 상세해!?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo13Dialogue1Shanghai" Value="수고했어，물러가도 좋아." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo13Dialogue2NaviPurplePunk" Value="넷!" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo13Dialogue3Alice" Value="생각해 봤는데 샹하이의 부하는,전부 다 합해서 몇 명이나 돼?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo13Dialogue3Alice" Value="생각해 봤는데 상하이의 부하는,전부 다 합해서 몇 명이나 돼?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo13Dialogue4Shanghai" Value="어디 보자...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo13Dialogue5Shanghai" Value="직속 간부가 10명 있고,간부 한 명 당 부하가 20명에,그 부하 한 명 당...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo13Dialogue6Shanghai" Value="....엄청 많이 있네!" Face="Shanghai" Mono="False" />
@@ -114,7 +114,7 @@
   <Dialogue Key="Messages.HumorInfo17Dialogue3Shanghai" Value="알겠어." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo17Dialogue4Shanghai" Value="으～음，버그 조각이 1개,버그 조각이 2개...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo17Dialogue5Alice" Value="카운터로 쓰러뜨리고 있어～～!?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo18Dialogue1Shanghai" Value="『샹하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo18Dialogue1Shanghai" Value="『상하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo18Dialogue2Patchouli" Value="무큐!,내가 왔어!" Face="Patchouli" Mono="False" />
   <Dialogue Key="Messages.HumorInfo18Dialogue3Shanghai" Value="오늘은 어떤 고민이,있어서 왔는가?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo18Dialogue4Patchouli" Value="기껏 넷 내비로 등장했는데,배틀할 수 없는 게 불만이야!" Face="Patchouli" Mono="False" />
@@ -158,7 +158,7 @@
   <Dialogue Key="Messages.HumorInfo22Dialogue2Alice" Value="아니，왜?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo22Dialogue3Shanghai" Value="서 있을 수조차,없을 정도로,공간이 없어서...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo22Dialogue4Alice" Value="대체 뭘 어떻게 해야,서 있을 수도 없을 정도로,공간이 없게 되는데?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo23Dialogue1Alice" Value="있지，샹하이.,샹하이는 리본 풀면,어떤 모습이 돼?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo23Dialogue1Alice" Value="있지，상하이.,상하이는 리본 풀면,어떤 모습이 돼?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo23Dialogue2Shanghai" Value="정말 어쩔 수가 없네.,잠깐 동안만 보여줄 테니까,잘 봐두라구." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo23Dialogue3Punk" Value="여기!" Face="Punk" Mono="False" />
   <Dialogue Key="Messages.HumorInfo23Dialogue4Shanghai" Value="끝!" Face="Shanghai" Mono="False" />
@@ -171,7 +171,7 @@
   <Dialogue Key="Messages.HumorInfo24Dialogue6Shanghai" Value="....물론 농담이야!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo24Dialogue7Alice" Value="" Face="Alice" Mono="True" />
   <Dialogue Key="Messages.HumorInfo24Dialogue8Shanghai" Value="앨리스? 앨리스?,저기요～오!?" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo25Dialogue1Shanghai" Value="『샹하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo25Dialogue1Shanghai" Value="『상하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo25Dialogue2TsubakiNekku" Value="츠바키 넥이야." Face="TsubakiNekku" Mono="False" />
   <Dialogue Key="Messages.HumorInfo25Dialogue3Shanghai" Value="고민하는 어린양이여,그 고민을 고백해 보거라." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo25Dialogue4TsubakiNekku" Value="내 주변에 보면 나 외에는,다들 귀여운 여자애들만 있는데" Face="TsubakiNekku" Mono="False" />
@@ -229,14 +229,14 @@
   <Dialogue Key="Messages.HumorInfo30Dialogue12Alice" Value="야，세 글자니까,네번째 건,나오면 안 되잖아!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo30Dialogue13Alice" Value="(이게 일어여도 말이 안 되는데, 한국어라 말이 더 안 돼!)" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue1Shanghai" Value="우적우적우적...." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo31Dialogue2Alice" Value="샹하이，뭐 먹고 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo31Dialogue2Alice" Value="상하이，뭐 먹고 있어?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue3Shanghai" Value="겔팩 츠보야키." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue4Alice" Value="바이러스도 먹을 수 있구나?,그래서，맛은?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue5Shanghai" Value="의외로 이게 꽤나 맛이 있....,아 잠깐만，그거 말고,다른 딴죽거리는 없어?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue6Shanghai" Value="뭔가 있을 거 아니냐고!!,먹으면 배 안 곯아? 라던가，,거짓말이지? 라던가!!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue7Shanghai" Value="바이러스를 먹는다니,그런 조잡한 짓을,내가 왜 해!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo31Dialogue8Alice" Value="(할 것 같으니까, 진심으로 받아들였구나....)" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo32Dialogue1Shanghai" Value="『샹하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo32Dialogue1Shanghai" Value="『상하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo32Dialogue2Yorihime" Value="안녕하세요，요리히메입니다." Face="Yorihime" Mono="False" />
   <Dialogue Key="Messages.HumorInfo32Dialogue3Shanghai" Value="고민하는 어린양이여,그 고민을 고백해 보거라." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo32Dialogue4Yorihime" Value="레이센 님께서는 꽤 물리적인,방법으로 문제를 해결하려 드시니,제 존재 의의에 의문점이...." Face="Yorihime" Mono="False" />
@@ -263,7 +263,7 @@
   <Dialogue Key="Messages.HumorInfo34Dialogue6Shanghai" Value="되얏어，되얏어.,그른 말 안 혀도 되어야." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo34Dialogue7Alice" Value="오，잘 하는데?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo34Dialogue8Mama" Value="므시여? 둘이 뭔가,재미진 거라도,하고 있는 기여?" Face="Mama" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo34Dialogue9Mama" Value="샹하이 늬 사투리도,나름 좀 하는디 말여，,아직 좀 멀었당께." Face="Mama" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo34Dialogue9Mama" Value="상하이 늬 사투리도,나름 좀 하는디 말여，,아직 좀 멀었당께." Face="Mama" Mono="False" />
   <Dialogue Key="Messages.HumorInfo34Dialogue10Alice" Value="엄마!?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo34Dialogue11Shanghai" Value="역시나 현지민한테는,이길 수 없당께로...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo34Dialogue12Mama" Value="내가 이 말씨를,얼마나 오래 써 왔는디야～" Face="Mama" Mono="False" />
@@ -272,7 +272,7 @@
   <Dialogue Key="Messages.HumorInfo35Dialogue3Shanghai" Value="임무는 실패했어!,당장 게임의 화면을 꺼!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo35Dialogue4Alice" Value="무슨 소릴 하는 거야!?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo35Dialogue5Shanghai" Value="라리루레로!,라리루레로!,라리루레로!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo36Dialogue1Shanghai" Value="『샹하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo36Dialogue1Shanghai" Value="『상하이의 고민 상담실』,오늘의 게스트는 이 분입니다." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue2WriggleHat" Value="안녕，리글이야." Face="WriggleHat" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue3Shanghai" Value="고민하는 어린양이여，그대는,어떤 고민이 있어서 왔는가?" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue4WriggleHat" Value="우리 아버지는 왕인데,누나랑 남동생이 계셔." Face="WriggleHat" Mono="False" />
@@ -282,7 +282,7 @@
   <Dialogue Key="Messages.HumorInfo36Dialogue8WriggleHat" Value="에엑!?,너무해!" Face="WriggleHat" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue9Shanghai" Value="시끄러워!,왕위 계승 문제를,나한테 떠넘기지 말라고!!" Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue10Shanghai" Value="뭐，그래도 지금 딱히 국민들이,불만인 것 같지 않다면,자신감 가지라고라도 말해 줘." Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo36Dialogue11WriggleHat" Value="아，그래!,고마워，샹하이!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo36Dialogue11WriggleHat" Value="아，그래!,고마워，상하이!" Face="WriggleHat" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue12Alice" Value="....한 나라의 여왕님을 상대로,말투가 엄청 거창하네." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo36Dialogue13Shanghai" Value="당치도 않는 소리.,난 신이라고." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo37Dialogue1Shanghai" Value="여보세요. 나 메리야.,지금 고란드에 있어." Face="Shanghai" Mono="False" />
@@ -294,7 +294,7 @@
   <Dialogue Key="Messages.HumorInfo38Dialogue2NaviPurpleHeel" Value="네!" Face="NaviPurpleHeel" Mono="False" />
   <Dialogue Key="Messages.HumorInfo38Dialogue3NaviPurplePunk" Value="안 돼! 안 돼에에에!!,화장실 청소만큼은,하고 싶지 않아요!!" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Messages.HumorInfo38Dialogue4NaviPurpleHeel" Value="시끄러워!,빨리 와!" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo38Dialogue5Alice" Value="....샹하이,왜 애들이 화장실 청소를,이렇게까지 싫어하는 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo38Dialogue5Alice" Value="....상하이,왜 애들이 화장실 청소를,이렇게까지 싫어하는 거야?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo38Dialogue6Shanghai" Value="그건 화장실 개수가,너무 많아서 그래." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo38Dialogue7Shanghai" Value="아무리 씻어 대도,깨끗해진 순서대로,사람들이 써서 더러워지거든." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo38Dialogue8Shanghai" Value="영원히 끝나지 않는,현대의 헛된 노력,그게 바로 화장실 청소야." Face="Shanghai" Mono="False" />
@@ -313,10 +313,10 @@
   <Dialogue Key="Messages.HumorInfo40Dialogue6Shanghai" Value="그렇다고 널 구한다는 건 아냐." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo40Dialogue7Patchouli" Value="무큣!?" Face="Patchouli" Mono="False" />
   <Dialogue Key="Messages.HumorInfo40Dialogue8Alice" Value="(어디서 왔는데 쟤는)" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfo41Dialogue1Alice" Value="샹하이는 약점 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfo41Dialogue1Alice" Value="상하이는 약점 있어?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo41Dialogue2Shanghai" Value="있는데?,나 맥주병이라 수영 못 해." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo41Dialogue3Alice" Value="그거 말고,다른 약점 있어?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.HumorInfo41Dialogue4Shanghai" Value="그거 말고라....,고급 전뇌 요리가 조리되는,냄새에 약하기도 한데." Face="Shanghai" Mono="False" />
   <Dialogue Key="Messages.HumorInfo41Dialogue5Alice" Value="그건 그냥,식탐이 많은 게 아니고....?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.HumorInfoEirinCall" Value="야，샹하이!,야고코로 선생님한테,장난 전화 걸면 안 된다고!" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.HumorInfoEirinCall" Value="야，상하이!,야고코로 선생님한테,장난 전화 걸면 안 된다고!" Face="Alice" Mono="False" />
 </data>

@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.AliceInfo1Dialogue1Alice" Value="으아악!,빨리 학교에 가야 하는데!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo2Dialogue1Alice" Value="플러그아웃해서,친구들이랑 이야기라도 할까?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo3Dialogue1Alice" Value="샹하이，수업은,PC교실에서 이루어지니까,빨리 플러그아웃하자." Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo4Dialogue1Alice" Value="샹하이，빨리 집에 돌아가자." Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo5Dialogue1Alice" Value="샹하이，빨리 집에 돌아가자." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo3Dialogue1Alice" Value="상하이，수업은,PC교실에서 이루어지니까,빨리 플러그아웃하자." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo4Dialogue1Alice" Value="상하이，빨리 집에 돌아가자." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo5Dialogue1Alice" Value="상하이，빨리 집에 돌아가자." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo6Dialogue1Alice" Value="환상 스퀘어로 가면,어떤 정보를 얻을 수 있을까?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo7Dialogue1Alice" Value="”위랑 아래가 엇갈리는 바닥”....,엇갈리는 건 길을 뜻하는 걸까?,그 바닥은 그럼 뭐지?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo8Dialogue1Alice" Value="좀만 더 있다가,플러그아웃한 뒤,간식 먹으러 가자." Face="Alice" Mono="False" />
@@ -77,7 +77,7 @@
   <Dialogue Key="Messages.AliceInfo79Dialogue1Alice" Value="관광명소도 알았으니,플러그아웃하고,관광하러 가 보자." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo80Dialogue1Alice" Value="리글을 기다리게 하면 안 되잖아.,빨리 플러그아웃하자." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo81Dialogue1Shanghai" Value="잉겔레스 에리어 2의,북서쪽에 있는 워프로 가서,앨리스를 구해야 해....!" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo82Dialogue1Alice" Value="샹하이，빨리,시계탑의 보안을 해제해!" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo82Dialogue1Alice" Value="상하이，빨리,시계탑의 보안을 해제해!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo83Dialogue1Alice" Value="플러그아웃하고,기념품 전해주러 가야지." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo84Dialogue1Alice" Value="플러그아웃하고,엄마한테 갔다 왔다고,말하러 가자." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo85Dialogue1Alice" Value="환상 스퀘어에서,쌀을 팔면 되는 거지?" Face="Alice" Mono="False" />
@@ -97,9 +97,9 @@
   <Dialogue Key="Messages.AliceInfo99Dialogue1Alice" Value="ROM의 전뇌 세계를 제압하고,다음 단계로 가자!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo100Dialogue1Alice" Value="플러그아웃하고,ROM의 기지로 돌아가자!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo101Dialogue1Alice" Value="아사쿠라 선생님은,이 길의 끝에 계실 거야!,가자，레베카 언니!" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo102Dialogue1Alice" Value="샹하이，오늘은 뭐 할까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo102Dialogue1Alice" Value="상하이，오늘은 뭐 할까?" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo103Dialogue1Alice" Value="정말 우라 인터넷의 정보나,소문만으로 그 ”천국” 같은,에리어를 찾을 수 있을까?" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo104Dialogue1Alice" Value="뭘 가만히 있는 거야，샹하이!,우라 7의 그 플랫폼에,뭐가 있는지 보러 가자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo104Dialogue1Alice" Value="뭘 가만히 있는 거야，상하이!,우라 7의 그 플랫폼에,뭐가 있는지 보러 가자!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo105Dialogue1Alice" Value="와아....,우라 인터넷 안에,이런 정원이 있었다니...." Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo106Dialogue1Alice" Value="그 천국 같은 에리어에 있는,문에 대해 천리안,할아버지한테 여쭤 보자!" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo107Dialogue1Alice" Value="천리안 할아버지가 코드를,알려주기 전에 우리한테 이걸,시키는 데에는 이유가 있겠지...." Face="Alice" Mono="False" />
