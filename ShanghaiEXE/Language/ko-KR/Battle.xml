@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <!-- Custom -->
   <Dialogue Key="Custom.EscapeSuccess" Value="#b@false#・・・,#b@true#좋아，도망쳤어!" Face="Shanghai" Mono="False" />
@@ -13,7 +13,7 @@
   <Dialogue Key="Custom.SendNoChips" Value="한 장도 칩을 전송하지 않고,이전에 전송한 칩을 그대로,남겨둔 채로 턴을 넘깁니다!" Face="None" Mono="False" />
   <Dialogue Key="Custom.ADDChips" Value="선택한 칩의 개수만큼,다음 턴부터 고를 수 있는,칩 슬롯의 개수를 늘립니다!" Face="None" Mono="False" />
   <Dialogue Key="Custom.ADDTempChips" Value="고를 수 있는 칩 슬롯을,다음 한 턴 동안만,일시적으로 늘립니다!" Face="None" Mono="False" />
-  <Dialogue Key="Custom.ActionADD" Value="샹하이!,추가 칩 데이터를 전송할 테니까,한 턴 정도 버텨 줘!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.ActionADD" Value="상하이!,추가 칩 데이터를 전송할 테니까,한 턴 정도 버텨 줘!" Face="Alice" Mono="False" />
   <Dialogue Key="Custom.ActionSpecialADD" Value="앨리스가 있었다면,ADD 기능을 쓸 수 있겠지만...." Face="Shanghai" Mono="False" />
 
   <Dialogue Key="Custom.NullElemDesc" Value="특수한 능력은 없지만,무속성이기 때문에,약점 속성이 존재하지 않는다" Face="None" Mono="False" />
@@ -119,10 +119,10 @@
   <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue4" Value="B 버튼으로는 버스터를 쏠 수 있어!,칩이 없을 때에도 공격할 수 있지만,약해서 그다지 마음에 들지만은 않아." Face="Shanghai" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue5" Value="뭐 그래도，B 버튼을 계속 누르고,있으면 위력이 높은 차지샷을,쏠 수 있긴 하지만." Face="Shanghai" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue6" Value="역시 그 부분은 기억하고 있었네." Face="Alice" Mono="False" />
-  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue7" Value="전송한 칩은,샹하이 네 머리 위쪽에,표시되어 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue7" Value="전송한 칩은,상하이 네 머리 위쪽에,표시되어 있어." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue8" Value="쓰고 싶은 때 A 버튼을 누르면,그 칩에 대응하는 공격이 나갈 거야." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue9" Value="그렇지만，각 칩은,각 전투에서 한 번씩밖에,못 쓰니까 조심해." Face="MsAsakura" Mono="False" />
-  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue1" Value="왼쪽 위에 있는 숫자는,샹하이의 현재 체력이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue1" Value="왼쪽 위에 있는 숫자는,상하이의 현재 체력이야." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue2" Value="이게 0이 되어 버리면 네가,딜리트되어 버리니까,조심해야 해." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue1" Value="오른쪽에 있는 파란 에리어에,있는 것들이 이제부터 싸울,바이러스(적)들이야." Face="MsAsakura" Mono="False" />
   <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue2" Value="바이러스에 가까이 있는 숫자는,각 바이러스의 체력이야." Face="MsAsakura" Mono="False" />
@@ -175,10 +175,10 @@
   <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue8" Value="레벨은 1부터 시작해서,11 이상일 때 적용되는,Ｓ랭크까지 있어." Face="MsAsakura" Mono="False" />
   <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue9" Value="얼마나 높은 버스팅 레벨을,뽑아낼 수 있는지 도전해 보는 것도,괜찮을 것 같네." Face="MsAsakura" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue1" Value="!?,앨리스...." Face="Shanghai" Mono="False" />
-  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue2" Value="샹하이，왜 그래?,그 모습은...?" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue2" Value="상하이，왜 그래?,그 모습은...?" Face="Alice" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue3" Value="뭔가 내 몸속에서,힘이 솟구치는 것 같아...." Face="Shanghai" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue4" Value="어，모리치카 박사님한테서,전화가 왔어." Face="Shanghai" Mono="False" />
-  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue5" Value="샹하이의 모습이 바뀌었을 거야.,네 몸에 장착된 데이터에 의해,스타일 체인지가 작동한 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue5" Value="상하이의 모습이 바뀌었을 거야.,네 몸에 장착된 데이터에 의해,스타일 체인지가 작동한 거야." Face="DrMorichika" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue6" Value="오퍼레이터의 전투 습관이나 성향，,그걸 더 효율적으로 반영하도록,내비가 자동 진화하는 시스템." Face="DrMorichika" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue7" Value="그게，스타일 체인지야." Face="DrMorichika" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue8" Value="스타일 체인지...." Face="Shanghai" Mono="False" />
@@ -186,7 +186,7 @@
   <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue2" Value="스타일 체인지구나!,그 모습은....?" Face="Alice" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue3" Value="어，모리치카 박사님한테서,전화가 왔어." Face="Shanghai" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue4Format" Value="그 스타일의 이름은...,{0} 스타일이구나!" Face="DrMorichika" Mono="False" />
-  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue5Format" Value="대단해，샹하이!,{0} 스타일이라니!" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue5Format" Value="대단해，상하이!,{0} 스타일이라니!" Face="Alice" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue1" Value="스타일이 여러 개가 있는 상태에서,커스텀 화면에서 위 버튼을 누르면,전투 중에 스타일을 바꿀 수 있어." Face="DrMorichika" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue2" Value="그렇지만，스타일을 바꾼 턴에는,칩을 전송할 수가 없게 되니까,타이밍을 신중하게 잡아야 해." Face="DrMorichika" Mono="False" />
   <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue3" Value="여기에，전투 시작 시에,장비하고 있었던 스타일은,언제든지 원하는 때 다시 장비할 수 있지만，" Face="DrMorichika" Mono="False" />

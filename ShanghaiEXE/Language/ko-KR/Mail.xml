@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Mail.Mail1Title" Value="인터넷 범죄 주의!" Mono="True" />
   <Text Key="Mail.Mail1Sender" Value="메일뉴스" Mono="True" />
@@ -159,7 +159,7 @@
   <Dialogue Key="Mail.Mail22Dialogue6" Value="된다면 에이전트 센터의,2층으로 와 줘." Face="Sagume" Mono="True" />
   <Text Key="Mail.Mail23Title" Value="죄송합니다만" Mono="True" />
   <Text Key="Mail.Mail23Sender" Value="부화" Mono="True" />
-  <Dialogue Key="Mail.Mail23Dialogue1" Value="샹하이 님，죄송합니다만,샹하이 님한테만 하고 싶은,비밀 이야기가 있습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail23Dialogue1" Value="상하이 님，죄송합니다만,상하이 님한테만 하고 싶은,비밀 이야기가 있습니다." Face="Henchie" Mono="True" />
   <Dialogue Key="Mail.Mail23Dialogue2" Value="그래서 그런데 우라 인터넷 2에서,저희 둘이 처음 마주친,그 장소까지 와 주세요." Face="Henchie" Mono="True" />
   <Text Key="Mail.Mail24Title" Value="감사장" Mono="True" />
   <Text Key="Mail.Mail24Sender" Value="잉겔레스 공항" Mono="True" />
@@ -176,9 +176,9 @@
   <Dialogue Key="Mail.Mail25Dialogue3" Value="메인 시스템의 보안을,강화하는 동안 세이렌호는,운휴하겠습니다." Face="FemaleOld" Mono="True" />
   <Dialogue Key="Mail.Mail25Dialogue4" Value="또한 그 동안 세이렌호는,정박중인 항구에서 일반인들을,위해 개방됩니다." Face="FemaleOld" Mono="True" />
   <Dialogue Key="Mail.Mail25Dialogue5" Value="항구에 오시는 분들은 꼭,들러 주십시오.,　　　　　　　　　환상 관광" Face="FemaleOld" Mono="True" />
-  <Text Key="Mail.Mail26Title" Value="샹하이에 대해" Mono="True" />
+  <Text Key="Mail.Mail26Title" Value="상하이에 대해" Mono="True" />
   <Text Key="Mail.Mail26Sender" Value="모리치카 린노스케" Mono="True" />
-  <Dialogue Key="Mail.Mail26Dialogue1" Value="앨리스，,샹하이에 대해,이야기하고픈 게 있어." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue1" Value="앨리스，,상하이에 대해,이야기하고픈 게 있어." Face="DrMorichika" Mono="True" />
   <Dialogue Key="Mail.Mail26Dialogue2" Value="난 지금 에이전트 센터에 있어." Face="DrMorichika" Mono="True" />
   <Dialogue Key="Mail.Mail26Dialogue3" Value="혹시 된다면 지금,에이전트 센터에,와 줄 수 있어?" Face="DrMorichika" Mono="True" />
   <Text Key="Mail.Mail27Title" Value="수술 곧 시작해" Mono="True" />

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="" Value="" />
   <Dialogue Key="Debug.UnimplementedText" Value="[FIRST LINE],[TEXT NOT IMPLEMENTED],[THIRD LINE]" Face="Sprite" Mono="False" />
   <Dialogue Key="Debug.UnimplementedQuestion" Value="[QUESTION LINE 1],[QUESTION LINE 2]" Face="Sprite" Mono="False" />
   <Dialogue Key="Debug.UnimplementedAnswer" Value="[OPTION LEFT],[OPTION RIGHT]" Face="Sprite" Mono="False" />
   <Dialogue Key="Debug.UnimplementedNumset" Value="[NUMSET QUESTION]" Face="Sprite" Mono="False" />
-  <Text Key="Common.Title" Value="환상 네트워크 샹하이 에그제" />
+  <Text Key="Common.Title" Value="환상 네트워크 상하이 에그제" />
   <Text Key="Startup.LoadGameData" Value="게임 데이터" />
   <Text Key="Startup.LoadGraphics" Value="그래픽" />
   <Text Key="Startup.LoadAudio" Value="사운드" />
@@ -17,7 +17,7 @@
   <Dialogue Key="ChipTrader.TradeDialogue1" Value="#u@#세이브 중...." Face="None" Mono="False" />
   <Dialogue Key="ChipTrader.TradeDialogue2" Value="세이브 완료!" Face="None" Mono="False" />
   <Dialogue Key="ChipTrader.TradeDialogue3" Value="좋아，어디 그럼!,철컥 철컥.... 덜컹!," Face="None" Mono="False" />
-  <Text Key="ChipTrader.ResultRecipientShanghai" Value="샹하이" />
+  <Text Key="ChipTrader.ResultRecipientShanghai" Value="상하이" />
   <Text Key="ChipTrader.ResultRecipientAlice" Value="앨리스" />
   <Dialogue Key="ChipTrader.ResultDialogue1Format" Value="　　　　　　{0}는,　　　　　　「{1}　{2} 」,　　　　　　를 얻었다!" Face="None" Mono="False" />
   <Text Key="ChipTrader.NameToData" Value="가방" />
@@ -103,13 +103,13 @@
   <Text Key="MysteryItem.BattleChipPhrase" Value="배틀칩" />
   <Text Key="MysteryItem.SubChipPhrase" Value="서브칩" />
   <Text Key="MysteryItem.AddonPhrase" Value="애드온" />
-  <Dialogue Key="MysteryData.GetItemDialogue1Format" Value="샹하이는 {0},{1} (을)를,얻었다!" Face="None" Mono="False" />
-  <Dialogue Key="MysteryData.GetHPMemoryDialogue1" Value="샹하이의 HP의,최대치가 20 상승했다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetItemDialogue1Format" Value="상하이는 {0},{1} (을)를,얻었다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHPMemoryDialogue1" Value="상하이의 HP의,최대치가 20 상승했다!" Face="None" Mono="False" />
   <Dialogue Key="MysteryData.GetRegUpDialogue1Format" Value="레귤러 메모리의,용량이 {0}MB 늘어났다!" Face="None" Mono="False" />
   <Dialogue Key="MysteryData.GetSubMemoryDialogue1" Value="서브칩을 보유할 수 있는,수량이 1 늘어났다!" Face="None" Mono="False" />
   <Dialogue Key="MysteryData.GetCorePlusDialogue1" Value="애드온 매니저에서,쓸 수 있는 코어의 수가,1개 늘어났다!" Face="None" Mono="False" />
   <Dialogue Key="MysteryData.GetHertzUpDialogue1Format" Value="애드온 매니저에서,쓸 수 있는 헤르츠의 수가,{0} GHz 늘어났다!" Face="None" Mono="False" />
-  <Dialogue Key="MysteryData.GetCannotCarryDialogue1Format" Value="샹하이는,{0}　를,이 이상 보유할 수 없다...." Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCannotCarryDialogue1Format" Value="상하이는,{0}　를,이 이상 보유할 수 없다...." Face="None" Mono="False" />
   <Dialogue Key="MysteryData.GetEncounterDialogue1" Value="아니 이런!,이 미스터리 데이터에는,바이러스가 숨어 있었다!" Face="None" Mono="False" />
   <Text Key="MysteryData.HalfEnrgText" Value="하프 에너지" />
   <Text Key="MysteryData.FullEnrgText" Value="풀 에너지" />
@@ -195,19 +195,19 @@
   <Text Key="Shop.Assistant2Sold" Value="고맙다구!" />
   <Text Key="Shop.Assistant3Sold" Value="고마우이!" />
   <Text Key="Shop.Assistant4Sold" Value="확실하게 거래했어!" />
-  <Dialogue Key="Player.JackOutQuestion" Value="샹하이，플러그아웃할까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Player.JackOutQuestion" Value="상하이，플러그아웃할까?" Face="Alice" Mono="False" />
   <Text Key="Player.JackOutOptions" Value="예,아니오" />
   <Dialogue Key="Player.JackOutYesResponse" Value="OK! 알겠어!" Face="Alice" Mono="False" />
-  <Dialogue Key="Player.JackOutFailedDialogue1" Value="샹하이，여기서는,플러그아웃이 안 되는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Player.JackOutFailedDialogue1" Value="상하이，여기서는,플러그아웃이 안 되는데...." Face="Alice" Mono="False" />
   <Dialogue Key="Player.FirewallFadeDialogue1" Value="마크핀의 효과가,다 끝난 것 같네...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Player.OpenPortFadeDialogue1" Value="오픈 포트의 효과가,다 끝난 것 같은데...." Face="Shanghai" Mono="False" />
   <Dialogue Key="Player.VirusScnFadeDialogue1" Value="바이러스 스캔의 효과가,다 끝난 것 같네...." Face="Shanghai" Mono="False" />
-  <Text Key="MysteryItem.OpenDialogue1" Value="샹하이는,미스터리 데이터를 조사했다...." />
+  <Text Key="MysteryItem.OpenDialogue1" Value="상하이는,미스터리 데이터를 조사했다...." />
   <Text Key="MysteryItem.LockedDialogue1" Value="이 미스터리 데이터에는,보안이 걸려 있어서,분석할 수가 없다." />
   <Text Key="MysteryItem.LockedDialogue2" Value="분석하기 위해서는,서브 칩 “크랙 툴“이 필요하다." />
   <Text Key="MysteryItem.LockUseCrakToolQuestionFormat" Value="지금 사용하시겠습니까?,({0}개 남아 있음)" />
   <Text Key="MysteryItem.LockUseCrakToolQuestionOptions" Value="예,아니오" />
-  <Text Key="MysteryItem.LockOpenedDialogue1" Value="샹하이는,미스터리 데이터를 조사했다...." />
+  <Text Key="MysteryItem.LockOpenedDialogue1" Value="상하이는,미스터리 데이터를 조사했다...." />
   <Dialogue Key="AddOnManager.ExitQuestion" Value="RUN을 아직 안 했는데,그대로 돌아갈 거야?" Face="Shanghai" Mono="False" />
   <Text Key="AddOnManager.ExitOptions" Value="예,아니오" />
   <Text Key="AddOnManager.Cores" Value="코어 수" />
@@ -436,7 +436,7 @@
   <Text Key="VirusManager.HP" Value="HP :" />
   <Text Key="VirusManager.Power" Value="파워:" />
   <Dialogue Key="Misc.DemoEndDialogue1" Value="이 지역은 현재 개발중입니다.,개발이 완료될 때까지,기다려 주시기 바랍니다." Face="Sprite" Mono="False" />
-  <Dialogue Key="Misc.DemoEndDialogue2" Value="샹하이의 방에 가면,챌린지 컨텐츠나 히든 컨텐츠를,즐기실 수 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.DemoEndDialogue2" Value="상하이의 방에 가면,챌린지 컨텐츠나 히든 컨텐츠를,즐기실 수 있습니다." Face="Sprite" Mono="False" />
   <Dialogue Key="Retcon.OpeningMessageQuestion" Value="기존 버전에서 수정된,버그 리스트를 보시겠습니까?" Face="Sprite" Mono="False" />
   <Text Key="Retcon.OpeningMessageQuestionOptions" Value="예,아니오" />
   <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="병원 이벤트 도중에,비상 사태 음악이,나오지 않도록 수정." Face="Sprite" Mono="False" />

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <!-- Chip -->
   <Text Key="Chip.AquaStormName" Value="태풍" />
@@ -421,7 +421,7 @@
   <Text Key="Chip.MrasaXDesc" Value="적 하나를 노리고,위에서 내려찍는,그레이트 앵커!" />
   <Text Key="Chip.OkatazukeName" Value="정리정돈" />
   <Text Key="Chip.OkatazukeDesc" Value="자기 에리어를 정상,패널로 되돌리고 양측에,있는 기물들을 없앤다!" />
-  <Text Key="Chip.OmegaSaberName" Value="샹하이세이버" />
+  <Text Key="Chip.OmegaSaberName" Value="상하이세이버" />
   <Text Key="Chip.OmegaSaberDesc" Value="가로 2칸을 3번,연속으로 베어가르는,구세주의 무구!" />
   <Text Key="Chip.PaladinLanceName" Value="팔라딘랜스" />
   <Text Key="Chip.PaladinLanceDesc" Value="앞 2칸을,단번에 뚫는,성기사의 창!" />
@@ -660,7 +660,7 @@
   <Text Key="Chip.TripleRodName" Value="돌로드" />
   <Text Key="Chip.TripleRodDesc" Value="한 칸씩 뻗어 나가며,3연타 공격하는,서번트의 창!" />
   <Text Key="Chip.TwinHeroinesName" Value="트윈히로인즈" />
-  <Text Key="Chip.TwinHeroinesDesc" Value="샹하이와 요리히메가,모든 적을 향해,미친 연속 공격!" />
+  <Text Key="Chip.TwinHeroinesDesc" Value="상하이와 요리히메가,모든 적을 향해,미친 연속 공격!" />
   <!-- ウツホ -->
   <Text Key="Chip.UthuhoV1Name" Value="우츠호" />
   <!-- 前方に縦三マス中心はブレイクのバーストレイヴン！ -->
