@@ -141,7 +141,7 @@
                             <TextBlock VerticalAlignment="Center"
                                        Margin="5,0"
                                        TextWrapping="Wrap"
-                                       Text="{Binding Path=Value.(core:TranslationEntry.FilePath)}" />
+                                       Text="{Binding Path=Value.(core:TranslationEntry.FilePathShort), Mode=OneWay}" />
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>

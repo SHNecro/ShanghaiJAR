@@ -302,7 +302,7 @@ namespace MapEditor.Core
             var languageFiles = new DirectoryInfo(directory).GetFiles("*.xml");
             foreach (var keyFile in languageFiles)
             {
-                var keyPath = $"{directory}/{keyFile}";
+                var keyPath = Path.Combine(directory, keyFile.Name);
                 var languageDoc = new XmlDocument();
                 languageDoc.Load(keyPath);
                 

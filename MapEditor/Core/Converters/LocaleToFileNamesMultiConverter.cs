@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Windows.Data;
 
 namespace MapEditor.Core.Converters
@@ -19,7 +21,14 @@ namespace MapEditor.Core.Converters
             {
                 var initialList = new List<FileNameFilter> { FileNameFilter.AllFilesFilter };
                 initialList.AddRange(Constants.TranslationService.GetFilePaths(locale).Select(fp => new FileNameFilter { IsAllFiles = false, Filter = fp }));
-                return initialList;
+				var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
+                foreach (var filter in initialList)
+                {
+                    filter.Filter = filter.Filter.Replace(assemblyLoc, "");
+                }
+
+				return initialList;
             }
         }
 

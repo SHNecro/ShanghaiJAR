@@ -2,6 +2,8 @@
 using ExtensionMethods;
 using MapEditor.Core;
 using System;
+using System.IO;
+using System.Reflection;
 
 namespace MapEditor.ViewModels
 {
@@ -26,7 +28,7 @@ namespace MapEditor.ViewModels
             {
                 this.SetValue(ref this.translationEntry, value);
                 this.OnPropertyChanged(nameof(this.Dialogue));
-                this.OnPropertyChanged(nameof(this.FilePath));
+                this.OnPropertyChanged(nameof(this.FilePathShort));
             }
         }
 
@@ -95,18 +97,19 @@ namespace MapEditor.ViewModels
             }
         }
 
-        public string FilePath
+        public string FilePathShort
         {
             get
             {
-                return this.translationEntry.FilePath;
+                var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                return this.translationEntry.FilePath.Replace(assemblyLoc, "");
             }
 
-            set
-            {
-                this.translationEntry.FilePath = value;
-                this.OnPropertyChanged(nameof(this.FilePath));
-            }
+            //set
+            //{
+            //    this.translationEntry.FilePath = value;
+            //    this.OnPropertyChanged(nameof(this.FilePath));
+            //}
         }
 
         public Func<TranslationEntryViewModel> BaseGetterAction { get; set; }
