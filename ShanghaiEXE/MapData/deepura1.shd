@@ -351,10 +351,10 @@ playerHide:True
 effect:12::310:516:0:0:-1:0:1:none
 effect:74:CirnoNoise2:272:460:1:0:15:30:1:none
 effect:74:CirnoNoise3:272:460:1:0:60:30:1:noise
-emove:EntryCutsceneCirno:warpright,24:wait,24:warpleft,24:wayleft,0:wait,14:warpup,8:warpright,12:wait,14:warpdown,23:wait,24:warpright,20:wait,33:warpup,30:wait,46:warpright,12:wait,15:warpdown,4:wait,15:warpleft,38:wait,52:warpdown,32:wait,24:warpleft,38:wait,24:warpup,54:warpright,17:wait,1:warpdown,35:wait,14:warpleft,8:wait,5:warpdown,12:wait,17:warpup,22:wait,4:warpleft,28:wait,40:warpup,15:wait,14:warpright,31:wait,26:warpup,7:wait,17:warpleft,5:wait,8:warpdown,20:wait,6:warpright,10:wait,43:wayup,0:wayfix,0:warpdown,17:wait,24:warpleft,36:wait,13:warpup,38:wait,23:warpup,15:wait,16:warpdown,5:wait,27:warpright,34:wait,29:warpdown,18:wait,25:warpright,17:wait,8:warpdown,3:wait,6:warpright,7:wait,25:warpup,17:wait,15:warpright,12:wait,24:warpdown,36:wait,11:warpleft,416
-emove:CirnoPopIn1:wait,40:warpup,20:warpright,450:wait,8:warpleft,27:wait,12:warpup,3:warpright,6:wait,33:warpup,12:wait,12:warpright,17:wait,64:warpleft,60:wait,34:warpdown,24:wait,24:warpright,24:wait,12:up,24:warpleft,400
-emove:CirnoPopIn2L:wait,80:warpdown,8:warpright,420:wait,30:up,8:wait,14:warpright,16:warpdown,4:warpleft,4:warpup,24:wait,24:warpleft,33:wait,44:warpdown,13:wait,60:warpright,44:wait,24:warpleft,400
-emove:CirnoPopIn2R:wait,80:warpdown,8:warpright,420:wait,30:down,8:warpleft,408
+emove:EntryCutsceneCirno:warpright,24:wait,24:warpleft,24:wayleft,0:wait,14:warpup,8:warpright,12:wait,14:warpdown,23:wait,24:warpright,20:wait,33:warpup,30:wait,46:warpright,12:wait,15:warpdown,4:wait,15:warpleft,38:wait,52:warpdown,32:wait,24:warpleft,38:wait,24:warpup,54:warpright,17:wait,1:warpdown,35:wait,14:warpleft,8:wait,5:warpdown,12:wait,17:warpup,22:wait,4:warpleft,28:wait,40:warpup,15:wait,14:warpright,31:wait,26:warpup,7:wait,17:warpleft,5:wait,8:warpdown,20:wait,6:warpright,10:wait,43:wayup,0:wayfix,0:warpdown,17:wait,24:warpleft,36:wait,13:warpup,38:wait,23:warpup,15:wait,16:warpdown,5:wait,27:warpright,34:wait,29:warpdown,18:wait,25:warpright,17:wait,8:warpdown,3:wait,6:warpright,7:wait,25:warpdown,17:wait,15:warpdown,12:wait,24:warpdown,12:warpleft,32:wait,11:up,100:warpleft,400
+emove:CirnoPopIn1:wait,40:warpup,20:warpright,450:wait,8:warpleft,27:wait,12:warpup,3:warpright,6:wait,33:warpup,12:wait,12:warpright,17:wait,64:warpleft,60:wait,34:warpdown,24:wait,24:warpright,24:wait,12:up,24:warpdown,26:wait,41:warpdown,20:wait,47:warpright,29:wait,36:warpup,10:wait,47:warpleft,39:wait,23:warpleft,400
+emove:CirnoPopIn2L:wait,30:warpdown,8:warpright,420:wait,10:up,8:wait,14:warpright,16:warpdown,4:warpleft,4:warpup,24:wait,24:warpleft,33:wait,44:warpdown,13:wait,60:warpright,44:wait,24:warpleft,400
+emove:CirnoPopIn2R:wait,30:warpdown,8:warpright,420:wait,10:down,8:warpleft,408
 wait:100:False
 effectEnd:
 playerHide:False
@@ -363,6 +363,7 @@ wait:30:False
 playerHide:True
 effect:12::310:528:0:0:-1:0:1:none
 wait:100:False
+emove:CirnoPopIn3:warpdown,15:warpright,436:wait,17:warpleft,24:wait,37:warpdown,9:wait,26:warpup,38:wait,12:warpdown,21:wait,32:warpright,20:wait,11:warpdown,21:wait,49:warpdown,15:warpleft,35:wait,45:warpup,14:wait,35:warpright,17:wait,34:warpdown,17:wait,40:warpleft,31:wait,24:warpleft,420
 wait:30:False
 effectEnd:
 effect:17::310:528:0:0:-1:0:1:none
@@ -372,12 +373,11 @@ effect:11::310:528:0:0:-1:0:1:none
 wait:40:False
 effectEnd:
 effect:12::310:528:0:0:-1:0:1:none
-emove:CirnoPopIn3:warpdown,15:warpright,436:wait,17:warpleft,24:wait,37:warpdown,9:wait,26:warpup,38:wait,12:warpdown,21:wait,32:warpright,20:wait,11:warpdown,21:wait,49:warpdown,15:warpleft,35:wait,45:warpup,14:wait,35:warpright,17:wait,34:warpdown,17:wait,40:warpleft,31:wait,24:warpleft,420
 emove:CirnoPopIn4:wait,60:warpdown,16:warpright,420:wait,38:warpright,13:wait,30:warpdown,23:wait,43:warpleft,25:wait,40:warpup,28:wait,40:warpdown,13:wait,8:warpdown,24:wait,9:warpright,31:wait,18:warpup,9:wait,36:warpup,19:wait,41:warpleft,7:warpdown,8:down,4:warpdown,4:down,4:warpdown,4:down,4:wait,24:warpleft,420
 wait:100:False
 emove:CirnoPopIn5:warpdown,5:warpright,409:wait,31:warpdown,18:wait,45:warpright,7:wait,31:warpdown,16:wait,49:right,19:wait,6:warpup,7:wait,46:warpright,20:wait,29:warpdown,36:wait,13:warpleft,19:warpleft,19:wait,46:warpup,39:wait,33:warpleft,21:wait,24:warpleft,420
-emove:CirnoPopIn6:wait,60:warpdown,45:warpright,420:wait,46:warpup,20:wait,1:warpright,34:wait,48:warpleft,26:wait,41:warpdown,20:wait,47:warpright,29:wait,36:warpup,10:wait,47:warpleft,39:wait,23:warpdown,16:wait,29:warpright,21:wait,24:warpleft,420
 wait:100:False
+emove:CirnoPopIn6:wait,60:warpdown,45:warpright,420:wait,46:warpup,20:wait,1:warpright,34:wait,48:warpleft,26:wait,41:warpdown,20:wait,47:warpright,29:wait,36:warpup,10:wait,47:warpleft,39:wait,23:warpdown,16:wait,29:warpright,21:wait,24:warpleft,420
 emove:CirnoPopIn7:wait,60:warpdown,64:warpright,430:wait,30:warpleft,430
 wait:300:False
 effectDelete:CirnoNoise3
