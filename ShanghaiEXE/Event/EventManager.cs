@@ -163,7 +163,11 @@ namespace NSEvent
                                 break;
                             }
                             this.events[this.playeventnumber].SkipUpdate();
-                        }
+							if (this.events[this.playeventnumber] is Battle)
+							{
+								this.skipColor = Color.Black;
+							}
+						}
                     }
                     while (this.noTimeNext);
                 }

@@ -373,7 +373,7 @@ wait:40:False
 effectEnd:
 effect:12::310:528:0:0:-1:0:1:none
 emove:CirnoPopIn3:warpdown,15:warpright,436:wait,17:warpleft,24:wait,37:warpdown,9:wait,26:warpup,38:wait,12:warpdown,21:wait,32:warpright,20:wait,11:warpdown,21:wait,49:warpdown,15:warpleft,35:wait,45:warpup,14:wait,35:warpright,17:wait,34:warpdown,17:wait,40:warpleft,31:wait,24:warpleft,420
-emove:CirnoPopIn4:wait,60:warpdown,16:warpright,420:wait,38:warpright,13:wait,30:warpdown,23:wait,43:warpleft,25:wait,40:warpup,28:wait,40:warpdown,13:wait,8:warpdown,24:wait,9:warpright,31:wait,18:warpup,9:wait,36:warpup,19:wait,41:warpleft,7:down,16:wait,24:warpleft,420
+emove:CirnoPopIn4:wait,60:warpdown,16:warpright,420:wait,38:warpright,13:wait,30:warpdown,23:wait,43:warpleft,25:wait,40:warpup,28:wait,40:warpdown,13:wait,8:warpdown,24:wait,9:warpright,31:wait,18:warpup,9:wait,36:warpup,19:wait,41:warpleft,7:warpdown,8:down,4:warpdown,4:down,4:warpdown,4:down,4:wait,24:warpleft,420
 wait:100:False
 emove:CirnoPopIn5:warpdown,5:warpright,409:wait,31:warpdown,18:wait,45:warpright,7:wait,31:warpdown,16:wait,49:right,19:wait,6:warpup,7:wait,46:warpright,20:wait,29:warpdown,36:wait,13:warpleft,19:warpleft,19:wait,46:warpup,39:wait,33:warpleft,21:wait,24:warpleft,420
 emove:CirnoPopIn6:wait,60:warpdown,45:warpright,420:wait,46:warpup,20:wait,1:warpright,34:wait,48:warpleft,26:wait,41:warpdown,20:wait,47:warpright,29:wait,36:warpup,10:wait,47:warpleft,39:wait,23:warpdown,16:wait,29:warpright,21:wait,24:warpleft,420
@@ -423,15 +423,14 @@ msg:Map.DeepUra1EntryCutsceneStage1Dialogue6FaceAlice
 msg:Map.DeepUra1EntryCutsceneStage1Dialogue7FaceCirno
 msgclose:
 bgmSave:
-fade:70:255:255:255:255:False
 battle:52:1:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:False:True:VSvirus:40
 stopSkip:
 playerHide:True
 effect:12::310:516:0:0:-1:0:1:none
-fade:0:255:255:255:255:True
+fade:0:255:0:0:0:True
 bgmLoad:
 emove:EntryCutsceneCirno:wayup,0
-fade:60:0:255:255:255:True
+fade:60:0:0:0:0:True
 msgopen:
 msg:Map.DeepUra1EntryCutsceneStage2Dialogue1FaceShanghai
 msgclose:
