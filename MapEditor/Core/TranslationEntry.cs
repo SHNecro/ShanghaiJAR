@@ -14,7 +14,7 @@ namespace MapEditor.Core
 		{
 			get
 			{
-				var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+				var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + Path.DirectorySeparatorChar;
 				return this.FilePath.Replace(assemblyLoc, "");
 			}
 		}

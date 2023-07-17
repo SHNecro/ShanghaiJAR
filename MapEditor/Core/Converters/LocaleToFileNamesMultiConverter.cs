@@ -21,7 +21,7 @@ namespace MapEditor.Core.Converters
             {
                 var initialList = new List<FileNameFilter> { FileNameFilter.AllFilesFilter };
                 initialList.AddRange(Constants.TranslationService.GetFilePaths(locale).Select(fp => new FileNameFilter { IsAllFiles = false, Filter = fp }));
-				var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+				var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + Path.DirectorySeparatorChar;
 
                 foreach (var filter in initialList)
                 {

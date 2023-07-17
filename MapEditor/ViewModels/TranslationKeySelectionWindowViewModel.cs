@@ -198,7 +198,7 @@ namespace MapEditor.ViewModels
         {
             var matchingKeys = Constants.TranslationService.LanguageEntries.Where(kvp => kvp.Key.Item1 == initialKey && kvp.Key.Item2 == this.FilterLocale)
                 .Select(kvp => new KeyValuePair<string, TranslationEntry>(kvp.Key.Item1, kvp.Value));
-            var initialKeyFile = matchingKeys.Any() ? matchingKeys.First().Value.FilePath : null;
+            var initialKeyFile = matchingKeys.Any() ? matchingKeys.First().Value.FilePathShort : null;
 
             if (initialKeyFile == null && this.FilteredEntries != null && this.FilteredEntries.Any())
             {

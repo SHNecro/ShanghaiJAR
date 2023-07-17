@@ -18,6 +18,8 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref this.locale, value); }
         }
 
+        public string Key { get; set; }
+
         public TranslationEntry TranslationEntry
         {
             get
@@ -101,16 +103,16 @@ namespace MapEditor.ViewModels
         {
             get
             {
-                var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                var assemblyLoc = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + Path.DirectorySeparatorChar;
                 return this.translationEntry.FilePath.Replace(assemblyLoc, "");
             }
-
-            //set
-            //{
-            //    this.translationEntry.FilePath = value;
-            //    this.OnPropertyChanged(nameof(this.FilePath));
-            //}
         }
+
+        public void SetFilePath(string filePath)
+        {
+            this.translationEntry.FilePath = filePath;
+			this.OnPropertyChanged(nameof(this.FilePathShort));
+		}
 
         public Func<TranslationEntryViewModel> BaseGetterAction { get; set; }
 

@@ -81,8 +81,29 @@ namespace Services
                     var key = node.Attributes["Key"].Value;
                     var value = node.Attributes["Value"].Value;
                     var mono = bool.Parse(node.Attributes["Mono"].Value);
-                    var face = ((FACE)Enum.Parse(typeof(FACE), node.Attributes["Face"].Value)).ToFaceId(mono);
-                    this.language.Add(key, new Dialogue { Text = value, Face = face });
+                    FACE face;
+                    FaceId faceId;
+                    if (Enum.TryParse<FACE>(node.Attributes["Face"].Value, out face))
+					{
+						faceId = face.ToFaceId(mono);
+					}
+                    else
+					{
+                        var manualFaceTokens = node.Attributes["Face"].Value.Split(',');
+                        int sheet;
+                        byte index;
+                        if (manualFaceTokens.Length == 2
+                            && int.TryParse(manualFaceTokens[0], out sheet)
+                            && byte.TryParse(manualFaceTokens[1], out index))
+                        {
+                            faceId = new FaceId(sheet, index, mono);
+                        }
+                        else
+                        {
+                            faceId = FACE.None.ToFaceId(mono);
+                        }
+					}
+                    this.language.Add(key, new Dialogue { Text = value, Face = faceId });
                 }
 
                 var spriteRectangleConverter = new RectangleConverter();

@@ -60,25 +60,45 @@ namespace NSShanghaiEXE.Game
                     foreach (var line in lines)
                     {
                         string text;
-                        FaceId face;
+                        FaceId faceId;
                         var dlgMatch = Regex.Match(line, "<Dialogue Key=\"([^\"]+)\" Value=\"([^\"]+)\" Face=\"([^\"]+)\" Mono=\"([^\"]+)\" />");
                         var textMatch = Regex.Match(line, "<Text Key=\"([^\"]+)\" Value=\"([^\"]+)\" />");
                         if (dlgMatch.Success)
                         {
                             text = dlgMatch.Groups[2].ToString();
                             var mono = bool.Parse(dlgMatch.Groups[4].ToString());
-                            face = ((FACE)Enum.Parse(typeof(FACE), dlgMatch.Groups[3].ToString())).ToFaceId(mono);
-                        }
+							FACE face;
+							if (Enum.TryParse<FACE>(dlgMatch.Groups[3].ToString(), out face))
+							{
+								faceId = face.ToFaceId(mono);
+							}
+							else
+							{
+								var manualFaceTokens = dlgMatch.Groups[3].ToString().Split(',');
+								int sheet;
+								byte index;
+								if (manualFaceTokens.Length == 2
+									&& int.TryParse(manualFaceTokens[0], out sheet)
+									&& byte.TryParse(manualFaceTokens[1], out index))
+								{
+									faceId = new FaceId(sheet, index, mono);
+								}
+								else
+								{
+									faceId = FACE.None.ToFaceId(mono);
+								}
+							}
+						}
                         else if (textMatch.Success)
                         {
                             text = textMatch.Groups[2].ToString();
-                            face = FACE.SoundOnly.ToFaceId();
+                            faceId = FACE.SoundOnly.ToFaceId();
                         }
                         else
                         {
                             continue;
                         }
-                        var dialogue = new Dialogue { Text = text, Face = face };
+                        var dialogue = new Dialogue { Text = text, Face = faceId };
                         eventmanager.AddEvent(new NSEvent.CommandMessage(s.ad, eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, s.savedata));
                     }
                     eventmanager.AddEvent(new NSEvent.CloseMassageWindow(s.ad, eventmanager));

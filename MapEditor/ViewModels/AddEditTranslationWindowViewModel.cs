@@ -43,8 +43,9 @@ namespace MapEditor.ViewModels
                     this.TranslationEntries = Constants.TranslationService.Locales.Select((l, i) => 
                     {
                     return new TranslationEntryViewModel
-                    {
-                        Locale = l,
+					{
+						Key = "Debug.UnimplementedText",
+						Locale = l,
                         TranslationEntry = new TranslationEntry
                         {
                             FilePath = this.defaultLocationCreator(l),
@@ -66,6 +67,7 @@ namespace MapEditor.ViewModels
                        {
                            return new TranslationEntryViewModel
                            {
+                               Key = kvp.Key.Item1,
                                Locale = kvp.Key.Item2,
                                TranslationEntry = new TranslationEntry
                                {

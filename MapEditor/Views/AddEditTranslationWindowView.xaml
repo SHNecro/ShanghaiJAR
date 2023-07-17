@@ -139,8 +139,8 @@
                                 • e: Ends the dialogue immediately (no args), ex. "Wait just a--#e@#"<LineBreak /> 
                                 • p: (new) Runs an event (id given by &lt;arg&gt;) parallel to the text, ex. "Red#p@FadeRed# Blue#p@FadeBlue#"<LineBreak /> 
                                 • v: Replaces sequence with the var given by &lt;arg&gt;, ex. "#v@20# HeatData remaining!"<LineBreak /> 
-                                • i: Replaces sequence with the last opened item &lt;arg&gt;, ex. "Shanghai got battlechip #i@#"<LineBreak /> 
-                                • c: Replaces sequence with the type of the last opened item &lt;arg&gt;, ex. "Shanghai got #c@#"
+                                • i: Replaces sequence with the last opened item, ex. "Shanghai got battlechip #i@#"<LineBreak /> 
+                                • c: Replaces sequence with the type of the last opened item, ex. "Shanghai got #c@#"
                                 </TextBlock>
                             </ToolTip>
                         </StackPanel.ToolTip>
@@ -178,14 +178,14 @@
                                         <Button DockPanel.Dock="Right"
                                                 Width="32"
                                                 Content="..."
-                                                Tag="{Binding FilePath}"
+                                                Tag="{Binding FilePathShort, Mode=OneWay}"
                                                 Click="SetFilePath" />
                                         <TextBox DockPanel.Dock="Right"
                                                  MaxWidth="150"
                                                  IsEnabled="False"
                                                  ToolTipService.ShowOnDisabled="True"
-                                                 ToolTip="{Binding FilePath}"
-                                                 Text="{Binding FilePath}" />
+                                                 ToolTip="{Binding FilePathShort, Mode=OneWay}"
+                                                 Text="{Binding FilePathShort, Mode=OneWay}" />
                                     </DockPanel>
                                 </StackPanel>
 
