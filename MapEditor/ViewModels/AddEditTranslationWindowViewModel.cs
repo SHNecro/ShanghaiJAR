@@ -220,7 +220,7 @@ namespace MapEditor.ViewModels
                 var newDialogue = tevm.Text != null
                     ? tevm.Dialogue
                     : this.FirstEnteredTranslation != null
-                        ? new Dialogue { Text = $"[{this.FirstEnteredTranslation.Dialogue.Text}]", Face = this.FirstEnteredTranslation.Face.ToFaceId(this.FirstEnteredTranslation.IsMono) }
+                        ? new Dialogue { Text = $"[{this.FirstEnteredTranslation.Dialogue.Text}]", Face = this.FirstEnteredTranslation.FaceId }
                         : new Dialogue { Text = "", Face = FACE.Sprite.ToFaceId(false) };
                 tevm.Dialogue = newDialogue;
 

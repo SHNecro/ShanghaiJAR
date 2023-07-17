@@ -39,7 +39,6 @@ namespace NSEvent
             this.printfase = pfase;
             this.manyQuestion = 2;
             this.fastprint = fast;
-            Graphics graphics = Graphics.FromImage(new Bitmap(100, 100));
 
             this.cursolposi[0] = new Vector2(40f, 140f);
 

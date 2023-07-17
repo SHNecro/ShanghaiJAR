@@ -8,6 +8,7 @@
         xmlns:rendering="clr-namespace:MapEditor.Rendering"
         xmlns:common="clr-namespace:Common;assembly=ShanghaiEXE"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:controls="clr-namespace:MapEditor.Controls"
         mc:Ignorable="d"
         Title="{Binding Title}" Height="420" Width="515">
     <Window.Resources>
@@ -229,11 +230,15 @@
                                             <Rectangle Width="16" Height="16"  Fill="{StaticResource DeleteIcon}" />
                                         </Button>
                                     </Grid>
-                                    <StackPanel Grid.Row="1"
-                                                Orientation="Horizontal"
-                                                HorizontalAlignment="Right">
-                                        <StackPanel.Style>
-                                            <Style TargetType="StackPanel">
+                                    <Grid Grid.Row="1"
+                                          HorizontalAlignment="Stretch">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.Style>
+                                            <Style TargetType="Grid">
                                                 <Style.Triggers>
                                                     <DataTrigger Binding="{Binding DataContext.IsDialogue, Source={StaticResource AddEditTranslationWindowViewModelProxy}}" Value="True">
                                                         <Setter Property="Visibility" Value="Visible" />
@@ -241,21 +246,38 @@
                                                 </Style.Triggers>
                                                 <Setter Property="Visibility" Value="Collapsed" />
                                             </Style>
-                                        </StackPanel.Style>
-                                        <ComboBox ItemsSource="{Binding Source={markup:EnumBindingSourceExtension {x:Type common:FACE}}}">
-                                            <ComboBox.Style>
-                                                <Style TargetType="ComboBox">
-                                                    <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding Text}" Value="{x:Null}">
-                                                            <Setter Property="SelectedValue" Value="{Binding DataContext.FirstEnteredTranslation.Face, Source={StaticResource AddEditTranslationWindowViewModelProxy}}" />
-                                                            <Setter Property="IsEnabled" Value="False" />
-                                                        </DataTrigger>
-                                                    </Style.Triggers>
-                                                    <Setter Property="SelectedValue" Value="{Binding Face}" />
-                                                </Style>
-                                            </ComboBox.Style>
-                                        </ComboBox>
-                                        <CheckBox Content="Monochrome">
+                                        </Grid.Style>
+                                        <Grid Grid.Column="0">
+                                            <Grid VerticalAlignment="Center">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock VerticalAlignment="Center" Grid.Column="0" Text="Sheet:" />
+                                                <controls:WheelCaptureIntegerUpDown Minimum="0" VerticalAlignment="Center" Grid.Column="1" Text="{Binding CustomFaceSheet, UpdateSourceTrigger=PropertyChanged}" />
+                                                <TextBlock VerticalAlignment="Center" Grid.Column="2" Text="Index:" />
+                                                <controls:WheelCaptureIntegerUpDown Minimum="0" Maximum="14" VerticalAlignment="Center" Grid.Column="3" Text="{Binding CustomFaceIndex, UpdateSourceTrigger=PropertyChanged}" />
+                                            </Grid>
+                                            <ComboBox ItemsSource="{Binding Source={markup:EnumBindingSourceExtension {x:Type common:FACE}}}">
+                                                <ComboBox.Style>
+                                                    <Style TargetType="ComboBox">
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Path=IsChecked, ElementName=CustomFaceCheckbox}" Value="True">
+                                                                <Setter Property="Visibility" Value="Hidden" />
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding Text}" Value="{x:Null}">
+                                                                <Setter Property="SelectedValue" Value="{Binding DataContext.FirstEnteredTranslation.Face, Source={StaticResource AddEditTranslationWindowViewModelProxy}}" />
+                                                                <Setter Property="IsEnabled" Value="False" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                        <Setter Property="SelectedValue" Value="{Binding Face}" />
+                                                    </Style>
+                                                </ComboBox.Style>
+                                            </ComboBox>
+                                        </Grid>
+                                        <CheckBox Grid.Column="1" Content="Monochrome" VerticalContentAlignment="Center">
                                             <CheckBox.Style>
                                                 <Style TargetType="CheckBox">
                                                     <Style.Triggers>
@@ -268,7 +290,11 @@
                                                 </Style>
                                             </CheckBox.Style>
                                         </CheckBox>
-                                    </StackPanel>
+                                        <CheckBox x:Name="CustomFaceCheckbox" Grid.Column="2"
+                                                  VerticalContentAlignment="Center"
+                                                  IsChecked="{Binding IsCustomFace, Mode=OneTime}"
+                                                  Content="Manual" />
+                                    </Grid>
                                 </Grid>
                             </Grid>
                         </DataTemplate>

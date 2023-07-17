@@ -52,16 +52,58 @@
                               SelectedValue="{Binding ShopClerkTypeNumber, Converter={StaticResource EnumToIntegerValueConverter}, ConverterParameter={x:Type enums:ShopClerkTypeNumber}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </Grid>
                 <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="0"
+                    <TextBlock Grid.Row="0" Grid.Column="0"
                                VerticalAlignment="Center"
-                               Text="Clerk Face:"/>
-                    <ComboBox Grid.Column="1"
+                               Text="Clerk Face:" />
+
+                    <ComboBox Grid.Row="0" Grid.Column="1"
                               ItemsSource="{markup:EnumBindingSource EnumType={x:Type common:FACE}}"
-                              SelectedValue="{Binding Face, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                              SelectedValue="{Binding Face, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                        <ComboBox.Style>
+                            <Style TargetType="ComboBox">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Path=IsChecked, ElementName=ManualFaceCheckBox}" Value="True">
+                                        <Setter Property="Visibility" Value="Hidden" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ComboBox.Style>
+                    </ComboBox>
+                    <Grid Grid.Row="0" Grid.Column="1">
+                        <Grid.Style>
+                            <Style TargetType="Grid">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Path=IsChecked, ElementName=ManualFaceCheckBox}" Value="False">
+                                        <Setter Property="Visibility" Value="Hidden" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Grid.Style>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock VerticalAlignment="Center" Grid.Column="0" Text="Sheet:" />
+                        <controls:WheelCaptureIntegerUpDown Minimum="0" VerticalAlignment="Center" Grid.Column="1" Text="{Binding FaceSheet, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock VerticalAlignment="Center" Grid.Column="2" Text="Index:" />
+                        <controls:WheelCaptureIntegerUpDown Minimum="0" Maximum="14" VerticalAlignment="Center" Grid.Column="3" Text="{Binding FaceIndex, UpdateSourceTrigger=PropertyChanged}" />
+                    </Grid>
+                    <CheckBox x:Name="ManualFaceCheckBox"
+                              Grid.Row="1"
+                              Grid.Column="1"
+                              HorizontalAlignment="Right" VerticalAlignment="Center"
+                              IsChecked="{Binding IsManualFace, Mode=OneTime}"
+                              Content="Manual"/>
                 </Grid>
                 <Grid>
                     <Grid.ColumnDefinitions>

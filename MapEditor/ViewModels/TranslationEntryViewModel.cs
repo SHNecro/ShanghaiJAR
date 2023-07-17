@@ -79,13 +79,61 @@ namespace MapEditor.ViewModels
             }
 
             set
-            {
-                this.translationEntry.Dialogue.Face = value.ToFaceId(this.IsMono);
-                this.OnPropertyChanged(nameof(this.Face));
-            }
+			{
+				this.translationEntry.Dialogue.Face = value.ToFaceId(this.IsMono);
+				this.OnPropertyChanged(nameof(this.Face));
+				this.OnPropertyChanged(nameof(this.FaceId));
+
+				this.OnPropertyChanged(nameof(this.CustomFaceSheet));
+				this.OnPropertyChanged(nameof(this.CustomFaceIndex));
+			}
         }
 
-        public bool IsMono
+        public FaceId FaceId
+        {
+            get
+            {
+                return this.translationEntry.Dialogue.Face;
+            }
+
+            set
+            {
+				this.translationEntry.Dialogue.Face = value;
+				this.OnPropertyChanged(nameof(this.Face));
+				this.OnPropertyChanged(nameof(this.FaceId));
+
+				this.OnPropertyChanged(nameof(this.CustomFaceSheet));
+				this.OnPropertyChanged(nameof(this.CustomFaceIndex));
+			}
+		}
+
+		public int CustomFaceSheet
+		{
+			get
+			{
+                return this.FaceId.Sheet;
+			}
+
+			set
+			{
+                this.FaceId = new FaceId(value, this.FaceId.Index, this.IsMono);
+			}
+		}
+
+		public byte CustomFaceIndex
+		{
+			get
+			{
+				return this.FaceId.Index;
+			}
+
+			set
+			{
+				this.FaceId = new FaceId(this.FaceId.Sheet, value, this.IsMono);
+			}
+		}
+
+		public bool IsMono
         {
             get
             {
@@ -94,12 +142,14 @@ namespace MapEditor.ViewModels
 
             set
             {
-                this.translationEntry.Dialogue.Face = this.Face.ToFaceId(value);
+                this.translationEntry.Dialogue.Face = new FaceId(this.FaceId.Sheet, this.FaceId.Index, value);
                 this.OnPropertyChanged(nameof(this.IsMono));
             }
-        }
+		}
 
-        public string FilePathShort
+		public bool IsCustomFace => !Enum.IsDefined(typeof(FACE), ((this.CustomFaceSheet - 1) * 16) + this.CustomFaceIndex);
+
+		public string FilePathShort
         {
             get
             {

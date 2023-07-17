@@ -158,7 +158,7 @@ namespace MapEditor.Core
                 {
                     if (originalIsDialogue)
                     {
-                        editedNode.Attributes["Face"].Value = newDialogue.Face.ToFace().ToString();
+                        editedNode.Attributes["Face"].Value = newDialogue.Face.ToString();
                         editedNode.Attributes["Mono"].Value = newDialogue.Face.Mono ? "True" : "False";
                     }
                     else
@@ -168,7 +168,7 @@ namespace MapEditor.Core
                         newNode.Attributes.Append(editedNode.Attributes["Value"]);
 
                         var faceAttribute = languageDoc.CreateAttribute("Face");
-                        faceAttribute.Value = newDialogue.Face.ToFace().ToString();
+                        faceAttribute.Value = newDialogue.Face.ToString();
                         newNode.Attributes.Append(faceAttribute);
 
                         var monoAttribute = languageDoc.CreateAttribute("Mono");
@@ -227,7 +227,7 @@ namespace MapEditor.Core
                 if (isDialogue)
                 {
                     var faceAttribute = languageDoc.CreateAttribute("Face");
-                    faceAttribute.Value = newDialogue.Face.ToFace().ToString();
+                    faceAttribute.Value = newDialogue.Face.ToString();
                     newNode.Attributes.Append(faceAttribute);
 
                     var monoAttribute = languageDoc.CreateAttribute("Mono");
@@ -324,17 +324,24 @@ namespace MapEditor.Core
                         if (Enum.TryParse(faceString, out FACE faceEnum))
                         {
                             newDialogue.Face = faceEnum.ToFaceId(mono);
-                        }
-                        else
-                        {
-                            if (!skippedFaces.Contains(faceString))
-                            {
-                                MessageBox.Show($"Face \"{faceString}\" not found, defaulting to \"None\" for all further occurances in \"{directory}\".", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
-                                skippedFaces.Add(faceString);
-                            }
-                            newDialogue.Face = FACE.None.ToFaceId(mono);
-                        }
-                    }
+						}
+						else
+						{
+							var manualFaceTokens = node.Attributes["Face"].Value.Split(',');
+							int sheet;
+							byte index;
+							if (manualFaceTokens.Length == 2
+								&& int.TryParse(manualFaceTokens[0], out sheet)
+								&& byte.TryParse(manualFaceTokens[1], out index))
+							{
+								newDialogue.Face = new FaceId(sheet, index, mono);
+							}
+							else
+							{
+								newDialogue.Face = FACE.None.ToFaceId(mono);
+							}
+						}
+					}
 
                     var newKey = new Tuple<string, string>(key, locale);
                     if (!this.LanguageEntries.ContainsKey(newKey))

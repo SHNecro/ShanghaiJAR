@@ -62,22 +62,24 @@ namespace MapEditor.Models.Elements.Events
             set { this.SetValue(ref this.faceIndex, value, nameof(this.Face)); }
         }
 
-        public FACE Face
-        {
-            get
-            {
-                return new FaceId(this.FaceSheet, (byte)this.FaceIndex, false).ToFace();
-            }
+		public FACE Face
+		{
+			get
+			{
+				return new FaceId(this.FaceSheet, (byte)this.FaceIndex, false).ToFace();
+			}
 
-            set
-            {
-                var faceId = value.ToFaceId();
-                this.FaceSheet = faceId.Sheet;
+			set
+			{
+				var faceId = value.ToFaceId();
+				this.FaceSheet = faceId.Sheet;
                 this.FaceIndex = faceId.Index;
             }
         }
 
-        public int PriceTypeNumber
+        public bool IsManualFace => !Enum.IsDefined(typeof(FACE), ((this.FaceSheet - 1) * 16) + this.FaceIndex);
+
+		public int PriceTypeNumber
         {
             get
             {
@@ -118,7 +120,7 @@ namespace MapEditor.Models.Elements.Events
             get
             {
                 var shopTypeString = (new EnumDescriptionTypeConverter(typeof(ShopTypeNumber))).ConvertToString((ShopTypeNumber)this.ShopTypeNumber);
-                var faceString = this.Face.ToString();
+                var faceString = new FaceId(this.FaceSheet, (byte)this.FaceIndex, false).ToString();
                 var priceTypeString = (new EnumDescriptionTypeConverter(typeof(ShopPriceTypeNumber))).ConvertToString((ShopPriceTypeNumber)this.PriceTypeNumber);
                 return $"Shop: {faceString}: {shopTypeString} ({priceTypeString})";
             }
@@ -148,10 +150,10 @@ namespace MapEditor.Models.Elements.Events
 
             var newFaceSheet = this.ParseIntOrAddError(entries[4]);
             var newFaceIndex = this.ParseIntOrAddError(entries[5]);
-            var newFace = new FaceId(newFaceSheet, (byte)newFaceIndex, false).ToFace();
-            this.ParseEnumOrAddError<FACE>(((int)newFace).ToString());
+			var newFace = new FaceId(newFaceSheet, (byte)newFaceIndex, false).ToFace();
+			//this.ParseEnumOrAddError<FACE>(((int)newFace).ToString());
 
-            var newPriceTypeNumber = this.ParseIntOrAddError(entries[6]);
+			var newPriceTypeNumber = this.ParseIntOrAddError(entries[6]);
             this.ParseEnumOrAddError<ShopPriceTypeNumber>(entries[6]);
 
             var newShopItems = new ShopItemCollection { StringValue = string.Join(":", entries.Skip(7)), ShopType = newShopTypeNumber, PriceType = newPriceTypeNumber };
