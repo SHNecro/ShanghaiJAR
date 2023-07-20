@@ -91,14 +91,16 @@ namespace MapEditor.ViewModels
                     return;
             }
 
-            var saveFileDialog = new CommonSaveFileDialog
+            var defaultFileName = new string(this.Operation.Where(char.IsLetter).ToArray()).ToLower();
+
+			var saveFileDialog = new CommonSaveFileDialog
             {
                 RestoreDirectory = false,
                 InitialDirectory = Directory.GetCurrentDirectory(),
                 DefaultExtension = "txt",
                 NavigateToShortcut = true,
                 OverwritePrompt = true,
-                DefaultFileName = "dump.txt",
+                DefaultFileName = $"{defaultFileName}.txt",
                 Title = "Save dump"
             };
             saveFileDialog.Filters.Add(new CommonFileDialogFilter("Text file", "*.txt"));

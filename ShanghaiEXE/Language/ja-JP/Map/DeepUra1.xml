@@ -18,4 +18,6 @@
   <Dialogue Key="Map.DeepUra1EntryCutsceneStage5Dialogue1FaceAlice" Value="[Is it.... over?,Are you alright，Shanghai?]" Face="Alice" Mono="False" />
   <Dialogue Key="Map.DeepUra1EntryCutsceneStage6Dialogue1FaceShanghai" Value="[I’m fine，Alice.,Just fine.]" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.DeepUra1EntryCutsceneStage6Dialogue2FaceShanghai" Value="[Everything’s just fine.]" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.DeepUra1Shop1ShopIntro" Value="[--ndor vendor vendor ven--,           --nything you like?]" Face="Sheet10Face9Blank" Auto="True" />
+  <Dialogue Key="Map.DeepUra1Shop2ShopIntro" Value="[--ndor vendor vendor ven--,           --nything you like?]" Face="Sheet10Face8Blank" Auto="True" />
 </data>
