@@ -167,6 +167,8 @@ namespace MapEditor.Models.Elements
                 }
             }
 
+            definition.IsNavi = enemyMade.race == EnemyBase.ENEMY.navi && id != 42;
+
             Constants.TranslationCallKeys.Clear();
 
             return definition;
@@ -179,6 +181,8 @@ namespace MapEditor.Models.Elements
         public string Name { get; private set; }
 
         public string NameKey { get; private set; }
+
+        public bool IsNavi { get; private set; }
 
         public List<DrawCall> DrawCalls { get; private set; }
 

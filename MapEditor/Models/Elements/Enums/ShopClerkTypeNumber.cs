@@ -12,7 +12,9 @@ namespace MapEditor.Models.Elements.Enums
         Casual = 1,
         [Description("Annoyed")]
         Annoyed = 2,
-        [Description("Shady")]
-        Shady = 3,
-    }
+		[Description("Shady")]
+		Shady = 3,
+		[Description("Glitchy")]
+		Glitchy = 4,
+	}
 }

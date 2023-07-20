@@ -7,6 +7,7 @@ using MapEditor.Models.Elements.Enums;
 using MapEditor.Models.Elements.Events;
 using MapEditor.Models.Elements.Terms;
 using Microsoft.WindowsAPICodePack.Dialogs;
+using NSEnemy;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,6 +15,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using static NSEnemy.EnemyBase;
 
 namespace MapEditor.ViewModels
 {
@@ -65,6 +67,8 @@ namespace MapEditor.ViewModels
                 this.MapLoadProgress = 1.0;
             });
         }
+
+        public string[] Options { get; } = new[] { "Chips", "AddOns", "Upgrades", "Flags/Vars" };
 
         private void Dump()
         {
@@ -210,23 +214,40 @@ namespace MapEditor.ViewModels
                     .Select(gmd => gmd.Chip)
                 .Select(c => Tuple.Create(c, m.Header.TitleKey, "GMD")))
                 .Where(c => c.Item1 != null).ToArray();
-            var virusChips = this.allMaps
-                .SelectMany(m => m.RandomEncounters.RandomEncounters
-                    .SelectMany(re => re.Enemies
-                        .SelectMany(e =>
-                        {
-                            return new[]
-                            {
-                                new[] { e.Chip5 }.Concat(e.Chip5?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 1 (S)", c)),
-                                new[] { e.Chip4 }.Concat(e.Chip4?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 2 (10,9)", c)),
-                                new[] { e.Chip3 }.Concat(e.Chip3?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 3 (8,7)", c)),
-                                new[] { e.Chip2 }.Concat(e.Chip2?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 4 (6,5)", c)),
-                                new[] { e.Chip1 }.Concat(e.Chip1?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 5 (4-0)", c)),
-                            }.SelectMany(c => c);
-                        })
-                .Select(tup => Tuple.Create(tup.Item2, m.Header.TitleKey, $"Virus: {tup.Item1}"))))
-                .Where(c => c.Item1 != null).ToArray();
-            var bmdpmdChips = this.allMaps
+			var virusChipsSolo = this.allMaps
+				.SelectMany(m => m.RandomEncounters.RandomEncounters
+					.Where(re => re.IsChipDropped && re.Enemies.All(e => !e.EnemyDefinition?.IsNavi ?? true) && re.Enemies.Count(e => e.ID != 0) == 1)
+					.SelectMany(re => re.Enemies
+						.SelectMany(e =>
+						{
+							return new[]
+							{
+								new[] { e.Chip4 }.Concat(e.Chip4?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 2 (10,9)", c)),
+								new[] { e.Chip3 }.Concat(e.Chip3?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 3 (8,7)", c)),
+								new[] { e.Chip2 }.Concat(e.Chip2?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 4 (6,5)", c)),
+								new[] { e.Chip1 }.Concat(e.Chip1?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 5 (4-0)", c)),
+							}.SelectMany(c => c);
+						})
+				.Select(tup => Tuple.Create(tup.Item2, m.Header.TitleKey, $"Virus (Solo): {tup.Item1}"))))
+				.Where(c => c.Item1 != null).ToArray();
+			var virusChipsSRank = this.allMaps
+				.SelectMany(m => m.RandomEncounters.RandomEncounters
+					.Where(re => re.IsChipDropped && re.Enemies.Any(e => e.EnemyDefinition?.IsNavi ?? false) || re.Enemies.Count(ee => ee.ID != 0) > 1)
+					.SelectMany(re => re.Enemies
+						.SelectMany(e =>
+						{
+							return new[]
+							{
+								new[] { e.Chip5 }.Concat(e.Chip5?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 1 (S)", c)),
+								new[] { e.Chip4 }.Concat(e.Chip4?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 2 (10,9)", c)),
+								new[] { e.Chip3 }.Concat(e.Chip3?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 3 (8,7)", c)),
+								new[] { e.Chip2 }.Concat(e.Chip2?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 4 (6,5)", c)),
+								new[] { e.Chip1 }.Concat(e.Chip1?.RandomAlternatives ?? emptyList).Select(c => Tuple.Create($"{e.Name} Chip 5 (4-0)", c)),
+							}.SelectMany(c => c);
+						})
+				.Select(tup => Tuple.Create(tup.Item2, m.Header.TitleKey, $"Virus: {tup.Item1}"))))
+				.Where(c => c.Item1 != null).ToArray();
+			var bmdpmdChips = this.allMaps
                 .SelectMany(m => m.MapObjects.MapObjects
                     .OfType<MapMystery>()
                     .Select(mm => Tuple.Create(mm.Type, mm.BaseMystery.Chip))
@@ -238,7 +259,8 @@ namespace MapEditor.ViewModels
                         .SelectMany(mep => mep.Events.Events
                             .Where(me => me.Category == EventCategoryOption.Battle)
                             .Where(me => (me.Instance as BattleEvent).Encounter.IsChipDropped)
-                            .SelectMany(me => (me.Instance as BattleEvent).Encounter.Enemies
+						    .Where(me => (me.Instance as BattleEvent).Encounter.Enemies.Any(e => e.EnemyDefinition != null && (e.EnemyDefinition.IsNavi) || (me.Instance as BattleEvent).Encounter.Enemies.Count(ee => ee.ID != 0) > 1))
+						.SelectMany(me => (me.Instance as BattleEvent).Encounter.Enemies
                                 .SelectMany(e =>
                                 {
                                     return new[]
@@ -286,8 +308,8 @@ namespace MapEditor.ViewModels
                 .Select(tup => Tuple.Create(tup.Item2, m.Header.TitleKey, $"Shop: {tup.Item1}"))))
                 .Where(c => c.Item1 != null).ToArray();
 
-            var allAccessibleChips = new[] { gmdChips, virusChips, bmdpmdChips, battleChips, givenChipGetChips, givenItemGetChips, shopChips }.SelectMany(tup => tup)
-                .Where(tup => tup.Item2 != "Map.ExOmakeName");
+            var allAccessibleChips = new[] { gmdChips, virusChipsSRank, virusChipsSolo, bmdpmdChips, battleChips, givenChipGetChips, givenItemGetChips, shopChips }.SelectMany(tup => tup)
+                .Where(tup => tup.Item2 != "Map.ExOmakeName" && tup.Item2 != "Map.DebugRoom1Name");
             var fullChips = allAccessibleChips.Select(c => Tuple.Create(
                     c.Item1,
                     Constants.ChipDefinitions.ContainsKey(c.Item1.ID) ? Constants.ChipDefinitions[c.Item1.ID] : null,
@@ -301,9 +323,10 @@ namespace MapEditor.ViewModels
                 .Select(c => Tuple.Create(c, $"{c.Item3}\t{c.Item4}\t{c.Item2.Name} {chipCodesMultiConverter.Convert(new object[] { c.Item2.Codes, c.Item1.CodeNumber }, null, null, null)}"))
                 .GroupBy(tup => tup.Item2).Select(gr => gr.Key + (gr.Any(tup => tup.Item1.Item1.IsRandom) ? $" ({gr.Average(tup => tup.Item1.Item1.RandomChance) * 100:N0}%)" : string.Empty))
                 .Distinct().ToArray();
-            var contents = string.Join("\n", chipLocations);
+			var contents = "Solo virus S-rank rewards omitted, would require <5s nohit 2step 2counter:\n\n";
+			contents += string.Join("\n", chipLocations);
 
-            var accessibleChipStrings = fullChips.Select(c => $"{c.Item2.Name} {chipCodesMultiConverter.Convert(new object[] { c.Item2.Codes, c.Item1.CodeNumber }, null, null, null)}")
+			var accessibleChipStrings = fullChips.Select(c => $"{c.Item2.Name} {chipCodesMultiConverter.Convert(new object[] { c.Item2.Codes, c.Item1.CodeNumber }, null, null, null)}")
                 .Distinct().ToArray();
             var everyChipString = Constants.ChipDefinitions.Values.SelectMany(c => Enumerable.Range(0, 4).Select(i => $"{c.Name} {chipCodesMultiConverter.Convert(new object[] { c.Codes, i }, null, null, null)}"))
                 .Distinct().ToArray();

@@ -157,12 +157,14 @@
   <Text Key="Shop.Assistant2Line1" Value="What looks good?" />
   <Text Key="Shop.Assistant3Line1" Value="We doing business?" />
   <Text Key="Shop.Assistant4Line1" Value="What do you want?" />
+  <Text Key="Shop.Assistant5Line1" Value="-t what wh---" />
   <Text Key="Shop.AssistantLine2" Value="(R: Explanation)" />
   <Text Key="Shop.AssistantLine3" Value="(B: Leave)" />
   <Text Key="Shop.Assistant1OutOfStockDialogue1" Value="Sorry.,That item’s out of stock." />
   <Text Key="Shop.Assistant2OutOfStockDialogue1" Value="We’re all sold out of that.,Sorry for the inconvenience." />
   <Text Key="Shop.Assistant3OutOfStockDialogue1" Value="I’m sorry，but we’re all out,of that." />
   <Text Key="Shop.Assistant4OutOfStockDialogue1" Value="Great.,We don’t have any more." />
+  <Text Key="Shop.Assistant5OutOfStockDialogue1" Value="NO MSG" />
   <Text Key="Shop.HPMemory" Value="HPMemory" />
   <Text Key="Shop.HPMemoryDescriptionDialogue1" Value="A memory expansion that,increases a Navi’s HP by 20." />
   <Text Key="Shop.Billionaire" Value="Billions" />
@@ -176,25 +178,33 @@
   <Text Key="Shop.Assistant3OtherDialogue1QuestionFormat" Value="”{0}{1} ” ?" />
   <Text Key="Shop.Assistant4ZennyDialogue1QuestionFormat" Value="Mm，“ {0}{1} ” ?,{2}Z，want it?" />
   <Text Key="Shop.Assistant4OtherDialogue1QuestionFormat" Value="”{0}{1} ” ?" />
+  <Text Key="Shop.Assistant5ZennyDialogue1QuestionFormat" Value="{1} {2}{1} {1} {1},”{0}Z””“ " />
+  <Text Key="Shop.Assistant5OtherDialogue1QuestionFormat" Value="&gt;{0}[{1}]&lt;" />
   <Text Key="Shop.Assistant1BoughtDialogue1" Value="Thank you for your purchase!" />
   <Text Key="Shop.Assistant2BoughtDialogue1" Value="Any time!" />
   <Text Key="Shop.Assistant3BoughtDialogue1" Value="Thank you，come again!" />
   <Text Key="Shop.Assistant4BoughtDialogue1" Value="That it for ya?" />
+  <Text Key="Shop.Assistant5BoughtDialogue1" Value="Th th th th th th th th th th th" />
   <Dialogue Key="Shop.InventoryFullDialogue1" Value="Huh?,I can’t carry any more of those." Face="Shanghai" Mono="False" />
   <Text Key="Shop.InsufficientZennyDialogue1" Value="Wait，you don’t have,enough money!,Poor people disgust me!" />
+  <Text Key="Shop.InsufficientZennyDialogue2" Value="-ndex was outs--,     -nds of the arra-" />
   <Text Key="Shop.InsufficientOtherDialogue1" Value="Not enough missing,pieces..." />
+  <Text Key="Shop.InsufficientOtherDialogue2" Value="NOT FOUND NOT FOUND NOT FOUND" />
   <Text Key="Shop.Assistant1CancelledDialogue1" Value="What a shame...." />
   <Text Key="Shop.Assistant2CancelledDialogue1" Value="Tch...." />
   <Text Key="Shop.Assistant3CancelledDialogue1" Value="Really?" />
   <Text Key="Shop.Assistant4CancelledDialogue1" Value="Pick something else then." />
+  <Text Key="Shop.Assistant5CancelledDialogue1" Value="?uoγ ɟƨɘɿɘɟni ϱni⑁ɟγnA" />
   <Text Key="Shop.Assistant1SellQuestionFormat" Value=" “ {0}{1} ”，is it?,That would go for {2}Z" />
   <Text Key="Shop.Assistant2SellQuestionFormat" Value="A “ {0}{1} ”?,I’m thinking {2}Z?" />
   <Text Key="Shop.Assistant3SellQuestionFormat" Value=" “ {0}{1} ”....,{2}Z?" />
   <Text Key="Shop.Assistant4SellQuestionFormat" Value=" “ {0}{1} ”，huh?,I’ll give you {2}Z" />
+  <Text Key="Shop.Assistant5SellQuestionFormat" Value="THIS MESSAGE SHOULD NOT,BE PRINTED" />
   <Text Key="Shop.Assistant1Sold" Value="Pleasure doing business." />
   <Text Key="Shop.Assistant2Sold" Value="Thanks!" />
   <Text Key="Shop.Assistant3Sold" Value="Thank you!" />
   <Text Key="Shop.Assistant4Sold" Value="Good stuff." />
+  <Text Key="Shop.Assistant5Sold" Value="[THIS MESSAGE SHOULD NOT,BE PRINTED]" />
   <Dialogue Key="Player.JackOutQuestion" Value="Ready to jack out，Shanghai?" Face="Alice" Mono="False" />
   <Text Key="Player.JackOutOptions" Value="Yes,No" />
   <Dialogue Key="Player.JackOutYesResponse" Value="OK! Got it!" Face="Alice" Mono="False" />

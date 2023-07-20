@@ -157,12 +157,14 @@
   <Text Key="Shop.Assistant2Line1" Value="････どのブツがいいんだ？" />
   <Text Key="Shop.Assistant3Line1" Value="用事あるのこと？" />
   <Text Key="Shop.Assistant4Line1" Value="さあ、どれにするんだい？" />
+  <Text Key="Shop.Assistant5Line1" Value="[-t what wh---]" />
   <Text Key="Shop.AssistantLine2" Value="（Rボタン：説明を見る）" />
   <Text Key="Shop.AssistantLine3" Value="（Bボタン：買い物をやめる）" />
   <Text Key="Shop.Assistant1OutOfStockDialogue1" Value="すいません,その商品は現在品切れです" />
   <Text Key="Shop.Assistant2OutOfStockDialogue1" Value="すまねえな,そいつは現在売り切れだ" />
   <Text Key="Shop.Assistant3OutOfStockDialogue1" Value="ごめんあるよ,それ、今扱ってないヨ" />
   <Text Key="Shop.Assistant4OutOfStockDialogue1" Value="悪いね,今それ、在庫切れ起こしてんだ" />
+  <Text Key="Shop.Assistant5OutOfStockDialogue1" Value="[NO MSG]" />
   <Text Key="Shop.HPMemory" Value="HPメモリ" />
   <Text Key="Shop.HPMemoryDescriptionDialogue1" Value="ナビのHPを20増やす,増設型の仮想メモリ" />
   <Text Key="Shop.Billionaire" Value="オクマンチョウジャ" />
@@ -176,25 +178,33 @@
   <Text Key="Shop.Assistant3OtherDialogue1QuestionFormat" Value="{0}{1}ある？" />
   <Text Key="Shop.Assistant4ZennyDialogue1QuestionFormat" Value="{0}{1}か！,{2}Zだ、買うかい？" />
   <Text Key="Shop.Assistant4OtherDialogue1QuestionFormat" Value="{0}{1}か！" />
+  <Text Key="Shop.Assistant5ZennyDialogue1QuestionFormat" Value="[{1} {2}{1} {1} {1},”{0}Z””“ ]" />
+  <Text Key="Shop.Assistant5OtherDialogue1QuestionFormat" Value="[&gt;{0}[{1}]&lt;]" />
   <Text Key="Shop.Assistant1BoughtDialogue1" Value="お買い上げありがとうございます！" />
   <Text Key="Shop.Assistant2BoughtDialogue1" Value="へっへっへ、毎度！" />
   <Text Key="Shop.Assistant3BoughtDialogue1" Value="ありがとネ！" />
   <Text Key="Shop.Assistant4BoughtDialogue1" Value="よし、売ったァ！" />
+  <Text Key="Shop.Assistant5BoughtDialogue1" Value="Th th th th th th th th th th th" />
   <Dialogue Key="Shop.InventoryFullDialogue1" Value="あらら,これ以上持てないわね" Face="Shanghai" Mono="False" />
   <Text Key="Shop.InsufficientZennyDialogue1" Value="ちょっと、お金足りないじゃない！,貧乏は嫌ァァアア！," />
+  <Text Key="Shop.InsufficientZennyDialogue2" Value="[-ndex was outs--,     -nds of the arra-]" />
   <Text Key="Shop.InsufficientOtherDialogue1" Value="あら　かけらが足りないわね," />
+  <Text Key="Shop.InsufficientOtherDialogue2" Value="[NOT FOUND NOT FOUND NOT FOUND]" />
   <Text Key="Shop.Assistant1CancelledDialogue1" Value="それは残念です" />
   <Text Key="Shop.Assistant2CancelledDialogue1" Value="チッ････" />
   <Text Key="Shop.Assistant3CancelledDialogue1" Value="そうあるか" />
   <Text Key="Shop.Assistant4CancelledDialogue1" Value="まあ他のも見ていきなよ" />
+  <Text Key="Shop.Assistant5CancelledDialogue1" Value="[?uoγ ɟƨɘɿɘɟni ϱni⑁ɟγnA]" />
   <Text Key="Shop.Assistant1SellQuestionFormat" Value="「{0}{1}」なら,{2}Zで買い取りますよ" />
   <Text Key="Shop.Assistant2SellQuestionFormat" Value="「{0}{1}」だったら,{2}Zで買い取るぜ！" />
   <Text Key="Shop.Assistant3SellQuestionFormat" Value="「{0}{1}」あるか,{2}Zで買い取るヨ" />
   <Text Key="Shop.Assistant4SellQuestionFormat" Value="「{0}{1}」かい？,{2}Zで買い取っちまうよ？" />
+  <Text Key="Shop.Assistant5SellQuestionFormat" Value="[THIS MESSAGE SHOULD NOT,BE PRINTED]" />
   <Text Key="Shop.Assistant1Sold" Value="確かに引き取りました" />
   <Text Key="Shop.Assistant2Sold" Value="ありがとよ！" />
   <Text Key="Shop.Assistant3Sold" Value="ありがとネ！" />
   <Text Key="Shop.Assistant4Sold" Value="確かに引き取ったよ！" />
+  <Text Key="Shop.Assistant5Sold" Value="[THIS MESSAGE SHOULD NOT,BE PRINTED]" />
   <Dialogue Key="Player.JackOutQuestion" Value="シャンハイ、プラグアウトするの？" Face="Alice" Mono="False" />
   <Text Key="Player.JackOutOptions" Value="はい,いいえ" />
   <Dialogue Key="Player.JackOutYesResponse" Value="OK！了解よ！" Face="Alice" Mono="False" />

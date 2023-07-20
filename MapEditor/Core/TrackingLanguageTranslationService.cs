@@ -237,8 +237,15 @@ namespace MapEditor.Core
                         var monoAttribute = languageDoc.CreateAttribute("Mono");
                         monoAttribute.Value = newDialogue.Face.Mono ? "True" : "False";
                         newNode.Attributes.Append(monoAttribute);
-                    }
-                }
+					}
+
+					if (newDialogue.Face.Auto)
+					{
+						var autoAttribute = languageDoc.CreateAttribute("Auto");
+						autoAttribute.Value = newDialogue.Face.Auto ? "True" : "False";
+						newNode.Attributes.Append(autoAttribute);
+					}
+				}
                 languageDoc.SelectSingleNode("data").AppendChild(newNode);
 
                 using (var xw = XmlWriter.Create(fs, new XmlWriterSettings { Indent = true }))

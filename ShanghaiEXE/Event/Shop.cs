@@ -100,10 +100,13 @@ namespace NSEvent
                 case 2:
                     this.massage[0] = ShanghaiEXE.Translate("Shop.Assistant3Line1");
                     break;
-                case 3:
-                    this.massage[0] = ShanghaiEXE.Translate("Shop.Assistant4Line1");
-                    break;
-            }
+				case 3:
+					this.massage[0] = ShanghaiEXE.Translate("Shop.Assistant4Line1");
+					break;
+				case 4:
+					this.massage[0] = ShanghaiEXE.Translate("Shop.Assistant5Line1");
+					break;
+			}
             this.massage[1] = this.shopType != 3 ? ShanghaiEXE.Translate("Shop.AssistantLine2") : "";
             this.massage[2] = ShanghaiEXE.Translate("Shop.AssistantLine3");
         }
@@ -209,10 +212,13 @@ namespace NSEvent
                             case 2:
                                 dialogue = ShanghaiEXE.Translate("Shop.Assistant3OutOfStockDialogue1");
                                 break;
-                            case 3:
-                                dialogue = ShanghaiEXE.Translate("Shop.Assistant4OutOfStockDialogue1");
-                                break;
-                        }
+							case 3:
+								dialogue = ShanghaiEXE.Translate("Shop.Assistant4OutOfStockDialogue1");
+								break;
+							case 4:
+								dialogue = ShanghaiEXE.Translate("Shop.Assistant5OutOfStockDialogue1");
+								break;
+						}
                         this.eventmanager.events.Clear();
                         this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
@@ -580,10 +586,13 @@ namespace NSEvent
                     case 2:
                         question = ShanghaiEXE.Translate("Shop.Assistant3ZennyDialogue1QuestionFormat").Format(str1, str2, this.price);
                         break;
-                    case 3:
-                        question = ShanghaiEXE.Translate("Shop.Assistant4ZennyDialogue1QuestionFormat").Format(str1, str2, this.price);
-                        break;
-                }
+					case 3:
+						question = ShanghaiEXE.Translate("Shop.Assistant4ZennyDialogue1QuestionFormat").Format(str1, str2, this.price);
+						break;
+					case 4:
+						question = ShanghaiEXE.Translate("Shop.Assistant5ZennyDialogue1QuestionFormat").Format(str1, str2, this.price);
+						break;
+				}
                 this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager,
                     question[0],
                     question[1],
@@ -606,10 +615,13 @@ namespace NSEvent
                     case 2:
                         question = ShanghaiEXE.Translate("Shop.Assistant3OtherDialogue1QuestionFormat").Format(str1, str2);
                         break;
-                    case 3:
-                        question = ShanghaiEXE.Translate("Shop.Assistant4OtherDialogue1QuestionFormat").Format(str1, str2);
-                        break;
-                }
+					case 3:
+						question = ShanghaiEXE.Translate("Shop.Assistant4OtherDialogue1QuestionFormat").Format(str1, str2);
+						break;
+					case 4:
+						question = ShanghaiEXE.Translate("Shop.Assistant5OtherDialogue1QuestionFormat").Format(str1, str2);
+						break;
+				}
                 this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager,
                     question[0],
                     question[1],
@@ -642,10 +654,13 @@ namespace NSEvent
                 case 2:
                     question = ShanghaiEXE.Translate("Shop.Assistant3SellQuestionFormat").Format(str1, str2, this.price);
                     break;
-                case 3:
-                    question = ShanghaiEXE.Translate("Shop.Assistant4SellQuestionFormat").Format(str1, str2, this.price);
-                    break;
-            }
+				case 3:
+					question = ShanghaiEXE.Translate("Shop.Assistant4SellQuestionFormat").Format(str1, str2, this.price);
+					break;
+				case 4:
+					question = ShanghaiEXE.Translate("Shop.Assistant5SellQuestionFormat").Format(str1, str2, this.price);
+					break;
+			}
             this.eventmanager.events.Clear();
             this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], question[1], options[0], options[1], true, true, faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             this.yesnoSelect = true;
@@ -668,10 +683,13 @@ namespace NSEvent
                     case 2:
                         text1 = ShanghaiEXE.Translate("Shop.Assistant3Sold");
                         break;
-                    case 3:
-                        text1 = ShanghaiEXE.Translate("Shop.Assistant4Sold");
-                        break;
-                }
+					case 3:
+						text1 = ShanghaiEXE.Translate("Shop.Assistant4Sold");
+						break;
+					case 4:
+						text1 = ShanghaiEXE.Translate("Shop.Assistant5Sold");
+						break;
+				}
                 this.sell = false;
                 this.savedata.Money += this.price;
                 --this.savedata.ShopCount[this.shopNo, this.Select];
@@ -697,6 +715,9 @@ namespace NSEvent
 						break;
 					case 3:
 						dialogue = ShanghaiEXE.Translate("Shop.Assistant4CancelledDialogue1");
+						break;
+					case 4:
+						dialogue = ShanghaiEXE.Translate("Shop.Assistant5CancelledDialogue1");
 						break;
 				}
                 this.eventmanager.events.Clear();
@@ -744,10 +765,13 @@ namespace NSEvent
                             case 2:
                                 dialogue = ShanghaiEXE.Translate("Shop.Assistant3BoughtDialogue1");
                                 break;
-                            case 3:
-                                dialogue = ShanghaiEXE.Translate("Shop.Assistant4BoughtDialogue1");
-                                break;
-                        }
+							case 3:
+								dialogue = ShanghaiEXE.Translate("Shop.Assistant4BoughtDialogue1");
+								break;
+							case 4:
+								dialogue = ShanghaiEXE.Translate("Shop.Assistant5BoughtDialogue1");
+								break;
+						}
                         if (this.moneyType == 0)
                             this.savedata.Money -= this.price;
                         else
@@ -798,13 +822,31 @@ namespace NSEvent
                     this.sound.PlaySE(SoundEffect.error);
                     this.eventmanager.events.Clear();
                     if (this.moneyType == 0)
-                    {
-                        var dialogue = ShanghaiEXE.Translate("Shop.InsufficientZennyDialogue1");
+					{
+						var dialogue = new Dialogue();
+						switch (this.assistant)
+						{
+							case 4:
+								dialogue = ShanghaiEXE.Translate("Shop.InsufficientZennyDialogue2");
+								break;
+                            default:
+								dialogue = ShanghaiEXE.Translate("Shop.InsufficientZennyDialogue1");
+								break;
+						}
                         this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
                     else
-                    {
-                        var dialogue = ShanghaiEXE.Translate("Shop.InsufficientOtherDialogue1");
+					{
+						var dialogue = new Dialogue();
+						switch (this.assistant)
+						{
+							case 4:
+								dialogue = ShanghaiEXE.Translate("Shop.InsufficientOtherDialogue2");
+								break;
+							default:
+								dialogue = ShanghaiEXE.Translate("Shop.InsufficientOtherDialogue1");
+								break;
+						}
                         this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
                 }
@@ -823,10 +865,13 @@ namespace NSEvent
                     case 2:
                         dialogue = ShanghaiEXE.Translate("Shop.Assistant3CancelledDialogue1");
                         break;
-                    case 3:
-                        dialogue = ShanghaiEXE.Translate("Shop.Assistant4CancelledDialogue1");
-                        break;
-                }
+					case 3:
+						dialogue = ShanghaiEXE.Translate("Shop.Assistant4CancelledDialogue1");
+						break;
+					case 4:
+						dialogue = ShanghaiEXE.Translate("Shop.Assistant5CancelledDialogue1");
+						break;
+				}
                 this.eventmanager.events.Clear();
                 this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             }
