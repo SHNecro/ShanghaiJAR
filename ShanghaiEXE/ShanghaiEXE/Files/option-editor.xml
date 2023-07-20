@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soundFormat>ShaS/{0}.wav</soundFormat>
+  <soundResourceFile>ShaSResource.tcd</soundResourceFile>
+  <soundResourceFilePassword>sasanasi</soundResourceFilePassword>
+  <soundResourceFileFormat>{0}.wav</soundResourceFileFormat>
+  <soundIsPackedResource>true</soundIsPackedResource>
+  <InitialMap>deepura1.she</InitialMap>
+  <MapDataFolder>data</MapDataFolder>
+  <GraphicsFormat>ShaG/{0}.png</GraphicsFormat>
+  <GraphicsResourceFile>ShaGResource.tcd</GraphicsResourceFile>
+  <GraphicsResourceFilePassword>sasanasi</GraphicsResourceFilePassword>
+  <GraphicsResourceFileFormat>{0}.png</GraphicsResourceFileFormat>
+  <GraphicsIsPackedResource>true</GraphicsIsPackedResource>
+  <SoundFormat>ShaS/{0}.wav</SoundFormat>
+  <SoundResourceFile>ShaSResource.tcd</SoundResourceFile>
+  <SoundResourceFilePassword>sasanasi</SoundResourceFilePassword>
+  <SoundResourceFileFormat>{0}.wav</SoundResourceFileFormat>
+  <SoundIsPackedResource>true</SoundIsPackedResource>
+  <EnemyCount>86</EnemyCount>
+  <ChipCount>431</ChipCount>
+  <AddOnCount>98</AddOnCount>
+  <InteriorCount>53</InteriorCount>
+  <BackgroundCount>41</BackgroundCount>
+</Settings>
