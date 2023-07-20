@@ -618,7 +618,7 @@ namespace NSMap.Character
                     case "msg":
                         var msgKey = strArray1[1];
                         var msgDialogue = ShanghaiEXE.Translate(msgKey);
-                        page.AddEvent(new CommandMessage(this.sound, page.eventmanager, msgDialogue[0], msgDialogue[1], msgDialogue[2], msgDialogue.Face, msgDialogue.Face.Mono, this.savedate));
+                        page.AddEvent(new CommandMessage(this.sound, page.eventmanager, msgDialogue[0], msgDialogue[1], msgDialogue[2], msgDialogue.Face, msgDialogue.Face.Mono, msgDialogue.Face.Auto, this.savedate));
                         break;
                     case "msgclose":
                         page.AddEvent(new CloseMassageWindow(this.sound, page.eventmanager));
@@ -640,7 +640,7 @@ namespace NSMap.Character
                     case "plugIn":
                         page.AddEvent(new OpenMassageWindow(this.sound, page.eventmanager));
                         dialogue = ShanghaiEXE.Translate("Map.JackIn");
-                        page.AddEvent(new CommandMessage(this.sound, page.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedate));
+                        page.AddEvent(new CommandMessage(this.sound, page.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, dialogue.Face.Auto, this.savedate));
                         page.AddEvent(new CloseMassageWindow(this.sound, page.eventmanager));
                         page.AddEvent(new EditValue(this.sound, page.eventmanager, 0, false, 0, 5, "0", this.parent.Player, this.savedate));
                         page.AddEvent(new EditValue(this.sound, page.eventmanager, 1, false, 0, 5, "1", this.parent.Player, this.savedate));
@@ -738,7 +738,40 @@ namespace NSMap.Character
                                 stock = int.Parse(strArray2[3])
                             });
                         }
-                        page.AddEvent(new Shop(this.sound, page.eventmanager, int.Parse(strArray1[1]), int.Parse(strArray1[2]), byte.Parse(strArray1[3]), byte.Parse(strArray1[4]), byte.Parse(strArray1[5]), goodsList.ToArray(), this.field, this.savedate, byte.Parse(strArray1[6])));
+						{
+                            var faceSheet = 0;
+                            var faceIndex = (byte)0;
+                            var mono = false;
+                            var auto = false;
+
+                            string[] faceSections = null, modifierSections = null;
+							if (strArray1[4].Contains(",") && strArray1[5].Contains(",")
+								&& int.TryParse((faceSections = faceSections ?? strArray1[4].Split(','))[0], out faceSheet)
+								&& byte.TryParse((faceSections = faceSections ?? strArray1[4].Split(','))[1], out faceIndex)
+								&& bool.TryParse((modifierSections = modifierSections ?? strArray1[5].Split(','))[0], out mono)
+								&& bool.TryParse((modifierSections = modifierSections ?? strArray1[5].Split(','))[1], out auto))
+							{
+                                ;
+							}
+                            else if (int.TryParse(strArray1[4], out faceSheet)
+                                && byte.TryParse(strArray1[5], out faceIndex))
+							{
+                                ;
+							}
+							page.AddEvent(new Shop(this.sound,
+								 page.eventmanager,
+								 int.Parse(strArray1[1]),
+								 int.Parse(strArray1[2]),
+								 byte.Parse(strArray1[3]),
+                                 faceSheet,
+                                 faceIndex,
+                                 mono,
+                                 auto,
+								 goodsList.ToArray(),
+								 this.field,
+								 this.savedate,
+								 byte.Parse(strArray1[6])));
+						}
                         break;
                     case "stopSkip":
                         page.AddEvent(new StopSkip(this.sound, page.eventmanager, this.savedate));

@@ -29,7 +29,7 @@ namespace NSEvent
         protected const string texture = "menuwindows";
         private readonly MapField field;
         private bool shopmode;
-        private readonly byte faceSeet;
+        private readonly int faceSeet;
         private readonly byte faceNo;
         private int cursolanime;
         private byte alpha;
@@ -44,8 +44,12 @@ namespace NSEvent
         private int price;
         private bool help;
         private bool sell;
-
-        private int Select
+        private bool mono;
+        private bool auto;
+		private int autoFrame;
+		private int autoFrameRaw;
+         
+		private int Select
         {
             get
             {
@@ -59,8 +63,10 @@ namespace NSEvent
           int No,
           int type,
           int astype,
-          byte face,
+          int face,
           byte faceno,
+		  bool mono,
+          bool auto,
           Goods[] gs,
           MapField f,
           SaveData save,
@@ -76,6 +82,8 @@ namespace NSEvent
             this.assistant = astype;
             this.faceSeet = face;
             this.faceNo = faceno;
+            this.mono = mono;
+            this.auto = auto;
             this.shopNo = No;
             this.eventmanager = new EventManager(this.sound);
             this.overTop = this.goods.Length - 5;
@@ -101,8 +109,16 @@ namespace NSEvent
         }
 
         public override void Update()
-        {
-            switch (this.nowscene)
+		{
+			this.autoFrameRaw++;
+			if (this.autoFrameRaw++ >= 5)
+			{
+				this.autoFrameRaw = 0;
+
+				this.autoFrame = (this.autoFrame + 1) % 6;
+			}
+
+			switch (this.nowscene)
             {
                 case Shop.SCENE.fadein:
                     if (!this.shopmode)
@@ -198,7 +214,7 @@ namespace NSEvent
                                 break;
                         }
                         this.eventmanager.events.Clear();
-                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, false, this.savedata));
+                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
                     else
                     {
@@ -369,7 +385,18 @@ namespace NSEvent
                 if (!this.help)
                 {
                     this._position = new Vector2(5f, 108f);
-                    this._rect = new Rectangle(0, faceNo * 48, 40, 48);
+                    if (this.auto)
+				    {
+					    this._rect = new Rectangle(40 * this.autoFrame, faceNo * 48, 40, 48);
+				    }
+				    else if (this.mono)
+				    {
+					    this._rect = new Rectangle(200, faceNo * 48, 40, 48);
+				    }
+                    else
+                    {
+						this._rect = new Rectangle(0, faceNo * 48, 40, 48);
+					}
                     string te = "Face" + this.faceSeet.ToString();
                     dg.DrawImage(dg, te, this._rect, true, this._position, Color.White);
                     if (!this.eventmanager.playevent)
@@ -562,7 +589,7 @@ namespace NSEvent
                     question[1],
                     options[0],
                     options[1],
-                    true, true, faceSeet, this.faceNo, this.savedata));
+                    true, true, faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             }
             else
             {
@@ -588,7 +615,7 @@ namespace NSEvent
                     question[1],
                     options[0],
                     options[1],
-                    true, true, faceSeet, this.faceNo, this.savedata));
+                    true, true, faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             }
             this.yesnoSelect = true;
         }
@@ -620,7 +647,7 @@ namespace NSEvent
                     break;
             }
             this.eventmanager.events.Clear();
-            this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], question[1], options[0], options[1], true, true, faceSeet, this.faceNo, this.savedata));
+            this.eventmanager.AddEvent(new Question(this.sound, this.eventmanager, question[0], question[1], options[0], options[1], true, true, faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             this.yesnoSelect = true;
         }
 
@@ -652,7 +679,7 @@ namespace NSEvent
                 if (this.shopType == 3)
                     this.savedata.FlagList[this.goods[this.Select].numberSub] = false;
                 this.eventmanager.events.Clear();
-                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, text1, "", "", true, this.faceSeet, this.faceNo, false, this.savedata));
+                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, text1, "", "", true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             }
             else
             {
@@ -673,7 +700,7 @@ namespace NSEvent
 						break;
 				}
                 this.eventmanager.events.Clear();
-                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, false, this.savedata));
+                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             }
         }
 
@@ -756,7 +783,7 @@ namespace NSEvent
                                 break;
                         }
                         this.eventmanager.events.Clear();
-                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, false, this.savedata));
+                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
                     else
                     {
@@ -773,12 +800,12 @@ namespace NSEvent
                     if (this.moneyType == 0)
                     {
                         var dialogue = ShanghaiEXE.Translate("Shop.InsufficientZennyDialogue1");
-                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, false, this.savedata));
+                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
                     else
                     {
                         var dialogue = ShanghaiEXE.Translate("Shop.InsufficientOtherDialogue1");
-                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, false, this.savedata));
+                        this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
                     }
                 }
             }
@@ -801,7 +828,7 @@ namespace NSEvent
                         break;
                 }
                 this.eventmanager.events.Clear();
-                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, false, this.savedata));
+                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], true, this.faceSeet, this.faceNo, this.mono, this.auto, this.savedata));
             }
         }
 

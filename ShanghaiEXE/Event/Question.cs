@@ -31,6 +31,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
+		  // TODO:
+		  bool mono,
+          bool auto,
           SaveData save)
           : base(s, m, text1, text2, "　" + q1 + "　　" + q2, false, save)
         {
@@ -44,7 +47,15 @@ namespace NSEvent
 
             var optionSize = ShanghaiEXE.measurer.MeasureRegularText("　" + q1 + "　");
             this.cursolposi[1] = new Vector2(40 + optionSize.Width, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -57,7 +68,7 @@ namespace NSEvent
           bool pfase,
           FaceId face,
           SaveData save)
-          : this(s, m, text1, text2, q1, q2, fast, pfase, face.Sheet, face.Index, save)
+          : this(s, m, text1, text2, q1, q2, fast, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save)
         {
         }
 
@@ -72,7 +83,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save)
+		  bool mono,
+		  bool auto,
+		  SaveData save)
           : base(s, m, text1, "　" + q1, "　" + q2, false, save)
         {
             this.faseseet = fa;
@@ -85,7 +98,15 @@ namespace NSEvent
 
             this.cursolposi[0] = new Vector2(40f, 124f);
             this.cursolposi[1] = new Vector2(40f, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -98,7 +119,7 @@ namespace NSEvent
           bool pfase,
           FaceId face,
           SaveData save)
-          : this(s, m, text1, q1, q2, fast, h, pfase, face.Sheet, face.Index, save)
+          : this(s, m, text1, q1, q2, fast, h, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save)
         {
         }
 
@@ -112,7 +133,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save)
+		  bool mono,
+		  bool auto,
+		  SaveData save)
           : base(s, m, "　" + q1, "　" + q2, "　" + q3, false, save)
         {
             this.faseseet = fa;
@@ -123,7 +146,15 @@ namespace NSEvent
             this.cursolposi[0] = new Vector2(40f, 108f);
             this.cursolposi[1] = new Vector2(40f, 124f);
             this.cursolposi[2] = new Vector2(40f, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -135,7 +166,7 @@ namespace NSEvent
           bool pfase,
           FaceId face,
           SaveData save)
-          : this(s, m, q1, q2, q3, fast, pfase, face.Sheet, face.Index, save)
+          : this(s, m, q1, q2, q3, fast, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save)
         {
         }
 
@@ -151,7 +182,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save)
+		  bool mono,
+		  bool auto,
+		  SaveData save)
           : base(s, m, text1, "　" + q1 + "　　" + q2, "　" + q3 + "　　" + q4, false, save)
         {
             this.faseseet = fa;
@@ -167,7 +200,15 @@ namespace NSEvent
             this.cursolposi[1] = new Vector2(40 + option1Size.Width, 124);
             this.cursolposi[2] = new Vector2(40, 140f);
             this.cursolposi[3] = new Vector2(40 + option3Size.Width, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -181,7 +222,7 @@ namespace NSEvent
           bool pfase,
           FaceId face,
           SaveData save)
-          : this(s, m, text1, q1, q2, q3, q4, fast, pfase, face.Sheet, face.Index, save)
+          : this(s, m, text1, q1, q2, q3, q4, fast, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save)
         {
         }
 
@@ -196,7 +237,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save,
+		  bool mono,
+		  bool auto,
+		  SaveData save,
           bool cancel)
           : base(s, m, text1, text2, "　" + q1 + "　　" + q2, false, save)
         {
@@ -211,7 +254,15 @@ namespace NSEvent
             this.cursolposi[0] = new Vector2(40f, 140f);
             var optionSize = ShanghaiEXE.measurer.MeasureRegularText("　" + q1 + "　");
             this.cursolposi[1] = new Vector2(40 + optionSize.Width, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -225,7 +276,7 @@ namespace NSEvent
           FaceId face,
           SaveData save,
           bool cancel)
-          : this(s, m, text1, text2, q1, q2, fast, pfase, face.Sheet, face.Index, save, cancel)
+          : this(s, m, text1, text2, q1, q2, fast, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save, cancel)
         {
         }
 
@@ -240,7 +291,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save,
+		  bool mono,
+		  bool auto,
+		  SaveData save,
           bool cancel)
           : base(s, m, text1, "　" + q1, "　" + q2, false, save)
         {
@@ -255,7 +308,15 @@ namespace NSEvent
 
             this.cursolposi[0] = new Vector2(40f, 124f);
             this.cursolposi[1] = new Vector2(40f, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -269,7 +330,7 @@ namespace NSEvent
           FaceId face,
           SaveData save,
           bool cancel)
-          : this(s, m, text1, q1, q2, fast, h, pfase, face.Sheet, face.Index, save, cancel)
+          : this(s, m, text1, q1, q2, fast, h, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save, cancel)
         {
         }
 
@@ -283,7 +344,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save,
+		  bool mono,
+		  bool auto,
+		  SaveData save,
           bool cancel)
           : base(s, m, "　" + q1, "　" + q2, "　" + q3, false, save)
         {
@@ -296,7 +359,15 @@ namespace NSEvent
             this.cursolposi[0] = new Vector2(40f, 108f);
             this.cursolposi[1] = new Vector2(40f, 124f);
             this.cursolposi[2] = new Vector2(40f, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -309,7 +380,7 @@ namespace NSEvent
           FaceId face,
           SaveData save,
           bool cancel)
-          : this(s, m, q1, q2, q3, fast, pfase, face.Sheet, face.Index, save, cancel)
+          : this(s, m, q1, q2, q3, fast, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save, cancel)
         {
         }
 
@@ -325,7 +396,9 @@ namespace NSEvent
           bool pfase,
           int fa,
           byte faNo,
-          SaveData save,
+		  bool mono,
+		  bool auto,
+		  SaveData save,
           bool cancel)
           : base(s, m, text1, "　" + q1 + "　　" + q2, "　" + q3 + "　　" + q4, false, save)
         {
@@ -344,7 +417,15 @@ namespace NSEvent
             this.cursolposi[1] = new Vector2(40 + option1Size.Width, 124);
             this.cursolposi[2] = new Vector2(40, 140f);
             this.cursolposi[3] = new Vector2(40 + option3Size.Width, 140f);
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mono)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public Question(
           IAudioEngine s,
@@ -359,14 +440,14 @@ namespace NSEvent
           FaceId face,
           SaveData save,
           bool cancel)
-          : this(s, m, text1, q1, q2, q3, q4, fast, pfase, face.Sheet, face.Index, save, cancel)
+          : this(s, m, text1, q1, q2, q3, q4, fast, pfase, face.Sheet, face.Index, face.Mono, face.Auto, save, cancel)
         {
         }
 
         private new void Init()
         {
             this.nowscene = Question.SCENE.printing;
-            this.fasepattern = CommandMessage.FACEPATTERN.neutral;
+            this.FacePattern = CommandMessage.FACEPATTERN.neutral;
             this.endprint = 0;
             this.printfonts = 0;
             this.arrowprint = false;
@@ -381,8 +462,8 @@ namespace NSEvent
         }
 
         public override void Update()
-        {
-            if (this.printfase)
+		{
+			if (this.printfase)
                 this.FaseAnimation();
             string[][] strArray = new string[3][]
             {
@@ -625,8 +706,19 @@ namespace NSEvent
             if (this.printfase && this.faseseet > 0)
             {
                 this._position = new Vector2(5f, 108f);
-                this._rect = new Rectangle((int)this.fasepattern * 40, faseNo * 48, 40, 48);
-                dg.DrawImage(dg, "Face" + faseseet, this._rect, true, this._position, Color.White);
+				if (!this.EmoteDisabled)
+				{
+					this._rect = new Rectangle((int)this.FacePattern * 40, faseNo * 48, 40, 48);
+				}
+				else if (this.FacePattern == FACEPATTERN.auto)
+				{
+					this._rect = new Rectangle(40 * this.autoFrame, faseNo * 48, 40, 48);
+				}
+				else if (this.FacePattern == FACEPATTERN.mono)
+				{
+					this._rect = new Rectangle(200, faseNo * 48, 40, 48);
+				}
+				dg.DrawImage(dg, "Face" + faseseet, this._rect, true, this._position, Color.White);
             }
             if (!this.arrowprint)
                 return;

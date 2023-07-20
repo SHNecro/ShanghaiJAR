@@ -26,7 +26,7 @@ namespace NSGame
             for (int index = 0; index < this.txt.Count; index += 1)
             {
                 var dialogue = this.txt[index];
-                m.AddEvent(new CommandMessage(s, m, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, null));
+                m.AddEvent(new CommandMessage(s, m, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, dialogue.Face.Auto, null));
             }
             return m;
         }

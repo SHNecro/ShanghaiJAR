@@ -423,7 +423,7 @@ namespace NSEvent
             if (RareInteriors.Contains(this.savedata.interiors[this.Select].number))
             {
                 var dialogue = ShanghaiEXE.Translate("ChipTrader.RareChipStopDialogue1");
-                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedata));
+                this.eventmanager.AddEvent(new CommandMessage(this.sound, this.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, dialogue.Face.Auto, this.savedata));
                 this.yesnoSelect = false;
             }
             else

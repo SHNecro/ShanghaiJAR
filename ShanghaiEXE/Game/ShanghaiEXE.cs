@@ -25,6 +25,7 @@ using System.Diagnostics;
 using NSEvent;
 using NSShanghaiEXE.InputOutput.Audio.XAudio2;
 using NSShanghaiEXE.InputOutput.Audio.OpenAL;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace NSGame
 {
@@ -607,9 +608,9 @@ namespace NSGame
                     true));
                 scene.mapscene.eventmanager.AddEvent(new BranchHead(this.ad, scene.mapscene.eventmanager, 0, this.savedata));
                 scene.mapscene.eventmanager.AddEvent(new CanSkip(this.ad, scene.mapscene.eventmanager, this.savedata));
-                foreach (var message in retconMessages)
-                {
-                    scene.mapscene.eventmanager.AddEvent(new CommandMessage(this.ad, scene.mapscene.eventmanager, message[0], message[1], message[2], message.Face, message.Face.Mono, this.savedata));
+				foreach (var message in retconMessages)
+				{
+                    scene.mapscene.eventmanager.AddEvent(new CommandMessage(this.ad, scene.mapscene.eventmanager, message[0], message[1], message[2], message.Face, message.Face.Mono, message.Face.Auto, this.savedata));
                 }
                 scene.mapscene.eventmanager.AddEvent(new BranchEnd(this.ad, scene.mapscene.eventmanager, this.savedata));
                 scene.mapscene.eventmanager.AddEvent(new CloseMassageWindow(this.ad, scene.mapscene.eventmanager));

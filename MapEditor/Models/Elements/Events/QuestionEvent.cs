@@ -52,7 +52,8 @@ namespace MapEditor.Models.Elements.Events
             return $"question:{this.QuestionKey}:{this.AnswerKey}";
         }
 
-        protected override void SetStringValue(string value)
+		// TODO:
+		protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
             if (!this.Validate(entries, "Malformed question event.", e => e.Length == 3 && e[0] == "question"))

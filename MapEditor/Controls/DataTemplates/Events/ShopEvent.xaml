@@ -112,6 +112,19 @@
                     </Grid.ColumnDefinitions>
                     <TextBlock Grid.Column="0"
                                VerticalAlignment="Center"
+                               Text="Modifiers:"/>
+                    <UniformGrid Grid.Column="1" Columns="2">
+                        <CheckBox Content="Mono" IsChecked="{Binding IsMono}" />
+                        <CheckBox Content="Face Loop" IsChecked="{Binding IsAuto}" />
+                    </UniformGrid>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" SharedSizeGroup="ObjectLabelColumn"/>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0"
+                               VerticalAlignment="Center"
                                Text="Shop Type:"/>
                     <ComboBox Grid.Column="1"
                               ItemsSource="{markup:EnumBindingSource EnumType={x:Type enums:ShopTypeNumber}}"

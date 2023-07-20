@@ -156,27 +156,29 @@ namespace MapEditor.Core
                 editedNode.Attributes["Value"].Value = newDialogue.Text;
                 if (isDialogue)
                 {
-                    if (originalIsDialogue)
-                    {
-                        editedNode.Attributes["Face"].Value = newDialogue.Face.ToString();
-                        editedNode.Attributes["Mono"].Value = newDialogue.Face.Mono ? "True" : "False";
-                    }
-                    else
-                    {
-                        var newNode = languageDoc.CreateElement("Dialogue");
-                        newNode.Attributes.Append(editedNode.Attributes["Key"]);
-                        newNode.Attributes.Append(editedNode.Attributes["Value"]);
+                    var newNode = languageDoc.CreateElement("Dialogue");
+                    newNode.Attributes.Append(editedNode.Attributes["Key"]);
+                    newNode.Attributes.Append(editedNode.Attributes["Value"]);
 
-                        var faceAttribute = languageDoc.CreateAttribute("Face");
-                        faceAttribute.Value = newDialogue.Face.ToString();
-                        newNode.Attributes.Append(faceAttribute);
+                    var faceAttribute = languageDoc.CreateAttribute("Face");
+                    faceAttribute.Value = newDialogue.Face.ToString();
+                    newNode.Attributes.Append(faceAttribute);
 
-                        var monoAttribute = languageDoc.CreateAttribute("Mono");
-                        monoAttribute.Value = newDialogue.Face.Mono ? "True" : "False";
-                        newNode.Attributes.Append(monoAttribute);
+                    if (newDialogue.Face.Mono)
+					{
+						var monoAttribute = languageDoc.CreateAttribute("Mono");
+						monoAttribute.Value = newDialogue.Face.Mono ? "True" : "False";
+						newNode.Attributes.Append(monoAttribute);
+					}
 
-                        editedNode.ParentNode.ReplaceChild(newNode, editedNode);
-                    }
+					if (newDialogue.Face.Auto)
+					{
+						var autoAttribute = languageDoc.CreateAttribute("Auto");
+						autoAttribute.Value = newDialogue.Face.Auto ? "True" : "False";
+						newNode.Attributes.Append(autoAttribute);
+					}
+
+					editedNode.ParentNode.ReplaceChild(newNode, editedNode);
                 }
                 else if (originalIsDialogue)
                 {
@@ -230,9 +232,12 @@ namespace MapEditor.Core
                     faceAttribute.Value = newDialogue.Face.ToString();
                     newNode.Attributes.Append(faceAttribute);
 
-                    var monoAttribute = languageDoc.CreateAttribute("Mono");
-                    monoAttribute.Value = newDialogue.Face.Mono ? "True" : "False";
-                    newNode.Attributes.Append(monoAttribute);
+                    if (newDialogue.Face.Mono)
+                    {
+                        var monoAttribute = languageDoc.CreateAttribute("Mono");
+                        monoAttribute.Value = newDialogue.Face.Mono ? "True" : "False";
+                        newNode.Attributes.Append(monoAttribute);
+                    }
                 }
                 languageDoc.SelectSingleNode("data").AppendChild(newNode);
 
@@ -318,12 +323,15 @@ namespace MapEditor.Core
 
                     var newDialogue = new Dialogue { Text = value };
                     if (node.Name == "Dialogue")
-                    {
-                        var mono = bool.Parse(node.Attributes["Mono"].Value);
-                        var faceString = node.Attributes["Face"].Value;
+					{
+						var monoProperty = node.Attributes["Mono"]?.Value ?? "False";
+						var mono = bool.Parse(monoProperty);
+						var autoProperty = node.Attributes["Auto"]?.Value ?? "False";
+						var auto = bool.Parse(autoProperty);
+						var faceString = node.Attributes["Face"].Value;
                         if (Enum.TryParse(faceString, out FACE faceEnum))
                         {
-                            newDialogue.Face = faceEnum.ToFaceId(mono);
+                            newDialogue.Face = faceEnum.ToFaceId(mono, auto);
 						}
 						else
 						{
@@ -334,11 +342,11 @@ namespace MapEditor.Core
 								&& int.TryParse(manualFaceTokens[0], out sheet)
 								&& byte.TryParse(manualFaceTokens[1], out index))
 							{
-								newDialogue.Face = new FaceId(sheet, index, mono);
+								newDialogue.Face = new FaceId(sheet, index, mono, auto);
 							}
 							else
 							{
-								newDialogue.Face = FACE.None.ToFaceId(mono);
+								newDialogue.Face = FACE.None.ToFaceId(mono, auto);
 							}
 						}
 					}

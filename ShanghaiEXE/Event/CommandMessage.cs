@@ -38,13 +38,14 @@ namespace NSEvent
         protected bool fastprint;
         protected bool arrowprint;
         protected bool endok;
-        protected bool mono;
-        private bool saving;
+		protected int autoFrame;
+		protected int autoFrameRaw;
+		private bool saving;
         private bool noTalk;
         protected string[] text;
         private List<EventManager> parallelEventManagers;
 
-        public CommandMessage(
+		public CommandMessage(
           IAudioEngine s,
           EventManager m,
           string text1,
@@ -85,7 +86,7 @@ namespace NSEvent
           string text3,
           FaceId face,
           SaveData save)
-          : this(s, m, text1, text2, text3, face.Sheet, face.Index, face.Mono, save)
+          : this(s, m, text1, text2, text3, face.Sheet, face.Index, face.Mono, face.Auto, save)
         {
         }
 
@@ -98,6 +99,7 @@ namespace NSEvent
           int fa,
           byte faNo,
           bool mo,
+          bool auto,
           SaveData save)
           : base(s, m, save)
         {
@@ -106,10 +108,14 @@ namespace NSEvent
             this.printfase = true;
             this.text = new string[3] { text1, text2, text3 };
             this.Init();
-            this.mono = mo;
-            if (!this.mono)
-                return;
-            this.fasepattern = CommandMessage.FACEPATTERN.mono;
+            if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+            else if (mo)
+            {
+                this.FacePattern = CommandMessage.FACEPATTERN.mono;
+            }
         }
 
         public CommandMessage(
@@ -120,8 +126,9 @@ namespace NSEvent
           string text3,
           FaceId face,
           bool mo,
+          bool auto,
           SaveData save)
-          : this(s, m, text1, text2, text3, face.Sheet, face.Index, mo, save)
+          : this(s, m, text1, text2, text3, face.Sheet, face.Index, mo, auto, save)
         {
         }
 
@@ -135,6 +142,7 @@ namespace NSEvent
           int fa,
           byte faNo,
           bool mo,
+          bool auto,
           SaveData save)
           : base(s, m, save)
         {
@@ -144,11 +152,15 @@ namespace NSEvent
             this.text = new string[3] { text1, text2, text3 };
             this.Init();
             this.fastprint = fast;
-            this.mono = mo;
-            if (!this.mono)
-                return;
-            this.fasepattern = CommandMessage.FACEPATTERN.mono;
-        }
+			if (auto)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.auto;
+			}
+			else if (mo)
+			{
+				this.FacePattern = CommandMessage.FACEPATTERN.mono;
+			}
+		}
 
         public CommandMessage(
           IAudioEngine s,
@@ -160,15 +172,28 @@ namespace NSEvent
           FaceId face,
           bool mo,
           SaveData save)
-          : this(s, m, text1, text2, text3, fast, face.Sheet, face.Index, mo, save)
+          : this(s, m, text1, text2, text3, fast, face.Sheet, face.Index, mo, face.Auto, save)
         {
+		}
+
+		protected bool EmoteDisabled => this.FacePattern == FACEPATTERN.mono || this.FacePattern == FACEPATTERN.auto;
+        protected FACEPATTERN FacePattern
+        {
+            get => this.fasepattern;
+            set
+            {
+                if (!this.EmoteDisabled)
+                {
+                    this.fasepattern = value;
+                }
+            }
         }
 
-        protected void Init()
+		protected void Init()
         {
             this.massage = this.text;
             this.nowscene = CommandMessage.SCENE.printing;
-            this.fasepattern = CommandMessage.FACEPATTERN.neutral;
+            this.FacePattern = CommandMessage.FACEPATTERN.neutral;
             this.endprint = 0;
             this.printfonts = 0;
             this.arrowprint = false;
@@ -186,6 +211,14 @@ namespace NSEvent
 
         public override void Update()
         {
+            this.autoFrameRaw++;
+            if (this.autoFrameRaw++ >= 5)
+            {
+                this.autoFrameRaw = 0;
+
+                this.autoFrame = (this.autoFrame + 1) % 6;
+            }
+
             string[][] strArray = new string[3][]
             {
                 this.ToDecomposition(this.massage[0]),
@@ -243,19 +276,19 @@ namespace NSEvent
                     var periodEllipseLength = inEllipsesFunc(strArray[this.endprint], s => s == ".", this.printfonts - 1);
                     var shortpause = strArray[this.endprint][this.printfonts - 1] == "、" || strArray[this.endprint][this.printfonts - 1] == "，";
                     var thinkStart = strArray[this.endprint][this.printfonts - 1] == "（" || strArray[this.endprint][this.printfonts - 1] == "(";
-                    if ((interpunctEllipseLength > 0 || periodEllipseLength > 1) && !this.mono)
+                    if ((interpunctEllipseLength > 0 || periodEllipseLength > 1) && !this.EmoteDisabled)
                     {
                         this.sound.PlaySE(SoundEffect.message);
                         this.wait = 30 / Math.Max(interpunctEllipseLength, periodEllipseLength);
                         this.longwaiting = true;
                     }
-                    else if (shortpause && !this.mono)
+                    else if (shortpause && !this.EmoteDisabled)
                     {
                         this.sound.PlaySE(SoundEffect.message);
                         this.wait = 15;
                         this.longwaiting = true;
                     }
-                    else if (thinkStart && !this.mono)
+                    else if (thinkStart && !this.EmoteDisabled)
                     {
                         this.noTalk = true;
                     }
@@ -264,7 +297,7 @@ namespace NSEvent
                         try
                         {
                             var thinkStop = strArray[this.endprint][this.printfonts - 2] == "）" || strArray[this.endprint][this.printfonts - 2] == ")";
-                            if (thinkStop && !this.mono)
+                            if (thinkStop && !this.EmoteDisabled)
                                 this.noTalk = false;
                         }
                         catch
@@ -392,7 +425,7 @@ namespace NSEvent
                     }
                     break;
             }
-            if (!this.printfase || this.mono)
+            if (!this.printfase || this.EmoteDisabled)
                 return;
             this.FaseAnimation();
         }
@@ -414,11 +447,19 @@ namespace NSEvent
             if (this.printfase && this.faseseet > 0)
             {
                 this._position = new Vector2(5f, 108f);
-                if (!this.mono)
-                    this._rect = new Rectangle((int)this.fasepattern * 40, faseNo * 48, 40, 48);
-                else
-                    this._rect = new Rectangle(200, faseNo * 48, 40, 48);
-                string te = "Face" + this.faseseet.ToString();
+                if (!this.EmoteDisabled)
+				{
+					this._rect = new Rectangle((int)this.FacePattern * 40, faseNo * 48, 40, 48);
+				}
+                else if (this.FacePattern == FACEPATTERN.auto)
+				{
+					this._rect = new Rectangle(40 * this.autoFrame, faseNo * 48, 40, 48);
+				}
+				else if (this.FacePattern == FACEPATTERN.mono)
+				{
+					this._rect = new Rectangle(200, faseNo * 48, 40, 48);
+				}
+				string te = "Face" + this.faseseet.ToString();
                 dg.DrawImage(dg, te, this._rect, true, this._position, Color.White);
             }
             if (this.savedata != null)
@@ -447,17 +488,25 @@ namespace NSEvent
         }
 
         protected void FaseAnimation()
-        {
-            ++this.faseflame;
+		{
+			this.autoFrameRaw++;
+			if (this.autoFrameRaw++ >= 5)
+			{
+				this.autoFrameRaw = 0;
+
+				this.autoFrame = (this.autoFrame + 1) % 6;
+			}
+
+			++this.faseflame;
             if (this.faseflame <= this.fasewait)
                 return;
             this.faseflame = 0;
-            switch (this.fasepattern)
+            switch (this.FacePattern)
             {
                 case CommandMessage.FACEPATTERN.neutral:
                     if (this.arrowprint)
                     {
-                        this.fasepattern = CommandMessage.FACEPATTERN.harfclose;
+                        this.FacePattern = CommandMessage.FACEPATTERN.harfclose;
                         this.closing = true;
                         this.fasewait = 1;
                         break;
@@ -466,13 +515,13 @@ namespace NSEvent
                     {
                         if (this.manyopen > 2)
                         {
-                            this.fasepattern = CommandMessage.FACEPATTERN.mouse1;
+                            this.FacePattern = CommandMessage.FACEPATTERN.mouse1;
                             this.fasewait = 2;
                             this.manyopen = 0;
                         }
                         else
                         {
-                            this.fasepattern = CommandMessage.FACEPATTERN.mouse2;
+                            this.FacePattern = CommandMessage.FACEPATTERN.mouse2;
                             this.fasewait = 4;
                             ++this.manyopen;
                         }
@@ -480,21 +529,21 @@ namespace NSEvent
                     break;
                 case CommandMessage.FACEPATTERN.mouse1:
                 case CommandMessage.FACEPATTERN.mouse2:
-                    this.fasepattern = CommandMessage.FACEPATTERN.neutral;
+                    this.FacePattern = CommandMessage.FACEPATTERN.neutral;
                     this.fasewait = (byte)this.Random.Next(6);
                     break;
                 case CommandMessage.FACEPATTERN.harfclose:
                     if (this.closing)
                     {
-                        this.fasepattern = CommandMessage.FACEPATTERN.close;
+                        this.FacePattern = CommandMessage.FACEPATTERN.close;
                         this.fasewait = 7;
                         break;
                     }
-                    this.fasepattern = CommandMessage.FACEPATTERN.neutral;
+                    this.FacePattern = CommandMessage.FACEPATTERN.neutral;
                     this.fasewait = this.Random.Next(60, 300);
                     break;
                 case CommandMessage.FACEPATTERN.close:
-                    this.fasepattern = CommandMessage.FACEPATTERN.harfclose;
+                    this.FacePattern = CommandMessage.FACEPATTERN.harfclose;
                     this.closing = false;
                     this.fasewait = 1;
                     break;
@@ -516,6 +565,7 @@ namespace NSEvent
             harfclose,
             close,
             mono,
+            auto,
         }
     }
 }

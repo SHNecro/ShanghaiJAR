@@ -80,7 +80,7 @@ namespace MapEditor.ViewModels
 
             set
 			{
-				this.translationEntry.Dialogue.Face = value.ToFaceId(this.IsMono);
+				this.translationEntry.Dialogue.Face = value.ToFaceId(this.IsMono, this.IsAuto);
 				this.OnPropertyChanged(nameof(this.Face));
 				this.OnPropertyChanged(nameof(this.FaceId));
 
@@ -104,6 +104,8 @@ namespace MapEditor.ViewModels
 
 				this.OnPropertyChanged(nameof(this.CustomFaceSheet));
 				this.OnPropertyChanged(nameof(this.CustomFaceIndex));
+				this.OnPropertyChanged(nameof(this.IsMono));
+				this.OnPropertyChanged(nameof(this.IsAuto));
 			}
 		}
 
@@ -116,7 +118,7 @@ namespace MapEditor.ViewModels
 
 			set
 			{
-                this.FaceId = new FaceId(value, this.FaceId.Index, this.IsMono);
+                this.FaceId = new FaceId(value, this.CustomFaceIndex, this.IsMono, this.IsAuto);
 			}
 		}
 
@@ -129,22 +131,34 @@ namespace MapEditor.ViewModels
 
 			set
 			{
-				this.FaceId = new FaceId(this.FaceId.Sheet, value, this.IsMono);
+				this.FaceId = new FaceId(this.CustomFaceSheet, value, this.IsMono, this.IsAuto);
 			}
 		}
 
 		public bool IsMono
-        {
-            get
-            {
-                return this.translationEntry.Dialogue.Face.Mono;
-            }
+		{
+			get
+			{
+				return this.translationEntry.Dialogue.Face.Mono;
+			}
 
-            set
-            {
-                this.translationEntry.Dialogue.Face = new FaceId(this.FaceId.Sheet, this.FaceId.Index, value);
-                this.OnPropertyChanged(nameof(this.IsMono));
-            }
+			set
+			{
+				this.FaceId = new FaceId(this.CustomFaceSheet, this.CustomFaceIndex, value, this.IsAuto);
+			}
+		}
+
+		public bool IsAuto
+		{
+			get
+			{
+				return this.translationEntry.Dialogue.Face.Auto;
+			}
+
+			set
+			{
+				this.FaceId = new FaceId(this.CustomFaceSheet, this.CustomFaceIndex, this.IsMono, value);
+			}
 		}
 
 		public bool IsCustomFace => !Enum.IsDefined(typeof(FACE), ((this.CustomFaceSheet - 1) * 16) + this.CustomFaceIndex);

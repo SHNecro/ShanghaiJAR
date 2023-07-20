@@ -247,7 +247,7 @@ namespace NSBattle
                             this.parent.eventmanager.events.Clear();
                             this.parent.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.parent.eventmanager));
                             var dialogue = ShanghaiEXE.Translate("Custom.EscapeSuccess");
-                            this.parent.eventmanager.AddEvent(new CommandMessage(this.sound, this.parent.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedata));
+                            this.parent.eventmanager.AddEvent(new CommandMessage(this.sound, this.parent.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, dialogue.Face.Auto, this.savedata));
                             this.parent.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.parent.eventmanager));
                             this.parent.BattleEnd(true);
                             this.escape = false;
@@ -257,7 +257,7 @@ namespace NSBattle
                             this.parent.eventmanager.events.Clear();
                             this.parent.eventmanager.AddEvent(new OpenMassageWindow(this.sound, this.parent.eventmanager));
                             var dialogue = ShanghaiEXE.Translate("Custom.EscapeFailure");
-                            this.parent.eventmanager.AddEvent(new CommandMessage(this.sound, this.parent.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, this.savedata));
+                            this.parent.eventmanager.AddEvent(new CommandMessage(this.sound, this.parent.eventmanager, dialogue[0], dialogue[1], dialogue[2], dialogue.Face, dialogue.Face.Mono, dialogue.Face.Auto, this.savedata));
                             this.parent.eventmanager.AddEvent(new CloseMassageWindow(this.sound, this.parent.eventmanager));
                             this.escapeV += 50;
 

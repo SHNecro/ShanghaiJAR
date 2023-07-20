@@ -216,13 +216,20 @@ namespace MapEditor.Models
 
         public void RefreshEnemyDefinition()
         {
-            if (this.IsNormalNavi)
+            try
+			{
+				if (this.IsNormalNavi)
+				{
+					this.EnemyDefinition = EnemyDefinition.GetEnemyDefinition(this.ID, this.X, this.Y, this.Rank, this.HP, this.Chip5.ID, this.Chip4.ID, this.Chip3.ID, this.NameKey);
+				}
+				else
+				{
+					this.EnemyDefinition = EnemyDefinition.GetEnemyDefinition(this.ID, this.X, this.Y, this.Rank);
+				}
+			}
+            catch
             {
-                this.EnemyDefinition = EnemyDefinition.GetEnemyDefinition(this.ID, this.X, this.Y, this.Rank, this.HP, this.Chip5.ID, this.Chip4.ID, this.Chip3.ID, this.NameKey);
-            }
-            else
-            {
-                this.EnemyDefinition = EnemyDefinition.GetEnemyDefinition(this.ID, this.X, this.Y, this.Rank);
+
             }
 
             if (this.EnemyDefinition != null)

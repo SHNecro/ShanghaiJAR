@@ -274,9 +274,17 @@ namespace MapEditor.ViewModels
             set { this.SetValue(ref MainWindowViewModel.progress, value); }
         }
 
-        public bool IsDirty => this.CurrentMap?.StringValue != this.LastLoadedMap?.StringValue;
+		public bool IsDirty
+		{
+			get
+			{
+                var currentMap = this.CurrentMap?.StringValue;
+                var lastMap = this.LastLoadedMap?.StringValue;
+				return string.Compare(currentMap, lastMap) != 0;
+			}
+		}
 
-        public ICommand ChooseEncodedFileCommand => new RelayCommand(this.ChooseEncodedFile);
+		public ICommand ChooseEncodedFileCommand => new RelayCommand(this.ChooseEncodedFile);
         public ICommand SaveOrCreateEncodedFileCommand => new RelayCommand(() => this.SaveOrCreateEncodedFile());
         public ICommand SaveNewEncodedFileCommand => new RelayCommand(() => this.SaveNewEncodedFile());
         public ICommand ChooseDecodedFileCommand => new RelayCommand(this.ChooseDecodedFile);

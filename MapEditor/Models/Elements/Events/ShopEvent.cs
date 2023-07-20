@@ -18,7 +18,9 @@ namespace MapEditor.Models.Elements.Events
         private int shopClerkTypeNumber;
         private int faceSheet;
         private int faceIndex;
-        private int priceTypeNumber;
+		private bool isMono;
+        private bool isAuto;
+		private int priceTypeNumber;
         private ShopItemCollection shopItems;
 
         public int ShopStockIndex
@@ -79,6 +81,32 @@ namespace MapEditor.Models.Elements.Events
 
         public bool IsManualFace => !Enum.IsDefined(typeof(FACE), ((this.FaceSheet - 1) * 16) + this.FaceIndex);
 
+		public bool IsMono
+		{
+			get
+			{
+				return this.isMono;
+			}
+
+			set
+			{
+				this.SetValue(ref this.isMono, value);
+			}
+		}
+
+		public bool IsAuto
+		{
+			get
+			{
+				return this.isAuto;
+			}
+
+			set
+			{
+				this.SetValue(ref this.isAuto, value);
+			}
+		}
+
 		public int PriceTypeNumber
         {
             get
@@ -128,11 +156,19 @@ namespace MapEditor.Models.Elements.Events
 
         protected override string GetStringValue()
         {
+            var entry4 = this.FaceSheet.ToString();
+            var entry5 = this.FaceIndex.ToString();
+            if (this.IsMono || this.IsAuto)
+            {
+                entry4 = $"{this.FaceSheet},{this.FaceIndex}";
+                entry5 = $"{this.IsMono},{this.IsAuto}";
+            }
+
             var shopItemsString = this.ShopItems.StringValue;
-            return $"shop:{this.shopStockIndex}:{this.ShopTypeNumber}:{this.ShopClerkTypeNumber}:{this.FaceSheet}:{this.FaceIndex}:{this.PriceTypeNumber}:{shopItemsString}";
+            return $"shop:{this.shopStockIndex}:{this.ShopTypeNumber}:{this.ShopClerkTypeNumber}:{entry4}:{entry5}:{this.PriceTypeNumber}:{shopItemsString}";
         }
 
-        protected override void SetStringValue(string value)
+		protected override void SetStringValue(string value)
         {
             var entries = value.Split(':');
             if (!this.Validate(entries, $"Malformed shop event \"{value}\".", e => e.Length >= 7 && e[0] == "shop"))
@@ -148,9 +184,26 @@ namespace MapEditor.Models.Elements.Events
             var newClerkType = this.ParseIntOrAddError(entries[3]);
             this.ParseEnumOrAddError<ShopClerkTypeNumber>(entries[3]);
 
-            var newFaceSheet = this.ParseIntOrAddError(entries[4]);
-            var newFaceIndex = this.ParseIntOrAddError(entries[5]);
-			var newFace = new FaceId(newFaceSheet, (byte)newFaceIndex, false).ToFace();
+			var faceSheet = 0;
+			var faceIndex = (byte)0;
+			var mono = false;
+			var auto = false;
+
+			string[] faceSections = null, modifierSections = null;
+			if (entries[4].Contains(",") && entries[5].Contains(",")
+				&& int.TryParse((faceSections = faceSections ?? entries[4].Split(','))[0], out faceSheet)
+				&& byte.TryParse((faceSections = faceSections ?? entries[4].Split(','))[1], out faceIndex)
+				&& bool.TryParse((modifierSections = modifierSections ?? entries[5].Split(','))[0], out mono)
+				&& bool.TryParse((modifierSections = modifierSections ?? entries[5].Split(','))[1], out auto))
+			{
+				;
+			}
+			else if (int.TryParse(entries[4], out faceSheet)
+				&& byte.TryParse(entries[5], out faceIndex))
+			{
+				;
+			}
+			var newFace = new FaceId(faceSheet, (byte)faceIndex).ToFace();
 			//this.ParseEnumOrAddError<FACE>(((int)newFace).ToString());
 
 			var newPriceTypeNumber = this.ParseIntOrAddError(entries[6]);
@@ -162,6 +215,8 @@ namespace MapEditor.Models.Elements.Events
             this.ShopTypeNumber = newShopTypeNumber;
             this.ShopClerkTypeNumber = newClerkType;
             this.Face = newFace;
+            this.IsMono = mono;
+            this.IsAuto = auto;
             this.PriceTypeNumber = newPriceTypeNumber;
             this.ShopItems = newShopItems;
         }

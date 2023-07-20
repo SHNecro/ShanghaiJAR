@@ -80,12 +80,15 @@ namespace Services
                 {
                     var key = node.Attributes["Key"].Value;
                     var value = node.Attributes["Value"].Value;
-                    var mono = bool.Parse(node.Attributes["Mono"].Value);
-                    FACE face;
+                    var monoProperty = node.Attributes["Mono"]?.Value ?? "False";
+					var mono = bool.Parse(monoProperty);
+					var autoProperty = node.Attributes["Auto"]?.Value ?? "False";
+					var auto = bool.Parse(autoProperty);
+					FACE face;
                     FaceId faceId;
                     if (Enum.TryParse<FACE>(node.Attributes["Face"].Value, out face))
 					{
-						faceId = face.ToFaceId(mono);
+						faceId = face.ToFaceId(mono, auto);
 					}
                     else
 					{
@@ -96,11 +99,11 @@ namespace Services
                             && int.TryParse(manualFaceTokens[0], out sheet)
                             && byte.TryParse(manualFaceTokens[1], out index))
                         {
-                            faceId = new FaceId(sheet, index, mono);
+                            faceId = new FaceId(sheet, index, mono, auto);
                         }
                         else
                         {
-                            faceId = FACE.None.ToFaceId(mono);
+                            faceId = FACE.None.ToFaceId(mono, auto);
                         }
 					}
                     this.language.Add(key, new Dialogue { Text = value, Face = faceId });

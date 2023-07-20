@@ -2,6 +2,7 @@
 using NSShanghaiEXE.InputOutput.Audio;
 using NSEvent;
 using NSGame;
+using Common;
 
 namespace NSMap.Character
 {
@@ -27,7 +28,7 @@ namespace NSMap.Character
             for (int msgNum = 0; msgNum < messages.Length; msgNum += 1)
             {
                 var msg = messages[msgNum];
-                var commandMessage = new CommandMessage(this.IAudioEngine, result, msg[0], msg[1], msg[2], msg.Face, msg.Face.Mono, this.saveData);
+                var commandMessage = new CommandMessage(this.IAudioEngine, result, msg[0], msg[1], msg[2], msg.Face, msg.Face.Mono, msg.Face.Auto, this.saveData);
                 result.AddEvent(commandMessage);
             }
             if ((int)command < 8)

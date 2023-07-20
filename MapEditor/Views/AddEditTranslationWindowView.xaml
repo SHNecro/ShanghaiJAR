@@ -10,7 +10,7 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:controls="clr-namespace:MapEditor.Controls"
         mc:Ignorable="d"
-        Title="{Binding Title}" Height="420" Width="515">
+        Title="{Binding Title}" Height="450" Width="600">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -236,6 +236,7 @@
                                             <ColumnDefinition Width="*" />
                                             <ColumnDefinition Width="Auto" />
                                             <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="Auto" />
                                         </Grid.ColumnDefinitions>
                                         <Grid.Style>
                                             <Style TargetType="Grid">
@@ -277,7 +278,7 @@
                                                 </ComboBox.Style>
                                             </ComboBox>
                                         </Grid>
-                                        <CheckBox Grid.Column="1" Content="Monochrome" VerticalContentAlignment="Center">
+                                        <CheckBox Grid.Column="1" Content="Mono" VerticalContentAlignment="Center">
                                             <CheckBox.Style>
                                                 <Style TargetType="CheckBox">
                                                     <Style.Triggers>
@@ -290,7 +291,20 @@
                                                 </Style>
                                             </CheckBox.Style>
                                         </CheckBox>
-                                        <CheckBox x:Name="CustomFaceCheckbox" Grid.Column="2"
+                                        <CheckBox Grid.Column="2" Content="Face Loop" VerticalContentAlignment="Center">
+                                            <CheckBox.Style>
+                                                <Style TargetType="CheckBox">
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding Text}" Value="{x:Null}">
+                                                            <Setter Property="IsChecked" Value="{Binding DataContext.FirstEnteredTranslation.IsAuto, Source={StaticResource AddEditTranslationWindowViewModelProxy}}" />
+                                                            <Setter Property="IsEnabled" Value="False" />
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                    <Setter Property="IsChecked" Value="{Binding IsAuto}" />
+                                                </Style>
+                                            </CheckBox.Style>
+                                        </CheckBox>
+                                        <CheckBox x:Name="CustomFaceCheckbox" Grid.Column="3"
                                                   VerticalContentAlignment="Center"
                                                   IsChecked="{Binding IsCustomFace, Mode=OneTime}"
                                                   Content="Manual" />
