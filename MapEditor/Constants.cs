@@ -62,8 +62,9 @@ namespace MapEditor
         public static ObservableConcurrentDictionary<int, KeyItemDefinition> KeyItemDefinitions { get; private set; }
         public static ObservableConcurrentDictionary<int, MailDefinition> MailDefinitions { get; private set; }
 
-        public static Rectangle ConveyorSpriteArea;
-        public static Dictionary<FontType, Font> Fonts;
+		public static Rectangle ConveyorSpriteArea;
+		public static Rectangle TileConveyorSpriteArea;
+		public static Dictionary<FontType, Font> Fonts;
         private static PrivateFontCollection customFontInstance;
         public static Color TextColor = Color.FromArgb(64, 56, 56);
 
@@ -211,28 +212,70 @@ namespace MapEditor
 
         public static Func<WalkableTileType, ConveyorColorType, Point, int, MapEntity> ConveyorCreator = (tileType, color, position, level) =>
         {
-            var baseConveyorGraphics = new Point(513, 369);
+            var bodyPage = 2;
+            var conveyorPoint = new Point(513, 369);
+            var positionAdjust = new Point(0, 0);
             switch (color)
-            {
-                case ConveyorColorType.Blue:
-                    baseConveyorGraphics.Offset(0, 128);
-                    break;
-            }
+			{
+				case ConveyorColorType.Red:
+					bodyPage = 2;
+					conveyorPoint = new Point(513, 369);
+					positionAdjust = new Point(0, 0);
+					break;
+				case ConveyorColorType.Blue:
+					bodyPage = 2;
+					conveyorPoint = new Point(513, 369 + 128);
+					positionAdjust = new Point(0, 0);
+					break;
+				case ConveyorColorType.GreenTile:
+                    bodyPage = 27;
+					conveyorPoint = new Point(0, 272);
+					switch (tileType)
+					{
+						case WalkableTileType.ConveyorWest:
+						case WalkableTileType.ConveyorEast:
+							positionAdjust = new Point(-1, 0);
+							break;
+						case WalkableTileType.ConveyorSouth:
+						case WalkableTileType.ConveyorNorth:
+							positionAdjust = new Point(0, -1);
+							break;
+					}
+					break;
+				case ConveyorColorType.BlueTile:
+					bodyPage = 27;
+					conveyorPoint = new Point(0 + 256, 272);
+					switch (tileType)
+					{
+						case WalkableTileType.ConveyorWest:
+						case WalkableTileType.ConveyorEast:
+							positionAdjust = new Point(-1, 0);
+							break;
+						case WalkableTileType.ConveyorSouth:
+						case WalkableTileType.ConveyorNorth:
+							positionAdjust = new Point(0, -1);
+							break;
+					}
+					break;
+			}
             switch (tileType)
-            {
-                case WalkableTileType.ConveyorEast:
-                    baseConveyorGraphics.Offset(0, 32);
+			{
+				case WalkableTileType.ConveyorWest:
+					conveyorPoint.Offset(0, 0);
+					break;
+				case WalkableTileType.ConveyorEast:
+					conveyorPoint.Offset(0, 32);
                     break;
                 case WalkableTileType.ConveyorSouth:
-                    baseConveyorGraphics.Offset(0, 32 * 2);
+					conveyorPoint.Offset(0, 32 * 2);
                     break;
                 case WalkableTileType.ConveyorNorth:
-                    baseConveyorGraphics.Offset(0, 32 * 3);
+					conveyorPoint.Offset(0, 32 * 3);
                     break;
             }
-            var graphicsString = $"{baseConveyorGraphics.X},{baseConveyorGraphics.Y}";
+            var graphicsLocation = $"{conveyorPoint.X},{conveyorPoint.Y}";
 
-            var adjustedPosition = new Point(position.X + 7, position.Y + 7);
+            var adjustedPosition = new Point(position.X + 7 + positionAdjust.X, position.Y + 7 + positionAdjust.Y);
             var positionString = $"{adjustedPosition.X}:{adjustedPosition.Y}";
             return new MapEntity { StringValue = string.Join("\r\n", new[]
             {
@@ -244,8 +287,8 @@ namespace MapEditor
                 "terms:none",
                 "move:",
                 "speed:6",
-                $"graphic:-2:{graphicsString},64,32,4",
-                "hitrange:16:16:0:0",
+                $"graphic:-{bodyPage}:{graphicsLocation},64,32,4",
+                $"hitrange:16:16:{-positionAdjust.X}:{-positionAdjust.Y}",
                 "hitform:square",
                 "event:",
                 "end"
@@ -289,9 +332,10 @@ namespace MapEditor
         );
 
         static Constants()
-        {
-            Constants.ConveyorSpriteArea = new Rectangle(512, 368, (64 * 4) + 2, (32 * 4 * 2) + 2);
-            Constants.AudioEngine = AudioEngine.Instance;
+		{
+			Constants.ConveyorSpriteArea = new Rectangle(512, 368, (64 * 4) + 2, (32 * 4 * 2) + 2);
+			Constants.TileConveyorSpriteArea = new Rectangle(0, 272, (64 * 4) + 2, (32 * 4 * 2) + 2);
+			Constants.AudioEngine = AudioEngine.Instance;
         }
 
         public static bool Initialize()

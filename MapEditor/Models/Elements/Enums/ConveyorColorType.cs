@@ -8,7 +8,11 @@ namespace MapEditor.Models.Elements.Enums
     {
         [Description("Red")]
         Red = 0,
-        [Description("Blue")]
-        Blue = 1,
-    }
+		[Description("Blue")]
+		Blue = 1,
+		[Description("Green Tile")]
+		GreenTile = 2,
+		[Description("Blue Tile")]
+		BlueTile = 3,
+	}
 }
