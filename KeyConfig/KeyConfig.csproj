@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Language\ja-JP\Config.xml" />
+    <Content Include="Language\ko-KR\Config.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Language\en-US\Config.xml" />
@@ -166,7 +167,10 @@ mkdir "$(TargetDir)language\en-US"
 xcopy "$(ProjectDir)Language\en-US" "$(TargetDir)language\en-US" /s /d /y
 
 mkdir "$(TargetDir)language\ja-JP"
-xcopy "$(ProjectDir)Language\ja-JP" "$(TargetDir)language\ja-JP" /s /d /y</PostBuildEvent>
+xcopy "$(ProjectDir)Language\ja-JP" "$(TargetDir)language\ja-JP" /s /d /y
+
+mkdir "$(TargetDir)language\ja-JP"
+xcopy "$(ProjectDir)Language\ja-JP" "$(TargetDir)language\ko-KR" /s /d /y</PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
