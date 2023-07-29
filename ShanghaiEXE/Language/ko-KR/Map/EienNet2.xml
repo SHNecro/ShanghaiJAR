@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　エイエンエリア２ -->
+  <Text Key="Map.EienNet2Name" Value="인터넷 영원 에리어 2" />
+  <!-- ネックのセキュリティキューブだ -->
+  <Dialogue Key="Map.EienNet2NekkuCubeStage1Dialogue1FaceNone" Value="넥의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- ネックのＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.EienNet2NekkuCubeStage1Dialogue2FaceNone" Value="넥의 P코드가 있으면,지나갈 수 있게 된다." Face="None" Mono="False" />
+  <!-- ネックのセキュリティキューブだ -->
+  <Dialogue Key="Map.EienNet2NekkuCubeStage3Dialogue1FaceNone" Value="넥의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- ネックのＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.EienNet2NekkuCubeStage3Dialogue2FaceNone" Value="넥의 P코드로,시큐리티를 해제했다!" Face="None" Mono="False" />
+  <!-- ここらへんの緑色のミステリーデータにはご注意ください -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="이 주변의 녹색,미스터리 데이터를 열 때에는,주의해 주세요." Face="NaviBlueRobot" Mono="False" />
+  <!-- 中にはウィルスが紛れ込んでいるものがありますからね -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="안에 바이러스가 섞여 있는,것들이 있으니까요." Face="NaviBlueRobot" Mono="False" />
+  <!-- おっかしいなー -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi2Stage1Dialogue1FaceNaviPurplePunk" Value="이상하네～" Face="NaviPurplePunk" Mono="False" />
+  <!-- 不死鳥連合のナビと話し合いの予定だったが数が合わないんだ -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi2Stage1Dialogue2FaceNaviPurplePunk" Value="불사조 연합의 내비랑,이야기할 예정이었는데,이 내비가 오질 않네." Face="NaviPurplePunk" Mono="False" />
+  <!-- ドジ踏んでとっ捕まったのかな？ -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi2Stage1Dialogue3FaceNaviPurplePunk" Value="실수해서 체포당하기라도 했나?" Face="NaviPurplePunk" Mono="False" />
+  <!-- ああん？ガン飛ばしてんのかてめえ？ -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi3Stage1Dialogue1FaceNaviPurplePunk" Value="넌 뭐야，인마?,쳐맞고 싶냐?" Face="NaviPurplePunk" Mono="False" />
+  <!-- あっ････ウソウソ　どうぞお通りください（こいつ････やばそうだ･･･） -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi3Stage1Dialogue2FaceNaviPurplePunk" Value="앗.... 아，아무것도 아닙니다.,지，지나가세요.,(이 녀석.... 위험해 보여...)" Face="NaviPurplePunk" Mono="False" />
+  <!-- しまったああ！こっちに来たらスクエアに戻れないんだったー！ -->
+  <Dialogue Key="Map.EienNet2Chapter3ManNavi4Stage1Dialogue1FaceNaviOrangeMale" Value="망했다아악!,이 쪽으로 와 버리면 스퀘어로,돌아갈 수가 없잖아악!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 永遠町は不良が多いからガラの悪いナビがこのエリアにも結構出てくるのよねえ -->
+  <Dialogue Key="Map.EienNet2Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="영원 마을에는 불량아가 많다 보니,인상 나쁜 내비가 이 에리어에도,꽤나 많이 나온단 말이지." Face="NaviPinkFemale" Mono="False" />
+  <!-- あなたも気をつけなさいよ -->
+  <Dialogue Key="Map.EienNet2Chapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="너도 조심해." Face="NaviPinkFemale" Mono="False" />
+  <!-- この先にＮ１リーグのスタッフがいるんだけど　出してくるウィルスがめっぽう強くて････ -->
+  <Dialogue Key="Map.EienNet2Chapter4MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="이 앞에 N1 리그 스탭이 있는데,내놓는 바이러스가 너무 세서...." Face="NaviGreenRobot" Mono="False" />
+  <!-- 無理だと思ったから降参してきたよ -->
+  <Dialogue Key="Map.EienNet2Chapter4MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="이길 수가 없다 생각해서,결국 포기했어." Face="NaviGreenRobot" Mono="False" />
+  <!-- おっと　私はＮ１のスタッフじゃないぞネットエージェントだ -->
+  <Dialogue Key="Map.EienNet2Chapter4MaleNavi2Stage1Dialogue1FaceNaviBlueRobot" Value="오，이런. 난 N1의,스탭이 아냐.,넷 에이전트야." Face="NaviBlueRobot" Mono="False" />
+  <!-- 大会の予選のようなイベントは不届き者を引きつけそうだからな警戒しているのだよ -->
+  <Dialogue Key="Map.EienNet2Chapter4MaleNavi2Stage1Dialogue2FaceNaviBlueRobot" Value="대회 예선 같은 이벤트는,나쁜 사람들이 많이 꼬일 것,같아서 경계를 서고 있는 거야." Face="NaviBlueRobot" Mono="False" />
+  <!-- タイカイ　ッテイイデスヨネ〜 -->
+  <Dialogue Key="Map.EienNet2Chapter4SpriteStage1Dialogue1FaceSprite" Value="대회란 참 좋은 거에요～" Face="Sprite" Mono="False" />
+  <!-- ワタシタチハ　タタカウチカラガヨワイノデ　シュツジョウトカハユメノマタ　ユメデスケドネ -->
+  <Dialogue Key="Map.EienNet2Chapter4SpriteStage1Dialogue2FaceSprite" Value="저희들은 싸우는 힘이 약해서,경기를 하러 간다던가 하는 건,부질없지만요." Face="Sprite" Mono="False" />
+  <!-- Ｎ１リーグの参加者ですね私は予選担当のスタッフです -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage1Dialogue1FaceNaviBlueRobot" Value="N1 리그의 참가자로군요.,저는 예선 담당 스탭입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 最初に言いますがナビがデリートされた場合の責任は負いかねます -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage1Dialogue2FaceNaviBlueRobot" Value="미리 말해 두지만 내비가,딜리트되었을 경우,책임지지 않습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 今から３連戦を行いますがよろしいですか？ -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage1Dialogue3QuestionFaceNaviBlueRobot" Value="지금부터 3연전을 시행하겠습니다.,괜찮으신지요?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienNet2Chapter4N1Staff2Stage1Dialogue3Options" Value="예,아니오" />
+  <Text Key="Map.EienNet2Chapter4N1Staff2Battle3Enemy1" Value="리그스탭V2" />
+  <!-- グッド・ジョブです -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage3Dialogue1FaceNaviBlueRobot" Value="굿・잡입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- これでスタッフを４人とも倒したわよ！ -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage3Dialogue2FaceShanghai" Value="이걸로 스탭 4명을,상대로 다 이겼어!" Face="Shanghai" Mono="False" />
+  <!-- エイエンスクエアに戻って報告をしましょう！ -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage3Dialogue3FaceAlice" Value="영원 스퀘어로 돌아가서 보고하자!" Face="Alice" Mono="False" />
+  <!-- 私の他にもまだスタッフは残っていますので探してくださいね -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage5Dialogue1FaceNaviBlueRobot2" Value="저 외에도 아직 스탭들은,남아 있으니까,찾아 주십시오." Face="NaviBlueRobot2" Mono="False" />
+  <!-- 私の他にもまだスタッフはいます探してみてください -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage7Dialogue1FaceNaviBlueRobot2" Value="저 말고도,아직 스탭들은 남아 있습니다.,찾아 보십시오." Face="NaviBlueRobot2" Mono="False" />
+  <!-- エイエンスクエアで報告すれば予選突破となりますお急ぎください -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff2Stage9Dialogue1FaceNaviBlueRobot2" Value="영원 스퀘어에 보고하면,예선 돌파로 인정됩니다.,서둘러 스퀘어로 가 주세요." Face="NaviBlueRobot2" Mono="False" />
+  <!-- Ｎ１リーグの参加者ですね私は予選担当のスタッフです -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage1Dialogue1FaceNaviBlueRobot" Value="N1 리그의 참가자로군요.,저는 예선 담당 스탭입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 最初に言いますがナビがデリートされた場合の責任は負いかねます -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage1Dialogue2FaceNaviBlueRobot" Value="미리 말해 두지만 내비가,딜리트되었을 경우,책임지지 않습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 今から３連戦を行いますがよろしいですか？ -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage1Dialogue3QuestionFaceNaviBlueRobot" Value="지금부터 3연전을 시행하겠습니다.,괜찮으신지요?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.EienNet2Chapter4N1Staff3Stage1Dialogue3Options" Value="예,아니오" />
+  <Text Key="Map.EienNet2Chapter4N1Staff3Battle3Enemy1" Value="리그스탭V3" />
+  <!-- グッド・ジョブです -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage3Dialogue1FaceNaviBlueRobot" Value="굿・잡입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- これでスタッフを４人とも倒したわよ！ -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage3Dialogue2FaceShanghai" Value="이걸로 스탭 4명을,상대로 다 이겼어!" Face="Shanghai" Mono="False" />
+  <!-- エイエンスクエアに戻って報告をしましょう！ -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage3Dialogue3FaceAlice" Value="영원 스퀘어로 돌아가서 보고하자!" Face="Alice" Mono="False" />
+  <!-- 私の他にもまだスタッフは残っていますので探してくださいね -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage5Dialogue1FaceNaviBlueRobot2" Value="저 외에도 아직 스탭들은,남아 있으니까,찾아 주십시오." Face="NaviBlueRobot2" Mono="False" />
+  <!-- 私の他にもまだスタッフはいます探してみてください -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage7Dialogue1FaceNaviBlueRobot2" Value="저 말고도,아직 스탭들은 남아 있습니다.,찾아 보십시오." Face="NaviBlueRobot2" Mono="False" />
+  <!-- エイエンスクエアで報告すれば予選突破となりますお急ぎください -->
+  <Dialogue Key="Map.EienNet2Chapter4N1Staff3Stage9Dialogue1FaceNaviBlueRobot2" Value="영원 스퀘어에 보고하면,예선 돌파로 인정됩니다.,서둘러 스퀘어로 가 주세요." Face="NaviBlueRobot2" Mono="False" />
+  <!-- この竹の床デコボコしてて歩きにくいですわ！ -->
+  <Dialogue Key="Map.EienNet2Chapter4Navi4Stage1Dialogue1FaceNaviPurpleFemale" Value="이 대나무 바닥,울퉁불퉁해서,걷기 힘들어요!" Face="NaviPurpleFemale" Mono="False" />
+  <!-- そろそろチップフォルダを再構築したほうがいいかなあ -->
+  <Dialogue Key="Map.EienNet2Chapter4Navi5Stage1Dialogue1FaceNaviGreenRobot" Value="슬슬 칩 폴더를,재구축하는 게 좋겠어." Face="NaviGreenRobot" Mono="False" />
+  <!-- ウィルスのＨＰが高くて倒すのに時間がかかってしまう -->
+  <Dialogue Key="Map.EienNet2Chapter4Navi5Stage1Dialogue2FaceNaviGreenRobot" Value="바이러스의 HP가 높아서,쓰러뜨리는 데 시간이 걸리네." Face="NaviGreenRobot" Mono="False" />
+  <!-- 一旦フォルダをまっさらにして手持ちのチップをコード順にソートするだろ？ -->
+  <Dialogue Key="Map.EienNet2Chapter4Navi6Stage1Dialogue1FaceNaviOrangeMale" Value="일단 폴더를 완전히 비운 뒤,가지고 있는 칩들을,코드 순으로 정렬하잖아?" Face="NaviOrangeMale" Mono="False" />
+  <!-- で　一つのコードでフォルダを埋めてみるとこれがなかなか強くなるんだ -->
+  <Dialogue Key="Map.EienNet2Chapter4Navi6Stage1Dialogue2FaceNaviOrangeMale" Value="그러고 나서 하나의 코드로,폴더를 채워 보면,이게 꽤 세단 말이지." Face="NaviOrangeMale" Mono="False" />
+  <!-- １時間くらい前さ悪そうなナビが女の子ナビを無理やり連れて行ったんだ -->
+  <Dialogue Key="Map.EienNet2Request15MobStage1Dialogue1FaceNaviGreenRobot" Value="1시간쯤 전인가，험악해 보이는,내비들이 여자 내비를,억지로 데려갔어." Face="NaviGreenRobot" Mono="False" />
+  <!-- そいつら　その時に「ウラ３に集合」とか言ってたよ -->
+  <Dialogue Key="Map.EienNet2Request15MobStage1Dialogue2FaceNaviGreenRobot" Value="그 녀석들 그 때,”우라 3에서 집합”,같은 말을 했어." Face="NaviGreenRobot" Mono="False" />
+  <!-- グルルル････グアァァッ！ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage1Dialogue1FaceNaviBlackRobe" Value="그르르르....,그아아아아!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.EienNet2BlackRobe2Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうエイエンエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage3Dialogue1FaceShanghai" Value="....후우,영원 에리어에 있는 놈들은,다 쓰러뜨린 것 같네." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue1FaceShanghai" Value="앨리스，전화 왔어!,레이센한테서야!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue2FaceAlice" Value="레이센!,네가 말한 에리어 내에 있는,검은 내비들을 다 쓰러뜨렸어!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue3FaceReisen" Value="여기서도 확인했다.,덕분에 살았어.,고맙다." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue4FaceReisen" Value="아무래도 그 놈들，우라 인터넷,깊은 곳에서 각 지역으로,이동하고 있는 것 같아." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue5FaceReisen" Value="우라 인터넷에서도 여러 번의,교전이 확인되고 있는 이상,우라의 주민일 리도 없고." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue6FaceReisen" Value="계속 부탁해서 미안한데,놈들의 정체를 알아내려고 하는데,거길 조사해 줄 수 있나?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue10FaceShanghai" Value="그 내비들을 뿌리뽑을,수만 있다면 뭐든 해 보겠어." Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue11FaceReisen" Value="고맙다." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue12FaceReisen" Value="보수를 원한다면,넷 에이전트에게,요구해 줘." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue13FaceShanghai" Value="알겠어.,그걸 받으려면 일단,조사를 시작해야겠지!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue14FaceAlice" Value="그런데 우라 인터넷의,깊은 곳이라니.... 괜찮을까?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.EienNet2BlackRobe2Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
+  <!-- エイエンスクエアにご用の方はこの坂を登った先！ -->
+  <Dialogue Key="Map.EienNet2GuidePlateStage1Dialogue1FaceNone" Value="영원 스퀘어에 용건이 있다면,이 언덕을 넘어가세요!" Face="None" Mono="False" />
+  <!-- アドオンショップへようこそ！ -->
+  <Dialogue Key="Map.EienNet2Add-onShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="애드온 샵에 어서 오세요!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.EienNet2Add-onShopStage1Dialogue1Options" Value="산다,안 산다" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="호오.... 거기 너,꽤나 다크한 분위기를 풍기는군." Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="내가 키운 바이러스와 싸워서,이기면 다크 칩을 주지. 어때?" Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="물론 네가 거는 건,네 목숨이겠지만...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="내 바이러스들이랑 싸워 볼래?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.EienNet2DarkSellerStage1Dialogue4Options" Value="붙어 보자고!,지금은 상태가 영...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="쯧.... 겁 먹었나." Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="좋아，그럼 드가자!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="이야～ 이걸 이기네!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="좋아! 이거 가져가!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.EienNet2DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="난 이미 너한테 졌어.,이 이상 무슨 말을 할,자격 같은 건 없어." Face="NaviBlackHeel" Mono="False" />
+  <Dialogue Key="Map.EienNet2PostGameBystander1Dialogue1" Value="발이 화살표 바닥에 닿기 전에,방향을 바꾸면 역주행하는,것처럼 보이지 않을까....?" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.EienNet2PostGameBystander2Dialogue1" Value="계속 헤매다가,겨우 스퀘어에 도착했네...." Face="NaviPurplePunk" Mono="False" />
+</data>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AirCleaner3Name" Value="공기 청정기의 전뇌 3" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue1FaceSprite" Value="히이익!,엄청난 양의 가스가,발생해 버렸어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage1Dialogue2FaceSprite" Value="조심하면서 나아가 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite1Stage3Dialogue1FaceSprite" Value="살았다～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue1FaceSprite" Value="구조 프로그램에 의해 구조되면,이곳으로 후송됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite2Stage1Dialogue2FaceSprite" Value="진～짜로 진～짜로,진～짜로,가스 조심하세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite3Stage1Dialogue1FaceSprite" Value="긴급한 상황이라 이 앞부터는,구조 프로그램에 의해,이곳으로 후송됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite3Stage1Dialogue2FaceSprite" Value="진～짜로,가스 조심하세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage1Dialogue1FaceSprite" Value="가스의 틈 사이로,지나갈 수가 없어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage1Dialogue2FaceSprite" Value="앞으로 가는 것 뿐 아니라,뒤로 돌아가는 것도,생각하는 게 좋겠네요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3Sprite4Stage3Dialogue1FaceSprite" Value="가스가 없으니까 공간이 널찍해서,살기 편하네요，여기." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue1FaceShanghai" Value="쿨럭 켁 켁!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue2FaceShanghai" Value="콜록.... 으으...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue3FaceShanghai" Value="쿨럭!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue4FaceShanghai" Value="에츄!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue5FaceShanghai" Value="케헥 켁 켁!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue6FaceShanghai" Value="흐읍!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage1Dialogue7FaceShanghai" Value="앗" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage3Dialogue1FaceShanghai" Value="으，으음...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas1Stage5Dialogue1FaceAlice" Value="독가스는 조심해야겠네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue1FaceShanghai" Value="쿨럭 켁 켁!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue2FaceShanghai" Value="콜록.... 으으...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue3FaceShanghai" Value="쿨럭!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue4FaceShanghai" Value="에츄!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue5FaceShanghai" Value="케헥 켁 켁!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue6FaceShanghai" Value="흐읍!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage1Dialogue7FaceShanghai" Value="앗" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage3Dialogue1FaceShanghai" Value="으，으음...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3PoisonGas4Stage5Dialogue1FaceAlice" Value="독가스는 조심해야겠네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue1FaceShanghai" Value="어차피 또 바이러스가,튀어나올 거 아냐!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue2FaceNone" Value="딸깍" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue3FaceNone" Value="#b@false#위#w@10#이#w@10#이#w@10#이#w@10#이#w@10#이#w@10#이#w@10#이#w@10#잉" Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue4FaceShanghai" Value="....허탕이었네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue5FaceAlice" Value="이러면 등록할 수 있겠어." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue6FaceAlice" Value="....좋아，등록 완료!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue7FaceShanghai" Value="엄청 빠른데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue8FaceAlice" Value="상하이한테만,모든 일을 맡길 순 없잖아." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage1Dialogue9FaceAlice" Value="자，서둘러 3층으로 가자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ControlStage3Dialogue1FaceNone" Value="공기청정기는,정상적으로 작동하고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue1FaceNaviBlueRobot" Value="당신이 의뢰를,수락해 준 분이군요?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue2FaceNaviBlueRobot" Value="설마 넷 에이전트 출신으로써,바이러스를 키우게 될 줄은,몰랐는데，참 난감하군요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue3FaceNaviBlueRobot" Value="이제는 이 세상에 없는,아내가 남긴 유산이라,함부로 다룰 수도 없죠." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue4FaceNaviBlueRobot" Value="하지만 먹이가 되는 버그의 조각을,제가 그렇게 많이,가지고 있지 않아요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue5FaceNaviBlueRobot" Value="부끄러운 소리지만，,전 카운터를 정말 못 칩니다.,연습은 하고 있지만...." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue6FaceNaviBlueRobot" Value="그래서 제가 버그의 조각을,자급자족할 수 있게 될 때까지,여유분이 필요한 겁니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue7FaceNaviBlueRobot" Value="숙달되는 속도를 보고,계산을 해 봤더니 100개가 있으면,충분할 겁니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue8QuestionFaceNaviBlueRobot" Value="버그의 조각을 100개,나누어 주십시오." Face="NaviBlueRobot" Mono="False" />
+  <Text Key="Map.AirCleaner3ClientStage1Dialogue8Options" Value="알겠어요,아직 없어요" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue9FaceNaviBlueRobot" Value="그렇군요.,준비가 됐다면,부탁드립니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue10FaceNaviBlueRobot" Value="흠?,버그의 조각을 100개를,가지고 계시지 않은 것 같네요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue11FaceNaviBlueRobot" Value="제가 드릴 건 전 가지고 있으니,개수가 모이면 저한테,와 주십시오." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue12FaceNaviBlueRobot" Value="네，확실하게 100개를,받았습니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue13FaceNaviBlueRobot" Value="보답으로 약속대로,10MB 분량의 레귤러 업을,드리죠." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue14FaceNaviBlueRobot" Value="놀라셨나요?,이건 넷 에이전트에게,지급되는 물품이랍니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage1Dialogue15FaceNaviBlueRobot" Value="저는 레귤러 칩에,의존하지 않고 싸우니까,저한텐 필요 없지만요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue1FaceNaviBlueRobot" Value="제 아내는 살아생전에,동물을 좋아했지만，체질 때문에,애완동물을 키울 수가 없었어요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue2FaceNaviBlueRobot" Value="그러다가 어느 새 어떻게 했는지,바이러스를 애완동물로써,키우고 있었고 말이죠." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue3FaceNaviBlueRobot" Value="이걸 장례식 때 밤샘하던,때가 되서야 알게 되다니,여러모로 남편 실격이군요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue4FaceNaviBlueRobot" Value="그렇기에 속죄의 의미로써,아내가 남긴 바이러스를,최대한 사랑하기로 했습니다." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.AirCleaner3ClientStage3Dialogue5FaceNaviBlueRobot" Value="물론 직장에는 비밀이지만요.,하하하...." Face="NaviBlueRobot" Mono="False" />
+</data>

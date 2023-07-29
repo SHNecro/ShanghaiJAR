@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.ExOmakeName" Value="체험판 보너스 맵" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして５連戦の戦いが行えます難易度☆ -->
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,5연전 챌린지가 가능합니다.,난이도☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra1Stage1Dialogue4Options" Value="예,아니오" />
+  <!-- ジョン -->
+  <Text Key="Map.ExOmakeExtra1Battle5Enemy1" Value="ジョン" />
+  <Dialogue Key="Map.ExOmakeExtra1Stage4Dialogue1FaceSprite" Value="축하합니다!,상품을 증정해 드리겠습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１０連戦の戦いが行えます難易度☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,10연전 챌린지가 가능합니다.,난이도☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra2Stage1Dialogue4Options" Value="예,아니오" />
+  <!-- アーク -->
+  <Text Key="Map.ExOmakeExtra2Battle10Enemy1" Value="アーク" />
+  <Dialogue Key="Map.ExOmakeExtra2Stage4Dialogue1FaceSprite" Value="축하합니다!,상품을 증정해 드리겠습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして５連戦の戦いが行えます難易度☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,5연전 챌린지가 가능합니다.,난이도☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra3Stage1Dialogue4Options" Value="예,아니오" />
+  <!-- アイン -->
+  <Text Key="Map.ExOmakeExtra3Battle1Enemy1" Value="아인" />
+  <!-- モニー -->
+  <Text Key="Map.ExOmakeExtra3Battle1Enemy2" Value="모니" />
+  <!-- ハヤヒデ -->
+  <Text Key="Map.ExOmakeExtra3Battle1Enemy3" Value="하야히데" />
+  <!-- ツヴァイ -->
+  <Text Key="Map.ExOmakeExtra3Battle2Enemy1" Value="츠바이" />
+  <!-- モニー -->
+  <Text Key="Map.ExOmakeExtra3Battle2Enemy2" Value="모니" />
+  <!-- ハヤヒデ -->
+  <Text Key="Map.ExOmakeExtra3Battle2Enemy3" Value="하야히데" />
+  <!-- ドライ -->
+  <Text Key="Map.ExOmakeExtra3Battle3Enemy1" Value="드라이" />
+  <!-- モニー -->
+  <Text Key="Map.ExOmakeExtra3Battle3Enemy2" Value="모니" />
+  <!-- ハヤヒデ -->
+  <Text Key="Map.ExOmakeExtra3Battle3Enemy3" Value="하야히데" />
+  <Dialogue Key="Map.ExOmakeExtra3Stage4Dialogue1FaceSprite" Value="축하합니다!,상품을 증정해 드리겠습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして８連戦の戦いが行えます難易度☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,8연전 챌린지가 가능합니다.,난이도☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra4Stage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.ExOmakeExtra4Stage4Dialogue1FaceSprite" Value="축하합니다!,상품을 증정해 드리겠습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１０連戦の戦いが行えます難易度☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,10연전 챌린지가 가능합니다.,난이도☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra5Stage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.ExOmakeExtra5Stage4Dialogue1FaceSprite" Value="축하합니다!,실력이 엄청나시군요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして７連戦の戦いが行えます難易度☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,7연전 챌린지가 가능합니다.,난이도☆☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra6-1Stage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.ExOmakeExtra6-1Stage4Dialogue1FaceSprite" Value="축하합니다!,실력이 엄청나시군요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして７連戦の戦いが行えます難易度☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,7연전 챌린지가 가능합니다.,난이도☆☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra6-2Stage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.ExOmakeExtra6-2Stage4Dialogue1FaceSprite" Value="축하합니다!,실력이 엄청나시군요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue1FaceNaviRedSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="NaviRedSprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１７連戦の戦いが行えます難易度☆☆☆☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue2FaceNaviRedSprite" Value="체험판 클리어 보너스로써,17연전 챌린지가 가능합니다.,난이도☆☆☆☆☆☆☆☆☆" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue3FaceNaviRedSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage1Dialogue4QuestionFaceNaviRedSprite" Value="도전하시겠습니까?" Face="NaviRedSprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra8Stage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage4Dialogue1FaceNaviRedSprite" Value="축하합니다!,실력이 엄청나시군요!" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage4Dialogue2FaceNaviRedSprite" Value="타이틀 화면에서,셀렉트 버튼을 누른 채로,R R L L R L L 커맨드" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra8Stage4Dialogue3FaceNaviRedSprite" Value="입력 시 적의 랭크가,2랭크 올라간 상태로,처음부터 시작할 수 있습니다." Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue1FaceSprite" Value="저는 이 체험판의,보너스 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- 体験版クリアのおまけとして１０連戦の戦いが行えます難易度☆☆☆☆☆☆☆ -->
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue2FaceSprite" Value="체험판 클리어 보너스로써,10연전 챌린지가 가능합니다.,난이도☆☆☆☆☆☆☆" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue3FaceSprite" Value="패배 시 게임 오버되므로,세이브를 미리 하시는 게,권장됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage1Dialogue4QuestionFaceSprite" Value="도전하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.ExOmakeExtra9Stage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.ExOmakeExtra9Stage4Dialogue1FaceSprite" Value="축하합니다!,실력이 엄청나시군요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue1FaceNaviRedSprite" Value="타이틀 화면에서,셀렉트 버튼을 누른 채로,L R L L R L R 커맨드" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue2FaceNaviRedSprite" Value="입력 시 적의 랭크가,1랭크 올라간 상태로,처음부터 시작할 수 있습니다." Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue3FaceNaviRedSprite" Value="타이틀 화면에서,셀렉트 버튼을 누른 채로,L L L R R R L R 커맨드" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue4FaceNaviRedSprite" Value="입력 시 유성의 록맨을,연상케 하는 애드온을,모두 가진 채 시작합니다." Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue5FaceNaviRedSprite" Value="타이틀 화면에서,셀렉트 버튼을 누른 채로,ＲＬＲＬＲＲＬ" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeExtra10Stage1Dialogue6FaceNaviRedSprite" Value="입력 시 최대 체력이 1이 되는,애드온을 가진 상태에서,게임을 시작합니다." Face="NaviRedSprite" Mono="False" />
+  <!-- シナリオの進行上戦う機会が少ないのでここにいます -->
+  <Dialogue Key="Map.ExOmakeYorihimeStage1Dialogue1FaceYorihime" Value="시나리오 진행 중에,싸울 기회가 많지 않아서,여기 있어요." Face="Yorihime" Mono="False" />
+  <!-- 鈴仙にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage1Dialogue1QuestionFaceShanghai" Value="레이센한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ExOmakeYorihimeBattleStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 手短に片付けろ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage1Dialogue2FaceReisen" Value="빠르게 끝내도록." Face="Reisen" Mono="False" />
+  <!-- イエス・マム -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage1Dialogue3FaceYorihime" Value="예스・맴." Face="Yorihime" Mono="False" />
+  <!-- ････あの時の勝負はマグレだったのか？ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage3Dialogue1FaceReisen" Value="....그 때는,우연히 이긴 거냐?" Face="Reisen" Mono="False" />
+  <!-- ヨリヒメが２度も敗北するとはな････ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage5Dialogue1FaceReisen" Value="요리히메가 2번이나,질 줄이야...." Face="Reisen" Mono="False" />
+  <!-- 民間人ごときにネットエージェントが負ける訳にはいかない -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage6Dialogue1FaceReisen" Value="민간인한테,넷 에이전트가,질 수는 없지." Face="Reisen" Mono="False" />
+  <!-- 全力でお相手します -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage6Dialogue2FaceYorihime" Value="전력을 다해 상대하겠습니다." Face="Yorihime" Mono="False" />
+  <!-- ････当然の結果だな -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage8Dialogue1FaceReisen" Value="....당연한 결과로군." Face="Reisen" Mono="False" />
+  <!-- この強さ････やはり本物か････ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage10Dialogue1FaceReisen" Value="이 힘은.... 역시 진짜로군...." Face="Reisen" Mono="False" />
+  <!-- 怖気づいたかそれとも････？ -->
+  <Dialogue Key="Map.ExOmakeYorihimeBattleStage11Dialogue1FaceReisen" Value="겁 먹었나?,아니면....?" Face="Reisen" Mono="False" />
+  <!-- ウツホ戦闘テスト -->
+  <Dialogue Key="Map.ExOmakeUtsuhoStage1Dialogue1FaceUtsuhoDark" Value="우츠호 전투 테스트" Face="UtsuhoDark" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ExOmakeUtsuhoStage1Dialogue2QuestionFaceUtsuhoDark" Value="," Face="UtsuhoDark" Mono="False" />
+  <!-- ウツホウツホSPウツホDS -->
+  <Text Key="Map.ExOmakeUtsuhoStage1Dialogue2Options" Value="우츠호,우츠호SP,우츠호DS,그만하기" />
+  <!-- ミマ -->
+  <!-- ヨウム戦闘テスト -->
+  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue1FaceNone" Value="요우무 전투 테스트" Face="Youmu" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ExOmakeYomuStage1Dialogue2QuestionFaceNone" Value="" Face="Youmu" Mono="False" />
+  <!-- ヨウムヨウムSPやめる -->
+  <Text Key="Map.ExOmakeYomuStage1Dialogue2Options" Value="요우무,요우무SP,그만하기" />
+  <!-- キクリ戦闘テスト -->
+  <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue1FaceNone" Value="키쿠리 전투 테스트" Face="KikuriHuman" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.ExOmakeKikuriStage1Dialogue2QuestionFaceNone" Value="" Face="None" Mono="False" />
+  <!-- キクリキクリHMやめる -->
+  <Text Key="Map.ExOmakeKikuriStage1Dialogue2Options" Value="키쿠리,키쿠리HM,그만하기" />
+  <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue1FaceNaviRedSprite" Value="여기서는,등장하는 적의 랭크를,늘릴 수 있습니다." Face="NaviRedSprite" Mono="False" />
+  <!-- 例：１ランク　V2→V3２ランク　V2→SP -->
+  <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue2FaceNaviRedSprite" Value="예시:,1 랭크 상향 시 V2→V3,2 랭크 상향 시 V2→SP" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue3NumsetFaceNaviRedSprite" Value="얼마나 랭크를 올리시겠습니까?" Face="NaviRedSprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeShanghaiDSStage1Dialogue1FaceNone" Value="상하이DS 전투 테스트" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue1FaceNone" Value="유유코 전투 테스트" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue2QuestionFaceNone" Value="" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue1FaceNone" Value="플랑드르 전투 테스트" Face="FlandreHidden" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue2QuestionFaceFlandreNormal" Value="" Face="FlandreHidden" Mono="False" />
+  <Text Key="Map.ExOmakeShanghaiDSStage1Dialogue2Options" Value="상하이DS,그만하기" />
+  <Text Key="Map.ExOmakeYuyukoStage1Dialogue2Options" Value="유유코,유유코SP,그만하기" />
+  <Text Key="Map.ExOmakeFlandreStage1Dialogue2Options" Value="플랑드르,플랑드르SP,그만하기" />
+  <Text Key="Map.ExOmakeDruidManBattleOptions" Value="드루이드맨,드루이드맨V3,드루이드맨SP,그만하기" />
+  <Dialogue Key="Map.ExOmakeDruidManBattleQuestion" Value="드루이드맨" Face="DruidMan" Mono="False" />
+  <Text Key="Map.ExOmakeMimaStage1Dialogue1QuestionOptions" Value="미마,그만하기" />
+  <Dialogue Key="Map.ExOmakeMimaStage1Dialogue1Question" Value="미마" Face="Mima" Mono="False" />
+  <Dialogue Key="Map.ExOmakeInteriorCodeGiverDialogue1" Value="체험판 보너스 맵의 워프의 위치를,옮기거나 없애고 싶으신 분들은,로또 코드 “21216128”" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue1" Value="보스나 개발중인 컨텐츠들은,다른 방으로 옮겨졌습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue2" Value="로또 코드 “19122018”을 입력하면,해당 컨텐츠들을 접할 수 있습니다.,스포일러에 주의해 주세요!" Face="Sprite" Mono="False" />
+</data>

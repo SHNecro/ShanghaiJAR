@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.RemihouseName" Value="レミリアの部屋" />
   <Dialogue Key="Map.RemihouseRemiliaStage1Dialogue1FaceRemilia" Value="あら　アリス,いらっしゃい！" Face="Remilia" Mono="False" />
@@ -139,6 +139,6 @@
   <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue2FaceNone" Value="「幼稚園ピアノコンクール金賞」,と書いてある" Face="None" Mono="False" />
   <Dialogue Key="Map.RemihouseCertificate3Stage1Dialogue3FaceNone" Value="幼稚園に通っていた頃に,貰ったものなのだろう" Face="None" Mono="False" />
   <Dialogue Key="Map.RemihouseRemiliaPostGameDialogue1" Value="あらいらっしゃいアリス,一緒に遊びましょ？" Face="Remilia" Mono="False" />
-  <Dialogue Key="Map.RemihousePianoStage1Dialogue3JackIn" Value="[I can jack in!]" Face="None" Mono="False" />
-  <Dialogue Key="Map.RemihousePianoStage2Dialogue2" Value="[Its surface has been spotlessly,polished，and it looks like it’s,been used recently.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage1Dialogue3JackIn" Value="プラグインできる！" Face="None" Mono="False" />
+  <Dialogue Key="Map.RemihousePianoStage2Dialogue2" Value="どうやら最近使ったらしく,全体的に鍵盤や細かい所まで,すっきりとしてる" Face="None" Mono="False" />
 </data>

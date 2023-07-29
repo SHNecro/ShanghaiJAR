@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ボーダーコンツェルン本社　廊下 -->
+  <Text Key="Map.Company1Name" Value="보더 콘체른 본사 복도" />
+  <!-- あ　あのロボット銃を持ってる！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage1Dialogue1FaceAlice" Value="저，저 로봇,총을 들고 있잖아!?" Face="Alice" Mono="False" />
+  <!-- 鈴仙　どうしたら････って -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue1FaceAlice" Value="레이센，어떻게 해야...." Face="Alice" Mono="False" />
+  <!-- 何を持ってるの！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue2FaceAlice" Value="아니 지금 뭘 들고 있는 거야!?" Face="Alice" Mono="False" />
+  <!-- 狙い良し････くらえっ！！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage3Dialogue3FaceReisen" Value="조준 상태 양호.... 발사!!" Face="Reisen" Mono="False" />
+  <!-- この手に限る -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue1FaceReisen" Value="제압 완료." Face="Reisen" Mono="False" />
+  <!-- 何をしてるの！？ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue2FaceAlice" Value="대체 뭐 하는 거야!?" Face="Alice" Mono="False" />
+  <!-- 「ATM-78小型ロケット砲」小さなパーツを組み立てて使う携帯性の高い････ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue3FaceReisen" Value="'ATM-78 소형 로켓 런처'다.,작은 부품들을 조립해서 쓰는,휴대성 좋은 로켓...." Face="Reisen" Mono="False" />
+  <!-- そうじゃなくて！！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue4FaceAlice" Value="아니 내 말은 그게 아니라!!" Face="Alice" Mono="False" />
+  <!-- あーもー････いちいちツッコむのもバカバカしくなってきた -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue5FaceAlice" Value="아오，됐어....,일일히 딴죽 거는 것도,못 해먹겠네...." Face="Alice" Mono="False" />
+  <!-- ひるんでいる暇はないぞこの先がエレベータールームだ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue6FaceReisen" Value="기 죽어 있을 틈 없어.,이 앞에 엘리베이터실이 있다." Face="Reisen" Mono="False" />
+  <!-- はいはい････シャンハイも頑張ろうね -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue7FaceAlice" Value="알았어，알았어....,상하이도 힘 내자고." Face="Alice" Mono="False" />
+  <!-- はーい！ -->
+  <Dialogue Key="Map.Company1Chapter7EventsStage5Dialogue8FaceShanghai" Value="알겠어!" Face="Shanghai" Mono="False" />
+</data>

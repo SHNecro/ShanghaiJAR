@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PhotoFrameName" Value="사진 프레임의 전뇌" />
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy1" Value="깡패형님" />
+  <!-- ボマー -->
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy2" Value="보머" />
+  <!-- モブナビ -->
+  <Text Key="Map.PhotoFrameTestSprite2Battle1Enemy3" Value="일반내비" />
+  <Dialogue Key="Map.PhotoFrameSprite1Stage1Dialogue1FaceSprite" Value="쿠마미 님은 아랍스탄에서,다양한 모험을,해 왔어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite1Stage1Dialogue2FaceSprite" Value="사막을 바다 마냥 헤엄치는 상어를,퇴치한다던지，폭주하는 거대,전차와도 싸우고，거기다가...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite2Stage1Dialogue1FaceSprite" Value="아랍스탄은 전뇌 전쟁의,과정에서 태어난 괴물들이,잔뜩 있답니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhotoFrameSprite2Stage1Dialogue2FaceSprite" Value="그리고 쿠마미 님은 그,괴물들과 맞서 싸웠다고 하네요.,대단하지 않나요?" Face="Sprite" Mono="False" />
+</data>

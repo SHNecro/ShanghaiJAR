@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.KumamiTankName" Value="전차의 전뇌" />
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy1" Value="깡패형님" />
+  <!-- ボマー -->
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy2" Value="보머" />
+  <!-- モブナビ -->
+  <Text Key="Map.KumamiTankTestSprite2Battle1Enemy3" Value="일반내비" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue1FaceSprite" Value="88mm 대포에 11mm 발칸포,거기에 미사일 런처까～지!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue2FaceSprite" Value="지금은 기능이 막혀 있습니다만,유사시에는 바로 발사됩니다!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite1Stage1Dialogue3FaceSprite" Value="투쾅! 투쾅!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite2Stage1Dialogue1FaceSprite" Value="저희들은 해치의,제어 스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.KumamiTankSprite2Stage1Dialogue2FaceSprite" Value="그렇기에 병기는 다른,스프라이트가 담당하지만,걔 요즘 뭐 하고 있을까요?" Face="Sprite" Mono="False" />
+</data>

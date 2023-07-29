@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Cruiser1fName" Value="호화 여객선의 전뇌 1" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue1FaceShanghai" Value="으악!,혹시 이거 전뇌세계가,물에 잠긴 거야!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue2FaceAlice" Value="그러면 헤엄쳐서 건너편으로,갈 수 있지 않을까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue3FaceShanghai" Value="멍청아!,나 수영 못 한다고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue4FaceShanghai" Value="그러니까 물 속으로 잠수하자,뭐 이런 말 하지 마!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fIntroEventStage1Dialogue5FaceAlice" Value="(나 그거 처음 알았는데....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue1FaceSprite" Value="이 앞에 있는 빨간 손잡이를 돌리면,전뇌 세계의 수위가,변화합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue2FaceSprite" Value="수영을 못 하신다면,물에 잠긴 곳에는,들어가지 않는 게 좋습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fSpriteStage1Dialogue3FaceSprite" Value="그렇지만 수위가 올라가면,물 위에 뜨는 것들이,발판이 될 지도 모르겠네요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve1Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve1Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve2Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve2Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve3Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve3Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve4Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1fValve4Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+</data>

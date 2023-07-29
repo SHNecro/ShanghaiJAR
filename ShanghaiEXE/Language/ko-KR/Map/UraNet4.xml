@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.UraNet4Name" Value="우라 인터넷 4" />
+  <Dialogue Key="Map.UraNet4ROMGateStage1Dialogue1FaceNone" Value="꺼림칙한 문이,길을 막고 있어서,지나갈 수가 없다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet4ROMGateStage3Dialogue1FaceNone" Value="상하이는,”ROM ID카드”를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet4ROMGateStage3Dialogue2FaceNone" Value="꺼림칙한 문이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue1" Value="여기는 길찾기 로직만 알면,그렇게 복잡한 장소는 아냐." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue2" Value="스퀘어로 향하고 싶어?,그러면 오른쪽，,또 오른쪽，왼쪽...." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue3" Value="....오른쪽 2번，그 다음 대각선,아무 쪽이나 컨베이어를 타고，,그 길로 쭉 가면 돼." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgameThugDialogue1" Value="공격력이 높은 칩이면,마냥 더 좋은 칩이라고,생각하는 사람들이 있어." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgameThugDialogue2" Value="그 피해를 주겠다고 일일히,세팅을 해야 한다던지，,하나하나 써야 한다면 의미가 없는데." Face="NaviPurpleHeel" Mono="False" />
+</data>

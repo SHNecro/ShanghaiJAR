@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- アリスの家 -->
+  <Text Key="Map.AlicehouseName" Value="앨리스의 집" />
+  <!-- 神綺家の食卓だ -->
+  <Dialogue Key="Map.AlicehouseTableStage1Dialogue1FaceNone" Value="신키네 가족의 식탁이다." Face="None" Mono="False" />
+  <!-- 食事の時以外は常にミカンが器に盛ってある -->
+  <Dialogue Key="Map.AlicehouseTableStage1Dialogue2FaceNone" Value="식사할 때 빼고 평소에는,귤이 담긴 그릇이 올려져 있다." Face="None" Mono="False" />
+  <!-- ママは朝の家事を終えた後ここでミカンを頬張りながらワイドショーを見るのだという -->
+  <Dialogue Key="Map.AlicehouseTableStage1Dialogue3FaceNone" Value="엄마는 아침식사가 끝나면,여기서 귤을 드시면서,와이드쇼를 보신다." Face="None" Mono="False" />
+  <!-- 棚の上にはママ特製のレシピ集が置いてある -->
+  <Dialogue Key="Map.AlicehouseKitchenTableStage1Dialogue1FaceNone" Value="선반 위에는 엄마 특제의,레시피집이 있다." Face="None" Mono="False" />
+  <!-- このレシピ集は神綺家に代々伝わるものらしく中の紙は色あせている -->
+  <Dialogue Key="Map.AlicehouseKitchenTableStage1Dialogue2FaceNone" Value="이 레시피집은 신키 가 대대로,전해져 내려오는 거라는 듯하며,안에 있는 종이는 색이 바랬다." Face="None" Mono="False" />
+  <!-- いつかこのレシピ集を受け継ぐ時が来ると思うと何かこみ上げるものがある -->
+  <Dialogue Key="Map.AlicehouseKitchenTableStage1Dialogue3FaceNone" Value="언젠가 이 레시피집을,이어받는 날이 올 거라 생각하면,뭔가 복받치는 게 있다." Face="None" Mono="False" />
+  <!-- 一見普通の観葉植物だがママがママの友達から貰ったなにか特別な植物らしい -->
+  <Dialogue Key="Map.AlicehouseFoliagePlantStage1Dialogue1FaceNone" Value="얼핏 보면 그냥 관엽식물이지만,엄마가 친구분한테서 받은,뭔가 특별한 식물이라는 듯하다." Face="None" Mono="False" />
+  <!-- 日当たりの良い場所を独占し短期間ですくすくと成長した -->
+  <Dialogue Key="Map.AlicehouseFoliagePlantStage1Dialogue2FaceNone" Value="햇빛이 잘 드는 장소를 독점하더니,짧은 시간 동안,무럭무럭 잘 자랐다." Face="None" Mono="False" />
+  <!-- 最近は伸びが少ないがコレが限界なのだろうかそれともまだ伸びるのだろうか -->
+  <Dialogue Key="Map.AlicehouseFoliagePlantStage1Dialogue3FaceNone" Value="요즘은 잘 안 자라는 것 같은데,여기까지가 한계인지,아니면 더 클 지는 모른다." Face="None" Mono="False" />
+  <!-- この観葉植物だけが答えを知っている････ -->
+  <Dialogue Key="Map.AlicehouseFoliagePlantStage1Dialogue4FaceNone" Value="그 답을 알고 있는 건,이 관엽식물 뿐이겠지...." Face="None" Mono="False" />
+  <!-- 超うす型の最新式テレビだ -->
+  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue1FaceNone" Value="엄청 얇은 최신형 TV이다." Face="None" Mono="False" />
+  <!-- テレビとしての機能だけでなく家中の電子機器を管理するコンパネの役目も果たす -->
+  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue2FaceNone" Value="TV로써의 기능뿐 아니라,집 안의 전자기기를 관리하는,컨트롤 패널의 역할도 한다." Face="None" Mono="False" />
+  <!-- もちろんメンテナンスや操作のためにプラグインできる -->
+  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue3FaceNone" Value="물론 메인터넌스나 조작 목적으로,플러그인도 할 수 있다." Face="None" Mono="False" />
+  <!-- しかしシャンハイがメンテナンスを面倒臭がって入ろうとしない -->
+  <Dialogue Key="Map.AlicehouseTVSetStage1Dialogue4FaceNone" Value="그렇지만 상하이가,메인터넌스를 귀찮아해서,들어가려 하질 않는다." Face="None" Mono="False" />
+  <!-- 超うす型の最新式テレビだ -->
+  <Dialogue Key="Map.AlicehouseTVSetStage3Dialogue1FaceNone" Value="엄청 얇은 최신형 TV이다." Face="None" Mono="False" />
+  <!-- テレビとしての機能だけでなく家中の電子機器を管理するコンパネの役目も果たす -->
+  <Dialogue Key="Map.AlicehouseTVSetStage3Dialogue2FaceNone" Value="TV로써의 기능뿐 아니라,집 안의 전자기기를 관리하는,컨트롤 패널의 역할도 한다." Face="None" Mono="False" />
+  <!-- もちろんメンテナンスや操作のためにプラグインできる -->
+  <Dialogue Key="Map.AlicehouseTVSetStage3Dialogue3FaceNone" Value="물론 메인터넌스나 조작 목적으로,플러그인도 할 수 있다." Face="None" Mono="False" />
+  <!-- 高性能冷蔵庫だ -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage1Dialogue1FaceNone" Value="고성능 냉장고이다." Face="None" Mono="False" />
+  <!-- 扉に付いている画面やボタンで中の温度や匂いの状態を知ったり､操作したりできる -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage1Dialogue2FaceNone" Value="문에 붙어 있는 화면 버튼으로,내부 온도나 탈취 상태를,알거나 조작할 수도 있다." Face="None" Mono="False" />
+  <!-- プラグインができるがシャンハイが寒がって入ろうとしない -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage1Dialogue3FaceNone" Value="플러그인할 수 있지만,상하이가 추워해서,들어가려 하질 않는다." Face="None" Mono="False" />
+  <!-- 高性能冷蔵庫だ -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage3Dialogue1FaceNone" Value="고성능 냉장고이다." Face="None" Mono="False" />
+  <!-- 扉に付いている画面やボタンで中の温度や匂いの状態を知ったり､操作したりできる -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage3Dialogue2FaceNone" Value="문에 붙어 있는 화면 버튼으로,내부 온도나 탈취 상태를,알거나 조작할 수도 있다." Face="None" Mono="False" />
+  <!-- プラグインができる！ -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorStage3Dialogue3FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <!-- ママにただいまくらい言ってもバチは当たらないんじゃない？ -->
+  <Dialogue Key="Map.AlicehouseToTheRoomStage1Dialogue1FaceShanghai" Value="엄마한테 ”다녀왔습니다”,한 마디 정도는,해 줘도 괜찮잖아?" Face="Shanghai" Mono="False" />
+  <!-- 天子は部屋にいるんじゃなかったっけ？ -->
+  <Dialogue Key="Map.AlicehouseToTheOutsideStage1Dialogue1FaceShanghai" Value="텐시는 방에 있지 않았나?" Face="Shanghai" Mono="False" />
+  <!-- ママの料理が作られる神綺家のキッチンだ -->
+  <Dialogue Key="Map.AlicehouseKitchenStage1Dialogue1FaceNone" Value="신키네 가족의 부엌이다.,엄마가 요리하시는 곳이다." Face="None" Mono="False" />
+  <!-- ママは毎日のように素晴らしい料理をこのキッチンで生みだしている -->
+  <Dialogue Key="Map.AlicehouseKitchenStage1Dialogue2FaceNone" Value="엄마는 매일같이,멋진 요리를 이 부엌에서,만들어 내신다." Face="None" Mono="False" />
+  <!-- おはよう　アリスちゃん朝ごはん食べる？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage1Dialogue1FaceMama" Value="일어났니，앨리스?,아침 먹을 거니?" Face="Mama" Mono="False" />
+  <!-- ごめんママ　時間がないから今日はパス！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage1Dialogue2FaceAlice" Value="죄송해요，엄마.,시간이 없어서 오늘은 넘길게요!" Face="Alice" Mono="False" />
+  <!-- もう　早起きはちゃんとしなくちゃダメよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage1Dialogue3FaceMama" Value="저런，아침에 빨리 일어나야지." Face="Mama" Mono="False" />
+  <!-- 今日もお出かけするの？最近元気いっぱいね〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage3Dialogue1FaceMama" Value="오늘도 밖에 나가니?,요즘 원기왕성하네～" Face="Mama" Mono="False" />
+  <!-- いってらっしゃい気をつけるのよ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage5Dialogue1FaceMama" Value="갔다 오렴.,밖에서는 조심하고～" Face="Mama" Mono="False" />
+  <!-- 今日はアリスちゃん大会に出るんだっけ？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage7Dialogue1FaceMama" Value="오늘 앨리스 대회 나간다고 했지?" Face="Mama" Mono="False" />
+  <!-- ママは行けないけどお家で応援してるからね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage7Dialogue2FaceMama" Value="엄마는 갈 수 없지만,집에서 응원하고 있을게!" Face="Mama" Mono="False" />
+  <!-- 今日もお友達とお出かけ？行ってらっしゃ〜い！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage9Dialogue1FaceMama" Value="오늘도 친구랑 밖에 나가니?,갔다 오렴～!" Face="Mama" Mono="False" />
+  <!-- お友達がケガをして入院しちゃったの？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage11Dialogue1FaceMama" Value="친구가 다쳐서 입원했다고?" Face="Mama" Mono="False" />
+  <!-- 心配ね････お見舞いに行ってあげるのよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter1Stage11Dialogue2FaceMama" Value="걱정되네....,병문안 한 번 가 주렴." Face="Mama" Mono="False" />
+  <!-- ママ　ただいま！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue1FaceAlice" Value="엄마，다녀왔습니다!" Face="Alice" Mono="False" />
+  <!-- あらアリスちゃん　おかえり今日は早かったのね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue2FaceMama" Value="어머，앨리스，어서 와.,오늘은 빨리 왔네?" Face="Mama" Mono="False" />
+  <!-- 帰って急いでやりたいことあるからね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue3FaceAlice" Value="와서 빨리 하고픈 게,있었으니까." Face="Alice" Mono="False" />
+  <!-- ところでその人は？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue4FaceAlice" Value="그런데 그 사람은 누구죠?" Face="Alice" Mono="False" />
+  <!-- マルキュー電器の人よ家電製品の点検を無料でしてくれるんだって -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue5FaceMama" Value="마루큐 전자 제품 회사 직원이야.,가전제품 점검을,무료로 해 준다는구나." Face="Mama" Mono="False" />
+  <!-- アリスちゃんも知ってるでしょ？冷蔵庫が暴走する事件のこと -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue6FaceMama" Value="앨리스도 알고 있지?,냉장고가 폭주하는 사건." Face="Mama" Mono="False" />
+  <!-- そういえば魔理が話してたわね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue7FaceAlice" Value="그러고 보면 마리도,그 말을 했었는데." Face="Alice" Mono="False" />
+  <!-- こんにちは　お嬢さん -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue8FaceCirnoOpFaceHidden" Value="안녕하세요，아가씨." Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- あの事件は外から侵入したウィルスが原因の事故と判明いたしました -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue9FaceCirnoOpFaceHidden" Value="그 사건은 외부에서 침입한,바이러스가 원인이 되어 발생한,사고라는 게 판명되었습니다." Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- だから予防のためにウィルスの対策プログラムを入れさせてもらってるんですよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue10FaceCirnoOpFaceHidden" Value="그래서 예방 목적으로,바이러스 백신 프로그램을,설치하는 중이에요." Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- ふーん････ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue11FaceShanghai" Value="흐～음...." Face="Shanghai" Mono="False" />
+  <!-- というわけでアリスちゃん悪いけど邪魔にならないようにお部屋で待っててね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue12FaceMama" Value="그래서 그런데 앨리스，,미안하지만 방해되지 않게,방에서 기다려 주렴." Face="Mama" Mono="False" />
+  <!-- ちょうどいいわねアリス　早くインターネットに行きましょう！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue13FaceShanghai" Value="마침 잘 됐네，앨리스.,빨리 인터넷에 들어가자!" Face="Shanghai" Mono="False" />
+  <!-- ええ　そうね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage1Dialogue14FaceAlice" Value="그래，그러자." Face="Alice" Mono="False" />
+  <!-- ママはこういうのって苦手だからプロにやってもらえるのは助かるわ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage3Dialogue1FaceMama" Value="엄마는 이런 거 잘 못 하니까,전문가가 대신 해 주면,도움 된다니까～" Face="Mama" Mono="False" />
+  <!-- アリスちゃーん！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage5Dialogue1FaceMama" Value="앨리스～!" Face="Mama" Mono="False" />
+  <!-- ママ　どうしたの！？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage5Dialogue2FaceAlice" Value="엄마，무슨 일이에요!?" Face="Alice" Mono="False" />
+  <!-- さっき電器会社の人が見てくれたのに　冷蔵庫がどうかしちゃったのよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage5Dialogue3FaceMama" Value="아까 전자제품 회사 직원분이,한 번 손 봐줬는데,냉장고가 어떻게 되어 버렸어!" Face="Mama" Mono="False" />
+  <!-- あー！！あたしのアイス！ウィルスに食われたかも！？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage5Dialogue4FaceShanghai" Value="으아악!! 내 아이스크림!,바이러스가 이미,먹어버린 거 아냐!?" Face="Shanghai" Mono="False" />
+  <!-- 冗談じゃないわ！アリス　冷蔵庫にプラグインよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage5Dialogue5FaceShanghai" Value="웃기지 말라고!,앨리스，냉장고에 플러그인해!" Face="Shanghai" Mono="False" />
+  <!-- もち！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage5Dialogue6FaceAlice" Value="당연!" Face="Alice" Mono="False" />
+  <!-- ごめんねママ　ナビ持ってなくて････ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage7Dialogue1FaceMama" Value="미안해.,엄마한테는 내비가 없어서...." Face="Mama" Mono="False" />
+  <!-- アリスちゃんありがとうね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage9Dialogue1FaceMama" Value="앨리스，고마워!" Face="Mama" Mono="False" />
+  <!-- でも、無茶はダメよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter2Stage9Dialogue2FaceMama" Value="그렇지만,무모한 짓은 하지 마렴!" Face="Mama" Mono="False" />
+  <!-- アリスちゃん！手が赤くなってる！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage1Dialogue1FaceMama" Value="앨리스! 손이 빨개졌잖아!" Face="Mama" Mono="False" />
+  <!-- 痛たた････さっきの冷気のせいね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage1Dialogue2FaceAlice" Value="아야야....,아까 그 냉기 때문인가 보네." Face="Alice" Mono="False" />
+  <!-- 私はまだ大丈夫！今はこれを何とかしないと！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage1Dialogue3FaceAlice" Value="난 아직 괜찮아!,지금은 이것부터 어떻게든,처리해야 해!" Face="Alice" Mono="False" />
+  <!-- あら　アリスちゃん幻想大学に見学に行くの？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage3Dialogue1FaceMama" Value="어머，앨리스,환상대학교에 견학 가니?" Face="Mama" Mono="False" />
+  <!-- 勉強熱心なのは嬉しいけど大学の人に迷惑かけちゃダメよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage3Dialogue2FaceMama" Value="공부에 열심이라니 기쁘긴 한데,대학교에 있는 사람들한테,폐는 끼치지 마렴." Face="Mama" Mono="False" />
+  <!-- アリスちゃん幻想大学はどうだった？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage5Dialogue1FaceMama" Value="앨리스，환상대학교는 어땠어?" Face="Mama" Mono="False" />
+  <!-- へえ　お隣さんの森近博士に会ったんだ　すごいね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage5Dialogue2FaceMama" Value="헤에，이웃집의 모리치카 박사님을,만나뵈었구나. 대단해!" Face="Mama" Mono="False" />
+  <!-- あら　アリスちゃん幻想大学は今日は休みだって -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage7Dialogue1FaceMama" Value="어머，앨리스.,환상대학교는 오늘 휴일이라고,하지 않았니?" Face="Mama" Mono="False" />
+  <!-- どうしたの？危ないことしちゃダメよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage7Dialogue2FaceMama" Value="무슨 일이니?,위험한 건 하지 마렴!" Face="Mama" Mono="False" />
+  <!-- お友達を　助けてあげたの？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage9Dialogue1FaceMama" Value="친구를 구해 줬니?" Face="Mama" Mono="False" />
+  <!-- さすがはアリスちゃんね！その行動力はあの人に似たのかしらね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage9Dialogue2FaceMama" Value="역시 우리 앨리스야!,그 행동력은 그이를,닮았나 보네!" Face="Mama" Mono="False" />
+  <!-- へえ！クラスに転校生が来たの？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage11Dialogue1FaceMama" Value="헤에!,반에 전학생이 왔다고?" Face="Mama" Mono="False" />
+  <!-- 新しいお友達と仲良くなれるといいね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage11Dialogue2FaceMama" Value="새 친구들이랑,사이가 좋아진다면 좋겠네!" Face="Mama" Mono="False" />
+  <!-- 行ってらっしゃい！気をつけるのよ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama1Chapter3Stage13Dialogue1FaceMama" Value="갔다 오렴!,밖에서는 조심하고～" Face="Mama" Mono="False" />
+  <!-- ここを　こうすれば問題ナシ　っと！ -->
+  <Dialogue Key="Map.AlicehouseWhiteRockStage1Dialogue1FaceCirnoOpFaceHidden" Value="이걸 이렇게 하면,문제 없다，이 말이지!" Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- フフフ････！ -->
+  <Dialogue Key="Map.AlicehouseWhiteRockStage1Dialogue2FaceCirnoOpFaceHidden" Value="후후후....!" Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- へぇー！じゃあもう転校生の子と仲良しになったんだ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage1Dialogue1FaceMama" Value="이야～!,그러면 벌써 그 전학생 애들이랑,사이가 좋아졌다는 거구나!" Face="Mama" Mono="False" />
+  <!-- 仲良くなったら意外と話し好きでね１時間も話しちゃったの！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage1Dialogue2FaceAlice" Value="사이가 좋아지니까 의외로,애가 이야기하는 걸 좋아해서,1시간 동안이나 이야기했어요!" Face="Alice" Mono="False" />
+  <!-- っていうことでいまあたしクタクタなのよねぇ････ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage1Dialogue3FaceShanghai" Value="그래서 그런지,지금 난 아주 흐물흐물해졌지만...." Face="Shanghai" Mono="False" />
+  <!-- あ　ゴメンね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage1Dialogue4FaceAlice" Value="아，미안." Face="Alice" Mono="False" />
+  <!-- はいはい　お疲れ様ベッドのシーツ洗濯したからふかふかになってるわよ〜！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage1Dialogue5FaceMama" Value="그래，그래，수고했어.,침대 시트 세탁해 놨으니까,많이 푹신푹신할 거야～!" Face="Mama" Mono="False" />
+  <!-- ありがとう　ママ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage1Dialogue6FaceAlice" Value="감사합니다，엄마!" Face="Alice" Mono="False" />
+  <!-- アリスちゃんは友達がいっぱいね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage3Dialogue1FaceMama" Value="앨리스는 친구가 참 많네." Face="Mama" Mono="False" />
+  <!-- 偉い偉い！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage3Dialogue2FaceMama" Value="좋은 거야!" Face="Mama" Mono="False" />
+  <!-- 旅行から帰ってきたアリスちゃん少し大人っぽい顔つきになった気がするわ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama3Chapter3Stage5Dialogue1FaceMama" Value="뭔가 앨리스，,여행 갔다 오니까 조금은,얼굴이 어른스러워진 것 같네." Face="Mama" Mono="False" />
+  <!-- あの子がこの前言ってた転校生なのね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4Chapter4Stage1Dialogue1FaceMama" Value="저 애가 이전에,네가 말한 전학생이구나." Face="Mama" Mono="False" />
+  <!-- 永遠町に行くの？車には気をつけるのよ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4Chapter4Stage3Dialogue1FaceMama" Value="영원 마을에 가니?,차 조심하고～" Face="Mama" Mono="False" />
+  <!-- おかえりなさい！永遠町は楽しかった？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4Chapter4Stage5Dialogue1FaceMama" Value="어서 오렴!,영원 마을은 어땠니?" Face="Mama" Mono="False" />
+  <!-- ････アリスちゃん危ないことはしちゃだめよ？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4Chapter4Stage7Dialogue1FaceMama" Value="....앨리스，,위험한 짓은 하지 마렴?" Face="Mama" Mono="False" />
+  <!-- ただいまー！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue1FaceAlice" Value="다녀왔습니다!" Face="Alice" Mono="False" />
+  <!-- おかえり！大会どうだった？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue2FaceMama" Value="어서 와!,대회는 어땠니?" Face="Mama" Mono="False" />
+  <!-- 聞いてママ！私　優勝したのよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue3FaceAlice" Value="이거 들어 봐요，엄마!,나 우승했어요!" Face="Alice" Mono="False" />
+  <!-- まあ！さすが　アリスちゃんはママとパパの子ね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue4FaceMama" Value="어머!,역시 우리 앨리스!,이 엄마랑 아빠 딸이야!" Face="Mama" Mono="False" />
+  <!-- それで　インゲレス行きのツアーチケットを賞品として貰ったんだけど････ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue5FaceAlice" Value="그래서 잉겔레스로 가는,투어 티켓을 상품으로 받았는데...." Face="Alice" Mono="False" />
+  <!-- あら！　海外旅行！？いいわね〜！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue6FaceMama" Value="어머! 해외 여행!?,잘 됐네～!" Face="Mama" Mono="False" />
+  <!-- いいわ　行ってらっしゃい！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue7FaceMama" Value="좋아，잘 갔다 오렴!" Face="Mama" Mono="False" />
+  <!-- アリスちゃんもパパみたいに自分の目と足で一度別の国をみるといいわ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue8FaceMama" Value="앨리스도 아빠처럼,자신의 눈과 다리로 한 번,다른 나라를 봐 보는 게 좋겠네." Face="Mama" Mono="False" />
+  <!-- ありがとう！　ママ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue9FaceAlice" Value="감사합니다，엄마!" Face="Alice" Mono="False" />
+  <!-- それで　そのツアーはいつ行くの？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue10FaceMama" Value="그래서 그 투어는 언제 가니?" Face="Mama" Mono="False" />
+  <!-- えーっと・・・・ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue11FaceAlice" Value="그게，어디 보자...." Face="Alice" Mono="False" />
+  <!-- 十日後ね思ったより早いわね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue12FaceAlice" Value="열흘 뒤네요.,생각했던 것보다 빠르네." Face="Alice" Mono="False" />
+  <!-- ちょうど次の連休なのねわかったわ！　準備ならママにおまかせ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue13FaceMama" Value="잘 됐네! 딱 다음 연휴철이구나.,좋아，알겠어!,준비는 이 엄마한테 맡기렴!" Face="Mama" Mono="False" />
+  <!-- アリスちゃんは今日は疲れたでしょ？ゆっくりお休み！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue14FaceMama" Value="앨리스 지금 많이 피곤하지?,느긋하게 쉬렴!" Face="Mama" Mono="False" />
+  <!-- はーい！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage1Dialogue15FaceAlice" Value="네～에!" Face="Alice" Mono="False" />
+  <!-- 大会で優勝するなんてアリスちゃんってすごいね！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage3Dialogue1FaceMama" Value="대회에서 우승이라니,앨리스 역시 대단해!" Face="Mama" Mono="False" />
+  <!-- じゃあママ行ってきます！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue1FaceAlice" Value="그러면 엄마，,다녀오겠습니다!" Face="Alice" Mono="False" />
+  <!-- いってらっしゃい！身体には気をつけるのよ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue2FaceMama" Value="잘 갔다 오렴!,몸 조심하고～" Face="Mama" Mono="False" />
+  <!-- 知らない人についていったりしちゃダメよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue3FaceMama" Value="모르는 사람 따라다니거나,하면 안 된단다!" Face="Mama" Mono="False" />
+  <!-- おサイフも大事にねそれからそれから････ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue4FaceMama" Value="지갑도 안 잃어버리게 조심하고,그리고 거기다...." Face="Mama" Mono="False" />
+  <!-- ママ　安心してあたしがついてるから -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue5FaceShanghai" Value="엄마，안심해.,내가 같이 가니까." Face="Shanghai" Mono="False" />
+  <!-- ････そうねシャンハイちゃんが一緒なら安心ね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue6FaceMama" Value="....그래，상하이가 같이 가면,안심이겠네." Face="Mama" Mono="False" />
+  <!-- 私　信用されてないのかなあ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue7FaceAlice" Value="뭔가 나 신용받지 못하는 건가." Face="Alice" Mono="False" />
+  <!-- 愛されてるだけよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue8FaceShanghai" Value="사랑받는 것 뿐이야." Face="Shanghai" Mono="False" />
+  <!-- 行ってきまーす -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage5Dialogue9FaceShanghai" Value="다녀오겠습니다～" Face="Shanghai" Mono="False" />
+  <!-- 港まではどう行くんだっけ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage7Dialogue1FaceAlice" Value="항구까지는 어떻게 가야 했더라?" Face="Alice" Mono="False" />
+  <!-- 中央街東区の駅から幻想線の列車に乗って港に行くのよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage7Dialogue2FaceShanghai" Value="중앙가 동구의 역에서,환상선 열차를 타면,항구로 갈 수 있어." Face="Shanghai" Mono="False" />
+  <!-- 幻想線の駅ってゲームセンターの横にあったよね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage7Dialogue3FaceAlice" Value="환상선의 역은,게임 센터 옆에 있었지." Face="Alice" Mono="False" />
+  <!-- しばらく日本には戻れないんだから買い物とかは忘れずにね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage7Dialogue4FaceShanghai" Value="얼마 동안 일본에는 못 돌아올,테니까 잊지 말고 가기 전에,챙길 거 다 챙기자." Face="Shanghai" Mono="False" />
+  <!-- あれ　どうしたの？忘れ物？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage9Dialogue1FaceMama" Value="어라，무슨 일이니?,잊어버린 거라도 있니?" Face="Mama" Mono="False" />
+  <!-- ママ　ただいまー！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage11Dialogue1FaceAlice" Value="다녀왔습니다，엄마!" Face="Alice" Mono="False" />
+  <!-- おかえりなさい　アリス！インゲレスはどうだった？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage11Dialogue2FaceMama" Value="어서 오렴，앨리스!,잉겔레스는 어땠어?" Face="Mama" Mono="False" />
+  <!-- いろいろなことがあったの！ママ　聞いてあのね････！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage11Dialogue3FaceAlice" Value="다양한 일들이 있었어요!,엄마，들어 봐요，글쎄....!" Face="Alice" Mono="False" />
+  <!-- ふぅ！話し疲れちゃった！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage13Dialogue1FaceAlice" Value="후우!,피곤하다!" Face="Alice" Mono="False" />
+  <!-- ３時間も話してたらそりゃあ疲れるわよね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage13Dialogue2FaceShanghai" Value="3시간씩이나 이야기했으니까,당연히 지칠 만도 하지." Face="Shanghai" Mono="False" />
+  <!-- あんたも私も身体くったくただし今日は早く寝ましょう -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage13Dialogue3FaceShanghai" Value="우리 둘 다 완전히,너덜너덜해졌으니까,오늘은 빨리 자러 가자." Face="Shanghai" Mono="False" />
+  <!-- はーい！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage13Dialogue4FaceAlice" Value="그러자!" Face="Alice" Mono="False" />
+  <!-- アリス　メールが来たわよ！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama4AfterTheTournamentStage15Dialogue1FaceShanghai" Value="앨리스，메일이 왔어!" Face="Shanghai" Mono="False" />
+  <!-- キュキュっとね〜♪ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage1Dialogue1FaceAlice" Value="뽀득 뽀득 뽀득～♪" Face="Alice" Mono="False" />
+  <!-- 皿洗いのお手伝いなんて珍しいわね -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage1Dialogue2FaceShanghai" Value="설거지를 도와준다니,의외네，앨리스." Face="Shanghai" Mono="False" />
+  <!-- 失礼ね！お手伝いくらいたまにやってるわよ！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage1Dialogue3FaceAlice" Value="어디서 실례되는 소리를!,집안일 도와주는 것쯤이야,나도 가끔은 하거든!" Face="Alice" Mono="False" />
+  <!-- アリスちゃんありがと〜助かるわ〜 -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage1Dialogue4FaceMama" Value="앨리스，고마워～,덕분에 엄마도 도움받네～" Face="Mama" Mono="False" />
+  <!-- ピンポーン -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage3Dialogue1FaceNone" Value="딩동" Face="None" Mono="False" />
+  <!-- はーい！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage3Dialogue2FaceMama" Value="네～!" Face="Mama" Mono="False" />
+  <!-- あっ！　おばさんこんにちは！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue1FaceTenshi" Value="아! 아줌마，안녕하세요!" Face="Tenshi" Mono="False" />
+  <!-- アリスいますかー？ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue2FaceTenshi" Value="앨리스 있나요～?" Face="Tenshi" Mono="False" />
+  <!-- アリスちゃんね？ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue3FaceMama" Value="앨리스 말이니?" Face="Mama" Mono="False" />
+  <!-- アリスちゃーん！お友達が来たわよー！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue4FaceMama" Value="앨리스～!,친구가 왔단다～!" Face="Mama" Mono="False" />
+  <!-- ママ、もうすぐ皿洗い終わるから私の部屋に案内しておいてー！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue5FaceAlice" Value="엄마，곧 있으면 설거지 끝나니까,제 방으로 걔 안내해 주세요!" Face="Alice" Mono="False" />
+  <!-- アリスちゃんはすぐ来るからあそこのお部屋で待っててね -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue6FaceMama" Value="앨리스는 좀 있으면 올 거니까,저기 있는 방에서 기다리렴." Face="Mama" Mono="False" />
+  <!-- わーい！お邪魔しま〜す！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage5Dialogue7FaceTenshi" Value="예～에!,실례할게요 그러면～!" Face="Tenshi" Mono="False" />
+  <!-- ママー皿洗い終わったよー -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue1FaceAlice" Value="엄마，설거지 다 끝났어요～." Face="Alice" Mono="False" />
+  <!-- アリスちゃんありがとう！ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue2FaceMama" Value="고마워，앨리스!" Face="Mama" Mono="False" />
+  <!-- 訪ねてきた友達ってどんな子だった？ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue3FaceAlice" Value="찾아온 애는,어떤 애였나요?" Face="Alice" Mono="False" />
+  <!-- 青い髪の女の子だったわ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue4FaceMama" Value="머리 색이 파란 여자애였어." Face="Mama" Mono="False" />
+  <!-- 青い髪････天子ね遊びに来たのかな？ -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue5FaceAlice" Value="파란 머리.... 텐시구나.,놀러 왔나?" Face="Alice" Mono="False" />
+  <!-- 会って確認すればいいじゃない -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue6FaceShanghai" Value="가서 확인해 보면 되잖아." Face="Shanghai" Mono="False" />
+  <!-- それもそうね -->
+  <Dialogue Key="Map.AlicehouseChapter4EventsStage7Dialogue7FaceAlice" Value="그것도 그렇네." Face="Alice" Mono="False" />
+  <!-- ママ　呼んだ？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue1FaceAlice" Value="엄마，불렀나요?" Face="Alice" Mono="False" />
+  <!-- アリスちゃん　今いいかな？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue2FaceMama" Value="앨리스，지금 시간 되니?" Face="Mama" Mono="False" />
+  <!-- 今ゲンソウスクエアで通販するとお米が安いんだって！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue3FaceMama" Value="지금 환상 스퀘어에서,통판 주문하면 쌀을 싸게,팔 수 있다는구나!" Face="Mama" Mono="False" />
+  <!-- だから私に買う手続きをやって　････ってことねわかったわ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue4FaceAlice" Value="그러니까 나한테 그걸,통판 주문해 달라.... 이거죠?,알겠어요." Face="Alice" Mono="False" />
+  <!-- さすがアリスちゃん！頼りになるわ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue5FaceMama" Value="역시나 앨리스!,의지가 된다니까～" Face="Mama" Mono="False" />
+  <!-- ほんと　ママって機械に弱いんだから････ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue6FaceAlice" Value="정말 엄마는,기계에 너무 약하시다니까...." Face="Alice" Mono="False" />
+  <!-- だって　わからないことはアリスちゃんがやってくれるんだもん！ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue7FaceMama" Value="그도 그럴 게 잘 모르는 건,앨리스가 다 해 주니까!" Face="Mama" Mono="False" />
+  <!-- それじゃあ　任せたわよ〜 -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue8FaceMama" Value="그러면 부탁할게～" Face="Mama" Mono="False" />
+  <!-- あんたも大変ねアリス -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue9FaceShanghai" Value="너도 참 큰일이다，앨리스." Face="Shanghai" Mono="False" />
+  <!-- ママのおつかいくらいなんてことないわよ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue10FaceAlice" Value="엄마의 심부름 정도야,별 거 아니잖아." Face="Alice" Mono="False" />
+  <!-- それじゃあインターネットにプラグインしましょう -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage1Dialogue11FaceAlice" Value="그러면 인터넷에 플러그인하자." Face="Alice" Mono="False" />
+  <!-- お米　お願いね -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage3Dialogue1FaceMama" Value="쌀 파는 거 부탁할게." Face="Mama" Mono="False" />
+  <!-- インターネットで事件があったって聞いたけれどアリスちゃん大丈夫？ -->
+  <Dialogue Key="Map.AlicehouseKamikyokuMama7Stage5Dialogue1FaceMama" Value="인터넷에서 무슨 사건이,일어났다는 것 같은데,앨리스，괜찮아?" Face="Mama" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseIce1Stage1Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseIce2Stage1Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseIce3Stage1Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseIce4Stage1Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseIkariRefrigeratorStage1Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseRefrigeratorDoorStage1Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- きゃぁあああ！！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage1Dialogue1FaceMama" Value="꺄아아아아아!!" Face="Mama" Mono="False" />
+  <!-- シャンハイ！？シャンハイどうしたの！？ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage1Dialogue2FaceAlice" Value="상하이!?,상하이，어떻게 된 거야!?" Face="Alice" Mono="False" />
+  <!-- ウフフフ････ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage3Dialogue1FaceNone" Value="우후후후...." Face="None" Mono="False" />
+  <!-- 誰っ！？ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue1FaceAlice" Value="누구야!?" Face="Alice" Mono="False" />
+  <!-- フフフ　ナビを呼んでも無駄よ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue2FaceCirnoOpFaceHidden" Value="후후후，내비를 불러 봐야,아무 소용 없어!" Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- あなた　マルキュー電器の！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue3FaceAlice" Value="넌 아까 마루큐 전자 제품,회사 직원이잖아!" Face="Alice" Mono="False" />
+  <!-- それはあなた達を騙す仮の姿････そしてその正体は！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue4FaceCirnoOpFaceHidden" Value="그건 너희들을 속이려고,꾸민 위장이야....,그리고 그 정체는!" Face="CirnoOpFaceHidden" Mono="False" />
+  <!-- 天下のROMのオペレーター様ってわけよ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue5FaceCirnoOpFaceShownLetty" Value="천하의 ROM의,오퍼레이터 님이다 이거야!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- あれだけの冷気に包まれればナビなんて永久にフリーズ！もうデリートも同然よ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue6FaceCirnoOpFaceShownLetty" Value="그 정도의 냉기에 휩싸이면,내비 따위는 영구적으로 얼어버려!,딜리트된 거나 마찬가지!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- 今までの冷蔵庫事件もあなたの仕業だって言うのね！？ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue7FaceAlice" Value="지금까지 일어난 냉장고 사건도,전부 네가 저질렀다는 거야!?" Face="Alice" Mono="False" />
+  <!-- あら　勘のいいお子様ね -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue8FaceCirnoOpFaceShownLetty" Value="어머，꼬맹이가 감이 참 좋구나." Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- そうよ！　今までの事件もこの私、白岩レティのナビが引き起こしたものなのよ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue9FaceCirnoOpFaceShownLetty" Value="그래! 지금까지의 사건도,바로 나，시로이와 레티의,내비가 일으킨 거야!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- 残念だけど　もうすぐ冷蔵庫はフルパワーになってそのお家凍りづけになっちゃうから！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage5Dialogue10FaceCirnoOpFaceShownLetty" Value="안 됐지만 머지않아 냉장고가,풀 파워로 가동되면서 그 집을,통째로 얼려 버릴 거야!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- あ！　こら！・・・・切られたわ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage7Dialogue1FaceAlice" Value="앗! 야!,・・・・전화가 끊어졌어." Face="Alice" Mono="False" />
+  <!-- とにかくこの氷をなんとかして溶かさなくちゃ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage7Dialogue2FaceAlice" Value="일단 어떻게든 이 얼음을,녹여야 하는데!" Face="Alice" Mono="False" />
+  <!-- 何か氷を溶かす道具････何か････　何か････！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage7Dialogue3FaceAlice" Value="뭔가 얼음을 녹일 수 있는 도구....,뭔가 없을까.... 진짜 뭐 없나....!" Face="Alice" Mono="False" />
+  <!-- そう　確か魔理が････！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage7Dialogue4FaceAlice" Value="맞아，분명히 마리가....!" Face="Alice" Mono="False" />
+  <!-- 空気中の水分が凍ってできた氷だ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage9Dialogue1FaceNone" Value="공기 중의 수분이 얼어서,만들어진 얼음이다." Face="None" Mono="False" />
+  <!-- 魔理がくれたこの融雪剤なら！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage11Dialogue1FaceAlice" Value="마리가 준 이 제설제라면!" Face="Alice" Mono="False" />
+  <!-- よし　氷がちょっとだけ溶けた！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage13Dialogue1FaceAlice" Value="좋아，얼음이 조금 녹았어!" Face="Alice" Mono="False" />
+  <!-- シャンハイ！応答してシャンハイ！！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage13Dialogue2FaceAlice" Value="상하이!,말해 봐，상하이!!" Face="Alice" Mono="False" />
+  <!-- やったわね　シャンハイ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue1FaceAlice" Value="해냈구나，상하이!" Face="Alice" Mono="False" />
+  <!-- 痛た････ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue2FaceAlice" Value="아야...." Face="Alice" Mono="False" />
+  <!-- 大変、手のところが凍傷にかかってる！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue3FaceMama" Value="큰일이야.,손 부분에 동상이 걸렸어!" Face="Mama" Mono="False" />
+  <!-- さっきまで冷蔵庫の近くでオペレートしてたからね････ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue4FaceAlice" Value="아까 전까지 냉장고 가까이서,오퍼레이트했으니까...." Face="Alice" Mono="False" />
+  <!-- アリスちゃんママが手当してあげるね -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue5FaceMama" Value="앨리스，엄마가 치료해 줄게." Face="Mama" Mono="False" />
+  <!-- い、いいわよ････ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue6FaceAlice" Value="괘，괜찮아요...." Face="Alice" Mono="False" />
+  <!-- 恥ずかしがってないでここは素直に甘えておきなさい -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue7FaceShanghai" Value="소심하게 나오지 말고,지금은 솔직하게 치료를 받아." Face="Shanghai" Mono="False" />
+  <!-- あたしたちナビと違って、人間のあんたはダメージがすぐ回復するわけじゃないんだから -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage15Dialogue8FaceShanghai" Value="우리 내비랑 달리,인간인 넌 피해를 금방,회복할 수 있는 게 아니잖아." Face="Shanghai" Mono="False" />
+  <!-- ････じゃあ、ママお願いするわ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage17Dialogue1FaceAlice" Value="....그러면，엄마，부탁드릴게요." Face="Alice" Mono="False" />
+  <!-- ほんっと、素直じゃないんだから -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage19Dialogue1FaceShanghai" Value="정말이지，솔직하지 못 하다니까." Face="Shanghai" Mono="False" />
+  <!-- あたしが言えた義理じゃない、か -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage19Dialogue2FaceShanghai" Value="내가 이런 말할 상황은,못 되지만." Face="Shanghai" Mono="False" />
+  <!-- はい　これで大丈夫！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage21Dialogue1FaceMama" Value="좋아，이제 괜찮아!" Face="Mama" Mono="False" />
+  <!-- ありがとう　ママ！ -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage21Dialogue2FaceAlice" Value="감사합니다，엄마!" Face="Alice" Mono="False" />
+  <!-- アリスちゃんが無事ならママはそれでいいのよ〜 -->
+  <Dialogue Key="Map.AlicehouseUnusualIceStage21Dialogue3FaceMama" Value="앨리스가 무사하다면,엄마는 그걸로 됐어～" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.AlicehousePostGameMamaDialogue1" Value="오늘도 날씨 좋네.,저녁 전까지는 돌아오렴?" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.AlicehousePostGameMamaDialogue2" Value="....말은 이렇게 해도,앨리스도 벌써,어른이 다 됐으니...." Face="Mama" Mono="False" />
+</data>

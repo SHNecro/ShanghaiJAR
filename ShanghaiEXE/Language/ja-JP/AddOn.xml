@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <Text Key="Addon.ShortPink" Value="ピンク" />
   <Text Key="Addon.ShortSkyBlue" Value="水色" />
@@ -140,20 +140,20 @@
   <Text Key="AddOn.LostLightDesc" Value="敵が見えず,炎ダメージが倍に,なってしまう" />
   <Text Key="AddOn.UnShuffleName" Value="アンシャッフル" />
   <Text Key="AddOn.UnShuffleDesc" Value="戦闘でフォルダが,シャッフルされず,順番に出てくる" />
-  <Text Key="AddOn.FudouMyoouName" Value="[Statue]" />
-  <Text Key="AddOn.FudouMyoouDesc" Value="[No movement]" />
-  <Text Key="AddOn.HeavyFootName" Value="[HvyFoot]" />
-  <Text Key="AddOn.HeavyFootDesc" Value="[Crack panels,underneath.]" />
+  <Text Key="AddOn.FudouMyoouName" Value="フドウミョウオウ" />
+  <Text Key="AddOn.FudouMyoouDesc" Value="十字キーで,移動ができなく,なってしまう！" />
+  <Text Key="AddOn.HeavyFootName" Value="ヘビーフット" />
+  <Text Key="AddOn.HeavyFootDesc" Value="移動でヒビが,発生し　空を,飛べなくなる" />
   <Text Key="AddOn.MassatuSlipName" Value="マッサツマサツ" />
   <Text Key="AddOn.MassatuSlipDesc" Value="常に足が滑り,雷ダメージが倍に,なってしまう" />
-  <Text Key="AddOn.BuraiStyleName" Value="[Loner]" />
-  <Text Key="AddOn.BuraiStyleDesc" Value="[No Navi chips]" />
+  <Text Key="AddOn.BuraiStyleName" Value="ブライスタイル" />
+  <Text Key="AddOn.BuraiStyleDesc" Value="ナビチップが,入れられなくなる,孤独のアドオン" />
   <Text Key="AddOn.NoGuardName" Value="ノーガード" />
   <Text Key="AddOn.NoGuardDesc" Value="ダメージ時に,無敵にならず,バリア使用不能" />
-  <Text Key="AddOn.MeltingthName" Value="[MeltSelf]" />
-  <Text Key="AddOn.MeltingthDesc" Value="[Attack damage is,halved. Weak to,Aqua attacks]" />
+  <Text Key="AddOn.MeltingthName" Value="メルティングス" />
+  <Text Key="AddOn.MeltingthDesc" Value="すべての攻撃が,常に半減になり,水ダメージ２倍" />
   <Text Key="AddOn.ChipSizeMinusName" Value="チップサイズ-１" />
-  <Text Key="AddOn.ChipSizeMinusDesc" Value="[Folders hold one,less copy of,standard chips]" />
+  <Text Key="AddOn.ChipSizeMinusDesc" Value="同じチップを,入れられる数が,１枚減る！" />
   <Text Key="AddOn.CustomPainName" Value="カスタムペイン" />
   <Text Key="AddOn.CustomPainDesc" Value="カスタム画面を,開くたびに,５０ダメージ" />
   <Text Key="AddOn.PonkothuBusterName" Value="ポンコツバスター" />
@@ -182,10 +182,10 @@
   <Text Key="AddOn.CRepairDesc" Value="チャージショットが,リペアに,変化する！" />
   <Text Key="AddOn.CShotGunName" Value="Cショットガン" />
   <Text Key="AddOn.CShotGunDesc" Value="チャージショットが,ショットガンに,変化する！" />
-  <Text Key="AddOn.ScavengerName" Value="[Salvage]" />
-  <Text Key="AddOn.ScavengerDesc" Value="[Allow choice,of lower-rank,rewards!]" />
-  <Text Key="AddOn.SacrificeName" Value="[Equalizr]" />
-  <Text Key="AddOn.SacrificeDesc" Value="[Strengthen allies,against strong,enemies!]" />
-  <Text Key="AddOn.MammonName" Value="[Mammon]" />
-  <Text Key="AddOn.MammonDesc" Value="[Punishments for,taking too many,chips!]" />
+  <Text Key="AddOn.ScavengerName" Value="スカベンジャー" />
+  <Text Key="AddOn.ScavengerDesc" Value="得たランクより,低いランクを選べる,コード特化アドオン" />
+  <Text Key="AddOn.SacrificeName" Value="レベルドウキカ" />
+  <Text Key="AddOn.SacrificeDesc" Value="相手が強いほど,味方の仲間達も,同じく強くなる！" />
+  <Text Key="AddOn.MammonName" Value="マモン" />
+  <Text Key="AddOn.MammonDesc" Value="チップをいっぺんに,多くスロットイン,すると不利を招く！" />
 </data>

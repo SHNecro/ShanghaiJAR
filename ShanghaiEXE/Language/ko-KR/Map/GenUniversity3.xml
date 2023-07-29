@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity3Name" Value="환상대학교 3층" />
+  <Dialogue Key="Map.GenUniversity3ElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3ElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity3ElevatorStage1Dialogue2Options" Value="1층,2층,안 탄다" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue1FaceNone" Value="휴게실 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue2FaceNone" Value="오래 앉아 있을 의자가,아니어서 그런지는 몰라도,묘하게 딱딱하고 착석감이 별로다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair1Stage1Dialogue3FaceNone" Value="....의자 아래쪽에 뭔가가,떨어져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair2Stage1Dialogue1FaceNone" Value="휴게실 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chair2Stage1Dialogue2FaceNone" Value="오래 앉아 있을 의자가,아니어서 그런지는 몰라도,묘하게 딱딱하고 착석감이 별로다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="3층은 관계자 외에는,들어오면 안 되는 곳이야." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter3OlderSisterStage1Dialogue2FaceFemaleAdult" Value="그런데 가끔씩 어린애들이,관계자들이랑 같이,와 버리는 경우가 있기도 해." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Chapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="실험 결과가 나올 때까지,시간이 좀 걸리니까,한 숨 돌리고 있어." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Request11WhiteCoatStage1Dialogue1FaceScientist" Value="양복 입은 남자라고?" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3Request11WhiteCoatStage1Dialogue2FaceScientist" Value="아까 전까지 있었는데,환상 마을이 어쩐다 하면서,어디론가 갔는데." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3PostGameBystander1Dialogue1" Value="이전에 거기 있는 의자 아래에,누군가가 뭘 떨어뜨렸는데,그새 누가 그걸 주워갔나?" Face="Scientist" Mono="False" />
+</data>

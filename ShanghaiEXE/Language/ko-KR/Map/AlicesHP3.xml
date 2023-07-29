@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.AlicesHP3Name" Value="대기실" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down1Stage1Dialogue1FaceNaviPurplePunk" Value="굳이 이런 방까지,만들어 주셨는데,이런 말 하기도 좀 그렇지만...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down1Stage1Dialogue2FaceNaviPurplePunk" Value="솔직히 이 방，,과분합니다...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down2Stage1Dialogue1FaceNaviPurplePunk" Value="좀 더 뭔가,이 방의 활용 방법을 생각해야,좀 덜 아까울 텐데요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down3Stage1Dialogue1FaceNaviPurplePunk" Value="다른 사람들은 지금 다,밖에 있어요. 상하이 씨께서,부르면 달려오겠지만요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down4Stage1Dialogue1FaceNaviPurplePunk" Value="우라에 있는 사람들은 바이러스를,길들이는 기술을,가지고 있다던가 하네요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Chapter1Down4Stage1Dialogue2FaceNaviPurplePunk" Value="바이러스를 키울 수 있다면,재미있겠네요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3VirusManagementMachineStage1Dialogue1FaceNone" Value="포획한 바이러스의,관리 프로그램이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3Servant1Stage1Dialogue1FaceNaviPurplePunk" Value="바이러스 보살피는 건,저희들한테 맡겨 주세요!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue1FaceHenchie" Value="누님，이게 바이러스를,관리하는 기재입니다." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue2FaceHenchie" Value="바이러스 볼 안에 든 걸,맡겨서 비워야 바이러스를,새로 잡을 수 있으니까요." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BookerStage1Dialogue3FaceHenchie" Value="바이러스는 잔뜩 맡길 수 있으니,계속 포획해 나가죠!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3TestSpriteStage1Dialogue1FaceSprite" Value="플러그온" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue1FaceSprite" Value="저는 홈페이지의,벽지를 판매하는,스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue2FaceSprite" Value="당신의 홈페이지의,벽지를 이 에리어의 벽지로,바꿔 드립니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue3FaceSprite" Value="벽지 교체 비용은,0 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="벽지를 바꾸시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue6FaceSprite" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3WallpaperSpriteStage1Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant1Stage1Dialogue1FaceNaviPurplePunk" Value="오～그래 그래.,윤기 나게 닦아 줄게." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3LeikannonStage1Dialogue1FaceNone" Value="잘 닦여져서 기쁜 건지,포 안쪽에서 철컥 철컥 하는,소리가 울린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant2Stage1Dialogue1FaceNaviPurplePunk" Value="적으로 나오면 무섭지만,이렇게 동료가 되면,참 귀엽단 말이죠，얘네들." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3KedamaStage1Dialogue1FaceNone" Value="편안한 듯,복슬복슬하게 털을 떨고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant3Stage1Dialogue1FaceNaviPurplePunk" Value="그래，그래.,많이 먹으렴～" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3GanbattaStage1Dialogue1FaceNone" Value="움직이지 않는 것 같아 보이지만,버그의 조각을 먹고 있는 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant4Stage1Dialogue1FaceNaviPurplePunk" Value="얘 붙임성 있고,참 귀여워요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3GelParkStage1Dialogue1FaceNone" Value="팔괘로 껍데기를 들어올려서,검은색의 탱글탱글한 부분으로,부비적대고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant5Stage1Dialogue1FaceNaviPurplePunk" Value="이렇게 바이러스랑 서로,마음이 통하는 것도 신선하네요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BronzerStage1Dialogue1FaceNone" Value="그 자리에서 작게,춤 추듯 움직이고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant6Stage1Dialogue1FaceNaviPurplePunk" Value="얘는 턱 주변을,손가락으로 어루만져 주면,참 좋아해요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FlyanaStage1Dialogue1FaceNone" Value="가끔씩 냐아～ 하고 울면서,느긋하게 있는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant7Stage1Dialogue1FaceNaviPurplePunk" Value="쓰다듬어 주려 했더니,얘가 날 할짝할짝 핥네요...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FaintStage1Dialogue1FaceNone" Value="만지면 서늘한 감이 들고,피부 겉표면이 탱탱하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant8Stage1Dialogue1FaceNaviPurplePunk" Value="아～ 시원해～" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FujianStage1Dialogue1FaceNone" Value="머리의 이파리 같은 부분을,하늘하늘하게 흔들고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant9Stage1Dialogue1FaceNaviPurplePunk" Value="칼날 부분을,닦아 주는 게 낫지 않을까?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3DanBeetleStage1Dialogue1FaceNone" Value="프리즈의 조각을,우적우적 먹고 있는 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant10Stage1Dialogue1FaceNaviPurplePunk" Value="지그읏이...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3VivyatButtStage1Dialogue1FaceNone" Value="큰 눈으로 지긋이 건너편을,지켜보고 있다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant11Stage1Dialogue1FaceNaviPurplePunk" Value="피리 불면 구멍에서 나오도록,재주를 익히게 해 볼까?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3HolneyekStage1Dialogue1FaceNone" Value="목 주변에 있는 안전판이,기쁜 듯 빙빙 돌아가고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant12Stage1Dialogue1FaceNaviPurplePunk" Value="애가 배가 고픈 걸까?,으음，잘 모르겠네." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ReverStage1Dialogue1FaceNone" Value="사아악 사아악 하고,모래로 소음을 만들어서,무언가를 말하려 하는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant13Stage1Dialogue1FaceNaviPurplePunk" Value="이거 나 마실 술이야!,....그래도 조금만이라면,줘도 괜찮겠지?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PucciniStage1Dialogue1FaceNone" Value="술병이 몹시 가지고 싶다는 듯,계속 술병을 바라보고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant14Stage1Dialogue1FaceNaviPurplePunk" Value="아니 잠깐....,필요 없는데 그렇다고 안 받으면,괜히 미안해지는데." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3JunksStage1Dialogue1FaceNone" Value="정크 데이터를,선물하려 하는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CareOfServant15Stage1Dialogue1FaceNaviPurplePunk" Value="나한테 충성을 맹세해도,곤란한데...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3RansterStage1Dialogue1FaceNone" Value="창을 우뚝 곤두세우고,충성을 맹세하는 것처럼 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant16Stage1Dialogue1FaceNaviPurplePunk" Value="얘한테 물 줘도 괜찮나?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PoisolinStage1Dialogue1FaceNone" Value="구불구불하게 흔들리고 있다.,춤을 추고 있는 걸지도 모른다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant17Stage1Dialogue1FaceNaviPurplePunk" Value="얘가 어딜 보고 있는지,전혀 모르겠단 말이지." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ReveilerStage1Dialogue1FaceNone" Value="눈 같은 부분이 데굴데굴,움직이고 있는 것 같아 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant18Stage1Dialogue1FaceNaviPurplePunk" Value="이 녀석 광택 나는 거 보소." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ZaliniaStage1Dialogue1FaceNone" Value="입에서 보글보글 하는 소리와,함께 거품이 일고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant19Stage1Dialogue1FaceNaviPurplePunk" Value="완고해 보이는 것 치고는,뭔가 고양이 같아 보임다." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MassDriverStage1Dialogue1FaceNone" Value="턱을 쓰다듬어 주자 그르릉대면서,느긋한 소리를 내고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant20Stage1Dialogue1FaceNaviPurplePunk" Value="아～ 시원하다～" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3ScrewStage1Dialogue1FaceNone" Value="부～웅 하고 돌아가면서,시원한 바람을 내고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant21Stage1Dialogue1FaceNaviPurplePunk" Value="얘의 배리어는,뭘로 이루어져 있지?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BarzardStage1Dialogue1FaceNone" Value="목에 두른 배리어를 회전시키면서,꼬리를 흔들면서 기뻐하고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant22Stage1Dialogue1FaceNaviPurplePunk" Value="참 멋있게 생겼어요，이 녀석.,농담 아니라 진짜 간지 나요!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3SodogStage1Dialogue1FaceNone" Value="덥수룩한 털을,늠름하게 휘날리고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant23Stage1Dialogue1FaceNaviPurplePunk" Value="이거 괜찮을까....,물거나 하지 않겠지....?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MantiserStage1Dialogue1FaceNone" Value="세 개의 눈이 꺼림칙하게,반짝이고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant41Stage1Dialogue1FaceNaviPurplePunk" Value="얘를 팔 위에 앉혀 놓고,날리거나 해 보고 싶네요." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3OnohawkStage1Dialogue1FaceNone" Value="부리로 딱딱 소리를 내면서,먹이를 달라고 하고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant24Stage1Dialogue1FaceNaviPurplePunk" Value="이 녀석 밥 먹기는 하나?,먹는다 해도 어디로 먹지?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3FlowerTank2Stage1Dialogue1FaceNone" Value="포탑을 조금씩 좌우로 돌리면서,감정을 표현하는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant25Stage1Dialogue1FaceNaviPurplePunk" Value="절묘한 온도의 바람이,정말 기분이 좋슴다." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BraCoolerStage1Dialogue1FaceNone" Value="산들산들하면서 상쾌한,바람이 불어 오고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant26Stage1Dialogue1FaceNaviPurplePunk" Value="하하하!,움직이는 거 웃겨!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3DripperStage1Dialogue1FaceNone" Value="우호적인 표현의 춤을,구불구불하게 추고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant27Stage1Dialogue1FaceNaviPurplePunk" Value="얘 등 뒤에 타고,날아다닌다던가,하지 않을까요?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3JuragonStage1Dialogue1FaceNone" Value="온화한 표정으로 한가로이,느긋하게 있는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant28Stage1Dialogue1FaceNaviPurplePunk" Value="이 녀석의 꼬리는 대체....,어디에 연결되어 있는 거야?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3BananaStage1Dialogue1FaceNone" Value="웃는 얼굴 그대로 하늘하늘하게,조용히 흔들리고 있다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant29Stage1Dialogue1FaceNaviPurplePunk" Value="얘가 변해서 나온 지장보살은,어떤 은혜 같은 걸,베풀어 주기는 할까요?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3PompocoStage1Dialogue1FaceNone" Value="나뭇잎으로 된 꼬리를 흔들면서,모자를 고쳐쓰는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant30Stage1Dialogue1FaceNaviPurplePunk" Value="사실 전 벌레가 싫슴다...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MosaStage1Dialogue1FaceNone" Value="무언가를 호소하려는 듯이,입을 계속 움직이고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3CarefulServant31Stage1Dialogue1FaceNaviPurplePunk" Value="뭔가 명령을 내리면,얘네들이 들어줄까요?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.AlicesHP3MushaStage1Dialogue1FaceNone" Value="무사 하면 생각나는,충성스러운 포즈를 유지한 채,가만히 있다." Face="None" Mono="False" />
+  <!-- こいつが掘った後の土ってウワサによると電脳園芸に適しているんですって -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant32Stage1Dialogue1FaceNaviPurplePunk" Value="소문대로라면 얘가 파고 난,땅은 전뇌 원예에 딱,적합한 땅이 된다네요." Face="NaviPurplePunk" Mono="False" />
+  <!-- 小さな触腕をピコピコと動かして感情表現をしているようだ -->
+  <Dialogue Key="Map.AlicesHP3IkariStage1Dialogue1FaceNone" Value="작은 촉수를 찔끔찔끔하게,움직여서 감정 표현을,하고 있는 것 같다." Face="None" Mono="False" />
+  <!-- 何を伝えようとしているのかわからないんですがとりあえずエサ与えましょうか？ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant33Stage1Dialogue1FaceNaviPurplePunk" Value="뭘 말하려고 하는 건지는,모르겠는데 일단 먹이를 줄까요?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 身体の周りにある土をペタペタと叩き固めている -->
+  <Dialogue Key="Map.AlicesHP3PanemallStage1Dialogue1FaceNone" Value="자기 주변에 있는 흙을,탁탁 두드려서 굳히고 있다." Face="None" Mono="False" />
+  <!-- まとっている木の葉をたまにかき混ぜてやると喜ぶんですよこいつ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant34Stage1Dialogue1FaceNaviPurplePunk" Value="두르고 있는 낙엽을 가끔씩,휘휘 뒤섞어 주면,얘가 참 좋아해요." Face="NaviPurplePunk" Mono="False" />
+  <!-- 時折そよ風を出して木の葉をくるくると宙で回転させている -->
+  <Dialogue Key="Map.AlicesHP3CoyoteStage1Dialogue1FaceNone" Value="가끔씩 약하게 바람을 일으켜,나뭇잎들을 빙글빙글,공중에서 회전시키고 있다." Face="None" Mono="False" />
+  <!-- 貝の中ってどうなっているのか知りたいんですけど知るのが怖いんですよね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant35Stage1Dialogue1FaceNaviPurplePunk" Value="껍데기 안이 어떻게 생겼는지,알고 싶은데 그걸 아는 게,더 무섭네요." Face="NaviPurplePunk" Mono="False" />
+  <!-- ハサミで掴んだエサをカリカリと音を立てながら食べているようだ -->
+  <Dialogue Key="Map.AlicesHP3ShelrunStage1Dialogue1FaceNone" Value="집게로 집은 먹이를,아삭아삭 하는 소리와 함께,먹고 있는 것 같다." Face="None" Mono="False" />
+  <!-- いやあコイツがいればいつでも花見ができますね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant36Stage1Dialogue1FaceNaviPurplePunk" Value="이야，얘가 있다면,언제든 꽃구경 할 수 있겠네요." Face="NaviPurplePunk" Mono="False" />
+  <!-- シャカシャカと電脳桜を振って小さな桜吹雪を出している -->
+  <Dialogue Key="Map.AlicesHP3BowsStage1Dialogue1FaceNone" Value="전뇌 벚꽃을 휙휙 휘둘러서,작은 벚꽃 바람을 내고 있다." Face="None" Mono="False" />
+  <!-- ダメ元で「お手」を教えたらこいつ覚えたみたいなんですよ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant37Stage1Dialogue1FaceNaviPurplePunk" Value="어떻게든 되겠지 하고,”손!”을 가르쳐 줬는데，,얘가 그걸 배웠나 봐요." Face="NaviPurplePunk" Mono="False" />
+  <!-- 角をピカピカ光らせながらパチパチと放電の音を鳴らしている -->
+  <Dialogue Key="Map.AlicesHP3RaijunStage1Dialogue1FaceNone" Value="뿔을 반짝반짝하게 빛내면서,찌릿찌릿 하는 방전음을,내고 있다." Face="None" Mono="False" />
+  <!-- こいつを数匹並べてぜひともカエルの歌を輪唱させたいですね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant38Stage1Dialogue1FaceNaviPurplePunk" Value="얘 몇 마리 나란히 세워 놓고,개구리 노래를 돌림노래,시켜보고 싶네요." Face="NaviPurplePunk" Mono="False" />
+  <!-- 喉のあたりを膨らませてゲコゲコと鳴き声をあげている -->
+  <Dialogue Key="Map.AlicesHP3GekoHutsuStage1Dialogue1FaceNone" Value="목 주변을 부풀려서,개굴 개굴 하는,울음소리를 내고 있다." Face="None" Mono="False" />
+  <!-- コイツが鳴いたらだいたい定時上がりの時間なんですよね -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant39Stage1Dialogue1FaceNaviPurplePunk" Value="얘가 우는 시간이,대략 정시 퇴근 시간이라죠." Face="NaviPurplePunk" Mono="False" />
+  <!-- 凛々しい眼差しで静かにじっと見つめている -->
+  <Dialogue Key="Map.AlicesHP3FreyaStage1Dialogue1FaceNone" Value="늠름한 눈빛으로,조용히 지긋이 주시하고 있다." Face="None" Mono="False" />
+  <!-- 電脳目薬をしてやるとすごく喜ぶんですよコイツ -->
+  <Dialogue Key="Map.AlicesHP3CarefulServant40Stage1Dialogue1FaceNaviPurplePunk" Value="전뇌안약을 좀 투여해 주면,얘가 정말 좋아한답니다." Face="NaviPurplePunk" Mono="False" />
+  <!-- 大きな瞳を震わせて目薬を堪能しているようだ -->
+  <Dialogue Key="Map.AlicesHP3IvilEyeStage1Dialogue1FaceNone" Value="큰 눈을 떨면서,안약을 양껏 즐기는 것 같다." Face="None" Mono="False" />
+</data>

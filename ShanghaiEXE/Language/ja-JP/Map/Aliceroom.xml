@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- アリスの部屋 -->
   <Text Key="Map.AliceroomName" Value="アリスの部屋" />
@@ -874,29 +874,29 @@
   <Dialogue Key="Map.AliceroomHospitalEventStage1Dialogue1FaceShanghai" Value="アリス　メールが,来ているわよ！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage1Dialogue1" Value="アリス　電話よ！,鈴仙から" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue1" Value="もしもし　鈴仙？" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue2" Value="神綺アリス,傷はもういいのか？" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue2" Value="神綺アリス,体の調子は大丈夫か？" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue3" Value="うん　もう大丈夫,何か用事？" Face="Alice" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue4" Value="ネットエージェントから,お前の腕を見込んでの,正式な依頼だ" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue5" Value="各地でバラまかれている,ダークチップの元締め,「闇の女王」討伐を頼みたい" Face="Reisen" Mono="False" />
-  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue6" Value="女の人っていうことは,わかっているのね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue6" Value="「闇の女王」ってダサい名前ね" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue7" Value="女の人っていうことは,わかっているのね" Face="Alice" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue8" Value="名付けたのは上司だ,私ではない" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue9" Value="あたしみたいなの以外には,ダークチップは超有毒だから,潰したい気持ちはわかるわ" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue10" Value="でも　そういうのこそ,ネットエージェントの方が,解決に向いていると思うけど" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue11" Value="闇の女王について,我々では情報を集めるのが,厳しいのだ" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue11" Value="闇の女王について,我々では情報を集めるのが,厳しいんだ" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue12" Value="なにせ通常の方法では,アクセスできないウラの深部に,いるとされているからな････" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue13" Value="ウラの情報を集めるのに,エージェントは向いてないわよね,嫌われてるし" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue14" Value="ウラに精通しているお前たちなら,スムーズにことを運ばせることが,できるだろう" Face="Reisen" Mono="False" />
-  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue15" Value="でもねぇ～あたしたちってほら,世界救ったばかりだし？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue15" Value="でもねぇ～あたしたちってほら,世界救ったばかりでしょう？,まだ体がかなり凝るよねぇ" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue16" Value="････討伐報酬として,２００万ゼニーを出すと,言っているが？" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue17" Value="わかったわ,さあアリス　情報を集めるわよ！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue18" Value="はいはい････" Face="Alice" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue1" Value="でも　なんの情報もなしに,調べるのはさすがに,骨が折れるわね" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue2" Value="闇の女王そのものの,情報は知らないが情報を,知っている者ならばアテがある" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue2" Value="闇の女王そのものの,情報は無いが、情報を,知っている者ならばアテがある" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue3" Value="眉唾ものの情報だが,天国のような電脳世界に,すべてを知る者がいるだとか" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue4" Value="天国ねぇ････,とりあえず覚えておきましょうか" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue5" Value="それじゃあ　任務開始！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue6" Value="困っている友達を,助けるつもりで頑張るわ" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue7" Value="頼んだぞ,私は別件でインゲレスの,悪党を追っている" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue7" Value="頼んだぞ,私は別件でインゲレスで,用意者を追っている" Face="Reisen" Mono="False" />
   <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue8" Value="私に用があるなら,インゲレスを訪ねてくるといい" Face="Reisen" Mono="False" />
 </data>

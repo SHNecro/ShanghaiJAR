@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 海底ケーブルの電脳 -->
+  <Text Key="Map.UnderCableName" Value="해저 케이블의 전뇌" />
+  <!-- セカイジュウガ　インターネットデツナガッテイルノハコノ　ケーブルノ　オカゲデス -->
+  <Dialogue Key="Map.UnderCableSprite1Stage1Dialogue1FaceSprite" Value="전세계가 인터넷으로,연결되어 있는 건,이 해저 케이블 덕입니다." Face="Sprite" Mono="False" />
+  <!-- セカイガ　ケーブルデツナガッテルッテナンカ　スゴイデスヨネ -->
+  <Dialogue Key="Map.UnderCableSprite1Stage1Dialogue2FaceSprite" Value="세계가 케이블로,연결되어 있다니,뭔가 엄청 대단해 보이네요." Face="Sprite" Mono="False" />
+  <!-- カイテイケーブルノ　レキシハ１９セイキニ　サカノボルトカ -->
+  <Dialogue Key="Map.UnderCableSprite2Stage1Dialogue1FaceSprite" Value="해저 케이블의 역사는,19세기까지 거슬러 올라간다네요." Face="Sprite" Mono="False" />
+  <!-- １９セイキッテ　イウノハニホンダト　エドジダイカラメイジジダイノ　アタリデスヨ -->
+  <Dialogue Key="Map.UnderCableSprite2Stage1Dialogue2FaceSprite" Value="19세기라고 하면,아마 일본이 에도 시대에서,메이지 시대 사이일 때겠네요." Face="Sprite" Mono="False" />
+</data>

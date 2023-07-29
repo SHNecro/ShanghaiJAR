@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PartytableName" Value="파티 테이블의 전뇌" />
+  <Dialogue Key="Map.PartytableTable1Stage1Dialogue1FaceNone" Value="고급 전뇌 요리가 차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable2AStage1Dialogue1FaceNone" Value="고급 전뇌 요리가 차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable3Stage1Dialogue1FaceNone" Value="고급스러운 디저트가,차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable3Stage1Dialogue2FaceNone" Value="한 입 먹었다가는,분명 그 맛에,사로잡혀 버리겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable4Stage1Dialogue1FaceNone" Value="입식 파티라서 테이블에 의자가,따로 준비되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable4Stage1Dialogue2FaceNone" Value="계속 서 있다면 지치겠지만,맛있는 요리를 먹고 있다면,신경 안 쓰게 되겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable5Stage1Dialogue1FaceNone" Value="접시에 놓여 있는 칠면조에서,구수한 향이 난다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable5Stage1Dialogue2FaceNone" Value="무심코 입에 침이 고이다 못해,입 밖으로 흐르게 된다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable6Stage1Dialogue1FaceNone" Value="접시에 놓여 있는 칠면조에서,구수한 향이 난다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable6Stage1Dialogue2FaceNone" Value="무심코 입에 침이 고이다 못해,입 밖으로 흐르게 된다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable7Stage1Dialogue1FaceNone" Value="고급 전뇌 요리가 차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableTable8Stage1Dialogue1FaceNone" Value="고급 전뇌 요리가 차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.PartytableSprite1Stage1Dialogue1FaceSprite" Value="넷 내비 여러분도,맛있는 요리를 드세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PartytableSprite2Stage1Dialogue1FaceSprite" Value="저희 스프라이트들도,맛있는 요리를 먹고 싶네요～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="이거 참，너무나도 좋은,전뇌 요리로군.,과분할 정도야." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="이렇게 맛있는 요리를,너무 많이 먹어서 살이 찌지 않을까,걱정이 되네." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi3Stage1Dialogue1FaceNaviOrangeMale" Value="전뇌 와인은,양조 시대 같은 게 없긴 해." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.PartytableMobNavi4Stage1Dialogue1FaceNaviChild" Value="테이블이 높아서,먹기 힘들어～" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage1Dialogue1FaceNaviPurplePunk" Value="서둘러 서둘러...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage3Dialogue1FaceNaviPurplePunk" Value="좋아 좋아...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage5Dialogue1FaceNaviPurplePunk" Value="확실하게 잘 채워 넣으라고.,전뇌 플라스틱 컨테이너에,한가득 말이야!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage7Dialogue1FaceNaviPurplePunk" Value="으헤헤.... 이렇게나,고급 요리가 많이 있다면,얼마 동안은 거하게 즐기겠네!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage7Dialogue2FaceNaviPurplePunk" Value="컨테이너에 고급요리,채워넣기 대작전이라니!,이거 진짜 대단한데!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage9Dialogue1FaceNaviPurplePunk" Value="상하이 님의 넷배틀이 끝났어!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage9Dialogue2FaceNaviPurplePunk" Value="더 늦기 전에 남은 거 다 쓸어담아!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.PartytableServantEventStage11Dialogue1FaceNaviPurplePunk" Value="가즈아!" Face="NaviPurplePunk" Mono="False" />
+</data>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ホワイトヘブンエリア１ -->
+  <Text Key="Map.HeavenNet1Name" Value="화이트 헤븐 에리어 1" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue1" Value="여기는...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue3" Value="에～.... 에에에～,에취!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue4" Value="벛나무가 너무 많아서 코가....,미안，앨리스，무슨 말 했어?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue5" Value="아니，아무 말도 안 했는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue6" Value="그럼 빨리 우리가 찾는 걸,찾고 빨리 여길 뜨자.,코가 또 근질근질거려...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.1" Value="이런 우라 속 깊은 곳에,정원이라니.... 대체 누가,이런 곳에 정원을....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2" Value="여기는.... 정원?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1FirstEnteredAutoEventStage1Dialogue2.2" Value="....상하이?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue1" Value="배리어 앞에 메시지가,띄워져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage1Dialogue1" Value="배리어 앞에 메시지가,공중에 새겨져 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage1Dialogue2" Value="이 문을 열 수 있는 자는,”어떤 의문이라도 답을 제시할,수 있는 현자”뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage1Dialogue3Question" Value="코드를 입력해 주십시오." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue1" Value="아니 이제 뭐 어쩌라고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue2" Value="여기 죽 치고 앉아서,다섯자리 수를 일일히 입력하는,미친 짓은 하고 싶지 않아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue3" Value="”어떤 의문이라도 답을 제시할,수 있는 현자”라고 했지....?,상하이，혹시 이거...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue4" Value="....그 할아버지 말하는 거야?,가능성은 있긴 해. 아니라 해도,찾아가 봐서 손해볼 건 없고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage2Dialogue5" Value="일단 여길 나와서 그 할아버지를,만나서 이야기해 보자.,가자，앨리스." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage3Dialogue1" Value="....상하이，아무리 그래도 그건--" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage3Dialogue2" Value="정답!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage3Dialogue3" Value="이런 간단한 코드는 너도나도,다 쓰는 코드 중 하나야.,너 모르고 있었지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage3Dialogue4" Value="혹시 다른 누군가의 서류가방,같은 걸 열 기회가 오면 이 코드,쓰면 한 방에 열릴 지도 몰라!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage3Dialogue5" Value="애초에 다른 사람의 소유물을,함부로 여는 것 자체가,문제잖아!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue1" Value="...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue2" Value="괜찮아，상하이?,무슨 하고 싶은 말이라도 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue3" Value="아니.,빨리 여기 관리자인가 뭔가 하는,놈을 만나러 가자." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaDoorStage4Dialogue4" Value="이야기하고픈 게 상당히 많거든....,그것도 직접，말야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock1Dialogue1" Value="그냥 평범한 바위다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock1Dialogue2" Value="세밀하게 금간 거나 균열 등이,너무도 현실적이다. 아예 현실의,바위를 가져온 건 아니겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock2Dialogue1" Value="길고 기울어진 바위다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandRock2Dialogue2" Value="앉기에는 경사가 너무 가파른데,그렇다고 등을 기대기에는,경사가 너무 완만하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SandTree1Dialogue1" Value="이 굳센 나무는 모래에 뒤덮인,약간의 흙만 가지고 어떻게든,살아 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue1" Value="모래에 바위밖에 안 보이는데.,무슨 관광명소도 아니고.,그 이전에 사람이나 있긴 해?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue2" Value="사람이라기보다는 지성체라,부르는 게 더 낫겠지만 말야.,솔직히 이 장소는...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue3" Value="누군가가 관리를 하고 있으니까,이런 모습을 하고 있는 거겠지?,더 안쪽에 있을 지도 모르고." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventIntroDialogue4" Value="있으면 좋긴 하겠지만.,가 볼까，앨리스." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue1" Value="상하이，저거 사람 아냐?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue2" Value="드디어 찾았다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue3" Value="야，거기 너!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue4" Value="그래，그래，너!,여기 관리자가 누군지 알아?,그 놈하고 이야기하고 싶은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue5" Value="으르르르그르르르...." Face="Ghost" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue6" Value="뭘 으르렁대고 있어?,험한 꼴 보고 싶어? 뭣하면,주먹다짐 좀 나눠 볼까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue1" Value="!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue2" Value="또 한 놈...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventEncounterDialogue8" Value="상하이!,갑자기 그렇게 싸움 거는 건...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue3" Value="야，인마! 뭐 하는 거야!,사람이 이야기를 하려고 하는데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue4" Value="뭣이?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue5" Value="또 한 놈!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue6" Value="그냥 넘어갈 거라고,생각하지 마라!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue7" Value="멍청이 아냐!?,본 적도 없는 내비한테,갑자기 싸움을 걸다니 말야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue8" Value="네놈들 따위가,이곳에서 저지른 짓을,후회하게 해 주마!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue9" Value="또 공격해 올 기세야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue10" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue11" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterDialogue12" Value="반동강을 내 주겠다!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue1" Value="또 덤빌려고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue2" Value="크윽!,네놈，이번에야말로--" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue3" Value="그쯤 하면 충분해，요우무." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue4" Value="유유코 님!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue5" Value="앨리스랑 상하이지?,어서 오렴，,화이트 헤븐 에리어에." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue6" Value="너희들이 올 거라는 걸,요우무한테 전해 준다는 걸,잊어버렸지 뭐니. 아하하!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue7" Value="이게 웃고 넘길 이야기냐고!,난 아까 전에 반동강이,날 처지였었단 말야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue8" Value="내 방에서 사정을 이야기해 줄게.,물어보고 싶은 게,상당히 많겠지?" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue9" Value="돌아가자，요우무!,이 냄새로 보건대 오늘 저녁은,삶은 겔파크 같은데." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue10" Value="....알겠습니다，유유코 님." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue11" Value="저 칼잡이도 그렇고,멍청한 척 하는 놈도 그렇고,벌써부터 마음에 안 드네!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue12" Value="좀만 더 참자，상하이.,....그래서 저 내비의 방이,이 안쪽에 있다는 거지?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue13" Value="아오，제길...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1MidAreaEventYoumuEncounterEndDialogue10.5" Value="야!,아직 이야기는 안 끝났--!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorStdChips1" Value="이 문을 열 수 있는 자는,”이 세계의 모든 무기를 가진 자”,뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorSPBounty1" Value="이 문을 열 수 있는 자는,”모든 괴물을 두려워하지 않고,사냥하는 헌터” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorRequest1" Value="이 문을 열 수 있는 자는,”사람들의 고민을 해결해 주는,해결사” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorStdProgramAdvances1" Value="이 문을 열 수 있는 자는,”자신의 무기의 진정한 가능성을,끌어낸 혁명가” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorEnemyNavis1" Value="이 문을 열 수 있는 자는,”자신의 적을 모두 잿더미로,만든 복수자” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorZenny1" Value="이 문을 열 수 있는 자는,”너무 많이 가져서 더는 아무것도,원치 않는 황금률의 이해자” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorAllyNavis1" Value="이 문을 열 수 있는 자는,”친구들와의 우정이 깊은,진정한 벗” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorAllLinkGates1" Value="이 문을 열 수 있는 자는,”먼 대지까지의 길을 연 개척자”,뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorStoryKey1" Value="이 문을 열 수 있는 자는,”열쇠의 주인” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorLottoCodes1" Value="이 문을 열 수 있는 자는,”숫자 하나 안 놓치고 빈틈없이,찾아낸 조사관” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorDialogue2" Value="액세스가 거부되었습니다.,이 에리어는 관리자의 명령에 의해,봉쇄되어 있습니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneDialogue1" Value="WARNING: IFF CORRUPTION,IN SECTOR 0x7D308011,CAUTION: FAIL-SECURE!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneDialogue2" Value="여기에 무슨 일이 있었는지 모르고,이게 얼마나 위험한지도 몰라.,조심해，상하이." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneDialogue3" Value="뭐가 됐던 방해되는 건 마찬가지.,애초에 더 위험한 것도 뛰어넘은,우리들이야. 가자，앨리스." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneDialogue4" Value="그래! 우리들의 실력을 믿자!,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneDialogue5" Value="그렇게 나와야지!,인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue1" Value="겨우 이것뿐이야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue2" Value="그러니까!,별 거 아니었네!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue3" Value="아니，그 쪽이라기보다는....,정말 이것밖에,못 한다는 걸까，이것들." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue4" Value="움직이지도 않고，아무 행동도,취하지 않았잖아! 결국 나만,여기저기 뛰어다녔을 뿐이고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue5" Value="진정하고，상하이.,분명히 이 뒤에 나올 것들은,더 어려.... 울 지도? 모르니까." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1CutsceneEndDialogue6" Value="칫....,이외에도 더 있는지 보러 가자，,앨리스." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1SpecialDoorVirusTraining1" Value="이 문을 열 수 있는 자는,”야생의 혼을 가진 괴수를,길들인 마스터” 뿐이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue1" Value="어，뭐야....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue2" Value="뭔가 말도 안 되게 안 좋은 일이,일어나고 있다는 건 알겠는데,이건 대체...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue3" Value="상하이，위험해!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue4" Value="뭐야，이건 대체!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue5" Value="아니 아니，이건 나도,어찌 할 수가 없는데!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue6" Value="어라?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue7" Value="끝났나....?,상하이，괜찮아?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue8" Value="난 괜찮은데，저건 아무리 봐도,마음에 안 들어...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue9" Value="어둠의 여왕인가 뭔가 하는 걸,쓰러뜨리는 김에 다른 사람들까지,도와준다니 난 사양이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1OverloadQuestion" Value="앨리스，이 배리어 시스템을,과부하시킬까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet1Barrier1OverloadAnswers" Value="그래,아니" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue1" Value="액세스가 거부되었습니다.,위험 수준의 오염이,감지되었습니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1LockdownDoorBackDialogue2" Value="과부하시켜서 이걸 없앨 수 있는,배리어가 어딘가에 있을 거야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1Barrier1NoiseCutsceneDialogue10" Value="우리는 이런.... 정체 모를,무언가에 깊이 관여할,여유는 없어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanDialogue1" Value="스캔이 완료되었습니다.,대상을 검사합니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanDialogue2Failure" Value="액세스가 거부되었습니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckSuccess" Value="적합한 대상이 확인되었습니다:,흉폭한 괴수의 조련사" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanVirusUpgradeCheckFailure" Value="대상의 확인에 실패하였습니다:,흉폭한 괴수의 조련사" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisSuccess" Value="적합한 대상이 확인되었습니다:,길 잃은 혼들을 이끄는 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanV2NavisFailure" Value="대상의 확인에 실패하였습니다:,길 잃은 혼들을 이끄는 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupSuccess" Value="적합한 대상이 확인되었습니다:,27종의 인을 모두 보유한 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAlphabetSoupFailure" Value="대상의 확인에 실패하였습니다:,27종의 인을 모두 보유한 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviSuccess" Value="적합한 대상이 확인되었습니다:,금지된 힘을 손에 얻은 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanIllegalNaviFailure" Value="대상의 확인에 실패하였습니다:,금지된 힘을 손에 얻은 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesSuccess" Value="적합한 대상이 확인되었습니다:,6개의 전법의 극에 달한,전투의 여신" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanAllStylesFailure" Value="대상의 확인에 실패하였습니다:,6개의 전법의 극에 달한,전투의 여신" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsSuccess" Value="적합한 대상이 확인되었습니다:,144개의 무기를 보유한 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanPartialStdChipsFailure" Value="대상의 확인에 실패하였습니다:,144개의 무기를 보유한 자" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckSuccess" Value="적합한 대상이 확인되었습니다:,반만의 상처를 치료할 수 있는,대의사" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet1BarrierUnlockScanHealingCheckFailure" Value="대상의 확인에 실패하였습니다:,반만의 상처를 치료할 수 있는,대의사" Face="None" Mono="False" />
+  <Text Key="Map.HeavenNet1GhostEnemyName" Value="？？？？" />
+  <Dialogue Key="Map.HeavenNet1Barrier1EscapeDialogue1" Value="배리어가 재생하고 있는 것 같아.,다시 한 번 확실하게 준비해서,단박에 해결하자，앨리스." Face="Shanghai" Mono="False" />
+</data>

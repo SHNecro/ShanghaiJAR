@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="BBS.PosterBillager" Value="ムラヒト" />
   <Text Key="BBS.PosterMakoMako" Value="まこまこ" />
@@ -136,13 +136,13 @@
   <Text Key="BBS.SubjectRe:HugeDamage" Value="Re：大ダメージ" />
   <Text Key="BBS.SubjectNaviPA" Value="ナビのＰＡ" />
   <Text Key="BBS.SubjectRe:NaviPA" Value="Re：ナビのＰＡ" />
-  <Text Key="BBS.SubjectPASpam" Value="[PA Spam]" />
-  <Text Key="BBS.SubjectRe:PASpam" Value="[Re: PA Spam]" />
-  <Text Key="BBS.SubjectChips" Value="Chips!" />
-  <Text Key="BBS.SubjectRe:Chips" Value="[Re: Chips!]" />
-  <Text Key="BBS.SubjectFirewall" Value="[Firewall?]" />
-  <Text Key="BBS.SubjectRe:Firewall" Value="[Re: Firewall?]" />
-  <Text Key="BBS.PosterElerai" Value="[Elerai]" />
-  <Text Key="BBS.SubjectSPHunting" Value="[Hunting SPs]" />
-  <Text Key="BBS.SubjectRe:SPHunting" Value="[Re:Hunting SPs]" />
+  <Text Key="BBS.SubjectPASpam" Value="ＰＡの連射" />
+  <Text Key="BBS.SubjectRe:PASpam" Value="Re：ＰＡの連射" />
+  <Text Key="BBS.SubjectChips" Value="チップ！" />
+  <Text Key="BBS.SubjectRe:Chips" Value="Re：チップ！" />
+  <Text Key="BBS.SubjectFirewall" Value="マークフィン？" />
+  <Text Key="BBS.SubjectRe:Firewall" Value="Re：マークフィン？" />
+  <Text Key="BBS.PosterElerai" Value="エレライ" />
+  <Text Key="BBS.SubjectSPHunting" Value="ＳＰウイルス狩り" />
+  <Text Key="BBS.SubjectRe:SPHunting" Value="Re：ＳＰウイルス狩り" />
 </data>

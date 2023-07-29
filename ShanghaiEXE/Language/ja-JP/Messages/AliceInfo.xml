@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Dialogue Key="Messages.AliceInfo1Dialogue1Alice" Value="ああっ！,早く学校に行かなきゃ,いけないのに！" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo2Dialogue1Alice" Value="プラグアウトして,友達とお話でも,しようかしら？" Face="Alice" Mono="False" />
@@ -96,14 +96,14 @@
   <Dialogue Key="Messages.AliceInfo98Dialogue1Alice" Value="電脳の奥に行って,問題を解決するわよ！" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo99Dialogue1Alice" Value="ＲＯＭの電脳世界を,制圧して次へ進むわよ！" Face="Alice" Mono="False" />
   <Dialogue Key="Messages.AliceInfo100Dialogue1Alice" Value="プラグアウトして,ＲＯＭの基地へ戻りましょう！" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo101Dialogue1Alice" Value="[Ms. Asakura has to be at the,end of this road!,Let’s go!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo102Dialogue1Alice" Value="[What do you feel like doing,today，Shanghai?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo103Dialogue1Alice" Value="[Do you really think that gossip,in the Undernet will lead us to,a “heaven-like” area?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo104Dialogue1Alice" Value="[What are we waiting for，,Shanghai? Let’s see what’s on,the other side of the platform!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo105Dialogue1Alice" Value="[Wow....,What could a garden be doing,so deep in the Undernet?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo106Dialogue1Alice" Value="[I bet the Sage knows something,about that heavenly area in the,Undernet!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo107Dialogue1Alice" Value="[I’m sure there’s a reason the,Sage needs to test us before,giving us the door code....]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo108Dialogue1Alice" Value="[Let’s go open that door in the,Heaven Area.]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo108Dialogue2Alice" Value="[....I didn’t really need to write,down “12345”，I guess....]" Face="Alice" Mono="False" />
-  <Dialogue Key="Messages.AliceInfo108Dialogue1AliceRealIndexStart" Value="[Let’s explore the rest of the,Heaven Area!]" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo101Dialogue1Alice" Value="朝倉先生は,この真っ先にいる筈よ！,行こう、レベッカ姉さん！" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo102Dialogue1Alice" Value="シャンハイ、,今日は何をしようか？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo103Dialogue1Alice" Value="本当にウラからの情報や,ゴシップでその「天国」みたいな,エリアにたどり着けると思う？" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo104Dialogue1Alice" Value="何待ってるのよ、シャンハイ！,ウラ７のプラットフォームに,何があるか見に行こう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo105Dialogue1Alice" Value="うわ････,ウラインターネットの奥にこんな,庭園があったなんて････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo106Dialogue1Alice" Value="あの天国のようなエリアにある,扉のことについて千里眼,おじさんに聞いてみよう！" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo107Dialogue1Alice" Value="千里眼爺さんがコードを教える,前にこんなのを行わせるには,きっと何か理由がある筈････" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo108Dialogue1Alice" Value="ヘブンエリアにあった,あの扉を開けに行きましょう" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo108Dialogue2Alice" Value="例のコードはメモる必要も,無かったわね。１２３４５って,単純な数字だっただけだし" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.AliceInfo108Dialogue1AliceRealIndexStart" Value="残りのヘブンエリアも,探検してみましょう！" Face="Alice" Mono="False" />
 </data>

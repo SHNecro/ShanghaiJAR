@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity3roomName" Value="환상대학교 실험실" />
+  <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue1FaceNone" Value="실험실의 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk1Stage1Dialogue2FaceNone" Value="데이터 보존 때문인지,플러그인이 금지되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk2Stage1Dialogue1FaceNone" Value="실험실의 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomDesk2Stage1Dialogue2FaceNone" Value="데이터 보존 때문인지,플러그인이 금지되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChair1Stage1Dialogue1FaceNone" Value="실험실의 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChair1Stage1Dialogue2FaceNone" Value="오래된 물건인가 보다.,겉면은 깨끗한데,여기저기가 덜컹거린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChairShadow1Stage1Dialogue1FaceNone" Value="모리치카 박사님의 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChairShadow1Stage1Dialogue2FaceNone" Value="손때나게 오래 쓴 듯하다.,여기저기에 있는 부품이,덜그럭거린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTableStage1Dialogue1FaceNone" Value="널찍한 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTableStage1Dialogue2FaceNone" Value="겉보기에는 예뻐 보이지만,거의 쓰인 것 같지 않아 보인다.,그 깨끗함이 처량해 보일 정도이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTable2Stage1Dialogue1FaceNone" Value="널찍한 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomTable2Stage1Dialogue2FaceNone" Value="겉보기에는 예뻐 보이지만,거의 쓰인 것 같지 않아 보인다.,그 깨끗함이 처량해 보일 정도이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage1Dialogue1FaceNone" Value="최신형 공기청정기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage1Dialogue2FaceNone" Value="다양한 이온을 방출하여,깨끗한 공기를 만들어 낸다고,말하는데 암만 해도 수상쩍다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue1FaceNone" Value="최신형 공기청정기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue2FaceNone" Value="다양한 이온을 방출하여,깨끗한 공기를 만들어 낸다고,말하는데 암만 해도 수상쩍다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomAirCleanerStage3Dialogue3FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage1Dialogue1FaceNone" Value="우～...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue1FaceRemilia" Value="흑.... 히끅....,흐극...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue2FaceAlice" Value="부탁이니까 그만 울어...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue3FaceMari" Value="이래서는 말이 안 통하겠어...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue4FaceShanghai" Value="...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue5FaceShanghai" Value="레밀리아!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue6FaceRemilia" Value="....!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue7FaceShanghai" Value="그 땐 확실히 내가,너무 심한 말을 했어. 미안해." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue8FaceRemilia" Value="히.... 히끅...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue9FaceShanghai" Value="근데，그래도,한 마디는 해야겠어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue10FaceShanghai" Value="이 세상에 싫은 게,너무 많은 건 사실이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue11FaceShanghai" Value="그런데 그런 싫은 거 하나하나마다,도망치려 들고 눈을 돌리는,넌 아무리 봐도 겁쟁이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue12FaceAlice" Value="상하이，또 그런 말을...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue13FaceShanghai" Value="조용히 하고 들어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue14FaceShanghai" Value="레밀리아，넌 이대로,겁쟁이로 살고 싶어?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue15FaceShanghai" Value="도망치고 뒤에서 지적당하고,놀림받고 이래도 좋아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue16FaceRemilia" Value="아.... 아니야...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue17FaceRemilia" Value="나는.... 겁쟁이가...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue18FaceRemilia" Value="겁쟁이가.... 아니야....!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue19FaceShanghai" Value="그렇다면 이제부터는,겁쟁이가 아니라는 걸,태도로 보여 줘." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue20FaceShanghai" Value="그리고 뭣만 하면,곧바로 울지 말고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue21FaceShanghai" Value="눈물은 여자의 무기야.,그렇게 간단히 뽑을 게 아냐." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue22FaceShanghai" Value="유능한 매는,발톱을 감추는 법이야...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue23FaceShanghai" Value="그런데 넌 어느 쪽이야?,유능한 쪽이야，무능한 쪽이야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage3Dialogue24FaceRemilia" Value="훌쩍...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue1FaceRemilia" Value="나는 무능하지 않아!,나는 레밀리아 스칼렛!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue2FaceMari" Value="와，순식간에 울음을 그쳤어...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue3FaceShanghai" Value="좋아，난 확실하게 사과했어.,너도 해야 할 말 있지 않아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue4FaceShanghai" Value="책임은 확실하게 져야지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue5FaceRemilia" Value="응...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue6FaceRemilia" Value="...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue7FaceRemilia" Value="앨리스，마리....,걱정시켜서...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue8FaceRemilia" Value="미.... 안...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue9FaceRemilia" Value="....미안해!!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue10FaceRemilia" Value="봐，사과했지!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue11FaceMarisa" Value="이런이런,어이없는 녀석이구만...." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue12FaceMari" Value="에이，괜찮잖아，이런 것도." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue13FaceMari" Value="자，사쿠야를 데리고 돌아가자!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomRemiliaStage5Dialogue14FaceRemilia" Value="....응!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="그 울고 있던 여자애,집에 잘 돌아갔을까?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter3OlderBrotherStage1Dialogue1FaceMaleAdult" Value="최근에는 집에 있는 시간보다,실험하는 시간이 길어졌어...." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomChapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="넌 아직 중학생이니까 모를 거라,생각하지만，대학교에서 연구실,고르는 건 진짜 중요해." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue1FaceNone" Value="앨리.... 스...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue2FaceAlice" Value="레밀리아!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue3FaceShanghai" Value="구해줄 테니까,그 이전에 뒈지지나 말라고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue4FaceAlice" Value="상하이....,또 그런 식으로 말을...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue5FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomGasGenerationStage1Dialogue6FaceAlice" Value="공기청정기에 플러그인해야 해!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomToTheOutsideStage1Dialogue1FaceNone" Value="비상 사태이므로,방화 셔터를 폐쇄,....라고 표시되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomPostGameBystander1Dialogue1" Value="연구실 생활이 시작되고,오늘부로 4일째에 들어섰어...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity3roomPostGameBystander1Dialogue2" Value="내 논문은 언제쯤 되어야,완성이 될 기미가 보일까...." Face="FemaleAdult" Mono="False" />
+</data>

@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- アリスの部屋 -->
+  <Text Key="Map.AliceroomName" Value="앨리스의 방" />
+  <!-- ホテルへ -->
+  <Dialogue Key="Map.AliceroomTestSpriteStage1Dialogue1FaceNone" Value="호텔로" Face="None" Mono="False" />
+  <!-- アリスが買い集めたマンガが本棚にしまってある -->
+  <Dialogue Key="Map.AliceroomDanceStage1Dialogue1FaceNone" Value="앨리스가 사서 모아 놓은,만화책이 책꽂이에 꽂혀 있다." Face="None" Mono="False" />
+  <!-- どちらかと言うと､少女漫画よりも少年漫画のほうが占める割合は多い -->
+  <Dialogue Key="Map.AliceroomDanceStage1Dialogue2FaceNone" Value="어느 쪽이냐고 물어본다면,소녀 만화보다도 소년 만화 쪽이,차지하는 비율이 더 높다." Face="None" Mono="False" />
+  <!-- アリスのパソコンだプラグインできる -->
+  <Dialogue Key="Map.AliceroomPCStage1Dialogue1FaceNone" Value="앨리스의 컴퓨터다.,플러그인할 수 있다." Face="None" Mono="False" />
+  <!-- 実はアリスの誕生日にシャンハイがプレゼントした超高性能パソコンなのだが -->
+  <Dialogue Key="Map.AliceroomPCStage1Dialogue2FaceNone" Value="사실은 앨리스의 생일에,상하이가 선물해 준,초고성능의 컴퓨터인데" Face="None" Mono="False" />
+  <!-- その資金の出どころは知るよしもない･･･ -->
+  <Dialogue Key="Map.AliceroomPCStage1Dialogue3FaceNone" Value="어디서 컴퓨터 살 돈을,충당했는지는 알 방도가 없다...." Face="None" Mono="False" />
+  <!-- だが　今はインターネットをしている場合ではない！ -->
+  <Dialogue Key="Map.AliceroomPCStage1Dialogue4FaceNone" Value="그렇지만 지금은,인터넷을 하고 있을,때가 아냐!" Face="None" Mono="False" />
+  <!-- 国民的ロボットアニメ「夢幻機動ゼレイブ」の敵ロボ「ワンブ」のプラモデルだ -->
+  <Dialogue Key="Map.AliceroomPlasticModelStage1Dialogue1FaceNone" Value="국민 로봇 애니,”몽환기동 제레이브”의 적 로봇,”원푸”의 플라스틱 모델이다." Face="None" Mono="False" />
+  <!-- アリスが趣味で組み立てたもので初めてにしてはなかなかの出来栄えだと自負している -->
+  <Dialogue Key="Map.AliceroomPlasticModelStage1Dialogue2FaceNone" Value="앨리스가 취미로 조립한 건데,처음 조립한 거 치고는 나름대로,잘 만들었다고 자부하고 있다." Face="None" Mono="False" />
+  <!-- 主人公の乗るロボットではなく敵の量産機というチョイスがミソである -->
+  <Dialogue Key="Map.AliceroomPlasticModelStage1Dialogue3FaceNone" Value="주인공이 타는 로봇이 아니라,적의 양산기를 고른 게,특징이다." Face="None" Mono="False" />
+  <!-- いつか組み立てる予定のプラモデルの箱だ -->
+  <Dialogue Key="Map.AliceroomPlamoBoxStage1Dialogue1FaceNone" Value="언젠가 조립할 예정인,플라스틱 모델이,들어 있는 상자다." Face="None" Mono="False" />
+  <!-- いつかいつかと思っているうちに老後の楽しみになりそうでチョット怖い････ -->
+  <Dialogue Key="Map.AliceroomPlamoBoxStage1Dialogue2FaceNone" Value="언젠가 언젠가 하면서 미루다가,노후의 즐거움이 될 거라,생각하니 조금 무섭다...." Face="None" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage1Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage3Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage3Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage4Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage4Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage4Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage4Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage4Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- ナビがデリートされたらしいわね -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue1FaceNone" Value="내비가 딜리트됐다는 것 같은데." Face="None" Mono="False" />
+  <!-- す、すいません････ -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue2FaceCirnoOpFaceShownLetty" Value="죄，죄송합니다...." Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- 最後の家の金髪のナビが予想以上に強くて････ -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue3FaceCirnoOpFaceShownLetty" Value="마지막 집에서 만난,금발의 내비가,예상했던 것 이상으로 세서...." Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- ････まあ、目標である冷蔵庫３０台分のアイスプログラム -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue4FaceNone" Value="....뭐，목표였던,냉장고 30대 분량의,아이스 프로그램을" Face="None" Mono="False" />
+  <!-- ちゃんと集めきってくれたから今回のことは不問としましょう -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue5FaceNone" Value="제대로 모아 왔으니까,이번 건에 대해서는,더 묻지 않겠어." Face="None" Mono="False" />
+  <!-- けれど、次に負けることがないように準備は怠らないようにね -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue6FaceNone" Value="그렇지만，,다음에 또 지는 일 없게,준비에 만전을 가하도록." Face="None" Mono="False" />
+  <!-- メモリーデータは回収できたのでバックアップを復元次第すぐに強化改造にとりかかります -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue7FaceCirnoOpFaceShownLetty" Value="메모리 데이터는 회수했으니,백업 데이터로 복원 후 바로,강화 개조에 들어가겠습니다." Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- 期待してるわよ下がっていいわ -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue8FaceNone" Value="기대하고 있겠어.,물러가도 좋아." Face="None" Mono="False" />
+  <!-- はっ！ -->
+  <Dialogue Key="Map.AliceroomBedStage6Dialogue9FaceCirnoOpFaceShownLetty" Value="넷!" Face="CirnoOpFaceShownLetty" Mono="False" />
+  <!-- エレメントプログラム････まずはひとつ目か････ -->
+  <Dialogue Key="Map.AliceroomBedStage8Dialogue1FaceNone" Value="엘레멘트 프로그램....,우선은 첫번째로군...." Face="None" Mono="False" />
+  <!-- ええ、もっと上質なプログラムがあれば数を集めなくても良いのだけれどね -->
+  <Dialogue Key="Map.AliceroomBedStage8Dialogue2FaceNone" Value="그래，더 고품질의 프로그램이,있었다면 이렇게까지 많이,안 모아도 됐을 텐데." Face="None" Mono="False" />
+  <!-- 次に手に入れるエレメントプログラムは何にするの？ -->
+  <Dialogue Key="Map.AliceroomBedStage8Dialogue3FaceNone" Value="그 다음에 얻어야 하는,엘레멘트 프로그램은 뭐지?" Face="None" Mono="False" />
+  <!-- エアプログラムだ････ -->
+  <Dialogue Key="Map.AliceroomBedStage8Dialogue4FaceNone" Value="에어 프로그램이다...." Face="None" Mono="False" />
+  <!-- 例の場所のプログラムなら十分な質を持っているだろう････ -->
+  <Dialogue Key="Map.AliceroomBedStage8Dialogue5FaceNone" Value="그 장소의 프로그램이라면,질 좋은 것들이 있겠지...." Face="None" Mono="False" />
+  <!-- でも、あの場所のセキュリティはかなり厳重よ -->
+  <Dialogue Key="Map.AliceroomBedStage8Dialogue6FaceNone" Value="그래도，그 장소는,보안이 상당히 엄중할 텐데." Face="None" Mono="False" />
+  <!-- だったら私に任せなさい -->
+  <Dialogue Key="Map.AliceroomBedStage10Dialogue1FaceMedicine" Value="그러면 나한테 맡겨 줘." Face="Medicine" Mono="False" />
+  <!-- ＲＯＭの自立型ナビ、メディスンか････ -->
+  <Dialogue Key="Map.AliceroomBedStage10Dialogue2FaceNone" Value="ROM의 자립형 내비,메디슨이로군...." Face="None" Mono="False" />
+  <!-- だが用心することだ････チルノを倒したナビと相まみえるやもしれん････ -->
+  <Dialogue Key="Map.AliceroomBedStage10Dialogue3FaceNone" Value="하지만 경계를 늦추지 말도록....,치르노를 쓰러뜨린 그 내비랑,마주해야 할 수도 있다...." Face="None" Mono="False" />
+  <!-- 最弱のチルノをまぐれで倒しただけでしょう？ -->
+  <Dialogue Key="Map.AliceroomBedStage10Dialogue4FaceMedicine" Value="그 최약체 치르노를,그냥 우연히,쓰러뜨린 것 뿐이잖아?" Face="Medicine" Mono="False" />
+  <!-- 私が負けるはずはないわ -->
+  <Dialogue Key="Map.AliceroomBedStage10Dialogue5FaceMedicine" Value="내가 질 리가 없어." Face="Medicine" Mono="False" />
+  <!-- じゃあ、行ってくるわね！ -->
+  <Dialogue Key="Map.AliceroomBedStage10Dialogue6FaceMedicine" Value="그러면，갔다 오겠어!" Face="Medicine" Mono="False" />
+  <!-- 彼女にまかせて大丈夫？ -->
+  <Dialogue Key="Map.AliceroomBedStage12Dialogue1FaceNone" Value="쟤한테 맡겨 줘도 괜찮겠어?" Face="None" Mono="False" />
+  <!-- フン････しょせん奴はただの人形 -->
+  <Dialogue Key="Map.AliceroomBedStage12Dialogue2FaceNone" Value="흥....,그래 봐야 저 녀석은,그냥 인형에 불과해." Face="None" Mono="False" />
+  <!-- 敗れるようなことがあれば処分し、新たな人形を送り込めばいい････ -->
+  <Dialogue Key="Map.AliceroomBedStage12Dialogue3FaceNone" Value="질 것 같다 싶으면,처분해 버리고 새 인형을,보내면 될 일이야...." Face="None" Mono="False" />
+  <!-- 扉の鍵、エレメントプログラム････ -->
+  <Dialogue Key="Map.AliceroomBedStage12Dialogue4FaceNone" Value="문의 열쇠，,엘레멘트 프로그램...." Face="None" Mono="False" />
+  <!-- それさえ手に入れられれば問題はないのだからな････ -->
+  <Dialogue Key="Map.AliceroomBedStage12Dialogue5FaceNone" Value="그것만 얻을 수 있다면,문제는 없으니까 말야...." Face="None" Mono="False" />
+  <!-- 冷蔵庫暴走事件の翌日････ -->
+  <Dialogue Key="Map.AliceroomBedStage14Dialogue1FaceNone" Value="냉장고 폭주 사건이,발생하고 난 다음 날...." Face="None" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage16Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage18Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage18Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage19Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage19Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage19Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage19Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage19Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue1FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- ････シャンハイ起きてる？ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue2FaceAlice" Value="....상하이,자고 있어?" Face="Alice" Mono="False" />
+  <!-- ････眠れないの？ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue3FaceShanghai" Value="....잠 안 와?" Face="Shanghai" Mono="False" />
+  <!-- うん････ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue4FaceAlice" Value="응...." Face="Alice" Mono="False" />
+  <!-- レミリアが心配？ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue5FaceShanghai" Value="레밀리아가 걱정돼?" Face="Shanghai" Mono="False" />
+  <!-- うん････ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue6FaceAlice" Value="응...." Face="Alice" Mono="False" />
+  <!-- なんであいつなんか！ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue7FaceShanghai" Value="왜 그딴 녀석을!" Face="Shanghai" Mono="False" />
+  <!-- ････とは言えないわよねぇ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue8FaceShanghai" Value="....같은 말은 못 하겠네." Face="Shanghai" Mono="False" />
+  <!-- あたしだって原因の一つだしね -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue9FaceShanghai" Value="결국은 나도,원인 제공자 중 하나니까." Face="Shanghai" Mono="False" />
+  <!-- ムカついたとはいえ子供相手にムキになりすぎたわ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue10FaceShanghai" Value="암만 열이 올랐다고는 해도,애를 상대로 너무 심하게,화를 내긴 했어." Face="Shanghai" Mono="False" />
+  <!-- 明日の朝レミリアに電話をかけよう -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue11FaceAlice" Value="내일 아침에,레밀리아한테 전화하자." Face="Alice" Mono="False" />
+  <!-- でね　謝ろう？ね？ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue12FaceAlice" Value="그러고 나서 사과하자.,응?" Face="Alice" Mono="False" />
+  <!-- ････はぁい -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue13FaceShanghai" Value="....그래애." Face="Shanghai" Mono="False" />
+  <!-- おやすみ　アリス -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue14FaceShanghai" Value="잘 자，앨리스." Face="Shanghai" Mono="False" />
+  <!-- おやすみ････ -->
+  <Dialogue Key="Map.AliceroomBedStage21Dialogue15FaceAlice" Value="잘 자...." Face="Alice" Mono="False" />
+  <!-- うーん････ -->
+  <Dialogue Key="Map.AliceroomBedStage23Dialogue1FaceAlice" Value="으～음...." Face="Alice" Mono="False" />
+  <!-- どうしたの？電話かけるんじゃないの？ -->
+  <Dialogue Key="Map.AliceroomBedStage23Dialogue2FaceShanghai" Value="왜 그래?,전화 안 걸어?" Face="Shanghai" Mono="False" />
+  <!-- 最初になんて言おうかしら -->
+  <Dialogue Key="Map.AliceroomBedStage23Dialogue3FaceAlice" Value="처음에 뭐라고 말해야 하지." Face="Alice" Mono="False" />
+  <!-- えーい　いくじなし！グダグダ考えても仕方ないわ -->
+  <Dialogue Key="Map.AliceroomBedStage23Dialogue4FaceShanghai" Value="에～이，패기 없기는!,어차피 구구절절 생각해 봐야,방법 없잖아." Face="Shanghai" Mono="False" />
+  <!-- もう勝手にかけるわよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage23Dialogue5FaceShanghai" Value="그냥 내가 먼저 걸고 말지!" Face="Shanghai" Mono="False" />
+  <!-- 向こうからかけてきてくれたのかな？ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue1FaceShanghai" Value="레밀리아 쪽에서,먼저 걸어 왔나?" Face="Shanghai" Mono="False" />
+  <!-- はい　もしもしアリスです -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue2FaceAlice" Value="네，여보세요，앨리스입니다." Face="Alice" Mono="False" />
+  <!-- アリス！父さんやレミリアから連絡来てないか！？ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue3FaceMari" Value="앨리스!,우리 아빠나 레밀리아한테서,연락 안 왔어!?" Face="Mari" Mono="False" />
+  <!-- 魔理　どうしたの！？ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue4FaceAlice" Value="마리，왜 그래!?" Face="Alice" Mono="False" />
+  <!-- 父さんが帰ってきてないんだ！！電話も繋がらない！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue5FaceMari" Value="아빠가 안 돌아오셔!!,전화도 안 받으시고!" Face="Mari" Mono="False" />
+  <!-- 今日は大学は閉めきってて誰も居ないっていう話なのに！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue6FaceMari" Value="오늘은 대학교 쉬는 날이라,안에 아무도 없다고 했는데!" Face="Mari" Mono="False" />
+  <!-- 私、今から大学に様子見に行く！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue7FaceMari" Value="난 지금 대학교로 가려고 해!,직접 가서 확인해 봐야겠어!" Face="Mari" Mono="False" />
+  <!-- 待って　私も行く！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue8FaceAlice" Value="잠깐 기다려! 나도 같이 갈게!" Face="Alice" Mono="False" />
+  <!-- アリス！？ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue9FaceMari" Value="앨리스!?" Face="Mari" Mono="False" />
+  <!-- もしかしたらレミリアもまだ大学にいるかもしれないわ！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue10FaceAlice" Value="어쩌면 레밀리아도,아직 학교에 있을 수도 있어!" Face="Alice" Mono="False" />
+  <!-- よし　じゃあ先に行ってるから後で追いかけてきてくれ！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue11FaceMari" Value="좋아，그럼 먼저 가 있을 테니까,뒤따라와 줘!" Face="Mari" Mono="False" />
+  <!-- 森近博士････レミリア････無事だといいけど -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue12FaceAlice" Value="모리치카 박사님.... 레밀리아....,무사해야 할 텐데." Face="Alice" Mono="False" />
+  <!-- 心配はあと！さっさと行くわよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue13FaceShanghai" Value="걱정은 나중에 하고,빨리 가자!" Face="Shanghai" Mono="False" />
+  <!-- ええ！ -->
+  <Dialogue Key="Map.AliceroomBedStage25Dialogue14FaceAlice" Value="그래!" Face="Alice" Mono="False" />
+  <!-- アリス　メールが届いたわよ -->
+  <Dialogue Key="Map.AliceroomBedStage27Dialogue1FaceShanghai" Value="앨리스，메일이 왔어." Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage29Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage31Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage31Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage32Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage32Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage32Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage32Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage32Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- メディスンの失敗によりエアプログラムはしばらくお預けになったわね -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue1FaceHoodedFace" Value="메디슨이 실패한 바람에,당분간 에어 프로그램은,보류해야겠네." Face="HoodedFace" Mono="False" />
+  <!-- 案ずることはない機会を伺い再度刺客を送り込めば済むこと -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue2FaceDruidMan" Value="걱정할 필요 없다.,기회를 봐서 다시 자객을,보내면 될 일이니까." Face="DruidMan" Mono="False" />
+  <!-- しかし　チルノに続いてメディスンまでも倒すシャンハイとかいうナビ････ -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue3FaceDruidMan" Value="그렇지만 치르노에 이어서,메디슨까지도 쓰러뜨린,그 상하이라는 내비...." Face="DruidMan" Mono="False" />
+  <!-- こちらでも彼女についてのデータは収集しているけれど不明瞭な部分が多いわ -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue4FaceHoodedFace" Value="우리 측에서도 그녀에 대한,데이터는 수집하고 있지만,불명료한 부분들이 많아." Face="HoodedFace" Mono="False" />
+  <!-- やはり　私が直接出向きその能力を計るとするか -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue5FaceDruidMan" Value="역시 내가 직접 나서서,그 능력을 가늠해 보도록 하지." Face="DruidMan" Mono="False" />
+  <!-- ドルイドマン　何か策があるのかしら？ -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue6FaceHoodedFace" Value="드루이드맨，뭔가,계책이 있는 거야?" Face="HoodedFace" Mono="False" />
+  <!-- 案ずることはないと言ったはずだ準備はすでにできている -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue7FaceDruidMan" Value="걱정할 필요 없다고 했지.,이미 준비는 다 끝마쳐 놨어." Face="DruidMan" Mono="False" />
+  <!-- あら　頼もしいわね -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue8FaceHoodedFace" Value="어머，기대할 만한데." Face="HoodedFace" Mono="False" />
+  <!-- それじゃあメディスンがネットエージェントの気を引いてる間に情報収集を済ませましょう -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue9FaceHoodedFace" Value="그러면 메디슨이,넷 에이전트의 주의를 끄는,사이에 정보 수집을 끝내자." Face="HoodedFace" Mono="False" />
+  <!-- 了解した -->
+  <Dialogue Key="Map.AliceroomBedStage34Dialogue10FaceDruidMan" Value="알겠다." Face="DruidMan" Mono="False" />
+  <!-- エレメントプログラムは残す所風　大地　光　闇か････ -->
+  <Dialogue Key="Map.AliceroomBedStage36Dialogue1FaceSoundOnly" Value="이제 바람，대지，빛，어둠,이렇게 4개의 엘레멘트 프로그램이,남았군...." Face="SoundOnly" Mono="False" />
+  <!-- 闇のダークプログラムはちまたに出回っているダークチップより　抽出が可能であるが････ -->
+  <Dialogue Key="Map.AliceroomBedStage36Dialogue2FaceSoundOnly" Value="어둠의 다크 프로그램은,항간에 나돌고 있는 다크칩에서,추출할 수 있겠지만...." Face="SoundOnly" Mono="False" />
+  <!-- 心配は無用よ -->
+  <Dialogue Key="Map.AliceroomBedStage36Dialogue3FaceHoodedFace" Value="걱정 안 해도 돼." Face="HoodedFace" Mono="False" />
+  <!-- ROMの情報網を持ってすればすぐにそれらの所在もわかるわ -->
+  <Dialogue Key="Map.AliceroomBedStage36Dialogue4FaceHoodedFace" Value="ROM의 정보망만 있다면,그 프로그램들의 소재처도,금방 알 수 있어." Face="HoodedFace" Mono="False" />
+  <!-- それらが揃えばこの世界など・・・・クックックッ -->
+  <Dialogue Key="Map.AliceroomBedStage36Dialogue5FaceSoundOnly" Value="그것들이 한데 모이기만 한다면,이 세계 따위.... 큭큭큭...." Face="SoundOnly" Mono="False" />
+  <!-- 幻想大学の空気清浄機暴走事件から数日後････ -->
+  <Dialogue Key="Map.AliceroomBedStage38Dialogue1FaceNone" Value="환상대학교의 공기청정기,폭주 사건이 있고 나서,며칠 후...." Face="None" Mono="False" />
+  <!-- あ〜〜〜退屈〜〜〜 -->
+  <Dialogue Key="Map.AliceroomBedStage40Dialogue1FaceShanghai" Value="아～～～,심심해～～～" Face="Shanghai" Mono="False" />
+  <!-- 平和なのはいいことよ -->
+  <Dialogue Key="Map.AliceroomBedStage40Dialogue2FaceAlice" Value="평화로운 건 좋은 거야." Face="Alice" Mono="False" />
+  <!-- 冷蔵庫の暴走に空気清浄機の暴走････ -->
+  <Dialogue Key="Map.AliceroomBedStage40Dialogue3FaceAlice" Value="냉장고 폭주에,공기청정기 폭주까지...." Face="Alice" Mono="False" />
+  <!-- ＲＯＭの引き起こした事件に何度も何度も巻き込まれちゃ私の体が持たないわ -->
+  <Dialogue Key="Map.AliceroomBedStage40Dialogue4FaceAlice" Value="이런 식으로 ROM이 일으킨 사건에,몇 번이고 휘말려서야,몸이 남아날 수가 없겠어." Face="Alice" Mono="False" />
+  <!-- そうは言ってもねえ刺激の足りない生活は女をダメにしちゃうのよ -->
+  <Dialogue Key="Map.AliceroomBedStage40Dialogue5FaceShanghai" Value="그렇기는 하지만,자극 없이 사는 건,여자애한테도 별로 안 좋다구." Face="Shanghai" Mono="False" />
+  <!-- また変なことばっかり言って････ -->
+  <Dialogue Key="Map.AliceroomBedStage40Dialogue6FaceAlice" Value="또 이상한 소리 한다...." Face="Alice" Mono="False" />
+  <!-- あら？森近博士からメールよ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue1FaceShanghai" Value="어라?,모리치카 박사님한테서,메일이 왔는데." Face="Shanghai" Mono="False" />
+  <!-- もしかして例の圧縮ファイルの解析が済んだのかしら！ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue2FaceAlice" Value="그 때 그 압축 파일의,해석이 끝났나봐!" Face="Alice" Mono="False" />
+  <!-- えーっと　なになに････ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue3FaceShanghai" Value="어디 보자，내용이...." Face="Shanghai" Mono="False" />
+  <!-- アリスさん先日の圧縮ファイルについて話したいことがあるんだ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue4FaceDrMorichika" Value="앨리스，이전에 네가 보여준,그 압축 파일에 대해,이야기할 것이 있어." Face="DrMorichika" Mono="True" />
+  <!-- メールだと伝えづらいから悪いけど大学の研究室まで来てもらえないかな？ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue5FaceDrMorichika" Value="메일로 이걸 설명하기 어려운데,미안하지만 대학교 연구실까지,와 줄 수 있니?" Face="DrMorichika" Mono="True" />
+  <!-- だって！さっさと行くわよ　アリス！ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue6FaceShanghai" Value="그렇다는데!,빨리 가자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- まだ終わったわけじゃなさそうだけどとりあえず行ってみましょう！ -->
+  <Dialogue Key="Map.AliceroomBedStage42Dialogue7FaceAlice" Value="아직 끝난 것,같아 보이지는 않지만,일단 가 보자!" Face="Alice" Mono="False" />
+  <!-- アリス　メールが届いたわよ -->
+  <Dialogue Key="Map.AliceroomBedStage44Dialogue1FaceShanghai" Value="앨리스，메일이 왔어." Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage46Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage48Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage48Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage49Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage49Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage49Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage49Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage49Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 次の日････ -->
+  <Dialogue Key="Map.AliceroomBedStage51Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
+  <!-- 準備できたっと！ -->
+  <Dialogue Key="Map.AliceroomBedStage53Dialogue1FaceAlice" Value="준비 다 됐어!" Face="Alice" Mono="False" />
+  <!-- さあ　学校にいくわよ -->
+  <Dialogue Key="Map.AliceroomBedStage53Dialogue2FaceAlice" Value="자，학교 가야지." Face="Alice" Mono="False" />
+  <!-- むにゃむにゃ････ねむーいのにー -->
+  <Dialogue Key="Map.AliceroomBedStage53Dialogue3FaceShanghai" Value="음냐음냐....,아직 나 졸린데～" Face="Shanghai" Mono="False" />
+  <!-- あなたが授業を受けるわけじゃないんだから勝手に寝てなさいよ････ -->
+  <Dialogue Key="Map.AliceroomBedStage53Dialogue4FaceAlice" Value="너가 수업 듣는 것도 아니잖아.,원하는 만큼 자라고...." Face="Alice" Mono="False" />
+  <!-- んあー -->
+  <Dialogue Key="Map.AliceroomBedStage53Dialogue5FaceShanghai" Value="그으래～" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage55Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage57Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage57Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage58Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage58Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage58Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage58Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage58Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 次の日････ -->
+  <Dialogue Key="Map.AliceroomBedStage60Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
+  <!-- 準備できたっと！ -->
+  <Dialogue Key="Map.AliceroomBedStage62Dialogue1FaceAlice" Value="준비 다 됐어!" Face="Alice" Mono="False" />
+  <!-- 今日も学校にいくわよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage62Dialogue2FaceAlice" Value="오늘도 학교로 가야지!" Face="Alice" Mono="False" />
+  <!-- 比那名居さんと仲良くなれるといいな〜 -->
+  <Dialogue Key="Map.AliceroomBedStage62Dialogue3FaceAlice" Value="텐시랑 사이가,좋아졌으면 좋겠다～" Face="Alice" Mono="False" />
+  <!-- そうねぇ････ -->
+  <Dialogue Key="Map.AliceroomBedStage62Dialogue4FaceShanghai" Value="그러니까...." Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage64Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage66Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage66Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage67Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage67Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage67Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage67Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage67Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage69Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage71Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage71Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage72Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage72Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage72Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage72Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage72Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- １週間後････ -->
+  <Dialogue Key="Map.AliceroomBedStage74Dialogue1FaceNone" Value="1주일 후...." Face="None" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage76Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage78Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage78Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage79Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage79Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage79Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage79Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage79Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 次の日････ -->
+  <Dialogue Key="Map.AliceroomBedStage81Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
+  <!-- さあアリス！今日はいよいよN１リーグの本戦の日よ！ -->
+  <Dialogue Key="Map.AliceroomBedStage83Dialogue1FaceShanghai" Value="자，앨리스!,드디어 N1 리그 본선 날이야!" Face="Shanghai" Mono="False" />
+  <!-- 本戦はどこでやるんだっけ？ -->
+  <Dialogue Key="Map.AliceroomBedStage83Dialogue2FaceAlice" Value="본선 경기는 어디서 치뤄지지?" Face="Alice" Mono="False" />
+  <!-- 中央街のゲームセンターよこの間行ったところね -->
+  <Dialogue Key="Map.AliceroomBedStage83Dialogue3FaceShanghai" Value="중앙가 게임 센터야.,이전에 한 번 가 봐서 알지?" Face="Shanghai" Mono="False" />
+  <!-- アリス　メールが来たわよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage85Dialogue1FaceShanghai" Value="앨리스，메일이 왔어!" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage87Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage89Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage89Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage90Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage90Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage90Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage90Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage90Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 次の日････ -->
+  <Dialogue Key="Map.AliceroomBedStage92Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
+  <!-- アリス！　起きなさい！メールが来てるわよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage94Dialogue1FaceShanghai" Value="앨리스! 일어나 봐!,메일이 왔어!" Face="Shanghai" Mono="False" />
+  <!-- ふわぁぁぁ････こんな朝から？ -->
+  <Dialogue Key="Map.AliceroomBedStage94Dialogue2FaceAlice" Value="흐아아아암....,아침부터?" Face="Alice" Mono="False" />
+  <!-- えーっと････天子からね -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue1FaceAlice" Value="어디 보자....,텐시가 보낸 거구나." Face="Alice" Mono="False" />
+  <!-- アリス　朝からごめんね -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue2FaceTenshi" Value="앨리스，아침부터 미안한데" Face="Tenshi" Mono="True" />
+  <!-- 今日お昼からまたエージェントセンターに行かないといけないのよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue3FaceTenshi" Value="오늘 이따가 낮에 또,에이전트 센터에 가야 해!" Face="Tenshi" Mono="True" />
+  <!-- だからお昼から付き合ってなのよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue4FaceTenshi" Value="그래서 그런데,낮에 나랑 같이 가 줬으면 해!" Face="Tenshi" Mono="True" />
+  <!-- ････だってどうする？ -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue5FaceShanghai" Value="....그렇다는데,어떻게 할까?" Face="Shanghai" Mono="False" />
+  <!-- もちろん　行くわよ！ -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue6FaceAlice" Value="당연히 가야지!" Face="Alice" Mono="False" />
+  <!-- Ｎ１リーグで勝てたのも天子のお守りを持ってたご利益かもしれないし！ -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue7FaceAlice" Value="N1 리그에서 우승한 것도,텐시가 준 부적에 깃든 은혜,덕분일 수도 있잖아!" Face="Alice" Mono="False" />
+  <!-- じゃあそのように返信しとくわね -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue8FaceShanghai" Value="그럼 같이 가겠다고,답장해 놓을게." Face="Shanghai" Mono="False" />
+  <!-- すっかり目が覚めちゃった朝ご飯食べましょう！ -->
+  <Dialogue Key="Map.AliceroomBedStage96Dialogue9FaceAlice" Value="잠이 확 깼네.,아침 먹으러 가자!" Face="Alice" Mono="False" />
+  <!-- そして午後････ -->
+  <Dialogue Key="Map.AliceroomBedStage98Dialogue1FaceNone" Value="그리고 그 날 오후...." Face="None" Mono="False" />
+  <!-- そろそろ天子が言ってた時間ね -->
+  <Dialogue Key="Map.AliceroomBedStage100Dialogue1FaceShanghai" Value="슬슬 텐시가 이야기한 시간이,되어 가네." Face="Shanghai" Mono="False" />
+  <!-- メトロの駅前で待ち合わせだったよね -->
+  <Dialogue Key="Map.AliceroomBedStage100Dialogue2FaceAlice" Value="전철역 앞에서 만나기로 약속했지." Face="Alice" Mono="False" />
+  <!-- それじゃあ行こっか！ -->
+  <Dialogue Key="Map.AliceroomBedStage100Dialogue3FaceAlice" Value="그럼 바로 가 볼까!" Face="Alice" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage102Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage104Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage104Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage105Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage105Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage105Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage105Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage105Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage107Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage109Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage109Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage110Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage110Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage110Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage110Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage110Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 翌日････ -->
+  <Dialogue Key="Map.AliceroomBedStage112Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage114Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage116Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage116Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage117Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage117Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage117Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage117Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage117Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage119Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage121Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage121Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage122Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage122Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage122Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage122Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage122Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 数日後････ -->
+  <Dialogue Key="Map.AliceroomBedStage124Dialogue1FaceNone" Value="며칠 후...." Face="None" Mono="False" />
+  <!-- アリス　メールが来てるわよサグメって人から -->
+  <Dialogue Key="Map.AliceroomBedStage126Dialogue1FaceShanghai" Value="앨리스，메일이 왔어.,사구메라는 사람한테서야." Face="Shanghai" Mono="False" />
+  <!-- ふわぁぁぁ････サグメさんから？ -->
+  <Dialogue Key="Map.AliceroomBedStage126Dialogue2FaceAlice" Value="흐아아아암....,사구메 씨한테서 왔다고?" Face="Alice" Mono="False" />
+  <!-- メディスンの時に助けてくれた人だっけ？ -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue1FaceAlice" Value="메디슨이 위험에 처했을 때,도와 주셨던 그 사람 말이지?" Face="Alice" Mono="False" />
+  <!-- そうねえーっと内容は････ -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue2FaceShanghai" Value="응，그 사람.,어디 보자，내용이...." Face="Shanghai" Mono="False" />
+  <!-- 久しぶりね　アリスさんこの間はお疲れ様 -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue3FaceSagume" Value="오랜만이네，앨리스.,이전에는 고생이 많았어." Face="Sagume" Mono="True" />
+  <!-- あなた達の働きであの黒いナビたちの正体がだいたい掴めてきたの -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue4FaceSagume" Value="너희들이 힘써 준 덕분에,저 검은 내비들의 정체를,대략적으로 파악할 수 있었어." Face="Sagume" Mono="True" />
+  <!-- それについての報告会をエージェントセンターで行うんだけど -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue5FaceSagume" Value="그거에 대한 보고회를,에이전트 센터에서,가지려 하는데" Face="Sagume" Mono="True" />
+  <!-- 特例でネットエージェントではないあなたにも参加をしてほしいの -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue6FaceSagume" Value="특례로 넷 에이전트는 아니지만,너도 참가해 줬으면 해." Face="Sagume" Mono="True" />
+  <!-- 無理にとは言わないけれど良かったらエージェントセンターの２階に来てね -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue7FaceSagume" Value="억지로 와 달라고는 안 하겠지만,된다면 에이전트 센터의,2층으로 와 줘." Face="Sagume" Mono="True" />
+  <!-- ････だってどうする？ -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue8FaceShanghai" Value="..그렇다는데,어떻게 할까?" Face="Shanghai" Mono="False" />
+  <!-- どうするって････嫌って言っても行かせるでしょ？ -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue9FaceAlice" Value="어떻게 하긴....,싫다고 말해도,억지로 가게 할 거잖아?" Face="Alice" Mono="False" />
+  <!-- オホホホわかってるじゃない -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue10FaceShanghai" Value="오홍홍홍,잘 알고 있네." Face="Shanghai" Mono="False" />
+  <!-- それじゃあさっさと着替えなさい -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue11FaceShanghai" Value="그럼 빨리 옷 갈아입어야지." Face="Shanghai" Mono="False" />
+  <!-- はーい････ -->
+  <Dialogue Key="Map.AliceroomBedStage128Dialogue12FaceAlice" Value="그～래...." Face="Alice" Mono="False" />
+  <!-- よし　準備はオッケーね永遠町に向かいましょう -->
+  <Dialogue Key="Map.AliceroomBedStage130Dialogue1FaceShanghai" Value="좋아，준비 OK네.,영원 마을로 가자." Face="Shanghai" Mono="False" />
+  <!-- エージェントセンター････また行くことになるなんてね -->
+  <Dialogue Key="Map.AliceroomBedStage130Dialogue2FaceAlice" Value="에이전트 센터....,또 가게 될 줄이야." Face="Alice" Mono="False" />
+  <!-- 前は天子の付き添いだったけど今回は自分のためだからね -->
+  <Dialogue Key="Map.AliceroomBedStage130Dialogue3FaceShanghai" Value="전에는 텐시랑 같이 갔지만,이번엔 우리만 가는 거니까." Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage132Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage134Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage134Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage135Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage135Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage135Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage135Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage135Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- ごきげんよう　皆さん私は秘密結社ＲＯＭの首領です -->
+  <Dialogue Key="Map.AliceroomBedStage137Dialogue1FaceHoodedFace" Value="안녕하신지요，여러분.,저는 비밀결사 ROM의 수령입니다." Face="HoodedFace" Mono="False" />
+  <!-- 先日のインターネットにおけるネットナビの襲撃事件は私達の挨拶代わりです -->
+  <Dialogue Key="Map.AliceroomBedStage137Dialogue2FaceHoodedFace" Value="이전에 인터넷에서 일어났던,넷 내비 습격 사건은,저희들의 인사치레입니다." Face="HoodedFace" Mono="False" />
+  <!-- 私達ＲＯＭは　より世界を混沌へと導く手段を豊富に用意しております -->
+  <Dialogue Key="Map.AliceroomBedStage137Dialogue3FaceHoodedFace" Value="저희 ROM에는 세계를 더욱 더,혼란으로 이끌 수단이,많이 남아 있습니다." Face="HoodedFace" Mono="False" />
+  <!-- やがて　世界が我がROMの物になる日をお待ちくださいませ -->
+  <Dialogue Key="Map.AliceroomBedStage137Dialogue4FaceHoodedFace" Value="머지않아 세계가 저희,ROM의 수중에 들어올 날을,손꼽아 기다리시기를." Face="HoodedFace" Mono="False" />
+  <!-- シャンハイ････これは････ -->
+  <Dialogue Key="Map.AliceroomBedStage139Dialogue1FaceAlice" Value="상하이.... 이건...." Face="Alice" Mono="False" />
+  <!-- ＲＯＭの連中　いよいよ宣戦布告してきたわね -->
+  <Dialogue Key="Map.AliceroomBedStage139Dialogue2FaceShanghai" Value="ROM 놈들，결국 선전포고를 했군." Face="Shanghai" Mono="False" />
+  <!-- 私達もなにかできることないかしら？ -->
+  <Dialogue Key="Map.AliceroomBedStage139Dialogue3FaceAlice" Value="우리한테도 뭔가,할 수 있는 일이 없을까?" Face="Alice" Mono="False" />
+  <!-- アリス　メールが来てるわ森近博士からよ -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue1FaceShanghai" Value="앨리스，메일이 왔어.,모리치카 박사님한테서야." Face="Shanghai" Mono="False" />
+  <!-- 博士から？読んでみて -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue2FaceAlice" Value="박사님한테서?,읽어 봐." Face="Alice" Mono="False" />
+  <!-- えーっと････ -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue3FaceShanghai" Value="어디...." Face="Shanghai" Mono="False" />
+  <!-- アリスさんシャンハイについて話したいことがあるんだ -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue4FaceDrMorichika" Value="앨리스，,상하이에 대해,이야기하고픈 게 있어." Face="DrMorichika" Mono="True" />
+  <!-- 僕は今　エージェントセンターを訪れている -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue5FaceDrMorichika" Value="난 지금 에이전트 센터에 있어." Face="DrMorichika" Mono="True" />
+  <!-- もしよければ　今からエージェントセンターへ来てくれないかい？ -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue6FaceDrMorichika" Value="혹시 된다면 지금,에이전트 센터에,와 줄 수 있어?" Face="DrMorichika" Mono="True" />
+  <!-- あたしについて････ -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue7FaceShanghai" Value="나에 대해서라...." Face="Shanghai" Mono="False" />
+  <!-- 何かしら　行ってみましょう -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue8FaceAlice" Value="뭐길래 그럴까? 가 보자." Face="Alice" Mono="False" />
+  <!-- （ついに　この時が来たか････） -->
+  <Dialogue Key="Map.AliceroomBedStage141Dialogue9FaceShanghai" Value="(드디어 올 것이 왔구나....)" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage143Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- もう今日は寝ちゃう？ -->
+  <Dialogue Key="Map.AliceroomBedStage145Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage145Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.AliceroomBedStage146Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.AliceroomBedStage146Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.AliceroomBedStage146Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.AliceroomBedStage146Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　おやすみ！ -->
+  <Dialogue Key="Map.AliceroomBedStage146Dialogue4FaceShanghai" Value="잘 자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- まだ寝るような時間じゃないわ -->
+  <Dialogue Key="Map.AliceroomBedStage148Dialogue1FaceAlice" Value="아직 잘 시간이 아니야." Face="Alice" Mono="False" />
+  <!-- シャンハイ・・・・？ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage1Dialogue1FaceAlice" Value="상하이....?" Face="Alice" Mono="False" />
+  <!-- ・・・・あれ？ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage3Dialogue1FaceAlice" Value="....어라?" Face="Alice" Mono="False" />
+  <!-- 夢か････ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage3Dialogue2FaceAlice" Value="꿈이구나...." Face="Alice" Mono="False" />
+  <!-- 懐かしい夢････ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage3Dialogue3FaceAlice" Value="그리운 꿈이야...." Face="Alice" Mono="False" />
+  <!-- あれ　６歳の時だっけ････ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage3Dialogue4FaceAlice" Value="그게 6살 때였나...." Face="Alice" Mono="False" />
+  <!-- むにゃむにゃ････まだ足りない････ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage5Dialogue1FaceNone" Value="음냐음냐....,아직 부족하다고...." Face="None" Mono="False" />
+  <!-- ・・・・ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage5Dialogue2FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- ふわぁ････まだ夜中だしもう一回寝ようっと -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage5Dialogue3FaceAlice" Value="후아암.... 아직 밤중이니,다시 자야겠다." Face="Alice" Mono="False" />
+  <!-- それから数日後････ -->
+  <Dialogue Key="Map.AliceroomSleepingAliceStage7Dialogue1FaceNone" Value="그로부터 며칠 후...." Face="None" Mono="False" />
+  <!-- 冒険家のパパが外国で買ってきてくれたシャンハイに似た人形だ -->
+  <Dialogue Key="Map.AliceroomWindowStage1Dialogue1FaceNone" Value="모험가인 아빠가,외국에서 사서 주신,상하이를 닮은 인형이다." Face="None" Mono="False" />
+  <!-- 有名な人形師の作品でめったに手に入らないとウワサの人形だ -->
+  <Dialogue Key="Map.AliceroomWindowStage1Dialogue2FaceNone" Value="유명한 인형사의 작품으로,쉽게 얻을 수 없다고,소문이 난 인형이다." Face="None" Mono="False" />
+  <!-- 二つの人形は姉妹らしいので窓際で仲良く並べて飾ってあげている -->
+  <Dialogue Key="Map.AliceroomWindowStage1Dialogue3FaceNone" Value="두 인형은 자매라길래,창가를 장식할 목적으로,나란히 세워 뒀다." Face="None" Mono="False" />
+  <!-- この人形達のような素敵な人形を作れるようになるのが将来の夢の一つだ -->
+  <Dialogue Key="Map.AliceroomWindowStage1Dialogue4FaceNone" Value="이 인형 같이 멋진 인형을,만들 수 있게 되는 게,내 장래희망 중 하나다." Face="None" Mono="False" />
+  <!-- お洒落をするときに使う等身大の鏡だ -->
+  <Dialogue Key="Map.AliceroomMirrorStage1Dialogue1FaceNone" Value="멋을 낼 때 쓰는,등신대의 거울이다." Face="None" Mono="False" />
+  <!-- 足元には背伸びして買った化粧品を入れた箱がひっそりとおいてある -->
+  <Dialogue Key="Map.AliceroomMirrorStage1Dialogue2FaceNone" Value="발밑에는 애써서 사 놓은,화장품을 담아 놓는 상자가,가만히 놓여 있다." Face="None" Mono="False" />
+  <!-- 買ってから一度も使ってないがアリスが大人になった時その蓋が開かれるのだろう -->
+  <Dialogue Key="Map.AliceroomMirrorStage1Dialogue3FaceNone" Value="사 놓고 나서 한 번도 안 썼지만,내가 어른이 되면 그 상자가,열릴 날이 올 것이다." Face="None" Mono="False" />
+  <!-- 緊急事態！緊急事態！！国防軍無人部隊に異常発生！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage1Dialogue1FaceNone" Value="긴급 사태! 긴급 사태!!,국방군 무인기 부대에,이상이 발생했다!" Face="None" Mono="False" />
+  <!-- 司令部からのコントロールを受け付けません！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage1Dialogue2FaceNone" Value="사령부의 컨트롤을,전혀 받질 않습니다!" Face="None" Mono="False" />
+  <!-- 早く止めろ！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage1Dialogue3FaceNone" Value="빨리 정지시켜!" Face="None" Mono="False" />
+  <!-- しっ････しかし････！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage1Dialogue4FaceNone" Value="하.... 하지만....!" Face="None" Mono="False" />
+  <!-- 全ユニット制御不能！全ユニット制御不能！！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage1Dialogue5FaceNone" Value="전 유닛 제어 불능!,전 유닛 제어 불능!!" Face="None" Mono="False" />
+  <!-- 緊急事態！緊急事・・・・ -->
+  <Dialogue Key="Map.AliceroomOPEventStage1Dialogue6FaceNone" Value="긴급 사태!,긴급 사...." Face="None" Mono="False" />
+  <!-- くっくっく････ -->
+  <Dialogue Key="Map.AliceroomOPEventStage3Dialogue1FaceNone" Value="큭큭큭...." Face="None" Mono="False" />
+  <!-- こんな世界は、消去（デリート）じゃあ！！！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage3Dialogue2FaceNone" Value="이딴 세계 따위，,딜리트다아!!!" Face="None" Mono="False" />
+  <!-- 今より少し先の未来････ -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue1FaceNone" Value="지금보다 조금 더 먼 미래...." Face="None" Mono="False" />
+  <!-- 悪の天才科学者の手によりビェート連邦やヨーリカ合衆国を始めとした -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue2FaceNone" Value="악의 천재 과학자에 의해,비에트 연방이나,유리카 합중국을 시작으로" Face="None" Mono="False" />
+  <!-- 大国の持つコンピューター制御の無人兵器がハッキングを受け暴走を始めた -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue3FaceNone" Value="큰 나라들의 컴퓨터 제어식,무인병기들이 해킹당해,폭주하기 시작했다." Face="None" Mono="False" />
+  <!-- それをきっかけとして　陸海空だけでなく -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue4FaceNone" Value="그게 빌미가 되어,육해공 뿐만이 아닌" Face="None" Mono="False" />
+  <!-- 次の戦場といわれたインターネットを舞台に大規模なサイバー戦争が勃発 -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue5FaceNone" Value="차세대 전장이라 불리는,인터넷을 무대로 한,대규모 사이버 전쟁이 발발했다." Face="None" Mono="False" />
+  <!-- 後に「電脳戦争」と呼ばれた一連の戦争は多くの国に大きな被害を与えた -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue6FaceNone" Value="나중에 ”전뇌 전쟁”이라 불리는,이 일련의 전쟁은 수많은 나라에,큰 피해를 줬다." Face="None" Mono="False" />
+  <!-- 無人機を採用していなかった日本を除いて････ -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue7FaceNone" Value="무인기를 채용하지 않은,일본을 제외하고...." Face="None" Mono="False" />
+  <!-- そして、電脳戦争はついにネットワークシステムが消滅するという最悪の結果をもたらした -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue8FaceNone" Value="그리고，전뇌 전쟁은 결국,네트워크 시스템의 소멸이라는,최악의 결과를 낳았다." Face="None" Mono="False" />
+  <!-- 後に「インターネットハルマゲドン」と呼ばれたネットワークを中心とした一連の騒動から -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue9FaceNone" Value="나중에 ”인터넷 하르마게돈”이라,불리는，이 네트워크 중심의,소동 끝에" Face="None" Mono="False" />
+  <!-- 人類は新たなネットワークのシステムを模索 -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue10FaceNone" Value="인류는 새로운,네트워크의 시스템을 모색했다." Face="None" Mono="False" />
+  <!-- ネットワーク文明が便利すぎたが故に被害が拡大したことを反省し -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue11FaceNone" Value="인류는 네트워크 문명이,편리했지만 그 때문에,피해가 커진 것을 반성하고" Face="None" Mono="False" />
+  <!-- 若きネットワーク学の権威、森近霖之助博士の提唱する「電脳世界理論」を基盤とする -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue12FaceNone" Value="젊은 네트워크학의 권위자，,모리치카 린노스케 박사가 제창한,”전뇌 세계 이론”을 기반으로 한" Face="None" Mono="False" />
+  <!-- 新しいネットワークを作り出すことを決定した -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue13FaceNone" Value="새로운 네트워크를,만들기로 결정했다." Face="None" Mono="False" />
+  <!-- そして、それから数十年後・・・ -->
+  <Dialogue Key="Map.AliceroomOPEventStage5Dialogue14FaceNone" Value="그리고，그로부터 십수년 후...." Face="None" Mono="False" />
+  <!-- ･････ス･････ち･･･ -->
+  <Dialogue Key="Map.AliceroomOPEventStage7Dialogue1FaceNone" Value=".....스 ..... 앨..." Face="None" Mono="False" />
+  <!-- ･･･リス･･･ちゃ･･･ -->
+  <Dialogue Key="Map.AliceroomOPEventStage7Dialogue2FaceNone" Value="...리스... 앨리..." Face="None" Mono="False" />
+  <!-- アリスちゃーん、もう朝よー -->
+  <Dialogue Key="Map.AliceroomOPEventStage9Dialogue1FaceNone" Value="앨리스～ 벌써 아침이야～" Face="None" Mono="False" />
+  <!-- 学校、遅刻するわよー -->
+  <Dialogue Key="Map.AliceroomOPEventStage9Dialogue2FaceNone" Value="그러다 학교 지각한다～" Face="None" Mono="False" />
+  <!-- う〜〜〜んがっ・・・・こう？ -->
+  <Dialogue Key="Map.AliceroomOPEventStage11Dialogue1FaceNone" Value="우으으으응,학....교?" Face="None" Mono="False" />
+  <!-- ！！！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage11Dialogue2FaceNone" Value="!!!" Face="None" Mono="False" />
+  <!-- ガバッ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue1FaceNone" Value="펄럭!" Face="None" Mono="False" />
+  <!-- あーーー！もうこんな時間じゃないの！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue2FaceAlice" Value="아～～～!,벌써 이 시간이잖아!" Face="Alice" Mono="False" />
+  <!-- 目覚ましかけたはずなのにどうして････ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue3FaceAlice" Value="분명히 알람 설정 해 놨을 텐데,왜 이렇게 됐지...." Face="Alice" Mono="False" />
+  <!-- ・・・・もしかして -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue4FaceAlice" Value="....아 잠깐 설마." Face="Alice" Mono="False" />
+  <!-- ふわぁ････朝から騒がしいわねえ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue5FaceShanghai" Value="흐아암....,아침부터 소란스럽네." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！あなたまた勝手に目覚まし止めたでしょう！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue6FaceAlice" Value="상하이!,너 또 알람 껐지!" Face="Alice" Mono="False" />
+  <!-- だってあたしの安眠を妨害したんだもの -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue7FaceShanghai" Value="아니 나 자는 데 방해되잖아." Face="Shanghai" Mono="False" />
+  <!-- もう､どうしてあなたはそんなに勝手なのよ！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue8FaceAlice" Value="정말이지，넌 왜 그렇게,제멋대로인데!" Face="Alice" Mono="False" />
+  <!-- アリスちゃーん！起きたのー？ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue9FaceMama" Value="앨리스～!,일어났니～?" Face="Mama" Mono="False" />
+  <!-- あ、ママ！すぐ行くから待ってて！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage13Dialogue10FaceAlice" Value="아，엄마!,바로 갈 거니까 기다려요!" Face="Alice" Mono="False" />
+  <!-- よし、準備完了！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage15Dialogue1FaceAlice" Value="좋아，준비 완료!" Face="Alice" Mono="False" />
+  <!-- 急いで学校に行かなきゃ遅刻しちゃう！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage15Dialogue2FaceAlice" Value="서둘러 학교로 가자!,지각하겠어!" Face="Alice" Mono="False" />
+  <!-- アリス　メールが届いたみたいよ -->
+  <Dialogue Key="Map.AliceroomOPEventStage17Dialogue1FaceShanghai" Value="앨리스，메일이 온 것 같아." Face="Shanghai" Mono="False" />
+  <!-- 届いたメールはスタートボタンでメニュー画面を開いてメールを選べば読めるからね！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage17Dialogue2FaceShanghai" Value="받은 메일은 스타트 버튼으로,메뉴 화면을 열고 메일을 고르면,읽을 수 있어!" Face="Shanghai" Mono="False" />
+  <!-- あと　どこへ行くかわからなくなったらＬボタンを押しなさいよ -->
+  <Dialogue Key="Map.AliceroomOPEventStage17Dialogue3FaceShanghai" Value="또 어디로 갈지 모르겠다면,L 버튼을 눌러." Face="Shanghai" Mono="False" />
+  <!-- アドバイスくらいあたしがくれてやるからね！ -->
+  <Dialogue Key="Map.AliceroomOPEventStage17Dialogue4FaceShanghai" Value="조언 정도는,내가 해 줄 테니까!" Face="Shanghai" Mono="False" />
+  <!-- きゃぁああああ！アリスちゃあああん！！ -->
+  <Dialogue Key="Map.AliceroomScreamEventStage1Dialogue1FaceNone" Value="꺄아아아아아아!,앨리스으으으으으!!" Face="None" Mono="False" />
+  <!-- 今の悲鳴　ママ！？ -->
+  <Dialogue Key="Map.AliceroomScreamEventStage3Dialogue1FaceAlice" Value="방금 그 비명은 엄마야!?" Face="Alice" Mono="False" />
+  <!-- リビングで何かあったんだわ！ママの危機よ！！ -->
+  <Dialogue Key="Map.AliceroomScreamEventStage3Dialogue2FaceShanghai" Value="거실에서 무슨 일이 일어났어!,엄마가 위험해!!" Face="Shanghai" Mono="False" />
+  <!-- え、ええ！ -->
+  <Dialogue Key="Map.AliceroomScreamEventStage3Dialogue3FaceAlice" Value="그，그래!" Face="Alice" Mono="False" />
+  <!-- お待たせ！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue1FaceAlice" Value="어서 와! 기다리게 했지!" Face="Alice" Mono="False" />
+  <!-- おじゃましてたのよ！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue2FaceTenshi" Value="아니，괜찮아!" Face="Tenshi" Mono="False" />
+  <!-- このプラモデルアリスが作ったの？ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue3FaceTenshi" Value="이 프라모델,앨리스가 만들었어?" Face="Tenshi" Mono="False" />
+  <!-- ええ　そうよ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue4FaceAlice" Value="응，내가 만든 거야." Face="Alice" Mono="False" />
+  <!-- このロボットが出てくる作品アニメは見たことないけど漫画版を読んだからね -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue5FaceAlice" Value="이 로봇이 나오는 작품 있지，,애니는 본 적 없지만,만화판을 읽은 적이 있거든." Face="Alice" Mono="False" />
+  <!-- へぇ〜！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue6FaceTenshi" Value="이야～!" Face="Tenshi" Mono="False" />
+  <!-- ････それで　どうしたの？遊びに来たの？ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue7FaceAlice" Value="....그래서 왜 왔어?,놀러 온 거야?" Face="Alice" Mono="False" />
+  <!-- 違うのよ一緒に永遠町に行こうかなって思ったのよ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue8FaceTenshi" Value="그건 아냐.,같이 영원 마을에,가 줬으면 해서 온 거야." Face="Tenshi" Mono="False" />
+  <!-- 永遠町に？ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue9FaceAlice" Value="영원 마을에?" Face="Alice" Mono="False" />
+  <!-- ははぁーんネットエージェントの出頭命令がついに来たってわけね -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue10FaceShanghai" Value="아하～，,넷 에이전트의 출두 명령이,드디어 떨어진 거구나." Face="Shanghai" Mono="False" />
+  <!-- お願い！一人で行くのは心細いの！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue11FaceTenshi" Value="부탁할게!,나 혼자 가기에는 너무 불안해서!" Face="Tenshi" Mono="False" />
+  <!-- 一緒に行くのはいいけれど魔理や里香も誘おっか？ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue12FaceAlice" Value="같이 가는 건 상관 없는데,기왕 가는 거 마리나,리카하고도 같이 갈까?" Face="Alice" Mono="False" />
+  <!-- アリスさんの前に誘ったのですけれど他の皆様は先約があると -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue13FaceIku" Value="앨리스 씨를 뵙기 전에,두 분 집을 방문했사옵니다만,다들 선약이 있었다고 하옵니다." Face="Iku" Mono="False" />
+  <!-- それじゃあしょうがないわね二人で行こっか！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue14FaceAlice" Value="그러면 어쩔 수 없네.,둘이서 가자!" Face="Alice" Mono="False" />
+  <!-- うん！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue15FaceTenshi" Value="응!" Face="Tenshi" Mono="False" />
+  <!-- じゃあメトロの駅の前で待ってるからね！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue16FaceTenshi" Value="그러면 전철 역 앞에서,기다리고 있을게!" Face="Tenshi" Mono="False" />
+  <!-- わかったわ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage1Dialogue17FaceAlice" Value="알겠어." Face="Alice" Mono="False" />
+  <!-- よし　準備完了っと！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage3Dialogue1FaceAlice" Value="좋아，준비 완료됐고!" Face="Alice" Mono="False" />
+  <!-- 永遠町はメトロに乗ればすぐ行けるわよ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage3Dialogue2FaceShanghai" Value="영원 마을은 전철을 타면,금방 갈 수 있어." Face="Shanghai" Mono="False" />
+  <!-- うん　じゃあ駅に行こっか！ -->
+  <Dialogue Key="Map.AliceroomChapter4TenshiStage3Dialogue3FaceAlice" Value="좋아，그럼 역으로 가자!" Face="Alice" Mono="False" />
+  <!-- 天子････ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage1Dialogue1FaceAlice" Value="텐시...." Face="Alice" Mono="False" />
+  <!-- 何しょげてるのよあんたらしくないわね -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage1Dialogue2FaceShanghai" Value="왜 기 죽어 있는데.,너답지 않네." Face="Shanghai" Mono="False" />
+  <!-- でも････ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage3Dialogue1FaceAlice" Value="그렇지만...." Face="Alice" Mono="False" />
+  <!-- あたしたちがあの状況で天子を病院に連れて行ってたらそれこそ神社が燃えてたわ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage3Dialogue2FaceShanghai" Value="그 때 우리가 텐시를,곧바로 병원에 데려가려 했었다면,그 때는 신사가 전소되었을 거야." Face="Shanghai" Mono="False" />
+  <!-- 霊夢は無傷、神社もボヤで済んだ天子も一応助かった････ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage3Dialogue3FaceShanghai" Value="레이무는 부상당하지 않았고，,신사도 작은 불이 난 선에서,그쳤어. 텐시도 일단은 살았고...." Face="Shanghai" Mono="False" />
+  <!-- あんたはあの状況で一番正しいことをやったのよ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage3Dialogue4FaceShanghai" Value="넌 그 상황에,제일 옳은 일을 한 거야." Face="Shanghai" Mono="False" />
+  <!-- うん････ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage3Dialogue5FaceAlice" Value="응...." Face="Alice" Mono="False" />
+  <!-- あれ？　メール？ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue1FaceAlice" Value="어라? 메일?" Face="Alice" Mono="False" />
+  <!-- 天子からね開くわよ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue2FaceShanghai" Value="텐시한테서 온 거네.,열어볼게." Face="Shanghai" Mono="False" />
+  <!-- アリス　今病院からメールをうってるのよ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue3FaceTenshi" Value="앨리스，난 지금 병원에서,이 메일을 보내고 있어." Face="Tenshi" Mono="True" />
+  <!-- 治療も終わってあとは治るのを待つだけになったのよ！ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue4FaceTenshi" Value="치료도 끝났고,이제 다 나을 때까지,기다리기만 하면 된대!" Face="Tenshi" Mono="True" />
+  <!-- 安静にしないといけないから１週間くらい入院だけど････ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue5FaceTenshi" Value="안정을 취해야 하니까,1주일 정도는 입원해야 하지만...." Face="Tenshi" Mono="True" />
+  <!-- でも　アリスのおかげで霊夢ちゃんの神社も大丈夫だったのよ！ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue6FaceTenshi" Value="그렇지만 앨리스 덕분에,레이무네 신사도,무사했잖아!" Face="Tenshi" Mono="True" />
+  <!-- アリス　ありがとうなのよ！ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue7FaceTenshi" Value="앨리스，고마워!" Face="Tenshi" Mono="True" />
+  <!-- 追伸：入院してるのは退屈なのでお見舞いに来てくれると嬉しいのよ！ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue8FaceTenshi" Value="추신: 입원해 있는 동안에는,심심할 테니까 병문안,와 주면 기쁠 거야!" Face="Tenshi" Mono="True" />
+  <!-- ････だって -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue9FaceShanghai" Value="....그렇다는데." Face="Shanghai" Mono="False" />
+  <!-- 今度お見舞い絶対に行こうね････！ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue10FaceAlice" Value="이번에 병문안,뭐가 됐든 가야지....!" Face="Alice" Mono="False" />
+  <!-- ････ええ　そうね！ -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage5Dialogue11FaceShanghai" Value="....그래，맞아!" Face="Shanghai" Mono="False" />
+  <!-- 本体験版はこれにて終了となります -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue1FaceNone" Value="본 체험판은 여기까지입니다." Face="None" Mono="False" />
+  <!-- 続きは製品版でお楽しみください -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue2FaceNone" Value="차후 내용은 정식판을,기대해 주세요." Face="None" Mono="False" />
+  <!-- なお　アリスのHPのシャンハイの私室左下にておまけ部屋を用意しました -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue3FaceNone" Value="또한 앨리스의 홈페이지의,상하이의 개인 방 왼쪽 아래에,보너스 방이 준비되었습니다." Face="None" Mono="False" />
+  <!-- 腕に自身のある方は挑戦してみてください -->
+  <Dialogue Key="Map.AliceroomChapter4TheEndEventStage7Dialogue4FaceNone" Value="실력에 자신이 있으신 분들께서는,도전해 보시기 바랍니다." Face="None" Mono="False" />
+  <!-- あれ　アリス出かける準備してるけど今日どこか行く予定あったっけ？ -->
+  <Dialogue Key="Map.AliceroomChapter5StartEventStage1Dialogue1FaceShanghai" Value="뭐야，앨리스.,지금 나갈 준비 하고 있는데,오늘 어디 나갈 예정 있었어?" Face="Shanghai" Mono="False" />
+  <!-- 何言ってるのよ今日はみんなで天子のお見舞い行くって言ってたでしょ -->
+  <Dialogue Key="Map.AliceroomChapter5StartEventStage1Dialogue2FaceAlice" Value="무슨 소리 하는 거야?,오늘 다같이 텐시 병문안,간다고 말했잖아." Face="Alice" Mono="False" />
+  <!-- あれ？そうだったっけ？ -->
+  <Dialogue Key="Map.AliceroomChapter5StartEventStage1Dialogue3FaceShanghai" Value="어 뭐지?,그런 말 했던가?" Face="Shanghai" Mono="False" />
+  <!-- 呆れた････さあ　早く病院にいくわよ -->
+  <Dialogue Key="Map.AliceroomChapter5StartEventStage1Dialogue4FaceAlice" Value="아니 진짜 얘는....,자，빨리 병원으로 가야지." Face="Alice" Mono="False" />
+  <!-- 永遠町の病院に入院してるんだったわよね -->
+  <Dialogue Key="Map.AliceroomChapter5StartEventStage1Dialogue5FaceShanghai" Value="영원 마을의 병원에,입원해 있다고 했지." Face="Shanghai" Mono="False" />
+  <!-- あれ？　メール？ -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue1FaceAlice" Value="어라? 메일?" Face="Alice" Mono="False" />
+  <!-- えーとどれどれ････ブッカーから？ -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue2FaceShanghai" Value="어디 한 번 봐 보자....,부화한테서 왔네?" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ様　すみません他の者に聞かれたくない内密な話があります -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue3FaceHenchie" Value="상하이 님，죄송합니다만,상하이 님한테만 하고 싶은,비밀 이야기가 있습니다." Face="Henchie" Mono="True" />
+  <!-- なので　ウラインターネット２で私とシャンハイ様が出会った場所まで来てください -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue4FaceHenchie" Value="그래서 그런데 우라 인터넷 2에서,저희 둘이 처음 마주친,그 장소까지 와 주세요." Face="Henchie" Mono="True" />
+  <!-- 何かしら　内密な話って？ -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue5FaceShanghai" Value="비밀 이야기라니 대체 뭘까?" Face="Shanghai" Mono="False" />
+  <!-- とにかく　インターネットに行ってみましょう -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue6FaceAlice" Value="일단 인터넷에 가 보자." Face="Alice" Mono="False" />
+  <!-- それもそうね -->
+  <Dialogue Key="Map.AliceroomChapter7Post-ConferenceEventStage1Dialogue7FaceShanghai" Value="그것도 그렇네." Face="Shanghai" Mono="False" />
+  <!-- ････とまあこんな調子だからあなたの出番はまだ先よ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue1FaceSagume" Value="....뭐，지금,상태가 이러니까 아직 너희들이,나설 단계는 아니야." Face="Sagume" Mono="False" />
+  <!-- そうですか････ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue2FaceAlice" Value="그런가요...." Face="Alice" Mono="False" />
+  <!-- というか　いつの間にかアジトの場所を割り当てたのね -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue3FaceShanghai" Value="아니 그보다,그새 아지트의 위치를 알아냈네." Face="Shanghai" Mono="False" />
+  <!-- 藤原組っていう極道組織がアジトの場所を教えてくれたのよ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue4FaceSagume" Value="후지와라 조직이라 불리는,야쿠자 조직이 아지트의 장소를,알려 줬어." Face="Sagume" Mono="False" />
+  <!-- 藤原組？ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue5FaceAlice" Value="후지와라 조직?" Face="Alice" Mono="False" />
+  <!-- ＲＯＭのアジトの場所って裏社会では知られてたというのは盲点だったわ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue6FaceSagume" Value="ROM의 아지트의 장소가,뒷세계에 널리 알려져 있다는,점이 맹점이었어." Face="Sagume" Mono="False" />
+  <!-- なんでも　互いの利益を害しないような不可侵条約みたいなのを結んでたみたい -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue7FaceSagume" Value="아무래도 서로의 이익을,해하지 않도록 불가침조약,같은 걸 맺었다나 봐." Face="Sagume" Mono="False" />
+  <!-- でも　この前の黒いナビ襲撃事件で裏社会も少なからず被害にあってて -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue8FaceSagume" Value="그렇지만 최근에 검은 내비,습격 사건 때문에 뒷세계도,적지 않게 피해를 봤고" Face="Sagume" Mono="False" />
+  <!-- 裏社会としてはそれをＲＯＭの裏切りとして認識したみたい -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage1Dialogue9FaceSagume" Value="뒷세계 측에서는 이걸,ROM이 배신을 때렸다고,인식한 것 같아." Face="Sagume" Mono="False" />
+  <!-- まあ　場所がわかってもその様子じゃあ時間がかかりそうね -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue1FaceShanghai" Value="근데 장소를 알았다 해도,상태가 그래서야,시간 좀 걸릴 것 같은데." Face="Shanghai" Mono="False" />
+  <!-- なにせ弾幕が厚い上にレーダーも優秀みたいで空からの侵入も困難なの -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue2FaceSagume" Value="그도 그럴 게 화망도 빽빽하지，,레이더도 성능 좋은 걸 쓰는지,항공 침입도 난감한 상태야." Face="Sagume" Mono="False" />
+  <!-- よかったら　あなたもアジトへの侵入手段を考えてみてくれない？ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue3FaceSagume" Value="된다면 너희들도,아지트에 침입할 수 있는,수단을 같이 생각해 줄래?" Face="Sagume" Mono="False" />
+  <!-- 私が？ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue4FaceAlice" Value="제가요?" Face="Alice" Mono="False" />
+  <!-- 案外あなたのような子のほうがいいアイデアを思いつくかもしれないし -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue5FaceSagume" Value="의외로 너희 같은,어린애들한테서 좋은 아이디어가,떠오를지도 모르고" Face="Sagume" Mono="False" />
+  <!-- なにせ　今まで何度もＲＯＭを退けたからねあなた達は -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue6FaceSagume" Value="이유야 어찌 되었든,너희들은 지금까지 몇 번이고,ROM을 격퇴시켜 왔으니까." Face="Sagume" Mono="False" />
+  <!-- わかりました私の方でも何かできないか探してみます -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue7FaceAlice" Value="알겠어요.,제 측에서도 뭔가 방법을,좀 찾아 볼게요." Face="Alice" Mono="False" />
+  <!-- お願いするわ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage3Dialogue8FaceSagume" Value="부탁할게，그럼." Face="Sagume" Mono="False" />
+  <!-- って言ったって簡単にアイデアなんて出たら苦労してないわけよね -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage5Dialogue1FaceShanghai" Value="말은 그렇게 했지만,아이디어가 간단하게 나온다면,이렇게 고생할 리가 없지." Face="Shanghai" Mono="False" />
+  <!-- でも････戦うと決めた以上待っているだけなのももどかしいから -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage5Dialogue2FaceAlice" Value="그래도.... 싸우겠다고 결심한 이상,계속 기다리기만 하는 것도,답답하니까." Face="Alice" Mono="False" />
+  <!-- とりあえずレミリアにでも相談してみる？ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage5Dialogue3FaceShanghai" Value="일단 레밀리아한테,상담이라도 받아 볼까?" Face="Shanghai" Mono="False" />
+  <!-- どうしてレミリアに？ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage5Dialogue4FaceAlice" Value="왜 굳이 레밀리아야?" Face="Alice" Mono="False" />
+  <!-- お金持ちだからよ！ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage5Dialogue5FaceShanghai" Value="걔네 집 부자잖아!" Face="Shanghai" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.AliceroomChapter8EventsStage5Dialogue6FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- アリス　メールが来ているわよ！ -->
+  <Dialogue Key="Map.AliceroomHospitalEventStage1Dialogue1FaceShanghai" Value="앨리스，메일이 왔어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage1Dialogue1" Value="앨리스，전화 왔어!,레이센한테서야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue1" Value="여보세요，레이센?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue2" Value="신키 앨리스.,몸 상태는 좀 어때?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue3" Value="응，지금은 괜찮아.,무슨 일인데?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue4" Value="넷 에이전트로부터 너희들한테,정식 의뢰가 들어왔어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue5" Value="각지에 뿌려져 있는 다크칩의,중심 인물인 ”어둠의 여왕”의,토벌을 부탁하고 싶다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue6" Value="”어둠의 여왕”이라니,촌스러운 이름이구만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue7" Value="그래도 여자라는 건,어떻게든 알고 있나 보네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue8" Value="내가 이름 지은 게 아냐.,상부 측에서 붙인 이름이다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue9" Value="대부분의 내비들한테,다크칩은 아주 위험하니까,없애고 싶은 기분은 알겠어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue10" Value="그렇지만 그럴 때일수록,넷 에이전트 쪽이 해결하기,쉽지 않나 싶은데." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue11" Value="우리들만 가지고는,이 어둠의 여왕에 대한,정보 수집이 빡빡해." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue12" Value="그도 그럴 게 일반적인 방법으로는,액세스할 수 없는 우라의,깊은 곳에 있다고 하니까...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue13" Value="우라에서 정보 수집하는 건,넷 에이전트들에게는 힘들겠네.,걔네들은 넷 에이전트 싫어하니까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue14" Value="우라 인터넷에 정통해 있는,너희들이라면 손쉽게 일을,처리할 수 있을 거다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue15" Value="그렇지만 있지～우리들 봐봐，,세계를 구한 지 얼마 안 됐잖아?,아직도 몸이 뻐근해서 말이지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue16" Value="....토벌 보수로써,200만 제니가,걸려 있는데?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue17" Value="필요한 거 말씀만 하십시오!,자，앨리스，정보 수집하러 가야지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage2Dialogue18" Value="그래，그래...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue1" Value="그렇지만 아무런 정보도 없이,조사부터 하라는 건,역시 많이 힘들겠네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue2" Value="어둠의 여왕 그 자체에 대한,정보는 없지만，정보를 알고 있는,자들이라면 짐작이 가는 게 있어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue3" Value="수상한 정보이긴 하지만，모든 것을,알고 있는 자가 천국과도 같은,전뇌세계에 있다더라." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue4" Value="천국이라....,일단은 기억해 둘게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue5" Value="그러면 임무 시작이다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue6" Value="곤란한 상황에 처한,친구를 돕는다는 느낌으로,힘내 볼게." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue7" Value="부탁하지.,난 다른 건 때문에 잉겔레스에서,용의자를 쫓고 있어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.AliceroomPostGameAutomaticStartStage3Dialogue8" Value="나한테 볼일이 있다면,잉겔레스로 와." Face="Reisen" Mono="False" />
+</data>

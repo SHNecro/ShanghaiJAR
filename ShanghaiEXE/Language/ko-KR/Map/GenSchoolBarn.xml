@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GenSchoolBarnName" Value="환상중학교 창고" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3Tenshi2Stage1Dialogue1FaceTenshi" Value="오지 마!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue1FaceAlice" Value="이게 프리즈된 컴퓨터지?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue2FaceAlice" Value="재기동!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue3FaceNone" Value="딸깍" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue4FaceNone" Value="부우우우웅!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage1Dialogue5FaceTenshi" Value="누，누구야!?" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue1FaceAlice" Value="너，넌 텐시?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue2FaceAlice" Value="빨리 피난가야...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue3FaceTenshi" Value="오지 마!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue4FaceTenshi" Value="나，난 잘못한 게 없어!,난 아냐!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue5FaceAlice" Value="대체 무슨 소릴 하는 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue6FaceAlice" Value="텐시，너 설마....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue7FaceTenshi" Value="이쿠!,빠，빨리!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue8FaceShanghai" Value="앨리스，지나갈 수 있게 되었어!,오퍼레이트 부탁할게!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnChapter3EventsStage3Dialogue9FaceAlice" Value="그，그래...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardStage1Dialogue1FaceNone" Value="학교랑 관련된 무언가가,들어 있는 골판지 상자다.,엄청 무겁다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardStage1Dialogue2FaceNone" Value="전혀 꿈쩍도 안 하다 보니,안에 뭐가 들어 있는지,괜히 너무도 신경 쓰이게 된다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeStage1Dialogue1FaceNone" Value="오래된 서류가 잔뜩,들어 있는 골판지 상자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeStage1Dialogue2FaceNone" Value="종이가 완전히 변색되어 있어,몇 년 동안 보관되었는지,상상되지 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeStage1Dialogue1FaceNone" Value="운동회 때 쓰는 도구가,들어 있는 골판지 상자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeStage1Dialogue2FaceNone" Value="분해된 채로 들어가 있다 보니,그냥 얼핏 봐서는 뭔지,전혀 알 길이 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeStage1Dialogue1FaceNone" Value="잘 모르는 오래된 기계가,잔뜩 들어 있는 골판지 상자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeStage1Dialogue2FaceNone" Value="겉표면에 녹이 슬어 있어서,망가진 것처럼밖에 안 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeDupeStage1Dialogue1FaceNone" Value="옛날 교과서가,잔뜩 들어 있는,골판지 상자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnCardboardDupeDupeDupeDupeStage1Dialogue2FaceNone" Value="이걸 왜 보관하는지는,선생님들만 알 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerStage1Dialogue1FaceNone" Value="오래 되서 옮겨진 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerStage1Dialogue2FaceNone" Value="OS가 낡아서 요즘 나오는,소프트웨어와 호환되지 않아,여기 옮겨진 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerDupeStage1Dialogue1FaceNone" Value="오래 되서 옮겨진 컴퓨터다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenSchoolBarnComputerDupeStage1Dialogue2FaceNone" Value="네트워크 접속이 불안정해져서,여기 옮겨진 것 같다." Face="None" Mono="False" />
+</data>

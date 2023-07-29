@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterName" Value="게임 센터" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage1Dialogue1FaceMaleStudent" Value="안녕!,마침 넷배틀 상대를,찾던 중이었어." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage1Dialogue2FaceMaleStudent" Value="도전할 생각이라면,건너편에 있는,화면의 버튼을 눌러 줘." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage3Dialogue1FaceMaleAdult" Value="으읏!,세잖아!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3OpponentStage5Dialogue1FaceMaleAdult" Value="으읏!,세잖아!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue1FaceMaleStudent" Value="조오아쓰!,그럼 시작해볼까!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue2FaceShanghai" Value="헤헹!,지고 나서 울상 짓지나 마시지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue3FaceAlice" Value="배틀 오퍼레이션....#e@#" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage1Dialogue4FaceNone" Value="니네들은 뭐야!,자리 안 빼 이것들아!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue1FacePunk" Value="말이 말 같지 않냐!,형님의 특등석에서 뭐 해!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue2FacePunk" Value="형님께서 넷배틀을 하시겠다잖아!,잡것들은 빨리 꺼져!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue3FaceAlice" Value="빠직!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue4FaceShanghai" Value="얼씨구,니네들 나...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue5FaceAlice" Value="잠깐만，야，너네들!,여기는 모두를 위한 장소잖아!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue6FaceAlice" Value="여기에 누구 특등석이고,뭐고가 어디 있어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue7FaceShanghai" Value="(어머.... 앨리스가 이렇게, 세게 나온다고? 의외인데.)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue8FacePunk" Value="뭐라고 했냐!,쬐끄만 게 우쭐대지 마시지!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue9FacePunk" Value="행님요，이 건방 떠는 꼬맹이,아주 비틀어 버리죠." Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue10FacePunk" Value="자알 됐네!,최근에 어떤 금발 내비한테,계속 져가지고 빡친 상태였는데!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue11FaceAlice" Value="뭐.... 뭐야!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue12FacePunk" Value="흐헤헤헤...." Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage3Dialogue13FaceShanghai" Value="(이거 좀 위험하지 않나....?)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage5Dialogue1FaceNone" Value="거기 멈추시지 그래!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue1FaceTsubakiNekku" Value="여자애 한 명 상대로,남자 셋이 달려들다니,니네들은 수치심도 없냐?" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue2FacePunk" Value="넌 또 뭐 하는 놈이야!?" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue3FaceTsubakiNekku" Value="나 말하는 거냐....?" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue4FaceTsubakiNekku" Value="사람들은 흔히 나를....,불꽃의 넷배틀러라 부르지!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue5FaceTsubakiNekku" Value="츠바키 넥이다!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue6FaceAlice" Value="불꽃의....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue7FaceTsubakiNekku" Value="(훗.... 멋있었다!)" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue8FacePunk" Value="들어본 적 있어?" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue9FacePunk" Value="전혀 없는데....?" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue10FaceTsubakiNekku" Value="지금 그게 중요한 게 아니지!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue11FaceTsubakiNekku" Value="넷배틀 머신의 사용 권한이라면,넷배틀로 결정하는 게,맞지 않아?" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue12FacePunk" Value="지금 뭐라고 했냐?,망할 꼬맹이 주제에,건방 떨지나 마시지!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue13FaceTsubakiNekku" Value="그렇게 말해 놓고,사실은 넷배틀 실력에,자신 없는 거 아냐?" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue14FacePunk" Value="얼씨구，말 잘 했다!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue15FacePunk" Value="행님요!,없애 버립시더!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage7Dialogue16FacePunk" Value="흐헤헤....,거기 있는 여자애랑 싸잡아서,같이 딜리트해 주마!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage9Dialogue1FacePunk" Value="플러그 인!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue1FaceAlice" Value="어，저기.... 누구?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue2FaceTsubakiNekku" Value="걱정 마，안심해.,나 꽤 세다고....!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue3FaceTsubakiNekku" Value="부품 단위로 해체를 해 주마!,가자!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue4FaceTsubakiNekku" Value="플러그 인!,스패너맨.EXE!,트랜스미션!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage11Dialogue5FaceAlice" Value="플러그 인!,상하이.EXE!,트랜스미션!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue1FaceNaviPurplePunk" Value="으아니!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue2FaceSpannerMan" Value="(우와! 미인 내비구나!)" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue3FaceShanghai" Value="스패너맨.... 이라 했지?,한 쪽은 너한테 맡길게!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue4FaceSpannerMan" Value="그래! 맡겨 주시라!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue5FaceNaviPurplePunk" Value="(행님요,저 금발.... 혹시 그 때 그!)" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue6FaceNaviPurplePunk" Value="(다，다다，당황하지 마!)" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue7FaceShanghai" Value="어머，이게 누구래?,내가 두 번씩이나 두들겨팬,그 양아치들이잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue8FaceNaviPurplePunk" Value="우，우리들도,파워업했거든!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue9FaceNaviPurplePunk" Value="언제고 똑같다고 생각하지 마시지!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue10FaceSpannerMan" Value="뭔지는 몰라도,각오는 되어 있겠지，이 고철들!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue11FaceTsubakiNekku" Value="가자!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue12FaceAlice" Value="그래!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue13FaceAlice" Value="배틀 오퍼레이션，셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage13Dialogue14FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter3EventsBattle1Enemy1" Value="양아치형V3" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue1FaceReisen" Value="흥.... 약해빠졌군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue2FacePunk" Value="뭣....!?" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue3FaceAlice" Value="아니 잠깐만....,딜리트는 너무하지 않아?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue4FaceAlice" Value="그보다 넌 누구야?,나랑 동년배 같아 보이는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue5FaceShanghai" Value="앨리스....,이 녀석 넷 에이전트야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue6FaceReisen" Value="넷 에이전트의 권한으로,네놈들을 체포하겠다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue7FacePunk" Value="체포!?" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue8FacePunk" Value="행님요....,이 놈 장난 아님다!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage15Dialogue9FacePunk" Value="도.... 도망가!" Face="Punk" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage17Dialogue1FaceReisen" Value="실내에서 발포할 수는 없고...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage17Dialogue2FaceReisen" Value="G7으로 추격한다.,요리히메，플러그 아웃." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage17Dialogue3FaceYorihime" Value="예스・맴." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage19Dialogue1FaceTsubakiNekku" Value="아，야!,잠깐 기다려!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage19Dialogue2FaceTsubakiNekku" Value="스패너맨，플러그 아웃!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage21Dialogue1FaceShanghai" Value="앨리스，쫓아가자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3EventsStage21Dialogue2FaceAlice" Value="그，그래!,플러그 아웃!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="안녕，앨리스!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue2FaceAlice" Value="츠바키，꽤나 빨리 온 것 같네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue3FaceTsubakiNekku" Value="헷헷헤!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue4FaceTsubakiNekku" Value="그야 내 실력을 보여줄,절호의 기회니까!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage1Dialogue5FaceSpannerMan" Value="오，슬슬 개회식이,시작하는 것 같네." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue1FaceSanaeReporter" Value="여러부～운!,오래 기다리셨습니다～!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue2FaceSanaeReporter" Value="보더 콘체른이 주최하는!,N1 리그의 결승 토너먼트를,지금! 개최합니다～아!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue3FaceSanaeReporter" Value="대회 진행에 앞서,우선 결승 토너먼트의,설명도 겸해서...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3NekkuStage3Dialogue4FaceSanaeReporter" Value="보더 콘체른의 사장인,야쿠모 유카리 씨로부터,인사 말씀이 있겠습니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter3Opponent2Stage1Dialogue1FaceMaleStudent" Value="무.... 무슨 일이 있었던 거야?" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4SanaeStage1Dialogue1FaceSanaeReporter" Value="아직 시합까지는,시간이 남아 있으니까,느긋하게 준비해 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4PurpleStage1Dialogue1FacePresidentYukari" Value="후후훗，좋은 넷배틀을,기대하고 있겠어요." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue1FaceTsubakiNekku" Value="안녕，앨리스!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue2FaceAlice" Value="츠바키，꽤나 빨리 온 것 같네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue3FaceTsubakiNekku" Value="헷헷헤!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue4FaceTsubakiNekku" Value="그야 내 실력을 보여줄,절호의 기회니까!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage1Dialogue5FaceSpannerMan" Value="오，슬슬 개회식이,시작하는 것 같네." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue1FaceSanaeReporter" Value="여러부～운!,오래 기다리셨습니다～!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue2FaceSanaeReporter" Value="보더 콘체른이 주최하는!,N1 리그의 결승 토너먼트를,지금! 개최합니다～아!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue3FaceNone" Value="와아아～～～!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue4FaceNone" Value="예에～～～～～이!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue5FaceNone" Value="햐아아～～～～～!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue6FaceSanaeReporter" Value="이번에 캐스터를 맡게 된,GRN 아나운서의,코치야 사나에가 전해드립니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue7FaceSanaeReporter" Value="대회 진행에 앞서,우선 결승 토너먼트의,설명도 겸해서...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage3Dialogue8FaceSanaeReporter" Value="보더 콘체른의 사장인,야쿠모 유카리 씨로부터,인사 말씀이 있겠습니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue1FacePresidentYukari" Value="안녕하신지요，여러분.,보더 콘체른의 사장,야쿠모 유카리입니다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue2FacePresidentYukari" Value="이 N1 리그는 넷배틀러의,실력 향상을 목적으로,개최된 대회입니다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue3FacePresidentYukari" Value="차세대의 인터넷 사회를 이끌,젊은 넷배틀러들이,그 실력을 경합함으로써...." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue4FacePresidentYukari" Value="이들의 실력 향상으로 이어지고,넷 범죄의 억제로 이어지지,않을까 하는 마음에" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue5FacePresidentYukari" Value="이 대회의 개최를,결정하게 되었습니다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue6FacePresidentYukari" Value="어디 그럼，길게 이야기하기도,그러니 N1 리그 결승 토너먼트의,설명을 시작하도록 하지요." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue7FacePresidentYukari" Value="토너먼트....라 말해도,참가자들에게는 대전표가,비공개 처리되어 있습니다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue8FacePresidentYukari" Value="시합이 시작하기 직전까지,누구를 상대할 지 알 수 없다는,뜻입니다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue9FacePresidentYukari" Value="본선 출전자는 총 64명!,간단하게 말하면 총 6명에게,승리하면 우승하게 됩니다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage5Dialogue10FacePresidentYukari" Value="제가 드릴 말은 여기까지군요." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue1FaceSanaeReporter" Value="네，감사합니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue2FaceSanaeReporter" Value="N1 리그의 격전에서,마지막까지 살아남아 우승한,자에게는 상금 10만 제니와...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue3FaceSanaeReporter" Value="호화 여객선 세이렌 호를,통해 가는 잉겔레스 투어,티켓이 주어집니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage7Dialogue4FaceSanaeReporter" Value="그러면 선수 여러분!,관계자 분들의 안내에 따라,대기실로 향해 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage9Dialogue1FaceShanghai" Value="앨리스，가자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage9Dialogue2FaceAlice" Value="그래!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage11Dialogue1FaceAlice" Value="어디 그럼，준비가 되면,이 방에 있는 흰 옷 입은,사람한테 말하면 된다는 거네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage11Dialogue2FaceShanghai" Value="지금은 준비 시간이니까,밖에 나가서 칩 조달받으러,가는 것도 좋을 수도 있겠어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4NekkuAudienceStage13Dialogue1FaceTsubakiNekku" Value="여기까지 왔다면,우승 따 가야지!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceTenshiStage1Dialogue1FaceTenshi" Value="앨리스!,응원하러 왔어!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceTenshiStage1Dialogue2FaceIku" Value="후회 없는 싸움이,되었으면 좋겠군요." Face="Iku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceSumirekoStage1Dialogue1FaceSumireko" Value="언니 몫까지 힘내!" Face="Sumireko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4AudienceStage1Dialogue1FaceBlackHairFemaleStudent" Value="내 친구가 출전하길래 보러 왔어." Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4CameraStage1Dialogue1FaceNone" Value="사나에～!,빛나는데 개굴～!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4Audience1Stage1Dialogue1FaceNone" Value="왁자지껄 웅성웅성...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4Audience2Stage1Dialogue1FaceNone" Value="왁자지껄 웅성웅성...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4Audience3Stage1Dialogue1FaceNone" Value="왁자지껄 웅성웅성...." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue1FaceSanaeReporter" Value="자 그럼!,분위기가 고조되어 가고 있는,N1 리그!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue4FaceAlice" Value="....네?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue5FaceAlice" Value="아니 아니 아니 잠깐만!,대체 뭘 해야 내 소개가,저게 되는 건데!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue6FaceShanghai" Value="아.... 이전에 인터뷰어가 왔을 때,내 실제 사정을 알아 버린 거 아냐?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue7FaceAlice" Value="무슨 뜻이야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue8FaceShanghai" Value="봐 봐，내가 뭘 할 때,내멋대로 하는 경우 많잖아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue9FaceShanghai" Value="아마 인터뷰어가 그걸 전부,앨리스가 나한테 지시해서,한 거라고 생각한 거 아냐?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue10FaceAlice" Value="진짜 상하이 이 바보야...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue11FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage1Dialogue12FaceSanaeReporter" Value="올곧게 살아가는 걸 좋아한다!,이시카 마사오 선수랑,그 내비，불혼!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage3Dialogue1FaceBrownHairMaleStudent" Value="한 방 때려박아 주겠어～!" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage5Dialogue1FaceSanaeReporter" Value="그러면 양 선수,내비를 플러그인시켜 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue1FaceBrownHairMaleStudent" Value="남자라면 올곧게 살아야지!,뚫어버려! 불혼!" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue2FaceNaviPurpleHeel2" Value="그루루루.... 우오오오오!" Face="NaviPurpleHeel2" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue3FaceAlice" Value="아오 이젠 나도 몰라!,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage7Dialogue4FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter4BattleEventBattle1Enemy1" Value="불혼" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue3FaceShanghai" Value="헤，쉽게 이겼구만!,얼굴 씻고 처음부터 다시 하시지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage9Dialogue4FaceBrownHairMaleStudent" Value="그으으윽....,제대로 방향을 틀지 못 했어!" Face="BrownHairMaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue1FaceSanaeReporter" Value="격한 싸움이 계속 이어지는,N1 리그!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue4FaceAlice" Value="나 설마 대회 내내,계속 이 이명으로,불리는 거 아니지....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue5FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage11Dialogue6FaceSanaeReporter" Value="드래곤 테이머의 이명을 가진,류자키 테츠야 선수랑,그 내비，자그레프!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage13Dialogue1FaceMaleAdult" Value="내 드래곤 군단에게,이길 수 있을까?" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage15Dialogue1FaceSanaeReporter" Value="그러면 양 선수,내비를 플러그인시켜 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue1FaceMaleAdult" Value="자그레프，,네 친구들의 힘을 보여줘." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue2FaceNaviOrangeMale" Value="내가 몸소 기른,내 드래곤의 힘을 보아라!" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue3FaceAlice" Value="지금이라도 이명,바꿔줄 수 있을까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue4FaceShanghai" Value="....못 하지 않아?,그만 포기해." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue5FaceAlice" Value="이대로는 내 이미지가....,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage17Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter4BattleEventBattle2Enemy1" Value="자그레프" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue3FaceShanghai" Value="정말이지，귀찮은 전법을,쓰는 상대였어...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage19Dialogue4FaceMaleAdult" Value="이럴 수가.... 내 드래곤이!?" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue1FaceSanaeReporter" Value="3회전에 들어선 N1 리그!,남은 선수는 16명입니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue4FaceAlice" Value="이명 변경.... 안 된대." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue5FaceShanghai" Value="그렇게 싫어?,난 멋지다고 생각하는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue6FaceAlice" Value="난 진짜 싫거든!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue7FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage21Dialogue8FaceSanaeReporter" Value="영원고등학교의 열혈 귀신 교사,카미시라사와 케이네 선수랑,그 내비，하쿠타쿠맨!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage23Dialogue1FaceMsKamishirasawa" Value="어，넌...." Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage23Dialogue2FaceAlice" Value="케이네 선생님!?,선생님도 이 대회에,참여하신 건가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage23Dialogue3FaceMsKamishirasawa" Value="뭐，넷배틀은,나한테 있어서는,취미 같은 거라서 말이다." Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage25Dialogue1FaceSanaeReporter" Value="그러면 양 선수,내비를 플러그인시켜 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue1FaceMsKamishirasawa" Value="하쿠타쿠맨!,힘내거라!" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue2FaceHakuTakuMan" Value="맡겨 주라고!" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue3FaceShanghai" Value="어머，꼬맹이 내비잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue4FaceHakuTakuMan" Value="꼬맹이라 부르지 마!,얕봤다간 험한 꼴 본다고!" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue5FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage27Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue3FaceHakuTakuMan" Value="우～응....꽈당큐～" Face="HakuTakuMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue4FaceShanghai" Value="....이건 솔직히 놀랐어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue5FaceAlice" Value="케이네 선생님，방금 그건...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue6FaceMsKamishirasawa" Value="이전에 하쿠타쿠맨이,병을 앓았을 때,몸에 설치한 특수 능력이야." Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue7FaceMsKamishirasawa" Value="그 형태를 쓰러뜨린 건,너희가 처음이다만...." Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue8FaceShanghai" Value="병이라...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue9FaceShanghai" Value="얻기 쉬운 거였다면 원했을 텐데,그렇다면 포기하는 게 좋겠네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue10FaceAlice" Value="저 변신 능력을,가지고 싶었다고....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue11FaceMsKamishirasawa" Value="그보다도 정말 세구나，너희들!,이 뒤에도 힘내거라!" Face="MsKamishirasawa" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage29Dialogue12FaceAlice" Value="아，네!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue1FaceSanaeReporter" Value="벌써 준준결승까지 왔습니다!,64명의 선수들도,이제 8명만 남았습니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue3FaceSanaeReporter" Value="환상대학교의 넷배틀 여왕!,우사미 렌코 선수랑,그 내비，비봉!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue4FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage31Dialogue5FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage33Dialogue1FaceSumireko" Value="언니도 앨리스도 둘 다 힘내～!" Face="Sumireko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue1FaceRenko" Value="어，너 스미레코랑 아는 사이니?" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue2FaceAlice" Value="최근에 신사에서 알게 됐는데요...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue3FaceRenko" Value="난 렌코야. 쟤 언니지.,서로 좋은 배틀 해 보자!" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage35Dialogue4FaceAlice" Value="네!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage37Dialogue1FaceSanaeReporter" Value="그러면 양 선수,내비를 플러그인시켜 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue1FaceRenko" Value="(귀여운 여동생한테, 이 언니의 멋진 모습을, 보여 줘야지!)" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue2FaceNaviChild" Value="(이상하리만치 긴장하고 있는데, 괜찮은 걸까?)" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue3FaceShanghai" Value="가자，앨리스!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue4FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage39Dialogue5FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GameCenterChapter4BattleEventBattle4Enemy1" Value="비봉" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue3FaceRenko" Value="우～응，져 버렸네....,메리가 보러 오지 않아서,다행이라 생각하자." Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue4FaceShanghai" Value="환상대학교의 넷배틀 여왕을,쓰러뜨렸다는 건 즉,이제 우리가 여왕이라는 거?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage41Dialogue5FaceAlice" Value="아마 그건 아니라고 생각해...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue1FaceSanaeReporter" Value="N1 리그도 준결승!,영광을 그 손에 쥘 자는,과연 누가 될 것인가!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue2FaceSanaeReporter" Value="다음 시합의 출전 선수는....!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue3FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue4FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue5FaceSanaeReporter" Value="천하무쌍의 넷배틀러!,츠바키 넥 선수랑,그 내비，스패너맨!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue6FaceAlice" Value="(이명 또 바꿨네....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue7FaceTsubakiNekku" Value="오，앨리스!,드디어 이 때가 왔구나!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue8FaceAlice" Value="이 때라니?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue9FaceTsubakiNekku" Value="이 게임 센터에서,널 처음 만난 순간부터,넷배틀로 겨뤄 보고 싶었거든!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue10FaceShanghai" Value="아，그러고 보면,한 번도 넷배틀을,해 본 적이 없었구나." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue11FaceAlice" Value="그러고 보면 츠바키 너,매번 이명 바뀌는 것 같은데?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue12FaceTsubakiNekku" Value="기분 내킬 때마다 바꾸는 거야." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue13FaceAlice" Value="그런 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue14FaceTsubakiNekku" Value="앨리스도 이명,엄청난 거 쓰잖아.,금색의...." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage43Dialogue15FaceAlice" Value="그마안! 말하지 마～!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage45Dialogue1FaceSanaeReporter" Value="그러면 양 선수,내비를 플러그인시켜 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue1FaceTsubakiNekku" Value="기합 팍팍 넣고 가자，,스패너맨!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue2FaceSpannerMan" Value="탱크맨보다 이 내가,훨씬 더 좋은 남자라는 걸,보여주마!" Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue3FaceShanghai" Value="(둘 다 내 타입은 아닌데)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue4FaceAlice" Value="츠바키，그럼 승부를 짓자!,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage47Dialogue5FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue1FaceSanaeReporter" Value="승자는～!,상하이!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue3FaceSpannerMan" Value="쿨럭...." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue4FaceTsubakiNekku" Value="괜찮아，스패너맨...." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue5FaceShanghai" Value="조오아쓰!,결승 진출이다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue6FaceAlice" Value="뭐야，벌써 거기까지 왔어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue7FaceShanghai" Value="정신 차리라고，금색의 마신 씨!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage49Dialogue8FaceAlice" Value="아오～!,그거 전부 다 상하이,너 때문이잖아!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue1FaceSanaeReporter" Value="자 그럼 여러분!,벌써 N1 리그도,드디어 결승전입니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue2FaceSanaeReporter" Value="울어도 웃어도 결국은 최종결전!,이 싸움에서 이긴 쪽이,우승의 자리를 차지하게 됩니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue3FaceSanaeReporter" Value="그러면 결승에 진출한,엄청난 실력을 가진,넷배틀러들을 소개하겠습니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue4FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue5FaceAlice" Value="결국 마지막까지,이 이명이라니...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue6FaceShanghai" Value="그만 포기해...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue7FaceSanaeReporter" Value="이에 맞서는 출전 선수는...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage51Dialogue8FaceSanaeReporter" Value="천재 초등학생 넷배틀러!,하쿠레이 레이무 선수랑,그 내비，토터스맨!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue1FaceReimu" Value="이예～이!" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue2FaceAlice" Value="결승전 상대가....,레이무라고!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue3FaceReimu" Value="앨리스 언니도,결승까지 오다니,대단해!" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue4FaceShanghai" Value="말인즉슨....,토터스맨이라 하는 내비도,방심할 수 없다는 뜻이군." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue5FaceTortoiseMan" Value="헛헛허...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage53Dialogue6FaceTortoiseMan" Value="구형의 늙은이라고,얕봤다간 크게 다친다네." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage55Dialogue1FaceSanaeReporter" Value="그러면 양 선수,내비를 플러그인시켜 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue1FaceReimu" Value="상금 받게 되면 그 돈으로,신사를 더 멋지게 만들어야지!" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue2FaceTortoiseMan" Value="그거 때문에라도,질 수는 없겠구먼요." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue3FaceShanghai" Value="상대방이 저런 꼬마애라면서,대충 했다간 그냥,안 넘어갈 줄 알아，앨리스!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue4FaceAlice" Value="당연하지!,나도 이기고 싶으니까!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue5FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage57Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage59Dialogue1FaceSanaeReporter" Value="이렇게 결정이 되는군요!,N1 리그의 영광을,떠안게 될 우승자는....!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue1FaceSanaeReporter" Value="환상 마을의 금색의 마신!,신키 앨리스 선수랑,그 내비，상하이～～!!!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue3FaceNone" Value="우오오오오오오!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue4FaceNone" Value="이예에에에에에!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue5FaceAlice" Value="기쁘긴 한데 이명 때문에,별로 기뻐할 수가 없어...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue6FaceShanghai" Value="가슴 펴고，앨리스!,좀 우승한 사람답게,당당하게 나와야지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue7FaceSanaeReporter" Value="그러면 앨리스 씨!,지금 어떤 기분인지,말해 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue8FaceAlice" Value="네? 그，그게....,저...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue9FaceSanaeReporter" Value="이렇듯 감개무량하신 것 같습니다!,감사합니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue10FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage61Dialogue11FaceSanaeReporter" Value="그러면 야쿠모 유카리 씨로부터,우승 상품의 증정식이 있겠습니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage63Dialogue1FacePresidentYukari" Value="잘 싸워 줬어.,너 같은 사람들이 있다면,전뇌 세계도 안전하겠어." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage63Dialogue2FaceAlice" Value="가.... 감사합니다." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage65Dialogue1FaceSanaeReporter" Value="그러면 우승자인,신키 앨리스 씨에게 다시 한 번,큰 박수 부탁드리겠습니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage65Dialogue2FaceNone" Value="와아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterChapter4BattleEventStage65Dialogue3FaceSanaeReporter" Value="그럼 다시 만나는 그 날까지,플레이어 여러분，,안녕히 계세요～～～～!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage1Dialogue1FaceMaleStudent" Value="좋아!,여기서 프로그램 어드밴스!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage1Dialogue2FaceMaleStudent" Value="아，뭐야!,칩 순서 헛갈렸어!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage3Dialogue1FaceMaleStudent" Value="좋아!,여기서 프로그램 어드밴스!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler1Stage3Dialogue2FaceMaleStudent" Value="아，뭐야!,칩 순서 헛갈렸어!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage1Dialogue1FaceMaleChild" Value="칩 콤보! 받아라～!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage1Dialogue2FaceMaleChild" Value="....인 줄 알았는데,코드가 안 맞잖아!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage3Dialogue1FaceMaleChild" Value="칩 콤보! 받아라～!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler2Stage3Dialogue2FaceMaleChild" Value="....인 줄 알았는데,코드가 안 맞잖아!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler3Stage1Dialogue1FaceFemaleAdult" Value="여자라고,쉽게 보지 마라고!" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetButler3Stage3Dialogue1FaceFemaleAdult" Value="여자라고,쉽게 보지 마라고!" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterMale1Stage1Dialogue1FaceMaleAdult" Value="세.... 세잖아!,뭔 프로라도 되냐!?" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GameCenterMale2Stage1Dialogue1FaceMaleOld" Value="여기서 저 역으로,바꿔야 할까....?,아니면...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GameCenterMale3Stage1Dialogue1FaceMaleChild" Value="아 그래 이거지!,약한 기체로 센 기체를,어떻게든 이겼다고!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.GameCenterGirlStage1Dialogue1FaceFemaleStudent" Value="흐흐～응♪,이 상대방 별 거 아니구만." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterBoyStage1Dialogue1FaceMaleStudent" Value="이 게임만큼은 연습했으니까,원코인 클리어할 수 있어." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterBoyStage1Dialogue2FaceMaleStudent" Value="그렇지만 클리어하는데,1시간이나 걸리니까,한 판 하면 시간이 안 남아...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChangerStage1Dialogue1FaceNone" Value="돈을 게임 플레이에 쓰는,코인으로 바꾸는 환전기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChangerStage1Dialogue2FaceNone" Value="제니 같은 전자 머니도,코인으로 환전할 수 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChangerStage1Dialogue3FaceNone" Value="전자 머니 환전 목적으로,플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChanger2Stage1Dialogue1FaceNone" Value="돈을 게임 플레이에 쓰는,코인으로 바꾸는 환전기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMoneyChanger2Stage1Dialogue2FaceNone" Value="구형이라,전자 머니 환전은 안 된다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterPurikuraStage1Dialogue1FaceNone" Value="찍은 사진을,씰의 형태로 인쇄하는,”포토프리”이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterPurikuraStage1Dialogue2FaceNone" Value="찍은 사진에 보정을 가하거나,문자를 추가하는 등의 편집을,간단하게 할 수 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterPurikuraStage1Dialogue3FaceNone" Value="옛날에는 대유행이었지만,요즘은 일부 여고생 외에는,쓰는 사람이 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterWhiteVendingMachineStage1Dialogue1FaceNone" Value="구매한 제품이 리프트를 통해,아래까지 운반되는 타입의,자동판매기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterWhiteVendingMachineStage1Dialogue2FaceNone" Value="평소에는 자판기에서 안 파는,과자 같은 것들이,진열되어 있는 게 특징이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachineStage1Dialogue1FaceNone" Value="주스를 판매하는 자동판매기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachineStage1Dialogue2FaceNone" Value="콜라 같은 주스 계열 음료와,스포츠 드링크가,태반을 차지하고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMAH-JONGFIGHTCLUBStage1Dialogue1FaceNone" Value="네트워크를 통해,전국의 플레이어와,대전할 수 있는 마작 게임이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMAH-JONGFIGHTCLUBStage1Dialogue2FaceNone" Value="정해진 날 대회가 열리며,그 날이 되면 이 게임이,상당히 인기를 끈다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterMAH-JONGFIGHTCLUBStage1Dialogue3FaceNone" Value="특별한 네트워크를 쓰기 때문에,플러그인은 할 수 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium1Stage1Dialogue1FaceNone" Value="배틀 칩을 써서,간단한 조작으로 넷배틀을,체험할 수 있는 게임이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium1Stage1Dialogue2FaceNone" Value="넷 내비를 가지고 있어도,내비의 능력에 의존하지 않는,전법을 연습할 수 있다고 한다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium2Stage1Dialogue1FaceNone" Value="배틀 칩을 써서,간단한 조작으로 넷배틀을,체험할 수 있는 게임이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterBattleChipStadium2Stage1Dialogue2FaceNone" Value="넷 내비를 가지고 있어도,내비의 능력에 의존하지 않는,전법을 연습할 수 있다고 한다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage1Dialogue1FaceNone" Value="게임 센터에서 가동하는,넷배틀 머신이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage1Dialogue2FaceNone" Value="설정에서 입체 영상을,표시하지 않게 할 수도 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage1Dialogue3FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage3Dialogue1FaceNone" Value="게임 센터에서 가동하는,넷배틀 머신이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage3Dialogue2FaceNone" Value="설정에서 입체 영상을,표시하지 않게 할 수도 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine1Stage3Dialogue3FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage1Dialogue1FaceNone" Value="게임 센터에서 가동하는,넷배틀 머신이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage1Dialogue2FaceNone" Value="박력 넘치는 넷배틀을,즐길 수 있지만 지금은,다른 사람이 쓰고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage3Dialogue1FaceNone" Value="게임 센터에서 가동하는,넷배틀 머신이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterNetBattleMachine2Stage3Dialogue2FaceNone" Value="박력 넘치는 넷배틀을,즐길 수 있지만 지금은,다른 사람이 쓰고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame1Stage1Dialogue1FaceNone" Value="피규어 상자를,밀어서 떨어뜨리는 타입의,뽑기 게임이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame1Stage1Dialogue2FaceNone" Value="경품으로 ”몽환기동 제레이브”의,캐릭터 피규어가 나와 있지만,얻으려면 꽤 고생해야 할 것 같다." Face="None" Mono="False" />
+  <!-- フィギュアの箱に２２９７６４５３と書かれた紙が貼り付けられている -->
+  <Dialogue Key="Map.GameCenterCraneGame1Stage1Dialogue3FaceNone" Value="피규어 상자에,22976453이라고 써진,종이가 붙어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame2Stage1Dialogue1FaceNone" Value="작은 인형을 잔뜩,뽑을 수 있는 타입의,인형뽑기 게임이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCraneGame2Stage1Dialogue2FaceNone" Value="대충 해도 2개 정도는,굴러 떨어져 주니까,가볍게 하고 놀 수 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachine2Stage1Dialogue1FaceNone" Value="아이스크림을 파는,자동판매기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRedVendingMachine2Stage1Dialogue2FaceNone" Value="너무 얼려서 딱딱한,아이스크림이 나오기 때문에,먹으려면 각오를 조금 해야 한다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash1Stage1Dialogue1FaceNone" Value="빈 캔이나 페트병이,가득 들어 있는 쓰레기통이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash1Stage1Dialogue2FaceNone" Value="투입구는 따로 나뉘어 있지만,안에서 내용물이 서로 섞인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash1Stage1Dialogue3FaceNone" Value="....안에 반짝하고,빛나는 게 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash2Stage1Dialogue1FaceNone" Value="빈 캔이나 페트병을,버리는 쓰레기통이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterTrash2Stage1Dialogue2FaceNone" Value="마시고 남은 게 안에서 섞였는지,쓰레기통 근처에서 이상한 냄새가,엄청 배어 나온다...." Face="None" Mono="False" />
+</data>

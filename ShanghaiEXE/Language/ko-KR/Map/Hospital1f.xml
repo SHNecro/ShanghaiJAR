@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 八意総合病院1F -->
+  <Text Key="Map.Hospital1fName" Value="야고코로 종합 병원 1층" />
+  <!-- エレベーターの扉が開いた！何階へ行きますか？ -->
+  <Dialogue Key="Map.Hospital1fElevatorStage1Dialogue1FaceNone" Value="엘리베이터이 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.Hospital1fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- ２階３階乗らない -->
+  <Text Key="Map.Hospital1fElevatorStage1Dialogue2Options" Value="2층,3층,안 탄다" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital1fSofaStage1Dialogue1FaceNone" Value="대합실용 소파다." Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital1fSofaStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeStage1Dialogue1FaceNone" Value="대합실용 소파다." Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <!-- 待合用のソファだ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeDupeStage1Dialogue1FaceNone" Value="대합실용 소파다." Face="None" Mono="False" />
+  <!-- 柔らかそうにみえて座ってみると意外と硬い座り心地だ -->
+  <Dialogue Key="Map.Hospital1fSofaDupeDupeStage1Dialogue2FaceNone" Value="부드러워 보이지만,앉아 보면 의외로,착석감이 좀 딱딱하다." Face="None" Mono="False" />
+  <!-- 小さなかわいらしい花だんだ -->
+  <Dialogue Key="Map.Hospital1fFlowerStage1Dialogue1FaceNone" Value="작고 귀여운 화단이다." Face="None" Mono="False" />
+  <!-- 一見すると普通の花に見えるがよく見ると造花のようだ -->
+  <Dialogue Key="Map.Hospital1fFlowerStage1Dialogue2FaceNone" Value="얼핏 보면 그냥 꽃처럼 보이지만,잘 보니까 조화 같다." Face="None" Mono="False" />
+  <!-- 小さなかわいらしい花だんだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeStage1Dialogue1FaceNone" Value="작고 귀여운 화단이다." Face="None" Mono="False" />
+  <!-- 一見すると普通の花に見えるがよく見ると造花のようだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeStage1Dialogue2FaceNone" Value="얼핏 보면 그냥 꽃처럼 보이지만,잘 보니까 조화 같다." Face="None" Mono="False" />
+  <!-- プラグインできないタイプの自動販売機だ -->
+  <Dialogue Key="Map.Hospital1fRedVendingMachine2Stage1Dialogue1FaceNone" Value="플러그인할 수 없는 타입의,자동판매기이다." Face="None" Mono="False" />
+  <!-- 小さなかわいらしい花だんだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeDupeStage1Dialogue1FaceNone" Value="작고 귀여운 화단이다." Face="None" Mono="False" />
+  <!-- 一見すると普通の花に見えるがよく見ると造花のようだ -->
+  <Dialogue Key="Map.Hospital1fFlowerDupeDupeStage1Dialogue2FaceNone" Value="얼핏 보면 그냥 꽃처럼 보이지만,잘 보니까 조화 같다." Face="None" Mono="False" />
+  <!-- 壁の高いところに大きなテレビが吊り下げられている -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue1FaceNone" Value="벽 높은 곳에 큰 TV가,걸려 있다." Face="None" Mono="False" />
+  <!-- 待っている間の暇つぶしに見るものなのだろうかニュース番組が写っている -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue2FaceNone" Value="기다리는 동안 심심풀이로,보라는 건지 뉴스 방송이,틀어져 있다." Face="None" Mono="False" />
+  <!-- テレビから伸びる線の先に操作用のリモコンが備え付けられている -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue3FaceNone" Value="TV에서 아래로 뻗어 있는 선 끝에,조작용 리모콘이 설치되어 있다." Face="None" Mono="False" />
+  <!-- リモコンにプラグインできそうだ！ -->
+  <Dialogue Key="Map.Hospital1fTVSetStage1Dialogue4FaceNone" Value="리모콘에 플러그인할 수,있는 것 같다!" Face="None" Mono="False" />
+  <!-- 献血を積極的に行うよううったえかけているポスターだ -->
+  <Dialogue Key="Map.Hospital1fPosterStage1Dialogue1FaceNone" Value="헌혈을 적극적으로 하도록,권하는 포스터이다." Face="None" Mono="False" />
+  <!-- もしかして　と思ったら救急車を呼ぶようにとうったえかけているポスターだ -->
+  <Dialogue Key="Map.Hospital1fPosterDupeStage1Dialogue1FaceNone" Value="만의 하나의 상황이 오면,구급차를 부르도록,권하는 포스터이다." Face="None" Mono="False" />
+  <!-- 関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.Hospital1fDoorStage1Dialogue1FaceNone" Value="관계자 이외 출입 금지,라고 써져 있다." Face="None" Mono="False" />
+  <!-- 比那名居さんのお見舞いですか？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue1FaceNurse" Value="히나나위 씨의,병문안 때문에 오셨나요?" Face="Nurse" Mono="False" />
+  <!-- 病室はお二階ですよエレベーターをお使いくださいね -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage1Dialogue2FaceNurse" Value="병실은 2층에 있습니다.,엘리베이터를 이용해 주시면,됩니다." Face="Nurse" Mono="False" />
+  <!-- 待ち時間がヒマでしたらチップトレーダーなんてどうでしょうか？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage3Dialogue1FaceNurse" Value="기다리시는 동안 한가하시다면,칩 트레이더를 이용해 보시는 건,어떨까요?" Face="Nurse" Mono="False" />
+  <!-- よく家族のお見舞いに来た子どもたちがそこで一喜一憂してるんですよ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse1ConversationStage3Dialogue2FaceNurse" Value="자주 가족의 병문안을 오는,아이들이 있는데,거기서 매번 일희일비한답니다." Face="Nurse" Mono="False" />
+  <!-- 昔はナース服って真っ白だったんだけど今は色付きが主流なの -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage1Dialogue1FaceNurse" Value="옛날에는 간호사복 하면,순백색이었는데,요즘은 색이 있는 게 유행이야." Face="Nurse" Mono="False" />
+  <!-- どうしてって？うーん････どうしてかしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage1Dialogue2FaceNurse" Value="어째서냐고?,으～음.... 왜일까?" Face="Nurse" Mono="False" />
+  <!-- 最新の医療機器はネットワークに対応してるけれどセキュリティ面は大丈夫かな -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage3Dialogue1FaceNurse" Value="최신 의료기기들은,네트워크에 대응하고 있는데,보안은 괜찮을까 모르겠어." Face="Nurse" Mono="False" />
+  <!-- 何かあったらお隣のエージェントセンターに駆け込めばいいのかな？ -->
+  <Dialogue Key="Map.Hospital1fChapter5Nurse2Stage3Dialogue2FaceNurse" Value="무슨 일이 벌어지면,옆에 있는 에이전트 센터로,달려가는 게 나을까?" Face="Nurse" Mono="False" />
+  <!-- どっこいしょっとこの歳になると病院に頻繁にお世話になるわい -->
+  <Dialogue Key="Map.Hospital1fChapter5OldManStage1Dialogue1FaceMaleElderly" Value="엿차....,이 나이가 되면 병원에,빈번하게 가게 되는구먼." Face="MaleElderly" Mono="False" />
+  <!-- おばあちゃんのお見舞いに来たのー！ -->
+  <Dialogue Key="Map.Hospital1fChapter5ToothpicksStage1Dialogue1FaceFemaleChild" Value="할머니 병문안 때문에 왔어!" Face="FemaleChild" Mono="False" />
+  <!-- おばあちゃんの大好きなおせんべい持ってきたんだ！ -->
+  <Dialogue Key="Map.Hospital1fChapter5ToothpicksStage1Dialogue2FaceFemaleChild" Value="할머니가 좋아하는,전병도 들고 왔어!" Face="FemaleChild" Mono="False" />
+  <!-- ゴホゴホ････風邪を引いたかもしれないから診察を受けに来たんだ -->
+  <Dialogue Key="Map.Hospital1fChapter5OlderManStage1Dialogue1FaceMaleOld" Value="콜록 콜록....,감기에 걸렸을지도 모르니까,진찰을 받으러 왔어." Face="MaleOld" Mono="False" />
+  <!-- 天子　元気そうだったわね -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage1Dialogue1FaceShanghai" Value="텐시 건강해 보였지." Face="Shanghai" Mono="False" />
+  <!-- 私　心配しすぎちゃってたかな？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage1Dialogue2FaceAlice" Value="내가 너무 걱정한 걸까?" Face="Alice" Mono="False" />
+  <!-- あら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage3Dialogue1FaceAlice" Value="어라?" Face="Alice" Mono="False" />
+  <!-- すみませーん！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage5Dialogue1FaceNone" Value="저기요～!" Face="None" Mono="False" />
+  <!-- これ　あなたの缶ジュース？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue1FaceAlice" Value="이거 네 주스니?" Face="Alice" Mono="False" />
+  <!-- はい････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue2FaceSatori" Value="네...." Face="Satori" Mono="False" />
+  <!-- さとり　もうちょっと右だよ！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue3FaceRin" Value="사토리，조금 더 오른쪽이야!" Face="Rin" Mono="False" />
+  <!-- あれ？　大丈夫？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue4FaceAlice" Value="어라? 괜찮아?" Face="Alice" Mono="False" />
+  <!-- ごめんなさい目が見えないもので････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue5FaceSatori" Value="죄송합니다.,앞이 보이지 않아서...." Face="Satori" Mono="False" />
+  <!-- えっ････？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue6FaceAlice" Value="어....?" Face="Alice" Mono="False" />
+  <!-- ････あたたかい手あなたは優しい人なんですね -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue7FaceSatori" Value="....상냥하신 분.,손이 따뜻하네요." Face="Satori" Mono="False" />
+  <!-- さとりお姉ちゃーん！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage7Dialogue8FaceNone" Value="사토리 언니～!" Face="None" Mono="False" />
+  <!-- 何か落としたみたいだけど大丈夫？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage9Dialogue1FaceKoishi" Value="뭔가 떨어뜨린 것 같은데,괜찮아?" Face="Koishi" Mono="False" />
+  <!-- ええ　この人が拾ってくれたのよ　こいし　 -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage9Dialogue2FaceSatori" Value="괜찮아，코이시.,이 분이 주워 주셨어." Face="Satori" Mono="False" />
+  <!-- うにゅ！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage9Dialogue3FaceUtsuho" Value="우뉴!" Face="Utsuho" Mono="False" />
+  <!-- ありがとうございました！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue1FaceKoishi" Value="감사합니다!" Face="Koishi" Mono="False" />
+  <!-- じゃあ　お姉ちゃん売店にでも行こっか！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue2FaceKoishi" Value="그럼 언니，,매점에라도 가자!" Face="Koishi" Mono="False" />
+  <!-- ええ　そうね -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage11Dialogue3FaceSatori" Value="그래，그러자." Face="Satori" Mono="False" />
+  <!-- あなた　比那名居さんのお友達？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue1FaceEirin" Value="혹시 히나나위 씨의 친구니?" Face="Eirin" Mono="False" />
+  <!-- あ　はい！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue2FaceAlice" Value="아，네!" Face="Alice" Mono="False" />
+  <!-- 私は比那名居さんの担当医の八意永琳よ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue3FaceEirin" Value="난 히나나위 씨의 담당의란다.,야고코로 에이린이야." Face="Eirin" Mono="False" />
+  <!-- あなた時間ある？ちょっとお話でもしない？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue4FaceEirin" Value="혹시 시간 되니?,잠깐 이야기라도 하지 않을래?" Face="Eirin" Mono="False" />
+  <!-- 時間はありますけど････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue5FaceAlice" Value="시간은 있긴 한데...." Face="Alice" Mono="False" />
+  <!-- ありがとう -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue6FaceEirin" Value="걱정 마，,오래 걸리지는 않을 거야." Face="Eirin" Mono="False" />
+  <!-- そこの角の自動販売機の前でジュースでも飲みながら話しましょう -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage13Dialogue7FaceEirin" Value="저 구석에 있는 자판기 앞에서,주스라도 마시면서 이야기할까?" Face="Eirin" Mono="False" />
+  <!-- 何の話かしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage15Dialogue1FaceAlice" Value="무슨 이야기일까?" Face="Alice" Mono="False" />
+  <!-- さあね？八意って苗字には聞き覚えがあるけど -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage15Dialogue2FaceShanghai" Value="글쎄?,야고코로라는 성씨는,들어본 적이 있는데." Face="Shanghai" Mono="False" />
+  <!-- とにかく行ってみましょう -->
+  <Dialogue Key="Map.Hospital1fChapter5EventsStage15Dialogue3FaceAlice" Value="일단 가 보자." Face="Alice" Mono="False" />
+  <!-- はい　お茶どうぞ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue1FaceEirin" Value="자，여기 캔 차." Face="Eirin" Mono="False" />
+  <!-- ありがとうございます -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue2FaceAlice" Value="감사합니다." Face="Alice" Mono="False" />
+  <!-- さっきあなたが話してた子ＣＷＦＤっていう病気なの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue3FaceEirin" Value="아까 네가 이야기했던 그 애....,CWFD라는 병을 앓고 있어." Face="Eirin" Mono="False" />
+  <!-- ＣＷＦＤ････？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue4FaceAlice" Value="CWFD라니요....?" Face="Alice" Mono="False" />
+  <!-- 先天性衰弱因子障････身体の器官が徐々に弱くなっていく病気よ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue5FaceEirin" Value="선천성 쇠약 인자 증후군....,체내의 기관들이 서서히,약해져 가는 질병이야." Face="Eirin" Mono="False" />
+  <!-- あの子だけじゃないこの病院に入院している人はいろんな病気で悩んでる -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue6FaceEirin" Value="저 애 뿐만이 아니야.,이 병원에 입원해 있는 사람들은,다양한 병에 시달리고 있어." Face="Eirin" Mono="False" />
+  <!-- その悩みを治療で解決するのが私達医者の役目なのよ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue7FaceEirin" Value="그 고통을 치료해서,해결하는 게,우리 의사들의 역할이야." Face="Eirin" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue8FaceAlice" Value="네...." Face="Alice" Mono="False" />
+  <!-- あら　退屈な話だったかしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue9FaceEirin" Value="어머，지루한 이야기였으려나?" Face="Eirin" Mono="False" />
+  <!-- いえ　どうして私を誘ったのかな　って････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue10FaceAlice" Value="아니，그것보다는 왜 저하고,이야기를 하고 싶으셨던 건지,싶어서..." Face="Alice" Mono="False" />
+  <!-- そうねぇ････私の娘がお世話になったといえばわかるかしら？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue11FaceEirin" Value="그렇네....,내 딸이 신세 지고 있다,그렇게 말하면 알까?" Face="Eirin" Mono="False" />
+  <!-- 娘？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue12FaceAlice" Value="딸이요?" Face="Alice" Mono="False" />
+  <!-- 八意永琳････八意････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue13FaceShanghai" Value="야고코로 에이린.... 야고코로...." Face="Shanghai" Mono="False" />
+  <!-- 八意････八意鈴仙････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue14FaceShanghai" Value="어 잠깐만，야고코로면....,야고코로 레이센...." Face="Shanghai" Mono="False" />
+  <!-- もしかして　鈴仙の？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue15FaceAlice" Value="혹시 레이센의....?" Face="Alice" Mono="False" />
+  <!-- 正解！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue16FaceEirin" Value="정답!" Face="Eirin" Mono="False" />
+  <!-- といっても　実の娘じゃなくて養女なんだけどね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue17FaceEirin" Value="물론 실제 딸은 아니고,양녀이지만 말야." Face="Eirin" Mono="False" />
+  <!-- 人との関わりが薄いあの娘が最近あなたのことばかり話すもんだから -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue18FaceEirin" Value="인간 관계가 희박한 그 애가,최근에 계속 네 이야기만,하고 있거든." Face="Eirin" Mono="False" />
+  <!-- どういった子なんだろうって思ったの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue19FaceEirin" Value="대체 어떤 애인가 싶어서." Face="Eirin" Mono="False" />
+  <!-- 私のことを？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue20FaceAlice" Value="제 이야기를 한다구요?" Face="Alice" Mono="False" />
+  <!-- あなた　ネットバトルで鈴仙に勝ったんでしょう？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue21FaceEirin" Value="너 넷배틀에서,레이센한테 이겼었지?" Face="Eirin" Mono="False" />
+  <!-- あの娘は　今まで誰かに負けたことってなかったの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue22FaceEirin" Value="그 애는 지금까지 단 한 번도,다른 누군가한테,져 본 적이 없어." Face="Eirin" Mono="False" />
+  <!-- だからかしらね最近　ちょっとだけ変わったみたいなの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue23FaceEirin" Value="그래서일까，,최근 조금이지만,바뀐 것 같아." Face="Eirin" Mono="False" />
+  <!-- ふーん････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue24FaceShanghai" Value="흐음...." Face="Shanghai" Mono="False" />
+  <!-- ねえ　あなたがもし良かったらあの娘の････鈴仙の友達になってくれない？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue25FaceEirin" Value="있지，혹시 괜찮다면,그 애.... 레이센의,친구가 되어 주지 않을래?" Face="Eirin" Mono="False" />
+  <!-- 私が鈴仙と？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue26FaceAlice" Value="레이센의 친구요? 제가?" Face="Alice" Mono="False" />
+  <!-- あの娘････今までずっと一人で生きてきたの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue27FaceEirin" Value="그 애는.... 지금까지 줄곧,홀로 살아 왔어." Face="Eirin" Mono="False" />
+  <!-- ････あの　よかったら鈴仙のこと教えてくれませんか？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue28FaceAlice" Value="....저기，괜찮다면,레이센에 대해서,알려주실 수 있나요?" Face="Alice" Mono="False" />
+  <!-- あら　急にどうしたの？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue29FaceShanghai" Value="어머，갑자기 무슨 일이니?" Face="Shanghai" Mono="False" />
+  <!-- 永琳さんの口調と今までの鈴仙の言動からちょっと気になって････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue30FaceAlice" Value="에이린 씨께서 이야기하시는 거랑,지금까지의 레이센의 행동이,좀 신경 쓰여서요...." Face="Alice" Mono="False" />
+  <!-- ・・・・わかったわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue31FaceEirin" Value="....알겠어." Face="Eirin" Mono="False" />
+  <!-- あれは４年前････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue32FaceEirin" Value="이건 4년 전의 이야기야...." Face="Eirin" Mono="False" />
+  <!-- 私があの娘と出会った時････あの娘はアラブスタンで兵士として戦っていた -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue33FaceEirin" Value="내가 그 애를 만났을 때....,그 애는 아랍스탄에서,병사로써 싸우고 있었어." Face="Eirin" Mono="False" />
+  <!-- ４年前って････鈴仙は私と同じくらいの歳だから１０歳の時？ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue34FaceAlice" Value="4년 전이면....레이센은,저랑 같은 나이대일 거고,그러면 10살 때 이야기인가요?" Face="Alice" Mono="False" />
+  <!-- そうね　それくらいの時 -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage1Dialogue35FaceEirin" Value="그렇네，딱 그 때 즈음이야." Face="Eirin" Mono="False" />
+  <!-- 鈴仙に　そんな過去が････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue1FaceAlice" Value="레이센한테 그런 과거가...." Face="Alice" Mono="False" />
+  <!-- そんなあの娘があなたという存在に興味を抱いた -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue2FaceEirin" Value="그런 애가,너라는 존재에게,흥미를 가지기 시작했어." Face="Eirin" Mono="False" />
+  <!-- あの娘が次のステップに進めるかもしれないってそう思ったの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue3FaceEirin" Value="그 애가 다음 단계로,넘어갈 수 있을 수도,있겠다는 생각이 들었어." Face="Eirin" Mono="False" />
+  <!-- だから　あなたに････アリスさんに歩み寄ってとお願いしたいわけなの -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue4FaceEirin" Value="그러니까 너한테....,그 애한테 한 발짝 다가가,달라고 부탁하고 싶은 거야." Face="Eirin" Mono="False" />
+  <!-- そうだったんですか････ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue5FaceAlice" Value="그랬군요...." Face="Alice" Mono="False" />
+  <!-- ････できるかどうか保証はできませんが -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue6FaceAlice" Value="....될 지 어쩔 지,보장은 못 하겠어요." Face="Alice" Mono="False" />
+  <!-- 鈴仙と････友達になってみようと思います -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue7FaceAlice" Value="그렇지만.... 레이센이랑,친구가 되고 싶어요." Face="Alice" Mono="False" />
+  <!-- 本当！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue8FaceEirin" Value="어머，진짜!" Face="Eirin" Mono="False" />
+  <!-- 鈴仙には　天子を助けられた恩もありますし -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue9FaceAlice" Value="레이센 덕분에,텐시가 살았기도 했으니까요." Face="Alice" Mono="False" />
+  <!-- あなたってすごくいい子なのね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue10FaceEirin" Value="정말 마음씨 좋은 애구나，넌." Face="Eirin" Mono="False" />
+  <!-- でも　向こうが拒否した場合はさすがに面倒みきれないわよ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue11FaceShanghai" Value="그래도 걔 측에서 거부한다면,아무리 우리라 해도,어쩔 수 없어." Face="Shanghai" Mono="False" />
+  <!-- 無理をしてまでとは言わないわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue12FaceEirin" Value="억지로 친구가 되어 달라는,이야기가 아냐." Face="Eirin" Mono="False" />
+  <!-- 時間とらせちゃってごめんなさいね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue13FaceEirin" Value="너무 시간 끌어서 미안해.,나도 이제 슬슬 돌아가야겠네." Face="Eirin" Mono="False" />
+  <!-- じゃあ　天子のことよろしくおねがいしますね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue14FaceAlice" Value="아니，괜찮아요.,텐시 잘 부탁드릴게요." Face="Alice" Mono="False" />
+  <!-- フフ　安心してバッチリ治しちゃうから -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage3Dialogue15FaceEirin" Value="후훗，안심해.,흔적 하나 안 남기고,치료해 줄 테니까." Face="Eirin" Mono="False" />
+  <!-- 比那名居さんのことは心配しないでいいわよ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue1FaceEirin" Value="히나나위 씨에 대해서는,걱정하지 않아도 돼." Face="Eirin" Mono="False" />
+  <!-- この天才女医がついてるんだからね！ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue2FaceEirin" Value="이 천재 여의사가,함께하니까 말이야!" Face="Eirin" Mono="False" />
+  <!-- あはは････お願いします -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage5Dialogue3FaceAlice" Value="아하하.... 잘 부탁드려요." Face="Alice" Mono="False" />
+  <!-- 鈴仙のことよろしくね -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage7Dialogue1FaceEirin" Value="레이센을 잘 부탁해." Face="Eirin" Mono="False" />
+  <!-- さとりさんならひと月もしないうちに退院できると思うわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage9Dialogue1FaceEirin" Value="사토리라면 한 달도 안 지나서,퇴원할 수 있을 거야." Face="Eirin" Mono="False" />
+  <!-- ずっとあの子の入院を見ていた身としてなんだか感慨深いわ -->
+  <Dialogue Key="Map.Hospital1fChapter5EirinStage9Dialogue2FaceEirin" Value="그 아이가 입원하는 모습을,여태까지 계속 봐 왔는데,뭔가 감회가 깊네." Face="Eirin" Mono="False" />
+  <!-- あなた達にはすっかり助けられちゃったわね -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue1FaceEirin" Value="위기의 순간이었는데,너희들 덕분에 살았어." Face="Eirin" Mono="False" />
+  <!-- 私達はたださとりさんを助けたかったそれだけです -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue2FaceAlice" Value="저희는 그저 사토리 씨를,구하고 싶었던 것 뿐이에요." Face="Alice" Mono="False" />
+  <!-- 素直にそう言えるあなたの心がけに私からのお礼よ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue3FaceEirin" Value="너희들은 그렇게 솔직하게,말할 수 있구나.,너희들에게 주고픈 게 있어." Face="Eirin" Mono="False" />
+  <!-- これは？ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue4FaceAlice" Value="이건 뭔가요?" Face="Alice" Mono="False" />
+  <!-- ヒマな時にでも組み込んで試してみてね！ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue5FaceEirin" Value="한가할 때 한 번,설치해서 써 보렴!" Face="Eirin" Mono="False" />
+  <!-- まあ　もうすでに剥ぎ取ったダークチップがあるからお礼は十分もらってるけどね -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue6FaceShanghai" Value="사실 아까 전에 떼어낸,다크칩이 있으니까 그것만으로도,사례는 충분하다고 생각하는데." Face="Shanghai" Mono="False" />
+  <!-- あと　そうださとりさんがあなた達に会いたがってたみたいよ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue7FaceEirin" Value="아，그리고，,사토리 씨가 너희들을,만나고 싶다나 봐." Face="Eirin" Mono="False" />
+  <!-- 時間のあるときにお見舞いに行ってあげたら喜ぶんじゃない？ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue8FaceEirin" Value="시간이 된다면 병문안을 가 주면,기뻐하지 않을까?" Face="Eirin" Mono="False" />
+  <!-- わかりました！ -->
+  <Dialogue Key="Map.Hospital1fHospitalEventStage1Dialogue9FaceAlice" Value="알겠습니다!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital1fHospitalCh5EirinTalkReminder" Value="의사 선생님께서,자판기 옆에서 기다리시는데,그냥 가는 건 너무하지 않아?" Face="Shanghai" Mono="False" />
+</data>

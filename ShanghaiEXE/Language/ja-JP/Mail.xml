@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Mail.Mail1Title" Value="ネット犯罪に注意！" Mono="True" />
   <Text Key="Mail.Mail1Sender" Value="メールニュース" Mono="True" />
@@ -155,8 +155,8 @@
   <Dialogue Key="Mail.Mail22Dialogue2" Value="あなた達の働きで,あの黒いナビたちの正体が,だいたい掴めてきたの" Face="Sagume" Mono="True" />
   <Dialogue Key="Mail.Mail22Dialogue3" Value="それについての報告会を,エージェントセンターで,行うんだけど" Face="Sagume" Mono="True" />
   <Dialogue Key="Mail.Mail22Dialogue4" Value="特例でネットエージェントでは,ないあなたにも参加を,してほしいの" Face="Sagume" Mono="True" />
-  <Dialogue Key="Mail.Mail22Dialogue5" Value="無理にとは言わないけれど,エージェントセンターで,行うんだけど" Face="Sagume" Mono="True" />
-  <Dialogue Key="Mail.Mail22Dialogue6" Value="それについての報告会を,良かったらエージェントセンターの,２階に来てね" Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue5" Value="無理にとは言わないけれど" Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue6" Value="良かったらエージェントセンターの,２階に来てね" Face="Sagume" Mono="True" />
   <Text Key="Mail.Mail23Title" Value="お手数ですが" Mono="True" />
   <Text Key="Mail.Mail23Sender" Value="ブッカー" Mono="True" />
   <Dialogue Key="Mail.Mail23Dialogue1" Value="シャンハイ様　すみません,他の者に聞かれたくない,内密な話があります" Face="Henchie" Mono="True" />

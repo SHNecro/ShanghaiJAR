@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳２ -->
+  <Text Key="Map.ClockTower2Name" Value="시계탑의 전뇌 2" />
+  <!-- セキュリティはすでに解除されている -->
+  <Dialogue Key="Map.ClockTower2TerminalStage1Dialogue1FaceNone" Value="보안이 이미 해제되어 있다." Face="None" Mono="False" />
+  <!-- シンニュウシャ　ハイジョシンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue1FaceAutoroid" Value="침입자 제거.,침입자 제거." Face="Autoroid" Mono="False" />
+  <!-- ええい邪魔するんじゃないわよ！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue2FaceShanghai" Value="진짜 거슬리네!,방해하지 말라고!" Face="Shanghai" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue3FaceAlice" Value="배틀 오퍼레이션，셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage1Dialogue4FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- オートロイド -->
+  <Text Key="Map.ClockTower2ClearEventBattle1Enemy1" Value="오토로이드" />
+  <!-- オートロイド -->
+  <Text Key="Map.ClockTower2ClearEventBattle1Enemy2" Value="오토로이드" />
+  <!-- 感情を持たないナビって薄気味悪いわね････ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue1FaceShanghai" Value="감정이 없는 내비라니,어째 섬뜩한데...." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！早く次へ行きましょう！ -->
+  <Dialogue Key="Map.ClockTower2ClearEventStage3Dialogue2FaceAlice" Value="상하이!,빨리 다음 지역으로 가자!" Face="Alice" Mono="False" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower2GimmickStage1Dialogue1QuestionFaceNone" Value="큰 시계와 연동되는 시계이다.,시곗바늘을 움직이겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower2GimmickStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower2GimmickStage3Dialogue1QuestionFaceNone" Value="시침을 어디로 맞출까?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower2GimmickStage3Dialogue1Options" Value="１２시,　３시,　６시,　９시" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower2GimmickStage5Dialogue1QuestionFaceNone" Value="분침을 어디로 맞출까?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower2GimmickStage5Dialogue1Options" Value="００분,１５분,３０분,４５분" />
+  <!-- セキュリティヲ　カイジョスルニハヒダリシタノ　ホウニイカナキャイケナインデスヨ -->
+  <Dialogue Key="Map.ClockTower2Sprite1AStage1Dialogue1FaceSprite" Value="보안을 해제하려면,왼쪽 아래 방향으로,가야 해요." Face="Sprite" Mono="False" />
+  <!-- デモ　コノ　トケイカラジャヒダリシタヘハ　イケマセンネーアレレー？ -->
+  <Dialogue Key="Map.ClockTower2Sprite1AStage1Dialogue2FaceSprite" Value="그런데 이 시계를 통해서는,왼쪽 아래로 갈 수가 없네요～,이게 무슨 소리야～?" Face="Sprite" Mono="False" />
+  <!-- タンシンヲ　６ジ　ニスレバサキニ　ススメルンデスガサイゴマデハ　イケマセン -->
+  <Dialogue Key="Map.ClockTower2Sprite2AStage1Dialogue1FaceSprite" Value="시침을 6시로 맞추면,앞으로 갈 수는 있지만,마지막까지는 못 가요." Face="Sprite" Mono="False" />
+</data>

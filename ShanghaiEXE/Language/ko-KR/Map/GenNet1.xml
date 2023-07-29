@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　ゲンソウエリア1 -->
+  <Text Key="Map.GenNet1Name" Value="인터넷 환상 에리어 1" />
+  <!-- この四角い物体はセキュリティーキューブって言うんだよ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="이 사각형 물체는,시큐리티 큐브라고 해." Face="NaviGreenRobot" Mono="False" />
+  <!-- これで　知らないナビが勝手に入ってこれないようにホームページを守るんだ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="이걸로 모르는 내비가,멋대로 들어오지 못 하게,홈페이지를 지키는 방식이지." Face="NaviGreenRobot" Mono="False" />
+  <!-- 対応するＰ（パス）コードを持っていれば通れるようになるんだよ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="대응하는 P(패스)코드를,가지고 있다면,지나갈 수 있게 돼." Face="NaviGreenRobot" Mono="False" />
+  <!-- ウィルスを倒すとときどきそのウィルスのバトルチップが入手できるんだ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="바이러스를 쓰러뜨리면,가끔씩 바이러스의 배틀칩을,입수할 수 있어." Face="NaviOrangeMale" Mono="False" />
+  <!-- 実はチップが手に入る確率はバスティングレベルが高いほど上がっていくのさ -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi2Stage1Dialogue2FaceNaviOrangeMale" Value="사실은 칩을 얻을 확률은,버스팅 레벨이 높을 수록,올라가." Face="NaviOrangeMale" Mono="False" />
+  <!-- 欲しいチップがあったらバスティングレベルを気にするといいんじゃないかな -->
+  <Dialogue Key="Map.GenNet1Chapter1ManNavi2Stage1Dialogue3FaceNaviOrangeMale" Value="원하는 칩이 있다면,버스팅 레벨을 신경 쓰면,좋지 않을까?" Face="NaviOrangeMale" Mono="False" />
+  <!-- 電脳世界にたまに四角い物体がふわふわ浮いてるのを見るじゃない？ -->
+  <Dialogue Key="Map.GenNet1ChapterNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="전뇌 세계에 가끔씩,사각형 물체가 둥둥,떠 있는 게 보이잖아?" Face="NaviPinkFemale" Mono="False" />
+  <!-- あれはミステリーデータと言って中にチップデータやお金なんかが入っているのよ -->
+  <Dialogue Key="Map.GenNet1ChapterNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="그건 미스터리 데이터라고 해서,안에 칩 데이터나 돈 같은 게,들어 있어." Face="NaviPinkFemale" Mono="False" />
+  <!-- これはもう見つけ次第バンバン調べて行くっきゃないわね！ -->
+  <Dialogue Key="Map.GenNet1ChapterNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="이건 그냥 보일 때마다,조사해 보는 수밖에 없겠네!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ハロハロ〜！インターネットヘ　ヨウコソ！ -->
+  <Dialogue Key="Map.GenNet1Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="헬로，헬로～!,인터넷에 오신 걸 환영합니다!" Face="Sprite" Mono="False" />
+  <!-- ミドリイロノ　ミチハコノ　ゲンソウエリアノメインストリートデス！ -->
+  <Dialogue Key="Map.GenNet1Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="녹색 길은,이 환상 에리어의,메인 스트리트에요!" Face="Sprite" Mono="False" />
+  <!-- コレニソッテ　アルケバマヨウコト　ナシナシ　デス！ -->
+  <Dialogue Key="Map.GenNet1Chapter1Sprite1Stage1Dialogue3FaceSprite" Value="이 길을 따라 걸어가면,길 잃을 일은 없어요!" Face="Sprite" Mono="False" />
+  <!-- 敵が攻撃する瞬間に攻撃を当てるとカウンターが取れるのは知ってるよね？ -->
+  <Dialogue Key="Map.GenNet1Chapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="적이 공격하는 순간에,공격을 맞추면 카운터를,낼 수 있는 건 알고 있지?" Face="NaviGreenRobot" Mono="False" />
+  <!-- カウンターでとどめを刺すとその敵からバグのかけらとかが手に入るんだよ -->
+  <Dialogue Key="Map.GenNet1Chapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="카운터로 끝을 내면,그 적에게서 버그의 조각,같은 걸 얻을 수 있어." Face="NaviGreenRobot" Mono="False" />
+  <!-- 何のかけらが手に入るかは敵の属性で変わるんだって -->
+  <Dialogue Key="Map.GenNet1Chapter2MaleNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="무슨 조각을 얻을 수 있는지는,적의 속성에 따라,달라진다더라." Face="NaviGreenRobot" Mono="False" />
+  <!-- サブチップを売ってる店っていっぱいあるわよね -->
+  <Dialogue Key="Map.GenNet1Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="서브칩을 파는 상점은,많이 있잖아." Face="NaviPinkFemale" Mono="False" />
+  <!-- 店によって品揃えが違うけど同じ商品でも　実は値段が違うことがあるんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="상점에 따라 취급하는 건 다르지만,같은 상품이라도 사실은,가격이 다른 경우도 있다는데!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 高い商品が安く売られている店を見つけたらお金の節約ができるかもしれないわね！ -->
+  <Dialogue Key="Map.GenNet1Chapter2GirlNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="비싼 상품을 싸게 살 수 있는,상점을 발견하면,돈을 절약할 수도 있겠어!" Face="NaviPinkFemale" Mono="False" />
+  <!-- このゲンソウエリアは幻想町のインターネットエリアなんだよ！ -->
+  <Dialogue Key="Map.GenNet1Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="이 환상 에리어는,환상 마을의 인터넷 에리어야!" Face="NaviChild" Mono="False" />
+  <!-- 中央街や幻想大学のインターネットエリアはシティエリアって言うんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="중앙 마을이나 환상 대학의,인터넷 에리어는,시티 에리어라고 한다더라!" Face="NaviChild" Mono="False" />
+  <!-- 俺は初めて手に入れたチップは面倒くさくても一度使ってみて効果を確かめてるんだ -->
+  <Dialogue Key="Map.GenNet1Chapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="난 처음 얻은 칩은,귀찮더라도 일단 써 보고,효과를 확인해." Face="NaviOrangeMale" Mono="False" />
+  <!-- 一見　弱そうと思ったチップが実は強かった！　ってことが結構あるからね -->
+  <Dialogue Key="Map.GenNet1Chapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="얼핏 보면 약해 보일 거라,생각한 칩이 사실 센 거였다!,이런 경우가 자주 일어나거든." Face="NaviOrangeMale" Mono="False" />
+  <!-- 使ったナビのココロをむしばむダークチップなんてものがあるらしいな -->
+  <Dialogue Key="Map.GenNet1Chapter3YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="사용한 내비의 마음을 갉아먹는,다크칩이라는 게 있다나 봐." Face="NaviOrangeMale" Mono="False" />
+  <!-- でも　もともと悪いココロを持っているナビは　何も影響がないだとか････ -->
+  <Dialogue Key="Map.GenNet1Chapter3YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="근데 애초부터 나쁜 마음을,가지고 있는 내비에게는,아무 영향도 안 간다나 뭐라나...." Face="NaviOrangeMale" Mono="False" />
+  <!-- エイエンエリアって悪名高いウラインターネットに通じてるってウワサよ -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="영원 에리어가 그 악명 높은,우라 인터넷과 연결되어 있다는,소문이 있어." Face="NaviPinkFemale" Mono="False" />
+  <!-- だから前にスクエアで暴れた不良たちもエイエンエリアから来たのかしらね -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="그래서 이전에 스퀘어에서,난동부렸던 그 불량 내비들도,영원 에리어에서 온 걸까?" Face="NaviPinkFemale" Mono="False" />
+  <!-- ネットエージェントって大人ばっかりなんだけどね中学生の子もいるんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi2Stage1Dialogue1FaceNaviChild" Value="넷 에이전트들은,다 어른들뿐일 것 같은데,중학생 애도 있대!" Face="NaviChild" Mono="False" />
+  <!-- えーっと　確か名前は････れ････れい････なんだっけ？ -->
+  <Dialogue Key="Map.GenNet1Chapter3GirlNavi2Stage1Dialogue2FaceNaviChild" Value="어디，분명히 이름이....,레.... 레이.... 뭐였더라?" Face="NaviChild" Mono="False" />
+  <!-- 逃げまわってたＲＯＭのナビがインターネットからいなくなったんだって！ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviChild" Value="도망치고 다니던,ROM의 내비가,인터넷에서 없어졌다더라!" Face="NaviChild" Mono="False" />
+  <!-- これで安心してインターネットを歩けるね！ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1Stage1Dialogue2FaceNaviChild" Value="이제 안심하고,인터넷을 돌아다닐 수 있겠어!" Face="NaviChild" Mono="False" />
+  <!-- 最近ボーダーコンツェルンの活躍の話をよく聞くなあ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1DupeStage1Dialogue1FaceNaviGreenRobot" Value="최근에 보더 콘체른이,활약하는 이야기가 자주 들려." Face="NaviGreenRobot" Mono="False" />
+  <!-- 大企業ってやっぱりすごいんだねえ -->
+  <Dialogue Key="Map.GenNet1Chapter4GirlNavi1DupeStage1Dialogue2FaceNaviGreenRobot" Value="대기업은 역시나 대단하다니까." Face="NaviGreenRobot" Mono="False" />
+  <!-- 最近は事件もないし平和だね〜 -->
+  <Dialogue Key="Map.GenNet1Chapter7GirlNavi1Stage1Dialogue1FaceNaviChild" Value="최근에는 사건도 없고,평화롭네～" Face="NaviChild" Mono="False" />
+  <!-- 魔理のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1MariCubeStage1Dialogue1FaceNone" Value="마리의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- 魔理のＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.GenNet1MariCubeStage1Dialogue2FaceNone" Value="마리의 P코드가 있으면,지나갈 수 있게 된다." Face="None" Mono="False" />
+  <!-- 魔理のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1MariCubeStage3Dialogue1FaceNone" Value="마리의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- 魔理のＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.GenNet1MariCubeStage3Dialogue2FaceNone" Value="마리의 P코드로,시큐리티를 해제했다!" Face="None" Mono="False" />
+  <!-- 里香のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage1Dialogue1FaceNone" Value="리카의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- 里香のＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage1Dialogue2FaceNone" Value="리카의 P코드가 있으면,지나갈 수 있게 된다." Face="None" Mono="False" />
+  <!-- 里香のセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage3Dialogue1FaceNone" Value="리카의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- 里香のＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.GenNet1RikaCubeStage3Dialogue2FaceNone" Value="리카의 P코드로,시큐리티를 해제했다!" Face="None" Mono="False" />
+  <!-- アハハ！あんたも恐怖で震えるがいいさ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage1Dialogue1FaceNaviBlackRobe" Value="아하하!,너도 공포에,벌벌 떨어라!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNet1BlackRobe1Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうゲンソウエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage3Dialogue1FaceShanghai" Value="....후우,환상 에리어에 있는 놈들은,다 쓰러뜨린 것 같네." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue1FaceShanghai" Value="앨리스，전화 왔어!,레이센한테서야!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue2FaceAlice" Value="레이센!,네가 말한 에리어 내에 있는,검은 내비들을 다 쓰러뜨렸어!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue3FaceReisen" Value="여기서도 확인했다.,덕분에 살았어.,고맙다." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue4FaceReisen" Value="아무래도 그 놈들，우라 인터넷,깊은 곳에서 각 지역으로,이동하고 있는 것 같아." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue5FaceReisen" Value="우라 인터넷에서도 여러 번의,교전이 확인되고 있는 이상,우라의 주민일 리도 없고." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue6FaceReisen" Value="계속 부탁해서 미안한데,놈들의 정체를 알아내려고 하는데,거길 조사해 줄 수 있나?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue10FaceShanghai" Value="그 내비들을 뿌리뽑을,수만 있다면 뭐든 해 보겠어." Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue11FaceReisen" Value="고맙다." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue12FaceReisen" Value="보수를 원한다면,넷 에이전트에게,청구해 줘." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue13FaceShanghai" Value="알겠어.,그걸 받으려면 일단,조사를 시작해야겠지!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue14FaceAlice" Value="그런데 우라 인터넷의,깊은 곳이라니.... 괜찮을까?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe1Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
+  <!-- ンガァァァ！ジャマをするんじゃねえぞー！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage1Dialogue1FaceNaviBlackRobe" Value="으그아아아!,방해하지 말란 말이다～앗!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNet1BlackRobe2Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうゲンソウエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage3Dialogue1FaceShanghai" Value="....후우,환상 에리어에 있는 놈들은,다 쓰러뜨린 것 같네." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue1FaceShanghai" Value="앨리스，전화 왔어!,레이센한테서야!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue2FaceAlice" Value="레이센!,네가 말한 에리어 내에 있는,검은 내비들을 다 쓰러뜨렸어!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue3FaceReisen" Value="여기서도 확인했다.,덕분에 살았어.,고맙다." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue4FaceReisen" Value="아무래도 그 놈들，우라 인터넷,깊은 곳에서 각 지역으로,이동하고 있는 것 같아." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue5FaceReisen" Value="우라 인터넷에서도 여러 번의,교전이 확인되고 있는 이상,우라의 주민일 리도 없고." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue6FaceReisen" Value="계속 부탁해서 미안한데,놈들의 정체를 알아내려고 하는데,거길 조사해 줄 수 있나?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue10FaceShanghai" Value="그 내비들을 뿌리뽑을,수만 있다면 뭐든 해 보겠어." Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue11FaceReisen" Value="고맙다." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue12FaceReisen" Value="보수를 원한다면,넷 에이전트에게,청구해 줘." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue13FaceShanghai" Value="알겠어.,그걸 받으려면 일단,조사를 시작해야겠지!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue14FaceAlice" Value="그런데 우라 인터넷의,깊은 곳이라니.... 괜찮을까?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.GenNet1BlackRobe2Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenNet1PostGameBystander2Dialogue1" Value="상하이 언니처럼,되는 게 내 꿈이야!" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.GenNet1PostGameBystander1Dialogue1" Value="안녕하시오，상하이 씨.,오늘도 이 에리어는 평화롭군요." Face="NaviGreenRobot" Mono="False" />
+</data>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.UraNet1Name" Value="우라 인터넷 1" />
+  <Text Key="Map.UraNet1RandomBattle1Enemy1" Value="양아치내비" />
+  <Text Key="Map.UraNet1RandomBattle1Enemy2" Value="양아치내비" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy1" Value="양아치내비" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy2" Value="양아치내비" />
+  <Text Key="Map.UraNet1RandomBattle2Enemy3" Value="양아치내비" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue1FaceNaviPurplePunk" Value="얼씨구，,양지에서 온 내비치고는,나름 관록이 있구만，너." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue2FaceNaviPurplePunk" Value="흐흐흐，그런 너한테,우라의 규칙을 알려주지." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue3FaceNaviPurplePunk" Value="우라는 무법지대이다 보니까,아무데서나 갑자기,넷 내비가 습격해 올 수 있어." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue4FaceNaviPurplePunk" Value="그렇다 보니 쓰러뜨리면,상대방의 칩을 한 장,뺏아올 수 있긴 해." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue5FaceNaviPurplePunk" Value="뭐，졌다면 죽도 밥도 없지만.,우라는 원래 그런 법이야." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3ManStage1Dialogue6FaceNaviPurplePunk" Value="딜리트당하지 않게,조심하기나 하라고." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Man2Stage1Dialogue1FaceNaviPurplePunk" Value="여기까지 와 버렸다면,영원 에리어로는 못 돌아가." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Man2Stage1Dialogue2FaceNaviPurplePunk" Value="뭘 해도 돌아가고 싶다면,이 에리어 1 안쪽 깊은 곳에,있는 워프를 찾아야 해." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Female1Stage1Dialogue1FaceNaviPurpleFemale" Value="양지에서는 한 실력 했다손 쳐도,이 음지에서는 어떨까나?,후후후...." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3Female1Stage1Dialogue2FaceNaviPurpleFemale" Value="고작 이런 데에서 고생했다간,이 뒤에 가면 가차없이,딜리트당할텐데?♪" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue1FaceNaviPurpleHeel" Value="헤헤헤，거기 누님.,다크칩 가지고 싶어?" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue2FaceNaviPurpleHeel" Value="지금이면 80000 제니에,팔려고 하는데." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue3QuestionFaceNaviPurpleHeel" Value="살 거야?" Face="NaviPurpleHeel" Mono="False" />
+  <Text Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue3Options" Value="예,아니오" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue4FaceNaviPurpleHeel" Value="아니，그러면 나 왜 불렀는데.,딴 데 가시든가." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue5FaceNaviPurpleHeel" Value="헤헤헤，감사합니다!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage1Dialogue6FaceNaviPurpleHeel" Value="칫.... 소지금이 부족하잖아.,흙수저한테는 용건 없어.,돌아가，돌아가." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage3Dialogue1FaceNaviPurpleHeel" Value="내 방침 상 한 사람 당,하나씩만 팔아." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter3DarkSellerStage3Dialogue2FaceNaviPurpleHeel" Value="돌아가，돌아가." Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter4GirlNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="후후후，여기서 날 습격해 오는,내비들을 역관광시키고,칩을 모으고 있어." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet1Chapter4Navi2Stage1Dialogue1FaceNaviPurplePunk" Value="이 근처에 다크칩 상인이,있다고 들었는데,대체 어디 있는 거야?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage1Dialogue1FaceNone" Value="꺼림칙한 문이,길을 막고 있어서,지나갈 수가 없다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue1FaceNone" Value="상하이는,'ROM ID카드'를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1ROMGateStage3Dialogue2FaceNone" Value="꺼림칙한 문이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1GuidePlateStage1Dialogue1FaceNone" Value="이 앞은 위험함!,목숨이 아깝다면 거기 워프,타고 돌아가셈" Face="None" Mono="False" />
+  <Dialogue Key="Map.UraNet1PostgameTouristDialogue1" Value="여기가 우라 인터넷이구나....,개무섭네!" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.UraNet1PostgameTouristDialogue2" Value="“니 따위 한 방 ㅇㅈㄹㅋㅋ”,어땠어?,우라 사람 같아 보여?" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.UraNet1PostgamePunkNaviDialogue1" Value="헤헤헤헤....,뭘 보고 있어!?,나한테 신경 끄시지!" Face="NaviPurplePunk" Mono="False" />
+</data>

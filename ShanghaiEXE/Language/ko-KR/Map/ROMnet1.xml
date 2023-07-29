@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭの電脳１ -->
+  <Text Key="Map.ROMnet1Name" Value="ROM의 전뇌 1" />
+  <!-- ふん　お友達を盾にここまで来るなんてやるじゃないの！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue1FaceMurasa" Value="흥，친구를 방패 삼아,여기까지 오다니,제법 하는구만 그래!" Face="Murasa" Mono="False" />
+  <!-- ここまで来たならあとはあんたをぶちのめすだけ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue2FaceShanghai" Value="여기까지 왔다면,이제 널 두들겨패기만,하면 끝이겠네!" Face="Shanghai" Mono="False" />
+  <!-- ふん！　あの頃の私と同じと思わないでよ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue3FaceMurasa" Value="훗! 그 때의 나랑,똑같다고 생각하지 말라고!" Face="Murasa" Mono="False" />
+  <!-- それ以上にあたしたちも強くなっているのよ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue4FaceShanghai" Value="우리도,그 때 이상으로 세졌거든!" Face="Shanghai" Mono="False" />
+  <!-- それじゃあ　証明してあげる！どちらのほうが強いかって！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue5FaceMurasa" Value="그러면 어느 쪽이 더 센지,내 직접 증명해 주겠어!" Face="Murasa" Mono="False" />
+  <!-- 上等！アリス　行くわよ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue6FaceShanghai" Value="말 잘 했다!,가자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- ええ！バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue7FaceAlice" Value="그래!,배틀 오퍼레이션，셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage1Dialogue8FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- くっ････！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage3Dialogue1FaceMurasa" Value="크윽....!" Face="Murasa" Mono="False" />
+  <!-- こうなったら私のエネルギーで水圧レーザーを最大出力にしてやる！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage3Dialogue2FaceMurasa" Value="이렇게 된 이상 내 에너지로,수압 레이저의 출력을,최대치까지 끌어올려주마!" Face="Murasa" Mono="False" />
+  <!-- そうなればあなたのお友達もまっぷたつよ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage3Dialogue3FaceMurasa" Value="그렇게 되면 니 친구도,반으로 갈라져 죽겠지!" Face="Murasa" Mono="False" />
+  <!-- そうはさせっかよ！！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage3Dialogue4FaceNone" Value="누가 그렇게 하게 두겠냐고!!" Face="None" Mono="False" />
+  <!-- ボルテックアームッ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage3Dialogue5FaceNone" Value="볼틱 암!" Face="None" Mono="False" />
+  <!-- スパナマン！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue1FaceShanghai" Value="스패너맨!" Face="Shanghai" Mono="False" />
+  <!-- どうだ　シャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue2FaceSpannerMan" Value="어때，상하이!,반할 만하지!" Face="SpannerMan" Mono="False" />
+  <!-- それは置いといて助かったわ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue3FaceShanghai" Value="그 부분은 제껴 두고,덕분에 살았어!" Face="Shanghai" Mono="False" />
+  <!-- 置いとかれた････ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue4FaceSpannerMan" Value="이걸 무시하네...." Face="SpannerMan" Mono="False" />
+  <!-- それはそうと････ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue5FaceShanghai" Value="그건 그렇고...." Face="Shanghai" Mono="False" />
+  <!-- いるんでしょ　ブッカー -->
+  <Dialogue Key="Map.ROMnet1BossEventStage5Dialogue6FaceShanghai" Value="있는 거 다 안다，부화." Face="Shanghai" Mono="False" />
+  <!-- ば　バレてましたか････ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue1FaceHenchie" Value="아니，어떻게 아셨죠...." Face="Henchie" Mono="False" />
+  <!-- あんたたちの忠誠心ならこっそりついてきてるとは思ってたけどね -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue2FaceShanghai" Value="너네들 충성심으로 볼 때,조용히 따라올 거라고,생각은 했었거든." Face="Shanghai" Mono="False" />
+  <!-- ここから先は本当に危険だからあなた達は帰りなさい -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue3FaceShanghai" Value="이 앞은 진짜 위험하니까,너희들은 돌아가." Face="Shanghai" Mono="False" />
+  <!-- あ　そうだついでにこの死にぞこないを連れて行っちゃって -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue4FaceShanghai" Value="아 맞다. 가는 길에,거기 있는 죽다 만 놈도,같이 데리고 가." Face="Shanghai" Mono="False" />
+  <!-- えっ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue5FaceMurasa" Value="네?" Face="Murasa" Mono="False" />
+  <!-- えっ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue6FaceHenchie" Value="예?" Face="Henchie" Mono="False" />
+  <!-- どーーーせデリートしてもバックアップから無限に復活されるんだし -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue7FaceShanghai" Value="어차피 딜리트해 봐야,백업 데이터로,끝도 없이 부활할 거 아냐." Face="Shanghai" Mono="False" />
+  <!-- だったら拉致って更生施設に突っ込めば二度と現れないでしょう -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue8FaceShanghai" Value="그러면 그냥 납치해다가,갱생 시설에 박아 놓으면,두 번 다시 안 나타날 거 아냐." Face="Shanghai" Mono="False" />
+  <!-- ああ　あの最近ナビの更生サービスを始めたあの電脳ですね -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue9FaceHenchie" Value="아，최근에,내비 갱생 서비스를 시작한,그 전뇌 말이군요." Face="Henchie" Mono="False" />
+  <!-- わかりました！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue10FaceHenchie" Value="알겠습니다!" Face="Henchie" Mono="False" />
+  <!-- よし　来るんだ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue11FaceHenchie" Value="좋아，따라와!" Face="Henchie" Mono="False" />
+  <!-- チョット待って私はどうなるの････！？ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage7Dialogue12FaceMurasa" Value="자，잠깐만!,난 이제 어떻게 되는 거야....!?" Face="Murasa" Mono="False" />
+  <!-- ふーこれで一安心････ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue1FaceShanghai" Value="휘우～ 한 숨 돌렸네...." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　大変！水が止まらないわ！ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue2FaceAlice" Value="상하이，큰일이야!,물이 안 멈춰!" Face="Alice" Mono="False" />
+  <!-- なんですって！？ -->
+  <Dialogue Key="Map.ROMnet1BossEventStage9Dialogue3FaceShanghai" Value="뭐야!?" Face="Shanghai" Mono="False" />
+</data>

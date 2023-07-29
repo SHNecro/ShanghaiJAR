@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ROM基地　階段 -->
+  <Text Key="Map.ROMbase2fName" Value="ROM 기지 계단" />
+  <!-- ディスプレイにＲＯＭのロゴマークが映し出されている -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue1FaceNone" Value="디스플레이에 ROM의,로고 마크가 비추어져 있다." Face="None" Mono="False" />
+  <!-- どうやら権限を持つものには相応の情報が表示される特別な画面のようだ -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue2FaceNone" Value="아무래도 권한이 있는 사람들에게만,상응하는 정보를 표시해 주는,특수한 화면 같다." Face="None" Mono="False" />
+  <!-- プラグインができるが中からはその情報を読み取れないだろう -->
+  <Dialogue Key="Map.ROMbase2fDisplayStage1Dialogue3FaceNone" Value="플러그인은 할 수 있지만,안에서 그 정보를,읽어낼 수는 없을 것 같다." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue1FaceNone" Value="뭐가 들어 있는지는 모르지만,묵직하게 무거운 컨테이너다." Face="None" Mono="False" />
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fContainerStage1Dialogue2FaceNone" Value="장소를 생각하면,아마 쓸만한 건,들어있지 않을 것 같다." Face="None" Mono="False" />
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
+  <!-- おそらく場所的にロクなものは入っていないだろう -->
+  <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue1" Value="뭐가 들어 있는지는 모르지만,묵직하게 무거운 컨테이너다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue2" Value="쇠지렛대가 있어야,열 수 있을 정도로,단단하게 밀봉되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue1" Value="암호가 계속 바뀌는 현상인가?,아니，그럴 리가 없는데.,주기가 완전히 다르잖아." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue2" Value="아니면 이 “78234528”이 반복되는,현상은 그냥 진짜 데이터를,보호하기 위한 눈속임 같은데." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue1" Value="녹음 자료가 남아 있었군!,75리터의 만물융화액을 주식회사,June에서 W3 유한회사로...." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue2" Value="분석가한테 보내 보자. ROM과,이어져 있었던 공범이나 ROM이,썼던 위장 수법을 알 수 있겠어." Face="Policeman" Mono="False" />
+</data>

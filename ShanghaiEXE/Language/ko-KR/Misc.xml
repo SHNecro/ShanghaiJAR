@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="" Value="" />
+  <Dialogue Key="Debug.UnimplementedText" Value="[FIRST LINE],[TEXT NOT IMPLEMENTED],[THIRD LINE]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedQuestion" Value="[QUESTION LINE 1],[QUESTION LINE 2]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedAnswer" Value="[OPTION LEFT],[OPTION RIGHT]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Debug.UnimplementedNumset" Value="[NUMSET QUESTION]" Face="Sprite" Mono="False" />
+  <Text Key="Common.Title" Value="환상 네트워크 상하이 에그제" />
+  <Text Key="Startup.LoadGameData" Value="게임 데이터" />
+  <Text Key="Startup.LoadGraphics" Value="그래픽" />
+  <Text Key="Startup.LoadAudio" Value="사운드" />
+  <Text Key="Startup.LoadDevice" Value="입력 장치" />
+  <Text Key="Startup.LoadSave" Value="세이브 데이터" />
+  <Dialogue Key="ChipTrader.RareChipStopDialogue1" Value="이걸 투입했다간,못 돌이킨다고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="ChipTrader.ConfirmQuestion" Value="이렇게 투입할까?" Face="Shanghai" Mono="False" />
+  <Text Key="ChipTrader.ConfirmOptions" Value="예,아니오" />
+  <Dialogue Key="ChipTrader.TradeDialogue1" Value="#u@#세이브 중...." Face="None" Mono="False" />
+  <Dialogue Key="ChipTrader.TradeDialogue2" Value="세이브 완료!" Face="None" Mono="False" />
+  <Dialogue Key="ChipTrader.TradeDialogue3" Value="좋아，어디 그럼!,철컥 철컥.... 덜컹!," Face="None" Mono="False" />
+  <Text Key="ChipTrader.ResultRecipientShanghai" Value="상하이" />
+  <Text Key="ChipTrader.ResultRecipientAlice" Value="앨리스" />
+  <Dialogue Key="ChipTrader.ResultDialogue1Format" Value="　　　　　　{0}는,　　　　　　「{1}　{2} 」,　　　　　　를 얻었다!" Face="None" Mono="False" />
+  <Text Key="ChipTrader.NameToData" Value="가방" />
+  <Text Key="ChipTrader.ChipNumberPrefix" Value=" " />
+  <Text Key="ChipTrader.ChipNumberSuffix" Value="회" />
+  <Dialogue Key="Interior.DiscardQuestion" Value="정말로 이 가구를,처분할 거야?" Face="Shanghai" Mono="False" />
+  <Text Key="Interior.DiscardOptions" Value="예,아니오" />
+  <Text Key="Interior.Place" Value="배치" />
+  <Text Key="Interior.Store" Value="회수" />
+  <Text Key="Interior.Sort" Value="분류" />
+  <Text Key="Interior.Discard" Value="처분" />
+  <Text Key="Interior.Item1" Value="패밀리 테이블" />
+  <Text Key="Interior.Item2" Value="핑크 박스" />
+  <Text Key="Interior.Item3" Value="컴퓨터 책상" />
+  <Text Key="Interior.Item4" Value="분홍색 시트 침대" />
+  <Text Key="Interior.Item5" Value="회색 시트 침대" />
+  <Text Key="Interior.Item6" Value="와이드 화면 컴퓨터" />
+  <Text Key="Interior.Item7" Value="로얄 카운터" />
+  <Text Key="Interior.Item8" Value="파이프랙" />
+  <Text Key="Interior.Item9" Value="평범한 식물" />
+  <Text Key="Interior.Item10" Value="꽃 식물" />
+  <Text Key="Interior.Item11" Value="작은 식물" />
+  <Text Key="Interior.Item12" Value="녹색 더미 미스테리" />
+  <Text Key="Interior.Item13" Value="파랑 더미 미스테리" />
+  <Text Key="Interior.Item14" Value="보라 더미 미스테리" />
+  <Text Key="Interior.Item15" Value="더미 S 큐브" />
+  <Text Key="Interior.Item16" Value="샵 테이블" />
+  <Text Key="Interior.Item17" Value="의뢰게시판" />
+  <Text Key="Interior.Item18" Value="큰 가로수" />
+  <Text Key="Interior.Item19" Value="작은 가로수" />
+  <!-- 花咲き街路樹 -->
+  <Text Key="Interior.Item20" Value="꽃이 핀 가로수" />
+  <Text Key="Interior.Item21" Value="공원 벤치" />
+  <Text Key="Interior.Item22" Value="교탁" />
+  <Text Key="Interior.Item23" Value="학생 책상" />
+  <Text Key="Interior.Item24" Value="유리 테이블" />
+  <Text Key="Interior.Item25" Value="넷배틀 머신 레플리카" />
+  <Text Key="Interior.Item26" Value="휴게실 의자" />
+  <Text Key="Interior.Item27" Value="서브칩 판매기" />
+  <Text Key="Interior.Item28" Value="사무실 책상" />
+  <Text Key="Interior.Item29" Value="공기청정기" />
+  <!-- フォルダスクリーン -->
+  <Text Key="Interior.Item30" Value="폴더 스크린" />
+  <Text Key="Interior.Item31" Value="벽걸이TV" />
+  <Text Key="Interior.Item32" Value="이블아이 소파" />
+  <Text Key="Interior.Item33" Value="이부자리" />
+  <Text Key="Interior.Item34" Value="플라워 전차" />
+  <Text Key="Interior.Item35" Value="샹들리에" />
+  <Text Key="Interior.Item36" Value="G7 커티스 모형" />
+  <Text Key="Interior.Item37" Value="로얄 베드" />
+  <Text Key="Interior.Item38" Value="하얀 칸막이 벽" />
+  <Text Key="Interior.Item39" Value="유리 칸막이 벽" />
+  <!-- 丸テーブル -->
+  <Text Key="Interior.Item40" Value="원형 테이블" />
+  <!-- スイーツテーブル -->
+  <Text Key="Interior.Item41" Value="스위트 테이블" />
+  <!-- ワインテーブル -->
+  <Text Key="Interior.Item42" Value="와인 테이블" />
+  <!-- 花瓶テーブル -->
+  <Text Key="Interior.Item43" Value="꽃병 테이블" />
+  <!-- グルメテーブル -->
+  <Text Key="Interior.Item44" Value="구르메 테이블" />
+  <!-- 高級ソファ -->
+  <Text Key="Interior.Item45" Value="고급 소파" />
+  <!-- インゲレス街路樹 -->
+  <Text Key="Interior.Item46" Value="잉겔레스 가로수" />
+  <!-- 名探偵の像 -->
+  <Text Key="Interior.Item47" Value="명탐정의 동상" />
+  <!-- バス停 -->
+  <Text Key="Interior.Item48" Value="버스 정류장" />
+  <!-- ねこどるぐるみ -->
+  <Text Key="Interior.Item49" Value="네코돌핀 인형" />
+  <!-- ダンボール -->
+  <Text Key="Interior.Item50" Value="골판지 상자" />
+  <!-- 二段ダンボール -->
+  <Text Key="Interior.Item51" Value="2단 골판지 상자" />
+  <Text Key="Interior.Item52" Value="데모 룸" />
+  <Text Key="Interior.Item53" Value="디버그 룸" />
+  <Text Key="NumberSet.SetNumberFormat" Value="{0},,(↑，↓키로 변경)" />
+  <Text Key="MysteryItem.BattleChipText" Value="배틀칩" />
+  <Text Key="MysteryItem.SubChipText" Value="서브칩" />
+  <Text Key="MysteryItem.AddText" Value="애드온" />
+  <Text Key="MysteryItem.BattleChipPhrase" Value="배틀칩" />
+  <Text Key="MysteryItem.SubChipPhrase" Value="서브칩" />
+  <Text Key="MysteryItem.AddonPhrase" Value="애드온" />
+  <Dialogue Key="MysteryData.GetItemDialogue1Format" Value="상하이는 {0},{1} (을)를,얻었다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHPMemoryDialogue1" Value="상하이의 HP의,최대치가 20 상승했다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetRegUpDialogue1Format" Value="레귤러 메모리의,용량이 {0}MB 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetSubMemoryDialogue1" Value="서브칩을 보유할 수 있는,수량이 1 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCorePlusDialogue1" Value="애드온 매니저에서,쓸 수 있는 코어의 수가,1개 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetHertzUpDialogue1Format" Value="애드온 매니저에서,쓸 수 있는 헤르츠의 수가,{0} GHz 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetCannotCarryDialogue1Format" Value="상하이는,{0}　를,이 이상 보유할 수 없다...." Face="None" Mono="False" />
+  <Dialogue Key="MysteryData.GetEncounterDialogue1" Value="아니 이런!,이 미스터리 데이터에는,바이러스가 숨어 있었다!" Face="None" Mono="False" />
+  <Text Key="MysteryData.HalfEnrgText" Value="하프 에너지" />
+  <Text Key="MysteryData.FullEnrgText" Value="풀 에너지" />
+  <Text Key="MysteryData.FirewallText" Value="마크핀" />
+  <Text Key="MysteryData.OpenPortText" Value="오픈 포트" />
+  <Text Key="MysteryData.Anti-VrsText" Value="아바스트" />
+  <Text Key="MysteryData.VirusScnText" Value="바이러스 스캔" />
+  <Text Key="MysteryData.CrakToolText" Value="크랙 툴" />
+  <Text Key="MysteryData.HPMemoryText" Value="ＨＰ 메모리" />
+  <Text Key="MysteryData.RegUpText" Value="레귤러 업　{0}" />
+  <Text Key="MysteryData.SubMemoryText" Value="서브 메모리" />
+  <Text Key="MysteryData.CorePlusText" Value="코어 플러스" />
+  <Text Key="MysteryData.HertzUpText" Value="헤르츠 업　{0}" />
+  <Text Key="MysteryData.BugFragTextPlural" Value="버그의 조각　{0}개" />
+  <Text Key="MysteryData.BugFragText" Value="버그의 조각　{0}개" />
+  <Text Key="MysteryData.FreezeFragTextPlural" Value="프리즈의 조각　{0}개" />
+  <Text Key="MysteryData.FreezeFragText" Value="프리즈의 조각　{0}개" />
+  <Text Key="MysteryData.ErrorFragTextPlural" Value="에러의 조각　{0}개" />
+  <Text Key="MysteryData.ErrorFragText" Value="에러의 조각　{0}개" />
+  <Text Key="MysteryData.ZennyText" Value="{0} 제니" />
+  <Text Key="Request.DataDeliveryName" Value="배달 부탁" />
+  <Text Key="Request.CreepyNaviName" Value="나쁜 놈 퇴치" />
+  <Text Key="Request.IceCrystalsName" Value="얼음 결정을 모아 줘" />
+  <Text Key="Request.SparringPartnerName" Value="특훈 상대를 모집 중입니다!" />
+  <Text Key="Request.NeedBugFragsName" Value="버그의 조각 좀 주실 분 계신가요" />
+  <Text Key="Request.Stalker!Help!Name" Value="끈질긴 스토커" />
+  <Text Key="Request.PleaseHelp!Name" Value="도움이 필요해요!" />
+  <Text Key="Request.PunishAdminName" Value="악질 관리인을 좀 혼내 주세요" />
+  <Text Key="Request.CheapChips!Name" Value="레어 칩 싸게 팝니다! 선착순 우대!" />
+  <Text Key="Request.MotionActing!Name" Value="모션 액터 모집!" />
+  <Text Key="Request.UrgentGift!Name" Value="급하게 전해 줄 물건" />
+  <Text Key="Request.BirthdayGiftName" Value="생일 선물" />
+  <Text Key="Request.RehabName" Value="재활 훈련 도와주실 분" />
+  <Text Key="Request.BecomingANaviName" Value="넷 내비가 되고 싶어요" />
+  <Text Key="Request.SisterBouquetName" Value="언니에게 꽃다발을 선물하고 싶어요" />
+  <Text Key="Request.TalkPhilosophyName" Value="철학을 이야기해 보자" />
+  <Text Key="Request.ToBePresidentName" Value="사장이 되기 위해서" />
+  <Dialogue Key="Request.RequestComplete" Value="★의뢰자의 감사 한 마디★" Face="None" Mono="False" />
+  <Dialogue Key="Request.AcceptRequestQuestion" Value="이 의뢰를 수락하시겠습니까?" Face="None" Mono="False" />
+  <Text Key="Request.AcceptRequestOptions" Value="예,아니오" />
+  <Dialogue Key="Request.RequestInProgressDialogue1" Value="이 의뢰는 현재 진행 중입니다." Face="None" Mono="False" />
+  <Dialogue Key="Request.RequestAlreadyTakenDialogue1" Value="한 의뢰를 진행하는 중에,다른 의뢰를 수락하는 것은,불가능합니다" Face="None" Mono="False" />
+  <Dialogue Key="Request.RequestAlreadyTakenDialogue2" Value="현재 진행 중인 의뢰를,해결하고 나서 와 주십시오," Face="None" Mono="False" />
+  <Text Key="Shop.Assistant1Line1" Value="어떤 걸로 하시겠습니까?" />
+  <Text Key="Shop.Assistant2Line1" Value="....뭐가 괜찮아 보이나?" />
+  <Text Key="Shop.Assistant3Line1" Value="괜찮아 보이는 거 있는감?" />
+  <Text Key="Shop.Assistant4Line1" Value="자，어떤 걸 봐 볼래?" />
+  <Text Key="Shop.AssistantLine2" Value="（R 버튼：설명 보기）" />
+  <Text Key="Shop.AssistantLine3" Value="（B 버튼：쇼핑 그만하기）" />
+  <Text Key="Shop.Assistant1OutOfStockDialogue1" Value="죄송합니다.,그 상품은 현재 매진 상태에요." />
+  <Text Key="Shop.Assistant2OutOfStockDialogue1" Value="미안한데,그 상품 지금 다 팔렸어." />
+  <Text Key="Shop.Assistant3OutOfStockDialogue1" Value="미안혀.,지금 그거 매진이여." />
+  <Text Key="Shop.Assistant4OutOfStockDialogue1" Value="미안한데,지금 그거 매진이야." />
+  <Text Key="Shop.HPMemory" Value="HP 메모리" />
+  <Text Key="Shop.HPMemoryDescriptionDialogue1" Value="내비의 HP를 20 늘리는,증설형 가상 메모리" />
+  <Text Key="Shop.Billionaire" Value="억만장자" />
+  <Text Key="Shop.ZennyOptions" Value="예,아니오" />
+  <Text Key="Shop.OtherOptions" Value="예,아니오" />
+  <Text Key="Shop.Assistant1ZennyDialogue1QuestionFormat" Value="{0}{1} 말이죠?,{2}z입니다." />
+  <Text Key="Shop.Assistant1OtherDialogue1QuestionFormat" Value="{0}{1} 말이죠?" />
+  <Text Key="Shop.Assistant2ZennyDialogue1QuestionFormat" Value="{0}{1} 말이지?,{2}z야. 어때?" />
+  <Text Key="Shop.Assistant2OtherDialogue1QuestionFormat" Value="{0}{1} 말이지?" />
+  <Text Key="Shop.Assistant3ZennyDialogue1QuestionFormat" Value="{0}{1} 말이여?,{2}z인디. 어떠한감?" />
+  <Text Key="Shop.Assistant3OtherDialogue1QuestionFormat" Value="{0}{1} 말이여?" />
+  <Text Key="Shop.Assistant4ZennyDialogue1QuestionFormat" Value="{0}{1} 말이군!,{2}z인데，살 거야?" />
+  <Text Key="Shop.Assistant4OtherDialogue1QuestionFormat" Value="{0}{1} 말이군!" />
+  <Text Key="Shop.Assistant1BoughtDialogue1" Value="구매 감사합니다!" />
+  <Text Key="Shop.Assistant2BoughtDialogue1" Value="헤헤헤，고맙다구!" />
+  <Text Key="Shop.Assistant3BoughtDialogue1" Value="고마우이!" />
+  <Text Key="Shop.Assistant4BoughtDialogue1" Value="좋아，거래 완료!" />
+  <Dialogue Key="Shop.InventoryFullDialogue1" Value="어 잠깐，,이 이상은 보유할 수가 없네." Face="Shanghai" Mono="False" />
+  <Text Key="Shop.InsufficientZennyDialogue1" Value="야 잠깐만，돈 부족하잖아!,빈곤해서 살겠냐고오오오오!," />
+  <Text Key="Shop.InsufficientOtherDialogue1" Value="어머，조각이 부족하네," />
+  <Text Key="Shop.Assistant1CancelledDialogue1" Value="그거 안 됐네요." />
+  <Text Key="Shop.Assistant2CancelledDialogue1" Value="쯧...." />
+  <Text Key="Shop.Assistant3CancelledDialogue1" Value="그렇는감." />
+  <Text Key="Shop.Assistant4CancelledDialogue1" Value="뭐 다른 것도 봐 보라구" />
+  <Text Key="Shop.Assistant1SellQuestionFormat" Value="「{0}{1}」라면,{2}z에 사 드리겠습니다." />
+  <Text Key="Shop.Assistant2SellQuestionFormat" Value="「{0}{1}」라고?,{2}z에 매입할게!" />
+  <Text Key="Shop.Assistant3SellQuestionFormat" Value="「{0}{1}」라면....,{2}z에 매입하겄네." />
+  <Text Key="Shop.Assistant4SellQuestionFormat" Value="「{0}{1}」 말이지?,{2}z에 사줄게." />
+  <Text Key="Shop.Assistant1Sold" Value="확실하게 거래했습니다." />
+  <Text Key="Shop.Assistant2Sold" Value="고맙다구!" />
+  <Text Key="Shop.Assistant3Sold" Value="고마우이!" />
+  <Text Key="Shop.Assistant4Sold" Value="확실하게 거래했어!" />
+  <Dialogue Key="Player.JackOutQuestion" Value="상하이，플러그아웃할까?" Face="Alice" Mono="False" />
+  <Text Key="Player.JackOutOptions" Value="예,아니오" />
+  <Dialogue Key="Player.JackOutYesResponse" Value="OK! 알겠어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Player.JackOutFailedDialogue1" Value="상하이，여기서는,플러그아웃이 안 되는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Player.FirewallFadeDialogue1" Value="마크핀의 효과가,다 끝난 것 같네...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Player.OpenPortFadeDialogue1" Value="오픈 포트의 효과가,다 끝난 것 같은데...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Player.VirusScnFadeDialogue1" Value="바이러스 스캔의 효과가,다 끝난 것 같네...." Face="Shanghai" Mono="False" />
+  <Text Key="MysteryItem.OpenDialogue1" Value="상하이는,미스터리 데이터를 조사했다...." />
+  <Text Key="MysteryItem.LockedDialogue1" Value="이 미스터리 데이터에는,보안이 걸려 있어서,분석할 수가 없다." />
+  <Text Key="MysteryItem.LockedDialogue2" Value="분석하기 위해서는,서브 칩 “크랙 툴“이 필요하다." />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionFormat" Value="지금 사용하시겠습니까?,({0}개 남아 있음)" />
+  <Text Key="MysteryItem.LockUseCrakToolQuestionOptions" Value="예,아니오" />
+  <Text Key="MysteryItem.LockOpenedDialogue1" Value="상하이는,미스터리 데이터를 조사했다...." />
+  <Dialogue Key="AddOnManager.ExitQuestion" Value="RUN을 아직 안 했는데,그대로 돌아갈 거야?" Face="Shanghai" Mono="False" />
+  <Text Key="AddOnManager.ExitOptions" Value="예,아니오" />
+  <Text Key="AddOnManager.Cores" Value="코어 수" />
+  <Text Key="AddOnManager.Hertz" Value="헤르츠 수" />
+  <Text Key="AddOnManager.ABC" Value="가나다라" />
+  <Text Key="AddOnManager.Color" Value="색상" />
+  <Text Key="AddOnManager.Equip" Value="장착 여부" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue1" Value="이게 애드온 매니저의,화면이야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue2" Value="여기서 내비에게 추가할 애드온을,선택해서 내비에 설치하는,방식이야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue3" Value="이거 안 아파?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue4" Value="괜찮아. 내비에게는 서브칩을,썼을 때 같은 감각 정도밖에,전해지지 않을 거니까." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue5" Value="지금부터 애드온 설치 방법을,설명할게. 원한다고 자유롭게,설치할 수 있는 게 아니거든." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage1Dialogue6" Value="여기를 봐 보렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue1" Value="여기는 애드온 설치에 쓰이는,내비의 CPU 성능을,표기한 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue2" Value="CPU 성능을 넘는 수준의,애드온을 설치하는 건,불가능해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue3" Value="CPU 성능은 두 종류,'헤르츠'와 '코어'로,나뉘어 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage2Dialogue4" Value="여기를 보면 각 애드온이,얼마나 CPU의 성능을,요구하는지 알 수 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue1" Value="여기 써져 있는 숫자만큼,CPU의 성능을 쓴다는 거야.,왼쪽이 헤르츠，오른쪽이 코어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue2" Value="설치하고 싶은 애드온에,커서를 맞추고 A 버튼으로,설치하는 방식이지만...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue3" Value="조심해야 할 게 몇 가지 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue4" Value="헤르츠와 코어를 둘 다 쓰는,애드온은 어느 한 쪽이라도,여분이 부족하면 설치할 수 없어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue5" Value="그거랑 코어를 쓰는,색이 달린 애드온은,한 가지 규칙이 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue6" Value="같은 색의 애드온은,여러 개를 설치할 수 없어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue7" Value="가지고 있는 버스터 파워나,버스터 래피드는 코어를 안 쓰니,동시 설치할 수 있지만...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue8" Value="코어를 쓰는 파란색 퍼스트 애드와,다른 파란색 애드온은 동시에,설치가 안 된다는 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage3Dialogue9" Value="어떤 색을 쓰는지는,아래쪽의 코어의 부분을 보면,알 수 있게 되어 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue1" Value="CPU의 성능 이상으로,애드온을 설치할 수 없고...." Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue2" Value="같은 색의 애드온은,여러 개 설치할 수 없군요." Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue3" Value="바로 그거야.,잘 기억해 두렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue4" Value="억지로 설치해서,버그 같은 게,발생하는 일은 없고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue5" Value="그런 위험한 일은,일어나지 않도록 해 놨으니,안심해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue6" Value="마지막으로 설치할 애드온을,모두 선택했다면 스타트,버튼으로 RUN을 해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue7" Value="RUN을 거쳐 가야 비로소,내비한테 애드온의 효과가,가동되거든." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue8" Value="애드온을 설치했다면,스타트 버튼으로 RUN!,을 해야 하는군요." Face="Alice" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue9" Value="그래. RUN을 잊어버렸다면,애드온은 이전에 설치된,상태로 돌아가 버려." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue10" Value="역으로 애드온의 편집을,취소하고 싶은 경우라면,RUN을 쓰지 않고 닫으면 돼." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="AddOnManager.TutorialStage4Dialogue11" Value="그러면 한 번 실제로,애드온을 설치해 보렴." Face="DrMorichika" Mono="False" />
+  <Text Key="DataList.UnknownChipNameText" Value="　　　？？" />
+  <Text Key="DataList.Standard" Value="스탠다드" />
+  <Text Key="DataList.Navi" Value="내비 칩" />
+  <Text Key="DataList.Dark" Value="다크 칩" />
+  <Text Key="DataList.PAdvance" Value="어드밴스 메모" />
+  <Text Key="DataList.Illegal" Value="일리걸" />
+  <Text Key="DataList.IllegalChipDisplayId" Value="？？" />
+  <Text Key="FolderEdit.BagName" Value="가방" />
+  <Text Key="FolderEdit.Folder1" Value="폴더 1" />
+  <Text Key="FolderEdit.Folder2" Value="폴더 2" />
+  <Text Key="FolderEdit.ID" Value="ＩＤ" />
+  <Text Key="FolderEdit.ABC" Value="가나다라" />
+  <Text Key="FolderEdit.Code" Value="코드" />
+  <Text Key="FolderEdit.Power" Value="공격력" />
+  <Text Key="FolderEdit.Element" Value="속성" />
+  <Text Key="FolderEdit.Quantity" Value="매수" />
+  <Text Key="FolderEdit.MB" Value="용량" />
+  <Text Key="FolderEdit.FolderSizeDialogue1" Value="폴더 내 칩 개수가,30장이 아니야!,확실하게 채워야 해!" />
+  <Text Key="FolderEdit.FolderSizeSpecialDialogue1" Value="폴더 내 칩 개수가,30장이 아닙니다.," />
+  <Text Key="FolderEdit.Memory0-19LimitDialogue1Format" Value="19 MB 이하인,칩은 폴더에,{0}장까지만!" />
+  <Text Key="FolderEdit.Memory0-19LimitSpecialDialogue1Format" Value="19 MB 이하인,칩은 폴더에,{0}장까지만 가능." />
+  <Text Key="FolderEdit.Memory20-29LimitDialogue1Format" Value="20 MB～29 MB인,칩은 폴더에,{0}장까지만!" />
+  <Text Key="FolderEdit.Memory20-29LimitSpecialDialogue1Format" Value="20 MB～29 MB인,칩은 폴더에,{0}장까지만 가능." />
+  <Text Key="FolderEdit.Memory30-39LimitDialogue1Format" Value="30 MB～39 MB인,칩은 폴더에,{0}장까지만!" />
+  <Text Key="FolderEdit.Memory30-39LimitSpecialDialogue1Format" Value="30 MB～39 MB인,칩은 폴더에,{0}장까지만 가능." />
+  <Text Key="FolderEdit.Memory40-49LimitDialogue1Format" Value="40 MB～49 MB인,칩은 폴더에,{0}장까지만!" />
+  <Text Key="FolderEdit.Memory40-49LimitSpecialDialogue1Format" Value="40 MB～49 MB인,칩은 폴더에,{0}장까지만 가능." />
+  <Text Key="FolderEdit.Memory50+LimitDialogue1Format" Value="50 MB 이상인,칩은 폴더에,{0}장까지만!" />
+  <Text Key="FolderEdit.Memory50+LimitSpecialDialogue1Format" Value="50 MB 이상인,칩은 폴더에,{0}장까지만 가능." />
+  <Text Key="FolderEdit.NaviLimitDialogue1Format" Value="내비 칩은 {0}장까지만,넣을 수 있어! 잊었어?" />
+  <Text Key="FolderEdit.NaviLimitSpecialDialogue1Format" Value="내비 칩은,{0}장까지만,넣을 수 있습니다." />
+  <Text Key="FolderEdit.DarkChipLimitDialogue1Format" Value="다크 칩은 한 폴더에,{0}장까지만 넣어!,날 죽일 셈이야!?" />
+  <Text Key="FolderEdit.DarkChipLimitSpecialDialogue1Format" Value="다크 칩은 한 폴더에,{0}장까지만!,이라 되어 있습니다." />
+  <Text Key="FolderEdit.RegChipMemoryLimitDialogue1" Value="미안한데 레귤러,지정에 필요한,용량이 부족해!" />
+  <Text Key="FolderEdit.RegChipMemoryLimitSpecialDialogue1" Value="레귤러 지정에,필요한 용량이,부족합니다." />
+  <Text Key="FolderEdit.ClearFolderDialogue1" Value="폴더의 내용물을,비울 거야?,Ａ 예／Ｂ 아니오" />
+  <Text Key="FolderEdit.ClearFolderSpecialDialogue1" Value="폴더의 내용물을,비우시겠습니까?,Ａ 예／Ｂ 아니오" />
+  <Text Key="Special.ExtraFolder" Value="예비 폴더" />
+  <Text Key="Special.N1Folder" Value="리그 폴더" />
+  <Text Key="Special.SeirenFolder" Value="성련 폴더" />
+  <Text Key="Special.AkinFolder" Value="악인 폴더" />
+  <Text Key="Special.MeijiFolder" Value="명인 폴더" />
+  <Text Key="FolderSelect.Folder1" Value="폴더 1" />
+  <Text Key="FolderSelect.Folder2" Value="폴더 2" />
+  <Text Key="FolderSelect.EditFolder" Value="편집하기" />
+  <Text Key="FolderSelect.EquipFolder" Value="장착하기" />
+  <Text Key="Mail.MailReadTextDialogue1" Value="어떤 편지를 읽을 거야?," />
+  <Dialogue Key="NameEdit.NameFailureDialogue1" Value="통신을 시작하기 전에,통신에서 쓸 이름을,입력해야 해!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="NameEdit.NameInvalidDialogue1" Value="아니 하다못해 한 글자라도,적어라 좀!!," Face="Shanghai" Mono="False" />
+  <Text Key="Navi.Buster" Value="버스터" />
+  <Text Key="Navi.Power" Value="파워　　:" />
+  <Text Key="Navi.Rapid" Value="래피드　:" />
+  <Text Key="Navi.Charge" Value="차지　　:" />
+  <Text Key="Navi.AddOn" Value="애드온" />
+  <Text Key="Navi.NoAddOns" Value="　없음" />
+  <Text Key="Navi.StatusMessage" Value="이게 내 능력이야!" />
+  <Text Key="Navi.AddOnManager" Value="　애드온 매니저 기동" />
+  <Text Key="Navi.ChangeStyle" Value="　스타일 변경" />
+  <Dialogue Key="NetWork.IntroDialogue1" Value="네트워크 모드에 온 걸 환영해!,이 모드 안내는 이 나，,오카자키 명인이 담당해." Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.ConnectionFailureDialogue1" Value="통신이 끊어졌어....,상대방에게 무슨 일이 일어났나?" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleVictoryDialogue1" Value="네가 이겼어!,나이스 오퍼레이팅!" Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleDefeatDialogue1" Value="져 버렸네....,다음 번엔 이기자!," Face="MsFamous" Mono="False" />
+  <Dialogue Key="NetWork.BattleDrawDialogue1" Value="무승부라....,다음 번엔 이기자!," Face="MsFamous" Mono="False" />
+  <Text Key="NetWork.ClientDialogue1" Value="호스트로써 클라이언트의,통신을 받자!" />
+  <Text Key="NetWork.BGMChange" Value="(Ｌ・Ｒ버튼으로 ＢＧＭ 변경)" />
+  <Text Key="NetWork.ConnectToHostDialogue1" Value="클라이언트로써 호스트의,IP 주소에 접속하자!" />
+  <Text Key="NetWork.PreviousConnectionDialogue1" Value="전에 놀았던 상대방의 리스트에서,접속할 곳을 선택하자!" />
+  <Text Key="NetWork.ChangeNameDialogue1" Value="통신에서 쓸,네 이름을 변경하자!" />
+  <Text Key="NetWork.FaceChange" Value="(Ｌ・Ｒ 버튼으로 【얼굴】 변경),배틀하자!" />
+  <Text Key="NetWork.EmptyStageDialogue1" Value="양측 모두 빈 스테이지에서,배틀하자!" />
+  <Text Key="NetWork.VariedStageDialogue1" Value="속성 패널이나 장애물이 있는,스테이지에서 배틀하자!" />
+  <Text Key="NetWork.WaitForConnectionDialogue1" Value="통신 대기중....,상대방에게 IP 주소를,알려줘서 입력하게 해!" />
+  <Text Key="NetWork.WaitingToConnectDialogue1" Value="통신 대기중....,연결되지 않는다면 상대방이,호스트를 선택했는지 확인해!" />
+  <Text Key="NetWork.BattleStartDialogue1" Value="대전 준비 완료!,배틀 오퍼레이션,셋! 인!" />
+  <Text Key="Save.PlayTime" Value="플레이 시간" />
+  <Text Key="Save.Library" Value="데이터 리스트" />
+  <Text Key="Save.Chips" Value="배틀칩" />
+  <Text Key="Save.ChipCountFormat" Value="{0}장" />
+  <Text Key="Save.Money" Value="소지금" />
+  <Text Key="Save.BillionaireMoney" Value="억만장자" />
+  <Text Key="Save.SaveQuestion" Value="세이브할까?" />
+  <Text Key="Save.SaveQuestionSpecial" Value="세이브하시겠습니까?" />
+  <Text Key="Save.OverwriteQuestion" Value="덮어써도 되겠어?" />
+  <Text Key="Save.OverwriteQuestionSpecial" Value="덮어써도 괜찮겠습니까?" />
+  <Text Key="Save.SaveInProgress" Value="세이브 중......" />
+  <Text Key="Save.SaveInProgressSpecial" Value="세이브 중입니다......" />
+  <Text Key="Save.SaveComplete" Value="세이브 완료!" />
+  <Text Key="Save.SaveCompleteSpecial" Value="세이브되었습니다!" />
+  <Text Key="Save.Options" Value="예,아니오" />
+  <Text Key="Shop.ZennyFormat" Value="{0}개" />
+  <Text Key="Style.StyleNormal" Value="노멀 스타일" />
+  <Text Key="Style.StyleFght" Value="파이터" />
+  <Text Key="Style.StyleNinj" Value="시노비" />
+  <Text Key="Style.StyleDoc" Value="닥터" />
+  <Text Key="Style.StyleGaia" Value="가이아" />
+  <Text Key="Style.StyleWing" Value="윙" />
+  <Text Key="Style.StyleWtch" Value="윗치" />
+  <Text Key="Style.ElemNormal" Value="노멀 스타일" />
+  <Text Key="Style.ElemHeat" Value="히트" />
+  <Text Key="Style.ElemAqua" Value="아쿠아" />
+  <Text Key="Style.ElemElec" Value="일렉" />
+  <Text Key="Style.ElemLeaf" Value="리프" />
+  <Text Key="Style.ElemPois" Value="포이즌" />
+  <Text Key="Style.ElemErth" Value="어스" />
+  <Dialogue Key="SubChip.InvalidRealWorldDialogue1" Value="역시 스마트폰 안에 있으면,서브칩이 아무 효과도 없어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidOutOfSubChipsDialogue1" Value="아무리 나라고 해도,가지고 있지도 않은 걸 쓰는 건,못 할 일이야…" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidFullHPDialogue1" Value="ＨＰ가 줄지 않았을 때 쓰면,아무 효과가 없어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidAlreadyInUseDialogue1" Value="아직 이전에 쓴 것의 효과가 남아 있어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.InvalidNothingToUnlockDialogue1" Value="적어도 내 주변에는,억지로 열어볼만한 게,따로 안 보이는데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="SubChip.UseQuestion" Value="쓰면 없어질 텐데,그래도 쓸래?" Face="Shanghai" Mono="False" />
+  <Text Key="SubChip.UseOptions" Value="예,아니오" />
+  <Text Key="SubChip.HalfEnrgDescDialogue1" Value="최대 체력의 반만큼,HP를 회복한다!" />
+  <Text Key="SubChip.FullEnrgDescDialogue1" Value="HP를 모두 회복한다!," />
+  <Text Key="SubChip.FireWallDescDialogue1" Value="일정 시간 자신보다,약한 바이러스와,만나지 않게 된다" />
+  <Text Key="SubChip.OpenPortDescDialogue1" Value="무방비 상태로 위장하여,얼마 동안 바이러스와,쉽게 마주치게 한다" />
+  <Text Key="SubChip.Anti-VrsDescDialogue1" Value="미스터리 데이터,안에 섞여 있는,바이러스를 삭제한다" />
+  <Text Key="SubChip.VirusScnDescDialogue1" Value="직전에 출몰했던,바이러스 그룹이,출현하도록 한다" />
+  <Text Key="SubChip.CrakToolDescDialogue1" Value="잠겨 있는,미스터리 데이터를,강제로 연다" />
+  <Text Key="SubChip.HalfEnrg" Value="하프 에너지" />
+  <Text Key="SubChip.FullEnrg" Value="풀 에너지" />
+  <Text Key="SubChip.FireWall" Value="마크핀" />
+  <Text Key="SubChip.OpenPort" Value="오픈 포트" />
+  <Text Key="SubChip.Anti-Vrs" Value="아바스트" />
+  <Text Key="SubChip.VirusScn" Value="바이러스 스캔" />
+  <Text Key="SubChip.CrakTool" Value="크랙 툴" />
+  <Text Key="TopMenu.Billionaire" Value="억만장자" />
+  <Text Key="TopMenu.FragCountFormat" Value="{0}개" />
+  <Dialogue Key="Virus.FeedFailedDialogue1" Value="이 이상 줘 봐야,쓸모없어질 것 같은데,그만두자." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.FeedFailedNoItemsDialogue1" Value="나도 먹여 주고 싶긴,하지만 아무리 그래도,없는 걸 주는 건 좀...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.DismissDialogue1" Value="바이바～이♪,부하들에게 맡길게～" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Virus.FeedQuestion" Value="" Face="Shanghai" Mono="False" />
+  <Text Key="Virus.FeedOptionsFormat" Value="버그의 조각（Ver+0.05） ×{0},프리즈의 조각（HP+20）×{1},에러의 조각（파워+5）×{2}" />
+  <Dialogue Key="Virus.DismissQuestion" Value="대기실에 바이러스를 맡길까?" Face="Shanghai" Mono="False" />
+  <Text Key="Virus.DismissOptions" Value="예,아니오" />
+  <Text Key="Virus.IntroductionNoVirusDialogue1" Value="현재 바이러스를,키우고 있지 않습니다." />
+  <Text Key="Virus.Introduction" Value="키우고 있는 바이러스의 상태야." />
+  <Text Key="Virus.OptionsFormat" Value="　먹이를 준다　　남은 개수 {0}개,　바이러스를 맡긴다" />
+  <Text Key="Virus.Power" Value="파워:" />
+  <Text Key="Virus.Empty" Value="EMPTY" />
+  <Dialogue Key="Bounty.ClaimDialogue1Format" Value="{0}（을）를,쓰러뜨리셨군요!" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.ClaimDialogue2Format" Value="현상금 {0}Z를,받아가세요!" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.ClaimDialogue3" Value="앞으로 활약하시는,모습도 기대하겠습니다!" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue1Format" Value="출현 지역,{0}" Face="None" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue2Question" Value="이 의뢰를 수락하시겠습니까?" Face="None" Mono="False" />
+  <Text Key="Bounty.AcceptDialogue2Options" Value="예,아니오" />
+  <Text Key="Bounty.Area1" Value="환상 에리어 1" />
+  <Text Key="Bounty.Area2" Value="냉장고의 전뇌 2" />
+  <Text Key="Bounty.Area3" Value="시티 에리어 1" />
+  <Text Key="Bounty.Area4" Value="소화전의 전뇌" />
+  <Text Key="Bounty.Area5" Value="시티 에리어 3" />
+  <Text Key="Bounty.Area6" Value="시티 에리어 2" />
+  <Text Key="Bounty.Area7" Value="화단의 전뇌" />
+  <Text Key="Bounty.Area8" Value="벤치의 전뇌" />
+  <Text Key="Bounty.Area9" Value="공기청정기의 전뇌 1" />
+  <Text Key="Bounty.Area10" Value="연구소 넷배틀 머신 전뇌" />
+  <Text Key="Bounty.Area11" Value="자동판매기의 전뇌" />
+  <Text Key="Bounty.Area12" Value="공기청정기의 전뇌 4" />
+  <Text Key="Bounty.Area13" Value="영원 에리어 2" />
+  <Text Key="Bounty.Area14" Value="우사공의 동상의 전뇌" />
+  <Text Key="Bounty.Area15" Value="학교의 전뇌 2" />
+  <Text Key="Bounty.Area16" Value="우라 인터넷 1" />
+  <Text Key="Bounty.Area17" Value="영원 에리어 3" />
+  <Text Key="Bounty.Area18" Value="전기 자전거의 전뇌" />
+  <Text Key="Bounty.Area19" Value="신사의 전뇌 1" />
+  <Text Key="Bounty.Area20" Value="자동차의 전뇌" />
+  <Text Key="Bounty.Area21" Value="화폐 교환기의 전뇌" />
+  <Text Key="Bounty.Area22" Value="전차의 전뇌" />
+  <Text Key="Bounty.Area23" Value="우체통의 전뇌" />
+  <Text Key="Bounty.Area24" Value="윳쿠리의 전뇌" />
+  <Text Key="Bounty.Area25" Value="잉겔레스 에리어 1" />
+  <Text Key="Bounty.Area26" Value="우라 인터넷 5" />
+  <Text Key="Bounty.Area27" Value="명탐정의 동상의 전뇌" />
+  <Text Key="Bounty.Area28" Value="케이크 상점의 전뇌" />
+  <Text Key="Bounty.Area29" Value="우라 인터넷 6" />
+  <Text Key="Bounty.Area30" Value="호텔의 홈페이지" />
+  <Text Key="Bounty.Area31" Value="네코돌핀의 전뇌" />
+  <Text Key="Bounty.Area32" Value="객실 TV의 전뇌" />
+  <Text Key="Bounty.Area33" Value="전함 모형의 전뇌" />
+  <Text Key="Bounty.Area34" Value="호화 여객선의 전뇌 1" />
+  <Text Key="Bounty.Area35" Value="침몰한 배의 전뇌 1" />
+  <Text Key="Bounty.Area36" Value="시계탑의 전뇌 3" />
+  <Text Key="Bounty.Area37" Value="병원의 전뇌 1" />
+  <Text Key="Bounty.Area38" Value="우라 인터넷 2" />
+  <Dialogue Key="Navi.InvalidFolderAddonChangeDialogue1" Value="애드온이 바뀜에 따라,폴더가 룰 위반 상태여서,예비 폴더로 바꿨어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="VirusManager.UnneededVirusQuestion" Value="그 바이러스가 필요 없다면,방생할까요?" Face="Sprite" Mono="False" />
+  <Text Key="VirusManager.UnneededVirusOptions" Value="예,아니오" />
+  <Text Key="MysteryData.DefaultContents" Value="레이건　A" />
+  <Text Key="RandomMystery.DefaultContents" Value="레이건　A" />
+  <Text Key="VirusManager.HP" Value="HP :" />
+  <Text Key="VirusManager.Power" Value="파워:" />
+  <Dialogue Key="Misc.DemoEndDialogue1" Value="이 지역은 현재 개발중입니다.,개발이 완료될 때까지,기다려 주시기 바랍니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.DemoEndDialogue2" Value="상하이의 방에 가면,챌린지 컨텐츠나 히든 컨텐츠를,즐기실 수 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.OpeningMessageQuestion" Value="기존 버전에서 수정된,버그 리스트를 보시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Retcon.OpeningMessageQuestionOptions" Value="예,아니오" />
+  <Dialogue Key="Retcon.0503HospitalEmergencyMusic" Value="병원 이벤트 도중에,비상 사태 음악이,나오지 않도록 수정." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HumorEirinCallFormat" Value="{0} 애드온의 요구,헤르츠와 코어,색상을 제거." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefundFormat" Value="{0} 애드온의 중복,입수 현상을 수정하고,중복된 걸 다른 걸로 교체." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRefund2" Value="“진짜” 입수 위치가 밝혀지지,않은 단일 개수의 애드온의 경우,삭제되었을 가능성이 있음." Face="Sprite" Mono="False" />
+  <Text Key="Bounty.Area39" Value="ROM 기지 게이트의 전뇌" />
+  <Text Key="Bounty.Area40" Value="ROM의 전뇌 4" />
+  <Text Key="Bounty.Area41" Value="ROM의 디스플레이 전뇌" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue1" Value="저는 홈페이지의,벽지를 판매하는,스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2" Value="당신의 홈페이지의,벽지를 이 에리어의 벽지로,바꿔 드립니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny0" Value="벽지 교체 비용은,0 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny100" Value="벽지 교체 비용은,100 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny1000" Value="벽지 교체 비용은,1000 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue3Zenny5000" Value="벽지 교체 비용은,5000 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue4Question" Value="벽지를 바꾸시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Misc.WallpaperSpriteStage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue5" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue6" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue7" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Bounty.AcceptDialogue2AlreadyTaken" Value="이 임무를 이미,수락한 상태입니다." Face="None" Mono="False" />
+  <Dialogue Key="Misc.WallpaperSpriteStage1Dialogue2AlreadyApplied" Value="이미 이 에리어의,벽지를 이용하고 계시네요!,멋지죠?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550V3Tracking" Value="다음 내비들의 V3 전투,플래그를 V2 위치와 칩에서,추정하여 추가함:" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550Lloyd" Value="영어 전용:,“Lloyd”를 “Troid”로,교정했습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenWIP" Value="이 지역은 현재 공사중입니다.,일부 전투는 차후에 초기화,예정인 임시 전투입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenWIP2" Value="블로커와 임시로 끼워넣은,포스트게임 전투가 실장되어,다음 릴리즈에 초기화 예정." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550ReAddedAddOns" Value="실수로 삭제된 애드온 복구:" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRebalance" Value="엔드게임 애드온 밸런싱." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550AddOnRebalance2" Value="[Recolored Giv&amp;Take to,green for balancing.]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550SageSkipped" Value="4번째 퀴즈를 패스해서,잃어버릴 수 있는 애드온을,얻을 수 있게 수정." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550CrimDexEnabled" Value="일리걸 라이브러리 추가." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550WIPEndgameReset" Value="임시로 추가되었던,포스트게임 전투 초기화." Face="Sprite" Mono="False" />
+  <Dialogue Key="Retcon.0550HeavenJackOut" Value="화이트 헤븐 에리어에서,플러그아웃." Face="Sprite" Mono="False" />
+
+  <Text Key="Save.SaveFailedTitle" Value="세이브에 실패했습니다!" />
+  <Text Key="Save.SaveFailed" Value="세이브 과정에서 문제가 발생했습니다.&#xA;&#xD;&#xA;&#xD;최신 버전으로 게임을 업데이트하는 것이 권장됩니다.&#xA;&#xD;&#xA;&#xD;현재 발생한 버그를 https://gitgud.io/SHNecro/shanghaiexe/-/issues나 게임을 다운로드한 곳에 제보해 주십시오." />
+  <Text Key="Save.SaveRetained" Value="이전의 세이브 파일을 백업 파일에서 복구했습니다.&#xA;&#xD;&#xA;&#xD;게임에 복귀하면 ESC 키를 눌러 시작 화면으로 돌아가십시오." />
+  <Text Key="Save.SaveBackupNotFound" Value="백업 세이브 파일을 찾을 수 없습니다.&#xA;&#xD;&#xA;&#xD;게임에 복귀하면 ESC 키를 눌러 시작 화면으로 돌아가십시오." />
+  <Text Key="Save.MainSaveCorruptedTitle" Value="로딩에 실패했습니다!" />
+  <Text Key="Save.MainSaveCorrupted" Value="세이브 파일을 읽을 수 없습니다." />
+  <Text Key="Save.BackupRestored" Value="이전의 세이브 파일을 백업 파일에서 복구했습니다." />
+  <Text Key="Save.BackupCorrupted" Value="백업 세이브 파일 또한 로딩에 실패했습니다." />
+  <Text Key="Save.BackupNotFound" Value="백업 세이브 파일을 찾을 수 없습니다." />
+</data>

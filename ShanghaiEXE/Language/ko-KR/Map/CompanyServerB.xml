@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳Ｂ１Ｆ -->
+  <Text Key="Map.CompanyServerBName" Value="대기업 서버의 전뇌 지하 1층" />
+  <Text Key="Map.CompanyServerBRandomBattle1Enemy1" Value="오토로이드G" />
+  <Text Key="Map.CompanyServerBRandomBattle2Enemy1" Value="오토로이드G" />
+  <Text Key="Map.CompanyServerBRandomBattle3Enemy1" Value="오토로이드G" />
+  <!-- 画面には薄暗い地下室が映し出されている -->
+  <Dialogue Key="Map.CompanyServerBSubTerminalStage1Dialogue1FaceNone" Value="화면에는 어둑어둑하게,지하실이 비춰져 보인다." Face="None" Mono="False" />
+  <!-- 画面には薄暗い地下室が映し出されている -->
+  <Dialogue Key="Map.CompanyServerBSubTerminalDupeStage1Dialogue1FaceNone" Value="화면에는 어둑어둑하게,지하실이 비춰져 보인다." Face="None" Mono="False" />
+  <!-- これが地下牢の管理端末ね！ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage1Dialogue1FaceShanghai" Value="이게 지하 감옥 관리 단말이군!" Face="Shanghai" Mono="False" />
+  <!-- これを操作すれば････！ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage1Dialogue2FaceShanghai" Value="이걸 조작하면....!" Face="Shanghai" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServerBTerminalStage3Dialogue1FaceNone" Value="더 이상 이 단말을 조작해도,의미는 없을 것 같다." Face="None" Mono="False" />
+  <!-- シンニュウシャ　ハイジョシンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage1Dialogue1FaceAutoroid" Value="침입자 제거,침입자 제거" Face="Autoroid" Mono="False" />
+  <!-- もののみごとにオートロイドだらけね -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue1FaceShanghai" Value="아주 멋드러진 판이네.,오토로이드밖에 없구만." Face="Shanghai" Mono="False" />
+  <!-- 位置的にここがアリスが捕まってる場所のはず！ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue2FaceShanghai" Value="위치 상으로 볼 때,앨리스가 잡혀 있는 곳은,여기일 거야!" Face="Shanghai" Mono="False" />
+  <!-- 邪魔する奴はまとめてぶっ飛ばす！ -->
+  <Dialogue Key="Map.CompanyServerBChapter7EventsStage3Dialogue3FaceShanghai" Value="방해하는 것들은,싸잡아서 날려버리겠다!" Face="Shanghai" Mono="False" />
+  <!-- オートロイドR -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy1" Value="오토로이드R" />
+  <!-- オートロイドG -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy2" Value="오토로이드G" />
+  <!-- オートロイドB -->
+  <Text Key="Map.CompanyServerBChapter7EventsBattle1Enemy3" Value="오토로이드B" />
+  <!-- 私より早く鈴仙様を救い出すとはね････ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue1FaceYorihime" Value="나보다도 빨리 레이센 님을,구출할 줄이야...." Face="Yorihime" Mono="False" />
+  <!-- ここのセキュリティをなんとか突破できたけど私はもう限界よ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue2FaceYorihime" Value="여기의 보안을 어떻게든,뚫을 수 있었지만,지금의 나는 벌써 한계야." Face="Yorihime" Mono="False" />
+  <!-- せめてあなたのサポートとしてこれくらいは････ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue3FaceYorihime" Value="적어도 이걸로 널 서포팅해,줄 수는 있겠지...." Face="Yorihime" Mono="False" />
+  <!-- ヨリヒメが渡したサブチップでシャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.CompanyServerBYorihimeStage1Dialogue4FaceNone" Value="요리히메가 건네준 서브칩 덕분에,상하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServerBDoorStage1Dialogue1FaceNone" Value="보안에 의해 잠겨 있다." Face="None" Mono="False" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServerBDoorDupeStage1Dialogue1FaceNone" Value="보안에 의해 잠겨 있다." Face="None" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage1Dialogue1FaceNone" Value="잘못된 조작이 실행되었습니다." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage1Dialogue2FaceNone" Value="곧바로 에러의 원인을,제거합니다!!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServerBPunishmentBattle1Enemy1" Value="오토로이드SP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServerBPunishmentBattle1Enemy2" Value="오토로이드SP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServerBPunishmentStage3Dialogue1FaceShanghai" Value="좀 더 스마트하게,해결하고 싶었는데...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServerBAGimmickStartStage1Dialogue1FaceNone" Value="보안 잠금 상태입니다.,숫자를 1부터 순서대로,입력해 주십시오." Face="None" Mono="False" />
+</data>

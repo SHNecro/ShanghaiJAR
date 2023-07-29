@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.NetBattleMachineRinName" Value="연구실 넷배틀 머신의 전뇌" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue1FaceSprite" Value="라운드 원! 파이트!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue2FaceSprite" Value="케이 오!,유우 윈!,펄펙트!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue3FaceSprite" Value="이후에 라이브 코멘터리가,업데이트될 때를 대비해서,발음 연습 중!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite1Stage1Dialogue4FaceSprite" Value="그런 예정이 없다구요?,시무룩...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite2Stage1Dialogue1FaceSprite" Value="특별히 시티 에리어의,배경을 쓰고 있어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSprite2Stage1Dialogue2FaceSprite" Value="친숙한 전뇌도,조금은 분위기가 바뀌죠?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSakuyaStage1Dialogue1FaceSakuya" Value="아가씨....,어디로 가셨는지...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinSakuyaStage3Dialogue1FaceSakuya" Value="아，아가씨는 괜찮으신가요!?" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue1FaceMedicine" Value="으으...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue2FaceYamame" Value="기다려 주세요!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue3FaceYamame" Value="왜 수한테 이렇게,심한 짓을 하는 거에요!?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue4FaceReisen" Value="수....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue5FaceReisen" Value="무슨 소릴 하는 거지.,이 내비는 ROM의 자립형 내비,메디슨이다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue6FaceReisen" Value="이 대학교에서 사건을 일으킨,내비를 모른다고 하지는 않겠지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue7FaceYamame" Value="메디슨이라니.... 그럴 수가....!?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue8FaceYamame" Value="거짓말이지?,그도 그럴 게 수는....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue9FaceMedicine" Value="미안해，야마메...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue10FaceMedicine" Value="내 진짜 이름은 메디슨...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue11FaceMedicine" Value="ROM에서 만들어진,자립형 내비야...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue12FaceYamame" Value="....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue13FaceMedicine" Value="후후.... 자업자득이지." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue14FaceMedicine" Value="내가 야마메를 속인 건,사실이니까." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue15FaceMedicine" Value="짧은 시간이었지만...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue16FaceMedicine" Value="야마메 덕분에,내비로써 누군가와 함께 사는,행복을 맛볼 수 있었어." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue17FaceMedicine" Value="고마워，야마메...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue18FaceYamame" Value="나는.... 수 네가...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue19FaceYamame" Value="수가 설령 그랬다 하더라도,난 그래도 수 네가....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue20FaceMedicine" Value="악행을 위해 만들어진 내가,내비가 되는 일 따위,일어날 수 없었던 거야...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue21FaceMedicine" Value="이젠 지쳤어...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue22FaceMedicine" Value="길게 끌지 말고,빨리 날 딜리트해 줘...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue23FaceYorihime" Value="....어떻게 할까요?" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue24FaceReisen" Value="악의에서 태어난 내비가,갱생했다는 전례는 없다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue25FaceReisen" Value="....딜리트해." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue26FaceYorihime" Value="예스・맴" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue27FaceMedicine" Value="야마메.... 안녕...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage1Dialogue28FaceYamame" Value="수우우우우!!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage3Dialogue1FaceYorihime" Value="....!?" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue1FaceShanghai" Value="후우.... 아슬아슬했어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue2FaceAlice" Value="허억.... 허억....,괜찮으신가요，야마메 씨!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue3FaceYamame" Value="애，앨리스....!?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue4FaceMedicine" Value="어째서 날....!?" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue5FaceShanghai" Value="내가 말했지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue6FaceShanghai" Value="네 오퍼레이터를 슬프게 하는 짓은,내가 용서 안 한다고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue7FaceReisen" Value="또 너희들이냐...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue8FaceReisen" Value="너희들도 그 내비하고,싸운 적이 있었을 텐데." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue9FaceReisen" Value="이건 무슨 짓거리지?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue10FaceAlice" Value="레이센!,넌 왜 맨날 이렇게 난폭한 건데!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue11FaceAlice" Value="왜 그렇게 곧바로,딜리트하려고만 하는 거야!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue12FaceReisen" Value="....역시 네놈들도,ROM의 일원이었군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue13FaceAlice" Value="어....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue14FaceReisen" Value="요리히메，타겟을 변경한다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue15FaceReisen" Value="ROM의 전투형 넷 내비,상하이.EXE를 딜리트해라." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage5Dialogue16FaceReisen" Value="거기 있는 죽다 만 놈은,그 뒤에 처리해도 늦지 않다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue1FaceYorihime" Value="예스・맴" Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue2FaceShanghai" Value="말 잘 했다....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue3FaceShanghai" Value="이전부터 니네들의 태도는,보고 있자니,부아가 치밀어서 말야!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue4FaceAlice" Value="상하이!,절대 지지 마!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue5FaceShanghai" Value="당연하지!,앨리스，가자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue6FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue7FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage7Dialogue8FaceYorihime" Value="지금부터 장애물을 제거합니다." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue1FaceYorihime" Value="그윽...." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue2FaceYorihime" Value="레이센 님....,면목 없습니다...." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue3FaceReisen" Value="요리히메가.... 졌어....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue4FaceShanghai" Value="니네들 인마...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue5FaceShanghai" Value="악의에서 태어난 내비가,갱생했다는 전례가 없다고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue6FaceShanghai" Value="지금 여기에 전례 제1호가,새로 나오려 하잖아!,그걸 왜 못 보는 건데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue7FaceShanghai" Value="사람의 가능성을 못 믿는다니...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.NetBattleMachineRinChapter4EventsStage9Dialogue8FaceShanghai" Value="멍청이 아냐!?" Face="Shanghai" Mono="False" />
+</data>

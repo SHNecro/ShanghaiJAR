@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳１ -->
+  <Text Key="Map.ClockTower1Name" Value="시계탑의 전뇌 1" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower1GimmickStage1Dialogue1QuestionFaceNone" Value="큰 시계와 연동되는 시계이다.,시곗바늘을 움직이겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower1GimmickStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower1GimmickStage3Dialogue1QuestionFaceNone" Value="시침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower1GimmickStage3Dialogue1Options" Value="１２시,　３시,　６시,　９시" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower1GimmickStage5Dialogue1QuestionFaceNone" Value="분침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower1GimmickStage5Dialogue1Options" Value="００분,１５분,３０분,４５분" />
+  <!-- セキュリティはすでに解除されている -->
+  <Dialogue Key="Map.ClockTower1TerminalStage1Dialogue1FaceNone" Value="보안은 이미 해제되어 있다." Face="None" Mono="False" />
+  <!-- 誰かいる！？ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage1Dialogue1FaceAlice" Value="누군가 있는데!?" Face="Alice" Mono="False" />
+  <!-- あれは････！ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage1Dialogue2FaceShanghai" Value="저건....!" Face="Shanghai" Mono="False" />
+  <!-- ピピピピ････ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue1FaceAutoroid" Value="삐삐삐삐...." Face="Autoroid" Mono="False" />
+  <!-- シンニュウシャ　ハイジョ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue2FaceAutoroid" Value="침입자 제거." Face="Autoroid" Mono="False" />
+  <!-- なに　あれ？ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue3FaceAlice" Value="뭐야，저거?" Face="Alice" Mono="False" />
+  <!-- オートロイド････ココロを持たないネットナビよ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue4FaceShanghai" Value="오토로이드....,마음을 가지고 있지 않은,넷 내비야." Face="Shanghai" Mono="False" />
+  <!-- 日本だとマイナーだけど機械的に動くから海外ではよく使われてるのよ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue5FaceShanghai" Value="일본에서는 마이너하지만,기계적으로 움직이니까,해외에서는 줄곧 써." Face="Shanghai" Mono="False" />
+  <!-- そしてこいつは････侵入者撃退用の戦闘用オートロイドね！ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue6FaceShanghai" Value="거기다 이 녀석은....,침입자 격퇴용으로 쓰는,전투용 오토로이드잖아!" Face="Shanghai" Mono="False" />
+  <!-- ココロを持たないといえどネットナビと変わりないなら戦いようはある！ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue7FaceAlice" Value="마음을 가지고 있지 않다 해도,넷 내비랑 다를 바가 없다면,싸울 여지는 있어!" Face="Alice" Mono="False" />
+  <!-- バトルオペレーションセット！ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue8FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue9FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- ターゲット　ホソクコウゲキ　カイシ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage3Dialogue10FaceAutoroid" Value="타겟 포착.,공격 개시." Face="Autoroid" Mono="False" />
+  <!-- オートロイド -->
+  <Text Key="Map.ClockTower1ClearEventBattle1Enemy1" Value="오토로이드" />
+  <!-- 大したことなかったわね -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage5Dialogue1FaceShanghai" Value="별 거 아니었구만." Face="Shanghai" Mono="False" />
+  <!-- 今のオートロイドがこのエリアのセキュリティを握ってたみたいね -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage5Dialogue2FaceAlice" Value="방금 그 오토로이드가,이 에리어의 보안을,쥐고 있었던 것 같은데." Face="Alice" Mono="False" />
+  <!-- さあ　プラグアウトして先に進むわよ！ -->
+  <Dialogue Key="Map.ClockTower1ClearEventStage5Dialogue3FaceShanghai" Value="자，플러그아웃하고,앞으로 가자!" Face="Shanghai" Mono="False" />
+  <!-- コノデンノウノ　オオキナトケイハハリガムイテル　ホウコウニダケススムコトガ　デキマス -->
+  <Dialogue Key="Map.ClockTower1Sprite1AStage1Dialogue1FaceSprite" Value="이 전뇌에 있는 큰 시계는,시곗바늘이 향하는 방향으로만,이동할 수 있어요." Face="Sprite" Mono="False" />
+  <!-- ハリノホウコウハ　ソコニアルハシラドケイデ　ソウサスルコトガデキマスヨ -->
+  <Dialogue Key="Map.ClockTower1Sprite1AStage1Dialogue2FaceSprite" Value="시곗바늘의 방향은 거기 있는,괘종시계를 이용해,조작할 수 있어요." Face="Sprite" Mono="False" />
+  <!-- サキニ　ススムノデアレバミギホウコウニ　ハリガムクジコクニスルト　イイデショウ -->
+  <Dialogue Key="Map.ClockTower1Sprite1AStage1Dialogue3FaceSprite" Value="앞으로 나아가고 싶다면,오른쪽 방향으로 바늘이 향하는,시각으로 맞추면 되겠네요." Face="Sprite" Mono="False" />
+  <!-- コノアト　モウヒトツオオキナ　トケイガアルノデジコクハ　ヨクカンガエマショウ -->
+  <Dialogue Key="Map.ClockTower1Sprite2AStage1Dialogue1FaceSprite" Value="이 앞에 하나 더,큰 시계가 있으니까,시각을 잘 생각해야겠네요." Face="Sprite" Mono="False" />
+  <!-- チナミニココハイッチョクセンノ　ジコクニスルトイイラシイデスヨ -->
+  <Dialogue Key="Map.ClockTower1Sprite2AStage1Dialogue2FaceSprite" Value="참고로 여기는,일직선으로 향하는 시각으로,맞추면 좋다나 봐요." Face="Sprite" Mono="False" />
+  <!-- ミギホウコウニハリガムクノッテナンジデシタッケ？ -->
+  <Dialogue Key="Map.ClockTower1Sprite3AStage1Dialogue1FaceSprite" Value="오른쪽 방향으로,시곗바늘이 향한다니,그게 몇 시였죠?" Face="Sprite" Mono="False" />
+</data>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　シティエリア３ -->
+  <Text Key="Map.CityNet3Name" Value="인터넷 시티 에리어 3" />
+  <!-- 倒したナビの残骸データがどこかへと飛び去っていった････ -->
+  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue1FaceNone" Value="쓰러뜨린 내비의 잔해 데이터가,어딘가로 날아가 버렸다...." Face="None" Mono="False" />
+  <!-- ←：シティエリア１↓：エイエンエリア１ -->
+  <Dialogue Key="Map.CityNet3GuidePlateStage1Dialogue1FaceNone" Value="←: 시티 에리어 1,↓: 영원 에리어 1" Face="None" Mono="False" />
+  <!-- ネットエージェントによって一時的に封鎖されているようだ -->
+  <Dialogue Key="Map.CityNet3GateStage1Dialogue1FaceNone" Value="넷 에이전트에 의해,일시적으로 봉쇄되어 있는,것 같다." Face="None" Mono="False" />
+  <!-- このエリアがすっごく複雑なのはここからいろんなオフィスにつながってるからなのよ -->
+  <Dialogue Key="Map.CityNet3Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="이 에리어는,다양한 오피스와 연결되어 있어서,길이 꽤나 복잡해." Face="NaviPinkFemale" Mono="False" />
+  <!-- あれ？スクエアこっちじゃないの？ -->
+  <Dialogue Key="Map.CityNet3Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="어라?,스퀘어 이 쪽 아냐?" Face="NaviChild" Mono="False" />
+  <!-- うわーん迷っちゃったー！ -->
+  <Dialogue Key="Map.CityNet3Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="우와～앙，길 잃었어!" Face="NaviChild" Mono="False" />
+  <!-- どこかに毒ヘビのウィルスが出るらしいけど　そいつの落とすチップは特殊なんだって -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="어딘가에 독성 뱀 바이러스가,나온다는 것 같은데 그 녀석이,떨어뜨리는 칩은 특수하다나 봐." Face="NaviOrangeMale" Mono="False" />
+  <!-- なんでも　Ａボタンを押しているあいだだけ攻撃するんだって途中でやめられるってことだ -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="아무래도 A 버튼을 누르고 있는,동안만 공격할 수 있다나 봐.,중간에 임의로 끊을 수도 있어." Face="NaviOrangeMale" Mono="False" />
+  <!-- 毒属性は炎で消毒したり雷で電気分解するからそれらに弱いらしいよ -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="독 속성은 불꽃으로 소독하거나,전기로 전기분해할 수 있으니까,그 두 속성에 약하다나 봐." Face="NaviOrangeMale" Mono="False" />
+  <!-- 逆に　水を腐らせたり草を枯らせられるからそれらには強いんだ -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi2Stage1Dialogue2FaceNaviOrangeMale" Value="반대로 물을 썩게 만들거나,풀을 말려죽일 수 있으니까,그 두 속성에는 강해." Face="NaviOrangeMale" Mono="False" />
+  <!-- ＲＯＭへの警戒のためってネットエージェントが道を塞いでます -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi3Stage1Dialogue1FaceNaviGreenRobot" Value="ROM의 경계를 위해라면서,넷 에이전트들이,길을 막고 있어요." Face="NaviGreenRobot" Mono="False" />
+  <!-- エイエンエリアへの唯一の道なのですが困りましたね -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi3Stage1Dialogue2FaceNaviGreenRobot" Value="영원 에리어로 갈 수 있는,유일한 길인데,난감하게 됐네요." Face="NaviGreenRobot" Mono="False" />
+  <!-- 奥に見えるワープってボーダーコンツェルンの本社につながってるらしいね -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi4Stage1Dialogue1FaceNaviGreenRobot" Value="안에 보이는 워프는,보더 콘체른 본사로,이어진다나 봐." Face="NaviGreenRobot" Mono="False" />
+  <!-- でも　あそこに行く方法は誰もしらないんだって -->
+  <Dialogue Key="Map.CityNet3Chapter2MaleNavi4Stage1Dialogue2FaceNaviGreenRobot" Value="그런데 저기를 가는 방법은,아무도 모른다는데." Face="NaviGreenRobot" Mono="False" />
+  <!-- 何じゃあ？千里眼じいさんを探しとるじゃと？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue1FaceNaviOrangeRobot" Value="무신 일이고?,천리안 할아버지를,찾고 있다고?" Face="NaviOrangeRobot" Mono="False" />
+  <!-- いかにもわしが検索ソフト「千里眼」を持っとるじじいナビじゃが････ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue2FaceNaviOrangeRobot" Value="분명 내가 검색 소프트웨어,”천리안”을 가지고 있는,할아버지 내비이긴 한데...." Face="NaviOrangeRobot" Mono="False" />
+  <!-- なに？　探しものとな？ふむ････協力してやらんでもないが････ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue3FaceNaviOrangeRobot" Value="뭣이? 찾고 있는 게 있어?,흐음....,협력해 줄 수는 있네만...." Face="NaviOrangeRobot" Mono="False" />
+  <!-- そうじゃな「リペア２０　＊」と引き換えに探してやっても良いぞ？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue4FaceNaviOrangeRobot" Value="그렇구먼.,”리페어20 ＊”과 교환해 주면,찾아 줄 수 있겠네만?" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 「リペア２０　＊」は持っておるかの？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue5QuestionFaceNaviOrangeRobot" Value="”리페어20 ＊”을 가지고 있나?" Face="NaviOrangeRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet3Chapter3SageStage1Dialogue5Options" Value="예,아니오" />
+  <!-- 持っておらんではないか！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue6FaceNaviOrangeRobot" Value="가지고 있지 않구먼!" Face="NaviOrangeRobot" Mono="False" />
+  <!-- もしかしてチップフォルダに入れてるんじゃなかろうな？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue7FaceNaviOrangeRobot" Value="아니면 혹시 칩 폴더에,들어가 있는 거 아닌감?" Face="NaviOrangeRobot" Mono="False" />
+  <!-- もしもそうならばフォルダから外してくれんと受け取れんよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue8FaceNaviOrangeRobot" Value="만약 그렇다면,폴더에서 빼 줘야,받을 수 있네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- これじゃこれじゃ強い回復チップは老いぼれた身体には毒じゃ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue9FaceNaviOrangeRobot" Value="그래，이걸세.,센 회복 칩은,늙은 몸에는 오히려 독이라네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- ふむ　約束じゃそなたの探しているものを検索してやろう -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue10FaceNaviOrangeRobot" Value="흐음，그럼 약속대로,그대가 찾고 있는 걸,검색해 보겠네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- むむむむむ・・・・ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue11FaceNaviOrangeRobot" Value="흐으으으음...." Face="NaviOrangeRobot" Mono="False" />
+  <!-- カーーーーッ！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue12FaceNaviOrangeRobot" Value="아하!" Face="NaviOrangeRobot" Mono="False" />
+  <!-- 見えたぞ！！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue13FaceNaviOrangeRobot" Value="발견했네!!" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そなたの探しておるものはズバリ「Ｋｅｙ．ｂａｔ」じゃ！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue14FaceNaviOrangeRobot" Value="그대가 찾고 있는 건,즉 ”Key.bat”이구먼!" Face="NaviOrangeRobot" Mono="False" />
+  <!-- そしてそれは････子供がたくさんいる所で、本のデータが多い電脳に存在するぞい！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue15FaceNaviOrangeRobot" Value="그리고 그건....,어린애가 잔뜩 있는 곳이며,책 데이터가 많은 전뇌에 있네!" Face="NaviOrangeRobot" Mono="False" />
+  <!-- わしにわかるのはそのくらいじゃあとは自分の頭と足で考えるとよかろうて -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage1Dialogue16FaceNaviOrangeRobot" Value="내가 알 수 있는 건 여기까지일세.,나머지는 직접 발로 뛰고,머리로 생각해 보게." Face="NaviOrangeRobot" Mono="False" />
+  <!-- リペアで回復しないと転送病で消えてしまうんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue1FaceNaviOrangeRobot" Value="리페어로 회복하지 않으면,전송병 때문에 없어져 버린다네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- 転送病っていうのはなワープ移動の際にほんの少しデータが劣化してしまうんじゃ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue2FaceNaviOrangeRobot" Value="전송병이라는 건,워프로 이동할 때마다 아주 조금씩,데이터가 열화되는 현상이야." Face="NaviOrangeRobot" Mono="False" />
+  <!-- プラグアウトすれば治るんじゃがワシのような野良ナビはやがてデータが壊れてしまうんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue3FaceNaviOrangeRobot" Value="플러그아웃하면 낫는 병이지만,나 같은 야생 내비는 결국,데이터가 부숴져 버린다네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- じゃから　定期的にリペアで回復する必要があるのじゃ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue4FaceNaviOrangeRobot" Value="그러니까 정기적으로,리페어로 회복해야 하네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- ちなみに検索ソフト「千里眼」とは電脳世界全域を検索できるスゴイソフトなんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue5FaceNaviOrangeRobot" Value="덧붙여서 검색 소프트웨어 ”천리안”,이란 전뇌 세계 전역을 검색할,수 있는 엄청난 소프트웨어야." Face="NaviOrangeRobot" Mono="False" />
+  <!-- じゃが、検索結果はアイマイで正確な位置までは特定はできなくてのう -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue6FaceNaviOrangeRobot" Value="그렇지만，검색 결과가 모호하고,정확한 위치까지는 특정할 수가,없어서 말이지." Face="NaviOrangeRobot" Mono="False" />
+  <!-- 開発中止になってしまったというわけなんじゃよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue7FaceNaviOrangeRobot" Value="그래서 개발중지되어 버린,역사가 있네." Face="NaviOrangeRobot" Mono="False" />
+  <!-- それで　失敗作のワシは捨てられたってわけじゃハッハッハ！ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage3Dialogue8FaceNaviOrangeRobot" Value="그래서 나 같은 실패작은,버려졌다는 거지.,하하하!" Face="NaviOrangeRobot" Mono="False" />
+  <!-- ここにいた爺さんナビ？ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage5Dialogue1FaceNaviOrangeMale" Value="여기 있던 할아버지 내비?" Face="NaviOrangeMale" Mono="False" />
+  <!-- 元気になったからって言ってエイエンスクエアに向かっていったよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage5Dialogue2FaceNaviOrangeMale" Value="건강해졌다면서,영원 스퀘어로 향했어." Face="NaviOrangeMale" Mono="False" />
+  <!-- エイエンスクエアのあるエイエンエリアにはこのエリアの右下の方から行けるよ -->
+  <Dialogue Key="Map.CityNet3Chapter3SageStage5Dialogue3FaceNaviOrangeMale" Value="영원 에리어로 가려면,이 에리어의 오른쪽,아랫방향으로 가면 돼." Face="NaviOrangeMale" Mono="False" />
+  <!-- 久しぶりに友人のナビに会ったらバージョンアップしてイケメンになってた････ -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="간만에 친구 내비랑 만났는데,애가 버전업을 해서,미남이 되어 있었어...." Face="NaviGreenRobot" Mono="False" />
+  <!-- 俺も次世代ナビにバージョンアップしたいなあ -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi1Stage1Dialogue2FaceNaviGreenRobot" Value="나도 차세대 내비로,버전업하고 싶다." Face="NaviGreenRobot" Mono="False" />
+  <!-- 最近知ったんだけど草属性の攻撃って無敵が発生しないんだってね -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi2Stage1Dialogue1FaceNaviOrangeMale" Value="최근에 알게 된 건데,풀 속성 공격은,무적 시간이 발생하지 않더라." Face="NaviOrangeMale" Mono="False" />
+  <!-- うまく使えばコンボに使えるかもしれないな -->
+  <Dialogue Key="Map.CityNet3Chapter4Navi2Stage1Dialogue2FaceNaviOrangeMale" Value="잘 쓰면 콤보에 쓸 수 있지,않을까 싶어." Face="NaviOrangeMale" Mono="False" />
+  <!-- ････さてそろそろ引き上げるかな -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue1FaceNaviBlueRobot" Value="....자，그럼,슬슬 이쯤 하고 올라갈까." Face="NaviBlueRobot" Mono="False" />
+  <!-- ん？行商人とは私のことだが････ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue2FaceNaviBlueRobot" Value="음?,내가 행상인이긴 한데...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 商品がひとつ残らず品切れになったから店じまいだよ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue3FaceNaviBlueRobot" Value="상품이 하나도 안 남고,다 매진되어서,오늘 영업은 끝났어." Face="NaviBlueRobot" Mono="False" />
+  <!-- 「ブラインドリーフ　Ｐ」が欲しかったって？残念だったねえ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue4FaceNaviBlueRobot" Value="”블라인드리프 P”를,원한다고? 아깝게 됐네." Face="NaviBlueRobot" Mono="False" />
+  <!-- その商品なら一人の客が５枚すべて買い占めていったよ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue5FaceNaviBlueRobot" Value="그 상품이라면 고객 한 명이,5장을 전부 다 사 갔어." Face="NaviBlueRobot" Mono="False" />
+  <!-- なんでも外国のウラスクエアで人気のチップなんだってね -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue6FaceNaviBlueRobot" Value="아무래도 외국 우라 스퀘어에서,인기 있는 칩이라면서 말이지." Face="NaviBlueRobot" Mono="False" />
+  <!-- 次に店を出す時は危険を覚悟でウラに出店も考えてみるか････ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage1Dialogue7FaceNaviBlueRobot" Value="다음 번에 가게를 낼 때에는,위험을 각오하고,우라에 한 번 내어 볼까...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 君が欲しがった商品なら一人の客が５枚すべて買い占めていったよ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage3Dialogue1FaceNaviBlueRobot" Value="네가 원한 상품이라면,고객 한 명이,5장을 전부 다 사 갔어." Face="NaviBlueRobot" Mono="False" />
+  <!-- なんでも外国のウラスクエアで人気のチップなんだってね -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage3Dialogue2FaceNaviBlueRobot" Value="아무래도 외국 우라 스퀘어에서,인기 있는 칩이라면서 말이지." Face="NaviBlueRobot" Mono="False" />
+  <!-- 次に店を出す時は危険を覚悟でウラに出店も考えてみるか････ -->
+  <Dialogue Key="Map.CityNet3Request12NaviStage3Dialogue3FaceNaviBlueRobot" Value="다음 번에 가게를 낼 때에는,위험을 각오하고,우라에 한 번 내어 볼까...." Face="NaviBlueRobot" Mono="False" />
+  <!-- あらぁ　あなたの顔ってすごくおいしそう！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage1Dialogue1FaceNaviBlackRobe" Value="어머，네 얼굴,엄청 맛있어 보인다!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.CityNet3BlackRobe3Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうシティエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage3Dialogue1FaceShanghai" Value="....후우,시티 에리어에 있는 놈들은,다 쓰러뜨린 것 같네." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue1FaceShanghai" Value="앨리스，전화 왔어!,레이센한테서야!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue2FaceAlice" Value="레이센!,네가 말한 에리어 내에 있는,검은 내비들을 다 쓰러뜨렸어!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue3FaceReisen" Value="여기서도 확인했다.,덕분에 살았어.,고맙다." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue4FaceReisen" Value="아무래도 그 놈들，우라 인터넷,깊은 곳에서 각 지역으로,이동하고 있는 것 같아." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue5FaceReisen" Value="우라 인터넷에서도 여러 번의,교전이 확인되고 있는 이상,우라의 주민일 리도 없고." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue6FaceReisen" Value="계속 부탁해서 미안한데,놈들의 정체를 알아내려고 하는데,거길 조사해 줄 수 있나?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue10FaceShanghai" Value="그 내비들을 뿌리뽑을,수만 있다면 뭐든 해 보겠어." Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue11FaceReisen" Value="고맙다." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue12FaceReisen" Value="보수를 원한다면,넷 에이전트에게,청구해 줘." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue13FaceShanghai" Value="알겠어.,그걸 받으려면 일단,조사를 시작해야겠지!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue14FaceAlice" Value="그런데 우라 인터넷의,깊은 곳이라니.... 괜찮을까?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.CityNet3BlackRobe3Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
+  <!-- おや　あなたが依頼を受けてくれた人ですか？ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue1FaceNaviOrangeMale" Value="오，의뢰를 받아주신 분이군요?" Face="NaviOrangeMale" Mono="False" />
+  <!-- 私はＳＮＳ「キズナフレンド」の利用者なのですが最近困っているんです -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue2FaceNaviOrangeMale" Value="저는 SNS ”키즈나 프렌드”를,이용하는 사람인데 최근에,상황이 좀 곤란해져서 말입니다." Face="NaviOrangeMale" Mono="False" />
+  <!-- というのも最近代理で来た管理人がひどい守銭奴で････ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue3FaceNaviOrangeMale" Value="그 곤란한 상황이라는 것도,최근에 대리로 온 관리인이,심각한 수전노라서...." Face="NaviOrangeMale" Mono="False" />
+  <!-- かなりの金額を課金しないとろくにサービスを利用することができなくなりました -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue4FaceNaviOrangeMale" Value="상당히 큰 금액을 과금하지 않고는,제대로 서비스를 이용할 수 없게,되었어요." Face="NaviOrangeMale" Mono="False" />
+  <!-- （「キズナフレンド」ってあたしの　しもべが運営してるやつ････） -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue5FaceShanghai" Value="(”키즈나 프렌드”면 내 부하 중, 한 명이 운영하고 있는 거잖아....)" Face="Shanghai" Mono="False" />
+  <!-- なので　この代理管理人をこらしめてほしいんです！お願いします！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue6FaceNaviOrangeMale" Value="그래서 그런데 이 대리 관리인을,혼내 줬으면 합니다!,부탁드릴게요!" Face="NaviOrangeMale" Mono="False" />
+  <!-- ････わかったわ！このあたしにドーンと任せなさい！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue7FaceShanghai" Value="....알겠어!,이 내게 다～,맡겨 달라구!" Face="Shanghai" Mono="False" />
+  <!-- おお！　ありがとうございます！これが管理エリアに入れるＰコードです！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue8FaceNaviOrangeMale" Value="오오! 감사합니다!,여기，관리 에리어에 들어갈,수 있는 P코드입니다!" Face="NaviOrangeMale" Mono="False" />
+  <!-- これでシティエリア２にあるセキュリティキューブを解除して管理人のところに入れます -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage1Dialogue9FaceNaviOrangeMale" Value="이게 있으면 시티 에리어 2에,있는 시큐리티 큐브를 해제하고,관리인에게 갈 수 있습니다." Face="NaviOrangeMale" Mono="False" />
+  <!-- 管理エリアの場所はシティエリア２ですおねがいしますね -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage3Dialogue1FaceNaviOrangeMale" Value="관리 에리어가 있는 곳은,시티 에리어 2입니다.,부탁드릴게요." Face="NaviOrangeMale" Mono="False" />
+  <!-- おお！　代理管理人をこらしめてくれたんですね！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage5Dialogue1FaceNaviOrangeMale" Value="오오! 대리 관리인을,혼내 주셨군요!" Face="NaviOrangeMale" Mono="False" />
+  <!-- ありがとうございます！これで気持よく利用できるようになるでしょう！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage5Dialogue2FaceNaviOrangeMale" Value="감사합니다!,이제 기분 좋게 SNS를,이용할 수 있겠어요!" Face="NaviOrangeMale" Mono="False" />
+  <!-- それでは　これが報酬です！ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage5Dialogue3FaceNaviOrangeMale" Value="그러면 여기 보수입니다!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 「キズナフレンド」は友達との貴重な連絡手段でもありますからね -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage7Dialogue1FaceNaviOrangeMale" Value="”키즈나 프렌드”는 친구와의,귀중한 연락 수단이기도 해요." Face="NaviOrangeMale" Mono="False" />
+  <!-- 使えなくなったら大変なことになるところでしたよ -->
+  <Dialogue Key="Map.CityNet3Request8NaviStage7Dialogue2FaceNaviOrangeMale" Value="못 쓰게 되었다면,상당히 큰일이 날 수도,있었어요." Face="NaviOrangeMale" Mono="False" />
+  <!-- ここから先はボーダーコンツェルンの社内ネットワークだ -->
+  <Dialogue Key="Map.CityNet3AGuardStage1Dialogue1FaceNaviBlueRobot" Value="이 앞은,보더 콘체른 본사,네트워크다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 関係者以外は立ち入り禁止だぞ -->
+  <Dialogue Key="Map.CityNet3AGuardStage1Dialogue2FaceNaviBlueRobot" Value="관계자 이외에는,출입 금지 구역이다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ここから先は一般人立入禁止だぞ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue1FaceNaviBlueRobot" Value="이 앞은 관계자 이외에는,출입 금지된 구역이다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ねぇ　お兄さ〜ん暇でしょ〜？ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue2FaceShanghai" Value="있지，오빠～,한가롭지 않아～?" Face="Shanghai" Mono="False" />
+  <!-- あたしと　イイことしな〜い？ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue3FaceShanghai" Value="나랑 좋은 거 하지 않을래～?" Face="Shanghai" Mono="False" />
+  <!-- い　イイこと････！？ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue4FaceNaviBlueRobot" Value="조，좋은 거라니....!?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ふふ　そうよ････イ・イ・こ・と♪ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue5FaceShanghai" Value="후훗，그래....,좋・은・거♪" Face="Shanghai" Mono="False" />
+  <!-- さあ　こっちへいらっしゃ〜い -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue6FaceShanghai" Value="자，이리로 와～" Face="Shanghai" Mono="False" />
+  <!-- ゴクッ････ -->
+  <Dialogue Key="Map.CityNet3AGuardStage3Dialogue7FaceNaviBlueRobot" Value="꿀꺽...." Face="NaviBlueRobot" Mono="False" />
+  <!-- そう････もっと近づいて････ほら････ -->
+  <Dialogue Key="Map.CityNet3AGuardStage5Dialogue1FaceShanghai" Value="그래.... 좀 더 가까이....,와...." Face="Shanghai" Mono="False" />
+  <!-- お　おお････ -->
+  <Dialogue Key="Map.CityNet3AGuardStage5Dialogue2FaceNaviBlueRobot" Value="오，오옷...." Face="NaviBlueRobot" Mono="False" />
+  <!-- とでも思ったかカス野郎が！！ -->
+  <Dialogue Key="Map.CityNet3AGuardStage5Dialogue3FaceShanghai" Value="라고 할 줄 알았냐,이 내비 쓰레기가!!" Face="Shanghai" Mono="False" />
+  <!-- へっ！　あたしはそんなに安い女じゃねーわよ！ -->
+  <Dialogue Key="Map.CityNet3AGuardStage7Dialogue1FaceShanghai" Value="하! 난 싸구려 여자,따위가 아냐!" Face="Shanghai" Mono="False" />
+  <!-- さあて　これで片付いたわとっとと　アリスを助け出さないと････！ -->
+  <Dialogue Key="Map.CityNet3AGuardStage7Dialogue2FaceShanghai" Value="좋아，이걸로 경비는 정리되었고.,빨리 앨리스를 구하러 가야 해....!" Face="Shanghai" Mono="False" />
+  <!-- さて　見張りがいるわね -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage1Dialogue1FaceShanghai" Value="어디，경비가 서 있네." Face="Shanghai" Mono="False" />
+  <!-- アリス　あたしがあの見張りナビをなんとかするわ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue1FaceShanghai" Value="앨리스，내가 저 경비를,어떻게든 처리할게." Face="Shanghai" Mono="False" />
+  <!-- その後に････ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue2FaceShanghai" Value="그 뒤에...." Face="Shanghai" Mono="False" />
+  <!-- ････あれ？ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue3FaceAlice" Value="....어라?" Face="Alice" Mono="False" />
+  <!-- スタンガン　キドウ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue4FaceBlackRobot" Value="스턴 건 가동." Face="BlackRobot" Mono="False" />
+  <!-- バチィッ！！ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue5FaceNone" Value="지지지직!!" Face="None" Mono="False" />
+  <!-- バタッ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage3Dialogue6FaceNone" Value="털썩" Face="None" Mono="False" />
+  <!-- アリス？どうしたのアリス！？ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue1FaceShanghai" Value="앨리스?,왜 그래，앨리스!?" Face="Shanghai" Mono="False" />
+  <!-- しまった････気づかれてたか！ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue2FaceShanghai" Value="큰일났다....,발각당했나!" Face="Shanghai" Mono="False" />
+  <!-- アリスの位置は････ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue3FaceShanghai" Value="앨리스의 위치는...." Face="Shanghai" Mono="False" />
+  <!-- ボーダーコンツェルンの建物の中に連れて行かれたっぽいわね････ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue4FaceShanghai" Value="보더 콘체른의 건물 내부로,끌려간 것 같네...." Face="Shanghai" Mono="False" />
+  <!-- まずは　侵入してアリスを助けないと････！ -->
+  <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue5FaceShanghai" Value="우선 침입해서,앨리스를 구해야 해....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3PostGameBystander1Dialogue1" Value="아오，또 길 잃었어.,이 에리어는 진짜 복잡하다니까." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="상하이 님!,이 에리어에는 아무 이상,없습니다!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="”그대가 여기를 찾아올 것이다”,라는 묘한 느낌이 들어서,여기서 기다리고 있었네...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="아무래도 정답이었던 것 같구먼.,그리고 내 제자들과의 승부에서,이길 줄이야，놀라우이." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="제자라고 말한 데에는 이유가 있네.,내가 만들어졌을 때 내게 주어진,최신 시험 기능으로 그들을 가르쳤거든." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="그래，바로 퀴즈 생성 기능이지.,....그렇지만 이것도 옛 이야기.,이 기능은 참 오래간만에 써 보네." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="드디어 여기까지 왔구먼.,내 제자들 같이 이미지송을,부르는 것까지는 못 하겠지만." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="옛날처럼 목소리가 안 나오거든.,....아니，시간 끌 필요는 더 없겠지.,곧바로 본편으로 가 볼까?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="이 퀴즈 현자가 내릴 최후의,칠난팔고를 받을 준비는 되었나?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="바라는 대로!,아니오，잠깐" />
+  <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="알겠네. 준비를 충실히 하고,준비가 끝났다면 내게,말을 걸어 주게." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizFailureDialogue1" Value="안 됐지만 틀렸네!,다시 한 번 도전해 보게!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion1Question" Value="1번 문제! 이건 쉽겠지!,스퀘어를 제외하고,우라 인터넷의 전체 에리어 수는?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion1Options" Value="6,8,10" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion2Question" Value="2번 문제!,다음 중 도서관에서,전권 대여 중인 책은?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion2Options" Value="무인 슬레이어,어느 열등생인 내가 온라인에서....,동방영나암" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion3Question" Value="3번 문제! 다음 중 대학교의,로비에 있었던 학생이 졸업 연구,테마로 내놓은 주제는?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion3Options" Value="바이러스의 생태,넷 내비의 권리,대형 인터넷 범죄" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion4Question" Value="4번 문제! 환상중학교의,한 반에 있는 학생 좌석을,모두 합하면 몇 개인가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion4Options" Value="12,16,20" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion5Question" Value="5번 문제! 이건 역사 문제라네!,과거에 해킹당해 우주 전쟁을,발발시킨 건 무엇인가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion5Options" Value="환경 제어 시스템,드론 제어 시스템,미사일 유도 시스템" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion6Question" Value="6번 문제! 아가씨를 위한 문제!,아가씨의 친구인 텐시의 내비의,모자 챙을 장식하는 과일은?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion6Options" Value="복숭아,자두,블랙베리" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion7Question" Value="7번 문제!,잉겔레스의 사람들은,어느 측 도로로 운전할까?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion7Options" Value="좌측,우측,주나 현에 따라 다름" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion8Question" Value="8번 문제! 고향으로 귀환함세!,환상 마을 내에 플러그인할,수 있는 곳은 총 몇 곳일까?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion8Options" Value="2,3,4" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion9Question" Value="9번 문제!,다음 중 랜스터 계열의,바이러스는?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion9Options" Value="테라랜스,파이커,방아라이트" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion10Dialogue1" Value="10번 문제! 후우，이제 반 왔네!,딱 좋은 시기로군. 이 수수께끼는,저 배경을 즐기면서 풀어 보게." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion10Question" Value="이 시티 에리어의,블록 단위마다 점등하는,조명의 개수는 몇 개일까?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion10Options" Value="20,21,24" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion11Question" Value="11번 문제! 다음 중,보더 콘체른 본사의 네트워크에,직접 접속할 수 있는 물건은?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion11Options" Value="상,쓰레기통,전화 부스" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion12Question" Value="12번 문제!,다음 중 약칭 CWFD의,진짜 뜻은?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion12Options" Value="심장성 판막 마모 증후군,선천성 쇠약 인자 증후군,순환계 부정맥성 장해" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion13Question" Value="13번 문제!,지금까지의 모든 퀴즈를 다,합해서 현재 몇 번째 문제인가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion13Options" Value="38번째,43번째,48번째" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion14Question" Value="그럼 14번 문제일세!,잉겔레스의 시계탑에 있는,계단은 몇 개 있는가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion14Options" Value="4,5,6" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion15Question" Value="15번 문제!,대학교 앞에 있는 분수는,어떤 모양을 하고 있었는가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion15Options" Value="사각형,육각형,팔각형" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion16Question" Value="16번 문제!,아가씨가 이긴 토너먼트 이름은?,이거라면 알고 있겠지!" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion16Options" Value="N1 토너먼트,N1 그랑프리,루나 컴페티션" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion17Question" Value="17번 문제! 조금만 더 가면 되네!,보더 콘체른은 이전에,어떤 이름을 하고 있었는가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion17Options" Value="사이바 콘체른,프론티어 만물상,보더 상사" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion18Question" Value="18번 문제!,다음 중 실존하는,배리어 칩은 무엇인가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion18Options" Value="힐배리어,파워배리어,배리어100" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion19Question" Value="19번 문제!,환상대학교에 있는 공기청정기는,어떤 모습을 하고 있었는가?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion19Options" Value="상,화분,가로수" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion20Question" Value="마지막 20번 문제!,아가씨가 이걸 틀리면,내가 좀 슬퍼할지도 모르겠구만." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion20Dialogue1" Value="우리가 맨 처음 만났을 때,내가 부탁한 칩은?" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion20Options" Value="리페어20　　　　＊,샷웨이브　　　　＊,레이건　　　　　　Ｃ" />
+  <Dialogue Key="Map.CityNet3SageQuizCheckpoint" Value="앞의 10개는 건너뛰지.,이미 아가씨도 그 문제들은,충분히 알고 있을 테니까." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizBlankQuestion" Value="" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue1" Value="훌륭하이! 모두 맞췄네!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue2" Value="우선 퀴즈 경품이라 생각하고,이걸 받게." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue3" Value="그리고...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue1" Value="이걸로 아가씨는 이 세상에서 제일,현명하고 강한 내비의 부탁을,받을 자격을 스스로 증명했네." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue2" Value="그들은 천국과도 같은,인터넷에 있는 듯하지만,거기에 가고 싶다면...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue3" Value="”우라 인터넷을 찾아라”고,말하고 싶은 거지?,할아버지도 너무 허풍 떤다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue4" Value="오，그런가.... 그럼 다시금,”축하하네”. 난 그러면 슬슬,영원 에리어로 돌아갈까." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedDialogue1" Value="이걸로 아가씨는,그 천국 에리어에 갈 권한을,무사히 입증해 보였네." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue1" Value="그거 말인데.... 사실,우리가 직접 코드를,파악할 수 있었어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue2" Value="할아버지는 운이 좋았어.,정말이지，”12345”라니 완전히,사람을 멍청이 취급하는 것 같잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue3" Value="그딴 숫자를 눈앞에서 알려줬다면,글쎄，평범하게 서 있지는,못 할 거라고 말해 둘게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue4" Value="운이 좋았다고 해야 할까?,뭐，난 영원 에리어로 돌아가겠네.,그럼 다시금 ”축하하네”!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue1" Value="그걸 물어보고 싶었는데，,할아버지가 뭘 해도 퀴즈 배틀을,하고 싶었던 것 같아서 무심코...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue2" Value="그래서，,길을 막고 있는 그 문의,코드를 알고 있어?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue3" Value="그거 말인감....,잠깐 기다려 주게." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue1" Value="오옷，드디어 여기까지 왔네!,그래서，코드는?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue2" Value="잠시 기다리게，아가씨...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue1" Value="할아버지 이미 여기서,기다리고 있었네. 내가 뭐를,물어보러 왔는지도 아는 거 아냐?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue2" Value="물어보고 싶은 게 있는가?,있다면 영원 스퀘어에서,만나서 이야기함세." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue3" Value="그렇지만 이번에는 좀 달라.,난 지금 아가씨의 오퍼레이터와의,퀴즈 배틀 때문에 와 있네." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue4" Value="퀴즈 군，마스터，그리고 킹....,그들이 어디에서 자신들의,답을 찾았는지 생각해 봤나?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue1" Value="이전에 말한 그 배의 조사는,잘 진행되어 가고 있나,모르겠군." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue2" Value="그건 나중에 해도 괜찮아.,지금은 그것보다 지금 바로 답을,들었으면 하는 질문이 있어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue3" Value="미안허지만 지금 난,전력이 바닥난 상태야.,오늘은 움직이기도 힘들겄어." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue4" Value="그렇지만....,자네가 나와의 퀴즈 배틀에서,이긴다면 예외로 도와 주겠네." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue1" Value="잠깐 한 숨 돌리러 왔어.,그러고 보면，할아버지는,여기서 뭐 해?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue2" Value="아가씨의 오퍼레이터가,그렇게 퀴즈를 좋아한다는,소문을 듣고 여기 왔네!" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteReminderDialogue1" Value="”12345”라니 참 기묘한 코드일세....,천국 에리어에서 아가씨가,원하는 걸 찾을 거라 믿네." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue1" Value="이거야 원이야.,그래도 여기까지 왔으니 이제,우리가 퀴즈 퀸이라는 걸까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="퀴즈를 다 이겼다고,꼭 퀴즈의 왕이 되는 건,아니지 않아，상하이....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="그래? 뭔가 퀴즈를 잔뜩 준비해,놓고 도전자를 기다린다던지,하는 거 두근거리잖아!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1" Value="그래，맞아. ,그 때 그것 같은 거라면,자리를 조금 벌려 줄게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage2Dialogue1" Value="으으으으으으으음....,좋네...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="Š̴̨̥̀͌͗͐‰̶͓̦̈́̓—̷̡̛͈̯͗̓̚§̴͕͔͙̫̉͛̑®̵̗̙̼͚͐̓̑́ ̶̧̟̖̔̓̈́͝｢ＣＬＩＥＮＴ｣  ̴͓͛̄€̷̖̯͛̎̃͜͝†̷̧̯͉͎̒̿̔–̶̬͒̂̕͝©̷̦̲̫̠̌͘¤̴̻̪̌̃͆Œ̶̲̗̣̓͗̃̊ͅ¬̶̲̳͌Ž̵͚͝­̵͓̱̼̮̑š̶̡͐̐̈́̕,̸̛̗̺̙́̔́’̷͍̳̤̙̈ž̴̭͗̾̄̕«̷̮̈̅̀”̴͙̮̎̄́‡̸̠̎̀͂̕¡̴̟̍Š̸̨̭̽̓͋͘¢̷̢̣̱͘•̶̧͇̊̍͌̀™̵͎̝̀́”̷̻͋͗̍…̷̺̭̀̉ ̵̩̎｢ＣＯＮＮＥＣＴ｣‰̴̮͖̺̞̽̀£̸̰̗͒§̴̗͖̦̾͋̓,̸̮̉͝¬̸̭̾͜˜̸̭͚̼̿̚͜˜̴̡̩͙̭̊̇̾͘¤̷̹̼͆̕ž̸̜̯̼́ ̸̮͗͆̉｢ＳＥＣＵＲＥ｣ ̴͉̉̾̈́›̷̮͚̜̜̌̕—̴̦͒͜‹̴̯̬̯͌̎̷͉̩͍̱̈́̏̌Š̵̨̨̺͌̈́͠ª̶͍̕“̵͍̈̍‹̶͇̦̻̈́͜͠ˆ̶͙͚̫̐͊͛š̷̝̈ͅ" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="€̴͖̝̳̊͛̾̿“̸̡̙̱̿̚͜͝ ̷̞͋̀͌͆｢ＵＳＥＲ｣ ̸͕̜̀̐̚ͅ¡̶̩̪̺͂̑”̴͈̬̭͐›̴̩̦̽̄͝ ̷̨̩̰͊̀｢ＤＥＦＩＮＥ｣ ̷̫͙̊¦̴̖̮͎̌͋͝©̵͇̾̈́̕‡̷̧̜̳̒̒̀̔ͅ’̷͍̥͚̏̓̚͠¬̸͙͍͚̆,̸̝͑̇̔̚ͅŽ̶͙̠͓͕͛̒͐̽›̴̦͈̓̿̔͛Œ̸̛̮̬̈́̽̕ƒ̸̙̌͗̉…̶̹̈́̅͝Ÿ̴̛̥̹͠ ̶̽͂ͅ｢ＡＣＣＥＳＳ｣ ̷͓̮̩͑£̴̳͕̇́͐œ̵͖͎͉̿‡̸̼̤̫̙̍̑̓̆–̴̢̪̝̣͌̈́«̸͇̊͊͝“̶͍̽̉̓͛‹̷̙̘̦̀͛́̈́Œ̶̢͊̑,̴̨̳̲̈ª̴͉͖̳̩͂ ̴̤̣̽́͑͘͜｢ＡＵＴＨＥＮＴＩＣＡＴＥ｣ ̵̱̌̂̈́̕«̸̢̢̛͐̆͝€̸̻̹͂̍‘̶̳̌̈́̈š̴̔̂̄̋ͅ’̵̛͕̩̇̓Ž̵̙̐–̸̪̲̤͑̽”̴̡̲̱̀̿" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="­̴̮̪̾̓̏£̸̢̗̖̓̆̚̚•̷̢̛̮̮̄̚•̷̬̱̯͒̏¤̴̤̞̯̓̋́́ͅ©̵̠̻͈̂†̷͈͚̬̯̈¡̴̝͎̗̏̇̚¡̶̢̫̳̭̒̑͘¦̶͓̬̈́͐‡̴͔̆͗͝¦̴̯̬͛Š̶̡̗̙̀̿–̴̬̪̝̐̾̍̅Ÿ̵̧̟͐›̷̗̭̼̲̃̒̓—̴̘͓͈̫͒́͐Ş̵̌̈ª̵̨̗̞͒͊̀̿“̶̖̝͚͖̀͌͠ ̵͇̏｢ＢＥＧＩＮ｣ ̴͔̜̬̀͛,̷̻̐̈́͝š̶̜̲̀ͅ§̸̢͚͂̋£̸̝̊͌§̷͈̲̝̃̄͝€̸͓̺̚ž̸͙͒̄’̸̝̹̉̈́‘̶͕̹͖̬́̓̑͛®̵͎̝̣͊͂̓͜¬̸̡̮̾̉̌Ž̷͎̳̚¦̶̫̙̈̒̊͝Š̶̜̲̃™̸̲̙͌Ž̸̧͌̓͝©̴̗̼̭̄¤̷̲͇̻͍̽̄̉Œ̷̣̖̆̔̇͗‰̵̜̈́̋̈̚¦̷͔̭͎̹̔͐̇͘†̸̪̞͂̂͋̎™̶̜̞̐̊̽͜ª̸̼́•̸̢̍͝‚̷̲̓,̵̲̜͊͜͠—̶̻̥͑͐̉̕¢̴͉́†̴̮̞̌̒͜‘̸̛̖͘͝‹̸̺͚͈͆̿͆ͅ ̷̛̫̯｢ＳＥＱＵＥＮＣＥ｣ ̸̨̖̳̍͐̏ͅ™̸͕̤͇̀͗́̕†̵̼͙̐͑®̵̢̟͔͖̔̑͘§̷̟̘̓̂̃̾œ̶̙͇̿͌̇̂͜" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="상하이，봐봐!" Face="Alice" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5HiddenCode" Value="#" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code1" Value="1" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code2" Value="2" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code3" Value="3" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code4" Value="4" />
+  <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code5" Value="5" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue1" Value="이렇게까지 해서 코드를,감출 필요가 있어? 대체 얼마나,비밀로 부치고 싶었으면...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue2" Value="자，자，지금 가는 에리어는,최심부에 있는데다 숨겨져 있기까지,한 드문 지역이잖아." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue3" Value="그래도 최근에 계속 인터넷의,새로운 지역에 가기만 했잖아.,지금 와서 그렇게 대단한 건...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue1" Value="상하이! 어딜 보고 있어!?,아，맞아! 저거 써야지....!,“1”，“2”...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue2" Value="이렇게까지 해서 거길 봉쇄하는,이유를 난 모르겠어서 그래.,거기도 결국 인터넷의 일부니까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue3" Value="그리고 뭘 또 쓰려고 해.,겨우 5자리 숫자잖아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue4" Value="저 정도 쯤이야,난 쉽게 외운다고.,어디 보자，“1”，그리고 “2”...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue1" Value="....“3”,....어 잠깐만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue2" Value="아 잠깐 이거 설마." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue1" Value="앨리스，나 이거,이 이상 보고 싶지 않아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue2" Value="상하이....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue3" Value="빨리 플러그아웃하자.,이 이상 볼 필요도 없겠어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue4" Value="아니，그래도 마지막에는,다른 숫자가 나올지도 모르잖아...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue5" Value="어차피 저기까지 알았으면,나머지 하나는 대충 때려맞추면,될 일이잖아!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue6" Value="내가 지금 생각하고 있는,그 개판 같은 숫자,난 여기서 보기 싫어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue1" Value="....아，내 눈!,야 앨리스，내가 뭐랬어!?,어떻게 할 거야，이거!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue2" Value="알았어，알았어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue1" Value="후우.... 이걸로,문제의 코드는 전부 알려줬네.,이걸로 아가씨의...." Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue2" Value="아가씨....?" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue2FaceNone" Value="어둡고 사람들로부터 떨어져 있지만,다양한 곳에 갈 수 있는 장소를,찾아가는 타입 같다." Face="None" Mono="False" />
+</data>

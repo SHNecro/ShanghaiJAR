@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　２０Ｆ -->
+  <Text Key="Map.CompanyServer3Name" Value="대기업 서버의 전뇌 20층" />
+  <Text Key="Map.CompanyServer3RandomBattle1Enemy1" Value="오토로이드G" />
+  <Text Key="Map.CompanyServer3RandomBattle2Enemy1" Value="오토로이드G" />
+  <Text Key="Map.CompanyServer3RandomBattle3Enemy1" Value="오토로이드B" />
+  <Text Key="Map.CompanyServer3RandomBattle4Enemy1" Value="오토로이드B" />
+  <Text Key="Map.CompanyServer3RandomBattle5Enemy1" Value="오토로이드R" />
+  <Text Key="Map.CompanyServer3RandomBattle6Enemy1" Value="오토로이드R" />
+  <!-- セキュリティによりロックされている -->
+  <Dialogue Key="Map.CompanyServer3DoorStage1Dialogue1FaceNone" Value="보안에 의해 잠겨 있다." Face="None" Mono="False" />
+  <!-- 画面には広々としたオフィスが映し出されている -->
+  <Dialogue Key="Map.CompanyServer3SubTerminalStage1Dialogue1FaceNone" Value="화면에는 사무실이 넓게,비춰져 보인다." Face="None" Mono="False" />
+  <!-- 画面には広々としたオフィスが映し出されている -->
+  <Dialogue Key="Map.CompanyServer3SubTerminalDupeStage1Dialogue1FaceNone" Value="화면에는 사무실이 넓게,비춰져 보인다." Face="None" Mono="False" />
+  <!-- えーっと　エレベーターエレベーター････っと -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage1Dialogue1FaceShanghai" Value="어디 보자，엘리베이터,엘리베이터...." Face="Shanghai" Mono="False" />
+  <!-- あったわ　これね！ -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage1Dialogue2FaceShanghai" Value="이거다!" Face="Shanghai" Mono="False" />
+  <!-- 礼を言うエレベーターが動き始めた -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage3Dialogue1FaceReisen" Value="고맙다. 엘리베이터가,움직이기 시작했어." Face="Reisen" Mono="False" />
+  <!-- もうこの端末を操作しても意味は無さそうだ -->
+  <Dialogue Key="Map.CompanyServer3TerminalStage5Dialogue1FaceNone" Value="더 이상 이 단말을 조작해도,의미는 없을 것 같다." Face="None" Mono="False" />
+  <!-- またオートロイドが来ると思ったけど誰もいないわね -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage1Dialogue1FaceShanghai" Value="또 오토로이드가,올 거라 생각했는데,아무도 없네." Face="Shanghai" Mono="False" />
+  <!-- どうせここまで来れる侵入者なんていないとでも思ってるとかかな？ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage1Dialogue2FaceShanghai" Value="어차피 여기까지 올,침입자 따위 없을 거라고,생각하고 있는 거 아니지?" Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！今どこ？ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue1FaceAlice" Value="상하이! 지금 어디야?" Face="Alice" Mono="False" />
+  <!-- ２０階のサーバーの奥よ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue2FaceShanghai" Value="20층 서버 안에 있어." Face="Shanghai" Mono="False" />
+  <!-- よし　ならばその辺りの端末でエレベーターの個人認証システムを切ってくれ -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue3FaceReisen" Value="좋아，그러면 그 주변의 장치를,이용해 엘리베이터의 개인 인식,시스템을 꺼 줘." Face="Reisen" Mono="False" />
+  <!-- それを切れば社長室へと乗り込むことが出来る -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue4FaceReisen" Value="그걸 끄면 사장실로,올라갈 수 있어." Face="Reisen" Mono="False" />
+  <!-- わかったわエレベーターね -->
+  <Dialogue Key="Map.CompanyServer3Chapter7EventsStage3Dialogue5FaceShanghai" Value="알겠어，엘리베이터를,찾으면 되는 거지?" Face="Shanghai" Mono="False" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer3PunishmentStage1Dialogue1FaceNone" Value="잘못된 조작이 실행되었습니다." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer3PunishmentStage1Dialogue2FaceNone" Value="곧바로 에러의 원인을,제거합니다!!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer3PunishmentBattle1Enemy1" Value="오토로이드SP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer3PunishmentBattle1Enemy2" Value="오토로이드SP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer3PunishmentStage3Dialogue1FaceShanghai" Value="좀 더 스마트하게,해결하고 싶었는데...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer3BGimmickStartStage1Dialogue1FaceNone" Value="보안 잠금 상태입니다.,숫자를 1부터 순서대로,입력해 주십시오." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer3AGimmickStartStage1Dialogue1FaceNone" Value="보안 잠금 상태입니다.,숫자를 1부터 순서대로,입력해 주십시오." Face="None" Mono="False" />
+</data>

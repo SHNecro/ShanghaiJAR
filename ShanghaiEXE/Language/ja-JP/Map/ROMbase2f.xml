@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　階段 -->
   <Text Key="Map.ROMbase2fName" Value="ROM基地　階段" />
@@ -21,9 +21,9 @@
   <!-- 何が入っているかわからないがずっしりと重たいコンテナだ -->
   <!-- おそらく場所的にロクなものは入っていないだろう -->
   <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue1" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
-  <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue2" Value="[It’s sealed tight anyways.,I’d need a crowbar to pry it,open.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue1" Value="[A shifting Cain cipher?,No，no，the periodicity’s all,wrong.]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue2" Value="[Or maybe this repeating,“78234528” is just a distraction,from the real data.... Hmm.]" Face="Scientist" Mono="False" />
-  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue1" Value="[Aha! A leftover invoice!,20 gallons of alkahest agent，,from.... June Corp. to W3 Ltd.]" Face="Policeman" Mono="False" />
-  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue2" Value="[I’ll pass it on to the analysts.,This could let us uncover more,ROM fronts and accomplices.]" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameContainerDialogue2" Value="しっかりと密封されていて,開けるには金テコで,こじ開けるしかなさそうだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue1" Value="物納地代の暗号が変え続る,現象か？いや、そんな筈がない,周期が全く間違ってる" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameScientistDialogue2" Value="それともこの７８２３４５２８が,繰り返してるのは本物のデータに,目が向かないようにする為かも" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue1" Value="録音資料が残ってるじゃないか！,････７５ﾘｯﾄﾙの万物融化液を,(株)ジュンからＷ３有限会社？" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase2fPostgameAgentDialogue2" Value="これは分析家に任そう,ＲＯＭと繋がっていた共犯者や,使ってた偽装等が分かるかも" Face="Policeman" Mono="False" />
 </data>

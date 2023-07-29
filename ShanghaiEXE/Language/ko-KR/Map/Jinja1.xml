@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja1Name" Value="신사의 전뇌 1" />
+  <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue1FaceShanghai" Value="으윽...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1WithdrawStage1Dialogue2FaceAlice" Value="체력 상태가 한계에 다다랐어....,일단 지금은 플러그아웃하자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue1FaceNone" Value="상하이는 문에,음의 열쇠와 양의 열쇠를,끼워넣었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage1Dialogue2FaceNone" Value="문이 아래로 내려가면서,길이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1GateStage3Dialogue1FaceNone" Value="문이 잠겨 있어서 꿈쩍도 안 한다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue1FaceSprite" Value="어떡해요，어떡해!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue2FaceSprite" Value="전뇌에서 발생한 열 때문에,보안 상태가 폭주해서,문이 잠겨 버렸어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue3FaceShanghai" Value="문을 열려면 어떻게 해야 해?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue4FaceSprite" Value="문을 열려면,열쇠가 2개 있어야 해요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue5FaceSprite" Value="검은색의 음의 열쇠랑,하얀색의 양의 열쇠가,어딘가 떨어져 있을 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue6FaceSprite" Value="하지만 조심해야 해요.,가끔씩 전뇌 세계가,갑자기 엄청 뜨거워져요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage1Dialogue7FaceSprite" Value="악! 또 왔어!,그대로 움직이지 마세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue1FaceShanghai" Value="와～ 놀랐네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue2FaceSprite" Value="여기 같이 다다미로 만들어진,바닥에는 방어막이 쳐져 있어서,열을 막아 줘요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue3FaceSprite" Value="시야가 붉어졌다면,다다미 바닥이 있는 곳으로,피신해 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage3Dialogue4FaceSprite" Value="안 그러면 불타버릴 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue1FaceSprite" Value="문을 열려면,열쇠가 2개 있어야 해요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue2FaceSprite" Value="검은색의 음의 열쇠랑,하얀색의 양의 열쇠가,어딘가 떨어져 있을 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue3FaceSprite" Value="하지만 조심해야 해요.,가끔씩 전뇌 세계가,갑자기 엄청 뜨거워져요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue4FaceSprite" Value="여기 같이 다다미로 만들어진,바닥에는 방어막이 쳐져 있어서,열을 막아 줘요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue5FaceSprite" Value="시야가 붉어졌다면,다다미 바닥이 있는 곳으로,피신해 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage5Dialogue6FaceSprite" Value="안 그러면 불타버릴 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite1AStage7Dialogue1FaceSprite" Value="새전 기부하세요～!,새전 기부하세요～!,기부하시고 은혜 받으세요～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage1Dialogue1FaceSprite" Value="이 다다미가 있는 에리어는,방어막이 쳐져 있어서,보호를 받을 수 있어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage1Dialogue2FaceSprite" Value="여기 서 있으면 고온도,버틸 수 있을 거에요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1Sprite2AStage3Dialogue1FaceSprite" Value="새전 기부하세요～!,새전 기부하세요～!,기부하시고 은혜 받으세요～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue1FaceShanghai" Value="더워라....,역시 이 화재는,전뇌가 원인이었던 것 같네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue2FaceAlice" Value="원인을 없애 버리면,불도 꺼질 거야....!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue3FaceAlice" Value="서둘러，상하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja1OpeningEventStage1Dialogue4FaceShanghai" Value="말 안 해도 그럴 거야!" Face="Shanghai" Mono="False" />
+</data>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity2frinName" Value="환상대학교 모리치카 연구소" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue1FaceDrMorichika" Value="다들 먼 길 오느라,고생 많았어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue2FaceRika" Value="연구소란 참 멋진 거에요!,리카는 흥미진진한 상태에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue3FaceDrMorichika" Value="나중에 둘러보게 해 줄게.,그도 그럴 게...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue4FaceMari" Value="보더 콘체른의 사장님한테서,뭔가 재미있는 걸,받았으니까?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue5FaceDrMorichika" Value="하하하，알고 있었구나." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue6FaceDrMorichika" Value="내가 감수한 신상품의,샘플을 가져와 줬거든." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue7FaceAlice" Value="기대된다...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue8FaceDrMorichika" Value="우선 첫번째는,”애드온 매니저”야!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue9FaceTankMan" Value="애드온? 아，,어플 같은 데에 추가하는 방식의,확장기능 말하는 거구나." Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue10FaceDrMorichika" Value="그거의 내비 버전이라 말하면,이해하기 쉽겠네." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue11FaceDrMorichika" Value="지금까지는 고도의,프로그램 지식 없이는,내비의 파워업이 힘들었지." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue12FaceDrMorichika" Value="그게 앞으로는,애드온 매니저를 통해,간단하게 이루어질 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue13FaceShanghai" Value="헤에!,아주 좋은 이야기인데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue14FaceDrMorichika" Value="아，그런 반응을 원했어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue15FaceDrMorichika" Value="맞다，모처럼 왔는데,한 번 실제로 써 볼래?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue16FaceDrMorichika" Value="이 데이터를 PET의 장치에,설치해 보렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari1Stage1Dialogue17FaceDrMorichika" Value="설치가 완료되면,내비의 능력 화면을 열고,애드온 매니저를 기동시켜 봐." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue1FaceAlice" Value="어，뭐야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue2FaceShanghai" Value="다들 진작에 다 끝내고,연구소 안을 둘러보고 있네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue3FaceDrMorichika" Value="그러고 보면 너희들,나한테 용건이 있어서,온 게 아니었니?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage1Dialogue4FaceShanghai" Value="아 맞아.,깜박 잊고 있었어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue1FaceAlice" Value="이 압축 데이터의 해석을,부탁하고 싶은데요...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue2FaceDrMorichika" Value="흐음，특이한 타입의 파일이로군.,알겠어，조사해 볼게. 그 동안,연구소 안을 둘러봐도 좋아." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue3FaceAlice" Value="부탁드릴게요." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage3Dialogue4FaceShanghai" Value="자，앨리스!,모처럼 왔는데 연구소 안을,둘러보자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2RinnosukeStage5Dialogue1FaceDrMorichika" Value="이 데이터는....,흐음，흐음...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari2Stage1Dialogue1FaceMari" Value="아무리 해도,소프트웨어 쪽은,서투르단 말이지." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rika2Stage1Dialogue1FaceRika" Value="전자 잠금 방식의,엄청 튼튼한 문이에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rika2Stage1Dialogue2FaceRika" Value="리카도 카드 키로 여는 문을,정말 마음에 들어하는 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue1FaceRemilia" Value="이게 보더 콘체른의,신제품 머신이구나." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue2FaceDrMorichika" Value="그건 새로운 게임기야.,넷배틀 머신이라 부르지." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue3FaceDrMorichika" Value="이 기계 안에서,벌어지는 넷배틀의 광경이,입체 영상으로 상영돼." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue4FaceDrMorichika" Value="그 입체 영상을 통해,여러 명이 쉽게 넷배틀을,관전할 수 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue5FaceDrMorichika" Value="이번에 게임 센터 같은 데에도,설치되어서 대회 같은 데에,쓰이게 될 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue6FaceShanghai" Value="그렇군，내 화려한 싸움을,수많은 사람들에게,보여줄 수 있다는 거구나!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue7FaceRemilia" Value="호호호，한 번 사쿠야한테,박살난 너 따위가 싸우는,모습은 참 보기 안쓰럽겠어." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue8FaceSakuya" Value="저，아가씨，안 됩니다.,사실을 그렇게 말해서는." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue9FaceShanghai" Value="방금 뭐라고 했냐!,뭣하면 지금 여기서,직접 한 판 붙어 볼래!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue10FaceAlice" Value="잠깐만，상하이，진정해...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue11FaceTankMan" Value="뭣하면 넷배틀 머신으로,결판을 짓지 그래?" Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue12FaceDrMorichika" Value="흐음，나름 좋은 방안인데." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue13FaceMarisa" Value="말은 그렇게 하면서,작동 테스트를,하고 싶은 것뿐이잖아?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage1Dialogue14FaceDrMorichika" Value="맞긴 해.,그러면 준비를 해 보자." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage3Dialogue1FaceDrMorichika" Value="좋아，준비는 완료되었어.,둘 다 내비를 머신에,플러그인해 줘." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue1FaceMari" Value="이야 대단한데!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue2FaceAlice" Value="진짜로 싸울 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue3FaceShanghai" Value="당연하지!,지금까지 날 얕잡아본 만큼,원 없이 되갚아 주겠어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue4FaceRemilia" Value="그 허세가,언제까지 이어질지,볼만하겠구나." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue5FaceDrMorichika" Value="그러면 상하이 VS 사쿠야,배틀 오퍼레이션，셋!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue6FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage5Dialogue7FaceSakuya" Value="당신의 시간은 나의 것....,그 힘을 보여주겠어요!" Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue1FaceDrMorichika" Value="승자! 앨리스랑 상하이!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue2FaceMari" Value="해냈구나，앨리스!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue3FaceRika" Value="박진감 넘치는 싸움이었어요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue4FaceShanghai" Value="건방진 땅꼬맹이 자식이!,두 번 다시 개기지나 마시지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue5FaceRemilia" Value="........" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue6FaceShanghai" Value="....어라?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue7FaceRemilia" Value="우...." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage7Dialogue8FaceRemilia" Value="우에～～～엥!!" Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue1FaceMarisa" Value="아～이고，울려 버렸네." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue2FaceShanghai" Value="아，이런，내가 너무 심했나?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue3FaceMari" Value="이거 냅두고 볼 수 없겠구만.,찾으러 가자." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage9Dialogue4FaceRika" Value="그런 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue1FaceSakuya" Value="저기...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue2FaceShanghai" Value="뭐야，너 버려두고 갔어?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue3FaceSakuya" Value="아가씨는 지게 되면 꼭 저래요." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue4FaceSakuya" Value="지는 걸 싫어한다 해야 할지,뭐라 해야 할지...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue5FaceShanghai" Value="....그렇군.,일단 레밀리아를 찾아야 하는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Remilia2Stage11Dialogue6FaceSakuya" Value="잘 부탁드립니다...." Face="Sakuya" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rinnosuke3Stage1Dialogue1FaceDrMorichika" Value="관계자가 아니면 갈 수,있는 데가 한정되어 있으니까,금방 찾을 거라 보지만...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rinnosuke3Stage1Dialogue2FaceDrMorichika" Value="뭔가 나쁜 짓을 해 버렸네." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage1Dialogue1FaceMari" Value="콜록....,여기도야!?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage1Dialogue2FaceMari" Value="아빠!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage3Dialogue1FaceMari" Value="....다행이다.,정신을 잃은 것 뿐인 것 같아." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage3Dialogue2FaceShanghai" Value="빨리 박사님을 밖으로 데려가!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue1FaceAlice" Value="잠깐만，문이 안 열려!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue2FaceShanghai" Value="비상 사태이므로,방화 셔터를 폐쇄한다고～～!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue3FaceShanghai" Value="아놔，웃기지 말라고!,피해자를 감금해 둬서,뭘 어쩌자는 거야!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue4FaceMarisa" Value="내가 컴퓨터를 통해,잠금을 해제해 볼게!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue5FaceAlice" Value="콜록....,그러면 난...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari5Stage5Dialogue6FaceShanghai" Value="공기청정기에 플러그인해!,원인을 싹채로 없애버리는 게,더 빨라!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Mari6Stage1Dialogue1FaceMari" Value="콜록....,잠금을 해제해야 해....!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter2Rinnosuke4Stage1Dialogue1FaceNone" Value="모리치카 박사님이 쓰러져 있다.,정신만 잃은 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue1FaceYamame" Value="어라，박사님의 손님?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue2FaceAlice" Value="박사님은.... 안 계신가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue3FaceShanghai" Value="불러 놓고 부재중이라니,이건 좀 매너 위반인데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue4FaceYamame" Value="아하하,박사님이라면 방금 전에,방송 때문에 불려갔어." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue5FaceYamame" Value="그래도 좀만 있으면 돌아오실 거야.,그 때까지 기다리는 게 좋아." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue6FaceAlice" Value="언니는 누군가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue7FaceYamame" Value="난 쿠로다니 야마메.,이 모리치카 연구소의,연구생이야." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue8FaceShanghai" Value="네트워크 계인데 흰색 실험복을,입고 있네?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue9FaceYamame" Value="역시 이상해 보이지?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue10FaceYamame" Value="난 애초에 정보과가 아니라,약학과 학부생이거든～" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue11FaceAlice" Value="훨씬 더 알 수 없게 되었네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue12FaceYamame" Value="백문이 불여일견!,이 데이터를 넣어 봐." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue13FaceAlice" Value="?,아，네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue14FaceShanghai" Value="뭐야 이게，음료?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue15FaceShanghai" Value="꿀꺽." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue16FaceAlice" Value="잠깐，갑자기 그렇게...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue17FaceShanghai" Value="웃....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue18FaceShanghai" Value="맛있잖아아아아!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue19FaceYamame" Value="그렇지?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue20FaceYamame" Value="이게 내 연구 테마，,”생물학적으로 맛있는, 전뇌 음료”야!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue21FaceAlice" Value="약학과 무슨 연관이 있죠....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue22FaceYamame" Value="어디 보자....,약을 맛있게 먹을 수 있다....,같은 거?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue23FaceShanghai" Value="즉 생각을 안 했다는 거구만.,푸하～음료 맛있었어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue24FaceYamame" Value="대학교 연구란 어지간해서는,다 이래. 졸업을 위한,통과 의례지，뭐.... 훗." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue25FaceYamame" Value="난 지금 내비가 없으니까,시음해 줄 수 있는,내비가 있어서 다행이야." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue26FaceShanghai" Value="시음이라고.... 잠깐만!!,맛 없었을 가능성도 있었다는 거야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue27FaceAlice" Value="(이상한 사람이다....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue28FaceDrMorichika" Value="기다리게 했지.,아，앨리스 왔었구나." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue29FaceYamame" Value="교수님! 실험 다 끝났는데,돌아가도 되나요?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue30FaceDrMorichika" Value="아，그래. 수고했어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage1Dialogue31FaceYamame" Value="예～이!,그럼 나중에 뵈요!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage3Dialogue1FaceAlice" Value="뭔가 소란스러운,사람이었네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage3Dialogue2FaceShanghai" Value="그건 그렇다 치고 박사니～임!,그 압축 데이터의 내용물!,알려 주세요～!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage3Dialogue3FaceDrMorichika" Value="자，자，서두르지 말고.,우선은 이걸 봐 주렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue1FaceAlice" Value="이건....,해석한 데이터인가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue2FaceDrMorichika" Value="맞아. 여러 개의 프로텍트랑,압축 규칙이 섞인,대단히 복잡한 데이터였어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue3FaceDrMorichika" Value="그걸 어떻게든,딱 한 발짝 앞까지,해석할 수 있었는데" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue4FaceDrMorichika" Value="맨 마지막 프로텍트가,영 풀리질 않아서 말이지...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue5FaceDrMorichika" Value="아무래도 이 데이터는,내비한테 설치하는 방식 같은데...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue6FaceDrMorichika" Value="효과가 발휘되려면,아무래도 열쇠 같은 거에,가까이 갈 필요가 있다나 봐." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue7FaceAlice" Value="열쇠 같은 거요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue8FaceDrMorichika" Value="그 정도까지밖에 모르겠어...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue9FaceShanghai" Value="에～이，딱 한 발짝 남았다면,그 한 걸음을 내딛으면,되는 거잖아!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue10FaceShanghai" Value="앨리스!,정보 수집하러 움직여야지!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue11FaceAlice" Value="그것도 그렇네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue12FaceAlice" Value="나도 여러모로,이 데이터의 정체에는,흥미가 있거든!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue13FaceDrMorichika" Value="그렇다면 해석한 이 데이터를,내비한테 설치하고 가렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue14FaceAlice" Value="이 상태의 데이터를,설치한다던가 해도 괜찮나요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue15FaceDrMorichika" Value="괜찮아. 애초에 이 데이터는,내비한테 설치하도록,만들어졌으니까," Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue16FaceShanghai" Value="거기다가，사실 내비한테는,어느 정도 자정 작용이 있어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue17FaceShanghai" Value="설령 나쁜 데이터라 해도,곧바로 튕겨내 버리니까,문제는 없어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue18FaceAlice" Value="상하이가 그렇게 말한다면,괜찮겠지....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue19FaceDrMorichika" Value="좋아.,그럼 조금만 참아 주렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue20FaceShanghai" Value="아....으읏....,아흑...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue21FaceDrMorichika" Value="....이상한 소리 내지 마.,이러다 오해 사겠어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue22FaceShanghai" Value="그냥 개그 친 거야，개그.,설치할 거면 빨리 끝내 달라고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue23FaceDrMorichika" Value="....좋아，끝났다!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue24FaceShanghai" Value="지금 당장에는 아～무런,변화도 없어 보이는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue25FaceDrMorichika" Value="이제 열쇠 같은 거에 가까이 가면,설치한 프로그램이 기동되어서,효과가 나올 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue26FaceAlice" Value="그렇군요. 재미있어 보이는데요." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue27FaceAlice" Value="그러면 빨리 그 열쇠에 대한,정보를 찾으러 가자." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue28FaceShanghai" Value="정보 수집이라면,역시 인터넷 스퀘어지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3YamameStage5Dialogue29FaceShanghai" Value="스퀘어를 돌면서,조사해 보자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage1Dialogue1FaceDrMorichika" Value="만약 그 데이터를,쓸 수 있게 된다면 상하이가,파워업할 수 있을 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue1FaceDrMorichika" Value="”스타일 메모리”의 각성 축하해!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue2FaceAlice" Value="스타일 메모리?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue3FaceDrMorichika" Value="너희들이 가져온,압축 데이터의 정체야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue4FaceShanghai" Value="스타일 체인지할 때의,설명도 그렇고 뭔가 이미,알고 있었던 것 같은데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue5FaceDrMorichika" Value="하하하，뭐，어느 정도는,예상해 놓은 건 있었어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue6FaceDrMorichika" Value="내비의 전투 경험을,다이렉트로 전투 능력으로,변환시키는 시스템...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue7FaceDrMorichika" Value="그런 게 몇 년 전쯤인가,연구되고 있었다는 소문을,들은 적이 있었거든." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue8FaceDrMorichika" Value="누가 그 연구를 완성했고,압축시켜서 숨겼는지는,잘 모르겠지만." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue9FaceShanghai" Value="잘 모르겠네. 그 열쇠가 되는,”Key.bat”을 찾고 있었던,그 양아치라면 알 것 같았는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue10FaceShanghai" Value="이럴 거였으면 생포해서,고문해서 정보를 뜯어내는,편이 좋았을까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue11FaceAlice" Value="또 그런 뒤숭숭한 이야기를...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue12FaceShanghai" Value="까놓고 말해서 파워업은 했지만,이 힘을 써 볼 데가 없어서,난감한 상태거든." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue13FaceShanghai" Value="뭔가 있지，있는 힘껏 때려박아도,괜찮은 상대가 잔뜩 있을법한,그런 장소 어디 없나?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue14FaceDrMorichika" Value="그거라면 중앙가에 있는,게임 센터에 가 보면 어떨까?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue15FaceDrMorichika" Value="최근에 너희들이 갖고 놀았던,넷배틀 머신이 배치되어 있어서,많은 사람들이 배틀하고 있을 건데." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue16FaceAlice" Value="헤에，벌써 실제로 배치되어,사람들이 쓰게 되었군요!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue17FaceShanghai" Value="정해졌네!,중앙가의 게임 센터에서,작신 날뛰어 주겠다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue18FaceShanghai" Value="이 마을에서 누가 제일 센지,깨닫게 해 주겠어!,오～홋홋호!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue19FaceAlice" Value="어디까지나 새로운 힘을,시험해 보러 가는 것뿐이거든....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue20FaceAlice" Value="중앙가는 전철만으로도,금방 갈 수 있었지." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue21FaceAlice" Value="그러면 박사님,크게 신세 졌습니다." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue22FaceDrMorichika" Value="아，맞아.,스타일은 전투 중에,커스텀 화면에서 바꿀 수 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue23FaceDrMorichika" Value="칩을 고르지 않은 상태에서,십자키의 위를 누르면,선택 화면이 나올 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue24FaceDrMorichika" Value="상황에 맞게 스타일을,적절하게 바꿔 가면,아주 큰 도움이 될 거야!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue25FaceDrMorichika" Value="이거 관련해서는 메모 대신에,메일을 보내 둘게." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue26FaceAlice" Value="감사합니다!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue27FaceDrMorichika" Value="그럼 또 무슨 일이 있다면,염려 말고 여길 방문해 주렴." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage3Dialogue28FaceAlice" Value="네!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage5Dialogue1FaceShanghai" Value="앨리스，메일이 왔어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage7Dialogue1FaceDrMorichika" Value="중앙가는,전철을 타고 가면 돼." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage9Dialogue1FaceYamame" Value="흐어～레포트 작성이,도무지 끝나질 않아～!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter3Rinnosuke2AndYamameStage9Dialogue2FaceYamame" Value="역시 슬슬,새 내비를 마련하는 게,좋을 지도 모르겠네...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage1Dialogue1FaceMedicine" Value="으으...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage3Dialogue1FaceYamame" Value="후와아아암...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage3Dialogue2FaceYamame" Value="선잠도 잤으니,논문 초안 작성 계속 해야지...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage3Dialogue3FaceYamame" Value="뭐야?,컴퓨터가 왜 켜져 있지....?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage5Dialogue1FaceMedicine" Value="내비....살..." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage7Dialogue1FaceYamame" Value="크，큰일이다!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4OpeningEventYamameStage7Dialogue2FaceYamame" Value="교수니～임!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue1FaceYamame" Value="부탁이에요!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue2FaceYamame" Value="수.... 아，아니지.,메디슨은 제가 책임 지고,돌볼 테니까....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue3FaceMedicine" Value="야마메....!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage1Dialogue4FaceReisen" Value="...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage3Dialogue1FaceNone" Value="삐리리리리리!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage5Dialogue1FaceReisen" Value="....네，야고코로입니다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage5Dialogue2FaceReisen" Value="....네，면목 없습니다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage5Dialogue3FaceReisen" Value="....스피커 모드로?,....알겠습니다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue1FaceSagume" Value="아，아～.... 거기 들려?,소리 괜찮나?" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue2FaceYamame" Value="드.... 들려요...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue3FaceSagume" Value="갑자기 들이닥쳐서 미안해.,난 얘 상사인,키신 사구메라고 해." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue4FaceSagume" Value="이 애의 단말기를 통해,사정은 다 보고 있었어." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue5FaceSagume" Value="이야～이거 미안하게 되었어!,방금 전에 메디슨의,보호 관찰 처분이 결정되었거든." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue6FaceAlice" Value="보호 관찰 처분?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue7FaceSagume" Value="그래，보호 관찰." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue8FaceSagume" Value="요약하면 제대로 착한 내비가,되었는지를 시간을 두고,봐 보겠다 이런 거지." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue9FaceYamame" Value="그.... 그러면....!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue10FaceSagume" Value="전대미문의 이례적인 사안이지만,넷 내비의 갱생 가능성을,인정한다.... 이런 거지!" Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue11FaceYamame" Value="메디슨은 그럼 살아남는 거죠!?,같이 있어도 되는 거죠!?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue12FaceSagume" Value="하지만，조건이 있어." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue13FaceSagume" Value="오퍼레이터인 네가,나한테 정기적으로 보고를,빠뜨리지 말고 해야 해." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue14FaceSagume" Value="만약 보고가 늦어지거나,보고서 제출을 태만하게 하면,보호 관찰은 중지되니까." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue15FaceYamame" Value="알겠습니다!,절대로 빠뜨리는 일 없이,착실하게 보고하겠습니다!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue16FaceYamame" Value="해냈다～～～!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue17FaceYamame" Value="다행이야! 메디슨!,앞으로도 같이 있을 수 있어!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue18FaceMedicine" Value="아하.... 하....,꿈만.... 같네...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue19FaceAlice" Value="잘 됐네요，야마메 씨!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue20FaceYamame" Value="앨리스도 고마워!,넌 메디슨의 목숨을 살린,은인이야!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue21FaceShanghai" Value="일단은,행복하게 끝났구나...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue22FaceReisen" Value="...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue23FaceReisen" Value="요리히메，돌아간다.,플러그아웃." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage7Dialogue24FaceYorihime" Value="....예스・맴." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue1FaceReisen" Value="....신키 앨리스." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue2FaceAlice" Value="왜?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue3FaceReisen" Value="내 오퍼레이션도,요리히메의 커스터마이즈도,완벽했을 텐데...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue4FaceReisen" Value="그런데도...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue5FaceReisen" Value="너희들이 우릴 이긴 건,뭐가 원인이지....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue6FaceAlice" Value="그건...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue7FaceAlice" Value="....뭘까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue8FaceReisen" Value="뭐야....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue9FaceAlice" Value="내가 상하이를 믿고 있고,상하이도 나를 믿고 있어." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue10FaceAlice" Value="....뭐 이런 거 아닐까?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue11FaceReisen" Value="그런 게 배틀에 영향을 준다고....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue12FaceReisen" Value="훗....,물어보는 것만으로도,시간 낭비였군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue13FaceAlice" Value="레이센...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage9Dialogue14FaceReisen" Value="그러면 실례하지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue1FaceShanghai" Value="아아....,피・곤・하・다!!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue2FaceMedicine" Value="!?" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue3FaceShanghai" Value="정말이지 옆에서 달려들어서,검으로 틀어막게 하다니,무모한 짓 시키지 말라고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue4FaceAlice" Value="그렇지만 그렇게라도 안 했으면,절대로 못 막았을 거라니까!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue5FaceShanghai" Value="너가 좀 더 빨리 달렸으면,공격 전에 시간 맞춰서,들어갈 수도 있었잖아!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue6FaceAlice" Value="이걸 내 탓으로 돌린다고!?,나 너무 억울해!,전력질주였는데!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue7FaceShanghai" Value="뭐가 억울해!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue8FaceAlice" Value="엄청 억울해!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue9FaceMedicine" Value="뭐，뭐야 얘네들...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage11Dialogue10FaceYamame" Value="아하하하....,너네 둘이 사이 좋구나...." Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue1FaceYamame" Value="메디슨，앞으로도....,잘 부탁해!!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue2FaceMedicine" Value="잘 부탁해.... 그렇지만,저런 관계는,되고 싶지 않네...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue3FaceYamame" Value="예전에도 이런 느낌으로,메디슨이랑 나,서로 말다툼하지 않았나?" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue4FaceMedicine" Value="윽...." Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue5FaceYamame" Value="풋.... 아하하하하!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4EventsStage13Dialogue6FaceMedicine" Value="후훗，아하하하!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4YamameStage1Dialogue1FaceYamame" Value="앨리스랑 상하이! 정말로 고마워!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4YamameStage3Dialogue1FaceYamame" Value="최근 메디슨이랑,넷배틀 연습하고 있어!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter4YamameStage3Dialogue2FaceYamame" Value="그래서 그런데,나중에 자신이 생기면,넷배틀해 보자!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter5RinnosukeStage1Dialogue1FaceDrMorichika" Value="흐～음...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter5RinnosukeStage1Dialogue2FaceDrMorichika" Value="액세스 방법은 엄청 교묘했는데,왜 대학교의 중요 데이터에는,손을 하나도 안 댔지?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChapter5RinnosukeStage1Dialogue3FaceDrMorichika" Value="이번 부정 액세스에는,알 수 없는 게 너무 많군." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTableStage1Dialogue1FaceNone" Value="널찍한 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTableStage1Dialogue2FaceNone" Value="겉보기에는 예뻐 보이지만,거의 쓰인 것 같지 않아 보인다.,그 깨끗함이 처량해 보일 정도이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTable2Stage1Dialogue1FaceNone" Value="널찍한 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinTable2Stage1Dialogue2FaceNone" Value="겉보기에는 예뻐 보이지만,거의 쓰인 것 같지 않아 보인다.,그 깨끗함이 처량해 보일 정도이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinDeskStage1Dialogue1FaceNone" Value="모리치카 박사님의,사무용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinDeskStage1Dialogue2FaceNone" Value="박사님을 곤란하게 해서는,안 되니까 함부로 만지지,않도록 하자." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairStage1Dialogue1FaceNone" Value="모리치카 박사님의 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairStage1Dialogue2FaceNone" Value="손때나게 오래 쓴 듯하다.,여기저기에 있는 부품이,덜그럭거린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairShadowStage1Dialogue1FaceNone" Value="모리치카 박사님의 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinChairShadowStage1Dialogue2FaceNone" Value="손때나게 오래 쓴 듯하다.,여기저기에 있는 부품이,덜그럭거린다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage1Dialogue1FaceNone" Value="최신형 공기청정기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage1Dialogue2FaceNone" Value="다양한 이온을 방출하여,깨끗한 공기를 만들어 낸다고,말하는데 암만 해도 수상쩍다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage3Dialogue1FaceNone" Value="최신형 공기청정기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage3Dialogue2FaceNone" Value="다양한 이온을 방출하여,깨끗한 공기를 만들어 낸다고,말하는데 암만 해도 수상쩍다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinAirCleanerStage3Dialogue3FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue1FaceNone" Value="보더 콘체른에서 개발한,넷배틀 머신이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue2FaceNone" Value="입체 영상을 통해,박진감 넘치는 영상으로,넷배틀을 즐길 수 있는 머신이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue3FaceNone" Value="모리치카 박사님의 감수 아래,제작된 거라 샘플로써,한 대 기부되었다고 한다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinNetBattleMachineStage1Dialogue4FaceNone" Value="당연히 플러그인도 할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinToTheOutsideStage1Dialogue1FaceShanghai" Value="기껏 여기까지 왔잖아.,좀 더 여기저기 돌아보자." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinToTheOutsideStage3Dialogue1FaceNone" Value="비상 사태이므로,방화 셔터를 폐쇄,....라고 표시되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMovementInhibitionStage1Dialogue1FaceShanghai" Value="빨리 애드온 매니저인지,뭔지 하는 걸 기동시켜 보자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue1FaceMari" Value="좋아，문이 열렸어!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue2FaceMari" Value="난 아빠를 밖으로 데리고 갈게!,앨리스는...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue3FaceAlice" Value="난 레밀리아를 구하러 갈게.,3층의 실험실에 들어갔어." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue4FaceMari" Value="그 놈 아직도 학교 안에 있었냐고!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue5FaceMari" Value="크윽...." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue6FaceShanghai" Value="마리，넌 박사님을,구하는 데에만 집중해." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue7FaceMarisa" Value="상하이...." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue8FaceMari" Value="....알겠어.,레밀리아 건은 맡긴다!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue9FaceMarisa" Value="일반인이 3층에 올라가려면,이 방 건너편에 있는 사무실에서,앨리스를 관계자로 등록해야 해." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue10FaceAlice" Value="건너편에 있는 사무실이라....,알겠어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinGasGenerationStage1Dialogue11FaceMari" Value="조심해야 해!,그러면 좀 있다 봐!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage1Dialogue1QuestionFaceShanghai" Value="야마메한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.GenUniversity2frinMedicineBattleStage1Dialogue1Options" Value="예,아니오" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage1Dialogue2FaceYamame" Value="메디슨!,배틀 오퍼레이션!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage3Dialogue1FaceYamame" Value="이겼다아!,메디슨，우리가 이겼어!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage3Dialogue2FaceMedicine" Value="야마메가 오퍼레이팅해 준 덕분이야!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage5Dialogue1FaceYamame" Value="우～응，져버렸네～" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage5Dialogue2FaceMedicine" Value="다음 번에는 이기자고! 야마메!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage6Dialogue1FaceMedicine" Value="야마메의 커스터마이징을 받아,최고로 센 상태가 되었어!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage6Dialogue2FaceYamame" Value="전력으로 가자!,메디슨!!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage8Dialogue1FaceYamame" Value="이겼다아!,역시 메디슨이야!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage10Dialogue1FaceYamame" Value="이래도 못 이기네～,앨리스는 역시 세다!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage10Dialogue2FaceMedicine" Value="다음 번에는 이기자고! 야마메!" Face="Medicine" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinMedicineBattleStage11Dialogue1FaceYamame" Value="언제든 받아줄게!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinPostGameDrMorichikaDialogue1" Value="앨리스，어서 와." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinPostGameDrMorichikaDialogue2" Value="미안하지만 넷 에이전트에게서,받은 데이터를 분석하느라,지금 바쁘단다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2frinPostGameDrMorichikaDialogue3" Value="지루하다면,저기 있는 야마메랑,넷배틀해 보는 건 어떠니?" Face="DrMorichika" Mono="False" />
+</data>

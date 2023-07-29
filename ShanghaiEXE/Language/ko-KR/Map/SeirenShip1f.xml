@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 豪華客船セイレーン１Ｆ　ロビーエリア -->
+  <Text Key="Map.SeirenShip1fName" Value="호화 여객선 세이렌 1층 로비 에리어" />
+  <!-- アリス様のお部屋は宿泊エリアの１０３号室でございます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue1FaceMaleAdult" Value="앨리스 님의 방은,숙박 에리어의 103호실입니다." Face="MaleAdult" Mono="False" />
+  <!-- エレベーターに乗って宿泊エリアに向かってください -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue2FaceMaleAdult" Value="엘리베이터를 타고,숙박 에리어로 향해 주십시오." Face="MaleAdult" Mono="False" />
+  <!-- お部屋につきましたら別途ご案内をさせてもらいます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue3FaceMaleAdult" Value="방에 도착하시면,별도로 안내를,해 드리겠습니다." Face="MaleAdult" Mono="False" />
+  <!-- それでは快適な海の旅をお楽しみくださいませ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage1Dialogue4FaceMaleAdult" Value="그러면 쾌적한 바다 여행을,즐겨 주십시오." Face="MaleAdult" Mono="False" />
+  <!-- パーティはそこの青い扉の先となっております -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage3Dialogue1FaceMaleAdult" Value="파티장에 가시려면 근처에 있는,파란 문으로 들어가시면 됩니다." Face="MaleAdult" Mono="False" />
+  <!-- どうぞお楽しみくださいませ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage3Dialogue2FaceMaleAdult" Value="즐거운 시간 되시길." Face="MaleAdult" Mono="False" />
+  <!-- 先程の揺れは大丈夫でしたか？ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage5Dialogue1FaceMaleAdult" Value="불편을 드려 죄송합니다.,괜찮으신지요?" Face="MaleAdult" Mono="False" />
+  <!-- あれほど大きな揺れは起こったことが無いんですが････ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage5Dialogue2FaceMaleAdult" Value="이 정도로 크게 흔들리는 건,이전까지 일어난 적이 없었는데...." Face="MaleAdult" Mono="False" />
+  <!-- 船旅お疲れ様でした -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage7Dialogue1FaceMaleAdult" Value="오랜 시간 동안의 항해에,함께해 주셔서 감사합니다." Face="MaleAdult" Mono="False" />
+  <!-- 船を降りたところにあるバスに乗ればインゲレスの市街まで送ってもらえますよ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage7Dialogue2FaceMaleAdult" Value="배에서 내리면 바로 있는,버스에 타시면 잉겔레스의,시가지까지 갈 수 있습니다." Face="MaleAdult" Mono="False" />
+  <!-- 豪華客船セイレーン号へようこそ！ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue1FaceMaleAdult" Value="호화 여객선 세이렌 호에,오신 것을 환영합니다!" Face="MaleAdult" Mono="False" />
+  <!-- 当船舶は現在セキュリティ改善中なので自由に見学なさってください -->
+  <Dialogue Key="Map.SeirenShip1fAttendantStage9Dialogue2FaceMaleAdult" Value="본 선박은 현재,보안 개선 중이므로,자유롭게 견학하셔도 됩니다." Face="MaleAdult" Mono="False" />
+  <!-- チケットを拝見いたします -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue1FaceMaleAdult" Value="티켓 확인하겠습니다." Face="MaleAdult" Mono="False" />
+  <!-- ・・・・神綺アリス様ですねようこそ豪華客船セイレーンへ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue2FaceMaleAdult" Value="....신키 앨리스 님이군요.,호화 여객선 세이렌 호에,오신 걸 환영합니다." Face="MaleAdult" Mono="False" />
+  <!-- アリス様のお部屋は宿泊エリアの１０３号室でございます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue3FaceMaleAdult" Value="앨리스 님의 방은,숙박 에리어의 103호실입니다." Face="MaleAdult" Mono="False" />
+  <!-- エレベーターに乗って宿泊エリアに向かってください -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue4FaceMaleAdult" Value="엘리베이터를 타고,숙박 에리어로 향해 주십시오." Face="MaleAdult" Mono="False" />
+  <!-- お部屋につきましたら別途ご案内をさせてもらいます -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue5FaceMaleAdult" Value="방에 도착하시면,별도로 안내를,해 드리겠습니다." Face="MaleAdult" Mono="False" />
+  <!-- それでは快適な海の旅をお楽しみくださいませ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage1Dialogue6FaceMaleAdult" Value="그러면 쾌적한 바다 여행을,즐겨 주십시오." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue1FaceShanghai" Value="그러고 보면 이 배에는,외국인도 타고 있는 것 같네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue2QuestionFaceShanghai" Value="자동 번역 기능을 쓸까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.SeirenShip1fAttendantEventStage3Dialogue2Options" Value="그래,아니" />
+  <!-- せっかくだしお願い -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue3FaceAlice" Value="모처럼인데 부탁할게." Face="Alice" Mono="False" />
+  <!-- はーい　オンにしておくわね -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue4FaceShanghai" Value="그래～，켜 놓을게." Face="Shanghai" Mono="False" />
+  <!-- 英語だったら話せるし別にいいわ -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue5FaceAlice" Value="영어라면 말할 수 있으니,굳이 안 켜도 되겠어." Face="Alice" Mono="False" />
+  <!-- そういや　あんたパパに教えてもらって英語話せるんだったわね -->
+  <Dialogue Key="Map.SeirenShip1fAttendantEventStage3Dialogue6FaceShanghai" Value="그러고 보면 너 아빠한테서,영어 배워서 말할 수 있었지." Face="Shanghai" Mono="False" />
+  <!-- アリス　せっかく乗ったのに降りるつもり！？ -->
+  <Dialogue Key="Map.SeirenShip1fEntranceStage1Dialogue1FaceShanghai" Value="앨리스，기껏 탔는데,내릴 셈이야!?" Face="Shanghai" Mono="False" />
+  <!-- 船が航行中なので外への扉は固く閉ざされている -->
+  <Dialogue Key="Map.SeirenShip1fEntranceStage3Dialogue1FaceNone" Value="배가 항해 중이라,밖으로 가는 문이,굳게 잠겨 있다." Face="None" Mono="False" />
+  <!-- 船の前に停まっていた送迎バスに乗って数十分後････ -->
+  <Dialogue Key="Map.SeirenShip1fEntranceStage5Dialogue1FaceNone" Value="배 앞에 정차해 있던,셔틀 버스를 타고,수십분 뒤...." Face="None" Mono="False" />
+  <!-- パーティ準備中につき関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fRightToTheHallStage1Dialogue1FaceNone" Value="파티 준비 중이므로,관계자 이외에는 출입 금지,라고 써져 있다." Face="None" Mono="False" />
+  <!-- パーティ準備中につき関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fLeftToTheHallStage1Dialogue1FaceNone" Value="파티 준비 중이므로,관계자 이외에는 출입 금지,라고 써져 있다." Face="None" Mono="False" />
+  <!-- エレベーターの扉が開いた！何階へ行きますか？ -->
+  <Dialogue Key="Map.SeirenShip1fElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.SeirenShip1fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- ２Ｆ　商業エリア３Ｆ　宿泊エリア乗らない -->
+  <Text Key="Map.SeirenShip1fElevatorStage1Dialogue2Options" Value="2층　상업 에리어,3층　숙박 에리어,안 탄다" />
+  <!-- 関係者以外立ち入り禁止と書かれている -->
+  <Dialogue Key="Map.SeirenShip1fToTheSteeringRoomStage1Dialogue1FaceNone" Value="관계자 이외에는 출입 금지,라고 써져 있다." Face="None" Mono="False" />
+  <!-- 君は････アリスさん -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue1FaceWriggleHat" Value="넌.... 앨리스구나." Face="WriggleHat" Mono="False" />
+  <!-- リグル君だっけ？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue2FaceAlice" Value="리글이라 했지?" Face="Alice" Mono="False" />
+  <!-- さっきはいいバトルだったね！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue3FaceAlice" Value="아까 전엔 정말,멋진 넷배틀이었어!" Face="Alice" Mono="False" />
+  <!-- わ････僕なんてまだまださ世界は広いからね -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue4FaceWriggleHat" Value="저.... 나도 아직이긴 해.,세상은 넓으니까." Face="WriggleHat" Mono="False" />
+  <!-- そう　世界は広い････この海の向こうにはたくさんのネットバトラーがいる -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue5FaceWriggleHat" Value="그래，이 세상은 넓어....,이 바다 건너편에도 정말 많은,넷배틀러가 있어." Face="WriggleHat" Mono="False" />
+  <!-- 君も　そのネットバトラーのひとりさ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue6FaceWriggleHat" Value="너도 그 넷배틀러 중 한 명이야." Face="WriggleHat" Mono="False" />
+  <!-- 君のようなネットバトラーとバトルできたのは僕にってとても貴重な経験だよ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue7FaceWriggleHat" Value="너 같은 넷배틀러와 배틀하는 건,나한테 있어서는 정말,귀중한 경험이야." Face="WriggleHat" Mono="False" />
+  <!-- リグル君････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage1Dialogue8FaceAlice" Value="리글...." Face="Alice" Mono="False" />
+  <!-- 船が揺れてる！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage3Dialogue1FaceAlice" Value="배가 흔들리고 있어!?" Face="Alice" Mono="False" />
+  <!-- わわっ！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage3Dialogue2FaceAlice" Value="와아악!?" Face="Alice" Mono="False" />
+  <!-- 危ない！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage5Dialogue1FaceWriggleHat" Value="위험해!" Face="WriggleHat" Mono="False" />
+  <!-- ････ありがとう -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage5Dialogue2FaceAlice" Value="....고，고마워." Face="Alice" Mono="False" />
+  <!-- 気をつけて何か様子が変だ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage5Dialogue3FaceWriggleHat" Value="조심해.,뭔가 상태가 이상해." Face="WriggleHat" Mono="False" />
+  <!-- 神綺アリス　ここにいたのか -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue1FaceReisen" Value="신키 앨리스，여기 있었구나." Face="Reisen" Mono="False" />
+  <!-- 鈴仙　何が起こったの？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue2FaceAlice" Value="레이센，무슨 일이 일어난 거야?" Face="Alice" Mono="False" />
+  <!-- ＲＯＭのネットナビが船のコントロールをハッキングしたらしい -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue3FaceReisen" Value="ROM의 넷 내비가,배의 컨트롤을,해킹한 것 같다." Face="Reisen" Mono="False" />
+  <!-- 航路を変更されこのままだと巨大な岩礁にぶつかるコースだ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue4FaceReisen" Value="항로가 변경되었는데,이대로라면 거대한 암괴에,그대로 직격하게 돼." Face="Reisen" Mono="False" />
+  <!-- ってことは････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue5FaceAlice" Value="그 말은 즉...." Face="Alice" Mono="False" />
+  <!-- 最悪の場合この船は沈む -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue6FaceReisen" Value="최악의 경우,이 배는 침몰해." Face="Reisen" Mono="False" />
+  <!-- 何だって！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue7FaceWriggleHat" Value="뭐라고!?" Face="WriggleHat" Mono="False" />
+  <!-- 無論　そうさせはしない -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue8FaceReisen" Value="물론 그렇게 되도록 두진 않겠어." Face="Reisen" Mono="False" />
+  <!-- 一般客には今の揺れは海流に乗っただけだと説明しているが････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue9FaceReisen" Value="일반 승객들에게는 방금 배가,흔들린 게 해류에 의한 거라고,설명해 뒀지만...." Face="Reisen" Mono="False" />
+  <!-- 真実が漏れればパニックが起こりますます解決が難しくなる -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue10FaceReisen" Value="진실이 누설되면,승객들이 패닉을 일으키겠지.,그러면 더 해결하기 힘들어져." Face="Reisen" Mono="False" />
+  <!-- 今は人手が必要だ神綺アリスお前にも手伝ってもらうぞ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue11FaceReisen" Value="지금은 다른 사람의,도움이 필요해. 신키 앨리스，,너도 도와줬으면 해." Face="Reisen" Mono="False" />
+  <!-- あの！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue12FaceWriggleHat" Value="저기!" Face="WriggleHat" Mono="False" />
+  <!-- 貴様は？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue13FaceReisen" Value="너는?" Face="Reisen" Mono="False" />
+  <!-- わ････じゃない僕にもなにかできることがあるかい？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue14FaceWriggleHat" Value="저.... 아니,나한테도 뭔가,할 수 있는 일이 있을까?" Face="WriggleHat" Mono="False" />
+  <!-- そうだな････この船の電脳に他にROMのナビがいないか調べてくれ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue15FaceReisen" Value="아，그래.... 이 배의 전뇌에,다른 ROM의 내비가 없는지,조사해 줘." Face="Reisen" Mono="False" />
+  <!-- だが　他の客には気取られないようにな -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue16FaceReisen" Value="단 다른 승객들이,눈치 안 채도록 조심해." Face="Reisen" Mono="False" />
+  <!-- ････わかった！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage7Dialogue17FaceWriggleHat" Value="....알겠어!" Face="WriggleHat" Mono="False" />
+  <!-- アリス　気をつけてね！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage9Dialogue1FaceWriggleHat" Value="앨리스，조심해!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君もね！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage9Dialogue2FaceAlice" Value="리글도!" Face="Alice" Mono="False" />
+  <!-- む？貴様　ナビはどうした？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue1FaceReisen" Value="음?,너 내비는 어디 있어?" Face="Reisen" Mono="False" />
+  <!-- 今戻ってきたわよぉ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue2FaceShanghai" Value="이제 돌아왔어." Face="Shanghai" Mono="False" />
+  <!-- フフフ････話は聞かせてもらったわぁ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue3FaceShanghai" Value="흐흐흐....,이야기는 다아 들었어." Face="Shanghai" Mono="False" />
+  <!-- ＲＯＭのナビが来たんですってねぇ････？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue4FaceShanghai" Value="ROM의 내비가,여길 찾아왔다 이거지....?" Face="Shanghai" Mono="False" />
+  <!-- いつの間に････ってすごいやる気ね -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue5FaceAlice" Value="언제 왔는지는 둘째 치고....,의욕이 넘쳐 보이네." Face="Alice" Mono="False" />
+  <!-- この船を沈めるようとするＲＯＭのナビなんてぇ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue6FaceShanghai" Value="이 배를 침몰시키려는,ROM의 내비 따위 말야...." Face="Shanghai" Mono="False" />
+  <!-- 八つ裂きにしてぐっちゃらぐっちゃらにしてぇ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue7FaceShanghai" Value="갈가리 찢어 버리거나,5번 척추를 6번 척추로,만드는 걸로는 모자라겠지...." Face="Shanghai" Mono="False" />
+  <!-- 塩もみの開きの蒲焼きにしてくれるわぁ！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue8FaceShanghai" Value="작신 두들겨 패서,이 구역의 제일 미친 X이,누구인지 알게 해 주겠어!" Face="Shanghai" Mono="False" />
+  <!-- いい気迫だこの先にある操舵室に行くぞ！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage11Dialogue9FaceReisen" Value="좋은 기개로군.,이 앞에 있는 조타실로 가자!" Face="Reisen" Mono="False" />
+  <!-- アリス　さっさと行くわよぉ愚かなおバカさんにお灸をすえてやるわぁ！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue1FaceShanghai" Value="앨리스，빨리 가자고.,그 어리석은 멍청이한테,합당한 체벌을 해 줘야지!" Face="Shanghai" Mono="False" />
+  <!-- ねぇ　なんだかシャンハイいつもより怖くない？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue2FaceAlice" Value="있지，뭔가 상하이,평소보다 더 무섭지 않아?" Face="Alice" Mono="False" />
+  <!-- うふふふ　そーお？あたしはいつでもこんな感じよぉ････！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue3FaceShanghai" Value="으흐흐흐，그으래?,난 항상 이런 느낌인데 말야....!" Face="Shanghai" Mono="False" />
+  <!-- （絶対に怖い････） -->
+  <Dialogue Key="Map.SeirenShip1fChapter5EventsStage13Dialogue4FaceAlice" Value="(확실히 무서워....)" Face="Alice" Mono="False" />
+  <!-- ネットエージェントだ操舵室に入れてもらいたいのだが？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue1FaceReisen" Value="넷 에이전트다.,조타실에 들여보내 주게." Face="Reisen" Mono="False" />
+  <!-- それが　操舵室の扉が電子ロックされて開かないんです！ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue2FaceMaleAdult" Value="그게，조타실로 향하는 문에,전자 락이 걸려서,열리질 않아요!" Face="MaleAdult" Mono="False" />
+  <!-- よし　シャンハイ！プラグインを････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue3FaceAlice" Value="좋아，상하이!,플러그인을...." Face="Alice" Mono="False" />
+  <!-- どきなさい -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage1Dialogue4FaceReisen" Value="아니，비켜 봐." Face="Reisen" Mono="False" />
+  <!-- この手に限る -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue1FaceReisen" Value="클리어." Face="Reisen" Mono="False" />
+  <!-- ちょっと！何をしたの！？ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue2FaceAlice" Value="잠깐만!,대체 뭘 한 거야!?" Face="Alice" Mono="False" />
+  <!-- 指向性プラスチック爆弾でドアブリーチ（扉の破壊）を行っただけだ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue3FaceReisen" Value="지향성 플라스틱 폭탄으로,도어 브리칭(문을 폭파)을,한 것 뿐이다." Face="Reisen" Mono="False" />
+  <!-- 何でそんなもの持ってるのよ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue4FaceAlice" Value="왜 그런 걸 들고 있는 건데...." Face="Alice" Mono="False" />
+  <!-- 戦場ではあらゆる状況を想定して準備を行うものだ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue5FaceReisen" Value="전장에서는 다양한 상황을,상정해서 준비하는 법." Face="Reisen" Mono="False" />
+  <!-- あんたさあ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue6FaceShanghai" Value="너 있지...." Face="Shanghai" Mono="False" />
+  <!-- あたしたちの存在を全否定するような開け方やめなさいよ････ -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue7FaceShanghai" Value="우리들의 존재를 완전히,부정하는 듯한 방식으로,문 열지 말라고...." Face="Shanghai" Mono="False" />
+  <!-- 知らんな突入する -->
+  <Dialogue Key="Map.SeirenShip1fChapter5BlastingEventStage3Dialogue8FaceReisen" Value="시간이 없다.,돌입하지." Face="Reisen" Mono="False" />
+</data>

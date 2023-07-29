@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.SeirenShip2fName" Value="호화 여객선 세이렌 2층 상업 에리어" />
+  <Dialogue Key="Map.SeirenShip2fElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.SeirenShip2fElevatorStage1Dialogue2Options" Value="1층　로비 에리어,3층　숙박 에리어,안 탄다" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreShowcaseStage1Dialogue1FaceNone" Value="말도 안 되게 큰 보석이,장식되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreShowcaseStage1Dialogue2FaceNone" Value="눈이 돌아갈 정도의 가격이다.,사는 사람이 있기는 한 걸까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage1Dialogue1FaceNone" Value="아무리 봐도 어린아이가,들어갈 법한 분위기는 아닌,보석상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage1Dialogue2FaceNone" Value="레밀리아 정도라면 분명,무난하게 들어갈 수 있겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue1FaceReisen" Value="여기는....,보석상이로군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue2FaceAlice" Value="이거 봐! 이 보석,3000만 제니나 한다고!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue3FaceReisen" Value="이런 돌덩이에,왜 이런 가치가 붙는 건지,이해가 안 가는군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue4FaceShanghai" Value="예쁘고 희귀하니까 그렇지.,희소성에는 가치가 붙는 법이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage3Dialogue5FaceReisen" Value="....이해할 수 없군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage5Dialogue1FaceNone" Value="아무리 봐도 어린아이가,들어갈 법한 분위기는 아닌,보석상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fJewelryStoreStage5Dialogue2FaceNone" Value="레밀리아 정도라면 분명,무난하게 들어갈 수 있겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBagStoreShowcaseStage1Dialogue1FaceNone" Value="TV나 인터넷에서,들어본 적 있는,브랜드의 핸드백이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBagStoreShowcaseStage1Dialogue2FaceNone" Value="값비싼 점이 실용성과,얼마나 연관이 있는지는,부자들만 알 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage1Dialogue1FaceNone" Value="유명 브랜드의 가방을,파는 매장이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage1Dialogue2FaceNone" Value="아마도 나하고는 평생,인연이 없을 만한 장소이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue1FaceAlice" Value="이거 유명 브랜드의,핸드백이야!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue2FaceAlice" Value="우와～ 가격 봐....,언젠가 사고 싶네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue3FaceReisen" Value="그 주변 매장에서,더 싼 거 팔고 있잖아." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue4FaceReisen" Value="왜 그렇게까지 비싼 걸,사려고 하는 지 모르겠네." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue5FaceShanghai" Value="으～음，,나도 솔직히 브랜드 가방이,뭐가 좋은지 모르겠어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue6FaceAlice" Value="그래?,상하이는 이런 거,좋아할 거라 생각했는데." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage3Dialogue7FaceShanghai" Value="앨리스，너 날,뭘로 보는 거야...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage5Dialogue1FaceNone" Value="유명 브랜드의 가방을,파는 매장이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fABagShopStage5Dialogue2FaceNone" Value="아마도 나하고는 평생,인연이 없을 만한 장소이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage1Dialogue1FaceNone" Value="시크한 분위기의 내부 장식이,유리창 너머로 보이는 바다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage1Dialogue2FaceNone" Value="메뉴에 주스나 아이스크림도 있어서,어린이도 들어갈 수는 있지만,분위기 상 들어가기 껄끄럽다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue1FaceAlice" Value="여기는....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue2FaceShanghai" Value="바.... 그러니까 술집이네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue3FaceReisen" Value="한 방울이라도 술을 입에 댔다간,바로 네녀석을 체포하겠다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue4FaceAlice" Value="마실 리가 없잖아!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue5FaceAlice" Value="어，그런데 디저트도 판다는데!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue6FaceShanghai" Value="가격도 그냥저냥이고...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue7FaceShanghai" Value="내 돈으로 내가 쏴 줄게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue8FaceAlice" Value="예～이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue9FaceAlice" Value="레이센도 같이 어때?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue10FaceReisen" Value="나는...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue11FaceAlice" Value="예～이! 디저트다，디저트～!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage3Dialogue12FaceReisen" Value="아니 좀 기다려!" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue1FaceAlice" Value="야～ 맛있었다!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue2FaceReisen" Value="...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue3FaceShanghai" Value="입맛에 안 맞았어?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue4FaceReisen" Value="맛은 좋지만 속이 차지는 않는,비효율적인 식사였어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue5FaceReisen" Value="같은 시간을 써서 섭취할 거라면,육포 쪽이 더 효율적이야." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue6FaceAlice" Value="저기 있지.... 디저트란 영양분을,얻기 위한 게 아니라 맛있는,추억을 얻으려고 먹는 거야." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue7FaceReisen" Value="단 맛을 섭취할 생각이라면,육포를 이 양념에 찍어 먹는 게...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage5Dialogue8FaceShanghai" Value="육포 이야기는,거기까지만 해...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage7Dialogue1FaceNone" Value="시크한 분위기의 내부 장식이,유리창 너머로 보이는 바다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fBarStage7Dialogue2FaceNone" Value="주스나 아이스크림이 메뉴에 있어서,어린이라도 들어갈 수는 있지만,들어가기 껄끄러운 분위기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fExhibitionCornerStage1Dialogue1FaceNone" Value="무언가의 전시 코너이지만,아직 준비중이라,들어갈 수 없는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue1FaceReisen" Value="....뭐야，너희들이였냐." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue2FaceReisen" Value="너희들도 이 배에,타고 있었을 줄이야." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue3FaceAlice" Value="레이센，너야말로 왜 여기 있어?,넷 에이전트 일 때문에?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue4FaceReisen" Value="내가 관광 목적으로,이 배를 탔다고 말하면,넌 믿을 거야?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue5FaceAlice" Value="으음...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue6FaceAlice" Value="놀러 온 거라면,같이 매장 둘러볼래?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue7FaceReisen" Value="....뭐?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue8FaceReisen" Value="왜 내가 너희들이랑...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue9FaceShanghai" Value="어차피 너 혼자잖아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue10FaceReisen" Value="....적어도 심심하지는 않겠군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue11FaceReisen" Value="어쩔 수 없네.,잠깐은 어울려 주지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue12FaceReisen" Value="뒤따라 갈 테니까,가고 싶은 매장에,데리고 가 줄래?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage1Dialogue13FaceReisen" Value="(같이 있으면 그 강함의 비밀을, 알게 될 수도 있을 것 같으니....)" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen1Stage3Dialogue1FaceReisen" Value="난 뒤따라 갈 테니까,가고 싶은 매장에 가면 돼." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue1FaceAlice" Value="대충 다 돌아봤나?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue2FaceShanghai" Value="그건 그렇고 너 있지，,여러모로 아싸스럽네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue3FaceReisen" Value="비효율적인 것을,비효율적인 거라고,말하는 것 뿐이야." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue4FaceShanghai" Value="인간에게는,쓸데없는 걸 즐기는,여유도 필요한 법이라고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue5FaceReisen" Value="넷 내비한테 인간성에 대한,이야기를 듣는 날이 올 줄이야.,언짢군...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue6FaceAlice" Value="자，자...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue7FaceAlice" Value="어 뭐야?,여기 지나갈 수 있게 되었네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue8FaceShanghai" Value="전투함의 역사 전시관이라....,재미있어 보이는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue9FaceAlice" Value="그러면 그 다음에는,여기 들어가자!,레이센，가자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen2Stage1Dialogue10FaceReisen" Value="흠...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue1FaceAlice" Value="이야～재미있었다!,호화 여객선은 정말,즐거운 곳이구나!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue2FaceReisen" Value="....혹시" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue3FaceReisen" Value="네가 나랑 관여되려 하는 거,에이린이 부탁한 거였지?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue4FaceAlice" Value="윽...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue5FaceReisen" Value="묘하다 싶었거든.,저번과 달리 날 대하는,태도가 갑자기 바뀌었으니까...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue6FaceReisen" Value="....그 말은 즉,내 과거도,알고 있다는 거겠군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue7FaceShanghai" Value="그래.,꽤나 무거운 과거를,짊어지고 있는 것 같잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue8FaceReisen" Value="너희들한테는,무거워 보일지 모르겠지만" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue9FaceReisen" Value="나한테는 딱히 그렇지만도 않은,추억도 있기는 해." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue10FaceAlice" Value="즐거운 추억이라는 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue11FaceAlice" Value="괜찮다면 들려줄 수 있어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue12FaceReisen" Value="너희들에게는 재미없는,이야기일 지도 모르는데?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue13FaceShanghai" Value="거드름 피우지 말라구." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue14FaceShanghai" Value="내가 낸 돈 분량만큼은,이야기해 줘도 괜찮잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue15FaceReisen" Value="흐음....,계속 빚지기만 하는 것도,좀 기분이 나쁘군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue16FaceReisen" Value="내가 6살일 때 이야기인데...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue17FaceAlice" Value="그걸 기억하고 있네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue18FaceReisen" Value="어떤 과격파 테러 조직이 있었어.,오스트리아의 각료들을,하나씩 암살하던 조직이었지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue19FaceReisen" Value="우리 용병단은 그 테러 조직이,의회를 습격할 계획을,하고 있다는 정보를 입수했어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue20FaceReisen" Value="거기서 현지 정규군과,우리 용병단이 연합해서,의회를 방어하는 작전이 시작됐지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue21FaceReisen" Value="그런데 당시 적 조직에는,비장의 카드가 있었어. 고속 항행,비행이 가능한 신형 기동 병기였지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue22FaceReisen" Value="그건 당시 오스트리아 공군이,개발하고 있었던 신형 기동 병기를,적절하게 복제한 거었어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue23FaceReisen" Value="그리고 적이 카피한 병기에는,적 테러 조직의 수령이,탑승해 있었지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue24FaceReisen" Value="정규군은 정식 타입 기동병기에,에이스 파일럿을 탑승시켜서,격돌시켰어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue25FaceReisen" Value="그러면서 오스트리아 군은,적 기체를 생포할 목적으로,시내에 빔 넷을 배치했어." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue26FaceReisen" Value="아군의 신형 기체가 적의,신형 기체를 빔 넷 쪽으로,유도해서 포박하는 작전이었지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue27FaceReisen" Value="그 동안 우리 용병단은,적 지상 부대를 틀어막는,역할을 맡고 있었고 말이야." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue28FaceReisen" Value="그리고 신형 병기끼리 격하게,도그파이트를 벌인 끝에....,작전은 성공했지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue29FaceReisen" Value="난 내가 타고 있던 기동병기에서,그 전투를 보고 있었는데" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue30FaceReisen" Value="지금도 그 도그파이트를,떠올릴 때마다 짜릿함을 느껴." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue31FaceAlice" Value="그게 즐거운 추억이구나...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue32FaceReisen" Value="어때? 만족했어?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue33FaceAlice" Value="생각했던 거랑 다르긴 한데，,응，즐거웠어...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue34FaceAlice" Value="(싸우는 이야기밖에 없잖아!)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue35FaceReisen" Value="....음?,벌써 시간이 이렇게 되었나." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue36FaceShanghai" Value="슬슬 객실로 돌아가자.,아마 파티가 1시간 뒤에,시작될 예정이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue37FaceAlice" Value="파티?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue38FaceShanghai" Value="너 침대 폭신폭신한 것만,신경 쓰느라,전혀 모르고 있었지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue39FaceShanghai" Value="점심은 1층의 홀에서,입식 파티 식으로,이루어진다는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue40FaceShanghai" Value="거기서 우리는 N1 리그의,우승자로써 엑시비젼 넷배틀을,할 예정이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue41FaceAlice" Value="엑시비젼!?,그런 말 없었잖아!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue42FaceShanghai" Value="너가 못 들은 것 뿐이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue43FaceAlice" Value="레이센도 파티 참석할 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue44FaceReisen" Value="흥미 없다.,식사는 방에서 하지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue45FaceShanghai" Value="재미 없네...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage1Dialogue46FaceReisen" Value="그러면 먼저 실례하지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue1FaceAlice" Value="레이센!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue2FaceReisen" Value="....왜?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue3FaceAlice" Value="....즐거웠어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage3Dialogue4FaceReisen" Value="....흠." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage5Dialogue1FaceShanghai" Value="파티 시간 될 때까지,객실에서 쉬고 있자." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fChapter5Reisen3Stage5Dialogue2FaceAlice" Value="그것도 그렇네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover1Stage1Dialogue1FaceGreenHairFemalePinkEyes" Value="후후훗，원하는 만큼,사도 된다니!" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover1Stage1Dialogue2FaceGreenHairFemalePinkEyes" Value="감사합니다，,신･사･아･저･씨!" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover2Stage1Dialogue1FaceWhiteHairMaleButler" Value="핫핫하，,원하는 만큼 좋아하는 걸,사도 좋소." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover2Stage1Dialogue2FaceWhiteHairMaleButler" Value="돈 걱정은 안 해도 된다오.,그도 그럴 게，저는 석유왕이니까." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMoverStage1Dialogue1FaceFemaleChild" Value="장난감 가게 같은 거,없으니까 재미없어～" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fMover4Stage1Dialogue1FaceOrangeHairFemaleChild" Value="저기 있는 바에서,아이스크림 먹을 수 있다더라.,가 보자!" Face="OrangeHairFemaleChild" Mono="False" />
+  <!-- フィアンセに送る宝石を見に来たんだＹＯ！ -->
+  <Dialogue Key="Map.SeirenShip2fFromChapter7Onwards1Stage1Dialogue1FaceBlackHairMaleBlackRapper" Value="피앙세에게 보낼 보석을,보러 왔어YO!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- でも想像より桁が多くて呆然としているんだＹＯ････ -->
+  <Dialogue Key="Map.SeirenShip2fFromChapter7Onwards1Stage1Dialogue2FaceBlackHairMaleBlackRapper" Value="근데 상상했던 것보다,자릿수가 많아서,어이를 상실했어YO...." Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- 青い空　青い海････現実を忘れられるいい景色だ -->
+  <Dialogue Key="Map.SeirenShip2fFromChapter7Onwards2Stage1Dialogue1FaceMaleAdult" Value="푸른 하늘，푸른 바다....,현실을 잊기 딱 좋은 풍경이야." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fHandrailStage1Dialogue1FaceNone" Value="잘 보니까 난간에,덮개가 붙어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip2fHandrailStage1Dialogue2FaceNone" Value="덮개를 열어 보니까,플러그인 단자가 있었다!,세상에!" Face="None" Mono="False" />
+</data>

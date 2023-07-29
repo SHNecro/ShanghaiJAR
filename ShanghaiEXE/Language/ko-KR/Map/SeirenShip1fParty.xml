@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.SeirenShip1fPartyName" Value="호화 여객선 세이렌 1층 파티 회장" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage1Dialogue1FaceNone" Value="고급스러운 디저트가,차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage1Dialogue2FaceNone" Value="한 입 먹었다가는,분명 그 맛에,사로잡혀 버리겠지." Face="None" Mono="False" />
+  <!-- 高級そうなデザートが並べられている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage3Dialogue1FaceNone" Value="고급스러운 디저트가,차려져 있다." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage3Dialogue2FaceNone" Value="....인 줄 알았는데,잘 만들어진 식품 샘플이었다." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable1Stage3Dialogue3FaceNone" Value="아무래도 이 배에서 나오는,요리의 이미지를 보여주는,거일 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage1Dialogue1FaceNone" Value="오래된 와인이,테이블 위에 놓여 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage1Dialogue2FaceNone" Value="어른이 되면 한 번 정도는,마셔 보고 싶다." Face="None" Mono="False" />
+  <!-- 年代物のワインがテーブルの上に置かれている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage3Dialogue1FaceNone" Value="오래된 와인이,테이블 위에 놓여 있다." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage3Dialogue2FaceNone" Value="....인 줄 알았는데,잘 만들어진 식품 샘플이었다." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable2AStage3Dialogue3FaceNone" Value="아무래도 이 배에서 나오는,요리의 이미지를 보여주는,거일 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage1Dialogue1FaceNone" Value="입식 파티라서 테이블에 의자가,따로 준비되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage1Dialogue2FaceNone" Value="계속 서 있다면 지치겠지만,맛있는 요리를 먹고 있다면,신경 안 쓰게 되겠지." Face="None" Mono="False" />
+  <!-- 立食パーティーなのでテーブルに椅子は用意されていない -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage3Dialogue1FaceNone" Value="입식 파티라서 테이블에 의자가,따로 준비되어 있지 않다." Face="None" Mono="False" />
+  <!-- ずっと立っていたら疲れるが美味しい料理を食べていると気にならないのだろう -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage3Dialogue2FaceNone" Value="계속 서 있다면 지치겠지만,맛있는 요리를 먹고 있다면,신경 안 쓰게 되겠지." Face="None" Mono="False" />
+  <!-- 並んでいるのがサンプルでなければよかったのだが -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable3Stage3Dialogue3FaceNone" Value="진열되어 있는 게,샘플이 아니라면 좋겠지만 말이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage1Dialogue1FaceNone" Value="접시에 놓여 있는 칠면조에서,구수한 향이 난다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage1Dialogue2FaceNone" Value="무심코 입에 침이 고이다 못해,입 밖으로 흐르게 된다." Face="None" Mono="False" />
+  <!-- 皿にとられた七面鳥から香ばしい香りが漂っている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage3Dialogue1FaceNone" Value="접시에 놓여 있는 칠면조에서,구수한 향이 난다." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage3Dialogue2FaceNone" Value="....인 줄 알았는데,잘 만들어진 식품 샘플이었다." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable4Stage3Dialogue3FaceNone" Value="아무래도 이 배에서 나오는,요리의 이미지를 보여주는,거일 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage1Dialogue1FaceNone" Value="자유롭게 드시라는 듯이,요리가 한가득 담겨 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage1Dialogue2FaceNone" Value="무엇부터 먼저 먹을지,나도 모르게 고민하게 된다." Face="None" Mono="False" />
+  <!-- ご自由にお取りくださいとばかりに料理が盛られている -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage3Dialogue1FaceNone" Value="자유롭게 드시라는 듯이,요리가 한가득 담겨 있다." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage3Dialogue2FaceNone" Value="....인 줄 알았는데,잘 만들어진 식품 샘플이었다." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable5Stage3Dialogue3FaceNone" Value="아무래도 이 배에서 나오는,요리의 이미지를 보여주는,거일 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage1Dialogue1FaceNone" Value="평범하게 살아서는,절대로 먹을 일 없을 것 같은,고급 요리가 차려져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage1Dialogue2FaceNone" Value="이번 기회에 먹을 수 있는 만큼,먹어 두자!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage1Dialogue3FaceNone" Value="....잘 보니까,테이블에 플러그인,단자가 보인다." Face="None" Mono="False" />
+  <!-- 普通に生きていたら絶対に食べられないような高級料理が並んでいる -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue1FaceNone" Value="평범하게 살아서는,절대로 먹을 일 없을 것 같은,고급 요리가 차려져 있다." Face="None" Mono="False" />
+  <!-- ････と思ったらよくできた食品サンプルだった -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue2FaceNone" Value="....인 줄 알았는데,잘 만들어진 식품 샘플이었다." Face="None" Mono="False" />
+  <!-- どうやらこの船で出る料理のイメージを伝えるものらしい -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue3FaceNone" Value="아무래도 이 배에서 나오는,요리의 이미지를 보여주는,거일 것이다." Face="None" Mono="False" />
+  <!-- ････よくみるとテーブルにプラグイン端子が見える -->
+  <Dialogue Key="Map.SeirenShip1fPartyTable6Stage3Dialogue4FaceNone" Value="....잘 보니까,테이블에 플러그인,단자가 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage1Dialogue1QuestionFaceShanghai" Value="준비는 다 됐어?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.SeirenShip1fPartyNetBattleMachineStage1Dialogue1Options" Value="예,아니오" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage3Dialogue1FaceShanghai" Value="그럼 빨리 준비하자구." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue1FaceSanaeReporter" Value="레이디～스，앤～드,젠틀메～엔!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue2FaceSanaeReporter" Value="오래 기다리셨습니다!,본 파티의 메인 이벤트" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue3FaceSanaeReporter" Value="엑시비젼 넷배틀!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue4FaceSanaeReporter" Value="서구권과 동구권에서 개최된,넷배틀 대회에서,우승을 차지한 넷배틀러!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage5Dialogue5FaceSanaeReporter" Value="그 둘이 지금,이 연회장에서 격돌합니다!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage7Dialogue1FaceNone" Value="와아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue1FaceSanaeReporter" Value="우선 동구권의 넷배틀러!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue2FaceSanaeReporter" Value="일본의 넷배틀 대회인,N1 리그에서 우승한...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue3FaceSanaeReporter" Value="금색의 마신!,신키 앨리스와,그 내비，상하이～～～!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage9Dialogue4FaceAlice" Value="저 이명을 여기서까지,들어야 한다니...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue1FaceSanaeReporter" Value="이에 맞서는 서구권의 넷배틀러!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue2FaceSanaeReporter" Value="인섹터 왕국에서 개최된 대회인,웹 토너먼트에서 우승한...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage11Dialogue3FaceSanaeReporter" Value="어두운 밤을 비추는 유성!,리글 나이트버그와,그 내비，비틀맨!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue1FaceWriggleHat" Value="넌 아까 전에...." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue2FaceAlice" Value="어，너 넷배틀러였어!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue3FaceWriggleHat" Value="뭔가 우리들,연이 있는 것 같네." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue4FaceWriggleHat" Value="잘 부탁해.,좋은 승부를 보자." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage13Dialogue5FaceAlice" Value="자，잘 부탁해!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage15Dialogue1FaceSanaeReporter" Value="그러면 양 선수，,플러그인해 주세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue1FaceShanghai" Value="네가 내 대전 상대구나?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue2FaceBeetleMan" Value="나의 이름은 비틀맨!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue3FaceBeetleMan" Value="동방에서 온 넷 내비,상하이여!,상대로써 부족함이 없다!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue4FaceShanghai" Value="관객들에게 어필할 수 있는,좋은 승부를 보여주자구." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue5FaceBeetleMan" Value="후후，재미있는 말을 하는군!,그러면 정정당당하게!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue6FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue7FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue8FaceWriggleHat" Value="비틀맨.,우리의 힘을 보여주자." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage17Dialogue9FaceBeetleMan" Value="간다!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue1FaceSanaeReporter" Value="승자!,리글＆비틀맨!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue2FaceShanghai" Value="큭.... 꽤나 강하잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage19Dialogue3FaceBeetleMan" Value="상하이 그대도 꽤나,실력 있는 상대였소." Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue1FaceSanaeReporter" Value="승자!,앨리스＆상하이!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue2FaceShanghai" Value="GG～!,서구권 내비도 별 거 아니구만!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage21Dialogue3FaceBeetleMan" Value="꽤나 간만에 졌군....,좋은 승부였소." Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage23Dialogue1FaceWriggleHat" Value="즐거운 승부였어.,고마워!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage23Dialogue2FaceAlice" Value="아，응!,나야말로 고마워!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage25Dialogue1FaceSanaeReporter" Value="승부가 끝난 뒤의,뜨거운 우정이군요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage25Dialogue2FaceNone" Value="와아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyNetBattleMachineStage27Dialogue1FaceNone" Value="한편...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale1Stage1Dialogue1FaceOrangeHairMaleWesterner" Value="캬～ 좀 무리하게 돈 써서,이 배를 탔는데,진짜 최고네요!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale1Stage1Dialogue1FaceGreenHairFemalePinkEyes" Value="실력자들을 초대해서 하는,엑시비젼 넷배틀이야말로,이 배의 명물이란다." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale1Stage3Dialogue1FaceGreenHairFemalePinkEyes" Value="아까 전에 넷배틀한 아가씨로구나.,좋은 넷배틀이었네." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale2Stage1Dialogue1FaceWhiteHairMaleButler" Value="흐음，젊지만,네가 상당한 재능을,가지고 있다는 게 느껴지는구나." Face="WhiteHairMaleButler" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale2Stage1Dialogue1FaceWhiteHairFemaleRichLady" Value="제 남편은,과거에는 실력이 상당한,넷배틀러였답니다." Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale2Stage3Dialogue1FaceWhiteHairFemaleRichLady" Value="제 남편은,과거에는 실력이 상당한,넷배틀러였답니다." Face="WhiteHairFemaleRichLady" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale3Stage1Dialogue1FaceMaleOld" Value="이야～ 이거，여기 있는 요리를,언제든 먹을 수 있다면,참 좋겠구먼." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale3Stage3Dialogue1FaceMaleOld" Value="이야～ 이거，여기 있는 요리를,언제든 먹을 수 있다면,참 좋겠구먼." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale3Stage5Dialogue1FaceMaleOld" Value="이야～ 이거，여기 있는 요리를,언제든 먹을 수 있다면,참 좋겠구먼." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale3Stage1Dialogue1FaceFemaleAdult" Value="뽑기에서 1등에 당첨되어서,승선 티켓을 얻었는데,최고의 추억이 될 것 같아." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale3Stage3Dialogue1FaceFemaleAdult" Value="뽑기에서 1등에 당첨되어서,승선 티켓을 얻었는데,최고의 추억이 될 것 같아." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale3Stage5Dialogue1FaceFemaleAdult" Value="뽑기에서 1등에 당첨되어서,승선 티켓을 얻었는데,최고의 추억이 될 것 같아." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale4Stage1Dialogue1FaceMaleChild" Value="넷배틀이라면,나도 지지 않는다고,생각하는데 말이지!" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale4Stage1Dialogue1FaceOrangeHairFemaleChild" Value="”할 수 있는 거”랑 ”이기는 거”는,완전히 다른 이야기구나." Face="OrangeHairFemaleChild" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale5Stage1Dialogue1FaceMaleGlassesStudent" Value="잉겔레스로 수학여행을 간 것,때문에 이 배에 탔는데 우리,어째 따로 노는 느낌 드는데....?" Face="MaleGlassesStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale5Stage1Dialogue1FaceBlackHairFemaleStudent" Value="이렇게 호화로운 요리는,두 번 다시 못 먹을지도 모르니까,지금 잔뜩 먹어 놔야지!" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale5Stage3Dialogue1FaceBlackHairFemaleStudent" Value="이렇게 호화로운 요리는,두 번 다시 못 먹을지도 모르니까,지금 잔뜩 먹어 놔야지!" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyFemale5Stage5Dialogue1FaceBlackHairFemaleStudent" Value="이렇게 호화로운 요리는,두 번 다시 못 먹을지도 모르니까,지금 잔뜩 먹어 놔야지!" Face="BlackHairFemaleStudent" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyMale6Stage1Dialogue1FaceMaleElderly" Value="파티보다도 아나운서인,사나에 씨를 보려고,이 배에 탔단다." Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyWriggle2Stage1Dialogue1FaceWriggleHat" Value="앨리스 씨，,여기는 나한테 맡기고,넌 조타실로 가!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue1FaceSanaeReporter" Value="앨리스 씨，또 만났네요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue2FaceSanaeReporter" Value="저는 사회자 역할을 맡고 있어요.,엑시비젼 배틀 힘내세요!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue3FaceSanaeReporter" Value="아，맞다 맞다." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage1Dialogue4FaceSanaeReporter" Value="준비가 다 되셨다면,넷배틀 머신 앞에서,기다려 주세요." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage3Dialogue1FaceSanaeReporter" Value="이것 보세요! 이 호화로운 요리들!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage3Dialogue2FaceSanaeReporter" Value="....어 잠깐만，,지금 취재하는 거 아니었지.,데헷♪" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage3Dialogue3FaceSanaeReporter" Value="후후후후，질릴 때까지,호화로운 요리를 왕창,먹어 보겠어요～～～!" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage5Dialogue1FaceSanaeReporter" Value="아까 전에 크게 흔들린 건,뭐였을까요?" Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartySanaeStage5Dialogue2FaceSanaeReporter" Value="다들 어수선한 것 같지는 않아서,어떤 사건 같은 건,아닌 것 같은데...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue1FaceAlice" Value="우～응，맛있는 걸,잔뜩 먹어서 그런가,너무 행복하다아～" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue2FaceShanghai" Value="방으로 돌아갈까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue3FaceAlice" Value="조금 더 느긋하게 있다가,돌아갈까 싶어." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue4FaceShanghai" Value="그러면 난 먼저,방에 돌아가 있을게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue5FaceAlice" Value="....어떻게 가려고?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue6FaceShanghai" Value="이런 고급 시설에는,벽에 넷 내비들을 위한,통신 통로가 있어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue7FaceShanghai" Value="거기를 통해 잽싸게,갔다 오는 거지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue8FaceAlice" Value="그래?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue9FaceShanghai" Value="그런 고로 나중에 봐～!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage1Dialogue10FaceShanghai" Value="(자，그럼 얼마나, 모았을까 기대되는데....!)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage3Dialogue1FaceAlice" Value="어，야!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip1fPartyChapter5PartyEndEventStage3Dialogue2FaceAlice" Value="....정말이지，,느긋하게 있을 수도 없겠잖아...." Face="Alice" Mono="False" />
+  <!-- さすが豪華客船････サンプルも高級品か -->
+  <Dialogue Key="Map.SeirenShip1fPartyAfterChapter7Mob1Stage1Dialogue1FaceMaleOld" Value="역시나 호화 여객선이로군....,샘플도 고급품이구나." Face="MaleOld" Mono="False" />
+  <!-- ナビたちはこの電脳の中で料理が試食できるのよね羨ましい････ -->
+  <Dialogue Key="Map.SeirenShip1fPartyAfterChapter7Mob2Stage1Dialogue1FaceFemaleAdult" Value="내비들은 이 전뇌 안에서,요리를 시식할 수 있겠구나.,부럽네...." Face="FemaleAdult" Mono="False" />
+</data>

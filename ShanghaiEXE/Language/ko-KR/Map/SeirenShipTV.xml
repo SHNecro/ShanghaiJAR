@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SeirenShipTVName" Value="객실 TV의 전뇌" />
+  <Dialogue Key="Map.SeirenShipTVSprite1Stage1Dialogue1FaceSprite" Value="저는 룸 서비스,스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite1Stage1Dialogue2QuestionFaceSprite" Value="서브칩을 구매하시겠어요?" Face="Sprite" Mono="False" />
+  <Text Key="Map.SeirenShipTVSprite1Stage1Dialogue2Options" Value="산다,사지 않는다" />
+  <Dialogue Key="Map.SeirenShipTVSprite2Stage1Dialogue1FaceSprite" Value="저 친구 룸 서비스,하겠다고 말하는 거,엄청 연습 많이 했어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite2Stage1Dialogue2FaceSprite" Value="연습을 계속 하면,예쁘게 말할 수 있나 보네요〜" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite3Stage1Dialogue1FaceSprite" Value="이 미스터리 데이터는,그냥 가져가셔도 됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVSprite3Stage1Dialogue2FaceSprite" Value="흔히 말하는,편의 시설이에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage1Dialogue1FaceNone" Value="흐흐흐흐...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage1Dialogue2FaceNone" Value="하하하하하!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue1FaceShanghai" Value="드디어 바라고 바라던 때가 왔다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue2FaceShanghai" Value="부화，참가자는?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue3FaceHenchie" Value="네!,이번 작전에는,총 200명이 모였습니다." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue4FaceHenchie" Value="지금 여기 없는 자들은,이미 현장에서 작전을,수행하고 있습니다." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue5FaceShanghai" Value="아주 좋아....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue6FaceShanghai" Value="이 곳에 모인,정예 부하들이여!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage3Dialogue7FaceShanghai" Value="제군들의 활약상에 따라,우리의 미래가 결정된다고 봐도,과언이 아니다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue1FaceNaviPurplePunk" Value="헤헤헤....,벌써부터 팔이,근질근질한데!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue2FaceNaviPurpleHeel" Value="빨리 뛰게 해 달라고!,몸이 근질근질해서 못 참겠다!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue3FaceShanghai" Value="서두르지 마라!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue4FaceShanghai" Value="난 지금부터,엑시비전 넷배틀에 참전한다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue5FaceShanghai" Value="그 동안 다른 관광객들은,넷배틀에 집중하느라,정신이 없겠지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue6FaceNaviPurplePunk" Value="흐음，그렇군....!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue7FaceShanghai" Value="그 틈을 타서.... 잘 알겠지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue8FaceNaviPurpleHeel" Value="YES，MA'AM!!" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue9FaceNaviPurplePunk" Value="예스，맴!!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue10FaceNaviBlueRobot" Value="상하이 님 만세에!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue11FaceNaviPurpleFemale" Value="우리에게 밝은 미래를!!" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue12FaceNone" Value="와아아아아!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue13FaceShanghai" Value="흐흐흐흐...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVChapter5EventsStage5Dialogue14FaceShanghai" Value="하하하하하!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue1FaceShanghai" Value="부화!,보고하도록!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue2FaceHenchie" Value="넷!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue3FaceHenchie" Value="이번 작전으로 얻은,고급 요리의 양은,통 개수를 놓고 봤을 때...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue4FaceHenchie" Value="1년 분량의 연회에,쓸 수 있을 정도의 양입니다!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue5FaceShanghai" Value="아주 훌륭해!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage1Dialogue6FaceShanghai" Value="흐하하하!,이제 이걸로 1년 동안은,고급 요리만으로 연회를...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage3Dialogue1FaceNone" Value="쿠구구구...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage5Dialogue1FaceShanghai" Value="뭐야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage5Dialogue2FaceHenchie" Value="이건 무슨 소리죠?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage7Dialogue1FaceNone" Value="콰과과과...." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage9Dialogue1FaceShanghai" Value="소리가 아니야....,흔들리고 있는데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage11Dialogue1FaceNone" Value="콰과과과....!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage11Dialogue2FaceNone" Value="콰아아아아아아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue1FaceShanghai" Value="쿨럭 쿨럭...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue2FaceShanghai" Value="대체 무슨 일이....!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage13Dialogue3FaceHenchie" Value="방금 엄청난 기세로,이 전뇌에 물이,한꺼번에 밀려와서...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage15Dialogue1FaceHenchie" Value="으아니!!,상하이 님!!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.SeirenShipTVBooker2Stage15Dialogue2FaceShanghai" Value="으아아아아아아!,내 고급 요리이이이이이!!" Face="Shanghai" Mono="False" />
+</data>

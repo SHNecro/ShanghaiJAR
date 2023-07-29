@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 里香の部屋 -->
+  <Text Key="Map.RikaHouseName" Value="리카의 방" />
+  <!-- すやすや････ -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage1Dialogue1FaceNone" Value="쿠울 쿠울...." Face="None" Mono="False" />
+  <!-- ････そっとしてあげよう -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage1Dialogue2FaceNone" Value="....가만히 냅두자." Face="None" Mono="False" />
+  <!-- ふかふかのイビルアイソファだ -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage3Dialogue1FaceNone" Value="폭신폭신한 이블아이 소파다." Face="None" Mono="False" />
+  <!-- うっかり飛び込んでしまうと気持ちよさのあまりダメになってしまう -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage3Dialogue2FaceNone" Value="무심코 뛰어들었다간,너무 기분이 좋아지는 나머지,소파에서 못 벗어나게 된다." Face="None" Mono="False" />
+  <!-- 洗濯表示のところに９５４２６３６８　と書かれている -->
+  <Dialogue Key="Map.RikaHouseIvilEyeSofaStage3Dialogue3FaceNone" Value="세탁 라벨이 있는 곳에,95426368이라고,써져 있다." Face="None" Mono="False" />
+  <!-- 里香の所有する戦車だ -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue1FaceNone" Value="리카가 보유한 전차다." Face="None" Mono="False" />
+  <!-- といってもハリボテであり中は小部屋のようになっている -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue2FaceNone" Value="물론 실제로는 외관만 그렇고,안쪽은 작은 방처럼 되어 있다." Face="None" Mono="False" />
+  <!-- 狭いがミニシアターになっており中に備え付けられたパソコンで映画を見るようだ -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue3FaceNone" Value="좁지만 미니 시어터처럼 되어,있으며，안에 설치된 컴퓨터를,통해 영화를 보는 듯 하다." Face="None" Mono="False" />
+  <!-- なのでプラグインできる！ -->
+  <Dialogue Key="Map.RikaHouseFlowerTankStage1Dialogue4FaceNone" Value="그렇기에 플러그인할 수 있다!" Face="None" Mono="False" />
+  <!-- 里香の靴箱だ -->
+  <Dialogue Key="Map.RikaHouseShoeboxStage1Dialogue1FaceNone" Value="리카의 신발장이다." Face="None" Mono="False" />
+  <!-- かわいらしいスニーカーから軍靴　安全靴までいろいろとそろっている -->
+  <Dialogue Key="Map.RikaHouseShoeboxStage1Dialogue2FaceNone" Value="귀여운 스니커부터 시작해서,군화에 안전화까지 다양하게,갖추어져 있다." Face="None" Mono="False" />
+  <!-- ふかふかのお布団だ -->
+  <Dialogue Key="Map.RikaHouseFutonStage1Dialogue1FaceNone" Value="폭신폭신한 이부자리다." Face="None" Mono="False" />
+  <!-- 一度入ったら最後気持ちよさのあまり抜け出せなくなる -->
+  <Dialogue Key="Map.RikaHouseFutonStage1Dialogue2FaceNone" Value="한 번 들어가면 마지막에는,너무 기분이 좋아지는 나머지,이불 밖으로 못 나오게 된다." Face="None" Mono="False" />
+  <!-- 里香にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage1Dialogue1QuestionFaceShanghai" Value="리카한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.RikaHouseTankManBattleStage1Dialogue1Options" Value="예,아니오" />
+  <!-- タンクマン！行くのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage1Dialogue2FaceRika" Value="탱크맨! 가는 거에요!" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage3Dialogue1FaceRika" Value="리카가 이긴 거에요!" Face="Rika" Mono="False" />
+  <!-- さすがアリスさんはすっごく強いのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage5Dialogue1FaceRika" Value="역시 앨리스 씨는,엄청 센 거에요!" Face="Rika" Mono="False" />
+  <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage6Dialogue1FaceTankMan" Value="상하이!,멋진 모습을 보여 주겠다구!" Face="TankMan" Mono="False" />
+  <!-- ファイトなのです！タンクマン！！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage6Dialogue2FaceRika" Value="파이팅인 거에요!,탱크맨!!" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage8Dialogue1FaceRika" Value="리카가 이긴 거에요!" Face="Rika" Mono="False" />
+  <!-- タンクマン　残念なのです････ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage10Dialogue1FaceRika" Value="탱크맨，아까운 거에요...." Face="Rika" Mono="False" />
+  <!-- 最高のコンディションの俺の力を見せてやるぜ！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage11Dialogue1FaceTankMan" Value="최고 컨디션 상태일 때의,내 힘을 보여 주겠어!" Face="TankMan" Mono="False" />
+  <!-- これが里香の本気なのです！！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage11Dialogue2FaceRika" Value="이것이 리카의 진심인 거에요!!" Face="Rika" Mono="False" />
+  <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage13Dialogue1FaceTankMan" Value="어때，상하이!,반할 만했지!" Face="TankMan" Mono="False" />
+  <!-- がーん！里香は勝てないのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage15Dialogue1FaceRika" Value="데～엥!,리카는 이기질 못 하는 거에요!" Face="Rika" Mono="False" />
+  <!-- また今度やるのです！ -->
+  <Dialogue Key="Map.RikaHouseTankManBattleStage16Dialogue1FaceRika" Value="다음에 하는 거에요!" Face="Rika" Mono="False" />
+  <!-- 里香は退屈なのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage1Dialogue1FaceRika" Value="리카는 지루한 거에요!" Face="Rika" Mono="False" />
+  <!-- そうだ！ネットバトルしようぜ！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage1Dialogue2FaceTankMan" Value="맞다!,넷배틀하자!" Face="TankMan" Mono="False" />
+  <!-- クラスの仲間が増えて里香は嬉しいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage3Dialogue1FaceRika" Value="반 친구가 늘어서,리카는 기쁜 거에요!" Face="Rika" Mono="False" />
+  <!-- そうだ！ネットバトルしようぜ！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage3Dialogue2FaceTankMan" Value="맞다!,넷배틀하자!" Face="TankMan" Mono="False" />
+  <!-- 天子さんと一緒に遊ぶの楽しいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage5Dialogue1FaceRika" Value="텐시 씨와 같이 노는 거,즐거운 거에요!" Face="Rika" Mono="False" />
+  <!-- そうだ！ネットバトルしようぜ！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage5Dialogue2FaceTankMan" Value="맞다!,넷배틀하자!" Face="TankMan" Mono="False" />
+  <!-- 里香は今度あるプラモデルコンテストに出す作品を作ってるのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage7Dialogue1FaceRika" Value="리카는 이번에 있는,프라모델 콘테스트에 나갈,작품을 만들고 있어요!" Face="Rika" Mono="False" />
+  <!-- 戦車を使ったガレージキットを出す予定なのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage7Dialogue2FaceRika" Value="전차를 사용한 차고 키트를,내놓을 예정인 거에요!" Face="Rika" Mono="False" />
+  <!-- でも　今は一息ついて休憩中なのです！ネットバトルするのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage7Dialogue3FaceRika" Value="그래도 지금은 잠깐 한 숨,돌리고 쉬는 중이에요!,넷배틀하는 거에요!" Face="Rika" Mono="False" />
+  <!-- 大会で優勝するなんてアリスさんはすごいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage9Dialogue1FaceRika" Value="대회에서 우승했다니,앨리스 씨 대단해요!" Face="Rika" Mono="False" />
+  <!-- 里香にもネットバトルのコツを教えてもらいたいのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage9Dialogue2FaceRika" Value="리카한테도 넷 배틀의 요령을,알려 줬으면 하는 거에요!" Face="Rika" Mono="False" />
+  <!-- 天子さん　入院しちゃって心配なのです････ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue1FaceRika" Value="텐시 씨 입원했다니 걱정이에요...." Face="Rika" Mono="False" />
+  <!-- 入院する間天子さんからイクさんを預かってるのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue2FaceRika" Value="입원해 있는 동안에는,텐시 씨로부터 이쿠 씨를,맡게 된 거에요!" Face="Rika" Mono="False" />
+  <!-- 里香が責任をもってイクさんをメンテナンスするのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue3FaceRika" Value="리카가 책임 지고,이쿠 씨를 메인터넌스,하는 거에요!" Face="Rika" Mono="False" />
+  <!-- イクさんは里香のＨＰにいるのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue4FaceRika" Value="이쿠 씨는 리카의 홈페이지에,있는 거에요!" Face="Rika" Mono="False" />
+  <!-- 天子さんの暇つぶしにネットバトルしてあげると喜ぶはずなのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue5FaceRika" Value="텐시 씨께서 심심하지 않도록,넷배틀해 주시면,텐시 씨도 기뻐할 거에요!" Face="Rika" Mono="False" />
+  <!-- それとも　里香とネットバトルするのです？ -->
+  <Dialogue Key="Map.RikaHouseRikaStage11Dialogue6FaceRika" Value="아니면 리카와,넷배틀하시는 거에요?" Face="Rika" Mono="False" />
+  <!-- 天子さん　早く退院できるように里香は願うのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage13Dialogue1FaceRika" Value="텐시 씨가 빨리 퇴원할 수 있길,리카는 바라는 거에요!" Face="Rika" Mono="False" />
+  <!-- 里香のお家に遊びに来たらやることはひとつなのです！ -->
+  <Dialogue Key="Map.RikaHouseRikaStage15Dialogue1FaceRika" Value="리카네 집에 놀러 왔다면,할 것은 하나 뿐인 거에요!" Face="Rika" Mono="False" />
+  <!-- 天子にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage1Dialogue1QuestionFaceShanghai" Value="텐시한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.RikaHouseIkutororuStage1Dialogue1Options" Value="예,아니오" />
+  <!-- イク！頑張ってね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage1Dialogue2FaceTenshi" Value="이쿠! 힘내!" Face="Tenshi" Mono="False" />
+  <!-- わーい！私が勝ったのよ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage3Dialogue1FaceTenshi" Value="예～이!,내가 이겼네!" Face="Tenshi" Mono="False" />
+  <!-- アリスってすごく強いね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage5Dialogue1FaceTenshi" Value="앨리스 엄청 세다!" Face="Tenshi" Mono="False" />
+  <!-- 天子様のカスタマイズを受けパワーアップしましたわ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage6Dialogue1FaceIku" Value="텐시 님의 커스터마이즈를 받아,파워업하였사옵니다!" Face="Iku" Mono="False" />
+  <!-- もう負けないんだからね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage6Dialogue2FaceTenshi" Value="더는 지지 않을 거야!" Face="Tenshi" Mono="False" />
+  <!-- イク！やったのよ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage8Dialogue1FaceTenshi" Value="이쿠! 해냈구나!" Face="Tenshi" Mono="False" />
+  <!-- アリスすごい！今度カスタマイズ教えてよ！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage10Dialogue1FaceTenshi" Value="앨리스，대단하다!,나중에 커스터마이징,어떻게 했는지 알려 줘!" Face="Tenshi" Mono="False" />
+  <!-- 気が向いたらやろうね！ -->
+  <Dialogue Key="Map.RikaHouseIkutororuStage11Dialogue1FaceTenshi" Value="하고 싶어지면 하자!" Face="Tenshi" Mono="False" />
+  <!-- 友達の家で遊ぶなんて私はじめてなの！ -->
+  <Dialogue Key="Map.RikaHouseTenshiStage1Dialogue1FaceTenshi" Value="친구 집에서 노는 거,난 처음 해 봐!" Face="Tenshi" Mono="False" />
+  <!-- ねえアリスネットバトルしよう！ -->
+  <Dialogue Key="Map.RikaHouseTenshiStage1Dialogue2FaceTenshi" Value="있지，앨리스,넷배틀하자!" Face="Tenshi" Mono="False" />
+</data>

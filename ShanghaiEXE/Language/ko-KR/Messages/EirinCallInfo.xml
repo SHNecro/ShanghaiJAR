@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue1Eirin" Value="어머，내가 준 애드온을,바로 썼구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue2Shanghai" Value="그렇다고는 해도,댁은 그냥 의사 선생님이잖아.,우리랑 무슨 이야기를 하려고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue3Eirin" Value="난 그냥 의사 양반이 아니야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue4Eirin" Value="난 슈퍼 그레이트한,미인 여의사이지!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue5Alice" Value="이 무슨...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue6Shanghai" Value="그래서 그 슈퍼 뭐시기 분께서는,무엇을 이야기하시려고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue7Eirin" Value="너희들도 매일같이,싸우기만 해서는,참 힘들잖아?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue8Eirin" Value="이 애드온으로 말 걸어 주면,포획한 적이 있는 바이러스의,생태를 알려주지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue9Alice" Value="바이러스의 생태라....,재미있어 보이네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo1Dialogue10Eirin" Value="그러면，잘 부탁해!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue1Eirin" Value="레이캐논을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue2Eirin" Value="레이캐논은 전형적인,포대형 바이러스야.,생물보다는 기계에 가깝지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue3Shanghai" Value="그렇지만 버그의 조각을 먹고,성장하긴 하잖아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue4Eirin" Value="사실 포대로 보이는 건 껍데기고,안에 연체동물 같은 게,살고 있다는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue5Alice" Value="에엑...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue6Eirin" Value="참고로 포신에서 발포되는 탄환은,전이식 폭뢰탄이라는 물건이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue7Eirin" Value="록온한 표적을 향해,포탄을 전송시키는 듯한,이미지의 포탄이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo2Dialogue8Shanghai" Value="아，그래서,록온된 장소에서 벗어나면,안 맞는 거네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue1Eirin" Value="플라워 탱크를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue2Eirin" Value="플라워 탱크의 본체는,포탑에서 자라는 덩굴 모양의,전뇌 식물이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue3Eirin" Value="그 전뇌 식물이 요격용,전차형 프로그램을 조종하고,있는 구조의 바이러스이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue4Shanghai" Value="그래서 불이나 독이,잘 통하는 거였구나." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue5Eirin" Value="또 그렇기에 그 식물이 기생하는,전차형 프로그램에서 발포되는,포탄은 무속성인 거고." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue6Eirin" Value="뭐，떨어뜨리는 칩인,시드 캐논은 씨앗을 발사하는,칩이지만 말야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo3Dialogue7Alice" Value="전뇌세계의 생태계란,참 이해가 안 되네요...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue1Eirin" Value="겔팩을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue2Eirin" Value="겔팩은 달팽이류를 닮은,전뇌연체동물이야. 등 뒤에 있는,괘로도 날 때부터 있던 거지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue3Shanghai" Value="겔팩이라 한다면 부하들이,불에 구워서 츠보야키로 만들면,맛있을 것 같다고 말했었지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue4Eirin" Value="바이러스를 먹는 건 일부,전뇌세계에서 하고 있다는 듯한데,착한 애들은 따라하면 안 돼." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue5Eirin" Value="덧붙여서 괘로에서 나오는 광선은,괘로 내부에 있는 스파크버섯이라는,버섯에 의한 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue6Eirin" Value="스파크버섯은 겔팩의,등에 자라는 전뇌 버섯이야.,열을 흡수해서 방전하지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue7Eirin" Value="”괘로 안에 버섯을 길러서,빔의 형태로 발사한다.”,이런 방식이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue8Shanghai" Value="스파크버섯도 한 번,먹어 보고 싶은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo4Dialogue9Alice" Value="안 하는 편이 좋지 않을까...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue1Eirin" Value="복실거미를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue2Eirin" Value="복실거미는 전신에,가느다란 털이 자란,거미 형태의 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue3Eirin" Value="끈적끈적한 실덩이를,먹잇감에게 발사해서 공격하지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue4Shanghai" Value="서식지에 따라 속성이,달라지는 바이러스 중 한 종류네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue5Eirin" Value="반짝반짝하니 빛나는 눈은,어둠 속에서도 잘 보이니까,이름을 눈 색에서 따 오기도 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue6Eirin" Value="덧붙여서 복실독거미라는,독거미가 모델이라는,이야기가 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue7Shanghai" Value="바이러스를 만드는 놈이고 뭐고,거미를 모델로 삼는 건,좀 아니지 않나...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue8Eirin" Value="그래?,거미 귀엽지 않아?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo5Dialogue9Alice" Value="으에...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue1Eirin" Value="파이냥을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue2Eirin" Value="파이냥은 전뇌 코타츠에,자리잡은 고양이 모양의,바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue3Shanghai" Value="냥이라는 그 이름에서,어쩐지 고양이라고,생각은 했는데 말이지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue4Eirin" Value="참고로 꼬리가 2개인 건,원본이 네코마타 형 바이러스였기,때문이라나 봐." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue5Eirin" Value="뭐어，제작자가 의도한 방향대로,발전하지 않는 거야 자주,있는 이야기이지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue6Shanghai" Value="할퀴는 고양이 바이러스가,아니라서 다행이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue7Alice" Value="그거 꽤 아프긴 해...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo6Dialogue8Alice" Value="(그래도 불을 뿜는 것보다는, 훨씬 더 낫다고 보는데)" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue1Eirin" Value="털구슬을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue2Eirin" Value="정식 명칭은 털구슬 구슬견.,전뇌 세계가 탄생했을 때부터,있었던 역사가 긴 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue3Alice" Value="견이라니 저거 개였나요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue4Eirin" Value="그래，전뇌세계에서 사는 동안,다리가 퇴화해서 짧아졌어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue5Eirin" Value="뒤집어 봐서,털 사이를 헤쳐 보면,작은 발이 보일 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue6Eirin" Value="위협을 느끼면,털을 경질화시켜서,그 충격파로 공격해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue7Eirin" Value="상위종의 충격파는 그 힘으로,패널을 모래 상태로,분해해 버리는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue8Shanghai" Value="그렇군，그렇군." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue9Eirin" Value="애초에 애완동물로써 만들어진,전뇌 개가 야생화한 거라는,말이 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue10Eirin" Value="너희들도 애완동물을,함부로 야생에 풀지는 마렴." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo7Dialogue11Alice" Value="네～에." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue1Eirin" Value="포이즐린을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue2Eirin" Value="포이즐린은 백합과의 전뇌식물이야.,원래는 관상용 꽃이었지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue3Eirin" Value="그게 스스로 진화해서 독을 품고,뿜을 수 있게 된 거니까,생명의 신비란 참 위대하지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue4Shanghai" Value="저 정도로 크면,꽃다발 만들기도 힘들겠네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue5Eirin" Value="참고로 지금은 전멸했지만,포이즐린의 아종 중에는 위험한,독을 뿜는 종도 있었다나 봐." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue6Eirin" Value="아무리 체력이 많아도,손대는 순간 딜리트된다는,매우 위험한 독이었다던가." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue7Shanghai" Value="으헥....,그 시대에 태어나지,않아서 다행이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue8Eirin" Value="그렇지만 그 독을 가지고,싶었던 밀렵꾼 내비들 때문에,남획되다 전멸해 버렸다는데." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo8Dialogue9Alice" Value="자기 스스로를 지키기 위한,독 때문에 전멸해 버리다니,뭔가 얄궂네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue1Eirin" Value="스크륜을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue2Eirin" Value="스크륜은 전뇌 선풍기가,강화된 결과 탄생한 기계 계열,바이러스의 한 종류야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue3Eirin" Value="프로펠러를 얼음으로 만들면 더,시원해지지 않을까 하는 발상에서,시작해서 이 모습이 되었다나 봐." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue4Shanghai" Value="왜 그냥 프로펠러만으로는,만족을 못 했던 걸까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue5Eirin" Value="덧붙여서 버그의 조각을 먹여서,성장시킬 수 있는 부분은,결정형 스탠드 부분 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue6Eirin" Value="먹이를 주면 계속 움직이는,그런 선풍기를 만들고,싶었던 걸까?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo9Dialogue7Alice" Value="선풍기 하나에 그렇게까지,열의를 품지 않아도,되지 않을까...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue1Eirin" Value="셸룬을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue2Eirin" Value="셸룬은 보이는 그대로,소라게 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue3Shanghai" Value="아무리 봐도 겉껍데기를 바꾼,겔팩일 거라 생각했는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue4Eirin" Value="바이러스 7대 불가사의 중에,셸룬의 다리의 수수께끼,라는 게 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue5Eirin" Value="1m 정도의 높이를 점프할,수 있는 다리로 왜 걷지,않는지가 의논 대상이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue6Eirin" Value="그 겉껍데기는 착지할 때,충격만으로도 낙석이 생길,정도로 엄청 무거운 건데...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo10Dialogue7Alice" Value="(그 쓸데 없어 보이는, 작은 집게발에 대해서는, 아무도 의논하지 않나 보네)" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue1Eirin" Value="브라우저크래셔를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue2Eirin" Value="브라우저크래셔는 외관만 보면,에어컨이지만 이름의 유래가,좀 복잡한 편이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue3Alice" Value="그러고 보면 왜 관련 칩의,이름이 ”인터넷스팸링크”인지도,모르겠고 말이죠." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue4Eirin" Value="옛날에는 인터넷 사이트 중에는,열었다 하면 광고창을 수도 없이,많이 띄워 대는 사이트가 있었어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue5Eirin" Value="인터넷의 여명기에는,꽤 많은 수가 있었지만,대책이 금방 세워져서 없어졌지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo11Dialogue6Shanghai" Value="어떤 의미에서는,바이러스의 원조라고도,볼 수 있겠구나." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue1Eirin" Value="쁘띠오니를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue2Eirin" Value="그 바이러스는 어느 오니 모양의,내비의 전투 데이터가 독립해서,바이러스화한 거라나 봐." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue3Shanghai" Value="엄청 민폐스러운 이야기네...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue4Eirin" Value="참고로 원형이 된 그 내비가,엄청 술을 좋아했던,모양인지 전뇌 술에 잘 모여." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue5Eirin" Value="....물론 말은 그렇게 해도,너희들은 아직 미성년자니까,술을 얻을 수는 없겠지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue6Shanghai" Value="어라? 나 사실 성년이고,그것도 20살인데?,그러니까 술 마실 수 있어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo12Dialogue7Alice" Value="내가 미성년자라서,안 될 것 같은데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue1Eirin" Value="이블아이를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue2Eirin" Value="이블아이는 어떤 전뇌,방위조직이 만든 전차형,요격 프로그램이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue3Shanghai" Value="저 외관으로 전차형을,자칭하다니 나름 배짱 있구만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue4Eirin" Value="플라워 탱크의 원형 전차도,같은 조직이 만든 거지만,외관이 완전히 다르네...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue5Eirin" Value="흔히 말하는 ”기분 나쁘지만,귀여운” 걸 노리고 여성향으로,만든 걸지도 모르지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo13Dialogue6Alice" Value="아마 아니라고 생각해요...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue1Eirin" Value="비비티뱃을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue2Eirin" Value="비비티뱃은,박쥐형 바이러스이지만,그 큰 눈이 어째 꺼림칙하지...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue3Eirin" Value="그 눈알에는 중력을 제어하는,힘이 있다는 듯하니까 애초에,날개와 눈이 따로라는 설이 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue4Shanghai" Value="날개 바이러스랑 눈 바이러스가,하나로 합쳐졌다,뭐 이런 건가?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue5Eirin" Value="참고로 그 작은 다리 같은,기관도 애초에 별도의,바이러스였다는 설도 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue6Alice" Value="다리 한 짝짜리 바이러스인지,두 짝짜리 바이러스인지,신경 쓰이긴 하네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo14Dialogue7Shanghai" Value="....다른 것도 아니고,그게 신경 쓰인다고?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue1Eirin" Value="정크스를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue2Eirin" Value="정크스는 전뇌 세계의,정크 데이터로 몸을 두른,모습의 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue3Shanghai" Value="쓰레기는 잘 분리수거해서,버려야지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue4Eirin" Value="그래도 정크 데이터는,너희들이 모르는 와중에도,꽤 도움이 된다고?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue5Eirin" Value="미스터리 데이터에서,돈을 얻을 때가 있잖아?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue6Alice" Value="자주 용돈에 보탬이 되지만요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue7Eirin" Value="그건 정크 데이터 안에 있는,희소한 데이터를 자동적으로,정부가 사들인 돈이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue8Shanghai" Value="그럼 돈이 들어 있다고,생각하는 미스터리 데이터에 사실,정크 데이터가 들어있는 거네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo15Dialogue9Eirin" Value="그런 거지.,한 가지 좋은 공부가 되었지?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue1Eirin" Value="오징어닻을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue2Eirin" Value="오징어닻은 선박의 항행을,제어하는 닻 프로그램에,달라붙은 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue3Eirin" Value="그게 번식해서,배 이외의 전뇌세계에도,출현하게 된 거지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue4Alice" Value="말인즉슨 저 닻은,바이러스가 아닌 거군요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue5Shanghai" Value="오징어채로 만들려면,닻 부분을 빼고,조리하라.... 이거지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue6Eirin" Value="....저걸 먹을 생각이야?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue7Shanghai" Value="이런 건 마른안주로,안성맞춤이라는 거 몰라?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo16Dialogue8Alice" Value="나 아직 어린애라서,모르겠는데." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue1Eirin" Value="개굴모자를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue2Eirin" Value="개굴모자는 개구리형이라,생각하기 쉽지만,사실은 모자형 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue3Shanghai" Value="올챙이를 내뱉는데도 그래?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue4Eirin" Value="개굴모자를 만든 해커가 모자의,생김새가 개구리를 닮았다면서,개구리처럼 만들었다는데." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue5Alice" Value="모자가 먼저냐,개구리가 먼저냐....,이런 이야기 같네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue6Shanghai" Value="어느 쪽이든 저 미끌미끌한,모자는 손대고 싶지 않네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo17Dialogue7Alice" Value="자기도 스타일에 따라서는,비슷한 거 쓰면서...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue1Eirin" Value="가재니어를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue2Eirin" Value="가재니어의 공격이라 하면,포물선형 거품 공격이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue3Shanghai" Value="그냥 평범하게 엇갈리듯,움직이기만 하면 정면에서도,피할 수 있는 그거 말이지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue4Eirin" Value="왜 굳이 거품을 쓰냐면 집게,부분이 옛날에 있었던 꽃게 모양,바이러스의 흔적 같은 거라서 그래." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue5Eirin" Value="버전업하는 과정에서,더욱 더 위압적인 가재의,형상을 띠게 되었다고 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue6Alice" Value="꽃게랑 가재라....,둘 다 별로 무서운,느낌은 안 드는데요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo18Dialogue7Eirin" Value="그야 그 부분은,개인의 감성 차이니까." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue1Eirin" Value="배리저드를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue2Eirin" Value="배리저드는 목 주변에,배리어의 조각들을 두른,목도리도마뱀형 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue3Eirin" Value="원래는 프로텍트 프로그램이었던,것이 도마뱀형 바이러스에게,흡수되어서 태어났다는 듯해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue4Shanghai" Value="직접 공격해 오지는 않지만,있으면 은근 귀찮은,바이러스잖아 그거." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue5Eirin" Value="반대로 말하면 혼자만 있다면,아무것도 안 하는 한,무해하겠지만 말이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue6Eirin" Value="스스로 공격하지 못 하니까,다른 바이러스와 동행하면서...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue7Eirin" Value="그 바이러스가 얻은 먹이를,나누어 받아가면서,살아간다고 하는데." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue8Alice" Value="헤에～" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue9Eirin" Value="현실에서는 빨판상어라 하는,생물이 비슷한 생태를,가지고 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue10Eirin" Value="머리에 있는 흡반으로 큰 어류에게,달라붙어 찌꺼기를 받아먹는,관계가 딱 닮았지!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue11Eirin" Value="그렇지만 빨판상어는 자기가,달라붙은 그 대형 어류에게,먹히는 경우도 있는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue12Shanghai" Value="누구한테 붙을 지,잘 생각해라는 교훈에,쓸 수 있겠는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo19Dialogue13Alice" Value="상하이 너가,그런 말 하면,농담으로 안 들려." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue1Eirin" Value="무샤를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue2Eirin" Value="무샤는 보이는 그대로,일본의 갑옷무사가 모델인,바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue3Shanghai" Value="....그런 것 치고는,조금 등신대가 낮아 보이는,느낌도 드는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue4Eirin" Value="뭐，정확하게는,갑옷의 투구가,칼을 든 모습이지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue5Eirin" Value="무기로 쓰는 칼은 속성을 두른,특별한 소재로 만들어진 거라,베는 감각이나 위력은 일품이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue6Eirin" Value="어딘가에 있을 무속성 무샤가,쓰는 무기는 그야말로 참철검이라,말할 정도로 고성능이라는 듯해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue7Shanghai" Value="난 일단 그 투구 안쪽을,봐 보고 싶은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo20Dialogue8Eirin" Value="이 세상에는 모르는 편이,좋은 것도 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue1Eirin" Value="소도그를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue2Eirin" Value="소도그는 하쿠로 텐구라는,요괴를 모티브로 한,바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue3Alice" Value="텐구라 하면,날개가 달리고 코가 긴,이미지가 떠오르는데 말이죠." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue4Eirin" Value="그건 카라스 텐구야.,텐구에도 다양한 종류가 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue5Eirin" Value="하쿠로 텐구는 지위가 낮다 보니,인간에게 도움을 줘서,생활자금을 벌었다고 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue6Shanghai" Value="요괴 치고는 꽤나,인간적인 에피소드구만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue7Eirin" Value="그건 그렇다 치고 소도그는,늑대 성향의 생태를 하고 있어서,기본적으로는 무리지어 행동해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue8Eirin" Value="어금니 부분에 나 있는 칼로,먹이를 베면서,사냥을 하는 생물이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue9Shanghai" Value="뼈라도 던져 주면,따라오지 않을까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo21Dialogue10Alice" Value="그건 늑대가 아니라,개라고 생각하는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue1Eirin" Value="랜스터를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue2Eirin" Value="랜스터는 서양 갑옷을,모티브로 한,기사형 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue3Shanghai" Value="가끔씩 나오는 세로 일렬로,배치된 랜스터는,꽤나 싸우기 힘들더라." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue4Eirin" Value="그런 전법은 고대 로마의,레기온 부대에서 힌트를 얻어,쓰고 있는 것 같네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue5Eirin" Value="방패를 든 중장갑병이 일렬로,벽처럼 다가오는 모습은 적에게,공포를 심어주었다던가!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue6Eirin" Value="에리어배시를 계속 써 가면서,다가오는 랜스터는 그야말로,그 공포의 재현이라 볼 수 있지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue7Alice" Value="전법에는 역사가 있는 법이군요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo22Dialogue8Eirin" Value="인류는 아직 집단으로 에워싸서,공격하는 것 이외의 전법을,발견하지 않았다고도 하지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue1Eirin" Value="드릿파를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue2Eirin" Value="드릿파는 일본의,강에 사는 요괴인 캇파를,모티브로 한 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue3Alice" Value="오이를 아주 좋아하는 요괴이고,머리 위의 접시가 말라 버리면,고통스러워한다고 했던가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue4Shanghai" Value="그게 왜 머리에서,드릴이 나오는 바이러스가,되었는지는 수수께끼지만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue5Eirin" Value="일설에 따르면,캇파 중에는 기계 기술에,능통한 자들도 있었다고 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo23Dialogue6Eirin" Value="그 소문을 기반으로,드릴과 캇파를 서로 합친,걸 지도 모르지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue1Eirin" Value="플레아를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue2Eirin" Value="플레아는 일본 신화에서 나오는,3개의 다리를 가진 야타가라스가,모티브인 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue3Eirin" Value="야타가라스는,태양의 화신이라고도 불리는데,그게 공격의 유래가 된 것 같네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue4Shanghai" Value="바이러스는 다리가 3개는 커녕,하나도 없어 보이는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue5Eirin" Value="저 포신 안에 3개가,다 있을 지도 모르지?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue6Eirin" Value="저 포신은 꽤나 무거워서,평소에는 포신을 바닥에 두고,가만히 있는 경우가 많아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo24Dialogue7Alice" Value="얘들이 사실 전투 중에,엄청 고생을 하고 있을,지도 모르는 거군요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue1Eirin" Value="브론저를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue2Eirin" Value="브론저는 전뇌금속을,즐겨 먹는 바이러스야.,체내에 용광로도 품고 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue3Eirin" Value="입에서 내뿜는 네이팜은 용광로의,녹은 철을 체내에서 필요없는,금속으로 감싸 배출한 것 같네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue4Shanghai" Value="말인즉슨 그 네이팜은,[자체검열]이라던가 [위험발언],같은 거라는 거야!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue5Eirin" Value="그야 바이러스도 생물인 이상,배설행위는 필요하잖아?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue6Eirin" Value="상위종인 미스릴은,가공의 금속인 미스릴 은에서,유래한 것 같네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo25Dialogue7Eirin" Value="가공의 금속도 존재하는,전뇌세계라니 어떤 의미에서는,판타지 세계일 지도 모르겠네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue1Eirin" Value="풍신을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue2Eirin" Value="풍신은 텐구 요괴가 쓰는,부채를 모티브로 한,바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue3Eirin" Value="텐구가 들고 다니는 부채는,팔손이나무라는 식물의,잎이라고도 하니까" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue4Eirin" Value="어떤 의미로는 팔손이나무,형태의 바이러스라고 말해도,다를 건 없겠네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue5Alice" Value="텐구라 하면 코가 긴,요괴 말씀하시는 거죠?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue6Eirin" Value="맞아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue7Eirin" Value="거기다 이름의 유래인,풍신과 뇌신은 유명한 병풍에,그려져 있는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue8Eirin" Value="거기다 불 속성의 염마는,지옥의 염마대왕에서,이름을 따 온 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue9Shanghai" Value="바이러스라는 게,전설이나 요괴에서 유래한 게,꽤나 많나 본데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo26Dialogue10Eirin" Value="그 수수께끼에 한 발짝,다가가 보면 바이러스학이,진일보할 것 같은데!" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue1Eirin" Value="머대돌이를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue2Eirin" Value="머대돌이의 유래는 화투에 있는,검은 산의 그림을 모티브로 한,바이러스라고 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue3Eirin" Value="그 검은 산은 스스키의 산이지만,그림 자체는 검은 중의 머리처럼,보여서 이렇게 불리기도 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue4Shanghai" Value="화투라니 꽤나 마이너한,데에서 모티브를 따 왔네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue5Alice" Value="화투 하면 난,청단，홍단밖에 모르는데." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue6Eirin" Value="어디까지나 화투에서 유래한 건,풀 속성 머대돌이뿐이고" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue7Eirin" Value="물 속성은 바다 요괴인,바다돌이한테서 따 온 것 같으니까,굳이 깊게 생각할 필요 없어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue8Eirin" Value="머대돌이는 땅에서 양분을 흡수해,살아가는 식물 같은 바이러스라,움직이는 기능이 없어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue9Eirin" Value="그 회오리로 주변 지형을,자신이 살기 좋은 곳으로,바꾸는 성질이 있다던지" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue10Shanghai" Value="어떤 면에서는 인간에 가까운,바이러스일지도 모르겠네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue11Alice" Value="자연 환경을 살기 좋게,바꾸는 점이 말이야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue12Shanghai" Value="훗...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo27Dialogue13Alice" Value="(뭔가 의미심장한 말로, 눈속임하고 있는 것 같은데)" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue1Eirin" Value="리베레이더를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue2Eirin" Value="리베레이더는 잠자리형 바이러스야.,눈이 엄청 성능 좋은,레이더로 되어 있지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue3Alice" Value="이름의 레이더는,그 레이더라 치면,리베 쪽은 그럼 뭔가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue4Eirin" Value="리베가 아니라 리베레.,독일어로 잠자리를 뜻하는 단어야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue5Eirin" Value="잠자리는 현실에서는,수채라는 유충 시절을 거치는데,바이러스 쪽은 다른 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue6Eirin" Value="포이즐린 같은 식물 계열,바이러스에 심은 알에서 성체가,직접 태어나는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo28Dialogue7Shanghai" Value="모델이 된 생물과,꼭 같은 생태를,이루는 건 아니구나." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue1Eirin" Value="쥬라곤을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue2Eirin" Value="쥬라곤은 드래곤이라기보다는,와이번에 가까운,화룡 형태의 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue3Eirin" Value="와이번과 드래곤의 차이는,손에 해당하는 부분이 독립됐는지,날개와 일체화되어 있는지에 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue4Eirin" Value="입에서 뿜는 화염 브레스는,다른 바이러스보다 범위도 넓고,고화력이라 주의해야 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue5Eirin" Value="브레스의 원리는 체내에 있는,유황화합물이 전뇌적인 변이를,일으킨 반응에 의해 변화되어" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue6Eirin" Value="발화점이 매우 낮아진,전뇌 유황기체가 외부 공기랑,접촉해 발화하는 거라고 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue7Eirin" Value="애초에 전뇌적인 변이란 건,전뇌세계 특유의 흔들림이랑,물리 위반의 차이가 맞물려서...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue8Alice" Value="← (이야기를 못 따라감)" Face="Alice" Mono="True" />
+  <Dialogue Key="Messages.EirinCallInfo29Dialogue9Shanghai" Value="← (중간부터 안 들음)" Face="Shanghai" Mono="True" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue1Eirin" Value="패널두더지를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue2Eirin" Value="패널두다지는 보이는 그대로,두더지 형태의 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue3Alice" Value="평소에는 어두운 땅 속에 있어서,선글라스를 끼고 있는 건가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue4Eirin" Value="어두운 땅 속에서 사는 생물은,애초에 광학적인 시각이,없는 경우가 많아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue5Eirin" Value="그래서 밝은 데로 가도,눈부심 같은 걸,못 느낀다고들 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue6Eirin" Value="뭐，패널두더지는 바이러스니까,그냥 평범하게 눈부시다고,느낄 지도 모르겠지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo30Dialogue7Shanghai" Value="꽤 적당한 편이네...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue1Eirin" Value="도끼호크를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue2Eirin" Value="도끼호크는 송골매 계열의 호크랑,도끼의 토마호크를 섞은,도끼매형 바이러스라 보면 되겠네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue3Eirin" Value="날개가 예리한 칼로 되어 있어서,회전하면서 돌진하는 걸로,다양한 걸 베고 지나가." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue4Shanghai" Value="칩으로 쓰면,도끼 부분밖에 안 남지만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue5Eirin" Value="그건 배틀칩에서는,생물적인 성질을 우선적으로,제거하기 때문이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue6Eirin" Value="공격적인 성질만,데이터로써 취득한 게,배틀칩이니까 그렇지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo31Dialogue7Alice" Value="이건 또 새로운 부분이네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue1Eirin" Value="맨티저를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue2Eirin" Value="맨티저는 사마귀형....이라고,말하고 싶지만 사실은,우주생물이 모티브라는 듯해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue3Alice" Value="우주생물?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue4Eirin" Value="우주에서 산다고 하는,지구 외적 생물을 말하는 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue5Eirin" Value="아직 외우주에 대한 탐색은,못 했지만 그런 위험한,생물이 있다는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue6Shanghai" Value="그 말은 즉 어떤 의미에서,상상이나 이미지를 베이스로 한,바이러스라는 거네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue7Eirin" Value="역으로 말하면 모델이 없는,전뇌세계에서 유래한 생물이라고,말할 수도 있는 거지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue8Eirin" Value="생태로 치면 오염된 수원에,생식하면서 큰 낫으로 먹이를,베어먹는 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo32Dialogue9Alice" Value="(현실에 없어서 다행이야....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue1Eirin" Value="통통너구리를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue2Eirin" Value="통통너구리는 너구리 요괴형,바이러스로，지장보살로 변화하는,게 특기라 볼 수 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue3Alice" Value="왜 지장보살인가요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue4Eirin" Value="글쎄....?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue5Eirin" Value="전뇌세계에서는 지장보살에게,위해를 가하면 어디선가,벼락이 떨어지는 성질이 있어서" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue6Eirin" Value="그걸 이용해서 스스로를 보호한다고,말하고는 있지만 사실인지는,명확하지 않는 것 같네." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue7Shanghai" Value="전뇌세계의 수수께끼,여기서 극에 달하다,뭐 이런 거겠네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo33Dialogue8Shanghai" Value="(그냥 평범하게, 천벌 받기 때문이 아니라....?)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue1Eirin" Value="매스드라이거를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue2Eirin" Value="매스드라이거의 라이거란,수컷이 사자이고 암컷이 호랑이인,잡종 동물을 가리키는 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue3Shanghai" Value="그다지 치고받고 싶지 않은,출신들인데...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue4Eirin" Value="뭐，그 라이거는 요격용,고정 포대 레일건의,다리를 대신하는 거지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue5Eirin" Value="라이거 부분에 대미지가 들어가야,공격 트리거가 발동되기 때문에,맨몸 부분이 노출되어 있어." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo34Dialogue6Alice" Value="뭔가 불쌍해 보여...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue1Eirin" Value="나겨비를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue2Eirin" Value="나겨비는 가을을 모티브로 한,바이러스인데 본체 모델이,뭔지 알아?" Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue3Shanghai" Value="뭔가 눈 달린,검은 물체 정도의,인식밖에 없는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue4Eirin" Value="저거 사실 밤이야.,낙엽에 싸인 밤." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue5Alice" Value="그대로 불 붙이면,잘 구워지겠는데요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue6Shanghai" Value="겨울에는 나겨비한테,전자 고구마 때려박고 불 붙이는,거 참을 수가 없다니까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo35Dialogue7Eirin" Value="착한 애들은,따라하면 안 된단다." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue1Eirin" Value="리바를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue2Eirin" Value="리바는 개미지옥.... 그러니까,흔히 명주잠자리라 말하는 곤충의,유충이 모티브인 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue3Shanghai" Value="그러면 언젠가는,성충이 된다는 거야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue4Eirin" Value="모티브만 따 온 것 뿐이고,성충이 되는 시스템은,들어있지 않은 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue5Alice" Value="뭔가 서글프네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue6Eirin" Value="뭐，자연계에도 도롱이벌레의 암컷,같이 성충 때와 유충 때 모습이,큰 차이 없는 곤충도 있으니까." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue7Eirin" Value="덧붙여서 이렇게 모습이,바뀌지 않는 벌레의 성장을,불완전변태라고 말해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue8Shanghai" Value="완전하든 불완전하든,변태는 만나고 싶진 않아...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo36Dialogue9Alice" Value="그 변태가 아니라고,생각하는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue1Eirin" Value="총아깨비를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue2Eirin" Value="총아깨비의 정식 명칭은,샷건 호퍼라 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue3Eirin" Value="옛날에는 파생종으로,캐논 호퍼 같은 것도,있었던 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue4Shanghai" Value="푱푱 날아다니면서,공격을 맞지를 않다 보니,난 별로 안 좋아하는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue5Eirin" Value="거기다 시골 쪽 전뇌세계에서는,총아깨비 조림도 만들어,먹는다던가 하는데." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue6Alice" Value="으엑...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo37Dialogue7Shanghai" Value="(맛있어 보일 거라 생각해 버렸네....)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue1Eirin" Value="던비틀을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue2Eirin" Value="던비틀은 오라나,배리어를 활용하는,드문 타입의 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue3Shanghai" Value="검 형태의 뿔은 인상적이지만,저 오라가 너무 단단해서,상대하기 성가시단 말이지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue4Eirin" Value="오라를 두른 바이러스는,던비틀 뿐이지만...." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue5Eirin" Value="세계 어딘가에,원조 오라 바이러스가,존재한다는 듯해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo38Dialogue6Alice" Value="그다지 싸우고 싶지 않은,상대방이네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue1Eirin" Value="라이쥰을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue2Eirin" Value="라이쥰은 고대의 선인 전설에서,나오는 뇌수를 모티브로 한,바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue3Eirin" Value="뇌수는 번개 뿐만 아니라,사람을 폐인으로 만드는,독도 방출하는 요사스런 짐승이야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue4Eirin" Value="그리고 그 독은 옥수수를,심지째로 먹으면 없어진다....는,내용의 전설이 있다고 해." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue5Shanghai" Value="뭔가 뒤숭숭한 전설이네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue6Eirin" Value="덧붙여서 최근 연구에 따르면,이 뇌수는 흰코사향고양이가,모델이지 않을까 한다더라." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue7Alice" Value="그 말을 듣고 보니까,뭔가 굉장하다는 느낌이,싹 사라지는데요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo39Dialogue8Eirin" Value="유령인가 하고 봐 보니까,마른 참억새인 격이지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue1Eirin" Value="홀네이크를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue2Eirin" Value="홀네이크는 독가스로 상대방을,격퇴하는 보안 프로그램이,바이러스화한 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue3Shanghai" Value="그런 것 치고는 뱀처럼 생긴 게,앞에 나오는 것 같은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue4Eirin" Value="일단 목 주변에,독가스의 제어 밸브가,흔적으로 남아 있지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue5Alice" Value="그러면 그걸 잠그면...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue6Eirin" Value="어디까지나 흔적 뿐이니까,그걸 손대도 아무 일도,일어나지 않아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo40Dialogue7Shanghai" Value="그렇구나...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue1Eirin" Value="우공을 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue2Eirin" Value="우공은 서유기의,손오공을 모티브로 한,원숭이 모양의 바이러스야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue3Shanghai" Value="그러고 보면 어째,원숭이 느낌이 드는 이름인데,어원이 어떻게 되길래 이렇지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue4Eirin" Value="우는 중국어로 5를 뜻하는 표현，,공은 빌 공(空) 자의,발음을 따 온 것 같아." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue5Alice" Value="둘을 합쳐서 우공....,오공과 이름이 비슷하네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue6Shanghai" Value="암만 봐도 우끼끼의 우에서,따 온 거라 생각했는데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo41Dialogue7Alice" Value="(그 설대로라면 공 부분은, 어디서 따 올 건데?)" Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue1Eirin" Value="괴기괴기를 잡았구나." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue2Eirin" Value="괴기괴기는 유령 모양의 바이러스야.,모습을 숨긴다던지 내비의 얼굴을,핥는다던지 하면서 공격해 오지." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue3Shanghai" Value="저것들이 얼굴을 핥으면,얼굴이 마비되어서,눈을 못 뜨게 돼." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue4Eirin" Value="참고로 어디까지나,모양만 유령이고,전뇌 세계의 망령인 건 아니야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue5Alice" Value="호오...." Face="Alice" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue6Eirin" Value="그렇지만 그거랑은 별개로,망령 내비나 유령 같은 데이터,같은 건 존재하지만." Face="Eirin" Mono="False" />
+  <Dialogue Key="Messages.EirinCallInfo42Dialogue7Alice" Value="........" Face="Alice" Mono="True" />
+</data>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.BenchName" Value="벤치의 전뇌" />
+  <Text Key="Map.BenchTestSprite2Battle1Enemy1" Value="チンピラアニキ" />
+  <!-- ボマー -->
+  <Text Key="Map.BenchTestSprite2Battle1Enemy2" Value="ボマー" />
+  <!-- モブナビ -->
+  <Text Key="Map.BenchTestSprite2Battle1Enemy3" Value="モブナビ" />
+  <Dialogue Key="Map.BenchSprite1Stage1Dialogue1FaceSprite" Value="공원은 모두의 장소입니다.,주변 사람을 생각해서,이용해 주세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchSprite2Stage1Dialogue1FaceSprite" Value="이 벤치에는,다양한 계측 기기가,장착되어 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchSprite2Stage1Dialogue2FaceSprite" Value="이 주변의 기온이나 습도를,조사하는 역할을,맡고 있습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue1FaceNaviGreenRobot" Value="네가 의뢰를 수락해 준 애구나?" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue2FaceNaviGreenRobot" Value="의뢰 내용은 간단해!,전력을 다해서 날 상대해 줘!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue3FaceNaviGreenRobot" Value="내가 지면 작전의 결점을,깨달을 수도 있을 것 같거든.,절대로 봐 주지 말고." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue4FaceNaviGreenRobot" Value="좋아，어디 그러면,트레이닝에 협력해 줘!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue5QuestionFaceNaviGreenRobot" Value="준비는 됐어?" Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.BenchClientStage1Dialogue5Options" Value="준비 됐어!,아직 안 됐어" />
+  <Dialogue Key="Map.BenchClientStage1Dialogue6FaceNaviGreenRobot" Value="준비가 됐다면 말해 줘." Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.BenchClientBattle1Enemy1" Value="의뢰자" />
+  <Dialogue Key="Map.BenchClientStage4Dialogue1FaceNaviGreenRobot" Value="아，안 돼 안 돼!,내가 이기면 작전의,결점이 안 보이게 되잖아!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue1FaceNaviGreenRobot" Value="아，그렇군...." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue2FaceNaviGreenRobot" Value="지형과 상태이상을 조합해도,여전히 공격을 피할 수 있다면,의미가 없구나...." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue3FaceNaviGreenRobot" Value="알겠어.,네 덕분에 내 작전을,다시 보게 되었어." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue4FaceNaviGreenRobot" Value="이건 보답이야.,받아 줬으면 해." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage6Dialogue5FaceNaviGreenRobot" Value="좋아，이러면 이제 대회 우승은,떼어 놓은 당상이군!" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue1FaceNaviGreenRobot" Value="상태이상 중에는 자체 효과와,별개로 속성 피해를 늘리는,효과가 있는 상태도 있어." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue2FaceNaviGreenRobot" Value="멜트는 물，슬립은 전기,블라인드는 불에 피해를,각각 2배씩 입어." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue3FaceNaviGreenRobot" Value="패널도 방식은 비슷해.,풀 패널 위에서는 불에 2배,얼음 패널 위에서는 전기 2배." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.BenchClientStage8Dialogue4FaceNaviGreenRobot" Value="기억해 두고 있으면,싸울 때 분명 도움이 될 거야." Face="NaviGreenRobot" Mono="False" />
+</data>

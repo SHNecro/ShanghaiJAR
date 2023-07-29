@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　インゲレススクエア -->
+  <Text Key="Map.InglesSquareName" Value="인터넷 잉겔레스 스퀘어" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.InglesSquareChipShopStage1Dialogue1QuestionFaceNaviGreenRobot" Value="전 인터넷 상인입니다.,좋은 거 있는데 보고 가실래요?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareChipShopStage1Dialogue1Options" Value="산다,안 산다" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.InglesSquareSub-chipShopStage1Dialogue1QuestionFaceNaviBlueRobot" Value="전 서브칩 상인입니다.,서브칩을 구매하시겠어요?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareSub-chipShopStage1Dialogue1Options" Value="예,아니오" />
+  <!-- アドオンショップへようこそ！ -->
+  <Dialogue Key="Map.InglesSquareAdd-onShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="어서 오세요! 애드온 샵입니다!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareAdd-onShopStage1Dialogue1Options" Value="산다,안 산다" />
+  <!-- インテリアショップようこそアル！ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue1FaceNaviPurplePunk" Value="인테리어 샵에 온 걸 환영HAO!" Face="NaviPurplePunk" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れるアルよ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue2FaceNaviPurplePunk" Value="약간의 예산으로,당신의 홈페이지를,아름답게 꾸며 드린DAO." Face="NaviPurplePunk" Mono="False" />
+  <!-- インテリア欲しいアルか？ -->
+  <Dialogue Key="Map.InglesSquareInteriorShopStage1Dialogue3QuestionFaceNaviPurplePunk" Value="인테리어를 보러 오셨NAO?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.InglesSquareInteriorShopStage1Dialogue3Options" Value="산다,안 산다" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue1FaceSprite" Value="저는 링크 게이트를 잇는,수속 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページトコノスクエアヲ　リンクデツナグコトガデキマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue2FaceSprite" Value="당신의 홈페이지와,이 스퀘어를 링크로,연결할 수 있습니다." Face="Sprite" Mono="False" />
+  <!-- セツゾクノ　テスウリョウトシテ１５０００ゼニーガ　ヒツヨウデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue3FaceSprite" Value="접속 수수료로,15000 제니가 필요합니다." Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナギマスカ？ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="링크를 연결하시겠습니까?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareLinkSpriteStage1Dialogue4Options" Value="예,아니오" />
+  <!-- リンクノ　セツゾクガカンリョウシマシタ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue5FaceSprite" Value="링크 접속이 완료되었습니다." Face="Sprite" Mono="False" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue6FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage1Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue1FaceSprite" Value="저는 홈페이지의,벽지를 판매하는,스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue2FaceSprite" Value="당신의 홈페이지의,벽지를 이 에리어의 벽지로,바꿔 드립니다." Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ１０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue3FaceSprite" Value="벽지 교체 비용은,1000 제니입니다." Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="벽지를 바꾸시겠습니까?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.InglesSquareLinkSpriteStage3Dialogue4Options" Value="예,아니오" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue6FaceSprite" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.InglesSquareLinkSpriteStage3Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <!-- 時計塔前広場の時計塔はこの街のシンボルなんだよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi1BStage1Dialogue1FaceNaviGreenRobot" Value="시계탑 앞 광장에 있는,시계탑은 이 마을의,상징이야." Face="NaviGreenRobot" Mono="False" />
+  <!-- 観光に来たのなら絶対に一度は見ておかないとね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi1BStage1Dialogue2FaceNaviGreenRobot" Value="관광 왔다면 반드시,한 번쯤은 보고 가야 할 곳이지." Face="NaviGreenRobot" Mono="False" />
+  <!-- ホテルから出て橋を渡ったところにあるケーキ屋は一度訪れてみるといいわよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi2BStage1Dialogue1FaceNaviPinkFemale" Value="호텔을 나와서 다리를 건너면 있는,케이크 집에 한 번,방문해 보는 것도 좋아." Face="NaviPinkFemale" Mono="False" />
+  <!-- 世界でも有名な三ツ星パティシエの作るケーキはすごい絶品なのよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi2BStage1Dialogue2FaceNaviPinkFemale" Value="세계에서도 유명한,3성 파티시에가 만드는 케이크는,엄청난 걸작품이거든." Face="NaviPinkFemale" Mono="False" />
+  <!-- インゲレス市街にある大きな橋も実は名所の一つなんだ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi3BStage1Dialogue1FaceNaviOrangeMale" Value="잉겔레스 시가지에 있는,큰 다리도 사실은,명소 중 한 곳이야." Face="NaviOrangeMale" Mono="False" />
+  <!-- 世界的に有名な童話の題材にもなってるからね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi3BStage1Dialogue2FaceNaviOrangeMale" Value="세계적으로 유명한,동화의 소재이기도 하거든." Face="NaviOrangeMale" Mono="False" />
+  <!-- ホテルの前にある銅像は探偵小説ファンなら欠かせないスポットですよ -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue1FaceNaviBlueRobot" Value="호텔 앞에 있는 동상은,탐정소설 팬이라면 절대로,빼먹을 수 없는 곳이에요." Face="NaviBlueRobot" Mono="False" />
+  <!-- あの名作推理小説「名探偵ナドゥ･ヤマザ」の銅像なんですからね -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue2FaceNaviBlueRobot" Value="그 유명한 추리 소설, ”명탐정 나두･야마자”의,동상이니까요." Face="NaviBlueRobot" Mono="False" />
+  <!-- この街が小説の舞台だからこそ銅像が立つというものです -->
+  <Dialogue Key="Map.InglesSquareChapter6Navi4AStage1Dialogue3FaceNaviBlueRobot" Value="소설의 무대가 이 거리인 만큼,이 거리에 동상이 서 있는 거죠." Face="NaviBlueRobot" Mono="False" />
+  <!-- これで観光名所は一通り聞けたわね -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue1FaceShanghai" Value="이걸로 관광명소는,얼추 다 들었네." Face="Shanghai" Mono="False" />
+  <!-- 時計塔に　ケーキ屋さんそれから橋と銅像････ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue2FaceAlice" Value="시계탑에 케이크 집,그리고 다리에 동상...." Face="Alice" Mono="False" />
+  <!-- なんだかワクワクしてきたわ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue3FaceAlice" Value="뭔가 두근두근한데." Face="Alice" Mono="False" />
+  <!-- じゃあ　さっそく観光名所を見に行きましょう！ -->
+  <Dialogue Key="Map.InglesSquareChapter6TourismStartEventStage1Dialogue4FaceShanghai" Value="그러면 바로,관광명소를 보러 가자!" Face="Shanghai" Mono="False" />
+  <!-- 日本人は数字を送るの大好きですか？ -->
+  <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue1FaceNaviPurplePunk" Value="일본 사람들은,숫자 보내는 걸,그렇게 좋아하나 봐?" Face="NaviPurplePunk" Mono="False" />
+  <!-- 日本の友人１０６７０５８１　って送ってきたヨ -->
+  <Dialogue Key="Map.InglesSquareInformationMobStage1Dialogue2FaceNaviPurplePunk" Value="일본 친구한테서,10670581이라는,숫자를 받았어." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue1" Value="아니，아니，아니，이런 천박한,장식품 따위에 흥미는 없어." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgamePurpleNaviDialogue2" Value="이 사업 이야기는 다른 데서,하는 게 좋을 것 같군.,따라와라，보디가드!" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard1Dialogue1" Value="아가씨를 지킨다!" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameAutoroidBodyguard2Dialogue1" Value="안구 인식 결과:,비적성 유저" Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue1" Value="시계탑 호탤 이용객을 위한,투어 등록을 받고 있어요!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameTourGuideDialogue2" Value="여러분의 잉겔레스 여행을,가지각색 관광명소로,풍성하게 만들어 드립니다!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue1" Value="저 밖에 있는,바이러스들이 너무 세." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesSquarePostgameGreenNaviDialogue2" Value="우라 인터넷이 원인인 것 같은데.,된다면 이 에리어를 죄다,봉쇄하는 게 낫다고 보는데." Face="NaviGreenRobot" Mono="False" />
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭのディスプレイ電脳 -->
+  <Text Key="Map.RomDisplayName" Value="ROM의 디스플레이 전뇌" />
+  <!-- ワルイコトト　ワカッテイテモヤラナケレバ　イケナイノハスプライトノ　サガ　デス -->
+  <Dialogue Key="Map.RomDisplaySprite1Stage1Dialogue1FaceSprite" Value="나쁜 일이라는 걸 알고 있어도,할 수밖에 없는 게,스프라이트의 천성이에요." Face="Sprite" Mono="False" />
+  <!-- チカカラ　マガマガシイエネルギーガ　カンジラレマス -->
+  <Dialogue Key="Map.RomDisplaySprite2Stage1Dialogue1FaceSprite" Value="지하로부터 꺼림칙한,에너지를 느낄 수 있어요." Face="Sprite" Mono="False" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="호오.... 거기 너,꽤나 다크한 분위기를 풍기는군." Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="내가 키운 바이러스와 싸워서,이기면 다크 칩을 주지. 어때?" Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="물론 네가 거는 건,네 목숨이겠지만...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="내 바이러스들이랑 싸워 볼래?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.RomDisplayDarkSellerStage1Dialogue4Options" Value="붙어 보자고!,지금은 상태가 영...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="쯧.... 겁 먹었나." Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="좋아，그럼 드가자!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="이야～ 이걸 이기네!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="좋아! 이거 가져가!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.RomDisplayDarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="난 이미 너한테 졌어.,이 이상 무슨 말을 할,자격 같은 건 없어." Face="NaviBlackHeel" Mono="False" />
+</data>

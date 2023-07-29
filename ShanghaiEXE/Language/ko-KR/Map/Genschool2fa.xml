@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Genschool2faName" Value="환상중학교 2층" />
+  <Dialogue Key="Map.Genschool2faToWarehouseStage1Dialogue1FaceNone" Value="창고로 이어지는 문이지만,잠겨 있어서 들어갈 수 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue1FaceNone" Value="다목적실로 이어지는 문이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faToMultipurposeRoomStage1Dialogue2FaceNone" Value="입학한 이래로,사람들이 이 장소를 쓰는 걸,본 적이 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage1Dialogue1FaceShanghai" Value="아니 잠깐，수업 안 듣고,어디 가려는 거야!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage3Dialogue1FaceShanghai" Value="돌아가기 전에 할 일이,아직 남아 있잖아!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Genschool2faTo1FStage5Dialogue1FaceAlice" Value="상하이를 두고 갈 수는 없어!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue1FaceFemaleStudent" Value="이거 곤란하게 됐네...." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue2FaceFemaleStudent" Value="창고에 볼일이 있는데,선생님은 아직 안 오셨고." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Woman1Stage1Dialogue3FaceFemaleStudent" Value="아，교실은 이 쪽이 아니고,반대쪽 복도 쪽에 있는데?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue1FaceMaleStudent" Value="서브칩에 대해 알고 있어?" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue2FaceMaleStudent" Value="체력을 회복하거나 바이러스와,마주치지 않게 되는 등,이런저런 편리한 효과가 있는데" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue3FaceMaleStudent" Value="배틀칩과는 달리,한 번 쓰면 없어져." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue4FaceMaleStudent" Value="이번에 용돈 받으면,몇 개는 사 두려고." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter1Man1Stage1Dialogue5FaceMaleStudent" Value="그래도 서브 메모리가 없으면,많이 들고 다니지는 못 해." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3MariStage1Dialogue1FaceMari" Value="앨리스，,우린 먼저 플러그인했어!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3MariStage3Dialogue1FaceMari" Value="창고 문이라면,아까 전뇌를 도는 동안에,열어 놨을 거야!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3NekkuStage1Dialogue1FaceTsubakiNekku" Value="빨리 이 사건을 종결짓자고!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Genschool2faChapter3NekkuStage3Dialogue1FaceTsubakiNekku" Value="전뇌 세계는 우리한테 맡겨 줘!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Genschool2faBeforePCRoomStage1Dialogue1FaceNone" Value="PC 교실에 들어갈 수는 있지만,지금은 우선 교실로 향해야 한다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faBeforePCRoomStage3Dialogue1FaceNone" Value="문에는 고압 전류가,흐르고 있어서 위험하다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faAfterThePCRoomStage1Dialogue1FaceNone" Value="PC 교실에 들어갈 수는 있지만,지금은 우선 교실로 향해야 한다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faAfterThePCRoomStage3Dialogue1FaceNone" Value="문에는 고압 전류가,흐르고 있어서 위험하다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage1Dialogue1FaceNone" Value="창고 출입을 관리하는,카드 리더기이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage1Dialogue2FaceNone" Value="플러그인 단자도 있지만,허가 없이는 플러그인이,안 되도록 설정되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage3Dialogue1FaceNone" Value="창고 출입을 관리하는,카드 리더기이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faCardReaderStage3Dialogue2FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Genschool2faPostGameBystander1Dialogue1" Value="다음 달부터 교육실습생이,한 명 올 예정이야." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Genschool2faPostGameBystander1Dialogue2" Value="어떤 사람이 올까,벌써부터 기대돼." Face="FemaleAdult" Mono="False" />
+</data>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.SeirenShip3fName" Value="호화 여객선 세이렌 3층 숙박 층" />
+  <Dialogue Key="Map.SeirenShip3f101Stage1Dialogue1FaceNone" Value="101호실이다.,잠겨 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3f102Stage1Dialogue1FaceNone" Value="102호실이다.,잠겨 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fElevatorStage1Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.SeirenShip3fElevatorStage1Dialogue2Options" Value="1층　로비 에리어,2층　상업 에리어,타지 않는다" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage1Dialogue1FaceAlice" Value="꺅!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage1Dialogue2FaceWriggleHat" Value="엇，미안!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue1FaceWriggleHat" Value="괜찮아?" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue2FaceAlice" Value="에，저기，괜찮아.,딴 데 보고 있었던 것 뿐이야." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue3FaceWriggleHat" Value="아니야，내가 부주의한 것도 있고,다친 건 아니라서 다행이야." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage3Dialogue4FaceWriggleHat" Value="그러면 나중에 봐." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue1FaceShanghai" Value="정말이지 주의 좀 하라고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue2FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue3FaceShanghai" Value="왜 그래?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue4FaceAlice" Value="아，아니，아무것도?,저 남자애도,이 배의 승객인가 싶어서." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue5FaceShanghai" Value="어디 해외 부잣집,도련님이라도 되나 보지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue6FaceAlice" Value="그렇겠네.,그러고 보니 부자들 타는 배에,타 있구나，나 지금...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue7FaceShanghai" Value="야，어깨 펴고,당당하게 걸어다녀!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue8FaceShanghai" Value="빈곤한 사람처럼 행동하면,흙수저라고 놀림 받는다고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fChapter5EventsStage5Dialogue9FaceAlice" Value="빈곤한 사람 같은 행동이라니,내가 그런 걸 어떻게 알아!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SeirenShip3fMobStage1Dialogue1FaceWhiteHairFemaleRichLady" Value="잉겔레스로 향할 때,이 배에 타는 건,상류층의 상징이죠." Face="WhiteHairFemaleRichLady" Mono="False" />
+</data>

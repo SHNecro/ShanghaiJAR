@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.RikaHPName" Value="리카의 홈페이지" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue1FaceIku" Value="텐시 님께서 입원해 계신 동안에는,컴퓨터를 쓰시지 못 하는 관계로...." Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue2FaceIku" Value="리카 님의 컴퓨터에서,메인터넌스를 받게 되었사옵니다." Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPChapter4IkuStage1Dialogue3FaceTenshi" Value="아，앨리스!,인터넷 너머로도 된다면,넷배틀하자!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage1Dialogue1QuestionFaceShanghai" Value="텐시한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.RikaHPIkutororuStage1Dialogue1Options" Value="예,아니오" />
+  <Dialogue Key="Map.RikaHPIkutororuStage1Dialogue2FaceTenshi" Value="이쿠! 힘내!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage3Dialogue1FaceTenshi" Value="와～아!,내가 이긴 거네!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage5Dialogue1FaceTenshi" Value="앨리스 진짜 세다!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage6Dialogue1FaceIku" Value="텐시 님의 커스터마이즈를 받아,파워업하였사옵니다!" Face="Iku" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage6Dialogue2FaceTenshi" Value="더는 안 질 거라구!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage8Dialogue1FaceTenshi" Value="이쿠!,해냈구나!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage10Dialogue1FaceTenshi" Value="앨리스 진짜 대단하다!,나중에 커스터마이즈 좀 가르쳐 줘!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPIkutororuStage11Dialogue1FaceTenshi" Value="나중에 할 마음이 들면 하자!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue1FaceSprite" Value="아! 상하이 씨!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue2FaceSprite" Value="리카 님도 참，P 코드를,전해 주신다는 걸 완전히,잊어버리신 것 같은 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage1Dialogue3FaceSprite" Value="제가 상하이 씨에게,드리려고 맡아 놨던,P 코드를 드리는 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage3Dialogue1FaceSprite" Value="리카 님과 함께 있다 보니,말버릇이 옮은 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.RikaHPSpriteStage3Dialogue2FaceSprite" Value="그런 거에요，그런 거에요～!" Face="Sprite" Mono="False" />
+</data>

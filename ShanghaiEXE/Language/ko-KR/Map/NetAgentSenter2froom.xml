@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- エージェントセンター　会議室 -->
+  <Text Key="Map.NetAgentSenter2froomName" Value="에이전트 센터 회의실" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue1FaceNone" Value="표면에 미세한 흔적들이,무수히 남아 있는 긴 책상이다." Face="None" Mono="False" />
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue2FaceNone" Value="얼마나 많은 에이전트 대원들이,이 책상에 앉아 중요한 작전에,대해 논의해 왔을까." Face="None" Mono="False" />
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <!-- 表面に細かい傷跡が無数に入っている長机だ -->
+  <!-- 何人ものエージェント隊員がこの机で重要な作戦について議論を交わしたのであろう -->
+  <!-- ＲＯＭがこれ以上ビヨンダードへのゲートを開かないように頑張らないと -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7FaceSagumeStage1Dialogue1FaceSagume" Value="이 이상 ROM이 비욘다드로,향하는 게이트를 열지 못 하도록,노력해야 하는데." Face="Sagume" Mono="False" />
+  <!-- でも　まだ情報が全然無いのよねー････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7FaceSagumeStage1Dialogue2FaceSagume" Value="그렇지만 아직 정보가,하나도 없어...." Face="Sagume" Mono="False" />
+  <!-- では　これより先日の黒いナビによる襲撃事件の報告会を行う -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage1Dialogue1FacePoliceman" Value="그러면 최근에 일어난,검은 내비에 의한 습격 사건에,대한 보고회의를 하겠소." Face="Policeman" Mono="False" />
+  <!-- ここにいる神綺アリスさんの協力もあり　黒いナビの正体がはっきりしてきた -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage1Dialogue2FacePoliceman" Value="여기 있는 신키 앨리스 씨가,협력해 준 것도 있어서 검은,내비들의 정체를 알 수 있었소." Face="Policeman" Mono="False" />
+  <!-- えへへ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage1Dialogue3FaceAlice" Value="에헤헤...." Face="Alice" Mono="False" />
+  <!-- あの黒いナビってＲＯＭが開発した新しいネットナビなんですか？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage3Dialogue1FaceFemaleAdult" Value="그 검은 내비가,혹시 ROM이 개발한,새로운 내비인가요?" Face="FemaleAdult" Mono="False" />
+  <!-- いや　新手のウィルスの一種か････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage3Dialogue2FaceMaleElderly" Value="아니，새로운 바이러스 종인가....?" Face="MaleElderly" Mono="False" />
+  <!-- そのどちらでもない････あの黒いナビの正体は -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage5Dialogue1FacePoliceman" Value="둘 다 아니라오....,그 검은 내비들의 정체는" Face="Policeman" Mono="False" />
+  <!-- ビヨンダードからの侵略者だった -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage5Dialogue2FacePoliceman" Value="비욘다드에서 온,침략자들이었소." Face="Policeman" Mono="False" />
+  <!-- ざわ････ざわ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue1FaceNone" Value="웅성.... 웅성...." Face="None" Mono="False" />
+  <!-- 失礼　ビヨンダードとは？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue2FaceReisen" Value="실례한데，비욘다드가 뭐지?" Face="Reisen" Mono="False" />
+  <!-- ビヨンダードとは世間には公表されていない別次元の世界のことだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue3FacePoliceman" Value="비욘다드는 현재 세간에,공표되어 있지 않은,다른 차원의 세계를 뜻하오." Face="Policeman" Mono="False" />
+  <!-- 別次元の世界？パラレルワールドってこと？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue4FaceFemaleAdult" Value="다른 차원의 세계?,패러렐 월드라는 거야?" Face="FemaleAdult" Mono="False" />
+  <!-- パラレルワールド････まるで映画みたいな話だな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage7Dialogue5FaceMaleAdult" Value="패러렐 월드.... 즉 평행 세계....,마치 영화 같은 이야기로군." Face="MaleAdult" Mono="False" />
+  <!-- 確かに　初めて聞けばつくり話か　フィクションの類にも聞こえるかもしれない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue1FaceSagume" Value="하긴，처음 듯으면,무슨 지어낸 이야기나 픽션의,한 종류처럼 들릴 지도 모르지." Face="Sagume" Mono="False" />
+  <!-- けれども　ビヨンダードは確かに存在するものなのよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue2FaceSagume" Value="그렇지만 비욘다드는,확실하게 존재하는 세계야." Face="Sagume" Mono="False" />
+  <!-- 例の黒いナビは　ビヨンダードの人喰い種族だという情報が入っている -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue3FacePoliceman" Value="그 때 그 검은 내비들은,비욘다드의 식인종족이라는,정보가 있소." Face="Policeman" Mono="False" />
+  <!-- まとめると　相手は異世界のそれも怪物という恐ろしい存在ってことよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue4FaceSagume" Value="정리하자면 상대방은 이세계의，,그것도 괴물이라는 무시무시한,존재라는 거야." Face="Sagume" Mono="False" />
+  <!-- でも　このまま黙って侵略を受けるつもりなんてない････でしょ？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage9Dialogue5FaceSagume" Value="그래도 이대로 침묵한 채로,침략받고 있을 생각은 없어....,맞지?" Face="Sagume" Mono="False" />
+  <!-- 無論だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue1FacePoliceman" Value="물론이오." Face="Policeman" Mono="False" />
+  <!-- 先日の襲撃に使われていたゲートは電脳世界側から開かれたものだった -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue2FacePoliceman" Value="이전의 습격 때 쓰인,게이트는 전뇌세계 측에서,열린 것이었소." Face="Policeman" Mono="False" />
+  <!-- この世界の何者かが襲撃を手引した････ということですか？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue3FaceFemaleAdult" Value="이 세계의 누군가가,습격을 주도했다....,이런 건가요?" Face="FemaleAdult" Mono="False" />
+  <!-- 何者か　じゃないわ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue4FaceSagume" Value="누군가가 아니지." Face="Sagume" Mono="False" />
+  <!-- こんな呆れたことをする連中なんて一つしか無いじゃない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage11Dialogue5FaceSagume" Value="이런 어처구니없는 짓을,할 놈들이 해 봐야,딱 한 곳밖에 없잖아." Face="Sagume" Mono="False" />
+  <!-- ････ＲＯＭ　か -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue1FaceReisen" Value="....ROM이로군." Face="Reisen" Mono="False" />
+  <!-- 正解！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue2FaceSagume" Value="정답!" Face="Sagume" Mono="False" />
+  <!-- ＲＯＭの仕業なのだとすればその打倒を急がねば････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue3FacePoliceman" Value="ROM이 벌인 일이라고 한다면,서둘러서 이것들을,타도해야 하는데...." Face="Policeman" Mono="False" />
+  <!-- しかし　依然としてＲＯＭの拠点の位置や資金の調達先は不明････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue4FacePoliceman" Value="그렇지만 여전하게도,ROM의 거점의 위치나,자금 조달처는 불명...." Face="Policeman" Mono="False" />
+  <!-- 我々ネットエージェントは全力を上げてこれらの調査を行うべきだろう -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue5FacePoliceman" Value="우리 넷 에이전트는,전력을 다해 이것들을,조사해야 할 것이오." Face="Policeman" Mono="False" />
+  <!-- だが　ビヨンダードからの襲撃が再びあるかもしれん -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue6FaceReisen" Value="그렇지만 비욘다드에서 언제 또,습격해 올 지 모른다." Face="Reisen" Mono="False" />
+  <!-- 警戒を怠らないようにしないとってことね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage13Dialogue7FaceSagume" Value="경계를 늦추지 마라 이거지." Face="Sagume" Mono="False" />
+  <!-- では各自　警戒を強めＲＯＭの調査に臨んでくれ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage15Dialogue1FacePoliceman" Value="그러면 각 대원들은 경계를,강화하고 ROM의 조사에,임해 주도록 하시오." Face="Policeman" Mono="False" />
+  <!-- わかったことがあれば追ってまた連絡する -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage15Dialogue2FacePoliceman" Value="알게 된 게 있다면,추후에 다시 연락하겠소." Face="Policeman" Mono="False" />
+  <!-- それでは解散！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage15Dialogue3FacePoliceman" Value="그러면 해산!" Face="Policeman" Mono="False" />
+  <!-- 会議の参加　お疲れ様どうだった？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue1FaceSagume" Value="회의 참여하느라 수고했어.,어땠어?" Face="Sagume" Mono="False" />
+  <!-- どうだったというかなんだか大変なことになってきましたね････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue2FaceAlice" Value="어땠냐고 해야 할까，,뭔가 일이 너무 커졌네요...." Face="Alice" Mono="False" />
+  <!-- 気持ちはわかるわなにせ　異世界が相手だものね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue3FaceSagume" Value="기분은 이해해.,그도 그럴 게，,상대방은 이세계니까." Face="Sagume" Mono="False" />
+  <!-- 大丈夫よ　大丈夫あたしがついてるんだから！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue4FaceShanghai" Value="괜찮아，괜찮아.,내가 같이 있잖아!" Face="Shanghai" Mono="False" />
+  <!-- ふふ　頼もしいナビね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue5FaceSagume" Value="후훗，믿음직한 내비네." Face="Sagume" Mono="False" />
+  <!-- それじゃあ　何かわかったらこちらから連絡するから -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue6FaceSagume" Value="그러면 뭔가 알아낸 게 있다면,우리 측에서 연락할 테니까" Face="Sagume" Mono="False" />
+  <!-- ････っと黒いナビの討伐報酬を渡さないとね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue7FaceSagume" Value="....아，맞아. 이거 받아.,검은 내비 토벌 보수야." Face="Sagume" Mono="False" />
+  <!-- ありがとうございます -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue8FaceAlice" Value="감사합니다." Face="Alice" Mono="False" />
+  <!-- よし　会議が終わったのなら今日はもう帰りましょう -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue9FaceShanghai" Value="좋아，회의가 끝났다면,오늘은 이만 돌아가자." Face="Shanghai" Mono="False" />
+  <!-- そうねじゃあサグメさん -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue10FaceAlice" Value="그러자.,나중에 뵈요，사구메 씨." Face="Alice" Mono="False" />
+  <!-- またねー -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter7EventsStage17Dialogue11FaceSagume" Value="나중에 봐～" Face="Sagume" Mono="False" />
+  <!-- 会議で使う電子黒板だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomBlackboardStage1Dialogue1FaceNone" Value="회의에 쓰는 전자 칠판이다." Face="None" Mono="False" />
+  <!-- 学校のものに比べると解像度が高く綺麗な映像を映すことができる -->
+  <Dialogue Key="Map.NetAgentSenter2froomBlackboardStage1Dialogue2FaceNone" Value="학교에 있는 거랑 비교해서,고해상도에 깨끗한 영상을,보여줄 수 있다." Face="None" Mono="False" />
+  <!-- 無論　プラグインも可能である -->
+  <Dialogue Key="Map.NetAgentSenter2froomBlackboardStage1Dialogue3FaceNone" Value="물론 플러그인도 가능하다." Face="None" Mono="False" />
+  <!-- アリス　決戦の日までせめてママといっしょにいてあげてくれ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8Toroid2Stage1Dialogue1FaceTroid" Value="앨리스，결전의 날이 올 때까지,적어도 엄마랑 함께 있어 줘." Face="Troid" Mono="False" />
+  <!-- 心配性だからな････ママは -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8Toroid2Stage1Dialogue2FaceTroid" Value="너희 엄마는.... 걱정이 많으니까." Face="Troid" Mono="False" />
+  <!-- 神綺さん来てくれたんだね -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue1FaceDrMorichika" Value="앨리스，와 줬구나." Face="DrMorichika" Mono="False" />
+  <!-- 博士　あたしについて話すことって････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue2FaceShanghai" Value="박사님，나에 대해,이야기할 거라면 혹시...." Face="Shanghai" Mono="False" />
+  <!-- 先日の黒いナビ襲撃事件でシャンハイ　君だけが敵と対等に戦うことができた -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue3FaceDrMorichika" Value="최근에 있었던 검은 내비,습격 사건에서 상하이，너만,대등하게 싸울 수 있었지." Face="DrMorichika" Mono="False" />
+  <!-- その謎の答えはシャンハイの正体だということがわかったんだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue4FaceDrMorichika" Value="이게 왜 그런가 했는데,그 답이 상하이의 정체에,있다는 걸 알 수 있었어." Face="DrMorichika" Mono="False" />
+  <!-- シャンハイの正体････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue5FaceAlice" Value="상하이의 정체....?" Face="Alice" Mono="False" />
+  <!-- そう　それは････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue6FaceDrMorichika" Value="그래，그건...." Face="DrMorichika" Mono="False" />
+  <!-- 霖之助　そいつは俺に話させてくれないか？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage1Dialogue7FaceNone" Value="모리치카，그 부분은,내가 말하게 해 주지 않겠나?" Face="None" Mono="False" />
+  <!-- パパ！？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue1FaceAlice" Value="아빠!?" Face="Alice" Mono="False" />
+  <!-- トロイド君････帰ってきていたのか -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue2FaceDrMorichika" Value="트로이드....,그새 돌아왔네." Face="DrMorichika" Mono="False" />
+  <!-- 日本が　いや世界が危機に陥っていると聞いてな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue3FaceTroid" Value="일본，아니 전세계가,위험에 빠졌다고 들어서 말이지." Face="Troid" Mono="False" />
+  <!-- それに　自分の娘達がその危機を救うカギになるということも････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue4FaceTroid" Value="거기다 내 딸들이,그 위기를 해결할 열쇠라는,것도 말야...." Face="Troid" Mono="False" />
+  <!-- 私が････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue5FaceAlice" Value="내가....?" Face="Alice" Mono="False" />
+  <!-- アリス　お前と・・・・レベッカの二人のことだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue6FaceTroid" Value="앨리스，너랑....,레베카，둘을 말하는 거야." Face="Troid" Mono="False" />
+  <!-- レベッカ････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue7FaceAlice" Value="레베카....?" Face="Alice" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage3Dialogue8FaceShanghai" Value="........" Face="Shanghai" Mono="False" />
+  <!-- アリス　お前が気がついているか分からないが　シャンハイは普通のネットナビじゃない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue1FaceTroid" Value="앨리스，너가 눈치채고 있을 지는,모르겠지만，상하이는,평범한 넷 내비가 아냐." Face="Troid" Mono="False" />
+  <!-- 言う事聞かないし性格悪いから　うすうすそんな気はしてたけど････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue2FaceAlice" Value="남 말 안 듣고,성격도 나쁘니까 어렴풋이,그런 느낌은 들었지만...." Face="Alice" Mono="False" />
+  <!-- ････そういうことじゃないもっと本質的な部分の話だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue3FaceTroid" Value="....그런 부분이 아냐.,좀 더 본질적인 부분을,이야기하려는 거야." Face="Troid" Mono="False" />
+  <!-- 順を追って話そう････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue4FaceTroid" Value="이건 순서대로,이야기를 해야겠네...." Face="Troid" Mono="False" />
+  <!-- あれは今から２０年前････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage5Dialogue5FaceTroid" Value="이건 지금으로부터,20년 전의 이야기야...." Face="Troid" Mono="False" />
+  <!-- 僕はしばらくここでネットエージェントの手伝いをする -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage7Dialogue1FaceDrMorichika" Value="난 여기서 얼마 동안,넷 에이전트를 돕겠어." Face="DrMorichika" Mono="False" />
+  <!-- もし魔理が寂しがってたら一緒に遊んであげてくれないかな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8RinnosukeStage7Dialogue2FaceDrMorichika" Value="혹시 마리가 쓸쓸해한다면,그 애랑 같이 놀아줄 수 있어?" Face="DrMorichika" Mono="False" />
+  <!-- ････じゃあ　シャンハイは私の腹違いのお姉ちゃんだったってこと？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue1FaceAlice" Value="....그러면 상하이는,내 배다른 언니라는 거야?" Face="Alice" Mono="False" />
+  <!-- ああ　そうだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue2FaceTroid" Value="그래，맞아." Face="Troid" Mono="False" />
+  <!-- シャンハイの容量が大きいのは体細胞の一つ一つが情報として定義されているから････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue3FaceTroid" Value="상하이의 용량이 큰 것도,몸의 세포 하나 하나가 정보로써,정의되어 있어서인 거고...." Face="Troid" Mono="False" />
+  <!-- そして　ビヨンダードから来た黒いナビを倒せたのは -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue4FaceTroid" Value="그리고 비욘다드에서 온,검은 내비를 쓰러뜨린 건" Face="Troid" Mono="False" />
+  <!-- シャンハイのベースである電子生命体がビヨンダードから来た存在だったからなんだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue5FaceTroid" Value="상하이의 베이스인,전자 생명체가 비욘다드에서,온 존재라서 그래." Face="Troid" Mono="False" />
+  <!-- それが････シャンハイの正体････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue6FaceAlice" Value="그게....,상하이의 정체...." Face="Alice" Mono="False" />
+  <!-- 私は知らずにお姉ちゃんをオペレートして戦わせていたんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue7FaceAlice" Value="난 아무것도 모르고,언니를 오퍼레이트해서,싸우게 하고 있었던 거잖아...." Face="Alice" Mono="False" />
+  <!-- あたしの正体を知ればあなたは遠慮をしてしまうかもしれない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue8FaceShanghai" Value="내 정체를 알게 된다면,너가 주저할지도 모르니까." Face="Shanghai" Mono="False" />
+  <!-- だから････パパに黙っておくようにお願いしていたの -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue9FaceShanghai" Value="그래서.... 아빠한테는,이걸 알리지 않도록,부탁한 거야." Face="Shanghai" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue10FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- アリス　このことを知っても････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue11FaceShanghai" Value="앨리스，이 사실을,알았다 해도...." Face="Shanghai" Mono="False" />
+  <!-- あたしをシャンハイとしてオペレートできる････？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue12FaceShanghai" Value="날 상하이로써,오퍼레이트해 줄 수 있어....?" Face="Shanghai" Mono="False" />
+  <!-- ････今はまだ　わからないわ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue13FaceAlice" Value="....지금은 아직 모르겠어." Face="Alice" Mono="False" />
+  <!-- でも　シャンハイの正体がどうして世界を救うカギになるの？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue14FaceAlice" Value="그렇지만 상하이의 정체가,어째서 세계를 구할,열쇠가 되는 거야?" Face="Alice" Mono="False" />
+  <!-- ＲＯＭの計画を阻止には彼らの計画を立てた人物を倒す必要がある････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue15FaceTroid" Value="ROM의 계획을 저지하려면,그들의 계획을 세운 인물을,쓰러뜨려야겠지...." Face="Troid" Mono="False" />
+  <!-- そして　その人物は確実にビヨンダードから来た存在 -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue16FaceTroid" Value="그리고 그 인물은,비욘다드에서 온 존재임이,확실해." Face="Troid" Mono="False" />
+  <!-- それも大きな力を持つ者だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue17FaceTroid" Value="그것도 아주 큰 힘을 가진,존재이지." Face="Troid" Mono="False" />
+  <!-- ビヨンダードから来た存在と対等に戦えるのはシャンハイただひとり -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue18FaceTroid" Value="비욘다드에서 온 존재랑,대등하게 싸울 수 있는 건,상하이 혼자밖에 없어." Face="Troid" Mono="False" />
+  <!-- そして　そのシャンハイの潜在能力を引き出すために -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue19FaceTroid" Value="그리고 그 상하이의,잠재 능력을 끌어내려면" Face="Troid" Mono="False" />
+  <!-- アリスとシャンハイふたりのキズナが不可欠なんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue20FaceTroid" Value="앨리스랑 상하이，,너희 둘의 유대가,반드시 있어야 해...." Face="Troid" Mono="False" />
+  <!-- 私とシャンハイのキズナが････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue21FaceAlice" Value="나랑 상하이의 유대...." Face="Alice" Mono="False" />
+  <!-- ふたりのココロが極限まで一体化した　フルシンクロを超える究極の状態････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue22FaceTroid" Value="둘의 마음 상태가,극한까지 일치해지는，풀 싱크로를,초월한 궁극의 상태...." Face="Troid" Mono="False" />
+  <!-- パーフェクトシンクロが発揮できないと勝つのは不可能に近いだろう････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue23FaceTroid" Value="퍼펙트 싱크로가 발휘되지 않고서는,이기는 건 거의 불가능에 가까워...." Face="Troid" Mono="False" />
+  <!-- パーフェクト････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue24FaceAlice" Value="퍼펙트...." Face="Alice" Mono="False" />
+  <!-- シンクロ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue25FaceShanghai" Value="싱크로...." Face="Shanghai" Mono="False" />
+  <!-- どうすればその状態が発現するかは俺達にはわからない････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue26FaceTroid" Value="어떻게 해야,그 상태가 발현되는지는,아직 우리도 몰라...." Face="Troid" Mono="False" />
+  <!-- ただひとつ　お前たちふたりがお互いについて心から信用する必要があるのは確かだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue27FaceTroid" Value="다만 한 가지，너희 둘이,서로 진심으로 믿고 있어야,한다는 건 확실해." Face="Troid" Mono="False" />
+  <!-- ナビとオペレーターという関係を超えた繋がりを持っていると知るのも････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage1Dialogue28FaceTroid" Value="내비와 오퍼레이터라는,관계를 뛰어넘은 관계를,가지고 있다는 걸 아는 것도...." Face="Troid" Mono="False" />
+  <!-- ・・・・・・・・ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue1FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- 今まで　疑問に思ってたの -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue2FaceAlice" Value="지금까지 계속 의문점이었어." Face="Alice" Mono="False" />
+  <!-- シャンハイって　どうしてこんなに私のことを理解して助けてくれるんだろうって -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue3FaceAlice" Value="상하이는 어째서,이렇게까지 날 이해해 주고,도와주는지 의문이었는데" Face="Alice" Mono="False" />
+  <!-- 血の繋がった家族だから -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue4FaceAlice" Value="피로 이어진 가족이었으니까였어." Face="Alice" Mono="False" />
+  <!-- お姉ちゃんだからだったんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue5FaceAlice" Value="언니였으니까였어...." Face="Alice" Mono="False" />
+  <!-- ････････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue6FaceAlice" Value="........" Face="Alice" Mono="False" />
+  <!-- ････私　やるわ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue7FaceAlice" Value="....나，해 보겠어." Face="Alice" Mono="False" />
+  <!-- 私だって　この世界をみんなが生きている街をROMに渡したくない！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue8FaceAlice" Value="나도 이 세계를，,모두가 살고 있는 마을을,ROM한테 넘겨주고 싶지 않아!" Face="Alice" Mono="False" />
+  <!-- 私は　戦うお姉ちゃんと････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue9FaceAlice" Value="난 싸우겠어.,언니랑 함께...." Face="Alice" Mono="False" />
+  <!-- ううんシャンハイと一緒に････！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue10FaceAlice" Value="아니，상하이랑 함께....!" Face="Alice" Mono="False" />
+  <!-- フッ････アリスならそう言うと信じてたわよ！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue11FaceShanghai" Value="훗....,앨리스라면 역시,그렇게 나올 줄 알았지!" Face="Shanghai" Mono="False" />
+  <!-- ふたりとも････ありがとう -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue12FaceDrMorichika" Value="둘 다.... 고맙구나." Face="DrMorichika" Mono="False" />
+  <!-- 現在　ネットエージェントはＲＯＭのアジトに攻撃する準備を整えている -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue13FaceDrMorichika" Value="현재 넷 에이전트는,ROM의 아지트를 공격할,준비를 갖추고 있어." Face="DrMorichika" Mono="False" />
+  <!-- もうすぐ　決戦の日が来るはずだ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue14FaceDrMorichika" Value="머지 않아 결전의 날이,다가올 거야." Face="DrMorichika" Mono="False" />
+  <!-- その時まで　君たちには体力を温存してもらいたい -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue15FaceDrMorichika" Value="그 때까지 너희들은,체력을 아껴 뒀으면 해." Face="DrMorichika" Mono="False" />
+  <!-- ････わかりました！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue16FaceAlice" Value="....알겠어요!" Face="Alice" Mono="False" />
+  <!-- よし！話はこれでおしまいだ！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue17FaceTroid" Value="좋아!,이야기할 건 이걸로 끝이야!" Face="Troid" Mono="False" />
+  <!-- アリスは今日は家でゆっくり休んでくれ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue18FaceTroid" Value="앨리스는 오늘은 일단,집에서 푹 쉬렴." Face="Troid" Mono="False" />
+  <!-- 俺は････霖之助とつもる話がある -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue19FaceTroid" Value="난.... 린노스케랑,이야기할 게 있어." Face="Troid" Mono="False" />
+  <!-- わかったわ　パパ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue20FaceAlice" Value="알겠어요，아빠...." Face="Alice" Mono="False" />
+  <!-- ママが心配していたから早めに帰ってきてね････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue21FaceAlice" Value="엄마가 걱정하고 계시니까,빨리 돌아오세요...." Face="Alice" Mono="False" />
+  <!-- ああ････わかった -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage3Dialogue22FaceTroid" Value="그래.... 알았어." Face="Troid" Mono="False" />
+  <!-- ････君は悪いやつだな -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue1FaceDrMorichika" Value="....너 진짜 나빴다." Face="DrMorichika" Mono="False" />
+  <!-- どうしてパーフェクトシンクロの危険性をふたりに話さなかったんだい？ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue2FaceDrMorichika" Value="어째서 퍼펙트 싱크로의,위험성을 그 애들한테,이야기하지 않은 거야?" Face="DrMorichika" Mono="False" />
+  <!-- パーフェクトシンクロ中にシャンハイがデリートされればアリスも同時に命を失う････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue3FaceTroid" Value="퍼펙트 싱크로 중,상하이가 딜리트되면,앨리스도 동시에 목숨을 잃는다...." Face="Troid" Mono="False" />
+  <!-- 言ったところでどうなる -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue4FaceTroid" Value="그걸 말해 봤자 뭐가 되는데?" Face="Troid" Mono="False" />
+  <!-- あのふたりにそのことを知らせても怖がらせるだけだ････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue5FaceTroid" Value="그 둘한테 그걸 알려 봐야,둘한테 겁만 줄 뿐이야...." Face="Troid" Mono="False" />
+  <!-- それに　俺はふたりが負けるだなんて１％もあるとは思ってない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue6FaceTroid" Value="그리고 난 그 둘이,질 거라고는 1%도,생각하고 있지 않아." Face="Troid" Mono="False" />
+  <!-- なんたって････俺の自慢の娘達だからな！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue7FaceTroid" Value="그도 그럴 게....,내 자랑스러운 딸들이니까!" Face="Troid" Mono="False" />
+  <!-- ････君らしい答えだよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue8FaceDrMorichika" Value="....너다운 답이구나." Face="DrMorichika" Mono="False" />
+  <!-- 世界の命運を子どもたちに託さなければならないなんて････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue9FaceDrMorichika" Value="세계의 운명을,어린애들한테 맡겨야,하는 처지라니...." Face="DrMorichika" Mono="False" />
+  <!-- 僕たちは････無力な大人だな････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue10FaceDrMorichika" Value="우린 참....,무력한 어른들이구나...." Face="DrMorichika" Mono="False" />
+  <!-- 俺たちは無力じゃない -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue11FaceTroid" Value="우린 무력하지 않아." Face="Troid" Mono="False" />
+  <!-- 大人には大人にしか出来ないことがある -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue12FaceTroid" Value="어른에게는 어른들만이,할 수 있는 게 있잖아." Face="Troid" Mono="False" />
+  <!-- 子どもたちが思いっきり前へと進むことができるように････ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue13FaceTroid" Value="어린이들이 원하는 만큼,앞으로 나아갈 수 있게...." Face="Troid" Mono="False" />
+  <!-- 道を作ってやるのが俺たち大人の役目だ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue14FaceTroid" Value="길을 만들어 주는 것이,우리 어른들의 역할이잖아." Face="Troid" Mono="False" />
+  <!-- ････君の言葉にはいつも元気づけられるよ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue15FaceDrMorichika" Value="....네가 하는 말을 들으면,언제나 힘이 나네." Face="DrMorichika" Mono="False" />
+  <!-- 頑張ろう　トロイド君 -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue16FaceDrMorichika" Value="힘내자，트로이드." Face="DrMorichika" Mono="False" />
+  <!-- 僕らと　子どもたちの未来を守るために････！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue17FaceDrMorichika" Value="우리랑 어린애들의,미래를 지키기 위해서....!" Face="DrMorichika" Mono="False" />
+  <!-- ああ････！ -->
+  <Dialogue Key="Map.NetAgentSenter2froomChapter8EventsStage5Dialogue18FaceTroid" Value="그래....!" Face="Troid" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2froomLongMachineStage1Dialogue3FaceNone" Value="....낙서 중에 25644364라고,긁혀 있는 게 있는 걸로 봐서는,그다지 중요하지 않았을지도?" Face="None" Mono="False" />
+</data>

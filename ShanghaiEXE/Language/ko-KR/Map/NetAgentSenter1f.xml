@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- エージェントセンター　受付 -->
+  <Text Key="Map.NetAgentSenter1fName" Value="에이전트 센터 접수처" />
+  <!-- 鈴仙にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage1Dialogue1QuestionFaceShanghai" Value="레이센한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.NetAgentSenter1fYorihimeBattleStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 手短に片付けろ -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage1Dialogue2FaceReisen" Value="빠르게 끝내도록." Face="Reisen" Mono="False" />
+  <!-- イエス・マム -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage1Dialogue3FaceYorihime" Value="예스・맴." Face="Yorihime" Mono="False" />
+  <!-- ････あの時の勝負はマグレだったのか？ -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage3Dialogue1FaceReisen" Value="....그 때는,우연히 이긴 거냐?" Face="Reisen" Mono="False" />
+  <!-- ヨリヒメが２度も敗北するとはな････ -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage5Dialogue1FaceReisen" Value="요리히메가 2번이나,질 줄이야...." Face="Reisen" Mono="False" />
+  <!-- 民間人ごときにネットエージェントが負ける訳にはいかない -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage6Dialogue1FaceReisen" Value="민간인한테,넷 에이전트가,질 수는 없지." Face="Reisen" Mono="False" />
+  <!-- 全力でお相手します -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage6Dialogue2FaceYorihime" Value="전력을 다해 상대하겠습니다." Face="Yorihime" Mono="False" />
+  <!-- ････当然の結果だな -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage8Dialogue1FaceReisen" Value="....당연한 결과로군." Face="Reisen" Mono="False" />
+  <!-- この強さ････やはり本物か････ -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage10Dialogue1FaceReisen" Value="이 힘은.... 역시 진짜로군...." Face="Reisen" Mono="False" />
+  <!-- 怖気づいたかそれとも････？ -->
+  <Dialogue Key="Map.NetAgentSenter1fYorihimeBattleStage11Dialogue1FaceReisen" Value="겁 먹었나?,아니면....?" Face="Reisen" Mono="False" />
+  <!-- 私みたいな格好をしているのはネットエージェントの特殊部隊なんだよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4NetoeStage1Dialogue1FacePoliceman" Value="나 같은 복장을,하고 있는 사람들은,넷 에이전트의 특수부대야." Face="Policeman" Mono="False" />
+  <!-- 特殊部隊の仕事はＲＯＭやネットマフィアなどの凶悪組織の対応だ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4NetoeStage1Dialogue2FacePoliceman" Value="특수부대가 하는 일은,ROM이나 넷 마피아 같은,흉악 조직에 대응하는 거야." Face="Policeman" Mono="False" />
+  <!-- ････フフ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4FaceSagumeStage1Dialogue1FaceSagume" Value="....후후." Face="Sagume" Mono="False" />
+  <!-- ウチの〜ナビが〜変なナビに〜絡まれた〜みたいな〜？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4StudentStage1Dialogue1FaceBlondeHairGalStudent" Value="내 내비가 말야～,이상한 내비랑～엮여갔고 말야～,뭐 이런 느낌～?" Face="BlondeHairGalStudent" Mono="False" />
+  <!-- ねえ〜わかってるの〜お〜い？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4StudentStage1Dialogue2FaceBlondeHairGalStudent" Value="있지～,알겠냐고～,야～?" Face="BlondeHairGalStudent" Mono="False" />
+  <!-- はぁ････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4StudentStage1Dialogue3FaceMaleAdult" Value="어후...." Face="MaleAdult" Mono="False" />
+  <!-- えい！　えい！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue1FaceReimu" Value="에익! 이익!" Face="Reimu" Mono="False" />
+  <!-- 何してるの？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue2FaceAlice" Value="뭐 하니?" Face="Alice" Mono="False" />
+  <!-- ジュースを飲みたいんだけどボタンに手が届かないの････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue3FaceReimu" Value="주스를 마시고 싶은데,버튼에 손이 안 닿아...." Face="Reimu" Mono="False" />
+  <!-- 好きなジュースなんだけど位置が変わっちゃったの -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue4FaceReimu" Value="좋아하는 주스였는데,위치가 바뀌어 버렸어." Face="Reimu" Mono="False" />
+  <!-- 確かにちょっと高いボタンね -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue5FaceAlice" Value="하기야 꽤 높은 위치에,버튼이 있네." Face="Alice" Mono="False" />
+  <!-- えーっと　これを押して････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue6FaceAlice" Value="어디，이걸 누르면...." Face="Alice" Mono="False" />
+  <!-- ・・・・あれ？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue7FaceAlice" Value="....뭐지?" Face="Alice" Mono="False" />
+  <!-- ボタンを押しても反応がない････？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue8FaceAlice" Value="버튼을 눌렀는데,반응이 없네....?" Face="Alice" Mono="False" />
+  <!-- そんな〜････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue9FaceReimu" Value="앙대에～...." Face="Reimu" Mono="False" />
+  <!-- 売り切れってわけじゃないし故障かしら？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue10FaceShanghai" Value="매진은 아니니까，고장났나?" Face="Shanghai" Mono="False" />
+  <!-- ウィルスが悪さしてるのかもシャンハイ　お願い -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue11FaceAlice" Value="바이러스가 나쁜 짓을,하고 있는 걸 지도 모르지.,상하이，부탁할게." Face="Alice" Mono="False" />
+  <!-- へいへいそんなことだろうと思ったわよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue12FaceShanghai" Value="네에，네에.,그런 거일 거라 생각했어." Face="Shanghai" Mono="False" />
+  <!-- ・・・・わっ！やっぱりウィルスが入ってるわよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue13FaceShanghai" Value="....으악!,진짜로 바이러스가 들어 있었어!" Face="Shanghai" Mono="False" />
+  <!-- じゃあウィルスバスティングよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue14FaceAlice" Value="바이러스 버스팅 가야지!" Face="Alice" Mono="False" />
+  <!-- ったく　しょうがないわね -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue15FaceShanghai" Value="정말이지 어쩔 수 없구만." Face="Shanghai" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue16FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage1Dialogue17FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- これで出るようになったはずよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue1FaceAlice" Value="이러면 이제 문제 없이 나오겠지." Face="Alice" Mono="False" />
+  <!-- えーっと　このジュースね -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue2FaceAlice" Value="어디 보자，이 주스지?" Face="Alice" Mono="False" />
+  <!-- ガタガタ、ガコン -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue3FaceNone" Value="덜컹덜컹，텅!" Face="None" Mono="False" />
+  <!-- わーい出た〜！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue4FaceReimu" Value="와～나왔다～!" Face="Reimu" Mono="False" />
+  <!-- お姉ちゃんありがとね！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue5FaceReimu" Value="고마워，언니!" Face="Reimu" Mono="False" />
+  <!-- どういたしまして -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue6FaceAlice" Value="천만에." Face="Alice" Mono="False" />
+  <!-- そういえばあなた変わった格好してるわね巫女さん服かな？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue7FaceAlice" Value="그러고 보면 너,복장이 특이하네.,무녀 복장이니?" Face="Alice" Mono="False" />
+  <!-- 正解！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue8FaceReimu" Value="정답!" Face="Reimu" Mono="False" />
+  <!-- 駅の近くにある神社の巫女さんなのよ私は！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue9FaceReimu" Value="역 근처에 있는 신사의,무녀님이라고，난!" Face="Reimu" Mono="False" />
+  <!-- へぇー！　すごい！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue10FaceAlice" Value="이야～! 대단한데!" Face="Alice" Mono="False" />
+  <!-- じゃあ帰りにお参りしていこうかな -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue11FaceAlice" Value="그러면 돌아가는 길에,참배라도 하고 갈까." Face="Alice" Mono="False" />
+  <!-- ほんと！？やったー！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue12FaceReimu" Value="정말!?,야호～!" Face="Reimu" Mono="False" />
+  <!-- じゃあお姉ちゃん神社で待ってるね！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue13FaceReimu" Value="그러면 언니，,신사에서 기다릴게!" Face="Reimu" Mono="False" />
+  <!-- ばいば〜い -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue14FaceAlice" Value="나중에 봐～!" Face="Alice" Mono="False" />
+  <!-- あんたもお人好しねぇ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue15FaceShanghai" Value="너도 참 인성이 좋다니까." Face="Shanghai" Mono="False" />
+  <!-- あら　困っている人に親切はするものよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue16FaceAlice" Value="어머，난감해하는 사람한테,친절하게 대하는 것 뿐이야." Face="Alice" Mono="False" />
+  <!-- 甘いやつだ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage3Dialogue17FaceReisen" Value="무른 녀석이구만." Face="Reisen" Mono="False" />
+  <!-- な････！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue1FaceAlice" Value="뭐....!" Face="Alice" Mono="False" />
+  <!-- あなたは････鈴仙！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue2FaceAlice" Value="넌.... 레이센!" Face="Alice" Mono="False" />
+  <!-- あなたのような子供に気安く呼ばれる筋合いはない -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue3FaceReisen" Value="너 같은 어린애한테,그렇게 편하게 이름으로,불려야 할 이유는 없어." Face="Reisen" Mono="False" />
+  <!-- 子供って････あなただって同じくらいの歳じゃない！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue4FaceAlice" Value="어린애라니....,너도 나랑 같은 나이대잖아!" Face="Alice" Mono="False" />
+  <!-- 危険意識の低さを子供だと言っているのよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue5FaceReisen" Value="위기 의식이 낮은 걸 가지고,어린애라 말한 거야." Face="Reisen" Mono="False" />
+  <!-- さっきの子供がテロリストの刺客だったらどうする？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue6FaceReisen" Value="아까 그 애가 테러리스트의,자객이었다면 어떻게 할 거지?" Face="Reisen" Mono="False" />
+  <!-- 爆弾を仕込んだ人形を敵のもとへ運ぶ役目を子供にさせることだって････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue7FaceReisen" Value="폭탄이 들어 있는 인형을,적이 있는 곳까지 옮기는 일을,어린애한테 맡기는 일도...." Face="Reisen" Mono="False" />
+  <!-- 日本でそんなことがあるわけないでしょう！？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue8FaceAlice" Value="일본에서 그런 일이,일어날 리가 없잖아!?" Face="Alice" Mono="False" />
+  <!-- この間あたし達が邪魔したこと根に持ってるんだ？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue9FaceShanghai" Value="이전에 우리가 방해한 거,아직도 쌓아 두고 있냐?" Face="Shanghai" Mono="False" />
+  <!-- ････不愉快だな -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue10FaceReisen" Value="....유쾌하지 않군." Face="Reisen" Mono="False" />
+  <!-- 忠告はしたいつかその甘さで必ず後悔することになる -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage5Dialogue11FaceReisen" Value="난 경고했어.,언젠가 그 무른 성격 때문에,반드시 후회하는 날이 올 거다." Face="Reisen" Mono="False" />
+  <!-- べーっだ！べろべろべー！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage7Dialogue1FaceShanghai" Value="메～롱이다!" Face="Shanghai" Mono="False" />
+  <!-- アリス　あんな奴のことなんか気にする必要はないわよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage7Dialogue2FaceShanghai" Value="앨리스，저런 녀석 따위,신경 쓰지 마." Face="Shanghai" Mono="False" />
+  <!-- うん････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage7Dialogue3FaceAlice" Value="응...." Face="Alice" Mono="False" />
+  <!-- お待たせー -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage9Dialogue1FaceTenshi" Value="기다렸지～" Face="Tenshi" Mono="False" />
+  <!-- あれ　アリスどうしたの？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue1FaceTenshi" Value="어라，앨리스，왜 그래?" Face="Tenshi" Mono="False" />
+  <!-- あっ　なんでもないわよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue2FaceAlice" Value="아，아무것도 아냐." Face="Alice" Mono="False" />
+  <!-- それより天子事情聴取　大丈夫だった？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue3FaceAlice" Value="그것보다 텐시，,사정 청취는 괜찮았어?" Face="Alice" Mono="False" />
+  <!-- うん　大人の人に色々質問されただけなのよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue4FaceTenshi" Value="응，어른들이 이런저런,질문만 해 온 것 뿐이야." Face="Tenshi" Mono="False" />
+  <!-- 私の方も軽くデータチェックをされただけです -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue5FaceIku" Value="저도 가볍게 데이터 체크만,받았을 뿐이옵니다." Face="Iku" Mono="False" />
+  <!-- けれど　また何回かここへ訪れなければならないようです -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue6FaceIku" Value="그렇지만 또 몇 번 정도는,이곳을 방문해야 하는 듯,하옵니다." Face="Iku" Mono="False" />
+  <!-- 大変ね････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue7FaceAlice" Value="큰일이네...." Face="Alice" Mono="False" />
+  <!-- 次行かなきゃいけない時も付いて行こうか？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue8FaceAlice" Value="다음 번에 같이 가야 할 때에도,같이 갈까?" Face="Alice" Mono="False" />
+  <!-- えっ！　いいの！？じゃあ　お願いするのよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue9FaceTenshi" Value="어! 진짜!?,그럼 부탁할게!" Face="Tenshi" Mono="False" />
+  <!-- 用事が終わったんだったらさっさと帰りましょうよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue10FaceShanghai" Value="할 일 다 끝났으면,빨리 돌아가자구." Face="Shanghai" Mono="False" />
+  <!-- 帰るついでにさっきの子の神社に寄っていこうよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue11FaceAlice" Value="돌아가는 길에,아까 그 애의 신사에,잠깐 들렀다 가자." Face="Alice" Mono="False" />
+  <!-- さっきの子？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue12FaceTenshi" Value="아까 그 애라니?" Face="Tenshi" Mono="False" />
+  <!-- さっきここで知り合った女の子よ神社の巫女さんなんだって -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue13FaceAlice" Value="아까 여기서 알게 된 여자애야.,신사의 무녀라는데." Face="Alice" Mono="False" />
+  <!-- このへんの神社････博麗神社でしょうか？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue14FaceIku" Value="이 주변의 신사라면....,하쿠레이 신사를,말씀하시는 것이온지?" Face="Iku" Mono="False" />
+  <!-- 知ってるの？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue15FaceShanghai" Value="알고 있어?" Face="Shanghai" Mono="False" />
+  <!-- 以前テレビで紹介されてたんです -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue16FaceIku" Value="이전에 TV에서,소개된 적이 있사옵니다." Face="Iku" Mono="False" />
+  <!-- なんでも変わった狛犬があるんだとかで -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue17FaceIku" Value="아무래도 이상한 코마이누가,있다는 듯 하군요." Face="Iku" Mono="False" />
+  <!-- 面白そう！アリス　行こう行こう！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue18FaceTenshi" Value="재미있어 보이는데!,앨리스，가 보자!" Face="Tenshi" Mono="False" />
+  <!-- うん　じゃあ行こっか！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue19FaceAlice" Value="그래，그럼 갈까!" Face="Alice" Mono="False" />
+  <!-- たしか駅の近くの長い階段を登った先にあるって話でした -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue20FaceIku" Value="분명 역 근처에 있는,긴 계단을 올라가면,그 위에 있다고 했사옵니다." Face="Iku" Mono="False" />
+  <!-- 階段やだー　だるいー -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue21FaceShanghai" Value="아 계단 싫은데～ 피곤한데～" Face="Shanghai" Mono="False" />
+  <!-- 登るのは私なんだけど････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4ReimuStage11Dialogue22FaceAlice" Value="그거 너가 올라가는 게 아니라,내가 올라가는 거잖아...." Face="Alice" Mono="False" />
+  <!-- くっそ〜････スピード違反くらいで呼びつけやがって -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4Student2Stage1Dialogue1FacePunk" Value="젠장....,속도 위반 가지고,사람을 이런 데까지 부르냐고." Face="Punk" Mono="False" />
+  <!-- お前　自転車で飛ばし過ぎなんだよ････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4Student3Stage1Dialogue1FaceBrownHairMaleStudent" Value="너 자전거로 과속했잖아...." Face="BrownHairMaleStudent" Mono="False" />
+  <!-- ネット犯罪の対策について相談をしに来たんですよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4UncleStage1Dialogue1FaceMaleOld" Value="인터넷 범죄의 대책에 대해,상담하러 왔다네." Face="MaleOld" Mono="False" />
+  <!-- スプライトちゃんが迷子になったので捜索を頼むんです -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4GrandmotherStage1Dialogue1FaceFemaleElderly" Value="스프라이트가 길을 잃었는데,수색해 줬으면 하네만." Face="FemaleElderly" Mono="False" />
+  <!-- ここから先は勝手に入ってはいけないぞ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4Netoe2Stage1Dialogue1FacePoliceman" Value="여기서부터는,함부로 진입할 수 없습니다." Face="Policeman" Mono="False" />
+  <!-- 君が神綺アリスさんだね？エレベーターから上に行く許可が出ているよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4Netoe2Stage3Dialogue1FacePoliceman" Value="신키 앨리스 씨죠?,엘리베이터를 통해 위로,올라가라는 허가가 내려졌습니다." Face="Policeman" Mono="False" />
+  <!-- 博麗神社ってどんなところだろ？楽しみなのよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4Tenshi3Stage1Dialogue1FaceTenshi" Value="하쿠레이 신사란 어떤 데일까?,기대된다!" Face="Tenshi" Mono="False" />
+  <!-- 博麗神社ってどんなところだろ？楽しみなのよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4Tenshi3Stage3Dialogue1FaceTenshi" Value="하쿠레이 신사란 어떤 데일까?,기대된다!" Face="Tenshi" Mono="False" />
+  <!-- エージェントセンターにようこそなにかお困りですか？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue1FaceFemaleAdult" Value="에이전트 센터에,오신 걸 환영합니다.,무슨 일 때문에 오셨나요?" Face="FemaleAdult" Mono="False" />
+  <!-- えっと････比那名居天子といいます -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue2FaceTenshi" Value="저기....,히나나위 텐시라 합니다." Face="Tenshi" Mono="False" />
+  <!-- 出頭命令を受けてここに来たんですけど････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue3FaceTenshi" Value="출두 명령을 받아서 왔는데요...." Face="Tenshi" Mono="False" />
+  <!-- えっ？　出頭命令････？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue4FaceFemaleAdult" Value="네? 출두 명령....?" Face="FemaleAdult" Mono="False" />
+  <!-- 少々お待ちください・・・・ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue5FaceFemaleAdult" Value="잠깐만 기다려 주세요...." Face="FemaleAdult" Mono="False" />
+  <!-- ・・・・はい　確認いたしました比那名居さんですね -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue6FaceFemaleAdult" Value="....네，확인되었습니다.,히나나위 씨로군요." Face="FemaleAdult" Mono="False" />
+  <!-- 事情聴取を行いますのでエレベーターで３階に上がってそこで指示を受けてくださいね -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue7FaceFemaleAdult" Value="사정 청취를 행할 것이므로,엘리베이터를 타고 3층으로,올라가서 지시대로 따라 주세요." Face="FemaleAdult" Mono="False" />
+  <!-- わかりました -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue8FaceTenshi" Value="알겠습니다." Face="Tenshi" Mono="False" />
+  <!-- アリス　悪いけど終わるまで待っててくれないかな？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue9FaceTenshi" Value="앨리스，미안한데,나 조사 끝날 때까지,기다려 줄 수 있어?" Face="Tenshi" Mono="False" />
+  <!-- わかったわ行ってらっしゃい -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue10FaceAlice" Value="알았어. 갔다 와." Face="Alice" Mono="False" />
+  <!-- ありがとう！じゃあ　あとでね！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage1Dialogue11FaceTenshi" Value="고마워! 그럼 좀 있다 봐!" Face="Tenshi" Mono="False" />
+  <!-- ････とは言ったもののどうやって時間を潰そうかしら -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage3Dialogue1FaceAlice" Value="....말은 그렇게 했지만,뭘 하면서 시간을 때우지?" Face="Alice" Mono="False" />
+  <!-- せっかくだしセンターの中を見て回りましょうよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage3Dialogue2FaceShanghai" Value="기왕 이런 곳까지 왔잖아?,센터 안을 둘러보자!" Face="Shanghai" Mono="False" />
+  <!-- それもそうね -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage3Dialogue3FaceAlice" Value="그것도 맞는 말이네." Face="Alice" Mono="False" />
+  <!-- じゃあ行ってくるのよ！また悪いけど待っててなのよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage5Dialogue1FaceTenshi" Value="그럼 갔다 올게!,또 미안하지만 기다려 줘!" Face="Tenshi" Mono="False" />
+  <!-- わかったわ行ってらっしゃい -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage5Dialogue2FaceAlice" Value="알겠어. 갔다 와." Face="Alice" Mono="False" />
+  <!-- １時間後････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage7Dialogue1FaceNone" Value="1시간 후...." Face="None" Mono="False" />
+  <!-- おまたせなのよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue1FaceTenshi" Value="기다리게 했지!" Face="Tenshi" Mono="False" />
+  <!-- お疲れ！取り調べどうだった？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue2FaceAlice" Value="수고했어! 조사는 어땠어?" Face="Alice" Mono="False" />
+  <!-- 今日で終わりだって！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue3FaceTenshi" Value="오늘 부로 끝이래!" Face="Tenshi" Mono="False" />
+  <!-- 事件から時間も経ちましたしあらかた情報が揃ったそうです -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue4FaceIku" Value="사건이 있은 뒤로 시간이 꽤,지났기도 했고，정보도 어느 정도,모였다는 듯 하옵니다." Face="Iku" Mono="False" />
+  <!-- その情報でＲＯＭの連中を早く潰してくれないものかねえ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue5FaceShanghai" Value="그 정보 가지고 ROM 놈들 좀,빨리 해치워 줄 수 없나." Face="Shanghai" Mono="False" />
+  <!-- それができるんだったらとっくに終わってるんじゃないかしら････ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue6FaceAlice" Value="그게 가능했으면,진작에 끝나지 않았을까...." Face="Alice" Mono="False" />
+  <!-- そうだ　アリス！今日も帰りに博麗神社に寄っていこうよ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue7FaceTenshi" Value="맞다，앨리스!,오늘도 돌아가는 길에,하쿠레이 신사 들렀다 가자!" Face="Tenshi" Mono="False" />
+  <!-- 決まりー！じゃあ早く行こっ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4EventsAStage9Dialogue8FaceAlice" Value="좋아! 그럼 빨리 가자!" Face="Alice" Mono="False" />
+  <!-- ････何だ？応急処置の礼か？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4BattleReisenStage1Dialogue1FaceReisen" Value="....무슨 일이야?,응급처치에 대해,감사 표시로 왔다고?" Face="Reisen" Mono="False" />
+  <!-- 民間人の救助は仕事の一つよ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4BattleReisenStage1Dialogue2FaceReisen" Value="하는 일 중 하나가,민간인의 구조일 뿐이다." Face="Reisen" Mono="False" />
+  <!-- 日常の業務の一環だ礼には及ばん -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter4BattleReisenStage1Dialogue3FaceReisen" Value="일상적인 업무의 일환이다.,굳이 감사받을 것까지는 없어." Face="Reisen" Mono="False" />
+  <!-- インターネットで何が起こっているかわかっているのか！？ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter7Kurema1Stage1Dialogue1FaceScientist" Value="인터넷에서 무슨 일이,벌어지고 있는지 알고는 있어!?" Face="Scientist" Mono="False" />
+  <!-- このままでは仕事にならん！はやく問題を解決しろ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter7Kurema2Stage1Dialogue1FaceMaleOld" Value="이래서는 일을 할 수가 없어!,빨리 문제를 해결해!" Face="MaleOld" Mono="False" />
+  <!-- デリートされたうちのナビをどうにかしておくれ！ -->
+  <Dialogue Key="Map.NetAgentSenter1fChapter7Kurema3Stage1Dialogue1FaceFemaleMiddleAged" Value="딜리트된 내 내비,어떻게든 좀 해 줘!" Face="FemaleMiddleAged" Mono="False" />
+  <!-- 順番待ち用の椅子だ -->
+  <Dialogue Key="Map.NetAgentSenter1fChair1AStage1Dialogue1FaceNone" Value="순번 기다리는 사람들을,위한 의자다." Face="None" Mono="False" />
+  <!-- とてもフカフカしていて座り心地は抜群だ -->
+  <Dialogue Key="Map.NetAgentSenter1fChair1AStage1Dialogue2FaceNone" Value="정말 푹신푹신하고,착석감이 진짜 좋다." Face="None" Mono="False" />
+  <!-- 順番待ち用の椅子だ -->
+  <Dialogue Key="Map.NetAgentSenter1fChair2AStage1Dialogue1FaceNone" Value="순번 기다리는 사람들을,위한 의자다." Face="None" Mono="False" />
+  <!-- とてもフカフカしていて座り心地は抜群だ -->
+  <Dialogue Key="Map.NetAgentSenter1fChair2AStage1Dialogue2FaceNone" Value="정말 푹신푹신하고,착석감이 진짜 좋다." Face="None" Mono="False" />
+  <!-- 買った商品がリフトで下まで運ばれるタイプの自動販売機だ -->
+  <Dialogue Key="Map.NetAgentSenter1fWhiteVendingMachineStage1Dialogue1FaceNone" Value="구매한 제품이 리프트를 통해,아래까지 운반되는 타입의,자동판매기다." Face="None" Mono="False" />
+  <!-- お菓子などの自動販売機では普通は売っていないものが並んでいるのが特徴だ -->
+  <Dialogue Key="Map.NetAgentSenter1fWhiteVendingMachineStage1Dialogue2FaceNone" Value="평소에는 자판기에서 안 파는,과자 같은 것들이,진열되어 있는 게 특징이다." Face="None" Mono="False" />
+  <!-- ････おや？商品の出口の中で何かが光っている -->
+  <Dialogue Key="Map.NetAgentSenter1fWhiteVendingMachineStage1Dialogue3FaceNone" Value="....어라?,상품이 나오는 출구 쪽에,무언가가 빛나고 있다." Face="None" Mono="False" />
+  <!-- 買った商品がリフトで下まで運ばれるタイプの自動販売機だ -->
+  <Dialogue Key="Map.NetAgentSenter1fWhiteVendingMachineStage3Dialogue1FaceNone" Value="구매한 제품이 리프트를 통해,아래까지 운반되는 타입의,자동판매기다." Face="None" Mono="False" />
+  <!-- お菓子などの自動販売機では普通は売っていないものが並んでいるのが特徴だ -->
+  <Dialogue Key="Map.NetAgentSenter1fWhiteVendingMachineStage3Dialogue2FaceNone" Value="평소에는 자판기에서 안 파는,과자 같은 것들이,진열되어 있는 게 특징이다." Face="None" Mono="False" />
+  <!-- 見たことのないメーカーのマークが入った自動販売機だ -->
+  <Dialogue Key="Map.NetAgentSenter1fRedVendingMachine2Stage1Dialogue1FaceNone" Value="본 적 없는 메이커의 마크가,붙어 있는 자동판매기이다." Face="None" Mono="False" />
+  <!-- にがりソーダ　飲むカマボコなど他では見ない飲み物が多い -->
+  <Dialogue Key="Map.NetAgentSenter1fRedVendingMachine2Stage1Dialogue2FaceNone" Value="간수 소다，마시는 어묵 같이,다른 데에서는 볼 수 없는,음료가 많이 있다." Face="None" Mono="False" />
+  <!-- 天子を置いて帰ったらかわいそうよ待ってあげましょ -->
+  <Dialogue Key="Map.NetAgentSenter1fToTheOutsideStage1Dialogue1FaceShanghai" Value="텐시를 두고 간다니 불쌍하잖아.,좀 기다려 주자." Face="Shanghai" Mono="False" />
+  <!-- 電脳世界で困ったことがあったら遠慮せずに相談してね -->
+  <Dialogue Key="Map.NetAgentSenter1fReception1DupeStage1Dialogue1FaceFemaleAdult" Value="전뇌 세계에서 곤란한 일을,겪었다면 사양하지 말고,상담 받으러 오세요." Face="FemaleAdult" Mono="False" />
+  <!-- こちらはセキュリティ相談用の窓口となります -->
+  <Dialogue Key="Map.NetAgentSenter1fReception2DupeStage1Dialogue1FaceFemaleMiddleAged" Value="여기는 보안 상담용 창구입니다." Face="FemaleMiddleAged" Mono="False" />
+  <!-- 例の黒いナビが現れてからクレームをつけに来る人が殺到しているんだ････ -->
+  <Dialogue Key="Map.NetAgentSenter1fReception3DupeStage1Dialogue1FaceMaleAdult" Value="그 검은 내비들이 나타나고 나서,클레임을 걸어 오는 사람들이,물밀듯이 몰려오고 있어...." Face="MaleAdult" Mono="False" />
+  <!-- 上へ向かうエレベーターだが関係者以外立入禁止と表示されている -->
+  <Dialogue Key="Map.NetAgentSenter1fTo2FStage1Dialogue1FaceNone" Value="위로 올라가는 엘리베이터이지만,관계자 이외 출입 금지라고,표기되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter1fPostGameBystander1Dialogue1" Value="ROM은 무너졌지만,이외에도 범죄조직은 많이 있어." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter1fPostGameBystander1Dialogue2" Value="우리의 일이 끝날 일은,영원히 없다는 거지." Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter1fPostGameBystander2Dialogue1" Value="라디오에 바이러스가,침투해 들어와서,그걸 손 보려고 왔네." Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter1fPostGameBystander3Dialogue1" Value="ROM이 무너지고 나서,여기에 상담받으러 온 사람이,현저히 줄어들었어." Face="MaleAdult" Mono="False" />
+</data>

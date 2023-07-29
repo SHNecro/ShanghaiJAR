@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Cruiser1gName" Value="호화 여객선의 전뇌 1" />
+  <Dialogue Key="Map.Cruiser1gSpriteStage1Dialogue1FaceSprite" Value="이 앞에 있는 빨간 손잡이를 돌리면,전뇌 세계의 수위가,변화합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gSpriteStage1Dialogue2FaceSprite" Value="수영을 못 하신다면,물에 잠긴 곳에는,들어가지 않는 게 좋습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gSpriteStage1Dialogue3FaceSprite" Value="그렇지만 수위가 올라가면,물 위에 뜨는 것들이,발판이 될 지도 모르겠네요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve1Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve1Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve2Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve2Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve3Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve3Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve4Stage1Dialogue1FaceNone" Value="상하이는,수위 조절 밸브를 틀었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Cruiser1gValve4Stage3Dialogue1FaceNone" Value="콰아아아!" Face="None" Mono="False" />
+</data>

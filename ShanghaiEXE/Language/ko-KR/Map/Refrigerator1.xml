@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Refrigerator1Name" Value="냉장고의 전뇌 1" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="상하이 씨! 큰일이에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="갑자기 바이러스가,확 하고 늘어나서,네트워크가 엉망진창이 됐어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage1Dialogue3FaceSprite" Value="거기다 길이 얼어 버려서,앞으로 갈 수가 없어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite1Stage3Dialogue1FaceSprite" Value="상하이 씨!,그 사건이 있었을 때에는,정말 크게 신세 졌어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue1FaceSprite" Value="요놈! 요놈!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue2FaceSprite" Value="헉，헉.... 안 되겠어요.,제 힘으로는,꿈쩍도 하질 않아요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue3FaceSprite" Value="방열 섹션에 있는,”방열 데이터”가 있으면,녹일 수도 있을 텐데" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage1Dialogue4FaceSprite" Value="방열 섹션이라면,길을 돌아가다 보면,도착할 수 있을 거에요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage3Dialogue1FaceSprite" Value="네트워크의 얼음도 녹아서,지나갈 수 있게 됐어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite2Stage3Dialogue2FaceSprite" Value="만세～이!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue1FaceSprite" Value="상하이 님!,구해 주러 오셨군요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue2FaceSprite" Value="평소에는 춥다면서,한 번도 안 와 주셨는데" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue3FaceSprite" Value="저희들 스프라이트를 대표해서,응원할게요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage1Dialogue4FaceSprite" Value="힘 내라 힘! 힘 내라 힘!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage3Dialogue1FaceSprite" Value="상하이 님!,춥더라도 가끔씩은,찾아와 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite3Stage3Dialogue2FaceSprite" Value="저희 스프라이트 일동이,그리워하고 있으니까요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite5Stage1Dialogue1FaceSprite" Value="가재니어나 선풍기 바이러스는,아무래도 물 속성 같아요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite5Stage1Dialogue2FaceSprite" Value="물 속성한테는,전기나 독 속성을 쓰면,효과가 굉장해요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue1FaceSprite" Value="저는 방열 섹션을,관리하는 스프라이트에요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue2FaceSprite" Value="기다리고 있었습니다.,”방열 데이터”를,넘겨 드리겠습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue3FaceSprite" Value="시간이 없어서 이 정도밖에,준비할 수가 없었어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue4FaceSprite" Value="만약 더 필요하시다면 저한테 말을,걸어 주시면 다시 만들 수 있지만,시간이 좀 걸려요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue5FaceSprite" Value="그 시간 동안 녹았던 얼음이,다시 얼어 버리니까 가지고 있는,것만으로 최대한 힘써 주세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue6FaceSprite" Value="그리고 이 데이터는,플러그아웃하면,없어져버려요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue7FaceSprite" Value="그 때는 저한테 다시 말을,걸어 주시면 방열 데이터를,다시 드릴게요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue8FaceSprite" Value="그리고 이 전뇌 아이스크림도,가져가 주세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage1Dialogue9FaceSprite" Value="서브칩으로써 체력 회복하는 데,쓰실 수 있어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage3Dialogue1FaceSprite" Value="방열 데이터를 다시 만들까요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage3Dialogue2QuestionFaceSprite" Value="복사본을 만드는 동안,얼음이 다시 얼어버릴 텐데." Face="Sprite" Mono="False" />
+  <Text Key="Map.Refrigerator1Chapter1Sprite4Stage3Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage5Dialogue1FaceSprite" Value="방열 섹션은,생각보다 많이 뜨거워요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Chapter1Sprite4Stage5Dialogue2FaceSprite" Value="지금 제가,아무렇지도 않아 보이지만,사실 땀투성이에요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue1FaceShanghai" Value="뭐야 이거!?,엄청 추워!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue2FaceAlice" Value="전뇌 세계가 이상해졌네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue3FaceShanghai" Value="바닥이 왜 이렇게 울퉁불퉁해!,내 예쁜 발에 동상 걸리겠어～!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue4FaceAlice" Value="이상한 소리 하지 말고,빨리 원인을 알아내야지!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue5FaceShanghai" Value="그래야지!,아이스크림이랑 엄마가,걱정되니까!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IntroEventStage1Dialogue6FaceAlice" Value="(....나는?)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage1Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage3Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage3Dialogue2QuestionFaceNone" Value="방열 데이터를 쓰시겠습니까?,(남은 개수 #v@20#개)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice1Stage3Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.Refrigerator1Ice1Stage3Dialogue3FaceNone" Value="상하이는,방열 데이터를 썼다!,얼음은 순식간에 녹아내렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice2Stage1Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice2Stage3Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice2Stage3Dialogue2QuestionFaceNone" Value="방열 데이터를 쓰시겠습니까?,(남은 개수 #v@20#개)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice2Stage3Dialogue2Options" Value="예,아니오" />
+  <!-- シャンハイは排熱データを使った！氷は一瞬にして溶けていった！ -->
+  <Dialogue Key="Map.Refrigerator1Ice2Stage3Dialogue3FaceNone" Value="상하이는,방열 데이터를 썼다!,얼음은 순식간에 녹아내렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage1Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage3Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage3Dialogue2QuestionFaceNone" Value="방열 데이터를 쓰시겠습니까?,(남은 개수 #v@20#개)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice3Stage3Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.Refrigerator1Ice3Stage3Dialogue3FaceNone" Value="상하이는,방열 데이터를 썼다!,얼음은 순식간에 녹아내렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage1Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage3Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage3Dialogue2QuestionFaceNone" Value="방열 데이터를 쓰시겠습니까?,(남은 개수 #v@20#개)" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice4Stage3Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.Refrigerator1Ice4Stage3Dialogue3FaceNone" Value="상하이는,방열 데이터를 썼다!,얼음은 순식간에 녹아내렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage1Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage3Dialogue1FaceNone" Value="전뇌 세계의 이상 현상에 의해,발생한 단단한 얼음 데이터다.,부술 수 있을 것 같지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage3Dialogue2QuestionFaceNone" Value="방열 데이터를 쓰시겠습니까?" Face="None" Mono="False" />
+  <Text Key="Map.Refrigerator1Ice5Stage3Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.Refrigerator1Ice5Stage3Dialogue3FaceNone" Value="상하이는,방열 데이터를 썼다!,얼음은 순식간에 녹아내렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage1Dialogue1FaceShanghai" Value="....!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage1Dialogue2FaceAlice" Value="왜 그래? 상하이?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage1Dialogue3FaceShanghai" Value="뭔가가.... 오고 있어!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue1FaceAlice" Value="상하이!,대답해 줘，상하이!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue2FaceShanghai" Value="....휘우,겨우 프리즈가 풀렸어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue3FaceShanghai" Value="앨리스가 구해 줬구나. 고마워!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue4FaceAlice" Value="괜찮아，그보다도 시간이 없어!,빨리 냉장고를 정상으로,돌려야 해!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue5FaceShanghai" Value="당연하지!,나도 상당히 열 받았거든." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Refrigerator1IceEventStage3Dialogue6FaceShanghai" Value="원인 제공자를 찾아다가,작신 두들겨 패서,뭐가 됐든 딜리트시켜 버리겠어!!" Face="Shanghai" Mono="False" />
+</data>

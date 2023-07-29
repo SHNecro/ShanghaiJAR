@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <Text Key="ImportOverwritePrompt" Value="Old and new versions of config file found.&#xD;&#xA;&#xD;&#xA;Overwrite new config?" />
   <Text Key="Config" Value="Config" />
   <Text Key="ScreenSize" Value="Screen Size" />
-  <Text Key="Sizex1" Value="240x160 (GBA Size)" />
-  <Text Key="Sizex2" Value="480x320 (x2)" />
-  <Text Key="Sizex3" Value="720x480 (x3)" />
-  <Text Key="Sizex4" Value="960x640 (x4)" />
+  <Text Key="Sizex1" Value="240×160 (GBA Size)" />
+  <Text Key="Sizex2" Value="480×320 (×2)" />
+  <Text Key="Sizex3" Value="720×480 (×3)" />
+  <Text Key="Sizex4" Value="960×640 (×4)" />
   <Text Key="SizeCustom" Value="Custom" />
-  <Text Key="SizeCustomLeft" Value="(x" />
+  <Text Key="SizeCustomLeft" Value="(×" />
   <Text Key="SizeCustomRight" Value=")" />
   <Text Key="RefreshRate" Value="Refresh Rate" />
   <Text Key="DisplayRate" Value="Display:" />

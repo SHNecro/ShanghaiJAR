@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- エージェントセンター　２階　廊下 -->
+  <Text Key="Map.NetAgentSenter2fName" Value="에이전트 센터 2층 복도" />
+  <!-- エージェント隊員が休憩するための長椅子だ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair1AStage1Dialogue1FaceNone" Value="에이전트 대원들이,휴식할 때 쓰는 긴 의자다." Face="None" Mono="False" />
+  <!-- 受付にある来客用の椅子と比べると座り心地が少し悪い -->
+  <Dialogue Key="Map.NetAgentSenter2fChair1AStage1Dialogue2FaceNone" Value="접수처에 있는 고객용,의자와 비교해 보면,착석감이 조금 나쁘다." Face="None" Mono="False" />
+  <!-- あえて心地を悪くすることで長時間の休憩を抑止しているのだろうか？ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair1AStage1Dialogue3FaceNone" Value="굳이 착석감을 나쁘게 해서,장시간 휴식을 방지하려는 걸까?" Face="None" Mono="False" />
+  <!-- エージェント隊員が休憩するための長椅子だ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue1FaceNone" Value="에이전트 대원들이,휴식할 때 쓰는 긴 의자다." Face="None" Mono="False" />
+  <!-- 受付にある来客用の椅子と比べると座り心地が少し悪い -->
+  <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue2FaceNone" Value="접수처에 있는 고객용,의자와 비교해 보면,착석감이 조금 나쁘다." Face="None" Mono="False" />
+  <!-- あえて心地を悪くすることで長時間の休憩を抑止しているのだろうか？ -->
+  <Dialogue Key="Map.NetAgentSenter2fChair2AStage1Dialogue3FaceNone" Value="굳이 착석감을 나쁘게 해서,장시간 휴식을 방지하려는 걸까?" Face="None" Mono="False" />
+  <!-- 買った商品がリフトで下まで運ばれるタイプの自動販売機だ -->
+  <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue1FaceNone" Value="구매한 상품이 리프트를 통해,아래쪽으로 운송되는 타입의,자동판매기다." Face="None" Mono="False" />
+  <!-- ラインナップはパンが多くこれを昼食にする隊員が多いのだと予想できる -->
+  <Dialogue Key="Map.NetAgentSenter2fWhiteVendingMachineStage1Dialogue2FaceNone" Value="라인업에는 빵이 많은데,이걸 점심으로 먹는 대원들이,많다고 예상할 수 있다." Face="None" Mono="False" />
+  <!-- ちょっと！せっかく廊下のど真ん中に立ってるのに無視！？ -->
+  <Dialogue Key="Map.NetAgentSenter2fToTheMeetingRoomInFrontStage1Dialogue1FaceSagume" Value="야，잠깐만!,기껏 복도 정중앙에,서 있는데 무시하기야!?" Face="Sagume" Mono="False" />
+  <!-- ちょっと！せっかく廊下のど真ん中に立ってるのに無視！？ -->
+  <Dialogue Key="Map.NetAgentSenter2fToConferenceRoomStage1Dialogue1FaceSagume" Value="야，잠깐만!,기껏 복도 정중앙에,서 있는데 무시하기야!?" Face="Sagume" Mono="False" />
+  <!-- 君が八意隊員が言っていたアリスさんか -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOStage1Dialogue1FacePoliceman" Value="야고코로 대원이 이야기한,앨리스라는 애가 너구나." Face="Policeman" Mono="False" />
+  <!-- いつも協力　感謝してるよ -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOStage1Dialogue2FacePoliceman" Value="항상 협력해 줘서 감사하고 있어." Face="Policeman" Mono="False" />
+  <!-- こう見えて　私も実はネットエージェントなの -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOENGLISH2Stage1Dialogue1FaceFemaleAdult" Value="이런 모습을 하고 있지만,사실 난 넷 에이전트야." Face="FemaleAdult" Mono="False" />
+  <!-- 犯人に姿でバレたら尾行とかできないからね -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7NETOENGLISH2Stage1Dialogue2FaceFemaleAdult" Value="외관 때문에 범인에게 들키면,미행할 수가 없어지니까." Face="FemaleAdult" Mono="False" />
+  <!-- 来てくれたのねじゃあ早速　会議を始めるわよ -->
+  <Dialogue Key="Map.NetAgentSenter2fChapter7FaceSagumeStage1Dialogue1FaceSagume" Value="와 줬구나.,그러면 바로 회의를 시작하자." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2fPostGameBystander1Dialogue1" Value="딱히 이렇다할 임무가 없어서,청소를 하고 있어." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.NetAgentSenter2fPostGameBystander2Dialogue1" Value="이렇게 평화로운 나날은,자주 오지 않으니까." Face="FemaleAdult" Mono="False" />
+</data>

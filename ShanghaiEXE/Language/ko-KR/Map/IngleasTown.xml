@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インゲレス　市街 -->
+  <Text Key="Map.IngleasTownName" Value="잉겔레스 시가지" />
+  <!-- 扉の鍵は開いているが中が暗いので入る気は起きない -->
+  <Dialogue Key="Map.IngleasTownToAbandonedBuildingStage1Dialogue1FaceNone" Value="문 자체는 잠겨 있지 않지만,안이 어두워서,들어가고 싶지가 않다." Face="None" Mono="False" />
+  <!-- そこの銅像はあの有名なナドゥ･ヤマザの像なんですよ -->
+  <Dialogue Key="Map.IngleasTownChapter6-1ManStage1Dialogue1FaceWhiteHairMaleButler" Value="여기 있는 이 동상은 그 유명한,나두･야마자의 상입니다." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 私はナドゥ･ヤマザの大ファンでしてね君は読んだことありますか？ -->
+  <Dialogue Key="Map.IngleasTownChapter6-1ManStage1Dialogue2FaceWhiteHairMaleButler" Value="저는 나두･야마자의 열렬한,팬 중 한 명이라서 말이죠.,학생은 읽어본 적 있나요?" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 世界的に有名な探偵小説の主人公「ナドゥ･ヤマザ」の銅像だ -->
+  <Dialogue Key="Map.IngleasTownBronzeStatueStage1Dialogue1FaceNone" Value="세계적으로 유명한,탐정 소설의 주인공,”나두･야마자”의 동상이다." Face="None" Mono="False" />
+  <!-- 男に間違われるほどの凛々しい女性探偵であり狩猟帽とパイプがトレードマーク -->
+  <Dialogue Key="Map.IngleasTownBronzeStatueStage1Dialogue2FaceNone" Value="남성으로 오해받을 정도로,늠름한 여성 탐정이며 사냥 모자와,파이프가 트레이드마크이다." Face="None" Mono="False" />
+  <!-- 相棒の日本人「コマチ」と共にインゲレスに起こる様々な難事件を解決するのが大筋だ -->
+  <Dialogue Key="Map.IngleasTownBronzeStatueStage1Dialogue3FaceNone" Value="동료 일본인 ”코마치”와 함께,잉겔레스에서 벌어지는 다양한,사건들을 해결하는 게 주 내용이다." Face="None" Mono="False" />
+  <!-- この物語はドラマや映画にもなっており世界で愛されている -->
+  <Dialogue Key="Map.IngleasTownBronzeStatueStage1Dialogue4FaceNone" Value="이 이야기는 드라마나,영화로도 만들어져 있으며,세계적으로 사랑받고 있다." Face="None" Mono="False" />
+  <!-- よく見ると　台座にプラグイン端子がついている -->
+  <Dialogue Key="Map.IngleasTownBronzeStatueStage1Dialogue5FaceNone" Value="잘 보니까 받침대에,플러그인 단자가 붙어 있다." Face="None" Mono="False" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.IngleasTownASub-chipMerchantStage1Dialogue1FaceScientist" Value="전 서브칩 상인입니다." Face="Scientist" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.IngleasTownASub-chipMerchantStage1Dialogue2QuestionFaceScientist" Value="서브칩을 구매하시겠어요?" Face="Scientist" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.IngleasTownASub-chipMerchantStage1Dialogue2Options" Value="예,아니오" />
+  <!-- このホテルの窓ってたくさんあるように見えるだろう？ -->
+  <Dialogue Key="Map.IngleasTownChapter7GentlemanStage1Dialogue1FaceWhiteHairMaleButler" Value="이 호텔에 창문이,많이 있는 것처럼 보이지?" Face="WhiteHairMaleButler" Mono="False" />
+  <!-- 実はその大半は窓のようなかざりで内側と繋がってないのさ -->
+  <Dialogue Key="Map.IngleasTownChapter7GentlemanStage1Dialogue2FaceWhiteHairMaleButler" Value="사실 저 창문들 중 태반은,창문을 가장한 장식이라,내부랑 이어져 있지 않아." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- なぜそんな妙なことをしたのかというのは「窓税」が原因だ -->
+  <Dialogue Key="Map.IngleasTownChapter7GentlemanStage1Dialogue3FaceWhiteHairMaleButler" Value="왜 이런 묘한 행동을,했냐고 물어보면,그건 ”창문세”가 원인이야." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- どんな国にも政治が歪んだ時代というのはあるものなんだよ -->
+  <Dialogue Key="Map.IngleasTownChapter7GentlemanStage1Dialogue4FaceWhiteHairMaleButler" Value="어떤 나라라도,정치가 왜곡된 시대라는 게,있는 법이지." Face="WhiteHairMaleButler" Mono="False" />
+  <!-- その時　ナドゥ･ヤマザは人影を指して叫んだ -->
+  <Dialogue Key="Map.IngleasTownChapter7WomanStage1Dialogue1FaceGreenHairFemalePinkEyes" Value="그 때 나두･야마자는,사람의 그림자를,가리키며 외쳤다." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- 「あの斑点模様の集団こそ　彼らが恐れていた　まだらの一団なのだ！」と -->
+  <Dialogue Key="Map.IngleasTownChapter7WomanStage1Dialogue2FaceGreenHairFemalePinkEyes" Value="”저 반점 모양의 집단이야말로,그들이 두려워한 얼룩의,일원들이다!”라고." Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- ････これくらいの暗唱はヤマジアンの常識ですのよ？ -->
+  <Dialogue Key="Map.IngleasTownChapter7WomanStage1Dialogue3FaceGreenHairFemalePinkEyes" Value="....이 정도 외우는 거야,야마지안의 상식이랍니다?" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- あそこのケーキ屋さん実はショーケースにプラグインできるんだよ -->
+  <Dialogue Key="Map.IngleasTownChapter7GirlStage1Dialogue1FaceOrangeHairFemaleChild" Value="저기 있는 케이크 집 있지，,사실 쇼케이스에,플러그인할 수 있어." Face="OrangeHairFemaleChild" Mono="False" />
+  <!-- 私なんかプラグインボタンを連打しながら歩くのが癖になっちゃってるんだ -->
+  <Dialogue Key="Map.IngleasTownChapter7GirlStage1Dialogue2FaceOrangeHairFemaleChild" Value="뭔가 플러그인 버튼을,연타하면서 가는 게,버릇이 되었는데." Face="OrangeHairFemaleChild" Mono="False" />
+  <!-- さて････とうーん　どこへ行こうかな？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage1Dialogue1FaceAlice" Value="자，그럼....,으～음，어디 가지?" Face="Alice" Mono="False" />
+  <!-- ････あら？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage1Dialogue2FaceShanghai" Value="....어라?" Face="Shanghai" Mono="False" />
+  <!-- アリス　あれって････ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage1Dialogue3FaceShanghai" Value="앨리스，저기 저거...." Face="Shanghai" Mono="False" />
+  <!-- あれって････あっ！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage1Dialogue4FaceAlice" Value="저건.... 앗!" Face="Alice" Mono="False" />
+  <!-- おうおう！ぶつかっておいてその態度は何だ！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage3Dialogue1FaceBlackHairMaleBlackRapper" Value="야 인마!,부딪쳐 놓고,태도가 왜 그따구야!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- 謝ったじゃないか悪かったって！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage3Dialogue2FaceWriggleHat" Value="사과했잖아!,미안하다고!" Face="WriggleHat" Mono="False" />
+  <!-- そうじゃねえんだ誠意はカネで払ってもらわねえとなぁ！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage3Dialogue3FaceBlackHairMaleBlackRapper" Value="그게 아니지.,성의는 돈으로 받아야지!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- リグル君！どうしよう････ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage5Dialogue1FaceAlice" Value="리글! 어떻게 하지...." Face="Alice" Mono="False" />
+  <!-- しょうがないわね -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage5Dialogue2FaceShanghai" Value="어쩔 수 없군." Face="Shanghai" Mono="False" />
+  <!-- ゴー！リチャード！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage5Dialogue3FaceShanghai" Value="리처드!,Go～!" Face="Shanghai" Mono="False" />
+  <!-- ヘイ　アネサン！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage5Dialogue4FaceOrangeHairMaleWesterner" Value="Roger，누님!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- リチャード？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage5Dialogue5FaceAlice" Value="리처드?" Face="Alice" Mono="False" />
+  <!-- オウ　ニイチャン！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue1FaceOrangeHairMaleWesterner" Value="헤이，형씨!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- な　なんだお前は！？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue2FaceBlackHairMaleBlackRapper" Value="뭐，뭐야，넌!?" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- ニイチャン　イイカラダシテンナー　ヘヘヘ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue3FaceOrangeHairMaleWesterner" Value="형씨，완전 몸짱이구만～,헤헤헤." Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- な　なんだよ気持ち悪いな -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue4FaceBlackHairMaleBlackRapper" Value="뭐，뭐야，,기분 나쁘게시리." Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- ヒマナラ　オレトアソボウゼ　ニイチャン -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue5FaceOrangeHairMaleWesterner" Value="할 거 없다면,나랑 한바탕,놀아 보자고，형씨." Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- お　俺はそんな趣味ねえぞ！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue6FaceBlackHairMaleBlackRapper" Value="아，아니，난 그런 취미 없거든!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- イイキブンニ　サセテヤルゼ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue7FaceOrangeHairMaleWesterner" Value="천국이 뭔지 보여줄게～" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- ひ　ひえっ！？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue8FaceBlackHairMaleBlackRapper" Value="히，히에엑!?" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- 勘弁してくれーーー！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue9FaceBlackHairMaleBlackRapper" Value="이건 미친 짓이야!,난 여기서 나가겠어!" Face="BlackHairMaleBlackRapper" Mono="False" />
+  <!-- オイマテヨニゲラレルト　オモウナヨ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue10FaceOrangeHairMaleWesterner" Value="어딜 도망가～!,올 땐 마음대로였겠지만,갈 때는 아니라고～!" Face="OrangeHairMaleWesterner" Mono="False" />
+  <!-- な　何が起こったんだ････ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage7Dialogue11FaceWriggleHat" Value="무，무슨 일이 일어난 거지...." Face="WriggleHat" Mono="False" />
+  <!-- あの人　もしかして････ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage9Dialogue1FaceAlice" Value="저 사람 혹시...." Face="Alice" Mono="False" />
+  <!-- し・も・べ♪ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage9Dialogue2FaceShanghai" Value="내・부・하♪" Face="Shanghai" Mono="False" />
+  <!-- あんた　大丈夫だった？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue1FaceShanghai" Value="너 괜찮아?" Face="Shanghai" Mono="False" />
+  <!-- アリス！君が助けてくれたのかい？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue2FaceWriggleHat" Value="앨리스!,네가 구해 준 거야?" Face="WriggleHat" Mono="False" />
+  <!-- えっ！？　あ、うん！リグル君が困っているように見え････ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue3FaceAlice" Value="어!? 으，응!,리글이 곤란한 상황에 처한,것처럼 보여...." Face="Alice" Mono="False" />
+  <!-- 事情は知らないけど助かったよ　ありがとう -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue4FaceWriggleHat" Value="무슨 일이 있었는지는 모르지만,덕분에 살았어. 고마워." Face="WriggleHat" Mono="False" />
+  <!-- えへへ　どういたしまして -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue5FaceAlice" Value="에헤헤，천만에." Face="Alice" Mono="False" />
+  <!-- そうだ！リグル君って今時間ある？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue6FaceAlice" Value="맞다!,리글 지금 시간 돼?" Face="Alice" Mono="False" />
+  <!-- 時間は････そうだね１人であてもなく外で散歩してただけだから -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue7FaceWriggleHat" Value="시간이라.... 되긴 해.,혼자 정처 없이 밖을,걸어다니고 있었던 것 뿐이니까." Face="WriggleHat" Mono="False" />
+  <!-- そ　それじゃあさ！私と一緒に観光しない？ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue8FaceAlice" Value="그，그러면 있지?,나랑 같이 관광하러,가지 않을래?" Face="Alice" Mono="False" />
+  <!-- 観光か････いいね僕も一緒でいいのなら -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue9FaceWriggleHat" Value="관광 보러 가자라.... 좋네.,나라도 괜찮다면." Face="WriggleHat" Mono="False" />
+  <!-- やったあ！じゃあ早速行きましょう！ -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue10FaceAlice" Value="얏호～!,그럼 빨리 가자!" Face="Alice" Mono="False" />
+  <!-- （アリスったら　この子の前だと　やたらテンションが　高いわねえ） -->
+  <Dialogue Key="Map.IngleasTownChapter6WriggleEncounterEventStage11Dialogue11FaceShanghai" Value="(앨리스는 얘 앞에만 가면, 엄청 텐션이 올라가는데?)" Face="Shanghai" Mono="False" />
+  <!-- 僕は後からついていくから案内してくれないかい？ -->
+  <Dialogue Key="Map.IngleasTownChapter6Wriggle2Stage1Dialogue1FaceWriggleHat" Value="난 뒤에서 따라갈게.,네가 안내해 줄래?" Face="WriggleHat" Mono="False" />
+  <!-- ここがインターネットで聞いたケーキ屋さんみたいね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue1FaceAlice" Value="여기가 인터넷에서 들은,케이크집 같은데." Face="Alice" Mono="False" />
+  <!-- あっ！　ここが噂のあのケーキが買えるところなのか！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue2FaceWriggleHat" Value="아! 여기가,그 소문으로만 들었던,그 케이크를 파는 데구나!" Face="WriggleHat" Mono="False" />
+  <!-- あら　詳しいのね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue3FaceShanghai" Value="어머，잘 알고 있네." Face="Shanghai" Mono="False" />
+  <!-- 上質なインゲレスティーもセットで買える店でもあるらしいわよ？ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue4FaceShanghai" Value="고급 잉겔레스 차도,세트 단위로 파는,가게이기도 한 것 같은데?" Face="Shanghai" Mono="False" />
+  <!-- インゲレスティー････さぞかしおいしい紅茶なんだね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue5FaceWriggleHat" Value="잉겔레스 차라....,정말 맛있는 홍차잖아." Face="WriggleHat" Mono="False" />
+  <!-- ケーキもまた絶品でしかもネットナビもケーキを堪能できるらしいわよ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue6FaceShanghai" Value="케이크도 엄청 잘 만들고,심지어 넷 내비들도 케이크를,즐길 수 있다나 봐." Face="Shanghai" Mono="False" />
+  <!-- それはいいね僕のビートルマンも一緒にいいかい？ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue7FaceWriggleHat" Value="그거 좋은데.,내 비틀맨도,함께 즐기지 않을래?" Face="WriggleHat" Mono="False" />
+  <!-- あたしのポケットマネーでおごってあげるわよ！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue8FaceShanghai" Value="내 용돈으로 사 줄게!" Face="Shanghai" Mono="False" />
+  <!-- ほほう　それはありがたい！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue9FaceBeetleMan" Value="호호오，고맙구려!" Face="BeetleMan" Mono="False" />
+  <!-- 悪いねじゃあ　甘えさせてもらうよ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage1Dialogue10FaceWriggleHat" Value="신세 지게 되었네.,그러면 감사히 받을게." Face="WriggleHat" Mono="False" />
+  <!-- あーおいしかった！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage3Dialogue1FaceShanghai" Value="야～맛있었다!" Face="Shanghai" Mono="False" />
+  <!-- このようなものが食べられるとは光栄の極み -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage3Dialogue2FaceBeetleMan" Value="이런 걸 먹을 수 있을 줄이야,극한의 영광이로고." Face="BeetleMan" Mono="False" />
+  <!-- 噂どおりのおいしさだったよごちそうさま -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage3Dialogue3FaceWriggleHat" Value="소문대로야. 엄청 맛있었어.,잘 먹었어." Face="WriggleHat" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace1Stage3Dialogue4FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- ええっと　確かこの橋は････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue1FaceAlice" Value="어디 보자，분명 이 다리는...." Face="Alice" Mono="False" />
+  <!-- この橋も観光名所でなんでも有名な童話の題材になってるんだって -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue2FaceShanghai" Value="이 다리도 관광명소인데,아무래도 그 유명한 동화의,소재로 쓰였다나 봐." Face="Shanghai" Mono="False" />
+  <!-- 童話の話は初耳だな僕の国に伝わってないだけかもしれないけど -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue3FaceWriggleHat" Value="동화 이야기는 처음 들어 보는데.,어쩌면 우리 나라에 전해지지,않은 걸지도 모르지만." Face="WriggleHat" Mono="False" />
+  <!-- そういえばあんたどこの出身？ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue4FaceShanghai" Value="그러고 보면 넌,어느 나라 출신이야?" Face="Shanghai" Mono="False" />
+  <!-- ････僕の出身はインセクタ王国だよ知ってるかい？ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue5FaceWriggleHat" Value="....난 인섹터 왕국 출신이야.,들어본 적 있어?" Face="WriggleHat" Mono="False" />
+  <!-- インセクタ王国････たしか虫の生態を研究して得た技術で発展した国よね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue6FaceShanghai" Value="인섹터 왕국이라.... 곤충의,생태를 연구해서 얻은 기술로,발전한 나라였던 것 같은데." Face="Shanghai" Mono="False" />
+  <!-- うん　その通りさよく知ってるね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue7FaceWriggleHat" Value="응，그 말대로야.,잘 알고 있구나." Face="WriggleHat" Mono="False" />
+  <!-- まあね　ちょうど今インセクタの王族がインゲレスに来てるらしいし -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue8FaceShanghai" Value="뭐 어느 정도는 말이지.,마침 인섹터 왕족이 지금,잉겔레스에 와 있다고도 하니까." Face="Shanghai" Mono="False" />
+  <!-- 王族か････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue9FaceWriggleHat" Value="왕족이라...." Face="WriggleHat" Mono="False" />
+  <!-- それは知らなかったな機会があったら謁見してみたいものだね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue10FaceWriggleHat" Value="그건 몰랐는데.,기회가 된다면,알현해 보고 싶네." Face="WriggleHat" Mono="False" />
+  <!-- 一般人のあたしたちには多分無縁なことよさあ　次行きましょう！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue11FaceShanghai" Value="일반인인 우리들하고는,아마 관계 없는 일이겠지.,자，다음 지역으로 가자!" Face="Shanghai" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue12FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- アリス　どうしたの？ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue13FaceShanghai" Value="앨리스，왜 그래?" Face="Shanghai" Mono="False" />
+  <!-- う　ううんなんでもない････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue14FaceAlice" Value="아，아니，아무것도 아냐...." Face="Alice" Mono="False" />
+  <!-- ････？ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace2Stage1Dialogue15FaceShanghai" Value="....?" Face="Shanghai" Mono="False" />
+  <!-- えっと　この銅像は････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue1FaceAlice" Value="어디 보자，이 동상은...." Face="Alice" Mono="False" />
+  <!-- もしかして　この銅像ってナドゥ･ヤマザの像じゃないか！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue2FaceWriggleHat" Value="잠깐만，이 동상은,나두･야마자의 동상이잖아!" Face="WriggleHat" Mono="False" />
+  <!-- あら！よく知ってるじゃない！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue3FaceShanghai" Value="어머!,잘 알고 있네!" Face="Shanghai" Mono="False" />
+  <!-- この辺りはあの推理小説「名探偵ナドゥ･ヤマザ」の舞台なんだよね！！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue4FaceWriggleHat" Value="이 주변은 그 추리 소설,”명탐정 나두･야마자”의,무대니까!!" Face="WriggleHat" Mono="False" />
+  <!-- こう見えても僕はナドゥの大ファンでね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue5FaceWriggleHat" Value="나 이래 봬도,나두의 광팬이거든." Face="WriggleHat" Mono="False" />
+  <!-- ナドゥがシィロ･クーロ教授との決戦で生死不明になったシーンは泣いちゃったなあ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue6FaceWriggleHat" Value="나두가 흑백 교수와의 결전에서,생사불명이 된 장면에서,나 울었잖아." Face="WriggleHat" Mono="False" />
+  <!-- でも　続きの話でナドゥが奇跡的に生還した話を読んだ時は飛び上がったよ！ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue7FaceWriggleHat" Value="그렇지만 그 뒷이야기에서 나두가,기적적으로 생환했다는 이야기를,읽었을 땐 엄청 기쁘기도 했고." Face="WriggleHat" Mono="False" />
+  <!-- ････っとと　ゴメンね一人で熱くなっちゃったよ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue8FaceWriggleHat" Value="....어이쿠，미안.,혼자 열심이었네." Face="WriggleHat" Mono="False" />
+  <!-- どおりで　あんたの帽子ナドゥの挿絵のものにそっくりなわけね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue9FaceShanghai" Value="아，그래서 네 모자가,나두의 삽화에서 나온,그 모자랑 닮은 거구나." Face="Shanghai" Mono="False" />
+  <!-- クールに見えて意外とミーハーなのね -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue10FaceShanghai" Value="쿨해 보이면서,의외로 서민적이니까." Face="Shanghai" Mono="False" />
+  <!-- あは　あははは････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue11FaceWriggleHat" Value="아하，아하하하...." Face="WriggleHat" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.IngleasTownDatingPlace3Stage1Dialogue12FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- アリス　シャンハイ君たちと観光ができてほんとうに楽しかったよ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue1FaceWriggleHat" Value="앨리스，상하이.,너희들이랑 관광 갈 수,있어서 정말 즐거웠어." Face="WriggleHat" Mono="False" />
+  <!-- う　うん････私も楽しかったわ････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue2FaceAlice" Value="그，그래....,나도 즐거웠어...." Face="Alice" Mono="False" />
+  <!-- アリス　どうしたんだい？ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue3FaceWriggleHat" Value="앨리스，왜 그래?" Face="WriggleHat" Mono="False" />
+  <!-- 大丈夫よちょっと疲れただけだから････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue4FaceAlice" Value="괜찮아.,좀 지친 것 뿐이니까...." Face="Alice" Mono="False" />
+  <!-- そうだといいけど････ゆっくりと休んでね -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue5FaceWriggleHat" Value="그러면 괜찮겠지만....,느긋하게 쉬어." Face="WriggleHat" Mono="False" />
+  <!-- 今日はありがとう　アリス案内のお礼にこのペンダントをあげるよ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue6FaceWriggleHat" Value="오늘은 고마웠어，앨리스.,안내해 준 답례로,이 펜던트를 줄게." Face="WriggleHat" Mono="False" />
+  <!-- えっ　いいの！？こんなに高そうなもの････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue7FaceAlice" Value="어，정말 줘도 되는 거야!?,이거 비싸 보이는데...." Face="Alice" Mono="False" />
+  <!-- 構わないよ僕の家にいっぱいあるもののひとつだからね -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue8FaceWriggleHat" Value="상관 없어.,우리 집에 잔뜩 있는,것 중 하나일 뿐이니까." Face="WriggleHat" Mono="False" />
+  <!-- それは僕の家族がお守りとして身に着けるものなんだ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue9FaceWriggleHat" Value="그건 우리 가족들이,부적처럼 몸에 달고 다니는 거야." Face="WriggleHat" Mono="False" />
+  <!-- お守り････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue10FaceAlice" Value="부적이라...." Face="Alice" Mono="False" />
+  <!-- それじゃあ　僕はこのへんで -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue11FaceWriggleHat" Value="그러면 난 이쯤 하고 갈게." Face="WriggleHat" Mono="False" />
+  <!-- まったね〜 -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage1Dialogue12FaceShanghai" Value="나중에 봐～" Face="Shanghai" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue1FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- どうしたのよ　アリス？さっきから元気が無いけど -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue2FaceShanghai" Value="진짜 왜 그래，앨리스?,아까 전부터 기운 없어 보이는데." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ！！！！どうして私にリグル君と話をさせてくれなかったの！？ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue3FaceAlice" Value="상하이!!!!,왜 매번 리글이랑 이야기하지,못 하게 하는 거야!?" Face="Alice" Mono="False" />
+  <!-- え？ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue4FaceShanghai" Value="어?" Face="Shanghai" Mono="False" />
+  <!-- シャンハイばっかり喋って！私だってリグル君に観光案内してあげたかったのに！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue5FaceAlice" Value="상하이 너만 맨날 말하고!,나도 리글한테 관광 명소,안내하고 싶었단 말야!" Face="Alice" Mono="False" />
+  <!-- そうだったらそう言って････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue6FaceShanghai" Value="그런 거였으면 그렇다고 말을...." Face="Shanghai" Mono="False" />
+  <!-- シャンハイはいつもそう！！私の気持ちなんか知らないで勝手なことばっかり！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue7FaceAlice" Value="상하이 넌 맨날 그래!!,내 기분 따위 나몰라라 하고,매번 제멋대로 하기나 하고!!" Face="Alice" Mono="False" />
+  <!-- いつも振り回される私の身にもなってよ！！もういい加減にして！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue8FaceAlice" Value="맨날 휘둘리는 사람,입장도 생각해 달라고!!,진짜 적당히라는 말을 몰라!!" Face="Alice" Mono="False" />
+  <!-- カチン！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue9FaceShanghai" Value="빠직!" Face="Shanghai" Mono="False" />
+  <!-- 言わせておけば････！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue10FaceShanghai" Value="듣자 듣자 하니까....!" Face="Shanghai" Mono="False" />
+  <!-- 嫌だったら嫌だってハッキリ言えばいいじゃない！何でその時に言わないのよ！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue11FaceShanghai" Value="싫었으면 싫다고 제대로,이야기했으면 됐잖아! 왜 그 때,말 안 하고 지금 와서 이러는데!!" Face="Shanghai" Mono="False" />
+  <!-- グチグチグチグチと終わった後に文句言われてどーしろって言うのよ！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue12FaceShanghai" Value="어물쩡어물쩡 끝나 놓고,나중에 그런 소리 하면,나더러 뭐 어쩌라고!!" Face="Shanghai" Mono="False" />
+  <!-- うるさいうるさい！！もうシャンハイなんて大っ嫌い！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage3Dialogue13FaceAlice" Value="시끄러워，시끄럽다고!!,진짜 싫어! 너 같은 내비 따위!" Face="Alice" Mono="False" />
+  <!-- プラグイン！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage5Dialogue1FaceAlice" Value="플러그인!" Face="Alice" Mono="False" />
+  <!-- あっ！　ちょっと！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage5Dialogue2FaceShanghai" Value="어，야! 잠깐만!!" Face="Shanghai" Mono="False" />
+  <!-- もう知らないんだから！バイバイ！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage7Dialogue1FaceAlice" Value="이제 너가 어떻게 되든,난 신경 안 쓸 거야!,잘 있으라고!!" Face="Alice" Mono="False" />
+  <!-- アリス！！コラ！　待ちなさい！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage7Dialogue2FaceShanghai" Value="앨리스!!,야! 기다려!!" Face="Shanghai" Mono="False" />
+  <!-- アリスーーーー！！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage7Dialogue3FaceShanghai" Value="앨리스으으으으!!" Face="Shanghai" Mono="False" />
+  <!-- シャンハイのバカ････！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage9Dialogue1FaceAlice" Value="상하이，이 쓰레기야....!" Face="Alice" Mono="False" />
+  <!-- リグル君と一緒に観光をしたかったのに････！ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage9Dialogue2FaceAlice" Value="난 리글이랑 같이,관광명소를 탐방하고 싶었는데....!" Face="Alice" Mono="False" />
+  <!-- クハハハハ････ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage11Dialogue1FaceNone" Value="크하하하하...." Face="None" Mono="False" />
+  <!-- 誰？ -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage11Dialogue2FaceAlice" Value="누구세요?" Face="Alice" Mono="False" />
+  <!-- 私の言うことを聞いてもらおうか　小娘 -->
+  <Dialogue Key="Map.IngleasTown6DatingRegrims5Stage13Dialogue1FaceScissorManOpTarakhan" Value="내 말대로 따라 주실까,꼬마 아가씨." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- いらっしゃいませ！インゲレスで一番人気のケーキはいかがですか？ -->
+  <Dialogue Key="Map.IngleasTownCakeShopStage1Dialogue1FaceGreenHairFemalePinkEyes" Value="어서 오세요!,잉겔레스에서 최고로 인기 있는,케이크 한 조각 어떠세요?" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- 買ってその場で食べられるハンディサイズがおすすめですよ！ -->
+  <Dialogue Key="Map.IngleasTownCakeShopStage1Dialogue2FaceGreenHairFemalePinkEyes" Value="산 자리에서 바로 드실 수 있는,핸디 사이즈를 추천한답니다!" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisen" Value="일부러 여기까지 올 줄이야....,왜 왔는지는 알고 있다." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleQuestion" Value="레이센한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.IngleasTownPostGameReisenBattleOptions" Value="예,아니오" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleStage1Dialogue1" Value="빠르게 끝내도록." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleStage1Dialogue2" Value="예스・맴." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleWin1" Value="....그 때는,우연히 이긴 거냐?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleLose1" Value="요리히메가 2번이나,질 줄이야...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleStage2Dialogue1" Value="민간인한테,넷 에이전트가,질 수는 없지." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleStage2Dialogue2" Value="전력을 다해 상대하겠습니다." Face="Yorihime" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleWin2" Value="....당연한 결과로군." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleLose2" Value="이 힘은.... 역시 진짜로군...." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostGameReisenBattleCancel" Value="겁 먹었나?,아니면....?" Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue1" Value="내 걱정 안 해도 된단다.,그냥 차 지나다니는 광경을,보고 있을 뿐이니까." Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue2" Value="옛날에는 이 도로를 마차나,인력거가 다녔다고들 하지.,지금 와서는 믿기 힘든 소리야." Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownPostgameOldManDialogue3" Value="물론 그것도 내 선대，,아니，그 선대보다 더 선대의,이야기겠지." Face="MaleElderly" Mono="False" />
+  <Dialogue Key="Map.IngleasTownWriggleLocationHintDialogue1" Value="아，뭐야! 그 공주님,이미 다른 큰 도시로,떠난 것 같은데!" Face="BlondHairMaleChild" Mono="False" />
+  <Dialogue Key="Map.IngleasTownWriggleLocationHintDialogue2" Value="”새로운 친구들과의 관계 조성”,이라는 말을 했는데,무슨 뜻에서 한 말일까?" Face="BlondHairMaleChild" Mono="False" />
+</data>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Addon.ShortPink" Value="분홍" />
+  <Text Key="Addon.ShortSkyBlue" Value="하늘" />
+  <Text Key="Addon.ShortRed" Value="적색" />
+  <Text Key="Addon.ShortBlue" Value="청색" />
+  <Text Key="Addon.ShortGreen" Value="녹색" />
+  <Text Key="Addon.ShortOrange" Value="황색" />
+  <Text Key="Addon.ShortDark" Value="자색" />
+  <Text Key="Addon.LetterPink" Value="P" />
+  <Text Key="Addon.LetterSkyBlue" Value="S" />
+  <Text Key="Addon.LetterRed" Value="R" />
+  <Text Key="Addon.LetterBlue" Value="B" />
+  <Text Key="Addon.LetterGreen" Value="G" />
+  <Text Key="Addon.LetterOrange" Value="O" />
+  <Text Key="Addon.LetterDark" Value="D" />
+
+  <!-- AddOns -->
+  <Text Key="AddOn.BustorPowerName" Value="버스터 파워" />
+  <Text Key="AddOn.BustorPowerDesc" Value="버스터와,차지샷의 위력을,1단계 올린다!" />
+  <Text Key="AddOn.BustorRapidName" Value="버스터 래피드" />
+  <Text Key="AddOn.BustorRapidDesc" Value="버스터의,연사 속도를,1단계 올린다!" />
+  <Text Key="AddOn.BustorChargeName" Value="버스터 차지" />
+  <Text Key="AddOn.BustorChargeDesc" Value="버스터의,차지 속도를,1단계 올린다!" />
+  <Text Key="AddOn.AssaultBusterName" Value="어설트 버스터" />
+  <Text Key="AddOn.AssaultBusterDesc" Value="B를 꾹 누르고 있으면,버스터를 고속으로,연사할 수 있게 된다!" />
+  <Text Key="AddOn.BlueBusterName" Value="블루 버스터" />
+  <Text Key="AddOn.BlueBusterDesc" Value="버스터의 탄환이,파란색이 되는,유니크 애드온" />
+  <Text Key="AddOn.ChageBypassName" Value="차지 바이패스" />
+  <Text Key="AddOn.ChageBypassDesc" Value="버스터 풀 차지 시,칩의 위력이,10 상승한다!" />
+  <Text Key="AddOn.BustorSetName" Value="버스터 세트" />
+  <Text Key="AddOn.BustorSetDesc" Value="버스터의,파워、래피드、,차지가 3단계 상승" />
+  <Text Key="AddOn.HPPlus50Name" Value="HP 업 50" />
+  <Text Key="AddOn.HPPlus50Desc" Value="최대 체력이,50 증가" />
+  <Text Key="AddOn.HPPlus100Name" Value="HP 업 100" />
+  <Text Key="AddOn.HPPlus100Desc" Value="최대 체력이,100 증가" />
+  <Text Key="AddOn.HPPlus200Name" Value="HP 업 200" />
+  <Text Key="AddOn.HPPlus200Desc" Value="최대 체력이,200 증가" />
+  <Text Key="AddOn.HPPlus500Name" Value="HP 업 500" />
+  <Text Key="AddOn.HPPlus500Desc" Value="최대 체력이,500 증가" />
+  <Text Key="AddOn.RichRichName" Value="리치리치" />
+  <Text Key="AddOn.RichRichDesc" Value="리절트 화면에서,제니만 얻을 수 있고,금액이 2배가 된다" />
+  <Text Key="AddOn.DataSalvageName" Value="데이터 샐비지" />
+  <Text Key="AddOn.DataSalvageDesc" Value="리절트 화면에서,칩만 얻을 수,있게 된다" />
+  <Text Key="AddOn.HPPlus300Name" Value="HP 업 300" />
+  <Text Key="AddOn.HPPlus300Desc" Value="최대 체력이,300 증가" />
+  <Text Key="AddOn.StockChargeName" Value="스톡 차지" />
+  <Text Key="AddOn.StockChargeDesc" Value="칩을 사용해도,버스터 차지가,초기화되지 않는다" />
+  <Text Key="AddOn.DamageGhostName" Value="대미지 고스트" />
+  <Text Key="AddOn.DamageGhostDesc" Value="피해를 입었을 때,발생하는 피격 무적,시간이 조금 늘어난다" />
+  <Text Key="AddOn.FirstAddName" Value="퍼스트 애드" />
+  <Text Key="AddOn.FirstAddDesc" Value="전투 시작 시에,1장 분량 ADD된,상태에서 시작!" />
+  <Text Key="AddOn.FirstBarrierName" Value="스타트 배리어" />
+  <Text Key="AddOn.FirstBarrierDesc" Value="전투 시작 시에,배리어가 주어진다" />
+  <Text Key="AddOn.OneFullOpenName" Value="원 풀 오픈" />
+  <Text Key="AddOn.OneFullOpenDesc" Value="맨 첫 턴 때에만,커스텀 화면이,풀 오픈 상태가 된다!" />
+  <Text Key="AddOn.AutoADDName" Value="오토 ADD" />
+  <Text Key="AddOn.AutoADDDesc" Value="커스텀 화면을,닫을 때마다 자동으로,1장씩 ADD된다" />
+  <Text Key="AddOn.AutoChargeName" Value="오토 차지" />
+  <Text Key="AddOn.AutoChargeDesc" Value="버스터를,쏘고 있지 않는 동안,자동으로 차지" />
+  <Text Key="AddOn.PeaceHeatName" Value="피스 파이어" />
+  <Text Key="AddOn.PeaceHeatDesc" Value="불 속성 적이 잘 나오고,다음 스타일이,불 속성이 된다" />
+  <Text Key="AddOn.PeaceAquaName" Value="피스 아쿠아" />
+  <Text Key="AddOn.PeaceAquaDesc" Value="물 속성 적이 잘 나오고,다음 스타일이,물 속성이 된다" />
+  <Text Key="AddOn.PeaceLeafName" Value="피스 리프" />
+  <Text Key="AddOn.PeaceLeafDesc" Value="풀 속성 적이 잘 나오고,다음 스타일이,풀 속성이 된다" />
+  <Text Key="AddOn.PeaceElekiName" Value="피스 플라즈마" />
+  <Text Key="AddOn.PeaceElekiDesc" Value="전기 속성 적이 잘 나오고,다음 스타일이,전기 속성이 된다" />
+  <Text Key="AddOn.PeacePoisonName" Value="피스 포이즌" />
+  <Text Key="AddOn.PeacePoisonDesc" Value="독 속성 적이 잘 나오고,다음 스타일이,독 속성이 된다" />
+  <Text Key="AddOn.PeaceEarthName" Value="피스 어스" />
+  <Text Key="AddOn.PeaceEarthDesc" Value="땅 속성 적이 잘 나오고,다음 스타일이,땅 속성이 된다" />
+  <Text Key="AddOn.EriaGuardName" Value="불가침 에리어" />
+  <Text Key="AddOn.EriaGuardDesc" Value="적에게 뺏기지 않는,에리어를 1열,처음부터 늘린다" />
+  <Text Key="AddOn.MyGardenName" Value="마이 가든" />
+  <Text Key="AddOn.MyGardenDesc" Value="전투 시작 시에,기물을 모두 없애고,패널을 정상으로 되돌린다" />
+  <Text Key="AddOn.YuzuriaiName" Value="자리양보" />
+  <Text Key="AddOn.YuzuriaiDesc" Value="아군 바이러스나,기물이 놓여 있는 칸에,이동할 수 있게 된다!" />
+  <Text Key="AddOn.StyleReUseName" Value="스타일 리유즈" />
+  <Text Key="AddOn.StyleReUseDesc" Value="이미 한 번 쓴,스타일로 다시,변신할 수 있다!" />
+  <Text Key="AddOn.HaisuiName" Value="배수의 진" />
+  <Text Key="AddOn.HaisuiDesc" Value="전투 시작 시에,자신의 에리어가,1열만 남게 된다" />
+  <Text Key="AddOn.ChipSizePlusName" Value="칩 사이즈＋1" />
+  <Text Key="AddOn.ChipSizePlusDesc" Value="한 폴더에 같은 칩을,넣을 수 있는 개수가,1장 늘어난다!" />
+  <Text Key="AddOn.NaviPlusName" Value="내비 칩＋1" />
+  <Text Key="AddOn.NaviPlusDesc" Value="한 폴더에 내비 칩을,넣을 수 있는 개수가,1장 늘어난다!" />
+  <Text Key="AddOn.DarkPlusName" Value="다크 칩＋1" />
+  <Text Key="AddOn.DarkPlusDesc" Value="한 폴더에 다크 칩을,넣을 수 있는 개수가,1장 늘어난다!" />
+  <Text Key="AddOn.UsedCureName" Value="유즈 리페어" />
+  <Text Key="AddOn.UsedCureDesc" Value="칩을 쓸 때마다,체력을 30씩,회복한다!" />
+  <Text Key="AddOn.UsedPainName" Value="유즈드 페인" />
+  <Text Key="AddOn.UsedPainDesc" Value="칩을 쓸 때마다,체력을 30씩,잃는다!" />
+  <Text Key="AddOn.GrimoireName" Value="그리모어" />
+  <Text Key="AddOn.GrimoireDesc" Value="상하이가,그리모어 스타일로,변신한다!" />
+  <Text Key="AddOn.EscapeSoulName" Value="이스케이프 소울" />
+  <Text Key="AddOn.EscapeSoulDesc" Value="바이러스 출몰,전투에서 반드시,도망칠 수 있게 된다!" />
+  <Text Key="AddOn.AngerMindName" Value="앵거 마인드" />
+  <Text Key="AddOn.AngerMindDesc" Value="배틀 중 마음이,불안한 상태가 되면,분노 상태가 된다" />
+  <Text Key="AddOn.HardObjectName" Value="하드 오브젝트" />
+  <Text Key="AddOn.HardObjectDesc" Value="배치한 기물의,내구력이 2배" />
+  <Text Key="AddOn.ChipChangerName" Value="크림슨PGM" />
+  <Text Key="AddOn.ChipChangerDesc" Value="버스팅 레벨,Ｓ가 되면 얻을 수,있는 칩이 바뀐다!" />
+  <Text Key="AddOn.BaisokuRunnerName" Value="배속 러너" />
+  <Text Key="AddOn.BaisokuRunnerDesc" Value="전뇌 세계를,2배 속도로,이동할 수 있다!" />
+  <Text Key="AddOn.KishiKaiseiName" Value="기사회생" />
+  <Text Key="AddOn.KishiKaiseiDesc" Value="체력이 0까지,떨어질 경우 딱 한 번,HP 1로 버틴다" />
+  <Text Key="AddOn.HumorSenseName" Value="유머 토크" />
+  <Text Key="AddOn.HumorSenseDesc" Value="어떤 내비라도,L 버튼으로 농담을,하게 된다!" />
+  <Text Key="AddOn.EirinCallName" Value="에이린 콜" />
+  <Text Key="AddOn.EirinCallDesc" Value="L 버튼을 누르면,에이린이 바이러스,해설을 해 준다" />
+  <Text Key="AddOn.BulletName" Value="탄피" />
+  <Text Key="AddOn.BulletDesc" Value="버스터에서,탄피가 나오는,유니크 애드온" />
+  <Text Key="AddOn.BulletBigName" Value="대형 탄피" />
+  <Text Key="AddOn.BulletBigDesc" Value="버스터에서,대형 탄피가 나오는,유니크 애드온" />
+  <Text Key="AddOn.RShieldName" Value="R스타 쉴드" />
+  <Text Key="AddOn.RShieldDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,R 버튼으로 쉴드" />
+  <Text Key="AddOn.RPanelRepairName" Value="R홀 리페어" />
+  <Text Key="AddOn.RPanelRepairDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,R 버튼으로 패널리턴" />
+  <Text Key="AddOn.RHoleMakeName" Value="R패널 크랙" />
+  <Text Key="AddOn.RHoleMakeDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,R 버튼으로 패널에 구멍내기" />
+  <Text Key="AddOn.LCubeName" Value="L할로우 큐브" />
+  <Text Key="AddOn.LCubeDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,L 버튼으로 큐브" />
+  <Text Key="AddOn.LMukaikazeName" Value="L역풍" />
+  <Text Key="AddOn.LMukaikazeDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,L 버튼으로 역풍" />
+  <Text Key="AddOn.LOikazeName" Value="L순풍" />
+  <Text Key="AddOn.LOikazeDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,L 버튼으로 순풍" />
+  <Text Key="AddOn.LBeastRockName" Value="L비스트 록" />
+  <Text Key="AddOn.LBeastRockDesc" Value="커스텀 게이지가,MAX가 되기 전까지는,L 버튼으로 록온" />
+  <Text Key="AddOn.SlowStartName" Value="슬로우 스타트" />
+  <Text Key="AddOn.SlowStartDesc" Value="커스텀 게이지가,느리게 차는,상태에서 시작한다" />
+  <Text Key="AddOn.NebulaHoleName" Value="네뷸라 홀" />
+  <Text Key="AddOn.NebulaHoleDesc" Value="하나 장착할 때마다,적의 랭크가,1단계씩 상승한다" />
+  <Text Key="AddOn.HPDown100Name" Value="HP다운 100" />
+  <Text Key="AddOn.HPDown100Desc" Value="최대 체력이,100 감소" />
+  <Text Key="AddOn.AcidBodyName" Value="애시드 바디" />
+  <Text Key="AddOn.AcidBodyDesc" Value="전투 중에 체력이,상시 닳게 된다,회복 시에도 피해" />
+  <Text Key="AddOn.HideLifeName" Value="하이드 라이프" />
+  <Text Key="AddOn.HideLifeDesc" Value="적의 체력이,보이지 않게 된다" />
+  <Text Key="AddOn.LostLightName" Value="로스트 라이트" />
+  <Text Key="AddOn.LostLightDesc" Value="적이 보이지 않게 되고,화염 공격에 2배의,피해를 입게 된다" />
+  <Text Key="AddOn.UnShuffleName" Value="언셔플" />
+  <Text Key="AddOn.UnShuffleDesc" Value="전투 시 폴더가,셔플되지 않고,순서대로 나오게 된다" />
+  <Text Key="AddOn.FudouMyoouName" Value="부동명왕" />
+  <Text Key="AddOn.FudouMyoouDesc" Value="십자키로 움직일,수 없게 된다!" />
+  <Text Key="AddOn.HeavyFootName" Value="헤비 풋" />
+  <Text Key="AddOn.HeavyFootDesc" Value="서 있었던 패널에,모두 금이 간다" />
+  <Text Key="AddOn.MassatuSlipName" Value="마찰빼앗김" />
+  <Text Key="AddOn.MassatuSlipDesc" Value="상시 미끄러지게 되고,전기 공격에 2배의,피해를 입게 된다" />
+  <Text Key="AddOn.BuraiStyleName" Value="브라이 스타일" />
+  <Text Key="AddOn.BuraiStyleDesc" Value="내비 칩을,쓸 수 없게 되는,고독의 애드온" />
+  <Text Key="AddOn.NoGuardName" Value="노 가드" />
+  <Text Key="AddOn.NoGuardDesc" Value="피해를 입었을 때,피격 무적이 발생하지 않고,배리어를 쓸 수 없게 된다" />
+  <Text Key="AddOn.MeltingthName" Value="멜트다운" />
+  <Text Key="AddOn.MeltingthDesc" Value="공격 피해량이 상시 반감되고,물 공격에 2배의,피해를 입게 된다" />
+  <Text Key="AddOn.ChipSizeMinusName" Value="칩 사이즈 -1" />
+  <Text Key="AddOn.ChipSizeMinusDesc" Value="한 폴더에 같은 칩을,넣을 수 있는 개수가,1장 줄어든다" />
+  <Text Key="AddOn.CustomPainName" Value="커스텀 페인" />
+  <Text Key="AddOn.CustomPainDesc" Value="커스텀 화면을,열 때마다,50의 피해를 입는다" />
+  <Text Key="AddOn.PonkothuBusterName" Value="싸구려 버스터" />
+  <Text Key="AddOn.PonkothuBusterDesc" Value="버스터가,가끔씩 발사되지,않게 된다" />
+  <Text Key="AddOn.OwataManBodyName" Value="한대만바디" />
+  <Text Key="AddOn.OwataManBodyDesc" Value="최대 체력이,1이 된다" />
+  <Text Key="AddOn.LostCustomName" Value="로스트 커스텀" />
+  <Text Key="AddOn.LostCustomDesc" Value="전투 시작 시에,1장 분량 커스텀이,적은 상태로 시작" />
+  <Text Key="AddOn.BlackMindName" Value="블랙 마인드" />
+  <Text Key="AddOn.BlackMindDesc" Value="내비의 마음이,항상 어둠에 물든다" />
+  <Text Key="AddOn.ParizeDamageName" Value="패럴라이즈대미지" />
+  <Text Key="AddOn.ParizeDamageDesc" Value="피해 경직에 당할 때마다,마비 상태가 된다" />
+  <Text Key="AddOn.CAuraSwordName" Value="C 오라소드" />
+  <Text Key="AddOn.CAuraSwordDesc" Value="차지샷이,오라소드로,바뀐다!" />
+  <Text Key="AddOn.CDustBombName" Value="C 더스트봄" />
+  <Text Key="AddOn.CDustBombDesc" Value="차지샷이,더스트봄으로,바뀐다!" />
+  <Text Key="AddOn.CVulcanName" Value="C 발칸" />
+  <Text Key="AddOn.CVulcanDesc" Value="차지샷이,발칸으로,바뀐다!" />
+  <Text Key="AddOn.CFallKnifeName" Value="C 폴나이프" />
+  <Text Key="AddOn.CFallKnifeDesc" Value="차지샷이,폴나이프로,바뀐다!" />
+  <Text Key="AddOn.CBlastCanonName" Value="C 블래스트캐논" />
+  <Text Key="AddOn.CBlastCanonDesc" Value="차지샷이,블래스트캐논으로,바뀐다!" />
+  <Text Key="AddOn.CLanceName" Value="C 랜스" />
+  <Text Key="AddOn.CLanceDesc" Value="차지샷이,랜스로,바뀐다!" />
+  <Text Key="AddOn.CRepairName" Value="C 리페어" />
+  <Text Key="AddOn.CRepairDesc" Value="차지샷이,리페어로,바뀐다!" />
+  <Text Key="AddOn.CShotGunName" Value="C 샷건" />
+  <Text Key="AddOn.CShotGunDesc" Value="차지샷이,샷건으로,바뀐다!" />
+  <Text Key="AddOn.ScavengerName" Value="스캐빈지" />
+  <Text Key="AddOn.ScavengerDesc" Value="임의로 낮은 등급의,결과를 얻을,수 있게 된다!" />
+  <Text Key="AddOn.SacrificeName" Value="이퀄라이저" />
+  <Text Key="AddOn.SacrificeDesc" Value="적이 강한 만큼,아군 바이러스들도,따라서 강해진다!" />
+  <Text Key="AddOn.MammonName" Value="마몬" />
+  <Text Key="AddOn.MammonDesc" Value="한 번에 칩을 너무 많이,골라서 쓸 수록,페널티가 커진다!" />
+</data>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HosTVName" Value="병원 TV의 전뇌" />
+  <Dialogue Key="Map.HosTVSprite1Stage1Dialogue1FaceSprite" Value="오늘의 요리는,오이 미역 초무침입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite1Stage1Dialogue2FaceSprite" Value="미리 조리해둔 예시를,보여드립니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite2Stage1Dialogue1FaceSprite" Value="않이～ 설마 그 사람이,그런 짓을 할 줄이야～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVSprite2Stage1Dialogue2FaceSprite" Value="언젠간 그 짓을,할 거라고 생각했는데요～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue1FaceNaviBlueRobot" Value="오오，와 줬는가.,자네가 의뢰를 수락해 준,상하이로군." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue2FaceNaviBlueRobot" Value="게시판에 써 놓은 대로,난 넷 에이전트이지만,이미 전에 은퇴한 몸이라네." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue3FaceNaviBlueRobot" Value="최근에 치안이 악화되면서,복귀하려 하는데，우선은,견학부터 시작하고 싶네." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue4FaceNaviBlueRobot" Value="그러면 상하이，지금부터 내가,진심으로 푸는 바이러스를 상대로,승리하는 모습을 보여주게." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage1Dialogue5FaceNaviBlueRobot" Value="그러면，간다!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue1FaceNaviBlueRobot" Value="호오，엄청난 실력이야.,자네라면 프로 바이러스 헌터로,생계를 이어나갈 수 있겠군." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue2FaceNaviBlueRobot" Value="그러면 약속대로，여기，,의뢰를 수행해 준 보수일세." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue3FaceNaviBlueRobot" Value="그리고 자네라면 이걸,맡겨도 되겠지." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue4FaceNaviBlueRobot" Value="그건 과거에 어떤 범죄 조직을,적발해 냈을 때 회수한 물건이야." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue5FaceNaviBlueRobot" Value="그 ROM의 비밀 금고를,열 수 있는 ID 카드인데,자네라면 활용할 수 있겠지." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue6FaceNaviBlueRobot" Value="해골 마크가 붙은 문을,발견했다면 써 보게." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue7FaceShanghai" Value="...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue8FaceAlice" Value="상하이，감상은?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage3Dialogue9FaceShanghai" Value="엄청 지쳤어...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage5Dialogue1FaceNaviBlueRobot" Value="그렇게 센 바이러스를,어떻게 잡았는지 알려달라고?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.HosTVRequestRehabilitationStage5Dialogue2FaceNaviBlueRobot" Value="허허허.,젊은 친구，세세한 건,신경 쓰지 말게." Face="NaviBlueRobot" Mono="False" />
+</data>

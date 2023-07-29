@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　キャンパススクエア -->
+  <Text Key="Map.CityNetSquareName" Value="인터넷 캠퍼스 스퀘어" />
+  <!-- ここはシティスクエアじゃなくてキャンパススクエアよ -->
+  <Dialogue Key="Map.CityNetSquareChapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="여긴 시티 스퀘어가 아니라,캠퍼스 스퀘어야." Face="NaviPinkFemale" Mono="False" />
+  <!-- このスクエアのサーバーは幻想大学にあるからね -->
+  <Dialogue Key="Map.CityNetSquareChapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="이 스퀘어의 서버가,환상 대학교에 있어서 그래." Face="NaviPinkFemale" Mono="False" />
+  <!-- 大学のスクエアなので知的な会話がよく飛び交っています -->
+  <Dialogue Key="Map.CityNetSquareChapter2OfficialNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="대학교의 스퀘어다 보니까,지적인 대화가 서로,자주 오고 가요." Face="NaviBlueRobot" Mono="False" />
+  <!-- 学生パスの発行？ -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage1Dialogue1FaceNaviGreenRobot" Value="학생용 전철 패스 발행?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ああ　担当者なら今シティエリア１の方へ出かけたよ -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage1Dialogue2FaceNaviGreenRobot" Value="아，그 담당자라면 지금,시티 에리어 1 쪽으로 갔는데." Face="NaviGreenRobot" Mono="False" />
+  <!-- でも帰ってくるの遅いなぁ何かあったのかな？ -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage1Dialogue3FaceNaviGreenRobot" Value="근데 어째 돌아오는 게 늦네.,무슨 일이 있는 걸까?" Face="NaviGreenRobot" Mono="False" />
+  <!-- おお　先程は助けていただきありがとうございました -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage3Dialogue1FaceNaviBlueRobot" Value="오오，아까 전에는,구해 주셔서 감사합니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- メトロの学生パスの発行ですね少々お待ちください -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage3Dialogue2FaceNaviBlueRobot" Value="학생용 전철 패스 발행 말이죠?,잠시만 기다려 주세요." Face="NaviBlueRobot" Mono="False" />
+  <!-- #b@true#・・・・・#b@false#できましたこれを持っていればメトロに乗り放題ですからね -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage3Dialogue3FaceNaviBlueRobot" Value="#b@true#・・・・・#b@false#완성되었습니다.,이걸 가지고 계시면 전철을,자유롭게 이용하실 수 있어요." Face="NaviBlueRobot" Mono="False" />
+  <!-- これからもリニアメトロをよろしくお願いします -->
+  <Dialogue Key="Map.CityNetSquareChapter2StationNaviStage5Dialogue1FaceNaviBlueRobot" Value="앞으로도 많은 전철 이용,부탁드리겠습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- このスクエアって全スクエアで一二を争う広さなんだぜ！ -->
+  <Dialogue Key="Map.CityNetSquareChapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="이 스퀘어는 전 스퀘어를 통틀어,1，2위를 다툴 정도로 넓어!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 幻想大学の学生はサーバーに直接プラグインしてここにすぐ来れるんだよ -->
+  <Dialogue Key="Map.CityNetSquareChapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="환상대학교 학생들은,서버에 직접 플러그인해서,곧바로 여기 올 수 있어." Face="NaviGreenRobot" Mono="False" />
+  <!-- おや　シャンハイ様こんなところで奇遇ですな -->
+  <Dialogue Key="Map.CityNetSquareChapter2GuardianNavi1Stage1Dialogue1FaceNaviPurplePunk" Value="어，상하이 님.,이런 곳에서 만나뵙게 되다니,우연이군요." Face="NaviPurplePunk" Mono="False" />
+  <!-- え？べ、別に店員がかわいいなとか思ってませんよ！ -->
+  <Dialogue Key="Map.CityNetSquareChapter2GuardianNavi1Stage1Dialogue2FaceNaviPurplePunk" Value="네?,아，아니，딱히 점원이 귀엽다던가,그런 생각 안 하고 있어요!" Face="NaviPurplePunk" Mono="False" />
+  <!-- ウィルスの力の源はバグやフリーズ、エラーなんかのコンピューターの不正の欠片 -->
+  <Dialogue Key="Map.CityNetSquareChapter2BadMapNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="바이러스의 힘의 원천은,버그나 프리즈，에러 같은,컴퓨터 문제의 조각이야." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 強いウィルスは他のウィルスよりもそれを多く摂取しているそういうことよ -->
+  <Dialogue Key="Map.CityNetSquareChapter2BadMapNavi1Stage1Dialogue2FaceNaviPurpleFemale" Value="센 바이러스는 그런 것들을,다른 바이러스보다 더 많이,섭취했다는 뜻이지." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 空気清浄機がハッキングを受けただなんてセキュリティを強化せねば････ -->
+  <Dialogue Key="Map.CityNetSquareChapter3ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="공기청정기가 해킹당했다니,보안을 강화해야지 이거...." Face="NaviGreenRobot" Mono="False" />
+  <!-- ナビチップとはそのナビの攻撃データだけを抽出したバトルチップなんだよ -->
+  <Dialogue Key="Map.CityNetSquareChapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="내비 칩이란 건,그 내비의 공격 데이터만,추출해 낸 배틀칩이야." Face="NaviGreenRobot" Mono="False" />
+  <!-- だから出てくるナビも本物じゃなくって姿だけのダミーなんだ -->
+  <Dialogue Key="Map.CityNetSquareChapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="그래서 나오는 내비도,진짜 내비가 아니라,겉모습만 가져온 더미야." Face="NaviGreenRobot" Mono="False" />
+  <!-- ＲＯＭのナビがこの近くで目撃されたという情報がある -->
+  <Dialogue Key="Map.CityNetSquareChapter3ManNavi3Stage1Dialogue1FaceNaviBlueRobot" Value="ROM의 내비가 이 주변에서,목격되었다는 정보가 있어." Face="NaviBlueRobot" Mono="False" />
+  <!-- 危ないからあまりインターネットをうろつかないほうがいいよ -->
+  <Dialogue Key="Map.CityNetSquareChapter3ManNavi3Stage1Dialogue2FaceNaviBlueRobot" Value="위험하니까 인터넷 상에,오래 있지 않는 게 좋아." Face="NaviBlueRobot" Mono="False" />
+  <!-- 大学で事件があっても講義がなくなったりはしないのよ -->
+  <Dialogue Key="Map.CityNetSquareChapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="대학교에서 사건이 일어나도,강의가 없어진다던지,하는 건 아냐." Face="NaviPinkFemale" Mono="False" />
+  <!-- 休みになったらいいのになぁ〜 -->
+  <Dialogue Key="Map.CityNetSquareChapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="휴일이 된다면 좋겠는데 말이지～" Face="NaviPinkFemale" Mono="False" />
+  <!-- サブチップで戦いを避けたりウィルスから逃げる時って最大ＨＰが重要なのよ -->
+  <Dialogue Key="Map.CityNetSquareChapter3GirlNavi2Stage1Dialogue1FaceNaviChild" Value="서브칩을 써서 전투를 피한다던지,바이러스로부터 도망친다던지,할 때에는 최대 HP가 중요해." Face="NaviChild" Mono="False" />
+  <!-- だからＨＰを上げれば戦いを避けられるようになるんだって！ -->
+  <Dialogue Key="Map.CityNetSquareChapter3GirlNavi2Stage1Dialogue2FaceNaviChild" Value="그러니까 최대 HP를 늘리면,전투를 피하기 쉬워진다더라!" Face="NaviChild" Mono="False" />
+  <!-- 論文の予稿提出が近いからアクセスしてる学生がいつもより少ないなあ -->
+  <Dialogue Key="Map.CityNetSquareChapter4Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="논문의 초안 제출 기한이,얼마 안 남아서 그런가,접속하는 학생 수가 평소보다 적네." Face="NaviGreenRobot" Mono="False" />
+  <!-- 私のオペレーターは電脳世界での料理について研究してるのよ -->
+  <Dialogue Key="Map.CityNetSquareChapter4Navi2Stage1Dialogue1FaceNaviPinkFemale" Value="내 오퍼레이터는,전뇌세계의 요리에 대해,연구하고 있어." Face="NaviPinkFemale" Mono="False" />
+  <!-- ネットナビだって美味しいご飯食べたいものね！ -->
+  <Dialogue Key="Map.CityNetSquareChapter4Navi2Stage1Dialogue2FaceNaviPinkFemale" Value="넷 내비들도,맛있는 밥은 먹고 싶은걸!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ネットエージェントが働いてくれたのかここしばらく平和だねぇ -->
+  <Dialogue Key="Map.CityNetSquareChapter7GirlNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="넷 에이전트들이,힘써줘서 그런가,최근 얼마 동안은 평화롭네." Face="NaviGreenRobot" Mono="False" />
+  <!-- 休みの日にも講義に出なきゃいけないのはＲＯＭが悪いのよ絶対 -->
+  <Dialogue Key="Map.CityNetSquareChapter7GirlNavi1DupeStage1Dialogue1FaceNaviPinkFemale" Value="휴일에도 강의 들으러,가야 하는 건 아무리 봐도,ROM 때문이야." Face="NaviPinkFemale" Mono="False" />
+  <!-- バトラーズオフィスはネットバトラーの方々の活動を支援するサービスです -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue1FaceNaviBlueRobot" Value="배틀러즈 오피스는,넷배틀러들의 활동을,지원하는 서비스입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 説明がいりますか？ -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue2FaceNaviBlueRobot" Value="설명이 필요한 부분이 있나요?" Face="NaviBlueRobot" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue3QuestionFaceNaviBlueRobot" Value="," Face="NaviBlueRobot" Mono="False" />
+  <!-- 依頼掲示板についてＳＰウィルス討伐についていらないよ -->
+  <Text Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue3Options" Value="의뢰 게시판에 대해,SP 바이러스 토벌에 대해,필요 없어" />
+  <!-- 依頼掲示板には様々な問題を抱えた人たちが依頼を書き込んでいます -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue4FaceNaviBlueRobot" Value="각종 문제를 안고 있는 사람들이,의뢰 게시판에 도움을,요청하고 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- これらの依頼を受けてそれを解決すると依頼主から報酬がもらえます -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue5FaceNaviBlueRobot" Value="이 분들의 의뢰를 받아서,해결해 주면 의뢰주로부터,보수를 받을 수 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 注意点として依頼は１度に１つしか受けることが出来ません -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue6FaceNaviBlueRobot" Value="주의점이 있다면,의뢰는 한 번에 하나씩만,받을 수 있다는 겁니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- すぐに解決できそうにない依頼を受けてしまわないように注意してくださいね -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue7FaceNaviBlueRobot" Value="곧바로 해결하기 힘들어 보이는,의뢰는 받지 않도록,주의해 주세요." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルス討伐依頼はそこのカウンターで受けることが出来ます -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue8FaceNaviBlueRobot" Value="SP 바이러스 토벌 의뢰는,저기 있는 카운터를 통해,접수를 받습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスと呼ばれる強力なウィルスを倒すと賞金がもらえるといった依頼です -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue9FaceNaviBlueRobot" Value="SP 바이러스라 불리는,강력한 바이러스를 쓰러뜨리면,상금을 받을 수 있는 의뢰입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスは危険なので普段は一般のナビと出会わないように････ -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue10FaceNaviBlueRobot" Value="SP 바이러스는 위험하므로,평소에는 일반 내비들과,만나지 않도록...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 特殊なプロテクトをかけて互いに認識できないような処理をしています -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue11FaceNaviBlueRobot" Value="특수한 프로텍트를 걸어서,서로 인식할 수 없도록,처리하고 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- しかし　ＳＰウィルスが成長するとそのプロテクトが効かなくなり大きな被害が出てしまいます -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue12FaceNaviBlueRobot" Value="그렇지만 SP 바이러스가 성장하면,그 프로텍트가 통하지 않게 되어,큰 피해가 발생하게 되는데요." Face="NaviBlueRobot" Mono="False" />
+  <!-- それを防ぐためにもＳＰウィルスは定期的に倒す必要があります -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue13FaceNaviBlueRobot" Value="그걸 막기 위해서라도,SP 바이러스는 정기적으로,쓰러뜨릴 필요가 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 依頼を受けると　受けた人に対してプロテクトを限定解除し戦えるようになります -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue14FaceNaviBlueRobot" Value="의뢰를 받으시면 의뢰받은 사람,한정으로 프로텍트를 해제해서,싸울 수 있게 해 드립니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ＳＰウィルスは並のナビよりも強力なのでデリートされないよう気をつけてください -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue15FaceNaviBlueRobot" Value="SP 바이러스는,일반 내비보다 더 강력하므로,딜리트당하지 않도록 주의하세요." Face="NaviBlueRobot" Mono="False" />
+  <!-- 討伐依頼は１度につき１つしか受けることが出来ません -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue16FaceNaviBlueRobot" Value="토벌 의뢰는 한 번에 하나씩만,받을 수 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 自分の技量にあった相手を選ぶのが賢いやり方ですね -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue17FaceNaviBlueRobot" Value="자신의 기량에 맞는 상대를,고르는 게 현명하겠군요." Face="NaviBlueRobot" Mono="False" />
+  <!-- 討伐完了した後にカウンターに報告すれば賞金を受け取れます -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue18FaceNaviBlueRobot" Value="토벌 완료한 뒤,카운터에 보고하면,상금을 받을 수 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- そうですか････ -->
+  <Dialogue Key="Map.CityNetSquareOfficeExplanationNaviStage1Dialogue19FaceNaviBlueRobot" Value="그런가요...." Face="NaviBlueRobot" Mono="False" />
+  <!-- バトル情報掲示板だ -->
+  <Dialogue Key="Map.CityNetSquareBulletinBoardStage1Dialogue1FaceNone" Value="배틀 정보 게시판이다." Face="None" Mono="False" />
+  <!-- 依頼掲示板だ -->
+  <Dialogue Key="Map.CityNetSquareRequestBulletinBoardStage1Dialogue1FaceNone" Value="의뢰 게시판이다." Face="None" Mono="False" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.CityNetSquareASub-chipMerchantStage1Dialogue1FaceNaviBlueRobot" Value="전 서브칩 상인입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.CityNetSquareASub-chipMerchantStage1Dialogue2QuestionFaceNaviBlueRobot" Value="서브칩을 구매하시겠어요?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNetSquareASub-chipMerchantStage1Dialogue2Options" Value="예,아니오" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.CityNetSquareButler’sOfficeReceptionStage1Dialogue1FaceNaviBlueRobot" Value="전 서브칩 상인입니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.CityNetSquareButler’sOfficeReceptionStage1Dialogue2QuestionFaceNaviBlueRobot" Value="서브칩을 구매하시겠어요?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNetSquareButler’sOfficeReceptionStage1Dialogue2Options" Value="예,아니오" />
+  <!-- バトラーズオフィスへようこそ！こちらではＳＰウィルス討伐の依頼をあっせんしています -->
+  <Dialogue Key="Map.CityNetSquareButlersOfficeStage1Dialogue1FaceNaviGreenRobot" Value="여기는 배틀러즈 오피스입니다!,여기서는 SP 바이러스 토벌,의뢰를 알선하고 있습니다." Face="NaviGreenRobot" Mono="False" />
+  <!-- 私はサブチップ商人ですサブチップを買いますか？ -->
+  <Dialogue Key="Map.CityNetSquareSub-chipShopStage1Dialogue1QuestionFaceNaviBlueRobot" Value="전 서브칩 상인입니다.,서브칩을 구매하시겠어요?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNetSquareSub-chipShopStage1Dialogue1Options" Value="예,아니오" />
+  <!-- お買い物でしたらカウンターの向こうからお願いします -->
+  <Dialogue Key="Map.CityNetSquareShopClerkStage1Dialogue1FaceNaviPinkFemale" Value="쇼핑 용건이 있다면,카운터를 통해서,부탁드립니다." Face="NaviPinkFemale" Mono="False" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.CityNetSquareShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="전 인터넷 상인입니다.,좋은 거 있는데 보고 가실래요?" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.CityNetSquareShopStage1Dialogue1Options" Value="산다,안 산다" />
+  <!-- お買い物でしたらカウンターの向こうからお願いします -->
+  <Dialogue Key="Map.CityNetSquareInteriorClerkStage1Dialogue1FaceNaviPinkFemale" Value="쇼핑 용건이 있다면,카운터를 통해서,부탁드립니다." Face="NaviPinkFemale" Mono="False" />
+  <!-- インテリアショップへようこそ！ -->
+  <Dialogue Key="Map.CityNetSquareInteriorShopStage1Dialogue1FaceNaviGreenRobot" Value="인테리어 샵에 오신 걸 환영합니다!" Face="NaviGreenRobot" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れますです -->
+  <Dialogue Key="Map.CityNetSquareInteriorShopStage1Dialogue2FaceNaviGreenRobot" Value="약간의 예산으로,당신의 홈페이지를,아름답게 꾸며 드립니다." Face="NaviGreenRobot" Mono="False" />
+  <!-- インテリアをご所望ですか？ -->
+  <Dialogue Key="Map.CityNetSquareInteriorShopStage1Dialogue3QuestionFaceNaviGreenRobot" Value="인테리어를 보러 오셨나요?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.CityNetSquareInteriorShopStage1Dialogue3Options" Value="산다,안 산다" />
+  <!-- コチラハ　リンクゲートヲツナグテツヅキ　スプライトデス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue1FaceSprite" Value="저는 링크 게이트를 잇는,수속 스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページトコノスクエアヲ　リンクデツナグコトガデキマス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue2FaceSprite" Value="당신의 홈페이지와,이 스퀘어를 링크로,연결해 드립니다." Face="Sprite" Mono="False" />
+  <!-- セツゾクノ　テスウリョウトシテ３０００ゼニーガ　ヒツヨウデス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue3FaceSprite" Value="접속 수수료로,3000 제니가 필요합니다." Face="Sprite" Mono="False" />
+  <!-- リンクヲ　ツナギマスカ？ -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue4QuestionFaceSprite" Value="링크를 연결하시겠습니까?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNetSquareLinkSpriteStage1Dialogue4Options" Value="예,아니오" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <!-- リンクノ　セツゾクガカンリョウシマシタ -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue6FaceSprite" Value="링크 접속이 완료되었습니다." Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage1Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <!-- コチラハ　ホームページノカベガミ　ハンバイスプライトデス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue1FaceSprite" Value="저는 홈페이지의,벽지를 판매하는,스프라이트입니다." Face="Sprite" Mono="False" />
+  <!-- アナタノ　ホームページノカベガミヲ　コノエリアノカベガミト　オナジニデキマス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue2FaceSprite" Value="당신의 홈페이지의,벽지를 이 에리어의 벽지로,바꿔 드립니다." Face="Sprite" Mono="False" />
+  <!-- カベガミノ　リョウキンハ３０００ゼニー　ト　ナリマス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue3FaceSprite" Value="벽지 교체 비용은,3000 제니입니다." Face="Sprite" Mono="False" />
+  <!-- カベガミヲ　カイマスカ？ -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue4QuestionFaceSprite" Value="벽지를 바꾸시겠습니까?" Face="Sprite" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNetSquareLinkSpriteStage3Dialogue4Options" Value="예,아니오" />
+  <!-- ザンネンデスガオカネガ　タリマセン -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <!-- オカイアゲアリガトウゴザイマース！ -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue6FaceSprite" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
+  <!-- マタノ　ゴリヨウヲオマチシテオリマス -->
+  <Dialogue Key="Map.CityNetSquareLinkSpriteStage3Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <!-- 使われなくなって動かない電脳看板だ -->
+  <Dialogue Key="Map.CityNetSquareGuidePlateStage1Dialogue1FaceNone" Value="안 쓰이게 되어 작동하지 않는,전뇌 간판이다." Face="None" Mono="False" />
+  <!-- ７１３６４８０３という数字が看板に刻まれていたようだ -->
+  <Dialogue Key="Map.CityNetSquareGuidePlateStage1Dialogue2FaceNone" Value="71364803이라는,숫자가 간판에,새겨져 있는 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.CityNetSquarePostGameBystander1Dialogue1" Value="이 스퀘어를 도는 것만으로도,좋은 운동이 된다니까." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.CityNetSquarePostGameBystander2Dialogue1" Value="어디 보자，다음 강의에 쓸,자료가 뭐였지...." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.CityNetSquarePostGameBystander3Dialogue1" Value="5분 전입니다.,행동에 유의합시다." Face="Sprite" Mono="False" />
+</data>

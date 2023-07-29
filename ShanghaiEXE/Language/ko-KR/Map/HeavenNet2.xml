@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ホワイトヘブンエリア２ -->
+  <Text Key="Map.HeavenNet2Name" Value="화이트 헤븐 에리어 2" />
+  <!-- 目を見張るほどの立派な電脳桜の大樹だ -->
+  <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue1FaceNone" Value="눈을 크게 뜨고,볼 정도로 멋진,전뇌 벛나무이다." Face="None" Mono="False" />
+  <!-- この桜の中に過去にデリートされたすべてのデータが詰まっているという -->
+  <Dialogue Key="Map.HeavenNet2BackgroundSpriteWaterDialogue1" Value="땅에 엉겨붙은 나무보다는,이 고요한 물 쪽이,더 멋지지 않나요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2BackgroundSpriteWaterDialogue2" Value="나무는 꽃가루나 벌레가,꼬이잖아요! 거기다 그것들은 땅을,좀먹으면서 자란다잖아요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2BackgroundSpriteTreeDialogue1" Value="아무 일도 일어나지 않는,물보다는 이 벛나무 쪽이,더 멋지지 않나요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2BackgroundSpriteTreeDialogue2" Value="여기 있는 사람들 중,누가 물을 마신다고 그래요!,그리고 물고기는 뭐 하는데요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2BackgroundSpriteWaterBought" Value="하! 어때요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2BackgroundSpriteTreeBought" Value="훗，봤죠?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2BigCherryTreeStage1Dialogue2FaceNone" Value="이 벛꽃 안에는,과거에 딜리트된 모든 데이터가,모인다고 한다." Face="None" Mono="False" />
+  <Text Key="Map.HeavenNet2MadManName" Value="광기의영혼" />
+  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue1" Value="궁극의 전략.... 궁극의 내비....,단 한 발짝만....!,단 한 발짝 남았는데....!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManIntroDialogue2" Value="하지만 찰나의 실수로....,그것도 딱 한 번의 실수로....,난 모든 걸 잃었다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManRejectDialogue1" Value="아무것도 희생하지 않은,약자들에게 볼 일은 없다....,날 내버려 다오...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue1" Value="내가 실패한 부분,너라면 성공할 수 있을까....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManDeadBodyDialogue2" Value="네가 저지른 실수를,내가 직접 보여주마...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue1" Value="네놈.... 날 모욕할 셈이냐....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue2" Value="힘 없는 놈.... 손쉬운 먹잇감....,무력한 피해자로밖에,날 보고 있지 않군 그래....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPDialogue3" Value="그 되도 않는 발상을,내가 직접 뜯어고쳐 주지!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue1" Value="너 같은 약자들이,알 리가 없다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue2" Value="아니면 저 바이러스들에게,스스로를 내어 주는 게,유행이라고 말하고 싶은 거냐....?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadMan1HPAtIntroDialogue3" Value="거슬리는 놈....!,나한테 딜리트당하기 싫다면,스스로 내 눈 앞에서 꺼져라....!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue1" Value="말도 안 돼....,내 전략을 받아들여서는 극한까지,끌어낸 자가 나타나다니...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue1" Value="저 나쁜 내비들한테서,절 구해 주셔서,감사합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue2" Value="헤븐 스퀘어에 오신 걸,환영합니다! 스퀘어라 해도,손님은 많이 없지만요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue3" Value="저는 링크 게이트를 잇는,수속 스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue4" Value="당신의 홈페이지와,이 스퀘어 내지는 에리어를,링크로 연결해 드립니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue5" Value="접속 수수료로,45000 제니가 필요합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue6Question" Value="링크를 연결하시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.HeavenNet2LinkGateSpriteDialogue6Answers" Value="예,아니오" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue7NoMoney" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue7" Value="링크 접속이 완료되었습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteDialogue8" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue1" Value="여기는 원래 평화롭고,안전한 곳이었어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue2" Value="그렇지만 모종의 이유로,이곳에 살고 있던 영혼들이,날뛰기 시작했어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2LinkGateSpriteAfterDialogue3" Value="대체 전뇌 세계에 무슨 일이,일어났던 거죠?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue3" Value="이걸로 나도....,이제 나 스스로의 후회로부터....,자유로워질 수 있어....!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEnd1HPDialogue1" Value="그렇군.... 이제 알겠어....,실력만 출중하다면....,내 전략은.... 무적의 전략이야!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEnd1HPDialogue2" Value="설마 내 전략을 극한까지 끌어낸,자가 있었을 줄이야.... 그리고,그걸 내 눈으로 직접 볼 줄이야....!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue1" Value="전투 전략이나 커스터마이즈 계획,같은 게 잔뜩 써져 있는,낡은 공략집이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndDialogue4" Value="이 세상을 떠난 혼은,자신이 있던 곳에 무언가를,남기고는 성불했다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue2" Value="마지막 페이지는 분을 못 이기고,막 휘갈긴 것 같아 보이지만,숫자 “11111111”만큼은 잘 보인다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MadManEndRewardDialogue3" Value="이 책의 전 주인은,책갈피로 다양한 걸,썼던 모양이다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue1" Value="상하이，우리 여기 말고,다른 길들은 다 가 봤지?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue2" Value="따로 길이 없다면,이제 남은 길은,여기밖에 없는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue3" Value="토벌 보수가.... 2백만....,....7，아니，8이었던가....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue4" Value="있지，앨리스.,난 벌써 지쳤는데 넌 어때?,나 지금 자고 싶은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue5" Value="그렇네，상하이.,이번 의뢰는,좀 많이 피곤하네." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue6" Value="그렇지만 언제고 자고 있다간,귀찮은 게 늘어날 뿐이야.,가자，상하이." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue7" Value="...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8" Value="에헤헤!,어머，너희들을,완전히 잊고 있었네." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue9" Value="저，저 진짜 짜증나는 거...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue10" Value="어머나?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue11" Value="설마 자기가 만든 문도,못 연다는 건 아니지?,그거 엄청 한심해 보인다고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue12" Value="이번엔 또 뭐야?,요우무? 여기 좀 와 볼래?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue13" Value="”실패 횟수가 너무 많아,락다운 상태에 진입합니다.”,....라고 시스템이 경고하네요." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue14" Value="오염이 자동 필터에,적응해 버린 것 같군요." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue15" Value="뭐야 이거!? 내가 만든 문인데,”원격 접속 불가능”이라니,뭔 소리야!?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue16" Value="원래대로라면 이 배리어에는,유유코 님의 힘이 깃들어 있으니까,그 힘을 인식해야 할 텐데...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue17" Value="그렇지만 그렇다고 유유코 님이,저 오염에 가까이 가시는 건....,너무 위험합니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue18" Value="원작자마저도 시간 낭비하는 거,봐서는 여긴 더 안 될 것 같네.,돌아가자，앨리스." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue19" Value="S캐::ㄴㅇI DHKSFY되었습니다.,머X상을 rja::tk合니Дa." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20" Value="어서 오십시오，:,I4A개의 無기의 극에 MOON한,전2의 여신" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue21" Value="어서 오십시오，,유유코 님." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue22" Value="....다 깨진 거 같은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23" Value="아무래도 스캔 도중에,모종의 착각....이,있었던 모양이군요...." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue24" Value="좋아!,이제 이 에리어에 있는,오염을 청소하는 것만 남았네!" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue25" Value="거기서 우리가 해야 할 일이 있어?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue26" Value="그 배리어는 외부로부터의,공격을 받아 내부 버퍼를,충전하는 식으로 작동합니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue27" Value="그 버퍼를 과부하시키면,장치가 파괴되면서 폭풍이 발생해서,오염까지 같이 지워버릴 겁니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue28" Value="그렇지만 그 폭풍은,그걸 부수려 한 사람이나,그 주변까지 죄다 쓸어버리겠지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue29" Value="부술 가치가 있을 때의 이야기지만,부숴 버리는 것 외에,선택지가 없다면 난 상관 없어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue30" Value="앨리스，다시 한 번 더,칩 폴더를 점검해 보고 나서,이걸 정리하자." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue20Failed" Value="대상의 확인에 실패하였습니다:,I4A개의 無기의 극에 MOON한,전2의 여신" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue21Failed" Value="액세스가 거부되었습니다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue22Failed" Value="어머，아깝네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue23Failed" Value="안에서 기다리고 있을게～" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue31" Value="안에서 기다리고 있을게～" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8a" Value="기다려.,문을 열어 줄 테니까." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Barrier3DoorUnlockEventDialogue8b" Value="어머?" Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2FridgeDescription1" Value="길고，여러 구간으로 나뉘어진,전뇌 냉장고이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2FridgeDescription2" Value="안에 담아 둔 전뇌 요리를,식히고，전뇌.... 박테리아라,부를만한 거로부터 보호한다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2OvenDescription1" Value="오븐 주변의 공기가 아직 따뜻하다.,아까 전까지 누가 쓴 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2OvenDescription2" Value="구형이나 인지도가 낮은 기종은,불 속성 칩을 연료로,소모할 필요가 있다는 듯하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2SinkDescription1" Value="깨끗하게 씻은 식기류들이,선반에 깔끔하게 정돈되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2Cushion1Description" Value="두꺼운 쿠션을 쌓아올려서,의자처럼 쓰고 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2TableDescription1" Value="일반적인 좌식 테이블의,다리를 길게 늘려서 입식처럼,만들어 놓은 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2TableDescription2" Value="넷 내비에게 전뇌 요리는,일종의 사치라 이런 식사 공간은,보기 드문 광경이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorBlockedDialogue1" Value="이런 방에 함부로 들어가려 했다간,이걸 보고 있는 저 둘한테,한 소리 듣겠지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue1" Value="다양한 물건을 수납하는,선반 한가운데에 두 자루의,검이 진열되어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2DoorSwordCabinetDialogue2" Value="전투에서 쓰는 검들은 대부분,배틀칩을 통해 만들어진 거지만,이건 실제로도 쓰는 물건 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1" Value="안에 있지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue2" Value="어머，어서 오렴!,딱 좋은 시기에 왔구나." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue3" Value="우리 요우무도 참 대단하지?,자，빨리 앉아!,배가 상당히 고픈 참이었는데!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue4" Value="....일단 알겠어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue5" Value="....이렇게 다시금 한 번,화이트 헤븐 에리어에 있는,혼들의 윤회를 무사히 조절했어." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue6" Value="와아...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue7" Value="난 여기에 식사하러 온 게 아닌데?,니들 영역을 ”내 손으로” 청소하는,방법을 물어보러 온 건데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue8" Value="네 이놈....!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue9" Value="그 말썽꾸러기 유령들만,아니었다면 훨씬 더 일이,편해졌을 건데!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue10" Value="요우무，그녀에게 말해 주겠니?,이곳에서 무슨 일이 있었는지?" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue11" Value="#b@false#알겠습니다，유유코 님.,#w@150##e#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue12" Value="#b@false#최근에 인터넷에 이변이 일어난,이후로 수많은 혼들이 이곳에,흘러들어 왔습니다.#w@60##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue13" Value="#b@false#대부분 평화롭게 보내드릴 수,있었습니다만.... 그 중에는 다소....#w@24#,이질적인 자들도 있었습니다.#w@24##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue14" Value="#b@false#이 내비들은 다른 내비들에 비해,심하게 고밀도였고，얌전히,성불해 주지를 않았습니다.#w@25##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue15" Value="삭제" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue16" Value="삭제" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue17" Value="#b@false#오히려 이....#w@20# 괴물들은,다른 내비들을 습격해서,그들을 포식하기에 이르렀죠.#w@25##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue18" Value="#b@false#아무 죄 없는 내비들을,공격한다니 진짜 괴물이네.,네가 할 말은 아니긴 하지만.#w@75##e@#" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19" Value="#b@false#방금 저 괴물 취급했죠!?#p@MCFParallelAngry#,제가 어딜 봐서 괴물인데요!#w@45#,#p@MCFParallelAngryEnd##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue20" Value="#b@false#그렇지만 이 에리어의 관리자인,유유코님 덕분에 이변은,무사히 해결되었습니다.#w@75##e@#]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue21" Value="#b@false#그마저도 최후의 이질적인 혼이,들어오기 이전의,이야기였지만....#w@120##e@#]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue22" Value="삭제" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue23" Value="#b@false#마지막에 나타난 그건 거대했던 건,둘째치고，이 세계를 오염시킬,정도의 원한을 품고 있었습니다.#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue24" Value="#b@false#그 압력 때문에 침략자들의,봉인은 풀려 버렸고，그들은,이곳 전역에서 날뛰기 시작했죠.#w@120##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25" Value="#b@false#...대미지를 버텨내면서,그 거대한 혼을 이 에리어에서,추방하였습니다.#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue26" Value="#b@false#그런데 저희가 그 둘에 정신이,팔려 있는 동안 거대한 악이,난입해서는 그 혼을 뺏아갔죠.#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue27" Value="#b@false#무엇 때문에 그 혼을,빼앗았는지는,저희로써는 모르겠습니다....#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue28" Value="그냥 우리들에게 눈엣가시,그 이상으로 위험한 놈 같은데." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue29" Value="지금 확실하게 물어볼게.,맨 마지막에 말한 그 거대한 악이,그 ”어둠의 여왕”이라는 거지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19a" Value="#b@false#에헴.#w@25#,실례했습니다.#w@25##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue30" Value="”어둠의 여왕”이라니....,그녀에게 어울리는 칭호구나." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue31" Value="요우무가 말한 건 그렇게,크게 신경 쓰지 마. 그녀도 그냥,인사만 하러 온 거겠지." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue32" Value="그녀가 있는 데 가 보는 게,어떠니? 최근에는 계속 집에만,틀어박혀 있는 것 같던데." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue33" Value="물론 거길 들어가려면,열쇠가 있어야 할 거야....,내가 그걸 어디다 뒀지?" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue34" Value="설마 그 때 그 소동 중에,잃어버리신 게 아닌지요....?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue35" Value="아니，그럴 리는....,....아，여기 있었구나!,운이 좋았네!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue36" Value="그녀의 목에 얼마나 큰,현상금이 걸려 있는지,알고는 있지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue37" Value="어머，그녀라면 괜찮을 거야!,그녀는 이 곳의 정반대편에 있어.,내 안부인사라도 전해 주련!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue38" Value="여기 이래도 되는 거냐.#w@30#,그럼 난 먼저 갈게." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue39" Value="잠깐만 기다려 주세요." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue40" Value="유유코 님께서 말씀하시는 건,일반적인 관점에서 좀 떨어져,있을 뿐 대부분 사실입니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue41" Value="어둠의 여왕은 보통 존재가,아닙니다. 그녀나 그녀가 창조해낸,존재들은 각별히 주의하시길." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue42" Value="그녀는 우라 인터넷의,깊은 곳에 있는，죽은 듯한,대지에 있습니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue43" Value="그래，그래. 죽은 대지라고?,알았어，그럼 서두르지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue44" Value="이제 속이 좀 풀려，상하이?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue1a" Value="#b@false#자，어디 그럼,이야기를 좀 해 보....#b@false##w@30##e@#" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue4a" Value="자，어디 그럼，,잘 먹겠습니다!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue45" Value="앨리스，난 한시라도 빨리,저 머저리 같은 데를,벗어나고 싶었을 뿐이야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue46" Value="정말이지，그렇다고,그렇게까지 무례하게,나올 필요는 없었잖아...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19b" Value="#b@false#그 침략자들의 혼들은,마치 이 세계의 존재가 아닌 듯한,이질적인 공통점이 있었어요.#w@25##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19c" Value="#b@false#당신의 신체 성능이나,전투 능력을 분석해 봤을 때에는,최악의 사태가 벌어졌다 생각했죠.#w@25##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19d" Value="#b@false#아，그래서,공격했던 거구나.#w@25##e@#" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue19e" Value="#b@false#네，그런 거죠.#w@25##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue20a" Value="#b@false#그렇게 얼마 동안은,평화로운 날이 지속되었죠.#w@75##e@#]" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue20b" Value="#b@false#유유코님께서 그 혼들을,성불시키기 전까지는 그들을,봉인할 수밖에 없었지만요.#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue24a" Value="#b@false#날뛰는 침략자들과 마지막에 나타난,그 혼의 오염으로부터 서버를,지키기 위해 유유코 님께서는....#w@120##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25a" Value="#b@false#하지만，유유코 님께서는,그 혼이나 오염들을 틀어막느라,힘을 소진해 버리셔서....#w@75##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2MeetingCutsceneDialogue25b" Value="#b@false#저 침략자들에게는 대응할 수가,없어졌고，결국 그들을 유인해서,가둬 놓을 수밖에 없었죠.#w@150##e@#" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue1" Value="지금 들고 있는 그거，설마....?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue2" Value="누관검이로군요!,이곳이 침략당했던 그 때,잃어버린 줄 알았는데...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue3" Value="녹까지 슬었잖아....,한시라도 빨리,손질을 해야겠네요!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue4" Value="....아，맞아! 잊고 있었네!,제 검을 되찾아 주셔서,감사합니다!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue5" Value="그 보답이라 말하기도 이상하지만,원하신다면 언제든 대련에,참여해 드리겠습니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuSwordDataDialogue6" Value="옆 방에서 기다리고 있겠습니다.,하루빨리 검을 손질해서,원래 장소에 갖다 놔야지...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeIntroDialogue1" Value="이러면 이제 다 됐네요.,드디어 원래 장소에,돌아올 수 있었네...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue2" Value="아，저랑 검술 대련을,하러 오셨나요?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue3Question" Value="요우무에게 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet2YoumuChallengeDialogue3Options" Value="예,아니오" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue4Accept" Value="진짜 누관검을 되찾은 내게,벨 수 없는 것 따위，,절대로 없다!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeDialogue4Decline" Value="준비가 다 되시면,다시 찾아와 주세요." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV2Dialogue1" Value="제가 더 가르칠 수 있는 게,더 없는 모양이네요." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV2Dialogue2" Value="자，받아 주시길." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV2Dialogue3" Value="전투 데이터는 경험과는 비교할,바가 못 되지만，당신이라면,충분히 활용할 수 있을 거에요." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV2Dialogue1" Value="누관검과 백루검을 상대로,버틸 수 있는 상대방은,그다지 많이 없답니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue1" Value="저와 대련하시겠나요?,서로에게서 배울 것이,많다고 생각하는데요." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue2Question" Value="요우무에게 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet2YoumuChallengeV3Dialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeWinV3Dialogue1" Value="좋은 시합이었습니다.,저도 아직 좀 먼 것 같군요." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV2Dialogue2" Value="졌다고는 해도 도전 그 자체에는,아무 문제가 없습니다. 다시금,기회가 된다면 부탁드리겠습니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeLossV3Dialogue1" Value="좋은 싸움이었습니다.,언젠가 다시금 한 번,부탁드리겠습니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Accept" Value="이번에야말로 절대로,지지 않겠습니다!" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuChallengeV3Dialogue3Decline" Value="알겠습니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoAfterMeetingNoBattleDialogue1" Value="어머，어서 오렴.,자，차 한 잔 마실래?" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoAfterMeetingNoBattleDialogue2" Value="봄철에 여기서 내려다봤을 때의,경관은 정말 아름답단다.,지금은 봄은 아니지만...." Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingNoBattleDialogue1" Value="제 최우선 본분은,유유코 님을 섬기고,그 분을 지키는 것입니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingNoBattleDialogue2" Value="그렇지만 저희가 있을 곳이,이런 상태로 남아 있다는 게,여러모로 씁쓸할 따름이죠...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue1" Value="-- 안 쓰이는 대사 --" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue2" Value="예쁘지 않니?,이 나무는 원래,이런 모습이었단다!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue3" Value="그리고 딱 좋은 타이밍에 왔네.,보렴!" Face="YuyukoCasual" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue4" Value="이 감촉，오래간만이로고...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue5" Value="상하이，그리고 앨리스.,화이트 헤븐 에리어의 관리자로써,마음 깊은 감사를 표합니다." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue6" Value="그러면，이 에리어에,남아 있는 오염의 흔적을,제 힘으로 없애도록 하죠." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleUnlockDialogue7" Value="다른 문제 이야기는,이게 다 끝나고 나서 하죠.,오래 걸리지 않을 겁니다." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue1" Value="이 에리어를,구해 주신 것에 대해,진심으로 감사드립니다." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue2" Value="여러분 덕에 이 에리어에 남아,있는 오염도 완전히 없어졌고，,저도 힘을 되찾았습니다." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue3" Value="뭔가 말투가 다르다구요?,아，일상복을 입고 있을 때는,좀 느긋하게 말해서려나요?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroDialogue4" Value="그거는 둘째치고，둘 덕분에,이 에리어도 안정화되었군요.,저 침략자들의 경우에는...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue5" Value="그들이 날뛰던 그 때，그들은,방치되었던 혼들을 먹어치우고,스스로를 강화시키는 듯했지요." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue6" Value="그렇게 위험해진 그들을,제 힘으로 제압하기에는 이 에리어,전역이 위기에 빠질 수도 있었죠." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue7" Value="그렇기에 지금은,그들이 약해질 때까지,가둬 두는 수밖에 없었지만...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue8" Value="그렇지만，만약 그들의 혼을,무사히 해방할 수 있는,자가 있다고 한다면...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroGhostsRemainDialogue9" Value="그들이 갇혀 있던 곳에 있던,미끼를 전리품으로써,수여해도 상관 없을 지도요?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue5" Value="아무래도 그들을 구원하는,방법에 대해서는 저보다 그대가,더 많이 알고 있었나 보군요." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue6" Value="또 한 번 빚을 지게 되었군요.,저들은 날뛰던 동안에 혼들을,너무 먹어서 과하게 세졌었는데...." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue7" Value="그들을 막으려 했다간,이 에리어 전역이 불안정해지다가,심하면 붕괴할 수도 있었는데." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue8" Value="저희는 참 운이 좋았나 보네요.,저들 특유의 기질에 맞설 수,있는 자들을 만나다니!" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoBattleIntroAllGhostsDefeatedDialogue9" Value="저들이 감금된 장소에 있었던,것들은 다 일종의 전리품이랍니다.,자유롭게 받아가시길." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue1" Value="어머?,이야기하고픈 거라도 있나요?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue2Question" Value="유유코한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.HeavenNet2YuyukoChallengeDialogue2Options" Value="예,아니오" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue3Accept" Value="이 힘을 써 보는 것도,오랜만이구나.... 그러면 어디,번데기를 찢고，나비처럼 날아 볼까?" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeDialogue3Decline" Value="저희들의 문은 언제나,열려 있습니다.,언제든 들어오시길." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue1" Value="어머，배틀 데이터에 무슨,에러가 발생한 모양이군요." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue2" Value="일반적인 시스템으로,제 힘을 분석하려 하면,꽤나 문제가 발생하나 봐요." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinDialogue3" Value="자，멋진 싸움에 대한,저의 사례랍니다." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeLostDialogue1" Value="전력으로 나설 기회가,거의 없었는데 간만에,좋은 운동이 되었네요." Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue1" Value="유유코 님께서 힘을 되찾으셨으니,뭔가 특별한 걸,준비해야겠네요...." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue2" Value="모두 두 분 덕분입니다.,이 에리어를 구해 주셔서,진심으로 감사합니다." Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YoumuAfterMeetingYuyukoUnlockedDialogue3" Value="어디 그럼，뭘 요리해 볼까....?" Face="Youmu" Mono="False" />
+  <Dialogue Key="Map.HeavenNet2YuyukoChallengeWinChipGottenDialogue1" Value="멋진 싸움이었어요." Face="YuyukoCombat" Mono="False" />
+</data>

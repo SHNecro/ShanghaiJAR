@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 幻想町 -->
+  <Text Key="Map.GencityName" Value="환상 마을" />
+  <!-- ふう　PETをインストールした万歩計があって助かった -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue1FaceMaleOld" Value="후우，PET를 설치해 둔,만보계가 있어서 다행이군." Face="MaleOld" Mono="False" />
+  <!-- メールが見れなかったらあやうく重要な書類を忘れるところだった -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue2FaceMaleOld" Value="메일 같은 걸 못 보게 되면,하마터면 중요한 서류를,잊어버릴 뻔하기도 해." Face="MaleOld" Mono="False" />
+  <!-- PETさえ入れればどんな電子機器でも -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue3FaceMaleOld" Value="PET만 있다면,어떤 전자 기계를 쓰더라도" Face="MaleOld" Mono="False" />
+  <!-- ネットナビのおかげでメールやインターネットができるからな -->
+  <Dialogue Key="Map.GencityChapter1OlderManStage1Dialogue4FaceMaleOld" Value="넷 내비 덕분에,메일이나 인터넷을,쓸 수 있어." Face="MaleOld" Mono="False" />
+  <!-- ええっと　チップフォルダに入るチップの数は３０枚････っと -->
+  <Dialogue Key="Map.GencityChapter1YouthStage1Dialogue1FaceMaleAdult" Value="어디 보자，칩 폴더에 있는,칩의 개수는 30장.... 이라." Face="MaleAdult" Mono="False" />
+  <!-- 今日の仕事はお得意先の機械に入ったウィルスの退治だからね -->
+  <Dialogue Key="Map.GencityChapter1YouthStage1Dialogue2FaceMaleAdult" Value="오늘 할 일은 단골 거래처의,기계에 침입한 바이러스를,퇴치하는 일이니까." Face="MaleAdult" Mono="False" />
+  <!-- 失敗しないようにちゃんとチェックしておこう -->
+  <Dialogue Key="Map.GencityChapter1YouthStage1Dialogue3FaceMaleAdult" Value="실패하지 않도록,확실하게 체크하고 가자." Face="MaleAdult" Mono="False" />
+  <!-- 中学校はここをまっすぐ行ったところにあるよ！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirlStage1Dialogue1FaceFemaleChild" Value="중학교는 여기서,바로 앞으로 가면 있어!" Face="FemaleChild" Mono="False" />
+  <!-- えへへ　この町の地図がんばって覚えたの！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirlStage1Dialogue2FaceFemaleChild" Value="에헤헤，이 마을 지도,외우느라고 고생 좀 했지!" Face="FemaleChild" Mono="False" />
+  <!-- 昨日　友達の家の冷蔵庫が暴走したんだって -->
+  <Dialogue Key="Map.GencityChapter1OlderSisterStage1Dialogue1FaceFemaleAdult" Value="어제 친구 집의,냉장고가 폭주했다는데." Face="FemaleAdult" Mono="False" />
+  <!-- もしかしてウワサのROMっていうネット犯罪集団の仕業かしら -->
+  <Dialogue Key="Map.GencityChapter1OlderSisterStage1Dialogue2FaceFemaleAdult" Value="혹시 소문대로 ROM이라 불리는,그 넷 범죄 집단이 벌인 걸까?" Face="FemaleAdult" Mono="False" />
+  <!-- 予定とかを忘れて困ったときはＬボタンを押すといいんですよ -->
+  <Dialogue Key="Map.GencityChapter1AuntStage1Dialogue1FaceFemaleMiddleAged" Value="예정 같은 걸 잊어버려서,난감한 상황이 됐다면,L 버튼을 눌러 보면 된단다." Face="FemaleMiddleAged" Mono="False" />
+  <!-- そうすれば　ネットナビがアドバイスをくれますからね -->
+  <Dialogue Key="Map.GencityChapter1AuntStage1Dialogue2FaceFemaleMiddleAged" Value="그러면 넷 내비가,조언을 해 줄 거야." Face="FemaleMiddleAged" Mono="False" />
+  <!-- わたくし物忘れが激しいのでネットナビに頼ってばっかりですわ -->
+  <Dialogue Key="Map.GencityChapter1AuntStage1Dialogue3FaceFemaleMiddleAged" Value="내가 건망증이 심해서,내비의 도움을,정말 많이 받거든." Face="FemaleMiddleAged" Mono="False" />
+  <!-- ここは幻想町という名前の町なんじゃよ -->
+  <Dialogue Key="Map.GencityChapter1OldManStage1Dialogue1FaceMaleElderly" Value="여기는 환상 마을이라는,이름의 마을이여." Face="MaleElderly" Mono="False" />
+  <!-- 都市部からほどよく離れてて空気がきれいな町なんじゃ -->
+  <Dialogue Key="Map.GencityChapter1OldManStage1Dialogue2FaceMaleElderly" Value="도시와 상당히 떨어져 있어서,공기도 참 깨끗한 마을이제." Face="MaleElderly" Mono="False" />
+  <!-- 本当に　この町は住みやすくていい街じゃわい -->
+  <Dialogue Key="Map.GencityChapter1OldManStage1Dialogue3FaceMaleElderly" Value="참 살기 편한 마을이어라." Face="MaleElderly" Mono="False" />
+  <!-- この門の先が幻想中学校ですよ -->
+  <Dialogue Key="Map.GencityChapter1GrandmotherStage1Dialogue1FaceFemaleElderly" Value="여기 있는 문이,환상중학교 교문이야." Face="FemaleElderly" Mono="False" />
+  <!-- 孫が通っておるからちょっと見に来たのよ -->
+  <Dialogue Key="Map.GencityChapter1GrandmotherStage1Dialogue2FaceFemaleElderly" Value="손자가 다니는 곳이라,잠깐 보러 왔어." Face="FemaleElderly" Mono="False" />
+  <!-- ってあらあらお嬢ちゃんはこの中学校の生徒さんでしたか -->
+  <Dialogue Key="Map.GencityChapter1GrandmotherStage1Dialogue3FaceFemaleElderly" Value="그러고 보니 학생은,이 중학교 학생이었는감." Face="FemaleElderly" Mono="False" />
+  <!-- へぇー　お姉ちゃん携帯電話にナビ入れてるんだ！ -->
+  <Dialogue Key="Map.GencityChapter1TeenagerStage1Dialogue1FaceMaleChild" Value="헤에，누나 핸드폰에,내비가 들어있네!" Face="MaleChild" Mono="False" />
+  <!-- オイラは携帯ゲーム機に入れてるんだぜ！ -->
+  <Dialogue Key="Map.GencityChapter1TeenagerStage1Dialogue2FaceMaleChild" Value="난 휴대 게임기에,내비 넣어서 다니는데!" Face="MaleChild" Mono="False" />
+  <!-- ねえ　プラグインって知ってる？ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue1FaceFemaleChild" Value="있지，플러그인에 대해서 알아?" Face="FemaleChild" Mono="False" />
+  <!-- パソコンみたいにプラグインができる機械にネットナビを送ることなのよ！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue2FaceFemaleChild" Value="컴퓨터 같이,플러그인할 수 있는 기계에,내비를 전송하는 행동이야!" Face="FemaleChild" Mono="False" />
+  <!-- やり方は簡単！機械の近くでＲボタンを押すだけでいいの！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue3FaceFemaleChild" Value="하는 방법은 간단해!,기계 근처에서 R 버튼을,누르면 끝이야!" Face="FemaleChild" Mono="False" />
+  <!-- この花だんにもプラグインができるみたいだから試してみて！ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue4FaceFemaleChild" Value="이 화단에도 플러그인을,할 수 있는 것 같은데,한 번 시도해 봐!" Face="FemaleChild" Mono="False" />
+  <!-- あれ　この花だんのお家お姉さんのだったの？ -->
+  <Dialogue Key="Map.GencityChapter1YoungGirl2Stage1Dialogue5FaceFemaleChild" Value="어라，이 화단 있는 집이,언니 집이었어?" Face="FemaleChild" Mono="False" />
+  <!-- 私はサブチップ商人です -->
+  <Dialogue Key="Map.GencityASub-chipMerchantStage1Dialogue1FaceScientist" Value="전 서브칩 상인입니다." Face="Scientist" Mono="False" />
+  <!-- サブチップを買いますか？ -->
+  <Dialogue Key="Map.GencityASub-chipMerchantStage1Dialogue2QuestionFaceScientist" Value="서브칩을 구매하시겠어요?" Face="Scientist" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GencityASub-chipMerchantStage1Dialogue2Options" Value="예,아니오" />
+  <!-- 友達とリニアメトロに乗って中央街に買い物しに行くの！ -->
+  <Dialogue Key="Map.GencityChapter2GirlStage1Dialogue1FaceFemaleStudent" Value="친구랑 전철 타고,중앙로에 쇼핑 가려고 해!" Face="FemaleStudent" Mono="False" />
+  <!-- 友達まだかな〜 -->
+  <Dialogue Key="Map.GencityChapter2GirlStage1Dialogue2FaceFemaleStudent" Value="친구 언제 올까나～" Face="FemaleStudent" Mono="False" />
+  <!-- リニアメトロは地下を走る高速鉄道なんだよ -->
+  <Dialogue Key="Map.GencityChapter2YouthStage1Dialogue1FaceMaleAdult" Value="이 마을 밑에는,고속 전철이 오가고 있어." Face="MaleAdult" Mono="False" />
+  <!-- 地下にあるから天候などでの時間が遅れがあまりないんだ -->
+  <Dialogue Key="Map.GencityChapter2YouthStage1Dialogue2FaceMaleAdult" Value="지하를 타고 가니까,날씨 때문에 늦어진다던가,하는 일은 거의 없어." Face="MaleAdult" Mono="False" />
+  <!-- いつ見ても大きなお屋敷だなあ -->
+  <Dialogue Key="Map.GencityChapter2UncleStage1Dialogue1FaceMaleElderly" Value="언제 봐도 참 큰 저택이구먼." Face="MaleElderly" Mono="False" />
+  <!-- 私もこれくらいの家に住めるお金持ちになりたかったよ････ -->
+  <Dialogue Key="Map.GencityChapter2UncleStage1Dialogue2FaceMaleElderly" Value="나도 이런 저택에 살 수 있는,부자가 되고 싶었건만...." Face="MaleElderly" Mono="False" />
+  <!-- メトロに乗れば幻想大学まですぐに行けるのよ -->
+  <Dialogue Key="Map.GencityChapter2OlderSisterStage1Dialogue1FaceFemaleAdult" Value="전철에 타면 환상대학교까지,금방 갈 수 있어." Face="FemaleAdult" Mono="False" />
+  <!-- メトロのおかげで実家から大学に通えるから便利なものよ -->
+  <Dialogue Key="Map.GencityChapter2OlderSisterStage1Dialogue2FaceFemaleAdult" Value="전철 덕택에 부모님 댁에서,대학교에 갈 수 있다 보니,이게 이렇게 편할 수가 없어." Face="FemaleAdult" Mono="False" />
+  <!-- もうすぐネットナビを簡単にパワーアップできるツールが発売されるんだって -->
+  <Dialogue Key="Map.GencityChapter2Junior1Stage1Dialogue1FaceMaleStudent" Value="넷 내비를 간단하게,파워업할 수 있는 툴이,얼마 안 지나서 판매된다는데." Face="MaleStudent" Mono="False" />
+  <!-- マジかー！？オレのナビのバスターがすごく強くできるのか！？ -->
+  <Dialogue Key="Map.GencityChapter2Junior2Stage1Dialogue1FaceMaleChild" Value="진짜야!?,내 내비의 버스터가,엄청 세질 수 있다고!?" Face="MaleChild" Mono="False" />
+  <!-- おーい！そこのキンパツ嬢ちゃーん！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage1Dialogue1FaceNone" Value="이봐～!,거기 금발 아가씨～이!" Face="None" Mono="False" />
+  <!-- せ、戦車！？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue1FaceAlice" Value="저，전차!?" Face="Alice" Mono="False" />
+  <!-- 里香とは関係なさそうだけど -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue2FaceShanghai" Value="리카와는 관계 없어 보이는데." Face="Shanghai" Mono="False" />
+  <!-- おどろかせて悪いけどちょっと助けてくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue3FaceNone" Value="놀래켜서 미안한데,잠깐 좀 도와줄 수 있어?" Face="None" Mono="False" />
+  <!-- どうかしたんです？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue4FaceAlice" Value="무슨 일인가요?" Face="Alice" Mono="False" />
+  <!-- コントロールユニットがウィルスにやられたみたいでハッチが開かなくなったんだ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue5FaceNone" Value="컨트롤 유닛이,바이러스에게 당한 것 같아.,해치가 열리지를 않네." Face="None" Mono="False" />
+  <!-- 良かったらちょいとナビでウィルスバスティングとやらをやってくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue6FaceNone" Value="된다면 잠깐 내비로,바이러스 버스팅인지,뭔지 하는 거 좀 해 줄래?" Face="None" Mono="False" />
+  <!-- やってもいいけどお礼ははずみなさいよ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue7FaceShanghai" Value="해 줄 수도 있긴 한데,사례는 잊지 말라고!" Face="Shanghai" Mono="False" />
+  <!-- ちょっと　親切に報酬を要求しちゃダメよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue8FaceAlice" Value="아니，단순 친절에,무슨 보수까지 요구해." Face="Alice" Mono="False" />
+  <!-- なーに言ってんの！ネットバトラーたるもの「お礼を貰うまでが親切」よ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue9FaceShanghai" Value="뭔 소리야!,넷 배틀러인 이상 ”보수를,받을 때까지가 친절”이지!" Face="Shanghai" Mono="False" />
+  <!-- 礼の話なら終わった後だ中が暑くてかなわんよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue10FaceNone" Value="사례 이야기는,다 끝나고 나서 하자.,안이 뜨거워서 못 버티겠어." Face="None" Mono="False" />
+  <!-- わかりました -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue11FaceAlice" Value="알겠어요." Face="Alice" Mono="False" />
+  <!-- えーっと　プラグイン端子は････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue12FaceAlice" Value="어～디 보자，,플러그인 단자가...." Face="Alice" Mono="False" />
+  <!-- あった！行くわよシャンハイ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue13FaceAlice" Value="여기 있네!,가자，상하이!" Face="Alice" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue14FaceAlice" Value="배틀 오퍼레이션，셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage3Dialogue15FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- 意外と手ごわかったわね････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage5Dialogue1FaceAlice" Value="의외로 상대하기 어려웠어...." Face="Alice" Mono="False" />
+  <!-- おっ　開くようになった！よいしょっと！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage5Dialogue2FaceNone" Value="오，열린다 열려!,엿차!" Face="None" Mono="False" />
+  <!-- ふぃ〜！シャバの空気はいいねぇ〜！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue1FaceKumami" Value="휘우～!,바깥 공기 참 좋다～!" Face="Kumami" Mono="False" />
+  <!-- キンパツ嬢ちゃん助かったよ　ありがとうな！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue2FaceKumami" Value="금발 아가씨，,덕분에 살았어. 고마워!" Face="Kumami" Mono="False" />
+  <!-- どういたしまして -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue3FaceAlice" Value="천만에요." Face="Alice" Mono="False" />
+  <!-- しっかし日本の町中で戦車なんて変わってるわね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue4FaceShanghai" Value="그나저나 일본 마을에서,전차라니 참 드문 광경이네." Face="Shanghai" Mono="False" />
+  <!-- アラブスタンで乗り回した愛車なものでね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue5FaceKumami" Value="아랍스탄에서 몰고 다닌,내 애마라서 말이지." Face="Kumami" Mono="False" />
+  <!-- っと　自己紹介を忘れてた -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue6FaceKumami" Value="어이쿠，자기소개를 잊었네." Face="Kumami" Mono="False" />
+  <!-- 私は古阿　隈美（こあ　くまみ）っていうんだ　よろしくな！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue7FaceKumami" Value="난 코아 쿠마미라 해.,잘 부탁하지!" Face="Kumami" Mono="False" />
+  <!-- 古阿って　もしかして････？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage7Dialogue8FaceAlice" Value="코아라니 혹시....?" Face="Alice" Mono="False" />
+  <!-- 神綺さん　どうしたの？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage9Dialogue1FaceKumako" Value="무슨 일이야，앨리스?" Face="Kumako" Mono="False" />
+  <!-- 戦車から出られなくなったこの人を助けてあげたんです -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue1FaceAlice" Value="이 분이 전차에서,나올 수 없었던 상황이었는데,그걸 도와 드렸어요." Face="Alice" Mono="False" />
+  <!-- ん？その声は････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue2FaceKumami" Value="어?,그 목소리는...." Face="Kumami" Mono="False" />
+  <!-- お、お姉ちゃん！？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue3FaceKumako" Value="어，언니!?" Face="Kumako" Mono="False" />
+  <!-- 久真子じゃないか！ひっさしぶりだな〜！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue4FaceKumami" Value="쿠마코잖아!,이야～오랜만이다～!" Face="Kumami" Mono="False" />
+  <!-- いつ日本に帰ってきたの？もう、本当に心配してたんだから -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue5FaceKumako" Value="일본에는 언제 돌아왔어?,정말이지 사람 걱정하게 만들고." Face="Kumako" Mono="False" />
+  <!-- ････なるほどなるほど -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue6FaceShanghai" Value="....아하，그런 거였구나." Face="Shanghai" Mono="False" />
+  <!-- どうしたの？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue7FaceAlice" Value="뭐가?" Face="Alice" Mono="False" />
+  <!-- さっきしもべに隈美っていう人について軽く調べさせたのよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue8FaceShanghai" Value="아까 부하들한테,쿠마미라는 사람이 누군지,조사 좀 시켜 봤는데" Face="Shanghai" Mono="False" />
+  <!-- 「大金持ちの冒険家」って言われてて結構有名な人みたいよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue9FaceShanghai" Value="”부자 모험가”라 불리는 사람인데,꽤나 유명한 것 같아." Face="Shanghai" Mono="False" />
+  <!-- つい最近はアラブスタンで賞金稼ぎをしてたんだって -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue10FaceShanghai" Value="최근에는 아랍스탄에서,상금을 쓸어담았다는데." Face="Shanghai" Mono="False" />
+  <!-- ふーん････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage11Dialogue11FaceAlice" Value="흐～음...." Face="Alice" Mono="False" />
+  <!-- ････ってわけでこの町にしばらく住もうと思うんだ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue1FaceKumami" Value="....그런 고로,이 마을에 얼마 동안,자리 잡고 살 생각이야." Face="Kumami" Mono="False" />
+  <!-- そうだ　キンパツ嬢ちゃんお礼についてなんだけどさ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue2FaceKumami" Value="아 맞다，금발 아가씨，,아까 사례에 대해서 말인데" Face="Kumami" Mono="False" />
+  <!-- この町に何もせず住むんじゃ退屈だからさ　何かお店を始めようと思うんだ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue3FaceKumami" Value="이 마을에서 아무것도,안 하고 살기엔 좀 지루해서,가게라도 하나 차릴까 싶거든." Face="Kumami" Mono="False" />
+  <!-- そこで　何のお店にするかキンパツ嬢ちゃんたちが決めていいよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue4FaceKumami" Value="여기서 어떤 가게를 열지를,금발 아가씨의 선택에 맡길게." Face="Kumami" Mono="False" />
+  <!-- えっ　いいんですか！？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue5FaceAlice" Value="어，괜찮은가요!?" Face="Alice" Mono="False" />
+  <!-- さっきの礼代わりだよ何でもいいから言ってごらん -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue6FaceKumami" Value="아까 전에 말한 사례를,이걸로 대체하는 거야.,뭐든 좋으니까 이야기해 봐." Face="Kumami" Mono="False" />
+  <!-- えっと　じゃあ････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue7FaceAlice" Value="어디，그러면...." Face="Alice" Mono="False" />
+  <!-- はいはーい！チップショップがいいでーす！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue8FaceShanghai" Value="저기，저기!,칩 샵이 좋을 것 같아요～!" Face="Shanghai" Mono="False" />
+  <!-- チップショップか････いいね！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue9FaceKumami" Value="칩 샵이라....,그거 좋겠는데!" Face="Kumami" Mono="False" />
+  <!-- ちょっと　勝手に決めないでよ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue10FaceAlice" Value="아，네멋대로 정하지 말라고!" Face="Alice" Mono="False" />
+  <!-- じゃあアリスは何の店が良かったの？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue11FaceShanghai" Value="그러면 앨리스는,무슨 가게를 원했는데?" Face="Shanghai" Mono="False" />
+  <!-- ････手芸屋さん -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue12FaceAlice" Value="....취미용품점." Face="Alice" Mono="False" />
+  <!-- そんなのどこにでもあるでしょうが！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue13FaceShanghai" Value="그건 어디 가든 있잖아!" Face="Shanghai" Mono="False" />
+  <!-- チップショップは中央街まで行かないと無いんだからね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue14FaceShanghai" Value="칩 샵은 중앙가까지 가야 있다고." Face="Shanghai" Mono="False" />
+  <!-- ちぇっ････しょうがないなぁ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue15FaceAlice" Value="쳇....,어쩔 수 없네." Face="Alice" Mono="False" />
+  <!-- ハハハ！君たちは仲がいいねぇ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue16FaceKumami" Value="하하하!,너희들 사이 좋구나!" Face="Kumami" Mono="False" />
+  <!-- よし　じゃあ早速チップショップを開くための手続きをしに行ってくるよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue17FaceKumami" Value="좋아，그럼 바로,칩 샵 개점 수속을,밟으러 가야지." Face="Kumami" Mono="False" />
+  <!-- じゃあな　久真子今度メシでもおごってやるよ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage13Dialogue18FaceKumami" Value="나중에 보자，쿠마미.,언제 밥이라도 같이 먹자!" Face="Kumami" Mono="False" />
+  <!-- 神綺さん変なお姉ちゃんでごめんね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue1FaceKumako" Value="앨리스，,언니가 저래서 미안해." Face="Kumako" Mono="False" />
+  <!-- 隈美さんって先生のお姉さんなんですか？ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue2FaceAlice" Value="쿠마미 씨가,선생님의 언니이신가요?" Face="Alice" Mono="False" />
+  <!-- そうよ　４つ上のお姉ちゃん -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue3FaceKumako" Value="응，4살 위의 언니야." Face="Kumako" Mono="False" />
+  <!-- 元々お姉ちゃんは大手の銀行に務めていたんだけど････ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue4FaceKumako" Value="원래 언니는 대형 은행에서,근무하고 있었는데...." Face="Kumako" Mono="False" />
+  <!-- 横領のえん罪でクビになってその後始めた株とかで大儲けしたのよ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue5FaceKumako" Value="횡령 누명을 쓰고 해고된 이후로,주식 같은 걸 시작해서,떼돈을 벌었어." Face="Kumako" Mono="False" />
+  <!-- 最近はそのお金で世界旅行に行ってたんだけど　私が心配で帰ってきたんだって -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue6FaceKumako" Value="최근에는 그 돈으로,세계여행을 다니다가,내가 걱정되서 돌아왔대." Face="Kumako" Mono="False" />
+  <!-- いいお姉さんじゃない -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue7FaceShanghai" Value="동생 생각도 할 줄 알고,나름 좋은 언니구만." Face="Shanghai" Mono="False" />
+  <!-- まあ　この町に住んで落ち着いてくれるならいいんだけどね -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue8FaceKumako" Value="뭐，이 마을에 살면서,좀 사람이 진정되었으면,좋겠지만 말이지." Face="Kumako" Mono="False" />
+  <!-- そういえば神綺さん帰る途中だったみたいだけど -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue9FaceKumako" Value="그러고 보면 앨리스，,돌아가는 중이었던 것 같은데" Face="Kumako" Mono="False" />
+  <!-- そうだった！インターネットで学生パス発行してもらわなきゃ！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue10FaceAlice" Value="아 맞다!,인터넷에서 학생 패스,발급받아야 하지!" Face="Alice" Mono="False" />
+  <!-- 先生　さようなら！ -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue11FaceAlice" Value="내일 뵈요，선생님!" Face="Alice" Mono="False" />
+  <!-- 気をつけて帰るのよ〜 -->
+  <Dialogue Key="Map.GencityChapter2TanksStage15Dialogue12FaceKumako" Value="조심해서 돌아가렴～" Face="Kumako" Mono="False" />
+  <!-- 遊んでもいいけれどハメを外しすぎないようにね！ -->
+  <Dialogue Key="Map.GencityChapter2KoaTeacher2Stage1Dialogue1FaceKumako" Value="노는 것도 좋지만,너무 놀지 않도록 하렴!" Face="Kumako" Mono="False" />
+  <!-- 遅いじゃないか待ちくたびれたよ -->
+  <Dialogue Key="Map.GencityChapter2MariStage1Dialogue1FaceMari" Value="늦었잖아.,기다리다 지치겠어." Face="Mari" Mono="False" />
+  <!-- 待っているあいだお話に花を咲かせていたのです！ -->
+  <Dialogue Key="Map.GencityChapter2RikaStage1Dialogue1FaceRika" Value="기다리는 동안,한가득 이야기꽃을,피운 거에요!" Face="Rika" Mono="False" />
+  <!-- あれ　レミリアどうしたの？ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue1FaceAlice" Value="어라，레밀리아는 왜?" Face="Alice" Mono="False" />
+  <!-- ホホホ　ちてきこうきしんの探求は止められないのよ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue2FaceRemilia" Value="호호호，지적 호기심의 탐구란,멈출 수 없는 법이지." Face="Remilia" Mono="False" />
+  <!-- 無理やりついてきたんだよこいつ勝手なんだ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue3FaceMari" Value="어거지로 따라왔어，이 녀석.,아주 제멋대로라니까." Face="Mari" Mono="False" />
+  <!-- 人数が多いほうが楽しいのです！里香は気にしないのです！ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue4FaceRika" Value="사람 수는,많을 수록 좋은 거에요!,리카는 신경 안 쓰는 거에요!" Face="Rika" Mono="False" />
+  <!-- こんなとこで無駄口叩いてないで早く行きましょうよ -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue5FaceShanghai" Value="이런 걸로 쓸데없이,말만 계속 하고 있지 말고,빨리 가자구." Face="Shanghai" Mono="False" />
+  <!-- それもそうねさあ　行きましょう -->
+  <Dialogue Key="Map.GencityChapter2RemiliaStage1Dialogue6FaceAlice" Value="그것도 그렇네.,자，가자." Face="Alice" Mono="False" />
+  <!-- 結局森近博士に解析の結果聞けなかったわね -->
+  <Dialogue Key="Map.GencityChapter2EventsStage1Dialogue1FaceAlice" Value="결국 모리치카 박사님에게서,해석 결과는 못 들었네." Face="Alice" Mono="False" />
+  <!-- 一歩前進しただけマシだと思いましょう -->
+  <Dialogue Key="Map.GencityChapter2EventsStage1Dialogue2FaceShanghai" Value="한 걸음 더 앞으로,나아간 것만으로도,충분하다고 생각하자." Face="Shanghai" Mono="False" />
+  <!-- あら　電話よあの戦車乗りからよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue1FaceShanghai" Value="어머，그 전차 조종수한테서,전화가 왔네." Face="Shanghai" Mono="False" />
+  <!-- 隈美さんから？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue2FaceAlice" Value="쿠마미 씨한테서?" Face="Alice" Mono="False" />
+  <!-- もしもし隈美さんどうしたんです？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue3FaceAlice" Value="여보세요.,무슨 일인가요，쿠마미 씨?" Face="Alice" Mono="False" />
+  <!-- よお　キンパツ嬢ちゃん！さっきはありがとな！おかげで助かったよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue4FaceKumami" Value="금발 아가씨!,아까 전엔 고마웠어!,덕분에 살았어." Face="Kumami" Mono="False" />
+  <!-- 急な話ですまないがちょっと頼まれてくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue5FaceKumami" Value="갑자기 이런 이야기,해서 미안한데,잠깐 부탁 하나 해도 될까?" Face="Kumami" Mono="False" />
+  <!-- いいですけど　何ですか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue6FaceAlice" Value="괜찮긴 한데 뭔가요?" Face="Alice" Mono="False" />
+  <!-- 今　チップショップを開くために中央街の役所で手続きやってるんだ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue7FaceKumami" Value="지금 칩 샵을 개점하려고,중앙가에 있는 관공서에서,수속 절차를 밟고 있는데" Face="Kumami" Mono="False" />
+  <!-- それでな　手続きの一環でナビがいないとダメみたいなんだ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue8FaceKumami" Value="수속 절차의 일환으로써,내비가 있어야 한다나 봐." Face="Kumami" Mono="False" />
+  <!-- えっ　隈美さんってナビ持ってなかったんですか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue9FaceAlice" Value="어，쿠마미 씨,내비 안 가지고 계셨나요?" Face="Alice" Mono="False" />
+  <!-- いや　いるにはいるんだけど海外行く時に久真子に貸してたの忘れててな -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue10FaceKumami" Value="아니，있기는 한데,해외 갈 때 쿠마코한테,빌려줬다는 걸 잊고 있었거든." Face="Kumami" Mono="False" />
+  <!-- よかったら久真子に言ってナビを返してもらってくれないか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue11FaceKumami" Value="혹시 괜찮다면,쿠마코한테 말해 줘서,내비를 돌려달라고 해줄 수 있어?" Face="Kumami" Mono="False" />
+  <!-- こぁ先生からですね？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue12FaceAlice" Value="코아 선생님한테 말이죠?" Face="Alice" Mono="False" />
+  <!-- 別にいいですけど････ナビはどうやって渡せば？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue13FaceAlice" Value="말하는 것까지는 괜찮은데....,내비는 어떻게 받으시려고요?" Face="Alice" Mono="False" />
+  <!-- モヤシみたいに軽いナビだからメールに添付してくれればそれで送れるはずだ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue14FaceKumami" Value="쭉정이 마냥 가벼운 내비니까,메일에 첨부해서 보내주는,것만으로도 충분할 거야." Face="Kumami" Mono="False" />
+  <!-- （モヤシ････？） -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue15FaceAlice" Value="(쭉정이라니....?)" Face="Alice" Mono="False" />
+  <!-- （どんだけ容量の軽い　ナビなのよ････） -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue16FaceShanghai" Value="(대체 얼마나 용량이 작은, 내비길래....)" Face="Shanghai" Mono="False" />
+  <!-- っつーことで　早めに頼むよ！あとでお礼は渡すからさ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue17FaceKumami" Value="그래서 그런데 빨리 부탁할게!,나중에 사례해 줄 테니까." Face="Kumami" Mono="False" />
+  <!-- わかりました -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue18FaceAlice" Value="알겠어요." Face="Alice" Mono="False" />
+  <!-- 先生はこの時間ならまだ学校にいるはずよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue19FaceShanghai" Value="이 시간대라면 아직,선생님은 학교에 계시겠지." Face="Shanghai" Mono="False" />
+  <!-- とりあえず中学校へ行きましょう -->
+  <Dialogue Key="Map.GencityChapter2EventsStage3Dialogue20FaceAlice" Value="일단 중학교로 가 보자." Face="Alice" Mono="False" />
+  <!-- アリス　メールが届いてるわよ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue1FaceShanghai" Value="앨리스，메일이 왔어." Face="Shanghai" Mono="False" />
+  <!-- レミリアから？なになに････ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue2FaceAlice" Value="레밀리아한테서?,무슨 내용이길래...." Face="Alice" Mono="False" />
+  <!-- さっきはごめんなさい口で言うと素直に話せなくて -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue3FaceRemilia" Value="아까는 미안했어.,직접 말을 하려니까,솔직하게 말할 수가 없어서." Face="Remilia" Mono="True" />
+  <!-- あのあとサクヤにも叱られました -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue4FaceRemilia" Value="그 일이 있고 나서,사쿠야한테도 혼났어." Face="Remilia" Mono="True" />
+  <!-- 自分の行動を振り返ってみるとひどいことをしてしまったと反省しています -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue5FaceRemilia" Value="내 행동을 다시 돌아봤는데,심한 짓을 저질러 버렸네.,지금은 반성하고 있어." Face="Remilia" Mono="True" />
+  <!-- お詫びの品ってわけじゃないけど私のホームページのＰコードを差し上げます -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue6FaceRemilia" Value="사과하는 의미에서,줄만한 건 아니지만,내 홈페이지의 P 코드를 줄게." Face="Remilia" Mono="True" />
+  <!-- 良かったら　今度おうちに遊びに来てください -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue7FaceRemilia" Value="괜찮다면 나중에,우리 집에 놀러와." Face="Remilia" Mono="True" />
+  <!-- またネットバトルをしましょうねサクヤも待ってます -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue8FaceRemilia" Value="또 넷배틀하자.,사쿠야도 기다리고 있어." Face="Remilia" Mono="True" />
+  <!-- じゃあまたね -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue9FaceRemilia" Value="그러면 나중에 봐." Face="Remilia" Mono="True" />
+  <!-- まあ　あの子にしてはよくできたんじゃない？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue10FaceShanghai" Value="그 애가 쓴 것치고는,잘 쓴 것 같지 않아?" Face="Shanghai" Mono="False" />
+  <!-- どうしてそんなに偉そうなのよ････ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue11FaceAlice" Value="왜 그렇게 잘난 체하는데...." Face="Alice" Mono="False" />
+  <!-- やっぱあたしの言葉が効いたんでしょうね〜 -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue12FaceShanghai" Value="그야 내가 한 말이,걔한테 통했다는 거니까～" Face="Shanghai" Mono="False" />
+  <!-- そうやってすぐ調子に乗るんだから････ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue13FaceAlice" Value="금방 우쭐해진다니까，얘는 참...." Face="Alice" Mono="False" />
+  <!-- さてと　疲れちゃったしそろそろ帰ろうか？ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue14FaceAlice" Value="자，그럼，지치기도 했고,슬슬 돌아갈까?" Face="Alice" Mono="False" />
+  <!-- それもそうね帰りますか！ -->
+  <Dialogue Key="Map.GencityChapter2EventsStage5Dialogue15FaceShanghai" Value="그것도 그렇네.,돌아가자!" Face="Shanghai" Mono="False" />
+  <!-- 君が依頼を受けてくれた人だねよろしく -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue1FaceMaleAdult" Value="네가 의뢰를 받아준 애구나.,잘 부탁해." Face="MaleAdult" Mono="False" />
+  <!-- 君にはこの荷物データをゲンソウスクエアに運んでもらいたいんだ -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue2FaceMaleAdult" Value="이 수하물 데이터를,환상 스퀘어까지 보내 줬으면 해." Face="MaleAdult" Mono="False" />
+  <!-- 荷物っていっても商品用のサブチップのデータなんだけどね -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue3FaceMaleAdult" Value="수하물이라고는 해도,사실은 상품용 서브칩 데이터지만." Face="MaleAdult" Mono="False" />
+  <!-- 本当は僕がいきたいんだけどトラブルの対応を急にしなくちゃいけなくなってね -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue4FaceMaleAdult" Value="사실 내가 가고 싶은데,갑자기 문제가 발생해서,그거 대응하러 가야 해서 말야." Face="MaleAdult" Mono="False" />
+  <!-- 報酬は荷物を受け取る人に用意してもらったから届け先で貰ってね -->
+  <Dialogue Key="Map.GencityRequester1Stage1Dialogue5FaceMaleAdult" Value="보수는 수하물 수취받을 사람이,준비해 놨으니까 배송처에서,받으면 돼." Face="MaleAdult" Mono="False" />
+  <!-- 運び先はゲンソウスクエアだよ頼んだからね！ -->
+  <Dialogue Key="Map.GencityRequester1Stage3Dialogue1FaceMaleAdult" Value="배달처는 환상 스퀘어야.,부탁할게!" Face="MaleAdult" Mono="False" />
+  <!-- 君のおかげで助かったよありがとう！ -->
+  <Dialogue Key="Map.GencityRequester1Stage5Dialogue1FaceMaleAdult" Value="네 덕분에 살았어.,고마워!" Face="MaleAdult" Mono="False" />
+  <!-- チップショップで買ったアドオンでナビがすごーく強くなったぜ！ -->
+  <Dialogue Key="Map.GencityChapter3YoungBoy1Stage1Dialogue1FaceMaleChild" Value="칩 샵에서 산 애드온 덕분에,내 내비가 엄～청 세졌어!" Face="MaleChild" Mono="False" />
+  <!-- いままでチップショップは中央街にしかなかったけどこれでかなり便利になったよ -->
+  <Dialogue Key="Map.GencityChapter3YoungBoy2Stage1Dialogue1FaceMaleStudent" Value="지금까지 칩 샵 가려면,중앙가까지 가야 했지만,여기가 생긴 덕분에 많이 편해졌어." Face="MaleStudent" Mono="False" />
+  <!-- え！？君が進言したからなの！？凄いねー！ -->
+  <Dialogue Key="Map.GencityChapter3YoungBoy2Stage1Dialogue2FaceMaleStudent" Value="진짜!?,네가 제안한 거야!?,대단한데!" Face="MaleStudent" Mono="False" />
+  <!-- えーん　おこづかいが足りなくてお買い物ができないよー！ -->
+  <Dialogue Key="Map.GencityChapter3YoungGirl1Stage1Dialogue1FaceFemaleChild" Value="어，뭐야，용돈이 부족해서,쇼핑을 갈 수가 없네!" Face="FemaleChild" Mono="False" />
+  <!-- 隈美さんの愛車の戦車だ -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue1FaceNone" Value="쿠마미 씨의 애마인 전차다." Face="None" Mono="False" />
+  <!-- チップショップ「ヴワル」の看板となっており戦闘能力は外されている -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue2FaceNone" Value="현재는 전투 능력이 빠져 있으며,칩 샵 ”브와르”의 상징이,되어 있다." Face="None" Mono="False" />
+  <!-- アラブスタンで改造されたのか軍隊で使われる戦車とはかなり構造が異なるようだ -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue3FaceNone" Value="아랍스탄에서 개조되었는지,군대에서 쓰는 전차와는,구조가 꽤 다른 듯하다." Face="None" Mono="False" />
+  <!-- ハッチの部分を制御するコントロールユニットにプラグインができる -->
+  <Dialogue Key="Map.GencityChapter3TankStage1Dialogue4FaceNone" Value="해치 부분을 제어하는,컨트롤 유닛에,플러그인할 수 있다." Face="None" Mono="False" />
+  <!-- N１リーグに俺も出るぜー！ -->
+  <Dialogue Key="Map.GencityChapter4Junior1Stage1Dialogue1FaceMaleChild" Value="나도 N1 리그에 참가할 거야!" Face="MaleChild" Mono="False" />
+  <!-- 目指すは優勝だぜー！ -->
+  <Dialogue Key="Map.GencityChapter4Junior1Stage1Dialogue2FaceMaleChild" Value="목표는 우승이다～!" Face="MaleChild" Mono="False" />
+  <!-- 若い者はインタネットとかいうのに夢中じゃのー -->
+  <Dialogue Key="Map.GencityChapter4OldMan1Stage1Dialogue1FaceMaleElderly" Value="젊은이들은 인터넷인지,뭔지 하는 거에 열중이구먼～" Face="MaleElderly" Mono="False" />
+  <!-- わしらみたいなのはそんなものに頼らんでも生きていけるんじゃがのう -->
+  <Dialogue Key="Map.GencityChapter4OldMan1Stage1Dialogue2FaceMaleElderly" Value="우리 같은 이들은,굳이 그런 거 없이도,충분히 살 수 있지만 말여." Face="MaleElderly" Mono="False" />
+  <!-- インターネットの治安を守るネットエージェントの日本支部は永遠町にあるんですって -->
+  <Dialogue Key="Map.GencityChapter4OldMan2Stage1Dialogue1FaceFemaleElderly" Value="인터넷의 치안을 지키는,넷 에이전트의 일본지부는,영원 마을에 있다는구나." Face="FemaleElderly" Mono="False" />
+  <!-- 永遠町は緑豊かな街なんですって友だちが言ってたわ -->
+  <Dialogue Key="Map.GencityChapter4OldMan2Stage1Dialogue2FaceFemaleElderly" Value="영원마을은 초록색이,녹음이 우거진 마을이라고,친구가 그러더라." Face="FemaleElderly" Mono="False" />
+  <!-- N１リーグを開催するボーダーコンツェルンって会社は世界でも有数の巨大企業だ -->
+  <Dialogue Key="Map.GencityChapter4Youth1Stage1Dialogue1FaceMaleAdult" Value="N1 리그를 개최하는,보더 콘체른이라는 회사는,세계에서 손에 꼽는 거대기업이야." Face="MaleAdult" Mono="False" />
+  <!-- インゲレスの大企業スカーレット・コングロマリットとはライバル関係なんだそうだ -->
+  <Dialogue Key="Map.GencityChapter4Youth1Stage1Dialogue2FaceMaleAdult" Value="잉겔레스의 대기업인,스칼렛 컨글로머릿과는,라이벌 관계라는 듯해." Face="MaleAdult" Mono="False" />
+  <!-- アリス　今日はありがとう！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue1FaceTenshi" Value="앨리스，오늘도 고마워!" Face="Tenshi" Mono="False" />
+  <!-- 次また事情聴取がある時一緒に行こうね -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue2FaceAlice" Value="다음 번에 또 사정청취가 있을 때,그 때도 같이 가자." Face="Alice" Mono="False" />
+  <!-- うん！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue3FaceTenshi" Value="응!" Face="Tenshi" Mono="False" />
+  <!-- じゃあ　バイバイ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage1Dialogue4FaceTenshi" Value="그러면 나중에 봐!" Face="Tenshi" Mono="False" />
+  <!-- 私達も帰ろっか -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage3Dialogue1FaceAlice" Value="우리들도 돌아가자." Face="Alice" Mono="False" />
+  <!-- アリス　電話よー････ってブッカーからじゃない -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue1FaceShanghai" Value="앨리스，전화가 왔어....,는 부화한테서 왔구나." Face="Shanghai" Mono="False" />
+  <!-- もしもしメディスンがなにかやらか････ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue2FaceShanghai" Value="여보세요.,혹시 메디슨이 무슨 일이라도...." Face="Shanghai" Mono="False" />
+  <!-- 姐さん！　大変です！例のナビが大変なんです！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue3FaceHenchie" Value="누님! 큰일입니다!,그 때 말씀하신 내비가,지금 위험에 처했습니다!" Face="Henchie" Mono="False" />
+  <!-- どうしたの　落ち着きなさい！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue4FaceShanghai" Value="일단 진정하고! 무슨 일이야?" Face="Shanghai" Mono="False" />
+  <!-- 今　幻想大学の森近研究室なんですがネットエージェントが入ってきて -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue5FaceHenchie" Value="지금 제가 환상대학교의,모리치카 연구소에 있는데,넷 에이전트가 들이닥쳐서는" Face="Henchie" Mono="False" />
+  <!-- ヨリヒメってナビが････攻撃を！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue6FaceHenchie" Value="요리히메라는 내비가....,그 내비를 공격하고 있습니다!" Face="Henchie" Mono="False" />
+  <!-- もしかして････ヤマメさんが捕まっちゃう！？ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue7FaceAlice" Value="잠깐만，이거 설마....,야마메 씨 체포되는 거 아냐!?" Face="Alice" Mono="False" />
+  <!-- そうね　あのカタブツのことだから何をするかわかったもんじゃないわ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue8FaceShanghai" Value="그렇겠네，그 녀석 완전히 벽창호라,뭔 짓을 할 지도 알 수 없으니까." Face="Shanghai" Mono="False" />
+  <!-- 研究室ね！今から向かうわ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue9FaceShanghai" Value="연구소라 그랬지!,지금 바로 갈게!" Face="Shanghai" Mono="False" />
+  <!-- 急ぐわよ！シャンハイ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiEventStage5Dialogue10FaceAlice" Value="서두르자，상하이!" Face="Alice" Mono="False" />
+  <!-- それじゃあ永遠町にレッツゴー！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiStage1Dialogue1FaceTenshi" Value="그러면 영원 마을로,고고씽!" Face="Tenshi" Mono="False" />
+  <!-- アリス　永遠町に行くのよ！ -->
+  <Dialogue Key="Map.GencityChapter4TenshiStage3Dialogue1FaceTenshi" Value="앨리스，영원 마을로 가자!" Face="Tenshi" Mono="False" />
+  <!-- Ｎ１リーグって今日なんだね誰が優勝するのかな？ -->
+  <Dialogue Key="Map.GencityChapter4Junior2Stage1Dialogue1FaceMaleStudent" Value="오늘 N1 리그 열리는 날이구나.,누가 우승할까?" Face="MaleStudent" Mono="False" />
+  <!-- えっ　N1リーグ君が優勝したの！？どっひゃ〜！ -->
+  <Dialogue Key="Map.GencityChapter4Junior2Stage3Dialogue1FaceMaleStudent" Value="어 뭐야，너 이번에,N1 리그에서 우승했어!?,이야～!" Face="MaleStudent" Mono="False" />
+  <!-- 隈美さんにネットバトルのコツ教えてもらえないかなー？ -->
+  <Dialogue Key="Map.GencityChapter4Girl2Stage1Dialogue1FaceFemaleStudent" Value="쿠마미 씨한테 넷배틀 요령,가르쳐달라고 해 볼까?" Face="FemaleStudent" Mono="False" />
+  <!-- N1リーグ　見に行きたいけど休日出勤だよトホホ････ -->
+  <Dialogue Key="Map.GencityChapter4Youth2Stage1Dialogue1FaceMaleAdult" Value="N1 리그 보러 가고 싶은데,휴일에 출근이라니.,이게 무슨 소리야...." Face="MaleAdult" Mono="False" />
+  <!-- 今度　インゲレスに出張に行くんだけど････ -->
+  <Dialogue Key="Map.GencityChapter5Youth1Stage1Dialogue1FaceMaleAdult" Value="이번에 잉겔레스에,출장 가는데...." Face="MaleAdult" Mono="False" />
+  <!-- ＰＥＴに自動翻訳があるから外国語が話せなくても大丈夫なんだよね -->
+  <Dialogue Key="Map.GencityChapter5Youth1Stage1Dialogue2FaceMaleAdult" Value="PET에 자동 번역 기능이 있어서,외국어를 몰라도 괜찮겠더라." Face="MaleAdult" Mono="False" />
+  <!-- へぇ　アリスさんって海外旅行にいくんだ -->
+  <Dialogue Key="Map.GencityChapter5Girl1Stage1Dialogue1FaceFemaleStudent" Value="이야～앨리스,해외 여행 가는구나." Face="FemaleStudent" Mono="False" />
+  <!-- いっぱい思い出がつくれるといいね！ -->
+  <Dialogue Key="Map.GencityChapter5Girl1Stage1Dialogue2FaceFemaleStudent" Value="추억을 잔뜩 만들 수 있어서 좋겠네!" Face="FemaleStudent" Mono="False" />
+  <!-- 今　港に停まっている豪華客船セイレーンはすごく立派な船なんだとか -->
+  <Dialogue Key="Map.GencityChapter5OldMan1Stage1Dialogue1FaceMaleOld" Value="지금 항구에 정박해 있는,호화 여객선 세이렌 호는,엄청 훌륭한 배라더라." Face="MaleOld" Mono="False" />
+  <!-- 有名なお金持ちがたくさん利用するらしいな私も一度乗ってみたいよ -->
+  <Dialogue Key="Map.GencityChapter5OldMan1Stage1Dialogue2FaceMaleOld" Value="유명한 부자들이,많이 이용한다나 보구만.,나도 한 번쯤은 타 보고 싶네." Face="MaleOld" Mono="False" />
+  <!-- ワシがまだ若い頃宇宙に住むコロニー共和国と地球の間で戦争が起こっての -->
+  <Dialogue Key="Map.GencityChapter5GrampaStage1Dialogue1FaceMaleElderly" Value="내가 아직 젊었을 시절에,우주에 있는 콜로니 공화국이랑,지구 사이에 전쟁이 일어났어." Face="MaleElderly" Mono="False" />
+  <!-- その時にたくさん宇宙艦が宇宙へと上がっていったもんじゃ -->
+  <Dialogue Key="Map.GencityChapter5GrampaStage1Dialogue2FaceMaleElderly" Value="그 때 정말 많은 우주함이,우주로 나간 적이 있었지." Face="MaleElderly" Mono="False" />
+  <!-- 宇宙艦っていうのは宇宙で戦える船のことで空も飛べる船なのさ -->
+  <Dialogue Key="Map.GencityChapter5GrampaStage1Dialogue3FaceMaleElderly" Value="우주함이라는 건,우주에서 싸우는 배를 뜻해.,그냥 하늘을 날아다니는 배지 뭐." Face="MaleElderly" Mono="False" />
+  <!-- 旅行から帰ってくるとやっぱ故郷が一番だって思うときはないかい？ -->
+  <Dialogue Key="Map.GencityChapter6Youth1Stage1Dialogue1FaceMaleAdult" Value="여행 갔다가 돌아오면,역시 고향이 최고라고,생각하게 되지 않아?" Face="MaleAdult" Mono="False" />
+  <!-- 神綺さん旅行から帰ってきたんだ〜 -->
+  <Dialogue Key="Map.GencityChapter6Girl1Stage1Dialogue1FaceFemaleStudent" Value="앨리스 여행 갔다가,이제 돌아왔구나～" Face="FemaleStudent" Mono="False" />
+  <!-- お疲れ〜 -->
+  <Dialogue Key="Map.GencityChapter6Girl1Stage1Dialogue2FaceFemaleStudent" Value="고생 많았어～" Face="FemaleStudent" Mono="False" />
+  <!-- 獅熊さんなら比那名居さんの家に入るのを見たわよ -->
+  <Dialogue Key="Map.GencityChapter6Girl2Stage1Dialogue1FaceFemaleStudent" Value="텐시 집에 리카가,들어가는 걸 봤어." Face="FemaleStudent" Mono="False" />
+  <!-- インゲレスで事件があったみたいだけど神綺さん大丈夫だった？ -->
+  <Dialogue Key="Map.GencityChapter6Boy1Stage1Dialogue1FaceMaleStudent" Value="잉겔레스에서 무슨 사건이,벌어졌다는 것 같은데,앨리스는 괜찮았어?" Face="MaleStudent" Mono="False" />
+  <!-- え？神綺さんが解決したの！？どっひゃー！ -->
+  <Dialogue Key="Map.GencityChapter6Boy1Stage1Dialogue2FaceMaleStudent" Value="잠깐만，앨리스가,그걸 해결했다고?,세～상에!" Face="MaleStudent" Mono="False" />
+  <!-- おかえりなのよ！アリス！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue1FaceTenshi" Value="어서 와，앨리스!" Face="Tenshi" Mono="False" />
+  <!-- 退院おめでとう　天子！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue2FaceAlice" Value="퇴원 축하해，텐시!" Face="Alice" Mono="False" />
+  <!-- はい　これおみやげ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue3FaceAlice" Value="자，여기 여행 선물!" Face="Alice" Mono="False" />
+  <!-- わあい！キレイなブレスレットなのよ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue4FaceTenshi" Value="와～아!,예쁜 팔찌네!" Face="Tenshi" Mono="False" />
+  <!-- 退院祝いをかねてね！ちょっと奮発しちゃったの！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue5FaceAlice" Value="퇴원 축하도 겸해서,조금 분발해 봤어!" Face="Alice" Mono="False" />
+  <!-- ありがとうなのよ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue6FaceTenshi" Value="고마워!" Face="Tenshi" Mono="False" />
+  <!-- （お金はあたしが　出したんだけどなあ････　まあ　いっか） -->
+  <Dialogue Key="Map.GencityChapter6Stage1Dialogue7FaceShanghai" Value="(돈은 내가 냈지만...., 뭐 상관 없겠지.)" Face="Shanghai" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.GencityChapter6Stage3Dialogue1FaceShanghai" Value="이걸로 여행 선물은,모두에게 다 전해 줬네." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage3Dialogue2FaceShanghai" Value="이제 돌아가서 엄마한테,돌아왔다고 말하는 것만 남았네!" Face="Shanghai" Mono="False" />
+  <!-- おみやげ　ありがとうなのよ！大切にするのよ！ -->
+  <Dialogue Key="Map.GencityChapter6Stage5Dialogue1FaceTenshi" Value="여행 선물 고마워!,소중히 간직할게!" Face="Tenshi" Mono="False" />
+  <!-- そうだ！退院と帰国のお祝いにネットバトルしない？ -->
+  <Dialogue Key="Map.GencityChapter6Stage5Dialogue2FaceTenshi" Value="아 맞다!,퇴원이랑 귀국 기념으로,넷배틀하지 않을래?" Face="Tenshi" Mono="False" />
+  <!-- アリスさんおかえりなのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue1FaceRika" Value="앨리스 씨，어서 오시는 거에요!" Face="Rika" Mono="False" />
+  <!-- 里香　ただいまー！おみやげもあるよ！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue2FaceAlice" Value="갔다 왔어，리카!,여행 선물도 있어!" Face="Alice" Mono="False" />
+  <!-- はわわっ！これはインゲレス軍新型戦車のプラモデルなのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue3FaceRika" Value="우와아!,이건 잉겔레스 군 신형전차의,프라모델인 거에요!" Face="Rika" Mono="False" />
+  <!-- すっごくうれしいのです！！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue4FaceRika" Value="엄청 기쁜 거에요!!" Face="Rika" Mono="False" />
+  <!-- どういたしまして！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage1Dialogue5FaceAlice" Value="천만에!" Face="Alice" Mono="False" />
+  <!-- これでおみやげは全員に配り終えたわね -->
+  <Dialogue Key="Map.GencityChapter6RikaStage3Dialogue1FaceShanghai" Value="이걸로 여행 선물은,모두에게 다 전해 줬네." Face="Shanghai" Mono="False" />
+  <!-- あとは帰ってママにただいま言いましょ！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage3Dialogue2FaceShanghai" Value="이제 돌아가서 엄마한테,돌아왔다고 말하는 것만 남았네!" Face="Shanghai" Mono="False" />
+  <!-- おみやげすっごく嬉しいのです！感謝感激なのなのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue1FaceRika" Value="여행 선물을 받아서,너무 기쁜 거에요!,너무도 감격한 거에요!" Face="Rika" Mono="False" />
+  <!-- シャンハイがいない間タンクマン寂しがってたのでネットバトルするのです！ -->
+  <Dialogue Key="Map.GencityChapter6RikaStage5Dialogue2FaceRika" Value="상하이가 없던 동안,탱크맨이 쓸쓸해했는데,넷배틀하는 거에요!" Face="Rika" Mono="False" />
+  <!-- 最近はＲＯＭの事件もないし平和だね -->
+  <Dialogue Key="Map.GencityChapter7Boy1Stage1Dialogue1FaceMaleStudent" Value="최근에는 ROM이 사건을,일으키고 있는 것도 아니고,참 평화롭네." Face="MaleStudent" Mono="False" />
+  <!-- ぼ　僕のナビがインターネットでやられちゃった！何が起こっているんだ！？ -->
+  <Dialogue Key="Map.GencityChapter7Boy1Stage3Dialogue1FaceMaleStudent" Value="내，내 내비가,인터넷에서 공격당했어!,무슨 일이 일어나고 있는 거야!?" Face="MaleStudent" Mono="False" />
+  <!-- しばらくナビをインターネットで歩かせないようにするよ怖いからね････ -->
+  <Dialogue Key="Map.GencityChapter7Boy1Stage5Dialogue1FaceMaleStudent" Value="얼마 동안은 내비가,인터넷에 다니지 못 하게 해야겠어.,무섭네 이거...." Face="MaleStudent" Mono="False" />
+  <!-- 今日は学校が休みだからひなたぼっこしてるの -->
+  <Dialogue Key="Map.GencityChapter7Girl1Stage1Dialogue1FaceFemaleChild" Value="오늘은 학교가 쉬는 날이라서,밖에서 놀고 있어." Face="FemaleChild" Mono="False" />
+  <!-- お母さんから今日はお外で遊んでなさいって言われたの -->
+  <Dialogue Key="Map.GencityChapter7Girl1Stage3Dialogue1FaceFemaleChild" Value="엄마가 오늘은,밖에서 놀라고 했어." Face="FemaleChild" Mono="False" />
+  <!-- 電脳ゼミで勉強しろっていつもうるさいのに変なのー -->
+  <Dialogue Key="Map.GencityChapter7Girl1Stage3Dialogue2FaceFemaleChild" Value="평소에는 전뇌 수업 들으라고,그렇게 말이 많으셨는데,이상해 참～" Face="FemaleChild" Mono="False" />
+  <!-- あのネットの事件僕はＲＯＭの仕業だと思っているよ -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage1Dialogue1FaceMaleAdult" Value="이번에 인터넷에서 있었던 사건....,난 이게 ROM이 일으킨,사건이라 생각하고 있어." Face="MaleAdult" Mono="False" />
+  <!-- インターネット中を襲うなんて大きな犯罪組織じゃないと不可能だろうからね -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage1Dialogue2FaceMaleAdult" Value="인터넷 안을 헤집는 일은,큰 범죄조직이 아니고서야,불가능할 거니까 말야." Face="MaleAdult" Mono="False" />
+  <!-- 今インターネットで大事件が起こってるらしいじゃないか -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage3Dialogue1FaceMaleAdult" Value="지금 인터넷에서,큰 사건이 벌어지고,있다는 것 같은데" Face="MaleAdult" Mono="False" />
+  <!-- ネットエージェントは何をやってたんだ？ -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage3Dialogue2FaceMaleAdult" Value="넷 에이전트는,대체 뭘 하고 있었던 거야?" Face="MaleAdult" Mono="False" />
+  <!-- 今インターネットで大事件が起こってるらしいじゃないか -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage5Dialogue1FaceMaleAdult" Value="지금 인터넷에서,큰 사건이 벌어지고,있다는 것 같은데" Face="MaleAdult" Mono="False" />
+  <!-- ネットエージェントは何をやってたんだ？ -->
+  <Dialogue Key="Map.GencityChapter7Male1Stage5Dialogue2FaceMaleAdult" Value="넷 에이전트는,대체 뭘 하고 있었던 거야?" Face="MaleAdult" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GencityChapter8RoboBazookaStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GencityChapter8RoboBazookaStage1Dialogue2FaceNone" Value="삼엄한 태도로,주위를 경계하고 있다." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GencityChapter8RoboShieldStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GencityChapter8RoboShieldStage1Dialogue2FaceNone" Value="이 장소와 전혀 어울려 보이지,않는다. 특히 여기가 고향이어서,그런 느낌이 더 든다." Face="None" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GencityChapter8RoboStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GencityChapter8RoboStage1Dialogue2FaceNone" Value="삼엄한 태도로,주위를 경계하고 있다." Face="None" Mono="False" />
+  <!-- ＲＯＭが何をするのかわからないけどさ -->
+  <Dialogue Key="Map.GencityChapter8Boy1Stage1Dialogue1FaceMaleStudent" Value="ROM이 뭘 하려 드는지는 몰라도" Face="MaleStudent" Mono="False" />
+  <!-- 自衛隊まで出てきてなんだか怖いよね････ -->
+  <Dialogue Key="Map.GencityChapter8Boy1Stage1Dialogue2FaceMaleStudent" Value="방위군까지 튀어나오니까,뭔가 무섭잖아...." Face="MaleStudent" Mono="False" />
+  <!-- ネットエージェントとか自衛隊がＲＯＭを倒すために頑張っているけど････ -->
+  <Dialogue Key="Map.GencityChapter8Girl1Stage1Dialogue1FaceFemaleStudent" Value="넷 에이전트에다 방위군까지,ROM을 쓰러뜨리려고,힘쓰고는 있지만...." Face="FemaleStudent" Mono="False" />
+  <!-- 今までのように神綺さんがなんとかしてくれるってそんな気がするの！ -->
+  <Dialogue Key="Map.GencityChapter8Girl1Stage1Dialogue2FaceFemaleStudent" Value="여지껏 그래왔듯 앨리스가,뭔가 어떻게든 해 줄 거라는,느낌이 들어!" Face="FemaleStudent" Mono="False" />
+  <!-- ＲＯＭの宣戦布告を受けて何が起こっても対応できるよう自衛隊と連携をとりました -->
+  <Dialogue Key="Map.GencityChapter8NetoeStage1Dialogue1FacePoliceman" Value="ROM의 선전포고 이후로,무슨 일이 일어나도 대응할 수,있도록 방위군과 연합했습니다." Face="Policeman" Mono="False" />
+  <!-- かつての電脳戦争のようにネットワークの異変が現実に影響することもありますからね -->
+  <Dialogue Key="Map.GencityChapter8NetoeStage1Dialogue2FacePoliceman" Value="과거의 전뇌전쟁처럼,네트워크의 이변이 현실에,영향을 끼칠 수도 있으니까요." Face="Policeman" Mono="False" />
+  <!-- いったい　世界はどうなってしまうんだ････？ -->
+  <Dialogue Key="Map.GencityChapter8Netoe2Stage1Dialogue1FacePoliceman" Value="대체 이 세계는,어떻게 되는 거야....?" Face="Policeman" Mono="False" />
+  <!-- スーツ姿の男の人？ -->
+  <Dialogue Key="Map.GencityRequest11AuntStage1Dialogue1FaceFemaleMiddleAged" Value="양복 차림의 남자?" Face="FemaleMiddleAged" Mono="False" />
+  <!-- もしかしてさっき永遠町の公園に行くって言ってた人かしら？ -->
+  <Dialogue Key="Map.GencityRequest11AuntStage1Dialogue2FaceFemaleMiddleAged" Value="혹시 아까 전에,영원 마을의 공원으로,간다고 했던 사람 아냐?" Face="FemaleMiddleAged" Mono="False" />
+  <!-- 地下鉄リニアメトロの駅だが今は乗る必要はない -->
+  <Dialogue Key="Map.GencityToTheStationStage1Dialogue1FaceNone" Value="지하 전철 역이지만,지금은 탈 필요가 없다." Face="None" Mono="False" />
+  <!-- 待ってる友達無視して目的地に向かうのはさすがにどうかと思うわよ -->
+  <Dialogue Key="Map.GencityToTheStationStage3Dialogue1FaceShanghai" Value="기다리는 친구를 무시하고,그대로 목적지로 향하는 건,역시 좀 아니지 않아?" Face="Shanghai" Mono="False" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GencityToTheStationStage5Dialogue1QuestionFaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- 幻想大学前乗らない -->
+  <Text Key="Map.GencityToTheStationStage5Dialogue1Options" Value="환상대학교 앞,안 간다" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GencityToTheStationStage7Dialogue1FaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.GencityToTheStationStage7Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- 幻想大学前中央街西区乗らない -->
+  <Text Key="Map.GencityToTheStationStage7Dialogue2Options" Value="환상대학교 앞,중앙가 서구,안 간다" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GencityToTheStationStage9Dialogue1QuestionFaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- 幻想大学前中央街西区永遠町２丁目乗らない -->
+  <Text Key="Map.GencityToTheStationStage9Dialogue1Options" Value="환상대학교 앞,중앙가 서구,영원 마을 2번가,안 간다" />
+  <!-- 家帰るのはあと！先におみやげを配り終えましょう！ -->
+  <Dialogue Key="Map.GencityToAlice’sHouseStage1Dialogue1FaceShanghai" Value="우선은 기념품부터 다 주고,집에 들어가자!" Face="Shanghai" Mono="False" />
+  <!-- 花だん型のセキュリティシステムだ -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue1FaceNone" Value="화단처럼 생긴 보안 시스템이다." Face="None" Mono="False" />
+  <!-- 本物の花に混じって花型カメラが仕込んであり玄関前を警戒している -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue2FaceNone" Value="꽃 모양의 카메라가,진짜 꽃들 사이에 숨어 있어서,현관 앞을 경계하고 있다." Face="None" Mono="False" />
+  <!-- その映像は携帯端末に送られ出かけた先からでも家の様子を見ることが出来る -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue3FaceNone" Value="그 동영상은 휴대전화로 전송되니까,밖에 나간 상태라 해도,집의 상태를 볼 수 있다." Face="None" Mono="False" />
+  <!-- メンテナンスのためにプラグインすることも可能だ -->
+  <Dialogue Key="Map.GencityFlowerBedStage1Dialogue4FaceNone" Value="메인터넌스 목적으로,플러그인하는 것도 가능하다." Face="None" Mono="False" />
+  <!-- 魔理の家だが鍵がかかっていて入れない -->
+  <Dialogue Key="Map.GencityToMari’sHouseStage1Dialogue1FaceNone" Value="마리의 집이지만,잠겨 있어서 들어갈 수 없다." Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ今は誰も住んでいない -->
+  <Dialogue Key="Map.GencityToTenshi’sHouseStage1Dialogue1FaceNone" Value="작은 임대 아파트다.,지금은 아무도 살고 있지 않다." Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ誰かが引っ越してきたようだ -->
+  <Dialogue Key="Map.GencityToTenshi’sHouseStage3Dialogue1FaceNone" Value="작은 임대 아파트다.,누가 이사해 온 모양이다." Face="None" Mono="False" />
+  <!-- 天子の住むアパートだが鍵がかかっている -->
+  <Dialogue Key="Map.GencityToTenshi’sHouseStage5Dialogue1FaceNone" Value="텐시가 사는 아파트이지만,잠겨 있다." Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ今は誰も住んでいない -->
+  <Dialogue Key="Map.GencityToNekku’sHouseStage1Dialogue1FaceNone" Value="작은 임대 아파트다.,지금은 아무도 살고 있지 않다." Face="None" Mono="False" />
+  <!-- 小さな賃貸アパートだ誰かが引っ越してきたようだ -->
+  <Dialogue Key="Map.GencityToNekku’sHouseStage3Dialogue1FaceNone" Value="작은 임대 아파트다.,누가 이사해 온 모양이다." Face="None" Mono="False" />
+  <!-- ネックの住むアパートだが鍵がかかっている -->
+  <Dialogue Key="Map.GencityToNekku’sHouseStage5Dialogue1FaceNone" Value="넥이 사는 아파트이지만,잠겨 있다." Face="None" Mono="False" />
+  <!-- テナント募集中と書かれている -->
+  <Dialogue Key="Map.GencityToVuwarStage1Dialogue1FaceNone" Value="임차인 모집중,이라 써져 있다." Face="None" Mono="False" />
+  <!-- 物心がついた時からこの状態が続いている -->
+  <Dialogue Key="Map.GencityToVuwarStage1Dialogue2FaceNone" Value="철이 든 시절부터,계속 지금 이 상태가,이어지고 있다." Face="None" Mono="False" />
+  <!-- レミリアの住む豪邸だ今は鍵がかかっている -->
+  <Dialogue Key="Map.GencityToRemilia’sHouseStage1Dialogue1FaceNone" Value="레밀리아가 사는 호화 저택이다.,지금은 잠겨 있다." Face="None" Mono="False" />
+  <!-- 里香の住む家だ鍵がかかって入れない -->
+  <Dialogue Key="Map.GencityToRika’sHouseStage1Dialogue1FaceNone" Value="리카가 사는 집이다.,잠겨 있어서 들어갈 수 없다." Face="None" Mono="False" />
+  <!-- この公園はもともと遊具がたくさんあったが -->
+  <Dialogue Key="Map.GencityBench1Stage1Dialogue1FaceNone" Value="이 공원에는 원래,놀이터 기구가 많이 있었지만" Face="None" Mono="False" />
+  <!-- 遊具でケガをする子供があとをたたず次々ととりこわされてしまった -->
+  <Dialogue Key="Map.GencityBench1Stage1Dialogue2FaceNone" Value="놀이터 기구를 이용하다,다치는 애들 때문에,하나씩 철거되었다." Face="None" Mono="False" />
+  <!-- だんだんと遊び場でなくなっていく公園を見てこのベンチは何を思うのだろうか････ -->
+  <Dialogue Key="Map.GencityBench1Stage1Dialogue3FaceNone" Value="서서히 놀이터에서 멀어져 가는,공원의 모습을 보면서 이 벤치는,무슨 생각을 하고 있을까...." Face="None" Mono="False" />
+  <!-- この公園はもともと遊具がたくさんあったが -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue1FaceNone" Value="이 공원에는 원래,놀이터 기구가 많이 있었지만" Face="None" Mono="False" />
+  <!-- 遊具でケガをする子供があとをたたず次々ととりこわされてしまった -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue2FaceNone" Value="놀이터 기구를 이용하다,다치는 애들 때문에,하나씩 철거되었다." Face="None" Mono="False" />
+  <!-- だんだんと遊び場でなくなっていく公園を見てこのベンチは何を思うのだろうか････ -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue3FaceNone" Value="서서히 놀이터에서 멀어져 가는,공원의 모습을 보면서 이 벤치는,무슨 생각을 하고 있을까...." Face="None" Mono="False" />
+  <!-- ！！なんと　側面にプラグインの端子を見つけた！ -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue4FaceNone" Value="!!,이럴 수가! 옆면에,플러그인 단자가 보인다!" Face="None" Mono="False" />
+  <!-- どうやら　ただのベンチではないようだ -->
+  <Dialogue Key="Map.GencityBench1Stage3Dialogue5FaceNone" Value="아무래도 그냥 평범한,벤치는 아닌 모양이다." Face="None" Mono="False" />
+  <!-- 里香にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.GencityTankManBattleStage1Dialogue1QuestionFaceShanghai" Value="리카한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GencityTankManBattleStage1Dialogue1Options" Value="예,아니오" />
+  <!-- タンクマン！行くのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage1Dialogue2FaceRika" Value="탱크맨! 가는 거에요!" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage3Dialogue1FaceRika" Value="리카가 이긴 거에요!" Face="Rika" Mono="False" />
+  <!-- さすがアリスさんはすっごく強いのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage5Dialogue1FaceRika" Value="역시 앨리스 씨는,엄청 센 거에요!" Face="Rika" Mono="False" />
+  <!-- シャンハイちゃん！かっこいいとこ見せてやるぜ！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage6Dialogue1FaceTankMan" Value="상하이!,멋진 모습을 보여 주겠다구!" Face="TankMan" Mono="False" />
+  <!-- ファイトなのです！タンクマン！！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage6Dialogue2FaceRika" Value="파이팅인 거에요!,탱크맨!!" Face="Rika" Mono="False" />
+  <!-- 里香の勝ちなのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage8Dialogue1FaceRika" Value="리카가 이긴 거에요!" Face="Rika" Mono="False" />
+  <!-- タンクマン　残念なのです････ -->
+  <Dialogue Key="Map.GencityTankManBattleStage10Dialogue1FaceRika" Value="탱크맨，아까운 거에요...." Face="Rika" Mono="False" />
+  <!-- 最高のコンディションの俺の力を見せてやるぜ！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage11Dialogue1FaceTankMan" Value="최고 컨디션 상태일 때의,내 힘을 보여 주겠어!" Face="TankMan" Mono="False" />
+  <!-- これが里香の本気なのです！！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage11Dialogue2FaceRika" Value="이것이 리카의 진심인 거에요!!" Face="Rika" Mono="False" />
+  <!-- どうだシャンハイちゃん！惚れなおしたか！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage13Dialogue1FaceTankMan" Value="어때，상하이!,반할 만했지!" Face="TankMan" Mono="False" />
+  <!-- がーん！里香は勝てないのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage15Dialogue1FaceRika" Value="데～엥!,리카는 이기질 못 하는 거에요!" Face="Rika" Mono="False" />
+  <!-- また今度やるのです！ -->
+  <Dialogue Key="Map.GencityTankManBattleStage16Dialogue1FaceRika" Value="다음에 하는 거에요!" Face="Rika" Mono="False" />
+  <!-- 天子にネットバトルを申し込む？ -->
+  <Dialogue Key="Map.GencityIkutororuStage1Dialogue1QuestionFaceShanghai" Value="텐시한테 넷배틀을 신청할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GencityIkutororuStage1Dialogue1Options" Value="예,아니오" />
+  <!-- イク！頑張ってね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage1Dialogue2FaceTenshi" Value="이쿠! 힘내!" Face="Tenshi" Mono="False" />
+  <!-- わーい！私が勝ったのよ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage3Dialogue1FaceTenshi" Value="예～이!,내가 이겼네!" Face="Tenshi" Mono="False" />
+  <!-- アリスってすごく強いね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage5Dialogue1FaceTenshi" Value="앨리스 엄청 세다!" Face="Tenshi" Mono="False" />
+  <!-- 天子様のカスタマイズを受けパワーアップしましたわ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage6Dialogue1FaceIku" Value="텐시 님의 커스터마이즈를 받아,파워업하였사옵니다!" Face="Iku" Mono="False" />
+  <!-- もう負けないんだからね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage6Dialogue2FaceTenshi" Value="더는 지지 않을 거야!" Face="Tenshi" Mono="False" />
+  <!-- イク！やったのよ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage8Dialogue1FaceTenshi" Value="이쿠! 해냈구나!" Face="Tenshi" Mono="False" />
+  <!-- アリスすごい！今度カスタマイズ教えてよ！ -->
+  <Dialogue Key="Map.GencityIkutororuStage10Dialogue1FaceTenshi" Value="앨리스，대단하다!,나중에 커스터마이징,어떻게 했는지 알려 줘!" Face="Tenshi" Mono="False" />
+  <!-- 気が向いたらやろうね！ -->
+  <Dialogue Key="Map.GencityIkutororuStage11Dialogue1FaceTenshi" Value="하고 싶어지면 하자!" Face="Tenshi" Mono="False" />
+  <!-- 「いこい」は公園を指してて「乾きの底」は砂場を指しているんじゃないかしら？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue1FaceShanghai" Value="”휴식”은 공원을 가리키는 거고,”갈증의 밑바닥”이라는 건,이 모래밭을 가리키는 게 아닐까?" Face="Shanghai" Mono="False" />
+  <!-- でもここが依頼者の祖先の時代に公園だったとは限らないんじゃない？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue2FaceAlice" Value="그렇지만 여기가 의뢰주의 선조 때,공원이었다고 할 수는 없지 않아?" Face="Alice" Mono="False" />
+  <!-- まあ　そうだとしても掘ってみるしか無いでしょ？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue3FaceShanghai" Value="뭐，그렇다고는 해도,일단 파헤쳐 볼 수밖에 없잖아?" Face="Shanghai" Mono="False" />
+  <!-- え！？私がこの砂場を掘るの！？ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue4FaceAlice" Value="엑!?,나더러 이 모래사장을 파라고!?" Face="Alice" Mono="False" />
+  <!-- 「乾きの底」ってことはこの砂場の底　つまりは地中にあるってことよ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue5FaceShanghai" Value="”갈증의 밑바닥”이라는 건,이 모래사장의 밑바닥，,즉 땅 속에 있다는 뜻이야." Face="Shanghai" Mono="False" />
+  <!-- あんたしか掘る人いないんだから人助けだと思って頑張れ頑張れ！ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue6FaceShanghai" Value="너 말고 땅 팔 사람 없으니까,사람 도와주는 셈 치고,힘 내라 힘! 힘 내라 힘!" Face="Shanghai" Mono="False" />
+  <!-- ちょっと〜････ -->
+  <Dialogue Key="Map.GencityTreasureStage1Dialogue7FaceAlice" Value="아 조옴～...." Face="Alice" Mono="False" />
+  <!-- ぜぇぜぇ････ -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue1FaceAlice" Value="헤엑 헤엑...." Face="Alice" Mono="False" />
+  <!-- 砂場だから土が柔らかくて助かったわね -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue2FaceShanghai" Value="모래사장이니까 흙이 부드러워서,그나마 다행이었네." Face="Shanghai" Mono="False" />
+  <!-- さあファイトファイト！ -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue3FaceShanghai" Value="자아～파이팅 파이팅!" Face="Shanghai" Mono="False" />
+  <!-- ひえぇ〜 -->
+  <Dialogue Key="Map.GencityTreasureStage3Dialogue4FaceAlice" Value="히에엥～" Face="Alice" Mono="False" />
+  <!-- ！！ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue1FaceAlice" Value="!!" Face="Alice" Mono="False" />
+  <!-- 小さな箱が出てきたわ！ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue2FaceAlice" Value="작은 상자가 나왔어!" Face="Alice" Mono="False" />
+  <!-- ビンゴね！さあ　掘り出して土を戻すわよ！ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue3FaceShanghai" Value="빙고!,자 그럼 상자를 파 내고,구멍 다시 메꿔 놓기 실시!" Face="Shanghai" Mono="False" />
+  <!-- え〜〜！！戻すの〜〜〜！？ -->
+  <Dialogue Key="Map.GencityTreasureStage5Dialogue4FaceAlice" Value="아 왜에에!!,이걸 또 메꾸라고!?" Face="Alice" Mono="False" />
+  <!-- あーもうダメ････しばらくスコップなんて見たくもないわ････ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue1FaceAlice" Value="으.... 더는 못 움직여....,얼마 동안 삽 따위는,두 번 다시 보고 싶지 않아...." Face="Alice" Mono="False" />
+  <!-- おつかれさま！さあ　箱の中身はーーっと！！ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue2FaceShanghai" Value="고생했어!,자 어디 그럼 상자의 내용물은!!,두구두구두구두구!!" Face="Shanghai" Mono="False" />
+  <!-- ････なにこれ？ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue3FaceShanghai" Value="....뭐시여 이게?" Face="Shanghai" Mono="False" />
+  <!-- すごく古いデータチップね････ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue4FaceAlice" Value="엄청 낡은 데이터 칩이잖아...." Face="Alice" Mono="False" />
+  <!-- 読み込んでみましょう -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue5FaceAlice" Value="열어 봐서 확인해 보자." Face="Alice" Mono="False" />
+  <!-- ････きゃっ！ウィルスが入ってきた！ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue6FaceAlice" Value="....꺄악!,바이러스가 침입해 왔어!" Face="Alice" Mono="False" />
+  <!-- このおバカ！！ -->
+  <Dialogue Key="Map.GencityTreasureStage7Dialogue7FaceShanghai" Value="야 임마!!" Face="Shanghai" Mono="False" />
+  <!-- 古代のウィルス････恐ろしかったわ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue1FaceShanghai" Value="고대의 바이러스....,무서웠다." Face="Shanghai" Mono="False" />
+  <!-- それで　データの正体は････？ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue2FaceShanghai" Value="그래서 데이터의 정체는 뭔데....?" Face="Shanghai" Mono="False" />
+  <!-- ････わからないわ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue3FaceAlice" Value="....몰라." Face="Alice" Mono="False" />
+  <!-- とにかく　依頼者のところへ持って行きましょう！ -->
+  <Dialogue Key="Map.GencityTreasureStage9Dialogue4FaceShanghai" Value="일단 의뢰주한테 들고 가 보자!" Face="Shanghai" Mono="False" />
+  <!-- あっ　見つかっちゃった！ -->
+  <Dialogue Key="Map.GencityHiddenCharactersStage1Dialogue1FaceFemaleChild" Value="악，들켰다!" Face="FemaleChild" Mono="False" />
+  <!-- ９９５４８２１４みんなには内緒だよ！ -->
+  <Dialogue Key="Map.GencityHiddenCharactersStage1Dialogue2FaceFemaleChild" Value="99548214,다른 사람들한텐 비밀이야!" Face="FemaleChild" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue1" Value="다들!,와 줬구나!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue2" Value="당연하지! 세계를 구한,영웅께서 건강을 회복하셨다고,들었는데 당연히 가야지!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue3" Value="앨리스 씨께서,크게 다치셨다고 들었을 때,걱정 많이 했던 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue4" Value="퍼펙트 싱크로 때,부상당했던 게 앨리스한테도,그대로 반영되었으니까...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue5" Value="그래도 그 때는,필사적이었잖아...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue6" Value="그래도 무사해서 다행이야!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue7" Value="정말이지 너도,몸 하나만큼은,말도 안 되게 세다니까." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue8" Value="그래도 건강한 게 최고지!" Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue9" Value="나도 한 몸 제대로 던져서,힘 썼다고 생각했는데,역시 저 정도까지는...." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue10" Value="자 자，이 평화는 모두가,힘 써 줘서 쟁취한 거니까." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue11" Value="이 엄마는 앨리스가,무사하다면 그걸로 충분해...." Face="Mama" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue12" Value="그래도 이런 무모한 짓을,하는 거 봐선 역시,당신의 영향은 어디 안 가네." Face="Mama" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue13" Value="에～이，말이 심하네.,최근에는 그렇게까지,무모한 행동은 안 했다고...." Face="Troid" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue14" Value="....아니 뭐야，저 금발 아가씨,트로이드 씨네 딸이었어!?" Face="Kumami" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue15" Value="언니 저 사람 알아?" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue16" Value="그야 트로이드 저 친구,유명한 모험가거든." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage1Dialogue17" Value="헤에～!,이 주변의 유명인이었구나!" Face="Yamame" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage2Dialogue1" Value="....흠." Face="Reisen" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage2Dialogue2" Value="레이센，수줍어하지 말고,한 마디라도 걸어 주면,좋을 텐데." Face="Sagume" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage3Dialogue1" Value="저기요～....,슬슬 독점 인터뷰를,좀 하고 싶은데요...." Face="SanaeReporter" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue1" Value="어머 이런!,이 화단의 경비 시스템,고친 지 얼마 안 됐는데!" Face="Mama" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue2" Value="고약한 바이러스라도,침입해 들어왔나 본데?" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue3" Value="앨리스，몸 상태가 나아진 지,얼마 안 됐는데 미안하지만,평소 하던 그거 가자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue4" Value="그래，물론이지!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityFinalCutsceneEpilogueStartStage4Dialogue5" Value="플러그인!,상하이.EXE，,트랜스미션!!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GencityPostGameBystander1Dialogue1" Value="안녕，앨리스!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GencityPostGameBystander1Dialogue2" Value="세계를 구한 그 대단한 사람이,이 근방에 살고 있다는 게,뭔가 자랑스러워!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.GencityPostGameBystander2Dialogue1" Value="한 달만 더 지나면 여름방학이다!,방학 되기 전에 세계가,평화로워져서 다행이야～～!" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.UraNetSquarePostGameBystander4Dialogue1" Value="왜인지는 모르겠다만,세계가 온화해진 것 같구먼." Face="FemaleElderly" Mono="False" />
+</data>

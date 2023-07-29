@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ShoolNet2Name" Value="학교의 전뇌 2" />
+  <Dialogue Key="Map.ShoolNet2Terminal1Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal1Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal1Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal1Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal2Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal2Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal2Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal2Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal3Stage1Dialogue1FaceNone" Value="상하이는,열람 권한을 조작했다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal3Stage1Dialogue2FaceNone" Value="접속할 수 있는 범위가,넓어졌다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal3Stage3Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal3Stage5Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage1Dialogue1FaceShanghai" Value="으악!,바이러스가 튀어나왔어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue1FaceShanghai" Value="쳇，괜히 고생 시키고 있어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue2FaceShanghai" Value="좋아，이러면 이제,보안이 해제되었을 거야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue3FaceMari" Value="역시나 앨리스랑 상하이구만!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue4FaceTsubakiNekku" Value="이런! 이번에도,내가 활약한 부분은 없었잖아!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue5FaceSpannerMan" Value="지금 투덜거릴 때가 아냐.,우리 목표는,학교를 구하는 거잖아." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue6FaceMarisa" Value="사쿠야나 탱크맨 쪽도,잘 하고 있을까?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage3Dialogue7FaceShanghai" Value="어머，여기서 사쿠야랑,탱크맨이 있는 에리어가 보여." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage5Dialogue1FaceAlice" Value="바.... 방금 건 뭐야....!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage5Dialogue2FaceShanghai" Value="탱크맨....,싫어한 건 아니었어.,나무아미타불，나무아미타불...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage5Dialogue3FaceMarisa" Value="아직 딜리트됐다고,단정된 게 아니잖아!!" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue1FaceShanghai" Value="앨리스，코아 선생님으로부터,전화가 왔어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue2FaceAlice" Value="여보세요!?,선생님 괜찮으세요!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue3FaceKumako" Value="나는 괜찮은데,레밀리아의 내비와의,통신이 끊어졌어!" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue4FaceAlice" Value="방금 직원실 서버를,복구한 참이에요!,바로 PC 교실로 갈게요!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue5FaceKumako" Value="안 돼!,문에 전기가 흐르기 시작해서,갇혀 버린 상태야!" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue6FaceAlice" Value="어라....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue7FaceAlice" Value="문에 흐르는 전기는,직원실 서버에서,제어되는 게 아니었어....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue8FaceShanghai" Value="아무래도 우리가,착각하고 있었던 모양이야...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue9FaceAlice" Value="무슨 뜻이야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue10FaceShanghai" Value="문에 흐르는 전류는,보안이 폭주해서,일어난 게 아니었어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue11FaceShanghai" Value="아마도 범인의 넷 내비가,PC 교실의 서버에서,전류를 다루고 있었던 거겠지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue12FaceTsubakiNekku" Value="아니，잠깐만!,그러면 직원실 서버는,미끼였다는 거잖아! 제길!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue13FaceShanghai" Value="선생님，탱크맨이랑 사쿠야의,연결이 끊어진 곳 주변에,갈 수 있는 방법이 있나요?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue14FaceKumako" Value="어디.... 창고 근처의,카드 리더기를 통해서라면,갈 수 있을 거야!" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue15FaceAlice" Value="카드 리더기 말이죠?,알겠어요!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue16FaceMari" Value="창고라면 2층이네....,좋아，가자!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage7Dialogue17FaceTsubakiNekku" Value="그래!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Terminal5Stage9Dialogue1FaceNone" Value="이 단말로 조작할 수 있는,열람 권한은 더는 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Marisa1Stage1Dialogue1FaceMarisa" Value="등 뒤에 레일건이 장착된,바이러스는 피해를 입으면,공격하는 것 같아." Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Spanner1Stage1Dialogue1FaceSpannerMan" Value="이 앞에 단말이 있는데,내가 갈 수가 없을 것 같아." Face="SpannerMan" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Sprite1AStage1Dialogue1FaceSprite" Value="직원실의 서버는,네트워크가 복잡해요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Sprite1AStage1Dialogue2FaceSprite" Value="길 잃지 않게,조심하세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Sprite2AStage1Dialogue1FaceSprite" Value="이 건너편에 길이 있는데,열람 권한이 엉망이 되서,지나갈 수 없게 되었어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Sprite2AStage3Dialogue1FaceSprite" Value="전 열람 권한이 낮아서,지금도 길이,안 보이는 상태고요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ShoolNet2Chapter3Sprite3Stage1Dialogue1FaceSprite" Value="배리어를 치는 바이러스는,배리어를 공격하면,반격을 가해요." Face="Sprite" Mono="False" />
+</data>

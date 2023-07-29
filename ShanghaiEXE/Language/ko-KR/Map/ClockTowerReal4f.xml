@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔　内部　最上階 -->
+  <Text Key="Map.ClockTowerReal4fName" Value="시계탑 내부 최상층" />
+  <!-- 扉は電子ロックによって固く閉ざされている････ -->
+  <Dialogue Key="Map.ClockTowerReal4fDoorStage1Dialogue1FaceNone" Value="문은 전자 잠금장치로,굳게 잠겨 있다...." Face="None" Mono="False" />
+  <!-- この部屋のセキュリティを制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage1Dialogue1FaceNone" Value="이 방의 보안을,제어하는 컨트롤 패널이다." Face="None" Mono="False" />
+  <!-- アクセスにロックがかけられておりプラグインすることができない -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage1Dialogue2FaceNone" Value="액세스 락이 걸려 있어서,플러그인할 수가 없다." Face="None" Mono="False" />
+  <!-- この部屋のセキュリティを制御するコントロールパネルだ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage3Dialogue1FaceNone" Value="이 방의 보안을,제어하는 컨트롤 패널이다." Face="None" Mono="False" />
+  <!-- 今はアクセスがフリーになっておりプラグインが可能だ！ -->
+  <Dialogue Key="Map.ClockTowerReal4fControlDeviceStage3Dialogue2FaceNone" Value="지금은 액세스 락이 풀려 있어서,플러그인할 수 있다!" Face="None" Mono="False" />
+  <!-- ････なんだか声が聞えるわ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage1Dialogue1FaceAlice" Value="....무슨 소리가 들려." Face="Alice" Mono="False" />
+  <!-- アリス！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage1Dialogue2FaceWriggleHat" Value="앨리스!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue1FaceAlice" Value="리글!" Face="Alice" Mono="False" />
+  <!-- ほう　もうここまで昇ってきたか -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue2FaceScissorManOpTarakhan" Value="호오，벌써 여기까지 올라왔나." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- すぐにここのセキュリティを解除してそっちに行くから！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue3FaceAlice" Value="금방 여기 보안을,해제하고 갈게!" Face="Alice" Mono="False" />
+  <!-- 約束は破るんじゃないわよ！ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue4FaceAlice" Value="약속 어기지나 말라고!" Face="Alice" Mono="False" />
+  <!-- クハハ････　いいだろう -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue5FaceScissorManOpTarakhan" Value="크하하.... 좋지." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- そこのセキュリティはこれまでのものとは一味違うぞ？ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue6FaceScissorManOpTarakhan" Value="거기 있는 보안 시스템은,이제까지 봐 왔던 거랑,뭔가 좀 다를걸?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ　その威勢の良さがいつまで続くか高みの見物をさせてもらうよ -->
+  <Dialogue Key="Map.ClockTowerReal4fEventStage3Dialogue7FaceScissorManOpTarakhan" Value="자，어디 그럼，언제까지,기세등등하게 나올지，,여기서 지켜봐 주마." Face="ScissorManOpTarakhan" Mono="False" />
+</data>

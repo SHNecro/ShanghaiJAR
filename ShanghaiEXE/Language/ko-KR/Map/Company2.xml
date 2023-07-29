@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- ボーダーコンツェルン本社　エレベーターホール -->
+  <Text Key="Map.Company2Name" Value="보더 콘체른 본사 엘리베이터 홀" />
+  <!-- このエレベーターで登れば社長室にいけるはずだ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue1FaceReisen" Value="이 엘리베이터를 타면,사장실로 향할 수 있을 거다." Face="Reisen" Mono="False" />
+  <!-- ････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue2FaceAlice" Value="...." Face="Alice" Mono="False" />
+  <!-- どうした？ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue3FaceReisen" Value="왜 그래?" Face="Reisen" Mono="False" />
+  <!-- 社長ってことは紫さんと会うのよね････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue4FaceAlice" Value="사장이랑 만나게 된다면,우리가 지금 유카리 씨를,만난다는 거잖아...." Face="Alice" Mono="False" />
+  <!-- 私　あの人が悪い人には見えなかったから････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue5FaceAlice" Value="난 그 사람이 나쁜 사람으로는,안 보였는데...." Face="Alice" Mono="False" />
+  <!-- 悪人顔をした悪人など世の中では少数派だ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue6FaceReisen" Value="외관까지 험상궂은 악인은,이 세상에 흔하지 않아." Face="Reisen" Mono="False" />
+  <!-- 生まれたときからの悪人など存在しない -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue7FaceReisen" Value="태어날 때부터 악인이란,존재하지 않아." Face="Reisen" Mono="False" />
+  <!-- 悪人へと至る過程が人間を犯罪者へ変貌させる -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue8FaceReisen" Value="악인으로 치닫는 과정이 있으니까,사람은 범죄자로 변모하는 거야." Face="Reisen" Mono="False" />
+  <!-- ････どういうこと？ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue9FaceAlice" Value="....무슨 뜻이야?" Face="Alice" Mono="False" />
+  <!-- 私達はただ降りかかる火の粉を払うしかできないということよ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue10FaceReisen" Value="우리는 그런 위험이 다가오기 전에,미리 대비해야 한다는 거야." Face="Reisen" Mono="False" />
+  <!-- そうよね････ -->
+  <Dialogue Key="Map.Company2Chapter7EventsStage1Dialogue11FaceAlice" Value="그렇네...." Face="Alice" Mono="False" />
+</data>

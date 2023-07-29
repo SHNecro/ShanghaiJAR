@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 時計塔の電脳４ -->
+  <Text Key="Map.ClockTower4Name" Value="시계탑의 전뇌 4" />
+  <!-- オヤツノ　ジカンッテナンジ　デシタッケ？ -->
+  <Dialogue Key="Map.ClockTower4Sprite1AStage1Dialogue1FaceSprite" Value="간식 시간이 언제였죠?" Face="Sprite" Mono="False" />
+  <!-- マッスグノ　ミチデイソガバ　マワレ････ -->
+  <Dialogue Key="Map.ClockTower4Sprite2AStage1Dialogue1FaceSprite" Value="일직선으로 향한 길에서는,급할 수록 돌아서 가세요...." Face="Sprite" Mono="False" />
+  <!-- コノエリアノ　ゴールハミギシタニ　アルンデスヨ -->
+  <Dialogue Key="Map.ClockTower4Sprite3AStage1Dialogue1FaceSprite" Value="이 에리어의 골은,오른쪽 아래에 있어요." Face="Sprite" Mono="False" />
+  <!-- サイゴニ　ヒダリシタニムカウト　デラレルッテダレカガ　イッテタヨ -->
+  <Dialogue Key="Map.ClockTower4Sprite3AStage1Dialogue2FaceSprite" Value="마지막에 왼쪽 아래로,향하면 여길 나갈 수 있다고,누가 그랬어요." Face="Sprite" Mono="False" />
+  <!-- 大きな時計と連動した時計だ針を動かしますか？ -->
+  <Dialogue Key="Map.ClockTower4GimmickStage1Dialogue1QuestionFaceNone" Value="큰 시계와 연동되는 시계이다.,시곗바늘을 움직이겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.ClockTower4GimmickStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 短針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower4GimmickStage3Dialogue1QuestionFaceNone" Value="시침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- １２時　３時　６時　９時 -->
+  <Text Key="Map.ClockTower4GimmickStage3Dialogue1Options" Value="１２시,　３시,　６시,　９시" />
+  <!-- 長針をどこに動かす？ -->
+  <Dialogue Key="Map.ClockTower4GimmickStage5Dialogue1QuestionFaceNone" Value="분침을 어디로 움직일까?" Face="None" Mono="True" />
+  <!-- ００分１５分３０分４５分 -->
+  <Text Key="Map.ClockTower4GimmickStage5Dialogue1Options" Value="００분,１５분,３０분,４５분" />
+</data>

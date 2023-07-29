@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ＲＯＭの電脳２ -->
+  <Text Key="Map.ROMnet2Name" Value="ROM의 전뇌 2" />
+  <!-- ふしゅるるる････ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue1FacePyroMan" Value="휘르르르르르...." Face="PyroMan" Mono="False" />
+  <!-- パイロマン････？ということは！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue2FaceShanghai" Value="파이로맨....?,그 말은 즉....!" Face="Shanghai" Mono="False" />
+  <!-- ヘヘッ！　そうだ！私だよ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue3FacePyroManOpMokou" Value="헤헷! 그래!,나다!" Face="PyroManOpMokou" Mono="False" />
+  <!-- 妹紅！？どうしてあなたがここに！？ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue4FaceAlice" Value="모코우!?,왜 네가 여기에 있어!?" Face="Alice" Mono="False" />
+  <!-- てめえらに復讐するためにＲＯＭに手を貸したのさ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue5FacePyroManOpMokou" Value="니놈들한테 복수하기 위해,ROM을 도와준 거다!" Face="PyroManOpMokou" Mono="False" />
+  <!-- ほんっと　手段を選ばないめんどうくさいやつ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue6FaceShanghai" Value="정말이지 수단방법 안 가리는,귀찮은 녀석이네!" Face="Shanghai" Mono="False" />
+  <!-- パワーアップした炎で今度こそ貴様をマルコゲにしてやるボボボー！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue7FacePyroMan" Value="파워업한 불꽃으로,이번에야말로 네놈을,새까맣게 태워 주마 화르르!" Face="PyroMan" Mono="False" />
+  <!-- できるならやってみなさい！アリス　行くわよ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue8FaceShanghai" Value="할 수 있다면 해 보던가!,앨리스，가자!" Face="Shanghai" Mono="False" />
+  <!-- バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue9FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue10FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- ボボボー！！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage1Dialogue11FacePyroMan" Value="화르르르!!" Face="PyroMan" Mono="False" />
+  <!-- ボボゴホッ････ボボゴホッ････ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage3Dialogue1FacePyroMan" Value="화르륵....,후드득...." Face="PyroMan" Mono="False" />
+  <!-- 勝負あったわねそこを通してもらうわよ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage3Dialogue2FaceShanghai" Value="승부가 결정났네.,당장 거기 길 비켜!" Face="Shanghai" Mono="False" />
+  <!-- ちっ！　パイロマンこうなったら奥の手だ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage3Dialogue3FacePyroManOpMokou" Value="칫! 파이로맨，,이렇게 되면 최후의 수단이다!" Face="PyroManOpMokou" Mono="False" />
+  <!-- ボボボー！！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage3Dialogue4FacePyroMan" Value="활활활활!!" Face="PyroMan" Mono="False" />
+  <!-- あっつ！！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage5Dialogue1FaceShanghai" Value="악 뜨거!!" Face="Shanghai" Mono="False" />
+  <!-- 妹紅！もう勝負はついたでしょ！？ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage5Dialogue2FaceAlice" Value="모코우!,이미 승부는 결정났잖아!?" Face="Alice" Mono="False" />
+  <!-- うるせぇ！私はただの一度も負けるわけにはいかねえんだ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage5Dialogue3FacePyroManOpMokou" Value="시끄러워!,난 단 한 번이라도,질 순 없단 말이다!" Face="PyroManOpMokou" Mono="False" />
+  <!-- パイロマン！火力最大だ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage5Dialogue4FacePyroManOpMokou" Value="파이로맨!,화력 최대로!" Face="PyroManOpMokou" Mono="False" />
+  <!-- ガガーッ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage5Dialogue5FacePyroMan" Value="가아악!" Face="PyroMan" Mono="False" />
+  <!-- くっ････！このままじゃ････ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage7Dialogue1FaceShanghai" Value="크윽....!,이대로는...." Face="Shanghai" Mono="False" />
+  <!-- マッドウェーブじゃ！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage7Dialogue2FaceNone" Value="머드 웨이브다앗!" Face="None" Mono="False" />
+  <!-- グギャァァァッ！？ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage9Dialogue1FacePyroMan" Value="그갸아아아아악!?" Face="PyroMan" Mono="False" />
+  <!-- 間に合ったようじゃのう -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage11Dialogue1FaceTortoiseMan" Value="간발의 차였구먼." Face="TortoiseMan" Mono="False" />
+  <!-- やったね！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage11Dialogue2FaceReimu" Value="해냈구나!" Face="Reimu" Mono="False" />
+  <!-- 霊夢ちゃん！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage11Dialogue3FaceAlice" Value="레이무!" Face="Alice" Mono="False" />
+  <!-- クソッ！邪魔をしやがって！ -->
+  <Dialogue Key="Map.ROMnet2VSPyroEventStage11Dialogue4FacePyroManOpMokou" Value="제기랄!,방해를 하고 앉았어!" Face="PyroManOpMokou" Mono="False" />
+  <!-- イィーヒヒヒィッ！！待ってたぜぇ女ナビィッ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue1FaceScissorMan" Value="이잇힛힛히이!!,기다리고 있었다，여자 내비!" Face="ScissorMan" Mono="False" />
+  <!-- あんたとは二度と顔を合わせたくなかったけどね -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue2FaceShanghai" Value="너하고는 두 번 다시 얼굴을,마주하고 싶지 않았는데 말야." Face="Shanghai" Mono="False" />
+  <!-- クハハハハ････嫌われたものだな -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue3FaceScissorManOpTarakhan" Value="크하하하하....,증오받는군." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- あなたを倒して先に行かせてもらうわよ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue4FaceAlice" Value="널 쓰러뜨리고,앞으로 나아가겠어!" Face="Alice" Mono="False" />
+  <!-- 震えていた小娘が強気になったものだ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue5FaceScissorManOpTarakhan" Value="한 때는 겁에 질린 채,벌벌 떨던 꼬마가,그새 기세가 늘었구나." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- シザーマン思う存分彼女らを料理してあげたまえ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue6FaceScissorManOpTarakhan" Value="시저맨，,네 원하는 대로,저들을 요리해 주거라." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 言われなくともそうするさぁ！！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue7FaceScissorMan" Value="말 안 해도 그럴 거다앗!!" Face="ScissorMan" Mono="False" />
+  <!-- さぁ････どこから斬り刻んで欲しいんだ？ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue8FaceScissorMan" Value="자아.... 어디부터,잘게 썰어 줄까?" Face="ScissorMan" Mono="False" />
+  <!-- 腕か？　脚か？それとも原型もないくらいズタズタかなぁッ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue9FaceScissorMan" Value="팔? 다리? 아니면,원형이 남지 않을 정도로,갈기갈기 찢어 줄까!?" Face="ScissorMan" Mono="False" />
+  <!-- あんたなんてチリッチリに炒めてつくだ煮にでもしてやるわ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue10FaceShanghai" Value="너 따위는,아주 지글지글하게 지져서,졸여 버리겠어!" Face="Shanghai" Mono="False" />
+  <!-- （虫のつくだ煮は　見たくないなあ････） -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue11FaceAlice" Value="(벌레 조림은, 보고 싶지 않은데....)" Face="Alice" Mono="False" />
+  <!-- アリス　怯まずにいくわよ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue12FaceShanghai" Value="앨리스，기 죽지 말고 가자고!" Face="Shanghai" Mono="False" />
+  <!-- え　ええ！バトルオペレーション、セット！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue13FaceAlice" Value="그，그래!,배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <!-- イン！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue14FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <!-- 俺様の鎌のエジキになりなッ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage1Dialogue15FaceScissorMan" Value="이 몸의 낫의 먹이가 되어라!" Face="ScissorMan" Mono="False" />
+  <!-- グゥゥゥッ！！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage3Dialogue1FaceScissorMan" Value="그으으으윽!!" Face="ScissorMan" Mono="False" />
+  <!-- しぶといやつ！畳み掛けるわよ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage3Dialogue2FaceShanghai" Value="끈질긴 놈!,밀어붙여주마!" Face="Shanghai" Mono="False" />
+  <!-- 時間稼ぎは済んだァ！来い　オートロイドども！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage3Dialogue3FaceScissorMan" Value="시간은 충분히 끌었다!,와라，오토로이드 놈들!" Face="ScissorMan" Mono="False" />
+  <!-- ご苦労だったなぁ！部下を呼び寄せる時間稼ぎに付き合ってくれてよぉ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue1FaceScissorMan" Value="수고 많았다고!,부하들을 불러들일 시간끌기에,자진 참여해 줘서 말야!" Face="ScissorMan" Mono="False" />
+  <!-- この数は････ちょっとキツイかも -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue2FaceAlice" Value="이 숫자는....,조금 빠듯할 것 같은데." Face="Alice" Mono="False" />
+  <!-- 弱気になるんじゃないわ！こんな連中････ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue3FaceShanghai" Value="약한 소리 하지 마!,이딴 놈들 따위...." Face="Shanghai" Mono="False" />
+  <!-- 戦ってる間にもっと数が来るぜぇ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue4FaceScissorMan" Value="싸우는 동안에도,더 많은 숫자가 몰려온다고!" Face="ScissorMan" Mono="False" />
+  <!-- 力尽きるまでに何匹倒せるか高みの見物と洒落込んでやらァ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue5FaceScissorMan" Value="힘이 다할 때까지,몇 마리나 쓰러뜨릴 수 있을 지,좋은 구경거리를 보여 달라구!" Face="ScissorMan" Mono="False" />
+  <!-- ････答えは６匹よ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue6FaceShanghai" Value="....답은 6마리다." Face="Shanghai" Mono="False" />
+  <!-- 何ぃ？ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue7FaceScissorMan" Value="뭣이?" Face="ScissorMan" Mono="False" />
+  <!-- ポイズンボーールッ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage5Dialogue8FaceNone" Value="포이즌 볼!" Face="None" Mono="False" />
+  <!-- メディスン！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage7Dialogue1FaceShanghai" Value="메디슨!" Face="Shanghai" Mono="False" />
+  <!-- き　貴様は裏切り者の！！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage7Dialogue2FaceScissorMan" Value="네，네녀석은 배신자!!" Face="ScissorMan" Mono="False" />
+  <!-- そっちから切り捨てておいて勝手な言い分ね！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage7Dialogue3FaceMedicine" Value="니네가 먼저 버려 놓고,그렇게 말하는 건,좀 선 넘지 않았냐!" Face="Medicine" Mono="False" />
+  <!-- こうなったら俺様のエネルギーをオーバーロードさせて････！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage7Dialogue4FaceScissorMan" Value="이렇게 되면 내 남은 에너지를,오버로드시켜서....!" Face="ScissorMan" Mono="False" />
+  <!-- 自爆するつもり！？ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage7Dialogue5FaceShanghai" Value="자폭할 생각이야!?" Face="Shanghai" Mono="False" />
+  <!-- ヒャーヒャッヒャ！一緒に地獄へ行こうぜぇ！！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage7Dialogue6FaceScissorMan" Value="햐앗햣햐!,다 함께 지옥에나 떨어지자구!!" Face="ScissorMan" Mono="False" />
+  <!-- 地獄へのご旅行ならお一人で逝きなさいな -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage9Dialogue1FaceSakuya" Value="지옥 가는 길이라면,혼자 가시길." Face="Sakuya" Mono="False" />
+  <!-- いつの間に････グアァァァッ！！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage9Dialogue2FaceScissorMan" Value="아니 어느 틈에....,그아아아아악!!" Face="ScissorMan" Mono="False" />
+  <!-- サクヤ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage11Dialogue1FaceShanghai" Value="사쿠야!" Face="Shanghai" Mono="False" />
+  <!-- ホホホ　私の出番が残ってて助かったわ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage11Dialogue2FaceRemilia" Value="호호호，내가 나설 차례가,남아 있어서 다행이네." Face="Remilia" Mono="False" />
+  <!-- 私の運搬ごくろうさまねおじょーさま♪ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage11Dialogue3FaceMedicine" Value="날 데려다 주느라 고생했어，,아가씨♪" Face="Medicine" Mono="False" />
+  <!-- ふむ････ここらが潮時か -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage13Dialogue1FaceScissorManOpTarakhan" Value="흐음.... 지금이 딱 적당한 때인가." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- あの厄介な首刈り兎が来る前に私は退散するとしよう -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage13Dialogue2FaceScissorManOpTarakhan" Value="그 귀찮은 살인토끼가,오기 전에 도망치도록 하자." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 逃げた！？ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage13Dialogue3FaceAlice" Value="도망쳤어!?" Face="Alice" Mono="False" />
+  <!-- もうナビも持ってないだろうし追うだけ無駄ね放っておきましょ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage13Dialogue4FaceShanghai" Value="어차피 내비도 더 이상 없고,추격해 봐야 의미 없겠지.,그냥 내버려 두자." Face="Shanghai" Mono="False" />
+  <!-- バリアーの解除を確認しましたおふたりとも　先へ急いでくださいませ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage15Dialogue1FaceSakuya" Value="배리어가 해제되었습니다.,두 분 모두 서둘러 주세요!" Face="Sakuya" Mono="False" />
+  <!-- ありがとう　レミリア！それからサクヤとメディスンも！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage15Dialogue2FaceAlice" Value="고마워，레밀리아!,그리고 사쿠야랑 메디슨도!" Face="Alice" Mono="False" />
+  <!-- シャンハイ　プラグアウトよ！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage15Dialogue3FaceAlice" Value="상하이，플러그아웃!" Face="Alice" Mono="False" />
+  <!-- オッケー！ -->
+  <Dialogue Key="Map.ROMnet2VSSizzermanIveStage15Dialogue4FaceShanghai" Value="오케이!" Face="Shanghai" Mono="False" />
+</data>

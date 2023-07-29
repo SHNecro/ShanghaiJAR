@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- 幻想大学前 -->
   <Text Key="Map.GenUniversityName" Value="幻想大学前" />
@@ -10,8 +10,8 @@
   <Dialogue Key="Map.GenUniversityChapter2Woman1Stage1Dialogue2FaceFemaleAdult" Value="でも　あなたもしっかり,勉強すればここへ通うのも,夢じゃないのよ" Face="FemaleAdult" Mono="False" />
   <!-- 森近博士に会いに来たのかい？ -->
   <Dialogue Key="Map.GenUniversityChapter2Male2Stage1Dialogue1FaceScientist" Value="森近博士に会いに来たのかい？" Face="Scientist" Mono="False" />
-  <!-- 博士は自分の研究室にいるだろうから行ってみるよいいよ -->
-  <Dialogue Key="Map.GenUniversityChapter2Male2Stage1Dialogue2FaceScientist" Value="博士は自分の研究室に,いるだろうから行ってみるよいいよ" Face="Scientist" Mono="False" />
+  <!-- 博士は自分の研究室にいるだろうから行ってみるといいよ -->
+  <Dialogue Key="Map.GenUniversityChapter2Male2Stage1Dialogue2FaceScientist" Value="博士は自分の研究室に,いるだろうから行ってみるといいよ" Face="Scientist" Mono="False" />
   <!-- 今日は帰ろうかな？それとも部室でのんびりしようかな？ -->
   <Dialogue Key="Map.GenUniversityChapter2Woman2Stage1Dialogue1FaceFemaleAdult" Value="今日は帰ろうかな？,それとも部室で,のんびりしようかな？" Face="FemaleAdult" Mono="False" />
   <!-- 来たか！今入口を開けるぜ！ -->

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インゲレス　ホテル -->
+  <Text Key="Map.IngleasHotelName" Value="잉겔레스 호텔" />
+  <!-- 高級感漂うベッドだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage1Dialogue1FaceNone" Value="고급감 넘치는 침대다." Face="None" Mono="False" />
+  <!-- ホテルの職員が常に新しいシーツに交換するのでいつでもフカフカだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage1Dialogue2FaceNone" Value="호텔 직원이 매일,새 시트로 갈아주니까,항상 푹신푹신하다." Face="None" Mono="False" />
+  <!-- 今日はもう寝ちゃう？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage3Dialogue1QuestionFaceShanghai" Value="오늘은 이만 잘까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.IngleasHotelBedStage3Dialogue1Options" Value="예,아니오" />
+  <!-- 寝る前にセーブする？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue1QuestionFaceShanghai" Value="자기 전에 세이브할까?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.IngleasHotelBedStage5Dialogue1Options" Value="예,아니오" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　ゆっくり休みなさい！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage5Dialogue4FaceShanghai" Value="앨리스，느긋하게 쉬라구!" Face="Shanghai" Mono="False" />
+  <!-- 翌日････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage7Dialogue1FaceNone" Value="다음 날...." Face="None" Mono="False" />
+  <!-- シャンハイ　おはよう････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue1FaceAlice" Value="상하이，안녕...." Face="Alice" Mono="False" />
+  <!-- アリス　眠れた？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue2FaceShanghai" Value="앨리스，잠은 잤어?" Face="Shanghai" Mono="False" />
+  <!-- それなりにね････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue3FaceAlice" Value="그런 대로...." Face="Alice" Mono="False" />
+  <!-- 今日はどうしよう？昨日あんなことがあったし外に出るのは怖いわ････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue4FaceAlice" Value="오늘은 어떻게 해야 하지?,어제 그런 일을 겪으니까,이젠 밖에 나가는 게 무서워...." Face="Alice" Mono="False" />
+  <!-- 昨日の件は警察に通報したしあまり気にしすぎるのも････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage9Dialogue5FaceShanghai" Value="어제 건은 경찰에 신고했으니,너무 신경 쓰는 것도 좀...." Face="Shanghai" Mono="False" />
+  <!-- あら　電話よ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue1FaceShanghai" Value="어라，전화가 왔어." Face="Shanghai" Mono="False" />
+  <!-- あっ　リグル君からだ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue2FaceAlice" Value="아，리글한테서다!" Face="Alice" Mono="False" />
+  <!-- あんたいつ電話番号を交換したのよ････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue3FaceShanghai" Value="너네 둘이 언제,전화번호 교체했냐...." Face="Shanghai" Mono="False" />
+  <!-- なーいしょっ！もしもし？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue4FaceAlice" Value="여자의 비밀이지롱!,여보세요?" Face="Alice" Mono="False" />
+  <!-- アリス････逃げて････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue5FaceWriggleHat" Value="앨리스.... 도망쳐....!" Face="WriggleHat" Mono="False" />
+  <!-- え････！？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue6FaceAlice" Value="어....!?" Face="Alice" Mono="False" />
+  <!-- やぁ、お嬢さんご機嫌はいかがかな？クハハハハ････！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue7FaceNone" Value="안녕하신가，아가씨.,기분은 어떠신가 그래?,크하하하하....!!" Face="None" Mono="False" />
+  <!-- その笑い声････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue8FaceAlice" Value="그 웃음소리는....!" Face="Alice" Mono="False" />
+  <!-- おっと　電話を切ると後悔するぞ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue9FaceScissorManOpTarakhan" Value="어이쿠，전화를 끊었다가는,후회할 거다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- なぜなら　こいつの命は今私が握っているのだからな -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue10FaceScissorManOpTarakhan" Value="이 녀석의 명줄은,내가 쥐고 있으니까 말야." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- な････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue11FaceAlice" Value="뭐야....!" Face="Alice" Mono="False" />
+  <!-- クハハッ　その反応が欲しかったさぁ　それではひとつゲームと行こうか -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue12FaceScissorManOpTarakhan" Value="크하하，그 반응을 원했다.,어디 그럼，게임 하나 할까?" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 我々は今　広場にある時計塔の頂上にいる -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue13FaceScissorManOpTarakhan" Value="우리는 지금 광장에 있는,시계탑의 정상에 있다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 君はこいつから受け取ったペンダントを持って私のところまで来い -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue14FaceScissorManOpTarakhan" Value="넌 이 녀석한테서 받은,그 펜던트를 들고,내가 있는 곳으로 와라." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ただし　頂上へはいくつかセキュリティが仕掛けられている -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue15FaceScissorManOpTarakhan" Value="다만 정상으로 가는 길목에는,일부 지역에 보안이,설정되어 있다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- プラグインをすれば解除できるつくりのものだけだが････ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue16FaceScissorManOpTarakhan" Value="플러그인하면,충분히 해제하고도,남게 설계되었지만...." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- 君のナビがデリートされた場合私の勝ち　こいつを時計台から突き落とす -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue17FaceScissorManOpTarakhan" Value="네 내비가 딜리트당할 경우,내가 이긴 걸로 쳐서 이 녀석을,시계탑에서 밀어 떨어뜨리겠다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- もしも　頂上までたどり着けたら貴様の持っているペンダントとこいつを交換してやろう -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue18FaceScissorManOpTarakhan" Value="만약 정상까지 도착한다면,네놈이 들고 있는 펜던트와,이 놈을 서로 교환하지." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- あたし達が勝てば交換負けたら････リグルの命は無いということね -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue19FaceShanghai" Value="우리가 이기면 목숨 교환이지만,지게 되면....,리글의 목숨은 없는 거군." Face="Shanghai" Mono="False" />
+  <!-- 聞いちゃダメだ････････僕のことはいいからアリスは逃げて････！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue20FaceWriggleHat" Value="이 놈 말은 듣지 마........,나는 신경 쓰지 말고,앨리스는 도망쳐....!!" Face="WriggleHat" Mono="False" />
+  <!-- リグル君････！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue21FaceAlice" Value="리글....!" Face="Alice" Mono="False" />
+  <!-- もしも　警察を介入させたり他の者に助けを求めたらルール違反　貴様の負けだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue22FaceScissorManOpTarakhan" Value="만약 경찰을 개입시키거나,다른 사람에게 도움을 요청하면,규칙 위반으로 네놈이 지게 된다." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- その時は････言わずとも分かるだろう？クハハハハ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue23FaceScissorManOpTarakhan" Value="네가 지게 되면....,굳이 말 안 해도 알겠지?,크하하하하!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- さぁ　急いだ方がいいコイツの命が惜しければな -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue24FaceScissorManOpTarakhan" Value="자，서둘러야지.,이 놈의 목숨이 아깝다면." Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- それではゲームスタートだ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage11Dialogue25FaceScissorManOpTarakhan" Value="그러면 게임 스타트다!" Face="ScissorManOpTarakhan" Mono="False" />
+  <!-- ････電話は切れたわ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue1FaceShanghai" Value="....전화는 끊어졌어." Face="Shanghai" Mono="False" />
+  <!-- どうする　アリス？ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue2FaceShanghai" Value="어떻게 할 거야，앨리스?" Face="Shanghai" Mono="False" />
+  <!-- もちろん助けに行くわ！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue3FaceAlice" Value="당연히 구하러 가야지!!" Face="Alice" Mono="False" />
+  <!-- そういうと思ったわどんなセキュリティだろうがこのあたしが突破してやるわよ！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue4FaceShanghai" Value="그럴 줄 알았지.,어떤 보안이건,이 내가 돌파해 주겠어!" Face="Shanghai" Mono="False" />
+  <!-- ええ　行くわよ時計塔に！！ -->
+  <Dialogue Key="Map.IngleasHotelBedStage13Dialogue5FaceAlice" Value="그래，그러면,시계탑으로 가자!!" Face="Alice" Mono="False" />
+  <!-- 高級感漂うベッドだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage15Dialogue1FaceNone" Value="고급감 넘치는 침대다." Face="None" Mono="False" />
+  <!-- ホテルの職員が常に新しいシーツに交換するのでいつでもフカフカだ -->
+  <Dialogue Key="Map.IngleasHotelBedStage15Dialogue2FaceNone" Value="호텔 직원이 매일,새 시트로 갈아주니까,항상 푹신푹신하다." Face="None" Mono="False" />
+  <!-- 立派なイスがついた固定されたテーブルだ -->
+  <Dialogue Key="Map.IngleasHotelAngularTableStage1Dialogue1FaceNone" Value="튼튼한 의자가 딸려 있는,고정된 테이블이다." Face="None" Mono="False" />
+  <!-- この上にノートパソコンを広げたらちょうど良さそうだ -->
+  <Dialogue Key="Map.IngleasHotelAngularTableStage1Dialogue2FaceNone" Value="이 위에 노트북을,올려 놓으면 딱 좋을 것 같다." Face="None" Mono="False" />
+  <!-- 四角いテーブルだ -->
+  <Dialogue Key="Map.IngleasHotelSquareTableStage1Dialogue1FaceNone" Value="사각 테이블이다." Face="None" Mono="False" />
+  <!-- 部屋でものを食べるならこの上で食べるのがちょうど良さそうだ -->
+  <Dialogue Key="Map.IngleasHotelSquareTableStage1Dialogue2FaceNone" Value="방에서 무언가를 먹으려면,이 위에 놓고 먹는 게,딱 좋을 것 같다." Face="None" Mono="False" />
+  <!-- 小さめの冷蔵庫だ -->
+  <Dialogue Key="Map.IngleasHotelRefrigeratorStage1Dialogue1FaceNone" Value="작은 냉장고다." Face="None" Mono="False" />
+  <!-- 中には値札のついたジュースが並んでいて　チェックアウトの時に料金が加算される仕組みだ -->
+  <Dialogue Key="Map.IngleasHotelRefrigeratorStage1Dialogue2FaceNone" Value="안에는 가격표가 붙은 주스가,진열되어 있으며 체크아웃할 때,요금이 추가로 붙는 방식이다." Face="None" Mono="False" />
+  <!-- プラグインすることもできそうだ！ -->
+  <Dialogue Key="Map.IngleasHotelRefrigeratorStage1Dialogue3FaceNone" Value="플러그인도 할 수 있는 것 같다!" Face="None" Mono="False" />
+  <!-- フロントにつながる内線電話だ -->
+  <Dialogue Key="Map.IngleasHotelIntercomStage1Dialogue1FaceNone" Value="프런트에 연결되는 내선 전화다." Face="None" Mono="False" />
+  <!-- ルームサービスを頼んだり困ったことがある時に利用する -->
+  <Dialogue Key="Map.IngleasHotelIntercomStage1Dialogue2FaceNone" Value="룸 서비스를 부탁하거나,곤란한 사정이 생겼을 때,이용한다." Face="None" Mono="False" />
+  <!-- ネットワークのルーターにもなっており　プラグインすればインターネットに行けるようだ -->
+  <Dialogue Key="Map.IngleasHotelIntercomStage1Dialogue3FaceNone" Value="네트워크 라우터이기도 해서,플러그인하면 인터넷에,갈 수 있는 것 같다." Face="None" Mono="False" />
+  <!-- 疲れた〜 -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue1FaceAlice" Value="피곤하다～" Face="Alice" Mono="False" />
+  <!-- お疲れ様 -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue2FaceShanghai" Value="고생했어." Face="Shanghai" Mono="False" />
+  <!-- アリス　せっかくだしインターネットで観光名所とか調べましょうよ -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue3FaceShanghai" Value="앨리스，기왕 온 거,인터넷에서 관광 명소 같은 거,조사해 놓자." Face="Shanghai" Mono="False" />
+  <!-- そういえば全然調べてなかったね -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue4FaceAlice" Value="그러고 보면 전혀,조사해 놓지 않았구나." Face="Alice" Mono="False" />
+  <!-- 案内を見たところそこのインターホンからアクセスできるみたいね -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue5FaceShanghai" Value="안내 내용대로라면,저 인터폰을 통해,액세스할 수 있는 것 같아." Face="Shanghai" Mono="False" />
+  <!-- よし　じゃあプラグインしましょう -->
+  <Dialogue Key="Map.IngleasHotel6CHECK-INEVENTStage1Dialogue6FaceAlice" Value="좋아，그러면 플러그인하자." Face="Alice" Mono="False" />
+  <!-- ハァ　ハァ　ハァ････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue1FaceAlice" Value="허억，허억，허억...." Face="Alice" Mono="False" />
+  <!-- なんとか････逃げ切ったみたいね････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue2FaceShanghai" Value="어떻게든....,뿌리친 것 같네...." Face="Shanghai" Mono="False" />
+  <!-- シャンハイ　ありがとう助けてくれて････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue3FaceAlice" Value="상하이，고마워. 도와 줘서...." Face="Alice" Mono="False" />
+  <!-- それなのに私ったら････あなたにひどいこと言っちゃった -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue4FaceAlice" Value="그랬는데 난....,너한테 심한 말을 해 버렸어." Face="Alice" Mono="False" />
+  <!-- いつもシャンハイが守ってくれてたのに私　私････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue5FaceAlice" Value="항상 상하이가,날 지켜주고 있는데,나.... 난...." Face="Alice" Mono="False" />
+  <!-- あたしも　あんたの気持ちに気づくことが出来なくてゴメンね -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue6FaceShanghai" Value="나도 네 기분을,이해해 주지 않았어.,미안해." Face="Shanghai" Mono="False" />
+  <!-- 遅いかもしれないけどこれからはあんたの気持ち応援するから････さ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue7FaceShanghai" Value="늦었을 지도 모르지만,앞으로 네 기분을 이해하려고,노력해 볼....게." Face="Shanghai" Mono="False" />
+  <!-- うん････ありがとう････グスン････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue8FaceAlice" Value="응.... 고마워....,쿨쩍...." Face="Alice" Mono="False" />
+  <!-- ほらほら　泣かない泣かない怖かったのはわかるから････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue9FaceShanghai" Value="자，자，울지 말고.,무서웠던 거 알아...." Face="Shanghai" Mono="False" />
+  <!-- ありがとう････本当にありがとう････！ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage1Dialogue10FaceAlice" Value="고마워....,진짜로 고마워....!" Face="Alice" Mono="False" />
+  <!-- ････そういえばさっきいったい何をやったの？ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue1FaceAlice" Value="....그러고 보면 아까,대체 뭘 한 거야?" Face="Alice" Mono="False" />
+  <!-- 画面のバックライトを暴走させて目潰ししたの -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue2FaceShanghai" Value="화면의 백라이트를 폭주시켜서,한순간 눈을 가렸어." Face="Shanghai" Mono="False" />
+  <!-- おかげで携帯電話のバックライトが壊れちゃったけど････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue3FaceShanghai" Value="덕분에 핸드폰의,백라이트는 망가졌지만...." Face="Shanghai" Mono="False" />
+  <!-- 本当だ　暗くなってる････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue4FaceAlice" Value="진짜네. 어두워졌어...." Face="Alice" Mono="False" />
+  <!-- でも　修理すればなおるから大丈夫よ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue5FaceAlice" Value="그래도 수리하면,나아질 테니까 괜찮아." Face="Alice" Mono="False" />
+  <!-- それにしても　あの男････何か言ってた？ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue6FaceShanghai" Value="그건 그렇고 그 남자....,무슨 말을 했어?" Face="Shanghai" Mono="False" />
+  <!-- リグル君からもらったペンダントを奪おうとしていたわ････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue7FaceAlice" Value="리글한테서 받은,펜던트를 뺏으려고 했어...." Face="Alice" Mono="False" />
+  <!-- ペンダント････？ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue8FaceShanghai" Value="펜던트....?" Face="Shanghai" Mono="False" />
+  <!-- 綺麗な琥珀のペンダントだけど銃で脅して奪い取るほど価値があるようには見えないわ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue9FaceShanghai" Value="예쁜 호박 보석 펜던트이긴 한데,굳이 총까지 들이밀면서 빼앗을,가치가 있어 보이진 않는데." Face="Shanghai" Mono="False" />
+  <!-- とにかく　警察にはあたしが通報しておくから -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue10FaceShanghai" Value="일단 내가 경찰에,신고해 놓을 테니까" Face="Shanghai" Mono="False" />
+  <!-- アリスは････もう休みなさい -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue11FaceShanghai" Value="앨리스는....,지금은 쉬어." Face="Shanghai" Mono="False" />
+  <!-- うん　そうする････ -->
+  <Dialogue Key="Map.IngleasHotelChapter6EscapeEventStage3Dialogue12FaceAlice" Value="그래，그럴게...." Face="Alice" Mono="False" />
+  <!-- マップテスト -->
+  <Dialogue Key="Map.IngleasHotelTestSpriteStage1Dialogue1FaceNone" Value="맵 테스트" Face="None" Mono="False" />
+  <!-- アリス部屋へ -->
+  <Dialogue Key="Map.IngleasHotelTestSpriteDupeStage1Dialogue1FaceNone" Value="앨리스 방으로" Face="None" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue1" Value="아，앨리스구나!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue2" Value="아직 잉겔레스에서 진행할,기념식전이 있는데,그 동안 여기서 쉬고 있어." Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue3" Value="드레스 모습을 보고 싶다면,갈아입을 건데 어떻게 할래?" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue4Question" Value="" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue4Options" Value="넷배틀을 신청한다,드레스로 갈아입어 줘,나중에 봐" Face="None" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue5b" Value="잘 봐 둬，앨리스!,비기! 고속 갈아입기의 술!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleDialogue5c" Value="그래，나중에 봐!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue1" Value="아，앨리스구나!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue2" Value="아직 잉겔레스에서 진행할,기념식전이 있는데,그 동안 여기서 쉬고 있어." Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue3" Value="평상복 모습을 보고 싶다면,갈아입을 건데 어떻게 할래?" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue4Question" Value="" Face="Alice" Mono="False" />
+  <Text Key="Map.IngleasHotelPostGameWriggelleDialogue4Options" Value="넷배틀을 신청한다,평상복으로 갈아입어 줘,나중에 봐" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue5c" Value="그래，나중에 봐!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleDialogue5b" Value="좋아，그럼!,비기! 고속 갈아입기의 술!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleStage1Dialogue1" Value="가자，비틀맨!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueWin1" Value="해냈다!,내가 이겼어!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueLose1" Value="앨리스，다음 번엔 안 져!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleStage2Dialogue1" Value="이게 내 진심이다!,격돌이야，비틀맨!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleStage2Dialogue2" Value="공주님의 승리를 위해!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueWin2" Value="계획대로 화려하게 들어맞았구나!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggleBattleDialogueLose2" Value="역시 앨리스는 쉽게,당해낼 수가 없네～～!" Face="WriggleHat" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleStage1Dialogue1" Value="가자，비틀맨!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueWin1" Value="해냈다!,내가 이겼구나!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueLose1" Value="앨리스，다음 번엔 안 져!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleStage2Dialogue1" Value="이게 내 진심이다!,격돌이야，비틀맨!" Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleStage2Dialogue2" Value="공주님의 승리를 위해!" Face="BeetleMan" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueWin2" Value="계획대로 화려하게 들어맞았구나." Face="WriggleCrown" Mono="False" />
+  <Dialogue Key="Map.IngleasHotelPostGameWriggelleBattleDialogueLose2" Value="역시 앨리스는 쉽게,당해낼 수가 없구나." Face="WriggleCrown" Mono="False" />
+</data>

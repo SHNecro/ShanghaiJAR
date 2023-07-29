@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 大企業サーバーの電脳　１０Ｆ -->
+  <Text Key="Map.CompanyServer2Name" Value="대기업 서버의 전뇌 10층" />
+  <Text Key="Map.CompanyServer2RandomBattle1Enemy1" Value="오토로이드G" />
+  <Text Key="Map.CompanyServer2RandomBattle2Enemy1" Value="오토로이드G" />
+  <Text Key="Map.CompanyServer2RandomBattle3Enemy1" Value="오토로이드B" />
+  <Text Key="Map.CompanyServer2RandomBattle4Enemy1" Value="오토로이드B" />
+  <Text Key="Map.CompanyServer2RandomBattle5Enemy1" Value="오토로이드B" />
+  <Text Key="Map.CompanyServer2RandomBattle5Enemy2" Value="오토로이드G" />
+  <!-- フセイナ　ソウサガジッコウ　サレマシタ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage1Dialogue1FaceNone" Value="올바르지 않은,입력이 감지되었습니다." Face="None" Mono="False" />
+  <!-- タダチニ　エラーノゲンインヲトリノゾキマス！！ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage1Dialogue2FaceNone" Value="곧바로 에러의 원인을 제거합니다!!" Face="None" Mono="False" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer2PunishmentBattle1Enemy1" Value="오토로이드SP" />
+  <!-- オートロイドSP -->
+  <Text Key="Map.CompanyServer2PunishmentBattle1Enemy2" Value="오토로이드SP" />
+  <!-- もっとスマートに解決したかったわね････ -->
+  <Dialogue Key="Map.CompanyServer2PunishmentStage3Dialogue1FaceShanghai" Value="좀 더 스마트하게,해결하고 싶었는데...." Face="Shanghai" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer2BGimmickStartStage1Dialogue1FaceNone" Value="보안 잠금 장치 활성화.,1부터 순서대로,숫자를 입력해 주십시오." Face="None" Mono="False" />
+  <!-- セキュリティ　ロックスウジヲ　１カラ　ジュンバンニニュウリョク　シテクダサイ -->
+  <Dialogue Key="Map.CompanyServer2AGimmickStartStage1Dialogue1FaceNone" Value="보안 잠금 장치 활성화.,1부터 순서대로,숫자를 입력해 주십시오." Face="None" Mono="False" />
+</data>

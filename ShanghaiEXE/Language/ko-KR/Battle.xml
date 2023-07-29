@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- Custom -->
+  <Dialogue Key="Custom.EscapeSuccess" Value="#b@false#・・・,#b@true#좋아，도망쳤어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeFailure" Value="#b@false#・・・,#b@true#잠깐만，뿌리칠 수가 없잖아!,뭐가 어떻게 된 거야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeQuestion" Value="귀찮은데 그냥,도망치는 게 좋을까....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeSpecialQuestion" Value="앨리스도 없는 마당에,도망치는 게 좋을까....?" Face="Shanghai" Mono="False" />
+  <Text Key="Custom.EscapeOptions" Value="예,아니오" />
+  <Text Key="Custom.EscapeSpecialOptions" Value="도망친다,싸운다" />
+  <Dialogue Key="Custom.EscapeForbidden" Value="안 돼 앨리스!,지금은 적에게서 등을,돌릴 상황이 아니야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.EscapeSpecialForbidden" Value="크윽....!,도망칠 수 있을 법한,싸움이 아닌 것 같은데....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.SendChips" Value="선택한 칩을,내비에게 전송합니다!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.SendNoChips" Value="한 장도 칩을 전송하지 않고,이전에 전송한 칩을 그대로,남겨둔 채로 턴을 넘깁니다!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ADDChips" Value="선택한 칩의 개수만큼,다음 턴부터 고를 수 있는,칩 슬롯의 개수를 늘립니다!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ADDTempChips" Value="고를 수 있는 칩 슬롯을,다음 한 턴 동안만,일시적으로 늘립니다!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.ActionADD" Value="상하이!,추가 칩 데이터를 전송할 테니까,한 턴 정도 버텨 줘!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.ActionSpecialADD" Value="앨리스가 있었다면,ADD 기능을 쓸 수 있겠지만...." Face="Shanghai" Mono="False" />
+
+  <Dialogue Key="Custom.NullElemDesc" Value="특수한 능력은 없지만,무속성이기 때문에,약점 속성이 존재하지 않는다" Face="None" Mono="False" />
+  <Dialogue Key="Custom.FghtStyleDesc" Value="버스터의 위력이 2배,차지샷은 가로 2칸을 밀치는,펀치 공격!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.NinjStyleDesc" Value="이동 속도 증가，소드로 적의,공격을 없앨 수 있으며 버스터,차지한 채 칩을 쓰면 뛰어든다!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.DocStyleDesc" Value="커스텀 화면 내의 칩 수 증가,선택할 수 있는 칩의 개수 6개,차지샷은 상태이상을 부여" Face="None" Mono="False" />
+  <Dialogue Key="Custom.GaiaStyleDesc" Value="체인지 시 십자 방향의 패널이 변화,슈퍼아머 및 비이동 중 피해 반감,차지샷은 3칸 앞의 패널 변화" Face="None" Mono="False" />
+  <Dialogue Key="Custom.WingStyleDesc" Value="바람과 패널 효과 무효,칩이 없을 때 A 버튼을 누르면,긴급 회피 발동" Face="None" Mono="False" />
+  <Dialogue Key="Custom.WtchStyleDesc" Value="상태이상 면역，약점 속성 피해 경감,무속성 이외의 칩의 위력+10,같은 속성이라면 추가로 +10!" Face="None" Mono="False" />
+
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue1" Value="아～...,이랬던가?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue2" Value="후훗，잊어버렸구나?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage1Dialogue3" Value="괜찮아,하나 하나 확실하게,알려줄게." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage2Dialogue1" Value="우선 바이러스(적)와 싸우려면,앨리스 네가 칩 데이터를,보내 줄 필요가 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage2Dialogue2" Value="지금 이 화면의 옆에 있는 게,칩을 선택할 수 있는,커스텀 화면이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage3Dialogue1" Value="이 아래에 일렬로 배치되어,있는 아이콘들이,지금 고를 수 있는 칩이었죠?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue1" Value="그래，이 안에서 칩을 고르는 거지." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue2" Value="지금 커서가 올라와 있는,칩 데이터의 정보는,여기에 표시되어 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage4Dialogue3" Value="이 수치가 공격력이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue1" Value="칩 데이터는 기본적으로는,한 턴에 하나씩밖에,보내 줄 수 없긴 하지만" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue2" Value="아 잠깐，맞아!,그 부분은 저도 기억하고 있어요!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue3" Value="레이건과 레이건 같이,같은 칩이라면 한 번에,같이 고를 수가 있죠." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue4" Value="바로 그거!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage5Dialogue5" Value="같이 고르면 한 번에,많은 무기를 쓸 수 있게 되는 만큼,연속적으로 공격할 수 있겠지." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue1" Value="어느 정도는 기억이 났어.,그럼，실제로 싸워 보면서,감을 좀 되찾아 볼까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue2" Value="그럼 실제로,칩 데이터를 골라서,너한테 전송할게." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue3" Value="우선 쓰고 싶은 칩을,A 버튼으로 고른 뒤,OK를 선택해." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue4" Value="잘못 골랐더라도 괜찮아!,B 버튼을 누르면 취소할 수 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue5" Value="칩의 효과는,R 버튼을 누르면 확인할 수 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1Stage6Dialogue6" Value="L 버튼을 누르면 도망을 치는데,지금은 도망칠 상황이 아니니까,이번엔 그 기능은 쓰지 말고." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue1" Value="어머?,공격력이 써져 있지 않은,칩이 나왔는데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue2" Value="이건 공격 계열이 아닌,서포트 계열 칩이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage1Dialogue3" Value="예를 들면 이건 에리어배시 칩이야.,적의 에리어를 뺏아서 자신이,움직일 수 있는 범위를 넓히지." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage2Dialogue1" Value="이것과 근접 공격 칩인,소드를 같이 쓰는 콤보는,기본적이면서도 유효한 콤보야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue1" Value="저기... 같이 고를 수 있는 건,같은 종류의 칩이지 않아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue2" Value="후훗，좋은 질문이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage3Dialogue3" Value="자，여기를 봐 보면!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue1" Value="알파벳이 써져 있잖아?,이건 칩 코드라고 해서,트럼프 카드의 마크 같은 거야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue2" Value="칩 코드가 같은 칩은,설령 종류가 다르더라도,같이 선택할 수가 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue3" Value="아，맞다，그랬지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage4Dialogue4" Value="에리어배시와 소드,둘 다 코드가 L 코드이니까,같이 고를 수 있다 이거지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue1" Value="또 ＊(애스터리스크)라,부르는 코드도 있었죠?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue2" Value="잘 알고 있구나!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue3" Value="그건 트럼프 카드의 조커,같은 거라 그 어떤 코드와도,조합할 수 있는 코드야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue4" Value="예를 들면 A ＊ A 같은,조합이 가능하다는 거지." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue5" Value="ＯＫ 이제야 기억나네.,같은 코드는 같이 선택할 수 있다.,기본 중의 기본이었지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle2Stage5Dialogue6" Value="그럼 실제로,시험해 보자구!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage1Dialogue1" Value="아 맞아.,아～까 전부터 신경 쓰였는데,이 버튼은 뭐 하는 데 썼더라?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue1" Value="그건 ADD 버튼이야.,폴더 오픈이라는 기능을,쓰기 위해 쓰는 버튼." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue2" Value="폴더 오픈?,그다지 익숙하지는 않은,말이네요." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue3" Value="이 시스템이 최근에,추가된 시스템이라,모르는 것도 당연해." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue4" Value="폴더 오픈이라는 기능은,커스텀 화면에 나오는 칩을,5장에서 더 늘리는 시스템이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue5" Value="호올，진짜로 그런 게 된다면,더 많은 칩을 고를 수 있겠고,그러면 전략을 짜기 쉬워지겠네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue6" Value="이 칩 좀 나왔으면 하는 타이밍에,꼭 한 장씩 부족한 경우가,의외로 많으니까 말야." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage2Dialogue7" Value="폴더 오픈에는,크게 2가지 방법이 있어.,하나 하나 설명해 보면" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue1" Value="우선 첫번째로 칩을 선택한,상태에서 ADD 버튼을 눌러서,쓸 수 있는 폴더 오픈이 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue2" Value="선택한 칩들은 버리기 때문에,쓸 수 없게 되지만..." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue3" Value="그 대신 선택한 칩의 매수만큼,그 다음 턴부터 전투가 끝날 때까지,칩 슬롯의 개수가 늘어나지." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue4" Value="그 말대로라면 예를 들어 2장을,고른 뒤 ADD를 누르면 2장이,늘어서 7장 중에서 선택할 수 있게 되는 거네?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage3Dialogue5" Value="그 말이 맞아." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue1" Value="다음은 이제 칩을 선택하지 않은,채로 ADD 버튼을 눌러서,쓸 수 있는 폴더 오픈이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue2" Value="이 경우에는 다음 한 턴,고를 수 있는 칩이 5장 늘어나게 돼." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue3" Value="뭐야?,칩을 버리지 않는 거면,이 쪽이 그냥 더 좋은 거잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue4" Value="그럴 것 같은데 꼭 그렇지는 않아.,이 방법으로 늘어난 슬롯 개수는,ADD를 누른 다음 턴까지만 지속돼." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue5" Value="칩을 고르고 결정하면,바로 다음 턴이 되면,슬롯 개수가 원래대로 돌아오게 돼." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue6" Value="다시 말해 잠깐 동안만,슬롯을 늘려 주는,임시방편스러운 방법이라는 거지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue7" Value="장기전으로 가게 된다면,생각 안 하고 싸웠다간,칩이 부족해질 수도 있겠구나...." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue8" Value="다만 어느 쪽 방법을 쓰더라도,공통적으로 ADD를 쓴,그 턴에는 칩을 쓸 수 없어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage4Dialogue9" Value="뭐야?! 그렇다면,필요한 순간에만 ADD 기능을,쓰도록 신경 써야겠네..." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3Stage5Dialogue1" Value="지금 보면 리페어20이 3장,있는데 지금은 방해가 되니까,ADD 기능에 써 보자!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage1Dialogue1" Value="있지，앨리스.,여기 있는 내 존예 얼굴은,뭐 하는 데 쓰는 거였지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue1" Value="(....존예 얼굴?, 존엄하니 예쁜 얼굴?)" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue2" Value="그건 코코로 윈도우야.,잊었어?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue3" Value="아 맞아，이제사 기억이 났어.,내 마음 상태를,보여 주는 기능이지." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage2Dialogue4" Value="아무리 나라고 해도,연이어 피해를 입게 되면,불안해진다니까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage3Dialogue1" Value="반대로，적을 동시에,딜리트해 버리면 텐션이,올라가서 HIGH한 기분이 되고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue1" Value="그 상태에서 칩을 쓰면 왜인지는,몰라도 너 체력 회복하잖아.,...대체 이유가 뭐지?" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue2" Value="나도 몰라!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage4Dialogue3" Value="그리고，앨리스와 내가 서로,호흡 맞춰서 오퍼레이션에,성공하면 풀 싱크로 상태가 돼!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue1" Value="적이 공격하는 그 순간에,칩 공격을 맞추면,되는 거야." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue2" Value="그래 그거!,카운터를 날리면 되는 거지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue3" Value="풀 싱크로 상태일 때에는,공격에 기세가 붙어서,위력이 2배가 돼." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue4" Value="거기에 추가로,적의 카운터 타이밍을,눈으로 보고 확인할 수 있게 돼." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue5" Value="그러니까 거기서 추가로,카운터를 날리면,풀 싱크로를 유지할 수 있어." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage5Dialogue6" Value="하지만 피해를 입게 되면,원래 상태로 돌아와 버리니까,조심해야 해!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue1" Value="코코로 윈도우가,보일 정도면，너희들 진짜,사이가 좋은가 보구나!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue2" Value="오퍼레이터와 내비의 마음이,서로 이어져 있음을 입증하는 게,바로 그 코코로 윈도우니까." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue3" Value="....그런가요?,그런 느낌은 전혀 없었는데." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue4" Value="모처럼 말이 나왔으니까,발동이 빠른 나이프로,연습을 해 보자." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue5" Value="털구슬이 공격을 하려고,앞으로 폴짝 뛰는 그 타이밍이,카운터 타이밍이었을 거야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle4Stage6Dialogue6" Value="좋아，그럼,칩 데이터를 전송할게!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle5Stage1Dialogue1" Value="여기서부터는 실전이야!,가르쳐 준 걸 기억해서,자유롭게 싸우면 돼!" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionOKDialogue1" Value="칩 데이터를 전송했어.,전투가 시작된다!" Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionOKDialogue2" Value="알겠어.,이제 내가 나설 차례가 됐네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3ActionOKDialogue1" Value="이번에는 ADD 기능을 시험해 볼 거라,이건 선택할 수 없어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionADDDialogue1" Value="그건 나중에 설명할게.,일단 지금은 OK를 눌러." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionStage1Dialogue1" Value="칩 데이터를 전송했어.,전투가 시작된다!" Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle1ActionStage1Dialogue2" Value="알겠어.,이제 내가 나설 차례가 됐네." Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattle3ActionStage1Dialogue1" Value="이번에는 ADD 기능을 시험해 볼 거라,이건 선택할 수 없어." Face="None" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue1" Value="일단 움직이는 방법을,설명하는 게 좋을까?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue2" Value="괜찮아.,움직이는 방법 정도야,알고 있어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue3" Value="내가 있는 이 붉은 에리어 안에서,십자 키를 써서 상하좌우로,자유롭게 이동할 수 있잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue4" Value="B 버튼으로는 버스터를 쏠 수 있어!,칩이 없을 때에도 공격할 수 있지만,약해서 그다지 마음에 들지만은 않아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue5" Value="뭐 그래도，B 버튼을 계속 누르고,있으면 위력이 높은 차지샷을,쏠 수 있긴 하지만." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue6" Value="역시 그 부분은 기억하고 있었네." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue7" Value="전송한 칩은,상하이 네 머리 위쪽에,표시되어 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue8" Value="쓰고 싶은 때 A 버튼을 누르면,그 칩에 대응하는 공격이 나갈 거야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage1Dialogue9" Value="그렇지만，각 칩은,각 전투에서 한 번씩밖에,못 쓰니까 조심해." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue1" Value="왼쪽 위에 있는 숫자는,상하이의 현재 체력이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage2Dialogue2" Value="이게 0이 되어 버리면 네가,딜리트되어 버리니까,조심해야 해." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue1" Value="오른쪽에 있는 파란 에리어에,있는 것들이 이제부터 싸울,바이러스(적)들이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage3Dialogue2" Value="바이러스에 가까이 있는 숫자는,각 바이러스의 체력이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage4Dialogue1" Value="그러니까，공격해서 이 수치를,0으로 만들면 그 바이러스를,쓰러뜨린 게 되는 거지." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue1" Value="잠깐만! 만약 칩을 다 썼는데도,다 못 쓰러뜨렸다면,어떻게 해야 하지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue2" Value="버스터만 가지고,남은 체력을 찔끔찔끔 깎는 거,생각보다 극혐이라고!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage5Dialogue3" Value="자，자，진정해.,위에 게이지가 하나 보이지?" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue1" Value="이 게이지는 시간이 지날 수록,조금씩 차올라." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue2" Value="게이지가 최대치까지 차게 되면,L 버튼이나 R 버튼으로,커스텀 화면을 다시 열 수 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue3" Value="아 이런，굳이,거기까지 알려 주시다니,감사합니다." Face="Alice" Mono="False" />
+  <Dialogue Key="Custom.TutorialBattleStart1Stage6Dialogue4" Value="괜찮아.,자 그럼 저 털구슬 바이러스를,쓰러뜨려 보자!" Face="MsAsakura" Mono="False" />
+  
+  <!-- BattleResult -->
+  <Text Key="BattleResult.StyleGraphicNormal" Value="노멀" />
+  <Text Key="BattleResult.StyleGraphicFght" Value="파이터" />
+  <Text Key="BattleResult.StyleGraphicNinj" Value="닌자" />
+  <Text Key="BattleResult.StyleGraphicDoc" Value="닥터" />
+  <Text Key="BattleResult.StyleGraphicGaia" Value="가이아" />
+  <Text Key="BattleResult.StyleGraphicWing" Value="윙" />
+  <Text Key="BattleResult.StyleGraphicWtch" Value="위치" />
+  <Text Key="BattleResult.StyleGraphicHeat" Value="히트" />
+  <Text Key="BattleResult.StyleGraphicAqua" Value="아쿠아" />
+  <Text Key="BattleResult.StyleGraphicElec" Value="일렉" />
+  <Text Key="BattleResult.StyleGraphicLeaf" Value="리프" />
+  <Text Key="BattleResult.StyleGraphicPois" Value="포이즌" />
+  <Text Key="BattleResult.StyleGraphicErth" Value="어스" />
+  <Text Key="BattleResult.EndBug" Value="버그" />
+  <Text Key="BattleResult.EndFrz" Value="프리즈" />
+  <Text Key="BattleResult.EndError" Value="에러" />
+  <Text Key="BattleResult.StyleDecideNormal" Value="노멀 스타일" />
+  <Text Key="BattleResult.StyleDecideFght" Value="파이터" />
+  <Text Key="BattleResult.StyleDecideNinj" Value="닌자" />
+  <Text Key="BattleResult.StyleDecideDoc" Value="닥터" />
+  <Text Key="BattleResult.StyleDecideGaia" Value="가이아" />
+  <Text Key="BattleResult.StyleDecideWing" Value="윙" />
+  <Text Key="BattleResult.StyleDecideWtch" Value="위치" />
+  <Text Key="BattleResult.StyleDecideHeat" Value="히트" />
+  <Text Key="BattleResult.StyleDecideAqua" Value="아쿠아" />
+  <Text Key="BattleResult.StyleDecideElec" Value="일렉" />
+  <Text Key="BattleResult.StyleDecideLeaf" Value="리프" />
+  <Text Key="BattleResult.StyleDecidePois" Value="포이즌" />
+  <Text Key="BattleResult.StyleDecideErth" Value="어스" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue1" Value="수고했어.,바이러스는 전멸했네." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue2" Value="마지막으로 버스팅 레벨에,대해 설명하겠어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue3" Value="버스팅 레벨이란,얼마나 잘 싸웠냐를,표현하는 레벨이야." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue4" Value="좀 있으면 화면에 나올,리절트 화면에서 확인할 수 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue5" Value="전투가 빨리 끝나거나,한 번에 여러 바이러스를 동시에,쓰러뜨리면 레벨이 올라가고，" Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue6" Value="반대로 피해를 입어서 경직당하거나,괜히 많이 움직이면,레벨이 떨어지게 돼." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue7" Value="말인즉슨 단기결전으로,잽싸게 쓰러뜨리면 된다는 거구만!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue8" Value="레벨은 1부터 시작해서,11 이상일 때 적용되는,Ｓ랭크까지 있어." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialBattleResult5Stage1Dialogue9" Value="얼마나 높은 버스팅 레벨을,뽑아낼 수 있는지 도전해 보는 것도,괜찮을 것 같네." Face="MsAsakura" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue1" Value="!?,앨리스...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue2" Value="상하이，왜 그래?,그 모습은...?" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue3" Value="뭔가 내 몸속에서,힘이 솟구치는 것 같아...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue4" Value="어，모리치카 박사님한테서,전화가 왔어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue5" Value="상하이의 모습이 바뀌었을 거야.,네 몸에 장착된 데이터에 의해,스타일 체인지가 작동한 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue6" Value="오퍼레이터의 전투 습관이나 성향，,그걸 더 효율적으로 반영하도록,내비가 자동 진화하는 시스템." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue7" Value="그게，스타일 체인지야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange1Stage1Dialogue8" Value="스타일 체인지...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue1" Value="!?,앨리스...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue2" Value="스타일 체인지구나!,그 모습은....?" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange2Stage1Dialogue3" Value="어，모리치카 박사님한테서,전화가 왔어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue4Format" Value="그 스타일의 이름은...,{0} 스타일이구나!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage1Dialogue5Format" Value="대단해，상하이!,{0} 스타일이라니!" Face="Alice" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue1" Value="스타일이 여러 개가 있는 상태에서,커스텀 화면에서 위 버튼을 누르면,전투 중에 스타일을 바꿀 수 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue2" Value="그렇지만，스타일을 바꾼 턴에는,칩을 전송할 수가 없게 되니까,타이밍을 신중하게 잡아야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue3" Value="여기에，전투 시작 시에,장비하고 있었던 스타일은,언제든지 원하는 때 다시 장비할 수 있지만，" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue4" Value="다른 스타일들은,각 전투마다 한 번씩만,바꿀 수가 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue5" Value="지금은 크게 와닿지는 않겠지만,스타일 수가 늘어나면,실감할 수 있을 거야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.TutorialStyleChange3Stage2Dialogue6" Value="스타일을 때와 시간에 맞춰 써서,네게 유리한 상황을 만들거라.,힘 내렴!" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleInfoHeatElem" Value="속성은 불꽃" />
+  <Text Key="BattleResult.StyleInfoAquaElem" Value="속성은 물" />
+  <Text Key="BattleResult.StyleInfoElecElem" Value="속성은 전기" />
+  <Text Key="BattleResult.StyleInfoLeafElem" Value="속성은 나무" />
+  <Text Key="BattleResult.StyleInfoPoisElem" Value="속성은 독" />
+  <Text Key="BattleResult.StyleInfoErthElem" Value="속성은 땅" />
+  <Dialogue Key="BattleResult.StyleInfoHeatWeakness" Value="그렇지만，물과 땅 속성의 공격에,더 큰 피해를 입게 되니까,주의해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoAquaWeakness" Value="그렇지만，전기와 독 속성의 공격에,더 큰 피해를 입게 되니까,주의해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoElecWeakness" Value="그렇지만，나무와 땅 속성의 공격에,더 큰 피해를 입게 되니까,주의해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoLeafWeakness" Value="그렇지만，불꽃과 독 속성의 공격에,더 큰 피해를 입게 되니까,주의해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoPoisWeakness" Value="그렇지만，불꽃과 전기 속성의 공격에,더 큰 피해를 입게 되니까,주의해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoErthWeakness" Value="그렇지만，물과 나무 속성의 공격에,더 큰 피해를 입게 되니까,주의해야 해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtEnd" Value="그래，투지 넘치는,큰 힘이 느껴져.,내가 봐도 이건 놀라운데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjEnd" Value="그래，질풍과도 같은,날선 힘을 느낄 수 있어.,내가 봐도 이건 놀라운데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocEnd" Value="그래，의사와도 같은,지적인 힘이 느껴져.,내가 봐도 이건 놀라운데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaEnd" Value="그래，대지를 딛는,굳은 힘을 느낄 수 있어.,내가 봐도 이건 놀라운데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingEnd" Value="그래，하늘을 날아다니는,개방적인 힘이 느껴져.,내가 봐도 이건 놀라운데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchEnd" Value="그래，이치를 다루는,이상한 힘을 느낄 수 있어.,내가 봐도 이건 놀라운데!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue1" Value="칩에 의존하지 않는 전투 방식에,대응한 스타일이란다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue2" Value="이 스타일을 쓰면 버스터의,위력이 2배가 되어서，버스터만,가지고도 충분히 싸울 수 있게 돼." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue3" Value="여기에 추가로，차지샷이,거대한 팔을 날려서 때리는,파이터 펀치로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoFghtDialogue4" Value="이 파이터 펀치 기술은，자신과 같은,속성의 가로 2칸짜리 펀치로,적을 뒤로 밀쳐내는 기술이야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue1" Value="빠르게 움직이면서 적을 쓰러뜨리는,전법에 대응한 스타일이란다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue2" Value="이 스타일을 쓰면,기민하게 움직이면서 적의 공격을,빠르게 피할 수 있게 돼." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue3" Value="또한，소드 계열 무기로,적의 공격을 없앨 수 있는,패링 속성도 가지고 있어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue4" Value="버스터가 최대 차지된 상태에서,칩을 쓰면 2칸 앞으로,뛰어드는 것도 가능하지!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue5" Value="여기에 추가로，차지샷이,바로 앞을 소드로 공격하는,엘레멘트 소드로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoNinjDialogue6" Value="이 엘레멘트 소드는，바로 앞의 세로,3칸을 자신과 같은 속성의 검으로,공격채로 베어 버리는 무기야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue1" Value="칩을 효과적으로 쓰는 쪽에,대응한 스타일이란다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue2" Value="이 스타일을 쓰면 커스텀 화면의,칩 슬롯 개수가 6개가 되고，,ADD로 최대 12개까지 늘어나." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue3" Value="또한，한 번에 최대 6개까지 칩을,고를 수 있고，이에 따라 PA도,한 번에 2개가 발동될 수 있어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue4" Value="여기에，차지샷이,주사기를 발사하는,인젝트 레이로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoDocDialogue5" Value="인젝트 레이는，속성에 대응하는,상태 이상을 일으키는 주사기를,전방으로 발사하는 무기야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue1" Value="적의 공격을 탱킹하는 전법에,대응한 스타일이란다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue2" Value="이 스타일에는 무려,슈퍼 아머가 장착되어 있어서,공격을 받아도 경직을 받지 않아." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue3" Value="추가로 전투 시작 시，내지는,해당 스타일로 변경했을 때 십자 패널들이,자신과 같은 속성의 패널로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue4" Value="또한，아무것도 안 하고 서 있는,상태일 때에는 받는 대미지가 반감되는,장승 자세 속성을 가지고 있어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue5" Value="여기에，차지샷이,상대방의 발 밑에서 공격이 나오는,풋 엘레멘트로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue6" Value="풋 엘레멘트는，지진을 일으켜서,적 전체의 움직임을 잠깐 동안,멈출 수 있는 무기야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoGaiaDialogue7" Value="추가로，3칸 앞에,자신과 같은 속성의 패널을,발생시키는 공격을 날려!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue1" Value="지형에 구애받지 않는 전법에,대응한 스타일이란다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue2" Value="이 스타일을 쓰는 동안에는,허공에 떠 있기 때문에 특수한,패널의 영향을 전혀 받지 않아." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue3" Value="추가로 바람의 영향을 받아,밀려나지 않는 능력도 있어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue4" Value="또，매 턴당 한 번,칩이 없을 때 A 버튼으로,긴급 회피를 쓸 수가 있어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue5" Value="여기에，차지샷이,부채로 회오리를 발생시키는,토네이도로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWingDialogue6" Value="토네이도는，2칸 앞에 8연타하는,회오리를 발생시키는 무기야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue1" Value="속성 공격을 유용하게 쓰는,전법에 대응한 스타일이란다." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue2" Value="이 스타일에는 속성을 다루고,속성이 붙은 칩의 위력을,10 증가시키는 속성이 있어." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue3" Value="여기다 스타일과,같은 속성의 칩을 썼다면 위력이,추가로 10 증가한단다!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue4" Value="또한 약점 속성 공격을 받더라도,그렇게 큰 피해를 받지 않는,특수 능력도 있어!" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue5" Value="이외에도 모든 상태 이상을,무효화하는 능력을 가지고 있지." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue6" Value="여기에，차지샷이,마법진에서 화염을 뿜어내는,매직 플레임으로 변해." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleInfoWtchDialogue7" Value="매직 플레임은，자신과,같은 속성의 화염을,전방 3칸까지 발사하는 무기야." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue1" Value="이 이상 스타일을,보유할 수는 없는 것 같네...." Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue2Question" Value="지금 가지고 있는 스타일 중,하나를 버릴 거니?" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue2Options" Value="예,아니오" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue3Question" Value="어떤 스타일을 버릴까?" Face="DrMorichika" Mono="False" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue4Question" Value="이 스타일은 없어질 텐데,정말 이 스타일을 버릴 거니?" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue4Options" Value="예,아니오" />
+  <Dialogue Key="BattleResult.StyleSelectDialogue5Question" Value="이번에 얻은 스타일은 없어질,텐데 정말 스타일을 버릴 거니?" Face="DrMorichika" Mono="False" />
+  <Text Key="BattleResult.StyleSelectDialogue5Options" Value="예,아니오" />
+</data>

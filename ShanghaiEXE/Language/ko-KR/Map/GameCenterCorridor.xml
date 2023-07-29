@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterCorridorName" Value="게임 센터 복도" />
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue1FaceNone" Value="아이스크림을 판매하는,자동판매기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue2FaceNone" Value="여기에 배치되어 있다는 건,종업원 전용이라는 뜻이겠지." Face="None" Mono="False" />
+  <!-- 値段の数字がイタズラなのか４８９６６３２５円にされている････ -->
+  <Dialogue Key="Map.GameCenterCorridorIceVendingMachinesStage1Dialogue3FaceNone" Value="누가 가격표에 장난을 쳤는지,가격표 금액 상태가 이상하다....,48966325 제니라고?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorRedVendingMachine2Stage1Dialogue1FaceNone" Value="플러그인이 안 되는 타입의,자동판매기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorRedVendingMachine2Stage1Dialogue2FaceNone" Value="종업원밖에 안 쓰는 거라서 그런지,진열되어 있는 게 묘하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterCorridorClosingRoomStage1Dialogue1FaceNone" Value="잠겨 있어서 들어갈 수 없다." Face="None" Mono="False" />
+</data>

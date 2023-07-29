@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.UraNet4Name" Value="ウラインターネット４" />
   <Dialogue Key="Map.UraNet4ROMGateStage1Dialogue1FaceNone" Value="不気味な扉が道を塞いで,通ることができない！" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet4ROMGateStage3Dialogue1FaceNone" Value="シャンハイは,「ＲＯＭ−ＩＤ」を使った！" Face="None" Mono="False" />
   <Dialogue Key="Map.UraNet4ROMGateStage3Dialogue2FaceNone" Value="不気味な扉が開いた！" Face="None" Mono="False" />
-  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue1" Value="[This place really isn’t so bad,once you figure out the logic,of it.]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue2" Value="[Heading to the Square?,You’ll want to take a right，,another right，a left....]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue3" Value="[Heading to the Square?,You’ll want to take a right，,another right，a left....]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNet4PostgameThugDialogue1" Value="[Some people think that just,’cuz a chip has more power it’s,automatically better.]" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Map.UraNet4PostgameThugDialogue2" Value="[Damage doesn’t mean jack,if you have to line up each,shot or wait for a setup.]" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue1" Value="道のロジックさえ分かれば,ここだってそこまで,酷い場所じゃないわよ" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue2" Value="スクエアに向かいたい？,じゃあ、まず右、,また右、左････" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgamePurpleNaviDialogue3" Value="････そして右二回、そこで,斜めに行ってコンベヤーに,乗って一直線で行くと良い" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgameThugDialogue1" Value="威力の強いと,自動的に良いチップだと,思う奴らがいるさ" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet4PostgameThugDialogue2" Value="色んなセットアップが必要だったり,連続で使い続ける必要だったり,すると意味が無くなるのによ" Face="NaviPurpleHeel" Mono="False" />
 </data>

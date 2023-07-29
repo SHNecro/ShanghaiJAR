@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　ゲンソウエリア2 -->
+  <Text Key="Map.GenNet2Name" Value="인터넷 환상 에리어 2" />
+  <!-- 右に曲がったワープからゲンソウスクエアに行こう！ -->
+  <Dialogue Key="Map.GenNet2GuidePlateStage1Dialogue1FaceNone" Value="여기서 오른쪽으로 가면,있는 워프를 타면,환상 스퀘어에 갈 수 있어요!" Face="None" Mono="False" />
+  <!-- レミリアのセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage1Dialogue1FaceNone" Value="레밀리아의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- レミリアのＰコードがあれば通れるようになる -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage1Dialogue2FaceNone" Value="레밀리아의 P코드가 있으면,지나갈 수 있게 된다." Face="None" Mono="False" />
+  <!-- レミリアのセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage3Dialogue1FaceNone" Value="레밀리아의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- レミリアのＰコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.GenNet2RemiliaCubeStage3Dialogue2FaceNone" Value="레밀리아의 P코드로,시큐리티를 해제했다!" Face="None" Mono="False" />
+  <!-- 壊れたセキュリティキューブだ -->
+  <Dialogue Key="Map.GenNet2Chapter1BrokenCubeStage1Dialogue1FaceNone" Value="망가진 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- そのうち管理人が撤去してくれるはずだ -->
+  <Dialogue Key="Map.GenNet2Chapter1BrokenCubeStage1Dialogue2FaceNone" Value="좀 있으면 관리인이 와서,철거해 줄 것이다." Face="None" Mono="False" />
+  <!-- こんなところに壊れたキューブ置いたのは誰だよ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="이런 데에 망가진 큐브,때려박은 놈은 대체 누구야!" Face="NaviGreenRobot" Mono="False" />
+  <!-- ああ　シャンハイさんここは通れないんでスクエアへは遠回りしてください -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="아，상하이 씨. 여기는 지금,지나갈 수가 없어요.,스퀘어로 가려면 빙 돌아가야 해요." Face="NaviGreenRobot" Mono="False" />
+  <!-- 十字路を曲がったところの坂を降りて　下からぐるっと回りこめば向こう側へ行けます -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage1Dialogue3FaceNaviGreenRobot" Value="십자로에서 양옆에 있는,경사로를 내려가서 아랫길을,돌아서 가면 될 거에요." Face="NaviGreenRobot" Mono="False" />
+  <!-- やっとここが通れるようになったよ -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage3Dialogue1FaceNaviGreenRobot" Value="이제야 여기를,지나갈 수 있게 됐네." Face="NaviGreenRobot" Mono="False" />
+  <!-- あれ　そもそもここを通ってどこへ行こうとしてたんだっけ？ -->
+  <Dialogue Key="Map.GenNet2Chapter1ManNavi1Stage3Dialogue2FaceNaviGreenRobot" Value="잠깐만，나 여기 지나가서,어디로 가려고 했지?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ココヲ　トオッタ　ガラノワルイナビタチガ　ツウロヲコワシテ　イッタンデスヨ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1Sprite1Stage1Dialogue1FaceSprite" Value="성격 나빠 보이는 내비들이,이 길을 지나가면서,부숴놓고 갔어요!" Face="Sprite" Mono="False" />
+  <!-- シュウリ　スルホウノ　ミニモナッテクダサイ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1Sprite1Stage1Dialogue2FaceSprite" Value="이 길 고치는,사람 입장도,생각해 달란 말이에요!" Face="Sprite" Mono="False" />
+  <!-- プンスコ　プンスコ！ -->
+  <Dialogue Key="Map.GenNet2Chapter1Sprite1Stage1Dialogue3FaceSprite" Value="버럭 버럭!" Face="Sprite" Mono="False" />
+  <!-- 感じるの････ -->
+  <Dialogue Key="Map.GenNet2Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="느낄 수 있어...." Face="NaviChild" Mono="False" />
+  <!-- デリートされた強力なナビのまるで怨霊のようなデータの断片を････ -->
+  <Dialogue Key="Map.GenNet2Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="딜리트당한 강력한 내비들의,마치 원령과도 같은,데이터의 조각들을...." Face="NaviChild" Mono="False" />
+  <!-- おねえちゃん････気をつけてね････ -->
+  <Dialogue Key="Map.GenNet2Chapter2YoungGirlNavi1Stage1Dialogue3FaceNaviChild" Value="언니....,조심해...." Face="NaviChild" Mono="False" />
+  <!-- デリートされたデータやプログラムは実は消えずにどこかに残ってるらしいですよ -->
+  <Dialogue Key="Map.GenNet2Chapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="딜리트된 데이터나 프로그램이,사실 없어지는 게 아니라,어딘가에 남아 있다나 봐요." Face="NaviGreenRobot" Mono="False" />
+  <!-- なんだかお化けみたいで怖い話ですね -->
+  <Dialogue Key="Map.GenNet2Chapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="무슨 유령 이야기 같네요.,괜히 소름 돋네." Face="NaviGreenRobot" Mono="False" />
+  <!-- シティエリアは都会のエリアだだからかこのエリアに比べるとかなり広いエリアなんだよなー -->
+  <Dialogue Key="Map.GenNet2Chapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="시티 에리어는 도회지 에리어야.,그래서인지 이 에리어랑,비교하면 꽤 넓은 에리어야." Face="NaviOrangeMale" Mono="False" />
+  <!-- このエリアでも迷う俺なんかが行ったら確実に迷子になる自信があるぜ！ -->
+  <Dialogue Key="Map.GenNet2Chapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="내가 이 에리어에서도 자주,길을 잃는데 내가 거기 가면,십중팔구 미아 된다!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 壊れていたシティエリアへの道が復旧したんですって！ -->
+  <Dialogue Key="Map.GenNet2Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="시티 에리어로 가는 길이,복구되었다나 봐!" Face="NaviPinkFemale" Mono="False" />
+  <!-- そこの道を真っ直ぐ行くと都会のシティエリアよ！ -->
+  <Dialogue Key="Map.GenNet2Chapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="거기 있는 길을 쭉 따라가면,시티 에리어에 갈 수 있어!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 冷蔵庫の暴走事件が起きなくなってからこのエリアでおかしいことが起こるんですよ -->
+  <Dialogue Key="Map.GenNet2Chapter2OfficialNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="냉장고 폭주 사건이 일어나지 않게,되면서 이 에리어에 이상한 일이,일어나고 있어요." Face="NaviBlueRobot" Mono="False" />
+  <!-- 亡霊のようなナビを見たとかそのナビに急に襲われたとか････ -->
+  <Dialogue Key="Map.GenNet2Chapter2OfficialNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="망령 같은 내비를 봤다던지,그 내비한테 급습당했다던지...." Face="NaviBlueRobot" Mono="False" />
+  <!-- ここ最近この辺りで事件が頻発していたのでパトロールを強化しています -->
+  <Dialogue Key="Map.GenNet2Chapter2OfficialNavi2Stage1Dialogue1FaceNaviBlueRobot" Value="최근 이 주변에서,사건이 빈발하고 있어서,경계를 강화하고 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- あら　あなたがワタクシの依頼を受けてくれた人ですの？ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue1FaceNaviPurpleFemale" Value="어머，제 의뢰를 받아주신,분이 당신이로군요?" Face="NaviPurpleFemale" Mono="False" />
+  <!-- オホホ　あなたはワタクシと同じようなタイプですことねちょうどいいですわ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue2FaceNaviPurpleFemale" Value="오호호，저랑 같은 타입이로군요.,마침 잘 되었답니다." Face="NaviPurpleFemale" Mono="False" />
+  <!-- では依頼について話しますわよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue3FaceNaviPurpleFemale" Value="그러면 의뢰에 대해서 이야기하죠." Face="NaviPurpleFemale" Mono="False" />
+  <!-- シティエリア２にワタクシのような美女にちょっかいをかける悪いナビがいますことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue4FaceNaviPurpleFemale" Value="시티 에리어 2에는 저 같은,미녀 내비를 추행하는,나쁜 내비가 있답니다." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 気味が悪いのでワタクシシティエリアを歩けずウップンがたまっておりますの -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue5FaceNaviPurpleFemale" Value="어쩐지 기분이 나빠서,시티 에리어를 다닐 수가,없다 보니 울분이 쌓이네요." Face="NaviPurpleFemale" Mono="False" />
+  <!-- どうかそのナビをこらしめワタクシが安心して歩けるようにしてほしいのですことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue6FaceNaviPurpleFemale" Value="부디 그 내비를 혼내 줘서,제가 안심하고 다닐 수 있게,해 줬으면 하네요." Face="NaviPurpleFemale" Mono="False" />
+  <!-- はやくやっつけてくださいまし期待してますことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage1Dialogue7FaceNaviPurpleFemale" Value="빨리 해치워 주시길,기대하고 있답니다." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 悪いナビはシティエリア２にいますことよ早くこらしめてくださいまし -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage3Dialogue1FaceNaviPurpleFemale" Value="나쁜 내비는,시티 에리어 2에 있답니다.,빨리 혼내 주시기를." Face="NaviPurpleFemale" Mono="False" />
+  <!-- ホホホ　気味の悪いナビをこらしめてくださいましたのね -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage5Dialogue1FaceNaviPurpleFemale" Value="호호호，기분 나쁜 그 내비를,혼내 주셨군요." Face="NaviPurpleFemale" Mono="False" />
+  <!-- これでワタクシは安心してシティエリアを歩けますわ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage5Dialogue2FaceNaviPurpleFemale" Value="이러면 이제 저도 안심하고,시티 에리어에 다닐 수 있겠어요." Face="NaviPurpleFemale" Mono="False" />
+  <!-- これはお礼ですわ報酬と言ったほうがいいですこと？ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage5Dialogue3FaceNaviPurpleFemale" Value="이건 사례입니다.,보수라 말하는 게,더 나을 지도요?" Face="NaviPurpleFemale" Mono="False" />
+  <!-- ワタクシのような美人には悪い虫がつきものですことよ -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage7Dialogue1FaceNaviPurpleFemale" Value="저 같은 미인에게는,나쁜 벌레들이 꼬이는 법이죠." Face="NaviPurpleFemale" Mono="False" />
+  <!-- あなたも美をもつ者ならば気をつけなさいまし -->
+  <Dialogue Key="Map.GenNet2Request2FemaleNavi1Stage7Dialogue2FaceNaviPurpleFemale" Value="당신도 미인이라면 주의하시기를." Face="NaviPurpleFemale" Mono="False" />
+  <!-- しまった　ＲＯＭのナビを見失ってしまったぞ -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi1Stage1Dialogue1FaceNaviBlueRobot" Value="큰일났다.,ROM의 내비를 놓쳤어." Face="NaviBlueRobot" Mono="False" />
+  <!-- 応援を呼んで囲い込もう！ -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi1Stage1Dialogue2FaceNaviBlueRobot" Value="증원을 불러서 에워싸자!" Face="NaviBlueRobot" Mono="False" />
+  <!-- ＲＯＭの凶悪ネットナビが逃げまわってるみたいだね -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="ROM의 흉악한 넷 내비가,도망 다니고 있는 것 같네." Face="NaviGreenRobot" Mono="False" />
+  <!-- 捕まえたら報酬もらえるかな？ -->
+  <Dialogue Key="Map.GenNet2Chapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="그 놈 잡으면,보수 받을 수 있을까?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ＲＯＭのナビがいるみたいだけど早く捕まってくれないと安心して出歩けないわ -->
+  <Dialogue Key="Map.GenNet2Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="ROM의 내비가 있는 것 같은데,빨리 좀 잡아 주지.,안심하고 다닐 수가 없네." Face="NaviPinkFemale" Mono="False" />
+  <!-- ボーダーコンツェルンの八雲社長って４０代なのに独身なんだって -->
+  <Dialogue Key="Map.GenNet2Chapter4GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="보더 콘체른의,야쿠모 사장이라는 사람,40대인데도 독신이라더라." Face="NaviPinkFemale" Mono="False" />
+  <!-- なにかを捨てないとお金持ちになることはできないのかしら････ -->
+  <Dialogue Key="Map.GenNet2Chapter4GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="뭔가를 버리지 않고서는,부자가 될 수 없는 걸까...." Face="NaviPinkFemale" Mono="False" />
+  <!-- 僕らのような人に近い顔を持つネットナビは最新型の第３世代ナビなんだ -->
+  <Dialogue Key="Map.GenNet2Chapter4Navi1Stage1Dialogue1FaceNaviOrangeMale" Value="우리 같이 인간에 가까운,얼굴을 가진 넷 내비는,최신형의 제3세대 내비야." Face="NaviOrangeMale" Mono="False" />
+  <!-- 黄色いロボットみたいな外見のは１つ前の世代のナビなんだって -->
+  <Dialogue Key="Map.GenNet2Chapter4Navi1Stage1Dialogue2FaceNaviOrangeMale" Value="노란색 로봇 같은,외견을 가진 내비들은,한 세대 이전의 내비라나 봐." Face="NaviOrangeMale" Mono="False" />
+  <!-- 今からスクエアにお米を買いに行くのよ -->
+  <Dialogue Key="Map.GenNet2Chapter7GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="지금 스퀘어에,쌀 팔러 가는 중이야." Face="NaviPinkFemale" Mono="False" />
+  <!-- ＲＯＭの事件も鳴りを潜めネットエージェントも最近は退屈だよ -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1Stage1Dialogue1FaceNaviBlueRobot2" Value="ROM의 사건도 잠잠해졌다 보니,넷 에이전트도 요즘은,지루할 때가 있어." Face="NaviBlueRobot2" Mono="False" />
+  <!-- ヒャッハー！よわっちいニンゲンが食い放題だー！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage1Dialogue1FaceNaviBlackRobe" Value="히얏하아～!,약해빠진 인간들을 잔뜩,먹어치울 수 있겠구나아～!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.GenNet2BlackRobe3Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうゲンソウエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage3Dialogue1FaceShanghai" Value="....후우,환상 에리어에 있는 놈들은,다 쓰러뜨린 것 같네." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue1FaceShanghai" Value="앨리스，전화 왔어!,레이센한테서야!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue2FaceAlice" Value="레이센!,네가 말한 에리어 내에 있는,검은 내비들을 다 쓰러뜨렸어!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue3FaceReisen" Value="여기서도 확인했다.,덕분에 살았어.,고맙다." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue4FaceReisen" Value="아무래도 그 놈들，우라 인터넷,깊은 곳에서 각 지역으로,이동하고 있는 것 같아." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue5FaceReisen" Value="우라 인터넷에서도 여러 번의,교전이 확인되고 있는 이상,우라의 주민일 리도 없고." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue6FaceReisen" Value="계속 부탁해서 미안한데,놈들의 정체를 알아내려고 하는데,거길 조사해 줄 수 있나?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue10FaceShanghai" Value="그 내비들을 뿌리뽑을,수만 있다면 뭐든 해 보겠어." Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue11FaceReisen" Value="고맙다." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue12FaceReisen" Value="보수를 원한다면,넷 에이전트에게,청구해 줘." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue13FaceShanghai" Value="알겠어.,그걸 받으려면 일단,조사를 시작해야겠지!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue14FaceAlice" Value="그런데 우라 인터넷의,깊은 곳이라니.... 괜찮을까?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.GenNet2BlackRobe3Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
+  <!-- ひぃぃぃ！助けてくれぇぇ！ -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage1Dialogue1FaceNaviOrangeMale" Value="히이이익!,살려줘어어!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 助かったよシャンハイさん････ -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue1FaceNaviOrangeMale" Value="고맙습니다，상하이 씨...." Face="NaviOrangeMale" Mono="False" />
+  <!-- お礼にお手伝いをしたいけどこ　腰がぬけて動けない -->
+  <Dialogue Key="Map.GenNet2Chapter7MaleNavigation1DupeStage3Dialogue2FaceNaviOrangeMale" Value="답례로 도와 드리고 싶은데,다，다리에 힘이 안 들어가네요." Face="NaviOrangeMale" Mono="False" />
+  <!-- お買い物でしたらカウンターの向こうからお願いします -->
+  <Dialogue Key="Map.GenNet2ShopClerkStage1Dialogue1FaceNaviPinkFemale" Value="쇼핑을 하실 거라면,카운터를 통해서,부탁드립니다." Face="NaviPinkFemale" Mono="False" />
+  <!-- 私はネット商人ですいいものありますよ？ -->
+  <Dialogue Key="Map.GenNet2ShopStage1Dialogue1QuestionFaceNaviPinkFemale" Value="전 인터넷 상인입니다.,물건 한 번 보고 가실래요?" Face="NaviPinkFemale" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.GenNet2ShopStage1Dialogue1Options" Value="산다,안 산다" />
+  <!-- 不気味な扉が道を塞いで通ることができない！ -->
+  <Dialogue Key="Map.GenNet2ROMGateStage1Dialogue1FaceNone" Value="꺼림칙한 문이,길을 막고 있어서,지나갈 수가 없다!" Face="None" Mono="False" />
+  <!-- シャンハイは「ＲＯＭ−ＩＤ」を使った！ -->
+  <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue1FaceNone" Value="상하이는,”ROM ID카드”를 썼다!" Face="None" Mono="False" />
+  <!-- 不気味な扉が開いた！ -->
+  <Dialogue Key="Map.GenNet2ROMGateStage3Dialogue2FaceNone" Value="꺼림칙한 문이 열렸다!" Face="None" Mono="False" />
+  <!-- 上と下の交わる････つまり道が縦に交差しててそれの底････ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue1FaceAlice" Value="위랑 아래가 엇갈리는....,그러니까 길이 세로로 교차하고,그 바닥...." Face="Alice" Mono="False" />
+  <!-- 底ってことは下のこと要するにこういう場所でしょ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue2FaceShanghai" Value="바닥이라면 아래쪽，,즉 이런 장소겠지!" Face="Shanghai" Mono="False" />
+  <!-- 見て　アリス！ここの床だけデータにほころびがあるわ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue3FaceShanghai" Value="봐봐，앨리스!,여기 이 바닥 부분만,데이터에 벌어진 틈새가 있어!" Face="Shanghai" Mono="False" />
+  <!-- ････見てもわからないけどそうなの？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue4FaceAlice" Value="....그래?,여기서는 봐도 모르겠는데." Face="Alice" Mono="False" />
+  <!-- 間違いないわここをこう掘って・・・・ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue5FaceShanghai" Value="틀림 없어.,여기를 이렇게 파면...." Face="Shanghai" Mono="False" />
+  <!-- ・・・って何これ？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue6FaceShanghai" Value="....이건 뭐야?" Face="Shanghai" Mono="False" />
+  <!-- バトルチップじゃなさそうね････シャンハイ　わからない？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue7FaceAlice" Value="배틀칩은 아닌 것 같은데....,상하이，모르겠어?" Face="Alice" Mono="False" />
+  <!-- えーっと・・・・何かしらの圧縮データってことしかわからないわね -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue8FaceShanghai" Value="어디 보자....,어떤 압축 데이터라는,것밖에는 모르겠네." Face="Shanghai" Mono="False" />
+  <!-- あっしゅくデータ？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue9FaceAlice" Value="압축 데이터?" Face="Alice" Mono="False" />
+  <!-- 大きなデータファイルを移動しやすいように････ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue10FaceShanghai" Value="큰 데이터 파일을,이동하기 쉽게...." Face="Shanghai" Mono="False" />
+  <!-- 決まったルールで容量を縮めたデータのことよ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue11FaceShanghai" Value="정해진 규칙에 따라,용량을 줄인 데이터를 뜻해." Face="Shanghai" Mono="False" />
+  <!-- この中身がバトルチップの可能性もあるでしょうけどこのままじゃ判別できないわ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue12FaceShanghai" Value="그 내용물이 배틀칩일,가능성도 있겠지만,지금 이대로는 판별할 수 없어." Face="Shanghai" Mono="False" />
+  <!-- 圧縮を元に戻すことはできないの？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue13FaceAlice" Value="압축된 걸,원래대로 돌릴 수는 없어?" Face="Alice" Mono="False" />
+  <!-- できたらとっくにやってるわよ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue14FaceShanghai" Value="할 수 있었다면 진작에 했어!" Face="Shanghai" Mono="False" />
+  <!-- 見たこともない拡張子だしデータ解析専門のところにいかないとダメね -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue15FaceShanghai" Value="본 적 없는 확장자이니까,데이터 분석 전문가한테,맡기는 수밖에 없겠어." Face="Shanghai" Mono="False" />
+  <!-- 残念ね････せっかく見つけたのに -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue16FaceAlice" Value="아깝네....,기껏 찾았는데." Face="Alice" Mono="False" />
+  <!-- ま、今日のところはこれくらいにしましょ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue17FaceShanghai" Value="뭐，오늘은,여기까지만 하자." Face="Shanghai" Mono="False" />
+  <!-- オヤツの時間だし電脳アイスをたべようかな〜 -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue18FaceShanghai" Value="간식 시간이니,전뇌 아이스크림 먹으러 가야지～" Face="Shanghai" Mono="False" />
+  <!-- また食べるの？ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue19FaceAlice" Value="또 먹어?" Face="Alice" Mono="False" />
+  <!-- 昨日も　おとといも食べたのにあんまりアイスばかり食べるとアイスのウィルスになるわよ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue20FaceAlice" Value="어제도 그저께도 먹었는데,계속 그렇게 먹다가는,아이스크림 바이러스가 되겠다." Face="Alice" Mono="False" />
+  <!-- なるかぃ！ -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue21FaceShanghai" Value="되겠냐!" Face="Shanghai" Mono="False" />
+  <!-- じゃ　そんなわけでアリス　気が済んだらプラグアウトお願いね -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue22FaceShanghai" Value="뭐，그러면,앨리스，할 거 다 했으면,플러그아웃해줘." Face="Shanghai" Mono="False" />
+  <!-- もう　勝手ばっかりなんだから -->
+  <Dialogue Key="Map.GenNet2BuriedTreasureStage1Dialogue23FaceAlice" Value="정말이지 제멋대로라니까." Face="Alice" Mono="False" />
+  <!-- 倒したナビの残骸データがどこかへと飛び去っていった････ -->
+  <Dialogue Key="Map.GenNet2CirnoV2Stage1Dialogue1FaceNone" Value="쓰러뜨린 내비의 잔해 데이터가,어딘가로 날아가 버렸다...." Face="None" Mono="False" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="호오.... 거기 너,꽤나 다크한 분위기를 풍기는군." Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="내가 키운 바이러스와 싸워서,이기면 다크 칩을 주지. 어때?" Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="물론 네가 거는 건,네 목숨이겠지만...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="내 바이러스들이랑 싸워 볼래?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.GenNet2DarkSellerStage1Dialogue4Options" Value="붙어 보자고!,지금은 상태가 영...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="쯧.... 겁 먹었나." Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="좋아，그럼 드가자!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="이야～ 이걸 이기네!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="좋아! 이거 가져가!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.GenNet2DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="난 이미 너한테 졌어.,이 이상 무슨 말을 할,자격 같은 건 없어." Face="NaviBlackHeel" Mono="False" />
+  <Dialogue Key="Map.GenNet2PostGameBystander1Dialogue1" Value="칩을 시험해 볼 때에는,역시 여기만한 데가 없어." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.GenNet2PostGameBystander2Dialogue1" Value="이 에리어는 순찰 돌 때마다,치유되는 곳이야." Face="NaviBlueRobot" Mono="False" />
+</data>

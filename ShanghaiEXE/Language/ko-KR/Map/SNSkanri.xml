@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.SNSkanriName" Value="SNS 관리 에리어" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage1Dialogue1FaceNaviPurplePunk" Value="무，뭐 하는 놈이야!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage1Dialogue2FaceShanghai" Value="난 상하이야!,내 얼굴을 잊었다고는 못 하겠지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage1Dialogue3FaceNaviPurplePunk" Value="상하이 님이라고!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage1Dialogue4FaceNaviPurplePunk" Value="상하이 님 같은 분이,이런 곳에 오실 리가 없다!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage1Dialogue5FaceNaviPurplePunk" Value="상하이 님을 사칭하는,고얀 놈이로고!!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage1Dialogue6FaceNaviPurplePunk" Value="출두야! 출두야아아앗!!" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.SNSkanriEvilPipelineBattle1Enemy1" Value="칼" />
+  <Text Key="Map.SNSkanriEvilPipelineBattle1Enemy2" Value="의" />
+  <Text Key="Map.SNSkanriEvilPipelineBattle1Enemy3" Value="녹" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage3Dialogue1FaceShanghai" Value="네가 뭔 짓을 했는지는,다 알고 있어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage3Dialogue2FaceShanghai" Value="얌전히 포기하면 아직은...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage3Dialogue3FaceNaviPurplePunk" Value="이，이렇게 된 이상....!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage3Dialogue4FaceNaviPurplePunk" Value="서，선생님!,부탁드립니다!" Face="NaviPurplePunk" Mono="False" />
+  <Text Key="Map.SNSkanriEvilPipelineBattle2Enemy1" Value="선생" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue1FaceShanghai" Value="내 버스터가,안 보이냐아아아아!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue2FaceNaviPurplePunk" Value="그 버스터와 몸놀림....,설마 진짜 상하이 님....!?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue3FaceShanghai" Value="네녀석의 거지근성은,아～～～～～주 잘 알았어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue4FaceShanghai" Value="이 곳의 대리 관리인은,다른 사람으로 교체한다." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue5FaceShanghai" Value="넌 1년 간 무급으로,화장실 청소 형벌에 처한다!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue6FaceNaviPurplePunk" Value="아아아.... 아아...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue7FaceShanghai" Value="후우～,이걸로 정리는 끝났군." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue8FaceShanghai" Value="자，의뢰자한테,보고하러 가자!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage5Dialogue9FaceAlice" Value="(자세한 사정은,물어보지 않는 게 좋겠어....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.SNSkanriEvilPipelineStage7Dialogue1FaceNaviPurplePunk" Value="으그윽...." Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriMrStage1Dialogue1FaceNaviPurpleHeel2" Value="흠...." Face="NaviPurpleHeel2" Mono="False" />
+  <Dialogue Key="Map.SNSkanriSwordRust1Stage1Dialogue1FaceNaviPurplePunk" Value="뭐 하는 놈이야?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriSwordRust2Stage1Dialogue1FaceNaviPurplePunk" Value="뭐 하는 놈이야?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.SNSkanriSwordRust3Stage1Dialogue1FaceNaviPurplePunk" Value="뭐 하는 놈이야?" Face="NaviPurplePunk" Mono="False" />
+</data>

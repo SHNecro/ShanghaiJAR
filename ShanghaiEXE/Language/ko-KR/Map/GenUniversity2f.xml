@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.GenUniversity2fName" Value="환상대학교 2층" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage1Dialogue1FacePresidentYukari" Value="그럼 안녕히 계시길." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue1FacePresidentYukari" Value="어머，여기는 어린아이들의,놀이터가 아니란다." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue2FaceMari" Value="그게，아빠를,만나뵈러 온 건데요." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue3FacePresidentYukari" Value="모리치카 박사님의 따님이니?" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue4FacePresidentYukari" Value="그러면 정말 좋은 타이밍에 왔구나.,마침 방금 전에,재미있는 게 도착했거든." Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue5FaceAlice" Value="재미있는 거라니요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage3Dialogue6FacePresidentYukari" Value="직접 보고 기・대・하・시・라!,후훗，그러면 안녕히!" Face="PresidentYukari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue1FaceRika" Value="어른 여성이었던 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue2FaceShanghai" Value="그야 그렇지. 그도 그럴 게 저 사람,”보더 콘체른”의 여사장,야쿠모 유카리니까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue3FaceMarisa" Value="보더 콘체른이라니,그 거대기업 말이야!?" Face="Marisa" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue4FaceTankMan" Value="중앙가에 본사 건물이,들어서 있는 엄청난 회사잖아?,분명히 슬로건이...." Face="TankMan" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue5FaceRemilia" Value="”요람에서 경비 로봇까지”.,정말이지 괘씸하네." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue6FaceMari" Value="그런 걸 잘도 기억하고 있네." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue7FaceRemilia" Value="우리 가문의 라이벌 기업이니까." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue8FaceRemilia" Value="”네 적은 잘 알아 두거라”라고,블라드 아버지께서,몇 번이고 말씀하셨어." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue9FaceRika" Value="역시 명문 가문의 아가씨는,한 걸음 더 앞서가는 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue10FaceRemilia" Value="훗，겉치레는 됐으니까,빨리 들어가자." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue11FaceRemilia" Value="재미있는 게 뭔지,조사해 봐야 하기도 하고 말야." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2MariStage5Dialogue12FaceMari" Value="알았어，알았어.,그럼 들어간다." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage1Dialogue1QuestionFaceNone" Value="엘리베이터의 문이 열렸다!,1층으로 가시겠습니까?" Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity2fElevatorStage1Dialogue1Options" Value="예,아니오" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage3Dialogue1FaceNone" Value="엘리베이터의 문이 열렸다!,몇 층에 가시겠습니까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fElevatorStage3Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <Text Key="Map.GenUniversity2fElevatorStage3Dialogue2Options" Value="1층,3층,안 탄다" />
+  <Dialogue Key="Map.GenUniversity2fToOfficeStage1Dialogue1FaceNone" Value="사무실이라 써져 있다.,지금은 들어갈 이유가 없다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue1FaceNone" Value="자동판매기다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue2FaceNone" Value="페인트가 조각나서 떨어지는,걸로 봐서는 몇 년은 썼다는 걸,알 수 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fVendingMachineStage1Dialogue3FaceNone" Value="낡은 기종이라 그런지,플러그인에는 대응하지 않는다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChair1Stage1Dialogue1FaceNone" Value="휴게용 의자다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChair1Stage1Dialogue2FaceNone" Value="묘하게 딱딱하고 착석감이 나쁜데,오랫동안 앉아 있지 못 하게,하려고 이렇게 만든 걸까." Face="None" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2OlderBrotherStage1Dialogue1FaceScientist" Value="모리치카 박사님의 부인께서는,유리카의 한 종합대학교에서,연구를 하고 있다는군요." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter2OlderBrotherStage1Dialogue2FaceScientist" Value="서로 떨어져서 살고 있지만,박사님께서 애처가이신 점도 그렇고,가족 관계는 꽤나 좋네요." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OlderBrotherStage1Dialogue1FaceScientist" Value="ROM이 일으킨 사건에,모리치카 박사님께서 휘말리셔서,병원에 이송되었다는데...." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OlderBrotherStage1Dialogue2FaceScientist" Value="근데 하루도 안 지나서 복귀라니,우수한 과학자들은,몸이 남아나나....?" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OldManStage1Dialogue1FaceMaleOld" Value="넷 에이전트들에게,순찰을 부탁해 볼까...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter3OldManStage1Dialogue2FaceMaleOld" Value="ROM에게 이런 일을 당해서야,대학교의 명성에 금이 가겠군....,부들부들...." Face="MaleOld" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrotherStage1Dialogue1FaceMaleAdult" Value="아～이런.,졸업 연구만 없었으면 나도,N1 리그 참전하는 건데...." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage1Dialogue1FaceScientist" Value="옛날에는 논문을 쓸 때,컴퓨터로 쓰면 안 된다면서,전부 손으로 직접 써야 했어." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage1Dialogue2FaceScientist" Value="오늘날의 젊은 사람들은,축복받은 거지." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage3Dialogue1FaceScientist" Value="아까 넷 에이전트 여자애가,말도 안 되는 기세로,이 방으로 들어갔어...." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage5Dialogue1FaceScientist" Value="옛날에는 논문을 쓸 때,컴퓨터로 쓰면 안 된다면서,전부 손으로 직접 써야 했어." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter4OlderBrother2Stage5Dialogue2FaceScientist" Value="오늘날의 젊은 사람들은,축복받은 거지." Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5RenkoStage1Dialogue1FaceRenko" Value="오늘 하루는,넷 배틀 특훈이야!!" Face="Renko" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent1Stage1Dialogue1FaceMaleAdult" Value="우리는 대학교의,넷배틀부인데" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent1Stage1Dialogue2FaceMaleAdult" Value="N1 리그에서 부장님이,지고 나서 매일같이,이런 느낌이야." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent2Stage1Dialogue1FaceFemaleAdult" Value="모리치카 연구실에 있는,야마메 씨를 스카웃하는 게,좋지 않을까?" Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fChapter5CollegeStudent2Stage1Dialogue2FaceFemaleAdult" Value="그 사람 최근에 눈에 띄게,넷배틀 실력이,늘고 있는 것 같던데...." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue1" Value="난 넷배틀부의 일원인데" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue2" Value="최근에 우사미 부장님이,한 씨를 만나러 가기만 하고,부실에는 전혀 오질 않아." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander1Dialogue3" Value="아～우리 부는 이제,어떻게 되는 거야～～!" Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander2Dialogue1" Value="같은 학과의 한 씨가,어딘가의 회사의 사장이,됐다나 봐." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity2fPostGameBystander2Dialogue2" Value="대학도 다니면서 사장 일이라니,진짜 힘들 것 같아." Face="FemaleAdult" Mono="False" />
+</data>

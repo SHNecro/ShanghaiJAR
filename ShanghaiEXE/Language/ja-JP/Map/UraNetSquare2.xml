@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- セカイウラスクエア -->
   <Text Key="Map.UraNetSquare2Name" Value="セカイウラスクエア" />
@@ -178,10 +178,10 @@
   <Dialogue Key="Map.UraNetSquare2InformationNaviStage1Dialogue2FaceNaviPurpleChild" Value="１９６４５２３３,わすれないでね" Face="NaviPurpleChild" Mono="False" />
   <Dialogue Key="Map.UraNetSquare2PostGameBystander1Dialogue1" Value="レーセンとかいう奴が,ココらへんの悪党をしばいて,回っていて怖いぜ････" Face="NaviPurplePunk" Mono="False" />
   <Dialogue Key="Map.UraNetSquare2PostGameBystander2Dialogue1" Value="オレ　ギャング　ちがう,たおしても　ムダ　だーよ" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue1" Value="[Knew from the start that those,ROM tryhards wouldn’t get,anywhere.]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue2" Value="[Ten-to-one odds they were a,NetAgent false flag，even!]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue3" Value="[“Aren’t you glad you have the,NetAgents to protect you from,these evil， evil people?”]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue4" Value="[Pssh，get real.,They’re even trying to recruit,with some civvy as a mascot.]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.UraNetSquare2PostgamePunk1Dialogue1" Value="[You want something?,No?,Then why’re you botherin’ me?,]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNetSquare2PostgamePunk2Dialogue1" Value="[D-Dark Chips....,Can anyone.... spare some,Dark Chips....?]" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue1" Value="あのＲＯＭの馬鹿共が,失敗するってことは,最初から目にしてたさ" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue2" Value="所詮ネットエージェント共の,詐欺劇に間違いないだろうし！" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue3" Value="「悪い犯罪者達から皆さんを,守ってくれる我々は,ネットエージェント！」だの" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostgamePurpleNaviDialogue4" Value="現実感のない事はよく言うよな,どうせどこかの民間人連れてきて,マスコットに使ってるくせによ" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostgamePunk1Dialogue1" Value="何か用かい？,無い？,じゃ何で話しかけたんだい？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNetSquare2PostgamePunk2Dialogue1" Value="ダっダークチっプ････,だ、誰か････俺にダークちップを,くれル人････い、いるか････？" Face="NaviPurplePunk" Mono="False" />
 </data>

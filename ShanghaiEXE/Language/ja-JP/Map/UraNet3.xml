@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ウラインターネット３ -->
   <Text Key="Map.UraNet3Name" Value="ウラインターネット３" />
@@ -46,13 +46,13 @@
   <Dialogue Key="Map.UraNet3Request15EventsStage9Dialogue4FaceAlice" Value="そうだった！,とりあえず中央街に,戻りましょう！" Face="Alice" Mono="False" />
   <!-- バグのかけらと　私のマイナスアドオンを交換しませんか？ -->
   <Dialogue Key="Map.UraNet3BagChangePartShopStage1Dialogue1FaceNaviPurpleChild" Value="バグのかけらと　私の,マイナスアドオンを,交換しませんか？" Face="NaviPurpleChild" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue1" Value="[Buzz off，blondie.,Does it look like you belong,here?]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue2" Value="[Tch.,Outsiders....]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue3" Value="[Anyways....,You guys see that shot of,Mystia at the PRIZM debut?]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue4" Value="[Haha!,Move over，hag!,Talent coming through!]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgameLedgeThugDialogue1" Value="[I dunno，man....,It’s not that far a walk，I can just,go around....]" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgameLedgePunkDialogue1" Value="[Just jump，you big baby!,What are you，scared?,C’mon，I’ll catch you! Heheh....]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue1" Value="[Aww man....,ROM got taken down，but their,dumb door’s still here!]" Face="NaviPurpleChild" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue2" Value="[Hey....,You wouldn’t happen to have,the key， would you?]" Face="NaviPurpleChild" Mono="False" />
-  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue3" Value="[Just asking out of curiousity，,heheheheh....]" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue1" Value="あっち行ってな、金髪さん,アンタとは関係の一切無い,話してるんだ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue2" Value="まったく、,これだから外部人は････" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue3" Value="まあ、それはそうとして････,君達ＰＲＩＳＭのデビューの時に,ミスティアちゃんいたの見たか？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgamePunkMeetupDialogue4" Value="ハハ！まだオワコンアイドル,扱ってんのかい？時代は,変わってるさ！今はＰＲＩＳＭだ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameLedgeThugDialogue1" Value="いや、ここで間違って落ちたら,始末だろう････そう遠くもないし,そこで待ってれば俺が歩いて････" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameLedgePunkDialogue1" Value="お前はデカチキンかよ！,黙ってジャンプで降りて来いや！,間違ったら俺が捕まってやるさ！" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue1" Value="ＲＯＭのボケ共は既に,くたばったのに何でここの,扉はまだ残ってるやん！" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue2" Value="あの････もしここの,扉の鍵を持ってたり,してませんか？" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.UraNet3PostgameUndernet4PurpleChildDialogue3" Value="気になって聞いてみた,だけなんです！,えへへへへ････" Face="NaviPurpleChild" Mono="False" />
 </data>

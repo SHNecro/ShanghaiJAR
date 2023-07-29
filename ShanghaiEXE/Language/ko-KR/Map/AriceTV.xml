@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- 最新薄型テレビの電脳 -->
+  <Text Key="Map.AriceTVName" Value="최신 벽걸이 TV의 전뇌" />
+  <!-- こんにちは　シャンハイさんご機嫌いかがですか？ -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue1FaceNaviRedSprite" Value="안녕하세요，상하이 씨.,잘 지내시나요?" Face="NaviRedSprite" Mono="False" />
+  <!-- 神綺ママさんの元で働けて私は幸せです -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue2FaceNaviRedSprite" Value="신키 어머니 곁에서 일할 수 있어서,전 행복하답니다." Face="NaviRedSprite" Mono="False" />
+  <!-- 神綺ママさんのためにもこの電脳にはウィルスを一匹も入れないように頑張ってます！ -->
+  <Dialogue Key="Map.AriceTVYumekoStage1Dialogue3FaceNaviRedSprite" Value="신키 어머니를 위해서라도,이 전뇌에는 바이러스 한 마리도,못 들어오도록 힘 쓰고 있어요!" Face="NaviRedSprite" Mono="False" />
+  <!-- シャンハイ様この間はありがとうございました -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue1FaceYumeko" Value="상하이 님,이전에는 정말 감사했습니다." Face="Yumeko" Mono="False" />
+  <!-- お教えいただいた電脳紅茶の淹れ方はほぼほぼマスターしましたよ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue2FaceYumeko" Value="일전에 가르쳐 주셨던,전뇌 홍차 우리기는,거의 다 마스터했어요." Face="Yumeko" Mono="False" />
+  <!-- 次は電脳スパイ術と電脳お背中流し術を極めようと思っております！ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue3FaceYumeko" Value="다음에는 전뇌 첩보 기술과,전뇌 등밀이를,마스터하려 합니다!" Face="Yumeko" Mono="False" />
+  <!-- ････シャンハイあなたはユメコを何にしたいの？ -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue4FaceAlice" Value="....상하이.,너 유메코를,어떻게 키우려고 그래?" Face="Alice" Mono="False" />
+  <!-- あえて言うなら････右腕かしら -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue5FaceShanghai" Value="굳이 친다면....,내 오른팔 정도?" Face="Shanghai" Mono="False" />
+  <!-- （部下にする気満々だぁ････） -->
+  <Dialogue Key="Map.AriceTVYumekoStage3Dialogue6FaceAlice" Value="(부하로 삼으려고 작정을 했구나....)" Face="Alice" Mono="False" />
+</data>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.VendingMachineName" Value="자동판매기의 전뇌" />
+  <Dialogue Key="Map.VendingMachineSprite1Stage1Dialogue1FaceSprite" Value="삐리리리리리리리,삐이익!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite1Stage1Dialogue2FaceSprite" Value="꽝～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite2Stage1Dialogue1FaceSprite" Value="몸에 좋은 약은 입에 쓰다고,다들 그러지만，몸에는 좋아도,맛 없는 주스는 안 팔려요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite2Stage1Dialogue2FaceSprite" Value="그런데도 굳이 건강 주스를,무턱대고 잔뜩,진열해 놨네요～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite2Stage1Dialogue3FaceSprite" Value="하나도 안 팔리면서～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite3Stage1Dialogue1FaceSprite" Value="삐리리리리리리리,삐이익!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.VendingMachineSprite3Stage1Dialogue2FaceSprite" Value="당첨～!,모기향에 당첨되셨습니다～!" Face="Sprite" Mono="False" />
+</data>

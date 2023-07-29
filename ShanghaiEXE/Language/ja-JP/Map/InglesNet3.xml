@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.InglesNet3Name" Value="インターネット　インゲレスエリア３" />
   <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
@@ -21,16 +21,16 @@
   <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="よし　こいつを受け取りな！" Face="NaviBlackHeel" Mono="False" />
   <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
   <Dialogue Key="Map.InglesNet3DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="俺はお前に負けたんだ,これ以上とやかく言う,資格はねぇよ" Face="NaviBlackHeel" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue1" Value="[You’ve figured it out，this whole,place is just one big tourist trap.]" Face="NaviPurpleChild" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue2" Value="[If you want the real Engelles，,you’d be better off checking out,the UnderSquare.]" Face="NaviPurpleChild" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue3" Value="[Sure，it’s a bit dangerous，but,it’s authentic. Come with me，I’ll,keep you safe.... ehehe!]" Face="NaviPurpleChild" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue1" Value="[I went to the Square， but it’s all,shops and people trying to get,you to take their tours!]" Face="NaviChild" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue2" Value="[There’s not even any message,boards! Where are all the real,Engellians?]" Face="NaviChild" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameThugNaviDialogue1" Value="[Heh.... the public Net might,be infested by kiddies， shills，,bootlickers，and tourists....]" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameThugNaviDialogue2" Value="[....but if you know the way，the,Net remembers who it belongs,to.]" Face="NaviPurpleHeel" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameAgentNaviDialogue1" Value="[Yup，Engelles 3 patrol finished!,I’ve got a good enough view,of the area from here!]" Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameAgentNaviDialogue2" Value="[No need to check the rest of,the area，I’m sure everyone’s,being upstanding citizens!]" Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue1" Value="[I did some shopping at the,Square，but couldn’t find what,I wanted.]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue2" Value="[I thought there might be more,vendors out here，but it feels,like I took a wrong turn.]" Face="NaviGreenRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue3" Value="[I think I’ll turn around.,I’m getting chills for some,reason，like I don’t belong....]" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue1" Value="当たり前でしょう。この辺りは,観光客をぼったくることで,有名な場所だよ" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue2" Value="本当のインゲレスを経験したいなら,ウラのスクエアの方を訪ねる,方がましだと思うよ" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue3" Value="少し危険な所だけど正確さは本当さ,私がついて来てあげるから,一緒に行こうね････イッヒッヒ！" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue1" Value="スクエアに行ってみたけど,土産屋やツアーに誘う,人達しか見えなかったよ！" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue2" Value="掲示板一つのないスクエアって,何よこれ！インゲレスって,いつもこのような場所なの？" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameThugNaviDialogue1" Value="表のネットは子供達やペテン師,世辞者共や観光客など,色んな人がうろついてるだろう？" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameThugNaviDialogue2" Value="････でもいくら数が多くいても,このネットワーク全てが彼らの,物だという訳ではないんだ" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameAgentNaviDialogue1" Value="インゲレスエリア３の見回りは,この辺で充分だと思う,それなりの物見もしたことだし" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameAgentNaviDialogue2" Value="他のエリアの見回りは････,まあいいか、ここの皆なら真面な,市民達であるに違いないだろう" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue1" Value="さっきまでスクエアで,買い物したけど、欲しかったのは,全く見当たらなかったんだ" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue2" Value="外にはもっと色んな商店が,あると思って出たが,どうやら間違いだったみたい" Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue3" Value="何故かここにいては,いけない気がする････,一応スクエアに帰ろうか？" Face="NaviGreenRobot" Mono="False" />
 </data>

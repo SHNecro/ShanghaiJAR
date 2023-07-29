@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.PhoneName" Value="전화기의 전뇌" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue1FaceNaviBlueRobot" Value="이런，이런,당신이 첫번째인 것 같군요." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue2FaceNaviBlueRobot" Value="흐음.... 역시 장소가,좀 심하게 매니악했나요?,아니면 너무 노골적이었나요?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage1Dialogue3FaceNaviBlueRobot" Value="뭐，상관 없겠죠.,당신 같은 여자 내비는 간단하게,무릎 꿇릴 수 있으니까!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue1FaceNaviBlueRobot" Value="히이이익!,뭐 이렇게 강한,내비가 다 있어요!?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue2FaceNaviBlueRobot" Value="저，저기，,이거라도 드릴 테니까,용서해 주세요!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue3FaceShanghai" Value="야，이게 다야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue4FaceNaviBlueRobot" Value="네?" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue5FaceShanghai" Value="아니 사람을 속여 놓고,위험한 바이러스까지 풀어 놓고,겨우 1만 제니로 퉁치겠다고!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue6FaceShanghai" Value="야，지금 장난 까?,못 해도 0이 2，3개 정도는,더 붙어야 할 거 아냐!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue7FaceShanghai" Value="내가 빙다리 핫바지로 보여!?,아앙!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue8FaceShanghai" Value="뭣 하면,내가 여기서 뒤로 밀어 줘?,아니면 니가 직접 뛰어들래?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue9FaceNaviBlueRobot" Value="으아아아악!,이것도 드릴 테니까,제발 용서해 주세요～!!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue10FaceShanghai" Value="거 봐，가지고 있잖아!,그것도 희귀해 보이는,애드온을 말야!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue11FaceShanghai" Value="모가지에 바람 구멍,뚫리기 싫으면,당장 내 눈 앞에서 꺼져!!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage3Dialogue12FaceNaviBlueRobot" Value="죄，죄송합니다아아아악!!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue1FaceShanghai" Value="쳇....,동네 건달만도 못한,사기꾼 주제에...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue2FaceAlice" Value="저거 그냥 냅둬도 되는 거야?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue3FaceShanghai" Value="괜찮아.,조용히 발신기 붙여 놓고,신고 때렸으니까." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.PhoneRequest9NaviStage5Dialogue4FaceAlice" Value="(이거 조금만 잘못하면, 상하이가 그대로 잡혀갈, 기세인데....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite1Stage1Dialogue1FaceSprite" Value="뚜루루루루,뚜루루루루" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite1Stage1Dialogue2FaceSprite" Value="철컥　뜨～ 뜨～ 뜨～...." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue1FaceSprite" Value="고객님이 전화를 받지 않아,삐 소리 후 소리샘으로,연결되오며" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue2FaceSprite" Value="연결된 후에는,통화 요금이 부과됩니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.PhoneSprite2Stage1Dialogue3FaceSprite" Value="삐～" Face="Sprite" Mono="False" />
+</data>

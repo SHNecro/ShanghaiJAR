@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.ExOmakeName" Value="体験版おまけマップ" />
   <Dialogue Key="Map.ExOmakeExtra1Stage1Dialogue1FaceSprite" Value="私はこの体験版の,おまけスプライトです" Face="Sprite" Mono="False" />
@@ -141,19 +141,19 @@
   <!-- 例：１ランク　V2→V3２ランク　V2→SP -->
   <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue2FaceNaviRedSprite" Value="例：,１ランク　V2→V3,２ランク　V2→SP" Face="NaviRedSprite" Mono="False" />
   <Dialogue Key="Map.ExOmakeRankUpStage1Dialogue3NumsetFaceNaviRedSprite" Value="タイトル画面で" Face="NaviRedSprite" Mono="False" />
-  <Dialogue Key="Map.ExOmakeShanghaiDSStage1Dialogue1FaceNone" Value="[ShanghaiDS Combat Test]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue1FaceNone" Value="[Yuyuko Combat Test]" Face="YuyukoCombat" Mono="False" />
+  <Dialogue Key="Map.ExOmakeShanghaiDSStage1Dialogue1FaceNone" Value="シャンハイDSとのバトルテスト" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue1FaceNone" Value="ユユコとのバトルテスト" Face="YuyukoCombat" Mono="False" />
   <Dialogue Key="Map.ExOmakeYuyukoStage1Dialogue2QuestionFaceNone" Value="" Face="YuyukoCombat" Mono="False" />
-  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue1FaceNone" Value="[Flandre Combat Test]" Face="FlandreHidden" Mono="False" />
+  <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue1FaceNone" Value="フランドールとのバトルテスト" Face="FlandreHidden" Mono="False" />
   <Dialogue Key="Map.ExOmakeFlandreStage1Dialogue2QuestionFaceFlandreNormal" Value="" Face="FlandreHidden" Mono="False" />
-  <Text Key="Map.ExOmakeShanghaiDSStage1Dialogue2Options" Value="[ShanghaiDS,Cancel]" />
-  <Text Key="Map.ExOmakeYuyukoStage1Dialogue2Options" Value="[Yuyuko,YuyukoSP,Cancel]" />
-  <Text Key="Map.ExOmakeFlandreStage1Dialogue2Options" Value="[Flandre,FlandreSP,Cancel]" />
+  <Text Key="Map.ExOmakeShanghaiDSStage1Dialogue2Options" Value="シャンハイDS,やめる" />
+  <Text Key="Map.ExOmakeYuyukoStage1Dialogue2Options" Value="ユユコ,ユユコSP,やめる" />
+  <Text Key="Map.ExOmakeFlandreStage1Dialogue2Options" Value="フランドール,フランドールSP,やめる" />
   <Text Key="Map.ExOmakeDruidManBattleOptions" Value="ドルイドマン,ドルイドマンV3,ドルイドマンSP,やめる" />
   <Dialogue Key="Map.ExOmakeDruidManBattleQuestion" Value="ドルイドマン" Face="DruidMan" Mono="False" />
-  <Text Key="Map.ExOmakeMimaStage1Dialogue1QuestionOptions" Value="ミマ,[Cancel]" />
+  <Text Key="Map.ExOmakeMimaStage1Dialogue1QuestionOptions" Value="ミマ,やめる" />
   <Dialogue Key="Map.ExOmakeMimaStage1Dialogue1Question" Value="ミマ" Face="Mima" Mono="False" />
-  <Dialogue Key="Map.ExOmakeInteriorCodeGiverDialogue1" Value="[If you’d like to move or remove,the Demo Room warp，use,Lotto code “21216128”!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue1" Value="[Bosses and in-development,content have been moved to,another room!]" Face="Sprite" Mono="False" />
-  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue2" Value="[Use Lotto code “19122018” to,access them!,Beware of spoilers!]" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeInteriorCodeGiverDialogue1" Value="体現版おまけマップのワープの,位置を移動または消したい方へ,ロットナンバー２１２１６１２８" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue1" Value="ボスや開発中のコンテンツは,別の部屋に置きました" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.ExOmakeDebugRoomCodeGiverDialogue2" Value="ロットナンバー１９１２２０１８を,使えばアクセス出来ますが,ネタばれご注意下さい！" Face="Sprite" Mono="False" />
 </data>

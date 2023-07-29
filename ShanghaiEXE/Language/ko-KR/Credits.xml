@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Credits.TitleLine1" Value="플레이해 주셔서 감사합니다!" />
+  <Text Key="Credits.TitleLine2" Value="환상 네트워크 상하이 에그제" />
+  <Text Key="Credits.Team1" Value="「오리지널 제작 스탭」" />
+  <Text Key="Credits.Category1Role1" Value="・프로듀서，프로그래밍，+" />
+  <Text Key="Credits.Category1Credit1" Value="コーキー" />
+  <Text Key="Credits.Category2Role1" Value="・캐릭터 디자인" />
+  <Text Key="Credits.Category2Role2" Value="・내비 칩 디자인，+" />
+  <Text Key="Credits.Category2Credit1" Value="なめこ猫" />
+  <Text Key="Credits.Category3Role1" Value="・그래픽 어시스턴트" />
+  <Text Key="Credits.Category3Credit1" Value="ふお" />
+  <Text Key="Credits.Category3Credit2" Value="赤大葉" />
+  <Text Key="Credits.Category3Credit3" Value="フナミ・ディンゴ" />
+  <Text Key="Credits.Category3Credit4" Value="REDmiso" />
+  <Text Key="Credits.Category4Role1" Value="・그래픽 게스트 협력" />
+  <Text Key="Credits.Category4Credit1" Value="骨狩人" />
+  <Text Key="Credits.Category5Role1" Value="・사운드 치프" />
+  <Text Key="Credits.Category5Role2" Value="・ＢＧＭ，ＳＥ" />
+  <Text Key="Credits.Category5Credit1" Value="赤ヌゥ" />
+  <Text Key="Credits.Category6Role1" Value="・ＢＧＭ" />
+  <Text Key="Credits.Category6Credit1" Value="月人" />
+  <Text Key="Credits.Category7Role1" Value="・프로그래밍 서포트" />
+  <Text Key="Credits.Category7Credit1" Value="hebo-MAI" />
+  <Text Key="Credits.Category8Role1" Value="・디버그 플레이" />
+  <Text Key="Credits.Category8Credit1" Value="かにまよ" />
+  <Text Key="Credits.Category8Credit2" Value="ブルー" />
+  <Text Key="Credits.Category8Credit3" Value="蒼炎シノ" />
+  <Text Key="Credits.Category8Credit4" Value="月彼岸" />
+  <Text Key="Credits.Category8Credit5" Value="Rin" />
+  <Text Key="Credits.Category8Credit6" Value="フロウスガル" />
+  <Text Key="Credits.Category8Credit7" Value="みさきち" />
+  <Text Key="Credits.Team2" Value="「오리지널 영어 번역」" />
+  <Text Key="Credits.Category9Role1" Value="・매니저" />
+  <Text Key="Credits.Category9Credit1" Value="doicm" />
+  <Text Key="Credits.Category10Role1" Value="・번역가" />
+  <Text Key="Credits.Category10Credit1" Value="Kerreb17" />
+  <Text Key="Credits.Category10Credit2" Value="Code Caster" />
+  <Text Key="Credits.Category11Role1" Value="・편집" />
+  <Text Key="Credits.Category11Credit1" Value="fatkid" />
+  <Text Key="Credits.Category11Credit2" Value="CloudMonkey98" />
+  <Text Key="Credits.Category12Role1" Value="・번역 검수" />
+  <Text Key="Credits.Category12Credit1" Value="GrayKitsune" />
+  <Text Key="Credits.Category12Credit2" Value="KyrieZee" />
+  <Text Key="Credits.Team3" Value="「재개발」" />
+  <Text Key="Credits.Category13Role1" Value="・개발자" />
+  <Text Key="Credits.Category13Role2" Value="・로컬라이징" />
+  <Text Key="Credits.Category13Role3" Value="・메인터넌스" />
+  <Text Key="Credits.Category13Role4" Value="・재구성" />
+  <Text Key="Credits.Category13Credit1" Value="유동" />
+  <Text Key="Credits.Category14Role1" Value="・0.502 버전 유출" />
+  <Text Key="Credits.Category14Credit1" Value="유동" />
+  <Text Key="Credits.Category15Role1" Value="・개발자" />
+  <Text Key="Credits.Category15Role2" Value="・시크릿 보스" />
+  <Text Key="Credits.Category15Role3" Value="・연구&amp;자원" />
+  <Text Key="Credits.Category15Credit1" Value="유동" />
+  <Text Key="Credits.Category16Role1" Value="・문서 번역" />
+  <Text Key="Credits.Category16Credit1" Value="유동" />
+  <Text Key="Credits.Category17Role1" Value="・피드백&amp;지원" />
+  <Text Key="Credits.Category17Credit1" Value="4chan의 /jp/ 외 여럿" />
+  <Text Key="Credits.Team4" Value="「Special Thanks」" />
+  <Text Key="Credits.Category18Role1" Value="・동방 Project " />
+  <Text Key="Credits.Category18Credit1" Value="ZUN，상해 앨리스 환악단" />
+  <Text Key="Credits.Category19Role1" Value="・록맨 에그제" />
+  <Text Key="Credits.Category19Credit1" Value="주식회사 캡콤" />
+  <Dialogue Key="Credits.TeaserStage1Dialogue1" Value="ROM의 계획이 실패로,끝났다 이거지?" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage1Dialogue2" Value="듣고 있자니 드루이드맨도,한심하군. 기껏 내가,힘을 부여해 줬건만." Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage1Dialogue3" Value="뭐 상관 없지." Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage1Dialogue4" Value="슬슬.... 움직여 볼까?,그 거슬리는 서버를,부숴 버려야지." Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage1Dialogue5" Value="이....,다크 칩의 힘으로 말이야." Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage2Dialogue1" Value="클리어 데이터를 세이브합니다." Face="None" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage2Dialogue2" Value="#u@#세이브 중...." Face="None" Mono="False" />
+  <Dialogue Key="Credits.TeaserStage2Dialogue3" Value="세이브 완료!" Face="None" Mono="False" />
+  <Text Key="Credits.Category17Credit2" Value="기여자들" />
+</data>

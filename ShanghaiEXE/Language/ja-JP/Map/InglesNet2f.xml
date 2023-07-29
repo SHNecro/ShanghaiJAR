@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- インターネット　インゲレスエリア２ -->
   <Text Key="Map.InglesNet2fName" Value="インターネット　インゲレスエリア２" />
@@ -64,15 +64,15 @@
   <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue2FaceShanghai" Value="さあ　スクエアはもうすぐよ" Face="Shanghai" Mono="False" />
   <!-- 流石にもうノーコメントよ -->
   <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue3FaceAlice" Value="流石にもうノーコメントよ" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue1" Value="[Oi，clunker!,Just takin’ my cute little viruses,for a walk!]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue2" Value="[Oh， what’s that? You wanna,come play with my babies?,They wanna play with you!]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue3" Value="[You gonna stomp on over here,in your little baby booties?,Hehehehe....]" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgameAgentDialogue1" Value="[You--!,Unsecured viruses are a ,serious safety hazard!]" Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgameAgentDialogue2" Value="[And insulting an officer of the,law!,When I get over there--!]" Face="NaviBlueRobot" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePinkNaviDialogue1" Value="[I feel like this sign would’ve,been more useful back by the,conveyors.]" Face="NaviPinkFemale" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePinkNaviDialogue2" Value="[I took the wrong turn and had,to go all the way around again!]" Face="NaviPinkFemale" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePurpleNaviDialogue1" Value="[Something the matter?,Last I checked，it’s not illegal,to mind my own business.]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgamePurpleNaviDialogue2" Value="[In all seriousness，there’s a,certain.... ambiance to old，,abandoned places like this.]" Face="NaviPurpleFemale" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgameOrangeNaviDialogue1" Value="[Huh....,Last time I came through，I had,to pay a toll.]" Face="NaviOrangeMale" Mono="False" />
-  <Dialogue Key="Map.InglesNet2fPostgameOrangeNaviDialogue2" Value="[I can’t find those guys anywhere,though.,Can I.... just go through?]" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue1" Value="おい、まっぽ助！,こっちはただ自分の養ってる,ウイルスと散歩しているだけだぜ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue2" Value="おや？どうやらこいつら,アンタとやりあいたいみたいだけど,どうする？やってみるかい？" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue3" Value="やってみろよ、こっちに来てさ！,実力の無さそうなのに,それが出来るのか？ぐへへへへ" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameAgentDialogue1" Value="そこのあんた！,飼ってるウイルスを野放しに,するのは危険過ぎます！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameAgentDialogue2" Value="そして警察を屈辱するなんて,ただでは済ませません！,････てかどうやって行くんだ！" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePinkNaviDialogue1" Value="コンベヤーベルトより,こっちの看板の方が,頼りになる気がするよ" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePinkNaviDialogue2" Value="道を間違ってあのコンベヤーで,グルグル回される羽目に,なったものだよ、全く！" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePurpleNaviDialogue1" Value="ここに何か用でもあるかい？,この前にも見に来たけど、,こういう場所ってあたしは好きよ" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePurpleNaviDialogue2" Value="このように長く使われてない,古い場所には特有の「雰囲気」,っていう物があってね" Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameOrangeNaviDialogue1" Value="この前、ここにいた,とある集団に通行料を,払わされたよ" Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameOrangeNaviDialogue2" Value="あいつらがいなくなった,ということはもう自由に,通って良いってことだな" Face="NaviOrangeMale" Mono="False" />
 </data>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　インゲレスエリア２ -->
+  <Text Key="Map.InglesNet2fName" Value="인터넷 잉겔레스 에리어 2" />
+  <!-- インゲレススクエアはこの先を道なりで！ -->
+  <Dialogue Key="Map.InglesNet2fGuidePlateStage1Dialogue1FaceNone" Value="잉겔레스 스퀘어로 가려면,이 길을 따라가세요!" Face="None" Mono="False" />
+  <!-- あのミステリーデータどうやったら取れるのかしら -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi1Stage1Dialogue1FaceNaviPinkFemale" Value="저 미스테리 데이터는,어떻게 해야,얻을 수 있는 거야?" Face="NaviPinkFemale" Mono="False" />
+  <!-- 見えてるのに取れないのってすごくもどかしいわ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi1Stage1Dialogue2FaceNaviPinkFemale" Value="볼 수는 있는데 얻지를 못 하니,이거 참 답답하네." Face="NaviPinkFemale" Mono="False" />
+  <!-- 時折この辺りではネットギャングが道を塞いだりしているんですよ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi2Stage1Dialogue1FaceNaviBlueRobot" Value="가끔 이 주변에서는,넷 갱단이 길을 막거나,하는 일이 있습니다." Face="NaviBlueRobot" Mono="False" />
+  <!-- インゲレスエリア３からウラインターネットに逃げられてしまうので厄介なんです -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi2Stage1Dialogue2FaceNaviBlueRobot" Value="잉겔레스 에리어 3에서,우라 인터넷으로 도망치니까,여러모로 성가시죠." Face="NaviBlueRobot" Mono="False" />
+  <!-- こっちはスクエアへの道じゃないよ -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi3Stage1Dialogue1FaceNaviChild" Value="여기는 스퀘어로,갈 수 있는 길이 아니야." Face="NaviChild" Mono="False" />
+  <!-- ここらへんは私達の遊び場なんだ〜 -->
+  <Dialogue Key="Map.InglesNet2fChapter6Navi3Stage1Dialogue2FaceNaviChild" Value="여기 주변은 우리들 놀이터야～" Face="NaviChild" Mono="False" />
+  <!-- おうネエチャンよお！ここは通行料を払えば安全に通れるぜ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue1FaceNaviPurpleHeel" Value="거기，지나가는 누님!,여기는 통행료를 내면,안전하게 지나갈 수 있다고!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- 通行料？そんなの聞いてないわよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue2FaceShanghai" Value="통행료?,그런 내용은 들은 적이 없는데." Face="Shanghai" Mono="False" />
+  <!-- おおっと妙なマネはやめとけ俺たちネットギャングが痛い目をみせちまうぜ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue3FaceNaviPurpleHeel" Value="얼씨구，우리 넷 갱단한테,험한 꼴 당하기 싫으면,쓸데없는 짓 하지 마." Face="NaviPurpleHeel" Mono="False" />
+  <!-- ネットギャング？なんて名前の？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue4FaceShanghai" Value="넷 갱단이라고?,이름이 뭔데?" Face="Shanghai" Mono="False" />
+  <!-- ハハハッ！聞いて驚け！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue5FaceNaviPurplePunk" Value="하하하!,듣고 놀라지나 마라!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 俺たちは！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue6FaceNaviPurplePunk" Value="우리는!" Face="NaviPurplePunk" Mono="False" />
+  <!-- 泣く子も黙るジャッカーズ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue7FaceNaviPurpleHeel" Value="우는 애들도,울음 그치게 만드는,잭커즈다!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ････知らない名前ね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue8FaceShanghai" Value="....그건 또 뭔 이름이야." Face="Shanghai" Mono="False" />
+  <!-- ってことは大したことのないチンケな集団ってことね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue9FaceShanghai" Value="내가 모르는 걸 보면,대단한 것도 아니고 어디,동네 애들 집단이나 되나 본데." Face="Shanghai" Mono="False" />
+  <!-- （また始まった････） -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue10FaceAlice" Value="(또 시작이다....)" Face="Alice" Mono="False" />
+  <!-- ああん！？喧嘩売ってるのか！？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue11FaceNaviPurpleHeel" Value="지금 뭐라 했냐!?,한 판 뜨자 이거야!?" Face="NaviPurpleHeel" Mono="False" />
+  <!-- 通行料を巻き上げるのなら相手を選ぶべきだったわね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue12FaceShanghai" Value="통행료를 삥 뜯을 거면,상대방을 보고 뜯든가." Face="Shanghai" Mono="False" />
+  <!-- ふざけやがって！野郎ども！やっちまえ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage1Dialogue13FaceNaviPurpleHeel" Value="이게 웃기고 앉았어!,야그들아!,해치워라!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- ギャングヘッド -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy1" Value="갱 두목" />
+  <!-- ジャッカーズ -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy2" Value="잭커즈" />
+  <!-- ジャッカーズ -->
+  <Text Key="Map.InglesNet2fGang1Battle1Enemy3" Value="잭커즈" />
+  <!-- つ　つええ････ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue1FaceNaviPurplePunk" Value="세，세잖아...." Face="NaviPurplePunk" Mono="False" />
+  <!-- ３人がかりだったのに････ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue2FaceNaviPurplePunk" Value="셋이서 덤벼들었는데...." Face="NaviPurplePunk" Mono="False" />
+  <!-- 実力の差がわかったかしら？ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue3FaceShanghai" Value="실력의 차이를 알겠냐?" Face="Shanghai" Mono="False" />
+  <!-- わかったらさっさと失せるかあたしとの遭遇料を払ってもらうわよ！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue4FaceShanghai" Value="알았으면 당장 꺼지던가,아니면 니들이 나한테,통행료를 내놔!" Face="Shanghai" Mono="False" />
+  <!-- なんてやつだ！覚えてろー！ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage3Dialogue5FaceNaviPurpleHeel" Value="뭐 이런 놈이 다 있어!,기억해 두라고!" Face="NaviPurpleHeel" Mono="False" />
+  <!-- インゲレスのゴロツキもたいしたことないわね -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue1FaceShanghai" Value="잉겔레스 건달들도,별 거 아니구만." Face="Shanghai" Mono="False" />
+  <!-- さあ　スクエアはもうすぐよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue2FaceShanghai" Value="자，좀만 더 가면 스퀘어야." Face="Shanghai" Mono="False" />
+  <!-- 流石にもうノーコメントよ -->
+  <Dialogue Key="Map.InglesNet2fGang1Stage5Dialogue3FaceAlice" Value="노 코멘트.,역시 뭐라 말을 못 하겠어." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue1" Value="야，짭새!,난 그냥 내가 키우는 바이러스들과,산책 나온 것 뿐이야!" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue2" Value="음? 아무래도 이 친구들이,댁이랑 붙어 보고 싶어하는 것,같은데 어쩔래? 한 판 붙어 볼겨?" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePunkDialogue3" Value="와서 한 번 떠 보든가!,실력도 없어 보이는데,할 수나 있겠어? 크헤헤헤헤" Face="NaviPurplePunk" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameAgentDialogue1" Value="이봐요! 키우고 있는 바이러스를,그렇게 풀어놓는 건,아주 위험한 행동이에요!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameAgentDialogue2" Value="거기다 경찰을 모욕하는 말까지....,그냥 가게 두진 않겠어요!,그 이전에 저기 어떻게 가!" Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePinkNaviDialogue1" Value="컨베이어 벨트보다는,이 간판이 더,유용하다고 생각해." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePinkNaviDialogue2" Value="길을 잘못 드는 바람에 저,컨베이어 벨트를 타고,빙빙 돌아야 했다니까! 어휴!" Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePurpleNaviDialogue1" Value="용건 때문에 여기 온 건 아니지?,이전에도 보러 와 본 곳인데，,난 이런 장소가 꽤나 마음에 들어." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgamePurpleNaviDialogue2" Value="이렇게 오랫동안 안 쓰인,오래된 장소에는 특유의,”분위기”가 있거든." Face="NaviPurpleFemale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameOrangeNaviDialogue1" Value="이전에 이 주변에 있었던,어느 집단한테 통행료를,뺏긴 적이 있어." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.InglesNet2fPostgameOrangeNaviDialogue2" Value="그 놈들이 더 이상 안 보인다는 건,이제 자유롭게 지나가도,된다는 뜻이려나." Face="NaviOrangeMale" Mono="False" />
+</data>

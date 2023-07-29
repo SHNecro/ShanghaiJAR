@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.LostShip2Name" Value="침몰한 배의 전뇌 2" />
+  <Dialogue Key="Map.LostShip2Door1GateStage1Dialogue1FaceNone" Value="문 겉면에 희미하게,”키 데이터를 제시해 주십시오”,라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue1FaceNone" Value="문 겉면에 희미하게,”키 데이터를 제시해 주십시오”,라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue2FaceNone" Value="상하이는,”오래된 키 데이터”를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue3FaceNone" Value="문이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door1GateStage3Dialogue4FaceNone" Value="하지만 오래된 키 데이터는,사용한 순간 너덜너덜하게,부스러져 버렸다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage1Dialogue1FaceNone" Value="문 겉면에 희미하게,”ID 데이터를 제시해 주십시오”,라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue1FaceNone" Value="문 겉면에 희미하게,”ID 데이터를 제시해 주십시오”,라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue2FaceNone" Value="상하이는,”오래된 ID 데이터”를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue3FaceNone" Value="문이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door2GateStage3Dialogue4FaceNone" Value="하지만 오래된 ID 데이터는,사용한 순간 너덜너덜하게,부스러져 버렸다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage1Dialogue1FaceNone" Value="문 겉면에 희미하게,”패스코드를 제시해 주십시오”,라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue1FaceNone" Value="문 겉면에 희미하게,”패스코드를 제시해 주십시오”,라고 써져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue2FaceNone" Value="상하이는,”오래된 패스코드”를 썼다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue3FaceNone" Value="문이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Door3GateStage3Dialogue4FaceNone" Value="하지만 오래된 패스코드는,사용한 순간 너덜너덜하게,부스러져 버렸다...." Face="None" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage1Dialogue1FaceSprite" Value="이 앞으로 나아가고 싶으신가요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage1Dialogue2FaceSprite" Value="이걸 쓰세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage1Dialogue3FaceSprite" Value="그걸 쓰면 문이 열려요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage3Dialogue1FaceSprite" Value="제가 말할 수 있는 건,이제 더 이상 없어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite1AStage5Dialogue1FaceSprite" Value="제가 말할 수 있는 건,이제 더 이상 없어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage1Dialogue1FaceSprite" Value="이 앞으로 나아가고 싶으신가요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage1Dialogue2FaceSprite" Value="이걸 쓰세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage1Dialogue3FaceSprite" Value="그걸 쓰면 문이 열려요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage3Dialogue1FaceSprite" Value="제가 말할 수 있는 건,이제 더 이상 없어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite2AStage5Dialogue1FaceSprite" Value="제가 말할 수 있는 건,이제 더 이상 없어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage1Dialogue1FaceSprite" Value="이 앞으로 나아가고 싶으신가요?" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage1Dialogue2FaceSprite" Value="이걸 쓰세요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage1Dialogue3FaceSprite" Value="그걸 쓰면 문이 열려요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage3Dialogue1FaceSprite" Value="제가 말할 수 있는 건,이제 더 이상 없어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2Sprite3AStage5Dialogue1FaceSprite" Value="제가 말할 수 있는 건,이제 더 이상 없어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)1Stage1Dialogue1FaceBrokenSprite" Value="정말로 실행하시겠습니까?,정말로.... 실행....?" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)2Stage1Dialogue1FaceBrokenSprite" Value="맛있어.... 맛있어...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)3Stage1Dialogue1FaceBrokenSprite" Value="바이러스 놈들.... 바이러스...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(near)4Stage1Dialogue1FaceBrokenSprite" Value="메이데이，메이데이，메이데이,메이데이，메...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)1Stage1Dialogue1FaceBrokenSprite" Value="부그르륵르르르...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)2Stage1Dialogue1FaceBrokenSprite" Value="미미미미미미미미이익!!" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)3Stage1Dialogue1FaceBrokenSprite" Value="침입자，침입자,침이비비빕...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2LostSprite(junction)4Stage1Dialogue1FaceBrokenSprite" Value="좀만 더 있으면.... 구조대원이...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)1Stage1Dialogue1FaceBrokenSprite" Value="문제의 원인을,지금 바로 처치하라." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)2Stage1Dialogue1FaceBrokenSprite" Value="빠삐 빠삐빠삐빠삐빠삐빠삐빠삐" Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)3Stage1Dialogue1FaceBrokenSprite" Value="시스템이 응답하지,않습니다，다，다...." Face="BrokenSprite" Mono="False" />
+  <Dialogue Key="Map.LostShip2HasureSprite(after)4Stage1Dialogue1FaceBrokenSprite" Value="기　　분　　이　　좋　　아" Face="BrokenSprite" Mono="False" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip2ApproachBattle1Enemy1" Value="이블스프라이트" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip2TangleBattle1Enemy1" Value="이블스프라이트" />
+  <!-- エビルスプライト -->
+  <Text Key="Map.LostShip2LastColumnBattle1Enemy1" Value="이블스프라이트" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue1FaceAlice" Value="저건 오토로이드?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue2FaceShanghai" Value="그런 것치고는....,상태가 이상한데?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue3FaceAutoroid" Value="그르르르...." Face="Autoroid" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue4FaceShanghai" Value="온다!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage1Dialogue5FaceAutoroid" Value="가아아악!" Face="Autoroid" Mono="False" />
+  <!-- ゾアノロイド -->
+  <Text Key="Map.LostShip2EventBattle1Enemy1" Value="조아노로이드" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue1FaceShanghai" Value="무지막지하게 센,오토로이드였어...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue2FaceAlice" Value="그건 그렇고 이 전뇌 세계에서는,대체 무슨 일이 일어난 걸까...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue3FaceAlice" Value="가라앉은 배에,망가진 스프라이트,거기다 방금 전의 오토로이드...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue4FaceShanghai" Value="생각해도 어쩔 수 없어." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage3Dialogue5FaceShanghai" Value="애초에 우리는,이 침몰한 배의 수수께끼를,풀러 온 것도 아니고." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LostShip2EventStage5Dialogue1FaceShanghai" Value="자，빨리 이 프로그램을,그 애한테 가져다 주자!" Face="Shanghai" Mono="False" />
+</data>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <!-- ■■回想3■■ -->
+  <Text Key="Map.Blackback3Name" Value="■■회상3■■" />
+  <!-- 俺は麻由美と････今のママと結婚する以前に別の女性と結婚していた -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue1FaceTroid" Value="난 마유미랑.... 그러니까,현재 네 엄마랑 결혼하기 이전에,다른 사람과 결혼했었어." Face="Troid" Mono="False" />
+  <!-- その女性と俺との間には一人娘がいた････ -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue2FaceTroid" Value="그이와 나 사이에는,딸이 하나 있었지...." Face="Troid" Mono="False" />
+  <!-- 名をレベッカ･マーガ元気で活発な女の子だった -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue3FaceTroid" Value="이름은 레베카 마가.,건강하고 활발한 여자애였지." Face="Troid" Mono="False" />
+  <!-- 俺は妻とレベッカと共に世界を飛び回り冒険稼業に明け暮れていた -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue4FaceTroid" Value="난 그이와 레베카와 함께,모험을 직업 삼아,세계를 여행하며 다녔어." Face="Troid" Mono="False" />
+  <!-- だが　あの日次の目的地へと向かう途中････ -->
+  <Dialogue Key="Map.Blackback3EventStage1Dialogue5FaceTroid" Value="하지만 어느 날,다음 목적지로 향하던 도중에...." Face="Troid" Mono="False" />
+  <!-- 落石事故に巻き込まれ俺は妻と娘を一度に喪ってしまった -->
+  <Dialogue Key="Map.Blackback3EventStage3Dialogue1FaceTroid" Value="우린 낙석 사고에 휘말렸고,난 순식간에 아내랑,내 딸을 잃어버렸어." Face="Troid" Mono="False" />
+  <!-- 俺は　一度に家族を喪ったショックで････ -->
+  <Dialogue Key="Map.Blackback3EventStage5Dialogue1FaceTroid" Value="난 가족을 잃어버린,그 한 순간의 충격 때문에...." Face="Troid" Mono="False" />
+  <!-- あてもなく世界をさまよう生活を始めた -->
+  <Dialogue Key="Map.Blackback3EventStage5Dialogue2FaceTroid" Value="정처 없이 세계를 떠도는,생활을 시작하게 되었고." Face="Troid" Mono="False" />
+  <!-- 当時　大学生だった麻由美と出会ったのはそんな時だった -->
+  <Dialogue Key="Map.Blackback3EventStage7Dialogue1FaceTroid" Value="당시에 대학생이었던,마유미랑 만났던 것도,그 때였지." Face="Troid" Mono="False" />
+  <!-- 俺は彼女と惹かれ合い後に結婚し　そしてアリス　お前が生まれた -->
+  <Dialogue Key="Map.Blackback3EventStage7Dialogue2FaceTroid" Value="난 그녀에게 이끌렸고,후에 결혼했어. 그리고 우리,사이에서 앨리스，네가 태어났지." Face="Troid" Mono="False" />
+  <!-- しかし････ -->
+  <Dialogue Key="Map.Blackback3EventStage7Dialogue3FaceTroid" Value="그렇지만...." Face="Troid" Mono="False" />
+  <!-- 俺は麻由美と結婚したあとも喪った家族のことを忘れられないでいた -->
+  <Dialogue Key="Map.Blackback3EventStage9Dialogue1FaceTroid" Value="마유미랑 결혼하고 난 뒤에도,난 과거에 잃어버렸던 가족을,도저히 잊을 수가 없었어." Face="Troid" Mono="False" />
+  <!-- そんなある時　俺は冒険の中で訪れた廃墟で古びた端末を見つけた -->
+  <Dialogue Key="Map.Blackback3EventStage9Dialogue2FaceTroid" Value="그러던 어느 날，,난 모험을 하던 도중에 어떤,폐허에서 낡은 단말을 발견했어." Face="Troid" Mono="False" />
+  <!-- その端末の中には瀕死の状態の電子生命体が入っていた -->
+  <Dialogue Key="Map.Blackback3EventStage9Dialogue3FaceTroid" Value="그 단말 안에는 빈사 상태의,전자 생명체가 들어 있었지." Face="Troid" Mono="False" />
+  <!-- 電子生命体････？ -->
+  <Dialogue Key="Map.Blackback3EventStage11Dialogue1FaceAlice" Value="전자 생명체....?" Face="Alice" Mono="False" />
+  <!-- 電脳空間に存在する生命体のことだよ -->
+  <Dialogue Key="Map.Blackback3EventStage11Dialogue2FaceDrMorichika" Value="전뇌 공간에 존재하는,생명체야." Face="DrMorichika" Mono="False" />
+  <!-- その電子生命体はビヨンダードから流れ着いたひとりの女の子だった -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue1FaceTroid" Value="그 전자 생명체는,비욘다드에서 흘러들어온,한 명의 여자애였단다." Face="Troid" Mono="False" />
+  <!-- 俺は知り合いの研究者にその子の治療を依頼したんだが････ -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue2FaceTroid" Value="난 지인이었던 연구원에게,그 애를 치료해달라고,부탁했는데...." Face="Troid" Mono="False" />
+  <!-- 植物状態に近い彼女の蘇生には　欠落した身体データを補うために････ -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue3FaceTroid" Value="그 애는 식물인간 상태에 가까웠고,그 애를 되살리기 위해서는,부족한 신체 데이터를 보충할...." Face="Troid" Mono="False" />
+  <!-- 人間のＤＮＡとその記憶データを移植する必要があった -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue4FaceTroid" Value="인간의 DNA와 그 기억,데이터를 이식해야 했어." Face="Troid" Mono="False" />
+  <!-- そこで俺は････喪った娘　レベッカのDNAと記憶データを提供した -->
+  <Dialogue Key="Map.Blackback3EventStage13Dialogue5FaceTroid" Value="거기서 난....,죽은 딸 레베카의 DNA와,기억 데이터를 제공했어." Face="Troid" Mono="False" />
+  <!-- そうして　電子生命体にレベッカの情報を加えて誕生したのが････ -->
+  <Dialogue Key="Map.Blackback3EventStage15Dialogue1FaceTroid" Value="그렇게 그 전자 생명체에,레베카의 정보를 더해서,탄생한 게...." Face="Troid" Mono="False" />
+  <!-- シャンハイ．ＥＸＥというネットナビなんだ -->
+  <Dialogue Key="Map.Blackback3EventStage15Dialogue2FaceTroid" Value="상하이.EXE라는 넷 내비야." Face="Troid" Mono="False" />
+</data>

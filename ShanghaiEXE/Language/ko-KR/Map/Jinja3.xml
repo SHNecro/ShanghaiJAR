@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.Jinja3Name" Value="신사의 전뇌 3" />
+  <Dialogue Key="Map.Jinja3WithdrawStage1Dialogue1FaceShanghai" Value="으윽...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3WithdrawStage1Dialogue2FaceAlice" Value="체력 상태가 한계에 다다랐어....,일단 지금은 플러그아웃하자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue1FaceSprite" Value="저는 홈페이지의,벽지를 판매하는,스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue2FaceSprite" Value="당신의 홈페이지의,벽지를 이 에리어의 벽지와,같은 걸로 바꿔 드립니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue3FaceSprite" Value="벽지 교체 비용은,1000 제니입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue4QuestionFaceSprite" Value="벽지를 바꾸시겠습니까?" Face="Sprite" Mono="False" />
+  <Text Key="Map.Jinja3WallpaperSpriteStage1Dialogue4Options" Value="예,아니오" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue5FaceSprite" Value="죄송합니다만,소지금이 부족합니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue6FaceSprite" Value="구매해 주셔서,감사합니다～!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3WallpaperSpriteStage1Dialogue7FaceSprite" Value="또 이용해 주세요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue1FaceNone" Value="상하이는 문에,음의 열쇠와 양의 열쇠를,끼워넣었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage1Dialogue2FaceNone" Value="문이 아래로 내려가면서,길이 열렸다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3GateStage3Dialogue1FaceNone" Value="문이 잠겨 있어서 꿈쩍도 안 한다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue1FacePyroMan" Value="후르르르르르르...." Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue2FacePyroMan" Value="늙어빠진 게 쓸데없이,나대니까 이러지! 화르르...." Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue3FacePyroMan" Value="후르르?" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue4FaceShanghai" Value="뜨거워 죽겠는 녀석이네!,이 불 니가 지른 거지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue5FacePyroManOpMokou" Value="너 이 망할....!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue6FacePyroManOpMokou" Value="파이로맨!,이 여자 내비가 그토록 찾던,그 금발 꼬맹이의 내비다!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue7FaceAlice" Value="그 목소리는....,그 때 그 폭력배 대장!?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue8FaceAlice" Value="이 화재는,네가 저지른 거였구나!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue9FacePyroManOpMokou" Value="너랑 사이 좋은 그 꼬맹이의 신사에,불만 붙여 놓으면 와 줄 거라,예상했는데...." Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue10FacePyroManOpMokou" Value="예상 수준이 아니라,대박이 터졌구만!,하하하하하하!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue11FaceShanghai" Value="너 임마....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue12FaceShanghai" Value="우릴 직접 노리는 게 아니라,어린애를 미끼 삼아,우릴 끌어들여?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue13FaceShanghai" Value="불 같은 걸 질러 놓고,뭐? ”대박”!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue14FaceShanghai" Value="자기가 지금 뭘 하고 있는지,이해를 못 하냐...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue15FaceShanghai" Value="멍청이 아냐!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue16FacePyroManOpMokou" Value="파이로맨!,네 부하들의 원한을 풀어 줄,두 번 다시 없을 기회다!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue17FacePyroMan" Value="화르르르르르르....!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue18FacePyroMan" Value="방해하는 놈들은 불태운다!,바이너리의 조각도 안 남을 정도로,통구이로 만들어 주마! 화르르르!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue19FaceShanghai" Value="말 자알 했다....!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue20FaceShanghai" Value="니놈의 그 하찮은 불꽃 따위,그 썩어빠진 근성과 함께,싸잡아서 날려 버리겠어!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue21FaceAlice" Value="상하이! 가자!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue22FaceAlice" Value="배틀 오퍼레이션，,셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue23FaceShanghai" Value="인!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage1Dialogue24FacePyroMan" Value="화르르륵!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage3Dialogue1FacePyroMan" Value="가하악....!?" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage3Dialogue2FacePyroMan" Value="이 내가 딜리트되어 버리면,복수고 뭐고,못 하는 거잖아～!!!" Face="PyroMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage5Dialogue1FacePyroManOpMokou" Value="쳇!,못 써먹을 내비구만!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage5Dialogue2FacePyroManOpMokou" Value="잘 있어라，이 쓰레기들아....,이번 걸로 끝났다고,생각하지 마라고!" Face="PyroManOpMokou" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue1FaceShanghai" Value="할아버지....,쓸데없는 짓을...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue2FaceTortoiseMan" Value="쿨럭，쿨럭...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue3FaceTortoiseMan" Value="난 아직 안 죽었어야....,멋대로 딜리트하지,않아 줬으면 하는구먼...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue4FaceShanghai" Value="어 뭐야，살아 계셨잖아.,진짜 터프하신 할아버지였네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue5FaceTortoiseMan" Value="으으으....,이 새전은 무사한 모양이구만...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue6FaceShanghai" Value="할아버지....,그렇게까지 이 새전을 지키려고....?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue7FaceTortoiseMan" Value="이 새전은....,레이무 님이 무녀가 되고 나서,한 번도 쓰인 적이 없네." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue8FaceTortoiseMan" Value="이건 신사의 재산 그 이상이야....,어린 레이무 님께서,고생하신 결과물 그 자체야." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue9FaceTortoiseMan" Value="그렇기에....,저런 무뢰배 따위에게,넘겨줄 수는.... 으윽...." Face="TortoiseMan" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue10FaceReimu" Value="고마워....,토터스맨...." Face="Reimu" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue11FaceShanghai" Value="자，앨리스!,빨리 텐시를 병원으로 데려가야지!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Jinja3BossEventStage7Dialogue12FaceAlice" Value="그래!,어....!" Face="Alice" Mono="False" />
+</data>

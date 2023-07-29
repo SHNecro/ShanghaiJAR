@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Dialogue Key="Messages.EienBoard1Dialogue1None" Value="네～안녕하세요.,영원 스퀘어의 명물인,이득 정보 게시판입니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard1Dialogue2None" Value="일상생활에서 넷배틀까지,도움 되는 정보를 가지고,계신다면 모두 공유합시다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard1Dialogue3None" Value="참고로 저는 관리인인,우사제입니다.,잘 부탁드려우사～" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard1Dialogue4None" Value="....는 그냥 개그." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue1None" Value="처음 뵙겠습니다. 토와입니다.,명물이라 한 것 치곤 이 게시판,이제 막 만들어지지 않았나욬ㅋㅋ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue2None" Value="일단 글을 쓰긴 썼으니까,뭔가 좋은 정보를,알려 줘야겠네요...." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue3None" Value="어디 보자，,이 스퀘어의 서브칩 매장은,아바스트를 50z 더 싸게 팔아요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard2Dialogue4None" Value="....이건 좀 미묘하네욬ㅋㅋ,좀 더 좋은 정보를,찾아서 올게요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard3Dialogue1None" Value="안녕하세요～된장게장입니다～,그러면 좋은 정보를,하나 알려줄게요～" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard3Dialogue2None" Value="멜팅로우 같은 걸로 인해,멜트 상태에 걸리면,공격력이 반감됩니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard3Dialogue3None" Value="최근에 아는 친구한테,이거에 당해 진 적 있어요.,뼈아프네 ('､3＿ヽ)＿" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard3Dialogue4None" Value="공격을 피하기 어려운,상대방에게 잘 써 보면,유리해질 거라 봐요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue1None" Value="된장게장 씨，대단한데요.,이런 정보도 좋은데요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue2None" Value="그렇다면 저도,이야기할 수 있는 게 있어요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue3None" Value="그래비티볼 같은 것 때문에,헤비 상태이상에 걸리면,이동할 때마다 패널에 금이 가죠." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue4None" Value="사실 거기서 끝이 아니라,헤비 상태에서,모래 패널을 밟게 되면...." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue5None" Value="모래에 발이 묶여서,아예 움직일 수 없게 되요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard4Dialogue6None" Value="아마 이거는 다들,몰랐을 거라 생각해요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue1None" Value="안녕하심까,저 시노노라고 함다,잘 부탁드림요" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue2None" Value="도움 되는 정보라....,그러면 기밀 정보를,하나 알려드림" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue3None" Value="전뇌 세계에는,극도로 보이지 않는,바닥이 있어요" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard5Dialogue4None" Value="시티 에리어 2에도 있으니까,신경 쓰이면 한 번 찾아 보셈!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue1None" Value="보이지 않는 길이면 그거 말이군요.,버그인 줄 알았는데." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue2None" Value="시티 에리어 주변에,분명히 잠겨 있는,미스터리 데이터가 있었죠." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue3None" Value="이미 누가 회수해 갔을까요?,아마 좋은 게 들어 있을,거라 생각하는데." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue4None" Value="미스터리 데이터라 하면,녹색 미스터리 데이터는,플러그인할 때마다 재생돼요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard6Dialogue5None" Value="....뭐 이건 그냥 상식이고.,우사우사" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue1None" Value="이득 정보 하나 발견해서,메모할 겸 답글 적습니다!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue2None" Value="상태이상 보면,멜트에 슬립，블라인드 등,여러가지 있잖아요?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue3None" Value="그 상태이상이라는 게 사실,같은 속성의 내비 상대로는,안 통한다는 거에요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard7Dialogue4None" Value="예를 들면 움직일 때마다,바닥에 금이 가는 헤비 상태는,땅 속성한테는 무효화돼요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue1None" Value="처음 뵙겠습니다. 페페론입니다.,저도 알고 있는 정보를,좀 써내려갈까 싶네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue2None" Value="현재 속성은,불，물，풀，전기，독，땅,총 6종류가 있죠?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue3None" Value="각 속성마다 2개씩,약점이 있습니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue4None" Value="불의 약점은 물과 땅,물의 약점은 전기와 독,풀의 약점은 불과 독" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue5None" Value="전기의 약점은 풀과 땅,독의 약점은 불과 전기,땅의 약점은 물과 풀" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard8Dialogue6None" Value="이런 느낌입니다.,기억하기 힘들지만 알아 두면,유리하게 싸울 수 있을 거에요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue1None" Value="우효～다들 아는 게 많네욤～,그러면 저도 속성에 대해,좀 더 정보를 써 보겠슴다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue2None" Value="토와 씨께서 상태이상은,같은 속성한테는 무효화된다는,이야기를 했었죠." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue3None" Value="그거랑 똑같이 특수 패널에도,속성이 있어서 같은 속성이면,무효화할 수 있어요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard9Dialogue4None" Value="물 속성은 얼음에서 미끄러지지,않고，풀 속성은 풀 패널에서,회복할 수 있다던가." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard10Dialogue1None" Value="요전에 알아낸 정보에요!,커스텀 화면에서 L 버튼으로,배틀에서 도망칠 수 있잖아요?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard10Dialogue2None" Value="도망칠 수 있는지 여부는,여러분의 최대 HP와 상대방의,HP 합계랑 관련 있다나봐요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard10Dialogue3None" Value="상대방의 HP 총합이 여러분의,최대 HP보다 낮으면 100% 확률로,도망칠 수 있는 것 같아요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard10Dialogue4None" Value="서두르는 와중에 바이러스랑,마주쳤다면 HP 총합을 주의해서,보시면 좋을 수도 있겠네요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard11Dialogue1None" Value="호호오，,도망칠 수 있는지의 여부는,계산만 하면 알 수 있군요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard11Dialogue2None" Value="도망치는 것 관련해서 말인데,도망치기 실패했을 때에 대한,정보를 제가 알고 있어요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard11Dialogue3None" Value="도망치는 걸 실패하면,다음 커스텀 화면에서 도망갈,확률이 올라가는 것 같아요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard11Dialogue4None" Value="아무래도 3번째라면 반드시,도망갈 수 있는 것 같네요.,알아 두면 손해 볼 건 없을 듯." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard12Dialogue1None" Value="된장게장입니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard12Dialogue2None" Value="원하는 칩을 얻을 때,필요한 게 버스팅 레벨이잖아요?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard12Dialogue3None" Value="전 이전까지 버스팅 레벨이,대미지를 입을 때마다,내려가는 거라 생각했는데요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard12Dialogue4None" Value="대미지를 받는 것보다도,대미지를 입고 경직되는 게,내려가는 원인 같습니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard12Dialogue5None" Value="그러니까 어떤 방법으로든,경직되지 않는 상태가 되면,대미지를 입어도 괜찮겠어요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard13Dialogue1None" Value="버스팅 레벨 소재라면,저도 조금 알고 있어요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard13Dialogue2None" Value="전투 중에 카운터를 치면,버스팅 레벨이,올라가는 것 같아요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard13Dialogue3None" Value="동시 딜리트나 빨리 쓰러뜨리기,같은 기본적인 방법이 어렵다면,카운터를 노리시는 것도 좋겠네요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard14Dialogue1None" Value="칩 중에는 숨은 효과가,있는 것도 존재한다던가 하죠." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard14Dialogue2None" Value="그 중에 제가 찾은 건" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard14Dialogue3None" Value="버스터 풀차지 상태에서,차지 캐논을 쐈을 때,발동되는 거려나요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard14Dialogue4None" Value="위력은 반감되지만,방사형 공격이 되니까,바이러스 퇴치하기 편해져요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard15Dialogue1None" Value="숨은 효과로군요.,수수한 효과라면 팔괘로 계열의,가드 효과 정도겠군요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard15Dialogue2None" Value="발사할 때 잠깐 동안,팔괘로를 전방으로 향하는데,그 때 가드 상태가 됩니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard15Dialogue3None" Value="적절하게 적의 공격을 받아치면서,카운터를 날릴 수 있다면,참 멋있겠는데 말이죠!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard16Dialogue1None" Value="칩 설명문에 명기되어 있지,않은 거라면 아마,그라운드웨이브겠슴다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard16Dialogue2None" Value="털구슬3이 주는 그거 말임다.,웨이브가 지나간 자리는,모래 패널이 되어요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard16Dialogue3None" Value="전 그 뒤에 스톰을 써서,더 큰 피해를 주는 전략을 써요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard17Dialogue1None" Value="독 상태나 독 패널 위에,있을 때 HP가 감소하는 것,이상으로 위험한 게 있네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard17Dialogue2None" Value="바로 리페어 같은 회복 기능이,역으로 피해를 준다는 검다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard17Dialogue3None" Value="리페어를 쓸 때에는,발밑 조심해야겠네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard18Dialogue1None" Value="그건 몰랐는데.,그래도 좋은 걸 들었네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard18Dialogue2None" Value="리페어를 잔뜩 챙긴 상대방이나,자동회복하는 바이러스를 상대할,때에는 독으로 공격하면 되겠네." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard18Dialogue3None" Value="베놈샷은 직격하면 꽤 긴 시간,동안 독 상태가 되니까,나름대로 쓸만하겠는데요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard19Dialogue1None" Value="역으로 회복을 주로 할 거라면,내비를 독 속성으로 만드는 것도,방법이겠군요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard19Dialogue2None" Value="제가 발견한 게 뭐였나면,불 속성 내비나 바이러스가,네이팜 불을 끌 수 있다는 것." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard19Dialogue3None" Value="그 불꽃에 닿으면 50의 피해를 입지만,불 속성으로 닿으면 아무,피해 없이 없앨 수가 있어요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard20Dialogue1None" Value="이런 저런 칩들을 모으면서,알게 된 건데요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard20Dialogue2None" Value="1，2，3 같이 버전이 있는,칩들 중에 애스터리스크가,있는 건 대부분 1 버전 뿐이에요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard20Dialogue3None" Value="그렇게 생각하면 위력이나,성능은 낮다 해도 버전 1의,쓰임새가 생기겠네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard21Dialogue1None" Value="어딘가에서 본 정보인데,버전 2의 칩에는 버전 3에는,없는 존재 가치가 있어요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard21Dialogue2None" Value="바로 프로그램 어드밴스의,재료로 쓰인다는 겁니다!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard21Dialogue3None" Value="프로그램 어드밴스의,조합을 알고 싶다면,버전 2를 쓰면 되겠어요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard22Dialogue1None" Value="호오～버전 1，2에,그런 존재 가치가 있었군요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard22Dialogue2None" Value="그러면 버전 3에도 뭔가,숨겨진 공통점 같은 게,있을까요?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard23Dialogue1None" Value="아니오，버전 3은 성능이 제일,좋은 것 정도밖에 공통점이,없어욬ㅋㅋ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard23Dialogue2None" Value="그러고 보면 소문으로 들었는데,버전 3을 뛰어넘는 위력의,버전이 있다고 하던데요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard23Dialogue3None" Value="그렇지만 아무리 칩 트레이더를,돌려도 그럴싸한 칩이,나오지를 않는단 말이죠." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard24Dialogue1None" Value="숨겨진 버전이라면 혹시,크림슨PGM으로 얻을 수 있는,그거 말하는 거 말임까?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard24Dialogue2None" Value="엄청 희귀한 애드온이니까,가지고 있는 사람이,드물 거라 생각하는데" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard24Dialogue3None" Value="레어도가 높은 칩을 떨어뜨리는,상대방을 버스팅 레벨 S로 이기면,매우 드물게 얻을 수 있슴다" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard25Dialogue1None" Value="그런 애드온이 있었다니....,가지고 있지를 않으니까,도전 자체를 못 하겠네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard25Dialogue2None" Value="레어도가 높은 칩이라면,내비 칩 정도가 있겠네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard25Dialogue3None" Value="언젠가 얻게 될 지도 모르니까,내비를 레벨 S로 쓰러뜨리는,연습이라도 해 놓을까?" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard26Dialogue1None" Value="그런 칩이 있다면,데이터 리스트의 컴플리트를,할 수가 없게 되잖아요～!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard26Dialogue2None" Value="좀만 더 있었으면,컴플리트였는데....ㅠㅠ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard27Dialogue1None" Value="페페론 씨，행운인지 불운인지는,모르겠지만 숨은 버전의 칩은,데이터 리스트에 등록되지 않아요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard27Dialogue2None" Value="돌연변이 같은 걸로 태어난,칩이니까려나요? 그러니까,컴플리트에는 필요 없답니다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard28Dialogue1None" Value="와，다행이다!,그래도 그런 말을 들으니까,뭔가 참 이상한 존재네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard28Dialogue2None" Value="아는 사람들한테 수소문해 보면서,크림슨PGM인가 뭔가를,찾아봐야겠어요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard29Dialogue1None" Value="최근에 친구 홈페이지에,가 봤는데" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard29Dialogue2None" Value="그 친구 홈페이지에,전뇌 칩 트레이더가,있는 거에요!!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard29Dialogue3None" Value="인테리어로 놓여진 거니까,어딘가에서 팔고 있겠거니 싶지만,그래도 부럽네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard30Dialogue1None" Value="인테리어 중에는 장식용이 아니라,실용적인 것도 몇 개 있긴 하죠." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard30Dialogue2None" Value="침대 같은 건 놔 두면,내비의 HP를 회복할 수,있다던지." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard30Dialogue3None" Value="플러그아웃하면 된다던가,그런 건 논외로 칩시닼ㅋㅋ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard31Dialogue1None" Value="인테리어로 설치하는 트레이더라～,그거 참 얻고 싶네요ㅎㅎ" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard31Dialogue2None" Value="자금난으로 없어졌다는 것 같은데,트레이더를 취급하는 인테리어 샵이,잉겔레스에 있었다던가." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard31Dialogue3None" Value="부자들이라면 분명,투자했겠네요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard32Dialogue1None" Value="그 가게 없어졌군요.,트레이더 사 둬서 다행이다." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard32Dialogue2None" Value="개인적으로는 칩이 아니라,버그 조각을 투입해야 하는,트레이더를 더 좋아하는데요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard32Dialogue3None" Value="이외에도 프리즈나 에러의,트레이더가 있다는 것 같은데" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard32Dialogue4None" Value="각각의 조각에 대응하는 속성의,레어칩이 나오니까,폴더 짜기 편리해요." Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard33Dialogue1None" Value="와～좋겠다～～～,혹시 재판매할 지도 모르니까,돈을 모아 놔야겠네요!" Face="None" Mono="False" />
+  <Dialogue Key="Messages.EienBoard33Dialogue2None" Value="근데 찾아 보니까 100만,제니라고 써져 있는데...." Face="None" Mono="False" />
+</data>

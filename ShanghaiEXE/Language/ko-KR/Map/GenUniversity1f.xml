@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 幻想大学１Ｆ -->
+  <Text Key="Map.GenUniversity1fName" Value="환상대학교 1층" />
+  <!-- 幻想大学へいらっしゃい -->
+  <Dialogue Key="Map.GenUniversity1fChapter2ReceptionistSisterStage1Dialogue1FaceFemaleAdult" Value="어서 와. 여긴 환상대학교야." Face="FemaleAdult" Mono="False" />
+  <!-- 他の人の迷惑になるから中で大声を出したりしたらダメだからね -->
+  <Dialogue Key="Map.GenUniversity1fChapter2ReceptionistSisterStage1Dialogue2FaceFemaleAdult" Value="다른 사람들에게 폐가 되지 않게,안에서 큰 소리를 내거나,하면 안 된단다." Face="FemaleAdult" Mono="False" />
+  <!-- 幻想大学へいらっしゃい -->
+  <Dialogue Key="Map.GenUniversity1fChapter2ReceptionistSisterStage3Dialogue1FaceFemaleAdult" Value="어서 와. 여긴 환상대학교야." Face="FemaleAdult" Mono="False" />
+  <!-- 他の人の迷惑になるから中で大声を出したりしたらダメだからね -->
+  <Dialogue Key="Map.GenUniversity1fChapter2ReceptionistSisterStage3Dialogue2FaceFemaleAdult" Value="다른 사람들에게 폐가 되지 않게,안에서 큰 소리를 내거나,하면 안 된단다." Face="FemaleAdult" Mono="False" />
+  <!-- もう少ししたら課題を進めないと････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2OlderSisterStage1Dialogue1FaceFemaleAdult" Value="좀 더 있다가 과제 해야지...." Face="FemaleAdult" Mono="False" />
+  <!-- ネット犯罪に対してセキュリティを強化しているけどどうも安心できないんだ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2OlderBrotherStage1Dialogue1FaceMaleAdult" Value="인터넷 범죄에 대항하여,보안을 강화하고는 있지만,도저히 안심이 안 되네." Face="MaleAdult" Mono="False" />
+  <!-- セキュリティの穴なんてどこにあるかわからないからね -->
+  <Dialogue Key="Map.GenUniversity1fChapter2OlderBrotherStage1Dialogue2FaceMaleAdult" Value="보안의 허점이란 게,어디 있는지 모르니까." Face="MaleAdult" Mono="False" />
+  <!-- 父さんの研究室はエレベーターで２階に上がったところだよ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari1Stage1Dialogue1FaceMari" Value="아빠의 연구소는,엘리베이터로 2층에,올라가면 근처에 있어." Face="Mari" Mono="False" />
+  <!-- 幻想大学ってとっても素敵なところなのです！里香も通いたいのです！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Rika1Stage1Dialogue1FaceRika" Value="환상 대학교는 정말,멋진 곳인 거에요!,리카도 다니고 싶은 거에요!" Face="Rika" Mono="False" />
+  <!-- 初めて大学へ来てはしゃぐなんてお子様ね -->
+  <Dialogue Key="Map.GenUniversity1fChapter2RemiliaStage1Dialogue1FaceRemilia" Value="대학교에 처음 와서 하는 게,떠드는 거라니 아직 애들이네." Face="Remilia" Mono="False" />
+  <!-- ダメだ　１階にはいないみたいだ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage1Dialogue1FaceMari" Value="안 되겠어.,1층에는 없는 것 같아." Face="Mari" Mono="False" />
+  <!-- まだそこまで遠くには行ってないと思うけど････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage1Dialogue2FaceAlice" Value="아직 그렇게 멀리까지는,안 갔을 거라 생각하는데...." Face="Alice" Mono="False" />
+  <!-- 間もなく　閉館時間となります -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage3Dialogue1FaceNone" Value="곧 있으면 폐관 시간입니다." Face="None" Mono="False" />
+  <!-- 大変恐れ入りますがお客様と学生の皆さんはお急ぎくださいますようお願いいたします -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage3Dialogue2FaceNone" Value="불편을 드려서 죄송합니다만,손님과 학생 여러분께서는,서둘러 퇴실해 주시기 바랍니다." Face="None" Mono="False" />
+  <!-- あれ？こんな早い時間にもう閉館するのか？ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage3Dialogue3FaceTankMan" Value="어 뭐야?,이렇게 빨리 폐관한다고?" Face="TankMan" Mono="False" />
+  <!-- 里香たちも出なくちゃいけないのです････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage3Dialogue4FaceRika" Value="우리도 빨리 나가야만,하는 거에요...." Face="Rika" Mono="False" />
+  <!-- あれ？父さんからメールだ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue1FaceMari" Value="어라?,아빠한테서 E-메일이 왔네." Face="Mari" Mono="False" />
+  <!-- 開くぜえーっと････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue2FaceMarisa" Value="열어 볼게.,어디 보자...." Face="Marisa" Mono="False" />
+  <!-- 言い忘れててすまない今日は大学の省エネ実施で普段より早めに閉館するんだ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue3FaceDrMorichika" Value="미안，이걸 말하는 걸 잊어버렸네.,오늘은 대학교가 에너지 절약을,실시하는 날이라 빨리 닫아." Face="DrMorichika" Mono="True" />
+  <!-- レミリアさんは僕が探しておくから魔理たちは閉館になる前に先に帰りなさい -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue4FaceDrMorichika" Value="레밀리아는 내가 찾아 볼게.,너희들은 폐관되기 전에,먼저 돌아가렴." Face="DrMorichika" Mono="True" />
+  <!-- レミリアさんには僕から言っておくから -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue5FaceDrMorichika" Value="레밀리아한테는 내가,직접 말해 줄게." Face="DrMorichika" Mono="True" />
+  <!-- ････だって -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue6FaceMarisa" Value="....그렇다는데." Face="Marisa" Mono="False" />
+  <!-- 無理に探し続けるのも考えものね -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue7FaceShanghai" Value="무리해서 계속 찾아보는 것도,좀 생각해 봐야 할 일이네." Face="Shanghai" Mono="False" />
+  <!-- うーん　仕方ないのかな -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue8FaceAlice" Value="으음.... 어쩔 수 없나." Face="Alice" Mono="False" />
+  <!-- レミリアさんもきっと閉館の放送を聞いているのです！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue9FaceRika" Value="레밀리아 씨도 분명,폐관 방송을 들었을 거에요!" Face="Rika" Mono="False" />
+  <!-- きっとそのうち出てきて帰ってくれるのです！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue10FaceRika" Value="분명 머지않아 나와서,돌아갈 거에요!" Face="Rika" Mono="False" />
+  <!-- ････それもそうか仕方ない　帰ろう -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage5Dialogue11FaceMari" Value="....그것도 그렇겠네.,어쩔 수 없지. 돌아가자." Face="Mari" Mono="False" />
+  <!-- ゲホッ････！な　なにこの空気！？ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue1FaceAlice" Value="콜록....!,뭐，뭐야 이 공기는!?" Face="Alice" Mono="False" />
+  <!-- ま　まさか毒ガスか！？ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue2FaceMari" Value="서，설마 독가스냐!?" Face="Mari" Mono="False" />
+  <!-- いや　どうやらものすごく汚い空気が充満しているだけみたいだ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue3FaceMarisa" Value="아니，아무래도 엄청나게 더러운,공기로 가득찬 것 뿐인 것 같아." Face="Marisa" Mono="False" />
+  <!-- だとしても長時間吸ってたら気分が悪くなるわよこれ････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue4FaceAlice" Value="그렇다고 해도 너무 오랫동안,이런 공기를 들이키다가는,기분 나빠지겠는데，이거...." Face="Alice" Mono="False" />
+  <!-- 早く父さんを見つけなきゃ！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue5FaceMari" Value="빨리 아빠를 찾아야 해!" Face="Mari" Mono="False" />
+  <!-- ゲホゲホ････！私はエレベーターの電源をどうにかする！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue6FaceMari" Value="콜록콜록....!,나는 엘리베이터의,전원을 어떻게든 켜 볼게!" Face="Mari" Mono="False" />
+  <!-- アリスはこの汚い空気をどうにかしてくれ！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue7FaceMari" Value="앨리스는 이 더러운 공기를,어떻게든 좀 해 줘!" Face="Mari" Mono="False" />
+  <!-- わ　分かったわ！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage7Dialogue8FaceAlice" Value="아，알겠어!" Face="Alice" Mono="False" />
+  <!-- とは言っても････ゲホッ汚い空気なんてどこから吹き出してるの？ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage9Dialogue1FaceAlice" Value="말은 그렇게 해도.... 콜록!,이 더러운 공기는 어디서,뿜어져 나오는 거야?" Face="Alice" Mono="False" />
+  <!-- 探すのよ　アリス！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari2Stage9Dialogue2FaceShanghai" Value="찾아보자，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- スカーレットさん見つからないのです････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Rika2Stage1Dialogue1FaceRika" Value="레밀리아 씨가,안 보이는 거에요...." Face="Rika" Mono="False" />
+  <!-- くそっ！手強いな････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari3Stage1Dialogue1FaceMari" Value="이런 제길!,상대하기 벅찬데...." Face="Mari" Mono="False" />
+  <!-- 父さんの研究室へ急ぐぞ！多分父さんはそこに････！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter2Mari3Stage3Dialogue1FaceMari" Value="빨리 아빠 연구소로 가자!,아마 아빠는 거기 계실 거야....!" Face="Mari" Mono="False" />
+  <!-- コーヒーが飲めないから炭酸のジュースを飲もうかしら -->
+  <Dialogue Key="Map.GenUniversity1fChapter3OlderSisterStage1Dialogue1FaceFemaleAdult" Value="커피는 못 마시니까,탄산 주스를 마실까?" Face="FemaleAdult" Mono="False" />
+  <!-- 結局ＲＯＭは空気清浄機にイタズラを仕掛けていっただけか -->
+  <Dialogue Key="Map.GenUniversity1fChapter3OlderBrotherStage1Dialogue1FaceMaleAdult" Value="결국 ROM은 공기청정기에,장난만 친 게 되잖아." Face="MaleAdult" Mono="False" />
+  <!-- いったい何がしたかったんだろう？ -->
+  <Dialogue Key="Map.GenUniversity1fChapter3OlderBrotherStage1Dialogue2FaceMaleAdult" Value="대체 뭘 하고 싶었던 걸까?" Face="MaleAdult" Mono="False" />
+  <!-- 今の時期　４年生は卒業研究の予稿の作成でいっぱいいっぱいだよ -->
+  <Dialogue Key="Map.GenUniversity1fChapter4OlderBrotherStage1Dialogue1FaceMaleAdult" Value="요즘 4학년생들은,졸업 논문 쓰느라,정신 없이 바빠." Face="MaleAdult" Mono="False" />
+  <!-- 僕はまだ３年生だからまだまだ余裕さ -->
+  <Dialogue Key="Map.GenUniversity1fChapter4OlderBrotherStage1Dialogue2FaceMaleAdult" Value="난 아직 3학년이라,아직 여유가 있어." Face="MaleAdult" Mono="False" />
+  <!-- 森近研の黒谷さん最近新しいナビと出会ったらしいわよ -->
+  <Dialogue Key="Map.GenUniversity1fChapter4OlderSisterStage1Dialogue1FaceFemaleAdult" Value="모리치카 연구실의 쿠로다니 씨가,최근에 새로운 내비랑,만났다나 봐." Face="FemaleAdult" Mono="False" />
+  <!-- 今度の夏休みはサークル仲間と一緒に外国旅行に行くのさ -->
+  <Dialogue Key="Map.GenUniversity1fChapter5OlderBrotherStage1Dialogue1FaceMaleAdult" Value="이번 여름 방학 때에는,동아리 친구들이랑 같이,외국 여행을 가려고 해." Face="MaleAdult" Mono="False" />
+  <!-- インゲレスにするかヨーリカにするかはまだ決めてないんだけどね -->
+  <Dialogue Key="Map.GenUniversity1fChapter5OlderBrotherStage1Dialogue2FaceMaleAdult" Value="잉겔레스로 갈지,유리카로 갈지는,아직 안 정했지만." Face="MaleAdult" Mono="False" />
+  <!-- 卒業研究のテーマに大型ネット犯罪を取り上げようと思うんだ -->
+  <Dialogue Key="Map.GenUniversity1fChapter7OlderBrotherStage1Dialogue1FaceMaleAdult" Value="대형 인터넷 범죄를,졸업 연구 테마로,다뤄 볼까 생각하고 있어." Face="MaleAdult" Mono="False" />
+  <!-- ＲＯＭを中心に海外のネットマフィアとかも調べたいね -->
+  <Dialogue Key="Map.GenUniversity1fChapter7OlderBrotherStage1Dialogue2FaceMaleAdult" Value="ROM을 중심으로 해서,해외의 넷 마피아 같은 것들도,조사해 보고 싶네." Face="MaleAdult" Mono="False" />
+  <!-- なんてこったリアルタイムで重大事件に出会えてしまうなんて！ -->
+  <Dialogue Key="Map.GenUniversity1fChapter7OlderBrotherStage3Dialogue1FaceMaleAdult" Value="하느님 맙소사!,이게 실시간으로,중대 사건이 터져 주네!" Face="MaleAdult" Mono="False" />
+  <!-- 危険を覚悟でプラグインするか否か････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter7OlderBrotherStage3Dialogue2FaceMaleAdult" Value="위험을 각오하고,플러그인해야 하나，,말아야 하나...." Face="MaleAdult" Mono="False" />
+  <!-- うーむ････卒業研究に使える資料は用意できたんだけど -->
+  <Dialogue Key="Map.GenUniversity1fChapter7OlderBrotherStage5Dialogue1FaceMaleAdult" Value="으음....,졸업 연구에 쓸 자료는,준비되었는데" Face="MaleAdult" Mono="False" />
+  <!-- 論文をまとめるためのナビが大怪我しちゃってねどうしたものか････ -->
+  <Dialogue Key="Map.GenUniversity1fChapter7OlderBrotherStage5Dialogue2FaceMaleAdult" Value="논문을 정리해 줄 내비가,크게 다쳐 버렸어.,어찌된 일인지...." Face="MaleAdult" Mono="False" />
+  <!-- 最新型の空気清浄機だ -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage1Dialogue1FaceNone" Value="최신형 공기청정기다." Face="None" Mono="False" />
+  <!-- 様々なイオンを放出しきれいな空気を作り出せるというがどうもうさんくさい -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage1Dialogue2FaceNone" Value="다양한 이온을 방출하여,깨끗한 공기를 만들어 낸다고,말하는데 암만 해도 수상쩍다." Face="None" Mono="False" />
+  <!-- アリス！この空気清浄機の周りが特に空気が汚いわ！ -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage3Dialogue1FaceShanghai" Value="앨리스!,이 공기 청정기 주변만,특히 공기가 탁해!" Face="Shanghai" Mono="False" />
+  <!-- ゲホッ････ということはこれが原因ね！ -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage3Dialogue2FaceAlice" Value="콜록....,그 말은 이게 원인이라는 거네!" Face="Alice" Mono="False" />
+  <!-- 最新型の空気清浄機だ -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage5Dialogue1FaceNone" Value="최신형 공기청정기다." Face="None" Mono="False" />
+  <!-- 様々なイオンを放出しきれいな空気を作り出せるというがどうもうさんくさい -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage5Dialogue2FaceNone" Value="다양한 이온을 방출하여,깨끗한 공기를 만들어 낸다고,말하는데 암만 해도 수상쩍다." Face="None" Mono="False" />
+  <!-- プラグインも可能だ！ -->
+  <Dialogue Key="Map.GenUniversity1fAirCleanerStage5Dialogue3FaceNone" Value="플러그인할 수 있다!" Face="None" Mono="False" />
+  <!-- アリス！この空気清浄機の周りが特に空気が汚いわ！ -->
+  <Dialogue Key="Map.GenUniversity1fAirPurifierPluginStage1Dialogue1FaceShanghai" Value="앨리스!,이 공기 청정기 주변만,특히 공기가 탁해!" Face="Shanghai" Mono="False" />
+  <!-- ゲホッ････ということはこれが原因ね！ -->
+  <Dialogue Key="Map.GenUniversity1fAirPurifierPluginStage1Dialogue2FaceAlice" Value="콜록....,그 말은 이게 원인이라는 거네!" Face="Alice" Mono="False" />
+  <!-- 学生向けの情報が映しだされた大型のディスプレイだ -->
+  <Dialogue Key="Map.GenUniversity1fDisplayAStage1Dialogue1FaceNone" Value="학생들을 위한,정보를 볼 수 있는,대형 디스플레이다." Face="None" Mono="False" />
+  <!-- プラグインすれば直接キャンパススクエアへアクセスが出来る -->
+  <Dialogue Key="Map.GenUniversity1fDisplayAStage1Dialogue2FaceNone" Value="플러그인하면 직접,캠퍼스 스퀘어에,액세스할 수 있다." Face="None" Mono="False" />
+  <!-- 休憩用の椅子だ -->
+  <Dialogue Key="Map.GenUniversity1fChair1Stage1Dialogue1FaceNone" Value="휴게용 의자다." Face="None" Mono="False" />
+  <!-- 妙に硬くて座りごこちが悪いのは長時間座られるのを防ぐためなのだろうか -->
+  <Dialogue Key="Map.GenUniversity1fChair1Stage1Dialogue2FaceNone" Value="묘하게 딱딱하고 착석감이 나쁜데,오랫동안 앉아 있지 못 하게,하려고 이렇게 만든 걸까." Face="None" Mono="False" />
+  <!-- 休憩用の椅子だ -->
+  <Dialogue Key="Map.GenUniversity1fChair2Stage1Dialogue1FaceNone" Value="휴게용 의자다." Face="None" Mono="False" />
+  <!-- 妙に硬くて座りごこちが悪いのは長時間座られるのを防ぐためなのだろうか -->
+  <Dialogue Key="Map.GenUniversity1fChair2Stage1Dialogue2FaceNone" Value="묘하게 딱딱하고 착석감이 나쁜데,오랫동안 앉아 있지 못 하게,하려고 이렇게 만든 걸까." Face="None" Mono="False" />
+  <!-- 自動販売機だ -->
+  <Dialogue Key="Map.GenUniversity1fVendingMachineStage1Dialogue1FaceNone" Value="자동판매기다." Face="None" Mono="False" />
+  <!-- 値段が安めだが商品のラインナップが微妙で変な商品が多い -->
+  <Dialogue Key="Map.GenUniversity1fVendingMachineStage1Dialogue2FaceNone" Value="단가는 싼 편이지만 상품의,라인업이 미묘하고,이상한 상품이 많다." Face="None" Mono="False" />
+  <!-- プラグインも可能だ！ -->
+  <Dialogue Key="Map.GenUniversity1fVendingMachineStage1Dialogue3FaceNone" Value="플러그인도 가능하다!" Face="None" Mono="False" />
+  <!-- エレベーターの扉が開いた！２階へ行きますか？ -->
+  <Dialogue Key="Map.GenUniversity1fElevatorStage1Dialogue1QuestionFaceNone" Value="엘리베이터이 문이 열렸다!,2층으로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenUniversity1fElevatorStage1Dialogue1Options" Value="예,아니오" />
+  <!-- 電源が入っておらず扉はびくともしない -->
+  <Dialogue Key="Map.GenUniversity1fElevatorStage3Dialogue1FaceNone" Value="전원이 들어와 있지 않아,문이 꿈쩍도 하지 않는다." Face="None" Mono="False" />
+  <!-- エレベーターの扉が開いた！２階へ行きますか？ -->
+  <Dialogue Key="Map.GenUniversity1fElevatorStage5Dialogue1QuestionFaceNone" Value="엘리베이터이 문이 열렸다!,2층으로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.GenUniversity1fElevatorStage5Dialogue1Options" Value="예,아니오" />
+  <!-- エレベーターの扉が開いた！何階へ行きますか？ -->
+  <Dialogue Key="Map.GenUniversity1fElevatorStage7Dialogue1FaceNone" Value="엘리베이터이 문이 열렸다!,몇 층으로 가시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.GenUniversity1fElevatorStage7Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- ２階３階乗らない -->
+  <Text Key="Map.GenUniversity1fElevatorStage7Dialogue2Options" Value="2층,3층,안 탄다" />
+  <!-- ハァハァ････なんとかエレベーターの電源を入れられたぜ！ -->
+  <Dialogue Key="Map.GenUniversity1fGasGenerationStage1Dialogue1FaceMarisa" Value="허억，허억....,어떻게든 엘리베이터의,전원을 켰어!" Face="Marisa" Mono="False" />
+  <!-- でかした　マリサ！ -->
+  <Dialogue Key="Map.GenUniversity1fGasGenerationStage1Dialogue2FaceMari" Value="훌륭해，마리사!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.GenUniversity1fPostGameBystander1Dialogue1" Value="내가 불성실하긴 하지만 기말고사,때까지 소동이 계속 이어졌으면,이렇게 고생하지 않을 텐데." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversity1fPostGameBystander2Dialogue1" Value="어떤 상황이든,진심으로 사는 사람이,마지막에 웃는 법이야." Face="FemaleAdult" Mono="False" />
+</data>

@@ -236,121 +236,121 @@
   <Dialogue Key="Map.CityNet3Chapter7SneakEventsStage5Dialogue5FaceShanghai" Value="まずは　侵入して,アリスを助けないと････！" Face="Shanghai" Mono="False" />
   <Dialogue Key="Map.CityNet3PostGameBystander1Dialogue1" Value="ええい　道に迷ってしまった,このエリアは複雑すぎるんだ" Face="NaviBlueRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3PostGameBystander2Dialogue1" Value="シャンハイ様！,このエリアは異常なしですぜ！" Face="NaviPurplePunk" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="[I had the oddest feeling you,would seek me out here....]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="[Well，you’ve found me.,And you’ve passed all of my,students’ tests.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="[Surprised? One of my earliest,test functions was to generate,quizzes from what I found.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="[Forgive me if I skip the jingle，,It’s been a while and my voice,just isn’t what it used to be.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="[Well，here we are.,No jingle this time，I’m afraid.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="[I’m sure you want to get started，,and my voice just isn’t what it,used to be.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="[Ready for QuizBot’s final,routine?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="はい,いいえ" />
-  <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="[I understand，take all the time,you need to prepare.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizFailureDialogue1" Value="[I’m sorry， that’s unfortunately,incorrect!,You’ll have to try again!]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion1Question" Value="[1! Easy one!,How many areas deep does,the Undernet go?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion1Options" Value="[6,8,10]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion2Question" Value="[2!,What book has had all copies,checked out at the library?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion2Options" Value="[Samurai Slayer,A Misfit Student (Me),Forbidden Scrollery]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion3Question" Value="[3! What was the University,student in the lobby writing his,thesis on?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion3Options" Value="[The ecology of viruses,The rights of NetNavis,The rise of Net Crime]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion4Question" Value="[4! How many students can a,Genso Middle School,classroom seat?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion4Options" Value="[12,16,20]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion5Question" Value="[5! Some history for you!,What system was hacked，,sparking the Cyber Wars?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion5Options" Value="[Environmental controls,Drone controls,Missile guidance]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion6Question" Value="[6! One just for you!,What fruit is on the brim of your,friend Tenshi’s Navi’s hat?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion6Options" Value="[Peach,Plum,Blackberry]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion7Question" Value="[7!,What side of the road do the,Engellese drive on?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion7Options" Value="[Left,Right,Depends on province]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion8Question" Value="[8! Bringing it back home!,How many public jack-in points,are there in Genso City?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion8Options" Value="[2,3,4]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion9Question" Value="[9!,Which of these viruses belongs,to the Lansir family?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion9Options" Value="[Legion,Piker,Hoplite]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion10Dialogue1" Value="[10! Whew，halfway there!,Y’know what，let’s use this,one to just enjoy the view.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion10Question" Value="[How many different windows,turn on their lights in one block,of the City Area background?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion10Options" Value="[20,21,24]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion11Question" Value="[11，then! Easing back into it!,What object is the entrance to,the Border Concern network?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion11Options" Value="[Statue,Trash can,Phone booth]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion12Question" Value="[12!,Which one of these is part of the,acronym CWFD?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion12Options" Value="[Cardiac Wasting Fascinoma,Congenital Weakness Factor,Circulatory Warble Frequency]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion13Question" Value="[13!,Including every quiz，what,number is this question?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion13Options" Value="[38th,43rd,48th]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion14Question" Value="[14 now!,How many sets of stairs are,there in the Clock Tower?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion14Options" Value="[4,5,6]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion15Question" Value="[15!,What shape is the middle tier,of the University fountain?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion15Options" Value="[Square,Hexagon,Octagon]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion16Question" Value="[16! You should know this one!,What was the name of the ,tournament you won?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion16Options" Value="[N1 Tournament,N1 Grand Prix,Lunar Competition]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion17Question" Value="[17! Almost there!,What was Border Concern’s,original name?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion17Options" Value="[Internal Concerns Inc.,Frontier Solutions,Border Trading Co.]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion18Question" Value="[18!,Which one of these is a real,Barrier chip?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion18Options" Value="[HealBarr,PwrBarr,Barr100]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion19Question" Value="[19!,What shape is the disguised,Genso University air purifier?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion19Options" Value="[Statue,Potted Plant,Tree]" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion20Question" Value="[20! Final question!,I’ll be a little sad if you get this,one wrong!]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizQuestion20Dialogue1" Value="[What chip did I ask you for,the first time we met?]" Face="NaviOrangeRobot" Mono="False" />
-  <Text Key="Map.CityNet3SageQuizQuestion20Options" Value="[Recov20 ＊,ShotWav ＊,RayGun C]" />
-  <Dialogue Key="Map.CityNet3SageQuizCheckpoint" Value="[Let’s start at the halfway point，,I know you know the first half,already.]" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue1" Value="「そなたがここを訪ねる」という,妙な気がして,ここで待っていたぞ････" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue2" Value="どうやら大当たりみたいじゃ,そして見事儂の生徒達との,勝負でかったとは驚きじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue3" Value="生徒と言ったのは儂が作られた時,儂に与えられた最初の試作機能で,彼らを育てたということじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroSequenceBreakDialogue4" Value="そう、その機能はクイズ生成機能,････じゃがそれも昔話じゃ,この機能を使うのも久しぶりでな" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue1" Value="とうとうここまできたかのう,儂の生徒達みたいにイメージ,音楽を歌うまでは出来ぬけどな" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroDialogue2" Value="昔のように声が出ないんでな,････というかもう茶番は無しじゃ,さっそく本番に行こうかのう？" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion" Value="このクイズ賢者が与える最後の,七難八苦を受ける準備は？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestionOptions" Value="願わくば！,いいえ、まだ" />
+  <Dialogue Key="Map.CityNet3SageQuizRejectDialogue1" Value="分かった、存分に準備するんじゃ,準備が終わったら,話しかけてくるんじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizFailureDialogue1" Value="残念ながら不正解じゃ！,もう一度試すがよい！" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion1Question" Value="第一門！これは容易いじゃろう！,スクエアを除くウラインターネットの,全体エリアの数は？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion1Options" Value="６,８,１０" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion2Question" Value="第二問！図書館で,全巻貸し出し中の本は,つぎの内にどれじゃろう？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion2Options" Value="もののふスレイヤー,とある劣等生の俺がオンラ(ry,トーホースズナアン" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion3Question" Value="第三問！大学の,ロビーにいた生徒が卒業研究,目的で取り上げたのは？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion3Options" Value="ウィルスの生態,ネットナビの権利,大型ネット犯罪" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion4Question" Value="第四問！幻想中学校の,各クラスにある生徒の席は,全部いくつあるじゃろうか？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion4Options" Value="１２,１６,２０" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion5Question" Value="第五問！歴史問題じゃ！,かつてハッキングを受けて,宇宙戦争を勃発させたのは？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion5Options" Value="環境制御システム,ドロン制御システム,ミサイル誘導システム" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion6Question" Value="第六問！嬢ちゃん向けじゃ！,嬢ちゃんの友である天子のナビの,帽子のつばを飾る果物は？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion6Options" Value="モモ,プラム,クロイチゴ" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion7Question" Value="第七問！,インゲレスの人達はどちら側の,道路で運転するんじゃろう？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion7Options" Value="左側,右側,州や縣ごとに違う" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion8Question" Value="第八問！馴染みの所に戻るぞ！,幻想町にプラグイン出来る,場所はいくつあるか？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion8Options" Value="２,３,４" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion9Question" Value="第九問！,つぎの内にランスター系の,ウイルスはどれじゃ？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion9Options" Value="テラーランス,パイカー,バッターライト" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion10Dialogue1" Value="第十問！ふぅ、やっと半分か！,丁度良い所じゃ。この謎解きは,背景を楽しみながらするぞい" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion10Question" Value="このシティーエリアの背景の,単位ブロックで点灯する,ライトの数は何個じゃろうか？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion10Options" Value="２０,２１,２４" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion11Question" Value="第十一問！ボーダーコンツェルン本社の,ネットワークに接続出来る物は,次の内にどれじゃ？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion11Options" Value="像,ゴミ箱,電話ボックス" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion12Question" Value="第十二問！,次の内に略称ＣＷＦＤの,意味はどれじゃ？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion12Options" Value="心臓性弁膜摩耗障,先天性衰弱因子障,循環系不整脈性障" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion13Question" Value="第十三問！,今までの全てのクイズをまとめて,今なん問目？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion13Options" Value="３８問,４３問,４８問" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion14Question" Value="では第十四問じゃ！,インゲレスの時計塔にある,階段はいくつあるじゃ？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion14Options" Value="４,５,６" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion15Question" Value="第十五問！,大学の前にあった噴水は,どんな形をしてたかのう？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion15Options" Value="四角形,六角形,八角形" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion16Question" Value="第十六問！嬢ちゃんが勝った,トーナメントの名前は？,これなら分かるじゃろう！" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion16Options" Value="Ｎ１トーナメント,Ｎ１グランプリ,ルナーコンペティション" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion17Question" Value="第十七問！あともう少しじゃ！,ボーダーコンツェルンは本来,どんな名前をしていたのか？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion17Options" Value="才波コンツェルン,フロンティア万屋,ボーダー商事" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion18Question" Value="第十八問！,つぎの内本物の,バリアーチップはどれじゃ？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion18Options" Value="ヒールバリア,パワーバリア,バリア１００" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion19Question" Value="第十九問！,幻想大学にある空気清浄機は,どんな形をしてたかのう？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion19Options" Value="像,植木鉢,並木" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion20Question" Value="最後の第二十問！,嬢ちゃんがこれを間違えると,少し惜しくなるかもじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizQuestion20Dialogue1" Value="我々が最初に会った時,儂が頼んだチップは？" Face="NaviOrangeRobot" Mono="False" />
+  <Text Key="Map.CityNet3SageQuizQuestion20Options" Value="リペア２０　　　　＊,ショットウエーブ　＊,レイガン　　　　　Ｃ" />
+  <Dialogue Key="Map.CityNet3SageQuizCheckpoint" Value="前の半分はスキップするぞ,それらは既に嬢ちゃんも,知っておるんじゃろうし" Face="NaviOrangeRobot" Mono="False" />
   <Dialogue Key="Map.CityNet3SageQuizBlankQuestion" Value="" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue1" Value="[That’s it，then!,You’ve answered everything,correctly!]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue2" Value="[Firstly，take this reward!,You’ve earned it!]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue3" Value="[Secondly....]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue1" Value="[You’ve passed the test to ask,a favor from a very wise and,powerful Navi.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue2" Value="[They reside in a heavenly,network，but in order to reach,them，you must travel through--]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue3" Value="[--the Undernet?,Yeah，I’ve been there.,You’re overselling it，old man.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue4" Value="[Oh. Uh.... Huh.,Congratulations again，then.,I should head back to Eien.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedDialogue1" Value="[You’ve passed the test and,earned the right to enter,Heaven Area.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue1" Value="[Yeah，about that....,We already figured out the,code on our own.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue2" Value="[Honestly，you dodged a bullet.,If you’d tried to tell me that the,password was “12345”....]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue3" Value="[Well，I wouldn’t have been,very happy，let’s leave it at,that.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue4" Value="[That’s，ah.... good to hear?,I should head back to Eien.,Congratulations again.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue1" Value="[I was about to ask about it，,but it looked like you really,wanted to do your quiz.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue2" Value="[You have the password to that,door blocking the way?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue3" Value="[Oh，ah....,One second，please.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue1" Value="[Finally!,Well，what’s the password?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue2" Value="[One moment please....]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue1" Value="[I guess they call you the Sage,for a reason，huh. Already,know what I’m going to ask?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue2" Value="[A question....?,If you want to ask something，,meet me back at Eien Square.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue3" Value="[No，no，I’m here to answer,your NetOp’s challenge for,the Quiz Crown.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue4" Value="[Quiz Kid，Master，King....,Did you ever wonder where,they got their answers?]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue1" Value="[How’s the search for that ship,going?]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue2" Value="[Eh，it can wait.,Listen，I’ve got a question I,really need an answer to.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue3" Value="[Sorry，my powers leave me,all tuckered out，I’m just not,up to it today.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue4" Value="[But，tell you what....,If you can pass my quiz，I’ll,make an exception for you.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue1" Value="[Eh，I’m taking a bit of a break.,What are you doing all the way,out here?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue2" Value="[I’ve been hearing through the,grapevine that your NetOp is,a real Quiz enthusiast!]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteReminderDialogue1" Value="[“12345” sure is an odd code....,I hope you find what you need,in the Heaven Area.]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue1" Value="[Geez，what a pain.,Y’know，doesn’t this make you,the Quiz Queen or something?]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="[Don’t be silly，Shanghai!,I don’t think it works like that，,anyways.]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="[Are you sure? You could find a,nice， dark corner and come up,with your own quizzes!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1" Value="[I’ll give you some space for,your lightshow.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage2Dialogue1" Value="[Mmmmmmmm....,I see....]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="[Š̴̨̥̀͌͗͐‰̶͓̦̈́̓—̷̡̛͈̯͗̓̚§̴͕͔͙̫̉͛̑®̵̗̙̼͚͐̓̑́ ̶̧̟̖̔̓̈́͝｢ＣＬＩＥＮＴ｣  ̴͓͛̄€̷̖̯͛̎̃͜͝†̷̧̯͉͎̒̿̔–̶̬͒̂̕͝©̷̦̲̫̠̌͘¤̴̻̪̌̃͆Œ̶̲̗̣̓͗̃̊ͅ¬̶̲̳͌Ž̵͚͝­̵͓̱̼̮̑š̶̡͐̐̈́̕,̸̛̗̺̙́̔́’̷͍̳̤̙̈ž̴̭͗̾̄̕«̷̮̈̅̀”̴͙̮̎̄́‡̸̠̎̀͂̕¡̴̟̍Š̸̨̭̽̓͋͘¢̷̢̣̱͘•̶̧͇̊̍͌̀™̵͎̝̀́”̷̻͋͗̍…̷̺̭̀̉ ̵̩̎｢ＣＯＮＮＥＣＴ｣‰̴̮͖̺̞̽̀£̸̰̗͒§̴̗͖̦̾͋̓,̸̮̉͝¬̸̭̾͜˜̸̭͚̼̿̚͜˜̴̡̩͙̭̊̇̾͘¤̷̹̼͆̕ž̸̜̯̼́ ̸̮͗͆̉｢ＳＥＣＵＲＥ｣ ̴͉̉̾̈́›̷̮͚̜̜̌̕—̴̦͒͜‹̴̯̬̯͌̎̷͉̩͍̱̈́̏̌Š̵̨̨̺͌̈́͠ª̶͍̕“̵͍̈̍‹̶͇̦̻̈́͜͠ˆ̶͙͚̫̐͊͛š̷̝̈ͅ]" Face="SageGlowing" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="[€̴͖̝̳̊͛̾̿“̸̡̙̱̿̚͜͝ ̷̞͋̀͌͆｢ＵＳＥＲ｣ ̸͕̜̀̐̚ͅ¡̶̩̪̺͂̑”̴͈̬̭͐›̴̩̦̽̄͝ ̷̨̩̰͊̀｢ＤＥＦＩＮＥ｣ ̷̫͙̊¦̴̖̮͎̌͋͝©̵͇̾̈́̕‡̷̧̜̳̒̒̀̔ͅ’̷͍̥͚̏̓̚͠¬̸͙͍͚̆,̸̝͑̇̔̚ͅŽ̶͙̠͓͕͛̒͐̽›̴̦͈̓̿̔͛Œ̸̛̮̬̈́̽̕ƒ̸̙̌͗̉…̶̹̈́̅͝Ÿ̴̛̥̹͠ ̶̽͂ͅ｢ＡＣＣＥＳＳ｣ ̷͓̮̩͑£̴̳͕̇́͐œ̵͖͎͉̿‡̸̼̤̫̙̍̑̓̆–̴̢̪̝̣͌̈́«̸͇̊͊͝“̶͍̽̉̓͛‹̷̙̘̦̀͛́̈́Œ̶̢͊̑,̴̨̳̲̈ª̴͉͖̳̩͂ ̴̤̣̽́͑͘͜｢ＡＵＴＨＥＮＴＩＣＡＴＥ｣ ̵̱̌̂̈́̕«̸̢̢̛͐̆͝€̸̻̹͂̍‘̶̳̌̈́̈š̴̔̂̄̋ͅ’̵̛͕̩̇̓Ž̵̙̐–̸̪̲̤͑̽”̴̡̲̱̀̿]" Face="SageGlowing" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="[­̴̮̪̾̓̏£̸̢̗̖̓̆̚̚•̷̢̛̮̮̄̚•̷̬̱̯͒̏¤̴̤̞̯̓̋́́ͅ©̵̠̻͈̂†̷͈͚̬̯̈¡̴̝͎̗̏̇̚¡̶̢̫̳̭̒̑͘¦̶͓̬̈́͐‡̴͔̆͗͝¦̴̯̬͛Š̶̡̗̙̀̿–̴̬̪̝̐̾̍̅Ÿ̵̧̟͐›̷̗̭̼̲̃̒̓—̴̘͓͈̫͒́͐Ş̵̌̈ª̵̨̗̞͒͊̀̿“̶̖̝͚͖̀͌͠ ̵͇̏｢ＢＥＧＩＮ｣ ̴͔̜̬̀͛,̷̻̐̈́͝š̶̜̲̀ͅ§̸̢͚͂̋£̸̝̊͌§̷͈̲̝̃̄͝€̸͓̺̚ž̸͙͒̄’̸̝̹̉̈́‘̶͕̹͖̬́̓̑͛®̵͎̝̣͊͂̓͜¬̸̡̮̾̉̌Ž̷͎̳̚¦̶̫̙̈̒̊͝Š̶̜̲̃™̸̲̙͌Ž̸̧͌̓͝©̴̗̼̭̄¤̷̲͇̻͍̽̄̉Œ̷̣̖̆̔̇͗‰̵̜̈́̋̈̚¦̷͔̭͎̹̔͐̇͘†̸̪̞͂̂͋̎™̶̜̞̐̊̽͜ª̸̼́•̸̢̍͝‚̷̲̓,̵̲̜͊͜͠—̶̻̥͑͐̉̕¢̴͉́†̴̮̞̌̒͜‘̸̛̖͘͝‹̸̺͚͈͆̿͆ͅ ̷̛̫̯｢ＳＥＱＵＥＮＣＥ｣ ̸̨̖̳̍͐̏ͅ™̸͕̤͇̀͗́̕†̵̼͙̐͑®̵̢̟͔͖̔̑͘§̷̟̘̓̂̃̾œ̶̙͇̿͌̇̂͜]" Face="SageGlowing" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="[Shanghai，look!]" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue1" Value="お見事！全問正解じゃ！" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue2" Value="まずはクイズの景品じゃと思って,これを受け取るんじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteDialogue3" Value="それと････" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue1" Value="これで嬢ちゃんはこの世で一番,賢明で力強いナビの頼みを,受ける資格を自ら見事証明したぞ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue2" Value="彼女達は天国のようなネットにいる,じゃがしかし、彼女達の,居場所へ行きたいなら････" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue3" Value="「ウラインターネットを探れ」と,言いたいんでしょう？,爺さんも大げさね" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedDialogue4" Value="おっ、そうかい････じゃあまた再び,「おめでとう」と言っといてそろそろ,儂はエイエンエリアに戻ろうか" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedDialogue1" Value="これで嬢ちゃんは例の天国の,エリアに行ける権限を,無事立証したのじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue1" Value="あれのことだけど････,あたし達自分でそのコードを,把握してたのよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue2" Value="爺さんって運が良かったのよ,全く、「１２３４５」ってまるで,人のこと馬鹿にしてるようじゃん" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue3" Value="あんな数字を目の前で教えたら,まあ、ただでは居られないっと,言っておくわよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedAlreadyOpenDialogue4" Value="運が良かったという事じゃろうか？,まあ、儂はエイエンエリアに戻る,じゃあ再び「おめでとう」じゃ！" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue1" Value="それのことを聞きたかったけど、,アンタがどうしてもクイズバトルを,したかったからつい････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue2" Value="で、,道を塞げてるあの扉の,暗号を知ってる？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageNotAskedNotOpenedDialogue3" Value="アレかい････,少し待ってくれるかのう" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue1" Value="おおっ、ついに来たか！,それで、コードは？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageAskedRegularDialogue2" Value="少しお待ち、お待ち････" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue1" Value="既にここで待っていたわね、爺さん,私が何を聞きに来たかも,分かるんじゃない？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue2" Value="聞きたい事があるのかい？,あるならエイエンスクエアで,会って話そう" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue3" Value="でも今は違うぞ、嬢ちゃん,儂は今嬢ちゃんのオペレーターとの,クイズバトルの為にいるんじゃ" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestStartedDialogue4" Value="クイズくん、マスター、そして,キング････彼らがどこで自分の,答えを見つけたか分かるかね？" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue1" Value="例の船の捜査は,上手く進んでおるかのう？" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue2" Value="あれは後にやってもいいでしょう,今はそれより今すぐ,答えを聞きたい質問があるし" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue3" Value="すまぬが儂は現在電源切れ状態で,今日はどうにも,動き出来そうにない" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDialogue4" Value="じゃが････,そなたが儂とのクイズバトルで,勝てば例外にしてやろう" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue1" Value="ただ息抜きしてるだけよ,そういや、爺さんって,ここで何してるの？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizIntroQuestMidwayDoorOpenDialogue2" Value="嬢ちゃんのオペレーターさんが,そんなにクイズのことが好きだ,という噂を聞いておったぞ！" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteReminderDialogue1" Value="「１２３４５」って本当に奇妙なコードじゃ････,ヘブンエリアで嬢ちゃんが必要なものを,見つけると儂は祈ってるぞい" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue1" Value="やれやれだわ,でもここまで来るともうあたし達が,クイズクイーンってことかな？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue2" Value="クイズに全部勝ったといって,必ずクイズの王となる訳じゃ,ないでしょう、シャンハイ････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompleteSageLeftDialogue3" Value="そう？なんか沢山のクイズを,準備しといて挑戦者を待つとか,ワクワクするじゃん！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage1Dialogue1" Value="そうそう、例のアレみたいな,ことなら席を少し,取ってやるよ" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage2Dialogue1" Value="むむむむむむむむ････,良かろう････" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue1" Value="Š̴̨̥̀͌͗͐‰̶͓̦̈́̓—̷̡̛͈̯͗̓̚§̴͕͔͙̫̉͛̑®̵̗̙̼͚͐̓̑́ ̶̧̟̖̔̓̈́͝｢ＣＬＩＥＮＴ｣  ̴͓͛̄€̷̖̯͛̎̃͜͝†̷̧̯͉͎̒̿̔–̶̬͒̂̕͝©̷̦̲̫̠̌͘¤̴̻̪̌̃͆Œ̶̲̗̣̓͗̃̊ͅ¬̶̲̳͌Ž̵͚͝­̵͓̱̼̮̑š̶̡͐̐̈́̕,̸̛̗̺̙́̔́’̷͍̳̤̙̈ž̴̭͗̾̄̕«̷̮̈̅̀”̴͙̮̎̄́‡̸̠̎̀͂̕¡̴̟̍Š̸̨̭̽̓͋͘¢̷̢̣̱͘•̶̧͇̊̍͌̀™̵͎̝̀́”̷̻͋͗̍…̷̺̭̀̉ ̵̩̎｢ＣＯＮＮＥＣＴ｣‰̴̮͖̺̞̽̀£̸̰̗͒§̴̗͖̦̾͋̓,̸̮̉͝¬̸̭̾͜˜̸̭͚̼̿̚͜˜̴̡̩͙̭̊̇̾͘¤̷̹̼͆̕ž̸̜̯̼́ ̸̮͗͆̉｢ＳＥＣＵＲＥ｣ ̴͉̉̾̈́›̷̮͚̜̜̌̕—̴̦͒͜‹̴̯̬̯͌̎̷͉̩͍̱̈́̏̌Š̵̨̨̺͌̈́͠ª̶͍̕“̵͍̈̍‹̶͇̦̻̈́͜͠ˆ̶͙͚̫̐͊͛š̷̝̈ͅ" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue2" Value="€̴͖̝̳̊͛̾̿“̸̡̙̱̿̚͜͝ ̷̞͋̀͌͆｢ＵＳＥＲ｣ ̸͕̜̀̐̚ͅ¡̶̩̪̺͂̑”̴͈̬̭͐›̴̩̦̽̄͝ ̷̨̩̰͊̀｢ＤＥＦＩＮＥ｣ ̷̫͙̊¦̴̖̮͎̌͋͝©̵͇̾̈́̕‡̷̧̜̳̒̒̀̔ͅ’̷͍̥͚̏̓̚͠¬̸͙͍͚̆,̸̝͑̇̔̚ͅŽ̶͙̠͓͕͛̒͐̽›̴̦͈̓̿̔͛Œ̸̛̮̬̈́̽̕ƒ̸̙̌͗̉…̶̹̈́̅͝Ÿ̴̛̥̹͠ ̶̽͂ͅ｢ＡＣＣＥＳＳ｣ ̷͓̮̩͑£̴̳͕̇́͐œ̵͖͎͉̿‡̸̼̤̫̙̍̑̓̆–̴̢̪̝̣͌̈́«̸͇̊͊͝“̶͍̽̉̓͛‹̷̙̘̦̀͛́̈́Œ̶̢͊̑,̴̨̳̲̈ª̴͉͖̳̩͂ ̴̤̣̽́͑͘͜｢ＡＵＴＨＥＮＴＩＣＡＴＥ｣ ̵̱̌̂̈́̕«̸̢̢̛͐̆͝€̸̻̹͂̍‘̶̳̌̈́̈š̴̔̂̄̋ͅ’̵̛͕̩̇̓Ž̵̙̐–̸̪̲̤͑̽”̴̡̲̱̀̿" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage3Dialogue3" Value="­̴̮̪̾̓̏£̸̢̗̖̓̆̚̚•̷̢̛̮̮̄̚•̷̬̱̯͒̏¤̴̤̞̯̓̋́́ͅ©̵̠̻͈̂†̷͈͚̬̯̈¡̴̝͎̗̏̇̚¡̶̢̫̳̭̒̑͘¦̶͓̬̈́͐‡̴͔̆͗͝¦̴̯̬͛Š̶̡̗̙̀̿–̴̬̪̝̐̾̍̅Ÿ̵̧̟͐›̷̗̭̼̲̃̒̓—̴̘͓͈̫͒́͐Ş̵̌̈ª̵̨̗̞͒͊̀̿“̶̖̝͚͖̀͌͠ ̵͇̏｢ＢＥＧＩＮ｣ ̴͔̜̬̀͛,̷̻̐̈́͝š̶̜̲̀ͅ§̸̢͚͂̋£̸̝̊͌§̷͈̲̝̃̄͝€̸͓̺̚ž̸͙͒̄’̸̝̹̉̈́‘̶͕̹͖̬́̓̑͛®̵͎̝̣͊͂̓͜¬̸̡̮̾̉̌Ž̷͎̳̚¦̶̫̙̈̒̊͝Š̶̜̲̃™̸̲̙͌Ž̸̧͌̓͝©̴̗̼̭̄¤̷̲͇̻͍̽̄̉Œ̷̣̖̆̔̇͗‰̵̜̈́̋̈̚¦̷͔̭͎̹̔͐̇͘†̸̪̞͂̂͋̎™̶̜̞̐̊̽͜ª̸̼́•̸̢̍͝‚̷̲̓,̵̲̜͊͜͠—̶̻̥͑͐̉̕¢̴͉́†̴̮̞̌̒͜‘̸̛̖͘͝‹̸̺͚͈͆̿͆ͅ ̷̛̫̯｢ＳＥＱＵＥＮＣＥ｣ ̸̨̖̳̍͐̏ͅ™̸͕̤͇̀͗́̕†̵̼͙̐͑®̵̢̟͔͖̔̑͘§̷̟̘̓̂̃̾œ̶̙͇̿͌̇̂͜" Face="SageGlowing" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage4Dialogue1" Value="シャンハイ、見て！" Face="Alice" Mono="False" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5HiddenCode" Value="#" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code1" Value="1" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code2" Value="2" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code3" Value="3" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code4" Value="4" />
   <Text Key="Map.CityNet3SageQuizCompletePasscodeStage5Code5" Value="5" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue1" Value="[They can’t even bother to just,tell us the code normally....?,Annoying to the very end....]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue2" Value="[Shush，it’s not every day that,you get let into a super secret,area of the Net.]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue3" Value="[We go to new parts of the Net,every other week!,It’s not that special!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue1" Value="[Shanghai! Don’t look away!,Oh，where did I put my pen?!,“1”，“2”....]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue2" Value="[I’m just saying，it’s just another,part of the Net，I don’t see why,they have to try so hard.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue3" Value="[And you don’t need to write it,down，it’s just 5 numbers.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue4" Value="[See，“1”，then “2”，then....]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue1" Value="[....“3”.,Hold on a minute.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue2" Value="[No....,They wouldn’t....!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue1" Value="[Alice.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue2" Value="[Shanghai....?]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue3" Value="[Get me out of here.]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue4" Value="[It....,It could be something else....]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue5" Value="[I don’t care!,If I’m wrong，we can just try,every other number!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue6" Value="[Get me out of here before I,do something I regret!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue1" Value="[RRRRGGGHH!,ALICE!]" Face="Shanghai" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue2" Value="[Alright，alright!]" Face="Alice" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue1" Value="[Ahhhh....,I hope you found what you,were looking for，miss!]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue2" Value="[Miss....?]" Face="NaviOrangeRobot" Mono="False" />
-  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue2FaceNone" Value="[It seems the type to seek out,a dark，secluded place with,lots of cover.]" Face="None" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue1" Value="ここまでにして暗号を隠す,必要があるのかね？,どれぐらい秘密にしたけりゃ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue2" Value="ほらほら、今目指すエリアは,最深部に隠された,滅多にない場所でしょう" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage6Dialogue3" Value="でも最近インターネットの,新しい所に行きっぱなしじゃん,もうそこまで大した事じゃ････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue1" Value="シャンハイ！どこ見てるの！？,あっ、そう！書かなきゃ････！,“１”、“２”････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue2" Value="ここまでしてそこを封鎖する,理由が私には見えないからね,結局ネットの一部だしな" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue3" Value="そしてなーに書こうとするのよ,あれはただ五つの数字でしょう" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage7Dialogue4" Value="アレくらい私が全部,容易く覚えとくからよ,どれどれ、“１”、そして“２”････" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue1" Value="････“３”,････ってかちょっと待って" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage8Dialogue2" Value="いやまさか" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue1" Value="アリス,あたしこれ以上見たくない" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue2" Value="シャンハイ････？" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue3" Value="さっそくプラグアウトしよう,もうこれ以上は,見る必要も無さそうだから" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue4" Value="いや、でも最後は,違う数字が出るかも,知らないし････" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue5" Value="どうせあれほど分かったら,残りは適当に入れてみれば,いいじゃない！" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage9Dialogue6" Value="私が考えた,あのデタラメみたいな数字を,ここで見たくもないし" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue1" Value="････アリスぅ,私が言ったでしょう！？,どぉするんだぁ、これぇ！？" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage10Dialogue2" Value="わ、分かったわよ！" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue1" Value="ふぅ････これで,話題の暗号は全部教えたぞ,これで嬢ちゃんの････" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3SageQuizCompletePasscodeStage11Dialogue2" Value="嬢ちゃん････？" Face="NaviOrangeRobot" Mono="False" />
+  <Dialogue Key="Map.CityNet3ChenV2Stage1Dialogue2FaceNone" Value="暗くて人から離れているが,色んな所に行ける場所を,探しに行くタイプのようだ" Face="None" Mono="False" />
 </data>

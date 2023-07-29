@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.ChipGetItem" Value="배틀칩"  />
+  <Text Key="Map.SubChipGetItem" Value="서브칩" />
+  <Text Key="Map.AddonGetItem" Value="애드온" />
+  <Dialogue Key="Map.GetItemNetFormat" Value="상하이는 {0},{1} （을）를,얻었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetItemRealFormat" Value="앨리스는 {0},{1} （을）를,얻었다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetHPMemory" Value="상하이의 HP의,최대치가 20 상승했다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetRegUpFormat" Value="레귤러 메모리의,용량이 {0}MB 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetSubMemory" Value="서브칩을 보유할 수 있는,수량이 1 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetCorePlus" Value="애드온 매니저에서,쓸 수 있는 코어의 수가,1개 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.GetHertzUpFormat" Value="애드온 매니저에서,쓸 수 있는 헤르츠의 수가,{0} GHz 늘어났다!" Face="None" Mono="False" />
+  <Dialogue Key="Map.ChipTraderQuestion" Value="칩 트레이더가 있다.,칩을 3장 투입하시겠습니까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.ChipTraderSpecialQuestion" Value="트레이더 스페셜이 있다.,칩을 10장 투입하시겠습니까?" Face="Shanghai" Mono="False" />
+  <Text Key="Map.ChipTraderOptions" Value="예,아니오" />
+  <Text Key="Map.ChipTraderSpecialOptions" Value="예,아니오" />
+  <Dialogue Key="Map.JackIn" Value="#b@true#플러그 인!#w@15#,상하이.EXE!#w@8#,트랜스미션!#w@30##e@#" Face="Alice" Mono="False" />
+  <Text Key="Map.RandomItemEncounterName" Value="바이러스 출몰" />
+  <Text Key="Map.ItemXtraFldrName" Value="예비 폴더" />
+  <Text Key="Map.ItemFolder2Name" Value="폴더 2" />
+  <Text Key="Map.ItemAddOnManagerName" Value="애드온 매니저" />
+  <Text Key="Map.ItemVrsBall1＊Name" Value="바이러스 볼 1　＊" />
+</data>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.LibraryName" Value="도서관 데이터베이스의 전뇌" />
+  <Dialogue Key="Map.LibrarySprite1Stage1Dialogue1FaceSprite" Value="만화책 대여 금지" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite2Stage1Dialogue1FaceSprite" Value="”어느 열등생인 내가,온라인에서는 잘 나가”는,전권 대여 중입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite2Stage1Dialogue2FaceSprite" Value="이거 제목이 너무 길어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite3Stage1Dialogue1FaceSprite" Value="”무인 슬레이어”,신간 입하했어요!" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibrarySprite4Stage1Dialogue1FaceSprite" Value="요즘 ”동방영나암”을,사람들이 자주 찾아요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage1Dialogue1FaceNone" Value="무큐～!" Face="None" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage1Dialogue2FaceShanghai" Value="잉?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue1FacePatchouli" Value="므갹" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue2FaceShanghai" Value="야 인마!,눈을 어디 냅두고,다니는 거야!?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue3FacePatchouli" Value="무큐～ 무큐～!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue4FaceShanghai" Value="잠깐만，이 쬐끄만 건 뭐야?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue5FacePatchouli" Value="흐에에엑,새，새로운 적!?" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue6FaceKumako" Value="기다려，파츄리!,그 애는 네 편이야!" Face="Kumako" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue7FaceShanghai" Value="이거 실례했네.,내가 그렇게,나쁜 사람 같아 보여?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue8FaceAlice" Value="아까 그런 말을 해 놓고,그 태도는 또 뭔데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue9FacePatchouli" Value="바이러스한테 공격을 받고 있어!,살려 줘!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue10FaceShanghai" Value="조오아쓰，한꺼번에,정리해 버리자고!,가자，앨리스!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue11FaceAlice" Value="어쩔 수 없네....,배틀 오퍼레이션，셋!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue12FacePatchouli" Value="무큐!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage3Dialogue13FaceShanghai" Value="야，내가 할 대사를,니가 뺏으면 어떡해～!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue1FaceShanghai" Value="별 거 아니구만!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue2FacePatchouli" Value="무큐! 세다～!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue3FaceShanghai" Value="에휴，쭉정이 같은 내비구만...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue4FacePatchouli" Value="난 데이터 처리 전문이지,싸움 전문이 아니야!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue5FaceShanghai" Value="데이터 처리?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue6FacePatchouli" Value="쿠마미랑 있던 동안에는,주가 같은 데이터 처리를,혼자서 다 했었다곳!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue7FaceShanghai" Value="....(씨익)" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue8FaceAlice" Value="안 돼，상하이.,그런 데에 쟤를 이용하겠다니...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue9FaceAlice" Value="일단 그건 그렇고,파츄리라 했지?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue10FaceAlice" Value="쿠마미 씨가 널,필요로 하고 있는데." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue11FacePatchouli" Value="그래? 그럼 빨리,쿠마미한테 보내 줘!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue12FaceShanghai" Value="어～디，E-메일에,구겨박으면 된다고 했던가?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage5Dialogue13FacePatchouli" Value="무귝!?" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue1FacePatchouli" Value="으갹!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue2FaceShanghai" Value="꾸깃꾸깃" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue3FacePatchouli" Value="무귯!,잠깐만! 좁아!" Face="Patchouli" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue4FaceShanghai" Value="에잇，조용히 해!,불만 있으면,네 오퍼레이터한테나 말해!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage7Dialogue5FaceShanghai" Value="송신!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue1FaceShanghai" Value="헤엑，헤엑....,앨리스，다 끝났어～...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue2FaceAlice" Value="진짜로 E-메일로 보내 버렸네...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue3FaceShanghai" Value="6.9 메가바이트,정도밖에 안 된다니，,저거 진짜 내비 맞아?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue4FaceAlice" Value="넌 몇 자리 정도,더 단위가 높았던가?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue5FaceShanghai" Value="어머，레이디에게 체중을,물어보는 건 실례라구?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue6FaceAlice" Value="(그게 체중이구나....)" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryPatchouliStage9Dialogue7FaceShanghai" Value="자，할 일도 끝났으니,빨리 돌아가자." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue1FaceHenchie" Value="에휴，정말이지....,이런 도둑 같은 일을,하게 될 줄이야...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue2FaceHenchie" Value="아니 그보다 이 ”key.bat”은,어디에 쓰는 건데...." Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue3FaceHenchie" Value="어? 넌 누구야!?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue4FaceShanghai" Value="지금 그 손에 들고 있는 게,”key.bat”이지?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue5FaceShanghai" Value="목숨이 아깝다면,얌전히 그걸 내놔!" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue6FaceHenchie" Value="제기랄!,쉽게 당하고만 있겠냐고!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage1Dialogue7FaceHenchie" Value="받아라，바이러스의 춤!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue1FaceHenchie" Value="히엑!,벼，변신했어!?" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue2FaceAlice" Value="그러고 보면 열쇠에,가까이 다가가는 것만으로도,괜찮다고 했었지...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue3FaceShanghai" Value="흐헤헤헤헤.... 자～어디 그럼,이 새로 얻은 힘으로,어떻게 요리해 줄까?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue4FaceHenchie" Value="난 여기서 빠져나가야겠어!" Face="Henchie" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue5FaceShanghai" Value="쳇! 도망쳤잖아." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue6FaceAlice" Value="자，자，,목적은 달성했으니까 괜찮잖아." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue7FaceAlice" Value="신세를 크게 졌으니,박사님한테 감사 인사,한 마디라도 하러 가자." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.LibraryChapter3BookerStage3Dialogue8FaceShanghai" Value="그것도 그렇네!,연구소로 돌아가자!" Face="Shanghai" Mono="False" />
+</data>

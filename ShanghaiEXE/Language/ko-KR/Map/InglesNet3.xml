@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.InglesNet3Name" Value="인터넷 잉겔레스 에리어 3" />
+  <!-- ほう････お前さんなかなかダークな気を発しているじゃねえか -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue1FaceNaviBlackHeel" Value="호오.... 거기 너,꽤나 다크한 분위기를 풍기는군." Face="NaviBlackHeel" Mono="False" />
+  <!-- どうだ　俺の育てたウィルスと戦って　勝ったらダークチップをくれてやるっていうのは -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue2FaceNaviBlackHeel" Value="내가 키운 바이러스와 싸워서,이기면 다크 칩을 주지. 어때?" Face="NaviBlackHeel" Mono="False" />
+  <!-- もちろん　お前がベットするのはその生命だがな････ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue3FaceNaviBlackHeel" Value="물론 네가 거는 건,네 목숨이겠지만...." Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺のウィルスと戦うか？ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage1Dialogue4QuestionFaceNaviBlackHeel" Value="내 바이러스들이랑 싸워 볼래?" Face="NaviBlackHeel" Mono="False" />
+  <!-- やってやろうじゃない！今は調子が悪い -->
+  <Text Key="Map.InglesNet3DarkSellerStage1Dialogue4Options" Value="붙어 보자고!,지금은 상태가 영...." />
+  <!-- ちっ････怖気づいたか -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage3Dialogue1FaceNaviBlackHeel" Value="쯧.... 겁 먹었나." Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　じゃあ行くぜ！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage5Dialogue1FaceNaviBlackHeel" Value="좋아，그럼 드가자!" Face="NaviBlackHeel" Mono="False" />
+  <!-- ヒュ〜　勝ちやがったか！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue1FaceNaviBlackHeel" Value="이야～ 이걸 이기네!" Face="NaviBlackHeel" Mono="False" />
+  <!-- よし　こいつを受け取りな！ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage7Dialogue2FaceNaviBlackHeel" Value="좋아! 이거 가져가!" Face="NaviBlackHeel" Mono="False" />
+  <!-- 俺はお前に負けたんだこれ以上とやかく言う資格はねぇよ -->
+  <Dialogue Key="Map.InglesNet3DarkSellerStage9Dialogue1FaceNaviBlackHeel" Value="난 이미 너한테 졌어.,이 이상 무슨 말을 할,자격 같은 건 없어." Face="NaviBlackHeel" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue1" Value="당연한 거 아냐.,이 주변은 관광객들에게 바가지,씌우는 걸로 유명한 곳이라고." Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue2" Value="진짜 잉겔레스를 경험하고 싶다면,차라리 우라 스퀘어를,가는 게 더 좋다고 봐." Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgamePurpleChildNaviDialogue3" Value="조금 위험한 곳이지만,정보 하나만큼은 정확해.,내가 같이 가 줄게.... 이히히!" Face="NaviPurpleChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue1" Value="스퀘어에 가 봤는데,기념품집이나 투어 관광,모집하는 사람들밖에 없어!" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameChildNaviDialogue2" Value="게시판 하나 없는 스퀘어라니,이게 뭐야 대체!,잉겔레스가 원래 이런 곳이야?" Face="NaviChild" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameThugNaviDialogue1" Value="이 인터넷의 양지에는,어린애들이나 사기꾼,아첨꾼이나 관광객이 많잖아?" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameThugNaviDialogue2" Value="....근데 아무리 수가 많아 봤자,네트워크 전체가 그들의,것이 되는 건 아니잖아?" Face="NaviPurpleHeel" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameAgentNaviDialogue1" Value="잉겔레스 에리어 3 순찰은,이만하면 되겠지.,나름 경치 구경도 했고 말야." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameAgentNaviDialogue2" Value="다른 지역 순찰은....,안 해도 되겠지. 여기 사람들은,다 정직한 시민들일 테니까." Face="NaviBlueRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue1" Value="아까 전까지 스퀘어에서,쇼핑을 하고 있었는데,원하는 건 안 보였더라." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue2" Value="스퀘어 밖에는,다양한 상점이 있을 거라,생각했는데 아니었나 보네." Face="NaviGreenRobot" Mono="False" />
+  <Dialogue Key="Map.InglesNet3PostgameGreenNaviDialogue3" Value="왜인지는 모르겠는데 여기,계속 있으면 안 될 것 같아.,일단 스퀘어로 돌아갈까?" Face="NaviGreenRobot" Mono="False" />
+</data>

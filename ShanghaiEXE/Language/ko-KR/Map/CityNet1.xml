@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- インターネット　シティエリア２ -->
+  <Text Key="Map.CityNet1Name" Value="인터넷 시티 에리어 2" />
+  <!-- ←：シティエリア１　スクエア方面→：シティエリア３ -->
+  <Dialogue Key="Map.CityNet1GuidePlateStage1Dialogue1FaceNone" Value="←: 시티 에리어 1 스퀘어 방면,→: 시티 에리어 3" Face="None" Mono="False" />
+  <!-- 他人のセキュリティキューブだ -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage1Dialogue1FaceNone" Value="다른 사람의 시큐리티 큐브다." Face="None" Mono="False" />
+  <!-- 誰のかわからないと通りようがない -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage1Dialogue2FaceNone" Value="누구 거인지를 모르면,지나갈 수가 없다." Face="None" Mono="False" />
+  <!-- シャンハイは管理Ｐコードを使った -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue1FaceNone" Value="상하이는,관리 P코드를 썼다." Face="None" Mono="False" />
+  <!-- 管理Ｐコードでセキュリティを解除した！ -->
+  <Dialogue Key="Map.CityNet1ManagementAreaCubeStage3Dialogue2FaceNone" Value="관리 P코드로,시큐리티를 해제했다!" Face="None" Mono="False" />
+  <!-- あら　あなたシティエリアは初めてかしら？ -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="어머，시티 에리어에는,처음 와 보니?" Face="NaviPinkFemale" Mono="False" />
+  <!-- この都会的なエリアの壁紙は夜景をイメージしてるんですって -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="이 도시 같은 에리어의 벽지는,야경을 이미지했대." Face="NaviPinkFemale" Mono="False" />
+  <!-- 素敵なカレと一緒に来ればデート気分はムンムンよ！ -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue3FaceNaviPinkFemale" Value="멋진 남친이랑 같이 오면,데이트 기분 엄청 나!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ････一緒に来るようなカレがいればの話だけど -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi1Stage1Dialogue4FaceNaviPinkFemale" Value="....같이 와 줄 남친이,있을 때의 이야기지만." Face="NaviPinkFemale" Mono="False" />
+  <!-- 目玉のウィルスやボムを飛ばすジャンクのウィルスは土属性っていう新しい属性なの -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi2Stage1Dialogue1FaceNaviPinkFemale" Value="눈알 모양의 바이러스나,폭탄을 날리는 정크 바이러스는,땅 속성이라는 새로운 속성이야." Face="NaviPinkFemale" Mono="False" />
+  <!-- 土属性は水属性や草属性に弱いけど火属性や電気属性に強いんだって -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi2Stage1Dialogue2FaceNaviPinkFemale" Value="땅 속성은,물 속성이나 풀 속성에는 약하지만,불 속성이나 전기 속성한테는 세." Face="NaviPinkFemale" Mono="False" />
+  <!-- あと　土属性は重くなったり砂に足を取られたりしないんだって -->
+  <Dialogue Key="Map.CityNet1Chapter2GirlNavi2Stage1Dialogue3FaceNaviPinkFemale" Value="또 땅 속성은 무거워진다던지,모래밭에 발이 묶인다던지,하지 않는다더라." Face="NaviPinkFemale" Mono="False" />
+  <!-- こういうセキュリティキューブってナビによって見えたり見えなかったりするんだって -->
+  <Dialogue Key="Map.CityNet1Chapter2YoungGirlNavi1Stage1Dialogue1FaceNaviChild" Value="이런 시큐리티 큐브는,내비에 따라 보이거나,보이지 않거나 한대." Face="NaviChild" Mono="False" />
+  <!-- Ｐコードを持っているナビには無くて通れるところも他のナビは通れないとか -->
+  <Dialogue Key="Map.CityNet1Chapter2YoungGirlNavi1Stage1Dialogue2FaceNaviChild" Value="P코드를 가지고 있는 내비한테는,큐브가 안 보여서 지나가는 걸,다른 내비들은 못 지나간다던가." Face="NaviChild" Mono="False" />
+  <!-- 電脳世界ってふしぎだね〜 -->
+  <Dialogue Key="Map.CityNet1Chapter2YoungGirlNavi1Stage1Dialogue3FaceNaviChild" Value="전뇌 세계는 참 이상해～" Face="NaviChild" Mono="False" />
+  <!-- シティエリアは幻想大学方面のエリア１と中央街方面のエリア３がある -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi1Stage1Dialogue1FaceNaviGreenRobot" Value="시티 에리어는,환상대학교 방면의 에리어 1과,중앙가 방면의 에리어 3이 있어." Face="NaviGreenRobot" Mono="False" />
+  <!-- その間にあるこのエリア２はシティエリアの動脈って呼ばれてるんだぜ！ -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi1Stage1Dialogue2FaceNaviGreenRobot" Value="그 사이에 있는 이 에리어 2는,시티 에리어의 동맥이라,불리는 곳이야!" Face="NaviGreenRobot" Mono="False" />
+  <!-- 砂のパネルは踏むとしばらく足を取られて移動ができなくなるんだ -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="모래 패널을 밟으면,얼마 동안 발이 묶여서,이동할 수가 없게 돼." Face="NaviGreenRobot" Mono="False" />
+  <!-- とっさに攻撃を避けることが難しくなるから気をつけたいね -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="순간적으로 공격을 피하기가,어려워지니까 조심해야겠어." Face="NaviGreenRobot" Mono="False" />
+  <!-- 砂のパネルは踏むとしばらく足を取られて移動ができなくなるんだ -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi3Stage1Dialogue1FaceNaviGreenRobot" Value="모래 패널을 밟으면,얼마 동안 발이 묶여서,이동할 수가 없게 돼." Face="NaviGreenRobot" Mono="False" />
+  <!-- とっさに攻撃を避けることが難しくなるから気をつけたいね -->
+  <Dialogue Key="Map.CityNet1Chapter2MaleNavi3Stage1Dialogue2FaceNaviGreenRobot" Value="순간적으로 공격을 피하기가,어려워지니까 조심해야겠어." Face="NaviGreenRobot" Mono="False" />
+  <!-- うひょひょひょ〜べっぴんなね〜ちゃんやの〜 -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="우효효효～,존～예 누님이구마～" Face="NaviGreenRobot" Mono="False" />
+  <!-- 何？ボクチンをこらしめるように頼まれただって？ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="뭐야?,본좌를 혼쭐내 달라는,부탁을 받았다고?" Face="NaviGreenRobot" Mono="False" />
+  <!-- ほひー！ほひー！黙ってやられるほどおとなしいボクチンじゃないぞー！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue3FaceNaviGreenRobot" Value="호히～! 호히～!,조용히 당해 줄 정도로,얌전한 본좌가 아니라고～!" Face="NaviGreenRobot" Mono="False" />
+  <!-- いけー！ボクチンのウィルス達！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage1Dialogue4FaceNaviGreenRobot" Value="가라～!,본좌의 바이러스들!" Face="NaviGreenRobot" Mono="False" />
+  <Text Key="Map.CityNet1Request2ManNavi2Battle1Enemy1" Value="수상한사람" />
+  <!-- ほひ！ほひ！わかった！もうちょっかいなんてかけないよ！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage3Dialogue1FaceNaviGreenRobot" Value="호히! 호히! 알았어!,더는 추행 따위 안 할게!" Face="NaviGreenRobot" Mono="False" />
+  <!-- もうここも通らないし　ね！ゆ　許して〜！トンズラー！ -->
+  <Dialogue Key="Map.CityNet1Request2ManNavi2Stage3Dialogue2FaceNaviGreenRobot" Value="더는 여기 주변도 안 다닐게!,죄，죄송합니다～!,도망쳐!" Face="NaviGreenRobot" Mono="False" />
+  <!-- キャンパススクエア　ニハココカラ　ウエノホウヘイクトイイデス -->
+  <Dialogue Key="Map.CityNet1Chapter2Sprite1Stage1Dialogue1FaceSprite" Value="캠퍼스 스퀘어로 가려면,여기서 위쪽으로 가면 돼요." Face="Sprite" Mono="False" />
+  <!-- ウエ　ッテイウノハオペレーターサンノ　ガメンデミタウエ　トイウイミデス -->
+  <Dialogue Key="Map.CityNet1Chapter2Sprite1Stage1Dialogue2FaceSprite" Value="정확하게는 오퍼레이터 씨의,화면에서 봤을 때,위쪽이라는 뜻이에요." Face="Sprite" Mono="False" />
+  <!-- この大きな道はシティエリアのメインストリートだぜ！ -->
+  <Dialogue Key="Map.CityNet1Chapter2YouthNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="이 큰 길은,시티 에리어의 메인 스트리트야!" Face="NaviOrangeMale" Mono="False" />
+  <!-- オペレーターから見て上のほうがキャンパススクエアのあるエリア１で右下がエリア３だぜ -->
+  <Dialogue Key="Map.CityNet1Chapter2YouthNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="오퍼레이터 시점에서 봤을 때,위쪽이 스퀘어가 있는 에리어 1이고,오른쪽 아래가 에리어 3이야." Face="NaviOrangeMale" Mono="False" />
+  <!-- この長い道を電脳バイクや電脳クルマでかっ飛ばしてみたいよなー -->
+  <Dialogue Key="Map.CityNet1Chapter2YouthNavi2Stage1Dialogue1FaceNaviOrangeMale" Value="이 긴 길을,전뇌 바이크나 전뇌 차를 타고,질주하고 싶어진단 말이지～" Face="NaviOrangeMale" Mono="False" />
+  <!-- ゲームセンターで稼働しているネットバトルマシンはやったか？ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi1Stage1Dialogue1FaceNaviOrangeMale" Value="게임 센터에서 가동하고 있는,넷배틀 머신은 써 봤어?" Face="NaviOrangeMale" Mono="False" />
+  <!-- すっげー迫力だったってオペレーターが喜んでたぜ！ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi1Stage1Dialogue2FaceNaviOrangeMale" Value="엄청 박진감 넘친다면서,오퍼레이터가 좋아했어!" Face="NaviOrangeMale" Mono="False" />
+  <!-- 幻想町にチップショップがオープンしたと聞きました -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi2Stage1Dialogue1FaceNaviGreenRobot" Value="환상마을에,칩 샵이 열렸다고 들었어요." Face="NaviGreenRobot" Mono="False" />
+  <!-- 中央街の店よりも品揃えがいいらしいですね -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi2Stage1Dialogue2FaceNaviGreenRobot" Value="취급하는 상품 종류가,중앙가의 칩 샵보다도,다양하다나 보네요." Face="NaviGreenRobot" Mono="False" />
+  <!-- 我々はネットエージェントだ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi3Stage1Dialogue1FaceNaviBlueRobot" Value="우리는 넷 에이전트다." Face="NaviBlueRobot" Mono="False" />
+  <!-- 電脳世界の平和は我々が守ってみせる！ -->
+  <Dialogue Key="Map.CityNet1Chapter3ManNavi3Stage1Dialogue2FaceNaviBlueRobot" Value="전뇌 세계의 평화는,우리들이 지킨다!" Face="NaviBlueRobot" Mono="False" />
+  <!-- 戦闘後に手に入るチップは最後に倒したウィルスが落とすんですって！ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi1Stage1Dialogue1FaceNaviPinkFemale" Value="전투 후에 얻는 칩은,맨 마지막에 쓰러뜨린,바이러스가 떨어뜨린다더라!" Face="NaviPinkFemale" Mono="False" />
+  <!-- 倒す順番を考えれば狙ったチップを手に入れられるわね！ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi1Stage1Dialogue2FaceNaviPinkFemale" Value="쓰러뜨리는 순번을,생각해서 싸우면,원하는 칩을 얻을 수 있겠어!" Face="NaviPinkFemale" Mono="False" />
+  <!-- ダークチップはウラインターネットで取り引きされるのよ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi2Stage1Dialogue1FaceNaviPurpleFemale" Value="다크 칩은 우라 인터넷에서,거래되는 물건이야." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 欲しかったらその入口を探すことねフフフ････ -->
+  <Dialogue Key="Map.CityNet1Chapter3GirlNavi2Stage1Dialogue2FaceNaviPurpleFemale" Value="원한다면 그 입구를 찾아 보라고.,후후후...." Face="NaviPurpleFemale" Mono="False" />
+  <!-- 世の中にはオートロイドっていうココロを持たないナビが存在するらしい -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi1Stage1Dialogue1FaceNaviGreenRobot" Value="이 세상에는 오토로이드라고,마음을 가지지 않은 내비가,존재한다나봐." Face="NaviGreenRobot" Mono="False" />
+  <!-- そもそも　ココロを持ったプログラムがあたりまえなのがすごいことなんだけどね -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi1Stage1Dialogue2FaceNaviGreenRobot" Value="애초에 마음을 가진,프로그램이 당연시되는 게,대단하지만." Face="NaviGreenRobot" Mono="False" />
+  <!-- きれいなインテリアでホームページを飾りたいけどお金が足りない････ -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi2Stage1Dialogue1FaceNaviPinkFemale" Value="예쁜 인테리어로,홈페이지를 장식하고 싶은데,돈이 부족해...." Face="NaviPinkFemale" Mono="False" />
+  <!-- 指名手配されていたＲＯＭのナビがデリート判定され警戒態勢が解かれたんだ -->
+  <Dialogue Key="Map.CityNet1Chapter4Navi3Stage1Dialogue1FaceNaviBlueRobot" Value="지명수배된 ROM의 내비가,딜리트된 걸로 판정되어서,경계 태세가 해제되었어." Face="NaviBlueRobot" Mono="False" />
+  <!-- 俺もゲンソウスクエアで安いっていうお米を買いに行こうかな -->
+  <Dialogue Key="Map.CityNet1Chapter7MaleNavigation1Stage1Dialogue1FaceNaviOrangeMale" Value="나도 환상 스퀘어에서,그 싸다는 쌀을,팔러 가 볼까." Face="NaviOrangeMale" Mono="False" />
+  <!-- 考えねばならぬ････考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage1Dialogue1FaceNaviBlueRobot" Value="생각해야 한다....,생각해야 해...." Face="NaviBlueRobot" Mono="False" />
+  <!-- そなたが依頼を受けてくれた娘か -->
+  <Dialogue Key="Map.CityNet1Requester16Stage1Dialogue2FaceNaviBlueRobot" Value="그대가 의뢰를 받아 준,아가씨로군." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　私と語り合うか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage1Dialogue3QuestionFaceNaviBlueRobot" Value="아가씨，나와 의논해 보겠나?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage1Dialogue3Options" Value="예,아니오" />
+  <!-- そうか････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage3Dialogue1FaceNaviBlueRobot" Value="그런가...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　自分とは何か教えてくれ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue1FaceNaviBlueRobot" Value="아가씨，자신이 무엇인가를,알려다오...." Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビはデータであるデータとはすなわち１と０の集合体である････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue2FaceNaviBlueRobot" Value="넷 내비는 데이터이다.,데이터란 곧,1과 0의 집합체이다...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 私という意識は数字か形造ったものに過ぎないのであろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue3FaceNaviBlueRobot" Value="나라는 의식은,숫자로 조형된 것에,지나지 않을까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- お前とは　数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage5Dialogue4QuestionFaceNaviBlueRobot" Value="그대라는 존재는 숫자인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage5Dialogue4Options" Value="예,아니오" />
+  <!-- 私とお前には心がある意思がある -->
+  <Dialogue Key="Map.CityNet1Requester16Stage7Dialogue1FaceNaviBlueRobot" Value="나와 그대에겐 마음이 있다.,무엇을 하고자 하는,생각이 있다." Face="NaviBlueRobot" Mono="False" />
+  <!-- けれど　この心も意思も数字の集合体がそのように見せているだけなのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage7Dialogue2FaceNaviBlueRobot" Value="그렇지만 이 마음도 생각도,숫자의 집합체가 그렇게,보여주고 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々の心とは数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage7Dialogue3QuestionFaceNaviBlueRobot" Value="우리의 마음은 숫자인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage7Dialogue3Options" Value="예,아니오" />
+  <!-- 数字は心である意思は数字である -->
+  <Dialogue Key="Map.CityNet1Requester16Stage9Dialogue1FaceNaviBlueRobot" Value="숫자는 마음이요，,생각 또한 숫자라...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に意思が宿りあたかも一個の生命体として振る舞っているのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage9Dialogue2FaceNaviBlueRobot" Value="숫자에 의사가 깃들어서,마치 한 개체의 생명체로써,행동하고 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に心はないしかし心は数字でできている -->
+  <Dialogue Key="Map.CityNet1Requester16Stage11Dialogue1FaceNaviBlueRobot" Value="숫자에 마음이란 없다.,하지만 마음은 숫자로,이루어져 있다." Face="NaviBlueRobot" Mono="False" />
+  <!-- では特定の数列に心が宿るのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage11Dialogue2FaceNaviBlueRobot" Value="그러면 특정한 수열에,마음이 깃드는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 心が宿る数字と宿らぬ数字のその境目とは一体何なのだ？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage11Dialogue3FaceNaviBlueRobot" Value="마음이 깃드는 숫자와,깃들지 않는 숫자의,경계선이란 대체 뭘까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々は数字ではないしかし　我々はデータである -->
+  <Dialogue Key="Map.CityNet1Requester16Stage13Dialogue1FaceNaviBlueRobot" Value="우리는 숫자가 아니다.,그렇지만 우리는 데이터이다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビをかたどるデータとそれ以外のデータには隔たりがあるのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage13Dialogue2FaceNaviBlueRobot" Value="넷 내비를 본뜬 데이터와,그 외의 데이터에는,차이가 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビとデータは異なる存在か？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage13Dialogue3QuestionFaceNaviBlueRobot" Value="내비와 데이터는 별개의 존재인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage13Dialogue3Options" Value="예,아니오" />
+  <!-- ナビとそれ以外は異なるデータであるとすればウィルスはまた異なるものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage15Dialogue1FaceNaviBlueRobot" Value="내비와 그 이외가,서로 다른 데이터라 한다면,바이러스는 또다른 존재인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビも　ウィルスも　それ以外もデータではあるが異なる存在なのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage15Dialogue2FaceNaviBlueRobot" Value="내비도 바이러스도 그 외의,것들도 데이터이지만,서로 다른 존재인 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- そのデータの境目とはどこにあるのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage15Dialogue3FaceNaviBlueRobot" Value="그 데이터의 경계선이란,어디에 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビもその他も同じデータであるならばなぜ意思を持つデータと意思を持たぬデータがある？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage17Dialogue1FaceNaviBlueRobot" Value="내비도 그 외의 것들도 같은,데이터라면 왜 생각하는 데이터와,그렇지 아니한 데이터가 있을까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ウィルスには意志があるだろうか？ナビと同じものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage17Dialogue2FaceNaviBlueRobot" Value="바이러스한테는 의지가 있을까?,내비와 똑같은 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- それともウィルスの意思は我々と異なる意思なのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage17Dialogue3FaceNaviBlueRobot" Value="아니면 바이러스의 생각은,우리와 다른 종류의,생각인 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- わからぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue1FaceNaviBlueRobot" Value="알 수가 없다...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue2FaceNaviBlueRobot" Value="그렇기에 더욱 더,생각해야 한다.,생각해야 해...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　良い語らいができたまた語らいたくば私をまた訪ねると良い -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue3FaceNaviBlueRobot" Value="아가씨，좋은 의논이었다.,또 의논하고 싶어졌다면,나를 다시 찾아오게." Face="NaviBlueRobot" Mono="False" />
+  <!-- これは心ばかりのお礼だ取っておきたまえ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue4FaceNaviBlueRobot" Value="마음뿐이지만 사례일세.,받아 주게." Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage19Dialogue5FaceNaviBlueRobot" Value="생각해야 한다.,생각해야 해...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ････考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage21Dialogue1FaceNaviBlueRobot" Value="생각해야 한다....,생각해야 해...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　私と語り合うか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage21Dialogue2QuestionFaceNaviBlueRobot" Value="아가씨，나와 의논해 보겠나?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage21Dialogue2Options" Value="예,아니오" />
+  <!-- そうか････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage23Dialogue1FaceNaviBlueRobot" Value="그런가...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 娘よ　自分とは何か教えてくれ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue1FaceNaviBlueRobot" Value="아가씨，자신이 무엇인가를,알려다오...." Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビはデータであるデータとはすなわち１と０の集合体である････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue2FaceNaviBlueRobot" Value="넷 내비는 데이터이다.,데이터란 곧,1과 0의 집합체이다...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 私という意識は数字か形造ったものに過ぎないのであろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue3FaceNaviBlueRobot" Value="나라는 의식은,숫자로 조형된 것에,지나지 않을까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- お前とは　数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage25Dialogue4QuestionFaceNaviBlueRobot" Value="그대라는 존재는 숫자인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage25Dialogue4Options" Value="예,아니오" />
+  <!-- 私とお前には心がある意思がある -->
+  <Dialogue Key="Map.CityNet1Requester16Stage27Dialogue1FaceNaviBlueRobot" Value="나와 그대에겐 마음이 있다.,무엇을 하고자 하는,생각이 있다." Face="NaviBlueRobot" Mono="False" />
+  <!-- けれど　この心も意思も数字の集合体がそのように見せているだけなのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage27Dialogue2FaceNaviBlueRobot" Value="그렇지만 이 마음도 생각도,숫자의 집합체가 그렇게,보여주고 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々の心とは数字なのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage27Dialogue3QuestionFaceNaviBlueRobot" Value="우리의 마음은 숫자인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage27Dialogue3Options" Value="예,아니오" />
+  <!-- 数字は心である意思は数字である -->
+  <Dialogue Key="Map.CityNet1Requester16Stage29Dialogue1FaceNaviBlueRobot" Value="숫자는 마음이요，,생각 또한 숫자라...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に意思が宿りあたかも一個の生命体として振る舞っているのだろうか -->
+  <Dialogue Key="Map.CityNet1Requester16Stage29Dialogue2FaceNaviBlueRobot" Value="숫자에 의사가 깃들어서,마치 한 개체의 생명체로써,행동하고 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 数字に心はないしかし心は数字でできている -->
+  <Dialogue Key="Map.CityNet1Requester16Stage31Dialogue1FaceNaviBlueRobot" Value="숫자에 마음이란 없다.,하지만 마음은 숫자로,이루어져 있다." Face="NaviBlueRobot" Mono="False" />
+  <!-- では特定の数列に心が宿るのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage31Dialogue2FaceNaviBlueRobot" Value="그러면 특정한 수열에,마음이 깃드는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 心が宿る数字と宿らぬ数字のその境目とは一体何なのだ？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage31Dialogue3FaceNaviBlueRobot" Value="마음이 깃드는 숫자와,깃들지 않는 숫자의,경계선이란 대체 뭘까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- 我々は数字ではないしかし　我々はデータである -->
+  <Dialogue Key="Map.CityNet1Requester16Stage33Dialogue1FaceNaviBlueRobot" Value="우리는 숫자가 아니야.,그렇지만 우리는 데이터이다." Face="NaviBlueRobot" Mono="False" />
+  <!-- ネットナビをかたどるデータとそれ以外のデータには隔たりがあるのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage33Dialogue2FaceNaviBlueRobot" Value="넷 내비를 본뜬 데이터와,그 외의 데이터에는,차이가 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビとデータは異なる存在か？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage33Dialogue3QuestionFaceNaviBlueRobot" Value="내비와 데이터는 별개의 존재인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.CityNet1Requester16Stage33Dialogue3Options" Value="예,아니오" />
+  <!-- ナビとそれ以外は異なるデータであるとすればウィルスはまた異なるものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage35Dialogue1FaceNaviBlueRobot" Value="내비와 그 이외가,서로 다른 데이터라 한다면,바이러스는 또다른 존재인가?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビも　ウィルスも　それ以外もデータではあるが異なる存在なのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage35Dialogue2FaceNaviBlueRobot" Value="내비도 바이러스도 그 외의,것들도 데이터이지만,서로 다른 존재인 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- そのデータの境目とはどこにあるのであろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage35Dialogue3FaceNaviBlueRobot" Value="그 데이터의 경계선이란,어디에 있는 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ナビもその他も同じデータであるならばなぜ意思を持つデータと意思を持たぬデータがある？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage37Dialogue1FaceNaviBlueRobot" Value="내비도 그 외의 것들도 같은,데이터라면 왜 생각하는 데이터와,그렇지 아니한 데이터가 있을까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- ウィルスには意志があるだろうか？ナビと同じものなのか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage37Dialogue2FaceNaviBlueRobot" Value="바이러스한테는 의지가 있을까?,내비와 똑같은 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- それともウィルスの意思は我々と異なる意思なのだろうか？ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage37Dialogue3FaceNaviBlueRobot" Value="아니면 바이러스의 생각은,우리와 다른 종류의,생각인 걸까?" Face="NaviBlueRobot" Mono="False" />
+  <!-- わからぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage39Dialogue1FaceNaviBlueRobot" Value="알 수가 없다...." Face="NaviBlueRobot" Mono="False" />
+  <!-- 考えねばならぬ考えねばならぬ････ -->
+  <Dialogue Key="Map.CityNet1Requester16Stage39Dialogue2FaceNaviBlueRobot" Value="그렇기에 더욱 더,생각해야 한다.,생각해야 해...." Face="NaviBlueRobot" Mono="False" />
+  <!-- おぬしらニンゲン共に遅れはとらんよ！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage1Dialogue1FaceNaviBlackRobe" Value="그대들 인간 따위에게,뒤쳐지지는 않을 것이야!" Face="NaviBlackRobe" Mono="False" />
+  <!-- ？？？？ -->
+  <Text Key="Map.CityNet1BlackRobe1Battle1Enemy1" Value="？？？？" />
+  <!-- ････ふうシティエリアの連中はこれで全部みたいね -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage3Dialogue1FaceShanghai" Value="....후우,시티 에리어에 있는 놈들은,다 쓰러뜨린 것 같네." Face="Shanghai" Mono="False" />
+  <!-- アリス　電話よ！鈴仙から！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue1FaceShanghai" Value="앨리스，전화 왔어!,레이센한테서야!" Face="Shanghai" Mono="False" />
+  <!-- 鈴仙！言われたエリアの黒いナビは全部倒したわよ！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue2FaceAlice" Value="레이센!,네가 말한 에리어 내에 있는,검은 내비들을 다 쓰러뜨렸어!" Face="Alice" Mono="False" />
+  <!-- こちらでも確認した助かった礼を言う -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue3FaceReisen" Value="여기서도 확인했다.,덕분에 살았어.,고맙다." Face="Reisen" Mono="False" />
+  <!-- どうやら連中はウラインターネットの深部から各地へと移動しているようだ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue4FaceReisen" Value="아무래도 그 놈들，우라 인터넷,깊은 곳에서 각 지역으로,이동하고 있는 것 같아." Face="Reisen" Mono="False" />
+  <!-- ウラインターネットにも多数の交戦を確認している以上ウラの住人というわけでもない -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue5FaceReisen" Value="우라 인터넷에서도 여러 번의,교전이 확인되고 있는 이상,우라의 주민일 리도 없고." Face="Reisen" Mono="False" />
+  <!-- 続けてで悪いが連中の正体を探るために調査を頼めるか？ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue6FaceReisen" Value="계속 부탁해서 미안한데,놈들의 정체를 알아내려고 하는데,거길 조사해 줄 수 있나?" Face="Reisen" Mono="False" />
+  <!-- ウラインターネットの深部････わかったわ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue7FaceShanghai" Value="우라 인터넷의 깊은 곳 말이지....,알겠어." Face="Shanghai" Mono="False" />
+  <!-- いいの？　シャンハイ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue8FaceAlice" Value="상하이，괜찮겠어?" Face="Alice" Mono="False" />
+  <!-- あいつらの態度にか･な･り　ムカついてるのよね -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue9FaceShanghai" Value="그 내비들의 태도가,상･당･히 마음에,안 들어서 말야." Face="Shanghai" Mono="False" />
+  <!-- 根絶やしにできるならなんだってしてやるわよ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue10FaceShanghai" Value="그 내비들을 뿌리뽑을,수만 있다면 뭐든 해 보겠어." Face="Shanghai" Mono="False" />
+  <!-- ありがたい -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue11FaceReisen" Value="고맙다." Face="Reisen" Mono="False" />
+  <!-- 報酬が欲しければ後々ネットエージェントに請求してくれ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue12FaceReisen" Value="보수를 원한다면,넷 에이전트에게,청구해 줘." Face="Reisen" Mono="False" />
+  <!-- わかったわそれをもらうにもまずは調査に行かないとね！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue13FaceShanghai" Value="알겠어.,그걸 받으려면 일단,조사를 시작해야겠지!" Face="Shanghai" Mono="False" />
+  <!-- でもウラインターネットの深部って大丈夫かな？ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue14FaceAlice" Value="그런데 우라 인터넷의,깊은 곳이라니.... 괜찮을까?" Face="Alice" Mono="False" />
+  <!-- 何を今更！あたしとアリスならどこへ行っても無敵よ！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue15FaceShanghai" Value="이제 와서 뭘 겁을 먹어!,나랑 앨리스라면 어딜 가든,무적이라고!" Face="Shanghai" Mono="False" />
+  <!-- ････そうね！いきましょうウラインターネットに！ -->
+  <Dialogue Key="Map.CityNet1BlackRobe1Stage5Dialogue16FaceAlice" Value="....그렇네!,그럼 가자，,우라 인터넷으로!" Face="Alice" Mono="False" />
+  <!-- インテリアショップへようこそ！ -->
+  <Dialogue Key="Map.CityNet1InteriorShopStage1Dialogue1FaceNaviGreenRobot" Value="인테리어 샵에 오신 걸 환영합니다!" Face="NaviGreenRobot" Mono="False" />
+  <!-- わずかなご予算で　あなたのホームページを美しく飾れますです -->
+  <Dialogue Key="Map.CityNet1InteriorShopStage1Dialogue2FaceNaviGreenRobot" Value="약간의 예산으로,당신의 홈페이지를,아름답게 꾸며 드립니다." Face="NaviGreenRobot" Mono="False" />
+  <!-- インテリアをご所望ですか？ -->
+  <Dialogue Key="Map.CityNet1InteriorShopStage1Dialogue3QuestionFaceNaviGreenRobot" Value="인테리어를 보러 오셨나요?" Face="NaviGreenRobot" Mono="False" />
+  <!-- 買う買わない -->
+  <Text Key="Map.CityNet1InteriorShopStage1Dialogue3Options" Value="산다,안 산다" />
+  <Dialogue Key="Map.CityNet1PostGameBystander1Dialogue1" Value="최근에 이 주변에서,성격 나쁜 내비들이,잘 안 보이게 되었어." Face="NaviPinkFemale" Mono="False" />
+  <Dialogue Key="Map.CityNet1PostGameBystander2Dialogue1" Value="사랑하는 그이한테 인테리어를,사 주고 싶은데,너무 비싸...." Face="NaviOrangeMale" Mono="False" />
+  <Dialogue Key="Map.CityNet1PostGameBystander3Dialogue1" Value="큰 도로의 정가운데에,서 있으면 뭔가 대단한 사람이,된 기분이 들어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.CityNet1PostGameBystander4Dialogue1" Value="저 떠 있는 섬에는,어떻게 하면 갈 수 있을까...." Face="NaviGreenRobot" Mono="False" />
+</data>

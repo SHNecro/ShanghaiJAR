@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 病院の電脳１ -->
+  <Text Key="Map.HospitalNet1Name" Value="병원의 전뇌 1" />
+  <!-- うっ････ -->
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue1FaceShanghai" Value="으윽...." Face="Shanghai" Mono="False" />
+  <!-- 体力が限界ね････一度プラグアウトしましょう！ -->
+  <Dialogue Key="Map.HospitalNet1WithdrawStage1Dialogue2FaceAlice" Value="체력 상태가 한계에 다다랐어....,일단 지금은 플러그아웃하자!" Face="Alice" Mono="False" />
+  <!-- アナタノ　タイリョクヲカイフクシテ　アゲマショウ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue1FaceSprite" Value="당신의 체력을,회복시켜 드릴게요." Face="Sprite" Mono="False" />
+  <!-- シャンハイのＨＰが全回復した！ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue2FaceNone" Value="상하이의 체력이,완전히 회복되었다!" Face="None" Mono="False" />
+  <!-- ネツボウソウデ　ＨＰガナクナルト　プラグアウトヲシナクテハ　イケマセン -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue3FaceSprite" Value="열폭주로 인해 체력이 없어지면,플러그아웃해야 해요." Face="Sprite" Mono="False" />
+  <!-- ＨＰノ　リョウニハキヲツケテ　クダサイネ -->
+  <Dialogue Key="Map.HospitalNet1RecoverySpriteStage1Dialogue4FaceSprite" Value="체력 잔량에는,상시 주의해 주세요." Face="Sprite" Mono="False" />
+  <!-- ううっ････流石に中も暑いわね -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue1FaceShanghai" Value="으윽....,역시 이 곳도 뜨거운데." Face="Shanghai" Mono="False" />
+  <!-- この熱　シャンハイの体力をじわじわ減らすみたいね -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue2FaceAlice" Value="이 열 때문에 상하이의 체력이,서서히 줄어드는 것 같아." Face="Alice" Mono="False" />
+  <!-- 体力が無くなる前にケリをつけるわよ！ -->
+  <Dialogue Key="Map.HospitalNet1IntroEventStage1Dialogue3FaceShanghai" Value="체력이 줄어들기 전에,끝을 봐야 해!" Face="Shanghai" Mono="False" />
+  <!-- タスケテクダサイ！デンノウセカイガ　カジデス！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue1FaceSprite" Value="불이야!,전뇌 세계에 화재가 발생했다!" Face="Sprite" Mono="False" />
+  <!-- ムラサキイロノ　ホノオガアツサノ　ゲンインナノハワカッテ　イルンデスヨー！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue2FaceSprite" Value="보라색 불꽃이,이 고열의 원인인 건,알고 있는데～!" Face="Sprite" Mono="False" />
+  <!-- デモアノホノオ　ウィルスガバケテル　ミタイ！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue3FaceSprite" Value="그 불꽃이 아무래도,바이러스가 변화한,모습인 것 같아요!" Face="Sprite" Mono="False" />
+  <!-- ホノオト　タタカウトキメルトジョウタイニ　ナッテコウゲキリョク　ハンゲンダヨ！ -->
+  <Dialogue Key="Map.HospitalNet1ExplanationSpriteStage1Dialogue4FaceSprite" Value="불꽃과 싸우는 동안에는,멜트 상태가 되어서,공격력이 반감돼요!" Face="Sprite" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet1Wall1Stage1Dialogue1FaceNone" Value="구역 내 온도 상승으로 인해,방화 셔터 봉쇄 중,이라고 써져 있다." Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-1Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-2Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-3Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation1-4Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+  <!-- このエリアの熱の原因が取り除かれ温度が下がった！ -->
+  <Dialogue Key="Map.HospitalNet1Wall2AnnihilationEventStage1Dialogue1FaceNone" Value="이 에리어의,열의 원인이 제거되어,온도가 내려갔다!" Face="None" Mono="False" />
+  <!-- 区域内温度上昇につき防火シャッター閉鎖中と書かれている -->
+  <Dialogue Key="Map.HospitalNet1Wall2Stage1Dialogue1FaceNone" Value="구역 내 온도 상승으로 인해,방화 셔터 봉쇄 중,이라고 써져 있다." Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-1Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-2Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+  <!-- 炎の形が変化しウィルスの姿になった！ -->
+  <Dialogue Key="Map.HospitalNet1Inflammation2-3Stage1Dialogue1FaceNone" Value="불꽃의 형태가 바이러스의,모습으로 변했다!" Face="None" Mono="False" />
+</data>

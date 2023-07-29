@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 豪華客船セイレーン　１０３号室 -->
+  <Text Key="Map.SeirenShipRoom103Name" Value="호화 여객선 세이렌 103호실" />
+  <!-- この船に乗ったらこんな豪華なお部屋に泊まれるんだ〜 -->
+  <Dialogue Key="Map.SeirenShipRoom103FromChapter7Onwards1Stage1Dialogue1FaceGreenHairFemalePinkEyes" Value="이 여객선에 타면,이런 호화로운 방에서,잘 수 있구나～" Face="GreenHairFemalePinkEyes" Mono="False" />
+  <!-- とてもフカフカなベッドだ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage1Dialogue1FaceNone" Value="너무나도 푹신푹신한 침대다." Face="None" Mono="False" />
+  <!-- シーツもすべすべでいつまでも触りたくなってしまう -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage1Dialogue2FaceNone" Value="시트도 매끈매끈해서,언제고 만지고 싶어진다." Face="None" Mono="False" />
+  <!-- パーティの時間まで休憩する？ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage3Dialogue1QuestionFaceShanghai" Value="파티 시간 될 때까지 쉴래?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.SeirenShipRoom103BedStage3Dialogue1Options" Value="그래,아니" />
+  <!-- 休む前にセーブする？ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage5Dialogue1QuestionFaceShanghai" Value="쉬기 전에 세이브할래?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.SeirenShipRoom103BedStage5Dialogue1Options" Value="그래,아니" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage5Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage5Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　ゆっくり休みなさい！ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage5Dialogue4FaceShanghai" Value="느긋하게 쉬어，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- とてもフカフカなベッドだ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage7Dialogue1FaceNone" Value="너무나도 푹신푹신한 침대다." Face="None" Mono="False" />
+  <!-- シーツもすべすべでいつまでも触りたくなってしまう -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage7Dialogue2FaceNone" Value="시트도 매끈매끈해서,언제고 만지고 싶어진다." Face="None" Mono="False" />
+  <!-- インゲレス到着まで休憩する？ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage9Dialogue1QuestionFaceShanghai" Value="잉겔레스에 도착할 때까지 쉴래?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.SeirenShipRoom103BedStage9Dialogue1Options" Value="그래,아니" />
+  <!-- 休む前にセーブする？ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage11Dialogue1QuestionFaceShanghai" Value="쉬기 전에 세이브할래?" Face="Shanghai" Mono="False" />
+  <!-- はいいいえ -->
+  <Text Key="Map.SeirenShipRoom103BedStage11Dialogue1Options" Value="그래,아니" />
+  <!-- #u@#セーブ中････ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage11Dialogue2FaceShanghai" Value="#u@#세이브 중...." Face="Shanghai" Mono="False" />
+  <!-- セーブ完了！ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage11Dialogue3FaceShanghai" Value="세이브 완료!" Face="Shanghai" Mono="False" />
+  <!-- アリス　ゆっくり休みなさい！ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage11Dialogue4FaceShanghai" Value="느긋하게 쉬어，앨리스!" Face="Shanghai" Mono="False" />
+  <!-- 数時間後････ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage13Dialogue1FaceNone" Value="몇 시간 후...." Face="None" Mono="False" />
+  <!-- ただいま　当船はインゲレス港に到着いたしました -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage15Dialogue1FaceNone" Value="승객 여러분，지금 저희 배는,잉겔레스 항구에 도착했습니다." Face="None" Mono="False" />
+  <!-- 長らくのご乗船まことにありがとうございました -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage15Dialogue2FaceNone" Value="긴 시간 동안 함께 해 주셔서,진심으로 감사합니다." Face="None" Mono="False" />
+  <!-- やっと着いたみたいね -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage17Dialogue1FaceAlice" Value="드디어 도착한 것 같네." Face="Alice" Mono="False" />
+  <!-- それじゃあ張り切ってインゲレス旅行　開始よー！ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage17Dialogue2FaceShanghai" Value="그러면 힘차게,잉겔레스 여행 시작이다～!" Face="Shanghai" Mono="False" />
+  <!-- おー！ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage17Dialogue3FaceAlice" Value="이예～이!" Face="Alice" Mono="False" />
+  <!-- とてもフカフカなベッドだ -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage19Dialogue1FaceNone" Value="너무나도 푹신푹신한 침대다." Face="None" Mono="False" />
+  <!-- シーツもすべすべでいつまでも触りたくなってしまう -->
+  <Dialogue Key="Map.SeirenShipRoom103BedStage19Dialogue2FaceNone" Value="시트도 매끈매끈해서,언제고 만지고 싶어진다." Face="None" Mono="False" />
+  <!-- 四角いテーブルだ -->
+  <Dialogue Key="Map.SeirenShipRoom103SquareTableStage1Dialogue1FaceNone" Value="사각 테이블이다." Face="None" Mono="False" />
+  <!-- 部屋でものを食べるならこの上で食べるのがちょうど良さそうだ -->
+  <Dialogue Key="Map.SeirenShipRoom103SquareTableStage1Dialogue2FaceNone" Value="방에서 뭔가를 먹을 거라면,이 위에 두고 먹는 게,딱 적당할 것 같다." Face="None" Mono="False" />
+  <!-- 空っぽの収納棚だ -->
+  <Dialogue Key="Map.SeirenShipRoom103StorageRackStage1Dialogue1FaceNone" Value="텅 빈 수납장이다." Face="None" Mono="False" />
+  <!-- たくさん荷物がある人はこの棚を使うのだろう -->
+  <Dialogue Key="Map.SeirenShipRoom103StorageRackStage1Dialogue2FaceNone" Value="짐을 잔뜩 들고 온 사람이라면,이 수납장을 쓸 것이다." Face="None" Mono="False" />
+  <!-- 豪華な印象の赤いソファだ -->
+  <Dialogue Key="Map.SeirenShipRoom103SofaStage1Dialogue1FaceNone" Value="호화로운 인상을 남기는,빨간 소파다." Face="None" Mono="False" />
+  <!-- 一人で座るにはもったいない大きさと座り心地をしている -->
+  <Dialogue Key="Map.SeirenShipRoom103SofaStage1Dialogue2FaceNone" Value="혼자 앉기에는 과분할 정도의,크기와 착석감을 가졌다." Face="None" Mono="False" />
+  <!-- 立派なイスがついた固定されたテーブルだ -->
+  <Dialogue Key="Map.SeirenShipRoom103AngularTableStage1Dialogue1FaceNone" Value="멋진 의자가 딸려 있는,고정된 테이블이다." Face="None" Mono="False" />
+  <!-- この上にノートパソコンを広げたらちょうど良さそうだ -->
+  <Dialogue Key="Map.SeirenShipRoom103AngularTableStage1Dialogue2FaceNone" Value="이 위에서 노트북을 펴면,딱 적당할 것 같다." Face="None" Mono="False" />
+  <!-- 壁掛けタイプのテレビだ -->
+  <Dialogue Key="Map.SeirenShipRoom103TelevisionDescriptionStage1Dialogue1FaceNone" Value="벽걸이 타입 TV다." Face="None" Mono="False" />
+  <!-- 画面の大きさもさることながら値段の高い豪華仕様らしい -->
+  <Dialogue Key="Map.SeirenShipRoom103TelevisionDescriptionStage1Dialogue2FaceNone" Value="화면 크기도 크기거니와,가격도 비싼 호화사양인 듯하다." Face="None" Mono="False" />
+  <!-- プラグインすることもできそうだ！ -->
+  <Dialogue Key="Map.SeirenShipRoom103TelevisionDescriptionStage1Dialogue3FaceNone" Value="플러그인도 할 수 있는 것 같다!" Face="None" Mono="False" />
+  <!-- うわぁーーー！！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage1Dialogue1FaceAlice" Value="우와아～～～!!" Face="Alice" Mono="False" />
+  <!-- すっごい豪華だー！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage3Dialogue1FaceAlice" Value="엄～청 호화롭다～!" Face="Alice" Mono="False" />
+  <!-- へえ　さすがは豪華客船予想してた以上の高級感じゃないの -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage3Dialogue2FaceShanghai" Value="헤에，역시나 호화 여객선이네.,예상했던 것보다 훨씬 더,고급지잖아." Face="Shanghai" Mono="False" />
+  <!-- すごーい！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage5Dialogue1FaceAlice" Value="굉장해～!" Face="Alice" Mono="False" />
+  <!-- すごーい！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue1FaceAlice" Value="엄청나～!" Face="Alice" Mono="False" />
+  <!-- ・・・・アリスいつまですごいすごい言ってるのよ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue2FaceShanghai" Value="....저기 앨리스，언제까지,대단해 대단해 이럴 거야?" Face="Shanghai" Mono="False" />
+  <!-- だってすごいよ！ほら　ベッドとかフッカフカ！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue3FaceAlice" Value="이거 너무 대단한데 어떡해!,이거 봐，침대도 푹신푹신하고!" Face="Alice" Mono="False" />
+  <!-- はいはい････気が済んだら他のところを散策しに行きましょうよ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue4FaceShanghai" Value="그래，그래....,다 즐겼다면 다른 데도,산책하러 가 보자고." Face="Shanghai" Mono="False" />
+  <!-- わかったわー -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue5FaceAlice" Value="알았어～" Face="Alice" Mono="False" />
+  <!-- う〜んフカフカ〜 -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue6FaceAlice" Value="꺄～아～ 푹신푹신해～" Face="Alice" Mono="False" />
+  <!-- ････はぁ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage7Dialogue7FaceShanghai" Value="....에휴...." Face="Shanghai" Mono="False" />
+  <!-- そろそろパーティの時間ね -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage9Dialogue1FaceAlice" Value="슬슬 파티 시간이네." Face="Alice" Mono="False" />
+  <!-- よし　じゃあ向かうわよ！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage9Dialogue2FaceShanghai" Value="좋아，그럼 파티장으로 가자!" Face="Shanghai" Mono="False" />
+  <!-- チップフォルダの準備をおこたるんじゃないわよ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage9Dialogue3FaceShanghai" Value="칩 폴더의 준비는,확실하게 하고 가자고." Face="Shanghai" Mono="False" />
+  <!-- そして････ふっふっふ！ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage9Dialogue4FaceShanghai" Value="그리고.... 후후후!" Face="Shanghai" Mono="False" />
+  <!-- ････？ -->
+  <Dialogue Key="Map.SeirenShipRoom103FirstVisitEventStage9Dialogue5FaceAlice" Value="....?" Face="Alice" Mono="False" />
+</data>

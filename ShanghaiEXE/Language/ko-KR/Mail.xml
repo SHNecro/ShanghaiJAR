@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Mail.Mail1Title" Value="인터넷 범죄 주의!" Mono="True" />
+  <Text Key="Mail.Mail1Sender" Value="메일뉴스" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue1" Value="환상 레포트 네트워크,HRN에서 전해 드리는,아침 메일 뉴스입니다." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue2" Value="최근 며칠 동안 발생한,인터넷 범죄 건 수가,크게 늘어나고 있습니다." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue3" Value="ROM이라 불리는 범죄 집단이,관여해 있다는,의혹이 있는 가운데" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue4" Value="전뇌 세계의 경찰 기관인,넷 에이전트들이 간곡히,주의를 당부하고 있습니다." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue5" Value="ROM은 Read Only Memory,에서 유래한 이름으로," Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue6" Value="인식할 수는 있지만 그 활동에,손을 댈 수는 없다는,의미가 있다는 듯 합니다." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail1Dialogue7" Value="넷 에이전트들에 의한,단속 강화를 기대할 수밖에,없는 상황입니다." Face="None" Mono="True" />
+  <Text Key="Mail.Mail2Title" Value="고맙다구!" Mono="True" />
+  <Text Key="Mail.Mail2Sender" Value="쿠마미" Mono="True" />
+  <Dialogue Key="Mail.Mail2Dialogue1" Value="파츄리 건 고마워!,덕분에 꽤 빨리,가게를 열 수 있겠어!" Face="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail2Dialogue2" Value="가게 열기까지,며칠 동안 바빠질 거니까,사례는 개점하고 나서 줄게." Face="Kumami" Mono="True" />
+  <Text Key="Mail.Mail3Title" Value="미안해" Mono="True" />
+  <Text Key="Mail.Mail3Sender" Value="레밀리아" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue1" Value="아까는 미안했어.,직접 말을 하려니까,솔직하게 말할 수가 없어서." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue2" Value="그 일이 있고 나서,사쿠야한테도 혼났어." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue3" Value="내 행동을 다시 돌아봤는데,심한 짓을 저질러 버렸네.,지금은 반성하고 있어." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue4" Value="사과하는 의미에서,줄만한 건 아니지만,내 홈페이지의 P 코드를 줄게." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue5" Value="괜찮다면 나중에,우리 집에 놀러와." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue6" Value="또 넷배틀하자.,사쿠야도 기다리고 있어." Face="Remilia" Mono="True" />
+  <Dialogue Key="Mail.Mail3Dialogue7" Value="그러면 나중에 봐." Face="Remilia" Mono="True" />
+  <Text Key="Mail.Mail4Title" Value="압축 데이터에 대해" Mono="True" />
+  <Text Key="Mail.Mail4Sender" Value="모리치카 린노스케" Mono="True" />
+  <Dialogue Key="Mail.Mail4Dialogue1" Value="앨리스，이전에 네가 보여준,그 압축 파일에 대해,이야기할 것이 있어." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail4Dialogue2" Value="메일로 이걸 설명하기 어려운데,미안하지만 대학교 연구실까지,와 줄 수 있니?" Face="DrMorichika" Mono="True" />
+  <Text Key="Mail.Mail5Title" Value="칩 샵 개점!" Mono="True" />
+  <Text Key="Mail.Mail5Sender" Value="쿠마미" Mono="True" />
+  <Dialogue Key="Mail.Mail5Dialogue1" Value="환상 마을 전철역 앞에,칩 샵이 오픈했습니다!" Face="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail5Dialogue2" Value="배틀칩부터 애드온까지 풍부하게,상품이 마련되어 있습니다!,누구든 환영합니다!" Face="Kumami" Mono="True" />
+  <Dialogue Key="Mail.Mail5Dialogue3" Value="추신: ,금발 아가씨! 사례할 게,있으니까 꼭 와 줘!" Face="Kumami" Mono="True" />
+  <Text Key="Mail.Mail6Title" Value="스타일 변경에 대해" Mono="True" />
+  <Text Key="Mail.Mail6Sender" Value="모리치카 린노스케" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue1" Value="앨리스，전투 중에 쓸 수 있는,스타일 변경에 대해서,설명해 줄게." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue2" Value="커스텀 화면에서 ↑ 키를 누르면,스타일 선택 메뉴가 나와." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue3" Value="거기서 변신하고 싶은,스타일에 커서를 맞추고,결정하면 스타일이 변경돼." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue4" Value="주의할 게 있다면,한 번 바꾼 스타일은 그 전투,중에는 다시 변경할 수 없어." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue5" Value="그렇지만 전투 시작 시에,장착하고 있었던 스타일로는,언제든 변경할 수 있지!" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue6" Value="전투를 계속 반복하다 보면,또 새로운 스타일이,발현될 거야!" Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail6Dialogue7" Value="다양한 스타일을,바꿔 가면서 전투를,유리하게 이끌어 가렴!" Face="DrMorichika" Mono="True" />
+  <Text Key="Mail.Mail7Title" Value="바이러스 볼" Mono="True" />
+  <Text Key="Mail.Mail7Sender" Value="부화" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue1" Value="누님，바이러스 볼의 사용법과,다크 칩의 조사 결과에,대해 알려드리겠습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue2" Value="우선 바이러스 볼은,설명해드린 대로 바이러스를,잡는 데 쓰는 도구입니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue3" Value="바이러스를 이걸로 끝장내면,바이러스를 포획할 수 있어요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue4" Value="포획한 바이러스는,스타트 버튼으로 나오는 메뉴의,”바이러스”에서 볼 수 있습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue5" Value="그 화면에서 버그 조각,같은 걸 먹여서 바이러스를,육성할 수 있죠." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue6" Value="한 바이러스에게 먹일 수 있는,조각의 수는 최대 50개로,제한되어 있습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue7" Value="잡은 바이러스는 앨리스 씨의,홈페이지의 대기실에 있는,기재를 통해 관리할 수 있어요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue8" Value="맡기거나 볼에 넣어두거나,잡다한 기능이 있으니,직접 시험해 보세요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue9" Value="바이러스를 포획하면,바이러스 볼이 소환용,칩으로 변화합니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue10" Value="바이러스를 맡기면,다시 바이러스 볼로 변해서,바이러스를 포획할 수 있어요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue11" Value="참고로 바이러스의 코드는,개체마다 다릅니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue12" Value="같은 바이러스를 포획해도,얻는 코드가 다르다는 점,기억해 주세요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue13" Value="거기에 바이러스는,잡은 시점에서 랭크가,1이 됩니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail7Dialogue14" Value="그러니까 잡으려면,랭크가 낮은 바이러스를,잡는 게 편하겠죠." Face="Henchie" Mono="True" />
+  <Text Key="Mail.Mail8Title" Value="다크 칩에 대한 설명" Mono="True" />
+  <Text Key="Mail.Mail8Sender" Value="부화" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue1" Value="다크 칩에 대해,간단히 설명하겠습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue2" Value="다크 칩을 손에 들고 있는 동안,누님과 앨리스 씨의 마음이,일시적으로 떨어지는 것 같습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue3" Value="말은 그렇게 해도 다크칩을,쓰거나 버리면 원래대로,돌아가니 걱정하실 건 없어요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue4" Value="그렇지만 그렇기에 다크 칩은,마음을 서로 일치시켜서,2배의 위력을 낼 수 없죠." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue5" Value="그 이외에는 누님이라면,쓰는 데 있어서 디메리트가,하나도 없으니까 안심하세요." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue6" Value="거기에 다크 칩은,폴더에 1장밖에 들어가지 않습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail8Dialogue7" Value="이상입니다.,좀 길어졌다면 죄송합니다." Face="Henchie" Mono="True" />
+  <Text Key="Mail.Mail9Title" Value="대회 힘내자!" Mono="True" />
+  <Text Key="Mail.Mail9Sender" Value="츠바키 넥" Mono="True" />
+  <Dialogue Key="Mail.Mail9Dialogue1" Value="드디어 대회 당일이네!,결승전에서 기다릴게!" Face="TsubakiNekku" Mono="True" />
+  <Text Key="Mail.Mail10Title" Value="응원하러 갈게!" Mono="True" />
+  <Text Key="Mail.Mail10Sender" Value="히나나위 텐시" Mono="True" />
+  <Dialogue Key="Mail.Mail10Dialogue1" Value="N1 리그 힘내는 거야!,나도 응원하러 갈게!" Face="Tenshi" Mono="True" />
+  <Text Key="Mail.Mail11Title" Value="파이팅이라구!" Mono="True" />
+  <Text Key="Mail.Mail11Sender" Value="모리치카 마리" Mono="True" />
+  <Dialogue Key="Mail.Mail11Dialogue1" Value="N1 리그 나가지?,보러 갈 수는 없지만,응원하겠다구!" Face="Mari" Mono="True" />
+  <Dialogue Key="Mail.Mail11Dialogue2" Value="괜찮아!,앨리스라면 분명,우승할 수 있다니까!" Face="Mari" Mono="True" />
+  <Text Key="Mail.Mail12Title" Value="응원하는 거에요!" Mono="True" />
+  <Text Key="Mail.Mail12Sender" Value="시구마 리카" Mono="True" />
+  <Dialogue Key="Mail.Mail12Dialogue1" Value="대회 힘내는 거에요!,리카도 집에서 응원하는 거에요!" Face="Rika" Mono="True" />
+  <Text Key="Mail.Mail13Title" Value="오늘도 부탁할게!" Mono="True" />
+  <Text Key="Mail.Mail13Sender" Value="히나나위 텐시" Mono="True" />
+  <Dialogue Key="Mail.Mail13Dialogue1" Value="앨리스，아침부터 미안한데" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail13Dialogue2" Value="오늘 이따가 낮에 또,에이전트 센터에 가야 해!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail13Dialogue3" Value="그래서 그런데,낮에 나랑 같이 가 줬으면 해!" Face="Tenshi" Mono="True" />
+  <Text Key="Mail.Mail14Title" Value="앨리스，고마워" Mono="True" />
+  <Text Key="Mail.Mail14Sender" Value="히나나위 텐시" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue1" Value="앨리스，지금 병원에서,메일을 보내고 있어." Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue2" Value="치료도 끝났고,이제 다 나을 때까지,기다리기만 하면 된대!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue3" Value="안정을 취해야 하니까,1주일 정도는,입원해야 하지만...." Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue4" Value="그렇지만 앨리스 덕분에,레이무네 신사도,무사했잖아!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue5" Value="앨리스，고마워!" Face="Tenshi" Mono="True" />
+  <Dialogue Key="Mail.Mail14Dialogue6" Value="추신: 입원해 있는 동안에는,심심할 테니까 병문안,와 주면 기쁠 거야!" Face="Tenshi" Mono="True" />
+  <Text Key="Mail.Mail15Title" Value="폴더 규칙 설명" Mono="True" />
+  <Text Key="Mail.Mail15Sender" Value="오카자키 명인" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue1" Value="이 메일은 칩 폴더의,스타터 팩을 구입한 분들에게,자동으로 전송되는 메일이야!" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue2" Value="난 일본의 넷 배틀러 협회의,오카자키 명인이야!" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue3" Value="새로 배틀칩을 얻었다면,스타트 메뉴에서 선택할 수 있는,폴더 앱에서 편집할 수 있어." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue4" Value="그렇지만 칩 폴더에는,무슨 내용물이든 다,들어가는 게 아니야." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue5" Value="스탠다드 칩은 용량에 따라,폴더에 넣을 수 있는,같은 종류의 장 수가 달라져." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue6" Value="용량이 19 MB 이하인 칩은,5장까지 들어갈 수 있지만,20～29 MB인 칩은 4장，" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue7" Value="30～39 MB인 칩은 3장，,40～49 MB인 칩은 2장，" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue8" Value="50 MB 이상인 칩은 1장씩만,폴더에 투입할 수 있어." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue9" Value="이 룰은 같은 종류의 칩을,넣을 때에 적용되는 룰이니까" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue10" Value="50MB 이상이지만 종류가 다른,칩을 동시에 넣는 건 가능해." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue11" Value="또 푸른색의 내비칩은,종류를 불문하고 한 폴더에,5장씩만 넣을 수 있어." Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue12" Value="넷배틀하는 친구가 많은,사람들은 이걸 신경 써!" Face="MsFamous" Mono="True" />
+  <Dialogue Key="Mail.Mail15Dialogue13" Value="그러면 룰을 기억하면서,폴더 편성을 즐기기를 바라!" Face="MsFamous" Mono="True" />
+  <Text Key="Mail.Mail16Title" Value="파이터 스타일 해설" Mono="True" />
+  <Text Key="Mail.Mail16Sender" Value="명계 서버" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue1" Value="파이터 스타일,상세 정보...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue2" Value="◆변화 조건◆,버스터 사용,브레이크 속성 칩 사용" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue3" Value="◆특수 능력◆,버스터 파워×2,무속성 칩 위력+10" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail16Dialogue4" Value="◆차지샷: 파이터 펀치◆,가로 2칸에 브레이크 속성 및,밀치기 효과가 있는 펀치" Face="None" Mono="True" />
+  <Text Key="Mail.Mail17Title" Value="시노비 스타일 해설" Mono="True" />
+  <Text Key="Mail.Mail17Sender" Value="명계 서버" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue1" Value="시노비 스타일,상세 정보...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue2" Value="◆변화 조건◆,전투를 빨리 끝냄,소드 계열 칩 사용" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue3" Value="◆특수 능력 1◆,이동 속도 향상,풀차지일 때 칩 쓰면 파고들기" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue4" Value="◆특수 능력 2◆,차지샷 포함 소드 계열 공격으로,적의 공격을 없애고 반격" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail17Dialogue5" Value="◆차지샷: 엘레멘트 소드◆,눈 앞 세로 3칸을 베는 소드,적의 공격을 없애고 반격" Face="None" Mono="True" />
+  <Text Key="Mail.Mail18Title" Value="닥터 스타일 해설" Mono="True" />
+  <Text Key="Mail.Mail18Sender" Value="명계 서버" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue1" Value="닥터 스타일,상세 정보...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue2" Value="◆변화 조건◆,ADD의 사용，PA의 발동,플러스 속성 칩 사용" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue3" Value="◆특수 능력 1◆,커스텀+1,선택 가능한 칩 수 6장" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue4" Value="◆특수 능력 2◆,ADD로 전개할 수 있는 커스텀,화면의 최대 칩 수가 12장" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail18Dialogue5" Value="◆차지샷: 인젝트 레이◆,자신의 속성에 대응하는 상태,이상을 적에게 부여하는 주사기탄" Face="None" Mono="True" />
+  <Text Key="Mail.Mail19Title" Value="가이아 스타일 해설" Mono="True" />
+  <Text Key="Mail.Mail19Sender" Value="명계 서버" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue1" Value="가이아 스타일,상세 정보...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue2" Value="◆변화 조건 1◆,피해를 받음,실드 속성 칩 사용" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue3" Value="◆변화 조건 2◆,기물 속성 칩 사용" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue4" Value="◆특수 능력 1◆,경직되지 않는 슈퍼아머,첫 턴에 십자로 속성 패널" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue5" Value="◆특수 능력 2◆,움직이지 않을 때 피해량이,반감되는 ”장승 자세”" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail19Dialogue6" Value="◆차지샷: 풋 엘레멘트◆,3칸 앞의 패널을 자신과 같은,속성으로 바꾸고 지진으로 발묶음" Face="None" Mono="True" />
+  <Text Key="Mail.Mail20Title" Value="윙 스타일 해설" Mono="True" />
+  <Text Key="Mail.Mail20Sender" Value="명계 서버" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue1" Value="윙 스타일,상세 정보...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue2" Value="◆변화 조건 1◆,에리어，패널 변화 계열 칩 사용,특수 패널에 이동" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue3" Value="◆변화 조건 2◆,크랙 속성 칩 사용" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue4" Value="◆특수 능력 1◆,구멍，특수 패널 무효,순풍，역풍 무효" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue5" Value="◆특수 능력 2◆,한 턴에 한 번 칩을 들고 있지 않을,때 A 버튼으로 최대 3초간 긴급회피" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail20Dialogue6" Value="◆차지샷: 토네이도◆,2칸 앞에 8연타하는 회오리 생성,모래 패널 위에서는 강화됨" Face="None" Mono="True" />
+  <Text Key="Mail.Mail21Title" Value="위치 스타일 해설" Mono="True" />
+  <Text Key="Mail.Mail21Sender" Value="명계 서버" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue1" Value="위치 스타일,상세 정보...." Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue2" Value="◆변화 조건◆,속성 칩 사용,적을 약점 속성으로 공격" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue3" Value="◆특수 능력 1◆,속성 칩 위력+10,같은 속성 칩 위력+10" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue4" Value="◆특수 능력 2◆,약점 속성 피격 피해량 0.75배,상태이상 무효화" Face="None" Mono="True" />
+  <Dialogue Key="Mail.Mail21Dialogue5" Value="◆차지샷: 매직 플레임◆,3칸까지 뻗어 나가는,자신과 같은 속성의 화염 공격" Face="None" Mono="True" />
+  <Text Key="Mail.Mail22Title" Value="검은 내비에 대해" Mono="True" />
+  <Text Key="Mail.Mail22Sender" Value="키신 사구메" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue1" Value="오래간만이네，앨리스.,저번에는 진짜 수고 많았어." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue2" Value="너희들이 힘써 준 덕분에,저 검은 내비들의 정체를,대략적으로 파악할 수 있었어." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue3" Value="그거에 대한 보고회를,에이전트 센터에서,가지려 하는데" Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue4" Value="특례로 넷 에이전트는 아니지만,너도 참가해 줬으면 해." Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue5" Value="억지로 와 달라고는 안 하겠지만" Face="Sagume" Mono="True" />
+  <Dialogue Key="Mail.Mail22Dialogue6" Value="된다면 에이전트 센터의,2층으로 와 줘." Face="Sagume" Mono="True" />
+  <Text Key="Mail.Mail23Title" Value="죄송합니다만" Mono="True" />
+  <Text Key="Mail.Mail23Sender" Value="부화" Mono="True" />
+  <Dialogue Key="Mail.Mail23Dialogue1" Value="상하이 님，죄송합니다만,상하이 님한테만 하고 싶은,비밀 이야기가 있습니다." Face="Henchie" Mono="True" />
+  <Dialogue Key="Mail.Mail23Dialogue2" Value="그래서 그런데 우라 인터넷 2에서,저희 둘이 처음 마주친,그 장소까지 와 주세요." Face="Henchie" Mono="True" />
+  <Text Key="Mail.Mail24Title" Value="감사장" Mono="True" />
+  <Text Key="Mail.Mail24Sender" Value="잉겔레스 공항" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue1" Value="신키 앨리스 씨，이번에,리그릿 왕녀님을 구출해,주셔서 진심으로 감사합니다." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue2" Value="인섹터 왕국과 잉겔레스의,우호를 지켜 준 감사의 답례로서" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue3" Value="잉겔레스 항공 3개월,프리 패스를 증정합니다." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue4" Value="공항에서 이 메일을,사무원에게 보여 주면" Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue5" Value="잉겔레스로 가는 비행기를,얼마든지 무료로,이용하실 수 있습니다." Face="WhiteHairMaleButler" Mono="True" />
+  <Dialogue Key="Mail.Mail24Dialogue6" Value="잉겔레스를 방문하실 때에는,이 메일을 이용해 주세요.,　　　　　　잉겔레스 항공" Face="WhiteHairMaleButler" Mono="True" />
+  <Text Key="Mail.Mail25Title" Value="세이렌호 운휴" Mono="True" />
+  <Text Key="Mail.Mail25Sender" Value="환상 관광" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue1" Value="본 메일은 세이렌호를,한 번이라도 탑승하신 고객님,전원에게 전송되는 메일입니다." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue2" Value="최근에 세이렌호에서,부정한 액세스가 이루어진,사실이 판명되었습니다." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue3" Value="메인 시스템의 보안을,강화하는 동안 세이렌호는,운휴하겠습니다." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue4" Value="또한 그 동안 세이렌호는,정박중인 항구에서 일반인들을,위해 개방됩니다." Face="FemaleOld" Mono="True" />
+  <Dialogue Key="Mail.Mail25Dialogue5" Value="항구에 오시는 분들은 꼭,들러 주십시오.,　　　　　　　　　환상 관광" Face="FemaleOld" Mono="True" />
+  <Text Key="Mail.Mail26Title" Value="상하이에 대해" Mono="True" />
+  <Text Key="Mail.Mail26Sender" Value="모리치카 린노스케" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue1" Value="앨리스，,상하이에 대해,이야기하고픈 게 있어." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue2" Value="난 지금 에이전트 센터에 있어." Face="DrMorichika" Mono="True" />
+  <Dialogue Key="Mail.Mail26Dialogue3" Value="혹시 된다면 지금,에이전트 센터에,와 줄 수 있어?" Face="DrMorichika" Mono="True" />
+  <Text Key="Mail.Mail27Title" Value="수술 곧 시작해" Mono="True" />
+  <Text Key="Mail.Mail27Sender" Value="코메이지 코이시" Mono="True" />
+  <Dialogue Key="Mail.Mail27Dialogue1" Value="앨리스 언니，,곧 있으면 언니의,수술이 시작돼!" Face="Koishi" Mono="True" />
+  <Dialogue Key="Mail.Mail27Dialogue2" Value="된다면 앨리스 언니도,수술실에서 언니를,만나뵈어 줄 수 있어?" Face="Koishi" Mono="True" />
+  <Dialogue Key="Mail.Mail27Dialogue3" Value="앞이 보이게 된다면,앨리스 언니의 얼굴을,보고 싶다고 했거든!" Face="Koishi" Mono="True" />
+  <Text Key="Mail.Mail28Title" Value="무사하길 빈다" Mono="True" />
+  <Text Key="Mail.Mail28Sender" Value="신키 트로이드" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue1" Value="네 친구들한테서,네가 ROM의 기지로 향했다는,이야기를 들었어." Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue2" Value="너희들이 하겠다고 결심했다면,난 막지 않겠어.,전력을 다해 끝내렴." Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue3" Value="앨리스와 레베카,둘이 무사하기를 빌면서,이 애드온을 같이 보낼게." Face="Troid" Mono="True" />
+  <Dialogue Key="Mail.Mail28Dialogue4" Value="둘이라면 해낼 거라고,난 확신한다!" Face="Troid" Mono="True" />
+</data>

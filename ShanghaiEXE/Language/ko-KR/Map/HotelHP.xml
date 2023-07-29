@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.HotelHPName" Value="호텔의 홈페이지" />
+  <Dialogue Key="Map.HotelHPSpriteStage1Dialogue1FaceSprite" Value="저는 룸 서비스,담당 스프라이트입니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelHPSpriteStage1Dialogue2FaceSprite" Value="방에 계신 채로 요리나,음료를 주문할 수 있답니다～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.HotelHPCarPickupStage1Dialogue1FaceNone" Value="잉겔레스 스퀘어로 갈 수 있는,왕복 전뇌 차다." Face="None" Mono="False" />
+  <Dialogue Key="Map.HotelHPCarPickupStage1Dialogue2QuestionFaceNone" Value="잉겔레스 스퀘어로 가시겠습니까?" Face="None" Mono="False" />
+  <Text Key="Map.HotelHPCarPickupStage1Dialogue2Options" Value="예,아니오" />
+</data>

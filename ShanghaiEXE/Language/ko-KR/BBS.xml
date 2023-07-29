@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="BBS.PosterBillager" Value="마을사람" />
+  <Text Key="BBS.PosterMakoMako" Value="마코마코" />
+  <Text Key="BBS.PosterDonkichi" Value="돈키치" />
+  <Text Key="BBS.PosterNetAgent" Value="N. 에이전트" />
+  <Text Key="BBS.PosterCorona" Value="코로나" />
+  <Text Key="BBS.PosterTamezou" Value="타메조우" />
+  <Text Key="BBS.PosterYanFan" Value="얀팬" />
+  <Text Key="BBS.PosterMars" Value="마즈" />
+  <Text Key="BBS.PosterRenkoSis" Value="렌코누나" />
+  <Text Key="BBS.PosterMesh" Value="메쉬" />
+  <Text Key="BBS.PosterChoChon" Value="총총이" />
+  <Text Key="BBS.PosterParasol" Value="파라솔" />
+  <Text Key="BBS.PosterChiko" Value="치코" />
+  <Text Key="BBS.PosterLordUsa" Value="우사제" />
+  <Text Key="BBS.PosterTowa" Value="토와" />
+  <Text Key="BBS.PosterCrabMiso" Value="된장게장" />
+  <Text Key="BBS.PosterShinono" Value="시노노" />
+  <Text Key="BBS.PosterPeperon" Value="페페론" />
+  <Text Key="BBS.PosterNONAME" Value="익명" />
+  <Text Key="BBS.PosterＮＯＮＡＭＥ" Value="ＮＯ　ＮＡＭＥ" />
+  <Text Key="BBS.SubjectBoardOpen!" Value="게시판 개설!" />
+  <Text Key="BBS.SubjectRe:BoardOpen!" Value="Re: 게시판 개설!" />
+  <Text Key="BBS.SubjectAlert" Value="주의환기" />
+  <Text Key="BBS.SubjectRe:Alert" Value="Re:주의환기" />
+  <Text Key="BBS.SubjectROM’sPast" Value="옛날의 ROM" />
+  <Text Key="BBS.SubjectRe:ROM’sPast" Value="Re: 옛날의 ROM" />
+  <Text Key="BBS.SubjectChipShop" Value="칩 샵" />
+  <Text Key="BBS.SubjectRe:ChipShop" Value="Re: 칩 샵" />
+  <Text Key="BBS.SubjectN1LeagueOpen!" Value="N1 리그 개최!" />
+  <Text Key="BBS.SubjectRe:N1LeagueOpen!" Value="Re: N1 리그 개최!" />
+  <Text Key="BBS.SubjectN1LeagueOver!" Value="N1 리그 종료!" />
+  <Text Key="BBS.SubjectRe:N1LeagueOver!" Value="Re: N1 리그 종료!" />
+  <Text Key="BBS.SubjectSeiren" Value="세이렌 호" />
+  <Text Key="BBS.SubjectRe:Seiren" Value="Re: 세이렌 호" />
+  <Text Key="BBS.SubjectYorikaTravel" Value="유리카 여행" />
+  <Text Key="BBS.SubjectRe:YorikaTravel" Value="Re: 유리카 여행" />
+  <Text Key="BBS.SubjectPeaceful,Huh?" Value="평화롭네요" />
+  <Text Key="BBS.SubjectRe:Peaceful,Huh?" Value="Re: 평화롭네요" />
+  <Text Key="BBS.SubjectRe:HeadsUp" Value="Re: 주의환기" />
+  <Text Key="BBS.SubjectWar!" Value="선전포고" />
+  <Text Key="BBS.SubjectRe:War!" Value="Re: 선전포고" />
+  <Text Key="BBS.SubjectPeace!" Value="평화로운 게 최고!" />
+  <Text Key="BBS.SubjectRe:Peace!" Value="Re: 평화로운 게 최고!" />
+  <Text Key="BBS.SubjectRegularChip" Value="레귤러 칩" />
+  <Text Key="BBS.SubjectRe:RegularChip" Value="Re: 레귤러 칩" />
+  <Text Key="BBS.SubjectAmazingChip" Value="엄청난 칩" />
+  <Text Key="BBS.SubjectRe:AmazingChip" Value="Re:엄청난 칩" />
+  <Text Key="BBS.SubjectAddOnManager" Value="애드온 매니저" />
+  <Text Key="BBS.SubjectRe:AddOnManager" Value="Re:애드온 매니저" />
+  <Text Key="BBS.SubjectGrasshopper" Value="방아깨비 바이러스" />
+  <Text Key="BBS.SubjectRe:Grasshopper" Value="Re:방아깨비 바이러스" />
+  <Text Key="BBS.SubjectN1League" Value="N1 리그" />
+  <Text Key="BBS.SubjectRe:N1League" Value="Re: N1 리그" />
+  <Text Key="BBS.SubjectUtterDefeat!" Value="완전히 졌네요" />
+  <Text Key="BBS.SubjectRe:UtterDefeat!" Value="Re:완전히 졌네요" />
+  <Text Key="BBS.SubjectCubeSecrets" Value="큐브 내구력" />
+  <Text Key="BBS.SubjectRe:CubeSecrets" Value="Re: 큐브 내구력" />
+  <Text Key="BBS.SubjectKnifeThrow?" Value="나이프 던지기?" />
+  <Text Key="BBS.SubjectRe:KnifeThrow?" Value="Re: 나이프 던지기?" />
+  <Text Key="BBS.SubjectChipCommands" Value="커맨드기" />
+  <Text Key="BBS.SubjectRe:ChipCommands" Value="Re: 커맨드기" />
+  <Text Key="BBS.SubjectCoreAndHertz" Value="코어와 헤르츠" />
+  <Text Key="BBS.SubjectRe:CoreAndHertz" Value="Re: 코어와 헤르츠" />
+  <Text Key="BBS.SubjectRequest!" Value="의뢰!" />
+  <Text Key="BBS.SubjectRe:Request!" Value="Re: 의뢰!" />
+  <Text Key="BBS.SubjectMinusAddOn" Value="마이너스 애드온" />
+  <Text Key="BBS.SubjectRe:MinusAddOn" Value="Re: 마이너스 애드온" />
+  <Text Key="BBS.SubjectBudgetChat" Value="이득 정보 게시판" />
+  <Text Key="BBS.SubjectSubChips" Value="서브칩" />
+  <Text Key="BBS.SubjectStatuses" Value="상태 이상" />
+  <Text Key="BBS.SubjectRe:Statuses" Value="Re: 상태 이상" />
+  <Text Key="BBS.SubjectHiddenPath" Value="안 보이는 길" />
+  <Text Key="BBS.SubjectMysteryData" Value="미스테리 데이터" />
+  <Text Key="BBS.SubjectStatusImmunity" Value="상태 이상 무효" />
+  <Text Key="BBS.SubjectElements" Value="속성과 약점" />
+  <Text Key="BBS.SubjectTerrain" Value="속성 패널" />
+  <Text Key="BBS.SubjectRun!" Value="도망치기!" />
+  <Text Key="BBS.SubjectRe:Run!" Value="Re: 도망치기!" />
+  <Text Key="BBS.SubjectBustingRank" Value="버스팅 레벨" />
+  <Text Key="BBS.SubjectRe:BustingRank" Value="Re: 버스팅 레벨" />
+  <Text Key="BBS.SubjectHiddenEffect" Value="숨은 효과" />
+  <Text Key="BBS.SubjectRe:HiddenEffect" Value="Re: 숨은 효과" />
+  <Text Key="BBS.SubjectAmazingPoison" Value="독의 경이로움" />
+  <Text Key="BBS.SubjectRe:AmazingPoison" Value="Re: 독의 경이로움" />
+  <Text Key="BBS.SubjectFirePrivileges" Value="화염의 특권" />
+  <Text Key="BBS.Subject＊Code" Value="애스터리스크" />
+  <Text Key="BBS.SubjectRe:＊Code" Value="Re: 애스터리스크" />
+  <Text Key="BBS.SubjectHiddenVersion" Value="히든 버전" />
+  <Text Key="BBS.SubjectRe:HiddenVersion" Value="Re: 히든 버전" />
+  <Text Key="BBS.SubjectInterior" Value="인테리어" />
+  <Text Key="BBS.SubjectRe:Interior" Value="Re: 인테리어" />
+  <Text Key="BBS.SubjectUnderChat" Value="우라 정보 게시판" />
+  <Text Key="BBS.SubjectDarkChips" Value="다크칩 상인" />
+  <Text Key="BBS.SubjectLawnMowing" Value="잔디깎이 ASCII" />
+  <Text Key="BBS.SubjectDarkChipLady" Value="다크칩 여자" />
+  <Text Key="BBS.SubjectTypo" Value="오타 아오ㅋㅋ" />
+  <Text Key="BBS.SubjectVirusBall" Value="바이러스 볼" />
+  <Text Key="BBS.SubjectRe:VirusBall" Value="Re: 바이러스 볼" />
+  <Text Key="BBS.SubjectErrorFrags" Value="에러의 조각" />
+  <Text Key="BBS.SubjectBugFrags" Value="버그의 조각" />
+  <Text Key="BBS.SubjectROMNavi" Value="ROM의 내비" />
+  <Text Key="BBS.SubjectRe:ROMNavi" Value="Re: ROM의 내비" />
+  <Text Key="BBS.SubjectDragonVirus" Value="드래곤 바이러스" />
+  <Text Key="BBS.SubjectRe:DragonVirus" Value="Re: 드래곤 바이러스" />
+  <Text Key="BBS.SubjectCybeast" Value="전뇌수" />
+  <Text Key="BBS.SubjectRe:Cybeast" Value="Re:전뇌수" />
+  <Text Key="BBS.SubjectHunters?" Value="헌터?" />
+  <Text Key="BBS.SubjectRe:Hunters?" Value="Re: 헌터?" />
+  <Text Key="BBS.SubjectDarkCorruption?" Value="다크칩 ㅆㅅㅌㅊ" />
+  <Text Key="BBS.SubjectRe:DarkCorruption?" Value="Re: 다크칩 ㅆㅅㅌㅊ" />
+  <Text Key="BBS.SubjectLegendaryNavi" Value="전설의 내비" />
+  <Text Key="BBS.SubjectRe:LegendaryNavi" Value="Re: 전설의 내비" />
+  <Text Key="BBS.SubjectDarkChipSeller" Value="다크칩 상인" />
+  <Text Key="BBS.SubjectRe:DarkChipSeller" Value="Re: 다크칩 상인" />
+  <Text Key="BBS.SubjectSPVirus" Value="SP 바이러스" />
+  <Text Key="BBS.SubjectRe:SPVirus" Value="Re: SP 바이러스" />
+  <Text Key="BBS.SubjectDeepUnder" Value="우라 깊은 곳" />
+  <Text Key="BBS.SubjectRe:DeepUnder" Value="Re: 우라 깊은 곳" />
+  <Text Key="BBS.SubjectROM" Value="ＲＯＭ" />
+  <Text Key="BBS.SubjectRe:ROM" Value="Re：ＲＯＭ" />
+  <Text Key="BBS.SubjectSPVirusHunt" Value="SP 바이러스 레이드?" />
+  <Text Key="BBS.SubjectRe:SPVirusHunt" Value="Re: SP 바이러스 레이드?" />
+  <Text Key="BBS.SubjectGhost?" Value="유령?" />
+  <Text Key="BBS.SubjectRe:Ghost?" Value="Re: 유령?" />
+  <Text Key="BBS.SubjectNetHeaven" Value="인터넷의 천국" />
+  <Text Key="BBS.SubjectRe:NetHeaven" Value="Re: 인터넷의 천국" />
+  <Text Key="BBS.SubjectNetHell" Value="인터넷의 지옥" />
+  <Text Key="BBS.SubjectRe:NetHell" Value="Re: 인터넷의 지옥" />
+  <Text Key="BBS.SubjectPAInfo" Value="PA 정보" />
+  <Text Key="BBS.SubjectRe:PAInfo" Value="Re: PA 정보" />
+  <Text Key="BBS.SubjectDarkPA" Value="다크 PA" />
+  <Text Key="BBS.SubjectRe:DarkPA" Value="Re: 다크 PA" />
+  <Text Key="BBS.SubjectHugeDamage" Value="존내 큰 대미지" />
+  <Text Key="BBS.SubjectRe:HugeDamage" Value="Re: 존내 큰 대미지" />
+  <Text Key="BBS.SubjectNaviPA" Value="내비의 PA" />
+  <Text Key="BBS.SubjectRe:NaviPA" Value="Re: 내비의 PA" />
+  <Text Key="BBS.SubjectPASpam" Value="PA 연사" />
+  <Text Key="BBS.SubjectRe:PASpam" Value="Re: PA 연사" />
+  <Text Key="BBS.SubjectChips" Value="칩!" />
+  <Text Key="BBS.SubjectRe:Chips" Value="Re: 칩!" />
+  <Text Key="BBS.SubjectFirewall" Value="아바스트?" />
+  <Text Key="BBS.SubjectRe:Firewall" Value="Re: 아바스트?" />
+  <Text Key="BBS.PosterElerai" Value="일렉라이" />
+  <Text Key="BBS.SubjectSPHunting" Value="SP 바이러스 사냥" />
+  <Text Key="BBS.SubjectRe:SPHunting" Value="Re: SP 바이러스 사냥" />
+</data>

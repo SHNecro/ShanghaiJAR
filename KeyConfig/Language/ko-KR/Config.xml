@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="ImportOverwritePrompt" Value="새 버전과 구 버전의 구성 파일이 발견되었습니다.&#xD;&#xA;&#xD;&#xA;새 구성으로 덮어쓰시겠습니까?" />
+  <Text Key="Config" Value="설정" />
+  <Text Key="ScreenSize" Value="화면 사이즈" />
+  <Text Key="Sizex1" Value="240×160 (GBA기준)" />
+  <Text Key="Sizex2" Value="480×320 (2배)" />
+  <Text Key="Sizex3" Value="720×480 (3배)" />
+  <Text Key="Sizex4" Value="960×640 (4배)" />
+  <Text Key="SizeCustom" Value="가변" />
+  <Text Key="SizeCustomLeft" Value="(" />
+  <Text Key="SizeCustomRight" Value="배)" />
+  <Text Key="RefreshRate" Value="묘사 속도" />
+  <Text Key="DisplayRate" Value="디스플레이:" />
+  <Text Key="TurboRate" Value="가속:" />
+  <Text Key="WindowedHeader" Value="표시 모드" />
+  <Text Key="Windowed" Value="윈도우" />
+  <Text Key="Fullscreen" Value="풀 스크린" />
+  <Text Key="InactiveHeader" Value="비활성화 시" />
+  <Text Key="Running" Value="작동함" />
+  <Text Key="Paused" Value="일시정지" />
+  <Text Key="BGMVolume" Value="BGM 음량" />
+  <Text Key="SFXVolume" Value="효과음 음량" />
+  <Text Key="Language" Value="언어" />
+  <Text Key="Rendering" Value="렌더링" />
+  <Text Key="Keyboard" Value="키보드" />
+  <Text Key="DirectX9" Value="DirectX 9" />
+  <Text Key="OpenGL" Value="OpenGL" />
+  <Text Key="Audio" Value="오디오" />
+  <Text Key="DirectSound" Value="DirectSound" />
+  <Text Key="OpenAL" Value="OpenAL" />
+  <Text Key="KeyUp" Value="십자키 ↑" />
+  <Text Key="KeyRight" Value="십자키 →" />
+  <Text Key="KeyDown" Value="십자키 ↓" />
+  <Text Key="KeyLeft" Value="십자키 ←" />
+  <Text Key="KeyA" Value="A 버튼(결정, 칩 사용)" />
+  <Text Key="KeyB" Value="B 버튼(취소, 버스터)" />
+  <Text Key="KeyL" Value="L 버튼(힌트 회화, 도주)" />
+  <Text Key="KeyR" Value="R 버튼(플러그 인, 아웃)" />
+  <Text Key="KeyStart" Value="START 버튼(메뉴, 일시정지)" />
+  <Text Key="KeySelect" Value="SELECT 버튼(여러 곳에 사용)" />
+  <Text Key="KeyTurbo" Value="터보 버튼(누르는 동안 가속)" />
+  <Text Key="GamePad" Value="컨트롤러" />
+  <Text Key="PadUp" Value="십자키 ↑" />
+  <Text Key="PadRight" Value="십자키 →" />
+  <Text Key="PadDown" Value="십자키 ↓" />
+  <Text Key="PadLeft" Value="십자키 ←" />
+  <Text Key="PadA" Value="A 버튼(결정, 칩 사용)" />
+  <Text Key="PadB" Value="B 버튼(취소, 버스터)" />
+  <Text Key="PadL" Value="L 버튼(힌트 회화, 도주)" />
+  <Text Key="PadR" Value="R 버튼(플러그 인, 아웃)" />
+  <Text Key="PadStart" Value="START 버튼(메뉴, 일시정지)" />
+  <Text Key="PadSelect" Value="SELECT 버튼(여러 곳에 사용)" />
+  <Text Key="PadTurbo" Value="터보 버튼(누르는 동안 가속)" />
+  <Text Key="Extra" Value="엑스트라" />
+  <Text Key="DialogueTester" Value="대화창 테스터 표시" />
+  <Text Key="AdjustBustingLevel" Value="버스팅 레벨 임의 하향 활성화" />
+  <Text Key="AllowTurboSlowdown" Value="[Allow Turbo Slowdown]" />
+  <Text Key="DisableBGMOverride" Value="[Disable BGM Override]" />
+  <Text Key="FixEngrish" Value="원본 영어 수정" />
+  <Text Key="StretchFullscreen" Value="화면 비율 유지" />
+  <Text Key="StretchFullscreenOpenGL" Value="OpenGL 모드 전용" />
+</data>

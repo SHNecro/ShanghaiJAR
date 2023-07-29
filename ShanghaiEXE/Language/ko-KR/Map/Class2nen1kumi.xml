@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Class2nen1kumiName" Value="환상중학교 2학년 1반 교실" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Man1Stage1Dialogue1FaceMaleStudent" Value="이 중학교는 드물게도,교복이 없단 말이지." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Man2Stage1Dialogue1FaceMaleStudent" Value="인터넷은 엄청 넓은,전뇌 세계야." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Man2Stage1Dialogue2FaceMaleStudent" Value="게다가 일본 뿐만 아니라,전세계와 연결되어 있어." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Men3Stage1Dialogue1FaceMaleStudent" Value="레귤러 시스템이란...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Men3Stage1Dialogue2FaceMaleStudent" Value="넷배틀에 있어서 맨 처음에,등장하는 칩을 설정할 수 있는,편리한 시스템이다." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Men3Stage1Dialogue3FaceMaleStudent" Value="칩 폴더 편집 화면에서,레귤러로 지정하고 싶은 칩에,커서를 맞춘 뒤 셀렉트 버튼." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Men3Stage1Dialogue4FaceMaleStudent" Value="칩의 용량이 레귤러 용량,이하일 경우 붉은색 테두리가,붙으면서 설정 완료." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Men3Stage1Dialogue5FaceMaleStudent" Value="또한，레귤러 용량은,레귤러업이라는 가상 메모리로,늘릴 수 있다라...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Men3Stage1Dialogue6FaceMaleStudent" Value="이번에 시험 치기 전까지,암기해 놔야겠어...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Woman1Stage1Dialogue1FaceFemaleStudent" Value="너 옆 반 애구나." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Woman1Stage1Dialogue2FaceFemaleStudent" Value="교실 헛갈렸어?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Woman2Stage1Dialogue1FaceFemaleStudent" Value="2학년 2반 애들은,커스터마이즈 잘 된 내비,많이 가지고 있더라～" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter1Woman2Stage1Dialogue2FaceFemaleStudent" Value="좋겠다.,어떻게 하면 귀여운 내비를,만들 수 있을까?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-1Girl1Stage1Dialogue1FaceFemaleStudent" Value="휴일이라 해도 공부할 거라면,교실을 써도 돼." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-1Girl1Stage1Dialogue2FaceFemaleStudent" Value="집에서 하는 것보다,숙제가 더 잘 돼.,앨리스도 같이 하는 거 어때?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-1Man1Stage1Dialogue1FaceMaleStudent" Value="공부하는 척 하면서,학급문고를 읽고 있어." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-1Man1Stage1Dialogue2FaceMaleStudent" Value="항상 내가 먼저네 너가 먼저네,하면서 다투다 보니까,진정하고 읽을 수가 없어서 말야." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Girl1Stage1Dialogue1FaceFemaleStudent" Value="2학년 2반에,전학생이 온다나 봐." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Girl1Stage1Dialogue2FaceFemaleStudent" Value="1반에는 안 올까나～?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Girl2Stage1Dialogue1FaceFemaleStudent" Value="영원 에리어에는,무서운 사람이 많다더라." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Girl2Stage1Dialogue2FaceFemaleStudent" Value="거기다 뭔가 위험한 에리어와,연결되어 있다나봐." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Girl2Stage1Dialogue3FaceFemaleStudent" Value="가까이 하지 않는 게,좋을 것 같아." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Boy1Stage1Dialogue1FaceMaleStudent" Value="인터넷의 경계가 풀려서,영원 에리어에,갈 수 있게 됐나 봐." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Boy1Stage1Dialogue2FaceMaleStudent" Value="이제 친구 홈페이지에,갈 수 있겠어." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Boy2Stage1Dialogue1FaceMaleStudent" Value="큰일 났다. 숙제 데이터를,집에 두고 와 버렸어...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2Boy2Stage1Dialogue2FaceMaleStudent" Value="내비를 보내서 가져와 달라고 할까?,근데 제시간에 도착할 수 있을까...." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2TeacherStage1Dialogue1FaceFemaleAdult" Value="내 친구 중 한 명이,영원고등학교에 부임해 있는데,아주 큰일이라고 하네." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2TeacherStage1Dialogue2FaceFemaleAdult" Value="평소 행실이,불량한 학생들이 많다면서." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2TeacherStage1Dialogue3FaceFemaleAdult" Value="그래 보이는 고등학생들을,중앙로 같은 데에서 만나더라도,말 걸거나 하지 마렴." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-2TeacherStage3Dialogue1FaceFemaleAdult" Value="위험한 사건이었는데,아무도 다치지 않아서 다행이야." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Girl1Stage1Dialogue1FaceFemaleStudent" Value="이 학교에는 수상한 사람이,들어왔을 때 쓸 목적으로,문에 장치된 게 있다는데." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Girl1Stage3Dialogue1FaceFemaleStudent" Value="보안이 악용되면,우리한테도 위험이,닥치는구나." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Girl2Stage1Dialogue1FaceFemaleStudent" Value="학급 임원들은 학교의 다양한,네트워크에 액세스할 수 있는,권리가 있어." Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Girl2Stage3Dialogue1FaceFemaleStudent" Value="넷 배틀 잘 하는 학생한테,학교의 네트워크 관리를,맡기는 게 좋지 않을까?" Face="FemaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Boy1Stage1Dialogue1FaceMaleStudent" Value="넷배틀은 어렵단 말이지." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Boy1Stage1Dialogue2FaceMaleStudent" Value="난 내비한테 지시하는 거랑,칩의 전송이 동시에,잘 안 돼..." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Boy1Stage3Dialogue1FaceMaleStudent" Value="넷배틀을 잘 했다면,아까 전의 사건에서 영웅이,됐을 지도 모를 일이네." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Boy2Stage1Dialogue1FaceMaleStudent" Value="아줌마 선생님들 같은 사람들,중에는 넷 내비가 없는,사람들이 적지가 않아." Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Boy2Stage1Dialogue2FaceMaleStudent" Value="옛날에는 없었으니까,내비가 없더라도 괜찮았을까?" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter3-3Boy2Stage3Dialogue1FaceMaleStudent" Value="아까 전의 사건을,해결한 게 너희들이구나!,대단하다!" Face="MaleStudent" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChapter4StudentAStage1Dialogue1FaceMaleChild" Value="휴일에도 동아리 활동 때문에,진이 다 빠져...." Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiTeachStage1Dialogue1FaceNone" Value="선생님이 쓰는 교탁이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiTeachStage1Dialogue2FaceNone" Value="학생들이 쓰기에는 너무 높은,그 높이 때문에 선생님용,책상이라는 게 두드러진다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-1Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-1Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-1Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-1Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-1Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-1Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-2Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-2Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-2Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-2Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-2Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-2Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-3Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-3Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-3Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-3Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-3Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-3Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-4Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine1-4Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-4Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine2-4Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-4Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiMachine3-4Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-1Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-1Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-1Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-1Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-1Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-1Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-2Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-2Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-2Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-2Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-2Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-2Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-3Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-3Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-3Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-3Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-3Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-3Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-4Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair1-4Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-4Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair2-4Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-4Stage1Dialogue1FaceNone" Value="지극히 평범한 학생용 책상이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiChair3-4Stage1Dialogue2FaceNone" Value="역시나 이 책상에 컴퓨터는,내장되어 있지 않다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiClassClassCollectionStage1Dialogue1FaceNone" Value="이 반의 학급문고다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiClassClassCollectionStage1Dialogue2FaceNone" Value="세계적으로 유명한,판타지 소설의 일어 번역본이나,학습 만화가 놓여져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiClassClassCollectionStage1Dialogue3FaceNone" Value="그리고 어째서인지 전쟁을,바탕으로 한 우울한,만화도 놓여져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiClassClassCollectionStage1Dialogue4FaceNone" Value="실수로라도 읽었다간,트라우마가 피어날 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiClassClassCollectionStage1Dialogue5FaceNone" Value="....책 사이에,뭔가가 끼워져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiThats’ItStage1Dialogue1FaceNone" Value="무언가의 가격 변동을,표현한 그래프다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiThats’ItStage1Dialogue2FaceNone" Value="사회 계열 수업에서,쓰는 걸까?" Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiBlackboardStage1Dialogue1FaceNone" Value="이 교실의 전자 칠판이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiBlackboardStage1Dialogue2FaceNone" Value="전자 분필을 쓰기 때문에,더러워지지 않고,청소하기 쉬운 게 좋다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiBlackboardStage1Dialogue3FaceNone" Value="플러그인하면,컴퓨터로 준비한 자료를,칠판에 띄울 수도 있다고 한다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiPostGameBystander1Dialogue1" Value="여름방학 오기 전에,등교 안 하는 그 녀석이,오게 되지 않을까～?" Face="MaleChild" Mono="False" />
+  <Dialogue Key="Map.Class2nen1kumiPostGameBystander2Dialogue1" Value="사실 이 반에는 딱 한 명,단 한 번도 학교에 오지 않은,남자애가 있어." Face="FemaleChild" Mono="False" />
+</data>

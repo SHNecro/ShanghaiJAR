@@ -1,18 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <data>
   <Text Key="ImportOverwritePrompt" Value="構成ファイルの新旧のバージョンが見つかりました。&#xD;&#xA;&#xD;&#xA;新しい構成を上書きしますか?" />
   <Text Key="Config" Value="設定" />
   <Text Key="ScreenSize" Value="画面サイズ" />
-  <Text Key="Sizex1" Value="240x160 (GBA準拠)" />
-  <Text Key="Sizex2" Value="480x320 (2倍)" />
-  <Text Key="Sizex3" Value="720x480 (3倍)" />
-  <Text Key="Sizex4" Value="960x640 (4倍)" />
+  <Text Key="Sizex1" Value="240×160 (GBA準拠)" />
+  <Text Key="Sizex2" Value="480×320 (2倍)" />
+  <Text Key="Sizex3" Value="720×480 (3倍)" />
+  <Text Key="Sizex4" Value="960×640 (4倍)" />
   <Text Key="SizeCustom" Value="可変" />
   <Text Key="SizeCustomLeft" Value="(" />
   <Text Key="SizeCustomRight" Value="倍)" />
   <Text Key="RefreshRate" Value="描画速度" />
-  <Text Key="DisplayRate" Value="[Display:]" />
-  <Text Key="TurboRate" Value="[Turbo:]" />
+  <Text Key="DisplayRate" Value="ディスプレー" />
+  <Text Key="TurboRate" Value="加速" />
   <Text Key="WindowedHeader" Value="表示モード" />
   <Text Key="Windowed" Value="表示モード" />
   <Text Key="Fullscreen" Value="フルスクリーン" />
@@ -21,12 +21,12 @@
   <Text Key="Paused" Value="動作しない" />
   <Text Key="BGMVolume" Value="ＢＧＭ　音量" />
   <Text Key="SFXVolume" Value="効果音　音量" />
-  <Text Key="Language" Value="[Language]" />
-  <Text Key="Rendering" Value="[Rendering]" />
+  <Text Key="Language" Value="言語" />
+  <Text Key="Rendering" Value="レンダリング" />
   <Text Key="Keyboard" Value="キーボード" />
   <Text Key="DirectX9" Value="DirectX 9" />
   <Text Key="OpenGL" Value="OpenGL" />
-  <Text Key="Audio" Value="[Audio]" />
+  <Text Key="Audio" Value="オーディオ" />
   <Text Key="DirectSound" Value="DirectSound" />
   <Text Key="OpenAL" Value="OpenAL" />
   <Text Key="KeyUp" Value="十字キ ↑" />
@@ -39,7 +39,7 @@
   <Text Key="KeyR" Value="Rボタン(プラグイン、アウト)" />
   <Text Key="KeyStart" Value="STARTボタン(メニュー、ポーズ)" />
   <Text Key="KeySelect" Value="SELECTボタン(多岐に使用)" />
-  <Text Key="KeyTurbo" Value="[Turbo Button]" />
+  <Text Key="KeyTurbo" Value="ターボボタン(押してる間加速)" />
   <Text Key="GamePad" Value="コントローラー" />
   <Text Key="PadUp" Value="十字キ ↑" />
   <Text Key="PadRight" Value="十字キ →" />
@@ -51,13 +51,13 @@
   <Text Key="PadR" Value="Rボタン(プラグイン、アウト)" />
   <Text Key="PadStart" Value="STARTボタン(メニュー、ポーズ)" />
   <Text Key="PadSelect" Value="SELECTボタン(多岐に使用)" />
-  <Text Key="PadTurbo" Value="[Turbo Button]" />
-  <Text Key="Extra" Value="[Extra]" />
-  <Text Key="DialogueTester" Value="[Show Dialogue Tester]" />
-  <Text Key="AdjustBustingLevel" Value="[Enable Busting Level Downgrading]" />
+  <Text Key="PadTurbo" Value="ターボボタン(押してる間加速)" />
+  <Text Key="Extra" Value="エキストラ" />
+  <Text Key="DialogueTester" Value="台詞テストウィンドウ表示" />
+  <Text Key="AdjustBustingLevel" Value="バスティングレベル任意下向活性化" />
   <Text Key="AllowTurboSlowdown" Value="[Allow Turbo Slowdown]" />
-  <Text Key="DisableBGMOverride" Value="[Disable BGM Override]" />
-  <Text Key="FixEngrish" Value="[Fix Original English]" />
-  <Text Key="StretchFullscreen" Value="[Maintain Aspect Radio]" />
-  <Text Key="StretchFullscreenOpenGL" Value="[OpenGL mode only]" />
+  <Text Key="DisableBGMOverride" Value="ＢＧＭ強制終了を非活性化" />
+  <Text Key="FixEngrish" Value="オリジナル英語修正" />
+  <Text Key="StretchFullscreen" Value="画面比率維持" />
+  <Text Key="StretchFullscreenOpenGL" Value="OpenGLモードのみ" />
 </data>

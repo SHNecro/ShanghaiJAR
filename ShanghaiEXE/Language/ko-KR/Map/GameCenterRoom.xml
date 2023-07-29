@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.GameCenterRoomName" Value="게임 센터 직원실" />
+  <Dialogue Key="Map.GameCenterRoomTrash2Stage1Dialogue1FaceNone" Value="캔이나 페트병을,버리는 쓰레기통이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTrash2Stage1Dialogue2FaceNone" Value="안은.... 텅 비어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue1FaceNone" Value="햇빛이 닿지 않는 방의 구석에,관엽식물이 쓸쓸하게,놓여져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue2FaceNone" Value="진짜 식물인 줄 알았는데,아무래도 조화인 듯 하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage1Dialogue3FaceNone" Value="....흙이 있는 곳에,금속 재질을 한 듯한,무언가가 묻혀 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage3Dialogue1FaceNone" Value="햇빛이 닿지 않는 방의 구석에,관엽식물이 쓸쓸하게,놓여져 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomFoliagePlantStage3Dialogue2FaceNone" Value="진짜 식물인 줄 알았는데,아무래도 조화인 듯 하다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTableStage1Dialogue1FaceNone" Value="크고 빨간 테이블이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomTableStage1Dialogue2FaceNone" Value="종업원들은 휴식하는 동안,이 테이블에서 담소를 나누는 걸까." Face="None" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage1Dialogue1QuestionFaceScientist" Value="그대는 투지를 불태울,준비가 되었는가!" Face="Scientist" Mono="False" />
+  <Text Key="Map.GameCenterRoomChapter4Stage1Dialogue1Options" Value="예!,아니오" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage1Dialogue2FaceScientist" Value="싸움에서는 도망치지 않는다!,그대가 충분하다고 느낄,때까지 준비하라!" Face="Scientist" Mono="False" />
+  <Dialogue Key="Map.GameCenterRoomChapter4Stage2Dialogue1FaceScientist" Value="그러면 불꽃의 현장으로!,READY-，GO!!" Face="Scientist" Mono="False" />
+</data>

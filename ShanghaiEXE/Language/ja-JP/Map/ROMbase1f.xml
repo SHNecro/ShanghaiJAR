@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- ROM基地　倉庫 -->
   <Text Key="Map.ROMbase1fName" Value="ROM基地　倉庫" />
@@ -153,7 +153,7 @@
   <!-- やることはやったからってもう帰ったみたいだけどね -->
   <Dialogue Key="Map.ROMbase1fRemiliaStage1Dialogue3FaceRemilia" Value="やることはやったからって,もう帰ったみたいだけどね" Face="Remilia" Mono="False" />
   <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue1" Value="何が入っているかわからないが,ずっしりと重たいコンテナだ" Face="None" Mono="False" />
-  <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue2" Value="[It’s sealed tight anyways.,I’d need a crowbar to pry it,open.]" Face="None" Mono="False" />
-  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue1" Value="[Hm? You want to know if we’ve,opened up these crates to see,what’s inside?]" Face="Policeman" Mono="False" />
-  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue2" Value="[Eh，it’s nothing special.,Ammo，electrical components，,memory chips，junk like that.]" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameContainerDialogue2" Value="しっかりと密封されていて,開けるには金テコで,こじ開けるしかなさそうだ" Face="None" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue1" Value="む？このコンテナを開けて,どんな物が見つかったのか,分かりたいと？" Face="Policeman" Mono="False" />
+  <Dialogue Key="Map.ROMbase1fPostgameAgentDialogue2" Value="まあ、弾薬、電子部品、,メモリチップ、ガラクタ等々、,大したことない物ばかりだった" Face="Policeman" Mono="False" />
 </data>

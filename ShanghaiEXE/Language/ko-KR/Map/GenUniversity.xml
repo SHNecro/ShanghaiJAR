@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- 幻想大学前 -->
+  <Text Key="Map.GenUniversityName" Value="환상대학교 앞" />
+  <!-- 講義がない時間はのんびりとチップフォルダを編集するのさ -->
+  <Dialogue Key="Map.GenUniversityChapter2Male1Stage1Dialogue1FaceMaleAdult" Value="강의가 없을 때에는,느긋하게 칩 폴더를 편집해." Face="MaleAdult" Mono="False" />
+  <!-- ここ　幻想大学はかなりの名門校なのよ -->
+  <Dialogue Key="Map.GenUniversityChapter2Woman1Stage1Dialogue1FaceFemaleAdult" Value="이 환상 대학교는,꽤나 명문 대학교야." Face="FemaleAdult" Mono="False" />
+  <!-- でも　あなたもしっかり勉強すればここへ通うのも夢じゃないのよ -->
+  <Dialogue Key="Map.GenUniversityChapter2Woman1Stage1Dialogue2FaceFemaleAdult" Value="그렇지만 너도 착실히,공부한다면 여기 입학하는,것도 꿈은 아냐." Face="FemaleAdult" Mono="False" />
+  <!-- 森近博士に会いに来たのかい？ -->
+  <Dialogue Key="Map.GenUniversityChapter2Male2Stage1Dialogue1FaceScientist" Value="모리치카 박사님을 뵈러 왔니?" Face="Scientist" Mono="False" />
+  <!-- 博士は自分の研究室にいるだろうから行ってみるよいいよ -->
+  <Dialogue Key="Map.GenUniversityChapter2Male2Stage1Dialogue2FaceScientist" Value="박사님은 연구소에 계실 테니까,거기로 가면 될 거야." Face="Scientist" Mono="False" />
+  <!-- 今日は帰ろうかな？それとも部室でのんびりしようかな？ -->
+  <Dialogue Key="Map.GenUniversityChapter2Woman2Stage1Dialogue1FaceFemaleAdult" Value="오늘은 그냥 돌아갈까?,아니면 방에서,느긋하게 있을까?" Face="FemaleAdult" Mono="False" />
+  <!-- 来たか！今入口を開けるぜ！ -->
+  <Dialogue Key="Map.GenUniversityChapter2MariStage1Dialogue1FaceMari" Value="왔구나!,출입문을 열게!" Face="Mari" Mono="False" />
+  <!-- お姉ちゃんがいらいを受けてくれた人？ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue1FaceFemaleChild" Value="언니가 의뢰를 수락해 줬구나?" Face="FemaleChild" Mono="False" />
+  <!-- えっとね！　大学で頑張ってるわたしのお姉ちゃんに　きれいな氷の結晶を見せたいの！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue2FaceFemaleChild" Value="저기 있지! 대학교에서 열심히,힘 쓰고 있는 우리 언니에게,예쁜 얼음 결정을 보여주고파!" Face="FemaleChild" Mono="False" />
+  <!-- 氷の結晶のデータはねよくわかんないけどいやしの効果があるんだって -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue3FaceFemaleChild" Value="얼음의 결정은 있지,잘 모르겠는데 치유의,효과가 있다나 봐." Face="FemaleChild" Mono="False" />
+  <!-- それでね　氷の結晶のデータは寒い電脳世界の奥の方にできるって聞いたんだけど -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue4FaceFemaleChild" Value="그래서 말인데，얼음의 결정,데이터는 추운 전뇌세계 안쪽에서,만들어진다고 들었는데" Face="FemaleChild" Mono="False" />
+  <!-- わたし　寒い電脳世界なんて知らないから依頼したの！えへへ　かしこいでしょ！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue5FaceFemaleChild" Value="난 추운 전뇌세계 같은 걸,잘 몰라서 의뢰했어!,에헤헤，나 영리하지!" Face="FemaleChild" Mono="False" />
+  <!-- 氷の結晶のデータが見つかったらわたしに渡してね！そしたらお礼をあげるの！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue6FaceFemaleChild" Value="얼음 결정의 데이터를 발견하면,나한테 가져다 줘!,그러면 사례할게!" Face="FemaleChild" Mono="False" />
+  <!-- それじゃあ　よろしくね！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage1Dialogue7FaceFemaleChild" Value="그러면 부탁할게!" Face="FemaleChild" Mono="False" />
+  <!-- 氷の結晶のデータは寒い電脳世界の奥の方にできるって！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage3Dialogue1FaceFemaleChild" Value="얼음의 결정 데이터는,추운 전뇌세계 안쪽에서,만들어진대!" Face="FemaleChild" Mono="False" />
+  <!-- 氷の結晶のデータが見つかったらわたしに渡してね！そしたらお礼をあげるの！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage3Dialogue2FaceFemaleChild" Value="얼음 결정의 데이터를 발견하면,나한테 가져다 줘!,그러면 사례할게!" Face="FemaleChild" Mono="False" />
+  <!-- それじゃあ　よろしくね！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage3Dialogue3FaceFemaleChild" Value="그러면 부탁할게!" Face="FemaleChild" Mono="False" />
+  <!-- わぁ！これが氷の結晶のデータね！すっごくきれいだね！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage5Dialogue1FaceFemaleChild" Value="와아!,이게 얼음 결정의 데이터구나!,엄청 예뻐!" Face="FemaleChild" Mono="False" />
+  <!-- ありがとうお姉ちゃん！わたしのおねえちゃんもきっとすっごく喜ぶよ！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage5Dialogue2FaceFemaleChild" Value="고마워，언니!,나도 우리 언니도,분명 엄청 기뻐할 거야!" Face="FemaleChild" Mono="False" />
+  <!-- じゃあ　これがお礼だよ！本当にありがとう！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage5Dialogue3FaceFemaleChild" Value="그러면 여기 사례야!,정말 고마워!" Face="FemaleChild" Mono="False" />
+  <!-- すーっごくきれいな氷の結晶のデータありがとう！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage7Dialogue1FaceFemaleChild" Value="지～인짜 예쁜,얼음 결정의 데이터를,가져다 줘서 고마워!" Face="FemaleChild" Mono="False" />
+  <!-- きれいなものっていやされるよね！　えへへ！ -->
+  <Dialogue Key="Map.GenUniversityRequester3Stage7Dialogue2FaceFemaleChild" Value="예쁜 걸 보고 있으면,정말 치유되는구나! 에헤헤!" Face="FemaleChild" Mono="False" />
+  <!-- 休講日に事件があったんだってね -->
+  <Dialogue Key="Map.GenUniversityChapter3Male1Stage1Dialogue1FaceMaleAdult" Value="휴강이 있던 날에,사건이 있었다는데." Face="MaleAdult" Mono="False" />
+  <!-- ＲＯＭが関係していたらしいけど大丈夫なのかなぁ -->
+  <Dialogue Key="Map.GenUniversityChapter3Male1Stage1Dialogue2FaceMaleAdult" Value="ROM이 관여했다는 것 같은데,괜찮을지 모르겠네." Face="MaleAdult" Mono="False" />
+  <!-- なんで休日に講義があるのよー私の休日を返して〜！ -->
+  <Dialogue Key="Map.GenUniversityChapter3Woman1Stage1Dialogue1FaceFemaleAdult" Value="아 왜 휴일에 강의가 있는데에～,내 휴일 돌리도～!" Face="FemaleAdult" Mono="False" />
+  <!-- あれってＧＲＮの早苗さんよね？収録の後お話できないかな？ -->
+  <Dialogue Key="Map.GenUniversityChapter3Woman1Stage3Dialogue1FaceFemaleAdult" Value="HRN의 사나에 씨잖아?,녹화 끝나고 난 뒤에,말 걸어볼 수 있을까?" Face="FemaleAdult" Mono="False" />
+  <!-- 今週は幻想大学の前からお天気をお伝えしまーす！ -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage1Dialogue1FaceSanaeReporter" Value="이번 주는 환상 대학교 앞에서,날씨 예보를 전해 드립니다～!" Face="SanaeReporter" Mono="False" />
+  <!-- 今日のお天気は晴れ！カラッとした陽気で一日中気持ちよく過ごせるでしょう！ -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage1Dialogue2FaceSanaeReporter" Value="오늘은 맑겠습니다!,화창한 날씨로 하루 종일,기분 좋게 지낼 수 있겠네요!" Face="SanaeReporter" Mono="False" />
+  <!-- 次は今週のお天気！今週はずっと晴れ続きで雨の心配はいりません！ -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage1Dialogue3FaceSanaeReporter" Value="다음은 이번 주의 날씨인데요!,이번 주는 비 걱정 전혀 없이,맑은 날이 계속되겠습니다!" Face="SanaeReporter" Mono="False" />
+  <!-- 週末におでかけの予定を立てるのもいいかもしれませんね！ -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage1Dialogue4FaceSanaeReporter" Value="주말에 외출할,예정을 세우는 것도,좋을 수도 있겠네요!" Face="SanaeReporter" Mono="False" />
+  <!-- 幻想大学の前から中継しています -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage3Dialogue1FaceSanaeReporter" Value="환상 대학교 앞에서,중계하고 있습니다." Face="SanaeReporter" Mono="False" />
+  <!-- ＲＯＭの宣戦布告を受けたネットエージェントは自衛隊と協力し部隊を展開 -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage3Dialogue2FaceSanaeReporter" Value="ROM의 선전포고를 받은,넷 에이전트들은 방위군과,협력하여 부대를 전개했습니다." Face="SanaeReporter" Mono="False" />
+  <!-- 厳しい警戒による緊張の中あたりは静まり返っています -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage3Dialogue3FaceSanaeReporter" Value="삼엄한 경계에 의한 긴장 속,주변은 아주 조용합니다." Face="SanaeReporter" Mono="False" />
+  <!-- 皆様も安全が確認されるまで不要な外出は控えますようお願いいたします -->
+  <Dialogue Key="Map.GenUniversityChapter3SanaeStage3Dialogue4FaceSanaeReporter" Value="여러분도 안전이 확인될 때까지는,불필요한 외출은 삼갈 것을,부탁드립니다." Face="SanaeReporter" Mono="False" />
+  <!-- ＧＲＮの無人反重力カメラだ -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage1Dialogue1FaceNone" Value="HRN의 무인 반중력 카메라다." Face="None" Mono="False" />
+  <!-- プラグインしたナビが操作してアナウンサーと一心同体の撮影が行えるすぐれものだ -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage1Dialogue2FaceNone" Value="플러그인한 내비가 조작해서,아나운서와 일심동체로,촬영할 수 있는 대단한 물건이다." Face="None" Mono="False" />
+  <!-- カメラからかすかにナビの声が聞こえてくる -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage1Dialogue3FaceNone" Value="카메라에서 어렴풋이,내비의 목소리가 들린다." Face="None" Mono="False" />
+  <!-- 「早苗ー！　いい笑顔だケロ〜！」 -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage1Dialogue4FaceNone" Value="”사나에～!, 웃는 얼굴 좋아，개굴～!”" Face="None" Mono="False" />
+  <!-- ＧＲＮの無人反重力カメラだ -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage3Dialogue1FaceNone" Value="HRN의 무인 반중력 카메라다." Face="None" Mono="False" />
+  <!-- プラグインしたナビが操作してアナウンサーと一心同体の撮影が行えるすぐれものだ -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage3Dialogue2FaceNone" Value="플러그인한 내비가 조작해서,아나운서와 일심동체로,촬영할 수 있는 대단한 물건이다." Face="None" Mono="False" />
+  <!-- カメラからかすかにナビの声が聞こえてくる -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage3Dialogue3FaceNone" Value="카메라에서 어렴풋이,내비의 목소리가 들린다." Face="None" Mono="False" />
+  <!-- 「早苗ー！　もっと冷静な顔をするケロ！」 -->
+  <Dialogue Key="Map.GenUniversityChapter3KeroStage3Dialogue4FaceNone" Value="”사나에～!, 좀 더 냉정한 얼굴로，개굴!”" Face="None" Mono="False" />
+  <!-- 私　高校生の時は永遠高校に通ってたんだけど不良が結構多かったのよね -->
+  <Dialogue Key="Map.GenUniversityChapter4Woman1Stage1Dialogue1FaceFemaleAdult" Value="고등학생 시절에,영원고등학교에 다녔는데,거긴 불량학생이 꽤 많았어." Face="FemaleAdult" Mono="False" />
+  <!-- ネットエージェントってオペレーターの直接攻撃をされるおそれがあるんだって -->
+  <Dialogue Key="Map.GenUniversityChapter4Male1Stage1Dialogue1FaceMaleAdult" Value="넷 에이전트는,오퍼레이터가 직접 공격당할,위험성이 있다더라." Face="MaleAdult" Mono="False" />
+  <!-- だから特殊部隊の隊員は退役軍人や傭兵からスカウトするんだって -->
+  <Dialogue Key="Map.GenUniversityChapter4Male1Stage1Dialogue2FaceMaleAdult" Value="그래서 특수부대의 대원들은,퇴역한 군인들이나,용병들로부터 스카웃한대." Face="MaleAdult" Mono="False" />
+  <!-- 僕が目指す一般隊員は試験さえパスできれば入れるんだけどね -->
+  <Dialogue Key="Map.GenUniversityChapter4Male1Stage1Dialogue3FaceMaleAdult" Value="내가 지금 목표로 하고 있는,일반대원은 시험만 통과하면,들어갈 수 있지만." Face="MaleAdult" Mono="False" />
+  <!-- 教授が言ってたけどこの前大学のサーバーに不正なアクセス跡があったんだって -->
+  <Dialogue Key="Map.GenUniversityChapter5OlderSisterStage1Dialogue1FaceFemaleAdult" Value="교수님께서 그러더라.,이전에 대학교 서버에 부정한,액세스 흔적이 있었다고." Face="FemaleAdult" Mono="False" />
+  <!-- でも大事なデータには全然触られてなかったとか不思議よねえ -->
+  <Dialogue Key="Map.GenUniversityChapter5OlderSisterStage1Dialogue2FaceFemaleAdult" Value="그런데 중요한 데이터는,전혀 손 안 댔다고 했고.,참 이상해." Face="FemaleAdult" Mono="False" />
+  <!-- ここ最近　偉い教授は忙しくしてるみたいなの -->
+  <Dialogue Key="Map.GenUniversityChapter7SisterStage1Dialogue1FaceFemaleAdult" Value="최근 들어 교수님께서,엄청 바쁘신 모양이야." Face="FemaleAdult" Mono="False" />
+  <!-- そのせいで講義が減って嬉しいやらこれでいいのやら････ -->
+  <Dialogue Key="Map.GenUniversityChapter7SisterStage1Dialogue2FaceFemaleAdult" Value="그거 때문에 강의를,덜 받게 된 게 좋은 건지，,이걸로 괜찮은 건지...." Face="FemaleAdult" Mono="False" />
+  <!-- インターネットが使えないから後の講義が全部中止になっちゃった････ -->
+  <Dialogue Key="Map.GenUniversityChapter7SisterStage3Dialogue1FaceFemaleAdult" Value="인터넷을 쓸 수가 없으니까,이후에 있을 강의가 전부,중단되어 버렸어...." Face="FemaleAdult" Mono="False" />
+  <!-- 世の中がどんなに深刻な状態になっても日常生活は変わらない -->
+  <Dialogue Key="Map.GenUniversityChapter7SisterStage5Dialogue1FaceFemaleAdult" Value="세상이 아무리,심각한 상태가 되더라도,일상 생활은 바뀌지 않아." Face="FemaleAdult" Mono="False" />
+  <!-- たとえ世界滅亡が迫っていても単位の心配をするのが大学生ってものなのよ -->
+  <Dialogue Key="Map.GenUniversityChapter7SisterStage5Dialogue2FaceFemaleAdult" Value="설령 세상이 내일 멸망한다 해도,학점 걱정부터 우선 하는 게,대학생이란 생물이야." Face="FemaleAdult" Mono="False" />
+  <!-- まったく････機動兵器に見守られながら登校するなんて悪い冗談みたいだ -->
+  <Dialogue Key="Map.GenUniversityChapter8MenStage1Dialogue1FaceMaleAdult" Value="이건 미친 짓이야.... 기동병기한테,감시받으면서 등교를 한다니,질 나쁜 농담 같아." Face="MaleAdult" Mono="False" />
+  <!-- このような状況でも人は仕事に向かい学生は登校する -->
+  <Dialogue Key="Map.GenUniversityChapter8NetoeStage1Dialogue1FacePoliceman" Value="이런 상황이라 해도,사람은 일하러 나가고,학생들은 등교하고." Face="Policeman" Mono="False" />
+  <!-- 何が起こっても人の営みとは止まらないものなのだな -->
+  <Dialogue Key="Map.GenUniversityChapter8NetoeStage1Dialogue2FacePoliceman" Value="무슨 일이 일어나도,사람의 생업이란 건,멈추지 않는구나." Face="Policeman" Mono="False" />
+  <!-- 自衛隊の２８式陸機だ -->
+  <Dialogue Key="Map.GenUniversityChapter8RoboShieldStage1Dialogue1FaceNone" Value="방위군의 28식 육전기체이다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GenUniversityChapter8RoboShieldStage1Dialogue2FaceNone" Value="삼엄한 태도로,주위를 경계하고 있다." Face="None" Mono="False" />
+  <!-- 自衛隊の４８式陸機だ -->
+  <Dialogue Key="Map.GenUniversityChapter8RoboStage1Dialogue1FaceNone" Value="방위군의 48식 육전기체이다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GenUniversityChapter8RoboStage1Dialogue2FaceNone" Value="학생들이 있는 곳에,이런 기체가 서 있는 모습은,전혀 어울리지 않아 보인다." Face="None" Mono="False" />
+  <!-- 自衛隊の４８式陸機だ -->
+  <Dialogue Key="Map.GenUniversityChapter8RoboDupeStage1Dialogue1FaceNone" Value="방위군의 48식 육전기체이다." Face="None" Mono="False" />
+  <!-- 物々しいたたずまいで周囲を警戒している -->
+  <Dialogue Key="Map.GenUniversityChapter8RoboDupeStage1Dialogue2FaceNone" Value="삼엄한 태도로,주위를 경계하고 있다." Face="None" Mono="False" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GenUniversityToTheStationStage1Dialogue1QuestionFaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- 幻想町乗らない -->
+  <Text Key="Map.GenUniversityToTheStationStage1Dialogue1Options" Value="환상 마을,안 간다" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GenUniversityToTheStationStage3Dialogue1FaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!--  -->
+  <Dialogue Key="Map.GenUniversityToTheStationStage3Dialogue2QuestionFaceNone" Value="," Face="None" Mono="False" />
+  <!-- 幻想町中央街西区乗らない -->
+  <Text Key="Map.GenUniversityToTheStationStage3Dialogue2Options" Value="환상 마을,중앙가 서구,안 간다" />
+  <!-- どこまで乗りますか？ -->
+  <Dialogue Key="Map.GenUniversityToTheStationStage5Dialogue1QuestionFaceNone" Value="어디로 가시겠습니까?" Face="None" Mono="False" />
+  <!-- 幻想町中央街西区永遠町２丁目乗らない -->
+  <Text Key="Map.GenUniversityToTheStationStage5Dialogue1Options" Value="환상 마을,중앙가 서구,영원 마을 2번가,안 간다" />
+  <!-- 大学の前にある噴水だ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayUpperLeftStage1Dialogue1FaceNone" Value="대학교 앞에 있는 분수다." Face="None" Mono="False" />
+  <!-- 周りは涼しいので夏場は絶好の休憩スポットとして学生が集まるようだ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayUpperLeftStage1Dialogue2FaceNone" Value="주변이 시원해서 여름철에는,학생들을 끌어들이는,아주 좋은 휴게소가 된다." Face="None" Mono="False" />
+  <!-- 大学の前にある噴水だ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayLowerRightStage1Dialogue1FaceNone" Value="대학교 앞에 있는 분수다." Face="None" Mono="False" />
+  <!-- 周りは涼しいので夏場は絶好の休憩スポットとして学生が集まるようだ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayLowerRightStage1Dialogue2FaceNone" Value="주변이 시원해서 여름철에는,학생들을 끌어들이는,아주 좋은 휴게소가 된다." Face="None" Mono="False" />
+  <!-- 大学の前にある噴水だ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayUpperRightStage1Dialogue1FaceNone" Value="대학교 앞에 있는 분수다." Face="None" Mono="False" />
+  <!-- 周りは涼しいので夏場は絶好の休憩スポットとして学生が集まるようだ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayUpperRightStage1Dialogue2FaceNone" Value="주변이 시원해서 여름철에는,학생들을 끌어들이는,아주 좋은 휴게소가 된다." Face="None" Mono="False" />
+  <!-- 大学の前にある噴水だ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayLowerLeftStage1Dialogue1FaceNone" Value="대학교 앞에 있는 분수다." Face="None" Mono="False" />
+  <!-- 周りは涼しいので夏場は絶好の休憩スポットとして学生が集まるようだ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayLowerLeftStage1Dialogue2FaceNone" Value="주변이 시원해서 여름철에는,학생들을 끌어들이는,아주 좋은 휴게소가 된다." Face="None" Mono="False" />
+  <!-- ････なんとプラグインできる穴を見つけた！ -->
+  <Dialogue Key="Map.GenUniversityWaterSprayLowerLeftStage1Dialogue3FaceNone" Value="....아니!,플러그인할 수 있는,구멍을 발견했다!" Face="None" Mono="False" />
+  <!-- きっと噴水のコントロールのためにあるのだろう -->
+  <Dialogue Key="Map.GenUniversityWaterSprayLowerLeftStage1Dialogue4FaceNone" Value="분명 분수의 컨트롤을 위해,있는 거겠지." Face="None" Mono="False" />
+  <!-- 閉館していて入れない -->
+  <Dialogue Key="Map.GenUniversityToSchoolStage1Dialogue1FaceNone" Value="폐관되어 있어서,들어갈 수가 없다." Face="None" Mono="False" />
+  <!-- 戦闘テスト -->
+  <Dialogue Key="Map.GenUniversityTestSprite1Stage1Dialogue1FaceSprite" Value="전투 테스트" Face="Sprite" Mono="False" />
+  <!-- 戦闘テスト -->
+  <Dialogue Key="Map.GenUniversityTestSprite2Stage1Dialogue1FaceSprite" Value="전투 테스트" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.GenUniversityPostGameBystander1Dialogue1" Value="이전까지 여기에 방위군의,기동병기가 서 있었다니,믿기지가 않아." Face="FemaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversityPostGameBystander2Dialogue1" Value="이번에 있었던 ROM 사건의,해결에 모리치카 교수님께서,한 역할 하셨다더라." Face="MaleAdult" Mono="False" />
+  <Dialogue Key="Map.GenUniversityPostGameBystander2Dialogue2" Value="역시 세계의 박사님이라는 걸까?" Face="MaleAdult" Mono="False" />
+</data>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <Text Key="Map.BattleshipName" Value="전함 모형의 전뇌" />
+  <Dialogue Key="Map.BattleshipSprite1Stage1Dialogue1FaceSprite" Value="제1차 우주전쟁 시절에는,함포 사격 위주의 전투가,주를 이뤘습니다만" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite1Stage1Dialogue2FaceSprite" Value="제2차 우주전쟁에 들어,기동병기를 이용한 기동성,위주의 전투가 주를 이뤘습니다." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite1Stage1Dialogue3FaceSprite" Value="이게 전쟁의,발전이라는 거로군요～" Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite2Stage1Dialogue1FaceSprite" Value="콜로니 공화국이,선전포고를 한 이래로,2번이나 전쟁이 일어났어요." Face="Sprite" Mono="False" />
+  <Dialogue Key="Map.BattleshipSprite2Stage1Dialogue2FaceSprite" Value="2008년에 제1차,2013년에 제2차,우주대전이 발발했죠!" Face="Sprite" Mono="False" />
+</data>

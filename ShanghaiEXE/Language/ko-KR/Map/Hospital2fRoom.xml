@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <Text Key="Map.Hospital2fRoomName" Value="야고코로 종합 병원 병실" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue1FaceTenshi" Value="와～아!,모두들 와 줘서 고마워!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue2FaceMari" Value="생각했던 거보단 건강해 보이네." Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue3FaceRemilia" Value="화상 정도야 지금의 의료 기술이면,흔적도 없이 치료할 수 있으니까." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue4FaceTenshi" Value="다들 고마워!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue5FaceShanghai" Value="빨리 완쾌했으면 좋겠네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue6FaceShanghai" Value="네가 부상당했던 거 때문에,앨리스가 꽤나 기분이,다운되어 있었거든." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue7FaceAlice" Value="아니 잠깐 그건...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue8FaceTenshi" Value="미안...." Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue9FaceTenshi" Value="....아 맞다!,앨리스，이거 받아!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue10FaceAlice" Value="이건....?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue11FaceTenshi" Value="앨리스 얼마 안 있으면,잉겔레스 여행 가잖아?" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue12FaceTenshi" Value="그걸 나라고 생각하고,가져가 줬으면 해!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue13FaceTsubakiNekku" Value="잉겔레스 여행....?" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue14FaceTsubakiNekku" Value="아아，N1 리그의 상품으로,나왔던 그거 말이구나!" Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue15FaceMari" Value="좋겠네～!,해외 데뷔라니～!" Face="Mari" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue16FaceRemilia" Value="어머，그런 거였다면 나한테,말 걸어 주지 그랬어. 내가,추천 스팟을 알려줬을 텐데." Face="Remilia" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue17FaceRika" Value="그러고 보면 레밀리아 씨는,잉겔레스 출신이었던 거에요!" Face="Rika" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue18FaceAlice" Value="모처럼이기도 하니까 그런 건,내가 직접 찾아서 가 볼 생각이야." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue19FaceShanghai" Value="앨리스는 참 이상한 데에서,고지식하단 말야." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue20FaceTsubakiNekku" Value="엇，벌써 시간이 이렇게 됐네." Face="TsubakiNekku" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue21FaceTenshi" Value="모두들 와 줘서 고마워!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue22FaceTenshi" Value="앨리스! 잉겔레스 여행 선물이나,이야기 기대하고 있을게!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomChapter5EventsStage1Dialogue23FaceAlice" Value="알겠어.,즐기고 올게!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomDeterminationPerBed1Stage1Dialogue1FaceNone" Value="상당히 큰 병원 침대다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomDeterminationPerBed1Stage1Dialogue2FaceNone" Value="제아무리 키가 2m가 넘는,덩치 큰 사람이 여기 눕더라도,답답하다고 느끼지 않을 것이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomDeterminationPerBed1Stage3Dialogue1FaceTenshi" Value="병문안 와 줘서 고마워!,또 와 준다면 기쁠 거야!" Face="Tenshi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue1FaceRin" Value="사토리，손님이 왔어!" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue2FaceSatori" Value="어머....,당신은 그 때 그 분...." Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue3FaceAlice" Value="안녕하세요，사토리 씨." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue4FaceSatori" Value="병문안 와 줘서 고마워요.,너무도 기쁘네요." Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue5FaceShanghai" Value="눈이 안 보이는데,어떻게 앨리스인 걸 알아냈네." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue6FaceSatori" Value="보이지 않기에 오히려,보이는 것들이 있답니다." Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue7FaceRin" Value="태반은 내가,서포트해 주고 있지만." Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue8FaceSatori" Value="네，제 내비인 린이,없으면 생활을 전혀,할 수가 없답니다." Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue9FaceSatori" Value="그래도 이번 수술을 받으면,눈이 보이게 될 거에요." Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomBed2Stage1Dialogue10FaceSatori" Value="코이시와 린，그리고 앨리스 씨의,얼굴을 한시라도 빨리 보고 싶네요." Face="Satori" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage1Dialogue1FaceKoishi" Value="앨리스 언니!,이전에는 고마웠어!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage1Dialogue2FaceUtsuho" Value="우뉴～" Face="Utsuho" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue1FaceKoishi" Value="안녕，앨리스 언니!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue2FaceAlice" Value="안녕，코이시.,사토리 씨는?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue3FaceKoishi" Value="언니는 이미 전에,수술실에 들어갔어." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue4FaceAlice" Value="그러면 수술실 앞에서,끝날 때까지 기다리자." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue5FaceKoishi" Value="그래～에!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue6FaceShanghai" Value="그러고 보면 네 내비는?" Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue7FaceKoishi" Value="우츠호라면 지금,TV 전뇌에서 놀고 있어!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue8FaceKoishi" Value="그 애는 조용히 기다리거나,하는 걸 못 하는 성격이라." Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomGodStage3Dialogue9FaceShanghai" Value="흐～음...." Face="Shanghai" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf1Stage1Dialogue1FaceNone" Value="병실에 설치된 수납용 장롱이다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf1Stage1Dialogue2FaceNone" Value="커피 메이커나,카드를 넣어서 보는 타입의,TV도 들어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf2Stage1Dialogue1FaceNone" Value="텐시의 개인 물건들이,잔뜩 들어 있다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomShelf2Stage1Dialogue2FaceNone" Value="너무 만져 댔다간,혼날 것 같다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage1Dialogue1FaceNone" Value="으.... 음...." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage1Dialogue2FaceNone" Value="언니!!" Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue1FaceSatoriSeeing" Value="이것이....,눈으로 보는 빛의 세계구나." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue2FaceKoishi" Value="언니，언니!,내가 코이시야!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue3FaceSatoriSeeing" Value="코이시.... 후훗，,상상했던 대로,귀여운 얼굴을 하고 있구나." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue4FaceAlice" Value="사토리 씨，다행이네요!" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue5FaceSatoriSeeing" Value="앨리스 씨，코이시가 다양하게,신세를 졌던 것 같군요." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage3Dialogue6FaceSatoriSeeing" Value="제 측에서도,감사를 표해야겠네요.,정말로 감사합니다." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage5Dialogue1FaceEirin" Value="이 상태라면 좀만 더 있으면,퇴원할 수 있을 거야." Face="Eirin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage5Dialogue2FaceKoishi" Value="다행이다!!,이제 집에 같이,돌아갈 수 있어!" Face="Koishi" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue1FaceNone" Value="이렇게 사토리 씨의 수술을,둘러싼 사건은 막을 내렸다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue2FaceNone" Value="우츠호도 반성은 하고 있고,다크 칩 건도 있었다 보니,우츠호를 책망하지는 않았다." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue3FaceNone" Value="앞으로 코이시와 우츠호는,협력해서 사토리 씨의,일상생활을 서포트해 주겠지." Face="None" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomHospitalEventStage7Dialogue4FaceNone" Value="그리고...." Face="None" Mono="False" />
+  <!-- ウォォォン････口惜しや口惜しや････ -->
+  <Dialogue Key="Map.Hospital2fRoomHidingCharactersStage1Dialogue1FaceNaviBlackRobe" Value="으우오오오....,분하도다，분하도다...." Face="NaviBlackRobe" Mono="False" />
+  <!-- 必ずやこの力でわが怨敵に鉄槌を････ -->
+  <Dialogue Key="Map.Hospital2fRoomHidingCharactersStage1Dialogue2FaceNaviBlackRobe" Value="반드시 이 힘으로,내 원수들에게,복수의 철퇴를...." Face="NaviBlackRobe" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue1" Value="몸 상태는 어떤가요，사토리 씨?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue2" Value="아주 좋은 상태에요，앨리스 씨.,지금까지 기억하고 있었던 그 어느,때보다도 훨씬 상태가 좋아요." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue3" Value="다행이네요，사토리 씨.,무사해서...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue4" Value="그러고 보니까，저한테,하고 싶은 말이 있다고,야고코로 선생님한테서 들었는데...." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue5" Value="어머.... 그다지 큰 내용은 아니에요.,이렇게 직접 오셔서 들을만한,내용은 아닌데...." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue6" Value="아니，괜찮아요!,친구 사이에 만나러 오는 건,당연한 거잖아요?" Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue7" Value="친구.... 말이군요.,감사합니다，앨리스 씨." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue8" Value="그리고 상하이한테도 고마워!,사토리가 이야기하고 싶었던 건,”우리도 강해지고 싶어”였어!" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue9" Value="사토리가 다시 상처받지,않을 정도로 세지고 싶어!" Face="Rin" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue10" Value="꽤 먼 미래의 이야기가 되겠지만,언젠가 앨리스 씨한테도 도전해,보고 싶군요...." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestDialogue11" Value="물론이죠，사토리 씨!,그렇다고 너무,무리하지는 마시고." Face="Alice" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestAfterDialogue1" Value="최근에 린이랑 함께,입원해 있던 동안 놓친 것들을,이것저것 배우고 있어요." Face="SatoriSeeing" Mono="False" />
+  <Dialogue Key="Map.Hospital2fRoomPostRequestAfterDialogue2" Value="기다리고 있으라구!,실력을 계속 쌓아서 언젠가,너희들한테 도전할 테니까!" Face="Rin" Mono="False" />
+</data>
