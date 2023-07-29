@@ -86,7 +86,7 @@ namespace NSAttack
                         this.parent.effects.Add(new NormalChargehit(this.sound, this.parent, this.position.X, this.position.Y, 2));
                 }
             }
-            else if (!this.InArea)
+            if (!this.InArea)
                 this.flag = false;
             if (this.shot == BustorShot.SHOT.seedcanon && (this.position.X >= 5 || this.position.X <= 0))
                 this.SeedCanon();
