@@ -169,8 +169,8 @@ xcopy "$(ProjectDir)Language\en-US" "$(TargetDir)language\en-US" /s /d /y
 mkdir "$(TargetDir)language\ja-JP"
 xcopy "$(ProjectDir)Language\ja-JP" "$(TargetDir)language\ja-JP" /s /d /y
 
-mkdir "$(TargetDir)language\ja-JP"
-xcopy "$(ProjectDir)Language\ja-JP" "$(TargetDir)language\ko-KR" /s /d /y</PostBuildEvent>
+mkdir "$(TargetDir)language\ko-KR"
+xcopy "$(ProjectDir)Language\ko-KR" "$(TargetDir)language\ko-KR" /s /d /y</PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
