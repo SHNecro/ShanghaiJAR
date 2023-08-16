@@ -2,6 +2,9 @@
 ## Disclaimer
 This project is a fan continuation of a project created and developed by koki_thlal/Technodot, but is not affiliated with or in contact with the above in any way.
 
+Updates may be sporadic as content is planned or reworked outside of code check-in.
+The developer maintains no public presence and has never posted outside of the issues tracker or the occasional thread, strictly related to game contents and planning, on the site that the last demo was first leaked.
+
 Additionally, out of respect to the copyright holders of originally-referenced material, many assets have been replaced with placeholders.
 
 While older or alternate versions exist using the original `ShaGResource.tcd` and `ShaGPattern.tcd` files, this repository will only maintain the placeholder resources, which can be used to overwrite the above files to replace the graphics.
