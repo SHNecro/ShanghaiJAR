@@ -364,6 +364,17 @@
     <Compile Include="Attack\NoiseBreakout.cs" />
     <Compile Include="Attack\Butterfly.cs" />
     <Compile Include="Attack\ButterflyHoc.cs" />
+
+    <Compile Include="Attack\OrinFireballDouble.cs" />
+    <Compile Include="Attack\OrinFireballSingle.cs" />
+    <Compile Include="Attack\OrinGigantFlear.cs" />
+    <Compile Include="Attack\OrinOrbDrop.cs" />
+    <Compile Include="Attack\OrinSpirit.cs" />
+    <Compile Include="Attack\OrinSummonUtsuhoGigaFlare.cs" />
+    <Compile Include="Attack\OrinSummonUtsuhoHoriz.cs" />
+    <Compile Include="Attack\OrinSummonUtsuhoVerti.cs" />
+    <Compile Include="Attack\OrinTailHoc.cs" />
+
     <Compile Include="Background\DeepUraBack.cs" />
     <Compile Include="Chip\DarkFlae.cs" />
     <Compile Include="Attack\flanBunshin.cs" />
@@ -397,6 +408,10 @@
     <Compile Include="Effect\HeavenWarpKikuri.cs" />
     <Compile Include="Effect\BarrierDamageBlob.cs" />
     <Compile Include="Effect\KikuriHalfBrokenPanels.cs" />
+
+    <Compile Include="Effect\OrinBadWater.cs" />
+    <Compile Include="Effect\OrinSoul.cs" />
+
     <Compile Include="Effect\ReflShield.cs" />
     <Compile Include="Effect\Noise.cs" />
     <Compile Include="Effect\Debuff.cs" />
@@ -415,6 +430,11 @@
     <Compile Include="Enemy\Flandre.cs" />
     <Compile Include="Enemy\Madman.cs" />
     <Compile Include="Enemy\HeavenBarrier.cs" />
+
+    <Compile Include="Enemy\Orin.cs" />
+    <Compile Include="Enemy\OrinMook1.cs" />
+    <Compile Include="Enemy\OrinMook2.cs" />
+
     <Compile Include="Enemy\ShanghaiBase.cs" />
     <Compile Include="Enemy\ShanghaiDS.cs" />
     <Compile Include="Enemy\yuyuko.cs" />
@@ -1406,11 +1426,22 @@
     <Content Include="Graphics\flandreAttack.png" />
     <Content Include="Graphics\heavenbarrier.png" />
     <Content Include="Graphics\navi19.png" />
+
+    <Content Include="Graphics\Orin.png" />
+    <Content Include="Graphics\OrinAlter.png" />
+    <Content Include="Graphics\OrinAttack1.png" />
+    <Content Include="Graphics\OrinAttack2.png" />
+    <Content Include="Graphics\OrinMook2.png" />
+    <Content Include="Graphics\OrinMook1.png" />
+
     <Content Include="Graphics\pagraphic1.png" />
     <Content Include="Graphics\pagraphic2.png" />
     <Content Include="Graphics\ranDS.png" />
     <Content Include="Graphics\ROMback5.png" />
     <Content Include="Graphics\ShanghaiDS.png" />
+
+    <Content Include="Graphics\UthuhoAlter.png" />
+    
     <Content Include="Graphics\yorihimeDS.png" />
     <Content Include="Graphics\yuyuko.png" />
     <Content Include="Graphics\yuyukoAttack.png" />

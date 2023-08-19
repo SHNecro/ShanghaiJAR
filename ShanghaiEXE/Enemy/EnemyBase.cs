@@ -34,6 +34,10 @@ namespace NSEnemy
         protected SaveData savedata;
         //public SceneMain main;
 
+
+        public bool fancyName = false;
+        protected int[] fancyNameArr = { 0, 0, 0, 0, 0, 0, 0 };
+
         public static EnemyBase EnemyMake(int number, EnemyBase e, bool rank)
         {
             IAudioEngine sound = e?.Sound;
@@ -273,6 +277,16 @@ namespace NSEnemy
                 case 85:
                     enemyBase = new CirnoBX(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                // 86-90
+                case 90:
+                    enemyBase = new OrinMook1(sound, parent, point.X, point.Y, n, u, v);
+                    break;
+                case 91:
+                    enemyBase = new OrinMook2(sound, parent, point.X, point.Y, n, u, v);
+                    break;
+                case 92:
+                    enemyBase = new Orin(sound, parent, point.X, point.Y, n, u, v);
+                    break;
 
                 default:
                     enemyBase = null;
@@ -458,6 +472,7 @@ namespace NSEnemy
             AllBase.NAME[] nameArray = this.Nametodata(adjustedName);
             int length = nameArray.Length;
             int nameVersionAdjustmentOffset = 0;
+            //if (!this.fancyName)
             try
             {
                 if (this.name.Contains("V2") || this.name.Contains("V3") || (this.name.Contains("DS") || this.name.Contains("BX")) || (this.name.Contains("SP") || this.name.Contains("RV")) || this.name.Contains("EX"))
@@ -469,6 +484,56 @@ namespace NSEnemy
             catch
             {
             }
+
+            /*
+            if (this.fancyName)
+            {
+
+                try
+                {
+                    string[] fancyNameArr = { "V2", "V3", "DS", "BX", "SP", "RV", "EX" };
+                    bool[] fancyNameBol = { false, false, false, false, false, false, false };
+                    int[] fancyAdj = { 0, 0, 0, 0, 0, 0, 0 };
+
+                    for (int fanI = 0; fanI < 7; fanI++)
+                    {
+                        if (this.name.Contains(fancyNameArr[fanI]))
+                        {
+                            --length;
+                            nameVersionAdjustmentOffset += 8;
+                            fancyNameBol[fanI] = true;
+                            fancyAdj[fanI] = 8;
+                        }
+                    }
+                    
+                }
+                catch
+                {
+                }
+
+            }
+
+            */
+
+            int[] fancyAdj = { 0, 0, 0, 0, 0, 0, 0 };
+
+            if (this.fancyName)
+            {
+                
+
+                for (int fanI = 0; fanI < 7; fanI++)
+                {
+                    if (fancyNameArr[fanI] != 0)
+                    {
+                        //--length;
+                        nameVersionAdjustmentOffset -= 8;
+                        fancyAdj[fanI] = -8;
+
+                    }
+                }
+
+            }
+
             int nameXPosition = 240 - nameArray.Length * 8;
             this.color = this.alfha == 0 ? Color.FromArgb(0, byte.MaxValue, byte.MaxValue, byte.MaxValue) : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue);
 
@@ -486,7 +551,8 @@ namespace NSEnemy
             this._position = new Vector2(nameXPosition + nameVersionAdjustmentOffset, this.number * 16);
             DrawBlockCharacters(dg, nameArray, 88, this._position, this.color, out this._rect, out this._position);
             // Draw version number
-            if (numberprint && this.version > 1)
+            if (!this.fancyName)
+                if (numberprint && this.version > 1)
             {
                 this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
                 this._rect = new Rectangle(328, 104, 8, 16);
@@ -494,6 +560,65 @@ namespace NSEnemy
                 this._rect = new Rectangle(version * 8, 104, 8, 16);
                 dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
             }
+
+
+            if (this.fancyName)
+            {
+                /*
+                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
+                this._rect = new Rectangle(328, 104, 8, 16);
+                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+                this._rect = new Rectangle((fancyNameArr[0] + 2) * 8, 104, 8, 16);
+                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+                */
+                /*
+                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + fancyAdj[0], this.number * 16);
+                this._rect = new Rectangle((fancyNameArr[0]) * 8 + 736-8, 104 - 16, 8, 16);
+                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+                */
+                int tempAdj = 0;
+
+                // this for loop writes backwards the array order but my brain is too fried to fix it
+
+                for (int fanI = 0; fanI < 7; fanI++)
+                {
+                    if (fancyNameArr[fanI] != 0)
+                    {
+                        tempAdj -= 8;
+                        this._position = new Vector2(nameXPosition + 8 * nameArray.Length + tempAdj, this.number * 16);
+                        this._rect = new Rectangle((fancyNameArr[fanI]) * 8 + 736 - 8, 104 - 16, 8, 16);
+                        dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+
+                    }
+
+                    //this._position = new Vector2(nameXPosition + 8 * nameArray.Length + fancyAdj[0], this.number * 16);
+                    //this._rect = new Rectangle((fancyNameArr[0]) * 8 + 736 - 8, 104 - 16, 8, 16);
+                    //dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+                }
+
+                if (numberprint && this.version > 1)
+                {
+
+                    /*
+                    this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
+                    this._rect = new Rectangle(328, 104, 8, 16);
+                    dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+                    this._rect = new Rectangle(version * 8, 104, 8, 16);
+                    dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+                    */
+
+                    /*
+                    this._position = new Vector2(nameXPosition + 8 * nameArray.Length + fancyAdj[0], this.number * 16);
+                    this._rect = new Rectangle((fancyNameArr[0] + 2) * 8, 104, 8, 16);
+                    dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+
+                    */
+
+                    
+
+                }
+            }
+
         }
 
         protected Point Return(int[] interval, int[] xpoint, int y, int waittime)

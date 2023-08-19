@@ -17,7 +17,9 @@ namespace NSAttack
         private readonly int movespeed;
         private readonly bool powerUP;
         private bool anime;
-        private readonly int sp;
+        //private readonly int sp;
+        public int sp;
+        public bool alter = false;
 
         public UthuhoChip(IAudioEngine so, SceneBattle p, int pX, int pY, Panel.COLOR u, int po, int sp)
           : base(so, p, pX, pY, u, po, ChipBase.ELEMENT.heat)
@@ -75,12 +77,15 @@ namespace NSAttack
             double num3 = num2 + y1 - 32.0;
             this._position = new Vector2((float)num1, (float)num3);
             int y2 = 432;
-            if (this.sp == 1)
+            if (this.sp == 1 || this.alter)
                 y2 = 2592;
             if (this.sp == 2)
                 y2 = 1872;
             this._rect = new Rectangle(this.anime ? 360 : 480, y2, 120, 144);
-            dg.DrawImage(dg, "Uthuho", this._rect, true, this._position, this.rebirth, Color.White);
+            if (!this.alter)
+                dg.DrawImage(dg, "Uthuho", this._rect, true, this._position, this.rebirth, Color.White);
+            else
+                dg.DrawImage(dg, "UthuhoAlter", this._rect, true, this._position, this.rebirth, Color.White);
         }
 
         public override bool HitCheck(Point charaposition, Panel.COLOR charaunion)
