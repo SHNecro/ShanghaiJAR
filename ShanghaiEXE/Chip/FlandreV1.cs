@@ -10,10 +10,12 @@ using NSObject;
 using Common.Vectors;
 using System.Collections.Generic;
 using System.Drawing;
+using System;
+using System.Linq;
 
 namespace NSChip
 {
-    internal class FlandreDS : ChipBase
+    internal class FlandreV1 : ChipBase
     {
         private const int interval = 20;
         private const int speed = 2;
@@ -24,32 +26,38 @@ namespace NSChip
         protected int xPosition;
         private const int s = 5;
         protected Point animePoint;
+        private int swrInt = 3;
 
-        public FlandreDS(IAudioEngine s)
+        private List<Point> targetMulti = new List<Point>();
+
+        public FlandreV1(IAudioEngine s)
           : base(s)
         {
             this.navi = true;
-            this.libraryDisplayId = NSGame.ShanghaiEXE.Translate("DataList.IllegalChipDisplayId");
-            this.number = 313;
-            this.name = NSGame.ShanghaiEXE.Translate("Chip.FlandreDSName");
+            
+            this.number = 203;
+            this.name = NSGame.ShanghaiEXE.Translate("Chip.FlandreV1Name");
             this.element = ChipBase.ELEMENT.normal;
-            this.power = 500;
-            this.subpower = 0;
-            this.regsize = 99;
-            this.reality = 5;
+            this.power = 90;
+            this.subpower = 30;
+            this.regsize = 16;
+            this.reality = 3;
             this.swordtype = false;
-            this._break = true;
-            this.dark = true;
+            this._break = false;
+            this.dark = false;
             this.shadow = false;
             this.powerprint = true;
             this.code[0] = ChipFolder.CODE.F;
-            this.code[1] = ChipFolder.CODE.F;
-            this.code[2] = ChipFolder.CODE.F;
-            this.code[3] = ChipFolder.CODE.F;
-            var information = NSGame.ShanghaiEXE.Translate("Chip.FlandreDSDesc");
+            this.code[1] = ChipFolder.CODE.L;
+            this.code[2] = ChipFolder.CODE.asterisk;
+            this.code[3] = ChipFolder.CODE.asterisk;
+            
+            var information = NSGame.ShanghaiEXE.Translate("Chip.FlandreV1Desc");
             this.information[0] = information[0];
             this.information[1] = information[1];
             this.information[2] = information[2];
+            
+            
             this.Init();
             this.motionList = new int[4] { 0, 1, 2, 3 };
         }
@@ -63,7 +71,7 @@ namespace NSChip
             int y = 0;
             return CharacterAnimation.ReturnKai(interval, xpoint, y, waittime);
         }
-        
+
         public override void Action(CharacterBase character, SceneBattle battle)
         {
             if (base.BlackOut(character, battle, this.name, base.Power(character).ToString()))
@@ -75,7 +83,7 @@ namespace NSChip
                         case 0:
                             {
                                 //this.animePoint.X = this.AnimeMove(this.frame).X;
-                                this.animePoint.X = this.AnimeSlash4(this.frame).X;
+                                this.animePoint.X = 0;
                                 int flame = this.frame;
                                 switch (flame)
                                 {
@@ -96,7 +104,7 @@ namespace NSChip
                                         }
                                         break;
                                     case 5:
-                                        this.xPosition = this.TargetX(character, battle);
+                                        //this.xPosition = this.TargetX(character, battle);
                                         if (this.xPosition < 0)
                                         {
                                             this.xPosition = 0;
@@ -118,47 +126,63 @@ namespace NSChip
                             }
                         case 1:
                             {
-                                this.animePoint.X = this.AnimeSlash4(this.frame).X;
+                                this.animePoint.X = this.AnimeBomb(this.frame).X;
                                 int flame2 = this.frame;
-                                if (flame2 != 5)
-                                {
-                                    if (flame2 != 6)
-                                    {
-                                        if (flame2 == 10)
-                                        {
-                                            this.nowmotion++;
-                                            this.frame = 0;
-                                        }
-                                    }
-                                    else
-                                    {
-                                        this.sound.PlaySE(SoundEffect.bombmiddle);
-                                        base.ShakeStart(2, 16);
-                                        for (int j = 0; j < 3; j++)
-                                        {
-                                            AttackBase attackBase = new BombAttack(this.sound, battle, this.xPosition + (1 + 0) * base.UnionRebirth(character.union), j, character.union, base.Power(character), 4, this.element);
-                                            attackBase.breaking = true;
 
-                                            if (!battle.panel[this.xPosition + (1 + 0) * base.UnionRebirth(character.union), j].OnCharaCheck())
-                                            {
-                                                battle.panel[this.xPosition + (1 + 0) * base.UnionRebirth(character.union), j].Break();
-                                            }
-                                            else
-                                            {
-                                                battle.panel[this.xPosition + (1 + 0) * base.UnionRebirth(character.union), j].Crack();
-                                            }
-                                            
-                                            
-                                            attackBase.invincibility = false;
-                                            
-                                            battle.attacks.Add(this.Paralyze(attackBase));
-                                            battle.effects.Add(new Shock(this.sound, battle, attackBase.position.X, attackBase.position.Y, 2, Panel.COLOR.red));
+                                if (flame2 == 8)
+                                {
+                                    
+                                    this.sound.PlaySE(SoundEffect.sword);
+
+                                    //this.targetMulti[0] = point1;
+
+                                    for (int i = 0; i < this.swrInt; i++)
+                                    {
+                                        Point point = this.RandomPanel(false, false, false, character.UnionEnemy, battle, 0);
+                                        if (i == 0)
+                                        {
+                                            point = this.RandomTarget(character, battle);
                                         }
+                                        battle.attacks.Add(this.Paralyze(new KnifeAttack(this.sound, battle, point.X, point.Y, character.union, this.subpower, 2, ChipBase.ELEMENT.heat, false)));
                                     }
+                                    
+
                                 }
+
+
+                                if (flame2 == 16)
+                                {
+                                    this.nowmotion++;
+                                    this.frame = 0;
+                                }
+
+                                
                                 break;
                             }
+
                         case 2:
+                            {
+                                this.animePoint.X = this.AnimeGear(this.frame).X;
+                                int flame4 = this.frame;
+
+                                if (flame4 == 6)
+                                {
+                                    Point point = new Point(character.position.X + 3 * this.UnionRebirth(character.union), character.position.Y);
+
+                                    battle.attacks.Add(this.Paralyze(new FlanGear(this.sound, battle, point.X, point.Y, character.union, this.Power(character), 0)));
+                                    //FlanGear(this.sound, this.parent, knifeX[0], knifeY[0], this.union, this.Power, 0)
+                                }
+
+                                if (flame4 == 19)
+                                {
+                                    this.nowmotion++;
+                                    this.frame = 0;
+                                }
+
+                                break;
+                            }
+
+                        case 3:
                             {
                                 int flame3 = this.frame;
                                 if (flame3 != 6 && flame3 == 10)
@@ -190,7 +214,7 @@ namespace NSChip
         {
             if (printgraphics)
             {
-                this._rect = new Rectangle(280, 0, 56, 48);
+                this._rect = new Rectangle(56 * 6, 0, 56, 48);
                 dg.DrawImage(dg, "chipgraphic23", this._rect, true, p, Color.White);
             }
             base.GraphicsRender(dg, p, c, printgraphics, printstatus);
@@ -206,18 +230,16 @@ namespace NSChip
         {
             if (!noicon)
             {
-                int num = this.number - 1;
-                int num2 = num % 40;
-                int num3 = num / 40;
+                int num1 = this.number - 1;
+                int num2 = num1 % 40;
+                int num3 = num1 / 40;
                 int num4 = 0;
                 if (select)
-                {
                     num4 = 1;
-                }
-                this._rect = new Rectangle(16, 80 + num4 * 96, 16, 16);
+                this._rect = new Rectangle(480, 64 + num4 * 96, 16, 16);
                 dg.DrawImage(dg, "chipicon", this._rect, true, p, Color.White);
             }
-            base.IconRender(dg, p, select, custom, c, true);
+            base.IconRender(dg, p, select, custom, c, noicon);
         }
 
         public override void Render(IRenderer dg, CharacterBase character)
@@ -250,7 +272,37 @@ namespace NSChip
             }, new int[8] { 2, 1, 0, 1, 2, 2, 1, 0 }, 1, waitflame);
         }
 
-        
+
+        private Point AnimeGear(int waittime)
+        {
+            return CharacterAnimation.ReturnKai(new int[10]
+            {
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        1,
+        1,
+        1
+            }, new int[11] { 0, 4, 5, 6, 7, 8, 11, 5, 4, 0, 0 }, 0, waittime);
+        }
+
+        private Point AnimeBomb(int waittime)
+        {
+            return CharacterAnimation.ReturnKai(new int[6]
+            {
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+            }, new int[6] { 0, 15, 16, 17, 18, 19 }, 0, waittime);
+        }
+
         private Point AnimeSlash4(int waitflame)
         {
             int[] array = new int[]
@@ -287,75 +339,7 @@ namespace NSChip
             return CharacterAnimation.Return(array, xpoint, y, waitflame);
         }
 
-        private Point AnimeSlash3(int waitflame)
-        {
-            return CharacterAnimation.Return(new int[7]
-            {
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        100
-            }, new int[7] { 19, 20, 21, 22, 23, 24, 25 }, 0, waitflame);
-        }
-
-        protected int TargetX(CharacterBase character, SceneBattle battle)
-        {
-            List<CharacterBase> characterBaseList = new List<CharacterBase>();
-            foreach (CharacterBase characterBase in battle.AllHitter())
-            {
-                if (characterBase is EnemyBase)
-                {
-                    if (characterBase.union == character.UnionEnemy)
-                        characterBaseList.Add(characterBase);
-                }
-                else if (characterBase is Player)
-                {
-                    if (characterBase.union == character.UnionEnemy)
-                        characterBaseList.Add(characterBase);
-                }
-                else if (characterBase is ObjectBase)
-                {
-                    ObjectBase objectBase = (ObjectBase)characterBase;
-                    if ((objectBase.unionhit || objectBase.union == character.union) && character.UnionEnemy == objectBase.StandPanel.color)
-                        characterBaseList.Add(characterBase);
-                }
-            }
-            bool flag = false;
-            int num = character.union == Panel.COLOR.red ? 6 : -1;
-            foreach (CharacterBase characterBase in characterBaseList)
-            {
-                if (characterBase.position.Y == character.position.Y)
-                {
-                    flag = true;
-                    if (character.union == Panel.COLOR.red)
-                    {
-                        if (num > characterBase.position.X)
-                            num = characterBase.position.X;
-                    }
-                    else if (num < characterBase.position.X)
-                        num = characterBase.position.X;
-                }
-            }
-            if (flag)
-                return num - this.UnionRebirth(character.union);
-            foreach (CharacterBase characterBase in characterBaseList)
-            {
-                if (characterBase.position.Y != character.position.Y)
-                {
-                    if (character.union == Panel.COLOR.red)
-                    {
-                        if (num > characterBase.position.X)
-                            num = characterBase.position.X;
-                    }
-                    else if (num < characterBase.position.X)
-                        num = characterBase.position.X;
-                }
-            }
-            return num - this.UnionRebirth(character.union);
-        }
+        
     }
 }
 

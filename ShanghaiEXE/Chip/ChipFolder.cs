@@ -1,4 +1,4 @@
-﻿using NSShanghaiEXE.InputOutput.Audio;
+using NSShanghaiEXE.InputOutput.Audio;
 using NSGame;
 using System;
 using System.Collections.Generic;
@@ -216,6 +216,10 @@ namespace NSChip
             Chips[201] = (sound) => new SpannerManV2(sound);
             Chips[202] = (sound) => new SpannerManV3(sound);
             /* 203 - 205 */
+            Chips[203] = (sound) => new FlandreV1(sound);
+            Chips[204] = (sound) => new FlandreV2(sound);
+            Chips[205] = (sound) => new FlandreV3(sound);
+
             Chips[206] = (sound) => new HakutakuManV1(sound);
             Chips[207] = (sound) => new HakutakuManV2(sound);
             Chips[208] = (sound) => new HakutakuManV3(sound);
