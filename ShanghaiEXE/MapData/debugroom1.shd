@@ -3279,7 +3279,7 @@ BranchHead:0
 goto:V2
 BranchEnd:
 BranchHead:1
-battle:82:1:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:1:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3294,7 +3294,7 @@ BranchHead:0
 goto:V3
 BranchEnd:
 BranchHead:1
-battle:82:2:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:2:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3309,7 +3309,7 @@ BranchHead:0
 goto:SP
 BranchEnd:
 BranchHead:1
-battle:82:3:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:3:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3324,7 +3324,7 @@ BranchHead:0
 goto:SP2
 BranchEnd:
 BranchHead:1
-battle:82:4:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:4:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3339,7 +3339,7 @@ BranchHead:0
 goto:SP3
 BranchEnd:
 BranchHead:1
-battle:82:5:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:5:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3354,7 +3354,7 @@ BranchHead:0
 goto:SP4
 BranchEnd:
 BranchHead:1
-battle:82:6:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:6:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3369,7 +3369,7 @@ BranchHead:0
 goto:SP5
 BranchEnd:
 BranchHead:1
-battle:82:7:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:7:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
@@ -3384,7 +3384,7 @@ BranchHead:0
 goto:SP5
 BranchEnd:
 BranchHead:1
-battle:82:8:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:False:True:False:VSnavi:40
+battle:82:8:4:1:1:1:1:0::0:1:5:0:1:1:1:0::0:1:5:2:1:1:1:0::0:0:0:False:True:True:False:VSnavi:40
 goto:END
 BranchEnd:
 BranchHead:2
