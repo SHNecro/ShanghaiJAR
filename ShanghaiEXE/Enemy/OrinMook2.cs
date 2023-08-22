@@ -44,9 +44,8 @@ namespace NSEnemy
                     this.power = 200;
                     this.nspeed = 4;
                     this.hp = 222;
-                    this.name = ShanghaiEXE.Translate("Enemy.LansterName5");
-                    this.name = "FaeSkull";
-                    break;
+					this.name = ShanghaiEXE.Translate("Enemy.OrinMook2Name");
+					break;
             }
             this.roop = this.number;
             this.hpmax = this.hp;

@@ -94,16 +94,15 @@ namespace NSAttack
                 case 30:
                     this.sound.PlaySE(SoundEffect.shoot);
 
-                    UthuhoChip attackBase2 = new UthuhoChip(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, 0);
-                    attackBase2.breaking = true;
-                    if (this.palette == 2) attackBase2.sp = 2;
-                    if (this.palette == 3) attackBase2.sp = 1;
-
-                    if (this.palette == 4)
+                    var sp = 0;
+                    switch (this.palette)
                     {
-                        attackBase2.sp = 1;
-                        attackBase2.alter = true;
-                    }
+                        case 2: sp = 2; break;
+                        case 3: sp = 1; break;
+                        case 4: sp = 3; break;
+					}
+                    UthuhoChip attackBase2 = new UthuhoChip(this.sound, this.parent, this.position.X, this.position.Y, this.union, this.power, sp);
+                    attackBase2.breaking = true;
                         
                     this.parent.attacks.Add(attackBase2);
                     this.flag = false;

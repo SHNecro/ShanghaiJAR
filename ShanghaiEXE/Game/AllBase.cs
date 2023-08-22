@@ -247,14 +247,10 @@ namespace NSGame
 		public int[] ChangeCount(int m)
 		{
 			int[] numArray = new int[m.ToString().Length];
-			foreach (var data in ((IEnumerable<int>)numArray).Select((v, i) => new
+			for (var i = 0; i < numArray.Length; i++)
 			{
-				v,
-				i
-			}))
-			{
-				int num = (int)MyMath.Pow(10f, data.i);
-				numArray[data.i] = m / num % 10;
+				int num = (int)MyMath.Pow(10f, i);
+				numArray[i] = m / num % 10;
 			}
 			return numArray;
 		}
@@ -283,39 +279,33 @@ namespace NSGame
 			char[] charArray = name.ToCharArray();
 			string[] strArray = new string[charArray.Length];
 			AllBase.NAME[] nameArray = new AllBase.NAME[charArray.Length];
-			int num = -1;
-			foreach (var data in ((IEnumerable<char>)charArray).Select((va, i) => new
+			var specialCharIdxs = new List<int>();
+			for (var i = 0; i < charArray.Length; i++)
 			{
-				va,
-				i
-			}))
-			{
-				if (data.i + 1 >= charArray.Length)
+				if (i + 1 >= charArray.Length)
 				{
 					break;
 				}
-				if (charArray[data.i] == 'V' && (charArray[data.i + 1] == '1' || charArray[data.i + 1] == '2' || (charArray[data.i + 1] == '3' || charArray[data.i + 1] == '4') || (charArray[data.i + 1] == '5' || charArray[data.i + 1] == '6' || (charArray[data.i + 1] == '7' || charArray[data.i + 1] == '8')) || charArray[data.i + 1] == '9' || charArray[data.i + 1] == '0'))
-					num = data.i;
+				if (charArray[i] == 'V' && (charArray[i + 1] == '1' || charArray[i + 1] == '2' || (charArray[i + 1] == '3' || charArray[i + 1] == '4') || (charArray[i + 1] == '5' || charArray[i + 1] == '6' || (charArray[i + 1] == '7' || charArray[i + 1] == '8')) || charArray[i + 1] == '9' || charArray[i + 1] == '0'))
+					specialCharIdxs.Add(i - specialCharIdxs.Count);
 			}
-			foreach (var data in ((IEnumerable<char>)charArray).Select((va, i) => new
-			{
-				va,
-				i
-			}))
+			for (var i = 0; i < charArray.Length; i++)
 			{
 				try
 				{
-					if (num == data.i)
+					if (i >= name.Length) break;
+
+					if (specialCharIdxs.Contains(i))
 					{
-						strArray[data.i] = name.Substring(data.i, 2);
-						name = name.Remove(data.i + 1, 1);
+						strArray[i] = name.Substring(i, 2);
+						name = name.Remove(i + 1, 1);
 					}
                     else
                     {
-                        strArray[data.i] = name.Substring(data.i, 1);
+                        strArray[i] = name.Substring(i, 1);
                     }
 
-                    var replacement = strArray[data.i];
+                    var replacement = strArray[i];
                     switch (replacement)
                     {
                         case "+":
@@ -506,33 +496,29 @@ namespace NSGame
                             replacement = nameof(NAME.kagikakkoTojiru);
                             break;
                     }
-                    strArray[data.i] = replacement;
+                    strArray[i] = replacement;
 				}
 				catch
 				{
 					break;
 				}
 			}
-			foreach (var data in ((IEnumerable<char>)charArray).Select((va, i) => new
+			for (var i = 0; i < charArray.Length; i++)
 			{
-				va,
-				i
-			}))
-			{
-				if (strArray[data.i] != null)
+				if (strArray[i] != null)
                 {
                     NAME character;
-                    var parseSuccess = Enum.TryParse(strArray[data.i], out character);
+                    var parseSuccess = Enum.TryParse(strArray[i], out character);
 
                     if (parseSuccess)
                     {
-                        nameArray[data.i] = character;
+                        nameArray[i] = character;
                     }
                     else
                     {
-                        if (strArray[data.i].Length == 1)
+                        if (strArray[i].Length == 1)
                         {
-                            nameArray[data.i] = (NAME)(-strArray[data.i][0]);
+                            nameArray[i] = (NAME)(-strArray[i][0]);
                         }
                         else
                         {

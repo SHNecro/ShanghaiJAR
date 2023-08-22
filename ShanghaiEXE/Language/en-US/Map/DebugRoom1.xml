@@ -45,4 +45,6 @@
   <Dialogue Key="Map.DebugRoom1ShanghaiDSQuestion" Value="ShanghaiDS Battle Test" Face="Shanghai" Mono="False" />
   <Text Key="Map.DebugRoom1StartCancel" Value="Start,Cancel" />
   <Dialogue Key="Map.DebugRoom1CirnoBXQuestion" Value="CirnoBX Battle Test" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1OrinQuestion" Value="Orin Battle Test" Face="Rin" />
+  <Text Key="Map.DebugRoom1RanksDSSP" Value="ＵＰ　　　　 ,ＤＳＳＰ　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
 </data>

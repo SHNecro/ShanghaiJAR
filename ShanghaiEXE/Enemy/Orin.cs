@@ -881,7 +881,7 @@ namespace NSEnemy
             switch (this.version)
             {
                 case 1:
-                    this.name = "Orin";
+                    this.name = ShanghaiEXE.Translate("Enemy.OrinName1");
                     //this.fancyName = true;
                     this.power = 160;
                     this.hp = 2600;
@@ -891,9 +891,9 @@ namespace NSEnemy
                     this.moveroop = 1;
                     break;
                 case 2:
-                    this.name = "OrinSP";
-                    //this.fancyName = true;
-                    this.power = 200;
+					this.name = ShanghaiEXE.Translate("Enemy.OrinName2");
+					//this.fancyName = true;
+					this.power = 200;
                     this.hp = 3400;
 
                     this.nspeed = 2;
@@ -901,11 +901,11 @@ namespace NSEnemy
                     this.moveroop = 1;
                     break;
                 case 3:
-                    this.name = "OrinDS";
-                    //this.fancyName = true;
+					this.name = ShanghaiEXE.Translate("Enemy.OrinName3");
+					//this.fancyName = true;
 
 
-                    this.power = 180;
+					this.power = 180;
                     this.hp = 3000;
 
                     this.nspeed = 2;
@@ -918,23 +918,9 @@ namespace NSEnemy
                     break;
 
                 default:
-                    this.name = "Orin";
-                    this.fancyName = true;
-                    /*
-                    this.fancyNameArr[0] = 7;
-                    this.fancyNameArr[1] = 6;
-                    this.fancyNameArr[2] = 5;
-                    this.fancyNameArr[3] = 4;
-                    this.fancyNameArr[4] = 3;
-                    this.fancyNameArr[5] = 2;
-                    this.fancyNameArr[6] = 1;
-                    */
-                    // fancy name stuff is written backwards
+					this.name = ShanghaiEXE.Translate("Enemy.OrinName4");
 
-                    this.fancyNameArr[0] = 4;
-                    this.fancyNameArr[1] = 5;
-
-                    this.nspeed = 1;
+					this.nspeed = 1;
                     this.power = 300;
                     this.hp = 4444;
                     this.moveroop = 3;

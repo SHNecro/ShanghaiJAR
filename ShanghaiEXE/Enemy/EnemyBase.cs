@@ -34,10 +34,6 @@ namespace NSEnemy
         protected SaveData savedata;
         //public SceneMain main;
 
-
-        public bool fancyName = false;
-        protected int[] fancyNameArr = { 0, 0, 0, 0, 0, 0, 0 };
-
         public static EnemyBase EnemyMake(int number, EnemyBase e, bool rank)
         {
             IAudioEngine sound = e?.Sound;
@@ -464,164 +460,53 @@ namespace NSEnemy
             return false;
         }
 
-        public virtual void Nameprint(IRenderer dg, bool numberprint)
-        {
-            if (!this.namePrint || this.parent == null || !this.parent.namePrint)
-                return;
-            var adjustedName = (!this.printNumber || this.version <= 1) ? this.name : (this.name + this.version.ToString());
-            AllBase.NAME[] nameArray = this.Nametodata(adjustedName);
-            int length = nameArray.Length;
-            int nameVersionAdjustmentOffset = 0;
-            //if (!this.fancyName)
-            try
+		public virtual void Nameprint(IRenderer dg, bool numberprint)
+		{
+			if (!this.namePrint || this.parent == null || !this.parent.namePrint)
+				return;
+			var adjustedName = (!this.printNumber || this.version <= 1) ? this.name : (this.name + this.version.ToString());
+			AllBase.NAME[] nameArray = this.Nametodata(adjustedName);
+			int length = nameArray.Length;
+			int nameVersionAdjustmentOffset = 0;
+
+            var specialCharacters = new[] { "V2", "V3", "DS", "BX", "SP", "RV", "EX" };
+            foreach (var character in specialCharacters)
             {
-                if (this.name.Contains("V2") || this.name.Contains("V3") || (this.name.Contains("DS") || this.name.Contains("BX")) || (this.name.Contains("SP") || this.name.Contains("RV")) || this.name.Contains("EX"))
-                {
-                    --length;
-                    nameVersionAdjustmentOffset = 8;
-                }
+                if (this.name != null && this.name.Contains(character))
+				{
+					--length;
+					nameVersionAdjustmentOffset += 8;
+				}
             }
-            catch
-            {
-            }
+			int nameXPosition = 240 - nameArray.Length * 8;
+			this.color = this.alfha == 0 ? Color.FromArgb(0, byte.MaxValue, byte.MaxValue, byte.MaxValue) : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue);
 
-            /*
-            if (this.fancyName)
-            {
-
-                try
-                {
-                    string[] fancyNameArr = { "V2", "V3", "DS", "BX", "SP", "RV", "EX" };
-                    bool[] fancyNameBol = { false, false, false, false, false, false, false };
-                    int[] fancyAdj = { 0, 0, 0, 0, 0, 0, 0 };
-
-                    for (int fanI = 0; fanI < 7; fanI++)
-                    {
-                        if (this.name.Contains(fancyNameArr[fanI]))
-                        {
-                            --length;
-                            nameVersionAdjustmentOffset += 8;
-                            fancyNameBol[fanI] = true;
-                            fancyAdj[fanI] = 8;
-                        }
-                    }
-                    
-                }
-                catch
-                {
-                }
-
-            }
-
-            */
-
-            int[] fancyAdj = { 0, 0, 0, 0, 0, 0, 0 };
-
-            if (this.fancyName)
-            {
-                
-
-                for (int fanI = 0; fanI < 7; fanI++)
-                {
-                    if (fancyNameArr[fanI] != 0)
-                    {
-                        //--length;
-                        nameVersionAdjustmentOffset -= 8;
-                        fancyAdj[fanI] = -8;
-
-                    }
-                }
-
-            }
-
-            int nameXPosition = 240 - nameArray.Length * 8;
-            this.color = this.alfha == 0 ? Color.FromArgb(0, byte.MaxValue, byte.MaxValue, byte.MaxValue) : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue);
-
-            // Draw edge of name backround <
-            this._rect = new Rectangle(320, 104, 8, 16);
-            this._position = new Vector2(nameXPosition - 8 + nameVersionAdjustmentOffset, this.number * 16);
-            dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-            // Draw background and name
-            for (int index = 0; index < length; ++index)
-            {
-                this._position = new Vector2(nameXPosition + 8 * index + nameVersionAdjustmentOffset, this.number * 16);
-                this._rect = new Rectangle(328, 104, 8, 16);
-                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-            }
-            this._position = new Vector2(nameXPosition + nameVersionAdjustmentOffset, this.number * 16);
-            DrawBlockCharacters(dg, nameArray, 88, this._position, this.color, out this._rect, out this._position);
-            // Draw version number
-            if (!this.fancyName)
-                if (numberprint && this.version > 1)
-            {
-                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
-                this._rect = new Rectangle(328, 104, 8, 16);
-                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-                this._rect = new Rectangle(version * 8, 104, 8, 16);
-                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-            }
+			// Draw edge of name backround <
+			this._rect = new Rectangle(320, 104, 8, 16);
+			this._position = new Vector2(nameXPosition - 8 + nameVersionAdjustmentOffset, this.number * 16);
+			dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+			// Draw background and name
+			for (int index = 0; index < length; ++index)
+			{
+				this._position = new Vector2(nameXPosition + 8 * index + nameVersionAdjustmentOffset, this.number * 16);
+				this._rect = new Rectangle(328, 104, 8, 16);
+				dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+			}
+			this._position = new Vector2(nameXPosition + nameVersionAdjustmentOffset, this.number * 16);
+			DrawBlockCharacters(dg, nameArray, 88, this._position, this.color, out this._rect, out this._position);
+			// Draw version number
+			if (numberprint && this.version > 1)
+			{
+				this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
+				this._rect = new Rectangle(328, 104, 8, 16);
+				dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+				this._rect = new Rectangle(version * 8, 104, 8, 16);
+				dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+			}
+		}
 
 
-            if (this.fancyName)
-            {
-                /*
-                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
-                this._rect = new Rectangle(328, 104, 8, 16);
-                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-                this._rect = new Rectangle((fancyNameArr[0] + 2) * 8, 104, 8, 16);
-                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-                */
-                /*
-                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + fancyAdj[0], this.number * 16);
-                this._rect = new Rectangle((fancyNameArr[0]) * 8 + 736-8, 104 - 16, 8, 16);
-                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-                */
-                int tempAdj = 0;
-
-                // this for loop writes backwards the array order but my brain is too fried to fix it
-
-                for (int fanI = 0; fanI < 7; fanI++)
-                {
-                    if (fancyNameArr[fanI] != 0)
-                    {
-                        tempAdj -= 8;
-                        this._position = new Vector2(nameXPosition + 8 * nameArray.Length + tempAdj, this.number * 16);
-                        this._rect = new Rectangle((fancyNameArr[fanI]) * 8 + 736 - 8, 104 - 16, 8, 16);
-                        dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-
-                    }
-
-                    //this._position = new Vector2(nameXPosition + 8 * nameArray.Length + fancyAdj[0], this.number * 16);
-                    //this._rect = new Rectangle((fancyNameArr[0]) * 8 + 736 - 8, 104 - 16, 8, 16);
-                    //dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-                }
-
-                if (numberprint && this.version > 1)
-                {
-
-                    /*
-                    this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
-                    this._rect = new Rectangle(328, 104, 8, 16);
-                    dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-                    this._rect = new Rectangle(version * 8, 104, 8, 16);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-                    */
-
-                    /*
-                    this._position = new Vector2(nameXPosition + 8 * nameArray.Length + fancyAdj[0], this.number * 16);
-                    this._rect = new Rectangle((fancyNameArr[0] + 2) * 8, 104, 8, 16);
-                    dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-
-                    */
-
-                    
-
-                }
-            }
-
-        }
-
-        protected Point Return(int[] interval, int[] xpoint, int y, int waittime)
+		protected Point Return(int[] interval, int[] xpoint, int y, int waittime)
         {
             int index1 = 0;
             for (int index2 = 1; index2 < interval.Length; ++index2)
