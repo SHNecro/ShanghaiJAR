@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- Enemy -->
   <Text Key="Enemy.BakeBakeName1" Value="괴기괴기SP" />
@@ -310,29 +310,29 @@
   <Text Key="Enemy.HakutakuManSpecial" Value="비스트아웃" />
   <Text Key="Enemy.MimaSpecial" Value="어둠의바다" />
   <Text Key="Enemy.YorihimeSpecial" Value="투신강림" />
-
   <Text Key="Enemy.FlandreName1" Value="플랑드르" />
   <Text Key="Enemy.FlandreName2" Value="플랑드르V2" />
   <Text Key="Enemy.FlandreName3" Value="플랑드르V3" />
   <Text Key="Enemy.FlandreName4" Value="플랑드르SP" />
-
   <Text Key="Enemy.YuyukoName1" Value="유유코" />
   <Text Key="Enemy.YuyukoName2" Value="유유코SP" />
   <Text Key="Enemy.YuyukoName3" Value="유유코DS" />
-  
   <Text Key="Enemy.DruidManName" Value="드루이드맨" />
   <Text Key="Enemy.DruidManNameV2" Value="드루이드맨V2" />
   <Text Key="Enemy.DruidManNameV3" Value="드루이드맨V3" />
   <Text Key="Enemy.DruidManNameSP" Value="드루이드맨SP" />
   <Text Key="Enemy.DruidManNameSPPlus" Value="드루이드맨SP" />
   <Text Key="Enemy.DruidManDarkSummonName" Value="리카코내비" />
-
   <Text Key="Enemy.MadmanName" Value="광기의영혼" />
   <Text Key="Enemy.MadmanSpecial" Value="야이개쓰레기야" />
-  
   <Text Key="Enemy.HeavenBarrierName" Value="노이즈블로커" />
   <Text Key="Enemy.HeavenBarrierSpecial" Value="레귤레이트" />
-
   <Text Key="Enemy.CirnoBXName" Value="치르노BX" />
   <Text Key="Enemy.CirnoDXName" Value="치르노DX" />
+  <Text Key="Enemy.OrinName1" Value="[Orin]" />
+  <Text Key="Enemy.OrinName2" Value="[OrinSP]" />
+  <Text Key="Enemy.OrinName3" Value="[OrinDS]" />
+  <Text Key="Enemy.OrinName4" Value="[OrinDSSP]" />
+  <Text Key="Enemy.OrinMook1Name" Value="[Spectrai]" />
+  <Text Key="Enemy.OrinMook2Name" Value="[FaeSkull]" />
 </data>

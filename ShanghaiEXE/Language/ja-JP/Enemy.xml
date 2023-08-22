@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- Enemy -->
   <Text Key="Enemy.BakeBakeName1" Value="バケバケSP" />
@@ -310,30 +310,29 @@
   <Text Key="Enemy.HakutakuManSpecial" Value="ビーストアウト" />
   <Text Key="Enemy.MimaSpecial" Value="ヤミノウミ" />
   <Text Key="Enemy.YorihimeSpecial" Value="カミオロシ" />
-
   <Text Key="Enemy.FlandreName1" Value="フランドール" />
   <Text Key="Enemy.FlandreName2" Value="フランドールV2" />
   <Text Key="Enemy.FlandreName3" Value="フランドールV3" />
   <Text Key="Enemy.FlandreName4" Value="フランドールSP" />
-
   <Text Key="Enemy.YuyukoName1" Value="ユユコ" />
   <Text Key="Enemy.YuyukoName2" Value="ユユコSP" />
   <Text Key="Enemy.YuyukoName3" Value="ユユコDS" />
-  
   <Text Key="Enemy.DruidManName" Value="ドルイドマン" />
   <Text Key="Enemy.DruidManNameV2" Value="ドルイドマンV2" />
   <Text Key="Enemy.DruidManNameV3" Value="ドルイドマンV3" />
   <Text Key="Enemy.DruidManNameSP" Value="ドルイドマンSP" />
   <Text Key="Enemy.DruidManNameSPPlus" Value="ドルイドマンSP" />
   <Text Key="Enemy.DruidManDarkSummonName" Value="リカコナビ" />
-
   <Text Key="Enemy.MadmanName" Value="イカレタタマシイ" />
   <Text Key="Enemy.MadmanSpecial" Value="オレヲオコラセタ" />
-  
   <Text Key="Enemy.HeavenBarrierName" Value="ノイズブロッカー" />
   <Text Key="Enemy.HeavenBarrierSpecial" Value="レギュレート" />
-  
   <Text Key="Enemy.CirnoBXName" Value="チルノBX" />
   <Text Key="Enemy.CirnoDXName" Value="チルノDX" />
-
+  <Text Key="Enemy.OrinName1" Value="[Orin]" />
+  <Text Key="Enemy.OrinName2" Value="[OrinSP]" />
+  <Text Key="Enemy.OrinName3" Value="[OrinDS]" />
+  <Text Key="Enemy.OrinName4" Value="[OrinDSSP]" />
+  <Text Key="Enemy.OrinMook1Name" Value="[Spectrai]" />
+  <Text Key="Enemy.OrinMook2Name" Value="[FaeSkull]" />
 </data>

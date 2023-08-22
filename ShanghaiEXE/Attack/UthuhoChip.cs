@@ -75,13 +75,24 @@ namespace NSAttack
             double num3 = num2 + y1 - 32.0;
             this._position = new Vector2((float)num1, (float)num3);
             int y2 = 432;
-            if (this.sp == 1)
-                y2 = 2592;
-            if (this.sp == 2)
-                y2 = 1872;
+            var pictureName = "Uthuho";
+
+			switch (this.sp)
+			{
+                case 1:
+					y2 = 2592;
+                    break;
+				case 2:
+					y2 = 1872;
+                    break;
+				case 3:
+					y2 = 2592;
+                    pictureName = "UthuhoAlter";
+					break;
+			}
             this._rect = new Rectangle(this.anime ? 360 : 480, y2, 120, 144);
-            dg.DrawImage(dg, "Uthuho", this._rect, true, this._position, this.rebirth, Color.White);
-        }
+			dg.DrawImage(dg, pictureName, this._rect, true, this._position, this.rebirth, Color.White);
+		}
 
         public override bool HitCheck(Point charaposition, Panel.COLOR charaunion)
         {

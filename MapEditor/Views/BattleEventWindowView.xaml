@@ -11,7 +11,7 @@
         xmlns:core="clr-namespace:MapEditor.Core"
         xmlns:viewModels="clr-namespace:MapEditor.ViewModels"
         mc:Ignorable="d"
-        Title="Battle Event Window" Height="Auto" Width="300">
+        Title="Battle Event Window" Height="800" Width="300">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

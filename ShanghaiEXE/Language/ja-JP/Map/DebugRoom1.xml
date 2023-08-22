@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <Text Key="Map.DebugRoom1Name" Value="デバッグルーム" />
   <Dialogue Key="Map.DebugRoom1Sprite1Dialogue1" Value="ここは現在開発中、それとも,普段には見れないコンテンツや,アイデアの試しで作られた" Face="Sprite" Mono="False" />
@@ -45,4 +45,6 @@
   <Dialogue Key="Map.DebugRoom1ShanghaiDSQuestion" Value="シャンハイDSとのバトルテスト" Face="Shanghai" Mono="False" />
   <Text Key="Map.DebugRoom1StartCancel" Value="始める,やめる" />
   <Dialogue Key="Map.DebugRoom1CirnoBXQuestion" Value="チルノBXとのバトルテスト" Face="SoundOnly" Mono="False" />
+  <Dialogue Key="Map.DebugRoom1OrinQuestion" Value="[Orin Battle Test]" Face="Rin" />
+  <Text Key="Map.DebugRoom1RanksDSSP" Value="ＵＰ　　　　 ,ＤＳＳＰ　　,ＤＯＷＮ　　,ＣＡＮＣＥＬ" />
 </data>

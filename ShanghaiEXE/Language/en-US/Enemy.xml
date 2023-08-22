@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <data>
   <!-- Enemy -->
   <Text Key="Enemy.BakeBakeName1" Value="GhostSP" />
@@ -310,29 +310,29 @@
   <Text Key="Enemy.HakutakuManSpecial" Value="BeastOut" />
   <Text Key="Enemy.MimaSpecial" Value="GodSoul" />
   <Text Key="Enemy.YorihimeSpecial" Value="GodSoul" />
-
   <Text Key="Enemy.FlandreName1" Value="Flandre" />
   <Text Key="Enemy.FlandreName2" Value="FlandreV2" />
   <Text Key="Enemy.FlandreName3" Value="FlandreV3" />
   <Text Key="Enemy.FlandreName4" Value="FlandreSP" />
-
   <Text Key="Enemy.YuyukoName1" Value="Yuyuko" />
   <Text Key="Enemy.YuyukoName2" Value="YuyukoSP" />
   <Text Key="Enemy.YuyukoName3" Value="YuyukoDS" />
-  
   <Text Key="Enemy.DruidManName" Value="DruidMan" />
   <Text Key="Enemy.DruidManNameV2" Value="DruidMnV2" />
   <Text Key="Enemy.DruidManNameV3" Value="DruidMnV3" />
   <Text Key="Enemy.DruidManNameSP" Value="DruidMnSP" />
   <Text Key="Enemy.DruidManNameSPPlus" Value="DrdMnSP" />
   <Text Key="Enemy.DruidManDarkSummonName" Value="TchrNavi" />
-  
   <Text Key="Enemy.MadmanName" Value="Madman" />
   <Text Key="Enemy.MadmanSpecial" Value="Enrage" />
-
   <Text Key="Enemy.HeavenBarrierName" Value="Blocker" />
   <Text Key="Enemy.HeavenBarrierSpecial" Value="Mitigate" />
-
   <Text Key="Enemy.CirnoBXName" Value="CirnoBX" />
   <Text Key="Enemy.CirnoDXName" Value="CirnoDX" />
+  <Text Key="Enemy.OrinName1" Value="Orin" />
+  <Text Key="Enemy.OrinName2" Value="OrinSP" />
+  <Text Key="Enemy.OrinName3" Value="OrinDS" />
+  <Text Key="Enemy.OrinName4" Value="OrinDSSP" />
+  <Text Key="Enemy.OrinMook1Name" Value="Spectrai" />
+  <Text Key="Enemy.OrinMook2Name" Value="FaeSkull" />
 </data>

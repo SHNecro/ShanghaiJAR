@@ -212,8 +212,8 @@ namespace MapEditor.Rendering
                     WindowStartupLocation = WindowStartupLocation.CenterOwner,
                     ResizeMode = ResizeMode.CanMinimize,
                     Title = "Enemy Selection",
-                    Width = 80 * 10 + 130,
-                    Height = 80 * 10 + 110
+                    Width = 80 * 10 + 125,
+                    Height = 80 * 11 + 65
                 };
                 BattleEventRenderer.EnemySelectionWindow.Closing += (s, e) =>
                 {

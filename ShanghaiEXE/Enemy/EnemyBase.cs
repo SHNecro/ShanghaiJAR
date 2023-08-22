@@ -273,6 +273,16 @@ namespace NSEnemy
                 case 85:
                     enemyBase = new CirnoBX(sound, parent, point.X, point.Y, n, u, v);
                     break;
+                // 86-90
+                case 90:
+                    enemyBase = new OrinMook1(sound, parent, point.X, point.Y, n, u, v);
+                    break;
+                case 91:
+                    enemyBase = new OrinMook2(sound, parent, point.X, point.Y, n, u, v);
+                    break;
+                case 92:
+                    enemyBase = new Orin(sound, parent, point.X, point.Y, n, u, v);
+                    break;
 
                 default:
                     enemyBase = null;
@@ -450,53 +460,53 @@ namespace NSEnemy
             return false;
         }
 
-        public virtual void Nameprint(IRenderer dg, bool numberprint)
-        {
-            if (!this.namePrint || this.parent == null || !this.parent.namePrint)
-                return;
-            var adjustedName = (!this.printNumber || this.version <= 1) ? this.name : (this.name + this.version.ToString());
-            AllBase.NAME[] nameArray = this.Nametodata(adjustedName);
-            int length = nameArray.Length;
-            int nameVersionAdjustmentOffset = 0;
-            try
-            {
-                if (this.name.Contains("V2") || this.name.Contains("V3") || (this.name.Contains("DS") || this.name.Contains("BX")) || (this.name.Contains("SP") || this.name.Contains("RV")) || this.name.Contains("EX"))
-                {
-                    --length;
-                    nameVersionAdjustmentOffset = 8;
-                }
-            }
-            catch
-            {
-            }
-            int nameXPosition = 240 - nameArray.Length * 8;
-            this.color = this.alfha == 0 ? Color.FromArgb(0, byte.MaxValue, byte.MaxValue, byte.MaxValue) : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue);
+		public virtual void Nameprint(IRenderer dg, bool numberprint)
+		{
+			if (!this.namePrint || this.parent == null || !this.parent.namePrint)
+				return;
+			var adjustedName = (!this.printNumber || this.version <= 1) ? this.name : (this.name + this.version.ToString());
+			AllBase.NAME[] nameArray = this.Nametodata(adjustedName);
+			int length = nameArray.Length;
+			int nameVersionAdjustmentOffset = 0;
 
-            // Draw edge of name backround <
-            this._rect = new Rectangle(320, 104, 8, 16);
-            this._position = new Vector2(nameXPosition - 8 + nameVersionAdjustmentOffset, this.number * 16);
-            dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-            // Draw background and name
-            for (int index = 0; index < length; ++index)
+            var specialCharacters = new[] { "V2", "V3", "DS", "BX", "SP", "RV", "EX" };
+            foreach (var character in specialCharacters)
             {
-                this._position = new Vector2(nameXPosition + 8 * index + nameVersionAdjustmentOffset, this.number * 16);
-                this._rect = new Rectangle(328, 104, 8, 16);
-                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+                if (this.name != null && this.name.Contains(character))
+				{
+					--length;
+					nameVersionAdjustmentOffset += 8;
+				}
             }
-            this._position = new Vector2(nameXPosition + nameVersionAdjustmentOffset, this.number * 16);
-            DrawBlockCharacters(dg, nameArray, 88, this._position, this.color, out this._rect, out this._position);
-            // Draw version number
-            if (numberprint && this.version > 1)
-            {
-                this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
-                this._rect = new Rectangle(328, 104, 8, 16);
-                dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
-                this._rect = new Rectangle(version * 8, 104, 8, 16);
-                dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
-            }
-        }
+			int nameXPosition = 240 - nameArray.Length * 8;
+			this.color = this.alfha == 0 ? Color.FromArgb(0, byte.MaxValue, byte.MaxValue, byte.MaxValue) : Color.FromArgb(byte.MaxValue, byte.MaxValue, byte.MaxValue, byte.MaxValue);
 
-        protected Point Return(int[] interval, int[] xpoint, int y, int waittime)
+			// Draw edge of name backround <
+			this._rect = new Rectangle(320, 104, 8, 16);
+			this._position = new Vector2(nameXPosition - 8 + nameVersionAdjustmentOffset, this.number * 16);
+			dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+			// Draw background and name
+			for (int index = 0; index < length; ++index)
+			{
+				this._position = new Vector2(nameXPosition + 8 * index + nameVersionAdjustmentOffset, this.number * 16);
+				this._rect = new Rectangle(328, 104, 8, 16);
+				dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+			}
+			this._position = new Vector2(nameXPosition + nameVersionAdjustmentOffset, this.number * 16);
+			DrawBlockCharacters(dg, nameArray, 88, this._position, this.color, out this._rect, out this._position);
+			// Draw version number
+			if (numberprint && this.version > 1)
+			{
+				this._position = new Vector2(nameXPosition + 8 * nameArray.Length + nameVersionAdjustmentOffset, this.number * 16);
+				this._rect = new Rectangle(328, 104, 8, 16);
+				dg.DrawImage(dg, "battleobjects", this._rect, true, this._position, this.color);
+				this._rect = new Rectangle(version * 8, 104, 8, 16);
+				dg.DrawImage(dg, "font", this._rect, true, this._position, this.color);
+			}
+		}
+
+
+		protected Point Return(int[] interval, int[] xpoint, int y, int waittime)
         {
             int index1 = 0;
             for (int index2 = 1; index2 < interval.Length; ++index2)
