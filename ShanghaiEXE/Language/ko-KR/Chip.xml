@@ -735,6 +735,13 @@
   <Text Key="Chip.UthuhoDSDesc" Value="지옥의 업화로,모조리 잿더미로,만들지어다" />
   <Text Key="Chip.FlandreDSName" Value="플랑드르DS" />
   <Text Key="Chip.FlandreDSDesc" Value="그 어떠한 것도,그녀의 손아귀 안에서는,무력할 뿐일지니" />
+  
+  <Text Key="Chip.FlandreV1Name" Value="[Flandre]" />
+  <Text Key="Chip.FlandreV1Desc" Value="[Use fire attack,then laser!]," />
+  <Text Key="Chip.FlandreV2Name" Value="[FlandreV2]" />
+  <Text Key="Chip.FlandreV2Desc" Value="[Use fire attack,then laser!]," />
+  <Text Key="Chip.FlandreV3Name" Value="[FlandreV3]" />
+  <Text Key="Chip.FlandreV3Desc" Value="[Use fire attack,then laser!]," />
 
   <Text Key="Chip.ErrorName" Value="ERROR" />
   <Text Key="Chip.ErrorDesc" Value="이 메시지가 사용되면 안 됨" />

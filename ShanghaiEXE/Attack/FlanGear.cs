@@ -8,6 +8,7 @@ using NSEnemy;
 using NSObject;
 using Common.Vectors;
 using System.Drawing;
+using NSShanghaiEXE.ExtensionMethods;
 
 namespace NSAttack
 {
@@ -52,7 +53,21 @@ namespace NSAttack
         public override void Updata()
         {
             if (this.hitting)
-                this.PanelBright();
+			{
+                foreach (var xOff in new[] { -1, 0, 1 })
+                {
+                    var yOffs = xOff == 0 ? new[] { -1, 0, 1 } : new[] { 0 };
+                    foreach (var yOff in yOffs)
+					{
+                        var x = this.position.X + xOff;
+                        var y = this.position.Y + yOff;
+                        if (this.InAreaCheck(new Point(x, y)))
+						{
+							this.parent.PanelBright(x, y);
+						}
+					}
+                }
+			}
             if (this.over)
                 return;
             if (this.moveflame)
@@ -91,67 +106,37 @@ namespace NSAttack
         }
 
         public override bool HitCheck(Point charaposition, Panel.COLOR charaunion)
-        {
-            bool result = false;
-            int posX = this.position.X;
-            int posY = this.position.Y;
-            this.PanelBright();
-            if (base.HitCheck(charaposition, charaunion)) { result = true; }
+		{
+			return base.HitCheck(charaposition, charaunion);
+		}
 
-            //if (this.position.X > 0) { this.position.X--; }
-            this.position.X--; this.PanelBright();
-            if (base.HitCheck(charaposition, charaunion)) { result = true; }
-            this.position.X = posX;
-            //if (this.position.X < 2) { this.position.X++; }
-            this.position.X++; this.PanelBright();
-            if (base.HitCheck(charaposition, charaunion)) { result = true; }
-            this.position.X = posX;
+		public override bool HitCheck(Point charaposition)
+		{
+            var originalPosition = new Point(this.position.X, this.position.Y);
 
-            //if (this.position.Y > 0) { this.position.Y--; }
-            this.position.Y--; this.PanelBright();
-            if (base.HitCheck(charaposition, charaunion)) { result = true; }
-            this.position.Y = posY;
-            //if (this.position.Y < 2) { this.position.Y++; }
-            this.position.Y++; this.PanelBright();
-            if (base.HitCheck(charaposition, charaunion)) { result = true; }
-            this.position.Y = posY;
+			foreach (var xOff in new[] { -1, 0, 1 })
+			{
+				var yOffs = xOff == 0 ? new[] { -1, 0, 1 } : new[] { 0 };
+				foreach (var yOff in yOffs)
+				{
+					var x = originalPosition.X + xOff;
+					var y = originalPosition.Y + yOff;
 
-            return result;
-            //return base.HitCheck(charaposition, charaunion);
-        }
+					// self-movement for proper setting/checking of hitflag[]
+					this.position = new Point(x, y);
+                    var success = base.HitCheck(charaposition);
+					this.position = originalPosition;
+					if (success)
+					{
+						return true;
+					}
+				}
+			}
 
-        public override bool HitCheck(Point charaposition)
-        {
-            bool result = false;
-            int posX = this.position.X;
-            int posY = this.position.Y;
+            return false;
+		}
 
-            if (base.HitCheck(charaposition)) { result = true; }
-
-            //if (this.position.X > 0) { this.position.X--; }
-            this.position.X--;
-            if (base.HitCheck(charaposition)) { result = true; }
-            this.position.X = posX;
-            //if (this.position.X < 2) { this.position.X++; }
-            this.position.X++;
-            if (base.HitCheck(charaposition)) { result = true; }
-            this.position.X = posX;
-
-            //if (this.position.Y > 0) { this.position.Y--; }
-            this.position.Y--;
-            if (base.HitCheck(charaposition)) { result = true; }
-            this.position.Y = posY;
-            //if (this.position.Y < 2) { this.position.Y++; }
-            this.position.Y++;
-            if (base.HitCheck(charaposition)) { result = true; }
-            this.position.Y = posY;
-
-            return result;
-
-            //return base.HitCheck(charaposition);
-        }
-
-        public override bool HitEvent(Player p)
+		public override bool HitEvent(Player p)
         {
             if (!base.HitEvent(p))
                 return false;
